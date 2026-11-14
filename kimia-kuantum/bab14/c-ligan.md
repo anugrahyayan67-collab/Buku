@@ -18,15 +18,15 @@ Untuk kompleks oktahedral ML₆ logam periode 4 dengan ligan donor σ saja (misa
 Kesetangkupan orbital logam dibaca langsung dari tabel karakter $O_h$: 4s bertransformasi sebagai $a_{1g}$, ketiga orbital 4p sebagai $t_{1u}$, dan orbital 3d sebagai $e_g + t_{2g}$. Untuk keenam orbital σ, karakter representasi tereduksinya adalah banyaknya orbital yang tidak berpindah tempat di bawah setiap operasi (subbab 10.7). Dalam urutan kelas $E$, $8C_3$, $6C_2'$, $6C_4$, $3C_2$, $i$, $6S_4$, $8S_6$, $3\sigma_h$, $6\sigma_d$, diperoleh
 
 $$
-\Gamma_\sigma:\ 6,\ 0,\ 0,\ 2,\ 2,\ 0,\ 0,\ 0,\ 4,\ 2 \quad\Longrightarrow\quad \Gamma_\sigma = A_{1g} + E_g + T_{1u} . \qquad \text{(14.el1)}
+\Gamma_\sigma:\ 6,\ 0,\ 0,\ 2,\ 2,\ 0,\ 0,\ 0,\ 4,\ 2 \quad\Longrightarrow\quad \Gamma_\sigma = A_{1g} + E_g + T_{1u} . \qquad \text{(14.27)}
 $$
 
 Tidak ada komponen $T_{2g}$. Inilah hasil terpenting teori medan ligan: **orbital $t_{2g}$ logam tidak mempunyai pasangan σ pada ligan**, sehingga dalam kompleks donor σ murni ketiganya tetap orbital d murni yang tak berikatan.
 
 ::: {.contoh}
-**Contoh 14.l1 · SALC σ oktahedral**
+**Contoh 14.29 · SALC σ oktahedral**
 
-(a) Periksa reduksi (14.el1) untuk $A_{1g}$ dan $T_{1u}$. (b) Tuliskan kombinasi linear teradaptasi simetri (SALC) yang cocok dengan 4s, $4p_x$, $3d_{z^2}$, dan $3d_{x^2-y^2}$, lalu periksa normalisasinya dengan mengabaikan tumpang tindih antarligan.
+(a) Periksa reduksi (14.27) untuk $A_{1g}$ dan $T_{1u}$. (b) Tuliskan kombinasi linear teradaptasi simetri (SALC) yang cocok dengan 4s, $4p_x$, $3d_{z^2}$, dan $3d_{x^2-y^2}$, lalu periksa normalisasinya dengan mengabaikan tumpang tindih antarligan.
 
 **Penyelesaian.** (a) Rumus reduksi dengan $h = 48$. $A_{1g}$ (semua karakter 1): $\tfrac{1}{48}[6 + 6 \cdot 2 + 3 \cdot 2 + 3 \cdot 4 + 6 \cdot 2] = \tfrac{48}{48} = 1$. $T_{1u}$ (karakter 3, 0, −1, 1, −1, −3, −1, 0, 1, 1): $\tfrac{1}{48}[18 + 6(2)(1) + 3(2)(-1) + 3(4)(1) + 6(2)(1)] = \tfrac{1}{48}[18 + 12 - 6 + 12 + 12] = 1$.
 
@@ -41,7 +41,7 @@ $$
 
 Normalisasinya: $\tfrac16 \cdot 6 = 1$; $\tfrac12 \cdot 2 = 1$; $\tfrac{1}{12}(4 + 4 + 1 + 1 + 1 + 1) = 1$; $\tfrac14 \cdot 4 = 1$.
 
-**Memahami hasil.** Pola koefisien SALC $e_g(z^2)$, yaitu $2, 2, -1, -1, -1, -1$, meniru nilai fungsi $d_{z^2}$ di keenam arah (Contoh 14.a1): positif dua kali lipat di sumbu $z$, negatif setengahnya di ekuator. Pola $e_g(x^2 - y^2)$ meniru $d_{x^2-y^2}$: positif di $\pm x$, negatif di $\pm y$. Begitulah SALC "memotret" orbital logam pada ligan, dan begitulah teori grup memastikan bahwa setiap SALC hanya berinteraksi dengan orbital logam yang sejenis.
+**Memahami hasil.** Pola koefisien SALC $e_g(z^2)$, yaitu $2, 2, -1, -1, -1, -1$, meniru nilai fungsi $d_{z^2}$ di keenam arah (Contoh 14.1): positif dua kali lipat di sumbu $z$, negatif setengahnya di ekuator. Pola $e_g(x^2 - y^2)$ meniru $d_{x^2-y^2}$: positif di $\pm x$, negatif di $\pm y$. Begitulah SALC "memotret" orbital logam pada ligan, dan begitulah teori grup memastikan bahwa setiap SALC hanya berinteraksi dengan orbital logam yang sejenis.
 :::
 
 ### Tumpang tindih grup
@@ -49,7 +49,7 @@ Normalisasinya: $\tfrac16 \cdot 6 = 1$; $\tfrac12 \cdot 2 = 1$; $\tfrac{1}{12}(4
 Interaksi antara orbital logam dan SALC sebanding dengan tumpang tindihnya, yang disebut **tumpang tindih grup** $G$. Misalkan $S_\sigma$ tumpang tindih $d_{z^2}$ dengan satu orbital σ ligan di sumbu $z$. Untuk ligan di ekuator, fungsi sudut $d_{z^2}$ bernilai $-\tfrac12$ kali nilainya di sumbu, sehingga tumpang tindihnya $-\tfrac12S_\sigma$. Maka
 
 $$
-G(e_g) = \langle d_{z^2}|e_g(z^2)\rangle = \tfrac{1}{\sqrt{12}}\left[2S_\sigma + 2S_\sigma - 4\left(-\tfrac12S_\sigma\right)\right] = \tfrac{6}{\sqrt{12}}S_\sigma = \sqrt3\,S_\sigma . \qquad \text{(14.el2)}
+G(e_g) = \langle d_{z^2}|e_g(z^2)\rangle = \tfrac{1}{\sqrt{12}}\left[2S_\sigma + 2S_\sigma - 4\left(-\tfrac12S_\sigma\right)\right] = \tfrac{6}{\sqrt{12}}S_\sigma = \sqrt3\,S_\sigma . \qquad \text{(14.28)}
 $$
 
 Hasil yang sama diperoleh untuk $d_{x^2-y^2}$: nilai sudutnya di keempat ligan ekuator $\pm\tfrac{\sqrt3}{2}$ kali nilai $d_{z^2}$ di sumbunya, sehingga $G = \tfrac12 \cdot 4 \cdot \tfrac{\sqrt3}{2}S_\sigma = \sqrt3\,S_\sigma$. Dengan cara yang sama, $G(a_{1g}) = \sqrt6\,S_s$ dan $G(t_{1u}) = \sqrt2\,S_p$, dengan $S_s$ dan $S_p$ tumpang tindih 4s dan 4p dengan satu orbital ligan. Untuk $t_{2g}$, $G = 0$.
@@ -61,35 +61,35 @@ Karena orbital dengan kesetangkupan berbeda tidak bercampur, matriks Hamiltonian
 $$
 \begin{vmatrix}\alpha_M - E & \beta_{e_g}\\ \beta_{e_g} & \alpha_L - E\end{vmatrix} = 0
 \quad\Longrightarrow\quad
-E_\pm = \frac{\alpha_M + \alpha_L}{2} \pm \sqrt{\left(\frac{\alpha_M - \alpha_L}{2}\right)^2 + \beta_{e_g}^2} . \qquad \text{(14.el3)}
+E_\pm = \frac{\alpha_M + \alpha_L}{2} \pm \sqrt{\left(\frac{\alpha_M - \alpha_L}{2}\right)^2 + \beta_{e_g}^2} . \qquad \text{(14.29)}
 $$
 
 Akar bawah adalah orbital ikatan $e_g$ (sebagian besar ligan), akar atas orbital antiikatan $e_g^*$ (sebagian besar logam). Bila $|\beta| \ll \alpha_M - \alpha_L$, uraian akar memberi
 
 $$
-E(e_g^*) \approx \alpha_M + \frac{\beta_{e_g}^2}{\alpha_M - \alpha_L} . \qquad \text{(14.el4)}
+E(e_g^*) \approx \alpha_M + \frac{\beta_{e_g}^2}{\alpha_M - \alpha_L} . \qquad \text{(14.30)}
 $$
 
 Orbital $t_{2g}$ tetap di $\alpha_M$. Dengan demikian
 
 $$
-\Delta_o = E(e_g^*) - E(t_{2g}) \approx \frac{\beta_{e_g}^2}{\alpha_M - \alpha_L} = 3\,\frac{\beta_\sigma^2}{\alpha_M - \alpha_L} \equiv 3e_\sigma , \qquad \text{(14.el5)}
+\Delta_o = E(e_g^*) - E(t_{2g}) \approx \frac{\beta_{e_g}^2}{\alpha_M - \alpha_L} = 3\,\frac{\beta_\sigma^2}{\alpha_M - \alpha_L} \equiv 3e_\sigma , \qquad \text{(14.31)}
 $$
 
-dengan $\beta_{e_g} = \sqrt3\,\beta_\sigma$, karena unsur matriks Hamiltonian kira-kira sebanding dengan tumpang tindih (hampiran Wolfsberg–Helmholz). Faktor 3 adalah kuadrat faktor tumpang tindih grup $\sqrt3$. Inilah dasar model tumpang tindih sudut (14.ea14): parameter $e_\sigma$ adalah destabilisasi orbital d oleh satu ligan, dan sudut masuk melalui kuadrat tumpang tindih.
+dengan $\beta_{e_g} = \sqrt3\,\beta_\sigma$, karena unsur matriks Hamiltonian kira-kira sebanding dengan tumpang tindih (hampiran Wolfsberg–Helmholz). Faktor 3 adalah kuadrat faktor tumpang tindih grup $\sqrt3$. Inilah dasar model tumpang tindih sudut (14.14): parameter $e_\sigma$ adalah destabilisasi orbital d oleh satu ligan, dan sudut masuk melalui kuadrat tumpang tindih.
 
 Dalam tafsir orbital molekul, $\Delta_o$ **bukan** hasil tolakan elektrostatik, melainkan ukuran sifat antiikatan $e_g^*$. Ligan yang merupakan donor σ lebih kuat (energi $\alpha_L$ lebih tinggi, lebih dekat ke $\alpha_M$; atau tumpang tindih lebih besar) memberi $\Delta_o$ lebih besar. Logam 4d dan 5d dengan orbital lebih luas memberi tumpang tindih lebih besar dan $\Delta_o$ lebih besar. Muatan logam yang lebih tinggi memendekkan ikatan dan menaikkan tumpang tindih. Semua kecenderungan subbab 14.2 muncul kembali, kini dengan penjelasan yang benar.
 
-![Gambar 14.g5 Diagram orbital molekul kompleks oktahedral ML₆ dengan ligan donor σ saja, dihitung dari model Contoh 14.l3. Orbital ikatan $a_{1g}$, $t_{1u}$, dan $e_g$ (sebagian besar ligan) menampung 12 elektron ligan. Orbital $t_{2g}$ tak berikatan dan $e_g^*$ antiikatan menampung elektron d; selisih keduanya adalah $\Delta_o$.](fig/c_om.png){width=88%}
+![Gambar 14.6 Diagram orbital molekul kompleks oktahedral ML₆ dengan ligan donor σ saja, dihitung dari model Contoh 14.31. Orbital ikatan $a_{1g}$, $t_{1u}$, dan $e_g$ (sebagian besar ligan) menampung 12 elektron ligan. Orbital $t_{2g}$ tak berikatan dan $e_g^*$ antiikatan menampung elektron d; selisih keduanya adalah $\Delta_o$.](fig/c_om.png){width=88%}
 
 ### Diagram orbital molekul dan pengisian elektron
 
-Gambar 14.g5 memperlihatkan diagram lengkapnya. Dari bawah ke atas: enam orbital ikatan ($a_{1g}$, $t_{1u}$, $e_g$), yang sebagian besar berkarakter ligan; tiga orbital $t_{2g}$ tak berikatan, murni d; dua orbital $e_g^*$ antiikatan, sebagian besar d; lalu $a_{1g}^*$ dan $t_{1u}^*$ yang jauh di atas, sebagian besar 4s dan 4p.
+Gambar 14.6 memperlihatkan diagram lengkapnya. Dari bawah ke atas: enam orbital ikatan ($a_{1g}$, $t_{1u}$, $e_g$), yang sebagian besar berkarakter ligan; tiga orbital $t_{2g}$ tak berikatan, murni d; dua orbital $e_g^*$ antiikatan, sebagian besar d; lalu $a_{1g}^*$ dan $t_{1u}^*$ yang jauh di atas, sebagian besar 4s dan 4p.
 
 Keenam ligan menyumbang 12 elektron yang mengisi enam orbital ikatan. Elektron d logam masuk ke $t_{2g}$ dan $e_g^*$: **persis** seperti dalam teori medan kristal. Itu sebabnya semua penghitungan ESMK, keadaan spin, dan momen magnet di subbab 14.4–14.6 tetap berlaku; yang berubah hanyalah pemahaman bahwa elektron $e_g^*$ menempati orbital antiikatan. Mengisi $e_g^*$ **melemahkan** ikatan logam–ligan. Inilah alasan mendalam mengapa ion spin tinggi lebih besar, mengapa kompleks d⁸ dan d⁹ melemahkan atau memanjangkan sebagian ikatannya, dan mengapa kompleks dengan $e_g^*$ kosong (Cr³⁺, Co³⁺ spin rendah) begitu stabil.
 
 ::: {.contoh}
-**Contoh 14.l2 · Menghitung elektron dalam diagram OM**
+**Contoh 14.30 · Menghitung elektron dalam diagram OM**
 
 Untuk [Co(NH₃)₆]³⁺, [Cr(H₂O)₆]³⁺, [Ni(H₂O)₆]²⁺, dan [Cu(NH₃)₄(H₂O)₂]²⁺, hitung banyaknya elektron valensi total dalam diagram OM dan banyaknya elektron di orbital antiikatan $e_g^*$.
 
@@ -99,9 +99,9 @@ Untuk [Co(NH₃)₆]³⁺, [Cr(H₂O)₆]³⁺, [Ni(H₂O)₆]²⁺, dan [Cu(NH�
 :::
 
 ::: {.contoh}
-**Contoh 14.l3 · Model OM numerik**
+**Contoh 14.31 · Model OM numerik**
 
-Pakai energi Coulomb (eV) $\alpha(3d) = -11{,}0$, $\alpha(4s) = -7{,}0$, $\alpha(4p) = -3{,}5$, $\alpha_L = -15{,}0$, dan unsur matriks resonansi $\beta(a_{1g}) = 4{,}0$, $\beta(t_{1u}) = 2{,}5$, $\beta(e_g) = 2{,}8$ eV. Hitung energi orbital molekul, $\Delta_o$, dan persen karakter logam setiap orbital. Bandingkan $\Delta_o$ dengan hampiran (14.el4).
+Pakai energi Coulomb (eV) $\alpha(3d) = -11{,}0$, $\alpha(4s) = -7{,}0$, $\alpha(4p) = -3{,}5$, $\alpha_L = -15{,}0$, dan unsur matriks resonansi $\beta(a_{1g}) = 4{,}0$, $\beta(t_{1u}) = 2{,}5$, $\beta(e_g) = 2{,}8$ eV. Hitung energi orbital molekul, $\Delta_o$, dan persen karakter logam setiap orbital. Bandingkan $\Delta_o$ dengan hampiran (14.30).
 
 **Penyelesaian.**
 
@@ -126,9 +126,9 @@ Hasilnya:
 | $t_{1u}$ | −15,52 | 4,1 | −2,98 | 95,9 |
 | $t_{2g}$ | — | — | −11,00 (tak berikatan) | 100 |
 
-$\Delta_o = -9{,}559 - (-11{,}000) = 1{,}441$ eV $= 11\,600$ cm⁻¹. Hampiran (14.el4) memberi $2{,}8^2/4{,}0 = 1{,}96$ eV, 36% terlalu besar.
+$\Delta_o = -9{,}559 - (-11{,}000) = 1{,}441$ eV $= 11\,600$ cm⁻¹. Hampiran (14.30) memberi $2{,}8^2/4{,}0 = 1{,}96$ eV, 36% terlalu besar.
 
-**Memahami hasil.** Orbital $e_g^*$ hanya 79% d; 21% sisanya tersebar pada keenam ligan. Elektron di $e_g^*$ karena itu menempati ruang yang lebih besar daripada orbital 3d ion bebas: inilah efek nefelauksetik dalam bentuk paling sederhana. Hampiran perturbasi (14.el4) kurang tepat di sini karena $\beta$ tidak jauh lebih kecil daripada $\alpha_M - \alpha_L$; ikatan logam–ligan cukup kovalen. Model ini tentu kasar (parameternya dipilih, bukan dihitung), tetapi seluruh perhitungan ab initio modern menghasilkan gambaran kualitatif yang sama.
+**Memahami hasil.** Orbital $e_g^*$ hanya 79% d; 21% sisanya tersebar pada keenam ligan. Elektron di $e_g^*$ karena itu menempati ruang yang lebih besar daripada orbital 3d ion bebas: inilah efek nefelauksetik dalam bentuk paling sederhana. Hampiran perturbasi (14.30) kurang tepat di sini karena $\beta$ tidak jauh lebih kecil daripada $\alpha_M - \alpha_L$; ikatan logam–ligan cukup kovalen. Model ini tentu kasar (parameternya dipilih, bukan dihitung), tetapi seluruh perhitungan ab initio modern menghasilkan gambaran kualitatif yang sama.
 :::
 
 ### Efek nefelauksetik
@@ -136,25 +136,25 @@ $\Delta_o = -9{,}559 - (-11{,}000) = 1{,}441$ eV $= 11\,600$ cm⁻¹. Hampiran (
 Dalam ion bebas, tolakan antarelektron d dinyatakan dengan parameter Racah $B$ dan $C$ (subbab 14.9). Dalam kompleks, nilai $B$ yang diperoleh dari spektrum (subbab 14.10) selalu lebih kecil. Perbandingannya,
 
 $$
-\beta = \frac{B_\text{kompleks}}{B_\text{ion bebas}} < 1 , \qquad \text{(14.el6)}
+\beta = \frac{B_\text{kompleks}}{B_\text{ion bebas}} < 1 , \qquad \text{(14.32)}
 $$
 
 disebut **rasio nefelauksetik**. Ada dua penyebab yang keduanya bersumber dari kovalensi: orbital $e_g^*$ dan $t_{2g}$ (bila ada ikatan π) sebagian berada pada ligan sehingga rata-rata jarak antarelektron d membesar, dan muatan efektif logam berkurang karena ligan menyumbangkan rapat elektron sehingga orbital d mengembang. Jørgensen menemukan bahwa, seperti $\Delta_o$, pengaruh ligan dan logam dapat dipisahkan:
 
 $$
-1 - \beta \approx h(\text{ligan}) \times k(\text{logam}) , \qquad \text{(14.el7)}
+1 - \beta \approx h(\text{ligan}) \times k(\text{logam}) , \qquad \text{(14.33)}
 $$
 
 dengan $h$: F⁻ 0,8; H₂O 1,0; NH₃ 1,4; en 1,5; Cl⁻ 2,0; CN⁻ 2,0; Br⁻ 2,3; I⁻ 2,7, dan $k$: Mn²⁺ 0,07; Ni²⁺ 0,12; Cr³⁺ 0,20; Fe³⁺ 0,24; Rh³⁺ 0,28; Co³⁺ 0,33. **Deret nefelauksetik** ligan, F⁻ < H₂O < NH₃ < en < Cl⁻ ≈ CN⁻ < Br⁻ < I⁻, berbeda dari deret spektrokimia. Ia mengurutkan ligan menurut kovalensinya: ligan yang lunak dan mudah terpolarisasi (I⁻, Br⁻) paling banyak "berbagi" elektron dengan logam, walaupun $\Delta_o$-nya kecil.
 
 ::: {.contoh}
-**Contoh 14.l4 · Memeriksa rumus nefelauksetik**
+**Contoh 14.32 · Memeriksa rumus nefelauksetik**
 
-Dari analisis spektrum (subbab 14.10), $B$ untuk [Cr(H₂O)₆]³⁺ adalah 729 cm⁻¹ dan untuk [Cr(NH₃)₆]³⁺ 657 cm⁻¹; $B$ ion bebas Cr³⁺ 918 cm⁻¹. Hitung $\beta$ teramati dan bandingkan dengan (14.el7).
+Dari analisis spektrum (subbab 14.10), $B$ untuk [Cr(H₂O)₆]³⁺ adalah 729 cm⁻¹ dan untuk [Cr(NH₃)₆]³⁺ 657 cm⁻¹; $B$ ion bebas Cr³⁺ 918 cm⁻¹. Hitung $\beta$ teramati dan bandingkan dengan (14.33).
 
 **Penyelesaian.** Teramati: $\beta(\text{H}_2\text{O}) = 729/918 = 0{,}79$; $\beta(\text{NH}_3) = 657/918 = 0{,}72$. Ramalan: $1 - (1{,}0)(0{,}20) = 0{,}80$ dan $1 - (1{,}4)(0{,}20) = 0{,}72$.
 
-**Memahami hasil.** Kecocokannya hampir sempurna. Dalam [Cr(NH₃)₆]³⁺, tolakan antarelektron d hanya 72% nilai ion bebas: elektron d menghabiskan cukup banyak waktu di luar logam. Hasil ini juga menjelaskan Contoh 14.b8: karena energi pemasangan sebanding dengan $B$ dan $C$, energi pemasangan dalam kompleks berkurang dengan faktor yang sama, dan kompleks dengan $\Delta_o$ di dekat perbatasan dapat jatuh ke spin rendah.
+**Memahami hasil.** Kecocokannya hampir sempurna. Dalam [Cr(NH₃)₆]³⁺, tolakan antarelektron d hanya 72% nilai ion bebas: elektron d menghabiskan cukup banyak waktu di luar logam. Hasil ini juga menjelaskan Contoh 14.20: karena energi pemasangan sebanding dengan $B$ dan $C$, energi pemasangan dalam kompleks berkurang dengan faktor yang sama, dan kompleks dengan $\Delta_o$ di dekat perbatasan dapat jatuh ke spin rendah.
 :::
 
 ::: {.awas}
@@ -178,7 +178,7 @@ Banyak ligan mempunyai orbital yang dapat berinteraksi dengan logam secara π, y
 Setiap ligan menyumbang dua orbital π, tegak lurus satu sama lain dan tegak lurus sumbu ikatan, sehingga oktahedron mempunyai 12 orbital π. Karakter representasinya (kotak di bawah) memberi
 
 $$
-\Gamma_\pi = T_{1g} + T_{2g} + T_{1u} + T_{2u} . \qquad \text{(14.el8)}
+\Gamma_\pi = T_{1g} + T_{2g} + T_{1u} + T_{2u} . \qquad \text{(14.34)}
 $$
 
 Komponen $T_{2g}$ adalah pasangan bagi orbital $t_{2g}$ logam yang tidak mempunyai pasangan σ. Komponen $T_{1u}$ dapat bercampur sedikit dengan 4p (yang sudah sibuk dengan ikatan σ), sedangkan $T_{1g}$ dan $T_{2u}$ tidak mempunyai pasangan di logam dan tetap orbital ligan murni. Jadi ikatan π mengubah satu hal yang paling penting: orbital $t_{2g}$ **tidak lagi tak berikatan**.
@@ -197,9 +197,9 @@ Bila ligan mempunyai orbital π **terisi** yang energinya di bawah orbital d (ha
 
 Bila ligan mempunyai orbital π **kosong** di atas orbital d (CO, CN⁻, bipiridina, fosfina), kombinasi ikatan adalah "$t_{2g}$" baru yang terdorong ke bawah, sebagian besar logam tetapi kini sedikit tersebar ke ligan. $\Delta_o$ **membesar**. Elektron $t_{2g}$ yang menempati orbital ikatan ini memperkuat ikatan logam–ligan dengan memindahkan rapat elektron dari logam ke orbital π* ligan. Gejala ini disebut **ikatan balik** (*back-bonding*). Ikatan σ dari ligan ke logam dan ikatan balik π dari logam ke ligan saling memperkuat: makin banyak rapat elektron yang diterima logam melalui σ, makin mudah logam mengembalikannya melalui π. Kerja sama ini, yang disebut **sinergi**, menjelaskan mengapa CO, ligan yang hampir tidak bersifat basa terhadap proton, membentuk ikatan sangat kuat dengan logam bervalensi rendah.
 
-![Gambar 14.g6 Pengaruh ikatan π pada $\Delta_o$. Kiri: ligan donor σ saja, $t_{2g}$ tak berikatan. Tengah: ligan donor π (orbital π terisi di bawah d) mendorong $t_{2g}$ naik, $\Delta_o$ mengecil. Kanan: ligan akseptor π (orbital π* kosong di atas d) menarik $t_{2g}$ turun, $\Delta_o$ membesar. Energi dihitung dengan model Contoh 14.l5.](fig/c_pi.png){width=92%}
+![Gambar 14.7 Pengaruh ikatan π pada $\Delta_o$. Kiri: ligan donor σ saja, $t_{2g}$ tak berikatan. Tengah: ligan donor π (orbital π terisi di bawah d) mendorong $t_{2g}$ naik, $\Delta_o$ mengecil. Kanan: ligan akseptor π (orbital π* kosong di atas d) menarik $t_{2g}$ turun, $\Delta_o$ membesar. Energi dihitung dengan model Contoh 14.33.](fig/c_pi.png){width=92%}
 
-Dengan ini deret spektrokimia (14.ea10) mendapat tafsirnya:
+Dengan ini deret spektrokimia (14.10) mendapat tafsirnya:
 
 $$
 \underbrace{\text{I}^- < \text{Br}^- < \text{Cl}^- < \text{F}^- < \text{OH}^-}_{\text{donor }\pi} < \underbrace{\text{H}_2\text{O}}_{\pi\text{ lemah}} < \underbrace{\text{NH}_3 < \text{en}}_{\sigma\text{ saja}} < \underbrace{\text{bpy} < \text{phen} < \text{PR}_3 < \text{CN}^- < \text{CO}}_{\text{akseptor }\pi} .
@@ -208,19 +208,19 @@ $$
 Dalam model tumpang tindih sudut, interaksi π ditambahkan dengan parameter $e_\pi$ (positif untuk donor, negatif untuk akseptor). Setiap orbital $t_{2g}$ berinteraksi π dengan empat ligan, sehingga $E(t_{2g}) = 4e_\pi$, dan orbital $e_g$ tidak berinteraksi π sama sekali:
 
 $$
-\Delta_o = 3e_\sigma - 4e_\pi . \qquad \text{(14.el9)}
+\Delta_o = 3e_\sigma - 4e_\pi . \qquad \text{(14.35)}
 $$
 
 ::: {.contoh}
-**Contoh 14.l5 · Model OM dengan ikatan π**
+**Contoh 14.33 · Model OM dengan ikatan π**
 
-Lanjutkan Contoh 14.l3. Tambahkan (a) orbital π ligan terisi pada $-16{,}0$ eV dengan $\beta(t_{2g}) = 1{,}0$ eV (donor π), atau (b) orbital π* ligan kosong pada $-7{,}0$ eV dengan $\beta(t_{2g}) = 1{,}0$ eV (akseptor π). Hitung pergeseran $t_{2g}$ dan $\Delta_o$ baru.
+Lanjutkan Contoh 14.31. Tambahkan (a) orbital π ligan terisi pada $-16{,}0$ eV dengan $\beta(t_{2g}) = 1{,}0$ eV (donor π), atau (b) orbital π* ligan kosong pada $-7{,}0$ eV dengan $\beta(t_{2g}) = 1{,}0$ eV (akseptor π). Hitung pergeseran $t_{2g}$ dan $\Delta_o$ baru.
 
 **Penyelesaian.** Blok $t_{2g}$ kini matriks 2 × 2.
 
 ```python
 import numpy as np
-ad, Eeg = -11.0, -9.559           # energi d dan e_g* dari Contoh 14.l3
+ad, Eeg = -11.0, -9.559           # energi d dan e_g* dari Contoh 14.31
 for nama, api in [('donor', -16.0), ('akseptor', -7.0)]:
     E, C = np.linalg.eigh([[ad, 1.0], [1.0, api]])
     t2g = E[1] if api < ad else E[0]      # orbital yang sebagian besar d
@@ -233,11 +233,11 @@ for nama, api in [('donor', -16.0), ('akseptor', -7.0)]:
 :::
 
 ::: {.contoh}
-**Contoh 14.l6 · Memisahkan σ dan π**
+**Contoh 14.34 · Memisahkan σ dan π**
 
 (a) Untuk [Cr(NH₃)₆]³⁺, NH₃ tidak mempunyai orbital π yang cocok ($e_\pi = 0$) dan $\Delta_o = 21\,550$ cm⁻¹. Hitung $e_\sigma(\text{NH}_3)$. (b) Untuk [CrF₆]³⁻, $\Delta_o = 15\,060$ cm⁻¹. Jika $e_\pi(\text{F}^-) \approx 2000$ cm⁻¹ (diperoleh dari spektrum kompleks campuran trans-[CrF₂L₄]⁺), hitung $e_\sigma(\text{F}^-)$. (c) Untuk [Cr(CN)₆]³⁻, $\Delta_o = 26\,600$ cm⁻¹. Jika $e_\sigma(\text{CN}^-) \approx 7500$ cm⁻¹, hitung $e_\pi(\text{CN}^-)$.
 
-**Penyelesaian.** Dari (14.el9). (a) $e_\sigma = 21\,550/3 = 7180$ cm⁻¹. (b) $e_\sigma = (15\,060 + 4 \times 2000)/3 = 7690$ cm⁻¹. (c) $e_\pi = (3 \times 7500 - 26\,600)/4 = -1030$ cm⁻¹.
+**Penyelesaian.** Dari (14.35). (a) $e_\sigma = 21\,550/3 = 7180$ cm⁻¹. (b) $e_\sigma = (15\,060 + 4 \times 2000)/3 = 7690$ cm⁻¹. (c) $e_\pi = (3 \times 7500 - 26\,600)/4 = -1030$ cm⁻¹.
 
 **Memahami hasil.** Sebagai donor σ, F⁻ sebenarnya **lebih kuat** daripada NH₃ ($e_\sigma$ 7690 terhadap 7180), sesuai dengan muatannya. Kedudukannya yang rendah di deret spektrokimia sepenuhnya akibat donasi π. Sebaliknya, sianida memperoleh hampir 15% $\Delta_o$-nya dari ikatan balik ($-4e_\pi = 4100$ cm⁻¹). Parameter AOM yang terpisah ini dapat dipindahkan dari satu kompleks ke kompleks lain dengan logam yang sama, sehingga memungkinkan ramalan spektrum kompleks campuran.
 :::
@@ -255,7 +255,7 @@ Bukti paling jelas ikatan balik datang dari spektroskopi inframerah. Orbital π*
 Pengaruhnya terhadap ikatan C≡O dapat dikuantitatifkan dengan tetapan gaya $k = \mu(2\pi c\tilde\nu)^2$ (subbab 5.7), dengan $\mu(^{12}\text{C}^{16}\text{O}) = 6{,}856$ u.
 
 ::: {.contoh}
-**Contoh 14.l7 · Tetapan gaya CO dalam karbonil**
+**Contoh 14.35 · Tetapan gaya CO dalam karbonil**
 
 Hitung tetapan gaya C–O untuk CO bebas, [Ti(CO)₆]²⁻, Cr(CO)₆, dan [Fe(CO)₆]²⁺ dari Tabel 14.6. Mengapa CO dalam [Fe(CO)₆]²⁺ bergetar lebih cepat daripada CO bebas?
 
@@ -269,7 +269,7 @@ Hitung tetapan gaya C–O untuk CO bebas, [Ti(CO)₆]²⁻, Cr(CO)₆, dan [Fe(C
 Gagasan σ + π balik berlaku pula untuk ligan alkena. Dalam garam Zeise, K[PtCl₃(C₂H₄)], ikatan Pt–etilena terbentuk dari donasi orbital π C=C yang terisi ke orbital σ kosong platina, ditambah ikatan balik dari orbital d terisi platina ke orbital π* C=C yang kosong. Kedua interaksi melemahkan ikatan C=C: frekuensi ulurnya turun dari 1623 cm⁻¹ pada etilena bebas ke sekitar 1516 cm⁻¹, dan atom-atom hidrogen sedikit membengkok menjauhi logam. Bila ikatan balik sangat kuat (logam kaya elektron, alkena dengan substituen penarik elektron), ikatan C=C hampir menjadi tunggal, dan kompleks lebih tepat digambarkan sebagai metalasiklopropana. Model yang sama menjelaskan aktivasi molekul kecil oleh katalis logam: ikatan balik ke orbital antiikatan substrat melemahkan ikatannya.
 
 ::: {.contoh}
-**Contoh 14.l8 · Melemahnya ikatan C=C dalam garam Zeise**
+**Contoh 14.36 · Melemahnya ikatan C=C dalam garam Zeise**
 
 Dengan menganggap massa tereduksi efektif getaran C=C tidak berubah, berapa persen tetapan gaya C=C berkurang ketika etilena terikat pada Pt(II)?
 
@@ -279,13 +279,13 @@ Dengan menganggap massa tereduksi efektif getaran C=C tidak berubah, berapa pers
 :::
 
 ::: {.contoh}
-**Contoh 14.l9 · Ramalan urutan $\Delta_o$**
+**Contoh 14.37 · Ramalan urutan $\Delta_o$**
 
 Tanpa tabel, urutkan $\Delta_o$ untuk [CrCl₆]³⁻, [Cr(H₂O)₆]³⁺, [Cr(NH₃)₆]³⁺, [Cr(bpy)₃]³⁺, dan [Cr(CN)₆]³⁻, dan sebutkan jenis interaksi yang menentukan setiap langkah.
 
 **Penyelesaian.** [CrCl₆]³⁻ < [Cr(H₂O)₆]³⁺ < [Cr(NH₃)₆]³⁺ < [Cr(bpy)₃]³⁺ < [Cr(CN)₆]³⁻. Cl⁻: donor σ lemah (orbital 3p tinggi tetapi tumpang tindih dengan d kecil pada jarak Cr–Cl yang panjang) dan donor π kuat. H₂O: donor σ sedang, donor π lemah. NH₃: donor σ saja. bpy: donor σ ditambah akseptor π lemah. CN⁻: donor σ kuat dan akseptor π.
 
-**Memahami hasil.** Nilai teramati (cm⁻¹) kira-kira 13 000; 17 400; 21 550; 23 000; dan 26 600, sesuai urutan. Dengan Cr³⁺ (muatan tinggi, $t_{2g}^3$), ikatan balik ke CN⁻ dan bpy masih sedang. Untuk logam bermuatan rendah, akseptor π jauh lebih kuat; itulah sebabnya faktor $f(\text{CN}^-)$ Jørgensen lebih cocok untuk Fe(II) daripada untuk Cr(III) (Contoh 14.a6).
+**Memahami hasil.** Nilai teramati (cm⁻¹) kira-kira 13 000; 17 400; 21 550; 23 000; dan 26 600, sesuai urutan. Dengan Cr³⁺ (muatan tinggi, $t_{2g}^3$), ikatan balik ke CN⁻ dan bpy masih sedang. Untuk logam bermuatan rendah, akseptor π jauh lebih kuat; itulah sebabnya faktor $f(\text{CN}^-)$ Jørgensen lebih cocok untuk Fe(II) daripada untuk Cr(III) (Contoh 14.6).
 :::
 
 ::: {.terapan}
