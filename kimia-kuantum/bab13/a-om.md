@@ -49,7 +49,7 @@ Dari Bab 2: matriks, determinan, dan nilai eigen (subbab 2.7, 2.8), deret Fourie
 Gagasan LCAO dari Bab 11 berlaku tanpa perubahan untuk molekul berapa pun ukurannya. Kita memilih himpunan orbital atom (fungsi basis) $\{\chi_\mu\}$ pada semua atom, dan menulis setiap orbital molekul sebagai
 
 $$
-\psi_i = \sum_{\mu = 1}^{M}c_{\mu i}\,\chi_\mu . \qquad \text{(13.e1)}
+\psi_i = \sum_{\mu = 1}^{M}c_{\mu i}\,\chi_\mu . \qquad \text{(13.1)}
 $$
 
 Untuk H₂O dengan basis minimal (orbital $1s$, $2s$, dan tiga $2p$ oksigen, ditambah $1s$ setiap hidrogen) $M = 7$, sehingga terbentuk tujuh OM. Untuk benzena dengan basis minimal $M = 36$. Banyaknya OM selalu sama dengan banyaknya fungsi basis: orbital tidak diciptakan atau dimusnahkan, hanya dicampur.
@@ -57,10 +57,10 @@ Untuk H₂O dengan basis minimal (orbital $1s$, $2s$, dan tiga $2p$ oksigen, dit
 Koefisien $c_{\mu i}$ ditentukan dengan metode variasi linear (subbab 8.4). Meminimumkan energi orbital terhadap koefisien menghasilkan persamaan sekuler, yang dalam bentuk matriks adalah **masalah nilai eigen yang diperumum**
 
 $$
-\mathbf H\mathbf c_i = \varepsilon_i\,\mathbf S\mathbf c_i , \qquad H_{\mu\nu} = \langle\chi_\mu|\hat h|\chi_\nu\rangle , \quad S_{\mu\nu} = \langle\chi_\mu|\chi_\nu\rangle , \qquad \text{(13.e2)}
+\mathbf H\mathbf c_i = \varepsilon_i\,\mathbf S\mathbf c_i , \qquad H_{\mu\nu} = \langle\chi_\mu|\hat h|\chi_\nu\rangle , \quad S_{\mu\nu} = \langle\chi_\mu|\chi_\nu\rangle , \qquad \text{(13.2)}
 $$
 
-dengan $\hat h$ operator satu elektron efektif. Dalam metode Hartree–Fock, $\hat h$ adalah operator Fock, yang bergantung pada orbital-orbital itu sendiri sehingga persamaan harus diselesaikan secara iteratif (persamaan Roothaan, subbab 17.3). Dalam metode semiempiris seperti metode Hückel, unsur-unsur $H_{\mu\nu}$ diambil dari parameter empiris, sehingga (13.e2) diselesaikan sekali saja. Bagaimanapun caranya, persamaan (13.e2) adalah inti teori orbital molekul, dan menyelesaikannya berarti mendiagonalisasi matriks.
+dengan $\hat h$ operator satu elektron efektif. Dalam metode Hartree–Fock, $\hat h$ adalah operator Fock, yang bergantung pada orbital-orbital itu sendiri sehingga persamaan harus diselesaikan secara iteratif (persamaan Roothaan, subbab 17.3). Dalam metode semiempiris seperti metode Hückel, unsur-unsur $H_{\mu\nu}$ diambil dari parameter empiris, sehingga (13.2) diselesaikan sekali saja. Bagaimanapun caranya, persamaan (13.2) adalah inti teori orbital molekul, dan menyelesaikannya berarti mendiagonalisasi matriks.
 
 ### Simetri memecah masalah
 
@@ -68,7 +68,7 @@ Bila molekul mempunyai simetri, kita tidak perlu mendiagonalisasi matriks $M \ti
 
 ### Orbital kanonik dan orbital terlokalisasi
 
-Orbital-orbital yang diperoleh dengan menyelesaikan (13.e2) disebut **orbital kanonik**. Mereka mempunyai dua sifat penting: setiap orbital adalah fungsi eigen operator satu elektron, dengan energi $\varepsilon_i$ yang terdefinisi, dan setiap orbital bersimetri seperti salah satu representasi tak tereduksi. Konsekuensinya, orbital kanonik pada umumnya **tersebar ke seluruh molekul**: misalnya orbital $1t_2$ metana memuat keempat atom H.
+Orbital-orbital yang diperoleh dengan menyelesaikan (13.2) disebut **orbital kanonik**. Mereka mempunyai dua sifat penting: setiap orbital adalah fungsi eigen operator satu elektron, dengan energi $\varepsilon_i$ yang terdefinisi, dan setiap orbital bersimetri seperti salah satu representasi tak tereduksi. Konsekuensinya, orbital kanonik pada umumnya **tersebar ke seluruh molekul**: misalnya orbital $1t_2$ metana memuat keempat atom H.
 
 Di subbab 12.13 kita telah melihat bahwa orbital-orbital terisi dapat ditransformasi secara uniter tanpa mengubah fungsi gelombang total. Orbital terlokalisasi (ikatan dua pusat, pasangan bebas) yang diperoleh dengan cara itu sama sahnya. Pembagian kerja kedua jenis orbital itu jelas:
 
@@ -93,15 +93,15 @@ Dari persamaan sekuler dua orbital (subbab 11.4) kita memperoleh tiga aturan pra
 Ada satu akibat dari tumpang tindih yang perlu ditekankan. Untuk dua orbital dengan energi $\alpha$ yang sama, interaksi $\beta$, dan tumpang tindih $S$, persamaan sekulernya memberikan
 
 $$
-E_\pm = \frac{\alpha \pm \beta}{1 \pm S} . \qquad \text{(13.e3)}
+E_\pm = \frac{\alpha \pm \beta}{1 \pm S} . \qquad \text{(13.3)}
 $$
 
-Karena penyebut $1 + S > 1 - S$, orbital antiikatan **lebih tidak stabil** daripada orbital ikatan **stabil** (Contoh 13.a3). Bila kedua orbital terisi (empat elektron), totalnya adalah tolakan. Inilah asal tolakan antara dua molekul berkulit tertutup (He···He, tolakan sterik antara dua ikatan C–H) yang sering disebut **tolakan Pauli** atau tolakan tumpang tindih.
+Karena penyebut $1 + S > 1 - S$, orbital antiikatan **lebih tidak stabil** daripada orbital ikatan **stabil** (Contoh 13.3). Bila kedua orbital terisi (empat elektron), totalnya adalah tolakan. Inilah asal tolakan antara dua molekul berkulit tertutup (He···He, tolakan sterik antara dua ikatan C–H) yang sering disebut **tolakan Pauli** atau tolakan tumpang tindih.
 
-![Gambar 13.g1 Empat orbital molekul valensi terisi H₂O dari perhitungan Hückel diperluas (Contoh 13.a5). Tiga panel pertama: bidang molekul ($yz$); panel terakhir: bidang tegak lurus yang memuat sumbu $C_2$ ($xz$), karena $1b_1$ adalah orbital $2p_x$ oksigen yang tegak lurus bidang molekul. Biru dan jingga: tanda fungsi gelombang; titik: inti.](fig/c_air.png){width=94%}
+![Gambar 13.1 Empat orbital molekul valensi terisi H₂O dari perhitungan Hückel diperluas (Contoh 13.5). Tiga panel pertama: bidang molekul ($yz$); panel terakhir: bidang tegak lurus yang memuat sumbu $C_2$ ($xz$), karena $1b_1$ adalah orbital $2p_x$ oksigen yang tegak lurus bidang molekul. Biru dan jingga: tanda fungsi gelombang; titik: inti.](fig/c_air.png){width=94%}
 
 ::: {.contoh}
-**Contoh 13.a1 · Orbital molekul BeH₂**
+**Contoh 13.1 · Orbital molekul BeH₂**
 
 Untuk BeH₂ linear (sumbu $z$), (a) susun SALC dari kedua orbital $1s$ hidrogen, $h_a$ dan $h_b$, dan tentukan orbital Be yang dapat bercampur dengan masing-masing. (b) Perhitungan Hückel diperluas (Be–H 133 pm) memberikan dua OM terisi: $2\sigma_g$ ($-15{,}67$ eV) $= 0{,}392\,(2s) + 0{,}490\,(h_a + h_b)$ dan $1\sigma_u$ ($-14{,}02$ eV) $= 0{,}244\,(2p_z) + 0{,}573\,(h_a - h_b)$. Tafsirkan. (c) Apa peran $2p_x$ dan $2p_y$?
 
@@ -111,9 +111,9 @@ Untuk BeH₂ linear (sumbu $z$), (a) susun SALC dari kedua orbital $1s$ hidrogen
 :::
 
 ::: {.contoh}
-**Contoh 13.a2 · Dari OM kanonik ke ikatan lokal**
+**Contoh 13.2 · Dari OM kanonik ke ikatan lokal**
 
-Dengan koefisien Contoh 13.a1, bentuk $\lambda_\pm = (2\sigma_g \pm 1\sigma_u)/\sqrt2$. (a) Tuliskan $\lambda_+$. (b) Berapa karakter $s$ bagian berilium dari $\lambda_+$? Bandingkan dengan hibrida sp.
+Dengan koefisien Contoh 13.1, bentuk $\lambda_\pm = (2\sigma_g \pm 1\sigma_u)/\sqrt2$. (a) Tuliskan $\lambda_+$. (b) Berapa karakter $s$ bagian berilium dari $\lambda_+$? Bandingkan dengan hibrida sp.
 
 **Penyelesaian.** (a) $\lambda_+ = \tfrac{1}{\sqrt2}[0{,}392\,(2s) + 0{,}244\,(2p_z) + (0{,}490 + 0{,}573)h_a + (0{,}490 - 0{,}573)h_b] = 0{,}277\,(2s) + 0{,}172\,(2p_z) + 0{,}752\,h_a - 0{,}059\,h_b$. (b) Bagian Be: $0{,}277^2/(0{,}277^2 + 0{,}172^2) = 0{,}0767/0{,}1063 = 0{,}72$.
 
@@ -121,9 +121,9 @@ Dengan koefisien Contoh 13.a1, bentuk $\lambda_\pm = (2\sigma_g \pm 1\sigma_u)/\
 :::
 
 ::: {.contoh}
-**Contoh 13.a3 · Ikatan dan antiikatan tidak simetris**
+**Contoh 13.3 · Ikatan dan antiikatan tidak simetris**
 
-Dua orbital karbon $2p$ ($\alpha = -11{,}4$ eV) dengan tumpang tindih $S = 0{,}25$ berinteraksi. Ambil $\beta = 1{,}75\,S\,\alpha$ (rumus Wolfsberg–Helmholz). (a) Hitung $E_+$ dan $E_-$ dengan (13.e3). (b) Hitung stabilisasi bila dua elektron mengisi orbital ikatan, dan perubahan energi bila empat elektron mengisi keduanya.
+Dua orbital karbon $2p$ ($\alpha = -11{,}4$ eV) dengan tumpang tindih $S = 0{,}25$ berinteraksi. Ambil $\beta = 1{,}75\,S\,\alpha$ (rumus Wolfsberg–Helmholz). (a) Hitung $E_+$ dan $E_-$ dengan (13.3). (b) Hitung stabilisasi bila dua elektron mengisi orbital ikatan, dan perubahan energi bila empat elektron mengisi keduanya.
 
 **Penyelesaian.** (a) $\beta = 1{,}75(0{,}25)(-11{,}4) = -4{,}99$ eV. $E_+ = (-11{,}4 - 4{,}99)/1{,}25 = -13{,}11$ eV; $E_- = (-11{,}4 + 4{,}99)/0{,}75 = -8{,}55$ eV. (b) Dua elektron: $2(-13{,}11) - 2(-11{,}4) = -3{,}42$ eV. Empat elektron: $2(-13{,}11) + 2(-8{,}55) - 4(-11{,}4) = +2{,}28$ eV.
 
@@ -131,7 +131,7 @@ Dua orbital karbon $2p$ ($\alpha = -11{,}4$ eV) dengan tumpang tindih $S = 0{,}2
 :::
 
 ::: {.contoh}
-**Contoh 13.a4 · Menghitung orbital dan elektron**
+**Contoh 13.4 · Menghitung orbital dan elektron**
 
 Untuk basis minimal (orbital $1s$ untuk H; $1s$, $2s$, $2p$ untuk atom periode 2), tentukan banyaknya OM total, banyaknya elektron, dan banyaknya OM terisi untuk H₂O, NH₃, CH₄, dan C₂H₄. Berapa OM valensi yang terisi?
 
@@ -165,7 +165,7 @@ Blok-blok yang dihasilkan:
 * **$b_2$** ($2p_y$, $h_-$) memberikan $1b_2$ (ikatan O–H yang jelas) dan $2b_2$ (antiikatan).
 * **$b_1$** ($2p_x$) sendirian: $1b_1$, pasangan bebas murni.
 
-Delapan elektron valensi mengisi $2a_1^2\,1b_2^2\,3a_1^2\,1b_1^2$. HOMO adalah $1b_1$, orbital $2p$ oksigen yang tegak lurus bidang molekul (Gambar 13.g1). Perhitungan Hückel diperluas (Contoh 13.a5) memberikan energi orbital $-33{,}3$; $-17{,}1$; $-15{,}5$; $-14{,}8$ eV, sejajar dengan energi ionisasi terukur 32,2; 18,5; 14,7; 12,6 eV. Urutan dan pemisahan kasarnya benar; nilai mutlaknya tidak terlalu penting karena metode Hückel diperluas adalah metode semiempiris.
+Delapan elektron valensi mengisi $2a_1^2\,1b_2^2\,3a_1^2\,1b_1^2$. HOMO adalah $1b_1$, orbital $2p$ oksigen yang tegak lurus bidang molekul (Gambar 13.1). Perhitungan Hückel diperluas (Contoh 13.5) memberikan energi orbital $-33{,}3$; $-17{,}1$; $-15{,}5$; $-14{,}8$ eV, sejajar dengan energi ionisasi terukur 32,2; 18,5; 14,7; 12,6 eV. Urutan dan pemisahan kasarnya benar; nilai mutlaknya tidak terlalu penting karena metode Hückel diperluas adalah metode semiempiris.
 
 Bandingkan dengan subbab 12.6 dan 12.13: pasangan bebas σ dan π dari bahasa hibridisasi kini muncul sebagai $3a_1$ dan $1b_1$. Pasangan bebas "telinga kelinci" adalah kombinasi $3a_1 \pm 1b_1$ (setelah sebagian $3a_1$ yang bersifat ikatan dipisahkan).
 
@@ -186,7 +186,7 @@ Metana tidak mempunyai pasangan bebas; HOMO-nya adalah orbital ikatan C–H. Kar
 :::
 
 ::: {.contoh}
-**Contoh 13.a5 · Hückel diperluas untuk air**
+**Contoh 13.5 · Hückel diperluas untuk air**
 
 Metode Hückel diperluas (R. Hoffmann, 1963) memakai orbital Slater valensi, menghitung semua integral tumpang tindih $S_{\mu\nu}$, mengambil $H_{\mu\mu}$ sama dengan negatif energi ionisasi orbital valensi atom (O $2s$: $-32{,}3$ eV, O $2p$: $-14{,}8$ eV, H $1s$: $-13{,}6$ eV), dan $H_{\mu\nu} = 1{,}75\,S_{\mu\nu}(H_{\mu\mu} + H_{\nu\nu})/2$. Untuk H₂O (O–H 95,8 pm, 104,5°) hasilnya:
 
@@ -205,7 +205,7 @@ Metode Hückel diperluas (R. Hoffmann, 1963) memakai orbital Slater valensi, men
 :::
 
 ::: {.contoh}
-**Contoh 13.a6 · SALC dengan operator proyeksi**
+**Contoh 13.6 · SALC dengan operator proyeksi**
 
 Dengan operator proyeksi $\hat P^{(\Gamma)} = \sum_R\chi^{(\Gamma)}(R)\,\hat R$ (subbab 10.7) dan tabel karakter $C_{2v}$, proyeksikan $h_a$ ke $A_1$ dan $B_2$. Operasi pada $h_a$: $\hat E h_a = h_a$, $\hat C_2h_a = h_b$, $\hat\sigma_v(xz)h_a = h_b$, $\hat\sigma_v'(yz)h_a = h_a$.
 
@@ -215,7 +215,7 @@ Dengan operator proyeksi $\hat P^{(\Gamma)} = \sum_R\chi^{(\Gamma)}(R)\,\hat R$ 
 :::
 
 ::: {.contoh}
-**Contoh 13.a7 · Teorema Koopmans untuk tiga hidrida**
+**Contoh 13.7 · Teorema Koopmans untuk tiga hidrida**
 
 Perhitungan Hückel diperluas memberikan (dalam eV): CH₄ $2a_1$ $-24{,}6$, $1t_2$ $-15{,}5$; NH₃ $2a_1$ $-28{,}0$, $1e$ $-16{,}5$, $3a_1$ $-13{,}8$. Bandingkan dengan energi ionisasi terukur (CH₄: 22,9 dan 14,4; NH₃: sekitar 27, 16, dan 10,9 eV). Orbital mana yang paling buruk diramalkan, dan mengapa?
 
@@ -238,13 +238,13 @@ A. D. Walsh (1953) mengajukan pertanyaan sederhana: bagaimana energi setiap OM b
 
 ### Diagram Walsh molekul AH₂
 
-Mulailah dari AH₂ linear ($D_{\infty h}$). Orbital valensinya: $2\sigma_g$ ($2s$ A + $h_a + h_b$, ikatan), $1\sigma_u$ ($2p_z$ A + $h_a - h_b$, ikatan), $1\pi_u$ ($2p_x$, $2p_y$ A, nonikatan dan berdegenerasi), lalu $3\sigma_g$ dan $2\sigma_u$ (antiikatan). Bila molekul dibengkokkan (simetri turun ke $C_{2v}$), setiap orbital berubah (Gambar 13.g2):
+Mulailah dari AH₂ linear ($D_{\infty h}$). Orbital valensinya: $2\sigma_g$ ($2s$ A + $h_a + h_b$, ikatan), $1\sigma_u$ ($2p_z$ A + $h_a - h_b$, ikatan), $1\pi_u$ ($2p_x$, $2p_y$ A, nonikatan dan berdegenerasi), lalu $3\sigma_g$ dan $2\sigma_u$ (antiikatan). Bila molekul dibengkokkan (simetri turun ke $C_{2v}$), setiap orbital berubah (Gambar 13.2):
 
 * $2\sigma_g \to 2a_1$: hampir tidak berubah. Kedua H yang saling mendekat menambah sedikit sifat ikatan $h_a$–$h_b$ (dalam perhitungan yang teliti orbital ini sedikit turun), tetapi orbital ini didominasi $2s$ atom pusat yang tidak berarah.
 * $1\sigma_u \to 1b_2$: **naik**. Orbital ini memakai $2p$ yang semula mengarah tepat ke kedua H; ketika H keluar dari sumbu $p$, tumpang tindihnya berkurang.
 * $1\pi_u \to 3a_1 + 1b_1$: degenerasinya pecah. Komponen di bidang lengkungan ($3a_1$) **turun tajam**: ia kini dapat bertumpang tindih dengan kedua H dan bercampur dengan $2s$ A, sehingga berubah dari orbital nonikatan menjadi sebagian ikatan. Komponen yang tegak lurus bidang ($1b_1$) tidak berubah, karena tetap tidak dapat bertumpang tindih dengan H.
 
-![Gambar 13.g2 Diagram Walsh H₂O dari perhitungan Hückel diperluas: energi orbital valensi terhadap sudut H–O–H. Label kiri: simetri $C_{2v}$; label kanan: simetri $D_{\infty h}$. Orbital $3a_1$ turun ketika molekul dibengkokkan, $1b_2$ naik, $1b_1$ tetap. Sumbu tegak dipatahkan; orbital $2a_1$ (sekitar $-33$ eV) tidak ditampilkan.](fig/c_walsh.png){width=72%}
+![Gambar 13.2 Diagram Walsh H₂O dari perhitungan Hückel diperluas: energi orbital valensi terhadap sudut H–O–H. Label kiri: simetri $C_{2v}$; label kanan: simetri $D_{\infty h}$. Orbital $3a_1$ turun ketika molekul dibengkokkan, $1b_2$ naik, $1b_1$ tetap. Sumbu tegak dipatahkan; orbital $2a_1$ (sekitar $-33$ eV) tidak ditampilkan.](fig/c_walsh.png){width=72%}
 
 Akibatnya bergantung pada banyaknya elektron valensi:
 
@@ -267,7 +267,7 @@ Tabel berikut membandingkan sudut yang meminimumkan jumlah energi orbital terisi
 | NH₂ | 7 | 126° | 103° |
 | H₂O | 8 | 140° | 104,5° |
 
-Ramalan kualitatif (4 elektron linear, lebih banyak elektron bengkok, singlet lebih bengkok daripada triplet) selalu benar. Ramalan kuantitatifnya memburuk bila atom pusat makin elektronegatif. Pada oksigen, selisih energi $2s$–$2p$ sangat besar (17,5 eV dalam parameter Hückel diperluas), sehingga pencampuran $2s$ ke dalam $3a_1$ terlalu lemah: Gambar 13.g2 menunjukkan bahwa $3a_1$ hanya turun 0,7 eV dari 180° ke 104,5°, padahal perhitungan Hartree–Fock memberikan penurunan beberapa eV. Selain itu, jumlah energi orbital mengabaikan tolakan inti–inti dan menghitung tolakan elektron secara tidak tepat. Diagram Walsh dari perhitungan *ab initio* (Bab 17) mereproduksi sudut-sudut ini dengan baik.
+Ramalan kualitatif (4 elektron linear, lebih banyak elektron bengkok, singlet lebih bengkok daripada triplet) selalu benar. Ramalan kuantitatifnya memburuk bila atom pusat makin elektronegatif. Pada oksigen, selisih energi $2s$–$2p$ sangat besar (17,5 eV dalam parameter Hückel diperluas), sehingga pencampuran $2s$ ke dalam $3a_1$ terlalu lemah: Gambar 13.2 menunjukkan bahwa $3a_1$ hanya turun 0,7 eV dari 180° ke 104,5°, padahal perhitungan Hartree–Fock memberikan penurunan beberapa eV. Selain itu, jumlah energi orbital mengabaikan tolakan inti–inti dan menghitung tolakan elektron secara tidak tepat. Diagram Walsh dari perhitungan *ab initio* (Bab 17) mereproduksi sudut-sudut ini dengan baik.
 
 ### Molekul AH₃ dan AB₂
 
@@ -276,7 +276,7 @@ Diagram Walsh untuk AH₃ (datar $D_{3h}$ vs piramida $C_{3v}$) mempunyai satu o
 Untuk molekul triatomik AB₂ dari atom-atom periode 2, aturan Walsh yang terkenal: **16 elektron valensi linear** (CO₂, N₃⁻, NO₂⁺, OCS), **17 sampai 20 elektron bengkok**, dengan sudut yang mengecil ketika elektron bertambah: NO₂ (17) 134°, O₃ dan NO₂⁻ (18) 117° dan 115°, SO₂ 119,5°, OF₂ (20) 103°. Elektron ke-17 masuk ke orbital ($6a_1$) yang pada molekul linear adalah orbital π* antiikatan, dan yang menjadi lebih stabil ketika molekul dibengkokkan.
 
 ::: {.contoh}
-**Contoh 13.a8 · Bentuk ion dan radikal NO₂**
+**Contoh 13.8 · Bentuk ion dan radikal NO₂**
 
 Tentukan banyaknya elektron valensi dan ramalkan bentuk NO₂⁺, NO₂, dan NO₂⁻. Bandingkan dengan percobaan: NO₂⁺ linear, NO₂ 134,1°, NO₂⁻ 115,4°. Mengapa NO₂ cenderung berdimerisasi menjadi N₂O₄?
 
@@ -286,7 +286,7 @@ Tentukan banyaknya elektron valensi dan ramalkan bentuk NO₂⁺, NO₂, dan NO�
 :::
 
 ::: {.contoh}
-**Contoh 13.a9 · Keadaan tereksitasi yang berubah bentuk**
+**Contoh 13.9 · Keadaan tereksitasi yang berubah bentuk**
 
 Asetilena (HCCH) linear dalam keadaan dasar. Pada eksitasi $\pi \to \pi^*$ pertama, satu elektron berpindah ke orbital π*. Diagram Walsh untuk HAAH menunjukkan bahwa salah satu komponen π* turun tajam bila molekul dibengkokkan secara trans. Apa ramalan untuk bentuk keadaan tereksitasi itu? Bandingkan dengan formaldehida, yang datar dalam keadaan dasar tetapi menjadi piramida dalam keadaan tereksitasi $n \to \pi^*$.
 
@@ -296,9 +296,9 @@ Asetilena (HCCH) linear dalam keadaan dasar. Pada eksitasi $\pi \to \pi^*$ perta
 :::
 
 ::: {.contoh}
-**Contoh 13.a10 · Membaca diagram Walsh secara kuantitatif**
+**Contoh 13.10 · Membaca diagram Walsh secara kuantitatif**
 
-Dari perhitungan Hückel diperluas H₂O (Gambar 13.g2), energi orbital pada 180° dan 104,5° adalah: $1b_2$ $-17{,}85$ dan $-17{,}11$ eV; $3a_1$ $-14{,}80$ dan $-15{,}46$ eV; $1b_1$ $-14{,}80$ dan $-14{,}80$ eV. (a) Hitung perubahan jumlah energi orbital terisi (dua elektron per orbital) dari 180° ke 104,5°, dengan $2a_1$ $-33{,}27$ dan $-33{,}25$ eV. (b) Mengapa model ini meramalkan minimum di sekitar 140°, bukan 104,5°?
+Dari perhitungan Hückel diperluas H₂O (Gambar 13.2), energi orbital pada 180° dan 104,5° adalah: $1b_2$ $-17{,}85$ dan $-17{,}11$ eV; $3a_1$ $-14{,}80$ dan $-15{,}46$ eV; $1b_1$ $-14{,}80$ dan $-14{,}80$ eV. (a) Hitung perubahan jumlah energi orbital terisi (dua elektron per orbital) dari 180° ke 104,5°, dengan $2a_1$ $-33{,}27$ dan $-33{,}25$ eV. (b) Mengapa model ini meramalkan minimum di sekitar 140°, bukan 104,5°?
 
 **Penyelesaian.** (a) $1b_2$: $2(-17{,}11 + 17{,}85) = +1{,}48$ eV. $3a_1$: $2(-15{,}46 + 14{,}80) = -1{,}32$ eV. $1b_1$: 0. $2a_1$ ($-33{,}25$ dan $-33{,}27$ eV): $+0{,}04$ eV. Total $+0{,}20$ eV: dalam model ini lengkungan sampai 104,5° justru sedikit merugikan.
 

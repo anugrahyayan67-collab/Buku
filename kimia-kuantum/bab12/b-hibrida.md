@@ -113,14 +113,14 @@ Kita mencari tiga hibrida setara di bidang $xy$. Langkahnya:
 
 1. **Karakter $s$.** Kekekalan orbital dan kesetaraan memberi $3\alpha = 1$, jadi $\alpha = \tfrac13$ dan koefisien $s$ setiap hibrida $1/\sqrt3$.
 2. **Hibrida pertama.** Pilih arah $h_1$ sepanjang $+x$: $h_1 = \tfrac{1}{\sqrt3}s + b\,p_x$, dengan $\tfrac13 + b^2 = 1$, jadi $b = \sqrt{2/3}$.
-3. **Hibrida kedua.** Tulis $h_2 = \tfrac{1}{\sqrt3}s + c\,p_x + d\,p_y$. Ortogonal terhadap $h_1$: $\tfrac13 + \sqrt{\tfrac23}\,c = 0$, sehingga $c = -\tfrac{1}{\sqrt6}$. Normalisasi: $\tfrac13 + \tfrac16 + d^2 = 1$, sehingga $d = \pm\tfrac{1}{\sqrt2}$.
+3. **Hibrida kedua.** Tulis $h_2 = \tfrac{1}{\sqrt3}s + c\,p_x + d\,p_y$. Ortogonal terhadap $h_1$: $\tfrac13 + \sqrt{2/3}\,c = 0$, sehingga $c = -\tfrac{1}{\sqrt6}$. Normalisasi: $\tfrac13 + \tfrac16 + d^2 = 1$, sehingga $d = \pm\tfrac{1}{\sqrt2}$.
 4. **Hibrida ketiga.** Pilih tanda $+$ untuk $h_2$; $h_3$ mendapat tanda $-$. Periksa: $\langle h_2|h_3\rangle = \tfrac13 + \tfrac16 - \tfrac12 = 0$.
 
 Hasilnya:
 
 $$
 \begin{aligned}
-h_1 &= \tfrac{1}{\sqrt3}\,s + \sqrt{\tfrac23}\,p_x ,\\
+h_1 &= \tfrac{1}{\sqrt3}\,s + \sqrt{2/3}\,p_x ,\\
 h_2 &= \tfrac{1}{\sqrt3}\,s - \tfrac{1}{\sqrt6}\,p_x + \tfrac{1}{\sqrt2}\,p_y ,\\
 h_3 &= \tfrac{1}{\sqrt3}\,s - \tfrac{1}{\sqrt6}\,p_x - \tfrac{1}{\sqrt2}\,p_y .
 \end{aligned} \qquad \text{(12.20)}

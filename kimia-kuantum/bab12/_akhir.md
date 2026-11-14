@@ -9,7 +9,7 @@
 | Teorema Coulson | $1 + \lambda_i\lambda_j\cos\theta_{ij} = 0$; setara: $\cos\theta = -\alpha/(1 - \alpha)$; $\ \theta \ge 90°$ | 12.2 |
 | Tumpang tindih | $S(\alpha) = \sqrt\alpha\,S_s + \sqrt{1 - \alpha}\,S_{p\sigma}$; maksimum pada $\alpha^* = S_s^2/(S_s^2 + S_{p\sigma}^2)$ | 12.2 |
 | sp | $(s \pm p_z)/\sqrt2$; 180°; dua π tegak lurus, rangkap tiga simetris silinder | 12.3 |
-| sp² | $\tfrac{1}{\sqrt3}s + \sqrt{\tfrac23}p_x$, ...; 120°; $\ S_\pi(\theta) = S_\pi(0)\cos\theta$ | 12.4 |
+| sp² | $\tfrac{1}{\sqrt3}s + \sqrt{2/3}p_x$, ...; 120°; $\ S_\pi(\theta) = S_\pi(0)\cos\theta$ | 12.4 |
 | sp³ | $\tfrac12(s \pm p_x \pm p_y \pm p_z)$; $\ \cos\theta = -\tfrac13$, 109,47°; $\ \sum\mathbf n_i = \mathbf 0$ | 12.5 |
 | Karakter $s$ dari sudut | $\alpha = -\cos\theta/(1 - \cos\theta)$; $\ \lambda^2 = -\sec\theta$; aturan Bent | 12.6 |
 | Sifat dan hibridisasi | $^1J(^{13}\text{C–H}) \approx 500\alpha$ Hz; $\ r_\text{C–C} \approx 168{,}1 - 30{,}4\,\Sigma\alpha$ pm | 12.7 |

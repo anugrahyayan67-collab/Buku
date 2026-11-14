@@ -2,10 +2,10 @@
 
 ### Gagasan Fukui
 
-Ketika dua molekul saling mendekat, orbital-orbital mereka berinteraksi. Interaksi antara dua orbital terisi menghasilkan tolakan (Contoh 13.a3); interaksi antara orbital terisi satu molekul dan orbital kosong molekul lain menghasilkan stabilisasi, karena dua elektron turun ke orbital ikatan baru tanpa ada elektron yang naik ke orbital antiikatan. Teori perturbasi orde kedua (subbab 8.7) memberikan besarnya: untuk orbital terisi $\psi_i$ (energi $\varepsilon_i$) dan orbital kosong $\psi_j$ (energi $\varepsilon_j$) dengan unsur interaksi $H'_{ij}$,
+Ketika dua molekul saling mendekat, orbital-orbital mereka berinteraksi. Interaksi antara dua orbital terisi menghasilkan tolakan (Contoh 13.3); interaksi antara orbital terisi satu molekul dan orbital kosong molekul lain menghasilkan stabilisasi, karena dua elektron turun ke orbital ikatan baru tanpa ada elektron yang naik ke orbital antiikatan. Teori perturbasi orde kedua (subbab 8.7) memberikan besarnya: untuk orbital terisi $\psi_i$ (energi $\varepsilon_i$) dan orbital kosong $\psi_j$ (energi $\varepsilon_j$) dengan unsur interaksi $H'_{ij}$,
 
 $$
-\Delta E \approx -\frac{2|H'_{ij}|^2}{\varepsilon_j - \varepsilon_i} . \qquad \text{(13.e20)}
+\Delta E \approx -\frac{2|H'_{ij}|^2}{\varepsilon_j - \varepsilon_i} . \qquad \text{(13.20)}
 $$
 
 Penyebutnya membuat pasangan orbital dengan selisih energi **terkecil** paling penting. Selisih itu hampir selalu antara orbital terisi tertinggi satu molekul (**HOMO**) dan orbital kosong terendah molekul lain (**LUMO**). K. Fukui (1952) menamai keduanya **orbital perbatasan** dan mengusulkan bahwa reaktivitas dan selektivitas ditentukan terutama oleh interaksi HOMO–LUMO.
@@ -19,24 +19,24 @@ Unsur interaksi $H'_{ij}$ sebanding dengan tumpang tindih kedua orbital di tempa
 
 ### Kendali muatan dan kendali orbital
 
-Rumus lengkap untuk energi interaksi dua molekul (G. Klopman dan L. Salem, 1968) memuat tiga suku: tolakan antarorbital terisi, tarik-menarik elektrostatik antara muatan atom kedua molekul, dan suku perturbasi orde kedua (13.e20) yang dijumlahkan atas semua pasangan orbital terisi–kosong. Bila pereaksi bermuatan besar dan celah HOMO–LUMO besar (ion kecil yang "keras", seperti H⁺, Li⁺, F⁻, OH⁻), suku elektrostatik dominan: reaksinya **dikendalikan muatan**, dan pereaksi menyerang atom dengan muatan terbesar. Bila celah HOMO–LUMO kecil dan pereaksinya mudah terpolarisasi ("lunak": I⁻, RS⁻, kuprat, alkena), suku orbital dominan: reaksinya **dikendalikan orbital**. Inilah dasar kuantum konsep asam–basa keras–lunak (HSAB) R. G. Pearson.
+Rumus lengkap untuk energi interaksi dua molekul (G. Klopman dan L. Salem, 1968) memuat tiga suku: tolakan antarorbital terisi, tarik-menarik elektrostatik antara muatan atom kedua molekul, dan suku perturbasi orde kedua (13.20) yang dijumlahkan atas semua pasangan orbital terisi–kosong. Bila pereaksi bermuatan besar dan celah HOMO–LUMO besar (ion kecil yang "keras", seperti H⁺, Li⁺, F⁻, OH⁻), suku elektrostatik dominan: reaksinya **dikendalikan muatan**, dan pereaksi menyerang atom dengan muatan terbesar. Bila celah HOMO–LUMO kecil dan pereaksinya mudah terpolarisasi ("lunak": I⁻, RS⁻, kuprat, alkena), suku orbital dominan: reaksinya **dikendalikan orbital**. Inilah dasar kuantum konsep asam–basa keras–lunak (HSAB) R. G. Pearson.
 
-Contoh klasiknya adalah akrolein, CH₂=CH–CHO. Perhitungan Hückel (Contoh 13.a33) memberi muatan π positif terbesar pada karbon karbonil, tetapi koefisien LUMO terbesar pada karbon β (CH₂ ujung). Nukleofil keras (organolitium, LiAlH₄) menyerang karbon karbonil (adisi 1,2); nukleofil lunak (kuprat R₂CuLi, tiolat, enolat) menyerang karbon β (adisi 1,4 atau adisi Michael).
+Contoh klasiknya adalah akrolein, CH₂=CH–CHO. Perhitungan Hückel (Contoh 13.33) memberi muatan π positif terbesar pada karbon karbonil, tetapi koefisien LUMO terbesar pada karbon β (CH₂ ujung). Nukleofil keras (organolitium, LiAlH₄) menyerang karbon karbonil (adisi 1,2); nukleofil lunak (kuprat R₂CuLi, tiolat, enolat) menyerang karbon β (adisi 1,4 atau adisi Michael).
 
 ### Reaksi Diels–Alder
 
 Dalam reaksi Diels–Alder, diena dan dienofil membentuk dua ikatan σ baru secara serentak. Interaksi perbatasan utamanya HOMO diena–LUMO dienofil. Untuk butadiena dan etilena, celah Hückel-nya $(0{,}618 + 1)|\beta| = 1{,}618|\beta|$, dan reaksinya memang lambat (memerlukan suhu tinggi dan tekanan). Dengan dienofil penarik elektron seperti akrolein, LUMO turun ke $\alpha - 0{,}347\beta$, celahnya menjadi $0{,}965|\beta|$, dan reaksinya jauh lebih cepat. Diena dengan gugus pemberi elektron (OCH₃, NR₂) menaikkan HOMO dan mempercepat reaksi lebih jauh. Pasangan "diena kaya elektron + dienofil miskin elektron" adalah Diels–Alder dengan **permintaan elektron normal**; kebalikannya (diena miskin elektron, dienofil kaya) juga dikenal, dengan interaksi utama LUMO diena–HOMO dienofil.
 
-Koefisien orbital perbatasan juga meramalkan **regioselektivitas**. Ikatan baru yang lebih kuat terbentuk antara atom-atom dengan koefisien perbatasan terbesar, sehingga 1-metoksibutadiena dan akrolein memberi produk "orto" (Contoh 13.a34).
+Koefisien orbital perbatasan juga meramalkan **regioselektivitas**. Ikatan baru yang lebih kuat terbentuk antara atom-atom dengan koefisien perbatasan terbesar, sehingga 1-metoksibutadiena dan akrolein memberi produk "orto" (Contoh 13.34).
 
 ### Energi ionisasi dan afinitas elektron
 
-Menurut teorema Koopmans, energi ionisasi sebanding dengan $-\varepsilon_\text{HOMO}$ dan afinitas elektron dengan $-\varepsilon_\text{LUMO}$. Dalam bahasa Hückel, $\text{IE} \approx -\alpha - x_\text{HOMO}\beta$, sehingga energi ionisasi hidrokarbon alternan seharusnya linear terhadap $x_\text{HOMO}$. Gambar 13.g7a menunjukkannya untuk deret asena (benzena sampai pentasena): garis lurus $\text{IE} = 6{,}00 + 3{,}31\,x_\text{HOMO}$ eV mereproduksi data dengan galat kurang dari 0,1 eV. Energi pita serapan $p$ (pita kuat yang terkait eksitasi HOMO → LUMO) juga linear terhadap celah Hückel (Gambar 13.g7b). Pentasena, dengan HOMO tertinggi dan celah terkecil, mudah melepas elektron dan berwarna biru-ungu; ia salah satu semikonduktor organik yang paling banyak diteliti untuk transistor film tipis.
+Menurut teorema Koopmans, energi ionisasi sebanding dengan $-\varepsilon_\text{HOMO}$ dan afinitas elektron dengan $-\varepsilon_\text{LUMO}$. Dalam bahasa Hückel, $\text{IE} \approx -\alpha - x_\text{HOMO}\beta$, sehingga energi ionisasi hidrokarbon alternan seharusnya linear terhadap $x_\text{HOMO}$. Gambar 13.7(a) menunjukkannya untuk deret asena (benzena sampai pentasena): garis lurus $\text{IE} = 6{,}00 + 3{,}31\,x_\text{HOMO}$ eV mereproduksi data dengan galat kurang dari 0,1 eV. Energi pita serapan $p$ (pita kuat yang terkait eksitasi HOMO → LUMO) juga linear terhadap celah Hückel (Gambar 13.7(b)). Pentasena, dengan HOMO tertinggi dan celah terkecil, mudah melepas elektron dan berwarna biru-ungu; ia salah satu semikonduktor organik yang paling banyak diteliti untuk transistor film tipis.
 
-![Gambar 13.g7 Deret asena (benzena, naftalena, antrasena, tetrasena, pentasena). (a) Energi ionisasi terhadap $x_\text{HOMO}$ Hückel. (b) Energi pita serapan $p$ terhadap celah HOMO–LUMO Hückel. Garis putus-putus: garis lurus terbaik.](fig/c_asena.png){width=94%}
+![Gambar 13.7 Deret asena (benzena, naftalena, antrasena, tetrasena, pentasena). (a) Energi ionisasi terhadap $x_\text{HOMO}$ Hückel. (b) Energi pita serapan $p$ terhadap celah HOMO–LUMO Hückel. Garis putus-putus: garis lurus terbaik.](fig/c_asena.png){width=94%}
 
 ::: {.contoh}
-**Contoh 13.a32 · Substitusi elektrofilik pada naftalena**
+**Contoh 13.32 · Substitusi elektrofilik pada naftalena**
 
 HOMO naftalena ($x = 0{,}618$) mempunyai koefisien $\pm0{,}425$ pada C1, C4, C5, C8 (posisi α) dan $\pm0{,}263$ pada C2, C3, C6, C7 (posisi β), dan nol pada C4a dan C8a. (a) Hitung kuadrat koefisien pada posisi α dan β. (b) Ramalkan posisi nitrasi naftalena. (c) Bandingkan dengan ramalan valensi bebas (subbab 13.9).
 
@@ -46,7 +46,7 @@ HOMO naftalena ($x = 0{,}618$) mempunyai koefisien $\pm0{,}425$ pada C1, C4, C5,
 :::
 
 ::: {.contoh}
-**Contoh 13.a33 · Akrolein: keras atau lunak**
+**Contoh 13.33 · Akrolein: keras atau lunak**
 
 Untuk akrolein, C(β)H₂=C(α)H–C(O)H=O, dengan $h_\text{O} = 1$: muatan π C(β) $+0{,}23$, C(α) $-0{,}03$, C(O) $+0{,}33$, O $-0{,}53$; LUMO ($x = -0{,}347$) dengan koefisien C(β) $-0{,}657$, C(α) $0{,}228$, C(O) $0{,}577$, O $-0{,}429$. (a) Di mana nukleofil keras menyerang? (b) Di mana nukleofil lunak menyerang? (c) Mengapa LUMO akrolein lebih rendah daripada LUMO butadiena ($x = -0{,}618$)?
 
@@ -56,7 +56,7 @@ Untuk akrolein, C(β)H₂=C(α)H–C(O)H=O, dengan $h_\text{O} = 1$: muatan π C
 :::
 
 ::: {.contoh}
-**Contoh 13.a34 · Regioselektivitas Diels–Alder**
+**Contoh 13.34 · Regioselektivitas Diels–Alder**
 
 HOMO 1-metoksibutadiena (O jenis furan, $h = 2$, $k = 0{,}8$) mempunyai koefisien C1 0,513, C2 0,464, C3 $-0{,}290$, C4 $-0{,}603$, O $-0{,}270$ ($x = 0{,}481$). LUMO akrolein mempunyai koefisien terbesar pada C(β). (a) Atom diena mana yang berikatan dengan C(β) akrolein? (b) Gambarkan produk "orto" dan "meta" dan tentukan yang diramalkan. (c) Hitung celah HOMO–LUMO dan bandingkan dengan butadiena–akrolein.
 
@@ -66,13 +66,13 @@ HOMO 1-metoksibutadiena (O jenis furan, $h = 2$, $k = 0{,}8$) mempunyai koefisie
 :::
 
 ::: {.contoh}
-**Contoh 13.a35 · Energi ionisasi asena**
+**Contoh 13.35 · Energi ionisasi asena**
 
 Dengan IE (eV): benzena 9,24; naftalena 8,14; antrasena 7,44; tetrasena 6,97; pentasena 6,63, dan $x_\text{HOMO}$ = 1; 0,618; 0,414; 0,295; 0,220, (a) paskan garis lurus $\text{IE} = a + b\,x_\text{HOMO}$. (b) Apa makna $a$ dan $b$? (c) Ramalkan IE heksasena ($x_\text{HOMO} = 0{,}171$).
 
 **Penyelesaian.** (a) $a = 6{,}00$ eV, $b = 3{,}31$ eV; ramalan 9,31; 8,04; 7,37; 6,97; 6,73 eV. (b) $a$ adalah $-\alpha$ efektif (IE sebuah orbital nonikatan, $x = 0$), dan $b = |\beta|$ efektif untuk ionisasi. (c) $6{,}00 + 3{,}31(0{,}171) = 6{,}57$ eV.
 
-**Memahami hasil.** Nilai $|\beta| = 3{,}3$ eV dari ionisasi berbeda lagi dari nilai termokimia (0,8 eV) dan spektroskopik (2,5 eV dari Gambar 13.g7b), sesuai peringatan di subbab 13.4. Tetapi di dalam satu deret yang seragam, model Hückel memberi korelasi yang sangat baik, dan inilah cara ia paling sering dipakai: untuk membandingkan molekul-molekul yang mirip.
+**Memahami hasil.** Nilai $|\beta| = 3{,}3$ eV dari ionisasi berbeda lagi dari nilai termokimia (0,8 eV) dan spektroskopik (2,5 eV dari Gambar 13.7(b)), sesuai peringatan di subbab 13.4. Tetapi di dalam satu deret yang seragam, model Hückel memberi korelasi yang sangat baik, dan inilah cara ia paling sering dipakai: untuk membandingkan molekul-molekul yang mirip.
 :::
 
 ::: {.kuis}
@@ -97,16 +97,16 @@ Reaksi-reaksi ini sangat stereospesifik, dan stereokimianya sering berbeda bila 
 
 Ketika butadiena menutup menjadi siklobutena, kedua karbon ujung (C1 dan C4) harus berputar 90° agar lobus orbital $p$-nya saling menunjuk dan membentuk ikatan σ. Ada dua cara: kedua ujung berputar searah (**konrotasi**) atau berlawanan arah (**disrotasi**). Ikatan σ terbentuk bila lobus yang **sefase** bertemu.
 
-Dalam keadaan dasar, elektron perbatasan berada di HOMO butadiena, $\psi_2$, yang koefisien ujungnya berlawanan tanda ($c_1 = +0{,}602$, $c_4 = -0{,}602$, subbab 13.5). Lobus atas C1 positif dan lobus atas C4 negatif. Agar lobus sefase bertemu, satu ujung harus memutar lobus atasnya ke dalam dan ujung lain memutar lobus bawahnya ke dalam: **konrotasi** (Gambar 13.g8a). Dalam keadaan tereksitasi (fotokimia), satu elektron berada di $\psi_3$, yang koefisien ujungnya sama tanda ($+0{,}602$, $+0{,}602$): **disrotasi** (Gambar 13.g8b).
+Dalam keadaan dasar, elektron perbatasan berada di HOMO butadiena, $\psi_2$, yang koefisien ujungnya berlawanan tanda ($c_1 = +0{,}602$, $c_4 = -0{,}602$, subbab 13.5). Lobus atas C1 positif dan lobus atas C4 negatif. Agar lobus sefase bertemu, satu ujung harus memutar lobus atasnya ke dalam dan ujung lain memutar lobus bawahnya ke dalam: **konrotasi** (Gambar 13.8(a)). Dalam keadaan tereksitasi (fotokimia), satu elektron berada di $\psi_3$, yang koefisien ujungnya sama tanda ($+0{,}602$, $+0{,}602$): **disrotasi** (Gambar 13.8(b)).
 
-Untuk heksatriena, HOMO keadaan dasar adalah $\psi_3$, yang koefisien ujungnya sama tanda (Contoh 13.a18): **disrotasi termal**, dan konrotasi fotokimia. Pola umumnya:
+Untuk heksatriena, HOMO keadaan dasar adalah $\psi_3$, yang koefisien ujungnya sama tanda (Contoh 13.18): **disrotasi termal**, dan konrotasi fotokimia. Pola umumnya:
 
 | Elektron π | Termal | Fotokimia |
 |---|---|---|
 | $4n$ (butadiena, oktatetraena) | konrotasi | disrotasi |
 | $4n + 2$ (heksatriena) | disrotasi | konrotasi |
 
-![Gambar 13.g8 Lobus ujung (C1 dan C4) HOMO butadiena. (a) Dalam keadaan dasar, HOMO $\psi_2$ mempunyai lobus atas yang berlawanan tanda di kedua ujung; konrotasi mempertemukan lobus sefase. (b) Dalam keadaan tereksitasi, HOMO $\psi_3$ mempunyai lobus atas yang sama tanda; disrotasi mempertemukan lobus sefase.](fig/c_elektrosiklik.png){width=82%}
+![Gambar 13.8 Lobus ujung (C1 dan C4) HOMO butadiena. (a) Dalam keadaan dasar, HOMO $\psi_2$ mempunyai lobus atas yang berlawanan tanda di kedua ujung; konrotasi mempertemukan lobus sefase. (b) Dalam keadaan tereksitasi, HOMO $\psi_3$ mempunyai lobus atas yang sama tanda; disrotasi mempertemukan lobus sefase.](fig/c_elektrosiklik.png){width=82%}
 
 ### Diagram korelasi
 
@@ -130,14 +130,14 @@ Untuk keadaan tereksitasi $\psi_1^2\psi_2^1\psi_3^1$, disrotasi menghubungkannya
 
 Untuk sikloadisi [4 + 2] suprafasial (kedua komponen bereaksi pada sisi yang sama), HOMO diena ($\psi_2$: ujung $+$ dan $-$) dan LUMO dienofil (π*: $+$ dan $-$) cocok di kedua ujung sekaligus: **diizinkan secara termal**. Untuk [2 + 2] suprafasial, HOMO etilena (π: $+$, $+$) dan LUMO etilena lain (π*: $+$, $-$) cocok di satu ujung dan bertentangan di ujung lain: tumpang tindih total nol, **terlarang secara termal**; dengan cahaya, satu elektron berada di π*, dan interaksi π*–π* cocok di kedua ujung: diizinkan secara fotokimia. Itulah sebabnya fotodimerisasi alkena (dan fotodimerisasi timin dalam DNA oleh sinar UV, penyebab kerusakan DNA akibat sinar matahari) adalah reaksi fotokimia.
 
-Woodward dan Hoffmann merangkum semua kasus dalam satu aturan: **reaksi perisiklik dalam keadaan dasar diizinkan bila banyaknya komponen $(4q + 2)_s$ ditambah banyaknya komponen $(4r)_a$ ganjil**, dengan $s$ suprafasial dan $a$ antarafasial. Dengan bahasa subbab 13.7 (aturan Dewar–Zimmerman): keadaan transisi siklik bersifat "aromatik" bila ia berupa susunan Hückel dengan $4n + 2$ elektron atau susunan Möbius (dengan satu perubahan tanda, yang ditimbulkan oleh komponen antarafasial atau oleh konrotasi) dengan $4n$ elektron (Contoh 13.a25).
+Woodward dan Hoffmann merangkum semua kasus dalam satu aturan: **reaksi perisiklik dalam keadaan dasar diizinkan bila banyaknya komponen $(4q + 2)_s$ ditambah banyaknya komponen $(4r)_a$ ganjil**, dengan $s$ suprafasial dan $a$ antarafasial. Dengan bahasa subbab 13.7 (aturan Dewar–Zimmerman): keadaan transisi siklik bersifat "aromatik" bila ia berupa susunan Hückel dengan $4n + 2$ elektron atau susunan Möbius (dengan satu perubahan tanda, yang ditimbulkan oleh komponen antarafasial atau oleh konrotasi) dengan $4n$ elektron (Contoh 13.25).
 
 ::: {.inti}
 **Aturan Woodward–Hoffmann dalam tiga kalimat.** Simetri orbital dipertahankan selama reaksi serentak. Reaksi termal diizinkan bila keadaan transisinya "aromatik": Hückel dengan $4n + 2$ elektron atau Möbius dengan $4n$ elektron. Reaksi fotokimia mengikuti kebalikannya.
 :::
 
 ::: {.contoh}
-**Contoh 13.a36 · Membuka cincin siklobutena**
+**Contoh 13.36 · Membuka cincin siklobutena**
 
 *cis*-3,4-Dimetilsiklobutena dipanaskan dan membuka cincin. (a) Termal: konrotasi atau disrotasi? (b) Tentukan geometri diena yang terbentuk. (c) Apa yang terbentuk dari isomer *trans*?
 
@@ -147,17 +147,17 @@ Woodward dan Hoffmann merangkum semua kasus dalam satu aturan: **reaksi perisikl
 :::
 
 ::: {.contoh}
-**Contoh 13.a37 · Penutupan cincin heksatriena**
+**Contoh 13.37 · Penutupan cincin heksatriena**
 
 (2*E*,4*Z*,6*E*)-Okta-2,4,6-triena menutup cincin menjadi 5,6-dimetilsikloheksa-1,3-diena. (a) Secara termal, apakah kedua metil *cis* atau *trans*? (b) Secara fotokimia?
 
 **Penyelesaian.** (a) Enam elektron π: termal, disrotasi. Pada triena (*E*,*Z*,*E*), kedua metil ujung sama-sama menunjuk ke "luar". Disrotasi memutar kedua ujung berlawanan arah, sehingga kedua metil berakhir di sisi yang sama cincin: ***cis***-5,6-dimetilsikloheksa-1,3-diena. (b) Fotokimia: konrotasi, ***trans***.
 
-**Memahami hasil.** Bandingkan dengan Contoh 13.a36: mengganti 4 dengan 6 elektron membalik aturan, dan mengganti panas dengan cahaya membaliknya lagi. Pola biner ini mengikuti dari satu fakta: tanda relatif koefisien ujung HOMO bergantian antara sama dan berlawanan ketika poliena bertambah satu ikatan rangkap, $(-1)^{k+1}$ untuk HOMO ke-$k$ dalam (13.e12).
+**Memahami hasil.** Bandingkan dengan Contoh 13.36: mengganti 4 dengan 6 elektron membalik aturan, dan mengganti panas dengan cahaya membaliknya lagi. Pola biner ini mengikuti dari satu fakta: tanda relatif koefisien ujung HOMO bergantian antara sama dan berlawanan ketika poliena bertambah satu ikatan rangkap, $(-1)^{k+1}$ untuk HOMO ke-$k$ dalam (13.12).
 :::
 
 ::: {.contoh}
-**Contoh 13.a38 · Menerapkan aturan umum**
+**Contoh 13.38 · Menerapkan aturan umum**
 
 Tentukan apakah reaksi berikut diizinkan secara termal: (a) Diels–Alder $[\pi4_s + \pi2_s]$; (b) dimerisasi etilena $[\pi2_s + \pi2_s]$; (c) dimerisasi etilena $[\pi2_s + \pi2_a]$; (d) geseran [1,5]-H suprafasial; (e) geseran [1,3]-H suprafasial; (f) penataan ulang Cope $[\sigma2_s + \pi2_s + \pi2_s]$.
 
@@ -167,7 +167,7 @@ Tentukan apakah reaksi berikut diizinkan secara termal: (a) Diels–Alder $[\pi4
 :::
 
 ::: {.contoh}
-**Contoh 13.a39 · Vitamin D**
+**Contoh 13.39 · Vitamin D**
 
 Di kulit, sinar UV-B mengubah 7-dehidrokolesterol menjadi previtamin D₃ melalui pembukaan cincin sikloheksadiena (6 elektron), lalu previtamin D₃ berubah secara termal menjadi vitamin D₃ melalui geseran [1,7]-H. (a) Apakah pembukaan cincin konrotasi atau disrotasi? (b) Geseran [1,7]-H termal: suprafasial atau antarafasial?
 
@@ -186,20 +186,20 @@ Apakah sikloadisi [4 + 4] suprafasial (misalnya fotodimerisasi antrasena) diizin
 
 ### Apa yang hilang dalam Hückel
 
-Model Hückel tidak mempunyai tolakan elektron eksplisit. Akibatnya ada tiga kegagalan sistematis yang sudah kita temui: energi eksitasi tidak dapat diramalkan dengan satu $\beta$ (Contoh 13.a14), pemisahan muatan dilebih-lebihkan (Contoh 13.a31), dan keadaan tereksitasi yang berasal dari orbital berdegenerasi tidak terpisah. Pada benzena, eksitasi dari pasangan HOMO $e_{1g}$ ke pasangan LUMO $e_{2u}$ menghasilkan empat konfigurasi, dan dalam Hückel keempatnya mempunyai energi $2|\beta|$. Spektrum benzena justru menunjukkan tiga pita singlet yang sangat berbeda: lemah di 254 nm (4,90 eV), sedang di sekitar 200 nm (6,2 eV), dan kuat di 180 nm (6,94 eV).
+Model Hückel tidak mempunyai tolakan elektron eksplisit. Akibatnya ada tiga kegagalan sistematis yang sudah kita temui: energi eksitasi tidak dapat diramalkan dengan satu $\beta$ (Contoh 13.14), pemisahan muatan dilebih-lebihkan (Contoh 13.31), dan keadaan tereksitasi yang berasal dari orbital berdegenerasi tidak terpisah. Pada benzena, eksitasi dari pasangan HOMO $e_{1g}$ ke pasangan LUMO $e_{2u}$ menghasilkan empat konfigurasi, dan dalam Hückel keempatnya mempunyai energi $2|\beta|$. Spektrum benzena justru menunjukkan tiga pita singlet yang sangat berbeda: lemah di 254 nm (4,90 eV), sedang di sekitar 200 nm (6,2 eV), dan kuat di 180 nm (6,94 eV).
 
 ### Persamaan PPP
 
 R. Pariser dan R. G. Parr (1953) serta J. A. Pople (1953) mempertahankan basis satu orbital $2p_z$ per atom dan pendekatan **tumpang tindih diferensial nol** (ZDO): semua integral dua elektron $(\mu\nu|\lambda\sigma)$ yang memuat hasil kali dua orbital berbeda pada elektron yang sama diabaikan, sehingga yang tersisa hanya
 
 $$
-(\mu\mu|\nu\nu) \equiv \gamma_{\mu\nu} . \qquad \text{(13.e21)}
+(\mu\mu|\nu\nu) \equiv \gamma_{\mu\nu} . \qquad \text{(13.21)}
 $$
 
 Dengan pendekatan ini, operator Fock Hartree–Fock (subbab 9.8) untuk sistem π menjadi matriks
 
 $$
-F_{\mu\mu} = \alpha_\mu + \tfrac12P_{\mu\mu}\gamma_{\mu\mu} + \sum_{\nu \ne \mu}(P_{\nu\nu} - Z_\nu)\gamma_{\mu\nu} , \qquad F_{\mu\nu} = \beta_{\mu\nu} - \tfrac12P_{\mu\nu}\gamma_{\mu\nu} , \qquad \text{(13.e22)}
+F_{\mu\mu} = \alpha_\mu + \tfrac12P_{\mu\mu}\gamma_{\mu\mu} + \sum_{\nu \ne \mu}(P_{\nu\nu} - Z_\nu)\gamma_{\mu\nu} , \qquad F_{\mu\nu} = \beta_{\mu\nu} - \tfrac12P_{\mu\nu}\gamma_{\mu\nu} , \qquad \text{(13.22)}
 $$
 
 dengan $P_{\mu\nu} = 2\sum_\text{terisi}c_{\mu i}c_{\nu i}$ matriks kerapatan, $Z_\nu$ muatan inti efektif yang dilihat elektron π (1 untuk karbon), dan $\beta_{\mu\nu}$ integral inti antartetangga. Suku diagonal memuat tolakan dengan elektron pada atom yang sama ($\tfrac12P_{\mu\mu}\gamma_{\mu\mu}$) dan tarikan/tolakan dengan atom-atom lain yang bermuatan bersih $P_{\nu\nu} - Z_\nu$. Suku di luar diagonal memuat pertukaran. Karena $\mathbf F$ bergantung pada $\mathbf P$, persamaan diselesaikan secara iteratif sampai swakonsisten (SCF).
@@ -207,7 +207,7 @@ dengan $P_{\mu\nu} = 2\sum_\text{terisi}c_{\mu i}c_{\nu i}$ matriks kerapatan, $
 Parameter baku untuk karbon: $\gamma_{\mu\mu} = I - A = 11{,}13$ eV (selisih energi ionisasi dan afinitas elektron orbital $2p$ karbon, yaitu biaya menaruh dua elektron pada satu atom), $\beta = -2{,}39$ eV, dan $\gamma_{\mu\nu}$ untuk atom yang berbeda menurut rumus Mataga–Nishimoto
 
 $$
-\gamma_{\mu\nu} = \frac{e^2/4\pi\varepsilon_0}{R_{\mu\nu} + a} , \qquad a = \frac{e^2/4\pi\varepsilon_0}{\gamma_{\mu\mu}} = 1{,}294\ \text{Å} , \qquad \text{(13.e23)}
+\gamma_{\mu\nu} = \frac{e^2/4\pi\varepsilon_0}{R_{\mu\nu} + a} , \qquad a = \frac{e^2/4\pi\varepsilon_0}{\gamma_{\mu\mu}} = 1{,}294\ \text{Å} , \qquad \text{(13.23)}
 $$
 
 yang menuju $e^2/4\pi\varepsilon_0R$ pada jarak besar dan $\gamma_{\mu\mu}$ pada $R = 0$.
@@ -216,17 +216,17 @@ yang menuju $e^2/4\pi\varepsilon_0R$ pada jarak besar dan $\gamma_{\mu\mu}$ pada
 
 Setelah SCF, keadaan tereksitasi disusun sebagai kombinasi konfigurasi yang memindahkan satu elektron dari orbital terisi $i$ ke orbital kosong $a$ (**CIS**). Unsur diagonal matriks CIS untuk singlet adalah $\varepsilon_a - \varepsilon_i - J_{ia} + 2K_{ia}$, dan untuk triplet $\varepsilon_a - \varepsilon_i - J_{ia}$, dengan $J_{ia}$ integral Coulomb (tarik-menarik elektron yang tereksitasi dengan "lubang" yang ditinggalkan) dan $K_{ia}$ integral pertukaran. Unsur di luar diagonal mencampur konfigurasi-konfigurasi yang berbeda. Dua hal penting muncul di sini:
 
-1. Energi eksitasi **bukan** selisih energi orbital: tarik-menarik elektron–lubang ($J_{ia}$) menurunkannya, dan inilah asal "titik potong" dalam Contoh 13.a19.
+1. Energi eksitasi **bukan** selisih energi orbital: tarik-menarik elektron–lubang ($J_{ia}$) menurunkannya, dan inilah asal "titik potong" dalam Contoh 13.19.
 2. Konfigurasi yang berdegenerasi dalam Hückel **bercampur dan terpisah** oleh unsur-unsur di luar diagonal.
 
-Untuk benzena, PPP-CIS memberikan $^1B_{2u}$ 4,91 eV, $^1B_{1u}$ 6,21 eV, dan $^1E_{1u}$ 7,03 eV, dibanding nilai teramati 4,90; 6,20; 6,94 eV (Gambar 13.g9). Kekuatan osilator yang dihitung nol untuk $^1B_{2u}$ dan $^1B_{1u}$ (terlarang oleh simetri, subbab 10.10) dan besar (sekitar 1,2) untuk $^1E_{1u}$, sesuai dengan intensitas teramati: pita 254 nm benzena lemah (hanya diizinkan melalui kopling getaran) dan pita 180 nm sangat kuat. Untuk naftalena, PPP-CIS memberi 4,14 eV (teramati sekitar 4,0, lemah), 4,48 eV (4,45, sedang), dan 5,80 eV (5,89, sangat kuat).
+Untuk benzena, PPP-CIS memberikan $^1B_{2u}$ 4,91 eV, $^1B_{1u}$ 6,21 eV, dan $^1E_{1u}$ 7,03 eV, dibanding nilai teramati 4,90; 6,20; 6,94 eV (Gambar 13.9). Kekuatan osilator yang dihitung nol untuk $^1B_{2u}$ dan $^1B_{1u}$ (terlarang oleh simetri, subbab 10.10) dan besar (sekitar 1,2) untuk $^1E_{1u}$, sesuai dengan intensitas teramati: pita 254 nm benzena lemah (hanya diizinkan melalui kopling getaran) dan pita 180 nm sangat kuat. Untuk naftalena, PPP-CIS memberi 4,14 eV (teramati sekitar 4,0, lemah), 4,48 eV (4,45, sedang), dan 5,80 eV (5,89, sangat kuat).
 
-![Gambar 13.g9 Energi keadaan tereksitasi singlet benzena dari eksitasi π → π*: Hückel (satu tingkat berdegenerasi rangkap empat pada $2|\beta|$), PPP-CIS dengan parameter baku, dan percobaan.](fig/c_ppp.png){width=74%}
+![Gambar 13.9 Energi keadaan tereksitasi singlet benzena dari eksitasi π → π*: Hückel (satu tingkat berdegenerasi rangkap empat pada $2|\beta|$), PPP-CIS dengan parameter baku, dan percobaan.](fig/c_ppp.png){width=74%}
 
 Metode PPP adalah metode semiempiris pertama yang meramalkan spektrum UV-tampak molekul terkonjugasi secara kuantitatif. Ia menjadi alat utama perancangan zat warna selama beberapa dasawarsa, dan gagasannya (ZDO, parameter dari data atom, SCF + CI) diteruskan ke metode semiempiris untuk semua elektron valensi (CNDO, INDO, MNDO, AM1, PM3, ZINDO; subbab 17.17).
 
 ::: {.contoh}
-**Contoh 13.a40 · Integral tolakan Mataga–Nishimoto**
+**Contoh 13.40 · Integral tolakan Mataga–Nishimoto**
 
 Untuk benzena (C–C 139,7 pm), hitung $\gamma$ untuk atom yang sama, tetangga orto, meta (241,97 pm), dan para (279,4 pm). Bandingkan dengan tolakan dua muatan titik pada jarak yang sama.
 
@@ -236,7 +236,7 @@ Untuk benzena (C–C 139,7 pm), hitung $\gamma$ untuk atom yang sama, tetangga o
 :::
 
 ::: {.contoh}
-**Contoh 13.a41 · PPP-SCF dan CIS dengan Python**
+**Contoh 13.41 · PPP-SCF dan CIS dengan Python**
 
 Tulis program PPP-SCF + CIS untuk sistem π dengan koordinat atom dan daftar ikatan, lalu hitung energi singlet benzena.
 
@@ -274,7 +274,7 @@ print(ppp(xyz, [(k, (k + 1) % 6) for k in range(6)])[:4].round(2))   # [4.91 6.2
 :::
 
 ::: {.contoh}
-**Contoh 13.a42 · Mengapa azulena biru**
+**Contoh 13.42 · Mengapa azulena biru**
 
 PPP-CIS untuk azulena memberikan keadaan singlet terendah pada 1,91 eV dengan kekuatan osilator kecil (0,02), dan keadaan berikutnya pada 3,49 eV. Naftalena (isomer C₁₀H₈) mempunyai keadaan terendah pada sekitar 4,0 eV. (a) Pada panjang gelombang berapa azulena menyerap? (b) Warna apa yang tampak? (c) Mengapa celahnya jauh lebih kecil daripada naftalena?
 

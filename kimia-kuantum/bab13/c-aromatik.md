@@ -14,10 +14,10 @@ Ciri-ciri ini menjelaskan perilaku kimia benzena: reaksi yang menghancurkan kuli
 
 ### Aturan Hückel
 
-Lingkaran Frost (Gambar 13.g5) langsung menunjukkan aturan umumnya. Untuk cincin datar yang terkonjugasi penuh, orbital terendah tunggal dan selanjutnya berpasangan. Kulit tertutup dengan semua orbital ikatan terisi tercapai bila banyaknya elektron π
+Lingkaran Frost (Gambar 13.5) langsung menunjukkan aturan umumnya. Untuk cincin datar yang terkonjugasi penuh, orbital terendah tunggal dan selanjutnya berpasangan. Kulit tertutup dengan semua orbital ikatan terisi tercapai bila banyaknya elektron π
 
 $$
-N_\pi = 4n + 2 , \qquad n = 0, 1, 2, \ldots \qquad \text{(13.e15)}
+N_\pi = 4n + 2 , \qquad n = 0, 1, 2, \ldots \qquad \text{(13.15)}
 $$
 
 Sistem seperti ini disebut **aromatik**. Bila $N_\pi = 4n$, dua elektron terakhir harus menempati sepasang orbital berdegenerasi yang setengah terisi (atau, untuk cincin genap, sepasang orbital nonikatan), sehingga molekul berupa biradikal dalam bentuk simetrisnya. Sistem seperti ini disebut **antiaromatik**: ia lebih tidak stabil daripada struktur dengan ikatan rangkap terlokalisasi, dan ia berusaha keluar dari bentuk simetris itu.
@@ -38,7 +38,7 @@ Angka energi delokalisasi saja kadang menyesatkan (C₇H₇⁻ tampak mempunyai 
 
 ### Antiaromatisitas dan distorsi
 
-Siklobutadiena bujur sangkar mempunyai dua elektron dalam dua orbital nonikatan berdegenerasi. Keadaan seperti ini tidak stabil terhadap distorsi yang memecah degenerasi (efek Jahn–Teller orde kedua, subbab 14.6). Bila bujur sangkar diregangkan menjadi persegi panjang, dua ikatan memendek (interaksi $\beta(1 + \delta)$) dan dua memanjang ($\beta(1 - \delta)$). Matriks Hückel memberikan nilai eigen $\pm2\beta$ dan $\pm2\delta\beta$: kedua orbital nonikatan pecah menjadi $\alpha \pm 2\delta\beta$, dan dua elektron mengisi yang lebih rendah. Energi π turun sebesar $4\delta|\beta|$, sebanding dengan distorsi (Contoh 13.a24), sedangkan biaya regangan kerangka σ sebanding dengan $\delta^2$. Distorsi kecil selalu menguntungkan: siklobutadiena berbentuk persegi panjang dengan ikatan tunggal dan rangkap yang jelas berbeda, dan keadaan dasarnya singlet berkulit tertutup. Siklooktatetraena memilih jalan lain: ia melipat menjadi bentuk bak, sehingga keempat ikatan rangkapnya hampir tidak berkonjugasi, dan ia berperilaku seperti poliena biasa (**nonaromatik**). Bila diberi dua elektron, dianion C₈H₈²⁻ (10 elektron π) menjadi datar dan aromatik; ion ini membentuk "sandwich" dengan uranium dalam uranosena.
+Siklobutadiena bujur sangkar mempunyai dua elektron dalam dua orbital nonikatan berdegenerasi. Keadaan seperti ini tidak stabil terhadap distorsi yang memecah degenerasi (efek Jahn–Teller orde kedua, subbab 14.6). Bila bujur sangkar diregangkan menjadi persegi panjang, dua ikatan memendek (interaksi $\beta(1 + \delta)$) dan dua memanjang ($\beta(1 - \delta)$). Matriks Hückel memberikan nilai eigen $\pm2\beta$ dan $\pm2\delta\beta$: kedua orbital nonikatan pecah menjadi $\alpha \pm 2\delta\beta$, dan dua elektron mengisi yang lebih rendah. Energi π turun sebesar $4\delta|\beta|$, sebanding dengan distorsi (Contoh 13.24), sedangkan biaya regangan kerangka σ sebanding dengan $\delta^2$. Distorsi kecil selalu menguntungkan: siklobutadiena berbentuk persegi panjang dengan ikatan tunggal dan rangkap yang jelas berbeda, dan keadaan dasarnya singlet berkulit tertutup. Siklooktatetraena memilih jalan lain: ia melipat menjadi bentuk bak, sehingga keempat ikatan rangkapnya hampir tidak berkonjugasi, dan ia berperilaku seperti poliena biasa (**nonaromatik**). Bila diberi dua elektron, dianion C₈H₈²⁻ (10 elektron π) menjadi datar dan aromatik; ion ini membentuk "sandwich" dengan uranium dalam uranosena.
 
 ### Annulena dan arus cincin
 
@@ -46,10 +46,10 @@ Aturan $4n + 2$ berlaku juga untuk cincin besar. [18]Annulena (C₁₈H₁₈, $
 
 ### Topologi Möbius
 
-Jika cincin orbital $p$ dipuntir setengah putaran sepanjang kelilingnya, seperti pita Möbius, satu interaksi tetangga berganti tanda. Syarat batas periodik menjadi antiperiodik, $c_{N+1} = -c_1$, dan (13.e14) berubah menjadi
+Jika cincin orbital $p$ dipuntir setengah putaran sepanjang kelilingnya, seperti pita Möbius, satu interaksi tetangga berganti tanda. Syarat batas periodik menjadi antiperiodik, $c_{N+1} = -c_1$, dan (13.14) berubah menjadi
 
 $$
-E_k = \alpha + 2\beta\cos\frac{(2k + 1)\pi}{N} . \qquad \text{(13.e16)}
+E_k = \alpha + 2\beta\cos\frac{(2k + 1)\pi}{N} . \qquad \text{(13.16)}
 $$
 
 Kini **semua** tingkat berpasangan, sehingga kulit tertutup tercapai pada $4n$ elektron. Aturan aromatisitas berbalik: **sistem Möbius aromatik dengan $4n$ elektron** (E. Heilbronner, 1964). Annulena Möbius yang stabil baru disintesis pada tahun 2003, tetapi gagasan ini terutama penting untuk keadaan transisi reaksi perisiklik (subbab 13.11).
@@ -59,7 +59,7 @@ Kini **semua** tingkat berpasangan, sehingga kulit tertutup tercapai pada $4n$ e
 :::
 
 ::: {.contoh}
-**Contoh 13.a22 · Ion siklik kecil**
+**Contoh 13.22 · Ion siklik kecil**
 
 (a) Hitung $E_\pi$ untuk kation siklopropenil dan anion siklopropenil, dengan lingkaran Frost untuk $N = 3$. (b) Garam trifenilsiklopropenium, (C₆H₅)₃C₃⁺ X⁻, stabil dan dapat disimpan. Mengapa kation dengan cincin bertegangan tinggi ini stabil?
 
@@ -71,7 +71,7 @@ Kini **semua** tingkat berpasangan, sehingga kulit tertutup tercapai pada $4n$ e
 :::
 
 ::: {.contoh}
-**Contoh 13.a23 · Keasaman siklopentadiena dan sikloheptatriena**
+**Contoh 13.23 · Keasaman siklopentadiena dan sikloheptatriena**
 
 pK$_a$ siklopentadiena sekitar 16 dan sikloheptatriena sekitar 36. (a) Hitung selisih $\Delta G^\circ$ deprotonasi pada 298 K. (b) Tafsirkan dengan aturan Hückel.
 
@@ -83,7 +83,7 @@ pK$_a$ siklopentadiena sekitar 16 dan sikloheptatriena sekitar 36. (a) Hitung se
 :::
 
 ::: {.contoh}
-**Contoh 13.a24 · Siklobutadiena merenggang**
+**Contoh 13.24 · Siklobutadiena merenggang**
 
 Untuk siklobutadiena dengan ikatan berselang $\beta(1 + \delta)$ dan $\beta(1 - \delta)$, (a) tunjukkan bahwa nilai eigen matriks Hückel adalah $\pm2$ dan $\pm2\delta$ (dalam satuan $\beta$). (b) Hitung perubahan $E_\pi$ terhadap bujur sangkar untuk $\delta = 0{,}05$; 0,10; 0,20. (c) Bila biaya regangan σ adalah $K\delta^2$, berapa $\delta$ optimum?
 
@@ -93,7 +93,7 @@ Untuk siklobutadiena dengan ikatan berselang $\beta(1 + \delta)$ dan $\beta(1 - 
 :::
 
 ::: {.contoh}
-**Contoh 13.a25 · Hückel vs Möbius**
+**Contoh 13.25 · Hückel vs Möbius**
 
 Hitung energi π untuk 4 dan 6 elektron dalam cincin empat dan enam atom dengan topologi Hückel dan Möbius. Bandingkan dengan rujukan dua atau tiga ikatan rangkap terlokalisasi.
 
@@ -115,7 +115,7 @@ Manakah yang aromatik menurut aturan Hückel: kation sikloheptatrienil, anion si
 Atom seperti N dan O lebih elektronegatif daripada C, sehingga elektron dalam orbital $2p_z$-nya lebih rendah energinya. Dalam model Hückel, perbedaan ini dimasukkan dengan dua parameter:
 
 $$
-\alpha_X = \alpha + h_X\,\beta , \qquad \beta_{CX} = k_{CX}\,\beta . \qquad \text{(13.e17)}
+\alpha_X = \alpha + h_X\,\beta , \qquad \beta_{CX} = k_{CX}\,\beta . \qquad \text{(13.17)}
 $$
 
 Karena $\beta < 0$, $h_X > 0$ membuat $\alpha_X$ lebih rendah daripada $\alpha$ karbon. Dalam matriks $\mathbf A$, $h_X$ masuk sebagai unsur diagonal dan $k_{CX}$ sebagai unsur ikatan. Nilai baku (A. Streitwieser, 1961) yang umum dipakai:
@@ -131,7 +131,7 @@ Perbedaan antara kedua jenis N sangat penting. N jenis piridina berikatan rangka
 
 ### Piridina
 
-Piridina adalah benzena dengan satu CH diganti N. Dengan $h_\text{N} = 0{,}5$, enam elektron π, dan matriks Hückel yang hampir sama dengan benzena, diperoleh muatan π (positif berarti kekurangan elektron π): N $-0{,}20$, C2 dan C6 $+0{,}08$, C3 dan C5 $0{,}00$, C4 $+0{,}05$ (Gambar 13.g6). Pola ini menjelaskan kimia piridina:
+Piridina adalah benzena dengan satu CH diganti N. Dengan $h_\text{N} = 0{,}5$, enam elektron π, dan matriks Hückel yang hampir sama dengan benzena, diperoleh muatan π (positif berarti kekurangan elektron π): N $-0{,}20$, C2 dan C6 $+0{,}08$, C3 dan C5 $0{,}00$, C4 $+0{,}05$ (Gambar 13.6). Pola ini menjelaskan kimia piridina:
 
 * **Kebasaan.** Pasangan bebas sp² nitrogen tidak termasuk sistem π, sehingga protonasi tidak merusak aromatisitas. Piridina adalah basa sedang (pK$_a$ ion piridinium 5,2).
 * **Substitusi elektrofilik sulit** (cincin kekurangan elektron π secara keseluruhan) dan terjadi di C3, satu-satunya karbon yang tidak bermuatan positif.
@@ -147,10 +147,10 @@ Pirola mempunyai lima atom dalam cincin dan enam elektron π: empat dari keempat
 
 Furan (O jenis furan) mirip pirola: O $+0{,}21$ dengan parameter di atas, dan cincin karbonnya kaya elektron. Karena O lebih elektronegatif, aromatisitas furan lebih lemah, dan furan lebih mudah mengalami reaksi adisi (misalnya sebagai diena dalam reaksi Diels–Alder).
 
-![Gambar 13.g6 Muatan π Hückel (positif: kekurangan elektron π) pada piridina ($h_\text{N} = 0{,}5$), pirola ($h_\text{N} = 1{,}5$, $k_\text{CN} = 0{,}8$), dan azulena. Pada piridina N menarik kerapatan π; pada pirola N menyumbangkannya ke cincin. Pada azulena, cincin lima bermuatan negatif dan cincin tujuh positif (subbab 13.9).](fig/c_muatan.png){width=94%}
+![Gambar 13.6 Muatan π Hückel (positif: kekurangan elektron π) pada piridina ($h_\text{N} = 0{,}5$), pirola ($h_\text{N} = 1{,}5$, $k_\text{CN} = 0{,}8$), dan azulena. Pada piridina N menarik kerapatan π; pada pirola N menyumbangkannya ke cincin. Pada azulena, cincin lima bermuatan negatif dan cincin tujuh positif (subbab 13.9).](fig/c_muatan.png){width=94%}
 
 ::: {.contoh}
-**Contoh 13.a26 · Gugus karbonil**
+**Contoh 13.26 · Gugus karbonil**
 
 Untuk formaldehida, H₂C=O ($h_\text{O} = 1$, $k_\text{CO} = 1$), (a) tuliskan matriks Hückel dan hitung energi serta koefisien kedua OM π. (b) Hitung muatan π C dan O. (c) Pada atom mana koefisien LUMO terbesar, dan apa artinya bagi serangan nukleofil?
 
@@ -160,17 +160,17 @@ Untuk formaldehida, H₂C=O ($h_\text{O} = 1$, $k_\text{CO} = 1$), (a) tuliskan 
 :::
 
 ::: {.contoh}
-**Contoh 13.a27 · Piridina dengan Python**
+**Contoh 13.27 · Piridina dengan Python**
 
 Hitung energi orbital, muatan π, dan orde ikatan π piridina dengan $h_\text{N} = 0{,}5$. Bandingkan energi HOMO dengan benzena.
 
-**Penyelesaian.** Dengan fungsi Contoh 13.a12 yang ditambah unsur diagonal $A_{11} = 0{,}5$: $x$ = 2,107; 1,167; 1,000; $-0{,}841$; $-1{,}000$; $-1{,}934$. Muatan π: N $-0{,}195$, C2 $+0{,}077$, C3 $-0{,}004$, C4 $+0{,}050$. Orde ikatan: N–C2 0,654, C2–C3 0,669, C3–C4 0,665.
+**Penyelesaian.** Dengan fungsi Contoh 13.12 yang ditambah unsur diagonal $A_{11} = 0{,}5$: $x$ = 2,107; 1,167; 1,000; $-0{,}841$; $-1{,}000$; $-1{,}934$. Muatan π: N $-0{,}195$, C2 $+0{,}077$, C3 $-0{,}004$, C4 $+0{,}050$. Orde ikatan: N–C2 0,654, C2–C3 0,669, C3–C4 0,665.
 
 **Memahami hasil.** Pasangan HOMO benzena yang berdegenerasi ($x = 1$) pecah menjadi 1,167 (orbital dengan koefisien di N, distabilkan) dan 1,000 (orbital dengan simpul tepat di N, tidak terpengaruh). Orde ikatan hampir sama dengan benzena (0,667): heteroatom hanya sedikit mengganggu delokalisasi. Piridina tetap aromatik, dan perubahan terbesar ada pada distribusi muatan.
 :::
 
 ::: {.contoh}
-**Contoh 13.a28 · Mengapa pirola tidak basa**
+**Contoh 13.28 · Mengapa pirola tidak basa**
 
 (a) Hitung selisih $\Delta G^\circ$ protonasi (298 K) antara piridina (pK$_a$ BH⁺ 5,2) dan pirola (sekitar $-3{,}8$). (b) Hitung energi π pirola dan bandingkan dengan sistem tanpa pasangan bebas N, butadiena ($4\alpha + 4{,}472\beta$) ditambah pasangan bebas pada N terpisah ($2\alpha_\text{N} = 2\alpha + 3\beta$). (c) Apa yang hilang ketika N pirola diprotonasi?
 
@@ -197,24 +197,24 @@ Hidrokarbon terkonjugasi disebut **alternan** bila atom-atomnya dapat diberi tan
 
 Buktinya singkat. Urutkan atom bertanda lebih dulu; matriks keterhubungan berbentuk $\begin{pmatrix}\mathbf 0 & \mathbf B\\ \mathbf B^\text{T} & \mathbf 0\end{pmatrix}$, karena ikatan hanya menghubungkan atom bertanda dengan tak bertanda. Bila $(\mathbf u, \mathbf v)$ vektor eigen dengan nilai $x$, maka $\mathbf B\mathbf v = x\mathbf u$ dan $\mathbf B^\text{T}\mathbf u = x\mathbf v$, sehingga $(\mathbf u, -\mathbf v)$ adalah vektor eigen dengan nilai $-x$. Untuk molekul netral, orbital-orbital ikatan terisi penuh; kerapatan pada atom $r$ adalah $2\sum_{k,\text{ikatan}}c_{rk}^2$, dan karena orbital ikatan dan pasangan antiikatannya mempunyai $c_{rk}^2$ yang sama, sedangkan keduanya bersama-sama membentuk himpunan lengkap, $\sum_{\text{semua }k}c_{rk}^2 = 1$ membagi rata: kerapatan pada setiap atom tepat 1.
 
-Teorema ini menjelaskan mengapa hidrokarbon alternan seperti naftalena dan antrasena hampir tidak polar, sedangkan hidrokarbon nonalternan seperti azulena mempunyai momen dipol yang jelas (0,8 D). Pada azulena (Gambar 13.g6), perhitungan Hückel memberi cincin lima bermuatan total sekitar $-0{,}4$ dan cincin tujuh sekitar $+0{,}4$: azulena tampak seperti "anion siklopentadienil yang menempel pada kation tropilium", dua sistem aromatik yang masing-masing dengan enam elektron π. Model Hückel melebih-lebihkan pemisahan muatan ini (dipol yang dihitung beberapa debye, teramati 0,8 D), tetapi arahnya benar. Warna biru azulena (berbeda dengan naftalena yang tak berwarna, padahal keduanya C₁₀H₈) juga berakar pada sifat nonalternannya: HOMO dan LUMO azulena terletak pada atom-atom yang berbeda, sehingga tolakan elektron pada keadaan tereksitasi pertama kecil dan energi eksitasinya rendah.
+Teorema ini menjelaskan mengapa hidrokarbon alternan seperti naftalena dan antrasena hampir tidak polar, sedangkan hidrokarbon nonalternan seperti azulena mempunyai momen dipol yang jelas (0,8 D). Pada azulena (Gambar 13.6), perhitungan Hückel memberi cincin lima bermuatan total sekitar $-0{,}4$ dan cincin tujuh sekitar $+0{,}4$: azulena tampak seperti "anion siklopentadienil yang menempel pada kation tropilium", dua sistem aromatik yang masing-masing dengan enam elektron π. Model Hückel melebih-lebihkan pemisahan muatan ini (dipol yang dihitung beberapa debye, teramati 0,8 D), tetapi arahnya benar. Warna biru azulena (berbeda dengan naftalena yang tak berwarna, padahal keduanya C₁₀H₈) juga berakar pada sifat nonalternannya: HOMO dan LUMO azulena terletak pada atom-atom yang berbeda, sehingga tolakan elektron pada keadaan tereksitasi pertama kecil dan energi eksitasinya rendah.
 
 ### Orde ikatan dan panjang ikatan
 
-Orde ikatan π Coulson, $p_{rs}$ dalam (13.e7), berkorelasi baik dengan panjang ikatan C–C dalam hidrokarbon terkonjugasi. Dari etilena ($p = 1$, 133,9 pm), benzena ($p = \tfrac23$, 139,7 pm), dan butadiena ($p = 0{,}894$, 133,8 pm; $p = 0{,}447$, 145,4 pm), garis kuadrat terkecil adalah
+Orde ikatan π Coulson, $p_{rs}$ dalam (13.7), berkorelasi baik dengan panjang ikatan C–C dalam hidrokarbon terkonjugasi. Dari etilena ($p = 1$, 133,9 pm), benzena ($p = \tfrac23$, 139,7 pm), dan butadiena ($p = 0{,}894$, 133,8 pm; $p = 0{,}447$, 145,4 pm), garis kuadrat terkecil adalah
 
 $$
-r \approx 154{,}8 - 22{,}1\,p_{rs}\ \text{pm} . \qquad \text{(13.e18)}
+r \approx 154{,}8 - 22{,}1\,p_{rs}\ \text{pm} . \qquad \text{(13.18)}
 $$
 
-Untuk naftalena, Hückel memberi $p_{12} = 0{,}725$, $p_{23} = 0{,}603$, $p_{1,8a} = 0{,}555$, $p_{4a,8a} = 0{,}518$, dan (13.e18) meramalkan 138,8; 141,5; 142,6; 143,4 pm, dibanding nilai teramati 137,1; 141,2; 142,2; 142,0 pm (Contoh 13.a29). Urutannya benar: ikatan C1–C2 paling pendek dan paling "rangkap", seperti yang juga diramalkan oleh tiga struktur Kekulé (soal 68 di Bab 12 memakai pendekatan resonansi untuk pertanyaan yang sama).
+Untuk naftalena, Hückel memberi $p_{12} = 0{,}725$, $p_{23} = 0{,}603$, $p_{1,8a} = 0{,}555$, $p_{4a,8a} = 0{,}518$, dan (13.18) meramalkan 138,8; 141,5; 142,6; 143,4 pm, dibanding nilai teramati 137,1; 141,2; 142,2; 142,0 pm (Contoh 13.29). Urutannya benar: ikatan C1–C2 paling pendek dan paling "rangkap", seperti yang juga diramalkan oleh tiga struktur Kekulé (soal 68 di Bab 12 memakai pendekatan resonansi untuk pertanyaan yang sama).
 
 ### Valensi bebas dan kereaktifan radikal
 
 Coulson mendefinisikan **valensi bebas** atom $r$,
 
 $$
-F_r = \sqrt3 - \sum_{s}p_{rs} , \qquad \text{(13.e19)}
+F_r = \sqrt3 - \sum_{s}p_{rs} , \qquad \text{(13.19)}
 $$
 
 dengan jumlah atas tetangga-tetangga $s$. Angka $\sqrt3$ adalah jumlah orde ikatan π terbesar yang mungkin untuk satu karbon (dicapai oleh atom pusat radikal trimetilenmetana). $F_r$ mengukur seberapa banyak "kapasitas ikatan π" atom $r$ yang belum terpakai; atom dengan $F_r$ besar lebih mudah diserang radikal. Pada naftalena $F_1 = 0{,}453$ dan $F_2 = 0{,}404$: radikal menyerang posisi α (C1). Pada antrasena $F_9 = 0{,}520$, terbesar di antara semua atom: posisi 9 dan 10 antrasena memang paling reaktif terhadap radikal, oksigen singlet, dan dienofil.
@@ -224,9 +224,9 @@ dengan jumlah atas tetangga-tetangga $s$. Angka $\sqrt3$ adalah jumlah orde ikat
 Energi delokalisasi Hückel, dihitung dengan rujukan ikatan rangkap etilena, bertambah dengan ukuran sistem aromatik: benzena $2{,}00\beta$, naftalena $3{,}68\beta$, antrasena $5{,}31\beta$, fenantrena $5{,}45\beta$. Isomer bersudut (fenantrena) lebih stabil daripada isomer linear (antrasena) sekitar $0{,}13|\beta| \approx 10$ kJ/mol; percobaan memberikan selisih yang searah dan sedikit lebih besar. Gagasan E. Clar tentang "sekstet aromatik" memberi jawaban yang sama dengan bahasa struktur: fenantrena dapat digambar dengan dua sekstet benzena utuh, antrasena hanya dengan satu.
 
 ::: {.contoh}
-**Contoh 13.a29 · Naftalena: orde ikatan dan panjang ikatan**
+**Contoh 13.29 · Naftalena: orde ikatan dan panjang ikatan**
 
-Dari perhitungan Hückel naftalena (10 atom, 11 ikatan), $p_{12} = 0{,}7246$, $p_{23} = 0{,}6032$, $p_{1,8a} = 0{,}5547$, $p_{4a,8a} = 0{,}5182$. (a) Ramalkan panjang ikatan dengan (13.e18). (b) Hitung energi delokalisasi dari $E_\pi = 10\alpha + 13{,}683\beta$.
+Dari perhitungan Hückel naftalena (10 atom, 11 ikatan), $p_{12} = 0{,}7246$, $p_{23} = 0{,}6032$, $p_{1,8a} = 0{,}5547$, $p_{4a,8a} = 0{,}5182$. (a) Ramalkan panjang ikatan dengan (13.18). (b) Hitung energi delokalisasi dari $E_\pi = 10\alpha + 13{,}683\beta$.
 
 **Penyelesaian.** (a) $154{,}8 - 22{,}07p$: 138,8; 141,5; 142,6; 143,4 pm (teramati 137,1; 141,2; 142,2; 142,0). (b) $13{,}683 - 10 = 3{,}683\beta$, atau $1{,}84\beta$ per cincin.
 
@@ -234,7 +234,7 @@ Dari perhitungan Hückel naftalena (10 atom, 11 ikatan), $p_{12} = 0{,}7246$, $p
 :::
 
 ::: {.contoh}
-**Contoh 13.a30 · Teorema pasangan pada radikal benzil**
+**Contoh 13.30 · Teorema pasangan pada radikal benzil**
 
 Radikal benzil, C₆H₅CH₂•, alternan dengan tujuh atom. (a) Mengapa ia harus mempunyai satu orbital nonikatan ($x = 0$)? (b) Orbital nonikatan hidrokarbon alternan hanya mempunyai koefisien pada atom bertanda, dan jumlah koefisien di sekitar setiap atom tak bertanda harus nol. Pakai aturan ini untuk menentukan koefisiennya. (c) Bandingkan dengan diagonalisasi numerik.
 
@@ -244,7 +244,7 @@ Radikal benzil, C₆H₅CH₂•, alternan dengan tujuh atom. (a) Mengapa ia har
 :::
 
 ::: {.contoh}
-**Contoh 13.a31 · Azulena dan momen dipolnya**
+**Contoh 13.31 · Azulena dan momen dipolnya**
 
 Perhitungan Hückel azulena memberikan muatan π: tiga karbon cincin lima yang tidak bersama $-0{,}17$, $-0{,}05$, $-0{,}17$; lima karbon cincin tujuh yang tidak bersama $+0{,}15$, $+0{,}01$, $+0{,}13$, $+0{,}01$, $+0{,}15$; dua karbon bersama $-0{,}03$ masing-masing. (a) Hitung muatan total setiap cincin (tanpa atom bersama). (b) Bila pusat-pusat muatan dipisahkan sekitar 2,3 Å, taksir momen dipol π.
 
