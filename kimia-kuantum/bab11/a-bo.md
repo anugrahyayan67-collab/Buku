@@ -51,7 +51,7 @@ Dari *Fisika Umum*: Bab 12 (potensial Coulomb dan energi potensial listrik) dan 
 Operator Hamilton molekul (persamaan (4.7)) memuat energi kinetik semua inti dan semua elektron serta semua interaksi Coulomb di antara mereka. Dalam satuan atom ($\hbar = m_e = e = 4\pi\varepsilon_0 = 1$, subbab 2.11):
 
 $$
-\hat H = \underbrace{-\sum_A\frac{1}{2M_A}\nabla_A^2}_{\hat T_N} \underbrace{-\sum_i\frac12\nabla_i^2}_{\hat T_e} \underbrace{-\sum_{A,i}\frac{Z_A}{r_{Ai}}}_{\hat V_{eN}} + \underbrace{\sum_{i<j}\frac{1}{r_{ij}}}_{\hat V_{ee}} + \underbrace{\sum_{A<B}\frac{Z_AZ_B}{R_{AB}}}_{\hat V_{NN}} , \qquad \text{(11.p1)}
+\hat H = \underbrace{-\sum_A\frac{1}{2M_A}\nabla_A^2}_{\hat T_N} \underbrace{-\sum_i\frac12\nabla_i^2}_{\hat T_e} \underbrace{-\sum_{A,i}\frac{Z_A}{r_{Ai}}}_{\hat V_{eN}} + \underbrace{\sum_{i<j}\frac{1}{r_{ij}}}_{\hat V_{ee}} + \underbrace{\sum_{A<B}\frac{Z_AZ_B}{R_{AB}}}_{\hat V_{NN}} , \qquad \text{(11.1)}
 $$
 
 dengan $M_A$ massa inti $A$ dalam satuan massa elektron. Fungsi gelombangnya $\Psi(\mathbf r, \mathbf R)$ bergantung pada koordinat semua elektron ($\mathbf r$) dan semua inti ($\mathbf R$). Bahkan untuk molekul terkecil, H₂⁺ dengan tiga partikel, persamaan ini sudah sulit; untuk benzena dengan 12 inti dan 42 elektron, ia mustahil diselesaikan langsung. Lebih dari itu, fungsi gelombang total ini tidak mengandung "geometri molekul" dalam arti yang dikenal kimiawan: inti-inti juga partikel kuantum yang tersebar.
@@ -71,7 +71,7 @@ $$
 bekerja hanya pada koordinat elektron, dan bergantung pada $\mathbf R$ sebagai **parameter**. Persamaan eigennya
 
 $$
-\hat H_\text{el}\,\psi_n(\mathbf r; \mathbf R) = U_n(\mathbf R)\,\psi_n(\mathbf r; \mathbf R) \qquad \text{(11.p2)}
+\hat H_\text{el}\,\psi_n(\mathbf r; \mathbf R) = U_n(\mathbf R)\,\psi_n(\mathbf r; \mathbf R) \qquad \text{(11.2)}
 $$
 
 harus diselesaikan untuk setiap susunan inti. Titik koma dalam $\psi_n(\mathbf r; \mathbf R)$ menandai bahwa $\mathbf R$ adalah parameter, bukan variabel. Nilai eigen $U_n(\mathbf R)$, yang sudah mencakup tolakan antarinti, disebut **permukaan energi potensial** keadaan elektronik $n$; untuk molekul diatom ia bergantung hanya pada jarak antarinti $R$ dan disebut **kurva energi potensial**.
@@ -91,7 +91,7 @@ $$
 Pendekatan Born–Oppenheimer adalah mengabaikan dua suku terakhir, yang memuat turunan fungsi gelombang *elektronik* terhadap posisi inti. Dengan itu, $\psi_n$ dapat dikeluarkan dan diperoleh persamaan untuk inti saja:
 
 $$
-\left[-\sum_A\frac{1}{2M_A}\nabla_A^2 + U_n(\mathbf R)\right]\chi(\mathbf R) = E\,\chi(\mathbf R) . \qquad \text{(11.p3)}
+\left[-\sum_A\frac{1}{2M_A}\nabla_A^2 + U_n(\mathbf R)\right]\chi(\mathbf R) = E\,\chi(\mathbf R) . \qquad \text{(11.3)}
 $$
 
 Inti bergerak seolah-olah dalam potensial $U_n(\mathbf R)$. Elektron, dalam pendekatan ini, hanya berperan sebagai "lem" yang menghasilkan potensial itu.
@@ -99,8 +99,8 @@ Inti bergerak seolah-olah dalam potensial $U_n(\mathbf R)$. Elektron, dalam pend
 ::: {.inti}
 **Pendekatan Born–Oppenheimer**
 
-1. Untuk setiap posisi inti $\mathbf R$, selesaikan persamaan elektronik (11.p2); nilai eigennya $U_n(\mathbf R)$ adalah permukaan energi potensial.
-2. Inti bergerak dalam potensial $U_n(\mathbf R)$ menurut (11.p3); penyelesaiannya memberi tingkat getaran dan rotasi.
+1. Untuk setiap posisi inti $\mathbf R$, selesaikan persamaan elektronik (11.2); nilai eigennya $U_n(\mathbf R)$ adalah permukaan energi potensial.
+2. Inti bergerak dalam potensial $U_n(\mathbf R)$ menurut (11.3); penyelesaiannya memberi tingkat getaran dan rotasi.
 3. Kesalahan pendekatan ini berorde $m_e/M$ dalam energi, kecuali di dekat titik ketika dua permukaan energi potensial hampir bersentuhan.
 :::
 
@@ -123,7 +123,7 @@ Born dan Oppenheimer menunjukkan, dengan uraian deret dalam parameter $\kappa = 
 :::
 
 ::: {.contoh}
-**Contoh 11.a1 · Skala waktu elektron dan inti**
+**Contoh 11.1 · Skala waktu elektron dan inti**
 
 Bandingkan (a) periode orbit elektron 1s dalam atom H menurut model Bohr ($r = 52{,}9$ pm, $v = 2{,}19 \times 10^6$ m/s), (b) periode getaran H₂ ($\tilde\nu = 4401$ cm⁻¹) dan N₂ (2359 cm⁻¹), dan (c) periode rotasi H₂ pada $J = 1$ (sekitar 0,19 ps).
 
@@ -133,7 +133,7 @@ Bandingkan (a) periode orbit elektron 1s dalam atom H menurut model Bohr ($r = 5
 :::
 
 ::: {.contoh}
-**Contoh 11.a2 · Hierarki energi H₂**
+**Contoh 11.2 · Hierarki energi H₂**
 
 Untuk H₂, energi eksitasi elektronik pertama sekitar 11,2 eV, kuantum getaran 4401 cm⁻¹, dan tetapan rotasi $B = 60{,}85$ cm⁻¹. Hitung perbandingan $E_\text{el} : E_\text{vib} : E_\text{rot}$ (pakai $2B$ untuk rotasi) dan bandingkan dengan perkiraan $(m_e/\mu)^{1/2}$ dan $m_e/\mu$, dengan $\mu = m_p/2$.
 
@@ -153,7 +153,7 @@ Konsep permukaan energi potensial adalah salah satu gagasan terpenting dalam kim
 Suku yang diabaikan, $\nabla_A\psi_n$, menjadi besar ketika fungsi gelombang elektronik berubah tajam terhadap $R$, yaitu ketika dua permukaan energi potensial saling mendekat. Untuk molekul diatom berlaku **aturan tak bersilangan** (von Neumann dan Wigner, 1929): dua kurva dengan simetri yang sama (lambang suku yang sama, subbab 11.9) tidak dapat bersilangan. Bila dua keadaan sesimetri "ingin" bersilangan, Hamiltonian mencampurnya, dan kurvanya saling menolak membentuk **persilangan yang dihindari**. Di sekitar titik itu, karakter elektronik berubah cepat, dan inti yang bergerak cepat dapat "melompat" dari satu kurva ke kurva lain. Lompatan seperti itu (proses **nonadiabatik**) adalah inti fotokimia: dalam penglihatan, retinal yang tereksitasi kembali ke keadaan dasar melalui titik di mana dua permukaan energi bersentuhan, dalam waktu sekitar 200 fs.
 
 ::: {.contoh}
-**Contoh 11.a3 · Kurva ionik dan kovalen NaCl**
+**Contoh 11.3 · Kurva ionik dan kovalen NaCl**
 
 Pada jarak besar, keadaan dasar NaCl dalam fase gas adalah dua atom netral Na + Cl. Keadaan ionik Na⁺ + Cl⁻ lebih tinggi sebesar $I(\text{Na}) - A(\text{Cl}) = 5{,}139 - 3{,}613$ eV, tetapi tarikan Coulomb menurunkannya ketika jarak berkurang. Pada jarak berapa kurva ionik menyilang energi atom netral? Apa yang terjadi di sana?
 
@@ -163,13 +163,13 @@ Pada jarak besar, keadaan dasar NaCl dalam fase gas adalah dua atom netral Na + 
 :::
 
 ::: {.contoh}
-**Contoh 11.a4 · Seberapa teliti Born–Oppenheimer untuk H₂?**
+**Contoh 11.4 · Seberapa teliti Born–Oppenheimer untuk H₂?**
 
 Perhitungan yang sangat teliti menunjukkan bahwa koreksi terhadap pendekatan Born–Oppenheimer mengubah energi disosiasi H₂ hanya sekitar 5 cm⁻¹, sedangkan $D_0 = 36\,118$ cm⁻¹. Hitung kesalahan relatifnya, lalu bandingkan dengan perkiraan $m_e/\mu$.
 
 **Penyelesaian.** $5/36\,118 = 1{,}4 \times 10^{-4}$. Perkiraan kasar $m_e/\mu = 1{,}1 \times 10^{-3}$.
 
-**Memahami hasil.** Kesalahan nyata bahkan lebih kecil daripada perkiraan orde besaran, karena sebagian besar koreksi juga ada pada atom-atom terpisah dan saling meniadakan ketika selisihnya diambil. Untuk molekul H₂, molekul dengan inti paling ringan, pendekatan Born–Oppenheimer sudah benar sampai empat angka penting. Pada molekul organik biasa, kesalahan itu tidak berarti, sehingga seluruh kimia komputasi (Bab 17) dibangun di atas (11.p2).
+**Memahami hasil.** Kesalahan nyata bahkan lebih kecil daripada perkiraan orde besaran, karena sebagian besar koreksi juga ada pada atom-atom terpisah dan saling meniadakan ketika selisihnya diambil. Untuk molekul H₂, molekul dengan inti paling ringan, pendekatan Born–Oppenheimer sudah benar sampai empat angka penting. Pada molekul organik biasa, kesalahan itu tidak berarti, sehingga seluruh kimia komputasi (Bab 17) dibangun di atas (11.2).
 :::
 
 ::: {.kuis}
@@ -182,20 +182,20 @@ Perhitungan yang sangat teliti menunjukkan bahwa koreksi terhadap pendekatan Bor
 
 ### Dari tiga dimensi ke satu dimensi
 
-Untuk molekul diatom, persamaan inti (11.p3) adalah masalah dua benda dengan potensial yang hanya bergantung pada jarak $R$. Di subbab 6.8 kita sudah memisahkan masalah seperti ini menjadi gerak pusat massa (partikel bebas) dan gerak relatif dengan massa tereduksi $\mu = M_AM_B/(M_A + M_B)$. Karena potensialnya sentral, gerak relatif dapat dipisahkan lagi menjadi bagian sudut dan bagian radial, persis seperti atom hidrogen: $\chi = [S(R)/R]\,Y_J^M(\theta, \phi)$, dengan $Y_J^M$ harmonik bola. Fungsi radial $S(R)$ memenuhi
+Untuk molekul diatom, persamaan inti (11.3) adalah masalah dua benda dengan potensial yang hanya bergantung pada jarak $R$. Di subbab 6.8 kita sudah memisahkan masalah seperti ini menjadi gerak pusat massa (partikel bebas) dan gerak relatif dengan massa tereduksi $\mu = M_AM_B/(M_A + M_B)$. Karena potensialnya sentral, gerak relatif dapat dipisahkan lagi menjadi bagian sudut dan bagian radial, persis seperti atom hidrogen: $\chi = [S(R)/R]\,Y_J^M(\theta, \phi)$, dengan $Y_J^M$ harmonik bola. Fungsi radial $S(R)$ memenuhi
 
 $$
-\left[-\frac{\hbar^2}{2\mu}\frac{d^2}{dR^2} + U(R) + \frac{J(J + 1)\hbar^2}{2\mu R^2}\right]S(R) = E\,S(R) . \qquad \text{(11.p4)}
+\left[-\frac{\hbar^2}{2\mu}\frac{d^2}{dR^2} + U(R) + \frac{J(J + 1)\hbar^2}{2\mu R^2}\right]S(R) = E\,S(R) . \qquad \text{(11.4)}
 $$
 
 Suku ketiga adalah potensial sentrifugal (persamaan (6.26)): molekul yang berputar merasakan potensial efektif yang lebih dangkal dan minimumnya sedikit bergeser ke $R$ yang lebih besar.
 
 ### Tingkat getaran–rotasi
 
-Uraikan $U(R)$ di sekitar minimum: $U \approx U(R_e) + \tfrac12k(R - R_e)^2 + \ldots$. Bila suku kubik dan seterusnya diabaikan dan suku sentrifugal dihitung di $R_e$, (11.p4) menjadi osilator harmonik yang digeser oleh energi rotor tegar. Dengan koreksi anharmonik dan kopling getaran–rotasi, tingkat-tingkat energinya dalam bilangan gelombang adalah
+Uraikan $U(R)$ di sekitar minimum: $U \approx U(R_e) + \tfrac12k(R - R_e)^2 + \ldots$. Bila suku kubik dan seterusnya diabaikan dan suku sentrifugal dihitung di $R_e$, (11.4) menjadi osilator harmonik yang digeser oleh energi rotor tegar. Dengan koreksi anharmonik dan kopling getaran–rotasi, tingkat-tingkat energinya dalam bilangan gelombang adalah
 
 $$
-E(v, J)/hc = T_e + \omega_e\left(v + \tfrac12\right) - \omega_ex_e\left(v + \tfrac12\right)^2 + B_vJ(J + 1) - DJ^2(J + 1)^2 , \qquad \text{(11.p5)}
+E(v, J)/hc = T_e + \omega_e\left(v + \tfrac12\right) - \omega_ex_e\left(v + \tfrac12\right)^2 + B_vJ(J + 1) - DJ^2(J + 1)^2 , \qquad \text{(11.5)}
 $$
 
 dengan $T_e$ energi minimum kurva, $B_v = B_e - \alpha_e(v + \tfrac12)$, dan $D$ tetapan distorsi sentrifugal. Semua suku ini sudah kita temui di Bab 5 dan 6; yang baru adalah pemahaman bahwa semua tetapan itu adalah sifat satu fungsi, $U(R)$:
@@ -211,7 +211,7 @@ dengan $T_e$ energi minimum kurva, $B_v = B_e - \alpha_e(v + \tfrac12)$, dan $D$
 Arah sebaliknya juga mungkin: dari tingkat getaran dan rotasi yang diukur teliti, kurva $U(R)$ dapat direkonstruksi titik demi titik dengan metode Rydberg–Klein–Rees (RKR), tanpa memilih bentuk fungsi tertentu. Kurva RKR adalah tolok ukur paling langsung untuk menguji perhitungan kimia kuantum.
 
 ::: {.contoh}
-**Contoh 11.b1 · Dari $D_e$ ke $D_0$ untuk H₂**
+**Contoh 11.5 · Dari $D_e$ ke $D_0$ untuk H₂**
 
 Perhitungan kuantum yang sangat teliti memberi $D_e = 4{,}7474$ eV untuk H₂. Dengan $\omega_e = 4401{,}2$ cm⁻¹ dan $\omega_ex_e = 121{,}3$ cm⁻¹, hitung energi titik nol dan $D_0$, lalu bandingkan dengan nilai terukur 4,4781 eV.
 
@@ -221,9 +221,9 @@ Perhitungan kuantum yang sangat teliti memberi $D_e = 4{,}7474$ eV untuk H₂. D
 :::
 
 ::: {.contoh}
-**Contoh 11.b2 · Seberapa baik potensial Morse?**
+**Contoh 11.6 · Seberapa baik potensial Morse?**
 
-Dengan (5.28), perkirakan $D_e$ H₂ dari $\omega_e$ dan $\omega_ex_e$ di Contoh 11.b1, serta banyak tingkat getaran terikat menurut potensial Morse. Kenyataannya, H₂ mempunyai 15 tingkat getaran terikat ($v = 0$ sampai 14).
+Dengan (5.28), perkirakan $D_e$ H₂ dari $\omega_e$ dan $\omega_ex_e$ di Contoh 11.5, serta banyak tingkat getaran terikat menurut potensial Morse. Kenyataannya, H₂ mempunyai 15 tingkat getaran terikat ($v = 0$ sampai 14).
 
 **Penyelesaian.** $D_e = \omega_e^2/4\omega_ex_e = 4401{,}2^2/(4 \times 121{,}3) = 39\,923$ cm⁻¹ $= 4{,}95$ eV. Bilangan $v$ maksimum: $\omega_e/2\omega_ex_e - \tfrac12 = 17{,}6$, jadi 18 tingkat ($v = 0$ sampai 17).
 
@@ -231,19 +231,19 @@ Dengan (5.28), perkirakan $D_e$ H₂ dari $\omega_e$ dan $\omega_ex_e$ di Contoh
 :::
 
 ::: {.contoh}
-**Contoh 11.b3 · Rotasi meregangkan ikatan**
+**Contoh 11.7 · Rotasi meregangkan ikatan**
 
 Tetapan gaya H₂ adalah 575 N/m dan $R_e = 74{,}14$ pm. Dengan menyamakan gaya pemulih $k\,\delta R$ dengan gaya sentrifugal $L^2/\mu R_e^3$, perkirakan pertambahan panjang ikatan pada $J = 5$, 10, dan 20.
 
 **Penyelesaian.** $\delta R = J(J + 1)\hbar^2/(\mu R_e^3k)$, dengan $\mu = 8{,}37 \times 10^{-28}$ kg. Untuk $J = 5$: $\delta R = 30(1{,}0546 \times 10^{-34})^2/[(8{,}37 \times 10^{-28})(7{,}414 \times 10^{-11})^3(575)] = 1{,}70$ pm. Untuk $J = 10$: 6,24 pm. Untuk $J = 20$: 23,8 pm.
 
-**Memahami hasil.** Pada $J = 20$, ikatan H₂ teregang hampir sepertiganya, dan pendekatan "rotor tegar" runtuh total. Pergeseran $R$ inilah yang menimbulkan distorsi sentrifugal $D$ (subbab 6.12). Untuk $J$ sangat besar, potensial efektif (11.p4) kehilangan minimumnya sama sekali: molekul yang berputar terlalu cepat terpisah sendiri. Gejala ini penting dalam astrofisika, tempat molekul dapat terbentuk dalam keadaan rotasi sangat tinggi.
+**Memahami hasil.** Pada $J = 20$, ikatan H₂ teregang hampir sepertiganya, dan pendekatan "rotor tegar" runtuh total. Pergeseran $R$ inilah yang menimbulkan distorsi sentrifugal $D$ (subbab 6.12). Untuk $J$ sangat besar, potensial efektif (11.4) kehilangan minimumnya sama sekali: molekul yang berputar terlalu cepat terpisah sendiri. Gejala ini penting dalam astrofisika, tempat molekul dapat terbentuk dalam keadaan rotasi sangat tinggi.
 :::
 
 ::: {.terapan}
 **Kaitan kimia · Permukaan energi potensial dan reaksi**
 
-Kurva energi potensial molekul diatom adalah kasus satu dimensi dari permukaan energi potensial. Untuk reaksi H + H₂ → H₂ + H, permukaannya bergantung pada tiga jarak antaratom. Henry Eyring dan Michael Polanyi membangun permukaan itu secara semiempiris pada 1931, dan dari sana lahir teori keadaan transisi: laju reaksi ditentukan oleh tinggi titik pelana pada permukaan energi potensial. Kini permukaan itu dihitung dari persamaan elektronik (11.p2) dengan ketelitian lebih baik dari 0,1 kJ/mol, dan simulasi gerak inti di atasnya mereproduksi penampang lintang reaksi yang diukur dengan berkas molekul. Seluruh dinamika reaksi adalah "inti bergerak pada permukaan Born–Oppenheimer".
+Kurva energi potensial molekul diatom adalah kasus satu dimensi dari permukaan energi potensial. Untuk reaksi H + H₂ → H₂ + H, permukaannya bergantung pada tiga jarak antaratom. Henry Eyring dan Michael Polanyi membangun permukaan itu secara semiempiris pada 1931, dan dari sana lahir teori keadaan transisi: laju reaksi ditentukan oleh tinggi titik pelana pada permukaan energi potensial. Kini permukaan itu dihitung dari persamaan elektronik (11.2) dengan ketelitian lebih baik dari 0,1 kJ/mol, dan simulasi gerak inti di atasnya mereproduksi penampang lintang reaksi yang diukur dengan berkas molekul. Seluruh dinamika reaksi adalah "inti bergerak pada permukaan Born–Oppenheimer".
 :::
 
 ::: {.kuis}

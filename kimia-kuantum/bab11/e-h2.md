@@ -5,7 +5,7 @@
 Molekul H₂ menambahkan satu elektron pada H₂⁺, dan bersamanya satu suku baru yang mengubah segalanya: tolakan antarelektron. Dengan inti diam, dalam satuan atom,
 
 $$
-\hat H_\text{el} = \underbrace{-\tfrac12\nabla_1^2 - \frac{1}{r_{A1}} - \frac{1}{r_{B1}}}_{\hat h(1)} \underbrace{-\tfrac12\nabla_2^2 - \frac{1}{r_{A2}} - \frac{1}{r_{B2}}}_{\hat h(2)} + \frac{1}{r_{12}} + \frac1R . \qquad \text{(11.p21)}
+\hat H_\text{el} = \underbrace{-\tfrac12\nabla_1^2 - \frac{1}{r_{A1}} - \frac{1}{r_{B1}}}_{\hat h(1)} \underbrace{-\tfrac12\nabla_2^2 - \frac{1}{r_{A2}} - \frac{1}{r_{B2}}}_{\hat h(2)} + \frac{1}{r_{12}} + \frac1R . \qquad \text{(11.21)}
 $$
 
 Tanpa $1/r_{12}$, Hamiltonian ini adalah jumlah dua Hamiltonian H₂⁺, dan setiap elektron dapat menempati orbital H₂⁺ sendiri-sendiri. Suku $1/r_{12}$ mengikat gerak kedua elektron sehingga persamaannya tidak dapat diselesaikan eksak. Ada dua strategi pendekatan klasik, yang lahir hampir bersamaan pada akhir 1920-an: teori **orbital molekul** (OM; Hund, Mulliken) dan teori **ikatan valensi** (IV; Heitler, London, Pauling). Keduanya dibahas di subbab ini dan subbab berikutnya, lalu dibandingkan di subbab 11.12.
@@ -15,13 +15,13 @@ Tanpa $1/r_{12}$, Hamiltonian ini adalah jumlah dua Hamiltonian H₂⁺, dan set
 Dalam teori OM, kedua elektron ditempatkan dalam orbital ikatan $\sigma_g$ yang sama dengan spin berlawanan, seperti dua elektron dalam orbital 1s helium. Fungsi gelombangnya, yang harus antisimetris terhadap pertukaran elektron (subbab 9.3), adalah determinan Slater
 
 $$
-\Psi_\text{OM} = \sigma_g(1)\sigma_g(2)\cdot\frac{1}{\sqrt2}\left[\alpha(1)\beta(2) - \beta(1)\alpha(2)\right], \qquad \sigma_g = \frac{1s_A + 1s_B}{\sqrt{2(1 + S)}} . \qquad \text{(11.p22)}
+\Psi_\text{OM} = \sigma_g(1)\sigma_g(2)\cdot\frac{1}{\sqrt2}\left[\alpha(1)\beta(2) - \beta(1)\alpha(2)\right], \qquad \sigma_g = \frac{1s_A + 1s_B}{\sqrt{2(1 + S)}} . \qquad \text{(11.22)}
 $$
 
 Bagian ruangnya simetris dan bagian spinnya adalah fungsi singlet yang antisimetris; hasil kalinya antisimetris sesuai asas Pauli. Karena $\hat H_\text{el}$ tidak memuat spin, energinya
 
 $$
-E_\text{OM} = \langle\sigma_g\sigma_g|\hat h(1) + \hat h(2) + \tfrac{1}{r_{12}}|\sigma_g\sigma_g\rangle + \frac1R = 2h_{\sigma\sigma} + J_{\sigma\sigma} + \frac1R , \qquad \text{(11.p23)}
+E_\text{OM} = \langle\sigma_g\sigma_g|\hat h(1) + \hat h(2) + \tfrac{1}{r_{12}}|\sigma_g\sigma_g\rangle + \frac1R = 2h_{\sigma\sigma} + J_{\sigma\sigma} + \frac1R , \qquad \text{(11.23)}
 $$
 
 dengan $h_{\sigma\sigma} = \langle\sigma_g|\hat h|\sigma_g\rangle$ energi satu elektron (energi orbital H₂⁺ tanpa $1/R$) dan
@@ -33,27 +33,27 @@ $$
 tolakan Coulomb antara dua awan elektron yang identik. Dengan menguraikan $\sigma_g$ atas orbital atom, $J_{\sigma\sigma}$ menjadi kombinasi empat jenis **integral dua elektron**, yang ditulis dengan notasi $(ij|kl) = \iint\phi_i(1)\phi_j(1)\,r_{12}^{-1}\,\phi_k(2)\phi_l(2)\,d\tau_1d\tau_2$:
 
 $$
-J_{\sigma\sigma} = \frac{(aa|aa) + (aa|bb) + 2(ab|ab) + 4(aa|ab)}{2(1 + S)^2} , \qquad \text{(11.p24)}
+J_{\sigma\sigma} = \frac{(aa|aa) + (aa|bb) + 2(ab|ab) + 4(aa|ab)}{2(1 + S)^2} , \qquad \text{(11.24)}
 $$
 
 dengan $a = 1s_A$ dan $b = 1s_B$. Keempatnya mempunyai makna yang jelas: $(aa|aa)$ tolakan dua elektron di atom yang sama (untuk 1s dengan eksponen $\zeta$, nilainya $5\zeta/8$); $(aa|bb)$ tolakan antara awan di $A$ dan awan di $B$; $(aa|ab)$ tolakan antara awan di $A$ dan kerapatan tumpang tindih; dan $(ab|ab)$ tolakan diri kerapatan tumpang tindih. Semuanya dapat dihitung dalam bentuk tertutup (yang terakhir memuat fungsi integral eksponensial), dan program kimia kuantum menghitung jutaan integral seperti ini dengan orbital Gauss (subbab 17.5).
 
 ::: {.contoh}
-**Contoh 11.j1 · Menyusun energi OM dari integral**
+**Contoh 11.38 · Menyusun energi OM dari integral**
 
 Pada $R = 1{,}4$ bohr dengan $\zeta = 1$: $S = 0{,}7529$, $H_{aa} = \langle a|\hat h|a\rangle = -1{,}1100$, $H_{ab} = -0{,}9683$, $(aa|aa) = 0{,}6250$, $(aa|bb) = 0{,}5035$, $(aa|ab) = 0{,}4259$, $(ab|ab) = 0{,}3233$ (semua dalam hartree). Hitung $E_\text{OM}$ dan energi ikat terhadap dua atom H.
 
-**Penyelesaian.** $h_{\sigma\sigma} = (H_{aa} + H_{ab})/(1 + S) = (-1{,}1100 - 0{,}9683)/1{,}7529 = -1{,}1856$. Dengan (11.p24): $J_{\sigma\sigma} = [0{,}6250 + 0{,}5035 + 2(0{,}3233) + 4(0{,}4259)]/[2(1{,}7529)^2] = 3{,}4787/6{,}1453 = 0{,}5660$. Maka $E_\text{OM} = 2(-1{,}1856) + 0{,}5660 + 1/1{,}4 = -2{,}3712 + 0{,}5660 + 0{,}7143 = -1{,}0909$ hartree. Energi ikat: $-1 - (-1{,}0909) = 0{,}0909$ hartree $= 2{,}47$ eV.
+**Penyelesaian.** $h_{\sigma\sigma} = (H_{aa} + H_{ab})/(1 + S) = (-1{,}1100 - 0{,}9683)/1{,}7529 = -1{,}1856$. Dengan (11.24): $J_{\sigma\sigma} = [0{,}6250 + 0{,}5035 + 2(0{,}3233) + 4(0{,}4259)]/[2(1{,}7529)^2] = 3{,}4787/6{,}1453 = 0{,}5660$. Maka $E_\text{OM} = 2(-1{,}1856) + 0{,}5660 + 1/1{,}4 = -2{,}3712 + 0{,}5660 + 0{,}7143 = -1{,}0909$ hartree. Energi ikat: $-1 - (-1{,}0909) = 0{,}0909$ hartree $= 2{,}47$ eV.
 
-**Memahami hasil.** Dua elektron di orbital ikatan menurunkan energi sebanyak $2 \times 1{,}186$ hartree, tetapi tolakan di antara keduanya menaikkannya lagi 0,566 hartree: hampir sepertiga keuntungan dimakan tolakan antarelektron. Itulah sebabnya H₂ tidak terikat dua kali sekuat H₂⁺ (Contoh 11.c3). Pada $R = 1{,}4$ bohr hasil OM ($\zeta = 1$) memberi 2,47 eV; minimumnya sedikit lebih dalam, 2,70 eV pada $R = 1{,}60$ bohr.
+**Memahami hasil.** Dua elektron di orbital ikatan menurunkan energi sebanyak $2 \times 1{,}186$ hartree, tetapi tolakan di antara keduanya menaikkannya lagi 0,566 hartree: hampir sepertiga keuntungan dimakan tolakan antarelektron. Itulah sebabnya H₂ tidak terikat dua kali sekuat H₂⁺ (Contoh 11.10). Pada $R = 1{,}4$ bohr hasil OM ($\zeta = 1$) memberi 2,47 eV; minimumnya sedikit lebih dalam, 2,70 eV pada $R = 1{,}60$ bohr.
 :::
 
 ### Hasil OM dan perbaikannya
 
-Kurva $E_\text{OM}(R)$ dengan $\zeta = 1$ mempunyai minimum pada $R_e = 1{,}60$ bohr (85 pm) dengan $D_e = 2{,}70$ eV. Bila $\zeta$ dioptimalkan pada setiap $R$, diperoleh $\zeta = 1{,}19$, $R_e = 1{,}385$ bohr (73,3 pm), dan $D_e = 3{,}49$ eV. Bila orbital $\sigma_g$ diberi kebebasan penuh (basis yang sangat besar), hasilnya adalah **batas Hartree–Fock**: $D_e = 3{,}64$ eV. Nilai eksaknya 4,75 eV. Jadi bahkan orbital molekul terbaik masih kehilangan sekitar 1,1 eV, hampir seperempat energi ikat. Kehilangan ini bukan karena orbitalnya kurang baik, tetapi karena bentuk fungsi gelombang (11.p22) itu sendiri, yang memperlakukan setiap elektron seolah bergerak dalam medan rata-rata elektron lain.
+Kurva $E_\text{OM}(R)$ dengan $\zeta = 1$ mempunyai minimum pada $R_e = 1{,}60$ bohr (85 pm) dengan $D_e = 2{,}70$ eV. Bila $\zeta$ dioptimalkan pada setiap $R$, diperoleh $\zeta = 1{,}19$, $R_e = 1{,}385$ bohr (73,3 pm), dan $D_e = 3{,}49$ eV. Bila orbital $\sigma_g$ diberi kebebasan penuh (basis yang sangat besar), hasilnya adalah **batas Hartree–Fock**: $D_e = 3{,}64$ eV. Nilai eksaknya 4,75 eV. Jadi bahkan orbital molekul terbaik masih kehilangan sekitar 1,1 eV, hampir seperempat energi ikat. Kehilangan ini bukan karena orbitalnya kurang baik, tetapi karena bentuk fungsi gelombang (11.22) itu sendiri, yang memperlakukan setiap elektron seolah bergerak dalam medan rata-rata elektron lain.
 
 ::: {.contoh}
-**Contoh 11.j2 · Energi orbital dan energi ionisasi**
+**Contoh 11.39 · Energi orbital dan energi ionisasi**
 
 Dengan $\zeta$ optimal pada jarak setimbang, energi orbital $\sigma_g$ H₂ (yaitu $\varepsilon = h_{\sigma\sigma} + J_{\sigma\sigma}$, energi satu elektron dalam medan inti dan medan rata-rata elektron lain) adalah $-0{,}5973$ hartree. Bandingkan $-\varepsilon$ dengan energi ionisasi vertikal H₂, sekitar 16,0 eV.
 
@@ -67,13 +67,13 @@ Dengan $\zeta$ optimal pada jarak setimbang, energi orbital $\sigma_g$ H₂ (yai
 Masalah terbesar fungsi gelombang OM tampak ketika ikatan diputus. Uraikan bagian ruangnya atas orbital atom (tanpa faktor normalisasi):
 
 $$
-\sigma_g(1)\sigma_g(2) \propto [a(1) + b(1)][a(2) + b(2)] = \underbrace{a(1)b(2) + b(1)a(2)}_{\text{kovalen: H–H}} + \underbrace{a(1)a(2) + b(1)b(2)}_{\text{ionik: H}^-\text{H}^+\text{ dan H}^+\text{H}^-} . \qquad \text{(11.p25)}
+\sigma_g(1)\sigma_g(2) \propto [a(1) + b(1)][a(2) + b(2)] = \underbrace{a(1)b(2) + b(1)a(2)}_{\text{kovalen: H–H}} + \underbrace{a(1)a(2) + b(1)b(2)}_{\text{ionik: H}^-\text{H}^+\text{ dan H}^+\text{H}^-} . \qquad \text{(11.25)}
 $$
 
-Fungsi OM memberi bobot yang **sama** pada struktur kovalen (satu elektron di setiap atom) dan struktur ionik (kedua elektron di satu atom). Di dekat jarak setimbang, kesalahan ini tidak terlalu parah. Tetapi ketika $R \to \infty$, fungsi OM tetap bersikeras bahwa separuh waktu molekul berupa H⁺ + H⁻, padahal H₂ yang terdisosiasi semestinya menjadi dua atom H netral. Energi H⁻ jauh di atas energi dua atom H, sehingga kurva OM naik ke nilai yang salah (Gambar 11.g9).
+Fungsi OM memberi bobot yang **sama** pada struktur kovalen (satu elektron di setiap atom) dan struktur ionik (kedua elektron di satu atom). Di dekat jarak setimbang, kesalahan ini tidak terlalu parah. Tetapi ketika $R \to \infty$, fungsi OM tetap bersikeras bahwa separuh waktu molekul berupa H⁺ + H⁻, padahal H₂ yang terdisosiasi semestinya menjadi dua atom H netral. Energi H⁻ jauh di atas energi dua atom H, sehingga kurva OM naik ke nilai yang salah (Gambar 11.9).
 
 ::: {.contoh}
-**Contoh 11.j3 · Seberapa salah OM pada disosiasi?**
+**Contoh 11.40 · Seberapa salah OM pada disosiasi?**
 
 Dengan basis minimal ($\zeta = 1$), energi H⁻ (dua elektron dalam 1s yang sama) adalah $2(-\tfrac12) + (aa|aa) = -1 + \tfrac58 = -0{,}375$ hartree. Hitung energi OM pada $R \to \infty$ dan kesalahannya terhadap $2E(\text{H}) = -1$ hartree. Bandingkan dengan nilai yang dihitung pada $R = 10$ dan 20 bohr: $-0{,}7386$ dan $-0{,}7125$ hartree.
 
@@ -95,17 +95,17 @@ Dengan basis minimal ($\zeta = 1$), energi H⁻ (dua elektron dalam 1s yang sama
 Pada 1927, beberapa bulan setelah persamaan Schrödinger diterbitkan, Walter Heitler dan Fritz London mendekati H₂ dari arah sebaliknya. Bila dua atom H berjauhan, fungsi gelombang yang benar adalah hasil kali orbital atom: elektron 1 di $A$ dan elektron 2 di $B$, yaitu $a(1)b(2)$. Tetapi elektron tidak dapat dibedakan (subbab 9.3), sehingga $b(1)a(2)$ sama baiknya. Kombinasi yang dihasilkan simetri pertukaran adalah
 
 $$
-\Psi_\pm = \frac{a(1)b(2) \pm b(1)a(2)}{\sqrt{2(1 \pm S^2)}} , \qquad \text{(11.p26)}
+\Psi_\pm = \frac{a(1)b(2) \pm b(1)a(2)}{\sqrt{2(1 \pm S^2)}} , \qquad \text{(11.26)}
 $$
 
-dengan faktor normalisasi yang memuat $S^2$ karena $\langle a(1)b(2)|b(1)a(2)\rangle = S^2$. Asas Pauli menentukan pasangan spinnya: fungsi ruang simetris $\Psi_+$ harus disertai fungsi spin antisimetris (singlet, $S = 0$), dan fungsi ruang antisimetris $\Psi_-$ disertai fungsi spin simetris (triplet, $S = 1$). Fungsi ini adalah bagian kovalen (11.p25) tanpa bagian ionik: elektron tidak pernah berdua di satu atom.
+dengan faktor normalisasi yang memuat $S^2$ karena $\langle a(1)b(2)|b(1)a(2)\rangle = S^2$. Asas Pauli menentukan pasangan spinnya: fungsi ruang simetris $\Psi_+$ harus disertai fungsi spin antisimetris (singlet, $S = 0$), dan fungsi ruang antisimetris $\Psi_-$ disertai fungsi spin simetris (triplet, $S = 1$). Fungsi ini adalah bagian kovalen (11.25) tanpa bagian ionik: elektron tidak pernah berdua di satu atom.
 
 ### Energi Heitler–London
 
 Nilai harap $\hat H_\text{el}$ untuk $\Psi_\pm$ dapat dihitung dengan cara yang sama seperti H₂⁺. Hasilnya, relatif terhadap dua atom H terpisah,
 
 $$
-E_\pm - 2E_\text{H} = \frac{Q \pm X}{1 \pm S^2} , \qquad \text{(11.p27)}
+E_\pm - 2E_\text{H} = \frac{Q \pm X}{1 \pm S^2} , \qquad \text{(11.27)}
 $$
 
 dengan **integral Coulomb**
@@ -120,10 +120,10 @@ $$
 X = 2SK + (ab|ab) + \frac{S^2}{R} ,
 $$
 
-dengan $J$ dan $K$ integral H₂⁺ (11.p14). $Q$ adalah energi interaksi elektrostatik klasik dua atom H yang tidak berubah bentuk; $X$ tidak mempunyai padanan klasik, dan muncul hanya karena fungsi gelombang memuat kedua susunan $a(1)b(2)$ dan $b(1)a(2)$.
+dengan $J$ dan $K$ integral H₂⁺ (11.14). $Q$ adalah energi interaksi elektrostatik klasik dua atom H yang tidak berubah bentuk; $X$ tidak mempunyai padanan klasik, dan muncul hanya karena fungsi gelombang memuat kedua susunan $a(1)b(2)$ dan $b(1)a(2)$.
 
 ::: {.contoh}
-**Contoh 11.k1 · Dari mana energi ikat Heitler–London?**
+**Contoh 11.41 · Dari mana energi ikat Heitler–London?**
 
 Pada $R = 1{,}643$ bohr ($\zeta = 1$), perhitungan memberi $S = 0{,}685$, $Q = -0{,}0168$ hartree, dan $X = -0{,}1536$ hartree. Hitung energi ikat singlet dan energi keadaan triplet relatif terhadap dua atom H, dalam eV.
 
@@ -137,7 +137,7 @@ Pada $R = 1{,}643$ bohr ($\zeta = 1$), perhitungan memberi $S = 0{,}685$, $Q = -
 Fungsi Heitler–London dengan $\zeta = 1$ memberi $R_e = 1{,}64$ bohr (87 pm) dan $D_e = 3{,}16$ eV, lebih baik daripada OM dengan $\zeta = 1$ (2,70 eV). S. C. Wang (1928) mengoptimalkan $\zeta$ dan memperoleh $\zeta = 1{,}166$, $R_e = 1{,}41$ bohr (75 pm), dan $D_e = 3{,}78$ eV, juga lebih baik daripada OM dengan $\zeta$ optimal (3,49 eV). Dan yang terpenting, fungsi Heitler–London terdisosiasi dengan benar: untuk $R \to \infty$, $S$, $Q$, dan $X$ semuanya lenyap, dan energinya tepat $2E_\text{H}$.
 
 ::: {.contoh}
-**Contoh 11.k2 · Asas Pauli dan ikatan**
+**Contoh 11.42 · Asas Pauli dan ikatan**
 
 Tunjukkan bahwa fungsi ruang $\Psi_+ = a(1)b(2) + b(1)a(2)$ harus berpasangan dengan spin singlet, dan jelaskan mengapa dua atom He tidak dapat membentuk ikatan valensi.
 
@@ -147,7 +147,7 @@ Tunjukkan bahwa fungsi ruang $\Psi_+ = a(1)b(2) + b(1)a(2)$ harus berpasangan de
 :::
 
 ::: {.contoh}
-**Contoh 11.k3 · Tolakan Pauli antara dua atom berkulit tertutup**
+**Contoh 11.43 · Tolakan Pauli antara dua atom berkulit tertutup**
 
 Dalam teori Heitler–London, energi triplet adalah $(Q - X)/(1 - S^2)$. Mengapa interaksi dua atom berkulit tertutup, seperti He + He atau Ne + Ne, selalu menolak pada jarak pendek, dan mengapa tolakan itu meluruh eksponensial?
 
@@ -166,10 +166,10 @@ Dalam teori Heitler–London, energi triplet adalah $(Q - X)/(1 - S^2)$. Mengapa
 
 ### Dua kesalahan yang berlawanan
 
-Persamaan (11.p25) memperlihatkan hubungan kedua teori dengan jelas. Fungsi OM adalah kovalen + ionik dengan bobot sama; fungsi Heitler–London adalah kovalen saja. Molekul H₂ yang sebenarnya berada di antara keduanya: terutama kovalen, dengan sedikit karakter ionik. Elektron-elektron memang kadang-kadang berada di atom yang sama, tetapi lebih jarang daripada yang diramalkan OM, karena mereka saling menolak. Fungsi gelombang yang lebih baik adalah
+Persamaan (11.25) memperlihatkan hubungan kedua teori dengan jelas. Fungsi OM adalah kovalen + ionik dengan bobot sama; fungsi Heitler–London adalah kovalen saja. Molekul H₂ yang sebenarnya berada di antara keduanya: terutama kovalen, dengan sedikit karakter ionik. Elektron-elektron memang kadang-kadang berada di atom yang sama, tetapi lebih jarang daripada yang diramalkan OM, karena mereka saling menolak. Fungsi gelombang yang lebih baik adalah
 
 $$
-\Psi = [a(1)b(2) + b(1)a(2)] + \lambda\,[a(1)a(2) + b(1)b(2)] , \qquad \text{(11.p28)}
+\Psi = [a(1)b(2) + b(1)a(2)] + \lambda\,[a(1)a(2) + b(1)b(2)] , \qquad \text{(11.28)}
 $$
 
 dengan $\lambda$ parameter variasi. Untuk $\lambda = 0$ diperoleh Heitler–London, untuk $\lambda = 1$ diperoleh OM. S. Weinbaum (1933) mengoptimalkan $\lambda$ dan $\zeta$ dan memperoleh $\lambda \approx 0{,}26$ dan $D_e = 4{,}03$ eV.
@@ -179,10 +179,10 @@ dengan $\lambda$ parameter variasi. Untuk $\lambda = 0$ diperoleh Heitler–Lond
 Fungsi yang sama dapat diperoleh dari arah OM. Selain konfigurasi dasar $(\sigma_g)^2$, ada konfigurasi tereksitasi $(\sigma_u)^2$ yang juga bersimetri $^1\Sigma_g^+$ (dua elektron $u$ memberi $g$). Karena kedua konfigurasi sesimetri, Hamiltonian mencampurnya. Fungsi
 
 $$
-\Psi_\text{CI} = c_1\,\sigma_g(1)\sigma_g(2) + c_2\,\sigma_u(1)\sigma_u(2) \qquad \text{(11.p29)}
+\Psi_\text{CI} = c_1\,\sigma_g(1)\sigma_g(2) + c_2\,\sigma_u(1)\sigma_u(2) \qquad \text{(11.29)}
 $$
 
-disebut fungsi **interaksi konfigurasi** (CI), dan koefisiennya diperoleh dari persamaan sekuler 2 × 2. Uraikan $\sigma_u(1)\sigma_u(2) \propto [a(1) - b(1)][a(2) - b(2)] = (aa + bb) - (ab + ba)$, yaitu ionik *dikurangi* kovalen. Dengan $c_2$ bertanda berlawanan dengan $c_1$, penambahan $(\sigma_u)^2$ mengurangi bagian ionik dan menambah bagian kovalen. Jadi (11.p29) dan (11.p28) adalah fungsi yang sama, hanya ditulis dalam basis berbeda. Dengan basis minimal, CI 2 × 2 adalah penyelesaian paling baik yang mungkin, dan teori OM serta IV yang diperbaiki bertemu di titik yang sama.
+disebut fungsi **interaksi konfigurasi** (CI), dan koefisiennya diperoleh dari persamaan sekuler 2 × 2. Uraikan $\sigma_u(1)\sigma_u(2) \propto [a(1) - b(1)][a(2) - b(2)] = (aa + bb) - (ab + ba)$, yaitu ionik *dikurangi* kovalen. Dengan $c_2$ bertanda berlawanan dengan $c_1$, penambahan $(\sigma_u)^2$ mengurangi bagian ionik dan menambah bagian kovalen. Jadi (11.29) dan (11.28) adalah fungsi yang sama, hanya ditulis dalam basis berbeda. Dengan basis minimal, CI 2 × 2 adalah penyelesaian paling baik yang mungkin, dan teori OM serta IV yang diperbaiki bertemu di titik yang sama.
 
 ::: {.inti}
 **OM, IV, dan CI untuk H₂ (basis minimal 1s)**
@@ -204,22 +204,22 @@ disebut fungsi **interaksi konfigurasi** (CI), dan koefisiennya diperoleh dari p
 
 (Semua baris kecuali batas Hartree–Fock dan nilai eksak dihitung ulang dengan integral orbital Slater untuk bab ini.)
 
-![Gambar 11.g9 Kurva energi potensial H₂ dalam basis minimal 1s ($\zeta = 1$): OM (biru), Heitler–London (hijau), dan CI (jingga), relatif terhadap dua atom H. Bintang menandai minimum eksak ($R_e = 1{,}401$ bohr, $D_e = 4{,}747$ eV). Kurva OM naik ke nilai yang salah pada jarak besar karena memuat 50% struktur ionik.](fig/c_h2.png){width=82%}
+![Gambar 11.9 Kurva energi potensial H₂ dalam basis minimal 1s ($\zeta = 1$): OM (biru), Heitler–London (hijau), dan CI (jingga), relatif terhadap dua atom H. Bintang menandai minimum eksak ($R_e = 1{,}401$ bohr, $D_e = 4{,}747$ eV). Kurva OM naik ke nilai yang salah pada jarak besar karena memuat 50% struktur ionik.](fig/c_h2.png){width=82%}
 
 ### Energi korelasi
 
 Selisih antara energi eksak dan energi Hartree–Fock (energi terbaik yang dapat dicapai dengan satu determinan) disebut **energi korelasi**:
 
 $$
-E_\text{kor} = E_\text{eksak} - E_\text{HF} . \qquad \text{(11.p30)}
+E_\text{kor} = E_\text{eksak} - E_\text{HF} . \qquad \text{(11.30)}
 $$
 
 Untuk H₂ pada $R_e$, $E_\text{HF} = -1{,}1336$ hartree dan $E_\text{eksak} = -1{,}1745$ hartree, sehingga $E_\text{kor} = -0{,}0408$ hartree $= -1{,}11$ eV. Energi ini kecil dibandingkan energi total (3,5%), tetapi sebanding dengan energi ikat kimia, sehingga tidak boleh diabaikan dalam perhitungan termokimia. Metode-metode di Bab 17 (CI, Møller–Plesset, coupled-cluster, DFT) pada dasarnya adalah cara-cara menangkap energi korelasi.
 
 ::: {.contoh}
-**Contoh 11.l1 · Seberapa ionik ikatan H–H?**
+**Contoh 11.44 · Seberapa ionik ikatan H–H?**
 
-Penyelesaian CI 2 × 2 pada jarak optimum ($R = 1{,}430$ bohr, $\zeta = 1{,}194$, $S = 0{,}667$) memberi koefisien $c_1 = 0{,}9933$ dan $c_2 = -0{,}1154$. Hitung $\lambda$ dalam (11.p28).
+Penyelesaian CI 2 × 2 pada jarak optimum ($R = 1{,}430$ bohr, $\zeta = 1{,}194$, $S = 0{,}667$) memberi koefisien $c_1 = 0{,}9933$ dan $c_2 = -0{,}1154$. Hitung $\lambda$ dalam (11.28).
 
 **Penyelesaian.** Dengan $\sigma_g^2 \propto [\text{kov} + \text{ion}]/2(1 + S)$ dan $\sigma_u^2 \propto [\text{ion} - \text{kov}]/2(1 - S)$, koefisien bagian kovalen dan ionik sebanding dengan $c_1/(1 + S) - c_2/(1 - S)$ dan $c_1/(1 + S) + c_2/(1 - S)$:
 
@@ -231,7 +231,7 @@ $$
 :::
 
 ::: {.contoh}
-**Contoh 11.l2 · Kurva H₂ dengan Python**
+**Contoh 11.45 · Kurva H₂ dengan Python**
 
 Tuliskan program yang menghitung energi OM, Heitler–London, dan CI H₂ dalam basis 1s dengan eksponen $\zeta$, memakai rumus tertutup integral orbital Slater.
 
@@ -269,7 +269,7 @@ print(energi(1.4))          # (-1.0909, -1.1055, -1.1066)
 :::
 
 ::: {.contoh}
-**Contoh 11.l3 · Kapan OM cukup, kapan perlu CI?**
+**Contoh 11.46 · Kapan OM cukup, kapan perlu CI?**
 
 Bandingkan kesalahan energi OM ($\zeta = 1$) relatif terhadap CI pada $R = 1{,}4$, 2, 4, dan 6 bohr: OM $-1{,}0909$, $-1{,}0808$, $-0{,}8954$, $-0{,}7951$; CI $-1{,}1066$, $-1{,}1084$, $-1{,}0128$, $-1{,}0005$ hartree.
 

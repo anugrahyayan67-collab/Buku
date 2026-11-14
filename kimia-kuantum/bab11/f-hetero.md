@@ -11,7 +11,7 @@ $$
 memberi
 
 $$
-E_\pm = \frac{\alpha_A + \alpha_B}{2} \mp \sqrt{\left(\frac{\alpha_B - \alpha_A}{2}\right)^2 + \beta^2} . \qquad \text{(11.p31)}
+E_\pm = \frac{\alpha_A + \alpha_B}{2} \mp \sqrt{\left(\frac{\alpha_B - \alpha_A}{2}\right)^2 + \beta^2} . \qquad \text{(11.31)}
 $$
 
 Dua batas menjelaskan seluruh rentang ikatan dari kovalen sampai ionik:
@@ -29,14 +29,14 @@ $$
 \text{HF:}\quad (1\sigma)^2(2\sigma)^2(3\sigma)^2(1\pi)^4 ,
 $$
 
-dengan $1\sigma$ = F 1s, $2\sigma$ ≈ F 2s, $3\sigma$ = ikatan σ (terutama F $2p_z$ dengan sedikit H 1s), dan $1\pi$ = dua pasangan elektron bebas F. Orbital $4\sigma^*$ kosong didominasi H 1s. Tiga pasangan bebas struktur Lewis H–F̈: ternyata terdiri atas satu pasangan dengan karakter s ($2\sigma$) dan dua pasangan π yang berdegenerasi. Diagram tingkat energinya, bersama diagram CO yang dibahas di bawah, ada pada Gambar 11.g12.
+dengan $1\sigma$ = F 1s, $2\sigma$ ≈ F 2s, $3\sigma$ = ikatan σ (terutama F $2p_z$ dengan sedikit H 1s), dan $1\pi$ = dua pasangan elektron bebas F. Orbital $4\sigma^*$ kosong didominasi H 1s. Tiga pasangan bebas struktur Lewis H–F̈: ternyata terdiri atas satu pasangan dengan karakter s ($2\sigma$) dan dua pasangan π yang berdegenerasi. Diagram tingkat energinya, bersama diagram CO yang dibahas di bawah, ada pada Gambar 11.10.
 
-![Gambar 11.g12 Diagram OM valensi HF (kiri) dan CO (kanan). Orbital atom digambar pada energi ionisasi valensi rata-ratanya; OM terisi digambar pada energi ionisasi vertikal terukur, dan OM kosong secara kualitatif. Pada HF, orbital $1\pi$ (pasangan bebas F) tidak mempunyai pasangan di H. Pada CO, HOMO $5\sigma$ dan LUMO $2\pi^*$ terkonsentrasi di karbon.](fig/c_mo_hf_co.png){width=95%}
+![Gambar 11.10 Diagram OM valensi HF (kiri) dan CO (kanan). Orbital atom digambar pada energi ionisasi valensi rata-ratanya; OM terisi digambar pada energi ionisasi vertikal terukur, dan OM kosong secara kualitatif. Pada HF, orbital $1\pi$ (pasangan bebas F) tidak mempunyai pasangan di H. Pada CO, HOMO $5\sigma$ dan LUMO $2\pi^*$ terkonsentrasi di karbon.](fig/c_mo_hf_co.png){width=95%}
 
 ::: {.contoh}
-**Contoh 11.m1 · Ikatan σ dalam HF**
+**Contoh 11.47 · Ikatan σ dalam HF**
 
-Pakai (11.p31) dengan $\alpha_\text{F} = -18{,}7$ eV, $\alpha_\text{H} = -13{,}6$ eV, dan $\beta = -4{,}0$ eV. Hitung energi $3\sigma$ dan $4\sigma^*$, komposisi $3\sigma$, dan muatan pada F jika kedua elektron $3\sigma$ dibagi menurut kuadrat koefisien. Perkirakan momen dipol ($R = 91{,}7$ pm) dan bandingkan dengan nilai terukur 1,83 D.
+Pakai (11.31) dengan $\alpha_\text{F} = -18{,}7$ eV, $\alpha_\text{H} = -13{,}6$ eV, dan $\beta = -4{,}0$ eV. Hitung energi $3\sigma$ dan $4\sigma^*$, komposisi $3\sigma$, dan muatan pada F jika kedua elektron $3\sigma$ dibagi menurut kuadrat koefisien. Perkirakan momen dipol ($R = 91{,}7$ pm) dan bandingkan dengan nilai terukur 1,83 D.
 
 **Penyelesaian.** $E_\pm = -16{,}15 \mp \sqrt{2{,}55^2 + 4{,}0^2} = -16{,}15 \mp 4{,}74$: $E(3\sigma) = -20{,}9$ eV, $E(4\sigma^*) = -11{,}4$ eV. Vektor eigen $3\sigma$: $c_\text{F}^2 = 0{,}767$, $c_\text{H}^2 = 0{,}233$. Elektron di F: $2(0{,}767) = 1{,}53$ (atom netral menyumbang 1), sehingga muatan F $= -0{,}53e$ dan H $= +0{,}53e$. Momen dipol $\approx 0{,}53 \times 4{,}803 \times 0{,}917 = 2{,}35$ D.
 
@@ -48,7 +48,7 @@ Pakai (11.p31) dengan $\alpha_\text{F} = -18{,}7$ eV, $\alpha_\text{H} = -13{,}6
 Pada LiH, Li 2s ($-5{,}4$ eV) jauh di atas H 1s ($-13{,}6$ eV). Orbital ikatan hampir seluruhnya H 1s, dan molekulnya mendekati Li⁺H⁻: senyawa hidrida, dengan hidrogen sebagai anion. Ini kebalikan dari HF, tempat hidrogen menjadi ujung positif. Hidrogen bersifat "di tengah": ia menjadi kation terhadap atom yang lebih elektronegatif dan anion terhadap logam alkali.
 
 ::: {.contoh}
-**Contoh 11.m2 · LiH, molekul yang hampir ionik**
+**Contoh 11.48 · LiH, molekul yang hampir ionik**
 
 Dengan $\alpha_\text{H} = -13{,}6$ eV, $\alpha_\text{Li} = -5{,}39$ eV, dan $\beta = -2{,}5$ eV, hitung komposisi orbital ikatan, muatan H, dan momen dipol ($R = 159{,}5$ pm). Bandingkan dengan nilai terukur 5,88 D dan dengan dipol muatan titik $\pm e$.
 
@@ -68,7 +68,7 @@ $$
 dengan orde ikatan 3, seperti N₂. Ciri pentingnya ada di HOMO dan LUMO. Orbital $5\sigma$ (energi ionisasi 14,0 eV) adalah analog $3\sigma_g$ N₂, tetapi karena pencampuran s–p yang kuat ia terkonsentrasi di **karbon**, mengarah menjauhi O, seperti pasangan elektron bebas karbon. Orbital $2\pi^*$ (LUMO) juga lebih besar di karbon. Pita fotoelektron $1\pi$ (16,9 eV) dan $4\sigma$ (19,7 eV) melengkapi gambaran yang mirip N₂.
 
 ::: {.contoh}
-**Contoh 11.m3 · Mengapa logam terikat pada karbon, bukan oksigen**
+**Contoh 11.49 · Mengapa logam terikat pada karbon, bukan oksigen**
 
 Dalam kompleks karbonil logam seperti Cr(CO)₆ dan Ni(CO)₄, CO hampir selalu terikat melalui atom C. Selain itu, bilangan gelombang ulur C≡O turun dari 2143 cm⁻¹ (CO bebas) ke sekitar 2000 cm⁻¹ dalam Cr(CO)₆. Jelaskan keduanya dengan orbital perbatasan CO.
 
@@ -78,7 +78,7 @@ Dalam kompleks karbonil logam seperti Cr(CO)₆ dan Ni(CO)₄, CO hampir selalu 
 :::
 
 ::: {.contoh}
-**Contoh 11.m4 · NO dan NO⁺**
+**Contoh 11.50 · NO dan NO⁺**
 
 Nitrogen oksida mempunyai 15 elektron, satu lebih banyak daripada CO. Tentukan konfigurasi, orde ikatan, dan lambang suku NO dan NO⁺. Bilangan gelombang ulur NO adalah 1876 cm⁻¹, sedangkan NO⁺ dalam garam nitrosonium sekitar 2300 cm⁻¹.
 
@@ -100,7 +100,7 @@ Nitrogen oksida mempunyai 15 elektron, satu lebih banyak daripada CO. Tentukan k
 Momen dipol molekul adalah besaran yang paling langsung mengukur ketidaksimetrisan distribusi muatan. Dengan inti bermuatan $Z_Ae$ di $\mathbf R_A$ dan kerapatan elektron $\rho(\mathbf r)$ (banyak elektron per satuan volume, subbab 4.4):
 
 $$
-\boldsymbol\mu = e\sum_AZ_A\mathbf R_A - e\int\rho(\mathbf r)\,\mathbf r\,d\tau . \qquad \text{(11.p32)}
+\boldsymbol\mu = e\sum_AZ_A\mathbf R_A - e\int\rho(\mathbf r)\,\mathbf r\,d\tau . \qquad \text{(11.32)}
 $$
 
 Untuk molekul netral, nilai ini tidak bergantung pada titik asal. Kerapatan elektron $\rho(\mathbf r)$ adalah besaran fisis yang dapat diukur (difraksi sinar-X) dan dihitung (dari fungsi gelombang), sedangkan "muatan atom" bukan besaran yang terdefinisi tunggal: ia bergantung pada cara membagi awan elektron di antara atom-atom (subbab 17.7). Momen dipol adalah jembatan yang terukur antara keduanya.
@@ -108,7 +108,7 @@ Untuk molekul netral, nilai ini tidak bergantung pada titik asal. Kerapatan elek
 Ukuran sederhana polaritas ikatan adalah **karakter ionik**, perbandingan momen dipol terukur dengan dipol dua muatan titik $\pm e$ pada jarak $R_e$:
 
 $$
-\text{karakter ionik} = \frac{\mu}{eR_e} . \qquad \text{(11.p33)}
+\text{karakter ionik} = \frac{\mu}{eR_e} . \qquad \text{(11.33)}
 $$
 
 | Molekul | $\mu$ (D) | $R_e$ (pm) | $\mu/eR_e$ | Molekul | $\mu$ (D) | $R_e$ (pm) | $\mu/eR_e$ |
@@ -128,21 +128,21 @@ $$
 **Pauling (1932)** memakai energi ikat. Bila ikatan A–B murni kovalen, energinya diharapkan kira-kira rata-rata energi A–A dan B–B. Kelebihannya, $\Delta = D(\text{A–B}) - \tfrac12[D(\text{A–A}) + D(\text{B–B})]$, dianggap berasal dari stabilisasi ionik–kovalen (sumbangan struktur ionik pada fungsi gelombang, seperti $\lambda$ di subbab 11.12, yang makin besar bila kedua atom berbeda). Pauling mendefinisikan
 
 $$
-|\chi_A - \chi_B| = 0{,}102\sqrt{\Delta/(\text{kJ mol}^{-1})} . \qquad \text{(11.p34)}
+|\chi_A - \chi_B| = 0{,}102\sqrt{\Delta/(\text{kJ mol}^{-1})} . \qquad \text{(11.34)}
 $$
 
 **Mulliken (1934)** memakai rata-rata energi ionisasi dan afinitas elektron:
 
 $$
-\chi_M = \tfrac12(I + A) . \qquad \text{(11.p35)}
+\chi_M = \tfrac12(I + A) . \qquad \text{(11.35)}
 $$
 
-Gagasannya: atom yang sulit melepas elektron (I besar) dan mudah menerimanya (A besar) cenderung menarik elektron ikatan. Besaran $-\tfrac12(I + A)$ juga merupakan perkiraan wajar untuk energi orbital $\alpha$ dalam (11.p31), karena ia berada di tengah antara energi untuk mengambil elektron ($-I$) dan menambahkannya ($-A$). Dengan demikian elektronegativitas Mulliken adalah ukuran langsung "seberapa rendah orbital valensi atom itu", yang dalam bahasa OM menentukan ke mana elektron ikatan condong. Kedua skala berkaitan kira-kira linear, $\chi_P \approx 0{,}187(I + A)/\text{eV} + 0{,}17$.
+Gagasannya: atom yang sulit melepas elektron (I besar) dan mudah menerimanya (A besar) cenderung menarik elektron ikatan. Besaran $-\tfrac12(I + A)$ juga merupakan perkiraan wajar untuk energi orbital $\alpha$ dalam (11.31), karena ia berada di tengah antara energi untuk mengambil elektron ($-I$) dan menambahkannya ($-A$). Dengan demikian elektronegativitas Mulliken adalah ukuran langsung "seberapa rendah orbital valensi atom itu", yang dalam bahasa OM menentukan ke mana elektron ikatan condong. Kedua skala berkaitan kira-kira linear, $\chi_P \approx 0{,}187(I + A)/\text{eV} + 0{,}17$.
 
 ::: {.contoh}
-**Contoh 11.n1 · Elektronegativitas Pauling dari energi ikat**
+**Contoh 11.51 · Elektronegativitas Pauling dari energi ikat**
 
-Dengan $D$(H–H) = 436, $D$(F–F) = 159, $D$(Cl–Cl) = 243, $D$(H–F) = 570, dan $D$(H–Cl) = 432 kJ/mol, hitung $|\chi_\text{H} - \chi_\text{F}|$ dan $|\chi_\text{H} - \chi_\text{Cl}|$ dengan (11.p34).
+Dengan $D$(H–H) = 436, $D$(F–F) = 159, $D$(Cl–Cl) = 243, $D$(H–F) = 570, dan $D$(H–Cl) = 432 kJ/mol, hitung $|\chi_\text{H} - \chi_\text{F}|$ dan $|\chi_\text{H} - \chi_\text{Cl}|$ dengan (11.34).
 
 **Penyelesaian.** HF: $\Delta = 570 - \tfrac12(436 + 159) = 272{,}5$ kJ/mol; $|\Delta\chi| = 0{,}102\sqrt{272{,}5} = 1{,}68$. HCl: $\Delta = 432 - \tfrac12(436 + 243) = 92{,}3$; $|\Delta\chi| = 0{,}98$.
 
@@ -150,7 +150,7 @@ Dengan $D$(H–H) = 436, $D$(F–F) = 159, $D$(Cl–Cl) = 243, $D$(H–F) = 570,
 :::
 
 ::: {.contoh}
-**Contoh 11.n2 · Elektronegativitas Mulliken**
+**Contoh 11.52 · Elektronegativitas Mulliken**
 
 Dengan $I$ dan $A$ (eV): F (17,42; 3,40), Cl (12,97; 3,61), O (13,62; 1,46), C (11,26; 1,26), Li (5,39; 0,62), hitung $\chi_M$ dan perkiraan $\chi_P = 0{,}187(I + A) + 0{,}17$.
 
@@ -168,21 +168,21 @@ Dengan $I$ dan $A$ (eV): F (17,42; 3,40), Cl (12,97; 3,61), O (13,62; 1,46), C (
 :::
 
 ::: {.contoh}
-**Contoh 11.n3 · Muatan parsial HCl**
+**Contoh 11.53 · Muatan parsial HCl**
 
 Momen dipol HCl 1,109 D dan $R_e = 127{,}5$ pm. Bila molekul digambarkan sebagai dua muatan titik $\pm q$, berapa $q$? Bandingkan dengan perkiraan Pauling yang sering dipakai, karakter ionik $= 1 - \exp[-\tfrac14(\Delta\chi)^2]$, dengan $\Delta\chi = 0{,}96$.
 
 **Penyelesaian.** $q/e = \mu/(eR_e) = 1{,}109/(4{,}803 \times 1{,}275) = 0{,}181$. Rumus Pauling: $1 - e^{-0{,}25 \times 0{,}9216} = 1 - e^{-0{,}2304} = 0{,}206$.
 
-**Memahami hasil.** Kedua perkiraan sekitar 20%. Namun "muatan titik" hanyalah model: dipol molekul juga mendapat sumbangan dari pasangan elektron bebas Cl yang terpolarisasi dan dari bentuk awan ikatan yang tidak simetris. Untuk CO, model muatan titik bahkan memberi tanda yang menyesatkan (Contoh 11.n4).
+**Memahami hasil.** Kedua perkiraan sekitar 20%. Namun "muatan titik" hanyalah model: dipol molekul juga mendapat sumbangan dari pasangan elektron bebas Cl yang terpolarisasi dan dari bentuk awan ikatan yang tidak simetris. Untuk CO, model muatan titik bahkan memberi tanda yang menyesatkan (Contoh 11.54).
 :::
 
 ::: {.contoh}
-**Contoh 11.n4 · Dipol CO yang "terbalik"**
+**Contoh 11.54 · Dipol CO yang "terbalik"**
 
 Oksigen jauh lebih elektronegatif daripada karbon ($\Delta\chi = 0{,}89$), tetapi momen dipol CO hanya 0,11 D, dengan ujung negatif di **karbon**. Jelaskan dengan orbital molekul.
 
-**Penyelesaian.** Sumbangan orbital-orbital terisi saling berlawanan. Orbital $1\pi$ dan $4\sigma$, yang mengikat, condong ke O, sehingga menggeser muatan negatif ke O. Tetapi orbital $5\sigma$ (HOMO) adalah pasangan elektron yang terkonsentrasi di sisi luar karbon, jauh dari pusat molekul. Pasangan elektron yang terletak jauh di belakang karbon menyumbang dipol besar ke arah C⁻, karena sumbangannya pada (11.p32) sebanding dengan jarak muatan dari pusat. Kedua sumbangan hampir saling meniadakan, dengan sisa kecil ke arah C⁻O⁺.
+**Penyelesaian.** Sumbangan orbital-orbital terisi saling berlawanan. Orbital $1\pi$ dan $4\sigma$, yang mengikat, condong ke O, sehingga menggeser muatan negatif ke O. Tetapi orbital $5\sigma$ (HOMO) adalah pasangan elektron yang terkonsentrasi di sisi luar karbon, jauh dari pusat molekul. Pasangan elektron yang terletak jauh di belakang karbon menyumbang dipol besar ke arah C⁻, karena sumbangannya pada (11.32) sebanding dengan jarak muatan dari pusat. Kedua sumbangan hampir saling meniadakan, dengan sisa kecil ke arah C⁻O⁺.
 
 **Memahami hasil.** Momen dipol bukan hanya hasil "siapa lebih elektronegatif", tetapi hasil seluruh distribusi muatan, termasuk pasangan elektron bebas. Struktur Lewis :C≡O: dengan muatan formal C⁻ dan O⁺ ternyata menangkap arah dipol dengan benar, meskipun bertentangan dengan elektronegativitas. Arah dipol CO yang kecil ini sangat sulit diramalkan dengan benar: perhitungan Hartree–Fock memberi tanda yang salah, dan baru metode berkorelasi yang memperoleh tanda dan besar yang tepat (Bab 17).
 :::

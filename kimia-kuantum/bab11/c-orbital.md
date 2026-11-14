@@ -2,17 +2,17 @@
 
 ### Interferensi dua orbital atom
 
-Dua fungsi LCAO (11.p12) adalah **orbital molekul** (OM) pertama yang kita temui. Kerapatan peluangnya
+Dua fungsi LCAO (11.12) adalah **orbital molekul** (OM) pertama yang kita temui. Kerapatan peluangnya
 
 $$
-|\psi_\pm|^2 = \frac{1s_A^2 + 1s_B^2 \pm 2\,1s_A1s_B}{2(1 \pm S)} \qquad \text{(11.p17)}
+|\psi_\pm|^2 = \frac{1s_A^2 + 1s_B^2 \pm 2\,1s_A1s_B}{2(1 \pm S)} \qquad \text{(11.17)}
 $$
 
-terdiri atas dua bagian: kerapatan atom-atom yang dijumlahkan, dan suku interferensi $\pm 2\,1s_A1s_B$, yang hanya besar di daerah tempat kedua orbital tumpang tindih, yaitu di antara inti. Pada $\psi_+$ suku itu ditambahkan: kerapatan elektron menumpuk di antara inti, tempat elektron ditarik kedua proton sekaligus. Pada $\psi_-$ suku itu dikurangkan: muncul bidang simpul di tengah-tengah, dan kerapatan terdorong ke luar, ke belakang masing-masing inti. Karena itu $\psi_+$ disebut **orbital ikatan** dan $\psi_-$ **orbital antiikatan** (Gambar 11.g4).
+terdiri atas dua bagian: kerapatan atom-atom yang dijumlahkan, dan suku interferensi $\pm 2\,1s_A1s_B$, yang hanya besar di daerah tempat kedua orbital tumpang tindih, yaitu di antara inti. Pada $\psi_+$ suku itu ditambahkan: kerapatan elektron menumpuk di antara inti, tempat elektron ditarik kedua proton sekaligus. Pada $\psi_-$ suku itu dikurangkan: muncul bidang simpul di tengah-tengah, dan kerapatan terdorong ke luar, ke belakang masing-masing inti. Karena itu $\psi_+$ disebut **orbital ikatan** dan $\psi_-$ **orbital antiikatan** (Gambar 11.4).
 
-![Gambar 11.g4 Orbital ikatan dan antiikatan H₂⁺ (LCAO, $R = 2$ bohr) pada bidang yang memuat sumbu molekul. Kiri: $\psi_+ = 1\sigma_g$. Tengah: $\psi_- = 1\sigma_u$, dengan bidang simpul di tengah. Kanan: kerapatan selisih $|\psi_+|^2 - \tfrac12(1s_A^2 + 1s_B^2)$; biru menandai penumpukan elektron, jingga pengurangan. Titik hitam adalah inti.](fig/c_orbital_h2p.png){width=95%}
+![Gambar 11.4 Orbital ikatan dan antiikatan H₂⁺ (LCAO, $R = 2$ bohr) pada bidang yang memuat sumbu molekul. Kiri: $\psi_+ = 1\sigma_g$. Tengah: $\psi_- = 1\sigma_u$, dengan bidang simpul di tengah. Kanan: kerapatan selisih $|\psi_+|^2 - \tfrac12(1s_A^2 + 1s_B^2)$; biru menandai penumpukan elektron, jingga pengurangan. Titik hitam adalah inti.](fig/c_orbital_h2p.png){width=95%}
 
-Faktor normalisasi $1/2(1 \pm S)$ juga penting. Integrasi (11.p17) di seluruh ruang memberi $[1 + 1 \pm 2S]/[2(1 \pm S)] = 1$: muatan yang ditambahkan ke daerah tumpang tindih pada $\psi_+$ diambil dari daerah dekat inti dan daerah luar, sehingga jumlah total tetap satu elektron. Ikatan bukan "elektron tambahan" di antara inti, melainkan **penataan ulang** kerapatan.
+Faktor normalisasi $1/2(1 \pm S)$ juga penting. Integrasi (11.17) di seluruh ruang memberi $[1 + 1 \pm 2S]/[2(1 \pm S)] = 1$: muatan yang ditambahkan ke daerah tumpang tindih pada $\psi_+$ diambil dari daerah dekat inti dan daerah luar, sehingga jumlah total tetap satu elektron. Ikatan bukan "elektron tambahan" di antara inti, melainkan **penataan ulang** kerapatan.
 
 ### Label orbital
 
@@ -27,13 +27,13 @@ Tanda bintang menandai antiikatan. Notasi urutan ($1\sigma_g$, $2\sigma_g$, ...)
 
 ### Diagram energi orbital
 
-Hasil (11.p15) biasanya digambar sebagai diagram tingkat energi: dua orbital atom di kiri dan kanan, dua OM di tengah, ikatan di bawah dan antiikatan di atas. Dengan menulis $\alpha = H_{AA}$ dan $\beta = H_{AB}$, energinya
+Hasil (11.15) biasanya digambar sebagai diagram tingkat energi: dua orbital atom di kiri dan kanan, dua OM di tengah, ikatan di bawah dan antiikatan di atas. Dengan menulis $\alpha = H_{AA}$ dan $\beta = H_{AB}$, energinya
 
 $$
 E_\pm = \frac{\alpha \pm \beta}{1 \pm S} .
 $$
 
-Karena $\beta < 0$, $E_+$ di bawah $\alpha$ dan $E_-$ di atas $\alpha$. Dengan tumpang tindih, kenaikan orbital antiikatan lebih besar daripada penurunan orbital ikatan (Contoh 11.d1). Jika $S$ diabaikan, kedua pergeseran sama besar, $\pm\beta$: inilah pendekatan Hückel (Bab 13), yang cukup baik untuk membandingkan molekul-molekul serupa.
+Karena $\beta < 0$, $E_+$ di bawah $\alpha$ dan $E_-$ di atas $\alpha$. Dengan tumpang tindih, kenaikan orbital antiikatan lebih besar daripada penurunan orbital ikatan (Contoh 11.12). Jika $S$ diabaikan, kedua pergeseran sama besar, $\pm\beta$: inilah pendekatan Hückel (Bab 13), yang cukup baik untuk membandingkan molekul-molekul serupa.
 
 ::: {.inti}
 **Aturan pengisian orbital molekul**
@@ -44,19 +44,19 @@ Karena $\beta < 0$, $E_+$ di bawah $\alpha$ dan $E_-$ di atas $\alpha$. Dengan t
 :::
 
 ::: {.contoh}
-**Contoh 11.e1 · Penumpukan elektron di titik tengah**
+**Contoh 11.17 · Penumpukan elektron di titik tengah**
 
 Untuk $\psi_+$ LCAO pada $R = 2$ bohr ($S = 0{,}5865$), hitung kerapatan elektron di titik tengah antarinti dan bandingkan dengan rata-rata kerapatan dua atom H, $\tfrac12(1s_A^2 + 1s_B^2)$, di titik yang sama.
 
 **Penyelesaian.** Di titik tengah $r_A = r_B = 1$: $1s_A = 1s_B = e^{-1}/\sqrt\pi = 0{,}2076$. Maka $\psi_+ = 2(0{,}2076)/\sqrt{2(1{,}5865)} = 0{,}2331$ dan $|\psi_+|^2 = 0{,}0543$ bohr⁻³. Rata-rata atom: $\tfrac12(0{,}0431 + 0{,}0431) = 0{,}0431$ bohr⁻³. Perbandingannya 1,26.
 
-**Memahami hasil.** Orbital ikatan menumpuk 26% lebih banyak kerapatan di titik tengah daripada "atom yang diletakkan berdampingan". Untuk $\psi_-$ kerapatan di titik tengah tepat nol. Peta kerapatan selisih seperti Gambar 11.g4 kanan kini dapat diukur dengan difraksi sinar-X resolusi tinggi pada kristal, dan memperlihatkan penumpukan elektron ikatan yang serupa di antara atom-atom yang berikatan kovalen.
+**Memahami hasil.** Orbital ikatan menumpuk 26% lebih banyak kerapatan di titik tengah daripada "atom yang diletakkan berdampingan". Untuk $\psi_-$ kerapatan di titik tengah tepat nol. Peta kerapatan selisih seperti Gambar 11.4 kanan kini dapat diukur dengan difraksi sinar-X resolusi tinggi pada kristal, dan memperlihatkan penumpukan elektron ikatan yang serupa di antara atom-atom yang berikatan kovalen.
 :::
 
 ::: {.contoh}
-**Contoh 11.e2 · Populasi tumpang tindih**
+**Contoh 11.18 · Populasi tumpang tindih**
 
-Elektron dalam $\psi_\pm$ dapat dibagi menjadi bagian "di atom $A$", "di atom $B$", dan "di daerah tumpang tindih" dengan mengintegrasikan setiap suku (11.p17) secara terpisah. Hitung bagian tumpang tindih untuk $\psi_+$ dan $\psi_-$ pada $R = 2$ bohr.
+Elektron dalam $\psi_\pm$ dapat dibagi menjadi bagian "di atom $A$", "di atom $B$", dan "di daerah tumpang tindih" dengan mengintegrasikan setiap suku (11.17) secara terpisah. Hitung bagian tumpang tindih untuk $\psi_+$ dan $\psi_-$ pada $R = 2$ bohr.
 
 **Penyelesaian.** Integral suku interferensi: $\pm2S/[2(1 \pm S)] = \pm S/(1 \pm S)$. Untuk $\psi_+$: $0{,}5865/1{,}5865 = +0{,}370$ elektron. Untuk $\psi_-$: $-0{,}5865/0{,}4135 = -1{,}418$ elektron. Bagian atom masing-masing: $\psi_+$: $1/(2 \times 1{,}5865) = 0{,}315$ di setiap atom; $\psi_-$: $1/(2 \times 0{,}4135) = 1{,}209$ di setiap atom.
 
@@ -64,7 +64,7 @@ Elektron dalam $\psi_\pm$ dapat dibagi menjadi bagian "di atom $A$", "di atom $B
 :::
 
 ::: {.contoh}
-**Contoh 11.e3 · Orde ikatan molekul satu dan dua atom H/He**
+**Contoh 11.19 · Orde ikatan molekul satu dan dua atom H/He**
 
 Dengan dua orbital $1\sigma_g$ dan $1\sigma_u$, tentukan konfigurasi dan orde ikatan H₂⁺, H₂, He₂⁺, dan He₂. Data: $D_0$ H₂⁺ 2,65 eV, H₂ 4,48 eV, He₂⁺ 2,4 eV; He₂ hanya terikat gaya van der Waals dengan $D_e$ sekitar 0,001 eV.
 
@@ -74,7 +74,7 @@ Dengan dua orbital $1\sigma_g$ dan $1\sigma_u$, tentukan konfigurasi dan orde ik
 :::
 
 ::: {.contoh}
-**Contoh 11.e4 · Energi kinetik di orbital ikatan LCAO**
+**Contoh 11.20 · Energi kinetik di orbital ikatan LCAO**
 
 Energi kinetik elektron dalam $\psi_\pm$ adalah $T_\pm = (T_{AA} \pm T_{AB})/(1 \pm S)$, dengan $T_{AA} = \tfrac12$ hartree (atom H) dan $T_{AB} = \langle 1s_A|-\tfrac12\nabla^2|1s_B\rangle = -\tfrac12S + (1 + R)e^{-R}$. Hitung $T_+$ dan $T_-$ pada $R = 2$ bohr.
 
@@ -86,14 +86,14 @@ Energi kinetik elektron dalam $\psi_\pm$ adalah $T_\pm = (T_{AA} \pm T_{AB})/(1 
 ::: {.kuis}
 **Kuis cepat 11.5**
 
-\(a) Berapa elektron total yang terkandung dalam (11.p17) setelah diintegrasikan, dan mengapa? (b) Apa orde ikatan H₂⁻? (c) Mengapa kerapatan $\psi_-$ di titik tengah tepat nol?
+\(a) Berapa elektron total yang terkandung dalam (11.17) setelah diintegrasikan, dan mengapa? (b) Apa orde ikatan H₂⁻? (c) Mengapa kerapatan $\psi_-$ di titik tengah tepat nol?
 :::
 
 ## 11.6 Keadaan tereksitasi H₂⁺ dan bentuk orbital σ, π, δ
 
 ### Spektrum keadaan eksak
 
-Program di Contoh 11.c2 dapat mencari keadaan-keadaan H₂⁺ lain dengan memilih $m$, paritas fungsi $M(\mu)$, dan banyak simpul. Energi elektroniknya pada $R = 2$ bohr:
+Program di Contoh 11.9 dapat mencari keadaan-keadaan H₂⁺ lain dengan memilih $m$, paritas fungsi $M(\mu)$, dan banyak simpul. Energi elektroniknya pada $R = 2$ bohr:
 
 | Keadaan | $E_\text{el}$ (hartree) | Keadaan | $E_\text{el}$ (hartree) |
 |---|---|---|---|
@@ -106,9 +106,9 @@ Setiap keadaan diberi nama menurut orbital atom bersatu (He⁺) yang menjadi tuj
 
 ### Diagram korelasi
 
-Bagaimana keadaan atom bersatu ($R = 0$) dihubungkan dengan keadaan atom terpisah ($R = \infty$)? Dua aturan menentukan hubungannya. Pertama, simetri ($\lambda$ dan $g/u$) dipertahankan sepanjang $R$, karena simetri silinder dan inversi ada untuk setiap $R$. Kedua, kurva-kurva yang simetrinya sama tidak bersilangan (aturan tak bersilangan, subbab 11.1). Dengan dua aturan ini, keadaan terendah setiap simetri di satu ujung dihubungkan dengan keadaan terendah simetri yang sama di ujung lain, yang kedua dengan yang kedua, dan seterusnya. Hasilnya adalah **diagram korelasi** (Gambar 11.g5).
+Bagaimana keadaan atom bersatu ($R = 0$) dihubungkan dengan keadaan atom terpisah ($R = \infty$)? Dua aturan menentukan hubungannya. Pertama, simetri ($\lambda$ dan $g/u$) dipertahankan sepanjang $R$, karena simetri silinder dan inversi ada untuk setiap $R$. Kedua, kurva-kurva yang simetrinya sama tidak bersilangan (aturan tak bersilangan, subbab 11.1). Dengan dua aturan ini, keadaan terendah setiap simetri di satu ujung dihubungkan dengan keadaan terendah simetri yang sama di ujung lain, yang kedua dengan yang kedua, dan seterusnya. Hasilnya adalah **diagram korelasi** (Gambar 11.5).
 
-![Gambar 11.g5 Diagram korelasi H₂⁺. Kiri: tingkat atom bersatu He⁺ ($R = 0$). Tengah: energi elektronik eksak pada $R = 2$ bohr. Kanan: atom terpisah H + H⁺ ($R = \infty$). Garis menghubungkan keadaan yang simetrinya sama; σ biru, π hijau. Label kanan memakai notasi atom terpisah.](fig/c_korelasi.png){width=88%}
+![Gambar 11.5 Diagram korelasi H₂⁺. Kiri: tingkat atom bersatu He⁺ ($R = 0$). Tengah: energi elektronik eksak pada $R = 2$ bohr. Kanan: atom terpisah H + H⁺ ($R = \infty$). Garis menghubungkan keadaan yang simetrinya sama; σ biru, π hijau. Label kanan memakai notasi atom terpisah.](fig/c_korelasi.png){width=88%}
 
 Diagram korelasi menjelaskan sesuatu yang tidak tampak dari LCAO: orbital $\sigma_u^*1s$ (antiikatan) berasal dari orbital $2p$ atom bersatu, dan orbital $\sigma_g2p$ dari atom terpisah berasal dari $3d\sigma_g$. Molekul nyata berada di antara kedua batas; makin pendek ikatannya, makin mirip urutan orbitalnya dengan atom bersatu. Inilah dasar kualitatif urutan OM diatom periode 2 (subbab 11.8).
 
@@ -122,14 +122,14 @@ Untuk molekul periode 2, orbital valensinya dibangun dari orbital $2s$ dan $2p$ 
 
 Satu hal yang sering membingungkan: untuk orbital π, kombinasi *jumlah* bersifat $u$ dan kombinasi *selisih* bersifat $g$, kebalikan dari σ. Inversi membawa cuping atas $p_x$ di $A$ ke cuping bawah di $B$, yang bertanda berlawanan. Maka $p_{xA} \to -p_{xB}$, sehingga $p_{xA} + p_{xB} \to -(p_{xA} + p_{xB})$: ungerade. Label $g/u$ tidak sama dengan "ikatan/antiikatan"; hanya untuk σ keduanya kebetulan sejalan.
 
-![Gambar 11.g6 Bentuk orbital molekul valensi diatom homonuklir, digambar dari kombinasi orbital Slater pada bidang $xz$ (sumbu molekul mendatar). Atas: $\sigma_g2s$, $\sigma_u^*2s$, $\sigma_g2p$, $\sigma_u^*2p$. Bawah: $\pi_u2p$, $\pi_g^*2p$, serta $\delta_g$ dan $\delta_u^*$ dari orbital $d_{xy}$, digambar pada bidang yang memuat sumbu molekul dan garis $x = y$. Biru positif, jingga negatif.](fig/c_sigmapi.png){width=98%}
+![Gambar 11.6 Bentuk orbital molekul valensi diatom homonuklir, digambar dari kombinasi orbital Slater pada bidang $xz$ (sumbu molekul mendatar). Atas: $\sigma_g2s$, $\sigma_u^*2s$, $\sigma_g2p$, $\sigma_u^*2p$. Bawah: $\pi_u2p$, $\pi_g^*2p$, serta $\delta_g$ dan $\delta_u^*$ dari orbital $d_{xy}$, digambar pada bidang yang memuat sumbu molekul dan garis $x = y$. Biru positif, jingga negatif.](fig/c_sigmapi.png){width=98%}
 
 ### σ, π, δ: berapa bidang simpul yang memuat sumbu
 
 Huruf σ, π, δ menyatakan $\lambda = |m|$, komponen momentum sudut elektron sepanjang sumbu. Secara geometri, $\lambda$ sama dengan banyaknya **bidang simpul yang memuat sumbu molekul**: σ tidak mempunyai bidang simpul seperti itu, π mempunyai satu, dan δ dua. Orbital antiikatan mempunyai tambahan satu bidang simpul tegak lurus sumbu, di antara kedua inti. Ikatan δ terbentuk dari orbital $d_{xy}$ atau $d_{x^2-y^2}$ kedua atom yang bertumpang tindih "muka ke muka"; ikatan ini dijumpai pada senyawa logam transisi dengan ikatan logam–logam rangkap.
 
 ::: {.contoh}
-**Contoh 11.f1 · Keadaan mana yang terikat?**
+**Contoh 11.21 · Keadaan mana yang terikat?**
 
 Dengan tabel energi eksak pada $R = 2$ bohr, hitung energi total ($E_\text{el} + 1/R$) keadaan $1s\sigma_g$, $2p\sigma_u$, dan $2p\pi_u$, lalu bandingkan dengan batas atom terpisahnya: H(1s) + H⁺ untuk dua keadaan pertama ($-0{,}5$ hartree) dan H($n = 2$) + H⁺ untuk yang ketiga ($-0{,}125$ hartree).
 
@@ -139,7 +139,7 @@ Dengan tabel energi eksak pada $R = 2$ bohr, hitung energi total ($E_\text{el} +
 :::
 
 ::: {.contoh}
-**Contoh 11.f2 · Tumpang tindih σ dan π dalam N₂ dan F₂**
+**Contoh 11.22 · Tumpang tindih σ dan π dalam N₂ dan F₂**
 
 Dengan orbital $2p$ Slater ($\zeta = 1{,}95$ untuk N dan 2,60 untuk F), integrasi numerik dalam koordinat eliptik pada jarak setimbang (N₂: 109,8 pm; F₂: 141,2 pm) memberi tumpang tindih berikut. N₂: $S_\sigma = 0{,}321$, $S_\pi = 0{,}280$. F₂: $S_\sigma = 0{,}176$, $S_\pi = 0{,}048$. Apa artinya bagi kekuatan ikatan π?
 
@@ -149,7 +149,7 @@ Dengan orbital $2p$ Slater ($\zeta = 1{,}95$ untuk N dan 2,60 untuk F), integras
 :::
 
 ::: {.contoh}
-**Contoh 11.f3 · Paritas orbital π dan δ**
+**Contoh 11.23 · Paritas orbital π dan δ**
 
 Tentukan label $g$ atau $u$ untuk (a) $p_{yA} - p_{yB}$, (b) $d_{xyA} + d_{xyB}$, dan (c) $d_{xyA} - d_{xyB}$, dengan sumbu $z$ setiap atom sejajar (bukan saling menunjuk).
 
@@ -159,7 +159,7 @@ Tentukan label $g$ atau $u$ untuk (a) $p_{yA} - p_{yB}$, (b) $d_{xyA} + d_{xyB}$
 :::
 
 ::: {.contoh}
-**Contoh 11.f4 · Ikatan rangkap empat dalam [Re₂Cl₈]²⁻**
+**Contoh 11.24 · Ikatan rangkap empat dalam [Re₂Cl₈]²⁻**
 
 Dalam ion [Re₂Cl₈]²⁻, dua atom Re ($d^4$ setelah memperhitungkan muatan ligan) terikat dengan jarak hanya 224 pm, dan kedua gugus ReCl₄ berada dalam konformasi **tindih** (*eclipsed*), meskipun konformasi bersilang mengurangi tolakan antarligan. Delapan elektron d menempati $\sigma^2\pi^4\delta^2$. Jelaskan orde ikatan dan konformasinya.
 

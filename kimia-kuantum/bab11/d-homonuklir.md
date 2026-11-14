@@ -2,12 +2,12 @@
 
 ### Prinsip aufbau untuk molekul
 
-Seperti atom berelektron banyak yang elektronnya diisikan ke orbital mirip hidrogen (subbab 9.9), molekul berelektron banyak dapat dibayangkan sebagai elektron-elektron yang diisikan ke orbital molekul mirip H₂⁺. Tolakan antarelektron mengubah energi dan bentuk orbital, tetapi urutan dan simetrinya umumnya tetap. Untuk molekul periode 2, orbital 1s kedua atom hampir tidak bertumpang tindih (jari-jarinya sekitar $a_0/Z$), sehingga kombinasi $1\sigma_g$ dan $1\sigma_u$ yang dibentuknya berenergi hampir sama dengan orbital 1s atom, terisi penuh, dan praktis tidak mengikat. Keduanya sering disingkat KK (kulit K kedua atom). Elektron valensi mengisi delapan OM yang dibangun dari orbital $2s$ dan $2p$ (Gambar 11.g6).
+Seperti atom berelektron banyak yang elektronnya diisikan ke orbital mirip hidrogen (subbab 9.9), molekul berelektron banyak dapat dibayangkan sebagai elektron-elektron yang diisikan ke orbital molekul mirip H₂⁺. Tolakan antarelektron mengubah energi dan bentuk orbital, tetapi urutan dan simetrinya umumnya tetap. Untuk molekul periode 2, orbital 1s kedua atom hampir tidak bertumpang tindih (jari-jarinya sekitar $a_0/Z$), sehingga kombinasi $1\sigma_g$ dan $1\sigma_u$ yang dibentuknya berenergi hampir sama dengan orbital 1s atom, terisi penuh, dan praktis tidak mengikat. Keduanya sering disingkat KK (kulit K kedua atom). Elektron valensi mengisi delapan OM yang dibangun dari orbital $2s$ dan $2p$ (Gambar 11.6).
 
 Untuk O₂ dan F₂, urutan energi OM valensinya
 
 $$
-\sigma_g2s < \sigma_u^*2s < \sigma_g2p < \pi_u2p < \pi_g^*2p < \sigma_u^*2p , \qquad \text{(11.p18)}
+\sigma_g2s < \sigma_u^*2s < \sigma_g2p < \pi_u2p < \pi_g^*2p < \sigma_u^*2p , \qquad \text{(11.18)}
 $$
 
 sedangkan untuk Li₂ sampai N₂, dua tingkat di tengah bertukar tempat: $\pi_u2p < \sigma_g2p$. Alasan pertukaran itu adalah pencampuran s–p (subbab 11.8). Dalam notasi urutan, dengan orbital inti dihitung, $\sigma_g2s = 2\sigma_g$, $\sigma_u^*2s = 2\sigma_u$, $\sigma_g2p = 3\sigma_g$, $\pi_u2p = 1\pi_u$, $\pi_g^*2p = 1\pi_g$, dan $\sigma_u^*2p = 3\sigma_u$.
@@ -27,12 +27,12 @@ Tabel berikut mengisi elektron valensi menurut urutan yang sesuai, menghitung or
 | F₂ | $\ldots(1\pi_u)^4(1\pi_g)^4$ | 1 | 0 | 141 | 1,60 | 917 |
 | Ne₂ | $\ldots(1\pi_g)^4(3\sigma_u)^2$ | 0 | 0 | 310 | 0,003 | 14 |
 
-(Titik-titik menandai $(2\sigma_g)^2(2\sigma_u)^2$; untuk O₂ dan F₂ dipakai urutan (11.p18).) Pola yang tampak sangat jelas (Gambar 11.g7): orde ikatan naik dari Li₂ ke N₂ lalu turun ke Ne₂; energi disosiasi dan bilangan gelombang getaran mengikuti orde ikatan; panjang ikatan bergerak berlawanan arah. Molekul dengan orde nol (Be₂ dan Ne₂) hanya terikat sangat lemah. Teori ini juga meramalkan dengan benar bahwa B₂ dan O₂ paramagnetik, masing-masing dengan dua elektron tak berpasangan di sepasang orbital π berdegenerasi.
+(Titik-titik menandai $(2\sigma_g)^2(2\sigma_u)^2$; untuk O₂ dan F₂ dipakai urutan (11.18).) Pola yang tampak sangat jelas (Gambar 11.7): orde ikatan naik dari Li₂ ke N₂ lalu turun ke Ne₂; energi disosiasi dan bilangan gelombang getaran mengikuti orde ikatan; panjang ikatan bergerak berlawanan arah. Molekul dengan orde nol (Be₂ dan Ne₂) hanya terikat sangat lemah. Teori ini juga meramalkan dengan benar bahwa B₂ dan O₂ paramagnetik, masing-masing dengan dua elektron tak berpasangan di sepasang orbital π berdegenerasi.
 
-![Gambar 11.g7 Sifat diatom homonuklir periode 2. Atas: orde ikatan (batang) dan energi disosiasi $D_0$ (titik). Bawah: panjang ikatan $R_e$. Orde ikatan, energi ikat, dan kekakuan ikatan naik bersama, sedangkan panjang ikatan turun.](fig/c_tren.png){width=82%}
+![Gambar 11.7 Sifat diatom homonuklir periode 2. Atas: orde ikatan (batang) dan energi disosiasi $D_0$ (titik). Bawah: panjang ikatan $R_e$. Orde ikatan, energi ikat, dan kekakuan ikatan naik bersama, sedangkan panjang ikatan turun.](fig/c_tren.png){width=82%}
 
 ::: {.contoh}
-**Contoh 11.g1 · Ion-ion oksigen**
+**Contoh 11.25 · Ion-ion oksigen**
 
 Tentukan konfigurasi dan orde ikatan O₂⁺, O₂, O₂⁻ (superoksida), dan O₂²⁻ (peroksida). Data: panjang ikatan 112, 121, sekitar 133, dan sekitar 149 pm; bilangan gelombang ulur O–O 1905, 1580, sekitar 1100, dan sekitar 800 cm⁻¹.
 
@@ -42,7 +42,7 @@ Tentukan konfigurasi dan orde ikatan O₂⁺, O₂, O₂⁻ (superoksida), dan O
 :::
 
 ::: {.contoh}
-**Contoh 11.g2 · Mengionkan N₂ dan O₂**
+**Contoh 11.26 · Mengionkan N₂ dan O₂**
 
 Jawab pertanyaan pembuka 4: mengapa ionisasi melemahkan N₂ ($D_0$: 9,76 → 8,71 eV; $R_e$: 109,8 → 111,6 pm) tetapi menguatkan O₂ ($D_0$: 5,12 → 6,66 eV; $R_e$: 120,7 → 111,6 pm)?
 
@@ -52,7 +52,7 @@ Jawab pertanyaan pembuka 4: mengapa ionisasi melemahkan N₂ ($D_0$: 9,76 → 8,
 :::
 
 ::: {.contoh}
-**Contoh 11.g3 · Momen magnet oksigen**
+**Contoh 11.27 · Momen magnet oksigen**
 
 O₂ mempunyai dua elektron tak berpasangan. Hitung momen magnet efektif "spin saja" $\mu_\text{eff} = \sqrt{n(n + 2)}\,\mu_B$ dan kerentanan magnet molar menurut hukum Curie, $\chi_m = N_A\mu_0\mu_\text{eff}^2/3kT$, pada 298 K.
 
@@ -66,7 +66,7 @@ $$
 :::
 
 ::: {.contoh}
-**Contoh 11.g4 · C₂: ikatan rangkap dua tanpa ikatan σ?**
+**Contoh 11.28 · C₂: ikatan rangkap dua tanpa ikatan σ?**
 
 Menurut konfigurasi $(2\sigma_g)^2(2\sigma_u)^2(1\pi_u)^4$, C₂ mempunyai orde ikatan 2 yang seluruhnya berasal dari dua ikatan π. Apakah ini masuk akal? Data: $D_0 = 6{,}2$ eV, $R_e = 124$ pm, keadaan triplet $(1\pi_u)^3(3\sigma_g)^1$ hanya 0,09 eV lebih tinggi.
 
@@ -85,10 +85,10 @@ Menurut konfigurasi $(2\sigma_g)^2(2\sigma_u)^2(1\pi_u)^4$, C₂ mempunyai orde 
 
 ### Dua orbital σ$_g$ yang bercampur
 
-Dalam (11.p18), orbital $\sigma_g2s$ dan $\sigma_g2p$ dibangun dari orbital atom yang berbeda, seolah-olah keduanya tidak saling mengenal. Padahal keduanya mempunyai simetri yang sama ($\sigma_g$). Menurut teorema integral lenyap (persamaan (10.12)), orbital sesimetri mempunyai unsur matriks Hamiltonian yang umumnya tidak nol, sehingga keduanya bercampur. Demikian pula $\sigma_u^*2s$ dengan $\sigma_u^*2p$. Pencampuran dua tingkat selalu bersifat saling menolak: tingkat yang lebih rendah turun, yang lebih tinggi naik, dengan besar pergeseran yang (pada orde kedua teori perturbasi, subbab 8.7) sebanding dengan kuadrat unsur kopling dibagi selisih energinya:
+Dalam (11.18), orbital $\sigma_g2s$ dan $\sigma_g2p$ dibangun dari orbital atom yang berbeda, seolah-olah keduanya tidak saling mengenal. Padahal keduanya mempunyai simetri yang sama ($\sigma_g$). Menurut teorema integral lenyap (persamaan (10.12)), orbital sesimetri mempunyai unsur matriks Hamiltonian yang umumnya tidak nol, sehingga keduanya bercampur. Demikian pula $\sigma_u^*2s$ dengan $\sigma_u^*2p$. Pencampuran dua tingkat selalu bersifat saling menolak: tingkat yang lebih rendah turun, yang lebih tinggi naik, dengan besar pergeseran yang (pada orde kedua teori perturbasi, subbab 8.7) sebanding dengan kuadrat unsur kopling dibagi selisih energinya:
 
 $$
-\Delta E \approx \frac{|H_{12}|^2}{E_2^{(0)} - E_1^{(0)}} . \qquad \text{(11.p19)}
+\Delta E \approx \frac{|H_{12}|^2}{E_2^{(0)} - E_1^{(0)}} . \qquad \text{(11.19)}
 $$
 
 Selisih energi itu ditentukan terutama oleh jarak antara orbital $2s$ dan $2p$ atom. Jarak ini bertambah tajam sepanjang periode, karena muatan inti efektif yang naik menurunkan $2s$ jauh lebih cepat daripada $2p$ (orbital $2s$ menembus ke dekat inti, subbab 9.9):
@@ -97,36 +97,36 @@ Selisih energi itu ditentukan terutama oleh jarak antara orbital $2s$ dan $2p$ a
 |---|---|---|---|---|---|---|
 | $E(2p) - E(2s)$ (eV) | 5,8 | 8,8 | 12,4 | 16,5 | 21,5 | 26,9 |
 
-Untuk B, C, dan N, celahnya kecil, pencampurannya kuat, dan $\sigma_g2p$ (yang kini lebih tepat disebut $3\sigma_g$ saja) terdorong naik melewati $\pi_u2p$. Untuk O dan F, celahnya besar, pencampurannya lemah, dan urutan "murni" (11.p18) bertahan. Pergantian terjadi di antara N₂ dan O₂ (Gambar 11.g8).
+Untuk B, C, dan N, celahnya kecil, pencampurannya kuat, dan $\sigma_g2p$ (yang kini lebih tepat disebut $3\sigma_g$ saja) terdorong naik melewati $\pi_u2p$. Untuk O dan F, celahnya besar, pencampurannya lemah, dan urutan "murni" (11.18) bertahan. Pergantian terjadi di antara N₂ dan O₂ (Gambar 11.8).
 
-![Gambar 11.g8 Diagram OM valensi O₂ (kiri, tanpa pencampuran s–p berarti) dan N₂ (kanan, dengan pencampuran). Energi orbital atom diambil dari energi ionisasi valensi rata-rata; tingkat OM terisi digambar pada energi ionisasi vertikal yang terukur. Pada N₂, orbital $3\sigma_g$ berada di atas $1\pi_u$ dan menjadi HOMO; pada O₂, HOMO adalah $1\pi_g$.](fig/c_mo_n2o2.png){width=95%}
+![Gambar 11.8 Diagram OM valensi O₂ (kiri, tanpa pencampuran s–p berarti) dan N₂ (kanan, dengan pencampuran). Energi orbital atom diambil dari energi ionisasi valensi rata-rata; tingkat OM terisi digambar pada energi ionisasi vertikal yang terukur. Pada N₂, orbital $3\sigma_g$ berada di atas $1\pi_u$ dan menjadi HOMO; pada O₂, HOMO adalah $1\pi_g$.](fig/c_mo_n2o2.png){width=95%}
 
 ### Bukti dari spektrum fotoelektron
 
-Spektrum fotoelektron N₂ (subbab 1.4) memperlihatkan tiga pita valensi: 15,58, 16,69, dan 18,75 eV. Bila urutan (11.p18) berlaku, pita terendah mestinya berasal dari $1\pi_u$ dan berdegenerasi dua. Kenyataannya, pita 15,58 eV sempit dengan sedikit struktur getaran, sedangkan pita 16,69 eV mempunyai deret getaran panjang berjarak sekitar 0,24 eV. Pita yang lebar menandai elektron yang sangat mengikat: melepasnya mengubah panjang ikatan banyak, sehingga banyak tingkat getaran ion tereksitasi (prinsip Franck–Condon, subbab 15.7). Jadi pita 16,69 eV adalah $1\pi_u$ yang mengikat kuat, dan HOMO 15,58 eV adalah $3\sigma_g$ yang hanya sedikit mengikat. Untuk O₂, sebaliknya, pita $3\sigma_g$ berada di bawah pita $1\pi_u$.
+Spektrum fotoelektron N₂ (subbab 1.4) memperlihatkan tiga pita valensi: 15,58, 16,69, dan 18,75 eV. Bila urutan (11.18) berlaku, pita terendah mestinya berasal dari $1\pi_u$ dan berdegenerasi dua. Kenyataannya, pita 15,58 eV sempit dengan sedikit struktur getaran, sedangkan pita 16,69 eV mempunyai deret getaran panjang berjarak sekitar 0,24 eV. Pita yang lebar menandai elektron yang sangat mengikat: melepasnya mengubah panjang ikatan banyak, sehingga banyak tingkat getaran ion tereksitasi (prinsip Franck–Condon, subbab 15.7). Jadi pita 16,69 eV adalah $1\pi_u$ yang mengikat kuat, dan HOMO 15,58 eV adalah $3\sigma_g$ yang hanya sedikit mengikat. Untuk O₂, sebaliknya, pita $3\sigma_g$ berada di bawah pita $1\pi_u$.
 
 ::: {.contoh}
-**Contoh 11.h1 · Model 2 × 2 untuk pencampuran**
+**Contoh 11.29 · Model 2 × 2 untuk pencampuran**
 
 Sebagai model sederhana untuk N₂, ambil energi $\sigma_g2s$ dan $\sigma_g2p$ sebelum bercampur $-27{,}5$ eV dan $-16{,}5$ eV, dengan unsur kopling $-3{,}0$ eV, sedangkan $\pi_u2p$ berada di $-16{,}7$ eV. Hitung energi kedua orbital σ$_g$ setelah bercampur. Apakah urutannya terhadap $\pi_u$ berubah?
 
 **Penyelesaian.** Nilai eigen $\begin{pmatrix}-27{,}5 & -3{,}0\\ -3{,}0 & -16{,}5\end{pmatrix}$: $E = -22{,}0 \mp \sqrt{5{,}5^2 + 3{,}0^2} = -22{,}0 \mp 6{,}265$, yaitu $-28{,}26$ eV dan $-15{,}74$ eV. Masing-masing bergeser 0,76 eV. Orbital $3\sigma_g$ naik dari $-16{,}5$ ke $-15{,}7$ eV, melewati $\pi_u$ di $-16{,}7$ eV.
 
-**Memahami hasil.** Pergeseran 0,76 eV cocok dengan perkiraan (11.p19): $3{,}0^2/11{,}0 = 0{,}82$ eV. Angka-angka model ini dipilih agar mirip N₂, tetapi pesannya umum: kopling yang tidak terlalu besar sudah cukup untuk membalik urutan dua tingkat yang semula berdekatan. Pada O₂, celah $2s$–$2p$ hampir 50% lebih besar dan $\sigma_g2p$ jauh di bawah $\pi_u2p$, sehingga dorongan yang sama tidak cukup.
+**Memahami hasil.** Pergeseran 0,76 eV cocok dengan perkiraan (11.19): $3{,}0^2/11{,}0 = 0{,}82$ eV. Angka-angka model ini dipilih agar mirip N₂, tetapi pesannya umum: kopling yang tidak terlalu besar sudah cukup untuk membalik urutan dua tingkat yang semula berdekatan. Pada O₂, celah $2s$–$2p$ hampir 50% lebih besar dan $\sigma_g2p$ jauh di bawah $\pi_u2p$, sehingga dorongan yang sama tidak cukup.
 :::
 
 ::: {.contoh}
-**Contoh 11.h2 · B₂ paramagnetik: bukti pencampuran**
+**Contoh 11.30 · B₂ paramagnetik: bukti pencampuran**
 
-Ramalkan keadaan dasar B₂ (6 elektron valensi) dengan urutan (11.p18) dan dengan urutan N₂. Pengukuran ESR menunjukkan bahwa B₂ mempunyai dua elektron tak berpasangan.
+Ramalkan keadaan dasar B₂ (6 elektron valensi) dengan urutan (11.18) dan dengan urutan N₂. Pengukuran ESR menunjukkan bahwa B₂ mempunyai dua elektron tak berpasangan.
 
-**Penyelesaian.** Dengan (11.p18): $(2\sigma_g)^2(2\sigma_u)^2(3\sigma_g)^2$, semua berpasangan, diamagnetik. Dengan urutan N₂: $(2\sigma_g)^2(2\sigma_u)^2(1\pi_u)^2$, dua elektron di dua orbital π berdegenerasi, menurut aturan Hund berspin sejajar: paramagnetik.
+**Penyelesaian.** Dengan (11.18): $(2\sigma_g)^2(2\sigma_u)^2(3\sigma_g)^2$, semua berpasangan, diamagnetik. Dengan urutan N₂: $(2\sigma_g)^2(2\sigma_u)^2(1\pi_u)^2$, dua elektron di dua orbital π berdegenerasi, menurut aturan Hund berspin sejajar: paramagnetik.
 
 **Memahami hasil.** Pengamatan memilih urutan kedua. B₂ menjadi bukti paling langsung bahwa pencampuran s–p mengubah urutan orbital. Keadaan dasarnya, seperti O₂, adalah $^3\Sigma_g^-$ (subbab 11.9): kedua molekul berbagi konfigurasi π² yang sama, hanya saja pada B₂ orbital π-nya mengikat sedangkan pada O₂ antiikatan.
 :::
 
 ::: {.contoh}
-**Contoh 11.h3 · Membaca deret getaran ion N₂⁺**
+**Contoh 11.31 · Membaca deret getaran ion N₂⁺**
 
 Ketiga keadaan ion N₂⁺ yang terbentuk dalam fotoionisasi mempunyai bilangan gelombang getaran 2207 cm⁻¹ (lubang di $3\sigma_g$), 1903 cm⁻¹ (lubang di $1\pi_u$), dan 2420 cm⁻¹ (lubang di $2\sigma_u$). Bandingkan dengan N₂ netral (2359 cm⁻¹) dan simpulkan sifat ikatan setiap orbital. Berapa jarak antarpuncak dalam eV?
 
@@ -154,7 +154,7 @@ Dengan energi ikat 9,76 eV (942 kJ/mol), N₂ adalah salah satu molekul paling s
 Konfigurasi menyebut orbital mana yang terisi; satu konfigurasi dapat menghasilkan beberapa keadaan dengan energi berbeda, seperti konfigurasi $2p^2$ atom C menghasilkan $^3P$, $^1D$, dan $^1S$ (subbab 9.12). Untuk molekul linear, keadaan diberi label dengan **lambang suku molekul**
 
 $$
-^{2S+1}\Lambda_{g/u}^{\pm} . \qquad \text{(11.p20)}
+^{2S+1}\Lambda_{g/u}^{\pm} . \qquad \text{(11.20)}
 $$
 
 - $\Lambda = |\sum_i m_i|$, nilai mutlak komponen momentum sudut orbital total sepanjang sumbu, dalam satuan $\hbar$, dengan $m_i = 0$ untuk σ, $\pm1$ untuk π, $\pm2$ untuk δ. Huruf Yunani besar: Σ ($\Lambda = 0$), Π (1), Δ (2), Φ (3).
@@ -168,10 +168,10 @@ Keadaan dasar diberi awalan X, keadaan tereksitasi dengan multiplisitas sama dib
 
 1. **Kulit tertutup** menyumbang $\Lambda = 0$, $S = 0$, $g$, $+$. Molekul yang semua orbitalnya terisi penuh mempunyai keadaan $^1\Sigma_g^+$ (homonuklir) atau $^1\Sigma^+$ (heteronuklir). Contohnya H₂, Li₂, C₂, N₂, F₂, dan CO.
 2. **Satu elektron atau satu lubang** di luar kulit tertutup: lambang suku sama dengan lambang orbitalnya. H₂⁺ $(1\sigma_g)^1$: $^2\Sigma_g^+$. O₂⁺ $(1\pi_g)^1$: $^2\Pi_g$. N₂⁺ $(3\sigma_g)^1$: $^2\Sigma_g^+$. NO $(2\pi)^1$: $^2\Pi$. Radikal OH $(1\pi)^3$, satu lubang di π: $^2\Pi$.
-3. **Dua elektron di sepasang orbital π** ($\pi^2$): tiga keadaan, $^3\Sigma^-$, $^1\Delta$, dan $^1\Sigma^+$, dengan $^3\Sigma^-$ terendah menurut aturan Hund. Penurunannya di Contoh 11.i2.
+3. **Dua elektron di sepasang orbital π** ($\pi^2$): tiga keadaan, $^3\Sigma^-$, $^1\Delta$, dan $^1\Sigma^+$, dengan $^3\Sigma^-$ terendah menurut aturan Hund. Penurunannya di Contoh 11.33.
 
 ::: {.contoh}
-**Contoh 11.i1 · Lambang suku keadaan dasar**
+**Contoh 11.32 · Lambang suku keadaan dasar**
 
 Tentukan lambang suku keadaan dasar H₂, He₂⁺, B₂, C₂, N₂, O₂, F₂, dan CN (9 elektron valensi, urutan seperti N₂).
 
@@ -181,7 +181,7 @@ Tentukan lambang suku keadaan dasar H₂, He₂⁺, B₂, C₂, N₂, O₂, F₂
 :::
 
 ::: {.contoh}
-**Contoh 11.i2 · Keadaan-keadaan dari konfigurasi π²**
+**Contoh 11.33 · Keadaan-keadaan dari konfigurasi π²**
 
 Turunkan lambang suku dari konfigurasi $(\pi)^2$ dengan mendaftar keadaan mikro.
 
@@ -202,7 +202,7 @@ Dua keadaan mikro dengan $M_L = \pm2$, $M_S = 0$ membentuk $^1\Delta$. Dari empa
 :::
 
 ::: {.contoh}
-**Contoh 11.i3 · Oksigen singlet**
+**Contoh 11.34 · Oksigen singlet**
 
 Keadaan $a\,^1\Delta_g$ dan $b\,^1\Sigma_g^+$ O₂ berada 7882 cm⁻¹ dan 13 121 cm⁻¹ di atas keadaan dasar (dari tingkat getaran terendah ke terendah). Hitung energinya dalam eV dan panjang gelombang pancarannya ke keadaan dasar.
 
@@ -212,7 +212,7 @@ Keadaan $a\,^1\Delta_g$ dan $b\,^1\Sigma_g^+$ O₂ berada 7882 cm⁻¹ dan 13 12
 :::
 
 ::: {.contoh}
-**Contoh 11.i4 · Mengapa kita tidak terbakar sendiri**
+**Contoh 11.35 · Mengapa kita tidak terbakar sendiri**
 
 Pembakaran senyawa organik oleh O₂ sangat eksotermik, tetapi kertas, kayu, dan jaringan tubuh dapat bertahan bertahun-tahun di udara. Jelaskan dengan lambang suku.
 
@@ -226,7 +226,7 @@ Pembakaran senyawa organik oleh O₂ sangat eksotermik, tetapi kertas, kayu, dan
 Untuk transisi dipol listrik antara keadaan molekul diatom berlaku: $\Delta\Lambda = 0, \pm1$; $\Delta S = 0$; $g \leftrightarrow u$ (homonuklir); dan untuk transisi Σ–Σ, $+ \leftrightarrow +$ serta $- \leftrightarrow -$. Aturan $\Delta\Lambda$ berasal dari komponen momen dipol: komponen sepanjang sumbu ($z$) bersimetri σ dan tidak mengubah $\Lambda$, sedangkan komponen tegak lurus ($x$, $y$) bersimetri π dan mengubah $\Lambda$ satu. Aturan $g \leftrightarrow u$ adalah aturan Laporte (subbab 10.10).
 
 ::: {.contoh}
-**Contoh 11.i5 · Transisi O₂ mana yang terang?**
+**Contoh 11.36 · Transisi O₂ mana yang terang?**
 
 Dari keadaan dasar $X\,^3\Sigma_g^-$, transisi ke keadaan mana yang diizinkan: $a\,^1\Delta_g$, $b\,^1\Sigma_g^+$, $B\,^3\Sigma_u^-$?
 
@@ -236,7 +236,7 @@ Dari keadaan dasar $X\,^3\Sigma_g^-$, transisi ke keadaan mana yang diizinkan: $
 :::
 
 ::: {.contoh}
-**Contoh 11.i6 · Kopling spin–orbit pada NO**
+**Contoh 11.37 · Kopling spin–orbit pada NO**
 
 Keadaan dasar NO, $^2\Pi$, terpecah oleh kopling spin–orbit menjadi $^2\Pi_{1/2}$ (lebih rendah) dan $^2\Pi_{3/2}$, yang berjarak 123 cm⁻¹. Indeks bawah adalah $\Omega = |\Lambda + \Sigma|$, dengan $\Sigma = \pm\tfrac12$ komponen spin sepanjang sumbu. Hitung perbandingan populasi kedua komponen pada 298 K (keduanya berdegenerasi dua).
 
