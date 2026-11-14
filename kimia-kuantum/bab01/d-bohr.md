@@ -67,7 +67,7 @@ $$
 v_n = \frac{Ze^2}{4\pi\varepsilon_0\hbar}\cdot\frac{1}{n} = \frac{Z\alpha c}{n}, \qquad \alpha = \frac{e^2}{4\pi\varepsilon_0\hbar c} = \frac{1}{137{,}036} . \qquad \text{(1.25)}
 $$
 
-Bilangan tak berdimensi $\alpha$ disebut **tetapan struktur halus**. Elektron dalam orbit pertama hidrogen bergerak dengan $c/137$, cukup lambat sehingga mekanika nonrelativistik masuk akal untuk atom ringan. Untuk atom berat ($Z \approx 80$), $Z\alpha$ mendekati 0,6, dan efek relativistik menjadi penting; inilah sebabnya emas berwarna kuning dan raksa berwujud cair (Bab 20).
+Bilangan tak berdimensi $\alpha$ disebut **tetapan struktur halus**. Elektron dalam orbit pertama hidrogen bergerak dengan $c/137$, cukup lambat sehingga mekanika nonrelativistik masuk akal untuk atom ringan. Untuk atom berat ($Z \approx 80$), $Z\alpha$ mendekati 0,6, dan efek relativistik menjadi penting; inilah sebabnya emas berwarna kuning dan raksa berwujud cair (Bab 17).
 
 **Langkah 4: energi.** Energi total adalah kinetik ditambah potensial. Dari (a), $\tfrac12m_ev^2 = Ze^2/(8\pi\varepsilon_0r)$, sehingga
 
@@ -81,7 +81,7 @@ $$
 \boxed{\ E_n = -\frac{Z^2}{n^2}\cdot\frac{m_ee^4}{8\varepsilon_0^2h^2} = -\frac{Z^2}{2n^2}\,E_h = -\frac{Z^2}{n^2}\,(13{,}606\ \text{eV})\ } \qquad \text{(1.26)}
 $$
 
-dengan $E_h = m_ee^4/(4\pi\varepsilon_0\hbar)^2 = 27{,}211$ eV, satuan energi atom yang disebut **hartree**. Energi negatif berarti elektron terikat; $E = 0$ adalah elektron yang diam jauh tak hingga dari inti. Perhatikan pula bahwa energi kinetik sama dengan $-E$ dan energi potensial sama dengan $2E$; ini adalah contoh **teorema virial** untuk potensial Coulomb (Bab 7 dan 13).
+dengan $E_h = m_ee^4/(4\pi\varepsilon_0\hbar)^2 = 27{,}211$ eV, satuan energi atom yang disebut **hartree**. Energi negatif berarti elektron terikat; $E = 0$ adalah elektron yang diam jauh tak hingga dari inti. Perhatikan pula bahwa energi kinetik sama dengan $-E$ dan energi potensial sama dengan $2E$; ini adalah contoh **teorema virial** untuk potensial Coulomb (Bab 7 dan 11).
 
 **Langkah 5: rumus Rydberg.** Masukkan (1.26) ke syarat frekuensi (1.23) dengan $\tilde\nu = \nu/c = (E_{n_2} - E_{n_1})/hc$:
 

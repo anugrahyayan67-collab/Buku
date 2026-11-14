@@ -52,13 +52,13 @@ Kimia adalah ilmu tentang elektron. Ketika natrium bereaksi dengan klorin, inti-
 Pertanyaan-pertanyaan berikut tidak dapat dijawab dengan mekanika Newton, tetapi dijawab dengan tuntas oleh kimia kuantum:
 
 - Mengapa atom hidrogen mempunyai energi ionisasi tepat 13,598 eV (Bab 7)?
-- Mengapa tabel periodik tersusun dalam periode 2, 8, 8, 18, 18, 32 (Bab 10)?
-- Mengapa dua atom hidrogen membentuk molekul H₂, sedangkan dua atom helium tidak membentuk He₂ yang mantap (Bab 12)?
-- Mengapa O₂ bersifat paramagnetik, padahal struktur Lewis-nya menunjukkan semua elektron berpasangan (Bab 12)?
-- Mengapa metana berbentuk tetrahedron dengan sudut 109,47°, dan air bengkok dengan sudut 104,5° (Bab 14 dan 15)?
-- Mengapa benzena luar biasa mantap, dan mengapa siklobutadiena tidak (Bab 15)?
-- Mengapa larutan [Ti(H₂O)₆]³⁺ berwarna ungu, sedangkan [Zn(H₂O)₆]²⁺ tidak berwarna (Bab 16)?
-- Mengapa ikatan C–H menyerap inframerah di sekitar 3000 cm⁻¹ dan C–D di sekitar 2200 cm⁻¹ (Bab 5 dan 17)?
+- Mengapa tabel periodik tersusun dalam periode 2, 8, 8, 18, 18, 32 (Bab 9)?
+- Mengapa dua atom hidrogen membentuk molekul H₂, sedangkan dua atom helium tidak membentuk He₂ yang mantap (Bab 11)?
+- Mengapa O₂ bersifat paramagnetik, padahal struktur Lewis-nya menunjukkan semua elektron berpasangan (Bab 11)?
+- Mengapa metana berbentuk tetrahedron dengan sudut 109,47°, dan air bengkok dengan sudut 104,5° (Bab 12 dan 13)?
+- Mengapa benzena luar biasa mantap, dan mengapa siklobutadiena tidak (Bab 13)?
+- Mengapa larutan [Ti(H₂O)₆]³⁺ berwarna ungu, sedangkan [Zn(H₂O)₆]²⁺ tidak berwarna (Bab 14)?
+- Mengapa ikatan C–H menyerap inframerah di sekitar 3000 cm⁻¹ dan C–D di sekitar 2200 cm⁻¹ (Bab 5 dan 15)?
 
 Lebih jauh lagi, kimia kuantum modern **meramalkan** sifat molekul yang belum pernah dibuat: geometri, energi reaksi, energi pengaktifan, spektrum, bahkan sifat bahan padat. Perhitungan semacam ini kini rutin dilakukan di industri farmasi, katalis, dan bahan. Hadiah Nobel Kimia 1998 diberikan kepada Walter Kohn dan John Pople atas pengembangan metode komputasi yang memungkinkan hal itu.
 
@@ -70,7 +70,7 @@ Hanya sedikit sistem yang dapat diselesaikan dengan tepat: partikel dalam kotak,
 
 ### Peta buku
 
-Buku ini terbagi dalam lima bagian. **Bagian I** (Bab 1–4) membangun mekanika kuantum dari percobaan-percobaan yang memaksa lahirnya, sampai ke postulat-postulatnya. **Bagian II** (Bab 5–7) menyelesaikan sistem-sistem yang tepat. **Bagian III** (Bab 8–10) memperkenalkan metode pendekatan dan atom berelektron banyak. **Bagian IV** (Bab 11–16) membahas simetri, ikatan kimia, dan senyawa koordinasi. **Bagian V** (Bab 17–20) membahas spektroskopi dan kimia komputasi.
+Buku ini terbagi dalam lima bagian. **Bagian I** (Bab 1–4) membangun mekanika kuantum dari percobaan-percobaan yang memaksa lahirnya, sampai ke postulat-postulatnya. **Bagian II** (Bab 5–7) menyelesaikan sistem-sistem yang tepat. **Bagian III** (Bab 8–9) memperkenalkan metode pendekatan dan atom berelektron banyak. **Bagian IV** (Bab 10–14) membahas simetri, ikatan kimia, dan senyawa koordinasi. **Bagian V** (Bab 15–17) membahas spektroskopi dan kimia komputasi.
 
 ### Skala energi dalam kimia
 
@@ -101,7 +101,7 @@ Benzena C₆H₆ mempunyai 42 elektron dan 12 inti. Fungsi gelombang elektronnya
 
 **Penyelesaian.** Banyaknya koordinat elektron $3 \times 42 = 126$. Banyaknya titik kisi $10^{126}$.
 
-**Memahami hasil.** Jumlah atom di alam semesta teramati diperkirakan sekitar $10^{80}$. Penyimpanan langsung fungsi gelombang molekul sekecil benzena pun mustahil, bahkan pada kisi yang sangat kasar. Kimia kuantum karena itu bertumpu pada fungsi gelombang yang disusun dari bagian-bagian sederhana, misalnya hasil kali orbital (Bab 10) atau determinan Slater, dan pada metode yang hanya memerlukan kerapatan elektron, yang bergantung pada tiga koordinat saja (Bab 20).
+**Memahami hasil.** Jumlah atom di alam semesta teramati diperkirakan sekitar $10^{80}$. Penyimpanan langsung fungsi gelombang molekul sekecil benzena pun mustahil, bahkan pada kisi yang sangat kasar. Kimia kuantum karena itu bertumpu pada fungsi gelombang yang disusun dari bagian-bagian sederhana, misalnya hasil kali orbital (Bab 9) atau determinan Slater, dan pada metode yang hanya memerlukan kerapatan elektron, yang bergantung pada tiga koordinat saja (Bab 17).
 :::
 
 ::: {.terapan}

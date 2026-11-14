@@ -118,7 +118,7 @@ Energi disosiasi H₂ (dari tingkat titik nol) adalah 4,478 eV. (a) Nyatakan dal
 
 \(b) $1{,}0 \times 10^{-3} \times 2625{,}5 = 2{,}6$ kJ/mol $= 0{,}63$ kcal/mol.
 
-**Memahami hasil.** Galat 1 m$E_h$ hanya 0,6% dari energi ikatan H₂, dan masih di dalam ketelitian kimia. Tetapi energi total elektron molekul air sekitar $-76{,}4\ E_h$, sehingga ketelitian 1 m$E_h$ berarti ketelitian relatif $10^{-5}$ pada energi total. Kimia hidup dalam selisih kecil antara bilangan-bilangan besar; inilah salah satu alasan kimia kuantum komputasi itu sulit (Bab 19 dan 20).
+**Memahami hasil.** Galat 1 m$E_h$ hanya 0,6% dari energi ikatan H₂, dan masih di dalam ketelitian kimia. Tetapi energi total elektron molekul air sekitar $-76{,}4\ E_h$, sehingga ketelitian 1 m$E_h$ berarti ketelitian relatif $10^{-5}$ pada energi total. Kimia hidup dalam selisih kecil antara bilangan-bilangan besar; inilah salah satu alasan kimia kuantum komputasi itu sulit (Bab 17).
 :::
 
 ::: {.contoh}
@@ -134,7 +134,7 @@ $$
 \frac{N_\alpha - N_\beta}{N_\alpha + N_\beta} = \frac{1 - (1 - x)}{1 + (1 - x)} \approx \frac{x}{2} = 3{,}2 \times 10^{-5} .
 $$
 
-**Memahami hasil.** Hanya sekitar 3 dari 100 000 proton yang "berlebih" di tingkat bawah; sinyal NMR berasal dari kelebihan kecil itu, karena serapan dan pancaran terstimulasi dari kedua tingkat saling meniadakan. Itulah sebabnya NMR memerlukan sampel miligram, sedangkan spektroskopi UV-Vis cukup dengan mikrogram, dan mengapa magnet yang makin kuat (900 MHz, 1,2 GHz) begitu berharga (Bab 18).
+**Memahami hasil.** Hanya sekitar 3 dari 100 000 proton yang "berlebih" di tingkat bawah; sinyal NMR berasal dari kelebihan kecil itu, karena serapan dan pancaran terstimulasi dari kedua tingkat saling meniadakan. Itulah sebabnya NMR memerlukan sampel miligram, sedangkan spektroskopi UV-Vis cukup dengan mikrogram, dan mengapa magnet yang makin kuat (900 MHz, 1,2 GHz) begitu berharga (Bab 16).
 :::
 
 ::: {.contoh}
@@ -148,7 +148,7 @@ $$
 \frac{N_{3p}}{N_{3s}} = \frac{6}{2}\,e^{-9{,}771} = 3(5{,}71 \times 10^{-5}) = 1{,}7 \times 10^{-4} .
 $$
 
-**Memahami hasil.** Hanya sekitar dua atom dari sepuluh ribu yang tereksitasi pada setiap saat, tetapi setiap atom tereksitasi memancarkan foton dalam belasan nanodetik lalu dieksitasi ulang oleh tumbukan, sehingga nyala tampak kuning terang. Warnanya tajam karena energi 3p − 3s terkuantisasi, sama untuk setiap atom natrium di mana pun; dan pada suhu kamar ($\Delta E/kT = 82$) tidak ada satu pun atom yang tereksitasi. Fotometri nyala dan spektroskopi emisi atom memanfaatkan fakta ini untuk menentukan kadar natrium dan kalium dalam darah, tanah, dan air. Mengapa selisih energi 3p − 3s natrium tepat 2,10 eV, dan bukan 10,2 eV seperti pada hidrogen, akan dijawab di Bab 10 dengan konsep perisai dan muatan inti efektif.
+**Memahami hasil.** Hanya sekitar dua atom dari sepuluh ribu yang tereksitasi pada setiap saat, tetapi setiap atom tereksitasi memancarkan foton dalam belasan nanodetik lalu dieksitasi ulang oleh tumbukan, sehingga nyala tampak kuning terang. Warnanya tajam karena energi 3p − 3s terkuantisasi, sama untuk setiap atom natrium di mana pun; dan pada suhu kamar ($\Delta E/kT = 82$) tidak ada satu pun atom yang tereksitasi. Fotometri nyala dan spektroskopi emisi atom memanfaatkan fakta ini untuk menentukan kadar natrium dan kalium dalam darah, tanah, dan air. Mengapa selisih energi 3p − 3s natrium tepat 2,10 eV, dan bukan 10,2 eV seperti pada hidrogen, akan dijawab di Bab 9 dengan konsep perisai dan muatan inti efektif.
 :::
 
 ::: {.awas}

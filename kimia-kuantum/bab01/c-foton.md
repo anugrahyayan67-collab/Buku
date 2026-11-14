@@ -52,7 +52,7 @@ Ramalan Einstein bahwa kemiringan $V_0$ terhadap $\nu$ adalah $h/e$ diuji dengan
 | $\phi$ (eV) | 2,14 | 2,30 | 2,75 | 4,26 | 4,33 | 4,65 | 5,65 |
 | $\lambda_0 = hc/\phi$ (nm) | 579 | 539 | 451 | 291 | 286 | 267 | 219 |
 
-Fungsi kerja logam alkali kecil karena elektron valensinya lemah terikat; itulah sebabnya fotokatode dibuat dari campuran cesium dan antimon. Tetapi perhatikan: fungsi kerja natrium (2,75 eV) jauh lebih kecil daripada energi ionisasi atom natrium dalam fase gas (5,14 eV). Dalam logam, elektron valensi tidak terikat pada satu atom; ia mengisi pita energi yang dibentuk oleh semua atom, dan elektron di puncak pita lebih mudah dikeluarkan. Kita akan memahami pita energi di Bab 15.
+Fungsi kerja logam alkali kecil karena elektron valensinya lemah terikat; itulah sebabnya fotokatode dibuat dari campuran cesium dan antimon. Tetapi perhatikan: fungsi kerja natrium (2,75 eV) jauh lebih kecil daripada energi ionisasi atom natrium dalam fase gas (5,14 eV). Dalam logam, elektron valensi tidak terikat pada satu atom; ia mengisi pita energi yang dibentuk oleh semua atom, dan elektron di puncak pita lebih mudah dikeluarkan. Kita akan memahami pita energi di Bab 13.
 
 ### Foton sebagai partikel
 
@@ -148,7 +148,7 @@ Energi ikatan C–Cl dalam CFC sekitar 339 kJ/mol. (a) Berapa panjang gelombang 
 
 \(b) Secara energi, ultraviolet di bawah 353 nm sudah cukup. Tetapi molekul CFC hampir tidak menyerap cahaya di atas sekitar 230 nm; penyerapannya baru kuat di ultraviolet jauh. Foton sependek itu tidak sampai ke troposfer karena sudah diserap O₂ dan O₃ di lapisan atas. CFC yang naik ke stratosfer (di atas 20–30 km) terkena foton 190–220 nm dan melepaskan atom Cl yang merusak ozon.
 
-**Memahami hasil.** Syarat energi ($h\nu \ge D$) perlu tetapi tidak cukup: molekul juga harus **menyerap** foton itu, yaitu harus ada transisi elektron yang cocok dengan energi foton. Penyerapan dibahas dengan teori perturbasi bergantung waktu di Bab 9 dan spektroskopi elektronik di Bab 17.
+**Memahami hasil.** Syarat energi ($h\nu \ge D$) perlu tetapi tidak cukup: molekul juga harus **menyerap** foton itu, yaitu harus ada transisi elektron yang cocok dengan energi foton. Penyerapan dibahas dengan teori perturbasi bergantung waktu di Bab 8 dan spektroskopi elektronik di Bab 15.
 :::
 
 ::: {.contoh}
@@ -162,7 +162,7 @@ $$
 \Phi = \frac{2{,}0 \times 10^{-5}}{1{,}57 \times 10^{-4}} = 0{,}13 .
 $$
 
-**Memahami hasil.** Hanya sekitar satu dari delapan foton yang terserap menghasilkan penguraian. Sisanya dilepaskan sebagai kalor, fluoresensi, atau kembali ke keadaan dasar lewat jalur lain (Bab 17). Pengukuran hasil kuantum memerlukan **aktinometer**, larutan acuan yang hasil kuantumnya diketahui, misalnya kalium ferioksalat, untuk mengukur banyaknya foton.
+**Memahami hasil.** Hanya sekitar satu dari delapan foton yang terserap menghasilkan penguraian. Sisanya dilepaskan sebagai kalor, fluoresensi, atau kembali ke keadaan dasar lewat jalur lain (Bab 15). Pengukuran hasil kuantum memerlukan **aktinometer**, larutan acuan yang hasil kuantumnya diketahui, misalnya kalium ferioksalat, untuk mengukur banyaknya foton.
 :::
 
 ::: {.contoh}
@@ -183,7 +183,7 @@ $$
 K = h\nu - I_i . \qquad \text{(1.20)}
 $$
 
-Dengan mengukur sebaran energi kinetik fotoelektron, kita memperoleh energi ionisasi setiap orbital yang terisi. Teknik ini disebut **spektroskopi fotoelektron** (PES). Sumber yang umum adalah lampu helium (He I, 21,22 eV, panjang gelombang 58,4 nm) untuk elektron valensi dan sinar-X (XPS) untuk elektron kulit dalam. PES adalah bukti paling langsung bahwa elektron dalam molekul menempati **orbital** dengan energi yang berbeda-beda; ia menjadi uji utama teori orbital molekul di Bab 12–15.
+Dengan mengukur sebaran energi kinetik fotoelektron, kita memperoleh energi ionisasi setiap orbital yang terisi. Teknik ini disebut **spektroskopi fotoelektron** (PES). Sumber yang umum adalah lampu helium (He I, 21,22 eV, panjang gelombang 58,4 nm) untuk elektron valensi dan sinar-X (XPS) untuk elektron kulit dalam. PES adalah bukti paling langsung bahwa elektron dalam molekul menempati **orbital** dengan energi yang berbeda-beda; ia menjadi uji utama teori orbital molekul di Bab 11–13.
 
 ::: {.contoh}
 **Contoh 1.23 · Spektrum fotoelektron nitrogen**
@@ -192,7 +192,7 @@ Spektrum fotoelektron N₂ dengan sumber He I (21,22 eV) menunjukkan tiga pita y
 
 **Penyelesaian.** Dari (1.20): $21{,}22 - 15{,}58 = 5{,}64$ eV; $21{,}22 - 16{,}69 = 4{,}53$ eV; $21{,}22 - 18{,}75 = 2{,}47$ eV.
 
-**Memahami hasil.** Ketiga pita berasal dari tiga orbital molekul valensi terluar N₂, yang di Bab 12 akan dikenali sebagai $3\sigma_g$, $1\pi_u$, dan $2\sigma_u$. Pita kedua (16,69 eV) memperlihatkan deret puncak yang berjarak sekitar 0,22 eV (Gambar 1.5 kanan): ion N₂⁺ yang terbentuk sedang bergetar. Lebar deret itu memberi tahu seberapa kuat elektron yang dilepaskan ikut mengikat atom. Orbital $1\pi_u$ bersifat mengikat kuat, sehingga melepaskannya mengubah panjang ikatan dan membangkitkan banyak tingkat getaran. Satu spektrum memuat informasi tentang energi orbital dan karakter ikatannya.
+**Memahami hasil.** Ketiga pita berasal dari tiga orbital molekul valensi terluar N₂, yang di Bab 11 akan dikenali sebagai $3\sigma_g$, $1\pi_u$, dan $2\sigma_u$. Pita kedua (16,69 eV) memperlihatkan deret puncak yang berjarak sekitar 0,22 eV (Gambar 1.5 kanan): ion N₂⁺ yang terbentuk sedang bergetar. Lebar deret itu memberi tahu seberapa kuat elektron yang dilepaskan ikut mengikat atom. Orbital $1\pi_u$ bersifat mengikat kuat, sehingga melepaskannya mengubah panjang ikatan dan membangkitkan banyak tingkat getaran. Satu spektrum memuat informasi tentang energi orbital dan karakter ikatannya.
 :::
 
 ::: {.kuis}

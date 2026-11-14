@@ -229,7 +229,7 @@ Dalam molekul H₂⁺ (satu elektron, dua proton A dan B), fungsi gelombang elek
 
 **Penyelesaian.** $|\psi_+|^2 = (a + a)^2 = 4a^2$. $|\psi_-|^2 = (a - a)^2 = 0$. Campuran klasik: $|\psi_A|^2 + |\psi_B|^2 = 2a^2$.
 
-**Memahami hasil.** Interferensi konstruktif menumpuk kerapatan elektron di antara inti, dua kali lipat dari penjumlahan biasa. Elektron di daerah itu ditarik oleh kedua proton sekaligus dan "merekatkan" keduanya: inilah **orbital ikatan**. Interferensi destruktif membuat simpul di tengah: **orbital antiikatan**. Ikatan kovalen, dalam arti yang sangat nyata, adalah pola interferensi elektron. Gagasan ini dikembangkan secara kuantitatif di Bab 12.
+**Memahami hasil.** Interferensi konstruktif menumpuk kerapatan elektron di antara inti, dua kali lipat dari penjumlahan biasa. Elektron di daerah itu ditarik oleh kedua proton sekaligus dan "merekatkan" keduanya: inilah **orbital ikatan**. Interferensi destruktif membuat simpul di tengah: **orbital antiikatan**. Ikatan kovalen, dalam arti yang sangat nyata, adalah pola interferensi elektron. Gagasan ini dikembangkan secara kuantitatif di Bab 11.
 :::
 
 ::: {.kuis}
