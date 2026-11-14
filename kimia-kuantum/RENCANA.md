@@ -25,7 +25,7 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 ### ☑ Bab 5 Osilator Harmonik
 5.1 Osilator klasik · 5.2 Persamaan Schrödinger osilator · 5.3 Penyelesaian deret dan polinom Hermite · 5.4 Tingkat energi dan energi titik nol · 5.5 Fungsi gelombang: kuantum vs klasik · 5.6 Operator tangga · 5.7 Getaran molekul diatom dan massa tereduksi · 5.8 Aturan seleksi inframerah · 5.9 Anharmonisitas dan potensial Morse · 5.10 Efek isotop · 5.11 Mode normal molekul poliatom · 5.12 Penyelesaian numerik persamaan Schrödinger (metode Numerov)
 
-### ☐ Bab 6 Momentum Sudut dan Rotor Tegar
+### ☑ Bab 6 Momentum Sudut dan Rotor Tegar
 6.1 Momentum sudut klasik · 6.2 Operator momentum sudut dan komutatornya · 6.3 Partikel pada cincin · 6.4 Partikel pada bola · 6.5 Harmonik bola · 6.6 Kuantisasi ruang dan model vektor · 6.7 Metode operator tangga · 6.8 Masalah dua benda dan massa tereduksi · 6.9 Rotor tegar diatom · 6.10 Spektrum rotasi gelombang mikro · 6.11 Populasi rotasi dan intensitas · 6.12 Distorsi sentrifugal dan spektrum vibrasi–rotasi
 
 ### ☐ Bab 7 Atom Hidrogen
