@@ -14,7 +14,7 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 ### ☑ Bab 2 Matematika untuk Kimia Kuantum
 2.1 Bilangan kompleks dan rumus Euler · 2.2 Turunan, integral parsial, integral Gauss · 2.3 Persamaan diferensial orde dua · 2.4 Penyelesaian dengan deret pangkat · 2.5 Koordinat bola dan silinder, elemen volume · 2.6 Vektor dan hasil kali dalam fungsi · 2.7 Matriks dan determinan · 2.8 Nilai eigen dan vektor eigen matriks · 2.9 Deret Taylor dan deret Fourier · 2.10 Peluang, nilai rata-rata, simpangan baku · 2.11 Satuan atom
 
-### ☐ Bab 3 Persamaan Schrödinger dan Partikel dalam Kotak
+### ☑ Bab 3 Persamaan Schrödinger dan Partikel dalam Kotak
 3.1 Persamaan gelombang klasik · 3.2 Persamaan Schrödinger bergantung waktu · 3.3 Tafsir Born dan normalisasi · 3.4 Persamaan tak bergantung waktu dan keadaan stasioner · 3.5 Partikel bebas dan paket gelombang · 3.6 Partikel dalam kotak satu dimensi · 3.7 Sifat fungsi gelombang: simpul, ortogonalitas, batas klasik · 3.8 Model elektron bebas untuk poliena dan zat warna sianin · 3.9 Sumur potensial terhingga · 3.10 Tangga potensial dan pantulan · 3.11 Penerobosan · 3.12 Penerobosan dalam kimia: STM, transfer proton, inversi amonia
 
 ### ☐ Bab 4 Operator dan Postulat Mekanika Kuantum
