@@ -104,6 +104,7 @@ Berapa faktor normalisasi determinan lima elektron? ||| $1/\sqrt{120}$
 Tunjukkan bahwa $|2s\alpha\,1s\alpha| = -|1s\alpha\,2s\alpha|$. ||| menukar dua kolom
 Kombinasi determinan mana dari konfigurasi 1s2p ($m_\ell = 0$) yang memberi komponen $M_S = 0$ suku $^3$P? ||| $(|1s\alpha\,2p_0\beta| + |1s\beta\,2p_0\alpha|)/\sqrt2$
 Uraikan $|1s\alpha\,2s\alpha|$ menjadi hasil kali fungsi ruang dan fungsi spin. ||| $\tfrac{1}{\sqrt2}[1s(1)2s(2) - 2s(1)1s(2)]\,\alpha(1)\alpha(2)$
+Sebuah perhitungan UHF untuk keadaan triplet memberi $\langle S^2\rangle = 2{,}04\hbar^2$. Berapa nilai idealnya, dan keadaan apa yang paling mungkin mencemari? ||| $2\hbar^2$; kuintet ($S = 2$, $6\hbar^2$), sekitar 1%
 
 **Tantangan ★**
 
@@ -139,7 +140,8 @@ Tunjukkan bahwa $J_{ii} = K_{ii}$ sehingga swa-interaksi hilang dalam (9.25). ||
 
 Tuliskan energi HF berilium dengan integral $h$, $J$, dan $K$ orbital 1s dan 2s. ||| $2h_{1s} + 2h_{2s} + J_{1s1s} + J_{2s2s} + 4J_{1s2s} - 2K_{1s2s}$
 Tuliskan $\varepsilon_{2s}$ berilium dengan integral yang sama. ||| $h_{2s} + J_{2s2s} + 2J_{1s2s} - K_{1s2s}$
-Berapa energi relaksasi untuk ionisasi 1s neon menurut Contoh 9.25? ||| sekitar 21,5 eV
+Berapa energi relaksasi untuk ionisasi 1s neon menurut Contoh 9.26? ||| sekitar 21,5 eV
+Atom nitrogen ($2p^3$, $^4$S) diionisasi pada kulit 1s. Suku apa saja yang mungkin untuk ion dengan konfigurasi $1s^12s^22p^3$ (gabungkan spin $\tfrac12$ lubang 1s dengan $S = \tfrac32$), dan berapa perbandingan intensitasnya menurut bobot spin? ||| $^5$S dan $^3$S; 5 : 3
 Mengapa metode Hartree (tanpa antisimetri) dan Hartree–Fock memberi energi yang sama untuk keadaan dasar helium? ||| hanya ada pasangan berspin berlawanan; tidak ada pertukaran
 
 **Tantangan ★**
@@ -177,7 +179,7 @@ Mana yang didominasi korelasi statis: atom He atau molekul H₂ yang diregangkan
 
 Dari tabel subbab 9.10, hitung pertambahan energi korelasi dari B ke C ke N dan dari N ke O ke F. Tafsirkan. ||| sekitar 31–32 m$E_h$; sekitar 67–70 m$E_h$: elektron p mulai berpasangan
 Berapa persen korelasi menurunkan $\langle 1/r_{12}\rangle$ helium? ||| 7,8%
-Ulangi Contoh 9.33 dengan energi H⁻ "relaks" $-0{,}4727\ E_h$ untuk bagian ionik. Berapa galat RHF pada jarak tak hingga? ||| $-0{,}7363\ E_h$; galat 7,2 eV
+Ulangi Contoh 9.36 dengan energi H⁻ "relaks" $-0{,}4727\ E_h$ untuk bagian ionik. Berapa galat RHF pada jarak tak hingga? ||| $-0{,}7363\ E_h$; galat 7,2 eV
 
 **Tantangan ★**
 
@@ -252,7 +254,7 @@ Tuliskan energi determinan $|1s\alpha\,2s\beta|$. ||| $h_{1s} + h_{2s} + J$
 @dua [P] Dengan aturan 3, hitung $\langle 1s\alpha\,2s\beta|\hat H|1s\beta\,2s\alpha\rangle$, lalu diagonalkan matriks 2 × 2 kedua determinan $M_S = 0$ konfigurasi 1s2s. ||| $-K$; $E^{(0)} + J \pm K$ dengan $(D_1 \mp D_2)/\sqrt2$
 Hitung energi determinan berilium $|1s\alpha\,1s\beta\,2s\alpha\,2s\beta|$ dengan aturan 1. ||| sama dengan soal subbab 9.8: $2h_{1s} + 2h_{2s} + J_{1s1s} + J_{2s2s} + 4J_{1s2s} - 2K_{1s2s}$
 Berapa determinan $M_S = 0$ untuk CI penuh helium dalam basis 10 orbital ruang? ||| $10 \times 10 = 100$
-Dengan nilai $J$ dan $K$ di Contoh 9.47, hitung energi determinan $|p_1\alpha\,p_{-1}\alpha|$ dan tunjukkan bahwa ia juga milik $^3$P. ||| $F_0 + F_2 - 6F_2 = F_0 - 5F_2$
+Dengan nilai $J$ dan $K$ di Contoh 9.51, hitung energi determinan $|p_1\alpha\,p_{-1}\alpha|$ dan tunjukkan bahwa ia juga milik $^3$P. ||| $F_0 + F_2 - 6F_2 = F_0 - 5F_2$
 
 **Tantangan ★**
 

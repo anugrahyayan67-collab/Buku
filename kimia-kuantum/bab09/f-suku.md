@@ -28,7 +28,7 @@ $$
 |j_1j_2;JM\rangle = \sum_{m_1+m_2=M}\langle j_1m_1j_2m_2|JM\rangle\,|j_1m_1\rangle|j_2m_2\rangle . \qquad \text{(9.36)}
 $$
 
-Koefisien-koefisien ini tersedia dalam tabel dan dalam pustaka program (misalnya `sympy.physics.quantum.cg`), tetapi untuk kasus kecil mudah dihitung dengan operator tangga, seperti kita lakukan untuk dua spin di subbab 9.4 (Contoh 9.35).
+Koefisien-koefisien ini tersedia dalam tabel dan dalam pustaka program (misalnya `sympy.physics.quantum.cg`), tetapi untuk kasus kecil mudah dihitung dengan operator tangga, seperti kita lakukan untuk dua spin di subbab 9.4 (Contoh 9.39).
 
 ### Kopling dalam atom: skema LS
 
@@ -47,7 +47,7 @@ Dua momentum sudut $j_1$ dan $j_2$ bergabung menjadi $J = j_1 + j_2, \ldots, |j_
 :::
 
 ::: {.contoh}
-**Contoh 9.34 · Konfigurasi 2p3d**
+**Contoh 9.38 · Konfigurasi 2p3d**
 
 Sebuah atom tereksitasi mempunyai satu elektron 2p dan satu elektron 3d di luar kulit tertutup. (a) Nilai $L$ dan $S$ apa saja yang mungkin? (b) Berapa keadaan seluruhnya, dihitung dua cara?
 
@@ -59,7 +59,7 @@ Sebuah atom tereksitasi mempunyai satu elektron 2p dan satu elektron 3d di luar 
 :::
 
 ::: {.contoh}
-**Contoh 9.35 · Koefisien Clebsch–Gordan untuk satu elektron p**
+**Contoh 9.39 · Koefisien Clebsch–Gordan untuk satu elektron p**
 
 Gabungkan $\ell = 1$ dan $s = \tfrac12$. (a) Nilai $j$ apa saja? (b) Tuliskan $|j = \tfrac32, m_j = \tfrac32\rangle$ dan turunkan $|\tfrac32, \tfrac12\rangle$ dengan $\hat J_- = \hat L_- + \hat S_-$. (c) Cari $|\tfrac12, \tfrac12\rangle$ dari ortogonalitas.
 
@@ -77,7 +77,7 @@ $$
 :::
 
 ::: {.contoh}
-**Contoh 9.36 · Sudut antara L dan S**
+**Contoh 9.40 · Sudut antara L dan S**
 
 Untuk elektron p ($\ell = 1$, $s = \tfrac12$), hitung sudut antara vektor $\mathbf L$ dan $\mathbf S$ dalam keadaan $j = \tfrac32$ dan $j = \tfrac12$, memakai $\mathbf L\cdot\mathbf S = \tfrac12[j(j + 1) - \ell(\ell + 1) - s(s + 1)]\hbar^2$.
 
@@ -108,7 +108,7 @@ dengan $L$ ditulis sebagai huruf besar (S, P, D, F, G, H, ... untuk $L = 0, 1, 2
 
 ### Elektron ekuivalen: metode keadaan mikro
 
-Untuk dua elektron di subkulit yang **sama**, misalnya $2p^2$, asas Pauli melarang sebagian kombinasi. Cara yang aman adalah mendaftar semua **keadaan mikro** (determinan Slater) yang diizinkan: pilih dua spin-orbital berbeda dari enam ($m_\ell = 1, 0, -1$, masing-masing $\alpha$ atau $\beta$), sehingga ada $\binom62 = 15$ keadaan mikro. Kelompokkan menurut $M_L$ dan $M_S$ (Contoh 9.37), lalu "kupas" suku-suku mulai dari $M_L$ terbesar. Hasilnya untuk $p^2$:
+Untuk dua elektron di subkulit yang **sama**, misalnya $2p^2$, asas Pauli melarang sebagian kombinasi. Cara yang aman adalah mendaftar semua **keadaan mikro** (determinan Slater) yang diizinkan: pilih dua spin-orbital berbeda dari enam ($m_\ell = 1, 0, -1$, masing-masing $\alpha$ atau $\beta$), sehingga ada $\binom62 = 15$ keadaan mikro. Kelompokkan menurut $M_L$ dan $M_S$ (Contoh 9.41), lalu "kupas" suku-suku mulai dari $M_L$ terbesar. Hasilnya untuk $p^2$:
 
 $$
 p^2:\ {}^1D\ (5) + {}^3P\ (9) + {}^1S\ (1) = 15 . \qquad \text{(9.39)}
@@ -144,7 +144,7 @@ Suku ${}^{2S+1}L_J$; kulit tertutup $^1S_0$. Keadaan dasar: $S$ maksimum, lalu $
 :::
 
 ::: {.contoh}
-**Contoh 9.37 · Suku-suku konfigurasi $p^2$**
+**Contoh 9.41 · Suku-suku konfigurasi $p^2$**
 
 Daftarkan 15 keadaan mikro $p^2$ menurut $M_L$ dan $M_S$, lalu tentukan suku-sukunya.
 
@@ -162,7 +162,7 @@ Keadaan $M_L = 2$, $M_S = 0$ (tanpa pasangan $M_S = 1$) harus milik suku dengan 
 :::
 
 ::: {.contoh}
-**Contoh 9.38 · Spektrum karbon dan aturan Hund**
+**Contoh 9.42 · Spektrum karbon dan aturan Hund**
 
 Tingkat-tingkat energi konfigurasi $2p^2$ karbon (cm⁻¹ di atas keadaan dasar): $^3P_0$ 0; $^3P_1$ 16,4; $^3P_2$ 43,4; $^1D_2$ 10 192,6; $^1S_0$ 21 648,0. Periksa ketiga aturan Hund.
 
@@ -171,10 +171,10 @@ Tingkat-tingkat energi konfigurasi $2p^2$ karbon (cm⁻¹ di atas keadaan dasar)
 **Memahami hasil.** Pemecahan antarsuku (ribuan cm⁻¹, akibat tolakan antarelektron) jauh lebih besar daripada pemecahan antartingkat dalam satu suku (puluhan cm⁻¹, akibat spin–orbit), sesuai asumsi kopling LS untuk atom ringan. Keadaan $^1$D karbon, 1,26 eV di atas keadaan dasar, penting dalam kimia: karbena dan atom karbon reaktif di atmosfer antarbintang dapat berada dalam keadaan singlet atau triplet, dengan reaktivitas yang sangat berbeda.
 :::
 
-![Gambar 9.6 Suku-suku konfigurasi $2p^2$ karbon. Kiri: ramalan satu konfigurasi dengan satu parameter $F_2$ (dicocokkan pada jarak $^3$P–$^1$D, Contoh 9.47). Tengah: nilai terukur; urutan $^3$P < $^1$D < $^1$S sesuai aturan Hund. Kanan: pembesaran suku $^3$P, yang pecah oleh kopling spin–orbit menjadi $J = 0$, 1, 2 dengan selang yang hampir mengikuti aturan Landé.](fig/c_karbon.png){width=82%}
+![Gambar 9.6 Suku-suku konfigurasi $2p^2$ karbon. Kiri: ramalan satu konfigurasi dengan satu parameter $F_2$ (dicocokkan pada jarak $^3$P–$^1$D, Contoh 9.51). Tengah: nilai terukur; urutan $^3$P < $^1$D < $^1$S sesuai aturan Hund. Kanan: pembesaran suku $^3$P, yang pecah oleh kopling spin–orbit menjadi $J = 0$, 1, 2 dengan selang yang hampir mengikuti aturan Landé.](fig/c_karbon.png){width=82%}
 
 ::: {.contoh}
-**Contoh 9.39 · Ion logam transisi: suku dasar dan momen magnet**
+**Contoh 9.43 · Ion logam transisi: suku dasar dan momen magnet**
 
 Tentukan suku dasar dan jumlah elektron tak berpasangan untuk Ti²⁺ ($d^2$), Mn²⁺ ($d^5$), Fe²⁺ ($d^6$), dan Cu²⁺ ($d^9$) sebagai ion bebas. Hitung momen magnet "spin saja" $\mu = \sqrt{n(n + 2)}\,\mu_B$.
 
@@ -189,7 +189,7 @@ Tentukan suku dasar dan jumlah elektron tak berpasangan untuk Ti²⁺ ($d^2$), M
 :::
 
 ::: {.contoh}
-**Contoh 9.40 · Aurora hijau dan merah**
+**Contoh 9.44 · Aurora hijau dan merah**
 
 Konfigurasi $2p^4$ oksigen mempunyai suku $^3$P (dasar; tingkat $J = 2, 1, 0$ di 0; 158,3; 227,0 cm⁻¹), $^1$D$_2$ (15 867,9 cm⁻¹), dan $^1$S$_0$ (33 792,6 cm⁻¹). (a) Periksa aturan Hund ketiga untuk $^3$P. (b) Hitung panjang gelombang transisi $^1$S → $^1$D dan $^1$D → $^3P_2$. (c) Mengapa keduanya terlarang, dan mengapa hanya teramati di atmosfer atas?
 

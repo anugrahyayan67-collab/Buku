@@ -127,7 +127,7 @@ $$
 
 (b) $E_v^{(1)} = \tfrac34\lambda(2v^2 + 2v + 1)$; dalam satuan biasa, $\tfrac34\lambda(\hbar/m\omega)^2(2v^2 + 2v + 1)$.
 
-(c)
+(c) Perbandingan untuk $\lambda = 0{,}1$:
 
 | $v$ | $E^{(0)} + E^{(1)}$ | eksak | galat |
 |---|---|---|---|

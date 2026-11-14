@@ -12,7 +12,7 @@ $$
 
 ### Satu elektron
 
-Untuk satu elektron dengan $\ell$ dan $s = \tfrac12$, $\hat{\mathbf L}\cdot\hat{\mathbf S}$ tidak komut dengan $\hat L_z$ maupun $\hat S_z$, tetapi komut dengan $\hat L^2$, $\hat S^2$, $\hat J^2$, dan $\hat J_z$. Fungsi eigen yang benar adalah fungsi terkopel $|\ell s; jm_j\rangle$ (Contoh 9.35), dengan $j = \ell \pm \tfrac12$. Dari $\hat J^2 = \hat L^2 + \hat S^2 + 2\hat{\mathbf L}\cdot\hat{\mathbf S}$:
+Untuk satu elektron dengan $\ell$ dan $s = \tfrac12$, $\hat{\mathbf L}\cdot\hat{\mathbf S}$ tidak komut dengan $\hat L_z$ maupun $\hat S_z$, tetapi komut dengan $\hat L^2$, $\hat S^2$, $\hat J^2$, dan $\hat J_z$. Fungsi eigen yang benar adalah fungsi terkopel $|\ell s; jm_j\rangle$ (Contoh 9.39), dengan $j = \ell \pm \tfrac12$. Dari $\hat J^2 = \hat L^2 + \hat S^2 + 2\hat{\mathbf L}\cdot\hat{\mathbf S}$:
 
 $$
 E_\text{SO} = \frac{\zeta_{n\ell}}{2}\left[j(j + 1) - \ell(\ell + 1) - s(s + 1)\right] , \qquad \zeta_{n\ell} = \hbar^2\langle\xi(r)\rangle_{n\ell} . \qquad \text{(9.41)}
@@ -41,7 +41,7 @@ $\hat H_\text{SO} = \xi(r)\hat{\mathbf L}\cdot\hat{\mathbf S}$; untuk satu elekt
 :::
 
 ::: {.contoh}
-**Contoh 9.41 · Garis D natrium dan hidrogen 2p**
+**Contoh 9.45 · Garis D natrium dan hidrogen 2p**
 
 (a) Garis D₂ ($3\,^2P_{3/2} \to 3\,^2S_{1/2}$) dan D₁ ($3\,^2P_{1/2} \to 3\,^2S_{1/2}$) natrium berada di 589,00 dan 589,59 nm. Hitung pemecahan dalam cm⁻¹ dan $\zeta_{3p}$. (b) Hitung pemecahan 2p hidrogen dengan rumus hidrogen dan bandingkan.
 
@@ -53,7 +53,7 @@ $\hat H_\text{SO} = \xi(r)\hat{\mathbf L}\cdot\hat{\mathbf S}$; untuk satu elekt
 :::
 
 ::: {.contoh}
-**Contoh 9.42 · Logam alkali dan halogen: kenaikan dengan Z**
+**Contoh 9.46 · Logam alkali dan halogen: kenaikan dengan Z**
 
 Pemecahan $^2P_{3/2}$–$^2P_{1/2}$ keadaan $np$ tereksitasi pertama logam alkali (cm⁻¹): Li 0,34; Na 17,2; K 57,7; Rb 237,6; Cs 554,0. Pemecahan keadaan dasar $^2P$ halogen: F 404; Cl 882; Br 3685; I 7603. (a) Berapa kali pemecahan naik dari Na ke Cs? (b) Untuk halogen ($p^5$), tingkat mana yang lebih rendah? (c) Berapa fraksi atom F dan I dalam keadaan $^2P_{1/2}$ pada 298 K?
 
@@ -69,7 +69,7 @@ Pemecahan $^2P_{3/2}$–$^2P_{1/2}$ keadaan $np$ tereksitasi pertama logam alkal
 ![Gambar 9.7 Pemecahan spin–orbit terhadap nomor atom (skala logaritma): keadaan $np$ tereksitasi pertama logam alkali dan keadaan dasar $^2$P halogen. Garis tipis menunjukkan kemiringan $Z^2$. Dari Li ke Cs pemecahan naik lebih dari seribu kali, sehingga efek yang hanya terlihat dengan spektroskopi resolusi tinggi pada atom ringan menjadi faktor kimia penting pada atom berat.](fig/c_spinorbit.png){width=72%}
 
 ::: {.contoh}
-**Contoh 9.43 · Aturan selang Landé dan runtuhnya kopling LS**
+**Contoh 9.47 · Aturan selang Landé dan runtuhnya kopling LS**
 
 Tingkat $^3P_1$ dan $^3P_2$ (relatif terhadap $^3P_0$, cm⁻¹) untuk golongan 14: C 16,4 dan 43,4; Si 77,1 dan 223,2; Ge 557,1 dan 1410,0; Sn 1691,8 dan 3427,7; Pb 7819,3 dan 10 650,3. Menurut (9.42), $[E(2) - E(1)]/[E(1) - E(0)] = 2$. Hitung perbandingan ini dan tafsirkan.
 
@@ -79,7 +79,7 @@ Tingkat $^3P_1$ dan $^3P_2$ (relatif terhadap $^3P_0$, cm⁻¹) untuk golongan 1
 :::
 
 ::: {.contoh}
-**Contoh 9.44 · Faktor $g$ dan efek Zeeman anomal**
+**Contoh 9.48 · Faktor $g$ dan efek Zeeman anomal**
 
 Dalam medan magnet lemah, tingkat $J$ pecah menjadi $2J + 1$ subtingkat dengan energi $g_J\mu_BBM_J$, dengan faktor Landé $g_J = 1 + [J(J + 1) + S(S + 1) - L(L + 1)]/2J(J + 1)$ (dengan $g_e \approx 2$). (a) Hitung $g_J$ untuk $^2S_{1/2}$, $^2P_{1/2}$, dan $^2P_{3/2}$. (b) Berapa komponen garis D₁ dalam medan magnet?
 
@@ -93,7 +93,7 @@ Dalam medan magnet lemah, tingkat $J$ pecah menjadi $2J + 1$ subtingkat dengan e
 ::: {.kuis}
 **Kuis cepat 9.13**
 
-(a) Mengapa orbital s tidak mengalami pemecahan spin–orbit? (b) Ramalkan urutan tingkat $J$ dalam suku dasar $^3$P oksigen dan bandingkan dengan Contoh 9.40. (c) Mengapa efek atom berat mempercepat fosforesensi?
+(a) Mengapa orbital s tidak mengalami pemecahan spin–orbit? (b) Ramalkan urutan tingkat $J$ dalam suku dasar $^3$P oksigen dan bandingkan dengan Contoh 9.44. (c) Mengapa efek atom berat mempercepat fosforesensi?
 :::
 
 ## 9.14 Aturan Condon–Slater
@@ -147,7 +147,7 @@ karena $\langle ba|ba\rangle = \langle ab|ab\rangle$ (mengganti nama variabel in
 :::
 
 ::: {.contoh}
-**Contoh 9.45 · Energi helium dan litium dari aturan 1**
+**Contoh 9.49 · Energi helium dan litium dari aturan 1**
 
 (a) Terapkan aturan 1 pada $|1s\alpha\,1s\beta|$. (b) Terapkan pada $|1s\alpha\,1s\beta\,2s\alpha|$ dan peroleh (9.24).
 
@@ -155,11 +155,11 @@ karena $\langle ba|ba\rangle = \langle ab|ab\rangle$ (mengganti nama variabel in
 
 (b) Satu elektron: $2h_{1s} + h_{2s}$. Pasangan: $(1s\alpha, 1s\beta)$: $J_{1s1s}$; $(1s\alpha, 2s\alpha)$: $J_{1s2s} - K_{1s2s}$; $(1s\beta, 2s\alpha)$: $J_{1s2s}$. Jumlah: $E = 2h_{1s} + h_{2s} + J_{1s1s} + 2J_{1s2s} - K_{1s2s}$.
 
-**Memahami hasil.** Aturan 1 mengubah penghitungan energi determinan menjadi akuntansi sederhana: setiap elektron menyumbang $h$, setiap pasangan menyumbang $J$, dan setiap pasangan **berspin sama** dikurangi $K$. Akuntansi inilah yang dipakai di Contoh 9.29 untuk membandingkan konfigurasi kromium.
+**Memahami hasil.** Aturan 1 mengubah penghitungan energi determinan menjadi akuntansi sederhana: setiap elektron menyumbang $h$, setiap pasangan menyumbang $J$, dan setiap pasangan **berspin sama** dikurangi $K$. Akuntansi inilah yang dipakai di Contoh 9.31 untuk membandingkan konfigurasi kromium.
 :::
 
 ::: {.contoh}
-**Contoh 9.46 · Interaksi konfigurasi helium: $1s^2$ dan $2s^2$**
+**Contoh 9.50 · Interaksi konfigurasi helium: $1s^2$ dan $2s^2$**
 
 Dengan orbital He⁺ ($Z = 2$), energi determinan $|1s\alpha\,1s\beta|$ adalah $-2{,}75\ E_h$ dan determinan $|2s\alpha\,2s\beta|$ adalah $2(-\tfrac12) + J_{2s2s}$, dengan $J_{2s2s} = 77Z/512$. (a) Hitung unsur matriks kopling dengan aturan 3. (b) Selesaikan masalah 2 × 2 dan bandingkan penurunan energinya dengan energi korelasi helium.
 
@@ -171,7 +171,7 @@ Dengan orbital He⁺ ($Z = 2$), energi determinan $|1s\alpha\,1s\beta|$ adalah $
 :::
 
 ::: {.contoh}
-**Contoh 9.47 · Energi suku $p^2$ dari determinan**
+**Contoh 9.51 · Energi suku $p^2$ dari determinan**
 
 Untuk dua elektron p, integral Coulomb dan pertukaran antara orbital $m_\ell$ dapat ditulis dengan dua parameter Slater–Condon $F_0$ dan $F_2$: $J(1, 1) = J(1, -1) = F_0 + F_2$, $J(1, 0) = F_0 - 2F_2$, $J(0, 0) = F_0 + 4F_2$, $K(1, 0) = 3F_2$, $K(1, -1) = 6F_2$. (a) Hitung energi $^3$P dari determinan $|p_1\alpha\,p_0\alpha|$ dan energi $^1$D dari $|p_1\alpha\,p_1\beta|$ (bagian tolakan saja). (b) Pakai **aturan jumlah diagonal** (jumlah energi determinan dengan $M_L = 0$, $M_S = 0$ sama dengan jumlah energi suku-suku yang mempunyai komponen itu) untuk memperoleh $E(^1S)$. (c) Ramalkan $[E(^1S) - E(^1D)]/[E(^1D) - E(^3P)]$ dan bandingkan dengan karbon (1,13) dan oksigen (1,14).
 
@@ -185,7 +185,7 @@ Untuk dua elektron p, integral Coulomb dan pertukaran antara orbital $m_\ell$ da
 :::
 
 ::: {.contoh}
-**Contoh 9.48 · Teorema Brillouin**
+**Contoh 9.52 · Teorema Brillouin**
 
 Tunjukkan dengan aturan 2 bahwa, bila orbital-orbitalnya adalah orbital Hartree–Fock, unsur matriks antara determinan HF $\Phi_0$ dan determinan tereksitasi tunggal $\Phi_m^p$ (spin-orbital terisi $m$ diganti spin-orbital kosong $p$) adalah nol.
 

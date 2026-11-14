@@ -216,6 +216,18 @@ $$
 
 dengan $n$ kerapatan elektron. Rumus ini adalah perluasan partikel dalam kotak tiga dimensi (subbab 4.5) untuk sangat banyak elektron.
 
+::: {.dalam}
+**Lebih dalam: menurunkan energi Fermi**
+
+Tempatkan $N$ elektron bebas dalam kotak kubus bersisi $L$. Keadaan satu elektron diberi label tiga bilangan bulat positif $(n_x, n_y, n_z)$, dengan energi $E = (\hbar^2\pi^2/2m_eL^2)(n_x^2 + n_y^2 + n_z^2)$ (subbab 4.5). Untuk $N$ yang sangat besar, titik-titik $(n_x, n_y, n_z)$ dapat dianggap mengisi ruang secara malar, satu titik per satuan volume. Pada suhu nol, elektron mengisi semua keadaan dengan $n_x^2 + n_y^2 + n_z^2 \le n_F^2$, yaitu seperdelapan bola berjari-jari $n_F$ (hanya oktan positif), dan setiap titik menampung dua elektron (asas Pauli):
+
+$$
+N = 2\cdot\frac18\cdot\frac43\pi n_F^3 \quad\Longrightarrow\quad n_F = \left(\frac{3N}{\pi}\right)^{1/3} .
+$$
+
+Maka $E_F = (\hbar^2\pi^2/2m_eL^2)n_F^2 = (\hbar^2/2m_e)(3\pi^2N/L^3)^{2/3}$, dan dengan $n = N/L^3$ diperoleh (9.21). Energi Fermi hanya bergantung pada kerapatan elektron, bukan pada ukuran sampel; ia naik seperti $n^{2/3}$ karena makin padat elektron, makin tinggi tangga keadaan yang harus diisi.
+:::
+
 ::: {.contoh}
 **Contoh 9.13 · Enam elektron dalam kotak**
 

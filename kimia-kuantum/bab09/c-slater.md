@@ -96,6 +96,18 @@ Untuk berilium $|1s\alpha\,1s\beta\,2s\alpha\,2s\beta|$, ganti 1s dan 2s dengan 
 **Memahami hasil.** Orbital $h_\pm$ tampak sangat berbeda dari 1s dan 2s (yang satu besar di dalam dan di luar, yang lain mempunyai bentuk lain), tetapi kerapatan elektron, energi, dan setiap sifat lain atom berilium tidak berubah sedikit pun. Dalam molekul, kebebasan yang sama memungkinkan kita memilih orbital molekul kanonik (terdelokalisasi, energinya terdefinisi) atau orbital ikatan terlokalisasi (sesuai gambar Lewis). Keduanya sah; pertanyaannya hanya mana yang lebih berguna untuk sifat tertentu.
 :::
 
+::: {.contoh}
+**Contoh 9.20 · Kontaminasi spin satu determinan**
+
+(a) Dengan hasil Contoh 9.18, hitung $\langle S^2\rangle$ untuk determinan $D_1 = |1s\alpha\,2s\beta|$. (b) Perhitungan HF tak terbatas (UHF) untuk radikal metil, yang seharusnya doblet murni, melaporkan $\langle S^2\rangle = 0{,}762\hbar^2$. Berapa nilai idealnya, dan apa artinya selisih itu?
+
+**Penyelesaian.** (a) Dari Contoh 9.18, $D_1 = (\Psi_\text{triplet} + \Psi_\text{singlet})/\sqrt2$. Karena $\hat S^2$ bernilai $2\hbar^2$ pada triplet dan 0 pada singlet, dan keduanya ortogonal, $\langle S^2\rangle = \tfrac12(2\hbar^2) + \tfrac12(0) = 1\hbar^2$.
+
+(b) Doblet murni: $S(S + 1) = \tfrac12\cdot\tfrac32 = 0{,}75\hbar^2$. Selisih $0{,}012\hbar^2$ menunjukkan campuran kecil keadaan kuartet ($S = \tfrac32$, $S(S+1) = 3{,}75\hbar^2$), sekitar $0{,}012/3 = 0{,}4$%.
+
+**Memahami hasil.** Nilai $\langle S^2\rangle$ adalah "termometer" kemurnian spin sebuah fungsi gelombang. Nilai 1 untuk $D_1$ berarti campuran 50 : 50, sangat tercemar. Untuk radikal organik yang stabil, UHF biasanya memberi kontaminasi kecil seperti di (b) dan hasilnya masih dapat dipercaya; untuk diradikal, logam transisi, dan keadaan transisi pemutusan ikatan, kontaminasinya bisa besar dan energinya tidak dapat dipercaya tanpa koreksi. Kebiasaan memeriksa $\langle S^2\rangle$ di setiap keluaran program adalah salah satu kebiasaan baik pertama yang dipelajari kimiawan komputasi.
+:::
+
 ::: {.kuis}
 **Kuis cepat 9.6**
 
@@ -132,7 +144,7 @@ dengan $h_i = \langle i|\hat h|i\rangle$, $J$ integral Coulomb, dan $K$ integral
 
 ### Fungsi uji dan hasilnya
 
-Fungsi uji yang sederhana tetapi baik adalah orbital Slater dengan eksponen berbeda: $1s \propto e^{-\zeta_1r}$ dan $2s \propto re^{-\zeta_2r}$, dengan 2s diortogonalkan pada 1s (Gram–Schmidt). Integral-integralnya dapat dihitung analitis atau numerik; Contoh 9.20 melakukannya dengan Python. Hasil minimisasi:
+Fungsi uji yang sederhana tetapi baik adalah orbital Slater dengan eksponen berbeda: $1s \propto e^{-\zeta_1r}$ dan $2s \propto re^{-\zeta_2r}$, dengan 2s diortogonalkan pada 1s (Gram–Schmidt). Integral-integralnya dapat dihitung analitis atau numerik; Contoh 9.21 melakukannya dengan Python. Hasil minimisasi:
 
 $$
 \zeta_1 = 2{,}686 , \qquad \zeta_2 = 0{,}637 , \qquad E = -7{,}4179\ E_h = -201{,}85\ \text{eV} .
@@ -143,7 +155,7 @@ Nilai Hartree–Fock (orbital terbaik yang mungkin dalam satu determinan) adalah
 Eksponen 1s, 2,686, hampir sama dengan $3 - \tfrac{5}{16} = 2{,}6875$ untuk ion Li⁺ (subbab 8.3): elektron 2s yang jauh hampir tidak memengaruhi kulit dalam. Eksponen 2s, 0,637, berarti orbital Slater $re^{-0{,}637r}$; padanan muatan efektifnya ($\zeta = Z_\text{ef}/n$) adalah $Z_\text{ef} \approx 1{,}27$. Dari luar, inti +3 tampak terperisai hampir penuh oleh dua elektron 1s.
 
 ::: {.contoh}
-**Contoh 9.20 · Energi litium dengan Python**
+**Contoh 9.21 · Energi litium dengan Python**
 
 Hitung (9.24) untuk fungsi uji di atas dengan integrasi numerik pada kisi radial, lalu minimumkan terhadap $\zeta_1$ dan $\zeta_2$. Untuk orbital s, tulis $u(r) = rR(r)$; energi kinetik $\tfrac12\int u'^2dr$, dan integral dua elektron dihitung dari potensial awan muatan bersimetri bola seperti di subbab 8.3.
 
@@ -177,7 +189,8 @@ def energi(p):
             + 2*J(a, a, b, b) - J(a, b, a, b))
 
 hasil = minimize(energi, [2.7, 0.65], method='Nelder-Mead')
-print(hasil.x.round(3), round(hasil.fun, 5))   # [2.686 0.637] -7.41793
+print(hasil.x.round(3), round(hasil.fun, 5))
+# keluaran: [2.686 0.637] -7.41793
 ```
 
 Di titik optimum: $h_{1s} = -4{,}4508$, $h_{2s} = -0{,}8188$, $J_{1s1s} = 1{,}6790$, $J_{1s2s} = 0{,}3180$, $K_{1s2s} = 0{,}0125\ E_h$.
@@ -186,9 +199,9 @@ Di titik optimum: $h_{1s} = -4{,}4508$, $h_{2s} = -0{,}8188$, $J_{1s1s} = 1{,}67
 :::
 
 ::: {.contoh}
-**Contoh 9.21 · Energi ionisasi litium**
+**Contoh 9.22 · Energi ionisasi litium**
 
-(a) Energi orbital 2s dalam determinan adalah $\varepsilon_{2s} = h_{2s} + 2J_{1s2s} - K_{1s2s}$. Hitung dari data Contoh 9.20 dan bandingkan $-\varepsilon_{2s}$ dengan energi ionisasi terukur 5,392 eV. (b) Hitung muatan inti efektif $Z_\text{ef}$ yang memberi energi mirip hidrogen $-Z_\text{ef}^2/8$ yang sama. (c) Bandingkan dengan aturan Slater ($\sigma = 2 \times 0{,}85$ untuk elektron $n = 2$ yang diperisai dua elektron 1s).
+(a) Energi orbital 2s dalam determinan adalah $\varepsilon_{2s} = h_{2s} + 2J_{1s2s} - K_{1s2s}$. Hitung dari data Contoh 9.21 dan bandingkan $-\varepsilon_{2s}$ dengan energi ionisasi terukur 5,392 eV. (b) Hitung muatan inti efektif $Z_\text{ef}$ yang memberi energi mirip hidrogen $-Z_\text{ef}^2/8$ yang sama. (c) Bandingkan dengan aturan Slater ($\sigma = 2 \times 0{,}85$ untuk elektron $n = 2$ yang diperisai dua elektron 1s).
 
 **Penyelesaian.** (a) $\varepsilon_{2s} = -0{,}8188 + 0{,}6361 - 0{,}0125 = -0{,}1953\ E_h$; $-\varepsilon_{2s} = 5{,}31$ eV, galat 1,5%.
 
@@ -200,7 +213,7 @@ Di titik optimum: $h_{1s} = -4{,}4508$, $h_{2s} = -0{,}8188$, $J_{1s1s} = 1{,}67
 :::
 
 ::: {.contoh}
-**Contoh 9.22 · Nyala merah litium dan cacat kuantum**
+**Contoh 9.23 · Nyala merah litium dan cacat kuantum**
 
 Garam litium mewarnai nyala menjadi merah tua karena garis 670,8 nm (2p → 2s). Energi ionisasi litium 5,392 eV. Energi elektron valensi atom alkali sering ditulis $E = -1/2(n - \delta_\ell)^2$ (satuan atom), dengan $\delta_\ell$ **cacat kuantum** yang hanya bergantung pada $\ell$. (a) Hitung $\delta_s$ dan $\delta_p$ litium. (b) Tafsirkan.
 

@@ -40,6 +40,36 @@ $\hat J_j$ hanya mengalikan dengan potensial listrik awan elektron $j$: inilah m
 
 Karena $\hat F$ bergantung pada orbital-orbital yang ingin dicari, (9.27) harus diselesaikan secara iteratif seperti diuraikan di atas. Untuk atom, orbital HF berbentuk $R_{n\ell}(r)Y_\ell^m(\theta, \phi)$, dan persamaan radialnya dapat diselesaikan numerik pada kisi (program HF numerik atom telah ada sejak 1930-an dengan kalkulator mekanik). Untuk molekul, orbital diuraikan dalam basis dan persamaan HF menjadi persamaan matriks Roothaan $\mathbf{FC} = \mathbf{SC\varepsilon}$ (subbab 17.3), persis bentuk masalah nilai eigen umum (8.25).
 
+::: {.dalam}
+**Lebih dalam: menurunkan persamaan Hartree–Fock**
+
+Ambil orbital riil dan kulit tertutup. Kita ingin meminimumkan $E$ di (9.26) dengan syarat $\langle\phi_i|\phi_j\rangle = \delta_{ij}$. Syarat-syarat ini dimasukkan dengan pengali Lagrange $\varepsilon_{ji}$ (simetris), sehingga fungsi yang distasionerkan adalah
+
+$$
+\mathcal L = E - 2\sum_{i,j}\varepsilon_{ji}\left(\langle\phi_i|\phi_j\rangle - \delta_{ij}\right) .
+$$
+
+Ubah satu orbital sedikit, $\phi_k \to \phi_k + \delta\phi_k$, dan kumpulkan suku-suku orde pertama dalam $\delta\phi_k$.
+
+*Bagian satu elektron.* $\phi_k$ muncul dua kali dalam $h_k = \langle\phi_k|\hat h|\phi_k\rangle$, dan $\hat h$ Hermitian, sehingga $\delta(2h_k) = 4\langle\delta\phi_k|\hat h|\phi_k\rangle$.
+
+*Bagian dua elektron.* Dalam $\sum_{ij}2J_{ij}$, orbital $\phi_k$ muncul pada suku-suku dengan $i = k$ dan dengan $j = k$; dalam setiap $J_{kj}$ ia muncul dua kali (dalam $|\phi_k|^2$). Menjumlahkan semuanya memberi $8\sum_j\langle\delta\phi_k|\hat J_j|\phi_k\rangle$. Dengan cara yang sama, $\delta\sum_{ij}K_{ij} = 4\sum_j\langle\delta\phi_k|\hat K_j|\phi_k\rangle$, dengan operator $\hat J_j$ dan $\hat K_j$ dari (9.28). Jadi
+
+$$
+\delta E = 4\left\langle\delta\phi_k\left|\hat h + \sum_j\left(2\hat J_j - \hat K_j\right)\right|\phi_k\right\rangle = 4\langle\delta\phi_k|\hat F|\phi_k\rangle .
+$$
+
+*Bagian syarat.* $\delta\left(2\sum_{ij}\varepsilon_{ji}\langle\phi_i|\phi_j\rangle\right) = 4\sum_j\varepsilon_{jk}\langle\delta\phi_k|\phi_j\rangle$.
+
+Syarat $\delta\mathcal L = 0$ untuk **setiap** $\delta\phi_k$ berarti fungsi di sebelah kanan $\langle\delta\phi_k|$ harus nol:
+
+$$
+\hat F\phi_k = \sum_j\varepsilon_{jk}\phi_j .
+$$
+
+Matriks $\varepsilon_{jk}$ simetris, sehingga dapat didiagonalkan dengan transformasi ortogonal di antara orbital-orbital terisi. Menurut subbab 9.6, transformasi seperti itu tidak mengubah determinan, dan karena itu juga tidak mengubah $\hat F$ (yang hanya bergantung pada kerapatan total). Dalam basis orbital yang mendiagonalkan $\varepsilon$, yaitu orbital **kanonik**, persamaannya menjadi persamaan nilai eigen (9.27), dan pengali Lagrange $\varepsilon_k$ ternyata adalah energi orbital. Orbital terlokalisasi (subbab 17.8) adalah pilihan lain dari transformasi yang sama, yang tidak mendiagonalkan $\varepsilon$ tetapi memberi orbital yang lebih dekat dengan gambar ikatan kimia.
+:::
+
 ### Energi orbital dan energi total
 
 Kalikan (9.27) dengan $\phi_i^*$ dan integralkan:
@@ -75,7 +105,7 @@ Inilah **teorema Koopmans** (1934). Ia tidak eksak karena dua alasan yang arahny
 :::
 
 ::: {.contoh}
-**Contoh 9.23 · SCF helium dengan Python**
+**Contoh 9.24 · SCF helium dengan Python**
 
 Hitung energi Hartree–Fock helium dengan basis dua fungsi 1s, $e^{-\zeta r}$ dengan $\zeta = 1{,}45363$ dan $2{,}91093$. Untuk kulit tertutup dalam basis, matriks Fock adalah $F_{pq} = h_{pq} + \sum_{rs}P_{rs}\left[(pq|rs) - \tfrac12(pr|qs)\right]$, dengan $P_{rs} = 2c_rc_s$ matriks kerapatan dan $(pq|rs)$ integral tolakan dua elektron. Energinya $E = \tfrac12\sum_{pq}P_{pq}(h_{pq} + F_{pq})$.
 
@@ -122,9 +152,9 @@ for it in range(1, 6):
 :::
 
 ::: {.contoh}
-**Contoh 9.24 · Memeriksa hubungan energi orbital dan energi total**
+**Contoh 9.25 · Memeriksa hubungan energi orbital dan energi total**
 
-Dari Contoh 9.23, $E = -2{,}86167\ E_h$ dan $\varepsilon_{1s} = -0{,}91794\ E_h$. (a) Hitung $h_{1s}$ dan $J_{1s1s}$ dengan (9.26) dan (9.29). (b) Hitung energi ionisasi menurut Koopmans dan bandingkan dengan 24,59 eV. (c) Apa yang terjadi bila energi helium "dihitung" sebagai $2\varepsilon_{1s}$?
+Dari Contoh 9.24, $E = -2{,}86167\ E_h$ dan $\varepsilon_{1s} = -0{,}91794\ E_h$. (a) Hitung $h_{1s}$ dan $J_{1s1s}$ dengan (9.26) dan (9.29). (b) Hitung energi ionisasi menurut Koopmans dan bandingkan dengan 24,59 eV. (c) Apa yang terjadi bila energi helium "dihitung" sebagai $2\varepsilon_{1s}$?
 
 **Penyelesaian.** (a) Untuk helium, $E = 2h + J$ dan $\varepsilon = h + J$, sehingga $h = E - \varepsilon = -1{,}94373\ E_h$ dan $J = \varepsilon - h = 1{,}02579\ E_h$.
 
@@ -136,7 +166,7 @@ Dari Contoh 9.23, $E = -2{,}86167\ E_h$ dan $\varepsilon_{1s} = -0{,}91794\ E_h$
 :::
 
 ::: {.contoh}
-**Contoh 9.25 · Neon: energi orbital dan spektrum fotoelektron**
+**Contoh 9.26 · Neon: energi orbital dan spektrum fotoelektron**
 
 Energi orbital Hartree–Fock neon adalah $\varepsilon_{1s} = -32{,}772$, $\varepsilon_{2s} = -1{,}930$, $\varepsilon_{2p} = -0{,}850\ E_h$. Energi ionisasi terukur (spektroskopi fotoelektron sinar-X dan UV): 870,3; 48,5; 21,6 eV. (a) Bandingkan menurut teorema Koopmans. (b) Hitung $2\sum\varepsilon_i$ dan bandingkan dengan energi HF total $-128{,}547\ E_h$.
 
@@ -151,6 +181,18 @@ Energi orbital Hartree–Fock neon adalah $\varepsilon_{1s} = -32{,}772$, $\vare
 (b) $2(-32{,}772) + 2(-1{,}930) + 6(-0{,}850) = -74{,}51\ E_h$, jauh di atas $-128{,}55\ E_h$.
 
 **Memahami hasil.** Teorema Koopmans menghasilkan urutan dan orde besaran yang benar untuk ketiga kulit, sehingga spektrum fotoelektron neon dapat dipahami sebagai "peta" energi orbitalnya. Galatnya terbesar untuk 1s: ketika elektron 1s dicabut, kedelapan elektron kulit L tiba-tiba merasakan inti yang hampir satu muatan lebih besar dan mengerut dengan kuat, melepaskan sekitar 20 eV energi relaksasi. Dalam spektroskopi fotoelektron sinar-X (XPS), energi ikat elektron kulit dalam bergeser beberapa eV menurut lingkungan kimia atom (misalnya C 1s pada C–H, C–O, dan C=O), dan pergeseran itulah yang dipakai untuk analisis permukaan; perhitungan yang baik untuk pergeseran ini harus menyertakan relaksasi.
+:::
+
+::: {.contoh}
+**Contoh 9.27 · Pemecahan multiplet pada ionisasi kulit dalam**
+
+Dalam determinan litium $|1s\alpha\,1s\beta\,2s\alpha|$, kedua elektron 1s tidak setara: hanya $1s\alpha$ yang berinteraksi pertukaran dengan elektron $2s\alpha$. Dengan integral Contoh 9.21 ($h_{1s} = -4{,}4508$, $J_{1s1s} = 1{,}6790$, $J_{1s2s} = 0{,}3180$, $K_{1s2s} = 0{,}0125\ E_h$): (a) hitung energi orbital $1s\beta$ dan $1s\alpha$; (b) jelaskan mengapa spektrum fotoelektron 1s litium memperlihatkan dua puncak.
+
+**Penyelesaian.** (a) $\varepsilon_{1s\beta} = h_{1s} + J_{1s1s} + J_{1s2s} = -2{,}4538\ E_h$; $\varepsilon_{1s\alpha} = \varepsilon_{1s\beta} - K_{1s2s} = -2{,}4663\ E_h$. Selisihnya 0,34 eV.
+
+(b) Setelah satu elektron 1s dicabut, ion Li⁺ mempunyai konfigurasi 1s2s, yang dapat berupa $^3$S atau $^1$S (subbab 9.4). Kedua keadaan ion itu berbeda energi $2K_{1s2s}$ (dengan orbital beku), sehingga energi ikat 1s yang teramati juga terpecah menjadi dua, dengan perbandingan intensitas kira-kira 3 : 1 sesuai bobot spin.
+
+**Memahami hasil.** Pada atom dan molekul berkulit terbuka, ionisasi elektron kulit dalam menghasilkan **pemecahan multiplet** dalam spektrum XPS. Molekul O₂, yang paramagnetik dengan dua elektron tak berpasangan, memperlihatkan dua puncak O 1s yang terpisah sekitar 1,1 eV dengan perbandingan intensitas 2 : 1, sedangkan N₂ yang berkulit tertutup hanya satu. Pemecahan semacam ini adalah tanda khas elektron tak berpasangan, dan dipakai untuk mengenali ion logam transisi paramagnetik dalam spektrum XPS bahan.
 :::
 
 ::: {.kuis}
@@ -187,9 +229,9 @@ Dari urutan ini dan kapasitas subkulit (9.20), panjang periode langsung terbaca:
 
 ### Logam transisi: 4s lebih dulu masuk, lebih dulu keluar
 
-Pada kalium dan kalsium, 4s jelas lebih rendah daripada 3d (Contoh 9.26). Tetapi energi orbital 3d turun jauh lebih cepat daripada 4s ketika $Z$ bertambah, karena elektron 3d kurang terperisai oleh elektron 4s yang lebih luar. Sejak skandium, energi orbital 3d sebenarnya sudah di bawah 4s. Mengapa unsur-unsur itu tetap mempunyai konfigurasi $3d^n4s^2$, bukan $3d^{n+2}$? Karena yang menentukan konfigurasi adalah energi **total**, termasuk tolakan antarelektron: orbital 3d kompak, sehingga menambahkan elektron ke sana menaikkan tolakan jauh lebih banyak daripada menambahkannya ke 4s yang luas. Ketika atom diionisasi, muatan bersih memperkuat tarikan inti dan memperkecil peran tolakan, sehingga 3d menjadi jelas lebih stabil. Akibatnya, ion logam transisi kehilangan elektron 4s lebih dulu: Fe ($[\text{Ar}]3d^64s^2$) menjadi Fe²⁺ ($[\text{Ar}]3d^6$), bukan $[\text{Ar}]3d^44s^2$. Seluruh kimia koordinasi (Bab 14) bekerja dengan konfigurasi $d^n$ ion seperti ini.
+Pada kalium dan kalsium, 4s jelas lebih rendah daripada 3d (Contoh 9.28). Tetapi energi orbital 3d turun jauh lebih cepat daripada 4s ketika $Z$ bertambah, karena elektron 3d kurang terperisai oleh elektron 4s yang lebih luar. Sejak skandium, energi orbital 3d sebenarnya sudah di bawah 4s. Mengapa unsur-unsur itu tetap mempunyai konfigurasi $3d^n4s^2$, bukan $3d^{n+2}$? Karena yang menentukan konfigurasi adalah energi **total**, termasuk tolakan antarelektron: orbital 3d kompak, sehingga menambahkan elektron ke sana menaikkan tolakan jauh lebih banyak daripada menambahkannya ke 4s yang luas. Ketika atom diionisasi, muatan bersih memperkuat tarikan inti dan memperkecil peran tolakan, sehingga 3d menjadi jelas lebih stabil. Akibatnya, ion logam transisi kehilangan elektron 4s lebih dulu: Fe ($[\text{Ar}]3d^64s^2$) menjadi Fe²⁺ ($[\text{Ar}]3d^6$), bukan $[\text{Ar}]3d^44s^2$. Seluruh kimia koordinasi (Bab 14) bekerja dengan konfigurasi $d^n$ ion seperti ini.
 
-Beberapa pengecualian aturan Madelung, misalnya Cr ($3d^54s^1$) dan Cu ($3d^{10}4s^1$), muncul karena selisih energi konfigurasi sangat kecil, dan stabilisasi pertukaran subkulit setengah penuh atau penuh (Contoh 9.29) cukup untuk membalik urutan.
+Beberapa pengecualian aturan Madelung, misalnya Cr ($3d^54s^1$) dan Cu ($3d^{10}4s^1$), muncul karena selisih energi konfigurasi sangat kecil, dan stabilisasi pertukaran subkulit setengah penuh atau penuh (Contoh 9.31) cukup untuk membalik urutan.
 
 ### Muatan inti efektif dan aturan Slater
 
@@ -204,7 +246,7 @@ Untuk elektron d atau f, kelompok sendiri 0,35 dan semua elektron di sebelah kir
 ![Gambar 9.4 Energi ionisasi pertama unsur $Z = 1$ sampai 36. Puncak pada gas mulia dan lembah pada logam alkali menandai kulit-kulit; lekukan kecil pada B, O, Al, S, dan Ga dijelaskan oleh penetrasi (B, Al, Ga: elektron p pertama) dan oleh tolakan pasangan elektron (O, S: elektron p keempat). Di deret logam transisi energi ionisasi hampir datar, karena elektron yang dilepas adalah 4s, yang terperisai hampir sempurna oleh elektron 3d yang bertambah.](fig/c_ionisasi.png){width=92%}
 
 ::: {.contoh}
-**Contoh 9.26 · Mengapa kalium mengisi 4s, bukan 3d**
+**Contoh 9.28 · Mengapa kalium mengisi 4s, bukan 3d**
 
 Dengan aturan Slater, hitung $Z_\text{ef}$ untuk elektron valensi kalium ($Z = 19$) bila ia berada di 4s dan bila di 3d. Taksir energinya dengan $-\tfrac12(Z_\text{ef}/n^*)^2$, memakai bilangan kuantum efektif Slater $n^* = 3{,}7$ untuk $n = 4$. Bandingkan dengan data: energi ionisasi K 4,34 eV, dan keadaan $3d$ kalium berada 2,67 eV di atas keadaan dasar.
 
@@ -214,7 +256,7 @@ Dengan aturan Slater, hitung $Z_\text{ef}$ untuk elektron valensi kalium ($Z = 1
 :::
 
 ::: {.contoh}
-**Contoh 9.27 · Garis D natrium: menjawab janji Bab 1**
+**Contoh 9.29 · Garis D natrium: menjawab janji Bab 1**
 
 Di subbab 1.10 kita bertanya mengapa selisih 3p − 3s natrium 2,10 eV, bukan 10,2 eV seperti 2p − 1s hidrogen dan bukan nol seperti 3p − 3s hidrogen. Energi ionisasi natrium 5,139 eV dan garis D rata-rata 589,3 nm. (a) Hitung cacat kuantum $\delta_s$ dan $\delta_p$. (b) Tafsirkan dengan penetrasi.
 
@@ -222,11 +264,11 @@ Di subbab 1.10 kita bertanya mengapa selisih 3p − 3s natrium 2,10 eV, bukan 10
 
 (b) Tanpa penetrasi, elektron valensi natrium akan seperti elektron hidrogen di $n = 3$, dengan energi $-1{,}51$ eV untuk 3s dan 3p. Elektron 3s, yang mempunyai dua puncak kecil di dalam teras neon, terikat lebih dari tiga kali lebih kuat (5,14 eV). Elektron 3p menembus lebih sedikit (3,04 eV). Selisihnya, 2,10 eV, adalah ukuran perbedaan penetrasi s dan p.
 
-**Memahami hasil.** Warna kuning lampu jalan natrium dan nyala natrium dengan demikian adalah "warna penetrasi". Cacat kuantum natrium (1,37 dan 0,88) jauh lebih besar daripada litium (0,41 dan 0,04, Contoh 9.22), karena teras natrium lebih besar dan berisi elektron p yang ikut ditembus. Garis D sendiri kembar (589,0 dan 589,6 nm) karena kopling spin–orbit pada keadaan 3p (subbab 9.13).
+**Memahami hasil.** Warna kuning lampu jalan natrium dan nyala natrium dengan demikian adalah "warna penetrasi". Cacat kuantum natrium (1,37 dan 0,88) jauh lebih besar daripada litium (0,41 dan 0,04, Contoh 9.23), karena teras natrium lebih besar dan berisi elektron p yang ikut ditembus. Garis D sendiri kembar (589,0 dan 589,6 nm) karena kopling spin–orbit pada keadaan 3p (subbab 9.13).
 :::
 
 ::: {.contoh}
-**Contoh 9.28 · Lekukan energi ionisasi: Be → B dan N → O**
+**Contoh 9.30 · Lekukan energi ionisasi: Be → B dan N → O**
 
 Energi ionisasi pertama: Be 9,32; B 8,30; C 11,26; N 14,53; O 13,62 eV. Jelaskan kedua penurunan, padahal $Z_\text{ef}$ terus naik sepanjang periode.
 
@@ -238,7 +280,7 @@ Energi ionisasi pertama: Be 9,32; B 8,30; C 11,26; N 14,53; O 13,62 eV. Jelaskan
 :::
 
 ::: {.contoh}
-**Contoh 9.29 · Kromium dan stabilisasi pertukaran**
+**Contoh 9.31 · Kromium dan stabilisasi pertukaran**
 
 Bandingkan konfigurasi $3d^44s^2$ dan $3d^54s^1$ kromium. (a) Dalam masing-masing, berapa elektron yang berspin sejajar (aturan Hund) dan berapa pasangan pertukaran sejajar $\binom{n}{2}$ di antara mereka? (b) Mengapa hal ini dapat membalik urutan energi?
 
@@ -247,6 +289,16 @@ Bandingkan konfigurasi $3d^44s^2$ dan $3d^54s^1$ kromium. (a) Dalam masing-masin
 (b) Setiap pasangan sejajar menyumbang $-K$ (integral pertukaran, beberapa puluh kJ/mol untuk orbital 3d). Lima pasangan tambahan, ditambah berkurangnya tolakan pasangan di 4s, cukup untuk mengalahkan selisih kecil energi orbital 3d dan 4s.
 
 **Memahami hasil.** Penjelasan "subkulit setengah penuh itu stabil" sebenarnya adalah penjelasan pertukaran: elektron berspin sejajar saling menghindar karena antisimetri, dan tolakan yang dihindari itu muncul sebagai integral $K$. Untuk Cu ($3d^{10}4s^1$ lawan $3d^94s^2$), alasannya serupa, ditambah kontraksi kuat orbital 3d menjelang akhir deret. Pengecualian Aufbau di deret 4d dan 5d (misalnya Pd $4d^{10}5s^0$, Pt $5d^96s^1$) menunjukkan bahwa ketika selisih energi konfigurasi hanya puluhan kJ/mol, setiap efek kecil, termasuk relativitas, dapat menentukan pemenangnya.
+:::
+
+::: {.contoh}
+**Contoh 9.32 · Kontraksi lantanida**
+
+Jari-jari logam zirkonium ($Z = 40$, periode 5) adalah 160 pm, dan hafnium ($Z = 72$, periode 6) 159 pm, hampir sama, padahal hafnium mempunyai satu kulit elektron lebih banyak. Jari-jari ion La³⁺ 103 pm dan Lu³⁺ 86 pm (bilangan koordinasi 6). Jelaskan.
+
+**Penyelesaian.** Di antara La dan Hf, empat belas elektron mengisi subkulit 4f. Orbital 4f kompak dan berbentuk sedemikian sehingga memerisai elektron 5s, 5p, 6s, dan 5d di luarnya dengan buruk (jauh lebih buruk daripada asumsi 1,00 aturan Slater). Setiap kali $Z$ naik satu, muatan inti efektif yang dirasakan elektron luar bertambah hampir satu, sehingga sepanjang deret lantanida ion-ionnya mengerut sekitar 17 pm. Ketika deret 5d dimulai pada Hf, kontraksi ini hampir tepat menghapus pertambahan ukuran karena kulit baru. Efek relativistik (subbab 9.13 dan Contoh 8.31) menyumbang sebagian kecil tambahan.
+
+**Memahami hasil.** Kontraksi lantanida membuat unsur-unsur 5d sangat mirip dengan pasangan 4d-nya: Zr dan Hf hampir tidak dapat dipisahkan secara kimia (keduanya selalu ditemukan bersama dalam mineral), dan pasangan Nb–Ta, Mo–W juga sangat mirip. Pengerutan bertahap ion Ln³⁺ sepanjang deret juga dimanfaatkan untuk memisahkan unsur-unsur tanah jarang dengan kromatografi penukar ion, karena kekuatan ikatan dengan ligan bergantung pada ukuran ion.
 :::
 
 ::: {.kuis}

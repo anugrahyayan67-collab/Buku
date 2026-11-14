@@ -33,7 +33,7 @@ Kimiawan membedakan dua jenis korelasi.
 
 **Korelasi dinamis** adalah penghindaran sesaat jarak pendek antara elektron-elektron, yang selalu ada. Ia berkaitan dengan bentuk fungsi gelombang di dekat $r_{12} = 0$: fungsi gelombang eksak mempunyai "puncak lancip" (*cusp*) ketika dua elektron bertemu, dengan kemiringan $\partial\Psi/\partial r_{12} = \tfrac12\Psi$ (syarat cusp Kato), sama seperti cusp elektron–inti yang membuat orbital 1s lancip di inti. Fungsi yang disusun dari orbital-orbital mulus tidak mempunyai cusp ini, sehingga diperlukan sangat banyak determinan untuk menirunya. Itulah sebabnya perhitungan korelasi konvergen lambat terhadap ukuran basis, dan mengapa metode modern "berkorelasi eksplisit" memasukkan $r_{12}$ langsung ke fungsi gelombang, kembali ke gagasan Hylleraas 1929 (Contoh 8.16).
 
-**Korelasi statis** (atau nondinamis) muncul bila dua atau lebih konfigurasi hampir sama energinya, sehingga satu determinan bukan lagi gambaran yang baik bahkan secara kualitatif. Contoh klasik: berilium, yang orbital 2s dan 2p-nya dekat, sehingga konfigurasi $1s^22p^2$ bercampur kuat dengan $1s^22s^2$ (Contoh 9.32); molekul yang ikatannya diregangkan menuju disosiasi (Contoh 9.33); diradikal; dan banyak senyawa logam transisi. Untuk sistem-sistem ini diperlukan fungsi gelombang multikonfigurasi sejak awal.
+**Korelasi statis** (atau nondinamis) muncul bila dua atau lebih konfigurasi hampir sama energinya, sehingga satu determinan bukan lagi gambaran yang baik bahkan secara kualitatif. Contoh klasik: berilium, yang orbital 2s dan 2p-nya dekat, sehingga konfigurasi $1s^22p^2$ bercampur kuat dengan $1s^22s^2$ (Contoh 9.35); molekul yang ikatannya diregangkan menuju disosiasi (Contoh 9.36); diradikal; dan banyak senyawa logam transisi. Untuk sistem-sistem ini diperlukan fungsi gelombang multikonfigurasi sejak awal.
 
 ### Melampaui Hartree–Fock
 
@@ -52,7 +52,7 @@ $E_\text{kor} = E_\text{eksak} - E_\text{HF} < 0$. Ia berasal dari penghindaran 
 :::
 
 ::: {.contoh}
-**Contoh 9.30 · Lubang Coulomb dalam angka**
+**Contoh 9.33 · Lubang Coulomb dalam angka**
 
 Untuk helium, nilai rata-rata tolakan antarelektron adalah $1{,}0258\ E_h$ dalam fungsi HF dan $0{,}9458\ E_h$ dalam fungsi eksak. Energinya $-2{,}86168$ (HF) dan $-2{,}90372\ E_h$ (eksak), dan keduanya memenuhi teorema virial ($\langle T\rangle = -E$, $\langle V\rangle = 2E$). (a) Hitung perubahan $\langle T\rangle$, $\langle V_{ee}\rangle$, dan $\langle V_{ne}\rangle$ dari HF ke eksak. (b) Tafsirkan.
 
@@ -64,7 +64,7 @@ Untuk helium, nilai rata-rata tolakan antarelektron adalah $1{,}0258\ E_h$ dalam
 :::
 
 ::: {.contoh}
-**Contoh 9.31 · Korelasi dan energi ikatan**
+**Contoh 9.34 · Korelasi dan energi ikatan**
 
 Energi korelasi neon $-0{,}391\ E_h$ dan atom fluor $-0{,}325\ E_h$. (a) Nyatakan dalam kJ/mol dan bandingkan dengan energi ikatan F–F (158 kJ/mol). (b) Metode HF meramalkan bahwa molekul F₂ **tidak** terikat ($D_e \approx -1{,}4$ eV), padahal nilai terukurnya $+1{,}66$ eV. Apa artinya?
 
@@ -76,7 +76,7 @@ Energi korelasi neon $-0{,}391\ E_h$ dan atom fluor $-0{,}325\ E_h$. (a) Nyataka
 :::
 
 ::: {.contoh}
-**Contoh 9.32 · Berilium: korelasi statis**
+**Contoh 9.35 · Berilium: korelasi statis**
 
 Pada berilium, selisih energi orbital 2s dan 2p kecil, sehingga konfigurasi $1s^22p^2$ ($^1$S) bercampur dengan $1s^22s^2$. Energi HF berilium $-14{,}5730\ E_h$, fungsi dua konfigurasi yang dioptimumkan (MCSCF) memberi $-14{,}6169\ E_h$, dan energi eksak $-14{,}6674\ E_h$. (a) Berapa bagian energi korelasi yang ditangkap oleh satu konfigurasi tambahan? (b) Bandingkan dengan neon, yang energi korelasinya empat kali lebih besar tetapi dengan fungsi dua konfigurasi hanya memperoleh sebagian kecil.
 
@@ -88,7 +88,7 @@ Pada berilium, selisih energi orbital 2s dan 2p kecil, sehingga konfigurasi $1s^
 :::
 
 ::: {.contoh}
-**Contoh 9.33 · Disosiasi H₂ dalam satu determinan**
+**Contoh 9.36 · Disosiasi H₂ dalam satu determinan**
 
 Dalam metode HF terbatas (RHF), kedua elektron H₂ menempati orbital ikatan $\sigma_g = (a + b)/\sqrt2$, dengan $a$ dan $b$ orbital 1s pada kedua inti. Pada jarak sangat jauh, fungsi ruangnya $\sigma_g(1)\sigma_g(2) = \tfrac12[a_1a_2 + b_1b_2] + \tfrac12[a_1b_2 + b_1a_2]$. (a) Tafsirkan kedua bagian. (b) Hitung energi RHF pada jarak tak hingga, dengan energi H⁻ "beku" (dua elektron di 1s hidrogen) $-1 + \tfrac58 = -0{,}375\ E_h$. (c) Bandingkan dengan energi dua atom H yang benar.
 
@@ -99,6 +99,20 @@ Dalam metode HF terbatas (RHF), kedua elektron H₂ menempati orbital ikatan $\s
 (c) Dua atom H: $-1{,}000\ E_h$. RHF salah $0{,}3125\ E_h = 8{,}5$ eV.
 
 **Memahami hasil.** Satu determinan memaksa bobot ionik dan kovalen selalu sama, padahal pada jarak jauh fungsi yang benar sepenuhnya kovalen. Kegagalan ini adalah contoh paling jelas korelasi statis, dan penyebab kurva energi potensial RHF naik terlalu tinggi saat ikatan putus. Fungsi dua konfigurasi $c_1\sigma_g^2 - c_2\sigma_u^2$ memperbaikinya sepenuhnya, karena pengurangan $\sigma_u^2$ menghapus bagian ionik; ini juga titik temu antara teori orbital molekul dan teori ikatan valensi (subbab 11.12). Untuk reaksi kimia yang memutus ikatan, metode multikonfigurasi atau metode HF tak terbatas (UHF) diperlukan.
+:::
+
+::: {.contoh}
+**Contoh 9.37 · Energi ionisasi neon pada tiga tingkat teori**
+
+Energi HF neon $-128{,}5471\ E_h$, energi HF ion Ne⁺ ($^2$P) $-127{,}8178\ E_h$, energi orbital 2p HF $-0{,}8504\ E_h$, dan energi ionisasi terukur 21,56 eV. (a) Hitung energi ionisasi menurut Koopmans dan menurut selisih dua perhitungan HF (ΔSCF). (b) Pisahkan galat Koopmans menjadi relaksasi dan korelasi. (c) Berapa energi korelasi Ne⁺?
+
+**Penyelesaian.** (a) Koopmans: $0{,}8504\ E_h = 23{,}14$ eV. ΔSCF: $-127{,}8178 + 128{,}5471 = 0{,}7293\ E_h = 19{,}84$ eV.
+
+(b) Relaksasi: $23{,}14 - 19{,}84 = 3{,}30$ eV (menurunkan energi ionisasi). Korelasi: $21{,}56 - 19{,}84 = 1{,}72$ eV (menaikkannya kembali).
+
+(c) $E(\text{Ne}^+)$ eksak $= -128{,}9376 + 21{,}56/27{,}211 = -128{,}1451\ E_h$, sehingga $E_\text{kor}(\text{Ne}^+) = -128{,}1451 + 127{,}8178 = -0{,}327\ E_h$, dibandingkan $-0{,}391\ E_h$ untuk Ne.
+
+**Memahami hasil.** Mencabut satu elektron 2p menghapus beberapa pasangan elektron, sehingga ion mempunyai energi korelasi $0{,}063\ E_h$ (1,7 eV) lebih kecil daripada atom netral. Inilah sebabnya ΔSCF, yang memperhitungkan relaksasi tetapi tidak korelasi, terlalu rendah, sedangkan Koopmans, yang mengabaikan keduanya, terlalu tinggi; kebetulan kedua galat Koopmans sebagian saling menghapus. Dalam kimia komputasi, energi ionisasi dan afinitas elektron yang teliti (galat di bawah 0,1 eV) memerlukan metode berkorelasi seperti coupled cluster, karena selisih energi korelasi antara spesies dengan jumlah elektron berbeda tidak pernah dapat diabaikan.
 :::
 
 ::: {.kuis}
