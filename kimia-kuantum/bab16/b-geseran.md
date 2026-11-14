@@ -5,7 +5,7 @@
 Seandainya setiap proton dalam sampel merasakan medan $B_0$ yang sama persis, NMR hanya akan memberi satu garis untuk semua proton dan tidak berguna bagi kimia. Kenyataannya, medan yang dirasakan inti sedikit lebih kecil daripada medan luar. Medan $B_0$ memaksa awan elektron di sekitar inti bersirkulasi, dan sirkulasi muatan ini menghasilkan medan magnet imbas yang, di tempat inti, umumnya berlawanan arah dengan $B_0$. Karena medan imbas sebanding dengan $B_0$, kita menulis
 
 $$
-B_\text{lok} = (1 - \sigma)B_0, \qquad \nu = \frac{\gamma B_0}{2\pi}(1 - \sigma) , \qquad \text{(16.e17)}
+B_\text{lok} = (1 - \sigma)B_0, \qquad \nu = \frac{\gamma B_0}{2\pi}(1 - \sigma) , \qquad \text{(16.17)}
 $$
 
 dengan $\sigma$ **tetapan perisai** (*shielding constant*), bilangan tak berdimensi yang kecil: untuk proton beberapa puluh per sejuta (ppm), untuk inti berat sampai beberapa ribu ppm. Nilai $\sigma$ bergantung pada rapat elektron di sekitar inti dan cara elektron itu dapat bersirkulasi, sehingga membawa informasi kimia.
@@ -15,13 +15,13 @@ dengan $\sigma$ **tetapan perisai** (*shielding constant*), bilangan tak berdime
 Untuk atom yang bersimetri bola, perisai dapat dihitung dengan cara yang hampir klasik. Medan magnet membuat seluruh awan elektron berpresesi dengan frekuensi Larmor elektron $\omega_L = eB_0/2m_e$ (subbab 6.1 dan 7.12). Awan bermuatan negatif yang berputar adalah arus melingkar, dan arus ini menghasilkan medan di pusat yang berlawanan dengan $B_0$. Hasilnya, yang diturunkan Willis Lamb pada tahun 1941, adalah
 
 $$
-\sigma_d = \frac{\mu_0e^2}{12\pi m_e}\left\langle\sum_i\frac1{r_i}\right\rangle . \qquad \text{(16.e18)}
+\sigma_d = \frac{\mu_0e^2}{12\pi m_e}\left\langle\sum_i\frac1{r_i}\right\rangle . \qquad \text{(16.18)}
 $$
 
 Perisai diamagnetik sebanding dengan nilai harap $1/r$ elektron, yaitu dengan potensial listrik yang diciptakan elektron di inti. Elektron yang dekat inti melindungi lebih kuat. Rumus ini menjelaskan pola yang sangat penting: **substituen elektronegatif menarik rapat elektron menjauh dari proton, mengurangi perisai, dan menggeser resonansi ke frekuensi yang lebih tinggi**.
 
 ::: {.dalam}
-**Menurunkan rumus Lamb (16.e18)**
+**Menurunkan rumus Lamb (16.18)**
 
 Menurut teorema Larmor, pengaruh orde pertama medan $\mathbf B$ pada awan elektron adalah rotasi seluruh awan dengan kecepatan sudut $\boldsymbol\omega_L = e\mathbf B/2m_e$. Elektron dengan rapat $n(\mathbf r)$ yang berputar menghasilkan rapat arus $\mathbf j = -en\,(\boldsymbol\omega_L \times \mathbf r)$. Menurut hukum Biot–Savart, medan di titik asal (inti) adalah
 
@@ -35,7 +35,7 @@ $$
 B_{\text{imb},z} = -\frac{\mu_0e\omega_L}{4\pi}\int n(\mathbf r)\,\frac{x^2 + y^2}{r^3}\,d\tau .
 $$
 
-Untuk rapat bersimetri bola, rata-rata $x^2 + y^2$ atas arah adalah $\tfrac23r^2$, sehingga integralnya menjadi $\tfrac23\int n/r\,d\tau = \tfrac23\langle\sum_i1/r_i\rangle$. Dengan $\omega_L = eB_0/2m_e$: $B_{\text{imb},z} = -\dfrac{\mu_0e^2}{12\pi m_e}\langle\sum1/r_i\rangle B_0$, dan $\sigma_d = -B_{\text{imb},z}/B_0$ adalah (16.e18).
+Untuk rapat bersimetri bola, rata-rata $x^2 + y^2$ atas arah adalah $\tfrac23r^2$, sehingga integralnya menjadi $\tfrac23\int n/r\,d\tau = \tfrac23\langle\sum_i1/r_i\rangle$. Dengan $\omega_L = eB_0/2m_e$: $B_{\text{imb},z} = -\dfrac{\mu_0e^2}{12\pi m_e}\langle\sum1/r_i\rangle B_0$, dan $\sigma_d = -B_{\text{imb},z}/B_0$ adalah (16.18).
 :::
 
 ### Perisai paramagnetik
@@ -43,7 +43,7 @@ Untuk rapat bersimetri bola, rata-rata $x^2 + y^2$ atas arah adalah $\tfrac23r^2
 Rumus Lamb tepat untuk atom bersimetri bola dalam keadaan $S$, tetapi dalam molekul sirkulasi elektron terhambat oleh inti-inti lain. Medan magnet kemudian juga **mencampurkan** sedikit keadaan tereksitasi ke dalam keadaan dasar (perturbasi orde kedua, subbab 8.7), melalui operator momentum sudut orbital $\hat L$. Campuran ini menghasilkan arus yang menguatkan medan di inti, sehingga memberi sumbangan perisai bertanda negatif, $\sigma_p$, yang dinamai **suku paramagnetik** (Norman Ramsey, 1950):
 
 $$
-\sigma = \sigma_d + \sigma_p, \qquad \sigma_p \propto -\left\langle\frac1{r^3}\right\rangle_{np}\frac{1}{\Delta E} . \qquad \text{(16.e19)}
+\sigma = \sigma_d + \sigma_p, \qquad \sigma_p \propto -\left\langle\frac1{r^3}\right\rangle_{np}\frac{1}{\Delta E} . \qquad \text{(16.19)}
 $$
 
 Suku paramagnetik besar bila ada elektron p atau d di dekat inti (faktor $\langle r^{-3}\rangle$) dan bila ada keadaan tereksitasi yang rendah dan dapat dicampurkan oleh $\hat L$ (faktor $1/\Delta E$). Orbital s tidak mempunyai momentum sudut, sehingga untuk proton, yang hanya memiliki elektron 1s di sekitarnya, suku ini kecil dan perisai didominasi suku diamagnetik. Rentang geseran proton karena itu hanya sekitar 12 ppm. Untuk ¹³C, ¹⁵N, ¹⁹F, dan inti berat, suku paramagnetik dominan, dan rentang geserannya jauh lebih lebar: sekitar 220 ppm untuk ¹³C, 800 ppm untuk ¹⁹F, dan lebih dari 10 000 ppm untuk ¹⁹⁵Pt. Karbon karbonil, dengan transisi n → π* yang rendah (Δ*E* kecil), adalah karbon yang paling tak terperisai, di sekitar 200 ppm.
@@ -53,7 +53,7 @@ Suku paramagnetik besar bila ada elektron p atau d di dekat inti (faktor $\langl
 Perisai mutlak sulit diukur karena kita tidak dapat menyingkirkan elektron dari inti. Yang diukur adalah frekuensi relatif terhadap senyawa rujukan. Untuk ¹H, ¹³C, dan ²⁹Si, rujukan bakunya **tetrametilsilana** (TMS), Si(CH₃)₄. **Geseran kimia** didefinisikan
 
 $$
-\delta = \frac{\nu - \nu_\text{ref}}{\nu_\text{ref}} \times 10^6\ \text{ppm} \approx (\sigma_\text{ref} - \sigma) \times 10^6 . \qquad \text{(16.e20)}
+\delta = \frac{\nu - \nu_\text{ref}}{\nu_\text{ref}} \times 10^6\ \text{ppm} \approx (\sigma_\text{ref} - \sigma) \times 10^6 . \qquad \text{(16.20)}
 $$
 
 Pembagian dengan $\nu_\text{ref}$ membuat $\delta$ **tidak bergantung pada kuat medan**: proton kloroform berada pada $\delta = 7{,}26$ ppm di spektrometer mana pun. Dalam satuan Hz, selisih frekuensinya sebanding dengan medan: 1 ppm = 400 Hz pada spektrometer 400 MHz, tetapi 600 Hz pada 600 MHz.
@@ -62,7 +62,7 @@ TMS dipilih karena alasan yang semuanya kimiawi: dua belas protonnya setara sehi
 
 Proton yang **kurang terperisai** (*deshielded*) beresonansi pada frekuensi lebih tinggi dan mempunyai $\delta$ lebih besar; dalam spektrum yang digambar dengan $\delta$ naik ke kiri, sinyalnya di sebelah kiri. Istilah lama "medan rendah" (*downfield*) untuk sinyal di kiri dan "medan tinggi" (*upfield*) untuk sinyal di kanan berasal dari spektrometer gelombang malar yang menyapu medan pada frekuensi tetap: inti yang kurang terperisai memerlukan medan luar yang lebih rendah untuk beresonansi.
 
-![Gambar 16.g02 Kisaran geseran kimia ¹H (atas) dan ¹³C (bawah) untuk gugus-gugus umum. Skala δ naik ke kiri. Rentang ¹³C sekitar dua puluh kali lebih lebar karena suku perisai paramagnetik.](fig/c_geseran.png){width=96%}
+![Gambar 16.2 Kisaran geseran kimia ¹H (atas) dan ¹³C (bawah) untuk gugus-gugus umum. Skala δ naik ke kiri. Rentang ¹³C sekitar dua puluh kali lebih lebar karena suku perisai paramagnetik.](fig/c_geseran.png){width=96%}
 
 ### Faktor-faktor yang menentukan geseran proton
 
@@ -79,7 +79,7 @@ Geseran kimia adalah sifat orde kedua: energi yang bergantung pada medan luar $B
 :::
 
 ::: {.contoh}
-**Contoh 16.c14 · Perisai atom hidrogen dan helium**
+**Contoh 16.14 · Perisai atom hidrogen dan helium**
 
 Hitung $\sigma_d$ untuk atom hidrogen ($\langle 1/r\rangle = 1/a_0$) dan untuk helium dengan fungsi gelombang muatan efektif $\zeta = 1{,}6875$ (subbab 8.3), yang memberi $\langle 1/r\rangle = \zeta/a_0$ untuk setiap elektron.
 
@@ -95,7 +95,7 @@ Untuk He dengan dua elektron: $\sigma_d = 2 \times 1{,}6875 \times 17{,}75 = 59{
 :::
 
 ::: {.contoh}
-**Contoh 16.c15 · Dari ppm ke Hz**
+**Contoh 16.15 · Dari ppm ke Hz**
 
 Proton kloroform (CHCl₃) mempunyai $\delta = 7{,}26$. (a) Berapa selisih frekuensinya terhadap TMS pada spektrometer 400 MHz dan 600 MHz? (b) Dua proton yang geserannya berbeda 0,02 ppm terpisah berapa Hz pada kedua spektrometer?
 
@@ -105,7 +105,7 @@ Proton kloroform (CHCl₃) mempunyai $\delta = 7{,}26$. (a) Berapa selisih freku
 :::
 
 ::: {.contoh}
-**Contoh 16.c16 · Keelektronegatifan dan geseran metil**
+**Contoh 16.16 · Keelektronegatifan dan geseran metil**
 
 Data: CH₃F 4,26; CH₃OH 3,40; CH₃Cl 3,05; CH₃Br 2,68; CH₃I 2,16; CH₄ 0,23 ppm. Keelektronegatifan Pauling: F 3,98; O 3,44; Cl 3,16; Br 2,96; I 2,66; H 2,20. Cocokkan garis lurus $\delta = a\chi + b$ untuk kelima senyawa CH₃X dengan X ≠ H, lalu ramalkan $\delta$ untuk X = H dengan garis itu.
 
@@ -115,7 +115,7 @@ Data: CH₃F 4,26; CH₃OH 3,40; CH₃Cl 3,05; CH₃Br 2,68; CH₃I 2,16; CH₄ 
 :::
 
 ::: {.contoh}
-**Contoh 16.c17 · Model arus cincin untuk benzena**
+**Contoh 16.17 · Model arus cincin untuk benzena**
 
 Dalam model sederhana Pople, enam elektron π benzena beredar pada cincin berjari-jari $a$ (sama dengan panjang ikatan C–C, 1,39 Å), dan medan imbasnya dihitung sebagai medan dipol titik di pusat cincin. Setelah dirata-ratakan atas semua orientasi molekul dalam larutan, pergeseran perisai pada proton yang berjarak $R$ dari pusat dalam bidang cincin adalah
 
@@ -131,9 +131,9 @@ Hitung $\Delta\sigma$ untuk $R = 1{,}39 + 1{,}09 = 2{,}48$ Å.
 :::
 
 ::: {.contoh}
-**Contoh 16.c18 · Mengapa karbon karbonil jauh di kiri**
+**Contoh 16.18 · Mengapa karbon karbonil jauh di kiri**
 
-Geseran ¹³C khas: CH₃ alkana 10–30 ppm, C–O 50–80 ppm, alkena dan aromatik 110–150 ppm, karbonil keton 200–215 ppm. Dengan (16.e19), jelaskan urutan ini. Mengapa rentang ¹³C sekitar dua puluh kali rentang ¹H?
+Geseran ¹³C khas: CH₃ alkana 10–30 ppm, C–O 50–80 ppm, alkena dan aromatik 110–150 ppm, karbonil keton 200–215 ppm. Dengan (16.19), jelaskan urutan ini. Mengapa rentang ¹³C sekitar dua puluh kali rentang ¹H?
 
 **Penyelesaian.** Perisai paramagnetik sebanding dengan $\langle r^{-3}\rangle_{2p}/\Delta E$. Karbon sp³ alkana hanya mempunyai transisi σ → σ* yang tinggi (ΔE besar), sehingga $\sigma_p$ kecil dan karbonnya terperisai. Alkena dan aromatik mempunyai transisi π → π* yang lebih rendah. Karbonil mempunyai transisi n → π* yang paling rendah (keton menyerap di sekitar 280 nm), sehingga $|\sigma_p|$ terbesar dan karbonnya paling tak terperisai. Karbon yang terikat pada oksigen juga kehilangan rapat elektron (faktor keelektronegatifan), yang mengecilkan $\sigma_d$ dan menaikkan $\langle r^{-3}\rangle$ elektron 2p-nya. Untuk ¹H, elektron di sekitar proton hampir semuanya berkarakter s, sehingga suku paramagnetik yang besar tidak tersedia.
 

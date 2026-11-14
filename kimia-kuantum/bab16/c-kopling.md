@@ -9,25 +9,25 @@ Spektrum etanol resolusi tinggi tidak terdiri atas tiga garis tunggal (OH, CH₂
 Untuk dua inti berspin $\tfrac12$, A dan X, dengan frekuensi resonansi $\nu_A$ dan $\nu_X$ (sudah termasuk perisai), Hamiltonian spin dalam satuan frekuensi ($\hat H/h$, operator spin tak berdimensi) adalah
 
 $$
-\frac{\hat H}{h} = -\nu_A\hat I_{zA} - \nu_X\hat I_{zX} + J\,\hat{\mathbf I}_A\cdot\hat{\mathbf I}_X . \qquad \text{(16.e21)}
+\frac{\hat H}{h} = -\nu_A\hat I_{zA} - \nu_X\hat I_{zX} + J\,\hat{\mathbf I}_A\cdot\hat{\mathbf I}_X . \qquad \text{(16.21)}
 $$
 
 Suku terakhir adalah kopling skalar dengan **tetapan kopling** $J$ (dalam Hz). Bentuk $\hat{\mathbf I}_A\cdot\hat{\mathbf I}_X$ tidak bergantung pada arah medan dan tidak berubah bila molekul berputar, karena itu bertahan dalam cairan yang molekulnya berputar cepat. Uraikan hasil kali skalar dengan operator tangga:
 
 $$
-\hat{\mathbf I}_A\cdot\hat{\mathbf I}_X = \hat I_{zA}\hat I_{zX} + \tfrac12\left(\hat I_{+A}\hat I_{-X} + \hat I_{-A}\hat I_{+X}\right) . \qquad \text{(16.e22)}
+\hat{\mathbf I}_A\cdot\hat{\mathbf I}_X = \hat I_{zA}\hat I_{zX} + \tfrac12\left(\hat I_{+A}\hat I_{-X} + \hat I_{-A}\hat I_{+X}\right) . \qquad \text{(16.22)}
 $$
 
 Suku dalam kurung menukar spin: ia mengubah $\alpha\beta$ menjadi $\beta\alpha$ dan sebaliknya. Bila selisih frekuensi jauh lebih besar daripada kopling, $|\nu_A - \nu_X| \gg |J|$, kedua keadaan itu terpisah jauh dalam energi, dan menurut teori perturbasi suku penukar hanya menggeser energinya sebesar orde $J^2/(\nu_A - \nu_X)$, yang dapat diabaikan. Inilah **spektrum orde satu**, yang ditandai dengan huruf yang berjauhan dalam abjad: **AX**. Dalam hampiran ini hanya $J\hat I_{zA}\hat I_{zX}$ yang tersisa, dan keadaan $\alpha\alpha$, $\alpha\beta$, $\beta\alpha$, $\beta\beta$ (spin A ditulis lebih dulu) adalah keadaan eigen dengan energi
 
 $$
-\frac{E(m_A, m_X)}{h} = -\nu_Am_A - \nu_Xm_X + Jm_Am_X . \qquad \text{(16.e23)}
+\frac{E(m_A, m_X)}{h} = -\nu_Am_A - \nu_Xm_X + Jm_Am_X . \qquad \text{(16.23)}
 $$
 
 Transisi yang diizinkan membalik satu spin saja. Membalik A ($m_A$: $+\tfrac12 \to -\tfrac12$) sambil X tetap memberi frekuensi $\nu_A - Jm_X$, yaitu
 
 $$
-\nu = \nu_A \pm \tfrac12J \quad\text{dan}\quad \nu = \nu_X \pm \tfrac12J . \qquad \text{(16.e24)}
+\nu = \nu_A \pm \tfrac12J \quad\text{dan}\quad \nu = \nu_X \pm \tfrac12J . \qquad \text{(16.24)}
 $$
 
 Spektrum AX terdiri atas dua doblet, masing-masing berpusat di frekuensi geseran kimianya dan terpecah sebesar $J$. Tafsirannya sederhana: inti A "merasakan" dua kemungkinan medan lokal, bergantung pada apakah tetangganya X berada dalam keadaan $\alpha$ atau $\beta$. Karena hampir separuh molekul mempunyai X dalam $\alpha$ dan separuh dalam $\beta$, kedua garis doblet sama kuat.
@@ -59,26 +59,26 @@ Untuk tetangga berspin $I$, banyaknya garis $2nI + 1$. Bila A bertetangga dengan
 
 Satu aturan lagi sangat penting, dan alasannya akan menjadi jelas di subbab 16.6: **inti yang setara tidak memecah sinyal satu sama lain**. Tiga proton CH₃ dalam etanol saling berkopling, tetapi kopling ini tidak tampak; yang tampak hanya kopling ke CH₂.
 
-![Gambar 16.g03 Spektrum ¹H etil asetat (simulasi, 400 MHz, J = 7,1 Hz). Gugus OCH₂ (4,12 ppm) dipecah tiga proton metil menjadi kuartet 1 : 3 : 3 : 1, CH₃ etil (1,26 ppm) dipecah dua proton metilena menjadi triplet 1 : 2 : 1, dan CH₃ asetil (2,05 ppm) tidak bertetangga dengan proton lain sehingga berupa singlet. Sisipan: diagram pohon kuartet.](fig/c_etilasetat.png){width=96%}
+![Gambar 16.3 Spektrum ¹H etil asetat (simulasi, 400 MHz, J = 7,1 Hz). Gugus OCH₂ (4,12 ppm) dipecah tiga proton metil menjadi kuartet 1 : 3 : 3 : 1, CH₃ etil (1,26 ppm) dipecah dua proton metilena menjadi triplet 1 : 2 : 1, dan CH₃ asetil (2,05 ppm) tidak bertetangga dengan proton lain sehingga berupa singlet. Bawah: perbesaran kuartet dan triplet dalam Hz, serta diagram pohon kuartet.](fig/c_etilasetat.png){width=96%}
 
 ### Hubungan Karplus
 
 Kopling vicinal ³J antara proton pada dua karbon yang bertetangga, H–C–C–H, bergantung kuat pada **sudut dihedral** $\phi$ di antara kedua ikatan C–H. Martin Karplus (1959) menunjukkan, dengan perhitungan ikatan valensi sederhana, bahwa ketergantungannya berbentuk
 
 $$
-{}^3J(\phi) = A\cos^2\phi + B\cos\phi + C , \qquad \text{(16.e25)}
+{}^3J(\phi) = A\cos^2\phi + B\cos\phi + C , \qquad \text{(16.25)}
 $$
 
-dengan $A$, $B$, $C$ tetapan empiris yang sedikit bergantung pada substituen; satu parameterisasi yang lazim adalah $A = 7{,}76$, $B = -1{,}10$, $C = 1{,}40$ Hz. Kopling terbesar pada $\phi = 180°$ (antiperiplanar), cukup besar pada $\phi = 0°$, dan paling kecil di dekat $90°$ (Gambar 16.g04). Alasannya kembali ke tumpang tindih: polarisasi spin diteruskan paling efisien bila orbital-orbital ikatan C–H sejajar (tumpang tindih "punggung ke punggung" pada 180° dan "sisi ke sisi" pada 0°), dan hampir tidak diteruskan bila keduanya tegak lurus.
+dengan $A$, $B$, $C$ tetapan empiris yang sedikit bergantung pada substituen; satu parameterisasi yang lazim adalah $A = 7{,}76$, $B = -1{,}10$, $C = 1{,}40$ Hz. Kopling terbesar pada $\phi = 180°$ (antiperiplanar), cukup besar pada $\phi = 0°$, dan paling kecil di dekat $90°$ (Gambar 16.4). Alasannya kembali ke tumpang tindih: polarisasi spin diteruskan paling efisien bila orbital-orbital ikatan C–H sejajar (tumpang tindih "punggung ke punggung" pada 180° dan "sisi ke sisi" pada 0°), dan hampir tidak diteruskan bila keduanya tegak lurus.
 
-![Gambar 16.g04 Kurva Karplus ³J(φ) = 7,76 cos²φ − 1,10 cos φ + 1,40 Hz. Titik-titik menandai hubungan aksial–aksial (φ ≈ 180°) dan aksial–ekuatorial atau ekuatorial–ekuatorial (φ ≈ 60°) dalam cincin kursi sikloheksana.](fig/c_karplus.png){width=72%}
+![Gambar 16.4 Kurva Karplus ³J(φ) = 7,76 cos²φ − 1,10 cos φ + 1,40 Hz. Titik-titik menandai hubungan aksial–aksial (φ ≈ 180°) dan aksial–ekuatorial atau ekuatorial–ekuatorial (φ ≈ 60°) dalam cincin kursi sikloheksana.](fig/c_karplus.png){width=72%}
 
 Hubungan Karplus adalah jembatan antara spektrum dan geometri. Dalam cincin kursi sikloheksana, proton aksial–aksial yang bertetangga ($\phi \approx 180°$) berkopling 8–13 Hz, sedangkan pasangan aksial–ekuatorial dan ekuatorial–ekuatorial ($\phi \approx 60°$) hanya 2–5 Hz. Kimiawan karbohidrat memakai ini untuk membedakan anomer, dan ahli biologi struktur memakai versi untuk H–N–C–H guna menentukan sudut putar rantai utama protein.
 
 ::: {.contoh}
-**Contoh 16.c19 · Tingkat energi dan garis sistem AX**
+**Contoh 16.19 · Tingkat energi dan garis sistem AX**
 
-Dalam satuan frekuensi relatif terhadap pembawa, $\nu_A = 400$ Hz, $\nu_X = 200$ Hz, $J = 10$ Hz. Hitung keempat energi menurut (16.e23) dan frekuensi keempat transisi.
+Dalam satuan frekuensi relatif terhadap pembawa, $\nu_A = 400$ Hz, $\nu_X = 200$ Hz, $J = 10$ Hz. Hitung keempat energi menurut (16.23) dan frekuensi keempat transisi.
 
 **Penyelesaian.** $E/h = -400m_A - 200m_X + 10m_Am_X$:
 $\alpha\alpha$: $-200 - 100 + 2{,}5 = -297{,}5$ Hz; $\alpha\beta$: $-200 + 100 - 2{,}5 = -102{,}5$ Hz; $\beta\alpha$: $200 - 100 - 2{,}5 = 97{,}5$ Hz; $\beta\beta$: $200 + 100 + 2{,}5 = 302{,}5$ Hz.
@@ -89,17 +89,17 @@ Transisi A: $\alpha\alpha \to \beta\alpha$: 395 Hz; $\alpha\beta \to \beta\beta$
 :::
 
 ::: {.contoh}
-**Contoh 16.c20 · Etil asetat**
+**Contoh 16.20 · Etil asetat**
 
 Ramalkan spektrum ¹H etil asetat, CH₃COOCH₂CH₃, pada 400 MHz bila $\delta$(OCH₂) = 4,12, $\delta$(CH₃CO) = 2,05, $\delta$(CH₂CH₃) = 1,26, dan ³J = 7,1 Hz. Berapa luas relatif ketiga kelompok, dan di mana letak garis-garis kuartet dalam Hz?
 
 **Penyelesaian.** Asetil: tiga proton, tanpa tetangga berproton dalam jarak tiga ikatan: singlet, luas 3. OCH₂: tiga tetangga setara: kuartet 1 : 3 : 3 : 1, luas 2. CH₃ etil: dua tetangga: triplet 1 : 2 : 1, luas 3. Pusat kuartet di $4{,}12 \times 400 = 1648$ Hz; garis-garisnya di $1648 \pm 3{,}55$ dan $1648 \pm 10{,}65$ Hz, yaitu 1637,4; 1644,5; 1651,6; 1658,7 Hz.
 
-**Memahami hasil.** Pola "kuartet + triplet dengan luas 2 : 3" adalah sidik jari gugus etil yang dikenal setiap mahasiswa kimia organik (Gambar 16.g03). Luas sinyal sebanding dengan banyaknya proton, karena setiap proton menyumbang magnetisasi yang sama; inilah yang membuat NMR ¹H juga alat analisis kuantitatif (qNMR).
+**Memahami hasil.** Pola "kuartet + triplet dengan luas 2 : 3" adalah sidik jari gugus etil yang dikenal setiap mahasiswa kimia organik (Gambar 16.3). Luas sinyal sebanding dengan banyaknya proton, karena setiap proton menyumbang magnetisasi yang sama; inilah yang membuat NMR ¹H juga alat analisis kuantitatif (qNMR).
 :::
 
 ::: {.contoh}
-**Contoh 16.c21 · Kopling dengan deuterium**
+**Contoh 16.21 · Kopling dengan deuterium**
 
 (a) Sinyal ¹³C pelarut CDCl₃ muncul di 77,16 ppm sebagai tiga garis sama kuat. Mengapa? Bila ¹J_CH kloroform 209 Hz, taksir ¹J_CD. (b) Ramalkan pola sinyal proton molekul HD.
 
@@ -111,7 +111,7 @@ Ramalkan spektrum ¹H etil asetat, CH₃COOCH₂CH₃, pada 400 MHz bila $\delta
 :::
 
 ::: {.contoh}
-**Contoh 16.c22 · Karakter s dari ¹J_CH**
+**Contoh 16.22 · Karakter s dari ¹J_CH**
 
 Kopling ¹J_CH terukur: sikloheksana 123 Hz, benzena 158 Hz, siklopropana 161 Hz, asetilena 249 Hz. Dengan aturan ¹J_CH ≈ 500 Hz × $s$, taksir fraksi s orbital karbon dalam ikatan C–H. Apa yang aneh pada siklopropana?
 
@@ -121,9 +121,9 @@ Kopling ¹J_CH terukur: sikloheksana 123 Hz, benzena 158 Hz, siklopropana 161 Hz
 :::
 
 ::: {.contoh}
-**Contoh 16.c23 · Anomer glukosa dari Karplus**
+**Contoh 16.23 · Anomer glukosa dari Karplus**
 
-Dalam β-D-glukopiranosa, H1 dan H2 keduanya aksial; dalam α, H1 ekuatorial dan H2 aksial. Taksir ³J(H1,H2) untuk kedua anomer dengan (16.e25), mengambil $\phi = 180°$ dan $60°$. Data terukur: 7,9 Hz (β) dan 3,7 Hz (α).
+Dalam β-D-glukopiranosa, H1 dan H2 keduanya aksial; dalam α, H1 ekuatorial dan H2 aksial. Taksir ³J(H1,H2) untuk kedua anomer dengan (16.25), mengambil $\phi = 180°$ dan $60°$. Data terukur: 7,9 Hz (β) dan 3,7 Hz (α).
 
 **Penyelesaian.** $\phi = 180°$: $7{,}76 + 1{,}10 + 1{,}40 = 10{,}3$ Hz. $\phi = 60°$: $7{,}76(0{,}25) - 1{,}10(0{,}5) + 1{,}40 = 2{,}8$ Hz.
 
@@ -140,11 +140,11 @@ Ramalkan pola sinyal proton CH dalam gugus isopropil, (CH₃)₂CH–. Mengapa j
 
 ### Ketika hampiran orde satu gagal
 
-Aturan $n + 1$ hanya berlaku bila selisih geseran $\Delta\nu = \nu_A - \nu_B$ (dalam Hz) jauh lebih besar daripada $J$. Bila keduanya sebanding, suku penukar dalam (16.e22) tidak dapat diabaikan, dan spektrum berubah: intensitas garis tidak lagi sama dalam satu multiplet, garis-garis bergeser dari posisi orde satu, dan bahkan garis baru dapat muncul. Sistem dua spin semacam ini ditandai **AB**, dengan huruf yang berdekatan untuk menunjukkan geseran yang berdekatan.
+Aturan $n + 1$ hanya berlaku bila selisih geseran $\Delta\nu = \nu_A - \nu_B$ (dalam Hz) jauh lebih besar daripada $J$. Bila keduanya sebanding, suku penukar dalam (16.22) tidak dapat diabaikan, dan spektrum berubah: intensitas garis tidak lagi sama dalam satu multiplet, garis-garis bergeser dari posisi orde satu, dan bahkan garis baru dapat muncul. Sistem dua spin semacam ini ditandai **AB**, dengan huruf yang berdekatan untuk menunjukkan geseran yang berdekatan.
 
 ### Diagonalisasi Hamiltonian AB
 
-Tuliskan Hamiltonian lengkap (16.e21) dalam basis hasil kali $|1\rangle = \alpha\alpha$, $\alpha\beta$, $\beta\alpha$, $|4\rangle = \beta\beta$. Dengan (16.e22) dan aturan $\hat I_+\beta = \alpha$, $\hat I_-\alpha = \beta$ (untuk spin $\tfrac12$, unsur matriksnya 1), satu-satunya unsur di luar diagonal adalah
+Tuliskan Hamiltonian lengkap (16.21) dalam basis hasil kali $|1\rangle = \alpha\alpha$, $\alpha\beta$, $\beta\alpha$, $|4\rangle = \beta\beta$. Dengan (16.22) dan aturan $\hat I_+\beta = \alpha$, $\hat I_-\alpha = \beta$ (untuk spin $\tfrac12$, unsur matriksnya 1), satu-satunya unsur di luar diagonal adalah
 
 $$
 \langle\beta\alpha|J\,\hat{\mathbf I}_A\cdot\hat{\mathbf I}_B|\alpha\beta\rangle = \tfrac12J .
@@ -153,26 +153,26 @@ $$
 Keadaan $\alpha\alpha$ dan $\beta\beta$ tidak bercampur dengan apa pun (keduanya mempunyai $M = m_A + m_B$ yang berbeda dari keadaan lain, dan Hamiltonian kekal $M$). Energinya $E_1/h = -\bar\nu + \tfrac14J$ dan $E_4/h = \bar\nu + \tfrac14J$, dengan $\bar\nu = \tfrac12(\nu_A + \nu_B)$. Keadaan $\alpha\beta$ dan $\beta\alpha$ membentuk blok 2 × 2:
 
 $$
-\frac{\hat H}{h} = \begin{pmatrix}-\tfrac12\Delta\nu - \tfrac14J & \tfrac12J\\[2pt] \tfrac12J & \tfrac12\Delta\nu - \tfrac14J\end{pmatrix} . \qquad \text{(16.e26)}
+\frac{\hat H}{h} = \begin{pmatrix}-\tfrac12\Delta\nu - \tfrac14J & \tfrac12J\\[2pt] \tfrac12J & \tfrac12\Delta\nu - \tfrac14J\end{pmatrix} . \qquad \text{(16.26)}
 $$
 
 Nilai eigennya (subbab 2.8)
 
 $$
-\frac{E_{2,3}}{h} = -\tfrac14J \mp \tfrac12D, \qquad D = \sqrt{\Delta\nu^2 + J^2} , \qquad \text{(16.e27)}
+\frac{E_{2,3}}{h} = -\tfrac14J \mp \tfrac12D, \qquad D = \sqrt{\Delta\nu^2 + J^2} , \qquad \text{(16.27)}
 $$
 
 dengan vektor eigen
 
 $$
-|2\rangle = \cos\theta\,|\alpha\beta\rangle - \sin\theta\,|\beta\alpha\rangle, \qquad |3\rangle = \sin\theta\,|\alpha\beta\rangle + \cos\theta\,|\beta\alpha\rangle, \qquad \sin2\theta = \frac JD . \qquad \text{(16.e28)}
+|2\rangle = \cos\theta\,|\alpha\beta\rangle - \sin\theta\,|\beta\alpha\rangle, \qquad |3\rangle = \sin\theta\,|\alpha\beta\rangle + \cos\theta\,|\beta\alpha\rangle, \qquad \sin2\theta = \frac JD . \qquad \text{(16.28)}
 $$
 
 Bila $J \ll \Delta\nu$, $\theta \to 0$ dan kita kembali ke keadaan hasil kali AX. Bila $\Delta\nu \to 0$, $\theta \to 45°$, dan keadaan eigen menjadi $(\alpha\beta \mp \beta\alpha)/\sqrt2$: **singlet** dan komponen $M = 0$ dari **triplet**, persis seperti spin dua elektron dalam atom helium (subbab 9.4).
 
 ### Letak dan intensitas garis
 
-Transisi dideteksi melalui $\hat F_x = \hat I_{xA} + \hat I_{xB}$. Dengan (16.e27) dan (16.e28), keempat transisi adalah (relatif terhadap $\bar\nu$):
+Transisi dideteksi melalui $\hat F_x = \hat I_{xA} + \hat I_{xB}$. Dengan (16.27) dan (16.28), keempat transisi adalah (relatif terhadap $\bar\nu$):
 
 | Transisi | Frekuensi $- \bar\nu$ | Intensitas relatif |
 |---|---|---|
@@ -187,18 +187,18 @@ Spektrum AB tetap terdiri atas dua "doblet" dengan pemisahan $J$ di dalam masing
 2. **Geseran kimia tidak di pusat doblet**: pusat setiap pasangan terletak di $\bar\nu \pm \tfrac12D$, bukan di $\nu_A$ dan $\nu_B$. Geseran sebenarnya diperoleh dari $\Delta\nu = \sqrt{(\nu_1 - \nu_4)(\nu_2 - \nu_3)}$, dengan $\nu_1$ sampai $\nu_4$ garis-garis berurutan.
 3. **Batas A₂**: bila $\Delta\nu \to 0$, $\sin2\theta \to 1$, garis luar hilang dan dua garis dalam menyatu di $\bar\nu$. Dua inti setara memberi satu garis saja, tanpa tanda kopling.
 
-![Gambar 16.g05 Spektrum dua spin untuk J = 10 Hz dan berbagai Δν. Dari atas: Δν/J = 10 (hampir AX), 3, 1, 0,3, dan 0 (A₂). Garis dalam menguat dan garis luar melemah (efek atap) sampai, pada batas A₂, hanya satu garis tersisa.](fig/c_ab.png){width=82%}
+![Gambar 16.5 Spektrum dua spin untuk J = 10 Hz dan berbagai Δν. Dari atas: Δν/J = 10 (hampir AX), 3, 1, 0,3, dan 0 (A₂). Garis dalam menguat dan garis luar melemah (efek atap) sampai, pada batas A₂, hanya satu garis tersisa.](fig/c_ab.png){width=82%}
 
 ### Mengapa inti setara tidak saling memecah
 
-Pada batas A₂, Hamiltonian kopling $J\hat{\mathbf I}_A\cdot\hat{\mathbf I}_B$ dapat ditulis dengan spin total $\hat{\mathbf F} = \hat{\mathbf I}_A + \hat{\mathbf I}_B$: $\hat{\mathbf I}_A\cdot\hat{\mathbf I}_B = \tfrac12(\hat F^2 - \hat I_A^2 - \hat I_B^2)$. Keadaan triplet ($F = 1$) dan singlet ($F = 0$) mempunyai energi kopling berbeda, tetapi operator deteksi $\hat F_x$ adalah komponen spin **total**, yang komut dengan $\hat F^2$. Akibatnya $\hat F_x$ tidak dapat menghubungkan triplet dengan singlet; transisi hanya terjadi di dalam triplet, antara tingkat $M = 1, 0, -1$, dan semua transisi itu mempunyai selisih energi kopling nol. Jadi $J$ di antara inti-inti setara **ada**, tetapi tidak muncul dalam spektrum. Argumen yang sama berlaku untuk kelompok berapa pun inti setara (misalnya tiga proton metil). Kopling antara proton setara dapat diukur hanya dengan memecah kesetaraannya, misalnya melalui substitusi isotop seperti pada HD (Contoh 16.c21).
+Pada batas A₂, Hamiltonian kopling $J\hat{\mathbf I}_A\cdot\hat{\mathbf I}_B$ dapat ditulis dengan spin total $\hat{\mathbf F} = \hat{\mathbf I}_A + \hat{\mathbf I}_B$: $\hat{\mathbf I}_A\cdot\hat{\mathbf I}_B = \tfrac12(\hat F^2 - \hat I_A^2 - \hat I_B^2)$. Keadaan triplet ($F = 1$) dan singlet ($F = 0$) mempunyai energi kopling berbeda, tetapi operator deteksi $\hat F_x$ adalah komponen spin **total**, yang komut dengan $\hat F^2$. Akibatnya $\hat F_x$ tidak dapat menghubungkan triplet dengan singlet; transisi hanya terjadi di dalam triplet, antara tingkat $M = 1, 0, -1$, dan semua transisi itu mempunyai selisih energi kopling nol. Jadi $J$ di antara inti-inti setara **ada**, tetapi tidak muncul dalam spektrum. Argumen yang sama berlaku untuk kelompok berapa pun inti setara (misalnya tiga proton metil). Kopling antara proton setara dapat diukur hanya dengan memecah kesetaraannya, misalnya melalui substitusi isotop seperti pada HD (Contoh 16.21).
 
 ### Spektrum berubah dengan medan
 
 Karena $\Delta\nu$ (dalam Hz) sebanding dengan $B_0$ sedangkan $J$ tetap, perbandingan $\Delta\nu/J$ naik bila medan dinaikkan. Spektrum yang rumit dan "orde dua" pada spektrometer lama 60 MHz dapat menjadi orde satu yang mudah dibaca pada 600 MHz. Inilah alasan kedua, selain kepekaan, mengapa medan tinggi sangat diinginkan.
 
 ::: {.contoh}
-**Contoh 16.c24 · Spektrum AB**
+**Contoh 16.24 · Spektrum AB**
 
 Dua proton dengan $\Delta\nu = 20$ Hz dan $J = 10$ Hz. Hitung $D$, $\theta$, letak keempat garis relatif terhadap $\bar\nu$, dan perbandingan intensitas garis dalam dan luar.
 
@@ -208,7 +208,7 @@ Dua proton dengan $\Delta\nu = 20$ Hz dan $J = 10$ Hz. Hitung $D$, $\theta$, let
 :::
 
 ::: {.contoh}
-**Contoh 16.c25 · Membaca balik spektrum AB**
+**Contoh 16.25 · Membaca balik spektrum AB**
 
 Empat garis teramati pada 1234,0; 1226,0; 1212,0; dan 1204,0 Hz (dari spektrometer 400 MHz, relatif terhadap TMS). Tentukan $J$, $\Delta\nu$, dan geseran kimia kedua proton dalam ppm.
 
@@ -218,7 +218,7 @@ Empat garis teramati pada 1234,0; 1226,0; 1212,0; dan 1204,0 Hz (dari spektromet
 :::
 
 ::: {.contoh}
-**Contoh 16.c26 · Singlet dan triplet dua proton setara**
+**Contoh 16.26 · Singlet dan triplet dua proton setara**
 
 Untuk dua proton setara ($\Delta\nu = 0$) dengan kopling $J$, tuliskan keempat keadaan eigen dan energinya. Tunjukkan bahwa $\langle\text{S}|\hat F_x|\text{T}_{+1}\rangle = 0$, dengan $|\text{S}\rangle = (\alpha\beta - \beta\alpha)/\sqrt2$ dan $|\text{T}_{+1}\rangle = \alpha\alpha$.
 
@@ -228,11 +228,11 @@ Untuk dua proton setara ($\Delta\nu = 0$) dengan kopling $J$, tuliskan keempat k
 :::
 
 ::: {.contoh}
-**Contoh 16.c27 · Simulasi spektrum dengan Python**
+**Contoh 16.27 · Simulasi spektrum dengan Python**
 
-Tuliskan program yang menyusun Hamiltonian (16.e21) untuk $n$ spin $\tfrac12$ dengan kopling sembarang, mendiagonalkannya, dan mendaftar frekuensi serta intensitas transisi. Ujilah pada sistem AB Contoh 16.c24.
+Tuliskan program yang menyusun Hamiltonian (16.21) untuk $n$ spin $\tfrac12$ dengan kopling sembarang, mendiagonalkannya, dan mendaftar frekuensi serta intensitas transisi. Ujilah pada sistem AB Contoh 16.24.
 
-**Penyelesaian.** Operator spin ke-$k$ dalam sistem $n$ spin dibangun dengan hasil kali Kronecker matriks Pauli (Contoh 16.c08) dan matriks satuan. Frekuensi pembawa besar $\nu_0$ ditambahkan agar semua frekuensi transisi bertanda sama.
+**Penyelesaian.** Operator spin ke-$k$ dalam sistem $n$ spin dibangun dengan hasil kali Kronecker matriks Pauli (Contoh 16.8) dan matriks satuan. Frekuensi pembawa besar $\nu_0$ ditambahkan agar semua frekuensi transisi bertanda sama.
 
 ```python
 import numpy as np
@@ -269,13 +269,13 @@ for f, I in sorted(spektrum([10, -10], [[0, 10], [10, 0]]).items()):
 
 Keluarannya: garis di $-16{,}18$; $-6{,}18$; $6{,}18$; $16{,}18$ Hz dengan intensitas 0,138; 0,362; 0,362; 0,138.
 
-**Memahami hasil.** Hasil numerik sama dengan rumus analitis, dan perbandingan intensitas $0{,}362/0{,}138 = 2{,}62$ adalah efek atap. Program yang sama, tanpa perubahan, menangani sistem tiga, empat, atau delapan spin; ukuran matriks $2^n \times 2^n$ membatasinya pada sekitar dua belas spin, cukup untuk hampir semua fragmen molekul organik. Program simulasi spektrum komersial bekerja dengan prinsip yang sama, ditambah pemanfaatan simetri dan kekekalan $M$ untuk memecah matriks menjadi blok-blok kecil. Gambar 16.g05 dibuat dengan fungsi ini.
+**Memahami hasil.** Hasil numerik sama dengan rumus analitis, dan perbandingan intensitas $0{,}362/0{,}138 = 2{,}62$ adalah efek atap. Program yang sama, tanpa perubahan, menangani sistem tiga, empat, atau delapan spin; ukuran matriks $2^n \times 2^n$ membatasinya pada sekitar dua belas spin, cukup untuk hampir semua fragmen molekul organik. Program simulasi spektrum komersial bekerja dengan prinsip yang sama, ditambah pemanfaatan simetri dan kekekalan $M$ untuk memecah matriks menjadi blok-blok kecil. Gambar 16.5 dibuat dengan fungsi ini.
 :::
 
 ::: {.contoh}
-**Contoh 16.c28 · Gugus etil pada 60 MHz dan 400 MHz**
+**Contoh 16.28 · Gugus etil pada 60 MHz dan 400 MHz**
 
-Dengan program Contoh 16.c27, spektrum gugus etil etanol ($\delta$ CH₂ 3,69 dan CH₃ 1,22, $J = 7$ Hz) disimulasikan pada 60 MHz dan 400 MHz. Hitung $\Delta\nu/J$ untuk kedua kasus dan jelaskan perbedaan hasilnya.
+Dengan program Contoh 16.27, spektrum gugus etil etanol ($\delta$ CH₂ 3,69 dan CH₃ 1,22, $J = 7$ Hz) disimulasikan pada 60 MHz dan 400 MHz. Hitung $\Delta\nu/J$ untuk kedua kasus dan jelaskan perbedaan hasilnya.
 
 **Penyelesaian.** $\Delta\nu = 2{,}47$ ppm $\times\ \nu_0$: 148 Hz pada 60 MHz ($\Delta\nu/J = 21$) dan 988 Hz pada 400 MHz ($\Delta\nu/J = 141$). Simulasi 400 MHz memberi kuartet dan triplet dengan intensitas binomial yang hampir sempurna (1 : 2,00 : 1 untuk triplet). Simulasi 60 MHz memberi garis-garis yang sedikit terbelah dan intensitas yang condong: garis triplet yang menghadap kuartet sekitar 20% lebih kuat daripada garis di sisi jauh (perbandingan 0,91 : 2 : 1,10).
 
@@ -325,21 +325,21 @@ Bila suatu proses kimia mempertukarkan dua lingkungan dengan laju $k$, apa yang 
 Gagasan ini adalah versi NMR dari asas ketidakpastian energi–waktu: dua frekuensi yang berbeda $\Delta\nu$ hanya dapat dibedakan bila inti tinggal di setiap lingkungan cukup lama, lebih dari sekitar $1/\Delta\nu$. Untuk dua lingkungan berpopulasi sama tanpa kopling, analisis persamaan Bloch dengan pertukaran memberi laju pada suhu koalesensi $T_c$
 
 $$
-k_c = \frac{\pi\Delta\nu}{\sqrt2} . \qquad \text{(16.e29)}
+k_c = \frac{\pi\Delta\nu}{\sqrt2} . \qquad \text{(16.29)}
 $$
 
 Dengan persamaan Eyring, $k = (k_BT/h)\,e^{-\Delta G^\ddagger/RT}$, energi bebas pengaktifan proses pertukaran diperoleh dari $T_c$:
 
 $$
-\Delta G^\ddagger = RT_c\ln\frac{k_BT_c}{hk_c} . \qquad \text{(16.e30)}
+\Delta G^\ddagger = RT_c\ln\frac{k_BT_c}{hk_c} . \qquad \text{(16.30)}
 $$
 
 **NMR dinamis** semacam ini mengukur penghalang 25–100 kJ/mol, rentang yang meliputi rotasi ikatan amida, pembalikan cincin, inversi nitrogen, dan pertukaran ligan pada kompleks logam: proses-proses yang terlalu cepat untuk diikuti dengan pencampuran biasa, tetapi terlalu lambat untuk spektroskopi optik.
 
-![Gambar 16.g06 Bentuk garis dua tapak berpopulasi sama yang dipisahkan Δν = 30 Hz, untuk berbagai laju pertukaran k. Koalesensi terjadi pada k_c = πΔν/√2 ≈ 67 s⁻¹.](fig/c_tukar.png){width=78%}
+![Gambar 16.6 Bentuk garis dua tapak berpopulasi sama yang dipisahkan Δν = 30 Hz, untuk berbagai laju pertukaran k. Koalesensi terjadi pada k_c = πΔν/√2 ≈ 67 s⁻¹.](fig/c_tukar.png){width=78%}
 
 ::: {.contoh}
-**Contoh 16.c29 · Menamai sistem spin**
+**Contoh 16.29 · Menamai sistem spin**
 
 Tentukan notasi Pople sistem spin proton (dan fluor, bila ada) dalam: (a) asetaldehida CH₃CHO; (b) 1-kloro-4-nitrobenzena; (c) CH₂F₂; (d) 1,1-difluoroetena; (e) 1,1,2-trikloroetana CHCl₂CH₂Cl.
 
@@ -349,7 +349,7 @@ Tentukan notasi Pople sistem spin proton (dan fluor, bila ada) dalam: (a) asetal
 :::
 
 ::: {.contoh}
-**Contoh 16.c30 · Proton diastereotopik**
+**Contoh 16.30 · Proton diastereotopik**
 
 Dalam 2-butanol, CH₃CH(OH)CH₂CH₃, terapkan uji substitusi pada kedua proton CH₂. Apakah mereka setara? Bagaimana pola sinyalnya?
 
@@ -359,7 +359,7 @@ Dalam 2-butanol, CH₃CH(OH)CH₂CH₃, terapkan uji substitusi pada kedua proto
 :::
 
 ::: {.contoh}
-**Contoh 16.c31 · Pembalikan cincin sikloheksana**
+**Contoh 16.31 · Pembalikan cincin sikloheksana**
 
 Pada suhu kamar, sikloheksana-$d_{11}$ (satu proton) memberi satu garis. Pada suhu rendah dan 60 MHz, garis itu terpisah menjadi sinyal aksial dan ekuatorial yang berbeda 0,48 ppm, dan koalesensi teramati pada 212 K. Hitung $k_c$, $\Delta G^\ddagger$, dan laju pembalikan cincin pada 298 K.
 
@@ -375,7 +375,7 @@ Pada 298 K, $k = (6{,}21 \times 10^{12})\,e^{-44\,000/(8{,}314 \times 298)} = 1{
 :::
 
 ::: {.contoh}
-**Contoh 16.c32 · Rotasi ikatan amida dalam DMF**
+**Contoh 16.32 · Rotasi ikatan amida dalam DMF**
 
 Dalam N,N-dimetilformamida, dua gugus metil memberi dua singlet pada suhu kamar (selisih 0,08 ppm pada 400 MHz) yang berkoalesensi pada sekitar 393 K. Hitung penghalang rotasi C–N dan umur rata-rata satu rotamer pada 298 K.
 

@@ -1,0 +1,222 @@
+## Subbab 16.1: Momen magnet spin inti
+
+> Pakai data inti pada tabel subbab 16.1, $\mu_N = 5{,}0508 \times 10^{-27}$ J/T, $\mu_B = 9{,}2740 \times 10^{-24}$ J/T, dan $g_e = 2{,}0023$. Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab.
+
+**Dasar**
+
+Tentukan apakah spin inti berikut nol, setengah bulat, atau bulat: ¹⁰B, ¹¹B, ¹⁹F, ²⁸Si, ²⁹Si, ⁴⁰Ca. Mana yang tidak terlihat dalam NMR? ||| bulat; setengah bulat; ½; nol; ½; nol. ²⁸Si dan ⁴⁰Ca tidak terlihat
+Rasio giromagnetik ¹⁹F adalah $25{,}181 \times 10^7$ rad s⁻¹ T⁻¹. Hitung $g_N$ dan $\mu_z$ maksimum dalam $\mu_N$. ||| $g_N = 5{,}258$; $\mu_z = 2{,}629\,\mu_N$
+Hitung frekuensi resonansi ³¹P dalam magnet 11,74 T. ||| 202,5 MHz
+Hitung perbandingan $\mu_N/\mu_B$ dan jelaskan asal angkanya. ||| $5{,}446 \times 10^{-4} = m_e/m_p$
+
+**Menengah**
+
+Deuteron mempunyai $g_N = 0{,}8574$ dan $I = 1$. Hitung panjang vektor momen magnetnya dan komponen-$z$ maksimumnya, dalam $\mu_N$. ||| $1{,}213\,\mu_N$; $0{,}857\,\mu_N$
+Momen magnet proton dimiringkan 30° dari medan 1,000 T. Berapa periode presesinya? Apakah berubah bila sudutnya 60°? ||| 23,5 ns; tidak berubah
+Mengapa ¹⁴N, meskipun melimpah dan berspin tidak nol, jarang dipakai dalam NMR resolusi tinggi? ||| momen kuadrupol: relaksasi cepat, garis lebar
+
+**Tantangan ★**
+
+★ Dari (16.5), tunjukkan bahwa $|\boldsymbol\mu|$ dan $\mu_z$ tetap selama presesi. ||| $\tfrac{d}{dt}\mu^2 = 2\gamma\boldsymbol\mu\cdot(\boldsymbol\mu \times \mathbf B) = 0$; $\dot\mu_z = 0$
+
+## Subbab 16.2: Tingkat energi Zeeman inti
+
+**Dasar**
+
+Hitung frekuensi resonansi ¹³C dan selisih energinya (dalam J dan J/mol) dalam magnet 14,09 T. ||| 150,9 MHz; $1{,}00 \times 10^{-25}$ J; 0,060 J/mol
+Berapa frekuensi proton dalam magnet 18,79 T? ||| 800 MHz
+¹⁷O berspin $\tfrac52$. Berapa banyak tingkat Zeeman, berapa transisi yang diizinkan, dan berapa frekuensi berbeda yang muncul (tanpa interaksi kuadrupol)? ||| 6 tingkat; 5 transisi; 1 frekuensi
+Berapa kuat medan agar ¹⁹F beresonansi pada 470,4 MHz? ||| 11,74 T
+
+**Menengah**
+
+Untuk $I = \tfrac32$, hitung $|\langle m + 1|\hat I_x|m\rangle|^2$ (dalam $\hbar^2$) untuk ketiga transisi yang diizinkan. Bagaimana perbandingan intensitasnya? ||| $\tfrac34$, 1, $\tfrac34$; 3 : 4 : 3
+Spin $\tfrac12$ mula-mula dalam keadaan $(\alpha + \beta)/\sqrt2$. Dengan (16.12), tentukan $\langle\hat I_x\rangle$, $\langle\hat I_y\rangle$, dan $\langle\hat I_z\rangle$ sebagai fungsi waktu. ||| $\tfrac\hbar2\cos\omega_0t$; $\mp\tfrac\hbar2\sin\omega_0t$ (arah putar menurut tanda $\gamma$); 0
+Mengapa medan gelombang radio yang sejajar $B_0$ tidak dapat menginduksi transisi NMR? ||| perturbasi $\propto \hat I_z$, diagonal dalam basis $|m\rangle$
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa medan linear $2B_1\cos\omega t\,\hat{\mathbf x}$ sama dengan jumlah dua medan berputar berlawanan arah beramplitudo $B_1$. Mengapa komponen yang berputar berlawanan dengan presesi hampir tidak berpengaruh? ||| dalam kerangka berputar ia berputar dengan $2\omega$; pergeseran Bloch–Siegert $\sim B_1^2/4B_0$
+
+## Subbab 16.3: Populasi dan kepekaan
+
+**Dasar**
+
+Hitung selisih populasi relatif ¹³C dalam magnet 14,09 T pada 298 K. ||| $1{,}21 \times 10^{-5}$
+Hitung $N_\alpha/N_\beta$ untuk proton pada 600 MHz dan 298 K. ||| 1,0000966
+Spektrum memberi S/N = 20 dengan 64 perekaman. Berapa perekaman untuk S/N = 100? ||| 1600
+Berapa kali ¹⁹F lebih peka daripada ³¹P (pada kelimpahan alami)? ||| 12,5 kali
+
+**Menengah**
+
+Benzena cair (0,876 g/mL) mengandung ¹³C alami (1,07%). Hitung banyaknya inti ¹³C per m³ dan magnetisasi ¹³C-nya dalam 14,09 T pada 298 K. ||| $4{,}34 \times 10^{26}$ m⁻³; $1{,}87 \times 10^{-5}$ A/m
+Menurut hukum Curie, berapa kali sinyal NMR pada 278 K lebih besar daripada pada 318 K (bila hal lain sama)? ||| 1,14 kali
+Mengapa ESR, meskipun memakai elektron yang 658 kali lebih bermagnet, tidak dipakai untuk menentukan struktur molekul organik biasa? ||| molekul biasa tidak mempunyai elektron tak berpasangan
+
+**Tantangan ★**
+
+@dnp ★ [P] Setelah DNP dan pelarutan, polarisasi ¹³C suatu sampel mencapai 30%. Berapa kali lebih besar daripada polarisasi Boltzmann ¹³C pada 9,40 T dan 298 K? Berapa perekaman biasa yang setara dengan satu perekaman hiperpolarisasi? ||| $3{,}7 \times 10^4$ kali; $\sim 1{,}4 \times 10^9$ perekaman
+
+## Subbab 16.4: Perisai dan geseran kimia
+
+**Dasar**
+
+Sinyal pada $\delta = 3{,}40$ berjarak berapa Hz dari TMS pada spektrometer 300 MHz dan 800 MHz? ||| 1020 Hz; 2720 Hz
+Pada spektrometer 500 MHz, sinyal muncul 1450 Hz dari TMS. Berapa $\delta$-nya? ||| 2,90 ppm
+Urutkan $\delta$ proton metil dalam CH₃CH₃, CH₃OH, CH₃F, dan Si(CH₃)₄. ||| Si(CH₃)₄ < CH₃CH₃ < CH₃OH < CH₃F
+Sinyal ¹³C CDCl₃ pada 77,16 ppm berjarak berapa Hz dari TMS pada 100,6 MHz? ||| 7762 Hz
+
+**Menengah**
+
+Dengan rumus Lamb, hitung $\sigma_d$ untuk ion mirip hidrogen He⁺ dan Li²⁺ pada keadaan 1s. ||| $Z \times 17{,}75$: 35,5 ppm; 53,3 ppm
+Dalam model Pople, $\Delta\sigma = \frac{\mu_0}{4\pi}\frac{e^2a^2}{2m_eR^3}(3\cos^2\theta - 1)$, dengan $\theta$ sudut terhadap sumbu cincin. Hitung $\Delta\sigma$ untuk proton tepat di atas pusat benzena pada jarak 3,0 Å, dan untuk proton di bidang cincin pada jarak yang sama. ||| +2,0 ppm (terperisai); −1,0 ppm
+Mengapa $\delta$ proton OH etanol dalam CCl₄ bergeser ke kanan (medan tinggi) bila larutan diencerkan? ||| ikatan hidrogen berkurang, proton lebih terperisai
+
+**Tantangan ★**
+
+@gauss ★ [P] Hitung $\sigma_d$ atom hidrogen dengan fungsi uji Gauss teroptimasi $\psi \propto e^{-\alpha r^2}$, $\alpha = 8/9\pi$ (satuan atom). Bandingkan dengan 17,75 ppm. ||| $\langle 1/r\rangle = 8/3\pi = 0{,}849$; 15,1 ppm
+
+## Subbab 16.5: Kopling spin–spin: spektrum AX
+
+**Dasar**
+
+Ramalkan pola sinyal CH₂ dan CH₃ dalam CH₃CH₂Cl. ||| CH₂ kuartet 1 : 3 : 3 : 1; CH₃ triplet 1 : 2 : 1
+Berapa banyak garis dan berapa intensitas relatif sinyal CH dalam gugus isopropil? ||| septet 1 : 6 : 15 : 20 : 15 : 6 : 1
+Ramalkan spektrum ¹³C kloroform tanpa dekopling proton (¹J_CH = 209 Hz). ||| doblet, pemisahan 209 Hz
+Proton vinil berkopling 17 Hz dengan satu tetangga dan 10 Hz dengan tetangga lain. Di mana letak keempat garisnya relatif terhadap pusat? ||| $\pm13{,}5$ dan $\pm3{,}5$ Hz
+
+**Menengah**
+
+Ramalkan spektrum ³¹P dan ¹⁹F ion PF₆⁻ (¹J_PF ≈ 710 Hz). ||| ³¹P: septet; ¹⁹F: doblet, pemisahan 710 Hz
+Sinyal sisa DMSO-$d_6$ berasal dari CHD₂. Ramalkan polanya (²J_HD ≈ 1,9 Hz). ||| kuintet 1 : 2 : 3 : 2 : 1, jarak 1,9 Hz
+Hitung ³J dengan (16.25) untuk $\phi = 30°$, 90°, dan 150°. ||| 6,3; 1,4; 8,2 Hz
+Dengan aturan ¹J_CH ≈ 500 Hz × s, taksir karakter s ikatan C–H benzena (158 Hz) dan siklobutana (134 Hz). ||| 0,32; 0,27
+
+**Tantangan ★**
+
+@orde2 ★ [P] Dengan teori perturbasi orde dua, hitung koreksi energi keadaan $\alpha\beta$ dan $\beta\alpha$ sistem AX akibat suku penukar dalam (16.22). Tunjukkan bahwa hasilnya sama dengan uraian (16.27) untuk $J \ll \Delta\nu$. ||| $\mp J^2/4\Delta\nu$
+
+## Subbab 16.6: Spektrum orde dua (AB)
+
+**Dasar**
+
+Sistem AB dengan $\Delta\nu = 40$ Hz dan $J = 8$ Hz. Hitung $D$, letak keempat garis relatif terhadap $\bar\nu$, dan perbandingan intensitas dalam : luar. ||| 40,79 Hz; $\pm24{,}40$, $\pm16{,}40$ Hz; 1,49
+Garis-garis AB teramati di 520, 510, 490, dan 480 Hz. Tentukan $J$ dan $\Delta\nu$. ||| 10 Hz; 28,3 Hz
+Pada $\Delta\nu/J$ berapa garis dalam AB tepat dua kali lebih kuat daripada garis luar? ||| $2\sqrt2 = 2{,}83$
+
+**Menengah**
+
+Tunjukkan bahwa jumlah intensitas keempat garis AB tidak bergantung pada $\theta$. ||| $2(1 - \sin2\theta) + 2(1 + \sin2\theta) = 4$
+@abeig [P] Turunkan nilai eigen dan vektor eigen (16.27) dan (16.28) dari matriks (16.26). ||| lihat pembahasan
+Tuliskan keempat energi sistem A₂ (Zeeman ditambah kopling) dan tunjukkan bahwa spektrumnya hanya satu garis di $\nu_A$. ||| triplet: $-\nu_A + \tfrac J4$, $\tfrac J4$, $\nu_A + \tfrac J4$; singlet $-\tfrac{3J}4$; transisi hanya di dalam triplet
+
+**Tantangan ★**
+
+★ Pakai program Contoh 16.27 untuk sistem A₂X dengan $\nu_A = 0$, $\nu_X = 100$ Hz, dan $J_{AX} = 7$ Hz. Bandingkan dengan aturan $n + 1$. ||| X: garis di 93,25; 100,0; 100,49; 107,24 Hz (intensitas 0,29; 0,25; 0,25; 0,22): "triplet" condong; A: empat garis di sekitar ±3,5 Hz
+
+## Subbab 16.7: Kesetaraan kimia dan magnetik
+
+**Dasar**
+
+Tentukan notasi Pople untuk CH₃OCH₃, CH₂Cl₂, CH₃CH₂Br, dan CHF₃ (sertakan ¹⁹F). ||| A₆; A₂; A₃X₂; AX₃
+Golongkan proton CH₂ berikut sebagai homotopik, enantiotopik, atau diastereotopik: CH₂Cl₂; CH₂ dalam CH₃CH₂OH; CH₂ dalam CH₃CHClCH₂CH₃. ||| homotopik; enantiotopik; diastereotopik
+Dua tapak berpopulasi sama terpisah 50 Hz. Hitung laju pertukaran pada koalesensi. ||| 111 s⁻¹
+
+**Menengah**
+
+Dua sinyal yang terpisah 20 Hz berkoalesensi pada 320 K. Hitung $\Delta G^\ddagger$. ||| 68,5 kJ/mol
+@koal [P] Proses pada soal sebelumnya direkam dengan magnet dua kali lebih kuat, sehingga $\Delta\nu = 40$ Hz. Berapa suhu koalesensi yang baru? ||| 329 K
+Satu proton bertukar cepat antara dua lingkungan: 70% pada $\delta = 3{,}0$ dan 30% pada $\delta = 3{,}5$. Di mana sinyal rata-ratanya? ||| 3,15 ppm
+
+**Tantangan ★**
+
+★ Pada pertukaran lambat, umur terbatas di setiap tapak melebarkan garis sebesar $k/\pi$. Berapa pelebaran untuk $k = 10$ s⁻¹? Jelaskan hubungannya dengan (16.36). ||| 3,2 Hz; $1/T_2 \to 1/T_2 + k$
+
+## Subbab 16.8: Model vektor, pulsa, dan FID
+
+**Dasar**
+
+Pulsa 90° proton lamanya 8,0 μs. Hitung $\omega_1$, $B_1$, dan $\nu_1$. ||| $1{,}96 \times 10^5$ rad/s; 0,734 mT; 31,3 kHz
+Dengan $B_1$ yang sama seperti soal sebelumnya, berapa lama pulsa 90° untuk ¹³C? ||| 31,8 μs
+Pulsa 90° lamanya 12 μs. Berapa sudut balik pulsa 5 μs? ||| 37,5°
+Hitung lebar garis untuk $T_2 = 0{,}50$ s. ||| 0,64 Hz
+
+**Menengah**
+
+Spektrum ¹³C direkam pada 150,9 MHz dengan jendela 250 ppm dan 65 536 titik kompleks. Hitung SW, selang cuplikan, lama perekaman, dan resolusi digital. ||| 37,7 kHz; 26,5 μs; 1,74 s; 0,58 Hz
+Suatu garis berada 10 kHz dari pembawa, dan $\nu_1 = 25$ kHz. Berapa sudut kemiringan medan efektif dari sumbu $x'$ dan berapa frekuensi nutasi efektifnya? ||| 21,8° ke arah $z$; 26,9 kHz
+
+**Tantangan ★**
+
+@lorentz ★ [P] Hitung transformasi Fourier (16.35) untuk $s(t) = e^{i\Omega t - t/T_2}$ dan tunjukkan bahwa bagian riilnya fungsi Lorentz dengan lebar setengah tinggi $1/\pi T_2$. ||| $S = T_2/[1 + i(\omega - \Omega)T_2]$
+
+## Subbab 16.9: Relaksasi T₁ dan T₂
+
+**Dasar**
+
+Sinyal pemulihan inversi melewati nol pada 2,08 s. Berapa $T_1$? ||| 3,0 s
+Dalam percobaan gema spin, tinggi gema pada $2\tau = 100$ ms adalah 0,60 kali tinggi awal. Hitung $T_2$. ||| 0,196 s
+Berapa persen $M_z$ pulih setelah $3T_1$? ||| 95%
+
+**Menengah**
+
+Pada 600 MHz, berapa waktu korelasi yang memberi $T_1$ minimum menurut BPP? ||| 0,163 ns
+Dalam rezim penyempitan ekstrem, apa yang terjadi pada $T_1$ suatu molekul kecil bila viskositas pelarut dilipatduakan? ||| $T_1$ menjadi setengahnya
+Hitung faktor peningkatan NOE maksimum untuk ³¹P bila proton dijenuhkan. ||| $\eta = 1{,}23$; faktor 2,23
+
+**Tantangan ★**
+
+@bpp ★ [P] Tunjukkan bahwa $T_1$ dalam (16.41) minimum pada $\omega_0\tau_c \approx 0{,}616$. ||| lihat pembahasan
+
+## Subbab 16.10: Konsep NMR dua dimensi
+
+**Dasar**
+
+Ramalkan puncak silang COSY etil propanoat, CH₃CH₂COOCH₂CH₃ ($\delta$ 1,14; 2,32; 4,12; 1,26). ||| (1,14; 2,32) dan (1,26; 4,12), masing-masing berpasangan simetris; tidak ada antara kedua gugus etil
+Puncak NOE rujukan pada 2,5 Å bervolume 1,0. Puncak lain bervolume 0,20. Taksir jaraknya. ||| 3,27 Å
+Berapa lama percobaan 2D dengan 512 nilai $t_1$, 4 perekaman per nilai, dan 1,5 s per perekaman? ||| 51,2 menit
+
+**Menengah**
+
+Berapa puncak dalam spektrum ¹H–¹³C HSQC etanol? Mengapa proton OH tidak muncul? ||| 2; OH tidak terikat pada karbon
+Hitung keuntungan kepekaan deteksi proton untuk ²⁹Si menurut faktor $(\gamma_\text{H}/|\gamma_X|)^{5/2}$. ||| 57 kali
+
+**Tantangan ★**
+
+★ Galat 10% pada volume puncak NOE menimbulkan galat berapa persen pada jarak? Mengapa ini menguntungkan? ||| 1,6%; $r \propto V^{-1/6}$
+
+## Subbab 16.11: ESR: faktor g dan kopling hiperhalus
+
+**Dasar**
+
+Di medan berapa DPPH ($g = 2{,}0036$) beresonansi pada 9,75 GHz? ||| 347,7 mT
+Berapa garis ESR suatu radikal dengan dua inti ¹⁴N setara, dan berapa intensitasnya? ||| 5 garis, 1 : 2 : 3 : 2 : 1
+Ramalkan spektrum ·CD₃ (banyak garis, intensitas, dan jarak), bila $a_\text{H}$ ·CH₃ = 2,30 mT. ||| 7 garis 1 : 3 : 6 : 7 : 6 : 3 : 1; 0,353 mT
+Nyatakan $a = 1{,}00$ mT dalam MHz untuk $g = 2{,}0023$. ||| 28,0 MHz
+
+**Menengah**
+
+Radikal etil ·CH₂CH₃ mempunyai $a(\text{CH}_2) = 2{,}24$ mT dan $a(\text{CH}_3) = 2{,}69$ mT. Berapa banyak garis yang diharapkan bila semuanya terurai? ||| $3 \times 4 = 12$
+Radikal alil mempunyai SOMO Hückel dengan koefisien $1/\sqrt2$, 0, $-1/\sqrt2$. Ramalkan $a_\text{H}$ proton ujung dan proton tengah dengan $Q = -2{,}7$ mT. Data: ujung ≈ 1,4 mT; tengah ≈ 0,41 mT. Apa yang gagal? ||| ujung 1,35 mT; tengah 0; rapat spin negatif dari polarisasi spin
+Hitung selisih populasi relatif elektron pada pita X (9,5 GHz) pada 298 K dan 77 K. ||| $7{,}6 \times 10^{-4}$; $3{,}0 \times 10^{-3}$
+
+**Tantangan ★**
+
+@he3 ★ [P] Tunjukkan bahwa tetapan hiperhalus ion mirip hidrogen sebanding dengan $g_NZ^3$. Ramalkan $a$ untuk ion ³He⁺ ($g_N = -4{,}2552$) dari nilai atom H (1422,8 MHz, tanpa koreksi massa tereduksi). ||| $-8671$ MHz (terukur $-8665$ MHz)
+
+## Subbab 16.12: MRI
+
+**Dasar**
+
+Hitung frekuensi Larmor proton pada 3,0 T dan sebaran frekuensi sepanjang 25 cm dengan gradien 40 mT/m. ||| 127,7 MHz; 426 kHz
+Hitung tebal irisan bila lebar pita pulsa 2,0 kHz dan $G_z = 20$ mT/m. ||| 2,35 mm
+Medan pandang 25,6 cm dengan matriks 512. Berapa ukuran piksel? ||| 0,50 mm
+
+**Menengah**
+
+Dengan $T_R = 300$ ms, hitung faktor $1 - e^{-T_R/T_1}$ untuk lemak ($T_1 = 250$ ms) dan otot ($T_1 = 900$ ms). Jaringan mana yang terang pada citra berbobot T₁? ||| 0,70; 0,28; lemak
+Jaringan dengan $T_1 = 1{,}2$ s mengandung 0,20 mM bahan kontras ($r_1 = 4{,}0$ mM⁻¹ s⁻¹). Hitung $T_1$ yang baru. ||| 0,61 s
+
+**Tantangan ★**
+
+★ Aktivitas otak memanjangkan $T_2^*$ jaringan dari 50 ms menjadi 52 ms. Hitung perubahan relatif sinyal pada $T_E = 30$ ms. ||| +2,3%
