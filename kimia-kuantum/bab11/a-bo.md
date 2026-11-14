@@ -172,6 +172,34 @@ Perhitungan yang sangat teliti menunjukkan bahwa koreksi terhadap pendekatan Bor
 **Memahami hasil.** Kesalahan nyata bahkan lebih kecil daripada perkiraan orde besaran, karena sebagian besar koreksi juga ada pada atom-atom terpisah dan saling meniadakan ketika selisihnya diambil. Untuk molekul H₂, molekul dengan inti paling ringan, pendekatan Born–Oppenheimer sudah benar sampai empat angka penting. Pada molekul organik biasa, kesalahan itu tidak berarti, sehingga seluruh kimia komputasi (Bab 17) dibangun di atas (11.2).
 :::
 
+::: {.dalam}
+**Lebih dalam · Kopling nonadiabatik**
+
+Pendekatan Born–Oppenheimer dapat diperbaiki secara sistematis. Fungsi gelombang eksak selalu dapat diuraikan atas fungsi elektronik semua keadaan, $\Psi = \sum_n\psi_n(\mathbf r; \mathbf R)\chi_n(\mathbf R)$ (uraian Born–Huang). Memasukkan uraian ini ke $\hat H\Psi = E\Psi$ dan memproyeksikan pada $\psi_n$ memberi persamaan inti yang saling terkait:
+
+$$
+\left[\hat T_N + U_n(\mathbf R) + \Lambda_{nn}\right]\chi_n + \sum_{m \ne n}\Lambda_{nm}\chi_m = E\chi_n ,
+$$
+
+dengan operator kopling $\Lambda_{nm}$ yang memuat $\langle\psi_n|\nabla_A\psi_m\rangle$ dan $\langle\psi_n|\nabla_A^2\psi_m\rangle$, dibagi massa inti. Pendekatan Born–Oppenheimer mengabaikan semua $\Lambda$; **pendekatan adiabatik** mempertahankan suku diagonal $\Lambda_{nn}$ sebagai koreksi kecil pada potensial. Suku nondiagonal dapat ditulis dengan rumus yang mirip teorema Hellmann–Feynman (subbab 11.16):
+
+$$
+\langle\psi_n|\nabla_A\psi_m\rangle = \frac{\langle\psi_n|(\nabla_A\hat H_\text{el})|\psi_m\rangle}{U_m - U_n}, \qquad m \ne n .
+$$
+
+Penyebut $U_m - U_n$ menjelaskan semuanya: kopling kecil bila keadaan-keadaan elektronik berjauhan energinya, dan meledak bila dua permukaan mendekat. Di situlah inti dapat berpindah dari satu permukaan ke permukaan lain.
+:::
+
+::: {.contoh}
+**Contoh 11.5 · Satu kurva, tiga molekul**
+
+H₂, HD, dan D₂ berbagi kurva $U(R)$ yang sama dengan $D_e = 4{,}7474$ eV. Tetapan getarannya ($\omega_e$, $\omega_ex_e$ dalam cm⁻¹): H₂ (4401,2; 121,3), HD (3813,1; 91,65), D₂ (3115,5; 61,82). Hitung $D_0$ ketiganya dan bandingkan dengan nilai terukur 4,478, 4,514, dan 4,556 eV.
+
+**Penyelesaian.** $G(0) = \tfrac12\omega_e - \tfrac14\omega_ex_e$: H₂ 2170,3 cm⁻¹ (0,2691 eV); HD 1883,6 cm⁻¹ (0,2335 eV); D₂ 1542,3 cm⁻¹ (0,1912 eV). Maka $D_0$ = 4,478, 4,514, dan 4,556 eV.
+
+**Memahami hasil.** Ketiga nilai cocok dengan pengukuran sampai angka ketiga di belakang koma, padahal satu-satunya masukan elektronik adalah satu angka $D_e$. Kecocokan ini adalah bukti paling langsung bahwa kurva Born–Oppenheimer memang tidak bergantung pada massa inti. Selisih $D_0$ seluruhnya berasal dari energi titik nol, dan selisih inilah yang menimbulkan efek isotop kinetik (subbab 5.10): ikatan C–D lebih sulit diputus daripada C–H karena energi titik nolnya lebih rendah di dasar sumur yang sama.
+:::
+
 ::: {.kuis}
 **Kuis cepat 11.1**
 
@@ -211,7 +239,7 @@ dengan $T_e$ energi minimum kurva, $B_v = B_e - \alpha_e(v + \tfrac12)$, dan $D$
 Arah sebaliknya juga mungkin: dari tingkat getaran dan rotasi yang diukur teliti, kurva $U(R)$ dapat direkonstruksi titik demi titik dengan metode Rydberg–Klein–Rees (RKR), tanpa memilih bentuk fungsi tertentu. Kurva RKR adalah tolok ukur paling langsung untuk menguji perhitungan kimia kuantum.
 
 ::: {.contoh}
-**Contoh 11.5 · Dari $D_e$ ke $D_0$ untuk H₂**
+**Contoh 11.6 · Dari $D_e$ ke $D_0$ untuk H₂**
 
 Perhitungan kuantum yang sangat teliti memberi $D_e = 4{,}7474$ eV untuk H₂. Dengan $\omega_e = 4401{,}2$ cm⁻¹ dan $\omega_ex_e = 121{,}3$ cm⁻¹, hitung energi titik nol dan $D_0$, lalu bandingkan dengan nilai terukur 4,4781 eV.
 
@@ -221,9 +249,9 @@ Perhitungan kuantum yang sangat teliti memberi $D_e = 4{,}7474$ eV untuk H₂. D
 :::
 
 ::: {.contoh}
-**Contoh 11.6 · Seberapa baik potensial Morse?**
+**Contoh 11.7 · Seberapa baik potensial Morse?**
 
-Dengan (5.28), perkirakan $D_e$ H₂ dari $\omega_e$ dan $\omega_ex_e$ di Contoh 11.5, serta banyak tingkat getaran terikat menurut potensial Morse. Kenyataannya, H₂ mempunyai 15 tingkat getaran terikat ($v = 0$ sampai 14).
+Dengan (5.28), perkirakan $D_e$ H₂ dari $\omega_e$ dan $\omega_ex_e$ di Contoh 11.6, serta banyak tingkat getaran terikat menurut potensial Morse. Kenyataannya, H₂ mempunyai 15 tingkat getaran terikat ($v = 0$ sampai 14).
 
 **Penyelesaian.** $D_e = \omega_e^2/4\omega_ex_e = 4401{,}2^2/(4 \times 121{,}3) = 39\,923$ cm⁻¹ $= 4{,}95$ eV. Bilangan $v$ maksimum: $\omega_e/2\omega_ex_e - \tfrac12 = 17{,}6$, jadi 18 tingkat ($v = 0$ sampai 17).
 
@@ -231,7 +259,7 @@ Dengan (5.28), perkirakan $D_e$ H₂ dari $\omega_e$ dan $\omega_ex_e$ di Contoh
 :::
 
 ::: {.contoh}
-**Contoh 11.7 · Rotasi meregangkan ikatan**
+**Contoh 11.8 · Rotasi meregangkan ikatan**
 
 Tetapan gaya H₂ adalah 575 N/m dan $R_e = 74{,}14$ pm. Dengan menyamakan gaya pemulih $k\,\delta R$ dengan gaya sentrifugal $L^2/\mu R_e^3$, perkirakan pertambahan panjang ikatan pada $J = 5$, 10, dan 20.
 
@@ -244,6 +272,68 @@ Tetapan gaya H₂ adalah 575 N/m dan $R_e = 74{,}14$ pm. Dengan menyamakan gaya 
 **Kaitan kimia · Permukaan energi potensial dan reaksi**
 
 Kurva energi potensial molekul diatom adalah kasus satu dimensi dari permukaan energi potensial. Untuk reaksi H + H₂ → H₂ + H, permukaannya bergantung pada tiga jarak antaratom. Henry Eyring dan Michael Polanyi membangun permukaan itu secara semiempiris pada 1931, dan dari sana lahir teori keadaan transisi: laju reaksi ditentukan oleh tinggi titik pelana pada permukaan energi potensial. Kini permukaan itu dihitung dari persamaan elektronik (11.2) dengan ketelitian lebih baik dari 0,1 kJ/mol, dan simulasi gerak inti di atasnya mereproduksi penampang lintang reaksi yang diukur dengan berkas molekul. Seluruh dinamika reaksi adalah "inti bergerak pada permukaan Born–Oppenheimer".
+:::
+
+::: {.contoh}
+**Contoh 11.9 · Tingkat getaran H₂⁺ dari kurva eksak**
+
+Kurva eksak H₂⁺ dari Contoh 11.12 (energi pada sekitar 40 nilai $R$) dapat dipakai sebagai $U(R)$ dalam persamaan inti (11.4) dengan $J = 0$. Selesaikan persamaan itu secara numerik dengan metode beda hingga: turunan kedua diganti $[S(R + h) - 2S(R) + S(R - h)]/h^2$, sehingga persamaan menjadi masalah nilai eigen matriks tridiagonal. Hitung tingkat-tingkat getaran, $D_0$, dan jarak rata-rata $\langle R\rangle$ pada $v = 0$.
+
+**Penyelesaian.**
+
+```python
+import numpy as np
+from scipy.interpolate import CubicSpline
+from scipy.linalg import eigh_tridiagonal
+U = CubicSpline(R_data, E_data)          # kurva eksak (bohr, hartree)
+mu = 1836.15 / 2                         # massa tereduksi dua proton (satuan atom)
+R = np.linspace(0.8, 12, 6000); h = R[1] - R[0]
+diag = 1 / (mu * h**2) + U(R)            # -(1/2mu) d2/dR2 dengan beda hingga
+off = -np.ones(len(R) - 1) / (2 * mu * h**2)
+E, S = eigh_tridiagonal(diag, off, select='v', select_range=(-0.7, -0.5))
+print((E - E[0])[:6] * 219474.6)         # G(v) - G(0) dalam cm^-1
+print((-0.5 - E[0]) * 27.2114)           # D0 dalam eV
+```
+
+Hasilnya: $G(v) - G(0) = 0$, 2192, 4257, 6199, 8021, 9726 cm⁻¹, dengan selisih berturut-turut 2192, 2065, 1942, 1822, 1705 cm⁻¹; $D_0 = 2{,}650$ eV. Dari fungsi $v = 0$, $\langle R\rangle = 2{,}063$ bohr $= 109{,}2$ pm, sedangkan $R_e = 105{,}7$ pm. Sebanyak 18 tingkat ditemukan di bawah ambang disosiasi (Gambar 11.1).
+
+**Memahami hasil.** Selisih tingkat pertama, $\Delta G_{1/2} = 2192$ cm⁻¹, cocok dengan nilai spektroskopi 2191 cm⁻¹, dan $D_0$ cocok dengan 2,651 eV. Selisih yang mengecil teratur sekitar 120 cm⁻¹ per tingkat adalah anharmonisitas: $\omega_ex_e \approx 62$ cm⁻¹. Jarak rata-rata $\langle R\rangle$ lebih besar daripada $R_e$ karena sumurnya tidak simetris: dinding luar lebih landai daripada dinding dalam. Rantai perhitungan ini, dari persamaan elektronik ke kurva potensial ke spektrum getaran, adalah resep umum spektroskopi teoretis. Perhitungan teliti memberi satu tingkat lagi yang sangat dekat ambang, sehingga H₂⁺ mempunyai 19 tingkat terikat untuk $J = 0$.
+:::
+
+![Gambar 11.1 Kurva energi potensial eksak H₂⁺ dengan tingkat-tingkat getaran ($J = 0$) yang dihitung dari kurva itu dengan metode beda hingga. Tingkat-tingkat makin rapat ke atas; garis putus-putus adalah ambang disosiasi H + H⁺.](fig/c_vib_h2p.png){width=78%}
+
+::: {.dalam}
+**Lebih dalam · Kurva potensial dari spektrum: metode RKR**
+
+Bagaimana kurva $U(R)$ dibaca dari spektrum tanpa memilih bentuk fungsinya lebih dahulu? Rydberg, Klein, dan Rees memakai kaidah kuantisasi semiklasik: untuk setiap tingkat getaran dengan energi $E = G(v)$, dua titik balik klasik $R_-(v)$ dan $R_+(v)$ (tempat $U = E$) memenuhi
+
+$$
+R_\pm = \sqrt{f^2 + f/g} \pm f ,
+$$
+
+dengan dua integral atas bilangan kuantum getaran yang diperlakukan sebagai variabel kontinu,
+
+$$
+f = \frac{\hbar}{\sqrt{2\mu}}\int_{-1/2}^{v}\frac{dv'}{\sqrt{G(v) - G(v')}}, \qquad g = \frac{\sqrt{2\mu}}{\hbar}\int_{-1/2}^{v}\frac{B_{v'}\,dv'}{\sqrt{G(v) - G(v')}} ,
+$$
+
+(energi $G$ dan $B$ dalam satuan energi). Integral $f$ memberi *lebar* sumur pada energi $G(v)$, $f = \tfrac12(R_+ - R_-)$; integral $g$, yang memuat tetapan rotasi, memberi *posisi* sumur melalui $\langle 1/R^2\rangle$. Masukannya hanyalah $G(v)$ dan $B_v$ yang terukur. Integral itu mempunyai singularitas yang dapat diintegrasikan di ujung atas, dan dihitung dengan mudah secara numerik.
+:::
+
+::: {.contoh}
+**Contoh 11.10 · Titik balik H₂ dengan RKR**
+
+Dengan $G(v) = \omega_e(v + \tfrac12) - \omega_ex_e(v + \tfrac12)^2$ dan $B_v = B_e - \alpha_e(v + \tfrac12)$ untuk H₂ ($\omega_e = 4401{,}2$, $\omega_ex_e = 121{,}3$, $B_e = 60{,}853$, $\alpha_e = 3{,}062$ cm⁻¹), integrasi numerik rumus RKR memberi titik balik berikut. Bandingkan dengan titik balik osilator harmonik pada $v = 0$, yaitu $R_e \pm \sqrt{2G(0)/k}$.
+
+| $v$ | $G(v)$ (cm⁻¹) | $R_-$ (pm) | $R_+$ (pm) |
+|---|---|---|---|
+| 0 | 2170 | 63,3 | 88,3 |
+| 1 | 6329 | 57,1 | 101,4 |
+| 3 | 13 918 | 51,0 | 122,3 |
+
+**Penyelesaian.** Dengan $k = 575$ N/m dan $G(0) = 2170{,}3$ cm⁻¹ $= 4{,}311 \times 10^{-20}$ J: $\sqrt{2G(0)/k} = 12{,}2$ pm, sehingga titik balik harmonik 61,9 dan 86,4 pm, simetris di sekitar 74,1 pm. Titik balik RKR 63,3 dan 88,3 pm.
+
+**Memahami hasil.** Bahkan pada $v = 0$, sumur nyata tidak simetris: dinding dalam lebih curam, dinding luar lebih landai, sehingga kedua titik balik bergeser ke luar sekitar 1,5–2 pm. Ketidaksimetrisan bertambah dengan $v$: pada $v = 3$, $R_+$ berjarak 48 pm dari $R_e$ sedangkan $R_-$ hanya 23 pm. Kurva RKR untuk ratusan molekul diatom adalah data baku yang dipakai untuk menguji perhitungan seperti di bab ini, dan untuk menghitung faktor Franck–Condon (subbab 15.7).
 :::
 
 ::: {.kuis}

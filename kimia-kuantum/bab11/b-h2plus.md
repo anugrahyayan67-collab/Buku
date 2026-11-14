@@ -4,7 +4,7 @@
 
 Ion H₂⁺ terdiri atas dua proton dan satu elektron. Ion ini terbentuk ketika H₂ diionisasi (dalam lucutan gas, di atmosfer atas, dan di ruang antarbintang, tempat ia menjadi bahan awal pembentukan H₃⁺), dan energi ikatnya, 2,65 eV, adalah lebih dari separuh energi ikat H₂ meskipun elektronnya hanya satu. Bagi teori, H₂⁺ adalah molekul yang sama pentingnya dengan atom hidrogen bagi teori atom: karena tidak ada tolakan antarelektron, persamaan Schrödingernya (dengan inti diam) dapat diselesaikan secara eksak. Setiap gagasan tentang orbital molekul, ikatan dan antiikatan, σ dan π, dapat diuji di sini terhadap jawaban yang benar.
 
-Letakkan proton $A$ dan $B$ pada sumbu $z$ dengan jarak $R$, dan sebut jarak elektron ke masing-masing proton $r_A$ dan $r_B$ (Gambar 11.1). Dalam satuan atom, Hamiltonian elektronik (11.2) adalah
+Letakkan proton $A$ dan $B$ pada sumbu $z$ dengan jarak $R$, dan sebut jarak elektron ke masing-masing proton $r_A$ dan $r_B$ (Gambar 11.2). Dalam satuan atom, Hamiltonian elektronik (11.2) adalah
 
 $$
 \hat H_\text{el} = -\frac12\nabla^2 - \frac{1}{r_A} - \frac{1}{r_B} + \frac1R . \qquad \text{(11.6)}
@@ -12,7 +12,7 @@ $$
 
 Suku $1/R$ hanyalah tetapan untuk setiap $R$; ia menggeser energi tetapi tidak mengubah fungsi gelombang.
 
-![Gambar 11.1 Koordinat ion H₂⁺. Kiri: proton $A$ dan $B$ pada sumbu $z$ berjarak $R$; elektron berjarak $r_A$ dan $r_B$ dari keduanya. Kanan: koordinat eliptik. Garis biru adalah elips dengan $\lambda = (r_A + r_B)/R$ tetap (fokus di kedua inti), garis jingga adalah hiperbola dengan $\mu = (r_A - r_B)/R$ tetap.](fig/c_koordinat.png){width=92%}
+![Gambar 11.2 Koordinat ion H₂⁺. Kiri: proton $A$ dan $B$ pada sumbu $z$ berjarak $R$; elektron berjarak $r_A$ dan $r_B$ dari keduanya. Kanan: koordinat eliptik. Garis biru adalah elips dengan $\lambda = (r_A + r_B)/R$ tetap (fokus di kedua inti), garis jingga adalah hiperbola dengan $\mu = (r_A - r_B)/R$ tetap.](fig/c_koordinat.png){width=92%}
 
 ### Simetri dan bilangan kuantum
 
@@ -70,7 +70,7 @@ Di sini $\partial_\phi^2 \to -m^2$ dan dipakai identitas $(\lambda^2 - \mu^2)/[(
 :::
 
 ::: {.contoh}
-**Contoh 11.8 · Titik-titik istimewa dalam koordinat eliptik**
+**Contoh 11.11 · Titik-titik istimewa dalam koordinat eliptik**
 
 Tentukan $(\lambda, \mu)$ untuk (a) inti $A$, (b) inti $B$, (c) titik tengah antarinti, (d) titik pada sumbu di belakang $A$ sejauh $R/2$ dari $A$, dan (e) titik yang sangat jauh.
 
@@ -80,7 +80,7 @@ Tentukan $(\lambda, \mu)$ untuk (a) inti $A$, (b) inti $B$, (c) titik tengah ant
 :::
 
 ::: {.contoh}
-**Contoh 11.9 · Menyelesaikan H₂⁺ dengan Python**
+**Contoh 11.12 · Menyelesaikan H₂⁺ dengan Python**
 
 Persamaan (11.10) untuk $M(\mu)$ dapat diselesaikan dengan menguraikan $M$ atas polinom Legendre, sehingga $A$ menjadi nilai eigen matriks. Persamaan (11.9) untuk $\Lambda(\lambda)$ diintegrasikan dari $\lambda = 1$ ke luar, dan $p$ disesuaikan sampai $\Lambda$ meluruh di tak hingga (metode tembak, seperti subbab 5.12). Tuliskan programnya untuk keadaan dasar ($m = 0$, $M$ genap) dan hitung energi pada $R = 2{,}00$ bohr.
 
@@ -109,15 +109,15 @@ E_el = -2 * p**2 / R**2
 print(E_el, E_el + 1 / R)                  # -1.1026342  -0.6026342
 ```
 
-**Memahami hasil.** Energi elektronik $-1{,}1026342$ hartree dan energi total $-0{,}6026342$ hartree cocok dengan nilai baku dalam literatur sampai semua angka yang ditampilkan. Syarat awal di $\lambda = 1$ diperoleh dari persamaan itu sendiri: koefisien turunan kedua lenyap di sana, sehingga fungsi yang berhingga harus memenuhi $2\Lambda'(1) = -(A + 2R - p^2)\Lambda(1)$. Dengan program yang sama untuk banyak nilai $R$, diperoleh kurva energi potensial eksak (Gambar 11.2).
+**Memahami hasil.** Energi elektronik $-1{,}1026342$ hartree dan energi total $-0{,}6026342$ hartree cocok dengan nilai baku dalam literatur sampai semua angka yang ditampilkan. Syarat awal di $\lambda = 1$ diperoleh dari persamaan itu sendiri: koefisien turunan kedua lenyap di sana, sehingga fungsi yang berhingga harus memenuhi $2\Lambda'(1) = -(A + 2R - p^2)\Lambda(1)$. Dengan program yang sama untuk banyak nilai $R$, diperoleh kurva energi potensial eksak (Gambar 11.3).
 :::
 
-![Gambar 11.2 Kurva energi potensial H₂⁺. Garis tebal: penyelesaian eksak untuk keadaan $1\sigma_g$ (bawah) dan $1\sigma_u$ (atas). Garis putus-putus: LCAO dengan dua orbital 1s ($\zeta = 1$). Energi diukur relatif terhadap H(1s) + H⁺ ($-0{,}5$ hartree). LCAO menangkap ikatan secara kualitatif, tetapi jarak setimbangnya terlalu panjang dan sumurnya terlalu dangkal.](fig/c_kurva_h2p.png){width=82%}
+![Gambar 11.3 Kurva energi potensial H₂⁺. Garis tebal: penyelesaian eksak untuk keadaan $1\sigma_g$ (bawah) dan $1\sigma_u$ (atas). Garis putus-putus: LCAO dengan dua orbital 1s ($\zeta = 1$). Energi diukur relatif terhadap H(1s) + H⁺ ($-0{,}5$ hartree). LCAO menangkap ikatan secara kualitatif, tetapi jarak setimbangnya terlalu panjang dan sumurnya terlalu dangkal.](fig/c_kurva_h2p.png){width=82%}
 
 Hasil eksak untuk keadaan dasar: jarak setimbang $R_e = 1{,}997$ bohr $= 105{,}7$ pm, energi total $-0{,}60263$ hartree, sehingga $D_e = 0{,}10263$ hartree $= 2{,}793$ eV. Setelah dikurangi energi titik nol getaran (0,14 eV), $D_0 = 2{,}65$ eV, cocok dengan nilai spektroskopi 2,651 eV. Keadaan tereksitasi pertama, $1\sigma_u$, tidak mempunyai minimum sama sekali: energinya lebih tinggi daripada H + H⁺ di setiap $R$, sehingga ion yang dieksitasi ke keadaan ini langsung terurai.
 
 ::: {.contoh}
-**Contoh 11.10 · Energi ikat H₂⁺ dalam berbagai satuan**
+**Contoh 11.13 · Energi ikat H₂⁺ dalam berbagai satuan**
 
 Dari energi eksak di $R_e$, $E = -0{,}60263$ hartree, hitung $D_e$ dalam eV, kJ/mol, dan cm⁻¹. Bandingkan dengan $D_e$ H₂ (4,747 eV).
 
@@ -127,7 +127,7 @@ Dari energi eksak di $R_e$, $E = -0{,}60263$ hartree, hitung $D_e$ dalam eV, kJ/
 :::
 
 ::: {.contoh}
-**Contoh 11.11 · Batas atom bersatu dan atom terpisah**
+**Contoh 11.14 · Batas atom bersatu dan atom terpisah**
 
 Apa energi elektronik $E_\text{el}$ keadaan dasar H₂⁺ untuk $R \to 0$ dan $R \to \infty$? Bagaimana dengan energi total?
 
@@ -228,12 +228,12 @@ $$
 
 ### Hasilnya
 
-Dengan (11.16), energi (11.15) dapat dihitung untuk setiap $R$. Kurva $E_+$ mempunyai minimum di $R_e = 2{,}49$ bohr (132 pm) dengan $D_e = 0{,}0648$ hartree $= 1{,}76$ eV; kurva $E_-$ selalu menolak (Gambar 11.2 dan 11.3). Dibandingkan dengan hasil eksak (106 pm, 2,79 eV), LCAO sederhana menangkap gejala utamanya, yaitu bahwa satu kombinasi mengikat dan yang lain tidak, tetapi meleset banyak secara kuantitatif.
+Dengan (11.16), energi (11.15) dapat dihitung untuk setiap $R$. Kurva $E_+$ mempunyai minimum di $R_e = 2{,}49$ bohr (132 pm) dengan $D_e = 0{,}0648$ hartree $= 1{,}76$ eV; kurva $E_-$ selalu menolak (Gambar 11.3 dan 11.4). Dibandingkan dengan hasil eksak (106 pm, 2,79 eV), LCAO sederhana menangkap gejala utamanya, yaitu bahwa satu kombinasi mengikat dan yang lain tidak, tetapi meleset banyak secara kuantitatif.
 
-![Gambar 11.3 Integral LCAO H₂⁺ sebagai fungsi jarak antarinti (satuan atom). Kiri: tumpang tindih $S$, integral Coulomb $J$, dan integral pertukaran $K$; garis titik-titik adalah $-1/R$. Kanan: sumbangan klasik $J + 1/R$ (selalu positif) dan sumbangan pertukaran terhadap energi ikat.](fig/c_integral.png){width=95%}
+![Gambar 11.4 Integral LCAO H₂⁺ sebagai fungsi jarak antarinti (satuan atom). Kiri: tumpang tindih $S$, integral Coulomb $J$, dan integral pertukaran $K$; garis titik-titik adalah $-1/R$. Kanan: sumbangan klasik $J + 1/R$ (selalu positif) dan sumbangan pertukaran terhadap energi ikat.](fig/c_integral.png){width=95%}
 
 ::: {.contoh}
-**Contoh 11.12 · Menghitung integral di $R = 2$ bohr**
+**Contoh 11.15 · Menghitung integral di $R = 2$ bohr**
 
 Hitung $S$, $J$, $K$, $E_+$, dan $E_-$ untuk $R = 2{,}00$ bohr, serta perubahan energinya terhadap H + H⁺ dalam eV.
 
@@ -249,7 +249,7 @@ Dengan (11.15): $E_+ = -0{,}5 + 0{,}5 + (-0{,}4725 - 0{,}4060)/1{,}5865 = -0{,}5
 :::
 
 ::: {.contoh}
-**Contoh 11.13 · Energi Coulomb klasik tidak mengikat**
+**Contoh 11.16 · Energi Coulomb klasik tidak mengikat**
 
 Tunjukkan bahwa $J + 1/R = (1 + 1/R)e^{-2R}$ dan bahwa besaran ini positif untuk semua $R$. Apa artinya?
 
@@ -259,7 +259,7 @@ Tunjukkan bahwa $J + 1/R = (1 + 1/R)e^{-2R}$ dan bahwa besaran ini positif untuk
 :::
 
 ::: {.contoh}
-**Contoh 11.14 · Mencari minimum dengan Python**
+**Contoh 11.17 · Mencari minimum dengan Python**
 
 Tulis program untuk mencari $R_e$ dan $D_e$ kurva $E_+$ LCAO.
 
@@ -281,7 +281,7 @@ print(r.x, -0.5 - r.fun, (-0.5 - r.fun) * 27.2114)   # 2.493  0.0648  1.764
 :::
 
 ::: {.contoh}
-**Contoh 11.15 · Orbital yang menyusut: eksponen $\zeta$**
+**Contoh 11.18 · Orbital yang menyusut: eksponen $\zeta$**
 
 Ganti orbital atom dengan $1s = (\zeta^3/\pi)^{1/2}e^{-\zeta r}$ dan optimalkan $\zeta$ bersama $R$. Hasil optimasi numeriknya: $\zeta = 1{,}238$, $R_e = 2{,}003$ bohr, $E = -0{,}58651$ hartree. Hitung $D_e$ dan tafsirkan $\zeta$ di batas $R \to 0$ dan $R \to \infty$.
 
@@ -291,13 +291,30 @@ Ganti orbital atom dengan $1s = (\zeta^3/\pi)^{1/2}e^{-\zeta r}$ dan optimalkan 
 :::
 
 ::: {.contoh}
-**Contoh 11.16 · Polarisasi: menambah orbital 2p**
+**Contoh 11.19 · Polarisasi: menambah orbital 2p**
 
 Awan elektron dalam molekul tidak bersimetri bola di sekitar setiap inti; ia tertarik ke arah inti tetangga. Tambahkan pada setiap atom orbital $2p_z$ yang mengarah ke inti lain, dengan eksponennya sendiri, lalu selesaikan masalah variasi 4 × 4 secara numerik. Hasil optimasi: $\zeta_{1s} = 1{,}246$, $\zeta_{2p} = 1{,}48$, $R_e = 2{,}001$ bohr, $E = -0{,}60036$ hartree. Hitung $D_e$ dan bandingkan dengan nilai eksak.
 
 **Penyelesaian.** $D_e = (0{,}60036 - 0{,}5) \times 27{,}211 = 2{,}731$ eV, yaitu 97,8% dari 2,793 eV.
 
 **Memahami hasil.** Fungsi $2p_z$ sendiri hampir tidak mengubah energi atom H terpisah, tetapi dalam molekul ia memungkinkan awan 1s bergeser ke daerah antarinti. Fungsi seperti ini disebut **fungsi polarisasi**, dan menjadi bagian baku setiap himpunan basis dalam kimia komputasi (subbab 17.5, basis seperti 6-31G** atau cc-pVDZ). Urutan perbaikan 1,76 → 2,35 → 2,73 → 2,79 eV memperlihatkan pola yang umum: fungsi uji yang lebih lentur selalu memberi energi lebih rendah (teorema variasi), dan setiap tambahan fisis yang tepat membawa sebagian besar sisa kesalahan.
+:::
+
+::: {.contoh}
+**Contoh 11.20 · Di mana LCAO paling meleset?**
+
+Bandingkan energi total LCAO ($\zeta = 1$) dan eksak H₂⁺ pada beberapa jarak (hartree):
+
+| $R$ (bohr) | 1,0 | 1,5 | 2,0 | 2,5 | 3,0 | 4,0 | 6,0 |
+|---|---|---|---|---|---|---|---|
+| eksak | $-0{,}4518$ | $-0{,}5823$ | $-0{,}6026$ | $-0{,}5938$ | $-0{,}5776$ | $-0{,}5461$ | $-0{,}5120$ |
+| LCAO | $-0{,}2884$ | $-0{,}4950$ | $-0{,}5538$ | $-0{,}5648$ | $-0{,}5591$ | $-0{,}5369$ | $-0{,}5091$ |
+
+Hitung kesalahan LCAO dalam eV dan jelaskan polanya.
+
+**Penyelesaian.** Kesalahan (LCAO − eksak) $\times 27{,}211$: 4,45; 2,38; 1,33; 0,79; 0,50; 0,25; 0,08 eV.
+
+**Memahami hasil.** Kesalahan hampir lenyap pada jarak besar, tempat elektron memang berada di satu atom H yang tidak terganggu, dan membesar tajam ketika inti didekatkan. Penyebabnya adalah batas atom bersatu: orbital $\zeta = 1$ terlalu menyebar untuk elektron yang ditarik dua proton. Karena kesalahan lebih besar di jarak pendek, minimum LCAO bergeser ke jarak yang lebih besar (2,49 bohr) dan sumurnya terlalu dangkal. Pola ini umum dalam kimia komputasi: basis yang tidak cukup lentur memberi ikatan yang terlalu panjang dan terlalu lemah.
 :::
 
 ::: {.awas}

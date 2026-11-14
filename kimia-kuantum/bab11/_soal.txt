@@ -103,7 +103,7 @@ Dari tabel energi eksak pada $R = 2$ bohr, keadaan mana yang bersifat $g$? ||| $
 
 Tumpang tindih δ antara $d_{xy}$ dua atom sebanding dengan $\cos2\phi$, dengan $\phi$ sudut puntir. Hitung faktor ini untuk konformasi tindih ($0°$), $22{,}5°$, dan bersilang ($45°$). ||| 1; 0,707; 0
 Dengan diagram korelasi, ke orbital atom terpisah mana $3d\sigma_g$ dan $3d\pi_g$ menuju? ||| $\sigma_g2p$; $\pi_g^*2p$
-Dengan tumpang tindih di Contoh 11.22, jelaskan mengapa F₂ hampir tidak mempunyai ikatan π bersih meskipun orbital $1\pi_u$ dan $1\pi_g$ terisi penuh. ||| keduanya terisi; tumpang tindih π kecil
+Dengan tumpang tindih di Contoh 11.26, jelaskan mengapa F₂ hampir tidak mempunyai ikatan π bersih meskipun orbital $1\pi_u$ dan $1\pi_g$ terisi penuh. ||| keduanya terisi; tumpang tindih π kecil
 
 **Tantangan ★**
 
@@ -137,13 +137,13 @@ Mengapa pita fotoelektron yang lebar dengan deret getaran panjang menandai elekt
 
 **Menengah**
 
-Ulangi model 2 × 2 Contoh 11.29 untuk O₂ dengan energi tak bercampur $-33{,}0$ dan $-16{,}5$ eV serta kopling $-3{,}0$ eV. Berapa pergeseran $3\sigma_g$? ||| 0,53 eV; $3\sigma_g$ di $-15{,}97$ eV
+Ulangi model 2 × 2 Contoh 11.35 untuk O₂ dengan energi tak bercampur $-33{,}0$ dan $-16{,}5$ eV serta kopling $-3{,}0$ eV. Berapa pergeseran $3\sigma_g$? ||| 0,53 eV; $3\sigma_g$ di $-15{,}97$ eV
 Dari bilangan gelombang ion N₂⁺ (2207, 1903, 2420 cm⁻¹), hitung jarak antarpuncak deret getaran ketiga pita fotoelektron N₂ dalam eV. ||| 0,274; 0,236; 0,300 eV
 Mengapa orbital $2\sigma_u$ N₂ hanya lemah antiikatan? ||| bercampur dengan $3\sigma_u$; berkarakter pasangan bebas
 
 **Tantangan ★**
 
-@pert [P] ★ Bandingkan pergeseran eksak pada Contoh 11.29 (0,765 eV) dengan perkiraan perturbasi (11.19). Kapan perkiraan orde kedua dapat dipercaya? ||| 0,818 eV; bila $H_{12}$ jauh lebih kecil daripada selisih energi
+@pert [P] ★ Bandingkan pergeseran eksak pada Contoh 11.35 (0,765 eV) dengan perkiraan perturbasi (11.19). Kapan perkiraan orde kedua dapat dipercaya? ||| 0,818 eV; bila $H_{12}$ jauh lebih kecil daripada selisih energi
 
 ## Subbab 11.9: Lambang suku molekul
 

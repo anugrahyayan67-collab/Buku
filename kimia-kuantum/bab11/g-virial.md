@@ -56,7 +56,7 @@ Penurunan ini hanya memakai dua hal: semua gaya bersifat Coulomb (sebanding $1/r
 
 ### Apa yang terjadi selama pembentukan ikatan
 
-Dengan kurva eksak H₂⁺ dan (11.38), diperoleh perubahan energi kinetik dan potensial relatif terhadap H + H⁺ ($\Delta T = T - 0{,}5$, $\Delta V = V + 1$) untuk setiap jarak (Gambar 11.11):
+Dengan kurva eksak H₂⁺ dan (11.38), diperoleh perubahan energi kinetik dan potensial relatif terhadap H + H⁺ ($\Delta T = T - 0{,}5$, $\Delta V = V + 1$) untuk setiap jarak (Gambar 11.12):
 
 | $R$ (bohr) | $\Delta E$ | $\Delta T$ | $\Delta V$ |
 |---|---|---|---|
@@ -67,14 +67,14 @@ Dengan kurva eksak H₂⁺ dan (11.38), diperoleh perubahan energi kinetik dan p
 | 2,0 | $-0{,}103$ | $+0{,}102$ | $-0{,}205$ |
 | 1,0 | $+0{,}048$ | $+0{,}473$ | $-0{,}425$ |
 
-(Semua dalam hartree.) Ketika atom-atom mulai mendekat dari jauh, energi **kinetik** turun sementara energi potensial sedikit naik: elektron yang dapat menyebar ke dua inti mempunyai fungsi gelombang yang lebih landai, persis seperti efek delokalisasi di Contoh 11.20. Penurunan energi kinetik inilah yang pertama-tama membuat atom-atom saling menarik. Di sekitar $R \approx 3$ bohr pola berbalik: awan elektron menyusut ke arah inti (seperti $\zeta$ yang naik di Contoh 11.15), energi potensial turun tajam, dan energi kinetik naik. Di jarak setimbang, hasil akhirnya sesuai (11.36): $\Delta T = -\Delta E = +0{,}103$ dan $\Delta V = 2\Delta E = -0{,}205$ hartree.
+(Semua dalam hartree.) Ketika atom-atom mulai mendekat dari jauh, energi **kinetik** turun sementara energi potensial sedikit naik: elektron yang dapat menyebar ke dua inti mempunyai fungsi gelombang yang lebih landai, persis seperti efek delokalisasi di Contoh 11.24. Penurunan energi kinetik inilah yang pertama-tama membuat atom-atom saling menarik. Di sekitar $R \approx 3$ bohr pola berbalik: awan elektron menyusut ke arah inti (seperti $\zeta$ yang naik di Contoh 11.18), energi potensial turun tajam, dan energi kinetik naik. Di jarak setimbang, hasil akhirnya sesuai (11.36): $\Delta T = -\Delta E = +0{,}103$ dan $\Delta V = 2\Delta E = -0{,}205$ hartree.
 
-![Gambar 11.11 Teorema virial untuk H₂⁺ eksak. Perubahan energi total $\Delta E$, kinetik $\Delta T$, dan potensial $\Delta V$ relatif terhadap H + H⁺, dihitung dari kurva $E(R)$ dengan (11.38). Pada jarak besar ikatan dimulai oleh penurunan energi kinetik; di jarak setimbang energi kinetik justru naik dan energi potensial turun dua kali penurunan energi total.](fig/c_virial.png){width=82%}
+![Gambar 11.12 Teorema virial untuk H₂⁺ eksak. Perubahan energi total $\Delta E$, kinetik $\Delta T$, dan potensial $\Delta V$ relatif terhadap H + H⁺, dihitung dari kurva $E(R)$ dengan (11.38). Pada jarak besar ikatan dimulai oleh penurunan energi kinetik; di jarak setimbang energi kinetik justru naik dan energi potensial turun dua kali penurunan energi total.](fig/c_virial.png){width=82%}
 
 Dua cerita yang tampak bertentangan tentang ikatan kimia, "ikatan menurunkan energi potensial" dan "ikatan menurunkan energi kinetik", karena itu sama-sama benar, pada tahap yang berbeda. Analisis Klaus Ruedenberg (1962) menafsirkannya demikian: penyebab utama ikatan kovalen adalah penurunan energi kinetik akibat interferensi konstruktif (delokalisasi) orbital atom; penyusutan orbital yang menyertainya mengubah keuntungan kinetik itu menjadi keuntungan potensial, sehingga di jarak setimbang teorema virial terpenuhi. Kimiawan masih memperdebatkan bobot relatif kedua mekanisme, tetapi teorema virial menjamin bahwa setiap cerita yang hanya menyebut "potensial" atau hanya "kinetik" tidak lengkap.
 
 ::: {.contoh}
-**Contoh 11.55 · Energi kinetik dan potensial di jarak setimbang**
+**Contoh 11.66 · Energi kinetik dan potensial di jarak setimbang**
 
 Energi eksak H₂⁺ di $R_e$ adalah $-0{,}60263$ hartree, dan energi eksak H₂ di $R_e$ adalah $-1{,}17447$ hartree. Hitung $\langle T\rangle$ dan $\langle V\rangle$ untuk keduanya, serta perubahannya relatif terhadap atom-atom terpisah.
 
@@ -84,23 +84,39 @@ Energi eksak H₂⁺ di $R_e$ adalah $-0{,}60263$ hartree, dan energi eksak H₂
 :::
 
 ::: {.contoh}
-**Contoh 11.56 · Fungsi uji yang melanggar teorema virial**
+**Contoh 11.67 · Fungsi uji yang melanggar teorema virial**
 
 Untuk LCAO H₂⁺ dengan $\zeta = 1$ di minimumnya ($R = 2{,}493$ bohr), $T = 0{,}3827$ dan $V = -0{,}9475$ hartree. Dengan $\zeta = 1{,}238$ dioptimalkan ($R = 2{,}003$ bohr), $T = 0{,}5865$ dan $V = -1{,}1730$ hartree. Hitung $-V/T$ untuk keduanya.
 
 **Penyelesaian.** $\zeta = 1$: $-V/T = 0{,}9475/0{,}3827 = 2{,}48$. $\zeta$ optimal: $1{,}1730/0{,}5865 = 2{,}000$.
 
-**Memahami hasil.** Fungsi dengan $\zeta = 1$ melanggar teorema virial jauh sekali: energi kinetiknya bahkan *lebih kecil* daripada atom H (0,38 < 0,50), berlawanan dengan Contoh 11.55. Fungsi itu menangkap efek delokalisasi tetapi tidak menangkap penyusutan orbital. Setelah $\zeta$ dioptimalkan, perbandingan $-V/T$ menjadi tepat 2, seperti dijanjikan kotak *Lebih dalam*. Pemeriksaan $-V/T = 2$ adalah uji kualitas sederhana untuk fungsi gelombang pendekatan, dan program kimia kuantum sering mencetak "rasio virial" untuk tujuan ini.
+**Memahami hasil.** Fungsi dengan $\zeta = 1$ melanggar teorema virial jauh sekali: energi kinetiknya bahkan *lebih kecil* daripada atom H (0,38 < 0,50), berlawanan dengan Contoh 11.66. Fungsi itu menangkap efek delokalisasi tetapi tidak menangkap penyusutan orbital. Setelah $\zeta$ dioptimalkan, perbandingan $-V/T$ menjadi tepat 2, seperti dijanjikan kotak *Lebih dalam*. Pemeriksaan $-V/T = 2$ adalah uji kualitas sederhana untuk fungsi gelombang pendekatan, dan program kimia kuantum sering mencetak "rasio virial" untuk tujuan ini.
 :::
 
 ::: {.contoh}
-**Contoh 11.57 · Gaya dari energi kinetik dan potensial**
+**Contoh 11.68 · Gaya dari energi kinetik dan potensial**
 
 Dari tabel di atas, pada $R = 3{,}0$ bohr: $E = -0{,}57756$, $T = 0{,}47488$, $V = -1{,}05244$ hartree. Gunakan (11.37) untuk menghitung $dE/dR$ dan gaya antarinti. Apakah inti saling menarik atau menolak di jarak ini?
 
 **Penyelesaian.** $2T + V = 0{,}94976 - 1{,}05244 = -0{,}10268$, sehingga $dE/dR = 0{,}10268/3{,}0 = 0{,}0342$ hartree/bohr. Gaya $F = -dE/dR = -0{,}0342$ hartree/bohr (tanda negatif: berlawanan arah pertambahan $R$), yaitu tarikan sebesar $0{,}0342 \times 82{,}39 = 2{,}8$ nN.
 
 **Memahami hasil.** Teorema virial memberi cara lain menghitung gaya dari komponen energi: bila $2T + V < 0$, inti saling menarik; bila $> 0$, menolak; bila $= 0$, setimbang. Gaya 2,8 nN, meskipun kecil secara makroskopis, sangat besar untuk sepasang atom: sebanding dengan gaya yang diukur mikroskop gaya atom ketika menarik satu molekul sampai ikatannya putus.
+:::
+
+::: {.dalam}
+**Lebih dalam · Tiga tahap pembentukan ikatan menurut Ruedenberg**
+
+Ruedenberg menguraikan pembentukan ikatan H₂⁺ dan H₂ menjadi langkah-langkah yang masing-masing dapat dihitung. (1) **Promosi**: orbital atom menyusut (eksponen $\zeta$ naik), yang sendirian menaikkan energi atom karena orbitalnya tidak lagi optimal; energi kinetik naik, energi potensial turun, tetapi totalnya naik. (2) **Interferensi** (pembagian elektron): orbital-orbital yang sudah menyusut digabungkan; interferensi konstruktif memindahkan kerapatan dari daerah dekat inti ke daerah antarinti dan menurunkan energi kinetik secara besar, sementara energi potensial sedikit naik karena elektron meninggalkan daerah dekat inti yang potensialnya paling dalam. (3) **Kuasi-klasik**: tarikan elektrostatik antara awan atom dan inti tetangga, yang hampir dibatalkan tolakan antarinti (seperti $J + 1/R$ di Contoh 11.16). Menurut analisis ini, keuntungan energi bersih datang terutama dari langkah (2), penurunan energi kinetik oleh interferensi, sedangkan langkah (1) diperlukan agar keuntungan itu dapat dimanfaatkan sepenuhnya dan agar teorema virial terpenuhi. Analisis serupa untuk ikatan antaratom yang lebih berat, seperti dalam B₂ dan C₂, memberi gambaran yang sama, meskipun peran tolakan Pauli kulit dalam membuat neraca lebih rumit.
+:::
+
+::: {.contoh}
+**Contoh 11.69 · Rasio virial sebagai uji fungsi gelombang H₂**
+
+Untuk keempat fungsi H₂ di subbab 11.12, energi kinetik dan potensial di minimum masing-masing adalah (hartree): OM $\zeta = 1$: $T = 0{,}797$, $V = -1{,}896$; OM $\zeta$ optimal: $T = 1{,}128$, $V = -2{,}256$; Heitler–London $\zeta = 1$: $T = 0{,}838$, $V = -1{,}954$; Wang: $T = 1{,}139$, $V = -2{,}278$. Hitung $-V/T$ dan tafsirkan.
+
+**Penyelesaian.** OM $\zeta = 1$: 2,38; OM optimal: 2,000; Heitler–London: 2,33; Wang: 2,000.
+
+**Memahami hasil.** Fungsi dengan $\zeta = 1$ mempunyai energi kinetik jauh di bawah nilai eksak (1,174 hartree): elektron dalam orbital atom H yang tidak berubah bergerak "terlalu lambat" untuk molekul. Setelah $\zeta$ dioptimalkan, rasio menjadi tepat 2, tetapi itu tidak berarti energinya tepat: fungsi OM dan Wang yang optimal masih meleset 1,3 dan 1,0 eV. Teorema virial adalah syarat perlu, bukan syarat cukup. Perhitungan $\zeta$ optimal H₂⁺ untuk banyak $R$ menunjukkan pola yang sejalan dengan Gambar 11.12: $\zeta = 0{,}995$ pada 6 bohr (orbital sedikit *mengembang*, energi kinetik turun), 1,03 pada 4 bohr, 1,24 pada 2 bohr, dan 1,54 pada 1 bohr (orbital menyusut kuat, energi kinetik naik).
 :::
 
 ::: {.kuis}
@@ -139,7 +155,7 @@ $$
 
 ### Daerah mengikat dan antiikat
 
-Persamaan (11.40) memberi cara yang sangat gamblang untuk memahami ikatan. Setiap unsur kerapatan elektron menarik kedua inti ke arahnya. Bila unsur itu berada di antara inti, tarikannya pada $A$ ke arah $B$ dan pada $B$ ke arah $A$: ia mendekatkan inti. Bila berada di belakang $A$ (di sisi yang jauh dari $B$), ia menarik $A$ menjauhi $B$ lebih kuat daripada menarik $B$ ke arah $A$: ia menjauhkan inti. T. Berlin (1951) membagi ruang menjadi **daerah mengikat** dan **daerah antiikat** dengan batas berupa dua permukaan berbentuk mangkuk yang membuka ke luar, melalui kedua inti (Gambar 11.12). Untuk molekul homonuklir, sebuah titik berada di daerah mengikat bila
+Persamaan (11.40) memberi cara yang sangat gamblang untuk memahami ikatan. Setiap unsur kerapatan elektron menarik kedua inti ke arahnya. Bila unsur itu berada di antara inti, tarikannya pada $A$ ke arah $B$ dan pada $B$ ke arah $A$: ia mendekatkan inti. Bila berada di belakang $A$ (di sisi yang jauh dari $B$), ia menarik $A$ menjauhi $B$ lebih kuat daripada menarik $B$ ke arah $A$: ia menjauhkan inti. T. Berlin (1951) membagi ruang menjadi **daerah mengikat** dan **daerah antiikat** dengan batas berupa dua permukaan berbentuk mangkuk yang membuka ke luar, melalui kedua inti (Gambar 11.13). Untuk molekul homonuklir, sebuah titik berada di daerah mengikat bila
 
 $$
 \frac{\cos\theta_A}{r_A^2} + \frac{\cos\theta_B}{r_B^2} > 0 , \qquad \text{(11.41)}
@@ -147,20 +163,20 @@ $$
 
 dengan $\theta_A$ sudut di inti $A$ antara arah ke titik itu dan arah ke inti $B$ (demikian pula $\theta_B$). Ikatan terbentuk bila cukup banyak kerapatan elektron berpindah ke daerah mengikat untuk mengimbangi tolakan antarinti, dan orbital antiikatan memindahkan kerapatan ke daerah antiikat.
 
-![Gambar 11.12 Daerah mengikat (biru muda) dan antiikat (putih) untuk molekul diatom homonuklir menurut kriteria Berlin (11.41), dengan kontur kerapatan elektron orbital $1\sigma_g$ H₂⁺ ($\zeta = 1{,}24$, $R = 2$ bohr). Kerapatan di daerah mengikat menarik kedua inti satu sama lain; kerapatan di belakang inti menarik keduanya menjauh.](fig/c_berlin.png){width=80%}
+![Gambar 11.13 Daerah mengikat (biru muda) dan antiikat (putih) untuk molekul diatom homonuklir menurut kriteria Berlin (11.41), dengan kontur kerapatan elektron orbital $1\sigma_g$ H₂⁺ ($\zeta = 1{,}24$, $R = 2$ bohr). Kerapatan di daerah mengikat menarik kedua inti satu sama lain; kerapatan di belakang inti menarik keduanya menjauh.](fig/c_berlin.png){width=80%}
 
 ::: {.contoh}
-**Contoh 11.58 · Gaya yang menahan H₂⁺**
+**Contoh 11.70 · Gaya yang menahan H₂⁺**
 
 Di jarak setimbang H₂⁺ ($R_e = 1{,}997$ bohr), gaya total pada setiap proton nol. Hitung gaya tolak antarproton dan gaya tarik yang harus diberikan awan elektron, dalam satuan atom dan nanonewton (1 hartree/bohr $= 82{,}39$ nN).
 
 **Penyelesaian.** Tolakan $1/R_e^2 = 1/1{,}997^2 = 0{,}2507$ hartree/bohr $= 20{,}7$ nN. Menurut (11.40), awan elektron harus menarik setiap proton ke arah proton lain dengan gaya yang sama, 20,7 nN.
 
-**Memahami hasil.** Awan satu elektron, yang separuhnya berada "di sisi" proton lain, harus menarik setiap proton seolah-olah ada muatan $-1$ pada jarak $R_e$ di arah proton tetangga. Itu hanya mungkin bila kerapatan elektron sedikit bergeser dari setiap proton ke arah daerah antarinti: awan di sekitar setiap inti terpolarisasi ke arah ikatan. Pergeseran kecil inilah yang ditangkap oleh fungsi polarisasi di Contoh 11.16.
+**Memahami hasil.** Awan satu elektron, yang separuhnya berada "di sisi" proton lain, harus menarik setiap proton seolah-olah ada muatan $-1$ pada jarak $R_e$ di arah proton tetangga. Itu hanya mungkin bila kerapatan elektron sedikit bergeser dari setiap proton ke arah daerah antarinti: awan di sekitar setiap inti terpolarisasi ke arah ikatan. Pergeseran kecil inilah yang ditangkap oleh fungsi polarisasi di Contoh 11.19.
 :::
 
 ::: {.contoh}
-**Contoh 11.59 · Teorema Hellmann–Feynman untuk atom H**
+**Contoh 11.71 · Teorema Hellmann–Feynman untuk atom H**
 
 Ambil $\lambda = Z$ dalam Hamiltonian ion mirip hidrogen, $\hat H = -\tfrac12\nabla^2 - Z/r$, dengan $E = -Z^2/2$. Gunakan (11.39) untuk menghitung $\langle 1/r\rangle$.
 
@@ -170,7 +186,7 @@ Ambil $\lambda = Z$ dalam Hamiltonian ion mirip hidrogen, $\hat H = -\tfrac12\na
 :::
 
 ::: {.contoh}
-**Contoh 11.60 · Gaya Pulay: ketika teorema tampak gagal**
+**Contoh 11.72 · Gaya Pulay: ketika teorema tampak gagal**
 
 Untuk LCAO H₂⁺ dengan $\zeta = 1$, energi minimum di $R = 2{,}493$ bohr, jadi $dE/dR = 0$ di sana. Namun integrasi numerik ruas kanan (11.39) dengan fungsi LCAO itu memberi tarikan elektron pada setiap proton hanya 0,0994 hartree/bohr, sedangkan tolakan antarproton $1/R^2 = 0{,}1609$ hartree/bohr. Hitung gaya "Hellmann–Feynman" bersih dan jelaskan mengapa tidak nol.
 
@@ -180,13 +196,23 @@ Untuk LCAO H₂⁺ dengan $\zeta = 1$, energi minimum di $R = 2{,}493$ bohr, jad
 :::
 
 ::: {.contoh}
-**Contoh 11.61 · Asal gaya dispersi menurut Feynman**
+**Contoh 11.73 · Asal gaya dispersi menurut Feynman**
 
 Dua atom gas mulia yang berjauhan saling menarik lemah (gaya van der Waals, sebanding $R^{-7}$). Menurut teorema elektrostatik, gaya pada inti hanyalah tarikan oleh awan elektron dan tolakan oleh inti lain. Bagaimana tarikan muncul bila masing-masing atom netral dan bersimetri bola?
 
 **Penyelesaian.** Fluktuasi korelasi antara elektron kedua atom (dipol sesaat yang saling menginduksi) membuat awan elektron setiap atom sedikit bergeser ke arah atom lain. Awan yang bergeser itu kini sedikit tidak simetris terhadap intinya sendiri, dan menarik intinya sendiri ke arah atom tetangga. Inilah yang Feynman sebut "dipol atom": gaya dispersi bekerja pada setiap inti melalui awan elektronnya sendiri yang terpolarisasi, bukan melalui awan atom lain.
 
 **Memahami hasil.** Penjelasan ini, yang diberikan Feynman dalam makalah sarjananya pada 1939, menunjukkan kekuatan teorema elektrostatik: setiap gaya antarmolekul, dari ikatan kovalen sampai gaya van der Waals, dapat dibaca dari peta kerapatan elektron. Gaya dispersi sangat sulit ditangkap oleh teori fungsional kerapatan yang sederhana, karena pergeseran awan yang diperlukan sangat kecil dan berasal dari korelasi elektron (subbab 17.15).
+:::
+
+::: {.contoh}
+**Contoh 11.74 · Gaya yang memutus ikatan**
+
+Bila sebuah molekul ditarik dari kedua ujungnya, gaya pemulih $dE/dR$ naik dari nol di $R_e$, mencapai maksimum di titik belok kurva potensial, lalu turun ke nol pada disosiasi. (a) Dari kurva eksak H₂⁺, gaya pemulih maksimum adalah 0,0342 hartree/bohr di $R \approx 3{,}0$ bohr. Nyatakan dalam nN. (b) Untuk potensial Morse, gaya maksimum adalah $aD_e/2$. Hitung untuk H₂ ($a = 1{,}944$ Å⁻¹, $D_e = 4{,}747$ eV).
+
+**Penyelesaian.** (a) $0{,}0342 \times 82{,}39 = 2{,}82$ nN. (b) $aD_e/2 = (1{,}944 \times 10^{10}\ \text{m}^{-1})(4{,}747 \times 1{,}602 \times 10^{-19}\ \text{J})/2 = 7{,}39 \times 10^{-9}$ N $= 7{,}4$ nN.
+
+**Memahami hasil.** Gaya putus ikatan berorde beberapa nanonewton. Ikatan dua elektron H₂ sekitar 2,6 kali lebih "kuat" terhadap tarikan daripada ikatan satu elektron H₂⁺. Percobaan mikroskop gaya atom yang menarik satu rantai polimer yang ditambatkan secara kovalen memperlihatkan putusnya ikatan kovalen tunggal pada gaya sekitar 2 nN, sesuai orde besaran ini. Kimia mekanik (*mechanochemistry*) memanfaatkan gaya sebesar ini untuk mempercepat reaksi tertentu: tarikan mekanis memiringkan permukaan energi potensial, persis seperti medan listrik memiringkan potensial dalam efek Stark.
 :::
 
 ::: {.terapan}

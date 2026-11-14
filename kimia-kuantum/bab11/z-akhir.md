@@ -182,7 +182,7 @@ Pakai satuan atom bila tidak disebut lain: 1 hartree $= 27{,}211$ eV, 1 bohr $= 
 
 **41.** Dengan diagram korelasi, ke orbital atom terpisah mana $3d\sigma_g$ dan $3d\pi_g$ menuju?
 
-**42.** Dengan tumpang tindih di Contoh 11.22, jelaskan mengapa F₂ hampir tidak mempunyai ikatan π bersih meskipun orbital $1\pi_u$ dan $1\pi_g$ terisi penuh.
+**42.** Dengan tumpang tindih di Contoh 11.26, jelaskan mengapa F₂ hampir tidak mempunyai ikatan π bersih meskipun orbital $1\pi_u$ dan $1\pi_g$ terisi penuh.
 
 **Tantangan ★**
 
@@ -222,7 +222,7 @@ Pakai satuan atom bila tidak disebut lain: 1 hartree $= 27{,}211$ eV, 1 bohr $= 
 
 **Menengah**
 
-**54.** Ulangi model 2 × 2 Contoh 11.29 untuk O₂ dengan energi tak bercampur $-33{,}0$ dan $-16{,}5$ eV serta kopling $-3{,}0$ eV. Berapa pergeseran $3\sigma_g$?
+**54.** Ulangi model 2 × 2 Contoh 11.35 untuk O₂ dengan energi tak bercampur $-33{,}0$ dan $-16{,}5$ eV serta kopling $-3{,}0$ eV. Berapa pergeseran $3\sigma_g$?
 
 **55.** Dari bilangan gelombang ion N₂⁺ (2207, 1903, 2420 cm⁻¹), hitung jarak antarpuncak deret getaran ketiga pita fotoelektron N₂ dalam eV.
 
@@ -230,7 +230,7 @@ Pakai satuan atom bila tidak disebut lain: 1 hartree $= 27{,}211$ eV, 1 bohr $= 
 
 **Tantangan ★**
 
-**57.** [P] ★ Bandingkan pergeseran eksak pada Contoh 11.29 (0,765 eV) dengan perkiraan perturbasi (11.19). Kapan perkiraan orde kedua dapat dipercaya?
+**57.** [P] ★ Bandingkan pergeseran eksak pada Contoh 11.35 (0,765 eV) dengan perkiraan perturbasi (11.19). Kapan perkiraan orde kedua dapat dipercaya?
 
 ## Subbab 11.9: Lambang suku molekul
 

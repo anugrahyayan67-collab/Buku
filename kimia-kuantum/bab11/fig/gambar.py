@@ -236,3 +236,17 @@ ax.set_xticks([]); ax.set_yticks([])
 for s in ax.spines.values(): s.set_visible(False)
 sv(f, 'c_berlin.png')
 print('selesai')
+
+# ------------------------------------------------ 13. tingkat getaran H2+ dari kurva eksak
+from scipy.linalg import eigh_tridiagonal
+U = CubicSpline(Rx, Eg); mu = 1836.15267 / 2
+Rg = np.linspace(0.8, 12, 6000); hh = Rg[1] - Rg[0]
+Ev, Sv = eigh_tridiagonal(1 / (mu * hh ** 2) + U(Rg), -np.ones(len(Rg) - 1) / (2 * mu * hh ** 2), select='v', select_range=(-0.7, -0.5))
+f, ax = plt.subplots(figsize=(5.4, 3.5)); sp(ax)
+Rp = np.linspace(1.0, 11, 400); ax.plot(Rp, (U(Rp) + 0.5) * EV, color=TUA, lw=1.8)
+for e in Ev:
+    m = U(Rp) <= e; ax.plot(Rp[m], np.full(m.sum(), (e + 0.5) * EV), color=B, lw=0.8)
+ax.axhline(0, color='#999', lw=0.7, ls='--'); ax.set_xlim(1.0, 11); ax.set_ylim(-2.9, 0.4)
+ax.set_xlabel('$R$ (bohr)'); ax.set_ylabel('$E - E(\\mathrm{H} + \\mathrm{H}^+)$ (eV)'); koma(ax)
+sv(f, 'c_vib_h2p.png')
+print('tingkat:', len(Ev))

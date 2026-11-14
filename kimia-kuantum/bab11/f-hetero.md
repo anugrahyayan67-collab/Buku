@@ -29,12 +29,12 @@ $$
 \text{HF:}\quad (1\sigma)^2(2\sigma)^2(3\sigma)^2(1\pi)^4 ,
 $$
 
-dengan $1\sigma$ = F 1s, $2\sigma$ ≈ F 2s, $3\sigma$ = ikatan σ (terutama F $2p_z$ dengan sedikit H 1s), dan $1\pi$ = dua pasangan elektron bebas F. Orbital $4\sigma^*$ kosong didominasi H 1s. Tiga pasangan bebas struktur Lewis H–F̈: ternyata terdiri atas satu pasangan dengan karakter s ($2\sigma$) dan dua pasangan π yang berdegenerasi. Diagram tingkat energinya, bersama diagram CO yang dibahas di bawah, ada pada Gambar 11.10.
+dengan $1\sigma$ = F 1s, $2\sigma$ ≈ F 2s, $3\sigma$ = ikatan σ (terutama F $2p_z$ dengan sedikit H 1s), dan $1\pi$ = dua pasangan elektron bebas F. Orbital $4\sigma^*$ kosong didominasi H 1s. Tiga pasangan bebas struktur Lewis H–F̈: ternyata terdiri atas satu pasangan dengan karakter s ($2\sigma$) dan dua pasangan π yang berdegenerasi. Diagram tingkat energinya, bersama diagram CO yang dibahas di bawah, ada pada Gambar 11.11.
 
-![Gambar 11.10 Diagram OM valensi HF (kiri) dan CO (kanan). Orbital atom digambar pada energi ionisasi valensi rata-ratanya; OM terisi digambar pada energi ionisasi vertikal terukur, dan OM kosong secara kualitatif. Pada HF, orbital $1\pi$ (pasangan bebas F) tidak mempunyai pasangan di H. Pada CO, HOMO $5\sigma$ dan LUMO $2\pi^*$ terkonsentrasi di karbon.](fig/c_mo_hf_co.png){width=95%}
+![Gambar 11.11 Diagram OM valensi HF (kiri) dan CO (kanan). Orbital atom digambar pada energi ionisasi valensi rata-ratanya; OM terisi digambar pada energi ionisasi vertikal terukur, dan OM kosong secara kualitatif. Pada HF, orbital $1\pi$ (pasangan bebas F) tidak mempunyai pasangan di H. Pada CO, HOMO $5\sigma$ dan LUMO $2\pi^*$ terkonsentrasi di karbon.](fig/c_mo_hf_co.png){width=95%}
 
 ::: {.contoh}
-**Contoh 11.47 · Ikatan σ dalam HF**
+**Contoh 11.55 · Ikatan σ dalam HF**
 
 Pakai (11.31) dengan $\alpha_\text{F} = -18{,}7$ eV, $\alpha_\text{H} = -13{,}6$ eV, dan $\beta = -4{,}0$ eV. Hitung energi $3\sigma$ dan $4\sigma^*$, komposisi $3\sigma$, dan muatan pada F jika kedua elektron $3\sigma$ dibagi menurut kuadrat koefisien. Perkirakan momen dipol ($R = 91{,}7$ pm) dan bandingkan dengan nilai terukur 1,83 D.
 
@@ -48,7 +48,7 @@ Pakai (11.31) dengan $\alpha_\text{F} = -18{,}7$ eV, $\alpha_\text{H} = -13{,}6$
 Pada LiH, Li 2s ($-5{,}4$ eV) jauh di atas H 1s ($-13{,}6$ eV). Orbital ikatan hampir seluruhnya H 1s, dan molekulnya mendekati Li⁺H⁻: senyawa hidrida, dengan hidrogen sebagai anion. Ini kebalikan dari HF, tempat hidrogen menjadi ujung positif. Hidrogen bersifat "di tengah": ia menjadi kation terhadap atom yang lebih elektronegatif dan anion terhadap logam alkali.
 
 ::: {.contoh}
-**Contoh 11.48 · LiH, molekul yang hampir ionik**
+**Contoh 11.56 · LiH, molekul yang hampir ionik**
 
 Dengan $\alpha_\text{H} = -13{,}6$ eV, $\alpha_\text{Li} = -5{,}39$ eV, dan $\beta = -2{,}5$ eV, hitung komposisi orbital ikatan, muatan H, dan momen dipol ($R = 159{,}5$ pm). Bandingkan dengan nilai terukur 5,88 D dan dengan dipol muatan titik $\pm e$.
 
@@ -68,7 +68,7 @@ $$
 dengan orde ikatan 3, seperti N₂. Ciri pentingnya ada di HOMO dan LUMO. Orbital $5\sigma$ (energi ionisasi 14,0 eV) adalah analog $3\sigma_g$ N₂, tetapi karena pencampuran s–p yang kuat ia terkonsentrasi di **karbon**, mengarah menjauhi O, seperti pasangan elektron bebas karbon. Orbital $2\pi^*$ (LUMO) juga lebih besar di karbon. Pita fotoelektron $1\pi$ (16,9 eV) dan $4\sigma$ (19,7 eV) melengkapi gambaran yang mirip N₂.
 
 ::: {.contoh}
-**Contoh 11.49 · Mengapa logam terikat pada karbon, bukan oksigen**
+**Contoh 11.57 · Mengapa logam terikat pada karbon, bukan oksigen**
 
 Dalam kompleks karbonil logam seperti Cr(CO)₆ dan Ni(CO)₄, CO hampir selalu terikat melalui atom C. Selain itu, bilangan gelombang ulur C≡O turun dari 2143 cm⁻¹ (CO bebas) ke sekitar 2000 cm⁻¹ dalam Cr(CO)₆. Jelaskan keduanya dengan orbital perbatasan CO.
 
@@ -78,13 +78,33 @@ Dalam kompleks karbonil logam seperti Cr(CO)₆ dan Ni(CO)₄, CO hampir selalu 
 :::
 
 ::: {.contoh}
-**Contoh 11.50 · NO dan NO⁺**
+**Contoh 11.58 · NO dan NO⁺**
 
 Nitrogen oksida mempunyai 15 elektron, satu lebih banyak daripada CO. Tentukan konfigurasi, orde ikatan, dan lambang suku NO dan NO⁺. Bilangan gelombang ulur NO adalah 1876 cm⁻¹, sedangkan NO⁺ dalam garam nitrosonium sekitar 2300 cm⁻¹.
 
 **Penyelesaian.** NO: $\ldots(1\pi)^4(5\sigma)^2(2\pi^*)^1$, orde $\tfrac12(8 - 3) = 2{,}5$, satu elektron π: $^2\Pi$. NO⁺: $\ldots(5\sigma)^2$, kulit tertutup, orde 3, $^1\Sigma^+$, isoelektronik dengan CO dan N₂.
 
 **Memahami hasil.** Melepas elektron antiikatan menaikkan orde ikatan dari 2,5 ke 3 dan frekuensi ulur sekitar 400 cm⁻¹. Energi ionisasi NO sangat rendah (9,26 eV) karena elektron itu berada di orbital antiikatan. NO adalah radikal yang stabil dan sekaligus molekul pembawa sinyal biologis (vasodilator); elektron tak berpasangannya membuatnya terikat kuat pada besi hem dalam enzim guanilat siklase.
+:::
+
+::: {.contoh}
+**Contoh 11.59 · HeH⁺, molekul pertama di alam semesta**
+
+Ion HeH⁺ mempunyai dua elektron, seperti H₂, tetapi kedua intinya berbeda. Energi ionisasi He (24,6 eV) jauh lebih besar daripada H (13,6 eV). (a) Ke atom mana orbital ikatan condong? (b) Ion ini terurai menjadi He + H⁺ dengan $D_0 = 1{,}84$ eV. Mengapa bukan He⁺ + H? (c) Garis rotasi $J = 1 \to 0$ HeH⁺ berada di 149,1 µm. Hitung frekuensinya.
+
+**Penyelesaian.** (a) Orbital ikatan didominasi He 1s, yang energinya jauh lebih rendah; kedua elektron sebagian besar berada di He, dan muatan positif sebagian besar di H. (b) Pembagian He + H⁺ menempatkan kedua elektron di atom dengan energi ionisasi lebih besar; He⁺ + H memerlukan tambahan $24{,}6 - 13{,}6 = 11{,}0$ eV. (c) $\nu = c/\lambda = 3{,}00 \times 10^8/(1{,}491 \times 10^{-4}) = 2{,}01 \times 10^{12}$ Hz $= 2{,}01$ THz.
+
+**Memahami hasil.** HeH⁺ dapat dipandang sebagai proton yang terikat pada atom He: energi $D_0$-nya sama dengan afinitas proton helium (178 kJ/mol), yang terkecil di antara semua atom dan molekul netral, sehingga HeH⁺ adalah asam terkuat yang dikenal. Setelah alam semesta mendingin cukup untuk membentuk atom netral, He adalah atom pertama yang netral, dan reaksi He + H⁺ menghasilkan HeH⁺ sebagai molekul pertama. Garis 2,01 THz-nya baru terdeteksi pada 2019, dari nebula planeter NGC 7027, dengan teleskop inframerah yang diterbangkan dengan pesawat (SOFIA), karena atmosfer Bumi menyerap panjang gelombang itu.
+:::
+
+::: {.contoh}
+**Contoh 11.60 · Model ionik molekul NaCl**
+
+Dalam fase gas, NaCl ($R_e = 236{,}1$ pm) hampir ionik. Perkirakan energi disosiasinya ke atom netral dengan model dua muatan titik: energi pembentukan ion ($I$(Na) $- A$(Cl) $= 1{,}526$ eV) dikurangi tarikan Coulomb pada $R_e$. Bandingkan dengan $D_e$ terukur sekitar 4,25 eV.
+
+**Penyelesaian.** Tarikan Coulomb: $14{,}40/2{,}361 = 6{,}10$ eV. Energi ikat model: $6{,}10 - 1{,}53 = 4{,}57$ eV.
+
+**Memahami hasil.** Model ionik sederhana hanya meleset sekitar 8%. Kelebihannya berasal dari tolakan Pauli antara kulit tertutup Na⁺ dan Cl⁻ yang diabaikan (subbab 11.11), yang sebagian diimbangi oleh energi polarisasi ion-ion. Model Born–Mayer untuk kisi kristal menambahkan suku tolak $Ae^{-R/\rho}$ pada model yang sama. Bandingkan dengan HF, untuk mana model ionik gagal total: $I$(H) $- A$(F) $= 13{,}6 - 3{,}4 = 10{,}2$ eV jauh lebih besar daripada tarikan Coulomb pada 92 pm (15,7 eV dikurangi tolakan yang besar pada jarak sependek itu), sehingga HF lebih baik digambarkan sebagai ikatan kovalen polar.
 :::
 
 ::: {.kuis}
@@ -140,7 +160,7 @@ $$
 Gagasannya: atom yang sulit melepas elektron (I besar) dan mudah menerimanya (A besar) cenderung menarik elektron ikatan. Besaran $-\tfrac12(I + A)$ juga merupakan perkiraan wajar untuk energi orbital $\alpha$ dalam (11.31), karena ia berada di tengah antara energi untuk mengambil elektron ($-I$) dan menambahkannya ($-A$). Dengan demikian elektronegativitas Mulliken adalah ukuran langsung "seberapa rendah orbital valensi atom itu", yang dalam bahasa OM menentukan ke mana elektron ikatan condong. Kedua skala berkaitan kira-kira linear, $\chi_P \approx 0{,}187(I + A)/\text{eV} + 0{,}17$.
 
 ::: {.contoh}
-**Contoh 11.51 · Elektronegativitas Pauling dari energi ikat**
+**Contoh 11.61 · Elektronegativitas Pauling dari energi ikat**
 
 Dengan $D$(H–H) = 436, $D$(F–F) = 159, $D$(Cl–Cl) = 243, $D$(H–F) = 570, dan $D$(H–Cl) = 432 kJ/mol, hitung $|\chi_\text{H} - \chi_\text{F}|$ dan $|\chi_\text{H} - \chi_\text{Cl}|$ dengan (11.34).
 
@@ -150,7 +170,7 @@ Dengan $D$(H–H) = 436, $D$(F–F) = 159, $D$(Cl–Cl) = 243, $D$(H–F) = 570,
 :::
 
 ::: {.contoh}
-**Contoh 11.52 · Elektronegativitas Mulliken**
+**Contoh 11.62 · Elektronegativitas Mulliken**
 
 Dengan $I$ dan $A$ (eV): F (17,42; 3,40), Cl (12,97; 3,61), O (13,62; 1,46), C (11,26; 1,26), Li (5,39; 0,62), hitung $\chi_M$ dan perkiraan $\chi_P = 0{,}187(I + A) + 0{,}17$.
 
@@ -168,17 +188,17 @@ Dengan $I$ dan $A$ (eV): F (17,42; 3,40), Cl (12,97; 3,61), O (13,62; 1,46), C (
 :::
 
 ::: {.contoh}
-**Contoh 11.53 · Muatan parsial HCl**
+**Contoh 11.63 · Muatan parsial HCl**
 
 Momen dipol HCl 1,109 D dan $R_e = 127{,}5$ pm. Bila molekul digambarkan sebagai dua muatan titik $\pm q$, berapa $q$? Bandingkan dengan perkiraan Pauling yang sering dipakai, karakter ionik $= 1 - \exp[-\tfrac14(\Delta\chi)^2]$, dengan $\Delta\chi = 0{,}96$.
 
 **Penyelesaian.** $q/e = \mu/(eR_e) = 1{,}109/(4{,}803 \times 1{,}275) = 0{,}181$. Rumus Pauling: $1 - e^{-0{,}25 \times 0{,}9216} = 1 - e^{-0{,}2304} = 0{,}206$.
 
-**Memahami hasil.** Kedua perkiraan sekitar 20%. Namun "muatan titik" hanyalah model: dipol molekul juga mendapat sumbangan dari pasangan elektron bebas Cl yang terpolarisasi dan dari bentuk awan ikatan yang tidak simetris. Untuk CO, model muatan titik bahkan memberi tanda yang menyesatkan (Contoh 11.54).
+**Memahami hasil.** Kedua perkiraan sekitar 20%. Namun "muatan titik" hanyalah model: dipol molekul juga mendapat sumbangan dari pasangan elektron bebas Cl yang terpolarisasi dan dari bentuk awan ikatan yang tidak simetris. Untuk CO, model muatan titik bahkan memberi tanda yang menyesatkan (Contoh 11.64).
 :::
 
 ::: {.contoh}
-**Contoh 11.54 · Dipol CO yang "terbalik"**
+**Contoh 11.64 · Dipol CO yang "terbalik"**
 
 Oksigen jauh lebih elektronegatif daripada karbon ($\Delta\chi = 0{,}89$), tetapi momen dipol CO hanya 0,11 D, dengan ujung negatif di **karbon**. Jelaskan dengan orbital molekul.
 
@@ -191,6 +211,16 @@ Oksigen jauh lebih elektronegatif daripada karbon ($\Delta\chi = 0{,}89$), tetap
 **Kaitan kimia · Dari dipol molekul ke sifat bahan**
 
 Momen dipol menentukan banyak sifat makroskopis: tetapan dielektrik dan daya pelarut (air, $\mu = 1{,}85$ D, melarutkan garam; heksana tidak), titik didih (tarikan dipol–dipol), intensitas pita IR (sebanding dengan $(d\mu/dR)^2$, subbab 5.8), dan kekuatan ikatan hidrogen. Pada molekul diatom, perubahan momen dipol terhadap jarak, $d\mu/dR$, bahkan dapat berlawanan tanda dengan $\mu$ itu sendiri: pada CO, ketika ikatan meregang dipol berbalik arah, dan perubahan besar inilah yang membuat pita IR CO sangat kuat meskipun dipol permanennya hampir nol.
+:::
+
+::: {.contoh}
+**Contoh 11.65 · Meramalkan energi ikat dengan elektronegativitas**
+
+Persamaan (11.34) dapat dibalik untuk meramalkan energi ikat: $D(\text{A–B}) \approx \tfrac12[D(\text{A–A}) + D(\text{B–B})] + 96{,}1\,(\Delta\chi)^2$ kJ/mol. Ramalkan $D$(H–Br) dengan $\chi_\text{H} = 2{,}20$, $\chi_\text{Br} = 2{,}96$, $D$(H–H) = 436 dan $D$(Br–Br) = 193,9 kJ/mol. Nilai terukur 366,3 kJ/mol.
+
+**Penyelesaian.** Rata-rata: $\tfrac12(436 + 193{,}9) = 315{,}0$ kJ/mol. Koreksi ionik: $96{,}1 \times 0{,}76^2 = 55{,}5$ kJ/mol. Jumlah 370 kJ/mol.
+
+**Memahami hasil.** Ramalan meleset hanya 1%. Faktor 96,1 adalah $(1/0{,}102)^2$. Bentuk kuadrat $(\Delta\chi)^2$ mempunyai dasar kuantum yang jelas: stabilisasi oleh pencampuran struktur ionik pada fungsi gelombang kovalen sebanding dengan kuadrat unsur kopling dibagi selisih energi (subbab 11.13), dan selisih energi itu tumbuh dengan selisih elektronegativitas. Hubungan ini masih dipakai untuk memperkirakan energi ikat yang belum diukur, misalnya dalam termokimia senyawa baru.
 :::
 
 ::: {.kuis}

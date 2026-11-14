@@ -39,13 +39,13 @@ $$
 dengan $a = 1s_A$ dan $b = 1s_B$. Keempatnya mempunyai makna yang jelas: $(aa|aa)$ tolakan dua elektron di atom yang sama (untuk 1s dengan eksponen $\zeta$, nilainya $5\zeta/8$); $(aa|bb)$ tolakan antara awan di $A$ dan awan di $B$; $(aa|ab)$ tolakan antara awan di $A$ dan kerapatan tumpang tindih; dan $(ab|ab)$ tolakan diri kerapatan tumpang tindih. Semuanya dapat dihitung dalam bentuk tertutup (yang terakhir memuat fungsi integral eksponensial), dan program kimia kuantum menghitung jutaan integral seperti ini dengan orbital Gauss (subbab 17.5).
 
 ::: {.contoh}
-**Contoh 11.38 · Menyusun energi OM dari integral**
+**Contoh 11.45 · Menyusun energi OM dari integral**
 
 Pada $R = 1{,}4$ bohr dengan $\zeta = 1$: $S = 0{,}7529$, $H_{aa} = \langle a|\hat h|a\rangle = -1{,}1100$, $H_{ab} = -0{,}9683$, $(aa|aa) = 0{,}6250$, $(aa|bb) = 0{,}5035$, $(aa|ab) = 0{,}4259$, $(ab|ab) = 0{,}3233$ (semua dalam hartree). Hitung $E_\text{OM}$ dan energi ikat terhadap dua atom H.
 
 **Penyelesaian.** $h_{\sigma\sigma} = (H_{aa} + H_{ab})/(1 + S) = (-1{,}1100 - 0{,}9683)/1{,}7529 = -1{,}1856$. Dengan (11.24): $J_{\sigma\sigma} = [0{,}6250 + 0{,}5035 + 2(0{,}3233) + 4(0{,}4259)]/[2(1{,}7529)^2] = 3{,}4787/6{,}1453 = 0{,}5660$. Maka $E_\text{OM} = 2(-1{,}1856) + 0{,}5660 + 1/1{,}4 = -2{,}3712 + 0{,}5660 + 0{,}7143 = -1{,}0909$ hartree. Energi ikat: $-1 - (-1{,}0909) = 0{,}0909$ hartree $= 2{,}47$ eV.
 
-**Memahami hasil.** Dua elektron di orbital ikatan menurunkan energi sebanyak $2 \times 1{,}186$ hartree, tetapi tolakan di antara keduanya menaikkannya lagi 0,566 hartree: hampir sepertiga keuntungan dimakan tolakan antarelektron. Itulah sebabnya H₂ tidak terikat dua kali sekuat H₂⁺ (Contoh 11.10). Pada $R = 1{,}4$ bohr hasil OM ($\zeta = 1$) memberi 2,47 eV; minimumnya sedikit lebih dalam, 2,70 eV pada $R = 1{,}60$ bohr.
+**Memahami hasil.** Dua elektron di orbital ikatan menurunkan energi sebanyak $2 \times 1{,}186$ hartree, tetapi tolakan di antara keduanya menaikkannya lagi 0,566 hartree: hampir sepertiga keuntungan dimakan tolakan antarelektron. Itulah sebabnya H₂ tidak terikat dua kali sekuat H₂⁺ (Contoh 11.13). Pada $R = 1{,}4$ bohr hasil OM ($\zeta = 1$) memberi 2,47 eV; minimumnya sedikit lebih dalam, 2,70 eV pada $R = 1{,}60$ bohr.
 :::
 
 ### Hasil OM dan perbaikannya
@@ -53,7 +53,7 @@ Pada $R = 1{,}4$ bohr dengan $\zeta = 1$: $S = 0{,}7529$, $H_{aa} = \langle a|\h
 Kurva $E_\text{OM}(R)$ dengan $\zeta = 1$ mempunyai minimum pada $R_e = 1{,}60$ bohr (85 pm) dengan $D_e = 2{,}70$ eV. Bila $\zeta$ dioptimalkan pada setiap $R$, diperoleh $\zeta = 1{,}19$, $R_e = 1{,}385$ bohr (73,3 pm), dan $D_e = 3{,}49$ eV. Bila orbital $\sigma_g$ diberi kebebasan penuh (basis yang sangat besar), hasilnya adalah **batas Hartree–Fock**: $D_e = 3{,}64$ eV. Nilai eksaknya 4,75 eV. Jadi bahkan orbital molekul terbaik masih kehilangan sekitar 1,1 eV, hampir seperempat energi ikat. Kehilangan ini bukan karena orbitalnya kurang baik, tetapi karena bentuk fungsi gelombang (11.22) itu sendiri, yang memperlakukan setiap elektron seolah bergerak dalam medan rata-rata elektron lain.
 
 ::: {.contoh}
-**Contoh 11.39 · Energi orbital dan energi ionisasi**
+**Contoh 11.46 · Energi orbital dan energi ionisasi**
 
 Dengan $\zeta$ optimal pada jarak setimbang, energi orbital $\sigma_g$ H₂ (yaitu $\varepsilon = h_{\sigma\sigma} + J_{\sigma\sigma}$, energi satu elektron dalam medan inti dan medan rata-rata elektron lain) adalah $-0{,}5973$ hartree. Bandingkan $-\varepsilon$ dengan energi ionisasi vertikal H₂, sekitar 16,0 eV.
 
@@ -70,16 +70,28 @@ $$
 \sigma_g(1)\sigma_g(2) \propto [a(1) + b(1)][a(2) + b(2)] = \underbrace{a(1)b(2) + b(1)a(2)}_{\text{kovalen: H–H}} + \underbrace{a(1)a(2) + b(1)b(2)}_{\text{ionik: H}^-\text{H}^+\text{ dan H}^+\text{H}^-} . \qquad \text{(11.25)}
 $$
 
-Fungsi OM memberi bobot yang **sama** pada struktur kovalen (satu elektron di setiap atom) dan struktur ionik (kedua elektron di satu atom). Di dekat jarak setimbang, kesalahan ini tidak terlalu parah. Tetapi ketika $R \to \infty$, fungsi OM tetap bersikeras bahwa separuh waktu molekul berupa H⁺ + H⁻, padahal H₂ yang terdisosiasi semestinya menjadi dua atom H netral. Energi H⁻ jauh di atas energi dua atom H, sehingga kurva OM naik ke nilai yang salah (Gambar 11.9).
+Fungsi OM memberi bobot yang **sama** pada struktur kovalen (satu elektron di setiap atom) dan struktur ionik (kedua elektron di satu atom). Di dekat jarak setimbang, kesalahan ini tidak terlalu parah. Tetapi ketika $R \to \infty$, fungsi OM tetap bersikeras bahwa separuh waktu molekul berupa H⁺ + H⁻, padahal H₂ yang terdisosiasi semestinya menjadi dua atom H netral. Energi H⁻ jauh di atas energi dua atom H, sehingga kurva OM naik ke nilai yang salah (Gambar 11.10).
 
 ::: {.contoh}
-**Contoh 11.40 · Seberapa salah OM pada disosiasi?**
+**Contoh 11.47 · Seberapa salah OM pada disosiasi?**
 
 Dengan basis minimal ($\zeta = 1$), energi H⁻ (dua elektron dalam 1s yang sama) adalah $2(-\tfrac12) + (aa|aa) = -1 + \tfrac58 = -0{,}375$ hartree. Hitung energi OM pada $R \to \infty$ dan kesalahannya terhadap $2E(\text{H}) = -1$ hartree. Bandingkan dengan nilai yang dihitung pada $R = 10$ dan 20 bohr: $-0{,}7386$ dan $-0{,}7125$ hartree.
 
 **Penyelesaian.** Separuh kovalen ($-1$) dan separuh ionik ($-0{,}375$): $E_\text{OM}(\infty) = \tfrac12(-1) + \tfrac12(-0{,}375) = -0{,}6875$ hartree. Kesalahan: $0{,}3125$ hartree $= 8{,}50$ eV. Nilai pada $R = 10$ dan 20 bohr mendekati batas itu perlahan, karena tarikan Coulomb $-1/R$ antara H⁺ dan H⁻ pada bagian ionik masih terasa.
 
 **Memahami hasil.** Kesalahan disosiasi sebesar 8,5 eV, hampir dua kali energi ikat itu sendiri, membuat teori OM sederhana tidak dapat dipakai untuk menggambarkan pemutusan ikatan, padahal pemutusan ikatan adalah inti setiap reaksi kimia. Kegagalan ini adalah contoh paling bersih dari **korelasi statik** (atau korelasi kiri–kanan): dua elektron "seharusnya" menghindari atom yang sama, tetapi fungsi gelombang satu determinan tidak dapat mengungkapkan penghindaran itu. Kita memperbaikinya di subbab 11.12.
+:::
+
+::: {.dalam}
+**Lebih dalam · Energi determinan OM dari integrasi spin**
+
+Fungsi (11.22) adalah determinan Slater $|\sigma_g\alpha\ \sigma_g\beta|$. Karena $\hat H_\text{el}$ tidak memuat spin, setiap nilai harap terpisah menjadi integral ruang dikali integral spin. Bagian spin singlet ternormalisasi, $\langle\tfrac{1}{\sqrt2}(\alpha\beta - \beta\alpha)|\tfrac{1}{\sqrt2}(\alpha\beta - \beta\alpha)\rangle = \tfrac12(1 + 1) = 1$, sehingga hanya bagian ruang $\sigma_g(1)\sigma_g(2)$ yang menentukan energi:
+
+$$
+\langle\sigma_g\sigma_g|\hat h(1)|\sigma_g\sigma_g\rangle = \langle\sigma_g|\hat h|\sigma_g\rangle\langle\sigma_g|\sigma_g\rangle = h_{\sigma\sigma} ,
+$$
+
+demikian pula untuk $\hat h(2)$, dan $\langle\sigma_g\sigma_g|r_{12}^{-1}|\sigma_g\sigma_g\rangle = J_{\sigma\sigma}$. Hasilnya (11.23). Untuk determinan yang lebih umum dengan orbital berbeda, aturan Condon–Slater (subbab 9.14) memberi energi $\sum_ih_{ii} + \sum_{i<j}(J_{ij} - K_{ij})$, dengan integral pertukaran $K_{ij}$ hanya muncul antara elektron berspin sama. Untuk H₂ dalam $(\sigma_g)^2$, kedua elektron berspin berlawanan, sehingga tidak ada suku pertukaran: tolakan $J_{\sigma\sigma}$ seluruhnya "dirasakan", tanpa pengurangan oleh lubang Fermi. Itulah salah satu cara melihat mengapa energi korelasi antara dua elektron berspin berlawanan sangat penting.
 :::
 
 ::: {.kuis}
@@ -123,7 +135,7 @@ $$
 dengan $J$ dan $K$ integral H₂⁺ (11.14). $Q$ adalah energi interaksi elektrostatik klasik dua atom H yang tidak berubah bentuk; $X$ tidak mempunyai padanan klasik, dan muncul hanya karena fungsi gelombang memuat kedua susunan $a(1)b(2)$ dan $b(1)a(2)$.
 
 ::: {.contoh}
-**Contoh 11.41 · Dari mana energi ikat Heitler–London?**
+**Contoh 11.48 · Dari mana energi ikat Heitler–London?**
 
 Pada $R = 1{,}643$ bohr ($\zeta = 1$), perhitungan memberi $S = 0{,}685$, $Q = -0{,}0168$ hartree, dan $X = -0{,}1536$ hartree. Hitung energi ikat singlet dan energi keadaan triplet relatif terhadap dua atom H, dalam eV.
 
@@ -137,7 +149,7 @@ Pada $R = 1{,}643$ bohr ($\zeta = 1$), perhitungan memberi $S = 0{,}685$, $Q = -
 Fungsi Heitler–London dengan $\zeta = 1$ memberi $R_e = 1{,}64$ bohr (87 pm) dan $D_e = 3{,}16$ eV, lebih baik daripada OM dengan $\zeta = 1$ (2,70 eV). S. C. Wang (1928) mengoptimalkan $\zeta$ dan memperoleh $\zeta = 1{,}166$, $R_e = 1{,}41$ bohr (75 pm), dan $D_e = 3{,}78$ eV, juga lebih baik daripada OM dengan $\zeta$ optimal (3,49 eV). Dan yang terpenting, fungsi Heitler–London terdisosiasi dengan benar: untuk $R \to \infty$, $S$, $Q$, dan $X$ semuanya lenyap, dan energinya tepat $2E_\text{H}$.
 
 ::: {.contoh}
-**Contoh 11.42 · Asas Pauli dan ikatan**
+**Contoh 11.49 · Asas Pauli dan ikatan**
 
 Tunjukkan bahwa fungsi ruang $\Psi_+ = a(1)b(2) + b(1)a(2)$ harus berpasangan dengan spin singlet, dan jelaskan mengapa dua atom He tidak dapat membentuk ikatan valensi.
 
@@ -147,13 +159,23 @@ Tunjukkan bahwa fungsi ruang $\Psi_+ = a(1)b(2) + b(1)a(2)$ harus berpasangan de
 :::
 
 ::: {.contoh}
-**Contoh 11.43 · Tolakan Pauli antara dua atom berkulit tertutup**
+**Contoh 11.50 · Tolakan Pauli antara dua atom berkulit tertutup**
 
 Dalam teori Heitler–London, energi triplet adalah $(Q - X)/(1 - S^2)$. Mengapa interaksi dua atom berkulit tertutup, seperti He + He atau Ne + Ne, selalu menolak pada jarak pendek, dan mengapa tolakan itu meluruh eksponensial?
 
 **Penyelesaian.** Elektron-elektron dari dua atom berkulit tertutup tidak dapat membentuk pasangan baru; secara efektif setiap pasangan elektron $A$–$B$ dengan spin sejajar berperilaku seperti keadaan triplet H₂, dengan energi tolak sebanding dengan $-X$ dan $S^2$. Karena $S$ dan $X$ meluruh eksponensial dengan jarak (keduanya ditentukan oleh tumpang tindih), tolakannya juga meluruh eksponensial.
 
 **Memahami hasil.** Inilah asal fisis suku tolak dalam potensial antarmolekul, misalnya potensial Born–Mayer $Ae^{-R/\rho}$, atau suku $R^{-12}$ potensial Lennard-Jones yang merupakan pendekatan praktisnya. Tolakan Pauli menentukan ukuran atom dan molekul ("jari-jari van der Waals") dan mengapa zat padat tidak dapat dimampatkan sembarangan. Di jarak lebih besar, tolakan ini kalah oleh tarikan dispersi yang lemah, sehingga gas mulia tetap dapat mencair.
+:::
+
+::: {.contoh}
+**Contoh 11.51 · Lampu deuterium dan kurva triplet yang menolak**
+
+Spektrofotometer UV-Vis memakai lampu deuterium sebagai sumber kontinum dari sekitar 160 sampai 400 nm. Cahayanya berasal dari transisi D₂ antara keadaan triplet terikat $a\,^3\Sigma_g^+$ dan keadaan triplet terendah $b\,^3\Sigma_u^+$, yang tidak lain adalah keadaan triplet Heitler–London (11.27) dengan tanda minus. Mengapa spektrumnya kontinu, bukan garis-garis?
+
+**Penyelesaian.** Keadaan $b\,^3\Sigma_u^+$ menolak di semua jarak (Contoh 11.48 memberi $+7{,}0$ eV pada 87 pm untuk H₂ dengan $\zeta = 1$). Molekul yang turun dari keadaan $a$ yang terikat ke kurva $b$ tidak mendarat di tingkat getaran diskret, karena kurva menolak tidak mempunyai tingkat terikat; molekul langsung terurai menjadi dua atom dengan energi kinetik berapa pun. Energi foton $= U_a(R) - U_b(R)$ pada jarak $R$ tempat transisi terjadi, dan karena $R$ tersebar sepanjang getaran keadaan $a$, energi foton juga tersebar kontinu.
+
+**Memahami hasil.** Transisi $a \to b$ diizinkan ($\Delta S = 0$, $g \to u$, Σ⁺ → Σ⁺), sehingga terang. Deuterium dipakai alih-alih hidrogen karena intensitasnya lebih tinggi dan umur lampunya lebih panjang. Inilah contoh praktis bahwa keadaan triplet H₂ yang "tidak berguna" bagi ikatan kimia justru menyediakan sumber cahaya ultraviolet di hampir setiap laboratorium kimia analitik.
 :::
 
 ::: {.kuis}
@@ -204,7 +226,7 @@ disebut fungsi **interaksi konfigurasi** (CI), dan koefisiennya diperoleh dari p
 
 (Semua baris kecuali batas Hartree–Fock dan nilai eksak dihitung ulang dengan integral orbital Slater untuk bab ini.)
 
-![Gambar 11.9 Kurva energi potensial H₂ dalam basis minimal 1s ($\zeta = 1$): OM (biru), Heitler–London (hijau), dan CI (jingga), relatif terhadap dua atom H. Bintang menandai minimum eksak ($R_e = 1{,}401$ bohr, $D_e = 4{,}747$ eV). Kurva OM naik ke nilai yang salah pada jarak besar karena memuat 50% struktur ionik.](fig/c_h2.png){width=82%}
+![Gambar 11.10 Kurva energi potensial H₂ dalam basis minimal 1s ($\zeta = 1$): OM (biru), Heitler–London (hijau), dan CI (jingga), relatif terhadap dua atom H. Bintang menandai minimum eksak ($R_e = 1{,}401$ bohr, $D_e = 4{,}747$ eV). Kurva OM naik ke nilai yang salah pada jarak besar karena memuat 50% struktur ionik.](fig/c_h2.png){width=82%}
 
 ### Energi korelasi
 
@@ -217,7 +239,7 @@ $$
 Untuk H₂ pada $R_e$, $E_\text{HF} = -1{,}1336$ hartree dan $E_\text{eksak} = -1{,}1745$ hartree, sehingga $E_\text{kor} = -0{,}0408$ hartree $= -1{,}11$ eV. Energi ini kecil dibandingkan energi total (3,5%), tetapi sebanding dengan energi ikat kimia, sehingga tidak boleh diabaikan dalam perhitungan termokimia. Metode-metode di Bab 17 (CI, Møller–Plesset, coupled-cluster, DFT) pada dasarnya adalah cara-cara menangkap energi korelasi.
 
 ::: {.contoh}
-**Contoh 11.44 · Seberapa ionik ikatan H–H?**
+**Contoh 11.52 · Seberapa ionik ikatan H–H?**
 
 Penyelesaian CI 2 × 2 pada jarak optimum ($R = 1{,}430$ bohr, $\zeta = 1{,}194$, $S = 0{,}667$) memberi koefisien $c_1 = 0{,}9933$ dan $c_2 = -0{,}1154$. Hitung $\lambda$ dalam (11.28).
 
@@ -231,7 +253,7 @@ $$
 :::
 
 ::: {.contoh}
-**Contoh 11.45 · Kurva H₂ dengan Python**
+**Contoh 11.53 · Kurva H₂ dengan Python**
 
 Tuliskan program yang menghitung energi OM, Heitler–London, dan CI H₂ dalam basis 1s dengan eksponen $\zeta$, memakai rumus tertutup integral orbital Slater.
 
@@ -269,7 +291,7 @@ print(energi(1.4))          # (-1.0909, -1.1055, -1.1066)
 :::
 
 ::: {.contoh}
-**Contoh 11.46 · Kapan OM cukup, kapan perlu CI?**
+**Contoh 11.54 · Kapan OM cukup, kapan perlu CI?**
 
 Bandingkan kesalahan energi OM ($\zeta = 1$) relatif terhadap CI pada $R = 1{,}4$, 2, 4, dan 6 bohr: OM $-1{,}0909$, $-1{,}0808$, $-0{,}8954$, $-0{,}7951$; CI $-1{,}1066$, $-1{,}1084$, $-1{,}0128$, $-1{,}0005$ hartree.
 
@@ -282,6 +304,12 @@ Bandingkan kesalahan energi OM ($\zeta = 1$) relatif terhadap CI pada $R = 1{,}4
 **Kaitan kimia · Dua bahasa untuk ikatan yang sama**
 
 Teori OM dan teori IV bersaing sengit pada 1930-an sampai 1950-an. Teori IV, lewat Pauling, menguasai kimia organik dan anorganik karena bahasanya dekat dengan struktur Lewis: pasangan elektron, hibridisasi, resonansi. Teori OM menang dalam spektroskopi dan, setelah komputer tersedia, dalam perhitungan, karena orbital molekul mudah diprogram. Kini keduanya dipahami sebagai titik awal berbeda menuju jawaban yang sama: perluasan penuh keduanya (CI lengkap dan IV lengkap dalam basis yang sama) memberi fungsi gelombang yang identik. Kimiawan memakai bahasa OM ketika membicarakan spektrum fotoelektron, warna, aromatisitas, dan reaksi perisiklik (Bab 13), serta bahasa IV ketika membicarakan pembentukan dan pemutusan ikatan, geometri, dan mekanisme reaksi (Bab 12).
+:::
+
+::: {.terapan}
+**Kaitan kimia · H₂, batu uji teori kuantum**
+
+Molekul hidrogen telah menjadi batu uji mekanika kuantum sejak awal. Heitler dan London (1927) memperoleh 3,14 eV, sekitar dua pertiga energi ikat. Hubert James dan Albert Coolidge (1933) memakai fungsi gelombang yang secara eksplisit memuat jarak antarelektron $r_{12}$, sehingga dapat menggambarkan bagaimana elektron saling menghindar; dengan tiga belas suku mereka memperoleh sekitar 4,72 eV, hampir tepat. Pada 1960-an, Włodzimierz Kołos dan Lutosław Wolniewicz memakai komputer dan ratusan suku, ditambah koreksi Born–Oppenheimer dan relativistik. Hasil teori mereka untuk $D_0$ ternyata beberapa cm⁻¹ lebih besar daripada nilai eksperimen yang diterima saat itu; pengukuran ulang oleh Gerhard Herzberg membenarkan teori. Kini teori (dengan koreksi elektrodinamika kuantum) dan spektroskopi laser cocok sampai sekitar $10^{-4}$ cm⁻¹, dan selisih kecil yang tersisa dipakai untuk menguji fisika dasar, misalnya mencari gaya baru antara proton. Molekul paling sederhana dalam kimia adalah salah satu sistem yang paling teliti diketahui dalam seluruh sains.
 :::
 
 ::: {.kuis}
