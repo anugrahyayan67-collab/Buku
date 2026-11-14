@@ -145,6 +145,16 @@ Ketiga keadaan ion N₂⁺ yang terbentuk dalam fotoionisasi mempunyai bilangan 
 **Memahami hasil.** Spektrum fotoelektron adalah "sidik jari ikatan" setiap orbital. Orbital $2\sigma_u$ yang secara nama antiikatan ternyata hanya lemah antiikatan, dan $3\sigma_g$ yang secara nama ikatan hanya lemah mengikat: pencampuran s–p memindahkan sebagian karakter ikatan dan antiikatan dari keduanya. Kedua orbital ini menjadi mirip "pasangan elektron bebas" di ujung-ujung molekul, yang sesuai dengan struktur Lewis :N≡N: dengan satu pasangan bebas di setiap nitrogen.
 :::
 
+::: {.contoh}
+**Contoh 11.38 · Ketika teorema Koopmans salah urut**
+
+Perhitungan Hartree–Fock dengan basis cc-pVTZ (PySCF) pada geometri setimbang memberi energi orbital valensi (dinyatakan sebagai $-\varepsilon$, eV) berikut. N₂: $1\pi_u$ 16,65; $3\sigma_g$ 17,21; $2\sigma_u$ 21,16. F₂: $1\pi_g$ 18,09; $3\sigma_g$ 20,40; $1\pi_u$ 22,02. Bandingkan dengan energi ionisasi vertikal terukur: N₂: $3\sigma_g$ 15,58; $1\pi_u$ 16,9; $2\sigma_u$ 18,75. F₂: $1\pi_g$ 15,7; $1\pi_u$ 18,8; $3\sigma_g$ 21,1.
+
+**Penyelesaian.** Untuk N₂, teorema Koopmans menempatkan $1\pi_u$ sebagai orbital teratas (16,65 eV), padahal spektrum menunjukkan $3\sigma_g$ teratas (15,58 eV). Untuk F₂, Koopmans menempatkan $3\sigma_g$ di atas $1\pi_u$, padahal spektrum menunjukkan sebaliknya. Pada kedua molekul, urutan dua orbital yang berdekatan terbalik, dan semua energi ionisasi dilebih-lebihkan 1–2,5 eV.
+
+**Memahami hasil.** Teorema Koopmans mengabaikan dua efek yang saling berlawanan: **relaksasi** (orbital yang tersisa menyesuaikan diri dengan lubang yang baru, sehingga energi ionisasi turun) dan **korelasi** (energi korelasi molekul netral lebih besar daripada ion, sehingga energi ionisasi naik). Untuk lubang di orbital yang terkonsentrasi seperti pasangan elektron bebas ($3\sigma_g$ N₂), relaksasi sangat besar, sehingga Koopmans meleset lebih jauh daripada untuk orbital π yang tersebar. Perhitungan berkorelasi (misalnya metode fungsi Green atau EOM-CCSD, Bab 17) memperoleh urutan yang benar. Pesannya: "urutan orbital" adalah konsep model, dan pengukuran fotoelektron yang menjadi hakimnya. Urutan yang dipakai di subbab ini (dan di Gambar 11.9) adalah urutan keadaan ion yang terukur.
+:::
+
 ::: {.terapan}
 **Kaitan kimia · Mengapa N₂ begitu lembam**
 
@@ -178,10 +188,10 @@ Keadaan dasar diberi awalan X, keadaan tereksitasi dengan multiplisitas sama dib
 
 1. **Kulit tertutup** menyumbang $\Lambda = 0$, $S = 0$, $g$, $+$. Molekul yang semua orbitalnya terisi penuh mempunyai keadaan $^1\Sigma_g^+$ (homonuklir) atau $^1\Sigma^+$ (heteronuklir). Contohnya H₂, Li₂, C₂, N₂, F₂, dan CO.
 2. **Satu elektron atau satu lubang** di luar kulit tertutup: lambang suku sama dengan lambang orbitalnya. H₂⁺ $(1\sigma_g)^1$: $^2\Sigma_g^+$. O₂⁺ $(1\pi_g)^1$: $^2\Pi_g$. N₂⁺ $(3\sigma_g)^1$: $^2\Sigma_g^+$. NO $(2\pi)^1$: $^2\Pi$. Radikal OH $(1\pi)^3$, satu lubang di π: $^2\Pi$.
-3. **Dua elektron di sepasang orbital π** ($\pi^2$): tiga keadaan, $^3\Sigma^-$, $^1\Delta$, dan $^1\Sigma^+$, dengan $^3\Sigma^-$ terendah menurut aturan Hund. Penurunannya di Contoh 11.39.
+3. **Dua elektron di sepasang orbital π** ($\pi^2$): tiga keadaan, $^3\Sigma^-$, $^1\Delta$, dan $^1\Sigma^+$, dengan $^3\Sigma^-$ terendah menurut aturan Hund. Penurunannya di Contoh 11.40.
 
 ::: {.contoh}
-**Contoh 11.38 · Lambang suku keadaan dasar**
+**Contoh 11.39 · Lambang suku keadaan dasar**
 
 Tentukan lambang suku keadaan dasar H₂, He₂⁺, B₂, C₂, N₂, O₂, F₂, dan CN (9 elektron valensi, urutan seperti N₂).
 
@@ -191,7 +201,7 @@ Tentukan lambang suku keadaan dasar H₂, He₂⁺, B₂, C₂, N₂, O₂, F₂
 :::
 
 ::: {.contoh}
-**Contoh 11.39 · Keadaan-keadaan dari konfigurasi π²**
+**Contoh 11.40 · Keadaan-keadaan dari konfigurasi π²**
 
 Turunkan lambang suku dari konfigurasi $(\pi)^2$ dengan mendaftar keadaan mikro.
 
@@ -212,7 +222,7 @@ Dua keadaan mikro dengan $M_L = \pm2$, $M_S = 0$ membentuk $^1\Delta$. Dari empa
 :::
 
 ::: {.contoh}
-**Contoh 11.40 · Oksigen singlet**
+**Contoh 11.41 · Oksigen singlet**
 
 Keadaan $a\,^1\Delta_g$ dan $b\,^1\Sigma_g^+$ O₂ berada 7882 cm⁻¹ dan 13 121 cm⁻¹ di atas keadaan dasar (dari tingkat getaran terendah ke terendah). Hitung energinya dalam eV dan panjang gelombang pancarannya ke keadaan dasar.
 
@@ -222,7 +232,7 @@ Keadaan $a\,^1\Delta_g$ dan $b\,^1\Sigma_g^+$ O₂ berada 7882 cm⁻¹ dan 13 12
 :::
 
 ::: {.contoh}
-**Contoh 11.41 · Mengapa kita tidak terbakar sendiri**
+**Contoh 11.42 · Mengapa kita tidak terbakar sendiri**
 
 Pembakaran senyawa organik oleh O₂ sangat eksotermik, tetapi kertas, kayu, dan jaringan tubuh dapat bertahan bertahun-tahun di udara. Jelaskan dengan lambang suku.
 
@@ -236,7 +246,7 @@ Pembakaran senyawa organik oleh O₂ sangat eksotermik, tetapi kertas, kayu, dan
 Untuk transisi dipol listrik antara keadaan molekul diatom berlaku: $\Delta\Lambda = 0, \pm1$; $\Delta S = 0$; $g \leftrightarrow u$ (homonuklir); dan untuk transisi Σ–Σ, $+ \leftrightarrow +$ serta $- \leftrightarrow -$. Aturan $\Delta\Lambda$ berasal dari komponen momen dipol: komponen sepanjang sumbu ($z$) bersimetri σ dan tidak mengubah $\Lambda$, sedangkan komponen tegak lurus ($x$, $y$) bersimetri π dan mengubah $\Lambda$ satu. Aturan $g \leftrightarrow u$ adalah aturan Laporte (subbab 10.10).
 
 ::: {.contoh}
-**Contoh 11.42 · Transisi O₂ mana yang terang?**
+**Contoh 11.43 · Transisi O₂ mana yang terang?**
 
 Dari keadaan dasar $X\,^3\Sigma_g^-$, transisi ke keadaan mana yang diizinkan: $a\,^1\Delta_g$, $b\,^1\Sigma_g^+$, $B\,^3\Sigma_u^-$?
 
@@ -246,7 +256,7 @@ Dari keadaan dasar $X\,^3\Sigma_g^-$, transisi ke keadaan mana yang diizinkan: $
 :::
 
 ::: {.contoh}
-**Contoh 11.43 · Kopling spin–orbit pada NO**
+**Contoh 11.44 · Kopling spin–orbit pada NO**
 
 Keadaan dasar NO, $^2\Pi$, terpecah oleh kopling spin–orbit menjadi $^2\Pi_{1/2}$ (lebih rendah) dan $^2\Pi_{3/2}$, yang berjarak 123 cm⁻¹. Indeks bawah adalah $\Omega = |\Lambda + \Sigma|$, dengan $\Sigma = \pm\tfrac12$ komponen spin sepanjang sumbu. Hitung perbandingan populasi kedua komponen pada 298 K (keduanya berdegenerasi dua).
 
@@ -256,7 +266,7 @@ Keadaan dasar NO, $^2\Pi$, terpecah oleh kopling spin–orbit menjadi $^2\Pi_{1/
 :::
 
 ::: {.contoh}
-**Contoh 11.44 · Keadaan tereksitasi N₂ dan cahaya aurora**
+**Contoh 11.45 · Keadaan tereksitasi N₂ dan cahaya aurora**
 
 Eksitasi satu elektron $3\sigma_g \to 1\pi_g$ dalam N₂ menghasilkan konfigurasi $\ldots(1\pi_u)^4(3\sigma_g)^1(1\pi_g)^1$. (a) Tentukan lambang sukunya. (b) Apakah transisi dari $X\,^1\Sigma_g^+$ ke keadaan singlet itu diizinkan dipol listrik?
 

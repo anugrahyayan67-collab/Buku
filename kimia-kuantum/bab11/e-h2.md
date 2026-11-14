@@ -39,7 +39,7 @@ $$
 dengan $a = 1s_A$ dan $b = 1s_B$. Keempatnya mempunyai makna yang jelas: $(aa|aa)$ tolakan dua elektron di atom yang sama (untuk 1s dengan eksponen $\zeta$, nilainya $5\zeta/8$); $(aa|bb)$ tolakan antara awan di $A$ dan awan di $B$; $(aa|ab)$ tolakan antara awan di $A$ dan kerapatan tumpang tindih; dan $(ab|ab)$ tolakan diri kerapatan tumpang tindih. Semuanya dapat dihitung dalam bentuk tertutup (yang terakhir memuat fungsi integral eksponensial), dan program kimia kuantum menghitung jutaan integral seperti ini dengan orbital Gauss (subbab 17.5).
 
 ::: {.contoh}
-**Contoh 11.45 · Menyusun energi OM dari integral**
+**Contoh 11.46 · Menyusun energi OM dari integral**
 
 Pada $R = 1{,}4$ bohr dengan $\zeta = 1$: $S = 0{,}7529$, $H_{aa} = \langle a|\hat h|a\rangle = -1{,}1100$, $H_{ab} = -0{,}9683$, $(aa|aa) = 0{,}6250$, $(aa|bb) = 0{,}5035$, $(aa|ab) = 0{,}4259$, $(ab|ab) = 0{,}3233$ (semua dalam hartree). Hitung $E_\text{OM}$ dan energi ikat terhadap dua atom H.
 
@@ -53,7 +53,7 @@ Pada $R = 1{,}4$ bohr dengan $\zeta = 1$: $S = 0{,}7529$, $H_{aa} = \langle a|\h
 Kurva $E_\text{OM}(R)$ dengan $\zeta = 1$ mempunyai minimum pada $R_e = 1{,}60$ bohr (85 pm) dengan $D_e = 2{,}70$ eV. Bila $\zeta$ dioptimalkan pada setiap $R$, diperoleh $\zeta = 1{,}19$, $R_e = 1{,}385$ bohr (73,3 pm), dan $D_e = 3{,}49$ eV. Bila orbital $\sigma_g$ diberi kebebasan penuh (basis yang sangat besar), hasilnya adalah **batas Hartree–Fock**: $D_e = 3{,}64$ eV. Nilai eksaknya 4,75 eV. Jadi bahkan orbital molekul terbaik masih kehilangan sekitar 1,1 eV, hampir seperempat energi ikat. Kehilangan ini bukan karena orbitalnya kurang baik, tetapi karena bentuk fungsi gelombang (11.22) itu sendiri, yang memperlakukan setiap elektron seolah bergerak dalam medan rata-rata elektron lain.
 
 ::: {.contoh}
-**Contoh 11.46 · Energi orbital dan energi ionisasi**
+**Contoh 11.47 · Energi orbital dan energi ionisasi**
 
 Dengan $\zeta$ optimal pada jarak setimbang, energi orbital $\sigma_g$ H₂ (yaitu $\varepsilon = h_{\sigma\sigma} + J_{\sigma\sigma}$, energi satu elektron dalam medan inti dan medan rata-rata elektron lain) adalah $-0{,}5973$ hartree. Bandingkan $-\varepsilon$ dengan energi ionisasi vertikal H₂, sekitar 16,0 eV.
 
@@ -73,7 +73,7 @@ $$
 Fungsi OM memberi bobot yang **sama** pada struktur kovalen (satu elektron di setiap atom) dan struktur ionik (kedua elektron di satu atom). Di dekat jarak setimbang, kesalahan ini tidak terlalu parah. Tetapi ketika $R \to \infty$, fungsi OM tetap bersikeras bahwa separuh waktu molekul berupa H⁺ + H⁻, padahal H₂ yang terdisosiasi semestinya menjadi dua atom H netral. Energi H⁻ jauh di atas energi dua atom H, sehingga kurva OM naik ke nilai yang salah (Gambar 11.10).
 
 ::: {.contoh}
-**Contoh 11.47 · Seberapa salah OM pada disosiasi?**
+**Contoh 11.48 · Seberapa salah OM pada disosiasi?**
 
 Dengan basis minimal ($\zeta = 1$), energi H⁻ (dua elektron dalam 1s yang sama) adalah $2(-\tfrac12) + (aa|aa) = -1 + \tfrac58 = -0{,}375$ hartree. Hitung energi OM pada $R \to \infty$ dan kesalahannya terhadap $2E(\text{H}) = -1$ hartree. Bandingkan dengan nilai yang dihitung pada $R = 10$ dan 20 bohr: $-0{,}7386$ dan $-0{,}7125$ hartree.
 
@@ -135,7 +135,7 @@ $$
 dengan $J$ dan $K$ integral H₂⁺ (11.14). $Q$ adalah energi interaksi elektrostatik klasik dua atom H yang tidak berubah bentuk; $X$ tidak mempunyai padanan klasik, dan muncul hanya karena fungsi gelombang memuat kedua susunan $a(1)b(2)$ dan $b(1)a(2)$.
 
 ::: {.contoh}
-**Contoh 11.48 · Dari mana energi ikat Heitler–London?**
+**Contoh 11.49 · Dari mana energi ikat Heitler–London?**
 
 Pada $R = 1{,}643$ bohr ($\zeta = 1$), perhitungan memberi $S = 0{,}685$, $Q = -0{,}0168$ hartree, dan $X = -0{,}1536$ hartree. Hitung energi ikat singlet dan energi keadaan triplet relatif terhadap dua atom H, dalam eV.
 
@@ -149,7 +149,7 @@ Pada $R = 1{,}643$ bohr ($\zeta = 1$), perhitungan memberi $S = 0{,}685$, $Q = -
 Fungsi Heitler–London dengan $\zeta = 1$ memberi $R_e = 1{,}64$ bohr (87 pm) dan $D_e = 3{,}16$ eV, lebih baik daripada OM dengan $\zeta = 1$ (2,70 eV). S. C. Wang (1928) mengoptimalkan $\zeta$ dan memperoleh $\zeta = 1{,}166$, $R_e = 1{,}41$ bohr (75 pm), dan $D_e = 3{,}78$ eV, juga lebih baik daripada OM dengan $\zeta$ optimal (3,49 eV). Dan yang terpenting, fungsi Heitler–London terdisosiasi dengan benar: untuk $R \to \infty$, $S$, $Q$, dan $X$ semuanya lenyap, dan energinya tepat $2E_\text{H}$.
 
 ::: {.contoh}
-**Contoh 11.49 · Asas Pauli dan ikatan**
+**Contoh 11.50 · Asas Pauli dan ikatan**
 
 Tunjukkan bahwa fungsi ruang $\Psi_+ = a(1)b(2) + b(1)a(2)$ harus berpasangan dengan spin singlet, dan jelaskan mengapa dua atom He tidak dapat membentuk ikatan valensi.
 
@@ -159,7 +159,7 @@ Tunjukkan bahwa fungsi ruang $\Psi_+ = a(1)b(2) + b(1)a(2)$ harus berpasangan de
 :::
 
 ::: {.contoh}
-**Contoh 11.50 · Tolakan Pauli antara dua atom berkulit tertutup**
+**Contoh 11.51 · Tolakan Pauli antara dua atom berkulit tertutup**
 
 Dalam teori Heitler–London, energi triplet adalah $(Q - X)/(1 - S^2)$. Mengapa interaksi dua atom berkulit tertutup, seperti He + He atau Ne + Ne, selalu menolak pada jarak pendek, dan mengapa tolakan itu meluruh eksponensial?
 
@@ -169,11 +169,11 @@ Dalam teori Heitler–London, energi triplet adalah $(Q - X)/(1 - S^2)$. Mengapa
 :::
 
 ::: {.contoh}
-**Contoh 11.51 · Lampu deuterium dan kurva triplet yang menolak**
+**Contoh 11.52 · Lampu deuterium dan kurva triplet yang menolak**
 
 Spektrofotometer UV-Vis memakai lampu deuterium sebagai sumber kontinum dari sekitar 160 sampai 400 nm. Cahayanya berasal dari transisi D₂ antara keadaan triplet terikat $a\,^3\Sigma_g^+$ dan keadaan triplet terendah $b\,^3\Sigma_u^+$, yang tidak lain adalah keadaan triplet Heitler–London (11.27) dengan tanda minus. Mengapa spektrumnya kontinu, bukan garis-garis?
 
-**Penyelesaian.** Keadaan $b\,^3\Sigma_u^+$ menolak di semua jarak (Contoh 11.48 memberi $+7{,}0$ eV pada 87 pm untuk H₂ dengan $\zeta = 1$). Molekul yang turun dari keadaan $a$ yang terikat ke kurva $b$ tidak mendarat di tingkat getaran diskret, karena kurva menolak tidak mempunyai tingkat terikat; molekul langsung terurai menjadi dua atom dengan energi kinetik berapa pun. Energi foton $= U_a(R) - U_b(R)$ pada jarak $R$ tempat transisi terjadi, dan karena $R$ tersebar sepanjang getaran keadaan $a$, energi foton juga tersebar kontinu.
+**Penyelesaian.** Keadaan $b\,^3\Sigma_u^+$ menolak di semua jarak (Contoh 11.49 memberi $+7{,}0$ eV pada 87 pm untuk H₂ dengan $\zeta = 1$). Molekul yang turun dari keadaan $a$ yang terikat ke kurva $b$ tidak mendarat di tingkat getaran diskret, karena kurva menolak tidak mempunyai tingkat terikat; molekul langsung terurai menjadi dua atom dengan energi kinetik berapa pun. Energi foton $= U_a(R) - U_b(R)$ pada jarak $R$ tempat transisi terjadi, dan karena $R$ tersebar sepanjang getaran keadaan $a$, energi foton juga tersebar kontinu.
 
 **Memahami hasil.** Transisi $a \to b$ diizinkan ($\Delta S = 0$, $g \to u$, Σ⁺ → Σ⁺), sehingga terang. Deuterium dipakai alih-alih hidrogen karena intensitasnya lebih tinggi dan umur lampunya lebih panjang. Inilah contoh praktis bahwa keadaan triplet H₂ yang "tidak berguna" bagi ikatan kimia justru menyediakan sumber cahaya ultraviolet di hampir setiap laboratorium kimia analitik.
 :::
@@ -228,6 +228,50 @@ disebut fungsi **interaksi konfigurasi** (CI), dan koefisiennya diperoleh dari p
 
 ![Gambar 11.10 Kurva energi potensial H₂ dalam basis minimal 1s ($\zeta = 1$): OM (biru), Heitler–London (hijau), dan CI (jingga), relatif terhadap dua atom H. Bintang menandai minimum eksak ($R_e = 1{,}401$ bohr, $D_e = 4{,}747$ eV). Kurva OM naik ke nilai yang salah pada jarak besar karena memuat 50% struktur ionik.](fig/c_h2.png){width=82%}
 
+### Memecah simetri spin: UHF dan titik Coulson–Fischer
+
+Ada cara lain memperbaiki disosiasi tanpa menambah konfigurasi: izinkan elektron berspin α dan β menempati orbital ruang yang *berbeda*. Metode ini disebut Hartree–Fock tak terbatas (*unrestricted*, UHF), berlawanan dengan Hartree–Fock terbatas (RHF) yang menempatkan kedua elektron dalam orbital ruang yang sama seperti (11.22). Di dekat jarak setimbang, penyelesaian UHF terbaik untuk H₂ ternyata sama dengan RHF: kedua elektron memang paling baik berbagi orbital $\sigma_g$. Tetapi melewati suatu jarak kritis, yang disebut **titik Coulson–Fischer**, energi dapat diturunkan dengan membiarkan orbital α condong ke satu atom dan orbital β ke atom lain. Di batas $R \to \infty$, UHF menjadi H↑ + H↓ dan energinya tepat $2E_\text{H}$.
+
+Harga yang dibayar: fungsi UHF yang terpecah simetrinya bukan lagi fungsi eigen $\hat S^2$. Ia campuran singlet dan triplet, dengan $\langle\hat S^2\rangle$ naik dari 0 di titik Coulson–Fischer menuju 1 (rata-rata singlet dan triplet) pada disosiasi. Gejala ini disebut **kontaminasi spin**, dan harus selalu diperiksa ketika memakai UHF untuk pemutusan ikatan atau radikal.
+
+::: {.contoh}
+**Contoh 11.53 · Kurva H₂ dengan PySCF: RHF, UHF, dan CI lengkap**
+
+Program kimia kuantum sumber terbuka PySCF dapat menghitung H₂ dengan basis besar (cc-pVTZ, 28 fungsi basis) pada tiga tingkat teori: RHF, UHF, dan interaksi konfigurasi lengkap (FCI, semua konfigurasi dalam basis itu, yaitu jawaban eksak untuk basis tersebut). Tulis programnya dan tafsirkan hasilnya.
+
+**Penyelesaian.**
+
+```python
+from pyscf import gto, scf, fci
+for R in [1.4, 2.0, 2.3, 3.0, 6.0]:                      # bohr
+    mol = gto.M(atom=f'H 0 0 0; H 0 0 {R}', unit='Bohr', basis='cc-pvtz')
+    rhf = scf.RHF(mol).run()
+    uhf = scf.UHF(mol)
+    dma, dmb = uhf.get_init_guess()                        # tebakan awal yang
+    n = mol.nao // 2                                       # memecah simetri:
+    dma[:n, :n] *= 1.8; dma[n:, n:] *= 0.2                 # α condong ke atom 1,
+    dmb[:n, :n] *= 0.2; dmb[n:, n:] *= 1.8                 # β condong ke atom 2
+    uhf.kernel((dma, dmb))
+    e_fci = fci.FCI(rhf).kernel()[0]
+    print(R, rhf.e_tot, uhf.e_tot, e_fci, uhf.spin_square()[0])
+```
+
+Hasilnya (hartree):
+
+| $R$ (bohr) | RHF | UHF | FCI | $\langle\hat S^2\rangle_\text{UHF}$ |
+|---|---|---|---|---|
+| 1,4 | $-1{,}1330$ | $-1{,}1330$ | $-1{,}1723$ | 0 |
+| 2,0 | $-1{,}0911$ | $-1{,}0911$ | $-1{,}1362$ | 0 |
+| 3,0 | $-0{,}9886$ | $-1{,}0168$ | $-1{,}0553$ | 0,67 |
+| 6,0 | $-0{,}8216$ | $-0{,}9997$ | $-1{,}0003$ | 1,00 |
+
+Pemindaian halus memperlihatkan bahwa penyelesaian UHF mulai berbeda dari RHF pada $R \approx 2{,}30$ bohr (122 pm), yaitu titik Coulson–Fischer. Energi atom H dalam basis ini $-0{,}49981$ hartree. Maka $D_e$(FCI) $= 2(-0{,}49981) - (-1{,}17233) = 0{,}1727$ hartree $= 4{,}70$ eV, dan $D_e$(RHF) $= 0{,}1333$ hartree $= 3{,}63$ eV (Gambar 11.11).
+
+**Memahami hasil.** FCI dengan basis cc-pVTZ memberi energi ikat 99% dari nilai eksak 4,747 eV; sisanya adalah kelemahan basis. RHF dengan basis yang sama sudah mencapai batas Hartree–Fock (3,64 eV), dan selisih sekitar 1,1 eV adalah energi korelasi. Pada $R = 6$ bohr, RHF masih 4,8 eV terlalu tinggi, sedangkan UHF benar. Namun UHF di $R = 3$ bohr menangkap kurang dari separuh energi korelasi, dan fungsinya terkontaminasi spin. Pelajaran praktisnya: RHF untuk molekul di sekitar geometri setimbang, UHF dengan hati-hati untuk radikal dan ikatan teregang, dan metode berkorelasi (Bab 17) untuk energi yang teliti.
+:::
+
+![Gambar 11.11 Kurva energi potensial H₂ dalam basis cc-pVTZ, dihitung dengan PySCF: RHF (biru), UHF (hijau), dan CI lengkap (jingga), relatif terhadap dua atom H dalam basis yang sama. UHF memisah dari RHF pada titik Coulson–Fischer ($R \approx 2{,}3$ bohr, garis putus-putus). Selisih RHF dan FCI di jarak setimbang adalah energi korelasi.](fig/c_h2_uhf.png){width=82%}
+
 ### Energi korelasi
 
 Selisih antara energi eksak dan energi Hartree–Fock (energi terbaik yang dapat dicapai dengan satu determinan) disebut **energi korelasi**:
@@ -239,7 +283,7 @@ $$
 Untuk H₂ pada $R_e$, $E_\text{HF} = -1{,}1336$ hartree dan $E_\text{eksak} = -1{,}1745$ hartree, sehingga $E_\text{kor} = -0{,}0408$ hartree $= -1{,}11$ eV. Energi ini kecil dibandingkan energi total (3,5%), tetapi sebanding dengan energi ikat kimia, sehingga tidak boleh diabaikan dalam perhitungan termokimia. Metode-metode di Bab 17 (CI, Møller–Plesset, coupled-cluster, DFT) pada dasarnya adalah cara-cara menangkap energi korelasi.
 
 ::: {.contoh}
-**Contoh 11.52 · Seberapa ionik ikatan H–H?**
+**Contoh 11.54 · Seberapa ionik ikatan H–H?**
 
 Penyelesaian CI 2 × 2 pada jarak optimum ($R = 1{,}430$ bohr, $\zeta = 1{,}194$, $S = 0{,}667$) memberi koefisien $c_1 = 0{,}9933$ dan $c_2 = -0{,}1154$. Hitung $\lambda$ dalam (11.28).
 
@@ -253,7 +297,7 @@ $$
 :::
 
 ::: {.contoh}
-**Contoh 11.53 · Kurva H₂ dengan Python**
+**Contoh 11.55 · Kurva H₂ dengan Python**
 
 Tuliskan program yang menghitung energi OM, Heitler–London, dan CI H₂ dalam basis 1s dengan eksponen $\zeta$, memakai rumus tertutup integral orbital Slater.
 
@@ -291,7 +335,7 @@ print(energi(1.4))          # (-1.0909, -1.1055, -1.1066)
 :::
 
 ::: {.contoh}
-**Contoh 11.54 · Kapan OM cukup, kapan perlu CI?**
+**Contoh 11.56 · Kapan OM cukup, kapan perlu CI?**
 
 Bandingkan kesalahan energi OM ($\zeta = 1$) relatif terhadap CI pada $R = 1{,}4$, 2, 4, dan 6 bohr: OM $-1{,}0909$, $-1{,}0808$, $-0{,}8954$, $-0{,}7951$; CI $-1{,}1066$, $-1{,}1084$, $-1{,}0128$, $-1{,}0005$ hartree.
 

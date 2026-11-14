@@ -250,3 +250,13 @@ ax.axhline(0, color='#999', lw=0.7, ls='--'); ax.set_xlim(1.0, 11); ax.set_ylim(
 ax.set_xlabel('$R$ (bohr)'); ax.set_ylabel('$E - E(\\mathrm{H} + \\mathrm{H}^+)$ (eV)'); koma(ax)
 sv(f, 'c_vib_h2p.png')
 print('tingkat:', len(Ev))
+
+# ------------------------------------------------ 14. H2 RHF/UHF/FCI (PySCF, cc-pVTZ); data dari h2_pyscf.json
+dq = json.load(open('h2_pyscf.json')); Rq = np.array(dq['R']); EH = -0.4998098
+f, ax = plt.subplots(figsize=(5.6, 3.6)); sp(ax)
+for k, t, c in [('uhf', 'UHF', H), ('rhf', 'RHF', B), ('fci', 'CI lengkap', J2)]:
+    cq = CubicSpline(Rq, (np.array(dq[k]) - 2 * EH) * EV); rr = np.linspace(0.6, 8, 300); ax.plot(rr, cq(rr), color=c, lw=1.8, label=t)
+ax.axvline(2.30, color='#999', lw=0.7, ls='--'); ax.text(2.38, 3.6, 'Coulson–Fischer', fontsize=7.5, color='#666')
+ax.axhline(0, color='#999', lw=0.6); ax.set_xlim(0.6, 8); ax.set_ylim(-5.2, 5)
+ax.set_xlabel('$R$ (bohr)'); ax.set_ylabel('$E - 2E(\\mathrm{H})$ (eV)'); koma(ax); ax.legend(frameon=False, fontsize=8, loc='lower right')
+sv(f, 'c_h2_uhf.png')
