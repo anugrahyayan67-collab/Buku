@@ -17,7 +17,7 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 ### ☑ Bab 3 Persamaan Schrödinger dan Partikel dalam Kotak
 3.1 Persamaan gelombang klasik · 3.2 Persamaan Schrödinger bergantung waktu · 3.3 Tafsir Born dan normalisasi · 3.4 Persamaan tak bergantung waktu dan keadaan stasioner · 3.5 Partikel bebas dan paket gelombang · 3.6 Partikel dalam kotak satu dimensi · 3.7 Sifat fungsi gelombang: simpul, ortogonalitas, batas klasik · 3.8 Model elektron bebas untuk poliena dan zat warna sianin · 3.9 Sumur potensial terhingga · 3.10 Tangga potensial dan pantulan · 3.11 Penerobosan · 3.12 Penerobosan dalam kimia: STM, transfer proton, inversi amonia
 
-### ☐ Bab 4 Operator dan Postulat Mekanika Kuantum
+### ☑ Bab 4 Operator dan Postulat Mekanika Kuantum
 4.1 Operator dan aljabarnya · 4.2 Fungsi eigen dan nilai eigen · 4.3 Operator besaran fisika · 4.4 Persamaan Schrödinger tiga dimensi dan banyak partikel · 4.5 Kotak tiga dimensi dan degenerasi · 4.6 Nilai harap · 4.7 Syarat fungsi gelombang yang dapat diterima · 4.8 Operator Hermitian · 4.9 Ekspansi dalam fungsi eigen; kelengkapan · 4.10 Komutator dan pengukuran serentak · 4.11 Paritas · 4.12 Pengukuran dan superposisi · 4.13 Postulat mekanika kuantum · 4.14 Notasi Dirac dan representasi matriks
 
 ## Bagian II · Sistem yang dapat diselesaikan tepat
