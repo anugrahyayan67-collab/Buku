@@ -1,0 +1,35 @@
+@@RINGKASAN
+| Sedimentasi | $v_t = 2r^2(\rho_p - \rho_f)g/9\eta$; sentrifus: $g \to \omega^2r$ | 7.10 |
+| Koefisien sedimentasi | $s = v/\omega^2r$ (1 S $= 10^{-13}$ s); $\ M = sRT/[D(1 - \bar v\rho_f)]$ | 7.10 |
+| Hambatan kuadrat | $F_D = \tfrac12C_D\rho Av^2$ untuk bilangan Reynolds besar | 7.11 |
+| Gaya angkat | sama dengan laju momentum yang diberikan pada udara ke bawah | 7.11 |
+@@KUIS
+**7.9** Sembilan kali; kelajuan mengendap sebanding dengan kuadrat jari-jari. **7.10** Gaya hambat bergantung pada kelajuan **relatif terhadap udara**, dan sebanding dengan kuadratnya.
+@@PERTANYAAN
+Mengapa protein tidak mengendap dalam tabung yang dibiarkan berdiri, tetapi mengendap dalam ultrasentrifus?
+Mengapa laju endap darah naik ketika sel-sel darah merah saling menempel?
+Mengapa daya yang diperlukan untuk melawan hambatan udara sebanding dengan pangkat tiga kelajuan?
+Penjelasan gaya angkat sayap dengan persamaan Bernoulli dan dengan hukum ketiga Newton sering dianggap bertentangan. Apakah memang bertentangan?
+Mengapa helikopter dengan rotor besar lebih hemat energi daripada helikopter seberat itu dengan rotor kecil?
+@@SOAL
+## Subbab 7.10: Sedimentasi dan sentrifugasi
+Berapa RCF sentrifus 12 000 rpm pada jarak 9,0 cm dari sumbu? ||| $1{,}45 \times 10^4\ g$
+Berapa rpm yang diperlukan agar cuplikan berjarak 6,0 cm merasakan 20 000 $g$? ||| 17 300 rpm
+Pada 50 000 rpm dan $r = 6{,}5$ cm, sebuah makromolekul mengendap 2,5 μm/s. Berapa koefisien sedimentasinya? ||| 14 S
+Berapa kelajuan terminal butir pasir kuarsa (massa jenis 2650 kg/m³) berjari-jari 50 μm dalam air? ||| 9,0 mm/s
+Berapa lama butir lempung berdiameter 2,0 μm (massa jenis 2650 kg/m³) turun 10 cm dalam air diam? ||| 0,32 hari
+@katalase Suatu enzim memiliki $s = 11{,}3$ S, $D = 4{,}0 \times 10^{-11}$ m²/s, dan $\bar v = 0{,}73$ mL/g dalam air pada 20 °C. Berapa massa molarnya? ||| $2{,}5 \times 10^5$ g/mol
+## Subbab 7.11: Gaya hambat dan gaya angkat
+Berapa kali daya untuk melawan hambatan udara jika kelajuan dilipatduakan dari 60 km/jam ke 120 km/jam? ||| 8 kali
+Bola sepak bermassa 0,43 kg, diameter 22 cm, $C_D = 0{,}25$. Berapa kelajuan terminalnya di udara? ||| 27 m/s
+Truk berluas depan 9,0 m² dan $C_D = 0{,}80$ melaju 90 km/jam. Berapa gaya hambat dan daya untuk melawannya? ||| 2,7 kN; 68 kW
+Drone 1,2 kg memiliki empat rotor berjari-jari 12 cm. Dengan teori momentum sederhana, berapa daya paling sedikit untuk melayang? ||| 61 W
+Selang pemadam menyemburkan 3,0 kg air tiap sekon dengan kelajuan 20 m/s. Berapa gaya dorong balik yang harus ditahan petugas? ||| 60 N
+@@PEMBAHASAN
+**Soal {{katalase}}.** Faktor apung: $1 - \bar v\rho_f = 1 - (0{,}73)(0{,}998) = 0{,}271$.
+
+$$
+M = \frac{sRT}{D(1 - \bar v\rho_f)} = \frac{(11{,}3 \times 10^{-13})(8{,}314)(293)}{(4{,}0 \times 10^{-11})(0{,}271)} = 254\ \text{kg/mol}.
+$$
+
+*Cara berpikir:* koefisien sedimentasi sebanding dengan massa (yang ditarik ke luar) dibagi gesekan; koefisien difusi sebanding dengan $k_BT$ dibagi gesekan yang sama. Perbandingan keduanya membuang gesekan, yang bergantung pada bentuk molekul dan sukar dihitung. Jangan lupa satuan: $\bar v$ dalam mL/g dan $\rho_f$ dalam g/mL memberi hasil kali tak berdimensi, dan $M$ keluar dalam kg/mol.

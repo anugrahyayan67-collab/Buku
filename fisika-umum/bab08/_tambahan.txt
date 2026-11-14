@@ -1,0 +1,294 @@
+@@ a-ghs.md | ## 8.3 Gerak harmonik
+::: {.contoh}
+**Contoh 8.ya · Menambah beban**
+
+Beban 0,30 kg pada sebuah pegas bergetar dengan periode 0,50 s. (a) Berapa konstanta pegasnya? (b) Berapa periodenya jika ditambahkan beban 0,10 kg?
+
+**Kerjakan.**
+
+(a) $k = \dfrac{4\pi^2m}{T^2} = \dfrac{4\pi^2(0{,}30)}{(0{,}50)^2} = 47$ N/m.
+
+(b) Periode sebanding dengan $\sqrt m$: $T' = 0{,}50\sqrt{\dfrac{0{,}40}{0{,}30}} = 0{,}58$ s.
+
+**Periksa.** Massa bertambah sepertiga, tetapi periode hanya bertambah 15%, karena akar. Cara perbandingan pada (b) tidak memerlukan nilai $k$ sama sekali.
+:::
+
+::: {.contoh}
+**Contoh 8.yb · Mulai dari titik setimbang**
+
+Balok pada pegas, dengan $\omega = 20$ rad/s, mula-mula diam di titik setimbang, lalu dipukul sehingga bergerak dengan kecepatan 1,5 m/s. (a) Tuliskan persamaan geraknya. (b) Kapan balok pertama kali berada 0,050 m dari titik setimbang?
+
+**Kerjakan.**
+
+(a) Mulai dari $x = 0$ dengan kecepatan positif, bentuk sinus paling cocok: $x = A\sin\omega t$, dengan $A = \dfrac{v_0}{\omega} = \dfrac{1{,}5}{20} = 0{,}075$ m.
+
+$$
+x(t) = 0{,}075\sin(20t)\ \text{m}.
+$$
+
+(b) $\sin(20t) = \dfrac{0{,}050}{0{,}075} = 0{,}667$, sehingga $20t = 0{,}730$ rad dan $t = 0{,}036$ s.
+
+**Periksa.** Bentuk sinus sama dengan bentuk kosinus bertetapan fase $-\pi/2$: $\sin\omega t = \cos(\omega t - \pi/2)$. Pilih bentuk yang membuat keadaan awal paling sederhana. Persamaan pada (b) memiliki penyelesaian lain, $20t = \pi - 0{,}730$; itu saat balok melewati titik yang sama dalam perjalanan pulang.
+:::
+
+::: {.contoh}
+**Contoh 8.yc · Percepatan pada getaran cepat**
+
+Kerucut sebuah pengeras suara bergetar dengan amplitudo 1,0 mm pada 1000 Hz. Berapa kelajuan dan percepatan terbesarnya?
+
+**Kerjakan.** $\omega = 2\pi(1000) = 6283$ rad/s.
+
+$$
+v_\text{maks} = \omega A = (6283)(1{,}0 \times 10^{-3}) = 6{,}3\ \text{m/s}, \qquad a_\text{maks} = \omega^2A = 3{,}9 \times 10^4\ \text{m/s}^2 .
+$$
+
+**Periksa.** Percepatannya 4000 kali $g$, padahal simpangannya hanya satu milimeter. Karena $a_\text{maks} = \omega^2A$, percepatan tumbuh dengan **kuadrat** frekuensi. Itu sebabnya kerucut pengeras suara harus ringan dan kaku, dan sebabnya getaran berfrekuensi tinggi cepat merusak mesin walaupun amplitudonya kecil.
+:::
+
+::: {.contoh}
+**Contoh 8.yd · Berat semu di perahu**
+
+Sebuah perahu naik-turun mengikuti ombak secara harmonik dengan amplitudo 0,50 m dan periode 4,0 s. Berapa berat semu terbesar dan terkecil penumpang 70 kg?
+
+**Kerjakan.** $\omega = \dfrac{2\pi}{4{,}0} = 1{,}57$ rad/s, sehingga $a_\text{maks} = \omega^2A = 1{,}23\ \text{m/s}^2$.
+
+Di titik terendah percepatannya ke atas: $n = m(g + a) = 70(11{,}03) = 772$ N. Di titik tertinggi percepatannya ke bawah: $n = m(g - a) = 70(8{,}57) = 600$ N.
+
+**Periksa.** Berat semu berayun 13% di sekitar berat sebenarnya, 686 N. Penumpang merasa paling berat di **lembah** ombak dan paling ringan di **puncak**. Ayunan berat semu inilah yang menyebabkan mabuk laut.
+:::
+
+@@ a-ghs.md | ## 8.5 Pegas tegak
+::: {.contoh}
+**Contoh 8.ye · Menambah massa di tengah getaran**
+
+Balok 0,50 kg pada pegas ($k = 200$ N/m) bergetar dengan amplitudo 0,10 m di lantai licin. Segumpal lempung 0,30 kg dijatuhkan tegak dan menempel pada balok. Tentukan amplitudo dan periode yang baru jika lempung itu mendarat ketika balok (a) melewati titik setimbang; (b) berada di titik balik.
+
+**Kerjakan.** Periode baru sama untuk kedua keadaan: $T' = 2\pi\sqrt{\dfrac{0{,}80}{200}} = 0{,}40$ s (semula 0,31 s).
+
+(a) Di titik setimbang balok bergerak 2,0 m/s. Lempung tidak membawa momentum mendatar, jadi ini tumbukan tak lenting: $v' = \dfrac{(0{,}50)(2{,}0)}{0{,}80} = 1{,}25$ m/s. Dengan $\omega' = \sqrt{200/0{,}80} = 15{,}8$ rad/s:
+
+$$
+A' = \frac{v'}{\omega'} = \frac{1{,}25}{15{,}8} = 0{,}079\ \text{m}.
+$$
+
+(b) Di titik balik balok diam, jadi tidak ada momentum yang berubah. Simpangannya tetap 0,10 m, dan itu tetap titik balik: $A' = 0{,}10$ m.
+
+**Periksa.** Pada (a) energi turun dari 1,0 J menjadi $\tfrac12(0{,}80)(1{,}25)^2 = 0{,}63$ J; sisanya hilang dalam tumbukan. Pada (b) seluruh energi sedang tersimpan di pegas, sehingga tidak ada yang hilang. Saat massa ditambahkan menentukan hasilnya, walaupun periode barunya sama.
+:::
+
+::: {.contoh}
+**Contoh 8.yf · Kelajuan di berbagai posisi**
+
+Untuk osilator dengan $A = 0{,}10$ m dan $\omega = 20$ rad/s, hitung kelajuannya pada simpangan 0; 0,050; 0,080; dan 0,10 m.
+
+**Kerjakan.** $v = \omega\sqrt{A^2 - x^2}$.
+
+| $x$ (m) | 0 | 0,050 | 0,080 | 0,10 |
+|---|---|---|---|---|
+| $x/A$ | 0 | 0,50 | 0,80 | 1,0 |
+| $v$ (m/s) | 2,0 | 1,7 | 1,2 | 0 |
+| $v/v_\text{maks}$ | 1,0 | 0,87 | 0,60 | 0 |
+
+**Periksa.** Di setengah amplitudo, kelajuannya masih 87% nilai terbesarnya. Kelajuan baru turun tajam di dekat titik balik. Pasangan $(x/A,\ v/v_\text{maks})$ selalu memenuhi $(x/A)^2 + (v/v_\text{maks})^2 = 1$: di bidang posisi–kecepatan, osilator bergerak mengelilingi sebuah lingkaran. Itulah lingkaran acuan pada subbab 8.3.
+:::
+
+@@ a-ghs.md | AKHIR
+::: {.contoh}
+**Contoh 8.yg · Bandul di lift dan di mobil**
+
+Bandul sepanjang 1,0 m digantung (a) di lift yang dipercepat ke atas $2{,}0\ \text{m/s}^2$; (b) di mobil yang dipercepat mendatar $3{,}0\ \text{m/s}^2$. Berapa periode ayunan kecilnya, dan pada (b) berapa sudut setimbang talinya?
+
+**Kerjakan.**
+
+(a) $g_\text{ef} = 9{,}80 + 2{,}0 = 11{,}8\ \text{m/s}^2$: $T = 2\pi\sqrt{\dfrac{1{,}0}{11{,}8}} = 1{,}83$ s.
+
+(b) $g_\text{ef} = \sqrt{9{,}80^2 + 3{,}0^2} = 10{,}2\ \text{m/s}^2$: $T = 2\pi\sqrt{\dfrac{1{,}0}{10{,}2}} = 1{,}96$ s. Tali setimbang miring ke belakang dengan sudut $\tan^{-1}\dfrac{3{,}0}{9{,}80} = 17°$ dari garis tegak, dan bandul berayun di sekitar arah itu.
+
+**Periksa.** Tanpa percepatan periodenya 2,01 s. Pada kedua keadaan gravitasi efektifnya lebih besar, sehingga bandul berayun lebih cepat.
+:::
+
+::: {.contoh}
+**Contoh 8.yh · Tegangan tali pada ayunan kecil**
+
+Bandul sepanjang 1,2 m dengan beban 0,20 kg berayun dengan amplitudo sudut 8,0°. Berapa kelajuan terbesar beban dan tegangan tali di titik terendah?
+
+**Kerjakan.** $\omega = \sqrt{9{,}80/1{,}2} = 2{,}86$ rad/s. Amplitudo sepanjang busur: $A = L\theta_0 = (1{,}2)(0{,}1396) = 0{,}168$ m.
+
+$$
+v_\text{maks} = \omega A = (2{,}86)(0{,}168) = 0{,}48\ \text{m/s}.
+$$
+
+Di titik terendah: $T_\text{tali} = mg + \dfrac{mv^2}{L} = mg(1 + \theta_0^2) = (1{,}96)(1 + 0{,}0195) = 2{,}00$ N.
+
+**Periksa.** Untuk ayunan kecil, tegangan tali hanya 2% lebih besar daripada berat. Rumus $mg(1 + \theta_0^2)$ adalah bentuk sudut-kecil dari hasil umum $mg(3 - 2\cos\theta_0)$ di subbab 4.6.
+:::
+
+::: {.contoh}
+**Contoh 8.yi · Jam bandul dan suhu**
+
+Batang bandul sebuah jam terbuat dari kuningan, yang panjangnya bertambah $19 \times 10^{-6}$ bagian tiap kenaikan suhu 1 K. Jam itu tepat pada 20 °C. Berapa sekon per hari kesalahannya pada 30 °C, dan ke arah mana?
+
+**Kerjakan.** Pertambahan panjang relatif: $(19 \times 10^{-6})(10) = 1{,}9 \times 10^{-4}$. Karena $T \propto \sqrt L$, pertambahan periode relatif setengahnya: $9{,}5 \times 10^{-5}$.
+
+Dalam sehari (86 400 s): $(9{,}5 \times 10^{-5})(86\,400) = 8{,}2$ s. Jam **terlambat** 8,2 s tiap hari.
+
+**Periksa.** Delapan sekon sehari berarti empat menit sebulan. Pembuat jam abad ke-18 mengatasinya dengan bandul berkisi dari dua logam yang pemuaiannya saling meniadakan, dan kemudian dengan paduan invar yang hampir tidak memuai.
+:::
+
+@@ b-molekul.md | ## 8.8 Osilasi teredam
+::: {.contoh}
+**Contoh 8.yj · Satu pita, empat cara menyatakannya**
+
+Gugus karbonil menyerap inframerah di sekitar 1715 cm⁻¹. Nyatakan pita itu sebagai frekuensi, panjang gelombang, dan energi per foton (dalam J, eV, dan kJ/mol).
+
+**Kerjakan.**
+
+$f = c\tilde\nu = (2{,}998 \times 10^{10})(1715) = 5{,}14 \times 10^{13}$ Hz.
+
+$\lambda = \dfrac{10\,000}{1715} = 5{,}83$ μm.
+
+$E = hf = (6{,}626 \times 10^{-34})(5{,}14 \times 10^{13}) = 3{,}41 \times 10^{-20}$ J $= 0{,}213$ eV $= 20{,}5$ kJ/mol.
+
+**Periksa.** Energi 20,5 kJ/mol jauh di bawah energi ikatan C=O (sekitar 750 kJ/mol). Menyerap satu foton inframerah hanya membuat ikatan bergetar lebih kuat, tidak memutusnya. Untuk memutus ikatan diperlukan foton ultraungu, yang energinya ratusan kJ/mol.
+:::
+
+::: {.contoh}
+**Contoh 8.yk · Getaran yang membeku**
+
+Sebuah getaran baru menyimpan energi termal secara berarti jika $k_BT$ sebanding dengan atau lebih besar daripada $hf$. Suhu $\theta = hc\tilde\nu/k_B$ disebut **suhu karakteristik getaran**. Hitung $\theta$ untuk HCl (2991 cm⁻¹), N₂ (2359 cm⁻¹), ragam tekuk CO₂ (667 cm⁻¹), dan I₂ (215 cm⁻¹).
+
+**Kerjakan.** $\theta = \dfrac{hc}{k_B}\tilde\nu = (1{,}439\ \text{K·cm})\,\tilde\nu$.
+
+| Getaran | $\tilde\nu$ (cm⁻¹) | $\theta$ (K) |
+|---|---|---|
+| HCl | 2991 | 4300 |
+| N₂ | 2359 | 3390 |
+| CO₂, tekuk | 667 | 960 |
+| I₂ | 215 | 310 |
+
+**Periksa.** Pada suhu kamar (298 K), getaran HCl dan N₂ membeku hampir sepenuhnya, ragam tekuk CO₂ sedikit tereksitasi, dan getaran I₂ hampir aktif penuh. Urutan ini tampak langsung pada kapasitas kalor gas-gas itu (Bab 10): N₂ berperilaku seperti dua bola kaku yang terhubung batang, sedangkan uap iodin berperilaku seperti dua bola pada pegas.
+:::
+
+::: {.contoh}
+**Contoh 8.yl · Ikatan hidrogen melunakkan O–H**
+
+Dalam fase gas, getaran ulur O–H sebuah alkohol berada di 3650 cm⁻¹. Dalam zat cair, tempat molekul-molekulnya saling berikatan hidrogen, pitanya bergeser ke sekitar 3350 cm⁻¹. Berapa persen konstanta gaya ikatan O–H berkurang?
+
+**Kerjakan.** Massa tereduksi tidak berubah, jadi $k \propto \tilde\nu^2$:
+
+$$
+\frac{k'}{k} = \Big(\frac{3350}{3650}\Big)^2 = 0{,}84 .
+$$
+
+Konstanta gayanya berkurang 16%.
+
+**Periksa.** Ketika atom H ditarik oleh oksigen molekul tetangga, ikatan O–H aslinya memanjang dan melemah. Kekuatan ikatan hidrogen berbeda-beda dari satu molekul ke molekul lain di dalam zat cair, jadi pitanya juga **melebar**. Pita O–H yang lebar dan bergeser ke bawah adalah tanda khas ikatan hidrogen pada spektrum inframerah.
+:::
+
+@@ b-molekul.md | ## 8.9 Osilasi paksa
+::: {.contoh}
+**Contoh 8.ym · Daya untuk menjaga jam tetap berjalan**
+
+Bandul sebuah jam memiliki beban 0,50 kg, panjang 1,0 m, amplitudo 5,0°, dan faktor kualitas 500. (a) Berapa energi getarannya? (b) Berapa energi yang hilang tiap ayunan? (c) Berapa daya rata-rata yang harus diberikan agar amplitudonya tetap?
+
+**Kerjakan.**
+
+(a) $E = mgL(1 - \cos\theta_0) = (0{,}50)(9{,}80)(1{,}0)(1 - \cos 5{,}0°) = 0{,}0187$ J.
+
+(b) Tiap siklus hilang $\dfrac{2\pi}{Q}E = \dfrac{2\pi}{500}(0{,}0187) = 2{,}3 \times 10^{-4}$ J.
+
+(c) Periodenya 2,01 s, jadi $P = \dfrac{2{,}3 \times 10^{-4}}{2{,}01} = 1{,}2 \times 10^{-4}$ W.
+
+**Periksa.** Hanya sepersepuluh miliwatt. Energi itu berasal dari beban pemberat yang turun perlahan. Beban 2 kg yang turun 1 m menyimpan 19,6 J, cukup untuk dua hari. Mekanisme jam memberi dorongan kecil kepada bandul tepat pada irama alaminya, contoh osilator yang didorong di resonansi.
+:::
+
+::: {.contoh}
+**Contoh 8.yn · Berapa lama garpu tala berbunyi?**
+
+Sebuah garpu tala 440 Hz memiliki faktor kualitas $1{,}0 \times 10^4$. Berapa lama sampai energinya, dan sampai amplitudonya, turun menjadi $1/e$?
+
+**Kerjakan.** Waktu peluruhan energi: $\tau = \dfrac{Q}{\omega_0} = \dfrac{1{,}0 \times 10^4}{2\pi(440)} = 3{,}6$ s. Amplitudo meluruh dua kali lebih lambat: 7,2 s.
+
+**Periksa.** Dalam 3,6 s garpu tala itu bergetar 1600 kali. Lebar puncak resonansinya hanya $440/10^4 = 0{,}044$ Hz, sangat tajam. Itu sebabnya garpu tala menjadi patokan nada yang baik: frekuensinya sangat pasti, justru karena redamannya kecil.
+:::
+
+@@ b-molekul.md | ## 8.10 Molekul beratom banyak
+::: {.contoh}
+**Contoh 8.yo · Di bawah, di, dan di atas resonansi**
+
+Sebuah osilator dengan $Q = 20$ didorong gaya periodik beramplitudo tetap. Dinyatakan sebagai kelipatan simpangan statis $F_0/k$, berapa amplitudonya jika frekuensi pendorong (a) setengah frekuensi alami; (b) sama dengan frekuensi alami; (c) dua kali frekuensi alami?
+
+**Kerjakan.** Dari (8.e25), dengan $r = f/f_0$: $\dfrac{A}{F_0/k} = \dfrac{1}{\sqrt{(1 - r^2)^2 + (r/Q)^2}}$.
+
+(a) $r = 0{,}5$: $\dfrac{1}{\sqrt{0{,}75^2 + 0{,}025^2}} = 1{,}33$.
+
+(b) $r = 1$: $Q = 20$.
+
+(c) $r = 2$: $\dfrac{1}{\sqrt{3^2 + 0{,}1^2}} = 0{,}33$.
+
+**Periksa.** Jauh dari resonansi, redaman hampir tidak berpengaruh; suku $r/Q$ dapat diabaikan pada (a) dan (c). Redaman hanya menentukan tinggi puncak. Di atas resonansi, amplitudo jatuh di bawah simpangan statis: begitulah peredam getaran bekerja. Mesin dipasang pada bantalan lunak agar frekuensi alaminya jauh **di bawah** frekuensi putarnya.
+:::
+
+::: {.contoh}
+**Contoh 8.yp · Dari lebar pita ke umur getaran**
+
+Sebuah pita serapan inframerah dalam zat cair memiliki lebar 10 cm⁻¹. Jika seluruh pelebaran itu disebabkan oleh redaman, berapa umur getarannya?
+
+**Kerjakan.** Lebar dalam frekuensi: $\Delta f = c\,\Delta\tilde\nu = (2{,}998 \times 10^{10})(10) = 3{,}0 \times 10^{11}$ Hz. Dari $\Delta f\,\tau = \dfrac{1}{2\pi}$:
+
+$$
+\tau = \frac{1}{2\pi(3{,}0 \times 10^{11})} = 5{,}3 \times 10^{-13}\ \text{s}.
+$$
+
+**Periksa.** Setengah pikosekon, kira-kira lima puluh getaran untuk pita di 3000 cm⁻¹. Dalam zat cair, tumbukan dengan molekul tetangga menguras energi getaran dengan sangat cepat. Dalam gas bertekanan rendah, tumbukan jarang terjadi, umur getarannya jauh lebih panjang, dan garis spektrumnya ribuan kali lebih tajam.
+:::
+
+::: {.contoh}
+**Contoh 8.yq · Memecahkan gelas dengan suara**
+
+Sebuah gelas kristal berdering pada 550 Hz dengan faktor kualitas 2000. Seberapa tepat nada penyanyi harus mengenai frekuensi itu agar gelas bergetar kuat?
+
+**Kerjakan.** Lebar puncak resonansi: $\Delta f = \dfrac{550}{2000} = 0{,}28$ Hz. Nada penyanyi harus berada dalam kira-kira $\pm 0{,}14$ Hz dari 550 Hz, yaitu tepat sampai 0,03%.
+
+**Periksa.** Itu jauh lebih halus daripada selisih antarnada yang berdekatan (beberapa persen). Di resonansi, amplitudo getaran dinding gelas 2000 kali simpangan statis yang dihasilkan tekanan bunyi yang sama. Gelas murah, dengan $Q$ kecil, tidak dapat dipecahkan dengan cara ini: resonansinya lebar dan lemah.
+:::
+
+@@ b-molekul.md | AKHIR
+::: {.contoh}
+**Contoh 8.yr · Uap air dan metana**
+
+(a) Ragam getaran H₂O berada pada 3657, 1595, dan 3756 cm⁻¹. Hitung panjang gelombangnya. (b) Metana memiliki sembilan ragam getaran, tetapi karena simetrinya hanya dua frekuensi yang menyerap inframerah: 3019 dan 1306 cm⁻¹. Hitung panjang gelombangnya. (c) Mana yang berada dalam rentang pancaran Bumi (kira-kira 5 sampai 50 μm)?
+
+**Kerjakan.**
+
+(a) $\lambda = 10\,000/\tilde\nu$: 2,73 μm; 6,27 μm; 2,66 μm.
+
+(b) 3,31 μm dan 7,66 μm.
+
+(c) Pita tekuk air (6,27 μm) dan pita metana 7,66 μm.
+
+**Periksa.** Bersama pita tekuk CO₂ di 15 μm, pita-pita ini menutup sebagian besar "jendela" pancaran Bumi. Daerah antara 8 dan 13 μm relatif terbuka, dan melalui jendela itulah Bumi membuang sebagian besar kalornya ke angkasa. Gas yang menyerap di dalam jendela itu, seperti metana di tepinya dan gas-gas terfluorinasi di tengahnya, sangat kuat pengaruhnya untuk tiap molekulnya, karena menutup celah yang tadinya terbuka.
+:::
+
+@@ _soal.txt | ## Subbab 8.4: Energi
+Beban 0,25 kg pada pegas ($k = 60$ N/m) bergetar. Berapa periodenya, dan berapa periodenya jika bebannya ditambah 0,20 kg? ||| 0,41 s; 0,54 s
+Pelampung naik-turun mengikuti ombak dengan periode 6,0 s dan amplitudo 0,80 m. Berapa percepatan terbesarnya? ||| 0,88 m/s²
+Membran pengeras suara bergetar dengan amplitudo 0,50 mm pada 200 Hz. Berapa percepatan terbesarnya? ||| 790 m/s²
+
+@@ _soal.txt | ## Subbab 8.5 dan 8.6: Bandul
+Balok 0,60 kg pada pegas ($k = 120$ N/m) bergetar di lantai licin dengan kelajuan terbesar 1,0 m/s. Lempung 0,40 kg dijatuhkan tegak dan menempel pada balok tepat saat balok melewati titik setimbang. Berapa kelajuan terbesar dan amplitudo yang baru? ||| 0,60 m/s; 5,5 cm
+
+@@ _soal.txt | ## Subbab 8.7: Getaran molekul
+Batang bandul sebuah jam terbuat dari baja, yang panjangnya bertambah $12 \times 10^{-6}$ bagian tiap kelvin. Jam itu tepat pada 15 °C. Berapa sekon per hari kesalahannya pada 30 °C? ||| terlambat 7,8 s
+
+@@ _soal.txt | ## Subbab 8.8: Osilasi teredam
+Getaran ulur C–O berada di sekitar 1100 cm⁻¹. (a) Berapa suhu karakteristik getarannya, $hc\tilde\nu/k_B$? (b) Dengan $\mu = 6{,}00$ u, berapa konstanta gayanya? ||| (a) 1580 K; (b) 428 N/m
+Ikatan hidrogen menggeser pita N–H dari 3600 cm⁻¹ ke 3300 cm⁻¹. Berapa persen konstanta gayanya berkurang? ||| 16%
+
+@@ _soal.txt | ## Subbab 8.10: Molekul beratom banyak
+Osilator dengan $Q = 30$ didorong pada (a) 0,80 kali dan (b) 2,0 kali frekuensi alaminya. Berapa amplitudonya, sebagai kelipatan simpangan statis $F_0/k$? ||| (a) 2,8; (b) 0,33
+Sebuah garis serapan inframerah memiliki lebar 5,0 cm⁻¹. Jika pelebarannya disebabkan redaman, berapa umur getarannya? ||| $1{,}1 \times 10^{-12}$ s
+
+@@ _soal.txt | ## Soal gabungan
+Berapa ragam getaran yang dimiliki (a) amonia, NH₃; (b) asetilena, C₂H₂ (lurus); (c) benzena, C₆H₆? ||| (a) 6; (b) 7; (c) 30
+Metana menyerap inframerah pada 1306 cm⁻¹ dan uap air pada 3756 cm⁻¹. Berapa panjang gelombangnya, dan mana yang berada dalam rentang pancaran Bumi (5 sampai 50 μm)? ||| 7,66 μm dan 2,66 μm; pita metana

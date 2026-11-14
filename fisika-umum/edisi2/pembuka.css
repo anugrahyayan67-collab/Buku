@@ -1,0 +1,10 @@
+@page:first { margin: 0; }
+section.pembuka { width: 210mm; height: 297mm; position: relative; overflow: hidden; break-after: page; color: #fff; font-family: Inter, sans-serif;
+  background: radial-gradient(ellipse at 50% 72%, #163e6e 0%, #0e2748 40%, #081a31 78%, #06142a 100%); text-align: left; }
+section.pembuka img.orb { position: absolute; left: 0; bottom: 0; width: 210mm; height: 168mm; }
+section.pembuka .bag { position: absolute; top: 22mm; left: 20mm; font-size: 8.5pt; letter-spacing: 3px; font-weight: 700; color: var(--langit); text-transform: uppercase; }
+section.pembuka .kb { position: absolute; top: 40mm; left: 20mm; font-size: 11pt; letter-spacing: 8px; font-weight: 800; color: var(--jingga-t); }
+section.pembuka .nb { position: absolute; top: 44mm; left: 16mm; font-size: 150pt; font-weight: 900; line-height: 1; letter-spacing: -6px; color: var(--langit); }
+section.pembuka h1 { position: absolute; top: 102mm; left: 20mm; right: 20mm; margin: 0; padding: 0 0 5mm 0; border: none; background: none;
+  font-size: 30pt; font-weight: 900; line-height: 1.05; letter-spacing: -.5px; color: #fff; text-transform: uppercase; border-bottom: .7mm solid var(--jingga-t); width: max-content; max-width: 170mm; }
+section.pembuka .cap { position: absolute; right: 16mm; bottom: 12mm; font-family: Caladea, serif; font-style: italic; font-weight: 700; font-size: 10.5pt; color: #fff; }

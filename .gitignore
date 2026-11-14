@@ -1,0 +1,10 @@
+# hasil cetak dan berkas antara (dibuat ulang oleh skrip)
+*.pdf
+*.docx
+*.html
+_all.md
+_e2.md
+_buku.md
+_kerja/
+_ed1/
+__pycache__/

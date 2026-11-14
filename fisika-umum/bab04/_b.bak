@@ -1,0 +1,492 @@
+## 4.5 Gaya konservatif dan energi potensial
+
+Pada Contoh 4.2, pekerja memberi 176 J kepada peti, tetapi energi kinetik peti tidak bertambah. Energi itu tidak hilang. Jika peti dijatuhkan dari ketinggian itu, gravitasi mengembalikan 176 J tersebut sebagai energi kinetik. Energi yang "tersimpan dalam posisi" seperti ini disebut **energi potensial**.
+
+Tidak semua gaya dapat menyimpan energi. Usaha melawan gesekan tidak pernah kembali: balok yang didorong di lantai kasar lalu dilepas tidak meluncur balik. Jadi ada dua golongan gaya.
+
+### Gaya konservatif
+
+![Gambar 4.5 Tiga lintasan dari A ke B. Usaha gravitasi sama pada ketiganya, karena hanya bergantung pada beda ketinggian.](fig/lintasan.png){width=58%}
+
+Sebuah gaya disebut **konservatif** jika usahanya ketika benda berpindah dari satu titik ke titik lain **tidak bergantung pada lintasan** yang ditempuh, hanya pada titik awal dan titik akhir. Pernyataan yang setara: usaha gaya itu pada **lintasan tertutup** (kembali ke titik semula) adalah nol.
+
+Gravitasi adalah contohnya. Pada Gambar 4.5, pecah lintasan apa pun menjadi langkah-langkah kecil mendatar dan tegak. Pada langkah mendatar, gravitasi tegak lurus perpindahan dan usahanya nol. Yang tersisa hanyalah jumlah langkah tegak, yaitu beda ketinggian:
+
+$$
+W_g = -mg\,\Delta y = -mg(y_f - y_i). \qquad \text{(4.11)}
+$$
+
+Gaya pegas juga konservatif: menurut (4.6), usahanya hanya bergantung pada simpangan awal dan akhir.
+
+Gesekan kinetis **tidak** konservatif. Usahanya $-f_k \times$ (panjang lintasan), jadi lintasan yang lebih panjang berarti usaha negatif yang lebih besar, dan pada lintasan tertutup usahanya tidak nol.
+
+| Gaya konservatif | Gaya takkonservatif |
+|---|---|
+| gravitasi | gesekan kinetis |
+| gaya pegas | gaya hambat udara dan zat cair |
+| gaya listrik antarmuatan (Bab 12) | dorongan atau tarikan tangan, mesin |
+| gaya antaratom dalam ikatan kimia | tegangan tali yang ditarik dari luar |
+
+### Energi potensial
+
+Untuk setiap gaya konservatif, kita dapat mendefinisikan fungsi posisi $U$ yang disebut **energi potensial**, sedemikian sehingga
+
+$$
+\boxed{\Delta U = U_f - U_i = -W_\text{konservatif}} \qquad \text{(4.12)}
+$$
+
+Tanda minus berarti: ketika gaya konservatif melakukan usaha **positif** (benda jatuh, pegas mengendur), energi potensial **berkurang**. Energi itu berpindah dari simpanan menjadi energi gerak.
+
+**Energi potensial gravitasi** (di dekat permukaan Bumi). Dari (4.11) dan (4.12), $\Delta U_g = mg\,\Delta y$, sehingga
+
+$$
+\boxed{U_g = mgy} \qquad \text{(4.13)}
+$$
+
+dengan $y$ ketinggian di atas suatu **titik acuan** yang kita pilih.
+
+**Energi potensial pegas.** Dari (4.6),
+
+$$
+\boxed{U_s = \tfrac12kx^2} \qquad \text{(4.14)}
+$$
+
+dengan $x$ simpangan dari panjang alami. Karena $x$ dikuadratkan, pegas yang ditekan dan pegas yang diregangkan sama-sama menyimpan energi positif.
+
+Tiga hal yang perlu dipegang:
+
+1. **Titik nol bebas dipilih.** Hanya **perubahan** energi potensial yang memiliki makna fisika. Kamu boleh menaruh $y = 0$ di lantai, di meja, atau di puncak gedung; jawaban akhir tidak berubah. Pilih yang membuat hitungan paling sederhana, biasanya titik terendah dalam soal, lalu **jangan diubah di tengah jalan**.
+2. **Energi potensial boleh negatif.** Benda di bawah titik acuan memiliki $U_g < 0$. Itu tidak aneh; artinya hanya "lebih rendah daripada acuan".
+3. **Energi potensial milik sistem**, bukan milik satu benda. $U_g$ adalah energi sistem benda–Bumi, dan $U_s$ energi sistem benda–pegas. Kita sering berkata "energi potensial bola" hanya demi singkatnya.
+
+::: {.awas}
+**Awas · Jangan menghitung gravitasi dua kali**
+
+Begitu gravitasi diwakili oleh energi potensial $mgy$, **jangan** hitung lagi usaha gravitasi. Pilih salah satu pembukuan: (a) semua gaya dihitung usahanya, lalu pakai $W_\text{total} = \Delta K$; atau (b) gaya konservatif diwakili $U$, dan hanya gaya takkonservatif yang dihitung usahanya. Mencampur keduanya menghasilkan jawaban dengan gravitasi berlipat dua.
+:::
+
+::: {.kuis}
+**Kuis cepat 4.5**
+
+Sebuah buku 2,0 kg berada di rak setinggi 1,5 m dari lantai. Meja di dekatnya setinggi 0,80 m. Berapa energi potensial buku jika acuannya (a) lantai, (b) permukaan meja? Jika buku jatuh ke lantai, berapa perubahan energi potensialnya menurut tiap acuan?
+:::
+
+## 4.6 Kekekalan energi mekanik
+
+Gabungkan dua hasil. Jika **hanya gaya konservatif** yang melakukan usaha, maka $W_\text{total} = -\Delta U$ dari (4.12), dan $W_\text{total} = \Delta K$ dari (4.8). Jadi $\Delta K = -\Delta U$, atau
+
+$$
+\boxed{K_i + U_i = K_f + U_f} \qquad \text{(4.15)}
+$$
+
+Jumlah $E_\text{mek} = K + U$ disebut **energi mekanik**. Persamaan (4.15) menyatakan **kekekalan energi mekanik**: selama hanya gaya konservatif yang melakukan usaha, energi mekanik tidak berubah. Energi kinetik dan potensial dapat saling bertukar, tetapi jumlahnya tetap.
+
+Gaya yang tidak melakukan usaha tidak mengganggu kekekalan ini. Gaya normal pada lintasan licin dan tegangan tali bandul selalu tegak lurus arah gerak, jadi keduanya boleh ada.
+
+::: {.strategi}
+**Strategi · Soal kekekalan energi**
+
+1. **Tentukan sistem** dan dua keadaan: awal (i) dan akhir (f). Pilih keadaan yang diketahui datanya dan keadaan yang ditanyakan.
+2. **Periksa gaya-gayanya.** Adakah gesekan, hambatan udara, atau dorongan luar? Jika tidak ada, energi mekanik kekal. Jika ada, pakai neraca energi di subbab 4.7.
+3. **Pilih titik nol** untuk tiap energi potensial.
+4. Tulis $K_i + U_i = K_f + U_f$, dengan $U$ memuat **semua** energi potensial yang ada (gravitasi dan pegas).
+5. Selesaikan dengan huruf terlebih dulu, baru masukkan angka. Sering kali massa tercoret.
+6. Energi tidak memberi tahu **arah** kecepatan atau **waktu**. Untuk itu, gabungkan dengan hukum Newton atau kinematika.
+:::
+
+::: {.contoh}
+**Contoh 4.17 · Bola dilempar ke atas dari balkon**
+
+Bola dilempar tegak ke atas dengan kelajuan 12 m/s dari balkon setinggi 1,5 m di atas tanah. Abaikan hambatan udara. (a) Berapa ketinggian terbesar bola di atas tanah? (b) Berapa kelajuannya sesaat sebelum menyentuh tanah? (c) Bagaimana jawaban (b) jika bola dilempar mendatar dengan kelajuan yang sama?
+
+**Modelkan.** Hanya gravitasi yang bekerja, jadi energi mekanik kekal. Ambil $y = 0$ di tanah.
+
+**Kerjakan.**
+
+(a) Di titik tertinggi $v = 0$:
+
+$$
+\tfrac12mv_0^2 + mgy_0 = mgy_\text{maks} \quad\Longrightarrow\quad y_\text{maks} = y_0 + \frac{v_0^2}{2g} = 1{,}5 + \frac{144}{19{,}6} = 8{,}8\ \text{m}.
+$$
+
+(b) Di tanah $y = 0$:
+
+$$
+\tfrac12mv_0^2 + mgy_0 = \tfrac12mv^2 \quad\Longrightarrow\quad v = \sqrt{v_0^2 + 2gy_0} = \sqrt{144 + 29{,}4} = 13\ \text{m/s}.
+$$
+
+(c) Persamaan pada (b) tidak memuat arah lemparan. Jawabannya tetap 13 m/s.
+
+**Periksa.** Massa tercoret. Hasil (c) patut direnungkan: bola yang dilempar ke atas, ke bawah, atau mendatar dengan kelajuan awal sama akan tiba di tanah dengan **kelajuan** yang sama. Yang berbeda adalah arah kecepatan dan waktu tempuhnya, dan energi memang tidak menceritakan dua hal itu.
+:::
+
+![Gambar 4.6 Bandul yang disimpangkan sebesar $\theta$ naik setinggi $h = L(1 - \cos\theta)$ dari titik terendahnya.](fig/bandul.png){width=44%}
+
+::: {.contoh}
+**Contoh 4.18 · Bandul**
+
+Bandul sepanjang 1,2 m dengan beban 0,50 kg ditarik sampai talinya membentuk sudut 40° terhadap garis tegak, lalu dilepas. (a) Berapa kelajuan beban di titik terendah? (b) Berapa tegangan tali di titik itu?
+
+**Modelkan.** Tegangan tali selalu tegak lurus lintasan, jadi tidak melakukan usaha. Energi mekanik kekal. Dari Gambar 4.6, beban turun setinggi $h = L(1 - \cos\theta)$.
+
+**Kerjakan.**
+
+(a) $mgh = \tfrac12mv^2$:
+
+$$
+v = \sqrt{2gL(1 - \cos\theta)} = \sqrt{2(9{,}80)(1{,}2)(1 - 0{,}766)} = 2{,}3\ \text{m/s}.
+$$
+
+(b) Energi tidak dapat memberi tegangan. Kembali ke hukum Newton untuk gerak melingkar (subbab 3.12). Di titik terendah, gaya ke pusat adalah $T - mg$:
+
+$$
+T = mg + \frac{mv^2}{L} = (0{,}50)(9{,}80) + \frac{(0{,}50)(2{,}35)^2}{1{,}2} = 4{,}9 + 2{,}3 = 7{,}2\ \text{N}.
+$$
+
+**Periksa.** Tegangan di titik terendah lebih besar daripada berat beban, karena tali juga harus membelokkan beban. Pola ini sangat umum: **energi untuk kelajuan, lalu hukum Newton untuk gaya**.
+:::
+
+![Gambar 4.7 Kereta dilepas dari ketinggian $h$ dan harus melewati lingkaran tegak berjari-jari $R$. Di puncak lingkaran, berat dan gaya normal sama-sama mengarah ke pusat.](fig/loop.png){width=72%}
+
+::: {.contoh}
+**Contoh 4.19 · Halilintar: pertanyaan pembuka bab**
+
+Kereta halilintar dilepas dari diam di ketinggian $h$ dan memasuki lingkaran tegak berjari-jari $R = 8{,}0$ m (Gambar 4.7). Anggap lintasannya licin. (a) Berapa $h$ paling kecil agar kereta tetap menempel pada lintasan di puncak lingkaran? (b) Jika $h = 30$ m, berapa kelajuan kereta di puncak lingkaran dan berapa gaya normal lintasan pada penumpang 60 kg di sana?
+
+**Rencanakan.** Syarat "tetap menempel" adalah syarat gaya, jadi berasal dari hukum Newton. Hubungan antara ketinggian dan kelajuan berasal dari energi.
+
+**Kerjakan.**
+
+(a) Di puncak lingkaran, $mg + n = mv^2/R$. Kereta tetap menempel selama $n \ge 0$, jadi $v_\text{puncak}^2 \ge gR$. Puncak lingkaran berada di ketinggian $2R$. Kekekalan energi:
+
+$$
+mgh = \tfrac12mv_\text{puncak}^2 + mg(2R) \ge \tfrac12mgR + 2mgR ,
+$$
+
+$$
+\boxed{h \ge \tfrac52R} \qquad\text{sehingga}\qquad h_\text{min} = 2{,}5(8{,}0) = 20\ \text{m}.
+$$
+
+(b) $v^2 = 2g(h - 2R) = 2(9{,}80)(30 - 16) = 274\ \text{m}^2/\text{s}^2$, jadi $v = 17$ m/s.
+
+$$
+n = m\Big(\frac{v^2}{R} - g\Big) = 60(34{,}3 - 9{,}80) = 1{,}5 \times 10^3\ \text{N}.
+$$
+
+**Periksa.** Hasil (a) tidak bergantung pada massa kereta maupun bentuk lintasan sebelum lingkaran. Banyak orang menduga $h = 2R$ sudah cukup, karena itu ketinggian puncak lingkaran. Tetapi dengan $h = 2R$ kereta tiba di puncak dengan kelajuan nol dan akan jatuh jauh sebelum sampai di sana. Kereta harus masih bergerak cukup cepat di puncak. Pada (b), gaya normal 1470 N adalah 2,5 kali berat penumpang: ia terdorong kuat ke kursinya walaupun sedang terbalik. Wahana sungguhan memakai $h$ lebih besar dari $2{,}5R$ karena ada gesekan.
+:::
+
+![Gambar 4.8 Balok dijatuhkan ke pegas tegak. Antara keadaan pertama dan ketiga, balok turun sejauh $h + x$.](fig/pegastegak.png){width=62%}
+
+::: {.contoh}
+**Contoh 4.20 · Balok jatuh ke pegas tegak**
+
+Balok 2,0 kg dijatuhkan dari diam, 0,40 m di atas ujung pegas tegak dengan $k = 1960$ N/m (Gambar 4.8). Berapa penekanan terbesar pegas?
+
+**Modelkan.** Dua energi potensial terlibat: gravitasi dan pegas. Ambil $y = 0$ di titik terendah balok. Di keadaan awal dan akhir, kelajuan balok nol.
+
+**Kerjakan.** Balok turun total sejauh $h + x$:
+
+$$
+mg(h + x) = \tfrac12kx^2 .
+$$
+
+Dengan angka: $19{,}6(0{,}40 + x) = 980x^2$, atau $980x^2 - 19{,}6x - 7{,}84 = 0$.
+
+$$
+x = \frac{19{,}6 + \sqrt{19{,}6^2 + 4(980)(7{,}84)}}{2(980)} = \frac{19{,}6 + 176{,}4}{1960} = 0{,}10\ \text{m}.
+$$
+
+**Periksa.** Akar yang negatif dibuang karena tidak bermakna di sini. Kesalahan yang paling umum adalah menulis $mgh = \tfrac12kx^2$, melupakan bahwa balok masih turun sejauh $x$ selama menekan pegas. Rumus keliru itu memberi 0,089 m. Perhatikan pula bahwa kelajuan terbesar balok **bukan** saat menyentuh pegas, melainkan sedikit di bawahnya, di titik tempat gaya pegas sama dengan berat ($x = mg/k = 1{,}0$ cm).
+:::
+
+::: {.contoh}
+**Contoh 4.21 · Mesin Atwood dengan energi**
+
+Beban 3,0 kg dan 5,0 kg dihubungkan tali melalui katrol ideal, lalu dilepas dari diam. Berapa kelajuan keduanya setelah beban berat turun 1,0 m?
+
+**Modelkan.** Ambil kedua beban sebagai satu sistem. Tegangan tali melakukan usaha positif pada satu beban dan usaha negatif yang sama besar pada beban lain, jadi jumlahnya nol. Energi mekanik sistem kekal.
+
+**Kerjakan.** Beban berat turun $h$ dan beban ringan naik $h$:
+
+$$
+0 = \tfrac12(m_1 + m_2)v^2 + m_1gh - m_2gh \quad\Longrightarrow\quad v = \sqrt{\frac{2(m_2 - m_1)gh}{m_1 + m_2}} = \sqrt{\frac{2(2{,}0)(9{,}80)(1{,}0)}{8{,}0}} = 2{,}2\ \text{m/s}.
+$$
+
+**Periksa.** Di Bab 3 percepatan sistem ini $2{,}45\ \text{m/s}^2$, dan $v = \sqrt{2(2{,}45)(1{,}0)} = 2{,}2$ m/s. Cocok. Dengan energi, tegangan tali tidak perlu dicari sama sekali.
+:::
+
+::: {.contoh}
+**Contoh 4.22 · Meluncur dari kubah es**
+
+Seorang anak duduk di puncak kubah es licin berbentuk setengah bola berjari-jari $R = 3{,}0$ m, lalu mulai meluncur dari keadaan hampir diam. Pada ketinggian berapa (diukur dari dasar kubah) ia lepas dari permukaan es?
+
+**Rencanakan.** Anak lepas ketika gaya normal menjadi nol. Itu syarat gaya. Kelajuannya di titik itu berasal dari energi.
+
+**Kerjakan.** Misalkan anak berada pada sudut $\theta$ dari garis tegak. Ketinggiannya $R\cos\theta$, jadi ia sudah turun $R(1 - \cos\theta)$:
+
+$$
+v^2 = 2gR(1 - \cos\theta).
+$$
+
+Gaya ke arah pusat kubah: $mg\cos\theta - n = mv^2/R$. Dengan $n = 0$:
+
+$$
+g\cos\theta = \frac{v^2}{R} = 2g(1 - \cos\theta) \quad\Longrightarrow\quad \cos\theta = \tfrac23 .
+$$
+
+Ketinggian saat lepas: $R\cos\theta = \tfrac23(3{,}0) = 2{,}0$ m.
+
+**Periksa.** Jawaban $\tfrac23R$ tidak bergantung pada massa anak maupun nilai $g$. Di Bulan pun anak itu lepas di ketinggian yang sama. Sudutnya 48° dari tegak.
+:::
+
+::: {.kuis}
+**Kuis cepat 4.6**
+
+Tiga bola identik dilepas dari ketinggian yang sama: A jatuh bebas, B meluncur di bidang miring licin, C meluncur di lintasan licin yang melengkung. Urutkan (a) kelajuan ketiganya di dasar, (b) waktu tempuhnya, sebisa yang dapat disimpulkan.
+:::
+
+## 4.7 Gesekan, gaya luar, dan neraca energi
+
+Di dunia nyata, bandul akhirnya berhenti dan bola yang memantul makin rendah. Energi mekaniknya berkurang. Apakah energi musnah?
+
+Tidak. Gosokkan kedua telapak tanganmu dan rasakan: gesekan menghangatkan. Energi mekanik yang hilang berubah menjadi **energi termal**, yaitu energi gerak acak atom-atom di kedua permukaan. Jika semua bentuk energi dihitung, jumlahnya tetap. Inilah **hukum kekekalan energi**, salah satu hukum paling kokoh dalam sains:
+
+> Energi tidak dapat diciptakan atau dimusnahkan. Energi hanya berpindah dari satu benda ke benda lain atau berubah dari satu bentuk ke bentuk lain.
+
+Di kimia, hukum yang sama disebut **hukum pertama termodinamika** (Bab 11).
+
+### Neraca energi
+
+Pisahkan usaha total menjadi usaha gaya konservatif ($-\Delta U$) dan usaha gaya takkonservatif ($W_\text{nk}$). Teorema usaha–energi menjadi
+
+$$
+\boxed{K_i + U_i + W_\text{nk} = K_f + U_f} \qquad \text{(4.16)}
+$$
+
+Usaha takkonservatif yang positif (dorongan tangan, mesin) menambah energi mekanik. Yang negatif (gesekan, hambatan udara) menguranginya.
+
+Untuk gesekan kinetis sebesar $f_k$ di sepanjang lintasan $d$, $W_\text{nk} = -f_kd$, dan energi termal yang timbul adalah
+
+$$
+\boxed{\Delta E_\text{term} = f_kd} \qquad \text{(4.17)}
+$$
+
+dengan $d$ **panjang lintasan** yang ditempuh, bukan perpindahan. Maka neraca energi dapat ditulis:
+
+$$
+K_i + U_i + W_\text{luar} = K_f + U_f + \Delta E_\text{term}.
+$$
+
+Bacalah seperti pembukuan: energi awal, ditambah yang dimasukkan dari luar, sama dengan energi akhir, ditambah yang berubah menjadi panas.
+
+![Gambar 4.9 Diagram batang energi untuk anak yang meluncur di perosotan (Contoh 4.23). Jumlah ketiga batang sama di awal dan di akhir.](fig/batang.png){width=62%}
+
+::: {.contoh}
+**Contoh 4.23 · Perosotan**
+
+Seorang anak 25 kg meluncur dari diam di puncak perosotan setinggi 3,0 m dan tiba di dasar dengan kelajuan 5,0 m/s. (a) Berapa energi yang berubah menjadi energi termal? (b) Jika panjang perosotan 6,0 m, berapa gaya gesek rata-ratanya?
+
+**Kerjakan.**
+
+(a) Awal: $U = mgh = (25)(9{,}80)(3{,}0) = 735$ J, $K = 0$. Akhir: $K = \tfrac12(25)(5{,}0)^2 = 312{,}5$ J, $U = 0$.
+
+$$
+\Delta E_\text{term} = 735 - 312{,}5 = 423\ \text{J}.
+$$
+
+(b) $f = \dfrac{\Delta E_\text{term}}{d} = \dfrac{422{,}5}{6{,}0} = 70$ N.
+
+**Periksa.** Tanpa gesekan, anak itu tiba dengan $\sqrt{2gh} = 7{,}7$ m/s. Lebih dari separuh energi awalnya (57%) berubah menjadi panas, yang menghangatkan perosotan dan celananya. Gambar 4.9 menunjukkan pembukuannya.
+:::
+
+::: {.contoh}
+**Contoh 4.24 · Naik, berhenti, turun lagi: cara energi**
+
+Balok disentil naik di bidang miring 30° dengan kelajuan awal 6,0 m/s ($\mu_k = 0{,}30$). Di Bab 3 (subbab 3.10) soal ini diselesaikan dengan hukum Newton. Selesaikan ulang dengan energi: (a) seberapa jauh balok naik, (b) berapa kelajuannya saat kembali ke titik awal.
+
+**Kerjakan.** Gaya gesek $f_k = \mu_kmg\cos\theta$. Ambil $y = 0$ di titik awal.
+
+(a) Naik sejauh $d$, ketinggian bertambah $d\sin\theta$:
+
+$$
+\tfrac12mv_0^2 = mgd\sin\theta + \mu_kmg\cos\theta\,d \quad\Longrightarrow\quad d = \frac{v_0^2}{2g(\sin\theta + \mu_k\cos\theta)} = \frac{36}{2(9{,}80)(0{,}760)} = 2{,}4\ \text{m}.
+$$
+
+(b) Untuk seluruh perjalanan bolak-balik, energi potensial kembali ke nilai awal, dan gesekan bekerja sepanjang $2d$:
+
+$$
+\tfrac12mv_0^2 - 2\mu_kmg\cos\theta\,d = \tfrac12mv^2 ,
+$$
+
+$$
+v = \sqrt{v_0^2 - 4\mu_kg\cos\theta\,d} = \sqrt{36 - 4(0{,}30)(9{,}80)(0{,}866)(2{,}42)} = \sqrt{11{,}4} = 3{,}4\ \text{m/s}.
+$$
+
+**Periksa.** Hasilnya sama dengan Bab 3, tanpa menghitung percepatan dua kali. Pada (b) terlihat jelas mengapa gesekan takkonservatif: usahanya bergantung pada panjang lintasan $2d$, sedangkan gravitasi pada lintasan tertutup itu usahanya nol. Massa tercoret, jadi energi termalnya hanya dapat dinyatakan per kilogram: 6,2 J untuk tiap kilogram balok pada tiap arah.
+:::
+
+::: {.contoh}
+**Contoh 4.25 · Pegas melontarkan balok di lantai kasar**
+
+Balok 2,0 kg ditekankan pada pegas mendatar ($k = 800$ N/m) sehingga pegas tertekan 0,15 m, lalu dilepas. Lantainya kasar dengan $\mu_k = 0{,}35$. Berapa jarak total yang ditempuh balok sejak dilepas sampai berhenti?
+
+**Modelkan.** Awal: energi tersimpan di pegas, balok diam. Akhir: balok diam, pegas kendur. Seluruh energi pegas berubah menjadi energi termal.
+
+**Kerjakan.**
+
+$$
+\tfrac12kx^2 = \mu_kmg\,d \quad\Longrightarrow\quad d = \frac{kx^2}{2\mu_kmg} = \frac{(800)(0{,}15)^2}{2(0{,}35)(2{,}0)(9{,}80)} = \frac{9{,}0}{6{,}86} = 1{,}3\ \text{m}.
+$$
+
+**Periksa.** Kita tidak perlu tahu kelajuan balok saat lepas dari pegas. Itulah kekuatan cara energi: keadaan antara boleh dilompati. Kalau penasaran, kelajuan saat lepas diperoleh dari $\tfrac12kx^2 - \mu_kmg(0{,}15) = \tfrac12mv^2$, yaitu $v = 2{,}8$ m/s.
+:::
+
+::: {.contoh}
+**Contoh 4.26 · Mobil mendaki bukit**
+
+Mobil 1200 kg mendaki bukit setinggi 50 m. Kelajuannya 20 m/s di kaki bukit dan 15 m/s di puncak. Selama itu mesin memberi usaha $6{,}0 \times 10^5$ J kepada mobil melalui roda. Berapa energi yang terbuang karena hambatan udara dan gesekan?
+
+**Kerjakan.** Neraca energi, dengan $y = 0$ di kaki bukit:
+
+$$
+K_i + W_\text{mesin} = K_f + U_f + \Delta E_\text{term}.
+$$
+
+$K_i = \tfrac12(1200)(20)^2 = 2{,}40 \times 10^5$ J, $K_f = \tfrac12(1200)(15)^2 = 1{,}35 \times 10^5$ J, dan $U_f = (1200)(9{,}80)(50) = 5{,}88 \times 10^5$ J.
+
+$$
+\Delta E_\text{term} = 2{,}40 \times 10^5 + 6{,}0 \times 10^5 - 1{,}35 \times 10^5 - 5{,}88 \times 10^5 = 1{,}2 \times 10^5\ \text{J}.
+$$
+
+**Periksa.** Dari 600 kJ usaha mesin, 588 kJ dibutuhkan hanya untuk menaikkan mobil. Sisanya, ditambah 105 kJ yang diambil dari energi kinetik, terbuang sebagai panas. Energi yang tersimpan sebagai $U_f$ dapat diperoleh kembali saat turun; yang 117 kJ tidak.
+:::
+
+::: {.awas}
+**Awas · Tiga kesalahan pada soal gesekan**
+
+- **Memakai perpindahan, bukan panjang lintasan.** Pada gerak bolak-balik, gesekan bekerja di sepanjang seluruh lintasan.
+- **Memakai $n = mg$ di bidang miring.** Di sana $n = mg\cos\theta$, sehingga $f_k = \mu_kmg\cos\theta$.
+- **Menaruh energi termal di sisi yang salah.** Energi termal selalu bertambah. Jika hasil hitunganmu memberi $\Delta E_\text{term}$ negatif, ada tanda yang terbalik.
+:::
+
+::: {.kuis}
+**Kuis cepat 4.7**
+
+Sebuah balok meluncur di lantai kasar dan berhenti setelah menempuh jarak $d$. Jika kelajuan awalnya dilipatduakan, berapa jarak tempuhnya? Berapa kali lipat energi termal yang timbul?
+:::
+
+## 4.8 Diagram energi, gaya, dan kesetimbangan
+
+Energi potensial sebagai fungsi posisi, $U(x)$, memuat seluruh informasi tentang gaya konservatifnya. Grafik $U$ terhadap $x$, yang disebut **diagram energi**, adalah alat berpikir yang dipakai terus di kimia: kurva energi ikatan, profil energi reaksi, dan sumur potensial elektron semuanya diagram energi.
+
+### Gaya adalah kemiringan
+
+Untuk perpindahan kecil $dx$, usaha gaya konservatif adalah $F_x\,dx = -dU$. Jadi
+
+$$
+\boxed{F_x = -\frac{dU}{dx}} \qquad \text{(4.18)}
+$$
+
+Gaya adalah **negatif dari kemiringan** kurva energi potensial. Bayangkan kurva $U(x)$ sebagai bukit dan lembah, dan benda sebagai kelereng di atasnya: gaya selalu mendorong ke arah **turun**, dan makin curam lerengnya, makin besar gayanya.
+
+Periksa dengan dua energi potensial yang sudah kita kenal:
+
+- $U_g = mgy$ memberi $F_y = -mg$: berat, ke bawah.
+- $U_s = \tfrac12kx^2$ memberi $F_x = -kx$: hukum Hooke.
+
+### Kesetimbangan
+
+Di titik tempat kurva mendatar, $dU/dx = 0$, gayanya nol. Titik itu disebut titik **kesetimbangan**. Ada dua jenis yang penting:
+
+- **Kesetimbangan stabil**: dasar lembah (minimum $U$). Jika benda digeser sedikit, gaya mendorongnya **kembali**. Molekul berada di sini: jarak ikatan adalah posisi minimum energi potensial.
+- **Kesetimbangan takstabil**: puncak bukit (maksimum $U$). Jika benda digeser sedikit, gaya mendorongnya **makin jauh**. Keadaan transisi dalam reaksi kimia adalah kesetimbangan takstabil.
+
+### Titik balik
+
+Gambarkan energi mekanik total $E$ sebagai garis mendatar pada diagram. Karena $K = E - U$ tidak mungkin negatif, benda hanya dapat berada di daerah dengan $U(x) \le E$. Di titik tempat garis $E$ memotong kurva, $K = 0$: benda berhenti sesaat dan berbalik. Itulah **titik balik**. Jarak tegak antara garis $E$ dan kurva $U$ di suatu posisi adalah energi kinetik benda di sana.
+
+![Gambar 4.10 Diagram energi untuk $U(x) = x^4 - 8x^2$ (Contoh 4.27). Partikel dengan $E = -7$ J di lembah kanan terperangkap di antara dua titik balik.](fig/diagram.png){width=66%}
+
+::: {.contoh}
+**Contoh 4.27 · Membaca diagram energi**
+
+Partikel 2,0 kg bergerak sepanjang sumbu $x$ dengan energi potensial $U(x) = x^4 - 8x^2$ ($U$ dalam joule, $x$ dalam meter), seperti Gambar 4.10. (a) Tentukan gaya sebagai fungsi posisi. (b) Di mana titik-titik kesetimbangannya, dan mana yang stabil? (c) Partikel berada di lembah kanan dengan energi total $-7{,}0$ J. Di mana titik baliknya? (d) Berapa kelajuan terbesarnya? (e) Berapa energi paling kecil agar partikel dapat berpindah dari lembah kanan ke lembah kiri?
+
+**Kerjakan.**
+
+(a) $F_x = -\dfrac{dU}{dx} = -(4x^3 - 16x) = 16x - 4x^3$.
+
+(b) $F_x = 0$ ketika $4x(4 - x^2) = 0$, yaitu $x = 0$ dan $x = \pm 2{,}0$ m. Nilainya: $U(0) = 0$ dan $U(\pm 2) = 16 - 32 = -16$ J. Jadi $x = \pm 2$ m adalah dasar lembah (stabil), dan $x = 0$ puncak bukit (takstabil).
+
+(c) Titik balik: $U(x) = E$, atau $x^4 - 8x^2 + 7 = 0$. Ini persamaan kuadrat dalam $x^2$: $(x^2 - 1)(x^2 - 7) = 0$. Di lembah kanan, $x = 1{,}0$ m dan $x = \sqrt7 = 2{,}6$ m.
+
+(d) Kelajuan terbesar terjadi di dasar lembah, tempat $U$ paling kecil: $K = E - U = -7 - (-16) = 9{,}0$ J, sehingga $v = \sqrt{2(9{,}0)/2{,}0} = 3{,}0$ m/s.
+
+(e) Partikel harus melewati puncak di $x = 0$, tempat $U = 0$. Jadi diperlukan $E > 0$. Dari dasar lembah, itu berarti tambahan energi 16 J.
+
+**Periksa.** Uji arah gaya di $x = 1$ m: $F = 16 - 4 = +12$ N, ke kanan, menuju dasar lembah di $x = 2$. Di $x = 2{,}6$ m: $F = 16(2{,}65) - 4(2{,}65)^3 = -32$ N, ke kiri. Keduanya mendorong partikel kembali ke dasar lembah, sesuai dengan kesetimbangan stabil. Bagian (e) adalah gambaran sederhana **energi aktivasi**: tinggi penghalang yang harus dilewati agar sistem berpindah dari satu keadaan stabil ke keadaan stabil lain.
+:::
+
+### Ikatan kimia sebagai lembah energi
+
+![Gambar 4.11 Energi potensial dua atom netral terhadap jarak (model Lennard-Jones). Lembah di $r_0$ adalah jarak setimbang, dan kedalamannya $\varepsilon$ adalah energi yang diperlukan untuk memisahkan kedua atom.](fig/lj.png){width=64%}
+
+Dua atom netral yang berjauhan saling menarik lemah. Jika terlalu dekat, awan elektronnya bertumpang-tindih dan keduanya saling menolak kuat. Di antaranya ada jarak dengan energi potensial paling rendah. Model sederhana yang sering dipakai adalah **potensial Lennard-Jones**:
+
+$$
+U(r) = 4\varepsilon\left[\Big(\frac{\sigma}{r}\Big)^{12} - \Big(\frac{\sigma}{r}\Big)^{6}\right] \qquad \text{(4.19)}
+$$
+
+Suku pangkat 12 menggambarkan tolakan jarak dekat, dan suku pangkat 6 tarikan jarak jauh. Kurvanya (Gambar 4.11) dapat dibaca dengan semua alat di subbab ini:
+
+- Di kiri lembah kurvanya turun curam: gaya besar dan mendorong ke luar (tolak-menolak).
+- Di kanan lembah kurvanya naik landai: gaya kecil dan menarik ke dalam.
+- Dasar lembah di $r_0$ adalah kesetimbangan stabil, yaitu **jarak setimbang** antara dua atom.
+- Kedalaman lembah $\varepsilon$ adalah **energi ikat**: energi yang harus diberikan agar kedua atom terpisah jauh.
+- Di dekat dasar lembah, kurvanya mirip parabola $\tfrac12kx^2$. Itulah sebabnya ikatan berperilaku seperti pegas, dan molekul bergetar (Bab 8).
+
+::: {.contoh}
+**Contoh 4.28 · Dua atom argon**
+
+Untuk dua atom argon, $\varepsilon = 1{,}65 \times 10^{-21}$ J dan $\sigma = 0{,}340$ nm. (a) Tentukan jarak setimbangnya. (b) Nyatakan energi ikatnya dalam eV per pasang atom dan dalam kJ/mol.
+
+**Kerjakan.**
+
+(a) Kesetimbangan terjadi saat $dU/dr = 0$:
+
+$$
+\frac{dU}{dr} = 4\varepsilon\left[-\frac{12\sigma^{12}}{r^{13}} + \frac{6\sigma^{6}}{r^{7}}\right] = 0 \quad\Longrightarrow\quad r_0^6 = 2\sigma^6 \quad\Longrightarrow\quad r_0 = 2^{1/6}\sigma = 1{,}122(0{,}340) = 0{,}382\ \text{nm}.
+$$
+
+Masukkan kembali: $U(r_0) = 4\varepsilon(\tfrac14 - \tfrac12) = -\varepsilon$. Kedalaman lembah memang $\varepsilon$.
+
+(b) $\varepsilon = \dfrac{1{,}65 \times 10^{-21}}{1{,}602 \times 10^{-19}} = 0{,}0103$ eV. Untuk satu mol pasangan: $(1{,}65 \times 10^{-21})(6{,}022 \times 10^{23}) = 994$ J/mol $\approx 0{,}99$ kJ/mol.
+
+**Periksa.** Energi ini sangat kecil dibandingkan ikatan kovalen (ratusan kJ/mol). Itu sebabnya argon tetap berupa gas sampai suhu sangat rendah: titik didihnya 87 K. Energi termal rata-rata per molekul pada suhu kamar, sekitar $4 \times 10^{-21}$ J, sudah melebihi kedalaman lembah.
+:::
+
+::: {.terapan}
+**Kaitan kimia · Dari joule ke kJ/mol ke elektronvolt**
+
+Kimia jarang memakai joule untuk satu molekul, karena angkanya terlalu kecil. Ada dua cara menyatakannya:
+
+- **per mol:** kalikan dengan bilangan Avogadro. Energi ikatan H–H adalah 436 kJ/mol.
+- **per partikel dalam elektronvolt:** $1\ \text{eV} = 1{,}602 \times 10^{-19}$ J.
+
+Jembatan antara keduanya sangat berguna untuk dihafal:
+
+$$
+1\ \text{eV per partikel} = 96{,}5\ \text{kJ/mol}.
+$$
+
+Jadi ikatan H–H setara dengan $436/96{,}5 = 4{,}52$ eV per molekul, atau $7{,}24 \times 10^{-19}$ J. Energi sebesar itulah yang harus dibawa satu foton untuk memutus satu ikatan H–H (Bab 15).
+
+Entalpi reaksi yang kamu hitung dari energi ikatan pada dasarnya adalah neraca energi potensial: energi untuk mendaki keluar dari lembah ikatan pereaksi, dikurangi energi yang dilepas ketika atom-atom jatuh ke lembah ikatan produk.
+:::
+
+::: {.kuis}
+**Kuis cepat 4.8**
+
+Pada Gambar 4.11, sebuah pasangan atom memiliki energi total sedikit di bawah nol. Apakah titik balik kirinya dan titik balik kanannya berjarak sama dari $r_0$? Apa akibatnya bagi jarak rata-rata antaratom ketika energinya dinaikkan (zat dipanaskan)?
+:::

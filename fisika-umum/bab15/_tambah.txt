@@ -1,0 +1,42 @@
+@@RINGKASAN
+| Partikel dalam kotak | $E_n = n^2h^2/8mL^2$; energi titik nol tidak nol | 15.10 |
+| Persamaan Schrödinger | $-\frac{\hbar^2}{2m}\psi'' + U\psi = E\psi$ | 15.10 |
+| Penerobosan | $T \approx e^{-2\kappa d}$, $\kappa = \sqrt{2m(U-E)}/\hbar$ | 15.10 |
+| Ikatan kimia | LCAO: $\psi_A \pm \psi_B$; orde ikatan = (ikatan − antiikatan)/2 | 15.11 |
+| Energi titik nol | $D_0 = D_e - \tfrac12hf$; isotop berat terikat lebih kuat | 15.11 |
+| Inti atom | $r = 1{,}2A^{1/3}$ fm; energi ikat tiap nukleon terbesar di sekitar Fe | 15.12 |
+| Peluruhan radioaktif | $A = \lambda N$; $N = N_0e^{-\lambda t}$; $t_{1/2} = \ln 2/\lambda$ | 15.12 |
+@@KUIS
+**15.10** Seperempatnya, karena $E_1 \propto 1/L^2$. **15.11** Dua elektron ikatan dan satu antiikatan: orde ikatan ½. Ion itu dapat ada, dan memang teramati. **15.12** Belum. Setelah dua waktu paruh masih tersisa seperempatnya; secara asas peluruhan tidak pernah tepat selesai.
+@@PERTANYAAN
+Mengapa partikel dalam kotak tidak dapat memiliki energi nol? Jelaskan dengan gelombang berdiri dan dengan asas ketidakpastian.
+Mengapa molekul dengan rantai ikatan rangkap terkonjugasi yang panjang berwarna, sedangkan yang pendek tidak?
+Mengapa penerobosan penting bagi elektron dan hampir tidak berarti bagi atom berat?
+Mengapa elektron dalam orbital ikatan merekatkan dua atom? Sebutkan dua alasan.
+Mengapa ikatan C–D lebih sulit diputus daripada ikatan C–H, padahal kurva energi potensialnya sama?
+Mengapa fusi inti ringan dan fisi inti berat sama-sama melepaskan energi?
+Mengapa laju peluruhan radioaktif tidak dapat dipercepat dengan pemanasan atau katalis, sedangkan laju reaksi kimia dapat?
+@@SOAL
+## Subbab 15.10: Persamaan Schrödinger: partikel dalam kotak dan penerobosan
+@kotak Sebuah elektron terkurung dalam kotak satu dimensi selebar 0,30 nm. Berapa energi keadaan dasarnya (dalam eV), dan berapa panjang gelombang foton yang diserap pada transisi $n = 1 \to 2$? ||| 4,18 eV; 99 nm
+Dengan model elektron bebas, perkirakan panjang gelombang serapan heksatriena (6 elektron π, $L = 6 \times 0{,}139$ nm). Hasil terukur 258 nm. ||| 328 nm
+Elektron berenergi 2,0 eV di bawah puncak penghalang. Berapa peluang penerobosannya bila tebal penghalang 1,0 nm dan 0,50 nm? ||| $5 \times 10^{-7}$; $7 \times 10^{-4}$
+Jika massa partikel dalam kotak dijadikan dua kali dan panjang kotak dijadikan setengahnya, energi keadaan dasarnya menjadi berapa kali? ||| 2 kali
+## Subbab 15.11: Ikatan kimia sebagai gejala kuantum
+Molekul Li₂ diikat oleh dua elektron 2s yang menempati orbital ikatan (elektron 1s tidak ikut serta). Berapa orde ikatannya? Bagaimana dengan Be₂, yang memiliki empat elektron 2s? ||| 1; 0 (tidak terikat)
+Getaran HCl berbilangan gelombang 2886 cm⁻¹. Berapa energi titik nolnya dalam eV dan kJ/mol? ||| 0,179 eV; 17,3 kJ/mol
+Menurut model sederhana efek isotop kinetik di subbab 15.11 (selisih 800 cm⁻¹), berapa $k_\text{H}/k_\text{D}$ pada 373 K? ||| 4,7
+## Subbab 15.12: Inti atom dan radioaktivitas
+Berapa jari-jari inti ⁵⁶Fe? ||| 4,6 fm
+Iodin-131 ($t_{1/2} = 8{,}02$ hari) dikirim dengan aktivitas 100 MBq. Berapa aktivitasnya 30 hari kemudian? ||| 7,5 MBq
+Tulang purba memiliki aktivitas ¹⁴C seperdelapan aktivitas tulang segar. Berapa umurnya? ||| 17 200 tahun
+@radium Radium-226 memiliki waktu paruh 1600 tahun. Berapa aktivitas 1,0 g radium? ||| $3{,}7 \times 10^{10}$ Bq
+Isotop fosfor-32 untuk penandaan DNA memiliki waktu paruh 14,3 hari. Berapa tetapan peluruhannya, dan berapa persen yang tersisa setelah 60 hari? ||| 0,0485 per hari; 5,5%
+@@PEMBAHASAN
+**Soal {{kotak}}.** $E_1 = \dfrac{(6{,}626 \times 10^{-34})^2}{8(9{,}109 \times 10^{-31})(0{,}30 \times 10^{-9})^2} = 6{,}69 \times 10^{-19}$ J $= 4{,}18$ eV. Transisi $1 \to 2$ menyerap $3E_1 = 2{,}01 \times 10^{-18}$ J, sehingga $\lambda = hc/\Delta E = 99$ nm.
+
+*Cara berpikir:* kotak 0,3 nm kira-kira seukuran satu ikatan. Energi kurungan beberapa elektronvolt dan serapan di ultraviolet jauh, sesuai pengalaman bahwa molekul kecil tanpa ikatan terkonjugasi tidak berwarna.
+
+**Soal {{radium}}.** $N = \dfrac{1{,}0}{226}(6{,}022 \times 10^{23}) = 2{,}66 \times 10^{21}$; $\lambda = \dfrac{0{,}693}{(1600)(3{,}156 \times 10^7)} = 1{,}37 \times 10^{-11}$ s⁻¹; $A = \lambda N = 3{,}7 \times 10^{10}$ Bq.
+
+*Cara berpikir:* inilah asal satuan lama **curie** (1 Ci $= 3{,}7 \times 10^{10}$ Bq), aktivitas satu gram radium yang diteliti Marie Curie. Aktivitas sebanding dengan $N/t_{1/2}$: zat berumur panjang hanya "berbisik", zat berumur pendek "berteriak".
