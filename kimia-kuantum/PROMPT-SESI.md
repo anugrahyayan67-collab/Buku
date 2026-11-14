@@ -1,6 +1,6 @@
 # Prompt baku untuk sesi penulisan Kimia Kuantum
 
-Salin teks di bawah ke sesi baru (model **Opus 5.5**, effort **high**; **xhigh** untuk Bab 9–16, 19, 20). Ganti `N` dengan nomor bab.
+Salin teks di bawah ke sesi baru (model **Opus 5.5**, effort **high**; **xhigh** untuk Bab 8–14, 17). Ganti `N` dengan nomor bab.
 
 ---
 

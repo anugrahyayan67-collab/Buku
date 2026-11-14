@@ -19,7 +19,7 @@ Di Claude Code berlangganan yang terpakai adalah kuota, dengan perbandingan kira
 |---|---|---|
 | Kerangka buku, pedoman, daftar subbab | Opus 5.5 | high |
 | Menulis materi dan penurunan rumus | Opus 5.5 | high |
-| Bab tersulit Kimia Kuantum (Bab 9–16, 19, 20) | Opus 5.5 | xhigh |
+| Bab tersulit Kimia Kuantum (Bab 8–14, 17) | Opus 5.5 | xhigh |
 | Contoh soal, soal latihan, jawaban, pembahasan | Opus 5.5 (Sonnet 5.5 bila kuota menipis) | high |
 | Pemeriksaan ulang angka dan rujukan satu bab | Sonnet 5.5 | high |
 | Gambar matplotlib, build bab, cetak buku, indeks | Sonnet 5.5 | medium |
