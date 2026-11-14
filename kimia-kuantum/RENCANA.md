@@ -28,7 +28,7 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 ### ☑ Bab 6 Momentum Sudut dan Rotor Tegar
 6.1 Momentum sudut klasik · 6.2 Operator momentum sudut dan komutatornya · 6.3 Partikel pada cincin · 6.4 Partikel pada bola · 6.5 Harmonik bola · 6.6 Kuantisasi ruang dan model vektor · 6.7 Metode operator tangga · 6.8 Masalah dua benda dan massa tereduksi · 6.9 Rotor tegar diatom · 6.10 Spektrum rotasi gelombang mikro · 6.11 Populasi rotasi dan intensitas · 6.12 Distorsi sentrifugal dan spektrum vibrasi–rotasi
 
-### ☐ Bab 7 Atom Hidrogen
+### ☑ Bab 7 Atom Hidrogen
 7.1 Masalah gaya sentral · 7.2 Pemisahan variabel · 7.3 Persamaan radial dan penyelesaiannya · 7.4 Tingkat energi dan degenerasi · 7.5 Fungsi radial dan simpul · 7.6 Fungsi distribusi radial · 7.7 Orbital kompleks dan orbital riil · 7.8 Bentuk orbital s, p, d, f · 7.9 Nilai harap dan teorema virial · 7.10 Atom mirip hidrogen · 7.11 Spektrum hidrogen dan aturan seleksi · 7.12 Efek Zeeman · 7.13 Penyelesaian numerik persamaan radial
 
 ## Bagian III · Metode pendekatan dan atom berelektron banyak
