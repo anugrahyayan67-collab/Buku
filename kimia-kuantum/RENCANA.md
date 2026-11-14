@@ -2,7 +2,7 @@
 
 Kedalaman setara buku kuliah kimia kuantum internasional (acuan cakupan: Levine, *Quantum Chemistry*; McQuarrie; Atkins, *Molecular Quantum Mechanics*), dengan gaya Fisika Umum: penjelasan "mengapa", penurunan langkah demi langkah, banyak contoh kimia, soal bertingkat.
 
-**Target:** 18 bab, ± 50–60 halaman tiap bab, sehingga ± 950 halaman. Setiap bab: 10–15 subbab, ≥ 40 contoh, ≥ 80 soal beserta jawaban.
+**Target:** 20 bab, ± 50–60 halaman tiap bab, sehingga ± 1100 halaman. Setiap bab: 10–15 subbab, ≥ 40 contoh, ≥ 80 soal beserta jawaban.
 
 Status: ☐ belum · ◐ sedang · ☑ selesai
 
@@ -42,33 +42,43 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 ### ☐ Bab 10 Spin Elektron dan Atom Berelektron Banyak
 10.1 Percobaan Stern–Gerlach dan spin · 10.2 Operator spin dan matriks Pauli · 10.3 Partikel identik dan teorema spin–statistik · 10.4 Atom helium dan fungsi spin · 10.5 Asas larangan Pauli · 10.6 Determinan Slater · 10.7 Atom litium · 10.8 Metode Hartree–Fock untuk atom · 10.9 Orbital dan tabel periodik · 10.10 Korelasi elektron · 10.11 Penjumlahan momentum sudut · 10.12 Lambang suku dan aturan Hund · 10.13 Kopling spin–orbit dan struktur halus · 10.14 Aturan Condon–Slater
 
-## Bagian IV · Molekul
+## Bagian IV · Ikatan kimia dan molekul
 
 ### ☐ Bab 11 Simetri Molekul dan Teori Grup
-11.1 Unsur dan operasi simetri · 11.2 Grup titik dan cara menentukannya · 11.3 Tabel perkalian grup · 11.4 Representasi matriks · 11.5 Karakter dan tabel karakter · 11.6 Representasi tak tereduksi dan rumus reduksi · 11.7 Kombinasi linear teradaptasi simetri (SALC) · 11.8 Orbital molekul berdasar simetri · 11.9 Mode vibrasi, aktivitas IR dan Raman · 11.10 Aturan seleksi elektronik · 11.11 Kiralitas dan aktivitas optik
+11.1 Unsur dan operasi simetri · 11.2 Grup titik dan cara menentukannya · 11.3 Tabel perkalian grup · 11.4 Representasi matriks · 11.5 Karakter dan tabel karakter · 11.6 Representasi tak tereduksi dan rumus reduksi · 11.7 Kombinasi linear teradaptasi simetri (SALC) · 11.8 Orbital molekul berdasar simetri · 11.9 Mode vibrasi, aktivitas IR dan Raman · 11.10 Aturan seleksi elektronik · 11.11 Kiralitas dan aktivitas optik · 11.12 Grup kontinu dan simetri atom (pengantar)
 
 ### ☐ Bab 12 Struktur Elektronik Molekul Diatom
-12.1 Pendekatan Born–Oppenheimer · 12.2 Gerak inti dalam molekul diatom · 12.3 Ion molekul hidrogen H₂⁺ · 12.4 LCAO untuk H₂⁺: integral tumpang tindih, Coulomb, pertukaran · 12.5 Orbital ikatan dan antiikatan · 12.6 Konfigurasi OM diatom homonuklir periode 2 · 12.7 Lambang suku molekul · 12.8 Molekul hidrogen: teori OM · 12.9 Teori ikatan valensi Heitler–London · 12.10 Perbandingan OM dan IV; interaksi konfigurasi · 12.11 Diatom heteronuklir · 12.12 Elektronegativitas dan momen dipol · 12.13 Keadaan tereksitasi H₂
+12.1 Pendekatan Born–Oppenheimer · 12.2 Gerak inti dalam molekul diatom · 12.3 Ion molekul hidrogen H₂⁺ · 12.4 LCAO untuk H₂⁺: integral tumpang tindih, Coulomb, pertukaran · 12.5 Orbital ikatan dan antiikatan · 12.6 Keadaan tereksitasi H₂⁺ dan bentuk orbital σ, π, δ · 12.7 Konfigurasi OM diatom homonuklir periode 2 · 12.8 Pencampuran s–p dan urutan orbital N₂ vs O₂ · 12.9 Lambang suku molekul · 12.10 Molekul hidrogen: teori OM · 12.11 Teori ikatan valensi Heitler–London · 12.12 Perbandingan OM dan IV; interaksi konfigurasi · 12.13 Diatom heteronuklir: HF, CO, LiH · 12.14 Elektronegativitas dan momen dipol
 
 ### ☐ Bab 13 Teorema Mekanika Kuantum Molekul
-13.1 Kerapatan peluang elektron · 13.2 Momen dipol · 13.3 Metode Hartree–Fock untuk molekul · 13.4 Persamaan Roothaan dan SCF · 13.5 Teorema virial · 13.6 Teorema virial dan ikatan kimia · 13.7 Teorema Hellmann–Feynman · 13.8 Teorema elektrostatik dan gaya pada inti
+13.1 Kerapatan peluang elektron · 13.2 Momen dipol · 13.3 Metode Hartree–Fock untuk molekul · 13.4 Persamaan Roothaan dan SCF · 13.5 Teorema Koopmans dan energi ionisasi · 13.6 Teorema virial · 13.7 Teorema virial dan asal ikatan kimia · 13.8 Teorema Hellmann–Feynman · 13.9 Teorema elektrostatik dan gaya pada inti
 
-### ☐ Bab 14 Molekul Poliatom
-14.1 Hibridisasi dan orbital lokal · 14.2 Bentuk molekul dan diagram Walsh · 14.3 OM H₂O, NH₃, CH₄ · 14.4 Metode Hückel · 14.5 Etilena, alil, butadiena · 14.6 Benzena dan aromatisitas (aturan 4n + 2) · 14.7 Energi delokalisasi, muatan, dan orde ikatan · 14.8 Reaksi perisiklik dan aturan Woodward–Hoffmann · 14.9 Teori medan kristal · 14.10 Teori medan ligan · 14.11 Ikatan dalam padatan: pita energi
+### ☐ Bab 14 Hibridisasi dan Teori Ikatan Valensi Molekul Poliatom
+14.1 Dari ikatan valensi H₂ ke molekul poliatom · 14.2 Orbital terarah dan gagasan hibridisasi · 14.3 Hibrida sp: BeH₂ dan asetilena; penurunan sudut 180° · 14.4 Hibrida sp²: BF₃ dan etilena; ikatan σ dan π · 14.5 Hibrida sp³: metana; penurunan 109,47° dari ortogonalitas · 14.6 Hibridisasi tak setara: H₂O, NH₃, aturan Bent, persen karakter s · 14.7 Hibridisasi dan sifat: panjang ikatan, keasaman C–H, kopling ¹³C–H · 14.8 Orbital d dan "hipervalensi": PCl₅, SF₆, ikatan 3-pusat 4-elektron · 14.9 Ikatan 3-pusat 2-elektron: diborana · 14.10 Resonansi dalam teori ikatan valensi: benzena, karbonat, amida · 14.11 VSEPR dan dasar kuantumnya · 14.12 Teori ikatan valensi modern (GVB, spin-coupled) · 14.13 Ikatan valensi vs orbital molekul: spektrum fotoelektron metana sebagai uji · 14.14 Ikatan dalam senyawa logam transisi menurut teori ikatan valensi
+
+### ☐ Bab 15 Orbital Molekul Poliatom dan Sistem π
+15.1 OM delokalisasi vs orbital lokal · 15.2 OM H₂O, NH₃, CH₄ dari simetri · 15.3 Diagram Walsh dan bentuk molekul · 15.4 Pendekatan Hückel · 15.5 Etilena, alil, butadiena · 15.6 Poliena linear dan siklik: rumus umum · 15.7 Benzena, aromatisitas, aturan 4n + 2, antiaromatisitas · 15.8 Heteroatom dalam Hückel: piridina, pirola · 15.9 Energi delokalisasi, muatan, dan orde ikatan · 15.10 Orbital perbatasan HOMO–LUMO dan reaktivitas · 15.11 Reaksi perisiklik dan aturan Woodward–Hoffmann · 15.12 Metode Pariser–Parr–Pople · 15.13 Dari molekul ke padatan: rantai Hückel tak hingga dan pita energi · 15.14 Logam, semikonduktor, grafena
+
+### ☐ Bab 16 Kimia Kuantum Senyawa Koordinasi
+16.1 Orbital d dalam medan ligan · 16.2 Teori medan kristal oktahedral · 16.3 Medan tetrahedral dan bujur sangkar · 16.4 Energi stabilisasi medan kristal dan sifat termodinamika · 16.5 Spin tinggi dan spin rendah; magnetisme · 16.6 Efek Jahn–Teller · 16.7 Teori medan ligan: OM kompleks oktahedral · 16.8 Ikatan π dan deret spektrokimia · 16.9 Lambang suku ion bebas dan pemecahannya · 16.10 Diagram Orgel dan Tanabe–Sugano · 16.11 Spektrum elektronik dan warna kompleks · 16.12 Transfer muatan · 16.13 Aturan 18 elektron dan senyawa organologam
 
 ## Bagian V · Spektroskopi dan kimia komputasi
 
-### ☐ Bab 15 Spektroskopi Molekul
-15.1 Koefisien Einstein · 15.2 Hukum Beer–Lambert dan kekuatan osilator · 15.3 Lebar garis · 15.4 Spektroskopi rotasi lanjut · 15.5 Spektroskopi vibrasi IR · 15.6 Spektroskopi Raman · 15.7 Spektroskopi elektronik dan prinsip Franck–Condon · 15.8 Fluoresensi, fosforesensi, diagram Jablonski · 15.9 UV-Vis senyawa organik dan kompleks · 15.10 Laser · 15.11 Spektroskopi fotoelektron · 15.12 Spektroskopi resolusi waktu
+### ☐ Bab 17 Spektroskopi Molekul
+17.1 Koefisien Einstein · 17.2 Hukum Beer–Lambert dan kekuatan osilator · 17.3 Lebar garis · 17.4 Spektroskopi rotasi lanjut · 17.5 Spektroskopi vibrasi IR · 17.6 Spektroskopi Raman · 17.7 Spektroskopi elektronik dan prinsip Franck–Condon · 17.8 Fluoresensi, fosforesensi, diagram Jablonski · 17.9 UV-Vis senyawa organik · 17.10 Laser · 17.11 Spektroskopi fotoelektron · 17.12 Spektroskopi resolusi waktu
 
-### ☐ Bab 16 Resonansi Magnetik
-16.1 Momen magnet spin inti · 16.2 Tingkat energi Zeeman inti · 16.3 Populasi dan kepekaan · 16.4 Perisai dan geseran kimia · 16.5 Kopling spin–spin: spektrum AX · 16.6 Spektrum orde dua (AB) · 16.7 Kesetaraan kimia dan magnetik · 16.8 Model vektor, pulsa, dan FID · 16.9 Relaksasi T₁ dan T₂ · 16.10 Konsep NMR dua dimensi · 16.11 ESR: faktor g dan kopling hiperhalus · 16.12 MRI
+### ☐ Bab 18 Resonansi Magnetik
+18.1 Momen magnet spin inti · 18.2 Tingkat energi Zeeman inti · 18.3 Populasi dan kepekaan · 18.4 Perisai dan geseran kimia · 18.5 Kopling spin–spin: spektrum AX · 18.6 Spektrum orde dua (AB) · 18.7 Kesetaraan kimia dan magnetik · 18.8 Model vektor, pulsa, dan FID · 18.9 Relaksasi T₁ dan T₂ · 18.10 Konsep NMR dua dimensi · 18.11 ESR: faktor g dan kopling hiperhalus · 18.12 MRI
 
-### ☐ Bab 17 Kimia Komputasi: Hartree–Fock dan Himpunan Basis
-17.1 Metode ab initio, DFT, semiempiris, mekanika molekul · 17.2 SCF untuk molekul poliatom · 17.3 Fungsi basis: STO, GTO, split-valence, polarisasi, difus · 17.4 SCF untuk H₂O · 17.5 Analisis populasi dan orde ikatan · 17.6 Potensial elektrostatik dan muatan atom · 17.7 OM terlokalisasi · 17.8 Optimasi geometri · 17.9 Frekuensi vibrasi dan sifat termodinamika · 17.10 Program kimia kuantum dan cara memakainya · 17.11 Efek pelarut
+### ☐ Bab 19 Kimia Komputasi: Hartree–Fock dan Himpunan Basis
+19.1 Metode ab initio, DFT, semiempiris, mekanika molekul · 19.2 SCF untuk molekul poliatom · 19.3 Fungsi basis: STO, GTO, split-valence, polarisasi, difus · 19.4 SCF untuk H₂O · 19.5 Analisis populasi dan orde ikatan · 19.6 Potensial elektrostatik dan muatan atom · 19.7 OM terlokalisasi · 19.8 Optimasi geometri · 19.9 Frekuensi vibrasi dan sifat termodinamika · 19.10 Program kimia kuantum dan cara memakainya · 19.11 Efek pelarut
 
-### ☐ Bab 18 Korelasi Elektron, DFT, dan Metode Semiempiris
-18.1 Energi korelasi · 18.2 Interaksi konfigurasi · 18.3 Teori perturbasi Møller–Plesset · 18.4 Metode coupled-cluster · 18.5 Teori fungsional kerapatan: Hohenberg–Kohn dan Kohn–Sham · 18.6 Fungsional LDA, GGA, hibrida · 18.7 Metode komposit · 18.8 Interaksi nonkovalen · 18.9 Perhitungan NMR · 18.10 Efek relativistik · 18.11 Reaksi kimia dan keadaan transisi · 18.12 Metode semiempiris dan mekanika molekul
+### ☐ Bab 20 Korelasi Elektron, DFT, dan Metode Semiempiris
+20.1 Energi korelasi · 20.2 Interaksi konfigurasi · 20.3 Teori perturbasi Møller–Plesset · 20.4 Metode coupled-cluster · 20.5 Teori fungsional kerapatan: Hohenberg–Kohn dan Kohn–Sham · 20.6 Fungsional LDA, GGA, hibrida · 20.7 Metode komposit · 20.8 Interaksi nonkovalen dan ikatan hidrogen · 20.9 Perhitungan NMR · 20.10 Efek relativistik · 20.11 Reaksi kimia dan keadaan transisi · 20.12 Metode semiempiris dan mekanika molekul
+
+## Bagian depan dan belakang
+Depan: Kata Pengantar · Cara Memakai Buku Ini · Daftar Lambang. Akhir tiap bab: Ringkasan · Pertanyaan konsep · Soal · Jawaban · Pembahasan · Bacaan lanjut (3–6 judul).
+Belakang: Lampiran · Indeks.
 
 ## Lampiran
 A Tetapan fisika dan satuan atom · B Integral penting · C Tabel karakter grup titik umum · D Fungsi gelombang atom hidrogen · E Python untuk kimia kuantum (NumPy, diagonalisasi, integrasi numerik)

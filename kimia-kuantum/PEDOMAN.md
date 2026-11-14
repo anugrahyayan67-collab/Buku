@@ -37,3 +37,12 @@ Koma desimal di seluruh buku (`9{,}8`). Integral diberi batas dan elemen volume 
 
 ## Pembagian kerja per sesi
 Satu sesi = satu bab. Urutan: materi (Opus 5.5 · high) → gambar dan build (Sonnet 5.5 · medium) → pemeriksaan angka dan rujukan (Sonnet 5.5 · high) → commit, lalu perbarui status di `RENCANA.md`.
+
+## Penyiapan alat (sekali, sebelum Bab 1)
+Pakai ulang alat Fisika Umum:
+1. Salin `fisika-umum/build.sh`, `gaya.py`, `topdf.cjs`, `buku.css`, `alat/` ke `kimia-kuantum/`.
+2. Ganti judul di `build.sh` dan `topdf.cjs` menjadi "Kimia Kuantum"; ganti jalur `~/fisika-umum` di skrip `alat/` menjadi jalur `kimia-kuantum`.
+3. Tambahkan `edisi2/buku3.css` dari Fisika Umum agar gaya isi sama (palet biru tua, kotak bersudut membulat, paragraf menjorok).
+4. Uji dengan satu bab: `./build.sh bab01 "Bab 1"` harus menghasilkan PDF tanpa `class="math` di HTML.
+
+Cetak buku utuh (sampul, daftar isi bertaut, indeks) dibuat setelah beberapa bab selesai, dengan menyesuaikan `fisika-umum/edisi2/cetak.py`.
