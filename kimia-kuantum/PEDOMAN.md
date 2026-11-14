@@ -46,3 +46,11 @@ Pakai ulang alat Fisika Umum:
 4. Uji dengan satu bab: `./build.sh bab01 "Bab 1"` harus menghasilkan PDF tanpa `class="math` di HTML.
 
 Cetak buku utuh (sampul, daftar isi bertaut, indeks) dibuat setelah beberapa bab selesai, dengan menyesuaikan `fisika-umum/edisi2/cetak.py`.
+
+### Status alat (disiapkan bersama Bab 1)
+- `build.sh babNN "Bab N"` → menjalankan `alat/soal.py` (menyusun `z-akhir.md` dari `_soal.txt` + `_akhir.md`) lalu `alat/bangun.py`.
+- `alat/bangun.py`: pandoc (MathML) dengan `buku.css` + `buku2.css` + `buku3.css` + `pembuka.css`, `gaya.py`, halaman pembuka penuh (orbital dari `alat/pembuka.py`, nama Bagian dari RENCANA.md), render Playwright (`alat/render.cjs`), judul berjalan dan nomor halaman (reportlab), penanda PDF per subbab. Memberi peringatan bila ada TeX/MathML mentah.
+- `alat/nomor.py babNN N` menomori label sementara (`Contoh N.a1`, `Gambar N.g1`, `\text{(N.e1)}`). Jangan menulis rujukan subbab dalam tanda kurung seperti "(1.3)"; tulis "subbab 1.3".
+- Di `_soal.txt`, baris tanpa `|||` (misalnya **Dasar**, **Menengah**, **Tantangan ★**) dicetak apa adanya.
+- Paragraf yang diawali "(b) " harus ditulis `\(b) ` agar tidak menjadi daftar bernomor.
+- Bab 1: 59 halaman, 54 contoh, 12 gambar, 97 soal.

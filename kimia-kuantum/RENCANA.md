@@ -8,7 +8,7 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 
 ## Bagian I · Dasar-dasar mekanika kuantum
 
-### ☐ Bab 1 Lahirnya Mekanika Kuantum
+### ☑ Bab 1 Lahirnya Mekanika Kuantum
 1.1 Kimia kuantum dan cakupannya · 1.2 Krisis fisika klasik · 1.3 Radiasi benda hitam: Rayleigh–Jeans dan penurunan rumus Planck · 1.4 Efek fotolistrik dan foton · 1.5 Efek Compton · 1.6 Spektrum atom dan model Bohr · 1.7 Hipotesis de Broglie dan difraksi elektron · 1.8 Percobaan celah ganda dan dualisme · 1.9 Asas ketidakpastian · 1.10 Skala energi dalam kimia: eV, cm⁻¹, kJ/mol, hartree
 
 ### ☐ Bab 2 Matematika untuk Kimia Kuantum
