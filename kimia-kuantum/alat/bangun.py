@@ -19,6 +19,7 @@ for line in open(f'{R}/RENCANA.md'):
     if m: BAG[int(m.group(1))] = bag
 # ---------- 1. Markdown -> HTML
 md = '\n\n'.join(open(f).read() for f in fs)
+md = re.sub(r'^\(([a-h])\) ', r'\\(\1) ', md, flags=re.M)   # cegah '(b) ' menjadi daftar bernomor
 src = f'{D}/_bab.md'; out = f'{D}/_bab.html'; open(src, 'w').write(md)
 css = ['../buku.css', '../buku2.css', '../buku3.css', '../pembuka.css']
 subprocess.run(['pandoc', src, '-s', '--mathml', '--metadata', 'pagetitle=Kimia Kuantum', '-o', out] + sum([['-c', c] for c in css], []),

@@ -11,7 +11,7 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 ### ☑ Bab 1 Lahirnya Mekanika Kuantum
 1.1 Kimia kuantum dan cakupannya · 1.2 Krisis fisika klasik · 1.3 Radiasi benda hitam: Rayleigh–Jeans dan penurunan rumus Planck · 1.4 Efek fotolistrik dan foton · 1.5 Efek Compton · 1.6 Spektrum atom dan model Bohr · 1.7 Hipotesis de Broglie dan difraksi elektron · 1.8 Percobaan celah ganda dan dualisme · 1.9 Asas ketidakpastian · 1.10 Skala energi dalam kimia: eV, cm⁻¹, kJ/mol, hartree
 
-### ☐ Bab 2 Matematika untuk Kimia Kuantum
+### ☑ Bab 2 Matematika untuk Kimia Kuantum
 2.1 Bilangan kompleks dan rumus Euler · 2.2 Turunan, integral parsial, integral Gauss · 2.3 Persamaan diferensial orde dua · 2.4 Penyelesaian dengan deret pangkat · 2.5 Koordinat bola dan silinder, elemen volume · 2.6 Vektor dan hasil kali dalam fungsi · 2.7 Matriks dan determinan · 2.8 Nilai eigen dan vektor eigen matriks · 2.9 Deret Taylor dan deret Fourier · 2.10 Peluang, nilai rata-rata, simpangan baku · 2.11 Satuan atom
 
 ### ☐ Bab 3 Persamaan Schrödinger dan Partikel dalam Kotak
