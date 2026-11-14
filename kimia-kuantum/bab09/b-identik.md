@@ -7,7 +7,7 @@ Dua kelereng yang dibuat persis sama tetap dapat dibedakan: kita dapat mengikuti
 Tinjau dua partikel identik dengan fungsi gelombang $\Psi(1, 2)$, dengan "1" menyatakan semua koordinat (ruang dan spin) partikel pertama. Definisikan **operator pertukaran** $\hat P_{12}$:
 
 $$
-\hat P_{12}\Psi(1, 2) = \Psi(2, 1) . \qquad \text{(9.e12)}
+\hat P_{12}\Psi(1, 2) = \Psi(2, 1) . \qquad \text{(9.12)}
 $$
 
 Karena partikel identik, Hamiltoniannya simetris terhadap pertukaran (Hamiltonian helium, persamaan (8.1), tidak berubah bila indeks 1 dan 2 ditukar), sehingga $[\hat H, \hat P_{12}] = 0$, dan fungsi eigen $\hat H$ dapat dipilih sebagai fungsi eigen $\hat P_{12}$ juga. Menukar dua kali mengembalikan keadaan semula, $\hat P_{12}^2 = 1$, sehingga nilai eigen $\hat P_{12}$ hanya $+1$ atau $-1$:
@@ -35,19 +35,19 @@ Untuk partikel majemuk (inti, atom, molekul) yang dipertukarkan sebagai satu kes
 Simetri pertukaran bukan sekadar soal tanda; ia mengubah di mana partikel-partikel cenderung berada. Ambil dua partikel bebas dalam kotak satu dimensi, satu di keadaan $\psi_a$ dan satu di $\psi_b$, dan abaikan spin dan interaksinya. Ada tiga kemungkinan fungsi gelombang:
 
 $$
-\Psi_\text{D} = \psi_a(x_1)\psi_b(x_2) , \qquad \Psi_\pm = \frac{1}{\sqrt2}\left[\psi_a(x_1)\psi_b(x_2) \pm \psi_b(x_1)\psi_a(x_2)\right] , \qquad \text{(9.e13)}
+\Psi_\text{D} = \psi_a(x_1)\psi_b(x_2) , \qquad \Psi_\pm = \frac{1}{\sqrt2}\left[\psi_a(x_1)\psi_b(x_2) \pm \psi_b(x_1)\psi_a(x_2)\right] , \qquad \text{(9.13)}
 $$
 
 untuk partikel yang dapat dibedakan (D), boson ($+$), dan fermion ($-$) tanpa spin. Hitunglah rata-rata kuadrat jarak antarpartikel, $\langle(x_1 - x_2)^2\rangle = \langle x_1^2\rangle + \langle x_2^2\rangle - 2\langle x_1x_2\rangle$. Dua suku pertama sama untuk ketiga fungsi: $\langle x^2\rangle_a + \langle x^2\rangle_b$. Suku silangnya berbeda: untuk $\Psi_\text{D}$, $\langle x_1x_2\rangle = \langle x\rangle_a\langle x\rangle_b$; untuk $\Psi_\pm$, uraian kuadrat menghasilkan tambahan suku "pertukaran":
 
 $$
-\langle(x_1 - x_2)^2\rangle_\pm = \langle(x_1 - x_2)^2\rangle_\text{D} \mp 2|\langle x\rangle_{ab}|^2 , \qquad \langle x\rangle_{ab} = \int\psi_a^*x\,\psi_b\,dx . \qquad \text{(9.e14)}
+\langle(x_1 - x_2)^2\rangle_\pm = \langle(x_1 - x_2)^2\rangle_\text{D} \mp 2|\langle x\rangle_{ab}|^2 , \qquad \langle x\rangle_{ab} = \int\psi_a^*x\,\psi_b\,dx . \qquad \text{(9.14)}
 $$
 
 Boson cenderung **berdekatan**, fermion cenderung **berjauhan**, dibandingkan partikel yang dapat dibedakan, padahal tidak ada gaya di antara mereka. Efek ini sering disebut "gaya pertukaran", walaupun sebenarnya bukan gaya, melainkan akibat geometri fungsi gelombang yang simetris atau antisimetris. Untuk fermion, $\Psi_-$ nol tepat ketika $x_1 = x_2$: dua fermion dengan spin sama tidak pernah berada di titik yang sama, dan di sekitar setiap fermion ada daerah yang "dihindari" fermion lain, yaitu **lubang Fermi** (lubang pertukaran) yang sudah kita temui pada helium tereksitasi di subbab 8.9.
 
 ::: {.contoh}
-**Contoh 9.c7 · Fermion atau boson?**
+**Contoh 9.7 · Fermion atau boson?**
 
 Tentukan apakah partikel berikut fermion atau boson: (a) inti ⁴He dan atom ⁴He; (b) atom ³He; (c) atom ⁷Li dan ⁶Li; (d) atom hidrogen dan deuterium; (e) molekul H₂ sebagai satu kesatuan.
 
@@ -57,19 +57,19 @@ Tentukan apakah partikel berikut fermion atau boson: (a) inti ⁴He dan atom ⁴
 :::
 
 ::: {.contoh}
-**Contoh 9.c8 · Dua partikel dalam kotak: jarak rata-rata**
+**Contoh 9.8 · Dua partikel dalam kotak: jarak rata-rata**
 
 Dua partikel dalam kotak sepanjang $L$ menempati $n = 1$ dan $n = 2$. Diketahui $\langle x\rangle_n = L/2$, $\langle x^2\rangle_n = L^2(\tfrac13 - 1/2n^2\pi^2)$, dan $\langle x\rangle_{12} = -16L/9\pi^2$. Hitung akar rata-rata kuadrat jarak antarpartikel untuk partikel yang dapat dibedakan, boson, dan fermion.
 
 **Penyelesaian.** $\langle x^2\rangle_1 + \langle x^2\rangle_2 = L^2(0{,}2827 + 0{,}3207) = 0{,}6034L^2$; $2\langle x\rangle_1\langle x\rangle_2 = 0{,}5L^2$. Jadi $\langle(x_1 - x_2)^2\rangle_\text{D} = 0{,}1033L^2$. Suku pertukaran $2|\langle x\rangle_{12}|^2 = 2(0{,}1801)^2L^2 = 0{,}0649L^2$. Boson: $0{,}0384L^2$; fermion: $0{,}1682L^2$. Akar-akarnya: 0,321$L$; 0,196$L$; 0,410$L$.
 
-**Memahami hasil.** Tanpa gaya apa pun, fermion rata-rata 28% lebih berjauhan daripada partikel yang dapat dibedakan, dan boson 39% lebih berdekatan. Dalam atom dan molekul, efek ini membuat elektron-elektron berspin sama saling menghindar sehingga tolakan Coulomb-nya berkurang, asal mula aturan Hund (subbab 9.12). Gambar 9.g1 memperlihatkan rapat peluang dua partikel dalam bidang $(x_1, x_2)$: fermion kosong di sepanjang diagonal $x_1 = x_2$, boson menumpuk di sana.
+**Memahami hasil.** Tanpa gaya apa pun, fermion rata-rata 28% lebih berjauhan daripada partikel yang dapat dibedakan, dan boson 39% lebih berdekatan. Dalam atom dan molekul, efek ini membuat elektron-elektron berspin sama saling menghindar sehingga tolakan Coulomb-nya berkurang, asal mula aturan Hund (subbab 9.12). Gambar 9.2 memperlihatkan rapat peluang dua partikel dalam bidang $(x_1, x_2)$: fermion kosong di sepanjang diagonal $x_1 = x_2$, boson menumpuk di sana.
 :::
 
-![Gambar 9.g1 Rapat peluang $|\Psi(x_1, x_2)|^2$ untuk dua partikel dalam kotak di keadaan $n = 1$ dan $n = 2$. Kiri: partikel yang dapat dibedakan. Tengah: boson (fungsi simetris), dengan peluang besar di sepanjang diagonal $x_1 = x_2$ (garis putus-putus). Kanan: fermion (fungsi antisimetris), dengan peluang nol di diagonal: lubang Fermi.](fig/c_identik.png){width=95%}
+![Gambar 9.2 Rapat peluang $|\Psi(x_1, x_2)|^2$ untuk dua partikel dalam kotak di keadaan $n = 1$ dan $n = 2$. Kiri: partikel yang dapat dibedakan. Tengah: boson (fungsi simetris), dengan peluang besar di sepanjang diagonal $x_1 = x_2$ (garis putus-putus). Kanan: fermion (fungsi antisimetris), dengan peluang nol di diagonal: lubang Fermi.](fig/c_identik.png){width=95%}
 
 ::: {.contoh}
-**Contoh 9.c9 · Menghitung keadaan dua partikel**
+**Contoh 9.9 · Menghitung keadaan dua partikel**
 
 Dua partikel ditempatkan pada tiga keadaan satu partikel $a$, $b$, $c$ (misalnya tiga orbital, abaikan spin). Berapa banyak keadaan dua partikel yang berbeda bila partikelnya (a) dapat dibedakan, (b) boson, (c) fermion?
 
@@ -81,7 +81,7 @@ Dua partikel ditempatkan pada tiga keadaan satu partikel $a$, $b$, $c$ (misalnya
 ::: {.kuis}
 **Kuis cepat 9.3**
 
-(a) Apakah molekul D₂ boson atau fermion? Apakah inti deuteron boson atau fermion? (b) Mengapa $\Psi_-$ di (9.e13) nol bila $\psi_a = \psi_b$? (c) Apakah "gaya pertukaran" dapat diukur dengan dinamometer? Jelaskan.
+(a) Apakah molekul D₂ boson atau fermion? Apakah inti deuteron boson atau fermion? (b) Mengapa $\Psi_-$ di (9.13) nol bila $\psi_a = \psi_b$? (c) Apakah "gaya pertukaran" dapat diukur dengan dinamometer? Jelaskan.
 :::
 
 ## 9.4 Atom helium dan fungsi spin
@@ -91,7 +91,7 @@ Dua partikel ditempatkan pada tiga keadaan satu partikel $a$, $b$, $c$ (misalnya
 Dengan spin, fungsi gelombang dua elektron adalah fungsi dari koordinat ruang dan spin keduanya. Bila Hamiltonian tidak memuat spin, fungsi itu dapat ditulis sebagai hasil kali fungsi ruang $\psi(\mathbf r_1, \mathbf r_2)$ dan fungsi spin $\sigma(1, 2)$. Ada empat hasil kali fungsi spin satu elektron: $\alpha(1)\alpha(2)$, $\alpha(1)\beta(2)$, $\beta(1)\alpha(2)$, $\beta(1)\beta(2)$. Dua yang di tengah tidak simetris maupun antisimetris terhadap pertukaran, tetapi jumlah dan selisihnya simetris dan antisimetris. Himpunan yang lebih berguna adalah
 
 $$
-\text{triplet } (S = 1):\quad \begin{cases}\alpha(1)\alpha(2) & M_S = +1\\ \frac{1}{\sqrt2}[\alpha(1)\beta(2) + \beta(1)\alpha(2)] & M_S = 0\\ \beta(1)\beta(2) & M_S = -1\end{cases} \qquad \text{singlet } (S = 0):\quad \frac{1}{\sqrt2}[\alpha(1)\beta(2) - \beta(1)\alpha(2)] . \qquad \text{(9.e15)}
+\text{triplet } (S = 1):\quad \begin{cases}\alpha(1)\alpha(2) & M_S = +1\\ \frac{1}{\sqrt2}[\alpha(1)\beta(2) + \beta(1)\alpha(2)] & M_S = 0\\ \beta(1)\beta(2) & M_S = -1\end{cases} \qquad \text{singlet } (S = 0):\quad \frac{1}{\sqrt2}[\alpha(1)\beta(2) - \beta(1)\alpha(2)] . \qquad \text{(9.15)}
 $$
 
 Ketiga fungsi triplet simetris terhadap pertukaran; fungsi singlet antisimetris. Nama "triplet" dan "singlet" berasal dari jumlah fungsinya, yang dalam medan magnet menghasilkan tiga atau satu tingkat.
@@ -99,23 +99,23 @@ Ketiga fungsi triplet simetris terhadap pertukaran; fungsi singlet antisimetris.
 Mengapa pengelompokan ini yang benar? Spin total $\hat{\mathbf S} = \hat{\mathbf S}_1 + \hat{\mathbf S}_2$ memenuhi aljabar momentum sudut, dan keempat fungsi di atas adalah fungsi eigen $\hat S^2$ dan $\hat S_z$. Untuk $\hat S_z = \hat S_{1z} + \hat S_{2z}$ hal itu jelas: $M_S$ adalah jumlah $m_s$. Untuk $\hat S^2$, uraikan
 
 $$
-\hat S^2 = \hat S_1^2 + \hat S_2^2 + 2\hat{\mathbf S}_1\cdot\hat{\mathbf S}_2 , \qquad 2\hat{\mathbf S}_1\cdot\hat{\mathbf S}_2 = 2\hat S_{1z}\hat S_{2z} + \hat S_{1+}\hat S_{2-} + \hat S_{1-}\hat S_{2+} . \qquad \text{(9.e16)}
+\hat S^2 = \hat S_1^2 + \hat S_2^2 + 2\hat{\mathbf S}_1\cdot\hat{\mathbf S}_2 , \qquad 2\hat{\mathbf S}_1\cdot\hat{\mathbf S}_2 = 2\hat S_{1z}\hat S_{2z} + \hat S_{1+}\hat S_{2-} + \hat S_{1-}\hat S_{2+} . \qquad \text{(9.16)}
 $$
 
-Bentuk kedua diperoleh dari $\hat S_x = \tfrac12(\hat S_+ + \hat S_-)$ dan $\hat S_y = \tfrac{1}{2i}(\hat S_+ - \hat S_-)$. Operator tangga menukar $\alpha$ dan $\beta$ antara kedua elektron (Contoh 9.c10), sehingga fungsi $\alpha\beta \pm \beta\alpha$ adalah fungsi eigen. Hasilnya: $S(S + 1) = 2$ ($S = 1$) untuk ketiga fungsi simetris dan $S(S + 1) = 0$ ($S = 0$) untuk fungsi antisimetris. Penjumlahan dua spin $\tfrac12$ adalah kasus paling sederhana dari penjumlahan momentum sudut (subbab 9.11).
+Bentuk kedua diperoleh dari $\hat S_x = \tfrac12(\hat S_+ + \hat S_-)$ dan $\hat S_y = \tfrac{1}{2i}(\hat S_+ - \hat S_-)$. Operator tangga menukar $\alpha$ dan $\beta$ antara kedua elektron (Contoh 9.10), sehingga fungsi $\alpha\beta \pm \beta\alpha$ adalah fungsi eigen. Hasilnya: $S(S + 1) = 2$ ($S = 1$) untuk ketiga fungsi simetris dan $S(S + 1) = 0$ ($S = 0$) untuk fungsi antisimetris. Penjumlahan dua spin $\tfrac12$ adalah kasus paling sederhana dari penjumlahan momentum sudut (subbab 9.11).
 
 ### Fungsi total yang antisimetris
 
 Elektron adalah fermion, sehingga fungsi **total** (ruang × spin) harus antisimetris. Ada dua cara memenuhinya:
 
 $$
-\Psi = \psi_\text{simetris}(\mathbf r_1, \mathbf r_2) \times \sigma_\text{singlet} \qquad\text{atau}\qquad \Psi = \psi_\text{antisimetris}(\mathbf r_1, \mathbf r_2) \times \sigma_\text{triplet} . \qquad \text{(9.e17)}
+\Psi = \psi_\text{simetris}(\mathbf r_1, \mathbf r_2) \times \sigma_\text{singlet} \qquad\text{atau}\qquad \Psi = \psi_\text{antisimetris}(\mathbf r_1, \mathbf r_2) \times \sigma_\text{triplet} . \qquad \text{(9.17)}
 $$
 
 **Keadaan dasar helium.** Fungsi ruang $1s(1)1s(2)$ simetris, sehingga harus dipasangkan dengan singlet:
 
 $$
-\Psi(1s^2) = 1s(1)1s(2)\cdot\frac{1}{\sqrt2}[\alpha(1)\beta(2) - \beta(1)\alpha(2)] . \qquad \text{(9.e18)}
+\Psi(1s^2) = 1s(1)1s(2)\cdot\frac{1}{\sqrt2}[\alpha(1)\beta(2) - \beta(1)\alpha(2)] . \qquad \text{(9.18)}
 $$
 
 Tidak ada triplet $1s^2$: fungsi ruang antisimetris $1s(1)1s(2) - 1s(2)1s(1)$ adalah nol. Keadaan dasar helium adalah singlet, dengan spin total nol dan tanpa momen magnet; helium diamagnetik.
@@ -129,15 +129,15 @@ Perhatikan apa yang terjadi. Hamiltonian tidak memuat spin sama sekali, tetapi e
 Untuk dua spin $\tfrac12$, $\hat{\mathbf S}_1\cdot\hat{\mathbf S}_2 = \tfrac12(\hat S^2 - \hat S_1^2 - \hat S_2^2)$ bernilai $+\tfrac14\hbar^2$ untuk triplet dan $-\tfrac34\hbar^2$ untuk singlet. Maka kedua energi $J \pm K$ dapat ditulis dalam satu rumus:
 
 $$
-E = E^{(0)} + J - \tfrac12K - \frac{2K}{\hbar^2}\hat{\mathbf S}_1\cdot\hat{\mathbf S}_2 . \qquad \text{(9.e19)}
+E = E^{(0)} + J - \tfrac12K - \frac{2K}{\hbar^2}\hat{\mathbf S}_1\cdot\hat{\mathbf S}_2 . \qquad \text{(9.19)}
 $$
 
 Inilah Hamiltonian pertukaran Dirac–Heisenberg: interaksi Coulomb yang dipadukan dengan antisimetri tampak **seolah-olah** interaksi langsung antara dua spin. Dalam bentuk umum $\hat H = -2J_\text{ex}\hat{\mathbf S}_1\cdot\hat{\mathbf S}_2/\hbar^2$, tanda $J_\text{ex}$ menentukan apakah spin-spin cenderung sejajar ($J_\text{ex} > 0$, feromagnetik) atau berlawanan ($J_\text{ex} < 0$, antiferomagnetik). Kemagnetan besi dan kobalt, kopling antara ion-ion logam dalam kompleks berinti banyak, dan keadaan dasar diradikal organik semuanya diatur oleh "interaksi pertukaran" ini, yang besarnya ratusan sampai ribuan kali interaksi magnetik dipol–dipol yang sebenarnya.
 
 ::: {.contoh}
-**Contoh 9.c10 · Memeriksa $\hat S^2$ pada fungsi spin**
+**Contoh 9.10 · Memeriksa $\hat S^2$ pada fungsi spin**
 
-Gunakan (9.e16) dan (9.e7) untuk menghitung $\hat S^2$ pada $\alpha(1)\beta(2)$, lalu tunjukkan bahwa kombinasi $\alpha\beta - \beta\alpha$ mempunyai $S = 0$ dan $\alpha\beta + \beta\alpha$ mempunyai $S = 1$.
+Gunakan (9.16) dan (9.7) untuk menghitung $\hat S^2$ pada $\alpha(1)\beta(2)$, lalu tunjukkan bahwa kombinasi $\alpha\beta - \beta\alpha$ mempunyai $S = 0$ dan $\alpha\beta + \beta\alpha$ mempunyai $S = 1$.
 
 **Penyelesaian.** Dengan $\hat S_1^2 = \hat S_2^2 = \tfrac34\hbar^2$ pada setiap fungsi: $(\hat S_1^2 + \hat S_2^2)\alpha\beta = \tfrac32\hbar^2\alpha\beta$. $2\hat S_{1z}\hat S_{2z}\alpha\beta = 2(\tfrac12\hbar)(-\tfrac12\hbar)\alpha\beta = -\tfrac12\hbar^2\alpha\beta$. $\hat S_{1+}\hat S_{2-}\alpha\beta = 0$ (karena $\hat S_{1+}\alpha = 0$). $\hat S_{1-}\hat S_{2+}\alpha\beta = (\hbar\beta)(\hbar\alpha) = \hbar^2\beta\alpha$. Jadi
 
@@ -151,7 +151,7 @@ Maka $\hat S^2(\alpha\beta - \beta\alpha) = 0$ dan $\hat S^2(\alpha\beta + \beta
 :::
 
 ::: {.contoh}
-**Contoh 9.c11 · Ortohelium dan parahelium**
+**Contoh 9.11 · Ortohelium dan parahelium**
 
 Spektrum helium terdiri atas dua sistem garis yang hampir tidak saling berhubungan. (a) Garis 1083,3 nm berasal dari transisi $2^3$P → $2^3$S, dan garis 2058,7 nm dari $2^1$P → $2^1$S. Hitung energi fotonnya dan bandingkan dengan selisih J yang dihitung di subbab 8.9. (b) Mengapa keadaan $2^3$S tidak dapat memancar ke keadaan dasar $1^1$S dengan transisi dipol listrik?
 
@@ -163,7 +163,7 @@ Spektrum helium terdiri atas dua sistem garis yang hampir tidak saling berhubung
 :::
 
 ::: {.contoh}
-**Contoh 9.c12 · Pertukaran dalam kompleks tembaga berinti dua**
+**Contoh 9.12 · Pertukaran dalam kompleks tembaga berinti dua**
 
 Dalam tembaga(II) asetat hidrat, dua ion Cu²⁺ (masing-masing dengan satu elektron tak berpasangan) terkopel antiferomagnetik, sehingga keadaan singlet lebih rendah sekitar 300 cm⁻¹ daripada triplet. (a) Pada 298 K ($k_BT = 207$ cm⁻¹), berapa bagian molekul yang berada dalam keadaan triplet? (b) Pada 77 K ($k_BT = 53{,}5$ cm⁻¹)? (c) Apa akibatnya bagi sifat magnetnya?
 
@@ -171,13 +171,13 @@ Dalam tembaga(II) asetat hidrat, dua ion Cu²⁺ (masing-masing dengan satu elek
 
 (c) Hanya molekul triplet yang paramagnetik. Kerentanan magnetnya menurun tajam ketika suhu diturunkan, berlawanan dengan hukum Curie biasa.
 
-**Memahami hasil.** Pengukuran kerentanan magnet terhadap suhu (kurva Bleaney–Bowers) memberi besar celah singlet–triplet, yaitu $2J_\text{ex}$ dalam (9.e19). Kopling ini bukan interaksi magnetik langsung antara kedua elektron (yang hanya sekitar 0,2 cm⁻¹ pada jarak 2,6 Å), melainkan hasil pertukaran yang diteruskan melalui ligan jembatan karboksilat ("superpertukaran"). Kimia material magnetik molekul dan situs aktif enzim berinti logam banyak memanfaatkan dan mengukur kopling seperti ini.
+**Memahami hasil.** Pengukuran kerentanan magnet terhadap suhu (kurva Bleaney–Bowers) memberi besar celah singlet–triplet, yaitu $2J_\text{ex}$ dalam (9.19). Kopling ini bukan interaksi magnetik langsung antara kedua elektron (yang hanya sekitar 0,2 cm⁻¹ pada jarak 2,6 Å), melainkan hasil pertukaran yang diteruskan melalui ligan jembatan karboksilat ("superpertukaran"). Kimia material magnetik molekul dan situs aktif enzim berinti logam banyak memanfaatkan dan mengukur kopling seperti ini.
 :::
 
 ::: {.kuis}
 **Kuis cepat 9.4**
 
-(a) Fungsi spin $\alpha(1)\beta(2)$: apakah fungsi eigen $\hat S_z$? Apakah fungsi eigen $\hat S^2$? (b) Mengapa keadaan dasar helium harus singlet? (c) Dalam (9.e19), bila $K > 0$, spin-spin cenderung sejajar atau berlawanan?
+(a) Fungsi spin $\alpha(1)\beta(2)$: apakah fungsi eigen $\hat S_z$? Apakah fungsi eigen $\hat S^2$? (b) Mengapa keadaan dasar helium harus singlet? (c) Dalam (9.19), bila $K > 0$, spin-spin cenderung sejajar atau berlawanan?
 :::
 
 ## 9.5 Asas larangan Pauli
@@ -199,7 +199,7 @@ Pauli merumuskan asas ini pada tahun 1925, berdasarkan pola dalam spektrum atom,
 Asas Pauli langsung menentukan kapasitas kulit atom. Untuk setiap $\ell$ ada $2\ell + 1$ nilai $m_\ell$ dan dua nilai $m_s$:
 
 $$
-\text{subkulit } \ell:\ 2(2\ell + 1) = 2, 6, 10, 14 \ (\text{s, p, d, f}) , \qquad \text{kulit } n:\ \sum_{\ell=0}^{n-1}2(2\ell + 1) = 2n^2 = 2, 8, 18, 32 . \qquad \text{(9.e20)}
+\text{subkulit } \ell:\ 2(2\ell + 1) = 2, 6, 10, 14 \ (\text{s, p, d, f}) , \qquad \text{kulit } n:\ \sum_{\ell=0}^{n-1}2(2\ell + 1) = 2n^2 = 2, 8, 18, 32 . \qquad \text{(9.20)}
 $$
 
 Tanpa asas Pauli, semua elektron setiap atom akan berada di 1s dalam keadaan dasar. Atom akan makin kecil dan makin sulit bereaksi ketika $Z$ naik, tidak akan ada kulit valensi, tidak ada periodisitas, dan tidak ada kimia sebagaimana kita kenal. Panjang periode tabel periodik (2, 8, 8, 18, 18, 32) bukan sekadar $2n^2$; urutan pengisian subkulit juga berperan, dan itu dibahas di subbab 9.9.
@@ -211,13 +211,13 @@ Asas Pauli juga menjelaskan mengapa materi menempati ruang. Bila dua atom dengan
 Pada skala yang lebih besar, gas elektron dalam logam dan gas elektron dalam bintang katai putih menahan diri dari pemampatan karena elektron tidak dapat semuanya menempati keadaan energi terendah. Bila $N$ elektron bebas mengisi keadaan-keadaan momentum dari bawah, dua per keadaan ruang, energi tertinggi yang terisi pada suhu nol mutlak adalah **energi Fermi**
 
 $$
-E_F = \frac{\hbar^2}{2m_e}\left(3\pi^2n\right)^{2/3} , \qquad \text{(9.e21)}
+E_F = \frac{\hbar^2}{2m_e}\left(3\pi^2n\right)^{2/3} , \qquad \text{(9.21)}
 $$
 
 dengan $n$ kerapatan elektron. Rumus ini adalah perluasan partikel dalam kotak tiga dimensi (subbab 4.5) untuk sangat banyak elektron.
 
 ::: {.contoh}
-**Contoh 9.c13 · Enam elektron dalam kotak**
+**Contoh 9.13 · Enam elektron dalam kotak**
 
 Enam elektron π heksatriena dimodelkan sebagai partikel bebas dalam kotak. (a) Berapa energi total keadaan dasar dalam satuan $E_1$? (b) Seandainya elektron adalah boson tanpa spin, berapa? (c) Berapa energi foton terendah yang dapat diserap dalam kedua kasus?
 
@@ -227,7 +227,7 @@ Enam elektron π heksatriena dimodelkan sebagai partikel bebas dalam kotak. (a) 
 :::
 
 ::: {.contoh}
-**Contoh 9.c14 · Energi Fermi natrium**
+**Contoh 9.14 · Energi Fermi natrium**
 
 Natrium (massa jenis 0,968 g/cm³, $M = 22{,}99$ g/mol) menyumbangkan satu elektron valensi per atom ke gas elektron bebas. Hitung (a) kerapatan elektron, (b) energi Fermi, (c) kelajuan elektron pada energi Fermi, dan (d) suhu Fermi $E_F/k_B$.
 
@@ -237,7 +237,7 @@ Natrium (massa jenis 0,968 g/cm³, $M = 22{,}99$ g/mol) menyumbangkan satu elekt
 :::
 
 ::: {.contoh}
-**Contoh 9.c15 · Mengisi kulit dengan asas Pauli**
+**Contoh 9.15 · Mengisi kulit dengan asas Pauli**
 
 (a) Daftarkan keempat bilangan kuantum semua elektron yang dapat menempati kulit $n = 2$. (b) Berapa elektron yang dapat mempunyai $n = 3$ dan $m_\ell = +1$? (c) Berapa elektron dalam atom yang dapat mempunyai $n = 4$, $\ell = 3$, $m_s = -\tfrac12$?
 

@@ -5,7 +5,7 @@
 Metode Hartree–Fock memberi energi total atom dengan galat kurang dari 1%: untuk neon, $-128{,}547\ E_h$ terhadap nilai eksak $-128{,}938\ E_h$. Tetapi galat 0,3% itu sebesar $0{,}39\ E_h$, sekitar 1000 kJ/mol, lebih besar daripada energi hampir semua ikatan kimia. Selisih ini mempunyai nama khusus. **Energi korelasi** didefinisikan (Löwdin, 1955) sebagai
 
 $$
-E_\text{kor} = E_\text{eksak} - E_\text{HF} , \qquad \text{(9.e33)}
+E_\text{kor} = E_\text{eksak} - E_\text{HF} , \qquad \text{(9.33)}
 $$
 
 dengan $E_\text{eksak}$ energi nonrelativistik eksak dan $E_\text{HF}$ batas Hartree–Fock (basis lengkap). Karena HF adalah metode variasi, $E_\text{kor}$ selalu negatif.
@@ -23,9 +23,9 @@ Energi korelasi atom ringan (selisih nilai eksak dan batas HF):
 | $-E_\text{kor}$ (m$E_h$) | 42,0 | 45,3 | 94,3 | 124,9 | 156,4 | 188,3 | 257,9 | 324,6 | 390,5 |
 | $-E_\text{kor}$ (eV) | 1,14 | 1,23 | 2,57 | 3,40 | 4,26 | 5,12 | 7,02 | 8,83 | 10,63 |
 
-Pola-polanya bermakna. Litium hampir sama dengan helium: elektron 2s yang jauh hampir tidak berkorelasi dengan pasangan 1s. Berilium melonjak dua kali lipat: pasangan 2s² berkorelasi kuat (lihat korelasi statis di bawah). Dari B ke N, setiap elektron 2p baru berspin sejajar dengan yang lain (aturan Hund) dan hanya menambah sekitar $0{,}03\ E_h$. Pada O, F, dan Ne, elektron 2p mulai berpasangan dengan spin berlawanan di orbital yang sama, dan setiap pasangan baru menambah sekitar $0{,}07\ E_h$. Secara kasar, setiap pasangan elektron berspin berlawanan dalam orbital yang sama menyumbang 1–2 eV energi korelasi (Gambar 9.g4).
+Pola-polanya bermakna. Litium hampir sama dengan helium: elektron 2s yang jauh hampir tidak berkorelasi dengan pasangan 1s. Berilium melonjak dua kali lipat: pasangan 2s² berkorelasi kuat (lihat korelasi statis di bawah). Dari B ke N, setiap elektron 2p baru berspin sejajar dengan yang lain (aturan Hund) dan hanya menambah sekitar $0{,}03\ E_h$. Pada O, F, dan Ne, elektron 2p mulai berpasangan dengan spin berlawanan di orbital yang sama, dan setiap pasangan baru menambah sekitar $0{,}07\ E_h$. Secara kasar, setiap pasangan elektron berspin berlawanan dalam orbital yang sama menyumbang 1–2 eV energi korelasi (Gambar 9.5).
 
-![Gambar 9.g4 Energi korelasi atom He sampai Ne (nilai mutlak), terhadap jumlah elektron. Lonjakan pada Be (pasangan 2s² dengan korelasi statis) dan kenaikan tajam dari N ke Ne (elektron 2p mulai berpasangan) menunjukkan bahwa korelasi didominasi pasangan elektron berspin berlawanan.](fig/c_korelasi.png){width=72%}
+![Gambar 9.5 Energi korelasi atom He sampai Ne (nilai mutlak), terhadap jumlah elektron. Lonjakan pada Be (pasangan 2s² dengan korelasi statis) dan kenaikan tajam dari N ke Ne (elektron 2p mulai berpasangan) menunjukkan bahwa korelasi didominasi pasangan elektron berspin berlawanan.](fig/c_korelasi.png){width=72%}
 
 ### Korelasi dinamis dan korelasi statis
 
@@ -33,14 +33,14 @@ Kimiawan membedakan dua jenis korelasi.
 
 **Korelasi dinamis** adalah penghindaran sesaat jarak pendek antara elektron-elektron, yang selalu ada. Ia berkaitan dengan bentuk fungsi gelombang di dekat $r_{12} = 0$: fungsi gelombang eksak mempunyai "puncak lancip" (*cusp*) ketika dua elektron bertemu, dengan kemiringan $\partial\Psi/\partial r_{12} = \tfrac12\Psi$ (syarat cusp Kato), sama seperti cusp elektron–inti yang membuat orbital 1s lancip di inti. Fungsi yang disusun dari orbital-orbital mulus tidak mempunyai cusp ini, sehingga diperlukan sangat banyak determinan untuk menirunya. Itulah sebabnya perhitungan korelasi konvergen lambat terhadap ukuran basis, dan mengapa metode modern "berkorelasi eksplisit" memasukkan $r_{12}$ langsung ke fungsi gelombang, kembali ke gagasan Hylleraas 1929 (Contoh 8.16).
 
-**Korelasi statis** (atau nondinamis) muncul bila dua atau lebih konfigurasi hampir sama energinya, sehingga satu determinan bukan lagi gambaran yang baik bahkan secara kualitatif. Contoh klasik: berilium, yang orbital 2s dan 2p-nya dekat, sehingga konfigurasi $1s^22p^2$ bercampur kuat dengan $1s^22s^2$ (Contoh 9.c32); molekul yang ikatannya diregangkan menuju disosiasi (Contoh 9.c33); diradikal; dan banyak senyawa logam transisi. Untuk sistem-sistem ini diperlukan fungsi gelombang multikonfigurasi sejak awal.
+**Korelasi statis** (atau nondinamis) muncul bila dua atau lebih konfigurasi hampir sama energinya, sehingga satu determinan bukan lagi gambaran yang baik bahkan secara kualitatif. Contoh klasik: berilium, yang orbital 2s dan 2p-nya dekat, sehingga konfigurasi $1s^22p^2$ bercampur kuat dengan $1s^22s^2$ (Contoh 9.32); molekul yang ikatannya diregangkan menuju disosiasi (Contoh 9.33); diradikal; dan banyak senyawa logam transisi. Untuk sistem-sistem ini diperlukan fungsi gelombang multikonfigurasi sejak awal.
 
 ### Melampaui Hartree–Fock
 
 Semua metode korelasi memperluas fungsi gelombang HF dengan determinan-determinan lain yang diperoleh dengan memindahkan elektron dari orbital terisi ke orbital kosong ("tereksitasi"):
 
 $$
-\Psi = c_0\Phi_\text{HF} + \sum_{i,a}c_i^a\Phi_i^a + \sum_{i<j,\,a<b}c_{ij}^{ab}\Phi_{ij}^{ab} + \cdots \qquad \text{(9.e34)}
+\Psi = c_0\Phi_\text{HF} + \sum_{i,a}c_i^a\Phi_i^a + \sum_{i<j,\,a<b}c_{ij}^{ab}\Phi_{ij}^{ab} + \cdots \qquad \text{(9.34)}
 $$
 
 Bila koefisiennya ditentukan dengan metode variasi linear (subbab 8.4), metodenya disebut **interaksi konfigurasi** (CI); bila semua determinan yang mungkin dalam suatu basis disertakan, hasilnya **CI penuh**, penyelesaian eksak dalam basis itu. Teori perturbasi Møller–Plesset (MP2, kotak di subbab 8.8) dan metode *coupled cluster* adalah cara lain menentukan koefisien yang sama, dan teori fungsional kerapatan mencoba memasukkan korelasi melalui fungsional kerapatan (Bab 17). Teorema Brillouin (subbab 9.14) menunjukkan bahwa eksitasi tunggal $\Phi_i^a$ tidak bercampur langsung dengan $\Phi_\text{HF}$; sumbangan utama berasal dari eksitasi **ganda**, yaitu pasangan elektron yang bersama-sama "menghindar" ke orbital kosong.
@@ -52,7 +52,7 @@ $E_\text{kor} = E_\text{eksak} - E_\text{HF} < 0$. Ia berasal dari penghindaran 
 :::
 
 ::: {.contoh}
-**Contoh 9.c30 · Lubang Coulomb dalam angka**
+**Contoh 9.30 · Lubang Coulomb dalam angka**
 
 Untuk helium, nilai rata-rata tolakan antarelektron adalah $1{,}0258\ E_h$ dalam fungsi HF dan $0{,}9458\ E_h$ dalam fungsi eksak. Energinya $-2{,}86168$ (HF) dan $-2{,}90372\ E_h$ (eksak), dan keduanya memenuhi teorema virial ($\langle T\rangle = -E$, $\langle V\rangle = 2E$). (a) Hitung perubahan $\langle T\rangle$, $\langle V_{ee}\rangle$, dan $\langle V_{ne}\rangle$ dari HF ke eksak. (b) Tafsirkan.
 
@@ -64,7 +64,7 @@ Untuk helium, nilai rata-rata tolakan antarelektron adalah $1{,}0258\ E_h$ dalam
 :::
 
 ::: {.contoh}
-**Contoh 9.c31 · Korelasi dan energi ikatan**
+**Contoh 9.31 · Korelasi dan energi ikatan**
 
 Energi korelasi neon $-0{,}391\ E_h$ dan atom fluor $-0{,}325\ E_h$. (a) Nyatakan dalam kJ/mol dan bandingkan dengan energi ikatan F–F (158 kJ/mol). (b) Metode HF meramalkan bahwa molekul F₂ **tidak** terikat ($D_e \approx -1{,}4$ eV), padahal nilai terukurnya $+1{,}66$ eV. Apa artinya?
 
@@ -76,7 +76,7 @@ Energi korelasi neon $-0{,}391\ E_h$ dan atom fluor $-0{,}325\ E_h$. (a) Nyataka
 :::
 
 ::: {.contoh}
-**Contoh 9.c32 · Berilium: korelasi statis**
+**Contoh 9.32 · Berilium: korelasi statis**
 
 Pada berilium, selisih energi orbital 2s dan 2p kecil, sehingga konfigurasi $1s^22p^2$ ($^1$S) bercampur dengan $1s^22s^2$. Energi HF berilium $-14{,}5730\ E_h$, fungsi dua konfigurasi yang dioptimumkan (MCSCF) memberi $-14{,}6169\ E_h$, dan energi eksak $-14{,}6674\ E_h$. (a) Berapa bagian energi korelasi yang ditangkap oleh satu konfigurasi tambahan? (b) Bandingkan dengan neon, yang energi korelasinya empat kali lebih besar tetapi dengan fungsi dua konfigurasi hanya memperoleh sebagian kecil.
 
@@ -88,7 +88,7 @@ Pada berilium, selisih energi orbital 2s dan 2p kecil, sehingga konfigurasi $1s^
 :::
 
 ::: {.contoh}
-**Contoh 9.c33 · Disosiasi H₂ dalam satu determinan**
+**Contoh 9.33 · Disosiasi H₂ dalam satu determinan**
 
 Dalam metode HF terbatas (RHF), kedua elektron H₂ menempati orbital ikatan $\sigma_g = (a + b)/\sqrt2$, dengan $a$ dan $b$ orbital 1s pada kedua inti. Pada jarak sangat jauh, fungsi ruangnya $\sigma_g(1)\sigma_g(2) = \tfrac12[a_1a_2 + b_1b_2] + \tfrac12[a_1b_2 + b_1a_2]$. (a) Tafsirkan kedua bagian. (b) Hitung energi RHF pada jarak tak hingga, dengan energi H⁻ "beku" (dua elektron di 1s hidrogen) $-1 + \tfrac58 = -0{,}375\ E_h$. (c) Bandingkan dengan energi dua atom H yang benar.
 

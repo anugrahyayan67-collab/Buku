@@ -51,7 +51,7 @@ Di subbab 6.1 kita melihat bahwa partikel bermuatan yang mempunyai momentum sudu
 Dalam medan magnet **seragam**, momen magnet hanya mengalami torsi dan berpresesi; tidak ada gaya bersih. Dalam medan yang **tidak seragam**, misalnya medan yang makin kuat ke arah $z$, energi $U = -\boldsymbol\mu\cdot\mathbf B$ bergantung pada posisi, dan ada gaya
 
 $$
-F_z = -\frac{\partial U}{\partial z} = \mu_z\frac{\partial B_z}{\partial z} . \qquad \text{(9.e1)}
+F_z = -\frac{\partial U}{\partial z} = \mu_z\frac{\partial B_z}{\partial z} . \qquad \text{(9.1)}
 $$
 
 Atom yang $\mu_z$-nya positif didorong ke arah medan kuat, yang negatif ke arah medan lemah. Seberkas atom yang melewati magnet semacam ini karena itu dipilah menurut $\mu_z$.
@@ -62,6 +62,8 @@ Otto Stern dan Walther Gerlach (1922) menguapkan perak dalam tungku, membentuk b
 
 Yang teramati adalah **dua** jejak, satu di atas dan satu di bawah, tanpa apa pun di tengah. Ini mengejutkan dari dua sisi. Kuantisasi ruang ternyata nyata (bukan pita malar), tetapi jumlah komponennya genap, yang tidak mungkin untuk momentum sudut orbital. Dari besar simpangannya, $\mu_z$ ternyata sama dengan $\pm\mu_B$ (dalam batas ketelitian).
 
+![Gambar 9.1 Percobaan Stern–Gerlach. Kiri: skema; atom perak dari tungku dibentuk menjadi berkas sempit, melewati medan magnet yang sangat tak seragam, lalu mengenai pelat. Kanan: sebaran jejak di pelat sepanjang $z$. Fisika klasik meramalkan pita malar (garis putus-putus); yang teramati adalah dua jejak terpisah, tanpa atom di tengah.](fig/c_sterngerlach.png){width=92%}
+
 Atom perak mempunyai 47 elektron. Empat puluh enam di antaranya membentuk kulit-kulit penuh dengan momentum sudut total nol; elektron ke-47 menempati orbital 5s, dengan $\ell = 0$. Jadi atom perak **tidak** mempunyai momentum sudut orbital, dan seharusnya tidak dibelokkan sama sekali. Percobaan yang sama dengan atom hidrogen dalam keadaan dasar (Phipps dan Taylor, 1927), yang elektronnya pasti di 1s, juga menghasilkan dua jejak.
 
 ### Hipotesis spin
@@ -69,7 +71,7 @@ Atom perak mempunyai 47 elektron. Empat puluh enam di antaranya membentuk kulit-
 Pada tahun 1925, Uhlenbeck dan Goudsmit, untuk menjelaskan struktur kembar garis-garis spektrum logam alkali (subbab 9.13), mengusulkan bahwa elektron mempunyai momentum sudut intrinsik, **spin**, dengan bilangan kuantum $s = \tfrac12$. Menurut aljabar momentum sudut umum (subbab 6.7), nilai setengah bulat diizinkan bila momentum sudut tidak berasal dari fungsi ruang yang bernilai tunggal. Untuk $s = \tfrac12$:
 
 $$
-|\mathbf S| = \sqrt{s(s + 1)}\,\hbar = \frac{\sqrt3}{2}\hbar , \qquad S_z = m_s\hbar , \quad m_s = \pm\tfrac12 . \qquad \text{(9.e2)}
+|\mathbf S| = \sqrt{s(s + 1)}\,\hbar = \frac{\sqrt3}{2}\hbar , \qquad S_z = m_s\hbar , \quad m_s = \pm\tfrac12 . \qquad \text{(9.2)}
 $$
 
 Hanya ada $2s + 1 = 2$ orientasi: inilah dua jejak Stern–Gerlach. Keadaan $m_s = +\tfrac12$ disebut "spin ke atas" (lambang $\alpha$ atau $\uparrow$) dan $m_s = -\tfrac12$ "spin ke bawah" ($\beta$ atau $\downarrow$).
@@ -77,7 +79,7 @@ Hanya ada $2s + 1 = 2$ orientasi: inilah dua jejak Stern–Gerlach. Keadaan $m_s
 Momen magnet spin ternyata **dua kali** lebih besar daripada yang diharapkan dari perbandingan $e/2m_e$ untuk momentum sudut orbital:
 
 $$
-\boldsymbol\mu_s = -g_e\frac{e}{2m_e}\mathbf S = -g_e\mu_B\frac{\mathbf S}{\hbar} , \qquad g_e = 2{,}002\,319 . \qquad \text{(9.e3)}
+\boldsymbol\mu_s = -g_e\frac{e}{2m_e}\mathbf S = -g_e\mu_B\frac{\mathbf S}{\hbar} , \qquad g_e = 2{,}002\,319 . \qquad \text{(9.3)}
 $$
 
 Faktor $g_e \approx 2$ muncul secara alami dari persamaan Dirac (1928), versi relativistik persamaan Schrödinger untuk elektron, yang juga menghasilkan spin $\tfrac12$ tanpa perlu dipostulatkan. Selisih kecil dari 2 berasal dari elektrodinamika kuantum dan termasuk besaran yang paling teliti diukur dan dihitung dalam seluruh fisika. Dengan $g_e \approx 2$ dan $S_z = \pm\tfrac12\hbar$, $\mu_z = \mp\mu_B$, sesuai pengamatan Stern dan Gerlach.
@@ -99,7 +101,7 @@ $$
 "Integral" atas koordinat spin adalah penjumlahan atas kedua nilainya, sehingga $\langle\alpha|\alpha\rangle = \langle\beta|\beta\rangle = 1$ dan $\langle\alpha|\beta\rangle = 0$. Bila Hamiltonian tidak memuat spin (pendekatan yang sangat baik untuk atom ringan), fungsi gelombang satu elektron dapat ditulis sebagai hasil kali fungsi ruang dan fungsi spin,
 
 $$
-\chi(\mathbf r, \omega) = \psi(\mathbf r)\,\sigma(\omega) , \qquad \sigma = \alpha\ \text{atau}\ \beta , \qquad \text{(9.e4)}
+\chi(\mathbf r, \omega) = \psi(\mathbf r)\,\sigma(\omega) , \qquad \sigma = \alpha\ \text{atau}\ \beta , \qquad \text{(9.4)}
 $$
 
 yang disebut **spin-orbital**. Setiap orbital ruang $\psi$ melahirkan dua spin-orbital, $\psi\alpha$ dan $\psi\beta$. Inilah sebabnya jumlah keadaan atom hidrogen pada kulit $n$ adalah $2n^2$, bukan $n^2$.
@@ -111,7 +113,7 @@ $s = \tfrac12$, $|\mathbf S| = \tfrac{\sqrt3}{2}\hbar$, $S_z = \pm\tfrac12\hbar$
 :::
 
 ::: {.contoh}
-**Contoh 9.c1 · Simpangan berkas perak**
+**Contoh 9.1 · Simpangan berkas perak**
 
 Atom perak ($M = 107{,}87$ g/mol) keluar dari tungku dengan kelajuan khas 550 m/s dan melewati magnet sepanjang 3,5 cm dengan gradien medan $1{,}0 \times 10^3$ T/m. Hitung percepatan atom dengan $\mu_z = \pm\mu_B$ dan simpangannya di ujung magnet.
 
@@ -121,7 +123,7 @@ Atom perak ($M = 107{,}87$ g/mol) keluar dari tungku dengan kelajuan khas 550 m/
 :::
 
 ::: {.contoh}
-**Contoh 9.c2 · Sudut vektor spin**
+**Contoh 9.2 · Sudut vektor spin**
 
 (a) Hitung besar momentum sudut spin dalam satuan $\hbar$. (b) Dalam model vektor (subbab 6.6), berapa sudut antara $\mathbf S$ dan sumbu $z$ untuk $m_s = +\tfrac12$? (c) Berapa $\langle S_x^2\rangle$ dalam keadaan $\alpha$?
 
@@ -131,7 +133,7 @@ Atom perak ($M = 107{,}87$ g/mol) keluar dari tungku dengan kelajuan khas 550 m/
 :::
 
 ::: {.contoh}
-**Contoh 9.c3 · Resonansi spin elektron**
+**Contoh 9.3 · Resonansi spin elektron**
 
 Dalam medan $B$, dua orientasi spin elektron bebas mempunyai energi $\pm\tfrac12g_e\mu_BB$. (a) Hitung frekuensi foton yang menyebabkan transisi untuk $B = 0{,}35$ T (spektrometer ESR pita X) dan 1,0 T. (b) Pada 298 K dan 1,0 T, berapa perbandingan populasi kedua tingkat?
 
@@ -155,43 +157,43 @@ Dalam medan $B$, dua orientasi spin elektron bebas mempunyai energi $\pm\tfrac12
 Spin tidak mempunyai fungsi ruang, sehingga operatornya tidak dapat ditulis sebagai turunan seperti $\hat L_z = -i\hbar\,\partial/\partial\phi$. Sebagai gantinya, kita **mempostulatkan** bahwa operator spin $\hat S_x$, $\hat S_y$, $\hat S_z$ adalah operator Hermitian yang memenuhi komutator momentum sudut yang sama dengan $\hat L$ (subbab 6.2):
 
 $$
-[\hat S_x, \hat S_y] = i\hbar\hat S_z , \qquad [\hat S_y, \hat S_z] = i\hbar\hat S_x , \qquad [\hat S_z, \hat S_x] = i\hbar\hat S_y . \qquad \text{(9.e5)}
+[\hat S_x, \hat S_y] = i\hbar\hat S_z , \qquad [\hat S_y, \hat S_z] = i\hbar\hat S_x , \qquad [\hat S_z, \hat S_x] = i\hbar\hat S_y . \qquad \text{(9.5)}
 $$
 
 Semua hasil aljabar operator tangga di subbab 6.7 kemudian berlaku tanpa perubahan: $\hat S^2$ komut dengan setiap komponen, nilai eigen $\hat S^2$ adalah $s(s + 1)\hbar^2$, nilai eigen $\hat S_z$ adalah $m_s\hbar$, dan operator tangga $\hat S_\pm = \hat S_x \pm i\hat S_y$ menaikkan atau menurunkan $m_s$ satu satuan. Untuk elektron, $s = \tfrac12$:
 
 $$
-\hat S^2\alpha = \tfrac34\hbar^2\alpha , \quad \hat S_z\alpha = \tfrac12\hbar\alpha , \qquad \hat S^2\beta = \tfrac34\hbar^2\beta , \quad \hat S_z\beta = -\tfrac12\hbar\beta , \qquad \text{(9.e6)}
+\hat S^2\alpha = \tfrac34\hbar^2\alpha , \quad \hat S_z\alpha = \tfrac12\hbar\alpha , \qquad \hat S^2\beta = \tfrac34\hbar^2\beta , \quad \hat S_z\beta = -\tfrac12\hbar\beta , \qquad \text{(9.6)}
 $$
 
 dan dari rumus $\hat S_\pm|s, m\rangle = \hbar\sqrt{s(s + 1) - m(m \pm 1)}\,|s, m \pm 1\rangle$:
 
 $$
-\hat S_+\beta = \hbar\alpha , \quad \hat S_+\alpha = 0 , \qquad \hat S_-\alpha = \hbar\beta , \quad \hat S_-\beta = 0 . \qquad \text{(9.e7)}
+\hat S_+\beta = \hbar\alpha , \quad \hat S_+\alpha = 0 , \qquad \hat S_-\alpha = \hbar\beta , \quad \hat S_-\beta = 0 . \qquad \text{(9.7)}
 $$
 
 ### Matriks Pauli
 
-Karena hanya ada dua keadaan, setiap operator spin dapat dinyatakan sebagai matriks 2 × 2 dalam basis $\{\alpha, \beta\}$ (subbab 4.14). Tulislah $\alpha = \begin{pmatrix}1\\0\end{pmatrix}$ dan $\beta = \begin{pmatrix}0\\1\end{pmatrix}$. Dari (9.e6), $\hat S_z$ diagonal dengan unsur $\pm\tfrac12\hbar$. Dari (9.e7), $\hat S_+$ hanya mempunyai unsur $\langle\alpha|\hat S_+|\beta\rangle = \hbar$, dan $\hat S_-$ hanya $\langle\beta|\hat S_-|\alpha\rangle = \hbar$. Dengan $\hat S_x = \tfrac12(\hat S_+ + \hat S_-)$ dan $\hat S_y = \tfrac{1}{2i}(\hat S_+ - \hat S_-)$:
+Karena hanya ada dua keadaan, setiap operator spin dapat dinyatakan sebagai matriks 2 × 2 dalam basis $\{\alpha, \beta\}$ (subbab 4.14). Tulislah $\alpha = \begin{pmatrix}1\\0\end{pmatrix}$ dan $\beta = \begin{pmatrix}0\\1\end{pmatrix}$. Dari (9.6), $\hat S_z$ diagonal dengan unsur $\pm\tfrac12\hbar$. Dari (9.7), $\hat S_+$ hanya mempunyai unsur $\langle\alpha|\hat S_+|\beta\rangle = \hbar$, dan $\hat S_-$ hanya $\langle\beta|\hat S_-|\alpha\rangle = \hbar$. Dengan $\hat S_x = \tfrac12(\hat S_+ + \hat S_-)$ dan $\hat S_y = \tfrac{1}{2i}(\hat S_+ - \hat S_-)$:
 
 $$
-\hat S_x = \frac\hbar2\begin{pmatrix}0 & 1\\ 1 & 0\end{pmatrix} , \qquad \hat S_y = \frac\hbar2\begin{pmatrix}0 & -i\\ i & 0\end{pmatrix} , \qquad \hat S_z = \frac\hbar2\begin{pmatrix}1 & 0\\ 0 & -1\end{pmatrix} . \qquad \text{(9.e8)}
+\hat S_x = \frac\hbar2\begin{pmatrix}0 & 1\\ 1 & 0\end{pmatrix} , \qquad \hat S_y = \frac\hbar2\begin{pmatrix}0 & -i\\ i & 0\end{pmatrix} , \qquad \hat S_z = \frac\hbar2\begin{pmatrix}1 & 0\\ 0 & -1\end{pmatrix} . \qquad \text{(9.8)}
 $$
 
 Matriks-matriks tanpa faktor $\hbar/2$ disebut **matriks Pauli** $\sigma_x$, $\sigma_y$, $\sigma_z$, sehingga $\hat{\mathbf S} = \tfrac\hbar2\boldsymbol\sigma$. Kita sudah bertemu dengan mereka di Contoh 2.30. Sifat-sifat pentingnya, yang dapat diperiksa dengan perkalian langsung:
 
 $$
-\sigma_x^2 = \sigma_y^2 = \sigma_z^2 = \mathbf 1 , \qquad \sigma_x\sigma_y = i\sigma_z \ (\text{dan siklis}) , \qquad \sigma_x\sigma_y + \sigma_y\sigma_x = 0 . \qquad \text{(9.e9)}
+\sigma_x^2 = \sigma_y^2 = \sigma_z^2 = \mathbf 1 , \qquad \sigma_x\sigma_y = i\sigma_z \ (\text{dan siklis}) , \qquad \sigma_x\sigma_y + \sigma_y\sigma_x = 0 . \qquad \text{(9.9)}
 $$
 
-Sifat pertama berarti setiap komponen spin, bila diukur, hanya dapat memberi $\pm\tfrac12\hbar$, dan kuadratnya selalu $\tfrac14\hbar^2$. Dari sifat itu pula $\hat S^2 = \tfrac{\hbar^2}{4}(\sigma_x^2 + \sigma_y^2 + \sigma_z^2) = \tfrac34\hbar^2\mathbf 1$, sesuai (9.e6).
+Sifat pertama berarti setiap komponen spin, bila diukur, hanya dapat memberi $\pm\tfrac12\hbar$, dan kuadratnya selalu $\tfrac14\hbar^2$. Dari sifat itu pula $\hat S^2 = \tfrac{\hbar^2}{4}(\sigma_x^2 + \sigma_y^2 + \sigma_z^2) = \tfrac34\hbar^2\mathbf 1$, sesuai (9.6).
 
 ### Keadaan spin sembarang
 
 Keadaan spin paling umum adalah superposisi $\chi = c_1\alpha + c_2\beta$ dengan $|c_1|^2 + |c_2|^2 = 1$. Pengukuran $S_z$ memberi $+\tfrac12\hbar$ dengan peluang $|c_1|^2$ dan $-\tfrac12\hbar$ dengan peluang $|c_2|^2$. Setiap keadaan seperti itu ternyata adalah keadaan "spin ke atas" sepanjang suatu arah tertentu. Bila arah itu ditandai sudut kutub $\theta$ dan sudut azimut $\phi$, vektor eigen operator $\hat S_n = \hat{\mathbf S}\cdot\mathbf n$ dengan nilai eigen $+\tfrac12\hbar$ adalah
 
 $$
-\chi_{\mathbf n} = \cos\frac\theta2\,\alpha + e^{i\phi}\sin\frac\theta2\,\beta . \qquad \text{(9.e10)}
+\chi_{\mathbf n} = \cos\frac\theta2\,\alpha + e^{i\phi}\sin\frac\theta2\,\beta . \qquad \text{(9.10)}
 $$
 
 Perhatikan munculnya **setengah** sudut. Untuk $\theta = 0$, $\chi = \alpha$; untuk $\theta = \pi$ (arah $-z$), $\chi = e^{i\phi}\beta$; untuk $\theta = \pi/2$, $\phi = 0$ (arah $+x$), $\chi = (\alpha + \beta)/\sqrt2$. Setiap keadaan spin $\tfrac12$ dapat digambarkan sebagai satu titik pada bola satuan (**bola Bloch**), dan sebaliknya.
@@ -201,19 +203,19 @@ Perhatikan munculnya **setengah** sudut. Untuk $\theta = 0$, $\chi = \alpha$; un
 Dalam medan $\mathbf B = B\hat{\mathbf z}$, Hamiltonian spin elektron adalah
 
 $$
-\hat H = -\hat{\boldsymbol\mu}_s\cdot\mathbf B = \frac{g_e\mu_BB}{\hbar}\hat S_z = \frac{\hbar\omega_L}{2}\sigma_z , \qquad \omega_L = \frac{g_e\mu_BB}{\hbar} . \qquad \text{(9.e11)}
+\hat H = -\hat{\boldsymbol\mu}_s\cdot\mathbf B = \frac{g_e\mu_BB}{\hbar}\hat S_z = \frac{\hbar\omega_L}{2}\sigma_z , \qquad \omega_L = \frac{g_e\mu_BB}{\hbar} . \qquad \text{(9.11)}
 $$
 
-Bila spin mula-mula mengarah ke $+x$, $\chi(0) = (\alpha + \beta)/\sqrt2$, setiap komponen berevolusi dengan faktor fasenya sendiri: $\chi(t) = (e^{-i\omega_Lt/2}\alpha + e^{i\omega_Lt/2}\beta)/\sqrt2$. Sampai faktor fase global, ini adalah (9.e10) dengan $\theta = \pi/2$ dan $\phi = \omega_Lt$: arah spin berputar mengelilingi medan dengan frekuensi sudut $\omega_L$, **presesi Larmor**, persis seperti gasing yang miring dalam medan gravitasi. Nilai harap $\langle S_x\rangle = \tfrac12\hbar\cos\omega_Lt$ berosilasi. Presesi ini adalah dasar NMR dan ESR: momen magnet yang berpresesi menginduksi arus berosilasi dalam kumparan detektor (Bab 16).
+Bila spin mula-mula mengarah ke $+x$, $\chi(0) = (\alpha + \beta)/\sqrt2$, setiap komponen berevolusi dengan faktor fasenya sendiri: $\chi(t) = (e^{-i\omega_Lt/2}\alpha + e^{i\omega_Lt/2}\beta)/\sqrt2$. Sampai faktor fase global, ini adalah (9.10) dengan $\theta = \pi/2$ dan $\phi = \omega_Lt$: arah spin berputar mengelilingi medan dengan frekuensi sudut $\omega_L$, **presesi Larmor**, persis seperti gasing yang miring dalam medan gravitasi. Nilai harap $\langle S_x\rangle = \tfrac12\hbar\cos\omega_Lt$ berosilasi. Presesi ini adalah dasar NMR dan ESR: momen magnet yang berpresesi menginduksi arus berosilasi dalam kumparan detektor (Bab 16).
 
 ::: {.dalam}
 **Lebih dalam: rotasi 360° mengubah tanda**
 
-Setelah satu putaran penuh presesi, $\omega_Lt = 2\pi$, fungsi spin menjadi $\chi(2\pi/\omega_L) = (e^{-i\pi}\alpha + e^{i\pi}\beta)/\sqrt2 = -\chi(0)$. Spin $\tfrac12$ yang diputar 360° tidak kembali ke dirinya sendiri, melainkan ke negatifnya; baru setelah 720° ia kembali utuh. Hal ini juga terlihat dari setengah sudut di (9.e10). Tanda minus ini tidak teramati bila hanya satu keadaan yang ada (fase global tidak bermakna), tetapi dapat teramati dalam interferensi. Pada tahun 1975 percobaan dengan interferometer neutron (neutron juga berspin $\tfrac12$) membuktikannya: berkas neutron yang spinnya diputar 360° dalam satu lengan interferometer berinterferensi destruktif dengan berkas di lengan lain. Inilah alasan matematis mengapa momentum sudut setengah bulat tidak dapat berasal dari fungsi ruang bernilai tunggal seperti $e^{im\phi}$ (subbab 6.7).
+Setelah satu putaran penuh presesi, $\omega_Lt = 2\pi$, fungsi spin menjadi $\chi(2\pi/\omega_L) = (e^{-i\pi}\alpha + e^{i\pi}\beta)/\sqrt2 = -\chi(0)$. Spin $\tfrac12$ yang diputar 360° tidak kembali ke dirinya sendiri, melainkan ke negatifnya; baru setelah 720° ia kembali utuh. Hal ini juga terlihat dari setengah sudut di (9.10). Tanda minus ini tidak teramati bila hanya satu keadaan yang ada (fase global tidak bermakna), tetapi dapat teramati dalam interferensi. Pada tahun 1975 percobaan dengan interferometer neutron (neutron juga berspin $\tfrac12$) membuktikannya: berkas neutron yang spinnya diputar 360° dalam satu lengan interferometer berinterferensi destruktif dengan berkas di lengan lain. Inilah alasan matematis mengapa momentum sudut setengah bulat tidak dapat berasal dari fungsi ruang bernilai tunggal seperti $e^{im\phi}$ (subbab 6.7).
 :::
 
 ::: {.contoh}
-**Contoh 9.c4 · Vektor eigen $\hat S_x$ dan pengukuran berurutan**
+**Contoh 9.4 · Vektor eigen $\hat S_x$ dan pengukuran berurutan**
 
 (a) Cari nilai eigen dan vektor eigen $\hat S_x$. (b) Elektron dalam keadaan $\alpha$. Berapa peluang pengukuran $S_x$ memberi $+\tfrac12\hbar$? (c) Setelah hasil itu diperoleh, $S_z$ diukur lagi. Berapa peluang memperoleh $-\tfrac12\hbar$?
 
@@ -227,21 +229,21 @@ Setelah satu putaran penuh presesi, $\omega_Lt = 2\pi$, fungsi spin menjadi $\ch
 :::
 
 ::: {.contoh}
-**Contoh 9.c5 · Nilai harap spin dalam arah sembarang**
+**Contoh 9.5 · Nilai harap spin dalam arah sembarang**
 
 Elektron berada dalam keadaan $\chi = \tfrac35\alpha + \tfrac45\beta$. (a) Hitung $\langle S_x\rangle$, $\langle S_y\rangle$, $\langle S_z\rangle$. (b) Ke arah mana spin "menunjuk"? (c) Tunjukkan bahwa panjang vektor nilai harap itu $\tfrac12\hbar$.
 
 **Penyelesaian.** (a) Dengan $\chi = (0{,}6;\ 0{,}8)$: $\langle\sigma_z\rangle = 0{,}36 - 0{,}64 = -0{,}28$; $\langle\sigma_x\rangle = 2(0{,}6)(0{,}8) = 0{,}96$; $\langle\sigma_y\rangle = 0$ (koefisien riil). Dikali $\hbar/2$: $\langle S_x\rangle = 0{,}48\hbar$, $\langle S_y\rangle = 0$, $\langle S_z\rangle = -0{,}14\hbar$.
 
-(b) Dari (9.e10), $\cos(\theta/2) = 0{,}6$, sehingga $\theta = 2\arccos0{,}6 = 106{,}3°$ dan $\phi = 0$: di bidang $xz$, sedikit di bawah sumbu $x$.
+(b) Dari (9.10), $\cos(\theta/2) = 0{,}6$, sehingga $\theta = 2\arccos0{,}6 = 106{,}3°$ dan $\phi = 0$: di bidang $xz$, sedikit di bawah sumbu $x$.
 
 (c) $\sqrt{0{,}48^2 + 0{,}14^2} = 0{,}50$.
 
-**Memahami hasil.** Vektor nilai harap $\langle\hat{\mathbf S}\rangle$ selalu mempunyai panjang $\tfrac12\hbar$ untuk keadaan murni, dan menunjuk ke arah $\mathbf n$ di (9.e10). Panjang ini lebih kecil daripada $|\mathbf S| = 0{,}866\hbar$: komponen tegak lurus terhadap $\mathbf n$ tetap berfluktuasi. Dalam NMR, magnetisasi sampel adalah jumlah vektor-vektor seperti ini dari sangat banyak inti, dan pulsa frekuensi radio memutarnya pada bola Bloch (Contoh 8.54).
+**Memahami hasil.** Vektor nilai harap $\langle\hat{\mathbf S}\rangle$ selalu mempunyai panjang $\tfrac12\hbar$ untuk keadaan murni, dan menunjuk ke arah $\mathbf n$ di (9.10). Panjang ini lebih kecil daripada $|\mathbf S| = 0{,}866\hbar$: komponen tegak lurus terhadap $\mathbf n$ tetap berfluktuasi. Dalam NMR, magnetisasi sampel adalah jumlah vektor-vektor seperti ini dari sangat banyak inti, dan pulsa frekuensi radio memutarnya pada bola Bloch (Contoh 8.54).
 :::
 
 ::: {.contoh}
-**Contoh 9.c6 · Presesi Larmor elektron dan proton**
+**Contoh 9.6 · Presesi Larmor elektron dan proton**
 
 (a) Hitung frekuensi Larmor elektron bebas dan proton (rasio giromagnet proton $\gamma_p/2\pi = 42{,}58$ MHz/T) dalam medan 1,0 T. (b) Berapa lama spin elektron berpresesi satu putaran? (c) Bila radikal organik dalam larutan berpresesi pada 9,81 GHz di medan 0,35 T, berapa faktor $g$-nya?
 

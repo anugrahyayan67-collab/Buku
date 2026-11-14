@@ -1,0 +1,259 @@
+## Subbab 9.1: Percobaan Stern–Gerlach dan spin
+
+> Pakai satuan atom bila tidak dinyatakan lain; $\mu_B = 9{,}274 \times 10^{-24}$ J/T $= 5{,}788 \times 10^{-5}$ eV/T, $g_e = 2{,}0023$. Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab.
+
+**Dasar**
+
+Hitung selisih energi kedua orientasi spin elektron bebas dalam medan 2,0 T (eV) dan frekuensi foton yang sesuai. ||| $2{,}32 \times 10^{-4}$ eV; 56,0 GHz
+Berapa jejak yang dihasilkan berkas atom dengan $J = \tfrac32$ dalam percobaan Stern–Gerlach? Dengan $J = 0$? ||| 4; 1 (tidak terbelokkan)
+Untuk spin total $S = 1$, hitung $|\mathbf S|$ dan sudut terhadap sumbu $z$ untuk $M_S = 1$ dan $M_S = 0$. ||| $\sqrt2\,\hbar$; 45° dan 90°
+
+**Menengah**
+
+Atom hidrogen dari tungku 1000 K (kelajuan akar rata-rata kuadrat) melewati magnet 3,5 cm dengan gradien $1{,}0 \times 10^3$ T/m. Hitung simpangannya. ||| $v = 4{,}97 \times 10^3$ m/s; $a = 5{,}54 \times 10^6$ m/s²; 0,14 mm
+Spektrometer ESR pita W bekerja pada 95 GHz. Berapa medan resonansi elektron bebas? ||| 3,39 T
+Hitung besar momen magnet spin elektron, $g_e\mu_B\sqrt{s(s+1)}$. Mengapa yang teramati dalam percobaan Stern–Gerlach adalah $\mu_B$? ||| $1{,}61 \times 10^{-23}$ J/T; yang terukur adalah komponen $z$, $\tfrac12g_e\mu_B \approx \mu_B$
+
+**Tantangan ★**
+
+★ Bohr dan Pauli berargumen bahwa spin elektron bebas tidak dapat dipisahkan dengan magnet Stern–Gerlach. Jelaskan secara kualitatif dengan gaya Lorentz dan asas ketidakpastian. ||| sebaran gaya Lorentz akibat ketidakpastian posisi dan kecepatan berkas melebihi pemisahan akibat momen spin
+
+## Subbab 9.2: Operator spin dan matriks Pauli
+
+**Dasar**
+
+Periksa dengan perkalian matriks bahwa $\sigma_x^2 = \mathbf 1$ dan $\sigma_x\sigma_y = i\sigma_z$. ||| langsung
+Cari nilai eigen dan vektor eigen ternormalisasi $\sigma_y$. ||| $\pm1$; $(1, \pm i)/\sqrt2$
+Hitung $\langle S_z\rangle$ dan $\langle S_x\rangle$ dalam keadaan $(\alpha + \beta)/\sqrt2$. ||| 0; $\tfrac12\hbar$
+
+**Menengah**
+
+Untuk $\chi = (\alpha + 2i\beta)/\sqrt5$, hitung peluang $S_z = +\tfrac12\hbar$ dan $\langle S_x\rangle$, $\langle S_y\rangle$, $\langle S_z\rangle$. ||| $\tfrac15$; $0$, $0{,}4\hbar$, $-0{,}3\hbar$ (panjang $0{,}5\hbar$)
+Berapa frekuensi dan periode presesi Larmor proton dalam magnet NMR 9,4 T ($\gamma/2\pi = 42{,}58$ MHz/T)? ||| 400,2 MHz; 2,50 ns
+Tunjukkan bahwa $[\sigma_x, \sigma_y] = 2i\sigma_z$ menghasilkan $[\hat S_x, \hat S_y] = i\hbar\hat S_z$. ||| kalikan dengan $(\hbar/2)^2$
+Tuliskan keadaan spin yang menunjuk ke arah $\theta = 60°$, $\phi = 0$, dan hitung peluang pengukuran $S_z$ memberi $+\tfrac12\hbar$. ||| $0{,}866\alpha + 0{,}5\beta$; 0,75
+
+**Tantangan ★**
+
+@rotasi [P] ★ Operator rotasi spin sekitar sumbu $z$ sebesar sudut $\varphi$ adalah $e^{-i\varphi\sigma_z/2}$. Tunjukkan bahwa $e^{-i\varphi\sigma_z/2} = \cos(\varphi/2)\mathbf 1 - i\sin(\varphi/2)\sigma_z$ dan bahwa rotasi $2\pi$ memberi $-\mathbf 1$. ||| deret pangkat dengan $\sigma_z^2 = \mathbf 1$; $\cos\pi = -1$, $\sin\pi = 0$
+
+## Subbab 9.3: Partikel identik dan teorema spin–statistik
+
+**Dasar**
+
+Fermion atau boson: inti ¹²C, ¹³C, ¹⁴N, ¹⁵N, ¹⁸O, dan foton? ||| boson, fermion, boson, fermion, boson, boson
+Berapa keadaan dua partikel yang mungkin pada empat keadaan satu partikel bila partikelnya dapat dibedakan, boson, dan fermion? ||| 16; 10; 6
+Tunjukkan bahwa $\hat P_{12}^2 = 1$ dan karena itu nilai eigen $\hat P_{12}$ hanya $\pm1$. ||| $\hat P_{12}^2f(1,2) = f(1,2)$; $\lambda^2 = 1$
+
+**Menengah**
+
+Dua partikel dalam kotak di $n = 1$ dan $n = 3$. Mengapa $\langle(x_1 - x_2)^2\rangle$ sama untuk ketiga jenis partikel? ||| $\langle x\rangle_{13} = 0$ karena paritas; suku pertukaran nol
+@kiri [P] Untuk dua partikel di $n = 1$ dan $n = 2$ dalam kotak, hitung peluang keduanya berada di separuh kiri kotak untuk partikel dapat dibedakan, boson, dan fermion. Pakai $\int_0^{L/2}\psi_1\psi_2\,dx = 4/3\pi$. ||| 0,250; 0,430; 0,070
+Mengapa atom ⁴He dan ³He mempunyai sifat kimia hampir sama tetapi sifat cairan pada suhu sangat rendah sangat berbeda? ||| kimia ditentukan oleh elektron (sama); statistik atom keseluruhan (boson/fermion) menentukan perilaku kolektif
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa untuk $N$ boson yang semuanya di keadaan $\psi$ fungsi gelombangnya hasil kali $\psi(1)\cdots\psi(N)$, dan bahwa tidak ada fungsi antisimetris yang serupa untuk fermion. ||| hasil kali simetris; antisimetrisasi fungsi dengan faktor sama menghasilkan nol
+
+## Subbab 9.4: Atom helium dan fungsi spin
+
+**Dasar**
+
+Berapa nilai eigen $\hat S^2$ untuk fungsi triplet dan singlet? ||| $2\hbar^2$; 0
+Tuliskan fungsi spin untuk komponen $M_S = -1$ suku $^3$P konfigurasi 1s2p helium. ||| $\beta(1)\beta(2)$
+Berapa keadaan (termasuk spin) konfigurasi 1s2p helium? Bagaimana terbagi antara $^1$P dan $^3$P? ||| 12; 3 dan 9
+
+**Menengah**
+
+Dengan (9.19), $J = 0{,}4198$ dan $K = 0{,}0439\ E_h$, hitung energi singlet dan triplet 1s2s relatif terhadap $E^{(0)}$. ||| $J + K = 0{,}4637$; $J - K = 0{,}3759\ E_h$
+Untuk kompleks Cu₂ dengan celah singlet–triplet 300 cm⁻¹, hitung fraksi triplet pada 150 K. ||| $k_BT = 104$ cm⁻¹; 0,14
+Tunjukkan bahwa $\alpha(1)\beta(2)$ adalah fungsi eigen $\hat S_z$ tetapi bukan fungsi eigen $\hat S^2$. ||| $\hat S_z$: $M_S = 0$; $\hat S^2\alpha\beta = \hbar^2(\alpha\beta + \beta\alpha)$
+
+**Tantangan ★**
+
+★ Tiga spin $\tfrac12$: berapa keadaan dengan $S = \tfrac32$ dan dengan $S = \tfrac12$? Periksa jumlahnya. ||| $S = \tfrac32$: 4; $S = \tfrac12$ (dua kali): 4; jumlah $8 = 2^3$
+
+## Subbab 9.5: Asas larangan Pauli
+
+**Dasar**
+
+Berapa elektron paling banyak di kulit $n = 4$ dan di subkulit 4f? ||| 32; 14
+Konfigurasi mana yang dilarang asas Pauli: $1s^22s^22p^7$, $1s^22s^3$, $1s^22p^2$? ||| dua yang pertama; yang ketiga keadaan tereksitasi yang sah
+Empat elektron dalam kotak satu dimensi: berapa energi keadaan dasar (satuan $E_1$)? Bila boson tanpa spin? ||| $10E_1$; $4E_1$
+
+**Menengah**
+
+Hitung energi Fermi dan kelajuan Fermi tembaga ($n = 8{,}49 \times 10^{28}$ m⁻³). ||| 7,04 eV; $1{,}57 \times 10^6$ m/s
+Berapa elektron argon yang mempunyai $m_\ell = 0$? ||| 10
+Sepuluh elektron dalam kotak kubus 1,0 nm. Hitung energi keadaan dasar (satuan $h^2/8m_eL^2 = 0{,}376$ eV). ||| $2(3) + 6(6) + 2(9) = 60$ satuan $= 22{,}6$ eV
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa energi rata-rata per elektron gas Fermi pada suhu nol adalah $\tfrac35E_F$, dan hitung untuk natrium. ||| rapat keadaan $\propto E^{1/2}$: $\int_0^{E_F}E^{3/2}dE/\int_0^{E_F}E^{1/2}dE = \tfrac35E_F$; 1,89 eV
+
+## Subbab 9.6: Determinan Slater
+
+**Dasar**
+
+Tuliskan determinan Slater keadaan dasar berilium dalam notasi ringkas. Berapa sukunya bila diuraikan? ||| $|1s\alpha\,1s\beta\,2s\alpha\,2s\beta|$; 24
+Tunjukkan bahwa $|1s\alpha\,1s\alpha| = 0$. ||| dua kolom sama
+Berapa faktor normalisasi determinan lima elektron? ||| $1/\sqrt{120}$
+
+**Menengah**
+
+Tunjukkan bahwa $|2s\alpha\,1s\alpha| = -|1s\alpha\,2s\alpha|$. ||| menukar dua kolom
+Kombinasi determinan mana dari konfigurasi 1s2p ($m_\ell = 0$) yang memberi komponen $M_S = 0$ suku $^3$P? ||| $(|1s\alpha\,2p_0\beta| + |1s\beta\,2p_0\alpha|)/\sqrt2$
+Uraikan $|1s\alpha\,2s\alpha|$ menjadi hasil kali fungsi ruang dan fungsi spin. ||| $\tfrac{1}{\sqrt2}[1s(1)2s(2) - 2s(1)1s(2)]\,\alpha(1)\alpha(2)$
+
+**Tantangan ★**
+
+★ Buktikan bahwa bila spin-orbital terisi diganti $\chi_i' = \sum_j\chi_jU_{ji}$ dengan $\mathbf U$ matriks uniter, determinan berubah hanya dengan faktor $\det\mathbf U$ ($|\det\mathbf U| = 1$). ||| matriks determinan baru $= \mathbf A\mathbf U$; $\det(\mathbf{AU}) = \det\mathbf A\det\mathbf U$
+
+## Subbab 9.7: Atom litium
+
+**Dasar**
+
+Tuliskan rumus energi determinan $|1s\alpha\,1s\beta\,2s\beta|$. ||| sama dengan (9.24)
+Dari energi ionisasi litium 5,392 eV, hitung muatan inti efektif elektron 2s dengan rumus mirip hidrogen. ||| $Z_\text{ef} = \sqrt{8 \times 0{,}1981} = 1{,}26$
+Nyatakan energi foton garis merah litium (670,8 nm) dalam kJ/mol. ||| 178 kJ/mol
+
+**Menengah**
+
+Dengan $\delta_s = 0{,}41$, ramalkan energi ikat elektron 3s litium (tereksitasi). Nilai terukur 2,02 eV. ||| $n^* = 2{,}59$: 2,03 eV
+@liion Dengan $E(\text{Li}) = -7{,}4179$ dan $E(\text{Li}^+) = -7{,}2227\ E_h$ (keduanya variasi), hitung energi ionisasi litium. ||| 5,31 eV (terukur 5,39)
+Mengapa integral pertukaran $K_{1s2s}$ litium (0,0125 $E_h$) jauh lebih kecil daripada $J_{1s2s}$ (0,318 $E_h$)? ||| kerapatan tumpang tindih $1s\cdot2s$ kecil karena kedua orbital menempati daerah berbeda
+
+**Tantangan ★**
+
+@lianion [P] ★ Ion Li⁻ ($1s^22s^2$) terikat dengan afinitas elektron 0,62 eV. Mengapa elektron tambahan dapat diikat oleh atom netral, dan mengapa ikatannya lemah? ||| perisai 2s oleh 2s tidak sempurna ($\sigma \approx 0{,}35$), sehingga elektron kedua merasakan muatan efektif sedikit positif; korelasi pasangan 2s² penting
+
+## Subbab 9.8: Metode Hartree–Fock untuk atom
+
+**Dasar**
+
+Energi orbital HF 2s berilium $-0{,}3093\ E_h$. Hitung energi ionisasi Koopmans dan bandingkan dengan 9,32 eV. ||| 8,42 eV
+Energi orbital HF 3p argon $-0{,}5910\ E_h$. Bandingkan $-\varepsilon$ dengan 15,76 eV. ||| 16,08 eV
+Tunjukkan bahwa $J_{ii} = K_{ii}$ sehingga swa-interaksi hilang dalam (9.25). ||| definisi (9.43) dengan $a = b$
+
+**Menengah**
+
+Tuliskan energi HF berilium dengan integral $h$, $J$, dan $K$ orbital 1s dan 2s. ||| $2h_{1s} + 2h_{2s} + J_{1s1s} + J_{2s2s} + 4J_{1s2s} - 2K_{1s2s}$
+Tuliskan $\varepsilon_{2s}$ berilium dengan integral yang sama. ||| $h_{2s} + J_{2s2s} + 2J_{1s2s} - K_{1s2s}$
+Berapa energi relaksasi untuk ionisasi 1s neon menurut Contoh 9.25? ||| sekitar 21,5 eV
+Mengapa metode Hartree (tanpa antisimetri) dan Hartree–Fock memberi energi yang sama untuk keadaan dasar helium? ||| hanya ada pasangan berspin berlawanan; tidak ada pertukaran
+
+**Tantangan ★**
+
+@koop [P] ★ Turunkan $E = \sum_i(\varepsilon_i + h_i)$ untuk kulit tertutup dari (9.26) dan (9.29), dan teorema Koopmans $I_k = -\varepsilon_k$ dengan orbital beku. ||| $\sum_i\varepsilon_i = \sum_ih_i + \sum_{ij}(2J - K)$; selisih energi determinan dengan dan tanpa satu elektron di $k$
+
+## Subbab 9.9: Orbital dan tabel periodik
+
+**Dasar**
+
+Tuliskan konfigurasi Ni, Ni²⁺, Zn²⁺, Cu⁺, dan Cr³⁺. ||| $[\text{Ar}]3d^84s^2$; $3d^8$; $3d^{10}$; $3d^{10}$; $3d^3$
+Dengan aturan Slater, hitung $Z_\text{ef}$ elektron 2p oksigen dan 3p klor. ||| 4,55; 6,10
+Menurut aturan Madelung, mana yang terisi lebih dulu: 5s atau 4d? 6s atau 4f? ||| 5s; 6s
+
+**Menengah**
+
+Hitung $Z_\text{ef}$ Slater untuk elektron 4s dan 3d seng. Apa artinya? ||| 4,35 dan 8,85; 3d jauh lebih tertarik ke inti, menjadi bagian teras
+Dengan $\delta_s = 1{,}373$ natrium, ramalkan energi ikat elektron 4s natrium (terukur 1,95 eV). ||| 1,97 eV
+Mengapa energi ionisasi Ga (6,00 eV) jauh lebih rendah daripada Zn (9,39 eV)? ||| Ga melepas elektron 4p (kurang menembus, terperisai subkulit 3d dan 4s penuh)
+Taksir energi ikat elektron 3d natrium (cacat kuantum hampir nol). ||| $\tfrac{1}{18}E_h = 1{,}51$ eV
+
+**Tantangan ★**
+
+@periode [P] ★ Tunjukkan bahwa jumlah keadaan elektron dengan $n + \ell = k$ adalah 2, 2, 8, 8, 18, 18, 32, 32 untuk $k = 1, \ldots, 8$, dan hubungkan dengan panjang periode. ||| $\sum_{\ell\le(k-1)/2}2(2\ell+1)$ = 2, 2, 8, 8, 18, 18, 32, 32; panjang periode ke-$p$ sama dengan jumlah untuk $k = p + 1$
+
+## Subbab 9.10: Korelasi elektron
+
+**Dasar**
+
+Nyatakan energi korelasi neon ($-0{,}3905\ E_h$) dalam kJ/mol dan eV. ||| $-1025$ kJ/mol; $-10{,}6$ eV
+Mengapa energi korelasi litium hampir sama dengan helium? ||| elektron 2s jauh dari pasangan 1s; korelasi terutama dalam pasangan 1s²
+Mana yang didominasi korelasi statis: atom He atau molekul H₂ yang diregangkan sampai 5 Å? ||| H₂ yang diregangkan
+
+**Menengah**
+
+Dari tabel subbab 9.10, hitung pertambahan energi korelasi dari B ke C ke N dan dari N ke O ke F. Tafsirkan. ||| sekitar 31–32 m$E_h$; sekitar 67–70 m$E_h$: elektron p mulai berpasangan
+Berapa persen korelasi menurunkan $\langle 1/r_{12}\rangle$ helium? ||| 7,8%
+Ulangi Contoh 9.33 dengan energi H⁻ "relaks" $-0{,}4727\ E_h$ untuk bagian ionik. Berapa galat RHF pada jarak tak hingga? ||| $-0{,}7363\ E_h$; galat 7,2 eV
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa fungsi dua konfigurasi $(\sigma_g^2 - \sigma_u^2)/\sqrt2$ untuk H₂ pada jarak tak hingga sama dengan fungsi kovalen murni $(a_1b_2 + b_1a_2)/\sqrt2$. ||| $\sigma_g^2 - \sigma_u^2 = \tfrac12[(a+b)_1(a+b)_2 - (a-b)_1(a-b)_2] = a_1b_2 + b_1a_2$
+
+## Subbab 9.11: Penjumlahan momentum sudut
+
+**Dasar**
+
+Gabungkan $j_1 = 1$ dan $j_2 = 1$. Nilai $J$ apa saja dan berapa keadaan seluruhnya? ||| 2, 1, 0; 9
+Konfigurasi tak ekuivalen 3d4d: nilai $L$ dan $S$ apa saja? Berapa keadaan? ||| $L = 4, \ldots, 0$; $S = 0, 1$; 100
+Nilai $j$ apa saja untuk satu elektron f? ||| $\tfrac72$, $\tfrac52$
+
+**Menengah**
+
+Turunkan fungsi triplet $M_S = 0$ dengan menerapkan $\hat S_- = \hat S_{1-} + \hat S_{2-}$ pada $\alpha\alpha$. ||| $\hat S_-\alpha\alpha = \hbar(\beta\alpha + \alpha\beta) = \sqrt2\,\hbar|1, 0\rangle$
+Hitung sudut antara $\mathbf L$ dan $\mathbf S$ untuk $^2D_{5/2}$ dan $^2D_{3/2}$. ||| 61,9° dan 135,0°
+Berapa keadaan untuk konfigurasi tak ekuivalen $n$p $n'$d $n''$s? ||| $6 \times 10 \times 2 = 120$
+
+**Tantangan ★**
+
+★ Buktikan $\sum_{J=|j_1-j_2|}^{j_1+j_2}(2J + 1) = (2j_1 + 1)(2j_2 + 1)$. ||| deret aritmetika dengan $2j_2 + 1$ suku (untuk $j_1 \ge j_2$)
+
+## Subbab 9.12: Lambang suku dan aturan Hund
+
+**Dasar**
+
+Tentukan suku dasar B, N, F, Ne, Sc, dan V. ||| $^2P_{1/2}$; $^4S_{3/2}$; $^2P_{3/2}$; $^1S_0$; $^2D_{3/2}$; $^4F_{3/2}$
+Tentukan suku dasar Cr³⁺, Co²⁺, dan Ni²⁺ (ion bebas). ||| $^4F_{3/2}$; $^4F_{9/2}$; $^3F_4$
+Berapa degenerasi suku $^3$F dan tingkat $^3F_4$? ||| 21; 9
+
+**Menengah**
+
+Tuliskan semua suku konfigurasi tak ekuivalen 2p3p. ||| $^1$S, $^1$P, $^1$D, $^3$S, $^3$P, $^3$D (36 keadaan)
+Periksa bahwa suku $p^3$ ($^4$S, $^2$D, $^2$P) menghasilkan 20 keadaan mikro. ||| $4 + 10 + 6 = 20 = \binom63$
+Tingkat $^2$D atom nitrogen berada 19 224 cm⁻¹ di atas $^4$S. Berapa panjang gelombang garis terlarang $^2$D → $^4$S? ||| 520,2 nm (garis aurora nitrogen)
+Hitung momen magnet spin saja untuk Cr³⁺, Co²⁺ spin tinggi, dan Ni²⁺. ||| $3{,}87$; $3{,}87$; $2{,}83\mu_B$
+
+**Tantangan ★**
+
+★ Periksa bahwa suku-suku $d^2$ ($^3$F, $^3$P, $^1$G, $^1$D, $^1$S) menghasilkan 45 keadaan mikro. ||| $21 + 9 + 9 + 5 + 1 = 45$
+
+## Subbab 9.13: Kopling spin–orbit dan struktur halus
+
+**Dasar**
+
+Nilai $j$ apa saja untuk elektron 3d, dan berapa pemecahannya dalam satuan $\zeta_{3d}$? ||| $\tfrac52$, $\tfrac32$; $\tfrac52\zeta$
+Hitung faktor Landé $g_J$ untuk $^3P_2$. ||| $\tfrac32$
+Garis D kalium berada di 766,49 dan 769,90 nm. Hitung pemecahan dan $\zeta_{4p}$. ||| 57,8 cm⁻¹; 38,5 cm⁻¹
+
+**Menengah**
+
+Hitung pemecahan $3d_{5/2}$–$3d_{3/2}$ atom hidrogen dengan rumus $\zeta_{n\ell}$ mirip hidrogen. ||| 0,0361 cm⁻¹
+Dengan aturan selang dan $E(^3P_1) = 77{,}1$ cm⁻¹ silikon, ramalkan $E(^3P_2)$ dan bandingkan dengan 223,2 cm⁻¹. ||| $3A = 231$ cm⁻¹
+Berapa fraksi atom brom dalam keadaan $^2P_{1/2}$ (3685 cm⁻¹) pada 1000 K? ||| $2{,}5 \times 10^{-3}$
+@oksigen Untuk $^3$P oksigen (tingkat $J = 2, 1, 0$ di 0; 158,3; 227,0 cm⁻¹), hitung $A$ dari selang $J = 2 \to 1$ dan uji aturan selang untuk $J = 1 \to 0$. ||| $A = -79{,}1$ cm⁻¹; ramalan selang $|A| = 79$, terukur 68,7 cm⁻¹
+
+**Tantangan ★**
+
+@pusat [P] ★ Tunjukkan bahwa pusat berat suku, $\sum_J(2J + 1)E(J)$, tidak bergeser oleh kopling spin–orbit $A\hat{\mathbf L}\cdot\hat{\mathbf S}$. ||| $\sum_J(2J+1)[J(J+1) - L(L+1) - S(S+1)] = 0$ (jejak $\hat{\mathbf L}\cdot\hat{\mathbf S}$ nol)
+
+## Subbab 9.14: Aturan Condon–Slater
+
+**Dasar**
+
+Berapa $\langle D|\hat H|D'\rangle$ bila $D$ dan $D'$ berbeda tiga spin-orbital? ||| 0
+Tuliskan energi determinan $|1s\alpha\,2s\alpha|$. ||| $h_{1s} + h_{2s} + J - K$
+Tuliskan energi determinan $|1s\alpha\,2s\beta|$. ||| $h_{1s} + h_{2s} + J$
+
+**Menengah**
+
+@dua [P] Dengan aturan 3, hitung $\langle 1s\alpha\,2s\beta|\hat H|1s\beta\,2s\alpha\rangle$, lalu diagonalkan matriks 2 × 2 kedua determinan $M_S = 0$ konfigurasi 1s2s. ||| $-K$; $E^{(0)} + J \pm K$ dengan $(D_1 \mp D_2)/\sqrt2$
+Hitung energi determinan berilium $|1s\alpha\,1s\beta\,2s\alpha\,2s\beta|$ dengan aturan 1. ||| sama dengan soal subbab 9.8: $2h_{1s} + 2h_{2s} + J_{1s1s} + J_{2s2s} + 4J_{1s2s} - 2K_{1s2s}$
+Berapa determinan $M_S = 0$ untuk CI penuh helium dalam basis 10 orbital ruang? ||| $10 \times 10 = 100$
+Dengan nilai $J$ dan $K$ di Contoh 9.47, hitung energi determinan $|p_1\alpha\,p_{-1}\alpha|$ dan tunjukkan bahwa ia juga milik $^3$P. ||| $F_0 + F_2 - 6F_2 = F_0 - 5F_2$
+
+**Tantangan ★**
+
+★ Jelaskan mengapa jumlah energi determinan dengan $M_L$ dan $M_S$ tertentu sama dengan jumlah energi suku yang mempunyai komponen itu (aturan jumlah diagonal). ||| jejak matriks tidak bergantung pada basis: transformasi dari determinan ke fungsi suku bersifat uniter dalam blok $(M_L, M_S)$

@@ -5,17 +5,17 @@
 Bayangkan diri kita menumpang pada elektron yang mengorbit inti. Dari sudut pandang elektron, intilah yang berputar mengelilinginya, dan muatan yang bergerak membangkitkan medan magnet. Medan ini sebanding dengan momentum sudut orbital $\mathbf L$, dan ia berinteraksi dengan momen magnet spin elektron, yang sebanding dengan $\mathbf S$. Hasilnya adalah energi yang bergantung pada orientasi relatif spin dan orbit:
 
 $$
-\hat H_\text{SO} = \xi(r)\,\hat{\mathbf L}\cdot\hat{\mathbf S} , \qquad \xi(r) = \frac{1}{2m_e^2c^2}\,\frac1r\frac{dV}{dr} . \qquad \text{(9.e40)}
+\hat H_\text{SO} = \xi(r)\,\hat{\mathbf L}\cdot\hat{\mathbf S} , \qquad \xi(r) = \frac{1}{2m_e^2c^2}\,\frac1r\frac{dV}{dr} . \qquad \text{(9.40)}
 $$
 
 (Perhitungan yang naif dalam kerangka elektron memberi dua kali nilai ini; faktor $\tfrac12$, **faktor Thomas**, berasal dari efek relativistik kerangka yang berputar, dan muncul otomatis dari persamaan Dirac.) Untuk atom mirip hidrogen, $V = -Ze^2/4\pi\varepsilon_0r$ dan $\xi \propto Z/r^3$. Karena $\langle r^{-3}\rangle \propto Z^3/n^3$, besar kopling tumbuh kira-kira seperti $Z^4$: inilah alasan efek spin–orbit kecil pada atom ringan dan sangat besar pada atom berat. Dalam atom berelektron banyak, elektron valensi terperisai, sehingga pertumbuhan efektifnya lebih lambat (kira-kira $Z^2$ untuk elektron valensi dalam satu golongan), tetapi tetap dramatis.
 
 ### Satu elektron
 
-Untuk satu elektron dengan $\ell$ dan $s = \tfrac12$, $\hat{\mathbf L}\cdot\hat{\mathbf S}$ tidak komut dengan $\hat L_z$ maupun $\hat S_z$, tetapi komut dengan $\hat L^2$, $\hat S^2$, $\hat J^2$, dan $\hat J_z$. Fungsi eigen yang benar adalah fungsi terkopel $|\ell s; jm_j\rangle$ (Contoh 9.c35), dengan $j = \ell \pm \tfrac12$. Dari $\hat J^2 = \hat L^2 + \hat S^2 + 2\hat{\mathbf L}\cdot\hat{\mathbf S}$:
+Untuk satu elektron dengan $\ell$ dan $s = \tfrac12$, $\hat{\mathbf L}\cdot\hat{\mathbf S}$ tidak komut dengan $\hat L_z$ maupun $\hat S_z$, tetapi komut dengan $\hat L^2$, $\hat S^2$, $\hat J^2$, dan $\hat J_z$. Fungsi eigen yang benar adalah fungsi terkopel $|\ell s; jm_j\rangle$ (Contoh 9.35), dengan $j = \ell \pm \tfrac12$. Dari $\hat J^2 = \hat L^2 + \hat S^2 + 2\hat{\mathbf L}\cdot\hat{\mathbf S}$:
 
 $$
-E_\text{SO} = \frac{\zeta_{n\ell}}{2}\left[j(j + 1) - \ell(\ell + 1) - s(s + 1)\right] , \qquad \zeta_{n\ell} = \hbar^2\langle\xi(r)\rangle_{n\ell} . \qquad \text{(9.e41)}
+E_\text{SO} = \frac{\zeta_{n\ell}}{2}\left[j(j + 1) - \ell(\ell + 1) - s(s + 1)\right] , \qquad \zeta_{n\ell} = \hbar^2\langle\xi(r)\rangle_{n\ell} . \qquad \text{(9.41)}
 $$
 
 Untuk $j = \ell + \tfrac12$, $E_\text{SO} = \tfrac12\ell\zeta$; untuk $j = \ell - \tfrac12$, $E_\text{SO} = -\tfrac12(\ell + 1)\zeta$. Pemecahannya $(\ell + \tfrac12)\zeta$, dan pusat beratnya (rata-rata berbobot $2j + 1$) tidak bergeser. Untuk atom mirip hidrogen, $\zeta_{n\ell} = \alpha_\text{f}^2Z^4E_h/[2n^3\ell(\ell + \tfrac12)(\ell + 1)]$. Elektron s tidak mempunyai momentum sudut orbital dan tidak mengalami pemecahan.
@@ -25,14 +25,14 @@ Untuk $j = \ell + \tfrac12$, $E_\text{SO} = \tfrac12\ell\zeta$; untuk $j = \ell 
 Dalam kopling LS, di dalam satu suku $^{2S+1}L$ kopling spin–orbit dapat ditulis sebagai $A\,\hat{\mathbf L}\cdot\hat{\mathbf S}$, dengan $A$ konstanta kopling suku. Energi tingkat $J$:
 
 $$
-E(J) = \frac A2\left[J(J + 1) - L(L + 1) - S(S + 1)\right] , \qquad E(J) - E(J - 1) = AJ . \qquad \text{(9.e42)}
+E(J) = \frac A2\left[J(J + 1) - L(L + 1) - S(S + 1)\right] , \qquad E(J) - E(J - 1) = AJ . \qquad \text{(9.42)}
 $$
 
 Rumus kedua adalah **aturan selang Landé**: jarak antara tingkat-tingkat berurutan sebanding dengan $J$ yang lebih besar. Untuk subkulit kurang dari setengah penuh, $A > 0$ dan tingkat $J$ terkecil paling rendah (multiplet **normal**); untuk subkulit lebih dari setengah penuh, $A < 0$ (multiplet **terbalik**), karena "lubang" berperilaku seperti elektron bermuatan berlawanan. Inilah dasar aturan Hund ketiga. Penyimpangan dari aturan selang adalah ukuran seberapa jauh kopling LS sudah tidak berlaku.
 
 ### Kopling spin–orbit dalam kimia
 
-Kopling spin–orbit melonggarkan aturan seleksi $\Delta S = 0$ (subbab 8.12), karena ia mencampurkan sedikit karakter singlet ke dalam keadaan triplet dan sebaliknya. Akibatnya terlihat di banyak tempat: fosforesensi dan perpindahan antarsistem dalam fotokimia (Bab 15), **efek atom berat** (pelarut beriodium mempercepat perpindahan singlet → triplet), kompleks iridium dan platina yang memancarkan cahaya triplet secara efisien dalam layar OLED, serta faktor $g$ ion logam transisi yang menyimpang dari 2 (Contoh 9.c6). Pada unsur sangat berat, kopling spin–orbit ikut menentukan panjang ikatan, energi ikatan, dan bahkan keadaan oksidasi yang stabil.
+Kopling spin–orbit melonggarkan aturan seleksi $\Delta S = 0$ (subbab 8.12), karena ia mencampurkan sedikit karakter singlet ke dalam keadaan triplet dan sebaliknya. Akibatnya terlihat di banyak tempat: fosforesensi dan perpindahan antarsistem dalam fotokimia (Bab 15), **efek atom berat** (pelarut beriodium mempercepat perpindahan singlet → triplet), kompleks iridium dan platina yang memancarkan cahaya triplet secara efisien dalam layar OLED, serta faktor $g$ ion logam transisi yang menyimpang dari 2 (Contoh 9.6). Pada unsur sangat berat, kopling spin–orbit ikut menentukan panjang ikatan, energi ikatan, dan bahkan keadaan oksidasi yang stabil.
 
 ::: {.inti}
 **Kopling spin–orbit**
@@ -41,7 +41,7 @@ $\hat H_\text{SO} = \xi(r)\hat{\mathbf L}\cdot\hat{\mathbf S}$; untuk satu elekt
 :::
 
 ::: {.contoh}
-**Contoh 9.c41 · Garis D natrium dan hidrogen 2p**
+**Contoh 9.41 · Garis D natrium dan hidrogen 2p**
 
 (a) Garis D₂ ($3\,^2P_{3/2} \to 3\,^2S_{1/2}$) dan D₁ ($3\,^2P_{1/2} \to 3\,^2S_{1/2}$) natrium berada di 589,00 dan 589,59 nm. Hitung pemecahan dalam cm⁻¹ dan $\zeta_{3p}$. (b) Hitung pemecahan 2p hidrogen dengan rumus hidrogen dan bandingkan.
 
@@ -53,7 +53,7 @@ $\hat H_\text{SO} = \xi(r)\hat{\mathbf L}\cdot\hat{\mathbf S}$; untuk satu elekt
 :::
 
 ::: {.contoh}
-**Contoh 9.c42 · Logam alkali dan halogen: kenaikan dengan Z**
+**Contoh 9.42 · Logam alkali dan halogen: kenaikan dengan Z**
 
 Pemecahan $^2P_{3/2}$–$^2P_{1/2}$ keadaan $np$ tereksitasi pertama logam alkali (cm⁻¹): Li 0,34; Na 17,2; K 57,7; Rb 237,6; Cs 554,0. Pemecahan keadaan dasar $^2P$ halogen: F 404; Cl 882; Br 3685; I 7603. (a) Berapa kali pemecahan naik dari Na ke Cs? (b) Untuk halogen ($p^5$), tingkat mana yang lebih rendah? (c) Berapa fraksi atom F dan I dalam keadaan $^2P_{1/2}$ pada 298 K?
 
@@ -66,10 +66,12 @@ Pemecahan $^2P_{3/2}$–$^2P_{1/2}$ keadaan $np$ tereksitasi pertama logam alkal
 **Memahami hasil.** Atom iodium dalam keadaan $^2P_{1/2}$ (I*) berada 0,94 eV di atas keadaan dasar dan meluruh sangat lambat (transisi dipol magnet). Laser kimia oksigen–iodium memanfaatkannya: oksigen singlet memindahkan energi ke iodium, menciptakan inversi populasi, dan laser memancar di 1315 nm. Dalam reaksi atom halogen, kedua tingkat spin–orbit sering bereaksi dengan laju berbeda, sehingga untuk atom berat "satu atom" sebenarnya adalah dua spesies kimia.
 :::
 
-::: {.contoh}
-**Contoh 9.c43 · Aturan selang Landé dan runtuhnya kopling LS**
+![Gambar 9.7 Pemecahan spin–orbit terhadap nomor atom (skala logaritma): keadaan $np$ tereksitasi pertama logam alkali dan keadaan dasar $^2$P halogen. Garis tipis menunjukkan kemiringan $Z^2$. Dari Li ke Cs pemecahan naik lebih dari seribu kali, sehingga efek yang hanya terlihat dengan spektroskopi resolusi tinggi pada atom ringan menjadi faktor kimia penting pada atom berat.](fig/c_spinorbit.png){width=72%}
 
-Tingkat $^3P_1$ dan $^3P_2$ (relatif terhadap $^3P_0$, cm⁻¹) untuk golongan 14: C 16,4 dan 43,4; Si 77,1 dan 223,2; Ge 557,1 dan 1410,0; Sn 1691,8 dan 3427,7; Pb 7819,3 dan 10 650,3. Menurut (9.e42), $[E(2) - E(1)]/[E(1) - E(0)] = 2$. Hitung perbandingan ini dan tafsirkan.
+::: {.contoh}
+**Contoh 9.43 · Aturan selang Landé dan runtuhnya kopling LS**
+
+Tingkat $^3P_1$ dan $^3P_2$ (relatif terhadap $^3P_0$, cm⁻¹) untuk golongan 14: C 16,4 dan 43,4; Si 77,1 dan 223,2; Ge 557,1 dan 1410,0; Sn 1691,8 dan 3427,7; Pb 7819,3 dan 10 650,3. Menurut (9.42), $[E(2) - E(1)]/[E(1) - E(0)] = 2$. Hitung perbandingan ini dan tafsirkan.
 
 **Penyelesaian.** C: $27{,}0/16{,}4 = 1{,}65$. Si: 1,89. Ge: 1,53. Sn: 1,03. Pb: 0,36.
 
@@ -77,7 +79,7 @@ Tingkat $^3P_1$ dan $^3P_2$ (relatif terhadap $^3P_0$, cm⁻¹) untuk golongan 1
 :::
 
 ::: {.contoh}
-**Contoh 9.c44 · Faktor $g$ dan efek Zeeman anomal**
+**Contoh 9.44 · Faktor $g$ dan efek Zeeman anomal**
 
 Dalam medan magnet lemah, tingkat $J$ pecah menjadi $2J + 1$ subtingkat dengan energi $g_J\mu_BBM_J$, dengan faktor Landé $g_J = 1 + [J(J + 1) + S(S + 1) - L(L + 1)]/2J(J + 1)$ (dengan $g_e \approx 2$). (a) Hitung $g_J$ untuk $^2S_{1/2}$, $^2P_{1/2}$, dan $^2P_{3/2}$. (b) Berapa komponen garis D₁ dalam medan magnet?
 
@@ -91,7 +93,7 @@ Dalam medan magnet lemah, tingkat $J$ pecah menjadi $2J + 1$ subtingkat dengan e
 ::: {.kuis}
 **Kuis cepat 9.13**
 
-(a) Mengapa orbital s tidak mengalami pemecahan spin–orbit? (b) Ramalkan urutan tingkat $J$ dalam suku dasar $^3$P oksigen dan bandingkan dengan Contoh 9.c40. (c) Mengapa efek atom berat mempercepat fosforesensi?
+(a) Mengapa orbital s tidak mengalami pemecahan spin–orbit? (b) Ramalkan urutan tingkat $J$ dalam suku dasar $^3$P oksigen dan bandingkan dengan Contoh 9.40. (c) Mengapa efek atom berat mempercepat fosforesensi?
 :::
 
 ## 9.14 Aturan Condon–Slater
@@ -109,7 +111,7 @@ $$
 dan definisikan integral dua elektron atas spin-orbital
 
 $$
-\langle ab|cd\rangle = \int\!\!\int\chi_a^*(1)\chi_b^*(2)\frac{1}{r_{12}}\chi_c(1)\chi_d(2)\,d\tau_1d\tau_2 , \qquad \langle ab\|cd\rangle = \langle ab|cd\rangle - \langle ab|dc\rangle . \qquad \text{(9.e43)}
+\langle ab|cd\rangle = \int\!\!\int\chi_a^*(1)\chi_b^*(2)\frac{1}{r_{12}}\chi_c(1)\chi_d(2)\,d\tau_1d\tau_2 , \qquad \langle ab\|cd\rangle = \langle ab|cd\rangle - \langle ab|dc\rangle . \qquad \text{(9.43)}
 $$
 
 Dengan notasi ini, $J_{ab} = \langle ab|ab\rangle$ dan $K_{ab} = \langle ab|ba\rangle$. Integral atas spin membuat $K_{ab} = 0$ bila $\chi_a$ dan $\chi_b$ berspin berlawanan.
@@ -130,7 +132,7 @@ $$\langle D|\hat H|D_{mn}^{pq}\rangle = \langle mn\|pq\rangle .$$
 4. **Berbeda tiga atau lebih**: $\langle D|\hat H|D'\rangle = 0$.
 :::
 
-Aturan 4 mencerminkan fakta bahwa $\hat H$ paling banyak memuat operator dua elektron: satu suku $1/r_{ij}$ hanya dapat "memindahkan" dua elektron sekaligus. Aturan 1 adalah rumus energi satu determinan (9.e25) yang kita pakai di subbab 9.8.
+Aturan 4 mencerminkan fakta bahwa $\hat H$ paling banyak memuat operator dua elektron: satu suku $1/r_{ij}$ hanya dapat "memindahkan" dua elektron sekaligus. Aturan 1 adalah rumus energi satu determinan (9.25) yang kita pakai di subbab 9.8.
 
 ::: {.dalam}
 **Lebih dalam: aturan 1 untuk dua elektron**
@@ -145,19 +147,19 @@ karena $\langle ba|ba\rangle = \langle ab|ab\rangle$ (mengganti nama variabel in
 :::
 
 ::: {.contoh}
-**Contoh 9.c45 · Energi helium dan litium dari aturan 1**
+**Contoh 9.45 · Energi helium dan litium dari aturan 1**
 
-(a) Terapkan aturan 1 pada $|1s\alpha\,1s\beta|$. (b) Terapkan pada $|1s\alpha\,1s\beta\,2s\alpha|$ dan peroleh (9.e24).
+(a) Terapkan aturan 1 pada $|1s\alpha\,1s\beta|$. (b) Terapkan pada $|1s\alpha\,1s\beta\,2s\alpha|$ dan peroleh (9.24).
 
 **Penyelesaian.** (a) Bagian satu elektron: $h_{1s} + h_{1s}$. Bagian dua elektron: satu pasangan $(1s\alpha, 1s\beta)$; $J = J_{1s1s}$ dan $K = 0$ (spin berlawanan). Jadi $E = 2h_{1s} + J_{1s1s}$, sesuai subbab 8.3 dan 9.8.
 
 (b) Satu elektron: $2h_{1s} + h_{2s}$. Pasangan: $(1s\alpha, 1s\beta)$: $J_{1s1s}$; $(1s\alpha, 2s\alpha)$: $J_{1s2s} - K_{1s2s}$; $(1s\beta, 2s\alpha)$: $J_{1s2s}$. Jumlah: $E = 2h_{1s} + h_{2s} + J_{1s1s} + 2J_{1s2s} - K_{1s2s}$.
 
-**Memahami hasil.** Aturan 1 mengubah penghitungan energi determinan menjadi akuntansi sederhana: setiap elektron menyumbang $h$, setiap pasangan menyumbang $J$, dan setiap pasangan **berspin sama** dikurangi $K$. Akuntansi inilah yang dipakai di Contoh 9.c29 untuk membandingkan konfigurasi kromium.
+**Memahami hasil.** Aturan 1 mengubah penghitungan energi determinan menjadi akuntansi sederhana: setiap elektron menyumbang $h$, setiap pasangan menyumbang $J$, dan setiap pasangan **berspin sama** dikurangi $K$. Akuntansi inilah yang dipakai di Contoh 9.29 untuk membandingkan konfigurasi kromium.
 :::
 
 ::: {.contoh}
-**Contoh 9.c46 · Interaksi konfigurasi helium: $1s^2$ dan $2s^2$**
+**Contoh 9.46 · Interaksi konfigurasi helium: $1s^2$ dan $2s^2$**
 
 Dengan orbital He⁺ ($Z = 2$), energi determinan $|1s\alpha\,1s\beta|$ adalah $-2{,}75\ E_h$ dan determinan $|2s\alpha\,2s\beta|$ adalah $2(-\tfrac12) + J_{2s2s}$, dengan $J_{2s2s} = 77Z/512$. (a) Hitung unsur matriks kopling dengan aturan 3. (b) Selesaikan masalah 2 × 2 dan bandingkan penurunan energinya dengan energi korelasi helium.
 
@@ -169,7 +171,7 @@ Dengan orbital He⁺ ($Z = 2$), energi determinan $|1s\alpha\,1s\beta|$ adalah $
 :::
 
 ::: {.contoh}
-**Contoh 9.c47 · Energi suku $p^2$ dari determinan**
+**Contoh 9.47 · Energi suku $p^2$ dari determinan**
 
 Untuk dua elektron p, integral Coulomb dan pertukaran antara orbital $m_\ell$ dapat ditulis dengan dua parameter Slater–Condon $F_0$ dan $F_2$: $J(1, 1) = J(1, -1) = F_0 + F_2$, $J(1, 0) = F_0 - 2F_2$, $J(0, 0) = F_0 + 4F_2$, $K(1, 0) = 3F_2$, $K(1, -1) = 6F_2$. (a) Hitung energi $^3$P dari determinan $|p_1\alpha\,p_0\alpha|$ dan energi $^1$D dari $|p_1\alpha\,p_1\beta|$ (bagian tolakan saja). (b) Pakai **aturan jumlah diagonal** (jumlah energi determinan dengan $M_L = 0$, $M_S = 0$ sama dengan jumlah energi suku-suku yang mempunyai komponen itu) untuk memperoleh $E(^1S)$. (c) Ramalkan $[E(^1S) - E(^1D)]/[E(^1D) - E(^3P)]$ dan bandingkan dengan karbon (1,13) dan oksigen (1,14).
 
@@ -183,7 +185,7 @@ Untuk dua elektron p, integral Coulomb dan pertukaran antara orbital $m_\ell$ da
 :::
 
 ::: {.contoh}
-**Contoh 9.c48 · Teorema Brillouin**
+**Contoh 9.48 · Teorema Brillouin**
 
 Tunjukkan dengan aturan 2 bahwa, bila orbital-orbitalnya adalah orbital Hartree–Fock, unsur matriks antara determinan HF $\Phi_0$ dan determinan tereksitasi tunggal $\Phi_m^p$ (spin-orbital terisi $m$ diganti spin-orbital kosong $p$) adalah nol.
 
