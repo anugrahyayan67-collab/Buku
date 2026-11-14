@@ -22,7 +22,7 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 
 ## Bagian II · Sistem yang dapat diselesaikan tepat
 
-### ☐ Bab 5 Osilator Harmonik
+### ☑ Bab 5 Osilator Harmonik
 5.1 Osilator klasik · 5.2 Persamaan Schrödinger osilator · 5.3 Penyelesaian deret dan polinom Hermite · 5.4 Tingkat energi dan energi titik nol · 5.5 Fungsi gelombang: kuantum vs klasik · 5.6 Operator tangga · 5.7 Getaran molekul diatom dan massa tereduksi · 5.8 Aturan seleksi inframerah · 5.9 Anharmonisitas dan potensial Morse · 5.10 Efek isotop · 5.11 Mode normal molekul poliatom · 5.12 Penyelesaian numerik persamaan Schrödinger (metode Numerov)
 
 ### ☐ Bab 6 Momentum Sudut dan Rotor Tegar
