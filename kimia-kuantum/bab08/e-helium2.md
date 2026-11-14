@@ -67,7 +67,7 @@ Orde pertama adalah variasi tanpa optimasi. Optimasi eksponen meniru 62% suku or
 :::
 
 ::: {.contoh}
-**Contoh 8.35 · Menjumlahkan deret $1/Z$ untuk helium**
+**Contoh 8.38 · Menjumlahkan deret $1/Z$ untuk helium**
 
 Dengan koefisien di atas, jumlahkan deret (8.39) untuk $Z = 2$ orde demi orde dan bandingkan dengan nilai eksak $-2{,}903\,724\ E_h$.
 
@@ -83,11 +83,11 @@ Dengan koefisien di atas, jumlahkan deret (8.39) untuk $Z = 2$ orde demi orde da
 | 5 | $-0{,}000\,130$ | $-2{,}903\,669$ | $+0{,}000\,056$ |
 | 6 | $-0{,}000\,038$ | $-2{,}903\,707$ | $+0{,}000\,017$ |
 
-**Memahami hasil.** Berbeda dengan osilator kuartik (Contoh 8.32), deret helium konvergen dengan baik: setiap orde memperkecil galat. Perhatikan bahwa jumlah orde kedua ($-2{,}9077$) **di bawah** energi eksak. Ini bukan pelanggaran teorema variasi, karena teori perturbasi bukan metode variasi; energi perturbasi dapat jatuh di kedua sisi nilai eksak. Pada orde keenam, galatnya tinggal $1{,}7 \times 10^{-5}\ E_h$, sekitar 0,05 kJ/mol.
+**Memahami hasil.** Berbeda dengan osilator kuartik (Contoh 8.35), deret helium konvergen dengan baik: setiap orde memperkecil galat. Perhatikan bahwa jumlah orde kedua ($-2{,}9077$) **di bawah** energi eksak. Ini bukan pelanggaran teorema variasi, karena teori perturbasi bukan metode variasi; energi perturbasi dapat jatuh di kedua sisi nilai eksak. Pada orde keenam, galatnya tinggal $1{,}7 \times 10^{-5}\ E_h$, sekitar 0,05 kJ/mol.
 :::
 
 ::: {.contoh}
-**Contoh 8.36 · Fungsi orde pertama dan relaksasi orbital**
+**Contoh 8.39 · Fungsi orde pertama dan relaksasi orbital**
 
 Tunjukkan bahwa perubahan kecil eksponen dari $Z$ ke $Z - \delta$ pada fungsi $1s(1)1s(2)$ setara dengan menambahkan koreksi fungsi gelombang orde pertama yang mencampurkan keadaan-keadaan tereksitasi $ns$. Gunakan untuk menafsirkan suku $-25/256$ di (8.40).
 
@@ -97,7 +97,7 @@ Tunjukkan bahwa perubahan kecil eksponen dari $Z$ ke $Z - \delta$ pada fungsi $1
 :::
 
 ::: {.contoh}
-**Contoh 8.37 · Deret isoelektron: perturbasi orde kedua**
+**Contoh 8.40 · Deret isoelektron: perturbasi orde kedua**
 
 Hitung $E^{(0)} + E^{(1)} + E^{(2)} = -Z^2 + \tfrac58Z - 0{,}157\,666$ untuk H⁻, He, Li⁺, Be²⁺, dan B³⁺, lalu bandingkan galatnya dengan galat metode variasi satu eksponen (Contoh 8.13). Apa yang dikatakan hasil orde kedua tentang H⁻?
 
@@ -119,7 +119,7 @@ Untuk H⁻, energi orde kedua $-0{,}5327\ E_h$ di bawah $-0{,}5\ E_h$, sehingga 
 ![Gambar 8.6 Galat energi keadaan dasar ion mirip helium ($Z = 1$ sampai 6) untuk tiga metode: perturbasi orde pertama, variasi dengan muatan efektif, dan perturbasi orde kedua. Galat dua metode pertama hampir tidak bergantung pada $Z$; galat orde kedua kecil, bertanda negatif (energi di bawah nilai eksak), dan mengecil seperti $1/Z$. Garis putus-putus: energi korelasi (selisih Hartree–Fock dan eksak), batas yang tidak dapat dilampaui oleh fungsi hasil kali orbital mana pun.](fig/c_isoelektron.png){width=78%}
 
 ::: {.contoh}
-**Contoh 8.38 · Energi ionisasi ion mirip helium**
+**Contoh 8.41 · Energi ionisasi ion mirip helium**
 
 Energi ionisasi ion mirip helium ($\text{X}^{(Z-2)+} \to \text{X}^{(Z-1)+} + e^-$) adalah $I = -Z^2/2 - E$. (a) Tuliskan $I$ menurut deret (8.39) sampai orde kedua. (b) Hitung untuk Li⁺, Be²⁺, dan C⁴⁺ dan bandingkan dengan nilai eksak 75,645; 153,896; dan 392,014 eV. (c) Bandingkan dengan ramalan variasi.
 
@@ -203,7 +203,7 @@ Akar-akarnya adalah pemecahan tingkat pada orde pertama; vektor eigennya adalah 
 :::
 
 ::: {.contoh}
-**Contoh 8.39 · Cincin yang dipipihkan**
+**Contoh 8.42 · Cincin yang dipipihkan**
 
 Partikel pada cincin (subbab 6.3) mempunyai tingkat terdegenerasi ganda $E_m = m^2\hbar^2/2I$ untuk $m = \pm1, \pm2, \ldots$, dengan fungsi $e^{im\phi}/\sqrt{2\pi}$. Cincin dipipihkan sedikit menjadi elips, yang dimodelkan dengan $\hat H' = V_0\cos2\phi$. (a) Hitung matriks $\hat H'$ dalam ruang $m = \pm1$. (b) Tentukan pemecahan dan fungsi orde nol yang benar. (c) Apakah tingkat $m = \pm2$ pecah pada orde pertama?
 
@@ -217,9 +217,9 @@ Partikel pada cincin (subbab 6.3) mempunyai tingkat terdegenerasi ganda $E_m = m
 :::
 
 ::: {.contoh}
-**Contoh 8.40 · Pasangan terdegenerasi benzena dalam piridina**
+**Contoh 8.43 · Pasangan terdegenerasi benzena dalam piridina**
 
-Kembali ke Contoh 8.28. Orbital benzena dengan $x = 1$ terdegenerasi ganda. Dua fungsi riil yang lazim adalah $\psi_a = (2\chi_1 + \chi_2 - \chi_3 - 2\chi_4 - \chi_5 + \chi_6)/\sqrt{12}$ dan $\psi_b = (\chi_2 + \chi_3 - \chi_5 - \chi_6)/2$. (a) Hitung matriks perturbasi $H'_{ij} = h\beta c_{1i}c_{1j}$ dalam ruang $\{\psi_a, \psi_b\}$. (b) Tentukan pemecahannya untuk $h = 0{,}5$ dan bandingkan dengan diagonalisasi eksak ($x = 1{,}1672$ dan $1{,}0000$). (c) Ulangi untuk pasangan antiikatan $x = -1$ (eksak: $-0{,}8410$ dan $-1{,}0000$), yang koefisien atom 1-nya juga $2/\sqrt{12}$ dan 0.
+Kembali ke Contoh 8.30. Orbital benzena dengan $x = 1$ terdegenerasi ganda. Dua fungsi riil yang lazim adalah $\psi_a = (2\chi_1 + \chi_2 - \chi_3 - 2\chi_4 - \chi_5 + \chi_6)/\sqrt{12}$ dan $\psi_b = (\chi_2 + \chi_3 - \chi_5 - \chi_6)/2$. (a) Hitung matriks perturbasi $H'_{ij} = h\beta c_{1i}c_{1j}$ dalam ruang $\{\psi_a, \psi_b\}$. (b) Tentukan pemecahannya untuk $h = 0{,}5$ dan bandingkan dengan diagonalisasi eksak ($x = 1{,}1672$ dan $1{,}0000$). (c) Ulangi untuk pasangan antiikatan $x = -1$ (eksak: $-0{,}8410$ dan $-1{,}0000$), yang koefisien atom 1-nya juga $2/\sqrt{12}$ dan 0.
 
 **Penyelesaian.** (a) $c_{1a} = 2/\sqrt{12}$ dan $c_{1b} = 0$. Matriksnya $h\beta\begin{pmatrix}1/3 & 0\\ 0 & 0\end{pmatrix}$: sudah diagonal.
 
@@ -289,7 +289,7 @@ Jadi $J_{1s2s} = Z/4 - 13Z/324 = 68Z/324 = 17Z/81$. Bandingkan dengan $\langle 1
 :::
 
 ::: {.contoh}
-**Contoh 8.41 · Singlet dan triplet 1s2s dan 1s2p**
+**Contoh 8.44 · Singlet dan triplet 1s2s dan 1s2p**
 
 Hitung energi orde pertama keempat suku $2^1$S, $2^3$S, $2^1$P, dan $2^3$P helium, dan energi eksitasinya dari keadaan dasar eksak ($-2{,}9037\ E_h$). Bandingkan dengan nilai eksak $-2{,}1460$; $-2{,}1752$; $-2{,}1238$; $-2{,}1332\ E_h$.
 
@@ -310,9 +310,9 @@ Pemecahan singlet–triplet: hitung $2K_s = 2{,}39$ eV dan $2K_p = 1{,}86$ eV; e
 ![Gambar 8.7 Tingkat-tingkat helium dari konfigurasi 1s2s dan 1s2p. Kolom pertama: orde nol, delapan keadaan terdegenerasi pada $-2{,}5\ E_h$. Kolom kedua: integral Coulomb $J$ memisahkan 1s2s dan 1s2p. Kolom ketiga: integral pertukaran $\pm K$ memecah setiap konfigurasi menjadi triplet (bawah) dan singlet (atas). Kolom keempat: nilai eksak. Urutan keempat suku sudah benar pada orde pertama.](fig/c_hetereksitasi.png){width=82%}
 
 ::: {.contoh}
-**Contoh 8.42 · Mengapa 2s di bawah 2p: penetrasi**
+**Contoh 8.45 · Mengapa 2s di bawah 2p: penetrasi**
 
-Dalam atom hidrogen, 2s dan 2p terdegenerasi. Dalam helium tereksitasi, $2^3$S lebih rendah daripada $2^3$P. (a) Dari tabel Contoh 8.41, hitung selisih $2^3$P − $2^3$S menurut perturbasi dan menurut nilai eksak. (b) Suku mana yang bertanggung jawab? (c) Apa artinya bagi atom berelektron banyak?
+Dalam atom hidrogen, 2s dan 2p terdegenerasi. Dalam helium tereksitasi, $2^3$S lebih rendah daripada $2^3$P. (a) Dari tabel Contoh 8.44, hitung selisih $2^3$P − $2^3$S menurut perturbasi dan menurut nilai eksak. (b) Suku mana yang bertanggung jawab? (c) Apa artinya bagi atom berelektron banyak?
 
 **Penyelesaian.** (a) Perturbasi: $-2{,}0485 - (-2{,}1241) = 0{,}0756\ E_h = 2{,}06$ eV. Eksak: $-2{,}1332 - (-2{,}1752) = 0{,}0421\ E_h = 1{,}14$ eV.
 
@@ -326,6 +326,6 @@ Dalam atom hidrogen, 2s dan 2p terdegenerasi. Dalam helium tereksitasi, $2^3$S l
 ::: {.kuis}
 **Kuis cepat 8.9**
 
-(a) Mengapa tingkat $n = 2$ helium (dengan satu elektron di 1s) terdegenerasi delapan kali dalam $\hat H^{(0)}$? (b) Apa makna fisika integral pertukaran $K$, dan mengapa tidak ada padanannya dalam elektrostatika klasik? (c) Dalam Contoh 8.39, mengapa $\cos\phi$ naik dan $\sin\phi$ turun?
+(a) Mengapa tingkat $n = 2$ helium (dengan satu elektron di 1s) terdegenerasi delapan kali dalam $\hat H^{(0)}$? (b) Apa makna fisika integral pertukaran $K$, dan mengapa tidak ada padanannya dalam elektrostatika klasik? (c) Dalam Contoh 8.42, mengapa $\cos\phi$ naik dan $\sin\phi$ turun?
 :::
 

@@ -159,7 +159,23 @@ Dalam metode Hückel diperluas, $H_{12} = KS\,(H_{11} + H_{22})/2$ dengan $K = 1
 :::
 
 ::: {.contoh}
-**Contoh 8.20 · Akar-akar yang menyelang**
+**Contoh 8.20 · Gugus karbonil: polaritas dan tempat serangan nukleofil**
+
+Model Hückel untuk ikatan π C=O: orbital 2p karbon dengan $H_{\text{CC}} = \alpha$, orbital 2p oksigen dengan $H_{\text{OO}} = \alpha + \beta$ (oksigen lebih elektronegatif), dan $H_{\text{CO}} = \beta$, tanpa tumpang tindih. (a) Tuliskan matriksnya dalam bentuk $E = \alpha + x\beta$ dan cari kedua akarnya. (b) Hitung koefisien orbital π (terisi) dan π* (kosong). (c) Berapa muatan π pada oksigen? (d) Di atom mana nukleofil seharusnya menyerang?
+
+**Penyelesaian.** (a) Dengan urutan basis (O, C), matriks dalam satuan $\beta$ adalah $\begin{pmatrix}1 & 1\\ 1 & 0\end{pmatrix}$. Persamaan karakteristiknya $x(x - 1) - 1 = 0$, sehingga $x = (1 \pm \sqrt5)/2 = 1{,}618$ dan $-0{,}618$. Karena $\beta < 0$, orbital ikatan π adalah $E = \alpha + 1{,}618\beta$ dan π* adalah $E = \alpha - 0{,}618\beta$.
+
+(b) Dari baris kedua, $c_\text{O} = xc_\text{C}$. Untuk π: $c_\text{O}/c_\text{C} = 1{,}618$, dan setelah normalisasi $c_\text{O} = 0{,}851$, $c_\text{C} = 0{,}526$. Untuk π*: $c_\text{O}/c_\text{C} = -0{,}618$, sehingga $c_\text{O} = -0{,}526$, $c_\text{C} = 0{,}851$.
+
+(c) Dua elektron di orbital π: kerapatan π pada O $= 2(0{,}851)^2 = 1{,}447$, pada C $= 0{,}553$. Muatan π: O $-0{,}447$, C $+0{,}447$.
+
+(d) LUMO (π*) 72% berada di karbon ($0{,}851^2$). Nukleofil, yang menyumbangkan pasangan elektron ke LUMO, menyerang **karbon**.
+
+**Memahami hasil.** Matriks 2 × 2 yang sama menjelaskan dua fakta kimia karbonil sekaligus. Orbital terisi condong ke atom yang lebih elektronegatif, sehingga oksigen bermuatan parsial negatif dan gugus C=O sangat polar (momen dipol formaldehida 2,3 D). Orbital kosong condong ke arah sebaliknya, sehingga karbon adalah pusat elektrofilik tempat hidrida, reagen Grignard, dan amina menyerang. Polaritas dan reaktivitas karbonil adalah dua sisi dari pencampuran yang tidak setara, persis seperti Contoh 8.18 untuk ikatan σ H–F.
+:::
+
+::: {.contoh}
+**Contoh 8.21 · Akar-akar yang menyelang**
 
 Untuk partikel dalam kotak ($L = 1$), pakai basis yang diperbesar bertahap: $f_1 = x(1 - x)$, $f_3 = x(1 - x)(1 - 2x)$, $f_2 = x^2(1 - x)^2$, $f_4 = x^2(1 - x)^2(1 - 2x)$. Akar-akar persamaan sekuler (dihitung dengan Python, dalam satuan $E_1$) adalah:
 
@@ -178,7 +194,7 @@ Periksa teorema Hylleraas–Undheim–MacDonald (lihat juga Gambar 8.2).
 **Memahami hasil.** Beberapa akar tidak berubah sama sekali ketika satu fungsi ditambahkan, misalnya $W_2 = 4{,}2555$ ketika $f_2$ masuk. Alasannya simetri: $f_2$ genap, sedangkan keadaan kedua ganjil; fungsi genap tidak dapat memperbaiki keadaan ganjil. Matriks $\mathbf H$ dan $\mathbf S$ dalam basis campuran ini terpecah menjadi dua blok yang tidak berhubungan, satu untuk fungsi genap dan satu untuk fungsi ganjil. Pemecahan matriks menjadi blok-blok menurut simetri adalah teknik penghemat kerja yang dipakai di setiap program kimia komputasi; teori grup (Bab 10) adalah cara sistematis untuk menemukannya.
 :::
 
-![Gambar 8.2 Teorema Hylleraas–Undheim–MacDonald untuk partikel dalam kotak (Contoh 8.20). Setiap kolom adalah satu basis; garis pendek adalah akar-akar persamaan sekuler, garis putus-putus energi eksak $n^2E_1$. Akar selalu di atas nilai eksak dan turun (atau tetap) ketika basis diperbesar; garis tipis menghubungkan akar yang bersesuaian.](fig/c_macdonald.png){width=72%}
+![Gambar 8.2 Teorema Hylleraas–Undheim–MacDonald untuk partikel dalam kotak (Contoh 8.21). Setiap kolom adalah satu basis; garis pendek adalah akar-akar persamaan sekuler, garis putus-putus energi eksak $n^2E_1$. Akar selalu di atas nilai eksak dan turun (atau tetap) ketika basis diperbesar; garis tipis menghubungkan akar yang bersesuaian.](fig/c_macdonald.png){width=72%}
 
 ::: {.kuis}
 **Kuis cepat 8.4**
@@ -243,7 +259,7 @@ W, C = eigh(H, S)            # basis tak ortogonal: H C = S C W
 Fungsi `eigh` (untuk matriks simetris atau Hermitian) mengembalikan akar-akar dalam urutan naik dan vektor-vektor koefisien sebagai kolom-kolom `C`, sudah dinormalisasi menurut (8.26).
 
 ::: {.contoh}
-**Contoh 8.21 · Butadiena dan benzena dalam metode Hückel**
+**Contoh 8.22 · Butadiena dan benzena dalam metode Hückel**
 
 Dalam metode Hückel (Bab 13), orbital π dibangun dari orbital 2p karbon yang dianggap ortonormal, dengan $H_{ii} = \alpha$, $H_{ij} = \beta$ untuk atom bertetangga, dan nol untuk yang lain. Tuliskan $E = \alpha + x\beta$; maka $x$ adalah nilai eigen matriks keterhubungan. Diagonalkan matriks untuk butadiena (rantai empat atom) dan benzena (cincin enam atom) dengan Python, lalu hitung energi delokalisasi.
 
@@ -268,7 +284,7 @@ Karena $\beta < 0$, orbital ikatan adalah yang $x$-nya positif. Butadiena: $E = 
 :::
 
 ::: {.contoh}
-**Contoh 8.22 · Atom hidrogen dalam basis Gauss**
+**Contoh 8.23 · Atom hidrogen dalam basis Gauss**
 
 Basis Gauss bersimetri bola $f_i = e^{-\alpha_ir^2}$ tidak ortogonal. Integral-integralnya sederhana: dengan $a = \alpha_i + \alpha_j$,
 
@@ -286,13 +302,15 @@ from scipy.linalg import eigh
 from scipy.optimize import minimize
 
 def energi(ln_alfa):
-    al = np.exp(ln_alfa)                  # eksponen selalu positif
+    al = np.exp(ln_alfa)                 # eksponen selalu positif
     a = al[:, None] + al[None, :]
     S = (np.pi/a)**1.5
     H = 3*al[:, None]*al[None, :]/a*S - 2*np.pi/a
     return eigh(H, S, eigvals_only=True)[0]
 
-for awal in ([0.3], [0.2, 1.3], [0.15, 0.7, 4.0], [0.12, 0.45, 2.0, 13.0]):
+tebakan = ([0.3], [0.2, 1.3], [0.15, 0.7, 4.0],
+           [0.12, 0.45, 2.0, 13.0])
+for awal in tebakan:
     r = minimize(energi, np.log(awal), method='BFGS')
     print(len(awal), np.exp(r.x).round(4), round(r.fun, 5))
 ```
@@ -312,7 +330,7 @@ Hasilnya:
 ![Gambar 8.3 Atom hidrogen dalam basis Gauss teroptimum. Kiri: fungsi gelombang $\psi(r)$ untuk basis 1, 2, dan 3 fungsi Gauss dibandingkan dengan fungsi eksak $e^{-r}/\sqrt\pi$; perbedaan terbesar di dekat inti. Kanan: galat energi terhadap jumlah fungsi basis (skala logaritma), untuk eksponen yang dioptimumkan bebas dan untuk basis bertempera rata.](fig/c_gauss.png){width=92%}
 
 ::: {.contoh}
-**Contoh 8.23 · Osilator anharmonik dalam basis osilator harmonik**
+**Contoh 8.24 · Osilator anharmonik dalam basis osilator harmonik**
 
 Hamiltonian $\hat H = -\tfrac12d^2/dx^2 + \tfrac12x^2 + \lambda x^4$ dengan $\lambda = 0{,}1$ dapat ditulis dalam basis fungsi eigen osilator harmonik $|v\rangle$, yang ortonormal. Unsur matriks $x$ adalah $\langle v + 1|x|v\rangle = \sqrt{(v + 1)/2}$ (subbab 5.6), sehingga matriks $x^4$ dapat dihitung sebagai pangkat empat matriks $x$ (dengan basis yang sedikit lebih besar agar unsur di tepi benar). Hitung tiga energi terendah untuk ukuran basis $N = 1, 3, 6, 10, 20$.
 
@@ -332,7 +350,7 @@ Basis $N = 40$ tidak mengubah enam angka penting pertama dari baris $N = 20$, ja
 :::
 
 ::: {.contoh}
-**Contoh 8.24 · Ortogonalisasi Löwdin untuk dua fungsi**
+**Contoh 8.25 · Ortogonalisasi Löwdin untuk dua fungsi**
 
 Dua fungsi ternormalisasi mempunyai tumpang tindih $S = 0{,}50$. (a) Hitung $\mathbf S^{-1/2}$. (b) Tuliskan fungsi-fungsi Löwdin dan periksa ortonormalitasnya.
 
@@ -348,7 +366,7 @@ $$
 :::
 
 ::: {.contoh}
-**Contoh 8.25 · Sumur ganda: penerobosan dari diagonalisasi**
+**Contoh 8.26 · Sumur ganda: penerobosan dari diagonalisasi**
 
 Model satu dimensi untuk inversi amonia (subbab 3.12): partikel dalam kotak ($L = 1$, $\hbar = m = 1$) dengan penghalang persegi setinggi $V_0$ dan selebar 0,2 di tengah. Dalam basis 80 fungsi kotak $\sqrt2\sin(n\pi x)$, unsur matriks penghalang dihitung dengan integrasi numerik, lalu matriksnya didiagonalkan. Hasil untuk dua tingkat terendah:
 
@@ -366,10 +384,56 @@ Tafsirkan hasilnya.
 **Memahami hasil.** Fungsi gelombang kedua tingkat adalah kombinasi genap dan ganjil dari "partikel di sumur kiri" dan "partikel di sumur kanan", tepat seperti (8.21) dengan $S \approx 0$. Pada amonia, kedua sumur adalah dua bentuk piramida yang saling bercermin, penghalangnya adalah bentuk datar (sekitar 2000 cm⁻¹), dan pemisahan doblet keadaan dasar 0,79 cm⁻¹ adalah frekuensi maser amonia yang pertama (24 GHz). Diagonalisasi menghasilkan pemisahan penerobosan tanpa perlu menghitung peluang tembus secara terpisah.
 :::
 
+::: {.contoh}
+**Contoh 8.27 · Interaksi konfigurasi radial untuk helium**
+
+Perluas fungsi dua eksponen (Contoh 8.14) menjadi basis linear: pilih $n$ eksponen $\zeta_k = \zeta_0\beta^k$ (bertempera rata), dan bentuk semua fungsi dua elektron simetris $e^{-\zeta_ir_1}e^{-\zeta_jr_2} + e^{-\zeta_jr_1}e^{-\zeta_ir_2}$ dengan $i \le j$. Ada $n(n + 1)/2$ fungsi. Semua unsur matriks adalah gabungan integral di Contoh 8.14. Hitung energi terendah untuk $n = 2$, 4, dan 6, dengan $\zeta_0$ dan $\beta$ yang dioptimumkan, dan bandingkan dengan batas Hartree–Fock $-2{,}86168\ E_h$ dan energi eksak $-2{,}90372\ E_h$.
+
+**Penyelesaian.**
+
+```python
+import numpy as np
+S = lambda a, b: 8*np.pi/(a + b)**3        # seperti Contoh 8.14
+h = lambda a, b: (-0.5*(b*b*S(a, b) - 8*np.pi*b/(a + b)**2)
+                  - 8*np.pi/(a + b)**2)
+J = lambda p, q: (32*np.pi**2*(p*p + 3*p*q + q*q)
+                  /(p*p*q*q*(p + q)**3))
+
+def ci_radial(z):
+    m = len(z)
+    pas = [(z[i], z[j]) for i in range(m) for j in range(i, m)]
+    n = len(pas); H = np.zeros((n, n)); M = np.zeros((n, n))
+    for I, (a, b) in enumerate(pas):
+        for K, (c, d) in enumerate(pas):
+            for p, q in ((a, b), (b, a)):     # simetrisasi
+                for r, s in ((c, d), (d, c)):
+                    H[I, K] += (h(p, r)*S(q, s) + S(p, r)*h(q, s)
+                                + J(p + r, q + s))
+                    M[I, K] += S(p, r)*S(q, s)
+    s, U = np.linalg.eigh(M)                # ortogonalisasi kanonik
+    pakai = s > 1e-10*s.max()
+    X = U[:, pakai]/np.sqrt(s[pakai])
+    return np.linalg.eigvalsh(X.T @ H @ X)[0]
+
+for n, z0, beta in ((2, 1.3252, 1.8541), (4, 1.4021, 1.5335),
+                    (6, 1.3853, 1.4190)):
+    print(n, round(ci_radial(z0*beta**np.arange(n)), 5))
+```
+
+| $n$ | Jumlah fungsi | $E$ ($E_h$) |
+|---|---|---|
+| 1 | 1 | $-2{,}84766$ |
+| 2 | 3 | $-2{,}87689$ |
+| 4 | 10 | $-2{,}87886$ |
+| 6 | 21 | $-2{,}87899$ |
+
+**Memahami hasil.** Energi turun monoton dan konvergen ke sekitar $-2{,}8790\ E_h$, yaitu **batas-s**: energi terbaik yang dapat dicapai fungsi yang hanya memuat orbital s. Batas ini $0{,}0173\ E_h$ di bawah Hartree–Fock, tetapi masih $0{,}0247\ E_h$ di atas nilai eksak. Fungsi berbasis orbital s hanya dapat menggambarkan korelasi **radial** (satu elektron dekat inti, yang lain jauh); untuk korelasi **sudut** (kedua elektron di sisi berlawanan inti), konfigurasi seperti $2p^2$ dan $3d^2$ harus ditambahkan. Ternyata korelasi sudut lebih besar daripada korelasi radial. Inilah alasan program kimia komputasi memerlukan fungsi polarisasi (p untuk hidrogen, d untuk karbon) agar energi korelasi dapat dihitung dengan baik (subbab 17.5). Perhatikan pula baris ortogonalisasi kanonik: dengan eksponen yang berdekatan, matriks tumpang tindih hampir singular, persis bahaya yang diperingatkan kotak di atas.
+:::
+
 ::: {.terapan}
 **Semua program kimia kuantum adalah pendiagonal matriks**
 
-Program Hartree–Fock membangun matriks Fock dalam basis Gauss lalu menyelesaikan $\mathbf{FC} = \mathbf{SC\varepsilon}$, persis (8.26), berulang-ulang sampai konsisten diri (subbab 17.3). Program interaksi konfigurasi membangun matriks Hamiltonian dalam basis determinan Slater lalu mencari akar-akar terendahnya. Program dinamika getaran membangun matriks dalam basis osilator, seperti Contoh 8.23. Perbedaan antarprogram terutama terletak pada pilihan basis, cara menghitung unsur matriks, dan trik untuk menangani matriks yang sangat besar. Inti matematikanya adalah persamaan sekuler (8.18).
+Program Hartree–Fock membangun matriks Fock dalam basis Gauss lalu menyelesaikan $\mathbf{FC} = \mathbf{SC\varepsilon}$, persis (8.26), berulang-ulang sampai konsisten diri (subbab 17.3). Program interaksi konfigurasi membangun matriks Hamiltonian dalam basis determinan Slater lalu mencari akar-akar terendahnya. Program dinamika getaran membangun matriks dalam basis osilator, seperti Contoh 8.24. Perbedaan antarprogram terutama terletak pada pilihan basis, cara menghitung unsur matriks, dan trik untuk menangani matriks yang sangat besar. Inti matematikanya adalah persamaan sekuler (8.18).
 :::
 
 ::: {.kuis}

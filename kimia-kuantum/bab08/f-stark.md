@@ -20,7 +20,7 @@ Koefisien suku linear, $\mu_0 = -dE/dF$ di $F = 0$, adalah **momen dipol permane
 
 ### Orde pertama: momen dipol permanen
 
-$E^{(1)} = \langle n|\hat H'|n\rangle = -F\langle n|\hat\mu_z|n\rangle$, sehingga $\mu_0 = \langle n|\hat\mu_z|n\rangle$: momen dipol permanen adalah nilai rata-rata operator dipol. Untuk atom dalam keadaan tak terdegenerasi, fungsi gelombangnya mempunyai paritas tertentu (genap atau ganjil terhadap inversi, subbab 4.11), sehingga $|\psi|^2$ genap dan $z|\psi|^2$ ganjil, dan integralnya nol. **Atom dalam keadaan tak terdegenerasi tidak mempunyai momen dipol permanen**, dan tidak menunjukkan efek Stark linear. Molekul polar seperti HCl, yang tidak mempunyai pusat inversi, mempunyai $\mu_0 \ne 0$ dalam kerangka molekul; tetapi molekul yang berotasi bebas dalam keadaan rotasi tertentu juga tidak mempunyai dipol rata-rata dalam kerangka laboratorium, dan efek Starknya biasanya kuadratik (Contoh 8.46).
+$E^{(1)} = \langle n|\hat H'|n\rangle = -F\langle n|\hat\mu_z|n\rangle$, sehingga $\mu_0 = \langle n|\hat\mu_z|n\rangle$: momen dipol permanen adalah nilai rata-rata operator dipol. Untuk atom dalam keadaan tak terdegenerasi, fungsi gelombangnya mempunyai paritas tertentu (genap atau ganjil terhadap inversi, subbab 4.11), sehingga $|\psi|^2$ genap dan $z|\psi|^2$ ganjil, dan integralnya nol. **Atom dalam keadaan tak terdegenerasi tidak mempunyai momen dipol permanen**, dan tidak menunjukkan efek Stark linear. Molekul polar seperti HCl, yang tidak mempunyai pusat inversi, mempunyai $\mu_0 \ne 0$ dalam kerangka molekul; tetapi molekul yang berotasi bebas dalam keadaan rotasi tertentu juga tidak mempunyai dipol rata-rata dalam kerangka laboratorium, dan efek Starknya biasanya kuadratik (Contoh 8.49).
 
 ### Orde kedua: polarisabilitas
 
@@ -71,7 +71,7 @@ memakai $\langle r^2\rangle = 3$, $\langle r^3\rangle = \tfrac{15}{2}$ untuk 1s 
 :::
 
 ::: {.contoh}
-**Contoh 8.43 · Polarisabilitas hidrogen dari jumlah atas keadaan**
+**Contoh 8.46 · Polarisabilitas hidrogen dari jumlah atas keadaan**
 
 Unsur matriks dipol 1s–$n$p untuk hidrogen adalah $|\langle np_0|z|1s\rangle|^2 = 2^8n^7(n - 1)^{2n-5}/[3(n + 1)^{2n+5}]$, dan $E_n - E_1 = \tfrac12(1 - 1/n^2)$. (a) Hitung sumbangan $n = 2$ dan jumlah kumulatif keadaan terikat. (b) Berapa bagian $\alpha = 4{,}5$ yang berasal dari kontinu? (c) Bandingkan dengan taksiran Unsöld (8.37).
 
@@ -104,8 +104,20 @@ $$
 
 Kedua fungsi orde nol yang benar adalah **hibrida sp**: kombinasi 2s dan 2p$_0$ yang awannya bergeser ke satu sisi inti. Keduanya mempunyai momen dipol permanen sebesar $3ea_0$ yang menunjuk berlawanan, dan medan memilih orientasinya. Inilah contoh paling sederhana bagaimana pencampuran s dan p menghasilkan orbital berarah, gagasan yang menjadi inti hibridisasi (Bab 12).
 
+::: {.dalam}
+**Lebih dalam: menghitung $\langle 2s|z|2p_0\rangle$**
+
+Fungsi hidrogen ternormalisasi (satuan atom): $\psi_{2s} = (32\pi)^{-1/2}(2 - r)e^{-r/2}$ dan $\psi_{2p_0} = (32\pi)^{-1/2}r\cos\theta\,e^{-r/2}$. Dengan $z = r\cos\theta$,
+
+$$
+\langle 2s|z|2p_0\rangle = \frac{1}{32\pi}\int_0^{2\pi}\!\!\int_0^\pi\cos^2\theta\sin\theta\,d\theta\,d\phi\int_0^\infty(2 - r)\,r^4e^{-r}\,dr = \frac{1}{32\pi}\cdot\frac{4\pi}{3}\left(2\cdot4! - 5!\right) = \frac{48 - 120}{24} = -3 .
+$$
+
+Tandanya bergantung pada pilihan fase fungsi gelombang dan tidak bermakna fisika; yang bermakna adalah besarnya, $3a_0$, yang sangat besar dibandingkan $\langle 1s|z|2p_0\rangle = 0{,}745\ a_0$ karena kedua orbital $n = 2$ sama-sama luas.
+:::
+
 ::: {.contoh}
-**Contoh 8.44 · Efek Stark linear dan kuadratik hidrogen**
+**Contoh 8.47 · Efek Stark linear dan kuadratik hidrogen**
 
 (a) Hitung pemecahan tingkat $n = 2$ hidrogen dalam medan $1{,}0 \times 10^7$ V/m, dalam cm⁻¹. (b) Hitung pergeseran keadaan dasar dalam medan yang sama. (c) Bandingkan.
 
@@ -115,11 +127,11 @@ Kedua fungsi orde nol yang benar adalah **hibrida sp**: kombinasi 2s dan 2p$_0$ 
 
 (c) Efek linear $n = 2$ hampir $7 \times 10^4$ kali lebih besar daripada efek kuadratik 1s.
 
-**Memahami hasil.** Degenerasi membuat atom "sangat lunak": keadaan tereksitasi hidrogen dapat dipolarisasi tanpa biaya energi, karena 2s dan 2p sudah sama energinya. Garis Balmer, yang berasal dari $n \ge 3$, pecah menjadi banyak komponen dalam medan listrik; dari pemecahan itu fisikawan plasma mengukur medan listrik di dalam lucutan gas dan plasma fusi. Pada atom lain, degenerasi $\ell$ sudah pecah (Contoh 8.42), sehingga efek Starknya kuadratik kecuali pada medan sangat kuat.
+**Memahami hasil.** Degenerasi membuat atom "sangat lunak": keadaan tereksitasi hidrogen dapat dipolarisasi tanpa biaya energi, karena 2s dan 2p sudah sama energinya. Garis Balmer, yang berasal dari $n \ge 3$, pecah menjadi banyak komponen dalam medan listrik; dari pemecahan itu fisikawan plasma mengukur medan listrik di dalam lucutan gas dan plasma fusi. Pada atom lain, degenerasi $\ell$ sudah pecah (Contoh 8.45), sehingga efek Starknya kuadratik kecuali pada medan sangat kuat.
 :::
 
 ::: {.contoh}
-**Contoh 8.45 · Polarisabilitas elektron dalam kotak dan rantai terkonjugasi**
+**Contoh 8.48 · Polarisabilitas elektron dalam kotak dan rantai terkonjugasi**
 
 Di Contoh 4.46 kita menghitung dengan diagonalisasi bahwa elektron dalam kotak 1,00 nm mempunyai polarisabilitas $9{,}23 \times 10^{-39}$ C m²/V. (a) Hitung $\alpha$ dengan (8.47), memakai $\langle 1|x|n\rangle = -8Ln/[\pi^2(n^2 - 1)^2]$ untuk $n$ genap. (b) Berapa sumbangan keadaan $n = 2$? (c) Bagaimana $\alpha$ bergantung pada $L$?
 
@@ -133,7 +145,7 @@ Di Contoh 4.46 kita menghitung dengan diagonalisasi bahwa elektron dalam kotak 1
 :::
 
 ::: {.contoh}
-**Contoh 8.46 · Efek Stark rotasi dan pengukuran momen dipol**
+**Contoh 8.49 · Efek Stark rotasi dan pengukuran momen dipol**
 
 Molekul linear polar dengan momen dipol $\mu$ dan tetapan rotasi $B$ (dalam satuan energi) berada dalam keadaan rotasi $J = 0$. (a) Tunjukkan bahwa $E^{(1)} = 0$ dan $E^{(2)} = -\mu^2F^2/6B$. Gunakan $\langle 1, 0|\cos\theta|0, 0\rangle = 1/\sqrt3$. (b) Hitung pergeseran untuk HCl ($\mu = 1{,}109$ D, $B = 10{,}44$ cm⁻¹) dalam medan $1{,}0 \times 10^7$ V/m, dan untuk OCS ($\mu = 0{,}7152$ D, $B = 6081{,}49$ MHz) dalam medan $1{,}0 \times 10^5$ V/m.
 
@@ -167,7 +179,7 @@ $$
 Gaya dispersi sebanding dengan **kuadrat polarisabilitas**: atom dan molekul yang besar dan "lunak" saling tarik lebih kuat.
 
 ::: {.contoh}
-**Contoh 8.47 · Gas mulia: dispersi dan titik didih**
+**Contoh 8.50 · Gas mulia: dispersi dan titik didih**
 
 Data: polarisabilitas (dalam $a_0^3$) dan energi ionisasi (eV): He 1,383 dan 24,59; Ne 2,670 dan 21,56; Ar 11,08 dan 15,76; Kr 16,77 dan 14,00; Xe 27,16 dan 12,13. Nilai $C_6$ yang teliti (satuan atom): 1,46; 6,38; 64,3; 130; 286. Titik didih: 4,2; 27,1; 87,3; 119,9; 165,1 K. (a) Hitung $C_6$ London. (b) Bandingkan dengan nilai teliti. (c) Kaitkan dengan titik didih.
 
@@ -194,6 +206,16 @@ Data: polarisabilitas (dalam $a_0^3$) dan energi ionisasi (eV): He 1,383 dan 24,
 **Polarisabilitas, indeks bias, dan warna langit**
 
 Polarisabilitas menghubungkan dunia molekul dengan sifat optik makroskopik. Persamaan Lorentz–Lorenz mengaitkan indeks bias $n$ dengan polarisabilitas pada frekuensi cahaya: $(n^2 - 1)/(n^2 + 2) = N\alpha/3\varepsilon_0$, dengan $N$ kerapatan molekul. Refraksi molar senyawa organik dapat dihitung dengan menjumlahkan sumbangan ikatan, karena polarisabilitas kira-kira aditif. Hamburan Rayleigh cahaya oleh molekul udara sebanding dengan $\alpha^2\omega^4$, sehingga cahaya biru dihamburkan jauh lebih kuat daripada merah: inilah sebabnya langit biru dan matahari terbenam merah. Ketika frekuensi cahaya mendekati frekuensi serapan, penyebut di (8.47) mengecil, polarisabilitas dinamis membesar, dan muncul dispersi anomali serta hamburan resonansi.
+:::
+
+::: {.contoh}
+**Contoh 8.51 · Indeks bias gas dari polarisabilitas**
+
+Untuk gas, $n$ dekat 1 sehingga persamaan Lorentz–Lorenz dapat ditulis $n - 1 \approx 2\pi N\alpha'$, dengan $\alpha'$ volume polarisabilitas dan $N$ jumlah molekul per satuan volume. Hitung $n - 1$ untuk metana ($\alpha' = 2{,}59$ Å³) dan nitrogen ($\alpha' = 1{,}74$ Å³) pada 0 °C dan 1 atm. Nilai terukur: 0,000 44 dan 0,000 30.
+
+**Penyelesaian.** $N = p/k_BT = 101\,325/(1{,}381 \times 10^{-23} \times 273{,}15) = 2{,}687 \times 10^{25}$ m⁻³. Metana: $2\pi(2{,}687 \times 10^{25})(2{,}59 \times 10^{-30}) = 4{,}37 \times 10^{-4}$. Nitrogen: $2{,}94 \times 10^{-4}$.
+
+**Memahami hasil.** Sifat satu molekul yang dihitung dengan teori perturbasi orde kedua meramalkan sifat optik gas dengan galat hanya beberapa persen (selisih kecil berasal dari perbedaan polarisabilitas statis dan polarisabilitas pada frekuensi cahaya). Arah sebaliknya juga dipakai: pengukuran indeks bias atau tetapan dielektrik gas adalah cara klasik untuk menentukan polarisabilitas molekul. Pada cairan, $N$ seribu kali lebih besar dan $n - 1$ menjadi berorde 0,3–0,5; refraktometer Abbe di laboratorium kimia organik pada dasarnya mengukur polarisabilitas molekul.
 :::
 
 ::: {.kuis}

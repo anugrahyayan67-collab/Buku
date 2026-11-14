@@ -140,217 +140,227 @@ Pakai satuan atom ($1\ E_h = 27{,}211$ eV $= 2625{,}5$ kJ/mol $= 219\,475$ cm⁻
 
 **30.** Untuk dua basis setara dengan tumpang tindih $S$, tunjukkan bahwa $\alpha - W_+ = -(\beta - \alpha S)/(1 + S)$ dan $W_- - \alpha = -(\beta - \alpha S)/(1 - S)$. Mana yang lebih besar bila $S > 0$?
 
-**31.** [P] Osilator kuartik $\tfrac12x^2 + 0{,}1x^4$ ($\hbar = m = \omega = 1$) dalam basis $\{|0\rangle, |2\rangle\}$. Diketahui $H_{00} = 0{,}575$, $H_{22} = 3{,}475$, $H_{02} = 0{,}2121$. Hitung akar-akarnya dan bandingkan dengan 0,559146.
+**31.** Model Hückel imina C=N: $H_\text{NN} = \alpha + 0{,}5\beta$, $H_\text{CC} = \alpha$, $H_\text{CN} = \beta$. Hitung kedua akar dan bagian LUMO yang berada di karbon.
+
+**32.** [P] Osilator kuartik $\tfrac12x^2 + 0{,}1x^4$ ($\hbar = m = \omega = 1$) dalam basis $\{|0\rangle, |2\rangle\}$. Diketahui $H_{00} = 0{,}575$, $H_{22} = 3{,}475$, $H_{02} = 0{,}2121$. Hitung akar-akarnya dan bandingkan dengan 0,559146.
 
 **Tantangan ★**
 
-**32.** ★ Jelaskan mengapa menambah satu fungsi basis tidak pernah menaikkan akar terendah persamaan sekuler.
+**33.** ★ Jelaskan mengapa menambah satu fungsi basis tidak pernah menaikkan akar terendah persamaan sekuler.
 
 ## Subbab 8.5: Matriks, nilai eigen, diagonalisasi (dengan Python)
 
 **Dasar**
 
-**33.** Diagonalkan $\begin{pmatrix}1 & 2\\ 2 & 1\end{pmatrix}$: nilai eigen dan vektor eigen ternormalisasi.
+**34.** Diagonalkan $\begin{pmatrix}1 & 2\\ 2 & 1\end{pmatrix}$: nilai eigen dan vektor eigen ternormalisasi.
 
-**34.** Hitung $\mathbf S^{-1/2}$ untuk dua fungsi dengan tumpang tindih $S = 0{,}25$.
+**35.** Hitung $\mathbf S^{-1/2}$ untuk dua fungsi dengan tumpang tindih $S = 0{,}25$.
 
-**35.** Hitung nilai eigen Hückel siklobutadiena (cincin empat atom). Apa akibatnya bagi empat elektron π?
+**36.** Hitung nilai eigen Hückel siklobutadiena (cincin empat atom). Apa akibatnya bagi empat elektron π?
 
 **Menengah**
 
-**36.** Dengan Python, diagonalkan matriks Hückel naftalena dan hitung energi π total serta celah HOMO–LUMO.
+**37.** Dengan Python, diagonalkan matriks Hückel naftalena dan hitung energi π total serta celah HOMO–LUMO.
 
-**37.** Basis empat fungsi Gauss bertempera rata untuk atom hidrogen dengan $\alpha_0 = 0{,}1348$ dan $\beta = 4{,}074$ ($\alpha_k = \alpha_0\beta^k$) memberi energi berapa? Bandingkan dengan empat Gauss teroptimum bebas.
+**38.** Basis empat fungsi Gauss bertempera rata untuk atom hidrogen dengan $\alpha_0 = 0{,}1348$ dan $\beta = 4{,}074$ ($\alpha_k = \alpha_0\beta^k$) memberi energi berapa? Bandingkan dengan empat Gauss teroptimum bebas.
 
-**38.** Mengapa basis $\{|0\rangle, |1\rangle\}$ tidak memperbaiki energi keadaan dasar osilator $\tfrac12x^2 + \lambda x^4$ dibandingkan basis $\{|0\rangle\}$?
+**39.** Mengapa basis $\{|0\rangle, |1\rangle\}$ tidak memperbaiki energi keadaan dasar osilator $\tfrac12x^2 + \lambda x^4$ dibandingkan basis $\{|0\rangle\}$?
 
-**39.** Hitung sudut rotasi Jacobi yang mendiagonalkan $\begin{pmatrix}-5 & -1\\ -1 & -3\end{pmatrix}$.
+**40.** Dari Contoh 8.27, batas-s helium sekitar $-2{,}8790\ E_h$. Berapa bagian energi korelasi ($-0{,}0420\ E_h$) yang berupa korelasi radial?
+
+**41.** Hitung sudut rotasi Jacobi yang mendiagonalkan $\begin{pmatrix}-5 & -1\\ -1 & -3\end{pmatrix}$.
 
 **Tantangan ★**
 
-**40.** ★ Untuk rantai Hückel $N$ atom, nilai eigennya $x_k = 2\cos[k\pi/(N + 1)]$. Periksa dengan Python untuk heksatriena ($N = 6$) dan hitung celah HOMO–LUMO.
+**42.** ★ Untuk rantai Hückel $N$ atom, nilai eigennya $x_k = 2\cos[k\pi/(N + 1)]$. Periksa dengan Python untuk heksatriena ($N = 6$) dan hitung celah HOMO–LUMO.
 
 ## Subbab 8.6: Perturbasi tak terdegenerasi orde pertama
 
 **Dasar**
 
-**41.** Partikel dalam kotak diberi potensial $V_0$ hanya di separuh kiri kotak. Hitung $E_n^{(1)}$.
+**43.** Partikel dalam kotak diberi potensial $V_0$ hanya di separuh kiri kotak. Hitung $E_n^{(1)}$.
 
-**42.** Osilator harmonik diberi perturbasi $cx^3$. Berapa $E_v^{(1)}$?
+**44.** Osilator harmonik diberi perturbasi $cx^3$. Berapa $E_v^{(1)}$?
 
-**43.** Osilator diberi perturbasi $bx^2$. Hitung $E_v^{(1)}$ dan bandingkan dengan uraian energi eksak.
+**45.** Osilator diberi perturbasi $bx^2$. Hitung $E_v^{(1)}$ dan bandingkan dengan uraian energi eksak.
+
+**46.** Hitung pergeseran energi 1s hidrogen akibat gerak inti, $-(m_e/M)E_{1s}$, dalam cm⁻¹.
 
 **Menengah**
 
-**44.** [P] Inti hidrogen bukan titik, tetapi bola bermuatan seragam berjari-jari 0,84 fm. Tunjukkan bahwa pergeseran orde pertama 1s adalah $\tfrac25Z^4R^2$ (satuan atom) dan hitung dalam Hz.
+**47.** [P] Inti hidrogen bukan titik, tetapi bola bermuatan seragam berjari-jari 0,84 fm. Tunjukkan bahwa pergeseran orde pertama 1s adalah $\tfrac25Z^4R^2$ (satuan atom) dan hitung dalam Hz.
 
-**45.** Alil dengan heteroatom ($h = 0{,}5$) di atom tengah. Orbital alil: $(1, \sqrt2, 1)/2$, $(1, 0, -1)/\sqrt2$, $(1, -\sqrt2, 1)/2$. Hitung pergeseran orde pertama. Eksak: $x = 1{,}686$; 0; $-1{,}186$.
+**48.** Alil dengan heteroatom ($h = 0{,}5$) di atom tengah. Orbital alil: $(1, \sqrt2, 1)/2$, $(1, 0, -1)/\sqrt2$, $(1, -\sqrt2, 1)/2$. Hitung pergeseran orde pertama. Eksak: $x = 1{,}686$; 0; $-1{,}186$.
 
-**46.** Ulangi untuk heteroatom di atom ujung. Eksak: 1,571; 0,242; $-1{,}313$.
+**49.** Ulangi untuk heteroatom di atom ujung. Eksak: 1,571; 0,242; $-1{,}313$.
 
-**47.** Hitung koreksi relativistik orde pertama total $-Z^4\alpha_\text{f}^2/8$ untuk 1s ion C⁵⁺ dalam cm⁻¹ dan relatif terhadap $-Z^2/2$.
+**50.** Hitung koreksi relativistik orde pertama total $-Z^4\alpha_\text{f}^2/8$ untuk 1s ion C⁵⁺ dalam cm⁻¹ dan relatif terhadap $-Z^2/2$.
 
-**48.** Dalam Contoh 8.26, hitung koefisien campuran $a_4$ (pakai $\langle 4|x|1\rangle = -0{,}01441L$) dan bandingkan dengan $a_2$.
+**51.** Mengapa koreksi massa inti orde pertama, $E \approx E^{(0)}(1 - m_e/M)$, gagal untuk positronium ($M = m_e$)? Berapa energi keadaan dasarnya yang benar?
+
+**52.** Dalam Contoh 8.28, hitung koefisien campuran $a_4$ (pakai $\langle 4|x|1\rangle = -0{,}01441L$) dan bandingkan dengan $a_2$.
 
 **Tantangan ★**
 
-**49.** ★ Teorema Hellmann–Feynman menyatakan $dE/d\lambda = \langle\psi(\lambda)|\hat H'|\psi(\lambda)\rangle$ untuk $\hat H = \hat H^{(0)} + \lambda\hat H'$. Tunjukkan bahwa di $\lambda = 0$ teorema ini memberi $E^{(1)}$, dan bahwa turunannya memberi $2E^{(2)}$.
+**53.** ★ Teorema Hellmann–Feynman menyatakan $dE/d\lambda = \langle\psi(\lambda)|\hat H'|\psi(\lambda)\rangle$ untuk $\hat H = \hat H^{(0)} + \lambda\hat H'$. Tunjukkan bahwa di $\lambda = 0$ teorema ini memberi $E^{(1)}$, dan bahwa turunannya memberi $2E^{(2)}$.
 
 ## Subbab 8.7: Orde kedua
 
 **Dasar**
 
-**50.** Dua tingkat berjarak 2,0 eV dikopel oleh 0,10 eV. Hitung pergeseran orde kedua tingkat bawah.
+**54.** Dua tingkat berjarak 2,0 eV dikopel oleh 0,10 eV. Hitung pergeseran orde kedua tingkat bawah.
 
-**51.** Ikatan dimodelkan sebagai muatan $e$ pada pegas $k = 500$ N/m dalam medan $1{,}0 \times 10^9$ V/m. Hitung pergeseran energinya.
+**55.** Ikatan dimodelkan sebagai muatan $e$ pada pegas $k = 500$ N/m dalam medan $1{,}0 \times 10^9$ V/m. Hitung pergeseran energinya.
 
-**52.** Mengapa tolakan tingkat tidak pernah membuat dua tingkat yang terkopel berpotongan?
+**56.** Mengapa tolakan tingkat tidak pernah membuat dua tingkat yang terkopel berpotongan?
 
 **Menengah**
 
-**53.** Untuk $\lambda = 0{,}05$, bandingkan deret perturbasi keadaan dasar $\tfrac12x^2 + \lambda x^4$ sampai orde pertama dan kedua dengan nilai eksak 0,532643.
+**57.** Untuk $\lambda = 0{,}05$, bandingkan deret perturbasi keadaan dasar $\tfrac12x^2 + \lambda x^4$ sampai orde pertama dan kedua dengan nilai eksak 0,532643.
 
-**54.** Hitung $E_0^{(2)}$ untuk osilator dengan perturbasi kubik $gx^3$, $g = 0{,}05$ ($\hbar = m = \omega = 1$).
+**58.** Hitung $E_0^{(2)}$ untuk osilator dengan perturbasi kubik $gx^3$, $g = 0{,}05$ ($\hbar = m = \omega = 1$).
 
-**55.** Dengan rumus Morse $\omega_ex_e = \omega_e^2/4D_e$ (yang diturunkan dari perturbasi), ramalkan $\omega_ex_e$ HCl ($\omega_e = 2990{,}95$ cm⁻¹, $D_e = 4{,}618$ eV).
+**59.** Dengan rumus Morse $\omega_ex_e = \omega_e^2/4D_e$ (yang diturunkan dari perturbasi), ramalkan $\omega_ex_e$ HCl ($\omega_e = 2990{,}95$ cm⁻¹, $D_e = 4{,}618$ eV).
 
-**56.** Untuk alil dengan heteroatom ($h = 0{,}5$) di atom ujung, hitung koreksi orde kedua orbital terendah dan bandingkan dengan nilai eksak 1,5707.
+**60.** Untuk alil dengan heteroatom ($h = 0{,}5$) di atom ujung, hitung koreksi orde kedua orbital terendah dan bandingkan dengan nilai eksak 1,5707.
 
 **Tantangan ★**
 
-**57.** [P] ★ Untuk dua tingkat $0$ dan $\Delta$ yang dikopel oleh $V$, uraikan akar eksak tingkat bawah sampai $V^4$ dan tunjukkan bahwa $E^{(4)} = +V^4/\Delta^3$.
+**61.** [P] ★ Untuk dua tingkat $0$ dan $\Delta$ yang dikopel oleh $V$, uraikan akar eksak tingkat bawah sampai $V^4$ dan tunjukkan bahwa $E^{(4)} = +V^4/\Delta^3$.
 
-**58.** ★ Tunjukkan dengan argumen Dyson bahwa deret perturbasi untuk $\tfrac12x^2 + \lambda x^4$ tidak dapat konvergen untuk $\lambda$ sekecil apa pun.
+**62.** ★ Tunjukkan dengan argumen Dyson bahwa deret perturbasi untuk $\tfrac12x^2 + \lambda x^4$ tidak dapat konvergen untuk $\lambda$ sekecil apa pun.
 
 ## Subbab 8.8: Helium: perturbasi vs variasi
 
 **Dasar**
 
-**59.** Hitung $E^{(0)} + E^{(1)}$ untuk Li⁺ dalam eV.
+**63.** Hitung $E^{(0)} + E^{(1)}$ untuk Li⁺ dalam eV.
 
-**60.** Dengan deret $1/Z$ sampai orde kedua, hitung energi Be²⁺. Nilai eksak $-13{,}65557\ E_h$.
+**64.** Dengan deret $1/Z$ sampai orde kedua, hitung energi Be²⁺. Nilai eksak $-13{,}65557\ E_h$.
 
-**61.** Nyatakan $E^{(1)}$ helium ($\tfrac54\ E_h$) dalam kJ/mol, dan bandingkan dengan energi ikatan C–C (sekitar 350 kJ/mol).
+**65.** Nyatakan $E^{(1)}$ helium ($\tfrac54\ E_h$) dalam kJ/mol, dan bandingkan dengan energi ikatan C–C (sekitar 350 kJ/mol).
 
 **Menengah**
 
-**62.** Untuk ion mirip helium manakah $E^{(1)}$ tepat sepersepuluh $|E^{(0)}|$?
+**66.** Untuk ion mirip helium manakah $E^{(1)}$ tepat sepersepuluh $|E^{(0)}|$?
 
-**63.** Berapa persen $\varepsilon_2$ yang ditangkap oleh suku $-25/256$ fungsi variasi? Apa yang tidak tertangkap?
+**67.** Berapa persen $\varepsilon_2$ yang ditangkap oleh suku $-25/256$ fungsi variasi? Apa yang tidak tertangkap?
 
-**64.** Tunjukkan bahwa $W(\zeta = Z)$ fungsi variasi helium sama dengan $E^{(0)} + E^{(1)}$.
+**68.** Tunjukkan bahwa $W(\zeta = Z)$ fungsi variasi helium sama dengan $E^{(0)} + E^{(1)}$.
 
 **Tantangan ★**
 
-**65.** ★ Dengan deret $1/Z$ sampai $\varepsilon_3$, cari muatan inti kritis $Z_c$ di bawah mana ion mirip helium tidak terikat terhadap pelepasan satu elektron ($E = -Z^2/2$).
+**69.** ★ Dengan deret $1/Z$ sampai $\varepsilon_3$, cari muatan inti kritis $Z_c$ di bawah mana ion mirip helium tidak terikat terhadap pelepasan satu elektron ($E = -Z^2/2$).
 
-**66.** ★ Jelaskan dengan penskalaan mengapa $\varepsilon_2$ tidak bergantung pada $Z$.
+**70.** ★ Jelaskan dengan penskalaan mengapa $\varepsilon_2$ tidak bergantung pada $Z$.
 
 ## Subbab 8.9: Perturbasi tingkat terdegenerasi; keadaan tereksitasi helium
 
 **Dasar**
 
-**67.** Partikel pada cincin diberi perturbasi $V_0\cos4\phi$. Tingkat mana yang pecah pada orde pertama, dan berapa pemecahannya?
+**71.** Partikel pada cincin diberi perturbasi $V_0\cos4\phi$. Tingkat mana yang pecah pada orde pertama, dan berapa pemecahannya?
 
-**68.** Hitung pemecahan singlet–triplet 1s2s helium menurut orde pertama, dalam eV, dan bandingkan dengan nilai eksak.
+**72.** Hitung pemecahan singlet–triplet 1s2s helium menurut orde pertama, dalam eV, dan bandingkan dengan nilai eksak.
 
-**69.** Berapa keadaan ruang yang terdegenerasi dalam $\hat H^{(0)}$ untuk konfigurasi 1s3d helium?
+**73.** Berapa keadaan ruang yang terdegenerasi dalam $\hat H^{(0)}$ untuk konfigurasi 1s3d helium?
 
 **Menengah**
 
-**70.** Bandingkan $J_{1s2s} = 17Z/81$ dengan $\langle 1/r\rangle_{2s} = Z/4$. Berapa perbandingannya dan apa artinya?
+**74.** Bandingkan $J_{1s2s} = 17Z/81$ dengan $\langle 1/r\rangle_{2s} = Z/4$. Berapa perbandingannya dan apa artinya?
 
-**71.** Untuk pasangan antiikatan benzena ($x = -1$) dalam piridina ($h = 0{,}5$), hitung pergeseran orde pertama.
+**75.** Untuk pasangan antiikatan benzena ($x = -1$) dalam piridina ($h = 0{,}5$), hitung pergeseran orde pertama.
 
-**72.** [P] Kotak persegi dua dimensi (sisi $L$, sudut di titik asal) diberi perturbasi $\hat H' = cxy$. Hitung pemecahan tingkat terdegenerasi $(n_x, n_y) = (1, 2), (2, 1)$.
+**76.** [P] Kotak persegi dua dimensi (sisi $L$, sudut di titik asal) diberi perturbasi $\hat H' = cxy$. Hitung pemecahan tingkat terdegenerasi $(n_x, n_y) = (1, 2), (2, 1)$.
 
-**73.** Pirazina (N di posisi 1 dan 4 cincin benzena, $h = 0{,}5$): hitung pergeseran orde pertama pasangan $x = 1$. Eksak: 1,351 dan 1,000.
+**77.** Pirazina (N di posisi 1 dan 4 cincin benzena, $h = 0{,}5$): hitung pergeseran orde pertama pasangan $x = 1$. Eksak: 1,351 dan 1,000.
 
 **Tantangan ★**
 
-**74.** ★ Tiga orbital p diberi perturbasi aksial $c(3z^2 - r^2)$. Dengan $\langle p_z|3\cos^2\theta - 1|p_z\rangle = \tfrac45$ dan $\langle p_x|3\cos^2\theta - 1|p_x\rangle = -\tfrac25$, tentukan pemecahannya.
+**78.** ★ Tiga orbital p diberi perturbasi aksial $c(3z^2 - r^2)$. Dengan $\langle p_z|3\cos^2\theta - 1|p_z\rangle = \tfrac45$ dan $\langle p_x|3\cos^2\theta - 1|p_x\rangle = -\tfrac25$, tentukan pemecahannya.
 
 ## Subbab 8.10: Efek Stark dan polarisabilitas
 
 **Dasar**
 
-**75.** Nyatakan polarisabilitas helium (1,383 $a_0^3$) dalam Å³ dan dalam C m²/V.
+**79.** Nyatakan polarisabilitas helium (1,383 $a_0^3$) dalam Å³ dan dalam C m²/V.
 
-**76.** Hitung momen dipol terinduksi atom argon ($\alpha = 11{,}08\ a_0^3$) dalam medan $1{,}0 \times 10^8$ V/m, dalam debye.
+**80.** Hitung momen dipol terinduksi atom argon ($\alpha = 11{,}08\ a_0^3$) dalam medan $1{,}0 \times 10^8$ V/m, dalam debye.
 
-**77.** Hitung pemecahan Stark linear $\pm3F$ tingkat $n = 2$ hidrogen dalam medan $1{,}0 \times 10^6$ V/m, dalam cm⁻¹.
+**81.** Hitung pemecahan Stark linear $\pm3F$ tingkat $n = 2$ hidrogen dalam medan $1{,}0 \times 10^6$ V/m, dalam cm⁻¹.
 
 **Menengah**
 
-**78.** Taksir polarisabilitas helium dengan rumus Unsöld, memakai $\langle(z_1 + z_2)^2\rangle = 2\langle z^2\rangle$, $\langle z^2\rangle = 1/\zeta^2$ dengan $\zeta = 27/16$, dan $\Delta E = 0{,}904\ E_h$.
+**82.** Taksir polarisabilitas helium dengan rumus Unsöld, memakai $\langle(z_1 + z_2)^2\rangle = 2\langle z^2\rangle$, $\langle z^2\rangle = 1/\zeta^2$ dengan $\zeta = 27/16$, dan $\Delta E = 0{,}904\ E_h$.
 
-**79.** Berapa volume polarisabilitas elektron dalam kotak 2,0 nm?
+**83.** Berapa volume polarisabilitas elektron dalam kotak 2,0 nm?
 
-**80.** Berapa pergeseran Stark OCS ($J = 0$) dalam medan $2{,}0 \times 10^5$ V/m?
+**84.** Berapa pergeseran Stark OCS ($J = 0$) dalam medan $2{,}0 \times 10^5$ V/m?
 
-**81.** Hitung $C_6$ London untuk pasangan Ar–Kr.
+**85.** Hitung $C_6$ London untuk pasangan Ar–Kr.
 
-**82.** Hitung energi dispersi $-C_6/R^6$ untuk Ar–Ar ($C_6 = 64{,}3$) pada 3,8 Å, dalam cm⁻¹ dan kelvin.
+**86.** Hitung energi dispersi $-C_6/R^6$ untuk Ar–Ar ($C_6 = 64{,}3$) pada 3,8 Å, dalam cm⁻¹ dan kelvin.
 
 **Tantangan ★**
 
-**83.** [P] ★ Turunkan rumus London $C_6 = \tfrac34I\alpha^2$ untuk dua atom sejenis dari pendekatan Unsöld.
+**87.** [P] ★ Turunkan rumus London $C_6 = \tfrac34I\alpha^2$ untuk dua atom sejenis dari pendekatan Unsöld.
 
-**84.** ★ Dengan fungsi $\psi^{(1)}$ Dalgarno–Lewis, tunjukkan bahwa momen dipol terinduksi atom hidrogen adalah $4{,}5F$.
+**88.** ★ Dengan fungsi $\psi^{(1)}$ Dalgarno–Lewis, tunjukkan bahwa momen dipol terinduksi atom hidrogen adalah $4{,}5F$.
 
 ## Subbab 8.11: Perturbasi bergantung waktu; interaksi radiasi dan materi
 
 **Dasar**
 
-**85.** Frekuensi Rabi suatu transisi adalah $\Omega/2\pi = 50$ kHz. Berapa periode Rabi dan lama pulsa $\pi$?
+**89.** Frekuensi Rabi suatu transisi adalah $\Omega/2\pi = 50$ kHz. Berapa periode Rabi dan lama pulsa $\pi$?
 
-**86.** Pada resonansi, berapa $\Omega t$ ketika peluang transisi orde pertama mencapai 0,1?
+**90.** Pada resonansi, berapa $\Omega t$ ketika peluang transisi orde pertama mencapai 0,1?
 
-**87.** Berapa lebar spektrum (cm⁻¹) pulsa Gauss 50 fs?
+**91.** Berapa lebar spektrum (cm⁻¹) pulsa Gauss 50 fs?
 
 **Menengah**
 
-**88.** Ion He⁺ dalam keadaan 1s mengalami perubahan muatan inti mendadak dari 2 menjadi 3. Hitung peluang ion Li²⁺ yang terbentuk berada di 1s.
+**92.** Ion He⁺ dalam keadaan 1s mengalami perubahan muatan inti mendadak dari 2 menjadi 3. Hitung peluang ion Li²⁺ yang terbentuk berada di 1s.
 
-**89.** Pada penalaan $\delta = 2\Omega$, berapa peluang transisi maksimum?
+**93.** Pada penalaan $\delta = 2\Omega$, berapa peluang transisi maksimum?
 
-**90.** Dalam Contoh 8.49, berapa intensitas laser yang diperlukan agar periode Rabi menjadi 1,0 ns?
+**94.** Dalam Contoh 8.53, berapa intensitas laser yang diperlukan agar periode Rabi menjadi 1,0 ns?
 
-**91.** Jelaskan mengapa transisi tidak terjadi bila perturbasi dinyalakan sangat lambat dibandingkan $1/\omega_{fi}$.
+**95.** Hitung jarak persilangan kurva ionik–kovalen untuk NaBr ($A_\text{Br} = 3{,}364$ eV) dan KCl ($I_\text{K} = 4{,}341$ eV). Mana yang "melempar harpun" dari jarak lebih jauh?
+
+**96.** Jelaskan mengapa transisi tidak terjadi bila perturbasi dinyalakan sangat lambat dibandingkan $1/\omega_{fi}$.
 
 **Tantangan ★**
 
-**92.** [P] ★ Untuk sistem dua tingkat tepat pada resonansi dengan pendekatan gelombang berputar, persamaan (8.52) menjadi $i\dot c_i = (\Omega/2)c_f$ dan $i\dot c_f = (\Omega/2)c_i$. Selesaikan dengan $c_i(0) = 1$.
+**97.** [P] ★ Untuk sistem dua tingkat tepat pada resonansi dengan pendekatan gelombang berputar, persamaan (8.52) menjadi $i\dot c_i = (\Omega/2)c_f$ dan $i\dot c_f = (\Omega/2)c_i$. Selesaikan dengan $c_i(0) = 1$.
 
 ## Subbab 8.12: Momen dipol transisi, aturan seleksi, aturan emas Fermi
 
 **Dasar**
 
-**93.** Untuk partikel dalam kotak, mana yang diizinkan: 1 → 2, 1 → 3, 2 → 5, 3 → 6?
+**98.** Untuk partikel dalam kotak, mana yang diizinkan: 1 → 2, 1 → 3, 2 → 5, 3 → 6?
 
-**94.** Mana yang diizinkan pada atom hidrogen: 4f → 3d, 4f → 2p, 3s → 1s, 4p → 1s?
+**99.** Mana yang diizinkan pada atom hidrogen: 4f → 3d, 4f → 2p, 3s → 1s, 4p → 1s?
 
-**95.** Pita serapan Gauss mempunyai $\varepsilon_\text{maks} = 2{,}0 \times 10^4$ L mol⁻¹ cm⁻¹ dan lebar 4000 cm⁻¹. Hitung kekuatan osilatornya.
+**100.** Pita serapan Gauss mempunyai $\varepsilon_\text{maks} = 2{,}0 \times 10^4$ L mol⁻¹ cm⁻¹ dan lebar 4000 cm⁻¹. Hitung kekuatan osilatornya.
 
 **Menengah**
 
-**96.** Transisi pada 300 nm mempunyai $|\mu_{fi}| = 5{,}0$ D. Hitung $A$ dan umur radiatifnya.
+**101.** Transisi pada 300 nm mempunyai $|\mu_{fi}| = 5{,}0$ D. Hitung $A$ dan umur radiatifnya.
 
-**97.** Berapa lebar garis alami ($A/2\pi$) keadaan dengan umur 10 ns?
+**102.** Berapa lebar garis alami ($A/2\pi$) keadaan dengan umur 10 ns?
 
-**98.** Dalam kompleks oktahedral (berpusat inversi), mana yang diizinkan dipol: $t_{2g} \to e_g$, $t_{1u} \to t_{2g}$, $a_{1g} \to t_{1u}$?
+**103.** Dalam kompleks oktahedral (berpusat inversi), mana yang diizinkan dipol: $t_{2g} \to e_g$, $t_{1u} \to t_{2g}$, $a_{1g} \to t_{1u}$?
 
-**99.** Pada spektrum rotasi HCl ($B = 10{,}44$ cm⁻¹), di mana garis $J = 0 \to 1$? Apakah $J = 0 \to 2$ teramati?
+**104.** Pada spektrum rotasi HCl ($B = 10{,}44$ cm⁻¹), di mana garis $J = 0 \to 1$? Apakah $J = 0 \to 2$ teramati?
 
-**100.** Sebuah keadaan terkopel $0{,}010$ eV dengan kontinu yang kerapatannya 10 keadaan/eV. Hitung laju peluruhan dengan aturan emas dan umurnya.
+**105.** Sebuah keadaan terkopel $0{,}010$ eV dengan kontinu yang kerapatannya 10 keadaan/eV. Hitung laju peluruhan dengan aturan emas dan umurnya.
 
-**101.** Kekuatan osilator 1s → $n$p hidrogen: 0,4162; 0,0791; 0,0290; 0,0139; 0,0078; 0,0048 untuk $n = 2$ sampai 7. Taksir sumbangan kontinu dari aturan TRK.
+**106.** Kekuatan osilator 1s → $n$p hidrogen: 0,4162; 0,0791; 0,0290; 0,0139; 0,0078; 0,0048 untuk $n = 2$ sampai 7. Taksir sumbangan kontinu dari aturan TRK.
 
 **Tantangan ★**
 
-**102.** [P] ★ Tunjukkan bahwa $\langle Y_1^0|\cos\theta|Y_0^0\rangle = 1/\sqrt3$ dan $\langle Y_2^0|\cos\theta|Y_0^0\rangle = 0$.
+**107.** [P] ★ Tunjukkan bahwa $\langle Y_1^0|\cos\theta|Y_0^0\rangle = 1/\sqrt3$ dan $\langle Y_2^0|\cos\theta|Y_0^0\rangle = 0$.
 
-**103.** ★ Turunkan (8.59) dari (8.54) dengan menjumlahkan sumbangan setiap selang frekuensi radiasi dan merata-ratakan orientasi.
+**108.** ★ Turunkan (8.59) dari (8.54) dengan menjumlahkan sumbangan setiap selang frekuensi radiasi dan merata-ratakan orientasi.
 
 
 # Jawaban
@@ -358,58 +368,60 @@ Pakai satuan atom ($1\ E_h = 27{,}211$ eV $= 2625{,}5$ kJ/mol $= 219\,475$ cm⁻
 ::: {.panjang}
 | No. | Jawaban | No. | Jawaban |
 |---|---|---|---|
-| 1 | $-108{,}8$ eV; $-10\,502$ kJ/mol | 53 | 0,537500 dan 0,530938; galat $+0{,}0049$ dan $-0{,}0017$ |
-| 2 | 39; 30 | 54 | $-\tfrac{11}{8}g^2 = -0{,}00344$ |
-| 3 | $5{,}79 \times 10^{-4}$ eV; perbandingan $5{,}8 \times 10^{-5}$ | 55 | $D_e = 37\,247$ cm⁻¹; $\omega_ex_e = 60{,}0$ cm⁻¹ (terukur 52,8) |
-| 4 | $6{,}9 \times 10^{-6}$ | 56 | $x = 1{,}5392 + 0{,}0276 = 1{,}5668$ |
-| 5 | $1{,}56 \times 10^{10}$ nilai, 125 GB | 57 | $E = -V^2/\Delta + V^4/\Delta^3 - \cdots$ |
-| 6 | $1{,}80 \times 10^{-3}$ eV; $1{,}6 \times 10^{-3}$; ya | 58 | untuk $\lambda < 0$ potensial tak terbatas ke bawah; deret konvergen di $\lambda > 0$ akan konvergen juga di $-\lambda$ |
-| 7 | $10^{3N} > 10^{80}$: $N \ge 27$ (atom kobalt) | 59 | $-7{,}125\ E_h = -193{,}9$ eV |
-| 8 | $W = 6\hbar^2/mL^2 = 1{,}216E_1$; lebih buruk daripada parabola ($1{,}013E_1$) | 60 | $-13{,}65767\ E_h$ (galat $-0{,}0021$) |
-| 9 | $\alpha = 8Z^2/9\pi = 1{,}132$; $W = -4Z^2/3\pi = -1{,}698\ E_h$ (galat 15,1%) | 61 | 3282 kJ/mol, hampir sepuluh kali |
-| 10 | $\alpha = m\omega/2\hbar$, $W = \tfrac12\hbar\omega$ | 62 | $5Z/8 = Z^2/10$: $Z = 6{,}25$ (antara C⁴⁺ dan N⁵⁺) |
-| 11 | $W = 1{,}115E_1$; 0,962 | 63 | 62%; korelasi elektron (radial dan sudut) |
-| 12 | $\alpha = (2\pi)^{-1/3} = 0{,}542$; $W = 0{,}8129$ (galat 0,53%) | 64 | $Z^2 - 2Z^2 + 5Z/8$ |
-| 13 | (a) keadaan $\ell = 1$ terendah (2p), karena ortogonal pada semua keadaan s; (b) $\zeta = \tfrac12$, $W = -\tfrac18\ E_h$ (eksak) | 65 | $Z_c \approx 0{,}93$ (nilai teliti 0,911); H⁻ terikat |
-| 14 | $0{,}95\ E_h$; $-0{,}95\ E_h$ | 66 | $\hat H = Z^2[\hat h(\rho) + Z^{-1}/\rho_{12}]$: koefisien $\lambda^2 = Z^{-2}$ dikali $Z^2$ |
-| 15 | $W(s) = s^2T_1 + s^{-k}V_1$; $dW/ds = 0$ memberi $2T = kV$ | 67 | $m = \pm2$: $\pm V_0/2$ |
-| 16 | $a = 32/225\pi = 0{,}0453$; $W = -16/45\pi = -0{,}1132\ E_h$ (galat 9,5%) | 68 | $2K = 2{,}39$ eV; eksak 0,80 eV |
-| 17 | $\zeta = 2{,}6875$; $-7{,}2227\ E_h = -196{,}5$ eV; $74{,}1$ eV (eksak 75,6 eV) | 69 | $2 \times 5 = 10$ |
-| 18 | 28,7 eV; 34,0 eV | 70 | 0,840; elektron 2s menembus awan 1s sehingga tolakan berkurang 16% |
-| 19 | 47,0 pm; 46,7 pm | 71 | $x = -0{,}833$ dan $-1$ |
-| 20 | $\zeta = 11/16$, $W = -0{,}4727\ E_h > -0{,}5$ | 72 | $E^{(1)} = cL^2(0{,}25 \pm 0{,}0324)$; fungsi $(\psi_{12} \pm \psi_{21})/\sqrt2$ |
-| 21 | $-2{,}84750$ lawan $-2{,}84766\ E_h$; minimum sangat datar (selisih $1{,}6 \times 10^{-4}\ E_h$) | 73 | $\psi_a$: $1 + 2h/3 = 1{,}333$; $\psi_b$: 1 |
-| 22 | 3,06 $a_0^{-3}$ (15% terlalu rendah) | 74 | $p_z$: $+\tfrac45c\langle r^2\rangle$; $p_x$, $p_y$: $-\tfrac25c\langle r^2\rangle$ (tetap terdegenerasi); pusat berat tetap |
-| 23 | $q = 1 - e^{-2\zeta}(1 + 2\zeta + 2\zeta^2) = 0{,}655$; $Z_\text{ef} = 1{,}34$ | 75 | 0,205 Å³; $2{,}28 \times 10^{-41}$ C m²/V |
-| 24 | $Z_c = (5/16)/(1 - 1/\sqrt2) = 1{,}067$; H⁻ ($Z = 1$) diramalkan tak terikat | 76 | $1{,}83 \times 10^{-32}$ C m $= 5{,}5 \times 10^{-3}$ D |
-| 25 | $-4 \mp \sqrt2$: $-5{,}414$ dan $-2{,}586$ eV | 77 | $\pm1{,}28$ cm⁻¹ |
-| 26 | $-11{,}25$ eV dan $-10{,}63$ eV | 78 | $\alpha \approx 1{,}55\ a_0^3$ (eksak 1,38) |
-| 27 | $x^3 - 2x = 0$: $x = 0, \pm\sqrt2$, yaitu $E = \alpha \pm \sqrt2\beta$, $\alpha$ | 79 | $16 \times 82{,}9 = 1327$ Å³ |
-| 28 | integran ganjil terhadap $L/2$; $1{,}0132E_1$ dan $4{,}2555E_1$ | 80 | $-14{,}2$ MHz |
-| 29 | $-0{,}0385$ dan $1{,}0385$ eV; $\theta = -10{,}9°$ | 81 | 75,9 satuan atom |
-| 30 | aljabar langsung dari (8.21); destabilisasi lebih besar | 82 | $-103$ cm⁻¹, $-148$ K |
-| 31 | 0,559565 dan 3,490435; galat akar terendah $4{,}2 \times 10^{-4}$ | 83 | $\langle\hat H'^2\rangle = 6\langle z^2\rangle^2/R^6$, penyebut $2I$, dan $\alpha = 2\langle z^2\rangle/I$ |
-| 32 | ruang fungsi uji lama adalah bagian ruang baru; minimum atas ruang yang lebih besar tidak lebih tinggi | 84 | $\mu_\text{ind} = -2\langle\psi_{1s}|z|\psi^{(1)}\rangle = \tfrac23(\langle r^2\rangle + \tfrac12\langle r^3\rangle)F = 4{,}5F$ |
-| 33 | $-1$: $(1, -1)/\sqrt2$; $3$: $(1, 1)/\sqrt2$ | 85 | 20 µs; 10 µs |
-| 34 | diagonal 1,0246; luar diagonal $-0{,}1301$ | 86 | $\Omega t = 2\sqrt{0{,}1} = 0{,}63$ |
-| 35 | $x = 2, 0, 0, -2$; dua elektron di orbital nonikatan terdegenerasi (diradikal, antiaromatik) | 87 | 294 cm⁻¹ |
-| 36 | $x = \pm2{,}303, \pm1{,}618, \pm1{,}303, \pm1, \pm0{,}618$; $E_\pi = 10\alpha + 13{,}683\beta$; celah $1{,}236|\beta|$ | 88 | $[8(6)^{3/2}/125]^2 = 0{,}885$ |
-| 37 | $-0{,}49875\ E_h$; $-0{,}49928\ E_h$ | 89 | $\tfrac15$ |
-| 38 | $x^4$ tidak menghubungkan keadaan berparitas berbeda; $H_{01} = 0$ | 90 | $\Omega \propto \sqrt I$: sekitar 130 W/cm² |
-| 39 | $\tan2\theta = 1$, $\theta = 22{,}5°$ | 91 | integral $\int H'e^{i\omega_{fi}t}dt$ hampir nol untuk fungsi yang berubah lambat (teorema adiabatik) |
-| 40 | $\pm1{,}802$, $\pm1{,}247$, $\pm0{,}445$; celah $0{,}890|\beta|$ | 92 | $c_i = \cos(\Omega t/2)$, $c_f = -i\sin(\Omega t/2)$, $P = \sin^2(\Omega t/2)$ |
-| 41 | $V_0/2$ untuk semua $n$ | 93 | 1 → 2, 2 → 5, 3 → 6 |
-| 42 | 0 (integran ganjil) | 94 | 4f → 3d dan 4p → 1s |
-| 43 | $b(v + \tfrac12)\hbar/m\omega$; eksak $\hbar\omega'(v + \tfrac12)$ dengan $\omega' = \omega\sqrt{1 + 2b/m\omega^2} \approx \omega + b/m\omega$ | 95 | 0,37 |
-| 44 | $R = 1{,}59 \times 10^{-5}\ a_0$; $1{,}01 \times 10^{-10}\ E_h = 0{,}67$ MHz | 96 | $A = 2{,}9 \times 10^8$ s⁻¹; 3,4 ns |
-| 45 | $x = 1{,}664$; 0; $-1{,}164$ | 97 | 15,9 MHz |
-| 46 | $x = 1{,}539$; 0,250; $-1{,}289$ | 98 | $t_{1u} \to t_{2g}$ dan $a_{1g} \to t_{1u}$ (g ↔ u) |
-| 47 | $-0{,}00863\ E_h = -1893$ cm⁻¹; $4{,}8 \times 10^{-4}$ | 99 | 20,88 cm⁻¹; tidak ($\Delta J = \pm1$) |
-| 48 | $a_4 = 2{,}6 \times 10^{-4}$; $a_2/a_4 \approx 63$ | 100 | $9{,}5 \times 10^{12}$ s⁻¹; 0,10 ps |
-| 49 | $dE/d\lambda|_0 = H'_{nn}$; $d^2E/d\lambda^2|_0 = 2\langle\psi^{(0)}|\hat H'|\psi^{(1)}\rangle = 2E^{(2)}$ | 101 | $1 - 0{,}551 = 0{,}449$, dikurangi ekor $n > 7$ (sekitar 0,014): kontinu $\approx 0{,}435$ |
-| 50 | $-0{,}005$ eV | 102 | $\cos\theta\,Y_0^0 = Y_1^0/\sqrt3$ |
-| 51 | $-q^2F^2/2k = -1{,}6 \times 10^{-4}$ eV | 103 | $F_0^2 = 2\rho_\omega d\omega/\varepsilon_0$; $\int\sin^2(\Delta t/2)/\Delta^2 d\Delta = \pi t/2$; $\langle\mu_z^2\rangle = |\mu|^2/3$ |
-| 52 | setiap pasangan didorong menjauh; celah minimum $2|V|$ |  |  |
+| 1 | $-108{,}8$ eV; $-10\,502$ kJ/mol | 55 | $-q^2F^2/2k = -1{,}6 \times 10^{-4}$ eV |
+| 2 | 39; 30 | 56 | setiap pasangan didorong menjauh; celah minimum $2|V|$ |
+| 3 | $5{,}79 \times 10^{-4}$ eV; perbandingan $5{,}8 \times 10^{-5}$ | 57 | 0,537500 dan 0,530938; galat $+0{,}0049$ dan $-0{,}0017$ |
+| 4 | $6{,}9 \times 10^{-6}$ | 58 | $-\tfrac{11}{8}g^2 = -0{,}00344$ |
+| 5 | $1{,}56 \times 10^{10}$ nilai, 125 GB | 59 | $D_e = 37\,247$ cm⁻¹; $\omega_ex_e = 60{,}0$ cm⁻¹ (terukur 52,8) |
+| 6 | $1{,}80 \times 10^{-3}$ eV; $1{,}6 \times 10^{-3}$; ya | 60 | $x = 1{,}5392 + 0{,}0276 = 1{,}5668$ |
+| 7 | $10^{3N} > 10^{80}$: $N \ge 27$ (atom kobalt) | 61 | $E = -V^2/\Delta + V^4/\Delta^3 - \cdots$ |
+| 8 | $W = 6\hbar^2/mL^2 = 1{,}216E_1$; lebih buruk daripada parabola ($1{,}013E_1$) | 62 | untuk $\lambda < 0$ potensial tak terbatas ke bawah; deret konvergen di $\lambda > 0$ akan konvergen juga di $-\lambda$ |
+| 9 | $\alpha = 8Z^2/9\pi = 1{,}132$; $W = -4Z^2/3\pi = -1{,}698\ E_h$ (galat 15,1%) | 63 | $-7{,}125\ E_h = -193{,}9$ eV |
+| 10 | $\alpha = m\omega/2\hbar$, $W = \tfrac12\hbar\omega$ | 64 | $-13{,}65767\ E_h$ (galat $-0{,}0021$) |
+| 11 | $W = 1{,}115E_1$; 0,962 | 65 | 3282 kJ/mol, hampir sepuluh kali |
+| 12 | $\alpha = (2\pi)^{-1/3} = 0{,}542$; $W = 0{,}8129$ (galat 0,53%) | 66 | $5Z/8 = Z^2/10$: $Z = 6{,}25$ (antara C⁴⁺ dan N⁵⁺) |
+| 13 | (a) keadaan $\ell = 1$ terendah (2p), karena ortogonal pada semua keadaan s; (b) $\zeta = \tfrac12$, $W = -\tfrac18\ E_h$ (eksak) | 67 | 62%; korelasi elektron (radial dan sudut) |
+| 14 | $0{,}95\ E_h$; $-0{,}95\ E_h$ | 68 | $Z^2 - 2Z^2 + 5Z/8$ |
+| 15 | $W(s) = s^2T_1 + s^{-k}V_1$; $dW/ds = 0$ memberi $2T = kV$ | 69 | $Z_c \approx 0{,}93$ (nilai teliti 0,911); H⁻ terikat |
+| 16 | $a = 32/225\pi = 0{,}0453$; $W = -16/45\pi = -0{,}1132\ E_h$ (galat 9,5%) | 70 | $\hat H = Z^2[\hat h(\rho) + Z^{-1}/\rho_{12}]$: koefisien $\lambda^2 = Z^{-2}$ dikali $Z^2$ |
+| 17 | $\zeta = 2{,}6875$; $-7{,}2227\ E_h = -196{,}5$ eV; $74{,}1$ eV (eksak 75,6 eV) | 71 | $m = \pm2$: $\pm V_0/2$ |
+| 18 | 28,7 eV; 34,0 eV | 72 | $2K = 2{,}39$ eV; eksak 0,80 eV |
+| 19 | 47,0 pm; 46,7 pm | 73 | $2 \times 5 = 10$ |
+| 20 | $\zeta = 11/16$, $W = -0{,}4727\ E_h > -0{,}5$ | 74 | 0,840; elektron 2s menembus awan 1s sehingga tolakan berkurang 16% |
+| 21 | $-2{,}84750$ lawan $-2{,}84766\ E_h$; minimum sangat datar (selisih $1{,}6 \times 10^{-4}\ E_h$) | 75 | $x = -0{,}833$ dan $-1$ |
+| 22 | 3,06 $a_0^{-3}$ (15% terlalu rendah) | 76 | $E^{(1)} = cL^2(0{,}25 \pm 0{,}0324)$; fungsi $(\psi_{12} \pm \psi_{21})/\sqrt2$ |
+| 23 | $q = 1 - e^{-2\zeta}(1 + 2\zeta + 2\zeta^2) = 0{,}655$; $Z_\text{ef} = 1{,}34$ | 77 | $\psi_a$: $1 + 2h/3 = 1{,}333$; $\psi_b$: 1 |
+| 24 | $Z_c = (5/16)/(1 - 1/\sqrt2) = 1{,}067$; H⁻ ($Z = 1$) diramalkan tak terikat | 78 | $p_z$: $+\tfrac45c\langle r^2\rangle$; $p_x$, $p_y$: $-\tfrac25c\langle r^2\rangle$ (tetap terdegenerasi); pusat berat tetap |
+| 25 | $-4 \mp \sqrt2$: $-5{,}414$ dan $-2{,}586$ eV | 79 | 0,205 Å³; $2{,}28 \times 10^{-41}$ C m²/V |
+| 26 | $-11{,}25$ eV dan $-10{,}63$ eV | 80 | $1{,}83 \times 10^{-32}$ C m $= 5{,}5 \times 10^{-3}$ D |
+| 27 | $x^3 - 2x = 0$: $x = 0, \pm\sqrt2$, yaitu $E = \alpha \pm \sqrt2\beta$, $\alpha$ | 81 | $\pm1{,}28$ cm⁻¹ |
+| 28 | integran ganjil terhadap $L/2$; $1{,}0132E_1$ dan $4{,}2555E_1$ | 82 | $\alpha \approx 1{,}55\ a_0^3$ (eksak 1,38) |
+| 29 | $-0{,}0385$ dan $1{,}0385$ eV; $\theta = -10{,}9°$ | 83 | $16 \times 82{,}9 = 1327$ Å³ |
+| 30 | aljabar langsung dari (8.21); destabilisasi lebih besar | 84 | $-14{,}2$ MHz |
+| 31 | $x = 1{,}281$ dan $-0{,}781$; LUMO 62% di C | 85 | 75,9 satuan atom |
+| 32 | 0,559565 dan 3,490435; galat akar terendah $4{,}2 \times 10^{-4}$ | 86 | $-103$ cm⁻¹, $-148$ K |
+| 33 | ruang fungsi uji lama adalah bagian ruang baru; minimum atas ruang yang lebih besar tidak lebih tinggi | 87 | $\langle\hat H'^2\rangle = 6\langle z^2\rangle^2/R^6$, penyebut $2I$, dan $\alpha = 2\langle z^2\rangle/I$ |
+| 34 | $-1$: $(1, -1)/\sqrt2$; $3$: $(1, 1)/\sqrt2$ | 88 | $\mu_\text{ind} = -2\langle\psi_{1s}|z|\psi^{(1)}\rangle = \tfrac23(\langle r^2\rangle + \tfrac12\langle r^3\rangle)F = 4{,}5F$ |
+| 35 | diagonal 1,0246; luar diagonal $-0{,}1301$ | 89 | 20 µs; 10 µs |
+| 36 | $x = 2, 0, 0, -2$; dua elektron di orbital nonikatan terdegenerasi (diradikal, antiaromatik) | 90 | $\Omega t = 2\sqrt{0{,}1} = 0{,}63$ |
+| 37 | $x = \pm2{,}303, \pm1{,}618, \pm1{,}303, \pm1, \pm0{,}618$; $E_\pi = 10\alpha + 13{,}683\beta$; celah $1{,}236|\beta|$ | 91 | 294 cm⁻¹ |
+| 38 | $-0{,}49875\ E_h$; $-0{,}49928\ E_h$ | 92 | $[8(6)^{3/2}/125]^2 = 0{,}885$ |
+| 39 | $x^4$ tidak menghubungkan keadaan berparitas berbeda; $H_{01} = 0$ | 93 | $\tfrac15$ |
+| 40 | $0{,}0173/0{,}0420 = 41$% | 94 | $\Omega \propto \sqrt I$: sekitar 130 W/cm² |
+| 41 | $\tan2\theta = 1$, $\theta = 22{,}5°$ | 95 | 8,11 Å; 19,8 Å; KCl |
+| 42 | $\pm1{,}802$, $\pm1{,}247$, $\pm0{,}445$; celah $0{,}890|\beta|$ | 96 | integral $\int H'e^{i\omega_{fi}t}dt$ hampir nol untuk fungsi yang berubah lambat (teorema adiabatik) |
+| 43 | $V_0/2$ untuk semua $n$ | 97 | $c_i = \cos(\Omega t/2)$, $c_f = -i\sin(\Omega t/2)$, $P = \sin^2(\Omega t/2)$ |
+| 44 | 0 (integran ganjil) | 98 | 1 → 2, 2 → 5, 3 → 6 |
+| 45 | $b(v + \tfrac12)\hbar/m\omega$; eksak $\hbar\omega'(v + \tfrac12)$ dengan $\omega' = \omega\sqrt{1 + 2b/m\omega^2} \approx \omega + b/m\omega$ | 99 | 4f → 3d dan 4p → 1s |
+| 46 | $+59{,}8$ cm⁻¹ (energi naik) | 100 | 0,37 |
+| 47 | $R = 1{,}59 \times 10^{-5}\ a_0$; $1{,}01 \times 10^{-10}\ E_h = 0{,}67$ MHz | 101 | $A = 2{,}9 \times 10^8$ s⁻¹; 3,4 ns |
+| 48 | $x = 1{,}664$; 0; $-1{,}164$ | 102 | 15,9 MHz |
+| 49 | $x = 1{,}539$; 0,250; $-1{,}289$ | 103 | $t_{1u} \to t_{2g}$ dan $a_{1g} \to t_{1u}$ (g ↔ u) |
+| 50 | $-0{,}00863\ E_h = -1893$ cm⁻¹; $4{,}8 \times 10^{-4}$ | 104 | 20,88 cm⁻¹; tidak ($\Delta J = \pm1$) |
+| 51 | $m_e/M = 1$ tidak kecil (ramalan $E = 0$); eksak $\mu = m_e/2$, $E = -0{,}25\ E_h$ | 105 | $9{,}5 \times 10^{12}$ s⁻¹; 0,10 ps |
+| 52 | $a_4 = 2{,}6 \times 10^{-4}$; $a_2/a_4 \approx 63$ | 106 | $1 - 0{,}551 = 0{,}449$, dikurangi ekor $n > 7$ (sekitar 0,014): kontinu $\approx 0{,}435$ |
+| 53 | $dE/d\lambda|_0 = H'_{nn}$; $d^2E/d\lambda^2|_0 = 2\langle\psi^{(0)}|\hat H'|\psi^{(1)}\rangle = 2E^{(2)}$ | 107 | $\cos\theta\,Y_0^0 = Y_1^0/\sqrt3$ |
+| 54 | $-0{,}005$ eV | 108 | $F_0^2 = 2\rho_\omega d\omega/\varepsilon_0$; $\int\sin^2(\Delta t/2)/\Delta^2 d\Delta = \pi t/2$; $\langle\mu_z^2\rangle = |\mu|^2/3$ |
 :::
 
 
@@ -427,11 +439,11 @@ Pakai satuan atom ($1\ E_h = 27{,}211$ eV $= 2625{,}5$ kJ/mol $= 219\,475$ cm⁻
 
 *Cara berpikir:* perhitungan yang sangat teliti menunjukkan muatan kritis sebenarnya $Z_c = 0{,}911$, cukup jauh di bawah 1, sehingga H⁻ terikat dengan selisih yang nyaman (0,754 eV). Galat fungsi satu eksponen (sekitar $0{,}055\ E_h$, Contoh 8.13) cukup besar untuk menggeser $Z_c$ melewati 1. Pelajarannya: ketika jawaban kualitatif (terikat atau tidak) bergantung pada selisih kecil, fungsi uji harus dibuat lebih lentur, seperti fungsi dua eksponen di Contoh 8.14.
 
-**Soal 31.** Persamaan sekuler $(0{,}575 - W)(3{,}475 - W) - 0{,}2121^2 = 0$, atau $W^2 - 4{,}05W + 1{,}9531 = 0$. Akar: $W = [4{,}05 \mp \sqrt{16{,}4025 - 7{,}8125}]/2 = (4{,}05 \mp 2{,}9309)/2$, yaitu 0,55956 dan 3,49044. Akar terendah hanya $4{,}2 \times 10^{-4}$ di atas nilai eksak.
+**Soal 32.** Persamaan sekuler $(0{,}575 - W)(3{,}475 - W) - 0{,}2121^2 = 0$, atau $W^2 - 4{,}05W + 1{,}9531 = 0$. Akar: $W = [4{,}05 \mp \sqrt{16{,}4025 - 7{,}8125}]/2 = (4{,}05 \mp 2{,}9309)/2$, yaitu 0,55956 dan 3,49044. Akar terendah hanya $4{,}2 \times 10^{-4}$ di atas nilai eksak.
 
 *Cara berpikir:* unsur diagonal $H_{00} = 0{,}575$ adalah energi perturbasi orde pertama; pergeseran akibat pencampuran dengan $|2\rangle$, $-0{,}0154$, hampir sama dengan $-H_{02}^2/(H_{22} - H_{00}) = -0{,}0155$, yaitu bagian orde kedua dari keadaan $|2\rangle$. Dua fungsi basis yang dipilih dengan simetri yang benar (keduanya genap) sudah cukup; menambah $|1\rangle$ tidak berguna karena ganjil.
 
-**Soal 44.** Di dalam bola bermuatan seragam berjari-jari $R$, potensialnya $-(Z/2R)(3 - r^2/R^2)$; di luar, $-Z/r$. Perturbasinya adalah selisih keduanya, hanya untuk $r < R$: $\Delta V = Z/r - (Z/2R)(3 - r^2/R^2)$. Karena $R \ll a_0$, $|\psi_{1s}|^2 \approx Z^3/\pi$ di seluruh inti:
+**Soal 47.** Di dalam bola bermuatan seragam berjari-jari $R$, potensialnya $-(Z/2R)(3 - r^2/R^2)$; di luar, $-Z/r$. Perturbasinya adalah selisih keduanya, hanya untuk $r < R$: $\Delta V = Z/r - (Z/2R)(3 - r^2/R^2)$. Karena $R \ll a_0$, $|\psi_{1s}|^2 \approx Z^3/\pi$ di seluruh inti:
 
 $$
 E^{(1)} \approx \frac{Z^3}{\pi}\int_0^R\Delta V\,4\pi r^2dr = 4Z^4\left[\frac{R^2}{2} - \frac{1}{2R}\left(R^3 - \frac{R^3}{5}\right)\right] = \frac25Z^4R^2 .
@@ -441,7 +453,7 @@ Untuk hidrogen, $R = 0{,}84$ fm $= 1{,}59 \times 10^{-5}\ a_0$, $E^{(1)} = 1{,}0
 
 *Cara berpikir:* pergeseran ini kecil tetapi terukur dengan spektroskopi laser hidrogen; perbedaan jari-jari proton yang diperoleh dari hidrogen biasa dan hidrogen muonik (yang muonnya 207 kali lebih dekat ke inti, sehingga efeknya jutaan kali lebih besar) menjadi "teka-teki jari-jari proton" sejak 2010. Bagi kimiawan, efek yang sama sebanding dengan $Z^4$ dan dengan perubahan jari-jari inti antarisotop. Pada unsur berat seperti uranium dan raksa, "efek volume inti" ini menggeser kesetimbangan kimia antarisotop dan ikut menentukan fraksionasi isotop ²³⁵U/²³⁸U di alam.
 
-**Soal 57.** Akar bawah $E = \tfrac\Delta2 - \tfrac\Delta2\sqrt{1 + u}$ dengan $u = 4V^2/\Delta^2$. Deret $\sqrt{1 + u} = 1 + \tfrac u2 - \tfrac{u^2}{8} + \cdots$ memberi
+**Soal 61.** Akar bawah $E = \tfrac\Delta2 - \tfrac\Delta2\sqrt{1 + u}$ dengan $u = 4V^2/\Delta^2$. Deret $\sqrt{1 + u} = 1 + \tfrac u2 - \tfrac{u^2}{8} + \cdots$ memberi
 
 $$
 E = -\frac\Delta2\left(\frac{2V^2}{\Delta^2} - \frac{2V^4}{\Delta^4} + \cdots\right) = -\frac{V^2}{\Delta} + \frac{V^4}{\Delta^3} - \cdots
@@ -449,13 +461,13 @@ $$
 
 Suku pertama adalah $E^{(2)}$ (8.35); suku kedua $E^{(4)} = +V^4/\Delta^3$. Orde ganjil nol karena perturbasi tidak mempunyai unsur diagonal.
 
-*Cara berpikir:* deret ini konvergen hanya bila $u < 1$, yaitu $|V| < \Delta/2$. Bila kopling lebih besar daripada setengah selisih energi, tidak ada orde yang cukup; diagonalisasi matriks 2 × 2 adalah satu-satunya jalan. Ini sesuai Contoh 8.31: galat orde kedua sudah 21% pada $V/\Delta = 0{,}5$.
+*Cara berpikir:* deret ini konvergen hanya bila $u < 1$, yaitu $|V| < \Delta/2$. Bila kopling lebih besar daripada setengah selisih energi, tidak ada orde yang cukup; diagonalisasi matriks 2 × 2 adalah satu-satunya jalan. Ini sesuai Contoh 8.34: galat orde kedua sudah 21% pada $V/\Delta = 0{,}5$.
 
-**Soal 72.** Dengan $\psi_{n_xn_y} = \psi_{n_x}(x)\psi_{n_y}(y)$, perturbasi $cxy$ berfaktor: $\langle n_x'n_y'|xy|n_xn_y\rangle = \langle n_x'|x|n_x\rangle\langle n_y'|y|n_y\rangle$. Diagonal: $\langle 12|xy|12\rangle = (L/2)(L/2) = L^2/4$, sama untuk $(2,1)$. Luar diagonal: $\langle 12|xy|21\rangle = \langle 1|x|2\rangle\langle 2|y|1\rangle = (16L/9\pi^2)^2 = 0{,}0324L^2$. Matriksnya $cL^2\begin{pmatrix}0{,}25 & 0{,}0324\\ 0{,}0324 & 0{,}25\end{pmatrix}$, dengan akar $cL^2(0{,}25 \pm 0{,}0324)$ dan fungsi $(\psi_{12} \pm \psi_{21})/\sqrt2$.
+**Soal 76.** Dengan $\psi_{n_xn_y} = \psi_{n_x}(x)\psi_{n_y}(y)$, perturbasi $cxy$ berfaktor: $\langle n_x'n_y'|xy|n_xn_y\rangle = \langle n_x'|x|n_x\rangle\langle n_y'|y|n_y\rangle$. Diagonal: $\langle 12|xy|12\rangle = (L/2)(L/2) = L^2/4$, sama untuk $(2,1)$. Luar diagonal: $\langle 12|xy|21\rangle = \langle 1|x|2\rangle\langle 2|y|1\rangle = (16L/9\pi^2)^2 = 0{,}0324L^2$. Matriksnya $cL^2\begin{pmatrix}0{,}25 & 0{,}0324\\ 0{,}0324 & 0{,}25\end{pmatrix}$, dengan akar $cL^2(0{,}25 \pm 0{,}0324)$ dan fungsi $(\psi_{12} \pm \psi_{21})/\sqrt2$.
 
 *Cara berpikir:* perturbasi $xy$ tidak bersimetri terhadap pertukaran sumbu secara terpisah, tetapi bersimetri terhadap pencerminan pada diagonal $x = y$. Kombinasi $\psi_{12} \pm \psi_{21}$ simetris dan antisimetris terhadap diagonal itu, sehingga simetri sudah menentukan fungsi orde nol yang benar sebelum menghitung. Kombinasi $+$ terpusat di sepanjang diagonal $x = y$ (tempat $xy$ besar) dan naik; kombinasi $-$ mempunyai simpul di diagonal dan naik lebih sedikit.
 
-**Soal 83.** Untuk dua atom sejenis dengan $\langle z^2\rangle = \langle x^2\rangle = \langle y^2\rangle$ (simetri bola) dan nilai rata-rata komponen nol, kuadrat (8.49) memberi suku-suku silang yang rata-ratanya nol, sehingga
+**Soal 87.** Untuk dua atom sejenis dengan $\langle z^2\rangle = \langle x^2\rangle = \langle y^2\rangle$ (simetri bola) dan nilai rata-rata komponen nol, kuadrat (8.49) memberi suku-suku silang yang rata-ratanya nol, sehingga
 
 $$
 \langle\hat H'^2\rangle = \frac{1}{R^6}\left(\langle x^2\rangle^2 + \langle y^2\rangle^2 + 4\langle z^2\rangle^2\right) = \frac{6\langle z^2\rangle^2}{R^6} .
@@ -467,15 +479,15 @@ $$
 E^{(2)} \approx -\frac{6}{2I}\cdot\frac{\alpha^2I^2}{4}\cdot\frac{1}{R^6} = -\frac{3I\alpha^2}{4R^6} .
 $$
 
-*Cara berpikir:* rumus London menyederhanakan dua kali (energi eksitasi rata-rata sama dengan $I$ untuk polarisabilitas dan untuk dispersi), dan kesalahan-kesalahan itu sebagian saling menghapus; hasilnya terlalu rendah 10–30% (Contoh 8.47). Struktur rumusnya yang penting: dispersi sebanding dengan kuadrat polarisabilitas dan dengan energi karakteristik elektron.
+*Cara berpikir:* rumus London menyederhanakan dua kali (energi eksitasi rata-rata sama dengan $I$ untuk polarisabilitas dan untuk dispersi), dan kesalahan-kesalahan itu sebagian saling menghapus; hasilnya terlalu rendah 10–30% (Contoh 8.50). Struktur rumusnya yang penting: dispersi sebanding dengan kuadrat polarisabilitas dan dengan energi karakteristik elektron.
 
-**Soal 92.** Turunkan persamaan pertama sekali lagi dan masukkan yang kedua: $i\ddot c_i = (\Omega/2)\dot c_f = (\Omega/2)(-i)(\Omega/2)c_i$, jadi $\ddot c_i = -(\Omega/2)^2c_i$. Dengan $c_i(0) = 1$ dan $\dot c_i(0) = -i(\Omega/2)c_f(0) = 0$: $c_i = \cos(\Omega t/2)$. Dari persamaan pertama, $c_f = (2i/\Omega)\dot c_i = -i\sin(\Omega t/2)$. Jadi $P_{i\to f} = \sin^2(\Omega t/2)$, dan $|c_i|^2 + |c_f|^2 = 1$ pada setiap saat.
+**Soal 97.** Turunkan persamaan pertama sekali lagi dan masukkan yang kedua: $i\ddot c_i = (\Omega/2)\dot c_f = (\Omega/2)(-i)(\Omega/2)c_i$, jadi $\ddot c_i = -(\Omega/2)^2c_i$. Dengan $c_i(0) = 1$ dan $\dot c_i(0) = -i(\Omega/2)c_f(0) = 0$: $c_i = \cos(\Omega t/2)$. Dari persamaan pertama, $c_f = (2i/\Omega)\dot c_i = -i\sin(\Omega t/2)$. Jadi $P_{i\to f} = \sin^2(\Omega t/2)$, dan $|c_i|^2 + |c_f|^2 = 1$ pada setiap saat.
 
 *Cara berpikir:* untuk $\Omega t \ll 1$, $\sin^2(\Omega t/2) \approx \Omega^2t^2/4$, tepat rumus orde pertama (8.54) pada resonansi. Teori perturbasi orde pertama adalah awal dari osilasi Rabi; ia gagal ketika populasi keadaan awal mulai berkurang secara berarti.
 
-**Soal 102.** $Y_0^0 = 1/\sqrt{4\pi}$ dan $Y_1^0 = \sqrt{3/4\pi}\cos\theta$. Jadi $\cos\theta\,Y_0^0 = \cos\theta/\sqrt{4\pi} = Y_1^0/\sqrt3$. Karena harmonik bola ortonormal, $\langle Y_1^0|\cos\theta|Y_0^0\rangle = 1/\sqrt3$ dan $\langle Y_2^0|\cos\theta|Y_0^0\rangle = \langle Y_2^0|Y_1^0\rangle/\sqrt3 = 0$.
+**Soal 107.** $Y_0^0 = 1/\sqrt{4\pi}$ dan $Y_1^0 = \sqrt{3/4\pi}\cos\theta$. Jadi $\cos\theta\,Y_0^0 = \cos\theta/\sqrt{4\pi} = Y_1^0/\sqrt3$. Karena harmonik bola ortonormal, $\langle Y_1^0|\cos\theta|Y_0^0\rangle = 1/\sqrt3$ dan $\langle Y_2^0|\cos\theta|Y_0^0\rangle = \langle Y_2^0|Y_1^0\rangle/\sqrt3 = 0$.
 
-*Cara berpikir:* perkalian dengan $\cos\theta$ (komponen $z$ vektor satuan) mengubah $\ell$ tepat satu satuan. Inilah isi aturan seleksi $\Delta\ell = \pm1$ (8.57) dan $\Delta J = \pm1$ rotor tegar dalam kasus paling sederhana; hasil yang sama dipakai di Contoh 8.46 untuk efek Stark rotasi.
+*Cara berpikir:* perkalian dengan $\cos\theta$ (komponen $z$ vektor satuan) mengubah $\ell$ tepat satu satuan. Inilah isi aturan seleksi $\Delta\ell = \pm1$ (8.57) dan $\Delta J = \pm1$ rotor tegar dalam kasus paling sederhana; hasil yang sama dipakai di Contoh 8.49 untuk efek Stark rotasi.
 
 # Bacaan lanjut
 

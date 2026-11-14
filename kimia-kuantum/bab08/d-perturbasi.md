@@ -99,7 +99,7 @@ Kesalahan umum adalah menghitung $E_n^{(1)}$ dengan fungsi gelombang yang sudah 
 :::
 
 ::: {.contoh}
-**Contoh 8.26 · Kotak dengan dasar miring**
+**Contoh 8.28 · Kotak dengan dasar miring**
 
 Elektron dalam kotak sepanjang $L$ diberi potensial tambahan $V(x) = V_0x/L$ (misalnya akibat medan listrik). (a) Hitung $E_n^{(1)}$. (b) Untuk kotak 1,00 nm ($E_1 = 0{,}376$ eV) dan $V_0 = 0{,}10$ eV, hitung koefisien campuran keadaan $n = 2$ ke dalam keadaan dasar. Pakai $\langle 2|x|1\rangle = -16L/9\pi^2 = -0{,}1801L$. (c) Mengapa keadaan $n = 3$ tidak tercampur?
 
@@ -115,9 +115,9 @@ Elektron dalam kotak sepanjang $L$ diberi potensial tambahan $V(x) = V_0x/L$ (mi
 ![Gambar 8.4 Keadaan dasar partikel dalam kotak dengan dasar miring $V = V_0x/L$, untuk $V_0 = 5E_1$ (gangguan kuat, agar perubahan terlihat). Garis tipis: fungsi tak terganggu $\psi_1^{(0)}$. Garis putus-putus: $\psi_1^{(0)} + \psi_1^{(1)}$ dari (8.34). Garis tebal: hasil diagonalisasi eksak dalam basis 30 fungsi. Arsiran menunjukkan potensial. Elektron bergeser ke sisi yang potensialnya rendah; perturbasi orde pertama menangkap hampir seluruh pergeseran itu.](fig/c_miring.png){width=70%}
 
 ::: {.contoh}
-**Contoh 8.27 · Osilator anharmonik: suku kuartik**
+**Contoh 8.29 · Osilator anharmonik: suku kuartik**
 
-Getaran ikatan nyata tidak tepat harmonik. Tambahkan suku kuartik pada osilator ($\hbar = m = \omega = 1$): $\hat H' = \lambda x^4$. (a) Dengan operator tangga, hitung $\langle v|x^4|v\rangle$. (b) Tuliskan $E_v^{(1)}$. (c) Untuk $\lambda = 0{,}1$, bandingkan $E_v^{(0)} + E_v^{(1)}$ dengan nilai eksak dari Contoh 8.23 untuk $v = 0, 1, 2$.
+Getaran ikatan nyata tidak tepat harmonik. Tambahkan suku kuartik pada osilator ($\hbar = m = \omega = 1$): $\hat H' = \lambda x^4$. (a) Dengan operator tangga, hitung $\langle v|x^4|v\rangle$. (b) Tuliskan $E_v^{(1)}$. (c) Untuk $\lambda = 0{,}1$, bandingkan $E_v^{(0)} + E_v^{(1)}$ dengan nilai eksak dari Contoh 8.24 untuk $v = 0, 1, 2$.
 
 **Penyelesaian.** (a) Dengan $x = (\hat a + \hat a^\dagger)/\sqrt2$ (subbab 5.6), $x^4 = \tfrac14(\hat a + \hat a^\dagger)^4$. Dari 16 susunan empat operator, hanya yang mempunyai dua $\hat a$ dan dua $\hat a^\dagger$ yang memberi kontribusi diagonal. Keenam susunan itu memberi, dengan $\hat a^\dagger|v\rangle = \sqrt{v+1}|v+1\rangle$ dan $\hat a|v\rangle = \sqrt v|v-1\rangle$:
 
@@ -139,7 +139,7 @@ $$
 :::
 
 ::: {.contoh}
-**Contoh 8.28 · Dari benzena ke piridina**
+**Contoh 8.30 · Dari benzena ke piridina**
 
 Dalam metode Hückel, mengganti satu atom C benzena dengan N dimodelkan sebagai perturbasi pada unsur diagonal atom itu: $\alpha_\text{N} = \alpha + h\beta$ dengan $h \approx 0{,}5$ (nitrogen lebih elektronegatif, dan $\beta < 0$). Matriks perturbasinya hanya mempunyai satu unsur tak nol, $H'_{11} = h\beta$. (a) Tunjukkan bahwa koreksi orde pertama untuk orbital $k$ adalah $E_k^{(1)} = h\beta c_{1k}^2$, dengan $c_{1k}$ koefisien orbital $k$ pada atom 1. (b) Hitung koreksi untuk orbital benzena terendah ($x = 2$, semua koefisien $1/\sqrt6$) dan tertinggi ($x = -2$). (c) Diagonalisasi eksak memberi $x = 2{,}1074$ dan $-1{,}9337$. Bandingkan.
 
@@ -147,13 +147,13 @@ Dalam metode Hückel, mengganti satu atom C benzena dengan N dimodelkan sebagai 
 
 (b) Untuk kedua orbital, $c_{11}^2 = 1/6$, sehingga $E^{(1)} = h\beta/6 = 0{,}0833\beta$. Orbital terendah: $x = 2 + 0{,}0833 = 2{,}0833$. Orbital tertinggi: $x = -2 + 0{,}0833 = -1{,}9167$.
 
-(c) Untuk orbital terendah, orde pertama menangkap 78% pergeseran eksak (0,083 dari 0,107). Untuk orbital tertinggi, orde pertama justru melampaui pergeseran eksak (0,083 lawan 0,066). Kedua selisih adalah efek orde kedua, yang dihitung di Contoh 8.33.
+(c) Untuk orbital terendah, orde pertama menangkap 78% pergeseran eksak (0,083 dari 0,107). Untuk orbital tertinggi, orde pertama justru melampaui pergeseran eksak (0,083 lawan 0,066). Kedua selisih adalah efek orde kedua, yang dihitung di Contoh 8.36.
 
 **Memahami hasil.** Rumus $\delta E_k = c_{rk}^2\,\delta\alpha_r$ adalah inti teori orbital molekul perturbasi (Coulson dan Longuet-Higgins, 1947): menaikkan elektronegativitas atom $r$ menurunkan setiap orbital sebanding dengan kerapatan orbital itu pada atom $r$. Orbital yang mempunyai simpul di atom $r$ tidak terpengaruh. Untuk dua orbital benzena yang terdegenerasi ($x = \pm1$), rumus orde pertama biasa tidak dapat dipakai; di subbab 8.9 kita akan melihat bahwa nitrogen memecah pasangan itu, dan bahwa itulah sebabnya spektrum fotoelektron piridina menunjukkan lebih banyak pita daripada benzena.
 :::
 
 ::: {.contoh}
-**Contoh 8.29 · Koreksi relativistik orde pertama**
+**Contoh 8.31 · Koreksi relativistik orde pertama**
 
 Untuk ion mirip hidrogen, teori relativitas menambahkan dua perturbasi utama pada orbital 1s (selain spin–orbit, yang nol untuk orbital s): koreksi massa–kecepatan $-\hat p^4/8m_e^3c^2$ dan suku Darwin. Dalam satuan atom (dengan $c = 1/\alpha_\text{f}$, $\alpha_\text{f} = 1/137{,}036$), nilai rata-ratanya untuk 1s adalah $-\tfrac58Z^4\alpha_\text{f}^2$ dan $+\tfrac12Z^4\alpha_\text{f}^2$, sehingga jumlahnya $-\tfrac18Z^4\alpha_\text{f}^2$. Hitung koreksi total untuk hidrogen (dalam cm⁻¹) dan untuk ion emas ($Z = 79$), dan bandingkan dengan energi tak terganggu $-Z^2/2$.
 
@@ -163,7 +163,19 @@ Untuk ion mirip hidrogen, teori relativitas menambahkan dua perturbasi utama pad
 :::
 
 ::: {.contoh}
-**Contoh 8.30 · Tonjolan di tengah kotak**
+**Contoh 8.32 · Massa inti sebagai perturbasi: penemuan deuterium**
+
+Dalam atom hidrogen, inti juga bergerak. Di kerangka pusat massa momentum inti sama besar dan berlawanan dengan momentum elektron, sehingga energi kinetik inti $\hat p^2/2M$ dapat dipandang sebagai perturbasi pada Hamiltonian dengan inti diam: $\hat H' = (m_e/M)\hat T$. (a) Dengan teorema virial ($\langle T\rangle = -E_n$), tunjukkan bahwa $E_n^{(1)} = -(m_e/M)E_n^{(0)}$. (b) Hitung pergeseran garis Lyman-α (2p → 1s, 121,57 nm) dan Balmer-α (3 → 2, 656,28 nm) antara hidrogen ($M/m_e = 1836{,}15$) dan deuterium ($M/m_e = 3670{,}48$), dalam cm⁻¹ dan nm.
+
+**Penyelesaian.** (a) $E_n^{(1)} = (m_e/M)\langle T\rangle = -(m_e/M)E_n^{(0)}$, sehingga $E_n \approx E_n^{(0)}(1 - m_e/M)$. Ini tepat suku pertama uraian $\mu/m_e = 1/(1 + m_e/M)$: teori perturbasi orde pertama menemukan kembali koreksi massa tereduksi (subbab 6.8).
+
+(b) Setiap energi transisi dikalikan $(1 - m_e/M)$, sehingga selisih D − H adalah $\Delta E_\text{trans}(m_e/M_\text{H} - m_e/M_\text{D})$, dengan $m_e/M_\text{H} - m_e/M_\text{D} = 2{,}722 \times 10^{-4}$. Lyman-α ($\Delta E = 0{,}375\ E_h$): $1{,}021 \times 10^{-4}\ E_h = 22{,}4$ cm⁻¹; dengan $\Delta\lambda = \lambda^2\Delta\tilde\nu$, $\Delta\lambda = 0{,}033$ nm. Balmer-α ($\Delta E = 5/72\ E_h$): 4,15 cm⁻¹, $\Delta\lambda = 0{,}179$ nm. Garis deuterium berada pada panjang gelombang yang lebih **pendek**.
+
+**Memahami hasil.** Pada tahun 1931, Urey, Brickwedde, dan Murphy menguapkan hidrogen cair perlahan-lahan untuk memekatkan isotop berat yang diduga ada, lalu menemukan garis-garis lemah di sisi biru setiap garis Balmer, bergeser hampir tepat 0,18 nm dari Balmer-α. Itulah penemuan deuterium (Nobel Kimia 1934). Satu koreksi perturbasi orde pertama yang sederhana memisahkan dua isotop; dalam kimia, perbedaan massa yang sama menimbulkan efek isotop kinetik dan pergeseran frekuensi getaran yang dibahas di subbab 5.10.
+:::
+
+::: {.contoh}
+**Contoh 8.33 · Tonjolan di tengah kotak**
 
 Model elektron bebas untuk rantai terkonjugasi yang di tengahnya terdapat heteroatom: tambahkan tonjolan potensial $V_0$ selebar $b$ di tengah kotak sepanjang $L$. (a) Tunjukkan bahwa $E_n^{(1)} = V_0\left[b/L - (-1)^n\sin(n\pi b/L)/n\pi\right]$. (b) Hitung untuk $b = L/10$ dan $n = 1$ sampai 4. (c) Apa akibatnya bagi selisih HOMO–LUMO?
 
@@ -240,10 +252,10 @@ Langkah terakhir memakai relasi kelengkapan $\sum_m|m\rangle\langle m| = 1$ (sub
 
 ### Apakah deret perturbasi konvergen?
 
-Tidak selalu. Deret perturbasi sering bersifat **asimtotik**: beberapa suku pertama makin kecil dan mendekati jawaban, tetapi setelah orde tertentu suku-sukunya membesar lagi. Contoh klasiknya osilator kuartik (Contoh 8.32). Argumen Dyson menjelaskan mengapa: bila $\lambda$ negatif, potensial $\tfrac12x^2 + \lambda x^4$ jatuh ke $-\infty$ di jauh, dan tidak ada keadaan terikat. Deret pangkat dalam $\lambda$ yang konvergen untuk $\lambda > 0$ kecil juga akan konvergen untuk $\lambda < 0$ kecil, padahal di sana fisikanya berubah total; jadi deretnya tidak mungkin konvergen. Dalam praktik kimia, orde kedua (MP2, subbab 17.11) sering memberi keseimbangan terbaik antara biaya dan ketelitian, dan orde yang lebih tinggi tidak selalu lebih baik.
+Tidak selalu. Deret perturbasi sering bersifat **asimtotik**: beberapa suku pertama makin kecil dan mendekati jawaban, tetapi setelah orde tertentu suku-sukunya membesar lagi. Contoh klasiknya osilator kuartik (Contoh 8.35). Argumen Dyson menjelaskan mengapa: bila $\lambda$ negatif, potensial $\tfrac12x^2 + \lambda x^4$ jatuh ke $-\infty$ di jauh, dan tidak ada keadaan terikat. Deret pangkat dalam $\lambda$ yang konvergen untuk $\lambda > 0$ kecil juga akan konvergen untuk $\lambda < 0$ kecil, padahal di sana fisikanya berubah total; jadi deretnya tidak mungkin konvergen. Dalam praktik kimia, orde kedua (MP2, subbab 17.11) sering memberi keseimbangan terbaik antara biaya dan ketelitian, dan orde yang lebih tinggi tidak selalu lebih baik.
 
 ::: {.contoh}
-**Contoh 8.31 · Dua tingkat: eksak lawan orde kedua**
+**Contoh 8.34 · Dua tingkat: eksak lawan orde kedua**
 
 Dua tingkat $E_1^{(0)} = 0$ dan $E_2^{(0)} = \Delta$ dikopel oleh $H'_{12} = V$ (tanpa unsur diagonal). Bandingkan pergeseran eksak tingkat bawah, dari (8.22), dengan $E^{(2)} = -V^2/\Delta$ untuk $V/\Delta = 0{,}05$; 0,1; 0,2; 0,5; 1.
 
@@ -263,7 +275,7 @@ Dua tingkat $E_1^{(0)} = 0$ dan $E_2^{(0)} = \Delta$ dikopel oleh $H'_{12} = V$ 
 ![Gambar 8.5 Kiri: energi dua tingkat terkopel sebagai fungsi selisih tingkat tak terganggu $\delta = E_2^{(0)} - E_1^{(0)}$, dengan kopling tetap $V$. Garis tipis: tingkat tak terganggu yang berpotongan. Garis tebal: tingkat eksak, yang saling menghindar dengan celah minimum $2|V|$. Garis putus-putus: perturbasi orde kedua, yang baik jauh dari persilangan dan gagal di dekatnya. Kanan: energi keadaan dasar osilator $\tfrac12x^2 + \lambda x^4$ terhadap $\lambda$: eksak, dan deret perturbasi yang dipotong pada orde 1, 2, 3, dan 4.](fig/c_orde2.png){width=95%}
 
 ::: {.contoh}
-**Contoh 8.32 · Osilator kuartik: deret yang asimtotik**
+**Contoh 8.35 · Osilator kuartik: deret yang asimtotik**
 
 Untuk $\hat H = \tfrac12p^2 + \tfrac12x^2 + \lambda x^4$, koefisien deret perturbasi keadaan dasar (dihitung dengan rekursi Rayleigh–Schrödinger dalam basis osilator) adalah
 
@@ -275,7 +287,7 @@ $$
 
 **Penyelesaian.** (a) $x^4$ menghubungkan $|0\rangle$ dengan $|2\rangle$ dan $|4\rangle$. Dengan operator tangga: $\langle 2|x^4|0\rangle = \tfrac14\cdot6\sqrt2 = 3/\sqrt2$ dan $\langle 4|x^4|0\rangle = \tfrac14\sqrt{24} = \sqrt6/2$. Selisih energinya $-2$ dan $-4$. Jadi $E^{(2)} = \lambda^2[(9/2)/(-2) + (6/4)/(-4)] = \lambda^2(-\tfrac94 - \tfrac38) = -\tfrac{21}{8}\lambda^2$.
 
-(b)
+(b) Penjumlahan orde demi orde:
 
 | Orde | Suku | Jumlah | Galat |
 |---|---|---|---|
@@ -285,13 +297,13 @@ $$
 | 3 | $+0{,}02081$ | 0,56956 | $+0{,}0104$ |
 | 4 | $-0{,}02413$ | 0,54543 | $-0{,}0137$ |
 
-**Memahami hasil.** Suku-sukunya mengecil sampai orde kedua, lalu membesar lagi: deretnya asimtotik. Jawaban terbaik diperoleh dengan berhenti di sekitar suku terkecil, dan galatnya tidak dapat dibuat lebih kecil daripada kira-kira besar suku itu, berapa pun ordenya. Bandingkan dengan diagonalisasi (Contoh 8.23), yang konvergen ke nilai eksak dengan basis 10 fungsi saja. Untuk gangguan yang tidak kecil, metode variasi linear lebih dapat diandalkan; teori perturbasi unggul bila gangguannya benar-benar kecil, atau bila kita menginginkan rumus analitis.
+**Memahami hasil.** Suku-sukunya mengecil sampai orde kedua, lalu membesar lagi: deretnya asimtotik. Jawaban terbaik diperoleh dengan berhenti di sekitar suku terkecil, dan galatnya tidak dapat dibuat lebih kecil daripada kira-kira besar suku itu, berapa pun ordenya. Bandingkan dengan diagonalisasi (Contoh 8.24), yang konvergen ke nilai eksak dengan basis 10 fungsi saja. Untuk gangguan yang tidak kecil, metode variasi linear lebih dapat diandalkan; teori perturbasi unggul bila gangguannya benar-benar kecil, atau bila kita menginginkan rumus analitis.
 :::
 
 ::: {.contoh}
-**Contoh 8.33 · Piridina pada orde kedua**
+**Contoh 8.36 · Piridina pada orde kedua**
 
-Lanjutkan Contoh 8.28. Dalam basis orbital benzena yang dipilih sedemikian sehingga dari setiap pasangan terdegenerasi hanya satu orbital yang mempunyai koefisien pada atom 1 (koefisien kuadrat $\tfrac13$), unsur kopling perturbasi antara orbital $k$ dan $m$ adalah $H'_{mk} = h\beta c_{1m}c_{1k}$. Hitung koreksi orde kedua untuk orbital terendah ($x = 2$) dalam satuan $\beta$.
+Lanjutkan Contoh 8.30. Dalam basis orbital benzena yang dipilih sedemikian sehingga dari setiap pasangan terdegenerasi hanya satu orbital yang mempunyai koefisien pada atom 1 (koefisien kuadrat $\tfrac13$), unsur kopling perturbasi antara orbital $k$ dan $m$ adalah $H'_{mk} = h\beta c_{1m}c_{1k}$. Hitung koreksi orde kedua untuk orbital terendah ($x = 2$) dalam satuan $\beta$.
 
 **Penyelesaian.** Dengan $E = \alpha + x\beta$, penyebut $E_k - E_m = (x_k - x_m)\beta$, sehingga dalam satuan $\beta$,
 
@@ -307,7 +319,7 @@ Untuk orbital tertinggi ($x = -2$) semua penyebut negatif, dan jumlah yang sama 
 :::
 
 ::: {.contoh}
-**Contoh 8.34 · Osilator bermuatan dalam medan listrik dan model Drude**
+**Contoh 8.37 · Osilator bermuatan dalam medan listrik dan model Drude**
 
 Partikel bermuatan $q$ dan bermassa $m$ terikat pegas ($k = m\omega^2$) diletakkan dalam medan $F$, sehingga $\hat H' = -qF\hat x$. (a) Hitung $E_0^{(1)}$ dan $E_0^{(2)}$. (b) Tunjukkan bahwa hasilnya eksak. (c) Polarisabilitas didefinisikan oleh $E = E_0 - \tfrac12\alpha F^2$. Hitung volume polarisabilitas $\alpha/4\pi\varepsilon_0$ untuk elektron dengan $\hbar\omega = 10$ eV.
 
@@ -335,7 +347,7 @@ $$
 E_v^{(2)}(\text{kubik}) = -\frac{k_3^2s^3}{36\,\hbar\omega}\left(30v^2 + 30v + 11\right) .
 $$
 
-Suku kuartik pada orde pertama (Contoh 8.27): $E_v^{(1)}(\text{kuartik}) = \tfrac{k_4}{24}s^2\left(6v^2 + 6v + 3\right)$. Koefisien $v^2$ dari jumlah keduanya adalah $-\omega_ex_e$ (dalam satuan energi), karena $G(v) = \omega_e(v + \tfrac12) - \omega_ex_e(v + \tfrac12)^2$ memuat $-\omega_ex_ev^2$:
+Suku kuartik pada orde pertama (Contoh 8.29): $E_v^{(1)}(\text{kuartik}) = \tfrac{k_4}{24}s^2\left(6v^2 + 6v + 3\right)$. Koefisien $v^2$ dari jumlah keduanya adalah $-\omega_ex_e$ (dalam satuan energi), karena $G(v) = \omega_e(v + \tfrac12) - \omega_ex_e(v + \tfrac12)^2$ memuat $-\omega_ex_ev^2$:
 
 $$
 \omega_ex_e = \frac{5k_3^2s^3}{6\hbar\omega} - \frac{k_4s^2}{4} .

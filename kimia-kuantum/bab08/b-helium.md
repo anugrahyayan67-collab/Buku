@@ -176,20 +176,23 @@ Hitung energi minimum fungsi (8.14) untuk H⁻ dan He. Integral yang diperlukan 
 import numpy as np
 from scipy.optimize import minimize
 
-S = lambda a, b: 8*np.pi/(a + b)**3                      # <e^-ar | e^-br>
+S = lambda a, b: 8*np.pi/(a + b)**3          # <e^-ar|e^-br>
 T = lambda a, b: -0.5*(b*b*S(a, b) - 8*np.pi*b/(a + b)**2)
 V = lambda a, b, Z: -4*np.pi*Z/(a + b)**2
-J = lambda p, q: 32*np.pi**2*(p*p + 3*p*q + q*q)/(p*p*q*q*(p + q)**3)
+J = lambda p, q: (32*np.pi**2*(p*p + 3*p*q + q*q)
+                  /(p*p*q*q*(p + q)**3))
 
 def energi(x, Z):
     a, b = x
-    h = lambda a, b: T(a, b) + V(a, b, Z)                 # Hamiltonian satu elektron
-    HAA = h(a, a)*S(b, b) + S(a, a)*h(b, b) + J(2*a, 2*b) # <A|H|A>, A = e^-ar1 e^-br2
-    HAB = 2*h(a, b)*S(a, b) + J(a + b, a + b)             # <A|H|B>, B = e^-br1 e^-ar2
+    h = lambda a, b: T(a, b) + V(a, b, Z)     # satu elektron
+    # A = e^-ar1 e^-br2, B = e^-br1 e^-ar2
+    HAA = h(a, a)*S(b, b) + S(a, a)*h(b, b) + J(2*a, 2*b)
+    HAB = 2*h(a, b)*S(a, b) + J(a + b, a + b)
     return (HAA + HAB)/(S(a, a)*S(b, b) + S(a, b)**2)
 
 for Z in (1, 2):
-    r = minimize(energi, [Z + 0.1, 0.5*Z], args=(Z,), method='Nelder-Mead')
+    r = minimize(energi, [Z + 0.1, 0.5*Z], args=(Z,),
+                 method='Nelder-Mead')
     print(Z, r.x.round(4), round(r.fun, 5))
 ```
 

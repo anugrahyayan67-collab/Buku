@@ -70,6 +70,7 @@ Tuliskan determinan sekuler Hückel untuk alil (tiga atom berantai) dengan $x = 
 Untuk basis $f_1 = x(L - x)$ dan $f_3 = x(L - x)(L - 2x)$ pada partikel dalam kotak, tunjukkan bahwa $H_{13} = S_{13} = 0$, lalu tuliskan kedua akarnya. ||| integran ganjil terhadap $L/2$; $1{,}0132E_1$ dan $4{,}2555E_1$
 Untuk $H_{11} = 0$, $H_{22} = 1{,}0$ eV, $H_{12} = 0{,}2$ eV (basis ortonormal), hitung akar-akar dan sudut campuran $\theta$. ||| $-0{,}0385$ dan $1{,}0385$ eV; $\theta = -10{,}9°$
 Untuk dua basis setara dengan tumpang tindih $S$, tunjukkan bahwa $\alpha - W_+ = -(\beta - \alpha S)/(1 + S)$ dan $W_- - \alpha = -(\beta - \alpha S)/(1 - S)$. Mana yang lebih besar bila $S > 0$? ||| aljabar langsung dari (8.21); destabilisasi lebih besar
+Model Hückel imina C=N: $H_\text{NN} = \alpha + 0{,}5\beta$, $H_\text{CC} = \alpha$, $H_\text{CN} = \beta$. Hitung kedua akar dan bagian LUMO yang berada di karbon. ||| $x = 1{,}281$ dan $-0{,}781$; LUMO 62% di C
 @osil [P] Osilator kuartik $\tfrac12x^2 + 0{,}1x^4$ ($\hbar = m = \omega = 1$) dalam basis $\{|0\rangle, |2\rangle\}$. Diketahui $H_{00} = 0{,}575$, $H_{22} = 3{,}475$, $H_{02} = 0{,}2121$. Hitung akar-akarnya dan bandingkan dengan 0,559146. ||| 0,559565 dan 3,490435; galat akar terendah $4{,}2 \times 10^{-4}$
 
 **Tantangan ★**
@@ -89,6 +90,7 @@ Hitung nilai eigen Hückel siklobutadiena (cincin empat atom). Apa akibatnya bag
 Dengan Python, diagonalkan matriks Hückel naftalena dan hitung energi π total serta celah HOMO–LUMO. ||| $x = \pm2{,}303, \pm1{,}618, \pm1{,}303, \pm1, \pm0{,}618$; $E_\pi = 10\alpha + 13{,}683\beta$; celah $1{,}236|\beta|$
 Basis empat fungsi Gauss bertempera rata untuk atom hidrogen dengan $\alpha_0 = 0{,}1348$ dan $\beta = 4{,}074$ ($\alpha_k = \alpha_0\beta^k$) memberi energi berapa? Bandingkan dengan empat Gauss teroptimum bebas. ||| $-0{,}49875\ E_h$; $-0{,}49928\ E_h$
 Mengapa basis $\{|0\rangle, |1\rangle\}$ tidak memperbaiki energi keadaan dasar osilator $\tfrac12x^2 + \lambda x^4$ dibandingkan basis $\{|0\rangle\}$? ||| $x^4$ tidak menghubungkan keadaan berparitas berbeda; $H_{01} = 0$
+Dari Contoh 8.27, batas-s helium sekitar $-2{,}8790\ E_h$. Berapa bagian energi korelasi ($-0{,}0420\ E_h$) yang berupa korelasi radial? ||| $0{,}0173/0{,}0420 = 41$%
 Hitung sudut rotasi Jacobi yang mendiagonalkan $\begin{pmatrix}-5 & -1\\ -1 & -3\end{pmatrix}$. ||| $\tan2\theta = 1$, $\theta = 22{,}5°$
 
 **Tantangan ★**
@@ -102,6 +104,7 @@ Hitung sudut rotasi Jacobi yang mendiagonalkan $\begin{pmatrix}-5 & -1\\ -1 & -3
 Partikel dalam kotak diberi potensial $V_0$ hanya di separuh kiri kotak. Hitung $E_n^{(1)}$. ||| $V_0/2$ untuk semua $n$
 Osilator harmonik diberi perturbasi $cx^3$. Berapa $E_v^{(1)}$? ||| 0 (integran ganjil)
 Osilator diberi perturbasi $bx^2$. Hitung $E_v^{(1)}$ dan bandingkan dengan uraian energi eksak. ||| $b(v + \tfrac12)\hbar/m\omega$; eksak $\hbar\omega'(v + \tfrac12)$ dengan $\omega' = \omega\sqrt{1 + 2b/m\omega^2} \approx \omega + b/m\omega$
+Hitung pergeseran energi 1s hidrogen akibat gerak inti, $-(m_e/M)E_{1s}$, dalam cm⁻¹. ||| $+59{,}8$ cm⁻¹ (energi naik)
 
 **Menengah**
 
@@ -109,7 +112,8 @@ Osilator diberi perturbasi $bx^2$. Hitung $E_v^{(1)}$ dan bandingkan dengan urai
 Alil dengan heteroatom ($h = 0{,}5$) di atom tengah. Orbital alil: $(1, \sqrt2, 1)/2$, $(1, 0, -1)/\sqrt2$, $(1, -\sqrt2, 1)/2$. Hitung pergeseran orde pertama. Eksak: $x = 1{,}686$; 0; $-1{,}186$. ||| $x = 1{,}664$; 0; $-1{,}164$
 Ulangi untuk heteroatom di atom ujung. Eksak: 1,571; 0,242; $-1{,}313$. ||| $x = 1{,}539$; 0,250; $-1{,}289$
 Hitung koreksi relativistik orde pertama total $-Z^4\alpha_\text{f}^2/8$ untuk 1s ion C⁵⁺ dalam cm⁻¹ dan relatif terhadap $-Z^2/2$. ||| $-0{,}00863\ E_h = -1893$ cm⁻¹; $4{,}8 \times 10^{-4}$
-Dalam Contoh 8.26, hitung koefisien campuran $a_4$ (pakai $\langle 4|x|1\rangle = -0{,}01441L$) dan bandingkan dengan $a_2$. ||| $a_4 = 2{,}6 \times 10^{-4}$; $a_2/a_4 \approx 63$
+Mengapa koreksi massa inti orde pertama, $E \approx E^{(0)}(1 - m_e/M)$, gagal untuk positronium ($M = m_e$)? Berapa energi keadaan dasarnya yang benar? ||| $m_e/M = 1$ tidak kecil (ramalan $E = 0$); eksak $\mu = m_e/2$, $E = -0{,}25\ E_h$
+Dalam Contoh 8.28, hitung koefisien campuran $a_4$ (pakai $\langle 4|x|1\rangle = -0{,}01441L$) dan bandingkan dengan $a_2$. ||| $a_4 = 2{,}6 \times 10^{-4}$; $a_2/a_4 \approx 63$
 
 **Tantangan ★**
 
@@ -206,7 +210,8 @@ Berapa lebar spektrum (cm⁻¹) pulsa Gauss 50 fs? ||| 294 cm⁻¹
 
 Ion He⁺ dalam keadaan 1s mengalami perubahan muatan inti mendadak dari 2 menjadi 3. Hitung peluang ion Li²⁺ yang terbentuk berada di 1s. ||| $[8(6)^{3/2}/125]^2 = 0{,}885$
 Pada penalaan $\delta = 2\Omega$, berapa peluang transisi maksimum? ||| $\tfrac15$
-Dalam Contoh 8.49, berapa intensitas laser yang diperlukan agar periode Rabi menjadi 1,0 ns? ||| $\Omega \propto \sqrt I$: sekitar 130 W/cm²
+Dalam Contoh 8.53, berapa intensitas laser yang diperlukan agar periode Rabi menjadi 1,0 ns? ||| $\Omega \propto \sqrt I$: sekitar 130 W/cm²
+Hitung jarak persilangan kurva ionik–kovalen untuk NaBr ($A_\text{Br} = 3{,}364$ eV) dan KCl ($I_\text{K} = 4{,}341$ eV). Mana yang "melempar harpun" dari jarak lebih jauh? ||| 8,11 Å; 19,8 Å; KCl
 Jelaskan mengapa transisi tidak terjadi bila perturbasi dinyalakan sangat lambat dibandingkan $1/\omega_{fi}$. ||| integral $\int H'e^{i\omega_{fi}t}dt$ hampir nol untuk fungsi yang berubah lambat (teorema adiabatik)
 
 **Tantangan ★**

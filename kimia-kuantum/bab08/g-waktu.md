@@ -93,7 +93,7 @@ Dua kasus batas lain sangat berguna dalam kimia. Bila Hamiltonian berubah **mend
 Sebaliknya, bila Hamiltonian berubah **sangat lambat**, sistem yang mula-mula pada keadaan eigen ke-$n$ tetap pada keadaan eigen ke-$n$ Hamiltonian sesaat (**teorema adiabatik**). Pendekatan Born–Oppenheimer (subbab 11.1) bertumpu pada teorema ini: inti bergerak lambat, sehingga elektron selalu menyesuaikan diri dengan posisi inti sesaat. Kasus di antaranya, ketika dua kurva energi potensial saling mendekat dan inti melewati daerah itu dengan kecepatan tertentu, ditangani oleh rumus Landau–Zener dan menentukan hasil banyak reaksi fotokimia.
 
 ::: {.contoh}
-**Contoh 8.48 · Peluruhan beta tritium**
+**Contoh 8.52 · Peluruhan beta tritium**
 
 Inti tritium (³H) meluruh menjadi ³He dengan memancarkan elektron cepat dan antineutrino dalam waktu jauh lebih singkat daripada periode orbit elektron atom. Muatan inti melompat dari $Z = 1$ ke $Z = 2$, sedangkan elektron atom mula-mula di 1s hidrogen. (a) Hitung peluang ion ³He⁺ yang terbentuk berada pada 1s, dengan $\langle 1s_{Z_1}|1s_{Z_2}\rangle = 8(Z_1Z_2)^{3/2}/(Z_1 + Z_2)^3$. (b) Peluang pada 2s ternyata tepat $\tfrac14$. Berapa peluang ke keadaan lain (termasuk ionisasi)? (c) Berapa energi rata-rata elektron setelah peluruhan?
 
@@ -107,7 +107,7 @@ Inti tritium (³H) meluruh menjadi ³He dengan memancarkan elektron cepat dan an
 :::
 
 ::: {.contoh}
-**Contoh 8.49 · Laser dan kejenuhan transisi**
+**Contoh 8.53 · Laser dan kejenuhan transisi**
 
 Laser kontinu berintensitas $1{,}0$ W/cm² disetel tepat pada garis D natrium (589 nm), yang momen dipol transisinya $2{,}49\ ea_0$. (a) Hitung amplitudo medan listrik, $F_0 = \sqrt{2I/c\varepsilon_0}$. (b) Hitung frekuensi Rabi dan lama pulsa $\pi$. (c) Bandingkan dengan umur keadaan 3p (16,2 ns). Kapan teori perturbasi orde pertama berlaku?
 
@@ -121,7 +121,7 @@ Laser kontinu berintensitas $1{,}0$ W/cm² disetel tepat pada garis D natrium (5
 :::
 
 ::: {.contoh}
-**Contoh 8.50 · Pulsa NMR $\pi/2$**
+**Contoh 8.54 · Pulsa NMR $\pi/2$**
 
 Dalam spektrometer NMR, medan magnet frekuensi radio $B_1$ yang berputar memberi frekuensi Rabi $\Omega = \gamma B_1$ untuk spin inti. Untuk proton, $\gamma = 2{,}675 \times 10^8$ rad s⁻¹ T⁻¹. (a) Bila pulsa $\pi/2$ untuk ¹H berlangsung 10 µs, berapa $\Omega/2\pi$ dan $B_1$? (b) Sebuah proton yang frekuensi resonansinya meleset $\delta = \Omega$ dari frekuensi pemancar: berapa peluang maksimum transisinya?
 
@@ -133,7 +133,7 @@ Dalam spektrometer NMR, medan magnet frekuensi radio $B_1$ yang berputar memberi
 :::
 
 ::: {.contoh}
-**Contoh 8.51 · Pulsa ultracepat dan paket gelombang**
+**Contoh 8.55 · Pulsa ultracepat dan paket gelombang**
 
 Pulsa laser berbentuk Gauss mempunyai hasil kali lebar waktu dan lebar frekuensi (keduanya lebar penuh pada setengah maksimum) $\Delta\nu\,\Delta t = 0{,}441$. Hitung lebar spektrum dalam cm⁻¹ untuk pulsa 10 fs, 100 fs, dan 1 ps, dan bandingkan dengan jarak tingkat getaran I₂ dalam keadaan tereksitasi B (sekitar 120 cm⁻¹) dan jarak garis rotasi (sekitar 0,06 cm⁻¹).
 
@@ -142,12 +142,26 @@ Pulsa laser berbentuk Gauss mempunyai hasil kali lebar waktu dan lebar frekuensi
 **Memahami hasil.** Pulsa 10 fs mengeksitasi belasan tingkat getaran sekaligus secara koheren, membentuk **paket gelombang** yang bergerak bolak-balik dalam sumur potensial seperti partikel klasik. Pulsa 100 fs mencakup satu atau dua tingkat getaran; pulsa 1 ps memilih satu tingkat getaran tetapi masih mencakup ratusan garis rotasi. Dengan pulsa femtodetik, Zewail (Nobel Kimia 1999) "memotret" pemutusan ikatan ICN dan NaI ketika sedang terjadi: makin pendek pulsa, makin tajam gambaran waktunya, tetapi makin kabur energinya, sesuai sifat kelima rumus (8.54).
 :::
 
+::: {.contoh}
+**Contoh 8.56 · Persilangan kurva ionik dan kovalen NaCl**
+
+Pada jarak besar, energi pasangan Na⁺ + Cl⁻ relatif terhadap atom netral Na + Cl adalah $I_\text{Na} - A_\text{Cl} - e^2/4\pi\varepsilon_0R$, dengan $I_\text{Na} = 5{,}139$ eV dan $A_\text{Cl} = 3{,}613$ eV, sedangkan energi pasangan netral hampir nol. (a) Pada jarak berapa kedua kurva bersilangan? (b) Ulangi untuk NaI ($A_\text{I} = 3{,}059$ eV). (c) Apa yang terjadi bila inti melewati persilangan itu dengan lambat atau cepat?
+
+**Penyelesaian.** (a) Kurva bersilangan bila $e^2/4\pi\varepsilon_0R_c = I - A$. Dengan $e^2/4\pi\varepsilon_0 = 14{,}40$ eV Å: $R_c = 14{,}40/1{,}526 = 9{,}44$ Å.
+
+(b) $R_c = 14{,}40/2{,}080 = 6{,}92$ Å.
+
+(c) Kedua keadaan terkopel lemah di persilangan (elektron harus melompat sejauh hampir 1 nm), sehingga kurva-kurva yang sebenarnya saling menghindar dengan celah kecil (Gambar 8.5, kiri). Bila inti bergerak lambat, sistem tetap di kurva adiabatik bawah dan karakternya berubah dari ionik ke kovalen; bila cepat, sistem "melompati" celah dan tetap pada karakter semula.
+
+**Memahami hasil.** Molekul NaCl dalam keadaan dasar bersifat ionik pada jarak kesetimbangan (2,36 Å), tetapi berdisosiasi menjadi atom **netral**, karena di jarak lebih dari 9,4 Å pasangan netral lebih stabil. Dalam percobaan femtokimia Zewail, pulsa laser mengeksitasi NaI ke kurva kovalen; paket gelombang berayun bolak-balik, dan setiap kali melewati persilangan di sekitar 7 Å sebagian kecil "bocor" menjadi atom Na dan I, sehingga atom netral muncul dalam semburan berkala. Peluang lolos setiap lintasan dihitung dengan rumus Landau–Zener, perluasan teori perturbasi bergantung waktu untuk dua keadaan yang selisih energinya berubah terhadap waktu. Mekanisme "harpun" dalam reaksi logam alkali dengan halogen bekerja dengan cara yang sama: elektron melompat pada jarak besar, lalu tarikan Coulomb menarik kedua ion.
+:::
+
 ![Gambar 8.9 Kiri: peluang transisi sistem dua tingkat terhadap waktu (dalam satuan $1/\Omega$). Garis tebal: osilasi Rabi tepat pada resonansi; garis sedang dan tipis: dengan penalaan $\delta = \Omega$ dan $\delta = 2\Omega$; garis putus-putus: rumus orde pertama, yang hanya berlaku untuk $\Omega t \ll 1$. Kanan: peluang transisi orde pertama terhadap penalaan $\omega - \omega_{fi}$ setelah waktu $t$ dan $2t$; puncak makin tinggi dan sempit ketika waktu bertambah.](fig/c_rabi.png){width=95%}
 
 ::: {.kuis}
 **Kuis cepat 8.11**
 
-(a) Mengapa pendekatan dipol ($\hat H' = -\hat\mu\cdot\mathbf F$) baik untuk cahaya tampak, tetapi kurang baik untuk sinar-X? (b) Bila intensitas cahaya dilipatduakan, bagaimana peluang transisi orde pertama berubah? Bagaimana frekuensi Rabi berubah? (c) Dalam Contoh 8.48, mengapa peluang ke 2p nol?
+(a) Mengapa pendekatan dipol ($\hat H' = -\hat\mu\cdot\mathbf F$) baik untuk cahaya tampak, tetapi kurang baik untuk sinar-X? (b) Bila intensitas cahaya dilipatduakan, bagaimana peluang transisi orde pertama berubah? Bagaimana frekuensi Rabi berubah? (c) Dalam Contoh 8.52, mengapa peluang ke 2p nol?
 :::
 
 ## 8.12 Momen dipol transisi, aturan seleksi, aturan emas Fermi
@@ -182,7 +196,7 @@ Aturan $\Delta\ell = \pm1$ mudah diingat: foton membawa satu satuan momentum sud
 
 **Aturan Laporte.** Dalam atom atau molekul yang mempunyai pusat inversi, setiap keadaan genap (*gerade*, g) atau ganjil (*ungerade*, u) terhadap inversi, sedangkan $\hat{\boldsymbol\mu}$ ganjil. Maka hanya transisi **g ↔ u** yang diizinkan; g → g dan u → u terlarang. Ini aturan yang membuat transisi d–d ion logam transisi dalam kompleks oktahedral lemah: semua orbital d genap. Kompleks [Ti(H₂O)₆]³⁺ berwarna ungu pucat, dengan koefisien absorpsi molar sekitar 5 L mol⁻¹ cm⁻¹, sedangkan transisi transfer muatan yang diizinkan (misalnya pada ion permanganat) mempunyai koefisien ribuan kali lebih besar. Transisi d–d tetap teramati lemah karena getaran molekul sesaat merusak pusat inversi (Bab 14).
 
-**Spin.** Operator dipol tidak menyentuh koordinat spin, sehingga $\boldsymbol\mu_{fi}$ memuat faktor tumpang tindih fungsi spin, yang nol bila spin total berubah: $\Delta S = 0$. Transisi singlet ↔ triplet terlarang. Inilah sebabnya keadaan $2^3$S helium hidup ribuan detik (Contoh 8.41) dan sebabnya fosforesensi (pancaran triplet → singlet) jauh lebih lambat daripada fluoresensi. Larangan ini dilonggarkan oleh kopling spin–orbit (subbab 9.13), yang kuat pada atom berat.
+**Spin.** Operator dipol tidak menyentuh koordinat spin, sehingga $\boldsymbol\mu_{fi}$ memuat faktor tumpang tindih fungsi spin, yang nol bila spin total berubah: $\Delta S = 0$. Transisi singlet ↔ triplet terlarang. Inilah sebabnya keadaan $2^3$S helium hidup ribuan detik (Contoh 8.44) dan sebabnya fosforesensi (pancaran triplet → singlet) jauh lebih lambat daripada fluoresensi. Larangan ini dilonggarkan oleh kopling spin–orbit (subbab 9.13), yang kuat pada atom berat.
 
 ::: {.awas}
 **"Terlarang" berarti "lemah", bukan "mustahil"**
@@ -191,7 +205,7 @@ Aturan seleksi diturunkan dengan beberapa pendekatan: dipol listrik (gelombang c
 :::
 
 ::: {.contoh}
-**Contoh 8.52 · Aturan seleksi atom hidrogen**
+**Contoh 8.57 · Aturan seleksi atom hidrogen**
 
 Dari keadaan $n = 3$ hidrogen (3s, 3p, 3d), transisi pancaran ke tingkat mana yang diizinkan? Garis Balmer-α (656 nm) terdiri atas transisi apa saja?
 
@@ -201,7 +215,7 @@ Dari keadaan $n = 3$ hidrogen (3s, 3p, 3d), transisi pancaran ke tingkat mana ya
 :::
 
 ::: {.contoh}
-**Contoh 8.53 · Zat warna sianin: transisi yang sangat kuat**
+**Contoh 8.58 · Zat warna sianin: transisi yang sangat kuat**
 
 Dalam model elektron bebas, kation sianin dengan 8 elektron π mempunyai $L = 1{,}112$ nm (subbab 3.8). (a) Apakah transisi HOMO ($n = 4$) → LUMO ($n = 5$) diizinkan? (b) Hitung $\langle 4|x|5\rangle = 8L(4)(5)/[\pi^2(25 - 16)^2]$ dan momen dipol transisinya. Dengan dua elektron di HOMO, momen dipol transisi singlet adalah $\sqrt2\,e|\langle 4|x|5\rangle|$. (c) Bandingkan dengan transisi HOMO → $n = 6$.
 
@@ -284,7 +298,7 @@ dengan $\varepsilon$ koefisien absorpsi molar dalam L mol⁻¹ cm⁻¹ dan $\til
 :::
 
 ::: {.contoh}
-**Contoh 8.54 · Umur keadaan 2p hidrogen**
+**Contoh 8.59 · Umur keadaan 2p hidrogen**
 
 Untuk transisi 2p → 1s hidrogen, $|\langle 1s|z|2p_0\rangle| = 0{,}7449\ a_0$ dan $\Delta E = 0{,}375\ E_h$. (a) Hitung kekuatan osilator serapan 1s → 2p (jumlah ketiga komponen $m$). (b) Hitung $A$ dan umur 2p. (c) Hitung lebar garis alami $A/2\pi$.
 
@@ -298,7 +312,7 @@ Untuk transisi 2p → 1s hidrogen, $|\langle 1s|z|2p_0\rangle| = 0{,}7449\ a_0$ 
 :::
 
 ::: {.contoh}
-**Contoh 8.55 · Natrium: satu transisi menghabiskan anggaran**
+**Contoh 8.60 · Natrium: satu transisi menghabiskan anggaran**
 
 Umur keadaan 3p natrium adalah 16,2 ns, dan garis D berada di 589 nm. (a) Hitung $|\mu_{fi}|$ dari (8.60). (b) Hitung kekuatan osilator serapan 3s → 3p. (c) Tafsirkan dengan aturan jumlah TRK.
 
@@ -312,29 +326,29 @@ Umur keadaan 3p natrium adalah 16,2 ns, dan garis D berada di 589 nm. (a) Hitung
 :::
 
 ::: {.contoh}
-**Contoh 8.56 · Aturan jumlah untuk partikel dalam kotak**
+**Contoh 8.61 · Aturan jumlah untuk partikel dalam kotak**
 
 Untuk elektron dalam kotak (satu dimensi, polarisasi sepanjang kotak), kekuatan osilator didefinisikan $f_{n1} = (2m_e\omega_{n1}/\hbar)|\langle n|x|1\rangle|^2$. (a) Hitung $f_{21}$. (b) Periksa dengan Python bahwa $\sum_nf_{n1} = 1$.
 
 **Penyelesaian.** (a) Dengan $\hbar = m_e = L = 1$: $\omega_{21} = 3\pi^2/2$ dan $|\langle 2|x|1\rangle|^2 = (16/9\pi^2)^2$. Jadi $f_{21} = 2(3\pi^2/2)(256/81\pi^4) = 768/81\pi^2 = 0{,}9607$.
 
-(b)
+(b) Penjumlahan dengan Python:
 
 ```python
 import numpy as np
 f = 0.0
-for n in range(2, 2000, 2):                  # hanya n genap yang diizinkan
-    w = (n*n - 1)*np.pi**2/2                 # E_n - E_1 (hbar = m = L = 1)
-    x = 8*n/(np.pi**2*(n*n - 1)**2)          # |<n|x|1>|
+for n in range(2, 2000, 2):          # hanya n genap diizinkan
+    w = (n*n - 1)*np.pi**2/2         # E_n - E_1 (hbar = m = L = 1)
+    x = 8*n/(np.pi**2*(n*n - 1)**2)  # |<n|x|1>|
     f += 2*w*x*x
-print(f)                                     # 0.9999999999
+print(f)                             # 0.9999999999
 ```
 
-**Memahami hasil.** Transisi 1 → 2 sendiri memakai 96% anggaran, dan semua transisi lain berbagi 4% sisanya. Pola ini, satu transisi terendah yang sangat kuat, khas sistem terkonjugasi: transisi HOMO → LUMO zat warna mendominasi spektrumnya, dan polarisabilitasnya (Contoh 8.45) didominasi oleh transisi yang sama. Aturan jumlah TRK sangat berguna untuk memeriksa perhitungan spektrum: bila jumlah kekuatan osilator yang dihitung jauh dari jumlah elektron, basisnya terlalu kecil.
+**Memahami hasil.** Transisi 1 → 2 sendiri memakai 96% anggaran, dan semua transisi lain berbagi 4% sisanya. Pola ini, satu transisi terendah yang sangat kuat, khas sistem terkonjugasi: transisi HOMO → LUMO zat warna mendominasi spektrumnya, dan polarisabilitasnya (Contoh 8.48) didominasi oleh transisi yang sama. Aturan jumlah TRK sangat berguna untuk memeriksa perhitungan spektrum: bila jumlah kekuatan osilator yang dihitung jauh dari jumlah elektron, basisnya terlalu kecil.
 :::
 
 ::: {.contoh}
-**Contoh 8.57 · Dari kekuatan osilator ke koefisien absorpsi**
+**Contoh 8.62 · Dari kekuatan osilator ke koefisien absorpsi**
 
 Sebuah pita serapan berbentuk Gauss mempunyai lebar penuh pada setengah maksimum 1500 cm⁻¹. Integral Gauss adalah $1{,}0645 \times$ tinggi $\times$ lebar. Berapa koefisien absorpsi molar puncaknya bila (a) $f = 1$ (transisi diizinkan kuat), (b) $f = 10^{-4}$ (transisi d–d atau terlarang)?
 

@@ -90,7 +90,7 @@ $$
 
 Suku pertama adalah $E^{(2)}$ (8.35); suku kedua $E^{(4)} = +V^4/\Delta^3$. Orde ganjil nol karena perturbasi tidak mempunyai unsur diagonal.
 
-*Cara berpikir:* deret ini konvergen hanya bila $u < 1$, yaitu $|V| < \Delta/2$. Bila kopling lebih besar daripada setengah selisih energi, tidak ada orde yang cukup; diagonalisasi matriks 2 × 2 adalah satu-satunya jalan. Ini sesuai Contoh 8.31: galat orde kedua sudah 21% pada $V/\Delta = 0{,}5$.
+*Cara berpikir:* deret ini konvergen hanya bila $u < 1$, yaitu $|V| < \Delta/2$. Bila kopling lebih besar daripada setengah selisih energi, tidak ada orde yang cukup; diagonalisasi matriks 2 × 2 adalah satu-satunya jalan. Ini sesuai Contoh 8.34: galat orde kedua sudah 21% pada $V/\Delta = 0{,}5$.
 
 **Soal {{kotak2d}}.** Dengan $\psi_{n_xn_y} = \psi_{n_x}(x)\psi_{n_y}(y)$, perturbasi $cxy$ berfaktor: $\langle n_x'n_y'|xy|n_xn_y\rangle = \langle n_x'|x|n_x\rangle\langle n_y'|y|n_y\rangle$. Diagonal: $\langle 12|xy|12\rangle = (L/2)(L/2) = L^2/4$, sama untuk $(2,1)$. Luar diagonal: $\langle 12|xy|21\rangle = \langle 1|x|2\rangle\langle 2|y|1\rangle = (16L/9\pi^2)^2 = 0{,}0324L^2$. Matriksnya $cL^2\begin{pmatrix}0{,}25 & 0{,}0324\\ 0{,}0324 & 0{,}25\end{pmatrix}$, dengan akar $cL^2(0{,}25 \pm 0{,}0324)$ dan fungsi $(\psi_{12} \pm \psi_{21})/\sqrt2$.
 
@@ -108,7 +108,7 @@ $$
 E^{(2)} \approx -\frac{6}{2I}\cdot\frac{\alpha^2I^2}{4}\cdot\frac{1}{R^6} = -\frac{3I\alpha^2}{4R^6} .
 $$
 
-*Cara berpikir:* rumus London menyederhanakan dua kali (energi eksitasi rata-rata sama dengan $I$ untuk polarisabilitas dan untuk dispersi), dan kesalahan-kesalahan itu sebagian saling menghapus; hasilnya terlalu rendah 10–30% (Contoh 8.47). Struktur rumusnya yang penting: dispersi sebanding dengan kuadrat polarisabilitas dan dengan energi karakteristik elektron.
+*Cara berpikir:* rumus London menyederhanakan dua kali (energi eksitasi rata-rata sama dengan $I$ untuk polarisabilitas dan untuk dispersi), dan kesalahan-kesalahan itu sebagian saling menghapus; hasilnya terlalu rendah 10–30% (Contoh 8.50). Struktur rumusnya yang penting: dispersi sebanding dengan kuadrat polarisabilitas dan dengan energi karakteristik elektron.
 
 **Soal {{rabi}}.** Turunkan persamaan pertama sekali lagi dan masukkan yang kedua: $i\ddot c_i = (\Omega/2)\dot c_f = (\Omega/2)(-i)(\Omega/2)c_i$, jadi $\ddot c_i = -(\Omega/2)^2c_i$. Dengan $c_i(0) = 1$ dan $\dot c_i(0) = -i(\Omega/2)c_f(0) = 0$: $c_i = \cos(\Omega t/2)$. Dari persamaan pertama, $c_f = (2i/\Omega)\dot c_i = -i\sin(\Omega t/2)$. Jadi $P_{i\to f} = \sin^2(\Omega t/2)$, dan $|c_i|^2 + |c_f|^2 = 1$ pada setiap saat.
 
@@ -116,7 +116,7 @@ $$
 
 **Soal {{harmonik}}.** $Y_0^0 = 1/\sqrt{4\pi}$ dan $Y_1^0 = \sqrt{3/4\pi}\cos\theta$. Jadi $\cos\theta\,Y_0^0 = \cos\theta/\sqrt{4\pi} = Y_1^0/\sqrt3$. Karena harmonik bola ortonormal, $\langle Y_1^0|\cos\theta|Y_0^0\rangle = 1/\sqrt3$ dan $\langle Y_2^0|\cos\theta|Y_0^0\rangle = \langle Y_2^0|Y_1^0\rangle/\sqrt3 = 0$.
 
-*Cara berpikir:* perkalian dengan $\cos\theta$ (komponen $z$ vektor satuan) mengubah $\ell$ tepat satu satuan. Inilah isi aturan seleksi $\Delta\ell = \pm1$ (8.57) dan $\Delta J = \pm1$ rotor tegar dalam kasus paling sederhana; hasil yang sama dipakai di Contoh 8.46 untuk efek Stark rotasi.
+*Cara berpikir:* perkalian dengan $\cos\theta$ (komponen $z$ vektor satuan) mengubah $\ell$ tepat satu satuan. Inilah isi aturan seleksi $\Delta\ell = \pm1$ (8.57) dan $\Delta J = \pm1$ rotor tegar dalam kasus paling sederhana; hasil yang sama dipakai di Contoh 8.49 untuk efek Stark rotasi.
 
 # Bacaan lanjut
 
