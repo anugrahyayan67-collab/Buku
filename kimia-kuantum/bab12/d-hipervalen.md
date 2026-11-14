@@ -1,4 +1,4 @@
-## 12.8 Orbital d dan “hipervalensi”: PCl₅, SF₆, ikatan 3-pusat 4-elektron
+## 12.8 Orbital d dan hipervalensi: PCl₅, SF₆, ikatan 3-pusat 4-elektron
 
 ### Molekul yang melampaui oktet
 
@@ -12,10 +12,10 @@ Hibrida oktahedral dapat diturunkan seperti hibrida sp³. Enam hibrida setara me
 
 $$
 h_{\pm z} = \frac{1}{\sqrt6}\,s \pm \frac{1}{\sqrt2}\,p_z + \frac{1}{\sqrt3}\,d_{z^2} , \qquad
-h_{\pm x} = \frac{1}{\sqrt6}\,s \pm \frac{1}{\sqrt2}\,p_x - \frac{1}{\sqrt{12}}\,d_{z^2} + \frac12\,d_{x^2-y^2} , \qquad \text{(12.e27)}
+h_{\pm x} = \frac{1}{\sqrt6}\,s \pm \frac{1}{\sqrt2}\,p_x - \frac{1}{\sqrt{12}}\,d_{z^2} + \frac12\,d_{x^2-y^2} , \qquad \text{(12.27)}
 $$
 
-dan $h_{\pm y}$ sama dengan $h_{\pm x}$ tetapi dengan $p_y$ dan $-\tfrac12d_{x^2-y^2}$. Keenam hibrida ini ortonormal (Contoh 12.a30), dan "kekuatan" Pauling-nya 2,924, lebih besar daripada sp³.
+dan $h_{\pm y}$ sama dengan $h_{\pm x}$ tetapi dengan $p_y$ dan $-\tfrac12d_{x^2-y^2}$. Keenam hibrida ini ortonormal (Contoh 12.30), dan "kekuatan" Pauling-nya 2,924, lebih besar daripada sp³.
 
 Model ini rapi, tetapi menimbulkan pertanyaan yang tidak dapat diabaikan: apakah orbital $3d$ benar-benar cocok untuk ikatan?
 
@@ -23,7 +23,7 @@ Model ini rapi, tetapi menimbulkan pertanyaan yang tidak dapat diabaikan: apakah
 
 **Energi.** Keadaan atom belerang dengan konfigurasi $3s^23p^33d^1$ terletak jauh di atas keadaan dasar, tidak jauh di bawah batas ionisasi. Biaya promosi dua elektron ke $3d$ sangat besar dibanding energi yang dapat dikembalikan oleh dua ikatan tambahan.
 
-**Ukuran.** Elektron $3d$ dalam atom netral hampir tidak merasakan muatan inti: semua elektron yang lebih dalam (termasuk elektron $3s$ dan $3p$) menyaringnya. Taksiran dengan aturan Slater memberikan jarak rata-rata elektron $3d$ belerang sekitar 5,6 Å, sedangkan $3p$ sekitar 1,0 Å (Contoh 12.a28). Orbital yang begitu difus hampir tidak bertumpang tindih dengan orbital fluor pada jarak S–F 156 pm.
+**Ukuran.** Elektron $3d$ dalam atom netral hampir tidak merasakan muatan inti: semua elektron yang lebih dalam (termasuk elektron $3s$ dan $3p$) menyaringnya. Taksiran dengan aturan Slater memberikan jarak rata-rata elektron $3d$ belerang sekitar 5,6 Å, sedangkan $3p$ sekitar 1,0 Å (Contoh 12.28). Orbital yang begitu difus hampir tidak bertumpang tindih dengan orbital fluor pada jarak S–F 156 pm.
 
 **Perhitungan modern.** Perhitungan *ab initio* untuk SF₆, PF₅, dan sejenisnya memang memerlukan fungsi basis $d$ untuk hasil yang baik, tetapi populasi elektron dalam fungsi $d$ itu hanya beberapa persepuluh elektron, bukan dua elektron penuh seperti yang dituntut sp³d². Fungsi $d$ berperan sebagai **fungsi polarisasi**: mereka membiarkan kerapatan elektron $p$ belerang sedikit berubah bentuk, bukan menyediakan orbital ikatan baru (Bab 17).
 
@@ -36,13 +36,13 @@ G. C. Pimentel dan R. E. Rundle (1951) mengusulkan model yang hanya memakai orbi
 Dengan pendekatan sederhana yang akan dipakai lagi untuk sistem π di Bab 13, anggap setiap orbital mempunyai energi diagonal $\alpha$ (sama untuk semua, sebagai penyederhanaan pertama), unsur matriks $\beta < 0$ antara orbital-orbital yang bertetangga, nol antara kedua F, dan tumpang tindih diabaikan. Urutkan basisnya (F₁, Xe, F₂). Persamaan sekulernya
 
 $$
-\begin{vmatrix}\alpha - E & \beta & 0\\ \beta & \alpha - E & \beta\\ 0 & \beta & \alpha - E\end{vmatrix} = 0 . \qquad \text{(12.e28)}
+\begin{vmatrix}\alpha - E & \beta & 0\\ \beta & \alpha - E & \beta\\ 0 & \beta & \alpha - E\end{vmatrix} = 0 . \qquad \text{(12.28)}
 $$
 
 Uraikan menurut baris pertama, dengan $x = \alpha - E$: $x(x^2 - \beta^2) - \beta(\beta x) = x(x^2 - 2\beta^2) = 0$. Jadi
 
 $$
-E_1 = \alpha + \sqrt2\,\beta , \qquad E_2 = \alpha , \qquad E_3 = \alpha - \sqrt2\,\beta . \qquad \text{(12.e29)}
+E_1 = \alpha + \sqrt2\,\beta , \qquad E_2 = \alpha , \qquad E_3 = \alpha - \sqrt2\,\beta . \qquad \text{(12.29)}
 $$
 
 Vektor eigennya, yang diperoleh dengan memasukkan setiap $E$ ke persamaan linear, adalah
@@ -50,17 +50,17 @@ Vektor eigennya, yang diperoleh dengan memasukkan setiap $E$ ke persamaan linear
 $$
 \psi_1 = \tfrac12\,\phi_{\text{F}_1} + \tfrac{1}{\sqrt2}\,\phi_\text{Xe} + \tfrac12\,\phi_{\text{F}_2} , \qquad
 \psi_2 = \tfrac{1}{\sqrt2}\left(\phi_{\text{F}_1} - \phi_{\text{F}_2}\right) , \qquad
-\psi_3 = \tfrac12\,\phi_{\text{F}_1} - \tfrac{1}{\sqrt2}\,\phi_\text{Xe} + \tfrac12\,\phi_{\text{F}_2} . \qquad \text{(12.e30)}
+\psi_3 = \tfrac12\,\phi_{\text{F}_1} - \tfrac{1}{\sqrt2}\,\phi_\text{Xe} + \tfrac12\,\phi_{\text{F}_2} . \qquad \text{(12.30)}
 $$
 
-Orbital $\psi_1$ adalah orbital ikatan yang meliputi ketiga atom; $\psi_2$ adalah orbital **nonikatan** yang sama sekali tidak memuat Xe (koefisien Xe nol karena $\psi_2$ antisimetris terhadap pusat, sedangkan $p_z$ Xe, dengan pilihan tanda yang menunjuk ke masing-masing F, menyumbang secara simetris); $\psi_3$ antiikatan. Empat elektron mengisi $\psi_1$ dan $\psi_2$ (Gambar 12.g7a).
+Orbital $\psi_1$ adalah orbital ikatan yang meliputi ketiga atom; $\psi_2$ adalah orbital **nonikatan** yang sama sekali tidak memuat Xe (koefisien Xe nol karena $\psi_2$ antisimetris terhadap pusat, sedangkan $p_z$ Xe, dengan pilihan tanda yang menunjuk ke masing-masing F, menyumbang secara simetris); $\psi_3$ antiikatan. Empat elektron mengisi $\psi_1$ dan $\psi_2$ (Gambar 12.7(a)).
 
-![Gambar 12.g7 Tingkat energi dan koefisien orbital (lingkaran; ukuran sebanding dengan besar koefisien, warna menunjukkan tanda) untuk sistem tiga orbital linear. (a) Ikatan tiga pusat empat elektron pada F–Xe–F: orbital ikatan dan nonikatan terisi. (b) Ikatan tiga pusat dua elektron pada jembatan B–H–B diborana: hanya orbital ikatan yang terisi.](fig/c_3pusat.png){width=86%}
+![Gambar 12.7 Tingkat energi dan koefisien orbital (lingkaran; ukuran sebanding dengan besar koefisien, warna menunjukkan tanda) untuk sistem tiga orbital linear. (a) Ikatan tiga pusat empat elektron pada F–Xe–F: orbital ikatan dan nonikatan terisi. (b) Ikatan tiga pusat dua elektron pada jembatan B–H–B diborana: hanya orbital ikatan yang terisi.](fig/c_3pusat.png){width=86%}
 
 Tiga akibat model ini menjelaskan kimia molekul hipervalen:
 
 1. **Orde ikatan setengah.** Hanya satu pasangan ikatan yang dibagi ke dua ikatan Xe–F; setiap ikatan berorde $\tfrac12$. Ikatan 3c-4e lebih panjang dan lebih lemah daripada ikatan 2c-2e biasa.
-2. **Muatan pindah ke ligan.** Populasi orbital dihitung dari kuadrat koefisien: setiap F mendapat $2(\tfrac14) + 2(\tfrac12) = 1{,}5$ elektron (semula 1), dan Xe mendapat $2(\tfrac12) = 1$ (semula 2). Ligan bermuatan $-\tfrac12$ masing-masing dan atom pusat $+1$. Struktur ini hanya stabil bila ligan cukup elektronegatif untuk menampung muatan negatif itu. Bila ligan dibuat lebih elektronegatif (energi $\alpha$ ligan diturunkan), pemindahan muatan makin besar dan orbital nonikatan makin terlokalisasi pada ligan (Contoh 12.a29).
+2. **Muatan pindah ke ligan.** Populasi orbital dihitung dari kuadrat koefisien: setiap F mendapat $2(\tfrac14) + 2(\tfrac12) = 1{,}5$ elektron (semula 1), dan Xe mendapat $2(\tfrac12) = 1$ (semula 2). Ligan bermuatan $-\tfrac12$ masing-masing dan atom pusat $+1$. Struktur ini hanya stabil bila ligan cukup elektronegatif untuk menampung muatan negatif itu. Bila ligan dibuat lebih elektronegatif (energi $\alpha$ ligan diturunkan), pemindahan muatan makin besar dan orbital nonikatan makin terlokalisasi pada ligan (Contoh 12.29).
 3. **Geometri linear.** Ikatan 3c-4e menggunakan satu orbital $p$ atom pusat untuk dua ligan yang saling berlawanan. Susunan X–A–X karena itu linear (atau hampir linear).
 
 Dengan bahasa struktur resonansi, ikatan 3c-4e adalah resonansi antara F⁻ Xe⁺–F dan F–Xe⁺ F⁻: setiap struktur mematuhi oktet, dan resonansi membagi satu ikatan kovalen ke dua posisi. Kedua gambaran itu setara.
@@ -78,7 +78,7 @@ Dengan bahasa struktur resonansi, ikatan 3c-4e adalah resonansi antara F⁻ Xe�
 :::
 
 ::: {.contoh}
-**Contoh 12.a28 · Seberapa besar orbital 3d belerang?**
+**Contoh 12.28 · Seberapa besar orbital 3d belerang?**
 
 Pakai aturan Slater dan orbital Slater (dengan $\langle r\rangle = (2n + 1)/(2\zeta)$, $\zeta = Z_\text{ef}/n$, $n = 3$) untuk menaksir jarak rata-rata elektron (a) $3p$ belerang dalam keadaan dasar $3s^23p^4$; (b) $3d$ dalam $3s^23p^33d^1$; (c) $3d$ dalam ion S²⁺ dengan konfigurasi $3s^23p^13d^1$. Bandingkan dengan panjang ikatan S–F (156 pm).
 
@@ -92,11 +92,16 @@ Pakai aturan Slater dan orbital Slater (dengan $\langle r\rangle = (2n + 1)/(2\z
 :::
 
 ::: {.contoh}
-**Contoh 12.a29 · Ikatan 3c-4e dengan ligan elektronegatif**
+**Contoh 12.29 · Ikatan 3c-4e dengan ligan elektronegatif**
 
-Ulangi perhitungan (12.e28) dengan energi diagonal ligan diturunkan menjadi $\alpha - \delta|\beta|$ (ligan lebih elektronegatif). Untuk $\delta = 0$, 1, dan 2, hitung energi orbital, populasi elektron, dan muatan ligan bila empat elektron mengisi dua orbital terendah.
+Ulangi perhitungan (12.28) dengan energi diagonal ligan diturunkan menjadi $\alpha - \delta|\beta|$ (ligan lebih elektronegatif). Untuk $\delta = 0$, 1, dan 2, hitung energi orbital, populasi elektron, dan muatan ligan bila empat elektron mengisi dua orbital terendah.
 
-**Penyelesaian.** Dalam satuan $|\beta|$ dengan $\alpha = 0$ dan $\beta = -1$, matriksnya $\begin{pmatrix}-\delta & -1 & 0\\ -1 & 0 & -1\\ 0 & -1 & -\delta\end{pmatrix}$. Diagonalisasi numerik memberikan:
+**Penyelesaian.** Dalam satuan $|\beta|$ dengan $\alpha = 0$ dan $\beta = -1$, matriksnya 
+$$
+\begin{pmatrix}-\delta & -1 & 0\\ -1 & 0 & -1\\ 0 & -1 & -\delta\end{pmatrix} .
+$$
+
+Diagonalisasi numerik memberikan:
 
 | $\delta$ | Energi orbital | Populasi F, X, F | Muatan tiap F | Muatan X |
 |---|---|---|---|---|
@@ -110,19 +115,19 @@ Orbital nonikatan tetap $(\phi_{\text{F}_1} - \phi_{\text{F}_2})/\sqrt2$ dengan 
 :::
 
 ::: {.contoh}
-**Contoh 12.a30 · Hibrida oktahedral**
+**Contoh 12.30 · Hibrida oktahedral**
 
-(a) Periksa bahwa $h_{+z}$ dan $h_{+x}$ dari (12.e27) ternormalisasi dan saling ortogonal. (b) Hitung "kekuatan" Pauling $h_{+z}$ ke arah $+z$, dengan amplitudo sudut $s$ = 1, $p_z$ = $\sqrt3$, dan $d_{z^2}$ = $\sqrt5$ pada sumbu $z$.
+(a) Periksa bahwa $h_{+z}$ dan $h_{+x}$ dari (12.27) ternormalisasi dan saling ortogonal. (b) Hitung "kekuatan" Pauling $h_{+z}$ ke arah $+z$, dengan amplitudo sudut $s$ = 1, $p_z$ = $\sqrt3$, dan $d_{z^2}$ = $\sqrt5$ pada sumbu $z$.
 
 **Penyelesaian.** (a) $\langle h_{+z}|h_{+z}\rangle = \tfrac16 + \tfrac12 + \tfrac13 = 1$. $\langle h_{+x}|h_{+x}\rangle = \tfrac16 + \tfrac12 + \tfrac{1}{12} + \tfrac14 = 1$. $\langle h_{+z}|h_{+x}\rangle = \tfrac16 + 0 + \tfrac{1}{\sqrt3}\left(-\tfrac{1}{\sqrt{12}}\right) + 0 = \tfrac16 - \tfrac16 = 0$.
 
 \(b) $f = \tfrac{1}{\sqrt6} + \tfrac{\sqrt3}{\sqrt2} + \tfrac{\sqrt5}{\sqrt3} = 0{,}408 + 1{,}225 + 1{,}291 = 2{,}924$.
 
-**Memahami hasil.** Secara matematis, hibrida $d^2sp^3$ sangat terarah, dan karena itu Pauling menganggapnya kuat. Masalahnya bukan bentuk sudutnya tetapi bagian radialnya: kekuatan 2,924 hanya bermakna bila $3d$ berukuran sama dengan $3s$ dan $3p$, yang tidak benar untuk unsur golongan utama (Contoh 12.a28). Untuk logam transisi, yang orbital $(n-1)d$-nya kompak dan berenergi rendah, hibrida $d^2sp^3$ jauh lebih masuk akal (subbab 12.14).
+**Memahami hasil.** Secara matematis, hibrida $d^2sp^3$ sangat terarah, dan karena itu Pauling menganggapnya kuat. Masalahnya bukan bentuk sudutnya tetapi bagian radialnya: kekuatan 2,924 hanya bermakna bila $3d$ berukuran sama dengan $3s$ dan $3p$, yang tidak benar untuk unsur golongan utama (Contoh 12.28). Untuk logam transisi, yang orbital $(n-1)d$-nya kompak dan berenergi rendah, hibrida $d^2sp^3$ jauh lebih masuk akal (subbab 12.14).
 :::
 
 ::: {.contoh}
-**Contoh 12.a31 · Panjang ikatan dan orde ikatan 3c-4e**
+**Contoh 12.31 · Panjang ikatan dan orde ikatan 3c-4e**
 
 (a) Hitung perbandingan panjang ikatan aksial terhadap ekuatorial pada PF₅, PCl₅, SF₄, dan ClF₃, serta perbandingan I–I pada I₃⁻ terhadap I₂. (b) Pada SF₆ (S–F 156,1 pm), berapa orde ikatan S–F menurut hitungan orbital molekul di atas?
 
@@ -151,13 +156,17 @@ Difraksi elektron menunjukkan struktur yang tidak mirip etana. Kedua atom boron 
 
 Setiap boron dapat dilukiskan memakai empat hibrida kira-kira sp³ (setelah promosi $2s^22p \to 2s2p^2$, boron hanya mempunyai tiga elektron untuk empat hibrida). Dua hibrida membentuk ikatan 2c-2e biasa dengan H ujung, memakai 8 dari 12 elektron. Sisanya empat elektron untuk dua jembatan.
 
-Di setiap jembatan, tiga orbital bertemu: satu hibrida dari B₁, orbital $1s$ dari H, dan satu hibrida dari B₂. Matriks Hamiltoniannya, dengan basis $(h_{B_1}, 1s_\text{H}, h_{B_2})$ dan interaksi langsung B–B diabaikan, sama dengan (12.e28): tiga orbital tiga pusat $\alpha + \sqrt2\beta$, $\alpha$, $\alpha - \sqrt2\beta$. Bedanya, kini hanya **dua** elektron yang tersedia per jembatan. Keduanya mengisi orbital ikatan $\psi_1 = \tfrac12h_{B_1} + \tfrac{1}{\sqrt2}1s_\text{H} + \tfrac12h_{B_2}$ (Gambar 12.g7b). Inilah **ikatan tiga pusat dua elektron** (3c-2e), yang biasa digambar sebagai busur atau "pisang" yang menghubungkan ketiga atom.
+Di setiap jembatan, tiga orbital bertemu: satu hibrida dari B₁, orbital $1s$ dari H, dan satu hibrida dari B₂. Matriks Hamiltoniannya, dengan basis $(h_{B_1}, 1s_\text{H}, h_{B_2})$ dan interaksi langsung B–B diabaikan, sama dengan (12.28): tiga orbital tiga pusat $\alpha + \sqrt2\beta$, $\alpha$, $\alpha - \sqrt2\beta$. Bedanya, kini hanya **dua** elektron yang tersedia per jembatan. Keduanya mengisi orbital ikatan $\psi_1 = \tfrac12h_{B_1} + \tfrac{1}{\sqrt2}1s_\text{H} + \tfrac12h_{B_2}$ (Gambar 12.7(b)). Inilah **ikatan tiga pusat dua elektron** (3c-2e), yang biasa digambar sebagai busur atau "pisang" yang menghubungkan ketiga atom.
 
 Populasi elektron: H jembatan mendapat $2 \times \tfrac12 = 1$ elektron (netral), setiap B mendapat $2 \times \tfrac14 = \tfrac12$ elektron dari jembatan ini. Orde setiap ikatan B–H jembatan $\tfrac12$, sesuai dengan panjangnya (133 pm) yang lebih besar daripada B–H ujung (119 pm).
 
 ### Mengapa 3c-2e melengkung dan 3c-4e lurus
 
-Ada perbedaan mendasar antara kedua jenis ikatan tiga pusat. Pada jembatan B–H–B, kedua atom B cukup dekat (176 pm) sehingga hibrida-hibridanya juga bertumpang tindih langsung. Jika ketiga orbital saling berinteraksi (susunan segitiga), matriksnya menjadi $\begin{pmatrix}\alpha & \beta & \beta\\ \beta & \alpha & \beta\\ \beta & \beta & \alpha\end{pmatrix}$ dengan nilai eigen $\alpha + 2\beta$ (sekali) dan $\alpha - \beta$ (dua kali). Dengan dua elektron, susunan segitiga memberi $2(\alpha + 2\beta)$, lebih rendah daripada susunan linear $2(\alpha + \sqrt2\beta)$. Dengan empat elektron sebaliknya: segitiga memberi $2(\alpha + 2\beta) + 2(\alpha - \beta) = 4\alpha + 2\beta$, sedangkan linear $4\alpha + 2\sqrt2\beta$, yang lebih rendah karena $\beta < 0$.
+Ada perbedaan mendasar antara kedua jenis ikatan tiga pusat. Pada jembatan B–H–B, kedua atom B cukup dekat (176 pm) sehingga hibrida-hibridanya juga bertumpang tindih langsung. Jika ketiga orbital saling berinteraksi (susunan segitiga), matriksnya menjadi 
+$$
+\begin{pmatrix}\alpha & \beta & \beta\\ \beta & \alpha & \beta\\ \beta & \beta & \alpha\end{pmatrix}
+$$
+ dengan nilai eigen $\alpha + 2\beta$ (sekali) dan $\alpha - \beta$ (dua kali). Dengan dua elektron, susunan segitiga memberi $2(\alpha + 2\beta)$, lebih rendah daripada susunan linear $2(\alpha + \sqrt2\beta)$. Dengan empat elektron sebaliknya: segitiga memberi $2(\alpha + 2\beta) + 2(\alpha - \beta) = 4\alpha + 2\beta$, sedangkan linear $4\alpha + 2\sqrt2\beta$, yang lebih rendah karena $\beta < 0$.
 
 ::: {.inti}
 **Aturan ikatan tiga pusat.** Ikatan 3c-2e lebih stabil dalam susunan **tertutup** (melengkung, ketiga atom saling berdekatan): jembatan B–H–B, H₃⁺ segitiga. Ikatan 3c-4e lebih stabil dalam susunan **terbuka** (linear): F–Xe–F, I₃⁻, F–H–F⁻. Elektron ketiga dan keempat mengisi orbital yang bersifat antiikatan antara kedua atom ujung, sehingga atom-atom ujung lebih suka berjauhan.
@@ -169,12 +178,12 @@ Ada perbedaan mendasar antara kedua jenis ikatan tiga pusat. Pada jembatan B–H
 * **Trimetilaluminium** berupa dimer Al₂(CH₃)₆ dengan dua gugus metil jembatan; ikatan Al–C jembatan (sekitar 214 pm) lebih panjang daripada Al–C ujung (sekitar 196 pm).
 * **Interaksi agostik**: ikatan C–H yang mendonorkan kerapatan ke atom logam yang kekurangan elektron, membentuk sistem tiga pusat M···H–C. Interaksi ini sering menjadi langkah awal pengaktifan C–H oleh logam transisi.
 * **Karbokation nonklasik**: kation 2-norbornil dan CH₅⁺ distabilkan oleh ikatan 3c-2e C–H–C atau C–C–C.
-* **Boran yang lebih besar**: B₄H₁₀, B₅H₉, B₁₀H₁₄, dan anion closo seperti B₁₂H₁₂²⁻ diikat oleh campuran ikatan 2c-2e dan 3c-2e (B–H–B dan B–B–B). W. N. Lipscomb menyusun pembukuan topologis untuk struktur-struktur ini (Contoh 12.a33) dan memperoleh Hadiah Nobel 1976; K. Wade kemudian merumuskan aturan penghitungan pasangan elektron kerangka yang meramalkan bentuk polihedron boran.
+* **Boran yang lebih besar**: B₄H₁₀, B₅H₉, B₁₀H₁₄, dan anion closo seperti B₁₂H₁₂²⁻ diikat oleh campuran ikatan 2c-2e dan 3c-2e (B–H–B dan B–B–B). W. N. Lipscomb menyusun pembukuan topologis untuk struktur-struktur ini (Contoh 12.33) dan memperoleh Hadiah Nobel 1976; K. Wade kemudian merumuskan aturan penghitungan pasangan elektron kerangka yang meramalkan bentuk polihedron boran.
 
 ::: {.contoh}
-**Contoh 12.a32 · Geometri jembatan diborana**
+**Contoh 12.32 · Geometri jembatan diborana**
 
-(a) Dari B–H jembatan 133,0 pm dan B···B 176,3 pm, hitung sudut B–H–B dan H–B–H jembatan. (b) Dari sudut H–B–H ujung 121°, hitung karakter $s$ hibrida B–H ujung dengan (12.e17), lalu karakter $s$ hibrida jembatan dan sudut antara kedua hibrida jembatan. Bandingkan dengan sudut antarinti.
+(a) Dari B–H jembatan 133,0 pm dan B···B 176,3 pm, hitung sudut B–H–B dan H–B–H jembatan. (b) Dari sudut H–B–H ujung 121°, hitung karakter $s$ hibrida B–H ujung dengan (12.17), lalu karakter $s$ hibrida jembatan dan sudut antara kedua hibrida jembatan. Bandingkan dengan sudut antarinti.
 
 **Penyelesaian.** (a) Segi empat B–H–B–H adalah belah ketupat. Setengah sudut B–H–B: $\sin^{-1}(88{,}15/133{,}0) = 41{,}5°$, sehingga B–H–B $= 83{,}0°$ dan H–B–H jembatan $= 180° - 83{,}0° = 97{,}0°$.
 
@@ -184,7 +193,7 @@ Ada perbedaan mendasar antara kedua jenis ikatan tiga pusat. Pada jembatan B–H
 :::
 
 ::: {.contoh}
-**Contoh 12.a33 · Pembukuan styx Lipscomb**
+**Contoh 12.33 · Pembukuan styx Lipscomb**
 
 Untuk boran B$_p$H$_{p+q}$, Lipscomb mendefinisikan $s$ = banyaknya jembatan B–H–B, $t$ = ikatan tiga pusat B–B–B, $y$ = ikatan B–B dua pusat, $x$ = gugus BH₂ (H ujung tambahan). Dengan anggapan setiap B mempunyai satu H ujung, kekekalan atom H, orbital, dan elektron memberikan
 
@@ -200,7 +209,7 @@ Tentukan $styx$ untuk B₂H₆, B₄H₁₀, dan B₅H₉.
 :::
 
 ::: {.contoh}
-**Contoh 12.a34 · H₃⁺: segitiga atau garis?**
+**Contoh 12.34 · H₃⁺: segitiga atau garis?**
 
 Dengan model tiga orbital $1s$ (energi $\alpha$, interaksi tetangga $\beta$), hitung energi elektronik H₃⁺ (dua elektron) dalam bentuk segitiga sama sisi dan linear. Ulangi untuk H₃⁻ (empat elektron). Bentuk mana yang diramalkan?
 
@@ -224,7 +233,7 @@ Untuk benzena, satu struktur Lewis tidak cukup: struktur Kekulé dengan ikatan t
 Fungsi gelombang yang lebih baik adalah kombinasi linear
 
 $$
-\Psi = c_1\Phi_\text{K1} + c_2\Phi_\text{K2} , \qquad \text{(12.e31)}
+\Psi = c_1\Phi_\text{K1} + c_2\Phi_\text{K2} , \qquad \text{(12.31)}
 $$
 
 dengan koefisien yang ditentukan oleh metode variasi (subbab 8.4). Inilah arti kuantum **resonansi**: fungsi gelombang molekul adalah superposisi fungsi-fungsi gelombang struktur Lewis.
@@ -237,41 +246,41 @@ Benzena tidak berganti-ganti antara dua struktur Kekulé, dan tidak sebagian mol
 
 ### Persamaan sekuler dua struktur
 
-Fungsi pasangan sempurna dari struktur-struktur yang berbeda tidak ortogonal. Metode variasi untuk (12.e31) menghasilkan persamaan sekuler
+Fungsi pasangan sempurna dari struktur-struktur yang berbeda tidak ortogonal. Metode variasi untuk (12.31) menghasilkan persamaan sekuler
 
 $$
-\begin{vmatrix}H_{11} - ES_{11} & H_{12} - ES_{12}\\ H_{12} - ES_{12} & H_{22} - ES_{22}\end{vmatrix} = 0 , \qquad \text{(12.e32)}
+\begin{vmatrix}H_{11} - ES_{11} & H_{12} - ES_{12}\\ H_{12} - ES_{12} & H_{22} - ES_{22}\end{vmatrix} = 0 , \qquad \text{(12.32)}
 $$
 
 dengan $H_{ij} = \langle\Phi_i|\hat H|\Phi_j\rangle$ dan $S_{ij} = \langle\Phi_i|\Phi_j\rangle$. Untuk benzena, simetri memberi $H_{11} = H_{22}$ dan $S_{11} = S_{22} = 1$, sehingga akar terendahnya (untuk $H_{12} < 0$)
 
 $$
-E = \frac{H_{11} + H_{12}}{1 + S_{12}} , \qquad c_1 = c_2 . \qquad \text{(12.e33)}
+E = \frac{H_{11} + H_{12}}{1 + S_{12}} , \qquad c_1 = c_2 . \qquad \text{(12.33)}
 $$
 
-Unsur-unsur matriksnya dapat dihitung dengan Hamiltonian spin dari subbab 12.1, $\hat H = Q - J\sum_{\langle ij\rangle}(\tfrac12 + 2\hat{\mathbf s}_i\cdot\hat{\mathbf s}_j)$, dengan $J$ integral pertukaran antara orbital-orbital $p_z$ yang bertetangga (negatif). Hasilnya (Contoh 12.a35):
+Unsur-unsur matriksnya dapat dihitung dengan Hamiltonian spin dari subbab 12.1, $\hat H = Q - J\sum_{\langle ij\rangle}(\tfrac12 + 2\hat{\mathbf s}_i\cdot\hat{\mathbf s}_j)$, dengan $J$ integral pertukaran antara orbital-orbital $p_z$ yang bertetangga (negatif). Hasilnya (Contoh 12.35):
 
 $$
-H_{11} = Q + \tfrac32J , \qquad S_{12} = \tfrac14 , \qquad H_{12} = \tfrac14\left(Q + 6J\right) . \qquad \text{(12.e34)}
+H_{11} = Q + \tfrac32J , \qquad S_{12} = \tfrac14 , \qquad H_{12} = \tfrac14\left(Q + 6J\right) . \qquad \text{(12.34)}
 $$
 
-Nilai $H_{11}$ mengikuti (12.e4): tiga pasangan berikatan ($+3J$) dan tiga pasangan tetangga yang tidak berikatan ($-\tfrac32J$). Memasukkan ke (12.e33):
+Nilai $H_{11}$ mengikuti (12.4): tiga pasangan berikatan ($+3J$) dan tiga pasangan tetangga yang tidak berikatan ($-\tfrac32J$). Memasukkan ke (12.33):
 
 $$
-E = \frac{Q + \tfrac32J + \tfrac14Q + \tfrac32J}{\tfrac54} = Q + 2{,}4\,J . \qquad \text{(12.e35)}
+E = \frac{Q + \tfrac32J + \tfrac14Q + \tfrac32J}{\tfrac54} = Q + 2{,}4\,J . \qquad \text{(12.35)}
 $$
 
-Satu struktur Kekulé memberi $Q + 1{,}5J$; resonansi kedua struktur menurunkan energi sebesar $0{,}9|J|$. Inilah **energi resonansi** benzena dalam teori ikatan valensi. Bila tiga struktur Dewar (yang memasangkan dua atom yang berseberangan) ikut dimasukkan, kelima struktur bersama-sama merentang seluruh ruang singlet enam elektron (Contoh 12.a4), dan energinya menjadi $Q + 2{,}606J$; energi resonansinya $1{,}106|J|$ (Gambar 12.g8b). Struktur Kekulé menyumbang 64% fungsi gelombang dan struktur Dewar 36% (bobot Chirgwin–Coulson, Contoh 12.a35).
+Satu struktur Kekulé memberi $Q + 1{,}5J$; resonansi kedua struktur menurunkan energi sebesar $0{,}9|J|$. Inilah **energi resonansi** benzena dalam teori ikatan valensi. Bila tiga struktur Dewar (yang memasangkan dua atom yang berseberangan) ikut dimasukkan, kelima struktur bersama-sama merentang seluruh ruang singlet enam elektron (Contoh 12.4), dan energinya menjadi $Q + 2{,}606J$; energi resonansinya $1{,}106|J|$ (Gambar 12.8(b)). Struktur Kekulé menyumbang 64% fungsi gelombang dan struktur Dewar 36% (bobot Chirgwin–Coulson, Contoh 12.35).
 
-![Gambar 12.g8 Energi resonansi benzena. (a) Dari entalpi hidrogenasi: tiga kali entalpi hidrogenasi sikloheksena dibandingkan dengan entalpi hidrogenasi benzena. (b) Dari teori ikatan valensi dengan Hamiltonian spin: satu struktur Kekulé, resonansi dua struktur Kekulé, dan kelima struktur kovalen ($J < 0$).](fig/c_benzena.png){width=92%}
+![Gambar 12.8 Energi resonansi benzena. (a) Dari entalpi hidrogenasi: tiga kali entalpi hidrogenasi sikloheksena dibandingkan dengan entalpi hidrogenasi benzena. (b) Dari teori ikatan valensi dengan Hamiltonian spin: satu struktur Kekulé, resonansi dua struktur Kekulé, dan kelima struktur kovalen ($J < 0$).](fig/c_benzena.png){width=92%}
 
 ### Energi resonansi dari percobaan
 
-Entalpi hidrogenasi sikloheksena menjadi sikloheksana adalah $-119{,}7$ kJ/mol. Bila benzena adalah "sikloheksatriena" dengan tiga ikatan rangkap yang tidak saling berinteraksi, hidrogenasinya akan melepaskan $3 \times 119{,}7 = 359{,}1$ kJ/mol. Nilai terukur hanya 208,4 kJ/mol. Selisihnya, 150,7 kJ/mol, adalah energi resonansi termokimia (Gambar 12.g8a). Bila disamakan dengan $1{,}106|J|$, kita memperoleh $|J| \approx 136$ kJ/mol, besaran yang masuk akal untuk pertukaran antara dua orbital $p_z$ bertetangga.
+Entalpi hidrogenasi sikloheksena menjadi sikloheksana adalah $-119{,}7$ kJ/mol. Bila benzena adalah "sikloheksatriena" dengan tiga ikatan rangkap yang tidak saling berinteraksi, hidrogenasinya akan melepaskan $3 \times 119{,}7 = 359{,}1$ kJ/mol. Nilai terukur hanya 208,4 kJ/mol. Selisihnya, 150,7 kJ/mol, adalah energi resonansi termokimia (Gambar 12.8(a)). Bila disamakan dengan $1{,}106|J|$, kita memperoleh $|J| \approx 136$ kJ/mol, besaran yang masuk akal untuk pertukaran antara dua orbital $p_z$ bertetangga.
 
 ### Aturan menulis struktur resonansi
 
-Agar dapat dipakai sebagai fungsi basis dalam (12.e31), struktur-struktur resonansi harus:
+Agar dapat dipakai sebagai fungsi basis dalam (12.31), struktur-struktur resonansi harus:
 
 1. **mempunyai kedudukan inti yang sama**: hanya elektron yang dipindahkan;
 2. **mempunyai banyaknya elektron tak berpasangan yang sama** (spin total yang sama), karena fungsi dengan spin berbeda ortogonal dan tidak bercampur;
@@ -293,7 +302,7 @@ Amida mempunyai dua struktur yang tidak setara: struktur utama R–C(=O)–NR₂
 * **Struktur protein.** Kedataran ikatan peptida membatasi kebebasan konformasi rantai protein menjadi dua sudut puntir per residu ($\phi$ dan $\psi$), dasar diagram Ramachandran dan pembentukan heliks α dan lembaran β. Pauling memakai kedataran ini untuk meramalkan heliks α pada tahun 1951.
 
 ::: {.contoh}
-**Contoh 12.a35 · Benzena dengan Hamiltonian spin**
+**Contoh 12.35 · Benzena dengan Hamiltonian spin**
 
 Susun ruang spin 6 elektron ($2^6 = 64$ keadaan), bangun $\hat H/|J| = -\sum_{\langle ij\rangle}(\tfrac12 + 2\hat{\mathbf s}_i\cdot\hat{\mathbf s}_j)$ untuk cincin (dengan $Q = 0$ dan energi dinyatakan sebagai $E = x\,J$), lalu hitung $S_{12}$, $H_{11}$, $H_{12}$ untuk struktur Kekulé, energi resonansi dua dan lima struktur, dan bobot struktur.
 
@@ -333,7 +342,7 @@ Keluarannya: $S_{12} = -0{,}25$, $H_{11} = 1{,}5$, $H_{12} = -1{,}5$ (tanda $S_{
 :::
 
 ::: {.contoh}
-**Contoh 12.a36 · Energi resonansi termokimia**
+**Contoh 12.36 · Energi resonansi termokimia**
 
 (a) Hitung energi resonansi benzena dari entalpi hidrogenasi sikloheksena ($-119{,}7$ kJ/mol) dan benzena ($-208{,}4$ kJ/mol). (b) Taksir $|J|$ bila energi resonansi disamakan dengan $0{,}900|J|$ dan dengan $1{,}106|J|$. Nyatakan dalam eV.
 
@@ -343,7 +352,7 @@ Keluarannya: $S_{12} = -0{,}25$, $H_{11} = 1{,}5$, $H_{12} = -1{,}5$ (tanda $S_{
 :::
 
 ::: {.contoh}
-**Contoh 12.a37 · Orde ikatan dari panjang ikatan**
+**Contoh 12.37 · Orde ikatan dari panjang ikatan**
 
 Pakai rumus empiris $r(n) = r_1 - b\ln n$, dengan $n$ orde ikatan dan $b$ ditentukan dari $r_1$ (tunggal) dan $r_2$ (rangkap). (a) Untuk C–C, pakai $r_1 = 153{,}5$ pm (etana), $r_2 = 133{,}9$ pm; hitung orde ikatan benzena (139,7 pm). (b) Ulangi dengan rujukan tunggal sp²–sp², $r_1 = 146{,}7$ pm. (c) Pakai cara (b) untuk karbonat (C–O 129,0 pm; $r_1 = 134{,}0$, $r_2 = 120{,}8$ pm) dan amida (C–N 135,2 pm; $r_1 = 140{,}0$, $r_2 = 127{,}3$ pm).
 
@@ -353,7 +362,7 @@ Pakai rumus empiris $r(n) = r_1 - b\ln n$, dengan $n$ orde ikatan dan $b$ ditent
 :::
 
 ::: {.contoh}
-**Contoh 12.a38 · Mengapa amida datar dan tidak basa**
+**Contoh 12.38 · Mengapa amida datar dan tidak basa**
 
 Bila struktur dipolar amida berbobot 30%, (a) berapa muatan parsial yang diramalkan pada O dan N (dari struktur dipolar saja)? (b) Bila rotasi C–N memerlukan sekitar 80 kJ/mol, berapa laju rotasi pada 298 K menurut $k \approx (k_BT/h)e^{-\Delta G^\ddagger/RT}$? (c) Mengapa protonasi terjadi pada O?
 

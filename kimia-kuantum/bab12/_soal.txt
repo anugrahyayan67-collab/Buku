@@ -6,11 +6,11 @@
 
 Keadaan $^5S$ karbon terletak 33 735 cm⁻¹ di atas keadaan dasar $^3P$. Nyatakan biaya promosi ini dalam eV dan kJ/mol. ||| 4,18 eV; 404 kJ/mol
 Berapa elektron tak berpasangan pada atom Si dalam keadaan dasar ($3s^23p^2$)? Promosi apa yang diperlukan agar Si bervalensi empat pada SiH₄? ||| 2; $3s^23p^2 \to 3s3p^3$
-Dengan rumus $f(n, S)$ pada Contoh 12.a4, hitung banyaknya fungsi spin singlet untuk 10 elektron dan fungsi triplet untuk 4 elektron. ||| 42; 3
+Dengan rumus $f(n, S)$ pada Contoh 12.4, hitung banyaknya fungsi spin singlet untuk 10 elektron dan fungsi triplet untuk 4 elektron. ||| 42; 3
 
 **Menengah**
 
-@pasang [P] Tiga atom H (a, b, c) dalam satu garis mempunyai satu elektron masing-masing. Dengan aturan (12.e4), tulis energi struktur dengan pasangan a–b (c tak berpasangan) dan struktur dengan pasangan b–c, dengan menyimpan $J_{ab}$, $J_{bc}$, $J_{ac}$. ||| $Q + J_{ab} - \tfrac12(J_{bc} + J_{ac})$; $Q + J_{bc} - \tfrac12(J_{ab} + J_{ac})$
+@pasang [P] Tiga atom H (a, b, c) dalam satu garis mempunyai satu elektron masing-masing. Dengan aturan (12.4), tulis energi struktur dengan pasangan a–b (c tak berpasangan) dan struktur dengan pasangan b–c, dengan menyimpan $J_{ab}$, $J_{bc}$, $J_{ac}$. ||| $Q + J_{ab} - \tfrac12(J_{bc} + J_{ac})$; $Q + J_{bc} - \tfrac12(J_{ab} + J_{ac})$
 Promosi B ($2s^22p \to 2s2p^2$) memerlukan sekitar 345 kJ/mol. Bila energi rata-rata ikatan B–H sekitar 375 kJ/mol, berapa keuntungan bersih membentuk dua ikatan tambahan (BH₃ dibanding BH)? ||| sekitar 405 kJ/mol
 Tunjukkan bahwa $\langle\hat{\mathbf s}_1\cdot\hat{\mathbf s}_2\rangle$ bernilai $-\tfrac34$ untuk singlet dan $+\tfrac14$ untuk triplet, lalu bahwa $\tfrac12 + 2\hat{\mathbf s}_1\cdot\hat{\mathbf s}_2$ bernilai $-1$ dan $+1$. ||| dari $\hat{\mathbf s}_1\cdot\hat{\mathbf s}_2 = \tfrac12[S(S+1) - \tfrac32]$
 
@@ -48,7 +48,7 @@ Hitung perbandingan cuping depan terhadap cuping belakang (bagian sudut) untuk h
 
 Pada HBeCl, misalkan hibrida Be–H mempunyai 55% $s$ dan Be–Cl 45% $s$. Tunjukkan bahwa sudut antarhibrida tetap 180°. ||| $\cos\theta = -1$
 Manakah yang kiral: penta-2,3-diena atau 3-metilbuta-1,2-diena? ||| hanya penta-2,3-diena
-@pi [P] Tunjukkan bahwa kerapatan satu ikatan π ($\propto x^2g^2$) bergantung pada sudut azimut, sedangkan jumlah dua ikatan π yang tegak lurus tidak. Apa akibatnya bagi rotasi gugus di sekitar C=C dan C≡C? ||| $\cos^2\phi$ vs tetap; C=C terhalang, C≡C tidak bermakna
+@pi Tunjukkan bahwa kerapatan satu ikatan π ($\propto x^2g^2$) bergantung pada sudut azimut, sedangkan jumlah dua ikatan π yang tegak lurus tidak. Apa akibatnya bagi rotasi gugus di sekitar C=C dan C≡C? ||| $\cos^2\phi$ vs tetap; C=C terhalang, C≡C tidak bermakna
 
 **Tantangan ★**
 
@@ -58,7 +58,7 @@ Manakah yang kiral: penta-2,3-diena atau 3-metilbuta-1,2-diena? ||| hanya penta-
 
 **Dasar**
 
-Periksa bahwa $h_2$ dan $h_3$ dalam (12.e20) ternormalisasi dan saling ortogonal. ||| $\tfrac13 + \tfrac16 + \tfrac12 = 1$; $\tfrac13 + \tfrac16 - \tfrac12 = 0$
+Periksa bahwa $h_2$ dan $h_3$ dalam (12.20) ternormalisasi dan saling ortogonal. ||| $\tfrac13 + \tfrac16 + \tfrac12 = 1$; $\tfrac13 + \tfrac16 - \tfrac12 = 0$
 Ramalkan bentuk CH₃⁺, CH₃⁻, dan BH₃. Orbital apa yang berisi pasangan bebas pada CH₃⁻? ||| datar; piramida; datar; hibrida kira-kira sp³
 Sebuah karbon sp² mempunyai sudut H–C–H 121°. Hitung karakter $s$ kedua hibrida C–H dan hibrida ketiga. ||| 0,340; 0,320
 
@@ -76,7 +76,7 @@ Mengapa BF₃ adalah asam Lewis yang lebih lemah daripada BCl₃, padahal F lebi
 
 **Dasar**
 
-Hitung sudut antara arah $(1, 1, 1)$ dan $(-1, 1, -1)$, dan periksa $\langle h_1|h_3\rangle = 0$ untuk (12.e23). ||| 109,47°; $\tfrac14(1 - 1 + 1 - 1) = 0$
+Hitung sudut antara arah $(1, 1, 1)$ dan $(-1, 1, -1)$, dan periksa $\langle h_1|h_3\rangle = 0$ untuk (12.23). ||| 109,47°; $\tfrac14(1 - 1 + 1 - 1) = 0$
 Nyatakan $p_y$ dalam keempat hibrida sp³. ||| $\tfrac12(h_1 - h_2 + h_3 - h_4)$
 Berapa karakter $s$ hibrida Si dalam SiH₄ dan hibrida N dalam NH₄⁺? ||| 25%; 25%
 
@@ -88,7 +88,7 @@ Mengapa sikloheksana kursi praktis tidak tegang, sedangkan sikloheksana datar (s
 
 **Tantangan ★**
 
-★ Pada kuban, $^1J(^{13}\text{C–H}) = 155$ Hz. Dengan (12.e26), taksir karakter $s$ C–H, lalu karakter $s$ setiap hibrida cincin (setara) dan sudut antarhibrida cincin. Bandingkan dengan sudut antarinti 90°. ||| 31%; 23%; 107,4°, jauh di atas 90°
+★ Pada kuban, $^1J(^{13}\text{C–H}) = 155$ Hz. Dengan (12.26), taksir karakter $s$ C–H, lalu karakter $s$ setiap hibrida cincin (setara) dan sudut antarhibrida cincin. Bandingkan dengan sudut antarinti 90°. ||| 31%; 23%; 107,4°, jauh di atas 90°
 
 ## Subbab 12.6: Hibridisasi tak setara: H₂O, NH₃, aturan Bent, persen karakter s
 
@@ -120,13 +120,13 @@ Urutkan keasaman H terminal pada propana, propena (=CH₂), dan propuna. ||| pro
 
 Dengan elektronegativitas orbital 3,29 (sp) dan 2,48 (sp³), hitung $\Delta\chi$ ikatan CH₃–C≡ dan taksir persen karakter ioniknya dengan $1 - e^{-\Delta\chi^2/4}$. ||| 0,81; sekitar 15%
 Hitung selisih $\Delta G^\circ$ deprotonasi (298 K) antara etilena (p$K_a$ 44) dan asetilena (25). ||| 108 kJ/mol
-@cd [P] Pita ≡C–H muncul di 3300 cm⁻¹. Ramalkan pita ≡C–D dengan massa tereduksi. ||| sekitar 2423 cm⁻¹
+@cd Pita ≡C–H muncul di 3300 cm⁻¹. Ramalkan pita ≡C–D dengan massa tereduksi. ||| sekitar 2423 cm⁻¹
 
 **Tantangan ★**
 
 ★ Kerapatan elektron hibrida di inti karbon sebanding dengan $\alpha\lvert\psi_{2s}(0)\rvert^2$. Hitung perbandingan kerapatan di inti untuk hibrida sp dan sp² terhadap sp³, dan jelaskan mengapa $^1J$ sebanding dengan $\alpha$. ||| 2,00 dan 1,33; hanya $s$ yang tidak nol di inti
 
-## Subbab 12.8: Orbital d dan "hipervalensi": PCl₅, SF₆, ikatan 3-pusat 4-elektron
+## Subbab 12.8: Orbital d dan hipervalensi: PCl₅, SF₆, ikatan 3-pusat 4-elektron
 
 **Dasar**
 
@@ -136,7 +136,7 @@ Taksir $\langle r\rangle$ elektron $3d$ fosfor dalam $3s^23p^23d^1$ dengan atura
 
 **Menengah**
 
-@tiga [P] Untuk matriks (12.e28) dengan energi ligan $\alpha - \delta\lvert\beta\rvert$, tunjukkan bahwa persamaan karakteristiknya $(E + \delta)(E^2 + \delta E - 2) = 0$ (dalam satuan $\lvert\beta\rvert$, $\alpha = 0$), dan selesaikan untuk $\delta = 1$. ||| $E = -1$, $-2$, $+1$
+@tiga [P] Untuk matriks (12.28) dengan energi ligan $\alpha - \delta\lvert\beta\rvert$, tunjukkan bahwa persamaan karakteristiknya $(E + \delta)(E^2 + \delta E - 2) = 0$ (dalam satuan $\lvert\beta\rvert$, $\alpha = 0$), dan selesaikan untuk $\delta = 1$. ||| $E = -1$, $-2$, $+1$
 Pada SF₄, ikatan mana yang termasuk sistem 3c-4e? Mengapa sudut F$_\text{ak}$–S–F$_\text{ak}$ 173° dan bukan 180°? ||| kedua S–F aksial; tolakan pasangan bebas ekuatorial
 Mengapa SF₆ tidak bereaksi dengan air walaupun hidrolisisnya eksotermik? ||| S terlindung enam F; tidak ada orbital rendah yang dapat diserang
 
@@ -190,7 +190,7 @@ Mengapa ketiga pasangan bebas XeF₂ menempati kedudukan ekuatorial? ||| sudut 1
 
 **Menengah**
 
-@linnett [P] Hitung $\lvert D\rvert^2$ (12.e36) untuk empat elektron di kutub utara dan di tiga titik pada khatulistiwa yang berjarak 120°. Bandingkan dengan tetrahedron (256). ||| 182,25
+@linnett Hitung $\lvert D\rvert^2$ (12.36) untuk empat elektron di kutub utara dan di tiga titik pada khatulistiwa yang berjarak 120°. Bandingkan dengan tetrahedron (256). ||| 182,25
 Pada ClF₃, sudut F$_\text{ak}$–Cl–F$_\text{ak}$ 175°. Mengapa kurang dari 180°, dan ke arah mana kedua F aksial condong? ||| menjauhi kedua pasangan bebas, ke arah F ekuatorial
 Mengapa [SbCl₆]³⁻ oktahedral beraturan walaupun Sb mempunyai pasangan bebas? ||| pasangan bebas dalam $5s$ yang bulat
 
@@ -202,7 +202,7 @@ Mengapa [SbCl₆]³⁻ oktahedral beraturan walaupun Sb mempunyai pasangan bebas
 
 **Dasar**
 
-Untuk $\lambda = 0{,}2$ dalam (12.e37), berapa perbandingan koefisien ionik terhadap kovalen? ||| 0,385
+Untuk $\lambda = 0{,}2$ dalam (12.37), berapa perbandingan koefisien ionik terhadap kovalen? ||| 0,385
 Berapa fraksi ionik (dalam perbandingan koefisien $f_2$ dan $f_1$) fungsi RHF $\sigma_g^2$ pada semua jarak? ||| sama, 1 : 1
 Nyatakan $\sigma_g^2$ dan $\sigma_u^2$ (tak ternormalisasi, $\sigma_{g,u} = a \pm b$) dalam $f_1 = ab + ba$ dan $f_2 = aa + bb$. ||| $f_2 + f_1$; $f_2 - f_1$
 
@@ -244,7 +244,7 @@ Hitung banyaknya elektron valensi Cr(CO)₆, Fe(CO)₅, dan Ni(CO)₄. ||| 18 se
 
 **Menengah**
 
-@sd [P] Turunkan sudut antara dua hibrida sd⁵ setara dari (12.e45). ||| 63,43° atau 116,57°
+@sd Turunkan sudut antara dua hibrida sd⁵ setara dari (12.45). ||| 63,43° atau 116,57°
 Mengapa [Cu(NH₃)₄]²⁺ menyulitkan model $dsp^2$? Berapa momen magnet spin sajanya? ||| satu elektron harus ke $4p$; 1,73 $\mu_\text{B}$
 Dengan $\tilde\nu$(C–O) 2000 cm⁻¹ pada Cr(CO)₆ dan 2143 cm⁻¹ pada CO bebas, hitung perbandingan tetapan gaya. ||| 0,871
 

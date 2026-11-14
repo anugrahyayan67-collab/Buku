@@ -2,11 +2,11 @@
 
 ### Hibrida tidak harus setara
 
-Pada CH₄ keempat substituen sama, sehingga keempat hibrida setara. Pada H₂O, NH₃, CH₃F, atau CH₂Cl₂ tidak ada alasan simetri untuk itu. Syarat-syarat di subbab 12.2 tetap berlaku (normalisasi, kekekalan orbital, ortogonalitas), tetapi karakter $s$ boleh berbeda dari satu hibrida ke hibrida lain. Teorema Coulson (12.e16) kemudian menjadi alat ukur: dari sudut ikatan yang terukur, kita dapat menghitung karakter $s$ setiap hibrida.
+Pada CH₄ keempat substituen sama, sehingga keempat hibrida setara. Pada H₂O, NH₃, CH₃F, atau CH₂Cl₂ tidak ada alasan simetri untuk itu. Syarat-syarat di subbab 12.2 tetap berlaku (normalisasi, kekekalan orbital, ortogonalitas), tetapi karakter $s$ boleh berbeda dari satu hibrida ke hibrida lain. Teorema Coulson (12.16) kemudian menjadi alat ukur: dari sudut ikatan yang terukur, kita dapat menghitung karakter $s$ setiap hibrida.
 
 ### Air
 
-Oksigen dalam H₂O mempunyai delapan elektron valensi: dua pasangan ikatan O–H dan dua pasangan bebas. Kedua hibrida ikatan setara (simetri $C_{2v}$), dengan sudut 104,52° di antaranya. Dengan (12.e17):
+Oksigen dalam H₂O mempunyai delapan elektron valensi: dua pasangan ikatan O–H dan dua pasangan bebas. Kedua hibrida ikatan setara (simetri $C_{2v}$), dengan sudut 104,52° di antaranya. Dengan (12.17):
 
 $$
 \alpha_\text{OH} = \frac{-\cos104{,}52°}{1 - \cos104{,}52°} = \frac{0{,}2507}{1{,}2507} = 0{,}200 , \qquad \lambda^2 = \frac{-1}{\cos\theta} = 3{,}99 .
@@ -16,7 +16,7 @@ Ikatan O–H memakai hibrida sp⁴ dengan 20% $s$, kurang dari sp³. Kedua ikata
 
 Bagaimana 60% karakter $s$ itu dibagi ke dua pasangan bebas? Ada dua cara yang sama sah.
 
-* **Dua pasangan bebas setara** ("telinga kelinci"): masing-masing 30% $s$ (sp$^{2{,}33}$), terletak di bidang yang tegak lurus bidang molekul, dengan sudut 115,4° di antara keduanya (Contoh 12.a8).
+* **Dua pasangan bebas setara** ("telinga kelinci"): masing-masing 30% $s$ (sp$^{2{,}33}$), terletak di bidang yang tegak lurus bidang molekul, dengan sudut 115,4° di antara keduanya (Contoh 12.8).
 * **Pasangan bebas σ dan π**: satu pasangan bebas dalam hibrida 60% $s$ (sp$^{0{,}67}$) yang menunjuk sepanjang sumbu $C_2$ menjauhi kedua H, dan satu pasangan bebas dalam orbital $p$ murni yang tegak lurus bidang molekul.
 
 Kedua deskripsi berhubungan melalui transformasi ortogonal $2 \times 2$ di antara kedua orbital pasangan bebas: $n_\pm = (n_\sigma \pm n_\pi)/\sqrt2$. Karena keduanya terisi penuh, kerapatan elektron total dan energi total sama persis (subbab 12.13 membahas alasan umumnya). Yang membedakan hanyalah kegunaan. Untuk ikatan hidrogen, gambaran telinga kelinci menjelaskan susunan tetrahedral molekul air dalam es; untuk spektrum fotoelektron, gambaran σ dan π lebih langsung (subbab 12.13).
@@ -35,9 +35,9 @@ Selisih energi $2s$–$2p$ bertambah tajam dari kiri ke kanan periode 2: kira-ki
 
 ### Amonia, fosfina, dan hidrida unsur berat
 
-Untuk NH₃ (106,67°), $\alpha_\text{NH} = 0{,}223$ (sp$^{3{,}5}$), dan pasangan bebas mendapat $1 - 3(0{,}223) = 0{,}331$, hampir tepat sp². Untuk PH₃ (93,3°), $\alpha_\text{PH} = 0{,}054$ (sp$^{17}$), dan pasangan bebas mendapat 0,84: hampir murni $3s$. Gambar 12.g5 memperlihatkan sudut ikatan hidrida golongan 15 dan 16. Lompatan dari periode 2 ke periode 3 besar, dan setelah itu sudutnya hampir tetap di dekat 90°.
+Untuk NH₃ (106,67°), $\alpha_\text{NH} = 0{,}223$ (sp$^{3{,}5}$), dan pasangan bebas mendapat $1 - 3(0{,}223) = 0{,}331$, hampir tepat sp². Untuk PH₃ (93,3°), $\alpha_\text{PH} = 0{,}054$ (sp$^{17}$), dan pasangan bebas mendapat 0,84: hampir murni $3s$. Gambar 12.5 memperlihatkan sudut ikatan hidrida golongan 15 dan 16. Lompatan dari periode 2 ke periode 3 besar, dan setelah itu sudutnya hampir tetap di dekat 90°.
 
-![Gambar 12.g5 Sudut ikatan hidrida golongan 16 (H₂X) dan golongan 15 (XH₃) terhadap periode atom pusat. Hanya hidrida periode 2 yang jauh dari 90°.](fig/c_hidrida.png){width=68%}
+![Gambar 12.5 Sudut ikatan hidrida golongan 16 (H₂X) dan golongan 15 (XH₃) terhadap periode atom pusat. Hanya hidrida periode 2 yang jauh dari 90°.](fig/c_hidrida.png){width=68%}
 
 Mengapa atom periode 3 dan seterusnya hampir tidak berhibridisasi dalam hidridanya? Ada dua alasan yang saling menguatkan.
 
@@ -69,29 +69,29 @@ Aturan Bent juga meramalkan letak substituen. Pada molekul bipiramida segitiga s
 Untuk dua hibrida setara yang membentuk sudut $\theta$:
 
 $$
-\alpha = \frac{-\cos\theta}{1 - \cos\theta} , \qquad \lambda^2 = -\sec\theta , \qquad \%s = 100\,\alpha . \qquad \text{(12.e25)}
+\alpha = \frac{-\cos\theta}{1 - \cos\theta} , \qquad \lambda^2 = -\sec\theta , \qquad \%s = 100\,\alpha . \qquad \text{(12.25)}
 $$
 
-Untuk hibrida-hibrida yang tidak setara, pakai (12.e16) untuk setiap pasangan, ditambah kekekalan orbital (12.e14).
+Untuk hibrida-hibrida yang tidak setara, pakai (12.16) untuk setiap pasangan, ditambah kekekalan orbital (12.14).
 
 ::: {.contoh}
-**Contoh 12.a19 · Air: hibrida ikatan dan pasangan bebas**
+**Contoh 12.19 · Air: hibrida ikatan dan pasangan bebas**
 
 Dari sudut 104,52°, hitung (a) karakter $s$ hibrida O–H dan notasi sp$^{\lambda^2}$-nya; (b) karakter $s$ pasangan bebas σ dalam deskripsi σ/π; (c) sudut antara hibrida ikatan dan hibrida pasangan bebas σ.
 
-**Penyelesaian.** (a) $\alpha = 0{,}2005$, $\lambda^2 = 3{,}99$: sp⁴. (b) $n_\sigma$ mendapat seluruh sisa: $1 - 2(0{,}2005) = 0{,}599$, yaitu sp$^{0{,}67}$; $n_\pi$ adalah $p$ murni. (c) Karena $n_\sigma$ menunjuk sepanjang sumbu $C_2$, menjauhi kedua H, sudutnya $180° - 104{,}52°/2 = 127{,}7°$. Periksa dengan (12.e16): $\cos\theta = -\sqrt{(0{,}2005)(0{,}599)/[(0{,}7995)(0{,}401)]} = -0{,}612$, $\theta = 127{,}7°$.
+**Penyelesaian.** (a) $\alpha = 0{,}2005$, $\lambda^2 = 3{,}99$: sp⁴. (b) $n_\sigma$ mendapat seluruh sisa: $1 - 2(0{,}2005) = 0{,}599$, yaitu sp$^{0{,}67}$; $n_\pi$ adalah $p$ murni. (c) Karena $n_\sigma$ menunjuk sepanjang sumbu $C_2$, menjauhi kedua H, sudutnya $180° - 104{,}52°/2 = 127{,}7°$. Periksa dengan (12.16): $\cos\theta = -\sqrt{(0{,}2005)(0{,}599)/[(0{,}7995)(0{,}401)]} = -0{,}612$, $\theta = 127{,}7°$.
 
-**Memahami hasil.** Pemeriksaan (c) cocok persis, karena ketiga hibrida sebidang ($n_\sigma$ dan kedua hibrida ikatan) memakai $s$, $p_y$, $p_z$ seluruhnya, seperti pada Contoh 12.a13. Pasangan bebas σ air hampir "sp", dengan cuping besar yang menunjuk ke belakang; pasangan bebas inilah yang terutama dipakai air sebagai basa Lewis ketika mengikat ion logam secara searah sumbu $C_2$.
+**Memahami hasil.** Pemeriksaan (c) cocok persis, karena ketiga hibrida sebidang ($n_\sigma$ dan kedua hibrida ikatan) memakai $s$, $p_y$, $p_z$ seluruhnya, seperti pada Contoh 12.13. Pasangan bebas σ air hampir "sp", dengan cuping besar yang menunjuk ke belakang; pasangan bebas inilah yang terutama dipakai air sebagai basa Lewis ketika mengikat ion logam secara searah sumbu $C_2$.
 :::
 
 ::: {.contoh}
-**Contoh 12.a20 · Amonia dan fosfina**
+**Contoh 12.20 · Amonia dan fosfina**
 
 (a) Hitung karakter $s$ hibrida ikatan dan pasangan bebas NH₃ (106,67°) dan PH₃ (93,3°). (b) Hitung sudut antara pasangan bebas dan setiap ikatan pada NH₃. (c) Apa yang terjadi pada hibrida-hibrida itu dalam bentuk datar keadaan transisi inversi?
 
 **Penyelesaian.** (a) NH₃: $\cos106{,}67° = -0{,}2869$, $\alpha_\text{NH} = 0{,}2869/1{,}2869 = 0{,}223$; pasangan bebas $1 - 0{,}669 = 0{,}331$. PH₃: $\cos93{,}3° = -0{,}0576$, $\alpha_\text{PH} = 0{,}054$; pasangan bebas $0{,}837$.
 
-\(b) Dengan (12.e16): $\cos\theta = -\sqrt{(0{,}223)(0{,}331)/[(0{,}777)(0{,}669)]} = -0{,}377$, $\theta = 112{,}1°$.
+\(b) Dengan (12.16): $\cos\theta = -\sqrt{(0{,}223)(0{,}331)/[(0{,}777)(0{,}669)]} = -0{,}377$, $\theta = 112{,}1°$.
 
 \(c) Dalam bentuk datar, ketiga ikatan sebidang dengan sudut 120°, sehingga ikatan-ikatan itu memakai sp² (33,3% $s$ masing-masing) dan pasangan bebas berada dalam $p_z$ murni (0% $s$).
 
@@ -99,7 +99,7 @@ Dari sudut 104,52°, hitung (a) karakter $s$ hibrida O–H dan notasi sp$^{\lamb
 :::
 
 ::: {.contoh}
-**Contoh 12.a21 · Fluorometana dan aturan Bent**
+**Contoh 12.21 · Fluorometana dan aturan Bent**
 
 Pada CH₃F, sudut H–C–H 110,2°. (a) Hitung karakter $s$ hibrida C–H dan C–F. (b) Ramalkan sudut H–C–F dan bandingkan dengan nilai teramati 108,7°.
 
@@ -111,7 +111,7 @@ Pada CH₃F, sudut H–C–H 110,2°. (a) Hitung karakter $s$ hibrida C–H dan 
 :::
 
 ::: {.contoh}
-**Contoh 12.a22 · Difluorometana: ketika hibrida tidak menunjuk ke inti**
+**Contoh 12.22 · Difluorometana: ketika hibrida tidak menunjuk ke inti**
 
 Pada CH₂F₂, sudut H–C–H 113,7° dan F–C–F 108,5°. (a) Hitung karakter $s$ C–H dari sudut H–C–H dan C–F dari sudut F–C–F secara terpisah. (b) Periksa kekekalan orbital. (c) Bila kekekalan dipaksakan, berapa sudut antarhibrida C–F?
 
@@ -121,7 +121,7 @@ Pada CH₂F₂, sudut H–C–H 113,7° dan F–C–F 108,5°. (a) Hitung karakt
 :::
 
 ::: {.contoh}
-**Contoh 12.a23 · NF₃ dan NH₃**
+**Contoh 12.23 · NF₃ dan NH₃**
 
 Sudut F–N–F pada NF₃ 102,2°, sedangkan H–N–H pada NH₃ 106,7°. (a) Hitung karakter $s$ pasangan bebas pada kedua molekul. (b) Momen dipol NH₃ 1,47 D, sedangkan NF₃ hanya 0,24 D, padahal ikatan N–F jauh lebih polar. Jelaskan dengan hasil (a).
 
@@ -146,7 +146,7 @@ Karakter $s$ bukan besaran yang dapat diukur langsung, tetapi ia berkorelasi era
 
 Elektron $2s$ menembus sampai ke dekat inti dan jauh lebih kuat terikat daripada elektron $2p$ (subbab 9.9); dalam atom karbon, orbital $2s$ juga sedikit lebih kompak daripada $2p$. Hibrida dengan karakter $s$ lebih besar karena itu menarik pasangan ikatan lebih dekat ke inti, dan ikatannya lebih pendek. Ikatan C–H: 109,4 pm (etana, sp³), 108,6 pm (etilena, sp²), 106,1 pm (asetilena, sp).
 
-Efeknya lebih jelas lagi pada ikatan tunggal C–C antara karbon-karbon dengan hibridisasi berbeda (Gambar 12.g6b). Ikatan tunggal sp³–sp³ (etana) 153,5 pm, sp³–sp² (propena) 150,1 pm, sp²–sp² (butadiena) 146,7 pm, sp³–sp (propuna) 145,9 pm, sp²–sp (vinilasetilena) 143,1 pm, dan sp–sp (butadiuna) 137,6 pm. Panjang ikatan turun hampir linear terhadap jumlah karakter $s$ kedua hibrida. Akibatnya, "pemendekan" ikatan tunggal dalam butadiena, yang sering dianggap bukti konjugasi π, sebagian besar sudah dijelaskan oleh hibridisasi sp² kedua karbon.
+Efeknya lebih jelas lagi pada ikatan tunggal C–C antara karbon-karbon dengan hibridisasi berbeda (Gambar 12.6(b)). Ikatan tunggal sp³–sp³ (etana) 153,5 pm, sp³–sp² (propena) 150,1 pm, sp²–sp² (butadiena) 146,7 pm, sp³–sp (propuna) 145,9 pm, sp²–sp (vinilasetilena) 143,1 pm, dan sp–sp (butadiuna) 137,6 pm. Panjang ikatan turun hampir linear terhadap jumlah karakter $s$ kedua hibrida. Akibatnya, "pemendekan" ikatan tunggal dalam butadiena, yang sering dianggap bukti konjugasi π, sebagian besar sudah dijelaskan oleh hibridisasi sp² kedua karbon.
 
 ### Kekuatan ikatan dan frekuensi ulur
 
@@ -160,28 +160,28 @@ Pengaruh hibridisasi paling dramatis terlihat pada keasaman. pK$_a$ etana sekita
 
 Kecenderungan yang sama dapat diringkas dengan konsep **elektronegativitas orbital**: elektronegativitas sebuah atom bergantung pada hibrida yang ia pakai. Nilai yang lazim dikutip (skala Pauling, dari perhitungan Mulliken–Jaffé) untuk karbon adalah 2,48 (sp³), 2,75 (sp²), dan 3,29 (sp). Karbon sp hampir seelektronegatif klor atau nitrogen. Akibatnya, molekul seperti propuna, CH₃–C≡CH, mempunyai momen dipol (0,78 D) dengan ujung negatif di karbon sp, padahal semua atomnya hanya C dan H.
 
-![Gambar 12.g6 (a) Tetapan kopling satu ikatan $^1J(^{13}\text{C–H})$ terhadap karakter $s$ hibrida karbon untuk metana, etilena, dan asetilena; garis putus-putus adalah hubungan Müller–Pritchard $J \approx 500\,\alpha$ Hz. (b) Panjang ikatan tunggal C–C terhadap jumlah karakter $s$ kedua hibrida yang membentuknya.](fig/c_sifat.png){width=94%}
+![Gambar 12.6 (a) Tetapan kopling satu ikatan $^1J(^{13}\text{C–H})$ terhadap karakter $s$ hibrida karbon untuk metana, etilena, dan asetilena; garis putus-putus adalah hubungan Müller–Pritchard $J \approx 500\,\alpha$ Hz. (b) Panjang ikatan tunggal C–C terhadap jumlah karakter $s$ kedua hibrida yang membentuknya.](fig/c_sifat.png){width=94%}
 
 ### Kopling ¹³C–H dalam NMR
 
 Dalam spektrum NMR, inti $^{13}$C dan $^1$H yang terikat langsung saling memecah sinyal dengan tetapan kopling $^1J(^{13}\text{C–H})$ (Bab 16). Kopling ini terutama berasal dari **interaksi kontak Fermi**: spin inti berinteraksi dengan spin elektron yang berada **tepat di inti**. Hanya orbital $s$ yang tidak nol di inti; orbital $p$ bernilai nol di sana. Karena itu kopling sebanding dengan karakter $s$ hibrida karbon yang mengarah ke H. N. Müller dan D. E. Pritchard (1959) menemukan hubungan empiris
 
 $$
-^1J(^{13}\text{C–H}) \approx 500\,\alpha\ \text{Hz} , \qquad \text{(12.e26)}
+^1J(^{13}\text{C–H}) \approx 500\,\alpha\ \text{Hz} , \qquad \text{(12.26)}
 $$
 
-yang mereproduksi metana (125 Hz, $\alpha = 0{,}25$), etilena (156 Hz, $\alpha = 0{,}31$), dan asetilena (249 Hz, $\alpha = 0{,}50$) dengan baik (Gambar 12.g6a). Kopling ini memberi cara yang hampir langsung untuk "mengukur" hibridisasi.
+yang mereproduksi metana (125 Hz, $\alpha = 0{,}25$), etilena (156 Hz, $\alpha = 0{,}31$), dan asetilena (249 Hz, $\alpha = 0{,}50$) dengan baik (Gambar 12.6(a)). Kopling ini memberi cara yang hampir langsung untuk "mengukur" hibridisasi.
 
 ::: {.awas}
 **Awas · Hubungan $J \approx 500\alpha$ gagal untuk substituen elektronegatif**
 
-Untuk CHCl₃, $^1J = 209$ Hz, yang menurut (12.e26) berarti 42% $s$, jauh di atas yang mungkin untuk tiga ikatan C–Cl dan satu C–H dengan geometri hampir tetrahedral. Untuk CH₃F, 149 Hz akan berarti 30% $s$, padahal sudut ikatan memberi 25,7% (Contoh 12.a21). Substituen elektronegatif menaikkan kopling melalui jalan lain: mereka mengerutkan orbital $2s$ karbon (menambah kerapatan elektron $s$ di inti) dan mengubah energi eksitasi rata-rata. Hubungan Müller–Pritchard sahih untuk hidrokarbon; di luar itu ia hanya memberi kecenderungan arah.
+Untuk CHCl₃, $^1J = 209$ Hz, yang menurut (12.26) berarti 42% $s$, jauh di atas yang mungkin untuk tiga ikatan C–Cl dan satu C–H dengan geometri hampir tetrahedral. Untuk CH₃F, 149 Hz akan berarti 30% $s$, padahal sudut ikatan memberi 25,7% (Contoh 12.21). Substituen elektronegatif menaikkan kopling melalui jalan lain: mereka mengerutkan orbital $2s$ karbon (menambah kerapatan elektron $s$ di inti) dan mengubah energi eksitasi rata-rata. Hubungan Müller–Pritchard sahih untuk hidrokarbon; di luar itu ia hanya memberi kecenderungan arah.
 :::
 
 ::: {.contoh}
-**Contoh 12.a24 · Membaca karakter s dari kopling NMR**
+**Contoh 12.24 · Membaca karakter s dari kopling NMR**
 
-Pakai (12.e26) untuk menaksir karakter $s$ hibrida C–H dari: benzena (158 Hz), siklopropana (161 Hz), kubana (155 Hz), HCN (269 Hz). Bandingkan nilai siklopropana dengan nilai dari sudut ikatan (Contoh 12.a18).
+Pakai (12.26) untuk menaksir karakter $s$ hibrida C–H dari: benzena (158 Hz), siklopropana (161 Hz), kubana (155 Hz), HCN (269 Hz). Bandingkan nilai siklopropana dengan nilai dari sudut ikatan (Contoh 12.18).
 
 **Penyelesaian.** Benzena 0,316; siklopropana 0,322; kubana 0,310; HCN 0,538.
 
@@ -189,7 +189,7 @@ Pakai (12.e26) untuk menaksir karakter $s$ hibrida C–H dari: benzena (158 Hz),
 :::
 
 ::: {.contoh}
-**Contoh 12.a25 · Panjang ikatan tunggal C–C dan karakter s**
+**Contoh 12.25 · Panjang ikatan tunggal C–C dan karakter s**
 
 Data ikatan tunggal C–C (dalam pm): sp³–sp³ 153,5; sp³–sp² 150,1; sp³–sp 145,9; sp²–sp² 146,7; sp²–sp 143,1; sp–sp 137,6. (a) Paskan garis lurus $r = a + b\,\Sigma\alpha$, dengan $\Sigma\alpha$ jumlah karakter $s$ kedua hibrida. (b) Ramalkan panjang ikatan tunggal antara karbon sp³ siklopropana (hibrida cincin 20% $s$, tetapi untuk ikatan ke substituen di luar cincin sekitar 30% $s$) dan karbon sp³ biasa.
 
@@ -201,7 +201,7 @@ Data ikatan tunggal C–C (dalam pm): sp³–sp³ 153,5; sp³–sp² 150,1; sp³
 :::
 
 ::: {.contoh}
-**Contoh 12.a26 · Hibridisasi dan keasaman**
+**Contoh 12.26 · Hibridisasi dan keasaman**
 
 pK$_a$ etana sekitar 50, etilena sekitar 44, asetilena 25. (a) Hitung selisih energi bebas deprotonasi (pada 298 K) antara etana dan asetilena, dan antara etana dan etilena. (b) Bandingkan dengan selisih energi disosiasi ikatan C–H homolitik (423, 463, 558 kJ/mol). Apa yang dapat disimpulkan?
 
@@ -213,7 +213,7 @@ pK$_a$ etana sekitar 50, etilena sekitar 44, asetilena 25. (a) Hitung selisih en
 :::
 
 ::: {.contoh}
-**Contoh 12.a27 · Tetapan gaya ulur C–H**
+**Contoh 12.27 · Tetapan gaya ulur C–H**
 
 Hitung tetapan gaya ulur C–H dari frekuensi 2900, 3100, dan 3300 cm⁻¹, dengan massa tereduksi $^{12}$C–$^1$H. Berapa persen ikatan ≡C–H lebih kaku daripada C(sp³)–H?
 

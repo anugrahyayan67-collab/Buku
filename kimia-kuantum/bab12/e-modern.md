@@ -20,7 +20,7 @@ Nama VSEPR menyiratkan bahwa tolakan Coulomb antarpasangan elektron menentukan b
 Bayangkan delapan elektron valensi atom pusat (oktet), empat dengan spin α dan empat dengan spin β. Fungsi gelombang empat elektron α adalah determinan Slater (subbab 9.6). Untuk melihat inti persoalannya, ambil empat orbital $s$, $p_x$, $p_y$, $p_z$ dengan bagian radial yang sama dan tinjau hanya bagian sudutnya. Bila elektron $i$ berada pada arah satuan $\mathbf r_i = (x_i, y_i, z_i)$, determinannya sebanding dengan
 
 $$
-D = \begin{vmatrix}1 & \sqrt3\,x_1 & \sqrt3\,y_1 & \sqrt3\,z_1\\ 1 & \sqrt3\,x_2 & \sqrt3\,y_2 & \sqrt3\,z_2\\ 1 & \sqrt3\,x_3 & \sqrt3\,y_3 & \sqrt3\,z_3\\ 1 & \sqrt3\,x_4 & \sqrt3\,y_4 & \sqrt3\,z_4\end{vmatrix} = 3\sqrt3\begin{vmatrix}1 & x_1 & y_1 & z_1\\ \vdots & & & \vdots\\ 1 & x_4 & y_4 & z_4\end{vmatrix} . \qquad \text{(12.e36)}
+D = \begin{vmatrix}1 & \sqrt3\,x_1 & \sqrt3\,y_1 & \sqrt3\,z_1\\ 1 & \sqrt3\,x_2 & \sqrt3\,y_2 & \sqrt3\,z_2\\ 1 & \sqrt3\,x_3 & \sqrt3\,y_3 & \sqrt3\,z_3\\ 1 & \sqrt3\,x_4 & \sqrt3\,y_4 & \sqrt3\,z_4\end{vmatrix} = 3\sqrt3\begin{vmatrix}1 & x_1 & y_1 & z_1\\ \vdots & & & \vdots\\ 1 & x_4 & y_4 & z_4\end{vmatrix} . \qquad \text{(12.36)}
 $$
 
 Determinan $4 \times 4$ terakhir sama dengan enam kali volume (bertanda) tetrahedron dengan titik-titik sudut $\mathbf r_1, \ldots, \mathbf r_4$: kurangkan baris pertama dari baris-baris lainnya, lalu uraikan menurut kolom pertama, dan yang tersisa adalah determinan tiga vektor sisi tetrahedron. Rapat peluang menemukan keempat elektron α pada arah-arah itu sebanding dengan $|D|^2$, yaitu dengan **kuadrat volume tetrahedron**.
@@ -35,7 +35,7 @@ Gagasan bahwa oktet terdiri atas dua kuartet spin yang masing-masing tetrahedral
 
 ### Model titik pada bola
 
-Versi kuantitatif VSEPR yang paling sederhana menempatkan $n$ titik (domain) pada bola dan mencari susunan yang meminimumkan energi tolakan $\sum_{i<j}1/r_{ij}^k$. Untuk $k = 1$ ini adalah **soal Thomson**. Hasilnya (Contoh 12.a40): $n = 2$ linear, 3 segitiga, 4 tetrahedron, 5 bipiramida segitiga, 6 oktahedron, 7 bipiramida segilima, sesuai dengan aturan VSEPR. Menariknya, untuk $n = 5$ bipiramida segitiga hanya sedikit lebih stabil daripada piramida bujur sangkar (selisih 0,14% untuk $k = 1$). Selisih yang kecil ini adalah sebab molekul AX₅ bersifat fluksional: pada PF₅, atom F aksial dan ekuatorial bertukar tempat melalui piramida bujur sangkar (**pseudorotasi Berry**) dengan penghalang hanya sekitar 15 kJ/mol, sehingga spektrum NMR $^{19}$F pada suhu kamar hanya menunjukkan satu sinyal F.
+Versi kuantitatif VSEPR yang paling sederhana menempatkan $n$ titik (domain) pada bola dan mencari susunan yang meminimumkan energi tolakan $\sum_{i<j}1/r_{ij}^k$. Untuk $k = 1$ ini adalah **soal Thomson**. Hasilnya (Contoh 12.40): $n = 2$ linear, 3 segitiga, 4 tetrahedron, 5 bipiramida segitiga, 6 oktahedron, 7 bipiramida segilima, sesuai dengan aturan VSEPR. Menariknya, untuk $n = 5$ bipiramida segitiga hanya sedikit lebih stabil daripada piramida bujur sangkar (selisih 0,14% untuk $k = 1$). Selisih yang kecil ini adalah sebab molekul AX₅ bersifat fluksional: pada PF₅, atom F aksial dan ekuatorial bertukar tempat melalui piramida bujur sangkar (**pseudorotasi Berry**) dengan penghalang hanya sekitar 15 kJ/mol, sehingga spektrum NMR $^{19}$F pada suhu kamar hanya menunjukkan satu sinyal F.
 
 ### Keterbatasan VSEPR
 
@@ -48,7 +48,7 @@ VSEPR berhasil untuk molekul golongan utama, tetapi gagal dalam beberapa kasus y
 * **Bentuk molekul yang ditentukan oleh orbital, bukan oleh pasangan.** Diagram Walsh (subbab 13.3) menjelaskan sudut ikatan dari perubahan energi orbital molekul terhadap sudut, dan menangani juga keadaan tereksitasi dan radikal, tempat konsep "pasangan" kehilangan maknanya.
 
 ::: {.contoh}
-**Contoh 12.a39 · Meramalkan bentuk**
+**Contoh 12.39 · Meramalkan bentuk**
 
 Tentukan rumus AX$_m$E$_n$ dan bentuk molekul: SF₄, ClF₃, BrF₅, XeF₄, I₃⁻, IF₇, SO₂. Pada SF₄, apakah sudut F$_\text{ak}$–S–F$_\text{ak}$ lebih besar atau lebih kecil dari 180°, dan mengapa?
 
@@ -60,7 +60,7 @@ Pada SF₄ pasangan bebas ekuatorial mendorong kedua F aksial menjauhinya, sehin
 :::
 
 ::: {.contoh}
-**Contoh 12.a40 · Soal Thomson dengan Python**
+**Contoh 12.40 · Soal Thomson dengan Python**
 
 Tulis program yang meminimumkan $E = \sum_{i<j}1/|\mathbf r_i - \mathbf r_j|$ untuk $n$ titik pada bola satuan, untuk $n = 2$ sampai 7. Untuk $n = 5$, bandingkan bipiramida segitiga (BPS) dengan piramida bujur sangkar (PBS) terbaik.
 
@@ -88,9 +88,9 @@ Keluarannya: $E$ = 0,5 (2), 1,732051 (3), 3,674235 (4), 6,474691 (5), 9,985281 (
 :::
 
 ::: {.contoh}
-**Contoh 12.a41 · Determinan Pauli untuk tiga dan empat elektron**
+**Contoh 12.41 · Determinan Pauli untuk tiga dan empat elektron**
 
-(a) Hitung $|D|^2$ dari (12.e36) untuk empat elektron pada sudut-sudut tetrahedron beraturan, dengan volume tetrahedron beraturan yang terinskripsi dalam bola satuan $V = 8/(9\sqrt3)$. (b) Berapa $|D|^2$ bila keempat elektron berada di sudut-sudut bujur sangkar di bidang $xy$? (c) Untuk dua elektron dalam $s$ dan $p_z$, pada sudut berapa $|D|^2$ maksimum?
+(a) Hitung $|D|^2$ dari (12.36) untuk empat elektron pada sudut-sudut tetrahedron beraturan, dengan volume tetrahedron beraturan yang terinskripsi dalam bola satuan $V = 8/(9\sqrt3)$. (b) Berapa $|D|^2$ bila keempat elektron berada di sudut-sudut bujur sangkar di bidang $xy$? (c) Untuk dua elektron dalam $s$ dan $p_z$, pada sudut berapa $|D|^2$ maksimum?
 
 **Penyelesaian.** (a) $D = 3\sqrt3 \times 6V = 3\sqrt3 \times 6 \times 0{,}5132 = 16{,}00$; $|D|^2 = 256$. Pencarian numerik maksimum $|D|^2$ atas semua susunan memberi nilai yang sama, dengan semua sudut 109,47°. (b) Keempat titik sebidang: volume nol, $|D|^2 = 0$. (c) $D = \sqrt3(z_2 - z_1)$, maksimum bila $z_1 = 1$, $z_2 = -1$ (atau sebaliknya): sudut 180°, $|D|^2 = 12$.
 
@@ -107,7 +107,7 @@ Menurut VSEPR, mengapa pasangan bebas pada ClF₃ menempati kedudukan ekuatorial
 
 ### Kelemahan teori Heitler–London klasik
 
-Fungsi Heitler–London (12.e1) memakai orbital atom yang tidak berubah sama sekali ketika molekul terbentuk. Hasilnya cukup baik secara kualitatif, tetapi energi ikatannya jauh terlalu kecil. Untuk H₂ dengan orbital $1s$ ($\zeta = 1$), Heitler–London memberi $D_e = 3{,}16$ eV pada $R = 1{,}64\,a_0$; dengan eksponen orbital yang dioptimasi ($\zeta = 1{,}166$, S. C. Wang 1928) diperoleh 3,79 eV. Nilai eksak adalah 4,75 eV pada $1{,}40\,a_0$. Yang hilang adalah kemampuan orbital untuk **berubah bentuk** di dalam molekul, dan sumbangan struktur ionik H⁻H⁺ dan H⁺H⁻.
+Fungsi Heitler–London (12.1) memakai orbital atom yang tidak berubah sama sekali ketika molekul terbentuk. Hasilnya cukup baik secara kualitatif, tetapi energi ikatannya jauh terlalu kecil. Untuk H₂ dengan orbital $1s$ ($\zeta = 1$), Heitler–London memberi $D_e = 3{,}16$ eV pada $R = 1{,}64\,a_0$; dengan eksponen orbital yang dioptimasi ($\zeta = 1{,}166$, S. C. Wang 1928) diperoleh 3,79 eV. Nilai eksak adalah 4,75 eV pada $1{,}40\,a_0$. Yang hilang adalah kemampuan orbital untuk **berubah bentuk** di dalam molekul, dan sumbangan struktur ionik H⁻H⁺ dan H⁺H⁻.
 
 Teori ikatan valensi tradisional menambahkan struktur ionik secara eksplisit: $\Psi = c_\text{kov}\Phi_\text{kov} + c_\text{ion}\Phi_\text{ion}$, dengan $\Phi_\text{ion} = a(1)a(2) + b(1)b(2)$. Untuk molekul besar, cara ini cepat meledak: banyaknya struktur ionik dan kovalen bertambah sangat cepat.
 
@@ -116,28 +116,28 @@ Teori ikatan valensi tradisional menambahkan struktur ionik secara eksplisit: $\
 C. A. Coulson dan I. Fischer (1949) mengusulkan jalan yang jauh lebih hemat: pertahankan **satu** struktur kovalen, tetapi biarkan kedua orbitalnya berubah bentuk. Untuk H₂, ambil
 
 $$
-\phi_1 = \frac{a + \lambda b}{\sqrt{1 + \lambda^2 + 2\lambda S}} , \qquad \phi_2 = \frac{b + \lambda a}{\sqrt{1 + \lambda^2 + 2\lambda S}} , \qquad \text{(12.e37)}
+\phi_1 = \frac{a + \lambda b}{\sqrt{1 + \lambda^2 + 2\lambda S}} , \qquad \phi_2 = \frac{b + \lambda a}{\sqrt{1 + \lambda^2 + 2\lambda S}} , \qquad \text{(12.37)}
 $$
 
 dua orbital yang masing-masing terutama berada pada satu atom tetapi mempunyai "ekor" kecil pada atom lain. Fungsi gelombangnya tetap berbentuk Heitler–London:
 
 $$
-\Psi_\text{GVB} \propto \left[\phi_1(1)\phi_2(2) + \phi_2(1)\phi_1(2)\right]\left[\alpha(1)\beta(2) - \beta(1)\alpha(2)\right] . \qquad \text{(12.e38)}
+\Psi_\text{GVB} \propto \left[\phi_1(1)\phi_2(2) + \phi_2(1)\phi_1(2)\right]\left[\alpha(1)\beta(2) - \beta(1)\alpha(2)\right] . \qquad \text{(12.38)}
 $$
 
 Sekarang uraikan bagian ruangnya. Dengan $\phi_1\phi_2 \propto (a + \lambda b)(b + \lambda a) = ab + \lambda aa + \lambda bb + \lambda^2ba$, dan suku tukarnya:
 
 $$
-\phi_1(1)\phi_2(2) + \phi_2(1)\phi_1(2) \propto (1 + \lambda^2)\underbrace{[a(1)b(2) + b(1)a(2)]}_\text{kovalen} + 2\lambda\underbrace{[a(1)a(2) + b(1)b(2)]}_\text{ionik} . \qquad \text{(12.e39)}
+\phi_1(1)\phi_2(2) + \phi_2(1)\phi_1(2) \propto (1 + \lambda^2)\underbrace{[a(1)b(2) + b(1)a(2)]}_\text{kovalen} + 2\lambda\underbrace{[a(1)a(2) + b(1)b(2)]}_\text{ionik} . \qquad \text{(12.39)}
 $$
 
 **Satu struktur kovalen dengan orbital yang terdeformasi sama dengan campuran struktur kovalen dan ionik**, dengan perbandingan $2\lambda/(1 + \lambda^2)$. Dalam basis minimal, campuran ini juga sama dengan interaksi konfigurasi dua konfigurasi orbital molekul, $c_g\sigma_g^2 - c_u\sigma_u^2$ (subbab 11.12). Jadi fungsi Coulson–Fischer memberi energi yang sama dengan perhitungan interaksi konfigurasi lengkap dalam basis minimal, tetapi dengan bahasa ikatan valensi: dua elektron dalam dua orbital lokal yang berpasangan spin.
 
-W. A. Goddard (1967) memperumum gagasan ini menjadi metode **ikatan valensi teraplikasi umum** (*generalized valence bond*, GVB). Dalam GVB pasangan sempurna, setiap ikatan dan setiap pasangan bebas dilukiskan oleh sepasang orbital tak ortogonal seperti (12.e37), yang bentuknya dioptimasi secara variasi tanpa batasan (tidak harus kombinasi dua orbital atom), dan pasangan-pasangan yang berbeda dibuat saling ortogonal. Metode **spin-coupled** (J. Gerratt, D. L. Cooper, M. Raimondi, 1980-an) melangkah lebih jauh: semua orbital boleh tak ortogonal satu sama lain, dan fungsi spin adalah kombinasi optimum dari semua cara memasangkan spin. Metode-metode sejenis yang kini dipakai (VBSCF, BOVB) memungkinkan perhitungan ikatan valensi dengan ketelitian yang sebanding dengan metode orbital molekul berkorelasi.
+W. A. Goddard (1967) memperumum gagasan ini menjadi metode **ikatan valensi teraplikasi umum** (*generalized valence bond*, GVB). Dalam GVB pasangan sempurna, setiap ikatan dan setiap pasangan bebas dilukiskan oleh sepasang orbital tak ortogonal seperti (12.37), yang bentuknya dioptimasi secara variasi tanpa batasan (tidak harus kombinasi dua orbital atom), dan pasangan-pasangan yang berbeda dibuat saling ortogonal. Metode **spin-coupled** (J. Gerratt, D. L. Cooper, M. Raimondi, 1980-an) melangkah lebih jauh: semua orbital boleh tak ortogonal satu sama lain, dan fungsi spin adalah kombinasi optimum dari semua cara memasangkan spin. Metode-metode sejenis yang kini dipakai (VBSCF, BOVB) memungkinkan perhitungan ikatan valensi dengan ketelitian yang sebanding dengan metode orbital molekul berkorelasi.
 
 ### H₂: hasil perhitungan
 
-Gambar 12.g9 dan tabel berikut menunjukkan hasil perhitungan dengan basis minimal orbital $1s$ Slater, dengan eksponen $\zeta$ dioptimasi pada setiap jarak (Contoh 12.a43).
+Gambar 12.9 dan tabel berikut menunjukkan hasil perhitungan dengan basis minimal orbital $1s$ Slater, dengan eksponen $\zeta$ dioptimasi pada setiap jarak (Contoh 12.43).
 
 | Metode | $R_e$ ($a_0$) | $D_e$ (eV) | $\zeta$ optimum |
 |---|---|---|---|
@@ -146,9 +146,9 @@ Gambar 12.g9 dan tabel berikut menunjukkan hasil perhitungan dengan basis minima
 | GVB (Coulson–Fischer) | 1,430 | 4,03 | 1,194 |
 | Eksak | 1,401 | 4,75 | — |
 
-![Gambar 12.g9 Energi H₂ terhadap jarak antarinti dalam basis minimal $1s$ dengan eksponen dioptimasi: teori orbital molekul (RHF), Heitler–London, dan GVB (setara dengan interaksi konfigurasi lengkap dalam basis ini). Bintang menandai minimum eksak. Kurva RHF menuju limit yang salah karena memuat 50% struktur ionik pada semua jarak.](fig/c_h2gvb.png){width=76%}
+![Gambar 12.9 Energi H₂ terhadap jarak antarinti dalam basis minimal $1s$ dengan eksponen dioptimasi: teori orbital molekul (RHF), Heitler–London, dan GVB (setara dengan interaksi konfigurasi lengkap dalam basis ini). Bintang menandai minimum eksak. Kurva RHF menuju limit yang salah karena memuat 50% struktur ionik pada semua jarak.](fig/c_h2gvb.png){width=76%}
 
-Tiga hal patut dicatat. Pertama, GVB lebih rendah daripada keduanya pada **semua** jarak, karena ia memuat Heitler–London ($\lambda = 0$) dan RHF ($\lambda = 1$, yang membuat $\phi_1 = \phi_2 = \sigma_g$) sebagai kasus khusus. Kedua, pada jarak setimbang $\lambda = 0{,}135$: orbital GVB hanya sedikit berubah dari orbital atom, tetapi perubahan kecil itu menambah 0,24 eV energi ikatan dibanding Heitler–London. Ketiga, GVB menuju limit yang benar (dua atom H netral) ketika ikatan diputus, sedangkan RHF tidak (Contoh 12.a44). Sisa selisih dengan nilai eksak (0,7 eV) berasal dari basis minimal, bukan dari bentuk fungsi gelombang.
+Tiga hal patut dicatat. Pertama, GVB lebih rendah daripada keduanya pada **semua** jarak, karena ia memuat Heitler–London ($\lambda = 0$) dan RHF ($\lambda = 1$, yang membuat $\phi_1 = \phi_2 = \sigma_g$) sebagai kasus khusus. Kedua, pada jarak setimbang $\lambda = 0{,}135$: orbital GVB hanya sedikit berubah dari orbital atom, tetapi perubahan kecil itu menambah 0,24 eV energi ikatan dibanding Heitler–London. Ketiga, GVB menuju limit yang benar (dua atom H netral) ketika ikatan diputus, sedangkan RHF tidak (Contoh 12.44). Sisa selisih dengan nilai eksak (0,7 eV) berasal dari basis minimal, bukan dari bentuk fungsi gelombang.
 
 ### Gambaran GVB molekul poliatom
 
@@ -168,7 +168,7 @@ Karbena paling sederhana, CH₂, mempunyai keadaan dasar triplet ($^3B_1$, sudut
 Teori ikatan valensi modern juga mengenali **ikatan tiga elektron**: tiga elektron dalam dua orbital yang tumpang tindih, misalnya He₂⁺ atau radikal kation (R₂S∴SR₂)⁺. Ikatan ini berorde kira-kira setengah. Pauling melukiskan O₂ dengan satu ikatan σ biasa dan dua ikatan tiga elektron π yang saling tegak lurus. Setiap ikatan tiga elektron menyumbang satu elektron tak berpasangan, sehingga O₂ mempunyai dua elektron tak berpasangan (paramagnetik) dan orde ikatan $1 + \tfrac12 + \tfrac12 = 2$. Ini sesuai dengan teori orbital molekul (subbab 11.7) dan menunjukkan bahwa kegagalan "ikatan valensi" untuk O₂ yang sering disebut di buku-buku sebenarnya kegagalan struktur Lewis sederhana, bukan kegagalan teori ikatan valensi.
 
 ::: {.contoh}
-**Contoh 12.a42 · Dari λ ke bobot ionik**
+**Contoh 12.42 · Dari λ ke bobot ionik**
 
 Pada $R = 1{,}4\,a_0$ perhitungan GVB memberi $\lambda = 0{,}135$ dan tumpang tindih orbital atom $S = \langle a|b\rangle = 0{,}675$ (dengan $\zeta = 1{,}20$). (a) Hitung perbandingan koefisien ionik terhadap kovalen. (b) Hitung tumpang tindih kedua orbital GVB, $\langle\phi_1|\phi_2\rangle = [2\lambda + S(1 + \lambda^2)]/(1 + \lambda^2 + 2\lambda S)$. (c) Bobot Chirgwin–Coulson struktur ionik dari perhitungan ini adalah 0,20. Tafsirkan.
 
@@ -180,7 +180,7 @@ Pada $R = 1{,}4\,a_0$ perhitungan GVB memberi $\lambda = 0{,}135$ dan tumpang ti
 :::
 
 ::: {.contoh}
-**Contoh 12.a43 · Menghitung H₂ dengan GVB**
+**Contoh 12.43 · Menghitung H₂ dengan GVB**
 
 Dengan basis $\{a, b\}$ orbital $1s$ dan integral-integral satu dan dua elektron (dihitung numerik dengan ekspansi Gauss), susun matriks Hamiltonian dalam basis fungsi ruang $f_1 = ab + ba$ (kovalen) dan $f_2 = aa + bb$ (ionik), lalu hitung energi RHF, Heitler–London, dan GVB pada $R = 1{,}4\,a_0$ dengan $\zeta = 1$.
 
@@ -194,7 +194,7 @@ Dengan basis $\{a, b\}$ orbital $1s$ dan integral-integral satu dan dua elektron
 :::
 
 ::: {.contoh}
-**Contoh 12.a44 · Memutus ikatan: GVB vs RHF**
+**Contoh 12.44 · Memutus ikatan: GVB vs RHF**
 
 Pada $R = 6\,a_0$, perhitungan (dengan $\zeta$ optimum) memberi $E_\text{GVB} = -1{,}0005$ $E_h$, $E_\text{HL} = -1{,}0005$ $E_h$, dan $E_\text{RHF} = -0{,}7953$ $E_h$. Energi dua atom H adalah $-1$ $E_h$. (a) Berapa galat RHF dalam eV? (b) Jelaskan asalnya.
 
@@ -204,7 +204,7 @@ Pada $R = 6\,a_0$, perhitungan (dengan $\zeta$ optimum) memberi $E_\text{GVB} = 
 :::
 
 ::: {.contoh}
-**Contoh 12.a45 · Celah singlet–triplet metilena**
+**Contoh 12.45 · Celah singlet–triplet metilena**
 
 Selisih energi $^1A_1$ dan $^3B_1$ metilena adalah 3147 cm⁻¹. (a) Nyatakan dalam kJ/mol dan eV. (b) Pada suhu 298 K, berapa perbandingan populasi singlet terhadap triplet dalam kesetimbangan termal (ingat degenerasi spin)? (c) Mengapa substituen donor π seperti F atau OCH₃ membalik urutan ini (CF₂ singlet)?
 
@@ -216,32 +216,32 @@ Selisih energi $^1A_1$ dan $^3B_1$ metilena adalah 3147 cm⁻¹. (a) Nyatakan da
 ::: {.kuis}
 **Kuis cepat 12.12**
 
-Dalam fungsi GVB (12.e37), berapa nilai $\lambda$ yang membuat fungsi menjadi fungsi Heitler–London? Berapa nilai yang membuatnya menjadi fungsi RHF? Ke nilai mana $\lambda$ menuju ketika $R \to \infty$?
+Dalam fungsi GVB (12.37), berapa nilai $\lambda$ yang membuat fungsi menjadi fungsi Heitler–London? Berapa nilai yang membuatnya menjadi fungsi RHF? Ke nilai mana $\lambda$ menuju ketika $R \to \infty$?
 :::
 
 ## 12.13 Ikatan valensi vs orbital molekul: spektrum fotoelektron metana sebagai uji
 
 ### Teka-teki
 
-Teori ikatan valensi melukiskan metana dengan empat ikatan C–H yang setara, masing-masing berisi dua elektron dalam orbital yang terlokalisasi. Bila elektron-elektron valensi metana berada dalam empat orbital yang setara, energi ionisasinya seharusnya satu nilai: melepaskan elektron dari ikatan mana pun memerlukan energi yang sama. Spektrum fotoelektron (subbab 1.4) metana menunjukkan **dua** pita valensi: satu pita lebar di sekitar 14,4 eV dan satu pita di sekitar 22,9 eV, dengan perbandingan intensitas kira-kira 3 : 1 (Gambar 12.g10a). Teori orbital molekul meramalkan persis pola ini: orbital $2a_1$ (dari $2s$ karbon dan kombinasi simetris keempat $1s$ hidrogen) dan tiga orbital $1t_2$ yang berdegenerasi (dari $2p$ karbon dan tiga kombinasi $1s$ hidrogen yang sesuai; subbab 13.2). Apakah spektrum fotoelektron membuktikan bahwa ikatan berpasangan elektron lokal itu fiksi?
+Teori ikatan valensi melukiskan metana dengan empat ikatan C–H yang setara, masing-masing berisi dua elektron dalam orbital yang terlokalisasi. Bila elektron-elektron valensi metana berada dalam empat orbital yang setara, energi ionisasinya seharusnya satu nilai: melepaskan elektron dari ikatan mana pun memerlukan energi yang sama. Spektrum fotoelektron (subbab 1.4) metana menunjukkan **dua** pita valensi: satu pita lebar di sekitar 14,4 eV dan satu pita di sekitar 22,9 eV, dengan perbandingan intensitas kira-kira 3 : 1 (Gambar 12.10(a)). Teori orbital molekul meramalkan persis pola ini: orbital $2a_1$ (dari $2s$ karbon dan kombinasi simetris keempat $1s$ hidrogen) dan tiga orbital $1t_2$ yang berdegenerasi (dari $2p$ karbon dan tiga kombinasi $1s$ hidrogen yang sesuai; subbab 13.2). Apakah spektrum fotoelektron membuktikan bahwa ikatan berpasangan elektron lokal itu fiksi?
 
-![Gambar 12.g10 Spektrum fotoelektron valensi skematik. (a) Metana: pita $1t_2$ (sekitar 14,4 eV, lebar dan bergelombang karena efek Jahn–Teller pada CH₄⁺) dan pita $2a_1$ (sekitar 22,9 eV). Garis putus-putus: rata-rata tertimbang 16,5 eV, energi ionisasi "satu ikatan C–H terlokalisasi" dalam model lubang. (b) Air: tiga pita valensi dengan foton He I; pita $2a_1$ (32,2 eV) berada di luar jangkauan.](fig/c_fotoelektron.png){width=94%}
+![Gambar 12.10 Spektrum fotoelektron valensi skematik. (a) Metana: pita $1t_2$ (sekitar 14,4 eV, lebar dan bergelombang karena efek Jahn–Teller pada CH₄⁺) dan pita $2a_1$ (sekitar 22,9 eV). Garis putus-putus: rata-rata tertimbang 16,5 eV, energi ionisasi "satu ikatan C–H terlokalisasi" dalam model lubang. (b) Air: tiga pita valensi dengan foton He I; pita $2a_1$ (32,2 eV) berada di luar jangkauan.](fig/c_fotoelektron.png){width=94%}
 
 ### Jawaban pertama: fungsi gelombang yang sama
 
 Fungsi gelombang Hartree–Fock metana adalah satu determinan Slater dari orbital-orbital terisi. Determinan mempunyai sifat yang sangat penting: bila kolom-kolom orbitalnya diganti dengan kombinasi linear $\phi'_i = \sum_jU_{ij}\phi_j$ dengan matriks $\mathbf U$ uniter (atau ortogonal), determinannya hanya dikalikan dengan $\det\mathbf U$, yang besarnya satu:
 
 $$
-\det[\phi'_1, \ldots, \phi'_N] = \det\mathbf U\cdot\det[\phi_1, \ldots, \phi_N] , \qquad |\det\mathbf U| = 1 . \qquad \text{(12.e40)}
+\det[\phi'_1, \ldots, \phi'_N] = \det\mathbf U\cdot\det[\phi_1, \ldots, \phi_N] , \qquad |\det\mathbf U| = 1 . \qquad \text{(12.40)}
 $$
 
 Ini sifat dasar determinan (subbab 2.7): determinan hasil kali sama dengan hasil kali determinan. Akibatnya fungsi gelombang, kerapatan elektron, energi total, dan semua sifat keadaan dasar **sama persis** apakah kita memakai orbital molekul kanonik ($2a_1$, $1t_{2x}$, $1t_{2y}$, $1t_{2z}$) atau empat orbital ikatan terlokalisasi yang diperoleh dengan transformasi
 
 $$
-\lambda_i = \tfrac12\left(2a_1 \pm 1t_{2x} \pm 1t_{2y} \pm 1t_{2z}\right) , \qquad \text{(12.e41)}
+\lambda_i = \tfrac12\left(2a_1 \pm 1t_{2x} \pm 1t_{2y} \pm 1t_{2z}\right) , \qquad \text{(12.41)}
 $$
 
-dengan pola tanda yang sama seperti (12.e23). Setiap $\lambda_i$ terlokalisasi pada satu ikatan C–H, dan bagian karbonnya adalah hibrida sp³ (dengan sedikit penyesuaian karena $2a_1$ dan $1t_2$ tidak memakai $2s$ dan $2p$ dalam perbandingan persis 1 : 3). Orbital terlokalisasi seperti ini dapat diperoleh secara sistematis dengan kriteria lokalisasi Boys atau Edmiston–Ruedenberg (subbab 17.8). **Keadaan dasar tidak dapat membedakan kedua deskripsi.**
+dengan pola tanda yang sama seperti (12.23). Setiap $\lambda_i$ terlokalisasi pada satu ikatan C–H, dan bagian karbonnya adalah hibrida sp³ (dengan sedikit penyesuaian karena $2a_1$ dan $1t_2$ tidak memakai $2s$ dan $2p$ dalam perbandingan persis 1 : 3). Orbital terlokalisasi seperti ini dapat diperoleh secara sistematis dengan kriteria lokalisasi Boys atau Edmiston–Ruedenberg (subbab 17.8). **Keadaan dasar tidak dapat membedakan kedua deskripsi.**
 
 ### Jawaban kedua: ionisasi adalah sifat ion
 
@@ -250,13 +250,13 @@ Spektrum fotoelektron tidak mengukur "energi orbital" molekul netral; ia menguku
 Dalam bahasa ikatan lokal, kita dapat membuat lubang di salah satu dari empat ikatan C–H. Keempat keadaan "lubang terlokalisasi" $|1\rangle, |2\rangle, |3\rangle, |4\rangle$ berdegenerasi oleh simetri, dengan energi ionisasi $\varepsilon$. Tetapi keadaan-keadaan itu **bukan** keadaan stasioner: lubang dapat berpindah dari satu ikatan ke ikatan lain karena orbital-orbital ikatan pada atom karbon yang sama bertumpang tindih dan berinteraksi. Sebut unsur matriks perpindahan itu $\tau$; karena keempat ikatan setara, setiap pasangan mempunyai $\tau$ yang sama. Matriks energi ionisasinya
 
 $$
-\mathbf H^+ = \begin{pmatrix}\varepsilon & \tau & \tau & \tau\\ \tau & \varepsilon & \tau & \tau\\ \tau & \tau & \varepsilon & \tau\\ \tau & \tau & \tau & \varepsilon\end{pmatrix} = (\varepsilon - \tau)\,\mathbf I + \tau\,\mathbf J , \qquad \text{(12.e42)}
+\mathbf H^+ = \begin{pmatrix}\varepsilon & \tau & \tau & \tau\\ \tau & \varepsilon & \tau & \tau\\ \tau & \tau & \varepsilon & \tau\\ \tau & \tau & \tau & \varepsilon\end{pmatrix} = (\varepsilon - \tau)\,\mathbf I + \tau\,\mathbf J , \qquad \text{(12.42)}
 $$
 
 dengan $\mathbf J$ matriks yang semua unsurnya satu. Matriks $\mathbf J$ mempunyai nilai eigen 4 (vektor eigen $(1, 1, 1, 1)/2$) dan 0 (tiga kali, untuk semua vektor yang jumlah komponennya nol). Jadi nilai eigen $\mathbf H^+$:
 
 $$
-\text{IE}(a_1) = \varepsilon + 3\tau \quad (\text{sekali}) , \qquad \text{IE}(t_2) = \varepsilon - \tau \quad (\text{tiga kali}) . \qquad \text{(12.e43)}
+\text{IE}(a_1) = \varepsilon + 3\tau \quad (\text{sekali}) , \qquad \text{IE}(t_2) = \varepsilon - \tau \quad (\text{tiga kali}) . \qquad \text{(12.43)}
 $$
 
 **Model ikatan terlokalisasi, bila dipakai dengan benar untuk ion, juga meramalkan dua pita dengan perbandingan 1 : 3.** Keadaan stasioner ion adalah kombinasi simetri keempat keadaan lubang lokal, persis seperti orbital $a_1$ dan $t_2$ adalah kombinasi simetri orbital lokal. Dengan data percobaan, $4\tau = 22{,}9 - 14{,}4$, sehingga $\tau = 2{,}1$ eV dan $\varepsilon = 16{,}5$ eV. Lubang yang dibuat di satu ikatan C–H berpindah ke ikatan lain dalam waktu sekitar $h/4\tau \approx 0{,}5$ fs, jauh lebih cepat daripada waktu yang diperlukan untuk "melihat" ikatan mana yang terionisasi.
@@ -286,9 +286,9 @@ Pada H₂O kasusnya serupa. Bila kedua pasangan bebas dilukiskan sebagai dua "te
 Kimiawan yang mahir berpindah bahasa sesuai kebutuhan: menggambar panah lengkung dengan struktur Lewis, lalu menjelaskan selektivitas reaksi dengan orbital perbatasan.
 
 ::: {.contoh}
-**Contoh 12.a46 · Model lubang untuk metana**
+**Contoh 12.46 · Model lubang untuk metana**
 
-(a) Dari energi ionisasi 14,4 eV ($t_2$) dan 22,9 eV ($a_1$), tentukan $\varepsilon$ dan $\tau$ dalam (12.e42), dan periksa dengan diagonalisasi numerik. (b) Tunjukkan bahwa $\varepsilon$ sama dengan rata-rata tertimbang keempat energi ionisasi. (c) Bila sebuah lubang mula-mula berada di ikatan 1, berapa peluang menemukannya di ikatan 1 setelah waktu $t$?
+(a) Dari energi ionisasi 14,4 eV ($t_2$) dan 22,9 eV ($a_1$), tentukan $\varepsilon$ dan $\tau$ dalam (12.42), dan periksa dengan diagonalisasi numerik. (b) Tunjukkan bahwa $\varepsilon$ sama dengan rata-rata tertimbang keempat energi ionisasi. (c) Bila sebuah lubang mula-mula berada di ikatan 1, berapa peluang menemukannya di ikatan 1 setelah waktu $t$?
 
 **Penyelesaian.** (a) $4\tau = 8{,}5$ eV, $\tau = 2{,}125$ eV; $\varepsilon = 14{,}4 + 2{,}125 = 16{,}525$ eV. Dengan Python:
 
@@ -307,20 +307,20 @@ print(np.linalg.eigvalsh(H))      # [14.4 14.4 14.4 22.9]
 :::
 
 ::: {.contoh}
-**Contoh 12.a47 · Invariansi determinan**
+**Contoh 12.47 · Invariansi determinan**
 
-Dua elektron berspin α menempati orbital ortonormal $\phi_1$ dan $\phi_2$. (a) Tulis determinan Slater dan tunjukkan bahwa penggantian $\phi'_{1,2} = (\phi_1 \pm \phi_2)/\sqrt2$ hanya mengalikan determinan dengan $-1$. (b) Hitung $\det\mathbf U$ untuk transformasi (12.e23) dan jelaskan mengapa tandanya tidak penting.
+Dua elektron berspin α menempati orbital ortonormal $\phi_1$ dan $\phi_2$. (a) Tulis determinan Slater dan tunjukkan bahwa penggantian $\phi'_{1,2} = (\phi_1 \pm \phi_2)/\sqrt2$ hanya mengalikan determinan dengan $-1$. (b) Hitung $\det\mathbf U$ untuk transformasi (12.23) dan jelaskan mengapa tandanya tidak penting.
 
 **Penyelesaian.** (a) $\Psi = \tfrac{1}{\sqrt2}[\phi_1(1)\phi_2(2) - \phi_2(1)\phi_1(2)]$. Dengan $\phi'$:
 $\phi'_1(1)\phi'_2(2) - \phi'_2(1)\phi'_1(2) = \tfrac12[(\phi_1 + \phi_2)_1(\phi_1 - \phi_2)_2 - (\phi_1 - \phi_2)_1(\phi_1 + \phi_2)_2]$. Suku $\phi_1\phi_1$ dan $\phi_2\phi_2$ saling meniadakan; yang tersisa $\tfrac12[-2\phi_1(1)\phi_2(2) + 2\phi_2(1)\phi_1(2)] = -[\phi_1(1)\phi_2(2) - \phi_2(1)\phi_1(2)]$. Jadi $\Psi' = -\Psi$, sesuai $\det\mathbf U = \det\tfrac{1}{\sqrt2}\begin{pmatrix}1 & 1\\ 1 & -1\end{pmatrix} = -1$.
 
-\(b) Contoh 12.a16 memberikan $\det\mathbf U = -1$. Fungsi gelombang yang hanya berbeda faktor fase global ($-1$) menggambarkan keadaan fisis yang sama, karena semua besaran teramati bergantung pada $|\Psi|^2$ atau pada $\langle\Psi|\hat A|\Psi\rangle$.
+\(b) Contoh 12.16 memberikan $\det\mathbf U = -1$. Fungsi gelombang yang hanya berbeda faktor fase global ($-1$) menggambarkan keadaan fisis yang sama, karena semua besaran teramati bergantung pada $|\Psi|^2$ atau pada $\langle\Psi|\hat A|\Psi\rangle$.
 
 **Memahami hasil.** Untuk elektron dengan spin yang sama, mencampur orbital-orbital terisi tidak mengubah apa pun. Ini bukan kebetulan aljabar: asas Pauli membuat determinan hanya bergantung pada **ruang** yang direntang oleh orbital-orbital terisi, bukan pada pilihan basis di dalam ruang itu. "Orbital" individual dalam molekul berelektron banyak karena itu tidak mempunyai makna fisis yang tunggal; maknanya baru muncul ketika kita menanyakan besaran tertentu, seperti energi ionisasi.
 :::
 
 ::: {.contoh}
-**Contoh 12.a48 · Pasangan bebas air dalam spektrum fotoelektron**
+**Contoh 12.48 · Pasangan bebas air dalam spektrum fotoelektron**
 
 Dua pasangan bebas setara "telinga kelinci" pada H₂O diionisasi. (a) Dengan model lubang $2 \times 2$, $\begin{pmatrix}\varepsilon' & \tau'\\ \tau' & \varepsilon'\end{pmatrix}$, cari $\varepsilon'$ dan $\tau'$ yang mereproduksi pita $1b_1$ (12,62 eV) dan $3a_1$ (14,74 eV). (b) Kombinasi mana yang sesuai dengan masing-masing pita? (c) Mengapa pita $1b_1$ jauh lebih sempit daripada $3a_1$?
 
@@ -349,7 +349,7 @@ Sebelum teori medan kristal dan medan ligan menjadi umum (Bab 14), Pauling (1931
 Sifat magnet diuji dengan momen magnet efektif. Bila hanya spin yang menyumbang, $n$ elektron tak berpasangan memberi
 
 $$
-\mu_\text{ef} = \sqrt{n(n + 2)}\ \mu_\text{B} , \qquad \text{(12.e44)}
+\mu_\text{ef} = \sqrt{n(n + 2)}\ \mu_\text{B} , \qquad \text{(12.44)}
 $$
 
 yaitu 1,73; 2,83; 3,87; 4,90; 5,92 $\mu_\text{B}$ untuk $n = 1$ sampai 5. Pengukuran kerentanan magnet dengan neraca Gouy dapat membedakan [Fe(CN)₆]³⁻ (satu elektron tak berpasangan) dari [Fe(H₂O)₆]³⁺ (lima), dan [Ni(CN)₄]²⁻ (nol, bujur sangkar) dari [NiCl₄]²⁻ (dua, tetrahedral). Untuk masanya, ini keberhasilan yang mengesankan: satu konsep (hibridisasi) menjelaskan sekaligus geometri dan magnetisme.
@@ -369,13 +369,13 @@ Teori medan ligan (Bab 14), yang menggabungkan teori orbital molekul dengan sime
 
 Untuk senyawa organologam dan hidrida logam transisi, teori ikatan valensi kembali berguna dalam bentuk baru (C. R. Landis dan F. Weinhold, 1990-an). Analisis fungsi gelombang modern menunjukkan bahwa orbital $np$ logam transisi berperan kecil dalam ikatan (mirip peran $d$ pada unsur golongan utama), sehingga orbital valensi yang penting hanyalah $ns$ dan $(n-1)d$. Ikatan logam–ligan karena itu dibentuk oleh hibrida **sd$^n$**.
 
-Sudut antarhibrida sd dapat diturunkan seperti sudut hibrida sp. Hibrida yang paling terarah ke $\mathbf n$ adalah campuran $s$ dan orbital $d_\sigma$ yang simetris silinder di sekitar $\mathbf n$ (yaitu $d_{z^2}$ bila $\mathbf n$ adalah sumbu $z$): $h = \sqrt\alpha\,s + \sqrt{1 - \alpha}\,d_{\sigma}(\mathbf n)$. Analog dengan (12.e8), tumpang tindih dua orbital $d_\sigma$ yang menunjuk ke $\mathbf n_1$ dan $\mathbf n_2$ adalah polinom Legendre $P_2(\cos\theta) = \tfrac12(3\cos^2\theta - 1)$ (teorema penjumlahan harmonik bola, subbab 6.5). Syarat ortogonalitas:
+Sudut antarhibrida sd dapat diturunkan seperti sudut hibrida sp. Hibrida yang paling terarah ke $\mathbf n$ adalah campuran $s$ dan orbital $d_\sigma$ yang simetris silinder di sekitar $\mathbf n$ (yaitu $d_{z^2}$ bila $\mathbf n$ adalah sumbu $z$): $h = \sqrt\alpha\,s + \sqrt{1 - \alpha}\,d_{\sigma}(\mathbf n)$. Analog dengan (12.8), tumpang tindih dua orbital $d_\sigma$ yang menunjuk ke $\mathbf n_1$ dan $\mathbf n_2$ adalah polinom Legendre $P_2(\cos\theta) = \tfrac12(3\cos^2\theta - 1)$ (teorema penjumlahan harmonik bola, subbab 6.5). Syarat ortogonalitas:
 
 $$
-\alpha + (1 - \alpha)\,\tfrac12\left(3\cos^2\theta - 1\right) = 0 . \qquad \text{(12.e45)}
+\alpha + (1 - \alpha)\,\tfrac12\left(3\cos^2\theta - 1\right) = 0 . \qquad \text{(12.45)}
 $$
 
-Untuk hibrida sd$^n$ setara, $\alpha = 1/(n + 1)$. Penyelesaiannya (Contoh 12.a50): sd² memberi 90°; sd³ memberi 70,5° atau 109,5°; sd⁵ memberi 63,4° atau 116,6°. Berbeda dengan hibrida sp, hibrida sd mengizinkan **sudut lancip**, dan tidak pernah memberi 180° (karena $P_2(\cos\theta) \ge -\tfrac12$, sudut 180° memerlukan $P_2 = 1$, yang tidak mungkin dibuat negatif).
+Untuk hibrida sd$^n$ setara, $\alpha = 1/(n + 1)$. Penyelesaiannya (Contoh 12.50): sd² memberi 90°; sd³ memberi 70,5° atau 109,5°; sd⁵ memberi 63,4° atau 116,6°. Berbeda dengan hibrida sp, hibrida sd mengizinkan **sudut lancip**, dan tidak pernah memberi 180° (karena $P_2(\cos\theta) \ge -\tfrac12$, sudut 180° memerlukan $P_2 = 1$, yang tidak mungkin dibuat negatif).
 
 Ramalan yang paling mencolok menyangkut molekul MX₆ dengan logam $d^0$ dan enam ligan σ sederhana, misalnya WH₆ dan W(CH₃)₆. VSEPR (tanpa pasangan bebas) meramalkan oktahedron. Hibrida sd⁵ tidak dapat membentuk sudut 90° dan 180°; mereka menuntut sudut 63,4° dan 116,6°, yang dipenuhi oleh struktur **prisma segitiga** terdistorsi ($C_{3v}$). Struktur W(CH₃)₆ yang ditentukan dengan difraksi elektron dan kristalografi sinar-X memang bukan oktahedron, melainkan prisma segitiga yang terdistorsi, sesuai dengan ramalan ini.
 
@@ -389,10 +389,10 @@ $$
 \text{M}^{-}\!-\!\text{C}\!\equiv\!\text{O}^{+} \;\longleftrightarrow\; \text{M}\!=\!\text{C}\!=\!\text{O} .
 $$
 
-Struktur pertama melukiskan donasi σ dari karbon ke logam; struktur kedua melukiskan **ikatan balik π**: elektron $d$ logam masuk ke orbital π* CO, memperkuat ikatan M–C dan melemahkan ikatan C–O. Makin kaya elektron logamnya, makin besar bobot struktur kedua, dan makin rendah frekuensi ulur C–O. Deret isoelektronik Ni(CO)₄, [Co(CO)₄]⁻, [Fe(CO)₄]²⁻ memperlihatkannya dengan jelas (Contoh 12.a52).
+Struktur pertama melukiskan donasi σ dari karbon ke logam; struktur kedua melukiskan **ikatan balik π**: elektron $d$ logam masuk ke orbital π* CO, memperkuat ikatan M–C dan melemahkan ikatan C–O. Makin kaya elektron logamnya, makin besar bobot struktur kedua, dan makin rendah frekuensi ulur C–O. Deret isoelektronik Ni(CO)₄, [Co(CO)₄]⁻, [Fe(CO)₄]²⁻ memperlihatkannya dengan jelas (Contoh 12.52).
 
 ::: {.contoh}
-**Contoh 12.a49 · Magnetisme dan hibrida Pauling**
+**Contoh 12.49 · Magnetisme dan hibrida Pauling**
 
 Untuk setiap kompleks, tentukan konfigurasi $d$ ion logam, hibrida Pauling, banyaknya elektron tak berpasangan, dan momen magnet spin saja: (a) [Fe(CN)₆]⁴⁻; (b) [Fe(H₂O)₆]²⁺; (c) [Fe(CN)₆]³⁻; (d) [Ni(CN)₄]²⁻; (e) [NiCl₄]²⁻.
 
@@ -402,11 +402,11 @@ Untuk setiap kompleks, tentukan konfigurasi $d$ ion logam, hibrida Pauling, bany
 :::
 
 ::: {.contoh}
-**Contoh 12.a50 · Sudut hibrida sd$^n$**
+**Contoh 12.50 · Sudut hibrida sd$^n$**
 
-Dari (12.e45), hitung sudut antara dua hibrida setara sd², sd³, sd⁴, dan sd⁵. Apakah dua hibrida sd (50% $s$) setara dapat ortogonal?
+Dari (12.45), hitung sudut antara dua hibrida setara sd², sd³, sd⁴, dan sd⁵. Apakah dua hibrida sd (50% $s$) setara dapat ortogonal?
 
-**Penyelesaian.** (12.e45) memberi $P_2(\cos\theta) = -\alpha/(1 - \alpha) = -1/n$, sehingga $\cos^2\theta = (1 - 2/n)/3$.
+**Penyelesaian.** (12.45) memberi $P_2(\cos\theta) = -\alpha/(1 - \alpha) = -1/n$, sehingga $\cos^2\theta = (1 - 2/n)/3$.
 
 * sd² ($n = 2$): $\cos^2\theta = 0$, $\theta = 90°$.
 * sd³ ($n = 3$): $\cos^2\theta = \tfrac19$, $\theta = 70{,}53°$ atau $109{,}47°$.
@@ -419,7 +419,7 @@ Untuk sd ($n = 1$): $\cos^2\theta = -\tfrac13$, tidak mungkin. Dua hibrida sd se
 :::
 
 ::: {.contoh}
-**Contoh 12.a51 · Hibrida dsp² bujur sangkar**
+**Contoh 12.51 · Hibrida dsp² bujur sangkar**
 
 Hibrida bujur sangkar yang menunjuk ke $+x$ adalah $h_{+x} = \tfrac12s + \tfrac{1}{\sqrt2}p_x + \tfrac12d_{x^2-y^2}$, dan yang menunjuk ke $+y$ adalah $h_{+y} = \tfrac12s + \tfrac{1}{\sqrt2}p_y - \tfrac12d_{x^2-y^2}$. (a) Periksa ortonormalitasnya. (b) Hitung "kekuatan" Pauling, dengan amplitudo sudut $d_{x^2-y^2}$ ke arah $+x$ sebesar $\sqrt{15}/2$. (c) Tuliskan $h_{-x}$ dan $h_{-y}$.
 
@@ -429,7 +429,7 @@ Hibrida bujur sangkar yang menunjuk ke $+x$ adalah $h_{+x} = \tfrac12s + \tfrac{
 :::
 
 ::: {.contoh}
-**Contoh 12.a52 · Ikatan balik dan frekuensi C–O**
+**Contoh 12.52 · Ikatan balik dan frekuensi C–O**
 
 Frekuensi ulur C–O: CO bebas 2143 cm⁻¹, Ni(CO)₄ 2057 cm⁻¹, [Co(CO)₄]⁻ 1890 cm⁻¹, [Fe(CO)₄]²⁻ 1790 cm⁻¹. (a) Hitung perbandingan tetapan gaya C–O terhadap CO bebas (anggap massa tereduksi tetap). (b) Tafsirkan dengan struktur resonansi M=C=O.
 

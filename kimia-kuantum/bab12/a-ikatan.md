@@ -48,13 +48,13 @@ Dari Bab 2: vektor dan hasil kali dalam fungsi (subbab 2.6), matriks dan determi
 Pada tahun 1916 G. N. Lewis mengusulkan bahwa ikatan kovalen adalah **sepasang elektron** yang dimiliki bersama oleh dua atom. Sebelas tahun kemudian W. Heitler dan F. London memberi gagasan itu dasar kuantum (subbab 11.11). Untuk molekul H₂ dengan orbital $1s$ atom A dan B, yang kita tulis $a$ dan $b$, fungsi gelombang Heitler–London adalah
 
 $$
-\Psi_\text{HL} = \frac{a(1)b(2) + b(1)a(2)}{\sqrt{2(1 + S^2)}}\cdot\frac{\alpha(1)\beta(2) - \beta(1)\alpha(2)}{\sqrt2} , \qquad \text{(12.e1)}
+\Psi_\text{HL} = \frac{a(1)b(2) + b(1)a(2)}{\sqrt{2(1 + S^2)}}\cdot\frac{\alpha(1)\beta(2) - \beta(1)\alpha(2)}{\sqrt2} , \qquad \text{(12.1)}
 $$
 
 dengan $S = \langle a|b\rangle$ integral tumpang tindih. Bagian ruangnya simetris dan bagian spinnya singlet (antisimetris), sehingga fungsi total antisimetris seperti yang dituntut asas Pauli. Energinya
 
 $$
-E_\text{HL} = \frac{Q + K}{1 + S^2} , \qquad \text{(12.e2)}
+E_\text{HL} = \frac{Q + K}{1 + S^2} , \qquad \text{(12.2)}
 $$
 
 dengan $Q$ integral Coulomb (energi interaksi elektrostatik dua atom yang tidak terganggu) dan $K$ integral pertukaran. Pada jarak ikatan, $K$ bernilai negatif dan jauh lebih besar daripada $Q$; hampir seluruh energi ikatan berasal dari suku pertukaran, yang ada karena elektron tidak dapat dibedakan.
@@ -70,7 +70,7 @@ Tiga pelajaran dari H₂ akan kita bawa ke molekul poliatom:
 Untuk molekul dengan banyak ikatan, misalnya CH₄, gagasan Heitler–London diperluas dengan memasangkan elektron-elektron menurut struktur Lewis. Setiap ikatan A–B mendapat satu orbital $\phi_A$ pada atom A dan satu orbital $\phi_B$ pada atom B, masing-masing berisi satu elektron, dan kedua elektron itu dipasangkan menjadi singlet. Fungsi gelombangnya
 
 $$
-\Psi_\text{PP} = \hat{\mathcal A}\left[\Phi_\text{inti}\prod_{\text{ikatan } k}\left(\phi_{A_k}\phi_{B_k} + \phi_{B_k}\phi_{A_k}\right)(\alpha\beta - \beta\alpha)\right] , \qquad \text{(12.e3)}
+\Psi_\text{PP} = \hat{\mathcal A}\left[\Phi_\text{inti}\prod_{\text{ikatan } k}\left(\phi_{A_k}\phi_{B_k} + \phi_{B_k}\phi_{A_k}\right)(\alpha\beta - \beta\alpha)\right] , \qquad \text{(12.3)}
 $$
 
 dengan $\hat{\mathcal A}$ operator antisimetrisasi (subbab 9.6) yang menjamin asas Pauli untuk seluruh elektron, dan $\Phi_\text{inti}$ fungsi elektron-elektron yang tidak ikut berikatan (elektron inti dan pasangan bebas). Fungsi ini disebut fungsi **pasangan sempurna** (*perfect pairing*). Inilah terjemahan kuantum yang langsung dari struktur Lewis: satu garis ikatan sama dengan satu pasangan singlet Heitler–London.
@@ -78,10 +78,10 @@ dengan $\hat{\mathcal A}$ operator antisimetrisasi (subbab 9.6) yang menjamin as
 Bila kita mengabaikan tumpang tindih antarorbital dari ikatan yang berbeda dan hanya menyimpan integral pertukaran antara orbital-orbital yang bertetangga, energi fungsi pasangan sempurna mempunyai bentuk yang sangat sederhana:
 
 $$
-E_\text{PP} = Q + \sum_{\text{pasangan berikatan}}J_{ij} - \frac12\sum_{\text{pasangan tak berikatan}}J_{ij} , \qquad \text{(12.e4)}
+E_\text{PP} = Q + \sum_{\text{pasangan berikatan}}J_{ij} - \frac12\sum_{\text{pasangan tak berikatan}}J_{ij} , \qquad \text{(12.4)}
 $$
 
-dengan $Q$ jumlah semua integral Coulomb dan $J_{ij}$ integral pertukaran antara orbital $i$ dan $j$ (negatif bila keduanya tumpang tindih). Pasangan yang spinnya dipasangkan menjadi singlet menyumbang $+J_{ij}$ (menurunkan energi); pasangan orbital yang berada dalam ikatan berbeda, sehingga spinnya tidak berkorelasi, menyumbang $-\tfrac12J_{ij}$ (menaikkan energi). Rumus (12.e4) diturunkan dalam kotak berikut; kita akan memakainya lagi untuk resonansi benzena di subbab 12.10.
+dengan $Q$ jumlah semua integral Coulomb dan $J_{ij}$ integral pertukaran antara orbital $i$ dan $j$ (negatif bila keduanya tumpang tindih). Pasangan yang spinnya dipasangkan menjadi singlet menyumbang $+J_{ij}$ (menurunkan energi); pasangan orbital yang berada dalam ikatan berbeda, sehingga spinnya tidak berkorelasi, menyumbang $-\tfrac12J_{ij}$ (menaikkan energi). Rumus (12.4) diturunkan dalam kotak berikut; kita akan memakainya lagi untuk resonansi benzena di subbab 12.10.
 
 ::: {.dalam}
 **Hamiltonian spin Dirac dan aturan pasangan**
@@ -92,7 +92,7 @@ $$
 \hat H_\text{spin} = Q - J\left(\tfrac12 + 2\hat{\mathbf s}_1\cdot\hat{\mathbf s}_2\right) .
 $$
 
-Dirac menunjukkan bahwa untuk banyak elektron dalam orbital-orbital yang hampir ortogonal, satu elektron per orbital, energinya dapat dirumuskan dengan cara yang sama: $\hat H_\text{spin} = Q - \sum_{i<j}J_{ij}\left(\tfrac12 + 2\hat{\mathbf s}_i\cdot\hat{\mathbf s}_j\right)$. Dalam fungsi pasangan sempurna, pasangan yang berikatan adalah singlet, $\langle\hat{\mathbf s}_i\cdot\hat{\mathbf s}_j\rangle = -\tfrac34$, sehingga sumbangannya $-J_{ij}(\tfrac12 - \tfrac32) = +J_{ij}$. Untuk dua elektron dari pasangan yang berbeda, spin-spinnya tidak berkorelasi: $\langle\hat{\mathbf s}_i\cdot\hat{\mathbf s}_j\rangle = 0$, dan sumbangannya $-\tfrac12J_{ij}$. Itulah (12.e4). Hamiltonian ini adalah model Heisenberg yang juga dipakai untuk magnetisme; di sini ia menjadi "mesin hitung" teori ikatan valensi.
+Dirac menunjukkan bahwa untuk banyak elektron dalam orbital-orbital yang hampir ortogonal, satu elektron per orbital, energinya dapat dirumuskan dengan cara yang sama: $\hat H_\text{spin} = Q - \sum_{i<j}J_{ij}\left(\tfrac12 + 2\hat{\mathbf s}_i\cdot\hat{\mathbf s}_j\right)$. Dalam fungsi pasangan sempurna, pasangan yang berikatan adalah singlet, $\langle\hat{\mathbf s}_i\cdot\hat{\mathbf s}_j\rangle = -\tfrac34$, sehingga sumbangannya $-J_{ij}(\tfrac12 - \tfrac32) = +J_{ij}$. Untuk dua elektron dari pasangan yang berbeda, spin-spinnya tidak berkorelasi: $\langle\hat{\mathbf s}_i\cdot\hat{\mathbf s}_j\rangle = 0$, dan sumbangannya $-\tfrac12J_{ij}$. Itulah (12.4). Hamiltonian ini adalah model Heisenberg yang juga dipakai untuk magnetisme; di sini ia menjadi "mesin hitung" teori ikatan valensi.
 :::
 
 ### Valensi dan elektron tak berpasangan
@@ -102,10 +102,10 @@ Menurut fungsi pasangan sempurna, sebuah atom dapat membentuk ikatan sebanyak el
 Untuk karbon teori ini tersandung. Keadaan dasar $2s^22p^2$ ($^3P$) hanya mempunyai dua elektron tak berpasangan. Agar bervalensi empat, satu elektron $2s$ harus dipindahkan ke orbital $2p$ yang kosong:
 
 $$
-\text{C}\ (2s^22p^2,\ ^3P) \longrightarrow \text{C}\ (2s^12p^3,\ ^5S) , \qquad \Delta E = 4{,}18\ \text{eV} = 404\ \text{kJ/mol} . \qquad \text{(12.e5)}
+\text{C}\ (2s^22p^2,\ ^3P) \longrightarrow \text{C}\ (2s^12p^3,\ ^5S) , \qquad \Delta E = 4{,}18\ \text{eV} = 404\ \text{kJ/mol} . \qquad \text{(12.5)}
 $$
 
-Langkah ini disebut **promosi**. Promosi mahal, tetapi ia membuka dua ikatan tambahan, dan setiap ikatan C–H melepaskan sekitar 400 kJ/mol. Neraca energinya jelas menguntungkan (Contoh 12.a1). Gagasan yang sama menjelaskan valensi berilium (dua, padahal $2s^2$ tidak mempunyai elektron tak berpasangan) dan boron (tiga, padahal $2s^22p^1$ hanya satu).
+Langkah ini disebut **promosi**. Promosi mahal, tetapi ia membuka dua ikatan tambahan, dan setiap ikatan C–H melepaskan sekitar 400 kJ/mol. Neraca energinya jelas menguntungkan (Contoh 12.1). Gagasan yang sama menjelaskan valensi berilium (dua, padahal $2s^2$ tidak mempunyai elektron tak berpasangan) dan boron (tiga, padahal $2s^22p^1$ hanya satu).
 
 ::: {.awas}
 **Awas · Promosi adalah pembukuan, bukan peristiwa**
@@ -120,7 +120,7 @@ Promosi menyelesaikan masalah jumlah ikatan, tetapi menimbulkan masalah baru. Ji
 Masalah yang sama tampak pada air. Bila oksigen memakai dua orbital $2p$ untuk berikatan dengan dua atom H, sudut H–O–H seharusnya 90°. Percobaan memberikan 104,5°. Pada H₂S (92,1°), H₂Se (90,6°), dan H₂Te (90,3°) ramalan 90° hampir tepat. Mengapa atom-atom periode 2 "menyimpang" dan atom-atom yang lebih berat tidak? Jawaban atas kedua teka-teki ini adalah **hibridisasi**, yang dibahas mulai subbab 12.2; perbedaan antara O dan S dibahas di subbab 12.6.
 
 ::: {.contoh}
-**Contoh 12.a1 · Apakah promosi karbon menguntungkan?**
+**Contoh 12.1 · Apakah promosi karbon menguntungkan?**
 
 Gunakan entalpi pembentukan gas pada 298 K: $\Delta_fH^\circ$(C) $= 716{,}68$ kJ/mol, $\Delta_fH^\circ$(H) $= 218{,}00$ kJ/mol, $\Delta_fH^\circ$(CH₄) $= -74{,}87$ kJ/mol, dan $\Delta_fH^\circ$(CH₂, triplet) $\approx 390{,}4$ kJ/mol. (a) Hitung entalpi atomisasi CH₄ dan CH₂. (b) Berapa energi yang dilepaskan bila CH₂ mengikat dua atom H lagi? Bandingkan dengan biaya promosi.
 
@@ -132,7 +132,7 @@ Gunakan entalpi pembentukan gas pada 298 K: $\Delta_fH^\circ$(C) $= 716{,}68$ kJ
 :::
 
 ::: {.contoh}
-**Contoh 12.a2 · Valensi atom periode 2**
+**Contoh 12.2 · Valensi atom periode 2**
 
 Tentukan konfigurasi dan banyaknya elektron tak berpasangan dalam keadaan dasar Be, B, C, N, O, F, lalu ramalkan valensinya. Atom mana yang memerlukan promosi agar sesuai dengan valensi yang teramati (BeH₂, BF₃, CH₄)? Hitung biaya promosi Be ($2s^2 \to 2s2p$, $^3P$, 21 978 cm⁻¹) dan B ($2s^22p \to 2s2p^2$, $^4P$, sekitar 28 800 cm⁻¹) dalam eV dan kJ/mol.
 
@@ -142,9 +142,9 @@ Tentukan konfigurasi dan banyaknya elektron tak berpasangan dalam keadaan dasar 
 :::
 
 ::: {.contoh}
-**Contoh 12.a3 · Energi pasangan sempurna air dengan orbital p murni**
+**Contoh 12.3 · Energi pasangan sempurna air dengan orbital p murni**
 
-Dalam model paling sederhana, oksigen memakai $2p_x$ dan $2p_y$ untuk berikatan dengan H₁ dan H₂. Tuliskan energi pasangan sempurna menurut (12.e4), dengan menyimpan pertukaran O–H dan H···H. Mengapa model ini meramalkan sudut sedikit lebih besar dari 90°?
+Dalam model paling sederhana, oksigen memakai $2p_x$ dan $2p_y$ untuk berikatan dengan H₁ dan H₂. Tuliskan energi pasangan sempurna menurut (12.4), dengan menyimpan pertukaran O–H dan H···H. Mengapa model ini meramalkan sudut sedikit lebih besar dari 90°?
 
 **Penyelesaian.** Pasangan berikatan: $(p_x, 1s_1)$ dan $(p_y, 1s_2)$. Pasangan tak berikatan yang bertetangga: $(p_x, 1s_2)$, $(p_y, 1s_1)$, dan $(1s_1, 1s_2)$. Maka
 
@@ -158,7 +158,7 @@ Pada sudut 90°, H₂ terletak di bidang simpul $p_x$ sehingga $J_{x2} = 0$, dan
 :::
 
 ::: {.contoh}
-**Contoh 12.a4 · Berapa banyak cara memasangkan elektron?**
+**Contoh 12.4 · Berapa banyak cara memasangkan elektron?**
 
 Untuk $n$ elektron (satu per orbital) dengan spin total $S$, banyaknya fungsi spin yang bebas linear adalah
 
@@ -188,7 +188,7 @@ Pada atom hidrogen, orbital $2s$, $2p_x$, $2p_y$, dan $2p_z$ berdegenerasi, sehi
 Untuk atom dengan orbital $s$ dan tiga orbital $p$ yang ortonormal, hibrida yang paling umum adalah
 
 $$
-h = c_s\,s + c_x\,p_x + c_y\,p_y + c_z\,p_z , \qquad c_s^2 + c_x^2 + c_y^2 + c_z^2 = 1 . \qquad \text{(12.e6)}
+h = c_s\,s + c_x\,p_x + c_y\,p_y + c_z\,p_z , \qquad c_s^2 + c_x^2 + c_y^2 + c_z^2 = 1 . \qquad \text{(12.6)}
 $$
 
 Syarat kedua adalah normalisasi: karena keempat orbital atom ortonormal, $\langle h|h\rangle = \sum c^2$.
@@ -198,69 +198,69 @@ Syarat kedua adalah normalisasi: karena keempat orbital atom ortonormal, $\langl
 Orbital $p$ riil berbentuk $p_x = x\,f(r)$, $p_y = y\,f(r)$, $p_z = z\,f(r)$, dengan $f(r)$ fungsi radial yang sama untuk ketiganya (subbab 7.7). Ambil vektor satuan $\mathbf n = (n_x, n_y, n_z)$. Kombinasi
 
 $$
-p_\mathbf n = n_xp_x + n_yp_y + n_zp_z = (\mathbf n\cdot\mathbf r)\,f(r) \qquad \text{(12.e7)}
+p_\mathbf n = n_xp_x + n_yp_y + n_zp_z = (\mathbf n\cdot\mathbf r)\,f(r) \qquad \text{(12.7)}
 $$
 
 adalah orbital $p$ yang persis sama bentuknya dengan $p_z$, hanya sumbunya menunjuk ke arah $\mathbf n$: $\mathbf n\cdot\mathbf r = r\cos\gamma$, dengan $\gamma$ sudut antara $\mathbf r$ dan $\mathbf n$. Tumpang tindih dua orbital $p$ berarah adalah
 
 $$
-\langle p_\mathbf n|p_\mathbf m\rangle = n_xm_x + n_ym_y + n_zm_z = \mathbf n\cdot\mathbf m = \cos\theta_{\mathbf{nm}} , \qquad \text{(12.e8)}
+\langle p_\mathbf n|p_\mathbf m\rangle = n_xm_x + n_ym_y + n_zm_z = \mathbf n\cdot\mathbf m = \cos\theta_{\mathbf{nm}} , \qquad \text{(12.8)}
 $$
 
 karena $\langle p_x|p_y\rangle = 0$ dan seterusnya. Hasil kecil ini adalah kunci seluruh bab: **tumpang tindih dua orbital $p$ pada atom yang sama sama dengan kosinus sudut antara sumbunya.**
 
-Dengan (12.e7), setiap hibrida (12.e6) dapat ditulis ulang sebagai campuran satu orbital $s$ dan satu orbital $p$ yang menunjuk ke arah tertentu:
+Dengan (12.7), setiap hibrida (12.6) dapat ditulis ulang sebagai campuran satu orbital $s$ dan satu orbital $p$ yang menunjuk ke arah tertentu:
 
 $$
-h = \sqrt\alpha\,s + \sqrt{1 - \alpha}\,p_\mathbf n , \qquad \alpha = c_s^2 , \qquad \mathbf n = \frac{(c_x, c_y, c_z)}{\sqrt{1 - \alpha}} . \qquad \text{(12.e9)}
+h = \sqrt\alpha\,s + \sqrt{1 - \alpha}\,p_\mathbf n , \qquad \alpha = c_s^2 , \qquad \mathbf n = \frac{(c_x, c_y, c_z)}{\sqrt{1 - \alpha}} . \qquad \text{(12.9)}
 $$
 
 Bilangan $\alpha$ disebut **karakter $s$** (fraksi $s$) hibrida, dan $1 - \alpha$ karakter $p$-nya. Notasi kimia yang lazim adalah sp$^{\lambda^2}$, dengan
 
 $$
-h = \frac{s + \lambda\,p_\mathbf n}{\sqrt{1 + \lambda^2}} , \qquad \alpha = \frac{1}{1 + \lambda^2} , \qquad \lambda^2 = \frac{1 - \alpha}{\alpha} . \qquad \text{(12.e10)}
+h = \frac{s + \lambda\,p_\mathbf n}{\sqrt{1 + \lambda^2}} , \qquad \alpha = \frac{1}{1 + \lambda^2} , \qquad \lambda^2 = \frac{1 - \alpha}{\alpha} . \qquad \text{(12.10)}
 $$
 
 Jadi sp berarti $\lambda^2 = 1$ ($\alpha = \tfrac12$, 50% $s$), sp² berarti $\lambda^2 = 2$ (33,3% $s$), sp³ berarti $\lambda^2 = 3$ (25% $s$). Pangkat tidak harus bulat: hibrida dengan 20% $s$ adalah sp⁴, dengan 30% $s$ adalah sp$^{2,33}$.
 
 ### Mengapa hibrida lebih terarah
 
-Bagian sudut orbital $s$ adalah $1/\sqrt{4\pi}$ ke semua arah; bagian sudut orbital $p_\mathbf n$ adalah $\sqrt{3/4\pi}\cos\gamma$. Dalam hibrida (12.e9), kedua bagian itu saling menguatkan di sisi $\gamma = 0$ (tempat $\cos\gamma > 0$) dan saling melemahkan di sisi $\gamma = 180°$. Hasilnya adalah orbital dengan satu cuping besar yang menunjuk ke arah $\mathbf n$ dan cuping kecil di belakang (Gambar 12.g1). Cuping besar itulah yang diarahkan ke atom tetangga.
+Bagian sudut orbital $s$ adalah $1/\sqrt{4\pi}$ ke semua arah; bagian sudut orbital $p_\mathbf n$ adalah $\sqrt{3/4\pi}\cos\gamma$. Dalam hibrida (12.9), kedua bagian itu saling menguatkan di sisi $\gamma = 0$ (tempat $\cos\gamma > 0$) dan saling melemahkan di sisi $\gamma = 180°$. Hasilnya adalah orbital dengan satu cuping besar yang menunjuk ke arah $\mathbf n$ dan cuping kecil di belakang (Gambar 12.1). Cuping besar itulah yang diarahkan ke atom tetangga.
 
-![Gambar 12.g1 Penampang orbital $2s$, $2p_z$, dan orbital hibrida dengan karakter $s$ berbeda pada bidang $xz$ (fungsi hidrogenik dengan $Z = 3{,}25$, sesuai muatan efektif karbon). Biru: positif; jingga: negatif; garis putus-putus: permukaan simpul. Makin besar karakter $s$, makin besar cuping depan relatif terhadap cuping belakang, dan makin terbuka permukaan simpulnya.](fig/c_hibrida.png){width=88%}
+![Gambar 12.1 Penampang orbital $2s$, $2p_z$, dan orbital hibrida dengan karakter $s$ berbeda pada bidang $xz$ (fungsi hidrogenik dengan $Z = 3{,}25$, sesuai muatan efektif karbon). Biru: positif; jingga: negatif; garis putus-putus: permukaan simpul. Makin besar karakter $s$, makin besar cuping depan relatif terhadap cuping belakang, dan makin terbuka permukaan simpulnya.](fig/c_hibrida.png){width=88%}
 
-Pauling mengusulkan ukuran sederhana untuk "daya ikat" sebuah orbital: besar bagian sudutnya ke arah ikatan, dinormalisasi sehingga orbital $s$ bernilai 1. Dengan satuan ini, orbital $p$ bernilai $\sqrt3$ ke arah sumbunya, dan hibrida (12.e9) bernilai
+Pauling mengusulkan ukuran sederhana untuk "daya ikat" sebuah orbital: besar bagian sudutnya ke arah ikatan, dinormalisasi sehingga orbital $s$ bernilai 1. Dengan satuan ini, orbital $p$ bernilai $\sqrt3$ ke arah sumbunya, dan hibrida (12.9) bernilai
 
 $$
-f(\alpha) = \sqrt\alpha + \sqrt{3(1 - \alpha)} . \qquad \text{(12.e11)}
+f(\alpha) = \sqrt\alpha + \sqrt{3(1 - \alpha)} . \qquad \text{(12.11)}
 $$
 
 Turunannya terhadap $\alpha$ adalah $\dfrac{1}{2\sqrt\alpha} - \dfrac{\sqrt3}{2\sqrt{1 - \alpha}}$; nol bila $(1 - \alpha)/\alpha = 3$, yaitu $\alpha = \tfrac14$. Pada titik itu $f = \tfrac12 + \tfrac32 = 2$. **Hibrida sp³ adalah hibrida $s$–$p$ yang paling terarah.** Nilai-nilai lainnya: $s$ 1, $p$ 1,732, sp 1,932, sp² 1,992, sp³ 2,000.
 
 ### Tumpang tindih yang sebenarnya
 
-Ukuran Pauling hanya melihat bagian sudut. Yang benar-benar menentukan kekuatan ikatan adalah integral tumpang tindih dengan orbital atom tetangga, yang bergantung juga pada bagian radial dan jarak antarinti. Karena tumpang tindih bersifat linear dalam orbital, tumpang tindih hibrida (12.e9) dengan orbital $1s$ hidrogen yang terletak pada sumbu $\mathbf n$ adalah
+Ukuran Pauling hanya melihat bagian sudut. Yang benar-benar menentukan kekuatan ikatan adalah integral tumpang tindih dengan orbital atom tetangga, yang bergantung juga pada bagian radial dan jarak antarinti. Karena tumpang tindih bersifat linear dalam orbital, tumpang tindih hibrida (12.9) dengan orbital $1s$ hidrogen yang terletak pada sumbu $\mathbf n$ adalah
 
 $$
-S(\alpha) = \sqrt\alpha\,S_s + \sqrt{1 - \alpha}\,S_{p\sigma} , \qquad \text{(12.e12)}
+S(\alpha) = \sqrt\alpha\,S_s + \sqrt{1 - \alpha}\,S_{p\sigma} , \qquad \text{(12.12)}
 $$
 
 dengan $S_s = \langle s|1s_\text{H}\rangle$ dan $S_{p\sigma} = \langle p_\mathbf n|1s_\text{H}\rangle$. Dengan cara yang sama seperti pada $f(\alpha)$, maksimum $S(\alpha)$ terletak pada
 
 $$
-\alpha^* = \frac{S_s^2}{S_s^2 + S_{p\sigma}^2} , \qquad S_\text{maks} = \sqrt{S_s^2 + S_{p\sigma}^2} . \qquad \text{(12.e13)}
+\alpha^* = \frac{S_s^2}{S_s^2 + S_{p\sigma}^2} , \qquad S_\text{maks} = \sqrt{S_s^2 + S_{p\sigma}^2} . \qquad \text{(12.13)}
 $$
 
-Untuk ikatan C–H, nilai $S_s$ dan $S_{p\sigma}$ dapat dihitung dengan orbital Slater (Contoh 12.a6). Gambar 12.g2 menunjukkan $S$ sebagai fungsi karakter $s$ untuk ikatan C–H dan C–C. Semua kurva berbentuk kubah: tumpang tindih naik tajam ketika sedikit $s$ dicampurkan ke $p$, mencapai maksimum di sekitar 50–60% $s$, lalu turun lagi.
+Untuk ikatan C–H, nilai $S_s$ dan $S_{p\sigma}$ dapat dihitung dengan orbital Slater (Contoh 12.6). Gambar 12.2 menunjukkan $S$ sebagai fungsi karakter $s$ untuk ikatan C–H dan C–C. Semua kurva berbentuk kubah: tumpang tindih naik tajam ketika sedikit $s$ dicampurkan ke $p$, mencapai maksimum di sekitar 50–60% $s$, lalu turun lagi.
 
-![Gambar 12.g2 Integral tumpang tindih hibrida karbon dengan orbital $1s$ hidrogen (C–H, 109 pm) dan antara dua hibrida karbon yang setara pada tiga jarak C–C, sebagai fungsi karakter $s$ (orbital Slater, $\zeta_\text{C} = 1{,}625$, $\zeta_\text{H} = 1{,}0$). Titik menandai maksimum. Makin pendek ikatan C–C, makin besar karakter $s$ yang memaksimumkan tumpang tindih.](fig/c_tumpang.png){width=78%}
+![Gambar 12.2 Integral tumpang tindih hibrida karbon dengan orbital $1s$ hidrogen (C–H, 109 pm) dan antara dua hibrida karbon yang setara pada tiga jarak C–C, sebagai fungsi karakter $s$ (orbital Slater, $\zeta_\text{C} = 1{,}625$, $\zeta_\text{H} = 1{,}0$). Titik menandai maksimum. Makin pendek ikatan C–C, makin besar karakter $s$ yang memaksimumkan tumpang tindih.](fig/c_tumpang.png){width=78%}
 
 ### Karakter s adalah sumber daya yang terbatas
 
 Jika satu ikatan C–H sendirian "menginginkan" sekitar 60% $s$, mengapa ikatan C–H metana hanya mendapat 25%? Karena atom karbon hanya mempunyai **satu** orbital $s$. Bila empat hibrida $h_i = \sqrt{\alpha_i}\,s + \sqrt{1 - \alpha_i}\,p_i$ dibentuk dari satu $s$ dan tiga $p$, transformasi dari $\{s, p_x, p_y, p_z\}$ ke $\{h_1, h_2, h_3, h_4\}$ harus mempertahankan ortonormalitas, sehingga matriks koefisiennya ortogonal (subbab 2.7). Kolom-kolom matriks ortogonal juga ternormalisasi; kolom $s$ memberikan
 
 $$
-\sum_i\alpha_i = 1 , \qquad \sum_i(1 - \alpha_i) = 3 . \qquad \text{(12.e14)}
+\sum_i\alpha_i = 1 , \qquad \sum_i(1 - \alpha_i) = 3 . \qquad \text{(12.14)}
 $$
 
 Satu orbital $s$ dibagi habis di antara keempat hibrida; demikian pula ketiga orbital $p$. Ini adalah **kekekalan orbital**: hibridisasi tidak menciptakan atau menghilangkan orbital, hanya membagi ulang.
@@ -277,31 +277,31 @@ Persamaan ini sama untuk setiap $i$, dan ruas kirinya fungsi monoton dari $\alph
 
 Hibrida-hibrida pada atom yang sama harus saling ortogonal. Alasannya fisis, bukan sekadar kerapian matematika. Bila dua hibrida pada atom yang sama tumpang tindih, dua pasangan elektron dalam ikatan yang berbeda akan menempati daerah ruang yang sama; asas Pauli kemudian memaksa fungsi gelombang menaikkan energi kinetiknya (tolakan Pauli). Hibrida yang ortogonal adalah cara paling murah untuk menempatkan beberapa pasangan elektron di sekitar satu atom.
 
-Ambil dua hibrida $h_i = \sqrt{\alpha_i}\,s + \sqrt{1 - \alpha_i}\,p_{\mathbf n_i}$ dan $h_j$ dengan arah $\mathbf n_j$. Dengan (12.e8),
+Ambil dua hibrida $h_i = \sqrt{\alpha_i}\,s + \sqrt{1 - \alpha_i}\,p_{\mathbf n_i}$ dan $h_j$ dengan arah $\mathbf n_j$. Dengan (12.8),
 
 $$
-\langle h_i|h_j\rangle = \sqrt{\alpha_i\alpha_j} + \sqrt{(1 - \alpha_i)(1 - \alpha_j)}\cos\theta_{ij} = 0 , \qquad \text{(12.e15)}
+\langle h_i|h_j\rangle = \sqrt{\alpha_i\alpha_j} + \sqrt{(1 - \alpha_i)(1 - \alpha_j)}\cos\theta_{ij} = 0 , \qquad \text{(12.15)}
 $$
 
 dengan $\theta_{ij}$ sudut antara $\mathbf n_i$ dan $\mathbf n_j$. Maka
 
 $$
-\boxed{\ \cos\theta_{ij} = -\left[\frac{\alpha_i\alpha_j}{(1 - \alpha_i)(1 - \alpha_j)}\right]^{1/2} = -\frac{1}{\lambda_i\lambda_j}\ } \qquad \text{(12.e16)}
+\boxed{\ \cos\theta_{ij} = -\left[\frac{\alpha_i\alpha_j}{(1 - \alpha_i)(1 - \alpha_j)}\right]^{1/2} = -\frac{1}{\lambda_i\lambda_j}\ } \qquad \text{(12.16)}
 $$
 
 Bentuk kedua, $1 + \lambda_i\lambda_j\cos\theta_{ij} = 0$, dikenal sebagai **teorema Coulson**. Untuk dua hibrida yang setara ($\alpha_i = \alpha_j = \alpha$):
 
 $$
-\cos\theta = -\frac{\alpha}{1 - \alpha} = -\frac{1}{\lambda^2} . \qquad \text{(12.e17)}
+\cos\theta = -\frac{\alpha}{1 - \alpha} = -\frac{1}{\lambda^2} . \qquad \text{(12.17)}
 $$
 
-Persamaan sederhana ini memuat seluruh geometri hibridisasi $s$–$p$. Gambar 12.g3 melukiskannya.
+Persamaan sederhana ini memuat seluruh geometri hibridisasi $s$–$p$. Gambar 12.3 melukiskannya.
 
-![Gambar 12.g3 Sudut antara dua hibrida setara terhadap karakter $s$-nya, menurut (12.e17). Titik bulat: hibrida baku sp³, sp², sp. Titik persegi: karakter $s$ hibrida ikatan yang dibaca dari sudut ikatan teramati H₂O, NH₃, PH₃, dan H₂S. Hibrida yang hanya memuat $s$ dan $p$ tidak pernah membentuk sudut kurang dari 90°.](fig/c_sudut.png){width=72%}
+![Gambar 12.3 Sudut antara dua hibrida setara terhadap karakter $s$-nya, menurut (12.17). Titik bulat: hibrida baku sp³, sp², sp. Titik persegi: karakter $s$ hibrida ikatan yang dibaca dari sudut ikatan teramati H₂O, NH₃, PH₃, dan H₂S. Hibrida yang hanya memuat $s$ dan $p$ tidak pernah membentuk sudut kurang dari 90°.](fig/c_sudut.png){width=72%}
 
-Tiga akibat langsung dari (12.e16):
+Tiga akibat langsung dari (12.16):
 
-1. **Sudut antarhibrida $s$–$p$ selalu ≥ 90°.** Ruas kanan (12.e16) tidak pernah positif. Hibrida yang membentuk sudut lancip mustahil; inilah sebabnya cincin beranggota tiga dan empat mempunyai "ikatan bengkok" (subbab 12.5).
+1. **Sudut antarhibrida $s$–$p$ selalu ≥ 90°.** Ruas kanan (12.16) tidak pernah positif. Hibrida yang membentuk sudut lancip mustahil; inilah sebabnya cincin beranggota tiga dan empat mempunyai "ikatan bengkok" (subbab 12.5).
 2. **Makin besar karakter $s$, makin besar sudutnya.** 25% → 109,47°, 33,3% → 120°, 50% → 180°.
 3. **Sudut dapat dibaca menjadi karakter $s$**, dan sebaliknya. Dari sudut H–X–H yang terukur, kita dapat menghitung susunan hibrida (subbab 12.6).
 
@@ -322,7 +322,7 @@ Kalimat "metana tetrahedral karena karbonnya terhibridisasi sp³" membalik sebab
 :::
 
 ::: {.contoh}
-**Contoh 12.a5 · "Kekuatan ikatan" Pauling**
+**Contoh 12.5 · "Kekuatan ikatan" Pauling**
 
 Hitung $f(\alpha) = \sqrt\alpha + \sqrt{3(1 - \alpha)}$ untuk $s$, sp, sp², sp³, dan $p$, dan tunjukkan bahwa maksimumnya terjadi pada sp³. Berapa perbandingan cuping depan terhadap cuping belakang (dalam bagian sudut) untuk sp, sp², dan sp³?
 
@@ -334,19 +334,19 @@ Ke arah belakang ($\gamma = 180°$) amplitudo sudutnya $|\sqrt\alpha - \sqrt{3(1
 :::
 
 ::: {.contoh}
-**Contoh 12.a6 · Tumpang tindih C–H dengan orbital Slater**
+**Contoh 12.6 · Tumpang tindih C–H dengan orbital Slater**
 
 Dengan orbital Slater $2s$ dan $2p$ karbon ($\zeta = 1{,}625$) dan $1s$ hidrogen ($\zeta = 1{,}0$) pada jarak 109 pm, integral numeriknya $S_s = 0{,}570$ dan $S_{p\sigma} = 0{,}466$. (a) Hitung tumpang tindih hibrida sp³, sp², sp, dan $p$ dengan $1s_\text{H}$. (b) Pada karakter $s$ berapa tumpang tindih maksimum, dan berapa nilainya?
 
-**Penyelesaian.** (a) Dengan (12.e12): $p$: 0,466. sp³: $0{,}5(0{,}570) + 0{,}866(0{,}466) = 0{,}689$. sp²: $0{,}577(0{,}570) + 0{,}816(0{,}466) = 0{,}710$. sp: $0{,}707(0{,}570) + 0{,}707(0{,}466) = 0{,}733$.
+**Penyelesaian.** (a) Dengan (12.12): $p$: 0,466. sp³: $0{,}5(0{,}570) + 0{,}866(0{,}466) = 0{,}689$. sp²: $0{,}577(0{,}570) + 0{,}816(0{,}466) = 0{,}710$. sp: $0{,}707(0{,}570) + 0{,}707(0{,}466) = 0{,}733$.
 
-\(b) Dengan (12.e13): $\alpha^* = 0{,}570^2/(0{,}570^2 + 0{,}466^2) = 0{,}600$ dan $S_\text{maks} = 0{,}736$.
+\(b) Dengan (12.13): $\alpha^* = 0{,}570^2/(0{,}570^2 + 0{,}466^2) = 0{,}600$ dan $S_\text{maks} = 0{,}736$.
 
 **Memahami hasil.** Mencampurkan 25% $s$ ke dalam orbital $p$ menaikkan tumpang tindih dari 0,47 menjadi 0,69, hampir 50%. Inilah keuntungan utama hibridisasi. Bila satu ikatan C–H boleh memilih sendiri, ia akan mengambil 60% $s$; dalam metana empat ikatan harus berbagi satu orbital $s$, dan pembagian yang memaksimumkan jumlah tumpang tindih adalah pembagian rata. Perhatikan juga bahwa orbital Slater $2s$ tidak mempunyai simpul radial, sehingga angka-angka ini hanya ilustrasi; perhitungan dengan orbital yang lebih baik memberikan pola yang sama.
 :::
 
 ::: {.contoh}
-**Contoh 12.a7 · Membaca sebuah hibrida**
+**Contoh 12.7 · Membaca sebuah hibrida**
 
 Sebuah hibrida karbon adalah $h = 0{,}55\,s + 0{,}48\,p_x + 0{,}48\,p_y + 0{,}48\,p_z$. (a) Apakah ia ternormalisasi? (b) Tentukan karakter $s$, notasi sp$^{\lambda^2}$, dan arah cuping besarnya. (c) Berapa sudut antara $h$ dan hibrida setara yang menunjuk ke arah $(1, -1, -1)$?
 
@@ -356,15 +356,15 @@ Sebuah hibrida karbon adalah $h = 0{,}55\,s + 0{,}48\,p_x + 0{,}48\,p_y + 0{,}48
 
 \(c) Sudut antara $(1, 1, 1)$ dan $(1, -1, -1)$ adalah $\arccos(-\tfrac13) = 109{,}47°$. Tumpang tindih kedua hibrida: $\alpha + (1 - \alpha)\cos\theta = 0{,}304 + 0{,}696(-\tfrac13) = 0{,}072 \ne 0$.
 
-**Memahami hasil.** Dua hibrida dengan 30% $s$ tidak dapat saling ortogonal pada sudut tetrahedral; menurut (12.e17) mereka memerlukan $\cos\theta = -0{,}304/0{,}696$, yaitu 116,0°. Lagi pula, empat hibrida dengan 30% $s$ akan memerlukan $4 \times 0{,}304 = 1{,}22$ orbital $s$, lebih dari yang tersedia. Hibrida seperti ini hanya dapat muncul bila hibrida-hibrida lainnya pada atom yang sama mempunyai karakter $s$ lebih kecil (subbab 12.6).
+**Memahami hasil.** Dua hibrida dengan 30% $s$ tidak dapat saling ortogonal pada sudut tetrahedral; menurut (12.17) mereka memerlukan $\cos\theta = -0{,}304/0{,}696$, yaitu 116,0°. Lagi pula, empat hibrida dengan 30% $s$ akan memerlukan $4 \times 0{,}304 = 1{,}22$ orbital $s$, lebih dari yang tersedia. Hibrida seperti ini hanya dapat muncul bila hibrida-hibrida lainnya pada atom yang sama mempunyai karakter $s$ lebih kecil (subbab 12.6).
 :::
 
 ::: {.contoh}
-**Contoh 12.a8 · Kekekalan orbital**
+**Contoh 12.8 · Kekekalan orbital**
 
 (a) Dapatkah karbon membentuk empat hibrida yang masing-masing 30% $s$? (b) Sebuah atom membentuk dua hibrida ikatan setara dengan sudut 104,5° di antara keduanya. Berapa karakter $s$ yang tersisa untuk orbital-orbital lain? (c) Bila sisa itu dibagi rata ke dua pasangan bebas setara, berapa sudut di antara keduanya?
 
-**Penyelesaian.** (a) Tidak: $\sum\alpha_i = 1{,}2 > 1$. (b) Dari (12.e17), $\alpha = -\cos\theta/(1 - \cos\theta) = 0{,}2504/1{,}2504 = 0{,}200$. Kedua ikatan memakai 0,400; sisanya 0,600. (c) Setiap pasangan bebas mendapat 0,300, dan sudutnya $\arccos(-0{,}300/0{,}700) = 115{,}4°$.
+**Penyelesaian.** (a) Tidak: $\sum\alpha_i = 1{,}2 > 1$. (b) Dari (12.17), $\alpha = -\cos\theta/(1 - \cos\theta) = 0{,}2504/1{,}2504 = 0{,}200$. Kedua ikatan memakai 0,400; sisanya 0,600. (c) Setiap pasangan bebas mendapat 0,300, dan sudutnya $\arccos(-0{,}300/0{,}700) = 115{,}4°$.
 
 **Memahami hasil.** Inilah air (subbab 12.6): ikatan O–H mendapat sedikit karakter $s$, dan pasangan bebas mendapat banyak. Sudut 115,4° antara kedua pasangan bebas lebih besar daripada sudut 104,5° antara kedua ikatan, sesuai dengan gagasan VSEPR bahwa pasangan bebas "lebih gemuk" (subbab 12.11). Perlu dicatat bahwa pembagian rata ini bukan satu-satunya pilihan; subbab 12.6 dan 12.13 membahas alternatifnya.
 :::
