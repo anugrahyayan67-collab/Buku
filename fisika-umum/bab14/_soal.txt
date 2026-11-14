@@ -1,0 +1,121 @@
+## Subbab 14.2: Gaya magnet pada muatan bergerak
+
+> Gunakan $e = 1{,}602 \times 10^{-19}$ C, $m_e = 9{,}109 \times 10^{-31}$ kg, $m_p = 1{,}673 \times 10^{-27}$ kg, 1 u $= 1{,}6605 \times 10^{-27}$ kg, $\mu_0 = 4\pi \times 10^{-7}$ T·m/A, $\mu_B = 9{,}274 \times 10^{-24}$ J/T, $h = 6{,}626 \times 10^{-34}$ J·s $= 4{,}136 \times 10^{-15}$ eV·s, $c = 2{,}998 \times 10^8$ m/s, dan $k_BT = 4{,}11 \times 10^{-21}$ J pada 298 K.
+
+Elektron bergerak $5{,}0 \times 10^6$ m/s tegak lurus medan 0,20 T. Berapa gaya padanya? ||| $1{,}6 \times 10^{-13}$ N
+Partikel alfa (muatan $2e$) bergerak $1{,}0 \times 10^7$ m/s membentuk sudut 45° dengan medan 1,2 T. Berapa gaya padanya? ||| $2{,}7 \times 10^{-12}$ N
+Proton berkelajuan $4{,}0 \times 10^5$ m/s tegak lurus medan mengalami gaya $3{,}2 \times 10^{-14}$ N. Berapa medannya? ||| 0,50 T
+Medan magnet berarah ke atas. Ke mana arah gaya pada elektron yang bergerak ke utara? ||| ke timur
+Proton bergerak ke timur dan mengalami gaya ke bawah. Ke mana arah medan magnetnya (anggap tegak lurus kecepatan)? ||| ke selatan
+
+## Subbab 14.3: Gerak dalam medan magnet
+
+Proton berkelajuan $2{,}0 \times 10^6$ m/s bergerak tegak lurus medan 0,40 T. Tentukan jari-jari dan periode lintasannya. ||| 5,2 cm; $1{,}6 \times 10^{-7}$ s
+Elektron berenergi kinetik 1,0 keV bergerak tegak lurus medan 2,0 mT. Berapa kelajuan dan jari-jari lintasannya? ||| $1{,}9 \times 10^7$ m/s; 5,3 cm
+Berapa frekuensi siklotron elektron dalam medan 1,0 T, dan partikel alfa (4,0015 u; $2e$) dalam medan 1,5 T? ||| 28 GHz; 11,5 MHz
+Berapa medan untuk membelokkan proton berkelajuan $3{,}0 \times 10^7$ m/s dalam lingkaran berjari-jari 1,0 m? ||| 0,31 T
+Pemilih kecepatan memakai $E = 1{,}2 \times 10^5$ V/m dan $B = 0{,}30$ T. Berapa kelajuan yang lolos? ||| $4{,}0 \times 10^5$ m/s
+@karbon Ion ¹²C⁺ (12,000 u) dan ¹³C⁺ (13,003 u) berkelajuan $4{,}0 \times 10^5$ m/s memasuki medan 0,30 T. Berapa jari-jari masing-masing, dan berapa jarak pisahnya di detektor? ||| 16,6 cm; 18,0 cm; 2,8 cm
+Ion bermuatan tunggal dipercepat melalui 1000 V dan menempuh lintasan berjari-jari 12,9 cm dalam medan 0,200 T. Berapa massanya (dalam u)? Ion apakah itu? ||| 32 u; O₂⁺
+Ion ⁷⁹Br⁺ (78,92 u) dan ⁸¹Br⁺ (80,92 u) dipercepat melalui 3000 V dan memasuki medan 0,50 T. Berapa jari-jari lintasannya? ||| 14,0 cm; 14,2 cm
+Siklotron bermedan 1,2 T berjari-jari 0,40 m. Berapa energi kinetik terbesar protonnya (MeV)? ||| 11 MeV
+Lempeng logam setebal 0,20 mm berarus 5,0 A dalam medan 0,80 T menunjukkan tegangan Hall 2,5 μV. Berapa rapat elektron bebasnya? ||| $5{,}0 \times 10^{28}$ m⁻³
+Sensor Hall ($n = 5{,}0 \times 10^{21}$ m⁻³; tebal 0,050 mm) berarus 1,0 mA mengukur medan Bumi, $5{,}0 \times 10^{-5}$ T. Berapa tegangan Hall-nya? ||| 1,2 μV
+Deuteron (massa dua kali proton, muatan sama) dan proton berkelajuan sama memasuki medan yang sama. Bandingkan jari-jari lintasannya. ||| Deuteron dua kali
+Elektron dalam medan 1,0 mT memiliki komponen kecepatan $1{,}0 \times 10^6$ m/s sejajar medan. Berapa jarak yang ditempuhnya sepanjang medan dalam satu putaran? ||| 3,6 cm
+
+## Subbab 14.4: Gaya pada kawat dan momen magnet
+
+Kawat sepanjang 0,50 m berarus 8,0 A membentuk sudut 30° dengan medan 0,40 T. Berapa gayanya? ||| 0,80 N
+Kawat sepanjang 25 cm berarus 3,0 A tegak lurus medan mengalami gaya 0,060 N. Berapa medannya? ||| 0,080 T
+Kumparan 50 lilitan berjari-jari 2,0 cm berarus 2,0 A. Berapa momen magnetnya, dan torsi terbesarnya dalam medan 0,50 T? ||| 0,126 A·m²; 0,063 N·m
+Berapa usaha untuk membalik kumparan pada soal sebelumnya dari searah medan menjadi berlawanan? ||| 0,126 J
+Batang 50 g sepanjang 10 cm pada rel licin dialiri 20 A dalam medan tegak 0,50 T. Berapa percepatannya? ||| 20 m/s²
+Kumparan galvanometer 200 lilitan seluas 4,0 cm² berada dalam medan 0,10 T. Berapa torsi pada arus 1,0 mA? ||| $8{,}0 \times 10^{-6}$ N·m
+
+## Subbab 14.5: Medan oleh arus
+
+Berapa medan pada jarak 1,0 cm dan 10 cm dari kawat lurus berarus 5,0 A? ||| $1{,}0 \times 10^{-4}$ T; $1{,}0 \times 10^{-5}$ T
+Pada jarak berapa dari kawat berarus 20 A medannya sama dengan medan Bumi ($5{,}0 \times 10^{-5}$ T)? ||| 8,0 cm
+Dua kawat sejajar berjarak 5,0 mm masing-masing berarus 30 A berlawanan arah. Berapa gaya tiap meter? ||| 0,036 N/m, tolak
+Solenoide 500 lilitan sepanjang 10 cm berarus 4,0 A. Berapa medan di dalamnya? ||| 0,025 T
+Berapa medan di pusat simpal tunggal berjari-jari 10 cm berarus 10 A? ||| $6{,}3 \times 10^{-5}$ T
+Berapa arus agar solenoide 2000 lilitan tiap meter menghasilkan 0,050 T? ||| 20 A
+Dua kawat sejajar berjarak 4,0 cm masing-masing berarus 10 A. Berapa medan di tengah-tengahnya jika arusnya searah, dan jika berlawanan? ||| 0; $2{,}0 \times 10^{-4}$ T
+Solenoide magnet NMR 9,4 T memiliki $2{,}0 \times 10^4$ lilitan tiap meter. Berapa arusnya? ||| 370 A
+Saluran listrik berarus 500 A berada 20 m di atas tanah. Berapa medan magnetnya di tanah? ||| $5{,}0 \times 10^{-6}$ T
+
+## Subbab 14.6: Kemagnetan atom dan resonansi magnetik
+
+Ramalkan momen magnet hanya-spin Ti³⁺ (d¹), Cr³⁺ (d³), Ni²⁺ (d⁸; dua tak berpasangan), dan Mn²⁺ (d⁵, spin tinggi). ||| 1,73; 3,87; 2,83; 5,92 $\mu_B$
+Senyawa besi(II) memiliki momen magnet 4,9 $\mu_B$. Berapa elektron tak berpasangannya? ||| 4
+Ion Fe²⁺ (d⁶) dalam suatu kompleks ternyata diamagnetik. Bagaimana susunan elektronnya? ||| Spin rendah: keenam elektron berpasangan
+Pada frekuensi berapa elektron bebas beresonansi dalam medan 1,2 T? ||| 34 GHz
+Berapa medan untuk resonansi spin elektron pada 9,5 GHz? ||| 0,34 T
+Berapa frekuensi resonansi proton dalam medan 1,5 T, 3,0 T, dan 14,1 T? ||| 64 MHz; 128 MHz; 600 MHz
+Berapa medan spektrometer NMR "600 MHz"? ||| 14,1 T
+Pada 9,4 T, berapa frekuensi resonansi ³¹P dan ¹⁹F? ||| 162 MHz; 376 MHz
+@populasi Untuk proton pada 14,1 T (600 MHz) dan 298 K, hitung selisih energi tingkat spin, perbandingannya dengan $k_BT$, dan kelebihan populasi tingkat bawah. ||| $3{,}98 \times 10^{-25}$ J; $9{,}7 \times 10^{-5}$; 48 per sejuta
+Proton cincin benzena muncul pada 7,3 ppm. Berapa hertz itu dari patokan pada spektrometer 400 MHz dan 600 MHz? ||| 2920 Hz; 4380 Hz
+Dua puncak berbeda 0,05 ppm. Berapa hertz jaraknya pada alat 60 MHz dan 600 MHz? ||| 3 Hz; 30 Hz
+Hitung $\mu_BB/k_BT$ untuk medan 5,0 T pada suhu 4,0 K. ||| 0,84
+Dari $\gamma/2\pi = 42{,}58$ MHz/T dan $\Delta E = 2\mu_pB$, hitung momen magnet proton dan bandingkan dengan $\mu_B$. ||| $1{,}41 \times 10^{-26}$ J/T; $1{,}5 \times 10^{-3}\ \mu_B$
+
+## Subbab 14.7: Induksi
+
+Medan 0,50 T menembus simpal seluas 20 cm². Berapa fluksnya jika medan tegak lurus bidang simpal, dan jika normal simpal bersudut 60° terhadap medan? ||| $1{,}0 \times 10^{-3}$ Wb; $5{,}0 \times 10^{-4}$ Wb
+Kumparan 50 lilitan seluas 0,010 m² berada dalam medan yang berubah 2,0 T/s. Berapa ggl imbasnya? ||| 1,0 V
+Medan 0,80 T yang menembus simpal berjari-jari 10 cm hilang dalam 0,20 s. Berapa ggl rata-ratanya? ||| 0,13 V
+Batang 1,2 m bergerak 15 m/s tegak lurus medan Bumi ($5{,}0 \times 10^{-5}$ T). Berapa ggl-nya? ||| 0,90 mV
+@rel Batang 0,20 m meluncur 3,0 m/s pada rel dalam medan 0,50 T; hambatan rangkaian 1,5 Ω. Hitung ggl, arus, gaya penahan, dan daya. ||| 0,30 V; 0,20 A; 0,020 N; 0,060 W
+Kumparan 100 lilitan seluas 3,0 cm² berhambatan 20 Ω dibalik 180° dalam medan 0,90 T. Berapa muatan yang mengalir? ||| 2,7 mC
+Dalam pemindai MRI, medan gradien berubah 20 T/s. Berapa ggl yang terimbas dalam simpal jaringan tubuh seluas 0,030 m²? ||| 0,60 V
+Kereta cepat (lebar sepur 1,435 m) melaju 300 km/jam di tempat komponen tegak medan Bumi $4{,}0 \times 10^{-5}$ T. Berapa ggl antara kedua rodanya? ||| 4,8 mV
+Simpal mendatar berada dalam medan ke atas yang makin lemah. Ke mana arah arus imbasnya dilihat dari atas? ||| berlawanan arah jarum jam
+
+## Subbab 14.8: Generator, transformator, arus bolak-balik
+
+Kumparan generator 200 lilitan seluas 0,010 m² berputar 60 Hz dalam medan 0,30 T. Berapa ggl puncak dan rms-nya? ||| 226 V; 160 V
+Berapa tegangan puncak stopkontak 110 V? ||| 156 V
+Pemanas 1500 W pada 220 V: berapa arus rms, arus puncak, dan hambatannya? ||| 6,8 A; 9,6 A; 32 Ω
+Transformator pengisi telepon mengubah 220 V menjadi 5,0 V dengan primer 880 lilitan. Berapa lilitan sekundernya, dan berapa arus primer ketika sekunder memberi 2,0 A? ||| 20; 45 mA
+Transformator tiang mengubah 20 kV menjadi 220 V. Berapa perbandingan lilitannya, dan berapa arus primer ketika sekunder memberi 50 A? ||| 91 : 1; 0,55 A
+Berapa kali rugi saluran berkurang jika tegangan transmisi dinaikkan dari 150 kV ke 500 kV untuk daya yang sama? ||| 11 kali
+Motor 24 V berhambatan kumparan 0,80 Ω. Berapa arus awalnya, dan arusnya ketika ggl balik 20 V? ||| 30 A; 5,0 A
+
+## Subbab 14.9: Induktansi
+
+Berapa induktansi solenoide 500 lilitan sepanjang 10 cm berpenampang 2,0 cm²? ||| 0,63 mH
+Arus dalam induktor 0,20 H berubah 50 A/s. Berapa ggl imbasnya? ||| 10 V
+Berapa energi dalam induktor 0,50 H berarus 3,0 A? ||| 2,25 J
+Berapa rapat energi medan magnet 0,50 T dan 20 T? ||| $9{,}9 \times 10^4$ J/m³; $1{,}6 \times 10^8$ J/m³
+Kumparan 2,0 H berhambatan 50 Ω dihubungkan ke 100 V. Berapa tetapan waktunya, dan arus setelah 80 ms? ||| 40 ms; 1,73 A
+Berapa frekuensi alami rangkaian LC dengan 10 mH dan 100 nF? ||| 5,0 kHz
+Kumparan detektor NMR 50 nH harus beresonansi pada 400 MHz. Berapa kapasitansinya? ||| 3,2 pF
+Ggl 12 V terimbas ketika arus berubah 400 A/s. Berapa induktansinya? ||| 30 mH
+Berapa medan magnet yang rapat energinya sama dengan medan listrik $3{,}0 \times 10^6$ V/m? ||| 0,010 T
+
+## Subbab 14.10: Gelombang elektromagnetik
+
+Hitung panjang gelombang WiFi 2,4 GHz, sinyal telepon 900 MHz, dan pemancar NMR 600 MHz. ||| 12,5 cm; 33 cm; 50 cm
+Hitung frekuensi cahaya hijau 550 nm, laser CO₂ 10,6 μm, dan sinar-X 0,154 nm. ||| $5{,}5 \times 10^{14}$; $2{,}8 \times 10^{13}$; $1{,}9 \times 10^{18}$ Hz
+Penunjuk laser 1,0 mW memusatkan berkasnya pada 1,0 mm². Berapa amplitudo medan listrik dan magnetnya? ||| 870 V/m; $2{,}9 \times 10^{-6}$ T
+Hitung energi foton (eV) gelombang mikro 2,45 GHz, ultraviolet 300 nm, dan sinar-X 0,154 nm. ||| $1{,}0 \times 10^{-5}$; 4,1; 8050 eV
+Berapa lama cahaya menempuh jarak Matahari–Bumi ($1{,}496 \times 10^{11}$ m) dan Bulan–Bumi ($3{,}84 \times 10^8$ m)? ||| 499 s; 1,28 s
+Gelombang elektromagnetik beramplitudo medan listrik 100 V/m. Berapa amplitudo medan magnetnya? ||| $3{,}3 \times 10^{-7}$ T
+Berapa intensitas gelombang dengan $E_0 = 30$ V/m? ||| 1,2 W/m²
+@karbonil Gugus karbonil menyerap inframerah pada bilangan gelombang 1700 cm⁻¹. Berapa frekuensi dan energi fotonnya, dan berapa kali $k_BT$ pada 298 K (0,0257 eV)? ||| $5{,}1 \times 10^{13}$ Hz; 0,21 eV; 8 kali
+
+## Subbab 14.11: Rangkaian arus bolak-balik
+Berapa frekuensi yang membuat reaktansi induktor 25 mH sama dengan 100 Ω? ||| 637 Hz
+Kapasitor 2,2 μF dihubungkan ke sumber 220 V (rms), 50 Hz. Berapa arus rms-nya? ||| 0,152 A
+@rlc Resistor 50 Ω, induktor 0,20 H, dan kapasitor 40 μF dihubungkan seri ke 220 V (rms), 50 Hz. Hitung impedansi, arus, faktor daya, dan daya rata-rata. ||| 52,7 Ω; 4,17 A; 0,95; 870 W
+Rangkaian penala memakai induktor 200 μH. Berapa kapasitansi untuk beresonansi pada 1,0 MHz? ||| 127 pF
+Rangkaian RLC seri memiliki $R = 10\ \Omega$, $L = 0{,}10$ H, dan $C = 1{,}0$ μF. Berapa frekuensi resonansi dan faktor mutunya? ||| 503 Hz; 32
+Pemanas air 2,0 kW dan motor 2,0 kW (faktor daya 0,75) bekerja pada 220 V. Berapa arus masing-masing? ||| 9,1 A; 12,1 A
+Penyaring RC lolos-rendah harus memiliki frekuensi potong 10 Hz dengan $R = 100$ kΩ. Berapa $C$? ||| 0,16 μF
+## Subbab 14.12: NMR lebih dalam
+Proton gugus aldehida muncul pada 9,7 ppm. Pada spektrometer 500 MHz, berapa selisih frekuensinya terhadap TMS? ||| 4850 Hz
+Berapa banyak garis dan perbandingan tingginya pada sinyal CH gugus isopropil, (CH₃)₂CH–? ||| 7 garis; 1 : 6 : 15 : 20 : 15 : 6 : 1
+@t1 Proton dengan $T_1 = 3{,}0$ s diukur dengan waktu tunggu 5,0 s. Berapa persen magnetisasinya pulih? Berapa waktu tunggu untuk 99,5%? ||| 81%; 15,9 s
+Spektrum suatu senyawa C₃H₆O menunjukkan satu singlet saja. Senyawa apa itu? ||| aseton

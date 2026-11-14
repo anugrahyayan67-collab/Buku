@@ -1,0 +1,590 @@
+# Bab 4 Usaha dan Energi
+
+Di wahana halilintar, kereta ditarik pelan-pelan ke puncak pertama, lalu dilepas. Setelah itu tidak ada mesin yang mendorongnya. Kereta menukik, menanjak, berputar terbalik di lingkaran tegak, dan penumpangnya tidak jatuh. Perancangnya harus menjawab satu pertanyaan sebelum wahana dibangun: **seberapa tinggi puncak pertama agar kereta selamat melewati lingkaran itu?**
+
+Dengan hukum Newton saja, pertanyaan ini sangat sulit. Lintasannya melengkung, arah gaya normal berubah di setiap titik, dan percepatannya tidak pernah tetap. Dengan gagasan **energi**, jawabannya selesai dalam tiga baris (Contoh 4.19), dan bentuk lintasannya ternyata tidak penting sama sekali.
+
+Itulah kekuatan energi: ia mengabaikan rincian perjalanan dan hanya membandingkan keadaan awal dengan keadaan akhir. Gagasan ini pula yang paling sering kamu pakai di kimia. Entalpi reaksi, energi ikatan, energi aktivasi, dan tingkat energi elektron semuanya berdiri di atas isi bab ini.
+
+::: {.tujuan}
+**Tujuan belajar**
+
+Setelah mempelajari bab ini, kamu mampu:
+
+1. Menghitung usaha oleh gaya konstan, termasuk tandanya, dengan rumus sudut maupun perkalian titik.
+2. Menghitung usaha oleh gaya yang berubah dari luas di bawah grafik dan dari integral, termasuk usaha pada pegas.
+3. Memakai teorema usaha–energi untuk menghubungkan usaha total dengan perubahan kelajuan.
+4. Menghitung daya rata-rata dan daya sesaat, serta mengonversi kWh, joule, dan kalori.
+5. Membedakan gaya konservatif dan takkonservatif, serta menghitung energi potensial gravitasi dan pegas.
+6. Menerapkan kekekalan energi mekanik pada benda jatuh, bandul, lintasan melengkung, dan pegas.
+7. Menyusun neraca energi ketika ada gesekan atau gaya luar.
+8. Membaca diagram energi potensial: titik balik, kesetimbangan stabil dan takstabil, serta hubungan gaya dengan kemiringan kurva.
+9. Mengaitkan semua itu dengan energi ikatan dan satuan energi yang dipakai di kimia.
+:::
+
+::: {.mat}
+**Prasyarat**
+
+Dari Bab 1: komponen vektor dan perkalian titik (subbab 1.15). Dari Bab 2: persamaan gerak dengan percepatan konstan dan makna luas di bawah grafik (subbab 2.5 dan 2.6). Dari Bab 3: diagram benda bebas, gaya normal, gesekan, dan gerak melingkar (subbab 3.7, 3.9, dan 3.12).
+:::
+
+## 4.1 Usaha oleh gaya konstan
+
+Dalam bahasa sehari-hari, "usaha" berarti apa saja yang melelahkan. Dalam fisika artinya sempit dan tepat: usaha adalah **ukuran energi yang dipindahkan oleh sebuah gaya ketika titik tangkap gaya itu berpindah**.
+
+![Gambar 4.1 Gaya konstan $\vec F$ bekerja pada benda yang berpindah sejauh $\vec d$. Hanya komponen gaya yang searah perpindahan, $F\cos\theta$, yang melakukan usaha.](fig/usaha.png){width=74%}
+
+Perhatikan Gambar 4.1. Sebuah gaya konstan $\vec F$ bekerja pada benda yang berpindah lurus sejauh $\vec d$. Sudut antara gaya dan perpindahan adalah $\theta$. Usaha oleh gaya itu didefinisikan sebagai
+
+$$
+\boxed{W = Fd\cos\theta} \qquad \text{(4.1)}
+$$
+
+Ada dua cara membaca rumus ini, dan keduanya berguna:
+
+- $W = (F\cos\theta)\,d$: komponen gaya **searah perpindahan**, dikalikan perpindahan.
+- $W = F\,(d\cos\theta)$: gaya, dikalikan komponen perpindahan **searah gaya**.
+
+Satuan usaha adalah newton meter, yang diberi nama **joule**: $1\ \text{J} = 1\ \text{N·m} = 1\ \text{kg·m}^2/\text{s}^2$. Satu joule kira-kira usaha untuk mengangkat sebuah apel kecil (100 g) setinggi satu meter. Usaha adalah **skalar**: ia memiliki tanda, tetapi tidak memiliki arah.
+
+### Tanda usaha
+
+![Gambar 4.2 Tanda usaha ditentukan oleh sudut antara gaya dan perpindahan.](fig/tanda.png){width=88%}
+
+Tanda usaha membawa makna fisika (Gambar 4.2):
+
+| Sudut | Usaha | Arti | Contoh |
+|---|---|---|---|
+| $0° \le \theta < 90°$ | positif | gaya **memberi** energi kepada benda | kamu mendorong troli |
+| $\theta = 90°$ | nol | gaya tidak mengubah energi benda | gaya normal pada benda yang bergeser di lantai datar |
+| $90° < \theta \le 180°$ | negatif | gaya **mengambil** energi dari benda | gesekan pada benda yang meluncur |
+
+Tiga keadaan menghasilkan usaha nol, dan ketiganya sering menjebak:
+
+1. **Tidak ada perpindahan.** Kamu mendorong tembok sekuat tenaga sampai berkeringat. Tembok tidak bergeser, jadi usahamu pada tembok nol. Kamu lelah karena otot terus memakai energi kimia untuk tetap tegang, tetapi tidak ada energi yang berpindah ke tembok.
+2. **Gaya tegak lurus perpindahan.** Kamu berjalan mendatar sambil menjinjing ember. Gaya tanganmu ke atas, perpindahannya mendatar, jadi usahanya nol.
+3. **Gaya ke pusat pada gerak melingkar.** Tegangan tali pada batu yang diputar selalu tegak lurus arah gerak. Usahanya nol, dan memang kelajuan batu tidak berubah.
+
+### Usaha sebagai perkalian titik
+
+Rumus (4.1) persis sama dengan definisi perkalian titik dari subbab 1.15:
+
+$$
+W = \vec F \cdot \vec d = F_xd_x + F_yd_y + F_zd_z \qquad \text{(4.2)}
+$$
+
+Bentuk komponen ini sangat praktis ketika gaya dan perpindahan diberikan dalam vektor satuan, karena sudutnya tidak perlu dicari.
+
+### Usaha total
+
+Jika beberapa gaya bekerja pada satu benda, masing-masing melakukan usahanya sendiri. **Usaha total** dapat dihitung dengan dua cara yang hasilnya sama:
+
+$$
+W_\text{total} = W_1 + W_2 + W_3 + \dots = \Big(\sum \vec F\Big)\cdot\vec d .
+$$
+
+Cara pertama (menjumlahkan usaha tiap gaya) biasanya lebih aman, karena kamu dipaksa memeriksa tiap gaya satu per satu.
+
+::: {.strategi}
+**Strategi · Menghitung usaha**
+
+1. **Gambar diagram benda bebas.** Setiap gaya pada diagram berpotensi melakukan usaha.
+2. **Gambar vektor perpindahan** di samping diagram itu.
+3. Untuk tiap gaya, tentukan **sudutnya terhadap perpindahan** (bukan terhadap sumbu $x$, bukan terhadap bidang miring).
+4. Hitung $W = Fd\cos\theta$ untuk tiap gaya, **lengkap dengan tandanya**.
+5. Jumlahkan jika yang ditanya usaha total.
+:::
+
+::: {.contoh}
+**Contoh 4.1 · Menarik koper di bandara**
+
+Seorang penumpang menarik koper sejauh 20 m di lantai mendatar. Gaya tariknya 50 N dengan arah 30° di atas mendatar. Gaya gesek pada roda koper 30 N. Hitung usaha oleh (a) gaya tarik, (b) gaya gesek, (c) gaya normal dan berat, serta (d) usaha total.
+
+**Pahami.** Empat gaya bekerja pada koper: tarikan, gesekan, gaya normal, dan berat. Perpindahannya mendatar.
+
+**Kerjakan.**
+
+(a) $W_F = Fd\cos 30° = (50)(20)(0{,}866) = 866$ J.
+
+(b) Gesekan berlawanan arah dengan perpindahan, $\theta = 180°$: $W_f = (30)(20)\cos 180° = -600$ J.
+
+(c) Gaya normal dan berat tegak lurus perpindahan: $W_n = W_g = 0$.
+
+(d) $W_\text{total} = 866 - 600 + 0 + 0 = 266$ J.
+
+**Periksa.** Komponen tegak gaya tarik ($50\sin 30° = 25$ N) tidak melakukan usaha. Komponen itu hanya mengurangi gaya normal. Usaha total positif, jadi koper bertambah cepat; subbab 4.3 akan menghitung seberapa cepat.
+:::
+
+::: {.contoh}
+**Contoh 4.2 · Mengangkat, lalu membawa**
+
+Seorang pekerja mengangkat peti 15 kg setinggi 1,2 m dengan kelajuan tetap, lalu membawanya berjalan mendatar sejauh 10 m, juga dengan kelajuan tetap. Hitung usaha pekerja dan usaha gravitasi pada tiap tahap.
+
+**Kerjakan.**
+
+*Tahap mengangkat.* Kelajuan tetap berarti gaya pekerja sama besar dengan berat: $F = mg = (15)(9{,}80) = 147$ N, ke atas. Perpindahan juga ke atas.
+
+$$
+W_\text{pekerja} = (147)(1{,}2)\cos 0° = +176\ \text{J}, \qquad W_g = (147)(1{,}2)\cos 180° = -176\ \text{J}.
+$$
+
+*Tahap membawa.* Gaya pekerja tetap ke atas, tetapi perpindahannya mendatar: $W_\text{pekerja} = 0$ dan $W_g = 0$.
+
+**Periksa.** Pada tahap pertama usaha totalnya nol, sesuai dengan kelajuan yang tidak berubah. Lalu ke mana 176 J dari pekerja itu pergi? Energi itu tersimpan sebagai **energi potensial gravitasi** peti (subbab 4.5). Pada tahap kedua pekerja jelas merasa lelah, tetapi ia tidak memindahkan energi ke peti. Definisi usaha dalam fisika memang tidak mengukur kelelahan.
+:::
+
+::: {.contoh}
+**Contoh 4.3 · Usaha dari komponen**
+
+Gaya $\vec F = (6{,}0\,\hat\imath - 2{,}0\,\hat\jmath)$ N bekerja pada partikel yang berpindah $\vec d = (3{,}0\,\hat\imath + 1{,}0\,\hat\jmath)$ m. Hitung usaha gaya itu dan sudut antara gaya dan perpindahan.
+
+**Kerjakan.**
+
+$$
+W = F_xd_x + F_yd_y = (6{,}0)(3{,}0) + (-2{,}0)(1{,}0) = 16\ \text{J}.
+$$
+
+Besar gaya $F = \sqrt{36 + 4} = 6{,}32$ N dan besar perpindahan $d = \sqrt{9 + 1} = 3{,}16$ m. Maka
+
+$$
+\cos\theta = \frac{W}{Fd} = \frac{16}{(6{,}32)(3{,}16)} = 0{,}80, \qquad \theta = 37°.
+$$
+
+**Periksa.** Komponen $y$ menyumbang usaha negatif karena gaya dan perpindahan pada arah itu berlawanan. Totalnya tetap positif.
+:::
+
+::: {.contoh}
+**Contoh 4.4 · Peti didorong naik di bidang miring kasar**
+
+Peti 20 kg didorong naik sejauh 5,0 m di bidang miring 30° oleh gaya 150 N yang sejajar bidang. Koefisien gesek kinetisnya 0,20. Hitung usaha tiap gaya dan usaha totalnya.
+
+**Modelkan.** Gaya pada peti: dorongan (sejajar bidang, ke atas), berat, gaya normal, dan gesekan kinetis (sejajar bidang, ke bawah). Perpindahan sejajar bidang, ke atas.
+
+**Kerjakan.**
+
+*Dorongan:* $W_F = (150)(5{,}0) = +750$ J.
+
+*Berat:* sudut antara berat (ke bawah) dan perpindahan (naik sepanjang bidang) adalah $90° + 30° = 120°$:
+
+$$
+W_g = mgd\cos 120° = (196)(5{,}0)(-0{,}50) = -490\ \text{J}.
+$$
+
+*Gaya normal:* tegak lurus perpindahan, $W_n = 0$.
+
+*Gesekan:* $n = mg\cos 30° = 169{,}7$ N, sehingga $f_k = (0{,}20)(169{,}7) = 33{,}9$ N dan $W_f = -(33{,}9)(5{,}0) = -170$ J.
+
+*Total:* $W_\text{total} = 750 - 490 - 170 = +90$ J.
+
+**Periksa.** Usaha gravitasi dapat dibaca dengan cara lain: peti naik setinggi $h = 5{,}0\sin 30° = 2{,}5$ m, dan $W_g = -mgh = -(196)(2{,}5) = -490$ J. Usaha gravitasi **hanya bergantung pada beda ketinggian**, bukan pada panjang bidang. Sifat ini akan menjadi sangat penting di subbab 4.5.
+:::
+
+::: {.awas}
+**Awas · Sudut yang dipakai adalah sudut antara gaya dan perpindahan**
+
+Kesalahan paling sering pada soal bidang miring adalah memakai sudut kemiringan bidang untuk semua gaya. Sudut dalam $W = Fd\cos\theta$ adalah sudut antara **vektor gaya** dan **vektor perpindahan**. Untuk berat pada benda yang naik di bidang miring bersudut $\alpha$, sudut itu $90° + \alpha$. Untuk benda yang turun, $90° - \alpha$. Cara yang lebih aman: usaha gravitasi selalu sama dengan $-mg\,\Delta y$, dengan $\Delta y$ perubahan ketinggian.
+:::
+
+::: {.kuis}
+**Kuis cepat 4.1**
+
+Sebuah satelit mengelilingi Bumi pada orbit lingkaran dengan kelajuan tetap. Berapa usaha gaya gravitasi Bumi pada satelit selama satu putaran: positif, negatif, atau nol?
+:::
+
+## 4.2 Usaha oleh gaya yang berubah
+
+Rumus $W = Fd\cos\theta$ hanya berlaku jika gayanya tetap. Kebanyakan gaya di alam tidak tetap: gaya pegas bertambah ketika pegas makin diregangkan, dan gaya antara dua atom berubah tajam terhadap jarak. Kita memerlukan cara yang lebih umum.
+
+### Usaha sebagai luas
+
+Gagasannya sama dengan gagasan di subbab 2.5 ketika mencari perpindahan dari grafik kecepatan. Bagi lintasan menjadi potongan-potongan kecil $\Delta x$. Pada tiap potongan gaya hampir tetap, jadi usahanya $F_x\,\Delta x$, yaitu luas persegi panjang tipis di bawah grafik $F_x$ terhadap $x$. Jumlah semua potongan adalah luas total:
+
+$$
+\boxed{W = \text{luas di bawah grafik } F_x \text{ terhadap } x} \qquad \text{(4.3)}
+$$
+
+Luas di bawah sumbu (gaya negatif) dihitung negatif.
+
+![Gambar 4.3 Usaha oleh gaya yang berubah sama dengan luas di bawah grafik gaya terhadap posisi (Contoh 4.5).](fig/luas.png){width=56%}
+
+::: {.contoh}
+**Contoh 4.5 · Usaha dari grafik**
+
+Gaya searah sumbu $x$ pada sebuah balok berubah seperti Gambar 4.3: naik linear dari 0 sampai 10 N pada 2 m pertama, tetap 10 N sampai $x = 5$ m, lalu turun linear menjadi nol di $x = 6$ m. Berapa usaha gaya itu dari $x = 0$ sampai $x = 6$ m?
+
+**Kerjakan.** Bagi menjadi tiga bangun:
+
+- segitiga pertama: $\tfrac12(2)(10) = 10$ J,
+- persegi panjang: $(3)(10) = 30$ J,
+- segitiga terakhir: $\tfrac12(1)(10) = 5$ J.
+
+$W = 10 + 30 + 5 = 45$ J.
+
+**Periksa.** Jika gayanya 10 N di sepanjang 6 m, usahanya 60 J. Hasil kita lebih kecil dari itu, sesuai dengan grafik yang "terpotong" di kedua ujung.
+:::
+
+### Usaha sebagai integral
+
+Jika potongan $\Delta x$ dibuat makin kecil tanpa batas, jumlah itu menjadi **integral**:
+
+$$
+\boxed{W = \int_{x_i}^{x_f} F_x\,dx} \qquad \text{(4.4)}
+$$
+
+::: {.mat}
+**Matematika · Integral yang diperlukan di bab ini**
+
+Integral adalah kebalikan dari turunan. Untuk pangkat, aturannya
+
+$$
+\int x^n\,dx = \frac{x^{n+1}}{n+1} \qquad (n \ne -1).
+$$
+
+Naikkan pangkatnya satu, lalu bagi dengan pangkat yang baru. Untuk integral berbatas, hitung hasilnya di batas atas lalu kurangi dengan hasilnya di batas bawah:
+
+$$
+\int_1^3 2x\,dx = \Big[x^2\Big]_1^3 = 9 - 1 = 8 .
+$$
+
+Tetapan dapat dikeluarkan dari integral, dan integral dari suatu jumlah sama dengan jumlah integralnya. Hanya itu yang diperlukan di bab ini.
+:::
+
+::: {.contoh}
+**Contoh 4.6 · Usaha dengan integral**
+
+Gaya pada sebuah partikel adalah $F_x = 12 - 3x^2$, dengan $F_x$ dalam newton dan $x$ dalam meter. Hitung usaha gaya itu ketika partikel berpindah dari $x = 0$ ke $x = 2{,}0$ m.
+
+**Kerjakan.**
+
+$$
+W = \int_0^{2} (12 - 3x^2)\,dx = \Big[12x - x^3\Big]_0^{2} = (24 - 8) - 0 = 16\ \text{J}.
+$$
+
+**Periksa.** Gaya bernilai 12 N di $x = 0$ dan turun menjadi nol di $x = 2$ m. Usahanya harus di antara 0 dan $(12)(2) = 24$ J. Hasil 16 J masuk akal. Jika partikel terus bergerak melewati $x = 2$ m, gaya menjadi negatif dan mulai mengambil energi kembali.
+:::
+
+### Gaya pegas dan hukum Hooke
+
+Pegas adalah contoh gaya berubah yang paling penting, karena banyak sekali sistem berperilaku seperti pegas: tali busur, tulang, jembatan, dan **ikatan kimia** antara dua atom.
+
+Selama pegas tidak diregangkan terlalu jauh, gaya yang dikerjakan pegas sebanding dengan perubahan panjangnya:
+
+$$
+\boxed{F_\text{pegas} = -kx} \qquad \text{(4.5)}
+$$
+
+Ini **hukum Hooke**. Di sini $x$ adalah simpangan ujung pegas dari posisi alaminya (positif jika diregangkan, negatif jika ditekan), dan $k$ adalah **konstanta pegas** dengan satuan N/m. Pegas yang kaku memiliki $k$ besar. Tanda minus menyatakan bahwa gaya pegas selalu berusaha **mengembalikan** pegas ke panjang alaminya: pegas yang diregangkan menarik, pegas yang ditekan mendorong.
+
+![Gambar 4.4 Untuk meregangkan pegas diperlukan gaya $F = kx$. Usahanya adalah luas segitiga di bawah garis itu. Meregangkan 10 cm kedua memerlukan usaha tiga kali lebih besar daripada 10 cm pertama (Contoh 4.7).](fig/pegas.png){width=56%}
+
+Untuk meregangkan pegas secara perlahan, tanganmu harus mengerjakan gaya $F = +kx$, yang melawan gaya pegas. Usaha tanganmu untuk meregangkan pegas dari posisi alami sampai simpangan $x$ adalah luas segitiga di Gambar 4.4:
+
+$$
+W_\text{tangan} = \int_0^x kx'\,dx' = \tfrac12kx^2 .
+$$
+
+Dari simpangan $x_i$ ke $x_f$:
+
+$$
+\boxed{W_\text{tangan} = \tfrac12kx_f^2 - \tfrac12kx_i^2} \qquad\qquad W_\text{pegas} = -\big(\tfrac12kx_f^2 - \tfrac12kx_i^2\big) \qquad \text{(4.6)}
+$$
+
+Usaha oleh pegas adalah negatif dari usaha tangan, karena gayanya berlawanan.
+
+::: {.contoh}
+**Contoh 4.7 · Sepuluh sentimeter pertama dan kedua**
+
+Sebuah pegas memiliki $k = 200$ N/m. Berapa usaha yang diperlukan untuk meregangkannya (a) dari panjang alami sampai 0,10 m; (b) dari 0,10 m sampai 0,20 m?
+
+**Kerjakan.**
+
+(a) $W = \tfrac12(200)(0{,}10)^2 = 1{,}0$ J.
+
+(b) $W = \tfrac12(200)(0{,}20)^2 - \tfrac12(200)(0{,}10)^2 = 4{,}0 - 1{,}0 = 3{,}0$ J.
+
+**Periksa.** Jarak regangannya sama, tetapi usahanya tiga kali lipat, karena pada tahap kedua gaya yang harus dilawan lebih besar. Kesalahan umum pada (b) adalah menghitung $\tfrac12k(0{,}10)^2$ lagi. Usaha pegas bergantung pada $x^2$, jadi **selisih kuadrat** tidak sama dengan **kuadrat selisih**.
+:::
+
+::: {.contoh}
+**Contoh 4.8 · Menentukan konstanta pegas**
+
+Sebuah beban 2,0 kg digantungkan pada pegas tegak, dan pegas bertambah panjang 4,9 cm. (a) Berapa konstanta pegasnya? (b) Berapa usaha untuk menarik beban itu turun 3,0 cm lagi dari posisi setimbang?
+
+**Kerjakan.**
+
+(a) Dalam keadaan setimbang, gaya pegas mengimbangi berat: $kx_0 = mg$, sehingga
+
+$$
+k = \frac{mg}{x_0} = \frac{(2{,}0)(9{,}80)}{0{,}049} = 400\ \text{N/m}.
+$$
+
+(b) Regangan pegas berubah dari 0,049 m menjadi 0,079 m. Usaha untuk meregangkan pegas:
+
+$$
+\tfrac12(400)(0{,}079^2 - 0{,}049^2) = 200(0{,}00624 - 0{,}00240) = 0{,}768\ \text{J}.
+$$
+
+Selama itu gravitasi juga melakukan usaha pada beban: $mg(0{,}030) = 0{,}588$ J. Jadi usaha tangan saja adalah $0{,}768 - 0{,}588 = 0{,}18$ J.
+
+**Periksa.** Ada cara pintas yang bagus: untuk beban yang tergantung, simpangan dari **posisi setimbang** berperilaku seperti pegas tanpa gravitasi. Usaha tangan $= \tfrac12k(0{,}030)^2 = 0{,}18$ J. Hasilnya sama. Fakta ini akan dipakai lagi di Bab 8.
+:::
+
+::: {.kuis}
+**Kuis cepat 4.2**
+
+Pegas A dan B diregangkan dengan gaya yang sama besar. Pegas A dua kali lebih kaku daripada B. Pegas mana yang menerima usaha lebih besar?
+:::
+
+## 4.3 Energi kinetik dan teorema usaha–energi
+
+Usaha total positif mempercepat benda, dan usaha total negatif memperlambatnya. Sekarang kita buat hubungan itu menjadi tepat.
+
+Ambil benda bermassa $m$ yang dikenai gaya total konstan $F$ searah geraknya. Percepatannya $a = F/m$. Dari persamaan gerak di subbab 2.6, $v_f^2 = v_i^2 + 2ad$, sehingga $ad = \tfrac12(v_f^2 - v_i^2)$. Maka
+
+$$
+W_\text{total} = Fd = mad = \tfrac12mv_f^2 - \tfrac12mv_i^2 .
+$$
+
+Besaran $\tfrac12mv^2$ muncul dengan sendirinya. Kita beri nama **energi kinetik**:
+
+$$
+\boxed{K = \tfrac12mv^2} \qquad \text{(4.7)}
+$$
+
+dan hasil di atas menjadi **teorema usaha–energi**:
+
+$$
+\boxed{W_\text{total} = \Delta K = K_f - K_i} \qquad \text{(4.8)}
+$$
+
+Penurunan di atas memakai gaya konstan, tetapi hasilnya berlaku umum, juga untuk gaya yang berubah dan lintasan yang melengkung.
+
+::: {.mat}
+**Matematika · Bukti untuk gaya yang berubah**
+
+Dengan hukum kedua Newton, $F_x = m\,\dfrac{dv}{dt}$. Tulis $\dfrac{dv}{dt} = \dfrac{dv}{dx}\dfrac{dx}{dt} = v\dfrac{dv}{dx}$. Maka
+
+$$
+W_\text{total} = \int F_x\,dx = \int m v\frac{dv}{dx}\,dx = \int_{v_i}^{v_f} mv\,dv = \tfrac12mv_f^2 - \tfrac12mv_i^2 .
+$$
+
+Tidak ada anggapan tentang bentuk $F_x$. Teorema ini adalah hukum kedua Newton yang sudah diintegralkan terhadap posisi.
+:::
+
+Beberapa hal tentang energi kinetik:
+
+- **Selalu positif atau nol**, karena memuat $v^2$. Arah gerak tidak berpengaruh.
+- **Bergantung pada kuadrat kelajuan.** Kelajuan dua kali berarti energi kinetik empat kali. Inilah sebabnya jarak pengereman membengkak pada kelajuan tinggi (Contoh 4.9).
+- **Bergantung pada kerangka acuan.** Penumpang kereta memiliki energi kinetik nol menurut penumpang lain dan besar menurut orang di peron. Yang penting dalam setiap perhitungan adalah konsisten memakai satu kerangka.
+
+| Benda | Energi kinetik (kira-kira) |
+|---|---|
+| Molekul N₂ di udara pada suhu kamar | $6 \times 10^{-21}$ J |
+| Nyamuk terbang | $10^{-7}$ J |
+| Bola sepak ditendang keras | 100 J |
+| Orang berlari | 2000 J |
+| Mobil di jalan tol | $5 \times 10^5$ J |
+| Pesawat penumpang saat jelajah | $10^{10}$ J |
+
+::: {.strategi}
+**Strategi · Kapan memakai teorema usaha–energi**
+
+Pakai teorema ini jika soal menghubungkan **gaya, jarak, dan kelajuan**, dan **tidak menanyakan waktu**. Langkahnya:
+
+1. Pilih bendanya, tentukan keadaan awal dan keadaan akhir.
+2. Daftar semua gaya, hitung usaha masing-masing di antara dua keadaan itu.
+3. Tulis $W_\text{total} = \tfrac12mv_f^2 - \tfrac12mv_i^2$, lalu selesaikan.
+
+Jika soal menanyakan **waktu** atau **percepatan**, kembalilah ke hukum Newton dan kinematika.
+:::
+
+::: {.contoh}
+**Contoh 4.9 · Jarak pengereman**
+
+Mobil 1200 kg melaju 25 m/s (90 km/jam). Pengemudi mengerem sampai roda terkunci, dan gaya gesek jalan pada mobil 7500 N. (a) Berapa jarak sampai mobil berhenti? (b) Bagaimana jika kelajuan awalnya dua kali lipat?
+
+**Kerjakan.**
+
+(a) Hanya gesekan yang melakukan usaha: $W_\text{total} = -fd$. Teorema usaha–energi:
+
+$$
+-fd = 0 - \tfrac12mv_i^2 \quad\Longrightarrow\quad d = \frac{mv_i^2}{2f} = \frac{(1200)(25)^2}{2(7500)} = 50\ \text{m}.
+$$
+
+(b) Jarak sebanding dengan $v_i^2$. Kelajuan dua kali berarti jarak empat kali: 200 m.
+
+**Periksa.** Hasil ini sama dengan $d = v^2/(2a)$ dari kinematika, dengan $a = f/m = 6{,}25\ \text{m/s}^2$. Pelajaran pentingnya: menambah kelajuan 40% saja (dari 25 menjadi 35 m/s) hampir menggandakan jarak pengereman, karena $1{,}4^2 = 1{,}96$.
+:::
+
+::: {.contoh}
+**Contoh 4.10 · Kelajuan peti di ujung bidang miring**
+
+Peti di Contoh 4.4 mulai dari diam. Berapa kelajuannya setelah didorong 5,0 m?
+
+**Kerjakan.** Usaha total sudah dihitung: $W_\text{total} = 90{,}3$ J. Maka
+
+$$
+\tfrac12mv^2 = 90{,}3 \quad\Longrightarrow\quad v = \sqrt{\frac{2(90{,}3)}{20}} = 3{,}0\ \text{m/s}.
+$$
+
+**Periksa.** Dengan hukum Newton: gaya total sepanjang bidang $= 150 - 98 - 33{,}9 = 18{,}1$ N, $a = 0{,}903\ \text{m/s}^2$, dan $v = \sqrt{2(0{,}903)(5{,}0)} = 3{,}0$ m/s. Sama. Untuk gaya konstan, dua cara itu setara. Keunggulan cara energi baru terasa ketika gayanya berubah.
+:::
+
+::: {.contoh}
+**Contoh 4.11 · Balok yang dikenai gaya berubah**
+
+Balok 2,5 kg di lantai licin mula-mula diam, lalu dikenai gaya di Contoh 4.5 (Gambar 4.3). Berapa kelajuannya di $x = 6$ m?
+
+**Kerjakan.** Usaha totalnya adalah luas grafik, 45 J:
+
+$$
+v = \sqrt{\frac{2W}{m}} = \sqrt{\frac{2(45)}{2{,}5}} = 6{,}0\ \text{m/s}.
+$$
+
+**Periksa.** Dengan hukum Newton, percepatannya berubah di tiga tahap dan soal ini harus dikerjakan tiga kali. Dengan energi, cukup satu baris.
+:::
+
+::: {.contoh}
+**Contoh 4.12 · Balok menumbuk pegas**
+
+Balok 0,50 kg meluncur di meja licin dengan kelajuan 3,0 m/s, lalu menumbuk pegas mendatar dengan $k = 450$ N/m. Berapa jauh pegas tertekan sebelum balok berhenti sesaat?
+
+**Kerjakan.** Hanya pegas yang melakukan usaha, dan usahanya negatif: $W_\text{pegas} = -\tfrac12kx^2$.
+
+$$
+-\tfrac12kx^2 = 0 - \tfrac12mv^2 \quad\Longrightarrow\quad x = v\sqrt{\frac mk} = 3{,}0\sqrt{\frac{0{,}50}{450}} = 0{,}10\ \text{m}.
+$$
+
+**Periksa.** Gaya pegas terbesar adalah $kx = 45$ N, hampir sepuluh kali berat balok. Percepatannya berubah terus selama penekanan, jadi persamaan percepatan konstan tidak dapat dipakai di sini. Setelah berhenti sesaat, pegas mendorong balok kembali, dan balok meninggalkan pegas dengan kelajuan 3,0 m/s lagi.
+:::
+
+::: {.contoh}
+**Contoh 4.13 · Peluru menembus papan**
+
+Peluru 8,0 g dengan kelajuan 400 m/s menembus papan setebal 3,0 cm dan keluar dengan kelajuan 250 m/s. (a) Berapa gaya hambat rata-rata papan? (b) Berapa tebal papan sejenis yang diperlukan untuk menghentikan peluru itu?
+
+**Kerjakan.**
+
+(a) $\Delta K = \tfrac12(0{,}0080)(250^2 - 400^2) = 0{,}0040(62\,500 - 160\,000) = -390$ J.
+
+$-F(0{,}030) = -390$, sehingga $F = 1{,}3 \times 10^4$ N.
+
+(b) Untuk berhenti, seluruh $K_i = \tfrac12(0{,}0080)(400)^2 = 640$ J harus diambil: $d = 640/(1{,}3 \times 10^4) = 0{,}049$ m, atau 4,9 cm.
+
+**Periksa.** Peluru kehilangan 37,5% kelajuannya di 3,0 cm pertama, tetapi itu berarti 61% energinya. Sisa 39% energi habis dalam 1,9 cm berikutnya. Energi, bukan kelajuan, yang berkurang merata terhadap jarak ketika gayanya tetap.
+:::
+
+::: {.awas}
+**Awas · Usaha total, bukan usaha salah satu gaya**
+
+Teorema usaha–energi memakai usaha oleh **semua** gaya. Pada Contoh 4.2, pekerja melakukan usaha +176 J tetapi energi kinetik peti tidak berubah, karena gravitasi melakukan −176 J. Kalau hasil perhitunganmu memberi kelajuan yang terlalu besar, biasanya ada gaya yang terlupa, dan yang paling sering terlupa adalah gravitasi dan gesekan.
+:::
+
+::: {.kuis}
+**Kuis cepat 4.3**
+
+Truk bermassa empat kali massa mobil, tetapi kelajuannya setengah kelajuan mobil. Mana yang memiliki energi kinetik lebih besar? Jika keduanya direm dengan gaya yang sama besar, mana yang berhenti dalam jarak lebih pendek?
+:::
+
+## 4.4 Daya
+
+Mengangkat sekarung semen ke lantai tiga memerlukan usaha yang sama, baik dilakukan dalam satu menit maupun satu jam. Yang berbeda adalah **laju** usaha itu dilakukan. Laju itulah yang disebut **daya**:
+
+$$
+\boxed{P_\text{rata-rata} = \frac{W}{\Delta t}} \qquad\qquad P = \frac{dW}{dt} \qquad \text{(4.9)}
+$$
+
+Satuannya joule per sekon, yang diberi nama **watt**: $1\ \text{W} = 1\ \text{J/s}$. Satuan lama yang masih dipakai untuk mesin adalah daya kuda, $1\ \text{hp} = 746$ W.
+
+Jika gaya $\vec F$ bekerja pada benda yang bergerak dengan kecepatan $\vec v$, maka dalam selang waktu singkat $dt$ usahanya $\vec F\cdot\vec v\,dt$, sehingga
+
+$$
+\boxed{P = \vec F \cdot \vec v = Fv\cos\theta} \qquad \text{(4.10)}
+$$
+
+Rumus ini menjelaskan mengapa kendaraan memerlukan gigi rendah di tanjakan. Daya mesin terbatas, jadi untuk memperoleh gaya dorong besar, kelajuan harus dikurangi.
+
+### Kilowatt-jam adalah satuan energi
+
+Karena energi = daya × waktu, satuan energi dapat ditulis sebagai satuan daya kali satuan waktu. Tagihan listrik memakai **kilowatt-jam**:
+
+$$
+1\ \text{kWh} = (1000\ \text{W})(3600\ \text{s}) = 3{,}6 \times 10^6\ \text{J} = 3{,}6\ \text{MJ}.
+$$
+
+Dua satuan energi lain yang sering kamu temui:
+
+| Satuan | Nilai dalam joule | Dipakai untuk |
+|---|---|---|
+| kalori (kal) | 4,184 J | kalor dalam kimia |
+| kilokalori (kkal) | 4184 J | energi makanan ("Kalori" pada label) |
+| kilowatt-jam (kWh) | $3{,}6 \times 10^6$ J | energi listrik |
+| elektronvolt (eV) | $1{,}602 \times 10^{-19}$ J | energi satu atom atau elektron |
+
+| Sumber atau pemakai | Daya (kira-kira) |
+|---|---|
+| Lampu LED | 10 W |
+| Tubuh manusia saat istirahat | 100 W |
+| Pesepeda yang mengayuh kuat | 300 W |
+| Setrika atau pemanas air | 1000 W |
+| Mesin mobil | $10^5$ W |
+| Pembangkit listrik besar | $10^9$ W |
+| Matahari | $4 \times 10^{26}$ W |
+
+::: {.contoh}
+**Contoh 4.14 · Daya untuk mengangkat**
+
+(a) Motor lift mengangkat kabin 800 kg setinggi 30 m dalam 20 s dengan kelajuan tetap. Berapa daya motornya? (b) Seorang mahasiswa 60 kg berlari menaiki tangga setinggi 3,0 m dalam 4,0 s. Berapa daya rata-ratanya?
+
+**Kerjakan.**
+
+(a) $P = \dfrac{mgh}{\Delta t} = \dfrac{(800)(9{,}80)(30)}{20} = 1{,}18 \times 10^4$ W, sekitar 12 kW.
+
+(b) $P = \dfrac{(60)(9{,}80)(3{,}0)}{4{,}0} = 441$ W, sekitar 0,6 hp.
+
+**Periksa.** Untuk (a), periksa dengan $P = Fv$: gaya 7840 N dan kelajuan 1,5 m/s memberi 11,8 kW. Untuk (b), manusia hanya dapat mempertahankan daya sebesar itu selama beberapa detik. Daya yang dapat dipertahankan berjam-jam hanya sekitar 100 W.
+:::
+
+::: {.contoh}
+**Contoh 4.15 · Daya mesin di jalan datar dan di tanjakan**
+
+Mobil 1200 kg melaju dengan kelajuan tetap 30 m/s. Gaya hambat total (udara dan gesekan guling) 600 N. Berapa daya yang harus diberikan mesin ke roda (a) di jalan datar; (b) di tanjakan dengan kemiringan 5,0°?
+
+**Kerjakan.**
+
+(a) Kelajuan tetap berarti gaya dorong sama dengan gaya hambat: $P = Fv = (600)(30) = 18$ kW.
+
+(b) Di tanjakan, gaya dorong juga harus melawan komponen berat sepanjang jalan:
+
+$$
+F = 600 + mg\sin 5{,}0° = 600 + (1200)(9{,}80)(0{,}0872) = 600 + 1025 = 1625\ \text{N}.
+$$
+
+$P = (1625)(30) = 49$ kW.
+
+**Periksa.** Tanjakan yang tampak landai menaikkan kebutuhan daya hampir tiga kali. Itulah sebabnya truk bermuatan melambat di tanjakan: dengan daya yang sama, kelajuan harus turun.
+:::
+
+::: {.contoh}
+**Contoh 4.16 · Energi listrik dan energi makanan**
+
+(a) Sebuah pemanas air 1000 W dipakai 2,0 jam sehari selama 30 hari. Berapa energi yang dipakainya dalam kWh dan dalam joule? Jika tarifnya Rp1.500 per kWh, berapa biayanya? (b) Sepiring nasi mengandung sekitar 180 kkal. Jika tubuh mengubah 25% energi makanan menjadi usaha mekanik, berapa tinggi tangga yang dapat didaki orang 60 kg dengan energi itu?
+
+**Kerjakan.**
+
+(a) $E = (1{,}0\ \text{kW})(60\ \text{jam}) = 60$ kWh $= 2{,}2 \times 10^8$ J. Biayanya $60 \times 1500 = $ Rp90.000.
+
+(b) Energi makanan: $(180)(4184) = 7{,}53 \times 10^5$ J. Yang menjadi usaha: $1{,}88 \times 10^5$ J. Maka
+
+$$
+h = \frac{1{,}88 \times 10^5}{(60)(9{,}80)} = 320\ \text{m}.
+$$
+
+**Periksa.** Hasil (b) mengejutkan: sepiring nasi cukup untuk mendaki gedung 80 lantai. Energi kimia dalam makanan memang sangat rapat dibandingkan energi mekanik sehari-hari. Itu juga sebabnya menurunkan berat badan hanya dengan olahraga terasa lambat.
+:::
+
+::: {.kuis}
+**Kuis cepat 4.4**
+
+Dua mobil bermassa sama dipercepat dari diam sampai 20 m/s. Mobil A memerlukan 5 s dan mobil B 10 s. Bandingkan (a) usaha total pada tiap mobil, (b) daya rata-ratanya.
+:::

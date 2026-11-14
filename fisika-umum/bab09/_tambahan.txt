@@ -1,0 +1,276 @@
+@@ a-gelombang.md | ## 9.2 
+::: {.contoh}
+**Contoh 9.ya · Mencari pusat gempa**
+
+Gempa bumi memancarkan dua jenis gelombang: gelombang P (longitudinal) berlaju 8,0 km/s dan gelombang S (transversal) berlaju 4,5 km/s. Sebuah stasiun mencatat gelombang S tiba 30 s setelah gelombang P. Seberapa jauh pusat gempa itu?
+
+**Kerjakan.** Kedua gelombang menempuh jarak $d$ yang sama:
+
+$$
+\frac{d}{4{,}5} - \frac{d}{8{,}0} = 30\ \text{s} \quad\Longrightarrow\quad d = \frac{30}{0{,}2222 - 0{,}1250} = 309\ \text{km}.
+$$
+
+**Periksa.** Satu stasiun hanya memberi jarak, bukan arah. Dengan tiga stasiun, tiga lingkaran jarak berpotongan di satu titik: pusat gempa. Peringatan dini gempa memanfaatkan selisih waktu yang sama: gelombang P yang cepat tetapi lemah tiba lebih dulu dan memberi beberapa detik sebelum gelombang S yang merusak datang.
+:::
+
+::: {.contoh}
+**Contoh 9.yb · Mengukur laju cahaya dengan oven gelombang mikro**
+
+Dalam oven gelombang mikro yang piring putarnya dilepas, sepotong cokelat meleleh di titik-titik yang berjarak 6,1 cm. Titik-titik itu adalah perut gelombang berdiri, yang berjarak setengah panjang gelombang. Frekuensi oven 2,45 GHz. Berapa laju gelombangnya?
+
+**Kerjakan.** $\lambda = 2(0{,}061) = 0{,}122$ m.
+
+$$
+v = f\lambda = (2{,}45 \times 10^9)(0{,}122) = 3{,}0 \times 10^8\ \text{m/s}.
+$$
+
+**Periksa.** Laju cahaya, diukur dengan cokelat dan penggaris. Gelombang mikro adalah gelombang elektromagnetik, sekerabat dengan cahaya, dan merambat dengan laju yang sama. Titik-titik panas dan dingin itu juga alasan oven diberi piring putar.
+:::
+
+@@ a-gelombang.md | ## 9.3 
+::: {.contoh}
+**Contoh 9.yc · Potret dan riwayat**
+
+Untuk gelombang $y = 0{,}020\sin(12{,}6x - 25{,}1t)$ (SI): (a) berapa simpangan titik $x = 0{,}10$ m pada $t = 0$? (b) Berapa simpangan titik $x = 0$ pada $t = 0{,}050$ s?
+
+**Kerjakan.**
+
+(a) $y = 0{,}020\sin(1{,}26) = 0{,}019$ m.
+
+(b) $y = 0{,}020\sin(-1{,}26) = -0{,}019$ m.
+
+**Periksa.** Kedua jawaban sama besar dan berlawanan tanda, dan itu bukan kebetulan. Gelombang ini merambat 2,0 m/s, jadi dalam 0,050 s polanya bergeser 0,10 m. Simpangan di $x = 0$ pada $t = 0{,}050$ s adalah simpangan yang pada $t = 0$ berada di $x = -0{,}10$ m. Begitulah arti "merambat": bentuk yang sama, bergeser.
+:::
+
+@@ a-gelombang.md | ## 9.4 
+::: {.contoh}
+**Contoh 9.yd · Denyut pada tali berbeban**
+
+Tali sepanjang 2,0 m bermassa 0,10 kg tergantung tegak dengan beban 5,0 kg di ujung bawahnya. Berapa lama sebuah denyut merambat dari bawah ke atas? Abaikan berat tali terhadap berat beban.
+
+**Kerjakan.** $\mu = \dfrac{0{,}10}{2{,}0} = 0{,}050$ kg/m dan $F = (5{,}0)(9{,}80) = 49$ N.
+
+$$
+v = \sqrt{\frac{49}{0{,}050}} = 31\ \text{m/s}, \qquad t = \frac{2{,}0}{31} = 0{,}064\ \text{s}.
+$$
+
+**Periksa.** Jika berat tali diperhitungkan, tegangan di bagian atas sedikit lebih besar (50 N), dan denyut sedikit bertambah cepat ketika naik. Pada tali berat yang tergantung tanpa beban, pengaruh ini besar: denyut merambat paling lambat di ujung bawah.
+:::
+
+::: {.contoh}
+**Contoh 9.ye · Sedalam apa sumur itu?**
+
+Sebuah batu dijatuhkan ke dalam sumur, dan bunyi ceburannya terdengar 3,0 s kemudian. Berapa kedalaman sumur itu? ($v = 343$ m/s.)
+
+**Rencanakan.** Waktu 3,0 s terdiri atas dua bagian: waktu batu jatuh, $t_1$, dan waktu bunyi naik, $t_2$.
+
+**Kerjakan.** $d = \tfrac12gt_1^2$ dan $d = 343t_2$, dengan $t_1 + t_2 = 3{,}0$ s:
+
+$$
+4{,}9t_1^2 = 343(3{,}0 - t_1) \quad\Longrightarrow\quad 4{,}9t_1^2 + 343t_1 - 1029 = 0 .
+$$
+
+$$
+t_1 = \frac{-343 + \sqrt{343^2 + 4(4{,}9)(1029)}}{9{,}8} = 2{,}88\ \text{s}, \qquad d = 4{,}9(2{,}88)^2 = 41\ \text{m}.
+$$
+
+**Periksa.** Jika waktu rambat bunyi diabaikan, hasilnya $4{,}9(3{,}0)^2 = 44$ m, terlalu dalam 8%. Bunyi memerlukan 0,12 s untuk naik, dan pada sumur yang lebih dalam koreksinya makin besar.
+:::
+
+@@ a-gelombang.md | ## 9.6 
+::: {.contoh}
+**Contoh 9.yf · Berapa lama boleh terpapar bising?**
+
+Pedoman keselamatan kerja mengizinkan paparan 85 dB selama 8 jam sehari, dan waktu itu dipotong setengah untuk tiap kenaikan 3 dB. Berapa lama paparan yang diizinkan pada 100 dB?
+
+**Kerjakan.** Selisihnya 15 dB, yaitu lima kali 3 dB. Waktunya dipotong setengah lima kali:
+
+$$
+t = \frac{8\ \text{jam}}{2^5} = \frac{480\ \text{menit}}{32} = 15\ \text{menit}.
+$$
+
+**Periksa.** Tiap 3 dB berarti intensitas dua kali, jadi aturan ini menjaga **energi bunyi total** yang diterima telinga tetap sama. Konser pada 100 dB melampaui jatah harian dalam seperempat jam. Kerusakan pendengaran karena bising bersifat tetap: sel-sel rambut di telinga dalam tidak tumbuh kembali.
+:::
+
+::: {.contoh}
+**Contoh 9.yg · Dinding peredam**
+
+Sebuah dinding meredam bunyi 30 dB. Di satu sisi, tarafnya 95 dB. (a) Berapa taraf di sisi lain? (b) Berapa bagian energi bunyi yang lolos?
+
+**Kerjakan.**
+
+(a) $95 - 30 = 65$ dB.
+
+(b) Turun 30 dB berarti intensitas dibagi $10^3$. Yang lolos 0,1%.
+
+**Periksa.** Dinding yang menahan 99,9% energi bunyi masih membiarkan percakapan terdengar. Itu akibat skala logaritma telinga. Sebaliknya, celah kecil yang membocorkan 1% energi bunyi sudah membatasi peredaman pada 20 dB, sebaik apa pun dindingnya. Dalam peredaman bunyi, celah lebih menentukan daripada tebal dinding.
+:::
+
+@@ a-gelombang.md | AKHIR
+::: {.contoh}
+**Contoh 9.yh · Kelelawar**
+
+Seekor kelelawar terbang 8,0 m/s menuju dinding gua sambil memancarkan ultrasonik 80,0 kHz. Berapa frekuensi gema yang didengarnya? ($v = 343$ m/s.)
+
+**Kerjakan.** Dua pergeseran berurutan. Dinding menerima bunyi dari sumber yang mendekat: $f_1 = f\,\dfrac{v}{v - u}$. Dinding lalu menjadi sumber diam, dan kelelawar menjadi pengamat yang mendekat: $f_2 = f_1\,\dfrac{v + u}{v}$.
+
+$$
+f_2 = f\,\frac{v + u}{v - u} = 80{,}0\,\frac{351}{335} = 83{,}8\ \text{kHz}.
+$$
+
+**Periksa.** Pergeserannya 3,8 kHz. Rumus pendekatan $\Delta f \approx 2uf/v$ memberi 3,7 kHz, hampir sama. Dari pergeseran ini kelelawar mengetahui kelajuannya terhadap dinding, dan dari pergeseran gema seekor serangga, kelajuan serangga itu. Beberapa jenis kelelawar bahkan menurunkan frekuensi pancarannya saat terbang, agar gemanya tetap jatuh di frekuensi tempat telinganya paling peka.
+:::
+
+::: {.contoh}
+**Contoh 9.yi · Pelebaran Doppler garis spektrum**
+
+Atom natrium (23,0 u) dalam uap pada 500 K bergerak acak. Komponen kecepatannya sepanjang garis pandang berorde $\sqrt{k_BT/m}$. Perkirakan pelebaran garis kuning natrium, 589 nm, akibat efek Doppler. ($k_B = 1{,}381 \times 10^{-23}$ J/K; $1\ \text{u} = 1{,}6605 \times 10^{-27}$ kg.)
+
+**Kerjakan.**
+
+$$
+u = \sqrt{\frac{(1{,}381 \times 10^{-23})(500)}{(23{,}0)(1{,}6605 \times 10^{-27})}} = 425\ \text{m/s}.
+$$
+
+$$
+\Delta\lambda = \lambda\,\frac uc = (589)\frac{425}{3{,}00 \times 10^8} = 8{,}3 \times 10^{-4}\ \text{nm}.
+$$
+
+**Periksa.** Garisnya melebar kira-kira $\pm0{,}001$ nm, sekitar dua bagian per sejuta. Kecil, tetapi inilah yang biasanya membatasi ketajaman garis spektrum gas. Karena lebarnya sebanding dengan $\sqrt{T/m}$, lebar garis menjadi termometer: suhu nyala api, plasma, dan atmosfer bintang diukur dengan cara ini.
+:::
+
+@@ b-berdiri.md | ## 9.8 
+::: {.contoh}
+**Contoh 9.yj · Mencari titik senyap**
+
+Dua pengeras suara sefase terpisah 2,0 m. Seorang pendengar berdiri 4,0 m tepat di depan salah satunya. Berapa frekuensi terendah yang (a) hampir tidak terdengar di tempatnya; (b) terdengar paling nyaring? ($v = 343$ m/s.)
+
+**Kerjakan.** Jarak ke pengeras suara pertama 4,0 m; ke yang kedua $\sqrt{4{,}0^2 + 2{,}0^2} = 4{,}47$ m. Beda lintasan: 0,47 m.
+
+(a) Destruktif: $\Delta r = \tfrac12\lambda$, sehingga $\lambda = 0{,}94$ m dan $f = \dfrac{343}{0{,}94} = 363$ Hz.
+
+(b) Konstruktif: $\Delta r = \lambda$, sehingga $f = \dfrac{343}{0{,}47} = 727$ Hz.
+
+**Periksa.** Frekuensi destruktif berikutnya adalah 1090 Hz ($\Delta r = \tfrac32\lambda$). Pendengar itu kehilangan nada-nada tertentu dan mendapat nada lain berlebih. Bergeser setengah meter saja mengubah semuanya, karena beda lintasannya berubah.
+:::
+
+::: {.contoh}
+**Contoh 9.yk · Peredam bunyi dengan pipa cabang**
+
+Dengung 120 Hz dari sebuah mesin merambat di dalam saluran udara. Sebuah pipa cabang buntu dipasang di sisi saluran. Gelombang yang masuk ke cabang, memantul di ujung buntunya, dan kembali ke saluran harus berlawanan fase dengan gelombang yang lewat. Berapa panjang pipa cabang itu?
+
+**Kerjakan.** Lintasan tambahan pergi-pulang $2L$ harus sama dengan setengah panjang gelombang: $2L = \tfrac12\lambda$, sehingga $L = \tfrac14\lambda$.
+
+$$
+\lambda = \frac{343}{120} = 2{,}86\ \text{m}, \qquad L = 0{,}71\ \text{m}.
+$$
+
+**Periksa.** Peredam seperempat panjang gelombang ini hanya mematikan satu frekuensi dan kelipatan ganjilnya. Knalpot kendaraan memakai beberapa rongga dan pipa dengan ukuran berbeda untuk menutup rentang frekuensi yang lebar. Lapisan antipantul pada lensa kacamata bekerja dengan asas yang sama untuk cahaya.
+:::
+
+@@ b-berdiri.md | ## 9.9 
+::: {.contoh}
+**Contoh 9.yl · Mengapa senar bas dililit kawat**
+
+Senar piano untuk nada C rendah, 65,4 Hz, panjangnya 1,2 m dan ditegangkan 600 N. Berapa massa per satuan panjangnya?
+
+**Kerjakan.** $v = 2Lf_1 = 2(1{,}2)(65{,}4) = 157$ m/s.
+
+$$
+\mu = \frac{F}{v^2} = \frac{600}{(157)^2} = 0{,}024\ \text{kg/m} = 24\ \text{g/m}.
+$$
+
+**Periksa.** Itu enam puluh kali lebih berat daripada senar gitar pada Contoh 9.21. Kawat baja polos seberat itu akan terlalu kaku untuk bergetar dengan baik, jadi senar bas dibuat dari inti baja yang dililit kawat tembaga: berat, tetapi tetap lentur. Tanpa cara ini, senar nada terendah piano harus beberapa meter lebih panjang.
+:::
+
+::: {.contoh}
+**Contoh 9.ym · Simpul dan perut**
+
+Senar sepanjang 0,650 m bergetar pada harmonik ketiganya. Di mana letak simpul dan perutnya?
+
+**Kerjakan.** $\lambda = \dfrac{2L}{3} = 0{,}433$ m. Simpul berjarak $\tfrac12\lambda = 0{,}217$ m satu sama lain.
+
+Simpul: 0; 0,217; 0,433; dan 0,650 m. Perut: 0,108; 0,325; dan 0,542 m.
+
+**Periksa.** Pemain gitar menghasilkan nada "harmonik" dengan menyentuh senar ringan di salah satu simpul itu sambil memetik. Sentuhan itu memadamkan semua ragam yang tidak memiliki simpul di sana, dan menyisakan harmonik ketiga dan kelipatannya.
+:::
+
+@@ b-berdiri.md | ## 9.10 
+::: {.contoh}
+**Contoh 9.yn · Pipa organ terbesar dan dengung kamar mandi**
+
+(a) Nada terendah organ pipa adalah 16 Hz. Berapa panjang pipa terbuka yang menghasilkannya? Berapa jika pipanya tertutup? (b) Dua dinding sejajar di kamar mandi berjarak 2,4 m. Udara di antaranya berperilaku seperti pipa tertutup di kedua ujung, dengan $f_n = nv/(2L)$. Berapa tiga frekuensi resonansi terendahnya?
+
+**Kerjakan.**
+
+(a) Terbuka: $L = \dfrac{v}{2f} = \dfrac{343}{32} = 10{,}7$ m. Tertutup: $L = \dfrac{v}{4f} = 5{,}4$ m.
+
+(b) $f_1 = \dfrac{343}{2(2{,}4)} = 71$ Hz; lalu 143 Hz dan 214 Hz.
+
+**Periksa.** Pada (a), pembuat organ menghemat tempat dengan menutup pipa-pipa terbesar. Pada (b), frekuensi-frekuensi itu berada di rentang suara orang dewasa; dinding keramik yang keras hampir tidak menyerap bunyi, sehingga resonansinya kuat. Itu sebabnya menyanyi di kamar mandi terdengar lebih merdu.
+:::
+
+@@ b-berdiri.md | AKHIR
+::: {.contoh}
+**Contoh 9.yo · Panjang gelombang elektron**
+
+Sebuah elektron dipercepat sampai berenergi kinetik 100 eV. Berapa panjang gelombang de Broglie-nya?
+
+**Kerjakan.** $p = \sqrt{2mK} = \sqrt{2(9{,}109 \times 10^{-31})(100)(1{,}602 \times 10^{-19})} = 5{,}40 \times 10^{-24}$ kg·m/s.
+
+$$
+\lambda = \frac hp = \frac{6{,}626 \times 10^{-34}}{5{,}40 \times 10^{-24}} = 1{,}23 \times 10^{-10}\ \text{m} = 0{,}123\ \text{nm}.
+$$
+
+**Periksa.** Panjang gelombang ini sebanding dengan jarak antaratom dalam kristal. Jadi berkas elektron seharusnya berinterferensi ketika dipantulkan kristal, seperti sinar X. Davisson dan Germer mengamatinya pada tahun 1927, dan dengan itu sifat gelombang elektron terbukti. Mikroskop elektron memanfaatkannya: panjang gelombangnya ribuan kali lebih pendek daripada cahaya tampak, sehingga dapat memperlihatkan rincian sampai ukuran atom.
+:::
+
+::: {.contoh}
+**Contoh 9.yp · Hukum Bragg**
+
+Sinar X berpanjang gelombang 0,154 nm dipantulkan sebuah kristal dan memberi puncak pertama ($n = 1$) pada sudut 22,5° terhadap bidang-bidang atomnya. Berapa jarak antarbidang atom itu?
+
+**Kerjakan.** Sinar yang dipantulkan dua bidang berurutan berbeda lintasan $2d\sin\theta$. Interferensi konstruktif: $2d\sin\theta = n\lambda$.
+
+$$
+d = \frac{\lambda}{2\sin\theta} = \frac{0{,}154}{2\sin 22{,}5°} = 0{,}201\ \text{nm}.
+$$
+
+**Periksa.** Jarak 0,2 nm adalah jarak khas antaratom. Sinar X dipakai karena panjang gelombangnya sebanding dengan jarak itu; cahaya tampak, dengan panjang gelombang ribuan kali lebih besar, tidak akan menghasilkan puncak apa pun. Dari sudut dan kuat semua puncak, susunan atom dalam kristal dapat disusun kembali.
+:::
+
+::: {.contoh}
+**Contoh 9.yq · Titik kuantum**
+
+Butir semikonduktor berukuran beberapa nanometer mengurung elektronnya seperti kotak. Dengan $E_n = n^2h^2/(8mL^2)$, yaitu $E_1 = 0{,}376\ \text{eV}/L^2$ untuk $L$ dalam nanometer, hitung energi loncatan $n = 1 \to 2$ untuk elektron dalam kotak selebar (a) 5,0 nm; (b) 2,0 nm.
+
+**Kerjakan.** $\Delta E = 3E_1$.
+
+(a) $\Delta E = \dfrac{3(0{,}376)}{25} = 0{,}045$ eV. (b) $\Delta E = \dfrac{3(0{,}376)}{4{,}0} = 0{,}28$ eV.
+
+**Periksa.** Butir yang 2,5 kali lebih kecil memiliki jarak tingkat energi 6 kali lebih besar. Pada titik kuantum sungguhan, energi pengurungan ini **ditambahkan** pada celah energi bahannya, sehingga butir yang lebih kecil memancarkan cahaya yang lebih biru. Bahan yang sama dapat dibuat berpendar merah, hijau, atau biru hanya dengan mengatur ukuran butirnya. Layar televisi "QLED" memakai asas ini.
+:::
+
+@@ _soal.txt | ## Subbab 9.2: Fungsi gelombang
+Gelombang P gempa berlaju 6,0 km/s dan gelombang S 3,5 km/s. Sebuah stasiun mencatat selisih waktu tiba 40 s. Seberapa jauh pusat gempanya? ||| 336 km
+
+@@ _soal.txt | ## Subbab 9.4 dan 9.5
+Tali sepanjang 1,5 m bermassa 60 g tergantung dengan beban 10 kg di ujungnya. Berapa laju denyut pada tali dan waktu rambatnya dari bawah ke atas? (Abaikan berat tali.) ||| 49,5 m/s; 0,030 s
+Batu dijatuhkan ke sumur, dan bunyi ceburannya terdengar 2,0 s kemudian. Berapa kedalaman sumur itu? ||| 18,5 m
+
+@@ _soal.txt | ## Subbab 9.6: Efek Doppler
+Dengan aturan "85 dB selama 8 jam, dipotong setengah tiap 3 dB", berapa lama paparan yang diizinkan pada 95 dB? ||| 48 menit
+Sebuah dinding meredam 25 dB. Jika taraf bunyi di satu sisi 90 dB, berapa taraf di sisi lain? ||| 65 dB
+
+@@ _soal.txt | ## Subbab 9.7: Superposisi
+Kelelawar terbang 6,0 m/s menuju dinding sambil memancarkan 40,0 kHz. Berapa frekuensi gema yang didengarnya? ||| 41,4 kHz
+
+@@ _soal.txt | ## Subbab 9.8: Gelombang berdiri pada tali
+Pipa cabang buntu dipasang pada saluran udara untuk meredam dengung 100 Hz. Berapa panjangnya? ||| 0,86 m
+
+@@ _soal.txt | ## Subbab 9.9: Gelombang berdiri dalam kolom udara
+Senar bas sepanjang 0,90 m ditegangkan 300 N dan harus berbunyi 82,4 Hz. Berapa massa per satuan panjangnya? ||| 13,6 g/m
+
+@@ _soal.txt | ## Subbab 9.10: Dari senar ke atom
+Berapa panjang pipa organ terbuka yang nada dasarnya 20 Hz? ||| 8,6 m
+Dua dinding sejajar berjarak 3,0 m. Berapa frekuensi resonansi terendah udara di antaranya? ||| 57 Hz

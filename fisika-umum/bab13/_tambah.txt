@@ -1,0 +1,31 @@
+@@RINGKASAN
+| Pita energi | logam: pita terisi sebagian; semikonduktor: celah 0,5–3 eV; isolator: celah besar | 13.10 |
+| Semikonduktor | pembawa $\propto e^{-E_g/2k_BT}$; doping n (golongan 15) dan p (golongan 13) | 13.10 |
+| Diode dan LED | $I = I_0(e^{eV/k_BT} - 1)$; warna LED $\lambda = hc/E_g$ | 13.10 |
+| Persamaan Tafel | $\eta = b\log(i/i_0)$; katalis menaikkan $i_0$ | 13.11 |
+@@KUIS
+**13.10** Pada logam, banyaknya elektron bebas tetap, dan pemanasan menambah tumbukan dengan kisi yang bergetar. Pada semikonduktor, pemanasan menambah banyaknya pembawa secara eksponen, dan pengaruh itu jauh lebih besar. **13.11** Arus besar menaikkan kerugian $I^2r$ dan tegangan lebih, sehingga lebih banyak energi kimia menjadi kalor dan lebih sedikit yang menjadi energi listrik yang berguna.
+@@PERTANYAAN
+Mengapa kaca tidak menghantar listrik, sedangkan tembaga menghantar dengan sangat baik? Jelaskan dengan pita energi.
+Mengapa sedikit sekali atom fosfor dapat mengubah hantaran silikon jutaan kali?
+Mengapa warna LED ditentukan oleh bahan semikonduktornya?
+Mengapa sel surya silikon tidak dapat memanfaatkan cahaya inframerah berpanjang gelombang lebih dari 1,1 μm?
+Mengapa elektrolisis air memerlukan tegangan jauh di atas 1,23 V? Bagaimana katalis membantu?
+Bagaimana seng melindungi besi dari karat?
+@@SOAL
+## Subbab 13.10: Semikonduktor
+Celah pita germanium 0,67 eV. Berapa kali banyaknya pembawa dalam germanium murni bertambah dari 300 K ke 320 K? ||| 2,5 kali
+Berapa panjang gelombang terpanjang yang dapat diserap sel surya silikon? Berapa energi foton 500 nm yang berlebih dan menjadi kalor? ||| 1110 nm; 1,36 eV
+LED biru memancarkan cahaya 450 nm. Berapa celah pita bahannya? ||| 2,76 eV
+Silikon didoping boron sebanyak satu atom tiap sepuluh juta atom silikon ($5{,}0 \times 10^{28}$ atom/m³). Berapa lubang tiap m³? ||| $5 \times 10^{21}$
+Diode memiliki $I_0 = 1{,}0 \times 10^{-12}$ A. Berapa tegangan maju untuk arus 10 mA pada 25 °C? ||| 0,59 V
+Panel surya 1,6 m² berefisiensi 20% menerima cahaya 1000 W/m². Berapa dayanya? ||| 320 W
+## Subbab 13.11: Sel elektrokimia yang bekerja
+Elektrode platina untuk pelepasan hidrogen memiliki $i_0 = 1{,}0 \times 10^{-3}$ A/cm² dan kemiringan Tafel 0,030 V. Berapa tegangan lebihnya pada 1,0 A/cm²? ||| 0,09 V
+Elektrolisis air bekerja pada 2,0 V, sedangkan $\Delta H$ pembentukan air setara 1,48 V. Berapa efisiensi energinya? ||| 74%
+@seng Lapisan seng (65,38 g/mol; 7,14 g/cm³) terkorosi dengan rapat arus 5,0 μA/cm². Berapa tebal seng yang hilang tiap tahun? ||| 75 μm
+Baterai ber-ggl 3,7 V dan berhambatan dalam 0,10 Ω. Berapa daya terbesar yang dapat diberikannya kepada beban? ||| 34 W
+@@PEMBAHASAN
+**Soal {{seng}}.** Muatan tiap cm² tiap tahun: $(5{,}0 \times 10^{-6})(3{,}156 \times 10^7) = 158$ C. Seng melepas dua elektron tiap atom: $\dfrac{158}{2(96\,485)} = 8{,}2 \times 10^{-4}$ mol $= 0{,}0535$ g. Tebal: $\dfrac{0{,}0535}{7{,}14} = 7{,}5 \times 10^{-3}$ cm $= 75$ μm.
+
+*Cara berpikir:* lapisan galvanis biasanya setebal 50–100 μm, jadi pada laju korosi ini ia habis dalam sekitar satu tahun. Di udara biasa laju korosi seng jauh lebih kecil, sekitar seperseratusnya, sehingga lapisan bertahan puluhan tahun. Hukum Faraday mengubah arus korosi, yang dapat diukur dengan alat elektrokimia dalam beberapa menit, menjadi umur pakai.

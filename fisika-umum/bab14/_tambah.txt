@@ -1,0 +1,39 @@
+@@RINGKASAN
+| Reaktansi | $X_L = 2\pi fL$, $X_C = 1/(2\pi fC)$; induktor menahan frekuensi tinggi, kapasitor menahan frekuensi rendah | 14.11 |
+| Impedansi RLC seri | $Z = \sqrt{R^2 + (X_L - X_C)^2}$; resonansi $f_0 = 1/(2\pi\sqrt{LC})$ | 14.11 |
+| Faktor daya | $P = VI\cos\phi$; diperbaiki dengan kapasitor | 14.11 |
+| Penyaring RC | $f_c = 1/(2\pi RC)$ | 14.11 |
+| Geseran kimia | perisai $B_\text{inti} = B_0(1-\sigma)$; $\delta$ dalam ppm tidak bergantung alat | 14.12 |
+| Pemecahan spin–spin | $n$ tetangga setara → $n+1$ garis (segitiga Pascal); $J$ dalam Hz tetap | 14.12 |
+| Relaksasi | $M = M_0(1 - e^{-t/T_1})$; tunggu $5T_1$ untuk analisis kuantitatif | 14.12 |
+@@KUIS
+**14.11** Lebih terang. Reaktansi kapasitor $X_C = 1/(2\pi fC)$ mengecil ketika frekuensi naik, sehingga impedansi turun dan arus bertambah. **14.12** Triplet (3 H) bertetangga dengan 2 proton, kuartet (2 H) bertetangga dengan 3 proton: gugus etil, CH₃CH₂–.
+@@PERTANYAAN
+Mengapa induktor dan kapasitor ideal tidak memakai daya rata-rata, padahal arus mengalir melaluinya?
+Pada resonansi, tegangan pada kapasitor dapat jauh melampaui tegangan sumber. Bagaimana mungkin, dan mengapa tidak melanggar kekekalan energi?
+Mengapa faktor daya yang rendah merugikan perusahaan listrik walaupun daya nyata yang dipakai sama?
+Mengapa proton yang dekat dengan atom oksigen beresonansi pada geseran kimia yang lebih besar?
+Mengapa tetapan kopling $J$ dinyatakan dalam hertz, sedangkan geseran kimia dalam ppm?
+Mengapa sinyal proton OH sering tampak sebagai satu puncak lebar, dan hilang setelah dikocok dengan D₂O?
+@@SOAL
+## Subbab 14.11: Rangkaian arus bolak-balik
+Berapa frekuensi yang membuat reaktansi induktor 25 mH sama dengan 100 Ω? ||| 637 Hz
+Kapasitor 2,2 μF dihubungkan ke sumber 220 V (rms), 50 Hz. Berapa arus rms-nya? ||| 0,152 A
+@rlc Resistor 50 Ω, induktor 0,20 H, dan kapasitor 40 μF dihubungkan seri ke 220 V (rms), 50 Hz. Hitung impedansi, arus, faktor daya, dan daya rata-rata. ||| 52,7 Ω; 4,17 A; 0,95; 870 W
+Rangkaian penala memakai induktor 200 μH. Berapa kapasitansi untuk beresonansi pada 1,0 MHz? ||| 127 pF
+Rangkaian RLC seri memiliki $R = 10\ \Omega$, $L = 0{,}10$ H, dan $C = 1{,}0$ μF. Berapa frekuensi resonansi dan faktor mutunya? ||| 503 Hz; 32
+Pemanas air 2,0 kW dan motor 2,0 kW (faktor daya 0,75) bekerja pada 220 V. Berapa arus masing-masing? ||| 9,1 A; 12,1 A
+Penyaring RC lolos-rendah harus memiliki frekuensi potong 10 Hz dengan $R = 100$ kΩ. Berapa $C$? ||| 0,16 μF
+## Subbab 14.12: NMR lebih dalam
+Proton gugus aldehida muncul pada 9,7 ppm. Pada spektrometer 500 MHz, berapa selisih frekuensinya terhadap TMS? ||| 4850 Hz
+Berapa banyak garis dan perbandingan tingginya pada sinyal CH gugus isopropil, (CH₃)₂CH–? ||| 7 garis; 1 : 6 : 15 : 20 : 15 : 6 : 1
+@t1 Proton dengan $T_1 = 3{,}0$ s diukur dengan waktu tunggu 5,0 s. Berapa persen magnetisasinya pulih? Berapa waktu tunggu untuk 99,5%? ||| 81%; 15,9 s
+Spektrum suatu senyawa C₃H₆O menunjukkan satu singlet saja. Senyawa apa itu? ||| aseton
+@@PEMBAHASAN
+**Soal {{rlc}}.** $X_L = 2\pi(50)(0{,}20) = 62{,}8\ \Omega$ dan $X_C = 1/[2\pi(50)(40 \times 10^{-6})] = 79{,}6\ \Omega$. Impedansi $Z = \sqrt{50^2 + (62{,}8 - 79{,}6)^2} = 52{,}7\ \Omega$, arus $I = 220/52{,}7 = 4{,}17$ A. Faktor daya $\cos\phi = R/Z = 0{,}95$, dan daya $P = I^2R = (4{,}17)^2(50) = 870$ W, sama dengan $VI\cos\phi$.
+
+*Cara berpikir:* reaktansi induktor dan kapasitor hampir saling meniadakan, jadi rangkaian ini dekat resonansi dan bersifat hampir resistif. Daya rata-rata selalu dapat dihitung dari resistor saja, karena hanya resistor yang memakai energi.
+
+**Soal {{t1}}.** Pemulihan $1 - e^{-5{,}0/3{,}0} = 1 - 0{,}19 = 0{,}81$, yaitu 81%. Untuk 99,5%: $e^{-t/T_1} = 0{,}005$, sehingga $t = T_1\ln 200 = (3{,}0)(5{,}30) = 15{,}9$ s.
+
+*Cara berpikir:* tiap tambahan satu $T_1$ memotong sisa yang belum pulih menjadi $1/e$, sekitar 37%. Untuk menurunkan sisa dari 1% ke 0,5% hanya perlu $0{,}7\,T_1$ lagi, tetapi untuk mencapai sisa nol diperlukan waktu tak hingga; batas praktis dipilih sesuai ketelitian yang diinginkan.

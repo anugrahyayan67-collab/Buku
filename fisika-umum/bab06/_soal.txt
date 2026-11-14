@@ -1,0 +1,154 @@
+## Subbab 6.1: Massa jenis dan tekanan
+
+Balok logam berukuran 2,0 cm × 3,0 cm × 5,0 cm bermassa 237 g. Berapa massa jenisnya, dan logam apakah itu kemungkinan besar? ||| 7,9 g/cm³; besi
+Berapa massa udara ($1{,}20\ \text{kg/m}^3$) dalam ruang kuliah berukuran 6,0 m × 8,0 m × 3,0 m? ||| 173 kg
+Berapa volume 1,0 kg emas? ||| 51,8 cm³
+Berapa massa 250 mL raksa? ||| 3,40 kg
+Seseorang bermassa 70 kg berdiri dengan satu kaki. Luas telapak kakinya 150 cm². Berapa tekanannya pada lantai? ||| 45,7 kPa
+Paku ditekan dengan gaya 20 N. Luas ujungnya 0,10 mm². Berapa tekanan di ujung paku? ||| $2{,}0 \times 10^8$ Pa
+Nyatakan (a) 750 mmHg dan (b) 2,5 atm dalam kPa. ||| (a) 100,0 kPa; (b) 253 kPa
+Berapa gaya atmosfer pada satu sisi kaca jendela berukuran 1,2 m × 1,5 m? ||| $1{,}8 \times 10^5$ N
+Mobil 1400 kg bertumpu merata pada empat ban yang tekanan terukurnya 220 kPa. Berapa luas bidang sentuh tiap ban dengan jalan? ||| 156 cm²
+Sebanyak 300 g air dicampur dengan 200 g gliserol ($\rho = 1{,}26$ g/mL). Jika volumenya dianggap dapat dijumlahkan, berapa massa jenis campuran? ||| 1,09 g/mL
+Berapa massa es batu berbentuk kubus dengan rusuk 5,0 cm? ||| 115 g
+Dua belahan bola berjari-jari 0,30 m ditangkupkan dan dipompa sampai tekanan di dalamnya 10 kPa. Tekanan luar 101,3 kPa. Berapa gaya untuk memisahkannya? ||| $2{,}6 \times 10^4$ N
+
+## Subbab 6.2: Tekanan dalam zat cair
+
+Berapa tekanan terukur dan tekanan mutlak pada kedalaman 5,0 m di danau air tawar? ||| 49,0 kPa; 150,3 kPa
+Pada kedalaman berapa di laut ($1025\ \text{kg/m}^3$) tekanan mutlaknya 3,0 atm? ||| 20,2 m
+Berapa tekanan terukur di dasar Palung Mariana, 10 900 m di bawah permukaan laut? Nyatakan juga dalam atm. ||| $1{,}09 \times 10^8$ Pa; sekitar 1080 atm
+Sebuah tangki terbuka berisi bensin ($720\ \text{kg/m}^3$) setebal 0,50 m di atas air setebal 1,0 m. Berapa tekanan terukur di dasarnya? ||| 13,3 kPa
+Dalam tabung U berisi air, kolom zat cair X setinggi 15,0 cm di satu cabang diimbangi kolom air setinggi 12,6 cm di cabang lain (diukur dari bidang batas). Berapa massa jenis X? ||| 840 kg/m³
+Tabung U berisi raksa. Air dituangkan ke satu cabang sampai kolom airnya 27,2 cm. Berapa selisih tinggi permukaan raksa di kedua cabang? ||| 2,00 cm
+Kolam renang berukuran 10 m × 25 m berisi air sedalam 2,0 m. Berapa gaya air pada dasarnya (di atas gaya atmosfer)? ||| $4{,}9 \times 10^6$ N
+Jendela kapal selam berbentuk lingkaran berjari-jari 0,15 m. Berapa gaya air laut padanya pada kedalaman 200 m (tekanan terukur)? ||| $1{,}4 \times 10^5$ N
+Dinding kaca akuarium selebar 1,2 m menahan air setinggi 0,50 m. Berapa gaya air pada dinding itu? ||| 1470 N
+Bendungan selebar 80 m menahan air sedalam 30 m. Berapa gaya air padanya? ||| $3{,}5 \times 10^8$ N
+Pintu air berbentuk persegi 2,0 m × 2,0 m terpasang tegak dengan tepi atas 3,0 m di bawah permukaan air. Berapa gaya air padanya? ||| $1{,}6 \times 10^5$ N
+Berapa tekanan terukur paling kecil yang harus dihasilkan pompa di lantai dasar untuk menaikkan air ke tangki 40 m di atasnya? ||| 392 kPa
+Tekanan terukur di pembuluh vena seorang pasien 2,4 kPa. Berapa tinggi paling rendah kantong infus ($\rho = 1030\ \text{kg/m}^3$) di atas lengan agar cairan mengalir masuk? ||| 0,24 m
+Luas gendang telinga sekitar 0,60 cm². Berapa gaya akibat selisih tekanan padanya pada kedalaman 3,0 m di kolam, jika tekanan di telinga tengah belum disamakan? ||| 1,8 N
+@tong **[P]** Sebuah tong penuh air memiliki tutup seluas 0,20 m². Pipa tipis dipasang tegak di tutup itu dan diisi air sampai 12 m di atas tutup. Berapa gaya tambahan pada tutup tong? ||| $2{,}4 \times 10^4$ N
+Sebuah vas dengan dasar seluas 50 cm² berisi air setinggi 20 cm. Berapa gaya air pada dasarnya (tekanan terukur)? ||| 9,8 N
+
+## Subbab 6.3: Mengukur tekanan
+
+Barometer raksa menunjukkan 735 mm. Berapa tekanan udara dalam kPa? ||| 98,0 kPa
+Berapa tinggi kolom barometer yang diisi gliserol ($1260\ \text{kg/m}^3$) pada tekanan 1 atm? ||| 8,2 m
+Pada manometer raksa tabung terbuka, permukaan raksa di sisi terbuka 25 cm lebih tinggi daripada di sisi gas. Tekanan atmosfer 101,3 kPa. Berapa tekanan mutlak gas? ||| 134,6 kPa
+Manometer berisi air menunjukkan beda tinggi 8,0 cm. Berapa tekanan terukurnya? ||| 784 Pa
+Pada manometer raksa yang satu ujungnya tertutup dan hampa, beda tinggi raksanya 30 cm. Berapa tekanan mutlak gas di ujung lain? ||| 40,0 kPa
+Seseorang dapat menurunkan tekanan di mulutnya 6,0 kPa di bawah atmosfer. Berapa panjang sedotan tegak terpanjang yang dapat dipakainya untuk minum air? ||| 0,61 m
+Nyatakan tekanan darah 120/80 mmHg dalam kPa. ||| 16,0/10,7 kPa
+Kepala jerapah berada 2,5 m di atas jantungnya, dan otaknya memerlukan tekanan darah paling sedikit 60 mmHg (8,0 kPa). Berapa tekanan darah paling kecil di jantungnya? ($\rho = 1060\ \text{kg/m}^3$.) ||| 34 kPa (255 mmHg)
+Gas ditampung di atas air pada 20 °C. Permukaan air di dalam tabung 20 cm lebih tinggi daripada di luar. Tekanan atmosfer 101,3 kPa dan tekanan uap air 2,34 kPa. Berapa tekanan gas kering? ||| 97,0 kPa
+Gas ditampung di atas air pada 25 °C. Permukaan air di dalam tabung 10 cm lebih **rendah** daripada di luar. Tekanan atmosfer 101,3 kPa dan tekanan uap air 3,17 kPa. Berapa tekanan gas kering? ||| 99,1 kPa
+
+## Subbab 6.4: Hukum Pascal
+
+@hid Pengangkat hidraulik memiliki piston seluas 5,0 cm² dan 400 cm². Berapa gaya pada piston kecil untuk mengangkat beban 16 000 N? ||| 200 N
+Pada pengangkat di Soal {{hid}}, berapa jauh piston kecil harus bergerak untuk menaikkan beban 2,0 cm? ||| 1,6 m
+Diameter kedua piston sebuah pengangkat hidraulik adalah 2,0 cm dan 20 cm. Berapa kali gaya diperbesar? ||| 100 kali
+Berapa tekanan terukur dalam zat cair pada Soal {{hid}} saat beban terangkat? ||| $4{,}0 \times 10^5$ Pa
+Pengemudi menginjak pedal rem dengan 100 N. Tuas pedal memperbesarnya empat kali, mendorong piston utama seluas 1,0 cm². Piston kaliper seluas 12 cm². Berapa gaya jepit kaliper? ||| 4800 N
+Kursi dokter gigi beserta pasiennya bermassa 150 kg dan ditopang piston hidraulik berdiameter 10 cm. Berapa tekanan terukur minyaknya? ||| 187 kPa
+Sebuah dongkrak hidraulik memiliki perbandingan luas 50 dan efisiensi 80%. Berapa gaya masukan untuk mengangkat 12 000 N? ||| 300 N
+Gaya 200 N mendorong piston kecil sejauh 0,50 m. Berapa jauh beban 12 000 N terangkat, jika tidak ada kerugian? ||| 8,3 mm
+
+## Subbab 6.5: Atmosfer
+
+> Gunakan tinggi skala 8,44 km dan tekanan permukaan laut 101,3 kPa.
+
+Berapa tekanan udara pada ketinggian 2000 m? ||| 79,9 kPa
+Pada ketinggian berapa tekanan udara menjadi setengah nilainya di permukaan laut? ||| 5,8 km
+Berapa penurunan tekanan udara ketika naik 50 m dari permukaan laut? ||| 0,59 kPa
+Tekanan di dalam kabin pesawat 75 kPa dan di luarnya 26 kPa. Berapa gaya total pada jendela berukuran 0,25 m × 0,35 m? ||| $4{,}3 \times 10^3$ N
+@didih **[P]** Perkirakan titik didih air pada ketinggian 3000 m. ($\Delta H_\text{uap} = 40{,}7$ kJ/mol.) ||| 90 °C
+Berapa massa udara di atas tiap meter persegi permukaan laut? ||| $1{,}03 \times 10^4$ kg
+Berapa tinggi skala untuk atmosfer hidrogen murni (2,016 g/mol) pada suhu dan gravitasi yang sama? ||| 121 km
+
+## Subbab 6.6: Hukum Archimedes
+
+Berapa gaya apung pada benda bervolume 0,50 liter yang terbenam seluruhnya dalam air? ||| 4,9 N
+Balok aluminium 2,7 kg terbenam seluruhnya dalam air. Berapa berat semunya? ||| 16,7 N
+Sebuah benda memiliki berat 30 N di udara dan berat semu 20 N di air. Berapa massa jenisnya? ||| 3000 kg/m³
+Benda pada soal sebelumnya memiliki berat semu 22 N dalam zat cair lain. Berapa massa jenis zat cair itu? ||| 800 kg/m³
+Kayu bermassa jenis $700\ \text{kg/m}^3$ terapung. Berapa bagian volumenya yang terbenam di (a) air; (b) minyak bermassa jenis $850\ \text{kg/m}^3$? ||| (a) 0,70; (b) 0,82
+Bagian gunung es yang muncul di atas permukaan laut bervolume 1000 m³. Berapa volume seluruh gunung es itu? ||| $9{,}5 \times 10^3$ m³
+Rakit dibuat dari 10 batang kayu, masing-masing 0,15 m³ dengan massa jenis $600\ \text{kg/m}^3$. Berapa beban terbesar yang dapat dibawanya di air tawar? ||| 600 kg
+Kubus kayu berusuk 10 cm dengan massa jenis $800\ \text{kg/m}^3$ terapung di air. (a) Berapa dalam bagian yang terbenam? (b) Berapa massa beban yang harus diletakkan di atasnya agar kubus tepat terbenam seluruhnya? ||| (a) 8,0 cm; (b) 0,20 kg
+Bola besi berongga bermassa 1,0 kg harus dapat melayang di air. Berapa jari-jari luarnya? ||| 6,2 cm
+Kapal dengan luas penampang 500 m² di garis air dimuati tambahan 100 ton. Berapa pertambahan kedalaman benamnya di air tawar? ||| 0,20 m
+Tongkang berbentuk kotak terbenam 4,00 m di sungai. Berapa perubahan kedalaman benamnya ketika masuk ke laut? ||| naik 9,8 cm
+Balon berisi 10 m³ helium ($0{,}179\ \text{kg/m}^3$) di udara ($1{,}20\ \text{kg/m}^3$). Berapa massa total selubung dan muatan yang dapat diangkatnya? ||| 10,2 kg
+Balon udara panas bervolume 2500 m³ harus mengangkat massa total 600 kg (tanpa udara di dalamnya). Udara luar $1{,}20\ \text{kg/m}^3$ pada 20 °C. Sampai suhu berapa udara di dalamnya harus dipanaskan? ||| 93 °C
+Etanol ($\rho = 0{,}789$ g/cm³) ditimbang di udara ($0{,}0012$ g/cm³) dengan neraca yang dikalibrasi dengan anak timbang baja ($8{,}0$ g/cm³). Neraca membaca 50,000 g. Berapa massa sebenarnya? ||| 50,069 g
+Hidrometer bermassa 15 g memiliki batang berpenampang 0,80 cm². Berapa panjang yang terbenam di (a) air; (b) zat cair bermassa jenis 1,10 g/cm³? ||| (a) 18,8 cm; (b) 17,0 cm
+Benda bermassa jenis $920\ \text{kg/m}^3$ melayang di bidang batas antara minyak ($900\ \text{kg/m}^3$) dan air. Berapa bagian volumenya yang berada di air? ||| 0,20
+Bola bermassa jenis $500\ \text{kg/m}^3$ dilepas dari diam di bawah air. Berapa percepatan awalnya, jika hambatan diabaikan? ||| $9{,}8\ \text{m/s}^2$ ke atas
+Balok kayu bervolume 4,0 liter dengan massa jenis $650\ \text{kg/m}^3$ ditahan terbenam dengan tali ke dasar kolam. Berapa tegangan talinya? ||| 13,7 N
+Benda bermassa jenis $2700\ \text{kg/m}^3$ dilepas dalam air. Berapa percepatan awalnya, jika hambatan diabaikan? ||| $6{,}2\ \text{m/s}^2$ ke bawah
+Gelas berisi air di atas timbangan terbaca 1,20 kg. Benda bervolume 150 cm³ yang digantung pada benang dicelupkan seluruhnya tanpa menyentuh dasar. Berapa bacaan timbangan sekarang? ||| 1,35 kg
+Batu 50 kg bermassa jenis $2800\ \text{kg/m}^3$ dibuang dari perahu ke kolam seluas 20 m² dan tenggelam. Berapa perubahan tinggi permukaan kolam? ||| turun 1,6 mm
+Jaringan tubuh seekor ikan laut 5,0 kg bermassa jenis $1070\ \text{kg/m}^3$. Berapa volume gas di gelembung renangnya agar ia melayang di air laut ($1025\ \text{kg/m}^3$)? ||| 205 mL
+@mahkota **[P]** Sebuah perhiasan bermassa 2,00 kg memiliki berat semu 18,3 N di dalam air. (a) Berapa massa jenisnya? (b) Jika terbuat dari emas dan perak, berapa bagian massanya yang emas? ||| (a) $1{,}51 \times 10^4$ kg/m³; (b) 67%
+Seseorang bermassa 70 kg memiliki berat semu 30 N ketika terbenam seluruhnya dalam air (paru-paru dikosongkan). Berapa massa jenis rata-rata tubuhnya? ||| 1046 kg/m³
+Kapal selam bervolume 2000 m³ bermassa $1{,}90 \times 10^6$ kg. Berapa massa air laut yang harus dimasukkan ke tangki pemberat agar kapal melayang? ||| $1{,}5 \times 10^5$ kg
+
+## Subbab 6.7: Tegangan permukaan
+
+> Gunakan $\gamma_\text{air} = 0{,}072$ N/m dan sudut kontak air–kaca 0°, kecuali disebutkan lain.
+
+Selaput sabun ($\gamma = 0{,}030$ N/m) terbentang pada bingkai dengan kawat geser sepanjang 8,0 cm. Berapa gaya selaput pada kawat? ||| $4{,}8 \times 10^{-3}$ N
+Cincin kawat tipis berjari-jari 1,5 cm diangkat mendatar dari permukaan air. Selaput air menempel di sisi dalam dan luar cincin. Berapa gaya tambahan terbesar (di luar berat cincin) untuk melepaskannya? ||| 0,0136 N
+Berapa kelebihan tekanan di dalam tetes air berjari-jari 0,50 mm? ||| 288 Pa
+Berapa kelebihan tekanan di dalam gelembung sabun berjari-jari 1,0 cm ($\gamma = 0{,}030$ N/m)? ||| 12 Pa
+Berapa kelebihan tekanan di dalam gelembung udara berjari-jari 10 μm di dalam air? ||| 14,4 kPa
+Seberapa tinggi air naik dalam pipa kaca berjari-jari 0,10 mm? ||| 14,7 cm
+Seberapa tinggi etanol ($\gamma = 0{,}022$ N/m, $\rho = 789\ \text{kg/m}^3$, $\theta = 0°$) naik dalam pipa berjari-jari 0,20 mm? ||| 2,8 cm
+Berapa penurunan permukaan raksa ($\gamma = 0{,}48$ N/m, $\theta = 140°$) dalam pipa kaca berjari-jari 0,50 mm? ||| 1,1 cm
+Air naik 3,0 cm dalam sebuah pipa kapiler kaca. Berapa jari-jari pipa itu? ||| 0,49 mm
+Zat cair bermassa jenis $870\ \text{kg/m}^3$ naik 2,4 cm dalam pipa berjari-jari 0,20 mm dengan sudut kontak 0°. Berapa tegangan permukaannya? ||| 0,020 N/m
+Berapa usaha untuk meniup gelembung sabun ($\gamma = 0{,}030$ N/m) dari jari-jari 1,0 cm menjadi 3,0 cm, hanya untuk menambah luas permukaannya? ||| $6{,}0 \times 10^{-4}$ J
+Ujung sebuah pipet berjari-jari luar 0,80 mm. Perkirakan massa satu tetes (a) air; (b) etanol ($\gamma = 0{,}022$ N/m). ||| (a) 37 mg; (b) 11 mg
+Berapa massa terbesar jarum sepanjang 5,0 cm yang masih dapat ditopang tegangan permukaan air? ||| 0,73 g
+Alveolus berjari-jari 0,050 mm dilapisi cairan dengan $\gamma = 0{,}030$ N/m. Berapa kelebihan tekanan di dalamnya? ||| 1200 Pa
+
+## Subbab 6.8: Zat cair yang dipercepat dan berputar
+
+Wadah berisi air dipercepat mendatar $3{,}0\ \text{m/s}^2$. Berapa sudut kemiringan permukaan airnya? ||| 17°
+Truk tangki sepanjang 6,0 m mengerem dengan perlambatan $4{,}0\ \text{m/s}^2$. Berapa beda tinggi permukaan zat cair antara ujung depan dan belakang (jika tangki cukup tinggi)? ||| 2,4 m
+Gelas silinder berjari-jari 0,10 m berisi air diputar pada sumbunya 3,0 putaran per sekon. Berapa beda tinggi air antara tepi dan tengah? ||| 0,18 m
+Sentrifus berputar 15 000 putaran per menit. Berapa kali $g$ percepatan pada jarak 6,0 cm dari sumbu? ||| $1{,}5 \times 10^4$
+Lift dipercepat ke atas $2{,}0\ \text{m/s}^2$. Berapa tekanan terukur pada kedalaman 0,50 m dalam ember air di lift itu? ||| 5,9 kPa
+Berapa tekanan terukur pada kedalaman 0,50 m dalam ember air yang sedang jatuh bebas? ||| nol
+
+## Subbab 6.9: Fluida statis di laboratorium
+
+Piknometer kosong bermassa 20,000 g. Berisi penuh air ($\rho = 0{,}998$ g/mL) massanya 45,000 g, dan berisi penuh zat cair X massanya 51,250 g. Berapa massa jenis X? ||| 1,248 g/mL
+Berapa tekanan osmotik larutan nonelektrolit 0,15 mol/L pada 310 K? Berapa tinggi kolom air yang setara? ||| $3{,}9 \times 10^5$ Pa; 39 m
+Sebanyak 1,0 g protein dilarutkan menjadi 50 mL larutan. Pada 298 K, larutan naik 5,0 cm dalam osmometer ($\rho = 1000\ \text{kg/m}^3$). Berapa massa molar protein itu? ||| $1{,}0 \times 10^5$ g/mol
+
+## Soal gabungan
+
+Gelembung udara naik dari dasar danau sedalam 30 m ke permukaan. Jika suhunya tetap, berapa kali volumenya membesar? (Untuk gas pada suhu tetap, $pV$ tetap.) ||| 3,9 kali
+@lompat **[P]** Bola bermassa jenis $400\ \text{kg/m}^3$ dilepas dari diam pada kedalaman 2,0 m di kolam. Abaikan hambatan air dan udara. (a) Berapa kelajuannya saat mencapai permukaan? (b) Seberapa tinggi ia melompat di atas permukaan? ||| (a) 7,7 m/s; (b) 3,0 m
+Kubus besi ($7870\ \text{kg/m}^3$) terapung di raksa ($13\,600\ \text{kg/m}^3$). Air dituangkan di atas raksa sampai menutupi kubus. Berapa bagian volume kubus yang berada di dalam raksa? ||| 0,545
+Balon kaku bervolume 5,0 m³ dan bermassa total 4,0 kg (termasuk gasnya) dilepas di permukaan laut, tempat massa jenis udara $1{,}20\ \text{kg/m}^3$. Massa jenis udara berkurang terhadap ketinggian dengan tinggi skala 8,44 km. Sampai ketinggian berapa balon naik? ||| 3,4 km
+Sebuah benda di udara terbaca 500 g pada neraca. Tergantung terbenam di air, bacaannya 300 g, dan terbenam di larutan garam, 280 g. Berapa massa jenis larutan garam itu? ||| 1100 kg/m³
+Air naik 5,9 cm dalam sebuah pipa kapiler di Bumi. Berapa kenaikannya di Bulan, tempat gravitasinya seperenam gravitasi Bumi? ||| 35 cm
+
+## Subbab 6.10: Kemampatan dan modulus limbak
+Berapa susut volume 2,0 L air yang tekanannya dinaikkan 50 MPa? ||| 45 mL
+Suatu zat cair menyusut 0,90% ketika tekanannya dinaikkan 200 atm. Berapa modulus limbaknya? ||| $2{,}3 \times 10^9$ Pa
+Berapa massa jenis air laut pada kedalaman 4000 m (massa jenis di permukaan 1025 kg/m³)? ||| 1044 kg/m³
+Berapa persen raksa menyusut pada tekanan 1000 atm? ||| 0,36%
+## Subbab 6.11: Tekanan osmotik
+Berapa tekanan osmotik larutan urea 0,20 mol/L pada 37 °C? ||| 5,1 atm
+Berapa tekanan osmotik larutan CaCl₂ 0,050 mol/L pada 25 °C (terurai sempurna)? ||| 3,7 atm
+@polimer Larutan polimer 2,5 g/L memiliki tekanan osmotik 0,85 mmHg pada 25 °C. Berapa massa molar polimer itu? ||| $5{,}5 \times 10^4$ g/mol
+Berapa gram NaCl tiap liter yang memberi tekanan osmotik 3,0 atm pada 20 °C? ||| 3,6 g
+Air payau berosmolaritas 0,10 osmol/L. Berapa tekanan osmotiknya pada 25 °C dan energi paling sedikit untuk menawarkan 1 m³? ||| 2,4 atm; 0,069 kW·h
+Berapa osmolaritas getah yang dapat mengangkat air setinggi 30 m dengan osmosis pada 25 °C? ||| 0,12 osmol/L
+Sel darah (0,30 osmol/L) dicelupkan ke larutan NaCl 0,50 mol/L pada 37 °C. Ke arah mana air mengalir, dan berapa beda tekanan osmotiknya? ||| keluar dari sel; 18 atm

@@ -1,0 +1,46 @@
+@@RINGKASAN
+| Indeks bias, hukum Snell | $n = c/v$; $\ n_1\sin\theta_1 = n_2\sin\theta_2$; frekuensi tetap, $\lambda = \lambda_0/n$ | 9.11 |
+| Pemantulan total | $\sin\theta_c = n_2/n_1$ (dari medium rapat ke renggang) | 9.11 |
+| Celah ganda, kisi | terang: $d\sin\theta = m\lambda$; $\ \Delta y = \lambda L/d$; daya pisah $R = Nm$ | 9.12 |
+| Difraksi celah tunggal | gelap pertama: $a\sin\theta = \lambda$ | 9.12 |
+| Polarisasi | Malus $I = I_0\cos^2\theta$; Brewster $\tan\theta_B = n$; aktivitas optik $\alpha = [\alpha]lc$ | 9.13 |
+@@KUIS
+**9.10** Menjauhi normal, karena indeks bias air lebih kecil daripada kaca. Ya, pemantulan total terjadi di atas sudut kritis 62,7°. **9.11** (a) Jarak antarpita membesar. (b) Mengecil, karena panjang gelombang biru lebih pendek. **9.12** Bunyi di udara adalah gelombang longitudinal: simpangannya searah rambat, sehingga tidak ada arah lain yang dapat dipilih.
+@@PERTANYAAN
+Ketika cahaya masuk dari udara ke air, besaran apa yang berubah dan apa yang tetap: laju, frekuensi, panjang gelombang?
+Mengapa intan berkilau jauh lebih terang daripada kaca yang dipotong dengan bentuk sama?
+Mengapa kisi difraksi menghasilkan garis spektrum yang jauh lebih tajam daripada celah ganda?
+Mengapa mikroskop cahaya tidak dapat memperlihatkan bentuk molekul protein, betapa pun sempurna lensanya?
+Bagaimana polarisasi cahaya membuktikan bahwa cahaya adalah gelombang transversal?
+Mengapa campuran rasemik tidak memutar bidang polarisasi cahaya?
+@@SOAL
+## Subbab 9.11: Pemantulan dan pembiasan
+Berapa laju cahaya dalam kaca berindeks 1,52, dan berapa panjang gelombang cahaya hijau 500 nm di dalamnya? ||| $1{,}97 \times 10^8$ m/s; 329 nm
+Cahaya dari udara jatuh pada kaca (n = 1,50) dengan sudut datang 45°. Berapa sudut biasnya? ||| 28,1°
+Cahaya dari dalam air menuju udara dengan sudut datang 40°. Berapa sudut biasnya? Apa yang terjadi jika sudut datangnya 50°? ||| 59,0°; dipantulkan seluruhnya
+Berapa sudut kritis untuk cahaya yang bergerak dari kaca (1,50) ke air (1,333)? ||| 62,7°
+Berapa sudut kritis benzena (n = 1,501) terhadap udara? ||| 41,8°
+Sudut kritis suatu bahan terhadap udara 42,0°. Berapa indeks biasnya? ||| 1,49
+## Subbab 9.12: Interferensi dan difraksi cahaya
+Pada percobaan celah ganda dengan $d = 0{,}25$ mm dan $L = 1{,}2$ m, jarak antarpita terang 3,0 mm. Berapa panjang gelombang cahayanya? ||| 625 nm
+Kisi 300 garis/mm disinari cahaya 500 nm. Pada sudut berapa orde pertama muncul? ||| 8,6°
+Kisi 1200 garis/mm memberi orde pertama pada 30,0°. Berapa panjang gelombang cahayanya? ||| 417 nm
+@pisah Spektrometer harus memisahkan dua garis berjarak 0,050 nm di sekitar 500 nm pada orde pertama. Berapa daya pisah yang diperlukan, dan berapa lebar kisi 1200 garis/mm yang harus disinari? ||| 10 000; 8,3 mm
+Cahaya 600 nm melewati celah tunggal selebar 0,050 mm. Berapa lebar pita terang tengah pada layar sejauh 1,0 m? ||| 24 mm
+## Subbab 9.13: Polarisasi
+Cahaya tak terpolarisasi 80 W/m² melewati tiga polaroid dengan sumbu 0°, 30°, dan 90°. Berapa intensitas yang keluar? ||| 7,5 W/m²
+Berapa sudut Brewster untuk permukaan benzena? ||| 56,3°
+Larutan 0,050 g/mL dalam tabung 2,0 dm memutar bidang polarisasi 5,0°. Berapa rotasi jenisnya? ||| 50° dm⁻¹ (g/mL)⁻¹
+@inversi Larutan sukrosa 0,10 g/mL dalam tabung 2,0 dm terhidrolisis sempurna menjadi glukosa (+52,7°) dan fruktosa (−92°). Berapa sudut putar akhirnya? (Massa molar sukrosa 342,3; glukosa dan fruktosa 180,2 g/mol.) ||| −4,1°
+@@PEMBAHASAN
+**Soal {{pisah}}.** $R = \dfrac{\lambda}{\Delta\lambda} = \dfrac{500}{0{,}050} = 10\,000$. Pada orde pertama, $N = R = 10\,000$ garis, yaitu kisi selebar $\dfrac{10\,000}{1200\ \text{mm}^{-1}} = 8{,}3$ mm.
+
+*Cara berpikir:* daya pisah tidak bergantung pada kerapatan garis, hanya pada **banyaknya** garis yang disinari dan ordenya. Kerapatan garis menentukan seberapa lebar spektrum terbentang (dispersi sudut), tetapi ketajaman tiap garis ditentukan oleh banyaknya gelombang yang berinterferensi.
+
+**Soal {{inversi}}.** Tiap mol sukrosa menghasilkan satu mol glukosa dan satu mol fruktosa. Konsentrasi massa masing-masing: $0{,}10 \times \dfrac{180{,}2}{342{,}3} = 0{,}0526$ g/mL. Putaran total:
+
+$$
+\alpha = l\,c\,\big([\alpha]_\text{glu} + [\alpha]_\text{fru}\big) = (2{,}0)(0{,}0526)(52{,}7 - 92) = -4{,}1° .
+$$
+
+*Cara berpikir:* putaran bersifat aditif: setiap zat kiral dalam larutan menyumbang sesuai konsentrasinya. Sudut berubah dari +13,3° menjadi −4,1°; dari bentuk kurva sudut terhadap waktu, tetapan laju hidrolisis dapat ditentukan.
