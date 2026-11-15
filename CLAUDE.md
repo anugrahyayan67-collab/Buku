@@ -13,6 +13,9 @@ Repo ini berisi naskah buku sains berbahasa Indonesia untuk mahasiswa kimia, dib
 - Hasil PDF dikirim ke penyusun lewat SendUserFile. PDF hasil akhir disimpan di folder `pdf/` (salin dari fisika-umum/ dan kimia-kuantum/ setelah cetak ulang); PDF lain tidak di-commit.
 - Jangan memasukkan data pribadi penyusun selain nama (tanpa tanggal lahir, tanpa surel) ke berkas mana pun.
 
+## Panduan susunan dan desain
+Semua buku mengikuti `PANDUAN-BUKU.md` (susunan bab, kotak, aturan penulisan, desain, alat cetak, langkah memulai buku baru).
+
 ## Model
 Lihat `PEMETAAN-MODEL.md`. Ringkas: **isi ditulis dengan Opus 5.5 (effort high, xhigh untuk bab tersulit); pekerjaan mesin dengan Sonnet 5.5.** Fable dan Haiku tidak dipakai.
 
