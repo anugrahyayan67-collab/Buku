@@ -25,7 +25,7 @@ Setelah mempelajari bab ini, kamu mampu:
 2. Menghubungkan kurva energi potensial dengan tetapan spektroskopi: $R_e$, $D_e$, $D_0$, tetapan gaya, dan tingkat rotasi–getaran.
 3. Menuliskan Hamiltonian H₂⁺ dan menjelaskan mengapa persamaan Schrödingernya dapat diselesaikan secara eksak dalam koordinat eliptik.
 4. Menurunkan energi LCAO H₂⁺ dan menghitung integral tumpang tindih, Coulomb, dan pertukaran.
-5. Menjelaskan asal orbital ikatan dan antiikatan, serta mengapa orbital antiikatan lebih tidak stabil daripada kestabilan orbital ikatan.
+5. Menjelaskan asal orbital ikatan dan antiikatan, serta mengapa destabilisasi orbital antiikatan lebih besar daripada stabilisasi orbital ikatan.
 6. Memberi label $\sigma$, $\pi$, $\delta$, $g$, $u$ pada orbital molekul diatom dan menggambar bentuknya.
 7. Menyusun konfigurasi elektron dan orde ikatan diatom homonuklir periode 2, lalu meramalkan panjang ikatan, energi ikatan, dan sifat magnetnya.
 8. Menjelaskan pencampuran s–p dan perbedaan urutan orbital N₂ dan O₂.

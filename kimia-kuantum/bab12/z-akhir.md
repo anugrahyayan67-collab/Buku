@@ -463,7 +463,7 @@ Determinan $\det(\mathbf H - E\mathbf I)$, diuraikan menurut baris pertama: $(-\
 
 **Soal 88.** Selisih energi kedua keadaan ion adalah $2\tau' = 2{,}12$ eV, sehingga periode $h/(2\tau') = 4{,}136 \times 10^{-15}\ \text{eV s}/2{,}12\ \text{eV} = 1{,}95$ fs. Untuk metana, $h/(4\tau) = 0{,}49$ fs.
 
-*Cara berpikir:* lubang pada pasangan bebas air berpindah empat kali lebih lambat daripada lubang pada ikatan C–H metana, karena kedua pasangan bebas air berinteraksi lebih lemah. Keduanya tetap jauh lebih cepat daripada getaran molekul (periode ulur O–H sekitar 9 fs), sehingga dalam spektrum fotoelektron biasa yang terlihat selalu keadaan ion yang terdelokalisasi. Percobaan attodetik modern (Bab 15) mulai dapat mengikuti gerak lubang seperti ini secara langsung.
+*Cara berpikir:* lubang pada pasangan bebas air berpindah empat kali lebih lambat daripada lubang pada ikatan C–H metana, karena kedua pasangan bebas air berinteraksi lebih lemah. Keduanya tetap jauh lebih cepat daripada getaran molekul (periode ulur O–H sekitar 9 fs), sehingga dalam spektrum fotoelektron biasa yang terlihat selalu keadaan ion yang terdelokalisasi. Percobaan attodetik modern mulai dapat mengikuti gerak lubang seperti ini secara langsung.
 
 # Bacaan lanjut
 
