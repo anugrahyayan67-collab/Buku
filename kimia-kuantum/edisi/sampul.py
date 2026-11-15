@@ -19,39 +19,33 @@ def latar(nama, cx, cy, sk, redup=1.0, w=8.27, h=11.69):
     for rr, al in [(2.2, .35), (3.4, .18)]:
         for k2, a2 in [(6, .05), (2.5, .2), (1, 1)]: ax.plot(cx + rr * np.cos(t), cy + rr * np.sin(t), color='#f2c25b', lw=0.8 * k2, alpha=al * a2 * redup)
     ax.set_xlim(0, w); ax.set_ylim(0, h); f.savefig(f'{K}/{nama}', transparent=True); plt.close(f)
-from matplotlib.patches import Polygon
-f = plt.figure(figsize=(7.4, 7.0), dpi=220); ax = f.add_axes([0, 0, 1, 1]); ax.axis('off'); ax.set_xlim(0, 10.6); ax.set_ylim(0, 10)
-for k, a2 in [(26, .04), (14, .08), (7, .18), (3, .6), (1.4, 1)]: ax.plot([0, 3.95], [3.1, 4.55], color='#ffffff' if k < 4 else '#d9d4ee', lw=k, alpha=a2, solid_capstyle='round')
-ax.plot([0, 3.95], [3.1, 4.55], color='#a9a4c4', lw=0.8)
-ax.add_patch(Polygon([(2.6, 1.6), (6.4, 1.6), (4.5, 7.6)], closed=True, fc='#eceaf7', ec='none', alpha=0.95))
-ax.add_patch(Polygon([(4.5, 7.6), (6.4, 1.6), (5.2, 1.6)], closed=True, fc='#dcd8f0', ec='none', alpha=0.9))
-ax.add_patch(Polygon([(2.6, 1.6), (6.4, 1.6), (4.5, 7.6)], closed=True, fc='none', ec='#8f89b0', lw=1.4))
-ax.plot([3.1, 4.3], [2.2, 6.4], color='white', lw=3, alpha=0.7)
-cols = ['#e8321e', '#f2781e', '#f5c71e', '#46c24f', '#1fa7d9', '#3b4ae0', '#7b2fc9']
-x0, y0, x1 = 5.05, 4.55, 9.0
-for i, c in enumerate(cols):
-    yt = 7.4 - i * 0.62; ax.fill([x0, x1, x1, x0], [y0 + 0.06, yt, yt - 0.62, y0 - 0.06], color=c, alpha=0.62, lw=0)
-import numpy as np
-yy = np.linspace(7.4 - 7 * 0.62, 7.4, 400)
-from matplotlib.colors import LinearSegmentedColormap
-cmv = LinearSegmentedColormap.from_list('v', cols[::-1])
-ax.imshow(cmv(np.linspace(0, 1, 400))[:, None, :].repeat(20, 1), extent=[9.0, 9.7, yy[0], yy[-1]], origin='lower', aspect='auto', zorder=3)
-for yl in [7.4 - 0.62 * 0.7, 7.4 - 0.62 * 2.6, 7.4 - 0.62 * 4.2, 7.4 - 0.62 * 5.1, 7.4 - 0.62 * 6.4]: ax.plot([9.0, 9.7], [yl, yl], color='#1e1548', lw=2.2, zorder=4)
+from numpy.polynomial import hermite as Hm
+f = plt.figure(figsize=(6.7, 6.2), dpi=220); ax = f.add_axes([0, 0, 1, 1]); ax.axis('off'); ax.set_xlim(-5.2, 5.2); ax.set_ylim(-0.6, 9.0)
+def neon(x, y, c, lw=2.0):
+    for k, a2 in [(10, .04), (5.5, .09), (2.6, .25), (1, 1)]: ax.plot(x, y, color=c, lw=lw * k, alpha=a2, solid_capstyle='round')
+x = np.linspace(-4.6, 4.6, 900)
+neon(x, 0.42 * x ** 2, '#e9e4ff', 1.6)
+pal = ['#5ce1e6', '#9d8cf0', '#f2c25b', '#5ce1e6', '#9d8cf0', '#f2c25b', '#5ce1e6', '#9d8cf0']
+for n in range(8):
+    E = 0.84 * (n + 0.5); xt = np.sqrt(E / 0.42); xs = np.linspace(-xt, xt, 2)
+    ax.plot(xs, [E, E], color='#cfc8f5', lw=0.8, alpha=0.45)
+    c = np.zeros(n + 1); c[n] = 1; z = x / 1.05; psi = Hm.hermval(z, c) * np.exp(-z ** 2 / 2); psi /= abs(psi).max()
+    m = np.abs(x) < xt + 1.6; neon(x[m], E + 0.36 * psi[m], pal[n], 1.3)
 f.savefig(f'{K}/sampul-latar.png', transparent=True); plt.close(f)
 daftar = ''.join(f'<li><b>{n}</b>{t}</li>' for n, t in JUDUL)
 open(f'{K}/sampul.html', 'w').write(f'''<!doctype html><html><head><meta charset="utf-8"><style>
 @page{{size:A4;margin:0}} body{{margin:0;font-family:Inter,sans-serif}}
-.pg{{width:210mm;height:297mm;position:relative;overflow:hidden;break-after:page;color:#1e1548;background:#ffffff}}
+.pg{{width:210mm;height:297mm;position:relative;overflow:hidden;break-after:page;color:#1e1548;background:#faf9fe}}
 .bar{{position:absolute;left:0;top:0;bottom:0;width:9mm;background:#1e1548}}
 .ed{{position:absolute;top:24mm;left:22mm;font-size:9pt;letter-spacing:6px;font-weight:800;color:#b9801a}}
 .pen{{position:absolute;top:24mm;right:18mm;font-size:9pt;font-weight:800;letter-spacing:6px;color:#1e1548}}
 .jd{{position:absolute;top:34mm;left:20mm;font-size:84pt;font-weight:900;line-height:.88;letter-spacing:-1px;color:#1e1548}}
 .jd span{{color:#4a3ab0}}
 .sb{{position:absolute;top:92mm;left:22mm;width:130mm;font-size:13pt;line-height:1.45;color:#4b4566;border-top:.6mm solid #d79a2b;padding-top:4mm}}
-.panel{{position:absolute;left:12mm;right:0;top:108mm;bottom:30mm}}
-.panel img{{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}}
+.panel{{position:absolute;left:22mm;right:18mm;top:118mm;bottom:22mm;background:radial-gradient(ellipse at 50% 60%,#3a2a85 0%,#221860 55%,#150f3d 100%)}}
+.panel img{{position:absolute;left:4%;top:5%;width:92%;height:90%;object-fit:contain}}
 .ln{{position:absolute;bottom:22mm;left:22mm;width:40mm;height:.7mm;background:#d79a2b}}
-.pers{{position:absolute;right:22mm;bottom:26mm;font-family:Caladea,serif;font-style:italic;font-size:13pt;color:rgba(221,214,250,.85)}}
+.pers{{position:absolute;right:6mm;bottom:4mm;font-family:Caladea,serif;font-style:italic;font-size:13pt;color:rgba(221,214,250,.85)}}
 .blk .isi{{position:absolute;top:24mm;left:22mm;right:20mm}}
 .blk h2{{font-size:18pt;font-weight:900;margin:0 0 6mm 0;text-transform:uppercase;letter-spacing:1.5px;line-height:1.2;color:#1e1548}} .blk h2 span{{color:#4a3ab0}}
 .blk p{{font-size:10.5pt;line-height:1.6;color:#2b2545;margin:0 0 3.5mm 0;font-family:Caladea,serif}}
@@ -63,7 +57,7 @@ open(f'{K}/sampul.html', 'w').write(f'''<!doctype html><html><head><meta charset
 <div class="pg"><div class="bar"></div><div class="ed">EDISI PERTAMA</div><div class="pen">SEPTIAN ANUGRAH DWI PUTRA</div>
 <div class="jd">KIMIA<br><span>KUANTUM</span></div>
 <div class="sb">dari persamaan Schrödinger sampai kimia komputasi</div>
-<div class="panel"><img src="sampul-latar.png"></div><div class="ln"></div></div>
+<div class="panel"><img src="sampul-latar.png"><div class="pers">Ĥψ = Eψ</div></div></div>
 <div class="pg blk"><div class="bar"></div><div class="isi"><h2>Mengapa atom <span>membentuk molekul?</span></h2>
 <p>Buku ini menjawab pertanyaan-pertanyaan terdalam kimia dengan mekanika kuantum: mengapa metana tetrahedral, mengapa O₂ paramagnetik, mengapa benzena luar biasa mantap, mengapa larutan kompleks berwarna, dan bagaimana komputer meramalkan struktur molekul.</p>
 <p>Setiap hasil diturunkan langkah demi langkah dan langsung dikaitkan dengan kimia: spektroskopi, ikatan, reaktivitas, sifat periodik. Setiap gagasan diikuti contoh soal yang diselesaikan dan diperiksa kewajarannya, dan sejak bab-bab awal pembaca diajak menghitung sendiri dengan Python.</p>
