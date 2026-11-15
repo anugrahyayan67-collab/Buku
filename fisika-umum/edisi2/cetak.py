@@ -314,5 +314,5 @@ w.add_outline_item('Lampiran B  Ringkasan Matematika', off + MULAI['lampiran'] +
 w.add_outline_item('Indeks', off + MULAI['indeks'])
 w.add_metadata({'/Title': 'Fisika Umum, Edisi Pertama', '/Subject': 'Fisika dasar untuk mahasiswa kimia dan sains'})
 w.page_mode = '/UseOutlines'
-out = f'{R}/Fisika-Umum-Edisi-1.pdf'; w.write(out)
+out = f'{R}/Fisika-Umum-Edisi-1' + ('-cetak' if CETAK else '') + '.pdf'; w.write(out)
 print('selesai:', out, len(w.pages), 'halaman; isi arab', hal - 1)

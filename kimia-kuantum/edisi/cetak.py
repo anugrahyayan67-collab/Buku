@@ -324,5 +324,5 @@ for x in sorted(LJ): w.add_outline_item(f'Lampiran {x}  {LJ[x][0]}', off + MULAI
 w.add_outline_item('Indeks', off + MULAI['indeks'])
 w.add_metadata({'/Title': 'Kimia Kuantum, Edisi Pertama', '/Author': 'Septian Anugrah Dwi Putra', '/Subject': 'Kimia kuantum untuk mahasiswa kimia'})
 w.page_mode = '/UseOutlines'
-out = f'{R}/Kimia-Kuantum-Edisi-1.pdf'; w.write(out)
+out = f'{R}/Kimia-Kuantum-Edisi-1' + ('-cetak' if CETAK else '') + '.pdf'; w.write(out)
 print('selesai:', out, len(w.pages), 'halaman; isi arab', hal - 1)
