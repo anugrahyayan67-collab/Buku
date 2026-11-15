@@ -265,7 +265,7 @@ M = [2, 1, 0, -1, -2]
 SO = [(m, s) for s in (1, -1) for m in M]            # 10 spin-orbital
 
 @lru_cache(None)
-def ck(k, m1, m2):                                    # koefisien Gaunt c^k(2m1, 2m2)
+def ck(k, m1, m2):                       # koefisien Gaunt c^k(2m1, 2m2)
     return float((-1)**m1 * 5 * wigner_3j(2, k, 2, 0, 0, 0)
                  * wigner_3j(2, k, 2, -m1, m1 - m2, m2))
 
@@ -281,7 +281,8 @@ def integral(B, C, Dq):
     for p, q, r, t in itertools.product(range(10), repeat=4):
         (m1, s1), (m2, s2), (m3, s3), (m4, s4) = SO[p], SO[q], SO[r], SO[t]
         if s1 == s3 and s2 == s4 and m1 + m2 == m3 + m4:
-            g[p, q, r, t] = sum(ck(k, m1, m3) * ck(k, m4, m2) * F[k] for k in (2, 4))
+            g[p, q, r, t] = sum(ck(k, m1, m3) * ck(k, m4, m2) * F[k]
+                                for k in (2, 4))
     return h, g
 
 def operasi(ops, det):                    # terapkan a+ / a dari kanan ke kiri

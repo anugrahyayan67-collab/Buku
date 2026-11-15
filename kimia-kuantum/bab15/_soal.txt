@@ -1,0 +1,217 @@
+## Subbab 15.1: Koefisien Einstein
+
+> Pakai $hc/k = 1{,}4388$ cm K, $kT/hc = 207{,}2$ cm⁻¹ pada 298 K, 1 D = $3{,}3356 \times 10^{-30}$ C m, dan 1 cm⁻¹ = 0,011 963 kJ/mol. Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab.
+
+**Dasar**
+
+Dua transisi mempunyai momen dipol transisi yang sama, satu pada 500 nm dan satu pada 5 µm. Berapa perbandingan koefisien $A$ keduanya? Bagaimana dengan $B$? ||| $A$: 1000; $B$: sama
+Suatu keadaan tereksitasi hanya meluruh secara radiatif dengan $A = 2{,}5 \times 10^8$ s⁻¹. Berapa umurnya? ||| 4,0 ns
+Hitung perbandingan laju emisi terangsang terhadap spontan oleh radiasi termal 300 K untuk transisi 1000 cm⁻¹. ||| 0,0083
+
+**Menengah**
+
+Hitung $A$ dan umur radiatif untuk transisi 400 nm dengan $|\boldsymbol\mu_{21}| = 1{,}0$ D. ||| $4{,}9 \times 10^6$ s⁻¹; 204 ns
+Keadaan tereksitasi yang memancar pada 500 nm berumur radiatif 2,0 ns. Berapa $|\boldsymbol\mu_{21}|$? ||| 14 D
+Untuk transisi 3s → 3p natrium, $g_1 = 2$ dan $g_2 = 6$. Berapa $B_{12}/B_{21}$? ||| 3
+
+**Tantangan ★**
+
+★ Pada suhu berapa radiasi benda hitam membuat laju emisi terangsang sama dengan laju emisi spontan untuk transisi 500 nm? ||| $T = h\nu/k\ln2 = 41\,500$ K
+
+## Subbab 15.2: Hukum Beer–Lambert dan kekuatan osilator
+
+**Dasar**
+
+Larutan dengan $\varepsilon = 12\,000$ L mol⁻¹ cm⁻¹ mempunyai absorbans 0,80 dalam kuvet 1 cm. Berapa konsentrasinya? ||| $6{,}7 \times 10^{-5}$ M
+Nyatakan $\varepsilon = 50\,000$ L mol⁻¹ cm⁻¹ sebagai penampang lintang dalam cm². ||| $1{,}9 \times 10^{-16}$ cm²
+Berapa persen cahaya yang diteruskan sampel dengan absorbans 2,0? ||| 1%
+
+**Menengah**
+
+Hitung kekuatan osilator pita Gauss dengan $\varepsilon_\text{maks} = 25\,000$ dan lebar setengah 3000 cm⁻¹. ||| 0,34
+Berapa $|\boldsymbol\mu_{12}|$ (dalam D) untuk pita pada soal sebelumnya bila berpusat di 25 000 cm⁻¹? ||| 5,4 D
+Indikator $5{,}0 \times 10^{-5}$ M mempunyai titik isosbestik dengan $\varepsilon = 8000$. Berapa absorbans di titik itu pada pH berapa pun (kuvet 1 cm)? ||| 0,40
+
+**Tantangan ★**
+
+@trk [P] ★ Tunjukkan dengan (15.8) bahwa elektron yang terikat pada osilator harmonik isotropik tiga dimensi mempunyai kekuatan osilator tepat 1 untuk transisi $v = 0 \to 1$, sesuai aturan jumlah Thomas–Reiche–Kuhn. ||| $f = \tfrac23\omega \cdot 3 \cdot \tfrac{1}{2\omega} = 1$ (satuan atom)
+
+## Subbab 15.3: Lebar garis
+
+**Dasar**
+
+Berapa lebar alami (dalam MHz) transisi dari keadaan berumur 10 ns? ||| 15,9 MHz
+Garis kabur selebar 0,50 cm⁻¹ berasal dari keadaan yang berumur berapa? ||| 10,6 ps
+Bila suhu gas dilipatduakan, berapa kali lebar Doppler berubah? ||| $\sqrt2 = 1{,}41$ kali
+
+**Menengah**
+
+Hitung lebar Doppler garis H$_\alpha$ (656,3 nm) atom hidrogen pada 300 K dalam GHz dan cm⁻¹. ||| 5,6 GHz; 0,19 cm⁻¹
+@dop [P] Hitung lebar Doppler garis CO $J = 1 \to 0$ pada 300 K dan bandingkan dengan 20 K (Contoh 15.12). ||| 270 kHz; $\sqrt{15} = 3{,}9$ kali
+Setengah lebar tekanan suatu garis 0,08 cm⁻¹ per atm dan lebar Doppler-nya 0,006 cm⁻¹. Pada tekanan berapa lebar penuh Lorentz sama dengan lebar Doppler? ||| 0,038 atm
+
+**Tantangan ★**
+
+★ Taksir lebar profil Voigt bila lebar Gauss 2 dan lebar Lorentz 1 (satuan sembarang). ||| 2,59
+
+## Subbab 15.4: Spektroskopi rotasi lanjut
+
+**Dasar**
+
+Golongkan sebagai rotor linear, simetris lonjong, simetris pipih, bola, atau tak simetris: NH₃, CH₃Cl, CH₄, H₂O, C₆H₆, CO₂. ||| pipih, lonjong, bola, tak simetris, pipih, linear
+Hitung letak garis Raman rotasi pertama dan jarak antargaris CO₂ ($B = 0{,}3902$ cm⁻¹). ||| $6B = 2{,}34$ cm⁻¹; $8B = 3{,}12$ cm⁻¹
+Hitung parameter Ray untuk formaldehida ($A = 9{,}406$, $B = 1{,}295$, $C = 1{,}134$ cm⁻¹). ||| $-0{,}961$ (hampir lonjong)
+
+**Menengah**
+
+Berapa geseran Stark komponen $M = 0 \to 0$ garis $J = 1 \leftarrow 0$ OCS dalam medan 2000 V/cm (Contoh 15.17)? ||| 22,7 MHz
+@hcn [P] Tetapan rotasi H¹²C¹⁴N dan D¹²C¹⁴N adalah 44 315,98 MHz dan 36 207,46 MHz. Tentukan panjang ikatan C–H dan C≡N. ||| C–H 1,062 Å; C≡N 1,157 Å
+Garis Raman rotasi N₂ mana yang paling kuat pada 77 K? ||| $J = 4$ (geseran 43,8 cm⁻¹)
+
+**Tantangan ★**
+
+★ Dengan (15.17), hitung geseran komponen $M = 0 \to \pm1$ garis $J = 1 \leftarrow 0$ OCS dalam medan 1000 V/cm. ||| $21{,}31(\tfrac16 - \tfrac1{20}) = 2{,}49$ MHz
+
+## Subbab 15.5: Spektroskopi vibrasi IR
+
+**Dasar**
+
+Berapa banyak mode normal C₆H₆, CO₂, HCN, dan CH₃Cl? ||| 30; 4; 4; 9
+BF₃ ($D_{3h}$) mempunyai mode $a_1'$, $a_2''$, dan dua $e'$. Berapa pita dasar yang aktif IR? ||| 3 ($a_2''$ dan kedua $e'$)
+Pita dasar HCl di 2886 cm⁻¹. Nada atasnya teramati di 5668 cm⁻¹. Mengapa bukan 5772 cm⁻¹? ||| anharmonisitas
+
+**Menengah**
+
+Taksir jarak puncak cabang P dan R pita $\nu_3$ CH₄ ($B = 5{,}24$ cm⁻¹) pada 298 K dengan rumus $\sqrt{8BkT/hc}$. ||| 93 cm⁻¹
+Dua pita resonansi Fermi di 2800 dan 2720 cm⁻¹ dengan perbandingan intensitas 1,5 : 1 (yang atas lebih kuat). Tentukan $E_a$, $E_b$, dan $W$. ||| $E_a = 2768$, $E_b = 2752$, $W = 39$ cm⁻¹
+Berapa resolusi spektrometer FTIR dengan beda lintasan maksimum 8 cm? ||| 0,125 cm⁻¹
+
+**Tantangan ★**
+
+@hcl [P] ★ Dari pita dasar HCl (2885,98 cm⁻¹) dan nada atasnya (5667,98 cm⁻¹), tentukan $\omega_e$ dan $\omega_ex_e$, lalu ramalkan nada atas kedua. ||| $\omega_ex_e = 51{,}99$; $\omega_e = 2989{,}96$; $3\omega_e - 12\omega_ex_e = 8346$ cm⁻¹
+
+## Subbab 15.6: Spektroskopi Raman
+
+**Dasar**
+
+Mode CO₂ mana yang aktif Raman? ||| hanya ulur simetris $\nu_1$
+Laser 785 nm dipakai untuk mengamati mode 1000 cm⁻¹. Di panjang gelombang berapa garis Stokes-nya? ||| 852 nm
+Apa arti rasio depolarisasi 0,75? ||| mode tidak bersetangkup penuh (terdepolarisasi)
+
+**Menengah**
+
+Hitung perbandingan anti-Stokes/Stokes untuk mode 1000 cm⁻¹ dengan laser 532 nm pada 298 K. ||| 0,012
+@termo [P] Perbandingan anti-Stokes/Stokes garis 459 cm⁻¹ CCl₄ dengan laser 532 nm terukur 0,20. Berapa suhu sampel? ||| 366 K
+Dengan menganggap intensitas sebanding $\tilde\nu^4$ (cahaya terhambur), berapa kali hamburan Raman mode 1000 cm⁻¹ lebih kuat dengan laser 532 nm dibanding 785 nm? ||| 5,3
+
+**Tantangan ★**
+
+★ Bila medan lokal pada celah partikel nano perak 30 kali medan laser, taksir faktor penguatan SERS. ||| $30^4 = 8 \times 10^5$
+
+## Subbab 15.7: Spektroskopi elektronik dan prinsip Franck–Condon
+
+**Dasar**
+
+Hitung faktor Franck–Condon $v' = 0$, 1, 2 untuk $S = 0{,}5$. ||| 0,607; 0,303; 0,076
+Transisi mana yang diizinkan: $^1\Sigma_g^+ \to {}^1\Sigma_u^+$; $^1\Sigma_g^+ \to {}^1\Pi_g$; $^3\Sigma_g^- \to {}^3\Pi_u$? ||| ya; tidak ($g \to g$); ya
+Pita elektronik terdegradasi ke ungu. Apakah ikatan memanjang atau memendek dalam keadaan tereksitasi? ||| memendek ($B' > B''$)
+
+**Menengah**
+
+Untuk transisi π→π* dengan $S = 1{,}0$ dalam mode ulur C=C (1400 cm⁻¹, massa tereduksi efektif 6 u), hitung perubahan panjang ikatan. ||| $\Delta r = \sqrt{2S}\sqrt{\hbar/\mu\omega} = 9{,}0$ pm
+Batas konvergensi pita B–X I₂ berada di 20 043 cm⁻¹ dan atom I* berada 7603 cm⁻¹ di atas I. Hitung $D_0$ keadaan X dalam cm⁻¹ dan eV. ||| 12 440 cm⁻¹; 1,542 eV
+Dalam progresi Poisson, perbandingan intensitas komponen $v' = 1$ dan $v' = 0$ adalah 0,8. Berapa $S$ dan pergeseran tak berdimensi $d$? ||| $S = 0{,}8$; $d = 1{,}26$
+
+**Tantangan ★**
+
+@fc [P] ★ Tunjukkan bahwa untuk osilator tergeser, energi rata-rata progresi di atas komponen 0–0 adalah $S\hbar\omega$, sama dengan energi reorganisasi $\lambda$. Hitung $\lambda$ untuk $S = 15$ dan $\tilde\nu = 125{,}7$ cm⁻¹. ||| $\langle v'\rangle = S$; $\lambda = 1886$ cm⁻¹
+
+## Subbab 15.8: Fluoresensi, fosforesensi, diagram Jablonski
+
+**Dasar**
+
+Suatu fluorofor mempunyai $\Phi_f = 0{,}25$ dan $\tau_f = 5{,}0$ ns. Hitung $k_f$ dan $k_\text{nr}$. ||| $5{,}0 \times 10^7$ dan $1{,}5 \times 10^8$ s⁻¹
+Apa yang diramalkan aturan Kasha tentang spektrum fluoresensi bila panjang gelombang eksitasi diubah dari 300 ke 350 nm? ||| bentuk spektrum tidak berubah
+Berapa efisiensi FRET bila jarak donor–akseptor $R_0/2$? ||| 0,985
+
+**Menengah**
+
+@sv [P] Dalam air jenuh udara, [O₂] = 0,27 mM. Dengan $k_q = 1{,}0 \times 10^{10}$ L mol⁻¹ s⁻¹, hitung $I_0/I$ untuk fluorofor dengan $\tau_0 = 10$ ns dan untuk pirena dengan $\tau_0 = 450$ ns. ||| 1,03; 2,2
+Taksir $k_f$ dan $\tau_0$ dengan rumus Strickler–Berg untuk pita dengan $\varepsilon_\text{maks} = 10\,000$, lebar 3000 cm⁻¹, $\tilde\nu = 25\,000$ cm⁻¹, dan $n = 1{,}4$. ||| $1{,}1 \times 10^8$ s⁻¹; 8,9 ns
+Hitung umur radiatif alami $\tau_0 = \tau_f/\Phi_f$ bila $\Phi_f = 0{,}50$ dan $\tau_f = 8{,}0$ ns. ||| 16 ns
+
+**Tantangan ★**
+
+★ Dalam kaca 77 K, $\Phi_\text{ISC} = 0{,}9$, laju fosforesensi $T_1$ 0,1 s⁻¹, dan laju peluruhan tanpa radiasi $T_1$ 0,4 s⁻¹. Hitung $\Phi_P$ dan $\tau_P$. ||| 0,18; 2,0 s
+
+## Subbab 15.9: UV-Vis senyawa organik
+
+**Dasar**
+
+Pita A berpuncak di 280 nm dengan $\varepsilon = 20$, pita B di 220 nm dengan $\varepsilon = 20\,000$. Mana n→π* dan mana π→π*? ||| A n→π*; B π→π*
+Ramalkan $\lambda_\text{maks}$ 2,3-dimetil-1,3-butadiena dengan aturan Woodward–Fieser (teramati 226 nm). ||| $214 + 2 \times 5 = 224$ nm
+Ramalkan $\lambda_\text{maks}$ sikloheks-2-enon (teramati sekitar 225 nm). ||| $215 + 12 = 227$ nm
+
+**Menengah**
+
+Pita n→π* suatu keton bergeser dari 290 nm (heksana) ke 280 nm (metanol). Hitung geseran energinya dalam cm⁻¹ dan kJ/mol. ||| 1230 cm⁻¹; 14,7 kJ/mol
+Hitung $\lambda$ menurut model elektron bebas untuk heksatriena ($N = 6$, $L = 7 \times 1{,}40$ Å) dan bandingkan dengan nilai teramati sekitar 258 nm. ||| 452 nm; terlalu panjang
+Mengapa pita asal 0–0 transisi 254 nm benzena hampir tidak tampak, dan komponen pertama yang kuat berada di 38 607 cm⁻¹? ||| terlarang simetri; diizinkan vibronik dengan satu kuantum $\nu_6$ ($e_{2g}$, 521 cm⁻¹)
+
+**Tantangan ★**
+
+★ Untuk poliena tak hingga dengan $\beta$ ikatan rangkap $-3{,}0$ eV dan tunggal $-2{,}0$ eV, celah HOMO–LUMO Hückel adalah $2|\beta_1 - \beta_2|$. Hitung celahnya dan panjang gelombang batas serapannya. ||| 2,0 eV; 620 nm
+
+## Subbab 15.10: Laser
+
+**Dasar**
+
+Berapa jarak antarmode rongga sepanjang 1,5 m? ||| 100 MHz
+Berapa energi foton laser Nd:YAG (1064 nm) dalam eV? ||| 1,165 eV
+Manakah laser tiga tingkat dan empat tingkat: rubi, Nd:YAG? ||| rubi tiga tingkat; Nd:YAG empat tingkat
+
+**Menengah**
+
+Ulangi Contoh 15.40 dengan $R_2 = 0{,}99$. ||| $1{,}8 \times 10^{15}$ cm⁻³
+Hitung panjang koherensi cahaya 633 nm dengan lebar spektrum 0,010 nm. ||| 4,0 cm
+Berapa lebar spektrum minimum (dalam nm) pulsa Gauss 50 fs di 800 nm? ||| 18,8 nm
+
+**Tantangan ★**
+
+★ Berkas laser 532 nm dengan pinggang berkas 1,0 mm diarahkan ke Bulan (jarak $3{,}84 \times 10^8$ m). Taksir jari-jari bintik cahayanya. ||| $\theta = 0{,}17$ mrad; sekitar 65 km
+
+## Subbab 15.11: Spektroskopi fotoelektron
+
+**Dasar**
+
+Berapa energi kinetik fotoelektron dari orbital $1b_1$ air (12,62 eV) bila memakai He II (40,81 eV)? ||| 28,19 eV
+Menurut teorema Koopmans, berapa energi ionisasi dari orbital dengan $\varepsilon = -0{,}500$ hartree? ||| 13,6 eV
+Jenis orbital apa yang memberi pita fotoelektron tajam dengan komponen 0–0 dominan? ||| tak berikatan
+
+**Menengah**
+
+Pisahan getaran ion O₂⁺ (1905 cm⁻¹) lebih besar daripada O₂ (1580 cm⁻¹). Apa sifat orbital yang dikosongkan? ||| antiikatan ($1\pi_g^*$)
+Dengan Al K$\alpha$ dan fungsi kerja 4,5 eV, berapa energi kinetik fotoelektron O 1s (energi ikat 532,0 eV)? ||| 950,1 eV
+Pita pertama fotoelektron HCl mempunyai pisahan 2670 cm⁻¹, dibanding 2886 cm⁻¹ pada HCl. Apa sifat orbital 3p klorin yang tegak lurus ikatan? ||| hampir tak berikatan (sedikit berikatan)
+
+**Tantangan ★**
+
+@n2 [P] ★ Dari faktor Franck–Condon pita $A$ N₂⁺ (0,27; 0,39; 0,24; ...), taksir $S$ dengan model Poisson ($I_1/I_0 = S$) dan hitung perubahan panjang ikatan ($\tilde\nu = 1904$ cm⁻¹, $\mu = 7{,}00$ u). Bandingkan dengan 0,077 Å. ||| $S = 1{,}44$; $\Delta r = 0{,}085$ Å
+
+## Subbab 15.12: Spektroskopi resolusi waktu
+
+**Dasar**
+
+Berapa jauh cahaya menempuh dalam 100 fs? ||| 30 µm
+Berapa periode paket gelombang untuk getaran 200 cm⁻¹? ||| 167 fs
+Berapa lebar spektrum minimum pulsa Gauss 25 fs dalam cm⁻¹? ||| 588 cm⁻¹
+
+**Menengah**
+
+Berapa tingkat getaran keadaan B I₂ ($\Delta G \approx 110$ cm⁻¹) yang tercakup oleh pulsa 50 fs? ||| sekitar 2–3
+Hitung waktu kebangkitan paket gelombang dalam potensial Morse dengan $\omega_ex_e = 2{,}0$ cm⁻¹. ||| 16,7 ps
+Isomerisasi retinal berlangsung sekitar 200 fs. Berapa periode getaran ulur C=C (1550 cm⁻¹) yang terjadi selama itu? ||| sekitar 9
+
+**Tantangan ★**
+
+@nai [P] ★ Dalam NaI, paket gelombang berosilasi dengan periode 1,25 ps, dan setiap kali melewati daerah persilangan 10% populasinya terdisosiasi. Berapa fraksi yang tersisa setelah 5 periode, dan kapan separuh molekul telah terurai? ||| 0,59; 6,6 periode = 8,2 ps

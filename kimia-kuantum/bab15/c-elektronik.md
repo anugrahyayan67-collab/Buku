@@ -9,13 +9,13 @@ Transisi elektronik molekul menyerap di daerah tampak dan ultraviolet. Dalam fas
 Dalam hampiran Born–Oppenheimer (subbab 11.1), fungsi gelombang molekul adalah hasil kali fungsi elektronik (yang bergantung secara parametrik pada koordinat inti $\mathbf R$) dan fungsi getaran: $\Psi = \psi_\text{el}(\mathbf r; \mathbf R)\chi_v(\mathbf R)$. Operator momen dipol adalah jumlah bagian elektron dan bagian inti, $\hat{\boldsymbol\mu} = -e\sum_i\mathbf r_i + e\sum_AZ_A\mathbf R_A$. Momen dipol transisi antara keadaan $(\text{el}'', v'')$ dan $(\text{el}', v')$ menjadi
 
 $$
-\boldsymbol\mu_{fi} = \int\chi_{v'}^*\left[\int\psi_\text{el}'^*\hat{\boldsymbol\mu}\,\psi_\text{el}''\,d\mathbf r\right]\chi_{v''}\,d\mathbf R . \qquad \text{(15.ef1)}
+\boldsymbol\mu_{fi} = \int\chi_{v'}^*\left[\int\psi_\text{el}'^*\hat{\boldsymbol\mu}\,\psi_\text{el}''\,d\mathbf r\right]\chi_{v''}\,d\mathbf R . \qquad \text{(15.27)}
 $$
 
 Suku inti tidak menyumbang, karena fungsi elektronik yang berbeda ortogonal pada setiap $\mathbf R$. Integral dalam kurung adalah momen dipol transisi elektronik $\boldsymbol\mu_\text{el}(\mathbf R)$, yang biasanya berubah perlahan dengan geometri. Bila ia dianggap tetap, ia dapat dikeluarkan dari integral:
 
 $$
-\boldsymbol\mu_{fi} \approx \boldsymbol\mu_\text{el}\int\chi_{v'}^*\chi_{v''}\,d\mathbf R, \qquad I_{v'v''} \propto |\boldsymbol\mu_\text{el}|^2\,|\langle v'|v''\rangle|^2 . \qquad \text{(15.ef2)}
+\boldsymbol\mu_{fi} \approx \boldsymbol\mu_\text{el}\int\chi_{v'}^*\chi_{v''}\,d\mathbf R, \qquad I_{v'v''} \propto |\boldsymbol\mu_\text{el}|^2\,|\langle v'|v''\rangle|^2 . \qquad \text{(15.28)}
 $$
 
 Besaran $|\langle v'|v''\rangle|^2$ disebut **faktor Franck–Condon**. Karena fungsi getaran $\chi_{v'}$ untuk satu keadaan elektronik membentuk himpunan lengkap, jumlah faktor Franck–Condon atas semua $v'$ (termasuk kontinuum di atas batas disosiasi) sama dengan 1: intensitas total pita ditentukan oleh $|\boldsymbol\mu_\text{el}|^2$, dan faktor Franck–Condon hanya **membagi** intensitas itu di antara puncak-puncak getaran.
@@ -31,7 +31,7 @@ Transisi elektronik berlangsung sangat cepat (sekitar $10^{-15}$ s) dibanding ge
 Bila kedua keadaan elektronik mempunyai frekuensi getaran yang sama, tetapi posisi setimbangnya tergeser sejauh $\Delta r$, faktor Franck–Condon dari $v'' = 0$ dapat dihitung secara tepat. Dengan pergeseran tak berdimensi $d = \Delta r\sqrt{\mu\omega/\hbar}$ dan **faktor Huang–Rhys** $S = d^2/2$,
 
 $$
-|\langle v'|0\rangle|^2 = e^{-S}\frac{S^{v'}}{v'!} , \qquad \text{(15.ef3)}
+|\langle v'|0\rangle|^2 = e^{-S}\frac{S^{v'}}{v'!} , \qquad \text{(15.29)}
 $$
 
 yaitu distribusi Poisson dengan rata-rata $S$. Bila $S \ll 1$ (geometri hampir tidak berubah), hampir seluruh intensitas jatuh pada transisi 0–0 dan pita tampak sebagai satu puncak tajam. Bila $S$ besar, intensitas tersebar pada progresi panjang dengan puncak di sekitar $v' \approx S$, dan energi puncak itu kira-kira sama dengan energi transisi tegak dari dasar sumur bawah.
@@ -49,19 +49,19 @@ Kuadrat koefisien adalah $e^{-d^2/2}(d^2/2)^v/v! = e^{-S}S^v/v!$. Keadaan sepert
 :::
 
 ::: {.contoh}
-**Contoh 15.c1 · Progresi Poisson**
+**Contoh 15.28 · Progresi Poisson**
 
 Hitung faktor Franck–Condon $v' = 0$ sampai 6 untuk $S = 2{,}0$. Komponen mana yang terkuat?
 
-**Penyelesaian.** $e^{-2} = 0{,}1353$. Dengan (15.ef3): 0,135; 0,271; 0,271; 0,180; 0,090; 0,036; 0,012.
+**Penyelesaian.** $e^{-2} = 0{,}1353$. Dengan (15.29): 0,135; 0,271; 0,271; 0,180; 0,090; 0,036; 0,012.
 
 **Memahami hasil.** Komponen $v' = 1$ dan 2 sama kuat dan menjadi puncak. Komponen 0–0 hanya 13,5% dari total. Spektrum serapan seperti ini, dengan puncak-puncak berjarak $\tilde\nu'$ (frekuensi keadaan atas) dan selubung yang naik lalu turun, khas untuk transisi yang mengubah panjang ikatan sedang, misalnya transisi π→π* yang memperpanjang ikatan C=C sekitar 5–10 pm. Mengukur perbandingan intensitas puncak memberi $S$, dan dari $S$ diperoleh besar perubahan geometri, keterangan yang sulit diperoleh dengan cara lain untuk keadaan tereksitasi yang berumur nanodetik.
 :::
 
-![Gambar 15.g5 Prinsip Franck–Condon. (a) Kurva energi potensial keadaan dasar X dan keadaan tereksitasi B molekul I₂ (model Morse); panah tegak dari $v'' = 0$ jatuh di daerah $v' \approx 30$. (b) Faktor Franck–Condon yang dihitung untuk model Morse (batang biru) dan untuk model harmonik (batang jingga): anharmonisitas menggeser puncak ke $v'$ yang lebih tinggi.](fig/c_franck.png){width=94%}
+![Gambar 15.5 Prinsip Franck–Condon. (a) Kurva energi potensial keadaan dasar X dan keadaan tereksitasi B molekul I₂ (model Morse); panah tegak dari $v'' = 0$ jatuh di daerah $v' \approx 30$. (b) Faktor Franck–Condon yang dihitung untuk model Morse (batang biru) dan untuk model harmonik (batang jingga): anharmonisitas menggeser puncak ke $v'$ yang lebih tinggi.](fig/c_franck.png){width=94%}
 
 ::: {.contoh}
-**Contoh 15.c2 · Mengapa uap iodin ungu**
+**Contoh 15.29 · Mengapa uap iodin ungu**
 
 Untuk I₂: keadaan X, $\omega_e = 214{,}50$ cm⁻¹, $\omega_ex_e = 0{,}614$ cm⁻¹, $r_e = 2{,}666$ Å; keadaan B, $\omega_e = 125{,}69$ cm⁻¹, $\omega_ex_e = 0{,}764$ cm⁻¹, $r_e = 3{,}024$ Å, $T_e = 15\,769$ cm⁻¹. Hitung faktor Franck–Condon dari $v'' = 0$ dengan (a) model harmonik dan (b) model Morse, lalu tentukan komponen terkuat dan panjang gelombangnya.
 
@@ -78,7 +78,7 @@ mu = 63.452                                   # massa tereduksi I2 (u)
 def tingkat_morse(we, wexe, re, r, nmax=60):
     De = we**2 / (4*wexe)                                     # cm^-1
     a = np.sqrt(8*np.pi**2*c*mu*u*wexe/h) * 1e-10             # Å^-1
-    T = h / (8*np.pi**2*c*mu*u) * 1e20                        # hbar^2/2mu, cm^-1 Å^2
+    T = h / (8*np.pi**2*c*mu*u) * 1e20                        # hbar^2/2mu
     dr = r[1] - r[0]
     V = De * (1 - np.exp(-a*(r - re)))**2
     E, psi = eigh_tridiagonal(2*T/dr**2 + V, -T/dr**2*np.ones(len(r) - 1),
@@ -104,13 +104,13 @@ print(v, FC[v], nu, 1e7/nu, FC.sum())
 Momen dipol transisi elektronik $\boldsymbol\mu_\text{el}$ nol atau tidak ditentukan oleh kesetangkupan. Untuk molekul diatom (lambang suku subbab 11.9), aturan seleksinya adalah
 
 $$
-\Delta\Lambda = 0, \pm1; \qquad \Delta S = 0; \qquad \Sigma^+ \leftrightarrow \Sigma^+,\ \Sigma^- \leftrightarrow \Sigma^-; \qquad g \leftrightarrow u\ (\text{homonuklir}) . \qquad \text{(15.ef4)}
+\Delta\Lambda = 0, \pm1; \qquad \Delta S = 0; \qquad \Sigma^+ \leftrightarrow \Sigma^+,\ \Sigma^- \leftrightarrow \Sigma^-; \qquad g \leftrightarrow u\ (\text{homonuklir}) . \qquad \text{(15.30)}
 $$
 
 Untuk molekul poliatom, transisi diizinkan bila hasil kali langsung $\Gamma(\psi_\text{el}') \otimes \Gamma(x, y, z) \otimes \Gamma(\psi_\text{el}'')$ mengandung representasi bersetangkup penuh (subbab 10.10). Transisi yang terlarang simetri masih dapat teramati lemah melalui kopling vibronik: getaran yang tidak bersetangkup penuh mencampurkan keadaan elektronik lain ke dalam keadaan atas, dan transisi meminjam intensitas (mekanisme Herzberg–Teller, yang telah kita jumpai pada transisi d–d di subbab 14.11).
 
 ::: {.contoh}
-**Contoh 15.c3 · Oksigen: diizinkan dan terlarang**
+**Contoh 15.30 · Oksigen: diizinkan dan terlarang**
 
 Keadaan dasar O₂ adalah $X\,^3\Sigma_g^-$. Keadaan tereksitasi terendahnya $a\,^1\Delta_g$ (7918 cm⁻¹), $b\,^1\Sigma_g^+$ (13 195 cm⁻¹), dan $B\,^3\Sigma_u^-$ (sekitar 49 800 cm⁻¹). Transisi mana dari X yang diizinkan dipol listrik?
 
@@ -124,7 +124,7 @@ Keadaan dasar O₂ adalah $X\,^3\Sigma_g^-$. Keadaan tereksitasi terendahnya $a\
 Dalam pita elektronik molekul diatom, setiap komponen getaran mempunyai cabang P dan R (dan Q bila $\Lambda \ne 0$ pada salah satu keadaan). Berbeda dengan pita inframerah, tetapan rotasi keadaan atas $B'$ dapat sangat berbeda dari $B''$, karena ikatan dapat memanjang atau memendek banyak. Untuk cabang R, $\tilde\nu = \tilde\nu_0 + (B' + B'')(J + 1) + (B' - B'')(J + 1)^2$, sebuah parabola dalam $J$ (**diagram Fortrat**). Bila $B' < B''$ (ikatan memanjang), suku kuadrat negatif, sehingga garis-garis cabang R mula-mula bergerak ke energi lebih tinggi, berbalik pada suatu $J$, lalu bergerak kembali. Titik balik itu, tempat garis-garis menumpuk, disebut **kepala pita**, dan pitanya disebut "terdegradasi ke merah".
 
 ::: {.contoh}
-**Contoh 15.c4 · Letak kepala pita**
+**Contoh 15.31 · Letak kepala pita**
 
 Untuk transisi dengan $B'' = 1{,}90$ cm⁻¹ dan $B' = 1{,}70$ cm⁻¹, tentukan $J$ tempat kepala pita cabang R terbentuk dan jaraknya dari pusat pita.
 
@@ -137,10 +137,10 @@ Untuk transisi dengan $B'' = 1{,}90$ cm⁻¹ dan $B' = 1{,}70$ cm⁻¹, tentukan
 
 Pada molekul poliatom, progresi Franck–Condon hanya muncul untuk mode yang geometri setimbangnya berubah, biasanya mode bersetangkup penuh. Dalam transisi n→π* formaldehida, misalnya, elektron dipindah ke orbital π* yang antiikatan terhadap C=O, sehingga ikatan C=O memanjang dan progresi panjang muncul dalam ulur C=O keadaan tereksitasi (sekitar 1183 cm⁻¹, dibanding 1746 cm⁻¹ pada keadaan dasar). Penurunan frekuensi ini sendiri adalah bukti bahwa elektron masuk orbital antiikatan.
 
-Benzena memberikan contoh baku kopling vibronik. Transisi $^1A_{1g} \to {}^1B_{2u}$ (pita 254 nm) terlarang simetri, karena $B_{2u} \otimes \Gamma(x, y, z)$ tidak mengandung $A_{1g}$. Pita asal 0–0 di 38 086 cm⁻¹ hampir tidak terlihat. Spektrum yang teramati dimulai dari komponen yang melibatkan satu kuantum mode tekuk cincin $e_{2g}$ ($\nu_6$, 521 cm⁻¹ pada keadaan tereksitasi): $B_{2u} \otimes E_{2g} = E_{1u}$, yang bertransformasi seperti $(x, y)$, sehingga diizinkan. Dari komponen itu tumbuh progresi dalam mode napas cincin $a_{1g}$ (923 cm⁻¹ pada keadaan tereksitasi). Kekuatan osilator pita ini hanya sekitar 0,002 (Contoh 15.a6).
+Benzena memberikan contoh baku kopling vibronik. Transisi $^1A_{1g} \to {}^1B_{2u}$ (pita 254 nm) terlarang simetri, karena $B_{2u} \otimes \Gamma(x, y, z)$ tidak mengandung $A_{1g}$. Pita asal 0–0 di 38 086 cm⁻¹ hampir tidak terlihat. Spektrum yang teramati dimulai dari komponen yang melibatkan satu kuantum mode tekuk cincin $e_{2g}$ ($\nu_6$, 521 cm⁻¹ pada keadaan tereksitasi): $B_{2u} \otimes E_{2g} = E_{1u}$, yang bertransformasi seperti $(x, y)$, sehingga diizinkan. Dari komponen itu tumbuh progresi dalam mode napas cincin $a_{1g}$ (923 cm⁻¹ pada keadaan tereksitasi). Kekuatan osilator pita ini hanya sekitar 0,002 (Contoh 15.6).
 
 ::: {.contoh}
-**Contoh 15.c5 · Pita benzena yang "salah tempat"**
+**Contoh 15.32 · Pita benzena yang "salah tempat"**
 
 Asal pita $^1B_{2u}$ benzena di 38 086 cm⁻¹. Hitung panjang gelombang asal itu dan komponen $6_0^1$ (satu kuantum $\nu_6' = 521$ cm⁻¹ dalam keadaan atas). Komponen $6_1^0$ (dari satu kuantum $\nu_6'' = 608$ cm⁻¹ di keadaan dasar, pita panas) juga teramati. Di mana letaknya dan mengapa lemah pada suhu kamar?
 
@@ -159,7 +159,7 @@ Jika keadaan atas dan bawah mempunyai potensial yang identik (tidak tergeser), k
 
 ### Nasib molekul yang tereksitasi
 
-Molekul organik dalam keadaan dasar singlet $S_0$ yang menyerap foton naik ke keadaan singlet tereksitasi $S_1$, $S_2$, dan seterusnya, biasanya ke tingkat getaran yang tinggi. Apa yang terjadi selanjutnya digambarkan oleh **diagram Jablonski** (Gambar 15.g6), yang menyusun keadaan singlet dan triplet berdampingan beserta semua jalur peluruhannya:
+Molekul organik dalam keadaan dasar singlet $S_0$ yang menyerap foton naik ke keadaan singlet tereksitasi $S_1$, $S_2$, dan seterusnya, biasanya ke tingkat getaran yang tinggi. Apa yang terjadi selanjutnya digambarkan oleh **diagram Jablonski** (Gambar 15.6), yang menyusun keadaan singlet dan triplet berdampingan beserta semua jalur peluruhannya:
 
 - **Relaksasi getaran** (sekitar $10^{-12}$ s): kelebihan energi getaran diserahkan ke pelarut melalui tumbukan, dan molekul turun ke tingkat getaran terendah keadaan elektronik yang sama.
 - **Konversi internal** (IC): peralihan tanpa radiasi antara keadaan berspin sama, misalnya $S_2 \to S_1$ atau $S_1 \to S_0$.
@@ -169,28 +169,28 @@ Molekul organik dalam keadaan dasar singlet $S_0$ yang menyerap foton naik ke ke
 
 Karena konversi internal di antara keadaan tereksitasi yang lebih tinggi sangat cepat, pendaran hampir selalu berasal dari tingkat getaran terendah $S_1$ (atau $T_1$), apa pun panjang gelombang eksitasinya. Inilah **aturan Kasha**. Pengecualian terkenal adalah azulena, yang berpendar dari $S_2$ karena celah $S_2$–$S_1$-nya sangat besar.
 
-![Gambar 15.g6 Diagram Jablonski. Panah lurus: proses radiatif (serapan A, fluoresensi F, fosforesensi P); panah bergelombang: proses tanpa radiasi (relaksasi getaran RG, konversi internal KI, lintas antarsistem LAS). Skala waktu khas dicantumkan di sebelah kanan.](fig/c_jablonski.png){width=88%}
+![Gambar 15.6 Diagram Jablonski. Panah lurus: proses radiatif (serapan A, fluoresensi F, fosforesensi P); panah bergelombang: proses tanpa radiasi (relaksasi getaran RG, konversi internal KI, lintas antarsistem LAS). Skala waktu khas dicantumkan di sebelah kanan.](fig/c_jablonski.png){width=88%}
 
 ### Kinetika dan hasil kuantum
 
 Keadaan $S_1$ dikosongkan oleh beberapa proses orde pertama yang bersaing. Bila $k_f$, $k_\text{IC}$, dan $k_\text{ISC}$ adalah tetapan lajunya,
 
 $$
-\tau_f = \frac{1}{k_f + k_\text{IC} + k_\text{ISC}}, \qquad \Phi_f = \frac{k_f}{k_f + k_\text{IC} + k_\text{ISC}} = k_f\tau_f . \qquad \text{(15.eg1)}
+\tau_f = \frac{1}{k_f + k_\text{IC} + k_\text{ISC}}, \qquad \Phi_f = \frac{k_f}{k_f + k_\text{IC} + k_\text{ISC}} = k_f\tau_f . \qquad \text{(15.31)}
 $$
 
 **Hasil kuantum** $\Phi_f$ adalah fraksi foton terserap yang dipancarkan kembali sebagai fluoresensi; **umur fluoresensi** $\tau_f$ terukur dari peluruhan pendaran setelah pulsa laser singkat. Kedua besaran yang terukur ini memberi $k_f = \Phi_f/\tau_f$ dan $k_\text{nr} = (1 - \Phi_f)/\tau_f$. Laju radiatif $k_f$ sendiri dapat ditaksir dari spektrum serapan, karena ia adalah koefisien Einstein $A$ untuk transisi yang sama. Strickler dan Berg menurunkan versi praktis hubungan Einstein untuk pita lebar dalam larutan:
 
 $$
-k_f \approx 2{,}88 \times 10^{-9}\,n^2\tilde\nu^2\int\varepsilon\,d\tilde\nu\quad (\text{s}^{-1}) , \qquad \text{(15.eg2)}
+k_f \approx 2{,}88 \times 10^{-9}\,n^2\tilde\nu^2\int\varepsilon\,d\tilde\nu\quad (\text{s}^{-1}) , \qquad \text{(15.32)}
 $$
 
 dengan $n$ indeks bias pelarut, $\tilde\nu$ bilangan gelombang rata-rata pita dalam cm⁻¹, dan $\varepsilon$ dalam L mol⁻¹ cm⁻¹. Faktor $\tilde\nu^2$ (bukan $\tilde\nu^3$) muncul karena integralnya atas $\varepsilon$, yang sendiri sudah memuat satu faktor frekuensi.
 
 ::: {.contoh}
-**Contoh 15.c6 · Fluoresein**
+**Contoh 15.33 · Fluoresein**
 
-Fluoresein dalam NaOH 0,1 M mempunyai $\Phi_f = 0{,}93$ dan $\tau_f = 4{,}0$ ns. Pita serapannya di 490 nm dengan $\varepsilon_\text{maks} = 76\,900$ L mol⁻¹ cm⁻¹ dan lebar efektif sekitar 2000 cm⁻¹. (a) Hitung $k_f$ dan $k_\text{nr}$. (b) Taksir $k_f$ dengan (15.eg2) ($n = 1{,}333$).
+Fluoresein dalam NaOH 0,1 M mempunyai $\Phi_f = 0{,}93$ dan $\tau_f = 4{,}0$ ns. Pita serapannya di 490 nm dengan $\varepsilon_\text{maks} = 76\,900$ L mol⁻¹ cm⁻¹ dan lebar efektif sekitar 2000 cm⁻¹. (a) Hitung $k_f$ dan $k_\text{nr}$. (b) Taksir $k_f$ dengan (15.32) ($n = 1{,}333$).
 
 **Penyelesaian.** (a) $k_f = 0{,}93/4{,}0 \times 10^{-9} = 2{,}3 \times 10^8$ s⁻¹; $k_\text{nr} = 0{,}07/4{,}0 \times 10^{-9} = 1{,}8 \times 10^7$ s⁻¹. (b) $\int\varepsilon\,d\tilde\nu = 1{,}0645 \times 76\,900 \times 2000 = 1{,}64 \times 10^8$. Dengan $\tilde\nu = 20\,400$ cm⁻¹: $k_f \approx 2{,}88 \times 10^{-9} \times 1{,}777 \times (20\,400)^2 \times 1{,}64 \times 10^8 = 3{,}5 \times 10^8$ s⁻¹.
 
@@ -199,9 +199,9 @@ Fluoresein dalam NaOH 0,1 M mempunyai $\Phi_f = 0{,}93$ dan $\tau_f = 4{,}0$ ns.
 
 ### Geseran Stokes dan citra cermin
 
-Fluoresensi selalu berada pada panjang gelombang yang lebih panjang daripada serapan. Selisihnya, **geseran Stokes**, berasal dari relaksasi getaran dan penataan ulang pelarut: serapan berakhir di tingkat getaran tinggi $S_1$ dalam geometri $S_0$, sedangkan pancaran berawal dari $S_1$ yang telah relaks dan berakhir di tingkat getaran tinggi $S_0$. Karena progresi Franck–Condon serapan mencerminkan tingkat getaran $S_1$ dan progresi pancaran mencerminkan tingkat getaran $S_0$, dan kedua himpunan itu sering hampir sama, spektrum fluoresensi tampak seperti **citra cermin** spektrum serapan terhadap transisi 0–0 (Gambar 15.g7). Pelanggaran aturan citra cermin menandakan bahwa geometri keadaan tereksitasi sangat berbeda atau bahwa ada proses dalam keadaan tereksitasi, seperti transfer proton atau pembentukan eksimer.
+Fluoresensi selalu berada pada panjang gelombang yang lebih panjang daripada serapan. Selisihnya, **geseran Stokes**, berasal dari relaksasi getaran dan penataan ulang pelarut: serapan berakhir di tingkat getaran tinggi $S_1$ dalam geometri $S_0$, sedangkan pancaran berawal dari $S_1$ yang telah relaks dan berakhir di tingkat getaran tinggi $S_0$. Karena progresi Franck–Condon serapan mencerminkan tingkat getaran $S_1$ dan progresi pancaran mencerminkan tingkat getaran $S_0$, dan kedua himpunan itu sering hampir sama, spektrum fluoresensi tampak seperti **citra cermin** spektrum serapan terhadap transisi 0–0 (Gambar 15.7). Pelanggaran aturan citra cermin menandakan bahwa geometri keadaan tereksitasi sangat berbeda atau bahwa ada proses dalam keadaan tereksitasi, seperti transfer proton atau pembentukan eksimer.
 
-![Gambar 15.g7 Spektrum serapan dan fluoresensi model untuk molekul dengan progresi getaran 1400 cm⁻¹ dan faktor Huang–Rhys $S = 1{,}0$ dalam kedua keadaan. Kedua spektrum saling bercermin terhadap transisi 0–0; geseran Stokes kecil karena relaksasi pelarut diabaikan.](fig/c_cermin.png){width=86%}
+![Gambar 15.7 Spektrum serapan dan fluoresensi model untuk molekul dengan progresi getaran 1400 cm⁻¹ dan faktor Huang–Rhys $S = 1{,}0$ dalam kedua keadaan. Kedua spektrum saling bercermin terhadap transisi 0–0; geseran Stokes kecil karena relaksasi pelarut diabaikan.](fig/c_cermin.png){width=86%}
 
 ### Lintas antarsistem dan fosforesensi
 
@@ -210,7 +210,7 @@ Lintas antarsistem memerlukan kopling spin–orbit, yang lemah untuk unsur ringa
 Fosforesensi jarang terlihat dalam larutan pada suhu kamar, karena keadaan triplet yang berumur panjang dipadamkan oleh tumbukan, terutama dengan O₂ (yang keadaan dasarnya triplet dan menerima energi dengan membentuk oksigen singlet). Dalam kaca beku pada 77 K atau dalam padatan kaku, fosforesensi tampak jelas. Bahan "glow in the dark" dan layar OLED fosforesens (yang memakai kompleks iridium, dengan kopling spin–orbit kuat, agar triplet dapat memancar efisien) memanfaatkan proses ini.
 
 ::: {.contoh}
-**Contoh 15.c7 · Mengapa benzofenona tidak berfluoresensi**
+**Contoh 15.34 · Mengapa benzofenona tidak berfluoresensi**
 
 Untuk benzofenona, $k_\text{ISC} \approx 10^{11}$ s⁻¹ dan $k_f \approx 10^6$ s⁻¹ (pita n→π* yang lemah). Taksir $\Phi_f$ dan $\Phi_\text{ISC}$. Mengapa benzofenona dipakai sebagai fotosensitizer triplet?
 
@@ -224,7 +224,7 @@ Untuk benzofenona, $k_\text{ISC} \approx 10^{11}$ s⁻¹ dan $k_f \approx 10^6$ 
 Molekul lain (pemadam, Q) dapat mengosongkan $S_1$ melalui tumbukan dengan tetapan laju bimolekular $k_q$. Laju peluruhan total menjadi $1/\tau_0 + k_q[\text{Q}]$, dan perbandingan intensitas tanpa dan dengan pemadam mengikuti **persamaan Stern–Volmer**:
 
 $$
-\frac{I_0}{I} = \frac{\tau_0}{\tau} = 1 + k_q\tau_0[\text{Q}] = 1 + K_\text{SV}[\text{Q}] . \qquad \text{(15.eg3)}
+\frac{I_0}{I} = \frac{\tau_0}{\tau} = 1 + k_q\tau_0[\text{Q}] = 1 + K_\text{SV}[\text{Q}] . \qquad \text{(15.33)}
 $$
 
 Untuk pemadaman yang dikendalikan difusi dalam pelarut biasa, $k_q \approx 10^{10}$ L mol⁻¹ s⁻¹.
@@ -232,13 +232,13 @@ Untuk pemadaman yang dikendalikan difusi dalam pelarut biasa, $k_q \approx 10^{1
 Pemadaman juga dapat terjadi tanpa tumbukan, melalui interaksi dipol–dipol jarak jauh antara molekul donor yang tereksitasi dan molekul akseptor yang menyerap di panjang gelombang pancaran donor. Efisiensi **transfer energi resonansi Förster** (FRET) bergantung sangat tajam pada jarak $r$:
 
 $$
-E = \frac{1}{1 + (r/R_0)^6} , \qquad \text{(15.eg4)}
+E = \frac{1}{1 + (r/R_0)^6} , \qquad \text{(15.34)}
 $$
 
 dengan $R_0$ (biasanya 2–8 nm) jarak tempat efisiensinya 50%. Ketergantungan $r^{-6}$ berasal dari laju yang sebanding dengan kuadrat energi interaksi dipol–dipol ($\propto r^{-3}$), menurut aturan emas Fermi. FRET dipakai sebagai "penggaris molekul" untuk mengukur jarak di dalam protein dan asam nukleat.
 
 ::: {.contoh}
-**Contoh 15.c8 · Analisis Stern–Volmer**
+**Contoh 15.35 · Analisis Stern–Volmer**
 
 Fluoresensi kinina sulfat ($\tau_0 = 19$ ns) dipadamkan oleh ion klorida. Data $I_0/I$ pada [Cl⁻] = 0, 2, 4, 6, 8, dan 10 mM adalah 1,000; 1,410; 1,788; 2,208; 2,594; 3,010. Tentukan $K_\text{SV}$ dan $k_q$.
 
@@ -258,11 +258,11 @@ Garis lurus memberi $K_\text{SV} = 200$ L/mol dengan perpotongan 1,000, sehingga
 :::
 
 ::: {.contoh}
-**Contoh 15.c9 · Penggaris FRET**
+**Contoh 15.36 · Penggaris FRET**
 
 Pasangan donor–akseptor dengan $R_0 = 5{,}0$ nm dipasang pada dua ujung sebuah protein. Efisiensi transfer terukur 0,25. (a) Berapa jarak keduanya? (b) Hitung efisiensi bila jaraknya 3, 5, dan 7 nm.
 
-**Penyelesaian.** (a) Dari (15.eg4), $r = R_0(1/E - 1)^{1/6} = 5{,}0 \times 3^{1/6} = 6{,}0$ nm. (b) 0,96; 0,50; 0,12.
+**Penyelesaian.** (a) Dari (15.34), $r = R_0(1/E - 1)^{1/6} = 5{,}0 \times 3^{1/6} = 6{,}0$ nm. (b) 0,96; 0,50; 0,12.
 
 **Memahami hasil.** Efisiensi berubah dari hampir 1 ke hampir 0 dalam rentang beberapa nanometer di sekitar $R_0$, ukuran khas makromolekul biologis. Pengukuran FRET pada molekul tunggal memungkinkan peneliti melihat protein melipat dan membuka atau enzim berganti konformasi secara langsung, satu molekul pada satu waktu.
 :::
@@ -297,7 +297,7 @@ Hanya transisi π→π* dalam sistem terkonjugasi dan n→π* yang jatuh di daer
 Makin panjang sistem terkonjugasi, makin kecil selisih HOMO–LUMO (subbab 13.5–13.6) dan makin panjang $\lambda_\text{maks}$. Dari etilena (165 nm) ke butadiena (217 nm), heksatriena, dan seterusnya, setiap ikatan rangkap tambahan menggeser serapan 30–40 nm ke merah, dan intensitasnya naik karena momen dipol transisi memanjang bersama molekul. β-Karotena dengan sebelas ikatan rangkap terkonjugasi menyerap di 450 nm dan berwarna jingga. Namun, penggeseran ini makin kecil untuk rantai yang sangat panjang dan mendekati batas sekitar 600 nm, bukan nol. Penyebabnya adalah selang-seling panjang ikatan (ikatan tunggal dan rangkap tidak menjadi sama panjang), yang membuka celah energi seperti pada poliasetilena (subbab 13.13).
 
 ::: {.contoh}
-**Contoh 15.c10 · Kegagalan model elektron bebas untuk karotena**
+**Contoh 15.37 · Kegagalan model elektron bebas untuk karotena**
 
 Model partikel dalam kotak (subbab 3.8) untuk $N$ elektron π dalam kotak sepanjang $L$ memberi $\lambda = 8m_ecL^2/h(N + 1)$. Untuk β-karotena, $N = 22$, dan ambil $L = 22 \times 1{,}40$ Å (rantai 22 atom karbon dengan panjang ikatan rata-rata, ditambah satu panjang ikatan untuk ujung-ujungnya). Bandingkan dengan 450 nm.
 
@@ -313,7 +313,7 @@ Untuk diena dan enon terkonjugasi, Woodward (1941) dan Fieser menyusun aturan em
 Aturan ini bekerja karena setiap substituen alkil menaikkan HOMO sedikit melalui hiperkonjugasi, dan setiap ikatan rangkap tambahan menurunkan celah HOMO–LUMO dengan besaran yang hampir tetap untuk rantai pendek. Diena homoanular lebih merah karena geometri s-cis-nya membuat interaksi antarujung diena (yang memisahkan kombinasi orbital) berbeda dari geometri s-trans.
 
 ::: {.contoh}
-**Contoh 15.c11 · Meramalkan $\lambda_\text{maks}$**
+**Contoh 15.38 · Meramalkan $\lambda_\text{maks}$**
 
 Ramalkan $\lambda_\text{maks}$ untuk (a) kolesta-3,5-diena (diena heteroanular dengan tiga sisa cincin dan satu ikatan rangkap eksosiklik), (b) mesitil oksida, (CH₃)₂C=CH–CO–CH₃, dan (c) isoforon (3,5,5-trimetilsikloheks-2-enon: satu metil dan satu sisa cincin pada karbon β). Nilai teramati 235, 236, dan 235 nm.
 
@@ -327,7 +327,7 @@ Ramalkan $\lambda_\text{maks}$ untuk (a) kolesta-3,5-diena (diena heteroanular d
 Transisi n→π* bergeser ke **biru** (energi lebih tinggi) dalam pelarut polar dan protik. Pasangan elektron bebas oksigen karbonil membentuk ikatan hidrogen dengan pelarut, yang menurunkan energi orbital n; dalam keadaan tereksitasi, satu elektron n telah pindah ke π*, sehingga ikatan hidrogen melemah dan stabilisasinya hilang. Sebaliknya, transisi π→π* biasanya bergeser sedikit ke **merah** dalam pelarut polar, karena keadaan tereksitasi π,π* lebih polar daripada keadaan dasar dan distabilkan lebih banyak. Arah geseran pelarut dengan demikian membantu membedakan kedua jenis transisi.
 
 ::: {.contoh}
-**Contoh 15.c12 · Ikatan hidrogen dari geseran biru**
+**Contoh 15.39 · Ikatan hidrogen dari geseran biru**
 
 Pita n→π* aseton berada di 279 nm dalam heksana dan 265 nm dalam air. Hitung geseran energinya dalam cm⁻¹ dan kJ/mol. Apa arti fisisnya?
 

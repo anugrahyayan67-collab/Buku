@@ -60,13 +60,13 @@ $B_{12}$, $B_{21}$, dan $A_{21}$ disebut **koefisien Einstein**. Ketiganya sifat
 Dalam kesetimbangan termal pada suhu $T$, laju naik sama dengan laju turun:
 
 $$
-B_{12}\rho(\nu)N_1 = A_{21}N_2 + B_{21}\rho(\nu)N_2 . \qquad \text{(15.ea1)}
+B_{12}\rho(\nu)N_1 = A_{21}N_2 + B_{21}\rho(\nu)N_2 . \qquad \text{(15.1)}
 $$
 
-Populasi mengikuti sebaran Boltzmann, $N_2/N_1 = (g_2/g_1)e^{-h\nu/kT}$. Selesaikan (15.ea1) untuk $\rho$:
+Populasi mengikuti sebaran Boltzmann, $N_2/N_1 = (g_2/g_1)e^{-h\nu/kT}$. Selesaikan (15.1) untuk $\rho$:
 
 $$
-\rho(\nu) = \frac{A_{21}}{B_{12}(N_1/N_2) - B_{21}} = \frac{A_{21}/B_{21}}{\dfrac{g_1B_{12}}{g_2B_{21}}e^{h\nu/kT} - 1} . \qquad \text{(15.ea2)}
+\rho(\nu) = \frac{A_{21}}{B_{12}(N_1/N_2) - B_{21}} = \frac{A_{21}/B_{21}}{\dfrac{g_1B_{12}}{g_2B_{21}}e^{h\nu/kT} - 1} . \qquad \text{(15.2)}
 $$
 
 Hasil ini harus sama dengan rumus Planck untuk radiasi benda hitam (subbab 1.3),
@@ -78,7 +78,7 @@ $$
 untuk **semua** suhu. Itu hanya mungkin bila
 
 $$
-g_1B_{12} = g_2B_{21}, \qquad \frac{A_{21}}{B_{21}} = \frac{8\pi h\nu^3}{c^3} . \qquad \text{(15.ea3)}
+g_1B_{12} = g_2B_{21}, \qquad \frac{A_{21}}{B_{21}} = \frac{8\pi h\nu^3}{c^3} . \qquad \text{(15.3)}
 $$
 
 Hubungan pertama menyatakan bahwa serapan dan emisi terangsang adalah proses yang sama dilihat dari dua arah. Hubungan kedua mengaitkan emisi spontan dengan emisi terangsang, dan faktor $\nu^3$-nya mempunyai akibat yang luas.
@@ -97,7 +97,7 @@ Umur tingkat atas terhadap emisi spontan adalah $\tau = 1/\sum A$, dengan jumlah
 
 ### Dari aturan emas ke koefisien $B$
 
-Einstein memperoleh hubungan (15.ea3) tanpa mengetahui nilai mutlak koefisien-koefisiennya. Mekanika kuantum memberikan $B$ melalui perturbasi bergantung waktu (subbab 8.11–8.12). Untuk medan listrik sinusoidal yang berinteraksi dengan momen dipol, $\hat H' = -\hat{\boldsymbol\mu} \cdot \boldsymbol{\mathcal E}(t)$, laju transisi menurut aturan emas Fermi sebanding dengan $|\boldsymbol\mu_{21} \cdot \hat{\mathbf e}|^2$ dan dengan rapat energi radiasi pada frekuensi resonansi. Untuk radiasi isotropik dan tak terpolarisasi, rata-rata $|\boldsymbol\mu_{21} \cdot \hat{\mathbf e}|^2$ atas semua arah adalah $\tfrac13|\boldsymbol\mu_{21}|^2$, dan hasilnya adalah rumus $B_{21}$ di kotak di atas.
+Einstein memperoleh hubungan (15.3) tanpa mengetahui nilai mutlak koefisien-koefisiennya. Mekanika kuantum memberikan $B$ melalui perturbasi bergantung waktu (subbab 8.11–8.12). Untuk medan listrik sinusoidal yang berinteraksi dengan momen dipol, $\hat H' = -\hat{\boldsymbol\mu} \cdot \boldsymbol{\mathcal E}(t)$, laju transisi menurut aturan emas Fermi sebanding dengan $|\boldsymbol\mu_{21} \cdot \hat{\mathbf e}|^2$ dan dengan rapat energi radiasi pada frekuensi resonansi. Untuk radiasi isotropik dan tak terpolarisasi, rata-rata $|\boldsymbol\mu_{21} \cdot \hat{\mathbf e}|^2$ atas semua arah adalah $\tfrac13|\boldsymbol\mu_{21}|^2$, dan hasilnya adalah rumus $B_{21}$ di kotak di atas.
 
 ::: {.dalam}
 **Faktor $\tfrac13$ dan asal rumus $B$**
@@ -114,7 +114,7 @@ Emisi spontan tidak dapat diturunkan dengan memperlakukan medan elektromagnetik 
 :::
 
 ::: {.contoh}
-**Contoh 15.a1 · Mengapa CO di ruang antarbintang menunggu setengah tahun**
+**Contoh 15.1 · Mengapa CO di ruang antarbintang menunggu setengah tahun**
 
 Molekul CO mempunyai momen dipol $\mu_0 = 0{,}110$ D dan transisi rotasi $J = 1 \to 0$ pada 115,271 GHz. Untuk transisi rotasi $J + 1 \to J$ molekul linear, $|\boldsymbol\mu_{21}|^2 = \mu_0^2(J + 1)/(2J + 3)$. Hitung $A_{10}$ dan umur tingkat $J = 1$.
 
@@ -130,7 +130,7 @@ sehingga $\tau = 1/A_{10} = 1{,}4 \times 10^7$ s, sekitar 0,44 tahun.
 :::
 
 ::: {.contoh}
-**Contoh 15.a2 · Momen dipol transisi getaran CO**
+**Contoh 15.2 · Momen dipol transisi getaran CO**
 
 Koefisien emisi spontan pita dasar CO ($v = 1 \to 0$, 2143,3 cm⁻¹) sekitar 33 s⁻¹. Hitung $|\boldsymbol\mu_{10}|$ dalam debye.
 
@@ -144,15 +144,15 @@ Koefisien emisi spontan pita dasar CO ($v = 1 \to 0$, 2143,3 cm⁻¹) sekitar 33
 Perbandingan laju emisi terangsang dan spontan dalam medan radiasi termal pada suhu $T$ adalah
 
 $$
-\frac{B_{21}\rho(\nu)}{A_{21}} = \frac{1}{e^{h\nu/kT} - 1} , \qquad \text{(15.ea4)}
+\frac{B_{21}\rho(\nu)}{A_{21}} = \frac{1}{e^{h\nu/kT} - 1} , \qquad \text{(15.4)}
 $$
 
 yang tidak lain adalah banyaknya foton rata-rata per mode medan radiasi. Untuk $h\nu \gg kT$ emisi spontan menang mutlak; untuk $h\nu \ll kT$ emisi terangsang menang.
 
 ::: {.contoh}
-**Contoh 15.a3 · Terangsang atau spontan?**
+**Contoh 15.3 · Terangsang atau spontan?**
 
-Hitung perbandingan (15.ea4) untuk transisi gelombang mikro 115 GHz, inframerah 2143 cm⁻¹, tampak 500 nm, dan ultraviolet 200 nm, masing-masing pada 300 K dan 6000 K (suhu permukaan Matahari).
+Hitung perbandingan (15.4) untuk transisi gelombang mikro 115 GHz, inframerah 2143 cm⁻¹, tampak 500 nm, dan ultraviolet 200 nm, masing-masing pada 300 K dan 6000 K (suhu permukaan Matahari).
 
 **Penyelesaian.** Dengan $h\nu/kT$ yang dihitung untuk setiap kasus:
 
@@ -167,7 +167,7 @@ Hitung perbandingan (15.ea4) untuk transisi gelombang mikro 115 GHz, inframerah 
 :::
 
 ::: {.contoh}
-**Contoh 15.a4 · Sistem dua tingkat tidak dapat dibalik populasinya**
+**Contoh 15.4 · Sistem dua tingkat tidak dapat dibalik populasinya**
 
 Sinari sistem dua tingkat ($g_1 = g_2$) dengan cahaya yang sangat terang sehingga $B\rho \gg A$. Tunjukkan bahwa $N_2/N_1$ mendekati 1 tetapi tidak pernah melampauinya.
 
@@ -183,7 +183,7 @@ yang mendekati 1 bila $B\rho \to \infty$.
 :::
 
 ::: {.contoh}
-**Contoh 15.a5 · Memeriksa umur 2p hidrogen**
+**Contoh 15.5 · Memeriksa umur 2p hidrogen**
 
 Untuk atom hidrogen, $|\langle 1s|z|2p_0\rangle| = 0{,}745\,a_0$ dan transisi Lyman-α berenergi $\tfrac34 \times 13{,}606$ eV. Hitung $A$ dan umur 2p, lalu bandingkan dengan subbab 7.11.
 
@@ -205,31 +205,31 @@ Jika momen dipol transisi tetap tetapi frekuensi transisi diduakalikan, berapa k
 Seberkas cahaya monokromatik berintensitas $I$ melewati lapisan tipis setebal $dx$ yang mengandung $n$ molekul penyerap per satuan volume. Setiap molekul menampilkan "luas sasaran" efektif $\sigma(\nu)$, yang disebut **penampang lintang serapan**. Fraksi cahaya yang diserap dalam lapisan itu sama dengan fraksi luas yang tertutup sasaran:
 
 $$
-\frac{dI}{I} = -\sigma n\,dx \quad\Longrightarrow\quad I = I_0e^{-\sigma nl} . \qquad \text{(15.eb1)}
+\frac{dI}{I} = -\sigma n\,dx \quad\Longrightarrow\quad I = I_0e^{-\sigma nl} . \qquad \text{(15.5)}
 $$
 
 Kimiawan memakai logaritma basis sepuluh dan konsentrasi molar $c$ (mol/L). Dengan **absorbans** $A = \log_{10}(I_0/I)$:
 
 $$
-A = \varepsilon cl, \qquad \varepsilon = \frac{\sigma N_A}{1000\ln10} , \qquad \sigma\ (\text{cm}^2) = 3{,}82 \times 10^{-21}\,\varepsilon\ (\text{L mol}^{-1}\,\text{cm}^{-1}) . \qquad \text{(15.eb2)}
+A = \varepsilon cl, \qquad \varepsilon = \frac{\sigma N_A}{1000\ln10} , \qquad \sigma\ (\text{cm}^2) = 3{,}82 \times 10^{-21}\,\varepsilon\ (\text{L mol}^{-1}\,\text{cm}^{-1}) . \qquad \text{(15.6)}
 $$
 
-Inilah **hukum Beer–Lambert**. Penurunannya menunjukkan kapan hukum ini berlaku: molekul menyerap secara bebas satu sama lain (tidak ada asosiasi, dimerisasi, atau interaksi antarmolekul yang berubah dengan konsentrasi), cahaya cukup monokromatik dibanding lebar pita, dan intensitasnya cukup lemah agar populasi tingkat bawah tidak berkurang (tidak jenuh, Contoh 15.a4).
+Inilah **hukum Beer–Lambert**. Penurunannya menunjukkan kapan hukum ini berlaku: molekul menyerap secara bebas satu sama lain (tidak ada asosiasi, dimerisasi, atau interaksi antarmolekul yang berubah dengan konsentrasi), cahaya cukup monokromatik dibanding lebar pita, dan intensitasnya cukup lemah agar populasi tingkat bawah tidak berkurang (tidak jenuh, Contoh 15.4).
 
-Emisi terangsang sebenarnya juga terjadi dalam sampel, dan yang diukur adalah serapan bersih $\sigma(N_1 - (g_1/g_2)N_2)$. Untuk transisi elektronik pada suhu kamar $N_2$ dapat diabaikan, tetapi untuk gelombang mikro tidak (Contoh 15.a3), dan inilah sebabnya serapan gelombang mikro lemah: koreksi emisi terangsang mengurangi serapan dengan faktor $1 - e^{-h\nu/kT} \approx h\nu/kT$, sekitar 2% untuk CO pada suhu kamar.
+Emisi terangsang sebenarnya juga terjadi dalam sampel, dan yang diukur adalah serapan bersih $\sigma(N_1 - (g_1/g_2)N_2)$. Untuk transisi elektronik pada suhu kamar $N_2$ dapat diabaikan, tetapi untuk gelombang mikro tidak (Contoh 15.3), dan inilah sebabnya serapan gelombang mikro lemah: koreksi emisi terangsang mengurangi serapan dengan faktor $1 - e^{-h\nu/kT} \approx h\nu/kT$, sekitar 2% untuk CO pada suhu kamar.
 
 ### Kekuatan osilator
 
 Koefisien ekstingsi bergantung pada frekuensi dan pada lebar pita; ukuran yang tidak bergantung pada lebar adalah **intensitas terintegrasi** $\int\varepsilon(\tilde\nu)\,d\tilde\nu$ atas seluruh pita. Dengan menghubungkan laju serapan $B_{12}\rho$ dengan berkurangnya energi berkas, diperoleh $\int\sigma(\nu)\,d\nu = h\nu B_{12}/c$. Untuk menghilangkan satuan, intensitas ini dibandingkan dengan intensitas sebuah elektron yang diikat pegas secara klasik, yang menghasilkan besaran tak berdimensi yang disebut **kekuatan osilator**:
 
 $$
-f = \frac{4\varepsilon_0m_ec^2\ln10}{N_Ae^2}\int\varepsilon\,d\tilde\nu = 4{,}32 \times 10^{-9}\int\varepsilon\,d\tilde\nu , \qquad \text{(15.eb3)}
+f = \frac{4\varepsilon_0m_ec^2\ln10}{N_Ae^2}\int\varepsilon\,d\tilde\nu = 4{,}32 \times 10^{-9}\int\varepsilon\,d\tilde\nu , \qquad \text{(15.7)}
 $$
 
 dengan $\varepsilon$ dalam L mol⁻¹ cm⁻¹ dan $\tilde\nu$ dalam cm⁻¹. Dalam bahasa mekanika kuantum,
 
 $$
-f = \frac{8\pi^2m_ec\tilde\nu}{3he^2}|\boldsymbol\mu_{12}|^2 = \frac23\Delta E\,|\langle 2|\mathbf r|1\rangle|^2\ \ (\text{satuan atom}) . \qquad \text{(15.eb4)}
+f = \frac{8\pi^2m_ec\tilde\nu}{3he^2}|\boldsymbol\mu_{12}|^2 = \frac23\Delta E\,|\langle 2|\mathbf r|1\rangle|^2\ \ (\text{satuan atom}) . \qquad \text{(15.8)}
 $$
 
 Satu elektron yang terikat pegas secara klasik memberi $f = 1$. Transisi yang diizinkan penuh mempunyai $f$ sekitar 0,1–1; transisi terlarang beberapa orde lebih kecil. **Aturan jumlah Thomas–Reiche–Kuhn** menyatakan bahwa jumlah kekuatan osilator semua transisi dari satu keadaan sama dengan banyaknya elektron: kekuatan osilator adalah "anggaran" serapan yang dibagi di antara semua transisi.
@@ -237,7 +237,7 @@ Satu elektron yang terikat pegas secara klasik memberi $f = 1$. Transisi yang di
 Untuk pita berbentuk Gauss dengan puncak $\varepsilon_\text{maks}$ dan lebar setengah (lebar penuh pada setengah tinggi) $\Delta\tilde\nu_{1/2}$, integralnya $\int\varepsilon\,d\tilde\nu = 1{,}0645\,\varepsilon_\text{maks}\Delta\tilde\nu_{1/2}$.
 
 ::: {.contoh}
-**Contoh 15.a6 · Kekuatan osilator dari spektrum**
+**Contoh 15.6 · Kekuatan osilator dari spektrum**
 
 Hitung $f$ dan $|\boldsymbol\mu_{12}|$ (dalam debye) untuk pita-pita berikut, dengan menganggap bentuk Gauss:
 
@@ -249,7 +249,7 @@ Hitung $f$ dan $|\boldsymbol\mu_{12}|$ (dalam debye) untuk pita-pita berikut, de
 | Benzena, 254 nm | 39 200 | 204 | 2000 |
 | Aseton, n→π* | 36 000 | 15 | 4000 |
 
-**Penyelesaian.** Dengan (15.eb3), lalu $|\boldsymbol\mu_{12}| = \sqrt{3he^2f/(8\pi^2m_ec\tilde\nu)}$:
+**Penyelesaian.** Dengan (15.7), lalu $|\boldsymbol\mu_{12}| = \sqrt{3he^2f/(8\pi^2m_ec\tilde\nu)}$:
 
 | Pita | $f$ | $|\boldsymbol\mu_{12}|$ (D) |
 |---|---|---|
@@ -263,7 +263,7 @@ Hitung $f$ dan $|\boldsymbol\mu_{12}|$ (dalam debye) untuk pita-pita berikut, de
 :::
 
 ::: {.contoh}
-**Contoh 15.a7 · Seberapa besar "sasaran" molekul?**
+**Contoh 15.7 · Seberapa besar "sasaran" molekul?**
 
 Hitung penampang lintang serapan β-karotena pada puncaknya dan bandingkan dengan luas geometris molekul (panjang sekitar 3 nm, lebar sekitar 0,5 nm). Berapa tebal lapisan larutan $10^{-5}$ M yang meneruskan hanya 10% cahaya 450 nm?
 
@@ -277,13 +277,13 @@ Hitung penampang lintang serapan β-karotena pada puncaknya dan bandingkan denga
 Absorbans bersifat aditif: dalam campuran beberapa zat yang tidak saling bereaksi,
 
 $$
-A(\lambda) = l\sum_i\varepsilon_i(\lambda)c_i . \qquad \text{(15.eb5)}
+A(\lambda) = l\sum_i\varepsilon_i(\lambda)c_i . \qquad \text{(15.9)}
 $$
 
 Mengukur absorbans pada sebanyak-banyaknya panjang gelombang dan menyelesaikan sistem persamaan linear ini (secara kuadrat terkecil bila persamaan lebih banyak daripada zat) adalah dasar analisis multikomponen. Bila dua zat saling berubah, misalnya bentuk asam dan basa suatu indikator, dan jumlah konsentrasinya tetap, semua spektrum melewati titik-titik dengan absorbans sama, yaitu panjang gelombang tempat $\varepsilon_\text{asam} = \varepsilon_\text{basa}$. **Titik isosbestik** seperti itu adalah bukti bahwa hanya dua spesies yang terlibat.
 
 ::: {.contoh}
-**Contoh 15.a8 · Analisis dua komponen**
+**Contoh 15.8 · Analisis dua komponen**
 
 Campuran dua zat warna X dan Y diukur dalam kuvet 1,00 cm. Koefisien ekstingsinya: X 15 000 pada $\lambda_1$ dan 2000 pada $\lambda_2$; Y 3000 pada $\lambda_1$ dan 12 000 pada $\lambda_2$ (L mol⁻¹ cm⁻¹). Absorbans terukur 0,684 pada $\lambda_1$ dan 0,552 pada $\lambda_2$. Tentukan konsentrasi keduanya.
 
@@ -294,7 +294,7 @@ import numpy as np
 E = np.array([[15000, 3000],     # baris: panjang gelombang, kolom: zat X, Y
               [ 2000, 12000]])
 A = np.array([0.684, 0.552])
-print(np.linalg.solve(E, A))     # dengan lebih banyak panjang gelombang: np.linalg.lstsq
+print(np.linalg.solve(E, A))     # lebih banyak panjang gelombang: lstsq
 ```
 
 Hasilnya $c_X = 3{,}77 \times 10^{-5}$ M dan $c_Y = 3{,}97 \times 10^{-5}$ M.
@@ -303,9 +303,9 @@ Hasilnya $c_X = 3{,}77 \times 10^{-5}$ M dan $c_Y = 3{,}97 \times 10^{-5}$ M.
 :::
 
 ::: {.contoh}
-**Contoh 15.a9 · Aturan jumlah untuk atom hidrogen**
+**Contoh 15.9 · Aturan jumlah untuk atom hidrogen**
 
-Untuk hidrogen 1s, kekuatan osilator Lyman-α adalah 0,416, dan jumlah semua garis deret Lyman (1s → np, $n = 2$ sampai ∞) adalah 0,564. Berapa kekuatan osilator yang tersisa untuk serapan ke kontinuum (ionisasi)? Periksa nilai 0,416 dengan (15.eb4).
+Untuk hidrogen 1s, kekuatan osilator Lyman-α adalah 0,416, dan jumlah semua garis deret Lyman (1s → np, $n = 2$ sampai ∞) adalah 0,564. Berapa kekuatan osilator yang tersisa untuk serapan ke kontinuum (ionisasi)? Periksa nilai 0,416 dengan (15.8).
 
 **Penyelesaian.** Aturan Thomas–Reiche–Kuhn untuk satu elektron: $\sum f = 1$. Sisa untuk kontinuum $1 - 0{,}564 = 0{,}436$. Dengan $\Delta E = 0{,}375$ hartree dan $\sum_m|\langle 2p_m|\mathbf r|1s\rangle|^2 = 3(0{,}745)^2 = 1{,}665$ bohr²: $f = \tfrac23(0{,}375)(1{,}665) = 0{,}416$.
 
@@ -332,7 +332,7 @@ Seandainya tingkat-tingkat energi tajam sempurna dan molekul diam, setiap transi
 Keadaan tereksitasi yang meluruh dengan umur $\tau$ mempunyai amplitudo yang bergantung waktu sebagai $e^{-i\omega_0t}e^{-t/2\tau}$ (populasi, kuadrat amplitudo, meluruh sebagai $e^{-t/\tau}$). Sinyal yang tidak berlangsung selamanya tidak mempunyai frekuensi tunggal. Transformasi Fourier amplitudo itu memberikan spektrum
 
 $$
-I(\nu) \propto \frac{1}{(\nu - \nu_0)^2 + (\Gamma/2)^2}, \qquad \Gamma = \frac{1}{2\pi\tau} , \qquad \text{(15.ec1)}
+I(\nu) \propto \frac{1}{(\nu - \nu_0)^2 + (\Gamma/2)^2}, \qquad \Gamma = \frac{1}{2\pi\tau} , \qquad \text{(15.10)}
 $$
 
 yaitu **profil Lorentz** dengan lebar penuh pada setengah tinggi $\Gamma$ (dalam Hz). Dalam bilangan gelombang, $\Delta\tilde\nu = 1/2\pi c\tau = 5{,}31\ \text{cm}^{-1}/\tau(\text{ps})$. Hubungan $\Gamma\tau = 1/2\pi$ adalah bentuk tepat hubungan ketidakpastian energi–waktu $\Delta E\,\tau \approx \hbar$ (subbab 1.9). Lebar yang ditentukan oleh emisi spontan saja disebut **lebar alami**; ia batas bawah yang tidak dapat dikurangi.
@@ -348,7 +348,7 @@ Dalam gas, tumbukan mengganggu fase osilasi dipol molekul. Bila selang rata-rata
 Molekul yang bergerak dengan komponen kecepatan $v_x$ menuju pengamat menyerap pada frekuensi $\nu_0(1 + v_x/c)$. Dalam gas, $v_x$ tersebar menurut distribusi Maxwell $\propto \exp(-mv_x^2/2kT)$, sehingga profil garisnya
 
 $$
-I(\nu) \propto \exp\left[-\frac{mc^2(\nu - \nu_0)^2}{2kT\nu_0^2}\right], \qquad \Delta\nu_D = \frac{\nu_0}{c}\sqrt{\frac{8kT\ln2}{m}} . \qquad \text{(15.ec2)}
+I(\nu) \propto \exp\left[-\frac{mc^2(\nu - \nu_0)^2}{2kT\nu_0^2}\right], \qquad \Delta\nu_D = \frac{\nu_0}{c}\sqrt{\frac{8kT\ln2}{m}} . \qquad \text{(15.11)}
 $$
 
 Lebar Doppler sebanding dengan $\nu_0$ dan dengan $\sqrt{T/m}$. Ia penting untuk garis elektronik dan getaran gas, dan relatif kecil untuk gelombang mikro.
@@ -358,35 +358,35 @@ Lebar Doppler sebanding dengan $\nu_0$ dan dengan $\sqrt{T/m}$. Ia penting untuk
 Bila kedua mekanisme bekerja bersamaan, profilnya adalah konvolusi Gauss dan Lorentz, yang disebut **profil Voigt**. Lebar penuhnya dapat ditaksir dengan rumus empiris yang teliti sampai 0,02%:
 
 $$
-\Delta\nu_V \approx 0{,}5346\,\Delta\nu_L + \sqrt{0{,}2166\,\Delta\nu_L^2 + \Delta\nu_G^2} . \qquad \text{(15.ec3)}
+\Delta\nu_V \approx 0{,}5346\,\Delta\nu_L + \sqrt{0{,}2166\,\Delta\nu_L^2 + \Delta\nu_G^2} . \qquad \text{(15.12)}
 $$
 
-Perbedaan terpenting kedua profil ada di "sayap": profil Gauss jatuh sangat cepat, sedangkan profil Lorentz jatuh hanya sebanding dengan $1/(\nu - \nu_0)^2$ (Gambar 15.g1). Pada jarak tiga kali lebar dari pusat, profil Lorentz masih 2,7% dari puncaknya, sedangkan profil Gauss tinggal $10^{-11}$. Sayap Lorentz garis-garis H₂O dan CO₂ yang dilebarkan tekanan inilah yang mengisi "jendela" spektrum atmosfer dan ikut menentukan efek rumah kaca.
+Perbedaan terpenting kedua profil ada di "sayap": profil Gauss jatuh sangat cepat, sedangkan profil Lorentz jatuh hanya sebanding dengan $1/(\nu - \nu_0)^2$ (Gambar 15.1). Pada jarak tiga kali lebar dari pusat, profil Lorentz masih 2,7% dari puncaknya, sedangkan profil Gauss tinggal $10^{-11}$. Sayap Lorentz garis-garis H₂O dan CO₂ yang dilebarkan tekanan inilah yang mengisi "jendela" spektrum atmosfer dan ikut menentukan efek rumah kaca.
 
-![Gambar 15.g1 Profil Gauss, Lorentz, dan Voigt yang dinormalkan pada puncak yang sama, dengan lebar penuh Gauss dan Lorentz sama (1). (a) Skala linear. (b) Skala logaritma: sayap Lorentz jauh lebih tebal daripada sayap Gauss.](fig/c_garis.png){width=92%}
+![Gambar 15.1 Profil Gauss, Lorentz, dan Voigt yang dinormalkan pada puncak yang sama, dengan lebar penuh Gauss dan Lorentz sama (1). (a) Skala linear. (b) Skala logaritma: sayap Lorentz jauh lebih tebal daripada sayap Gauss.](fig/c_garis.png){width=92%}
 
 ::: {.contoh}
-**Contoh 15.a10 · Garis D natrium**
+**Contoh 15.10 · Garis D natrium**
 
 Keadaan 3p natrium berumur 16,2 ns. (a) Hitung lebar alami garis D (589 nm). (b) Hitung lebar Doppler dalam uap natrium pada 500 K. (c) Mana yang menentukan bentuk garis?
 
-**Penyelesaian.** (a) $\Gamma = 1/(2\pi \times 16{,}2 \times 10^{-9}) = 9{,}8$ MHz. (b) Dengan $\nu_0 = c/589\ \text{nm} = 5{,}09 \times 10^{14}$ Hz dan $m = 22{,}99$ u, (15.ec2) memberi $\Delta\nu_D = 1{,}70$ GHz. (c) Lebar Doppler 170 kali lebih besar: garisnya hampir Gauss di bagian tengah, dengan sayap Lorentz jauh di luar.
+**Penyelesaian.** (a) $\Gamma = 1/(2\pi \times 16{,}2 \times 10^{-9}) = 9{,}8$ MHz. (b) Dengan $\nu_0 = c/589\ \text{nm} = 5{,}09 \times 10^{14}$ Hz dan $m = 22{,}99$ u, (15.11) memberi $\Delta\nu_D = 1{,}70$ GHz. (c) Lebar Doppler 170 kali lebih besar: garisnya hampir Gauss di bagian tengah, dengan sayap Lorentz jauh di luar.
 
 **Memahami hasil.** Lebar alami adalah sifat atom; lebar Doppler sifat gas. Untuk melihat lebar alami, spektroskopis harus menyingkirkan efek Doppler, misalnya dengan berkas atom yang bergerak tegak lurus berkas laser, dengan spektroskopi penjenuhan (hanya atom dengan $v_x \approx 0$ yang berinteraksi dengan dua berkas laser yang berlawanan arah), atau dengan mendinginkan atom sampai mikrokelvin. Pendinginan laser natrium (Hadiah Nobel Fisika 1997) memakai tepat garis ini.
 :::
 
 ::: {.contoh}
-**Contoh 15.a11 · Garis inframerah dalam atmosfer**
+**Contoh 15.11 · Garis inframerah dalam atmosfer**
 
 Untuk garis rotasi–getaran HCl di sekitar 2886 cm⁻¹ pada 300 K: (a) hitung lebar Doppler dalam cm⁻¹; (b) bila setengah lebar tekanan 0,07 cm⁻¹ per atm, hitung lebar penuh tekanan pada 1 atm dan selang antartumbukan; (c) taksir lebar Voigt pada 0,01 atm (sekitar ketinggian 30 km).
 
-**Penyelesaian.** (a) $\Delta\nu_D = 178$ MHz $= 0{,}0059$ cm⁻¹. (b) Lebar penuh tekanan $0{,}14$ cm⁻¹ (4,2 GHz); $\tau_\text{tb} = 1/\pi\Gamma = 1/(2\pi c \times 0{,}07\ \text{cm}^{-1}) = 76$ ps. (c) Pada 0,01 atm, $\Delta\nu_L = 0{,}0014$ cm⁻¹; dengan (15.ec3), $\Delta\nu_V = 0{,}0014 \times 0{,}5346 + \sqrt{0{,}2166(0{,}0014)^2 + 0{,}0059^2} = 0{,}0067$ cm⁻¹.
+**Penyelesaian.** (a) $\Delta\nu_D = 178$ MHz $= 0{,}0059$ cm⁻¹. (b) Lebar penuh tekanan $0{,}14$ cm⁻¹ (4,2 GHz); $\tau_\text{tb} = 1/\pi\Gamma = 1/(2\pi c \times 0{,}07\ \text{cm}^{-1}) = 76$ ps. (c) Pada 0,01 atm, $\Delta\nu_L = 0{,}0014$ cm⁻¹; dengan (15.12), $\Delta\nu_V = 0{,}0014 \times 0{,}5346 + \sqrt{0{,}2166(0{,}0014)^2 + 0{,}0059^2} = 0{,}0067$ cm⁻¹.
 
 **Memahami hasil.** Di permukaan Bumi, garis-garis inframerah dilebarkan tumbukan dan 24 kali lebih lebar daripada lebar Doppler. Di stratosfer, lebar Doppler menang. Satelit yang mengukur profil suhu dan kadar gas atmosfer memanfaatkan perubahan bentuk garis ini: bagian tengah garis yang sempit berasal dari ketinggian besar, sayapnya yang lebar dari lapisan bawah yang lebih padat.
 :::
 
 ::: {.contoh}
-**Contoh 15.a12 · Turbulensi di awan antarbintang**
+**Contoh 15.12 · Turbulensi di awan antarbintang**
 
 Garis CO $J = 1 \to 0$ dari awan gelap pada 20 K mempunyai lebar teramati sekitar 1,5 km/s (dinyatakan sebagai kecepatan, $\Delta v = c\Delta\nu/\nu_0$). (a) Hitung lebar Doppler termal dalam kHz dan km/s. (b) Pusat garis bergeser 260 kHz ke frekuensi lebih rendah. Berapa kecepatan radial awan?
 
@@ -396,7 +396,7 @@ Garis CO $J = 1 \to 0$ dari awan gelap pada 20 K mempunyai lebar teramati sekita
 :::
 
 ::: {.contoh}
-**Contoh 15.a13 · Umur dari lebar garis**
+**Contoh 15.13 · Umur dari lebar garis**
 
 Dalam pita elektronik suatu molekul diatom, garis-garis rotasi mulai kabur di atas tingkat getaran tertentu, dengan lebar sekitar 1,0 cm⁻¹, padahal di bawahnya garis tajam (lebar instrumen 0,05 cm⁻¹). Taksir umur tingkat yang kabur itu dan jelaskan.
 
@@ -406,9 +406,9 @@ Dalam pita elektronik suatu molekul diatom, garis-garis rotasi mulai kabur di at
 :::
 
 ::: {.contoh}
-**Contoh 15.a14 · Profil Voigt numerik**
+**Contoh 15.14 · Profil Voigt numerik**
 
-Hitung lebar penuh profil Voigt bila lebar Gauss dan Lorentz sama-sama 1, secara numerik dengan `scipy.special.voigt_profile`, dan bandingkan dengan (15.ec3).
+Hitung lebar penuh profil Voigt bila lebar Gauss dan Lorentz sama-sama 1, secara numerik dengan `scipy.special.voigt_profile`, dan bandingkan dengan (15.12).
 
 **Penyelesaian.**
 

@@ -111,8 +111,8 @@ aL = -15.0
 blok = {'a1g': (-7.0, 4.0), 't1u': (-3.5, 2.5), 'eg': (-11.0, 2.8)}
 for nama, (aM, b) in blok.items():
     E, C = np.linalg.eigh([[aM, b], [b, aL]])
-    print(nama, 'E =', E.round(3),
-          '%logam ikatan/antiikatan =', round(100*C[0,0]**2, 1), round(100*C[0,1]**2, 1))
+    print(nama, 'E =', E.round(3), '%logam ikatan/antiikatan =',
+          round(100*C[0, 0]**2, 1), round(100*C[0, 1]**2, 1))
 Eeg = np.linalg.eigvalsh([[-11.0, 2.8], [2.8, aL]])[1]
 print('Delta_o =', Eeg - (-11.0), 'eV;  hampiran:', 2.8**2/4.0)
 ```
