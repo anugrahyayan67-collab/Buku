@@ -81,7 +81,7 @@ Satuan atom dipakai kecuali disebut lain; 1 $E_h$ = 2625,50 kJ/mol = 627,51 kkal
 
 **Dasar**
 
-**6.** Tuliskan energi HF atom Li ($1s^22s$) dengan integral $h$, $J$, dan $K$.
+**6.** Tuliskan energi HF atom Li ($1s^2 2s$) dengan integral $h$, $J$, dan $K$.
 
 **7.** Batas HF He memberi $\varepsilon_{1s} = -0{,}91796$ dan $E = -2{,}86168\ E_h$. Tentukan $h$ dan $J$ orbital 1s.
 

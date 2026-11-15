@@ -2,7 +2,7 @@
 
 ### Mengapa perlu menjumlahkan
 
-Konfigurasi elektron seperti $1s^22s^22p^2$ (karbon) tidak menentukan satu keadaan, melainkan sekelompok keadaan dengan energi berbeda. Dua elektron 2p dapat menempati orbital p mana pun dengan spin mana pun (selama asas Pauli dipatuhi), dan tolakan antarelektron membedakan susunan-susunan itu. Keadaan-keadaan yang dihasilkan diberi label menurut **momentum sudut total**, karena dalam atom (tanpa medan luar) momentum sudut total kekal: Hamiltonian, termasuk tolakan antarelektron, tidak berubah bila seluruh atom diputar. Untuk memberi label, kita perlu tahu bagaimana momentum sudut beberapa elektron bergabung.
+Konfigurasi elektron seperti $1s^2 2s^2 2p^2$ (karbon) tidak menentukan satu keadaan, melainkan sekelompok keadaan dengan energi berbeda. Dua elektron 2p dapat menempati orbital p mana pun dengan spin mana pun (selama asas Pauli dipatuhi), dan tolakan antarelektron membedakan susunan-susunan itu. Keadaan-keadaan yang dihasilkan diberi label menurut **momentum sudut total**, karena dalam atom (tanpa medan luar) momentum sudut total kekal: Hamiltonian, termasuk tolakan antarelektron, tidak berubah bila seluruh atom diputar. Untuk memberi label, kita perlu tahu bagaimana momentum sudut beberapa elektron bergabung.
 
 ### Aturan penjumlahan
 

@@ -72,7 +72,7 @@
 
 **Soal {{tetra}}.** Dengan $\mathbf n_i = (\pm1, \pm1, \pm1)/\sqrt3$ menurut (12.23), setiap $\mathbf n_i\mathbf n_i^\text{T}$ mempunyai diagonal $\tfrac13$, sehingga jumlah diagonal $\tfrac43$. Unsur di luar diagonal, misalnya $\sum_i n_{ix}n_{iy} = \tfrac13(1 - 1 - 1 + 1) = 0$. Jadi $\sum_i\mathbf n_i\mathbf n_i^\text{T} = \tfrac43\mathbf I$.
 
-*Cara berpikir:* karena koefisien $p$ setiap hibrida adalah $\tfrac{\sqrt3}{2}\mathbf n_i$, hasil ini sama dengan $\sum_i(\tfrac34)\mathbf n_i\mathbf n_i^\text{T} = \mathbf I$: setiap orbital $p$ terbagi habis, dan tidak ada arah yang diistimewakan. Akibatnya kerapatan total empat hibrida yang masing-masing berisi dua elektron sama dengan kerapatan kulit $2s^22p^6$, yang simetris bola. Hibridisasi tidak menciptakan anisotropi; yang anisotropik adalah bagaimana kerapatan itu **dipasangkan** dengan atom-atom tetangga.
+*Cara berpikir:* karena koefisien $p$ setiap hibrida adalah $\tfrac{\sqrt3}{2}\mathbf n_i$, hasil ini sama dengan $\sum_i(\tfrac34)\mathbf n_i\mathbf n_i^\text{T} = \mathbf I$: setiap orbital $p$ terbagi habis, dan tidak ada arah yang diistimewakan. Akibatnya kerapatan total empat hibrida yang masing-masing berisi dua elektron sama dengan kerapatan kulit $2s^2 2p^6$, yang simetris bola. Hibridisasi tidak menciptakan anisotropi; yang anisotropik adalah bagaimana kerapatan itu **dipasangkan** dengan atom-atom tetangga.
 
 **Soal {{pf}}.** PF₃: $\cos97{,}8° = -0{,}1357$, $\alpha = 0{,}1195$; pasangan bebas $1 - 3(0{,}1195) = 0{,}642$. PH₃: pasangan bebas 0,837. Pasangan bebas PF₃ lebih miskin $s$, berlawanan dengan arah NF₃/NH₃.
 

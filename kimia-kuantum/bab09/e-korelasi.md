@@ -33,7 +33,7 @@ Kimiawan membedakan dua jenis korelasi.
 
 **Korelasi dinamis** adalah penghindaran sesaat jarak pendek antara elektron-elektron, yang selalu ada. Ia berkaitan dengan bentuk fungsi gelombang di dekat $r_{12} = 0$: fungsi gelombang eksak mempunyai "puncak lancip" (*cusp*) ketika dua elektron bertemu, dengan kemiringan $\partial\Psi/\partial r_{12} = \tfrac12\Psi$ (syarat cusp Kato), sama seperti cusp elektron–inti yang membuat orbital 1s lancip di inti. Fungsi yang disusun dari orbital-orbital mulus tidak mempunyai cusp ini, sehingga diperlukan sangat banyak determinan untuk menirunya. Itulah sebabnya perhitungan korelasi konvergen lambat terhadap ukuran basis, dan mengapa metode modern "berkorelasi eksplisit" memasukkan $r_{12}$ langsung ke fungsi gelombang, kembali ke gagasan Hylleraas 1929 (Contoh 8.16).
 
-**Korelasi statis** (atau nondinamis) muncul bila dua atau lebih konfigurasi hampir sama energinya, sehingga satu determinan bukan lagi gambaran yang baik bahkan secara kualitatif. Contoh klasik: berilium, yang orbital 2s dan 2p-nya dekat, sehingga konfigurasi $1s^22p^2$ bercampur kuat dengan $1s^22s^2$ (Contoh 9.35); molekul yang ikatannya diregangkan menuju disosiasi (Contoh 9.36); diradikal; dan banyak senyawa logam transisi. Untuk sistem-sistem ini diperlukan fungsi gelombang multikonfigurasi sejak awal.
+**Korelasi statis** (atau nondinamis) muncul bila dua atau lebih konfigurasi hampir sama energinya, sehingga satu determinan bukan lagi gambaran yang baik bahkan secara kualitatif. Contoh klasik: berilium, yang orbital 2s dan 2p-nya dekat, sehingga konfigurasi $1s^2 2p^2$ bercampur kuat dengan $1s^2 2s^2$ (Contoh 9.35); molekul yang ikatannya diregangkan menuju disosiasi (Contoh 9.36); diradikal; dan banyak senyawa logam transisi. Untuk sistem-sistem ini diperlukan fungsi gelombang multikonfigurasi sejak awal.
 
 ### Melampaui Hartree–Fock
 
@@ -78,7 +78,7 @@ Energi korelasi neon $-0{,}391\ E_h$ dan atom fluor $-0{,}325\ E_h$. (a) Nyataka
 ::: {.contoh}
 **Contoh 9.35 · Berilium: korelasi statis**
 
-Pada berilium, selisih energi orbital 2s dan 2p kecil, sehingga konfigurasi $1s^22p^2$ ($^1$S) bercampur dengan $1s^22s^2$. Energi HF berilium $-14{,}5730\ E_h$, fungsi dua konfigurasi yang dioptimumkan (MCSCF) memberi $-14{,}6169\ E_h$, dan energi eksak $-14{,}6674\ E_h$. (a) Berapa bagian energi korelasi yang ditangkap oleh satu konfigurasi tambahan? (b) Bandingkan dengan neon, yang energi korelasinya empat kali lebih besar tetapi dengan fungsi dua konfigurasi hanya memperoleh sebagian kecil.
+Pada berilium, selisih energi orbital 2s dan 2p kecil, sehingga konfigurasi $1s^2 2p^2$ ($^1$S) bercampur dengan $1s^2 2s^2$. Energi HF berilium $-14{,}5730\ E_h$, fungsi dua konfigurasi yang dioptimumkan (MCSCF) memberi $-14{,}6169\ E_h$, dan energi eksak $-14{,}6674\ E_h$. (a) Berapa bagian energi korelasi yang ditangkap oleh satu konfigurasi tambahan? (b) Bandingkan dengan neon, yang energi korelasinya empat kali lebih besar tetapi dengan fungsi dua konfigurasi hanya memperoleh sebagian kecil.
 
 **Penyelesaian.** (a) $E_\text{kor} = -0{,}0943\ E_h$. Fungsi dua konfigurasi memperoleh $-14{,}6169 + 14{,}5730 = -0{,}0439\ E_h$, atau 46%.
 

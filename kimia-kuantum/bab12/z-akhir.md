@@ -58,7 +58,7 @@ Gunakan $1\ \text{cm}^{-1} = 1{,}2398 \times 10^{-4}$ eV dan $1\ \text{eV} = 96{
 
 **1.** Keadaan $^5S$ karbon terletak 33 735 cm⁻¹ di atas keadaan dasar $^3P$. Nyatakan biaya promosi ini dalam eV dan kJ/mol.
 
-**2.** Berapa elektron tak berpasangan pada atom Si dalam keadaan dasar ($3s^23p^2$)? Promosi apa yang diperlukan agar Si bervalensi empat pada SiH₄?
+**2.** Berapa elektron tak berpasangan pada atom Si dalam keadaan dasar ($3s^2 3p^2$)? Promosi apa yang diperlukan agar Si bervalensi empat pada SiH₄?
 
 **3.** Dengan rumus $f(n, S)$ pada Contoh 12.4, hitung banyaknya fungsi spin singlet untuk 10 elektron dan fungsi triplet untuk 4 elektron.
 
@@ -66,7 +66,7 @@ Gunakan $1\ \text{cm}^{-1} = 1{,}2398 \times 10^{-4}$ eV dan $1\ \text{eV} = 96{
 
 **4.** [P] Tiga atom H (a, b, c) dalam satu garis mempunyai satu elektron masing-masing. Dengan aturan (12.4), tulis energi struktur dengan pasangan a–b (c tak berpasangan) dan struktur dengan pasangan b–c, dengan menyimpan $J_{ab}$, $J_{bc}$, $J_{ac}$.
 
-**5.** Promosi B ($2s^22p \to 2s2p^2$) memerlukan sekitar 345 kJ/mol. Bila energi rata-rata ikatan B–H sekitar 375 kJ/mol, berapa keuntungan bersih membentuk dua ikatan tambahan (BH₃ dibanding BH)?
+**5.** Promosi B ($2s^2 2p \to 2s2p^2$) memerlukan sekitar 345 kJ/mol. Bila energi rata-rata ikatan B–H sekitar 375 kJ/mol, berapa keuntungan bersih membentuk dua ikatan tambahan (BH₃ dibanding BH)?
 
 **6.** Tunjukkan bahwa $\langle\hat{\mathbf s}_1\cdot\hat{\mathbf s}_2\rangle$ bernilai $-\tfrac34$ untuk singlet dan $+\tfrac14$ untuk triplet, lalu bahwa $\tfrac12 + 2\hat{\mathbf s}_1\cdot\hat{\mathbf s}_2$ bernilai $-1$ dan $+1$.
 
@@ -214,7 +214,7 @@ Gunakan $1\ \text{cm}^{-1} = 1{,}2398 \times 10^{-4}$ eV dan $1\ \text{eV} = 96{
 
 **51.** Ramalkan bentuk ICl₂⁻ dan orde ikatan I–Cl dengan model 3c-4e.
 
-**52.** Taksir $\langle r\rangle$ elektron $3d$ fosfor dalam $3s^23p^23d^1$ dengan aturan Slater ($Z = 15$).
+**52.** Taksir $\langle r\rangle$ elektron $3d$ fosfor dalam $3s^2 3p^2 3d^1$ dengan aturan Slater ($Z = 15$).
 
 **Menengah**
 
@@ -367,7 +367,7 @@ Gunakan $1\ \text{cm}^{-1} = 1{,}2398 \times 10^{-4}$ eV dan $1\ \text{eV} = 96{
 | No. | Jawaban | No. | Jawaban |
 |---|---|---|---|
 | 1 | 4,18 eV; 404 kJ/mol | 50 | 2; $\tfrac12$ |
-| 2 | 2; $3s^23p^2 \to 3s3p^3$ | 51 | linear; $\tfrac12$ |
+| 2 | 2; $3s^2 3p^2 \to 3s3p^3$ | 51 | linear; $\tfrac12$ |
 | 3 | 42; 3 | 52 | $Z_\text{ef} = 1$; 10,5 $a_0$ = 5,6 Å |
 | 4 | $Q + J_{ab} - \tfrac12(J_{bc} + J_{ac})$; $Q + J_{bc} - \tfrac12(J_{ab} + J_{ac})$ | 53 | $E = -1$, $-2$, $+1$ |
 | 5 | sekitar 405 kJ/mol | 54 | kedua S–F aksial; tolakan pasangan bebas ekuatorial |
@@ -434,7 +434,7 @@ Gunakan $1\ \text{cm}^{-1} = 1{,}2398 \times 10^{-4}$ eV dan $1\ \text{eV} = 96{
 
 **Soal 32.** Dengan $\mathbf n_i = (\pm1, \pm1, \pm1)/\sqrt3$ menurut (12.23), setiap $\mathbf n_i\mathbf n_i^\text{T}$ mempunyai diagonal $\tfrac13$, sehingga jumlah diagonal $\tfrac43$. Unsur di luar diagonal, misalnya $\sum_i n_{ix}n_{iy} = \tfrac13(1 - 1 - 1 + 1) = 0$. Jadi $\sum_i\mathbf n_i\mathbf n_i^\text{T} = \tfrac43\mathbf I$.
 
-*Cara berpikir:* karena koefisien $p$ setiap hibrida adalah $\tfrac{\sqrt3}{2}\mathbf n_i$, hasil ini sama dengan $\sum_i(\tfrac34)\mathbf n_i\mathbf n_i^\text{T} = \mathbf I$: setiap orbital $p$ terbagi habis, dan tidak ada arah yang diistimewakan. Akibatnya kerapatan total empat hibrida yang masing-masing berisi dua elektron sama dengan kerapatan kulit $2s^22p^6$, yang simetris bola. Hibridisasi tidak menciptakan anisotropi; yang anisotropik adalah bagaimana kerapatan itu **dipasangkan** dengan atom-atom tetangga.
+*Cara berpikir:* karena koefisien $p$ setiap hibrida adalah $\tfrac{\sqrt3}{2}\mathbf n_i$, hasil ini sama dengan $\sum_i(\tfrac34)\mathbf n_i\mathbf n_i^\text{T} = \mathbf I$: setiap orbital $p$ terbagi habis, dan tidak ada arah yang diistimewakan. Akibatnya kerapatan total empat hibrida yang masing-masing berisi dua elektron sama dengan kerapatan kulit $2s^2 2p^6$, yang simetris bola. Hibridisasi tidak menciptakan anisotropi; yang anisotropik adalah bagaimana kerapatan itu **dipasangkan** dengan atom-atom tetangga.
 
 **Soal 39.** PF₃: $\cos97{,}8° = -0{,}1357$, $\alpha = 0{,}1195$; pasangan bebas $1 - 3(0{,}1195) = 0{,}642$. PH₃: pasangan bebas 0,837. Pasangan bebas PF₃ lebih miskin $s$, berlawanan dengan arah NF₃/NH₃.
 

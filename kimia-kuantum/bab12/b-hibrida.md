@@ -105,7 +105,7 @@ Pada HC≡C–C≡CH (butadiuna), berapa banyak ikatan σ dan π? Mengapa moleku
 
 ### Boron trifluorida
 
-BF₃ berbentuk segitiga datar dengan sudut F–B–F 120° dan B–F 130,7 pm. Boron ($2s^22p$) dipromosikan ke $2s2p^2$ (3,57 eV) dan membentuk tiga hibrida dari $s$, $p_x$, dan $p_y$. Orbital $p_z$, tegak lurus bidang molekul, tetap murni dan kosong.
+BF₃ berbentuk segitiga datar dengan sudut F–B–F 120° dan B–F 130,7 pm. Boron ($2s^2 2p$) dipromosikan ke $2s2p^2$ (3,57 eV) dan membentuk tiga hibrida dari $s$, $p_x$, dan $p_y$. Orbital $p_z$, tegak lurus bidang molekul, tetap murni dan kosong.
 
 ### Penurunan tiga hibrida setara
 
@@ -317,7 +317,7 @@ Semua sudut di luar diagonal 109,4712°; $\tfrac34\sum_i\mathbf n_i\mathbf n_i^\
 
 (a) Dengan (12.24), nyatakan $p_z$ dalam hibrida. (b) Bila keempat hibrida masing-masing berisi satu elektron (keadaan valensi karbon), berapa banyak elektron "di dalam" orbital $s$ dan di dalam setiap orbital $p$? (c) Bandingkan dengan konfigurasi $2s2p^3$.
 
-**Penyelesaian.** (a) Dari koefisien $p_z$ dalam (12.23) (kolom keempat $\mathbf U$): $p_z = \tfrac12(h_1 - h_2 - h_3 + h_4)$. (b) Populasi orbital $s$ adalah $\sum_i|\langle s|h_i\rangle|^2\cdot1 = 4 \times \tfrac14 = 1$; populasi setiap orbital $p$ juga $4 \times \tfrac14 = 1$. (c) Tepat $2s^12p^3$.
+**Penyelesaian.** (a) Dari koefisien $p_z$ dalam (12.23) (kolom keempat $\mathbf U$): $p_z = \tfrac12(h_1 - h_2 - h_3 + h_4)$. (b) Populasi orbital $s$ adalah $\sum_i|\langle s|h_i\rangle|^2\cdot1 = 4 \times \tfrac14 = 1$; populasi setiap orbital $p$ juga $4 \times \tfrac14 = 1$. (c) Tepat $2s^1 2p^3$.
 
 **Memahami hasil.** Empat elektron dalam empat hibrida sp³ memberi populasi orbital atom yang sama dengan konfigurasi promosi $2s2p^3$. Hibridisasi tidak mengubah konfigurasi; ia hanya memilih kombinasi orbital yang paling cocok untuk memasangkan elektron-elektron itu dengan atom-atom hidrogen di arah tetrahedral.
 :::

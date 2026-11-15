@@ -1,6 +1,6 @@
 # Bab 12 Hibridisasi dan Teori Ikatan Valensi Molekul Poliatom
 
-Atom karbon dalam keadaan dasar mempunyai konfigurasi $1s^22s^22p^2$, dengan dua elektron tak berpasangan di orbital $2p$. Menurut gagasan paling sederhana tentang ikatan kovalen (satu ikatan untuk setiap elektron tak berpasangan), karbon seharusnya bervalensi dua dan hidrida paling stabilnya adalah CH₂, dengan sudut H–C–H 90° karena kedua orbital $p$ saling tegak lurus. Kenyataannya, hidrida karbon yang stabil adalah metana, CH₄, dengan empat ikatan C–H yang tidak dapat dibedakan satu sama lain, masing-masing membentuk sudut 109,47° dengan yang lain. Air, yang oksigennya juga hanya mempunyai dua elektron $p$ tak berpasangan, ternyata tidak bersudut 90° melainkan 104,5°; tetapi H₂S, satu periode di bawahnya, bersudut 92,1°, hampir tepat 90°. Dari mana karbon memperoleh empat ikatan yang setara, mengapa sudutnya tepat arccos$(-\tfrac13)$, dan mengapa oksigen "menyimpang" dari 90° sedangkan belerang hampir tidak?
+Atom karbon dalam keadaan dasar mempunyai konfigurasi $1s^2 2s^2 2p^2$, dengan dua elektron tak berpasangan di orbital $2p$. Menurut gagasan paling sederhana tentang ikatan kovalen (satu ikatan untuk setiap elektron tak berpasangan), karbon seharusnya bervalensi dua dan hidrida paling stabilnya adalah CH₂, dengan sudut H–C–H 90° karena kedua orbital $p$ saling tegak lurus. Kenyataannya, hidrida karbon yang stabil adalah metana, CH₄, dengan empat ikatan C–H yang tidak dapat dibedakan satu sama lain, masing-masing membentuk sudut 109,47° dengan yang lain. Air, yang oksigennya juga hanya mempunyai dua elektron $p$ tak berpasangan, ternyata tidak bersudut 90° melainkan 104,5°; tetapi H₂S, satu periode di bawahnya, bersudut 92,1°, hampir tepat 90°. Dari mana karbon memperoleh empat ikatan yang setara, mengapa sudutnya tepat arccos$(-\tfrac13)$, dan mengapa oksigen "menyimpang" dari 90° sedangkan belerang hampir tidak?
 
 Bab ini menjawab pertanyaan-pertanyaan itu dengan **teori ikatan valensi** (IV) untuk molekul poliatom. Teori ini memperluas gambaran Heitler–London tentang molekul H₂ (subbab 11.11): ikatan adalah sepasang elektron berspin berlawanan dalam dua orbital yang saling tumpang tindih. Untuk molekul poliatom, orbital-orbital atom harus terlebih dahulu "diarahkan" ke atom tetangga. Caranya adalah membentuk kombinasi linear orbital $s$ dan $p$ (kadang $d$) pada atom yang sama, yaitu **orbital hibrida**. Kita akan melihat bahwa sudut antarhibrida bukan sesuatu yang dihafal, melainkan akibat langsung syarat **ortogonalitas**: sudut tetrahedral 109,47° keluar dari satu baris aljabar. Dari sana kita sampai ke hibridisasi tak setara (air, amonia, aturan Bent), kaitan hibridisasi dengan sifat yang dapat diukur (panjang ikatan, keasaman C–H, kopling NMR), molekul "hipervalen" dan ikatan tiga pusat, resonansi, VSEPR, teori ikatan valensi modern, dan akhirnya uji yang menentukan: spektrum fotoelektron metana.
 
@@ -97,15 +97,15 @@ Dirac menunjukkan bahwa untuk banyak elektron dalam orbital-orbital yang hampir 
 
 ### Valensi dan elektron tak berpasangan
 
-Menurut fungsi pasangan sempurna, sebuah atom dapat membentuk ikatan sebanyak elektron tak berpasangannya. Hidrogen ($1s^1$) bervalensi satu. Fluor ($2s^22p^5$) mempunyai satu elektron $p$ tak berpasangan dan bervalensi satu. Oksigen ($2p^4$, suku $^3P$) mempunyai dua, nitrogen ($2p^3$, $^4S$) tiga. Sampai di sini teori bekerja baik: HF, H₂O, dan NH₃.
+Menurut fungsi pasangan sempurna, sebuah atom dapat membentuk ikatan sebanyak elektron tak berpasangannya. Hidrogen ($1s^1$) bervalensi satu. Fluor ($2s^2 2p^5$) mempunyai satu elektron $p$ tak berpasangan dan bervalensi satu. Oksigen ($2p^4$, suku $^3P$) mempunyai dua, nitrogen ($2p^3$, $^4S$) tiga. Sampai di sini teori bekerja baik: HF, H₂O, dan NH₃.
 
-Untuk karbon teori ini tersandung. Keadaan dasar $2s^22p^2$ ($^3P$) hanya mempunyai dua elektron tak berpasangan. Agar bervalensi empat, satu elektron $2s$ harus dipindahkan ke orbital $2p$ yang kosong:
+Untuk karbon teori ini tersandung. Keadaan dasar $2s^2 2p^2$ ($^3P$) hanya mempunyai dua elektron tak berpasangan. Agar bervalensi empat, satu elektron $2s$ harus dipindahkan ke orbital $2p$ yang kosong:
 
 $$
-\text{C}\ (2s^22p^2,\ ^3P) \longrightarrow \text{C}\ (2s^12p^3,\ ^5S) , \qquad \Delta E = 4{,}18\ \text{eV} = 404\ \text{kJ/mol} . \qquad \text{(12.5)}
+\text{C}\ (2s^2 2p^2,\ ^3P) \longrightarrow \text{C}\ (2s^1 2p^3,\ ^5S) , \qquad \Delta E = 4{,}18\ \text{eV} = 404\ \text{kJ/mol} . \qquad \text{(12.5)}
 $$
 
-Langkah ini disebut **promosi**. Promosi mahal, tetapi ia membuka dua ikatan tambahan, dan setiap ikatan C–H melepaskan sekitar 400 kJ/mol. Neraca energinya jelas menguntungkan (Contoh 12.1). Gagasan yang sama menjelaskan valensi berilium (dua, padahal $2s^2$ tidak mempunyai elektron tak berpasangan) dan boron (tiga, padahal $2s^22p^1$ hanya satu).
+Langkah ini disebut **promosi**. Promosi mahal, tetapi ia membuka dua ikatan tambahan, dan setiap ikatan C–H melepaskan sekitar 400 kJ/mol. Neraca energinya jelas menguntungkan (Contoh 12.1). Gagasan yang sama menjelaskan valensi berilium (dua, padahal $2s^2$ tidak mempunyai elektron tak berpasangan) dan boron (tiga, padahal $2s^2 2p^1$ hanya satu).
 
 ::: {.awas}
 **Awas · Promosi adalah pembukuan, bukan peristiwa**
@@ -134,9 +134,9 @@ Gunakan entalpi pembentukan gas pada 298 K: $\Delta_fH^\circ$(C) $= 716{,}68$ kJ
 ::: {.contoh}
 **Contoh 12.2 · Valensi atom periode 2**
 
-Tentukan konfigurasi dan banyaknya elektron tak berpasangan dalam keadaan dasar Be, B, C, N, O, F, lalu ramalkan valensinya. Atom mana yang memerlukan promosi agar sesuai dengan valensi yang teramati (BeH₂, BF₃, CH₄)? Hitung biaya promosi Be ($2s^2 \to 2s2p$, $^3P$, 21 978 cm⁻¹) dan B ($2s^22p \to 2s2p^2$, $^4P$, sekitar 28 800 cm⁻¹) dalam eV dan kJ/mol.
+Tentukan konfigurasi dan banyaknya elektron tak berpasangan dalam keadaan dasar Be, B, C, N, O, F, lalu ramalkan valensinya. Atom mana yang memerlukan promosi agar sesuai dengan valensi yang teramati (BeH₂, BF₃, CH₄)? Hitung biaya promosi Be ($2s^2 \to 2s2p$, $^3P$, 21 978 cm⁻¹) dan B ($2s^2 2p \to 2s2p^2$, $^4P$, sekitar 28 800 cm⁻¹) dalam eV dan kJ/mol.
 
-**Penyelesaian.** Be $2s^2$: 0; B $2s^22p$: 1; C $2s^22p^2$: 2; N $2s^22p^3$: 3; O $2s^22p^4$: 2; F $2s^22p^5$: 1. Valensi teramati Be 2, B 3, C 4: ketiganya memerlukan promosi satu elektron $2s$ ke $2p$. Untuk Be, $21\,978 \times 1{,}2398 \times 10^{-4} = 2{,}72$ eV $= 263$ kJ/mol. Untuk B, $28\,800 \times 1{,}2398 \times 10^{-4} = 3{,}57$ eV $= 345$ kJ/mol.
+**Penyelesaian.** Be $2s^2$: 0; B $2s^2 2p$: 1; C $2s^2 2p^2$: 2; N $2s^2 2p^3$: 3; O $2s^2 2p^4$: 2; F $2s^2 2p^5$: 1. Valensi teramati Be 2, B 3, C 4: ketiganya memerlukan promosi satu elektron $2s$ ke $2p$. Untuk Be, $21\,978 \times 1{,}2398 \times 10^{-4} = 2{,}72$ eV $= 263$ kJ/mol. Untuk B, $28\,800 \times 1{,}2398 \times 10^{-4} = 3{,}57$ eV $= 345$ kJ/mol.
 
 **Memahami hasil.** Promosi hanya diperlukan oleh atom-atom di sebelah kiri karbon (dan karbon sendiri), yang orbital $2p$-nya masih kosong atau setengah kosong. Atom di sebelah kanan (N, O, F) sudah mempunyai cukup elektron tak berpasangan; pasangan $2s^2$ mereka tetap menjadi pasangan bebas. Pola ini sesuai dengan aturan oktet: setelah promosi dan pembentukan ikatan, Be, B, dan C mencapai 4, 6, dan 8 elektron valensi. Be dan B tetap kekurangan elektron, dan inilah akar sifat asam Lewis BeCl₂ dan BF₃.
 :::

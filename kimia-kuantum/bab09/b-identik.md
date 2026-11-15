@@ -261,6 +261,6 @@ Natrium (massa jenis 0,968 g/cm³, $M = 22{,}99$ g/mol) menyumbangkan satu elekt
 ::: {.kuis}
 **Kuis cepat 9.5**
 
-(a) Berapa elektron yang dapat ditampung subkulit 5g ($\ell = 4$)? (b) Apakah konfigurasi $1s^3$ dilarang oleh asas Pauli? Bagaimana dengan $1s^22s^22p^7$? (c) Mengapa dua atom neon tidak membentuk molekul Ne₂ yang stabil, padahal argon cair ada?
+(a) Berapa elektron yang dapat ditampung subkulit 5g ($\ell = 4$)? (b) Apakah konfigurasi $1s^3$ dilarang oleh asas Pauli? Bagaimana dengan $1s^2 2s^2 2p^7$? (c) Mengapa dua atom neon tidak membentuk molekul Ne₂ yang stabil, padahal argon cair ada?
 :::
 

@@ -168,7 +168,7 @@ Fungsi gelombang sebuah partikel pada cincin adalah $\psi(\phi) = Ae^{2i\phi}$, 
 
 (b) $\int_0^{2\pi}|A|^2\,d\phi = 2\pi|A|^2 = 1$, sehingga $A = 1/\sqrt{2\pi}$ (sampai faktor fase).
 
-(c) $|\chi|^2 = |A'|^2\cos^22\phi$, yang berayun dengan empat puncak dan empat titik nol di sekeliling cincin. Normalisasi: $\int_0^{2\pi}\cos^22\phi\,d\phi = \pi$, sehingga $A' = 1/\sqrt\pi$.
+(c) $|\chi|^2 = |A'|^2\cos^2 2\phi$, yang berayun dengan empat puncak dan empat titik nol di sekeliling cincin. Normalisasi: $\int_0^{2\pi}\cos^2 2\phi\,d\phi = \pi$, sehingga $A' = 1/\sqrt\pi$.
 
 **Memahami hasil.** Fungsi kompleks $e^{2i\phi}$ menyatakan partikel yang **berputar** mengelilingi cincin dengan momentum sudut tertentu, dan rapat peluangnya merata. Fungsi riil $\cos 2\phi = \tfrac12(e^{2i\phi} + e^{-2i\phi})$ adalah superposisi putaran searah dan berlawanan arah jarum jam: gelombang berdiri dengan simpul. Hubungan yang sama menghubungkan orbital $p_{\pm1}$ yang kompleks dengan orbital $p_x$ dan $p_y$ yang riil (Bab 7).
 :::

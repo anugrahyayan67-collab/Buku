@@ -6,7 +6,7 @@ Nitrogen membentuk NCl₃ tetapi tidak NCl₅; fosfor membentuk PCl₃ **dan** P
 
 ### Model lama: hibrida sp³d dan sp³d²
 
-Penjelasan klasik (Pauling) memakai orbital $3d$ yang kosong. Untuk PCl₅, satu elektron $3s$ dipromosikan ke $3d$: $3s^23p^3 \to 3s^13p^33d^1$, menghasilkan lima elektron tak berpasangan dan lima hibrida sp³d (sering ditulis dsp³) yang menunjuk ke sudut-sudut bipiramida segitiga. Untuk SF₆, dua elektron dipromosikan: $3s^23p^4 \to 3s^13p^33d^2$, menghasilkan enam hibrida sp³d² ($d^2sp^3$) yang menunjuk ke sudut-sudut oktahedron.
+Penjelasan klasik (Pauling) memakai orbital $3d$ yang kosong. Untuk PCl₅, satu elektron $3s$ dipromosikan ke $3d$: $3s^2 3p^3 \to 3s^1 3p^3 3d^1$, menghasilkan lima elektron tak berpasangan dan lima hibrida sp³d (sering ditulis dsp³) yang menunjuk ke sudut-sudut bipiramida segitiga. Untuk SF₆, dua elektron dipromosikan: $3s^2 3p^4 \to 3s^1 3p^3 3d^2$, menghasilkan enam hibrida sp³d² ($d^2sp^3$) yang menunjuk ke sudut-sudut oktahedron.
 
 Hibrida oktahedral dapat diturunkan seperti hibrida sp³. Enam hibrida setara memerlukan karakter $s$ $\tfrac16$ masing-masing. Untuk hibrida yang menunjuk ke $\pm z$, hanya orbital yang simetris silinder di sekitar sumbu $z$ yang boleh ikut: $s$, $p_z$, dan $d_{z^2}$. Kekekalan orbital (setiap orbital $p$ dibagi ke dua hibrida yang berlawanan, dan kedua orbital $d$ yang dipakai, $d_{z^2}$ dan $d_{x^2-y^2}$, dibagi ke enam hibrida) memberikan
 
@@ -21,7 +21,7 @@ Model ini rapi, tetapi menimbulkan pertanyaan yang tidak dapat diabaikan: apakah
 
 ### Mengapa model orbital d dipertanyakan
 
-**Energi.** Keadaan atom belerang dengan konfigurasi $3s^23p^33d^1$ terletak jauh di atas keadaan dasar, tidak jauh di bawah batas ionisasi. Biaya promosi dua elektron ke $3d$ sangat besar dibanding energi yang dapat dikembalikan oleh dua ikatan tambahan.
+**Energi.** Keadaan atom belerang dengan konfigurasi $3s^2 3p^3 3d^1$ terletak jauh di atas keadaan dasar, tidak jauh di bawah batas ionisasi. Biaya promosi dua elektron ke $3d$ sangat besar dibanding energi yang dapat dikembalikan oleh dua ikatan tambahan.
 
 **Ukuran.** Elektron $3d$ dalam atom netral hampir tidak merasakan muatan inti: semua elektron yang lebih dalam (termasuk elektron $3s$ dan $3p$) menyaringnya. Taksiran dengan aturan Slater memberikan jarak rata-rata elektron $3d$ belerang sekitar 5,6 Å, sedangkan $3p$ sekitar 1,0 Å (Contoh 12.28). Orbital yang begitu difus hampir tidak bertumpang tindih dengan orbital fluor pada jarak S–F 156 pm.
 
@@ -31,7 +31,7 @@ Model ini rapi, tetapi menimbulkan pertanyaan yang tidak dapat diabaikan: apakah
 
 ### Ikatan tiga pusat empat elektron
 
-G. C. Pimentel dan R. E. Rundle (1951) mengusulkan model yang hanya memakai orbital $s$ dan $p$. Ambil molekul linear F–Xe–F. Xenon ($5s^25p^6$) mempunyai satu orbital $5p_z$ berisi dua elektron yang mengarah ke kedua F; setiap atom F mempunyai satu orbital $2p_z$ berisi satu elektron yang mengarah ke Xe. Tiga orbital dan empat elektron ini membentuk satu sistem **tiga pusat empat elektron** (3c-4e).
+G. C. Pimentel dan R. E. Rundle (1951) mengusulkan model yang hanya memakai orbital $s$ dan $p$. Ambil molekul linear F–Xe–F. Xenon ($5s^2 5p^6$) mempunyai satu orbital $5p_z$ berisi dua elektron yang mengarah ke kedua F; setiap atom F mempunyai satu orbital $2p_z$ berisi satu elektron yang mengarah ke Xe. Tiga orbital dan empat elektron ini membentuk satu sistem **tiga pusat empat elektron** (3c-4e).
 
 Dengan pendekatan sederhana yang akan dipakai lagi untuk sistem π di Bab 13, anggap setiap orbital mempunyai energi diagonal $\alpha$ (sama untuk semua, sebagai penyederhanaan pertama), unsur matriks $\beta < 0$ antara orbital-orbital yang bertetangga, nol antara kedua F, dan tumpang tindih diabaikan. Urutkan basisnya (F₁, Xe, F₂). Persamaan sekulernya
 
@@ -80,7 +80,7 @@ Dengan bahasa struktur resonansi, ikatan 3c-4e adalah resonansi antara F⁻ Xe�
 ::: {.contoh}
 **Contoh 12.28 · Seberapa besar orbital 3d belerang?**
 
-Pakai aturan Slater dan orbital Slater (dengan $\langle r\rangle = (2n + 1)/(2\zeta)$, $\zeta = Z_\text{ef}/n$, $n = 3$) untuk menaksir jarak rata-rata elektron (a) $3p$ belerang dalam keadaan dasar $3s^23p^4$; (b) $3d$ dalam $3s^23p^33d^1$; (c) $3d$ dalam ion S²⁺ dengan konfigurasi $3s^23p^13d^1$. Bandingkan dengan panjang ikatan S–F (156 pm).
+Pakai aturan Slater dan orbital Slater (dengan $\langle r\rangle = (2n + 1)/(2\zeta)$, $\zeta = Z_\text{ef}/n$, $n = 3$) untuk menaksir jarak rata-rata elektron (a) $3p$ belerang dalam keadaan dasar $3s^2 3p^4$; (b) $3d$ dalam $3s^2 3p^3 3d^1$; (c) $3d$ dalam ion S²⁺ dengan konfigurasi $3s^2 3p^1 3d^1$. Bandingkan dengan panjang ikatan S–F (156 pm).
 
 **Penyelesaian.** (a) Penyaringan untuk $3p$: lima elektron $n = 3$ lainnya × 0,35, delapan elektron $n = 2$ × 0,85, dua elektron $n = 1$ × 1,00: $\sigma = 10{,}55$, $Z_\text{ef} = 5{,}45$, $\zeta = 1{,}817$, $\langle r\rangle = 7/(2 \times 1{,}817) = 1{,}93\,a_0 = 1{,}02$ Å.
 
@@ -154,7 +154,7 @@ Difraksi elektron menunjukkan struktur yang tidak mirip etana. Kedua atom boron 
 
 ### Hibrida dan ikatan tiga pusat
 
-Setiap boron dapat dilukiskan memakai empat hibrida kira-kira sp³ (setelah promosi $2s^22p \to 2s2p^2$, boron hanya mempunyai tiga elektron untuk empat hibrida). Dua hibrida membentuk ikatan 2c-2e biasa dengan H ujung, memakai 8 dari 12 elektron. Sisanya empat elektron untuk dua jembatan.
+Setiap boron dapat dilukiskan memakai empat hibrida kira-kira sp³ (setelah promosi $2s^2 2p \to 2s2p^2$, boron hanya mempunyai tiga elektron untuk empat hibrida). Dua hibrida membentuk ikatan 2c-2e biasa dengan H ujung, memakai 8 dari 12 elektron. Sisanya empat elektron untuk dua jembatan.
 
 Di setiap jembatan, tiga orbital bertemu: satu hibrida dari B₁, orbital $1s$ dari H, dan satu hibrida dari B₂. Matriks Hamiltoniannya, dengan basis $(h_{B_1}, 1s_\text{H}, h_{B_2})$ dan interaksi langsung B–B diabaikan, sama dengan (12.28): tiga orbital tiga pusat $\alpha + \sqrt2\beta$, $\alpha$, $\alpha - \sqrt2\beta$. Bedanya, kini hanya **dua** elektron yang tersedia per jembatan. Keduanya mengisi orbital ikatan $\psi_1 = \tfrac12h_{B_1} + \tfrac{1}{\sqrt2}1s_\text{H} + \tfrac12h_{B_2}$ (Gambar 12.7(b)). Inilah **ikatan tiga pusat dua elektron** (3c-2e), yang biasa digambar sebagai busur atau "pisang" yang menghubungkan ketiga atom.
 

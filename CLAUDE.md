@@ -31,3 +31,4 @@ pip install reportlab pypdf matplotlib 2>/dev/null   # bila belum ada; pandoc da
 - Pedoman isi, notasi, dan gaya: `kimia-kuantum/PEDOMAN.md`. Baca keduanya sebelum menulis.
 - Satu sesi = satu bab (paling banyak dua). Materi dulu, desain belakangan.
 - Commit setiap bab selesai, dorong ke cabang kerja, lalu perbarui RENCANA.md.
+- Cetak buku utuh Edisi 1 (sampul, pembuka bab bergambar, daftar isi bertaut, indeks): `python3 kimia-kuantum/edisi/cetak.py` (`--lewati-bab` bila isi bab tidak berubah). Gambar pembuka: `kimia-kuantum/edisi/pembuka.py`; sampul: `edisi/sampul.py`; palet: `edisi/kk.css`.

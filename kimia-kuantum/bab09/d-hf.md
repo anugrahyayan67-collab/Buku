@@ -229,9 +229,9 @@ Dari urutan ini dan kapasitas subkulit (9.20), panjang periode langsung terbaca:
 
 ### Logam transisi: 4s lebih dulu masuk, lebih dulu keluar
 
-Pada kalium dan kalsium, 4s jelas lebih rendah daripada 3d (Contoh 9.28). Tetapi energi orbital 3d turun jauh lebih cepat daripada 4s ketika $Z$ bertambah, karena elektron 3d kurang terperisai oleh elektron 4s yang lebih luar. Sejak skandium, energi orbital 3d sebenarnya sudah di bawah 4s. Mengapa unsur-unsur itu tetap mempunyai konfigurasi $3d^n4s^2$, bukan $3d^{n+2}$? Karena yang menentukan konfigurasi adalah energi **total**, termasuk tolakan antarelektron: orbital 3d kompak, sehingga menambahkan elektron ke sana menaikkan tolakan jauh lebih banyak daripada menambahkannya ke 4s yang luas. Ketika atom diionisasi, muatan bersih memperkuat tarikan inti dan memperkecil peran tolakan, sehingga 3d menjadi jelas lebih stabil. Akibatnya, ion logam transisi kehilangan elektron 4s lebih dulu: Fe ($[\text{Ar}]3d^64s^2$) menjadi Fe²⁺ ($[\text{Ar}]3d^6$), bukan $[\text{Ar}]3d^44s^2$. Seluruh kimia koordinasi (Bab 14) bekerja dengan konfigurasi $d^n$ ion seperti ini.
+Pada kalium dan kalsium, 4s jelas lebih rendah daripada 3d (Contoh 9.28). Tetapi energi orbital 3d turun jauh lebih cepat daripada 4s ketika $Z$ bertambah, karena elektron 3d kurang terperisai oleh elektron 4s yang lebih luar. Sejak skandium, energi orbital 3d sebenarnya sudah di bawah 4s. Mengapa unsur-unsur itu tetap mempunyai konfigurasi $3d^n4s^2$, bukan $3d^{n+2}$? Karena yang menentukan konfigurasi adalah energi **total**, termasuk tolakan antarelektron: orbital 3d kompak, sehingga menambahkan elektron ke sana menaikkan tolakan jauh lebih banyak daripada menambahkannya ke 4s yang luas. Ketika atom diionisasi, muatan bersih memperkuat tarikan inti dan memperkecil peran tolakan, sehingga 3d menjadi jelas lebih stabil. Akibatnya, ion logam transisi kehilangan elektron 4s lebih dulu: Fe ($[\text{Ar}]3d^6 4s^2$) menjadi Fe²⁺ ($[\text{Ar}]3d^6$), bukan $[\text{Ar}]3d^4 4s^2$. Seluruh kimia koordinasi (Bab 14) bekerja dengan konfigurasi $d^n$ ion seperti ini.
 
-Beberapa pengecualian aturan Madelung, misalnya Cr ($3d^54s^1$) dan Cu ($3d^{10}4s^1$), muncul karena selisih energi konfigurasi sangat kecil, dan stabilisasi pertukaran subkulit setengah penuh atau penuh (Contoh 9.31) cukup untuk membalik urutan.
+Beberapa pengecualian aturan Madelung, misalnya Cr ($3d^5 4s^1$) dan Cu ($3d^{10}4s^1$), muncul karena selisih energi konfigurasi sangat kecil, dan stabilisasi pertukaran subkulit setengah penuh atau penuh (Contoh 9.31) cukup untuk membalik urutan.
 
 ### Muatan inti efektif dan aturan Slater
 
@@ -282,13 +282,13 @@ Energi ionisasi pertama: Be 9,32; B 8,30; C 11,26; N 14,53; O 13,62 eV. Jelaskan
 ::: {.contoh}
 **Contoh 9.31 · Kromium dan stabilisasi pertukaran**
 
-Bandingkan konfigurasi $3d^44s^2$ dan $3d^54s^1$ kromium. (a) Dalam masing-masing, berapa elektron yang berspin sejajar (aturan Hund) dan berapa pasangan pertukaran sejajar $\binom{n}{2}$ di antara mereka? (b) Mengapa hal ini dapat membalik urutan energi?
+Bandingkan konfigurasi $3d^4 4s^2$ dan $3d^5 4s^1$ kromium. (a) Dalam masing-masing, berapa elektron yang berspin sejajar (aturan Hund) dan berapa pasangan pertukaran sejajar $\binom{n}{2}$ di antara mereka? (b) Mengapa hal ini dapat membalik urutan energi?
 
-**Penyelesaian.** (a) $3d^44s^2$: empat elektron d sejajar ditambah satu elektron 4s searah (yang lain berlawanan): 5 elektron sejajar, $\binom52 = 10$ pasangan. $3d^54s^1$: lima elektron d dan satu 4s semuanya sejajar: 6 elektron, $\binom62 = 15$ pasangan.
+**Penyelesaian.** (a) $3d^4 4s^2$: empat elektron d sejajar ditambah satu elektron 4s searah (yang lain berlawanan): 5 elektron sejajar, $\binom52 = 10$ pasangan. $3d^5 4s^1$: lima elektron d dan satu 4s semuanya sejajar: 6 elektron, $\binom62 = 15$ pasangan.
 
 (b) Setiap pasangan sejajar menyumbang $-K$ (integral pertukaran, beberapa puluh kJ/mol untuk orbital 3d). Lima pasangan tambahan, ditambah berkurangnya tolakan pasangan di 4s, cukup untuk mengalahkan selisih kecil energi orbital 3d dan 4s.
 
-**Memahami hasil.** Penjelasan "subkulit setengah penuh itu stabil" sebenarnya adalah penjelasan pertukaran: elektron berspin sejajar saling menghindar karena antisimetri, dan tolakan yang dihindari itu muncul sebagai integral $K$. Untuk Cu ($3d^{10}4s^1$ lawan $3d^94s^2$), alasannya serupa, ditambah kontraksi kuat orbital 3d menjelang akhir deret. Pengecualian Aufbau di deret 4d dan 5d (misalnya Pd $4d^{10}5s^0$, Pt $5d^96s^1$) menunjukkan bahwa ketika selisih energi konfigurasi hanya puluhan kJ/mol, setiap efek kecil, termasuk relativitas, dapat menentukan pemenangnya.
+**Memahami hasil.** Penjelasan "subkulit setengah penuh itu stabil" sebenarnya adalah penjelasan pertukaran: elektron berspin sejajar saling menghindar karena antisimetri, dan tolakan yang dihindari itu muncul sebagai integral $K$. Untuk Cu ($3d^{10}4s^1$ lawan $3d^9 4s^2$), alasannya serupa, ditambah kontraksi kuat orbital 3d menjelang akhir deret. Pengecualian Aufbau di deret 4d dan 5d (misalnya Pd $4d^{10}5s^0$, Pt $5d^9 6s^1$) menunjukkan bahwa ketika selisih energi konfigurasi hanya puluhan kJ/mol, setiap efek kecil, termasuk relativitas, dapat menentukan pemenangnya.
 :::
 
 ::: {.contoh}

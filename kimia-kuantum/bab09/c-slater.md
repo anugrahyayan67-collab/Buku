@@ -57,7 +57,7 @@ Enam suku: tiga bertanda $+$ ($a_1b_2c_3$, $b_1c_2a_3$, $c_1a_2b_3$, permutasi s
 
 (b) Menukar label 1 dan 3 mengubah setiap suku $+$ menjadi suku $-$ dan sebaliknya; misalnya $a_1b_2c_3 \to a_3b_2c_1$, yang ada di daftar dengan tanda $-$. Jadi $\Psi(3, 2, 1) = -\Psi(1, 2, 3)$.
 
-**Memahami hasil.** Setiap elektron muncul di setiap spin-orbital dalam sebagian suku: tidak ada yang dapat mengatakan bahwa "elektron 3 adalah elektron 2s". Yang bermakna hanyalah pernyataan bahwa salah satu elektron menempati 2s$\alpha$. Inilah bahasa yang benar untuk konfigurasi elektron $1s^22s^1$.
+**Memahami hasil.** Setiap elektron muncul di setiap spin-orbital dalam sebagian suku: tidak ada yang dapat mengatakan bahwa "elektron 3 adalah elektron 2s". Yang bermakna hanyalah pernyataan bahwa salah satu elektron menempati 2s$\alpha$. Inilah bahasa yang benar untuk konfigurasi elektron $1s^2 2s^1$.
 :::
 
 ::: {.contoh}
@@ -118,7 +118,7 @@ Untuk berilium $|1s\alpha\,1s\beta\,2s\alpha\,2s\beta|$, ganti 1s dan 2s dengan 
 
 ### Konfigurasi 1s²2s
 
-Litium ($Z = 3$) adalah atom pertama yang memerlukan asas Pauli. Dua elektron menempati 1s dengan spin berlawanan, dan elektron ketiga harus pergi ke kulit $n = 2$. Dalam ion mirip hidrogen, 2s dan 2p terdegenerasi; dalam litium, elektron ketiga melihat inti yang diperisai oleh dua elektron 1s, dan seperti pada helium tereksitasi (Contoh 8.45), orbital 2s, yang **menembus** awan 1s, lebih stabil daripada 2p. Keadaan dasar litium karena itu $1s^22s$, dengan fungsi gelombang (pendekatan satu determinan)
+Litium ($Z = 3$) adalah atom pertama yang memerlukan asas Pauli. Dua elektron menempati 1s dengan spin berlawanan, dan elektron ketiga harus pergi ke kulit $n = 2$. Dalam ion mirip hidrogen, 2s dan 2p terdegenerasi; dalam litium, elektron ketiga melihat inti yang diperisai oleh dua elektron 1s, dan seperti pada helium tereksitasi (Contoh 8.45), orbital 2s, yang **menembus** awan 1s, lebih stabil daripada 2p. Keadaan dasar litium karena itu $1s^2 2s$, dengan fungsi gelombang (pendekatan satu determinan)
 
 $$
 \Psi(\text{Li}) = |1s\alpha\,1s\beta\,2s\alpha| . \qquad \text{(9.23)}
@@ -227,6 +227,6 @@ Garam litium mewarnai nyala menjadi merah tua karena garis 670,8 nm (2p → 2s).
 ::: {.kuis}
 **Kuis cepat 9.7**
 
-(a) Mengapa (9.24) memuat $K_{1s2s}$ hanya sekali, padahal ada dua elektron 1s? (b) Untuk keadaan tereksitasi $1s^22p$, apakah energi ionisasinya lebih besar atau lebih kecil daripada keadaan dasar, dan berapa (dalam eV)? (c) Mengapa eksponen 1s litium hampir sama dengan eksponen ion Li⁺?
+(a) Mengapa (9.24) memuat $K_{1s2s}$ hanya sekali, padahal ada dua elektron 1s? (b) Untuk keadaan tereksitasi $1s^2 2p$, apakah energi ionisasinya lebih besar atau lebih kecil daripada keadaan dasar, dan berapa (dalam eV)? (c) Mengapa eksponen 1s litium hampir sama dengan eksponen ion Li⁺?
 :::
 

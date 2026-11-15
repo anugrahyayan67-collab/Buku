@@ -147,7 +147,7 @@ Pakai satuan atom bila tidak dinyatakan lain; $\mu_B = 9{,}274 \times 10^{-24}$ 
 
 **30.** Berapa elektron paling banyak di kulit $n = 4$ dan di subkulit 4f?
 
-**31.** Konfigurasi mana yang dilarang asas Pauli: $1s^22s^22p^7$, $1s^22s^3$, $1s^22p^2$?
+**31.** Konfigurasi mana yang dilarang asas Pauli: $1s^2 2s^2 2p^7$, $1s^2 2s^3$, $1s^2 2p^2$?
 
 **32.** Empat elektron dalam kotak satu dimensi: berapa energi keadaan dasar (satuan $E_1$)? Bila boson tanpa spin?
 
@@ -207,7 +207,7 @@ Pakai satuan atom bila tidak dinyatakan lain; $\mu_B = 9{,}274 \times 10^{-24}$ 
 
 **Tantangan ★**
 
-**51.** [P] ★ Ion Li⁻ ($1s^22s^2$) terikat dengan afinitas elektron 0,62 eV. Mengapa elektron tambahan dapat diikat oleh atom netral, dan mengapa ikatannya lemah?
+**51.** [P] ★ Ion Li⁻ ($1s^2 2s^2$) terikat dengan afinitas elektron 0,62 eV. Mengapa elektron tambahan dapat diikat oleh atom netral, dan mengapa ikatannya lemah?
 
 ## Subbab 9.8: Metode Hartree–Fock untuk atom
 
@@ -227,7 +227,7 @@ Pakai satuan atom bila tidak dinyatakan lain; $\mu_B = 9{,}274 \times 10^{-24}$ 
 
 **57.** Berapa energi relaksasi untuk ionisasi 1s neon menurut Contoh 9.26?
 
-**58.** Atom nitrogen ($2p^3$, $^4$S) diionisasi pada kulit 1s. Suku apa saja yang mungkin untuk ion dengan konfigurasi $1s^12s^22p^3$ (gabungkan spin $\tfrac12$ lubang 1s dengan $S = \tfrac32$), dan berapa perbandingan intensitasnya menurut bobot spin?
+**58.** Atom nitrogen ($2p^3$, $^4$S) diionisasi pada kulit 1s. Suku apa saja yang mungkin untuk ion dengan konfigurasi $1s^1 2s^2 2p^3$ (gabungkan spin $\tfrac12$ lubang 1s dengan $S = \tfrac32$), dan berapa perbandingan intensitasnya menurut bobot spin?
 
 **59.** Mengapa metode Hartree (tanpa antisimetri) dan Hartree–Fock memberi energi yang sama untuk keadaan dasar helium?
 
@@ -388,7 +388,7 @@ Pakai satuan atom bila tidak dinyatakan lain; $\mu_B = 9{,}274 \times 10^{-24}$ 
 | 5 | 3,39 T | 58 | $^5$S dan $^3$S; 5 : 3 |
 | 6 | $1{,}61 \times 10^{-23}$ J/T; yang terukur adalah komponen $z$, $\tfrac12g_e\mu_B \approx \mu_B$ | 59 | hanya ada pasangan berspin berlawanan; tidak ada pertukaran |
 | 7 | sebaran gaya Lorentz akibat ketidakpastian posisi dan kecepatan berkas melebihi pemisahan akibat momen spin | 60 | $\sum_i\varepsilon_i = \sum_ih_i + \sum_{ij}(2J - K)$; selisih energi determinan dengan dan tanpa satu elektron di $k$ |
-| 8 | langsung | 61 | $[\text{Ar}]3d^84s^2$; $3d^8$; $3d^{10}$; $3d^{10}$; $3d^3$ |
+| 8 | langsung | 61 | $[\text{Ar}]3d^8 4s^2$; $3d^8$; $3d^{10}$; $3d^{10}$; $3d^3$ |
 | 9 | $\pm1$; $(1, \pm i)/\sqrt2$ | 62 | 4,55; 6,10 |
 | 10 | 0; $\tfrac12\hbar$ | 63 | 5s; 6s |
 | 11 | $\tfrac15$; $0$, $0{,}4\hbar$, $-0{,}3\hbar$ (panjang $0{,}5\hbar$) | 64 | 4,35 dan 8,85; 3d jauh lebih tertarik ke inti, menjadi bagian teras |

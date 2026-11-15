@@ -181,7 +181,7 @@ Untuk dua elektron p, integral Coulomb dan pertukaran antara orbital $m_\ell$ da
 
 (c) $E(^1D) - E(^3P) = 6F_2$ dan $E(^1S) - E(^1D) = 9F_2$: perbandingannya 1,50. Karbon dan oksigen memberi sekitar 1,13.
 
-**Memahami hasil.** Aturan Condon–Slater dan aturan jumlah diagonal meramalkan urutan suku ($^3$P < $^1$D < $^1$S, sesuai aturan Hund) dari satu parameter saja; dari jarak $^3$P–$^1$D karbon, $F_2 = 1694$ cm⁻¹. Perbandingan terukur yang lebih kecil daripada 1,5 menunjukkan batas pendekatan satu konfigurasi: suku $^1$S bercampur dengan konfigurasi lain ($2s^02p^4$) yang mempunyai suku $^1$S juga dan didorong turun oleh tolakan tingkat (subbab 8.7). Parameter seperti $F_2$ (atau parameter Racah $B$ dan $C$ untuk elektron d) adalah bahasa yang dipakai spektroskopis untuk menyusun diagram Tanabe–Sugano (subbab 14.10).
+**Memahami hasil.** Aturan Condon–Slater dan aturan jumlah diagonal meramalkan urutan suku ($^3$P < $^1$D < $^1$S, sesuai aturan Hund) dari satu parameter saja; dari jarak $^3$P–$^1$D karbon, $F_2 = 1694$ cm⁻¹. Perbandingan terukur yang lebih kecil daripada 1,5 menunjukkan batas pendekatan satu konfigurasi: suku $^1$S bercampur dengan konfigurasi lain ($2s^0 2p^4$) yang mempunyai suku $^1$S juga dan didorong turun oleh tolakan tingkat (subbab 8.7). Parameter seperti $F_2$ (atau parameter Racah $B$ dan $C$ untuk elektron d) adalah bahasa yang dipakai spektroskopis untuk menyusun diagram Tanabe–Sugano (subbab 14.10).
 :::
 
 ::: {.contoh}

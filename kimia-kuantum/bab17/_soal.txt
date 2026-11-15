@@ -20,7 +20,7 @@ Hitung banyaknya determinan CI penuh untuk CH₄ (9 orbital STO-3G, 5α5β) dan 
 
 **Dasar**
 
-Tuliskan energi HF atom Li ($1s^22s$) dengan integral $h$, $J$, dan $K$. ||| $2h_{1s} + h_{2s} + J_{1s1s} + 2J_{1s2s} - K_{1s2s}$
+Tuliskan energi HF atom Li ($1s^2 2s$) dengan integral $h$, $J$, dan $K$. ||| $2h_{1s} + h_{2s} + J_{1s1s} + 2J_{1s2s} - K_{1s2s}$
 Batas HF He memberi $\varepsilon_{1s} = -0{,}91796$ dan $E = -2{,}86168\ E_h$. Tentukan $h$ dan $J$ orbital 1s. ||| $h = -1{,}94372$; $J = 1{,}02576\ E_h$
 Berapa nilai tepat $\langle\hat S^2\rangle$ untuk doblet, triplet, dan kuartet? ||| 0,75; 2,00; 3,75
 

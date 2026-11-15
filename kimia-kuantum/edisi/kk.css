@@ -1,0 +1,5 @@
+/* Palet Kimia Kuantum: nila tua, ungu, sian, emas */
+:root { --tua:#1e1548; --gelap:#1e1548; --biru:#4a3ab0; --langit:#5ce1e6; --muda:#f2effc; --garis:#d6cdf3;
+        --jingga:#b9801a; --jingga-t:#f2c25b; --hangat:#b5541c; }
+section.pembuka { background: radial-gradient(ellipse at 50% 70%, #3a2a85 0%, #221860 40%, #150f3d 78%, #0e0a2c 100%); }
+section.pembuka .nb { color: var(--langit); }

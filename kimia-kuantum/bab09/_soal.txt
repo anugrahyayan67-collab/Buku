@@ -78,7 +78,7 @@ Tunjukkan bahwa $\alpha(1)\beta(2)$ adalah fungsi eigen $\hat S_z$ tetapi bukan 
 **Dasar**
 
 Berapa elektron paling banyak di kulit $n = 4$ dan di subkulit 4f? ||| 32; 14
-Konfigurasi mana yang dilarang asas Pauli: $1s^22s^22p^7$, $1s^22s^3$, $1s^22p^2$? ||| dua yang pertama; yang ketiga keadaan tereksitasi yang sah
+Konfigurasi mana yang dilarang asas Pauli: $1s^2 2s^2 2p^7$, $1s^2 2s^3$, $1s^2 2p^2$? ||| dua yang pertama; yang ketiga keadaan tereksitasi yang sah
 Empat elektron dalam kotak satu dimensi: berapa energi keadaan dasar (satuan $E_1$)? Bila boson tanpa spin? ||| $10E_1$; $4E_1$
 
 **Menengah**
@@ -126,7 +126,7 @@ Mengapa integral pertukaran $K_{1s2s}$ litium (0,0125 $E_h$) jauh lebih kecil da
 
 **Tantangan ★**
 
-@lianion [P] ★ Ion Li⁻ ($1s^22s^2$) terikat dengan afinitas elektron 0,62 eV. Mengapa elektron tambahan dapat diikat oleh atom netral, dan mengapa ikatannya lemah? ||| perisai 2s oleh 2s tidak sempurna ($\sigma \approx 0{,}35$), sehingga elektron kedua merasakan muatan efektif sedikit positif; korelasi pasangan 2s² penting
+@lianion [P] ★ Ion Li⁻ ($1s^2 2s^2$) terikat dengan afinitas elektron 0,62 eV. Mengapa elektron tambahan dapat diikat oleh atom netral, dan mengapa ikatannya lemah? ||| perisai 2s oleh 2s tidak sempurna ($\sigma \approx 0{,}35$), sehingga elektron kedua merasakan muatan efektif sedikit positif; korelasi pasangan 2s² penting
 
 ## Subbab 9.8: Metode Hartree–Fock untuk atom
 
@@ -141,7 +141,7 @@ Tunjukkan bahwa $J_{ii} = K_{ii}$ sehingga swa-interaksi hilang dalam (9.25). ||
 Tuliskan energi HF berilium dengan integral $h$, $J$, dan $K$ orbital 1s dan 2s. ||| $2h_{1s} + 2h_{2s} + J_{1s1s} + J_{2s2s} + 4J_{1s2s} - 2K_{1s2s}$
 Tuliskan $\varepsilon_{2s}$ berilium dengan integral yang sama. ||| $h_{2s} + J_{2s2s} + 2J_{1s2s} - K_{1s2s}$
 Berapa energi relaksasi untuk ionisasi 1s neon menurut Contoh 9.26? ||| sekitar 21,5 eV
-Atom nitrogen ($2p^3$, $^4$S) diionisasi pada kulit 1s. Suku apa saja yang mungkin untuk ion dengan konfigurasi $1s^12s^22p^3$ (gabungkan spin $\tfrac12$ lubang 1s dengan $S = \tfrac32$), dan berapa perbandingan intensitasnya menurut bobot spin? ||| $^5$S dan $^3$S; 5 : 3
+Atom nitrogen ($2p^3$, $^4$S) diionisasi pada kulit 1s. Suku apa saja yang mungkin untuk ion dengan konfigurasi $1s^1 2s^2 2p^3$ (gabungkan spin $\tfrac12$ lubang 1s dengan $S = \tfrac32$), dan berapa perbandingan intensitasnya menurut bobot spin? ||| $^5$S dan $^3$S; 5 : 3
 Mengapa metode Hartree (tanpa antisimetri) dan Hartree–Fock memberi energi yang sama untuk keadaan dasar helium? ||| hanya ada pasangan berspin berlawanan; tidak ada pertukaran
 
 **Tantangan ★**
@@ -152,7 +152,7 @@ Mengapa metode Hartree (tanpa antisimetri) dan Hartree–Fock memberi energi yan
 
 **Dasar**
 
-Tuliskan konfigurasi Ni, Ni²⁺, Zn²⁺, Cu⁺, dan Cr³⁺. ||| $[\text{Ar}]3d^84s^2$; $3d^8$; $3d^{10}$; $3d^{10}$; $3d^3$
+Tuliskan konfigurasi Ni, Ni²⁺, Zn²⁺, Cu⁺, dan Cr³⁺. ||| $[\text{Ar}]3d^8 4s^2$; $3d^8$; $3d^{10}$; $3d^{10}$; $3d^3$
 Dengan aturan Slater, hitung $Z_\text{ef}$ elektron 2p oksigen dan 3p klor. ||| 4,55; 6,10
 Menurut aturan Madelung, mana yang terisi lebih dulu: 5s atau 4d? 6s atau 4f? ||| 5s; 6s
 

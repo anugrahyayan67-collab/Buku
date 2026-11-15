@@ -5,13 +5,13 @@
 **Dasar**
 
 Keadaan $^5S$ karbon terletak 33 735 cm⁻¹ di atas keadaan dasar $^3P$. Nyatakan biaya promosi ini dalam eV dan kJ/mol. ||| 4,18 eV; 404 kJ/mol
-Berapa elektron tak berpasangan pada atom Si dalam keadaan dasar ($3s^23p^2$)? Promosi apa yang diperlukan agar Si bervalensi empat pada SiH₄? ||| 2; $3s^23p^2 \to 3s3p^3$
+Berapa elektron tak berpasangan pada atom Si dalam keadaan dasar ($3s^2 3p^2$)? Promosi apa yang diperlukan agar Si bervalensi empat pada SiH₄? ||| 2; $3s^2 3p^2 \to 3s3p^3$
 Dengan rumus $f(n, S)$ pada Contoh 12.4, hitung banyaknya fungsi spin singlet untuk 10 elektron dan fungsi triplet untuk 4 elektron. ||| 42; 3
 
 **Menengah**
 
 @pasang [P] Tiga atom H (a, b, c) dalam satu garis mempunyai satu elektron masing-masing. Dengan aturan (12.4), tulis energi struktur dengan pasangan a–b (c tak berpasangan) dan struktur dengan pasangan b–c, dengan menyimpan $J_{ab}$, $J_{bc}$, $J_{ac}$. ||| $Q + J_{ab} - \tfrac12(J_{bc} + J_{ac})$; $Q + J_{bc} - \tfrac12(J_{ab} + J_{ac})$
-Promosi B ($2s^22p \to 2s2p^2$) memerlukan sekitar 345 kJ/mol. Bila energi rata-rata ikatan B–H sekitar 375 kJ/mol, berapa keuntungan bersih membentuk dua ikatan tambahan (BH₃ dibanding BH)? ||| sekitar 405 kJ/mol
+Promosi B ($2s^2 2p \to 2s2p^2$) memerlukan sekitar 345 kJ/mol. Bila energi rata-rata ikatan B–H sekitar 375 kJ/mol, berapa keuntungan bersih membentuk dua ikatan tambahan (BH₃ dibanding BH)? ||| sekitar 405 kJ/mol
 Tunjukkan bahwa $\langle\hat{\mathbf s}_1\cdot\hat{\mathbf s}_2\rangle$ bernilai $-\tfrac34$ untuk singlet dan $+\tfrac14$ untuk triplet, lalu bahwa $\tfrac12 + 2\hat{\mathbf s}_1\cdot\hat{\mathbf s}_2$ bernilai $-1$ dan $+1$. ||| dari $\hat{\mathbf s}_1\cdot\hat{\mathbf s}_2 = \tfrac12[S(S+1) - \tfrac32]$
 
 **Tantangan ★**
@@ -132,7 +132,7 @@ Hitung selisih $\Delta G^\circ$ deprotonasi (298 K) antara etilena (p$K_a$ 44) d
 
 Berapa sistem 3c-4e pada XeF₄, dan berapa orde setiap ikatan Xe–F? ||| 2; $\tfrac12$
 Ramalkan bentuk ICl₂⁻ dan orde ikatan I–Cl dengan model 3c-4e. ||| linear; $\tfrac12$
-Taksir $\langle r\rangle$ elektron $3d$ fosfor dalam $3s^23p^23d^1$ dengan aturan Slater ($Z = 15$). ||| $Z_\text{ef} = 1$; 10,5 $a_0$ = 5,6 Å
+Taksir $\langle r\rangle$ elektron $3d$ fosfor dalam $3s^2 3p^2 3d^1$ dengan aturan Slater ($Z = 15$). ||| $Z_\text{ef} = 1$; 10,5 $a_0$ = 5,6 Å
 
 **Menengah**
 
