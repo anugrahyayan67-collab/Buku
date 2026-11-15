@@ -1,0 +1,253 @@
+## Subbab 12.1: Dari ikatan valensi H₂ ke molekul poliatom
+
+> Gunakan $1\ \text{cm}^{-1} = 1{,}2398 \times 10^{-4}$ eV dan $1\ \text{eV} = 96{,}485$ kJ/mol. Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab.
+
+**Dasar**
+
+Keadaan $^5S$ karbon terletak 33 735 cm⁻¹ di atas keadaan dasar $^3P$. Nyatakan biaya promosi ini dalam eV dan kJ/mol. ||| 4,18 eV; 404 kJ/mol
+Berapa elektron tak berpasangan pada atom Si dalam keadaan dasar ($3s^23p^2$)? Promosi apa yang diperlukan agar Si bervalensi empat pada SiH₄? ||| 2; $3s^23p^2 \to 3s3p^3$
+Dengan rumus $f(n, S)$ pada Contoh 12.4, hitung banyaknya fungsi spin singlet untuk 10 elektron dan fungsi triplet untuk 4 elektron. ||| 42; 3
+
+**Menengah**
+
+@pasang [P] Tiga atom H (a, b, c) dalam satu garis mempunyai satu elektron masing-masing. Dengan aturan (12.4), tulis energi struktur dengan pasangan a–b (c tak berpasangan) dan struktur dengan pasangan b–c, dengan menyimpan $J_{ab}$, $J_{bc}$, $J_{ac}$. ||| $Q + J_{ab} - \tfrac12(J_{bc} + J_{ac})$; $Q + J_{bc} - \tfrac12(J_{ab} + J_{ac})$
+Promosi B ($2s^22p \to 2s2p^2$) memerlukan sekitar 345 kJ/mol. Bila energi rata-rata ikatan B–H sekitar 375 kJ/mol, berapa keuntungan bersih membentuk dua ikatan tambahan (BH₃ dibanding BH)? ||| sekitar 405 kJ/mol
+Tunjukkan bahwa $\langle\hat{\mathbf s}_1\cdot\hat{\mathbf s}_2\rangle$ bernilai $-\tfrac34$ untuk singlet dan $+\tfrac14$ untuk triplet, lalu bahwa $\tfrac12 + 2\hat{\mathbf s}_1\cdot\hat{\mathbf s}_2$ bernilai $-1$ dan $+1$. ||| dari $\hat{\mathbf s}_1\cdot\hat{\mathbf s}_2 = \tfrac12[S(S+1) - \tfrac32]$
+
+**Tantangan ★**
+
+★ Empat atom H di sudut-sudut bujur sangkar (pertukaran hanya antartetangga, $J$). Hitung energi masing-masing dari dua struktur pasangan sempurna, tumpang tindihnya ($\tfrac12$), dan energi resonansinya dengan $H_{12} = S_{12}(Q + 4J)$. ||| $Q + J$ masing-masing; $Q + 2J$; energi resonansi $\lvert J\rvert$
+
+## Subbab 12.2: Orbital terarah dan gagasan hibridisasi
+
+**Dasar**
+
+Normalisasikan $h = s + 2p_x$. Tentukan karakter $s$, notasi sp$^{\lambda^2}$, dan sudut dengan hibrida setara yang ortogonal terhadapnya. ||| $(s + 2p_x)/\sqrt5$; 20%; sp⁴; 104,5°
+Hitung karakter $s$ dua hibrida setara yang membentuk sudut 115°, 100°, dan 90°. ||| 0,297; 0,148; 0
+Hitung "kekuatan" Pauling hibrida dengan 40% $s$. ||| 1,974
+
+**Menengah**
+
+@fmaks [P] Hibrida $s$–$d$ $h = \sqrt\alpha\,s + \sqrt{1 - \alpha}\,d_{z^2}$ mempunyai amplitudo sudut $\sqrt\alpha + \sqrt{5(1 - \alpha)}$ ke arah $+z$. Tentukan $\alpha$ yang memaksimumkannya dan nilai maksimumnya. ||| $\alpha = \tfrac16$ (sd⁵); $\sqrt6 = 2{,}449$
+Dengan $S_s = 0{,}570$ dan $S_{p\sigma} = 0{,}466$ untuk C–H, bandingkan jumlah tumpang tindih empat ikatan C–H bila karbon memakai empat sp³ dengan bila memakai satu hibrida 40% $s$ dan tiga hibrida 20% $s$. ||| 2,755 vs 2,737; sp³ lebih baik
+Tunjukkan dengan $p_\mathbf n = n_xp_x + n_yp_y + n_zp_z$ bahwa $p_\mathbf n$ ternormalisasi dan $\langle p_\mathbf n|p_\mathbf m\rangle = \mathbf n\cdot\mathbf m$. ||| ortonormalitas $p_x, p_y, p_z$
+
+**Tantangan ★**
+
+★ Tiga hibrida sebidang memakai seluruh $s$, $p_x$, $p_y$. Buktikan bahwa jumlah ketiga sudut antarhibrida 360°, berapa pun pembagian karakter $s$-nya. ||| ketiga arah $p$ sebidang dan matriks transformasi ortogonal
+
+## Subbab 12.3: Hibrida sp: BeH₂ dan asetilena; penurunan sudut 180°
+
+**Dasar**
+
+Untuk HCN, tentukan hibridisasi C dan N, banyaknya ikatan σ dan π, dan jenis orbital pasangan bebas N. ||| C sp, N sp; 2 σ, 2 π; pasangan bebas dalam hibrida sp N
+Mengapa CO₂ linear? Tunjukkan bahwa kedua ikatan π-nya terletak di bidang yang saling tegak lurus. ||| C sp; π memakai $p_x$ dan $p_y$ karbon
+Hitung perbandingan cuping depan terhadap cuping belakang (bagian sudut) untuk hibrida dengan 40% $s$. ||| $1{,}974/0{,}709 = 2{,}78$
+
+**Menengah**
+
+Pada HBeCl, misalkan hibrida Be–H mempunyai 55% $s$ dan Be–Cl 45% $s$. Tunjukkan bahwa sudut antarhibrida tetap 180°. ||| $\cos\theta = -1$
+Manakah yang kiral: penta-2,3-diena atau 3-metilbuta-1,2-diena? ||| hanya penta-2,3-diena
+@pi Tunjukkan bahwa kerapatan satu ikatan π ($\propto x^2g^2$) bergantung pada sudut azimut, sedangkan jumlah dua ikatan π yang tegak lurus tidak. Apa akibatnya bagi rotasi gugus di sekitar C=C dan C≡C? ||| $\cos^2\phi$ vs tetap; C=C terhalang, C≡C tidak bermakna
+
+**Tantangan ★**
+
+★ Pada kumulena dengan empat ikatan rangkap, R(H)C=C=C=C=C(H)R, apakah kedua ujung sebidang atau tegak lurus? Dapatkah ia kiral? ||| tegak lurus; dapat kiral
+
+## Subbab 12.4: Hibrida sp²: BF₃ dan etilena; ikatan σ dan π
+
+**Dasar**
+
+Periksa bahwa $h_2$ dan $h_3$ dalam (12.20) ternormalisasi dan saling ortogonal. ||| $\tfrac13 + \tfrac16 + \tfrac12 = 1$; $\tfrac13 + \tfrac16 - \tfrac12 = 0$
+Ramalkan bentuk CH₃⁺, CH₃⁻, dan BH₃. Orbital apa yang berisi pasangan bebas pada CH₃⁻? ||| datar; piramida; datar; hibrida kira-kira sp³
+Sebuah karbon sp² mempunyai sudut H–C–H 121°. Hitung karakter $s$ kedua hibrida C–H dan hibrida ketiga. ||| 0,340; 0,320
+
+**Menengah**
+
+Dengan model $E(\theta) = 272(1 - \cos\theta)$ kJ/mol, hitung energi puntiran etilena 20° dan 60°. ||| 16,4 kJ/mol; 136 kJ/mol
+@sigma [P] Pada 120,3 pm, orbital Slater karbon memberi $S_{ss} = 0{,}510$, $S_{sp} = 0{,}472$, $S_{p\sigma p\sigma} = 0{,}291$, $S_{p\pi p\pi} = 0{,}336$. Hitung tumpang tindih σ dua hibrida sp dan bandingkan dengan π. ||| σ 0,872; π 0,336
+Mengapa BF₃ adalah asam Lewis yang lebih lemah daripada BCl₃, padahal F lebih elektronegatif? ||| donasi π F→B mengisi sebagian $p_z$ boron
+
+**Tantangan ★**
+
+★ Gambaran "ikatan pisang" etilena memakai $\tau_\pm = (h_\sigma \pm p_z)/\sqrt2$, dengan $h_\sigma$ hibrida σ C=C (37% $s$). Hitung karakter $s$ setiap $\tau$, sudut antara $\tau_+$ dan $\tau_-$, dan sudut masing-masing terhadap sumbu C=C. ||| 18,5%; 103,1°; 51,6°
+
+## Subbab 12.5: Hibrida sp³: metana; penurunan 109,47° dari ortogonalitas
+
+**Dasar**
+
+Hitung sudut antara arah $(1, 1, 1)$ dan $(-1, 1, -1)$, dan periksa $\langle h_1|h_3\rangle = 0$ untuk (12.23). ||| 109,47°; $\tfrac14(1 - 1 + 1 - 1) = 0$
+Nyatakan $p_y$ dalam keempat hibrida sp³. ||| $\tfrac12(h_1 - h_2 + h_3 - h_4)$
+Berapa karakter $s$ hibrida Si dalam SiH₄ dan hibrida N dalam NH₄⁺? ||| 25%; 25%
+
+**Menengah**
+
+@tetra [P] Tunjukkan bahwa untuk keempat arah tetrahedral $\sum_i\mathbf n_i\mathbf n_i^\text{T} = \tfrac43\mathbf I$, dan jelaskan maknanya. ||| setiap orbital $p$ terbagi habis; kulit penuh simetris bola
+Pada siklobutana (C–C–C sekitar 88°), anggap hibrida cincin mempunyai 22% $s$. Hitung sudut antarhibrida cincin dan penyimpangan setiap hibrida dari garis antarinti. ||| 106,4°; 9,2°
+Mengapa sikloheksana kursi praktis tidak tegang, sedangkan sikloheksana datar (sudut 120°) akan tegang? ||| sudut kursi ±111°, hibrida sp³ lurus
+
+**Tantangan ★**
+
+★ Pada kuban, $^1J(^{13}\text{C–H}) = 155$ Hz. Dengan (12.26), taksir karakter $s$ C–H, lalu karakter $s$ setiap hibrida cincin (setara) dan sudut antarhibrida cincin. Bandingkan dengan sudut antarinti 90°. ||| 31%; 23%; 107,4°, jauh di atas 90°
+
+## Subbab 12.6: Hibridisasi tak setara: H₂O, NH₃, aturan Bent, persen karakter s
+
+**Dasar**
+
+Sudut H–Se–H 90,6°. Hitung karakter $s$ hibrida ikatan dan karakter $s$ total pasangan bebas. ||| 1,0%; 97,9%
+Sudut F–O–F 103,1°. Hitung karakter $s$ hibrida ikatan dan total pasangan bebas. ||| 18,5%; 63,0%
+Menurut aturan Bent, apakah sudut H–C–H pada CH₃Cl lebih besar atau lebih kecil daripada pada CH₄? ||| lebih besar
+
+**Menengah**
+
+@pf [P] Sudut PF₃ 97,8° lebih besar daripada PH₃ (93,3°), berlawanan dengan NF₃ dan NH₃. Hitung karakter $s$ pasangan bebas keduanya, dan beri penjelasan. ||| PF₃ 64%, PH₃ 84%; ukuran F, ionisitas, dan donasi π F→P
+Pada H₂O dengan pasangan bebas "telinga kelinci" (30% $s$ masing-masing) dan hibrida ikatan 20% $s$, hitung sudut antara satu hibrida pasangan bebas dan satu hibrida ikatan. ||| 109,1°
+Pada CHF₃, sudut H–C–F 110,3°. Hitung sudut F–C–F dari geometri $C_{3v}$, lalu karakter $s$ hibrida C–F dan C–H. ||| 108,6°; 24,2%; 27,4%
+
+**Tantangan ★**
+
+★ Untuk molekul CH₃X ($C_{3v}$) dengan sudut H–C–H $\theta$ dan H–C–X $\gamma$, buktikan $\cos\theta = \tfrac12(3\cos^2\gamma - 1)$, lalu tunjukkan bahwa sudut H–C–X dari teorema Coulson dengan $\alpha_X = 1 - 3\alpha_\text{H}$ selalu memenuhi hubungan ini. ||| kekekalan orbital pada himpunan lengkap
+
+## Subbab 12.7: Hibridisasi dan sifat: panjang ikatan, keasaman C–H, kopling ¹³C–H
+
+**Dasar**
+
+Dengan $^1J \approx 500\alpha$ Hz, taksir kopling untuk C–H dengan 28% $s$, dan karakter $s$ untuk kopling 170 Hz. ||| 140 Hz; 34%
+Dengan $r = 168{,}1 - 30{,}4\,\Sigma\alpha$ pm, ramalkan panjang ikatan tunggal sp³–sp dan sp²–sp². Bandingkan dengan 145,9 dan 146,7 pm. ||| 145,3 pm; 147,8 pm
+Urutkan keasaman H terminal pada propana, propena (=CH₂), dan propuna. ||| propana < propena < propuna
+
+**Menengah**
+
+Dengan elektronegativitas orbital 3,29 (sp) dan 2,48 (sp³), hitung $\Delta\chi$ ikatan CH₃–C≡ dan taksir persen karakter ioniknya dengan $1 - e^{-\Delta\chi^2/4}$. ||| 0,81; sekitar 15%
+Hitung selisih $\Delta G^\circ$ deprotonasi (298 K) antara etilena (p$K_a$ 44) dan asetilena (25). ||| 108 kJ/mol
+@cd Pita ≡C–H muncul di 3300 cm⁻¹. Ramalkan pita ≡C–D dengan massa tereduksi. ||| sekitar 2423 cm⁻¹
+
+**Tantangan ★**
+
+★ Kerapatan elektron hibrida di inti karbon sebanding dengan $\alpha\lvert\psi_{2s}(0)\rvert^2$. Hitung perbandingan kerapatan di inti untuk hibrida sp dan sp² terhadap sp³, dan jelaskan mengapa $^1J$ sebanding dengan $\alpha$. ||| 2,00 dan 1,33; hanya $s$ yang tidak nol di inti
+
+## Subbab 12.8: Orbital d dan hipervalensi: PCl₅, SF₆, ikatan 3-pusat 4-elektron
+
+**Dasar**
+
+Berapa sistem 3c-4e pada XeF₄, dan berapa orde setiap ikatan Xe–F? ||| 2; $\tfrac12$
+Ramalkan bentuk ICl₂⁻ dan orde ikatan I–Cl dengan model 3c-4e. ||| linear; $\tfrac12$
+Taksir $\langle r\rangle$ elektron $3d$ fosfor dalam $3s^23p^23d^1$ dengan aturan Slater ($Z = 15$). ||| $Z_\text{ef} = 1$; 10,5 $a_0$ = 5,6 Å
+
+**Menengah**
+
+@tiga [P] Untuk matriks (12.28) dengan energi ligan $\alpha - \delta\lvert\beta\rvert$, tunjukkan bahwa persamaan karakteristiknya $(E + \delta)(E^2 + \delta E - 2) = 0$ (dalam satuan $\lvert\beta\rvert$, $\alpha = 0$), dan selesaikan untuk $\delta = 1$. ||| $E = -1$, $-2$, $+1$
+Pada SF₄, ikatan mana yang termasuk sistem 3c-4e? Mengapa sudut F$_\text{ak}$–S–F$_\text{ak}$ 173° dan bukan 180°? ||| kedua S–F aksial; tolakan pasangan bebas ekuatorial
+Mengapa SF₆ tidak bereaksi dengan air walaupun hidrolisisnya eksotermik? ||| S terlindung enam F; tidak ada orbital rendah yang dapat diserang
+
+**Tantangan ★**
+
+★ Bila SF₆ dilukiskan dengan tiga sistem 3c-4e saja (tanpa $3s$), berapa orde setiap ikatan dan muatan setiap F? Bandingkan dengan perhitungan orbital molekul. ||| $\tfrac12$, $-\tfrac12$; dengan $3s$: $\tfrac23$
+
+## Subbab 12.9: Ikatan 3-pusat 2-elektron: diborana
+
+**Dasar**
+
+Periksa bahwa $styx = 4012$ memenuhi persamaan Lipscomb untuk B₄H₁₀. ||| $4 + 2 = 6$; $4 + 0 = 4$; $0 + 1 + 3 = 4$
+Mengapa BH₃ berdimerisasi menjadi B₂H₆ tetapi BF₃ tetap monomer? ||| donasi π F mengisi $p_z$ B
+Dalam ikatan 3c-2e B–H–B dengan $\alpha$ sama, berapa populasi elektron pada H jembatan dan pada setiap B? ||| H 1; B $\tfrac12$
+
+**Menengah**
+
+@segitiga [P] Tunjukkan bahwa untuk dua elektron, susunan segitiga tiga orbital lebih stabil daripada susunan linear sebesar $(4 - 2\sqrt2)\lvert\beta\rvert$. ||| $1{,}17\lvert\beta\rvert$
+Periksa bahwa $styx = 4120$ memenuhi persamaan Lipscomb untuk B₅H₉. ||| $4 + 0 = 4$; $4 + 1 = 5$; $1 + 2 + 2 = 5$
+Hitung sudut B–H–B diborana bila B–H jembatan 131,0 pm dan B···B 176,3 pm. ||| 84,6°
+
+**Tantangan ★**
+
+★ CH₅⁺ mempunyai 8 elektron valensi. Tunjukkan bahwa satu susunan yang masuk akal adalah tiga ikatan 2c-2e C–H dan satu ikatan 3c-2e yang melibatkan C dan dua H. ||| $3 \times 2 + 2 = 8$
+
+## Subbab 12.10: Resonansi dalam teori ikatan valensi: benzena, karbonat, amida
+
+**Dasar**
+
+Tentukan orde ikatan N–O dan muatan setiap O pada NO₃⁻ dari tiga struktur setara. ||| $\tfrac43$; $-\tfrac23$
+Berapa banyak struktur kovalen bebas untuk enam elektron π benzena, dan berapa yang termasuk Kekulé? ||| 5; 2
+Mengapa ion karboksilat mempunyai dua ikatan C–O yang sama panjang? ||| dua struktur resonansi setara
+
+**Menengah**
+
+Untuk persamaan sekuler $2 \times 2$ simetris dengan $H_{11} = H_{22}$, $S_{11} = S_{22} = 1$, tunjukkan bahwa $E = (H_{11} \pm H_{12})/(1 \pm S_{12})$ dan $c_1 = \pm c_2$. ||| uraikan determinan
+@nafta [P] Naftalena mempunyai tiga struktur Kekulé. Hitung orde ikatan Pauling C1–C2 dan C2–C3 (fraksi struktur dengan ikatan rangkap), lalu ramalkan panjangnya dengan $r = 146{,}7 - 18{,}47\ln n$ pm. Bandingkan dengan 136,5 dan 141,5 pm. ||| $1\tfrac23$ dan $1\tfrac13$; 137,3 dan 141,4 pm
+Mengapa asam asetat (p$K_a$ 4,8) jauh lebih asam daripada etanol (p$K_a$ sekitar 16)? Hitung selisih $\Delta G^\circ$. ||| resonansi karboksilat; sekitar 64 kJ/mol
+
+**Tantangan ★**
+
+★ Radikal alil (tiga elektron π) mempunyai dua struktur kovalen. Dengan Hamiltonian spin (pertukaran tetangga $J$), energi setiap struktur $Q + \tfrac12J$, $S_{12} = \tfrac12$, dan $H_{12} = S_{12}(Q + 2J)$ (konvensi tanda positif). Hitung energi resonansinya. ||| $Q + J$; energi resonansi $\tfrac12\lvert J\rvert$
+
+## Subbab 12.11: VSEPR dan dasar kuantumnya
+
+**Dasar**
+
+Ramalkan bentuk BrF₃, XeO₃, dan IF₄⁺. ||| bentuk T; piramida segitiga; jungkat-jungkit
+Hitung energi Thomson tetrahedron, dengan jarak antartitik $\sqrt{8/3}$ pada bola satuan. ||| $6/\sqrt{8/3} = 3{,}674$
+Mengapa ketiga pasangan bebas XeF₂ menempati kedudukan ekuatorial? ||| sudut 120° antarpasangan bebas, bukan 90°
+
+**Menengah**
+
+@linnett Hitung $\lvert D\rvert^2$ (12.36) untuk empat elektron di kutub utara dan di tiga titik pada khatulistiwa yang berjarak 120°. Bandingkan dengan tetrahedron (256). ||| 182,25
+Pada ClF₃, sudut F$_\text{ak}$–Cl–F$_\text{ak}$ 175°. Mengapa kurang dari 180°, dan ke arah mana kedua F aksial condong? ||| menjauhi kedua pasangan bebas, ke arah F ekuatorial
+Mengapa [SbCl₆]³⁻ oktahedral beraturan walaupun Sb mempunyai pasangan bebas? ||| pasangan bebas dalam $5s$ yang bulat
+
+**Tantangan ★**
+
+★ Hitung energi Thomson bipiramida segitiga dari jarak-jaraknya (enam pasangan aksial–ekuatorial, tiga ekuatorial–ekuatorial, satu aksial–aksial). ||| $6/\sqrt2 + 3/\sqrt3 + \tfrac12 = 6{,}4747$
+
+## Subbab 12.12: Teori ikatan valensi modern (GVB, spin-coupled)
+
+**Dasar**
+
+Untuk $\lambda = 0{,}2$ dalam (12.37), berapa perbandingan koefisien ionik terhadap kovalen? ||| 0,385
+Berapa fraksi ionik (dalam perbandingan koefisien $f_2$ dan $f_1$) fungsi RHF $\sigma_g^2$ pada semua jarak? ||| sama, 1 : 1
+Nyatakan $\sigma_g^2$ dan $\sigma_u^2$ (tak ternormalisasi, $\sigma_{g,u} = a \pm b$) dalam $f_1 = ab + ba$ dan $f_2 = aa + bb$. ||| $f_2 + f_1$; $f_2 - f_1$
+
+**Menengah**
+
+@gvb [P] Tunjukkan bahwa $\sigma_g^2 - t\,\sigma_u^2$ (dengan $\sigma_{g,u} = a \pm b$ tak ternormalisasi) sebanding dengan fungsi GVB, dan bahwa $\lambda = (1 - \sqrt t)/(1 + \sqrt t)$. ||| $(1 - t)f_2 + (1 + t)f_1$
+Hitung perbandingan populasi singlet terhadap triplet metilena pada 1000 K (celah 37,65 kJ/mol). ||| 0,0036
+Dengan $D_e$ = 3,49 eV (RHF), 3,79 eV (HL), 4,03 eV (GVB), dan 4,75 eV (eksak), berapa persen energi ikatan yang diperoleh setiap metode? ||| 73%; 80%; 85%
+
+**Tantangan ★**
+
+★ Dengan gambaran Pauling (satu σ, dua ikatan tiga elektron π), tentukan orde ikatan dan banyaknya elektron tak berpasangan pada O₂⁺ dan O₂⁻. ||| O₂⁺: 2,5 dan 1; O₂⁻: 1,5 dan 1
+
+## Subbab 12.13: Ikatan valensi vs orbital molekul: spektrum fotoelektron metana sebagai uji
+
+**Dasar**
+
+Untuk tiga ikatan setara dengan perpindahan lubang $\tau$ antara setiap pasangan, tentukan nilai eigen matriks $3 \times 3$. ||| $\varepsilon + 2\tau$ (sekali); $\varepsilon - \tau$ (dua kali)
+Tunjukkan bahwa rotasi $2 \times 2$ $\begin{pmatrix}\cos\phi & \sin\phi\\ -\sin\phi & \cos\phi\end{pmatrix}$ mempunyai determinan 1. ||| $\cos^2\phi + \sin^2\phi$
+Enam ikatan C–H benzena membentuk cincin dengan perpindahan lubang $\tau$ hanya antartetangga. Tentukan pola energi ionisasinya. ||| $\varepsilon + 2\tau$, $\varepsilon + \tau$ (2), $\varepsilon - \tau$ (2), $\varepsilon - 2\tau$
+
+**Menengah**
+
+@lubang [P] Dari model lubang air ($\tau' = 1{,}06$ eV), hitung periode perpindahan lubang antara kedua pasangan bebas, dan bandingkan dengan metana. ||| 1,95 fs; metana 0,49 fs
+Energi orbital Hartree–Fock metana sekitar $-25{,}7$ eV ($2a_1$) dan $-14{,}8$ eV ($1t_2$). Hitung galat teorema Koopmans terhadap 22,9 dan 14,4 eV. ||| 2,8 eV; 0,4 eV
+Mengapa pita $1t_2$ metana lebar dan bergelombang, sedangkan pita $1b_1$ air sempit? ||| Jahn–Teller pada CH₄⁺; $1b_1$ nonikatan
+
+**Tantangan ★**
+
+★ Buktikan bahwa untuk $n$ ikatan setara dengan matriks lubang apa pun, rata-rata energi ionisasi sama dengan energi ionisasi lubang terlokalisasi $\varepsilon$. ||| jejak matriks invarian
+
+## Subbab 12.14: Ikatan dalam senyawa logam transisi menurut teori ikatan valensi
+
+**Dasar**
+
+Hitung momen magnet spin saja untuk 3 dan 4 elektron tak berpasangan. ||| 3,87 dan 4,90 $\mu_\text{B}$
+Berapa elektron tak berpasangan pada [Co(NH₃)₆]³⁺ dan [CoF₆]³⁻ menurut model Pauling? ||| 0; 4
+Hitung banyaknya elektron valensi Cr(CO)₆, Fe(CO)₅, dan Ni(CO)₄. ||| 18 semuanya
+
+**Menengah**
+
+@sd Turunkan sudut antara dua hibrida sd⁵ setara dari (12.45). ||| 63,43° atau 116,57°
+Mengapa [Cu(NH₃)₄]²⁺ menyulitkan model $dsp^2$? Berapa momen magnet spin sajanya? ||| satu elektron harus ke $4p$; 1,73 $\mu_\text{B}$
+Dengan $\tilde\nu$(C–O) 2000 cm⁻¹ pada Cr(CO)₆ dan 2143 cm⁻¹ pada CO bebas, hitung perbandingan tetapan gaya. ||| 0,871
+
+**Tantangan ★**
+
+★ Pada bipiramida segitiga, misalkan ikatan ekuatorial memakai hibrida sp² murni dan ikatan aksial memakai $p_z$ dan $d_{z^2}$. Berapa karakter $s$ ikatan aksial dan ekuatorial, dan ligan mana yang memilih kedudukan aksial menurut aturan Bent? ||| aksial 0, ekuatorial $\tfrac13$; ligan elektronegatif
