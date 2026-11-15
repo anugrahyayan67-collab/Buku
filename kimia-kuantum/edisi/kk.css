@@ -36,3 +36,13 @@ h1.pita1 { font-size: 12.5pt; padding: 2mm 5mm; border-radius: 1.6mm; margin-bot
 .soal2 p.si > strong:first-child { display: inline-block; min-width: 7.5mm; text-indent: 0; color: var(--tua); font-family: Inter, sans-serif; font-size: 9.2pt; }
 .soal2 p.tk { font-family: Inter, sans-serif; font-weight: 700; font-size: 9.2pt; color: var(--biru); margin: 3.2mm 0 1.6mm 0; }
 .soal2 h2.kecil { margin-top: 7mm; }
+/* judul bagian akhir bab: kebalikan subbab 3.4 — kotak biru tipis bersudut tegas, teks putih di tengah */
+h1.pita1 { background: var(--biru); color: #fff; border: none; border-radius: 0; text-align: center;
+           font-size: 12.5pt; font-weight: 700; letter-spacing: .3px; padding: 1.6mm 5mm; margin: 0 0 5mm 0; line-height: 1.25; }
+h1.pita1 a.tl { color: #fff; }
+/* soal: rapat seperti daftar bernomor di materi */
+.soal2 p { margin: 0 0 .8mm 0; }
+.soal2 p.si { padding-left: 6.5mm; text-indent: -6.5mm !important; }
+.soal2 p.si > strong:first-child { min-width: 6.5mm; font-family: Caladea, serif; font-size: 10pt; color: var(--jingga); }
+.soal2 p.tk { margin: 2.6mm 0 1mm 0; font-size: 9.6pt; }
+.soal2 h2.kecil + p { margin-bottom: 1.5mm; }
