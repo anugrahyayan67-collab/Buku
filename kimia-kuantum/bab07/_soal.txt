@@ -14,6 +14,8 @@ Hitung perbandingan tarikan gravitasi dan tarikan Coulomb antara proton dan elek
 Satuan waktu atom adalah $\hbar/E_h = 2{,}419 \times 10^{-17}$ s. Berapa periode "orbit" 1s, $2\pi$ satuan waktu, dalam attodetik? ||| 152 as
 @taksir [P] Dengan $E(r) \approx 1/2r^2 - Z/r$, taksir jari-jari dan energi keadaan dasar ion mirip hidrogen bermuatan $Z$. ||| $r = 1/Z$; $E = -Z^2/2$
 
+Hitung energi ionisasi (eV) dan jari-jari Bohr (pm) atom "muonium", yaitu elektron yang mengorbit muon positif ($m_\mu = 206{,}77\,m_e$). ||| 13,54 eV; 53,17 pm
+
 **Tantangan ★**
 
 ★ Mengapa taksiran asas ketidakpastian di atas memberi hasil eksak untuk hidrogen? Apakah itu juga terjadi untuk osilator harmonik dengan $E(x) = 1/2x^2 + x^2/2$? ||| kebetulan faktor numerik; osilator: $x = 1$, $E = 1$ (eksak $\tfrac12$), tidak eksak
@@ -31,6 +33,8 @@ Apakah $\psi = e^{-r} + (2 - r)e^{-r/2}$ keadaan stasioner? ||| tidak; campuran 
 Periksa bahwa $\psi = (2 - r)e^{-r/2}$ memenuhi (7.3) dengan $Z = 1$ dan tentukan $E$. ||| $E = -\tfrac18$
 Tentukan minimum potensial efektif untuk $\ell = 1$, $Z = 1$. ||| $r = 2$; $V_\text{ef} = -\tfrac14$
 Tunjukkan bahwa penyelesaian $u \propto r^{-\ell}$ untuk $\ell = 1$ tidak dapat dinormalisasi di dekat inti. ||| $\int u^2dr = \int r^{-2}dr$ divergen di 0
+
+Berapa banyak keadaan ruang (tanpa spin) dengan $n = 5$? Berapa di antaranya yang mempunyai $\ell = 3$? ||| 25; 7
 
 **Tantangan ★**
 
@@ -50,6 +54,8 @@ Tuliskan $u$ (tanpa normalisasi) untuk 3d dari (7.7). ||| $u = r^3e^{-r/3}$
 Apakah ada keadaan terikat hidrogen dengan $E = -0{,}3$ hartree? ||| tidak: $n = 1/\kappa = 1{,}29$ bukan bulat
 Tunjukkan bahwa untuk $k$ besar, $a_{k+1}/a_k \to 2\kappa/k$ sama dengan perbandingan koefisien deret $e^{2\kappa r}$. ||| $(2\kappa)^{k+1}/(k+1)! \div (2\kappa)^k/k!$
 
+Normalkan $R_{21} = N\,r\,e^{-r/2}$ (satuan bohr). ||| $N = 1/(2\sqrt6)$
+
 **Tantangan ★**
 
 ★ Periksa (7.8) untuk 1s ($\ell = 0$, $\kappa = 1$, $f = 1$) dan tunjukkan bahwa ia memaksa $Z = 1$. ||| $2[Z - 1] = 0$
@@ -67,6 +73,9 @@ Berapa degenerasi tingkat $n = 5$ bila spin diperhitungkan? ||| 50
 Hitung panjang gelombang Brackett-α ($5 \to 4$). ||| 4052 nm
 Berapa selisih energi ionisasi D dan H (meV)? ||| 3,7 meV
 Pada $n$ berapa transisi $n \to n - 1$ hidrogen jatuh di 10 GHz? ||| $n \approx 87$
+
+Hitung panjang gelombang (vakum) garis Lyman α ($2 \to 1$) untuk H dan D. Berapa selisihnya? ||| 121,568 nm; 121,535 nm; 0,033 nm
+Tritium mempunyai inti bermassa $5496{,}9\,m_e$. Hitung konstanta Rydberg-nya dan panjang gelombang H$_\alpha$-nya (vakum). ||| 109 717,4 cm⁻¹; 656,231 nm
 
 **Tantangan ★**
 
@@ -104,6 +113,9 @@ Berapa peluang elektron 1s berada di dalam $r < 2$ bohr? Di luar $r > 3$ bohr? |
 Berapa peluang elektron 2p berada di dalam $r_\text{mp} = 4$ bohr? ||| 0,371
 @mp3s [P] Tentukan jari-jari paling mungkin (puncak terbesar) 3s hidrogen. ||| 13,07 bohr
 
+Hitung peluang elektron 1s berada di luar $3a_0$. ||| 0,062
+Hitung peluang elektron 2p berada di dalam $a_0$, dengan $P(r < r_0) = 1 - e^{-x}(1 + x + x^2/2 + x^3/6 + x^4/24)$ dan $x = r_0/a_0$. ||| 0,0037
+
 **Tantangan ★**
 
 ★ Mengapa $\langle r\rangle$ lebih besar daripada $r_\text{mp}$ untuk 1s? Apakah hal ini berlaku untuk setiap orbital? ||| ekor eksponensial panjang; ya untuk orbital tanpa simpul ($\langle r\rangle = n(n + \tfrac12)$ vs $n^2$)
@@ -121,6 +133,8 @@ Apakah $d_{z^2}$ fungsi eigen $\hat L_z$? ||| ya, $m = 0$
 Nyatakan $p_{+1}$ dengan $p_x$ dan $p_y$. ||| $-(p_x + ip_y)/\sqrt2$
 Elektron dalam keadaan $(2\text{p}_x + 2\text{p}_z)/\sqrt2$. Berapa peluang hasil $L_z = +\hbar$, 0, dan $-\hbar$? ||| $\tfrac14$; $\tfrac12$; $\tfrac14$
 Tunjukkan bahwa $2\text{p}_x$ dan $2\text{p}_y$ ortogonal. ||| integral $\cos\phi\sin\phi$ atas $[0, 2\pi]$ nol
+
+Tunjukkan bahwa $d_{xy} \propto \sin^2\theta\sin2\phi$ adalah kombinasi $Y_2^{2}$ dan $Y_2^{-2}$. Kombinasi apa yang memberi $d_{x^2-y^2}$? ||| $d_{xy} \propto i(Y_2^{-2} - Y_2^{2})$; $d_{x^2-y^2} \propto Y_2^{2} + Y_2^{-2}$
 
 **Tantangan ★**
 
@@ -140,6 +154,8 @@ Manakah yang tumpang tindihnya dengan orbital s pada sumbu $z$ dapat tidak nol: 
 Polinom kubik dalam $x$, $y$, $z$ ada 10. Mengapa hanya ada 7 orbital f? ||| 3 kombinasi ($r^2x$, $r^2y$, $r^2z$) adalah fungsi jenis p
 Tunjukkan bahwa $d_{xy}$ adalah $d_{x^2-y^2}$ yang diputar 45° terhadap sumbu $z$. ||| $\cos2(\phi - 45°) = \sin2\phi$
 
+Pada sudut $\theta$ berapa bagian sudut orbital $f_{z^3} \propto 5\cos^3\theta - 3\cos\theta$ bernilai nol? ||| 39,2°; 90°; 140,8°
+
 **Tantangan ★**
 
 ★ Pada bidang $xz$, sepanjang garis $\theta = 54{,}7°$, berapa nilai $d_{z^2}$? Apa nilainya sepanjang garis yang sama untuk $d_{xz}$? ||| 0 (simpul); tidak nol (maksimum sudutnya di 45°)
@@ -157,6 +173,8 @@ Hitung $\langle r\rangle$ 1s He⁺. ||| 0,75 bohr = 39,7 pm
 Hitung $\langle 1/r\rangle$ untuk 1s langsung dari $R_{10}$. ||| $4\int re^{-2r}dr = 1$
 Hitung $\langle r^2\rangle$ dan $\Delta r$ untuk 2p. ||| 30; 2,24 bohr
 @virial [P] Hitung $\langle 1/r^2\rangle$ untuk 1s langsung dan bandingkan dengan (7.17). Dari $\langle p^2\rangle = 2\langle T\rangle$, berapa kecepatan rms elektron 1s (m/s)? ||| 2; $2{,}19 \times 10^6$ m/s
+
+Hitung $\langle r\rangle$ dan $\Delta r$ untuk orbital 4f. Bandingkan $\langle r\rangle$ dengan 4s. ||| 18; 6,0; 4s: 24
 
 **Tantangan ★**
 
@@ -176,6 +194,9 @@ Perkirakan energi Kα nikel ($Z = 28$). Nilai terukur 7,48 keV. ||| 7,44 keV
 Garis Kα suatu unsur di 5,41 keV. Unsur apa? ||| $Z = 24$, kromium
 Hitung panjang gelombang He⁺ $3 \to 2$. ||| 164,1 nm
 
+Berapa energi ionisasi Li²⁺ (eV), termasuk koreksi massa tereduksi ($M = 12\,786\,m_e$)? ||| 122,44 eV
+Hitung jari-jari orbit (μm) dan energi ikat (meV) atom Rydberg hidrogen dengan $n = 50$. ||| 0,132 μm; 5,44 meV
+
 **Tantangan ★**
 
 ★ Tingkat $n = 2$ He⁺ berenergi sama dengan 1s H. Apa akibatnya bagi tumbukan He²⁺ dengan atom H? ||| perpindahan elektron resonan H(1s) → He⁺($n = 2$) sangat efisien
@@ -193,6 +214,8 @@ Mengapa transisi 3s → 1s terlarang? ||| $\Delta\ell = 0$
 @radial [P] Hitung $\int_0^\infty R_{10}R_{21}r^3dr$ dan dari situ $\langle 1s|z|2p_0\rangle$. ||| 1,290; $0{,}745\,a_0$
 Keadaan 3p hidup 5,4 ns. Berapa lebar alami garis yang dipancarkannya (MHz)? ||| 29 MHz
 Dengan unsur matriks dipol yang sama, berapa kali lebih lambat transisi di 600 nm dibandingkan di 121,6 nm? ||| $(600/121{,}6)^3 = 120$
+
+Hitung batas deret Paschen dan panjang gelombang garis Brackett α ($5 \to 4$). ||| 820,6 nm; 4,05 μm
 
 **Tantangan ★**
 
@@ -212,6 +235,9 @@ Hitung pemecahan panjang gelombang Lyman-α (121,57 nm) dalam medan 5,0 T. ||| 0
 Bagaimana polarisasi garis $\Delta m = 0$ bila diamati tegak lurus medan? ||| linear, sejajar medan
 Mengapa garis D natrium tidak menunjukkan triplet Zeeman normal? ||| spin elektron (efek Zeeman anomal)
 
+Berapa medan magnet yang diperlukan agar pemecahan Zeeman normal sama dengan $k_BT$ pada 4 K? ||| 5,95 T
+Spektrometer ESR pita X bekerja pada 9,5 GHz. Berapa medan resonansi untuk elektron bebas ($g = 2{,}0023$, $\Delta E = g\mu_BB$)? ||| 0,339 T
+
 **Tantangan ★**
 
 ★ Dalam medan 10 T dan suhu 4 K, hitung perbandingan populasi tingkat $m = +1$ terhadap $m = 0$ suatu tingkat p. ||| 0,19
@@ -229,6 +255,8 @@ Bila $h$ dibuat dua kali lebih besar (0,016), berapa kira-kira galat 1s? ||| $\a
 Hidrogen dikurung dalam bola berjari-jari 6 bohr. Berapa energi keadaan p terendah? (Petunjuk: simpul 3p.) ||| $-\tfrac1{18} = -0{,}0556$ hartree
 Apa keuntungan kisi logaritmik $r = e^x$ untuk persamaan radial? ||| rapat di dekat inti, renggang di luar
 Dalam model litium, apa yang terjadi pada energi 2s bila $\alpha$ diperbesar? ||| naik (penyaringan lebih efektif, menuju hidrogen)
+
+(Python) Ubah program Contoh 7.58 untuk mencari energi 2s ($E$ antara $-0{,}2$ dan $-0{,}1$). ||| $-0{,}125$ hartree
 
 **Tantangan ★**
 

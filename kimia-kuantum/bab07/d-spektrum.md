@@ -21,7 +21,7 @@ $$
 Henry Moseley mengukur garis Kα belasan unsur tahun 1913 dan menemukan bahwa $\sqrt{\nu}$ naik linear dengan nomor urut unsur, bukan dengan massa atom. Inilah bukti bahwa nomor atom adalah muatan inti, dan bahwa tabel periodik harus diurutkan menurut $Z$. Dari celah dalam garisnya, ia meramalkan unsur 43, 61, 72, dan 75 yang belum ditemukan.
 
 ::: {.contoh}
-**Contoh 7.32 · He⁺ dan Li²⁺**
+**Contoh 7.40 · He⁺ dan Li²⁺**
 
 Hitung energi ionisasi dan panjang gelombang Lyman-α untuk He⁺ dan Li²⁺, dengan koreksi massa tereduksi.
 
@@ -31,7 +31,7 @@ Hitung energi ionisasi dan panjang gelombang Lyman-α untuk He⁺ dan Li²⁺, d
 :::
 
 ::: {.contoh}
-**Contoh 7.33 · Deret Pickering: helium yang menyamar sebagai hidrogen**
+**Contoh 7.41 · Deret Pickering: helium yang menyamar sebagai hidrogen**
 
 Hitung panjang gelombang transisi He⁺ $6 \to 4$, $8 \to 4$, dan $5 \to 4$, dan bandingkan dengan H$_\alpha$ (656,47 nm) dan H$_\beta$ (486,27 nm).
 
@@ -41,7 +41,7 @@ Hitung panjang gelombang transisi He⁺ $6 \to 4$, $8 \to 4$, dan $5 \to 4$, dan
 :::
 
 ::: {.contoh}
-**Contoh 7.34 · Sinar-X Kα**
+**Contoh 7.42 · Sinar-X Kα**
 
 Dengan (7.20), perkirakan energi Kα untuk Fe ($Z = 26$), Cu (29), dan Mo (42). Nilai terukur: 6,40; 8,05; 17,48 keV.
 
@@ -51,17 +51,17 @@ Dengan (7.20), perkirakan energi Kα untuk Fe ($Z = 26$), Cu (29), dan Mo (42). 
 :::
 
 ::: {.contoh}
-**Contoh 7.35 · Uranium berelektron satu**
+**Contoh 7.43 · Uranium berelektron satu**
 
 Hitung energi ikat 1s U⁹¹⁺ ($Z = 92$) menurut (7.19), dan kecepatan rms elektronnya. Nilai terukur 132 keV.
 
 **Penyelesaian.** $92^2 \times 13{,}606$ eV $= 115{,}2$ keV. Kecepatan $v/c = Z\alpha = 92/137{,}04 = 0{,}67$.
 
-**Memahami hasil.** Teori nonrelativistik meleset 13%, karena elektron bergerak dengan dua pertiga kecepatan cahaya. Persamaan Dirac (relativistik) memberi energi yang hampir tepat. Untuk unsur berat, kimia kuantum harus relativistik, setidaknya untuk elektron dalam (Contoh 7.30 dan Bab 9).
+**Memahami hasil.** Teori nonrelativistik meleset 13%, karena elektron bergerak dengan dua pertiga kecepatan cahaya. Persamaan Dirac (relativistik) memberi energi yang hampir tepat. Untuk unsur berat, kimia kuantum harus relativistik, setidaknya untuk elektron dalam (Contoh 7.37 dan Bab 9).
 :::
 
 ::: {.contoh}
-**Contoh 7.36 · Besi berelektron satu di gugus galaksi**
+**Contoh 7.44 · Besi berelektron satu di gugus galaksi**
 
 Teleskop sinar-X mengamati garis kuat di sekitar 6,97 keV dari gas sangat panas (puluhan juta kelvin) di gugus galaksi. Tunjukkan bahwa garis ini cocok dengan Lyman-α ion Fe²⁵⁺ ($Z = 26$).
 
@@ -109,7 +109,7 @@ $$
 Faktor $\omega^3$ membuat transisi berenergi tinggi jauh lebih cepat; itulah sebabnya keadaan tereksitasi elektronik hidup nanodetik, sedangkan keadaan tereksitasi getaran (frekuensi seratus kali lebih kecil) hidup milidetik dalam gas bila tidak ada tumbukan.
 
 ::: {.contoh}
-**Contoh 7.37 · Transisi mana yang diizinkan?**
+**Contoh 7.45 · Transisi mana yang diizinkan?**
 
 Manakah transisi berikut yang diizinkan dipol: (a) 2p → 1s, (b) 2s → 1s, (c) 3d → 2p, (d) 3d → 2s, (e) 3s → 2p, (f) 4f → 3d, (g) 4f → 2p?
 
@@ -119,7 +119,7 @@ Manakah transisi berikut yang diizinkan dipol: (a) 2p → 1s, (b) 2s → 1s, (c)
 :::
 
 ::: {.contoh}
-**Contoh 7.38 · Umur keadaan 2p**
+**Contoh 7.46 · Umur keadaan 2p**
 
 Unsur matriks $\langle 1s|z|2p_0\rangle = \tfrac{128\sqrt2}{243}a_0 = 0{,}745\,a_0$. Hitung $A$ dan umur 2p, dengan $\hbar\omega = \tfrac38E_h$.
 
@@ -129,13 +129,13 @@ Unsur matriks $\langle 1s|z|2p_0\rangle = \tfrac{128\sqrt2}{243}a_0 = 0{,}745\,a
 :::
 
 ::: {.contoh}
-**Contoh 7.39 · Keadaan metastabil 2s**
+**Contoh 7.47 · Keadaan metastabil 2s**
 
 Keadaan 2s tidak dapat meluruh ke 1s dengan satu foton dipol ($\Delta\ell = 0$), dan tidak ada keadaan lain di bawahnya selain 1s (2p hampir berimpit). Ia meluruh dengan memancarkan **dua** foton sekaligus, dengan umur 0,122 s. Berapa kali lebih lama dibandingkan 2p?
 
 **Penyelesaian.** $0{,}122/(1{,}60 \times 10^{-9}) = 7{,}6 \times 10^7$ kali.
 
-**Memahami hasil.** Keadaan yang tidak mempunyai jalan peluruhan yang diizinkan disebut **metastabil**. Atom H(2s) dapat dibuat menjadi berkas dan bertahan cukup lama untuk dimanipulasi; pengukuran pergeseran Lamb (Contoh 7.12) memakai berkas semacam ini. Dalam kimia, keadaan triplet molekul organik (yang peluruhannya ke keadaan dasar singlet terlarang spin) adalah analog metastabil yang menjadi dasar fosforesensi (Bab 15).
+**Memahami hasil.** Keadaan yang tidak mempunyai jalan peluruhan yang diizinkan disebut **metastabil**. Atom H(2s) dapat dibuat menjadi berkas dan bertahan cukup lama untuk dimanipulasi; pengukuran pergeseran Lamb (Contoh 7.15) memakai berkas semacam ini. Dalam kimia, keadaan triplet molekul organik (yang peluruhannya ke keadaan dasar singlet terlarang spin) adalah analog metastabil yang menjadi dasar fosforesensi (Bab 15).
 :::
 
 ::: {.terapan}
@@ -145,13 +145,27 @@ Tiga garis hidrogen menjadi alat utama astronomi. H$_\alpha$ (656 nm) memetakan 
 :::
 
 ::: {.contoh}
-**Contoh 7.40 · Mengenali garis hidrogen**
+**Contoh 7.48 · Mengenali garis hidrogen**
 
 Spektrum lampu hidrogen memperlihatkan garis ungu di 434,05 nm (udara; 434,17 nm vakum). Tentukan transisinya.
 
 **Penyelesaian.** Untuk deret Balmer, $1/\lambda = R_H(1/4 - 1/n^2)$. Dengan $\lambda = 434{,}17$ nm: $1/(R_H\lambda) = 0{,}2100 = 1/4 - 1/n^2$, sehingga $1/n^2 = 0{,}0400$ dan $n = 5$. Transisinya $5 \to 2$ (H$_\gamma$).
 
 **Memahami hasil.** Dengan satu rumus, setiap garis dapat dikenali dan setiap garis yang tidak cocok segera tampak sebagai pengotor atau unsur lain. Pengenalan garis semacam ini adalah dasar analisis unsur dengan spektroskopi emisi atom (AES, ICP-OES), meskipun untuk atom berelektron banyak "rumus" itu diganti tabel tingkat energi yang diukur.
+:::
+
+::: {.contoh}
+**Contoh 7.49 · Batas deret dan garis inframerah**
+
+Dengan $R_\text{H} = 109\,677{,}6$ cm⁻¹, hitung (a) batas deret Lyman dan deret Balmer, (b) panjang gelombang garis pertama deret Paschen ($4 \to 3$). Di daerah spektrum mana masing-masing berada?
+
+**Penyelesaian.**
+
+(a) Batas Lyman: $\lambda = 1/R_\text{H} = 91{,}18$ nm (ultraviolet jauh). Batas Balmer: $\lambda = 4/R_\text{H} = 364{,}7$ nm (ultraviolet dekat).
+
+(b) Paschen α: $\tilde\nu = R_\text{H}(\tfrac19 - \tfrac1{16}) = 5331{,}6$ cm⁻¹, $\lambda = 1{,}876$ μm (inframerah dekat).
+
+**Memahami hasil.** Foton yang lebih pendek dari 91,2 nm dapat mengionkan hidrogen dari keadaan dasar; karena itu ruang antarbintang di sekitar bintang panas dipenuhi hidrogen terionisasi, dan cahaya ultraviolet jauh dari galaksi jauh hampir seluruhnya terserap. Di bawah batas Balmer, spektrum bintang menunjukkan lompatan serapan (lompatan Balmer) yang dipakai astronom untuk mengukur suhu bintang.
 :::
 
 ::: {.kuis}
@@ -181,7 +195,7 @@ Kenyataannya, pola tiga garis ini (efek Zeeman "normal") hanya teramati untuk tr
 ![Gambar 7.5 Efek Zeeman normal pada transisi 2p → 1s. Medan magnet memecah 2p menjadi tiga tingkat ($m = +1$, 0, $-1$) berjarak $\mu_BB$; 1s tidak terpecah. Tiga transisi yang diizinkan menghasilkan triplet berjarak $\mu_BB$.](fig/c_zeeman.png){width=85%}
 
 ::: {.contoh}
-**Contoh 7.41 · Pemecahan H$_\alpha$ dalam 1 T**
+**Contoh 7.50 · Pemecahan H$_\alpha$ dalam 1 T**
 
 Hitung selisih bilangan gelombang dan panjang gelombang antara komponen-komponen triplet Zeeman normal H$_\alpha$ (656,47 nm) dalam medan 1,00 T.
 
@@ -191,7 +205,7 @@ Hitung selisih bilangan gelombang dan panjang gelombang antara komponen-komponen
 :::
 
 ::: {.contoh}
-**Contoh 7.42 · Medan magnet bintik matahari**
+**Contoh 7.51 · Medan magnet bintik matahari**
 
 Tahun 1908, George Hale mengamati pemecahan garis spektrum di bintik matahari. Bila sebuah garis triplet normal di 525 nm terpecah 0,0060 nm antara komponen yang bertetangga, berapa kuat medannya?
 
@@ -201,13 +215,27 @@ Tahun 1908, George Hale mengamati pemecahan garis spektrum di bintik matahari. B
 :::
 
 ::: {.contoh}
-**Contoh 7.43 · Tingkat 3d dalam medan magnet**
+**Contoh 7.52 · Tingkat 3d dalam medan magnet**
 
 Tingkat 3d hidrogen (abaikan spin) ditempatkan dalam medan 2,0 T. Berapa banyak tingkat yang terbentuk, berapa jaraknya, dan berapa komponen garis 3d → 2p yang teramati?
 
 **Penyelesaian.** $2\ell + 1 = 5$ tingkat ($m = -2, \ldots, 2$) berjarak $\mu_BB = 0{,}934$ cm⁻¹. Tingkat 2p terpecah menjadi 3 dengan jarak sama. Transisi dengan $\Delta m = 0, \pm1$ ada sembilan, tetapi energinya hanya tiga macam: $\Delta E_0$ dan $\Delta E_0 \pm \mu_BB$.
 
 **Memahami hasil.** Karena tingkat atas dan bawah terpecah dengan jarak yang sama per satuan $m$, semua transisi dengan $\Delta m$ yang sama berimpit. Inilah sebabnya pola normal selalu triplet. Bila rasio giromagnetik tingkat atas dan bawah berbeda (efek spin, faktor $g$ Landé), garis-garis itu tidak lagi berimpit, dan polanya menjadi anomal (Bab 9).
+:::
+
+::: {.contoh}
+**Contoh 7.53 · Seberapa besar pemecahan Zeeman?**
+
+Dalam efek Zeeman normal, tingkat $m_\ell$ terpisah sebesar $\mu_BB$. Hitung pemecahan itu untuk $B = 1{,}0$ T dalam cm⁻¹ dan GHz, dan geseran panjang gelombang garis H$_\alpha$ (656,3 nm) yang bersesuaian.
+
+**Penyelesaian.** $\mu_BB = 9{,}274 \times 10^{-24}$ J. Dalam bilangan gelombang: $\mu_BB/hc = 0{,}467$ cm⁻¹; dalam frekuensi: 14,0 GHz. Geseran panjang gelombang:
+
+$$
+\Delta\lambda = \frac{\lambda^2\,\Delta E}{hc} = \frac{(656{,}3 \times 10^{-9})^2(9{,}274 \times 10^{-24})}{(6{,}626 \times 10^{-34})(2{,}998 \times 10^8)} = 2{,}0 \times 10^{-11}\ \text{m} = 0{,}020\ \text{nm}.
+$$
+
+**Memahami hasil.** Medan 1 T, sekuat magnet laboratorium yang besar, menggeser garis tampak hanya 0,02 nm, sepersepuluh geseran isotop H/D. Karena itu efek Zeeman memerlukan spektrograf beresolusi tinggi. Sebaliknya, pemecahan 14 GHz ini persis berada di daerah gelombang mikro, dan itulah dasar spektroskopi ESR (Bab 16): alih-alih mengukur geseran garis optik yang kecil, ESR mengukur langsung transisi antartingkat Zeeman.
 :::
 
 ::: {.kuis}
@@ -220,7 +248,7 @@ Orbital riil $2\text{p}_x$ apakah mempunyai energi tertentu dalam medan magnet s
 
 ### Mengapa numerik
 
-Atom hidrogen dapat diselesaikan secara eksak, tetapi potensial sedikit saja berbeda dari $-Z/r$ (atom alkali dengan elektron teras, atom terkurung, atom dalam plasma) sudah tidak mempunyai penyelesaian tertutup. Persamaan radial (7.6) berbentuk persis seperti persamaan satu dimensi yang diselesaikan metode Numerov di subbab 5.12, dengan $g(r) = 2[V(r) - E] + \ell(\ell + 1)/r^2$. Di dekat inti, $u \propto r^{\ell+1}$ (Contoh 7.5), sehingga integrasi dimulai dari dua titik pertama dengan $u = r^{\ell+1}$ dan berlanjut ke luar. Nilai eigen adalah energi yang membuat $u$ meluruh di tepi luar (Gambar 7.6).
+Atom hidrogen dapat diselesaikan secara eksak, tetapi potensial sedikit saja berbeda dari $-Z/r$ (atom alkali dengan elektron teras, atom terkurung, atom dalam plasma) sudah tidak mempunyai penyelesaian tertutup. Persamaan radial (7.6) berbentuk persis seperti persamaan satu dimensi yang diselesaikan metode Numerov di subbab 5.12, dengan $g(r) = 2[V(r) - E] + \ell(\ell + 1)/r^2$. Di dekat inti, $u \propto r^{\ell+1}$ (Contoh 7.6), sehingga integrasi dimulai dari dua titik pertama dengan $u = r^{\ell+1}$ dan berlanjut ke luar. Nilai eigen adalah energi yang membuat $u$ meluruh di tepi luar (Gambar 7.6).
 
 ![Gambar 7.6 Metode tembak untuk keadaan 1s hidrogen. Energi yang terlalu tinggi ($-0{,}47$) membuat $u$ memotong nol dan meledak ke arah negatif; energi yang terlalu rendah ($-0{,}53$) membuat $u$ meledak ke arah positif. Pada nilai eigen ($-0{,}50$), $u$ meluruh; galat numerik kecil membuatnya akhirnya naik lagi jauh di luar.](fig/c_tembak.png){width=78%}
 
@@ -261,7 +289,7 @@ print(cari_E(-0.2, -0.1, r, 1, V))           # 2p
 Keluarannya $-0{,}499\,984$; $-0{,}124\,998$; $-0{,}125\,000$. Mengganti satu baris (`V = ...`) cukup untuk menyelesaikan potensial lain.
 
 ::: {.contoh}
-**Contoh 7.44 · Galat di dekat inti**
+**Contoh 7.54 · Galat di dekat inti**
 
 Program di atas dijalankan dengan beberapa ukuran langkah. Galat energi ($E_\text{num} + E_\text{eksak}$, dengan $E_\text{eksak}$ dalam nilai mutlak) untuk 1s dan 2p:
 
@@ -278,7 +306,7 @@ Bagaimana galat 1s bergantung pada $h$, dan mengapa jauh lebih buruk daripada 2p
 :::
 
 ::: {.contoh}
-**Contoh 7.45 · Model potensial litium**
+**Contoh 7.55 · Model potensial litium**
 
 Elektron valensi litium bergerak dalam medan inti ($Z = 3$) yang disaring dua elektron 1s. Model sederhana: $V(r) = -[1 + 2e^{-\alpha r}]/r$, yang menuju $-3/r$ di dekat inti dan $-1/r$ jauh di luar. Parameter $\alpha$ dipilih agar energi 2s sama dengan $-0{,}1981$ hartree (energi ionisasi 5,392 eV); hasilnya $\alpha = 2{,}10$ bohr⁻¹. Dengan program Numerov, energi tingkat-tingkat lain (hartree):
 
@@ -290,13 +318,13 @@ Elektron valensi litium bergerak dalam medan inti ($Z = 3$) yang disaring dua el
 
 Jelaskan pola energi ini dan hitung panjang gelombang transisi 2p → 2s menurut model.
 
-**Penyelesaian.** Degenerasi $\ell$ hidrogen pecah: 2s jauh di bawah 2p, dan 3s < 3p < 3d. Tingkat 3d hampir sama dengan hidrogen, karena elektron 3d hampir tidak menembus teras (Contoh 7.19) dan hanya merasakan muatan $+1$. Transisi 2p → 2s: $(0{,}1981 - 0{,}1324)(27{,}211) = 1{,}788$ eV, $\lambda = 693$ nm (terukur 670,8 nm, garis merah nyala litium).
+**Penyelesaian.** Degenerasi $\ell$ hidrogen pecah: 2s jauh di bawah 2p, dan 3s < 3p < 3d. Tingkat 3d hampir sama dengan hidrogen, karena elektron 3d hampir tidak menembus teras (Contoh 7.23) dan hanya merasakan muatan $+1$. Transisi 2p → 2s: $(0{,}1981 - 0{,}1324)(27{,}211) = 1{,}788$ eV, $\lambda = 693$ nm (terukur 670,8 nm, garis merah nyala litium).
 
 **Memahami hasil.** Satu parameter yang dipaskan pada satu tingkat meramalkan empat tingkat lain sampai beberapa persen. Model ini memperlihatkan langsung bagaimana penembusan (subbab 7.6) memecah degenerasi $\ell$ dan menghasilkan urutan s < p < d. Gagasan "satu elektron dalam potensial rata-rata akibat elektron lain" adalah inti metode medan swakonsisten Hartree–Fock (Bab 9), yang menghitung potensial itu dari fungsi gelombang elektron-elektron lain, bukan dari parameter yang dipaskan.
 :::
 
 ::: {.contoh}
-**Contoh 7.46 · Atom hidrogen di bawah tekanan**
+**Contoh 7.56 · Atom hidrogen di bawah tekanan**
 
 Atom hidrogen dikurung dalam bola berdinding tak tertembus berjari-jari $R_c$ (model atom dalam rongga zeolit atau dalam materi bertekanan sangat tinggi). Syarat batasnya $u(R_c) = 0$. Dengan program Numerov yang diakhiri di $R_c$, energi 1s (hartree) adalah:
 
@@ -312,13 +340,41 @@ Tafsirkan hasil ini.
 :::
 
 ::: {.contoh}
-**Contoh 7.47 · Memeriksa fungsi gelombang numerik**
+**Contoh 7.57 · Memeriksa fungsi gelombang numerik**
 
 Fungsi $u(r)$ 1s dari program Numerov ($h = 0{,}002$) dinormalisasi secara numerik (aturan Simpson), setelah ekor yang mulai menyimpang di luar $r \approx 8$ dipotong. Hasilnya: $\langle r\rangle = 1{,}500\,05$, $\langle 1/r\rangle = 0{,}999\,94$, dan peluang di dalam $r < 1$ adalah 0,3226. Bandingkan dengan nilai eksak.
 
-**Penyelesaian.** Eksak: $\langle r\rangle = 1{,}5$, $\langle 1/r\rangle = 1$, dan $1 - 5e^{-2} = 0{,}3233$ (Contoh 7.18). Galat relatif $3 \times 10^{-5}$, $6 \times 10^{-5}$, dan $2 \times 10^{-3}$.
+**Penyelesaian.** Eksak: $\langle r\rangle = 1{,}5$, $\langle 1/r\rangle = 1$, dan $1 - 5e^{-2} = 0{,}3233$ (Contoh 7.22). Galat relatif $3 \times 10^{-5}$, $6 \times 10^{-5}$, dan $2 \times 10^{-3}$.
 
 **Memahami hasil.** Besaran yang peka terhadap daerah dekat inti ($\langle 1/r\rangle$, peluang di dalam $r < 1$) lebih terpengaruh galat taring daripada $\langle r\rangle$. Pola ini umum dalam kimia komputasi: energi dan geometri mudah dihitung teliti, sedangkan sifat yang bergantung pada rapat elektron di inti (kopling hiperhalus, pergeseran kimia NMR) memerlukan fungsi basis khusus yang rapat di dekat inti (Bab 16 dan 17).
+:::
+
+::: {.contoh}
+**Contoh 7.58 · Menembak energi 1s dengan metode Numerov**
+
+Tuliskan program Python singkat yang mencari energi keadaan dasar hidrogen dengan metode Numerov (subbab 5.12) dan pembagian dua interval, lalu bandingkan dengan nilai tepat $-0{,}5$ hartree.
+
+**Penyelesaian.** Untuk $\ell = 0$, $u = rR$ memenuhi $u'' = -k^2(r)u$ dengan $k^2 = 2(E + 1/r)$. Program berikut mengintegrasi dari $r \approx 0$ ($u = 0$) sampai $r = 30$ bohr dan mencari $E$ yang membuat $u(30) = 0$:
+
+```python
+import numpy as np
+def ujung(E, rmax=30.0, N=6000):
+    h = rmax / N; r = np.arange(N + 1) * h
+    k2 = np.zeros(N + 1); k2[1:] = 2 * (E + 1 / r[1:])
+    u = np.zeros(N + 1); u[1] = h
+    for i in range(1, N):
+        u[i+1] = (2*u[i]*(1 - 5*h*h*k2[i]/12) - u[i-1]*(1 + h*h*k2[i-1]/12)) / (1 + h*h*k2[i+1]/12)
+    return u[-1]
+a, b = -0.6, -0.4
+for _ in range(60):
+    m = (a + b) / 2
+    a, b = (a, m) if ujung(a) * ujung(m) < 0 else (m, b)
+print(m)    # -0.49999
+```
+
+Hasilnya $E = -0{,}499\,99$ hartree, sesuai nilai tepat sampai lima angka.
+
+**Memahami hasil.** Program yang sama menyelesaikan potensial apa pun cukup dengan mengganti satu baris `k2`. Itulah yang dilakukan pada soal potensial Yukawa di akhir bab, dan prinsip yang sama (integrasi persamaan radial dengan potensial efektif) dipakai metode Hartree–Fock atom di Bab 9.
 :::
 
 ::: {.kuis}

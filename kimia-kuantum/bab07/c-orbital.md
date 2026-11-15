@@ -18,7 +18,7 @@ Untuk $\ell = 2$, pasangan $m = \pm1$ menghasilkan $d_{xz}$ dan $d_{yz}$, pasang
 Dalam atom bebas tanpa medan, pilihan basis tidak mengubah apa pun yang dapat diukur: energi sama, dan subkulit penuh tetap bersimetri bola (teorema Unsöld).
 
 ::: {.contoh}
-**Contoh 7.21 · Fungsi 2p$_x$ lengkap**
+**Contoh 7.26 · Fungsi 2p$_x$ lengkap**
 
 Tuliskan $\psi_{2\text{p}_x}$ hidrogen ternormalisasi dalam koordinat Kartesius.
 
@@ -28,7 +28,7 @@ Tuliskan $\psi_{2\text{p}_x}$ hidrogen ternormalisasi dalam koordinat Kartesius.
 :::
 
 ::: {.contoh}
-**Contoh 7.22 · Momentum sudut orbital riil**
+**Contoh 7.27 · Momentum sudut orbital riil**
 
 Untuk elektron pada orbital $2\text{p}_x$, hitung $\langle L_z\rangle$, $\langle L_z^2\rangle$, dan $\langle L^2\rangle$.
 
@@ -38,13 +38,29 @@ Untuk elektron pada orbital $2\text{p}_x$, hitung $\langle L_z\rangle$, $\langle
 :::
 
 ::: {.contoh}
-**Contoh 7.23 · Isi $m$ orbital d riil**
+**Contoh 7.28 · Isi $m$ orbital d riil**
 
 Tentukan komponen $m$ dari $d_{xy}$, $d_{x^2-y^2}$, $d_{xz}$, dan $d_{z^2}$, dan hasil yang mungkin bila $L_z$ diukur pada elektron di $d_{xy}$.
 
 **Penyelesaian.** $d_{x^2-y^2} = (Y_2^2 + Y_2^{-2})/\sqrt2$ dan $d_{xy} = -i(Y_2^2 - Y_2^{-2})/\sqrt2$: keduanya hanya memuat $m = \pm2$. $d_{xz}$ dan $d_{yz}$ memuat $m = \pm1$. $d_{z^2} = Y_2^0$. Pengukuran $L_z$ pada $d_{xy}$ memberi $+2\hbar$ atau $-2\hbar$, masing-masing dengan peluang ½.
 
 **Memahami hasil.** Orbital-orbital yang memuat $|m|$ yang sama hanya berbeda orientasi terhadap sumbu $z$: $d_{xy}$ adalah $d_{x^2-y^2}$ yang diputar 45°. Itulah sebabnya, dalam medan ligan oktahedral, $d_{xy}$, $d_{xz}$, dan $d_{yz}$ tetap setara satu sama lain, tetapi $d_{x^2-y^2}$ setara dengan $d_{z^2}$, bukan dengan $d_{xy}$ (Bab 14).
+:::
+
+::: {.contoh}
+**Contoh 7.29 · Membangun $p_x$ dan $p_y$ dari orbital kompleks**
+
+Bagian sudut orbital $p$ kompleks adalah $Y_1^{\pm1} = \mp\sqrt{3/8\pi}\,\sin\theta\,e^{\pm i\phi}$. Tunjukkan bahwa kombinasi $p_x = (Y_1^{-1} - Y_1^{1})/\sqrt2$ dan $p_y = i(Y_1^{-1} + Y_1^{1})/\sqrt2$ riil, dan tentukan arahnya.
+
+**Penyelesaian.** Dengan $e^{\pm i\phi} = \cos\phi \pm i\sin\phi$:
+
+$$
+Y_1^{-1} - Y_1^{1} = \sqrt{\tfrac{3}{8\pi}}\sin\theta\,(e^{-i\phi} + e^{i\phi}) = 2\sqrt{\tfrac{3}{8\pi}}\sin\theta\cos\phi ,
+$$
+
+sehingga $p_x = \sqrt{3/4\pi}\,\sin\theta\cos\phi = \sqrt{3/4\pi}\,(x/r)$. Dengan cara yang sama $p_y = \sqrt{3/4\pi}\,(y/r)$. Keduanya riil, berarah sepanjang sumbu $x$ dan $y$, dan tetap ternormalkan karena $Y_1^{\pm1}$ ortonormal.
+
+**Memahami hasil.** $p_x$ dan $p_y$ bukan fungsi eigen $\hat L_z$; masing-masing adalah campuran setara $m = +1$ dan $m = -1$. Tetapi karena keduanya mempunyai energi dan $\ell$ yang sama, campuran apa pun tetap merupakan keadaan stasioner. Kimiawan memakai orbital riil karena arahnya jelas dan cocok untuk menggambarkan ikatan; fisikawan memakai orbital kompleks bila ada medan magnet yang memilih sumbu $z$.
 :::
 
 ::: {.kuis}
@@ -73,7 +89,7 @@ Beberapa ciri yang perlu diingat:
 Tanda fungsi gelombang tidak dapat diukur langsung (rapat peluang adalah $|\psi|^2$), tetapi menjadi penting ketika dua orbital digabungkan. Integral tumpang tindih $\int\psi_A\psi_B\,d\tau$ dapat positif, negatif, atau nol tergantung tanda lobus yang bertemu. Pada ikatan kimia (Bab 11), orbital yang tumpang tindih positif membentuk orbital ikatan, dan simetri menentukan pasangan mana yang tumpang tindihnya nol.
 
 ::: {.contoh}
-**Contoh 7.24 · Simpul orbital 4f$_{z^3}$**
+**Contoh 7.30 · Simpul orbital 4f$_{z^3}$**
 
 Bagian sudut $f_{z^3}$ sebanding dengan $5\cos^3\theta - 3\cos\theta$. Tentukan semua simpul sudutnya, dan banyaknya simpul radial 4f.
 
@@ -83,7 +99,7 @@ Bagian sudut $f_{z^3}$ sebanding dengan $5\cos^3\theta - 3\cos\theta$. Tentukan 
 :::
 
 ::: {.contoh}
-**Contoh 7.25 · Mengapa hanya lima orbital d?**
+**Contoh 7.31 · Mengapa hanya lima orbital d?**
 
 Bentuk $d_{z^2-x^2}$ dan $d_{z^2-y^2}$ tampak setara dengan $d_{x^2-y^2}$. Mengapa tidak ada enam orbital d?
 
@@ -93,13 +109,23 @@ Bentuk $d_{z^2-x^2}$ dan $d_{z^2-y^2}$ tampak setara dengan $d_{x^2-y^2}$. Menga
 :::
 
 ::: {.contoh}
-**Contoh 7.26 · Tumpang tindih dan simetri**
+**Contoh 7.32 · Tumpang tindih dan simetri**
 
 Atom H dengan orbital 1s terletak pada sumbu $z$ dari atom lain. Manakah orbital atom kedua yang tumpang tindihnya dengan 1s pasti nol: $2s$, $2p_z$, $2p_x$, $3d_{z^2}$, $3d_{xz}$?
 
 **Penyelesaian.** 1s bersimetri terhadap rotasi di sekeliling sumbu $z$ dan terhadap pencerminan di bidang $xz$ dan $yz$. Orbital yang berubah tanda pada pencerminan $x \to -x$ ($2p_x$, $3d_{xz}$) memberi tumpang tindih nol: sumbangan lobus positif dan negatif saling meniadakan. Tumpang tindih dengan $2s$, $2p_z$, dan $3d_{z^2}$ dapat tidak nol.
 
 **Memahami hasil.** Orbital-orbital yang simetris terhadap sumbu ikatan membentuk ikatan σ; yang mempunyai satu bidang simpul memuat sumbu ikatan ($p_x$, $p_y$, $d_{xz}$, $d_{yz}$) membentuk ikatan π, dan hanya dengan orbital yang sejenis. Aturan pemilihan pasangan ini, yang di sini dibaca dari gambar, akan dirumuskan dengan teori grup di Bab 10.
+:::
+
+::: {.contoh}
+**Contoh 7.33 · Kerucut simpul orbital $d_{z^2}$**
+
+Bagian sudut orbital $3d_{z^2}$ sebanding dengan $3\cos^2\theta - 1$. Pada sudut berapa terdapat bidang simpul (berbentuk kerucut)? Mengapa bentuk ini penting dalam senyawa kompleks oktahedral?
+
+**Penyelesaian.** Simpul terjadi bila $3\cos^2\theta - 1 = 0$, yaitu $\cos\theta = \pm1/\sqrt3$, $\theta = 54{,}74°$ dan $125{,}26°$. Dua kerucut simpul memisahkan dua cuping di sumbu $z$ (bertanda positif) dari "cincin" di bidang $xy$ (bertanda negatif).
+
+**Memahami hasil.** Sudut 54,74° adalah separuh sudut tetrahedral (109,47°), dan disebut juga "sudut ajaib" dalam NMR padatan, karena kopling dipol antarinti sebanding dengan faktor $3\cos^2\theta - 1$ yang sama. Dalam kompleks oktahedral, cuping $d_{z^2}$ mengarah tepat ke dua ligan di sumbu $z$, sehingga orbital ini (bersama $d_{x^2 - y^2}$) naik energinya oleh tolakan ligan (Bab 14).
 :::
 
 ::: {.kuis}
@@ -131,7 +157,7 @@ $$
 Ini teorema virial untuk potensial $V \propto r^{-1}$ ($2\langle T\rangle = -\langle V\rangle$; Contoh 4.18 dan 5.17). Ia berlaku untuk setiap keadaan stasioner atom hidrogen, dan, dalam bentuk yang sama, untuk setiap atom dan molekul pada geometri setimbang, karena semua interaksi di dalamnya bersifat Coulomb. Dalam pembentukan ikatan kimia, energi total turun; menurut teorema virial, energi kinetik elektron **naik** dan energi potensial turun dua kali lebih banyak (Bab 11).
 
 ::: {.contoh}
-**Contoh 7.27 · Ukuran orbital**
+**Contoh 7.34 · Ukuran orbital**
 
 Hitung $\langle r\rangle$ (bohr dan pm) untuk 1s, 2s, 2p, 3d, dan 4f hidrogen.
 
@@ -141,7 +167,7 @@ Hitung $\langle r\rangle$ (bohr dan pm) untuk 1s, 2s, 2p, 3d, dan 4f hidrogen.
 :::
 
 ::: {.contoh}
-**Contoh 7.28 · Energi kinetik dan potensial 2p**
+**Contoh 7.35 · Energi kinetik dan potensial 2p**
 
 Untuk elektron 2p hidrogen, hitung $\langle 1/r\rangle$, $\langle V\rangle$, dan $\langle T\rangle$ langsung dari $R_{21}$, lalu periksa (7.18).
 
@@ -151,7 +177,7 @@ Untuk elektron 2p hidrogen, hitung $\langle 1/r\rangle$, $\langle V\rangle$, dan
 :::
 
 ::: {.contoh}
-**Contoh 7.29 · Lebar awan 1s**
+**Contoh 7.36 · Lebar awan 1s**
 
 Hitung $\Delta r = \sqrt{\langle r^2\rangle - \langle r\rangle^2}$ untuk 1s, dan suseptibilitas diamagnetik molar atom H, $\chi_m = -\mu_0N_Ae^2\langle r^2\rangle/6m_e$.
 
@@ -161,7 +187,7 @@ Hitung $\Delta r = \sqrt{\langle r^2\rangle - \langle r\rangle^2}$ untuk 1s, dan
 :::
 
 ::: {.contoh}
-**Contoh 7.30 · Kecepatan elektron dan kimia relativistik**
+**Contoh 7.37 · Kecepatan elektron dan kimia relativistik**
 
 Dari $\langle T\rangle = Z^2/2$ untuk 1s, kecepatan rms elektron 1s adalah $v = Z$ dalam satuan atom (satuan kecepatan $\alpha c$). Hitung $v/c$ untuk H, Cs ($Z = 55$), dan Au ($Z = 79$), dan faktor kenaikan massa relativistik $\gamma$.
 
@@ -171,13 +197,31 @@ Dari $\langle T\rangle = Z^2/2$ untuk 1s, kecepatan rms elektron 1s adalah $v = 
 :::
 
 ::: {.contoh}
-**Contoh 7.31 · Energi kinetik dan potensial He⁺**
+**Contoh 7.38 · Energi kinetik dan potensial He⁺**
 
 Untuk He⁺ pada keadaan dasar, hitung $\langle T\rangle$, $\langle V\rangle$, dan $\langle r\rangle$ dengan rumus penskalaan, lalu bandingkan dengan hidrogen.
 
 **Penyelesaian.** $E_1 = -Z^2/2 = -2$ hartree. Menurut (7.18): $\langle T\rangle = 2$ hartree $= 54{,}4$ eV dan $\langle V\rangle = -4$ hartree $= -108{,}8$ eV. $\langle r\rangle = 3/(2Z) = 0{,}75$ bohr.
 
 **Memahami hasil.** Dibandingkan hidrogen, energi kinetik dan potensial keduanya naik empat kali, sedangkan ukuran mengecil dua kali. Elektron yang lebih dekat ke inti bergerak lebih cepat (asas ketidakpastian) dan ditarik lebih kuat; teorema virial menjamin keduanya seimbang dalam perbandingan $1 : -2$ untuk setiap $Z$.
+:::
+
+::: {.contoh}
+**Contoh 7.39 · Ukuran dan sebaran orbital kulit $n = 2$ dan $n = 3$**
+
+Dengan $\langle r\rangle = \tfrac12[3n^2 - \ell(\ell + 1)]$ dan $\langle r^2\rangle = \tfrac12n^2[5n^2 + 1 - 3\ell(\ell + 1)]$ (satuan bohr), hitung $\langle r\rangle$ dan sebaran $\Delta r = \sqrt{\langle r^2\rangle - \langle r\rangle^2}$ untuk 2s, 2p, 3s, 3p, dan 3d.
+
+**Penyelesaian.**
+
+| Orbital | $\langle r\rangle$ | $\langle r^2\rangle$ | $\Delta r$ |
+|---|---|---|---|
+| 2s | 6,0 | 42 | 2,45 |
+| 2p | 5,0 | 30 | 2,24 |
+| 3s | 13,5 | 207 | 4,97 |
+| 3p | 12,5 | 180 | 4,87 |
+| 3d | 10,5 | 126 | 3,97 |
+
+**Memahami hasil.** Dalam satu kulit, orbital dengan $\ell$ lebih besar rata-rata **lebih dekat** ke inti dan lebih sempit sebarannya, walaupun energinya sama dalam hidrogen. Orbital s menyebar paling luas karena punya simpul-simpul radial dan cuping kecil di dekat inti. Dalam atom berelektron banyak, cuping dalam itulah yang menembus kulit dalam (subbab 7.6) dan menurunkan energi orbital s di bawah p dan d.
 :::
 
 ::: {.kuis}

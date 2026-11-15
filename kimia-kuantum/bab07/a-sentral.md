@@ -102,6 +102,28 @@ Perkirakan dengan asas ketidakpastian energi elektron yang terkurung dalam bola 
 **Memahami hasil.** Taksiran kasar ini kebetulan memberi jawaban tepat. Energi kinetik pengurungan tumbuh seperti $1/r^2$, lebih cepat daripada tarikan Coulomb ($1/r$), sehingga mendekat ke inti tidak menguntungkan di bawah jarak tertentu. Fisika klasik tidak mempunyai suku $1/r^2$ ini, dan karena itu meramalkan keruntuhan atom (subbab 1.6). Stabilitas atom adalah akibat langsung dari asas ketidakpastian.
 :::
 
+### Massa tereduksi: hidrogen, deuterium, positronium, hidrogen muonik
+
+Dalam satuan atom kita menganggap inti tak bermassa hingga, sehingga massa tereduksi $\mu$ sama dengan massa elektron. Kenyataannya $\mu = m_eM/(m_e + M)$, dan semua energi serta jari-jari ikut berskala: energi sebanding dengan $\mu$, jari-jari sebanding dengan $1/\mu$. Koreksi ini kecil untuk hidrogen biasa (sekitar 0,05%), tetapi teramati dengan jelas dalam spektroskopi, dan menjadi besar untuk "atom" yang intinya ringan atau partikel pengorbitnya berat.
+
+::: {.contoh}
+**Contoh 7.4 · Empat atom mirip hidrogen**
+
+Hitung energi ionisasi (eV) untuk (a) hidrogen, (b) deuterium, (c) positronium (elektron yang mengorbit positron, $M = m_e$), dan (d) hidrogen muonik (muon bermassa $206{,}77\,m_e$ yang mengorbit proton). Untuk (d) hitung juga jari-jari Bohr-nya. Pakai $E_\infty = 13{,}6057$ eV dan $a_0 = 52{,}918$ pm untuk inti tak hingga berat.
+
+**Penyelesaian.** Energi ionisasi $= E_\infty\,\mu/m_e$ dan jari-jari $= a_0\,m_e/\mu$.
+
+(a) $\mu/m_e = 1/(1 + 1/1836{,}15) = 0{,}999\,456$, sehingga $E_i = 13{,}598$ eV.
+
+(b) Deuteron $3670{,}5\,m_e$: $\mu/m_e = 0{,}999\,728$, $E_i = 13{,}602$ eV.
+
+(c) $\mu = m_e/2$: $E_i = 6{,}80$ eV, dan jari-jarinya dua kali jari-jari Bohr.
+
+(d) $\mu/m_e = 206{,}77 \times 1836{,}15/(206{,}77 + 1836{,}15) = 185{,}84$: $E_i = 2{,}53$ keV dan jari-jari $52{,}918\ \text{pm}/185{,}84 = 0{,}285$ pm $= 285$ fm.
+
+**Memahami hasil.** Selisih H dan D hanya 0,004 eV, tetapi pada spektrometer resolusi tinggi selisih ini memisahkan garis-garis spektrum keduanya; dari situlah deuterium ditemukan pada tahun 1932. Positronium berukuran dua kali hidrogen dan terikat setengah lebih lemah. Hidrogen muonik 186 kali lebih kecil: muonnya mengorbit begitu dekat sehingga merasakan ukuran proton (0,84 fm), dan pengukuran spektrumnya pada tahun 2010 justru memberi jari-jari proton yang paling teliti.
+:::
+
 ::: {.kuis}
 **Kuis cepat 7.1**
 
@@ -149,7 +171,7 @@ Fungsi gelombang akan diberi label tiga bilangan kuantum:
 Huruf s, p, d, dan f berasal dari nama deret garis spektrum logam alkali (*sharp*, *principal*, *diffuse*, *fundamental*); setelah f, huruf berlanjut menurut abjad: g, h, ...
 
 ::: {.contoh}
-**Contoh 7.4 · Memeriksa fungsi 2p$_0$**
+**Contoh 7.5 · Memeriksa fungsi 2p$_0$**
 
 Tunjukkan bahwa $\psi = re^{-r/2}\cos\theta$ adalah fungsi eigen (7.3) dengan $Z = 1$, dan tentukan energinya.
 
@@ -159,7 +181,7 @@ Tunjukkan bahwa $\psi = re^{-r/2}\cos\theta$ adalah fungsi eigen (7.3) dengan $Z
 :::
 
 ::: {.contoh}
-**Contoh 7.5 · Bentuk $u$ di dekat inti**
+**Contoh 7.6 · Bentuk $u$ di dekat inti**
 
 Tunjukkan bahwa di dekat inti, $u \propto r^{\ell+1}$, sehingga $R \propto r^\ell$. Apa akibatnya bagi kerapatan elektron di inti?
 
@@ -169,13 +191,38 @@ Tunjukkan bahwa di dekat inti, $u \propto r^{\ell+1}$, sehingga $R \propto r^\el
 :::
 
 ::: {.contoh}
-**Contoh 7.6 · Bilangan kuantum yang diizinkan**
+**Contoh 7.7 · Bilangan kuantum yang diizinkan**
 
 Daftarkan semua kombinasi $(n, \ell, m_\ell)$ untuk $n = 3$ dan beri nama orbitalnya.
 
 **Penyelesaian.** $\ell = 0$: $m = 0$ (3s). $\ell = 1$: $m = -1, 0, 1$ (tiga orbital 3p). $\ell = 2$: $m = -2, \ldots, 2$ (lima orbital 3d). Total $1 + 3 + 5 = 9 = n^2$.
 
 **Memahami hasil.** Kulit ke-$n$ mempunyai $n^2$ orbital dan, dengan dua keadaan spin, $2n^2$ elektron: 2, 8, 18, 32. Dalam atom hidrogen, kesembilan orbital $n = 3$ berenergi sama (subbab 7.4); dalam atom berelektron banyak, 3s < 3p < 3d, dan 3d bahkan naik di atas 4s untuk kalium dan kalsium (Bab 9).
+:::
+
+::: {.dalam}
+**Lebih dalam · Mengapa energi tidak bergantung pada $m$**
+
+Dalam persamaan radial, bilangan kuantum magnetik $m$ tidak muncul sama sekali; yang muncul hanya $\ell(\ell + 1)$ dari operator $\hat L^2$. Alasannya adalah simetri: potensial Coulomb hanya bergantung pada jarak $r$, sehingga memutar sistem tidak mengubah energinya. Bilangan $m$ hanya menyatakan arah momentum sudut terhadap sumbu $z$ yang kita pilih sendiri; karena sumbu $z$ tidak istimewa, semua arah berenergi sama. Itulah sebabnya setiap tingkat dengan $\ell$ tertentu selalu mempunyai degenerasi $2\ell + 1$, untuk **semua** potensial sentral, bukan hanya Coulomb. Degenerasi ini baru pecah bila ada sesuatu yang memilih arah, misalnya medan magnet luar (efek Zeeman, subbab 7.12) atau medan ligan dalam kristal (Bab 14).
+:::
+
+::: {.contoh}
+**Contoh 7.8 · Menghitung keadaan dalam setiap kulit**
+
+Daftarkan semua kombinasi $(\ell, m)$ untuk $n = 1$ sampai 4 dan tunjukkan bahwa banyaknya keadaan ruang dalam kulit ke-$n$ adalah $n^2$.
+
+**Penyelesaian.** Untuk setiap $\ell$ ada $2\ell + 1$ nilai $m$, dan $\ell$ berjalan dari 0 sampai $n - 1$:
+
+| $n$ | subkulit | banyak keadaan |
+|---|---|---|
+| 1 | 1s (1) | 1 |
+| 2 | 2s (1), 2p (3) | 4 |
+| 3 | 3s (1), 3p (3), 3d (5) | 9 |
+| 4 | 4s (1), 4p (3), 4d (5), 4f (7) | 16 |
+
+Secara umum $\sum_{\ell=0}^{n-1}(2\ell + 1) = n^2$, karena jumlah $n$ bilangan ganjil pertama adalah $n^2$.
+
+**Memahami hasil.** Dengan dua arah spin (Bab 9), setiap kulit memuat $2n^2$ elektron: 2, 8, 18, 32. Angka-angka itu muncul sebagai panjang periode tabel periodik (2, 8, 8, 18, 18, 32, 32), walaupun dalam atom berelektron banyak urutan pengisiannya mengikuti energi, bukan $n$ saja.
 :::
 
 ::: {.kuis}
@@ -188,7 +235,7 @@ Mengapa persamaan radial tidak bergantung pada $m_\ell$? Berapa banyak orbital d
 
 ### Perilaku asimtotik
 
-Untuk keadaan terikat, $E < 0$. Tulis $E = -\kappa^2/2$ dengan $\kappa > 0$. Jauh dari inti, kedua suku potensial dalam (7.6) hilang, dan $u'' \approx \kappa^2u$, dengan penyelesaian $e^{\pm\kappa r}$. Hanya $e^{-\kappa r}$ yang dapat dinormalisasi. Di dekat inti, $u \propto r^{\ell+1}$ (Contoh 7.5). Seperti pada osilator harmonik (subbab 5.2), kita pisahkan kedua perilaku itu:
+Untuk keadaan terikat, $E < 0$. Tulis $E = -\kappa^2/2$ dengan $\kappa > 0$. Jauh dari inti, kedua suku potensial dalam (7.6) hilang, dan $u'' \approx \kappa^2u$, dengan penyelesaian $e^{\pm\kappa r}$. Hanya $e^{-\kappa r}$ yang dapat dinormalisasi. Di dekat inti, $u \propto r^{\ell+1}$ (Contoh 7.6). Seperti pada osilator harmonik (subbab 5.2), kita pisahkan kedua perilaku itu:
 
 $$
 u(r) = r^{\ell+1}e^{-\kappa r}f(r) , \qquad \text{(7.7)}
@@ -252,7 +299,7 @@ Suku dalam kurung terakhir sama dengan $\tfrac{\ell(\ell+1)}{r^2} - \tfrac{2\kap
 :::
 
 ::: {.contoh}
-**Contoh 7.7 · Membangun $R_{20}$ dari rekursi**
+**Contoh 7.9 · Membangun $R_{20}$ dari rekursi**
 
 Dengan $Z = 1$, $n = 2$, $\ell = 0$ ($\kappa = \tfrac12$), bangun $f$ dari (7.9) mulai $a_0 = 1$, lalu tuliskan $R_{20}$ tanpa normalisasi.
 
@@ -262,7 +309,7 @@ Dengan $Z = 1$, $n = 2$, $\ell = 0$ ($\kappa = \tfrac12$), bangun $f$ dari (7.9)
 :::
 
 ::: {.contoh}
-**Contoh 7.8 · Fungsi 3p dari rekursi**
+**Contoh 7.10 · Fungsi 3p dari rekursi**
 
 Untuk $n = 3$, $\ell = 1$ ($\kappa = \tfrac13$), bangun $f$ dan bandingkan dengan $R_{31}$.
 
@@ -272,13 +319,41 @@ Untuk $n = 3$, $\ell = 1$ ($\kappa = \tfrac13$), bangun $f$ dan bandingkan denga
 :::
 
 ::: {.contoh}
-**Contoh 7.9 · Bagaimana bila $E$ bukan nilai eigen?**
+**Contoh 7.11 · Bagaimana bila $E$ bukan nilai eigen?**
 
 Misalkan $Z = 1$, $\ell = 0$, dan $\kappa = 0{,}9$ (bukan $1/n$). Hitung lima koefisien pertama dan perhatikan perbandingan $a_{k+1}/a_k$.
 
 **Penyelesaian.** Dengan (7.9): $a_{k+1}/a_k = \tfrac{2[0{,}9(k + 1) - 1]}{(k + 1)(k + 2)}$. $k = 0$: $-0{,}1$; $k = 1$: $0{,}267$; $k = 2$: $0{,}283$; $k = 3$: $0{,}26$; $k = 4$: $0{,}233$. Untuk $k$ besar, perbandingannya mendekati $1{,}8/k$, yaitu $2\kappa/k$.
 
 **Memahami hasil.** Koefisien tidak pernah menjadi nol, dan deretnya tumbuh seperti $e^{1{,}8r}$, sehingga $u \sim e^{+0{,}9r}$. Fungsi itu memenuhi persamaan diferensial di setiap titik tetapi meledak di tak hingga. Hanya energi $-1/2n^2$ yang menghasilkan fungsi yang dapat diterima. Inilah yang "dilihat" metode tembak numerik (subbab 7.13, Gambar 7.6).
+:::
+
+::: {.contoh}
+**Contoh 7.12 · Membangun dan menormalkan $R_{20}$**
+
+Dengan rekursi deret untuk $n = 2$, $\ell = 0$, fungsi radialnya berbentuk $R_{20} = N(1 - r/2)e^{-r/2}$ (satuan bohr). Tentukan konstanta normalisasi $N$ dan letak simpulnya.
+
+**Penyelesaian.** Syarat normalisasi $\int_0^\infty R^2r^2\,dr = 1$. Dengan $\int_0^\infty r^ke^{-r}dr = k!$:
+
+$$
+N^2\int_0^\infty\left(r^2 - r^3 + \tfrac14r^4\right)e^{-r}dr = N^2\left(2 - 6 + \tfrac{24}{4}\right) = 2N^2 = 1,
+$$
+
+sehingga $N = 1/\sqrt2$ dan $R_{20} = \tfrac{1}{2\sqrt2}(2 - r)e^{-r/2}$. Simpulnya di $r = 2$ bohr $= 106$ pm.
+
+**Memahami hasil.** Integral yang tampak rumit selesai dalam satu baris karena semua suku berbentuk $r^ke^{-r}$, dan rumus faktorial menyelesaikannya. Seluruh perhitungan nilai harap atom hidrogen bekerja dengan cara yang sama. Simpul di 2 bohr memisahkan cuping dalam kecil yang menembus dekat inti dari cuping luar yang besar.
+:::
+
+::: {.dalam}
+**Lebih dalam · Polinom Laguerre**
+
+Polinom yang dihasilkan rekursi (7.9) sudah dikenal ahli matematika jauh sebelum mekanika kuantum: polinom Laguerre terasosiasi $L_{n-\ell-1}^{2\ell+1}(\rho)$ dengan $\rho = 2Zr/n$. Fungsi radial lengkapnya adalah
+
+$$
+R_{n\ell}(r) = \sqrt{\left(\frac{2Z}{n}\right)^3\frac{(n - \ell - 1)!}{2n\,(n + \ell)!}}\;e^{-\rho/2}\rho^\ell L_{n-\ell-1}^{2\ell+1}(\rho) .
+$$
+
+Rumus ini jarang perlu dihafal. Yang penting adalah strukturnya: faktor $\rho^\ell$ membuat orbital dengan $\ell > 0$ nol di inti, faktor eksponensial membuatnya meluruh di jauh, dan polinom berderajat $n - \ell - 1$ memberi tepat $n - \ell - 1$ simpul radial. Pustaka Python seperti SciPy menyediakan `scipy.special.genlaguerre` untuk menghitungnya.
 :::
 
 ::: {.kuis}

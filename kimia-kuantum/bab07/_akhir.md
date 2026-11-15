@@ -61,7 +61,7 @@
 
 **Soal {{rek3s}}.** Dengan $\kappa = \tfrac13$, $\ell = 0$, $Z = 1$: $a_1 = \tfrac{2[\tfrac13 - 1]}{(1)(2)}a_0 = -\tfrac23$; $a_2 = \tfrac{2[\tfrac23 - 1]}{(2)(3)}a_1 = \left(-\tfrac19\right)\left(-\tfrac23\right) = \tfrac{2}{27}$; $a_3 = \tfrac{2[1 - 1]}{(3)(4)}a_2 = 0$. Jadi $f = 1 - \tfrac23r + \tfrac{2}{27}r^2 = \tfrac{1}{27}(27 - 18r + 2r^2)$, dan $R = u/r = f\,e^{-r/3}$.
 
-*Cara berpikir:* deret berhenti tepat pada $k = n - \ell - 1 = 2$. Tanda koefisien berganti-ganti, sehingga polinomnya mempunyai dua akar positif: dua simpul radial 3s (Contoh 7.14).
+*Cara berpikir:* deret berhenti tepat pada $k = n - \ell - 1 = 2$. Tanda koefisien berganti-ganti, sehingga polinomnya mempunyai dua akar positif: dua simpul radial 3s (Contoh 7.18).
 
 **Soal {{mp3s}}.** $P(r) = r^2R_{30}^2 \propto r^2(27 - 18r + 2r^2)^2e^{-2r/3}$. Turunan $P$ nol di simpul ($r = 1{,}90$ dan $7{,}10$) dan di tiga maksimum. Secara numerik, maksimum terbesar di $r = 13{,}07$ bohr (692 pm); dua maksimum kecil di sekitar 0,74 dan 4,19 bohr.
 
@@ -86,4 +86,4 @@
 3. H. A. Bethe dan E. E. Salpeter, *Quantum Mechanics of One- and Two-Electron Atoms* (Springer, 1957; Dover, 2008). Rujukan klasik: nilai harap, unsur matriks, laju transisi, struktur halus, dan efek medan luar.
 4. P. Atkins dan R. Friedman, *Molecular Quantum Mechanics*, edisi ke-5 (Oxford University Press, 2011), Bab 3. Atom hidrogen dan atom mirip hidrogen dengan sudut pandang kimia.
 5. G. W. F. Drake (ed.), *Springer Handbook of Atomic, Molecular, and Optical Physics* (Springer, 2006). Data spektroskopi hidrogen dan ion mirip hidrogen dengan ketelitian tinggi.
-6. P. Pyykkö, "Relativistic effects in chemistry: more common than you thought", *Annual Review of Physical Chemistry* 63, 45–64 (2012). Pengantar efek relativistik yang disinggung di Contoh 7.30.
+6. P. Pyykkö, "Relativistic effects in chemistry: more common than you thought", *Annual Review of Physical Chemistry* 63, 45–64 (2012). Pengantar efek relativistik yang disinggung di Contoh 7.37.
