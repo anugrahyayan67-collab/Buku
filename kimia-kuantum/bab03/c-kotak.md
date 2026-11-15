@@ -53,7 +53,7 @@ Tingkat-tingkat energi dan fungsi gelombangnya digambar pada Gambar 3.4.
 :::
 
 ::: {.contoh}
-**Contoh 3.18 · Elektron dalam kotak seukuran molekul**
+**Contoh 3.21 · Elektron dalam kotak seukuran molekul**
 
 (a) Hitung $E_1$, $E_2$, dan panjang gelombang transisi $1 \to 2$ untuk elektron dalam kotak 1,00 nm. (b) Ulangi $E_1$ untuk kotak 0,100 nm.
 
@@ -71,7 +71,7 @@ $E_2 = 4E_1 = 1{,}504$ eV. Transisi menyerap $3E_1 = 1{,}128$ eV, sehingga $\lam
 :::
 
 ::: {.contoh}
-**Contoh 3.19 · Molekul gas dalam wadah**
+**Contoh 3.22 · Molekul gas dalam wadah**
 
 Hitung $E_1$ untuk molekul N₂ (28,0 u) dalam kotak satu dimensi 1,00 cm, lalu bandingkan dengan $kT$ pada 298 K. Kira-kira berapa bilangan kuantum $n$ yang khas pada suhu kamar (energi translasi satu dimensi rata-rata $\tfrac12kT$)?
 
@@ -81,7 +81,7 @@ Hitung $E_1$ untuk molekul N₂ (28,0 u) dalam kotak satu dimensi 1,00 cm, lalu 
 :::
 
 ::: {.contoh}
-**Contoh 3.20 · Proton dan atom helium**
+**Contoh 3.23 · Proton dan atom helium**
 
 Hitung $E_1$ untuk (a) proton dalam kotak 0,100 nm (kira-kira ruang gerak proton dalam ikatan hidrogen), (b) atom helium dalam kotak 1,00 nm. Bandingkan masing-masing dengan $kT$ pada 298 K (0,0257 eV).
 
@@ -91,7 +91,7 @@ Hitung $E_1$ untuk (a) proton dalam kotak 0,100 nm (kira-kira ruang gerak proton
 :::
 
 ::: {.contoh}
-**Contoh 3.21 · Aturan seleksi dan intensitas**
+**Contoh 3.24 · Aturan seleksi dan intensitas**
 
 Untuk partikel bermuatan dalam kotak, momen dipol transisi $\mu_{mn} \propto \langle m|x|n\rangle = \int_0^L\psi_m\,x\,\psi_n\,dx$. Untuk $m + n$ ganjil, $\langle m|x|n\rangle = -\dfrac{8Lmn}{\pi^2(m^2 - n^2)^2}$. (a) Hitung $\langle 1|x|2\rangle$, $\langle 1|x|3\rangle$, dan $\langle 1|x|4\rangle$ dalam satuan $L$. (b) Intensitas sebanding dengan kuadratnya. Berapa perbandingan intensitas transisi $1 \to 2$ terhadap $1 \to 4$?
 
@@ -103,7 +103,7 @@ Untuk partikel bermuatan dalam kotak, momen dipol transisi $\mu_{mn} \propto \la
 :::
 
 ::: {.contoh}
-**Contoh 3.22 · Banyaknya tingkat dalam kawat nano**
+**Contoh 3.25 · Banyaknya tingkat dalam kawat nano**
 
 Elektron bergerak dalam kawat sepanjang 1,00 µm, dimodelkan sebagai kotak satu dimensi. (a) Berapa banyak tingkat dengan energi di bawah 1,0 eV? (b) Berapa banyak tingkat tiap eV di sekitar 1,0 eV?
 
@@ -134,7 +134,7 @@ Fungsi-fungsi $\psi_n$ ortonormal (Contoh 2.26): $\int_0^L\psi_m\psi_n\,dx = \de
 
 ### Paritas
 
-Jika titik asal dipindahkan ke tengah kotak, potensial menjadi simetris, $V(-x) = V(x)$, dan setiap fungsi eigen menjadi genap atau ganjil (Contoh 2.15). Fungsi dengan $n$ ganjil genap terhadap tengah kotak (kosinus), dengan $n$ genap ganjil (sinus). Ini berlaku umum: untuk potensial yang simetris, keadaan stasioner yang tidak terdegenerasi mempunyai paritas tertentu, dan paritas berganti setiap kali naik satu tingkat. Paritas menentukan aturan seleksi (Contoh 3.21) dan sangat menyederhanakan perhitungan.
+Jika titik asal dipindahkan ke tengah kotak, potensial menjadi simetris, $V(-x) = V(x)$, dan setiap fungsi eigen menjadi genap atau ganjil (Contoh 2.15). Fungsi dengan $n$ ganjil genap terhadap tengah kotak (kosinus), dengan $n$ genap ganjil (sinus). Ini berlaku umum: untuk potensial yang simetris, keadaan stasioner yang tidak terdegenerasi mempunyai paritas tertentu, dan paritas berganti setiap kali naik satu tingkat. Paritas menentukan aturan seleksi (Contoh 3.24) dan sangat menyederhanakan perhitungan.
 
 ### Nilai harap
 
@@ -159,7 +159,7 @@ Partikel klasik dalam kotak bergerak bolak-balik dengan kelajuan tetap, sehingga
 ![Gambar 3.5 Rapat peluang partikel dalam kotak untuk $n = 1$, 3, dan 20, dibandingkan dengan rapat peluang klasik yang seragam (garis putus-putus). Untuk $n$ besar, rata-rata lokal rapat peluang kuantum mendekati nilai klasik.](fig/c_korespondensi.png){width=84%}
 
 ::: {.contoh}
-**Contoh 3.23 · Asas ketidakpastian dalam kotak**
+**Contoh 3.26 · Asas ketidakpastian dalam kotak**
 
 Dengan (3.15) dan (3.16), hitung $\Delta x\,\Delta p$ untuk $n = 1$, 2, dan 10, dalam satuan $\hbar$.
 
@@ -175,7 +175,7 @@ $n = 1$: $0{,}568\hbar$; $n = 2$: $1{,}67\hbar$; $n = 10$: $9{,}04\hbar$.
 :::
 
 ::: {.contoh}
-**Contoh 3.24 · Ortogonalitas dan peluang dalam kotak**
+**Contoh 3.27 · Ortogonalitas dan peluang dalam kotak**
 
 (a) Periksa langsung bahwa $\int_0^L\psi_1\psi_3\,dx = 0$. (b) Berapa peluang partikel pada keadaan $n = 1$ berada di seperempat kiri kotak? (c) Berapa peluang yang sama untuk partikel klasik?
 
@@ -189,7 +189,7 @@ $n = 1$: $0{,}568\hbar$; $n = 2$: $1{,}67\hbar$; $n = 10$: $9{,}04\hbar$.
 :::
 
 ::: {.contoh}
-**Contoh 3.25 · Menghitung energi dari $\langle p^2\rangle$**
+**Contoh 3.28 · Menghitung energi dari $\langle p^2\rangle$**
 
 Tunjukkan bahwa $\langle p^2\rangle/2m$ untuk keadaan $n$ sama dengan $E_n$. Lalu hitung $\sqrt{\langle p^2\rangle}/m$ untuk elektron pada $n = 1$ dalam kotak 1,00 nm dan bandingkan dengan kecepatan Bohr.
 
@@ -225,7 +225,7 @@ Zat warna sianin dan kerabatnya mempunyai rantai polimetina di antara dua atom n
 ![Gambar 3.6 Kiri: tingkat energi model elektron bebas untuk delapan elektron π; transisi HOMO → LUMO menyerap cahaya. Kanan: panjang gelombang serapan zat warna sianin Me₂N–(CH=CH)$_k$–CH=NMe₂⁺ menurut model dan menurut pengamatan. Model meramalkan kenaikan hampir linear sekitar 125 nm tiap gugus vinilena; pengamatan memberi sekitar 105 nm.](fig/c_sianin.png){width=92%}
 
 ::: {.contoh}
-**Contoh 3.26 · Butadiena dan heksatriena**
+**Contoh 3.29 · Butadiena dan heksatriena**
 
 Butadiena mempunyai 4 elektron π dan heksatriena 6. Dengan panjang kotak $L = N \times 140$ pm, hitung $\lambda_\text{maks}$ masing-masing. Nilai teramati 217 nm dan 258 nm.
 
@@ -241,7 +241,7 @@ Heksatriena: $L = 840$ pm, $N + 1 = 7$: $\lambda = 332$ nm.
 :::
 
 ::: {.contoh}
-**Contoh 3.27 · Deret zat warna sianin**
+**Contoh 3.30 · Deret zat warna sianin**
 
 Untuk kation Me₂N–(CH=CH)$_k$–CH=NMe₂⁺ dengan $k = 1$ sampai 5, hitung $\lambda$ menurut model elektron bebas dengan $N = 2k + 4$ dan $L = N \times 139$ pm. Nilai teramati sekitar 313, 416, 519, 625, dan 734 nm.
 
@@ -267,7 +267,7 @@ Untuk β-karotena (22 elektron π, 11 ikatan rangkap terkonjugasi), model elektr
 Gagasan yang sama berlaku untuk elektron dalam nanokristal semikonduktor. Dalam kristal besar CdSe, selisih energi antara pita valensi dan pita konduksi (celah pita) adalah 1,74 eV, sehingga CdSe bubuk berwarna merah tua kehitaman. Dalam nanokristal berjari-jari beberapa nanometer, elektron yang tereksitasi dan "lubang" yang ditinggalkannya terkurung, dan energi kurungan seperti (3.13) menambah energi celah. Makin kecil kristalnya, makin besar celahnya, makin biru pendarannya. Hadiah Nobel Kimia 2023 (Bawendi, Brus, Ekimov) diberikan untuk penemuan dan sintesis titik kuantum; pemakaiannya kini meliputi layar televisi dan pencitraan biologi.
 
 ::: {.contoh}
-**Contoh 3.28 · Warna titik kuantum CdSe**
+**Contoh 3.31 · Warna titik kuantum CdSe**
 
 Model Brus yang disederhanakan memberikan energi celah nanokristal bola berjari-jari $R$:
 

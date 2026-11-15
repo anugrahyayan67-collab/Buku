@@ -67,7 +67,7 @@ Dengan (4.12), momentum kekal jika $dV/dx = 0$: tidak ada gaya.
 ::: {.contoh}
 **Contoh 4.37 · Memeriksa relasi ketidakpastian dalam kotak**
 
-Untuk partikel dalam kotak pada keadaan $n = 1$, $\Delta x\,\Delta p_x = 0{,}568\hbar$ (Contoh 3.23). (a) Periksa terhadap (4.17). (b) Apakah $\hat H$ dan $\hat p_x$ komut di dalam kotak? Mengapa $\psi_1$ bukan fungsi eigen $\hat p_x$?
+Untuk partikel dalam kotak pada keadaan $n = 1$, $\Delta x\,\Delta p_x = 0{,}568\hbar$ (Contoh 3.26). (a) Periksa terhadap (4.17). (b) Apakah $\hat H$ dan $\hat p_x$ komut di dalam kotak? Mengapa $\psi_1$ bukan fungsi eigen $\hat p_x$?
 
 **Penyelesaian.** (a) $\tfrac12|\langle i\hbar\rangle| = \hbar/2 = 0{,}5\hbar$, dan $0{,}568\hbar \ge 0{,}5\hbar$: dipenuhi.
 

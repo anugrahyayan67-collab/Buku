@@ -56,11 +56,11 @@ dengan $x_1$ dan $x_2$ titik-titik balik klasik. Penghalang persegi hanyalah kas
 ![Gambar 3.9 Kiri: fungsi gelombang (bagian riil) partikel yang menumbuk penghalang; di dalam penghalang ia meluruh secara eksponensial, dan gelombang kecil yang lolos merambat di seberang. Kanan: peluang penerobosan terhadap lebar penghalang untuk elektron, atom H, dan atom D dengan $E = 0{,}2$ eV dan $V_0 = 0{,}5$ eV (skala logaritma).](fig/c_terobos.png){width=92%}
 
 ::: {.contoh}
-**Contoh 3.37 · Elektron melewati penghalang tipis**
+**Contoh 3.41 · Elektron melewati penghalang tipis**
 
 Elektron berenergi 1,0 eV menumbuk penghalang 5,0 eV. Hitung $T$ dengan (3.20) dan (3.21) untuk lebar 0,10; 0,30; 0,50; dan 1,0 nm.
 
-**Penyelesaian.** $\kappa = 1{,}025 \times 10^{10}$ m⁻¹ (Contoh 3.34) dan $16(E/V_0)(1 - E/V_0) = 16(0{,}2)(0{,}8) = 2{,}56$.
+**Penyelesaian.** $\kappa = 1{,}025 \times 10^{10}$ m⁻¹ (Contoh 3.38) dan $16(E/V_0)(1 - E/V_0) = 16(0{,}2)(0{,}8) = 2{,}56$.
 
 | $a$ (nm) | 0,10 | 0,30 | 0,50 | 1,0 |
 |---|---|---|---|---|
@@ -72,7 +72,7 @@ Elektron berenergi 1,0 eV menumbuk penghalang 5,0 eV. Hitung $T$ dengan (3.20) d
 :::
 
 ::: {.contoh}
-**Contoh 3.38 · Massa menentukan segalanya**
+**Contoh 3.42 · Massa menentukan segalanya**
 
 Partikel berenergi 0,10 eV menumbuk penghalang 0,50 eV selebar 0,10 nm. Hitung $T$ untuk elektron, atom H (1,008 u), atom D (2,014 u), dan gugus seberat atom karbon (12 u).
 
@@ -82,7 +82,7 @@ Partikel berenergi 0,10 eV menumbuk penghalang 0,50 eV selebar 0,10 nm. Hitung $
 :::
 
 ::: {.contoh}
-**Contoh 3.39 · Efek isotop karena penerobosan**
+**Contoh 3.43 · Efek isotop karena penerobosan**
 
 Untuk transfer atom hidrogen melalui penghalang $V_0 = 0{,}50$ eV dengan energi 0,20 eV, hitung $T_\text{H}/T_\text{D}$ untuk lebar penghalang 0,030 nm dan 0,050 nm.
 
@@ -92,7 +92,7 @@ Untuk transfer atom hidrogen melalui penghalang $V_0 = 0{,}50$ eV dengan energi 
 :::
 
 ::: {.contoh}
-**Contoh 3.40 · Emisi medan dari jarum tungsten**
+**Contoh 3.44 · Emisi medan dari jarum tungsten**
 
 Medan listrik kuat $F$ di permukaan logam membuat penghalang berbentuk segitiga bagi elektron: $V(x) = \phi - eFx$. Dengan pendekatan WKB, $T \approx \exp\left[-\dfrac{4\sqrt{2m_e}\,\phi^{3/2}}{3\hbar eF}\right]$. Untuk $\phi = 4{,}5$ eV, hitung eksponen dan $T$ untuk $F = 3{,}0 \times 10^9$ V/m dan $5{,}0 \times 10^9$ V/m.
 
@@ -122,7 +122,7 @@ dengan $d$ lebar celah. Karena ketergantungan eksponensial ini sangat tajam, ham
 ![Gambar 3.10 Arus penerobosan STM terhadap jarak ujung–permukaan untuk fungsi kerja 4,5 eV. Arus turun hampir sembilan kali tiap 0,1 nm.](fig/c_stm.png){width=56%}
 
 ::: {.contoh}
-**Contoh 3.41 · Kepekaan STM**
+**Contoh 3.45 · Kepekaan STM**
 
 Fungsi kerja jarum dan permukaan sekitar 4,5 eV. (a) Hitung $\kappa$. (b) Berapa kali arus berubah bila jarak bertambah 0,10 nm? (c) Bila bertambah 0,010 nm?
 
@@ -140,7 +140,7 @@ Fungsi kerja jarum dan permukaan sekitar 4,5 eV. (a) Hitung $\kappa$. (b) Berapa
 Dalam protein dan dalam molekul donor–jembatan–akseptor, elektron berpindah dari donor ke akseptor yang terpisah 1–2 nm tanpa ada ikatan langsung, dengan menerobos melalui "penghalang" berupa jembatan molekul atau pelarut. Laju transfernya meluruh secara eksponensial terhadap jarak, $k_\text{ET} \propto e^{-\beta r}$, dengan $\beta \approx 1{,}0$–$1{,}4$ Å⁻¹ untuk protein. Inilah mekanisme transfer elektron dalam rantai respirasi dan fotosintesis.
 
 ::: {.contoh}
-**Contoh 3.42 · Jarak dalam rantai transfer elektron**
+**Contoh 3.46 · Jarak dalam rantai transfer elektron**
 
 Dengan $\beta = 1{,}1$ Å⁻¹, (a) berapa kali laju transfer elektron berkurang bila jarak donor–akseptor bertambah 1 Å? (b) Bandingkan laju pada jarak 10 Å dan 20 Å.
 
@@ -151,7 +151,7 @@ Dengan $\beta = 1{,}1$ Å⁻¹, (a) berapa kali laju transfer elektron berkurang
 
 ### Transfer proton dan atom hidrogen
 
-Atom hidrogen cukup ringan untuk menerobos penghalang reaksi kimia, terutama bila penghalangnya sempit (Contoh 3.38 dan 3.39). Tanda-tanda penerobosan dalam kinetika adalah: efek isotop H/D yang lebih besar dari sekitar 7 pada suhu kamar; grafik Arrhenius yang melengkung pada suhu rendah, karena laju tidak lagi turun mengikuti $e^{-E_a/RT}$ tetapi mendatar pada nilai penerobosan; dan reaksi yang tetap berlangsung pada suhu yang sangat rendah. Di awan antarbintang pada 10 K, atom H yang menerobos penghalang membangun molekul seperti formaldehida dan metanol di permukaan butir es, reaksi yang secara klasik terlalu lambat untuk terjadi dalam umur alam semesta.
+Atom hidrogen cukup ringan untuk menerobos penghalang reaksi kimia, terutama bila penghalangnya sempit (Contoh 3.42 dan 3.43). Tanda-tanda penerobosan dalam kinetika adalah: efek isotop H/D yang lebih besar dari sekitar 7 pada suhu kamar; grafik Arrhenius yang melengkung pada suhu rendah, karena laju tidak lagi turun mengikuti $e^{-E_a/RT}$ tetapi mendatar pada nilai penerobosan; dan reaksi yang tetap berlangsung pada suhu yang sangat rendah. Di awan antarbintang pada 10 K, atom H yang menerobos penghalang membangun molekul seperti formaldehida dan metanol di permukaan butir es, reaksi yang secara klasik terlalu lambat untuk terjadi dalam umur alam semesta.
 
 ### Inversi amonia
 
@@ -168,7 +168,7 @@ $$
 Untuk keadaan dasar NH₃, $\Delta = 0{,}793$ cm⁻¹, frekuensi $23{,}79$ GHz di daerah gelombang mikro. Molekul yang disiapkan dengan N "di atas" adalah superposisi $\psi_+$ dan $\psi_-$, dan seperti dalam Contoh 3.11, ia berayun bolak-balik antara atas dan bawah dengan periode $h/\Delta$.
 
 ::: {.contoh}
-**Contoh 3.43 · Jam amonia**
+**Contoh 3.47 · Jam amonia**
 
 (a) Hitung frekuensi dan periode inversi NH₃ dari $\Delta = 0{,}7934$ cm⁻¹. (b) Untuk ND₃, $\Delta = 0{,}053$ cm⁻¹. Hitung frekuensinya dan jelaskan perbedaannya. (c) Nyatakan tinggi penghalang 2023 cm⁻¹ dalam kJ/mol.
 
@@ -182,7 +182,7 @@ Untuk keadaan dasar NH₃, $\Delta = 0{,}793$ cm⁻¹, frekuensi $23{,}79$ GHz d
 :::
 
 ::: {.contoh}
-**Contoh 3.44 · Mengapa molekul kiral tidak berubah menjadi bayangannya**
+**Contoh 3.48 · Mengapa molekul kiral tidak berubah menjadi bayangannya**
 
 Molekul kiral seperti alanin, atau amina tersier dengan tiga gugus berbeda, juga mempunyai dua bentuk (enantiomer) yang dipisahkan penghalang. (a) Untuk amina NHDCl atau NRR′R″, penghalang inversinya mirip amonia tetapi massa efektifnya jauh lebih besar. Apa akibatnya? (b) Untuk alanin, mengubah satu enantiomer menjadi yang lain memerlukan pemutusan ikatan C–H atau C–C (penghalang sekitar 400 kJ/mol). Perkirakan secara kualitatif waktu penerobosannya.
 
@@ -194,7 +194,7 @@ Molekul kiral seperti alanin, atau amina tersier dengan tiga gugus berbeda, juga
 :::
 
 ::: {.contoh}
-**Contoh 3.45 · Proton yang menerobos dalam malonaldehida**
+**Contoh 3.49 · Proton yang menerobos dalam malonaldehida**
 
 Dalam malonaldehida, HO–CH=CH–CHO, proton enol dapat berpindah ke oksigen karbonil sehingga molekulnya berubah menjadi bayangan cerminnya sendiri. Spektroskopi gelombang mikro menunjukkan bahwa keadaan dasar terpecah menjadi dua tingkat yang berjarak 21,58 cm⁻¹. (a) Berapa frekuensi dan periode pindahnya proton? (b) Bandingkan dengan inversi amonia.
 
@@ -216,7 +216,7 @@ $$
 Koreksi ini hanya berlaku bila penerobosan kecil ($\kappa_W$ tidak jauh di atas 1); untuk penerobosan yang besar diperlukan perlakuan yang lebih lengkap, misalnya pendekatan WKB di sepanjang jalur reaksi.
 
 ::: {.contoh}
-**Contoh 3.46 · Koreksi Wigner untuk transfer atom H**
+**Contoh 3.50 · Koreksi Wigner untuk transfer atom H**
 
 Keadaan transisi sebuah reaksi abstraksi atom hidrogen mempunyai frekuensi khayal $1500i$ cm⁻¹. Hitung $\kappa_W$ pada 298 K dan 200 K. Ulangi untuk $1000i$ cm⁻¹ pada 298 K.
 

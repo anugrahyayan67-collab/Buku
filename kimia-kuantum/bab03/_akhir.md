@@ -74,7 +74,7 @@ $$
 \langle x\rangle = \frac12\left[\langle 1|x|1\rangle + \langle 2|x|2\rangle + 2\langle 1|x|2\rangle\cos\frac{(E_2 - E_1)t}{\hbar}\right] .
 $$
 
-$\langle 1|x|1\rangle = \langle 2|x|2\rangle = L/2$, dan $\langle 1|x|2\rangle = -16L/9\pi^2$ (Contoh 3.21). Jadi $\langle x\rangle = \tfrac L2 - \tfrac{16L}{9\pi^2}\cos[(E_2 - E_1)t/\hbar]$.
+$\langle 1|x|1\rangle = \langle 2|x|2\rangle = L/2$, dan $\langle 1|x|2\rangle = -16L/9\pi^2$ (Contoh 3.24). Jadi $\langle x\rangle = \tfrac L2 - \tfrac{16L}{9\pi^2}\cos[(E_2 - E_1)t/\hbar]$.
 
 *Cara berpikir:* amplitudo ayunan $16L/9\pi^2 = 0{,}18L$ adalah momen dipol transisi yang sama yang menentukan kekuatan serapan $1 \to 2$. Muatan yang berayun memancarkan atau menyerap dengan frekuensi ayunannya: gambaran semiklasik spektroskopi.
 
@@ -82,7 +82,7 @@ $\langle 1|x|1\rangle = \langle 2|x|2\rangle = L/2$, dan $\langle 1|x|2\rangle =
 
 *Cara berpikir:* energi titik nol sebanding $1/m$, sehingga mengganti H dengan D menurunkan energi titik nol sekitar setengahnya. Selisih 4 kJ/mol sudah sekitar $1{,}6\,RT$ pada suhu kamar: cukup untuk menggeser kesetimbangan isotop dan laju reaksi secara terukur. Model kotak terlalu kasar untuk angka yang tepat, tetapi menunjukkan dari mana efek isotop berasal.
 
-**Soal {{qd}}.** Untuk $R = 2{,}5$ nm: suku kurungan $= (0{,}932\ \text{eV})(2{,}0/2{,}5)^2 = 0{,}596$ eV (karena $\propto 1/R^2$; nilai 0,932 eV untuk $R = 2{,}0$ nm dari Contoh 3.28); suku Coulomb $= (0{,}122)(2{,}0/2{,}5) = 0{,}098$ eV. $E_g = 1{,}74 + 0{,}596 - 0{,}098 = 2{,}24$ eV, $\lambda = 554$ nm. Untuk $R = 4{,}0$ nm: $0{,}233 - 0{,}061$, $E_g = 1{,}91$ eV, $\lambda = 648$ nm.
+**Soal {{qd}}.** Untuk $R = 2{,}5$ nm: suku kurungan $= (0{,}932\ \text{eV})(2{,}0/2{,}5)^2 = 0{,}596$ eV (karena $\propto 1/R^2$; nilai 0,932 eV untuk $R = 2{,}0$ nm dari Contoh 3.31); suku Coulomb $= (0{,}122)(2{,}0/2{,}5) = 0{,}098$ eV. $E_g = 1{,}74 + 0{,}596 - 0{,}098 = 2{,}24$ eV, $\lambda = 554$ nm. Untuk $R = 4{,}0$ nm: $0{,}233 - 0{,}061$, $E_g = 1{,}91$ eV, $\lambda = 648$ nm.
 
 *Cara berpikir:* skala dari hasil yang sudah ada: suku kurungan $\propto R^{-2}$ dan Coulomb $\propto R^{-1}$. Untuk butir besar, celah mendekati nilai padatan 1,74 eV (713 nm); butir 8 nm sudah hampir "padat".
 
@@ -110,7 +110,7 @@ Sumur tak hingga 1,0 nm: $n^2(0{,}376)$ = 0,376; 1,50; 3,38; 6,02; 9,40; 13,5 eV
 
 **Soal {{laju}}.** Dengan (3.20): $\kappa = \sqrt{2(1{,}674 \times 10^{-27})(0{,}30 \times 1{,}602 \times 10^{-19})}/\hbar = 1{,}20 \times 10^{11}$ m⁻¹, $\kappa a = 6{,}0$, sehingga $T = 2{,}3 \times 10^{-5}$. Laju $= (10^{13}\ \text{s}^{-1})(2{,}3 \times 10^{-5}) = 2{,}3 \times 10^8$ s⁻¹; waktu paruh $\ln 2/k = 3{,}0$ ns.
 
-*Cara berpikir:* laju penerobosan = frekuensi tumbukan × peluang tiap tumbukan. Untuk deuterium, $T = 1{,}6 \times 10^{-7}$ dan waktu paruhnya sekitar 0,4 µs: 145 kali lebih lambat (Contoh 3.39). Karena tidak ada faktor $e^{-E_a/RT}$, laju ini hampir tidak berubah ketika suhu diturunkan, berbeda dengan laju reaksi yang melewati penghalang secara termal.
+*Cara berpikir:* laju penerobosan = frekuensi tumbukan × peluang tiap tumbukan. Untuk deuterium, $T = 1{,}6 \times 10^{-7}$ dan waktu paruhnya sekitar 0,4 µs: 145 kali lebih lambat (Contoh 3.43). Karena tidak ada faktor $e^{-E_a/RT}$, laju ini hampir tidak berubah ketika suhu diturunkan, berbeda dengan laju reaksi yang melewati penghalang secara termal.
 
 # Bacaan lanjut
 

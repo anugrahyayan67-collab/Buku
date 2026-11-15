@@ -54,7 +54,7 @@ Persamaan transenden ini tidak mempunyai penyelesaian dalam bentuk tertutup. Ia 
 4. Untuk $z_0 \to \infty$, akar-akar mendekati $z = n\pi/2$, dan energinya mendekati sumur tak hingga dengan $L = 2a$.
 
 ::: {.contoh}
-**Contoh 3.29 · Elektron dalam sumur 5 eV**
+**Contoh 3.32 · Elektron dalam sumur 5 eV**
 
 Elektron berada dalam sumur dengan $V_0 = 5{,}0$ eV dan lebar $2a = 1{,}0$ nm. (a) Hitung $z_0$ dan banyaknya keadaan terikat. (b) Penyelesaian numerik (3.18) memberikan energi 0,272; 1,077; 2,379; dan 4,059 eV. Bandingkan dengan sumur tak hingga 1,0 nm. (c) Hitung panjang penembusan $1/\kappa$ keadaan dasar.
 
@@ -68,11 +68,11 @@ Elektron berada dalam sumur dengan $V_0 = 5{,}0$ eV dan lebar $2a = 1{,}0$ nm. (
 :::
 
 ::: {.contoh}
-**Contoh 3.30 · Sumur dangkal hanya mengikat satu keadaan**
+**Contoh 3.33 · Sumur dangkal hanya mengikat satu keadaan**
 
 (a) Elektron dalam sumur $V_0 = 1{,}0$ eV selebar 0,50 nm. (b) Elektron dalam sumur $V_0 = 0{,}30$ eV selebar 1,0 nm. Hitung $z_0$ masing-masing dan berapa keadaan terikatnya.
 
-**Penyelesaian.** $z_0 \propto a\sqrt{V_0}$. Dari Contoh 3.29 ($a = 0{,}5$ nm, $V_0 = 5$ eV, $z_0 = 5{,}73$): (a) $a = 0{,}25$ nm, $V_0 = 1$ eV: $z_0 = 5{,}73 \times 0{,}5 \times \sqrt{0{,}2} = 1{,}28$. (b) $a = 0{,}5$ nm, $V_0 = 0{,}3$ eV: $z_0 = 5{,}73\sqrt{0{,}06} = 1{,}40$. Keduanya kurang dari $\pi/2 = 1{,}571$, jadi masing-masing hanya **satu** keadaan terikat (genap). Penyelesaian numerik: (a) 0,438 eV, (b) 0,120 eV.
+**Penyelesaian.** $z_0 \propto a\sqrt{V_0}$. Dari Contoh 3.32 ($a = 0{,}5$ nm, $V_0 = 5$ eV, $z_0 = 5{,}73$): (a) $a = 0{,}25$ nm, $V_0 = 1$ eV: $z_0 = 5{,}73 \times 0{,}5 \times \sqrt{0{,}2} = 1{,}28$. (b) $a = 0{,}5$ nm, $V_0 = 0{,}3$ eV: $z_0 = 5{,}73\sqrt{0{,}06} = 1{,}40$. Keduanya kurang dari $\pi/2 = 1{,}571$, jadi masing-masing hanya **satu** keadaan terikat (genap). Penyelesaian numerik: (a) 0,438 eV, (b) 0,120 eV.
 
 **Memahami hasil.** Pada sumur dangkal, satu-satunya keadaan terikat menyimpan sebagian besar peluangnya di luar sumur. Elektron yang terikat lemah semacam ini adalah model untuk anion yang elektron tambahannya terikat lemah dan untuk "elektron terlarut" dalam amonia cair, yang terperangkap dalam rongga pelarut.
 :::
@@ -84,9 +84,9 @@ Dengan menumbuhkan lapisan GaAs setebal beberapa nanometer di antara dua lapisan
 :::
 
 ::: {.contoh}
-**Contoh 3.31 · Keadaan yang paling "bocor"**
+**Contoh 3.34 · Keadaan yang paling "bocor"**
 
-Untuk sumur Contoh 3.29 ($V_0 = 5{,}0$ eV, lebar 1,0 nm), hitung panjang penembusan keadaan keempat ($E = 4{,}059$ eV) dan bandingkan dengan keadaan dasar.
+Untuk sumur Contoh 3.32 ($V_0 = 5{,}0$ eV, lebar 1,0 nm), hitung panjang penembusan keadaan keempat ($E = 4{,}059$ eV) dan bandingkan dengan keadaan dasar.
 
 **Penyelesaian.** $V_0 - E = 0{,}941$ eV, sehingga $\kappa = \sqrt{2m_e(0{,}941\ \text{eV})}/\hbar = 4{,}97 \times 10^9$ m⁻¹ dan $1/\kappa = 0{,}20$ nm, lebih dari dua kali panjang penembusan keadaan dasar (0,090 nm).
 
@@ -115,13 +115,27 @@ print(E[:4] / e)        # [0.2715 1.0762 2.3766 4.0554]
 ```
 
 ::: {.contoh}
-**Contoh 3.32 · Memeriksa metode numerik**
+**Contoh 3.35 · Memeriksa metode numerik**
 
 Bandingkan hasil kode di atas dengan penyelesaian tepat (3.18) untuk sumur 5,0 eV selebar 1,0 nm: 0,2718; 1,0774; 2,3792; 4,0593 eV. Berapa galat relatifnya, dan bagaimana galat itu dapat dikurangi?
 
 **Penyelesaian.** Galat relatif: 0,11%; 0,11%; 0,11%; 0,10%. Galat berasal dari dua sumber: jarak kisi $\Delta x = 2$ pm (galat pendekatan beda hingga sebanding $(\Delta x)^2$) dan tepi sumur yang jatuh di antara titik kisi. Memperkecil $\Delta x$ atau memakai rumus turunan orde lebih tinggi mengurangi galat.
 
 **Memahami hasil.** Dengan sepuluh baris Python kita dapat menyelesaikan persamaan Schrödinger satu dimensi untuk potensial **apa pun**: sumur ganda amonia, potensial Morse, atau potensial rotasi internal. Metode ini adalah versi paling sederhana dari strategi kimia komputasi: ubah persamaan diferensial menjadi masalah nilai eigen matriks, lalu diagonalkan. Metode Numerov yang lebih teliti dibahas di Bab 5.
+:::
+
+::: {.contoh}
+**Contoh 3.36 · Hukum skala sumur terhingga**
+
+(a) Hitung $z_0$ untuk elektron dalam sumur $V_0 = 0{,}50$ eV selebar 1,0 nm. (b) Penyelesaian numerik (3.18) memberi $z = 0{,}992$ (genap) dan $z = 1{,}774$ (ganjil). Hitung kedua energinya. (c) Tanpa menghitung ulang, tentukan energi keadaan terikat sumur $V_0 = 2{,}0$ eV selebar 0,50 nm.
+
+**Penyelesaian.** (a) $z_0 = \sqrt{2m_eV_0}\,(a/2)/\hbar$ dengan setengah lebar $0{,}50$ nm: $z_0 = 1{,}81$. Karena $\pi/2 < z_0 < \pi$, ada dua keadaan terikat.
+
+(b) $E = \hbar^2z^2/[2m_e(a/2)^2]$. Untuk $z = 0{,}992$: $E_1 = 0{,}150$ eV. Untuk $z = 1{,}774$: $E_2 = 0{,}480$ eV, hanya 0,02 eV di bawah tepi sumur. (Bandingkan dengan sumur tak hingga 1,0 nm: 0,376 eV dan 1,50 eV.)
+
+(c) Sumur kedua mempunyai $V_0$ empat kali lebih besar dan lebar setengahnya, sehingga $z_0 \propto a\sqrt{V_0}$ tidak berubah. Akar-akar $z$ pun sama, dan $E \propto z^2/a^2$ menjadi empat kali: 0,60 eV dan 1,92 eV.
+
+**Memahami hasil.** Semua sumur dengan $z_0$ sama "berbentuk sama": jumlah keadaan terikatnya sama dan energinya, bila dinyatakan sebagai pecahan $V_0$, juga sama ($E/V_0 = z^2/z_0^2$; di sini 0,30 dan 0,96). Sumur 0,50 eV memberi tingkat yang jauh di bawah tingkat sumur tak hingga, karena keadaan keduanya menembus sejauh 1,4 nm ke dinding, lebih dari lebar sumur itu sendiri. Hukum skala ini berguna untuk titik kuantum: memperkecil ukuran titik sambil memperdalam sumurnya dapat mempertahankan jumlah tingkat terikat.
 :::
 
 ::: {.kuis}
@@ -164,7 +178,7 @@ Jika $E < V_0$, di kanan $\psi = te^{-\kappa x}$ meluruh. Arus yang diteruskan n
 ![Gambar 3.8 Peluang pantulan dan transmisi pada tangga potensial setinggi $V_0$, terhadap $E/V_0$. Untuk $E < V_0$ semua partikel dipantulkan. Untuk $E > V_0$ fisika klasik meramalkan $R = 0$, tetapi pantulan kuantum tetap terjadi, terutama di dekat $E = V_0$.](fig/c_tangga.png){width=60%}
 
 ::: {.contoh}
-**Contoh 3.33 · Elektron pada tangga**
+**Contoh 3.37 · Elektron pada tangga**
 
 Elektron menumbuk tangga potensial setinggi 2,0 eV. Hitung $R$ dan $T$ untuk energi (a) 5,0 eV, (b) 2,1 eV.
 
@@ -178,7 +192,7 @@ Elektron menumbuk tangga potensial setinggi 2,0 eV. Hitung $R$ dan $T$ untuk ene
 :::
 
 ::: {.contoh}
-**Contoh 3.34 · Panjang penembusan**
+**Contoh 3.38 · Panjang penembusan**
 
 Elektron berenergi 1,0 eV menumbuk tangga 5,0 eV. Hitung panjang penembusan $1/\kappa$. Pada jarak berapa rapat peluangnya turun menjadi 1% nilainya di tepi tangga?
 
@@ -188,7 +202,7 @@ Elektron berenergi 1,0 eV menumbuk tangga 5,0 eV. Hitung panjang penembusan $1/\
 :::
 
 ::: {.contoh}
-**Contoh 3.35 · Memeriksa kekekalan peluang**
+**Contoh 3.39 · Memeriksa kekekalan peluang**
 
 Tunjukkan bahwa (3.19) memenuhi $R + T = 1$, dan bahwa $T = |t|^2$ akan memberikan jawaban yang salah.
 
@@ -208,7 +222,7 @@ $$
 Pada tahun 1921 Carl Ramsauer dan John Townsend menemukan bahwa elektron sekitar 0,7 eV melewati gas argon, kripton, dan xenon hampir tanpa terhambur, sesuatu yang mustahil secara klasik. Atom gas mulia bertindak sebagai sumur tarik bagi elektron yang lewat, dan pada energi tertentu sumur itu "transparan".
 
 ::: {.contoh}
-**Contoh 3.36 · Model efek Ramsauer**
+**Contoh 3.40 · Model efek Ramsauer**
 
 Model atom argon sebagai sumur satu dimensi sedalam 3,5 eV dan selebar 0,30 nm. (a) Pada energi berapa elektron diteruskan sempurna ($n = 1$)? (b) Hitung $T$ pada 0,20 eV dan 2,0 eV.
 

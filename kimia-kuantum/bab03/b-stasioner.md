@@ -104,6 +104,26 @@ Partikel dalam kotak disiapkan dengan fungsi gelombang parabola ternormalisasi $
 **Memahami hasil.** Kedua cara cocok. Energi rata-ratanya hanya 1,3% di atas $E_1$, walaupun fungsi parabola bukan fungsi eigen; dan seperti yang akan dibuktikan oleh teorema variasi (Bab 8), energi rata-rata fungsi uji apa pun **tidak pernah** di bawah energi keadaan dasar yang sebenarnya. Fungsi tebakan yang "hampir benar" memberi energi yang lebih tepat lagi, karena galatnya muncul hanya pada orde kedua.
 :::
 
+::: {.awas}
+**Stasioner tidak berarti diam.** Dalam keadaan stasioner rapat peluangnya tetap, dan untuk keadaan riil seperti $\psi_1$ dalam kotak $\langle p\rangle = 0$. Tetapi $\langle p^2\rangle$ tidak nol: elektron dalam keadaan dasar kotak 1,00 nm mempunyai energi kinetik 0,376 eV, setara dengan laju akar rata-rata kuadrat $\sqrt{2E_1/m_e} = 3{,}6 \times 10^5$ m/s. Yang tetap adalah **peluang**, bukan partikelnya. Gambaran "elektron diam di dalam orbital" sama kelirunya dengan gambaran "elektron mengitari inti pada lintasan".
+:::
+
+::: {.contoh}
+**Contoh 3.15 · Kebangkitan kuantum dalam kotak**
+
+**Gambaran fisis.** Paket gelombang yang dibentuk dari banyak keadaan kotak mula-mula bergerak bolak-balik, lalu buyar karena setiap suku berputar dengan frekuensi berbeda. Apakah bentuk semula dapat kembali?
+
+Tunjukkan bahwa superposisi **sembarang** keadaan partikel dalam kotak kembali tepat ke bentuk awalnya setelah waktu $T_\text{kb} = h/E_1$, lalu hitung $T_\text{kb}$ untuk (a) elektron dalam kotak 1,00 nm dan (b) proton dalam kotak 0,100 nm.
+
+**Penyelesaian.** Karena $E_n = n^2E_1$, persamaan (3.10) menjadi $\Psi(x, t) = \sum_nc_n\psi_n(x)e^{-in^2E_1t/\hbar}$. Pada $t = T_\text{kb} = 2\pi\hbar/E_1 = h/E_1$, setiap faktor fase bernilai $e^{-2\pi in^2} = 1$, karena $n^2$ bilangan bulat. Jadi $\Psi(x, T_\text{kb}) = \Psi(x, 0)$, apa pun koefisien $c_n$-nya.
+
+(a) $E_1 = 0{,}376$ eV, sehingga $T_\text{kb} = (4{,}136 \times 10^{-15}\ \text{eV·s})/(0{,}376\ \text{eV}) = 11{,}0$ fs.
+
+(b) Untuk proton, $E_1 = h^2/8m_pL^2 = 20{,}5$ meV, dan $T_\text{kb} = 202$ fs.
+
+**Memahami hasil.** Kebangkitan ini terjadi karena tingkat energinya berbanding **tepat** dengan bilangan bulat. Periode ayunan dua tingkat (Contoh 3.11) adalah $h/(E_2 - E_1) = T_\text{kb}/3$; periode kebangkitan adalah kelipatan persekutuan semua periode itu. Dalam molekul nyata tingkat-tingkatnya tidak tepat sebanding bilangan bulat, sehingga kebangkitannya hanya sebagian. Kebangkitan paket gelombang getaran dan rotasi molekul memang teramati dalam percobaan laser femtodetik, dan dipakai untuk mengukur tetapan molekul.
+:::
+
 ::: {.kuis}
 **Kuis cepat 3.4**
 
@@ -137,7 +157,7 @@ Untuk $t$ besar, $\sigma \approx \hbar t/(2m\sigma_0) = \Delta v\cdot t$, dengan
 ![Gambar 3.3 Paket gelombang Gauss bebas pada empat saat (dalam satuan $\hbar = m = \sigma_0 = 1$). Pusatnya bergerak dengan kecepatan grup; lebarnya bertambah karena komponen momentum yang berbeda bergerak dengan kecepatan berbeda. Luas di bawah setiap kurva tetap satu.](fig/c_paket.png){width=72%}
 
 ::: {.contoh}
-**Contoh 3.15 · Seberapa cepat paket melebar?**
+**Contoh 3.16 · Seberapa cepat paket melebar?**
 
 Hitung lebar paket Gauss setelah waktu $t$ untuk (a) elektron dengan $\sigma_0 = 0{,}10$ nm setelah 0,1 fs dan 1 fs; (b) molekul N₂ dengan $\sigma_0 = 0{,}10$ nm setelah 1 ps dan 1 ns; (c) butir debu 1 mg dengan $\sigma_0 = 1$ µm setelah satu tahun.
 
@@ -151,7 +171,7 @@ Hitung lebar paket Gauss setelah waktu $t$ untuk (a) elektron dengan $\sigma_0 =
 :::
 
 ::: {.contoh}
-**Contoh 3.16 · Energi partikel bebas tidak terkuantisasi**
+**Contoh 3.17 · Energi partikel bebas tidak terkuantisasi**
 
 Sebuah elektron bebas mempunyai panjang gelombang de Broglie 0,50 nm. (a) Berapa energinya? (b) Bila elektron itu dikurung dalam kotak 1,00 nm, apakah energinya masih boleh sama?
 
@@ -163,13 +183,39 @@ Sebuah elektron bebas mempunyai panjang gelombang de Broglie 0,50 nm. (a) Berapa
 :::
 
 ::: {.contoh}
-**Contoh 3.17 · Energi paket yang bergerak**
+**Contoh 3.18 · Energi paket yang bergerak**
 
 Paket Gauss elektron dengan momentum pusat $\hbar k_0$, $k_0 = 1{,}0 \times 10^{10}$ m⁻¹, dan lebar $\sigma_0 = 0{,}10$ nm. Untuk paket semacam ini $\langle p^2\rangle = (\hbar k_0)^2 + (\Delta p)^2$ dengan $\Delta p = \hbar/2\sigma_0$. Hitung energi kinetik rata-ratanya dan bagian yang berasal dari sebaran momentum.
 
 **Penyelesaian.** $(\hbar k_0)^2/2m_e = 3{,}81$ eV (Contoh 3.4). $(\Delta p)^2/2m_e = (\hbar/2\sigma_0)^2/2m_e = 0{,}95$ eV. Jadi $\langle E\rangle = 4{,}76$ eV, 20% di antaranya dari sebaran momentum.
 
 **Memahami hasil.** Melokalisasi elektron selalu "mahal": energi kinetiknya bertambah sebesar energi titik nol kurungan, $\hbar^2/8m\sigma_0^2$. Elektron yang terkurung dalam ruang 0,1 nm membayar hampir 1 eV hanya karena terkurung. Itulah harga yang dibayar elektron di dekat inti, dan yang membuat atom tidak runtuh (subbab 1.9).
+:::
+
+::: {.contoh}
+**Contoh 3.19 · Waktu lipat dua**
+
+Berapa lama waktu yang diperlukan paket Gauss untuk melebar menjadi dua kali lebar awalnya? Hitung untuk (a) elektron dengan $\sigma_0 = 0{,}10$ nm; (b) molekul N₂ dengan $\sigma_0 = 0{,}10$ nm; (c) butir debu 1 µg dengan $\sigma_0 = 1$ µm.
+
+**Rencana.** Dari (3.12), $\sigma = 2\sigma_0$ bila $\hbar t/2m\sigma_0^2 = \sqrt3$, sehingga $t_2 = 2\sqrt3\,m\sigma_0^2/\hbar$.
+
+**Penyelesaian.** (a) $t_2 = 2\sqrt3\,(9{,}109 \times 10^{-31})(10^{-10})^2/(1{,}0546 \times 10^{-34}) = 3{,}0 \times 10^{-16}$ s $= 0{,}30$ fs.
+
+(b) Massa N₂ $= 28$ u $= 4{,}65 \times 10^{-26}$ kg; $t_2 = 1{,}5 \times 10^{-11}$ s $= 15$ ps.
+
+(c) $t_2 = 2\sqrt3\,(10^{-9})(10^{-6})^2/(1{,}0546 \times 10^{-34}) = 3{,}3 \times 10^{13}$ s, sekitar satu juta tahun.
+
+**Memahami hasil.** Waktu lipat dua sebanding dengan $m\sigma_0^2$. Elektron yang dikurung dalam ukuran atom "lepas" dalam waktu lebih singkat daripada satu periode getaran molekul (sekitar 10 fs); molekul gas membutuhkan waktu ratusan kali selang tumbukannya; benda yang dapat dilihat dengan mikroskop tidak pernah melebar dalam waktu yang berarti. Batas antara dunia "kuantum" dan "klasik" ternyata bukan garis tajam, melainkan soal skala $m\sigma_0^2/\hbar$.
+:::
+
+::: {.contoh}
+**Contoh 3.20 · Elektron dalam tabung vakum**
+
+Elektron berenergi 10 eV, yang dibentuk menjadi paket dengan $\sigma_0 = 1{,}0$ µm, menempuh jarak 1,0 cm dalam vakum. Berapa lama perjalanannya, dan berapa lebar paketnya ketika tiba?
+
+**Penyelesaian.** Kecepatan grup $v = \sqrt{2E/m_e} = 1{,}88 \times 10^6$ m/s, sehingga $t = 0{,}010/v = 5{,}33$ ns. Faktor dalam (3.12): $\hbar t/2m_e\sigma_0^2 = 0{,}309$. Lebar akhirnya $\sigma = (1{,}0\ \text{µm})\sqrt{1 + 0{,}309^2} = 1{,}05$ µm.
+
+**Memahami hasil.** Paket selebar 1 µm hampir tidak melebar selama perjalanan, sedangkan paket selebar 0,1 nm (Contoh 3.19) melebar dua kali lipat dalam 0,3 fs. Perbedaannya berasal dari faktor $\sigma_0^2$: lebar awal $10^4$ kali lebih besar berarti pelebaran $10^8$ kali lebih lambat. Karena itu berkas elektron dalam mikroskop elektron dan tabung sinar katode dapat diperlakukan sebagai partikel yang bergerak pada lintasan, sementara elektron di dalam molekul tidak.
 :::
 
 ::: {.kuis}

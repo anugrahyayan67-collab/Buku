@@ -98,7 +98,7 @@
 
 *Cara berpikir:* setiap pengukuran operator yang tidak komut dengan sebelumnya "mengocok ulang" peluang. Jika pengukuran $\sigma_z$ di tengah dihilangkan, dua pengukuran $\sigma_x$ berurutan pasti memberi hasil sama, dan peluangnya ½. Menyisipkan pengukuran mengubah statistik: inti percobaan Stern–Gerlach berurutan (Bab 9).
 
-**Soal {{matriks}}.** Unsur $\langle m|x|n\rangle$ dari rumus Contoh 3.21 dengan diagonal $1/2$; matriks 4 × 4 yang dihasilkan didiagonalkan dengan `numpy.linalg.eigvalsh`: 0,185; 0,395; 0,605; 0,815 (dalam $L$). Basis tiga fungsi memberi 0,235; 0,500; 0,765.
+**Soal {{matriks}}.** Unsur $\langle m|x|n\rangle$ dari rumus Contoh 3.24 dengan diagonal $1/2$; matriks 4 × 4 yang dihasilkan didiagonalkan dengan `numpy.linalg.eigvalsh`: 0,185; 0,395; 0,605; 0,815 (dalam $L$). Basis tiga fungsi memberi 0,235; 0,500; 0,765.
 
 *Cara berpikir:* nilai eigen makin rapat dan makin mendekati tepi kotak ketika basis membesar, menuju spektrum malar $[0, L]$ operator posisi yang sesungguhnya. Pola nilai eigen yang simetris terhadap $L/2$ berasal dari paritas.
 

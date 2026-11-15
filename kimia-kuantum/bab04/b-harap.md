@@ -170,7 +170,7 @@ dengan $n$ kerapatan elektron. Untuk natrium, $n = 2{,}65 \times 10^{28}$ m⁻³
 
 ### Dari kotak tiga dimensi ke entropi gas
 
-Kotak tiga dimensi bukan sekadar latihan: ia adalah model kuantum untuk gerak translasi molekul gas, dan dari tingkat-tingkat energinya termodinamika statistik menghitung sifat makroskopik. Besaran kuncinya adalah **fungsi partisi translasi**, jumlah faktor Boltzmann atas semua keadaan. Karena tingkat-tingkatnya sangat rapat (Contoh 3.19), jumlah itu dapat diganti integral, dan hasilnya sederhana:
+Kotak tiga dimensi bukan sekadar latihan: ia adalah model kuantum untuk gerak translasi molekul gas, dan dari tingkat-tingkat energinya termodinamika statistik menghitung sifat makroskopik. Besaran kuncinya adalah **fungsi partisi translasi**, jumlah faktor Boltzmann atas semua keadaan. Karena tingkat-tingkatnya sangat rapat (Contoh 3.22), jumlah itu dapat diganti integral, dan hasilnya sederhana:
 
 $$
 q_\text{trans} = \sum_{n_x, n_y, n_z}e^{-E_{n_xn_yn_z}/kT} = \frac{V}{\Lambda^3}, \qquad \Lambda = \frac{h}{\sqrt{2\pi mkT}} ,

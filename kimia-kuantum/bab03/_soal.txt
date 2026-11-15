@@ -66,6 +66,9 @@ Manakah fungsi eigen $d^2/dx^2$: $\sin 2x$, $e^{-3x}$, $x^3$, $\cosh x$? Berapa 
 Elektron dalam kotak 1,00 nm dalam superposisi $\psi_1$ dan $\psi_3$. Berapa periode ayunan rapat peluangnya? Apakah pusat peluangnya bergeser kiri-kanan? ||| 1,37 fs; tidak (keduanya genap terhadap tengah)
 Keadaan $\Psi = \tfrac{1}{\sqrt3}\psi_1 + \sqrt{\tfrac23}\,e^{i\pi/4}\psi_2$. Hitung peluang setiap hasil pengukuran energi dan $\langle E\rangle$ dalam $E_1$. ||| 1/3 dan 2/3; 3
 
+Berapa waktu kebangkitan kuantum $T_\text{kb} = h/E_1$ untuk elektron dalam kotak 2,0 nm? ||| 44,0 fs (sebanding $L^2$)
+Hitung $E_1$ dan waktu kebangkitan untuk proton dalam kotak 0,100 nm. Mengapa jauh lebih lama daripada elektron dalam kotak 1,00 nm? ||| 20,5 meV; 202 fs; $T_\text{kb} = 8mL^2/h$ sebanding massa
+
 **Tantangan ★**
 
 @xt [P] ★ Untuk $\Psi = \tfrac{1}{\sqrt2}(\psi_1e^{-iE_1t/\hbar} + \psi_2e^{-iE_2t/\hbar})$ dalam kotak $[0, L]$, tunjukkan bahwa $\langle x\rangle(t) = \tfrac L2 - \tfrac{16L}{9\pi^2}\cos\left[(E_2 - E_1)t/\hbar\right]$. ||| suku silang $\langle 1|x|2\rangle = -16L/9\pi^2$
@@ -82,6 +85,9 @@ Paket elektron selebar 1,0 nm. Hitung lebarnya setelah 1 fs dan 100 fs. ||| 1,00
 Hitung ketidakpastian kecepatan awal $\Delta v = \hbar/2m\sigma_0$ untuk elektron dengan $\sigma_0 = 1{,}0$ nm dan proton dengan $\sigma_0 = 0{,}10$ nm. ||| $5{,}8 \times 10^4$ m/s; 315 m/s
 Proton dengan $\sigma_0 = 0{,}10$ nm: berapa lebar paketnya setelah 1,0 ps? ||| 0,33 nm
 Pada waktu berapa lebar paket menjadi $\sqrt2\,\sigma_0$? Hitung untuk elektron dengan $\sigma_0 = 0{,}10$ nm. ||| $t = 2m\sigma_0^2/\hbar = 0{,}17$ fs
+
+Berapa waktu lipat dua paket Gauss atom He dengan $\sigma_0 = 0{,}050$ nm? ||| 0,55 ps
+Elektron 100 eV dengan $\sigma_0 = 0{,}50$ µm menempuh 1,0 m dalam kolom mikroskop elektron. Berapa waktu tempuh dan lebar akhir paketnya? ||| 169 ns; 19,5 µm
 
 **Tantangan ★**
 
@@ -133,14 +139,14 @@ Tunjukkan bahwa $\langle p\rangle = 0$ untuk setiap fungsi gelombang riil yang n
 **Dasar**
 
 Dengan $L = N \times 140$ pm, ramalkan $\lambda_\text{maks}$ oktatetraena ($N = 8$) dan dekapentaena ($N = 10$). Nilai teramati 290 dan 334 nm. ||| 460 nm; 587 nm (makin melenceng)
-Ramalkan $\lambda$ sianin dengan $k = 6$ dan $k = 7$ (rumus Contoh 3.27). ||| 959 nm; 1086 nm
+Ramalkan $\lambda$ sianin dengan $k = 6$ dan $k = 7$ (rumus Contoh 3.30). ||| 959 nm; 1086 nm
 Mengapa etilena tidak berwarna menurut model elektron bebas? ||| kotak pendek, celah HOMO–LUMO besar; serapan di UV
 
 **Menengah**
 
 Dari serapan teramati 734 nm untuk sianin $k = 5$ ($N = 14$), hitung panjang kotak efektif. ||| 1,83 nm
 β-Karotena (22 elektron π) menyerap pada 451 nm. Berapa panjang kotak yang diperlukan agar model elektron bebas memberi nilai ini? Bandingkan dengan panjang rantai nyata (~3 nm). ||| 1,77 nm; jauh lebih pendek, tanda kegagalan model
-@qd [P] Dengan model Brus Contoh 3.28, hitung panjang gelombang pancaran titik kuantum CdSe berjari-jari 2,5 nm dan 4,0 nm. ||| 554 nm; 648 nm
+@qd [P] Dengan model Brus Contoh 3.31, hitung panjang gelombang pancaran titik kuantum CdSe berjari-jari 2,5 nm dan 4,0 nm. ||| 554 nm; 648 nm
 Dalam model elektron bebas, berapa kali energi transisi HOMO → LUMO berubah jika $N$ dan $L$ sama-sama dilipatduakan? ||| kira-kira setengahnya
 
 **Tantangan ★**
@@ -160,6 +166,9 @@ Berapa $z_0$ dan banyaknya keadaan terikat untuk elektron dalam sumur 2,0 eV sel
 Neutron dalam inti dimodelkan sebagai sumur satu dimensi $V_0 = 50$ MeV selebar 4 fm. Hitung $z_0$ dan banyaknya keadaan terikat. ||| 3,11; 2
 Untuk sumur selebar 1,0 nm, berapa kedalaman minimum agar elektron mempunyai keadaan terikat kedua? ||| 0,376 eV ($z_0 = \pi/2$)
 Mengapa energi keadaan terikat sumur terhingga selalu lebih rendah daripada sumur tak hingga dengan lebar yang sama? ||| penembusan memperpanjang panjang gelombang efektif
+
+Sumur 0,50 eV selebar 2,0 nm: berapa $z_0$ dan banyaknya keadaan terikat elektron? ||| 3,62; 3 keadaan
+Lebar sebuah sumur dilipatduakan dan kedalamannya dibagi empat. Apa yang terjadi pada $z_0$, banyaknya keadaan terikat, dan energi tingkat-tingkatnya? ||| $z_0$ dan banyaknya keadaan tetap; semua energi menjadi seperempatnya
 
 **Tantangan ★**
 

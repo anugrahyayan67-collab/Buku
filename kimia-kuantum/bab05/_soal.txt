@@ -198,7 +198,7 @@ Efek isotop ¹⁶O/¹⁸O pada pemutusan ikatan C–O (1050 cm⁻¹, $\mu$ diato
 
 **Tantangan ★**
 
-★ Mengapa efek isotop kinetik dapat jauh lebih besar daripada nilai (5.31) pada suhu rendah, dan mengapa efek ini disebut "sidik jari" penerobosan? ||| penerobosan sangat peka massa; lihat Contoh 3.39
+★ Mengapa efek isotop kinetik dapat jauh lebih besar daripada nilai (5.31) pada suhu rendah, dan mengapa efek ini disebut "sidik jari" penerobosan? ||| penerobosan sangat peka massa; lihat Contoh 3.43
 
 ## Subbab 5.11: Mode normal molekul poliatom
 

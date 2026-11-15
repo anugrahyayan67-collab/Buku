@@ -28,7 +28,7 @@ $$
 \frac{k_H}{k_D} \approx \exp\left[\frac{\tfrac12hc(\tilde\nu_\text{CH} - \tilde\nu_\text{CD})}{kT}\right] . \qquad \text{(5.31)}
 $$
 
-Nilai klasik maksimum sekitar 7 pada suhu kamar ini disebut **efek isotop kinetik primer**. Pengukurannya adalah alat utama ahli kimia organik dan biokimia untuk mengetahui apakah ikatan C–H diputus pada langkah penentu laju. Nilai yang jauh lebih besar daripada 7 (sampai 50 atau lebih pada beberapa enzim) menandakan **penerobosan** hidrogen melalui penghalang (Contoh 3.39).
+Nilai klasik maksimum sekitar 7 pada suhu kamar ini disebut **efek isotop kinetik primer**. Pengukurannya adalah alat utama ahli kimia organik dan biokimia untuk mengetahui apakah ikatan C–H diputus pada langkah penentu laju. Nilai yang jauh lebih besar daripada 7 (sampai 50 atau lebih pada beberapa enzim) menandakan **penerobosan** hidrogen melalui penghalang (Contoh 3.43).
 
 ::: {.contoh}
 **Contoh 5.40 · Ramalan spektrum D₂ dan HD**

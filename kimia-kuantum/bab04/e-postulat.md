@@ -129,7 +129,7 @@ Dalam praktik, basis yang lengkap tak hingga, sehingga matriksnya dipotong. Hasi
 ::: {.contoh}
 **Contoh 4.51 · Matriks posisi dalam basis kotak**
 
-Tuliskan matriks $\hat x$ (dalam satuan $L$) dalam basis tiga fungsi kotak terendah $\{|1\rangle, |2\rangle, |3\rangle\}$, dengan $\langle n|x|n\rangle = 1/2$ dan rumus $\langle m|x|n\rangle$ dari Contoh 3.21. Diagonalkan matriks itu.
+Tuliskan matriks $\hat x$ (dalam satuan $L$) dalam basis tiga fungsi kotak terendah $\{|1\rangle, |2\rangle, |3\rangle\}$, dengan $\langle n|x|n\rangle = 1/2$ dan rumus $\langle m|x|n\rangle$ dari Contoh 3.24. Diagonalkan matriks itu.
 
 **Penyelesaian.**
 
