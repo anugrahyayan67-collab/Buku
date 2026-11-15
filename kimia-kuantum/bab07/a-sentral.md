@@ -70,7 +70,7 @@ Bentuk ini bebas dari tetapan, sehingga strukturnya terlihat jelas. Mulai bab in
 
 ### Mengapa masalah ini dapat diselesaikan
 
-Potensial (7.1) bersifat **sentral**: ia hanya bergantung pada $r$. Menurut subbab 6.2, $\hat L^2$ dan $\hat L_z$ komut dengan Hamiltonian (Contoh 6.7), sehingga ada fungsi eigen bersama ketiganya. Bagian sudutnya sudah diketahui: harmonik bola. Yang tersisa hanya persamaan diferensial biasa satu variabel, persamaan radial. Untuk potensial sentral apa pun, langkah ini berlaku; kekhususan potensial Coulomb baru muncul pada penyelesaian persamaan radialnya.
+Potensial (7.1) bersifat **sentral**: ia hanya bergantung pada $r$. Menurut subbab 6.2, $\hat L^2$ dan $\hat L_z$ komut dengan Hamiltonian (Contoh 6.8), sehingga ada fungsi eigen bersama ketiganya. Bagian sudutnya sudah diketahui: harmonik bola. Yang tersisa hanya persamaan diferensial biasa satu variabel, persamaan radial. Untuk potensial sentral apa pun, langkah ini berlaku; kekhususan potensial Coulomb baru muncul pada penyelesaian persamaan radialnya.
 
 ::: {.contoh}
 **Contoh 7.1 · Skala energi dan panjang atom**

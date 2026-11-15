@@ -39,7 +39,7 @@ Setelah mempelajari bab ini, kamu mampu:
 ::: {.mat}
 **Prasyarat**
 
-Dari Bab 1: skala energi dan populasi tingkat NMR (Contoh 1.53). Dari Bab 4: komutator, notasi Dirac, dan evolusi sistem dua keadaan (Contoh 4.44). Dari Bab 6: momen magnet orbital (subbab 6.1), kuantisasi ruang (6.6), operator tangga dan unsur matriksnya (6.7), arus cincin benzena (6.3), sudut ajaib (Contoh 6.17). Dari Bab 7: efek Zeeman (7.12) dan rapat peluang di inti (7.5). Dari Bab 8: teori perturbasi (subbab 8.6–8.7) dan aturan emas Fermi (8.12). Dari Bab 9: spin elektron dan matriks Pauli (subbab 9.1–9.2). Dari Bab 15: koefisien Einstein dan lebar garis (subbab 15.1 dan 15.3).
+Dari Bab 1: skala energi dan populasi tingkat NMR (Contoh 1.53). Dari Bab 4: komutator, notasi Dirac, dan evolusi sistem dua keadaan (Contoh 4.44). Dari Bab 6: momen magnet orbital (subbab 6.1), kuantisasi ruang (6.6), operator tangga dan unsur matriksnya (6.7), arus cincin benzena (6.3), sudut ajaib (Contoh 6.18). Dari Bab 7: efek Zeeman (7.12) dan rapat peluang di inti (7.5). Dari Bab 8: teori perturbasi (subbab 8.6–8.7) dan aturan emas Fermi (8.12). Dari Bab 9: spin elektron dan matriks Pauli (subbab 9.1–9.2). Dari Bab 15: koefisien Einstein dan lebar garis (subbab 15.1 dan 15.3).
 :::
 
 ## 16.1 Momen magnet spin inti

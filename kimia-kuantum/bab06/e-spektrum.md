@@ -38,7 +38,7 @@ Ketika molekul homonuklir berputar 180°, kedua inti bertukar tempat. Menurut as
 Pada suhu tinggi, perbandingan orto : para mendekati 3 : 1. Karena perubahan spin inti sangat lambat tanpa katalis, kedua bentuk berperilaku hampir sebagai dua zat berbeda, dengan kapasitas kalor dan konduktivitas termal yang berbeda. Untuk ¹⁶O₂ (inti spin nol, keadaan elektronik dasar yang antisimetris), hanya tingkat $J$ ganjil yang ada; untuk ¹²C¹⁶O₂ (inti O spin nol), hanya $J$ genap. Dalam spektrum Raman rotasinya, setengah garis yang "seharusnya" ada hilang sama sekali.
 
 ::: {.contoh}
-**Contoh 6.40 · Tingkat terpadat**
+**Contoh 6.45 · Tingkat terpadat**
 
 Hitung $J_\text{maks}$ pada 298 K untuk HCl ($B = 10{,}44$ cm⁻¹), CO (1,9225 cm⁻¹), dan I₂ (0,0374 cm⁻¹), serta fraksi molekul HCl dan CO pada tingkat itu.
 
@@ -48,7 +48,7 @@ Hitung $J_\text{maks}$ pada 298 K untuk HCl ($B = 10{,}44$ cm⁻¹), CO (1,9225 
 :::
 
 ::: {.contoh}
-**Contoh 6.41 · Fungsi partisi rotasi**
+**Contoh 6.46 · Fungsi partisi rotasi**
 
 Hitung $q_\text{rot}$ pada 298 K untuk CO, HCl, dan N₂ dengan (6.33) dan koreksi $+\tfrac13$, dan bandingkan untuk CO dengan penjumlahan langsung (hasilnya 108,12).
 
@@ -58,7 +58,7 @@ Hitung $q_\text{rot}$ pada 298 K untuk CO, HCl, dan N₂ dengan (6.33) dan korek
 :::
 
 ::: {.contoh}
-**Contoh 6.42 · Termometer antarbintang**
+**Contoh 6.47 · Termometer antarbintang**
 
 Di sebuah awan molekul, perbandingan populasi CO pada $J = 2$ dan $J = 1$, yang ditentukan dari intensitas garis $2 \to 1$ dan $1 \to 0$, adalah 1,20. Berapa suhu rotasi gas?
 
@@ -68,7 +68,7 @@ Di sebuah awan molekul, perbandingan populasi CO pada $J = 2$ dan $J = 1$, yang 
 :::
 
 ::: {.contoh}
-**Contoh 6.43 · Orto- dan para-hidrogen**
+**Contoh 6.48 · Orto- dan para-hidrogen**
 
 Hitung fraksi para-H₂ pada kesetimbangan pada 20 K, 77 K, dan 298 K ($B = 60{,}85$ cm⁻¹). Mengapa hidrogen cair harus dikonversi ke bentuk para sebelum disimpan?
 
@@ -78,13 +78,27 @@ Hitung fraksi para-H₂ pada kesetimbangan pada 20 K, 77 K, dan 298 K ($B = 60{,
 :::
 
 ::: {.contoh}
-**Contoh 6.44 · Entropi rotasi CO**
+**Contoh 6.49 · Entropi rotasi CO**
 
 Entropi rotasi molar gas diatom adalah $S_\text{rot} = R(\ln q_\text{rot} + 1)$ bila $kT \gg hcB$. Hitung untuk CO pada 298 K ($q_\text{rot} = 108{,}1$), dan sumbangan bilangan simetri untuk N₂.
 
 **Penyelesaian.** $S_\text{rot} = 8{,}314(\ln108{,}1 + 1) = 8{,}314(4{,}683 + 1) = 47{,}3$ J K⁻¹ mol⁻¹. Untuk N₂, $q_\text{rot}$ dibagi $\sigma = 2$, sehingga entropinya berkurang $R\ln2 = 5{,}76$ J K⁻¹ mol⁻¹.
 
 **Memahami hasil.** Entropi standar CO (197,7 J K⁻¹ mol⁻¹) terdiri atas translasi (150,4), rotasi (47,3), dan getaran (hampir nol). CO dan N₂ mempunyai massa dan $B$ hampir sama, tetapi entropi standar N₂ (191,6) lebih kecil sekitar $R\ln2$: bukti termodinamika bahwa kedua atom N tidak dapat dibedakan.
+:::
+
+::: {.contoh}
+**Contoh 6.50 · Garis rotasi terkuat pada suhu kamar**
+
+Tingkat rotasi yang paling banyak terisi adalah $J_\text{maks} \approx \sqrt{k_BT/2hc\tilde B} - \tfrac12$. Hitung $J_\text{maks}$ dan fungsi partisi rotasi $q \approx k_BT/hc\tilde B$ pada 298 K untuk HCl ($\tilde B = 10{,}59$ cm⁻¹) dan CO ($\tilde B = 1{,}92$ cm⁻¹).
+
+**Penyelesaian.** Pada 298 K, $k_BT/hc = 207{,}1$ cm⁻¹.
+
+HCl: $J_\text{maks} = \sqrt{207{,}1/21{,}19} - 0{,}5 = 2{,}6$, jadi $J = 3$ (atau 2); $q = 19{,}6$.
+
+CO: $J_\text{maks} = \sqrt{207{,}1/3{,}85} - 0{,}5 = 6{,}8$, jadi $J = 7$; $q = 108$.
+
+**Memahami hasil.** Molekul ringan dengan $\tilde B$ besar hanya mengisi beberapa tingkat rotasi; molekul berat mengisi puluhan. Fungsi partisi rotasi ini masuk langsung ke entropi dan tetapan kesetimbangan gas: kontribusi rotasi pada entropi molar CO pada 298 K adalah $R(\ln q + 1) \approx 47$ J K⁻¹ mol⁻¹, sekitar seperempat dari entropi standarnya.
 :::
 
 ::: {.kuis}
@@ -140,7 +154,7 @@ $$
 Metode **selisih kombinasi** ini dipakai luas dalam spektroskopi untuk menentukan tetapan tiap tingkat secara terpisah.
 
 ::: {.contoh}
-**Contoh 6.45 · Distorsi sentrifugal HCl dan CO**
+**Contoh 6.51 · Distorsi sentrifugal HCl dan CO**
 
 Hitung $D$ dengan (6.35) untuk HCl ($B_e = 10{,}593$, $\omega_e = 2990{,}9$ cm⁻¹) dan CO ($B_e = 1{,}9313$, $\omega_e = 2169{,}8$ cm⁻¹). Berapa pergeseran garis $J = 20 \leftarrow 19$ HCl dan $J = 30 \leftarrow 29$ CO?
 
@@ -150,7 +164,7 @@ Hitung $D$ dengan (6.35) untuk HCl ($B_e = 10{,}593$, $\omega_e = 2990{,}9$ cm�
 :::
 
 ::: {.contoh}
-**Contoh 6.46 · Selisih kombinasi HCl**
+**Contoh 6.52 · Selisih kombinasi HCl**
 
 Garis-garis pita dasar HCl (Contoh 5.23): $R(0) = 2906{,}26$, $R(1) = 2925{,}94$, $P(1) = 2865{,}10$, $P(2) = 2843{,}62$ cm⁻¹. Tentukan $B_0$, $B_1$, $\alpha_e$, $B_e$, dan $r_e$.
 
@@ -160,7 +174,7 @@ Garis-garis pita dasar HCl (Contoh 5.23): $R(0) = 2906{,}26$, $R(1) = 2925{,}94$
 :::
 
 ::: {.contoh}
-**Contoh 6.47 · Kepala pita**
+**Contoh 6.53 · Kepala pita**
 
 Dengan $B_0 = 10{,}44$ dan $B_1 = 10{,}14$ cm⁻¹, cabang R HCl mempunyai suku $(B_1 - B_0)J^2$ yang negatif. Pada $J$ berapa garis-garis cabang R berhenti bergerak ke bilangan gelombang lebih tinggi dan berbalik?
 
@@ -170,13 +184,23 @@ Dengan $B_0 = 10{,}44$ dan $B_1 = 10{,}14$ cm⁻¹, cabang R HCl mempunyai suku 
 :::
 
 ::: {.contoh}
-**Contoh 6.48 · $r_0$ dan $r_e$ untuk CO**
+**Contoh 6.54 · $r_0$ dan $r_e$ untuk CO**
 
-Untuk CO, $B_e = 1{,}931\,28$ cm⁻¹ dan $\alpha_e = 0{,}017\,50$ cm⁻¹. Hitung $B_0$ dan bandingkan $r_e$ dengan $r_0$ dari Contoh 6.35.
+Untuk CO, $B_e = 1{,}931\,28$ cm⁻¹ dan $\alpha_e = 0{,}017\,50$ cm⁻¹. Hitung $B_0$ dan bandingkan $r_e$ dengan $r_0$ dari Contoh 6.39.
 
 **Penyelesaian.** $B_0 = B_e - \tfrac12\alpha_e = 1{,}922\,53$ cm⁻¹, sesuai dengan nilai dari garis gelombang mikro (1,922 52). $r_e = r_0\sqrt{B_0/B_e} = 113{,}09\sqrt{1{,}92253/1{,}93128} = 112{,}83$ pm.
 
 **Memahami hasil.** Selisih $r_0 - r_e = 0{,}26$ pm (0,2%) adalah efek getaran titik nol. Ketika kita membandingkan panjang ikatan hasil perhitungan kuantum (yang memberi $r_e$, di dasar kurva potensial) dengan percobaan, yang harus dipakai adalah $r_e$; perbandingan dengan $r_0$ bisa meleset beberapa per seribu, cukup untuk menyesatkan perbandingan metode yang teliti (Bab 17).
+:::
+
+::: {.contoh}
+**Contoh 6.55 · Seberapa besar distorsi sentrifugal?**
+
+Konstanta distorsi sentrifugal molekul diatom dapat ditaksir dari $\tilde D \approx 4\tilde B^3/\tilde\nu^2$. Untuk HCl, $\tilde B = 10{,}593$ cm⁻¹ dan $\tilde\nu = 2991$ cm⁻¹. Hitung $\tilde D$ dan bandingkan suku distorsi $\tilde DJ^2(J + 1)^2$ dengan $\tilde BJ(J + 1)$ untuk $J = 10$.
+
+**Penyelesaian.** $\tilde D = 4(10{,}593)^3/(2991)^2 = 5{,}3 \times 10^{-4}$ cm⁻¹ (nilai terukur $5{,}3 \times 10^{-4}$ cm⁻¹). Untuk $J = 10$: $\tilde BJ(J + 1) = 1165$ cm⁻¹ dan $\tilde DJ^2(J + 1)^2 = 6{,}4$ cm⁻¹, perbandingannya 0,55%.
+
+**Memahami hasil.** Koreksinya kecil, tetapi jauh lebih besar daripada ketelitian spektroskopi gelombang mikro (sepersejuta). Rumus taksiran ini menunjukkan hubungan yang menarik: dari spektrum rotasi saja ($\tilde B$ dan $\tilde D$) kita dapat menghitung frekuensi getaran, yaitu kekakuan ikatan, tanpa mengukur spektrum inframerah.
 :::
 
 ::: {.kuis}

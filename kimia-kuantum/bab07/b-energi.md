@@ -31,7 +31,7 @@ Dengan $R_H = 109\,677{,}6$ cm⁻¹ ($= R_\infty\mu/m_e$), hitung panjang gelomb
 
 **Penyelesaian.** $1/\lambda = R_H(1/n_1^2 - 1/n_2^2)$. Lyman-α: $1/[R_H(3/4)] = 121{,}57$ nm. Lyman-β: 102,57 nm. H$_\alpha$: $1/[R_H(5/36)] = 656{,}47$ nm. H$_\beta$: 486,27 nm. Paschen-α: 1875,6 nm.
 
-**Memahami hasil.** Garis-garis Balmer (Gambar 7.4) yang tampak dalam foto nebula diukur di udara, yang indeks biasnya membuat panjang gelombang sedikit lebih pendek: H$_\alpha$ = 656,28 nm di udara. Perbedaan 0,19 nm ini sebesar pergeseran isotop deuterium (Contoh 6.27): spektroskopis harus selalu menyebut apakah panjang gelombangnya vakum atau udara.
+**Memahami hasil.** Garis-garis Balmer (Gambar 7.4) yang tampak dalam foto nebula diukur di udara, yang indeks biasnya membuat panjang gelombang sedikit lebih pendek: H$_\alpha$ = 656,28 nm di udara. Perbedaan 0,19 nm ini sebesar pergeseran isotop deuterium (Contoh 6.29): spektroskopis harus selalu menyebut apakah panjang gelombangnya vakum atau udara.
 :::
 
 ::: {.contoh}

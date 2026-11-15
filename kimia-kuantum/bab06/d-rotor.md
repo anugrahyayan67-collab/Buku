@@ -32,7 +32,7 @@ $B$ adalah **tetapan rotasi**. Bila $I$ dalam kg m² dan $c$ dalam cm/s, $B$ dal
 Untuk semua molekul kecuali H₂, $\theta_\text{rot}$ jauh di bawah suhu kamar: banyak tingkat rotasi terisi dan rotasi hampir "klasik" secara termodinamika (berbeda dengan getaran, subbab 5.4). Urutan skala energi dalam molekul adalah elektronik (puluhan ribu cm⁻¹) ≫ getaran (ribuan) ≫ rotasi (puluhan sampai sepersepuluh cm⁻¹). Pemisahan skala inilah yang membenarkan perlakuan terpisah ketiga gerak.
 
 ::: {.contoh}
-**Contoh 6.30 · Tetapan rotasi HCl**
+**Contoh 6.33 · Tetapan rotasi HCl**
 
 Dari $r_e = 127{,}46$ pm dan $\mu = 0{,}97959$ u, hitung $I$, $B$ (dalam cm⁻¹ dan GHz), dan empat tingkat rotasi terendah.
 
@@ -42,7 +42,7 @@ Dari $r_e = 127{,}46$ pm dan $\mu = 0{,}97959$ u, hitung $I$, $B$ (dalam cm⁻¹
 :::
 
 ::: {.contoh}
-**Contoh 6.31 · Efek isotop pada rotasi**
+**Contoh 6.34 · Efek isotop pada rotasi**
 
 Ramalkan $B$ untuk DCl dan H³⁷Cl dari $B(\text{H}^{35}\text{Cl}) = 10{,}593$ cm⁻¹. Bandingkan efek isotop pada rotasi dan getaran.
 
@@ -52,7 +52,7 @@ Ramalkan $B$ untuk DCl dan H³⁷Cl dari $B(\text{H}^{35}\text{Cl}) = 10{,}593$ 
 :::
 
 ::: {.contoh}
-**Contoh 6.32 · Frekuensi transisi dan frekuensi putaran klasik**
+**Contoh 6.35 · Frekuensi transisi dan frekuensi putaran klasik**
 
 Untuk CO ($B = 1{,}9225$ cm⁻¹), bandingkan frekuensi transisi $J = 7 \to 8$ dengan frekuensi putaran klasik molekul yang momentum sudutnya $\sqrt{J(J+1)}\hbar$ untuk $J = 7$ dan $J = 8$.
 
@@ -72,7 +72,7 @@ $$
 dengan $A$ dan $B$ tetapan rotasi untuk sumbu simetri dan sumbu tegak lurusnya. Aturan seleksinya $\Delta J = \pm1$, $\Delta K = 0$, sehingga garis-garis gelombang mikro tetap di $2B(J + 1)$, hanya sedikit terpecah menurut $K$ oleh distorsi sentrifugal. Rotor bola (CH₄, SF₆) tidak berdipol. Rotor asimetris (H₂O, sebagian besar molekul organik) tidak mempunyai rumus tertutup; tingkatnya diperoleh dengan mendiagonalkan matriks Hamiltonian rotasi dalam basis rotor simetris.
 
 ::: {.contoh}
-**Contoh 6.33 · Rotor simetris CH₃F**
+**Contoh 6.36 · Rotor simetris CH₃F**
 
 Garis $J = 1 \leftarrow 0$ CH₃F terukur di 51,072 GHz. Tentukan $B$ (dalam MHz dan cm⁻¹) dan momen inersia tegak lurus sumbu C–F. Berapa garis $J = 2 \leftarrow 1$?
 
@@ -82,13 +82,29 @@ Garis $J = 1 \leftarrow 0$ CH₃F terukur di 51,072 GHz. Tentukan $B$ (dalam MHz
 :::
 
 ::: {.contoh}
-**Contoh 6.34 · Berapa tingkat rotasi di bawah anak tangga getaran?**
+**Contoh 6.37 · Berapa tingkat rotasi di bawah anak tangga getaran?**
 
 Untuk H₂ ($B = 60{,}85$ cm⁻¹, pita dasar 4161 cm⁻¹), berapa tingkat rotasi pada $v = 0$ yang berenergi lebih rendah daripada $v = 1$, $J = 0$? Bandingkan dengan CO ($B = 1{,}93$, pita dasar 2143 cm⁻¹).
 
 **Penyelesaian.** H₂: $J(J+1)(60{,}85) < 4161$ memberi $J(J+1) < 68{,}4$, jadi $J \le 7$ ($F(7) = 3408$, $F(8) = 4381$ cm⁻¹). CO: $J(J+1) < 1110$, jadi $J \le 32$.
 
 **Memahami hasil.** Untuk H₂, skala rotasi dan getaran hanya berbeda 70 kali, sehingga kopling rotasi–getaran besar dan $B$ berubah cukup banyak dengan $v$. Untuk molekul berat, ratusan tingkat rotasi muat dalam satu anak tangga getaran, dan pemisahan rotasi–getaran sangat baik.
+:::
+
+::: {.contoh}
+**Contoh 6.38 · Panjang ikatan HCl dari konstanta rotasi**
+
+Konstanta rotasi H³⁵Cl adalah $\tilde B = 10{,}593$ cm⁻¹. Hitung momen inersia dan panjang ikatannya. Perkirakan juga $\tilde B$ untuk D³⁵Cl, dengan menganggap panjang ikatannya sama.
+
+**Penyelesaian.** $\tilde B = h/(8\pi^2cI)$, sehingga
+
+$$
+I = \frac{h}{8\pi^2c\tilde B} = \frac{6{,}626 \times 10^{-34}}{8\pi^2(2{,}998 \times 10^{10})(10{,}593)} = 2{,}642 \times 10^{-47}\ \text{kg m}^2 .
+$$
+
+Dengan $\mu = 0{,}9796$ u $= 1{,}6267 \times 10^{-27}$ kg: $r = \sqrt{I/\mu} = 1{,}275 \times 10^{-10}$ m $= 127{,}5$ pm. Untuk DCl, $\tilde B$ berbanding terbalik dengan $\mu$: $\tilde B_\text{DCl} = 10{,}593 \times 0{,}9796/1{,}9044 = 5{,}449$ cm⁻¹.
+
+**Memahami hasil.** Spektroskopi rotasi memberi panjang ikatan dengan ketelitian sepersepuluh pikometer, jauh lebih teliti daripada difraksi sinar-X untuk molekul gas. Karena energi elektronik hampir tidak bergantung pada isotop, panjang ikatan H³⁵Cl dan D³⁵Cl hampir sama; selisih kecil yang terukur berasal dari energi titik nol getaran yang berbeda (subbab 5.10).
 :::
 
 ::: {.kuis}
@@ -125,7 +141,7 @@ Garis-garisnya terletak di $2B$, $4B$, $6B$, ..., berjarak sama $2B$ (Gambar 6.4
 ![Gambar 6.4 Kiri: tingkat energi rotor tegar dan transisi serapan $\Delta J = +1$. Kanan: spektrum serapan rotasi CO pada 298 K yang dihitung; garis berjarak sama $2B = 3{,}85$ cm⁻¹. Intensitas mula-mula naik (populasi dan faktor $\tilde\nu$ naik) lalu turun (populasi tingkat tinggi menurun).](fig/c_rotor.png){width=95%}
 
 ::: {.contoh}
-**Contoh 6.35 · Panjang ikatan CO dari satu frekuensi**
+**Contoh 6.39 · Panjang ikatan CO dari satu frekuensi**
 
 Garis rotasi $J = 1 \leftarrow 0$ ¹²C¹⁶O berada di 115,271 202 GHz. Hitung $B_0$, $I$, dan panjang ikatan $r_0$.
 
@@ -135,7 +151,7 @@ Garis rotasi $J = 1 \leftarrow 0$ ¹²C¹⁶O berada di 115,271 202 GHz. Hitung 
 :::
 
 ::: {.contoh}
-**Contoh 6.36 · Garis isotopolog CO**
+**Contoh 6.40 · Garis isotopolog CO**
 
 Ramalkan frekuensi $J = 1 \leftarrow 0$ untuk ¹³C¹⁶O dan ¹²C¹⁸O dari garis ¹²C¹⁶O (115,2712 GHz). Nilai terukurnya 110,2014 dan 109,7822 GHz.
 
@@ -145,7 +161,7 @@ Ramalkan frekuensi $J = 1 \leftarrow 0$ untuk ¹³C¹⁶O dan ¹²C¹⁸O dari g
 :::
 
 ::: {.contoh}
-**Contoh 6.37 · Spektrum rotasi HCl di inframerah jauh**
+**Contoh 6.41 · Spektrum rotasi HCl di inframerah jauh**
 
 Dengan $B_0 = 10{,}440$ cm⁻¹, hitung empat garis serapan rotasi pertama HCl dan panjang gelombang garis pertama.
 
@@ -155,7 +171,7 @@ Dengan $B_0 = 10{,}440$ cm⁻¹, hitung empat garis serapan rotasi pertama HCl d
 :::
 
 ::: {.contoh}
-**Contoh 6.38 · Siapa yang mempunyai spektrum rotasi murni?**
+**Contoh 6.42 · Siapa yang mempunyai spektrum rotasi murni?**
 
 Manakah yang menunjukkan spektrum rotasi gelombang mikro: N₂, HCl, CO₂, OCS, CH₄, CH₃Cl, H₂O, C₆H₆?
 
@@ -177,13 +193,33 @@ Hampir semua molekul antarbintang ditemukan melalui garis rotasinya. Awan moleku
 :::
 
 ::: {.contoh}
-**Contoh 6.39 · Spektrum Raman rotasi N₂**
+**Contoh 6.43 · Spektrum Raman rotasi N₂**
 
 N₂ tidak berdipol, tetapi polarisabilitasnya anisotrop, sehingga aktif Raman rotasi dengan $\Delta J = \pm2$. Hitung pergeseran garis Stokes $J + 2 \leftarrow J$ untuk $J = 0$ sampai 3 ($B = 1{,}99$ cm⁻¹).
 
 **Penyelesaian.** $\Delta F = B[(J+2)(J+3) - J(J+1)] = B(4J + 6)$: 11,94; 19,90; 27,86; 35,82 cm⁻¹.
 
 **Memahami hasil.** Garis pertama di $6B$ dan selanjutnya berjarak $4B$, dua kali jarak garis gelombang mikro. Polarisabilitas kembali ke nilai semula setelah setengah putaran, sehingga foton hamburan melihat "frekuensi ganda" rotasi; inilah asal $\Delta J = \pm2$. Pada ¹⁴N₂, intensitas garis bergantian 2 : 1 karena statistik spin inti (soal subbab 6.11).
+:::
+
+::: {.contoh}
+**Contoh 6.44 · Mengukur panjang ikatan CO dari awan antarbintang**
+
+Garis rotasi $J = 1 \to 0$ ¹²C¹⁶O teramati pada 115,2712 GHz. Hitung konstanta rotasi (GHz dan cm⁻¹) dan panjang ikatan CO.
+
+**Penyelesaian.** Transisi $J \to J + 1$ berada pada $2B(J + 1)$; untuk $J = 0 \to 1$, $\nu = 2B$, jadi $B = 57{,}636$ GHz $= 1{,}9225$ cm⁻¹. Momen inersia $I = h/(8\pi^2B) = 1{,}456 \times 10^{-46}$ kg m², dan dengan $\mu = 6{,}8562$ u:
+
+$$
+r = \sqrt{I/\mu} = 113{,}1\ \text{pm}.
+$$
+
+**Memahami hasil.** Satu garis gelombang mikro dari awan berjarak ratusan tahun cahaya memberi panjang ikatan dengan ketelitian sepersepuluh pikometer, sama dengan di laboratorium. Ikatan CO (113 pm) lebih pendek daripada ikatan rangkap dua C=O dalam keton (± 121 pm), sesuai dengan orde ikatan tiga yang diramalkan teori orbital molekul (Bab 11).
+:::
+
+::: {.terapan}
+**Kaitan kimia · Mengapa oven gelombang mikro bekerja**
+
+Oven gelombang mikro bekerja pada 2,45 GHz, energi foton hanya 0,082 cm⁻¹ atau 1 J/mol. Ini **bukan** frekuensi resonansi rotasi air: dalam air cair molekul tidak berputar bebas, sehingga tidak ada garis tajam. Yang terjadi adalah **pemanasan dielektrik**: medan listrik yang berubah arah 2,45 miliar kali per detik terus memutar dipol air yang saling terikat oleh ikatan hidrogen, dan gesekan antarmolekul mengubah energinya menjadi kalor. Frekuensi 2,45 GHz dipilih karena menembus makanan beberapa sentimeter; frekuensi yang lebih tinggi diserap terlalu cepat di permukaan.
 :::
 
 ::: {.kuis}

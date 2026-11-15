@@ -27,7 +27,7 @@ Hasil kedua mengikuti dari $\langle L^2\rangle = \langle L_x^2\rangle + \langle 
 Tahun 1922, Otto Stern dan Walther Gerlach melewatkan berkas atom perak melalui medan magnet yang tidak homogen. Gaya pada momen magnet sebanding dengan komponennya searah gradien medan. Menurut fisika klasik, momen magnet atom terarah acak, sehingga berkas akan melebar menjadi pita malar. Yang teramati adalah **dua** berkas terpisah: komponen momen magnet terkuantisasi. Bahwa jumlahnya dua (bukan bilangan ganjil $2\ell + 1$) ternyata berasal dari **spin** elektron dengan $s = \tfrac12$, yang akan kita bahas di Bab 9. Operator tangga di subbab 6.7 menunjukkan mengapa nilai setengah bulat itu diizinkan oleh aljabar momentum sudut.
 
 ::: {.contoh}
-**Contoh 6.20 · Sudut-sudut yang diizinkan**
+**Contoh 6.21 · Sudut-sudut yang diizinkan**
 
 Hitung sudut antara $\mathbf L$ dan sumbu $z$ untuk semua $m$ pada $\ell = 1$, 2, dan 3.
 
@@ -43,7 +43,7 @@ Hitung sudut antara $\mathbf L$ dan sumbu $z$ untuk semua $m$ pada $\ell = 1$, 2
 :::
 
 ::: {.contoh}
-**Contoh 6.21 · Ketidakpastian komponen tegak lurus**
+**Contoh 6.22 · Ketidakpastian komponen tegak lurus**
 
 Untuk $\ell = 1$, hitung $\langle L_x^2\rangle$ dan $\Delta L_x$ pada $m = 1$ dan $m = 0$. Periksa relasi ketidakpastian $\Delta L_x\Delta L_y \ge \tfrac12\hbar|\langle L_z\rangle|$.
 
@@ -53,13 +53,31 @@ Untuk $\ell = 1$, hitung $\langle L_x^2\rangle$ dan $\Delta L_x$ pada $m = 1$ da
 :::
 
 ::: {.contoh}
-**Contoh 6.22 · Pemisahan Zeeman orbital**
+**Contoh 6.23 · Pemisahan Zeeman orbital**
 
 Dalam medan magnet $B$ sepanjang $z$, energi interaksi momen magnet orbital adalah $E = -\mu_zB = m\mu_BB$ menurut (6.3). Untuk elektron $\ell = 1$ dalam medan 1,00 T, hitung selisih energi antara $m = +1$ dan $m = -1$ dalam cm⁻¹, dan pergeseran panjang gelombang untuk garis 500 nm.
 
 **Penyelesaian.** $\Delta E = 2\mu_BB = 1{,}855 \times 10^{-23}$ J $= 0{,}934$ cm⁻¹. Pada 500 nm (20 000 cm⁻¹), pergeseran $\Delta\lambda = \lambda^2\Delta\tilde\nu = (5 \times 10^{-5}\ \text{cm})^2(0{,}467\ \text{cm}^{-1}) = 1{,}17 \times 10^{-9}$ cm $= 0{,}012$ nm untuk setiap komponen terhadap pusat.
 
 **Memahami hasil.** Garis spektrum terpecah menjadi tiga komponen yang terpisah sekitar 0,01 nm: kecil, tetapi terukur dengan spektrometer yang baik. Pecahnya garis inilah yang pertama kali memperlihatkan kuantisasi ruang (Zeeman, 1896). Untuk atom dengan spin, pola pecahnya lebih rumit (efek Zeeman anomal, Bab 9).
+:::
+
+::: {.contoh}
+**Contoh 6.24 · Sudut kerucut momentum sudut**
+
+Dalam model vektor, sudut antara $\mathbf L$ dan sumbu $z$ memenuhi $\cos\theta = m/\sqrt{\ell(\ell + 1)}$. Hitung semua sudut yang diizinkan untuk $\ell = 1$, 2, dan 3. Berapa sudut terkecil untuk tiap $\ell$?
+
+**Penyelesaian.**
+
+| $\ell$ | sudut yang diizinkan |
+|---|---|
+| 1 | 45,0°, 90,0°, 135,0° |
+| 2 | 35,3°, 65,9°, 90,0°, 114,1°, 144,7° |
+| 3 | 30,0°, 54,7°, 73,2°, 90,0°, 106,8°, 125,3°, 150,0° |
+
+Sudut terkecil ($m = \ell$) adalah 45,0°, 35,3°, dan 30,0°.
+
+**Memahami hasil.** Vektor momentum sudut tidak pernah sejajar sumbu $z$, karena itu akan membuat $L_x$ dan $L_y$ sama-sama tepat nol, melanggar asas ketidakpastian untuk komponen yang tidak komut. Makin besar $\ell$, makin kecil sudut terkecilnya: untuk $\ell = 100$ sudut itu tinggal 5,7°, dan pada batas klasik ($\ell$ sangat besar) momentum sudut dapat sejajar sumbu mana pun, seperti gasing biasa.
 :::
 
 ::: {.kuis}
@@ -113,7 +131,7 @@ $$
 Dari sini $\hat L_x = \tfrac12(\hat L_+ + \hat L_-)$ dan $\hat L_y = \tfrac{1}{2i}(\hat L_+ - \hat L_-)$ dapat ditulis sebagai matriks dalam basis $|\ell, m\rangle$.
 
 ::: {.contoh}
-**Contoh 6.23 · Matriks $L_x$ untuk $\ell = 1$**
+**Contoh 6.25 · Matriks $L_x$ untuk $\ell = 1$**
 
 Tuliskan matriks $\hat L_x$ dalam basis $\{|1, 1\rangle, |1, 0\rangle, |1, -1\rangle\}$ dan cari nilai eigennya.
 
@@ -129,7 +147,7 @@ Persamaan karakteristik $-\lambda^3 + \lambda(\tfrac{\hbar^2}{2} + \tfrac{\hbar^
 :::
 
 ::: {.contoh}
-**Contoh 6.24 · $\hat L_+$ dalam koordinat bola**
+**Contoh 6.26 · $\hat L_+$ dalam koordinat bola**
 
 Dalam koordinat bola, $\hat L_\pm = \hbar e^{\pm i\phi}(\pm\partial_\theta + i\cot\theta\,\partial_\phi)$. Kenakan $\hat L_+$ pada $Y_1^0 = \sqrt{3/4\pi}\cos\theta$ dan bandingkan dengan (6.23).
 
@@ -139,7 +157,7 @@ Dalam koordinat bola, $\hat L_\pm = \hbar e^{\pm i\phi}(\pm\partial_\theta + i\c
 :::
 
 ::: {.contoh}
-**Contoh 6.25 · Spin setengah: matriks Pauli**
+**Contoh 6.27 · Spin setengah: matriks Pauli**
 
 Untuk $\ell = \tfrac12$ (dua keadaan, $m = \pm\tfrac12$), tuliskan matriks $\hat L_x$, $\hat L_y$, dan $\hat L_z$ dengan (6.23).
 
@@ -153,7 +171,7 @@ $$
 :::
 
 ::: {.contoh}
-**Contoh 6.26 · $\hat L^2$ dari operator tangga**
+**Contoh 6.28 · $\hat L^2$ dari operator tangga**
 
 Dengan $\hat L^2 = \hat L_+\hat L_- + \hat L_z^2 - \hbar\hat L_z$, hitung $\hat L^2|1, 0\rangle$ hanya dengan (6.23).
 
@@ -209,7 +227,7 @@ $$
 Suku kedua adalah energi rotasi, yang bertindak sebagai **penghalang sentrifugal**: ia mendorong partikel menjauhi pusat bila $\ell > 0$. Bagian sudut setiap masalah potensial sentral selalu harmonik bola; seluruh perbedaan antara molekul diatom dan atom hidrogen terletak pada $V(r)$ dan persamaan radialnya. Untuk molekul diatom, jarak hampir tetap ($r \approx r_e$), sehingga energi rotasi $\ell(\ell + 1)\hbar^2/2\mu r_e^2$ dan getaran di sekitar $r_e$ terpisah (subbab 6.9). Untuk atom hidrogen, $V = -e^2/4\pi\varepsilon_0r$ dan persamaan radialnya diselesaikan di Bab 7.
 
 ::: {.contoh}
-**Contoh 6.27 · Garis Balmer hidrogen dan deuterium**
+**Contoh 6.29 · Garis Balmer hidrogen dan deuterium**
 
 Tetapan Rydberg untuk inti bermassa $M$ adalah $R_M = R_\infty/(1 + m_e/M)$, karena energi atom sebanding dengan $\mu$. Hitung panjang gelombang (vakum) garis H$_\alpha$ ($n = 3 \to 2$) untuk ¹H dan ²H, dengan $R_\infty = 10\,973\,731{,}6$ m⁻¹.
 
@@ -219,7 +237,7 @@ Tetapan Rydberg untuk inti bermassa $M$ adalah $R_M = R_\infty/(1 + m_e/M)$, kar
 :::
 
 ::: {.contoh}
-**Contoh 6.28 · Positronium**
+**Contoh 6.30 · Positronium**
 
 Positronium adalah "atom" yang terdiri atas elektron dan positron (massa sama, muatan berlawanan). Berapa massa tereduksinya, energi keadaan dasarnya, dan "jari-jari Bohr"-nya?
 
@@ -229,13 +247,30 @@ Positronium adalah "atom" yang terdiri atas elektron dan positron (massa sama, m
 :::
 
 ::: {.contoh}
-**Contoh 6.29 · Di mana pusat massa HCl?**
+**Contoh 6.31 · Di mana pusat massa HCl?**
 
 Dengan $r_e = 127{,}46$ pm, tentukan jarak atom H dan atom Cl dari pusat massa, dan bandingkan $\mu r_e^2$ dengan $m_Hr_H^2 + m_{Cl}r_{Cl}^2$.
 
 **Penyelesaian.** $r_H = \tfrac{m_{Cl}}{M}r_e = \tfrac{34{,}969}{35{,}977}(127{,}46) = 123{,}889$ pm; $r_{Cl} = 3{,}571$ pm. Momen inersia terhadap pusat massa: $m_Hr_H^2 + m_{Cl}r_{Cl}^2 = (1{,}00783)(123{,}889)^2 + (34{,}969)(3{,}571)^2 = 15\,469 + 446 = 15\,915$ u pm². $\mu r_e^2 = (0{,}97959)(127{,}46)^2 = 15\,915$ u pm².
 
 **Memahami hasil.** Kedua cara memberi hasil yang sama, seperti dijamin oleh pemisahan (6.24). Dalam HCl, atom Cl hampir diam di pusat massa dan atom H berputar mengelilinginya; 97% momen inersia berasal dari atom hidrogen.
+:::
+
+::: {.contoh}
+**Contoh 6.32 · Massa tereduksi molekul diatom**
+
+Hitung massa tereduksi (dalam u) untuk ¹H₂, ¹H³⁵Cl, ²H³⁵Cl, dan ¹²C¹⁶O. Massa atom: ¹H 1,007825; ²H 2,014102; ¹²C 12,000000; ¹⁶O 15,994915; ³⁵Cl 34,968853 u.
+
+**Penyelesaian.** $\mu = m_Am_B/(m_A + m_B)$:
+
+| Molekul | $\mu$ (u) |
+|---|---|
+| ¹H₂ | 0,5039 |
+| ¹H³⁵Cl | 0,9796 |
+| ²H³⁵Cl | 1,9044 |
+| ¹²C¹⁶O | 6,8562 |
+
+**Memahami hasil.** Untuk hidrida dengan atom berat, $\mu$ hampir sama dengan massa hidrogen: atom berat praktis diam, dan yang berputar serta bergetar adalah hidrogen. Mengganti H dengan D hampir menggandakan $\mu$, sehingga konstanta rotasi turun hampir setengahnya dan frekuensi getaran turun dengan faktor hampir $\sqrt2$. Untuk CO, kedua atom berat dan sebanding, sehingga $\mu$ jauh dari massa salah satu atomnya.
 :::
 
 ::: {.kuis}

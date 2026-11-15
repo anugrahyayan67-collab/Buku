@@ -27,7 +27,7 @@ Tiga sifat menonjol:
 Elektron π benzena terdelokalisasi di sekeliling cincin enam atom karbon. Model elektron bebas pada cincin, seperti model kotak untuk poliena (subbab 3.8), mengisi tingkat-tingkat (6.10) dengan dua elektron per keadaan. Untuk $4n + 2$ elektron, kulit-kulit terisi penuh: $m = 0$ (2 elektron), $m = \pm1$ (4 elektron), $m = \pm2$ (4 elektron), dan seterusnya. Sistem dengan 2, 6, 10, 14, ... elektron π mempunyai kulit tertutup yang stabil. Inilah versi paling sederhana **aturan Hückel** $4n + 2$ untuk aromatisitas, yang akan diturunkan lebih teliti dengan teori orbital molekul di Bab 13.
 
 ::: {.contoh}
-**Contoh 6.8 · Serapan benzena menurut model cincin**
+**Contoh 6.9 · Serapan benzena menurut model cincin**
 
 Perlakukan elektron π benzena sebagai elektron bebas pada cincin berjari-jari 139 pm (sama dengan panjang ikatan C–C pada heksagon beraturan). Hitung energi transisi dari tingkat terisi tertinggi ke tingkat kosong terendah dan panjang gelombangnya.
 
@@ -37,7 +37,7 @@ Perlakukan elektron π benzena sebagai elektron bebas pada cincin berjari-jari 1
 :::
 
 ::: {.contoh}
-**Contoh 6.9 · Rotor metil bebas**
+**Contoh 6.10 · Rotor metil bebas**
 
 Gugus metil berputar terhadap sumbu C–C (atau C–X). Jarak setiap atom H dari sumbu adalah $r = (109\ \text{pm})\sin 70{,}5° = 102{,}8$ pm. Hitung momen inersia dan tetapan rotasi $\hbar^2/2I$ (dalam cm⁻¹), dengan mengabaikan penghalang rotasi.
 
@@ -47,7 +47,7 @@ Gugus metil berputar terhadap sumbu C–C (atau C–X). Jarak setiap atom H dari
 :::
 
 ::: {.contoh}
-**Contoh 6.10 · Mengukur $L_z$ pada superposisi**
+**Contoh 6.11 · Mengukur $L_z$ pada superposisi**
 
 Partikel pada cincin berada dalam keadaan $\psi = N\cos^2\phi$. Tentukan $N$, hasil-hasil pengukuran $L_z$ yang mungkin beserta peluangnya, dan $\langle E\rangle$.
 
@@ -63,9 +63,9 @@ Dalam medan magnet yang tegak lurus bidang cincin, tingkat $m = +1$ dan $m = -1$
 :::
 
 ::: {.contoh}
-**Contoh 6.11 · Dari rotasi bebas ke torsi: etana**
+**Contoh 6.12 · Dari rotasi bebas ke torsi: etana**
 
-Rotasi gugus metil dalam etana dihambat potensial $V(\phi) = \tfrac12V_0(1 - \cos3\phi)$ dengan $V_0 = 1024$ cm⁻¹. Tetapan rotasi tereduksi untuk dua gugus metil yang berputar berlawanan adalah $B_\text{red} = 2 \times 5{,}28 = 10{,}56$ cm⁻¹ (Contoh 6.9). Perkirakan frekuensi getaran torsi di dasar sumur.
+Rotasi gugus metil dalam etana dihambat potensial $V(\phi) = \tfrac12V_0(1 - \cos3\phi)$ dengan $V_0 = 1024$ cm⁻¹. Tetapan rotasi tereduksi untuk dua gugus metil yang berputar berlawanan adalah $B_\text{red} = 2 \times 5{,}28 = 10{,}56$ cm⁻¹ (Contoh 6.10). Perkirakan frekuensi getaran torsi di dasar sumur.
 
 **Penyelesaian.** Di dekat minimum, $1 - \cos3\phi \approx \tfrac92\phi^2$, sehingga $V \approx \tfrac94V_0\phi^2$. Hamiltonian $-B_\text{red}\,d^2/d\phi^2 + \tfrac94V_0\phi^2$ (dalam cm⁻¹) adalah osilator harmonik dengan $\tilde\omega = 2\sqrt{B_\text{red}\cdot\tfrac94V_0} = 3\sqrt{B_\text{red}V_0} = 3\sqrt{(10{,}56)(1024)} = 312$ cm⁻¹.
 
@@ -135,7 +135,7 @@ $$
 Energi bergantung hanya pada $\ell$, sehingga setiap tingkat berdegenerasi $2\ell + 1$: semua orientasi ruang momentum sudut berenergi sama karena bola tidak mempunyai arah istimewa. Degenerasi ini pecah bila ada medan luar yang menentukan arah (efek Zeeman, efek Stark).
 
 ::: {.contoh}
-**Contoh 6.12 · Tingkat energi dan degenerasi**
+**Contoh 6.13 · Tingkat energi dan degenerasi**
 
 Daftarkan lima tingkat terendah partikel pada bola dalam satuan $\hbar^2/2I$, beserta degenerasinya, dan jumlah elektron yang dapat mengisinya sampai tingkat tertentu.
 
@@ -151,17 +151,17 @@ Daftarkan lima tingkat terendah partikel pada bola dalam satuan $\hbar^2/2I$, be
 :::
 
 ::: {.contoh}
-**Contoh 6.13 · Fulerena sebagai elektron pada bola**
+**Contoh 6.14 · Fulerena sebagai elektron pada bola**
 
 Molekul C₆₀ adalah bola berongga berjari-jari 355 pm dengan 60 elektron π. Perlakukan elektron itu sebagai partikel bebas pada bola. Tingkat mana yang terisi, dan berapa energi transisi dari $\ell = 5$ ke $\ell = 6$?
 
-**Penyelesaian.** Satuan energi $\hbar^2/2m_eR^2 = 0{,}302$ eV. Dari Contoh 6.12, tingkat $\ell = 0$ sampai 4 memuat 50 elektron; sisanya 10 elektron masuk ke $\ell = 5$, yang dapat memuat 22. Transisi $\ell = 5 \to 6$: $\Delta E = (42 - 30)(0{,}302) = 3{,}63$ eV, $\lambda = 342$ nm.
+**Penyelesaian.** Satuan energi $\hbar^2/2m_eR^2 = 0{,}302$ eV. Dari Contoh 6.13, tingkat $\ell = 0$ sampai 4 memuat 50 elektron; sisanya 10 elektron masuk ke $\ell = 5$, yang dapat memuat 22. Transisi $\ell = 5 \to 6$: $\Delta E = (42 - 30)(0{,}302) = 3{,}63$ eV, $\lambda = 342$ nm.
 
 **Memahami hasil.** C₆₀ mempunyai pita serapan kuat di sekitar 330 nm, sangat dekat dengan ramalan. Model bola tentu terlalu sederhana: kulit $\ell = 5$ yang terisi sebagian dipecah oleh simetri ikosahedral molekul menjadi beberapa tingkat, sehingga C₆₀ sebenarnya berkulit tertutup. Tetapi gagasan "atom super" dengan kulit-kulit $\ell$ ini dipakai luas untuk gugus logam (misalnya Na₈, Na₂₀, Na₄₀ yang sangat stabil, sesuai angka 8, 20, 40 dari model bola dengan sumur).
 :::
 
 ::: {.contoh}
-**Contoh 6.14 · Polinom Legendre dari rekursi**
+**Contoh 6.15 · Polinom Legendre dari rekursi**
 
 Dengan rekursi $a_{k+2} = \tfrac{k(k+1) - \ell(\ell+1)}{(k+1)(k+2)}a_k$, bangun penyelesaian untuk $\ell = 2$ mulai dari $a_0 = 1$, dan bandingkan dengan $P_2$.
 
@@ -216,7 +216,7 @@ Untuk $\ell = 2$: $d_{z^2} \propto (3z^2 - r^2)/r^2$, $d_{xz} \propto xz/r^2$, $
 3. **Teorema Unsöld.** $\sum_{m=-\ell}^{\ell}|Y_\ell^m|^2 = (2\ell + 1)/4\pi$, tidak bergantung pada sudut. Subkulit yang terisi penuh berbentuk bola sempurna.
 
 ::: {.contoh}
-**Contoh 6.15 · Normalisasi $Y_1^0$**
+**Contoh 6.16 · Normalisasi $Y_1^0$**
 
 Tunjukkan bahwa $N\cos\theta$ ternormalisasi bila $N = \sqrt{3/4\pi}$.
 
@@ -226,17 +226,17 @@ Tunjukkan bahwa $N\cos\theta$ ternormalisasi bila $N = \sqrt{3/4\pi}$.
 :::
 
 ::: {.contoh}
-**Contoh 6.16 · Membangun $p_x$ dari harmonik kompleks**
+**Contoh 6.17 · Membangun $p_x$ dari harmonik kompleks**
 
 Tunjukkan $\tfrac{1}{\sqrt2}(Y_1^{-1} - Y_1^1) = \sqrt{3/4\pi}\sin\theta\cos\phi$ dan bahwa fungsi ini bukan fungsi eigen $\hat L_z$.
 
 **Penyelesaian.** $Y_1^{-1} - Y_1^1 = \sqrt{\tfrac{3}{8\pi}}\sin\theta(e^{-i\phi} + e^{i\phi}) = \sqrt{\tfrac{3}{8\pi}}\sin\theta\cdot2\cos\phi$. Dibagi $\sqrt2$: $\sqrt{\tfrac{3}{4\pi}}\sin\theta\cos\phi$. Lalu $\hat L_z(\sin\theta\cos\phi) = -i\hbar\sin\theta(-\sin\phi) = i\hbar\sin\theta\sin\phi$, yang sebanding dengan $p_y$, bukan $p_x$.
 
-**Memahami hasil.** $\hat L_z$ mengubah $p_x$ menjadi $p_y$ (dikali $i\hbar$): rotasi infinitesimal terhadap $z$ memutar orbital $p_x$ ke arah $p_y$, sesuai Contoh 6.5. Orbital riil cocok untuk menggambarkan ikatan berarah; orbital kompleks cocok bila ada medan magnet atau bila momentum sudut perlu dihitung.
+**Memahami hasil.** $\hat L_z$ mengubah $p_x$ menjadi $p_y$ (dikali $i\hbar$): rotasi infinitesimal terhadap $z$ memutar orbital $p_x$ ke arah $p_y$, sesuai Contoh 6.6. Orbital riil cocok untuk menggambarkan ikatan berarah; orbital kompleks cocok bila ada medan magnet atau bila momentum sudut perlu dihitung.
 :::
 
 ::: {.contoh}
-**Contoh 6.17 · Kerucut simpul $d_{z^2}$**
+**Contoh 6.18 · Kerucut simpul $d_{z^2}$**
 
 Tentukan sudut kerucut simpul orbital $d_{z^2}$ dan perbandingan nilai $|Y_2^0|$ di sumbu $z$ dan di bidang $xy$.
 
@@ -246,7 +246,7 @@ Tentukan sudut kerucut simpul orbital $d_{z^2}$ dan perbandingan nilai $|Y_2^0|$
 :::
 
 ::: {.contoh}
-**Contoh 6.18 · Subkulit penuh berbentuk bola**
+**Contoh 6.19 · Subkulit penuh berbentuk bola**
 
 Periksa teorema Unsöld untuk $\ell = 1$.
 
@@ -256,7 +256,7 @@ Periksa teorema Unsöld untuk $\ell = 1$.
 :::
 
 ::: {.contoh}
-**Contoh 6.19 · Donat dan halter**
+**Contoh 6.20 · Donat dan halter**
 
 Hitung peluang menemukan elektron di dalam kerucut 30° di sekitar sumbu $z$ (kedua belahan), untuk bagian sudut $p_z$ ($|Y_1^0|^2$) dan $p_{+1}$ ($|Y_1^1|^2$).
 

@@ -105,6 +105,22 @@ Pada orbit Bohr pertama, elektron mempunyai $L = \hbar$. Hitung momen magnetnya 
 **Memahami hasil.** Energi magnetik elektron dalam medan laboratorium sangat kecil dibandingkan energi termal, sehingga keterarahan momen magnet hanya beberapa per seribu. Itulah sebabnya kemagnetan paramagnet lemah dan menurun dengan suhu (hukum Curie), dan mengapa spektroskopi resonansi magnetik (Bab 16) bekerja dengan selisih populasi yang kecil.
 :::
 
+::: {.contoh}
+**Contoh 6.4 · Magneton Bohr dari arus melingkar**
+
+Elektron yang mengorbit dengan momentum sudut $L$ setara dengan arus melingkar. Tunjukkan bahwa momen magnetnya $\mu = (e/2m_e)L$, lalu hitung nilainya untuk $L = \hbar$.
+
+**Penyelesaian.** Elektron bermuatan $e$ dengan laju $v$ pada lingkaran berjari-jari $r$ mengitari lintasan dengan periode $T = 2\pi r/v$, sehingga arusnya $I = e/T = ev/2\pi r$. Momen magnet loop adalah arus kali luas:
+
+$$
+\mu = I\pi r^2 = \frac{ev}{2\pi r}\pi r^2 = \frac{evr}{2} = \frac{e}{2m_e}(m_evr) = \frac{e}{2m_e}L .
+$$
+
+Untuk $L = \hbar$: $\mu_B = e\hbar/2m_e = (1{,}602 \times 10^{-19})(1{,}0546 \times 10^{-34})/(2 \times 9{,}109 \times 10^{-31}) = 9{,}274 \times 10^{-24}$ J/T.
+
+**Memahami hasil.** Perbandingan $\mu/L = e/2m_e$ (rasio giromagnetik) tidak bergantung pada jari-jari atau laju orbit, jadi hasil klasik ini tetap berlaku dalam mekanika kuantum. Satuan $\mu_B$ inilah yang mengukur kemagnetan atom, efek Zeeman (subbab 7.12), dan ESR (Bab 16). Untuk spin elektron, perbandingannya hampir dua kali lebih besar (faktor $g \approx 2$), yang tidak dapat dijelaskan secara klasik.
+:::
+
 ::: {.kuis}
 **Kuis cepat 6.1**
 
@@ -172,7 +188,7 @@ Kuadratkan masing-masing (hati-hati: $\partial_\theta$ bekerja pada $\cot\theta$
 :::
 
 ::: {.contoh}
-**Contoh 6.4 · Fungsi eigen $\hat L^2$ dan $\hat L_z$**
+**Contoh 6.5 · Fungsi eigen $\hat L^2$ dan $\hat L_z$**
 
 Tunjukkan bahwa $f = \sin\theta\,e^{i\phi}$ adalah fungsi eigen $\hat L_z$ dan $\hat L^2$. Berapa nilai eigennya?
 
@@ -182,7 +198,7 @@ Tunjukkan bahwa $f = \sin\theta\,e^{i\phi}$ adalah fungsi eigen $\hat L_z$ dan $
 :::
 
 ::: {.contoh}
-**Contoh 6.5 · Komutator momentum sudut dengan posisi**
+**Contoh 6.6 · Komutator momentum sudut dengan posisi**
 
 Hitung $[\hat L_z, x]$, $[\hat L_z, y]$, dan $[\hat L_z, z]$. Apa makna hasilnya?
 
@@ -192,7 +208,7 @@ Hitung $[\hat L_z, x]$, $[\hat L_z, y]$, dan $[\hat L_z, z]$. Apa makna hasilnya
 :::
 
 ::: {.contoh}
-**Contoh 6.6 · Bagian sudut Laplasian**
+**Contoh 6.7 · Bagian sudut Laplasian**
 
 Gunakan (6.8) untuk menghitung $\nabla^2$ dari $f = r\cos\theta$ (yaitu $z$) dan periksa dengan koordinat Kartesius.
 
@@ -202,7 +218,7 @@ Gunakan (6.8) untuk menghitung $\nabla^2$ dari $f = r\cos\theta$ (yaitu $z$) dan
 :::
 
 ::: {.contoh}
-**Contoh 6.7 · Mengapa $\hat L$ komut dengan Hamiltonian atom**
+**Contoh 6.8 · Mengapa $\hat L$ komut dengan Hamiltonian atom**
 
 Tunjukkan bahwa untuk $\hat H = -\tfrac{\hbar^2}{2m}\nabla^2 + V(r)$, berlaku $[\hat H, \hat L_z] = 0$ dan $[\hat H, \hat L^2] = 0$.
 

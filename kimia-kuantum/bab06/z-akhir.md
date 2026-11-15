@@ -66,263 +66,279 @@ Gunakan tetapan di Bab 1 dan massa isotop di Bab 5. Soal dikelompokkan menurut t
 
 **6.** Dua atom bermassa $m_1$ dan $m_2$ berjarak $r$ berputar terhadap pusat massanya. Tunjukkan bahwa $I = m_1r_1^2 + m_2r_2^2 = \mu r^2$.
 
+**7.** Berapa momen magnet orbital (dalam $\mu_B$) elektron dengan $\ell = 2$, $m_\ell = -1$ sepanjang sumbu $z$? Berapa besar momen totalnya?
+
 **Tantangan ★**
 
-**7.** [P] ★ Hitung momentum sudut rotasi Bumi ($I = 0{,}331MR^2$, $M = 5{,}97 \times 10^{24}$ kg, $R = 6371$ km, hari sideris 86 164 s) dalam satuan $\hbar$. Berapa sudut minimum antara $\mathbf L$ dan sumbu kuantisasi?
+**8.** [P] ★ Hitung momentum sudut rotasi Bumi ($I = 0{,}331MR^2$, $M = 5{,}97 \times 10^{24}$ kg, $R = 6371$ km, hari sideris 86 164 s) dalam satuan $\hbar$. Berapa sudut minimum antara $\mathbf L$ dan sumbu kuantisasi?
 
 ## Subbab 6.2: Operator momentum sudut dan komutatornya
 
 **Dasar**
 
-**8.** Hitung $\hat L_z(x + iy)$, $\hat L_z(x - iy)$, dan $\hat L_zz$.
+**9.** Hitung $\hat L_z(x + iy)$, $\hat L_z(x - iy)$, dan $\hat L_zz$.
 
-**9.** Apakah $(x + iy)^2$ fungsi eigen $\hat L_z$? Nilai eigennya?
+**10.** Apakah $(x + iy)^2$ fungsi eigen $\hat L_z$? Nilai eigennya?
 
-**10.** Tunjukkan dengan (6.7) bahwa $\hat L^2\cos\theta = 2\hbar^2\cos\theta$.
+**11.** Tunjukkan dengan (6.7) bahwa $\hat L^2\cos\theta = 2\hbar^2\cos\theta$.
 
 **Menengah**
 
-**11.** Turunkan $[\hat L_y, \hat L_z] = i\hbar\hat L_x$ dari komutator kanonik.
+**12.** Turunkan $[\hat L_y, \hat L_z] = i\hbar\hat L_x$ dari komutator kanonik.
 
-**12.** Hitung $[\hat L_z, \hat p_x]$ dan $[\hat L_z, \hat p_y]$.
+**13.** Hitung $[\hat L_z, \hat p_x]$ dan $[\hat L_z, \hat p_y]$.
 
-**13.** Tunjukkan bahwa $3\cos^2\theta - 1$ adalah fungsi eigen $\hat L^2$ dengan nilai eigen $6\hbar^2$.
+**14.** Tunjukkan bahwa $3\cos^2\theta - 1$ adalah fungsi eigen $\hat L^2$ dengan nilai eigen $6\hbar^2$.
 
-**14.** Buktikan $[\hat L_z, r^2] = 0$ dan jelaskan maknanya.
+**15.** Buktikan $[\hat L_z, r^2] = 0$ dan jelaskan maknanya.
 
 **Tantangan ★**
 
-**15.** ★ Buktikan $[\hat L^2, \hat L_x] = 0$ dengan memakai $[\hat A^2, \hat B] = \hat A[\hat A, \hat B] + [\hat A, \hat B]\hat A$.
+**16.** ★ Buktikan $[\hat L^2, \hat L_x] = 0$ dengan memakai $[\hat A^2, \hat B] = \hat A[\hat A, \hat B] + [\hat A, \hat B]\hat A$.
 
 ## Subbab 6.3: Partikel pada cincin
 
 **Dasar**
 
-**16.** Hitung empat tingkat energi terendah elektron pada cincin berjari-jari 100 pm, dalam eV.
+**17.** Hitung empat tingkat energi terendah elektron pada cincin berjari-jari 100 pm, dalam eV.
 
-**17.** Normalisasi $\psi = A\cos m\phi$ ($m \ne 0$) pada $[0, 2\pi]$.
+**18.** Normalisasi $\psi = A\cos m\phi$ ($m \ne 0$) pada $[0, 2\pi]$.
 
-**18.** Berapa banyak elektron π yang mengisi kulit-kulit penuh sampai $|m| = 2$? sampai $|m| = 3$?
+**19.** Berapa banyak elektron π yang mengisi kulit-kulit penuh sampai $|m| = 2$? sampai $|m| = 3$?
 
 **Menengah**
 
-**19.** [P] Partikel pada cincin dalam keadaan $\psi = (e^{i\phi} + 2e^{2i\phi})/\sqrt{10\pi}$. Hitung peluang hasil pengukuran $L_z$, $\langle L_z\rangle$, dan $\langle E\rangle$.
+**20.** [P] Partikel pada cincin dalam keadaan $\psi = (e^{i\phi} + 2e^{2i\phi})/\sqrt{10\pi}$. Hitung peluang hasil pengukuran $L_z$, $\langle L_z\rangle$, dan $\langle E\rangle$.
 
-**20.** Model cincin untuk [18]anulena: 18 elektron π pada cincin dengan keliling $18 \times 140$ pm. Hitung jari-jari dan panjang gelombang transisi $|m| = 4 \to 5$.
+**21.** Model cincin untuk [18]anulena: 18 elektron π pada cincin dengan keliling $18 \times 140$ pm. Hitung jari-jari dan panjang gelombang transisi $|m| = 4 \to 5$.
 
-**21.** Berapa jari-jari cincin yang membuat transisi $|m| = 1 \to 2$ benzena jatuh tepat di 255 nm?
+**22.** Berapa jari-jari cincin yang membuat transisi $|m| = 1 \to 2$ benzena jatuh tepat di 255 nm?
 
-**22.** Siklobutadiena mempunyai 4 elektron π. Bagaimana konfigurasinya menurut model cincin, dan apa akibatnya?
+**23.** Siklobutadiena mempunyai 4 elektron π. Bagaimana konfigurasinya menurut model cincin, dan apa akibatnya?
 
 **Tantangan ★**
 
-**23.** ★ Tunjukkan bahwa $\psi_m$ dan $\psi_{-m}$ mempunyai rapat peluang yang sama tetapi $\langle L_z\rangle$ berlawanan, sedangkan $\cos m\phi$ mempunyai $\langle L_z\rangle = 0$. Jelaskan dalam bahasa gelombang berjalan dan gelombang berdiri.
+**24.** ★ Tunjukkan bahwa $\psi_m$ dan $\psi_{-m}$ mempunyai rapat peluang yang sama tetapi $\langle L_z\rangle$ berlawanan, sedangkan $\cos m\phi$ mempunyai $\langle L_z\rangle = 0$. Jelaskan dalam bahasa gelombang berjalan dan gelombang berdiri.
 
 ## Subbab 6.4: Partikel pada bola
 
 **Dasar**
 
-**24.** Berapa energi (dalam $\hbar^2/2I$) dan degenerasi tingkat $\ell = 3$?
+**25.** Berapa energi (dalam $\hbar^2/2I$) dan degenerasi tingkat $\ell = 3$?
 
-**25.** Berapa energi rotasi H₂ pada $J = 1$, dinyatakan dalam kelvin ($E/k$)? ($B = 60{,}85$ cm⁻¹)
+**26.** Berapa energi rotasi H₂ pada $J = 1$, dinyatakan dalam kelvin ($E/k$)? ($B = 60{,}85$ cm⁻¹)
 
-**26.** Berapa banyak keadaan (tanpa spin) yang ada sampai $\ell = 5$?
+**27.** Berapa banyak keadaan (tanpa spin) yang ada sampai $\ell = 5$?
 
 **Menengah**
 
-**27.** Periksa bahwa $P_3(x) = \tfrac12(5x^3 - 3x)$ memenuhi persamaan Legendre dengan $\ell = 3$.
+**28.** Periksa bahwa $P_3(x) = \tfrac12(5x^3 - 3x)$ memenuhi persamaan Legendre dengan $\ell = 3$.
 
-**28.** Hitung $P_2^1(x)$ dengan (6.14).
+**29.** Hitung $P_2^1(x)$ dengan (6.14).
 
-**29.** Untuk elektron pada bola berjari-jari 355 pm, hitung energi transisi $\ell = 4 \to 5$.
+**30.** Untuk elektron pada bola berjari-jari 355 pm, hitung energi transisi $\ell = 4 \to 5$.
 
 **Tantangan ★**
 
-**30.** [P] ★ Dengan $x = \cos\theta$, tunjukkan bahwa persamaan $\Theta$ di (6.12) menjadi (6.13).
+**31.** [P] ★ Dengan $x = \cos\theta$, tunjukkan bahwa persamaan $\Theta$ di (6.12) menjadi (6.13).
 
 ## Subbab 6.5: Harmonik bola
 
 **Dasar**
 
-**31.** Normalisasi $Y_0^0 = N$ pada bola satuan.
+**32.** Normalisasi $Y_0^0 = N$ pada bola satuan.
 
-**32.** Periksa bahwa $\int|Y_1^1|^2\sin\theta\,d\theta\,d\phi = 1$.
+**33.** Periksa bahwa $\int|Y_1^1|^2\sin\theta\,d\theta\,d\phi = 1$.
 
-**33.** Apa paritas $Y_3^2$? $Y_4^0$?
+**34.** Apa paritas $Y_3^2$? $Y_4^0$?
 
 **Menengah**
 
-**34.** Tunjukkan bahwa $Y_1^0$ dan $Y_2^0$ ortogonal.
+**35.** Tunjukkan bahwa $Y_1^0$ dan $Y_2^0$ ortogonal.
 
-**35.** Nyatakan $d_{xy} \propto \sin^2\theta\sin2\phi$ dengan $Y_2^{\pm2}$.
+**36.** Nyatakan $d_{xy} \propto \sin^2\theta\sin2\phi$ dengan $Y_2^{\pm2}$.
 
-**36.** Tentukan kerucut simpul $Y_3^0 \propto 5\cos^3\theta - 3\cos\theta$.
+**37.** Tentukan kerucut simpul $Y_3^0 \propto 5\cos^3\theta - 3\cos\theta$.
 
-**37.** Berapa banyak simpul sudut (bidang dan kerucut) pada $Y_3^{\pm3}$ riil?
+**38.** Berapa banyak simpul sudut (bidang dan kerucut) pada $Y_3^{\pm3}$ riil?
 
 **Tantangan ★**
 
-**38.** [P] ★ Buktikan teorema Unsöld untuk $\ell = 2$: $\sum_m|Y_2^m|^2 = 5/4\pi$.
+**39.** [P] ★ Buktikan teorema Unsöld untuk $\ell = 2$: $\sum_m|Y_2^m|^2 = 5/4\pi$.
 
 ## Subbab 6.6: Kuantisasi ruang dan model vektor
 
 **Dasar**
 
-**39.** Untuk $\ell = 3$, berapa $|\mathbf L|$ dan sudut terkecil terhadap sumbu $z$?
+**40.** Untuk $\ell = 3$, berapa $|\mathbf L|$ dan sudut terkecil terhadap sumbu $z$?
 
-**40.** Berapa banyak orientasi yang diizinkan untuk $\ell = 4$?
+**41.** Berapa banyak orientasi yang diizinkan untuk $\ell = 4$?
 
-**41.** Hitung $\langle L_x^2\rangle$ untuk $\ell = 2$, $m = 0$ dan $m = 2$.
+**42.** Hitung $\langle L_x^2\rangle$ untuk $\ell = 2$, $m = 0$ dan $m = 2$.
 
 **Menengah**
 
-**42.** Tingkat d ($\ell = 2$) dalam medan 2,0 T terpecah menjadi berapa tingkat, dan berapa jaraknya (cm⁻¹)?
+**43.** Tingkat d ($\ell = 2$) dalam medan 2,0 T terpecah menjadi berapa tingkat, dan berapa jaraknya (cm⁻¹)?
 
-**43.** Berapa $\Delta L_x$ untuk $\ell = 1$, $m = 0$?
+**44.** Berapa $\Delta L_x$ untuk $\ell = 1$, $m = 0$?
 
-**44.** Mengapa berkas atom perak dalam percobaan Stern–Gerlach terpecah dua, bukan tiga atau satu?
+**45.** Mengapa berkas atom perak dalam percobaan Stern–Gerlach terpecah dua, bukan tiga atau satu?
+
+**46.** Berapa sudut terkecil antara $\mathbf L$ dan sumbu $z$ untuk $\ell = 10$ dan $\ell = 100$?
 
 **Tantangan ★**
 
-**45.** ★ Tunjukkan bahwa $\hat L_x^2 + \hat L_y^2 = \hat L^2 - \hat L_z^2$ dan, dari kepositifannya, bahwa $m^2 \le \ell(\ell + 1)$.
+**47.** ★ Tunjukkan bahwa $\hat L_x^2 + \hat L_y^2 = \hat L^2 - \hat L_z^2$ dan, dari kepositifannya, bahwa $m^2 \le \ell(\ell + 1)$.
 
 ## Subbab 6.7: Metode operator tangga
 
 **Dasar**
 
-**46.** Hitung $\hat L_+|1, 1\rangle$ dan $\hat L_-|1, 1\rangle$.
+**48.** Hitung $\hat L_+|1, 1\rangle$ dan $\hat L_-|1, 1\rangle$.
 
-**47.** Hitung $\hat L_+|2, 0\rangle$.
+**49.** Hitung $\hat L_+|2, 0\rangle$.
 
-**48.** Hitung $\hat L_-|\tfrac32, \tfrac32\rangle$.
+**50.** Hitung $\hat L_-|\tfrac32, \tfrac32\rangle$.
 
 **Menengah**
 
-**49.** Tuliskan matriks $\hat L_y$ untuk $\ell = 1$.
+**51.** Tuliskan matriks $\hat L_y$ untuk $\ell = 1$.
 
-**50.** Buktikan $\hat L_+\hat L_- = \hat L^2 - \hat L_z^2 + \hbar\hat L_z$.
+**52.** Buktikan $\hat L_+\hat L_- = \hat L^2 - \hat L_z^2 + \hbar\hat L_z$.
 
-**51.** Dengan operator tangga, hitung $\langle 1, 1|L_x^2|1, 1\rangle$.
+**53.** Dengan operator tangga, hitung $\langle 1, 1|L_x^2|1, 1\rangle$.
 
 **Tantangan ★**
 
-**52.** [P] ★ Kenakan $\hat L_- = \hbar e^{-i\phi}(-\partial_\theta + i\cot\theta\,\partial_\phi)$ pada $Y_1^0$ dan tunjukkan bahwa hasilnya $\sqrt2\,\hbar Y_1^{-1}$.
+**54.** [P] ★ Kenakan $\hat L_- = \hbar e^{-i\phi}(-\partial_\theta + i\cot\theta\,\partial_\phi)$ pada $Y_1^0$ dan tunjukkan bahwa hasilnya $\sqrt2\,\hbar Y_1^{-1}$.
 
-**53.** ★ Untuk $\ell = 1$, cari vektor eigen $\hat L_x$ dengan nilai eigen $+\hbar$ dan nyatakan sebagai kombinasi $p_x$, $p_y$, $p_z$.
+**55.** ★ Untuk $\ell = 1$, cari vektor eigen $\hat L_x$ dengan nilai eigen $+\hbar$ dan nyatakan sebagai kombinasi $p_x$, $p_y$, $p_z$.
 
 ## Subbab 6.8: Masalah dua benda dan massa tereduksi
 
 **Dasar**
 
-**54.** Berapa massa tereduksi elektron–proton dalam satuan $m_e$?
+**56.** Berapa massa tereduksi elektron–proton dalam satuan $m_e$?
 
-**55.** Berapa panjang gelombang Lyman-α positronium?
+**57.** Berapa panjang gelombang Lyman-α positronium?
 
-**56.** Hitung penghalang sentrifugal $\ell(\ell+1)\hbar^2/2\mu r_e^2$ untuk H₂ pada $J = 10$ (cm⁻¹).
+**58.** Hitung penghalang sentrifugal $\ell(\ell+1)\hbar^2/2\mu r_e^2$ untuk H₂ pada $J = 10$ (cm⁻¹).
 
 **Menengah**
 
-**57.** Hitung perbandingan $R_{\text{He}^+}/R_\text{H}$ dan panjang gelombang Lyman-α He⁺ ($m(^4\text{He})$ inti $= 4{,}001\,51$ u).
+**59.** Hitung perbandingan $R_{\text{He}^+}/R_\text{H}$ dan panjang gelombang Lyman-α He⁺ ($m(^4\text{He})$ inti $= 4{,}001\,51$ u).
 
-**58.** [P] Dalam hidrogen muonik, elektron diganti muon ($m_\mu = 206{,}77\,m_e$). Hitung massa tereduksi, energi keadaan dasar, dan jari-jari Bohr-nya.
+**60.** [P] Dalam hidrogen muonik, elektron diganti muon ($m_\mu = 206{,}77\,m_e$). Hitung massa tereduksi, energi keadaan dasar, dan jari-jari Bohr-nya.
 
-**59.** Hitung pergeseran H$_\alpha$ tritium terhadap hidrogen.
+**61.** Hitung pergeseran H$_\alpha$ tritium terhadap hidrogen.
+
+**62.** Hitung massa tereduksi ¹⁴N₂ (14,003074 u) dan ¹H¹²⁷I (126,904473 u).
 
 **Tantangan ★**
 
-**60.** ★ Turunkan $\nabla_1 = \tfrac{m_1}{M}\nabla_R + \nabla_r$ dengan aturan rantai, lalu tunjukkan bahwa suku silang di (6.24) hilang.
+**63.** ★ Turunkan $\nabla_1 = \tfrac{m_1}{M}\nabla_R + \nabla_r$ dengan aturan rantai, lalu tunjukkan bahwa suku silang di (6.24) hilang.
 
 ## Subbab 6.9: Rotor tegar diatom
 
 **Dasar**
 
-**61.** Hitung $B$ untuk HF ($r_e = 91{,}68$ pm).
+**64.** Hitung $B$ untuk HF ($r_e = 91{,}68$ pm).
 
-**62.** Dari $B_e(\text{H}_2) = 60{,}853$ cm⁻¹, hitung $r_e$.
+**65.** Dari $B_e(\text{H}_2) = 60{,}853$ cm⁻¹, hitung $r_e$.
 
-**63.** Berapa energi tingkat $J = 5$ CO ($B = 1{,}9313$ cm⁻¹)?
+**66.** Berapa energi tingkat $J = 5$ CO ($B = 1{,}9313$ cm⁻¹)?
 
 **Menengah**
 
-**64.** Ramalkan $B$ untuk D₂ dari H₂.
+**67.** Ramalkan $B$ untuk D₂ dari H₂.
 
-**65.** Untuk CO pada 298 K, pada $J$ berapa energi rotasi sama dengan $kT$?
+**68.** Untuk CO pada 298 K, pada $J$ berapa energi rotasi sama dengan $kT$?
 
-**66.** Mengapa rotasi I₂ pada suhu kamar dapat diperlakukan secara klasik, tetapi rotasi H₂ pada 50 K tidak?
+**69.** Mengapa rotasi I₂ pada suhu kamar dapat diperlakukan secara klasik, tetapi rotasi H₂ pada 50 K tidak?
+
+**70.** Konstanta rotasi ¹H₂ adalah 60,85 cm⁻¹. Hitung panjang ikatannya.
+
+**71.** Panjang ikatan ¹H¹⁹F 91,7 pm (¹⁹F: 18,998403 u). Hitung $\tilde B$.
 
 **Tantangan ★**
 
-**67.** [P] ★ Untuk ¹⁶O¹²C³²S, $B_0 = 6081{,}49$ MHz; untuk ¹⁶O¹²C³⁴S, $B_0 = 5932{,}83$ MHz. Anggap panjang ikatan sama untuk keduanya, dan tentukan $r(\text{C–O})$ dan $r(\text{C–S})$.
+**72.** [P] ★ Untuk ¹⁶O¹²C³²S, $B_0 = 6081{,}49$ MHz; untuk ¹⁶O¹²C³⁴S, $B_0 = 5932{,}83$ MHz. Anggap panjang ikatan sama untuk keduanya, dan tentukan $r(\text{C–O})$ dan $r(\text{C–S})$.
 
 ## Subbab 6.10: Spektrum rotasi gelombang mikro
 
 **Dasar**
 
-**68.** Hitung dua garis rotasi pertama HF ($B_0 = 20{,}56$ cm⁻¹).
+**73.** Hitung dua garis rotasi pertama HF ($B_0 = 20{,}56$ cm⁻¹).
 
-**69.** Manakah yang mempunyai spektrum rotasi murni: H₂, HD, CO₂, NO, O₃?
+**74.** Manakah yang mempunyai spektrum rotasi murni: H₂, HD, CO₂, NO, O₃?
 
-**70.** Garis $J = 1 \leftarrow 0$ HCN di 88,63 GHz. Berapa panjang gelombangnya?
+**75.** Garis $J = 1 \leftarrow 0$ HCN di 88,63 GHz. Berapa panjang gelombangnya?
 
 **Menengah**
 
-**71.** Dengan $B = 57\,635{,}97$ MHz dan $D = 0{,}1835$ MHz, hitung frekuensi $J = 1 \leftarrow 0$ dan $J = 2 \leftarrow 1$ CO.
+**76.** Dengan $B = 57\,635{,}97$ MHz dan $D = 0{,}1835$ MHz, hitung frekuensi $J = 1 \leftarrow 0$ dan $J = 2 \leftarrow 1$ CO.
 
-**72.** Hitung $\int Y_0^{0*}\cos\theta\,Y_1^0\,d\Omega$ dan $\int Y_2^{0*}\cos\theta\,Y_0^0\,d\Omega$. Apa maknanya bagi aturan seleksi?
+**77.** Hitung $\int Y_0^{0*}\cos\theta\,Y_1^0\,d\Omega$ dan $\int Y_2^{0*}\cos\theta\,Y_0^0\,d\Omega$. Apa maknanya bagi aturan seleksi?
 
-**73.** NaCl gas pada 1000 K: berapa jarak antargaris (GHz) dan $J$ terpadat? ($B = 0{,}2181$ cm⁻¹)
+**78.** NaCl gas pada 1000 K: berapa jarak antargaris (GHz) dan $J$ terpadat? ($B = 0{,}2181$ cm⁻¹)
 
-**74.** Jarak antargaris suatu molekul 0,4056 cm⁻¹ dan $\mu = 15{,}0$ u. Hitung panjang ikatannya.
+**79.** Jarak antargaris suatu molekul 0,4056 cm⁻¹ dan $\mu = 15{,}0$ u. Hitung panjang ikatannya.
+
+**80.** Pada frekuensi berapa (GHz) garis $J = 2 \to 3$ ¹²C¹⁶O, bila $B = 57{,}636$ GHz dan distorsi diabaikan?
 
 **Tantangan ★**
 
-**75.** ★ Mengapa spektrum Raman rotasi mempunyai aturan $\Delta J = 0, \pm2$, dan berapa jarak antargarisnya?
+**81.** ★ Mengapa spektrum Raman rotasi mempunyai aturan $\Delta J = 0, \pm2$, dan berapa jarak antargarisnya?
 
 ## Subbab 6.11: Populasi rotasi dan intensitas
 
 **Dasar**
 
-**76.** Tentukan $J_\text{maks}$ untuk HF ($B = 20{,}56$ cm⁻¹) pada 298 K.
+**82.** Tentukan $J_\text{maks}$ untuk HF ($B = 20{,}56$ cm⁻¹) pada 298 K.
 
-**77.** Hitung $N_{10}/N_0$ untuk CO pada 298 K.
+**83.** Hitung $N_{10}/N_0$ untuk CO pada 298 K.
 
-**78.** Hitung $q_\text{rot}$ untuk HF pada 298 K.
+**84.** Hitung $q_\text{rot}$ untuk HF pada 298 K.
 
 **Menengah**
 
-**79.** Pada suhu berapa $J = 10$ menjadi tingkat terpadat CO?
+**85.** Pada suhu berapa $J = 10$ menjadi tingkat terpadat CO?
 
-**80.** Hitung fraksi para-H₂ pada kesetimbangan pada 150 K.
+**86.** Hitung fraksi para-H₂ pada kesetimbangan pada 150 K.
 
-**81.** [P] Deuteron mempunyai spin 1. Tentukan perbandingan orto : para D₂ pada suhu tinggi, dan $J$ mana yang dimiliki masing-masing.
+**87.** [P] Deuteron mempunyai spin 1. Tentukan perbandingan orto : para D₂ pada suhu tinggi, dan $J$ mana yang dimiliki masing-masing.
 
-**82.** Hitung sumbangan bilangan simetri pada entropi molar N₂.
+**88.** Hitung sumbangan bilangan simetri pada entropi molar N₂.
+
+**89.** Hitung $J_\text{maks}$ untuk HCl pada 1000 K dan untuk CO pada 10 K (awan antarbintang).
 
 **Tantangan ★**
 
-**83.** ★ Dalam spektrum Raman rotasi ¹⁴N₂ (spin inti 1), intensitas garis berganti-ganti. Berapa perbandingan intensitas garis $J$ genap terhadap ganjil?
+**90.** ★ Dalam spektrum Raman rotasi ¹⁴N₂ (spin inti 1), intensitas garis berganti-ganti. Berapa perbandingan intensitas garis $J$ genap terhadap ganjil?
 
 ## Subbab 6.12: Distorsi sentrifugal dan spektrum rotasi–getaran
 
 **Dasar**
 
-**84.** Hitung $D$ untuk HF ($B_e = 20{,}956$, $\omega_e = 4138{,}3$ cm⁻¹).
+**91.** Hitung $D$ untuk HF ($B_e = 20{,}956$, $\omega_e = 4138{,}3$ cm⁻¹).
 
-**85.** Dari $B = 10{,}593$ dan $D = 5{,}32 \times 10^{-4}$ cm⁻¹, perkirakan $\omega_e$ HCl.
+**92.** Dari $B = 10{,}593$ dan $D = 5{,}32 \times 10^{-4}$ cm⁻¹, perkirakan $\omega_e$ HCl.
 
-**86.** Berapa $B_2$ untuk HCl ($B_e = 10{,}59$, $\alpha_e = 0{,}30$ cm⁻¹)?
+**93.** Berapa $B_2$ untuk HCl ($B_e = 10{,}59$, $\alpha_e = 0{,}30$ cm⁻¹)?
 
 **Menengah**
 
-**87.** Untuk pita dasar CO, $\tilde\nu_0 = 2143{,}27$, $B_0 = 1{,}9225$, $B_1 = 1{,}9050$ cm⁻¹. Hitung $R(0)$, $R(1)$, $P(1)$, $P(2)$.
+**94.** Untuk pita dasar CO, $\tilde\nu_0 = 2143{,}27$, $B_0 = 1{,}9225$, $B_1 = 1{,}9050$ cm⁻¹. Hitung $R(0)$, $R(1)$, $P(1)$, $P(2)$.
 
-**88.** [P] Dari garis-garis CO soal sebelumnya, peroleh kembali $B_0$ dan $B_1$ dengan selisih kombinasi.
+**95.** [P] Dari garis-garis CO soal sebelumnya, peroleh kembali $B_0$ dan $B_1$ dengan selisih kombinasi.
 
-**89.** Pada $J$ berapa cabang R pita dasar CO membentuk kepala pita? Apakah teramati pada suhu kamar?
+**96.** Pada $J$ berapa cabang R pita dasar CO membentuk kepala pita? Apakah teramati pada suhu kamar?
+
+**97.** Dengan $\tilde D = 5{,}3 \times 10^{-4}$ cm⁻¹, berapa geseran garis $J = 15 \to 16$ HCl akibat distorsi, $4\tilde D(J + 1)^3$?
 
 **Tantangan ★**
 
-**90.** [P] ★ Turunkan rumus Kratzer $D = 4B^3/\tilde\omega^2$ dari model klasik pegas yang diregangkan gaya sentrifugal.
+**98.** [P] ★ Turunkan rumus Kratzer $D = 4B^3/\tilde\omega^2$ dari model klasik pegas yang diregangkan gaya sentrifugal.
 
 
 # Jawaban
@@ -330,93 +346,97 @@ Gunakan tetapan di Bab 1 dan massa isotop di Bab 5. Soal dikelompokkan menurut t
 ::: {.panjang}
 | No. | Jawaban | No. | Jawaban |
 |---|---|---|---|
-| 1 | $1{,}00\,\hbar$ | 46 | 0; $\sqrt2\,\hbar|1, 0\rangle$ |
-| 2 | $(0;\ 0;\ -6)$ kg m²/s | 47 | $\sqrt6\,\hbar|2, 1\rangle$ |
-| 3 | 21,19 cm⁻¹ ($= 2B$) | 48 | $\sqrt3\,\hbar|\tfrac32, \tfrac12\rangle$ |
-| 4 | $\sqrt6\,\mu_B = 2{,}27 \times 10^{-23}$ J/T | 49 | $\tfrac{\hbar}{\sqrt2}\begin{pmatrix}0 & -i & 0\\ i & 0 & -i\\ 0 & i & 0\end{pmatrix}$ |
-| 5 | $\mathbf r \times \mathbf r = 0$ | 50 | seperti (6.21) |
-| 6 | $r_1 = m_2r/M$, $r_2 = m_1r/M$ | 51 | $\hbar^2/2$ |
-| 7 | $5{,}8 \times 10^{33}$ J s $= 5{,}5 \times 10^{67}\,\hbar$; sudut $\approx 1/\sqrt\ell \approx 10^{-34}$ rad | 52 | lihat pembahasan |
-| 8 | $\hbar(x + iy)$; $-\hbar(x - iy)$; 0 | 53 | $\tfrac12(1, \sqrt2, 1) = (p_z - ip_y)/\sqrt2 \propto -(p_y + ip_z)/\sqrt2$, yaitu "$p_{+1}$" terhadap sumbu $x$ |
-| 9 | ya; $2\hbar$ | 54 | 0,999 456 |
-| 10 | langsung | 55 | 243,0 nm (dua kali H) |
-| 11 | seperti penurunan $[\hat L_x, \hat L_y]$ | 56 | 6694 cm⁻¹ |
-| 12 | $i\hbar\hat p_y$; $-i\hbar\hat p_x$ | 57 | 1,000 407; 30,380 nm (bukan tepat 121,568/4 = 30,392 nm) |
-| 13 | $\ell = 2$ | 58 | $\mu = 185{,}84\,m_e$; $-2{,}53$ keV; 285 fm |
-| 14 | rotasi terhadap $z$ tidak mengubah jarak dari titik asal | 59 | 0,238 nm (656,232 nm) |
-| 15 | suku-suku saling menghapus | 60 | langsung |
-| 16 | 0; 3,81; 15,2; 34,3 eV | 61 | 20,96 cm⁻¹ |
-| 17 | $A = 1/\sqrt\pi$ | 62 | 74,14 pm |
-| 18 | 10; 14 | 63 | 57,9 cm⁻¹ |
-| 19 | $P(\hbar) = \tfrac15$, $P(2\hbar) = \tfrac45$; $\langle L_z\rangle = \tfrac95\hbar$; $\langle E\rangle = \tfrac{17}{5}\cdot\tfrac{\hbar^2}{2I}$ | 64 | 30,45 cm⁻¹ |
-| 20 | $R = 401$ pm; 582 nm (terukur: pita kuat di 369 nm) | 65 | $J \approx 10$ |
-| 21 | 153 pm | 66 | $\theta_\text{rot}(\text{I}_2) = 0{,}05$ K $\ll T$; $\theta_\text{rot}(\text{H}_2) = 88$ K $> 50$ K |
-| 22 | $m = 0$ penuh, $m = \pm1$ setengah terisi: kulit terbuka, tidak stabil (antiaromatik) | 67 | 116,3 pm; 156,0 pm |
-| 23 | $\cos m\phi$ adalah superposisi sama besar dua arah putaran | 68 | 41,12; 82,24 cm⁻¹ |
-| 24 | 12; 7 | 69 | HD (sangat lemah), NO, O₃ |
-| 25 | 175 K | 70 | 3,38 mm |
-| 26 | 36 | 71 | 115 271,2 MHz; 230 538,0 MHz |
-| 27 | substitusi | 72 | $1/\sqrt3$; 0: $\Delta J = 2$ terlarang |
-| 28 | $3x\sqrt{1 - x^2}$ | 73 | 13,08 GHz; $J \approx 39$ |
-| 29 | 3,02 eV | 74 | $B = 0{,}2028$ cm⁻¹; $I = 1{,}38 \times 10^{-45}$ kg m²; $r = 235$ pm |
-| 30 | lihat pembahasan | 75 | polarisabilitas berulang tiap setengah putaran; garis berjarak $4B$ |
-| 31 | $N = 1/\sqrt{4\pi}$ | 76 | $J = 2$ |
-| 32 | $\tfrac{3}{8\pi}\cdot2\pi\cdot\tfrac43 = 1$ | 77 | 7,57 |
-| 33 | ganjil; genap | 78 | 10,4 |
-| 34 | $\int_{-1}^1x(3x^2 - 1)dx = 0$ | 79 | 610 K |
-| 35 | $d_{xy} = \tfrac{-i}{\sqrt2}(Y_2^2 - Y_2^{-2})$ | 80 | 0,290 |
-| 36 | $\theta = 39{,}2°$, 90°, 140,8° | 81 | 2 : 1; orto = $J$ genap, para = $J$ ganjil |
-| 37 | 3 bidang, 0 kerucut | 82 | $-R\ln2 = -5{,}76$ J K⁻¹ mol⁻¹ |
-| 38 | lihat pembahasan | 83 | 2 : 1 |
-| 39 | $\sqrt{12}\,\hbar = 3{,}46\,\hbar$; 30,0° | 84 | $2{,}15 \times 10^{-3}$ cm⁻¹ |
-| 40 | 9 | 85 | 2990 cm⁻¹ |
-| 41 | $3\hbar^2$; $\hbar^2$ | 86 | 9,84 cm⁻¹ |
-| 42 | 5 tingkat, berjarak 0,934 cm⁻¹ | 87 | 2147,08; 2150,86; 2139,43; 2135,55 cm⁻¹ |
-| 43 | $\hbar$ | 88 | $B_0 = 1{,}9225$; $B_1 = 1{,}9050$ cm⁻¹ |
-| 44 | momentum sudut totalnya spin ½: $2s + 1 = 2$ | 89 | $J \approx 108$; tidak (populasi praktis nol) |
-| 45 | $\langle L_x^2 + L_y^2\rangle \ge 0$ | 90 | lihat pembahasan |
+| 1 | $1{,}00\,\hbar$ | 50 | $\sqrt3\,\hbar|\tfrac32, \tfrac12\rangle$ |
+| 2 | $(0;\ 0;\ -6)$ kg m²/s | 51 | $\tfrac{\hbar}{\sqrt2}\begin{pmatrix}0 & -i & 0\\ i & 0 & -i\\ 0 & i & 0\end{pmatrix}$ |
+| 3 | 21,19 cm⁻¹ ($= 2B$) | 52 | seperti (6.21) |
+| 4 | $\sqrt6\,\mu_B = 2{,}27 \times 10^{-23}$ J/T | 53 | $\hbar^2/2$ |
+| 5 | $\mathbf r \times \mathbf r = 0$ | 54 | lihat pembahasan |
+| 6 | $r_1 = m_2r/M$, $r_2 = m_1r/M$ | 55 | $\tfrac12(1, \sqrt2, 1) = (p_z - ip_y)/\sqrt2 \propto -(p_y + ip_z)/\sqrt2$, yaitu "$p_{+1}$" terhadap sumbu $x$ |
+| 7 | $+1\,\mu_B$ (berlawanan dengan $L_z$); $\sqrt6\,\mu_B$ | 56 | 0,999 456 |
+| 8 | $5{,}8 \times 10^{33}$ J s $= 5{,}5 \times 10^{67}\,\hbar$; sudut $\approx 1/\sqrt\ell \approx 10^{-34}$ rad | 57 | 243,0 nm (dua kali H) |
+| 9 | $\hbar(x + iy)$; $-\hbar(x - iy)$; 0 | 58 | 6694 cm⁻¹ |
+| 10 | ya; $2\hbar$ | 59 | 1,000 407; 30,380 nm (bukan tepat 121,568/4 = 30,392 nm) |
+| 11 | langsung | 60 | $\mu = 185{,}84\,m_e$; $-2{,}53$ keV; 285 fm |
+| 12 | seperti penurunan $[\hat L_x, \hat L_y]$ | 61 | 0,238 nm (656,232 nm) |
+| 13 | $i\hbar\hat p_y$; $-i\hbar\hat p_x$ | 62 | 7,0015 u; 0,9999 u |
+| 14 | $\ell = 2$ | 63 | langsung |
+| 15 | rotasi terhadap $z$ tidak mengubah jarak dari titik asal | 64 | 20,96 cm⁻¹ |
+| 16 | suku-suku saling menghapus | 65 | 74,14 pm |
+| 17 | 0; 3,81; 15,2; 34,3 eV | 66 | 57,9 cm⁻¹ |
+| 18 | $A = 1/\sqrt\pi$ | 67 | 30,45 cm⁻¹ |
+| 19 | 10; 14 | 68 | $J \approx 10$ |
+| 20 | $P(\hbar) = \tfrac15$, $P(2\hbar) = \tfrac45$; $\langle L_z\rangle = \tfrac95\hbar$; $\langle E\rangle = \tfrac{17}{5}\cdot\tfrac{\hbar^2}{2I}$ | 69 | $\theta_\text{rot}(\text{I}_2) = 0{,}05$ K $\ll T$; $\theta_\text{rot}(\text{H}_2) = 88$ K $> 50$ K |
+| 21 | $R = 401$ pm; 582 nm (terukur: pita kuat di 369 nm) | 70 | 74,1 pm |
+| 22 | 153 pm | 71 | 20,9 cm⁻¹ |
+| 23 | $m = 0$ penuh, $m = \pm1$ setengah terisi: kulit terbuka, tidak stabil (antiaromatik) | 72 | 116,3 pm; 156,0 pm |
+| 24 | $\cos m\phi$ adalah superposisi sama besar dua arah putaran | 73 | 41,12; 82,24 cm⁻¹ |
+| 25 | 12; 7 | 74 | HD (sangat lemah), NO, O₃ |
+| 26 | 175 K | 75 | 3,38 mm |
+| 27 | 36 | 76 | 115 271,2 MHz; 230 538,0 MHz |
+| 28 | substitusi | 77 | $1/\sqrt3$; 0: $\Delta J = 2$ terlarang |
+| 29 | $3x\sqrt{1 - x^2}$ | 78 | 13,08 GHz; $J \approx 39$ |
+| 30 | 3,02 eV | 79 | $B = 0{,}2028$ cm⁻¹; $I = 1{,}38 \times 10^{-45}$ kg m²; $r = 235$ pm |
+| 31 | lihat pembahasan | 80 | 345,8 GHz |
+| 32 | $N = 1/\sqrt{4\pi}$ | 81 | polarisabilitas berulang tiap setengah putaran; garis berjarak $4B$ |
+| 33 | $\tfrac{3}{8\pi}\cdot2\pi\cdot\tfrac43 = 1$ | 82 | $J = 2$ |
+| 34 | ganjil; genap | 83 | 7,57 |
+| 35 | $\int_{-1}^1x(3x^2 - 1)dx = 0$ | 84 | 10,4 |
+| 36 | $d_{xy} = \tfrac{-i}{\sqrt2}(Y_2^2 - Y_2^{-2})$ | 85 | 610 K |
+| 37 | $\theta = 39{,}2°$, 90°, 140,8° | 86 | 0,290 |
+| 38 | 3 bidang, 0 kerucut | 87 | 2 : 1; orto = $J$ genap, para = $J$ ganjil |
+| 39 | lihat pembahasan | 88 | $-R\ln2 = -5{,}76$ J K⁻¹ mol⁻¹ |
+| 40 | $\sqrt{12}\,\hbar = 3{,}46\,\hbar$; 30,0° | 89 | 5,2 (J = 5); 0,85 (J = 1) |
+| 41 | 9 | 90 | 2 : 1 |
+| 42 | $3\hbar^2$; $\hbar^2$ | 91 | $2{,}15 \times 10^{-3}$ cm⁻¹ |
+| 43 | 5 tingkat, berjarak 0,934 cm⁻¹ | 92 | 2990 cm⁻¹ |
+| 44 | $\hbar$ | 93 | 9,84 cm⁻¹ |
+| 45 | momentum sudut totalnya spin ½: $2s + 1 = 2$ | 94 | 2147,08; 2150,86; 2139,43; 2135,55 cm⁻¹ |
+| 46 | 17,5°; 5,7° | 95 | $B_0 = 1{,}9225$; $B_1 = 1{,}9050$ cm⁻¹ |
+| 47 | $\langle L_x^2 + L_y^2\rangle \ge 0$ | 96 | $J \approx 108$; tidak (populasi praktis nol) |
+| 48 | 0; $\sqrt2\,\hbar|1, 0\rangle$ | 97 | 8,7 cm⁻¹ |
+| 49 | $\sqrt6\,\hbar|2, 1\rangle$ | 98 | lihat pembahasan |
 :::
 
 
 # Pembahasan soal terpilih
 
-**Soal 7.** $I = 0{,}331(5{,}97 \times 10^{24})(6{,}371 \times 10^6)^2 = 8{,}02 \times 10^{37}$ kg m², $\omega = 2\pi/86\,164 = 7{,}29 \times 10^{-5}$ rad/s, $L = I\omega = 5{,}85 \times 10^{33}$ J s $= 5{,}5 \times 10^{67}\,\hbar$. Untuk $\ell$ sebesar ini, sudut terkecil memenuhi $\cos\theta = \ell/\sqrt{\ell(\ell+1)} \approx 1 - 1/2\ell$, sehingga $\theta \approx 1/\sqrt\ell \approx 10^{-34}$ rad.
+**Soal 8.** $I = 0{,}331(5{,}97 \times 10^{24})(6{,}371 \times 10^6)^2 = 8{,}02 \times 10^{37}$ kg m², $\omega = 2\pi/86\,164 = 7{,}29 \times 10^{-5}$ rad/s, $L = I\omega = 5{,}85 \times 10^{33}$ J s $= 5{,}5 \times 10^{67}\,\hbar$. Untuk $\ell$ sebesar ini, sudut terkecil memenuhi $\cos\theta = \ell/\sqrt{\ell(\ell+1)} \approx 1 - 1/2\ell$, sehingga $\theta \approx 1/\sqrt\ell \approx 10^{-34}$ rad.
 
 *Cara berpikir:* kuantisasi ruang tetap berlaku untuk Bumi, tetapi celah antarorientasi sekitar $10^{-34}$ rad tidak mungkin diamati. Sifat kuantum momentum sudut hanya tampak bila $\ell$ kecil, yaitu bila momentum sudut hanya beberapa kali $\hbar$: elektron dalam atom dan molekul yang berputar lambat.
 
-**Soal 19.** Koefisien dalam basis $\psi_m = e^{im\phi}/\sqrt{2\pi}$: $c_1 = 1/\sqrt5$, $c_2 = 2/\sqrt5$, karena $\psi = (\psi_1 + 2\psi_2)\sqrt{2\pi}/\sqrt{10\pi}$. Peluang $\tfrac15$ dan $\tfrac45$. $\langle L_z\rangle = \tfrac15\hbar + \tfrac45(2\hbar) = \tfrac95\hbar$. $\langle E\rangle = \left[\tfrac15(1) + \tfrac45(4)\right]\tfrac{\hbar^2}{2I} = \tfrac{17}{5}\cdot\tfrac{\hbar^2}{2I}$.
+**Soal 20.** Koefisien dalam basis $\psi_m = e^{im\phi}/\sqrt{2\pi}$: $c_1 = 1/\sqrt5$, $c_2 = 2/\sqrt5$, karena $\psi = (\psi_1 + 2\psi_2)\sqrt{2\pi}/\sqrt{10\pi}$. Peluang $\tfrac15$ dan $\tfrac45$. $\langle L_z\rangle = \tfrac15\hbar + \tfrac45(2\hbar) = \tfrac95\hbar$. $\langle E\rangle = \left[\tfrac15(1) + \tfrac45(4)\right]\tfrac{\hbar^2}{2I} = \tfrac{17}{5}\cdot\tfrac{\hbar^2}{2I}$.
 
 *Cara berpikir:* rapat peluangnya $|\psi|^2 = [5 + 4\cos\phi]/10\pi$, tidak seragam, dan berputar terhadap waktu karena kedua komponen berenergi berbeda (frekuensi Bohr $3\hbar/2I$). Paket gelombang pada cincin berputar, persis seperti paket osilator berayun (subbab 5.5).
 
-**Soal 30.** Dengan $x = \cos\theta$: $\tfrac{d}{d\theta} = \tfrac{dx}{d\theta}\tfrac{d}{dx} = -\sin\theta\tfrac{d}{dx}$. Maka $\sin\theta\tfrac{d\Theta}{d\theta} = -\sin^2\theta\tfrac{d\Theta}{dx} = -(1 - x^2)\Theta'$, dan $\tfrac{1}{\sin\theta}\tfrac{d}{d\theta}[\cdots] = \tfrac{1}{\sin\theta}(-\sin\theta)\tfrac{d}{dx}[-(1 - x^2)\Theta'] = \tfrac{d}{dx}[(1 - x^2)\Theta'] = (1 - x^2)\Theta'' - 2x\Theta'$. Suku $m^2/\sin^2\theta$ menjadi $m^2/(1 - x^2)$. Hasilnya (6.13).
+**Soal 31.** Dengan $x = \cos\theta$: $\tfrac{d}{d\theta} = \tfrac{dx}{d\theta}\tfrac{d}{dx} = -\sin\theta\tfrac{d}{dx}$. Maka $\sin\theta\tfrac{d\Theta}{d\theta} = -\sin^2\theta\tfrac{d\Theta}{dx} = -(1 - x^2)\Theta'$, dan $\tfrac{1}{\sin\theta}\tfrac{d}{d\theta}[\cdots] = \tfrac{1}{\sin\theta}(-\sin\theta)\tfrac{d}{dx}[-(1 - x^2)\Theta'] = \tfrac{d}{dx}[(1 - x^2)\Theta'] = (1 - x^2)\Theta'' - 2x\Theta'$. Suku $m^2/\sin^2\theta$ menjadi $m^2/(1 - x^2)$. Hasilnya (6.13).
 
 *Cara berpikir:* substitusi $x = \cos\theta$ mengubah sudut menjadi selang $[-1, 1]$ dan elemen $\sin\theta\,d\theta$ menjadi $-dx$. Titik $x = \pm1$ (kutub) adalah titik singular persamaan; perilaku di sana yang memaksa kuantisasi.
 
-**Soal 38.** Dengan $c = \cos\theta$, $s = \sin\theta$: $|Y_2^0|^2 = \tfrac{5}{16\pi}(3c^2 - 1)^2$; $|Y_2^1|^2 + |Y_2^{-1}|^2 = 2\cdot\tfrac{15}{8\pi}s^2c^2$; $|Y_2^2|^2 + |Y_2^{-2}|^2 = 2\cdot\tfrac{15}{32\pi}s^4$. Kalikan semuanya dengan $16\pi/5$: $(3c^2 - 1)^2 + 12s^2c^2 + 3s^4$. Dengan $s^2 = 1 - c^2$: $9c^4 - 6c^2 + 1 + 12c^2 - 12c^4 + 3 - 6c^2 + 3c^4 = 4$. Jadi jumlahnya $4 \cdot 5/16\pi = 5/4\pi$.
+**Soal 39.** Dengan $c = \cos\theta$, $s = \sin\theta$: $|Y_2^0|^2 = \tfrac{5}{16\pi}(3c^2 - 1)^2$; $|Y_2^1|^2 + |Y_2^{-1}|^2 = 2\cdot\tfrac{15}{8\pi}s^2c^2$; $|Y_2^2|^2 + |Y_2^{-2}|^2 = 2\cdot\tfrac{15}{32\pi}s^4$. Kalikan semuanya dengan $16\pi/5$: $(3c^2 - 1)^2 + 12s^2c^2 + 3s^4$. Dengan $s^2 = 1 - c^2$: $9c^4 - 6c^2 + 1 + 12c^2 - 12c^4 + 3 - 6c^2 + 3c^4 = 4$. Jadi jumlahnya $4 \cdot 5/16\pi = 5/4\pi$.
 
 *Cara berpikir:* subkulit d¹⁰ (misalnya dalam Zn²⁺ atau Cu⁺) bersimetri bola. Ion logam transisi dengan subkulit d sebagian terisi tidak bersimetri bola, dan anisotropi itulah yang menjadi pokok teori medan kristal (Bab 14).
 
-**Soal 52.** $\hat L_-\cos\theta = \hbar e^{-i\phi}(-\partial_\theta\cos\theta + 0) = \hbar e^{-i\phi}\sin\theta$. Jadi $\hat L_-Y_1^0 = \sqrt{\tfrac{3}{4\pi}}\hbar\sin\theta\,e^{-i\phi} = \sqrt2\,\hbar\sqrt{\tfrac{3}{8\pi}}\sin\theta\,e^{-i\phi} = \sqrt2\,\hbar Y_1^{-1}$.
+**Soal 54.** $\hat L_-\cos\theta = \hbar e^{-i\phi}(-\partial_\theta\cos\theta + 0) = \hbar e^{-i\phi}\sin\theta$. Jadi $\hat L_-Y_1^0 = \sqrt{\tfrac{3}{4\pi}}\hbar\sin\theta\,e^{-i\phi} = \sqrt2\,\hbar\sqrt{\tfrac{3}{8\pi}}\sin\theta\,e^{-i\phi} = \sqrt2\,\hbar Y_1^{-1}$.
 
 *Cara berpikir:* faktor $\sqrt2 = \sqrt{1\cdot2 - 0\cdot(-1)}$ cocok dengan (6.23), dan $Y_1^{-1}$ bertanda positif dalam konvensi Condon–Shortley, sedangkan $Y_1^1$ bertanda negatif. Konvensi fase ini penting ketika momentum sudut digabungkan (koefisien Clebsch–Gordan, Bab 9).
 
-**Soal 58.** $\mu = m_\mu m_p/(m_\mu + m_p)$ dengan $m_p = 1836{,}15\,m_e$: $\mu = 185{,}84\,m_e$. Energi sebanding dengan $\mu$: $E_1 = -\tfrac12(185{,}84)(27{,}211\ \text{eV}) = -2{,}53$ keV. Jari-jari berbanding terbalik dengan $\mu$: $a = a_0/185{,}84 = 285$ fm.
+**Soal 60.** $\mu = m_\mu m_p/(m_\mu + m_p)$ dengan $m_p = 1836{,}15\,m_e$: $\mu = 185{,}84\,m_e$. Energi sebanding dengan $\mu$: $E_1 = -\tfrac12(185{,}84)(27{,}211\ \text{eV}) = -2{,}53$ keV. Jari-jari berbanding terbalik dengan $\mu$: $a = a_0/185{,}84 = 285$ fm.
 
 *Cara berpikir:* muon mengorbit 186 kali lebih dekat ke proton daripada elektron, cukup dekat untuk "merasakan" ukuran proton (sekitar 0,84 fm). Pengukuran spektrum hidrogen muonik tahun 2010 memberi jari-jari proton yang 4% lebih kecil daripada nilai sebelumnya, memicu "teka-teki jari-jari proton" yang kemudian diselesaikan dengan pengukuran hidrogen biasa yang lebih teliti.
 
-**Soal 67.** Momen inersia: $I = h/(8\pi^2B)$ dengan $B$ dalam Hz. $I_{32} = 1{,}3800 \times 10^{-45}$ dan $I_{34} = 1{,}4146 \times 10^{-45}$ kg m². Untuk molekul linear O–C–S dengan jarak $r_1 = r(\text{CO})$ dan $r_2 = r(\text{CS})$, $I = \sum m_ix_i^2 - (\sum m_ix_i)^2/M$ dengan $x_O = -r_1$, $x_C = 0$, $x_S = r_2$. Dua persamaan dengan dua bilangan tak diketahui diselesaikan secara numerik: $r_1 = 116{,}3$ pm, $r_2 = 156{,}0$ pm.
+**Soal 72.** Momen inersia: $I = h/(8\pi^2B)$ dengan $B$ dalam Hz. $I_{32} = 1{,}3800 \times 10^{-45}$ dan $I_{34} = 1{,}4146 \times 10^{-45}$ kg m². Untuk molekul linear O–C–S dengan jarak $r_1 = r(\text{CO})$ dan $r_2 = r(\text{CS})$, $I = \sum m_ix_i^2 - (\sum m_ix_i)^2/M$ dengan $x_O = -r_1$, $x_C = 0$, $x_S = r_2$. Dua persamaan dengan dua bilangan tak diketahui diselesaikan secara numerik: $r_1 = 116{,}3$ pm, $r_2 = 156{,}0$ pm.
 
 *Cara berpikir:* satu tetapan rotasi hanya memberi satu momen inersia; untuk molekul dengan $n$ panjang ikatan tak diketahui diperlukan $n$ isotopolog. Karena $r_0$ setiap isotopolog sedikit berbeda (getaran titik nol), hasilnya tidak tepat sama dengan $r_e$; metode substitusi Kraitchman memakai selisih momen inersia untuk mengurangi galat ini.
 
-**Soal 81.** Deuteron adalah boson (spin 1), sehingga fungsi gelombang total harus simetris terhadap pertukaran. Dua spin 1 menghasilkan $3 \times 3 = 9$ keadaan: 6 simetris dan 3 antisimetris. $J$ genap (rotasi simetris) berpasangan dengan 6 keadaan spin simetris (orto-D₂); $J$ ganjil berpasangan dengan 3 keadaan antisimetris (para-D₂). Pada suhu tinggi orto : para = 6 : 3 = 2 : 1.
+**Soal 87.** Deuteron adalah boson (spin 1), sehingga fungsi gelombang total harus simetris terhadap pertukaran. Dua spin 1 menghasilkan $3 \times 3 = 9$ keadaan: 6 simetris dan 3 antisimetris. $J$ genap (rotasi simetris) berpasangan dengan 6 keadaan spin simetris (orto-D₂); $J$ ganjil berpasangan dengan 3 keadaan antisimetris (para-D₂). Pada suhu tinggi orto : para = 6 : 3 = 2 : 1.
 
 *Cara berpikir:* untuk H₂ (fermion) perbandingan dan pasangan $J$-nya terbalik: orto (berbobot 3) dengan $J$ ganjil. Pada suhu sangat rendah, D₂ dalam kesetimbangan semuanya orto ($J = 0$), sedangkan H₂ semuanya para ($J = 0$). Nama "orto" selalu menunjuk bentuk dengan bobot spin lebih besar.
 
-**Soal 88.** Dengan (6.38) untuk $J = 1$: $R(0) - P(2) = 2147{,}08 - 2135{,}55 = 11{,}535 = 4B_0(1{,}5)$, jadi $B_0 = 1{,}9225$ cm⁻¹; $R(1) - P(1) = 2150{,}86 - 2139{,}43 = 11{,}43 = 4B_1(1{,}5)$, jadi $B_1 = 1{,}905$ cm⁻¹.
+**Soal 95.** Dengan (6.38) untuk $J = 1$: $R(0) - P(2) = 2147{,}08 - 2135{,}55 = 11{,}535 = 4B_0(1{,}5)$, jadi $B_0 = 1{,}9225$ cm⁻¹; $R(1) - P(1) = 2150{,}86 - 2139{,}43 = 11{,}43 = 4B_1(1{,}5)$, jadi $B_1 = 1{,}905$ cm⁻¹.
 
 *Cara berpikir:* kedua tetapan kembali tepat, karena (6.38) eksak untuk rumus (6.37). Dengan data sungguhan, selisih kombinasi untuk banyak $J$ dicocokkan bersama, dan distorsi sentrifugal ditambahkan sebagai suku $-8D(J + \tfrac12)^3$.
 
-**Soal 90.** Molekul berputar dengan momentum sudut $L$; energi totalnya $E(r) = L^2/2\mu r^2 + \tfrac12k(r - r_e)^2$. Kesetimbangan baru: $dE/dr = -L^2/\mu r^3 + k(r - r_e) = 0$, sehingga $\delta r = r - r_e \approx L^2/\mu r_e^3k$. Masukkan ke $E$ dengan $1/r^2 \approx (1 - 2\delta r/r_e)/r_e^2$:
+**Soal 98.** Molekul berputar dengan momentum sudut $L$; energi totalnya $E(r) = L^2/2\mu r^2 + \tfrac12k(r - r_e)^2$. Kesetimbangan baru: $dE/dr = -L^2/\mu r^3 + k(r - r_e) = 0$, sehingga $\delta r = r - r_e \approx L^2/\mu r_e^3k$. Masukkan ke $E$ dengan $1/r^2 \approx (1 - 2\delta r/r_e)/r_e^2$:
 
 $$
 E \approx \frac{L^2}{2\mu r_e^2} - \frac{L^2\delta r}{\mu r_e^3} + \tfrac12k\delta r^2 = \frac{L^2}{2I} - \frac{L^4}{2\mu^2r_e^6k} .

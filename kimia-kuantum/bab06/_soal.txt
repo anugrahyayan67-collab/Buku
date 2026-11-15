@@ -14,6 +14,8 @@ Hitung besar momen magnet orbital elektron dengan $L = \sqrt6\,\hbar$ ($\ell = 2
 Tunjukkan bahwa untuk gaya sentral $\mathbf F = f(r)\hat{\mathbf r}$, torsi $\mathbf r \times \mathbf F = 0$ sehingga $\mathbf L$ kekal. ||| $\mathbf r \times \mathbf r = 0$
 Dua atom bermassa $m_1$ dan $m_2$ berjarak $r$ berputar terhadap pusat massanya. Tunjukkan bahwa $I = m_1r_1^2 + m_2r_2^2 = \mu r^2$. ||| $r_1 = m_2r/M$, $r_2 = m_1r/M$
 
+Berapa momen magnet orbital (dalam $\mu_B$) elektron dengan $\ell = 2$, $m_\ell = -1$ sepanjang sumbu $z$? Berapa besar momen totalnya? ||| $+1\,\mu_B$ (berlawanan dengan $L_z$); $\sqrt6\,\mu_B$
+
 **Tantangan ★**
 
 @bumi [P] ★ Hitung momentum sudut rotasi Bumi ($I = 0{,}331MR^2$, $M = 5{,}97 \times 10^{24}$ kg, $R = 6371$ km, hari sideris 86 164 s) dalam satuan $\hbar$. Berapa sudut minimum antara $\mathbf L$ dan sumbu kuantisasi? ||| $5{,}8 \times 10^{33}$ J s $= 5{,}5 \times 10^{67}\,\hbar$; sudut $\approx 1/\sqrt\ell \approx 10^{-34}$ rad
@@ -107,6 +109,8 @@ Tingkat d ($\ell = 2$) dalam medan 2,0 T terpecah menjadi berapa tingkat, dan be
 Berapa $\Delta L_x$ untuk $\ell = 1$, $m = 0$? ||| $\hbar$
 Mengapa berkas atom perak dalam percobaan Stern–Gerlach terpecah dua, bukan tiga atau satu? ||| momentum sudut totalnya spin ½: $2s + 1 = 2$
 
+Berapa sudut terkecil antara $\mathbf L$ dan sumbu $z$ untuk $\ell = 10$ dan $\ell = 100$? ||| 17,5°; 5,7°
+
 **Tantangan ★**
 
 ★ Tunjukkan bahwa $\hat L_x^2 + \hat L_y^2 = \hat L^2 - \hat L_z^2$ dan, dari kepositifannya, bahwa $m^2 \le \ell(\ell + 1)$. ||| $\langle L_x^2 + L_y^2\rangle \ge 0$
@@ -144,6 +148,8 @@ Hitung perbandingan $R_{\text{He}^+}/R_\text{H}$ dan panjang gelombang Lyman-α 
 @muon [P] Dalam hidrogen muonik, elektron diganti muon ($m_\mu = 206{,}77\,m_e$). Hitung massa tereduksi, energi keadaan dasar, dan jari-jari Bohr-nya. ||| $\mu = 185{,}84\,m_e$; $-2{,}53$ keV; 285 fm
 Hitung pergeseran H$_\alpha$ tritium terhadap hidrogen. ||| 0,238 nm (656,232 nm)
 
+Hitung massa tereduksi ¹⁴N₂ (14,003074 u) dan ¹H¹²⁷I (126,904473 u). ||| 7,0015 u; 0,9999 u
+
 **Tantangan ★**
 
 ★ Turunkan $\nabla_1 = \tfrac{m_1}{M}\nabla_R + \nabla_r$ dengan aturan rantai, lalu tunjukkan bahwa suku silang di (6.24) hilang. ||| langsung
@@ -161,6 +167,9 @@ Berapa energi tingkat $J = 5$ CO ($B = 1{,}9313$ cm⁻¹)? ||| 57,9 cm⁻¹
 Ramalkan $B$ untuk D₂ dari H₂. ||| 30,45 cm⁻¹
 Untuk CO pada 298 K, pada $J$ berapa energi rotasi sama dengan $kT$? ||| $J \approx 10$
 Mengapa rotasi I₂ pada suhu kamar dapat diperlakukan secara klasik, tetapi rotasi H₂ pada 50 K tidak? ||| $\theta_\text{rot}(\text{I}_2) = 0{,}05$ K $\ll T$; $\theta_\text{rot}(\text{H}_2) = 88$ K $> 50$ K
+
+Konstanta rotasi ¹H₂ adalah 60,85 cm⁻¹. Hitung panjang ikatannya. ||| 74,1 pm
+Panjang ikatan ¹H¹⁹F 91,7 pm (¹⁹F: 18,998403 u). Hitung $\tilde B$. ||| 20,9 cm⁻¹
 
 **Tantangan ★**
 
@@ -181,6 +190,8 @@ Hitung $\int Y_0^{0*}\cos\theta\,Y_1^0\,d\Omega$ dan $\int Y_2^{0*}\cos\theta\,Y
 NaCl gas pada 1000 K: berapa jarak antargaris (GHz) dan $J$ terpadat? ($B = 0{,}2181$ cm⁻¹) ||| 13,08 GHz; $J \approx 39$
 Jarak antargaris suatu molekul 0,4056 cm⁻¹ dan $\mu = 15{,}0$ u. Hitung panjang ikatannya. ||| $B = 0{,}2028$ cm⁻¹; $I = 1{,}38 \times 10^{-45}$ kg m²; $r = 235$ pm
 
+Pada frekuensi berapa (GHz) garis $J = 2 \to 3$ ¹²C¹⁶O, bila $B = 57{,}636$ GHz dan distorsi diabaikan? ||| 345,8 GHz
+
 **Tantangan ★**
 
 ★ Mengapa spektrum Raman rotasi mempunyai aturan $\Delta J = 0, \pm2$, dan berapa jarak antargarisnya? ||| polarisabilitas berulang tiap setengah putaran; garis berjarak $4B$
@@ -200,6 +211,8 @@ Hitung fraksi para-H₂ pada kesetimbangan pada 150 K. ||| 0,290
 @orto [P] Deuteron mempunyai spin 1. Tentukan perbandingan orto : para D₂ pada suhu tinggi, dan $J$ mana yang dimiliki masing-masing. ||| 2 : 1; orto = $J$ genap, para = $J$ ganjil
 Hitung sumbangan bilangan simetri pada entropi molar N₂. ||| $-R\ln2 = -5{,}76$ J K⁻¹ mol⁻¹
 
+Hitung $J_\text{maks}$ untuk HCl pada 1000 K dan untuk CO pada 10 K (awan antarbintang). ||| 5,2 (J = 5); 0,85 (J = 1)
+
 **Tantangan ★**
 
 ★ Dalam spektrum Raman rotasi ¹⁴N₂ (spin inti 1), intensitas garis berganti-ganti. Berapa perbandingan intensitas garis $J$ genap terhadap ganjil? ||| 2 : 1
@@ -217,6 +230,8 @@ Berapa $B_2$ untuk HCl ($B_e = 10{,}59$, $\alpha_e = 0{,}30$ cm⁻¹)? ||| 9,84 
 Untuk pita dasar CO, $\tilde\nu_0 = 2143{,}27$, $B_0 = 1{,}9225$, $B_1 = 1{,}9050$ cm⁻¹. Hitung $R(0)$, $R(1)$, $P(1)$, $P(2)$. ||| 2147,08; 2150,86; 2139,43; 2135,55 cm⁻¹
 @kombinasi [P] Dari garis-garis CO soal sebelumnya, peroleh kembali $B_0$ dan $B_1$ dengan selisih kombinasi. ||| $B_0 = 1{,}9225$; $B_1 = 1{,}9050$ cm⁻¹
 Pada $J$ berapa cabang R pita dasar CO membentuk kepala pita? Apakah teramati pada suhu kamar? ||| $J \approx 108$; tidak (populasi praktis nol)
+
+Dengan $\tilde D = 5{,}3 \times 10^{-4}$ cm⁻¹, berapa geseran garis $J = 15 \to 16$ HCl akibat distorsi, $4\tilde D(J + 1)^3$? ||| 8,7 cm⁻¹
 
 **Tantangan ★**
 
