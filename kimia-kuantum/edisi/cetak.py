@@ -42,6 +42,13 @@ def pembuka(n, out):
         return (f'<section class="pembuka"><img class="orb" src="file://{P}/b{n:02d}.png"><div class="bag">{bag}</div><div class="kb">BAB</div>'
                 f'<div class="nb">{n}</div><h1{m.group(1)}>{m.group(2)}</h1><div class="cap">{cap}</div></section>')
     s = re.sub(r'<h1( id="[^"]*") class="bab"><span class="pita">.*?</span></span><span class="judul">(.*?)</span></h1>', ganti, s, count=1, flags=re.S)
+    # bagian Soal: bungkus agar tata letaknya rapi (nomor menggantung, label tingkat)
+    m1 = re.search(r'<h1 id="[^"]*" class="pita1">Soal</h1>', s); m2 = re.search(r'<h1 id="[^"]*" class="pita1">Jawaban</h1>', s)
+    if m1 and m2:
+        blok = s[m1.end():m2.start()]
+        blok = re.sub(r'<p><strong>(Dasar|Menengah|Tantangan[^<]*)</strong></p>', r'<p class="tk">\1</p>', blok)
+        blok = re.sub(r'<p>(<strong>\d+\.</strong>)', r'<p class="si">\1', blok)
+        s = s[:m1.end()] + '<div class="soal2">' + blok + '</div>' + s[m2.start():]
     balik = f'https://hal/d/{n}'
     s = re.sub(r'(<h2 id="[^"]*" class="sub">)(.*?)</h2>', lambda m: f'{m.group(1)}<a class="tl" href="{balik}">{m.group(2)}</a></h2>', s, flags=re.S)
     s = re.sub(r'(<h1 id="[^"]*" class="pita1">)(.*?)</h1>', lambda m: f'{m.group(1)}<a class="tl" href="{balik}">{m.group(2)}</a></h1>', s, flags=re.S)
