@@ -32,7 +32,7 @@ Tetapan gaya mengukur **kelengkungan** kurva potensial di dasarnya, bukan kedala
 | I₂ | 214,5 | 63,5 | 172 | 1 |
 
 ::: {.contoh}
-**Contoh 5.22 · Tetapan gaya dan orde ikatan**
+**Contoh 5.26 · Tetapan gaya dan orde ikatan**
 
 Dari tabel, bandingkan tetapan gaya N₂, O₂, dan F₂. Apakah perbandingannya mendekati perbandingan orde ikatan 3 : 2 : 1?
 
@@ -42,7 +42,7 @@ Dari tabel, bandingkan tetapan gaya N₂, O₂, dan F₂. Apakah perbandingannya
 :::
 
 ::: {.contoh}
-**Contoh 5.23 · Menghitung tetapan gaya CO**
+**Contoh 5.27 · Menghitung tetapan gaya CO**
 
 Pita getaran CO di $\omega_e = 2169{,}8$ cm⁻¹. Hitung massa tereduksi dan tetapan gayanya.
 
@@ -52,7 +52,7 @@ Pita getaran CO di $\omega_e = 2169{,}8$ cm⁻¹. Hitung massa tereduksi dan tet
 :::
 
 ::: {.contoh}
-**Contoh 5.24 · Mengapa hidrida bergetar cepat**
+**Contoh 5.28 · Mengapa hidrida bergetar cepat**
 
 HCl dan Cl₂ sama-sama berikatan tunggal dengan klorin. Mengapa $\tilde\nu(\text{HCl}) = 2991$ cm⁻¹ jauh di atas $\tilde\nu(\text{Cl}_2) = 560$ cm⁻¹?
 
@@ -62,7 +62,7 @@ HCl dan Cl₂ sama-sama berikatan tunggal dengan klorin. Mengapa $\tilde\nu(\tex
 :::
 
 ::: {.contoh}
-**Contoh 5.25 · Ramalan untuk isotopolog CO**
+**Contoh 5.29 · Ramalan untuk isotopolog CO**
 
 Dengan tetapan gaya yang sama (aproksimasi Born–Oppenheimer: elektron tidak "tahu" massa inti), ramalkan $\omega_e$ untuk ¹²C¹⁸O dan ¹³C¹⁸O.
 
@@ -116,7 +116,7 @@ Dalam fase gas, molekul juga berotasi, dan setiap transisi getaran disertai peru
 ![Gambar 5.3 Spektrum serapan inframerah gas HCl pada suhu kamar (dihitung). Setiap garis rotasi tampak kembar karena H³⁵Cl (75,8%) dan H³⁷Cl (24,2%) bergetar pada frekuensi yang sedikit berbeda. Pusat pita kosong karena transisi $\Delta J = 0$ terlarang.](fig/c_irhcl.png){width=92%}
 
 ::: {.contoh}
-**Contoh 5.26 · Siapa yang aktif IR?**
+**Contoh 5.30 · Siapa yang aktif IR?**
 
 Manakah getaran berikut yang aktif IR: (a) N₂, (b) CO, (c) NO, (d) Cl₂, (e) HCl, (f) ulur simetris CO₂, (g) ulur asimetris CO₂?
 
@@ -126,7 +126,7 @@ Manakah getaran berikut yang aktif IR: (a) N₂, (b) CO, (c) NO, (d) Cl₂, (e) 
 :::
 
 ::: {.contoh}
-**Contoh 5.27 · Membaca spektrum HCl**
+**Contoh 5.31 · Membaca spektrum HCl**
 
 Dengan $\tilde\nu_0 = 2885{,}98$ cm⁻¹, $B_0 = 10{,}44$ cm⁻¹ (tetapan rotasi di $v = 0$), dan $B_1 = 10{,}14$ cm⁻¹ (di $v = 1$), garis cabang R dan P adalah $R(J) = \tilde\nu_0 + 2B_1 + (3B_1 - B_0)J + (B_1 - B_0)J^2$ dan $P(J) = \tilde\nu_0 - (B_1 + B_0)J + (B_1 - B_0)J^2$. Hitung $R(0)$, $R(1)$, $P(1)$, $P(2)$, dan lebar celah di pusat pita.
 
@@ -136,7 +136,7 @@ Dengan $\tilde\nu_0 = 2885{,}98$ cm⁻¹, $B_0 = 10{,}44$ cm⁻¹ (tetapan rotas
 :::
 
 ::: {.contoh}
-**Contoh 5.28 · Doblet isotop klorin**
+**Contoh 5.32 · Doblet isotop klorin**
 
 Hitung pergeseran pusat pita H³⁷Cl terhadap H³⁵Cl ($\tilde\nu_0 = 2885{,}98$ cm⁻¹), dan bandingkan dengan perbandingan intensitas yang diharapkan.
 
@@ -146,7 +146,7 @@ Hitung pergeseran pusat pita H³⁷Cl terhadap H³⁵Cl ($\tilde\nu_0 = 2885{,}9
 :::
 
 ::: {.contoh}
-**Contoh 5.29 · Pita panas CO di nyala api**
+**Contoh 5.33 · Pita panas CO di nyala api**
 
 Intensitas serapan bersih antara $v$ dan $v + 1$ sebanding dengan $(N_v - N_{v+1})|\langle v+1|x|v\rangle|^2$. Hitung perbandingan intensitas pita panas $2 \leftarrow 1$ terhadap pita dasar $1 \leftarrow 0$ untuk CO ($\tilde\nu = 2143$ cm⁻¹) pada 298 K, 1000 K, dan 2000 K, dalam pendekatan harmonik.
 
@@ -171,13 +171,13 @@ Getaran yang tidak aktif IR dapat diamati melalui **hamburan Raman**. Cahaya tam
 Garis yang bergeser ke frekuensi lebih rendah ($\tilde\nu_0 - \tilde\nu_\text{vib}$, molekul naik dari $v = 0$ ke 1) disebut garis **Stokes**; yang bergeser ke frekuensi lebih tinggi (molekul turun dari $v = 1$ ke 0) disebut **anti-Stokes**, dan lemah karena populasi $v = 1$ kecil. Polarisabilitas molekul homonuklir berubah ketika ikatan meregang (awan elektron yang lebih panjang lebih mudah dipolarisasi), sehingga H₂, N₂, dan O₂ aktif Raman. Untuk molekul yang mempunyai pusat inversi berlaku **aturan saling meniadakan**: mode yang aktif IR tidak aktif Raman, dan sebaliknya (contohnya CO₂, Gambar 5.5; alasannya diberikan teori grup di Bab 10).
 
 ::: {.contoh}
-**Contoh 5.30 · Spektrum Raman udara**
+**Contoh 5.34 · Spektrum Raman udara**
 
 Udara disinari laser hijau 532 nm. Pita dasar N₂ berada di 2329,9 cm⁻¹ dan O₂ di 1556,2 cm⁻¹. Hitung panjang gelombang garis Stokes keduanya dan garis anti-Stokes N₂, serta perbandingan intensitas anti-Stokes/Stokes N₂ pada 298 K (intensitas hamburan sebanding dengan $\tilde\nu^4$).
 
 **Penyelesaian.** $\tilde\nu_0 = 10^7/532 = 18\,797$ cm⁻¹. Stokes N₂: $18\,797 - 2330 = 16\,467$ cm⁻¹, yaitu 607,3 nm; Stokes O₂: 580,0 nm; anti-Stokes N₂: $21\,127$ cm⁻¹, yaitu 473,3 nm. Perbandingan anti-Stokes/Stokes $= (21\,127/16\,467)^4e^{-hc\tilde\nu/kT} = 2{,}71 \times 1{,}31 \times 10^{-5} = 3{,}5 \times 10^{-5}$.
 
-**Memahami hasil.** Laser hijau menghasilkan cahaya Raman jingga (O₂) dan merah (N₂). Lidar Raman memakai garis-garis ini untuk mengukur kadar uap air dan suhu atmosfer dari jarak jauh: perbandingan anti-Stokes/Stokes bergantung hanya pada suhu, seperti termometer pita panas di Contoh 5.29.
+**Memahami hasil.** Laser hijau menghasilkan cahaya Raman jingga (O₂) dan merah (N₂). Lidar Raman memakai garis-garis ini untuk mengukur kadar uap air dan suhu atmosfer dari jarak jauh: perbandingan anti-Stokes/Stokes bergantung hanya pada suhu, seperti termometer pita panas di Contoh 5.33.
 :::
 
 ::: {.kuis}
@@ -235,7 +235,7 @@ $$
 Ekstrapolasi linear biasanya **melebih-lebihkan** energi disosiasi, karena kurva potensial sungguhan di dekat batas disosiasi mendatar lebih lambat (gaya van der Waals jangkauan panjang) daripada eksponensial Morse.
 
 ::: {.contoh}
-**Contoh 5.31 · Tetapan dari pita dasar dan nada atas**
+**Contoh 5.35 · Tetapan dari pita dasar dan nada atas**
 
 Spektrum IR HCl memperlihatkan pita dasar di 2885,9 cm⁻¹ dan nada atas pertama di 5668,0 cm⁻¹. Tentukan $\omega_e$ dan $\omega_ex_e$, lalu ramalkan nada atas kedua.
 
@@ -245,9 +245,9 @@ Spektrum IR HCl memperlihatkan pita dasar di 2885,9 cm⁻¹ dan nada atas pertam
 :::
 
 ::: {.contoh}
-**Contoh 5.32 · Energi disosiasi HCl dari Birge–Sponer**
+**Contoh 5.36 · Energi disosiasi HCl dari Birge–Sponer**
 
-Dengan hasil Contoh 5.31, perkirakan $D_e$ dan $D_0$ HCl. Bandingkan dengan nilai terukur $D_0 = 4{,}43$ eV.
+Dengan hasil Contoh 5.35, perkirakan $D_e$ dan $D_0$ HCl. Bandingkan dengan nilai terukur $D_0 = 4{,}43$ eV.
 
 **Penyelesaian.** $D_e = \omega_e^2/4\omega_ex_e = (2989{,}7)^2/207{,}6 = 43\,056$ cm⁻¹ $= 5{,}34$ eV. $G(0) = \tfrac12(2989{,}7) - \tfrac14(51{,}9) = 1481{,}9$ cm⁻¹ $= 0{,}18$ eV. $D_0 = 5{,}15$ eV.
 
@@ -255,7 +255,7 @@ Dengan hasil Contoh 5.31, perkirakan $D_e$ dan $D_0$ HCl. Bandingkan dengan nila
 :::
 
 ::: {.contoh}
-**Contoh 5.33 · Potensial Morse untuk H₂**
+**Contoh 5.37 · Potensial Morse untuk H₂**
 
 Untuk H₂, $D_e = 4{,}747$ eV dan $\omega_e = 4401{,}2$ cm⁻¹. Hitung parameter Morse $a$, ramalkan $\omega_ex_e$ dan jumlah tingkat terikat, lalu bandingkan dengan nilai sebenarnya $\omega_ex_e = 121{,}3$ cm⁻¹ dan 15 tingkat ($v = 0$ sampai 14).
 
@@ -265,7 +265,7 @@ Untuk H₂, $D_e = 4{,}747$ eV dan $\omega_e = 4401{,}2$ cm⁻¹. Hitung paramet
 :::
 
 ::: {.contoh}
-**Contoh 5.34 · Seberapa salah parabola?**
+**Contoh 5.38 · Seberapa salah parabola?**
 
 Untuk H₂ (parameter Morse di atas), bandingkan $V_\text{Morse}$ dan $V_\text{harmonik} = D_ea^2(r - r_e)^2$ pada $r - r_e = -0{,}2$, $+0{,}2$, $+0{,}5$, dan $+1{,}0$ Å.
 
@@ -276,7 +276,7 @@ Untuk H₂ (parameter Morse di atas), bandingkan $V_\text{Morse}$ dan $V_\text{h
 | Morse (eV) | 1,07 | 0,49 | 1,84 | 3,49 |
 | Harmonik (eV) | 0,72 | 0,72 | 4,49 | 17,9 |
 
-**Memahami hasil.** Pada simpangan 0,2 Å, parabola sudah salah sekitar 50% ke dua arah: terlalu lunak di sisi pemampatan dan terlalu keras di sisi peregangan. Untuk keadaan dasar H₂, simpangan khas hanya 0,09 Å (Contoh 5.16), sehingga pendekatan harmonik cukup baik; untuk tingkat tinggi dan untuk reaksi kimia (ikatan yang benar-benar putus), parabola tidak dapat dipakai.
+**Memahami hasil.** Pada simpangan 0,2 Å, parabola sudah salah sekitar 50% ke dua arah: terlalu lunak di sisi pemampatan dan terlalu keras di sisi peregangan. Untuk keadaan dasar H₂, simpangan khas hanya 0,09 Å (Contoh 5.18), sehingga pendekatan harmonik cukup baik; untuk tingkat tinggi dan untuk reaksi kimia (ikatan yang benar-benar putus), parabola tidak dapat dipakai.
 :::
 
 ::: {.awas}
@@ -286,7 +286,7 @@ Dalam tabel tetapan molekul, $\omega_e$ adalah frekuensi harmonik "di dasar sumu
 :::
 
 ::: {.contoh}
-**Contoh 5.35 · Tangga yang makin rapat**
+**Contoh 5.39 · Tangga yang makin rapat**
 
 Untuk HCl ($\omega_e = 2990{,}95$, $\omega_ex_e = 52{,}82$ cm⁻¹), hitung $\Delta G_{v+1/2}$ untuk $v = 0$ dan $v = 10$, dan bandingkan dengan $\omega_e$.
 

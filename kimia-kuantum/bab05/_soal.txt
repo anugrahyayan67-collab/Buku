@@ -34,6 +34,8 @@ Tunjukkan bahwa $\alpha$ berdimensi m⁻² dan $\xi = \sqrt\alpha\,x$ tak berdim
 Tunjukkan bahwa $e^{+\xi^2/2}$ juga memenuhi (5.8) secara asimtotik untuk $\xi$ besar. Mengapa ditolak? ||| tidak dapat dinormalisasi
 Tunjukkan bahwa $\psi = (2\xi^2 - 1)e^{-\xi^2/2}$ memenuhi (5.8) dan tentukan $\varepsilon$. ||| $\varepsilon = 5$, $E = \tfrac52\hbar\omega$
 
+Hitung $1/\sqrt\alpha$ (pm) untuk ¹²C¹⁶O ($\tilde\nu = 2170$ cm⁻¹, $\mu = 6{,}8562$ u). ||| 4,76 pm
+
 **Tantangan ★**
 
 ★ Tunjukkan bahwa potensial $V = \tfrac12k(x - x_0)^2 + V_0$ memberi tingkat energi $V_0 + (v + \tfrac12)\hbar\omega$ dan fungsi gelombang yang tergeser ke $x_0$. ||| substitusi $y = x - x_0$
@@ -52,6 +54,8 @@ Verifikasi $H_n' = 2nH_{n-1}$ untuk $n = 3$. ||| $24\xi^2 - 12 = 6(4\xi^2 - 2)$
 Tuliskan $\psi_2$ ternormalisasi dalam $x$ dan $\alpha$. ||| $(\alpha/\pi)^{1/4}(2\alpha x^2 - 1)e^{-\alpha x^2/2}/\sqrt2$
 Tunjukkan $\int H_1H_3e^{-\xi^2}d\xi = 0$ dengan integral Gauss. ||| $12\sqrt\pi - 12\sqrt\pi = 0$
 Bila $\varepsilon = 1{,}2$, deret tidak berhenti. Tunjukkan bahwa untuk $k$ besar $a_{k+2}/a_k \to 2/k$, dan jelaskan mengapa ini berperilaku seperti $e^{\xi^2}$. ||| koefisien $e^{\xi^2}$: $b_{k+2}/b_k = 1/(k/2 + 1) \to 2/k$
+
+Dengan rekursi, bangun $H_5(y)$. ||| $32y^5 - 160y^3 + 120y$
 
 **Tantangan ★**
 
@@ -91,6 +95,8 @@ Hitung $\sqrt{\langle x^2\rangle}$ untuk HCl pada $v = 2$. ||| 17,0 pm
 Berapa $\langle T\rangle$ untuk $v = 3$ dalam $\hbar\omega$? ||| $\tfrac74$
 Hitung $\Delta x\,\Delta p$ untuk $v = 1$. ||| $\tfrac32\hbar$
 
+Untuk keadaan dasar, berapa peluang osilator berada di dalam $|y| < 0{,}5$? ||| 0,520
+
 **Tantangan ★**
 
 ★ Untuk $v = 10$, hitung secara numerik peluang berada di $|\xi| < \xi_t/2$ dan bandingkan dengan nilai klasik $\tfrac13$. ||| 0,352 (klasik 0,333)
@@ -110,6 +116,8 @@ Buktikan $[\hat N, \hat a^\dagger] = \hat a^\dagger$ dengan $\hat N = \hat a^\da
 @tangga [P] Dengan operator tangga, buktikan $\langle v|x^2|v\rangle = (2v + 1)\hbar/2\mu\omega$ dan $\langle v|p^2|v\rangle = (2v + 1)\mu\hbar\omega/2$. ||| lihat pembahasan
 Hitung $\langle 1|x^4|1\rangle$. ||| $15(\hbar/2\mu\omega)^2$
 
+Dengan operator tangga, tunjukkan bahwa $\langle v|\hat p^2|v\rangle = (2v + 1)\hbar^2\alpha/2$, lalu periksa bahwa $\langle T\rangle = \langle V\rangle$. ||| $\langle T\rangle = \langle V\rangle = \tfrac12(v + \tfrac12)\hbar\omega$
+
 **Tantangan ★**
 
 ★ Hitung $\langle 1|x^3|0\rangle$ dan $\langle 3|x^3|0\rangle$. Mengapa unsur ini penting untuk anharmonisitas? ||| $3(\hbar/2\mu\omega)^{3/2}$; $\sqrt6(\hbar/2\mu\omega)^{3/2}$; suku $x^3$ potensial menggandengkan $\Delta v = \pm1, \pm3$
@@ -128,6 +136,8 @@ Hitung tetapan gaya NO ($\tilde\nu = 1904{,}2$ cm⁻¹). Letakkan di antara N₂
 Ikatan tunggal C–C mempunyai $k \approx 450$ N/m. Perkirakan $\tilde\nu$ bila diperlakukan sebagai diatom dengan $\mu = 6$ u. ||| 1128 cm⁻¹
 Ramalkan $\omega_e$ untuk ¹⁵N₂ ($m = 15{,}0001$ u) dari ¹⁴N₂ (2358,57 cm⁻¹). ||| 2278,8 cm⁻¹
 CO bebas menyerap di 2143 cm⁻¹; dalam karbonil logam di 2000 cm⁻¹. Berapa persen tetapan gaya C–O turun? ||| 13%
+
+Hitung tetapan gaya Cl₂ ($\tilde\nu = 560$ cm⁻¹, ³⁵Cl 34,969 u) dan bandingkan dengan F₂. ||| 323 N/m; lebih lunak dari F₂ (471 N/m)
 
 **Tantangan ★**
 
@@ -182,8 +192,8 @@ Hitung pergeseran ulur C–H (2900 cm⁻¹) bila ¹²C diganti ¹³C. ||| 2891 c
 **Menengah**
 
 @kie [P] Pada suhu berapa $k_H/k_D = 3$ untuk pemutusan C–H (2900 cm⁻¹), menurut (5.31)? ||| 505 K
-@hdo [P] Mode normal HDO gas: 2727, 1402, 3707 cm⁻¹. Dengan data Contoh 5.42, hitung $\Delta E_0$ untuk H₂O + D₂O ⇌ 2HDO dan perkirakan $K$ pada 298 K (faktor statistik 4). ||| $\Delta E_0 = 13{,}5$ cm⁻¹; $K \approx 3{,}75$
-Dengan data H₂ di Contoh 5.36, ramalkan $D_0$ untuk T₂. ||| 4,591 eV
+@hdo [P] Mode normal HDO gas: 2727, 1402, 3707 cm⁻¹. Dengan data Contoh 5.46, hitung $\Delta E_0$ untuk H₂O + D₂O ⇌ 2HDO dan perkirakan $K$ pada 298 K (faktor statistik 4). ||| $\Delta E_0 = 13{,}5$ cm⁻¹; $K \approx 3{,}75$
+Dengan data H₂ di Contoh 5.40, ramalkan $D_0$ untuk T₂. ||| 4,591 eV
 Efek isotop ¹⁶O/¹⁸O pada pemutusan ikatan C–O (1050 cm⁻¹, $\mu$ diatom C–O) berapa pada 298 K? ||| 1,06
 
 **Tantangan ★**
@@ -203,6 +213,9 @@ Molekul linear $N$ atom mempunyai $N - 1$ mode ulur. Berapa mode tekuknya? Perik
 Hitung energi titik nol harmonik CH₄ (2917; 1534 ×2; 3019 ×3; 1306 ×3 cm⁻¹). ||| 9480 cm⁻¹ = 113 kJ/mol
 Mengapa semua mode N₂O (N=N=O) aktif IR, sedangkan ulur simetris CO₂ tidak? ||| N₂O tidak mempunyai pusat inversi
 @fermi [P] Pada CO₂, dua tingkat tak tergandeng berenergi hampir sama ($\approx 1335$ cm⁻¹) bercampur dan teramati di 1285 dan 1388 cm⁻¹. Dengan model 2 × 2 (Contoh 2.35), taksir unsur penggandeng $W$ bila selisih tingkat tak tergandeng (a) nol, (b) 10 cm⁻¹. ||| (a) 51,5 cm⁻¹; (b) 51,3 cm⁻¹
+
+Berapa mode getaran NH₃ dan C₂H₆? ||| 6; 18
+Pada panjang gelombang berapa (μm) mode ulur asimetris CO₂ (2349 cm⁻¹) menyerap? Mengapa mode ini tidak penting untuk efek rumah kaca bumi? ||| 4,26 μm; jauh dari puncak pancaran bumi (± 10 μm)
 
 **Tantangan ★**
 

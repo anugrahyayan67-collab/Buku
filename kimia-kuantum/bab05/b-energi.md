@@ -27,7 +27,7 @@ $$
 (energi diukur dari tingkat $v = 0$). Untuk sebagian besar molekul pada suhu kamar, $\hbar\omega \gg kT$, sehingga hampir semua molekul berada di $v = 0$.
 
 ::: {.contoh}
-**Contoh 5.10 · Energi titik nol beberapa molekul**
+**Contoh 5.12 · Energi titik nol beberapa molekul**
 
 Hitung energi titik nol harmonik (cm⁻¹, kJ/mol, dan dalam satuan $kT$ pada 298 K) untuk H₂ (4401 cm⁻¹), HF (4138), N₂ (2359), dan CO (2170).
 
@@ -43,7 +43,7 @@ Hitung energi titik nol harmonik (cm⁻¹, kJ/mol, dan dalam satuan $kT$ pada 29
 :::
 
 ::: {.contoh}
-**Contoh 5.11 · $D_e$ dan $D_0$ molekul hidrogen**
+**Contoh 5.13 · $D_e$ dan $D_0$ molekul hidrogen**
 
 Energi disosiasi H₂ yang terukur adalah $D_0 = 4{,}478$ eV. Dengan $\omega_e = 4401$ cm⁻¹, perkirakan $D_e$ dengan (5.14). Nilai perhitungan kuantum yang sangat teliti adalah 4,747 eV. Mengapa selisihnya?
 
@@ -53,7 +53,7 @@ Energi disosiasi H₂ yang terukur adalah $D_0 = 4{,}478$ eV. Dengan $\omega_e =
 :::
 
 ::: {.contoh}
-**Contoh 5.12 · Siapa yang bergetar pada suhu kamar?**
+**Contoh 5.14 · Siapa yang bergetar pada suhu kamar?**
 
 Hitung fraksi molekul pada $v = 1$ pada 298 K untuk HCl (2991 cm⁻¹), O₂ (1580), Cl₂ (560), dan I₂ (214,5), dan fungsi partisi getaran I₂.
 
@@ -67,7 +67,7 @@ Hitung fraksi molekul pada $v = 1$ pada 298 K untuk HCl (2991 cm⁻¹), O₂ (15
 Energi reaksi yang dihitung dari kurva potensial (beda $D_e$) harus dikoreksi dengan selisih energi titik nol hasil dan pereaksi sebelum dibandingkan dengan entalpi reaksi pada 0 K. Untuk molekul organik, koreksi ini dapat mencapai puluhan kJ/mol, karena energi titik nol dijumlahkan atas semua mode (subbab 5.11). Pada suhu yang lebih tinggi, energi getaran termal di atas $E_0$ juga ikut, dan menyumbang pada kapasitas kalor gas.
 
 ::: {.contoh}
-**Contoh 5.13 · Koreksi energi titik nol reaksi H₂ + F₂ → 2HF**
+**Contoh 5.15 · Koreksi energi titik nol reaksi H₂ + F₂ → 2HF**
 
 Dengan $G(0) = \tfrac12\omega_e - \tfrac14\omega_ex_e$ dan data H₂ (4401,21; 121,34 cm⁻¹), F₂ (916,64; 11,24 cm⁻¹), HF (4138,32; 89,88 cm⁻¹), hitung $\Delta E_0 = 2E_0(\text{HF}) - E_0(\text{H}_2) - E_0(\text{F}_2)$.
 
@@ -77,7 +77,7 @@ Dengan $G(0) = \tfrac12\omega_e - \tfrac14\omega_ex_e$ dan data H₂ (4401,21; 1
 :::
 
 ::: {.contoh}
-**Contoh 5.14 · Kapasitas kalor getaran N₂**
+**Contoh 5.16 · Kapasitas kalor getaran N₂**
 
 Kapasitas kalor getaran molar osilator harmonik adalah $C = R\,x^2e^x/(e^x - 1)^2$ dengan $x = hc\tilde\nu/kT$ (subbab 1.3). Hitung $C/R$ untuk N₂ ($\tilde\nu = 2358{,}6$ cm⁻¹) pada 300, 1000, dan 2000 K.
 
@@ -127,7 +127,7 @@ $$
 Akibatnya $\langle T\rangle = \langle p^2\rangle/2\mu = \tfrac12E_v$ dan $\langle V\rangle = \tfrac12\mu\omega^2\langle x^2\rangle = \tfrac12E_v$: energi terbagi rata antara kinetik dan potensial (teorema virial untuk potensial kuadrat), dan $\Delta x\,\Delta p = (v + \tfrac12)\hbar$.
 
 ::: {.contoh}
-**Contoh 5.15 · Seberapa jauh menembus?**
+**Contoh 5.17 · Seberapa jauh menembus?**
 
 Hitung peluang berada di luar titik balik untuk $v = 0$, 1, 2, 5, dan 10.
 
@@ -137,7 +137,7 @@ Hitung peluang berada di luar titik balik untuk $v = 0$, 1, 2, 5, dan 10.
 :::
 
 ::: {.contoh}
-**Contoh 5.16 · Getaran titik nol HCl dan H₂**
+**Contoh 5.18 · Getaran titik nol HCl dan H₂**
 
 Hitung $\sqrt{\langle x^2\rangle}$ pada $v = 0$ untuk HCl ($\tilde\nu = 2991$ cm⁻¹, $\mu = 0{,}9796$ u) dan bandingkan dengan panjang ikatan 127,5 pm. Lakukan hal yang sama untuk H₂ (74,1 pm).
 
@@ -147,7 +147,7 @@ Hitung $\sqrt{\langle x^2\rangle}$ pada $v = 0$ untuk HCl ($\tilde\nu = 2991$ cm
 :::
 
 ::: {.contoh}
-**Contoh 5.17 · Teorema virial osilator**
+**Contoh 5.19 · Teorema virial osilator**
 
 Untuk $v = 0$, hitung $\langle T\rangle$ dan $\langle V\rangle$ langsung dengan $\psi_0 = (\alpha/\pi)^{1/4}e^{-\alpha x^2/2}$.
 
@@ -161,13 +161,23 @@ Untuk $v = 0$, hitung $\langle T\rangle$ dan $\langle V\rangle$ langsung dengan 
 Keadaan stasioner $\psi_v$ tidak bergerak: rapat peluangnya tidak bergantung waktu (subbab 3.4). Untuk melihat ikatan yang benar-benar "bergetar", kita perlu superposisi beberapa keadaan, yang rapat peluangnya berosilasi dengan frekuensi Bohr $(E_{v'} - E_v)/h$ (Contoh 3.11). Karena semua selisih energi osilator harmonik adalah kelipatan $\hbar\omega$, superposisi apa pun kembali ke bentuk semula setelah tepat satu periode klasik $2\pi/\omega$: paket gelombang osilator tidak menyebar, tetapi berayun bolak-balik seperti partikel klasik.
 
 ::: {.contoh}
-**Contoh 5.18 · Ikatan I₂ yang berayun**
+**Contoh 5.20 · Ikatan I₂ yang berayun**
 
 Molekul I₂ disiapkan dalam superposisi $\Psi = (\psi_0e^{-iE_0t/\hbar} + \psi_1e^{-iE_1t/\hbar})/\sqrt2$. Hitung $\langle x\rangle(t)$, periodenya, dan amplitudonya ($\tilde\nu = 214{,}5$ cm⁻¹, $\mu = 63{,}45$ u).
 
 **Penyelesaian.** $\langle x\rangle = \tfrac12[\langle 0|x|0\rangle + \langle 1|x|1\rangle] + \tfrac12[\langle 0|x|1\rangle e^{-i\omega t} + \langle 1|x|0\rangle e^{i\omega t}]$. Suku diagonal nol (paritas), dan $\langle 0|x|1\rangle = \sqrt{\hbar/2\mu\omega}$ riil, jadi $\langle x\rangle(t) = \sqrt{\hbar/2\mu\omega}\cos\omega t$. Periode $1/(c\tilde\nu) = 155{,}5$ fs; amplitudo $\sqrt{\hbar/2\mu\omega} = 3{,}5$ pm.
 
 **Memahami hasil.** Pusat paket berayun dengan frekuensi klasik, sesuai teorema Ehrenfest (Contoh 4.21). Pada akhir 1980-an, Ahmed Zewail memakai pulsa laser berdurasi puluhan femtodetik untuk menyiapkan paket semacam ini dalam I₂ dan NaI dan "memfilmkan" gerak inti selama ikatan meregang dan putus. Kelahiran **femtokimia** (Hadiah Nobel 1999) ini bertumpu pada fakta sederhana bahwa superposisi keadaan getaran bergerak, sedangkan keadaan tunggal tidak.
+:::
+
+::: {.contoh}
+**Contoh 5.21 · Seberapa jauh osilator menembus daerah terlarang?**
+
+Hitung peluang osilator berada di luar titik balik klasiknya untuk $v = 0$ dan $v = 1$. Untuk $v = 0$, $P = \operatorname{erfc}(1)$; untuk $v = 1$, $P = \operatorname{erfc}(\sqrt3) + \tfrac{2\sqrt3}{\sqrt\pi}e^{-3}$.
+
+**Penyelesaian.** $v = 0$: $P = 0{,}157$. $v = 1$: $P = 0{,}0143 + 0{,}0975 = 0{,}112$.
+
+**Memahami hasil.** Pada keadaan dasar, hampir 16% waktu molekul berada di jarak yang secara klasik terlarang, dan peluang itu menurun perlahan dengan $v$. Penembusan seperti ini mendasari penerobosan atom hidrogen dalam reaksi transfer proton dan inversi amonia (subbab 3.12): fungsi gelombang yang "bocor" ke daerah terlarang dapat menyambung ke sumur di seberangnya.
 :::
 
 ::: {.kuis}
@@ -225,7 +235,7 @@ $$
 Hanya unsur antara tingkat-tingkat yang **bertetangga** yang tidak nol. Inilah asal aturan seleksi inframerah $\Delta v = \pm1$ (subbab 5.8).
 
 ::: {.contoh}
-**Contoh 5.19 · Membangun $\psi_1$ dan $\psi_2$ dengan $\hat a^\dagger$**
+**Contoh 5.22 · Membangun $\psi_1$ dan $\psi_2$ dengan $\hat a^\dagger$**
 
 Mulai dari $\psi_0 = \pi^{-1/4}e^{-\xi^2/2}$, hitung $\hat a^\dagger\psi_0$ dan $\hat a^\dagger\psi_1$, lalu bandingkan dengan (5.13).
 
@@ -235,11 +245,11 @@ Mulai dari $\psi_0 = \pi^{-1/4}e^{-\xi^2/2}$, hitung $\hat a^\dagger\psi_0$ dan 
 :::
 
 ::: {.contoh}
-**Contoh 5.20 · Unsur matriks tanpa integral**
+**Contoh 5.23 · Unsur matriks tanpa integral**
 
 Dengan (5.20), hitung (a) $\langle 1|x|0\rangle$ untuk HCl, (b) $\langle 0|x^2|0\rangle$, (c) $\langle 0|x^4|0\rangle$ dalam satuan $(\hbar/2\mu\omega)$.
 
-**Penyelesaian.** (a) $\sqrt{\hbar/2\mu\omega} = 7{,}6$ pm (Contoh 5.16).
+**Penyelesaian.** (a) $\sqrt{\hbar/2\mu\omega} = 7{,}6$ pm (Contoh 5.18).
 
 (b) $\hat x^2 = \tfrac{\hbar}{2\mu\omega}(\hat a + \hat a^\dagger)^2$. Pada $\psi_0$: $(\hat a + \hat a^\dagger)\psi_0 = \psi_1$, lalu $(\hat a + \hat a^\dagger)\psi_1 = \psi_0 + \sqrt2\psi_2$. Proyeksi pada $\psi_0$: 1. Jadi $\langle x^2\rangle = \hbar/2\mu\omega$.
 
@@ -249,13 +259,29 @@ Dengan (5.20), hitung (a) $\langle 1|x|0\rangle$ untuk HCl, (b) $\langle 0|x^2|0
 :::
 
 ::: {.contoh}
-**Contoh 5.21 · Komutator dan spektrum**
+**Contoh 5.24 · Komutator dan spektrum**
 
 Buktikan $[\hat a, \hat a^\dagger] = 1$ dari $[\hat\xi, \hat p] = i$, lalu tunjukkan $[\hat H, \hat a] = -\hat a$.
 
 **Penyelesaian.** $[\hat a, \hat a^\dagger] = \tfrac12[\hat\xi + i\hat p, \hat\xi - i\hat p] = \tfrac12(-i[\hat\xi, \hat p] + i[\hat p, \hat\xi]) = \tfrac12(-i\cdot i + i\cdot(-i)) = 1$. Lalu $[\hat H, \hat a] = [\hat a^\dagger\hat a, \hat a] = \hat a^\dagger[\hat a, \hat a] + [\hat a^\dagger, \hat a]\hat a = 0 - \hat a = -\hat a$.
 
 **Memahami hasil.** Seluruh spektrum osilator mengikuti dari satu komutator. Metode serupa, dengan komutator momentum sudut $[\hat L_x, \hat L_y] = i\hbar\hat L_z$, memberikan nilai eigen momentum sudut tanpa menyelesaikan persamaan diferensial (Bab 6). Aljabar operator adalah cara paling ringkas untuk mengungkap struktur sebuah masalah kuantum.
+:::
+
+::: {.contoh}
+**Contoh 5.25 · Simpangan rms dengan operator tangga**
+
+Dengan $\hat x = (\hat a + \hat a^\dagger)/\sqrt{2\alpha}$, hitung $\langle v|\hat x^2|v\rangle$ tanpa integral, lalu nilai rms simpangan HCl untuk $v = 0$ dan $v = 1$ ($\alpha = 8{,}69 \times 10^{21}$ m⁻²).
+
+**Penyelesaian.** $\hat x^2 = (\hat a^2 + \hat a\hat a^\dagger + \hat a^\dagger\hat a + \hat a^{\dagger2})/2\alpha$. Suku $\hat a^2$ dan $\hat a^{\dagger2}$ mengubah $v$ sebesar 2 sehingga nilai harapnya nol. Dengan $\hat a^\dagger\hat a|v\rangle = v|v\rangle$ dan $\hat a\hat a^\dagger|v\rangle = (v + 1)|v\rangle$:
+
+$$
+\langle\hat x^2\rangle = \frac{2v + 1}{2\alpha} .
+$$
+
+HCl: $v = 0$, $x_\text{rms} = 1/\sqrt{2\alpha} = 7{,}6$ pm; $v = 1$, $x_\text{rms} = \sqrt{3/2\alpha} = 13{,}1$ pm.
+
+**Memahami hasil.** Satu baris aljabar operator menggantikan integral fungsi Hermite. Simpangan rms yang membesar dengan $v$ menjelaskan mengapa panjang ikatan rata-rata naik pada tingkat getaran lebih tinggi (dengan bantuan anharmonisitas, subbab 5.9), dan mengapa difraksi elektron gas memberi panjang ikatan "efektif" yang sedikit bergantung pada suhu.
 :::
 
 ::: {.kuis}

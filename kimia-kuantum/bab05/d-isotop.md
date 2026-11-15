@@ -31,7 +31,7 @@ $$
 Nilai klasik maksimum sekitar 7 pada suhu kamar ini disebut **efek isotop kinetik primer**. Pengukurannya adalah alat utama ahli kimia organik dan biokimia untuk mengetahui apakah ikatan C–H diputus pada langkah penentu laju. Nilai yang jauh lebih besar daripada 7 (sampai 50 atau lebih pada beberapa enzim) menandakan **penerobosan** hidrogen melalui penghalang (Contoh 3.39).
 
 ::: {.contoh}
-**Contoh 5.36 · Ramalan spektrum D₂ dan HD**
+**Contoh 5.40 · Ramalan spektrum D₂ dan HD**
 
 Dari data H₂ ($\omega_e = 4401{,}21$, $\omega_ex_e = 121{,}34$ cm⁻¹, $D_e = 4{,}7472$ eV), ramalkan $\omega_e$, energi titik nol, dan $D_0$ untuk HD dan D₂.
 
@@ -48,7 +48,7 @@ Dari data H₂ ($\omega_e = 4401{,}21$, $\omega_ex_e = 121{,}34$ cm⁻¹, $D_e =
 :::
 
 ::: {.contoh}
-**Contoh 5.37 · Pita O–H dan O–D**
+**Contoh 5.41 · Pita O–H dan O–D**
 
 Pita ulur simetris H₂O gas berada di 3657 cm⁻¹. Ramalkan pita O–D yang bersesuaian, anggap getaran ini sebagai osilator O–H diatom.
 
@@ -58,7 +58,7 @@ Pita ulur simetris H₂O gas berada di 3657 cm⁻¹. Ramalkan pita O–D yang be
 :::
 
 ::: {.contoh}
-**Contoh 5.38 · Efek isotop kinetik C–H/C–D**
+**Contoh 5.42 · Efek isotop kinetik C–H/C–D**
 
 Ulur C–H khas berada di 2900 cm⁻¹. Hitung $\tilde\nu(\text{C–D})$, selisih energi titik nol, dan $k_H/k_D$ maksimum menurut (5.31) pada 25 °C dan 100 °C.
 
@@ -68,9 +68,9 @@ Ulur C–H khas berada di 2900 cm⁻¹. Hitung $\tilde\nu(\text{C–D})$, selisi
 :::
 
 ::: {.contoh}
-**Contoh 5.39 · Kesetimbangan pertukaran isotop**
+**Contoh 5.43 · Kesetimbangan pertukaran isotop**
 
-Untuk reaksi H₂ + D₂ ⇌ 2HD, hitung perubahan energi titik nol dengan data Contoh 5.36. Pada suhu tinggi, tetapan kesetimbangan mendekati 4 (faktor statistik: HD tidak simetris). Seberapa besar energi titik nol menggeser nilai itu pada 298 K?
+Untuk reaksi H₂ + D₂ ⇌ 2HD, hitung perubahan energi titik nol dengan data Contoh 5.40. Pada suhu tinggi, tetapan kesetimbangan mendekati 4 (faktor statistik: HD tidak simetris). Seberapa besar energi titik nol menggeser nilai itu pada 298 K?
 
 **Penyelesaian.** $\Delta E_0 = 2(1883{,}3) - 2170{,}3 - 1541{,}5 = 54{,}8$ cm⁻¹ $= 0{,}66$ kJ/mol. Faktor Boltzmann $e^{-54{,}8 \times 1{,}4388/298{,}15} = 0{,}768$, jadi $K \approx 4 \times 0{,}768 = 3{,}1$.
 
@@ -84,7 +84,7 @@ Banyak obat diuraikan di hati oleh enzim sitokrom P450 melalui pemutusan ikatan 
 :::
 
 ::: {.contoh}
-**Contoh 5.40 · Energi disosiasi DCl**
+**Contoh 5.44 · Energi disosiasi DCl**
 
 Dari data HCl ($\omega_e = 2990{,}95$, $\omega_ex_e = 52{,}82$ cm⁻¹, $D_0 = 4{,}434$ eV), ramalkan $D_0$ untuk DCl.
 
@@ -129,10 +129,10 @@ Setiap mode adalah osilator harmonik bab ini, dengan aturan seleksi $\Delta v_k 
 
 ### Frekuensi gugus
 
-Dalam molekul organik besar, mode normal pada prinsipnya melibatkan semua atom, tetapi beberapa getaran praktis terlokalisasi pada satu gugus: ulur X–H (karena H ringan; Contoh 5.24), ulur C=O (tetapan gaya besar, sekitar 1700 cm⁻¹), ulur C≡N dan C≡C (sekitar 2100–2250 cm⁻¹). Frekuensinya hanya sedikit dipengaruhi sisa molekul, sehingga menjadi **frekuensi gugus** yang dipakai untuk mengenali gugus fungsi dalam spektrum IR. Getaran kerangka di bawah 1500 cm⁻¹ bergandeng kuat dan khas untuk tiap molekul: daerah **sidik jari**.
+Dalam molekul organik besar, mode normal pada prinsipnya melibatkan semua atom, tetapi beberapa getaran praktis terlokalisasi pada satu gugus: ulur X–H (karena H ringan; Contoh 5.28), ulur C=O (tetapan gaya besar, sekitar 1700 cm⁻¹), ulur C≡N dan C≡C (sekitar 2100–2250 cm⁻¹). Frekuensinya hanya sedikit dipengaruhi sisa molekul, sehingga menjadi **frekuensi gugus** yang dipakai untuk mengenali gugus fungsi dalam spektrum IR. Getaran kerangka di bawah 1500 cm⁻¹ bergandeng kuat dan khas untuk tiap molekul: daerah **sidik jari**.
 
 ::: {.contoh}
-**Contoh 5.41 · Menghitung mode**
+**Contoh 5.45 · Menghitung mode**
 
 Berapa banyak mode getaran untuk H₂O, CO₂, NH₃, CH₄, HC≡CH, C₆H₆, SF₆, dan C₆₀?
 
@@ -142,7 +142,7 @@ Berapa banyak mode getaran untuk H₂O, CO₂, NH₃, CH₄, HC≡CH, C₆H₆, 
 :::
 
 ::: {.contoh}
-**Contoh 5.42 · Energi titik nol air dan air berat**
+**Contoh 5.46 · Energi titik nol air dan air berat**
 
 Mode normal H₂O gas: 3657, 1595, 3756 cm⁻¹; D₂O: 2671, 1178, 2788 cm⁻¹. Hitung energi titik nol harmonik keduanya dan selisihnya.
 
@@ -152,7 +152,7 @@ Mode normal H₂O gas: 3657, 1595, 3756 cm⁻¹; D₂O: 2671, 1178, 2788 cm⁻¹
 :::
 
 ::: {.contoh}
-**Contoh 5.43 · Pita kombinasi dan resonansi Fermi**
+**Contoh 5.47 · Pita kombinasi dan resonansi Fermi**
 
 Pada CO₂, ulur simetris (1333 cm⁻¹, tidak aktif IR) hampir tepat dua kali tekuk (667 cm⁻¹). Apa yang terjadi pada tingkat $v_1 = 1$ dan tingkat $v_2 = 2$?
 
@@ -162,13 +162,29 @@ Pada CO₂, ulur simetris (1333 cm⁻¹, tidak aktif IR) hampir tepat dua kali t
 :::
 
 ::: {.contoh}
-**Contoh 5.44 · Memperkirakan pita karbonil**
+**Contoh 5.48 · Memperkirakan pita karbonil**
 
 Tetapan gaya C=O dalam keton sekitar 1200 N/m, dan ikatan tunggal C–O sekitar 500 N/m. Dengan model diatom C–O ($\mu = 6{,}856$ u), perkirakan bilangan gelombang ulurnya. Bagaimana konjugasi dengan ikatan rangkap C=C ($k$ turun menjadi sekitar 1150 N/m) mengubah pita C=O?
 
 **Penyelesaian.** $\tilde\nu = \sqrt{k/\mu}/2\pi c$. Untuk $k = 1200$ N/m: 1724 cm⁻¹; $k = 500$ N/m: 1113 cm⁻¹; $k = 1150$ N/m: 1687 cm⁻¹.
 
 **Memahami hasil.** Model diatom sederhana menempatkan pita karbonil di 1720 cm⁻¹, tepat di daerah tempat keton alifatik menyerap (1715 cm⁻¹), dan menjelaskan mengapa keton terkonjugasi menyerap sekitar 30–40 cm⁻¹ lebih rendah. Pita C=O kuat (dipol berubah besar) dan terletak di daerah yang kosong, sehingga menjadi pita paling berguna dalam spektroskopi IR organik.
+:::
+
+::: {.contoh}
+**Contoh 5.49 · Menghitung mode normal**
+
+Berapa banyak mode getaran untuk CO₂, H₂O, CH₄, dan benzena? Untuk CO₂, mode mana yang aktif inframerah?
+
+**Penyelesaian.** Molekul linear mempunyai $3N - 5$ mode, molekul tak linear $3N - 6$: CO₂ 4, H₂O 3, CH₄ 9, benzena 30. CO₂ mempunyai ulur simetris (1333 cm⁻¹), ulur asimetris (2349 cm⁻¹), dan dua tekuk yang berdegenerasi (667 cm⁻¹). Ulur simetris tidak mengubah momen dipol (kedua O bergerak berlawanan arah secara simetris), sehingga tidak aktif inframerah; ulur asimetris dan tekuk aktif.
+
+**Memahami hasil.** Mode yang tidak aktif inframerah biasanya aktif Raman, dan sebaliknya untuk molekul yang mempunyai pusat inversi (aturan saling eksklusi, Bab 10). Teori grup memberi cara sistematis untuk menentukan aktivitas semua 30 mode benzena tanpa menggambar satu per satu.
+:::
+
+::: {.terapan}
+**Kaitan kimia · Mode tekuk CO₂ dan efek rumah kaca**
+
+Bumi bersuhu sekitar 288 K memancarkan radiasi inframerah dengan puncak di sekitar 10 μm (hukum Wien). Mode tekuk CO₂ pada 667 cm⁻¹ berada di 15,0 μm, di sisi kuat spektrum pancaran itu, sehingga CO₂ menyerap sebagian radiasi yang seharusnya lolos ke angkasa. N₂ dan O₂, yang jauh lebih melimpah, tidak menyerap sama sekali karena getaran molekul diatom homonuklir tidak mengubah momen dipol. Jadi efek rumah kaca adalah akibat langsung aturan seleksi inframerah yang diturunkan di bab ini.
 :::
 
 ::: {.kuis}
@@ -253,7 +269,7 @@ for E1 in [0.3, 1.3, 2.3, 3.3]:
 Keluarannya adalah 0,5; 1,5; 2,5; 3,5, tepat $v + \tfrac12$. (Di sini $g = 2(V - E)$, sehingga $f = 1 - \tfrac{h^2}{12}g = 1 + \tfrac{h^2}{12}\cdot2(E - V)$.)
 
 ::: {.contoh}
-**Contoh 5.45 · Galat terhadap ukuran langkah**
+**Contoh 5.50 · Galat terhadap ukuran langkah**
 
 Dengan program di atas, energi keadaan dasar dan keadaan $v = 2$ osilator harmonik dihitung pada selang $[-6, 6]$ dengan langkah $h$ yang berbeda. Hasil galatnya ($E_\text{numerik} - E_\text{eksak}$):
 
@@ -270,9 +286,9 @@ Periksa bahwa galat sebanding dengan $h^4$.
 :::
 
 ::: {.contoh}
-**Contoh 5.46 · Tingkat getaran Morse H₂ secara numerik**
+**Contoh 5.51 · Tingkat getaran Morse H₂ secara numerik**
 
-Program yang sama, dengan $V$ diganti potensial Morse H₂ (Contoh 5.33) dalam satuan atom ($\mu = 918{,}6\,m_e$, 4000 titik dari 0,4 sampai 6 bohr), memberikan tingkat-tingkat berikut. Bandingkan dengan rumus eksak Morse $G(v) = \omega_e(v + \tfrac12) - \omega_ex_e(v + \tfrac12)^2$ dengan $\omega_e = 4401{,}21$ dan $\omega_ex_e = 126{,}48$ cm⁻¹.
+Program yang sama, dengan $V$ diganti potensial Morse H₂ (Contoh 5.37) dalam satuan atom ($\mu = 918{,}6\,m_e$, 4000 titik dari 0,4 sampai 6 bohr), memberikan tingkat-tingkat berikut. Bandingkan dengan rumus eksak Morse $G(v) = \omega_e(v + \tfrac12) - \omega_ex_e(v + \tfrac12)^2$ dengan $\omega_e = 4401{,}21$ dan $\omega_ex_e = 126{,}48$ cm⁻¹.
 
 | $v$ | 0 | 1 | 2 | 3 | 4 |
 |---|---|---|---|---|---|
@@ -285,7 +301,7 @@ Program yang sama, dengan $V$ diganti potensial Morse H₂ (Contoh 5.33) dalam s
 :::
 
 ::: {.contoh}
-**Contoh 5.47 · Sumur ganda: inversi amonia**
+**Contoh 5.52 · Sumur ganda: inversi amonia**
 
 Gerak "payung" amonia dapat dimodelkan dengan potensial sumur ganda $V(x) = V_0(x^2 - a^2)^2/a^4$, dengan penghalang setinggi $V_0$ di $x = 0$ (subbab 3.12). Apa yang akan diperlihatkan metode Numerov untuk tingkat-tingkat terendahnya?
 
@@ -295,7 +311,7 @@ Gerak "payung" amonia dapat dimodelkan dengan potensial sumur ganda $V(x) = V_0(
 :::
 
 ::: {.contoh}
-**Contoh 5.48 · Teorema virial sebagai uji hasil numerik**
+**Contoh 5.53 · Teorema virial sebagai uji hasil numerik**
 
 Dengan fungsi gelombang keadaan dasar dari program Numerov (dinormalisasi secara numerik dengan aturan Simpson), nilai harap untuk dua potensial ($\hbar = \mu = 1$) adalah:
 

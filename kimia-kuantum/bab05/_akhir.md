@@ -83,13 +83,13 @@ Suku tengah nol dan koefisien suku terakhir adalah $m_Am_B/M = \mu$.
 
 *Cara berpikir:* grafik $\Delta G$ terhadap $v$ untuk H₂ sebenarnya melengkung ke bawah pada $v$ tinggi (tingkat-tingkat atas lebih rapat daripada ramalan linear), sehingga garis lurus dari lima titik pertama memberi luas yang terlalu besar. Inilah keterbatasan umum ekstrapolasi Birge–Sponer: hasilnya batas atas, dan makin sedikit tingkat yang terukur, makin besar kesalahannya (bandingkan dengan I₂, yang meleset 49%).
 
-**Soal {{kie}}.** Dari Contoh 5.38, $\Delta E_0 = 385{,}4$ cm⁻¹. Syaratnya $hc\Delta E_0/kT = \ln 3$, jadi $T = (385{,}4)(1{,}4388\ \text{cm K})/1{,}0986 = 505$ K.
+**Soal {{kie}}.** Dari Contoh 5.42, $\Delta E_0 = 385{,}4$ cm⁻¹. Syaratnya $hc\Delta E_0/kT = \ln 3$, jadi $T = (385{,}4)(1{,}4388\ \text{cm K})/1{,}0986 = 505$ K.
 
 *Cara berpikir:* efek isotop kinetik turun dari 6,4 pada 298 K ke 3 pada 505 K. Ketergantungan suhu ini diuji dalam percobaan: bila $k_H/k_D$ mengikuti (5.31), model energi titik nol sudah cukup; bila efeknya jauh lebih besar dan hampir tidak bergantung suhu, penerobosan berperan.
 
 **Soal {{hdo}}.** $2E_0(\text{HDO}) = 2727 + 1402 + 3707 = 7836$ cm⁻¹; $E_0(\text{H}_2\text{O}) + E_0(\text{D}_2\text{O}) = 4504 + 3318{,}5 = 7822{,}5$ cm⁻¹. $\Delta E_0 = 13{,}5$ cm⁻¹ $= 0{,}16$ kJ/mol. $K \approx 4e^{-13{,}5 \times 1{,}4388/298{,}15} = 4 \times 0{,}937 = 3{,}75$.
 
-*Cara berpikir:* nilai terukur sekitar 3,8, sangat dekat dengan faktor statistik 4: energi titik nol campuran hampir aditif. Bandingkan dengan H₂ + D₂ (Contoh 5.39), tempat penyimpangannya jauh lebih besar karena hanya ada satu mode dan isotopnya mengubah massa tereduksi hampir dua kali lipat. Untuk kimia air berat, akibatnya praktis: dalam campuran H₂O dan D₂O, sebagian besar deuterium berada sebagai HDO.
+*Cara berpikir:* nilai terukur sekitar 3,8, sangat dekat dengan faktor statistik 4: energi titik nol campuran hampir aditif. Bandingkan dengan H₂ + D₂ (Contoh 5.43), tempat penyimpangannya jauh lebih besar karena hanya ada satu mode dan isotopnya mengubah massa tereduksi hampir dua kali lipat. Untuk kimia air berat, akibatnya praktis: dalam campuran H₂O dan D₂O, sebagian besar deuterium berada sebagai HDO.
 
 **Soal {{fermi}}.** Nilai eigen matriks $\begin{pmatrix}E_1 & W\\ W & E_2\end{pmatrix}$ adalah $\bar E \pm \tfrac12\sqrt{\Delta^2 + 4W^2}$, dengan $\Delta = E_1 - E_2$. Pemisahan teramati $1388 - 1285 = 103$ cm⁻¹ $= \sqrt{\Delta^2 + 4W^2}$. (a) $\Delta = 0$: $W = 51{,}5$ cm⁻¹. (b) $\Delta = 10$: $W = \tfrac12\sqrt{103^2 - 10^2} = 51{,}3$ cm⁻¹.
 

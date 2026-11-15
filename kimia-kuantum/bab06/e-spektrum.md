@@ -141,7 +141,7 @@ $$
 R(J) = \tilde\nu_0 + B_1(J + 1)(J + 2) - B_0J(J + 1), \qquad P(J) = \tilde\nu_0 + B_1(J - 1)J - B_0J(J + 1), \qquad \text{(6.37)}
 $$
 
-dengan $J$ tingkat bawah. Inilah rumus yang dipakai untuk menghitung spektrum HCl di Gambar 5.3 dan Contoh 5.23.
+dengan $J$ tingkat bawah. Inilah rumus yang dipakai untuk menghitung spektrum HCl di Gambar 5.3 dan Contoh 5.27.
 
 ### Selisih kombinasi
 
@@ -166,7 +166,7 @@ Hitung $D$ dengan (6.35) untuk HCl ($B_e = 10{,}593$, $\omega_e = 2990{,}9$ cm�
 ::: {.contoh}
 **Contoh 6.52 · Selisih kombinasi HCl**
 
-Garis-garis pita dasar HCl (Contoh 5.23): $R(0) = 2906{,}26$, $R(1) = 2925{,}94$, $P(1) = 2865{,}10$, $P(2) = 2843{,}62$ cm⁻¹. Tentukan $B_0$, $B_1$, $\alpha_e$, $B_e$, dan $r_e$.
+Garis-garis pita dasar HCl (Contoh 5.27): $R(0) = 2906{,}26$, $R(1) = 2925{,}94$, $P(1) = 2865{,}10$, $P(2) = 2843{,}62$ cm⁻¹. Tentukan $B_0$, $B_1$, $\alpha_e$, $B_e$, dan $r_e$.
 
 **Penyelesaian.** Dengan (6.38) untuk $J = 1$: $R(0) - P(2) = 62{,}64 = 4B_0(1{,}5)$, jadi $B_0 = 10{,}44$ cm⁻¹; $R(1) - P(1) = 60{,}84 = 4B_1(1{,}5)$, jadi $B_1 = 10{,}14$ cm⁻¹. $\alpha_e = B_0 - B_1 = 0{,}30$ cm⁻¹ dan $B_e = B_0 + \tfrac12\alpha_e = 10{,}59$ cm⁻¹. Maka $I_e = h/(8\pi^2cB_e)$ dan $r_e = \sqrt{I_e/\mu} = 127{,}5$ pm.
 

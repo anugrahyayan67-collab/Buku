@@ -300,7 +300,7 @@ Program di atas dijalankan dengan beberapa ukuran langkah. Galat energi ($E_\tex
 
 Bagaimana galat 1s bergantung pada $h$, dan mengapa jauh lebih buruk daripada 2p?
 
-**Penyelesaian.** Perbandingan galat 1s untuk $h$ yang dibagi dua: $2{,}5/0{,}63 = 3{,}9$; $6{,}3/1{,}6 = 3{,}9$; $1{,}6/0{,}40 = 4{,}0$. Galat sebanding dengan $h^2$, bukan $h^4$ seperti pada osilator (Contoh 5.45). Untuk 2p, galatnya hampir tidak bergantung pada $h$ dan berasal dari tepi luar yang terpotong di 30 bohr.
+**Penyelesaian.** Perbandingan galat 1s untuk $h$ yang dibagi dua: $2{,}5/0{,}63 = 3{,}9$; $6{,}3/1{,}6 = 3{,}9$; $1{,}6/0{,}40 = 4{,}0$. Galat sebanding dengan $h^2$, bukan $h^4$ seperti pada osilator (Contoh 5.50). Untuk 2p, galatnya hampir tidak bergantung pada $h$ dan berasal dari tepi luar yang terpotong di 30 bohr.
 
 **Memahami hasil.** Fungsi 1s mempunyai **taring** (*cusp*) di inti: $\psi = e^{-r}$ mempunyai turunan yang tidak malar di $r = 0$, dan potensial $-1/r$ tak hingga di sana. Rumus Numerov mengandaikan fungsi yang mulus, sehingga ketelitiannya turun. Untuk orbital p, $u \propto r^2$ dan penghalang sentrifugal menjauhkan fungsi dari inti, sehingga masalah itu hilang. Dalam praktik, persamaan radial diselesaikan pada kisi logaritmik ($r = e^x$) yang rapat di dekat inti; perilaku taring yang sama juga membuat fungsi basis Gauss, yang mulus di inti, kesulitan meniru orbital s (Bab 17).
 :::

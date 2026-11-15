@@ -203,6 +203,22 @@ Ikatan bermuatan parsial $\pm q$ ditempatkan dalam medan listrik seragam $\mathc
 **Memahami hasil.** Semua tingkat turun sama banyak, sehingga dalam model harmonik **frekuensi getaran tidak berubah** oleh medan. Pergeseran frekuensi yang teramati dalam medan listrik (efek Stark getaran, dipakai untuk mengukur medan listrik di situs aktif enzim dengan sonde C=O atau C≡N) berasal dari anharmonisitas (subbab 5.9): pada potensial yang tidak simetris, ikatan yang tergeser merasakan kelengkungan yang berbeda.
 :::
 
+::: {.contoh}
+**Contoh 5.7 · Skala panjang osilator HCl**
+
+Untuk H³⁵Cl, $\tilde\nu = 2990{,}9$ cm⁻¹ dan $\mu = 0{,}9796$ u. Hitung tetapan gaya $k$, parameter $\alpha = \mu\omega/\hbar$, dan titik balik klasik $x_\text{tb} = \sqrt{(2v + 1)/\alpha}$ untuk $v = 0$ dan $v = 1$.
+
+**Penyelesaian.** $\omega = 2\pi c\tilde\nu = 5{,}634 \times 10^{14}$ s⁻¹ dan $\mu = 1{,}6267 \times 10^{-27}$ kg.
+
+$$
+k = \mu\omega^2 = 516\ \text{N/m}, \qquad \alpha = \frac{\mu\omega}{\hbar} = 8{,}69 \times 10^{21}\ \text{m}^{-2}.
+$$
+
+Titik balik: $v = 0$, $x_\text{tb} = 1/\sqrt\alpha = 10{,}7$ pm; $v = 1$, $x_\text{tb} = \sqrt{3/\alpha} = 18{,}6$ pm.
+
+**Memahami hasil.** Satuan panjang alami osilator, $1/\sqrt\alpha$, hanya sekitar 11 pm, kurang dari sepersepuluh panjang ikatan HCl (127,5 pm). Getaran titik nol menggoyang ikatan sekitar ±8%. Karena itu pendekatan harmonik cukup baik untuk tingkat-tingkat rendah, dan variabel tak berdimensi $y = \sqrt\alpha\,x$ membuat persamaan berlaku untuk semua molekul sekaligus.
+:::
+
 ::: {.kuis}
 **Kuis cepat 5.2**
 
@@ -256,7 +272,7 @@ Gambar 5.1 memperlihatkan lima keadaan terendah.
 ![Gambar 5.1 Osilator harmonik. Kiri: fungsi gelombang lima keadaan terendah, masing-masing digambar pada ketinggian energinya di dalam potensial parabola. Kanan: rapat peluang. Garis putus-putus menandai energi; ujung-ujungnya adalah titik balik klasik. Tingkat-tingkat berjarak sama, $\hbar\omega$.](fig/c_osilator.png){width=90%}
 
 ::: {.contoh}
-**Contoh 5.7 · Rekursi Hermite**
+**Contoh 5.8 · Rekursi Hermite**
 
 Dengan $H_{v+1} = 2\xi H_v - 2vH_{v-1}$, hitung $H_5$ dan $H_6$ dari $H_3$ dan $H_4$.
 
@@ -268,7 +284,7 @@ $H_6 = 2\xi H_5 - 10H_4 = 64\xi^6 - 320\xi^4 + 240\xi^2 - 160\xi^4 + 480\xi^2 - 
 :::
 
 ::: {.contoh}
-**Contoh 5.8 · Normalisasi $\psi_1$**
+**Contoh 5.9 · Normalisasi $\psi_1$**
 
 Tunjukkan bahwa $\psi_1 = N_1(2\sqrt\alpha\,x)e^{-\alpha x^2/2}$ dengan $N_1 = (\alpha/\pi)^{1/4}/\sqrt2$ ternormalisasi.
 
@@ -278,13 +294,31 @@ Tunjukkan bahwa $\psi_1 = N_1(2\sqrt\alpha\,x)e^{-\alpha x^2/2}$ dengan $N_1 = (
 :::
 
 ::: {.contoh}
-**Contoh 5.9 · Ortogonalitas $\psi_0$ dan $\psi_2$**
+**Contoh 5.10 · Ortogonalitas $\psi_0$ dan $\psi_2$**
 
 Periksa bahwa $\int\psi_0\psi_2\,dx = 0$.
 
 **Penyelesaian.** Dalam variabel $\xi$: $\int(4\xi^2 - 2)e^{-\xi^2}d\xi = 4\cdot\dfrac{\sqrt\pi}{2} - 2\sqrt\pi = 0$.
 
 **Memahami hasil.** $\psi_0$ dan $\psi_2$ sama-sama genap, jadi ortogonalitasnya tidak berasal dari paritas, melainkan dari teorema operator Hermitian (subbab 4.8): fungsi eigen $\hat H$ dengan energi berbeda pasti ortogonal. $\psi_0$ dan $\psi_1$ ortogonal karena dua alasan sekaligus.
+:::
+
+::: {.contoh}
+**Contoh 5.11 · Membangun $H_3$ dan $H_4$ dari rekursi**
+
+Polinom Hermite memenuhi $H_{v+1}(y) = 2yH_v(y) - 2vH_{v-1}(y)$ dengan $H_0 = 1$ dan $H_1 = 2y$. Bangun $H_2$, $H_3$, dan $H_4$, lalu periksa paritas dan banyak akarnya.
+
+**Penyelesaian.**
+
+$H_2 = 2y(2y) - 2(1)(1) = 4y^2 - 2$.
+
+$H_3 = 2y(4y^2 - 2) - 2(2)(2y) = 8y^3 - 12y$.
+
+$H_4 = 2y(8y^3 - 12y) - 2(3)(4y^2 - 2) = 16y^4 - 48y^2 + 12$.
+
+$H_v$ genap bila $v$ genap dan ganjil bila $v$ ganjil. $H_3$ berakar di $y = 0$, $\pm\sqrt{3/2}$ (tiga akar); $H_4$ berakar di $y^2 = (3 \pm \sqrt6)/2$, yaitu $y = \pm0{,}525$ dan $\pm1{,}651$ (empat akar).
+
+**Memahami hasil.** Keadaan ke-$v$ mempunyai tepat $v$ simpul, seperti partikel dalam kotak, dan paritasnya bergantian. Paritas inilah yang menyebabkan aturan seleksi $\Delta v = \pm1$: momen dipol transisi $\langle v'|x|v\rangle$ hanya tidak nol bila $v$ dan $v'$ berbeda paritas, dan sifat tangga (subbab 5.6) membatasinya lebih jauh menjadi selisih tepat satu.
 :::
 
 ::: {.kuis}
