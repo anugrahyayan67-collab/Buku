@@ -19,37 +19,36 @@ def latar(nama, cx, cy, sk, redup=1.0, w=8.27, h=11.69):
     for rr, al in [(2.2, .35), (3.4, .18)]:
         for k2, a2 in [(6, .05), (2.5, .2), (1, 1)]: ax.plot(cx + rr * np.cos(t), cy + rr * np.sin(t), color='#f2c25b', lw=0.8 * k2, alpha=al * a2 * redup)
     ax.set_xlim(0, w); ax.set_ylim(0, h); f.savefig(f'{K}/{nama}', transparent=True); plt.close(f)
-latar('sampul-latar.png', 4.3, 3.9, 0.55)
-latar('sampul-latar2.png', 7.0, 1.4, 0.4, 0.45)
+latar('sampul-latar.png', 3.39, 2.85, 0.5, w=6.77, h=5.7)
 daftar = ''.join(f'<li><b>{n}</b>{t}</li>' for n, t in JUDUL)
 open(f'{K}/sampul.html', 'w').write(f'''<!doctype html><html><head><meta charset="utf-8"><style>
 @page{{size:A4;margin:0}} body{{margin:0;font-family:Inter,sans-serif}}
-.pg{{width:210mm;height:297mm;position:relative;overflow:hidden;break-after:page;color:#fff;
- background:radial-gradient(ellipse at 52% 68%,#3a2a85 0%,#221860 38%,#150f3d 75%,#0e0a2c 100%)}}
-.art{{position:absolute;inset:0;background:url(sampul-latar.png) center/cover no-repeat}}
-.art2{{position:absolute;inset:0;background:url(sampul-latar2.png) center/cover no-repeat}}
-.ed{{position:absolute;top:24mm;left:20mm;font-size:9pt;letter-spacing:6px;font-weight:800;color:#f2c25b}}
-.pen{{position:absolute;top:24mm;right:20mm;font-size:9pt;font-weight:800;letter-spacing:6px;color:#fff}}
-.jd{{position:absolute;top:33mm;left:17mm;font-size:92pt;font-weight:900;line-height:.86;letter-spacing:-1px}}
-.jd span{{color:#5ce1e6}}
-.sb{{position:absolute;top:95mm;left:20mm;width:125mm;font-size:13.5pt;line-height:1.45;color:#ddd6fa;border-top:.6mm solid #f2c25b;padding-top:4mm}}
-.pers{{position:absolute;right:20mm;bottom:18mm;font-family:Caladea,serif;font-style:italic;font-size:13pt;color:rgba(221,214,250,.75)}}
-.blk .isi{{position:absolute;top:26mm;left:20mm;right:22mm}}
-.blk h2{{font-size:19pt;font-weight:900;margin:0 0 7mm 0;text-transform:uppercase;letter-spacing:1.5px;line-height:1.2}} .blk h2 span{{color:#5ce1e6}}
-.blk p{{font-size:10.5pt;line-height:1.62;color:#e4defb;margin:0 0 4mm 0;font-family:Caladea,serif;max-width:150mm}}
-.blk ul{{list-style:none;padding:0;margin:9mm 0 0 0;columns:2;column-gap:10mm;font-size:9.2pt;border-top:.4mm solid rgba(92,225,230,.35);padding-top:6mm}}
-.blk li{{margin:0 0 2.3mm 0}} .blk li b{{display:inline-block;width:8mm;color:#f2c25b}}
-.tp{{position:absolute;left:20mm;right:22mm;bottom:22mm;border-top:.4mm solid rgba(92,225,230,.35);padding-top:5mm;font-family:Caladea,serif;font-size:10pt;line-height:1.55;color:#e4defb}}
-.tp b{{font-family:Inter,sans-serif;font-size:8.5pt;letter-spacing:2px;color:#5ce1e6;display:block;margin-bottom:2mm}}
+.pg{{width:210mm;height:297mm;position:relative;overflow:hidden;break-after:page;color:#1e1548;background:#faf9fe}}
+.bar{{position:absolute;left:0;top:0;bottom:0;width:9mm;background:#1e1548}}
+.ed{{position:absolute;top:24mm;left:22mm;font-size:9pt;letter-spacing:6px;font-weight:800;color:#b9801a}}
+.pen{{position:absolute;top:24mm;right:18mm;font-size:9pt;font-weight:800;letter-spacing:6px;color:#1e1548}}
+.jd{{position:absolute;top:34mm;left:20mm;font-size:84pt;font-weight:900;line-height:.88;letter-spacing:-1px;color:#1e1548}}
+.jd span{{color:#4a3ab0}}
+.sb{{position:absolute;top:92mm;left:22mm;width:130mm;font-size:13pt;line-height:1.45;color:#4b4566;border-top:.6mm solid #d79a2b;padding-top:4mm}}
+.panel{{position:absolute;left:22mm;right:18mm;top:118mm;bottom:22mm;background:radial-gradient(ellipse at 50% 55%,#3a2a85 0%,#221860 55%,#150f3d 100%)}}
+.panel img{{position:absolute;inset:0;width:100%;height:100%}}
+.pers{{position:absolute;right:22mm;bottom:26mm;font-family:Caladea,serif;font-style:italic;font-size:13pt;color:rgba(221,214,250,.85)}}
+.blk .isi{{position:absolute;top:24mm;left:22mm;right:20mm}}
+.blk h2{{font-size:18pt;font-weight:900;margin:0 0 6mm 0;text-transform:uppercase;letter-spacing:1.5px;line-height:1.2;color:#1e1548}} .blk h2 span{{color:#4a3ab0}}
+.blk p{{font-size:10.5pt;line-height:1.6;color:#2b2545;margin:0 0 3.5mm 0;font-family:Caladea,serif}}
+.blk ul{{list-style:none;padding:0;margin:8mm 0 0 0;columns:2;column-gap:10mm;font-size:9.2pt;border-top:.5mm solid #1e1548;padding-top:5mm;color:#2b2545}}
+.blk li{{margin:0 0 2.2mm 0;padding-left:8mm;text-indent:-8mm;break-inside:avoid}} .blk li b{{display:inline-block;width:8mm;text-indent:0;color:#b9801a}}
+.tp{{position:absolute;left:22mm;right:20mm;bottom:22mm;background:#efecfc;padding:5mm 6mm;font-family:Caladea,serif;font-size:10pt;line-height:1.55;color:#2b2545}}
+.tp b{{font-family:Inter,sans-serif;font-size:8.5pt;letter-spacing:2px;color:#4a3ab0;display:block;margin-bottom:1.5mm}}
 </style></head><body>
-<div class="pg"><div class="art"></div><div class="ed">EDISI PERTAMA</div><div class="pen">SEPTIAN ANUGRAH DWI PUTRA</div>
+<div class="pg"><div class="bar"></div><div class="ed">EDISI PERTAMA</div><div class="pen">SEPTIAN ANUGRAH DWI PUTRA</div>
 <div class="jd">KIMIA<br><span>KUANTUM</span></div>
 <div class="sb">dari persamaan Schrödinger sampai kimia komputasi</div>
-<div class="pers">ψ = Σ c<sub>i</sub> φ<sub>i</sub></div></div>
-<div class="pg blk"><div class="art2"></div><div class="isi"><h2>Mengapa atom <span>membentuk molekul?</span></h2>
+<div class="panel"><img src="sampul-latar.png"><div class="pers">ψ = Σ c<sub>i</sub> φ<sub>i</sub></div></div></div>
+<div class="pg blk"><div class="bar"></div><div class="isi"><h2>Mengapa atom <span>membentuk molekul?</span></h2>
 <p>Buku ini menjawab pertanyaan-pertanyaan terdalam kimia dengan mekanika kuantum: mengapa metana tetrahedral, mengapa O₂ paramagnetik, mengapa benzena luar biasa mantap, mengapa larutan kompleks berwarna, dan bagaimana komputer meramalkan struktur molekul.</p>
 <p>Setiap hasil diturunkan langkah demi langkah dan langsung dikaitkan dengan kimia: spektroskopi, ikatan, reaktivitas, sifat periodik. Setiap gagasan diikuti contoh soal yang diselesaikan dan diperiksa kewajarannya, dan sejak bab-bab awal pembaca diajak menghitung sendiri dengan Python.</p>
 <p>Setiap bab ditutup dengan ringkasan, pertanyaan konsep, soal bertingkat beserta jawabannya, pembahasan soal terpilih, dan bacaan lanjut. Buku ini adalah lanjutan dari <i>Fisika Umum</i>.</p>
 <ul>{daftar}</ul></div>
-<div class="tp"><b>TENTANG PENYUSUN</b><b style="color:#fff;letter-spacing:.5px;font-size:11pt">Septian Anugrah Dwi Putra</b>Mahasiswa S1 Kimia, Universitas Negeri Surabaya. Penyusun <i>Fisika Umum</i>; buku ini disusun sebagai lanjutannya, dari dasar-dasar mekanika kuantum sampai kimia komputasi.</div></div>
+<div class="tp"><b>TENTANG PENYUSUN</b><b style="color:#1e1548;letter-spacing:.5px;font-size:11pt">Septian Anugrah Dwi Putra</b>Mahasiswa S1 Kimia, Universitas Negeri Surabaya. Penyusun <i>Fisika Umum</i>; buku ini disusun sebagai lanjutannya, dari dasar-dasar mekanika kuantum sampai kimia komputasi.</div></div>
 </body></html>''')
