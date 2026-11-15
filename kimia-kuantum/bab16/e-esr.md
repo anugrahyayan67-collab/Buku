@@ -36,7 +36,7 @@ $$
 \hat H = g\mu_BB_0\hat S_z + a\,\hat{\mathbf S}\cdot\hat{\mathbf I} , \qquad a = \frac23\mu_0g_e\mu_Bg_N\mu_N|\psi(0)|^2 . \qquad \text{(16.46)}
 $$
 
-**Tetapan kopling hiperhalus** $a$ sebanding dengan rapat spin elektron tepat di inti, $|\psi(0)|^2$, yang hanya tidak nol untuk karakter s (subbab 7.5). Karena $a \ll g\mu_BB_0$, hampiran orde satu (seperti AX pada NMR) cukup: $E = g\mu_BB_0m_S + am_Sm_I$. Aturan seleksi ESR adalah $\Delta m_S = \pm1$ dengan $\Delta m_I = 0$ (gelombang mikro tidak membalik spin inti), sehingga pada frekuensi tetap garis-garis muncul pada medan
+**Tetapan kopling hiperhalus** $a$ sebanding dengan rapat spin elektron tepat di inti, $|\psi(0)|^2$, yang hanya tidak nol untuk karakter s (subbab 7.5). Karena $a \ll g\mu_BB_0$, pendekatan orde satu (seperti AX pada NMR) cukup: $E = g\mu_BB_0m_S + am_Sm_I$. Aturan seleksi ESR adalah $\Delta m_S = \pm1$ dengan $\Delta m_I = 0$ (gelombang mikro tidak membalik spin inti), sehingga pada frekuensi tetap garis-garis muncul pada medan
 
 $$
 B = B_0 - a'm_I , \qquad a' = \frac{a}{g\mu_B} , \qquad \text{(16.47)}

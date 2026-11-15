@@ -31,7 +31,7 @@
 
 # Pertanyaan
 
-1. Mengapa hampiran Born–Oppenheimer memungkinkan konsep permukaan energi potensial, dan apa saja yang ditentukan oleh permukaan itu?
+1. Mengapa pendekatan Born–Oppenheimer memungkinkan konsep permukaan energi potensial, dan apa saja yang ditentukan oleh permukaan itu?
 2. Apa yang dimaksud "medan rata-rata" dalam Hartree–Fock, dan gerak elektron macam apa yang hilang?
 3. Mengapa operator Coulomb lokal sedangkan operator pertukaran nonlokal?
 4. Mengapa energi total HF bukan jumlah energi orbital, padahal dalam teori Hückel ya?
@@ -203,7 +203,7 @@ Satuan atom dipakai kecuali disebut lain; 1 $E_h$ = 2625,50 kJ/mol = 627,51 kkal
 
 **Tantangan ★**
 
-**41.** ★ Dengan $\psi_\pm = (\psi_{3a_1} \pm \psi_{1b_1})/\sqrt2$ sebagai hampiran pasangan bebas H₂O/STO-3G ($\varepsilon_{3a_1} = -0{,}4530$; $\varepsilon_{1b_1} = -0{,}3912$), hitung unsur diagonal dan kopling matriks Fock keduanya.
+**41.** ★ Dengan $\psi_\pm = (\psi_{3a_1} \pm \psi_{1b_1})/\sqrt2$ sebagai pendekatan pasangan bebas H₂O/STO-3G ($\varepsilon_{3a_1} = -0{,}4530$; $\varepsilon_{1b_1} = -0{,}3912$), hitung unsur diagonal dan kopling matriks Fock keduanya.
 
 ## Subbab 17.9: Optimasi geometri dan frekuensi getaran
 

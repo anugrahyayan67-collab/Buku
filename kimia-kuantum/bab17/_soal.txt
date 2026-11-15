@@ -127,7 +127,7 @@ Dari energi kanonik CH₄ ($a_1$: $-0{,}910$; $t_2$: $-0{,}519\ E_h$), hitung un
 
 **Tantangan ★**
 
-★ Dengan $\psi_\pm = (\psi_{3a_1} \pm \psi_{1b_1})/\sqrt2$ sebagai hampiran pasangan bebas H₂O/STO-3G ($\varepsilon_{3a_1} = -0{,}4530$; $\varepsilon_{1b_1} = -0{,}3912$), hitung unsur diagonal dan kopling matriks Fock keduanya. ||| diagonal $-0{,}4221$; kopling $-0{,}0309\ E_h$
+★ Dengan $\psi_\pm = (\psi_{3a_1} \pm \psi_{1b_1})/\sqrt2$ sebagai pendekatan pasangan bebas H₂O/STO-3G ($\varepsilon_{3a_1} = -0{,}4530$; $\varepsilon_{1b_1} = -0{,}3912$), hitung unsur diagonal dan kopling matriks Fock keduanya. ||| diagonal $-0{,}4221$; kopling $-0{,}0309\ E_h$
 
 ## Subbab 17.9: Optimasi geometri dan frekuensi getaran
 

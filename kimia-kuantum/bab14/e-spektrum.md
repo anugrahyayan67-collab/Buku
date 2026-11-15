@@ -338,7 +338,7 @@ Setiap fragmen kekurangan sebanyak elektron yang sama dari "kulit penuh"-nya (ok
 ::: {.awas}
 **Aturan 18 elektron bukan hukum alam**
 
-Aturan ini hampiran yang berguna untuk logam bervalensi rendah dengan ligan akseptor π, terutama logam golongan 6–9. Ia sering dilanggar oleh logam di awal deret (Ti, Zr, V: banyak kompleks 12–16 elektron yang stabil karena ligannya besar), logam di akhir deret (Pd, Pt, Au: 16 dan 14 elektron), dan kompleks Werner dengan ligan donor σ atau π. Aturan ini juga tidak berbicara tentang kinetika: kompleks 18 elektron dapat bereaksi cepat bila ada jalur disosiatif yang mudah.
+Aturan ini pendekatan yang berguna untuk logam bervalensi rendah dengan ligan akseptor π, terutama logam golongan 6–9. Ia sering dilanggar oleh logam di awal deret (Ti, Zr, V: banyak kompleks 12–16 elektron yang stabil karena ligannya besar), logam di akhir deret (Pd, Pt, Au: 16 dan 14 elektron), dan kompleks Werner dengan ligan donor σ atau π. Aturan ini juga tidak berbicara tentang kinetika: kompleks 18 elektron dapat bereaksi cepat bila ada jalur disosiatif yang mudah.
 :::
 
 ::: {.kuis}

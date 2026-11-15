@@ -206,7 +206,7 @@ Pakai 1 cm⁻¹ = 0,011 963 kJ/mol dan $hc = 1{,}2398 \times 10^{-4}$ eV cm. Soa
 
 **Tantangan ★**
 
-**49.** ★ Dengan hampiran $\beta_\sigma \propto S_\sigma$, tunjukkan $\Delta_o \propto S_\sigma^2$. Jika tumpang tindih 4d–ligan 1,25 kali tumpang tindih 3d–ligan (dengan selisih energi sama), berapa perbandingan $\Delta_o$? Bandingkan dengan [Rh(NH₃)₆]³⁺/[Co(NH₃)₆]³⁺.
+**49.** ★ Dengan pendekatan $\beta_\sigma \propto S_\sigma$, tunjukkan $\Delta_o \propto S_\sigma^2$. Jika tumpang tindih 4d–ligan 1,25 kali tumpang tindih 3d–ligan (dengan selisih energi sama), berapa perbandingan $\Delta_o$? Bandingkan dengan [Rh(NH₃)₆]³⁺/[Co(NH₃)₆]³⁺.
 
 ## Subbab 14.8: Ikatan π dan deret spektrokimia
 

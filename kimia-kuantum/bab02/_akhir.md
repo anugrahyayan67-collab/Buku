@@ -46,7 +46,7 @@
 15. Sifat determinan mana yang mewujudkan asas larangan Pauli?
 16. Mengapa persamaan sekuler $\det(\mathbf H - E\mathbf S) = 0$ (Bab 8) muncul dari sistem persamaan linear homogen?
 17. Mengapa besaran fisis dinyatakan oleh matriks Hermitian? Sebutkan dua sifat nilai dan vektor eigennya.
-18. Apa yang dimaksud hampiran harmonik, dan suku deret Taylor mana yang diabaikan?
+18. Apa yang dimaksud pendekatan harmonik, dan suku deret Taylor mana yang diabaikan?
 19. Mengapa sinyal yang meluruh cepat terhadap waktu menghasilkan garis spektrum yang lebar?
 20. Mengapa nilai rata-rata sebuah besaran tidak harus sama dengan salah satu nilai yang mungkin terukur?
 21. Mengapa satuan atom disebut satuan "alami" untuk kimia? Berapa orde besaran angka-angka khas molekul dalam satuan itu?

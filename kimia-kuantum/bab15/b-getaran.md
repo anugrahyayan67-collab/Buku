@@ -52,7 +52,7 @@ Garis rotasi air yang terkenal di 22,235 GHz (transisi $6_{16} \leftarrow 5_{23}
 
 ### Menentukan struktur dari momen inersia
 
-Satu molekul linear triatom mempunyai dua panjang ikatan tetapi hanya satu momen inersia. Kuncinya adalah **substitusi isotop**: dalam hampiran Born–Oppenheimer (subbab 11.1), panjang ikatan tidak berubah ketika satu atom diganti isotopnya, sedangkan momen inersia berubah. Dua isotopolog memberi dua persamaan untuk dua tak diketahui.
+Satu molekul linear triatom mempunyai dua panjang ikatan tetapi hanya satu momen inersia. Kuncinya adalah **substitusi isotop**: dalam pendekatan Born–Oppenheimer (subbab 11.1), panjang ikatan tidak berubah ketika satu atom diganti isotopnya, sedangkan momen inersia berubah. Dua isotopolog memberi dua persamaan untuk dua tak diketahui.
 
 ::: {.contoh}
 **Contoh 15.16 · Panjang ikatan OCS**

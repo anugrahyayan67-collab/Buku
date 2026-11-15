@@ -31,7 +31,7 @@
 
 # Pertanyaan
 
-1. Mengapa hampiran Born–Oppenheimer memungkinkan konsep permukaan energi potensial, dan apa saja yang ditentukan oleh permukaan itu?
+1. Mengapa pendekatan Born–Oppenheimer memungkinkan konsep permukaan energi potensial, dan apa saja yang ditentukan oleh permukaan itu?
 2. Apa yang dimaksud "medan rata-rata" dalam Hartree–Fock, dan gerak elektron macam apa yang hilang?
 3. Mengapa operator Coulomb lokal sedangkan operator pertukaran nonlokal?
 4. Mengapa energi total HF bukan jumlah energi orbital, padahal dalam teori Hückel ya?

@@ -76,7 +76,7 @@ $$
 \Delta_o = E(e_g^*) - E(t_{2g}) \approx \frac{\beta_{e_g}^2}{\alpha_M - \alpha_L} = 3\,\frac{\beta_\sigma^2}{\alpha_M - \alpha_L} \equiv 3e_\sigma , \qquad \text{(14.31)}
 $$
 
-dengan $\beta_{e_g} = \sqrt3\,\beta_\sigma$, karena unsur matriks Hamiltonian kira-kira sebanding dengan tumpang tindih (hampiran Wolfsberg–Helmholz). Faktor 3 adalah kuadrat faktor tumpang tindih grup $\sqrt3$. Inilah dasar model tumpang tindih sudut (14.14): parameter $e_\sigma$ adalah destabilisasi orbital d oleh satu ligan, dan sudut masuk melalui kuadrat tumpang tindih.
+dengan $\beta_{e_g} = \sqrt3\,\beta_\sigma$, karena unsur matriks Hamiltonian kira-kira sebanding dengan tumpang tindih (pendekatan Wolfsberg–Helmholz). Faktor 3 adalah kuadrat faktor tumpang tindih grup $\sqrt3$. Inilah dasar model tumpang tindih sudut (14.14): parameter $e_\sigma$ adalah destabilisasi orbital d oleh satu ligan, dan sudut masuk melalui kuadrat tumpang tindih.
 
 Dalam tafsir orbital molekul, $\Delta_o$ **bukan** hasil tolakan elektrostatik, melainkan ukuran sifat antiikatan $e_g^*$. Ligan yang merupakan donor σ lebih kuat (energi $\alpha_L$ lebih tinggi, lebih dekat ke $\alpha_M$; atau tumpang tindih lebih besar) memberi $\Delta_o$ lebih besar. Logam 4d dan 5d dengan orbital lebih luas memberi tumpang tindih lebih besar dan $\Delta_o$ lebih besar. Muatan logam yang lebih tinggi memendekkan ikatan dan menaikkan tumpang tindih. Semua kecenderungan subbab 14.2 muncul kembali, kini dengan penjelasan yang benar.
 
@@ -101,7 +101,7 @@ Untuk [Co(NH₃)₆]³⁺, [Cr(H₂O)₆]³⁺, [Ni(H₂O)₆]²⁺, dan [Cu(NH�
 ::: {.contoh}
 **Contoh 14.31 · Model OM numerik**
 
-Pakai energi Coulomb (eV) $\alpha(3d) = -11{,}0$, $\alpha(4s) = -7{,}0$, $\alpha(4p) = -3{,}5$, $\alpha_L = -15{,}0$, dan unsur matriks resonansi $\beta(a_{1g}) = 4{,}0$, $\beta(t_{1u}) = 2{,}5$, $\beta(e_g) = 2{,}8$ eV. Hitung energi orbital molekul, $\Delta_o$, dan persen karakter logam setiap orbital. Bandingkan $\Delta_o$ dengan hampiran (14.30).
+Pakai energi Coulomb (eV) $\alpha(3d) = -11{,}0$, $\alpha(4s) = -7{,}0$, $\alpha(4p) = -3{,}5$, $\alpha_L = -15{,}0$, dan unsur matriks resonansi $\beta(a_{1g}) = 4{,}0$, $\beta(t_{1u}) = 2{,}5$, $\beta(e_g) = 2{,}8$ eV. Hitung energi orbital molekul, $\Delta_o$, dan persen karakter logam setiap orbital. Bandingkan $\Delta_o$ dengan pendekatan (14.30).
 
 **Penyelesaian.**
 
@@ -114,7 +114,7 @@ for nama, (aM, b) in blok.items():
     print(nama, 'E =', E.round(3), '%logam ikatan/antiikatan =',
           round(100*C[0, 0]**2, 1), round(100*C[0, 1]**2, 1))
 Eeg = np.linalg.eigvalsh([[-11.0, 2.8], [2.8, aL]])[1]
-print('Delta_o =', Eeg - (-11.0), 'eV;  hampiran:', 2.8**2/4.0)
+print('Delta_o =', Eeg - (-11.0), 'eV;  pendekatan:', 2.8**2/4.0)
 ```
 
 Hasilnya:
@@ -126,9 +126,9 @@ Hasilnya:
 | $t_{1u}$ | −15,52 | 4,1 | −2,98 | 95,9 |
 | $t_{2g}$ | — | — | −11,00 (tak berikatan) | 100 |
 
-$\Delta_o = -9{,}559 - (-11{,}000) = 1{,}441$ eV $= 11\,600$ cm⁻¹. Hampiran (14.30) memberi $2{,}8^2/4{,}0 = 1{,}96$ eV, 36% terlalu besar.
+$\Delta_o = -9{,}559 - (-11{,}000) = 1{,}441$ eV $= 11\,600$ cm⁻¹. Pendekatan (14.30) memberi $2{,}8^2/4{,}0 = 1{,}96$ eV, 36% terlalu besar.
 
-**Memahami hasil.** Orbital $e_g^*$ hanya 79% d; 21% sisanya tersebar pada keenam ligan. Elektron di $e_g^*$ karena itu menempati ruang yang lebih besar daripada orbital 3d ion bebas: inilah efek nefelauksetik dalam bentuk paling sederhana. Hampiran perturbasi (14.30) kurang tepat di sini karena $\beta$ tidak jauh lebih kecil daripada $\alpha_M - \alpha_L$; ikatan logam–ligan cukup kovalen. Model ini tentu kasar (parameternya dipilih, bukan dihitung), tetapi seluruh perhitungan ab initio modern menghasilkan gambaran kualitatif yang sama.
+**Memahami hasil.** Orbital $e_g^*$ hanya 79% d; 21% sisanya tersebar pada keenam ligan. Elektron di $e_g^*$ karena itu menempati ruang yang lebih besar daripada orbital 3d ion bebas: inilah efek nefelauksetik dalam bentuk paling sederhana. Pendekatan perturbasi (14.30) kurang tepat di sini karena $\beta$ tidak jauh lebih kecil daripada $\alpha_M - \alpha_L$; ikatan logam–ligan cukup kovalen. Model ini tentu kasar (parameternya dipilih, bukan dihitung), tetapi seluruh perhitungan ab initio modern menghasilkan gambaran kualitatif yang sama.
 :::
 
 ### Efek nefelauksetik
@@ -275,7 +275,7 @@ Dengan menganggap massa tereduksi efektif getaran C=C tidak berubah, berapa pers
 
 **Penyelesaian.** $k \propto \tilde\nu^2$, sehingga $k_\text{kompleks}/k_\text{bebas} = (1516/1623)^2 = 0{,}934^2 = 0{,}872$. Tetapan gaya berkurang sekitar 13%.
 
-**Memahami hasil.** Penurunan 13% jauh lebih kecil daripada pada karbonil kaya elektron, karena Pt(II) bermuatan positif dan ikatan baliknya sedang. Getaran C=C dalam kompleks juga bercampur dengan getaran tekuk CH₂, sehingga anggapan massa tereduksi tetap hanyalah hampiran. Namun, arah dan besarnya sesuai dengan ikatan C=C yang memanjang beberapa pikometer. Penurunan frekuensi semacam ini dipakai untuk mengikuti aktivasi alkena dalam reaksi katalitik seperti hidrogenasi dan polimerisasi.
+**Memahami hasil.** Penurunan 13% jauh lebih kecil daripada pada karbonil kaya elektron, karena Pt(II) bermuatan positif dan ikatan baliknya sedang. Getaran C=C dalam kompleks juga bercampur dengan getaran tekuk CH₂, sehingga anggapan massa tereduksi tetap hanyalah pendekatan. Namun, arah dan besarnya sesuai dengan ikatan C=C yang memanjang beberapa pikometer. Penurunan frekuensi semacam ini dipakai untuk mengikuti aktivasi alkena dalam reaksi katalitik seperti hidrogenasi dan polimerisasi.
 :::
 
 ::: {.contoh}

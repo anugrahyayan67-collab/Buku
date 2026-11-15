@@ -2,7 +2,7 @@
 
 ### Mengabaikan tumpang tindih diferensial
 
-Biaya HF didominasi oleh $K^4/8$ integral dua elektron. Metode **semiempiris** memotong biaya ini dengan hampiran **pengabaian tumpang tindih diferensial nol** (ZDO): hasil kali dua fungsi basis yang berbeda, $\phi_\mu(\mathbf r)\phi_\nu(\mathbf r)$ dengan $\mu \neq \nu$, dianggap nol di dalam integral dua elektron. Akibatnya
+Biaya HF didominasi oleh $K^4/8$ integral dua elektron. Metode **semiempiris** memotong biaya ini dengan pendekatan **pengabaian tumpang tindih diferensial nol** (ZDO): hasil kali dua fungsi basis yang berbeda, $\phi_\mu(\mathbf r)\phi_\nu(\mathbf r)$ dengan $\mu \neq \nu$, dianggap nol di dalam integral dua elektron. Akibatnya
 
 $$
 (\mu\nu|\lambda\sigma) \approx \delta_{\mu\nu}\delta_{\lambda\sigma}(\mu\mu|\lambda\lambda) , \qquad \text{(17.59)}

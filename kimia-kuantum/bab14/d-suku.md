@@ -348,11 +348,11 @@ Ada tiga keterampilan yang perlu dilatih:
 ::: {.contoh}
 **Contoh 14.46 · [Co(NH₃)₆]³⁺ spin rendah**
 
-[Co(NH₃)₆]³⁺ (d⁶ spin rendah, keadaan dasar $^1A_{1g}$) menyerap di 21 000 cm⁻¹ ($^1A_{1g} \to {}^1T_{1g}$) dan 29 500 cm⁻¹ ($\to {}^1T_{2g}$). (a) Dengan hampiran medan kuat, $E(^1T_{1g}) \approx \Delta_o - C$ dan $E(^1T_{2g}) \approx \Delta_o + 16B - C$, taksir $B$ dan $\Delta_o$ dengan $C = 4{,}8B$. (b) Dengan program Contoh 14.45 (dan pencocokan numerik dua pita), diperoleh $Dq = 2303$ cm⁻¹ dan $B = 635$ cm⁻¹. Bandingkan. (c) Program yang sama meramalkan keadaan $^3T_{1g}$ terendah di 14 500 cm⁻¹. Apa artinya?
+[Co(NH₃)₆]³⁺ (d⁶ spin rendah, keadaan dasar $^1A_{1g}$) menyerap di 21 000 cm⁻¹ ($^1A_{1g} \to {}^1T_{1g}$) dan 29 500 cm⁻¹ ($\to {}^1T_{2g}$). (a) Dengan pendekatan medan kuat, $E(^1T_{1g}) \approx \Delta_o - C$ dan $E(^1T_{2g}) \approx \Delta_o + 16B - C$, taksir $B$ dan $\Delta_o$ dengan $C = 4{,}8B$. (b) Dengan program Contoh 14.45 (dan pencocokan numerik dua pita), diperoleh $Dq = 2303$ cm⁻¹ dan $B = 635$ cm⁻¹. Bandingkan. (c) Program yang sama meramalkan keadaan $^3T_{1g}$ terendah di 14 500 cm⁻¹. Apa artinya?
 
-**Penyelesaian.** (a) Selisih kedua pita $16B = 8500$ cm⁻¹, $B = 531$ cm⁻¹, $C = 2550$ cm⁻¹, $\Delta_o \approx 21\,000 + 2550 = 23\,550$ cm⁻¹. (b) Program memberi $\Delta_o = 23\,030$ cm⁻¹ dan $B = 635$ cm⁻¹; selisih dengan hampiran: $\Delta_o$ 2%, $B$ 20%. Rasio nefelauksetik $635/1065 = 0{,}60$. (c) Ada pita terlarang spin $^1A_{1g} \to {}^3T_{1g}$ sekitar 14 500 cm⁻¹ (690 nm), yang sangat lemah.
+**Penyelesaian.** (a) Selisih kedua pita $16B = 8500$ cm⁻¹, $B = 531$ cm⁻¹, $C = 2550$ cm⁻¹, $\Delta_o \approx 21\,000 + 2550 = 23\,550$ cm⁻¹. (b) Program memberi $\Delta_o = 23\,030$ cm⁻¹ dan $B = 635$ cm⁻¹; selisih dengan pendekatan: $\Delta_o$ 2%, $B$ 20%. Rasio nefelauksetik $635/1065 = 0{,}60$. (c) Ada pita terlarang spin $^1A_{1g} \to {}^3T_{1g}$ sekitar 14 500 cm⁻¹ (690 nm), yang sangat lemah.
 
-**Memahami hasil.** Hampiran medan kuat memberi $\Delta_o$ yang baik tetapi $B$ yang kurang tepat, karena keadaan $^1T_{2g}$ bercampur dengan keadaan $^1T_{2g}$ dari konfigurasi lain. $\beta = 0{,}60$ jauh lebih kecil daripada Cr³⁺ dan Ni²⁺: Co(III) membentuk ikatan sangat kovalen dengan amonia, sesuai nilai $k(\text{Co}^{3+}) = 0{,}33$ yang besar dalam rumus Jørgensen. Pita terlarang spin memang teramati di sekitar 13 000–15 000 cm⁻¹ dengan $\varepsilon$ kurang dari 1 L mol⁻¹ cm⁻¹.
+**Memahami hasil.** Pendekatan medan kuat memberi $\Delta_o$ yang baik tetapi $B$ yang kurang tepat, karena keadaan $^1T_{2g}$ bercampur dengan keadaan $^1T_{2g}$ dari konfigurasi lain. $\beta = 0{,}60$ jauh lebih kecil daripada Cr³⁺ dan Ni²⁺: Co(III) membentuk ikatan sangat kovalen dengan amonia, sesuai nilai $k(\text{Co}^{3+}) = 0{,}33$ yang besar dalam rumus Jørgensen. Pita terlarang spin memang teramati di sekitar 13 000–15 000 cm⁻¹ dengan $\varepsilon$ kurang dari 1 L mol⁻¹ cm⁻¹.
 :::
 
 ::: {.contoh}

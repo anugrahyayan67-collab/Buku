@@ -149,7 +149,7 @@ hasil yang disebut identitas Parseval. Postulat pengukuran (subbab 4.12) menafsi
 
 Ekspansi atas fungsi lengkap adalah tulang punggung kimia kuantum praktis. Orbital molekul diuraikan atas fungsi-fungsi basis yang berpusat di atom (LCAO, Bab 11). Fungsi gelombang banyak elektron diuraikan atas determinan Slater (interaksi konfigurasi, Bab 17). Dalam praktik, basis selalu berhingga, sehingga ekspansinya terpotong; kualitas hasil bergantung pada seberapa cepat koefisien $c_n$ mengecil. Fungsi yang mulus mempunyai koefisien yang cepat mengecil; fungsi yang bersudut tajam memerlukan banyak suku (subbab 2.9).
 
-![Gambar 4.3 Kiri: fungsi segitiga ternormalisasi dalam kotak dan hampiran ekspansinya atas fungsi eigen partikel dalam kotak, dengan satu dan tiga suku tak nol. Kanan: peluang $|c_n|^2$ (skala logaritma). Suku genap nol karena simetri.](fig/c_ekspansi.png){width=88%}
+![Gambar 4.3 Kiri: fungsi segitiga ternormalisasi dalam kotak dan pendekatan ekspansinya atas fungsi eigen partikel dalam kotak, dengan satu dan tiga suku tak nol. Kanan: peluang $|c_n|^2$ (skala logaritma). Suku genap nol karena simetri.](fig/c_ekspansi.png){width=88%}
 
 ::: {.contoh}
 **Contoh 4.29 · Mengurai fungsi segitiga**

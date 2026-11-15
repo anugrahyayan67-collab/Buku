@@ -58,7 +58,7 @@ CI penuh H₂/STO-3G memberi koefisien $c_0 = 0{,}9936$ dan $c_D = -0{,}1127$ pa
 
 **Penyelesaian.** Bobot $c_D^2$: 1,3% pada 1,4 bohr dan 32,2% pada 4,0 bohr (perbandingan $c_D/c_0 = -0{,}69$, mendekati $-1$ untuk jarak tak berhingga).
 
-**Memahami hasil.** Dekat geometri setimbang, satu determinan mendominasi dan korelasi bersifat dinamik (banyak konfigurasi kecil). Ketika ikatan meregang, dua konfigurasi menjadi hampir setara: korelasi statik. Dalam bahasa CASSCF, H₂ memerlukan ruang aktif "dua elektron dalam dua orbital", CAS(2,2), berisi $\sigma_g$ dan $\sigma_u$; untuk N₂ yang putus diperlukan CAS(6,6) (tiga ikatan dan tiga antiikatan). Pada geometri seperti ini, metode yang berangkat dari satu determinan (MP2, CCSD) gagal: penyebut MP2 mengecil dan amplitudo CC membesar di luar jangkauan hampiran.
+**Memahami hasil.** Dekat geometri setimbang, satu determinan mendominasi dan korelasi bersifat dinamik (banyak konfigurasi kecil). Ketika ikatan meregang, dua konfigurasi menjadi hampir setara: korelasi statik. Dalam bahasa CASSCF, H₂ memerlukan ruang aktif "dua elektron dalam dua orbital", CAS(2,2), berisi $\sigma_g$ dan $\sigma_u$; untuk N₂ yang putus diperlukan CAS(6,6) (tiga ikatan dan tiga antiikatan). Pada geometri seperti ini, metode yang berangkat dari satu determinan (MP2, CCSD) gagal: penyebut MP2 mengecil dan amplitudo CC membesar di luar jangkauan pendekatan.
 :::
 
 ::: {.contoh}

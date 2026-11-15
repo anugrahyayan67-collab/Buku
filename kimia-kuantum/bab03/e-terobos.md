@@ -44,7 +44,7 @@ $$
 
 Kuadrat modulus ruas kanan adalah $\cosh^2\kappa a + \tfrac{(\kappa^2 - k^2)^2}{4k^2\kappa^2}\sinh^2\kappa a = 1 + \tfrac{(\kappa^2 + k^2)^2}{4k^2\kappa^2}\sinh^2\kappa a$, dengan $\cosh^2 = 1 + \sinh^2$. Karena $\hbar^2(k^2 + \kappa^2)/2m = V_0$, $\hbar^2k^2/2m = E$, dan $\hbar^2\kappa^2/2m = V_0 - E$, diperoleh (3.20).
 
-Untuk penghalang yang bentuknya sembarang, $V(x)$, ada hampiran yang sangat berguna, **hampiran WKB** (Wentzel–Kramers–Brillouin):
+Untuk penghalang yang bentuknya sembarang, $V(x)$, ada pendekatan yang sangat berguna, **pendekatan WKB** (Wentzel–Kramers–Brillouin):
 
 $$
 T \approx \exp\left[-2\int_{x_1}^{x_2}\kappa(x)\,dx\right], \qquad \kappa(x) = \frac{\sqrt{2m[V(x) - E]}}{\hbar} ,
@@ -66,9 +66,9 @@ Elektron berenergi 1,0 eV menumbuk penghalang 5,0 eV. Hitung $T$ dengan (3.20) d
 |---|---|---|---|---|
 | $\kappa a$ | 1,02 | 3,07 | 5,12 | 10,2 |
 | $T$ tepat (3.20) | 0,30 | $5{,}5 \times 10^{-3}$ | $9{,}1 \times 10^{-5}$ | $3{,}2 \times 10^{-9}$ |
-| $T$ hampiran (3.21) | 0,33 | $5{,}5 \times 10^{-3}$ | $9{,}1 \times 10^{-5}$ | $3{,}2 \times 10^{-9}$ |
+| $T$ pendekatan (3.21) | 0,33 | $5{,}5 \times 10^{-3}$ | $9{,}1 \times 10^{-5}$ | $3{,}2 \times 10^{-9}$ |
 
-**Memahami hasil.** Menambah lebar penghalang 0,2 nm menurunkan peluang sekitar 60 kali. Hampiran (3.21) sudah sangat baik untuk $\kappa a > 2$. Penghalang setebal satu ikatan kimia hampir "tembus pandang" bagi elektron; penghalang setebal 1 nm sudah memotong arus miliaran kali. Ketergantungan ini yang dimanfaatkan mikroskop penerobosan (subbab 3.12).
+**Memahami hasil.** Menambah lebar penghalang 0,2 nm menurunkan peluang sekitar 60 kali. Pendekatan (3.21) sudah sangat baik untuk $\kappa a > 2$. Penghalang setebal satu ikatan kimia hampir "tembus pandang" bagi elektron; penghalang setebal 1 nm sudah memotong arus miliaran kali. Ketergantungan ini yang dimanfaatkan mikroskop penerobosan (subbab 3.12).
 :::
 
 ::: {.contoh}
@@ -94,7 +94,7 @@ Untuk transfer atom hidrogen melalui penghalang $V_0 = 0{,}50$ eV dengan energi 
 ::: {.contoh}
 **Contoh 3.40 · Emisi medan dari jarum tungsten**
 
-Medan listrik kuat $F$ di permukaan logam membuat penghalang berbentuk segitiga bagi elektron: $V(x) = \phi - eFx$. Dengan hampiran WKB, $T \approx \exp\left[-\dfrac{4\sqrt{2m_e}\,\phi^{3/2}}{3\hbar eF}\right]$. Untuk $\phi = 4{,}5$ eV, hitung eksponen dan $T$ untuk $F = 3{,}0 \times 10^9$ V/m dan $5{,}0 \times 10^9$ V/m.
+Medan listrik kuat $F$ di permukaan logam membuat penghalang berbentuk segitiga bagi elektron: $V(x) = \phi - eFx$. Dengan pendekatan WKB, $T \approx \exp\left[-\dfrac{4\sqrt{2m_e}\,\phi^{3/2}}{3\hbar eF}\right]$. Untuk $\phi = 4{,}5$ eV, hitung eksponen dan $T$ untuk $F = 3{,}0 \times 10^9$ V/m dan $5{,}0 \times 10^9$ V/m.
 
 **Penyelesaian.** Untuk $F = 3{,}0 \times 10^9$ V/m: eksponen $= \dfrac{4\sqrt{2(9{,}109 \times 10^{-31})}\,(4{,}5 \times 1{,}602 \times 10^{-19})^{3/2}}{3(1{,}0546 \times 10^{-34})(1{,}602 \times 10^{-19})(3{,}0 \times 10^9)} = 21{,}7$, $T = 3{,}6 \times 10^{-10}$. Untuk $F = 5{,}0 \times 10^9$ V/m: eksponen 13,0, $T = 2{,}2 \times 10^{-6}$.
 
@@ -213,7 +213,7 @@ $$
 \kappa_W = 1 + \frac{1}{24}\left(\frac{h\nu^\ddagger}{kT}\right)^2 .
 $$
 
-Koreksi ini hanya berlaku bila penerobosan kecil ($\kappa_W$ tidak jauh di atas 1); untuk penerobosan yang besar diperlukan perlakuan yang lebih lengkap, misalnya hampiran WKB di sepanjang jalur reaksi.
+Koreksi ini hanya berlaku bila penerobosan kecil ($\kappa_W$ tidak jauh di atas 1); untuk penerobosan yang besar diperlukan perlakuan yang lebih lengkap, misalnya pendekatan WKB di sepanjang jalur reaksi.
 
 ::: {.contoh}
 **Contoh 3.46 · Koreksi Wigner untuk transfer atom H**

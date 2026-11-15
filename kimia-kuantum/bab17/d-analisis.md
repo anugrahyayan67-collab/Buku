@@ -213,14 +213,14 @@ Frekuensi harmonik hasil hitungan berbeda dari pita yang teramati karena dua ala
 
 ### Dari frekuensi ke termodinamika
 
-Dengan geometri dan frekuensi, besaran termodinamika gas ideal dihitung dari fungsi partisi molekul, yang dalam hampiran **gas ideal–rotor tegar–osilator harmonik** adalah hasil kali bagian translasi, rotasi, getaran, dan elektronik (Fisika Umum dan subbab 6.11). Bagian-bagian terpenting:
+Dengan geometri dan frekuensi, besaran termodinamika gas ideal dihitung dari fungsi partisi molekul, yang dalam pendekatan **gas ideal–rotor tegar–osilator harmonik** adalah hasil kali bagian translasi, rotasi, getaran, dan elektronik (Fisika Umum dan subbab 6.11). Bagian-bagian terpenting:
 
 - **Energi titik nol**: $E_\text{ZPE} = \tfrac12\sum_kh\nu_k$.
 - **Getaran termal**: $E_\text{vib}(T) = R\sum_k\frac{\theta_k}{e^{\theta_k/T} - 1}$ dengan $\theta_k = h\nu_k/k_B$, dan $S_\text{vib} = R\sum_k\left[\frac{\theta_k/T}{e^{\theta_k/T} - 1} - \ln(1 - e^{-\theta_k/T})\right]$.
 - **Translasi dan rotasi**: masing-masing $\tfrac32RT$ untuk molekul tak linear; entropi translasi dari persamaan Sackur–Tetrode, entropi rotasi dari momen inersia dan bilangan simetri $\sigma$.
 - **Entalpi dan energi bebas**: $H = E_\text{el} + E_\text{ZPE} + E_\text{vib} + E_\text{rot} + E_\text{trans} + RT$ dan $G = H - TS$.
 
-Program mencetak semua suku ini. Getaran berfrekuensi rendah (di bawah sekitar 100 cm⁻¹, misalnya rotasi gugus metil atau gerak antarmolekul dalam kompleks lemah) adalah titik lemah hampiran harmonik: entropinya terlalu besar. Koreksi "kuasi-RRHO" memperlakukan mode semacam itu seperti rotor bebas.
+Program mencetak semua suku ini. Getaran berfrekuensi rendah (di bawah sekitar 100 cm⁻¹, misalnya rotasi gugus metil atau gerak antarmolekul dalam kompleks lemah) adalah titik lemah pendekatan harmonik: entropinya terlalu besar. Koreksi "kuasi-RRHO" memperlakukan mode semacam itu seperti rotor bebas.
 
 ![Gambar 17.7 Tiga mode normal H₂O dari Hessian HF/6-31G* (program pendamping): tekuk (1826 cm⁻¹), ulur simetris (4071 cm⁻¹), dan ulur antisimetris (4190 cm⁻¹). Panah menunjukkan arah perpindahan atom (diperbesar); pergeseran oksigen kecil karena massanya besar.](fig/c_frek.png){width=88%}
 
@@ -261,7 +261,7 @@ Dari geometri dan frekuensi HF/6-31G* H₂O, program termokimia pendamping (gas 
 
 **Penyelesaian.** Entropi dan entalpi termal air didominasi translasi dan rotasi, yang hanya bergantung pada massa dan momen inersia (yaitu geometri), sedangkan getaran air terlalu tinggi untuk tereksitasi pada 298 K ($\theta_\text{vib} > 2600$ K), sehingga galat frekuensi hampir tidak berpengaruh. ZPE sebanding langsung dengan frekuensi, sehingga mewarisi galat 7% HF.
 
-**Memahami hasil.** Untuk molekul kecil dan kaku, termokimia statistik hampir tepat; galat terbesar ada di energi elektronik dan ZPE. Untuk molekul besar dan lentur, situasinya terbalik: banyak getaran berfrekuensi rendah menyumbang entropi besar dan peka terhadap hampiran harmonik, dan banyaknya konformer menambah entropi konformasi. Di sana termokimia statistik menjadi sumber galat utama dalam energi bebas.
+**Memahami hasil.** Untuk molekul kecil dan kaku, termokimia statistik hampir tepat; galat terbesar ada di energi elektronik dan ZPE. Untuk molekul besar dan lentur, situasinya terbalik: banyak getaran berfrekuensi rendah menyumbang entropi besar dan peka terhadap pendekatan harmonik, dan banyaknya konformer menambah entropi konformasi. Di sana termokimia statistik menjadi sumber galat utama dalam energi bebas.
 :::
 
 ::: {.kuis}

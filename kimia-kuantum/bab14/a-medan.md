@@ -346,7 +346,7 @@ Ramalkan $\Delta_o$ dengan (14.11) untuk [Cr(NH₃)₆]³⁺, [Co(en)₃]³⁺, 
 | [Ir(NH₃)₆]³⁺ | 1,25 × 32 000 = 40 000 | 41 200 | −2,9% |
 | [Cr(CN)₆]³⁻ | 1,70 × 17 400 = 29 580 | 26 600 | +11% |
 
-**Memahami hasil.** Untuk ligan σ biasa, rumus sederhana ini meramalkan $\Delta_o$ dalam beberapa persen, cukup untuk menaksir warna atau keadaan spin kompleks yang belum pernah diukur. Penyimpangan terbesar terjadi pada sianida: kekuatan ligan akseptor π bergantung pada logam, karena ikatan balik π membutuhkan elektron $t_{2g}$ yang cukup tinggi energinya (subbab 14.8). Faktor $f$ yang "universal" memang hanya hampiran.
+**Memahami hasil.** Untuk ligan σ biasa, rumus sederhana ini meramalkan $\Delta_o$ dalam beberapa persen, cukup untuk menaksir warna atau keadaan spin kompleks yang belum pernah diukur. Penyimpangan terbesar terjadi pada sianida: kekuatan ligan akseptor π bergantung pada logam, karena ikatan balik π membutuhkan elektron $t_{2g}$ yang cukup tinggi energinya (subbab 14.8). Faktor $f$ yang "universal" memang hanya pendekatan.
 :::
 
 ::: {.contoh}
@@ -374,7 +374,7 @@ Pemendekan ikatan sebesar 1% menaikkan $\Delta_o$ sekitar 5%. Kepekaan ekstrem i
 
 (a) Kristal yang dimampatkan sehingga jarak logam–ligan memendek 2,0%. Berapa persen kenaikan $\Delta_o$? (b) Dalam kompleks besi(II) dengan ligan nitrogen, jarak Fe–N sekitar 2,18 Å pada keadaan spin tinggi dan 1,98 Å pada keadaan spin rendah. Berapa perbandingan $\Delta_o$ kedua keadaan menurut $a^{-5}$?
 
-**Penyelesaian.** (a) $(1/0{,}980)^5 = 1{,}106$; kenaikannya 10,6%. Hampiran linear (14.12) memberi 10%.
+**Penyelesaian.** (a) $(1/0{,}980)^5 = 1{,}106$; kenaikannya 10,6%. Pendekatan linear (14.12) memberi 10%.
 
 (b) $(2{,}18/1{,}98)^5 = 1{,}62$.
 

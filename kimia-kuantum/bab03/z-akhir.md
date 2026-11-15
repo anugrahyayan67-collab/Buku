@@ -296,7 +296,7 @@ Gunakan tetapan di Bab 1 ($h$, $\hbar$, $m_e$, $m_p$, $c$, $e$, $k$, 1 u). Soal 
 
 **Tantangan ★**
 
-**79.** ★ Dengan hampiran WKB, hitung $T$ untuk elektron berenergi $E$ yang menerobos penghalang segitiga $V = V_0 - Fx$ (medan listrik $F$ di permukaan logam, emisi medan). Tunjukkan bahwa $\ln T \propto -1/F$.
+**79.** ★ Dengan pendekatan WKB, hitung $T$ untuk elektron berenergi $E$ yang menerobos penghalang segitiga $V = V_0 - Fx$ (medan listrik $F$ di permukaan logam, emisi medan). Tunjukkan bahwa $\ln T \propto -1/F$.
 
 ## Subbab 3.12: Penerobosan dalam kimia
 

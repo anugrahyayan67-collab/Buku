@@ -264,7 +264,7 @@ Selisihnya hanya memuat suku yang mengandung indeks $i$: $E_0 - {}^{N-1}E_i = h_
 
 ### Dua galat yang saling meniadakan
 
-Hampiran "orbital beku" mengandung dua galat yang berlawanan arah:
+Pendekatan "orbital beku" mengandung dua galat yang berlawanan arah:
 
 1. **Relaksasi orbital**. Setelah ionisasi, elektron yang tersisa merasakan tolakan yang lebih kecil dan menyusut ke arah inti, sehingga energi kation turun. Akibatnya energi ionisasi sebenarnya lebih **kecil** daripada $-\varepsilon_i$.
 2. **Korelasi**. Molekul netral mempunyai lebih banyak pasangan elektron dan karena itu lebih banyak energi korelasi daripada kation. HF tidak memuat korelasi, sehingga energi netral terlalu tinggi relatif terhadap kation, dan energi ionisasi sebenarnya lebih **besar**.

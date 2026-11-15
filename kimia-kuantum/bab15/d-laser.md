@@ -133,7 +133,7 @@ $$
 I_i \approx -\varepsilon_i . \qquad \text{(15.40)}
 $$
 
-Inilah **teorema Koopmans**, yang menjadikan spektrum fotoelektron "foto" langsung diagram energi orbital molekul. Hampiran ini mengabaikan dua efek yang berlawanan arah: **relaksasi** (orbital-orbital lain menyesuaikan diri dengan berkurangnya satu elektron, menurunkan energi ion, sehingga $I$ lebih kecil daripada $-\varepsilon$) dan **korelasi** (yang biasanya bekerja ke arah sebaliknya). Untuk orbital valensi, keduanya sering saling menghapus sebagian dan teorema Koopmans meleset sekitar 1 eV; untuk orbital inti, relaksasi mendominasi dan selisihnya belasan eV.
+Inilah **teorema Koopmans**, yang menjadikan spektrum fotoelektron "foto" langsung diagram energi orbital molekul. Pendekatan ini mengabaikan dua efek yang berlawanan arah: **relaksasi** (orbital-orbital lain menyesuaikan diri dengan berkurangnya satu elektron, menurunkan energi ion, sehingga $I$ lebih kecil daripada $-\varepsilon$) dan **korelasi** (yang biasanya bekerja ke arah sebaliknya). Untuk orbital valensi, keduanya sering saling menghapus sebagian dan teorema Koopmans meleset sekitar 1 eV; untuk orbital inti, relaksasi mendominasi dan selisihnya belasan eV.
 
 ::: {.contoh}
 **Contoh 15.44 · Spektrum fotoelektron air**

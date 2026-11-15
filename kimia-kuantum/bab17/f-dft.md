@@ -66,7 +66,7 @@ $$
 E[\rho] = T_s[\rho] + \int v\rho\,d\mathbf r + J[\rho] + E_{xc}[\rho], \qquad J[\rho] = \frac12\iint\frac{\rho(\mathbf r)\rho(\mathbf r')}{|\mathbf r - \mathbf r'|}\,d\mathbf r\,d\mathbf r' . \qquad \text{(17.47)}
 $$
 
-Suku $J$ adalah energi Hartree (tolakan klasik awan elektron dengan dirinya sendiri), dan **energi pertukaran–korelasi** $E_{xc}$ didefinisikan sebagai sisanya: pertukaran, korelasi, dan selisih kecil antara energi kinetik sebenarnya dan $T_s$. Karena $T_s$ dan $J$, yang merupakan bagian terbesar energi, dihitung tepat, hampiran pada $E_{xc}$ yang relatif kecil jauh lebih aman daripada hampiran pada seluruh energi kinetik. Meminimumkan (17.47) terhadap orbital dengan syarat ortonormal (seperti penurunan Hartree–Fock) memberi **persamaan Kohn–Sham**:
+Suku $J$ adalah energi Hartree (tolakan klasik awan elektron dengan dirinya sendiri), dan **energi pertukaran–korelasi** $E_{xc}$ didefinisikan sebagai sisanya: pertukaran, korelasi, dan selisih kecil antara energi kinetik sebenarnya dan $T_s$. Karena $T_s$ dan $J$, yang merupakan bagian terbesar energi, dihitung tepat, pendekatan pada $E_{xc}$ yang relatif kecil jauh lebih aman daripada pendekatan pada seluruh energi kinetik. Meminimumkan (17.47) terhadap orbital dengan syarat ortonormal (seperti penurunan Hartree–Fock) memberi **persamaan Kohn–Sham**:
 
 $$
 \left[-\tfrac12\nabla^2 + v(\mathbf r) + v_H(\mathbf r) + v_{xc}(\mathbf r)\right]\phi_i = \varepsilon_i\phi_i, \qquad v_H = \int\frac{\rho(\mathbf r')}{|\mathbf r - \mathbf r'|}d\mathbf r', \qquad v_{xc} = \frac{\delta E_{xc}}{\delta\rho} . \qquad \text{(17.48)}
@@ -102,7 +102,7 @@ Untuk keadaan dasar HF helium, kedua elektron menempati orbital ruang yang sama.
 
 ### Arti orbital dan energi Kohn–Sham
 
-Orbital Kohn–Sham adalah orbital sistem pembanding buatan, bukan orbital HF. Meski begitu, bentuknya biasanya sangat mirip orbital HF dan berguna untuk penafsiran kualitatif. Ada satu hasil tepat: untuk fungsional tepat, energi HOMO Kohn–Sham sama dengan minus energi ionisasi pertama, $\varepsilon_\text{HOMO} = -\text{EI}$ (teorema ionisasi). Dengan fungsional hampiran, hasil ini biasanya jauh meleset (Contoh 17.52): energi HOMO LDA dan GGA terlalu tinggi beberapa eV, karena potensial $v_{xc}$ hampiran meluruh terlalu cepat jauh dari molekul. Teorema Janak menghubungkan energi orbital dengan turunan energi terhadap okupansi, $\varepsilon_i = \partial E/\partial n_i$.
+Orbital Kohn–Sham adalah orbital sistem pembanding buatan, bukan orbital HF. Meski begitu, bentuknya biasanya sangat mirip orbital HF dan berguna untuk penafsiran kualitatif. Ada satu hasil tepat: untuk fungsional tepat, energi HOMO Kohn–Sham sama dengan minus energi ionisasi pertama, $\varepsilon_\text{HOMO} = -\text{EI}$ (teorema ionisasi). Dengan fungsional pendekatan, hasil ini biasanya jauh meleset (Contoh 17.52): energi HOMO LDA dan GGA terlalu tinggi beberapa eV, karena potensial $v_{xc}$ pendekatan meluruh terlalu cepat jauh dari molekul. Teorema Janak menghubungkan energi orbital dengan turunan energi terhadap okupansi, $\varepsilon_i = \partial E/\partial n_i$.
 
 ::: {.contoh}
 **Contoh 17.50 · Thomas–Fermi untuk atom hidrogen**
@@ -144,7 +144,7 @@ Apa yang dibuktikan teorema Hohenberg–Kohn, dan apa yang tidak? Mengapa Kohn�
 
 ### Tangga Yakub
 
-Semua fungsional praktis adalah hampiran bagi $E_{xc}[\rho]$. John Perdew menyusunnya sebagai **tangga Yakub** menuju "surga ketelitian kimia", dengan setiap anak tangga menambah satu bahan:
+Semua fungsional praktis adalah pendekatan bagi $E_{xc}[\rho]$. John Perdew menyusunnya sebagai **tangga Yakub** menuju "surga ketelitian kimia", dengan setiap anak tangga menambah satu bahan:
 
 | Anak tangga | Bahan | Contoh |
 |---|---|---|
@@ -158,11 +158,11 @@ Makin tinggi anak tangga, makin mahal dan umumnya makin teliti, tetapi tidak ada
 
 ### LDA
 
-**Hampiran kerapatan lokal** (LDA, atau LSDA bila spin dipisahkan) memakai energi pertukaran–korelasi per elektron gas seragam pada kerapatan lokal: $E_{xc}^\text{LDA} = \int\rho\,\varepsilon_{xc}^\text{gas}(\rho)\,d\mathbf r$. Bagian pertukaran adalah (17.44); bagian korelasi diambil dari simulasi Monte Carlo kuantum gas elektron (Ceperley dan Alder, 1980) yang diinterpolasi (VWN, PW92). LDA memberi geometri dan frekuensi yang cukup baik dan sangat berhasil untuk logam dan padatan, tetapi **mengikat terlalu kuat**: energi atomisasi molekul rata-rata terlalu besar lebih dari 100 kJ/mol. Karena itu LDA jarang dipakai dalam kimia molekul.
+**Pendekatan kerapatan lokal** (LDA, atau LSDA bila spin dipisahkan) memakai energi pertukaran–korelasi per elektron gas seragam pada kerapatan lokal: $E_{xc}^\text{LDA} = \int\rho\,\varepsilon_{xc}^\text{gas}(\rho)\,d\mathbf r$. Bagian pertukaran adalah (17.44); bagian korelasi diambil dari simulasi Monte Carlo kuantum gas elektron (Ceperley dan Alder, 1980) yang diinterpolasi (VWN, PW92). LDA memberi geometri dan frekuensi yang cukup baik dan sangat berhasil untuk logam dan padatan, tetapi **mengikat terlalu kuat**: energi atomisasi molekul rata-rata terlalu besar lebih dari 100 kJ/mol. Karena itu LDA jarang dipakai dalam kimia molekul.
 
 ### GGA
 
-**Hampiran gradien terumumkan** (GGA) memperhitungkan seberapa cepat kerapatan berubah melalui gradien tereduksi tak berdimensi
+**Pendekatan gradien terumumkan** (GGA) memperhitungkan seberapa cepat kerapatan berubah melalui gradien tereduksi tak berdimensi
 
 $$
 s = \frac{|\nabla\rho|}{2(3\pi^2)^{1/3}\rho^{4/3}} , \qquad E_x^\text{GGA} = \int\rho\,\varepsilon_x^\text{LDA}(\rho)\,F_x(s)\,d\mathbf r . \qquad \text{(17.50)}

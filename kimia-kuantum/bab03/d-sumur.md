@@ -119,7 +119,7 @@ print(E[:4] / e)        # [0.2715 1.0762 2.3766 4.0554]
 
 Bandingkan hasil kode di atas dengan penyelesaian tepat (3.18) untuk sumur 5,0 eV selebar 1,0 nm: 0,2718; 1,0774; 2,3792; 4,0593 eV. Berapa galat relatifnya, dan bagaimana galat itu dapat dikurangi?
 
-**Penyelesaian.** Galat relatif: 0,11%; 0,11%; 0,11%; 0,10%. Galat berasal dari dua sumber: jarak kisi $\Delta x = 2$ pm (galat hampiran beda hingga sebanding $(\Delta x)^2$) dan tepi sumur yang jatuh di antara titik kisi. Memperkecil $\Delta x$ atau memakai rumus turunan orde lebih tinggi mengurangi galat.
+**Penyelesaian.** Galat relatif: 0,11%; 0,11%; 0,11%; 0,10%. Galat berasal dari dua sumber: jarak kisi $\Delta x = 2$ pm (galat pendekatan beda hingga sebanding $(\Delta x)^2$) dan tepi sumur yang jatuh di antara titik kisi. Memperkecil $\Delta x$ atau memakai rumus turunan orde lebih tinggi mengurangi galat.
 
 **Memahami hasil.** Dengan sepuluh baris Python kita dapat menyelesaikan persamaan Schrödinger satu dimensi untuk potensial **apa pun**: sumur ganda amonia, potensial Morse, atau potensial rotasi internal. Metode ini adalah versi paling sederhana dari strategi kimia komputasi: ubah persamaan diferensial menjadi masalah nilai eigen matriks, lalu diagonalkan. Metode Numerov yang lebih teliti dibahas di Bab 5.
 :::

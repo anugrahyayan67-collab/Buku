@@ -18,7 +18,7 @@ $$
 \hat{\mathbf I}_A\cdot\hat{\mathbf I}_X = \hat I_{zA}\hat I_{zX} + \tfrac12\left(\hat I_{+A}\hat I_{-X} + \hat I_{-A}\hat I_{+X}\right) . \qquad \text{(16.22)}
 $$
 
-Suku dalam kurung menukar spin: ia mengubah $\alpha\beta$ menjadi $\beta\alpha$ dan sebaliknya. Bila selisih frekuensi jauh lebih besar daripada kopling, $|\nu_A - \nu_X| \gg |J|$, kedua keadaan itu terpisah jauh dalam energi, dan menurut teori perturbasi suku penukar hanya menggeser energinya sebesar orde $J^2/(\nu_A - \nu_X)$, yang dapat diabaikan. Inilah **spektrum orde satu**, yang ditandai dengan huruf yang berjauhan dalam abjad: **AX**. Dalam hampiran ini hanya $J\hat I_{zA}\hat I_{zX}$ yang tersisa, dan keadaan $\alpha\alpha$, $\alpha\beta$, $\beta\alpha$, $\beta\beta$ (spin A ditulis lebih dulu) adalah keadaan eigen dengan energi
+Suku dalam kurung menukar spin: ia mengubah $\alpha\beta$ menjadi $\beta\alpha$ dan sebaliknya. Bila selisih frekuensi jauh lebih besar daripada kopling, $|\nu_A - \nu_X| \gg |J|$, kedua keadaan itu terpisah jauh dalam energi, dan menurut teori perturbasi suku penukar hanya menggeser energinya sebesar orde $J^2/(\nu_A - \nu_X)$, yang dapat diabaikan. Inilah **spektrum orde satu**, yang ditandai dengan huruf yang berjauhan dalam abjad: **AX**. Dalam pendekatan ini hanya $J\hat I_{zA}\hat I_{zX}$ yang tersisa, dan keadaan $\alpha\alpha$, $\alpha\beta$, $\beta\alpha$, $\beta\beta$ (spin A ditulis lebih dulu) adalah keadaan eigen dengan energi
 
 $$
 \frac{E(m_A, m_X)}{h} = -\nu_Am_A - \nu_Xm_X + Jm_Am_X . \qquad \text{(16.23)}
@@ -138,7 +138,7 @@ Ramalkan pola sinyal proton CH dalam gugus isopropil, (CH₃)₂CH–. Mengapa j
 
 ## 16.6 Spektrum orde dua (AB)
 
-### Ketika hampiran orde satu gagal
+### Ketika pendekatan orde satu gagal
 
 Aturan $n + 1$ hanya berlaku bila selisih geseran $\Delta\nu = \nu_A - \nu_B$ (dalam Hz) jauh lebih besar daripada $J$. Bila keduanya sebanding, suku penukar dalam (16.22) tidak dapat diabaikan, dan spektrum berubah: intensitas garis tidak lagi sama dalam satu multiplet, garis-garis bergeser dari posisi orde satu, dan bahkan garis baru dapat muncul. Sistem dua spin semacam ini ditandai **AB**, dengan huruf yang berdekatan untuk menunjukkan geseran yang berdekatan.
 

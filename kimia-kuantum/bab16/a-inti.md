@@ -242,7 +242,7 @@ $$
 \frac{d\langle\hat{\mathbf I}\rangle}{dt} = \gamma\,\langle\hat{\mathbf I}\rangle \times \mathbf B , \qquad \text{(16.13)}
 $$
 
-persamaan klasik (16.5) yang berlaku untuk nilai harap. Karena Hamiltonian spin dalam medan bersifat linear dalam $\hat{\mathbf I}$, kesesuaian klasik–kuantum ini tepat, bukan hampiran. Kenyataan inilah yang membuat **model vektor** (subbab 16.8) begitu berguna: kita dapat memikirkan magnetisasi sampel sebagai vektor klasik yang diputar-putar oleh pulsa.
+persamaan klasik (16.5) yang berlaku untuk nilai harap. Karena Hamiltonian spin dalam medan bersifat linear dalam $\hat{\mathbf I}$, kesesuaian klasik–kuantum ini tepat, bukan pendekatan. Kenyataan inilah yang membuat **model vektor** (subbab 16.8) begitu berguna: kita dapat memikirkan magnetisasi sampel sebagai vektor klasik yang diputar-putar oleh pulsa.
 
 ::: {.dalam}
 **Menurunkan (16.13) dari komutator**
@@ -330,7 +330,7 @@ $$
 \frac{N_\beta}{N_\alpha} = e^{-\Delta E/k_BT}, \qquad \frac{N_\alpha - N_\beta}{N_\alpha + N_\beta} = \tanh\frac{\gamma\hbar B_0}{2k_BT} \approx \frac{\gamma\hbar B_0}{2k_BT} . \qquad \text{(16.14)}
 $$
 
-Hampiran terakhir sangat baik, karena argumen tanh berorde $10^{-5}$. Untuk proton pada 400 MHz dan 298 K, selisih relatifnya $3{,}2 \times 10^{-5}$: dari satu juta proton, 500 016 berada di tingkat $\alpha$ dan 499 984 di tingkat $\beta$ (bandingkan Contoh 1.53). Hanya selisih 32 per sejuta inilah yang menghasilkan sinyal.
+Pendekatan terakhir sangat baik, karena argumen tanh berorde $10^{-5}$. Untuk proton pada 400 MHz dan 298 K, selisih relatifnya $3{,}2 \times 10^{-5}$: dari satu juta proton, 500 016 berada di tingkat $\alpha$ dan 499 984 di tingkat $\beta$ (bandingkan Contoh 1.53). Hanya selisih 32 per sejuta inilah yang menghasilkan sinyal.
 
 ### Magnetisasi kesetimbangan
 

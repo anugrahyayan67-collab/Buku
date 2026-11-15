@@ -38,7 +38,7 @@ Setelah mempelajari bab ini, kamu mampu:
 ::: {.mat}
 **Prasyarat**
 
-Dari Bab 1: energi titik nol dan kapasitas kalor getaran (subbab 1.3 dan 1.9). Dari Bab 2: integral Gauss (2.2), deret pangkat dan persamaan Hermite (2.4), deret Taylor dan hampiran harmonik (2.9), nilai eigen matriks (2.8). Dari Bab 3: persamaan Schrödinger dan sumur terhingga (3.4, 3.9), penerobosan (3.11). Dari Bab 4: operator, komutator, nilai harap, paritas, representasi matriks.
+Dari Bab 1: energi titik nol dan kapasitas kalor getaran (subbab 1.3 dan 1.9). Dari Bab 2: integral Gauss (2.2), deret pangkat dan persamaan Hermite (2.4), deret Taylor dan pendekatan harmonik (2.9), nilai eigen matriks (2.8). Dari Bab 3: persamaan Schrödinger dan sumur terhingga (3.4, 3.9), penerobosan (3.11). Dari Bab 4: operator, komutator, nilai harap, paritas, representasi matriks.
 :::
 
 ## 5.1 Osilator klasik
@@ -67,7 +67,7 @@ $$
 V(r) = V(r_e) + \tfrac12k(r - r_e)^2 + \cdots, \qquad k = \left(\frac{d^2V}{dr^2}\right)_{r_e} , \qquad \text{(5.3)}
 $$
 
-karena turunan pertama nol di minimum. Apa pun bentuk persis kurvanya, untuk simpangan yang cukup kecil ikatan berperilaku seperti pegas dengan **tetapan gaya** $k$. Untuk getaran molekul pada tingkat-tingkat rendah, simpangannya beberapa persen panjang ikatan, sehingga hampiran harmonik cukup baik. Suku-suku berikutnya (anharmonisitas) dibahas di subbab 5.9.
+karena turunan pertama nol di minimum. Apa pun bentuk persis kurvanya, untuk simpangan yang cukup kecil ikatan berperilaku seperti pegas dengan **tetapan gaya** $k$. Untuk getaran molekul pada tingkat-tingkat rendah, simpangannya beberapa persen panjang ikatan, sehingga pendekatan harmonik cukup baik. Suku-suku berikutnya (anharmonisitas) dibahas di subbab 5.9.
 
 ### Dua benda dan massa tereduksi
 
@@ -120,7 +120,7 @@ Seandainya HCl berperilaku klasik dengan energi getaran sama dengan energi titik
 
 (b) $\int_{-A/2}^{A/2}\dfrac{dx}{\pi\sqrt{A^2 - x^2}} = \dfrac{2}{\pi}\arcsin\dfrac12 = \dfrac13$.
 
-**Memahami hasil.** Simpangan sekitar 10 pm, kira-kira 8% panjang ikatan (127 pm), membenarkan hampiran harmonik untuk tingkat dasar. Osilator klasik hanya menghabiskan sepertiga waktunya di separuh tengah lintasan; osilator kuantum pada keadaan dasar justru paling sering berada di tengah (subbab 5.5).
+**Memahami hasil.** Simpangan sekitar 10 pm, kira-kira 8% panjang ikatan (127 pm), membenarkan pendekatan harmonik untuk tingkat dasar. Osilator klasik hanya menghabiskan sepertiga waktunya di separuh tengah lintasan; osilator kuantum pada keadaan dasar justru paling sering berada di tengah (subbab 5.5).
 :::
 
 ::: {.kuis}

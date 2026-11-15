@@ -2,9 +2,9 @@
 
 Pada tahun 1929 Paul Dirac menulis bahwa hukum-hukum fisika yang mendasari sebagian besar fisika dan seluruh kimia sudah diketahui sepenuhnya; kesulitannya hanyalah bahwa penerapan hukum-hukum itu menghasilkan persamaan yang terlalu rumit untuk diselesaikan. Kita sudah merasakan kesulitan itu di Contoh 1.2: fungsi gelombang benzena pada kisi yang sangat kasar memerlukan lebih banyak angka daripada jumlah atom di alam semesta. Namun hari ini seorang mahasiswa dapat mengetik beberapa baris berisi koordinat atom, menekan tombol, dan dalam beberapa menit memperoleh geometri molekul obat dengan ketelitian seperseratus angstrom, spektrum inframerahnya, muatan atom-atomnya, dan energi reaksinya dengan galat beberapa kilojoule per mol. Energi total molekul air sekitar $-76{,}4$ hartree, sedangkan ketelitian yang diperlukan kimia sekitar satu milihartree, yaitu satu bagian dalam seratus ribu. Bagaimana sebuah program menembus jurang antara persamaan yang mustahil diselesaikan dan angka yang cukup teliti untuk merancang katalis?
 
-Jawabannya adalah rangkaian hampiran yang tersusun rapi, masing-masing dapat diperbaiki secara sistematis. Elektron pertama-tama dianggap bergerak dalam medan rata-rata elektron lain (**Hartree–Fock**), orbital-orbitalnya diuraikan atas sejumlah berhingga fungsi Gauss (**himpunan basis**), lalu gerak elektron yang saling menghindar (**korelasi**) ditambahkan dengan interaksi konfigurasi, teori perturbasi, atau metode *coupled-cluster*. Jalan lain, yang kini paling banyak dipakai, melepaskan fungsi gelombang sama sekali dan bekerja dengan kerapatan elektron yang hanya bergantung pada tiga koordinat (**teori fungsional kerapatan**, DFT). Untuk molekul yang sangat besar, metode semiempiris dan mekanika molekul mengorbankan ketelitian demi kecepatan.
+Jawabannya adalah rangkaian pendekatan yang tersusun rapi, masing-masing dapat diperbaiki secara sistematis. Elektron pertama-tama dianggap bergerak dalam medan rata-rata elektron lain (**Hartree–Fock**), orbital-orbitalnya diuraikan atas sejumlah berhingga fungsi Gauss (**himpunan basis**), lalu gerak elektron yang saling menghindar (**korelasi**) ditambahkan dengan interaksi konfigurasi, teori perturbasi, atau metode *coupled-cluster*. Jalan lain, yang kini paling banyak dipakai, melepaskan fungsi gelombang sama sekali dan bekerja dengan kerapatan elektron yang hanya bergantung pada tiga koordinat (**teori fungsional kerapatan**, DFT). Untuk molekul yang sangat besar, metode semiempiris dan mekanika molekul mengorbankan ketelitian demi kecepatan.
 
-Bab ini adalah puncak buku. Hampir setiap bab sebelumnya menyumbang bahannya: teorema variasi dan teori perturbasi (Bab 8), determinan Slater dan aturan Condon–Slater (Bab 9), hampiran Born–Oppenheimer dan LCAO (Bab 11), simetri (Bab 10), getaran (Bab 5), dan spektroskopi (Bab 15 dan 16). Kita akan menurunkan persamaan Hartree–Fock dan Roothaan, menulis sendiri program SCF kecil dengan Python, mengikuti perhitungan molekul air dari integral sampai muatan atom, lalu menapaki tangga metode korelasi dan fungsional kerapatan. Bab ditutup dengan apa yang paling diperlukan pemakai: cara memilih metode, membaca keluaran program, dan menghindari jebakan yang lazim.
+Bab ini adalah puncak buku. Hampir setiap bab sebelumnya menyumbang bahannya: teorema variasi dan teori perturbasi (Bab 8), determinan Slater dan aturan Condon–Slater (Bab 9), pendekatan Born–Oppenheimer dan LCAO (Bab 11), simetri (Bab 10), getaran (Bab 5), dan spektroskopi (Bab 15 dan 16). Kita akan menurunkan persamaan Hartree–Fock dan Roothaan, menulis sendiri program SCF kecil dengan Python, mengikuti perhitungan molekul air dari integral sampai muatan atom, lalu menapaki tangga metode korelasi dan fungsional kerapatan. Bab ditutup dengan apa yang paling diperlukan pemakai: cara memilih metode, membaca keluaran program, dan menghindari jebakan yang lazim.
 
 ::: {.strategi}
 **Pertanyaan pembuka**
@@ -43,14 +43,14 @@ Setelah mempelajari bab ini, kamu mampu:
 ::: {.mat}
 **Prasyarat**
 
-Dari Bab 1: skala energi dan ketelitian kimia (subbab 1.10, Contoh 1.52). Dari Bab 2: integral Gauss dan hasil kali fungsi Gauss (subbab 2.2), matriks, nilai eigen, dan diagonalisasi (2.7–2.8), satuan atom (2.11). Dari Bab 5: osilator harmonik dan mode normal (5.4, 5.11). Dari Bab 8: teorema variasi dan persamaan sekuler (subbab 8.2–8.5), teori perturbasi (8.6–8.7). Dari Bab 9: determinan Slater (subbab 9.6), Hartree–Fock untuk atom (9.8), korelasi elektron (9.10), aturan Condon–Slater (9.14). Dari Bab 10: tabel karakter dan label simetri orbital. Dari Bab 11: hampiran Born–Oppenheimer (subbab 11.1), LCAO (11.4), molekul H₂ dan interaksi konfigurasi (11.10–11.12). Dari Bab 13: metode Hückel (subbab 13.4).
+Dari Bab 1: skala energi dan ketelitian kimia (subbab 1.10, Contoh 1.52). Dari Bab 2: integral Gauss dan hasil kali fungsi Gauss (subbab 2.2), matriks, nilai eigen, dan diagonalisasi (2.7–2.8), satuan atom (2.11). Dari Bab 5: osilator harmonik dan mode normal (5.4, 5.11). Dari Bab 8: teorema variasi dan persamaan sekuler (subbab 8.2–8.5), teori perturbasi (8.6–8.7). Dari Bab 9: determinan Slater (subbab 9.6), Hartree–Fock untuk atom (9.8), korelasi elektron (9.10), aturan Condon–Slater (9.14). Dari Bab 10: tabel karakter dan label simetri orbital. Dari Bab 11: pendekatan Born–Oppenheimer (subbab 11.1), LCAO (11.4), molekul H₂ dan interaksi konfigurasi (11.10–11.12). Dari Bab 13: metode Hückel (subbab 13.4).
 :::
 
 ## 17.1 Peta metode: ab initio, DFT, semiempiris, mekanika molekul
 
-### Satu persamaan, banyak hampiran
+### Satu persamaan, banyak pendekatan
 
-Dalam hampiran Born–Oppenheimer (subbab 11.1), inti dianggap diam pada posisi $\{\mathbf R_A\}$, dan elektron mematuhi persamaan Schrödinger elektronik dengan Hamiltonian (dalam satuan atom)
+Dalam pendekatan Born–Oppenheimer (subbab 11.1), inti dianggap diam pada posisi $\{\mathbf R_A\}$, dan elektron mematuhi persamaan Schrödinger elektronik dengan Hamiltonian (dalam satuan atom)
 
 $$
 \hat H_\text{el} = -\sum_{i=1}^N\frac12\nabla_i^2 - \sum_{i=1}^N\sum_A\frac{Z_A}{r_{iA}} + \sum_{i<j}\frac1{r_{ij}} , \qquad \text{(17.1)}
@@ -83,11 +83,11 @@ Angka-angka dalam tabel hanyalah kisaran kasar, tetapi polanya penting: setiap l
 
 ### Dua sumbu ketelitian
 
-John Pople, yang bersama Walter Kohn menerima Hadiah Nobel Kimia 1998, menggambarkan kualitas perhitungan ab initio dengan diagram dua sumbu (Gambar 17.1). Sumbu pertama adalah **himpunan basis**: makin banyak fungsi basis, makin dekat orbital ke bentuk sebenarnya. Sumbu kedua adalah **perlakuan korelasi**: HF, MP2, CCSD, CCSD(T), sampai CI penuh. Jawaban tepat persamaan Schrödinger (nonrelativistik, dalam hampiran Born–Oppenheimer) terletak di pojok basis tak berhingga dan CI penuh. Setiap perhitungan nyata adalah satu titik di bidang ini, dan notasinya menyebut kedua koordinat, dipisah garis miring: "MP2/6-31G*" berarti teori MP2 dengan basis 6-31G*, dan "CCSD(T)/cc-pVTZ//B3LYP/6-31G*" berarti energi CCSD(T)/cc-pVTZ dihitung pada geometri yang dioptimasi dengan B3LYP/6-31G*.
+John Pople, yang bersama Walter Kohn menerima Hadiah Nobel Kimia 1998, menggambarkan kualitas perhitungan ab initio dengan diagram dua sumbu (Gambar 17.1). Sumbu pertama adalah **himpunan basis**: makin banyak fungsi basis, makin dekat orbital ke bentuk sebenarnya. Sumbu kedua adalah **perlakuan korelasi**: HF, MP2, CCSD, CCSD(T), sampai CI penuh. Jawaban tepat persamaan Schrödinger (nonrelativistik, dalam pendekatan Born–Oppenheimer) terletak di pojok basis tak berhingga dan CI penuh. Setiap perhitungan nyata adalah satu titik di bidang ini, dan notasinya menyebut kedua koordinat, dipisah garis miring: "MP2/6-31G*" berarti teori MP2 dengan basis 6-31G*, dan "CCSD(T)/cc-pVTZ//B3LYP/6-31G*" berarti energi CCSD(T)/cc-pVTZ dihitung pada geometri yang dioptimasi dengan B3LYP/6-31G*.
 
 ![Gambar 17.1 Diagram Pople. Sumbu mendatar: tingkat perlakuan korelasi; sumbu tegak: ukuran himpunan basis. Jawaban tepat terletak di pojok kanan atas. Angka di setiap kotak adalah energi korelasi atau energi total H₂O (geometri percobaan) yang dihitung dengan program pendamping bab ini; tanda panah menunjukkan arah perbaikan sistematis.](fig/c_pople.png){width=86%}
 
-Untuk DFT, Perdew mengusulkan gambaran serupa yang disebut **tangga Yakub**: anak tangga LDA, GGA, meta-GGA, hibrida, dan fungsional dengan orbital tak terisi, masing-masing menambah bahan baru ke dalam fungsional (subbab 17.14). Berbeda dengan diagram Pople, menaiki tangga Yakub tidak menjamin hasil yang lebih baik untuk setiap sifat, karena fungsional-fungsional itu adalah hampiran yang tidak dapat diperbaiki secara sistematis.
+Untuk DFT, Perdew mengusulkan gambaran serupa yang disebut **tangga Yakub**: anak tangga LDA, GGA, meta-GGA, hibrida, dan fungsional dengan orbital tak terisi, masing-masing menambah bahan baru ke dalam fungsional (subbab 17.14). Berbeda dengan diagram Pople, menaiki tangga Yakub tidak menjamin hasil yang lebih baik untuk setiap sifat, karena fungsional-fungsional itu adalah pendekatan yang tidak dapat diperbaiki secara sistematis.
 
 ### Ketelitian kimia
 
@@ -119,7 +119,7 @@ Energi total H₂O sekitar $-76{,}4\ E_h$. Nyatakan ketelitian kimia (1 kkal/mol
 
 **Penyelesaian.** 1 kkal/mol $= 1/627{,}51\ E_h = 1{,}594 \times 10^{-3}\ E_h$. Pecahannya $1{,}594 \times 10^{-3}/76{,}4 = 2{,}1 \times 10^{-5}$. Dengan pecahan yang sama, kapal 50 000 ton memerlukan ketelitian sekitar 1 ton.
 
-**Memahami hasil.** Untuk molekul yang lebih besar, misalnya obat dengan 50 atom, energi totalnya ribuan hartree, dan ketelitian relatif yang diperlukan menjadi $10^{-6}$ atau lebih kecil. Tidak ada metode hampiran yang mencapai ketelitian mutlak ini; yang dimanfaatkan adalah peniadaan galat antara reaktan dan produk, karena elektron-elektron inti dan sebagian besar elektron valensi hampir tidak berubah selama reaksi.
+**Memahami hasil.** Untuk molekul yang lebih besar, misalnya obat dengan 50 atom, energi totalnya ribuan hartree, dan ketelitian relatif yang diperlukan menjadi $10^{-6}$ atau lebih kecil. Tidak ada metode pendekatan yang mencapai ketelitian mutlak ini; yang dimanfaatkan adalah peniadaan galat antara reaktan dan produk, karena elektron-elektron inti dan sebagian besar elektron valensi hampir tidak berubah selama reaksi.
 :::
 
 ::: {.contoh}
@@ -142,7 +142,7 @@ Apa arti notasi "B3LYP/6-31G*" dan "CCSD(T)/cc-pVTZ//MP2/cc-pVDZ"? Mengapa kompu
 
 ### Determinan Slater dan energinya
 
-Hampiran Hartree–Fock menulis fungsi gelombang $N$ elektron sebagai satu **determinan Slater** (subbab 9.6) yang tersusun dari spin-orbital $\chi_i(\mathbf x) = \psi_i(\mathbf r)\sigma(s)$, dengan $\sigma = \alpha$ atau $\beta$:
+Pendekatan Hartree–Fock menulis fungsi gelombang $N$ elektron sebagai satu **determinan Slater** (subbab 9.6) yang tersusun dari spin-orbital $\chi_i(\mathbf x) = \psi_i(\mathbf r)\sigma(s)$, dengan $\sigma = \alpha$ atau $\beta$:
 
 $$
 \Psi_0 = \frac{1}{\sqrt{N!}}\begin{vmatrix}\chi_1(\mathbf x_1) & \chi_2(\mathbf x_1) & \cdots & \chi_N(\mathbf x_1)\\ \chi_1(\mathbf x_2) & \chi_2(\mathbf x_2) & \cdots & \chi_N(\mathbf x_2)\\ \vdots & & & \vdots\\ \chi_1(\mathbf x_N) & \chi_2(\mathbf x_N) & \cdots & \chi_N(\mathbf x_N)\end{vmatrix} \equiv |\chi_1\chi_2\cdots\chi_N| . \qquad \text{(17.2)}

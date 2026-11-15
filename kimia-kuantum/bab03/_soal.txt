@@ -198,7 +198,7 @@ Mengapa penerobosan lebih bergantung pada lebar penghalang daripada pada tinggin
 
 **Tantangan ★**
 
-★ Dengan hampiran WKB, hitung $T$ untuk elektron berenergi $E$ yang menerobos penghalang segitiga $V = V_0 - Fx$ (medan listrik $F$ di permukaan logam, emisi medan). Tunjukkan bahwa $\ln T \propto -1/F$. ||| $T \approx \exp[-4\sqrt{2m}(V_0 - E)^{3/2}/3\hbar F]$
+★ Dengan pendekatan WKB, hitung $T$ untuk elektron berenergi $E$ yang menerobos penghalang segitiga $V = V_0 - Fx$ (medan listrik $F$ di permukaan logam, emisi medan). Tunjukkan bahwa $\ln T \propto -1/F$. ||| $T \approx \exp[-4\sqrt{2m}(V_0 - E)^{3/2}/3\hbar F]$
 
 ## Subbab 3.12: Penerobosan dalam kimia
 

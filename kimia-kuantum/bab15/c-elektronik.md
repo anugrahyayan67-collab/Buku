@@ -6,7 +6,7 @@ Transisi elektronik molekul menyerap di daerah tampak dan ultraviolet. Dalam fas
 
 ### Pemisahan momen dipol transisi
 
-Dalam hampiran Born–Oppenheimer (subbab 11.1), fungsi gelombang molekul adalah hasil kali fungsi elektronik (yang bergantung secara parametrik pada koordinat inti $\mathbf R$) dan fungsi getaran: $\Psi = \psi_\text{el}(\mathbf r; \mathbf R)\chi_v(\mathbf R)$. Operator momen dipol adalah jumlah bagian elektron dan bagian inti, $\hat{\boldsymbol\mu} = -e\sum_i\mathbf r_i + e\sum_AZ_A\mathbf R_A$. Momen dipol transisi antara keadaan $(\text{el}'', v'')$ dan $(\text{el}', v')$ menjadi
+Dalam pendekatan Born–Oppenheimer (subbab 11.1), fungsi gelombang molekul adalah hasil kali fungsi elektronik (yang bergantung secara parametrik pada koordinat inti $\mathbf R$) dan fungsi getaran: $\Psi = \psi_\text{el}(\mathbf r; \mathbf R)\chi_v(\mathbf R)$. Operator momen dipol adalah jumlah bagian elektron dan bagian inti, $\hat{\boldsymbol\mu} = -e\sum_i\mathbf r_i + e\sum_AZ_A\mathbf R_A$. Momen dipol transisi antara keadaan $(\text{el}'', v'')$ dan $(\text{el}', v')$ menjadi
 
 $$
 \boldsymbol\mu_{fi} = \int\chi_{v'}^*\left[\int\psi_\text{el}'^*\hat{\boldsymbol\mu}\,\psi_\text{el}''\,d\mathbf r\right]\chi_{v''}\,d\mathbf R . \qquad \text{(15.27)}

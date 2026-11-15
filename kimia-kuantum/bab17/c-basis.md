@@ -28,7 +28,7 @@ $$
 
 Dalam basis **STO-nG** (Hehre, Stewart, dan Pople, 1969), setiap STO dihampiri dengan $n$ fungsi Gauss yang eksponen dan koefisiennya dipilih agar tumpang tindihnya dengan STO sebesar mungkin. Koefisien dan eksponen itu kemudian dibekukan, sehingga setiap fungsi terkontraksi dihitung sebagai satu fungsi basis dalam persamaan Roothaan, meskipun integralnya dibangun dari $n^4$ integral primitif. Gambar 17.4 memperlihatkan bagaimana tiga fungsi Gauss sudah meniru orbital 1s Slater dengan baik, kecuali di dekat inti (taring) dan di ekor yang jauh.
 
-![Gambar 17.4 Hampiran orbital Slater 1s (ζ = 1, garis hitam) dengan satu, dua, dan tiga fungsi Gauss (STO-1G, STO-2G, STO-3G). Kiri: fungsi radial; sisipan memperbesar daerah dekat inti, tempat fungsi Gauss tidak dapat meniru taring. Kanan: fungsi distribusi radial r²ψ², yang menunjukkan bahwa di daerah yang penting secara energi hampirannya sudah sangat baik.](fig/c_basis.png){width=94%}
+![Gambar 17.4 Pendekatan orbital Slater 1s (ζ = 1, garis hitam) dengan satu, dua, dan tiga fungsi Gauss (STO-1G, STO-2G, STO-3G). Kiri: fungsi radial; sisipan memperbesar daerah dekat inti, tempat fungsi Gauss tidak dapat meniru taring. Kanan: fungsi distribusi radial r²ψ², yang menunjukkan bahwa di daerah yang penting secara energi hampirannya sudah sangat baik.](fig/c_basis.png){width=94%}
 
 ### Basis minimal, split-valence, polarisasi, difus
 
@@ -78,7 +78,7 @@ Untuk atom berat (dari periode keempat ke bawah), elektron inti sering diganti d
 ::: {.contoh}
 **Contoh 17.16 · Berapa Gauss untuk satu Slater?**
 
-Untuk atom hidrogen dengan orbital Slater $\zeta = 1$ (energi tepat $-0{,}5\ E_h$), energi dengan hampiran STO-nG adalah: STO-1G $-0{,}4242$; STO-2G $-0{,}4812$; STO-3G $-0{,}4949$; STO-6G $-0{,}4998\ E_h$. Tumpang tindih dengan orbital Slater berturut-turut 0,9784; 0,9984; 0,99983; 0,9999994, dan rapat elektron di inti $|\psi(0)|^2$ berturut-turut 0,072; 0,152; 0,207; 0,281, dibandingkan nilai tepat $1/\pi = 0{,}318$. Apa polanya?
+Untuk atom hidrogen dengan orbital Slater $\zeta = 1$ (energi tepat $-0{,}5\ E_h$), energi dengan pendekatan STO-nG adalah: STO-1G $-0{,}4242$; STO-2G $-0{,}4812$; STO-3G $-0{,}4949$; STO-6G $-0{,}4998\ E_h$. Tumpang tindih dengan orbital Slater berturut-turut 0,9784; 0,9984; 0,99983; 0,9999994, dan rapat elektron di inti $|\psi(0)|^2$ berturut-turut 0,072; 0,152; 0,207; 0,281, dibandingkan nilai tepat $1/\pi = 0{,}318$. Apa polanya?
 
 **Penyelesaian.** Galat energi: 0,0758; 0,0188; 0,0051; 0,0002 $E_h$, berkurang kira-kira empat kali untuk setiap Gauss tambahan pada awalnya. Tumpang tindih sudah 99,98% dengan tiga Gauss, tetapi rapat di inti masih 35% terlalu rendah, dan dengan enam Gauss pun masih 12% terlalu rendah.
 

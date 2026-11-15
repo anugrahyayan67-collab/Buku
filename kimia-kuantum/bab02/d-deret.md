@@ -18,9 +18,9 @@ $$
 \sin x = x - \frac{x^3}{3!} + \cdots, \qquad \cos x = 1 - \frac{x^2}{2!} + \cdots, \qquad (1 + x)^n = 1 + nx + \frac{n(n - 1)}{2}x^2 + \cdots
 $$
 
-Deret Taylor adalah alat kerja sehari-hari fisikawan dan kimiawan untuk dua keperluan. Pertama, **hampiran**: jika $x$ kecil, cukup ambil beberapa suku pertama. Kedua, **pemeriksaan limit**: mengecek apakah rumus baru kembali ke rumus lama dalam limit tertentu, seperti rumus Planck ke Rayleigh–Jeans di subbab 1.3.
+Deret Taylor adalah alat kerja sehari-hari fisikawan dan kimiawan untuk dua keperluan. Pertama, **pendekatan**: jika $x$ kecil, cukup ambil beberapa suku pertama. Kedua, **pemeriksaan limit**: mengecek apakah rumus baru kembali ke rumus lama dalam limit tertentu, seperti rumus Planck ke Rayleigh–Jeans di subbab 1.3.
 
-### Hampiran harmonik
+### Pendekatan harmonik
 
 Penerapan terpenting deret Taylor dalam kimia adalah pada kurva energi potensial molekul. Di sekitar panjang ikatan setimbang $r_e$, $V'(r_e) = 0$ (minimum), sehingga
 
@@ -28,7 +28,7 @@ $$
 V(r) = V(r_e) + \frac12V''(r_e)(r - r_e)^2 + \frac16V'''(r_e)(r - r_e)^3 + \cdots
 $$
 
-Jika simpangan kecil, suku kuadrat mendominasi, dan molekul bergetar seperti pegas dengan **tetapan gaya** $k = V''(r_e)$. Inilah **hampiran harmonik**, dasar Bab 5. Suku kubik dan seterusnya menyatakan **anharmonisitas**, yang menyebabkan ikatan dapat putus dan menggeser nada atas getaran.
+Jika simpangan kecil, suku kuadrat mendominasi, dan molekul bergetar seperti pegas dengan **tetapan gaya** $k = V''(r_e)$. Inilah **pendekatan harmonik**, dasar Bab 5. Suku kubik dan seterusnya menyatakan **anharmonisitas**, yang menyebabkan ikatan dapat putus dan menggeser nada atas getaran.
 
 ::: {.contoh}
 **Contoh 2.41 · Tetapan gaya dari potensial Morse**
@@ -50,12 +50,12 @@ $$
 **Memahami hasil.** Nilai spektroskopis $\omega_e$ HCl adalah 2991 cm⁻¹. Suku kubik bertanda negatif: kurva Morse lebih landai di sisi regang daripada di sisi tekan (Gambar 2.6 kiri). Akibatnya panjang ikatan rata-rata sedikit bertambah ketika molekul bergetar lebih kuat, dan itulah asal pemuaian termal zat padat.
 :::
 
-![Gambar 2.6 Kiri: potensial Morse HCl dan hampiran Taylor orde dua (harmonik) dan orde tiga di sekitar minimum. Kanan: deret Fourier gelombang persegi dengan 1, 3, dan 15 suku sinus. Lonjakan di dekat loncatan (fenomena Gibbs) tidak hilang dengan menambah suku, hanya menyempit.](fig/c_deret.png){width=90%}
+![Gambar 2.6 Kiri: potensial Morse HCl dan pendekatan Taylor orde dua (harmonik) dan orde tiga di sekitar minimum. Kanan: deret Fourier gelombang persegi dengan 1, 3, dan 15 suku sinus. Lonjakan di dekat loncatan (fenomena Gibbs) tidak hilang dengan menambah suku, hanya menyempit.](fig/c_deret.png){width=90%}
 
 ::: {.contoh}
-**Contoh 2.42 · Seberapa baik hampiran orde satu?**
+**Contoh 2.42 · Seberapa baik pendekatan orde satu?**
 
-(a) Bandingkan $\sqrt{1{,}1}$, $e^{0{,}1}$, dan $\ln 1{,}1$ dengan hampiran dua suku pertama deretnya. (b) Energi kinetik relativistik adalah $K = mc^2(\gamma - 1)$ dengan $\gamma = (1 - v^2/c^2)^{-1/2}$. Uraikan sampai suku $v^4$ dan hitung $K/(\tfrac12mv^2)$ untuk elektron 1s hidrogen ($v = c/137$) dan untuk $v = 0{,}1c$.
+(a) Bandingkan $\sqrt{1{,}1}$, $e^{0{,}1}$, dan $\ln 1{,}1$ dengan pendekatan dua suku pertama deretnya. (b) Energi kinetik relativistik adalah $K = mc^2(\gamma - 1)$ dengan $\gamma = (1 - v^2/c^2)^{-1/2}$. Uraikan sampai suku $v^4$ dan hitung $K/(\tfrac12mv^2)$ untuk elektron 1s hidrogen ($v = c/137$) dan untuk $v = 0{,}1c$.
 
 **Penyelesaian.** (a) $\sqrt{1{,}1} = 1{,}048\,81$ lawan $1 + 0{,}05 - 0{,}00125 = 1{,}048\,75$; $e^{0{,}1} = 1{,}105\,17$ lawan $1 + 0{,}1 + 0{,}005 = 1{,}105$; $\ln 1{,}1 = 0{,}095\,31$ lawan $0{,}1 - 0{,}005 = 0{,}095$.
 
