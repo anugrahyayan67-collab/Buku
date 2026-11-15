@@ -110,7 +110,8 @@ def matriks(p):
     M = np.zeros((3, 3))
     for j, i in enumerate(p): M[i, j] = 1
     return M
-chi = {'A1': [1, 1, 1, 1, 1, 1], 'A2': [1, 1, 1, -1, -1, -1], 'E': [2, -1, -1, 0, 0, 0]}
+chi = {'A1': [1, 1, 1, 1, 1, 1], 'A2': [1, 1, 1, -1, -1, -1],
+       'E': [2, -1, -1, 0, 0, 0]}
 s1 = np.array([1, 0, 0])
 for irrep, c in chi.items():
     v = sum(ck * matriks(P[R]) @ s1 for ck, R in zip(c, P)) * c[0] / 6

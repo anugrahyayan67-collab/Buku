@@ -140,6 +140,7 @@ Mengapa pita fotoelektron yang lebar dengan deret getaran panjang menandai elekt
 Ulangi model 2 × 2 Contoh 11.35 untuk O₂ dengan energi tak bercampur $-33{,}0$ dan $-16{,}5$ eV serta kopling $-3{,}0$ eV. Berapa pergeseran $3\sigma_g$? ||| 0,53 eV; $3\sigma_g$ di $-15{,}97$ eV
 Dari bilangan gelombang ion N₂⁺ (2207, 1903, 2420 cm⁻¹), hitung jarak antarpuncak deret getaran ketiga pita fotoelektron N₂ dalam eV. ||| 0,274; 0,236; 0,300 eV
 Mengapa orbital $2\sigma_u$ N₂ hanya lemah antiikatan? ||| bercampur dengan $3\sigma_u$; berkarakter pasangan bebas
+Hartree–Fock/cc-pVTZ memberi $-\varepsilon$ N₂: $1\pi_u$ 16,65 eV dan $3\sigma_g$ 17,21 eV. Apa yang diramalkan teorema Koopmans untuk HOMO, dan apa kata spektrum fotoelektron? ||| $1\pi_u$; spektrum: $3\sigma_g$ (15,58 eV)
 
 **Tantangan ★**
 
@@ -213,6 +214,9 @@ Bila $\lambda = 0{,}26$ dan tumpang tindih diabaikan, berapa bobot struktur ioni
 CI pada $R = 1{,}4$ bohr dengan $\zeta = 1{,}19$ ($S = 0{,}679$) memberi $c_1 = 0{,}9937$, $c_2 = -0{,}1121$. Hitung $\lambda$. ||| 0,258
 Mengapa konfigurasi $(\sigma_g)^1(\sigma_u)^1$ tidak bercampur dengan $(\sigma_g)^2$? ||| simetri $\Sigma_u$, bukan $\Sigma_g$
 Mengapa bobot $(\sigma_u)^2$ dalam CI naik ketika $R$ bertambah? ||| selisih energi $\sigma_g$–$\sigma_u$ mengecil
+Berapa persen energi korelasi H₂ yang ditangkap FCI/cc-pVDZ ($E_\text{FCI} = -1{,}16367$, $E_\text{RHF} = -1{,}12875$ hartree), bila energi korelasi eksak $-0{,}04084$ hartree? ||| 85%
+Pada $R = 4$ bohr, okupasi orbital natural H₂ adalah 1,512 dan 0,485. Kira-kira berapa bobot konfigurasi $(\sigma_u)^2$? ||| sekitar 0,24
+Berapa $\langle\hat S^2\rangle$ UHF H₂ tepat di titik Coulson–Fischer dan pada disosiasi? ||| 0; mendekati 1
 
 **Tantangan ★**
 
@@ -249,6 +253,7 @@ Hitung elektronegativitas Mulliken H ($I = 13{,}598$, $A = 0{,}754$ eV). ||| 7,1
 Hitung momen dipol KCl dari model muatan titik $\pm e$ ($R_e = 266{,}7$ pm) dan karakter ioniknya (terukur 10,27 D). ||| 12,81 D; 0,80
 Hitung karakter ionik HF menurut rumus Pauling $1 - \exp[-\tfrac14(\Delta\chi)^2]$ dengan $\Delta\chi = 1{,}78$ dan bandingkan dengan $\mu/eR_e$. ||| 0,55; 0,415
 Mengapa momen dipol tidak dapat dihitung hanya dari muatan atom Mulliken? ||| pasangan bebas dan polarisasi atom menyumbang dipol
+Mengapa muatan Mulliken LiH (RHF/cc-pVTZ, $\pm0{,}26e$) jauh dari $\mu/eR_e = 0{,}77$, padahal momen dipol RHF-nya cocok dengan pengukuran? ||| pembagian kerapatan bergantung pada basis; dipol adalah besaran terukur
 
 **Tantangan ★**
 
@@ -285,6 +290,7 @@ Dengan $\lambda = k$ untuk osilator $\hat H = \hat p^2/2m + \tfrac12kx^2$, tunju
 Tunjukkan dengan (11.41) bahwa setiap titik di bidang bagi tegak lurus antarinti termasuk daerah mengikat. ||| $\cos\theta_A = \cos\theta_B = R/2r > 0$
 Energi sebuah molekul dalam medan listrik $F$ (satuan atom): $E(+0{,}001) = -100{,}0707025$, $E(-0{,}001) = -100{,}0693025$, $E(0) = -100{,}0700000$. Hitung $\mu = -dE/dF$ dan $\alpha = -d^2E/dF^2$. ||| $\mu = 0{,}70$ a.u. $= 1{,}78$ D; $\alpha = 5{,}0$ a.u.
 Untuk He dengan $E = -(Z - \tfrac5{16})^2$, pakai $\lambda = Z$ untuk menghitung $\langle 1/r\rangle$ per elektron. ||| $Z - \tfrac{5}{16} = 1{,}6875$ bohr⁻¹
+Dengan $\mu = 0{,}760$ dan $\alpha_{zz} = 5{,}59$ satuan atom untuk HF, hitung perubahan energi molekul yang dipolnya sejajar medan $10^8$ V/m (1 satuan atom medan $= 5{,}142 \times 10^{11}$ V/m). ||| $-1{,}48 \times 10^{-4}$ hartree $= -4{,}0$ meV
 
 **Tantangan ★**
 

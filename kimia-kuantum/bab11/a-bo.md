@@ -286,9 +286,9 @@ import numpy as np
 from scipy.interpolate import CubicSpline
 from scipy.linalg import eigh_tridiagonal
 U = CubicSpline(R_data, E_data)          # kurva eksak (bohr, hartree)
-mu = 1836.15 / 2                         # massa tereduksi dua proton (satuan atom)
+mu = 1836.15 / 2                  # massa tereduksi dua proton (a.u.)
 R = np.linspace(0.8, 12, 6000); h = R[1] - R[0]
-diag = 1 / (mu * h**2) + U(R)            # -(1/2mu) d2/dR2 dengan beda hingga
+diag = 1 / (mu * h**2) + U(R)     # -(1/2mu) d2/dR2, beda hingga
 off = -np.ones(len(R) - 1) / (2 * mu * h**2)
 E, S = eigh_tridiagonal(diag, off, select='v', select_range=(-0.7, -0.5))
 print((E - E[0])[:6] * 219474.6)         # G(v) - G(0) dalam cm^-1

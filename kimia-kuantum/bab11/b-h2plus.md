@@ -96,12 +96,14 @@ def A_dari_p(p, nl=30):                    # M genap: l = 0, 2, 4, ...
     ls = range(0, 2 * nl, 2)
     P = np.array([np.sqrt(l + 0.5) * eval_legendre(l, x) for l in ls])
     Mat = (P * w * x**2) @ P.T * p**2 - np.diag([l * (l + 1) for l in ls])
-    return np.linalg.eigvalsh(Mat).max()   # nilai eigen terbesar = keadaan terendah
+    return np.linalg.eigvalsh(Mat).max()   # terbesar = keadaan terendah
 def ujung(p, R):
     A = A_dari_p(p); lmax = 1 + 40 / p
-    f = lambda l, y: [y[1], (-(A + 2*R*l - p*p*l*l) * y[0] - 2*l*y[1]) / (l*l - 1)]
+    f = lambda l, y: [y[1],
+                      (-(A + 2*R*l - p*p*l*l) * y[0] - 2*l*y[1]) / (l*l - 1)]
     l0 = 1 + 1e-7
-    s = solve_ivp(f, [l0, lmax], [1.0, -(A + 2*R - p*p) / 2], rtol=1e-11, atol=1e-14)
+    y0 = [1.0, -(A + 2*R - p*p) / 2]
+    s = solve_ivp(f, [l0, lmax], y0, rtol=1e-11, atol=1e-14)
     return s.y[0, -1] * np.exp(-p * lmax)
 R = 2.0
 p = brentq(lambda p: ujung(p, R), 1.3, 1.7)
@@ -274,7 +276,7 @@ def E_ikat(R):
     K = -(1 + R) * np.exp(-R)
     return -0.5 + 1 / R + (J + K) / (1 + S)
 r = minimize_scalar(E_ikat, bounds=(1, 5), method='bounded')
-print(r.x, -0.5 - r.fun, (-0.5 - r.fun) * 27.2114)   # 2.493  0.0648  1.764
+print(r.x, -0.5 - r.fun, (-0.5 - r.fun) * 27.2114)  # 2.493 0.0648 1.764
 ```
 
 **Memahami hasil.** $R_e = 2{,}49$ bohr dan $D_e = 1{,}76$ eV, yaitu 63% energi ikat eksak, dengan ikatan 25% terlalu panjang. Kelemahan utamanya adalah bahwa fungsi uji memakai orbital 1s atom H yang tidak diubah. Di dalam molekul, elektron ditarik oleh dua proton, sehingga awannya semestinya lebih rapat ke inti.

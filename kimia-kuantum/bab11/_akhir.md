@@ -17,6 +17,7 @@
 | H₂: OM | $E = 2h_{\sigma\sigma} + J_{\sigma\sigma} + 1/R$; kovalen + ionik sama bobot | 11.10 |
 | H₂: Heitler–London | $E_\pm - 2E_\text{H} = (Q \pm X)/(1 \pm S^2)$; singlet mengikat, triplet menolak | 11.11 |
 | CI dan korelasi | $\Psi = c_1\sigma_g^2 + c_2\sigma_u^2$ = kovalen + $\lambda$ ionik; $\ E_\text{kor} = E_\text{eksak} - E_\text{HF}$ | 11.12 |
+| UHF | orbital α dan β berbeda; titik Coulson–Fischer H₂ $R \approx 2{,}3$ bohr; kontaminasi spin | 11.12 |
 | Heteronuklir | $E_\pm = \tfrac12(\alpha_A + \alpha_B) \mp \sqrt{\tfrac14(\alpha_B - \alpha_A)^2 + \beta^2}$ | 11.13 |
 | Polaritas | $\boldsymbol\mu = e\sum Z_A\mathbf R_A - e\int\rho\,\mathbf r\,d\tau$; karakter ionik $\mu/eR_e$ | 11.14 |
 | Elektronegativitas | Pauling: $\lvert\Delta\chi\rvert = 0{,}102\sqrt{\Delta}$; Mulliken: $\chi_M = \tfrac12(I + A)$ | 11.14 |

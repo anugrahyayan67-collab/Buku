@@ -74,7 +74,7 @@ Dengan kurva eksak H₂⁺ dan (11.38), diperoleh perubahan energi kinetik dan p
 Dua cerita yang tampak bertentangan tentang ikatan kimia, "ikatan menurunkan energi potensial" dan "ikatan menurunkan energi kinetik", karena itu sama-sama benar, pada tahap yang berbeda. Analisis Klaus Ruedenberg (1962) menafsirkannya demikian: penyebab utama ikatan kovalen adalah penurunan energi kinetik akibat interferensi konstruktif (delokalisasi) orbital atom; penyusutan orbital yang menyertainya mengubah keuntungan kinetik itu menjadi keuntungan potensial, sehingga di jarak setimbang teorema virial terpenuhi. Kimiawan masih memperdebatkan bobot relatif kedua mekanisme, tetapi teorema virial menjamin bahwa setiap cerita yang hanya menyebut "potensial" atau hanya "kinetik" tidak lengkap.
 
 ::: {.contoh}
-**Contoh 11.69 · Energi kinetik dan potensial di jarak setimbang**
+**Contoh 11.72 · Energi kinetik dan potensial di jarak setimbang**
 
 Energi eksak H₂⁺ di $R_e$ adalah $-0{,}60263$ hartree, dan energi eksak H₂ di $R_e$ adalah $-1{,}17447$ hartree. Hitung $\langle T\rangle$ dan $\langle V\rangle$ untuk keduanya, serta perubahannya relatif terhadap atom-atom terpisah.
 
@@ -84,17 +84,17 @@ Energi eksak H₂⁺ di $R_e$ adalah $-0{,}60263$ hartree, dan energi eksak H₂
 :::
 
 ::: {.contoh}
-**Contoh 11.70 · Fungsi uji yang melanggar teorema virial**
+**Contoh 11.73 · Fungsi uji yang melanggar teorema virial**
 
 Untuk LCAO H₂⁺ dengan $\zeta = 1$ di minimumnya ($R = 2{,}493$ bohr), $T = 0{,}3827$ dan $V = -0{,}9475$ hartree. Dengan $\zeta = 1{,}238$ dioptimalkan ($R = 2{,}003$ bohr), $T = 0{,}5865$ dan $V = -1{,}1730$ hartree. Hitung $-V/T$ untuk keduanya.
 
 **Penyelesaian.** $\zeta = 1$: $-V/T = 0{,}9475/0{,}3827 = 2{,}48$. $\zeta$ optimal: $1{,}1730/0{,}5865 = 2{,}000$.
 
-**Memahami hasil.** Fungsi dengan $\zeta = 1$ melanggar teorema virial jauh sekali: energi kinetiknya bahkan *lebih kecil* daripada atom H (0,38 < 0,50), berlawanan dengan Contoh 11.69. Fungsi itu menangkap efek delokalisasi tetapi tidak menangkap penyusutan orbital. Setelah $\zeta$ dioptimalkan, perbandingan $-V/T$ menjadi tepat 2, seperti dijanjikan kotak *Lebih dalam*. Pemeriksaan $-V/T = 2$ adalah uji kualitas sederhana untuk fungsi gelombang pendekatan, dan program kimia kuantum sering mencetak "rasio virial" untuk tujuan ini.
+**Memahami hasil.** Fungsi dengan $\zeta = 1$ melanggar teorema virial jauh sekali: energi kinetiknya bahkan *lebih kecil* daripada atom H (0,38 < 0,50), berlawanan dengan Contoh 11.72. Fungsi itu menangkap efek delokalisasi tetapi tidak menangkap penyusutan orbital. Setelah $\zeta$ dioptimalkan, perbandingan $-V/T$ menjadi tepat 2, seperti dijanjikan kotak *Lebih dalam*. Pemeriksaan $-V/T = 2$ adalah uji kualitas sederhana untuk fungsi gelombang pendekatan, dan program kimia kuantum sering mencetak "rasio virial" untuk tujuan ini.
 :::
 
 ::: {.contoh}
-**Contoh 11.71 · Gaya dari energi kinetik dan potensial**
+**Contoh 11.74 · Gaya dari energi kinetik dan potensial**
 
 Dari tabel di atas, pada $R = 3{,}0$ bohr: $E = -0{,}57756$, $T = 0{,}47488$, $V = -1{,}05244$ hartree. Gunakan (11.37) untuk menghitung $dE/dR$ dan gaya antarinti. Apakah inti saling menarik atau menolak di jarak ini?
 
@@ -110,13 +110,23 @@ Ruedenberg menguraikan pembentukan ikatan H₂⁺ dan H₂ menjadi langkah-langk
 :::
 
 ::: {.contoh}
-**Contoh 11.72 · Rasio virial sebagai uji fungsi gelombang H₂**
+**Contoh 11.75 · Rasio virial sebagai uji fungsi gelombang H₂**
 
 Untuk keempat fungsi H₂ di subbab 11.12, energi kinetik dan potensial di minimum masing-masing adalah (hartree): OM $\zeta = 1$: $T = 0{,}797$, $V = -1{,}896$; OM $\zeta$ optimal: $T = 1{,}128$, $V = -2{,}256$; Heitler–London $\zeta = 1$: $T = 0{,}838$, $V = -1{,}954$; Wang: $T = 1{,}139$, $V = -2{,}278$. Hitung $-V/T$ dan tafsirkan.
 
 **Penyelesaian.** OM $\zeta = 1$: 2,38; OM optimal: 2,000; Heitler–London: 2,33; Wang: 2,000.
 
 **Memahami hasil.** Fungsi dengan $\zeta = 1$ mempunyai energi kinetik jauh di bawah nilai eksak (1,174 hartree): elektron dalam orbital atom H yang tidak berubah bergerak "terlalu lambat" untuk molekul. Setelah $\zeta$ dioptimalkan, rasio menjadi tepat 2, tetapi itu tidak berarti energinya tepat: fungsi OM dan Wang yang optimal masih meleset 1,3 dan 1,0 eV. Teorema virial adalah syarat perlu, bukan syarat cukup. Perhitungan $\zeta$ optimal H₂⁺ untuk banyak $R$ menunjukkan pola yang sejalan dengan Gambar 11.13: $\zeta = 0{,}995$ pada 6 bohr (orbital sedikit *mengembang*, energi kinetik turun), 1,03 pada 4 bohr, 1,24 pada 2 bohr, dan 1,54 pada 1 bohr (orbital menyusut kuat, energi kinetik naik).
+:::
+
+::: {.contoh}
+**Contoh 11.76 · Teorema virial dalam perhitungan nyata**
+
+Untuk H₂ dengan RHF/cc-pVTZ (PySCF), energi kinetik dan potensial pada dua jarak adalah: $R = 1{,}4$ bohr: $T = 1{,}12312$, $V = -2{,}25608$ hartree; $R = 2{,}0$ bohr: $T = 0{,}88544$, $V = -1{,}97652$ hartree. Turunan energi yang dihitung secara numerik: $-R\,dE/dR = -0{,}00669$ (pada 1,4 bohr) dan $-0{,}20439$ hartree (pada 2,0 bohr). Periksa (11.37).
+
+**Penyelesaian.** $R = 1{,}4$: $2T + V = 2{,}24624 - 2{,}25608 = -0{,}00984$, dibandingkan $-0{,}00669$. $R = 2{,}0$: $2T + V = 1{,}77088 - 1{,}97652 = -0{,}20564$, dibandingkan $-0{,}20439$.
+
+**Memahami hasil.** Kedua ruas cocok sampai sekitar 0,003 hartree, tetapi tidak tepat. Sebabnya: teorema virial berlaku tepat hanya bila fungsi gelombang optimal terhadap penskalaan, dan basis Gauss yang tetap (eksponennya tidak dioptimalkan untuk setiap molekul) tidak sepenuhnya memiliki kebebasan itu. Dengan basis yang makin lengkap, selisihnya mengecil. Program kimia kuantum mencetak "rasio virial" $-V/T$; pada geometri setimbang yang dioptimalkan dengan basis yang baik nilainya sangat dekat ke 2 (di sini 2,009 pada 1,4 bohr, dekat minimum RHF 1,388 bohr), dan simpangan besar menandakan basis yang tidak seimbang.
 :::
 
 ::: {.kuis}
@@ -166,7 +176,7 @@ dengan $\theta_A$ sudut di inti $A$ antara arah ke titik itu dan arah ke inti $B
 ![Gambar 11.14 Daerah mengikat (biru muda) dan antiikat (putih) untuk molekul diatom homonuklir menurut kriteria Berlin (11.41), dengan kontur kerapatan elektron orbital $1\sigma_g$ H₂⁺ ($\zeta = 1{,}24$, $R = 2$ bohr). Kerapatan di daerah mengikat menarik kedua inti satu sama lain; kerapatan di belakang inti menarik keduanya menjauh.](fig/c_berlin.png){width=80%}
 
 ::: {.contoh}
-**Contoh 11.73 · Gaya yang menahan H₂⁺**
+**Contoh 11.77 · Gaya yang menahan H₂⁺**
 
 Di jarak setimbang H₂⁺ ($R_e = 1{,}997$ bohr), gaya total pada setiap proton nol. Hitung gaya tolak antarproton dan gaya tarik yang harus diberikan awan elektron, dalam satuan atom dan nanonewton (1 hartree/bohr $= 82{,}39$ nN).
 
@@ -176,7 +186,7 @@ Di jarak setimbang H₂⁺ ($R_e = 1{,}997$ bohr), gaya total pada setiap proton
 :::
 
 ::: {.contoh}
-**Contoh 11.74 · Teorema Hellmann–Feynman untuk atom H**
+**Contoh 11.78 · Teorema Hellmann–Feynman untuk atom H**
 
 Ambil $\lambda = Z$ dalam Hamiltonian ion mirip hidrogen, $\hat H = -\tfrac12\nabla^2 - Z/r$, dengan $E = -Z^2/2$. Gunakan (11.39) untuk menghitung $\langle 1/r\rangle$.
 
@@ -186,7 +196,7 @@ Ambil $\lambda = Z$ dalam Hamiltonian ion mirip hidrogen, $\hat H = -\tfrac12\na
 :::
 
 ::: {.contoh}
-**Contoh 11.75 · Gaya Pulay: ketika teorema tampak gagal**
+**Contoh 11.79 · Gaya Pulay: ketika teorema tampak gagal**
 
 Untuk LCAO H₂⁺ dengan $\zeta = 1$, energi minimum di $R = 2{,}493$ bohr, jadi $dE/dR = 0$ di sana. Namun integrasi numerik ruas kanan (11.39) dengan fungsi LCAO itu memberi tarikan elektron pada setiap proton hanya 0,0994 hartree/bohr, sedangkan tolakan antarproton $1/R^2 = 0{,}1609$ hartree/bohr. Hitung gaya "Hellmann–Feynman" bersih dan jelaskan mengapa tidak nol.
 
@@ -196,7 +206,17 @@ Untuk LCAO H₂⁺ dengan $\zeta = 1$, energi minimum di $R = 2{,}493$ bohr, jad
 :::
 
 ::: {.contoh}
-**Contoh 11.76 · Asal gaya dispersi menurut Feynman**
+**Contoh 11.80 · Hellmann–Feynman dengan medan listrik**
+
+Dalam medan listrik seragam $F$ sepanjang $z$, Hamiltonian molekul bertambah suku $-\hat\mu_zF$. Menurut (11.39), $dE/dF = -\langle\hat\mu_z\rangle$: momen dipol adalah turunan energi terhadap medan. Perhitungan RHF/aug-cc-pVDZ (PySCF) untuk molekul HF memberi $E(F) - E(0)$ untuk $F = \pm0{,}001$ satuan atom, dan dari selisihnya $\mu = -[E(+F) - E(-F)]/2F = 0{,}75961$ satuan atom. Nilai harap operator dipol yang dihitung langsung dari fungsi gelombang di $F = 0$ juga $0{,}75961$ satuan atom. Nyatakan dalam debye dan jelaskan mengapa kedua angka sama persis, padahal untuk gaya pada inti (Contoh 11.79) teorema ini gagal untuk fungsi pendekatan.
+
+**Penyelesaian.** $0{,}75961 \times 2{,}5417 = 1{,}931$ D (terukur 1,83 D; selisihnya adalah efek korelasi, seperti di Contoh 11.70). Kedua angka sama karena fungsi basis tidak bergantung pada medan listrik: ketika $F$ berubah, hanya koefisien orbital yang berubah, dan koefisien itu optimal secara variasi, sehingga suku $\partial\psi/\partial F$ tidak menyumbang. Untuk koordinat inti, sebaliknya, fungsi basis ikut berpindah.
+
+**Memahami hasil.** Turunan kedua, $-d^2E/dF^2$, memberi polarisabilitas: dari ketiga energi itu, $\alpha_{zz} = 5{,}6$ satuan atom. Cara "medan berhingga" ini adalah resep umum menghitung sifat molekul sebagai turunan energi: dipol, polarisabilitas, dan hiperpolarisabilitas dari medan listrik; geseran kimia NMR dan tetapan kopling dari medan magnet dan momen magnet inti; serta gaya dan tetapan gaya dari posisi inti.
+:::
+
+::: {.contoh}
+**Contoh 11.81 · Asal gaya dispersi menurut Feynman**
 
 Dua atom gas mulia yang berjauhan saling menarik lemah (gaya van der Waals, sebanding $R^{-7}$). Menurut teorema elektrostatik, gaya pada inti hanyalah tarikan oleh awan elektron dan tolakan oleh inti lain. Bagaimana tarikan muncul bila masing-masing atom netral dan bersimetri bola?
 
@@ -206,7 +226,7 @@ Dua atom gas mulia yang berjauhan saling menarik lemah (gaya van der Waals, seba
 :::
 
 ::: {.contoh}
-**Contoh 11.77 · Gaya yang memutus ikatan**
+**Contoh 11.82 · Gaya yang memutus ikatan**
 
 Bila sebuah molekul ditarik dari kedua ujungnya, gaya pemulih $dE/dR$ naik dari nol di $R_e$, mencapai maksimum di titik belok kurva potensial, lalu turun ke nol pada disosiasi. (a) Dari kurva eksak H₂⁺, gaya pemulih maksimum adalah 0,0342 hartree/bohr di $R \approx 3{,}0$ bohr. Nyatakan dalam nN. (b) Untuk potensial Morse, gaya maksimum adalah $aD_e/2$. Hitung untuk H₂ ($a = 1{,}944$ Å⁻¹, $D_e = 4{,}747$ eV).
 

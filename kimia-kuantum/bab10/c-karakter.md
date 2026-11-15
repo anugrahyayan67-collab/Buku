@@ -285,7 +285,7 @@ Tulis fungsi Python untuk rumus reduksi (10.10) dan pakai untuk mereduksi repres
 
 ```python
 import numpy as np
-g = np.array([1, 8, 6, 6, 3, 1, 6, 8, 3, 6])          # banyak anggota kelas O_h
+g = np.array([1, 8, 6, 6, 3, 1, 6, 8, 3, 6])   # anggota kelas O_h
 Oh = {'A1g': [1,1,1,1,1,1,1,1,1,1],   'A2g': [1,1,-1,-1,1,1,-1,1,1,-1],
       'Eg':  [2,-1,0,0,2,2,0,-1,2,0], 'T1g': [3,0,-1,1,-1,3,1,0,-1,-1],
       'T2g': [3,0,1,-1,-1,3,-1,0,-1,1],
@@ -297,7 +297,8 @@ def reduksi(chi, tabel=Oh, g=g):
     return {k: int(round((g * np.array(chi) * np.array(v)).sum() / h))
             for k, v in tabel.items()}
 hasil = reduksi([6, 0, 0, 2, 2, 0, 0, 0, 4, 2])
-print({k: n for k, n in hasil.items() if n})      # {'A1g': 1, 'Eg': 1, 'T1u': 1}
+print({k: n for k, n in hasil.items() if n})
+# {'A1g': 1, 'Eg': 1, 'T1u': 1}
 ```
 
 **Memahami hasil.** Keenam orbital σ ligan membentuk kombinasi $a_{1g} + e_g + t_{1u}$. Bandingkan dengan orbital valensi logam: $4s$ ($a_{1g}$), $3d_{z^2}$ dan $3d_{x^2-y^2}$ ($e_g$), dan $4p$ ($t_{1u}$). Orbital $d_{xy}$, $d_{xz}$, $d_{yz}$ ($t_{2g}$) tidak mempunyai pasangan σ dari ligan, sehingga tetap tak mengikat dalam ikatan σ. Kesimpulan ini adalah dasar teori medan ligan (Bab 14), dan diperoleh hanya dengan tiga baris aritmetika.

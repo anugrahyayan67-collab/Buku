@@ -247,10 +247,10 @@ for R in [1.4, 2.0, 2.3, 3.0, 6.0]:                      # bohr
     mol = gto.M(atom=f'H 0 0 0; H 0 0 {R}', unit='Bohr', basis='cc-pvtz')
     rhf = scf.RHF(mol).run()
     uhf = scf.UHF(mol)
-    dma, dmb = uhf.get_init_guess()                        # tebakan awal yang
-    n = mol.nao // 2                                       # memecah simetri:
-    dma[:n, :n] *= 1.8; dma[n:, n:] *= 0.2                 # α condong ke atom 1,
-    dmb[:n, :n] *= 0.2; dmb[n:, n:] *= 1.8                 # β condong ke atom 2
+    dma, dmb = uhf.get_init_guess()           # tebakan awal yang
+    n = mol.nao // 2                          # memecah simetri:
+    dma[:n, :n] *= 1.8; dma[n:, n:] *= 0.2    # α condong ke atom 1,
+    dmb[:n, :n] *= 0.2; dmb[n:, n:] *= 1.8    # β condong ke atom 2
     uhf.kernel((dma, dmb))
     e_fci = fci.FCI(rhf).kernel()[0]
     print(R, rhf.e_tot, uhf.e_tot, e_fci, uhf.spin_square()[0])
@@ -316,7 +316,8 @@ def integral(R, z):
     aabb = z * (1/w - e(-2*w) * (1/w + 11/8 + 3*w/4 + w*w/6))
     aaab = z * (e(-w) * (w + 1/8 + 5/(16*w)) - e(-3*w) * (1/8 + 5/(16*w)))
     abab = z/5 * (-e(-2*w) * (-25/8 + 23*w/4 + 3*w*w + w**3/3)
-                  + 6/w * (S*S*(g + np.log(w)) + Sp*Sp*expi(-4*w) - 2*S*Sp*expi(-2*w)))
+                  + 6/w * (S*S*(g + np.log(w)) + Sp*Sp*expi(-4*w)
+                           - 2*S*Sp*expi(-2*w)))
     return S, Haa, Hab, aaaa, aabb, aaab, abab
 def energi(R, z=1.0):
     S, Haa, Hab, aaaa, aabb, aaab, abab = integral(R, z)
@@ -326,7 +327,8 @@ def energi(R, z=1.0):
     Kgu = (aaaa - aabb) / (2 * (1 - S*S))
     OM = 2*hg + Jgg + 1/R
     HL = (2*Haa + aabb + 2*S*Hab + abab) / (1 + S*S) + 1/R
-    CI = np.linalg.eigvalsh([[2*hg + Jgg, Kgu], [Kgu, 2*hu + Juu]])[0] + 1/R
+    Hci = [[2*hg + Jgg, Kgu], [Kgu, 2*hu + Juu]]
+    CI = np.linalg.eigvalsh(Hci)[0] + 1/R
     return OM, HL, CI
 print(energi(1.4))          # (-1.0909, -1.1055, -1.1066)
 ```
@@ -342,6 +344,36 @@ Bandingkan kesalahan energi OM ($\zeta = 1$) relatif terhadap CI pada $R = 1{,}4
 **Penyelesaian.** Selisih: 0,016; 0,028; 0,117; 0,205 hartree, atau 0,43; 0,75; 3,2; 5,6 eV.
 
 **Memahami hasil.** Di sekitar jarak setimbang, satu konfigurasi sudah menangkap hampir seluruh struktur elektronik, dan bobot $(\sigma_u)^2$ kecil. Ketika ikatan diregangkan, orbital $\sigma_g$ dan $\sigma_u$ makin mendekati degenerasi (selisih energinya sebanding dengan tumpang tindih), dan kedua konfigurasi menjadi sama pentingnya. Aturan praktis kimia komputasi: metode satu determinan baik untuk molekul di sekitar geometri setimbangnya, tetapi pemutusan ikatan, diradikal, dan banyak senyawa logam transisi memerlukan fungsi gelombang **multikonfigurasi** (subbab 17.10).
+:::
+
+::: {.contoh}
+**Contoh 11.57 · Seberapa besar basis yang diperlukan?**
+
+Optimasi geometri H₂ dengan PySCF memberi hasil berikut untuk himpunan basis yang makin besar (energi atom H dihitung dengan basis yang sama):
+
+| Basis | Fungsi per atom | RHF $R_e$ (bohr) | RHF $D_e$ (eV) | FCI $R_e$ (bohr) | FCI $D_e$ (eV) |
+|---|---|---|---|---|---|
+| STO-3G | 1 | 1,346 | 5,02 | 1,389 | 5,56 |
+| 6-31G | 2 | 1,379 | 3,55 | 1,410 | 4,22 |
+| cc-pVDZ | 5 | 1,413 | 3,54 | 1,438 | 4,49 |
+| cc-pVTZ | 14 | 1,388 | 3,63 | 1,403 | 4,70 |
+| cc-pVQZ | 30 | 1,387 | 3,64 | 1,402 | 4,73 |
+
+Nilai eksak: $R_e = 1{,}401$ bohr, $D_e = 4{,}747$ eV. Apa yang dapat disimpulkan?
+
+**Penyelesaian.** Dengan basis besar, RHF konvergen ke batas Hartree–Fock ($R_e = 1{,}387$ bohr, $D_e = 3{,}64$ eV), sedangkan FCI konvergen ke nilai eksak. Konvergensi FCI jauh lebih lambat: dari cc-pVTZ ke cc-pVQZ energi ikat masih naik 0,03 eV. Basis minimal STO-3G memberi $D_e$ yang *terlalu besar*, karena atom H dalam basis itu digambarkan sangat buruk ($E = -0{,}4666$ hartree, bukan $-0{,}5$), sehingga selisih molekul–atom tidak seimbang.
+
+**Memahami hasil.** Dua pelajaran yang berlaku untuk semua kimia komputasi (subbab 17.5). Pertama, ketelitian dibatasi oleh dua hal yang terpisah, metode (RHF atau FCI) dan basis; memperbaiki satu tanpa yang lain tidak cukup. Kedua, energi korelasi memerlukan basis yang jauh lebih besar daripada energi Hartree–Fock, karena untuk menggambarkan bagaimana dua elektron saling menghindar dibutuhkan fungsi-fungsi dengan momentum sudut tinggi (d, f, ...) di setiap atom. Basis "konsisten korelasi" cc-pV$n$Z dirancang tepat untuk konvergensi yang teratur ini.
+:::
+
+::: {.contoh}
+**Contoh 11.58 · Okupasi orbital natural: korelasi dinamis dan statis**
+
+Matriks kerapatan satu elektron dari fungsi FCI dapat didiagonalkan; vektor eigennya disebut **orbital natural** dan nilai eigennya **okupasi**, banyaknya elektron di setiap orbital (antara 0 dan 2). Untuk H₂ (FCI/cc-pVTZ), empat okupasi terbesar adalah: $R = 1{,}4$ bohr: 1,964; 0,020; 0,006; 0,004. $R = 2{,}5$ bohr: 1,883; 0,106; 0,004; 0,003. $R = 4{,}0$ bohr: 1,512; 0,485; 0,001; 0,001. Tafsirkan.
+
+**Penyelesaian.** Pada $R_e$, satu orbital ($\sigma_g$) hampir terisi penuh, dan sisa 0,04 elektron tersebar tipis di banyak orbital: gambaran satu konfigurasi hampir benar, dan korelasinya **dinamis**, penghindaran jarak dekat antarelektron yang memerlukan banyak orbital kecil. Pada $R = 4$ bohr, dua orbital ($\sigma_g$ dan $\sigma_u$) masing-masing terisi sekitar 1,5 dan 0,5 elektron, dan yang lain praktis kosong: korelasinya **statis**, dua konfigurasi yang hampir sama penting.
+
+**Memahami hasil.** Okupasi orbital natural adalah diagnosis baku untuk memilih metode. Bila semua okupasi dekat 2 atau 0 (misalnya di atas 1,9 dan di bawah 0,1), metode satu determinan ditambah koreksi korelasi dinamis memadai. Bila ada okupasi jauh dari 2 atau 0, seperti H₂ teregang, diradikal, atau banyak kompleks logam transisi, diperlukan metode multikonfigurasi seperti CASSCF (subbab 17.10). H₂ memperlihatkan kedua rezim itu dalam satu molekul, hanya dengan mengubah jarak.
 :::
 
 ::: {.terapan}
