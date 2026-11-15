@@ -63,3 +63,12 @@ h1.bab .pita { display: block; background: var(--tua); padding: 1.8mm 4mm; margi
 h1.bab .kata { display: inline; background: none; padding: 0; border-radius: 0; color: #fff; font-size: 12.5pt; font-weight: 700; letter-spacing: .3px; text-align: center; }
 h1.bab .no { display: inline; background: none; padding: 0; margin-left: 1.6mm; min-width: 0; border-radius: 0; color: var(--langit); font-size: 12.5pt; font-weight: 700; line-height: inherit; }
 h1.bab .judul { padding-left: 0; font-size: 17pt; font-weight: 700; text-transform: none; letter-spacing: 0; color: var(--tua); }
+/* judul lampiran: pembuka bab ringkas (bukan pita) */
+h1.bab { text-align: left; margin: 2mm 0 8mm 0; padding: 0; }
+h1.bab .pita { display: flex; align-items: flex-end; gap: 4mm; background: none; padding: 0; margin: 0 0 2.5mm 0; }
+h1.bab .kata { display: block; order: 2; background: none; color: var(--biru); font-size: 9pt; font-weight: 800; letter-spacing: 4px; text-transform: uppercase; padding: 0 0 3mm 0; }
+h1.bab .no { display: block; order: 1; background: none; color: var(--biru); font-size: 46pt; font-weight: 900; line-height: .9; margin: 0; padding: 0; }
+h1.bab .judul { display: block; font-size: 21pt; font-weight: 800; color: var(--tua); text-transform: none; letter-spacing: -.2px; line-height: 1.15;
+                border-bottom: .8mm solid var(--tua); padding: 0 0 3mm 0; }
+h1.bab .pita { justify-content: flex-start; }
+h1.bab .kata { flex: 0 0 auto; text-align: left; }
