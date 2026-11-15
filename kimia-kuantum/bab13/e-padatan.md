@@ -179,3 +179,7 @@ Diameter nanotabung $(n, m)$ adalah $d = a\sqrt{n^2 + nm + m^2}/\pi$ dengan $a =
 
 Mengapa model Hückel meramalkan bahwa grafena tidak mempunyai celah, sedangkan benzena (C₆H₆) mempunyai celah HOMO–LUMO $2|\beta|$? Petunjuk: titik-titik $\mathbf k$ mana yang "diizinkan" pada sebuah cincin enam atom?
 :::
+
+### Menuju bab berikutnya
+
+Orbital molekul π menjelaskan senyawa organik terkonjugasi. Bab 14 menerapkan gagasan yang sama pada orbital d logam transisi, yang menjelaskan warna, magnetisme, dan kestabilan senyawa koordinasi.

@@ -13,7 +13,7 @@ Momentum sudut jauh lebih luas daripada rotasi molekul. Matematika yang sama, ha
 2. Mengapa orbital p ada tiga, orbital d ada lima, dan orbital f ada tujuh?
 3. Apa arti "kuantisasi ruang", dan mengapa vektor momentum sudut tidak pernah tepat sejajar dengan sumbu $z$?
 4. Mengapa garis-garis spektrum rotasi molekul diatom berjarak hampir sama, dan bagaimana panjang ikatan dibaca dari jarak itu?
-5. Mengapa hidrogen terdiri atas dua jenis molekul, orto dan para, yang dapat dipisahkan?
+5. Mengapa hidrogen terdiri atas dua jenis molekul, orto dan para, yang dapat dipisahkan? (Dasar lengkapnya, partikel identik dan teorema spin–statistik, dibahas di subbab 9.3.)
 :::
 
 ::: {.tujuan}

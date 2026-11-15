@@ -162,3 +162,7 @@ Kesalahan paling umum dalam soal kimia kuantum adalah mencampur energi tiap mole
 
 Tanpa kalkulator: (a) berapa kira-kira cm⁻¹ setara dengan 1 eV? (b) Kira-kira berapa kJ/mol energi satu foton 400 nm? (c) Pada suhu berapa $kT$ sama dengan 1 eV?
 :::
+
+### Menuju bab berikutnya
+
+Bab ini menunjukkan bahwa alam memaksa kita menerima kuantum. Untuk mengolahnya secara kuantitatif kita memerlukan bahasa matematikanya: bilangan kompleks, persamaan diferensial, dan matriks. Itulah isi Bab 2.

@@ -2,6 +2,8 @@
 
 Rubi berwarna merah tua dan zamrud berwarna hijau. Keduanya batu permata yang hampir tidak berwarna seandainya murni: rubi adalah korundum, Al₂O₃, dan zamrud adalah beril, Be₃Al₂Si₆O₁₈. Warna keduanya berasal dari pengotor yang **sama**, sekitar satu persen ion Cr³⁺ yang menggantikan Al³⁺, dan dalam kedua kristal itu ion krom dikelilingi enam atom oksigen dalam susunan oktahedral. Ion sama, ligan sama, geometri sama, tetapi warnanya bertolak belakang. Teka-teki serupa muncul di laboratorium setiap hari. Larutan kobalt(II) klorida dalam air berwarna merah muda pucat; tambahkan asam klorida pekat dan larutan itu berubah menjadi biru tua, sekitar seratus kali lebih pekat warnanya. Garam besi(II) sulfat bersifat paramagnetik dengan empat elektron tak berpasangan, sedangkan kalium heksasianoferat(II), dengan ion besi yang sama, sama sekali diamagnetik. Mengapa pergantian ligan, atau sedikit perubahan jarak logam–ligan, dapat mengubah warna, intensitas, dan magnetisme sedemikian rupa?
 
+Perubahan warna kobalt(II) ini sudah muncul sekilas di Bab 4 (aturan Laporte) dan Bab 10 (simetri). Di bab ini kita akhirnya dapat menjelaskannya sepenuhnya. Teori medan ligan juga menjadi pelengkap teori ikatan valensi untuk logam transisi di subbab 12.14.
+
 Kuncinya ada pada lima orbital d. Dalam ion bebas kelima orbital itu berenergi sama (Bab 7). Ketika ion logam dikelilingi ligan, kesetangkupan bola itu rusak dan kelima orbital terpecah menjadi beberapa kelompok. Besar pemecahannya, yang kita lambangkan $\Delta$, ternyata sebanding dengan energi foton cahaya tampak dan juga sebanding dengan energi yang diperlukan untuk memasangkan dua elektron dalam satu orbital. Karena itu perubahan kecil pada $\Delta$ menggeser warna, dan persaingan antara $\Delta$ dan energi pemasangan menentukan banyaknya elektron tak berpasangan.
 
 Bab ini menempuh jalan dari model yang paling sederhana ke yang paling lengkap. Kita mulai dengan **teori medan kristal**, yang menganggap ligan sebagai muatan titik, lalu menggantinya dengan **teori medan ligan** yang memakai orbital molekul (Bab 11 dan 13). Setelah itu kita memperlakukan atom berelektron banyak secara jujur: suku-suku Russell–Saunders (subbab 9.12) terpecah dalam medan ligan, dan diagram Tanabe–Sugano yang kita hitung sendiri dengan Python menjelaskan spektrum dan warna kompleks. Bab ditutup dengan transfer muatan dan aturan 18 elektron yang menjadi dasar kimia organologam.
@@ -39,7 +41,7 @@ Setelah mempelajari bab ini, kamu mampu:
 ::: {.mat}
 **Prasyarat**
 
-Dari Bab 7: bentuk orbital d riil dan harmonik bola (subbab 7.7–7.8). Dari Bab 8: perturbasi tingkat terdegenerasi dan momen dipol transisi (subbab 8.9 dan 8.12). Dari Bab 9: lambang suku, aturan Hund, kopling spin–orbit (subbab 9.11–9.13). Dari Bab 10: tabel karakter, rumus reduksi, SALC, aturan seleksi elektronik (subbab 10.5–10.8 dan 10.10). Dari Bab 11 dan 13: metode LCAO dan persamaan sekuler 2 × 2.
+Dari Bab 7: bentuk orbital d riil dan harmonik bola (subbab 7.7–7.8). Dari Bab 8: perturbasi tingkat terdegenerasi dan momen dipol transisi (subbab 8.9 dan 8.12). Dari Bab 9: lambang suku, aturan Hund, kopling spin–orbit (subbab 9.11–9.13). Dari Bab 10: tabel karakter, rumus reduksi, SALC, aturan seleksi elektronik (subbab 10.5–10.8 dan 10.10). Dari Bab 11 dan 13: metode LCAO dan persamaan sekuler 2 × 2. Dari Bab 12: hibrida d²sp³ dan dsp² serta keterbatasannya (subbab 12.14). Dari Bab 4: paritas dan aturan Laporte (subbab 4.11).
 :::
 
 ## 14.1 Orbital d dalam medan ligan

@@ -290,3 +290,7 @@ Dalam percobaan pompa–probe, cermin pada panggung bergerak memantulkan berkas 
 
 Mengapa pulsa 1 ps tidak dapat menghasilkan paket gelombang yang berosilasi dalam keadaan B I₂, padahal pulsa 50 fs dapat? Apa yang terlihat bila molekul dieksitasi ke keadaan yang sepenuhnya tolak-menolak?
 :::
+
+### Menuju bab berikutnya
+
+Spektroskopi optik memakai foton inframerah sampai ultraviolet. Bab 16 membahas spektroskopi dengan energi jauh lebih kecil tetapi daya pisah jauh lebih besar: resonansi magnetik inti dan elektron.

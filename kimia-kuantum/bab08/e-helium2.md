@@ -152,6 +152,8 @@ persis bentuk (8.35) dengan penyebut berupa selisih energi orbital. Untuk helium
 
 ## 8.9 Perturbasi tingkat terdegenerasi; keadaan tereksitasi helium
 
+Di subbab ini kita hanya meninjau bagian ruang fungsi gelombang. Cara memilih fungsi spin yang cocok (singlet atau triplet) dibahas di subbab 9.4.
+
 ### Masalah degenerasi
 
 Rumus (8.34) dan (8.35) mempunyai penyebut $E_n^{(0)} - E_m^{(0)}$. Bila tingkat $n$ terdegenerasi, ada keadaan $m$ dengan penyebut nol, dan rumus-rumus itu meledak, kecuali $H'_{mn}$ kebetulan nol. Penyebabnya lebih dalam daripada sekadar soal aljabar. Bila $d$ fungsi $\psi_1^{(0)}, \ldots, \psi_d^{(0)}$ mempunyai energi tak terganggu yang sama, maka **setiap** kombinasi linearnya juga fungsi eigen $\hat H^{(0)}$ dengan energi itu. Kita tidak tahu kombinasi mana yang akan "dipilih" oleh perturbasi. Ketika $\lambda$ naik dari nol, setiap keadaan yang sebenarnya berubah secara malar menjadi fungsi tertentu di dalam ruang terdegenerasi itu, yaitu **fungsi orde nol yang benar**. Tugas pertama teori perturbasi terdegenerasi adalah menemukannya.

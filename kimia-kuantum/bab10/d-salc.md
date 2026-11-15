@@ -130,6 +130,12 @@ for irrep, c in chi.items():
 
 ## 10.8 Orbital molekul berdasar simetri
 
+::: {.mat}
+**LCAO dalam satu paragraf**
+
+Orbital molekul (OM) dapat didekati sebagai kombinasi linear orbital atom (LCAO): $\psi = \sum_i c_i\phi_i$. Koefisien $c_i$ dan energinya diperoleh dari persamaan sekuler metode variasi linear (subbab 8.4). Di subbab ini kita cukup memakai simetri untuk menentukan orbital atom mana yang boleh bergabung; dasar fisis dan perhitungan lengkapnya dibahas di Bab 11.
+:::
+
 ### Hanya yang sesimetri yang bercampur
 
 Orbital molekul (OM) ditulis sebagai kombinasi linear orbital atom (LCAO), dan koefisiennya diperoleh dari persamaan sekuler $\det(\mathbf H - E\mathbf S) = 0$ (subbab 2.8). Bila fungsi basisnya adalah orbital atom pusat dan SALC ligan, masing-masing dengan irrep tertentu, teorema integral lenyap menjamin $H_{ab} = S_{ab} = 0$ untuk fungsi berirrep berbeda. Matriks $\mathbf H$ dan $\mathbf S$ menjadi diagonal blok, dan setiap blok dapat diselesaikan sendiri. Setiap OM yang dihasilkan membawa label irrep bloknya.

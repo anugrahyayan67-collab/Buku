@@ -86,6 +86,8 @@ Dua partikel ditempatkan pada tiga keadaan satu partikel $a$, $b$, $c$ (misalnya
 
 ## 9.4 Atom helium dan fungsi spin
 
+Energi keadaan tereksitasi helium, termasuk integral pertukaran, sudah kita hitung dengan perturbasi di subbab 8.9. Di sini kita melengkapinya dengan fungsi spin.
+
 ### Fungsi spin dua elektron
 
 Dengan spin, fungsi gelombang dua elektron adalah fungsi dari koordinat ruang dan spin keduanya. Bila Hamiltonian tidak memuat spin, fungsi itu dapat ditulis sebagai hasil kali fungsi ruang $\psi(\mathbf r_1, \mathbf r_2)$ dan fungsi spin $\sigma(1, 2)$. Ada empat hasil kali fungsi spin satu elektron: $\alpha(1)\alpha(2)$, $\alpha(1)\beta(2)$, $\beta(1)\alpha(2)$, $\beta(1)\beta(2)$. Dua yang di tengah tidak simetris maupun antisimetris terhadap pertukaran, tetapi jumlah dan selisihnya simetris dan antisimetris. Himpunan yang lebih berguna adalah

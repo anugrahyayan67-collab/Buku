@@ -1,5 +1,7 @@
 ## 17.10 Energi korelasi dan interaksi konfigurasi
 
+Interaksi konfigurasi pertama kali muncul untuk molekul H₂ di subbab 11.12; di sini gagasan itu diperluas menjadi metode umum.
+
 ### Apa yang hilang dalam Hartree–Fock
 
 Dalam Hartree–Fock setiap elektron bergerak dalam medan **rata-rata** elektron lain. Elektron sebenarnya saling menghindar secara sesaat: bila satu elektron berada di sisi kiri molekul, peluang elektron lain berada di dekatnya berkurang. Pertukaran HF sudah memisahkan elektron berspin **sama** (lubang Fermi), tetapi elektron berspin berlawanan dalam HF bergerak sama sekali tanpa saling memperhatikan. Penurunan energi yang hilang karena itu didefinisikan (Per-Olov Löwdin, 1955) sebagai **energi korelasi**:

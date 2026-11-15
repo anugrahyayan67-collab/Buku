@@ -166,6 +166,8 @@ Pada jarak besar, energi pasangan Na⁺ + Cl⁻ relatif terhadap atom netral Na 
 
 ## 8.12 Momen dipol transisi, aturan seleksi, aturan emas Fermi
 
+Aturan seleksi atom hidrogen sudah kita pakai sebagai pratinjau di subbab 7.11; sekarang kita menurunkannya dari momen dipol transisi.
+
 ### Momen dipol transisi
 
 Rumus (8.54) menunjukkan bahwa kekuatan transisi ditentukan oleh **momen dipol transisi**
@@ -371,3 +373,6 @@ Laju transfer elektron dari donor D ke akseptor A dalam larutan atau protein dap
 (a) Manakah transisi dipol listrik yang diizinkan pada atom: 2s → 3d, 2p → 3d, 3p → 4f, 4f → 3d? (b) Ion [Co(H₂O)₆]²⁺ berwarna merah muda pucat, sedangkan [CoCl₄]²⁻ biru tua. Kompleks mana yang mempunyai pusat inversi, dan bagaimana hal itu menjelaskan perbedaan intensitas warnanya? (c) Mengapa pancaran spontan pada transisi gelombang mikro (misalnya garis 21 cm hidrogen) sangat lambat?
 :::
 
+### Menuju bab berikutnya
+
+Metode pendekatan memberi energi atom helium dengan baik, tetapi masih ada satu unsur yang hilang: spin elektron dan asas Pauli. Bab 9 melengkapinya dan menjelaskan susunan tabel periodik.

@@ -376,3 +376,7 @@ Jadi $E = -\tfrac12$ hartree $= -13{,}606$ eV.
 
 (a) Berapa energi atom hidrogen pada $n = 2$ dalam hartree? (b) Berapa panjang 1,00 Å dalam bohr? (c) Dalam satuan atom, berapa nilai $\hbar^2/m_e$?
 :::
+
+### Menuju bab berikutnya
+
+Dengan bekal matematika ini kita siap menuliskan persamaan gerak gelombang materi. Bab 3 memperkenalkan persamaan Schrödinger dan menyelesaikannya untuk sistem paling sederhana, partikel dalam kotak.

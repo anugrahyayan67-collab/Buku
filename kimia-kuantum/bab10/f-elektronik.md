@@ -215,3 +215,7 @@ Reseptor dan enzim dalam tubuh tersusun dari asam amino L dan gula D, sehingga b
 
 \(a) Apakah molekul $D_{2d}$ dapat kiral? (b) Mengapa campuran rasemat tidak memutar bidang polarisasi? (c) Momen dipol magnet transisi bertransformasi seperti apa dalam tabel karakter?
 :::
+
+### Menuju bab berikutnya
+
+Simetri memberi tahu orbital atom mana yang boleh bergabung. Bab 11 menunjukkan bagaimana penggabungan itu menghasilkan ikatan kimia, dimulai dari molekul paling sederhana, H₂⁺ dan H₂, lalu diatom periode kedua.

@@ -2,6 +2,8 @@
 
 Benzena, C₆H₆, adalah salah satu zat paling stabil dalam kimia organik: ia tidak mudah mengadisi brom, dapat dipanaskan sampai ratusan derajat tanpa terurai, dan cincinnya bertahan dalam reaksi-reaksi substitusi yang keras. Siklobutadiena, C₄H₄, yang tampak seperti "benzena yang lebih kecil", baru dapat diamati pada tahun 1970-an dalam matriks gas mulia pada suhu sekitar 10 K; pada suhu kamar ia bereaksi dengan dirinya sendiri dalam sekejap. Siklooktatetraena, C₈H₈, tidak datar sama sekali melainkan berbentuk bak, dan bereaksi seperti alkena biasa. Mengapa enam elektron π membuat molekul sangat stabil, empat elektron membuatnya sangat tidak stabil, dan delapan elektron membuatnya "biasa saja"? Mengapa butadiena tak berwarna, β-karotena jingga, dan rantai poliasetilena yang sangat panjang dapat menghantarkan listrik? Mengapa heksatriena menutup cincin dengan stereokimia yang berbeda bila dipanaskan daripada bila disinari?
 
+Bab ini melanjutkan dua bab sebelumnya. Di Bab 10 kita menyusun orbital molekul dari simetri, dan di Bab 12 kita membandingkan gambaran ikatan valensi dengan spektrum fotoelektron. Sekarang orbital molekul yang tersebar di seluruh molekul menjadi alat utama, terutama untuk elektron π.
+
 Jawaban atas semua pertanyaan ini datang dari teori **orbital molekul** (OM) untuk molekul poliatom, khususnya untuk elektron π yang terdelokalisasi di atas kerangka molekul. Di Bab 11 kita membangun OM untuk molekul diatom; di Bab 12 kita melihat bahwa orbital lokal (hibrida, ikatan, pasangan bebas) melukiskan keadaan dasar dengan sama baiknya. Bab ini memakai sudut pandang yang lain: orbital-orbital yang meliputi seluruh molekul, yang energinya dapat diukur dengan spektroskopi fotoelektron dan spektroskopi UV, dan yang bentuknya menentukan reaktivitas. Kita mulai dari OM molekul kecil yang disusun dengan simetri, lalu diagram Walsh yang menjelaskan bentuk molekul. Bagian terbesar bab ini adalah **metode Hückel**, model paling sederhana dan paling berhasil untuk sistem π: dari etilena sampai benzena, aturan aromatisitas $4n + 2$, heteroatom, orbital perbatasan, dan aturan Woodward–Hoffmann. Metode Pariser–Parr–Pople menambahkan tolakan elektron. Akhirnya kita membiarkan rantai Hückel tumbuh sampai tak hingga, dan sampai pada pita energi padatan: logam, semikonduktor, dan grafena.
 
 ::: {.strategi}
@@ -39,7 +41,7 @@ Setelah mempelajari bab ini, kamu mampu:
 ::: {.mat}
 **Prasyarat**
 
-Dari Bab 2: matriks, determinan, dan nilai eigen (subbab 2.7, 2.8), deret Fourier dan bilangan kompleks (2.1, 2.9). Dari Bab 3: model elektron bebas untuk poliena (3.8). Dari Bab 8: fungsi variasi linear dan persamaan sekuler (8.4, 8.5), perturbasi orde kedua (8.7). Dari Bab 9: determinan Slater dan metode Hartree–Fock (9.6, 9.8). Dari Bab 10: tabel karakter, SALC, OM berdasar simetri, aturan seleksi elektronik (10.5–10.8, 10.10). Dari Bab 11: OM diatom, integral tumpang tindih dan Coulomb (11.4–11.8). Dari Bab 12: orbital terlokalisasi dan spektrum fotoelektron metana (subbab 12.13), resonansi benzena (12.10).
+Dari Bab 2: matriks, determinan, dan nilai eigen (subbab 2.7, 2.8), deret Fourier dan bilangan kompleks (2.1, 2.9). Dari Bab 3: model elektron bebas untuk poliena (3.8). Dari Bab 8: fungsi variasi linear dan persamaan sekuler (8.4, 8.5), perturbasi orde kedua (8.7). Dari Bab 9: determinan Slater dan metode Hartree–Fock (9.6, 9.8). Dari Bab 10: tabel karakter, SALC, OM berdasar simetri, aturan seleksi elektronik (10.5–10.8, 10.10). Dari Bab 11: OM diatom, integral tumpang tindih dan Coulomb (11.4–11.8). Dari Bab 12: orbital terlokalisasi dan spektrum fotoelektron metana (subbab 12.13), resonansi benzena (12.10). Dari Bab 6: partikel pada cincin (subbab 6.3).
 :::
 
 ## 13.1 OM delokalisasi vs orbital lokal
@@ -147,6 +149,8 @@ Benzena dengan basis minimal mempunyai 36 OM. Berapa yang terisi? Berapa di anta
 :::
 
 ## 13.2 OM H₂O, NH₃, CH₄ dari simetri
+
+Orbital molekul H₂O, NH₃, dan CH₄ sudah kita susun dengan SALC di subbab 10.8 dan kita uji dengan spektrum fotoelektron di subbab 12.13. Di sini hasil itu tidak diulang dari awal; kita memakainya untuk melihat bagaimana orbital yang tersebar dan orbital terlokalisasi menggambarkan kerapatan elektron yang sama.
 
 ### Air ($C_{2v}$)
 

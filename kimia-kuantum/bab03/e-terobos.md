@@ -230,3 +230,7 @@ Keadaan transisi sebuah reaksi abstraksi atom hidrogen mempunyai frekuensi khaya
 
 (a) Dalam STM, mengapa hampir seluruh arus melewati satu atom paling ujung jarum? (b) Mengapa pemisahan inversi NH₃ jauh lebih besar daripada ND₃, padahal permukaan energi potensialnya hampir sama?
 :::
+
+### Menuju bab berikutnya
+
+Partikel dalam kotak memperlihatkan kuantisasi, simpul, dan penerobosan, tetapi kita belum menjawab pertanyaan dasar: apa yang sebenarnya diukur dan bagaimana hasilnya diramalkan? Bab 4 merumuskan operator dan postulat mekanika kuantum.

@@ -204,6 +204,8 @@ Periksa teorema Hylleraas–Undheim–MacDonald (lihat juga Gambar 8.2).
 
 ## 8.5 Matriks, nilai eigen, diagonalisasi (dengan Python)
 
+Cara mendiagonalkan matriks dengan NumPy sudah kita kenal dari subbab 2.8 dan 4.14; di sini matriksnya adalah matriks Hamilton dan matriks tumpang tindih dari persamaan sekuler.
+
 ### Bentuk matriks persamaan sekuler
 
 Persamaan (8.17) dapat ditulis ringkas sebagai persamaan matriks. Kumpulkan unsur $H_{ik}$ dalam matriks $\mathbf H$ dan $S_{ik}$ dalam matriks $\mathbf S$ (keduanya $n \times n$, simetris), dan koefisien dalam vektor kolom $\mathbf c$. Maka

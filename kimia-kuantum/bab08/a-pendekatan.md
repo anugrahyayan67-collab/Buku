@@ -38,7 +38,7 @@ Setelah mempelajari bab ini, kamu mampu:
 ::: {.mat}
 **Prasyarat**
 
-Dari Bab 2: matriks, determinan, dan sistem persamaan homogen (subbab 2.7), nilai eigen dan vektor eigen matriks (subbab 2.8), deret Taylor (subbab 2.9), dan satuan atom (subbab 2.11). Dari Bab 3: partikel dalam kotak dan model elektron bebas (subbab 3.6–3.8). Dari Bab 4: operator Hermitian, ekspansi dalam fungsi eigen, dan notasi Dirac (subbab 4.8, 4.9, dan 4.14). Dari Bab 5: osilator harmonik, operator tangga, dan anharmonisitas (subbab 5.4, 5.6, dan 5.9). Dari Bab 6: harmonik bola dan rotor tegar (subbab 6.5 dan 6.9). Dari Bab 7: fungsi gelombang atom hidrogen dan atom mirip hidrogen (subbab 7.4–7.10). Sepanjang bab ini kita memakai **satuan atom**: panjang dalam bohr ($a_0 = 52{,}918$ pm) dan energi dalam hartree ($E_h = 27{,}211$ eV).
+Dari Bab 2: matriks, determinan, dan sistem persamaan homogen (subbab 2.7), nilai eigen dan vektor eigen matriks (subbab 2.8), deret Taylor (subbab 2.9), dan satuan atom (subbab 2.11). Dari Bab 3: partikel dalam kotak dan model elektron bebas (subbab 3.6–3.8). Dari Bab 4: operator Hermitian, ekspansi dalam fungsi eigen, dan notasi Dirac (subbab 4.8, 4.9, dan 4.14). Dari Bab 5: osilator harmonik, operator tangga, dan anharmonisitas (subbab 5.4, 5.6, dan 5.9). Dari Bab 6: harmonik bola dan rotor tegar (subbab 6.5 dan 6.9). Dari Bab 7: fungsi gelombang atom hidrogen dan atom mirip hidrogen (subbab 7.4–7.10). Sepanjang bab ini kita memakai **satuan atom**: panjang dalam bohr ($a_0 = 52{,}918$ pm) dan energi dalam hartree ($E_h = 27{,}211$ eV). Dari Bab 7: aturan seleksi atom hidrogen sebagai pratinjau (subbab 7.11).
 :::
 
 ## 8.1 Mengapa perlu pendekatan

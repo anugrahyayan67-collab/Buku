@@ -78,6 +78,8 @@ Berapa jari-jari paling mungkin elektron 1s dalam Li²⁺ (pm)? Berapa energi ti
 
 ## 7.11 Spektrum hidrogen dan aturan seleksi
 
+Aturan seleksi $\Delta\ell = \pm1$ di subbab ini kita pakai sebagai pratinjau. Buktinya memerlukan teori perturbasi bergantung waktu, yang diturunkan di subbab 8.11–8.12; di sini kita fokus pada akibatnya bagi spektrum hidrogen.
+
 ### Aturan seleksi dipol
 
 Transisi antara dua keadaan atom dengan memancarkan atau menyerap satu foton (pendekatan dipol listrik) memerlukan momen dipol transisi $\langle n'\ell'm'|\hat{\mathbf r}|n\ell m\rangle$ yang tidak nol. Komponen $z = r\cos\theta$, sehingga
@@ -324,3 +326,7 @@ Fungsi $u(r)$ 1s dari program Numerov ($h = 0{,}002$) dinormalisasi secara numer
 
 Mengapa integrasi radial dimulai dengan $u = r^{\ell+1}$ dan bukan dengan $u = 1$? Dalam model litium, mengapa tingkat 3d hampir sama dengan hidrogen?
 :::
+
+### Menuju bab berikutnya
+
+Atom hidrogen adalah sistem terakhir yang dapat diselesaikan tepat. Begitu elektron kedua ditambahkan, kita memerlukan metode pendekatan; Bab 8 memperkenalkan dua yang paling penting, metode variasi dan teori perturbasi.

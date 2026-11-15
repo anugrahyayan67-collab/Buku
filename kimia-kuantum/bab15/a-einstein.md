@@ -2,6 +2,8 @@
 
 Di rasi Taurus, sekitar 450 tahun cahaya dari Bumi, terdapat awan gelap yang tidak memancarkan cahaya tampak sama sekali. Teleskop radio yang diarahkan ke sana menangkap sinyal sangat lemah pada frekuensi 115,271 GHz, panjang gelombang 2,6 mm. Dari satu garis spektrum ini saja, astronom menyimpulkan bahwa awan itu mengandung molekul karbon monoksida, bersuhu sekitar 10 K, bergerak menjauhi kita beberapa kilometer per detik, diaduk oleh turbulensi, dan mengandung hidrogen molekul ribuan kali massa Matahari. Bagaimana satu garis membawa begitu banyak keterangan? Lebih aneh lagi: molekul CO yang berada di tingkat rotasi $J = 1$ rata-rata harus menunggu hampir setengah tahun sebelum memancarkan foton itu secara spontan, padahal atom natrium yang tereksitasi di lampu jalan memancarkan cahaya kuningnya dalam enam belas nanodetik. Mengapa perbedaannya sampai lima belas orde besaran?
 
+Garis rotasi CO ini sudah kita temui di Bab 6. Bab ini membawa cerita itu lebih jauh: mengapa garis mempunyai lebar, bagaimana getaran dan transisi elektronik muncul dalam spektrum, dan mengapa intensitasnya mengikuti asas Franck–Condon.
+
 **Spektroskopi** adalah cara kimia mendengarkan molekul. Setiap molekul mempunyai tangga tingkat energi elektronik, getaran, dan rotasi yang menjadi sidik jarinya, dan setiap anak tangga dapat dipindahi dengan menyerap atau memancarkan foton yang energinya tepat. Bab-bab sebelumnya telah memberi kita tangga-tangga itu: rotor tegar (Bab 6), osilator harmonik dan anharmonik (Bab 5), atom hidrogen (Bab 7), orbital molekul (Bab 11–13), dan spektrum kompleks logam (Bab 14). Bab ini menjawab pertanyaan yang tersisa: **seberapa kuat** suatu transisi, **seberapa lebar** garisnya, **mengapa** sebagian transisi terlarang, dan bagaimana semua itu dipakai untuk mengukur struktur, dinamika, dan konsentrasi.
 
 Kita mulai dengan dasar yang sama untuk semua spektroskopi: koefisien Einstein, hukum Beer–Lambert, dan lebar garis. Lalu kita menaiki skala energi: rotasi lanjut, getaran inframerah dan Raman, transisi elektronik dengan asas Franck–Condon, pendaran, spektrum UV-tampak senyawa organik, laser, spektroskopi fotoelektron, dan akhirnya spektroskopi resolusi waktu yang memotret molekul ketika ikatannya sedang putus.
@@ -40,10 +42,12 @@ Setelah mempelajari bab ini, kamu mampu:
 ::: {.mat}
 **Prasyarat**
 
-Dari Bab 1: radiasi benda hitam dan rumus Planck (subbab 1.3). Dari Bab 5: aturan seleksi inframerah, Raman, dan potensial Morse (subbab 5.8–5.9, 5.11). Dari Bab 6: rotor tegar, populasi rotasi, dan spektrum rotasi–getaran (subbab 6.9–6.12). Dari Bab 7: laju peluruhan atom hidrogen (subbab 7.11). Dari Bab 8: perturbasi bergantung waktu, momen dipol transisi, dan aturan emas Fermi (subbab 8.11–8.12). Dari Bab 10: aktivitas IR dan Raman dari teori grup (subbab 10.9–10.10). Dari Bab 11 dan 13: lambang suku molekul dan orbital molekul π (subbab 11.9, 13.5–13.7).
+Dari Bab 1: radiasi benda hitam dan rumus Planck (subbab 1.3). Dari Bab 5: aturan seleksi inframerah, Raman, dan potensial Morse (subbab 5.8–5.9, 5.11). Dari Bab 6: rotor tegar, populasi rotasi, dan spektrum rotasi–getaran (subbab 6.9–6.12). Dari Bab 7: laju peluruhan atom hidrogen (subbab 7.11). Dari Bab 8: perturbasi bergantung waktu, momen dipol transisi, dan aturan emas Fermi (subbab 8.11–8.12). Dari Bab 10: aktivitas IR dan Raman dari teori grup (subbab 10.9–10.10). Dari Bab 11 dan 13: lambang suku molekul dan orbital molekul π (subbab 11.9, 13.5–13.7). Dari Bab 9: keadaan singlet dan triplet (subbab 9.4). Dari Bab 14: spektrum kompleks logam transisi.
 :::
 
 ## 15.1 Koefisien Einstein
+
+Dasar subbab ini adalah momen dipol transisi dan aturan emas Fermi dari subbab 8.11–8.12; di sini keduanya dihubungkan dengan besaran yang diukur di laboratorium.
 
 ### Tiga proses
 

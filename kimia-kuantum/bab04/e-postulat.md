@@ -70,6 +70,8 @@ Postulat mana yang menjamin bahwa hasil pengukuran energi atom hidrogen hanya $-
 
 ## 4.14 Notasi Dirac dan representasi matriks
 
+Diagonalisasi matriks dengan Python sudah diperkenalkan di subbab 2.8. Yang baru di sini adalah tafsirnya: matriks itu kini mewakili operator, dan nilai eigennya adalah hasil ukur yang mungkin.
+
 ### Ket, bra, dan hasil kali dalam
 
 Paul Dirac memperkenalkan notasi yang memisahkan **keadaan** dari **representasinya**. Keadaan ditulis sebagai **ket** $|\psi\rangle$, sebuah vektor dalam ruang keadaan (ruang Hilbert). Fungsi gelombang $\psi(x)$ adalah salah satu cara menyatakan vektor itu (dalam "representasi posisi"); koefisien $c_n$ dalam basis $\{|n\rangle\}$ adalah cara lain. Pasangannya, **bra** $\langle\phi|$, menyatakan pengambilan hasil kali dalam dengan $|\phi\rangle$. Kurung lengkapnya:
@@ -175,3 +177,7 @@ Dalam basis kotak, unsur matriks momentum adalah $\langle m|\hat p|n\rangle = -i
 
 Dalam notasi Dirac, tuliskan (a) syarat normalisasi, (b) syarat ortogonalitas dua keadaan, (c) nilai harap $\hat H$, dan (d) peluang menemukan sistem $|\psi\rangle$ di keadaan $|n\rangle$.
 :::
+
+### Menuju bab berikutnya
+
+Kerangka postulat kini lengkap. Bab-bab berikutnya menerapkannya pada sistem yang dapat diselesaikan tepat, dimulai dengan model getaran molekul: osilator harmonik di Bab 5.

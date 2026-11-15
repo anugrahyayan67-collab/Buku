@@ -1,5 +1,7 @@
 ## 5.7 Getaran molekul diatom dan massa tereduksi
 
+Pemisahan gerak pusat massa dan gerak relatif yang menghasilkan massa tereduksi $\mu$ dibuktikan secara lengkap di subbab 6.8; di sini kita memakai hasilnya.
+
 ### Dari dua benda ke satu
 
 Molekul diatom AB terdiri atas dua inti bermassa $m_A$ dan $m_B$ yang dihubungkan oleh "pegas" elektronik. Energi potensialnya hanya bergantung pada jarak $r = |\mathbf r_A - \mathbf r_B|$. Seperti pada masalah dua benda dalam mekanika klasik, gerak dapat dipisah menjadi gerak pusat massa (translasi molekul utuh, yang tidak menarik di sini) dan gerak relatif. Gerak relatif setara dengan satu partikel bermassa **massa tereduksi** $\mu = m_Am_B/(m_A + m_B)$, persamaan (5.4), yang bergerak dalam potensial $V(r)$. Penurunannya: dengan $M = m_A + m_B$, $\mathbf R = (m_A\mathbf r_A + m_B\mathbf r_B)/M$, dan $\mathbf r = \mathbf r_A - \mathbf r_B$, energi kinetik $\tfrac12m_A\dot{\mathbf r}_A^2 + \tfrac12m_B\dot{\mathbf r}_B^2$ dapat ditulis ulang sebagai $\tfrac12M\dot{\mathbf R}^2 + \tfrac12\mu\dot{\mathbf r}^2$ (soal di akhir bab). Gerak relatif tiga dimensi kemudian terpisah lagi menjadi rotasi (Bab 6) dan getaran sepanjang $r$. Dalam bab ini kita hanya membahas getaran, dengan $x = r - r_e$.

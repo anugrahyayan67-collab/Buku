@@ -43,7 +43,7 @@ Setelah mempelajari bab ini, kamu mampu:
 ::: {.mat}
 **Prasyarat**
 
-Dari Bab 1: skala energi dan ketelitian kimia (subbab 1.10, Contoh 1.52). Dari Bab 2: integral Gauss dan hasil kali fungsi Gauss (subbab 2.2), matriks, nilai eigen, dan diagonalisasi (2.7–2.8), satuan atom (2.11). Dari Bab 5: osilator harmonik dan mode normal (5.4, 5.11). Dari Bab 8: teorema variasi dan persamaan sekuler (subbab 8.2–8.5), teori perturbasi (8.6–8.7). Dari Bab 9: determinan Slater (subbab 9.6), Hartree–Fock untuk atom (9.8), korelasi elektron (9.10), aturan Condon–Slater (9.14). Dari Bab 10: tabel karakter dan label simetri orbital. Dari Bab 11: pendekatan Born–Oppenheimer (subbab 11.1), LCAO (11.4), molekul H₂ dan interaksi konfigurasi (11.10–11.12). Dari Bab 13: metode Hückel (subbab 13.4).
+Dari Bab 1: skala energi dan ketelitian kimia (subbab 1.10, Contoh 1.52). Dari Bab 2: integral Gauss dan hasil kali fungsi Gauss (subbab 2.2), matriks, nilai eigen, dan diagonalisasi (2.7–2.8), satuan atom (2.11). Dari Bab 5: osilator harmonik dan mode normal (5.4, 5.11). Dari Bab 8: teorema variasi dan persamaan sekuler (subbab 8.2–8.5), teori perturbasi (8.6–8.7). Dari Bab 9: determinan Slater (subbab 9.6), Hartree–Fock untuk atom (9.8), korelasi elektron (9.10), aturan Condon–Slater (9.14). Dari Bab 10: tabel karakter dan label simetri orbital. Dari Bab 11: pendekatan Born–Oppenheimer (subbab 11.1), LCAO (11.4), molekul H₂ dan interaksi konfigurasi (11.10–11.12). Dari Bab 13: metode Hückel (subbab 13.4). Dari kimia fisika: teori keadaan transisi dan persamaan Eyring.
 :::
 
 ## 17.1 Peta metode: ab initio, DFT, semiempiris, mekanika molekul
@@ -139,6 +139,8 @@ Apa arti notasi "B3LYP/6-31G*" dan "CCSD(T)/cc-pVTZ//MP2/cc-pVDZ"? Mengapa kompu
 :::
 
 ## 17.2 Hartree–Fock untuk molekul
+
+Persamaan Hartree–Fock dan teorema Koopmans sudah kita turunkan untuk atom di subbab 9.8. Di sini keduanya diperluas ke molekul dengan basis LCAO, yang menghasilkan persamaan Roothaan.
 
 ### Determinan Slater dan energinya
 

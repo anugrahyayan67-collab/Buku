@@ -105,6 +105,8 @@ Menurut VSEPR, mengapa pasangan bebas pada ClF₃ menempati kedudukan ekuatorial
 
 ## 12.12 Teori ikatan valensi modern (GVB, spin-coupled)
 
+Gagasan mencampur beberapa struktur atau konfigurasi sudah kita temui sebagai interaksi konfigurasi di subbab 11.12.
+
 ### Kelemahan teori Heitler–London klasik
 
 Fungsi Heitler–London (12.1) memakai orbital atom yang tidak berubah sama sekali ketika molekul terbentuk. Hasilnya cukup baik secara kualitatif, tetapi energi ikatannya jauh terlalu kecil. Untuk H₂ dengan orbital $1s$ ($\zeta = 1$), Heitler–London memberi $D_e = 3{,}16$ eV pada $R = 1{,}64\,a_0$; dengan eksponen orbital yang dioptimasi ($\zeta = 1{,}166$, S. C. Wang 1928) diperoleh 3,79 eV. Nilai eksak adalah 4,75 eV pada $1{,}40\,a_0$. Yang hilang adalah kemampuan orbital untuk **berubah bentuk** di dalam molekul, dan sumbangan struktur ionik H⁻H⁺ dan H⁺H⁻.
@@ -445,3 +447,7 @@ Frekuensi ulur C–O: CO bebas 2143 cm⁻¹, Ni(CO)₄ 2057 cm⁻¹, [Co(CO)₄]
 
 Menurut model Pauling, kompleks [Mn(CN)₆]⁴⁻ ($d^5$) adalah orbital dalam. Berapa elektron tak berpasangan dan momen magnet spin sajanya? Berapa elektron valensi Fe(CO)₅ menurut aturan 18 elektron?
 :::
+
+### Menuju bab berikutnya
+
+Hibridisasi menggambarkan ikatan sebagai pasangan elektron terlokalisasi. Untuk elektron yang tersebar di seluruh molekul, seperti elektron π benzena, gambaran orbital molekul lebih tepat; itulah pokok Bab 13.

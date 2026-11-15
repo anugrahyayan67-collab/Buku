@@ -316,3 +316,7 @@ Periksa teorema virial $2\langle T\rangle = n\langle V\rangle$ untuk $V \propto 
 
 Mengapa metode tembak memerlukan dua nilai awal, $\psi_0$ dan $\psi_1$? Mengapa nilai $\psi_1$ yang tepat tidak penting?
 :::
+
+### Menuju bab berikutnya
+
+Molekul tidak hanya bergetar tetapi juga berputar. Bab 6 membahas momentum sudut dan rotor tegar, sekaligus menyiapkan harmonik bola yang menjadi bagian sudut orbital atom.

@@ -200,3 +200,6 @@ Tunjukkan dengan aturan 2 bahwa, bila orbital-orbitalnya adalah orbital Hartreeâ
 (a) Berapa unsur matriks $\hat H$ antara $|1s\alpha\,1s\beta\,2s\alpha|$ dan $|2p\alpha\,2p\beta\,3d\alpha|$? (b) Mengapa aturan 3 tidak memuat integral satu elektron? (c) Untuk determinan $|1s\alpha\,2s\alpha\,2p\alpha|$, berapa integral pertukaran yang muncul dalam energinya?
 :::
 
+### Menuju bab berikutnya
+
+Dengan atom berelektron banyak di tangan, kita beralih ke molekul. Sebelum menyusun orbital molekul, kita memerlukan alat yang menyederhanakan banyak perhitungan: simetri dan teori grup di Bab 10.

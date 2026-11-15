@@ -1,6 +1,6 @@
 # Bab 7 Atom Hidrogen
 
-Foto nebula seperti Nebula Orion selalu didominasi warna merah muda. Warna itu berasal dari satu garis spektrum, H$_\alpha$ pada 656,3 nm, yang dipancarkan atom hidrogen ketika elektronnya turun dari tingkat $n = 3$ ke $n = 2$. Di laboratorium, garis-garis hidrogen diukur dengan ketelitian lebih dari dua belas angka penting, dan tidak ada satu pun yang menyimpang dari ramalan teori kuantum yang lengkap. Tetapi ada keanehan yang tersembunyi dalam keberhasilan itu. Dalam atom hidrogen, orbital 2s dan 2p mempunyai energi yang sama persis, demikian pula 3s, 3p, dan 3d. Dalam atom litium, natrium, atau atom apa pun selain hidrogen, orbital s selalu lebih rendah daripada orbital p dengan $n$ yang sama, dan urutan itulah yang membentuk tabel periodik. Apa yang istimewa dari atom hidrogen, dan apa yang hilang ketika elektron kedua ditambahkan?
+Foto nebula seperti Nebula Orion selalu didominasi warna merah muda. Warna itu berasal dari satu garis spektrum, H$_\alpha$ pada 656,3 nm, yang dipancarkan atom hidrogen ketika elektronnya turun dari tingkat $n = 3$ ke $n = 2$. Di laboratorium, garis-garis hidrogen diukur dengan ketelitian lebih dari dua belas angka penting, dan tidak ada satu pun yang menyimpang dari ramalan teori kuantum yang lengkap. Tetapi ada keanehan yang tersembunyi dalam keberhasilan itu. Dalam atom hidrogen, orbital 2s dan 2p mempunyai energi yang sama persis, demikian pula 3s, 3p, dan 3d. Dalam atom litium, natrium, atau atom apa pun selain hidrogen, orbital s selalu lebih rendah daripada orbital p dengan $n$ yang sama, dan urutan itulah yang membentuk tabel periodik. Apa yang istimewa dari atom hidrogen, dan apa yang hilang ketika elektron kedua ditambahkan? Jawaban pertanyaan terakhir ini ada di Bab 9 (subbab 9.9).
 
 Atom hidrogen adalah satu-satunya atom yang persamaan Schrödingernya dapat diselesaikan secara tepat. Penyelesaiannya adalah fondasi seluruh kimia: fungsi gelombangnya adalah **orbital** s, p, d, dan f yang dipakai untuk menggambarkan setiap atom dan molekul; bilangan kuantum $n$, $\ell$, dan $m_\ell$ yang muncul darinya menjadi label konfigurasi elektron; dan skala panjang dan energinya, bohr dan hartree, menjadi satuan atom yang dipakai di sisa buku ini.
 
@@ -39,7 +39,7 @@ Setelah mempelajari bab ini, kamu mampu:
 ::: {.mat}
 **Prasyarat**
 
-Dari *Fisika Umum*: Bab 12 (hukum Coulomb, energi potensial listrik) dan Bab 15 (model Bohr). Dari buku ini: model Bohr dan spektrum hidrogen (subbab 1.6), integral $\int_0^\infty x^ne^{-ax}dx$ (persamaan 2.8), koordinat bola (subbab 2.5), deret pangkat (subbab 2.4), satuan atom (subbab 2.11), nilai harap dan teorema virial (Bab 4 dan 5), harmonik bola, massa tereduksi, dan potensial efektif (Bab 6), metode Numerov (subbab 5.12).
+Dari *Fisika Umum*: Bab 12 (hukum Coulomb, energi potensial listrik) dan Bab 15 (model Bohr). Dari buku ini: model Bohr dan spektrum hidrogen (subbab 1.6), integral $\int_0^\infty x^ne^{-ax}dx$ (persamaan 2.8), koordinat bola (subbab 2.5), deret pangkat (subbab 2.4), satuan atom (subbab 2.11), nilai harap (subbab 4.6) dan pembagian energi kinetik–potensial osilator (subbab 5.5); teorema virial sendiri baru diturunkan di subbab 7.9, harmonik bola, massa tereduksi, dan potensial efektif (Bab 6), metode Numerov (subbab 5.12).
 :::
 
 ## 7.1 Masalah gaya sentral

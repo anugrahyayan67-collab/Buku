@@ -235,3 +235,7 @@ Jaringan dengan $T_1 = 1{,}0$ s menyerap bahan kontras sampai [Gd] = 0,50 mM. De
 
 Mengapa MRI tidak memerlukan radiasi pengion? Bila gradien $G_x$ dilipatduakan dengan lebar pita penerima tetap, bagaimana medan pandang sepanjang $x$ berubah?
 :::
+
+### Menuju bab berikutnya
+
+Semua bab sebelumnya memakai model yang dapat dihitung dengan tangan. Bab 17 menutup buku ini dengan kimia komputasi, cara program modern menyelesaikan persamaan Schrödinger untuk molekul nyata.

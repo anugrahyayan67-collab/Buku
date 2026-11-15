@@ -246,3 +246,7 @@ Setiap kali sebuah program kimia kuantum mengoptimalkan geometri molekul, ia men
 
 \(a) Mengapa suku yang memuat $\partial\psi/\partial\lambda$ lenyap dalam bukti teorema Hellmann–Feynman? (b) Di daerah mana kerapatan elektron menarik kedua inti menjauh? (c) Apa yang dimaksud gaya Pulay?
 :::
+
+### Menuju bab berikutnya
+
+Teori orbital molekul dan ikatan valensi sudah kita bandingkan untuk molekul diatom. Bab 12 membawa teori ikatan valensi ke molekul poliatom melalui hibridisasi, yang menjelaskan bentuk metana, air, dan etilena.

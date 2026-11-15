@@ -346,3 +346,7 @@ Aturan ini pendekatan yang berguna untuk logam bervalensi rendah dengan ligan ak
 
 Berapa banyak CO yang diperlukan agar kromium, besi, dan nikel masing-masing mencapai 18 elektron? Apakah [Fe(CO)₄]²⁻ mengikuti aturan 18 elektron?
 :::
+
+### Menuju bab berikutnya
+
+Warna senyawa kompleks adalah salah satu contoh spektroskopi. Bab 15 membahas spektroskopi molekul secara umum: rotasi, getaran, transisi elektronik, dan cara membaca intensitas serta lebar garisnya.

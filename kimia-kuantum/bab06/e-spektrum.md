@@ -32,7 +32,7 @@ Faktor $\sigma$ adalah **bilangan simetri**: 1 untuk molekul heteronuklir dan 2 
 
 Ketika molekul homonuklir berputar 180°, kedua inti bertukar tempat. Menurut asas Pauli dalam bentuk umumnya (Bab 9), fungsi gelombang total harus **antisimetris** terhadap pertukaran dua fermion identik (spin setengah bulat, misalnya proton) dan **simetris** terhadap pertukaran dua boson identik (spin bulat, misalnya ¹⁶O dan deuteron). Fungsi rotasi $Y_J^M$ berubah tanda $(-1)^J$ ketika inti bertukar (pertukaran sama dengan inversi arah sumbu molekul). Akibatnya, untuk H₂ (proton, spin ½):
 
-* tingkat $J$ genap harus berpasangan dengan keadaan spin inti antisimetris (singlet, 1 keadaan): **para-hidrogen**;
+* tingkat $J$ genap harus berpasangan dengan keadaan spin inti antisimetris (singlet, 1 keadaan): **para-hidrogen** (alasannya, teorema spin–statistik, dibahas di subbab 9.3);
 * tingkat $J$ ganjil harus berpasangan dengan keadaan spin inti simetris (triplet, 3 keadaan): **orto-hidrogen**.
 
 Pada suhu tinggi, perbandingan orto : para mendekati 3 : 1. Karena perubahan spin inti sangat lambat tanpa katalis, kedua bentuk berperilaku hampir sebagai dua zat berbeda, dengan kapasitas kalor dan konduktivitas termal yang berbeda. Untuk ¹⁶O₂ (inti spin nol, keadaan elektronik dasar yang antisimetris), hanya tingkat $J$ ganjil yang ada; untuk ¹²C¹⁶O₂ (inti O spin nol), hanya $J$ genap. Dalam spektrum Raman rotasinya, setengah garis yang "seharusnya" ada hilang sama sekali.
@@ -184,3 +184,7 @@ Untuk CO, $B_e = 1{,}931\,28$ cm⁻¹ dan $\alpha_e = 0{,}017\,50$ cm⁻¹. Hitu
 
 Mengapa $D$ selalu positif? Garis $R(J - 1)$ dan $P(J + 1)$ berbagi tingkat yang mana?
 :::
+
+### Menuju bab berikutnya
+
+Harmonik bola dan massa tereduksi adalah dua bahan utama yang kita perlukan untuk atom paling sederhana. Bab 7 menggabungkan keduanya dengan potensial Coulomb dan menyelesaikan atom hidrogen secara tepat.
