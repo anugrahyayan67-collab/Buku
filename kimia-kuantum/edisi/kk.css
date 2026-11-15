@@ -3,3 +3,17 @@
         --jingga:#b9801a; --jingga-t:#f2c25b; --hangat:#b5541c; }
 section.pembuka { background: radial-gradient(ellipse at 50% 70%, #3a2a85 0%, #221860 40%, #150f3d 78%, #0e0a2c 100%); }
 section.pembuka .nb { color: var(--langit); }
+/* Judul seragam: gaya ringan seperti subbab 3.4 (huruf besar di awal, tebal sedang) */
+h2.sub { font-size: 14.5pt; font-weight: 700; color: var(--tua); letter-spacing: -.1px; text-transform: none;
+         border-bottom: .3mm solid var(--garis); padding: 0 0 1.6mm 0; margin: 9mm 0 3.5mm; }
+h2.sub .nsub { color: inherit; font-weight: 700; min-width: 0; margin-right: 2.2mm; }
+h3 { font-size: 11.5pt; font-weight: 700; color: var(--tua); }
+h3::before { width: 1.8mm; height: 1.8mm; margin-right: 2mm; }
+h2.kecil { font-size: 10.5pt; font-weight: 700; text-transform: none; letter-spacing: 0; }
+div.contoh > p:first-child > strong:first-child { font-weight: 700; font-size: 10.3pt; }
+div.contoh > p:first-child > strong:first-child .cno { color: var(--biru); font-weight: 700; letter-spacing: 0; }
+strong.lk { text-transform: none; letter-spacing: 0; font-size: 9.6pt; font-weight: 700; }
+div.tujuan > p:first-child > strong:first-child { text-transform: none; letter-spacing: 0; font-size: 10pt; font-weight: 700; }
+h1.pita1 { text-transform: none; letter-spacing: 0; font-weight: 700; font-size: 14pt; }
+div.kuis::before { content: "?"; font: italic 700 13pt/7mm Caladea, serif; color: #fff; }
+div.kuis > p:first-child > strong:first-child { font-weight: 700; }

@@ -23,7 +23,8 @@ def md2html(md, out, css):
     cmd = ['pandoc', src, '-s', '--mathml', '--metadata', 'pagetitle=Kimia Kuantum', '-o', out] + sum([['-c', c] for c in css], [])
     subprocess.run(cmd, check=True, cwd=os.path.dirname(out), stderr=subprocess.DEVNULL)
     s = koma(open(out).read()); open(out, 'w').write(s)
-    s = open(out).read().replace('<h1\n', '<h1 '); open(out, 'w').write(s)
+    s = open(out).read().replace('<h1\n', '<h1 ').replace('<h2\n', '<h2 ').replace('<h3\n', '<h3 ')
+    s = re.sub(r'(<h[1-3][^>]*>)(.*?)(</h[1-3]>)', lambda m: m.group(1) + m.group(2).replace('\n', ' ') + m.group(3), s, flags=re.S); open(out, 'w').write(s)
     subprocess.run(['python3', f'{R}/gaya.py', out], check=True)
     s = open(out).read()
     s = re.sub(r'<h1 id="[^"]*" class="(?:lampiran|pita1)">Lampiran (\w) (.*?)</h1>',
