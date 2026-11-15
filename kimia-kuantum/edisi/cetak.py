@@ -37,10 +37,13 @@ def md2html(md, out, css):
 def pembuka(n, out):
     s = open(out).read(); P = f'{E}/_kerja/pembuka'
     cap = open(f'{P}/b{n:02d}.txt').read().strip()
+    subs = [m for f_ in sorted(glob.glob(f'{R}/bab{n:02d}/[a-y]-*.md')) for m in re.findall(r'^## (\d+\.\d+) (.*)$', open(f_).read(), re.M)]
+    garis = ''.join(f'<li><b>{k}</b>{html.escape(re.sub(r"[$*]", "", t))}</li>' for k, t in subs)
+    outline = f'<div class="outline"><div class="oh">Isi bab</div><ul>{garis}</ul></div>'
     bag = f'Bagian {BAG[n][0]} · {BAG[n][1]}'
     def ganti(m):
         return (f'<section class="pembuka"><img class="orb" src="file://{P}/b{n:02d}.png"><div class="bag">{bag}</div><div class="kb">BAB</div>'
-                f'<div class="nb">{n}</div><h1{m.group(1)}>{m.group(2)}</h1><div class="cap">{cap}</div></section>')
+                f'<div class="nb">{n}</div><h1{m.group(1)}>{m.group(2)}</h1><div class="cap">{cap}</div>{outline}</section>')
     s = re.sub(r'<h1( id="[^"]*") class="bab"><span class="pita">.*?</span></span><span class="judul">(.*?)</span></h1>', ganti, s, count=1, flags=re.S)
     # bagian Soal: bungkus agar tata letaknya rapi (nomor menggantung, label tingkat)
     m1 = re.search(r'<h1 id="[^"]*" class="pita1">Soal</h1>', s); m2 = re.search(r'<h1 id="[^"]*" class="pita1">Jawaban</h1>', s)
@@ -83,7 +86,7 @@ def cari(n, s, mulai=0, akhir=None):
     return None
 SUB = {}; AKHIR = {}
 for n in BAB:
-    subs = []; last = 0
+    subs = []; last = 1
     for f in sorted(glob.glob(f'{R}/bab{n:02d}/[a-z]-*.md')):
         for m in re.finditer(r'^## (\d+\.\d+) (.*)$', open(f).read(), re.M):
             i = cari(n, m.group(1) + plain(m.group(2)), last)
@@ -144,7 +147,7 @@ for t, bab in ISTILAH.items():
         else:
             nb = BOLD.get(tl) or next((BOLD[b] for b in BOLD if tl in b), None)
             for n in ([nb] if nb else BAB):
-                i = cari(n, t, 0, AKHIR[n][0])
+                i = cari(n, t, 1, AKHIR[n][0])
                 if i is not None: hs = [hal_bab(n, i)]; break
     if hs: ENTRI[t] = sorted(set(hs))
 def kunci(t): return re.sub(r'[^a-z0-9 ]', '', t.lower().replace('–', ' '))

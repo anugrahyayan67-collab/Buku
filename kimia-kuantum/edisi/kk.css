@@ -72,3 +72,19 @@ h1.bab .judul { display: block; font-size: 21pt; font-weight: 800; color: var(--
                 border-bottom: .8mm solid var(--tua); padding: 0 0 3mm 0; }
 h1.bab .pita { justify-content: flex-start; }
 h1.bab .kata { flex: 0 0 auto; text-align: left; }
+/* ===== halaman pembuka bab gaya terang ===== */
+section.pembuka { background: linear-gradient(180deg, #ece8fb 0%, #f6f4fd 48%, #ffffff 48.2%); color: var(--tua); }
+section.pembuka::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 7mm; background: var(--tua); }
+section.pembuka img.orb { top: 20mm; bottom: auto; left: 10mm; width: 195mm; height: 118mm; }
+section.pembuka .bag { top: 11mm; left: 20mm; color: var(--biru); }
+section.pembuka .cap { top: 139mm; bottom: auto; left: 20mm; right: 20mm; text-align: right; color: #6b6585; font-weight: 400; font-size: 8.5pt; }
+section.pembuka .kb { top: 158mm; left: 20mm; color: var(--jingga); }
+section.pembuka .nb { top: 163mm; left: 17mm; font-size: 80pt; letter-spacing: -3px; color: var(--biru); }
+section.pembuka h1 { top: 168mm; left: 62mm; right: 18mm; width: auto; max-width: none; font-size: 24pt; text-transform: none; color: var(--tua);
+                     border-bottom: none; line-height: 1.12; }
+section.pembuka h1 a.tl { color: var(--tua); }
+section.pembuka .outline { position: absolute; top: 200mm; left: 20mm; right: 18mm; }
+section.pembuka .oh { font-family: Inter, sans-serif; font-weight: 700; font-size: 10.5pt; color: #fff; background: var(--tua); padding: 1.4mm 4mm; margin-bottom: 3mm; }
+section.pembuka .outline ul { list-style: none; margin: 0; padding: 0 0 0 1mm; columns: 2; column-gap: 9mm; font-family: Inter, sans-serif; font-size: 9pt; line-height: 1.35; color: #2b2545; }
+section.pembuka .outline li { break-inside: avoid; margin: 0 0 1.4mm 0; padding-left: 9mm; text-indent: -9mm; }
+section.pembuka .outline li b { display: inline-block; width: 9mm; text-indent: 0; color: var(--biru); }
