@@ -326,7 +326,7 @@ Gunakan tetapan di Bab 1 ($h$, $\hbar$, $m_e$, $m_p$, $c$, $e$, $k$, 1 u). Soal 
 ::: {.panjang}
 | No. | Jawaban | No. | Jawaban |
 |---|---|---|---|
-| 1 | 141 m/s; 141 Hz | 44 | integral $x\sin\sin$ dengan identitas hasil kali dan integral parsial |
+| 1 | 141 m/s; 141 Hz | 44 | integral $\int_0^L x\sin(m\pi x/L)\sin(n\pi x/L)\,dx$ dengan identitas hasil kali dan integral parsial |
 | 2 | kedua ruas $= -k^2u$ | 45 | 3; $L/4$, $L/2$, $3L/4$ |
 | 3 | $u_{xx} = f''$, $u_{tt} = v^2f''$; gelombang merambat tanpa berubah bentuk | 46 | 0,283 nm² |
 | 4 | $0{,}3\sin 2\pi x\cos 2\pi t$; $x = 0$; 0,5; 1 | 47 | 1/2 semuanya; simetri $|\psi_n|^2$ terhadap tengah |

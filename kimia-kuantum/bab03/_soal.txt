@@ -108,7 +108,7 @@ Tunjukkan bahwa selisih energi tingkat bertetangga $E_{n+1} - E_n$ dibagi $E_n$ 
 **Tantangan ★**
 
 ★ Partikel dalam kotak $[0, L]$ pada keadaan dasar. Dinding kanan tiba-tiba dipindah ke $2L$. Berapa peluang partikel ditemukan pada keadaan dasar kotak baru? ||| $(4\sqrt2/3\pi)^2 = 32/9\pi^2 = 0{,}36$
-★ Turunkan $\langle m|x|n\rangle = -8Lmn/[\pi^2(m^2 - n^2)^2]$ untuk $m + n$ ganjil. ||| integral $x\sin\sin$ dengan identitas hasil kali dan integral parsial
+★ Turunkan $\langle m|x|n\rangle = -8Lmn/[\pi^2(m^2 - n^2)^2]$ untuk $m + n$ ganjil. ||| integral $\int_0^L x\sin(m\pi x/L)\sin(n\pi x/L)\,dx$ dengan identitas hasil kali dan integral parsial
 
 ## Subbab 3.7: Sifat fungsi gelombang
 
