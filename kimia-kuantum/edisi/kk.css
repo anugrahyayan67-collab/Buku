@@ -88,3 +88,12 @@ section.pembuka .oh { font-family: Inter, sans-serif; font-weight: 700; font-siz
 section.pembuka .outline ul { list-style: none; margin: 0; padding: 0 0 0 1mm; columns: 2; column-gap: 9mm; font-family: Inter, sans-serif; font-size: 9pt; line-height: 1.35; color: #2b2545; }
 section.pembuka .outline li { break-inside: avoid; margin: 0 0 1.4mm 0; padding-left: 9mm; text-indent: -9mm; }
 section.pembuka .outline li b { display: inline-block; width: 9mm; text-indent: 0; color: var(--biru); }
+/* revisi pembuka: panel gambar lebih kecil, nomor nila tua, judul kapital */
+section.pembuka { background: #fff; }
+section.pembuka::after { content: ""; position: absolute; left: 20mm; right: 18mm; top: 22mm; height: 98mm; background: linear-gradient(180deg, #efecfc, #f8f7fe); z-index: 0; }
+section.pembuka img.orb { z-index: 1; top: 26mm; left: 26mm; width: 160mm; height: 90mm; }
+section.pembuka .cap { top: 122mm; right: 18mm; }
+section.pembuka .kb { top: 140mm; }
+section.pembuka .nb { top: 145mm; font-size: 70pt; color: var(--tua); }
+section.pembuka h1 { top: 153mm; left: 55mm; font-size: 17pt; font-weight: 800; text-transform: uppercase; letter-spacing: 1.2px; line-height: 1.25; }
+section.pembuka .outline { top: 182mm; }
