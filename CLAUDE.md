@@ -10,7 +10,7 @@ Repo ini berisi naskah buku sains berbahasa Indonesia untuk mahasiswa kimia, dib
 - Akhir bab: Ringkasan, Pertanyaan, Soal (dikelompokkan per subbab), Jawaban semua soal, Pembahasan soal terpilih. Tanpa proyek.
 - Label contoh soal: **Gambaran fisis** (opsional), **Rencana** (opsional), **Penyelesaian**, **Memahami hasil**.
 - Gambar: matplotlib, Liberation Sans, 220 dpi, palet biru tua `#0e2748`, biru `#1b75bc`, biru muda `#7fc0f0`, jingga `#f0a060`/`#b5541c`, hijau `#1a8a6a`; label sumbu memakai koma desimal.
-- Hasil PDF dikirim ke penyusun lewat SendUserFile (salin dulu ke folder kerja utama). PDF tidak di-commit.
+- Hasil PDF dikirim ke penyusun lewat SendUserFile. PDF hasil akhir disimpan di folder `pdf/` (salin dari fisika-umum/ dan kimia-kuantum/ setelah cetak ulang); PDF lain tidak di-commit.
 - Jangan memasukkan data pribadi penyusun selain nama (tanpa tanggal lahir, tanpa surel) ke berkas mana pun.
 
 ## Model
