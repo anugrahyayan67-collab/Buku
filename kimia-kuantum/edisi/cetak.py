@@ -287,7 +287,7 @@ for idx, (k, j, ov) in enumerate(halaman):
     if k is None: pg = w.add_blank_page(W_, H_)
     else: pg = w.add_page(SRC[k].pages[j])
     if ov: tumpuk(pg, LAP.pages[idx])
-if CETAK and (len(w.pages)) % 2 == 1: w.add_blank_page(W_, H_)
+if CETAK and (len(w.pages)) % 2 == 0: w.add_blank_page(W_, H_)
 w.add_page(SRC['sampul'].pages[1])
 # tautan daftar isi / indeks -> lompat ke halaman
 from pypdf.generic import NumberObject
