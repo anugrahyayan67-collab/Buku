@@ -49,3 +49,4 @@ h1.pita1 a.tl { color: #fff; }
 /* judul bagian akhir bab = gaya kepala tabel */
 h1.pita1 { background: var(--tua); color: #fff; text-align: left; border-radius: 0; font-size: 8.7pt; font-weight: 700;
            letter-spacing: .2px; padding: 2mm 3mm; margin: 0 0 4mm 0; line-height: 1.35; }
+h1.pita1 { text-align: center; font-size: 12.5pt; padding: 1.8mm 4mm; }
