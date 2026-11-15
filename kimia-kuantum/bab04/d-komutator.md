@@ -51,7 +51,7 @@ Akar kedua ruas memberikan (4.17). Buktinya hanya memakai kehermitan dan ketaksa
 Relasi waktu–energi tidak termasuk dalam (4.17), karena waktu bukan operator; ia adalah parameter. Relasi $\Delta E\,\Delta t \gtrsim \hbar/2$ (subbab 1.9) mempunyai makna lain: $\Delta t$ adalah waktu khas yang diperlukan nilai harap suatu besaran untuk berubah berarti.
 
 ::: {.contoh}
-**Contoh 4.32 · Komutator dengan Hamiltonian**
+**Contoh 4.36 · Komutator dengan Hamiltonian**
 
 Untuk $\hat H = \hat p_x^2/2m + V(x)$, hitung $[\hat H, \hat x]$ dan $[\hat H, \hat p_x]$. Kapan momentum kekal?
 
@@ -65,7 +65,7 @@ Dengan (4.12), momentum kekal jika $dV/dx = 0$: tidak ada gaya.
 :::
 
 ::: {.contoh}
-**Contoh 4.33 · Memeriksa relasi ketidakpastian dalam kotak**
+**Contoh 4.37 · Memeriksa relasi ketidakpastian dalam kotak**
 
 Untuk partikel dalam kotak pada keadaan $n = 1$, $\Delta x\,\Delta p_x = 0{,}568\hbar$ (Contoh 3.23). (a) Periksa terhadap (4.17). (b) Apakah $\hat H$ dan $\hat p_x$ komut di dalam kotak? Mengapa $\psi_1$ bukan fungsi eigen $\hat p_x$?
 
@@ -77,7 +77,7 @@ Untuk partikel dalam kotak pada keadaan $n = 1$, $\Delta x\,\Delta p_x = 0{,}568
 :::
 
 ::: {.contoh}
-**Contoh 4.34 · Partikel pada cincin**
+**Contoh 4.38 · Partikel pada cincin**
 
 Partikel pada cincin berjari-jari $R$ mempunyai $\hat H = \hat L_z^2/2I$ dengan $I = mR^2$. (a) Apakah $\hat H$ dan $\hat L_z$ komut? (b) Tuliskan fungsi eigen bersamanya dan energinya. (c) Fungsi $\cos 2\phi$: apakah fungsi eigen $\hat H$? $\hat L_z$? Jika $L_z$ diukur, apa hasilnya?
 
@@ -91,7 +91,7 @@ Partikel pada cincin berjari-jari $R$ mempunyai $\hat H = \hat L_z^2/2I$ dengan 
 :::
 
 ::: {.contoh}
-**Contoh 4.35 · Ketidakpastian komponen momentum sudut**
+**Contoh 4.39 · Ketidakpastian komponen momentum sudut**
 
 Komponen-komponen momentum sudut memenuhi $[\hat L_x, \hat L_y] = i\hbar\hat L_z$ (Bab 6). Untuk elektron pada orbital $p_{+1}$ ($L_z = +\hbar$), berapa batas bawah $\Delta L_x\,\Delta L_y$? Untuk orbital $p_0$?
 
@@ -139,7 +139,7 @@ Intensitas transisi dipol listrik sebanding dengan kuadrat $\int\psi_f^*\,\hat{\
 :::
 
 ::: {.contoh}
-**Contoh 4.36 · Integral yang nol karena paritas**
+**Contoh 4.40 · Integral yang nol karena paritas**
 
 Untuk atom hidrogen, manakah integral berikut yang pasti nol? (a) $\langle 1s|z|2s\rangle$; (b) $\langle 1s|z|2p_z\rangle$; (c) $\langle 2p_x|z|3d_{xz}\rangle$; (d) $\langle 2s|z^2|3d_{z^2}\rangle$.
 
@@ -149,7 +149,7 @@ Untuk atom hidrogen, manakah integral berikut yang pasti nol? (a) $\langle 1s|z|
 :::
 
 ::: {.contoh}
-**Contoh 4.37 · Warna pucat kompleks oktahedral**
+**Contoh 4.41 · Warna pucat kompleks oktahedral**
 
 Larutan $[\text{Ti}(\text{H}_2\text{O})_6]^{3+}$ berwarna ungu pucat, dengan koefisien absorpsi molar pada 500 nm hanya sekitar 5 M⁻¹cm⁻¹. Ion $[\text{CoCl}_4]^{2-}$ (tetrahedral) biru tua, dengan $\varepsilon \approx 600$ M⁻¹cm⁻¹. Ion permanganat ungu pekat dengan $\varepsilon \approx 2400$ M⁻¹cm⁻¹. Jelaskan dengan paritas.
 
@@ -159,7 +159,7 @@ Larutan $[\text{Ti}(\text{H}_2\text{O})_6]^{3+}$ berwarna ungu pucat, dengan koe
 :::
 
 ::: {.contoh}
-**Contoh 4.38 · Paritas orbital molekul**
+**Contoh 4.42 · Paritas orbital molekul**
 
 Dalam molekul H₂ (berpusat di tengah ikatan), orbital $\sigma = (1s_A + 1s_B)/\sqrt{2(1 + S)}$ dan $\sigma^* = (1s_A - 1s_B)/\sqrt{2(1 - S)}$. Tentukan paritasnya. Apakah transisi $\sigma \to \sigma^*$ diizinkan?
 
@@ -169,7 +169,7 @@ Dalam molekul H₂ (berpusat di tengah ikatan), orbital $\sigma = (1s_A + 1s_B)/
 :::
 
 ::: {.contoh}
-**Contoh 4.39 · Aturan seleksi getaran dari paritas**
+**Contoh 4.43 · Aturan seleksi getaran dari paritas**
 
 Fungsi gelombang osilator harmonik bergantian genap dan ganjil (Gambar 4.4). Momen dipol molekul diatom di sekitar panjang setimbang dapat diuraikan $\mu(x) = \mu_0 + \mu_1x + \mu_2x^2 + \cdots$ dengan $x = r - r_e$. (a) Dengan paritas saja, transisi $v = 0 \to v'$ mana yang diizinkan oleh suku $\mu_1x$? (b) Oleh suku $\mu_2x^2$?
 
@@ -201,9 +201,9 @@ Butir 3, yang sering disebut **runtuhnya fungsi gelombang**, menjamin konsistens
 Keadaan $\psi = (\phi_1 + \phi_2)/\sqrt2$ tidak sama dengan "setengah sistem di $\phi_1$ dan setengah di $\phi_2$". Pengukuran $A$ memang memberi $a_1$ dan $a_2$ dengan peluang sama pada keduanya. Tetapi pengukuran besaran lain $B$ yang tidak komut dengan $A$ membedakannya: pada superposisi muncul suku interferensi $2\,\text{Re}(c_1^*c_2\langle\phi_1|\hat B|\phi_2\rangle)$, pada campuran tidak. Celah ganda (subbab 1.8) adalah contoh paling terkenal. Dalam praktik, interaksi sistem dengan lingkungan (tumbukan, foton, getaran pelarut) dengan cepat mengubah superposisi menjadi campuran secara efektif; proses ini disebut **dekoherensi**, dan itulah sebabnya benda besar tidak terlihat dalam superposisi.
 
 ::: {.contoh}
-**Contoh 4.40 · Mengukur energi lalu posisi**
+**Contoh 4.44 · Mengukur energi lalu posisi**
 
-Partikel dalam kotak berada dalam keadaan segitiga Contoh 4.29. (a) Energi diukur dan hasilnya $E_3$. Apa keadaannya sesaat sesudahnya? (b) Energi diukur lagi segera. Apa hasilnya? (c) Lalu posisi diukur. Berapa peluang partikel ditemukan di sepertiga tengah kotak?
+Partikel dalam kotak berada dalam keadaan segitiga Contoh 4.32. (a) Energi diukur dan hasilnya $E_3$. Apa keadaannya sesaat sesudahnya? (b) Energi diukur lagi segera. Apa hasilnya? (c) Lalu posisi diukur. Berapa peluang partikel ditemukan di sepertiga tengah kotak?
 
 **Penyelesaian.** (a) $\psi_3$. (b) $E_3$ dengan pasti. (c) Untuk $\psi_3$, peluang di sepertiga tengah adalah $1/3$ (Contoh 3.8 di Bab 3: nilai 0,333 untuk $n = 3$).
 
@@ -211,7 +211,7 @@ Partikel dalam kotak berada dalam keadaan segitiga Contoh 4.29. (a) Energi diuku
 :::
 
 ::: {.contoh}
-**Contoh 4.41 · Mengukur $L_z$ pada orbital $p_x$**
+**Contoh 4.45 · Mengukur $L_z$ pada orbital $p_x$**
 
 Elektron hidrogen berada pada orbital $2p_x$. (a) $L_z$ diukur. Hasil apa yang mungkin, dengan peluang berapa? (b) Hasilnya $+\hbar$. Lalu $L_z$ diukur lagi. (c) Apakah elektron masih "pada orbital $2p_x$"? Apakah energinya berubah?
 
@@ -225,7 +225,7 @@ Elektron hidrogen berada pada orbital $2p_x$. (a) $L_z$ diukur. Hasil apa yang m
 :::
 
 ::: {.contoh}
-**Contoh 4.42 · Dua pengukuran yang tidak komut**
+**Contoh 4.46 · Dua pengukuran yang tidak komut**
 
 Sebuah sistem dua keadaan (misalnya spin elektron, Bab 9) diukur dengan operator $\hat A = \begin{pmatrix}1 & 0\\ 0 & -1\end{pmatrix}$ dan $\hat B = \begin{pmatrix}0 & 1\\ 1 & 0\end{pmatrix}$ (keduanya dalam satuan $\hbar/2$). Sistem mula-mula pada vektor eigen $\hat A$ dengan nilai $+1$. (a) $\hat B$ diukur: hasil dan peluangnya? (b) Hasilnya $+1$; lalu $\hat A$ diukur lagi: peluang hasil $+1$?
 
@@ -234,6 +234,22 @@ Sebuah sistem dua keadaan (misalnya spin elektron, Bab 9) diukur dengan operator
 (b) Keadaan kini $(1, 1)/\sqrt2$, yang sama dengan $\tfrac{1}{\sqrt2}[(1, 0) + (0, 1)]$: peluang $\hat A = +1$ adalah ½.
 
 **Memahami hasil.** Sebelum $\hat B$ diukur, hasil $\hat A = +1$ pasti. Pengukuran $\hat B$ di antaranya menghapus kepastian itu. Inilah percobaan Stern–Gerlach berurutan (Bab 9) dalam bentuk matriks 2 × 2, dan inti dari teknologi kriptografi kuantum.
+:::
+
+::: {.contoh}
+**Contoh 4.47 · Mengukur superposisi dua keadaan**
+
+Partikel dalam kotak berada dalam keadaan $\Psi = (\psi_1 + \psi_2)/\sqrt2$. (a) Apa saja hasil pengukuran energi yang mungkin dan berapa peluangnya? (b) Berapa $\langle E\rangle$? (c) Bila pengukuran memberi $E_2$, dalam keadaan apa partikel sesudahnya, dan apa hasil pengukuran energi berikutnya?
+
+**Penyelesaian.**
+
+(a) Hanya $E_1$ atau $E_2$, masing-masing dengan peluang $|1/\sqrt2|^2 = \tfrac12$.
+
+(b) $\langle E\rangle = \tfrac12E_1 + \tfrac12(4E_1) = 2{,}5\,E_1$, nilai yang tidak pernah teramati dalam satu pengukuran.
+
+(c) Sesudah memberi $E_2$, keadaannya $\psi_2$; pengukuran berikutnya pasti memberi $E_2$ lagi.
+
+**Memahami hasil.** Nilai harap adalah rata-rata banyak pengukuran pada sistem yang disiapkan sama, bukan hasil satu pengukuran. Pengukuran juga mengubah keadaan: sebelum diukur partikel berada dalam superposisi, sesudahnya berada dalam keadaan eigen yang sesuai dengan hasilnya. Inilah perbedaan mendasar antara superposisi kuantum dan ketidaktahuan biasa (campuran statistik).
 :::
 
 ::: {.kuis}

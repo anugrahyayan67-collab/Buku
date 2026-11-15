@@ -133,7 +133,7 @@ Tandanya bergantung pada pilihan fase fungsi gelombang dan tidak bermakna fisika
 ::: {.contoh}
 **Contoh 8.48 · Polarisabilitas elektron dalam kotak dan rantai terkonjugasi**
 
-Di Contoh 4.46 kita menghitung dengan diagonalisasi bahwa elektron dalam kotak 1,00 nm mempunyai polarisabilitas $9{,}23 \times 10^{-39}$ C m²/V. (a) Hitung $\alpha$ dengan (8.47), memakai $\langle 1|x|n\rangle = -8Ln/[\pi^2(n^2 - 1)^2]$ untuk $n$ genap. (b) Berapa sumbangan keadaan $n = 2$? (c) Bagaimana $\alpha$ bergantung pada $L$?
+Di Contoh 4.52 kita menghitung dengan diagonalisasi bahwa elektron dalam kotak 1,00 nm mempunyai polarisabilitas $9{,}23 \times 10^{-39}$ C m²/V. (a) Hitung $\alpha$ dengan (8.47), memakai $\langle 1|x|n\rangle = -8Ln/[\pi^2(n^2 - 1)^2]$ untuk $n$ genap. (b) Berapa sumbangan keadaan $n = 2$? (c) Bagaimana $\alpha$ bergantung pada $L$?
 
 **Penyelesaian.** (a) Penjumlahan dengan Python sampai $n = 400$ memberi $\alpha = 9{,}228 \times 10^{-39}$ C m²/V, atau volume $\alpha' = 82{,}9$ Å³, sesuai hasil diagonalisasi.
 

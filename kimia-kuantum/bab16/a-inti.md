@@ -39,7 +39,7 @@ Setelah mempelajari bab ini, kamu mampu:
 ::: {.mat}
 **Prasyarat**
 
-Dari Bab 1: skala energi dan populasi tingkat NMR (Contoh 1.53). Dari Bab 4: komutator, notasi Dirac, dan evolusi sistem dua keadaan (Contoh 4.44). Dari Bab 6: momen magnet orbital (subbab 6.1), kuantisasi ruang (6.6), operator tangga dan unsur matriksnya (6.7), arus cincin benzena (6.3), sudut ajaib (Contoh 6.18). Dari Bab 7: efek Zeeman (7.12) dan rapat peluang di inti (7.5). Dari Bab 8: teori perturbasi (subbab 8.6–8.7) dan aturan emas Fermi (8.12). Dari Bab 9: spin elektron dan matriks Pauli (subbab 9.1–9.2). Dari Bab 15: koefisien Einstein dan lebar garis (subbab 15.1 dan 15.3).
+Dari Bab 1: skala energi dan populasi tingkat NMR (Contoh 1.53). Dari Bab 4: komutator, notasi Dirac, dan evolusi sistem dua keadaan (Contoh 4.49). Dari Bab 6: momen magnet orbital (subbab 6.1), kuantisasi ruang (6.6), operator tangga dan unsur matriksnya (6.7), arus cincin benzena (6.3), sudut ajaib (Contoh 6.18). Dari Bab 7: efek Zeeman (7.12) dan rapat peluang di inti (7.5). Dari Bab 8: teori perturbasi (subbab 8.6–8.7) dan aturan emas Fermi (8.12). Dari Bab 9: spin elektron dan matriks Pauli (subbab 9.1–9.2). Dari Bab 15: koefisien Einstein dan lebar garis (subbab 15.1 dan 15.3).
 :::
 
 ## 16.1 Momen magnet spin inti
@@ -234,7 +234,7 @@ $$
 \langle\hat I_x\rangle(t) = \frac\hbar2\left[c_\alpha^*c_\beta e^{-i(E_\beta - E_\alpha)t/\hbar} + \text{k.k.}\right] = \hbar|c_\alpha c_\beta|\cos(\omega_0t + \varphi) , \qquad \text{(16.12)}
 $$
 
-dengan $\omega_0 = (E_\beta - E_\alpha)/\hbar = \gamma B_0$ dan $\varphi$ fase awal. Dengan cara yang sama $\langle\hat I_y\rangle$ berosilasi dengan beda fase seperempat periode, sedangkan $\langle\hat I_z\rangle = \tfrac\hbar2(|c_\alpha|^2 - |c_\beta|^2)$ tetap. Vektor nilai harap $\langle\hat{\mathbf I}\rangle$ berpresesi pada kerucut dengan frekuensi Larmor: gambaran klasik ternyata tepat untuk nilai harap. Frekuensi presesi adalah frekuensi "denyut" antara dua tingkat energi, sama seperti pada sistem dua keadaan amonia (Contoh 4.44).
+dengan $\omega_0 = (E_\beta - E_\alpha)/\hbar = \gamma B_0$ dan $\varphi$ fase awal. Dengan cara yang sama $\langle\hat I_y\rangle$ berosilasi dengan beda fase seperempat periode, sedangkan $\langle\hat I_z\rangle = \tfrac\hbar2(|c_\alpha|^2 - |c_\beta|^2)$ tetap. Vektor nilai harap $\langle\hat{\mathbf I}\rangle$ berpresesi pada kerucut dengan frekuensi Larmor: gambaran klasik ternyata tepat untuk nilai harap. Frekuensi presesi adalah frekuensi "denyut" antara dua tingkat energi, sama seperti pada sistem dua keadaan amonia (Contoh 4.49).
 
 Hasil yang sama dapat diperoleh dengan persamaan gerak Heisenberg, $d\langle\hat A\rangle/dt = (i/\hbar)\langle[\hat H, \hat A]\rangle$. Dengan $[\hat I_z, \hat I_x] = i\hbar\hat I_y$:
 

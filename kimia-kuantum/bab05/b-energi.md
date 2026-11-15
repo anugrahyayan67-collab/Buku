@@ -153,7 +153,7 @@ Untuk $v = 0$, hitung $\langle T\rangle$ dan $\langle V\rangle$ langsung dengan 
 
 **Penyelesaian.** $\langle V\rangle = \tfrac12\mu\omega^2\langle x^2\rangle$ dengan $\langle x^2\rangle = \tfrac{1}{2\alpha}$ (Contoh 2.9), jadi $\langle V\rangle = \tfrac12\mu\omega^2\cdot\tfrac{\hbar}{2\mu\omega} = \tfrac14\hbar\omega$. $\langle T\rangle = \tfrac{\hbar^2}{2\mu}\int|\psi_0'|^2dx = \tfrac{\hbar^2}{2\mu}\alpha^2\langle x^2\rangle = \tfrac{\hbar^2}{2\mu}\cdot\tfrac\alpha2 = \tfrac14\hbar\omega$. Jumlahnya $\tfrac12\hbar\omega$.
 
-**Memahami hasil.** Energi titik nol terbagi sama rata. Untuk potensial $V \propto x^n$, teorema virial umum menyatakan $2\langle T\rangle = n\langle V\rangle$; untuk $n = 2$ hasilnya $\langle T\rangle = \langle V\rangle$, dan untuk Coulomb ($n = -1$) $2\langle T\rangle = -\langle V\rangle$ (Contoh 4.18).
+**Memahami hasil.** Energi titik nol terbagi sama rata. Untuk potensial $V \propto x^n$, teorema virial umum menyatakan $2\langle T\rangle = n\langle V\rangle$; untuk $n = 2$ hasilnya $\langle T\rangle = \langle V\rangle$, dan untuk Coulomb ($n = -1$) $2\langle T\rangle = -\langle V\rangle$ (Contoh 4.20).
 :::
 
 ### Paket gelombang: osilator yang bergerak
@@ -167,7 +167,7 @@ Molekul I₂ disiapkan dalam superposisi $\Psi = (\psi_0e^{-iE_0t/\hbar} + \psi_
 
 **Penyelesaian.** $\langle x\rangle = \tfrac12[\langle 0|x|0\rangle + \langle 1|x|1\rangle] + \tfrac12[\langle 0|x|1\rangle e^{-i\omega t} + \langle 1|x|0\rangle e^{i\omega t}]$. Suku diagonal nol (paritas), dan $\langle 0|x|1\rangle = \sqrt{\hbar/2\mu\omega}$ riil, jadi $\langle x\rangle(t) = \sqrt{\hbar/2\mu\omega}\cos\omega t$. Periode $1/(c\tilde\nu) = 155{,}5$ fs; amplitudo $\sqrt{\hbar/2\mu\omega} = 3{,}5$ pm.
 
-**Memahami hasil.** Pusat paket berayun dengan frekuensi klasik, sesuai teorema Ehrenfest (Contoh 4.21). Pada akhir 1980-an, Ahmed Zewail memakai pulsa laser berdurasi puluhan femtodetik untuk menyiapkan paket semacam ini dalam I₂ dan NaI dan "memfilmkan" gerak inti selama ikatan meregang dan putus. Kelahiran **femtokimia** (Hadiah Nobel 1999) ini bertumpu pada fakta sederhana bahwa superposisi keadaan getaran bergerak, sedangkan keadaan tunggal tidak.
+**Memahami hasil.** Pusat paket berayun dengan frekuensi klasik, sesuai teorema Ehrenfest (Contoh 4.23). Pada akhir 1980-an, Ahmed Zewail memakai pulsa laser berdurasi puluhan femtodetik untuk menyiapkan paket semacam ini dalam I₂ dan NaI dan "memfilmkan" gerak inti selama ikatan meregang dan putus. Kelahiran **femtokimia** (Hadiah Nobel 1999) ini bertumpu pada fakta sederhana bahwa superposisi keadaan getaran bergerak, sedangkan keadaan tunggal tidak.
 :::
 
 ::: {.contoh}

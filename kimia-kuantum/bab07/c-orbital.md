@@ -154,7 +154,7 @@ $$
 \langle V\rangle = 2E_n, \qquad \langle T\rangle = -E_n . \qquad \text{(7.18)}
 $$
 
-Ini teorema virial untuk potensial $V \propto r^{-1}$ ($2\langle T\rangle = -\langle V\rangle$; Contoh 4.18 dan 5.17). Ia berlaku untuk setiap keadaan stasioner atom hidrogen, dan, dalam bentuk yang sama, untuk setiap atom dan molekul pada geometri setimbang, karena semua interaksi di dalamnya bersifat Coulomb. Dalam pembentukan ikatan kimia, energi total turun; menurut teorema virial, energi kinetik elektron **naik** dan energi potensial turun dua kali lebih banyak (Bab 11).
+Ini teorema virial untuk potensial $V \propto r^{-1}$ ($2\langle T\rangle = -\langle V\rangle$; Contoh 4.20 dan 5.17). Ia berlaku untuk setiap keadaan stasioner atom hidrogen, dan, dalam bentuk yang sama, untuk setiap atom dan molekul pada geometri setimbang, karena semua interaksi di dalamnya bersifat Coulomb. Dalam pembentukan ikatan kimia, energi total turun; menurut teorema virial, energi kinetik elektron **naik** dan energi potensial turun dua kali lebih banyak (Bab 11).
 
 ::: {.contoh}
 **Contoh 7.34 · Ukuran orbital**

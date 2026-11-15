@@ -24,7 +24,7 @@ $$
 \theta = \gamma B_1t_p . \qquad \text{(16.33)}
 $$
 
-Pulsa **90°** ($\theta = \pi/2$) memindahkan seluruh magnetisasi dari $z$ ke sumbu $-y'$ (dengan aturan tangan kanan untuk $\gamma > 0$). Pulsa **180°** membalikkannya ke $-z$, menukar populasi $\alpha$ dan $\beta$. Ini adalah osilasi Rabi (Contoh 4.44) yang dilihat secara klasik: populasi berpindah bolak-balik dengan frekuensi $\omega_1$ selama medan resonansi menyala.
+Pulsa **90°** ($\theta = \pi/2$) memindahkan seluruh magnetisasi dari $z$ ke sumbu $-y'$ (dengan aturan tangan kanan untuk $\gamma > 0$). Pulsa **180°** membalikkannya ke $-z$, menukar populasi $\alpha$ dan $\beta$. Ini adalah osilasi Rabi (Contoh 4.49) yang dilihat secara klasik: populasi berpindah bolak-balik dengan frekuensi $\omega_1$ selama medan resonansi menyala.
 
 Kerangka berputar juga menjelaskan apa yang terjadi di luar resonansi. Bila $|\Omega| \ll \omega_1$, medan efektif hampir sejajar $x'$ dan pulsa masih bekerja dengan baik. Bila $|\Omega| \gtrsim \omega_1$, medan efektif condong ke $z$, dan magnetisasi hanya sedikit dimiringkan. Agar semua garis dalam spektrum tereksitasi merata, pulsa harus pendek dan kuat: $\omega_1/2\pi$ harus lebih besar daripada lebar spektrum. Pulsa 90° untuk proton biasanya 5–15 μs.
 

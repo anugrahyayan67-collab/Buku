@@ -37,7 +37,7 @@ $$
 Bukti: $\hat H\psi = [\hat H_1\psi_a(1)]\psi_b(2) + \psi_a(1)[\hat H_2\psi_b(2)] = (E_a + E_b)\psi_a\psi_b$, karena $\hat H_1$ tidak menyentuh koordinat 2, dan sebaliknya. Hal yang sama berlaku untuk Hamiltonian satu partikel yang dapat dipisah menurut koordinat, misalnya $\hat H = \hat H_x + \hat H_y + \hat H_z$. Pemisahan variabel adalah alat utama untuk menyelesaikan kotak tiga dimensi (subbab 4.5), atom hidrogen (Bab 7), dan, sebagai **pendekatan**, atom dan molekul berelektron banyak: pendekatan orbital (Bab 9) memperlakukan setiap elektron seolah-olah bergerak sendiri dalam medan rata-rata elektron lain.
 
 ::: {.contoh}
-**Contoh 4.11 · Helium tanpa tolakan antarelektron**
+**Contoh 4.12 · Helium tanpa tolakan antarelektron**
 
 Jika suku tolakan $ke^2/r_{12}$ dihapus dari Hamiltonian helium (Contoh 3.6), Hamiltoniannya menjadi jumlah dua Hamiltonian ion He⁺. (a) Berapa energi keadaan dasarnya? (b) Bandingkan dengan energi percobaan $-79{,}0$ eV.
 
@@ -49,7 +49,7 @@ Jika suku tolakan $ke^2/r_{12}$ dihapus dari Hamiltonian helium (Contoh 3.6), Ha
 :::
 
 ::: {.contoh}
-**Contoh 4.12 · Dua partikel dalam satu kotak**
+**Contoh 4.13 · Dua partikel dalam satu kotak**
 
 Dua partikel bermassa sama yang tidak berinteraksi berada dalam kotak satu dimensi sepanjang $L$. (a) Tuliskan fungsi gelombang dan energi keadaan dasar dan keadaan tereksitasi pertama. (b) Berapa degenerasi keadaan tereksitasi pertama jika kedua partikel dapat dibedakan?
 
@@ -61,13 +61,31 @@ Dua partikel bermassa sama yang tidak berinteraksi berada dalam kotak satu dimen
 :::
 
 ::: {.contoh}
-**Contoh 4.13 · Menghitung suku-suku Hamiltonian benzena**
+**Contoh 4.14 · Menghitung suku-suku Hamiltonian benzena**
 
 Hitung banyaknya suku setiap jenis dalam (4.7) untuk benzena C₆H₆ (12 inti, 42 elektron).
 
 **Penyelesaian.** Kinetik inti: 12. Kinetik elektron: 42. Tarikan elektron–inti: $12 \times 42 = 504$. Tolakan elektron–elektron: $\binom{42}{2} = 861$. Tolakan inti–inti: $\binom{12}{2} = 66$. Jumlahnya 1485 suku.
 
 **Memahami hasil.** Suku yang paling banyak, dan paling sulit, adalah tolakan elektron–elektron: ia menggandeng setiap pasangan elektron dan mencegah pemisahan variabel. Pada program kimia komputasi, jumlah integral tolakan elektron bertambah kira-kira sebanding pangkat empat ukuran basis; untuk benzena dengan basis sedang, ratusan juta integral.
+:::
+
+::: {.contoh}
+**Contoh 4.15 · Berapa suku dalam operator Hamilton molekul air?**
+
+Tuliskan struktur operator Hamilton lengkap molekul H₂O (10 elektron, 3 inti) dan hitung banyaknya suku energi kinetik dan suku Coulomb.
+
+**Penyelesaian.** Energi kinetik: satu suku untuk setiap partikel, $10 + 3 = 13$ suku. Interaksi Coulomb: setiap pasangan partikel satu suku.
+
+| Jenis pasangan | banyak suku |
+|---|---|
+| elektron–elektron, $\binom{10}{2}$ | 45 (tolakan) |
+| elektron–inti, $10 \times 3$ | 30 (tarikan) |
+| inti–inti, $\binom{3}{2}$ | 3 (tolakan) |
+
+Jumlahnya 13 suku kinetik dan 78 suku Coulomb, dan fungsi gelombangnya bergantung pada $3 \times 13 = 39$ koordinat (ditambah spin).
+
+**Memahami hasil.** Molekul tiga atom sudah memerlukan persamaan diferensial dalam 39 variabel; tidak ada harapan menyelesaikannya secara tepat. Seluruh sisa buku ini adalah strategi untuk menyederhanakan masalah ini: memisahkan gerak inti dari elektron (pendekatan Born–Oppenheimer, Bab 11), mengganti tolakan elektron dengan medan rata-rata (Hartree–Fock, Bab 9 dan 17), dan memanfaatkan simetri (Bab 10).
 :::
 
 ::: {.kuis}
@@ -111,7 +129,7 @@ Kadang-kadang dua tingkat berenergi sama tanpa alasan simetri yang jelas, misaln
 ![Gambar 4.2 Fungsi gelombang partikel dalam kotak persegi dua dimensi untuk empat keadaan terendah. Merah positif, biru negatif; garis hitam adalah simpul. Keadaan $(2, 1)$ dan $(1, 2)$ terdegenerasi dan saling berubah oleh rotasi 90°.](fig/c_kotak2d.png){width=88%}
 
 ::: {.contoh}
-**Contoh 4.14 · Elektron dalam kubus nanometer**
+**Contoh 4.16 · Elektron dalam kubus nanometer**
 
 Elektron berada dalam kubus bersisi 1,00 nm. (a) Hitung energi keadaan dasar dan keadaan tereksitasi pertama. (b) Berapa panjang gelombang transisinya? (c) Jika sisi $z$ diperpanjang menjadi 1,10 nm, berapa energi keadaan $(1, 1, 2)$ dan $(2, 1, 1)$?
 
@@ -125,7 +143,7 @@ Elektron berada dalam kubus bersisi 1,00 nm. (a) Hitung energi keadaan dasar dan
 :::
 
 ::: {.contoh}
-**Contoh 4.15 · Kotak persegi panjang dua dimensi**
+**Contoh 4.17 · Kotak persegi panjang dua dimensi**
 
 Partikel dalam kotak dua dimensi bersisi $a = L$ dan $b = 2L$. Urutkan enam tingkat terendah dan tentukan degenerasinya.
 
@@ -135,7 +153,7 @@ Partikel dalam kotak dua dimensi bersisi $a = L$ dan $b = 2L$. Urutkan enam ting
 :::
 
 ::: {.contoh}
-**Contoh 4.16 · Gas elektron dalam natrium**
+**Contoh 4.18 · Gas elektron dalam natrium**
 
 Elektron valensi logam natrium dapat dimodelkan sebagai gas elektron dalam kubus besar (model elektron bebas Sommerfeld). Dengan dua elektron (spin berlawanan) tiap keadaan, elektron mengisi keadaan dari bawah sampai **energi Fermi**
 
@@ -167,7 +185,7 @@ $$
 Persamaan ini memuat tetapan Planck: entropi absolut gas, yang dapat diukur secara kalorimetri dari nol mutlak, ternyata bergantung pada $h$. Sackur dan Tetrode memakainya untuk menentukan $h$ dari data entropi raksa, beberapa tahun sebelum Bohr.
 
 ::: {.contoh}
-**Contoh 4.17 · Entropi argon dari partikel dalam kotak**
+**Contoh 4.19 · Entropi argon dari partikel dalam kotak**
 
 Hitung entropi molar standar argon (39,948 u) pada 298,15 K dan 1 bar dengan persamaan Sackur–Tetrode, dan bandingkan dengan nilai kalorimetri 154,8 J mol⁻¹K⁻¹. Ulangi untuk helium (nilai tabel 126,2) dan xenon (169,7).
 
@@ -224,7 +242,7 @@ Inilah **teorema Ehrenfest**: nilai harap mematuhi persamaan gerak klasik, denga
 Persamaan (4.12) juga memberi tahu **hukum kekekalan**: jika $\hat A$ komut dengan $\hat H$, nilai harapnya tetap untuk keadaan apa pun. Untuk partikel bebas, $[\hat H, \hat p_x] = 0$: momentum kekal. Untuk potensial yang simetris bola, $[\hat H, \hat L_z] = 0$: momentum sudut kekal.
 
 ::: {.contoh}
-**Contoh 4.18 · Energi kinetik dan potensial elektron 1s**
+**Contoh 4.20 · Energi kinetik dan potensial elektron 1s**
 
 Untuk atom hidrogen dengan $\psi_{1s} = (\pi a_0^3)^{-1/2}e^{-r/a_0}$, hitung $\langle V\rangle = -ke^2\langle 1/r\rangle$, lalu $\langle T\rangle = E - \langle V\rangle$ dengan $E = -13{,}606$ eV.
 
@@ -234,7 +252,7 @@ Untuk atom hidrogen dengan $\psi_{1s} = (\pi a_0^3)^{-1/2}e^{-r/a_0}$, hitung $\
 :::
 
 ::: {.contoh}
-**Contoh 4.19 · Momentum rata-rata gelombang yang bergerak**
+**Contoh 4.21 · Momentum rata-rata gelombang yang bergerak**
 
 (a) Hitung $\langle p_x\rangle$ untuk $\psi = Ne^{-x^2/4\sigma^2}e^{ik_0x}$. (b) Hitung $\langle p_x\rangle$ untuk $\psi = N'e^{-x^2/4\sigma^2}\cos k_0x$.
 
@@ -252,7 +270,7 @@ Suku kedua nol karena $x|\psi|^2$ ganjil.
 :::
 
 ::: {.contoh}
-**Contoh 4.20 · Nilai harap dalam superposisi**
+**Contoh 4.22 · Nilai harap dalam superposisi**
 
 Partikel dalam kotak berada dalam keadaan $\psi = 0{,}6\psi_1 + 0{,}8\psi_2$ (dengan $\psi_n$ riil, $t = 0$). Hitung $\langle E\rangle$, $\langle x\rangle$, dan $\langle p_x\rangle$.
 
@@ -266,7 +284,7 @@ $\langle p_x\rangle = 0$ karena $\psi$ riil pada $t = 0$.
 :::
 
 ::: {.contoh}
-**Contoh 4.21 · Ehrenfest untuk osilator**
+**Contoh 4.23 · Ehrenfest untuk osilator**
 
 Untuk $V = \tfrac12\kappa x^2$, tunjukkan dengan (4.13) bahwa $\langle x\rangle$ berayun persis seperti osilator klasik.
 
@@ -276,7 +294,7 @@ Untuk $V = \tfrac12\kappa x^2$, tunjukkan dengan (4.13) bahwa $\langle x\rangle$
 :::
 
 ::: {.contoh}
-**Contoh 4.22 · Seberapa tajam jarak elektron 1s?**
+**Contoh 4.24 · Seberapa tajam jarak elektron 1s?**
 
 Untuk orbital 1s hidrogen, $\langle r\rangle = 1{,}5a_0$ (Contoh 2.8) dan $\langle r^2\rangle = 3a_0^2$. (a) Hitung simpangan baku $\Delta r$. (b) Hitung $\langle x^2\rangle$ dengan simetri bola. (c) Apa artinya bagi gambaran "jari-jari atom"?
 

@@ -8,7 +8,7 @@ $$
 \hat H = \frac{\hat L_z^2}{2I} = -\frac{\hbar^2}{2I}\frac{d^2}{d\phi^2} . \qquad \text{(6.9)}
 $$
 
-Persamaan Schrödinger $-\tfrac{\hbar^2}{2I}\psi'' = E\psi$ mempunyai penyelesaian $\psi = Ae^{im\phi}$ dengan $E = m^2\hbar^2/2I$. Yang menentukan nilai $m$ bukan dinding, melainkan **syarat bernilai tunggal** (Contoh 4.9): titik $\phi$ dan $\phi + 2\pi$ adalah titik yang sama, sehingga $e^{im(\phi + 2\pi)} = e^{im\phi}$, yaitu $e^{2\pi im} = 1$. Jadi $m$ harus bilangan bulat. Normalisasi $\int_0^{2\pi}|\psi|^2d\phi = 1$ memberi $A = 1/\sqrt{2\pi}$:
+Persamaan Schrödinger $-\tfrac{\hbar^2}{2I}\psi'' = E\psi$ mempunyai penyelesaian $\psi = Ae^{im\phi}$ dengan $E = m^2\hbar^2/2I$. Yang menentukan nilai $m$ bukan dinding, melainkan **syarat bernilai tunggal** (Contoh 4.10): titik $\phi$ dan $\phi + 2\pi$ adalah titik yang sama, sehingga $e^{im(\phi + 2\pi)} = e^{im\phi}$, yaitu $e^{2\pi im} = 1$. Jadi $m$ harus bilangan bulat. Normalisasi $\int_0^{2\pi}|\psi|^2d\phi = 1$ memberi $A = 1/\sqrt{2\pi}$:
 
 $$
 \boxed{\ \psi_m(\phi) = \frac{1}{\sqrt{2\pi}}e^{im\phi}, \qquad E_m = \frac{m^2\hbar^2}{2I}, \qquad L_z = m\hbar, \qquad m = 0, \pm1, \pm2, \ldots\ } \qquad \text{(6.10)}

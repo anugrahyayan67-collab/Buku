@@ -33,6 +33,8 @@ Apakah $x e^{-x^2/2}$ fungsi eigen operator yang sama? Nilai eigennya? ||| ya; 3
 Cari fungsi eigen dan nilai eigen $d/dx$ pada $[0, L]$ dengan syarat $f(0) = f(L)$ (syarat periodik). ||| $e^{2\pi inx/L}$; $2\pi in/L$
 Untuk $\hat A = x\,d/dx$, tunjukkan bahwa $x^n$ fungsi eigen. Berapa nilai eigennya? ||| $n$
 
+Apakah $\cos kx$ fungsi eigen $\hat p_x^2$? Bila ya, berapa nilai eigennya? ||| Ya; $\hbar^2k^2$
+
 **Tantangan ★**
 
 ★ Tunjukkan bahwa jika $f$ fungsi eigen $\hat A$ dengan nilai eigen $a$, maka $f$ fungsi eigen $\hat A^2$ dengan nilai eigen $a^2$ dan fungsi eigen $e^{\hat A}$ dengan nilai eigen $e^a$. ||| kerjakan berulang; deret Taylor
@@ -68,6 +70,8 @@ Berapa suku tolakan elektron–elektron untuk molekul air? ||| 45
 Tiga elektron tak berinteraksi dalam kotak satu dimensi (abaikan asas Pauli). Berapa energi keadaan dasar dan tereksitasi pertama dalam $E_1$? Degenerasinya? ||| $3E_1$; $6E_1$, degenerasi 3
 Hitung energi litium jika semua tolakan elektron diabaikan dan ketiga elektron di 1s (abaikan asas Pauli), lalu jika dua di 1s dan satu di 2s. Bandingkan dengan nilai percobaan $-203{,}5$ eV. ||| $-367{,}4$ eV; $-275{,}5$ eV
 @pisah [P] Tunjukkan bahwa jika $\hat H = \hat H_x + \hat H_y$, maka $\psi(x, y) = X(x)Y(y)$ dengan $\hat H_xX = E_xX$, $\hat H_yY = E_yY$ memenuhi $\hat H\psi = (E_x + E_y)\psi$. ||| $\hat H_x$ tidak menyentuh $y$
+
+Berapa suku Coulomb dalam operator Hamilton lengkap molekul NH₃ (10 elektron, 4 inti)? ||| 91
 
 **Tantangan ★**
 
@@ -123,6 +127,8 @@ Untuk partikel pada cincin, manakah yang dapat diterima: $\sin 2\phi$, $e^{i\phi
 Apakah $1/\sqrt{1 + x^2}$ dapat dinormalisasi pada seluruh garis? $1/(1 + x^2)$? ||| tidak; ya
 Di mana turunan fungsi gelombang partikel dalam kotak tidak malar, dan mengapa itu diperbolehkan? ||| di dinding; potensial tak hingga di sana
 
+Mengapa $\psi = e^{i\phi/2}$ tidak dapat diterima untuk partikel pada cincin, sedangkan $e^{i\phi}$ dapat? ||| tidak bernilai tunggal: berubah tanda setelah satu putaran
+
 **Tantangan ★**
 
 ★ Fungsi $r^\ell e^{-r}$ dalam tiga dimensi: untuk $\ell$ berapa saja ia dapat dinormalisasi? Bagaimana dengan $r^{-1/2}e^{-r}$? ||| $\ell > -3/2$; ya ($\int re^{-2r}dr$ berhingga)
@@ -155,9 +161,11 @@ Uraikan $\cos^2x$ atas fungsi eigen $d^2/dx^2$ yang periodik ($1$, $\cos 2x$, ..
 
 **Menengah**
 
-Untuk fungsi segitiga Contoh 4.29, berapa peluang pengukuran energi memberi nilai di atas $E_1$? ||| 0,0145
+Untuk fungsi segitiga Contoh 4.32, berapa peluang pengukuran energi memberi nilai di atas $E_1$? ||| 0,0145
 Hitung $\langle E\rangle$ untuk fungsi parabola dan segitiga dalam satuan $E_1$, dan jelaskan perbedaannya. ||| 1,013; 1,216; segitiga bersudut tajam
 Uraikan $\sin^3x$ atas $\sin nx$. ||| $\tfrac34\sin x - \tfrac14\sin 3x$
+
+Untuk keadaan parabola Contoh 4.35, berapa peluang mendapat $E_5$? ||| $6{,}4 \times 10^{-5}$
 
 **Tantangan ★**
 
@@ -212,6 +220,8 @@ Elektron pada orbital $2p_y$. Hasil pengukuran $L_z$ dan peluangnya? ||| $\pm\hb
 Mengapa superposisi $(\phi_1 + \phi_2)/\sqrt2$ tidak sama dengan campuran 50:50? Beri pengukuran yang membedakannya. ||| suku interferensi; ukur besaran yang tidak komut, misalnya posisi
 Elektron dalam kotak pada keadaan $\psi_2$. Posisinya diukur dan ditemukan sangat dekat $L/4$. Jika energi kemudian diukur, apakah hasilnya pasti $E_2$? ||| tidak; keadaan setelah pengukuran posisi tersebar atas banyak $\psi_n$
 
+Untuk $\Psi = (\psi_1 + i\psi_3)/\sqrt2$ dalam kotak, berapa $\langle E\rangle$ dalam satuan $E_1$? Apakah faktor $i$ mengubah hasilnya? ||| 5; tidak
+
 **Tantangan ★**
 
 ★ Efek Zeno kuantum: sistem dua keadaan berevolusi dari $|\text{A}\rangle$ dengan peluang $\sin^2(\Omega t)$ ke $|\text{B}\rangle$. Jika diukur $N$ kali pada selang $T/N$, tunjukkan bahwa peluang tetap di $|\text{A}\rangle$ menuju 1 untuk $N \to \infty$. ||| $[\cos^2(\Omega T/N)]^N \to 1$
@@ -229,6 +239,8 @@ Tunjukkan bahwa $\hat U = e^{-i\hat Ht/\hbar}$ uniter bila $\hat H$ Hermitian. |
 Dalam model dua keadaan NH₃, berapa waktu yang diperlukan molekul untuk berpindah sepenuhnya dari bentuk A ke B? ||| $h/2\Delta = 21$ ps
 Keadaan $\tfrac{1}{\sqrt2}(\psi_1 + i\psi_2)$ dalam kotak: kapan pertama kali $\langle x\rangle$ mencapai nilai terkecilnya? ||| $t = T/4 = h/4(E_2 - E_1)$
 
+Berapa periode denyut superposisi $\psi_1$ dan $\psi_2$ untuk elektron dalam kotak 0,50 nm? ||| 0,92 fs
+
 **Tantangan ★**
 
 ★ Tunjukkan bahwa postulat-postulat menjamin $\sum_n(\text{peluang}) = 1$ pada setiap waktu, dengan memakai kesatuan $\hat U$ dan kelengkapan. ||| $\sum|c_n(t)|^2 = \langle\Psi(t)|\Psi(t)\rangle = 1$
@@ -242,7 +254,7 @@ Tuliskan matriks $\hat H$ partikel dalam kotak dalam basis fungsi eigennya (tiga
 
 **Menengah**
 
-@matriks [P] (Python) Diagonalkan matriks $\hat x$ partikel dalam kotak dalam basis empat fungsi pertama. Bandingkan dengan basis tiga fungsi (Contoh 4.45). ||| 0,185; 0,395; 0,605; 0,815 ($L$)
+@matriks [P] (Python) Diagonalkan matriks $\hat x$ partikel dalam kotak dalam basis empat fungsi pertama. Bandingkan dengan basis tiga fungsi (Contoh 4.51). ||| 0,185; 0,395; 0,605; 0,815 ($L$)
 Polarisabilitas elektron dalam kotak sebanding dengan $L^4$. Dari nilai 83 Å³ untuk $L = 1$ nm, hitung untuk $L = 0{,}5$ nm dan 2 nm. ||| 5,2 Å³; 1330 Å³
 Tunjukkan bahwa unsur matriks operator Hermitian memenuhi $A_{mn} = A_{nm}^*$. ||| dari (4.14)
 

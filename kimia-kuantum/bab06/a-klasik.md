@@ -163,7 +163,7 @@ Buktinya untuk $\hat L_z$: $[\hat L_x^2, \hat L_z] = \hat L_x[\hat L_x, \hat L_z
 
 ### Bentuk dalam koordinat bola
 
-Dengan aturan rantai seperti di Contoh 4.7, operator-operator itu dapat ditulis dalam $(r, \theta, \phi)$. Hasilnya tidak memuat $r$ sama sekali:
+Dengan aturan rantai seperti di Contoh 4.8, operator-operator itu dapat ditulis dalam $(r, \theta, \phi)$. Hasilnya tidak memuat $r$ sama sekali:
 
 $$
 \hat L_z = -i\hbar\frac{\partial}{\partial\phi}, \qquad \hat L^2 = -\hbar^2\left[\frac{1}{\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\right) + \frac{1}{\sin^2\theta}\frac{\partial^2}{\partial\phi^2}\right] . \qquad \text{(6.7)}
@@ -180,7 +180,7 @@ Energi kinetik partikel dalam tiga dimensi terbagi menjadi bagian radial dan bag
 ::: {.dalam}
 **Menurunkan $\hat L^2$ dalam koordinat bola**
 
-Satu jalan: tuliskan $\hat L_x$ dan $\hat L_y$ dengan aturan rantai seperti $\hat L_z$ di Contoh 4.7. Hasilnya
+Satu jalan: tuliskan $\hat L_x$ dan $\hat L_y$ dengan aturan rantai seperti $\hat L_z$ di Contoh 4.8. Hasilnya
 $$
 \hat L_x = i\hbar\left(\sin\phi\,\partial_\theta + \cot\theta\cos\phi\,\partial_\phi\right), \qquad \hat L_y = i\hbar\left(-\cos\phi\,\partial_\theta + \cot\theta\sin\phi\,\partial_\phi\right) .
 $$

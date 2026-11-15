@@ -177,6 +177,22 @@ Operator paritas $\hat\Pi$ didefinisikan oleh $\hat\Pi f(x) = f(-x)$. (a) Tunjuk
 **Memahami hasil.** Fungsi eigen paritas adalah fungsi genap ($+1$) dan ganjil ($-1$). Setiap fungsi dapat diuraikan menjadi bagian genap dan ganjil: $e^x = \cosh x + \sinh x$. Paritas dibahas lebih lanjut di subbab 4.11.
 :::
 
+::: {.contoh}
+**Contoh 4.7 · Fungsi eigen momentum dan energi kinetik**
+
+Periksa apakah (a) $e^{ikx}$, (b) $\sin kx$, dan (c) $e^{-x^2}$ merupakan fungsi eigen $\hat p_x = -i\hbar\,d/dx$ dan $\hat T = -(\hbar^2/2m)\,d^2/dx^2$. Bila ya, tuliskan nilai eigennya.
+
+**Penyelesaian.**
+
+(a) $\hat p_xe^{ikx} = \hbar k\,e^{ikx}$ dan $\hat Te^{ikx} = (\hbar^2k^2/2m)e^{ikx}$. Fungsi eigen keduanya.
+
+(b) $\hat p_x\sin kx = -i\hbar k\cos kx$, bukan kelipatan $\sin kx$, jadi **bukan** fungsi eigen momentum. Tetapi $\hat T\sin kx = (\hbar^2k^2/2m)\sin kx$, jadi fungsi eigen energi kinetik.
+
+(c) $\hat p_xe^{-x^2} = 2i\hbar x\,e^{-x^2}$ dan $\hat Te^{-x^2} = -(\hbar^2/2m)(4x^2 - 2)e^{-x^2}$. Bukan fungsi eigen keduanya.
+
+**Memahami hasil.** $\sin kx = (e^{ikx} - e^{-ikx})/2i$ adalah campuran setara momentum $+\hbar k$ dan $-\hbar k$, jadi momentumnya tidak tertentu walaupun energinya tertentu. Itulah keadaan partikel dalam kotak: energinya terkuantisasi tepat, tetapi pengukuran momentum memberi $+\hbar k$ atau $-\hbar k$ dengan peluang sama. Fungsi Gauss bukan fungsi eigen operator mana pun di atas, tetapi akan menjadi fungsi eigen operator Hamilton osilator harmonik (Bab 5).
+:::
+
 ::: {.kuis}
 **Kuis cepat 4.2**
 
@@ -214,7 +230,7 @@ Bentuk ini sudah kita temui ketika menebak persamaan Schrödinger (subbab 3.2): 
 Perhatikan bahwa energi kinetik dibentuk dari $\hat p_x^2 + \hat p_y^2 + \hat p_z^2 = -\hbar^2\nabla^2$. Beberapa besaran, terutama **spin**, tidak mempunyai padanan klasik; operatornya ditentukan oleh sifat-sifat aljabarnya (Bab 9).
 
 ::: {.contoh}
-**Contoh 4.7 · Momentum sudut-$z$ dalam koordinat bola**
+**Contoh 4.8 · Momentum sudut-$z$ dalam koordinat bola**
 
 Tunjukkan bahwa $\hat L_z = -i\hbar(x\,\partial_y - y\,\partial_x)$ sama dengan $-i\hbar\,\partial/\partial\phi$.
 
@@ -226,11 +242,11 @@ $$
 
 Kalikan dengan $-i\hbar$: $-i\hbar\,\partial/\partial\phi = -i\hbar(x\,\partial_y - y\,\partial_x) = \hat L_z$.
 
-**Memahami hasil.** Momentum sudut terhadap sumbu $z$ adalah "momentum" untuk sudut $\phi$, persis seperti $\hat p_x$ untuk koordinat $x$. Fungsi eigennya $e^{im\phi}$ dengan nilai eigen $m\hbar$ (Contoh 4.9).
+**Memahami hasil.** Momentum sudut terhadap sumbu $z$ adalah "momentum" untuk sudut $\phi$, persis seperti $\hat p_x$ untuk koordinat $x$. Fungsi eigennya $e^{im\phi}$ dengan nilai eigen $m\hbar$ (Contoh 4.10).
 :::
 
 ::: {.contoh}
-**Contoh 4.8 · Energi kinetik gelombang bidang dan fungsi Gauss**
+**Contoh 4.9 · Energi kinetik gelombang bidang dan fungsi Gauss**
 
 (a) Hitung $\hat T\psi$ untuk $\psi = e^{i(k_xx + k_yy + k_zz)}$. (b) Untuk $\psi = e^{-ax^2}$ (satu dimensi), apakah $\psi$ fungsi eigen $\hat T$?
 
@@ -242,7 +258,7 @@ Kalikan dengan $-i\hbar$: $-i\hbar\,\partial/\partial\phi = -i\hbar(x\,\partial_
 :::
 
 ::: {.contoh}
-**Contoh 4.9 · Fungsi eigen $\hat L_z$**
+**Contoh 4.10 · Fungsi eigen $\hat L_z$**
 
 (a) Cari fungsi eigen $\hat L_z = -i\hbar\,\partial/\partial\phi$. (b) Syarat apa yang membatasi nilai eigennya? (c) Apakah $\cos\phi$ fungsi eigen $\hat L_z$? Apakah fungsi eigen $\hat L_z^2$?
 
@@ -256,7 +272,7 @@ Kalikan dengan $-i\hbar$: $-i\hbar\,\partial/\partial\phi = -i\hbar(x\,\partial_
 :::
 
 ::: {.contoh}
-**Contoh 4.10 · Operator momen dipol molekul**
+**Contoh 4.11 · Operator momen dipol molekul**
 
 Molekul HCl terdiri atas inti H (muatan $+e$) di $\mathbf R_\text{H}$, inti Cl ($+17e$) di $\mathbf R_\text{Cl}$, dan 18 elektron di $\mathbf r_1, \ldots, \mathbf r_{18}$. Tuliskan operator momen dipolnya. Mengapa nilainya tidak bergantung pada pilihan titik asal?
 

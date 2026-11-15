@@ -33,7 +33,7 @@ dengan eksponen operator didefinisikan oleh deret Taylor $e^{\hat A} = 1 + \hat 
 Postulat 6 adalah bagian yang paling banyak diperdebatkan. Tafsiran Kopenhagen (Bohr, Heisenberg) menerima pemisahan antara sistem kuantum dan alat ukur klasik tanpa menjelaskan lebih lanjut. Tafsiran lain (dunia banyak, teori de Broglie–Bohm, keruntuhan spontan) mencoba menghapus atau menjelaskan pemisahan itu. Bagi kimia, semua tafsiran itu memberi ramalan yang sama untuk setiap percobaan yang pernah dilakukan; perbedaan di antara mereka adalah soal filsafat, bukan soal angka. Gagasan dekoherensi (subbab 4.12) menjelaskan secara fisis mengapa superposisi makroskopik tidak teramati, tanpa menyelesaikan seluruh perdebatan.
 
 ::: {.contoh}
-**Contoh 4.43 · Menerapkan semua postulat pada satu sistem**
+**Contoh 4.48 · Menerapkan semua postulat pada satu sistem**
 
 Elektron dalam kotak 1,00 nm disiapkan pada $t = 0$ dalam keadaan $\Psi(0) = \tfrac{1}{\sqrt2}(\psi_1 + i\psi_2)$. (a) Tuliskan $\Psi(t)$ (Postulat 5). (b) Hasil apa yang mungkin pada pengukuran energi, dengan peluang berapa (Postulat 3 dan 4)? (c) Berapa $\langle x\rangle$ pada $t = 0$?
 
@@ -47,7 +47,7 @@ Elektron dalam kotak 1,00 nm disiapkan pada $t = 0$ dalam keadaan $\Psi(0) = \tf
 :::
 
 ::: {.contoh}
-**Contoh 4.44 · Evolusi sistem dua keadaan**
+**Contoh 4.49 · Evolusi sistem dua keadaan**
 
 Dalam model dua keadaan inversi amonia (subbab 3.12), Hamiltonian dalam basis $\{|\text{A}\rangle, |\text{B}\rangle\}$ adalah $\hat H = \begin{pmatrix}E_0 & -\Delta/2\\ -\Delta/2 & E_0\end{pmatrix}$. Dengan (4.19), mulai dari $|\text{A}\rangle$, tentukan peluang menemukan molekul di $|\text{B}\rangle$ pada waktu $t$.
 
@@ -60,6 +60,22 @@ $$
 Peluang di $|\text{B}\rangle$: $\sin^2(\Delta t/2\hbar)$.
 
 **Memahami hasil.** Molekul berpindah sepenuhnya ke $|\text{B}\rangle$ pada $t = \pi\hbar/\Delta = h/2\Delta$ dan kembali pada $t = h/\Delta$ (42 ps untuk NH₃). Rumus yang sama, dengan nama **osilasi Rabi**, menggambarkan sistem dua tingkat yang digerakkan medan resonansi: dasar NMR berpulsa (Bab 16), maser, dan bit kuantum.
+:::
+
+::: {.contoh}
+**Contoh 4.50 · Superposisi yang berdenyut**
+
+Elektron dalam kotak 1,0 nm berada dalam superposisi $(\psi_1 + \psi_2)/\sqrt2$. Rapat peluangnya berubah terhadap waktu dengan frekuensi sudut $(E_2 - E_1)/\hbar$. Hitung periode denyut itu.
+
+**Penyelesaian.** Dengan $\Psi(x,t) = [\psi_1e^{-iE_1t/\hbar} + \psi_2e^{-iE_2t/\hbar}]/\sqrt2$:
+
+$$
+|\Psi|^2 = \tfrac12\left[\psi_1^2 + \psi_2^2 + 2\psi_1\psi_2\cos\frac{(E_2 - E_1)t}{\hbar}\right].
+$$
+
+$E_1 = h^2/8m_eL^2 = 0{,}376$ eV dan $E_2 - E_1 = 3E_1 = 1{,}128$ eV. Periodenya $T = h/(E_2 - E_1) = 3{,}67$ fs.
+
+**Memahami hasil.** Keadaan stasioner tidak berubah terhadap waktu; hanya superposisi keadaan berenergi berbeda yang "bergerak", dengan elektron berayun dari satu sisi kotak ke sisi lain. Periode beberapa femtodetik inilah skala waktu gerak elektron dalam molekul, dan pulsa laser femtodetik dan attodetik kini dapat menyiapkan dan memotret gerak seperti ini secara langsung.
 :::
 
 ::: {.kuis}
@@ -111,7 +127,7 @@ Mencari tingkat energi berarti mendiagonalkan matriks Hamiltonian. Matriks opera
 Dalam praktik, basis yang lengkap tak hingga, sehingga matriksnya dipotong. Hasilnya adalah pendekatan, yang membaik dengan menambah fungsi basis. Inilah **metode variasi linear** (Bab 8), dan inilah yang dilakukan setiap program kimia komputasi.
 
 ::: {.contoh}
-**Contoh 4.45 · Matriks posisi dalam basis kotak**
+**Contoh 4.51 · Matriks posisi dalam basis kotak**
 
 Tuliskan matriks $\hat x$ (dalam satuan $L$) dalam basis tiga fungsi kotak terendah $\{|1\rangle, |2\rangle, |3\rangle\}$, dengan $\langle n|x|n\rangle = 1/2$ dan rumus $\langle m|x|n\rangle$ dari Contoh 3.21. Diagonalkan matriks itu.
 
@@ -127,7 +143,7 @@ $\langle 1|x|3\rangle = 0$ karena paritas. Nilai eigennya (dengan NumPy): 0,235;
 :::
 
 ::: {.contoh}
-**Contoh 4.46 · Kotak dalam medan listrik: diagonalisasi**
+**Contoh 4.52 · Kotak dalam medan listrik: diagonalisasi**
 
 Elektron dalam kotak 1,00 nm diletakkan dalam medan listrik $F$ sepanjang $x$, sehingga $\hat H = \hat H_0 + eF\hat x$. Dalam basis $\{|n\rangle\}$, $H_{mn} = E_m\delta_{mn} + eF\langle m|x|n\rangle$. Dengan basis 12 fungsi, diagonalisasi memberikan energi keadaan dasar 0,8476 eV untuk $F = 1{,}0 \times 10^9$ V/m. (a) Berapa pergeseran energinya di luar suku $eFL/2$? (b) Bandingkan dengan pergeseran kuadratik $-\tfrac12\alpha F^2$, dengan polarisabilitas $\alpha = 9{,}23 \times 10^{-39}$ C·m²/V dari teori perturbasi (Bab 8). (c) Nyatakan $\alpha$ sebagai volume polarisabilitas $\alpha/4\pi\varepsilon_0$.
 
@@ -143,7 +159,7 @@ Elektron dalam kotak 1,00 nm diletakkan dalam medan listrik $F$ sepanjang $x$, s
 ![Gambar 4.5 Elektron dalam kotak 1 nm yang diberi medan listrik. Kiri: tiga energi terendah (dikurangi pergeseran rata-rata $eFL/2$) terhadap kuat medan, dari diagonalisasi matriks 12 × 12. Kanan: rapat peluang keadaan dasar tanpa medan dan dengan medan $1{,}5 \times 10^9$ V/m.](fig/c_stark.png){width=90%}
 
 ::: {.contoh}
-**Contoh 4.47 · Menyisipkan relasi kelengkapan**
+**Contoh 4.53 · Menyisipkan relasi kelengkapan**
 
 Tunjukkan bahwa unsur matriks hasil kali dua operator adalah hasil kali matriksnya, $(AB)_{m\ell} = \sum_nA_{mn}B_{n\ell}$.
 
@@ -153,9 +169,9 @@ Tunjukkan bahwa unsur matriks hasil kali dua operator adalah hasil kali matriksn
 :::
 
 ::: {.contoh}
-**Contoh 4.48 · Operator proyeksi dan peluang**
+**Contoh 4.54 · Operator proyeksi dan peluang**
 
-Untuk keadaan segitiga $|f\rangle$ Contoh 4.29, tuliskan peluang pengukuran energi memberi $E_1$ dengan operator proyeksi $\hat P_1 = |1\rangle\langle 1|$. Tunjukkan bahwa $\hat P_1^2 = \hat P_1$.
+Untuk keadaan segitiga $|f\rangle$ Contoh 4.32, tuliskan peluang pengukuran energi memberi $E_1$ dengan operator proyeksi $\hat P_1 = |1\rangle\langle 1|$. Tunjukkan bahwa $\hat P_1^2 = \hat P_1$.
 
 **Penyelesaian.** Peluang $= \langle f|\hat P_1|f\rangle = \langle f|1\rangle\langle 1|f\rangle = |c_1|^2 = 0{,}9855$. $\hat P_1^2 = |1\rangle\langle 1|1\rangle\langle 1| = |1\rangle\langle 1| = \hat P_1$, karena $\langle 1|1\rangle = 1$.
 
@@ -163,7 +179,7 @@ Untuk keadaan segitiga $|f\rangle$ Contoh 4.29, tuliskan peluang pengukuran ener
 :::
 
 ::: {.contoh}
-**Contoh 4.49 · Komutator kanonik dalam basis terpotong**
+**Contoh 4.55 · Komutator kanonik dalam basis terpotong**
 
 Dalam basis kotak, unsur matriks momentum adalah $\langle m|\hat p|n\rangle = -i\hbar\dfrac{4mn}{L(m^2 - n^2)}$ untuk $m + n$ ganjil (dan nol selain itu). Dengan Python, bentuk matriks $\mathbf X$ dan $\mathbf P$ berukuran 6 × 6, lalu hitung unsur diagonal $\mathbf{XP} - \mathbf{PX}$ dalam satuan $\hbar$. Mengapa unsur terakhir sangat menyimpang?
 

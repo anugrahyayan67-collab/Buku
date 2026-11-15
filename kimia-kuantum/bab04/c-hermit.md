@@ -2,7 +2,7 @@
 
 Tidak setiap penyelesaian matematis persamaan Schrödinger menyatakan keadaan fisis. Sebuah fungsi gelombang **dapat diterima** (sering disebut "berperilaku baik") jika memenuhi syarat-syarat berikut:
 
-1. **Bernilai tunggal.** Pada setiap titik ruang, $\psi$ hanya mempunyai satu nilai, karena peluang menemukan partikel di sana harus tertentu. Syarat ini menguantisasi momentum sudut (Contoh 4.9).
+1. **Bernilai tunggal.** Pada setiap titik ruang, $\psi$ hanya mempunyai satu nilai, karena peluang menemukan partikel di sana harus tertentu. Syarat ini menguantisasi momentum sudut (Contoh 4.10).
 2. **Malar.** $\psi$ tidak boleh melompat; lompatan berarti $\psi''$ tak hingga dan energi kinetik tak hingga.
 3. **Turunan pertama malar**, kecuali di titik-titik tempat potensial tak hingga (dinding kotak, atau inti titik pada potensial Coulomb, tempat orbital s mempunyai "taring").
 4. **Dapat diintegralkan kuadrat**: $\int|\psi|^2d\tau$ berhingga, agar $\psi$ dapat dinormalisasi. Untuk keadaan terikat ini berarti $\psi \to 0$ cukup cepat di tak hingga.
@@ -12,7 +12,7 @@ Syarat 4 menghasilkan kuantisasi energi untuk keadaan terikat: pada sumur terhin
 Syarat-syarat ini tidak menuntut $\psi$ berhingga di mana-mana; yang dituntut adalah $\int|\psi|^2$ berhingga. Misalnya $|x|^{-1/4}$ tak hingga di $x = 0$, tetapi kuadratnya, $|x|^{-1/2}$, dapat diintegralkan di sekitar titik itu. Sebaliknya $|x|^{-1/2}$ tidak dapat diterima, karena $\int dx/|x|$ divergen secara logaritmik. Dalam atom, beberapa fungsi gelombang relativistik memang tak hingga di inti, tetapi integral kuadratnya berhingga.
 
 ::: {.contoh}
-**Contoh 4.23 · Dapat diterima atau tidak?**
+**Contoh 4.25 · Dapat diterima atau tidak?**
 
 Manakah fungsi berikut yang dapat diterima sebagai fungsi gelombang pada daerah yang disebutkan? (a) $e^{-x}$ pada $-\infty < x < \infty$; (b) $e^{-|x|}$ pada seluruh garis; (c) $e^{-x^2}$; (d) $\sin x$ pada seluruh garis; (e) $e^{i\phi/2}$ untuk $0 \le \phi < 2\pi$; (f) $1/r$ dalam tiga dimensi untuk $r > 0$; (g) $e^{-r}/r$ dalam tiga dimensi.
 
@@ -22,13 +22,33 @@ Manakah fungsi berikut yang dapat diterima sebagai fungsi gelombang pada daerah 
 :::
 
 ::: {.contoh}
-**Contoh 4.24 · Spin dan putaran 4π**
+**Contoh 4.26 · Spin dan putaran 4π**
 
-Fungsi $e^{i\phi/2}$ tidak dapat diterima sebagai fungsi gelombang ruang (Contoh 4.23, butir e). Tetapi fungsi spin elektron ternyata berubah tanda ketika diputar 360° dan baru kembali ke semula setelah 720°. Mengapa hal itu tidak melanggar syarat bernilai tunggal?
+Fungsi $e^{i\phi/2}$ tidak dapat diterima sebagai fungsi gelombang ruang (Contoh 4.25, butir e). Tetapi fungsi spin elektron ternyata berubah tanda ketika diputar 360° dan baru kembali ke semula setelah 720°. Mengapa hal itu tidak melanggar syarat bernilai tunggal?
 
 **Penyelesaian.** Fungsi spin bukan fungsi koordinat ruang, sehingga syarat kebernilaian tunggal di ruang tidak berlaku padanya. Faktor $-1$ adalah faktor fase global yang tidak mengubah peluang apa pun, kecuali bila dibandingkan dengan bagian lain sistem yang tidak diputar. Percobaan interferometri neutron (1975) mengamati tanda minus itu secara langsung.
 
 **Memahami hasil.** Momentum sudut orbital hanya boleh bernilai bulat ($m = 0, \pm1, \ldots$) karena syarat kebernilaian tunggal; momentum sudut spin boleh setengah bulat karena tidak terikat syarat itu. Perbedaan ini mempunyai akibat kimia yang sangat besar: elektron (spin ½) mematuhi asas Pauli (Bab 9).
+:::
+
+::: {.contoh}
+**Contoh 4.27 · Fungsi gelombang mana yang dapat diterima?**
+
+Untuk partikel yang bergerak di seluruh sumbu $x$ ($-\infty < x < \infty$), mana yang dapat menjadi fungsi gelombang: (a) $e^{-x^2}$, (b) $e^{x}$, (c) $\sin x$, (d) $1/x$, (e) $e^{-|x|}$?
+
+**Penyelesaian.**
+
+(a) Dapat diterima: kontinu, bernilai tunggal, dan dapat dinormalkan.
+
+(b) Tidak: membesar tanpa batas untuk $x \to \infty$, jadi tidak dapat dinormalkan.
+
+(c) Tidak sebagai keadaan terikat: tidak dapat dinormalkan di seluruh sumbu (integral $\sin^2$ tak hingga), walaupun dapat menyatakan keadaan hamburan seperti gelombang bidang.
+
+(d) Tidak: tak hingga di $x = 0$ dan $\int|1/x|^2dx$ divergen di sana.
+
+(e) Dapat diterima: kontinu dan dapat dinormalkan. Turunannya melompat di $x = 0$, yang hanya diperbolehkan bila potensial di titik itu tak hingga, misalnya potensial fungsi delta $V = -\alpha\delta(x)$, yang keadaan dasarnya memang berbentuk $e^{-\kappa|x|}$.
+
+**Memahami hasil.** Syarat-syarat ini bukan aturan formal belaka. Fungsi yang tidak dapat dinormalkan tidak dapat ditafsirkan sebagai peluang; fungsi yang turunannya melompat memberi energi kinetik tak hingga kecuali dibayar oleh potensial yang juga tak hingga. "Puncak" (*cusp*) fungsi 1s atom hidrogen di inti adalah contoh nyata: potensial Coulomb tak hingga di $r = 0$ mengizinkan turunan yang patah.
 :::
 
 ::: {.kuis}
@@ -68,7 +88,7 @@ Untuk fungsi eigen yang **terdegenerasi**, ortogonalitas tidak otomatis, tetapi 
 :::
 
 ::: {.contoh}
-**Contoh 4.25 · Momentum Hermitian, turunan tidak**
+**Contoh 4.28 · Momentum Hermitian, turunan tidak**
 
 Tunjukkan bahwa $\hat p_x = -i\hbar\,d/dx$ Hermitian dan $\hat D = d/dx$ tidak, untuk fungsi yang menuju nol di $\pm\infty$.
 
@@ -84,7 +104,7 @@ Suku batas nol, dan $i\hbar\,df^*/dx = (-i\hbar\,df/dx)^*$. Jadi $\hat p_x$ Herm
 :::
 
 ::: {.contoh}
-**Contoh 4.26 · Energi kinetik Hermitian**
+**Contoh 4.29 · Energi kinetik Hermitian**
 
 Tunjukkan bahwa $\hat T = -\tfrac{\hbar^2}{2m}\tfrac{d^2}{dx^2}$ Hermitian, dan bahwa $\langle T\rangle \ge 0$ untuk setiap keadaan.
 
@@ -100,7 +120,7 @@ Dikali $-\hbar^2/2m$ (riil): $\hat T$ Hermitian. Untuk nilai harapnya, integral 
 :::
 
 ::: {.contoh}
-**Contoh 4.27 · Hasil kali operator Hermitian**
+**Contoh 4.30 · Hasil kali operator Hermitian**
 
 Jika $\hat A$ dan $\hat B$ Hermitian, apakah $\hat A\hat B$ Hermitian? Periksa untuk $\hat x\hat p_x$.
 
@@ -110,7 +130,7 @@ Jika $\hat A$ dan $\hat B$ Hermitian, apakah $\hat A\hat B$ Hermitian? Periksa u
 :::
 
 ::: {.contoh}
-**Contoh 4.28 · Nilai eigen operator anti-Hermitian**
+**Contoh 4.31 · Nilai eigen operator anti-Hermitian**
 
 Tunjukkan bahwa nilai eigen operator anti-Hermitian ($\int f^*\hat Ag = -\int g(\hat Af)^*$) adalah khayal murni, dan periksa dengan $\hat D = d/dx$ pada cincin ($0 \le \phi < 2\pi$, fungsi bernilai tunggal).
 
@@ -152,7 +172,7 @@ Ekspansi atas fungsi lengkap adalah tulang punggung kimia kuantum praktis. Orbit
 ![Gambar 4.3 Kiri: fungsi segitiga ternormalisasi dalam kotak dan pendekatan ekspansinya atas fungsi eigen partikel dalam kotak, dengan satu dan tiga suku tak nol. Kanan: peluang $|c_n|^2$ (skala logaritma). Suku genap nol karena simetri.](fig/c_ekspansi.png){width=88%}
 
 ::: {.contoh}
-**Contoh 4.29 · Mengurai fungsi segitiga**
+**Contoh 4.32 · Mengurai fungsi segitiga**
 
 Fungsi $f(x) = \sqrt{12/L^3}\,x$ untuk $0 \le x \le L/2$ dan $\sqrt{12/L^3}\,(L - x)$ untuk $L/2 \le x \le L$ ternormalisasi. Koefisien ekspansinya atas fungsi eigen kotak adalah $c_n = \dfrac{4\sqrt6}{n^2\pi^2}\sin\dfrac{n\pi}{2}$. (a) Hitung $|c_n|^2$ untuk $n = 1$ sampai 7. (b) Jika energi partikel diukur, berapa peluang hasilnya $E_1$, $E_2$, $E_3$? (c) Hitung $\langle E\rangle$ dari ekspansi (sampai konvergen) dan langsung dari $\tfrac{\hbar^2}{2m}\int|f'|^2dx$.
 
@@ -166,7 +186,7 @@ Fungsi $f(x) = \sqrt{12/L^3}\,x$ untuk $0 \le x \le L/2$ dan $\sqrt{12/L^3}\,(L 
 :::
 
 ::: {.contoh}
-**Contoh 4.30 · Mengurai gelombang bidang atas gelombang berdiri**
+**Contoh 4.33 · Mengurai gelombang bidang atas gelombang berdiri**
 
 Uraikan $e^{ikx}$ atas fungsi eigen $\hat T = -\tfrac{\hbar^2}{2m}\tfrac{d^2}{dx^2}$ yang berbentuk $\cos kx$ dan $\sin kx$, lalu jelaskan mengapa $\cos kx$ dapat ditulis sebagai superposisi keadaan momentum.
 
@@ -176,13 +196,27 @@ Uraikan $e^{ikx}$ atas fungsi eigen $\hat T = -\tfrac{\hbar^2}{2m}\tfrac{d^2}{dx
 :::
 
 ::: {.contoh}
-**Contoh 4.31 · Basis terpotong**
+**Contoh 4.34 · Basis terpotong**
 
 Fungsi parabola Contoh 2.27 diuraikan atas basis kotak, tetapi hanya suku $n = 1$ yang dipakai: $\tilde f = c_1\psi_1$. (a) Berapa normanya? (b) Jika dinormalkan ulang, berapa energinya? (c) Bandingkan dengan energi rata-rata parabola yang sebenarnya, $1{,}0132E_1$.
 
 **Penyelesaian.** (a) $\|\tilde f\|^2 = |c_1|^2 = 0{,}9986$. (b) Dinormalkan ulang, $\tilde f$ adalah $\psi_1$ dengan energi tepat $E_1$. (c) Selisihnya 1,3%.
 
 **Memahami hasil.** Pemotongan basis membuang 0,14% "isi" fungsi, tetapi mengubah energinya 1,3%, karena suku-suku yang dibuang berenergi tinggi ($9E_1$, $25E_1$, ...). Dalam kimia komputasi, ini adalah inti masalah **ketidaklengkapan basis**: energi konvergen lebih lambat daripada fungsi gelombang, dan dibutuhkan basis yang makin besar untuk mencapai ketelitian kimia.
+:::
+
+::: {.contoh}
+**Contoh 4.35 · Mengekspansi fungsi parabola dalam keadaan kotak**
+
+Partikel dalam kotak $0 \le x \le L$ berada dalam keadaan ternormalkan $\psi = \sqrt{30/L^5}\,x(L - x)$. Koefisien ekspansinya dalam keadaan eigen kotak adalah $c_n = 8\sqrt{15}/(n\pi)^3$ untuk $n$ ganjil dan 0 untuk $n$ genap. Hitung peluang pengukuran energi memberi $E_1$ dan $E_3$, periksa bahwa jumlah semua peluang 1, dan hitung $\langle E\rangle$ dalam satuan $E_1$.
+
+**Penyelesaian.** $c_1 = 0{,}99928$, sehingga $P_1 = 0{,}99856$. $c_3 = 0{,}03701$, $P_3 = 0{,}00137$. Jumlah $\sum_{n\ \text{ganjil}}960/(n\pi)^6 = 1$ (dengan $\sum 1/n^6$ untuk $n$ ganjil $= \pi^6/960$). Energi rata-rata:
+
+$$
+\langle E\rangle = \sum_nP_nn^2E_1 = \frac{960}{\pi^6}E_1\sum_{n\ \text{ganjil}}\frac{1}{n^4} = \frac{960}{\pi^6}\cdot\frac{\pi^4}{96}E_1 = \frac{10}{\pi^2}E_1 = 1{,}0132\,E_1 .
+$$
+
+**Memahami hasil.** Parabola sangat mirip dengan gelombang sinus keadaan dasar, sehingga 99,86% peluangnya jatuh di $n = 1$, dan energi rata-ratanya hanya 1,3% di atas $E_1$. Koefisien genap nol karena parabola simetris terhadap tengah kotak, sedangkan keadaan $n$ genap antisimetris. Perhitungan yang sama, tetapi untuk fungsi uji dan Hamiltonian yang lebih rumit, adalah inti metode variasi (Bab 8): energi rata-rata fungsi uji selalu di atas energi keadaan dasar.
 :::
 
 ::: {.kuis}

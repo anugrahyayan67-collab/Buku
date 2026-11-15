@@ -49,7 +49,7 @@ Untuk $\ell = 1$, hitung $\langle L_x^2\rangle$ dan $\Delta L_x$ pada $m = 1$ da
 
 **Penyelesaian.** $m = 1$: $\langle L_x^2\rangle = \tfrac12(2 - 1)\hbar^2 = \tfrac12\hbar^2$, $\Delta L_x = \hbar/\sqrt2$. Hasil kali $\Delta L_x\Delta L_y = \tfrac12\hbar^2$, sama dengan batas $\tfrac12\hbar\cdot\hbar$. $m = 0$: $\langle L_x^2\rangle = \hbar^2$, $\Delta L_x = \hbar$, hasil kali $\hbar^2 \ge 0$.
 
-**Memahami hasil.** Keadaan dengan $|m| = \ell$ adalah keadaan "paling terarah" dan memenuhi relasi ketidakpastian dengan tanda sama dengan, seperti keadaan dasar osilator untuk $x$ dan $p$. Pada $m = 0$, vektor momentum sudut terletak di bidang $xy$ dengan arah sembarang, sehingga ketidakpastian $L_x$ dan $L_y$ terbesar (Contoh 4.35).
+**Memahami hasil.** Keadaan dengan $|m| = \ell$ adalah keadaan "paling terarah" dan memenuhi relasi ketidakpastian dengan tanda sama dengan, seperti keadaan dasar osilator untuk $x$ dan $p$. Pada $m = 0$, vektor momentum sudut terletak di bidang $xy$ dengan arah sembarang, sehingga ketidakpastian $L_x$ dan $L_y$ terbesar (Contoh 4.39).
 :::
 
 ::: {.contoh}

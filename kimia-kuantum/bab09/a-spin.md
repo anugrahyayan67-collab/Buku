@@ -225,7 +225,7 @@ Setelah satu putaran penuh presesi, $\omega_Lt = 2\pi$, fungsi spin menjadi $\ch
 
 (c) Setelah pengukuran, keadaannya $\chi_{+x}$; $|\langle\beta|\chi_{+x}\rangle|^2 = \tfrac12$.
 
-**Memahami hasil.** Spin yang mula-mula pasti "ke atas" sepanjang $z$, setelah diukur sepanjang $x$, kehilangan seluruh informasi tentang $z$: pengukuran $S_z$ berikutnya memberi hasil 50 : 50. Dalam percobaan Stern–Gerlach berurutan (magnet $z$, lalu $x$, lalu $z$ lagi), berkas yang dipilih "ke atas" oleh magnet pertama pecah lagi menjadi dua oleh magnet ketiga. Inilah ilustrasi paling bersih dari pengukuran kuantum dan komponen yang tidak komut (Contoh 4.42 dan subbab 4.12). Gagasan yang sama mendasari kriptografi kuantum dengan foton terpolarisasi.
+**Memahami hasil.** Spin yang mula-mula pasti "ke atas" sepanjang $z$, setelah diukur sepanjang $x$, kehilangan seluruh informasi tentang $z$: pengukuran $S_z$ berikutnya memberi hasil 50 : 50. Dalam percobaan Stern–Gerlach berurutan (magnet $z$, lalu $x$, lalu $z$ lagi), berkas yang dipilih "ke atas" oleh magnet pertama pecah lagi menjadi dua oleh magnet ketiga. Inilah ilustrasi paling bersih dari pengukuran kuantum dan komponen yang tidak komut (Contoh 4.46 dan subbab 4.12). Gagasan yang sama mendasari kriptografi kuantum dengan foton terpolarisasi.
 :::
 
 ::: {.contoh}
