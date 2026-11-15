@@ -22,7 +22,7 @@ Bab ini membangun teori ikatan kimia dari dasar, dengan molekul diatom sebagai l
 Setelah mempelajari bab ini, kamu mampu:
 
 1. Menurunkan pendekatan Born–Oppenheimer, memperkirakan ketelitiannya, dan menjelaskan konsep kurva dan permukaan energi potensial.
-2. Menghubungkan kurva energi potensial dengan tetapan spektroskopi: $R_e$, $D_e$, $D_0$, tetapan gaya, dan tingkat getaran–rotasi.
+2. Menghubungkan kurva energi potensial dengan tetapan spektroskopi: $R_e$, $D_e$, $D_0$, tetapan gaya, dan tingkat rotasi–getaran.
 3. Menuliskan Hamiltonian H₂⁺ dan menjelaskan mengapa persamaan Schrödingernya dapat diselesaikan secara eksak dalam koordinat eliptik.
 4. Menurunkan energi LCAO H₂⁺ dan menghitung integral tumpang tindih, Coulomb, dan pertukaran.
 5. Menjelaskan asal orbital ikatan dan antiikatan, serta mengapa orbital antiikatan lebih tidak stabil daripada kestabilan orbital ikatan.
@@ -218,9 +218,9 @@ $$
 
 Suku ketiga adalah potensial sentrifugal (persamaan (6.26)): molekul yang berputar merasakan potensial efektif yang lebih dangkal dan minimumnya sedikit bergeser ke $R$ yang lebih besar.
 
-### Tingkat getaran–rotasi
+### Tingkat rotasi–getaran
 
-Uraikan $U(R)$ di sekitar minimum: $U \approx U(R_e) + \tfrac12k(R - R_e)^2 + \ldots$. Bila suku kubik dan seterusnya diabaikan dan suku sentrifugal dihitung di $R_e$, (11.4) menjadi osilator harmonik yang digeser oleh energi rotor tegar. Dengan koreksi anharmonik dan kopling getaran–rotasi, tingkat-tingkat energinya dalam bilangan gelombang adalah
+Uraikan $U(R)$ di sekitar minimum: $U \approx U(R_e) + \tfrac12k(R - R_e)^2 + \ldots$. Bila suku kubik dan seterusnya diabaikan dan suku sentrifugal dihitung di $R_e$, (11.4) menjadi osilator harmonik yang digeser oleh energi rotor tegar. Dengan koreksi anharmonik dan kopling rotasi–getaran, tingkat-tingkat energinya dalam bilangan gelombang adalah
 
 $$
 E(v, J)/hc = T_e + \omega_e\left(v + \tfrac12\right) - \omega_ex_e\left(v + \tfrac12\right)^2 + B_vJ(J + 1) - DJ^2(J + 1)^2 , \qquad \text{(11.5)}

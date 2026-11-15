@@ -42,7 +42,7 @@
 11. Apa itu resonansi Fermi, dan bagaimana kamu mengenalinya dalam spektrum?
 12. Turunkan aturan larangan bersama dari paritas fungsi $x$, $y$, $z$ dan fungsi kuadrat.
 13. Mengapa garis anti-Stokes lebih lemah daripada garis Stokes, dan bagaimana perbedaannya dipakai sebagai termometer?
-14. Jelaskan prinsip Franck–Condon dan mengapa transisi elektronik digambarkan sebagai garis tegak.
+14. Jelaskan asas Franck–Condon dan mengapa transisi elektronik digambarkan sebagai garis tegak.
 15. Mengapa transisi yang terlarang simetri, seperti pita 254 nm benzena, tetap teramati?
 16. Nyatakan aturan Kasha dan jelaskan asal geseran Stokes. Mengapa azulena merupakan pengecualian?
 17. Mengapa fosforesensi jarang teramati dalam larutan cair pada suhu kamar?
@@ -144,7 +144,7 @@ Pakai $hc/k = 1{,}4388$ cm K, $kT/hc = 207{,}2$ cm⁻¹ pada 298 K, 1 D = $3{,}3
 
 **28.** ★ Dengan (15.17), hitung geseran komponen $M = 0 \to \pm1$ garis $J = 1 \leftarrow 0$ OCS dalam medan 1000 V/cm.
 
-## Subbab 15.5: Spektroskopi vibrasi IR
+## Subbab 15.5: Spektroskopi getaran IR
 
 **Dasar**
 
@@ -188,7 +188,7 @@ Pakai $hc/k = 1{,}4388$ cm K, $kT/hc = 207{,}2$ cm⁻¹ pada 298 K, 1 D = $3{,}3
 
 **42.** ★ Bila medan lokal pada celah partikel nano perak 30 kali medan laser, taksir faktor penguatan SERS.
 
-## Subbab 15.7: Spektroskopi elektronik dan prinsip Franck–Condon
+## Subbab 15.7: Spektroskopi elektronik dan asas Franck–Condon
 
 **Dasar**
 

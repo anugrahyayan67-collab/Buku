@@ -1,10 +1,10 @@
-## 13.4 Pendekatan Hückel
+## 13.4 Metode Hückel
 
 ### Memisahkan elektron π
 
 Dalam molekul datar seperti etilena, butadiena, atau benzena, bidang molekul adalah bidang cermin. Setiap orbital molekul bersifat simetris (σ) atau antisimetris (π) terhadap pencerminan itu, dan kedua jenis orbital tidak bercampur (subbab 12.4). Orbital π dibentuk hanya dari orbital $2p_z$ (tegak lurus bidang) atom-atom karbon dan heteroatom. Karena elektron π adalah elektron yang paling tinggi energinya, paling mudah tereksitasi, dan paling reaktif, banyak sifat kimia molekul terkonjugasi ditentukan oleh elektron π saja. E. Hückel (1931) memanfaatkan pemisahan ini: elektron σ dan inti dianggap sebagai "inti" tetap yang menghasilkan medan efektif, dan hanya elektron π yang diperlakukan secara eksplisit.
 
-### Empat pendekatan Hückel
+### Empat metode Hückel
 
 Untuk sistem π dengan $N$ atom karbon, setiap atom menyumbang satu orbital $2p_z$, $\phi_r$, dan OM π ditulis $\psi_k = \sum_rc_{rk}\phi_r$. Persamaan sekuler (13.2) disederhanakan secara drastis:
 

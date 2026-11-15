@@ -72,7 +72,7 @@ Garis Raman rotasi N₂ mana yang paling kuat pada 77 K? ||| $J = 4$ (geseran 43
 
 ★ Dengan (15.17), hitung geseran komponen $M = 0 \to \pm1$ garis $J = 1 \leftarrow 0$ OCS dalam medan 1000 V/cm. ||| $21{,}31(\tfrac16 - \tfrac1{20}) = 2{,}49$ MHz
 
-## Subbab 15.5: Spektroskopi vibrasi IR
+## Subbab 15.5: Spektroskopi getaran IR
 
 **Dasar**
 
@@ -108,7 +108,7 @@ Dengan menganggap intensitas sebanding $\tilde\nu^4$ (cahaya terhambur), berapa 
 
 ★ Bila medan lokal pada celah partikel nano perak 30 kali medan laser, taksir faktor penguatan SERS. ||| $30^4 = 8 \times 10^5$
 
-## Subbab 15.7: Spektroskopi elektronik dan prinsip Franck–Condon
+## Subbab 15.7: Spektroskopi elektronik dan asas Franck–Condon
 
 **Dasar**
 

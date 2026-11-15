@@ -42,7 +42,7 @@
 11. Apa itu resonansi Fermi, dan bagaimana kamu mengenalinya dalam spektrum?
 12. Turunkan aturan larangan bersama dari paritas fungsi $x$, $y$, $z$ dan fungsi kuadrat.
 13. Mengapa garis anti-Stokes lebih lemah daripada garis Stokes, dan bagaimana perbedaannya dipakai sebagai termometer?
-14. Jelaskan prinsip Franck–Condon dan mengapa transisi elektronik digambarkan sebagai garis tegak.
+14. Jelaskan asas Franck–Condon dan mengapa transisi elektronik digambarkan sebagai garis tegak.
 15. Mengapa transisi yang terlarang simetri, seperti pita 254 nm benzena, tetap teramati?
 16. Nyatakan aturan Kasha dan jelaskan asal geseran Stokes. Mengapa azulena merupakan pengecualian?
 17. Mengapa fosforesensi jarang teramati dalam larutan cair pada suhu kamar?

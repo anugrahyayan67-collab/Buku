@@ -54,7 +54,7 @@ Mengapa keadaan tereksitasi $n \to \pi^*$ formaldehida berbentuk piramida? ||| �
 
 ★ SiH₂ mempunyai keadaan dasar singlet dengan sudut sekitar 92°, berbeda dengan CH₂. Jelaskan dengan diagram Walsh dan selisih energi $3s$–$3p$. ||| celah $s$–$p$ besar; $3a_1^2$ kaya $s$ stabil
 
-## Subbab 13.4: Pendekatan Hückel
+## Subbab 13.4: Metode Hückel
 
 **Dasar**
 

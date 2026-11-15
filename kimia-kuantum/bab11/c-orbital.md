@@ -33,7 +33,7 @@ $$
 E_\pm = \frac{\alpha \pm \beta}{1 \pm S} .
 $$
 
-Karena $\beta < 0$, $E_+$ di bawah $\alpha$ dan $E_-$ di atas $\alpha$. Dengan tumpang tindih, kenaikan orbital antiikatan lebih besar daripada penurunan orbital ikatan (Contoh 11.15). Jika $S$ diabaikan, kedua pergeseran sama besar, $\pm\beta$: inilah pendekatan Hückel (Bab 13), yang cukup baik untuk membandingkan molekul-molekul serupa.
+Karena $\beta < 0$, $E_+$ di bawah $\alpha$ dan $E_-$ di atas $\alpha$. Dengan tumpang tindih, kenaikan orbital antiikatan lebih besar daripada penurunan orbital ikatan (Contoh 11.15). Jika $S$ diabaikan, kedua pergeseran sama besar, $\pm\beta$: inilah metode Hückel (Bab 13), yang cukup baik untuk membandingkan molekul-molekul serupa.
 
 ::: {.inti}
 **Aturan pengisian orbital molekul**

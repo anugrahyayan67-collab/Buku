@@ -160,7 +160,7 @@ Susun diagram OM kualitatif CH₄ dari simetri dan tuliskan konfigurasi valensin
 
 ★ Buktikan bahwa jumlah semua energi (10.15) untuk cincin $N$ atom sama dengan $N\alpha$, dan jelaskan maknanya dengan teras matriks Hückel. ||| $\sum_k\cos(2\pi k/N) = 0$; teras matriks $= N\alpha$
 
-## Subbab 10.9: Mode vibrasi, aktivitas IR dan Raman
+## Subbab 10.9: Mode getaran, aktivitas IR dan Raman
 
 **Dasar**
 

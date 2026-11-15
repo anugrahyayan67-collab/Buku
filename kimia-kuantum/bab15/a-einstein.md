@@ -4,7 +4,7 @@ Di rasi Taurus, sekitar 450 tahun cahaya dari Bumi, terdapat awan gelap yang tid
 
 **Spektroskopi** adalah cara kimia mendengarkan molekul. Setiap molekul mempunyai tangga tingkat energi elektronik, getaran, dan rotasi yang menjadi sidik jarinya, dan setiap anak tangga dapat dipindahi dengan menyerap atau memancarkan foton yang energinya tepat. Bab-bab sebelumnya telah memberi kita tangga-tangga itu: rotor tegar (Bab 6), osilator harmonik dan anharmonik (Bab 5), atom hidrogen (Bab 7), orbital molekul (Bab 11–13), dan spektrum kompleks logam (Bab 14). Bab ini menjawab pertanyaan yang tersisa: **seberapa kuat** suatu transisi, **seberapa lebar** garisnya, **mengapa** sebagian transisi terlarang, dan bagaimana semua itu dipakai untuk mengukur struktur, dinamika, dan konsentrasi.
 
-Kita mulai dengan dasar yang sama untuk semua spektroskopi: koefisien Einstein, hukum Beer–Lambert, dan lebar garis. Lalu kita menaiki skala energi: rotasi lanjut, getaran inframerah dan Raman, transisi elektronik dengan prinsip Franck–Condon, pendaran, spektrum UV-tampak senyawa organik, laser, spektroskopi fotoelektron, dan akhirnya spektroskopi resolusi waktu yang memotret molekul ketika ikatannya sedang putus.
+Kita mulai dengan dasar yang sama untuk semua spektroskopi: koefisien Einstein, hukum Beer–Lambert, dan lebar garis. Lalu kita menaiki skala energi: rotasi lanjut, getaran inframerah dan Raman, transisi elektronik dengan asas Franck–Condon, pendaran, spektrum UV-tampak senyawa organik, laser, spektroskopi fotoelektron, dan akhirnya spektroskopi resolusi waktu yang memotret molekul ketika ikatannya sedang putus.
 
 ::: {.strategi}
 **Pertanyaan pembuka**

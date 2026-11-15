@@ -147,7 +147,7 @@ Untuk H₂, $B = 60{,}85$ cm⁻¹. (a) Hitung geseran garis S(0) dan S(1) menuru
 Mengapa CH₄ (rotor bola) tidak mempunyai spektrum gelombang mikro maupun spektrum Raman rotasi murni? Mengapa garis Raman rotasi CO₂ berjarak $8B$, bukan $4B$?
 :::
 
-## 15.5 Spektroskopi vibrasi IR
+## 15.5 Spektroskopi getaran IR
 
 ### Mode normal dan aktivitas IR
 

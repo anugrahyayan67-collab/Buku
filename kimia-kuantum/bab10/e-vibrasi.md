@@ -1,4 +1,4 @@
-## 10.9 Mode vibrasi, aktivitas IR dan Raman
+## 10.9 Mode getaran, aktivitas IR dan Raman
 
 ### Dari $3N$ koordinat ke mode normal
 

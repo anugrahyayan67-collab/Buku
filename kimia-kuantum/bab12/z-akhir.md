@@ -206,7 +206,7 @@ Gunakan $1\ \text{cm}^{-1} = 1{,}2398 \times 10^{-4}$ eV dan $1\ \text{eV} = 96{
 
 **49.** ★ Kerapatan elektron hibrida di inti karbon sebanding dengan $\alpha\lvert\psi_{2s}(0)\rvert^2$. Hitung perbandingan kerapatan di inti untuk hibrida sp dan sp² terhadap sp³, dan jelaskan mengapa $^1J$ sebanding dengan $\alpha$.
 
-## Subbab 12.8: Orbital d dan hipervalensi: PCl₅, SF₆, ikatan 3-pusat 4-elektron
+## Subbab 12.8: Orbital d dan hipervalensi: PCl₅, SF₆, ikatan tiga pusat empat elektron
 
 **Dasar**
 
@@ -228,7 +228,7 @@ Gunakan $1\ \text{cm}^{-1} = 1{,}2398 \times 10^{-4}$ eV dan $1\ \text{eV} = 96{
 
 **56.** ★ Bila SF₆ dilukiskan dengan tiga sistem 3c-4e saja (tanpa $3s$), berapa orde setiap ikatan dan muatan setiap F? Bandingkan dengan perhitungan orbital molekul.
 
-## Subbab 12.9: Ikatan 3-pusat 2-elektron: diborana
+## Subbab 12.9: Ikatan tiga pusat dua elektron: diborana
 
 **Dasar**
 

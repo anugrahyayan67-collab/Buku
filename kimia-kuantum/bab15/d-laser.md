@@ -147,7 +147,7 @@ Energi ionisasi vertikal H₂O: 12,62 eV ($1b_1$), 14,74 eV ($3a_1$), 18,55 eV (
 
 ### Struktur getaran dan sifat ikatan orbital
 
-Ionisasi juga merupakan transisi elektronik, sehingga prinsip Franck–Condon berlaku. Struktur getaran setiap pita mengungkap **sifat ikatan** orbital yang dikosongkan:
+Ionisasi juga merupakan transisi elektronik, sehingga asas Franck–Condon berlaku. Struktur getaran setiap pita mengungkap **sifat ikatan** orbital yang dikosongkan:
 
 - Elektron dari orbital **tak berikatan**: geometri ion hampir sama dengan molekul netral. Pita tajam, didominasi komponen 0–0, dan frekuensi getaran ion hampir sama dengan molekul netral.
 - Elektron dari orbital **ikatan**: ikatan ion lebih lemah dan lebih panjang. Pita lebar dengan progresi getaran panjang, dan frekuensi getaran ion lebih rendah.

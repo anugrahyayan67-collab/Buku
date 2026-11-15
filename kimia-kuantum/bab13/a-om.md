@@ -292,7 +292,7 @@ Asetilena (HCCH) linear dalam keadaan dasar. Pada eksitasi $\pi \to \pi^*$ perta
 
 **Penyelesaian.** Dengan satu elektron di π* yang distabilkan oleh lengkungan trans, keadaan tereksitasi pertama asetilena **bengkok trans** (teramati: sudut C–C–H sekitar 120°). Pada formaldehida, eksitasi $n \to \pi^*$ menaruh elektron di π* C=O, yang distabilkan bila atom C menjadi piramida (orbital π* mengambil karakter $s$); keadaan tereksitasi formaldehida memang piramidal.
 
-**Memahami hasil.** Perubahan bentuk saat eksitasi menyebabkan deret getaran panjang dalam spektrum elektronik (prinsip Franck–Condon, subbab 15.7). Spektrum UV asetilena sekitar 240 nm menunjukkan deret panjang getaran tekuk, yang ditafsirkan tepat seperti ramalan Walsh. Diagram Walsh adalah salah satu alat paling awal yang menghubungkan spektroskopi elektronik dengan geometri molekul.
+**Memahami hasil.** Perubahan bentuk saat eksitasi menyebabkan deret getaran panjang dalam spektrum elektronik (asas Franck–Condon, subbab 15.7). Spektrum UV asetilena sekitar 240 nm menunjukkan deret panjang getaran tekuk, yang ditafsirkan tepat seperti ramalan Walsh. Diagram Walsh adalah salah satu alat paling awal yang menghubungkan spektroskopi elektronik dengan geometri molekul.
 :::
 
 ::: {.contoh}

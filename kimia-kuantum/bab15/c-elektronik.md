@@ -1,8 +1,8 @@
-## 15.7 Spektroskopi elektronik dan prinsip Franck–Condon
+## 15.7 Spektroskopi elektronik dan asas Franck–Condon
 
 ### Struktur getaran pita elektronik
 
-Transisi elektronik molekul menyerap di daerah tampak dan ultraviolet. Dalam fase gas, pita elektronik molekul kecil tampak sebagai **deretan** puncak, masing-masing transisi ke tingkat getaran yang berbeda dalam keadaan elektronik atas, dan setiap puncak itu sendiri terdiri atas garis-garis rotasi. Pertanyaan utama subbab ini adalah: transisi getaran mana yang kuat dan mana yang lemah? Jawabannya, **prinsip Franck–Condon**, adalah salah satu gagasan paling berguna dalam seluruh spektroskopi molekul.
+Transisi elektronik molekul menyerap di daerah tampak dan ultraviolet. Dalam fase gas, pita elektronik molekul kecil tampak sebagai **deretan** puncak, masing-masing transisi ke tingkat getaran yang berbeda dalam keadaan elektronik atas, dan setiap puncak itu sendiri terdiri atas garis-garis rotasi. Pertanyaan utama subbab ini adalah: transisi getaran mana yang kuat dan mana yang lemah? Jawabannya, **asas Franck–Condon**, adalah salah satu gagasan paling berguna dalam seluruh spektroskopi molekul.
 
 ### Pemisahan momen dipol transisi
 
@@ -21,7 +21,7 @@ $$
 Besaran $|\langle v'|v''\rangle|^2$ disebut **faktor Franck–Condon**. Karena fungsi getaran $\chi_{v'}$ untuk satu keadaan elektronik membentuk himpunan lengkap, jumlah faktor Franck–Condon atas semua $v'$ (termasuk kontinuum di atas batas disosiasi) sama dengan 1: intensitas total pita ditentukan oleh $|\boldsymbol\mu_\text{el}|^2$, dan faktor Franck–Condon hanya **membagi** intensitas itu di antara puncak-puncak getaran.
 
 ::: {.inti}
-**Prinsip Franck–Condon**
+**Asas Franck–Condon**
 
 Transisi elektronik berlangsung sangat cepat (sekitar $10^{-15}$ s) dibanding gerak inti (sekitar $10^{-13}$ s), sehingga inti praktis diam selama transisi: transisi digambarkan sebagai garis **tegak** pada diagram energi potensial. Intensitas setiap komponen getaran sebanding dengan faktor Franck–Condon $|\langle v'|v''\rangle|^2$, yaitu kuadrat tumpang tindih fungsi getaran awal dan akhir. Komponen terkuat adalah yang fungsi getaran atasnya bertumpang tindih paling banyak dengan fungsi getaran awal di daerah geometri awal.
 :::
@@ -58,7 +58,7 @@ Hitung faktor Franck–Condon $v' = 0$ sampai 6 untuk $S = 2{,}0$. Komponen mana
 **Memahami hasil.** Komponen $v' = 1$ dan 2 sama kuat dan menjadi puncak. Komponen 0–0 hanya 13,5% dari total. Spektrum serapan seperti ini, dengan puncak-puncak berjarak $\tilde\nu'$ (frekuensi keadaan atas) dan selubung yang naik lalu turun, khas untuk transisi yang mengubah panjang ikatan sedang, misalnya transisi π→π* yang memperpanjang ikatan C=C sekitar 5–10 pm. Mengukur perbandingan intensitas puncak memberi $S$, dan dari $S$ diperoleh besar perubahan geometri, keterangan yang sulit diperoleh dengan cara lain untuk keadaan tereksitasi yang berumur nanodetik.
 :::
 
-![Gambar 15.5 Prinsip Franck–Condon. (a) Kurva energi potensial keadaan dasar X dan keadaan tereksitasi B molekul I₂ (model Morse); panah tegak dari $v'' = 0$ jatuh di daerah $v' \approx 30$. (b) Faktor Franck–Condon yang dihitung untuk model Morse (batang biru) dan untuk model harmonik (batang jingga): anharmonisitas menggeser puncak ke $v'$ yang lebih tinggi.](fig/c_franck.png){width=94%}
+![Gambar 15.5 Asas Franck–Condon. (a) Kurva energi potensial keadaan dasar X dan keadaan tereksitasi B molekul I₂ (model Morse); panah tegak dari $v'' = 0$ jatuh di daerah $v' \approx 30$. (b) Faktor Franck–Condon yang dihitung untuk model Morse (batang biru) dan untuk model harmonik (batang jingga): anharmonisitas menggeser puncak ke $v'$ yang lebih tinggi.](fig/c_franck.png){width=94%}
 
 ::: {.contoh}
 **Contoh 15.29 · Mengapa uap iodin ungu**

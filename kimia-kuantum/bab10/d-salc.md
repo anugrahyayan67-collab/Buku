@@ -214,7 +214,7 @@ $$
 \phi_k = \frac{1}{\sqrt N}\sum_{j=0}^{N-1} e^{2\pi ijk/N}\,p_j . \qquad \text{(10.14)}
 $$
 
-Karena setiap $\phi_k$ adalah satu-satunya fungsi dengan irrep $k$, ia langsung menjadi OM, tanpa diagonalisasi apa pun. Energinya, dalam pendekatan Hückel (unsur diagonal $\alpha$, unsur antaratom bertetangga $\beta$, lainnya nol; Bab 13):
+Karena setiap $\phi_k$ adalah satu-satunya fungsi dengan irrep $k$, ia langsung menjadi OM, tanpa diagonalisasi apa pun. Energinya, dalam metode Hückel (unsur diagonal $\alpha$, unsur antaratom bertetangga $\beta$, lainnya nol; Bab 13):
 
 $$
 E_k = \langle\phi_k|\hat H|\phi_k\rangle = \frac1N\sum_{j,l}e^{2\pi i(l - j)k/N}H_{jl} = \alpha + \beta\left(e^{2\pi ik/N} + e^{-2\pi ik/N}\right) = \alpha + 2\beta\cos\frac{2\pi k}{N} . \qquad \text{(10.15)}

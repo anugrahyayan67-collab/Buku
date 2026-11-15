@@ -1,4 +1,4 @@
-## 12.8 Orbital d dan hipervalensi: PCl₅, SF₆, ikatan 3-pusat 4-elektron
+## 12.8 Orbital d dan hipervalensi: PCl₅, SF₆, ikatan tiga pusat empat elektron
 
 ### Molekul yang melampaui oktet
 
@@ -142,7 +142,7 @@ Orbital nonikatan tetap $(\phi_{\text{F}_1} - \phi_{\text{F}_2})/\sqrt2$ dengan 
 Berapa banyak sistem 3c-4e pada IF₅ (piramida bujur sangkar)? Mengapa NF₅ tidak ada walaupun PF₅ ada?
 :::
 
-## 12.9 Ikatan 3-pusat 2-elektron: diborana
+## 12.9 Ikatan tiga pusat dua elektron: diborana
 
 ### Molekul yang "kekurangan" elektron
 

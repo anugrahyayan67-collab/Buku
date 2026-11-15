@@ -260,7 +260,7 @@ Tabel karakter yang diperlukan ada di subbab 10.5. Soal dikelompokkan menurut ti
 
 **72.** ★ Buktikan bahwa jumlah semua energi (10.15) untuk cincin $N$ atom sama dengan $N\alpha$, dan jelaskan maknanya dengan teras matriks Hückel.
 
-## Subbab 10.9: Mode vibrasi, aktivitas IR dan Raman
+## Subbab 10.9: Mode getaran, aktivitas IR dan Raman
 
 **Dasar**
 

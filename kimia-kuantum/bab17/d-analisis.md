@@ -170,7 +170,7 @@ Untuk CH₄/STO-3G, orbital kanonik valensi adalah satu $2a_1$ ($-0{,}910\ E_h$)
 Bila orbital terisi diganti dengan orbital terlokalisasi, apa yang terjadi pada energi total, momen dipol, dan energi orbital? Mengapa metode korelasi lokal dapat mengabaikan pasangan LMO yang berjauhan?
 :::
 
-## 17.9 Optimasi geometri, frekuensi vibrasi, sifat termodinamika
+## 17.9 Optimasi geometri, frekuensi getaran, sifat termodinamika
 
 ### Mencari minimum
 

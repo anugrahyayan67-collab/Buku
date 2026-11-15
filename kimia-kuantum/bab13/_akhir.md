@@ -28,7 +28,7 @@
 4. Apa yang diukur oleh spektrum fotoelektron, dan bagaimana kaitannya dengan energi orbital (teorema Koopmans)?
 5. Jelaskan dengan diagram Walsh mengapa BeH₂ linear dan H₂O bengkok.
 6. Mengapa jumlah energi orbital adalah ukuran yang kasar untuk energi total, dan apa akibatnya bagi ramalan sudut ikatan?
-7. Sebutkan empat pendekatan Hückel. Mengapa model ini hanya bergantung pada topologi molekul?
+7. Sebutkan empat metode Hückel. Mengapa model ini hanya bergantung pada topologi molekul?
 8. Mengapa nilai $\beta$ yang "tepat" berbeda untuk termokimia, spektroskopi UV, dan energi ionisasi?
 9. Mengapa kation, radikal, dan anion alil sama-sama distabilkan oleh delokalisasi?
 10. Mengapa poliena yang lebih panjang menyerap pada panjang gelombang yang lebih panjang? Mengapa celahnya tidak menuju nol untuk rantai sangat panjang?

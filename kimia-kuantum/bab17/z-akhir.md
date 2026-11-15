@@ -205,7 +205,7 @@ Satuan atom dipakai kecuali disebut lain; 1 $E_h$ = 2625,50 kJ/mol = 627,51 kkal
 
 **41.** ★ Dengan $\psi_\pm = (\psi_{3a_1} \pm \psi_{1b_1})/\sqrt2$ sebagai hampiran pasangan bebas H₂O/STO-3G ($\varepsilon_{3a_1} = -0{,}4530$; $\varepsilon_{1b_1} = -0{,}3912$), hitung unsur diagonal dan kopling matriks Fock keduanya.
 
-## Subbab 17.9: Optimasi geometri dan frekuensi vibrasi
+## Subbab 17.9: Optimasi geometri dan frekuensi getaran
 
 **Dasar**
 

@@ -113,7 +113,7 @@ Untuk B, C, dan N, celahnya kecil, pencampurannya kuat, dan $\sigma_g2p$ (yang k
 
 ### Bukti dari spektrum fotoelektron
 
-Spektrum fotoelektron N₂ (subbab 1.4) memperlihatkan tiga pita valensi: 15,58, 16,69, dan 18,75 eV. Bila urutan (11.18) berlaku, pita terendah mestinya berasal dari $1\pi_u$ dan berdegenerasi dua. Kenyataannya, pita 15,58 eV sempit dengan sedikit struktur getaran, sedangkan pita 16,69 eV mempunyai deret getaran panjang berjarak sekitar 0,24 eV. Pita yang lebar menandai elektron yang sangat mengikat: melepasnya mengubah panjang ikatan banyak, sehingga banyak tingkat getaran ion tereksitasi (prinsip Franck–Condon, subbab 15.7). Jadi pita 16,69 eV adalah $1\pi_u$ yang mengikat kuat, dan HOMO 15,58 eV adalah $3\sigma_g$ yang hanya sedikit mengikat. Untuk O₂, sebaliknya, pita $3\sigma_g$ berada di bawah pita $1\pi_u$.
+Spektrum fotoelektron N₂ (subbab 1.4) memperlihatkan tiga pita valensi: 15,58, 16,69, dan 18,75 eV. Bila urutan (11.18) berlaku, pita terendah mestinya berasal dari $1\pi_u$ dan berdegenerasi dua. Kenyataannya, pita 15,58 eV sempit dengan sedikit struktur getaran, sedangkan pita 16,69 eV mempunyai deret getaran panjang berjarak sekitar 0,24 eV. Pita yang lebar menandai elektron yang sangat mengikat: melepasnya mengubah panjang ikatan banyak, sehingga banyak tingkat getaran ion tereksitasi (asas Franck–Condon, subbab 15.7). Jadi pita 16,69 eV adalah $1\pi_u$ yang mengikat kuat, dan HOMO 15,58 eV adalah $3\sigma_g$ yang hanya sedikit mengikat. Untuk O₂, sebaliknya, pita $3\sigma_g$ berada di bawah pita $1\pi_u$.
 
 ::: {.contoh}
 **Contoh 11.35 · Model 2 × 2 untuk pencampuran**
