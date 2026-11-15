@@ -19,19 +19,21 @@ def latar(nama, cx, cy, sk, redup=1.0, w=8.27, h=11.69):
     for rr, al in [(2.2, .35), (3.4, .18)]:
         for k2, a2 in [(6, .05), (2.5, .2), (1, 1)]: ax.plot(cx + rr * np.cos(t), cy + rr * np.sin(t), color='#f2c25b', lw=0.8 * k2, alpha=al * a2 * redup)
     ax.set_xlim(0, w); ax.set_ylim(0, h); f.savefig(f'{K}/{nama}', transparent=True); plt.close(f)
-f = plt.figure(figsize=(6.7, 6.2), dpi=220); ax = f.add_axes([0, 0, 1, 1]); ax.axis('off'); ax.set_xlim(-5.4, 5.4); ax.set_ylim(-5.0, 5.0)
-Y, X = np.mgrid[-5:5:400j, -5.4:5.4:430j]; Ex = 0 * X; Ey = 0 * X
-Q = [(-1.9, 0.0, 1), (1.9, 0.0, -1)]
-for x0, y0, q in Q:
-    r3 = ((X - x0) ** 2 + (Y - y0) ** 2 + 0.03) ** 1.5; Ex += q * (X - x0) / r3; Ey += q * (Y - y0) / r3
-ang = np.linspace(0, 2 * np.pi, 22, endpoint=False)
-seeds = np.c_[-1.9 + 0.35 * np.cos(ang), 0.35 * np.sin(ang)]
-for lw, al in [(4.0, .07), (2.0, .18), (0.9, 1)]:
-    ax.streamplot(X, Y, Ex, Ey, color=matplotlib.colors.to_rgba('#7fc0f0', al), linewidth=lw, start_points=seeds, arrowsize=0, broken_streamlines=False, integration_direction='forward')
-    ax.streamplot(X, Y, Ex, Ey, color=matplotlib.colors.to_rgba('#7fc0f0', al), linewidth=lw, start_points=seeds * [-1, 1], arrowsize=0, broken_streamlines=False, integration_direction='backward')
-for x0, y0, q in Q:
-    c = '#f0a060' if q > 0 else '#7fc0f0'
-    for k, a2 in [(14, .05), (6, .15), (2.5, .5), (1, 1)]: ax.scatter(x0, y0, s=160 * k, color=c, alpha=a2, lw=0)
+f = plt.figure(figsize=(6.7, 6.2), dpi=240); ax = f.add_axes([0, 0, 1, 1]); ax.axis('off'); ax.set_xlim(-5.4, 5.4); ax.set_ylim(-5.0, 5.0)
+def neon(x, y, c, lw=1.0):
+    for k, a2 in [(8, .04), (4.5, .09), (2.2, .25), (1, 1)]: ax.plot(x, y, color=c, lw=lw * k, alpha=a2, solid_capstyle='round')
+def bintik(x, y, c, s):
+    for k in np.geomspace(16, 1.6, 22): ax.scatter(x, y, s=s * k, color=c, alpha=0.035, lw=0, zorder=5)
+    ax.scatter(x, y, s=s, color=c, alpha=1, lw=0, zorder=6)
+rng = np.random.default_rng(11); bx, by = rng.uniform(-5.4, 5.4, 160), rng.uniform(-5, 5, 160)
+ax.scatter(bx, by, s=rng.uniform(0.5, 3, 160), color='#cfe6ff', alpha=0.55, lw=0)
+th = np.linspace(0, 2 * np.pi, 600); sx, sy = -0.6, 0.0
+orbit = [(1.15, .08, '#7fc0f0', 0.7), (1.85, .10, '#3d8fd6', 2.1), (2.8, .14, '#7fc0f0', 3.6), (3.9, .20, '#f0a060', 5.0)]
+for a_, e, c, ph in orbit:
+    b_ = a_ * np.sqrt(1 - e * e); cx = sx + a_ * e
+    neon(cx + a_ * np.cos(th), sy + b_ * np.sin(th), c, 0.8)
+    bintik(cx + a_ * np.cos(ph), sy + b_ * np.sin(ph), '#eaf4ff', 14)
+bintik(sx, sy, '#ffd27a', 120)
 f.savefig(f'{K}/sampul-latar.png', transparent=True); plt.close(f)
 daftar = ''.join(f'<li><b>{n}</b>{t}</li>' for n, t in JUDUL)
 open(f'{K}/sampul.html', 'w').write(f'''<!doctype html><html><head><meta charset="utf-8"><style>
@@ -43,7 +45,7 @@ open(f'{K}/sampul.html', 'w').write(f'''<!doctype html><html><head><meta charset
 .jd{{position:absolute;top:34mm;left:20mm;font-size:84pt;font-weight:900;line-height:.88;letter-spacing:-1px;color:#0e2748}}
 .jd span{{color:#1b75bc}}
 .sb{{position:absolute;top:92mm;left:22mm;width:130mm;font-size:13pt;line-height:1.45;color:#4a5668;border-top:.6mm solid #f0a060;padding-top:4mm}}
-.panel{{position:absolute;left:22mm;right:18mm;top:118mm;bottom:22mm;background:radial-gradient(ellipse at 50% 60%,#1d4f86 0%,#123764 55%,#0a2140 100%)}}
+.panel{{position:absolute;left:22mm;right:18mm;top:118mm;bottom:22mm;background:radial-gradient(ellipse at 50% 60%,#163e6e 0%,#0e2748 45%,#081a31 80%,#06142a 100%)}}
 .panel img{{position:absolute;left:4%;top:5%;width:92%;height:90%;object-fit:contain}}
 .ln{{position:absolute;bottom:22mm;left:22mm;width:40mm;height:.7mm;background:#f0a060}}
 .pers{{position:absolute;right:6mm;bottom:4mm;font-family:Caladea,serif;font-style:italic;font-size:13pt;color:rgba(221,214,250,.85)}}
