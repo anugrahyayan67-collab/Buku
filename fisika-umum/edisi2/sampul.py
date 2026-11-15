@@ -25,15 +25,15 @@ def neon(x, y, c, lw=1.0):
 def bintik(x, y, c, s):
     for k in np.geomspace(16, 1.6, 22): ax.scatter(x, y, s=s * k, color=c, alpha=0.035, lw=0, zorder=5)
     ax.scatter(x, y, s=s, color=c, alpha=1, lw=0, zorder=6)
-rng = np.random.default_rng(11); bx, by = rng.uniform(-5.4, 5.4, 160), rng.uniform(-5, 5, 160)
-ax.scatter(bx, by, s=rng.uniform(0.5, 3, 160), color='#cfe6ff', alpha=0.55, lw=0)
-th = np.linspace(0, 2 * np.pi, 600); sx, sy = -0.6, 0.0
-orbit = [(1.15, .08, '#7fc0f0', 0.7), (1.85, .10, '#3d8fd6', 2.1), (2.8, .14, '#7fc0f0', 3.6), (3.9, .20, '#f0a060', 5.0)]
-for a_, e, c, ph in orbit:
-    b_ = a_ * np.sqrt(1 - e * e); cx = sx + a_ * e
-    neon(cx + a_ * np.cos(th), sy + b_ * np.sin(th), c, 0.8)
-    bintik(cx + a_ * np.cos(ph), sy + b_ * np.sin(ph), '#eaf4ff', 14)
-bintik(sx, sy, '#ffd27a', 120)
+Y, X = np.mgrid[-5:5:400j, -5.4:5.4:430j]; Ex = 0 * X; Ey = 0 * X
+Q = [(-1.9, 1), (1.9, -1)]
+for x0, q in Q:
+    r3 = ((X - x0) ** 2 + Y ** 2 + 0.03) ** 1.5; Ex += q * (X - x0) / r3; Ey += q * Y / r3
+ang = np.linspace(0, 2 * np.pi, 22, endpoint=False); seeds = np.c_[-1.9 + 0.35 * np.cos(ang), 0.35 * np.sin(ang)]
+for lw, al in [(4.0, .06), (2.0, .16), (0.9, 1)]:
+    ax.streamplot(X, Y, Ex, Ey, color=matplotlib.colors.to_rgba('#7fc0f0', al), linewidth=lw, start_points=seeds, arrowsize=0, broken_streamlines=False, integration_direction='forward')
+    ax.streamplot(X, Y, Ex, Ey, color=matplotlib.colors.to_rgba('#7fc0f0', al), linewidth=lw, start_points=seeds * [-1, 1], arrowsize=0, broken_streamlines=False, integration_direction='backward')
+bintik(-1.9, 0, '#f0a060', 90); bintik(1.9, 0, '#9fd2ff', 90)
 f.savefig(f'{K}/sampul-latar.png', transparent=True); plt.close(f)
 daftar = ''.join(f'<li><b>{n}</b>{t}</li>' for n, t in JUDUL)
 open(f'{K}/sampul.html', 'w').write(f'''<!doctype html><html><head><meta charset="utf-8"><style>
