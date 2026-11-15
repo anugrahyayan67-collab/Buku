@@ -19,18 +19,21 @@ def latar(nama, cx, cy, sk, redup=1.0, w=8.27, h=11.69):
     for rr, al in [(2.2, .35), (3.4, .18)]:
         for k2, a2 in [(6, .05), (2.5, .2), (1, 1)]: ax.plot(cx + rr * np.cos(t), cy + rr * np.sin(t), color='#f2c25b', lw=0.8 * k2, alpha=al * a2 * redup)
     ax.set_xlim(0, w); ax.set_ylim(0, h); f.savefig(f'{K}/{nama}', transparent=True); plt.close(f)
-from numpy.polynomial import hermite as Hm
-f = plt.figure(figsize=(6.7, 6.2), dpi=220); ax = f.add_axes([0, 0, 1, 1]); ax.axis('off'); ax.set_xlim(-5.2, 5.2); ax.set_ylim(-0.6, 9.0)
-def neon(x, y, c, lw=2.0):
-    for k, a2 in [(10, .04), (5.5, .09), (2.6, .25), (1, 1)]: ax.plot(x, y, color=c, lw=lw * k, alpha=a2, solid_capstyle='round')
-x = np.linspace(-4.6, 4.6, 900)
-neon(x, 0.42 * x ** 2, '#e9e4ff', 1.6)
-pal = ['#5ce1e6', '#9d8cf0', '#f2c25b', '#5ce1e6', '#9d8cf0', '#f2c25b', '#5ce1e6', '#9d8cf0']
-for n in range(8):
-    E = 0.84 * (n + 0.5); xt = np.sqrt(E / 0.42); xs = np.linspace(-xt, xt, 2)
-    ax.plot(xs, [E, E], color='#cfc8f5', lw=0.8, alpha=0.45)
-    c = np.zeros(n + 1); c[n] = 1; z = x / 1.05; psi = Hm.hermval(z, c) * np.exp(-z ** 2 / 2); psi /= abs(psi).max()
-    m = np.abs(x) < xt + 1.6; neon(x[m], E + 0.36 * psi[m], pal[n], 1.3)
+f = plt.figure(figsize=(6.7, 6.2), dpi=220); ax = f.add_axes([0, 0, 1, 1]); ax.axis('off'); ax.set_xlim(-5.4, 5.4); ax.set_ylim(-5.0, 5.0)
+def neon(x, y, c, lw=1.0, al=1.0):
+    for k, a2 in [(9, .04), (5, .09), (2.4, .25), (1, 1)]: ax.plot(x, y, color=c, lw=lw * k, alpha=a2 * al, solid_capstyle='round')
+def hexa(cx, cy, r): t = np.arange(7) * np.pi / 3; return cx + r * np.cos(t), cy + r * np.sin(t)
+for i in range(-7, 8):
+    for j in range(-6, 7):
+        cx = i * 1.5; cy = j * np.sqrt(3) + (i % 2) * np.sqrt(3) / 2; d = np.hypot(cx, cy)
+        if d > 7: continue
+        w = max(0.0, 1 - d / 7.2)
+        c = '#5ce1e6' if d < 0.5 else ('#9d8cf0' if d < 3.6 else '#6b5fd0')
+        x, y = hexa(cx, cy, 1.0); neon(x, y, c, 0.55 + 0.9 * w, 0.25 + 0.75 * w)
+for t in np.arange(6) * np.pi / 3:
+    x, y = np.cos(t), np.sin(t)
+    for k, a2 in [(10, .05), (4, .15), (1, 1)]: ax.scatter(x, y, s=22 * k, color='#f2c25b', alpha=a2, lw=0)
+tt = np.linspace(0, 2 * np.pi, 200); neon(0.55 * np.cos(tt), 0.55 * np.sin(tt), '#f2c25b', 0.9)
 f.savefig(f'{K}/sampul-latar.png', transparent=True); plt.close(f)
 daftar = ''.join(f'<li><b>{n}</b>{t}</li>' for n, t in JUDUL)
 open(f'{K}/sampul.html', 'w').write(f'''<!doctype html><html><head><meta charset="utf-8"><style>
@@ -57,7 +60,7 @@ open(f'{K}/sampul.html', 'w').write(f'''<!doctype html><html><head><meta charset
 <div class="pg"><div class="bar"></div><div class="ed">EDISI PERTAMA</div><div class="pen">SEPTIAN ANUGRAH DWI PUTRA</div>
 <div class="jd">KIMIA<br><span>KUANTUM</span></div>
 <div class="sb">dari persamaan Schrödinger sampai kimia komputasi</div>
-<div class="panel"><img src="sampul-latar.png"><div class="pers">Ĥψ = Eψ</div></div></div>
+<div class="panel"><img src="sampul-latar.png"></div></div>
 <div class="pg blk"><div class="bar"></div><div class="isi"><h2>Mengapa atom <span>membentuk molekul?</span></h2>
 <p>Buku ini menjawab pertanyaan-pertanyaan terdalam kimia dengan mekanika kuantum: mengapa metana tetrahedral, mengapa O₂ paramagnetik, mengapa benzena luar biasa mantap, mengapa larutan kompleks berwarna, dan bagaimana komputer meramalkan struktur molekul.</p>
 <p>Setiap hasil diturunkan langkah demi langkah dan langsung dikaitkan dengan kimia: spektroskopi, ikatan, reaktivitas, sifat periodik. Setiap gagasan diikuti contoh soal yang diselesaikan dan diperiksa kewajarannya, dan sejak bab-bab awal pembaca diajak menghitung sendiri dengan Python.</p>
