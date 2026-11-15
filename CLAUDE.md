@@ -23,7 +23,7 @@ ln -sfn /home/user/buku/fisika-umum ~/fisika-umum
 pip install reportlab pypdf matplotlib 2>/dev/null   # bila belum ada; pandoc dan Playwright sudah terpasang
 ```
 - Bangun satu bab: `cd fisika-umum && ./build.sh babNN "Bab N"`
-- Cetak buku utuh (versi digital, tanpa halaman kosong): `python3 fisika-umum/edisi2/cetak.py` (`--lewati-bab` bila isi bab tidak berubah, `--cetak` untuk versi cetak bolak-balik).
+- Cetak buku utuh (versi digital, tanpa halaman kosong; gaya sama dengan Kimia Kuantum: edisi2/fu.css, pembuka2.py, sampul.py): `python3 fisika-umum/edisi2/cetak.py` (`--lewati-bab` bila isi bab tidak berubah, `--cetak` untuk versi cetak bolak-balik).
 - Catatan teknis lengkap: `fisika-umum/CATATAN.md`.
 
 ## Kimia Kuantum

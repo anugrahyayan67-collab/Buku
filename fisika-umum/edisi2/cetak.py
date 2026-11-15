@@ -3,7 +3,7 @@
 # Pakai: python3 edisi2/cetak.py [--lewati-bab]   (--lewati-bab: pakai PDF bab hasil render sebelumnya)
 import re, os, sys, glob, json, subprocess, html
 from pypdf import PdfReader, PdfWriter
-R = os.path.expanduser('~/fisika-umum'); E = f'{R}/edisi2'; K = f'{E}/_kerja'
+E = os.path.dirname(os.path.abspath(__file__)); R = os.path.dirname(E); K = f'{E}/_kerja'
 os.makedirs(K, exist_ok=True)
 LEWATI = '--lewati-bab' in sys.argv
 BAB = sorted(int(d[-2:]) for d in glob.glob(f'{R}/bab[0-9][0-9]'))
@@ -17,6 +17,8 @@ def md2html(md, out, css):
     cmd = ['pandoc', src, '-s', '--mathml', '--metadata', 'pagetitle=Fisika Umum', '-o', out] + sum([['-c', c] for c in css], [])
     subprocess.run(cmd, check=True, cwd=os.path.dirname(out), stderr=subprocess.DEVNULL)
     s = koma(open(out).read()); open(out, 'w').write(s)
+    s = open(out).read().replace('<h1\n', '<h1 ').replace('<h2\n', '<h2 ').replace('<h3\n', '<h3 ')
+    s = re.sub(r'(<h[1-3][^>]*>)(.*?)(</h[1-3]>)', lambda m: m.group(1) + m.group(2).replace('\n', ' ') + m.group(3), s, flags=re.S); open(out, 'w').write(s)
     subprocess.run(['python3', f'{R}/gaya.py', out], check=True)
     s = open(out).read()
     s = re.sub(r'<h1 id="[^"]*" class="lampiran">Lampiran (\w) (.*?)</h1>',
@@ -28,12 +30,19 @@ def md2html(md, out, css):
     open(out, 'w').write(s)
 def pembuka(n, out):
     s = open(out).read(); P = f'{E}/_kerja/pembuka'
-    orb, sub = open(f'{P}/orb{n:02d}.txt').read().split('|')
-    bag = 'Mekanika, fluida, dan osilasi' if n <= 8 else 'Gelombang, kalor, listrik-magnet, dan fisika modern'
+    cap = open(f'{P}/f{n:02d}.txt').read().strip()
+    bag = 'Bagian I · Mekanika, fluida, dan osilasi' if n <= 8 else 'Bagian II · Gelombang, kalor, listrik-magnet, dan fisika modern'
+    subs = [m for f_ in sorted(glob.glob(f'{R}/bab{n:02d}/[ab]-*.md')) for m in re.findall(r'^## (\d+\.\d+) (.*)$', open(f_).read(), re.M)]
+    garis = ''.join(f'<li><b>{k}</b>{html.escape(re.sub(r"[$*]", "", t))}</li>' for k, t in subs)
+    outline = f'<div class="outline"><div class="oh">Isi bab</div><ul>{garis}</ul></div>'
     def ganti(m):
-        return (f'<section class="pembuka"><img class="orb" src="file://{P}/orb{n:02d}.png"><div class="bag">{bag}</div><div class="kb">BAB</div>'
-                f'<div class="nb">{n}</div><h1{m.group(1)}>{m.group(2)}</h1><div class="cap">Latar: awan elektron orbital {orb}<sub>{sub}</sub> atom hidrogen</div></section>')
+        return (f'<section class="pembuka"><img class="orb" src="file://{P}/f{n:02d}.png"><div class="bag">{bag}</div><div class="kb">BAB</div>'
+                f'<div class="nb">{n}</div><h1{m.group(1)}>{m.group(2)}</h1><div class="cap">{cap}</div>{outline}</section>')
     s = re.sub(r'<h1( id="[^"]*") class="bab"><span class="pita">.*?</span></span><span class="judul">(.*?)</span></h1>', ganti, s, count=1, flags=re.S)
+    m1 = re.search(r'<h1 id="[^"]*" class="pita1">Soal</h1>', s); m2 = re.search(r'<h1 id="[^"]*" class="pita1">Jawaban</h1>', s)
+    if m1 and m2:
+        blok = re.sub(r'<p>(<strong>\d+\.</strong>)', r'<p class="si">\1', s[m1.end():m2.start()])
+        s = s[:m1.end()] + '<div class="soal2">' + blok + '</div>' + s[m2.start():]
     balik = f'https://hal/d/{n}'
     s = re.sub(r'(<h2 id="[^"]*" class="sub">)(.*?)</h2>', lambda m: f'{m.group(1)}<a class="tl" href="{balik}">{m.group(2)}</a></h2>', s, flags=re.S)
     s = re.sub(r'(<h1 id="[^"]*" class="pita1">)(.*?)</h1>', lambda m: f'{m.group(1)}<a class="tl" href="{balik}">{m.group(2)}</a></h1>', s, flags=re.S)
@@ -42,7 +51,7 @@ def pembuka(n, out):
 def render(jobs):
     p = f'{K}/jobs.json'; json.dump(jobs, open(p, 'w'))
     subprocess.run(['node', f'{E}/render.cjs', p], check=True, cwd=R)
-CSS_BAB = ['../buku.css', '../edisi2/buku2.css', '../edisi2/buku3.css', '../edisi2/pembuka.css']; CSS_E = ['../../buku.css', '../buku2.css', '../buku3.css']
+CSS_BAB = ['../buku.css', '../edisi2/buku2.css', '../edisi2/buku3.css', '../edisi2/pembuka.css', '../edisi2/fu.css']; CSS_E = ['../../buku.css', '../buku2.css', '../buku3.css', '../fu.css']
 
 # ---------- 1. bab-bab dan lampiran
 jobs = []
@@ -68,7 +77,7 @@ def cari(n, s, mulai=0, akhir=None):
     return None
 SUB = {}; AKHIR = {}
 for n in BAB:
-    subs = []; last = 0
+    subs = []; last = 1
     for f in sorted(glob.glob(f'{R}/bab{n:02d}/[a-z]-*.md')):
         for m in re.finditer(r'^## (\d+\.\d+) (.*)$', open(f).read(), re.M):
             i = cari(n, m.group(1) + plain(m.group(2)), last)
@@ -126,7 +135,7 @@ for t, bab in ISTILAH.items():
         else:
             nb = BOLD.get(tl) or next((BOLD[b] for b in BOLD if tl in b), None)
             for n in ([nb] if nb else BAB):
-                i = cari(n, t, 0, AKHIR[n][0])
+                i = cari(n, t, 1, AKHIR[n][0])
                 if i is not None: hs = [hal_bab(n, i)]; break
     if hs: ENTRI[t] = sorted(set(hs))
 def kunci(t): return re.sub(r'[^a-z0-9 ]', '', t.lower().replace('–', ' '))
@@ -135,7 +144,7 @@ for t in sorted(ENTRI, key=kunci):
     h0 = kunci(t)[:1].upper()
     if h0 != huruf: huruf = h0; baris.append(f'<p><span class="huruf">{h0}</span></p>')
     baris.append(f'<p><b>{html.escape(t)}</b>, {", ".join(f'<a class="tl" href="https://hal/a/{h}">{h}</a>' for h in ENTRI[t])}</p>')
-open(f'{K}/indeks.html', 'w').write(f'''<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../buku.css"><link rel="stylesheet" href="../buku2.css"><link rel="stylesheet" href="../buku3.css"></head>
+open(f'{K}/indeks.html', 'w').write(f'''<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../buku.css"><link rel="stylesheet" href="../buku2.css"><link rel="stylesheet" href="../buku3.css"><link rel="stylesheet" href="../fu.css"></head>
 <body><div class="indeks"><h1 style="page-break-before:avoid">Indeks</h1><p class="catatan">Nomor menunjuk halaman tempat istilah itu diperkenalkan atau dibahas pertama kali.</p><div class="kol">{''.join(baris)}</div></div></body></html>''')
 render([{'html': f'{K}/indeks.html', 'pdf': f'{K}/indeks.pdf'}])
 tambah('indeks', len(PdfReader(f'{K}/indeks.pdf').pages), 'indeks')
@@ -163,7 +172,7 @@ isi.append(f'<div class="bab">{r("Lampiran B · Ringkasan Matematika", MULAI["la
 isi.append(f'<div class="bab">{r("Indeks", MULAI["indeks"])}</div>')
 nbab = len(BAB); ncontoh = sum(len(re.findall(r'::: \{\.contoh\}', open(f).read())) for f in glob.glob(f'{R}/bab*/[ab]-*.md'))
 nsoal = sum(len(re.findall(r'^\*\*\d+\.\*\*', open(f'{R}/bab{n:02d}/c-akhir.md').read(), re.M)) for n in BAB)
-open(f'{K}/judul.html', 'w').write(f'''<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../buku.css"><link rel="stylesheet" href="../buku2.css"><link rel="stylesheet" href="../buku3.css"></head><body>
+open(f'{K}/judul.html', 'w').write(f'''<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../buku.css"><link rel="stylesheet" href="../buku2.css"><link rel="stylesheet" href="../buku3.css"><link rel="stylesheet" href="../fu.css"></head><body>
 <div class="judul-hal halaman"><div class="atas"><div class="j">FISIKA<br>UMUM</div><div class="s">untuk mahasiswa kimia dan ilmu-ilmu sains</div><div class="pen">Septian Anugrah Dwi Putra</div><div class="e">EDISI KEEMPAT</div></div>
 <div class="bawah"></div></div>
 <div class="ket halaman"><p><b>Fisika Umum</b><br>Edisi Keempat, 2026<br>Penyusun: Septian Anugrah Dwi Putra</p>
@@ -171,7 +180,7 @@ open(f'{K}/judul.html', 'w').write(f'''<!doctype html><html><head><meta charset=
 <p>Naskah disusun oleh penyusun dengan bantuan Claude (Anthropic). Semua angka dalam contoh dan jawaban dihitung ulang dengan komputer. Gambar dibuat dengan Matplotlib; huruf isi Caladea, huruf judul Inter.</p>
 <p>Tanda desimal mengikuti kaidah bahasa Indonesia (koma). Satuan mengikuti Sistem Internasional.</p></div>
 </body></html>''')
-open(f'{K}/isi.html', 'w').write(f'''<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../buku.css"><link rel="stylesheet" href="../buku2.css"><link rel="stylesheet" href="../buku3.css"></head><body>
+open(f'{K}/isi.html', 'w').write(f'''<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../buku.css"><link rel="stylesheet" href="../buku2.css"><link rel="stylesheet" href="../buku3.css"><link rel="stylesheet" href="../fu.css"></head><body>
 <div class="toc halaman"><h1 style="page-break-before:avoid">Isi Ringkas</h1>{''.join(ring)}</div>
 <div class="toc"><h1 style="page-break-before:avoid">Daftar Isi</h1>{r("Kata Pengantar", "@KP")}{r("Cara Memakai Buku Ini", "@CM")}{''.join(isi)}</div></body></html>''')
 render([{'html': f'{K}/judul.html', 'pdf': f'{K}/judul.pdf'}, {'html': f'{K}/isi.html', 'pdf': f'{K}/isi.pdf'}])
