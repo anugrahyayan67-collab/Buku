@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Mencetak Fisika Umum Edisi 4 sebagai satu buku utuh.
+# Mencetak Fisika Umum Edisi 1 sebagai satu buku utuh.
 # Pakai: python3 edisi2/cetak.py [--lewati-bab]   (--lewati-bab: pakai PDF bab hasil render sebelumnya)
 import re, os, sys, glob, json, subprocess, html
 from pypdf import PdfReader, PdfWriter
@@ -173,10 +173,10 @@ isi.append(f'<div class="bab">{r("Indeks", MULAI["indeks"])}</div>')
 nbab = len(BAB); ncontoh = sum(len(re.findall(r'::: \{\.contoh\}', open(f).read())) for f in glob.glob(f'{R}/bab*/[ab]-*.md'))
 nsoal = sum(len(re.findall(r'^\*\*\d+\.\*\*', open(f'{R}/bab{n:02d}/c-akhir.md').read(), re.M)) for n in BAB)
 open(f'{K}/judul.html', 'w').write(f'''<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../buku.css"><link rel="stylesheet" href="../buku2.css"><link rel="stylesheet" href="../buku3.css"><link rel="stylesheet" href="../fu.css"></head><body>
-<div class="judul-hal halaman"><div class="atas"><div class="j">FISIKA<br>UMUM</div><div class="s">untuk mahasiswa kimia dan ilmu-ilmu sains</div><div class="pen">Septian Anugrah Dwi Putra</div><div class="e">EDISI KEEMPAT</div></div>
+<div class="judul-hal halaman"><div class="atas"><div class="j">FISIKA<br>UMUM</div><div class="s">untuk mahasiswa kimia dan ilmu-ilmu sains</div><div class="pen">Septian Anugrah Dwi Putra</div><div class="e">EDISI PERTAMA</div></div>
 <div class="bawah"></div></div>
-<div class="ket halaman"><p><b>Fisika Umum</b><br>Edisi Keempat, 2026<br>Penyusun: Septian Anugrah Dwi Putra</p>
-<p>Isi: {nbab} bab, Lampiran A dan B, serta indeks. Edisi pertama terbit per bab pada November 2026; edisi kedua menyeragamkan susunan seluruh bab dan menyatukannya menjadi satu buku dengan daftar isi, lampiran, dan indeks; edisi ketiga memperdalam isi buku dengan subbab, contoh, dan soal baru; edisi keempat menata ulang seluruh tampilan isi agar selaras dengan sampul.</p>
+<div class="ket halaman"><p><b>Fisika Umum</b><br>Edisi Pertama, 2026<br>Penyusun: Septian Anugrah Dwi Putra</p>
+<p>Isi: {nbab} bab, Lampiran A dan B, serta indeks. Buku ini dilanjutkan oleh <i>Kimia Kuantum</i> karya penyusun yang sama.</p>
 <p>Naskah disusun oleh penyusun dengan bantuan Claude (Anthropic). Semua angka dalam contoh dan jawaban dihitung ulang dengan komputer. Gambar dibuat dengan Matplotlib; huruf isi Caladea, huruf judul Inter.</p>
 <p>Tanda desimal mengikuti kaidah bahasa Indonesia (koma). Satuan mengikuti Sistem Internasional.</p></div>
 </body></html>''')
@@ -312,7 +312,7 @@ for n in BAB:
 w.add_outline_item('Lampiran A  Tetapan dan Data', off + MULAI['lampiran'])
 w.add_outline_item('Lampiran B  Ringkasan Matematika', off + MULAI['lampiran'] + LAMP_B)
 w.add_outline_item('Indeks', off + MULAI['indeks'])
-w.add_metadata({'/Title': 'Fisika Umum, Edisi Keempat', '/Subject': 'Fisika dasar untuk mahasiswa kimia dan sains'})
+w.add_metadata({'/Title': 'Fisika Umum, Edisi Pertama', '/Subject': 'Fisika dasar untuk mahasiswa kimia dan sains'})
 w.page_mode = '/UseOutlines'
-out = f'{R}/Fisika-Umum-Edisi-4.pdf'; w.write(out)
+out = f'{R}/Fisika-Umum-Edisi-1.pdf'; w.write(out)
 print('selesai:', out, len(w.pages), 'halaman; isi arab', hal - 1)

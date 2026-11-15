@@ -55,7 +55,7 @@ open(f'{K}/sampul.html', 'w').write(f'''<!doctype html><html><head><meta charset
 .tp{{position:absolute;left:22mm;right:20mm;bottom:22mm;background:#e8f1fa;padding:5mm 6mm;font-family:Caladea,serif;font-size:10pt;line-height:1.55;color:#1f2a38}}
 .tp b{{font-family:Inter,sans-serif;font-size:8.5pt;letter-spacing:2px;color:#1b75bc;display:block;margin-bottom:1.5mm}}
 </style></head><body>
-<div class="pg"><div class="bar"></div><div class="ed">EDISI KEEMPAT</div><div class="pen">SEPTIAN ANUGRAH DWI PUTRA</div>
+<div class="pg"><div class="bar"></div><div class="ed">EDISI PERTAMA</div><div class="pen">SEPTIAN ANUGRAH DWI PUTRA</div>
 <div class="jd">FISIKA<br><span>UMUM</span></div>
 <div class="sb">untuk mahasiswa kimia dan ilmu-ilmu sains</div>
 <div class="panel"><img src="sampul-latar.png"></div></div>

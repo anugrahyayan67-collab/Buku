@@ -4,7 +4,7 @@ Naskah dan alat cetak buku sains berbahasa Indonesia untuk mahasiswa kimia.
 
 | Buku | Status | Folder |
 |---|---|---|
-| **Fisika Umum** | Edisi Keempat selesai (15 bab, ± 750 halaman) | [`fisika-umum/`](fisika-umum/) |
+| **Fisika Umum** | Edisi Pertama selesai (15 bab, ± 750 halaman) | [`fisika-umum/`](fisika-umum/) |
 | **Kimia Kuantum** | Perencanaan selesai (17 bab, target ± 1050 halaman); penulisan mulai Bab 1 | [`kimia-kuantum/`](kimia-kuantum/) |
 
 Penyusun: Septian Anugrah Dwi Putra.
