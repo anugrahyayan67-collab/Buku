@@ -57,3 +57,9 @@ h1.pita1 { text-align: center; font-size: 12.5pt; padding: 1.8mm 4mm; }
 .soal2 p.si > strong:first-child { min-width: 6mm; font-family: Caladea, serif; font-size: 10pt; color: var(--ink); }
 .soal2 p.tk { font-family: Caladea, serif; font-size: 10pt; font-weight: 700; color: var(--ink); margin: 1.6mm 0 .5mm 0; }
 .soal2 h2.kecil + p { margin-bottom: 1mm; }
+/* judul lampiran: pita tipis biru tua seperti judul Soal/Jawaban, judul ukuran sedang */
+h1.bab { padding-top: 0; margin: 0 0 6mm 0; text-align: center; }
+h1.bab .pita { display: block; background: var(--tua); padding: 1.8mm 4mm; margin: 0 0 4mm 0; text-align: center; }
+h1.bab .kata { display: inline; background: none; padding: 0; border-radius: 0; color: #fff; font-size: 12.5pt; font-weight: 700; letter-spacing: .3px; text-align: center; }
+h1.bab .no { display: inline; background: none; padding: 0; margin-left: 1.6mm; min-width: 0; border-radius: 0; color: var(--langit); font-size: 12.5pt; font-weight: 700; line-height: inherit; }
+h1.bab .judul { padding-left: 0; font-size: 17pt; font-weight: 700; text-transform: none; letter-spacing: 0; color: var(--tua); }
