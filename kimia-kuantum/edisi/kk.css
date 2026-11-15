@@ -50,3 +50,10 @@ h1.pita1 a.tl { color: #fff; }
 h1.pita1 { background: var(--tua); color: #fff; text-align: left; border-radius: 0; font-size: 8.7pt; font-weight: 700;
            letter-spacing: .2px; padding: 2mm 3mm; margin: 0 0 4mm 0; line-height: 1.35; }
 h1.pita1 { text-align: center; font-size: 12.5pt; padding: 1.8mm 4mm; }
+/* soal: gaya lama (serif tebal hitam, subbab kapital) tetapi rapat dan rapi */
+.soal2 h2.kecil { text-transform: uppercase; letter-spacing: 1px; font-size: 10.5pt; font-weight: 700; margin: 6mm 0 2mm; }
+.soal2 p { margin: 0 0 .5mm 0; line-height: 1.36; }
+.soal2 p.si { padding-left: 6mm; text-indent: -6mm !important; }
+.soal2 p.si > strong:first-child { min-width: 6mm; font-family: Caladea, serif; font-size: 10pt; color: var(--ink); }
+.soal2 p.tk { font-family: Caladea, serif; font-size: 10pt; font-weight: 700; color: var(--ink); margin: 1.6mm 0 .5mm 0; }
+.soal2 h2.kecil + p { margin-bottom: 1mm; }
