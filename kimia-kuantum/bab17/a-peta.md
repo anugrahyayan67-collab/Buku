@@ -53,10 +53,10 @@ Dari Bab 1: skala energi dan ketelitian kimia (subbab 1.10, Contoh 1.52). Dari B
 Dalam hampiran Born–Oppenheimer (subbab 11.1), inti dianggap diam pada posisi $\{\mathbf R_A\}$, dan elektron mematuhi persamaan Schrödinger elektronik dengan Hamiltonian (dalam satuan atom)
 
 $$
-\hat H_\text{el} = -\sum_{i=1}^N\frac12\nabla_i^2 - \sum_{i=1}^N\sum_A\frac{Z_A}{r_{iA}} + \sum_{i<j}\frac1{r_{ij}} , \qquad \text{(17.e01)}
+\hat H_\text{el} = -\sum_{i=1}^N\frac12\nabla_i^2 - \sum_{i=1}^N\sum_A\frac{Z_A}{r_{iA}} + \sum_{i<j}\frac1{r_{ij}} , \qquad \text{(17.1)}
 $$
 
-ditambah tolakan antarinti $V_{NN} = \sum_{A<B}Z_AZ_B/R_{AB}$ yang tetap untuk geometri tertentu. Penyelesaian $\hat H_\text{el}\Psi = E_\text{el}\Psi$ untuk banyak geometri memberi **permukaan energi potensial** $E(\{\mathbf R_A\}) = E_\text{el} + V_{NN}$, yang menentukan seluruh kimia molekul itu: geometri setimbang (minimum), frekuensi getaran (kelengkungan di minimum), energi reaksi (selisih minimum), dan penghalang reaksi (titik pelana). Kesulitannya ada pada suku terakhir (17.e01): tolakan $1/r_{ij}$ mengikat gerak semua elektron sehingga persamaan tidak terpisah menjadi persamaan satu elektron.
+ditambah tolakan antarinti $V_{NN} = \sum_{A<B}Z_AZ_B/R_{AB}$ yang tetap untuk geometri tertentu. Penyelesaian $\hat H_\text{el}\Psi = E_\text{el}\Psi$ untuk banyak geometri memberi **permukaan energi potensial** $E(\{\mathbf R_A\}) = E_\text{el} + V_{NN}$, yang menentukan seluruh kimia molekul itu: geometri setimbang (minimum), frekuensi getaran (kelengkungan di minimum), energi reaksi (selisih minimum), dan penghalang reaksi (titik pelana). Kesulitannya ada pada suku terakhir (17.1): tolakan $1/r_{ij}$ mengikat gerak semua elektron sehingga persamaan tidak terpisah menjadi persamaan satu elektron.
 
 Kimia komputasi menawarkan sederet metode yang menangani kesulitan itu dengan cara dan harga yang berbeda:
 
@@ -83,9 +83,9 @@ Angka-angka dalam tabel hanyalah kisaran kasar, tetapi polanya penting: setiap l
 
 ### Dua sumbu ketelitian
 
-John Pople, yang bersama Walter Kohn menerima Hadiah Nobel Kimia 1998, menggambarkan kualitas perhitungan ab initio dengan diagram dua sumbu (Gambar 17.g01). Sumbu pertama adalah **himpunan basis**: makin banyak fungsi basis, makin dekat orbital ke bentuk sebenarnya. Sumbu kedua adalah **perlakuan korelasi**: HF, MP2, CCSD, CCSD(T), sampai CI penuh. Jawaban tepat persamaan Schrödinger (nonrelativistik, dalam hampiran Born–Oppenheimer) terletak di pojok basis tak berhingga dan CI penuh. Setiap perhitungan nyata adalah satu titik di bidang ini, dan notasinya menyebut kedua koordinat, dipisah garis miring: "MP2/6-31G*" berarti teori MP2 dengan basis 6-31G*, dan "CCSD(T)/cc-pVTZ//B3LYP/6-31G*" berarti energi CCSD(T)/cc-pVTZ dihitung pada geometri yang dioptimasi dengan B3LYP/6-31G*.
+John Pople, yang bersama Walter Kohn menerima Hadiah Nobel Kimia 1998, menggambarkan kualitas perhitungan ab initio dengan diagram dua sumbu (Gambar 17.1). Sumbu pertama adalah **himpunan basis**: makin banyak fungsi basis, makin dekat orbital ke bentuk sebenarnya. Sumbu kedua adalah **perlakuan korelasi**: HF, MP2, CCSD, CCSD(T), sampai CI penuh. Jawaban tepat persamaan Schrödinger (nonrelativistik, dalam hampiran Born–Oppenheimer) terletak di pojok basis tak berhingga dan CI penuh. Setiap perhitungan nyata adalah satu titik di bidang ini, dan notasinya menyebut kedua koordinat, dipisah garis miring: "MP2/6-31G*" berarti teori MP2 dengan basis 6-31G*, dan "CCSD(T)/cc-pVTZ//B3LYP/6-31G*" berarti energi CCSD(T)/cc-pVTZ dihitung pada geometri yang dioptimasi dengan B3LYP/6-31G*.
 
-![Gambar 17.g01 Diagram Pople. Sumbu mendatar: tingkat perlakuan korelasi; sumbu tegak: ukuran himpunan basis. Jawaban tepat terletak di pojok kanan atas. Angka di setiap kotak adalah energi korelasi atau energi total H₂O (geometri percobaan) yang dihitung dengan program pendamping bab ini; tanda panah menunjukkan arah perbaikan sistematis.](fig/c_pople.png){width=86%}
+![Gambar 17.1 Diagram Pople. Sumbu mendatar: tingkat perlakuan korelasi; sumbu tegak: ukuran himpunan basis. Jawaban tepat terletak di pojok kanan atas. Angka di setiap kotak adalah energi korelasi atau energi total H₂O (geometri percobaan) yang dihitung dengan program pendamping bab ini; tanda panah menunjukkan arah perbaikan sistematis.](fig/c_pople.png){width=86%}
 
 Untuk DFT, Perdew mengusulkan gambaran serupa yang disebut **tangga Yakub**: anak tangga LDA, GGA, meta-GGA, hibrida, dan fungsional dengan orbital tak terisi, masing-masing menambah bahan baru ke dalam fungsional (subbab 17.14). Berbeda dengan diagram Pople, menaiki tangga Yakub tidak menjamin hasil yang lebih baik untuk setiap sifat, karena fungsional-fungsional itu adalah hampiran yang tidak dapat diperbaiki secara sistematis.
 
@@ -103,7 +103,7 @@ Sasaran yang lazim adalah **ketelitian kimia**, sekitar 1 kkal/mol (4,2 kJ/mol),
 :::
 
 ::: {.contoh}
-**Contoh 17.c01 · Harga melipatduakan molekul**
+**Contoh 17.1 · Harga melipatduakan molekul**
 
 Perhitungan MP2 untuk molekul berukuran 20 atom berat selesai dalam 10 menit, dan CCSD(T) untuk molekul yang sama dalam 10 jam. Taksir waktu keduanya untuk molekul serupa berukuran 40 atom berat dengan basis yang setara.
 
@@ -113,7 +113,7 @@ Perhitungan MP2 untuk molekul berukuran 20 atom berat selesai dalam 10 menit, da
 :::
 
 ::: {.contoh}
-**Contoh 17.c02 · Ketelitian relatif yang diperlukan**
+**Contoh 17.2 · Ketelitian relatif yang diperlukan**
 
 Energi total H₂O sekitar $-76{,}4\ E_h$. Nyatakan ketelitian kimia (1 kkal/mol) sebagai pecahan energi total. Bandingkan dengan menimbang kapten kapal beserta kapalnya (50 000 ton) untuk mengetahui berat topinya.
 
@@ -123,7 +123,7 @@ Energi total H₂O sekitar $-76{,}4\ E_h$. Nyatakan ketelitian kimia (1 kkal/mol
 :::
 
 ::: {.contoh}
-**Contoh 17.c03 · Berapa determinan dalam CI penuh?**
+**Contoh 17.3 · Berapa determinan dalam CI penuh?**
 
 Fungsi gelombang CI penuh adalah kombinasi semua determinan Slater yang dapat dibentuk dari $n$ orbital ruang dengan $N_\alpha$ elektron spin α dan $N_\beta$ elektron spin β; banyaknya $\binom{n}{N_\alpha}\binom{n}{N_\beta}$. Hitung untuk H₂O (5 elektron α, 5 elektron β) dengan basis STO-3G (7 orbital), 6-31G (13), dan cc-pVDZ (24).
 
@@ -145,13 +145,13 @@ Apa arti notasi "B3LYP/6-31G*" dan "CCSD(T)/cc-pVTZ//MP2/cc-pVDZ"? Mengapa kompu
 Hampiran Hartree–Fock menulis fungsi gelombang $N$ elektron sebagai satu **determinan Slater** (subbab 9.6) yang tersusun dari spin-orbital $\chi_i(\mathbf x) = \psi_i(\mathbf r)\sigma(s)$, dengan $\sigma = \alpha$ atau $\beta$:
 
 $$
-\Psi_0 = \frac{1}{\sqrt{N!}}\begin{vmatrix}\chi_1(\mathbf x_1) & \chi_2(\mathbf x_1) & \cdots & \chi_N(\mathbf x_1)\\ \chi_1(\mathbf x_2) & \chi_2(\mathbf x_2) & \cdots & \chi_N(\mathbf x_2)\\ \vdots & & & \vdots\\ \chi_1(\mathbf x_N) & \chi_2(\mathbf x_N) & \cdots & \chi_N(\mathbf x_N)\end{vmatrix} \equiv |\chi_1\chi_2\cdots\chi_N| . \qquad \text{(17.e02)}
+\Psi_0 = \frac{1}{\sqrt{N!}}\begin{vmatrix}\chi_1(\mathbf x_1) & \chi_2(\mathbf x_1) & \cdots & \chi_N(\mathbf x_1)\\ \chi_1(\mathbf x_2) & \chi_2(\mathbf x_2) & \cdots & \chi_N(\mathbf x_2)\\ \vdots & & & \vdots\\ \chi_1(\mathbf x_N) & \chi_2(\mathbf x_N) & \cdots & \chi_N(\mathbf x_N)\end{vmatrix} \equiv |\chi_1\chi_2\cdots\chi_N| . \qquad \text{(17.2)}
 $$
 
-Determinan otomatis antisimetris terhadap pertukaran dua elektron dan memenuhi asas Pauli. Spin-orbital dipilih ortonormal. Nilai harap Hamiltonian (17.e01) untuk determinan ini diberikan oleh aturan Condon–Slater (subbab 9.14):
+Determinan otomatis antisimetris terhadap pertukaran dua elektron dan memenuhi asas Pauli. Spin-orbital dipilih ortonormal. Nilai harap Hamiltonian (17.1) untuk determinan ini diberikan oleh aturan Condon–Slater (subbab 9.14):
 
 $$
-E_0 = \langle\Psi_0|\hat H_\text{el}|\Psi_0\rangle = \sum_{i=1}^N h_{ii} + \frac12\sum_{i=1}^N\sum_{j=1}^N\left(J_{ij} - K_{ij}\right) , \qquad \text{(17.e03)}
+E_0 = \langle\Psi_0|\hat H_\text{el}|\Psi_0\rangle = \sum_{i=1}^N h_{ii} + \frac12\sum_{i=1}^N\sum_{j=1}^N\left(J_{ij} - K_{ij}\right) , \qquad \text{(17.3)}
 $$
 
 dengan integral satu elektron (energi kinetik ditambah tarikan semua inti)
@@ -177,7 +177,7 @@ $J_{ij}$ adalah tolakan klasik antara awan muatan elektron $i$ dan $j$. $K_{ij}$
 Untuk molekul **kulit tertutup** dengan $N/2$ orbital ruang yang masing-masing diisi dua elektron berspin berlawanan, integrasi atas spin memberi
 
 $$
-E_0 = 2\sum_{a=1}^{N/2}h_{aa} + \sum_{a=1}^{N/2}\sum_{b=1}^{N/2}\left(2J_{ab} - K_{ab}\right) , \qquad \text{(17.e04)}
+E_0 = 2\sum_{a=1}^{N/2}h_{aa} + \sum_{a=1}^{N/2}\sum_{b=1}^{N/2}\left(2J_{ab} - K_{ab}\right) , \qquad \text{(17.4)}
 $$
 
 kini dengan integral atas orbital ruang. Faktor 2 pada $J$ berasal dari kenyataan bahwa setiap elektron di orbital $a$ ditolak oleh kedua elektron di orbital $b$, sedangkan pertukaran hanya terjadi antarelektron berspin sama.
@@ -187,47 +187,47 @@ kini dengan integral atas orbital ruang. Faktor 2 pada $J$ berasal dari kenyataa
 Orbital terbaik adalah orbital yang meminimumkan $E_0$ dengan syarat tetap ortonormal (teorema variasi, subbab 8.2). Hasilnya, yang diturunkan di kotak berikut, adalah **persamaan Hartree–Fock**:
 
 $$
-\hat f\,\chi_i = \varepsilon_i\,\chi_i, \qquad \hat f(1) = \hat h(1) + \sum_{j=1}^N\left[\hat J_j(1) - \hat K_j(1)\right] , \qquad \text{(17.e05)}
+\hat f\,\chi_i = \varepsilon_i\,\chi_i, \qquad \hat f(1) = \hat h(1) + \sum_{j=1}^N\left[\hat J_j(1) - \hat K_j(1)\right] , \qquad \text{(17.5)}
 $$
 
 dengan $\hat f$ **operator Fock**, $\hat h$ operator satu elektron, dan operator Coulomb serta pertukaran didefinisikan oleh kerjanya pada fungsi sembarang $\chi$:
 
 $$
-\hat J_j(1)\chi(1) = \left[\int\frac{|\chi_j(2)|^2}{r_{12}}d\mathbf x_2\right]\chi(1), \qquad \hat K_j(1)\chi(1) = \left[\int\frac{\chi_j^*(2)\chi(2)}{r_{12}}d\mathbf x_2\right]\chi_j(1) . \qquad \text{(17.e06)}
+\hat J_j(1)\chi(1) = \left[\int\frac{|\chi_j(2)|^2}{r_{12}}d\mathbf x_2\right]\chi(1), \qquad \hat K_j(1)\chi(1) = \left[\int\frac{\chi_j^*(2)\chi(2)}{r_{12}}d\mathbf x_2\right]\chi_j(1) . \qquad \text{(17.6)}
 $$
 
-$\hat J_j$ adalah operator lokal biasa: perkalian dengan potensial listrik yang ditimbulkan awan elektron $j$. $\hat K_j$ **nonlokal**: nilai $\hat K_j\chi$ di titik 1 bergantung pada nilai $\chi$ di seluruh ruang, karena $\chi$ "dipertukarkan" dengan $\chi_j$. Persamaan (17.e05) tampak seperti persamaan nilai eigen satu elektron, tetapi operator Fock bergantung pada orbital-orbital yang dicari, sehingga harus diselesaikan secara iteratif sampai **swakonsisten**: orbital yang dihasilkan sama dengan orbital yang dipakai membangun $\hat f$. Inilah asal nama **medan swakonsisten** (*self-consistent field*, SCF), yang sudah kita jumpai untuk atom di subbab 9.8.
+$\hat J_j$ adalah operator lokal biasa: perkalian dengan potensial listrik yang ditimbulkan awan elektron $j$. $\hat K_j$ **nonlokal**: nilai $\hat K_j\chi$ di titik 1 bergantung pada nilai $\chi$ di seluruh ruang, karena $\chi$ "dipertukarkan" dengan $\chi_j$. Persamaan (17.5) tampak seperti persamaan nilai eigen satu elektron, tetapi operator Fock bergantung pada orbital-orbital yang dicari, sehingga harus diselesaikan secara iteratif sampai **swakonsisten**: orbital yang dihasilkan sama dengan orbital yang dipakai membangun $\hat f$. Inilah asal nama **medan swakonsisten** (*self-consistent field*, SCF), yang sudah kita jumpai untuk atom di subbab 9.8.
 
 ::: {.dalam}
 **Menurunkan persamaan Hartree–Fock**
 
-Bentuk Lagrangian $\mathcal L = E_0[\{\chi\}] - \sum_{ij}\lambda_{ji}\left(\langle\chi_i|\chi_j\rangle - \delta_{ij}\right)$, dengan pengali Lagrange $\lambda_{ji}$ yang menjaga ortonormalitas. Ubah setiap orbital sedikit, $\chi_k \to \chi_k + \delta\chi_k$. Dari (17.e03), perubahan orde pertama adalah
+Bentuk Lagrangian $\mathcal L = E_0[\{\chi\}] - \sum_{ij}\lambda_{ji}\left(\langle\chi_i|\chi_j\rangle - \delta_{ij}\right)$, dengan pengali Lagrange $\lambda_{ji}$ yang menjaga ortonormalitas. Ubah setiap orbital sedikit, $\chi_k \to \chi_k + \delta\chi_k$. Dari (17.3), perubahan orde pertama adalah
 
 $$
 \delta E_0 = \sum_k\langle\delta\chi_k|\hat h|\chi_k\rangle + \sum_k\sum_j\left(\langle\delta\chi_k|\hat J_j|\chi_k\rangle - \langle\delta\chi_k|\hat K_j|\chi_k\rangle\right) + \text{k.k.}
 $$
 
-Faktor $\tfrac12$ dalam (17.e03) hilang karena setiap pasangan $(i, j)$ muncul dua kali dalam jumlah ganda, sekali dengan $\delta\chi$ pada indeks pertama dan sekali pada indeks kedua, dan $J_{ij} = J_{ji}$, $K_{ij} = K_{ji}$. Perubahan syarat ortonormalitas adalah $\sum_{kj}\lambda_{jk}\langle\delta\chi_k|\chi_j\rangle + \text{k.k.}$ Syarat $\delta\mathcal L = 0$ untuk $\delta\chi_k$ sembarang menuntut
+Faktor $\tfrac12$ dalam (17.3) hilang karena setiap pasangan $(i, j)$ muncul dua kali dalam jumlah ganda, sekali dengan $\delta\chi$ pada indeks pertama dan sekali pada indeks kedua, dan $J_{ij} = J_{ji}$, $K_{ij} = K_{ji}$. Perubahan syarat ortonormalitas adalah $\sum_{kj}\lambda_{jk}\langle\delta\chi_k|\chi_j\rangle + \text{k.k.}$ Syarat $\delta\mathcal L = 0$ untuk $\delta\chi_k$ sembarang menuntut
 
 $$
 \left[\hat h + \sum_j(\hat J_j - \hat K_j)\right]\chi_k = \sum_j\lambda_{jk}\chi_j , \quad\text{yaitu}\quad \hat f\chi_k = \sum_j\lambda_{jk}\chi_j .
 $$
 
-Matriks $\boldsymbol\lambda$ Hermitian. Operator $\hat f$ tidak berubah bila orbital-orbital yang terisi dicampur dengan transformasi uniter $\chi_i' = \sum_jU_{ji}\chi_j$, karena determinan hanya berubah dengan faktor fase $\det\mathbf U$ (subbab 17.8). Kita dapat memilih $\mathbf U$ yang mendiagonalkan $\boldsymbol\lambda$; dalam basis itu $\lambda_{jk} = \varepsilon_k\delta_{jk}$, dan diperoleh bentuk kanonik (17.e05). Orbital-orbital yang mendiagonalkan $\boldsymbol\lambda$ disebut **orbital kanonik**.
+Matriks $\boldsymbol\lambda$ Hermitian. Operator $\hat f$ tidak berubah bila orbital-orbital yang terisi dicampur dengan transformasi uniter $\chi_i' = \sum_jU_{ji}\chi_j$, karena determinan hanya berubah dengan faktor fase $\det\mathbf U$ (subbab 17.8). Kita dapat memilih $\mathbf U$ yang mendiagonalkan $\boldsymbol\lambda$; dalam basis itu $\lambda_{jk} = \varepsilon_k\delta_{jk}$, dan diperoleh bentuk kanonik (17.5). Orbital-orbital yang mendiagonalkan $\boldsymbol\lambda$ disebut **orbital kanonik**.
 :::
 
 ### Energi orbital dan energi total
 
-Kalikan (17.e05) dari kiri dengan $\chi_i^*$ dan integrasikan:
+Kalikan (17.5) dari kiri dengan $\chi_i^*$ dan integrasikan:
 
 $$
-\varepsilon_i = h_{ii} + \sum_{j=1}^N\left(J_{ij} - K_{ij}\right) . \qquad \text{(17.e07)}
+\varepsilon_i = h_{ii} + \sum_{j=1}^N\left(J_{ij} - K_{ij}\right) . \qquad \text{(17.7)}
 $$
 
-Energi orbital $\varepsilon_i$ adalah energi kinetik dan tarikan inti elektron di $\chi_i$ ditambah tolakan bersihnya dengan **semua** elektron lain. Jumlahkan atas orbital terisi dan bandingkan dengan (17.e03):
+Energi orbital $\varepsilon_i$ adalah energi kinetik dan tarikan inti elektron di $\chi_i$ ditambah tolakan bersihnya dengan **semua** elektron lain. Jumlahkan atas orbital terisi dan bandingkan dengan (17.3):
 
 $$
-E_0 = \sum_{i=1}^N\varepsilon_i - \frac12\sum_{i,j}\left(J_{ij} - K_{ij}\right) = \frac12\sum_{i=1}^N\left(\varepsilon_i + h_{ii}\right) . \qquad \text{(17.e08)}
+E_0 = \sum_{i=1}^N\varepsilon_i - \frac12\sum_{i,j}\left(J_{ij} - K_{ij}\right) = \frac12\sum_{i=1}^N\left(\varepsilon_i + h_{ii}\right) . \qquad \text{(17.8)}
 $$
 
 Energi total **bukan** jumlah energi orbital: menjumlahkan $\varepsilon_i$ menghitung setiap tolakan antarelektron dua kali, sekali untuk $i$ dan sekali untuk $j$. Kesalahan ini, mengira energi molekul sama dengan jumlah energi orbitalnya, sangat lazim dan perlu diwaspadai; ia benar hanya dalam teori Hückel, yang tidak memperlakukan tolakan elektron secara eksplisit (subbab 13.4).
@@ -238,20 +238,20 @@ Untuk molekul kulit tertutup, pasangan elektron α dan β memakai orbital ruang 
 
 Perbedaan RHF dan UHF tampak dramatis pada pemutusan ikatan. Determinan RHF untuk H₂, $|\sigma_g\alpha\,\sigma_g\beta|$ dengan $\sigma_g \propto 1s_A + 1s_B$, bila diuraikan memuat bagian kovalen $1s_A1s_B$ dan bagian ionik $1s_A^2 + 1s_B^2$ dengan bobot sama, tidak peduli seberapa jauh kedua atom dipisahkan (subbab 11.10). Pada jarak besar, bagian ionik H⁺H⁻ itu sama sekali tidak fisis, dan energi RHF naik jauh di atas energi dua atom hidrogen. UHF dapat melokalisasi elektron α di satu atom dan elektron β di atom lain, sehingga berdisosiasi dengan benar ke dua atom, tetapi dengan harga kontaminasi spin: pada jarak besar fungsi UHF adalah campuran setara singlet dan triplet ($\langle\hat S^2\rangle \to 1$). Penyelesaian yang benar memerlukan lebih dari satu determinan (subbab 17.10).
 
-![Gambar 17.g02 Kurva energi potensial H₂ dengan basis STO-3G: RHF (naik terlalu tinggi pada jarak besar), UHF (berimpit dengan RHF sampai titik ketidakstabilan Coulson–Fischer di sekitar 2,2 bohr, lalu berdisosiasi dengan benar), dan CI penuh. Garis putus-putus: energi dua atom H dalam basis yang sama.](fig/c_h2kurva.png){width=78%}
+![Gambar 17.2 Kurva energi potensial H₂ dengan basis STO-3G: RHF (naik terlalu tinggi pada jarak besar), UHF (berimpit dengan RHF sampai titik ketidakstabilan Coulson–Fischer di sekitar 2,2 bohr, lalu berdisosiasi dengan benar), dan CI penuh. Garis putus-putus: energi dua atom H dalam basis yang sama.](fig/c_h2kurva.png){width=78%}
 
 ::: {.contoh}
-**Contoh 17.c04 · Energi H₂ dari integral orbital molekul**
+**Contoh 17.4 · Energi H₂ dari integral orbital molekul**
 
-Untuk H₂ dengan basis STO-3G pada $R = 1{,}4$ bohr, program memberi integral orbital molekul $h_{11} = -1{,}2528\ E_h$ dan $J_{11} = 0{,}6746\ E_h$ untuk orbital $\sigma_g$. Hitung energi orbital, energi elektronik, dan energi total. Periksa (17.e08).
+Untuk H₂ dengan basis STO-3G pada $R = 1{,}4$ bohr, program memberi integral orbital molekul $h_{11} = -1{,}2528\ E_h$ dan $J_{11} = 0{,}6746\ E_h$ untuk orbital $\sigma_g$. Hitung energi orbital, energi elektronik, dan energi total. Periksa (17.8).
 
-**Penyelesaian.** Dari (17.e07) untuk kulit tertutup dengan satu orbital terisi: $\varepsilon_1 = h_{11} + 2J_{11} - K_{11} = h_{11} + J_{11} = -0{,}5782\ E_h$ (karena $K_{11} = J_{11}$). Dari (17.e04): $E_\text{el} = 2h_{11} + J_{11} = -1{,}8310\ E_h$. Tambahkan $V_{NN} = 1/1{,}4 = 0{,}7143$: $E = -1{,}1167\ E_h$. Pemeriksaan: $\tfrac12\sum_i(\varepsilon_i + h_{ii}) = \varepsilon_1 + h_{11} = -1{,}8310\ E_h$.
+**Penyelesaian.** Dari (17.7) untuk kulit tertutup dengan satu orbital terisi: $\varepsilon_1 = h_{11} + 2J_{11} - K_{11} = h_{11} + J_{11} = -0{,}5782\ E_h$ (karena $K_{11} = J_{11}$). Dari (17.4): $E_\text{el} = 2h_{11} + J_{11} = -1{,}8310\ E_h$. Tambahkan $V_{NN} = 1/1{,}4 = 0{,}7143$: $E = -1{,}1167\ E_h$. Pemeriksaan: $\tfrac12\sum_i(\varepsilon_i + h_{ii}) = \varepsilon_1 + h_{11} = -1{,}8310\ E_h$.
 
 **Memahami hasil.** Jumlah energi orbital, $2\varepsilon_1 = -1{,}1564\ E_h$, berbeda $0{,}67\ E_h$ dari energi elektronik: tepat sebesar $J_{11}$ yang terhitung dua kali. Energi total HF $-1{,}1167\ E_h$ adalah $0{,}0206\ E_h$ di atas hasil CI penuh dalam basis yang sama (subbab 17.10); selisih ini adalah energi korelasi.
 :::
 
 ::: {.contoh}
-**Contoh 17.c05 · Helium dan batas Hartree–Fock**
+**Contoh 17.5 · Helium dan batas Hartree–Fock**
 
 Energi He: STO-3G $-2{,}8078\ E_h$; batas Hartree–Fock (basis tak berhingga) $-2{,}8617\ E_h$; energi tepat nonrelativistik $-2{,}9037\ E_h$. Hitung galat basis STO-3G, energi korelasi, dan nyatakan keduanya dalam kJ/mol.
 
@@ -261,13 +261,23 @@ Energi He: STO-3G $-2{,}8078\ E_h$; batas Hartree–Fock (basis tak berhingga) $
 :::
 
 ::: {.contoh}
-**Contoh 17.c06 · RHF dan UHF pada ikatan yang meregang**
+**Contoh 17.6 · RHF dan UHF pada ikatan yang meregang**
 
 Dengan basis STO-3G pada $R = 4{,}0$ bohr, H₂ memberi: RHF $-0{,}7611\ E_h$; UHF $-0{,}9358\ E_h$ dengan $\langle\hat S^2\rangle = 0{,}964$; CI penuh $-0{,}9438\ E_h$. Energi dua atom H terpisah dalam basis yang sama $-0{,}9332\ E_h$. Tafsirkan.
 
 **Penyelesaian.** RHF berada $0{,}172\ E_h$ (452 kJ/mol) di atas energi dua atom terpisah dan $0{,}356\ E_h$ di atas minimumnya sendiri ($-1{,}1175\ E_h$): menurut RHF, meregangkan ikatan sampai 2,1 Å menghabiskan hampir dua kali energi yang diperlukan untuk memutusnya menjadi dua atom. UHF hanya $0{,}008\ E_h$ di atas CI penuh dan sudah di bawah energi dua atom. Tetapi $\langle\hat S^2\rangle = 0{,}96$ jauh dari nol: fungsinya hampir separuh triplet.
 
 **Memahami hasil.** Pada geometri setimbang, RHF dan UHF berimpit; perbedaan muncul setelah suatu titik kritis (ketidakstabilan Coulson–Fischer, di sekitar 2,2 bohr untuk basis ini). Pelajaran praktisnya: untuk pemutusan ikatan dan diradikal, satu determinan tidak cukup. UHF memberi energi yang masuk akal tetapi fungsi gelombang yang salah spin; metode multikonfigurasi (subbab 17.10) memberi keduanya dengan benar.
+:::
+
+::: {.contoh}
+**Contoh 17.7 · Kontaminasi spin pada radikal**
+
+Program pendamping memberi $\langle\hat S^2\rangle$ UHF untuk radikal metil datar (C–H 1,079 Å): 0,765 (STO-3G) dan 0,762 (6-31G*); untuk radikal alil (C–C 1,388 Å, $\angle$CCC = 124°, STO-3G): 1,074. Nilai tepat untuk doblet adalah 0,750. Bila fungsi UHF dianggap campuran doblet dan kuartet ($\langle\hat S^2\rangle = 3{,}75$) saja, berapa bobot kuartet pada masing-masing?
+
+**Penyelesaian.** Dengan bobot kuartet $w$: $0{,}75(1 - w) + 3{,}75w = \langle\hat S^2\rangle$, sehingga $w = (\langle\hat S^2\rangle - 0{,}75)/3$. Metil: $w = 0{,}005$ (STO-3G) dan 0,004 (6-31G*). Alil: $w = 0{,}108$.
+
+**Memahami hasil.** Radikal metil, dengan elektron tak berpasangan terlokalisasi pada satu orbital p karbon, hampir bebas kontaminasi, dan UHF dapat dipercaya. Pada radikal alil yang terkonjugasi, elektron tak berpasangan tersebar pada dua karbon ujung dan pasangan elektron π terpolarisasi kuat oleh spinnya; UHF memanfaatkan kebebasannya dengan mencampurkan keadaan kuartet sekitar 11%. Kontaminasi sebesar ini merusak energi, kerapatan spin, dan terutama hasil MP2 berbasis UHF. Untuk radikal terkonjugasi, ROHF, DFT (yang kontaminasinya biasanya jauh lebih kecil), atau metode multikonfigurasi lebih aman.
 :::
 
 ::: {.kuis}

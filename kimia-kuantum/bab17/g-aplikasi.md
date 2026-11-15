@@ -7,13 +7,13 @@ Ikatan hidrogen, tumpukan π, interaksi van der Waals, dan pengikatan obat pada 
 Dispersi London sebanding dengan $-C_6/R^6$ pada jarak jauh. Dengan model osilator Drude, London (1930) menaksir
 
 $$
-C_6 \approx \frac32\,\frac{I_AI_B}{I_A + I_B}\,\alpha_A\alpha_B , \qquad \text{(17.e52)}
+C_6 \approx \frac32\,\frac{I_AI_B}{I_A + I_B}\,\alpha_A\alpha_B , \qquad \text{(17.54)}
 $$
 
 dengan $I$ energi ionisasi dan $\alpha$ polarisabilitas (satuan atom). Karena dispersi berasal dari korelasi elektron yang berjauhan, ia tidak ada dalam HF dan tidak ada dalam fungsional LDA, GGA, maupun hibrida biasa, yang hanya "melihat" kerapatan di sekitar setiap titik. Akibatnya DFT tanpa koreksi meramalkan bahwa dimer benzena bertumpuk dan dimer gas mulia hampir tidak terikat, dan meremehkan pengikatan ligan pada protein secara sistematis. Jalan keluar yang paling banyak dipakai adalah koreksi empiris **DFT-D** (Grimme):
 
 $$
-E_\text{disp} = -\sum_{A<B}\sum_{n = 6, 8}s_n\frac{C_n^{AB}}{R_{AB}^n}\,f_\text{redam}(R_{AB}) , \qquad \text{(17.e53)}
+E_\text{disp} = -\sum_{A<B}\sum_{n = 6, 8}s_n\frac{C_n^{AB}}{R_{AB}^n}\,f_\text{redam}(R_{AB}) , \qquad \text{(17.55)}
 $$
 
 dengan koefisien $C_6$ yang bergantung pada lingkungan atom (D3, D4) dan fungsi peredam yang mematikan koreksi pada jarak pendek, tempat fungsional sudah memuat korelasi. Alternatif lain adalah fungsional nonlokal (VV10) atau metode korelasi eksplisit. Untuk interaksi nonkovalen, CCSD(T)/CBS adalah acuan baku, dan himpunan uji seperti S22 dan S66 dipakai untuk menilai metode murah. Dua hal teknis wajib diperhatikan: basis dengan fungsi difus dan koreksi BSSE (subbab 17.5).
@@ -27,7 +27,7 @@ Sebagian besar kimia terjadi dalam larutan, sedangkan perhitungan baku menggamba
 **Pelarut implisit** (kontinum): pelarut diganti dengan dielektrik kontinu berpermitivitas $\varepsilon_r$ yang mengelilingi rongga berbentuk molekul. Rapat muatan zat terlarut mempolarisasi dielektrik, yang dinyatakan sebagai muatan permukaan pada dinding rongga; muatan itu kemudian dimasukkan ke dalam Hamiltonian zat terlarut, dan semuanya diselesaikan secara swakonsisten (**medan reaksi swakonsisten**, SCRF). Model populer: PCM, COSMO, dan SMD (yang menambahkan suku nonelektrostatik untuk kavitasi, dispersi, dan struktur pelarut). Bentuk paling sederhana model kontinum adalah **persamaan Born** untuk ion bola bermuatan $ze$ berjari-jari $a$:
 
 $$
-\Delta G_\text{solv} = -\frac{N_Az^2e^2}{8\pi\varepsilon_0a}\left(1 - \frac1{\varepsilon_r}\right) . \qquad \text{(17.e54)}
+\Delta G_\text{solv} = -\frac{N_Az^2e^2}{8\pi\varepsilon_0a}\left(1 - \frac1{\varepsilon_r}\right) . \qquad \text{(17.56)}
 $$
 
 Model kontinum menangkap sebagian besar energi solvasi elektrostatik dengan biaya hampir nol, tetapi tidak menangkap interaksi spesifik seperti ikatan hidrogen terarah. Untuk ion dan anion kecil, praktik yang baik adalah model **kluster–kontinum**: beberapa molekul pelarut di kulit pertama diperlakukan eksplisit, sisanya kontinum.
@@ -45,9 +45,9 @@ Persamaan Schrödinger bersifat nonrelativistik. Untuk elektron 1s dengan muatan
 Dalam praktik, efek relativistik skalar dimasukkan dengan potensial inti efektif (ECP) yang dicocokkan dengan perhitungan atom relativistik, atau dengan Hamiltonian Douglas–Kroll–Hess (DKH) dan ZORA. Untuk spin–orbit diperlukan perlakuan dua komponen atau empat komponen (persamaan Dirac).
 
 ::: {.contoh}
-**Contoh 17.c47 · Koefisien dispersi argon**
+**Contoh 17.59 · Koefisien dispersi argon**
 
-Taksir $C_6$ untuk Ar–Ar dengan (17.e52), memakai $\alpha = 11{,}08$ satuan atom dan $I = 15{,}76$ eV. Hitung energi dispersi pada $R = 3{,}76$ Å dalam cm⁻¹ dan bandingkan dengan nilai teliti $C_6 = 64{,}3$ satuan atom serta kedalaman sumur dimer Ar₂ (99,5 cm⁻¹).
+Taksir $C_6$ untuk Ar–Ar dengan (17.54), memakai $\alpha = 11{,}08$ satuan atom dan $I = 15{,}76$ eV. Hitung energi dispersi pada $R = 3{,}76$ Å dalam cm⁻¹ dan bandingkan dengan nilai teliti $C_6 = 64{,}3$ satuan atom serta kedalaman sumur dimer Ar₂ (99,5 cm⁻¹).
 
 **Penyelesaian.** Untuk atom sejenis $C_6 = \tfrac34I\alpha^2$. $I = 15{,}76/27{,}211 = 0{,}5792\ E_h$; $C_6 = 0{,}75(0{,}5792)(11{,}08)^2 = 53{,}3$ satuan atom. $R = 3{,}76$ Å $= 7{,}105$ bohr; $R^6 = 1{,}288 \times 10^5$; $E = -53{,}3/1{,}288 \times 10^5 = -4{,}14 \times 10^{-4}\ E_h = -91$ cm⁻¹.
 
@@ -55,7 +55,7 @@ Taksir $C_6$ untuk Ar–Ar dengan (17.e52), memakai $\alpha = 11{,}08$ satuan at
 :::
 
 ::: {.contoh}
-**Contoh 17.c48 · Persamaan Born untuk ion natrium**
+**Contoh 17.60 · Persamaan Born untuk ion natrium**
 
 Hitung energi bebas hidrasi Na⁺ dengan persamaan Born, memakai jari-jari Born 1,68 Å (jari-jari ion ditambah koreksi empiris) dan $\varepsilon_r = 78{,}4$. Bandingkan dengan jari-jari ion Pauling 1,02 Å.
 
@@ -65,7 +65,7 @@ Hitung energi bebas hidrasi Na⁺ dengan persamaan Born, memakai jari-jari Born 
 :::
 
 ::: {.contoh}
-**Contoh 17.c49 · Ketelitian pKa**
+**Contoh 17.61 · Ketelitian pKa**
 
 pKa dihitung dari siklus termodinamika: $\text{p}K_a = \Delta G_\text{deprot}/(RT\ln10)$, dengan $\Delta G_\text{deprot}$ energi bebas deprotonasi dalam larutan. Berapa galat $\Delta G$ yang setara dengan galat 1 satuan pKa pada 298 K? Bila energi solvasi anion meleset 10 kJ/mol, berapa galat pKa?
 
@@ -75,7 +75,7 @@ pKa dihitung dari siklus termodinamika: $\text{p}K_a = \Delta G_\text{deprot}/(R
 :::
 
 ::: {.contoh}
-**Contoh 17.c50 · Seberapa besar efek relativistik?**
+**Contoh 17.62 · Seberapa besar efek relativistik?**
 
 Taksir $v/c$, faktor $\gamma$, dan penyusutan relatif jari-jari orbital 1s ($1 - 1/\gamma$) untuk Cu ($Z = 29$), Ag (47), Au (79), dan Hg (80), dengan $v/c \approx Z/137{,}036$.
 
@@ -111,28 +111,46 @@ Keadaan transisi adalah titik tertinggi pada jalur energi terendah antara dua mi
 
 Menemukan minimum mudah: ikuti gradien turun. Menemukan titik pelana lebih sulit, karena kita harus naik di satu arah sambil turun di arah lain. Metode yang dipakai antara lain **mengikuti vektor eigen** (*eigenvector following*, langkah Newton yang dimodifikasi agar naik sepanjang vektor eigen terendah), metode **interpolasi** (QST2/QST3) yang memulai dari struktur reaktan dan produk, dan metode **pita elastis bertakik** (NEB) yang mengoptimasi seluruh rangkaian struktur di sepanjang jalur. Setelah TS ditemukan, dua pemeriksaan wajib: (1) analisis frekuensi harus menunjukkan tepat satu frekuensi imajiner, dan (2) perhitungan **koordinat reaksi intrinsik** (IRC), yang menuruni lereng dari TS ke kedua arah dalam koordinat berbobot massa, harus berakhir di reaktan dan produk yang dimaksud.
 
-![Gambar 17.g09 Permukaan model Müller–Brown, permukaan uji baku untuk algoritme pencarian titik stasioner. Tiga minimum (lingkaran) dihubungkan oleh dua titik pelana (segitiga); garis jingga adalah jalur energi minimum yang diperoleh dengan menuruni gradien dari setiap titik pelana ke kedua arah.](fig/c_pes.png){width=74%}
+![Gambar 17.10 Permukaan model Müller–Brown, permukaan uji baku untuk algoritme pencarian titik stasioner. Tiga minimum (lingkaran) dihubungkan oleh dua titik pelana (segitiga); garis jingga adalah jalur energi minimum yang diperoleh dengan menuruni gradien dari setiap titik pelana ke kedua arah.](fig/c_pes.png){width=74%}
 
 ### Teori keadaan transisi
 
 Dari energi TS dan reaktan, laju reaksi dihitung dengan **teori keadaan transisi** (Eyring, Evans, Polanyi, 1935):
 
 $$
-k = \kappa\,\frac{k_BT}{h}\,e^{-\Delta G^\ddagger/RT} , \qquad \text{(17.e55)}
+k = \kappa\,\frac{k_BT}{h}\,e^{-\Delta G^\ddagger/RT} , \qquad \text{(17.57)}
 $$
 
 dengan $\Delta G^\ddagger$ energi bebas pengaktifan (dihitung dari energi elektronik, ZPE, dan suku termal seperti di subbab 17.9, dengan frekuensi imajiner dikeluarkan dari fungsi partisi getaran TS) dan $\kappa$ koefisien transmisi yang memuat penerobosan dan penyeberangan balik. Untuk penerobosan, koreksi Wigner orde terendah (subbab 3.12) adalah
 
 $$
-\kappa_\text{W} = 1 + \frac{1}{24}\left(\frac{h|\nu^\ddagger|}{k_BT}\right)^2 , \qquad \text{(17.e56)}
+\kappa_\text{W} = 1 + \frac{1}{24}\left(\frac{h|\nu^\ddagger|}{k_BT}\right)^2 , \qquad \text{(17.58)}
 $$
 
 yang hanya berlaku bila koreksinya kecil; untuk transfer atom hidrogen dengan frekuensi imajiner besar diperlukan model Eckart atau penerobosan semiklasik multidimensi.
 
-Ketergantungan eksponensial (17.e55) menetapkan tuntutan ketelitian: galat 4,2 kJ/mol (1 kkal/mol) pada penghalang mengubah laju dengan faktor $e^{4184/RT} = 5{,}4$ pada 298 K. Penghalang reaksi juga merupakan besaran yang paling sulit bagi banyak metode, karena keadaan transisi sering mempunyai ikatan yang setengah putus dan setengah terbentuk, tempat korelasi statik dan galat delokalisasi DFT paling berpengaruh. HF umumnya melebih-lebihkan penghalang (korelasi lebih penting di TS daripada di reaktan), sedangkan fungsional GGA sering meremehkannya.
+![Gambar 17.11 Tetapan laju menurut teori keadaan transisi (κ = 1) sebagai fungsi energi bebas pengaktifan pada tiga suhu. Garis titik-titik menandai waktu paruh 1 s dan 1 jam. Pada 298 K, setiap 5,7 kJ/mol menurunkan laju sepuluh kali.](fig/c_laju.png){width=68%}
+
+Ketergantungan eksponensial (17.57) menetapkan tuntutan ketelitian: galat 4,2 kJ/mol (1 kkal/mol) pada penghalang mengubah laju dengan faktor $e^{4184/RT} = 5{,}4$ pada 298 K. Penghalang reaksi juga merupakan besaran yang paling sulit bagi banyak metode, karena keadaan transisi sering mempunyai ikatan yang setengah putus dan setengah terbentuk, tempat korelasi statik dan galat delokalisasi DFT paling berpengaruh. HF umumnya melebih-lebihkan penghalang (korelasi lebih penting di TS daripada di reaktan), sedangkan fungsional GGA sering meremehkannya.
+
+### Hammond, Curtin–Hammett, dan menafsirkan profil energi
+
+Dua prinsip kualitatif membantu membaca profil energi hasil perhitungan. **Postulat Hammond** (1955): keadaan transisi menyerupai spesies stabil (reaktan atau produk) yang energinya paling dekat dengannya. Reaksi eksotermis mempunyai keadaan transisi "awal" yang mirip reaktan, dan reaksi endotermis keadaan transisi "akhir" yang mirip produk. Perhitungan menguji postulat ini secara kuantitatif dengan membandingkan panjang ikatan yang putus dan terbentuk di TS.
+
+**Prinsip Curtin–Hammett**: bila dua konformer atau isomer reaktan saling berubah jauh lebih cepat daripada keduanya bereaksi, perbandingan produk hanya ditentukan oleh selisih energi bebas **kedua keadaan transisi**, bukan oleh populasi konformer. Konformer yang jarang dapat menghasilkan produk utama bila jalurnya rendah. Prinsip ini penting dalam katalisis asimetris: selektivitas enansiomer ditentukan oleh selisih energi keadaan transisi yang menuju kedua enansiomer, sering hanya 5–10 kJ/mol, dan kimia komputasi kini rutin dipakai untuk menjelaskan dan merancang selektivitas semacam itu.
 
 ::: {.contoh}
-**Contoh 17.c51 · Titik stasioner permukaan Müller–Brown**
+**Contoh 17.63 · Prinsip Curtin–Hammett**
+
+Konformer A dan B saling berubah cepat; B 4 kJ/mol di atas A. Dari A, penghalang menuju produk P_A adalah 70 kJ/mol; dari B, penghalang menuju produk P_B adalah 64 kJ/mol (diukur dari B). Hitung populasi B pada 298 K dan perbandingan produk P_B : P_A.
+
+**Penyelesaian.** Populasi relatif B/A $= e^{-4000/(8{,}314 \times 298)} = 0{,}20$, jadi B hanya 17% dari campuran. Keadaan transisi menuju P_B terletak $4 + 64 = 68$ kJ/mol di atas A, sedangkan menuju P_A 70 kJ/mol. Perbandingan produk $e^{(70 - 68) \times 1000/(8{,}314 \times 298)} = 2{,}2$: P_B produk utama.
+
+**Memahami hasil.** Konformer minoritas menghasilkan dua pertiga produk. Menghitung hanya konformer terendah dan jalurnya akan meramalkan produk yang salah. Untuk perhitungan selektivitas, semua konformer keadaan transisi yang relevan harus dicari, dan energi bebasnya, bukan hanya energi elektroniknya, harus dibandingkan.
+:::
+
+::: {.contoh}
+**Contoh 17.64 · Titik stasioner permukaan Müller–Brown**
 
 Permukaan Müller–Brown $V(x, y) = \sum_{k=1}^4A_k\exp[a_k(x - x_k)^2 + b_k(x - x_k)(y - y_k) + c_k(y - y_k)^2]$ dengan parameter baku mempunyai lima titik stasioner. Penyelesaian numerik $\nabla V = 0$ (dengan `scipy.optimize.root`) dan diagonalisasi Hessian memberi:
 
@@ -148,13 +166,13 @@ Golongkan setiap titik dan hitung penghalang untuk A → C dan C → B.
 
 **Penyelesaian.** A, B, C mempunyai dua nilai eigen positif: minimum. S1 dan S2 masing-masing satu nilai eigen negatif: titik pelana orde pertama. Jalur A → C melewati S1: penghalang $-40{,}66 - (-146{,}70) = 106{,}0$. Jalur C → B melewati S2: penghalang $-72{,}25 - (-80{,}77) = 8{,}5$ (satuan permukaan model).
 
-**Memahami hasil.** Zat antara C berada dalam sumur dangkal: penghalang keluarnya ke B hanya 8,5, jauh lebih kecil daripada penghalang masuk dari A. Pola semacam ini (zat antara reaktif yang berumur pendek) lazim dalam mekanisme reaksi nyata. Perhatikan juga bahwa jalur energi minimum melengkung tajam (Gambar 17.g09): koordinat reaksi bukan garis lurus antara reaktan dan produk, sehingga interpolasi linear antara struktur reaktan dan produk tidak cukup untuk menemukan TS.
+**Memahami hasil.** Zat antara C berada dalam sumur dangkal: penghalang keluarnya ke B hanya 8,5, jauh lebih kecil daripada penghalang masuk dari A. Pola semacam ini (zat antara reaktif yang berumur pendek) lazim dalam mekanisme reaksi nyata. Perhatikan juga bahwa jalur energi minimum melengkung tajam (Gambar 17.10): koordinat reaksi bukan garis lurus antara reaktan dan produk, sehingga interpolasi linear antara struktur reaktan dan produk tidak cukup untuk menemukan TS.
 :::
 
 ::: {.contoh}
-**Contoh 17.c52 · Dari penghalang ke waktu paruh**
+**Contoh 17.65 · Dari penghalang ke waktu paruh**
 
-Dengan (17.e55) dan $\kappa = 1$, hitung tetapan laju orde pertama dan waktu paruh pada 298 K untuk $\Delta G^\ddagger$ = 40, 60, 80, dan 100 kJ/mol.
+Dengan (17.57) dan $\kappa = 1$, hitung tetapan laju orde pertama dan waktu paruh pada 298 K untuk $\Delta G^\ddagger$ = 40, 60, 80, dan 100 kJ/mol.
 
 **Penyelesaian.** $k_BT/h = 6{,}21 \times 10^{12}$ s⁻¹. Hasilnya:
 
@@ -169,7 +187,7 @@ Dengan (17.e55) dan $\kappa = 1$, hitung tetapan laju orde pertama dan waktu par
 :::
 
 ::: {.contoh}
-**Contoh 17.c53 · Penghalang H + H₂ dengan Hartree–Fock**
+**Contoh 17.66 · Penghalang H + H₂ dengan Hartree–Fock**
 
 Untuk reaksi H + H₂ → H₂ + H, program pendamping (UHF/6-31G**) memberi: H₂ setimbang ($r = 0{,}7326$ Å) $-1{,}131334\ E_h$; atom H $-0{,}498233\ E_h$; keadaan transisi linear simetris ($r = 0{,}9332$ Å) $-1{,}601072\ E_h$. Hitung penghalang dan bandingkan dengan nilai teliti 40,2 kJ/mol (dari permukaan CI sangat besar). Hitung juga perbandingan laju menurut kedua penghalang pada 300 K.
 
@@ -179,13 +197,23 @@ Untuk reaksi H + H₂ → H₂ + H, program pendamping (UHF/6-31G**) memberi: H�
 :::
 
 ::: {.contoh}
-**Contoh 17.c54 · Koreksi penerobosan Wigner**
+**Contoh 17.67 · Koreksi penerobosan Wigner**
 
 Hitung $\kappa_\text{W}$ pada 298 K untuk frekuensi imajiner 500i, 1000i, dan 1500i cm⁻¹. Untuk transfer proton dengan $|\nu^\ddagger| = 1500$ cm⁻¹, mengapa koreksi Wigner tidak dapat dipercaya?
 
 **Penyelesaian.** $h|\nu^\ddagger|/k_BT = hc\tilde\nu/k_BT$ dengan $hc/k_B = 1{,}4388$ cm K: 2,41; 4,83; 7,24. Maka $\kappa_\text{W} = 1 + u^2/24$: 1,24; 1,97; 3,18.
 
 **Memahami hasil.** Untuk 500i cm⁻¹ (penghalang lebar, misalnya rotasi atau gerak atom berat), penerobosan menambah laju 24%. Untuk 1500i cm⁻¹ (penghalang sempit transfer H), koreksinya lebih dari tiga kali lipat, padahal rumus Wigner diturunkan dengan menganggap koreksi kecil; suku orde lebih tinggi sama besarnya, dan model yang lebih lengkap (Eckart, penerobosan sudut kecil) sering memberi faktor 10 atau lebih. Efek isotop kinetik H/D yang sangat besar (subbab 5.10) adalah tanda percobaan bahwa penerobosan dominan.
+:::
+
+::: {.contoh}
+**Contoh 17.68 · Dari Eyring ke Arrhenius**
+
+Untuk reaksi unimolekul dalam fase gas, $\Delta H^\ddagger = 80$ kJ/mol dan $\Delta S^\ddagger = -20$ J mol⁻¹ K⁻¹ (hasil analisis frekuensi). Dengan hubungan $E_a = \Delta H^\ddagger + RT$ dan $A = e\,(k_BT/h)\,e^{\Delta S^\ddagger/R}$ untuk reaksi unimolekul, hitung energi pengaktifan Arrhenius, faktor praeksponensial, dan tetapan laju pada 298 K.
+
+**Penyelesaian.** $E_a = 80 + 2{,}48 = 82{,}5$ kJ/mol. $A = 2{,}718 \times 6{,}21 \times 10^{12} \times e^{-2{,}405} = 1{,}52 \times 10^{12}$ s⁻¹. $k = (k_BT/h)\,e^{\Delta S^\ddagger/R}e^{-\Delta H^\ddagger/RT} = 5{,}4 \times 10^{-3}$ s⁻¹.
+
+**Memahami hasil.** Entropi pengaktifan negatif menandakan keadaan transisi yang lebih teratur daripada reaktan, misalnya struktur cincin dalam penataan ulang, dan menurunkan faktor praeksponensial di bawah nilai "normal" sekitar $10^{13}$ s⁻¹. Dengan menghitung $\Delta H^\ddagger$ dan $\Delta S^\ddagger$ secara terpisah, kimia komputasi dapat langsung dibandingkan dengan parameter Arrhenius dari kinetika percobaan, dan perbedaan pada $A$ sering lebih mudah ditafsirkan secara struktural daripada perbedaan pada $E_a$.
 :::
 
 ::: {.kuis}
