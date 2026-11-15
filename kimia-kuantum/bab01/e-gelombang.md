@@ -225,7 +225,7 @@ Niels Bohr menyebut keadaan ini **komplementaritas**: sifat gelombang dan sifat 
 ::: {.contoh}
 **Contoh 1.43 · Ikatan kimia sebagai interferensi**
 
-Dalam molekul H₂⁺ (satu elektron, dua proton A dan B), fungsi gelombang elektron dapat didekati sebagai jumlah atau selisih dua orbital atom: $\psi_\pm = \psi_A \pm \psi_B$ (normalisasi diabaikan dulu). Di titik tengah antara kedua inti, $\psi_A = \psi_B = a$. Bandingkan kerapatan peluang di titik tengah untuk $\psi_+$, $\psi_-$, dan untuk "campuran klasik" yang hanya menjumlahkan peluang.
+Dalam molekul H₂⁺ (satu elektron, dua proton A dan B), fungsi gelombang elektron dapat didekati sebagai jumlah atau selisih dua orbital atom: $\psi_\pm = \psi_A \pm \psi_B$ (normalisasi diabaikan dulu). Di titik tengah antara kedua inti, $\psi_A = \psi_B = a$. Bandingkan rapat peluang di titik tengah untuk $\psi_+$, $\psi_-$, dan untuk "campuran klasik" yang hanya menjumlahkan peluang.
 
 **Penyelesaian.** $|\psi_+|^2 = (a + a)^2 = 4a^2$. $|\psi_-|^2 = (a - a)^2 = 0$. Campuran klasik: $|\psi_A|^2 + |\psi_B|^2 = 2a^2$.
 
