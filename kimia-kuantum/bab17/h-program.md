@@ -8,7 +8,7 @@ $$
 (\mu\nu|\lambda\sigma) \approx \delta_{\mu\nu}\delta_{\lambda\sigma}(\mu\mu|\lambda\lambda) , \qquad \text{(17.59)}
 $$
 
-dan matriks tumpang tindih menjadi matriks satuan. Hanya elektron valensi yang diperlakukan, dalam basis minimal. Hierarki hampirannya:
+dan matriks tumpang tindih menjadi matriks satuan. Hanya elektron valensi yang diperlakukan, dalam basis minimal. Hierarki pendekatannya:
 
 - **CNDO** (Pople, 1965): ZDO untuk semua pasangan; integral $(\mu\mu|\lambda\lambda)$ hanya bergantung pada atom tempat $\mu$ dan $\lambda$ berada, $\gamma_{AB}$.
 - **INDO**: integral pertukaran satu pusat dipertahankan, sehingga aturan Hund dan keadaan spin dapat dibedakan.
@@ -75,7 +75,7 @@ Dalam medan gaya AMBER, ikatan C–C sp³ mempunyai $k_r = 310$ kkal mol⁻¹ Å
 ::: {.kuis}
 **Kuis cepat 17.17**
 
-Mengapa metode semiempiris dapat memberi entalpi pembentukan yang lebih baik daripada HF/6-31G*, meskipun hampirannya jauh lebih kasar? Mengapa medan gaya biasa tidak dapat dipakai untuk mempelajari reaksi pemutusan ikatan?
+Mengapa metode semiempiris dapat memberi entalpi pembentukan yang lebih baik daripada HF/6-31G*, meskipun pendekatannya jauh lebih kasar? Mengapa medan gaya biasa tidak dapat dipakai untuk mempelajari reaksi pemutusan ikatan?
 :::
 
 ## 17.18 Program kimia kuantum dan alur kerja perhitungan

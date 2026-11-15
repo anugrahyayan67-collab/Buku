@@ -28,7 +28,7 @@ $$
 
 Dalam basis **STO-nG** (Hehre, Stewart, dan Pople, 1969), setiap STO dihampiri dengan $n$ fungsi Gauss yang eksponen dan koefisiennya dipilih agar tumpang tindihnya dengan STO sebesar mungkin. Koefisien dan eksponen itu kemudian dibekukan, sehingga setiap fungsi terkontraksi dihitung sebagai satu fungsi basis dalam persamaan Roothaan, meskipun integralnya dibangun dari $n^4$ integral primitif. Gambar 17.4 memperlihatkan bagaimana tiga fungsi Gauss sudah meniru orbital 1s Slater dengan baik, kecuali di dekat inti (taring) dan di ekor yang jauh.
 
-![Gambar 17.4 Pendekatan orbital Slater 1s (ζ = 1, garis hitam) dengan satu, dua, dan tiga fungsi Gauss (STO-1G, STO-2G, STO-3G). Kiri: fungsi radial; sisipan memperbesar daerah dekat inti, tempat fungsi Gauss tidak dapat meniru taring. Kanan: fungsi distribusi radial r²ψ², yang menunjukkan bahwa di daerah yang penting secara energi hampirannya sudah sangat baik.](fig/c_basis.png){width=94%}
+![Gambar 17.4 Pendekatan orbital Slater 1s (ζ = 1, garis hitam) dengan satu, dua, dan tiga fungsi Gauss (STO-1G, STO-2G, STO-3G). Kiri: fungsi radial; sisipan memperbesar daerah dekat inti, tempat fungsi Gauss tidak dapat meniru taring. Kanan: fungsi distribusi radial r²ψ², yang menunjukkan bahwa di daerah yang penting secara energi pendekatannya sudah sangat baik.](fig/c_basis.png){width=94%}
 
 ### Basis minimal, split-valence, polarisasi, difus
 

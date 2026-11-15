@@ -302,7 +302,7 @@ Dengan basis 6-31G**, energi H₂O adalah $-76{,}02316\ E_h$, dan energi UHF kat
 
 **Penyelesaian.** $\Delta E = -75{,}62539 - (-76{,}02316) = 0{,}39777\ E_h = 10{,}82$ eV.
 
-**Memahami hasil.** Koopmans terlalu besar 0,9 eV, ΔSCF terlalu kecil 1,8 eV. Selisih Koopmans–ΔSCF, 2,7 eV, adalah energi relaksasi; selisih ΔSCF–percobaan, 1,8 eV, adalah perbedaan energi korelasi antara molekul netral dan kation. Bahwa Koopmans "lebih baik" daripada ΔSCF adalah kebetulan yang menguntungkan dari peniadaan galat, bukan tanda bahwa hampirannya lebih unggul.
+**Memahami hasil.** Koopmans terlalu besar 0,9 eV, ΔSCF terlalu kecil 1,8 eV. Selisih Koopmans–ΔSCF, 2,7 eV, adalah energi relaksasi; selisih ΔSCF–percobaan, 1,8 eV, adalah perbedaan energi korelasi antara molekul netral dan kation. Bahwa Koopmans "lebih baik" daripada ΔSCF adalah kebetulan yang menguntungkan dari peniadaan galat, bukan tanda bahwa pendekatannya lebih unggul.
 :::
 
 ::: {.contoh}
