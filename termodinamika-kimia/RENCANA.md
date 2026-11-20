@@ -4,7 +4,7 @@ Buku pegangan mata kuliah **Termodinamika Kimia** (S1 Kimia Unesa, kode 47201031
 
 Buku ini lanjutan langsung dari *Fisika Umum* Bab 10–11 (suhu, kalor, gas ideal, hukum termodinamika) dan dilanjutkan oleh *Kimia Fisika 2: Kinetika Kimia*.
 
-**Target awal** (± 35–40 halaman, ≥ 25 contoh, ≥ 60 soal per bab) diganti kriteria mutu; lihat `REVISI.md`.
+**Target awal** (± 35–40 halaman, ≥ 25 contoh, ≥ 60 soal per bab) diganti kriteria mutu; lihat `REVISI.md`. Revisi 1.1 (bagian medium dan high) selesai 20-11-2026.
 
 Status: ☐ belum · ◐ sedang · ☑ selesai
 

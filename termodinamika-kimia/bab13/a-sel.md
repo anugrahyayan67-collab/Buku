@@ -155,7 +155,9 @@ Pakai Tabel 13.1 untuk menentukan apakah (a) besi dan (b) tembaga larut dalam as
 **Memahami hasil.** Logam di atas hidrogen dalam deret (potensial negatif) larut dalam asam bukan pengoksidasi; logam di bawahnya tidak. Tembaga tetap dapat dilarutkan oleh asam nitrat, karena di sana yang mengoksidasi adalah ion nitrat ($E^\circ(\text{NO}_3^-/\text{NO}) = +0{,}96$ V), bukan H⁺.
 :::
 
-Satu kesalahan yang sangat umum adalah menjumlahkan potensial setengah sel untuk memperoleh potensial setengah sel lain. Ini **tidak** boleh, karena *E* intensif. Yang boleh dijumlahkan adalah energi Gibbs, $\Delta G^\circ = -nFE^\circ$.
+::: {.awas}
+**Potensial setengah sel tidak dijumlahkan.** Kesalahan yang sangat umum adalah menjumlahkan potensial dua setengah reaksi untuk memperoleh potensial setengah reaksi ketiga. Ini **tidak** boleh, karena *E* intensif. Yang boleh dijumlahkan adalah energi Gibbs, $\Delta G^\circ = -nFE^\circ$, seperti pada contoh berikut.
+:::
 
 ::: {.contoh}
 **Contoh 13.4 · Menggabungkan setengah sel dengan benar**

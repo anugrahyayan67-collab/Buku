@@ -52,6 +52,28 @@ Klorida dioksidasi bila potensial pengoksidasi melebihi $E^\circ(\text{Cl}_2/\te
 **Memahami hasil.** Daya oksidasi permanganat sangat bergantung pada keasaman, karena delapan ion H⁺ ikut dalam reaksinya. Inilah alasan titrasi permanganometri selalu dilakukan dalam asam sulfat, bukan asam klorida: dalam HCl pekat, permanganat ikut mengoksidasi klorida dan hasil titrasi menjadi terlalu tinggi.
 :::
 
+Selama ini kita menganggap aktivitas ion sama dengan konsentrasinya. Seberapa besar kesalahan anggapan itu? Bab 10 sudah memberi alatnya: koefisien aktivitas ion dari hukum Debye–Hückel.
+
+::: {.contoh}
+**Contoh 13.7 · Koreksi aktivitas pada persamaan Nernst**
+
+Sel tanpa sambungan cairan dari Contoh 13.1, $\text{Pt}\,|\,\text{H}_2(g, 1\ \text{bar})\,|\,\text{HCl}(aq, 0{,}0100\ \text{mol kg}^{-1})\,|\,\text{AgCl}\,|\,\text{Ag}$, mempunyai *E*° = 0,2223 V. Hitung potensial selnya pada 25 °C (a) dengan menganggap aktivitas sama dengan molalitas; (b) dengan koefisien aktivitas dari hukum pembatas Debye–Hückel (10.17); (c) dengan koefisien aktivitas terukur, $\gamma_\pm = 0{,}904$.
+
+**Rencana.** Untuk reaksi sel $\tfrac12\text{H}_2 + \text{AgCl} \rightarrow \text{Ag} + \text{H}^+ + \text{Cl}^-$, padatan beraktivitas 1 dan H₂ pada 1 bar juga beraktivitas 1, sehingga $Q = a_{\text{H}^+}a_{\text{Cl}^-} = (\gamma_\pm b/b^\circ)^2$. Persamaan Nernst dengan *n* = 1 menjadi $E = E^\circ - 2(0{,}059\,16\ \text{V})\log(\gamma_\pm b/b^\circ)$.
+
+**Penyelesaian.** (a) Dengan $\gamma_\pm = 1$: $E = 0{,}2223 - (0{,}118\,32)\log0{,}0100 = 0{,}2223 + 0{,}2366 = 0{,}4589$ V.
+
+(b) Kekuatan ion $I = \tfrac12[(1)^2(0{,}0100) + (1)^2(0{,}0100)] = 0{,}0100$. Dari (10.17), $\log\gamma_\pm = -(0{,}509)(1)\sqrt{0{,}0100} = -0{,}0509$, sehingga $\gamma_\pm = 0{,}889$ dan
+$$
+E = 0{,}2223 - (0{,}118\,32)\log(0{,}889 \times 0{,}0100) = 0{,}4650\ \text{V} .
+$$
+(c) Dengan $\gamma_\pm = 0{,}904$: $E = 0{,}4641$ V.
+
+**Memahami hasil.** Mengabaikan aktivitas membuat tegangan meleset 5 mV. Angka itu tampak kecil, tetapi setara dengan kesalahan sekitar 11% pada aktivitas ion, padahal voltmeter laboratorium membaca sampai 0,1 mV. Hukum pembatas sudah menutup sebagian besar selisih itu; sisanya, 0,8 mV, berasal dari ukuran ion yang diabaikan hukum pembatas. Arah koreksinya masuk akal. Setiap ion terselubungi atmosfer ionik yang menstabilkannya, sehingga H⁺ dan Cl⁻ hasil reaksi sel "kurang aktif" daripada konsentrasinya. *Q* menjadi lebih kecil, dan sel mendorong reaksinya sedikit lebih kuat.
+
+Hubungan ini juga dapat dibalik untuk **mengukur**. Menyusun ulang persamaan Nernst sel ini memberi $E + 2(0{,}059\,16\ \text{V})\log(b/b^\circ) = E^\circ - 2(0{,}059\,16\ \text{V})\log\gamma_\pm$. Dalam larutan encer, $\log\gamma_\pm$ sebanding dengan $\sqrt{b}$, sehingga ruas kiri yang digambarkan terhadap $\sqrt{b}$ memberi garis lurus yang memotong sumbu tegak di *E*°. Dengan cara inilah *E*° elektrode perak–perak klorida ditentukan, dan begitu *E*° diketahui, setiap pengukuran *E* memberi $\gamma_\pm$ pada molalitas itu.
+:::
+
 ::: {.kuis}
 **Kuis cepat 13.4** Logam natrium (*E*° = −2,714 V) bereaksi hebat dengan air. Pakai Gambar 13.2 untuk menjelaskan mengapa.
 :::
@@ -70,7 +92,7 @@ $$
 Persamaan ini adalah gabungan $\Delta_\text{r}G^\circ = -nFE^\circ$ dan $\Delta_\text{r}G^\circ = -RT\ln K$, dan ia memberi cara yang sangat kuat untuk mengukur tetapan kesetimbangan, termasuk yang terlalu besar atau terlalu kecil untuk diukur dengan analisis komposisi.
 
 ::: {.contoh}
-**Contoh 13.7 · Tetapan kesetimbangan sel Daniell**
+**Contoh 13.8 · Tetapan kesetimbangan sel Daniell**
 
 Hitung *K* untuk $\text{Zn} + \text{Cu}^{2+} \rightleftharpoons \text{Zn}^{2+} + \text{Cu}$ pada 25 °C.
 
@@ -82,7 +104,7 @@ Hitung *K* untuk $\text{Zn} + \text{Cu}^{2+} \rightleftharpoons \text{Zn}^{2+} +
 Cara yang sama memberi hasil kali kelarutan. Trik yang dipakai: susun dua setengah sel yang reaksi selnya adalah reaksi pelarutan, walaupun reaksi itu bukan redoks.
 
 ::: {.contoh}
-**Contoh 13.8 · Kelarutan perak klorida dari voltmeter**
+**Contoh 13.9 · Kelarutan perak klorida dari voltmeter**
 
 Gabungkan setengah reaksi $\text{AgCl} + \text{e}^- \rightarrow \text{Ag} + \text{Cl}^-$ ($E^\circ = 0{,}2223$ V) dan $\text{Ag}^+ + \text{e}^- \rightarrow \text{Ag}$ ($E^\circ = 0{,}7996$ V) untuk menghitung $K_\text{sp}$ AgCl pada 25 °C.
 
@@ -95,7 +117,7 @@ $$
 :::
 
 ::: {.contoh}
-**Contoh 13.9 · Mengapa titrasi redoks tajam**
+**Contoh 13.10 · Mengapa titrasi redoks tajam**
 
 Dalam titrasi Fe²⁺ dengan Ce⁴⁺ dalam asam sulfat, $E^\circ(\text{Ce}^{4+}/\text{Ce}^{3+}) = 1{,}61$ V dan $E^\circ(\text{Fe}^{3+}/\text{Fe}^{2+}) = 0{,}771$ V. Hitung *K* reaksi titrasi $\text{Ce}^{4+} + \text{Fe}^{2+} \rightleftharpoons \text{Ce}^{3+} + \text{Fe}^{3+}$.
 

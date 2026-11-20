@@ -50,6 +50,14 @@ Untuk disproporsionasi $2\text{Cu}^+ \rightarrow \text{Cu}^{2+} + \text{Cu}$: Cu
 
 *Cara berpikir:* potensial setengah sel adalah energi **per elektron**, sehingga menggabungkannya harus dibobot dengan banyaknya elektron. Hasil tentang Cu⁺ menjelaskan mengapa senyawa tembaga(I) dalam air hanya stabil bila Cu⁺ diikat kuat, misalnya sebagai CuCl padat atau kompleks, yang menurunkan aktivitasnya.
 
+**Soal {{dh}}.** Dengan $I = b/b^\circ = 0{,}0500$ dan $\sqrt I = 0{,}2236$: (a) $\log\gamma_\pm = -0{,}1138$, $\gamma_\pm = 0{,}770$; (b) $\log\gamma_\pm = -0{,}1138/1{,}2236 = -0{,}0930$, $\gamma_\pm = 0{,}807$. Dengan $E = 0{,}2223 - 0{,}118\,32\log(\gamma_\pm \times 0{,}0500)$:
+
+| $\gamma_\pm$ | 1 (tanpa koreksi) | 0,770 (pembatas) | 0,807 (diperluas) | 0,830 (terukur) |
+|---|---|---|---|---|
+| *E* (V) | 0,3762 | 0,3897 | 0,3872 | 0,3858 |
+
+Pada 0,0500 mol kg⁻¹, mengabaikan aktivitas membuat *E* meleset hampir 10 mV, dua kali selisih pada 0,0100 mol kg⁻¹. Hukum pembatas kini melewati nilai terukur sejauh 4 mV, karena ia menganggap ion sebagai titik dan melebih-lebihkan rapatnya atmosfer ionik. Penyebut $1 + \sqrt I$ dalam bentuk diperluas meniru ukuran ion yang membatasi seberapa dekat ion lawan dapat merapat, dan memangkas selisih itu menjadi sekitar 1 mV. Makin pekat larutan, makin diperlukan bentuk yang lebih lengkap atau koefisien aktivitas terukur.
+
 **Soal {{ksp}}.** Kurangkan $\text{Ag}^+ + \text{e}^- \rightarrow \text{Ag}$ dari $\text{AgBr} + \text{e}^- \rightarrow \text{Ag} + \text{Br}^-$: $\text{AgBr}(s) \rightarrow \text{Ag}^+ + \text{Br}^-$, *n* = 1, $E^\circ = 0{,}0713 - 0{,}7996 = -0{,}7283$ V.
 $$
 \ln K_\text{sp} = \frac{(96\,485)(-0{,}7283)}{(8{,}314)(298{,}15)} = -28{,}35 , \qquad K_\text{sp} = 4{,}9 \times 10^{-13} .
@@ -60,6 +68,14 @@ $$
 **Soal {{panas}}.** Bekerja reversibel: $q_\text{rev} = T\Delta_\text{r}S = T\cdot nF(dE/dT) = (298{,}15)(2)(96\,485)(-4{,}0 \times 10^{-4}) = -23{,}0$ kJ mol⁻¹, sehingga 23,0 kJ dilepaskan. Dihubung pendek: seluruh $\Delta_\text{r}H = -119{,}5$ kJ mol⁻¹ keluar sebagai kalor.
 
 *Cara berpikir:* pada kerja reversibel, $-\Delta_\text{r}G = nFE = 96{,}5$ kJ menjadi listrik dan hanya $T\Delta_\text{r}S$ menjadi kalor; jumlahnya 119,5 kJ, sama dengan $-\Delta_\text{r}H$. Kalor yang dilepaskan baterai nyata selalu di antara kedua batas itu, makin dekat ke batas hubung pendek bila arusnya makin besar. Pengelolaan kalor ini menjadi salah satu masalah teknik utama baterai kendaraan listrik.
+
+**Soal {{sofc}}.** (a) Untuk $\text{H}_2 + \tfrac12\text{O}_2 \rightarrow \text{H}_2\text{O}(l)$, $\Delta_\text{r}S^\circ = 69{,}91 - 130{,}68 - \tfrac12(205{,}14) = -163{,}3$ J K⁻¹ mol⁻¹. Dari (13.6), $dE^\circ/dT = \Delta_\text{r}S^\circ/nF = -163{,}3/(2 \times 96\,485) = -0{,}846$ mV K⁻¹. Pada 80 °C: $E^\circ = 1{,}229 - (0{,}000\,846)(55) = 1{,}182$ V.
+
+Untuk (b), dengan uap air, $\Delta_\text{r}S^\circ = 188{,}83 - 130{,}68 - 102{,}57 = -44{,}4$ J K⁻¹ mol⁻¹. Pada 1073 K:
+$$
+\Delta_\text{r}G^\circ = -241\,830 - (1073{,}15)(-44{,}4) = -194{,}2\ \text{kJ mol}^{-1} , \qquad E^\circ = \frac{194\,200}{2 \times 96\,485} = 1{,}006\ \text{V} .
+$$
+Batas termodinamika SOFC memang lebih rendah, karena entropi reaksi negatif menurunkan $-\Delta_\text{r}G$ ketika suhu naik. Tetapi pada 800 °C reaksi di elektrode berjalan sangat cepat, sehingga overpotensialnya kecil dan katalis platina tidak diperlukan; sel nyata dapat bekerja dekat batasnya. Kalor buangnya pun bersuhu tinggi, sehingga masih dapat menggerakkan turbin. Sel PEM memiliki batas lebih tinggi, tetapi bekerja jauh di bawahnya (Contoh 13.17). Inilah persaingan antara termodinamika dan laju yang kita temui di sepanjang buku.
 
 # Bacaan lanjut
 

@@ -14,7 +14,7 @@ Ini cara yang sangat elegan: tiga besaran termodinamika utama sebuah reaksi, $\D
 ![Gambar 13.3 Potensial standar sel Pt|H₂|HCl|AgCl|Ag terhadap suhu (titik: pengukuran klasik Bates dan Bower; kurva: polinom kuadrat). Garis putus-putus adalah garis singgung di 25 °C, yang kemiringannya memberi $\Delta_\text{r}S^\circ$.](fig/ET.png){width=70%}
 
 ::: {.contoh}
-**Contoh 13.10 · Termodinamika lengkap dari satu sel**
+**Contoh 13.11 · Termodinamika lengkap dari satu sel**
 
 Untuk sel Pt|H₂|HCl|AgCl|Ag (reaksi $\tfrac12\text{H}_2 + \text{AgCl} \rightarrow \text{Ag} + \text{H}^+ + \text{Cl}^-$, *n* = 1), $E^\circ = 0{,}2224$ V dan $dE^\circ/dT = -0{,}637$ mV K⁻¹ pada 25 °C (Gambar 13.3). Hitung $\Delta_\text{r}G^\circ$, $\Delta_\text{r}S^\circ$, dan $\Delta_\text{r}H^\circ$, lalu bandingkan dengan tabel: $\Delta_\text{f}H^\circ$ AgCl(s) = −127,07 dan HCl(aq) = −167,16 kJ mol⁻¹.
 
@@ -36,9 +36,9 @@ Dari tabel: $\Delta_\text{r}H^\circ = -167{,}16 - (-127{,}07) = -40{,}1$ kJ mol�
 Ada akibat menarik dari (13.6). Bila sel bekerja secara reversibel, kerja listrik yang diberikannya adalah $-\Delta_\text{r}G$, dan kalor yang dipertukarkannya dengan lingkungan adalah $q_\text{rev} = T\Delta_\text{r}S$. Untuk sel dengan $dE/dT$ negatif, seperti di atas, sel melepaskan kalor walaupun bekerja sempurna. Untuk sel dengan $dE/dT$ positif, sel menyerap kalor dari lingkungan dan mengubahnya menjadi listrik, sehingga kerja listriknya **melebihi** $-\Delta_\text{r}H$, seperti pembakaran glukosa di Bab 7.
 
 ::: {.contoh}
-**Contoh 13.11 · Kalor dari sel yang bekerja sempurna dan yang dihubung pendek**
+**Contoh 13.12 · Kalor dari sel yang bekerja sempurna dan yang dihubung pendek**
 
-Untuk sel pada Contoh 13.10, hitung kalor yang dilepaskan per mol reaksi bila sel (a) bekerja secara reversibel, (b) dihubung pendek sehingga tidak ada kerja listrik yang dilakukan.
+Untuk sel pada Contoh 13.11, hitung kalor yang dilepaskan per mol reaksi bila sel (a) bekerja secara reversibel, (b) dihubung pendek sehingga tidak ada kerja listrik yang dilakukan.
 
 **Penyelesaian.** (a) $q_\text{rev} = T\Delta_\text{r}S^\circ = (298{,}15)(-61{,}5) = -18{,}3$ kJ mol⁻¹: sel melepaskan 18,3 kJ kalor sambil memberikan 21,5 kJ kerja listrik.
 
@@ -62,19 +62,19 @@ $$
 Tegangan sel konsentrasi berasal sepenuhnya dari entropi pencampuran: dorongan untuk menyamakan konsentrasi diubah menjadi kerja listrik. Inilah jawaban Kuis 13.5: sel dengan *E*° = 0 tetap dapat menghasilkan listrik bila *Q* ≠ 1.
 
 ::: {.contoh}
-**Contoh 13.12 · Sel konsentrasi perak**
+**Contoh 13.13 · Sel konsentrasi perak**
 
 Hitung potensial sel $\text{Ag}\,|\,\text{AgNO}_3(0{,}010\ \text{mol L}^{-1})\,\|\,\text{AgNO}_3(1{,}0\ \text{mol L}^{-1})\,|\,\text{Ag}$ pada 25 °C, dengan anggapan aktivitas sama dengan konsentrasi.
 
 **Penyelesaian.** $E = (0{,}059\,16)\log(1{,}0/0{,}010) = 0{,}118$ V. Elektrode dalam larutan encer adalah anode: perak larut di sana dan mengendap di elektrode dalam larutan pekat.
 
-**Memahami hasil.** Perbedaan konsentrasi seratus kali hanya memberi 0,12 V. Dalam pengukuran teliti, aktivitas harus dipakai: koefisien aktivitas AgNO₃ 1 mol L⁻¹ jauh di bawah satu, sehingga tegangan terukur lebih kecil. Sebaliknya, sel konsentrasi adalah cara klasik **mengukur** koefisien aktivitas ion, dengan membandingkan tegangan terukur dengan ramalan (13.7).
+**Memahami hasil.** Perbedaan konsentrasi seratus kali hanya memberi 0,12 V. Dalam pengukuran teliti, aktivitas harus dipakai: koefisien aktivitas AgNO₃ 1 mol L⁻¹ jauh di bawah satu, sehingga tegangan terukur lebih kecil (bandingkan Contoh 13.7). Sebaliknya, sel konsentrasi adalah cara klasik **mengukur** koefisien aktivitas ion, dengan membandingkan tegangan terukur dengan ramalan (13.7).
 :::
 
 Di dalam tubuh, sel konsentrasi bekerja di setiap sel saraf. Membran sel saraf lebih mudah dilewati ion K⁺ daripada ion lain, dan di dalam sel [K⁺] sekitar 140 mmol L⁻¹, sedangkan di luar sekitar 5 mmol L⁻¹. Ion K⁺ cenderung keluar menuruni gradien konsentrasinya, tetapi setiap ion yang keluar meninggalkan muatan negatif di dalam, sehingga terbentuk beda potensial yang menahan keluarnya K⁺ berikutnya. Kesetimbangan tercapai ketika beda potensial listrik tepat mengimbangi selisih potensial kimia: inilah **potensial Nernst**.
 
 ::: {.contoh}
-**Contoh 13.13 · Tegangan sel saraf**
+**Contoh 13.14 · Tegangan sel saraf**
 
 Hitung potensial Nernst untuk K⁺ di membran sel saraf pada 37 °C, dengan $[\text{K}^+]_\text{dalam} = 140$ dan $[\text{K}^+]_\text{luar} = 5{,}0$ mmol L⁻¹. Lakukan hal yang sama untuk Na⁺, dengan $[\text{Na}^+]_\text{dalam} = 12$ dan $[\text{Na}^+]_\text{luar} = 145$ mmol L⁻¹.
 
@@ -96,7 +96,7 @@ $$
 Tetapan itu berbeda untuk setiap elektrode dan berubah perlahan, sehingga pH meter harus **dikalibrasi** dengan larutan penyangga yang pH-nya diketahui, biasanya dua penyangga (misalnya pH 4,01 dan 7,00) untuk menetapkan tetapan dan kemiringannya.
 
 ::: {.contoh}
-**Contoh 13.14 · Membaca pH meter**
+**Contoh 13.15 · Membaca pH meter**
 
 Pada 25 °C, sebuah pH meter menunjukkan 0,4120 V dalam penyangga pH 7,00. Dalam sampel, tegangannya 0,5890 V. Berapa pH sampel?
 
@@ -114,7 +114,7 @@ Pada 25 °C, sebuah pH meter menunjukkan 0,4120 V dalam penyangga pH 7,00. Dalam
 Baterai adalah sel elektrokimia yang dikemas. Termodinamika menentukan dua angka terpentingnya: **tegangan** (dari *E*° dan Nernst) dan **energi spesifik** maksimum, yaitu $-\Delta_\text{r}G$ dibagi massa pereaksi. Kimia bahan, teknik, dan laju reaksi menentukan seberapa dekat baterai nyata mendekati batas itu.
 
 ::: {.contoh}
-**Contoh 13.15 · Aki timbal dan baterai litium**
+**Contoh 13.16 · Aki timbal dan baterai litium**
 
 (a) Aki kendaraan memakai reaksi $\text{Pb} + \text{PbO}_2 + 2\text{H}_2\text{SO}_4 \rightarrow 2\text{PbSO}_4 + 2\text{H}_2\text{O}$. Hitung *E*° dari Tabel 13.1 dan energi spesifik teoretisnya dalam Wh kg⁻¹, dihitung terhadap massa pereaksi. (b) Baterai litium-ion memakai reaksi $\text{LiC}_6 + \text{CoO}_2 \rightarrow \text{C}_6 + \text{LiCoO}_2$ dengan tegangan sekitar 3,7 V. Hitung energi spesifik teoretisnya dengan cara yang sama.
 
@@ -128,7 +128,7 @@ Baterai adalah sel elektrokimia yang dikemas. Termodinamika menentukan dua angka
 **Sel bahan bakar** berbeda dari baterai karena pereaksinya dipasok terus dari luar. Sel bahan bakar hidrogen memakai reaksi $\text{H}_2 + \tfrac12\text{O}_2 \rightarrow \text{H}_2\text{O}(l)$ dengan *E*° = 1,229 V, yang di Bab 7 kita lihat terbatas pada 83% dari entalpi pembakaran. Di sini kita dapat melihat batas itu dari sisi tegangan. Entalpi pembakaran hidrogen, 285,83 kJ mol⁻¹, dinyatakan sebagai tegangan disebut **tegangan termonetral**: $\Delta_\text{r}H/nF = 285\,830/(2 \times 96\,485) = 1{,}481$ V. Efisiensi sel bahan bakar yang bekerja pada tegangan *V* terhadap entalpi bahan bakarnya adalah *V*/1,481.
 
 ::: {.contoh}
-**Contoh 13.16 · Sel bahan bakar dan elektroliser**
+**Contoh 13.17 · Sel bahan bakar dan elektroliser**
 
 (a) Sel bahan bakar hidrogen kendaraan bekerja pada sekitar 0,70 V per sel ketika menarik arus besar. Hitung efisiensinya terhadap entalpi pembakaran dan terhadap $\Delta_\text{r}G$. (b) Untuk membuat hidrogen dengan elektrolisis air, elektroliser industri bekerja pada sekitar 1,8 V. Hitung energi listrik per kilogram hidrogen, dan bandingkan dengan batas minimum termodinamika (1,229 V).
 
