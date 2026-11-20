@@ -24,15 +24,17 @@ Setiap bab dibuka dengan sebuah teka-teki kimia, pertanyaan pembuka, tujuan bela
 
 ## Kotak-kotak dalam buku
 
+Setiap bab dibuka dengan tiga kotak bergaya sama: **Pertanyaan pembuka** (teka-teki yang akan terjawab di bab itu), **Tujuan belajar**, dan **Prasyarat** (bab, subbab, atau buku lain yang perlu dikuasai lebih dulu). Di dalam bab, kotak-kotak berikut dibedakan oleh warna garis di tepi kirinya:
+
 | Kotak | Isinya |
 |---|---|
-| **Contoh** | Soal yang diselesaikan lengkap: *Penyelesaian*, lalu *Memahami hasil*. Contoh yang lebih panjang didahului *Gambaran fisis* dan *Rencana*. |
-| **Kuis cepat** | Pertanyaan singkat untuk memeriksa pemahaman sebelum lanjut. |
-| **Inti** | Hasil terpenting yang perlu diingat. |
-| **Lebih dalam** | Penurunan lengkap atau perluasan; boleh dilewati pada bacaan pertama. |
-| **Awas** | Kesalahan yang sering terjadi. |
+| **Contoh** | Soal yang diselesaikan lengkap: *Penyelesaian*, lalu *Memahami hasil* yang menjelaskan arti jawabannya. Contoh yang lebih panjang didahului *Rencana*. |
+| **Inti** | Rumus atau hasil terpenting yang perlu diingat, beserta syarat berlakunya. |
 | **Matematika** | Alat matematika yang dibutuhkan saat itu juga. |
-| **Kaitan kimia** | Penerapan langsung pada kimia, spektroskopi, atau teknologi. |
+| **Lebih dalam** | Penurunan lengkap atau perluasan; boleh dilewati pada bacaan pertama. |
+| **Terapan** | Penerapan di laboratorium, industri, lingkungan, atau tubuh manusia. |
+| **Awas** | Kesalahan atau salah paham yang sering terjadi. |
+| **Kuis cepat** | Pertanyaan singkat di akhir subbab untuk memeriksa pemahaman; jawabannya ada di bagian Ringkasan. |
 
 ## Tingkat soal
 
@@ -48,4 +50,4 @@ Soal di akhir bab disusun bertingkat: soal dasar untuk melatih rumus, soal menen
 
 ## Penomoran dan satuan
 
-Gambar, contoh, dan persamaan diberi nomor menurut bab: Gambar 7.3 adalah gambar ketiga di Bab 7. Sejak Bab 7, perhitungan atom dan molekul memakai **satuan atom** (hartree, bohr) kecuali dikatakan lain; spektroskopi memakai bilangan gelombang dalam cm⁻¹. Tanda desimal mengikuti kaidah bahasa Indonesia (koma).
+Gambar, contoh, tabel, dan persamaan diberi nomor menurut bab: Gambar 7.3 adalah gambar ketiga di Bab 7, dan persamaan (7.3) adalah persamaan ketiganya. Satuan yang dipakai adalah satuan SI, dengan liter dan bar bila lebih praktis. Tekanan standar $p^\circ$ = 1 bar, dan data standar diberikan pada 298,15 K. Kerja dan kalor bertanda positif bila energi **masuk** ke sistem (konvensi IUPAC, $\Delta U = q + w$); *Fisika Umum* memakai tanda kerja yang berlawanan, dan perbedaannya dijelaskan di subbab 3.1. Tanda desimal mengikuti kaidah bahasa Indonesia (koma). Data termodinamika zat yang dipakai di seluruh buku dikumpulkan di Lampiran B.

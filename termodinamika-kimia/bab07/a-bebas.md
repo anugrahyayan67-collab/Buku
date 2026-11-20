@@ -1,6 +1,6 @@
 # Bab 7 Energi Bebas dan Hubungan Maxwell
 
-Bakarlah satu mol hidrogen dengan oksigen, dan Anda memperoleh 286 kJ kalor. Masukkan hidrogen yang sama ke dalam sel bahan bakar, dan Anda memperoleh listrik. Berapa banyak? Pengukuran yang teliti memberi jawaban yang mengecewakan: sel bahan bakar yang sempurna pun paling banyak hanya menghasilkan 237 kJ kerja listrik. Ke mana perginya 49 kJ sisanya, dan mengapa tidak ada sel bahan bakar yang dapat menangkapnya?
+Bakarlah satu mol hidrogen dengan oksigen, dan kamu memperoleh 286 kJ kalor. Masukkan hidrogen yang sama ke dalam sel bahan bakar, dan kamu memperoleh listrik. Berapa banyak? Pengukuran yang teliti memberi jawaban yang mengecewakan: sel bahan bakar yang sempurna pun paling banyak hanya menghasilkan 237 kJ kerja listrik. Ke mana perginya 49 kJ sisanya, dan mengapa tidak ada sel bahan bakar yang dapat menangkapnya?
 
 Teka-teki kedua bahkan lebih aneh. Tubuh kita membakar glukosa dengan oksigen, dan dari bom kalorimeter kita tahu bahwa reaksi itu melepaskan kalor 2803 kJ per mol (Bab 4). Tetapi kerja maksimum yang dapat diperoleh dari reaksi yang sama, misalnya untuk menggerakkan otot atau membangun protein, ternyata **2880 kJ**, lebih besar daripada kalor yang dilepaskannya. Bagaimana suatu reaksi dapat memberikan kerja lebih banyak daripada energi yang dilepaskannya sebagai kalor?
 

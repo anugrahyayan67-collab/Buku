@@ -119,7 +119,7 @@ Kantong penghangat tangan bekerja dengan mengoksidasi besi menjadi Fe₂O₃: $4
 :::
 
 ::: {.kuis}
-**Kuis cepat 4.10** Metanol (CH₃OH) dan etana (C₂H₆) mempunyai massa molar yang hampir sama. Mana yang Anda duga melepaskan energi lebih banyak per gram ketika dibakar, dan mengapa?
+**Kuis cepat 4.10** Metanol (CH₃OH) dan etana (C₂H₆) mempunyai massa molar yang hampir sama. Mana yang kamu duga melepaskan energi lebih banyak per gram ketika dibakar, dan mengapa?
 :::
 
 ### Menuju bab berikutnya
