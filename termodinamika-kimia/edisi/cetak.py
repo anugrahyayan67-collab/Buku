@@ -53,7 +53,7 @@ def pembuka(n, out):
         blok = re.sub(r'<p><strong>(Dasar|Menengah|Tantangan[^<]*)</strong></p>\s*', '', blok)
         blok = re.sub(r'\s*Soal dikelompokkan menurut tingkat:.*?\.(?=\s|<)', '', blok, flags=re.S)
         blok = re.sub(r'★\s*', '', blok)
-        blok = re.sub(r'<p>(<strong>\d+\.</strong>)', r'<p class="si">\1', blok)
+        blok = re.sub(r'<p>(<strong>\d+\.</strong>)\s*', r'<p class="si">\1', blok)
         mb = re.search(r'<blockquote>.*?</blockquote>', blok, re.S)   # catatan data di atas, selebar halaman
         if mb: blok = mb.group(0) + blok[:mb.start()] + blok[mb.end():]
         s = s[:m1.end()] + '<div class="soal2">' + blok + '</div>' + s[m2.start():]
