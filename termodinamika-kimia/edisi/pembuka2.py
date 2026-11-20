@@ -86,3 +86,19 @@ ax.plot(x, 0.7 + 3.2 / V, color=UN, lw=2.6); ax.plot(x, 0.7 + 3.2 / V ** (5 / 3)
 ax.fill_between(x, 0.7, 0.7 + 3.2 / V, color=SI, alpha=0.18, lw=0)
 ax.plot([4.5, 8.1], [0.7, 0.7], color=AB, lw=1.2); ax.plot([4.5, 4.5], [0.7, 4.5], color=AB, lw=1.2)
 simpan(3, f, 'Energi dalam gas berubah lewat dua pintu: kalor yang masuk dari bawah dan kerja yang keluar mendorong piston.')
+
+# 4 bom kalorimeter dan tangga entalpi
+f, ax = kanvas()
+ax.add_patch(FancyBboxPatch((0.5, 0.5), 3.2, 3.3, boxstyle='round,pad=0,rounding_size=0.15', fc='white', ec=NI, lw=2.2, alpha=0.9, zorder=1))
+ax.add_patch(Rectangle((0.62, 0.62), 2.96, 2.6, color='#bfe0f2', alpha=0.6, zorder=1, lw=0))
+ax.add_patch(FancyBboxPatch((1.45, 0.95), 1.3, 1.75, boxstyle='round,pad=0,rounding_size=0.12', fc=AB, ec=NI, lw=1.6, zorder=3))
+for k, a2 in [(0.55, .25), (0.38, .5), (0.22, 1)]: ax.add_patch(Circle((2.1, 1.65), k, color=SI if k > 0.3 else EM, alpha=a2, zorder=4, lw=0))
+ax.add_patch(Rectangle((3.05, 2.2), 0.12, 2.3, color='white', ec=NI, lw=1.2, zorder=5)); ax.add_patch(Rectangle((3.07, 2.25), 0.08, 1.4, color=UN, zorder=6))
+ax.add_patch(Circle((3.11, 2.2), 0.13, color=UN, zorder=6))
+lv = [(4.2, 'C + O₂'), (3.2, 'CO + ½O₂'), (1.0, 'CO₂')]
+for y, t in lv: ax.plot([4.6 if y != 3.2 else 6.2, 6.0 if y != 3.2 else 7.9], [y, y], color=NI, lw=3)
+ax.plot([6.2, 7.9], [1.0, 1.0], color=NI, lw=3)
+for (x, y0, y1, c) in [(5.0, 4.2, 1.05, UN), (6.6, 4.2, 3.25, SI), (7.4, 3.2, 1.05, EM)]:
+    ax.annotate('', xy=(x, y1), xytext=(x, y0), arrowprops=dict(arrowstyle='-|>', color=c, lw=3, mutation_scale=18))
+ax.plot([6.0, 6.6], [4.2, 4.2], color=NI, lw=3)
+simpan(4, f, 'Bom kalorimeter mengukur kalor pembakaran; karena entalpi fungsi keadaan, langkah-langkah reaksi dapat dijumlahkan.')

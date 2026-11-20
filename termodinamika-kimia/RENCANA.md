@@ -23,7 +23,7 @@ Pemetaan RPS: mg 1 → Bab 1 · mg 2 → Bab 2 · mg 3–4 → Bab 3–4 · mg 5
 ### ☑ Bab 3 Energi, Kerja, Kalor, dan Hukum Pertama
 3.1 Energi dalam dan fungsi keadaan · 3.2 Kerja ekspansi · 3.3 Proses reversibel dan tak reversibel · 3.4 Kalor dan kapasitas kalor · 3.5 Hukum pertama termodinamika · 3.6 Diferensial eksak dan tak eksak · 3.7 Proses isotermal gas ideal · 3.8 Proses adiabatik gas ideal · 3.9 Energi dalam dari sudut molekul: ekuipartisi
 
-### ☐ Bab 4 Entalpi dan Termokimia
+### ☑ Bab 4 Entalpi dan Termokimia
 4.1 Entalpi · 4.2 Cp, Cv, dan hubungan keduanya · 4.3 Kalorimetri: bom dan tekanan tetap · 4.4 Entalpi perubahan fisika · 4.5 Persamaan termokimia dan keadaan standar · 4.6 Hukum Hess · 4.7 Entalpi pembentukan standar · 4.8 Entalpi ikatan · 4.9 Ketergantungan entalpi reaksi pada suhu: hukum Kirchhoff · 4.10 Termokimia pembakaran dan bahan bakar
 
 ## Bagian III · Hukum kedua dan ketiga
