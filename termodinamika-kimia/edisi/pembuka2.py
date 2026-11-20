@@ -71,3 +71,18 @@ for Tr, c in [(0.85, NI), (0.93, UN), (1.0, EM), (1.15, SI)]:
         m = pr < 2.0; ax.plot(X(V[m]), Y(pr[m]), color=c, lw=2.8 if Tr == 1 else 2.4)
 ax.plot([x0, 8.1], [0.6, 0.6], color=AB, lw=1.2); ax.plot([x0, x0], [0.6, 4.4], color=AB, lw=1.2)
 simpan(2, f, 'Gas yang ditekan di bawah suhu kritisnya mencair; isotermnya mendatar selama gas dan cairan hidup berdampingan.')
+
+# 3 kalor masuk dari bawah, kerja keluar lewat piston; isoterm dan adiabat
+f, ax = kanvas(); rng = np.random.default_rng(11)
+ax.add_patch(Rectangle((0.7, 1.1), 2.6, 3.0, fc='white', ec=NI, lw=2.2, zorder=1, alpha=0.9))
+ax.add_patch(Rectangle((0.75, 3.0), 2.5, 0.3, color=AB, zorder=3)); ax.add_patch(Rectangle((1.85, 3.3), 0.3, 1.2, color=AB, zorder=3))
+ax.annotate('', xy=(2.0, 4.85), xytext=(2.0, 4.5), arrowprops=dict(arrowstyle='-|>', color=UN, lw=3, mutation_scale=18))
+for _ in range(16):
+    x, y = rng.uniform(0.95, 3.05), rng.uniform(1.3, 2.8); bola(ax, x, y, 0.09, UN if rng.random() < .5 else SI, z=4)
+for k, x in enumerate(np.linspace(1.0, 3.0, 6)):
+    t = np.linspace(0, 1, 50); ax.plot(x + 0.08 * np.sin(t * 14), 0.3 + 0.65 * t, color=EM if k % 2 else UN, lw=2.2)
+x = np.linspace(4.6, 8.0, 300); V = (x - 4.3) / 0.85
+ax.plot(x, 0.7 + 3.2 / V, color=UN, lw=2.6); ax.plot(x, 0.7 + 3.2 / V ** (5 / 3), color=EM, lw=2.6)
+ax.fill_between(x, 0.7, 0.7 + 3.2 / V, color=SI, alpha=0.18, lw=0)
+ax.plot([4.5, 8.1], [0.7, 0.7], color=AB, lw=1.2); ax.plot([4.5, 4.5], [0.7, 4.5], color=AB, lw=1.2)
+simpan(3, f, 'Energi dalam gas berubah lewat dua pintu: kalor yang masuk dari bawah dan kerja yang keluar mendorong piston.')
