@@ -143,51 +143,57 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, $F = 96\,485$ C mol⁻¹, dan data Tabel 
 
 **32.** ★ Tunjukkan dari $C_p - C_V = TV\alpha^2/\kappa_T$ bahwa $C_p - C_V = nR$ untuk gas ideal.
 
+**33.** [P] ★ (a) Dari $dH = T\,dS + V\,dp$ dan hubungan Maxwell keempat, turunkan $(\partial H/\partial p)_T = V(1 - \alpha T)$. (b) Tunjukkan bahwa nilainya nol untuk gas ideal. (c) Berapa kenaikan entalpi molar air cair pada 25 °C bila tekanannya dinaikkan 100 bar? Pakai data Contoh 7.12.
+
 ## Subbab 7.7: Persamaan Gibbs–Helmholtz
 
 **Dasar**
 
-**33.** Turunkan (7.12) dari $(\partial G/\partial T)_p = -S$.
+**34.** Turunkan (7.12) dari $(\partial G/\partial T)_p = -S$.
 
 **Menengah**
 
-**34.** [P] Untuk penguraian CaCO₃, $\Delta_\text{r}G^\circ(298\ \text{K}) = +130{,}4$ dan $\Delta_\text{r}H^\circ = +178{,}3$ kJ mol⁻¹. Hitung $\Delta_\text{r}G^\circ$ pada 1000 K dengan (7.13).
+**35.** [P] Untuk penguraian CaCO₃, $\Delta_\text{r}G^\circ(298\ \text{K}) = +130{,}4$ dan $\Delta_\text{r}H^\circ = +178{,}3$ kJ mol⁻¹. Hitung $\Delta_\text{r}G^\circ$ pada 1000 K dengan (7.13).
 
-**35.** Untuk reaksi endoterm, apakah Δ*G*/*T* bertambah atau berkurang bila suhu naik?
+**36.** Untuk reaksi endoterm, apakah Δ*G*/*T* bertambah atau berkurang bila suhu naik?
 
 ## Subbab 7.8: Ketergantungan G pada tekanan
 
 **Dasar**
 
-**36.** Hitung kenaikan $G_\text{m}$ gas ideal pada 298 K bila tekanan dinaikkan dari 1 bar ke 10 bar.
+**37.** Hitung kenaikan $G_\text{m}$ gas ideal pada 298 K bila tekanan dinaikkan dari 1 bar ke 10 bar.
 
-**37.** Hitung kenaikan $G_\text{m}$ raksa cair ($V_\text{m} = 14{,}8$ cm³ mol⁻¹) bila tekanan dinaikkan dari 1 bar ke 100 bar.
+**38.** Hitung kenaikan $G_\text{m}$ raksa cair ($V_\text{m} = 14{,}8$ cm³ mol⁻¹) bila tekanan dinaikkan dari 1 bar ke 100 bar.
 
 **Menengah**
 
-**38.** Pada 1000 bar dan 298 K, berapa $\Delta_\text{r}G$ untuk grafit → intan?
+**39.** Pada 1000 bar dan 298 K, berapa $\Delta_\text{r}G$ untuk grafit → intan?
 
-**39.** Es kurang rapat daripada air. Jelaskan dengan (7.14) mengapa titik leleh es turun bila tekanan naik.
+**40.** Es kurang rapat daripada air. Jelaskan dengan (7.14) mengapa titik leleh es turun bila tekanan naik.
 
-**40.** Untuk benzena, $\Delta_\text{f}G^\circ$ cair dan gas berturut-turut 124,3 dan 129,7 kJ mol⁻¹. Taksir tekanan uap benzena pada 25 °C.
+**41.** Untuk benzena, $\Delta_\text{f}G^\circ$ cair dan gas berturut-turut 124,3 dan 129,7 kJ mol⁻¹. Taksir tekanan uap benzena pada 25 °C.
+
+**Tantangan ★**
+
+**42.** [P] ★ Untuk gas yang mengikuti persamaan virial terpotong $V_\text{m} = RT/p + B$ (subbab 2.7), turunkan kenaikan energi Gibbs molar dari $p_1$ ke $p_2$ pada suhu tetap. Hitung untuk CO₂ pada 273 K ($B = -149{,}7$ cm³ mol⁻¹) dari 1,00 bar ke 10,0 bar, dan bandingkan dengan gas ideal.
 
 ## Subbab 7.9: Energi bebas Gibbs reaksi standar
 
 **Dasar**
 
-**41.** Hitung $\Delta_\text{r}G^\circ$ untuk $2\text{NO}(g) \to \text{N}_2(g) + \text{O}_2(g)$.
+**43.** Hitung $\Delta_\text{r}G^\circ$ untuk $2\text{NO}(g) \to \text{N}_2(g) + \text{O}_2(g)$.
 
-**42.** Hitung $\Delta_\text{f}G^\circ$ H₂O(g) dari $\Delta_\text{f}H^\circ = -241{,}82$ kJ mol⁻¹ dan Tabel 6.1.
+**44.** Hitung $\Delta_\text{f}G^\circ$ H₂O(g) dari $\Delta_\text{f}H^\circ = -241{,}82$ kJ mol⁻¹ dan Tabel 6.1.
 
-**43.** Manakah yang secara termodinamika tidak stabil terhadap unsur-unsurnya: NH₃, NO, CH₄, benzena?
+**45.** Manakah yang secara termodinamika tidak stabil terhadap unsur-unsurnya: NH₃, NO, CH₄, benzena?
 
 **Menengah**
 
-**44.** Hitung $\Delta_\text{r}G^\circ$ pembakaran etanol cair menjadi CO₂ dan H₂O(l).
+**46.** Hitung $\Delta_\text{r}G^\circ$ pembakaran etanol cair menjadi CO₂ dan H₂O(l).
 
-**45.** Mengapa knalpot mobil memerlukan katalis untuk mengurai NO, padahal penguraiannya sangat spontan?
+**47.** Mengapa knalpot mobil memerlukan katalis untuk mengurai NO, padahal penguraiannya sangat spontan?
 
-**46.** Dengan data Contoh 7.20, hitung $\Delta_\text{f}G^\circ$ CH₄ pada 1200 K.
+**48.** Dengan data Contoh 7.20, hitung $\Delta_\text{f}G^\circ$ CH₄ pada 1200 K.
 
 
 # Jawaban
@@ -195,29 +201,30 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, $F = 96\,485$ C mol⁻¹, dan data Tabel 
 ::: {.panjang}
 | No. | Jawaban | No. | Jawaban |
 |---|---|---|---|
-| 1 | $\Delta S_\text{total} = \Delta S - \Delta H/T$, kalikan −*T* | 24 | −*S*; *V* |
-| 2 | entropi lingkungan sudah tercakup dalam suku Δ*H* | 25 | semua besarannya fungsi keadaan |
-| 3 | proses pada suhu dan volume tetap (misalnya bom kalorimeter) | 26 | −*p* |
-| 4 | +1,72 kJ | 27 | $(\partial S/\partial p)_T = -(\partial V/\partial T)_p$ |
-| 5 | kerja maksimum pada suhu tetap | 28 | 14,6 bar |
-| 6 | −812,9 dan −817,9 kJ mol⁻¹; selisih $\Delta n_\text{gas}RT$ | 29 | 0,71 J K⁻¹ mol⁻¹ |
-| 7 | sistem dapat menyerap kalor $T\Delta S$ dari lingkungan dan mengubahnya menjadi kerja | 30 | $(\partial S/\partial V)_T = (\partial p/\partial T)_V = nR/(V - nb)$ |
-| 8 | −8,03 kJ; 8,03 kJ | 31 | +655 J |
-| 9 | +111 J mol⁻¹ | 32 | $\alpha = 1/T$, $\kappa_T = 1/p$ |
-| 10 | −1,09 kJ mol⁻¹ | 33 | turunan hasil bagi dan $G + TS = H$ |
-| 11 | 0 (kesetimbangan) | 34 | +17,6 kJ mol⁻¹ |
-| 12 | 500 K | 35 | berkurang |
-| 13 | termodinamika tidak berbicara tentang laju | 36 | 5,71 kJ mol⁻¹ |
-| 14 | +1,4 kJ mol⁻¹ | 37 | 147 J mol⁻¹ |
-| 15 | suhu rendah; misalnya pembekuan air | 38 | +2,71 kJ mol⁻¹ |
-| 16 | 1325 kJ mol⁻¹; 1,14 V | 39 | *G* es naik lebih banyak daripada *G* air |
-| 17 | +67 J K⁻¹ mol⁻¹ | 40 | 0,113 bar |
-| 18 | −702,4 kJ mol⁻¹; 1,21 V | 41 | −173,1 kJ mol⁻¹ |
-| 19 | tidak melewati tahap kalor | 42 | −228,6 kJ mol⁻¹ |
-| 20 | 2 (bersih −11 kJ mol⁻¹) | 43 | NO, benzena |
-| 21 | 170,9 kJ mol⁻¹; 17 | 44 | −1325,3 kJ mol⁻¹ |
-| 22 | ≈ 38 | 45 | penguraian NO sangat lambat tanpa katalis |
-| 23 | lihat (7.8) | 46 | +22,2 kJ mol⁻¹ |
+| 1 | $\Delta S_\text{total} = \Delta S - \Delta H/T$, kalikan −*T* | 25 | semua besarannya fungsi keadaan |
+| 2 | entropi lingkungan sudah tercakup dalam suku Δ*H* | 26 | −*p* |
+| 3 | proses pada suhu dan volume tetap (misalnya bom kalorimeter) | 27 | $(\partial S/\partial p)_T = -(\partial V/\partial T)_p$ |
+| 4 | +1,72 kJ | 28 | 14,6 bar |
+| 5 | kerja maksimum pada suhu tetap | 29 | 0,71 J K⁻¹ mol⁻¹ |
+| 6 | −812,9 dan −817,9 kJ mol⁻¹; selisih $\Delta n_\text{gas}RT$ | 30 | $(\partial S/\partial V)_T = (\partial p/\partial T)_V = nR/(V - nb)$ |
+| 7 | sistem dapat menyerap kalor $T\Delta S$ dari lingkungan dan mengubahnya menjadi kerja | 31 | +655 J |
+| 8 | −8,03 kJ; 8,03 kJ | 32 | $\alpha = 1/T$, $\kappa_T = 1/p$ |
+| 9 | +111 J mol⁻¹ | 33 | (b) $\alpha = 1/T$; (c) +170 J mol⁻¹ |
+| 10 | −1,09 kJ mol⁻¹ | 34 | turunan hasil bagi dan $G + TS = H$ |
+| 11 | 0 (kesetimbangan) | 35 | +17,6 kJ mol⁻¹ |
+| 12 | 500 K | 36 | berkurang |
+| 13 | termodinamika tidak berbicara tentang laju | 37 | 5,71 kJ mol⁻¹ |
+| 14 | +1,4 kJ mol⁻¹ | 38 | 147 J mol⁻¹ |
+| 15 | suhu rendah; misalnya pembekuan air | 39 | +2,71 kJ mol⁻¹ |
+| 16 | 1325 kJ mol⁻¹; 1,14 V | 40 | *G* es naik lebih banyak daripada *G* air |
+| 17 | +67 J K⁻¹ mol⁻¹ | 41 | 0,113 bar |
+| 18 | −702,4 kJ mol⁻¹; 1,21 V | 42 | $RT\ln(p_2/p_1) + B(p_2 - p_1)$; 5,09 kJ mol⁻¹ (ideal 5,23) |
+| 19 | tidak melewati tahap kalor | 43 | −173,1 kJ mol⁻¹ |
+| 20 | 2 (bersih −11 kJ mol⁻¹) | 44 | −228,6 kJ mol⁻¹ |
+| 21 | 170,9 kJ mol⁻¹; 17 | 45 | NO, benzena |
+| 22 | ≈ 38 | 46 | −1325,3 kJ mol⁻¹ |
+| 23 | lihat (7.8) | 47 | penguraian NO sangat lambat tanpa katalis |
+| 24 | −*S*; *V* | 48 | +22,2 kJ mol⁻¹ |
 :::
 
 
@@ -239,13 +246,25 @@ karena suku tarikan $-an^2/V^2$ tidak bergantung pada *T*. Menurut hubungan Maxw
 
 *Cara berpikir:* tarikan antarmolekul mengubah **energi** gas (tekanan dalam $an^2/V^2$), tetapi tidak mengubah banyaknya tempat yang tersedia bagi molekul, sehingga tidak mengubah entropinya. Hanya ukuran molekul (*b*) yang memengaruhi entropi.
 
-**Soal 34.** Dari (7.13):
+**Soal 33.** (a) Bagi $dH = T\,dS + V\,dp$ dengan *dp* pada suhu tetap: $(\partial H/\partial p)_T = T(\partial S/\partial p)_T + V$. Hubungan Maxwell keempat mengganti $(\partial S/\partial p)_T$ dengan $-(\partial V/\partial T)_p = -\alpha V$, sehingga $(\partial H/\partial p)_T = V - TV\alpha = V(1 - \alpha T)$. (b) Untuk gas ideal, $\alpha = 1/T$, sehingga $1 - \alpha T = 0$: entalpi gas ideal tidak bergantung pada tekanan, sejalan dengan subbab 4.2. (c) Untuk air, $\alpha T = (2{,}07 \times 10^{-4})(298{,}15) = 0{,}062$, sehingga
+$$
+\Delta H_\text{m} \approx V_\text{m}(1 - \alpha T)\Delta p = (18{,}07 \times 10^{-6})(0{,}938)(1{,}00 \times 10^7)\ \text{J mol}^{-1} = 170\ \text{J mol}^{-1} .
+$$
+Hampir seluruhnya berasal dari suku $V\Delta p$; suku $-TV\alpha\Delta p$ hanya mengurangi 6%. Untuk cairan, Δ*H* karena tekanan biasanya diabaikan dibanding Δ*H* karena suhu: 170 J mol⁻¹ setara dengan memanaskan air sekitar 2 K.
+
+**Soal 35.** Dari (7.13):
 $$
 \frac{\Delta G(1000)}{1000} = \frac{130{,}4}{298{,}15} + 178{,}3\left(\frac{1}{1000} - \frac{1}{298{,}15}\right) = 0{,}4374 - 0{,}4197 = 0{,}0176\ \text{kJ K}^{-1}\text{mol}^{-1} ,
 $$
 sehingga $\Delta G(1000\ \text{K}) = +17{,}6$ kJ mol⁻¹.
 
 *Cara berpikir:* hasilnya sama dengan $\Delta H - T\Delta S = 178{,}3 - (1000)(0{,}1606) = +17{,}7$ kJ mol⁻¹, karena kedua cara memakai anggapan yang sama (Δ*H* tetap). Keuntungan Gibbs–Helmholtz baru terasa ketika Δ*S* tidak diketahui, atau ketika Δ*H* dinyatakan sebagai fungsi suhu dan persamaan (7.12) diintegralkan dengan lebih teliti.
+
+**Soal 42.** Dari (7.9), $dG_\text{m} = V_\text{m}\,dp = (RT/p + B)\,dp$ pada suhu tetap. Mengintegralkan:
+$$
+\Delta G_\text{m} = RT\ln\frac{p_2}{p_1} + B(p_2 - p_1) .
+$$
+Untuk CO₂: suku ideal $(8{,}314)(273{,}15)\ln10 = 5229$ J mol⁻¹; suku virial $(-149{,}7 \times 10^{-6})(9{,}0 \times 10^5) = -135$ J mol⁻¹. Totalnya 5,09 kJ mol⁻¹, 2,6% lebih kecil daripada gas ideal. Tarikan antarmolekul (*B* negatif) membuat CO₂ lebih mudah dimampatkan, sehingga energi Gibbsnya naik lebih lambat. Suku koreksi inilah yang di subbab 9.5 akan diserap ke dalam **fugasitas**.
 
 # Bacaan lanjut
 

@@ -91,6 +91,7 @@ Satu mol CO₂ ($a = 3{,}640$ L² bar mol⁻²) memuai secara isotermal dari 0,5
 **Tantangan ★**
 
 ★ Tunjukkan dari $C_p - C_V = TV\alpha^2/\kappa_T$ bahwa $C_p - C_V = nR$ untuk gas ideal. ||| $\alpha = 1/T$, $\kappa_T = 1/p$
+@hp [P] ★ (a) Dari $dH = T\,dS + V\,dp$ dan hubungan Maxwell keempat, turunkan $(\partial H/\partial p)_T = V(1 - \alpha T)$. (b) Tunjukkan bahwa nilainya nol untuk gas ideal. (c) Berapa kenaikan entalpi molar air cair pada 25 °C bila tekanannya dinaikkan 100 bar? Pakai data Contoh 7.12. ||| (b) $\alpha = 1/T$; (c) +170 J mol⁻¹
 
 ## Subbab 7.7: Persamaan Gibbs–Helmholtz
 
@@ -117,6 +118,10 @@ Es kurang rapat daripada air. Jelaskan dengan (7.14) mengapa titik leleh es turu
 
 
 Untuk benzena, $\Delta_\text{f}G^\circ$ cair dan gas berturut-turut 124,3 dan 129,7 kJ mol⁻¹. Taksir tekanan uap benzena pada 25 °C. ||| 0,113 bar
+
+**Tantangan ★**
+
+@virial [P] ★ Untuk gas yang mengikuti persamaan virial terpotong $V_\text{m} = RT/p + B$ (subbab 2.7), turunkan kenaikan energi Gibbs molar dari $p_1$ ke $p_2$ pada suhu tetap. Hitung untuk CO₂ pada 273 K ($B = -149{,}7$ cm³ mol⁻¹) dari 1,00 bar ke 10,0 bar, dan bandingkan dengan gas ideal. ||| $RT\ln(p_2/p_1) + B(p_2 - p_1)$; 5,09 kJ mol⁻¹ (ideal 5,23)
 
 ## Subbab 7.9: Energi bebas Gibbs reaksi standar
 

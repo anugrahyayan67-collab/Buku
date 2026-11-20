@@ -204,7 +204,7 @@ Pada titik tripel air (273,16 K), es dan air cair mempunyai tekanan uap yang sam
 :::
 
 ::: {.terapan}
-**Terapan: mengapa hujan turun.** Di bagian atas awan, suhu sering di bawah −10 °C, tetapi kebanyakan tetes air tetap cair karena dingin-lewat. Tetes-tetes itu terlalu kecil untuk jatuh. Ketika beberapa kristal es terbentuk, misalnya pada butir debu, keadaannya menjadi tidak seimbang: udara yang jenuh terhadap tetes air **lewat jenuh** terhadap es, sehingga uap air terus mengendap pada kristal es, sementara tetes-tetes air menguap untuk mengisi kembali uap itu. Kristal es tumbuh dengan cepat dengan "memakan" tetes air di sekitarnya, menjadi cukup berat untuk jatuh, dan mencair menjadi hujan dalam perjalanan ke bawah. Mekanisme ini, yang disebut **proses Bergeron**, menghasilkan sebagian besar hujan di daerah lintang tinggi dan sebagian hujan lebat di daerah tropis. Penyemaian awan dengan perak iodida, yang kisinya mirip es, bekerja dengan menyediakan inti kristal itu.
+**Mengapa hujan turun.** Di bagian atas awan, suhu sering di bawah −10 °C, tetapi kebanyakan tetes air tetap cair karena dingin-lewat. Tetes-tetes itu terlalu kecil untuk jatuh. Ketika beberapa kristal es terbentuk, misalnya pada butir debu, keadaannya menjadi tidak seimbang: udara yang jenuh terhadap tetes air **lewat jenuh** terhadap es, sehingga uap air terus mengendap pada kristal es, sementara tetes-tetes air menguap untuk mengisi kembali uap itu. Kristal es tumbuh dengan cepat dengan "memakan" tetes air di sekitarnya, menjadi cukup berat untuk jatuh, dan mencair menjadi hujan dalam perjalanan ke bawah. Mekanisme ini, yang disebut **proses Bergeron**, menghasilkan sebagian besar hujan di daerah lintang tinggi dan sebagian hujan lebat di daerah tropis. Penyemaian awan dengan perak iodida, yang kisinya mirip es, bekerja dengan menyediakan inti kristal itu.
 :::
 
 ::: {.contoh}
@@ -221,11 +221,11 @@ $$
 :::
 
 ::: {.terapan}
-**Terapan: pengeringan beku.** Kopi instan bermutu tinggi, vaksin, dan sampel biologis dikeringkan dengan cara yang memanfaatkan penyubliman. Bahan dibekukan dahulu, misalnya pada −40 °C, lalu ditaruh dalam ruang hampa yang tekanannya dijaga di bawah tekanan uap es pada suhu itu, sekitar 13 Pa (hitunglah dengan cara Contoh 8.12). Es menyublim langsung menjadi uap tanpa pernah melewati fasa cair, sehingga struktur bahan tidak runtuh dan senyawa aroma yang peka panas tidak rusak. Prosesnya lambat, karena kalor penyubliman harus terus dipasok tanpa mencairkan es; di laboratorium, alat yang melakukannya disebut *freeze dryer* atau liofilisator.
+**Pengeringan beku.** Kopi instan bermutu tinggi, vaksin, dan sampel biologis dikeringkan dengan cara yang memanfaatkan penyubliman. Bahan dibekukan dahulu, misalnya pada −40 °C, lalu ditaruh dalam ruang hampa yang tekanannya dijaga di bawah tekanan uap es pada suhu itu, sekitar 13 Pa (hitunglah dengan cara Contoh 8.12). Es menyublim langsung menjadi uap tanpa pernah melewati fasa cair, sehingga struktur bahan tidak runtuh dan senyawa aroma yang peka panas tidak rusak. Prosesnya lambat, karena kalor penyubliman harus terus dipasok tanpa mencairkan es; di laboratorium, alat yang melakukannya disebut *freeze dryer* atau liofilisator.
 :::
 
 ::: {.awas}
-**Awas: kapan Clausius–Clapeyron tidak boleh dipakai.** Persamaan (8.4) memakai dua anggapan yang hanya berlaku bila salah satu fasa adalah gas: volume fasa terkondensasi diabaikan dan uap dianggap ideal. Untuk garis padat–cair, kedua anggapan itu salah total, dan yang harus dipakai adalah persamaan Clapeyron (8.3). Di dekat titik kritis, uap tidak lagi ideal dan volume cairan tidak lagi kecil, sehingga Clausius–Clapeyron pun gagal di sana.
+**Kapan Clausius–Clapeyron tidak boleh dipakai.** Persamaan (8.4) memakai dua anggapan yang hanya berlaku bila salah satu fasa adalah gas: volume fasa terkondensasi diabaikan dan uap dianggap ideal. Untuk garis padat–cair, kedua anggapan itu salah total, dan yang harus dipakai adalah persamaan Clapeyron (8.3). Di dekat titik kritis, uap tidak lagi ideal dan volume cairan tidak lagi kecil, sehingga Clausius–Clapeyron pun gagal di sana.
 :::
 
 ::: {.kuis}

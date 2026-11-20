@@ -36,7 +36,7 @@ $$
 $$
 sehingga $\Delta_\text{r}G^\circ(500\ \text{K}) = +7{,}3$ kJ mol⁻¹.
 
-**Memahami hasil.** Pada suhu kamar sintesis amonia standar spontan, tetapi pada 500 K tidak lagi: Δ*G*° berganti tanda di sekitar 464 K (Bab 6, Soal 42). Hasil yang sama diperoleh dari $\Delta H - T\Delta S = -92{,}22 - (500)(-0{,}1988) = +7{,}2$ kJ mol⁻¹, dalam batas pembulatan. Reaksi eksoterm yang mengurangi jumlah gas selalu menjadi kurang menguntungkan pada suhu tinggi, dan Haber harus berkompromi antara laju (memerlukan suhu tinggi) dan hasil (memerlukan suhu rendah).
+**Memahami hasil.** Pada suhu kamar sintesis amonia standar spontan, tetapi pada 500 K tidak lagi: Δ*G*° berganti tanda di sekitar 464 K (Bab 6, Soal 45). Hasil yang sama diperoleh dari $\Delta H - T\Delta S = -92{,}22 - (500)(-0{,}1988) = +7{,}2$ kJ mol⁻¹, dalam batas pembulatan. Reaksi eksoterm yang mengurangi jumlah gas selalu menjadi kurang menguntungkan pada suhu tinggi, dan Haber harus berkompromi antara laju (memerlukan suhu tinggi) dan hasil (memerlukan suhu rendah).
 :::
 
 ::: {.kuis}

@@ -65,7 +65,7 @@ $$
 :::
 
 ::: {.terapan}
-**Terapan: biaya menangkap CO₂ dari udara.** Penangkapan karbon langsung dari udara (*direct air capture*) harus memisahkan CO₂ yang tekanan parsialnya hanya sekitar 0,00042 bar. Dengan cara Contoh 9.12, kerja minimumnya $RT\ln(1/0{,}000\,42) = 19{,}3$ kJ per mol CO₂ pada 25 °C, atau sekitar 120 kWh per ton CO₂. Menangkap CO₂ dari gas buang cerobong pembangkit listrik, tempat fraksi molnya sekitar 0,12, hanya memerlukan $RT\ln(1/0{,}12) = 5{,}3$ kJ mol⁻¹, hampir empat kali lebih murah. Karena itu penangkapan karbon pertama-tama diterapkan di cerobong. Batas termodinamika ini tidak dapat dikalahkan oleh teknologi apa pun; teknologi hanya dapat mendekatinya. Instalasi nyata saat ini memerlukan beberapa kali lipat energi minimum itu.
+**Biaya menangkap CO₂ dari udara.** Penangkapan karbon langsung dari udara (*direct air capture*) harus memisahkan CO₂ yang tekanan parsialnya hanya sekitar 0,00042 bar. Dengan cara Contoh 9.12, kerja minimumnya $RT\ln(1/0{,}000\,42) = 19{,}3$ kJ per mol CO₂ pada 25 °C, atau sekitar 120 kWh per ton CO₂. Menangkap CO₂ dari gas buang cerobong pembangkit listrik, tempat fraksi molnya sekitar 0,12, hanya memerlukan $RT\ln(1/0{,}12) = 5{,}3$ kJ mol⁻¹, hampir empat kali lebih murah. Karena itu penangkapan karbon pertama-tama diterapkan di cerobong. Batas termodinamika ini tidak dapat dikalahkan oleh teknologi apa pun; teknologi hanya dapat mendekatinya. Instalasi nyata saat ini memerlukan beberapa kali lipat energi minimum itu.
 :::
 
 ::: {.contoh}

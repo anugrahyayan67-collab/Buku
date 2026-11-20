@@ -57,7 +57,7 @@ Reaksi $\text{CO}(g) + \text{H}_2\text{O}(g) \rightleftharpoons \text{CO}_2(g) +
 :::
 
 ::: {.awas}
-**Awas: konsentrasi awal bukan konsentrasi kesetimbangan.** Kesalahan paling umum adalah memasukkan jumlah atau tekanan **awal** ke dalam rumus *K*. Tetapan kesetimbangan hanya berlaku untuk komposisi **pada kesetimbangan**. Nyatakan dulu setiap jumlah pada kesetimbangan dengan satu variabel (ξ atau α), baru masukkan ke *K*. Dan untuk gas, ingat bahwa tekanan parsial bergantung pada jumlah mol **total**, yang ikut berubah bila Δν ≠ 0.
+**Konsentrasi awal bukan konsentrasi kesetimbangan.** Kesalahan paling umum adalah memasukkan jumlah atau tekanan **awal** ke dalam rumus *K*. Tetapan kesetimbangan hanya berlaku untuk komposisi **pada kesetimbangan**. Nyatakan dulu setiap jumlah pada kesetimbangan dengan satu variabel (ξ atau α), baru masukkan ke *K*. Dan untuk gas, ingat bahwa tekanan parsial bergantung pada jumlah mol **total**, yang ikut berubah bila Δν ≠ 0.
 :::
 
 ::: {.kuis}

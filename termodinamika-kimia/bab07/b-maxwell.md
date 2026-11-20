@@ -135,7 +135,7 @@ $$
 \Delta U = \int_{V_1}^{V_2}\frac{an^2}{V^2}dV = an^2\left(\frac{1}{V_1} - \frac{1}{V_2}\right) = (1{,}370)(1)\left(1 - 0{,}100\right)\ \text{L bar} = 1{,}233\ \text{L bar} = 123\ \text{J} .
 $$
 
-**Memahami hasil.** Untuk gas ideal, Δ*U* proses ini nol. Gas nyata memerlukan 123 J untuk menarik molekul-molekulnya saling menjauh. Bila ekspansi itu berlangsung ke dalam vakum tanpa kalor dari luar (ekspansi Joule), energi itu diambil dari gerak molekul sendiri, sehingga gas sedikit mendingin. Bandingkan dengan energi kinetik translasi $\tfrac32RT = 3{,}7$ kJ mol⁻¹ pada 298 K: pendinginannya kecil, sekitar 3%, tetapi nyata dan terukur.
+**Memahami hasil.** Untuk gas ideal, Δ*U* proses ini nol. Gas nyata memerlukan 123 J untuk menarik molekul-molekulnya saling menjauh. Bila ekspansi itu berlangsung ke dalam vakum tanpa kalor dari luar (ekspansi Joule), energi itu diambil dari gerak molekul sendiri, sehingga gas sedikit mendingin. Dengan $C_{V,\text{m}} = 20{,}8$ J K⁻¹ mol⁻¹, penurunan suhunya sekitar $123/20{,}8 \approx 6$ K: kecil, tetapi nyata dan terukur.
 :::
 
 ::: {.kuis}

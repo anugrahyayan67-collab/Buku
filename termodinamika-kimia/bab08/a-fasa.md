@@ -45,7 +45,7 @@ Satu zat murni dapat mempunyai lebih dari tiga fasa. Selain gas dan cair, banyak
 
 **Transisi fasa** adalah perubahan spontan dari satu fasa ke fasa lain pada suhu dan tekanan tertentu: peleburan, penguapan, penyubliman, dan perubahan polimorf. Suhu tempat dua fasa berada dalam kesetimbangan pada tekanan tertentu disebut **suhu transisi**, $T_\text{trs}$. Pada tekanan 1 atm, suhu transisi cair–gas disebut titik didih normal dan suhu transisi padat–cair titik leleh normal. (Bila tekanannya 1 bar, kata yang dipakai adalah titik didih **standar**; untuk air 99,6 °C, sedikit di bawah titik didih normal 100,0 °C.)
 
-Fasa mana yang dipilih zat? Jawabannya sudah kita temui di subbab 7.5: pada suhu dan tekanan tetap, proses spontan menurunkan *G*. Untuk zat murni, *G* sebanding dengan banyaknya zat, $G = nG_\text{m}$, sehingga zat akan berpindah ke fasa dengan **energi Gibbs molar terendah**. Fasa itu disebut fasa **stabil** pada suhu dan tekanan tersebut.
+Fasa mana yang dipilih zat? Jawabannya sudah kita temui di subbab 7.3: pada suhu dan tekanan tetap, proses spontan menurunkan *G*. Untuk zat murni, *G* sebanding dengan banyaknya zat, $G = nG_\text{m}$, sehingga zat akan berpindah ke fasa dengan **energi Gibbs molar terendah**. Fasa itu disebut fasa **stabil** pada suhu dan tekanan tersebut.
 
 Gambar 7.1 memperlihatkan bagaimana pilihan itu berubah bersama suhu. Garis $G_\text{m}$ setiap fasa menurun dengan kemiringan $-S_\text{m}$. Padatan, yang entropinya paling kecil, turun paling landai; gas, yang entropinya paling besar, turun paling curam. Akibatnya urutan selalu sama: padat stabil pada suhu rendah, cair di tengah, gas pada suhu tinggi. Titik leleh dan titik didih adalah titik potong garis-garis itu.
 
@@ -139,7 +139,7 @@ Kini gas yang stabil: air menguap.
 Bagaimana dengan keadaan metastabil? Air dingin-lewat pada −10 °C mempunyai μ lebih tinggi daripada es. Ia tidak dalam kesetimbangan dengan es, tetapi ia dapat berada dalam kesetimbangan dengan uapnya sendiri. Akibatnya, air dingin-lewat mempunyai tekanan uap sendiri, dan tekanan uap itu **lebih tinggi** daripada tekanan uap es pada suhu yang sama. Kita akan menghitung selisihnya di subbab 8.4 dan melihat bahwa selisih inilah yang membuat hujan turun.
 
 ::: {.awas}
-**Awas: kesetimbangan bukan berarti diam.** Pada kesetimbangan cair–uap, molekul terus-menerus menguap dari permukaan cairan dan mengembun kembali. Yang setimbang adalah **lajunya**: banyaknya molekul yang menguap per detik sama dengan yang mengembun. Termodinamika tidak melihat lalu lintas itu; ia hanya mengatakan bahwa μ kedua fasa sama sehingga tidak ada perpindahan **bersih**.
+**Kesetimbangan bukan berarti diam.** Pada kesetimbangan cair–uap, molekul terus-menerus menguap dari permukaan cairan dan mengembun kembali. Yang setimbang adalah **lajunya**: banyaknya molekul yang menguap per detik sama dengan yang mengembun. Termodinamika tidak melihat lalu lintas itu; ia hanya mengatakan bahwa μ kedua fasa sama sehingga tidak ada perpindahan **bersih**.
 :::
 
 ::: {.kuis}

@@ -120,65 +120,67 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹; untuk air $\Delta_\text{fus}H = 6{,}01$ k
 
 **27.** ★ Bila $\Delta_\text{vap}H = a + bT$, dengan *a* dan *b* tetapan, integralkan (8.4) untuk memperoleh ln *p* sebagai fungsi *T*.
 
+**28.** [P] ★ Pakai hasil Soal 27 untuk air, dengan $b = \Delta C_p = -41{,}7$ J K⁻¹ mol⁻¹ (Contoh 4.17) dan *a* dipilih sehingga $\Delta_\text{vap}H = 40{,}66$ kJ mol⁻¹ pada 373,15 K. Hitung tekanan uap air pada 25 °C dari titik didih normalnya, lalu bandingkan dengan hasil bila Δ*H* dianggap tetap dan dengan nilai terukur 3,17 kPa.
+
 ## Subbab 8.5: Diagram fasa air
 
 **Dasar**
 
-**28.** Fasa apa yang stabil untuk air pada (a) 50 °C dan 0,05 bar; (b) −10 °C dan 1 bar; (c) 200 °C dan 100 bar?
+**29.** Fasa apa yang stabil untuk air pada (a) 50 °C dan 0,05 bar; (b) −10 °C dan 1 bar; (c) 200 °C dan 100 bar?
 
-**29.** Mengapa es mengapung, dan apa akibatnya bagi kehidupan di danau?
+**30.** Mengapa es mengapung, dan apa akibatnya bagi kehidupan di danau?
 
 **Menengah**
 
-**30.** Berapa titik didih air murni di suatu tempat di Mars yang tekanannya 1000 Pa?
+**31.** Berapa titik didih air murni di suatu tempat di Mars yang tekanannya 1000 Pa?
 
-**31.** Dengan anggapan garis padat–cair lurus, berapa tekanan yang diperlukan untuk mencairkan es pada −10 °C? Mengapa nilai sebenarnya berbeda?
+**32.** Dengan anggapan garis padat–cair lurus, berapa tekanan yang diperlukan untuk mencairkan es pada −10 °C? Mengapa nilai sebenarnya berbeda?
 
-**32.** Mengapa salju dapat hilang tanpa mencair pada hari dingin yang kering?
+**33.** Mengapa salju dapat hilang tanpa mencair pada hari dingin yang kering?
 
 ## Subbab 8.6: Diagram fasa CO₂
 
 **Dasar**
 
-**33.** Mengapa es kering tidak meleleh pada tekanan udara biasa?
+**34.** Mengapa es kering tidak meleleh pada tekanan udara biasa?
 
-**34.** Fasa apa yang stabil untuk CO₂ pada −60 °C dan 10 bar?
+**35.** Fasa apa yang stabil untuk CO₂ pada −60 °C dan 10 bar?
 
 **Menengah**
 
-**35.** Manometer tabung CO₂ pada 25 °C menunjukkan 64 bar. Setelah separuh isinya dipakai, berapa yang ditunjukkan? Mengapa?
+**36.** Manometer tabung CO₂ pada 25 °C menunjukkan 64 bar. Setelah separuh isinya dipakai, berapa yang ditunjukkan? Mengapa?
 
-**36.** Pakai $\Delta_\text{vap}H = 16{,}6$ kJ mol⁻¹ dan titik tripel CO₂ untuk menaksir suhu tempat tekanan uap CO₂ cair 20 bar.
+**37.** Pakai $\Delta_\text{vap}H = 16{,}6$ kJ mol⁻¹ dan titik tripel CO₂ untuk menaksir suhu tempat tekanan uap CO₂ cair 20 bar.
 
 ## Subbab 8.7: Titik tripel dan titik kritis
 
 **Dasar**
 
-**37.** Apa yang terjadi pada meniskus antara cairan dan uap ketika titik kritis dicapai? Mengapa?
+**38.** Apa yang terjadi pada meniskus antara cairan dan uap ketika titik kritis dicapai? Mengapa?
 
-**38.** Mengapa titik tripel dipakai untuk menera termometer?
+**39.** Mengapa titik tripel dipakai untuk menera termometer?
 
 **Menengah**
 
-**39.** Hitung suhu kritis N₂ dari tetapan van der Waals $a = 1{,}370$ L² bar mol⁻² dan $b = 0{,}0387$ L mol⁻¹.
+**40.** Hitung suhu kritis N₂ dari tetapan van der Waals $a = 1{,}370$ L² bar mol⁻² dan $b = 0{,}0387$ L mol⁻¹.
 
-**40.** Di titik tripel CO₂, berapa perbandingan kemiringan garis padat–gas terhadap garis cair–gas?
+**41.** Di titik tripel CO₂, berapa perbandingan kemiringan garis padat–gas terhadap garis cair–gas?
 
-**41.** Jelaskan cara mengubah air cair menjadi uap tanpa pernah melihatnya mendidih.
+**42.** Jelaskan cara mengubah air cair menjadi uap tanpa pernah melihatnya mendidih.
 
 ## Subbab 8.8: Aturan fasa Gibbs untuk satu komponen
 
 **Dasar**
 
-**42.** Berapa derajat kebebasan untuk es dan air yang setimbang? Bila tekanan ditetapkan 1 atm, berapa yang tersisa?
+**43.** Berapa derajat kebebasan untuk es dan air yang setimbang? Bila tekanan ditetapkan 1 atm, berapa yang tersisa?
 
-**43.** Berapa derajat kebebasan terbesar untuk sistem satu komponen?
+**44.** Berapa derajat kebebasan terbesar untuk sistem satu komponen?
 
 **Menengah**
 
-**44.** [P] Dapatkah keempat fasa belerang (rombik, monoklin, cair, gas) setimbang bersama? Berapa titik tripel yang mungkin?
+**45.** [P] Dapatkah keempat fasa belerang (rombik, monoklin, cair, gas) setimbang bersama? Berapa titik tripel yang mungkin?
 
-**45.** Suatu zat mempunyai lima fasa. Berapa banyak titik tripel yang mungkin secara kombinatorik?
+**46.** Suatu zat mempunyai lima fasa. Berapa banyak titik tripel yang mungkin secara kombinatorik?
 
 
 # Jawaban
@@ -190,25 +192,25 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹; untuk air $\Delta_\text{fus}H = 6{,}01$ k
 | 2 | −440 J mol⁻¹ | 25 | 5,4 kPa (terukur 3,8 kPa) |
 | 3 | μ lebih tinggi daripada fasa stabil, tetapi perubahannya terhambat; air dingin-lewat, intan | 26 | μ air dingin-lewat lebih tinggi |
 | 4 | −96 J mol⁻¹ | 27 | $\ln p = -a/RT + (b/R)\ln T + C$ |
-| 5 | kristal itu menjadi inti, sehingga penghalang pembentukan inti hilang | 28 | (a) gas; (b) padat; (c) cair |
-| 6 | $\mu(\text{es}) = \mu(\text{air})$ pada *T* dan *p* yang sama | 29 | es kurang rapat; danau membeku dari atas |
-| 7 | −1,15 kJ mol⁻¹; ya | 30 | sekitar 7 °C |
-| 8 | −1,72 kJ mol⁻¹ | 31 | ≈ 1350 bar; garisnya melengkung |
-| 9 | satu persamaan dengan dua variabel | 32 | tekanan parsial uap air di udara di bawah tekanan uap es: es menyublim |
-| 10 | +189 bar K⁻¹ | 33 | titik tripelnya 5,18 bar, di atas 1 atm |
-| 11 | sekitar 270 bar | 34 | padat (tekanan uap padatnya sekitar 4,1 bar) |
-| 12 | 101,0 °C | 35 | tetap 64 bar; selama masih ada cairan, tekanan sama dengan tekanan uap |
-| 13 | 90 bar; 0,67 K | 36 | 254 K (−19 °C) |
-| 14 | $\Delta_\text{fus}V$ sangat kecil dibandingkan $\Delta_\text{vap}V$ | 37 | lenyap; rapatan kedua fasa menjadi sama |
-| 15 | turun | 38 | suhunya tertentu dan tidak dapat digeser |
-| 16 | (a) +17,7 bar K⁻¹; (b) ≈ 36 kbar | 39 | 126 K (terukur 126,2 K) |
-| 17 | 9,6 kPa (terukur 7,9 kPa) | 40 | 1,57 |
-| 18 | 0,36 Pa | 41 | memutari titik kritis |
-| 19 | 0,29 kPa | 42 | 1; 0 |
-| 20 | 27,9 kJ mol⁻¹ | 43 | 2 |
-| 21 | 71 °C | 44 | tidak; paling banyak empat |
-| 22 | 12,2 kPa (terukur 12,35 kPa) | 45 | 10 |
-| 23 | 0,37 bar |  |  |
+| 5 | kristal itu menjadi inti, sehingga penghalang pembentukan inti hilang | 28 | 3,27 kPa (Δ*H* tetap: 3,75 kPa) |
+| 6 | $\mu(\text{es}) = \mu(\text{air})$ pada *T* dan *p* yang sama | 29 | (a) gas; (b) padat; (c) cair |
+| 7 | −1,15 kJ mol⁻¹; ya | 30 | es kurang rapat; danau membeku dari atas |
+| 8 | −1,72 kJ mol⁻¹ | 31 | sekitar 7 °C |
+| 9 | satu persamaan dengan dua variabel | 32 | ≈ 1350 bar; garisnya melengkung |
+| 10 | +189 bar K⁻¹ | 33 | tekanan parsial uap air di udara di bawah tekanan uap es: es menyublim |
+| 11 | sekitar 270 bar | 34 | titik tripelnya 5,18 bar, di atas 1 atm |
+| 12 | 101,0 °C | 35 | padat (tekanan uap padatnya sekitar 4,1 bar) |
+| 13 | 90 bar; 0,67 K | 36 | tetap 64 bar; selama masih ada cairan, tekanan sama dengan tekanan uap |
+| 14 | $\Delta_\text{fus}V$ sangat kecil dibandingkan $\Delta_\text{vap}V$ | 37 | 254 K (−19 °C) |
+| 15 | turun | 38 | lenyap; rapatan kedua fasa menjadi sama |
+| 16 | (a) +17,7 bar K⁻¹; (b) ≈ 36 kbar | 39 | suhunya tertentu dan tidak dapat digeser |
+| 17 | 9,6 kPa (terukur 7,9 kPa) | 40 | 126 K (terukur 126,2 K) |
+| 18 | 0,36 Pa | 41 | 1,57 |
+| 19 | 0,29 kPa | 42 | memutari titik kritis |
+| 20 | 27,9 kJ mol⁻¹ | 43 | 1; 0 |
+| 21 | 71 °C | 44 | 2 |
+| 22 | 12,2 kPa (terukur 12,35 kPa) | 45 | tidak; paling banyak empat |
+| 23 | 0,37 bar | 46 | 10 |
 :::
 
 
@@ -230,7 +232,13 @@ sehingga $p = 12{,}2$ kPa.
 
 *Cara berpikir:* tetapan 18,449 diperoleh dari garis terbaik, bukan dari satu titik saja; cara lain adalah memakai (8.5) dengan titik 40 °C atau 60 °C sebagai acuan, yang memberi hasil hampir sama. Nilai terukurnya 12,35 kPa. Selisih 1% itu datang dari kelengkungan kecil garis, karena $\Delta_\text{vap}H$ tidak tetap. Untuk interpolasi dalam rentang data, plot Clausius–Clapeyron sudah sangat baik; untuk ekstrapolasi jauh di luar rentang, kesalahannya membesar.
 
-**Soal 44.** Untuk satu komponen, $F = 3 - P$. Empat fasa memberi $F = -1$: ada tiga persamaan pengikat ($\mu_1 = \mu_2 = \mu_3 = \mu_4$) untuk hanya dua variabel, *T* dan *p*. Secara umum tidak ada penyelesaian. Banyaknya cara memilih tiga fasa dari empat adalah $\binom{4}{3} = 4$, sehingga paling banyak ada empat titik tripel.
+**Soal 28.** Dengan $\Delta_\text{vap}H = a + bT$ dan $\Delta_\text{vap}H(373{,}15\ \text{K}) = 40\,660$ J mol⁻¹, tetapan $a = 40\,660 - (-41{,}7)(373{,}15) = 56\,220$ J mol⁻¹. Mengintegralkan (8.4) dari $T_0 = 373{,}15$ K ($p_0 = 101{,}325$ kPa) ke $T = 298{,}15$ K:
+$$
+\ln\frac{p}{p_0} = -\frac{a}{R}\left(\frac1T - \frac1{T_0}\right) + \frac bR\ln\frac{T}{T_0} = -4{,}5585 + 1{,}1254 = -3{,}4331 .
+$$
+Hasilnya $p = 101{,}325\,e^{-3{,}4331} = 3{,}27$ kPa. Dengan Δ*H* tetap 40,66 kJ mol⁻¹, hasilnya 3,75 kPa, 18% terlalu tinggi. Koreksi kapasitas kalor menaikkan $\Delta_\text{vap}H$ pada suhu rendah (menjadi 43,8 kJ mol⁻¹ pada 25 °C), sehingga tekanan uap turun lebih cepat ketika suhu diturunkan, dan selisih terhadap nilai terukur tinggal 3%. Sisa selisih itu berasal dari anggapan uap ideal dan $\Delta C_p$ tetap.
+
+**Soal 45.** Untuk satu komponen, $F = 3 - P$. Empat fasa memberi $F = -1$: ada tiga persamaan pengikat ($\mu_1 = \mu_2 = \mu_3 = \mu_4$) untuk hanya dua variabel, *T* dan *p*. Secara umum tidak ada penyelesaian. Banyaknya cara memilih tiga fasa dari empat adalah $\binom{4}{3} = 4$, sehingga paling banyak ada empat titik tripel.
 
 *Cara berpikir:* kebetulan sempurna, ketika empat garis μ berpotongan di satu titik, secara matematika mungkin tetapi tidak pernah dijumpai, karena tidak ada alasan fisis yang memaksanya. Pada belerang, satu dari empat titik tripel ternyata jatuh di daerah tempat fasa lain lebih stabil, sehingga hanya tiga yang dapat diamati sebagai kesetimbangan stabil.
 

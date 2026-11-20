@@ -136,7 +136,7 @@ Dalam larutan dengan $x_\text{A} = 0{,}90$ dan $x_\text{B} = 0{,}10$, sedikit B 
 :::
 
 ::: {.terapan}
-**Terapan: mengukur zat yang tidak menguap lewat pelarutnya.** Potensial kimia sukrosa dalam air tidak dapat diukur langsung, karena sukrosa tidak menguap. Tetapi potensial kimia **air** dalam larutan sukrosa dapat diukur dengan mudah, dari tekanan uap air di atas larutan pada berbagai konsentrasi. Persamaan Gibbs–Duhem kemudian diintegralkan untuk memperoleh potensial kimia sukrosa. Cara inilah yang dipakai untuk memperoleh sebagian besar data termodinamika gula, protein, dan polimer dalam larutan. Prinsip yang sama mendasari **osmometer tekanan uap**, alat untuk menentukan massa molar polimer dan biomolekul.
+**Mengukur zat yang tidak menguap lewat pelarutnya.** Potensial kimia sukrosa dalam air tidak dapat diukur langsung, karena sukrosa tidak menguap. Tetapi potensial kimia **air** dalam larutan sukrosa dapat diukur dengan mudah, dari tekanan uap air di atas larutan pada berbagai konsentrasi. Persamaan Gibbs–Duhem kemudian diintegralkan untuk memperoleh potensial kimia sukrosa. Cara inilah yang dipakai untuk memperoleh sebagian besar data termodinamika gula, protein, dan polimer dalam larutan. Prinsip yang sama mendasari **osmometer tekanan uap**, alat untuk menentukan massa molar polimer dan biomolekul.
 :::
 
 ::: {.dalam}

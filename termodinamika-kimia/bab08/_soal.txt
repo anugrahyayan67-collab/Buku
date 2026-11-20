@@ -63,7 +63,8 @@ Mengapa tekanan uap air dingin-lewat lebih tinggi daripada tekanan uap es pada s
 
 **Tantangan ★**
 
-★ Bila $\Delta_\text{vap}H = a + bT$, dengan *a* dan *b* tetapan, integralkan (8.4) untuk memperoleh ln *p* sebagai fungsi *T*. ||| $\ln p = -a/RT + (b/R)\ln T + C$
+@cpint ★ Bila $\Delta_\text{vap}H = a + bT$, dengan *a* dan *b* tetapan, integralkan (8.4) untuk memperoleh ln *p* sebagai fungsi *T*. ||| $\ln p = -a/RT + (b/R)\ln T + C$
+@uap25 [P] ★ Pakai hasil Soal {{cpint}} untuk air, dengan $b = \Delta C_p = -41{,}7$ J K⁻¹ mol⁻¹ (Contoh 4.17) dan *a* dipilih sehingga $\Delta_\text{vap}H = 40{,}66$ kJ mol⁻¹ pada 373,15 K. Hitung tekanan uap air pada 25 °C dari titik didih normalnya, lalu bandingkan dengan hasil bila Δ*H* dianggap tetap dan dengan nilai terukur 3,17 kPa. ||| 3,27 kPa (Δ*H* tetap: 3,75 kPa)
 
 ## Subbab 8.5: Diagram fasa air
 

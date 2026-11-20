@@ -61,6 +61,12 @@ karena suku tarikan $-an^2/V^2$ tidak bergantung pada *T*. Menurut hubungan Maxw
 
 *Cara berpikir:* tarikan antarmolekul mengubah **energi** gas (tekanan dalam $an^2/V^2$), tetapi tidak mengubah banyaknya tempat yang tersedia bagi molekul, sehingga tidak mengubah entropinya. Hanya ukuran molekul (*b*) yang memengaruhi entropi.
 
+**Soal {{hp}}.** (a) Bagi $dH = T\,dS + V\,dp$ dengan *dp* pada suhu tetap: $(\partial H/\partial p)_T = T(\partial S/\partial p)_T + V$. Hubungan Maxwell keempat mengganti $(\partial S/\partial p)_T$ dengan $-(\partial V/\partial T)_p = -\alpha V$, sehingga $(\partial H/\partial p)_T = V - TV\alpha = V(1 - \alpha T)$. (b) Untuk gas ideal, $\alpha = 1/T$, sehingga $1 - \alpha T = 0$: entalpi gas ideal tidak bergantung pada tekanan, sejalan dengan subbab 4.2. (c) Untuk air, $\alpha T = (2{,}07 \times 10^{-4})(298{,}15) = 0{,}062$, sehingga
+$$
+\Delta H_\text{m} \approx V_\text{m}(1 - \alpha T)\Delta p = (18{,}07 \times 10^{-6})(0{,}938)(1{,}00 \times 10^7)\ \text{J mol}^{-1} = 170\ \text{J mol}^{-1} .
+$$
+Hampir seluruhnya berasal dari suku $V\Delta p$; suku $-TV\alpha\Delta p$ hanya mengurangi 6%. Untuk cairan, Δ*H* karena tekanan biasanya diabaikan dibanding Δ*H* karena suhu: 170 J mol⁻¹ setara dengan memanaskan air sekitar 2 K.
+
 **Soal {{gh}}.** Dari (7.13):
 $$
 \frac{\Delta G(1000)}{1000} = \frac{130{,}4}{298{,}15} + 178{,}3\left(\frac{1}{1000} - \frac{1}{298{,}15}\right) = 0{,}4374 - 0{,}4197 = 0{,}0176\ \text{kJ K}^{-1}\text{mol}^{-1} ,
@@ -68,6 +74,12 @@ $$
 sehingga $\Delta G(1000\ \text{K}) = +17{,}6$ kJ mol⁻¹.
 
 *Cara berpikir:* hasilnya sama dengan $\Delta H - T\Delta S = 178{,}3 - (1000)(0{,}1606) = +17{,}7$ kJ mol⁻¹, karena kedua cara memakai anggapan yang sama (Δ*H* tetap). Keuntungan Gibbs–Helmholtz baru terasa ketika Δ*S* tidak diketahui, atau ketika Δ*H* dinyatakan sebagai fungsi suhu dan persamaan (7.12) diintegralkan dengan lebih teliti.
+
+**Soal {{virial}}.** Dari (7.9), $dG_\text{m} = V_\text{m}\,dp = (RT/p + B)\,dp$ pada suhu tetap. Mengintegralkan:
+$$
+\Delta G_\text{m} = RT\ln\frac{p_2}{p_1} + B(p_2 - p_1) .
+$$
+Untuk CO₂: suku ideal $(8{,}314)(273{,}15)\ln10 = 5229$ J mol⁻¹; suku virial $(-149{,}7 \times 10^{-6})(9{,}0 \times 10^5) = -135$ J mol⁻¹. Totalnya 5,09 kJ mol⁻¹, 2,6% lebih kecil daripada gas ideal. Tarikan antarmolekul (*B* negatif) membuat CO₂ lebih mudah dimampatkan, sehingga energi Gibbsnya naik lebih lambat. Suku koreksi inilah yang di subbab 9.5 akan diserap ke dalam **fugasitas**.
 
 # Bacaan lanjut
 

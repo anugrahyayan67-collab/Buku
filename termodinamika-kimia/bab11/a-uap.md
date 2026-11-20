@@ -187,7 +187,7 @@ Dengan langkah-langkah pada Gambar 11.2, berapa pelat teoretis yang diperlukan u
 :::
 
 ::: {.terapan}
-**Terapan: kilang minyak.** Minyak mentah adalah campuran ribuan hidrokarbon. Di kilang, minyak dipanaskan sampai sekitar 350–400 °C dan dimasukkan ke bagian bawah menara distilasi. Uap naik melewati puluhan pelat, makin ke atas makin dingin; setiap pelat setimbang pada suhunya sendiri, dan cairan yang terkumpul di setiap ketinggian diambil sebagai fraksi: gas (C₁–C₄) di puncak, nafta dan bensin (C₅–C₁₀), kerosin (C₁₀–C₁₆), solar (C₁₄–C₂₀), lalu minyak berat dan residu di dasar. Prinsipnya tepat seperti Gambar 11.2, diperluas ke banyak komponen. Residu yang terlalu berat untuk diuapkan pada 1 atm tanpa terurai disuling lagi pada tekanan rendah (distilasi vakum), memanfaatkan turunnya titik didih bersama tekanan yang kita pelajari di Bab 8.
+**Kilang minyak.** Minyak mentah adalah campuran ribuan hidrokarbon. Di kilang, minyak dipanaskan sampai sekitar 350–400 °C dan dimasukkan ke bagian bawah menara distilasi. Uap naik melewati puluhan pelat, makin ke atas makin dingin; setiap pelat setimbang pada suhunya sendiri, dan cairan yang terkumpul di setiap ketinggian diambil sebagai fraksi: gas (C₁–C₄) di puncak, nafta dan bensin (C₅–C₁₀), kerosin (C₁₀–C₁₆), solar (C₁₄–C₂₀), lalu minyak berat dan residu di dasar. Prinsipnya tepat seperti Gambar 11.2, diperluas ke banyak komponen. Residu yang terlalu berat untuk diuapkan pada 1 atm tanpa terurai disuling lagi pada tekanan rendah (distilasi vakum), memanfaatkan turunnya titik didih bersama tekanan yang kita pelajari di Bab 8.
 :::
 
 ::: {.kuis}

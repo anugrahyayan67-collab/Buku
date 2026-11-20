@@ -196,7 +196,7 @@ Minuman bersoda dibotolkan di bawah tekanan CO₂ sekitar 4,0 bar. Tetapan Henry
 :::
 
 ::: {.terapan}
-**Terapan: penyakit dekompresi.** Pada kedalaman 30 m, tekanan total di paru-paru penyelam sekitar 4 bar, dan tekanan parsial N₂ sekitar 3,2 bar. Menurut hukum Henry, darah dan jaringan perlahan-lahan menyerap N₂ empat kali lebih banyak daripada di permukaan. Bila penyelam naik terlalu cepat, tekanan turun lebih cepat daripada N₂ dapat keluar lewat paru-paru, dan N₂ berlebih membentuk gelembung di dalam darah dan sendi, seperti buih minuman bersoda. Dengan tetapan Henry N₂ dalam air ($8{,}68 \times 10^4$ bar pada 25 °C) sebagai pendekatan, kelebihan N₂ per liter darah sekitar $1{,}5 \times 10^{-3}$ mol, yang pada suhu tubuh dan tekanan 1 bar menempati sekitar 40 mL gas. Gejalanya, yang disebut *the bends*, berkisar dari nyeri sendi sampai kelumpuhan. Pencegahannya adalah naik perlahan dengan berhenti di beberapa kedalaman, supaya N₂ sempat keluar lewat paru-paru.
+**Penyakit dekompresi.** Pada kedalaman 30 m, tekanan total di paru-paru penyelam sekitar 4 bar, dan tekanan parsial N₂ sekitar 3,2 bar. Menurut hukum Henry, darah dan jaringan perlahan-lahan menyerap N₂ empat kali lebih banyak daripada di permukaan. Bila penyelam naik terlalu cepat, tekanan turun lebih cepat daripada N₂ dapat keluar lewat paru-paru, dan N₂ berlebih membentuk gelembung di dalam darah dan sendi, seperti buih minuman bersoda. Dengan tetapan Henry N₂ dalam air ($8{,}68 \times 10^4$ bar pada 25 °C) sebagai pendekatan, kelebihan N₂ per liter darah sekitar $1{,}5 \times 10^{-3}$ mol, yang pada suhu tubuh dan tekanan 1 bar menempati sekitar 40 mL gas. Gejalanya, yang disebut *the bends*, berkisar dari nyeri sendi sampai kelumpuhan. Pencegahannya adalah naik perlahan dengan berhenti di beberapa kedalaman, supaya N₂ sempat keluar lewat paru-paru.
 :::
 
 Larutan encer ideal mempunyai rumus potensial kimia yang mirip dengan (10.1), tetapi dengan keadaan acuan yang berbeda. Untuk zat terlarut, dari (10.4) dengan $p_\text{B} = x_\text{B}K_\text{B}$:
@@ -214,7 +214,7 @@ $$
 Rumus (10.8) adalah bentuk yang akan kita pakai untuk zat terlarut dalam kesetimbangan kimia (Bab 12) dan sel elektrokimia (Bab 13). Ia berlaku untuk larutan encer ideal; untuk larutan nyata, $b_\text{B}/b^\circ$ diganti aktivitas (subbab 10.7).
 
 ::: {.awas}
-**Awas: banyak satuan tetapan Henry.** Tetapan Henry ditabelkan dalam berbagai bentuk: berbasis fraksi mol (bar, seperti di bab ini), berbasis molalitas (bar kg mol⁻¹), atau sebagai kebalikannya, kelarutan per tekanan (mol L⁻¹ bar⁻¹). Nilai O₂ dalam air pada 25 °C, misalnya, adalah $4{,}34 \times 10^4$ bar, atau 782 bar kg mol⁻¹, atau $1{,}3 \times 10^{-3}$ mol L⁻¹ bar⁻¹. Selalu periksa satuan sebelum memakai tabel.
+**Banyak satuan tetapan Henry.** Tetapan Henry ditabelkan dalam berbagai bentuk: berbasis fraksi mol (bar, seperti di bab ini), berbasis molalitas (bar kg mol⁻¹), atau sebagai kebalikannya, kelarutan per tekanan (mol L⁻¹ bar⁻¹). Nilai O₂ dalam air pada 25 °C, misalnya, adalah $4{,}34 \times 10^4$ bar, atau 782 bar kg mol⁻¹, atau $1{,}3 \times 10^{-3}$ mol L⁻¹ bar⁻¹. Selalu periksa satuan sebelum memakai tabel.
 :::
 
 ::: {.kuis}

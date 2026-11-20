@@ -196,7 +196,7 @@ Batasnya adalah suhu tempat Δ*G* = 0: $T = \Delta H/\Delta S = 25{,}7/0{,}1087 
 
 ## 7.4 Kerja maksimum dan kerja bukan-ekspansi
 
-Energi Gibbs juga mempunyai arti sebagai kerja, dan arti inilah yang menjawab teka-teki sel bahan bakar. Pada tekanan tetap, sebagian kerja yang dilakukan sistem selalu berupa kerja ekspansi terhadap atmosfer, $p\,\Delta V$, yang tidak dapat kita manfaatkan. Kerja **lain**, yang dapat dimanfaatkan, disebut **kerja bukan-ekspansi** atau kerja tambahan: kerja listrik dalam sel elektrokimia, kerja mekanis otot, kerja kimia untuk membangun molekul besar dalam sel. Dengan penurunan yang serupa dengan subbab 7.2, tetapi memisahkan kerja ekspansi dari kerja tambahan, diperoleh
+Energi Gibbs juga mempunyai arti sebagai kerja, dan arti inilah yang menjawab teka-teki sel bahan bakar. Pada tekanan tetap, sebagian kerja yang dilakukan sistem selalu berupa kerja ekspansi terhadap atmosfer, $p\,\Delta V$, yang tidak dapat kita manfaatkan. Kerja **lain**, yang dapat dimanfaatkan, disebut **kerja bukan-ekspansi** atau kerja tambahan: kerja listrik dalam sel elektrokimia, kerja mekanis otot, kerja kimia untuk membangun molekul besar dalam sel. Penurunannya serupa dengan subbab 7.2, hanya kerja kita pisahkan menjadi dua: $dw = -p\,dV + dw_\text{tambahan}$. Pada *T* dan *p* tetap, $dG = dH - T\,dS = dU + p\,dV - T\,dS$. Mengganti $dU = dq - p\,dV + dw_\text{tambahan}$ menghilangkan suku $p\,dV$, sehingga $dG = dq - T\,dS + dw_\text{tambahan}$. Ketaksamaan Clausius, $dq \le T\,dS$, lalu memberi $dw_\text{tambahan} \ge dG$. Kerja tambahan yang dilakukan **oleh** sistem adalah $-dw_\text{tambahan}$, sehingga
 
 ::: {.inti}
 $$
@@ -218,7 +218,7 @@ Untuk $\text{H}_2(g) + \tfrac12\text{O}_2(g) \to \text{H}_2\text{O}(l)$ pada 298
 
 (c) $E = -\Delta G/nF = 237\,130/(2 \times 96\,485) = 1{,}229$ V.
 
-**Memahami hasil.** Teka-teki pembuka terjawab. Sisa 48,7 kJ adalah $T\Delta S = (298)(-0{,}163)$ kJ: reaksi ini mengubah satu setengah mol gas menjadi cairan, menurunkan entropi sistem, dan penurunan itu **harus** diimbangi dengan membuang kalor ke lingkungan. Tidak ada sel bahan bakar yang dapat menghindarinya. Meski demikian, batas 83% jauh di atas efisiensi Carnot mesin kalor yang membakar hidrogen yang sama (sekitar 40–60%), karena sel bahan bakar tidak melewati tahap "kalor": ia mengubah energi kimia langsung menjadi kerja. Tegangan 1,23 V adalah tegangan teoretis setiap sel bahan bakar hidrogen–oksigen; sel nyata menghasilkan 0,6–0,8 V karena ketakreversibelan.
+**Memahami hasil.** Teka-teki pembuka terjawab. Sisa 48,7 kJ adalah $-T\Delta S = -(298)(-0{,}163)$ kJ: reaksi ini mengubah satu setengah mol gas menjadi cairan, menurunkan entropi sistem, dan penurunan itu **harus** diimbangi dengan membuang kalor ke lingkungan. Tidak ada sel bahan bakar yang dapat menghindarinya. Meski demikian, batas 83% jauh di atas efisiensi Carnot mesin kalor yang membakar hidrogen yang sama (sekitar 40–60%), karena sel bahan bakar tidak melewati tahap "kalor": ia mengubah energi kimia langsung menjadi kerja. Tegangan 1,23 V adalah tegangan teoretis setiap sel bahan bakar hidrogen–oksigen; sel nyata menghasilkan 0,6–0,8 V karena ketakreversibelan.
 :::
 
 ::: {.contoh}
@@ -232,7 +232,7 @@ Untuk pembakaran glukosa, $\text{C}_6\text{H}_{12}\text{O}_6(s) + 6\text{O}_2(g)
 :::
 
 ::: {.terapan}
-**Terapan: reaksi berpasangan dalam sel.** Banyak reaksi yang diperlukan sel hidup mempunyai Δ*G* positif, misalnya pembentukan glutamin dari glutamat dan amonia ($\Delta G^{\circ\prime} = +14{,}2$ kJ mol⁻¹). Sel tidak dapat melanggar hukum kedua, tetapi dapat **memasangkan** reaksi yang tidak spontan dengan reaksi yang sangat spontan, yaitu hidrolisis ATP ($-30{,}5$ kJ mol⁻¹). Enzim glutamin sintetase melakukannya lewat zat antara bersama: glutamat lebih dulu bereaksi dengan ATP membentuk glutamil fosfat, yang kemudian bereaksi dengan amonia. Reaksi bersihnya
+**Reaksi berpasangan dalam sel.** Banyak reaksi yang diperlukan sel hidup mempunyai Δ*G* positif, misalnya pembentukan glutamin dari glutamat dan amonia ($\Delta G^{\circ\prime} = +14{,}2$ kJ mol⁻¹). Sel tidak dapat melanggar hukum kedua, tetapi dapat **memasangkan** reaksi yang tidak spontan dengan reaksi yang sangat spontan, yaitu hidrolisis ATP ($-30{,}5$ kJ mol⁻¹). Enzim glutamin sintetase melakukannya lewat zat antara bersama: glutamat lebih dulu bereaksi dengan ATP membentuk glutamil fosfat, yang kemudian bereaksi dengan amonia. Reaksi bersihnya
 $$
 \text{glutamat} + \text{NH}_3 + \text{ATP} \to \text{glutamin} + \text{ADP} + \text{P}_\text{i} , \qquad \Delta G^{\circ\prime} = 14{,}2 - 30{,}5 = -16{,}3\ \text{kJ mol}^{-1} .
 $$

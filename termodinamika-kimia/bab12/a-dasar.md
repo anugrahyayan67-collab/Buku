@@ -184,7 +184,7 @@ Bila padatan atau cairan murni ikut bereaksi, aktivitasnya satu dan mereka tidak
 ::: {.contoh}
 **Contoh 12.5 · Tekanan penguraian batu kapur**
 
-Untuk penguraian CaCO₃, $\Delta_\text{r}G^\circ(298\ \text{K}) = +130{,}4$ kJ mol⁻¹ dan $\Delta_\text{r}G^\circ(1000\ \text{K}) = +17{,}6$ kJ mol⁻¹ (Bab 7, Soal 34). Hitung tekanan penguraian pada kedua suhu.
+Untuk penguraian CaCO₃, $\Delta_\text{r}G^\circ(298\ \text{K}) = +130{,}4$ kJ mol⁻¹ dan $\Delta_\text{r}G^\circ(1000\ \text{K}) = +17{,}6$ kJ mol⁻¹ (Bab 7, Soal 35). Hitung tekanan penguraian pada kedua suhu.
 
 **Penyelesaian.** Pada 298 K: $K = \exp(-130\,400/2479) = 1{,}4 \times 10^{-23}$, sehingga $p_{\text{CO}_2} = 1{,}4 \times 10^{-23}$ bar. Pada 1000 K: $K = \exp[-17\,600/(8{,}314 \times 1000)] = 0{,}12$, sehingga $p_{\text{CO}_2} = 0{,}12$ bar.
 

@@ -60,6 +60,12 @@ sehingga $p = 12{,}2$ kPa.
 
 *Cara berpikir:* tetapan 18,449 diperoleh dari garis terbaik, bukan dari satu titik saja; cara lain adalah memakai (8.5) dengan titik 40 °C atau 60 °C sebagai acuan, yang memberi hasil hampir sama. Nilai terukurnya 12,35 kPa. Selisih 1% itu datang dari kelengkungan kecil garis, karena $\Delta_\text{vap}H$ tidak tetap. Untuk interpolasi dalam rentang data, plot Clausius–Clapeyron sudah sangat baik; untuk ekstrapolasi jauh di luar rentang, kesalahannya membesar.
 
+**Soal {{uap25}}.** Dengan $\Delta_\text{vap}H = a + bT$ dan $\Delta_\text{vap}H(373{,}15\ \text{K}) = 40\,660$ J mol⁻¹, tetapan $a = 40\,660 - (-41{,}7)(373{,}15) = 56\,220$ J mol⁻¹. Mengintegralkan (8.4) dari $T_0 = 373{,}15$ K ($p_0 = 101{,}325$ kPa) ke $T = 298{,}15$ K:
+$$
+\ln\frac{p}{p_0} = -\frac{a}{R}\left(\frac1T - \frac1{T_0}\right) + \frac bR\ln\frac{T}{T_0} = -4{,}5585 + 1{,}1254 = -3{,}4331 .
+$$
+Hasilnya $p = 101{,}325\,e^{-3{,}4331} = 3{,}27$ kPa. Dengan Δ*H* tetap 40,66 kJ mol⁻¹, hasilnya 3,75 kPa, 18% terlalu tinggi. Koreksi kapasitas kalor menaikkan $\Delta_\text{vap}H$ pada suhu rendah (menjadi 43,8 kJ mol⁻¹ pada 25 °C), sehingga tekanan uap turun lebih cepat ketika suhu diturunkan, dan selisih terhadap nilai terukur tinggal 3%. Sisa selisih itu berasal dari anggapan uap ideal dan $\Delta C_p$ tetap.
+
 **Soal {{fasa}}.** Untuk satu komponen, $F = 3 - P$. Empat fasa memberi $F = -1$: ada tiga persamaan pengikat ($\mu_1 = \mu_2 = \mu_3 = \mu_4$) untuk hanya dua variabel, *T* dan *p*. Secara umum tidak ada penyelesaian. Banyaknya cara memilih tiga fasa dari empat adalah $\binom{4}{3} = 4$, sehingga paling banyak ada empat titik tripel.
 
 *Cara berpikir:* kebetulan sempurna, ketika empat garis μ berpotongan di satu titik, secara matematika mungkin tetapi tidak pernah dijumpai, karena tidak ada alasan fisis yang memaksanya. Pada belerang, satu dari empat titik tripel ternyata jatuh di daerah tempat fasa lain lebih stabil, sehingga hanya tiga yang dapat diamati sebagai kesetimbangan stabil.

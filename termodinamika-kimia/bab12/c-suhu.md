@@ -101,7 +101,7 @@ $$
 :::
 
 ::: {.awas}
-**Awas: Le Chatelier adalah panduan, bukan hukum.** Asas Le Chatelier tidak dapat diturunkan sebagai pernyataan umum, dan ia tidak memberi besaran pergeseran. Cara yang selalu benar adalah membandingkan *Q* dengan *K* setelah gangguan: bila *Q* < *K*, reaksi maju; bila *Q* > *K*, reaksi mundur. Untuk suhu, hitung *K* baru dengan van 't Hoff; untuk tekanan dan komposisi, hitung *Q* baru.
+**Le Chatelier adalah panduan, bukan hukum.** Asas Le Chatelier tidak dapat diturunkan sebagai pernyataan umum, dan ia tidak memberi besaran pergeseran. Cara yang selalu benar adalah membandingkan *Q* dengan *K* setelah gangguan: bila *Q* < *K*, reaksi maju; bila *Q* > *K*, reaksi mundur. Untuk suhu, hitung *K* baru dengan van 't Hoff; untuk tekanan dan komposisi, hitung *Q* baru.
 :::
 
 ::: {.kuis}
@@ -131,7 +131,7 @@ Dengan *p* = 300 bar dan mencoba nilai: ξ = 0,454, sehingga $x_{\text{NH}_3} = 
 :::
 
 ::: {.terapan}
-**Terapan: kesetimbangan yang memberi makan dunia.** Proses Haber–Bosch kini menghasilkan sekitar 180 juta ton amonia per tahun, hampir seluruhnya untuk pupuk, dan menghabiskan sekitar 1–2% energi dunia. Diperkirakan separuh nitrogen dalam protein tubuh manusia saat ini pernah melewati reaktor Haber–Bosch. Indonesia mempunyai beberapa pabrik amonia–urea besar, yang memakai gas alam sebagai sumber hidrogen, lewat reaksi reformasi uap $\text{CH}_4 + \text{H}_2\text{O} \rightleftharpoons \text{CO} + 3\text{H}_2$ dan reaksi pergeseran air–gas (Contoh 12.8). Setiap tahap rantai produksi itu adalah persoalan kesetimbangan dan laju yang diselesaikan dengan prinsip-prinsip bab ini.
+**Kesetimbangan yang memberi makan dunia.** Proses Haber–Bosch kini menghasilkan sekitar 180 juta ton amonia per tahun, hampir seluruhnya untuk pupuk, dan menghabiskan sekitar 1–2% energi dunia. Diperkirakan separuh nitrogen dalam protein tubuh manusia saat ini pernah melewati reaktor Haber–Bosch. Indonesia mempunyai beberapa pabrik amonia–urea besar, yang memakai gas alam sebagai sumber hidrogen, lewat reaksi reformasi uap $\text{CH}_4 + \text{H}_2\text{O} \rightleftharpoons \text{CO} + 3\text{H}_2$ dan reaksi pergeseran air–gas (Contoh 12.8). Setiap tahap rantai produksi itu adalah persoalan kesetimbangan dan laju yang diselesaikan dengan prinsip-prinsip bab ini.
 :::
 
 Proses kontak untuk asam sulfat menghadapi persoalan yang sama. Oksidasi $\text{SO}_2 + \tfrac12\text{O}_2 \rightleftharpoons \text{SO}_3$ sangat menguntungkan pada suhu kamar ($K = 2{,}6 \times 10^{12}$), tetapi lambat. Pada 700 K, tempat katalis vanadium pentoksida bekerja, *K* turun menjadi sekitar 290, masih cukup besar untuk konversi di atas 95% dengan udara berlebih, dan pada 1000 K turun menjadi 1,8. Pabrik memakai beberapa lapisan katalis dengan pendinginan di antaranya, supaya gas yang sudah sebagian bereaksi kembali ke suhu tempat *K* tinggi.
