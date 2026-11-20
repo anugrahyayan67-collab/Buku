@@ -91,3 +91,19 @@ ax.text(6.55, 3.3, 'aksial', color=UT, fontsize=18, fontweight='bold', family='L
 ax.text(6.55, 2.6, 'ekuatorial', color=EM, fontsize=18, fontweight='bold', family='Liberation Sans')
 simpan(4, f, 'Sikloheksana dalam bentuk kursi, bebas tegangan. Setiap karbon mempunyai satu ikatan aksial (tegak, hijau) dan satu ikatan ekuatorial (ke samping, kuning). Gugus besar lebih suka posisi ekuatorial.')
 print('ok4')
+
+# Bab 5: karvon R dan S sebagai bayangan cermin
+def rd5(smi, w=560, h=440):
+    m = Chem.MolFromSmiles(smi); d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 5; o.fixedFontSize = 40; o.clearBackground = False
+    o.updateAtomPalette({8: (0.82, 0.33, 0.23), 6: (0.08, 0.24, 0.16)})
+    rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing(); return Image.open(io.BytesIO(d.GetDrawingText()))
+f, ax = kanvas()
+ax.imshow(rd5('CC1=CC[C@H](CC1=O)C(C)=C'), extent=[0.4, 3.6, 1.2, 3.7], zorder=2)
+ax.imshow(rd5('CC1=CC[C@@H](CC1=O)C(C)=C'), extent=[4.7, 7.9, 1.2, 3.7], zorder=2)
+ax.plot([4.15, 4.15], [0.9, 4.2], color=UT, lw=2.5, ls=(0, (5, 4)))
+ax.text(2.0, 4.25, '(R)-karvon', ha='center', color=TUA, fontsize=15, fontweight='bold', family='Liberation Sans')
+ax.text(6.3, 4.25, '(S)-karvon', ha='center', color=TUA, fontsize=15, fontweight='bold', family='Liberation Sans')
+ax.text(2.0, 0.75, 'bau daun mint', ha='center', color=UT, fontsize=14, family='Liberation Sans')
+ax.text(6.3, 0.75, 'bau biji jintan', ha='center', color=EM, fontsize=14, family='Liberation Sans')
+simpan(5, f, 'Dua enansiomer karvon: rumus, titik didih, dan kerapatannya sama, tetapi (R)-karvon berbau daun mint dan (S)-karvon berbau biji jintan, karena reseptor bau di hidung bersifat kiral.')
+print('ok5')

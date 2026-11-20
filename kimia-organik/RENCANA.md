@@ -24,7 +24,7 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 ### ☑ Bab 4 Alkana, Sikloalkana, dan Konformasi
 4.1 Sumber dan sifat fisika alkana · 4.2 Konformasi etana: proyeksi Newman dan kuda-kuda · 4.3 Tegangan torsi dan tegangan sterik; konformasi propana dan butana · 4.4 Tegangan cincin: kalor pembakaran sikloalkana · 4.5 Siklopropana, siklobutana, siklopentana · 4.6 Sikloheksana: kursi, perahu, putar-perahu · 4.7 Ikatan aksial dan ekuatorial; menggambar kursi · 4.8 Interkonversi kursi dan nilai A · 4.9 Sikloheksana tersubstitusi ganda: cis dan trans · 4.10 Cincin menyatu: dekalin dan steroid · 4.11 Pembakaran alkana dan kalor pembakaran
 
-### ☐ Bab 5 Stereokimia
+### ☑ Bab 5 Stereokimia
 5.1 Peta isomer: konstitusi dan stereoisomer · 5.2 Kiralitas dan pusat kiral · 5.3 Aturan prioritas Cahn–Ingold–Prelog · 5.4 Konfigurasi R dan S · 5.5 Aktivitas optik, rotasi jenis, dan kelebihan enansiomer · 5.6 Diastereomer · 5.7 Senyawa meso · 5.8 Proyeksi Fischer · 5.9 Stereokimia senyawa siklik · 5.10 Kiralitas tanpa pusat kiral: alena dan biaril · 5.11 Isomer E/Z · 5.12 Resolusi enansiomer · 5.13 Stereokimia obat dan enzim
 
 ## Bagian II · Reaksi

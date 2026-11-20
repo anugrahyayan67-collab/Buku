@@ -117,3 +117,28 @@ dekalin
 steroid
 kalor pembakaran
 bilangan oktana
+stereokimia
+kiral
+akiral
+enansiomer
+diastereomer
+pusat kiral
+bidang cermin
+aturan Cahn–Ingold–Prelog
+konfigurasi R
+konfigurasi S
+aktivitas optik
+polarimeter
+rotasi jenis
+campuran rasemik
+kelebihan enansiomer
+senyawa meso
+proyeksi Fischer
+konvensi D dan L
+alena
+atropisomer
+isomer E/Z
+resolusi
+kromatografi kiral
+model tiga titik
+talidomida
