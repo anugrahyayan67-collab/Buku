@@ -117,3 +117,16 @@ ax.add_patch(Rectangle((4.6, 0.8), 3.3, 3.4, fc='white', ec=NI, lw=2, alpha=0.9)
 for _ in range(26):
     x, y = rng.uniform(4.8, 7.7), rng.uniform(1.0, 4.0); bola(ax, x, y, 0.09, UN if x < 6.25 else SI, z=4)
 simpan(5, f, 'Mesin kalor selalu membuang sebagian kalornya; molekul selalu menyebar. Keduanya diatur oleh hukum yang sama: entropi semesta bertambah.')
+
+# 6 kristal sempurna pada 0 K, cairan, gas, dan tangga entropi
+f, ax = kanvas(); rng = np.random.default_rng(9)
+for i in range(5):
+    for j in range(5): bola(ax, 0.55 + i * 0.3, 1.0 + j * 0.3, 0.12, NI, z=3)
+for _ in range(14): bola(ax, rng.uniform(2.35, 3.25), rng.uniform(0.95, 2.1), 0.12, UN, z=3)
+for _ in range(7): bola(ax, rng.uniform(3.7, 4.6), rng.uniform(0.9, 3.0), 0.12, SI, z=3)
+T = np.linspace(0.02, 1, 100); x0 = 5.0
+ax.plot(x0 + T * 0.9, 0.7 + 1.0 * T ** 2, color=NI, lw=2.8); ax.plot([x0 + 0.9] * 2, [1.7, 2.2], color=EM, lw=2, ls='--')
+ax.plot([x0 + 0.9, x0 + 1.2], [2.2, 2.3], color=UN, lw=2.8); ax.plot([x0 + 1.2] * 2, [2.3, 3.6], color=EM, lw=2, ls='--')
+T2 = np.linspace(0, 1, 50); ax.plot(x0 + 1.2 + T2 * 1.8, 3.6 + 0.6 * np.log1p(2 * T2), color=SI, lw=2.8)
+ax.plot([x0 - 0.1, 8.1], [0.7, 0.7], color=AB, lw=1.2); ax.plot([x0 - 0.1, x0 - 0.1], [0.7, 4.6], color=AB, lw=1.2)
+simpan(6, f, 'Kristal sempurna pada nol mutlak mempunyai entropi nol; entropi naik perlahan saat dipanaskan dan melompat pada peleburan dan penguapan.')

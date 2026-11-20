@@ -31,7 +31,7 @@ Pemetaan RPS: mg 1 → Bab 1 · mg 2 → Bab 2 · mg 3–4 → Bab 3–4 · mg 5
 ### ☑ Bab 5 Arah Proses, Siklus Carnot, dan Entropi
 5.1 Proses spontan dan arah perubahan · 5.2 Mesin kalor dan pernyataan hukum kedua · 5.3 Siklus Carnot tahap demi tahap · 5.4 Efisiensi mesin Carnot · 5.5 Mesin pendingin dan pompa kalor · 5.6 Entropi sebagai fungsi keadaan · 5.7 Ketaksamaan Clausius · 5.8 Entropi dan peluang: rumus Boltzmann
 
-### ☐ Bab 6 Menghitung Perubahan Entropi dan Hukum Ketiga
+### ☑ Bab 6 Menghitung Perubahan Entropi dan Hukum Ketiga
 6.1 Entropi sebagai fungsi T dan V · 6.2 Entropi sebagai fungsi T dan P · 6.3 Entropi pemuaian dan pencampuran gas ideal · 6.4 Entropi perubahan fasa dan aturan Trouton · 6.5 Entropi pemanasan · 6.6 Hukum ketiga dan entropi mutlak · 6.7 Entropi reaksi standar · 6.8 Entropi lingkungan dan entropi total
 
 ### ☐ Bab 7 Energi Bebas dan Hubungan Maxwell

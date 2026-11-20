@@ -1,0 +1,124 @@
+## Subbab 6.1: Entropi sebagai fungsi T dan V
+
+> Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹ dan data Tabel 6.1. Gas dianggap ideal. Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab.
+
+**Dasar**
+
+Dua mol neon dipanaskan dari 300 K ke 450 K pada volume tetap. Hitung Δ*S*. ||| +10,1 J K⁻¹
+Satu mol N₂ memuai secara isotermal dari 1,00 L ke 5,00 L. Hitung Δ*S*. ||| +13,4 J K⁻¹
+Berapa Δ*S* gas pada ekspansi adiabatik reversibel, dan mengapa? ||| 0; $q_\text{rev} = 0$
+
+**Menengah**
+
+Satu mol helium dibawa dari (300 K; 20,0 L) ke (150 K; 40,0 L). Hitung Δ*S*. ||| −2,88 J K⁻¹
+Tunjukkan dari (6.1) bahwa syarat Δ*S* = 0 menghasilkan $TV^{\gamma - 1} = \text{tetap}$. ||| $C_{V,\text{m}}\ln(T_2/T_1) = -R\ln(V_2/V_1)$ dan $R/C_{V,\text{m}} = \gamma - 1$
+
+
+Dua mol CO₂ memuai secara isotermal dari 0,200 L ke 2,00 L. Hitung Δ*S* menurut van der Waals ($b = 0{,}042\,67$ L mol⁻¹, per mol) dan gas ideal. ||| per mol: 0,100 → 1,00 L mol⁻¹; van der Waals 21,0; ideal 19,1 J K⁻¹ mol⁻¹
+
+## Subbab 6.2: Entropi sebagai fungsi T dan P
+
+**Dasar**
+
+Satu mol O₂ ($C_{p,\text{m}} = 29{,}36$ J K⁻¹ mol⁻¹) dipanaskan dari 298 K ke 500 K pada tekanan tetap. Hitung Δ*S*. ||| +15,2 J K⁻¹
+Dua mol gas ideal dimampatkan secara isotermal dari 1,00 bar ke 5,00 bar. Hitung Δ*S*. ||| −26,8 J K⁻¹
+Sebanyak 500 g tembaga ($c_s = 0{,}385$ J K⁻¹ g⁻¹) dipanaskan dari 20 °C ke 100 °C. Hitung Δ*S*. ||| +46,4 J K⁻¹
+
+**Menengah**
+
+Satu mol CO₂ ($C_{p,\text{m}} = 37{,}11$ J K⁻¹ mol⁻¹) dibawa dari 25 °C dan 1,00 bar ke 150 °C dan 5,00 bar. Hitung Δ*S*. ||| −0,39 J K⁻¹
+Mengapa suku suhu dalam (6.2) memakai $C_p$, sedangkan dalam (6.1) memakai $C_V$? ||| pemanasan pada tekanan tetap juga menambah volume
+
+
+Berapa kalor minimum yang dibuang per mol bila udara dimampatkan secara isotermal pada 25 °C dari 1 bar ke 200 bar? ||| 13,1 kJ
+
+## Subbab 6.3: Entropi pemuaian dan pencampuran gas ideal
+
+**Dasar**
+
+Hitung entropi pencampuran 2,00 mol N₂ dan 1,00 mol O₂ pada suhu dan tekanan tetap. ||| +15,9 J K⁻¹
+Hitung entropi pencampuran per mol campuran biner dengan $x_A = 0{,}10$. ||| +2,70 J K⁻¹ mol⁻¹
+
+**Menengah**
+
+Berapa kerja minimum pada 298 K untuk memisahkan 2,00 mol campuran ekuimolar dua gas ideal menjadi gas-gas murni? ||| 3,44 kJ
+Jelaskan mengapa membuka sekat di antara dua bagian berisi gas nitrogen yang sama tidak menaikkan entropi. ||| molekul identik tak dapat dibedakan (paradoks Gibbs)
+
+
+Satu mol He dalam *V* dan satu mol Ar dalam 3*V* dicampur pada suhu sama. Hitung Δ*S*. ||| +13,9 J K⁻¹
+Hitung entropi pencampuran 3,00 mol gas yang terdiri atas tiga komponen dengan jumlah mol sama. ||| +27,4 J K⁻¹
+
+## Subbab 6.4: Entropi perubahan fasa
+
+**Dasar**
+
+Benzena meleleh pada 278,6 K dengan $\Delta_\text{fus}H = 9{,}87$ kJ mol⁻¹. Hitung $\Delta_\text{fus}S$. ||| +35,4 J K⁻¹ mol⁻¹
+Mengapa rumus $\Delta H/T$ tidak dapat langsung dipakai untuk pembekuan air pada −10 °C? ||| proses tak reversibel; kalornya bukan $q_\text{rev}$
+
+**Menengah**
+
+@benzen [P] Satu mol benzena lewat dingin membeku pada 268,6 K (10 K di bawah titik lelehnya). Dengan $C_{p,\text{m}}$(cair) = 136,1 dan $C_{p,\text{m}}$(padat) = 122,0 J K⁻¹ mol⁻¹, hitung $\Delta S_\text{sistem}$, $\Delta H$, $\Delta S_\text{lingk}$, dan $\Delta S_\text{total}$. ||| −34,9 J K⁻¹; −9,73 kJ; +36,2 J K⁻¹; +1,3 J K⁻¹
+Hitung $\Delta S_\text{sistem}$ pembekuan 1 mol air lewat dingin pada −5 °C dengan data Contoh 6.9. ||| −21,3 J K⁻¹
+
+## Subbab 6.5: Entropi pemanasan
+
+**Dasar**
+
+Hitung Δ*S* untuk pemanasan 1 mol aluminium ($C_{p,\text{m}} = 24{,}35$ J K⁻¹ mol⁻¹) dari 298 K ke 600 K. ||| +17,0 J K⁻¹
+
+**Menengah**
+
+Untuk N₂, $C_{p,\text{m}} = 28{,}58 + 3{,}77 \times 10^{-3}T - 0{,}50 \times 10^5/T^2$ J K⁻¹ mol⁻¹. Hitung Δ*S* untuk pemanasan 1 mol dari 298 K ke 800 K. ||| +29,9 J K⁻¹
+Jelaskan arti grafis persamaan (6.5). ||| luas di bawah kurva $C_p/T$ terhadap *T*
+
+Hitung Δ*S* satu mol air dari cair 50 °C ke uap 150 °C pada 1 atm (data Contoh 6.12). ||| +124 J K⁻¹
+
+**Tantangan ★**
+
+@numerik [P] ★ (Python) Kapasitas kalor suatu padatan terukur (J K⁻¹ mol⁻¹): 10 K 0,43; 20 K 3,1; 50 K 14,2; 100 K 21,5; 150 K 23,8; 200 K 24,6; 250 K 25,0; 298 K 25,3. Hitung entropi molarnya pada 298 K dengan hukum *T*³ di bawah 10 K dan aturan trapesium untuk $C_p/T$. ||| ≈ 46,6 J K⁻¹ mol⁻¹
+
+## Subbab 6.6: Hukum ketiga dan entropi mutlak
+
+**Dasar**
+
+Kapasitas kalor suatu padatan pada 5,0 K adalah 0,052 J K⁻¹ mol⁻¹. Taksir entropinya pada 5,0 K. ||| 0,017 J K⁻¹ mol⁻¹
+Nyatakan hukum ketiga termodinamika. ||| entropi kristal sempurna nol pada 0 K
+
+**Menengah**
+
+Hitung entropi molar zat X pada 298 K dari data: $C_p(20\ \text{K}) = 2{,}10$ J K⁻¹ mol⁻¹ (hukum *T*³ di bawah 20 K); sumbangan padatan 20–250 K = 45,3 J K⁻¹ mol⁻¹; titik leleh 250 K, $\Delta_\text{fus}H = 2{,}30$ kJ mol⁻¹; $C_{p,\text{m}}$(cair) = 28,0 J K⁻¹ mol⁻¹. ||| 60,1 J K⁻¹ mol⁻¹
+Mengapa entropi kalorimetri CO lebih kecil daripada entropi sebenarnya? ||| entropi residu (arah CO/OC acak) tidak terukur kalorimetri
+Mengapa kapasitas kalor semua zat menuju nol pada 0 K? ||| hukum *T*³; hukum ketiga
+
+## Subbab 6.7: Entropi reaksi standar
+
+**Dasar**
+
+Hitung $\Delta_\text{r}S^\circ$ untuk $2\text{H}_2(g) + \text{O}_2(g) \to 2\text{H}_2\text{O}(g)$. ||| −88,8 J K⁻¹ mol⁻¹
+Hitung $\Delta_\text{r}S^\circ$ untuk $\text{C}(\text{grafit}) + \text{O}_2(g) \to \text{CO}_2(g)$. Mengapa hampir nol? ||| +2,9 J K⁻¹ mol⁻¹; jumlah mol gas tetap
+Tebak tanda $\Delta_\text{r}S^\circ$: (a) $\text{N}_2\text{O}_4(g) \to 2\text{NO}_2(g)$; (b) $\text{Ag}^+(aq) + \text{Cl}^-(aq) \to \text{AgCl}(s)$. ||| (a) +; (b) −
+
+**Menengah**
+
+Hitung $\Delta_\text{r}S^\circ$ pembakaran metana ($S_\text{m}^\circ = 186{,}26$ J K⁻¹ mol⁻¹) dengan air cair. ||| −243,0 J K⁻¹ mol⁻¹
+Urutkan menurut entropi molar standar dan jelaskan: H₂O(g), H₂O(l), C(intan), I₂(g), Fe(s). ||| intan < Fe < H₂O(l) < H₂O(g) < I₂(g)
+
+
+Mengapa entropi pelarutan MgCl₂ negatif, sedangkan NaCl positif? ||| Mg²⁺ kecil bermuatan 2+ menata air hidrasi sangat kuat
+
+## Subbab 6.8: Entropi lingkungan dan entropi total
+
+**Dasar**
+
+Hitung $\Delta S_\text{total}$ untuk pembentukan air cair dari H₂ dan O₂ pada 298 K ($\Delta_\text{r}H^\circ = -285{,}83$ kJ mol⁻¹, $\Delta_\text{r}S^\circ = -163{,}3$ J K⁻¹ mol⁻¹). ||| +795 J K⁻¹ mol⁻¹
+Reaksi endoterm dengan $\Delta_\text{r}S > 0$: spontan pada suhu rendah atau tinggi? ||| tinggi
+
+**Menengah**
+
+Dengan $\Delta_\text{sub}H^\circ = 62{,}44$ kJ mol⁻¹ dan Tabel 6.1, taksir suhu ketika sublimasi iodin menjadi spontan dalam keadaan standar. ||| 432 K
+Di atas suhu berapa sintesis amonia dalam keadaan standar berhenti spontan (Δ*H* dan Δ*S* dianggap tetap)? ||| 464 K
+@tanur [P] Dalam tanur tinggi, $\text{Fe}_2\text{O}_3(s) + 3\text{C}(s) \to 2\text{Fe}(s) + 3\text{CO}(g)$. Dengan $\Delta_\text{f}H^\circ$ CO −110,53 kJ mol⁻¹, $S_\text{m}^\circ$ CO 197,67 dan Fe₂O₃ 87,4 J K⁻¹ mol⁻¹, taksir suhu terendah agar reaksi ini spontan. ||| ≈ 907 K
+
+Taksir titik didih normal air dari $\Delta_\text{vap}H^\circ$ dan $\Delta_\text{vap}S^\circ$ pada 298 K. Mengapa tidak tepat 373 K? ||| 370 K; Δ*H*, Δ*S* berubah dengan suhu
+Mengapa air tetap menguap dari gelas terbuka pada 25 °C, walaupun $\Delta S_\text{total}$ penguapan standar negatif? ||| tekanan parsial uap di udara jauh di bawah 1 bar
+
