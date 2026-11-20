@@ -48,6 +48,7 @@ Naskah **netral terhadap desain**: tanpa HTML, CSS, warna, atau rujukan ke letak
 ## 4. Aturan penulisan
 
 - Bahasa Indonesia baku tetapi enak dibaca; jelaskan **mengapa**, bukan sekadar rumus.
+- **Penjelasan fokus dan mengalir**: setiap paragraf menjawab satu pertanyaan dan memancing pertanyaan berikutnya; rumus dibangun dari gagasan sebelumnya, bukan dijatuhkan begitu saja; kalimat yang tidak menambah pemahaman dibuang.
 - Semua angka dihitung dengan Python dulu. Koma desimal (`9{,}8` di LaTeX).
 - LaTeX tanpa `\cancel` dan `\tag`. Persamaan bernomor: `\text{(N.n1)}`; contoh dan gambar memakai label sementara (`N.n1`), dinomori `alat/nomor.py`.
 - Konfigurasi elektron ditulis berpisah: `1s^2 2s^2 2p^6` (jangan `1s^22s^2`).

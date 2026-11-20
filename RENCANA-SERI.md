@@ -12,7 +12,7 @@ Status: ☑ selesai · ◐ rancangan ada · ☐ belum
 |---|---|---|---|---|---|
 | 1 | Fisika Umum | Fisika Umum | 1 | — | ☑ |
 | 2 | Kimia Kuantum | Kimia Kuantum | 1 | — | ☑ |
-| 3 | Kimia Dasar | Kimia Dasar | 1 | sekarang (bab setelah UTS dulu) | ◐ `kimia-dasar/` |
+| 3 | ~~Kimia Dasar~~ | Kimia Dasar | 1 | tidak dibuat: cukup diulas per topik; materinya diperdalam di buku semester 2 | ✘ |
 | 4 | Persiapan TEP | syarat TEP | — | sekarang (kosakata dulu) | ◐ `persiapan-tep/` |
 | 5 | Matematika untuk Kimia | Matematika Dasar | 1 | sekarang–Desember | ☐ |
 | 6 | Kimia Fisika 1: Termodinamika Kimia | Termodinamika Kimia | 2 | Des–Jan | ☐ |
