@@ -19,7 +19,7 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 ### ☑ Bab 3 Asam dan Basa Organik
 3.1 Asam dan basa Brønsted–Lowry; panah lengkung untuk transfer proton · 3.2 Ka, pKa, dan skala kekuatan asam · 3.3 Arah kesetimbangan asam–basa dari tabel pKa · 3.4 Termodinamika asam–basa: ΔG°, ΔH°, ΔS° · 3.5 Faktor struktur ARIO: atom pembawa muatan · 3.6 Resonansi · 3.7 Efek induktif · 3.8 Orbital dan hibridisasi · 3.9 Asam karboksilat, fenol, alkohol, amina: perbandingan · 3.10 Kebasaan amina dan heterosiklik · 3.11 Pelarut, efek leveling, dan basa kuat organik · 3.12 Asam dan basa Lewis · 3.13 pH, pKa, dan persamaan Henderson–Hasselbalch untuk molekul organik (ekstraksi asam–basa, obat di dalam tubuh)
 
-### ☐ Bab 4 Alkana, Sikloalkana, dan Konformasi
+### ☑ Bab 4 Alkana, Sikloalkana, dan Konformasi
 4.1 Sumber dan sifat fisika alkana · 4.2 Konformasi etana: proyeksi Newman dan kuda-kuda · 4.3 Tegangan torsi dan tegangan sterik; konformasi propana dan butana · 4.4 Tegangan cincin: kalor pembakaran sikloalkana · 4.5 Siklopropana, siklobutana, siklopentana · 4.6 Sikloheksana: kursi, perahu, putar-perahu · 4.7 Ikatan aksial dan ekuatorial; menggambar kursi · 4.8 Interkonversi kursi dan nilai A · 4.9 Sikloheksana tersubstitusi ganda: cis dan trans · 4.10 Cincin menyatu: dekalin dan steroid · 4.11 Pembakaran alkana dan kalor pembakaran
 
 ### ☐ Bab 5 Stereokimia

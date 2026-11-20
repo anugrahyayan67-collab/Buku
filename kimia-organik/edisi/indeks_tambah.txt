@@ -92,3 +92,28 @@ ekstraksi asam–basa
 perangkap ion
 alkaloid
 selektivitas
+alkana
+konformasi
+proyeksi Newman
+proyeksi kuda-kuda
+konformasi goyang
+konformasi tindih
+anti
+gauche
+tegangan torsi
+tegangan sterik
+hiperkonjugasi
+tegangan cincin
+ikatan pisang
+bentuk kursi
+bentuk perahu
+putar-perahu
+pembalikan kursi
+aksial
+ekuatorial
+interaksi 1,3-diaksial
+nilai A
+dekalin
+steroid
+kalor pembakaran
+bilangan oktana

@@ -75,3 +75,19 @@ ax.text(4.05, 2.6, '10¹¹ ×', ha='center', color=EM, fontsize=22, fontweight='
 ax.annotate('', (3.4, 2.25), (4.7, 2.25), arrowprops=dict(arrowstyle='-|>', color=EM, lw=2.2))
 simpan(3, f, 'Asam asetat dan etanol sama-sama melepas proton dari ikatan O–H, tetapi asam asetat sekitar seratus miliar kali lebih asam. Perbedaannya terletak pada basa konjugatnya: muatan negatif ion asetat tersebar di dua oksigen.')
 print('ok3')
+
+# Bab 4: sikloheksana kursi dengan aksial dan ekuatorial
+f, ax = kanvas()
+Pk = np.array([(0, 0), (0.85, 0.75), (2.15, 0.5), (3.0, 0.85), (2.15, 0.1), (0.85, 0.35)]) * 1.35 + np.array([0.9, 1.6])
+nk = [False, True, False, True, False, True]; cen = Pk.mean(0)
+for i in range(6):
+    ax.plot([Pk[i][0], Pk[i][0]], [Pk[i][1], Pk[i][1] + (0.9 if nk[i] else -0.9)], color=UT, lw=4, solid_capstyle='round', zorder=1)
+    d = Pk[(i + 2) % 6] - Pk[(i + 1) % 6]; d = d / np.linalg.norm(d)
+    if np.dot(d, Pk[i] - cen) < 0: d = -d
+    ax.plot([Pk[i][0], Pk[i][0] + 0.85 * d[0]], [Pk[i][1], Pk[i][1] + 0.85 * d[1]], color=EM, lw=4, solid_capstyle='round', zorder=1)
+for i in range(6): ax.plot(*zip(Pk[i], Pk[(i + 1) % 6]), color=TUA, lw=5, solid_capstyle='round', zorder=2)
+for i in range(6): ax.add_patch(Circle(Pk[i], 0.11, fc=TUA, ec='none', zorder=3))
+ax.text(6.55, 3.3, 'aksial', color=UT, fontsize=18, fontweight='bold', family='Liberation Sans')
+ax.text(6.55, 2.6, 'ekuatorial', color=EM, fontsize=18, fontweight='bold', family='Liberation Sans')
+simpan(4, f, 'Sikloheksana dalam bentuk kursi, bebas tegangan. Setiap karbon mempunyai satu ikatan aksial (tegak, hijau) dan satu ikatan ekuatorial (ke samping, kuning). Gugus besar lebih suka posisi ekuatorial.')
+print('ok4')
