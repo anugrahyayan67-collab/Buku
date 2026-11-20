@@ -15,7 +15,7 @@ Status: ☑ selesai · ◐ rancangan ada · ☐ belum
 | 3 | ~~Kimia Dasar~~ | Kimia Dasar | 1 | tidak dibuat: cukup diulas per topik; materinya diperdalam di buku semester 2 | ✘ |
 | 4 | Persiapan TEP | syarat TEP | — | sekarang (kosakata dulu) | ◐ `persiapan-tep/` |
 | 5 | Matematika untuk Kimia | Matematika Dasar | 1 | sekarang–Desember | ☐ |
-| 6 | Kimia Fisika 1: Termodinamika Kimia | Termodinamika Kimia | 2 | Des–Jan | ☐ |
+| 6 | Kimia Fisika 1: Termodinamika Kimia | Termodinamika Kimia | 2 | sekarang, bab demi bab | ◐ `termodinamika-kimia/` (Bab 1 ☑) |
 | 7 | Kimia Organik 1: Senyawa Monofungsi | Senyawa Organik Monofungsi | 2 | Des–Jan | ☐ |
 | 8 | Kimia Anorganik 1: Teori Dasar | Teori Dasar Anorganik | 2 | Des–Jan | ☐ |
 | 9 | Kimia Analitik 1: Dasar Analisis dan Pemisahan | Dasar-dasar Kimia Analisis; Dasar-dasar Pemisahan Kimia | 2–3 | Des–Jan | ☐ |
