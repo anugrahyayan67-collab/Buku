@@ -46,7 +46,7 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 
 ## Bagian III · Senyawa karbonil dan nitrogen
 
-### ☐ Bab 11 Aldehida dan Keton
+### ☑ Bab 11 Aldehida dan Keton
 11.1 Gugus karbonil: struktur, tata nama, sifat · 11.2 Membuat aldehida dan keton · 11.3 Adisi nukleofilik: mekanisme dalam asam dan basa · 11.4 Hidrat dan sianohidrin · 11.5 Asetal dan gugus pelindung · 11.6 Imina, enamina, dan turunan amina · 11.7 Reduksi: NaBH₄, LiAlH₄, Wolff–Kishner, Clemmensen · 11.8 Senyawa organologam: pereaksi Grignard dan organolitium · 11.9 Reaksi Wittig · 11.10 Oksidasi Baeyer–Villiger · 11.11 Keto–enol dan halogenasi α (pengantar karbon α) · 11.12 Merancang sintesis dengan karbonil
 
 ### ☐ Bab 12 Asam Karboksilat dan Turunannya

@@ -292,3 +292,34 @@ kompleks Meisenheimer
 substitusi nukleofilik aromatik
 benzuna
 gugus penghalang
+gugus karbonil
+aldehida
+keton
+adisi nukleofilik
+zat antara tetrahedral
+hidrat
+sianohidrin
+hemiasetal
+asetal
+ion oksokarbenium
+anomer
+mutarotasi
+glikosida
+imina
+enamina
+karbinolamina
+oksim
+hidrazon
+reduksi Wolff–Kishner
+DIBAL-H
+reaksi Wittig
+ilida fosfor
+oksafosfetana
+oksidasi Baeyer–Villiger
+zat antara Criegee
+lakton
+karbon α
+ion enolat
+enol
+reaksi haloform
+uji iodoform

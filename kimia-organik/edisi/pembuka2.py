@@ -168,3 +168,18 @@ for y, t, t2, c in [(3.65, 'adisi', 'Br₂', UT), (1.25, 'substitusi', 'Br₂, F
     ax.text(4.0, y - 0.5, t, ha='center', color=c, fontsize=13, fontweight='bold', family='Liberation Sans')
 simpan(10, f, 'Sikloheksena mengadisi bromin dan kehilangan ikatan rangkapnya, sedangkan benzena mengganti satu atom H dengan Br dan mempertahankan cincin aromatiknya. Kestabilan enam elektron π yang tersebar merata membuat benzena memilih substitusi.')
 print('ok10')
+
+# Bab 11: glukosa rantai terbuka dan cincin
+f, ax = kanvas()
+def rd11(smi, w=560, h=460):
+    m = Chem.MolFromSmiles(smi); d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 5; o.fixedFontSize = 32; o.clearBackground = False
+    o.updateAtomPalette({8: (0.82, 0.33, 0.23), 6: (0.08, 0.24, 0.16)})
+    rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing(); return Image.open(io.BytesIO(d.GetDrawingText()))
+ax.imshow(rd11('O=C[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO'), extent=[0.2, 3.6, 0.9, 3.9], zorder=2)
+ax.imshow(rd11('OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@@H]1O'), extent=[4.6, 8.0, 0.8, 4.0], zorder=2)
+ax.annotate('', (4.5, 2.55), (3.7, 2.55), arrowprops=dict(arrowstyle='-|>', color=UT, lw=3)); ax.annotate('', (3.7, 2.25), (4.5, 2.25), arrowprops=dict(arrowstyle='-|>', color=EM, lw=3))
+ax.text(1.9, 0.45, 'rantai terbuka: < 0,003%', ha='center', color=EM, fontsize=12.5, fontweight='bold', family='Liberation Sans')
+ax.text(6.3, 0.45, 'hemiasetal siklik: > 99,99%', ha='center', color=UT, fontsize=12.5, fontweight='bold', family='Liberation Sans')
+ax.text(W / 2, 4.6, 'glukosa dalam air', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
+simpan(11, f, 'Glukosa adalah aldehida, tetapi dalam air hampir seluruhnya berbentuk cincin. Gugus –OH pada C5 menyerang gugus aldehida dalam molekul yang sama dan membentuk hemiasetal siklik: adisi nukleofilik pada gugus karbonil.')
+print('ok11')
