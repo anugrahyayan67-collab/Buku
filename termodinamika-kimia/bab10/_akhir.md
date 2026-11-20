@@ -1,0 +1,71 @@
+# Ringkasan Bab 10
+
+| Gagasan | Rumus atau hasil | Subbab |
+|---|---|---|
+| Larutan ideal | $\mu_\text{J} = \mu_\text{J}^* + RT\ln x_\text{J}$; $\Delta_\text{mix}G = nRT\sum x\ln x$, $\Delta_\text{mix}H = \Delta_\text{mix}V = 0$ | 10.1 |
+| Hukum Raoult | $p_\text{A} = x_\text{A}p_\text{A}^*$; uap lebih kaya komponen yang mudah menguap | 10.2 |
+| μ dari tekanan uap | $\mu_\text{A} = \mu_\text{A}^* + RT\ln(p_\text{A}/p_\text{A}^*)$ (larutan apa pun) | 10.2 |
+| Hukum Henry | $p_\text{B} = x_\text{B}K_\text{B}$ untuk zat terlarut encer; larutan encer ideal | 10.3 |
+| Zat terlarut | $\mu_\text{B} = \mu_\text{B}^\circ + RT\ln(b_\text{B}/b^\circ)$ | 10.3 |
+| Penurunan tekanan uap | $\Delta p = x_\text{B}p_\text{A}^*$ | 10.4 |
+| Titik didih dan titik beku | $\Delta T = Kb_\text{B}$; $K = RT^{*2}M_\text{A}/\Delta_\text{trs}H$; air: $K_\text{f} = 1{,}86$, $K_\text{b} = 0{,}51$ | 10.5 |
+| Tekanan osmotik | $\Pi = [\text{B}]RT$ (van 't Hoff) | 10.6 |
+| Aktivitas | $\mu = \mu^* + RT\ln a$; $a = \gamma x$ (pelarut), $a = \gamma b/b^\circ$ (zat terlarut) | 10.7 |
+| Larutan reguler | $\ln\gamma_\text{A} = \beta x_\text{B}^2$, $\beta = w/RT$ | 10.7 |
+| Debye–Hückel | $\log\gamma_\pm = -0{,}509\,|z_+z_-|\sqrt{I}$; $I = \tfrac12\sum z_i^2b_i/b^\circ$ | 10.7 |
+
+**Jawaban kuis cepat.** **10.1** Tidak. Volume campuran etanol–air lebih kecil daripada jumlah volume komponennya, dan pencampurannya melepaskan kalor, sehingga interaksi etanol–air berbeda dari rata-rata etanol–etanol dan air–air. **10.2** Toluena kurang mudah menguap (tekanan uap murninya lebih kecil), sehingga sumbangannya pada uap lebih kecil daripada pada cairan. **10.3** Air mengikuti hukum Raoult (pelarut, hampir murni), O₂ mengikuti hukum Henry (zat terlarut encer). **10.4** NaCl, karena memberi dua partikel per satuan rumus; penurunannya kira-kira dua kali. **10.5** Zat terlarut dianggap tidak larut dalam padatan, sehingga μ padatan tidak berubah. Bila zat terlarut ikut membeku, μ padatan juga turun, dan titik beku dapat turun lebih sedikit atau bahkan naik. **10.6** Air masuk ke sel sayuran yang lebih pekat (μ air di luar lebih tinggi) sehingga sel kembali tegang; dalam air garam pekat, μ air di luar lebih rendah dan air keluar dari sel. **10.7** Lebih kecil dari 1; pencampurannya melepaskan kalor.
+
+# Pertanyaan
+
+1. Apa syarat molekul agar dua cairan membentuk larutan ideal?
+2. Bagaimana tekanan uap menjadi "jendela" untuk mengukur potensial kimia zat dalam cairan?
+3. Mengapa uap di atas campuran dua cairan lebih kaya komponen yang mudah menguap?
+4. Mengapa tetapan Henry berbeda dari tekanan uap zat terlarut murni?
+5. Mengapa gas lebih sukar larut dalam air panas?
+6. Jelaskan penyakit dekompresi dengan hukum Henry.
+7. Mengapa sifat koligatif tidak bergantung pada jenis zat terlarut?
+8. Jelaskan dengan Gambar 10.3 mengapa zat terlarut menaikkan titik didih dan menurunkan titik beku.
+9. Mengapa kamper dipakai dalam metode Rast?
+10. Apakah tekanan osmotik disebabkan oleh tumbukan molekul zat terlarut pada membran? Jelaskan.
+11. Mengapa cairan infus harus isotonik dengan darah?
+12. Bandingkan energi minimum desalinasi dengan osmosis balik dan distilasi.
+13. Apa beda penyimpangan positif dan negatif dari hukum Raoult, dilihat dari gaya antarmolekul?
+14. Mengapa aktivitas air lebih penting daripada kadar air bagi keawetan makanan?
+15. Mengapa koefisien aktivitas ion menyimpang dari satu bahkan pada larutan yang sangat encer?
+
+# Soal
+
+%%SOAL%%
+
+# Jawaban
+
+%%JAWABAN%%
+
+# Pembahasan soal terpilih
+
+**Soal {{uap}}.** Dari Contoh 10.2, uap pertama berisi $y = 0{,}691$. Bila uap ini diembunkan seluruhnya, cairannya mempunyai $x_\text{benzena} = 0{,}691$. Uap yang setimbang dengan cairan itu:
+$$
+p_\text{benzena} = (0{,}691)(12{,}7) = 8{,}77\ \text{kPa} , \qquad p_\text{toluena} = (0{,}309)(3{,}79) = 1{,}17\ \text{kPa} , \qquad y = \frac{8{,}77}{9{,}94} = 0{,}882 .
+$$
+
+*Cara berpikir:* setiap langkah penguapan dan pengembunan memperkaya komponen yang mudah menguap. Dari 40% menjadi 69% lalu 88%; beberapa langkah lagi akan memberi benzena hampir murni. Kolom distilasi fraksional melakukan langkah-langkah ini secara bersambung di sepanjang kolom: setiap "pelat" di kolom adalah satu langkah kesetimbangan. Bab 11 menggambarkannya pada diagram suhu–komposisi.
+
+**Soal {{beku}}.** Dari (10.11): $b = \Delta T_\text{f}/K_\text{f} = 0{,}66/5{,}12 = 0{,}129$ mol kg⁻¹. Banyaknya mol dalam 25,0 g benzena: $(0{,}129)(0{,}0250) = 3{,}22 \times 10^{-3}$ mol. Maka $M = 0{,}500/(3{,}22 \times 10^{-3}) = 155$ g mol⁻¹. Hidrokarbon aromatik dengan 12 karbon: $12 \times 12{,}01 = 144{,}1$, sisa sekitar 11 g untuk hidrogen, sehingga kira-kira C₁₂H₁₀ (bifenil, 154,2 g mol⁻¹).
+
+*Cara berpikir:* penurunan titik beku hanya memberi banyaknya mol; massa molar diperoleh dengan membaginya ke massa yang ditimbang. Ketelitiannya dibatasi oleh pengukuran ΔT yang kecil (0,66 K), sehingga hasilnya hanya cukup untuk memilih di antara beberapa kemungkinan rumus, bukan menentukan rumus dengan pasti. Gabungan dengan analisis unsur, yang memberi perbandingan C:H, menyelesaikan masalah itu.
+
+**Soal {{reguler}}.** Energi Gibbs ekses: $G^\text{E} = w\,n_\text{A}n_\text{B}/(n_\text{A} + n_\text{B})$. Turunkan terhadap $n_\text{A}$ dengan $n_\text{B}$ tetap:
+$$
+\frac{\partial G^\text{E}}{\partial n_\text{A}} = w\frac{n_\text{B}(n_\text{A} + n_\text{B}) - n_\text{A}n_\text{B}}{(n_\text{A} + n_\text{B})^2} = w\frac{n_\text{B}^2}{(n_\text{A} + n_\text{B})^2} = w\,x_\text{B}^2 .
+$$
+Turunan ini adalah selisih potensial kimia A terhadap larutan ideal, yaitu $RT\ln\gamma_\text{A}$. Maka $\ln\gamma_\text{A} = (w/RT)x_\text{B}^2 = \beta x_\text{B}^2$.
+
+*Cara berpikir:* koefisien aktivitas adalah besaran molar parsial dari energi Gibbs ekses, dibagi *RT*. Bentuk $x_\text{B}^2$ masuk akal: molekul A dalam larutan yang hampir murni A ($x_\text{B}$ kecil) hampir tidak bertemu B, sehingga penyimpangannya kecil sekali, sebanding dengan kuadrat $x_\text{B}$. Inilah alasan hukum Raoult selalu berlaku bagi pelarut di batas encer.
+
+# Bacaan lanjut
+
+1. P. Atkins, J. de Paula, dan J. Keeler, *Atkins' Physical Chemistry*, edisi ke-12 (Oxford University Press, 2023), Topik 5A–5B dan 5E–5F. Larutan ideal, sifat koligatif, dan aktivitas.
+2. I. N. Levine, *Physical Chemistry*, edisi ke-6 (McGraw-Hill, 2009), Bab 9–10. Larutan ideal dan nonideal dengan pembahasan yang sangat lengkap.
+3. R. A. Robinson dan R. H. Stokes, *Electrolyte Solutions*, edisi ke-2 (Dover, 2002). Rujukan klasik tentang koefisien aktivitas ion dan teori Debye–Hückel.
+4. M. Elimelech dan W. A. Phillip, "The future of seawater desalination: energy, technology, and the environment", *Science* 333, 712–717 (2011). Batas termodinamika desalinasi.

@@ -182,3 +182,19 @@ for xx, c in [(5.0, UN), (5.9, UN), (6.7, SI), (7.5, SI)]:
     yy = 1.0 + 2.8 / (1 + np.exp(4 * (xx - 6.3))); bola(ax, xx, yy + 0.2, 0.17, c, z=5)
 ax.annotate('', xy=(7.2, 1.6), xytext=(5.6, 3.7), arrowprops=dict(arrowstyle='-|>', color=UN, lw=2.2, mutation_scale=16))
 simpan(9, f, 'Dua volume yang dicampur tidak selalu menjumlah; setiap zat bergerak menuruni lereng potensial kimianya sendiri.')
+
+# 10 tabung-U osmosis dan sel darah merah
+f, ax = kanvas(); rng = np.random.default_rng(10)
+xl, xr, w = 1.0, 2.9, 0.75
+for x, h in [(xl, 2.3), (xr, 3.4)]:
+    ax.add_patch(Rectangle((x, 0.9), w, 3.2, fc='white', ec=NI, lw=2, alpha=0.9, zorder=2))
+    ax.add_patch(Rectangle((x + 0.04, 0.94), w - 0.08, h - 0.94, color='#bfe0f2' if x == xl else SI, alpha=0.55, zorder=3, lw=0))
+ax.add_patch(Rectangle((xl, 0.55), xr + w - xl, 0.4, fc='white', ec=NI, lw=2, zorder=2)); ax.add_patch(Rectangle((xl + 0.04, 0.59), xr + w - xl - 0.08, 0.36, color='#bfe0f2', alpha=0.55, zorder=3, lw=0))
+ax.plot([2.3, 2.3], [0.57, 0.93], color=UN, lw=3, ls=(0, (2, 1.5)), zorder=5)
+for _ in range(10): bola(ax, rng.uniform(xr + 0.12, xr + w - 0.12), rng.uniform(1.1, 3.2), 0.07, UN, z=5)
+ax.annotate('', xy=(xr - 0.05, 2.0), xytext=(xl + w + 0.1, 1.5), arrowprops=dict(arrowstyle='-|>', color=NI, lw=2, connectionstyle='arc3,rad=-0.3', mutation_scale=14))
+ax.plot([xr, xr + w], [3.4, 3.4], color=NI, lw=1); ax.annotate('', xy=(xr + w + 0.2, 3.4), xytext=(xr + w + 0.2, 2.3), arrowprops=dict(arrowstyle='<->', color=EM, lw=1.8))
+for (x, y, r, c) in [(5.6, 3.3, 0.55, UN), (7.2, 3.3, 0.72, UN), (5.6, 1.5, 0.48, '#d97b5f'), (7.2, 1.45, 0.62, UN)]:
+    ax.add_patch(Circle((x, y), r, fc=c, ec=NI, lw=1.5, alpha=0.85, zorder=3)); ax.add_patch(Circle((x, y), r * 0.45, fc='white', alpha=0.25, zorder=4, lw=0))
+ax.annotate('', xy=(6.45, 3.3), xytext=(6.2, 3.3), arrowprops=dict(arrowstyle='-|>', color=AB, lw=1.6))
+simpan(10, f, 'Pelarut mengalir melewati membran ke larutan yang lebih pekat; sel darah merah menggembung atau mengerut mengikuti tekanan osmotik.')

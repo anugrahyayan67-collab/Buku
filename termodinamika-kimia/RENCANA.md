@@ -45,7 +45,7 @@ Pemetaan RPS: mg 1 → Bab 1 · mg 2 → Bab 2 · mg 3–4 → Bab 3–4 · mg 5
 ### ☑ Bab 9 Potensial Kimia dan Besaran Molar Parsial
 9.1 Besaran molar parsial · 9.2 Volume molar parsial · 9.3 Potensial kimia · 9.4 Persamaan Gibbs–Duhem · 9.5 Potensial kimia gas ideal dan gas nyata (fugasitas)
 
-### ☐ Bab 10 Larutan Ideal dan Sifat Koligatif
+### ☑ Bab 10 Larutan Ideal dan Sifat Koligatif
 10.1 Termodinamika pencampuran · 10.2 Hukum Raoult dan larutan ideal · 10.3 Hukum Henry dan larutan encer ideal · 10.4 Penurunan tekanan uap · 10.5 Kenaikan titik didih dan penurunan titik beku · 10.6 Tekanan osmotik · 10.7 Larutan nyata dan aktivitas
 
 ### ☐ Bab 11 Kesetimbangan Fasa Dua dan Tiga Komponen
