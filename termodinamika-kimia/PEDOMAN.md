@@ -15,4 +15,4 @@ Mahasiswa semester 2 yang sudah mengikuti Kimia Dasar, Fisika Umum, dan Matemati
 Tekanan standar p° = 1 bar. R = 8,314 J K⁻¹ mol⁻¹ = 0,08206 L atm K⁻¹ mol⁻¹. Besaran molar diberi garis bawah m (V_m). Kerja: w positif bila dilakukan **pada** sistem (konvensi IUPAC, ΔU = q + w). Lambang tekanan *p* kecil.
 
 ## Desain
-Palet sementara mengikuti Kimia Kuantum (desain belakangan).
+Gaya Edisi seri ini (lihat `edisi/`), palet sendiri: tua `#3d1418`, utama `#b4442b`, muda `#f4a261`, emas `#e9b949`. Pratinjau selalu dicetak dengan `python3 termodinamika-kimia/edisi/cetak.py` (bukan `build.sh`). Gambar pembuka bab ditambahkan di `edisi/pembuka2.py` setiap bab baru.

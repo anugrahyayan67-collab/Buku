@@ -1,0 +1,34 @@
+sistem terbuka
+sistem tertutup
+sistem terisolasi
+variabel keadaan
+besaran intensif
+besaran ekstensif
+volume molar
+kesetimbangan termal
+hukum ke-nol termodinamika
+suhu termodinamika
+titik tripel
+nol mutlak
+tekanan standar
+barometer
+manometer
+hukum Boyle
+hukum Charles
+asas Avogadro
+persamaan gas ideal
+tetapan gas
+tekanan parsial
+hukum Dalton
+fraksi mol
+teori kinetik
+tetapan Boltzmann
+sebaran Maxwell–Boltzmann
+faktor Boltzmann
+efusi
+difusi
+hukum Graham
+penampang lintang tumbukan
+frekuensi tumbukan
+jalan bebas rata-rata
+jalan acak
