@@ -76,3 +76,19 @@ orde ikatan
 HOMO
 LUMO
 terlokalisasi
+asam Brønsted
+basa Brønsted
+asam konjugat
+basa konjugat
+tetapan keasaman
+efek induktif
+ARIO
+efek leveling
+asam Lewis
+basa Lewis
+persamaan Henderson–Hasselbalch
+larutan penyangga
+ekstraksi asam–basa
+perangkap ion
+alkaloid
+selektivitas

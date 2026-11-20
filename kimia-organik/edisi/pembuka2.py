@@ -58,3 +58,20 @@ for y, t, c, s in [(3.95, 'parasetamol', TUA, 20), (3.05, 'N-(4-hidroksifenil)as
     ax.text(5.15, y, t, color=c, fontsize=s, fontweight='bold', family='Liberation Sans')
 simpan(2, f, 'Satu molekul, tiga nama: parasetamol (nama generik), N-(4-hidroksifenil)asetamida (nama IUPAC), dan asetaminofen. Nama IUPAC adalah deskripsi struktur yang dapat dibaca kembali menjadi gambar molekul.')
 print('ok2')
+
+# Bab 3: asam asetat dan etanol
+def rd(smi, w=600, h=420):
+    m = Chem.MolFromSmiles(smi); d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 5; o.fixedFontSize = 46; o.clearBackground = False
+    o.updateAtomPalette({8: (0.82, 0.33, 0.23), 7: (0.23, 0.44, 0.71), 6: (0.08, 0.24, 0.16)})
+    rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing(); return Image.open(io.BytesIO(d.GetDrawingText()))
+f, ax = kanvas()
+ax.imshow(rd('CC(=O)O'), extent=[0.3, 3.5, 1.6, 3.85], zorder=2)
+ax.imshow(rd('CCO'), extent=[4.6, 7.8, 1.6, 3.85], zorder=2)
+ax.text(1.9, 4.3, 'asam asetat', ha='center', color=TUA, fontsize=15, fontweight='bold', family='Liberation Sans')
+ax.text(6.2, 4.3, 'etanol', ha='center', color=TUA, fontsize=15, fontweight='bold', family='Liberation Sans')
+ax.text(1.9, 1.2, 'pKa 4,76', ha='center', color=UT, fontsize=17, fontweight='bold', family='Liberation Sans')
+ax.text(6.2, 1.2, 'pKa 16', ha='center', color=AB, fontsize=17, fontweight='bold', family='Liberation Sans')
+ax.text(4.05, 2.6, '10¹¹ ×', ha='center', color=EM, fontsize=22, fontweight='bold', family='Liberation Sans')
+ax.annotate('', (3.4, 2.25), (4.7, 2.25), arrowprops=dict(arrowstyle='-|>', color=EM, lw=2.2))
+simpan(3, f, 'Asam asetat dan etanol sama-sama melepas proton dari ikatan O–H, tetapi asam asetat sekitar seratus miliar kali lebih asam. Perbedaannya terletak pada basa konjugatnya: muatan negatif ion asetat tersebar di dua oksigen.')
+print('ok3')

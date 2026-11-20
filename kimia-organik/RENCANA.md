@@ -16,7 +16,7 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 ### ☑ Bab 2 Gugus Fungsi dan Tata Nama IUPAC
 2.1 Gugus fungsi · 2.2 Rantai karbon dan gugus alkil · 2.3 Tata nama alkana (isomer sistematis) · 2.4 Sikloalkana dan bisiklik · 2.5 Alkena dan alkuna · 2.6 Senyawa dengan gugus fungsi: prioritas dan akhiran (haloalkana, eter, diol, amina, turunan asam, gugus pada cincin) · 2.7 Nama umum · 2.8 Turunan benzena · 2.9 Membaca nama menjadi struktur
 
-### ☐ Bab 3 Asam dan Basa Organik
+### ☑ Bab 3 Asam dan Basa Organik
 3.1 Asam dan basa Brønsted–Lowry; panah lengkung untuk transfer proton · 3.2 Ka, pKa, dan skala kekuatan asam · 3.3 Arah kesetimbangan asam–basa dari tabel pKa · 3.4 Termodinamika asam–basa: ΔG°, ΔH°, ΔS° · 3.5 Faktor struktur ARIO: atom pembawa muatan · 3.6 Resonansi · 3.7 Efek induktif · 3.8 Orbital dan hibridisasi · 3.9 Asam karboksilat, fenol, alkohol, amina: perbandingan · 3.10 Kebasaan amina dan heterosiklik · 3.11 Pelarut, efek leveling, dan basa kuat organik · 3.12 Asam dan basa Lewis · 3.13 pH, pKa, dan persamaan Henderson–Hasselbalch untuk molekul organik (ekstraksi asam–basa, obat di dalam tubuh)
 
 ### ☐ Bab 4 Alkana, Sikloalkana, dan Konformasi
