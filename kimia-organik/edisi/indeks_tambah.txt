@@ -169,3 +169,32 @@ terminasi
 antioksidan
 kendali kinetik
 kendali termodinamik
+alkil halida
+halogenasi radikal
+reaktivitas relatif
+N-bromosuksinimida
+brominasi alilik
+substitusi nukleofilik
+SN1
+SN2
+inversi Walden
+nukleofilisitas
+pelarut protik
+pelarut aprotik polar
+solvolisis
+pasangan ion
+eliminasi
+E1
+E2
+karbon beta
+aturan Zaitsev
+produk Hofmann
+anti-periplanar
+stereospesifik
+tosilat
+mesilat
+pereaksi Grignard
+organolitium
+kuprat Gilman
+kloroflurokarbon
+S-adenosilmetionina

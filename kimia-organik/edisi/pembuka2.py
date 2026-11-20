@@ -121,3 +121,17 @@ ax.text(0.6, 1.0, 'Nu:⁻  +  E⁺', color=TUA, fontsize=15, fontweight='bold', 
 ax.text(6.4, 0.25, 'produk', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
 simpan(6, f, 'Profil energi reaksi dua langkah: pereaksi naik melewati keadaan transisi (‡) ke intermediet, lalu melewati keadaan transisi kedua menuju produk. Mekanisme menjelaskan setiap langkah dengan gerak pasangan elektron dari nukleofil ke elektrofil.')
 print('ok6')
+
+# Bab 7: substitusi lawan eliminasi
+def rd7(smi, w=420, h=300):
+    m = Chem.MolFromSmiles(smi); d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 5; o.fixedFontSize = 38; o.clearBackground = False
+    o.updateAtomPalette({35: (0.82, 0.45, 0.15), 8: (0.82, 0.33, 0.23), 6: (0.08, 0.24, 0.16)})
+    rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing(); return Image.open(io.BytesIO(d.GetDrawingText()))
+f, ax = kanvas()
+ax.imshow(rd7('CCCCBr'), extent=[0.3, 2.7, 2.65, 4.45], zorder=2); ax.imshow(rd7('CCCCOCC'), extent=[5.0, 8.0, 2.65, 4.45], zorder=2)
+ax.imshow(rd7('CC(C)(C)Br'), extent=[0.5, 2.6, 0.35, 2.15], zorder=2); ax.imshow(rd7('C=C(C)C'), extent=[5.4, 7.4, 0.35, 2.15], zorder=2)
+for y, t, c in [(3.55, 'SN2: substitusi', UT), (1.25, 'E2: eliminasi', EM)]:
+    ax.annotate('', (4.9, y), (2.9, y), arrowprops=dict(arrowstyle='-|>', color=c, lw=3)); ax.text(3.9, y + 0.3, t, ha='center', color=c, fontsize=13, fontweight='bold', family='Liberation Sans')
+ax.text(3.9, 2.4, 'NaOCH₂CH₃, etanol', ha='center', color=TUA, fontsize=12, family='Liberation Sans')
+simpan(7, f, 'Pereaksi yang sama, hasil yang berbeda: 1-bromobutana (primer) memberi eter lewat substitusi SN2, sedangkan 2-bromo-2-metilpropana (tersier) memberi alkena lewat eliminasi E2.')
+print('ok7')

@@ -32,7 +32,7 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 ### ☑ Bab 6 Mekanisme Reaksi
 6.1 Mengapa mempelajari mekanisme · 6.2 Nukleofil dan elektrofil · 6.3 Panah lengkung untuk reaksi · 6.4 Empat pola langkah polar: serangan nukleofil, gugus pergi, transfer proton, penataan ulang · 6.5 Menggabungkan pola menjadi mekanisme · 6.6 Termodinamika reaksi: ΔH°, ΔS°, ΔG°, energi disosiasi ikatan · 6.7 Kinetika: energi aktivasi dan laju · 6.8 Diagram energi, keadaan transisi, intermediet · 6.9 Postulat Hammond · 6.10 Karbokation: kestabilan, hiperkonjugasi, penataan ulang · 6.11 Karbanion dan radikal · 6.12 Mekanisme radikal: inisiasi, propagasi, terminasi · 6.13 Kendali kinetik dan termodinamik
 
-### ☐ Bab 7 Alkil Halida: Substitusi dan Eliminasi
+### ☑ Bab 7 Alkil Halida: Substitusi dan Eliminasi
 7.1 Alkil halida: struktur dan sifat · 7.2 Halogenasi radikal alkana: reaksi berantai dan selektivitas (Cl lawan Br) · 7.3 Brominasi alilik dan benzilik dengan NBS · 7.4 Substitusi nukleofilik: gambaran umum · 7.5 Mekanisme SN2: kinetika dan stereokimia (inversi Walden) · 7.6 Faktor SN2: substrat, nukleofil, gugus pergi, pelarut · 7.7 Mekanisme SN1: kinetika, karbokation, rasemisasi · 7.8 Faktor SN1 dan penataan ulang · 7.9 Eliminasi E2: kinetika, aturan Zaitsev, basa besar (Hofmann) · 7.10 Stereokimia E2: anti-periplanar, sikloheksana · 7.11 Eliminasi E1 · 7.12 Substitusi atau eliminasi: peta keputusan · 7.13 Gugus pergi yang dibuat: tosilat dan mesilat · 7.14 Organologam dari alkil halida: Grignard, organolitium, kuprat Gilman · 7.15 Alkil halida di lingkungan dan dalam biologi
 
 ### ☐ Bab 8 Alkena dan Alkuna
