@@ -34,7 +34,7 @@ Pemetaan RPS: mg 1 → Bab 1 · mg 2 → Bab 2 · mg 3–4 → Bab 3–4 · mg 5
 ### ☑ Bab 6 Menghitung Perubahan Entropi dan Hukum Ketiga
 6.1 Entropi sebagai fungsi T dan V · 6.2 Entropi sebagai fungsi T dan P · 6.3 Entropi pemuaian dan pencampuran gas ideal · 6.4 Entropi perubahan fasa dan aturan Trouton · 6.5 Entropi pemanasan · 6.6 Hukum ketiga dan entropi mutlak · 6.7 Entropi reaksi standar · 6.8 Entropi lingkungan dan entropi total
 
-### ☐ Bab 7 Energi Bebas dan Hubungan Maxwell
+### ☑ Bab 7 Energi Bebas dan Hubungan Maxwell
 7.1 Mengapa perlu energi bebas · 7.2 Energi bebas Helmholtz · 7.3 Energi bebas Gibbs · 7.4 Kerja maksimum dan kerja bukan-ekspansi · 7.5 Persamaan fundamental · 7.6 Hubungan Maxwell · 7.7 Ketergantungan G pada suhu: persamaan Gibbs–Helmholtz · 7.8 Ketergantungan G pada tekanan · 7.9 Energi bebas Gibbs reaksi standar
 
 ## Bagian IV · Kesetimbangan fasa dan larutan

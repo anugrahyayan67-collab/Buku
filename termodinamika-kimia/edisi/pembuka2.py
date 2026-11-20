@@ -130,3 +130,19 @@ ax.plot([x0 + 0.9, x0 + 1.2], [2.2, 2.3], color=UN, lw=2.8); ax.plot([x0 + 1.2] 
 T2 = np.linspace(0, 1, 50); ax.plot(x0 + 1.2 + T2 * 1.8, 3.6 + 0.6 * np.log1p(2 * T2), color=SI, lw=2.8)
 ax.plot([x0 - 0.1, 8.1], [0.7, 0.7], color=AB, lw=1.2); ax.plot([x0 - 0.1, x0 - 0.1], [0.7, 4.6], color=AB, lw=1.2)
 simpan(6, f, 'Kristal sempurna pada nol mutlak mempunyai entropi nol; entropi naik perlahan saat dipanaskan dan melompat pada peleburan dan penguapan.')
+
+# 7 sel bahan bakar dan jaringan hubungan U, H, A, G
+f, ax = kanvas()
+ax.add_patch(FancyBboxPatch((0.5, 0.8), 3.4, 3.2, boxstyle='round,pad=0,rounding_size=0.15', fc='white', ec=NI, lw=2.2, alpha=0.9))
+ax.add_patch(Rectangle((1.1, 1.0), 0.35, 2.6, color=AB)); ax.add_patch(Rectangle((2.95, 1.0), 0.35, 2.6, color=AB))
+ax.add_patch(Rectangle((1.45, 1.0), 1.5, 2.6, color='#bfe0f2', alpha=0.6))
+for y in np.linspace(1.3, 3.3, 5): bola(ax, 0.8, y, 0.09, '#f4f4f6', z=4); bola(ax, 3.6, y, 0.1, UN, z=4)
+ax.plot([1.27, 1.27, 3.12, 3.12], [3.6, 4.5, 4.5, 3.6], color=NI, lw=2)
+ax.add_patch(Circle((2.2, 4.5), 0.25, fc=EM, ec=NI, lw=1.5, zorder=5))
+pos = {'U': (5.2, 3.8), 'H': (7.4, 3.8), 'A': (5.2, 1.3), 'G': (7.4, 1.3)}
+for k, (x, y) in pos.items():
+    ax.add_patch(Circle((x, y), 0.45, fc=SI if k == 'G' else 'white', ec=NI, lw=2.2, zorder=3))
+    ax.text(x, y, k, ha='center', va='center', fontsize=22, color=NI, fontweight='bold', zorder=4)
+for a, b in [('U', 'H'), ('U', 'A'), ('H', 'G'), ('A', 'G')]:
+    (x1, y1), (x2, y2) = pos[a], pos[b]; ax.plot([x1 + 0.5 * np.sign(x2 - x1), x2 - 0.5 * np.sign(x2 - x1)], [y1 + 0.5 * np.sign(y2 - y1), y2 - 0.5 * np.sign(y2 - y1)], color=UN, lw=2.4)
+simpan(7, f, 'Sel bahan bakar mengubah energi Gibbs langsung menjadi kerja listrik; U, H, A, dan G terhubung oleh jaringan persamaan fundamental.')
