@@ -67,6 +67,23 @@ Untuk memahami sambungan atom, kita perlu tahu apa yang menyambungkannya. Dalam 
 
 Mengapa atom mau berbagi elektron, dan berapa banyak? G. N. Lewis memberi jawaban praktis pada 1916: atom cenderung berbagi elektron sampai kulit terluarnya berisi delapan elektron, seperti gas mulia. Aturan ini disebut **aturan oktet**. Hidrogen adalah pengecualian penting: kulitnya hanya memuat dua elektron, sehingga hidrogen cukup membentuk satu ikatan. Aturan oktet bukan hukum alam yang mutlak, tetapi untuk unsur periode kedua (C, N, O, F) aturan ini hampir selalu berlaku. Penyebabnya, unsur-unsur ini hanya mempunyai orbital 2s dan 2p di kulit terluarnya, dan keempat orbital itu paling banyak memuat delapan elektron.
 
+### Orbital atom dan elektron valensi
+
+Sebelum menggambar ikatan, kita perlu tahu berapa elektron yang dibawa setiap atom ke dalam ikatan. Elektron dalam atom menempati **orbital**, yaitu daerah di sekitar inti tempat elektron paling mungkin ditemukan. Bentuk dan energi orbital diturunkan dari mekanika kuantum (*Kimia Kuantum*, Bab 7), tetapi untuk kimia organik cukup mengingat beberapa hal.
+
+Orbital **s** berbentuk bola dengan inti di pusatnya. Orbital **p** berbentuk seperti halter dengan dua cuping di kedua sisi inti, dan ada tiga orbital p yang saling tegak lurus ($p_x$, $p_y$, $p_z$). Setiap orbital paling banyak memuat dua elektron dengan spin berlawanan (asas Pauli). Elektron mengisi orbital dari energi terendah: 1s, lalu 2s, lalu 2p. Bila ada beberapa orbital yang energinya sama, elektron mengisinya satu per satu lebih dulu sebelum berpasangan (aturan Hund).
+
+Dengan aturan itu, konfigurasi elektron unsur-unsur periode kedua yang paling penting adalah:
+
+| Unsur | Konfigurasi | Elektron valensi | Golongan |
+|---|---|---|---|
+| C | 1s² 2s² 2p² | 4 | 14 |
+| N | 1s² 2s² 2p³ | 5 | 15 |
+| O | 1s² 2s² 2p⁴ | 6 | 16 |
+| F | 1s² 2s² 2p⁵ | 7 | 17 |
+
+Elektron 1s berada sangat dekat dengan inti dan tidak ikut berikatan. Yang ikut berikatan hanyalah elektron di kulit terluar, kulit kedua, yang disebut **elektron valensi**. Jumlahnya sama dengan angka satuan nomor golongan dalam tabel periodik: karbon di golongan 14 mempunyai 4 elektron valensi, oksigen di golongan 16 mempunyai 6. Hidrogen mempunyai satu elektron valensi, 1s¹. Angka-angka ini adalah titik awal setiap struktur Lewis.
+
 ### Menggambar struktur Lewis langkah demi langkah
 
 **Struktur Lewis** menunjukkan semua elektron valensi dalam molekul. Pasangan elektron ikatan digambar sebagai garis, sedangkan pasangan elektron yang tidak dipakai berikatan, yang disebut **pasangan elektron bebas**, digambar sebagai dua titik. Untuk molekul kecil, struktur Lewis dapat disusun dengan langkah-langkah berikut.
@@ -215,6 +232,26 @@ Hitung derajat ketidakjenuhan untuk (a) C₆H₁₀ (sikloheksena), (b) C₆H₆
 (c) $(2 \cdot 5 + 2 + 1 - 5)/2 = 4$. Piridina, seperti benzena, mempunyai satu cincin dan tiga ikatan rangkap dua (satu di antaranya C=N).
 
 **Memahami hasil.** Derajat ketidakjenuhan tidak memberi tahu letak ikatan rangkap atau cincin, hanya jumlahnya. Angka 4 untuk C₆H₆ bisa berupa benzena, tetapi bisa juga senyawa rantai terbuka dengan dua ikatan rangkap tiga. Untuk membedakannya, kimiawan memakai data tambahan, misalnya spektrum inframerah dan NMR.
+:::
+
+### Pasangan bebas dan muatan yang tidak digambar
+
+Rumus garis tidak hanya menghilangkan atom hidrogen pada karbon. Rumus garis juga biasanya **tidak menggambar pasangan elektron bebas**. Pembaca dianggap dapat menambahkannya sendiri dari pola ikatan di subbab 1.2. Oksigen netral yang membentuk dua ikatan pasti mempunyai dua pasangan bebas; nitrogen netral dengan tiga ikatan pasti mempunyai satu pasangan bebas.
+
+Keterampilan ini penting, karena pasangan bebas adalah sumber elektron dalam hampir setiap mekanisme reaksi. Bila kamu tidak "melihat" pasangan bebas yang tidak digambar, kamu tidak akan dapat menggambar panah lengkung yang berpangkal padanya. Aturan praktisnya:
+
+* **Atom netral**: O dua ikatan → dua pasangan bebas; N tiga ikatan → satu pasangan bebas; halogen satu ikatan → tiga pasangan bebas.
+* **Atom bermuatan**: muatan formal **selalu** digambar, dan dari muatan itu jumlah pasangan bebas dapat dihitung. O⁻ dengan satu ikatan mempunyai tiga pasangan bebas. O⁺ dengan tiga ikatan mempunyai satu pasangan bebas. N⁺ dengan empat ikatan tidak mempunyai pasangan bebas.
+* **Karbon** biasanya tidak mempunyai pasangan bebas. Pengecualiannya karbanion (C⁻), yang mempunyai satu pasangan bebas. Karbokation (C⁺) tidak mempunyai pasangan bebas dan juga kekurangan satu pasang elektron dari oktet.
+
+::: {.contoh}
+**Contoh 1.5 · Melengkapi pasangan bebas yang tersirat**
+
+Tentukan jumlah pasangan bebas pada setiap atom bukan karbon dalam (a) ion asetat, CH₃COO⁻; (b) etanol terprotonasi, CH₃CH₂OH₂⁺; (c) asetonitril, CH₃C≡N.
+
+**Penyelesaian.** (a) Oksigen berikatan rangkap (dua ikatan, netral): dua pasangan bebas. Oksigen bermuatan negatif (satu ikatan): tiga pasangan bebas. (b) Oksigen mempunyai tiga ikatan (C, H, H) dan muatan +1: satu pasangan bebas. (c) Nitrogen mempunyai tiga ikatan (rangkap tiga) dan netral: satu pasangan bebas.
+
+**Memahami hasil.** Pada (b), oksigen masih mempunyai satu pasangan bebas walaupun bermuatan positif. Muatan positif pada oksigen tidak berarti oksigen kehilangan semua elektronnya, hanya bahwa dalam pembukuan muatan formal ia "memiliki" satu elektron lebih sedikit daripada atom oksigen netral.
 :::
 
 ### Struktur tiga dimensi: baji dan garis putus-putus

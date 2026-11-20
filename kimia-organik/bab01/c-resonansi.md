@@ -8,7 +8,7 @@ Lihat ion asetat, CH₃COO⁻, yang terbentuk ketika asam asetat melepaskan prot
 
 Masalahnya, tidak ada satu struktur Lewis pun yang dapat menggambarkan keadaan ini. Kita dapat menggambar dua struktur yang sama baiknya: yang satu dengan ikatan rangkap ke oksigen kiri, yang lain dengan ikatan rangkap ke oksigen kanan. Keduanya hanya berbeda dalam letak elektron, sedangkan letak semua atom tetap sama.
 
-![Gambar 1.3 Resonansi ion asetat. Dua struktur penyumbang (kiri dan tengah) dihubungkan oleh panah berkepala dua; panah lengkung menunjukkan bagaimana pasangan elektron berpindah dari satu struktur ke struktur lainnya. Kanan: hibrida resonansi, dengan kedua ikatan C–O setara dan muatan negatif terbagi rata (δ−) pada kedua oksigen.](fig/resonansi.png){width=92%}
+![Gambar 1.4 Resonansi ion asetat. Dua struktur penyumbang (kiri dan tengah) dihubungkan oleh panah berkepala dua; panah lengkung menunjukkan bagaimana pasangan elektron berpindah dari satu struktur ke struktur lainnya. Kanan: hibrida resonansi, dengan kedua ikatan C–O setara dan muatan negatif terbagi rata (δ−) pada kedua oksigen.](fig/resonansi.png){width=92%}
 
 ### Struktur penyumbang dan hibrida resonansi
 
@@ -28,7 +28,7 @@ Kestabilan tambahan ini mempunyai akibat yang dapat diukur. Asam asetat (pKa 4,7
 
 Untuk berpindah dari satu struktur penyumbang ke struktur lainnya, kimiawan memakai **panah lengkung**. Panah lengkung menunjukkan pergerakan **sepasang elektron**. Pangkal panah ditempatkan pada sumber elektron, yaitu pasangan bebas atau ikatan. Kepala panah ditempatkan pada tujuan elektron, yaitu sebuah atom atau ruang di antara dua atom tempat ikatan baru terbentuk.
 
-Pada ion asetat (Gambar 1.3), dua panah diperlukan. Panah pertama berpangkal pada pasangan bebas oksigen yang bermuatan negatif dan berujung di antara oksigen itu dan karbon. Artinya, pasangan bebas itu menjadi ikatan π yang baru. Panah kedua berpangkal pada ikatan π C=O yang lama dan berujung pada oksigen lainnya. Artinya, ikatan π yang lama menjadi pasangan bebas pada oksigen itu. Hasilnya adalah struktur penyumbang kedua, dengan muatan negatif berpindah ke oksigen lainnya.
+Pada ion asetat (Gambar 1.4), dua panah diperlukan. Panah pertama berpangkal pada pasangan bebas oksigen yang bermuatan negatif dan berujung di antara oksigen itu dan karbon. Artinya, pasangan bebas itu menjadi ikatan π yang baru. Panah kedua berpangkal pada ikatan π C=O yang lama dan berujung pada oksigen lainnya. Artinya, ikatan π yang lama menjadi pasangan bebas pada oksigen itu. Hasilnya adalah struktur penyumbang kedua, dengan muatan negatif berpindah ke oksigen lainnya.
 
 Panah lengkung adalah alat terpenting dalam kimia organik. Di bab ini kita memakainya untuk resonansi, yaitu memindahkan elektron di atas kerangka atom yang tidak berubah. Mulai Bab 6, panah yang sama dipakai untuk mekanisme reaksi, yaitu menggambarkan bagaimana ikatan putus dan terbentuk ketika molekul bereaksi. Kebiasaan menggambar panah dengan benar sejak sekarang akan sangat menolong di bab-bab berikutnya.
 
@@ -42,6 +42,32 @@ Panah lengkung adalah alat terpenting dalam kimia organik. Di bab ini kita memak
 5. **Setiap panah berpangkal pada elektron**, tidak pernah pada muatan positif atau pada atom yang tidak mempunyai elektron untuk dipindahkan.
 :::
 
+### Lima pola resonansi
+
+Menggambar struktur penyumbang menjadi jauh lebih mudah bila kita mengenali pola. Hampir semua resonansi dalam molekul organik mengikuti salah satu dari lima pola berikut. Setiap pola menggambarkan susunan atom tertentu yang memungkinkan elektron berpindah.
+
+1. **Pasangan bebas di samping ikatan π.** Bila sebuah atom yang membawa pasangan bebas terikat pada atom yang ikut dalam ikatan π (susunan X–C=Y), pasangan bebas itu dapat menjadi ikatan π baru, dan ikatan π lama menjadi pasangan bebas di ujung lainnya. Dua panah. Contohnya ion asetat dan amida.
+2. **Pasangan bebas di samping muatan positif.** Bila pasangan bebas berada pada atom yang bersebelahan dengan karbokation (X–C⁺), pasangan bebas itu membentuk ikatan π dengan karbon tersebut. Satu panah. Contohnya CH₃O–CH₂⁺ ↔ CH₃O⁺=CH₂, kation yang distabilkan oleh oksigen di sebelahnya.
+3. **Ikatan π di samping muatan positif.** Bila ikatan π bersebelahan dengan karbokation (C=C–C⁺), elektron π bergeser ke arah muatan positif, sehingga muatan positif berpindah ke ujung lainnya. Satu panah. Contohnya kation alil.
+4. **Ikatan π antara dua atom dengan keelektronegatifan berbeda.** Elektron π pada C=O atau C=N dapat bergeser seluruhnya ke atom yang lebih elektronegatif, menghasilkan pemisahan muatan C⁺–O⁻. Satu panah. Contohnya gugus karbonil (Contoh 1.12).
+5. **Ikatan π terkonjugasi dalam cincin.** Bila ikatan rangkap dua dan ikatan tunggal berselang-seling dalam cincin, seperti dalam benzena, semua ikatan π dapat bergeser bersama-sama mengelilingi cincin. Tiga panah sekaligus.
+
+Pola-pola ini mempunyai satu kesamaan: elektron selalu bergerak ke arah atom yang dapat menerimanya, yaitu atom bermuatan positif, atom yang lebih elektronegatif, atau atom di ujung ikatan π yang dapat melepas ikatan π lamanya. Setiap kali kamu menemukan pasangan bebas, ikatan π, atau muatan positif yang bersebelahan dengan sistem π, tanyakan apakah salah satu dari lima pola itu berlaku.
+
+::: {.contoh}
+**Contoh 1.11 · Mengenali pola resonansi**
+
+Gambar struktur penyumbang dan sebutkan pola yang dipakai untuk (a) kation CH₂=CH–CH₂⁺; (b) anion enolat CH₂=CH–O⁻; (c) kation CH₃C⁺(OH)CH₃ (aseton yang terprotonasi).
+
+**Penyelesaian.** (a) Pola 3: ikatan π di samping C⁺. Satu panah dari ikatan C=C ke ikatan C–C⁺. Hasil: ⁺CH₂–CH=CH₂. Muatan positif tersebar di kedua karbon ujung.
+
+(b) Pola 1: pasangan bebas O⁻ di samping ikatan π C=C. Dua panah: pasangan bebas O⁻ menjadi ikatan π C=O, dan ikatan π C=C menjadi pasangan bebas pada karbon ujung. Hasil: ⁻CH₂–CH=O. Muatan negatif tersebar pada oksigen dan karbon.
+
+(c) Pola 2: pasangan bebas oksigen di samping C⁺. Satu panah dari pasangan bebas O ke ikatan C–O. Hasil: (CH₃)₂C=OH⁺. Struktur kedua ini lebih penting, karena semua atomnya mempunyai oktet lengkap.
+
+**Memahami hasil.** Ketiga spesi ini akan muncul lagi sebagai intermediet: kation alil di Bab 8, ion enolat di Bab 11, dan karbonil terprotonasi di Bab 11 dan 12. Kemampuan menggambar struktur penyumbangnya dengan cepat adalah prasyarat untuk memahami mengapa intermediet itu terbentuk dengan mudah.
+:::
+
 ### Struktur penyumbang mana yang paling penting
 
 Tidak semua struktur penyumbang menyumbang sama besar. Dalam ion asetat, kedua struktur setara karena bentuknya sama persis, sehingga masing-masing menyumbang separuh. Dalam banyak molekul lain, struktur penyumbangnya tidak setara, dan hibridanya lebih mirip struktur yang paling stabil. Ada beberapa pedoman untuk menilai kestabilan struktur penyumbang, diurutkan dari yang paling penting:
@@ -51,7 +77,7 @@ Tidak semua struktur penyumbang menyumbang sama besar. Dalam ion asetat, kedua s
 3. **Muatan negatif lebih baik berada pada atom yang lebih elektronegatif**, dan muatan positif pada atom yang kurang elektronegatif.
 
 ::: {.contoh}
-**Contoh 1.9 · Struktur penyumbang gugus karbonil**
+**Contoh 1.12 · Struktur penyumbang gugus karbonil**
 
 Gambar struktur penyumbang kedua untuk metanal, H₂C=O, dengan memindahkan elektron π ke oksigen. Struktur mana yang lebih penting, dan apa artinya bagi kereaktifan karbon karbonil?
 
@@ -60,6 +86,28 @@ Gambar struktur penyumbang kedua untuk metanal, H₂C=O, dengan memindahkan elek
 Struktur pertama (H₂C=O) lebih penting. Semua atomnya mempunyai oktet lengkap, dan tidak ada muatan yang dipisahkan. Struktur kedua menyumbang lebih sedikit, karena karbon hanya mempunyai enam elektron. Namun struktur kedua tidak dapat diabaikan, karena muatan negatifnya berada pada oksigen yang elektronegatif, tempat yang memang disukai muatan negatif.
 
 **Memahami hasil.** Sumbangan kecil struktur H₂C⁺–O⁻ menjelaskan dua hal. Pertama, ikatan C=O sangat polar (momen dipol metanal 2,33 D). Kedua, karbon karbonil bersifat δ+, sehingga mudah diserang oleh pereaksi yang kaya elektron. Itulah reaksi adisi nukleofilik, reaksi khas aldehida dan keton yang dibahas di Bab 11.
+:::
+
+### Pasangan bebas terlokalisasi dan terdelokalisasi
+
+Pola 1 di atas mempunyai akibat yang sangat penting. Pasangan bebas yang dapat ikut dalam resonansi disebut **terdelokalisasi**. Pasangan bebas yang tidak dapat ikut disebut **terlokalisasi**. Perbedaan ini menentukan sifat atom pembawa pasangan bebas itu, terutama kebasaannya.
+
+Bandingkan nitrogen pada sikloheksilamina (C₆H₁₁NH₂) dan pada amida (CH₃CONH₂). Pada sikloheksilamina, tidak ada ikatan π di sebelah nitrogen. Pasangan bebasnya terlokalisasi, tetap berada pada nitrogen, dan siap menangkap proton. Sikloheksilamina adalah basa yang cukup kuat. Pada amida, pasangan bebas nitrogen bersebelahan dengan C=O, sehingga terdelokalisasi ke oksigen. Karena pasangan bebas itu sebagian "dipinjamkan" ke sistem π, nitrogen amida hampir tidak bersifat basa.
+
+Delokalisasi juga mengubah hibridisasi. Atom yang pasangan bebasnya terdelokalisasi harus menempatkan pasangan bebas itu di orbital p, supaya dapat bertumpang tindih dengan sistem π tetangganya. Karena itu nitrogen amida adalah sp², bukan sp³ seperti yang diramalkan dari tiga ikatan dan satu pasangan bebas, dan gugus amida berbentuk datar. Aturan praktisnya: **atom dengan pasangan bebas yang terdelokalisasi adalah sp²**, walaupun hitungan kelompok elektron memberi sp³.
+
+::: {.contoh}
+**Contoh 1.13 · Terlokalisasi atau terdelokalisasi?**
+
+Tentukan apakah pasangan bebas nitrogen terlokalisasi atau terdelokalisasi, dan tentukan hibridisasi nitrogen, dalam (a) trietilamina; (b) anilina (C₆H₅NH₂); (c) piridina.
+
+**Penyelesaian.** (a) Nitrogen terikat pada tiga karbon sp³, tidak ada ikatan π di dekatnya. Terlokalisasi; sp³.
+
+(b) Nitrogen terikat langsung pada cincin benzena, yang mempunyai ikatan π. Pola 1 berlaku: pasangan bebas dapat masuk ke cincin. Terdelokalisasi; nitrogen mendekati sp², dan anilina jauh kurang basa daripada sikloheksilamina.
+
+(c) Nitrogen piridina adalah bagian dari cincin aromatik dan sudah ikut dalam ikatan π cincin lewat orbital p-nya. Pasangan bebasnya menempati orbital sp² yang terletak di bidang cincin, tegak lurus terhadap sistem π, sehingga tidak dapat bertumpang tindih. Terlokalisasi; sp².
+
+**Memahami hasil.** Kasus (c) menunjukkan bahwa sp² tidak selalu berarti terdelokalisasi. Yang menentukan adalah **arah** orbital pasangan bebas: hanya pasangan bebas di orbital p yang sejajar dengan sistem π yang dapat terdelokalisasi. Gagasan ini dipakai di Bab 3 untuk menjelaskan mengapa piridina lebih basa daripada pirola, dan di Bab 10 untuk aromatisitas.
 :::
 
 ::: {.awas}
@@ -101,7 +149,7 @@ Sekarang kembali ke kedua botol C₂H₆O. Etanol, CH₃CH₂OH, mempunyai ikata
 Hal yang sama menjelaskan perbedaan kimianya. Ikatan O–H etanol dapat diputus oleh logam natrium, menghasilkan gas hidrogen dan natrium etoksida. Dimetil eter tidak mempunyai ikatan O–H, sehingga tidak bereaksi dengan cara itu. Sambungan atom menentukan baik sifat fisika maupun sifat kimia.
 
 ::: {.contoh}
-**Contoh 1.10 · Mengurutkan titik didih**
+**Contoh 1.14 · Mengurutkan titik didih**
 
 Urutkan senyawa berikut dari titik didih terendah ke tertinggi: butana (C₄H₁₀), dietil eter (C₂H₅OC₂H₅), butan-1-ol (C₄H₉OH), dan propanal (CH₃CH₂CHO). Massa molar keempatnya berdekatan (58–74 g mol⁻¹).
 

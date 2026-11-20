@@ -41,7 +41,7 @@ Kolom "karakter s" perlu dijelaskan karena akan sering dipakai. Orbital sp³ ada
 Gagasan yang sama berlaku untuk nitrogen dan oksigen, dengan pasangan bebas dihitung sebagai kelompok elektron. Nitrogen dalam amonia mempunyai tiga ikatan dan satu pasangan bebas: empat kelompok, jadi sp³, dan bentuk molekulnya piramida segitiga. Oksigen dalam air atau metanol mempunyai dua ikatan dan dua pasangan bebas: empat kelompok, jadi sp³, dan bentuknya bengkok. Sudut H–N–H amonia (107°) dan H–O–H air (104,5°) sedikit lebih kecil daripada 109,5°. Penyebabnya, pasangan bebas hanya ditarik oleh satu inti sehingga lebih "gemuk" daripada pasangan ikatan, dan pasangan bebas itu mendesak ikatan-ikatan di dekatnya untuk merapat.
 
 ::: {.contoh}
-**Contoh 1.5 · Hibridisasi atom dalam asetonitril dan aseton**
+**Contoh 1.6 · Hibridisasi atom dalam asetonitril dan aseton**
 
 Tentukan hibridisasi, geometri, dan sudut ikatan perkiraan untuk setiap atom bukan hidrogen dalam asetonitril (CH₃C≡N) dan aseton (CH₃COCH₃).
 
@@ -93,13 +93,45 @@ Akibatnya muncul bentuk isomer yang tidak ada pada alkana. But-2-ena dapat mempu
 :::
 
 ::: {.contoh}
-**Contoh 1.6 · Menghitung ikatan σ dan π**
+**Contoh 1.7 · Menghitung ikatan σ dan π**
 
 Hitung jumlah ikatan σ dan π dalam akrilonitril, CH₂=CH–C≡N, bahan baku serat akrilik.
 
 **Penyelesaian.** Hitung setiap ikatan satu per satu. Ada tiga ikatan C–H (masing-masing σ). Ikatan C=C memberi 1σ + 1π. Ikatan C–C tunggal memberi 1σ. Ikatan C≡N memberi 1σ + 2π. Jumlahnya: σ = $3 + 1 + 1 + 1 = 6$, π = $1 + 2 = 3$.
 
 **Memahami hasil.** Setiap pasangan atom yang tersambung, apa pun jenis ikatannya, dihubungkan oleh tepat satu ikatan σ. Jadi jumlah ikatan σ sama dengan jumlah sambungan antaratom. Ikatan π adalah "tambahan" di atas kerangka σ itu.
+:::
+
+### Teori orbital molekul: ikatan dan antiikatan
+
+Gambaran ikatan σ dan π sebagai tumpang tindih dua orbital disebut **teori ikatan valensi**. Teori ini sangat berguna untuk menggambar bentuk molekul, tetapi tidak menjelaskan beberapa hal penting, misalnya mengapa elektron dalam benzena tersebar di seluruh cincin, atau ke mana elektron masuk ketika sebuah molekul diserang pereaksi. Untuk itu kimiawan memakai cara pandang kedua, **teori orbital molekul** (OM), yang dibahas lengkap di *Kimia Kuantum*, Bab 11 dan 13.
+
+Gagasan pokok teori OM adalah ini: ketika dua orbital atom bergabung, keduanya tidak hilang, tetapi berubah menjadi **dua orbital molekul** yang tersebar di kedua atom. Satu orbital terbentuk bila kedua orbital atom bergabung **sefase**, sehingga gelombang elektronnya saling menguatkan di antara kedua inti. Rapat elektron yang tinggi di antara inti menarik kedua inti sekaligus, sehingga energinya lebih rendah daripada orbital atom asalnya. Orbital ini disebut **orbital ikatan**. Orbital lainnya terbentuk bila kedua orbital atom bergabung **berlawanan fase**, sehingga gelombangnya saling meniadakan di tengah dan terdapat **simpul** (bidang tanpa elektron) di antara kedua inti. Energinya lebih tinggi daripada orbital atom asalnya. Orbital ini disebut **orbital antiikatan** dan diberi tanda bintang: σ* atau π*.
+
+![Gambar 1.3 Diagram orbital molekul. Kiri: dua orbital 1s hidrogen membentuk orbital σ (ikatan) dan σ* (antiikatan); kedua elektron menempati σ. Kanan: dua orbital p karbon pada etena membentuk π (HOMO, terisi dua elektron) dan π* (LUMO, kosong).](fig/om.png){width=86%}
+
+Elektron mengisi orbital molekul dari energi terendah, dua elektron per orbital. Dalam molekul H₂, kedua elektron masuk ke orbital σ ikatan, sehingga energi molekul lebih rendah daripada dua atom H yang terpisah: ikatan terbentuk. Jumlah ikatan dapat dihitung sebagai **orde ikatan**:
+
+$$
+\text{orde ikatan} = \frac{(\text{elektron di orbital ikatan}) - (\text{elektron di orbital antiikatan})}{2} \qquad \text{(1.3)}
+$$
+
+Untuk H₂, orde ikatannya $(2 - 0)/2 = 1$, sesuai dengan satu ikatan tunggal. Untuk He₂ yang hipotetis, empat elektron mengisi σ dan σ*, sehingga orde ikatannya $(2 - 2)/2 = 0$. Itulah sebabnya helium tidak membentuk molekul diatom.
+
+### HOMO dan LUMO: tempat reaksi terjadi
+
+Dalam etena, kedua orbital p yang sejajar membentuk orbital π ikatan dan π* antiikatan. Dua elektron π mengisi orbital π, dan π* tetap kosong. Dua orbital ini diberi nama khusus karena sangat menentukan kereaktifan. Orbital terisi yang energinya paling tinggi disebut **HOMO** (*highest occupied molecular orbital*), dan orbital kosong yang energinya paling rendah disebut **LUMO** (*lowest unoccupied molecular orbital*). Pada etena, HOMO adalah π dan LUMO adalah π*.
+
+Mengapa dua orbital ini penting? Dalam reaksi, elektron mengalir dari molekul yang memberi elektron ke molekul yang menerima elektron. Elektron yang paling mudah diberikan adalah elektron di HOMO, karena energinya paling tinggi di antara elektron yang ada. Tempat yang paling mudah menerima elektron adalah LUMO, karena orbital kosong yang paling rendah. Jadi sebuah reaksi organik dapat dibayangkan sebagai aliran elektron **dari HOMO nukleofil ke LUMO elektrofil**. Gambaran ini akan kita pakai ketika membahas mekanisme di Bab 6. Panah lengkung yang kita gambar sebenarnya adalah ringkasan visual dari aliran elektron HOMO ke LUMO itu.
+
+::: {.contoh}
+**Contoh 1.8 · Orde ikatan dari diagram orbital molekul**
+
+Gunakan diagram orbital molekul seperti Gambar 1.3 (kiri) untuk menentukan orde ikatan (a) H₂⁺, (b) H₂⁻. Mana yang lebih stabil daripada atom dan ion terpisahnya, dan mana yang ikatannya paling kuat di antara H₂, H₂⁺, dan H₂⁻?
+
+**Penyelesaian.** (a) H₂⁺ hanya mempunyai satu elektron, di orbital σ: orde ikatan $(1 - 0)/2 = 0{,}5$. (b) H₂⁻ mempunyai tiga elektron: dua di σ, satu di σ*. Orde ikatan $(2 - 1)/2 = 0{,}5$. Keduanya mempunyai orde ikatan positif, sehingga keduanya terikat. H₂, dengan orde ikatan 1, mempunyai ikatan terkuat.
+
+**Memahami hasil.** Orde ikatan setengah adalah sesuatu yang tidak dapat digambarkan dengan struktur Lewis, karena garis ikatan hanya dapat berjumlah bulat. Teori OM tidak terikat pada pasangan elektron, sehingga dapat menangani elektron tunggal dan ikatan pecahan. Kemampuan yang sama membuat teori OM dapat menjelaskan resonansi: elektron π dalam ion asetat menempati orbital yang tersebar di tiga atom sekaligus.
 :::
 
 ::: {.kuis}
@@ -133,7 +165,7 @@ Kepolaran sebuah ikatan diukur dengan **momen dipol**, hasil kali besar muatan p
 Sebuah molekul dengan beberapa ikatan polar belum tentu polar. Momen dipol molekul adalah **jumlah vektor** semua momen dipol ikatannya, sehingga bentuk molekul ikut menentukan hasilnya. Dua contoh menunjukkan hal ini dengan jelas. Dalam CO₂, kedua ikatan C=O sangat polar, tetapi molekulnya linear. Kedua momen dipol ikatan sama besar dan berlawanan arah, sehingga saling meniadakan: momen dipol CO₂ nol. Dalam air, kedua ikatan O–H juga polar, tetapi molekulnya bengkok. Kedua momen dipol ikatan mengarah ke sisi yang sama dan tidak saling meniadakan. Hasilnya, air mempunyai momen dipol yang besar, 1,85 D. Sifat ini menjadi sumber kemampuan air melarutkan garam dan zat polar.
 
 ::: {.contoh}
-**Contoh 1.7 · Momen dipol klorometana**
+**Contoh 1.9 · Momen dipol klorometana**
 
 Momen dipol klorometana (CH₃Cl) adalah 1,87 D, dan panjang ikatan C–Cl 178 pm. Bila seluruh momen dipol dianggap berasal dari muatan parsial +*q* pada C dan −*q* pada Cl, berapa *q* dinyatakan sebagai pecahan muatan elektron?
 
@@ -147,7 +179,7 @@ Bagi dengan muatan elektron, 1,602 × 10⁻¹⁹ C: $q/e = 0{,}22$.
 :::
 
 ::: {.contoh}
-**Contoh 1.8 · Molekul polar atau tidak polar?**
+**Contoh 1.10 · Molekul polar atau tidak polar?**
 
 Ramalkan apakah molekul berikut mempunyai momen dipol: (a) CCl₄, (b) CHCl₃, (c) CH₂Cl₂, (d) aseton.
 

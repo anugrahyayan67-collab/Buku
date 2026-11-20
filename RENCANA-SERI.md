@@ -40,8 +40,8 @@ Opsional bila sempat: Biologi Umum (sem 1), Kimia Lingkungan dan Analisis Elektr
 ### 6. Kimia Fisika 1: Termodinamika Kimia (± 13 bab)
 1 Gas ideal dan gas nyata · 2 Hukum pertama: kerja, kalor, energi dalam · 3 Entalpi dan termokimia · 4 Hukum kedua: entropi · 5 Hukum ketiga dan entropi mutlak · 6 Energi bebas Helmholtz dan Gibbs · 7 Potensial kimia · 8 Kesetimbangan fasa zat murni dan persamaan Clausius–Clapeyron · 9 Larutan ideal dan hukum Raoult · 10 Sifat koligatif secara termodinamika · 11 Larutan nyata dan aktivitas · 12 Kesetimbangan kimia dan ΔG° = −RT ln K · 13 Termodinamika elektrokimia
 
-### 7. Kimia Organik 1: Senyawa Monofungsi (± 13 bab)
-1 Struktur dan ikatan senyawa organik · 2 Gugus fungsi dan tata nama IUPAC · 3 Asam–basa organik · 4 Alkana dan sikloalkana; konformasi · 5 Stereokimia dan kiralitas · 6 Mekanisme reaksi: intermediet, panah elektron · 7 Alkil halida: SN1, SN2, E1, E2 · 8 Alkena dan alkuna: adisi · 9 Alkohol, eter, epoksida · 10 Senyawa aromatik dan substitusi elektrofilik · 11 Aldehida dan keton · 12 Asam karboksilat dan turunannya · 13 Amina
+### 7. Kimia Organik 1: Senyawa Monofungsi (16 bab; rincian di `kimia-organik/RENCANA.md`)
+Struktur dan ikatan · Tata nama · Asam–basa · Alkana dan konformasi · Stereokimia · Mekanisme · Substitusi dan eliminasi · Alkena dan alkuna · Alkohol, fenol, eter · Aromatik · Aldehida dan keton · Asam karboksilat dan turunannya · Amina · IR dan MS · NMR · Strategi sintesis
 
 ### 8. Kimia Anorganik 1: Teori Dasar (± 12 bab)
 1 Struktur atom dan sifat periodik lanjut · 2 Ikatan ion dan energi kisi (siklus Born–Haber) · 3 Struktur padatan ionik dan aturan rasio jari-jari · 4 Ikatan kovalen, VSEPR, hibridisasi · 5 Teori orbital molekul diatom dan poliatom · 6 Simetri molekul dan teori grup dasar · 7 Ikatan logam dan teori pita · 8 Asam–basa anorganik: Brønsted, Lewis, HSAB · 9 Redoks anorganik: diagram Latimer dan Frost · 10 Kimia dalam pelarut tak berair · 11 Pengantar senyawa koordinasi · 12 Kimia hidrogen dan gas mulia

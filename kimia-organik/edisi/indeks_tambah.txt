@@ -67,3 +67,12 @@ meta
 para
 toluena
 anilina
+orbital atom
+elektron valensi
+teori orbital molekul
+orbital ikatan
+orbital antiikatan
+orde ikatan
+HOMO
+LUMO
+terlokalisasi

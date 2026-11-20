@@ -82,3 +82,21 @@ for O in [(x0 + 2.4, 3.5), (x0 + 2.4, 0.9)]:
 for x, t in [(2.6, 'penyumbang 1'), (8.5, 'penyumbang 2'), (14.3, 'hibrida resonansi')]: ax.text(x, 0.05, t, ha='center', fontsize=9, color=HJ)
 f.savefig(f'{F}/resonansi.png', bbox_inches='tight'); plt.close(f)
 print('ok')
+
+# 4. diagram orbital molekul H2 dan pi etena
+f, axs = plt.subplots(1, 2, figsize=(7.4, 3.0), dpi=220)
+def dia(ax, kiri, kanan, ik, ak, judul, nel, lab=('σ', 'σ*')):
+    ax.set_xlim(0, 10); ax.set_ylim(-3.2, 3.4); ax.axis('off')
+    for x, t in [(1.5, kiri), (8.5, kanan)]:
+        ax.plot([x - 0.7, x + 0.7], [0, 0], color=TUA, lw=2); ax.text(x, -0.55, t, ha='center', fontsize=9, color=TUA)
+        ax.annotate('', (x, 0.35), (x, -0.05), arrowprops=dict(arrowstyle='-|>', color=JT, lw=1.3))
+    for y, t, c in [(-2.0, lab[0], BIRU), (2.0, lab[1], JT)]:
+        ax.plot([4.3, 5.7], [y, y], color=c, lw=2.4); ax.text(6.0, y, t + ('  (' + ik + ')' if y < 0 else '  (' + ak + ')'), va='center', fontsize=9, color=c)
+        for x0 in (1.5, 8.5): ax.plot([x0 + (0.7 if x0 < 5 else -0.7), 4.3 if x0 < 5 else 5.7], [0, y], color=AB if False else '#9aa5b1', lw=0.8, ls=(0, (2, 2)))
+    for dx, up in [(-0.18, True), (0.18, False)]:
+        ax.annotate('', (5 + dx, -2.0 + (0.42 if up else -0.02)), (5 + dx, -2.0 + (0.02 if up else 0.42)), arrowprops=dict(arrowstyle='-|>', color=JT, lw=1.3))
+    ax.text(5, 3.15, judul, ha='center', fontsize=10, color=TUA, fontweight='bold')
+dia(axs[0], '1s (H)', '1s (H)', 'ikatan', 'antiikatan', 'H₂', 2)
+dia(axs[1], '2p (C)', '2p (C)', 'HOMO', 'LUMO', 'π etena', 2, ('π', 'π*'))
+plt.tight_layout(); f.savefig(f'{F}/om.png', bbox_inches='tight'); plt.close(f)
+print('ok om')

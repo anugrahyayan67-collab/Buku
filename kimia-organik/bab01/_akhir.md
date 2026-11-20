@@ -10,10 +10,15 @@
 | Derajat ketidakjenuhan | $(2C + 2 + N - H - X)/2$; satu derajat = satu ikatan π atau satu cincin | 1.4 |
 | Hibridisasi | 4 kelompok: sp³, 109,5°; 3 kelompok: sp², 120°; 2 kelompok: sp, 180° | 1.5 |
 | Karakter s | sp³ 25%, sp² 33%, sp 50%; makin besar, elektron makin dekat ke inti | 1.5 |
+| Elektron valensi | sama dengan angka satuan golongan: C 4, N 5, O 6, halogen 7 | 1.2 |
+| Pasangan bebas tersirat | O netral 2 ikatan → 2 pasangan bebas; N netral 3 ikatan → 1; muatan selalu digambar | 1.4 |
 | Ikatan σ dan π | tunggal 1σ; rangkap dua 1σ + 1π; rangkap tiga 1σ + 2π; π lebih lemah dan mengunci putaran | 1.6 |
+| Orbital molekul | ikatan (sefase) dan antiikatan (simpul); orde ikatan = (ikatan − antiikatan)/2; HOMO dan LUMO | 1.6 |
 | Kepolaran | atom lebih elektronegatif δ−; momen dipol $\mu = qd$; molekul polar bila vektor dipol ikatan tidak saling meniadakan | 1.7 |
 | Resonansi | hanya elektron π dan pasangan bebas yang berpindah; hibrida lebih stabil daripada setiap penyumbang | 1.8 |
 | Penyumbang penting | oktet lengkap; muatan sesedikit mungkin; muatan negatif pada atom elektronegatif | 1.8 |
+| Lima pola resonansi | pasangan bebas di samping π; pasangan bebas di samping C⁺; π di samping C⁺; π antara atom berbeda keelektronegatifan; π terkonjugasi dalam cincin | 1.8 |
+| Delokalisasi pasangan bebas | pasangan bebas di samping ikatan π terdelokalisasi; atomnya sp² dan kurang basa | 1.8 |
 | Gaya antarmolekul | dispersi (ukuran, luas kontak) < dipol–dipol < ikatan hidrogen (O–H, N–H, F–H sebagai donor) | 1.9 |
 | Kelarutan | yang serupa melarutkan yang serupa; satu –OH membawa ± 3–4 karbon ke dalam air | 1.9 |
 
@@ -98,6 +103,10 @@
 
 *Cara berpikir:* angka-angka ini hanya perkiraan. Energi ikatan rata-rata berasal dari banyak senyawa, dan panjang ikatan σ juga berubah ketika ikatan π ditambahkan. Namun kesimpulannya kokoh: ikatan π adalah bagian yang paling lemah dari ikatan rangkap.
 
+**Soal {{lokal}}.** Nitrogen asetamida mempunyai tiga ikatan dan satu pasangan bebas: empat kelompok, sehingga hitungan VSEPR memberi sp³. Namun pasangan bebas itu bersebelahan dengan C=O (pola 1), sehingga dapat terdelokalisasi. Delokalisasi hanya mungkin bila pasangan bebas menempati orbital p yang sejajar dengan orbital p karbonil. Karena delokalisasi menurunkan energi, nitrogen memilih menjadi sp² dan menempatkan pasangan bebasnya di orbital p. Etilamina tidak mempunyai ikatan π di sebelah nitrogen, sehingga tidak ada keuntungan dari delokalisasi: nitrogen tetap sp³ dan berbentuk piramida.
+
+*Cara berpikir:* hitungan kelompok elektron adalah titik awal, bukan keputusan akhir. Bila sebuah pasangan bebas dapat ikut dalam resonansi, atomnya hampir selalu sp². Bukti percobaannya: gugus amida datar, dan ikatan C–N amida tidak dapat berputar bebas.
+
 **Soal {{dip}}.** $\mu = 1{,}08 \times 3{,}336 \times 10^{-30} = 3{,}60 \times 10^{-30}$ C m. Maka
 $$
 \frac{q}{e} = \frac{\mu}{ed} = \frac{3{,}60 \times 10^{-30}\ \text{C m}}{(1{,}602 \times 10^{-19}\ \text{C})(127 \times 10^{-12}\ \text{m})} = 0{,}18 .
@@ -105,6 +114,10 @@ $$
 Bila ikatan ionik penuh, $\mu = ed = 2{,}03 \times 10^{-29}$ C m $= 6{,}1$ D.
 
 *Cara berpikir:* momen dipol terukur hanya sekitar 18% dari nilai ionik penuh. Ikatan H–Cl polar kovalen, bukan ionik, walaupun HCl terionisasi sempurna di dalam air. Ionisasi di dalam air terjadi karena air menstabilkan ion H₃O⁺ dan Cl⁻, bukan karena ikatannya sudah ionik.
+
+**Soal {{om}}.** H₂: dua elektron di σ, orde ikatan 1, energi lebih rendah daripada dua atom H. He₂: empat elektron, dua di σ dan dua di σ*. Kenaikan energi σ* sedikit lebih besar daripada penurunan energi σ, sehingga orde ikatannya nol dan dua atom He lebih stabil bila terpisah. Etena tereksitasi: satu elektron di π dan satu di π*, sehingga orde ikatan π menjadi $(1 - 1)/2 = 0$. Tanpa ikatan π, yang tersisa hanya ikatan σ, yang dapat berputar.
+
+*Cara berpikir:* inilah dasar isomerisasi cis–trans oleh cahaya. Penglihatan manusia bergantung pada proses ini: cahaya mengeksitasi elektron π pada retinal, ikatan C=C sesaat kehilangan sifat rangkapnya, dan molekul berputar dari bentuk cis menjadi trans.
 
 **Soal {{res}}.** Pasangan bebas nitrogen berpindah membentuk ikatan π C=N, dan ikatan π C=O berpindah menjadi pasangan bebas pada oksigen: CH₃C(=O)NH₂ ↔ CH₃C(–O⁻)=NH₂⁺. Struktur kedua menyumbang cukup besar, karena muatan negatifnya berada pada oksigen yang elektronegatif dan semua atom mempunyai oktet. Akibatnya ikatan C–N mempunyai sifat rangkap sebagian: lebih pendek (sekitar 135 pm, dibandingkan 147 pm untuk C–N biasa) dan sukar diputar.
 
