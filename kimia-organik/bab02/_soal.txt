@@ -1,0 +1,85 @@
+## Subbab 2.1: Gugus fungsi: bagian molekul yang bereaksi
+
+> Pakai nama menurut rekomendasi IUPAC dalam bahasa Indonesia (akhiran -ana, -ena, -una, -ol, -al, -on, -oat, -amina). Soal bertanda **[P]** dibahas di akhir bab.
+
+Sebutkan golongan senyawa: (a) CH₃CH₂OCH₃; (b) CH₃CH₂CHO; (c) CH₃COCH₂CH₃; (d) CH₃CH₂COOH; (e) CH₃COOCH₂CH₃; (f) CH₃CH₂NH₂. ||| (a) eter; (b) aldehida; (c) keton; (d) asam karboksilat; (e) ester; (f) amina
+Sebutkan semua gugus fungsi dalam aspirin, CH₃COO–C₆H₄–COOH. ||| ester, arena, asam karboksilat
+Gambar satu aldehida, satu keton, dan satu alkohol tak jenuh yang berumus C₄H₈O. ||| misalnya butanal; butan-2-on; but-3-en-1-ol
+Apa yang membedakan aldehida, keton, asam karboksilat, ester, dan amida, padahal semuanya mengandung C=O? ||| atom yang terikat pada karbon karbonil: H, C, OH, OR, N
+Mengapa gugus –OH pada cincin benzena diberi nama khusus (fenol)? ||| sifatnya berbeda dari alkohol biasa, misalnya lebih asam
+@gugus [P] Kafein, C₈H₁₀N₄O₂, dan vanilin (4-hidroksi-3-metoksibenzaldehida) adalah dua zat yang dikenal sehari-hari. Sebutkan gugus fungsi vanilin dari namanya, lalu hitung derajat ketidakjenuhan kedua senyawa. ||| vanilin: fenol, eter, aldehida, arena; DKJ vanilin (C₈H₈O₃) 5; kafein 6
+
+## Subbab 2.2: Rantai karbon dan gugus alkil
+
+Tulis rumus kondensasi gugus propil, isopropil, isobutil, *sec*-butil, dan *tert*-butil. ||| CH₃CH₂CH₂–; (CH₃)₂CH–; (CH₃)₂CHCH₂–; CH₃CH₂CH(CH₃)–; (CH₃)₃C–
+Golongkan setiap karbon dalam 2-metilbutana sebagai primer, sekunder, tersier, atau kuaterner. ||| 3 primer, 1 sekunder, 1 tersier
+Berapa hidrogen primer, sekunder, dan tersier dalam 2,3-dimetilbutana? ||| 12 primer, 0 sekunder, 2 tersier
+Gambar alkana C₅H₁₂ yang mempunyai satu karbon kuaterner. ||| 2,2-dimetilpropana, C(CH₃)₄
+Golongkan alkohol berikut sebagai primer, sekunder, atau tersier: (a) butan-1-ol; (b) butan-2-ol; (c) 2-metilpropan-2-ol. ||| (a) primer; (b) sekunder; (c) tersier
+Mengapa "*tert*-butil" diurutkan di bawah huruf "b", tetapi "isobutil" di bawah huruf "i"? ||| awalan *sec*/*tert* diabaikan; iso bagian dari nama
+Sebutkan akar nama untuk rantai 1 sampai 10 karbon. ||| met, et, prop, but, pent, heks, hept, okt, non, dek
+
+## Subbab 2.3: Tata nama alkana
+
+Namai: (a) CH₃CH(CH₃)CH₂CH₃; (b) (CH₃)₃CCH₂CH₃; (c) CH₃CH₂CH(CH₃)CH(CH₃)CH₂CH₃. ||| (a) 2-metilbutana; (b) 2,2-dimetilbutana; (c) 3,4-dimetilheksana
+Namai (CH₃)₂CHCH₂C(CH₃)₂CH₂CH₃. ||| 2,4,4-trimetilheksana
+Namai CH₃CH₂CH(CH₂CH₃)CH₂CH₂CH(CH₃)₂. ||| 5-etil-2-metilheptana
+@rantai [P] Namai CH₃CH(CH₂CH₂CH₃)CH(CH₃)CH₂CH₃. Hati-hati memilih rantai induk. ||| 3,4-dimetilheptana
+Gambar dan namai kelima isomer C₆H₁₄. ||| heksana; 2-metilpentana; 3-metilpentana; 2,2-dimetilbutana; 2,3-dimetilbutana
+Mengapa nama "4-metilpentana" salah? Berikan nama yang benar. ||| nomor tidak terkecil; 2-metilpentana
+Mengapa nama "2-propilbutana" salah? Berikan nama yang benar. ||| rantai bukan yang terpanjang; 3-metilheksana
+Mengapa nama "3,3-metiletilpentana" salah? Berikan nama yang benar. ||| cabang harus diurutkan abjad dan diberi nomor masing-masing; 3-etil-3-metilpentana
+Gambar struktur 4-isopropil-2,2-dimetiloktana. ||| (CH₃)₃CCH₂CH(CH(CH₃)₂)CH₂CH₂CH₂CH₃
+Isomer C₈H₁₈ mana yang mempunyai titik didih paling rendah, oktana atau 2,2,3,3-tetrametilbutana? Kaitkan dengan Bab 1. ||| 2,2,3,3-tetrametilbutana (lebih bulat, gaya dispersi lemah); tetapi titik lelehnya tinggi karena simetris
+
+## Subbab 2.4: Sikloalkana
+
+Namai sikloheksana yang mengikat: satu gugus etil; dua metil pada karbon yang bersebelahan; dua metil pada karbon yang sama. ||| etilsikloheksana; 1,2-dimetilsikloheksana; 1,1-dimetilsikloheksana
+Namai sikloheksana dengan metil dan isopropil pada karbon yang berseberangan (posisi 1 dan 4). ||| 1-isopropil-4-metilsikloheksana
+Hitung rumus molekul dan derajat ketidakjenuhan metilsiklopentana. ||| C₆H₁₂; 1
+Mengapa nama "1-metilsikloheksana" berlebihan? ||| satu cabang tidak perlu nomor 1
+@siklo [P] Namai sikloheksana yang mengikat gugus bromo di satu karbon, gugus etil di karbon sebelahnya, dan gugus metil di karbon keempat dari karbon bromo (posisi 1,2,4 bila bromo C1). Tentukan penomoran yang benar. ||| 1-bromo-2-etil-4-metilsikloheksana
+Apa yang dimaksud cis dan trans pada 1,2-dimetilsiklopentana? ||| kedua metil pada sisi yang sama (cis) atau berlawanan (trans) dari bidang cincin
+Berapa jumlah cincin dalam senyawa C₁₀H₁₈ yang tidak mempunyai ikatan rangkap? ||| 2
+
+## Subbab 2.5: Alkena dan alkuna
+
+Namai: (a) CH₂=CHCH₂CH₃; (b) CH₃CH=C(CH₃)CH₃; (c) HC≡CCH₂CH₃; (d) CH₃C≡CCH₃. ||| (a) but-1-ena; (b) 2-metilbut-2-ena; (c) but-1-una; (d) but-2-una
+Namai CH₂=C(CH₃)CH=CH₂ (isoprena). ||| 2-metilbuta-1,3-diena
+Namai CH₂=CHCH₂C≡CH. ||| pent-1-en-4-una
+@ena [P] Namai HC≡CCH₂CH=CH₂ dan CH₃CH=CHC≡CH. Pada senyawa mana ikatan rangkap dua mendapat nomor 1, dan mengapa? ||| pent-1-en-4-una; pent-3-en-1-una; yang pertama karena seri, rangkap dua didahulukan
+Gambar struktur 4-metilpent-2-una. ||| CH₃C≡CCH(CH₃)₂
+Gambar struktur sikloheksa-1,3-diena dan hitung derajat ketidakjenuhannya. ||| C₆H₈; 3
+Mengapa nama "2-metilbut-3-ena" salah? ||| ikatan rangkap harus bernomor terkecil; 3-metilbut-1-ena
+Apa nama umum gugus CH₂=CH– dan CH₂=CHCH₂–? ||| vinil; alil
+
+## Subbab 2.6: Senyawa dengan gugus fungsi: prioritas dan akhiran
+
+Namai: (a) CH₃CH₂CH₂OH; (b) CH₃CH(OH)CH₂CH₃; (c) CH₃CH₂CH₂CHO; (d) CH₃CH₂COCH₃. ||| (a) propan-1-ol; (b) butan-2-ol; (c) butanal; (d) butan-2-on
+Namai: (a) CH₃CH₂CH₂COOH; (b) CH₃CH₂COOCH₃; (c) CH₃CH₂CONH₂; (d) CH₃CH₂CH₂CN. ||| (a) asam butanoat; (b) metil propanoat; (c) propanamida; (d) butananitril
+Namai CH₃CH(Cl)CH₂CH₂OH. ||| 3-klorobutan-1-ol
+Namai CH₂=CHCH₂CH₂OH dan CH₃CH=CHCHO. ||| but-3-en-1-ol; but-2-enal
+Namai HOCH₂CH₂COCH₃. ||| 4-hidroksibutan-2-on
+@prior [P] Namai HOOCCH₂CH(OH)CH₂CHO. Tunjukkan langkah memilih gugus utama dan penomoran. ||| asam 3-hidroksi-5-oksopentanoat
+Namai CH₃OCH₂CH₂CH₃ dan CH₃CH₂OCH₂CH₃. ||| 1-metoksipropana; etoksietana
+Namai CH₃CH(NH₂)CH₃ dan CH₃CH(NH₂)COOH. ||| propan-2-amina; asam 2-aminopropanoat
+Gambar struktur 3-metilpentan-2-on, asam 2-bromopropanoat, dan propil etanoat. ||| CH₃COCH(CH₃)CH₂CH₃; CH₃CHBrCOOH; CH₃COOCH₂CH₂CH₃
+Gugus mana yang mendapat akhiran: (a) alkohol atau amina; (b) keton atau aldehida; (c) ester atau amida? ||| (a) alkohol; (b) aldehida; (c) ester
+Mengapa halogen tidak pernah menjadi akhiran nama? ||| halogen hanya dapat ditulis sebagai awalan (kloro-, bromo-)
+
+## Subbab 2.7: Nama umum yang masih dipakai
+
+Tulis nama IUPAC untuk: formaldehida, asetaldehida, asam format, dan asetonitril. ||| metanal; etanal; asam metanoat; etananitril
+Tulis struktur dan nama IUPAC untuk isopropil alkohol dan *tert*-butil alkohol. ||| (CH₃)₂CHOH, propan-2-ol; (CH₃)₃COH, 2-metilpropan-2-ol
+Tulis nama umum (gugus + golongan) untuk CH₃CH₂Br, CH₃OCH₂CH₃, dan CH₃CH₂COCH₃. ||| etil bromida; etil metil eter; etil metil keton
+Apa arti akar "form-" dan "aset-" dalam nama umum? ||| satu karbon; dua karbon
+Tulis nama IUPAC kloroform dan toluena. ||| triklorometana; metilbenzena
+
+## Subbab 2.8: Membaca nama menjadi struktur
+
+Gambar struktur: (a) 2,3-dimetilpentana; (b) 3-etilheks-1-ena; (c) 2-metilbutan-2-ol. ||| (a) CH₃CH(CH₃)CH(CH₃)CH₂CH₃; (b) CH₂=CHCH(C₂H₅)CH₂CH₂CH₃; (c) (CH₃)₂C(OH)CH₂CH₃
+Gambar struktur dan tulis rumus molekul 4-etil-2,2-dimetilheks-5-en-3-on. ||| (CH₃)₃CCOCH(C₂H₅)CH=CH₂; C₁₀H₁₈O
+@baca [P] Gambar struktur "2-etil-3-metilpentana". Apakah nama itu benar? Bila tidak, berikan nama yang benar. ||| CH₃CH(C₂H₅)CH(CH₃)CH₂CH₃; salah; 3,4-dimetilheksana
+Gambar struktur "1,5-dimetilsikloheksana" dan berikan nama yang benar. ||| 1,3-dimetilsikloheksana
+Gambar struktur "pent-4-en-2-ol" dan periksa namanya. ||| CH₂=CHCH₂CH(OH)CH₃; benar (OH bernomor terkecil)
+Gambar struktur "3-butanon" dan berikan nama yang benar. ||| butan-2-on

@@ -33,3 +33,20 @@ hidrofilik
 hidrofobik
 misel
 pKa
+gugus karbonil
+fenol
+IUPAC
+gugus alkil
+karbon primer
+karbon sekunder
+karbon tersier
+karbon kuaterner
+isomer struktur
+rantai induk
+sikloalkana
+stereoisomer
+vinil
+alil
+gugus utama
+urutan prioritas
+nama umum

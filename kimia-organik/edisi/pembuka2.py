@@ -41,3 +41,20 @@ ax.text(5.2, 4.55, 'dimetil eter · td −24 °C', color=TUA, fontsize=12, fontw
 ax.text(6.3, 0.75, 'C₂H₆O', color=EM, fontsize=22, fontweight='bold', family='Liberation Sans')
 simpan(1, f, 'Etanol dan dimetil eter mempunyai rumus molekul yang sama, C₂H₆O. Hanya etanol yang mempunyai ikatan O–H, sehingga molekul-molekulnya saling terkait oleh ikatan hidrogen dan mendidih 102 derajat lebih tinggi.')
 print('ok')
+
+# Bab 2: satu molekul, tiga nama (parasetamol)
+import io
+from rdkit import Chem
+from rdkit.Chem.Draw import rdMolDraw2D
+from PIL import Image
+m = Chem.MolFromSmiles('CC(=O)Nc1ccc(O)cc1')
+d = rdMolDraw2D.MolDraw2DCairo(900, 560); o = d.drawOptions(); o.bondLineWidth = 5; o.fixedFontSize = 44; o.clearBackground = False
+o.updateAtomPalette({8: (0.82, 0.33, 0.23), 7: (0.23, 0.44, 0.71), 6: (0.08, 0.24, 0.16)})
+rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing()
+img = Image.open(io.BytesIO(d.GetDrawingText()))
+f, ax = kanvas()
+ax.imshow(img, extent=[0.3, 4.9, 0.9, 3.76], zorder=2)
+for y, t, c, s in [(3.95, 'parasetamol', TUA, 20), (3.05, 'N-(4-hidroksifenil)asetamida', UT, 13), (2.3, 'asetaminofen', AB, 15), (1.55, 'C₈H₉NO₂', EM, 18)]:
+    ax.text(5.15, y, t, color=c, fontsize=s, fontweight='bold', family='Liberation Sans')
+simpan(2, f, 'Satu molekul, tiga nama: parasetamol (nama generik), N-(4-hidroksifenil)asetamida (nama IUPAC), dan asetaminofen. Nama IUPAC adalah deskripsi struktur yang dapat dibaca kembali menjadi gambar molekul.')
+print('ok2')
