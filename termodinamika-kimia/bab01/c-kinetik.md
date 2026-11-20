@@ -41,9 +41,13 @@ $$
 **Suhu adalah ukuran energi kinetik translasi rata-rata molekul.** Energi itu hanya bergantung pada suhu, tidak pada jenis gas.
 :::
 
-Inilah jawaban atas pertanyaan pembuka yang pertama. Termometer mengukur seberapa keras rata-rata molekul bergerak, dan nol mutlak adalah keadaan ketika gerak translasi itu berhenti. Persamaan (1.15) juga menjelaskan asas Avogadro: pada suhu yang sama, molekul hidrogen yang ringan dan molekul iodin yang berat membawa energi kinetik rata-rata yang sama, sehingga *N* molekul dari gas mana pun memberikan tekanan yang sama pada volume yang sama.
+Inilah jawaban atas pertanyaan pembuka yang pertama. Termometer mengukur seberapa keras rata-rata molekul bergerak, dan nol mutlak adalah keadaan ketika gerak translasi itu berhenti.
 
-Dari (1.15) kita juga dapat menghitung kelajuan molekul. Akar dari rata-rata kuadrat kelajuan, disebut **kelajuan rms** (*root mean square*), adalah
+Gambaran terakhir ini klasik, dan mekanika kuantum mengoreksinya sedikit. Partikel yang terkurung tidak pernah dapat diam sempurna di satu tempat, karena asas ketidakpastian melarangnya. Akibatnya, bahkan pada 0 K atom-atom dalam kristal masih bergetar dengan **energi titik nol** (*Kimia Kuantum*, subbab 5.4). Pada nol mutlak, zat berada di keadaan energi terendahnya, sehingga tidak ada lagi energi yang dapat diambil darinya sebagai kalor; tetapi keadaan terendah itu bukan keadaan diam. Untuk gas pada suhu biasa, koreksi ini sangat kecil, dan persamaan (1.15) tetap berlaku.
+
+Persamaan (1.15) juga menjelaskan asas Avogadro: pada suhu yang sama, molekul hidrogen yang ringan dan molekul iodin yang berat membawa energi kinetik rata-rata yang sama, sehingga *N* molekul dari gas mana pun memberikan tekanan yang sama pada volume yang sama.
+
+Dari (1.15) kita juga dapat menghitung kelajuan molekul. Bentuk pertama (1.15) memberi $\langle v^2\rangle = 3kT/m$. Mengalikan pembilang dan penyebutnya dengan $N_\text{A}$ mengubah $kN_\text{A}$ menjadi *R* dan $mN_\text{A}$ menjadi massa molar *M*. Akar dari rata-rata kuadrat kelajuan, disebut **kelajuan rms** (*root mean square*), adalah
 
 $$
 v_\text{rms} = \sqrt{\langle v^2\rangle} = \sqrt{\frac{3RT}{M}} , \qquad \text{(1.16)}
@@ -71,7 +75,7 @@ Untuk He, $M = 0{,}004\,003$ kg mol⁻¹, dan $v_\text{rms} = 1363$ m s⁻¹. En
 
 ## 1.8 Kelajuan molekul dan sebaran Maxwell–Boltzmann
 
-Kelajuan rms adalah rata-rata, tetapi molekul-molekul gas tidak bergerak dengan kelajuan yang sama. Setiap tumbukan mengubah kelajuan molekul yang bertabrakan: yang satu dipercepat, yang lain diperlambat. Akibatnya, pada setiap saat ada molekul yang hampir diam, ada yang sangat cepat, dan kebanyakan di antaranya. Seperti apa sebaran itu?
+Kelajuan rms adalah rata-rata, tetapi molekul-molekul gas tidak bergerak dengan kelajuan yang sama. Setiap tumbukan mengubah kelajuan molekul yang bertabrakan: yang satu dipercepat, yang lain diperlambat. Akibatnya, pada setiap saat ada molekul yang hampir diam, ada yang sangat cepat, dan kebanyakan berada di antara keduanya. Seperti apa sebaran itu?
 
 James Clerk Maxwell menurunkannya pada 1860, dan Ludwig Boltzmann kemudian memberinya dasar yang lebih umum. Hasilnya, peluang menemukan molekul dengan kelajuan antara *v* dan $v + dv$ adalah $f(v)\,dv$, dengan
 
@@ -184,7 +188,7 @@ $$
 \sigma = \pi d^2 , \qquad \text{(1.21)}
 $$
 
-yang disebut **penampang lintang tumbukan**. Setiap molekul lain yang pusatnya berada di dalam silinder itu akan tertabrak. Dalam satu detik, silinder itu memanjang sejauh kelajuan relatif rata-rata molekul terhadap molekul lain, $v_\text{rel} = \sqrt2\,\bar v$ (lebih besar dari $\bar v$, karena molekul lain juga bergerak). Mengalikan volume yang disapu per detik dengan banyaknya molekul per volume menghasilkan **frekuensi tumbukan**:
+yang disebut **penampang lintang tumbukan**. Setiap molekul lain yang pusatnya berada di dalam silinder itu akan tertabrak. Dalam satu detik, silinder itu memanjang sejauh kelajuan relatif rata-rata molekul terhadap molekul lain, $v_\text{rel} = \sqrt2\,\bar v$ (lebih besar dari $\bar v$, karena molekul lain juga bergerak). Mengalikan volume yang disapu per detik dengan banyaknya molekul per volume, $N/V = p/kT$ (persamaan gas ideal per molekul), menghasilkan **frekuensi tumbukan**:
 
 $$
 z = \sigma v_\text{rel}\frac{N}{V} = \frac{\sqrt2\,\sigma\bar vp}{kT} . \qquad \text{(1.22)}

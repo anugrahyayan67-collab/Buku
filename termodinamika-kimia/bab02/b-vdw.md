@@ -86,9 +86,11 @@ Pada suhu tinggi, misalnya 50 °C, isoterm CO₂ mirip hiperbola Boyle, hanya se
 
 Apa yang diramalkan persamaan van der Waals untuk keadaan ini? Gambar 2.3 menunjukkan isoterm van der Waals pada beberapa suhu. Pada suhu tinggi, kurvanya mirip isoterm Andrews. Pada suhu rendah, kurvanya membentuk **lengkungan** naik-turun, sesuatu yang tidak pernah teramati pada gas yang setimbang: di bagian tengah lengkungan, tekanan naik bila volume diperbesar, dan zat yang seperti itu akan langsung runtuh.
 
-![Gambar 2.3 Isoterm van der Waals dalam variabel tereduksi (subbab 2.6). Di atas suhu kritis isotermnya mirip isoterm gas ideal. Di bawahnya muncul lengkungan; pada zat nyata, lengkungan itu diganti oleh garis mendatar pada tekanan uap, tempat gas dan cairan hidup berdampingan.](fig/isoterm.png){width=76%}
+![Gambar 2.3 Isoterm van der Waals dalam variabel tereduksi (subbab 2.6). Di atas suhu kritis isotermnya mirip isoterm gas ideal. Di bawahnya muncul lengkungan; pada zat nyata, lengkungan itu diganti oleh garis mendatar pada tekanan uap, tempat gas dan cairan hidup berdampingan. Pada isoterm 0,85, garis putus-putus adalah konstruksi Maxwell: kedua luas berarsir sama besar, dan kedua ujung garis memberi volume molar cairan dan gas.](fig/isoterm.png){width=76%}
 
-Lengkungan itu bukan kegagalan persamaan, melainkan petunjuk. Maxwell menunjukkan bahwa garis mendatar yang sebenarnya dapat ditarik melintasi lengkungan sedemikian rupa sehingga luas yang terpotong di atas garis sama dengan luas di bawahnya (**konstruksi Maxwell**). Ujung kiri garis itu adalah volume molar cairan, ujung kanannya volume molar gas. Persamaan van der Waals, yang dibangun dari gagasan tentang gas, ternyata juga mengandung cairan.
+Lengkungan itu bukan kegagalan persamaan, melainkan petunjuk. Maxwell menunjukkan cara mengganti lengkungan dengan garis mendatar yang sebenarnya. Garis itu ditarik pada tekanan yang membuat luas yang terpotong di atas garis sama dengan luas di bawahnya (**konstruksi Maxwell**; lihat isoterm 0,85 pada Gambar 2.3). Ujung kiri garis itu adalah volume molar cairan, ujung kanannya volume molar gas, dan tingginya adalah tekanan uap yang diramalkan persamaan van der Waals. Pada $T_\text{r} = 0{,}85$, tekanan uap itu $0{,}50\,p_\text{c}$.
+
+Mengapa luasnya harus sama? Alasan lengkapnya memerlukan energi Gibbs, yang baru kita kenal di Bab 7. Gas dan cairan hanya dapat setimbang bila energi Gibbs molarnya sama (subbab 8.2), dan untuk isoterm van der Waals syarat itu ternyata setara dengan dua luas yang sama. Untuk sekarang, cukup dipegang gambarannya: pada suhu tertentu, tinggi garis mendatar itu adalah satu-satunya tekanan tempat gas dan cairan dapat hidup berdampingan. Persamaan van der Waals, yang dibangun dari gagasan tentang gas, ternyata juga mengandung cairan.
 
 ::: {.contoh}
 **Contoh 2.5 · Tiga akar persamaan van der Waals**
@@ -167,6 +169,12 @@ dan $V_\text{c} = 3b = 0{,}128$ L mol⁻¹ $= 128$ cm³ mol⁻¹.
 **Memahami hasil.** Suhu dan tekanan kritis cocok sempurna, tetapi itu tidak mengherankan: *a* dan *b* dalam Tabel 2.1 memang dihitung dari $T_\text{c}$ dan $p_\text{c}$ dengan (2.6). Ujian yang jujur adalah volume kritis, yang tidak dipakai dalam perhitungan itu. Di sini persamaan van der Waals meleset 36% (128 dibanding 94 cm³ mol⁻¹). Persamaan van der Waals menangkap gambaran kualitatif dengan sangat baik, tetapi angkanya di sekitar titik kritis hanya kasar.
 :::
 
+::: {.terapan}
+**Tabung elpiji: gas yang dijual dalam bentuk cair.** Elpiji (LPG) adalah campuran propana dan butana. Suhu kritis keduanya jauh di atas suhu kamar (propana 369,8 K, butana 425,1 K), sehingga keduanya dapat dicairkan hanya dengan menekannya, seperti CO₂ di tabung pemadam. Pada 30 °C, tekanan uap propana murni sekitar 10,8 bar dan butana murni sekitar 2,8 bar. Tekanan di dalam tabung elpiji terletak di antara keduanya, bergantung pada komposisinya (subbab 10.2 menghitungnya dengan hukum Raoult). Dalam bentuk cair, isi tabung 3 kg cukup kecil untuk dijinjing; sebagai gas pada 1 bar dan 25 °C, isi yang sama menempati sekitar 1,5 m³.
+
+Isoterm Andrews (subbab 2.4) menjelaskan dua hal yang dikenal setiap orang yang memasak. Pertama, selama masih ada cairan di dalam tabung, tekanannya hampir tidak berubah sampai isinya nyaris habis, karena keadaan di dalam tabung berada di garis mendatar isoterm. Karena itu pengukur tekanan tidak dapat memberi tahu sisa isi tabung; cara yang benar adalah menimbangnya. Kedua, bila kompor menyala besar terus-menerus, dinding tabung terasa dingin dan kadang berembun, karena cairan yang menguap menyerap kalor (subbab 4.4). Tabung juga tidak pernah diisi penuh dengan cairan. Cairan memuai bila dipanaskan, dan tanpa ruang uap tekanan di dalam tabung tertutup akan naik sangat tajam.
+:::
+
 ::: {.kuis}
 **Kuis cepat 2.5** Suhu kritis NH₃ adalah 405,5 K. Dapatkah amonia dicairkan pada suhu kamar hanya dengan menekannya? Bagaimana dengan metana ($T_\text{c} = 190{,}6$ K)?
 :::
@@ -198,7 +206,7 @@ Ada satu ujian sederhana. Pada titik kritis, faktor kompresi $Z_\text{c} = p_\te
 
 **Penyelesaian.** (a) N₂: $T = 2{,}0 \times 126{,}2 = 252$ K, $p = 2{,}0 \times 34{,}0 = 68$ bar. CO₂: $T = 608$ K, $p = 148$ bar.
 
-(b) Persamaan (2.8) dengan $T_\text{r} = p_\text{r} = 2{,}0$ diselesaikan untuk $V_\text{r}$, memberi $V_\text{r} = 2{,}48$. Karena $Z = p_\text{r}V_\text{r}Z_\text{c}/T_\text{r}$ dengan $Z_\text{c} = 3/8$ menurut van der Waals, $Z = (2{,}0)(2{,}48)(0{,}375)/2{,}0 = 0{,}93$, sama untuk kedua gas.
+(b) Persamaan (2.8) dengan $T_\text{r} = p_\text{r} = 2{,}0$ diselesaikan untuk $V_\text{r}$, memberi $V_\text{r} = 2{,}48$. Faktor kompresinya diperoleh dengan mengganti setiap variabel dengan variabel tereduksinya: $Z = pV_\text{m}/RT = (p_\text{r}p_\text{c})(V_\text{r}V_\text{c})/(RT_\text{r}T_\text{c}) = Z_\text{c}\,p_\text{r}V_\text{r}/T_\text{r}$. Dengan $Z_\text{c} = 3/8$ menurut van der Waals, $Z = (2{,}0)(2{,}48)(0{,}375)/2{,}0 = 0{,}93$, sama untuk kedua gas.
 
 **Memahami hasil.** Nitrogen pada 252 K dan 68 bar dan CO₂ pada 608 K dan 148 bar tampak sebagai keadaan yang sama sekali berbeda, tetapi keduanya menyimpang dari perilaku ideal dengan cara yang sama. Itulah kekuatan hukum keadaan sehubungan: data satu gas dapat dipakai untuk meramalkan perilaku gas lain.
 :::

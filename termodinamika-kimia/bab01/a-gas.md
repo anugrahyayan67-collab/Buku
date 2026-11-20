@@ -91,20 +91,22 @@ $$
 \theta/{}^\circ\text{C} = T/\text{K} - 273{,}15 . \qquad \text{(1.2)}
 $$
 
+Perhatikan dua angka yang mirip: 273,16 di (1.1) dan 273,15 di (1.2). Keduanya bukan salah ketik. Titik acuan skala kelvin adalah titik tripel air, yang ditetapkan 273,16 K. Titik nol skala Celsius adalah titik beku air pada tekanan 1 atm, yang sedikit lebih rendah, yaitu 273,15 K. Jadi titik tripel air terletak pada 0,01 °C. (Sejak 2019, kelvin didefinisikan melalui nilai tetap tetapan Boltzmann, tetapi kedua angka ini tetap berlaku dalam ketelitian laboratorium biasa.)
+
 Persamaan (1.1) juga menjelaskan mengapa ada **nol mutlak**. Tekanan gas tidak mungkin negatif, sehingga suhu termodinamika tidak mungkin di bawah nol. Gambaran molekul yang akan kita turunkan di subbab 1.7 memberi alasannya: suhu mengukur energi kinetik rata-rata molekul, dan energi kinetik tidak dapat lebih kecil dari nol.
 
 ::: {.contoh}
 **Contoh 1.2 · Termometer gas bervolume tetap**
 
-Sebuah termometer gas bervolume tetap menunjukkan tekanan 26,66 kPa ketika dicelupkan ke dalam sel titik tripel air. Ketika dicelupkan ke dalam air yang sedang mendidih, tekanannya 36,53 kPa. Berapa suhu air mendidih itu dalam kelvin dan derajat Celsius?
+Sebuah termometer gas bervolume tetap menunjukkan tekanan 26,66 kPa ketika dicelupkan ke dalam sel titik tripel air. Di sebuah laboratorium di Bandung, termometer itu dicelupkan ke dalam air yang sedang mendidih, dan tekanannya menjadi 36,17 kPa. Berapa suhu air mendidih itu dalam kelvin dan derajat Celsius?
 
 **Penyelesaian.** Dari persamaan (1.1):
 $$
-T = 273{,}16\ \text{K} \times \frac{36{,}53\ \text{kPa}}{26{,}66\ \text{kPa}} = 374{,}3\ \text{K} .
+T = 273{,}16\ \text{K} \times \frac{36{,}17\ \text{kPa}}{26{,}66\ \text{kPa}} = 370{,}6\ \text{K} .
 $$
-Dalam Celsius: $374{,}3 - 273{,}15 = 101{,}1$ °C.
+Dalam Celsius: $370{,}6 - 273{,}15 = 97{,}5$ °C.
 
-**Memahami hasil.** Air pada tekanan 1 atm mendidih pada 100,0 °C. Selisih 1,1 °C ini bukan salah hitung: tekanan awal 26,66 kPa belum cukup rendah, sehingga gas di dalam termometer belum berperilaku ideal sepenuhnya. Ahli termometri mengukur pada beberapa tekanan awal yang makin kecil, lalu mengekstrapolasi hasilnya ke tekanan nol. Penyimpangan gas dari perilaku ideal inilah pokok bahasan Bab 2.
+**Memahami hasil.** Air mendidih pada 100 °C hanya bila tekanan di atasnya 1 atm. Bandung terletak sekitar 770 m di atas permukaan laut, dan tekanan udaranya hanya sekitar 92 kPa, sehingga air sudah mendidih pada sekitar 97,5 °C. Subbab 8.4 akan menghitung pergeseran titik didih ini. Gas di dalam termometer juga tidak sepenuhnya ideal, tetapi pada tekanan serendah 27 kPa koreksinya hanya beberapa perseratus kelvin. Untuk ketelitian tertinggi, ahli termometri mengulang pengukuran pada tekanan awal yang makin kecil, lalu mengekstrapolasi hasilnya ke tekanan nol. Penyimpangan gas dari perilaku ideal inilah pokok bahasan Bab 2.
 :::
 
 ::: {.kuis}

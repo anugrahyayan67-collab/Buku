@@ -93,6 +93,10 @@ Suku $r^{-6}$ bertanda negatif adalah tarikan dispersi, yang melemah perlahan de
 
 Sekarang pola Gambar 2.1 dapat dipahami. Pada tekanan sedang, molekul-molekul rata-rata berada di daerah tarikan, cukup dekat untuk saling merasakan, tetapi jarang sampai bertabrakan keras. Tarikan membuat gas lebih mudah dimampatkan, dan $Z < 1$. Pada tekanan tinggi, molekul-molekul terdesak sampai ke daerah tolakan, sehingga ukuran molekul yang terbatas menjadi penentu, dan $Z > 1$. Gas yang tarikannya kuat (ε besar), seperti CO₂, menunjukkan cekungan yang dalam. Gas yang tarikannya sangat lemah, seperti helium, praktis hanya merasakan tolakan, sehingga *Z* langsung naik.
 
+::: {.awas}
+***Z* < 1 tidak berarti molekulnya mengecil.** Ukuran molekul CO₂ pada 40 bar sama dengan ukurannya pada 1 bar. Yang berubah adalah peran tarikan. Molekul yang sedang menuju dinding ditarik ke belakang oleh tetangganya, sehingga tumbukannya lebih lemah, dan pada volume yang sama tekanannya lebih kecil. Sebaliknya, *Z* > 1 tidak berarti molekul saling mendorong dari jauh. Artinya, sebagian ruang di dalam wadah sudah ditempati molekul itu sendiri, sehingga ruang geraknya lebih sempit daripada *V*. Kedua gagasan ini akan menjadi tetapan *a* dan *b* di subbab 2.3.
+:::
+
 ::: {.contoh}
 **Contoh 2.2 · Seberapa kuat tarikan antaratom argon?**
 
