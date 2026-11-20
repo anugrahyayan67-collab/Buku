@@ -41,7 +41,12 @@ def pembuka(n, out):
     s = re.sub(r'<h1( id="[^"]*") class="bab"><span class="pita">.*?</span></span><span class="judul">(.*?)</span></h1>', ganti, s, count=1, flags=re.S)
     m1 = re.search(r'<h1 id="[^"]*" class="pita1">Soal</h1>', s); m2 = re.search(r'<h1 id="[^"]*" class="pita1">Jawaban</h1>', s)
     if m1 and m2:
-        blok = re.sub(r'<p>(<strong>\d+\.</strong>)', r'<p class="si">\1', s[m1.end():m2.start()])
+        blok = s[m1.end():m2.start()]
+        # tanpa tanda tingkat kesulitan: susunannya cukup subbab lalu soal
+        blok = re.sub(r'<p><strong>(Dasar|Menengah|Tantangan[^<]*)</strong></p>\s*', '', blok)
+        blok = re.sub(r'\s*Soal dikelompokkan menurut tingkat:.*?\.(?=\s|<)', '', blok, flags=re.S)
+        blok = re.sub(r'★\s*', '', blok)
+        blok = re.sub(r'<p>(<strong>\d+\.</strong>)', r'<p class="si">\1', blok)
         mb = re.search(r'<blockquote>.*?</blockquote>', blok, re.S)   # catatan data di atas, selebar halaman
         if mb: blok = mb.group(0) + blok[:mb.start()] + blok[mb.end():]
         s = s[:m1.end()] + '<div class="soal2">' + blok + '</div>' + s[m2.start():]
