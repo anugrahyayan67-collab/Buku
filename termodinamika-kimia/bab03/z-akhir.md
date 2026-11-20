@@ -249,9 +249,17 @@ Jalan B: volume tetap dari 2,00 ke 1,00 bar (gas didinginkan), lalu tekanan teta
 
 *Cara berpikir:* pada jalan A, gas memuai pada tekanan lebih tinggi sehingga melakukan kerja lebih banyak, dan untuk membayarnya ia harus menerima kalor lebih banyak. Selisih *q* kedua jalan tepat sama dengan selisih *w*-nya (2000 J), sehingga Δ*U* sama.
 
+**Soal 29.** (a) Dalam bentuk $M\,dT + N\,dV$, $M = C_{V,\text{m}}$ dan $N = RT/V$. Maka $(\partial M/\partial V)_T = 0$, sedangkan $(\partial N/\partial T)_V = R/V$. Keduanya tidak sama, jadi tidak ada fungsi keadaan yang diferensialnya $dq_\text{rev}$. (b) Setelah dibagi *T*, $M = C_{V,\text{m}}/T$ dan $N = R/V$. Kini $(\partial M/\partial V)_T = 0$ dan $(\partial N/\partial T)_V = 0$, sehingga $dq_\text{rev}/T$ eksak. Fungsinya $f = C_{V,\text{m}}\ln T + R\ln V$ + tetapan. Pembagian dengan *T* mengubah besaran yang bergantung pada jalan menjadi fungsi keadaan. Fungsi keadaan baru ini adalah entropi, tokoh utama Bab 5 dan 6.
+
 **Soal 39.** Dari $T = pV/nR$: $(pV/nR)V^{\gamma - 1} = \text{tetap}$, sehingga $pV^\gamma = \text{tetap}$ (*n* dan *R* tetap). Dari $V = nRT/p$: $T(nRT/p)^{\gamma - 1} = \text{tetap}$, sehingga $T^\gamma p^{1 - \gamma} = \text{tetap}$, atau $Tp^{(1 - \gamma)/\gamma} = \text{tetap}$.
 
 *Cara berpikir:* ketiga bentuk adalah persamaan yang sama, dinyatakan dengan pasangan variabel yang berbeda. Pilih bentuk yang memuat dua variabel yang diketahui dalam soal; bentuk ketiga paling berguna bila tekanan diberikan, seperti pada pompa sepeda.
+
+**Soal 40.** Karena $q = 0$, $\Delta U = w$. Kerja melawan tekanan luar tetap $p_\text{ex} = p_2$ adalah $w = -p_2(V_2 - V_1) = -R(T_2 - T_1p_2/p_1)$. Menyamakannya dengan $\Delta U = \tfrac32R(T_2 - T_1)$:
+$$
+\tfrac32(T_2 - 300) = -(T_2 - 30) \quad\Rightarrow\quad T_2 = \frac{450 + 30}{2{,}5}\ \text{K} = 192\ \text{K} .
+$$
+Kerjanya $w = \tfrac32(8{,}314)(192 - 300)$ J $= -1{,}35$ kJ. Ekspansi reversibel (Contoh 3.12) mendinginkan gas sampai 119 K dan menghasilkan kerja 2,25 kJ. Ekspansi tak reversibel melakukan kerja lebih kecil, sehingga energi dalam yang terpakai lebih sedikit dan suhunya turun lebih sedikit. Ini sejalan dengan subbab 3.3: proses reversibel memberikan kerja terbesar.
 
 **Soal 44.** $x = hc\tilde\nu/kT = (1{,}4388\ \text{cm K})(323\ \text{cm}^{-1})/(298{,}15\ \text{K}) = 1{,}559$. Maka
 $$
@@ -267,11 +275,3 @@ dan $C_{V,\text{m}} = 20{,}79 + 6{,}82 = 27{,}6$ J K⁻¹ mol⁻¹.
 2. I. N. Levine, *Physical Chemistry*, edisi ke-6 (McGraw-Hill, 2009), Bab 2. Pembahasan yang teliti tentang proses reversibel dan diferensial eksak.
 3. H. B. Callen, *Thermodynamics and an Introduction to Thermostatistics*, edisi ke-2 (Wiley, 1985), Bab 1. Dasar-dasar termodinamika yang sangat jernih untuk pembaca yang ingin lebih dalam.
 4. D. A. McQuarrie dan J. D. Simon, *Molecular Thermodynamics* (University Science Books, 1999), Bab 3–4. Kapasitas kalor dari sudut molekul dan mekanika statistik.
-
-**Soal 29.** (a) Dalam bentuk $M\,dT + N\,dV$, $M = C_{V,\text{m}}$ dan $N = RT/V$. Maka $(\partial M/\partial V)_T = 0$, sedangkan $(\partial N/\partial T)_V = R/V$. Keduanya tidak sama, jadi tidak ada fungsi keadaan yang diferensialnya $dq_\text{rev}$. (b) Setelah dibagi *T*, $M = C_{V,\text{m}}/T$ dan $N = R/V$. Kini $(\partial M/\partial V)_T = 0$ dan $(\partial N/\partial T)_V = 0$, sehingga $dq_\text{rev}/T$ eksak. Fungsinya $f = C_{V,\text{m}}\ln T + R\ln V$ + tetapan. Pembagian dengan *T* mengubah besaran yang bergantung pada jalan menjadi fungsi keadaan. Fungsi keadaan baru ini adalah entropi, tokoh utama Bab 5 dan 6.
-
-**Soal 40.** Karena $q = 0$, $\Delta U = w$. Kerja melawan tekanan luar tetap $p_\text{ex} = p_2$ adalah $w = -p_2(V_2 - V_1) = -R(T_2 - T_1p_2/p_1)$. Menyamakannya dengan $\Delta U = \tfrac32R(T_2 - T_1)$:
-$$
-\tfrac32(T_2 - 300) = -(T_2 - 30) \quad\Rightarrow\quad T_2 = \frac{450 + 30}{2{,}5}\ \text{K} = 192\ \text{K} .
-$$
-Kerjanya $w = \tfrac32(8{,}314)(192 - 300)$ J $= -1{,}35$ kJ. Ekspansi reversibel (Contoh 3.12) mendinginkan gas sampai 119 K dan menghasilkan kerja 2,25 kJ. Ekspansi tak reversibel melakukan kerja lebih kecil, sehingga energi dalam yang terpakai lebih sedikit dan suhunya turun lebih sedikit. Ini sejalan dengan subbab 3.3: proses reversibel memberikan kerja terbesar.

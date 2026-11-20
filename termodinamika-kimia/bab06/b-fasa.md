@@ -86,7 +86,7 @@ Hitung perubahan entropi satu mol H₂O dari es pada −20 °C sampai uap pada 1
 | Uap 373 → 393 K: $33{,}6\ln(393{,}15/373{,}15)$ | 1,75 |
 | **Jumlah** | **159,1** |
 
-**Memahami hasil.** Dua pertiga kenaikan entropi berasal dari penguapan saja. Pemanasan air cair sejauh 100 K menyumbang sama besar dengan peleburan, karena kapasitas kalor air cair yang besar. Pola ini sama dengan argon pada Contoh 6.13: perubahan fasa, terutama penguapan, mendominasi entropi.
+**Memahami hasil.** Dua pertiga kenaikan entropi berasal dari penguapan saja. Pemanasan air cair sejauh 100 K menyumbang sama besar dengan peleburan, karena kapasitas kalor air cair yang besar. Pola yang sama akan kita lihat lagi pada argon di subbab 6.6 (Contoh 6.13): perubahan fasa, terutama penguapan, mendominasi entropi.
 :::
 
 ::: {.kuis}
@@ -147,7 +147,7 @@ Kapasitas kalor suatu padatan pada 10 K terukur 0,43 J K⁻¹ mol⁻¹. Taksir e
 
 **Penyelesaian.** Dengan hukum *T*³: $S(10\ \text{K}) = C_p(10\ \text{K})/3 = 0{,}14$ J K⁻¹ mol⁻¹.
 
-**Memahami hasil.** Sumbangan di bawah 10 K biasanya sangat kecil dibanding total entropi pada suhu kamar, sehingga kesalahan kecil dalam taksiran ini hampir tidak berpengaruh. Hukum *T*³ juga menunjukkan bahwa kapasitas kalor menuju nol pada 0 K, akibat lain dari hukum ketiga: tanpa kapasitas kalor, sistem tidak dapat lagi menyerap kalor sedikit pun untuk didinginkan lebih jauh.
+**Memahami hasil.** Sumbangan di bawah 10 K biasanya sangat kecil dibanding total entropi pada suhu kamar, sehingga kesalahan kecil dalam taksiran ini hampir tidak berpengaruh. Hukum *T*³ juga menunjukkan bahwa kapasitas kalor menuju nol pada 0 K. Ini memang harus terjadi agar entropi mutlak bermakna. Bila $C_p$ tetap bernilai berhingga sampai 0 K, integral $\int C_p\,dT/T$ akan menjadi tak hingga di batas bawah, dan entropi pada suhu kamar tidak akan mempunyai nilai tertentu.
 :::
 
 ::: {.dalam}

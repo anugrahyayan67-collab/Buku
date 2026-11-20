@@ -44,6 +44,10 @@ Hitung entropi pencampuran per mol campuran biner dengan $x_A = 0{,}10$. ||| +2,
 Berapa kerja minimum pada 298 K untuk memisahkan 2,00 mol campuran ekuimolar dua gas ideal menjadi gas-gas murni? ||| 3,44 kJ
 Jelaskan mengapa membuka sekat di antara dua bagian berisi gas nitrogen yang sama tidak menaikkan entropi. ||| molekul identik tak dapat dibedakan (paradoks Gibbs)
 
+**Tantangan ★**
+
+@oksigen [P] ★ Sebuah alat memisahkan oksigen murni dari udara yang sangat banyak ($x_{\text{O}_2} = 0{,}2095$), sehingga komposisi udara sisanya praktis tidak berubah. Berapa kerja minimum pada 298 K untuk memperoleh 1 mol O₂ murni pada 1 bar? Mengapa angka ini lebih besar daripada kerja memisahkan seluruh 1 mol udara pada Contoh 6.7? ||| 3,87 kJ per mol O₂; yang diambil hanya O₂, yang dalam udara encer
+
 
 Satu mol He dalam *V* dan satu mol Ar dalam 3*V* dicampur pada suhu sama. Hitung Δ*S*. ||| +13,9 J K⁻¹
 Hitung entropi pencampuran 3,00 mol gas yang terdiri atas tiga komponen dengan jumlah mol sama. ||| +27,4 J K⁻¹
@@ -59,6 +63,10 @@ Mengapa rumus $\Delta H/T$ tidak dapat langsung dipakai untuk pembekuan air pada
 
 @benzen [P] Satu mol benzena lewat dingin membeku pada 268,6 K (10 K di bawah titik lelehnya). Dengan $C_{p,\text{m}}$(cair) = 136,1 dan $C_{p,\text{m}}$(padat) = 122,0 J K⁻¹ mol⁻¹, hitung $\Delta S_\text{sistem}$, $\Delta H$, $\Delta S_\text{lingk}$, dan $\Delta S_\text{total}$. ||| −34,9 J K⁻¹; −9,73 kJ; +36,2 J K⁻¹; +1,3 J K⁻¹
 Hitung $\Delta S_\text{sistem}$ pembekuan 1 mol air lewat dingin pada −5 °C dengan data Contoh 6.9. ||| −21,3 J K⁻¹
+
+**Tantangan ★**
+
+@adiabeku [P] ★ Satu mol air lewat dingin pada −10 °C berada di dalam termos yang terisolasi sempurna. Air itu diguncang dan sebagian membeku dengan cepat sampai seluruh isinya mencapai 0 °C. (a) Berapa fraksi air yang membeku? (b) Hitung Δ*S* sistem. Mengapa Δ*S* ini sekaligus Δ*S* total? Pakai data Contoh 6.9. ||| (a) 0,125; (b) +0,05 J K⁻¹; sistem terisolasi, $\Delta S_\text{lingk} = 0$
 
 ## Subbab 6.5: Entropi pemanasan
 
@@ -89,6 +97,10 @@ Nyatakan hukum ketiga termodinamika. ||| entropi kristal sempurna nol pada 0 K
 Hitung entropi molar zat X pada 298 K dari data: $C_p(20\ \text{K}) = 2{,}10$ J K⁻¹ mol⁻¹ (hukum *T*³ di bawah 20 K); sumbangan padatan 20–250 K = 45,3 J K⁻¹ mol⁻¹; titik leleh 250 K, $\Delta_\text{fus}H = 2{,}30$ kJ mol⁻¹; $C_{p,\text{m}}$(cair) = 28,0 J K⁻¹ mol⁻¹. ||| 60,1 J K⁻¹ mol⁻¹
 Mengapa entropi kalorimetri CO lebih kecil daripada entropi sebenarnya? ||| entropi residu (arah CO/OC acak) tidak terukur kalorimetri
 Mengapa kapasitas kalor semua zat menuju nol pada 0 K? ||| hukum *T*³; hukum ketiga
+
+**Tantangan ★**
+
+@pauling [P] ★ Turunkan entropi residu es dengan cara Pauling. Dalam es, setiap atom O dikelilingi empat atom H: dua dekat (ikatan kovalen) dan dua jauh (ikatan hidrogen). Untuk *N* molekul ada 2*N* atom H, dan setiap atom H dapat berada di salah satu dari dua posisi pada ikatannya. (a) Tanpa aturan apa pun, berapa banyak susunan? (b) Dari 16 susunan empat atom H di sekitar satu atom O, berapa yang memenuhi syarat "tepat dua dekat"? (c) Gabungkan menjadi *W* dan hitung $S = k\ln W$ per mol. ||| (a) $2^{2N}$; (b) 6; (c) $W = (3/2)^N$, $S = R\ln\tfrac32 = 3{,}37$ J K⁻¹ mol⁻¹
 
 ## Subbab 6.7: Entropi reaksi standar
 

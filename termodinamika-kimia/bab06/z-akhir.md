@@ -88,95 +88,107 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹ dan data Tabel 6.1. Gas dianggap ideal. So
 
 **16.** Jelaskan mengapa membuka sekat di antara dua bagian berisi gas nitrogen yang sama tidak menaikkan entropi.
 
-**17.** Satu mol He dalam *V* dan satu mol Ar dalam 3*V* dicampur pada suhu sama. Hitung Δ*S*.
+**Tantangan ★**
 
-**18.** Hitung entropi pencampuran 3,00 mol gas yang terdiri atas tiga komponen dengan jumlah mol sama.
+**17.** [P] ★ Sebuah alat memisahkan oksigen murni dari udara yang sangat banyak ($x_{\text{O}_2} = 0{,}2095$), sehingga komposisi udara sisanya praktis tidak berubah. Berapa kerja minimum pada 298 K untuk memperoleh 1 mol O₂ murni pada 1 bar? Mengapa angka ini lebih besar daripada kerja memisahkan seluruh 1 mol udara pada Contoh 6.7?
+
+**18.** Satu mol He dalam *V* dan satu mol Ar dalam 3*V* dicampur pada suhu sama. Hitung Δ*S*.
+
+**19.** Hitung entropi pencampuran 3,00 mol gas yang terdiri atas tiga komponen dengan jumlah mol sama.
 
 ## Subbab 6.4: Entropi perubahan fasa
 
 **Dasar**
 
-**19.** Benzena meleleh pada 278,6 K dengan $\Delta_\text{fus}H = 9{,}87$ kJ mol⁻¹. Hitung $\Delta_\text{fus}S$.
+**20.** Benzena meleleh pada 278,6 K dengan $\Delta_\text{fus}H = 9{,}87$ kJ mol⁻¹. Hitung $\Delta_\text{fus}S$.
 
-**20.** Mengapa rumus $\Delta H/T$ tidak dapat langsung dipakai untuk pembekuan air pada −10 °C?
+**21.** Mengapa rumus $\Delta H/T$ tidak dapat langsung dipakai untuk pembekuan air pada −10 °C?
 
 **Menengah**
 
-**21.** [P] Satu mol benzena lewat dingin membeku pada 268,6 K (10 K di bawah titik lelehnya). Dengan $C_{p,\text{m}}$(cair) = 136,1 dan $C_{p,\text{m}}$(padat) = 122,0 J K⁻¹ mol⁻¹, hitung $\Delta S_\text{sistem}$, $\Delta H$, $\Delta S_\text{lingk}$, dan $\Delta S_\text{total}$.
+**22.** [P] Satu mol benzena lewat dingin membeku pada 268,6 K (10 K di bawah titik lelehnya). Dengan $C_{p,\text{m}}$(cair) = 136,1 dan $C_{p,\text{m}}$(padat) = 122,0 J K⁻¹ mol⁻¹, hitung $\Delta S_\text{sistem}$, $\Delta H$, $\Delta S_\text{lingk}$, dan $\Delta S_\text{total}$.
 
-**22.** Hitung $\Delta S_\text{sistem}$ pembekuan 1 mol air lewat dingin pada −5 °C dengan data Contoh 6.9.
+**23.** Hitung $\Delta S_\text{sistem}$ pembekuan 1 mol air lewat dingin pada −5 °C dengan data Contoh 6.9.
+
+**Tantangan ★**
+
+**24.** [P] ★ Satu mol air lewat dingin pada −10 °C berada di dalam termos yang terisolasi sempurna. Air itu diguncang dan sebagian membeku dengan cepat sampai seluruh isinya mencapai 0 °C. (a) Berapa fraksi air yang membeku? (b) Hitung Δ*S* sistem. Mengapa Δ*S* ini sekaligus Δ*S* total? Pakai data Contoh 6.9.
 
 ## Subbab 6.5: Entropi pemanasan
 
 **Dasar**
 
-**23.** Hitung Δ*S* untuk pemanasan 1 mol aluminium ($C_{p,\text{m}} = 24{,}35$ J K⁻¹ mol⁻¹) dari 298 K ke 600 K.
+**25.** Hitung Δ*S* untuk pemanasan 1 mol aluminium ($C_{p,\text{m}} = 24{,}35$ J K⁻¹ mol⁻¹) dari 298 K ke 600 K.
 
 **Menengah**
 
-**24.** Untuk N₂, $C_{p,\text{m}} = 28{,}58 + 3{,}77 \times 10^{-3}T - 0{,}50 \times 10^5/T^2$ J K⁻¹ mol⁻¹. Hitung Δ*S* untuk pemanasan 1 mol dari 298 K ke 800 K.
+**26.** Untuk N₂, $C_{p,\text{m}} = 28{,}58 + 3{,}77 \times 10^{-3}T - 0{,}50 \times 10^5/T^2$ J K⁻¹ mol⁻¹. Hitung Δ*S* untuk pemanasan 1 mol dari 298 K ke 800 K.
 
-**25.** Jelaskan arti grafis persamaan (6.5).
+**27.** Jelaskan arti grafis persamaan (6.5).
 
-**26.** Hitung Δ*S* satu mol air dari cair 50 °C ke uap 150 °C pada 1 atm (data Contoh 6.12).
+**28.** Hitung Δ*S* satu mol air dari cair 50 °C ke uap 150 °C pada 1 atm (data Contoh 6.12).
 
 **Tantangan ★**
 
-**27.** [P] ★ (Python) Kapasitas kalor suatu padatan terukur (J K⁻¹ mol⁻¹): 10 K 0,43; 20 K 3,1; 50 K 14,2; 100 K 21,5; 150 K 23,8; 200 K 24,6; 250 K 25,0; 298 K 25,3. Hitung entropi molarnya pada 298 K dengan hukum *T*³ di bawah 10 K dan aturan trapesium untuk $C_p/T$.
+**29.** [P] ★ (Python) Kapasitas kalor suatu padatan terukur (J K⁻¹ mol⁻¹): 10 K 0,43; 20 K 3,1; 50 K 14,2; 100 K 21,5; 150 K 23,8; 200 K 24,6; 250 K 25,0; 298 K 25,3. Hitung entropi molarnya pada 298 K dengan hukum *T*³ di bawah 10 K dan aturan trapesium untuk $C_p/T$.
 
 ## Subbab 6.6: Hukum ketiga dan entropi mutlak
 
 **Dasar**
 
-**28.** Kapasitas kalor suatu padatan pada 5,0 K adalah 0,052 J K⁻¹ mol⁻¹. Taksir entropinya pada 5,0 K.
+**30.** Kapasitas kalor suatu padatan pada 5,0 K adalah 0,052 J K⁻¹ mol⁻¹. Taksir entropinya pada 5,0 K.
 
-**29.** Nyatakan hukum ketiga termodinamika.
+**31.** Nyatakan hukum ketiga termodinamika.
 
 **Menengah**
 
-**30.** Hitung entropi molar zat X pada 298 K dari data: $C_p(20\ \text{K}) = 2{,}10$ J K⁻¹ mol⁻¹ (hukum *T*³ di bawah 20 K); sumbangan padatan 20–250 K = 45,3 J K⁻¹ mol⁻¹; titik leleh 250 K, $\Delta_\text{fus}H = 2{,}30$ kJ mol⁻¹; $C_{p,\text{m}}$(cair) = 28,0 J K⁻¹ mol⁻¹.
+**32.** Hitung entropi molar zat X pada 298 K dari data: $C_p(20\ \text{K}) = 2{,}10$ J K⁻¹ mol⁻¹ (hukum *T*³ di bawah 20 K); sumbangan padatan 20–250 K = 45,3 J K⁻¹ mol⁻¹; titik leleh 250 K, $\Delta_\text{fus}H = 2{,}30$ kJ mol⁻¹; $C_{p,\text{m}}$(cair) = 28,0 J K⁻¹ mol⁻¹.
 
-**31.** Mengapa entropi kalorimetri CO lebih kecil daripada entropi sebenarnya?
+**33.** Mengapa entropi kalorimetri CO lebih kecil daripada entropi sebenarnya?
 
-**32.** Mengapa kapasitas kalor semua zat menuju nol pada 0 K?
+**34.** Mengapa kapasitas kalor semua zat menuju nol pada 0 K?
+
+**Tantangan ★**
+
+**35.** [P] ★ Turunkan entropi residu es dengan cara Pauling. Dalam es, setiap atom O dikelilingi empat atom H: dua dekat (ikatan kovalen) dan dua jauh (ikatan hidrogen). Untuk *N* molekul ada 2*N* atom H, dan setiap atom H dapat berada di salah satu dari dua posisi pada ikatannya. (a) Tanpa aturan apa pun, berapa banyak susunan? (b) Dari 16 susunan empat atom H di sekitar satu atom O, berapa yang memenuhi syarat "tepat dua dekat"? (c) Gabungkan menjadi *W* dan hitung $S = k\ln W$ per mol.
 
 ## Subbab 6.7: Entropi reaksi standar
 
 **Dasar**
 
-**33.** Hitung $\Delta_\text{r}S^\circ$ untuk $2\text{H}_2(g) + \text{O}_2(g) \to 2\text{H}_2\text{O}(g)$.
+**36.** Hitung $\Delta_\text{r}S^\circ$ untuk $2\text{H}_2(g) + \text{O}_2(g) \to 2\text{H}_2\text{O}(g)$.
 
-**34.** Hitung $\Delta_\text{r}S^\circ$ untuk $\text{C}(\text{grafit}) + \text{O}_2(g) \to \text{CO}_2(g)$. Mengapa hampir nol?
+**37.** Hitung $\Delta_\text{r}S^\circ$ untuk $\text{C}(\text{grafit}) + \text{O}_2(g) \to \text{CO}_2(g)$. Mengapa hampir nol?
 
-**35.** Tebak tanda $\Delta_\text{r}S^\circ$: (a) $\text{N}_2\text{O}_4(g) \to 2\text{NO}_2(g)$; (b) $\text{Ag}^+(aq) + \text{Cl}^-(aq) \to \text{AgCl}(s)$.
+**38.** Tebak tanda $\Delta_\text{r}S^\circ$: (a) $\text{N}_2\text{O}_4(g) \to 2\text{NO}_2(g)$; (b) $\text{Ag}^+(aq) + \text{Cl}^-(aq) \to \text{AgCl}(s)$.
 
 **Menengah**
 
-**36.** Hitung $\Delta_\text{r}S^\circ$ pembakaran metana ($S_\text{m}^\circ = 186{,}26$ J K⁻¹ mol⁻¹) dengan air cair.
+**39.** Hitung $\Delta_\text{r}S^\circ$ pembakaran metana ($S_\text{m}^\circ = 186{,}26$ J K⁻¹ mol⁻¹) dengan air cair.
 
-**37.** Urutkan menurut entropi molar standar dan jelaskan: H₂O(g), H₂O(l), C(intan), I₂(g), Fe(s).
+**40.** Urutkan menurut entropi molar standar dan jelaskan: H₂O(g), H₂O(l), C(intan), I₂(g), Fe(s).
 
-**38.** Mengapa entropi pelarutan MgCl₂ negatif, sedangkan NaCl positif?
+**41.** Mengapa entropi pelarutan MgCl₂ negatif, sedangkan NaCl positif?
 
 ## Subbab 6.8: Entropi lingkungan dan entropi total
 
 **Dasar**
 
-**39.** Hitung $\Delta S_\text{total}$ untuk pembentukan air cair dari H₂ dan O₂ pada 298 K ($\Delta_\text{r}H^\circ = -285{,}83$ kJ mol⁻¹, $\Delta_\text{r}S^\circ = -163{,}3$ J K⁻¹ mol⁻¹).
+**42.** Hitung $\Delta S_\text{total}$ untuk pembentukan air cair dari H₂ dan O₂ pada 298 K ($\Delta_\text{r}H^\circ = -285{,}83$ kJ mol⁻¹, $\Delta_\text{r}S^\circ = -163{,}3$ J K⁻¹ mol⁻¹).
 
-**40.** Reaksi endoterm dengan $\Delta_\text{r}S > 0$: spontan pada suhu rendah atau tinggi?
+**43.** Reaksi endoterm dengan $\Delta_\text{r}S > 0$: spontan pada suhu rendah atau tinggi?
 
 **Menengah**
 
-**41.** Dengan $\Delta_\text{sub}H^\circ = 62{,}44$ kJ mol⁻¹ dan Tabel 6.1, taksir suhu ketika sublimasi iodin menjadi spontan dalam keadaan standar.
+**44.** Dengan $\Delta_\text{sub}H^\circ = 62{,}44$ kJ mol⁻¹ dan Tabel 6.1, taksir suhu ketika sublimasi iodin menjadi spontan dalam keadaan standar.
 
-**42.** Di atas suhu berapa sintesis amonia dalam keadaan standar berhenti spontan (Δ*H* dan Δ*S* dianggap tetap)?
+**45.** Di atas suhu berapa sintesis amonia dalam keadaan standar berhenti spontan (Δ*H* dan Δ*S* dianggap tetap)?
 
-**43.** [P] Dalam tanur tinggi, $\text{Fe}_2\text{O}_3(s) + 3\text{C}(s) \to 2\text{Fe}(s) + 3\text{CO}(g)$. Dengan $\Delta_\text{f}H^\circ$ CO −110,53 kJ mol⁻¹, $S_\text{m}^\circ$ CO 197,67 dan Fe₂O₃ 87,4 J K⁻¹ mol⁻¹, taksir suhu terendah agar reaksi ini spontan.
+**46.** [P] Dalam tanur tinggi, $\text{Fe}_2\text{O}_3(s) + 3\text{C}(s) \to 2\text{Fe}(s) + 3\text{CO}(g)$. Dengan $\Delta_\text{f}H^\circ$ CO −110,53 kJ mol⁻¹, $S_\text{m}^\circ$ CO 197,67 dan Fe₂O₃ 87,4 J K⁻¹ mol⁻¹, taksir suhu terendah agar reaksi ini spontan.
 
-**44.** Taksir titik didih normal air dari $\Delta_\text{vap}H^\circ$ dan $\Delta_\text{vap}S^\circ$ pada 298 K. Mengapa tidak tepat 373 K?
+**47.** Taksir titik didih normal air dari $\Delta_\text{vap}H^\circ$ dan $\Delta_\text{vap}S^\circ$ pada 298 K. Mengapa tidak tepat 373 K?
 
-**45.** Mengapa air tetap menguap dari gelas terbuka pada 25 °C, walaupun $\Delta S_\text{total}$ penguapan standar negatif?
+**48.** Mengapa air tetap menguap dari gelas terbuka pada 25 °C, walaupun $\Delta S_\text{total}$ penguapan standar negatif?
 
 
 # Jawaban
@@ -184,35 +196,42 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹ dan data Tabel 6.1. Gas dianggap ideal. So
 ::: {.panjang}
 | No. | Jawaban | No. | Jawaban |
 |---|---|---|---|
-| 1 | +10,1 J K⁻¹ | 24 | +29,9 J K⁻¹ |
-| 2 | +13,4 J K⁻¹ | 25 | luas di bawah kurva $C_p/T$ terhadap *T* |
-| 3 | 0; $q_\text{rev} = 0$ | 26 | +124 J K⁻¹ |
-| 4 | −2,88 J K⁻¹ | 27 | ≈ 46,6 J K⁻¹ mol⁻¹ |
-| 5 | $C_{V,\text{m}}\ln(T_2/T_1) = -R\ln(V_2/V_1)$ dan $R/C_{V,\text{m}} = \gamma - 1$ | 28 | 0,017 J K⁻¹ mol⁻¹ |
-| 6 | per mol: 0,100 → 1,00 L mol⁻¹; van der Waals 21,0; ideal 19,1 J K⁻¹ mol⁻¹ | 29 | entropi kristal sempurna nol pada 0 K |
-| 7 | +15,2 J K⁻¹ | 30 | 60,1 J K⁻¹ mol⁻¹ |
-| 8 | −26,8 J K⁻¹ | 31 | entropi residu (arah CO/OC acak) tidak terukur kalorimetri |
-| 9 | +46,4 J K⁻¹ | 32 | hukum *T*³; hukum ketiga |
-| 10 | −0,39 J K⁻¹ | 33 | −88,8 J K⁻¹ mol⁻¹ |
-| 11 | pemanasan pada tekanan tetap juga menambah volume | 34 | +2,9 J K⁻¹ mol⁻¹; jumlah mol gas tetap |
-| 12 | 13,1 kJ | 35 | (a) +; (b) − |
-| 13 | +15,9 J K⁻¹ | 36 | −243,0 J K⁻¹ mol⁻¹ |
-| 14 | +2,70 J K⁻¹ mol⁻¹ | 37 | intan < Fe < H₂O(l) < H₂O(g) < I₂(g) |
-| 15 | 3,44 kJ | 38 | Mg²⁺ kecil bermuatan 2+ menata air hidrasi sangat kuat |
-| 16 | molekul identik tak dapat dibedakan (paradoks Gibbs) | 39 | +795 J K⁻¹ mol⁻¹ |
-| 17 | +13,9 J K⁻¹ | 40 | tinggi |
-| 18 | +27,4 J K⁻¹ | 41 | 432 K |
-| 19 | +35,4 J K⁻¹ mol⁻¹ | 42 | 464 K |
-| 20 | proses tak reversibel; kalornya bukan $q_\text{rev}$ | 43 | ≈ 907 K |
-| 21 | −34,9 J K⁻¹; −9,73 kJ; +36,2 J K⁻¹; +1,3 J K⁻¹ | 44 | 370 K; Δ*H*, Δ*S* berubah dengan suhu |
-| 22 | −21,3 J K⁻¹ | 45 | tekanan parsial uap di udara jauh di bawah 1 bar |
-| 23 | +17,0 J K⁻¹ |  |  |
+| 1 | +10,1 J K⁻¹ | 25 | +17,0 J K⁻¹ |
+| 2 | +13,4 J K⁻¹ | 26 | +29,9 J K⁻¹ |
+| 3 | 0; $q_\text{rev} = 0$ | 27 | luas di bawah kurva $C_p/T$ terhadap *T* |
+| 4 | −2,88 J K⁻¹ | 28 | +124 J K⁻¹ |
+| 5 | $C_{V,\text{m}}\ln(T_2/T_1) = -R\ln(V_2/V_1)$ dan $R/C_{V,\text{m}} = \gamma - 1$ | 29 | ≈ 46,6 J K⁻¹ mol⁻¹ |
+| 6 | per mol: 0,100 → 1,00 L mol⁻¹; van der Waals 21,0; ideal 19,1 J K⁻¹ mol⁻¹ | 30 | 0,017 J K⁻¹ mol⁻¹ |
+| 7 | +15,2 J K⁻¹ | 31 | entropi kristal sempurna nol pada 0 K |
+| 8 | −26,8 J K⁻¹ | 32 | 60,1 J K⁻¹ mol⁻¹ |
+| 9 | +46,4 J K⁻¹ | 33 | entropi residu (arah CO/OC acak) tidak terukur kalorimetri |
+| 10 | −0,39 J K⁻¹ | 34 | hukum *T*³; hukum ketiga |
+| 11 | pemanasan pada tekanan tetap juga menambah volume | 35 | (a) $2^{2N}$; (b) 6; (c) $W = (3/2)^N$, $S = R\ln\tfrac32 = 3{,}37$ J K⁻¹ mol⁻¹ |
+| 12 | 13,1 kJ | 36 | −88,8 J K⁻¹ mol⁻¹ |
+| 13 | +15,9 J K⁻¹ | 37 | +2,9 J K⁻¹ mol⁻¹; jumlah mol gas tetap |
+| 14 | +2,70 J K⁻¹ mol⁻¹ | 38 | (a) +; (b) − |
+| 15 | 3,44 kJ | 39 | −243,0 J K⁻¹ mol⁻¹ |
+| 16 | molekul identik tak dapat dibedakan (paradoks Gibbs) | 40 | intan < Fe < H₂O(l) < H₂O(g) < I₂(g) |
+| 17 | 3,87 kJ per mol O₂; yang diambil hanya O₂, yang dalam udara encer | 41 | Mg²⁺ kecil bermuatan 2+ menata air hidrasi sangat kuat |
+| 18 | +13,9 J K⁻¹ | 42 | +795 J K⁻¹ mol⁻¹ |
+| 19 | +27,4 J K⁻¹ | 43 | tinggi |
+| 20 | +35,4 J K⁻¹ mol⁻¹ | 44 | 432 K |
+| 21 | proses tak reversibel; kalornya bukan $q_\text{rev}$ | 45 | 464 K |
+| 22 | −34,9 J K⁻¹; −9,73 kJ; +36,2 J K⁻¹; +1,3 J K⁻¹ | 46 | ≈ 907 K |
+| 23 | −21,3 J K⁻¹ | 47 | 370 K; Δ*H*, Δ*S* berubah dengan suhu |
+| 24 | (a) 0,125; (b) +0,05 J K⁻¹; sistem terisolasi, $\Delta S_\text{lingk} = 0$ | 48 | tekanan parsial uap di udara jauh di bawah 1 bar |
 :::
 
 
 # Pembahasan soal terpilih
 
-**Soal 21.** Jalan reversibel melalui titik leleh normal (278,6 K):
+**Soal 17.** Mengambil 1 mol O₂ dari udara yang sangat banyak sama dengan menaikkan tekanan O₂ itu secara isotermal dari tekanan parsialnya, $x_{\text{O}_2}p$, ke *p*. Menurut (6.3), entropinya berubah $\Delta S = -R\ln(1/0{,}2095) = -13{,}0$ J K⁻¹. Udara sisanya hampir tidak berubah, sehingga entropinya praktis tetap. Kerja minimum adalah kerja isotermal reversibel yang membuang kalor $T|\Delta S|$ ke lingkungan:
+$$
+w_\text{min} = RT\ln\frac{1}{0{,}2095} = (8{,}314)(298{,}15)(1{,}563)\ \text{J} = 3{,}87\ \text{kJ} .
+$$
+Contoh 6.7 memisahkan **semua** komponen 1 mol udara dan memperoleh 0,21 mol O₂, dengan kerja 1,4 kJ. Di sini kita memperoleh satu mol penuh O₂, yang dalam udara tersebar encer; makin encer suatu komponen, makin mahal mengumpulkannya per mol. Itulah sebabnya memulihkan zat yang sangat encer, misalnya logam berharga dari air laut atau CO₂ dari udara (sekitar 0,04%), selalu boros energi.
+
+**Soal 22.** Jalan reversibel melalui titik leleh normal (278,6 K):
 $$
 \Delta S_\text{sistem} = 136{,}1\ln\frac{278{,}6}{268{,}6} - \frac{9870}{278{,}6} + 122{,}0\ln\frac{268{,}6}{278{,}6} = 4{,}98 - 35{,}43 - 4{,}46 = -34{,}9\ \text{J K}^{-1} .
 $$
@@ -220,7 +239,15 @@ Entalpi dengan jalan yang sama: $\Delta H = (136{,}1)(10) - 9870 - (122{,}0)(10)
 
 *Cara berpikir:* setiap langkah jalan khayal harus reversibel dan menghubungkan keadaan awal dan akhir yang **sama** dengan proses sebenarnya. Untuk lingkungan, sebaliknya, yang dipakai adalah kalor **sebenarnya** yang dilepaskan pada suhu sebenarnya.
 
-**Soal 27.** Di bawah 10 K: $S(10) = C_p(10)/3 = 0{,}14$ J K⁻¹ mol⁻¹. Di atas 10 K, integral $\int C_p/T\,dT$ dihitung dengan aturan trapesium:
+**Soal 24.** (a) Termos terisolasi dan tekanannya tetap, sehingga $\Delta H = 0$. Bayangkan jalan dua langkah: seluruh air dipanaskan sebagai cairan dari −10 °C ke 0 °C, lalu sebagian *f* membeku pada 0 °C. Kalor untuk langkah pertama harus disediakan oleh langkah kedua: $f(6010) = (75{,}3)(10)$, sehingga $f = 0{,}125$. Hanya seperdelapan air yang membeku.
+
+Untuk (b), kita memakai jalan yang sama:
+$$
+\Delta S = 75{,}3\ln\frac{273{,}15}{263{,}15} - \frac{(0{,}125)(6010)}{273{,}15} = 2{,}81 - 2{,}76 = +0{,}05\ \text{J K}^{-1} .
+$$
+Karena termos terisolasi, tidak ada kalor yang masuk ke lingkungan, $\Delta S_\text{lingk} = 0$, dan Δ*S* sistem adalah Δ*S* total. Hasilnya positif, sesuai dengan (5.12): proses spontan dalam sistem terisolasi menaikkan entropi. Nilainya kecil karena keadaan akhir (es dan air pada 0 °C) sudah setimbang; yang tak reversibel hanyalah awal prosesnya.
+
+**Soal 29.** Di bawah 10 K: $S(10) = C_p(10)/3 = 0{,}14$ J K⁻¹ mol⁻¹. Di atas 10 K, integral $\int C_p/T\,dT$ dihitung dengan aturan trapesium:
 
 ```python
 import numpy as np
@@ -232,7 +259,13 @@ print(S)          # 46.6 J/(K mol)
 
 *Cara berpikir:* hampir separuh entropi berasal dari daerah di bawah 100 K, walaupun kapasitas kalor di sana kecil, karena dibagi suhu yang kecil pula. Karena itulah pengukuran kalorimetri entropi harus dimulai pada suhu serendah mungkin. Dengan titik data yang lebih rapat, hasilnya lebih teliti; aturan trapesium dengan titik yang jarang cenderung meleset beberapa persen.
 
-**Soal 43.** $\Delta_\text{r}H^\circ = 3(-110{,}53) - (-824{,}2) = +492{,}6$ kJ mol⁻¹. $\Delta_\text{r}S^\circ = 2(27{,}28) + 3(197{,}67) - 87{,}4 - 3(5{,}74) = +543{,}0$ J K⁻¹ mol⁻¹. Suhu peralihan:
+**Soal 35.** (a) Setiap atom H mempunyai dua posisi, sehingga ada $2^{2N}$ susunan. (b) Dari $2^4 = 16$ susunan empat atom H di sekitar satu O, yang tepat dua dekat ada $\binom{4}{2} = 6$. Jadi hanya 6/16 susunan yang memenuhi syarat untuk setiap O. (c) Pauling menganggap syarat di setiap O bebas satu sama lain, sehingga
+$$
+W = 2^{2N}\left(\frac{6}{16}\right)^N = \left(4 \times \frac{6}{16}\right)^N = \left(\frac32\right)^N , \qquad S = k\ln W = Nk\ln\frac32 .
+$$
+Per mol, $S = R\ln\tfrac32 = 3{,}37$ J K⁻¹ mol⁻¹, sangat dekat dengan entropi residu es terukur, sekitar 3,4 J K⁻¹ mol⁻¹ (Contoh 5.16).
+
+**Soal 46.** $\Delta_\text{r}H^\circ = 3(-110{,}53) - (-824{,}2) = +492{,}6$ kJ mol⁻¹. $\Delta_\text{r}S^\circ = 2(27{,}28) + 3(197{,}67) - 87{,}4 - 3(5{,}74) = +543{,}0$ J K⁻¹ mol⁻¹. Suhu peralihan:
 $$
 T = \frac{\Delta_\text{r}H^\circ}{\Delta_\text{r}S^\circ} = \frac{492\,600}{543{,}0} = 907\ \text{K} \approx 630\ ^\circ\text{C} .
 $$

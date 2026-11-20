@@ -44,7 +44,7 @@ Entropi adalah fungsi keadaan, sehingga perubahannya hanya bergantung pada keada
 
 Kuncinya adalah memilih jalan reversibel yang paling mudah dihitung. Karena hasilnya tidak bergantung pada jalan, kita boleh memecah perubahan menjadi dua langkah sederhana: ubah volume pada suhu tetap, lalu ubah suhu pada volume tetap.
 
-Untuk gas ideal, kita dapat melakukan ini dengan hukum pertama secara langsung. Pada proses reversibel, $dq_\text{rev} = dU - dw = nC_{V,\text{m}}\,dT + p\,dV$. Membagi dengan *T* dan memakai $p/T = nR/V$:
+Untuk gas ideal, kita dapat melakukan ini dengan hukum pertama secara langsung. Pada proses reversibel, $dq_\text{rev} = dU - dw$. Untuk gas ideal $dU = nC_{V,\text{m}}\,dT$ (subbab 3.8), dan kerja reversibelnya $dw = -p\,dV$, sehingga $dq_\text{rev} = nC_{V,\text{m}}\,dT + p\,dV$. Membagi dengan *T* dan memakai $p/T = nR/V$:
 
 $$
 dS = \frac{dq_\text{rev}}{T} = nC_{V,\text{m}}\frac{dT}{T} + nR\frac{dV}{V} .
@@ -86,7 +86,7 @@ Satu mol nitrogen ($C_{V,\text{m}} = \tfrac52R$) dibawa dari 300 K dan 10,0 L ke
 :::
 
 ::: {.dalam}
-**Lebih dalam: entropi gas nyata.** Penurunan (6.1) memakai $p/T = nR/V$, yang hanya berlaku untuk gas ideal. Untuk zat apa pun, Bab 7 akan menunjukkan (dengan hubungan Maxwell) bahwa
+**Lebih dalam: entropi gas nyata.** Penurunan (6.1) memakai $p/T = nR/V$, yang hanya berlaku untuk gas ideal. Untuk zat apa pun, subbab 7.6 akan menunjukkan (dengan hubungan Maxwell) bahwa
 $$
 dS = \frac{C_V}{T}dT + \left(\frac{\partial p}{\partial T}\right)_V dV .
 $$

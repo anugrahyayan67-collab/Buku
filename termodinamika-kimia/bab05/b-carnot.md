@@ -13,14 +13,14 @@ Siklus Carnot terdiri atas empat tahap reversibel (Gambar 5.1):
 
 Mengapa siklus ini harus terdiri atas dua isoterm dan dua adiabat? Karena hanya dua jenis proses itu yang reversibel ketika mesin bekerja di antara dua suhu saja. Pertukaran kalor hanya reversibel bila suhu gas sama dengan suhu sumber, jadi harus terjadi secara isotermal. Peralihan dari satu suhu ke suhu lain harus terjadi tanpa pertukaran kalor sama sekali, jadi harus adiabatik.
 
-Rencana pembelajaran mata kuliah ini meminta kita menghitung semua besaran energi pada setiap tahap. Mari kita lakukan dengan satu contoh lengkap.
+Untuk melihat siklus ini bekerja, mari kita hitung semua besaran energi pada setiap tahap dalam satu contoh lengkap.
 
 ::: {.contoh}
 **Contoh 5.4 · Siklus Carnot dalam angka**
 
 Satu mol gas ideal monoatomik ($C_{V,\text{m}} = \tfrac32R$, $C_{p,\text{m}} = \tfrac52R$) menjalani siklus Carnot antara $T_\text{h} = 500$ K dan $T_\text{c} = 300$ K. Volume di titik A adalah 10,0 L dan di titik B 20,0 L. (a) Hitung volume di titik C dan D. (b) Hitung *q*, *w*, Δ*U*, Δ*H*, dan $\Delta S = q_\text{rev}/T$ pada setiap tahap. (c) Hitung efisiensinya.
 
-**Rencana.** Tahap isotermal: Δ*U* = Δ*H* = 0 dan $q = -w = nRT\ln(V_\text{akhir}/V_\text{awal})$. Tahap adiabatik: *q* = 0, $w = \Delta U = nC_{V,\text{m}}\Delta T$, $\Delta H = nC_{p,\text{m}}\Delta T$. Volume ujung adiabat diperoleh dari $TV^{\gamma - 1}$ tetap, dengan $\gamma - 1 = 2/3$.
+**Rencana.** Tahap isotermal: Δ*U* = Δ*H* = 0 dan $q = -w = nRT\ln(V_\text{akhir}/V_\text{awal})$. Tahap adiabatik: *q* = 0, $w = \Delta U = nC_{V,\text{m}}\Delta T$, $\Delta H = nC_{p,\text{m}}\Delta T$. Volume ujung adiabat diperoleh dari $TV^{\gamma - 1}$ tetap, dengan $\gamma - 1 = 2/3$. Kolom terakhir, $q_\text{rev}/T$, kita beri lambang Δ*S* sekarang saja; arti besaran ini baru dijelaskan di subbab 5.6.
 
 **Penyelesaian.** (a) Dari B ke C: $V_\text{C} = V_\text{B}(T_\text{h}/T_\text{c})^{1/(\gamma - 1)} = 20{,}0 \times (5/3)^{3/2} = 43{,}0$ L. Dengan cara yang sama dari A ke D: $V_\text{D} = 10{,}0 \times (5/3)^{3/2} = 21{,}5$ L. Perhatikan bahwa $V_\text{C}/V_\text{D} = V_\text{B}/V_\text{A} = 2$.
 
@@ -79,8 +79,6 @@ $$
 Penurunan di atas memakai gas ideal, tetapi kesimpulannya berlaku untuk **semua** mesin reversibel. Carnot membuktikannya dengan penalaran yang indah: misalkan ada mesin reversibel A yang lebih efisien daripada mesin reversibel B. Jalankan A sebagai mesin dan B secara terbalik sebagai kulkas, dengan kerja dari A menggerakkan B. Karena A lebih efisien, ia memerlukan kalor lebih sedikit dari sumber panas untuk menghasilkan kerja yang dibutuhkan B, sedangkan B mengembalikan lebih banyak kalor ke sumber panas. Hasil bersihnya: kalor berpindah dari penampung dingin ke penampung panas tanpa kerja dari luar. Itu melanggar pernyataan Clausius. Jadi semua mesin reversibel yang bekerja di antara dua suhu yang sama harus mempunyai efisiensi yang sama, dan mesin tak reversibel selalu kurang efisien.
 
 Persamaan (5.3) mempunyai dua akibat praktis. Pertama, efisiensi hanya dapat mendekati 1 bila $T_\text{c}$ jauh lebih kecil daripada $T_\text{h}$; karena itu pembangkit listrik berusaha memakai uap sepanas mungkin. Kedua, karena penampung dingin praktis selalu lingkungan pada sekitar 300 K, tidak ada mesin kalor yang dapat membuang nol kalor; efisiensi 100% hanya mungkin bila $T_\text{c} = 0$ K, yang tidak dapat dicapai.
-
-Persamaan (5.2) juga memberi cara untuk **mendefinisikan** suhu tanpa mengacu pada zat tertentu: perbandingan dua suhu sama dengan perbandingan kalor yang dipertukarkan mesin Carnot di antara keduanya. Kelvin memakai gagasan ini untuk mendefinisikan **skala suhu termodinamika**, yang ternyata sama dengan skala termometer gas ideal dari Bab 1.
 
 ::: {.contoh}
 **Contoh 5.5 · Batas efisiensi pembangkit listrik**

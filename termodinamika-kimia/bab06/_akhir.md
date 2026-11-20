@@ -44,6 +44,12 @@
 
 # Pembahasan soal terpilih
 
+**Soal {{oksigen}}.** Mengambil 1 mol O₂ dari udara yang sangat banyak sama dengan menaikkan tekanan O₂ itu secara isotermal dari tekanan parsialnya, $x_{\text{O}_2}p$, ke *p*. Menurut (6.3), entropinya berubah $\Delta S = -R\ln(1/0{,}2095) = -13{,}0$ J K⁻¹. Udara sisanya hampir tidak berubah, sehingga entropinya praktis tetap. Kerja minimum adalah kerja isotermal reversibel yang membuang kalor $T|\Delta S|$ ke lingkungan:
+$$
+w_\text{min} = RT\ln\frac{1}{0{,}2095} = (8{,}314)(298{,}15)(1{,}563)\ \text{J} = 3{,}87\ \text{kJ} .
+$$
+Contoh 6.7 memisahkan **semua** komponen 1 mol udara dan memperoleh 0,21 mol O₂, dengan kerja 1,4 kJ. Di sini kita memperoleh satu mol penuh O₂, yang dalam udara tersebar encer; makin encer suatu komponen, makin mahal mengumpulkannya per mol. Itulah sebabnya memulihkan zat yang sangat encer, misalnya logam berharga dari air laut atau CO₂ dari udara (sekitar 0,04%), selalu boros energi.
+
 **Soal {{benzen}}.** Jalan reversibel melalui titik leleh normal (278,6 K):
 $$
 \Delta S_\text{sistem} = 136{,}1\ln\frac{278{,}6}{268{,}6} - \frac{9870}{278{,}6} + 122{,}0\ln\frac{268{,}6}{278{,}6} = 4{,}98 - 35{,}43 - 4{,}46 = -34{,}9\ \text{J K}^{-1} .
@@ -51,6 +57,14 @@ $$
 Entalpi dengan jalan yang sama: $\Delta H = (136{,}1)(10) - 9870 - (122{,}0)(10) = -9729$ J. Lingkungan pada 268,6 K: $\Delta S_\text{lingk} = 9729/268{,}6 = +36{,}2$ J K⁻¹. Total $+1{,}3$ J K⁻¹: pembekuan spontan.
 
 *Cara berpikir:* setiap langkah jalan khayal harus reversibel dan menghubungkan keadaan awal dan akhir yang **sama** dengan proses sebenarnya. Untuk lingkungan, sebaliknya, yang dipakai adalah kalor **sebenarnya** yang dilepaskan pada suhu sebenarnya.
+
+**Soal {{adiabeku}}.** (a) Termos terisolasi dan tekanannya tetap, sehingga $\Delta H = 0$. Bayangkan jalan dua langkah: seluruh air dipanaskan sebagai cairan dari −10 °C ke 0 °C, lalu sebagian *f* membeku pada 0 °C. Kalor untuk langkah pertama harus disediakan oleh langkah kedua: $f(6010) = (75{,}3)(10)$, sehingga $f = 0{,}125$. Hanya seperdelapan air yang membeku.
+
+Untuk (b), kita memakai jalan yang sama:
+$$
+\Delta S = 75{,}3\ln\frac{273{,}15}{263{,}15} - \frac{(0{,}125)(6010)}{273{,}15} = 2{,}81 - 2{,}76 = +0{,}05\ \text{J K}^{-1} .
+$$
+Karena termos terisolasi, tidak ada kalor yang masuk ke lingkungan, $\Delta S_\text{lingk} = 0$, dan Δ*S* sistem adalah Δ*S* total. Hasilnya positif, sesuai dengan (5.12): proses spontan dalam sistem terisolasi menaikkan entropi. Nilainya kecil karena keadaan akhir (es dan air pada 0 °C) sudah setimbang; yang tak reversibel hanyalah awal prosesnya.
 
 **Soal {{numerik}}.** Di bawah 10 K: $S(10) = C_p(10)/3 = 0{,}14$ J K⁻¹ mol⁻¹. Di atas 10 K, integral $\int C_p/T\,dT$ dihitung dengan aturan trapesium:
 
@@ -63,6 +77,12 @@ print(S)          # 46.6 J/(K mol)
 ```
 
 *Cara berpikir:* hampir separuh entropi berasal dari daerah di bawah 100 K, walaupun kapasitas kalor di sana kecil, karena dibagi suhu yang kecil pula. Karena itulah pengukuran kalorimetri entropi harus dimulai pada suhu serendah mungkin. Dengan titik data yang lebih rapat, hasilnya lebih teliti; aturan trapesium dengan titik yang jarang cenderung meleset beberapa persen.
+
+**Soal {{pauling}}.** (a) Setiap atom H mempunyai dua posisi, sehingga ada $2^{2N}$ susunan. (b) Dari $2^4 = 16$ susunan empat atom H di sekitar satu O, yang tepat dua dekat ada $\binom{4}{2} = 6$. Jadi hanya 6/16 susunan yang memenuhi syarat untuk setiap O. (c) Pauling menganggap syarat di setiap O bebas satu sama lain, sehingga
+$$
+W = 2^{2N}\left(\frac{6}{16}\right)^N = \left(4 \times \frac{6}{16}\right)^N = \left(\frac32\right)^N , \qquad S = k\ln W = Nk\ln\frac32 .
+$$
+Per mol, $S = R\ln\tfrac32 = 3{,}37$ J K⁻¹ mol⁻¹, sangat dekat dengan entropi residu es terukur, sekitar 3,4 J K⁻¹ mol⁻¹ (Contoh 5.16).
 
 **Soal {{tanur}}.** $\Delta_\text{r}H^\circ = 3(-110{,}53) - (-824{,}2) = +492{,}6$ kJ mol⁻¹. $\Delta_\text{r}S^\circ = 2(27{,}28) + 3(197{,}67) - 87{,}4 - 3(5{,}74) = +543{,}0$ J K⁻¹ mol⁻¹. Suhu peralihan:
 $$

@@ -156,7 +156,7 @@ $$
 $$
 Tidak ada kalor yang dipertukarkan (gas ideal, suhu tetap), sehingga $\Delta S_\text{lingk} = 0$ dan $\Delta S_\text{total} = +11{,}5$ J K⁻¹.
 
-**Memahami hasil.** Pencampuran gas spontan sepenuhnya karena entropi, tanpa sumbangan energi sama sekali. Rumus umumnya, $\Delta S_\text{campur} = -nR\sum x_J\ln x_J$, akan diturunkan di Bab 10 dan menjadi dasar termodinamika larutan.
+**Memahami hasil.** Pencampuran gas spontan sepenuhnya karena entropi, tanpa sumbangan energi sama sekali. Rumus umumnya, $\Delta S_\text{campur} = -nR\sum x_J\ln x_J$, diturunkan dengan dua cara: dari rumus Boltzmann di akhir subbab 5.8 dan dari ekspansi gas di subbab 6.3. Rumus ini menjadi dasar termodinamika larutan di Bab 10.
 :::
 
 ::: {.awas}
