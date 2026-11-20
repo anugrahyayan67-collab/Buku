@@ -107,3 +107,17 @@ ax.text(2.0, 0.75, 'bau daun mint', ha='center', color=UT, fontsize=14, family='
 ax.text(6.3, 0.75, 'bau biji jintan', ha='center', color=EM, fontsize=14, family='Liberation Sans')
 simpan(5, f, 'Dua enansiomer karvon: rumus, titik didih, dan kerapatannya sama, tetapi (R)-karvon berbau daun mint dan (S)-karvon berbau biji jintan, karena reseptor bau di hidung bersifat kiral.')
 print('ok5')
+
+# Bab 6: profil energi reaksi dua langkah dengan intermediet
+from scipy.interpolate import CubicSpline as _CS
+f, ax = kanvas()
+X6 = [0.5, 1.6, 3.0, 4.2, 5.3, 6.6, 7.8]; Y6 = [1.6, 1.8, 4.2, 2.7, 3.6, 0.9, 0.8]
+xx = np.linspace(0.5, 7.8, 700); yy = _CS(X6, Y6, bc_type='clamped')(xx)
+for lw, al in [(14, .06), (8, .12), (3.5, 1)]: ax.plot(xx, yy, color=UT, lw=lw, alpha=al, solid_capstyle='round')
+ax.add_patch(Circle((4.2, 2.7), 0.13, fc=EM, ec='none', zorder=5))
+ax.text(3.0, 4.45, '‡', ha='center', color=TUA, fontsize=24, family='DejaVu Sans'); ax.text(5.3, 3.85, '‡', ha='center', color=TUA, fontsize=20, family='DejaVu Sans')
+ax.text(4.2, 2.2, 'intermediet', ha='center', color=EM, fontsize=13, fontweight='bold', family='Liberation Sans')
+ax.text(0.6, 1.0, 'Nu:⁻  +  E⁺', color=TUA, fontsize=15, fontweight='bold', family='DejaVu Sans')
+ax.text(6.4, 0.25, 'produk', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
+simpan(6, f, 'Profil energi reaksi dua langkah: pereaksi naik melewati keadaan transisi (‡) ke intermediet, lalu melewati keadaan transisi kedua menuju produk. Mekanisme menjelaskan setiap langkah dengan gerak pasangan elektron dari nukleofil ke elektrofil.')
+print('ok6')

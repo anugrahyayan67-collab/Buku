@@ -29,7 +29,7 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 
 ## Bagian II · Reaksi
 
-### ☐ Bab 6 Mekanisme Reaksi
+### ☑ Bab 6 Mekanisme Reaksi
 6.1 Mengapa mempelajari mekanisme · 6.2 Nukleofil dan elektrofil · 6.3 Panah lengkung untuk reaksi · 6.4 Empat pola langkah polar: serangan nukleofil, gugus pergi, transfer proton, penataan ulang · 6.5 Menggabungkan pola menjadi mekanisme · 6.6 Termodinamika reaksi: ΔH°, ΔS°, ΔG°, energi disosiasi ikatan · 6.7 Kinetika: energi aktivasi dan laju · 6.8 Diagram energi, keadaan transisi, intermediet · 6.9 Postulat Hammond · 6.10 Karbokation: kestabilan, hiperkonjugasi, penataan ulang · 6.11 Karbanion dan radikal · 6.12 Mekanisme radikal: inisiasi, propagasi, terminasi · 6.13 Kendali kinetik dan termodinamik
 
 ### ☐ Bab 7 Alkil Halida: Substitusi dan Eliminasi

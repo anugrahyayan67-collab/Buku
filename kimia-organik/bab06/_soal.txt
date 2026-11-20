@@ -1,0 +1,121 @@
+## Subbab 6.1: Mengapa mempelajari mekanisme
+
+> Pakai tabel BDE di subbab 6.6; tambahan: CH₃CH₂–Cl 352, (CH₃)₃C–Br 263, CH₃–OH 385 kJ mol⁻¹. *R* = 8,314 J K⁻¹ mol⁻¹; pada 25 °C, *RT* = 2,479 kJ mol⁻¹. Soal bertanda **[P]** dibahas di akhir bab.
+
+Apa yang dimaksud mekanisme reaksi? ||| urutan langkah pemutusan dan pembentukan ikatan beserta gerak elektron
+Sebutkan tiga kegunaan mengetahui mekanisme. ||| meramalkan, mengendalikan, memahami
+Mengapa mekanisme disebut hipotesis? ||| disusun untuk menjelaskan bukti; dapat diperbaiki bila ada bukti baru
+Mengapa terbentuknya produk tertata ulang menjadi bukti adanya karbokation? ||| hanya karbokation yang mengalami penataan ulang seperti itu
+
+## Subbab 6.2: Nukleofil dan elektrofil
+
+Tentukan nukleofil atau elektrofil: H₂O, NH₃, BF₃, CH₃⁺, CN⁻, CH₂=CH₂, CH₃CH₂Br (atom C), H⁺. ||| nukleofil: H₂O, NH₃, CN⁻, CH₂=CH₂; elektrofil: BF₃, CH₃⁺, C pada CH₃CH₂Br, H⁺
+Tandai atom nukleofilik dan elektrofilik dalam metanal, H₂C=O. ||| O nukleofilik (lemah); C elektrofilik
+Apa beda istilah basa dan nukleofil? ||| basa menyerang proton; nukleofil menyerang atom lain (terutama C)
+Mengapa ikatan π alkena bersifat nukleofilik? ||| elektron π lemah terikat dan mudah dijangkau
+Dalam bahasa orbital, apa ciri nukleofil yang baik dan elektrofil yang baik? ||| HOMO tinggi; LUMO rendah
+@nuel [P] Pada asetaldehida, CH₃CHO, dan pada etil bromida, CH₃CH₂Br, sebutkan LUMO yang diisi ketika nukleofil menyerang, dan ikatan apa yang melemah akibatnya. ||| π* C=O (ikatan π C=O melemah); σ* C–Br (ikatan C–Br putus)
+Mengapa karbon pada CH₃Li nukleofilik, sedangkan karbon pada CH₃Cl elektrofilik? ||| Li kurang elektronegatif (C δ−); Cl lebih elektronegatif (C δ+)
+
+## Subbab 6.3: Panah lengkung untuk reaksi
+
+Apa arti panah berkepala penuh dan panah berkepala setengah? ||| gerak dua elektron; gerak satu elektron
+Gambar panah lengkung untuk reaksi OH⁻ dengan CH₃Br dan tunjukkan muatan produknya. ||| OH⁻ ke C; C–Br ke Br; CH₃OH dan Br⁻
+Gambar panah untuk reaksi karbokation (CH₃)₂CH⁺ dengan ion klorida. ||| satu panah dari Cl⁻ ke C⁺
+Gambar panah untuk reaksi NH₃ dengan CH₃I. Apa muatan N dalam produk? ||| N +1 (CH₃NH₃⁺) dan I⁻
+@salah [P] Seorang mahasiswa menggambar CN⁻ menyerang karbon karbonil aseton dengan satu panah saja. Apa yang salah, dan apa panah kedua yang diperlukan? ||| karbon akan lima ikatan; panah kedua dari ikatan π C=O ke O
+Mengapa panah lengkung tidak boleh berpangkal pada atom hidrogen? ||| H tidak membawa pasangan elektron bebas
+
+## Subbab 6.4: Empat pola langkah polar
+
+Sebutkan empat pola langkah polar. ||| serangan nukleofil, lepasnya gugus pergi, transfer proton, penataan ulang
+Pola apa: CH₃CH₂O⁻ + H–Cl → CH₃CH₂OH + Cl⁻? ||| transfer proton
+Pola apa: (CH₃)₂CH–CH⁺–CH₃ → (CH₃)₂C⁺–CH₂CH₃? ||| penataan ulang (geseran hidrida)
+Urutkan kemampuan gugus pergi: I⁻, Cl⁻, F⁻, OH⁻, H₂O. ||| I⁻ > Cl⁻ > H₂O > F⁻ > OH⁻ (pKa asam konjugat: HI −10, HCl −7, H₃O⁺ −1,7, HF 3,2, H₂O 15,7)
+@pergi [P] Mengapa –OH adalah gugus pergi yang buruk tetapi –OH₂⁺ adalah gugus pergi yang baik? Berapa selisih pKa asam konjugat keduanya? ||| OH⁻ basa kuat; H₂O basa lemah; selisih ± 17 satuan
+Langkah serempak apa yang menggabungkan serangan nukleofil dan lepasnya gugus pergi? ||| SN2
+Langkah serempak apa yang menggabungkan transfer proton dan lepasnya gugus pergi? ||| E2
+
+## Subbab 6.5: Menggabungkan pola menjadi mekanisme
+
+Usulkan mekanisme 2-metilpropan-2-ol + HCl → 2-kloro-2-metilpropana + H₂O. ||| protonasi OH; lepas H₂O; Cl⁻ menyerang karbokation
+Usulkan mekanisme hidrasi 2-metilpropena dalam H₂SO₄ encer menjadi 2-metilpropan-2-ol. ||| π menyerang H⁺ (karbokation tersier); H₂O menyerang; transfer proton ke H₂O
+Mengapa OH⁻ tidak boleh muncul dalam mekanisme yang berlangsung dalam H₂SO₄ pekat? ||| konsentrasi OH⁻ sangat kecil dalam asam kuat
+Mengapa karbokation tidak boleh muncul dalam mekanisme yang berlangsung dalam NaOH pekat? ||| karbokation langsung bereaksi; kondisi basa menghasilkan intermediet netral/negatif
+@mekan [P] Etil asetat dihidrolisis dalam asam encer (H₃O⁺) menjadi asam asetat dan etanol. Usulkan mekanisme dengan pola-pola dasar, dan bandingkan dengan mekanisme dalam basa (Contoh 6.5). ||| protonasi O karbonil; H₂O menyerang C; transfer proton; lepas etanol; deprotonasi
+Mengapa langkah terakhir hidrolisis ester dalam basa membuat reaksi tidak dapat berbalik? ||| transfer proton asam asetat ke etoksida, K ± 10¹¹
+
+## Subbab 6.6: Termodinamika reaksi: ΔH°, ΔS°, ΔG°, dan energi disosiasi ikatan
+
+Hitung *K* pada 25 °C untuk ΔG° = −5,7, −30, dan +15 kJ mol⁻¹. ||| 10; 1,8 × 10⁵; 2,4 × 10⁻³
+Berapa ΔG° untuk *K* = 1000 dan *K* = 0,01 pada 25 °C? ||| −17,1 kJ mol⁻¹; +11,4 kJ mol⁻¹
+Perkirakan ΔH° untuk CH₃CH₃ + Cl₂ → CH₃CH₂Cl + HCl. ||| −121 kJ mol⁻¹
+Perkirakan ΔH° untuk CH₃OH + HBr → CH₃Br + H₂O. ||| −40 kJ mol⁻¹
+Perkirakan ΔH° untuk (CH₃)₃CH + Br₂ → (CH₃)₃CBr + HBr. ||| −37 kJ mol⁻¹
+Reaksi dengan ΔH° = −50 kJ mol⁻¹ dan ΔS° = +20 J K⁻¹ mol⁻¹. Berapa ΔG° pada 25 °C? Apakah menguntungkan pada semua suhu? ||| −56 kJ mol⁻¹; ya
+@entropi [P] Reaksi penggabungan dua molekul menjadi satu (misalnya adisi) biasanya mempunyai ΔS° sekitar −120 J K⁻¹ mol⁻¹. Bila ΔH° = −80 kJ mol⁻¹, di atas suhu berapa reaksi menjadi tidak menguntungkan? ||| 667 K (± 394 °C)
+Mengapa iodinasi metana tidak berjalan, sedangkan klorinasi berjalan? ||| ΔH° iodinasi +53, klorinasi −101 kJ mol⁻¹
+
+## Subbab 6.7: Kinetika: energi aktivasi dan laju
+
+Berapa kali lebih cepat reaksi dengan *E*ₐ 60 kJ mol⁻¹ dibandingkan 80 kJ mol⁻¹ pada 25 °C (A sama)? ||| ± 3200 kali
+Reaksi dengan *E*ₐ 70 kJ mol⁻¹: berapa kali laju naik dari 0 °C ke 40 °C? ||| ± 51 kali
+Laju sebuah reaksi naik empat kali dari 25 °C ke 45 °C. Hitung *E*ₐ-nya. ||| 55 kJ mol⁻¹
+@arr [P] Reaksi orde satu dengan *A* = 10¹³ s⁻¹ dan *E*ₐ = 100 kJ mol⁻¹. Hitung *k* dan waktu paruh pada 25 °C. Berapa suhu yang diperlukan agar waktu paruhnya 1 menit? ||| 3,0 × 10⁻⁵ s⁻¹; 6,4 jam; ± 350 K (± 77 °C)
+Mengapa gula tidak terbakar di udara pada suhu kamar walaupun ΔG° sangat negatif? ||| energi aktivasi sangat tinggi
+Apakah katalis mengubah ΔG° atau *E*ₐ? ||| hanya *E*ₐ
+Berapa kali katalis mempercepat reaksi bila menurunkan *E*ₐ 11,4 kJ mol⁻¹ pada 25 °C? ||| 100 kali
+
+## Subbab 6.8: Diagram energi, keadaan transisi, dan intermediet
+
+Gambar diagram energi untuk reaksi satu langkah yang eksoterm. Tandai *E*ₐ, ΔH°, dan keadaan transisi. ||| satu bukit; produk lebih rendah
+Gambar diagram energi untuk reaksi dua langkah dengan langkah kedua sebagai penentu laju. ||| puncak kedua lebih tinggi
+Mengapa keadaan transisi tidak dapat diisolasi? ||| berada di puncak, hidup ± 10⁻¹³ s
+@diagram [P] Reaksi tiga langkah mempunyai energi relatif (kJ mol⁻¹): ‡₁ +50, I₁ +20, ‡₂ +70, I₂ +10, ‡₃ +40, produk −30. Tentukan langkah penentu laju, energi aktivasi keseluruhan, dan intermediet mana yang lebih mungkin kembali daripada maju. ||| langkah 2; 70 kJ mol⁻¹; I₁ (kembali 30, maju 50)
+Apa yang dimaksud langkah penentu laju? ||| langkah dengan keadaan transisi tertinggi
+Intermediet mana yang lebih mudah diamati: yang berada di lembah dalam atau dangkal? ||| lembah dalam (lebih stabil, hidup lebih lama)
+
+## Subbab 6.9: Postulat Hammond
+
+Nyatakan postulat Hammond. ||| keadaan transisi mirip spesi yang energinya paling dekat
+Untuk langkah sangat endoterm, keadaan transisi mirip apa? ||| produk (intermediet)
+Mengapa kestabilan karbokation dapat dipakai untuk meramalkan laju SN1? ||| pembentukan karbokation endoterm; keadaan transisi mirip karbokation
+@ham [P] Gunakan postulat Hammond untuk menjelaskan mengapa brominasi radikal lebih selektif daripada klorinasi radikal. ||| propagasi brominasi endoterm (+73), keadaan transisi mirip radikal; klorinasi hampir termonetral (+7)
+Apa arti "pereaksi yang kurang reaktif lebih selektif"? ||| langkah lebih endoterm, keadaan transisi merasakan perbedaan kestabilan produk
+
+## Subbab 6.10: Karbokation: kestabilan, hiperkonjugasi, dan penataan ulang
+
+Urutkan kestabilan: (CH₃)₃C⁺, CH₃⁺, (CH₃)₂CH⁺, CH₃CH₂⁺. ||| (CH₃)₃C⁺ > (CH₃)₂CH⁺ > CH₃CH₂⁺ > CH₃⁺
+Apa hibridisasi dan bentuk karbokation? ||| sp², datar, satu orbital p kosong
+Jelaskan hiperkonjugasi. ||| σ(C–H/C–C) tetangga menyumbangkan kerapatan ke orbital p kosong
+Mengapa karbokation benzilik primer hampir sama stabil dengan karbokation sekunder? ||| resonansi ke cincin
+Gambar penataan ulang karbokation 3,3-dimetilbutan-2-il. ||| geseran metil menghasilkan karbokation tersier
+@tata [P] 3,3-Dimetilbutan-2-ol dipanaskan dengan H₂SO₄ dan menghasilkan 2,3-dimetilbut-2-ena. Usulkan mekanisme, termasuk penataan ulang. ||| protonasi OH, lepas H₂O (C⁺ sekunder), geseran metil (C⁺ tersier), lepas H⁺ ke H₂O
+Apakah karbokation 2-metilbutan-2-il akan mengalami penataan ulang? ||| tidak; sudah tersier
+Urutkan kestabilan: CH₃OCH₂⁺, CH₂=CHCH₂⁺, CH₃CH₂CH₂⁺. ||| CH₃OCH₂⁺ > CH₂=CHCH₂⁺ > CH₃CH₂CH₂⁺
+
+## Subbab 6.11: Karbanion dan radikal
+
+Urutkan kestabilan karbanion: CH₃⁻, (CH₃)₃C⁻, CH₃CH₂⁻. ||| CH₃⁻ > CH₃CH₂⁻ > (CH₃)₃C⁻
+Mengapa ion asetilida lebih stabil daripada ion etil? ||| karakter s orbital sp
+Urutkan kestabilan radikal: CH₃·, (CH₃)₂CH·, CH₂=CHCH₂·, CH₃CH₂·. ||| CH₂=CHCH₂· > (CH₃)₂CH· > CH₃CH₂· > CH₃·
+Berapa selisih kestabilan radikal tersier dan radikal metil menurut BDE C–H? ||| 39 kJ mol⁻¹
+@inter [P] Mengapa gugus alkil menstabilkan karbokation dan radikal tetapi mengganggu karbanion? ||| alkil memberi elektron; menolong spesi kekurangan elektron, mengganggu spesi kelebihan elektron
+Apa bentuk karbanion alkil sederhana dan karbanion yang distabilkan resonansi (misalnya enolat)? ||| piramida (± sp³); datar (sp²)
+
+## Subbab 6.12: Mekanisme radikal: inisiasi, propagasi, terminasi
+
+Tulis langkah inisiasi, propagasi, dan terminasi klorinasi etana. ||| Cl₂ → 2Cl·; Cl· + C₂H₆ → HCl + C₂H₅·; C₂H₅· + Cl₂ → C₂H₅Cl + Cl·; terminasi penggabungan radikal
+Hitung ΔH° kedua langkah propagasi klorinasi etana. ||| +(421 − 432) = −11; 242 − 352 = −110 kJ mol⁻¹
+Mengapa satu radikal yang terbentuk pada inisiasi dapat menghasilkan ribuan molekul produk? ||| propagasi menghasilkan kembali radikal pembawa rantai
+@rantai [P] Mengapa fluorinasi metana berbahaya dan iodinasi tidak berjalan? Hitung ΔH° langkah propagasi pertama masing-masing (H–F 570, H–I 298 kJ mol⁻¹). ||| F: −131 (sangat eksoterm, tak terkendali); I: +141 (rantai tidak berputar)
+Mengapa sedikit etana terbentuk pada klorinasi metana? ||| terminasi ·CH₃ + ·CH₃
+Bagaimana antioksidan menghentikan reaksi berantai? ||| memberi H, membentuk radikal stabil yang tidak melanjutkan rantai
+
+## Subbab 6.13: Kendali kinetik dan termodinamik
+
+Apa beda produk kinetik dan produk termodinamik? ||| terbentuk paling cepat lawan paling stabil
+Pada kondisi apa produk kinetik dominan? ||| suhu rendah, reaksi tidak berbalik
+@kendali [P] Pada adisi HBr ke buta-1,3-diena, produk 1,2 dominan pada 0 °C tetapi produk 1,4 dominan pada 40 °C. Jelaskan dengan diagram energi, dan mengapa produk 1,4 lebih stabil. ||| 1,2 penghalang lebih rendah; pada 40 °C kesetimbangan; 1,4 mempunyai C=C lebih tersubstitusi
+Bila produk kinetik dibiarkan lama pada suhu tinggi, apa yang terjadi? ||| berubah menjadi produk termodinamik
+Mengapa produk paling cepat tidak selalu produk paling stabil? ||| energi aktivasi dan ΔG° tidak saling bergantung langsung

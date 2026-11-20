@@ -142,3 +142,30 @@ resolusi
 kromatografi kiral
 model tiga titik
 talidomida
+mekanisme reaksi
+reaksi polar
+nukleofil
+elektrofil
+gugus pergi
+panah berkepala setengah
+langkah serempak
+energi disosiasi ikatan
+energi aktivasi
+persamaan Arrhenius
+diagram energi
+keadaan transisi
+intermediet
+langkah penentu laju
+postulat Hammond
+karbokation
+geseran hidrida
+penataan ulang
+karbanion
+radikal
+reaksi berantai
+inisiasi
+propagasi
+terminasi
+antioksidan
+kendali kinetik
+kendali termodinamik
