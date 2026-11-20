@@ -1,4 +1,4 @@
-Edisi Pertama dua buku karya Septian Anugrah Dwi Putra.
+Edisi Pertama tiga buku karya Septian Anugrah Dwi Putra.
 
 | Berkas | Isi |
 |---|---|
@@ -6,5 +6,7 @@ Edisi Pertama dua buku karya Septian Anugrah Dwi Putra.
 | `Fisika-Umum-Edisi-1-cetak.pdf` | Fisika Umum, versi cetak bolak-balik A4, 760 halaman |
 | `Kimia-Kuantum-Edisi-1.pdf` | Kimia Kuantum, versi digital (iPad), 1006 halaman |
 | `Kimia-Kuantum-Edisi-1-cetak.pdf` | Kimia Kuantum, versi cetak bolak-balik A4, 1020 halaman |
+| `Termodinamika-Kimia-Edisi-1.pdf` | Kimia Fisika 1: Termodinamika Kimia, versi digital (iPad), 317 halaman |
+| `Termodinamika-Kimia-Edisi-1-cetak.pdf` | Kimia Fisika 1: Termodinamika Kimia, versi cetak bolak-balik A4, 330 halaman |
 
 Versi cetak: setiap bab mulai di halaman kanan; sampul depan dan belakang adalah halaman pertama dan terakhir.

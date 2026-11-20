@@ -235,3 +235,19 @@ ax.plot(X, Y, color=NI, lw=3); ax.fill_between(X, 0.7, Y, color=SI, alpha=0.15, 
 i = np.argmin(G); bola(ax, X[i], Y[i] + 0.16, 0.16, EM, z=5)
 ax.plot([4.9, 7.9], [0.7, 0.7], color=AB, lw=1.2)
 simpan(12, f, 'Campuran N₂O₄ dan NO₂ makin cokelat ketika dipanaskan; kesetimbangan terletak di dasar lembah energi Gibbs.')
+
+# 13 sel Daniell dan baterai
+f, ax = kanvas(); rng = np.random.default_rng(13)
+for x0, c, cl in [(0.5, '#9aa3ab', '#bfe0f2'), (2.7, UN, '#8cc0e8')]:
+    ax.add_patch(Rectangle((x0, 0.6), 1.6, 2.2, fc='white', ec=NI, lw=2, alpha=0.9, zorder=2))
+    ax.add_patch(Rectangle((x0 + 0.04, 0.64), 1.52, 1.6, color=cl, alpha=0.6, zorder=3, lw=0))
+    ax.add_patch(Rectangle((x0 + 0.6, 1.0), 0.4, 2.6, color=c, ec=NI, lw=1.4, zorder=4))
+ax.plot([1.85, 1.85, 3.35, 3.35], [1.6, 3.2, 3.2, 1.6], color='#dcc9a0', lw=9, zorder=1, solid_capstyle='butt')
+ax.plot([1.3, 1.3, 3.5, 3.5], [3.6, 4.4, 4.4, 3.6], color=NI, lw=2)
+ax.add_patch(Circle((2.4, 4.4), 0.32, fc=EM, ec=NI, lw=1.8, zorder=5))
+for k in range(5): bola(ax, 1.5 + k * 0.45, 4.62, 0.06, SI, z=6)
+for i, (x, h) in enumerate([(5.0, 2.6), (6.1, 3.2), (7.2, 3.8)]):
+    ax.add_patch(FancyBboxPatch((x, 0.7), 0.8, h, boxstyle='round,pad=0,rounding_size=0.08', fc=[SI, UN, NI][i], ec=NI, lw=1.6, alpha=0.85))
+    ax.add_patch(Rectangle((x + 0.25, 0.7 + h), 0.3, 0.15, color=NI))
+    for j in range(int(h / 0.45)): ax.add_patch(Rectangle((x + 0.15, 0.9 + j * 0.45), 0.5, 0.22, color='white', alpha=0.35, lw=0))
+simpan(13, f, 'Sel Daniell mengubah energi Gibbs reaksi seng–tembaga menjadi listrik; baterai modern mengemas prinsip yang sama dengan energi spesifik makin besar.')
