@@ -18,19 +18,42 @@
 
 # Pertanyaan
 
+## Subbab 5.1: Proses spontan dan arah perubahan
+
 1. Mengapa hukum pertama tidak dapat menentukan arah suatu proses?
 2. Berikan tiga contoh proses spontan dan jelaskan masing-masing sebagai penyebaran materi atau energi.
+
+## Subbab 5.2: Mesin kalor dan pernyataan hukum kedua
+
 3. Mengapa setiap mesin kalor harus membuang sebagian kalor ke penampung yang lebih dingin?
 4. Jelaskan dengan kata-katamu sendiri kesetaraan pernyataan Kelvin dan Clausius.
+
+## Subbab 5.3: Siklus Carnot tahap demi tahap
+
 5. Mengapa siklus Carnot harus terdiri atas dua isoterm dan dua adiabat?
+
+## Subbab 5.4: Efisiensi mesin Carnot
+
 6. Mengapa efisiensi Carnot tidak bergantung pada zat kerja mesin?
 7. Mengapa pembangkit listrik berusaha memakai uap sepanas mungkin?
+
+## Subbab 5.5: Mesin pendingin dan pompa kalor
+
 8. Mengapa koefisien kinerja pompa kalor dapat lebih besar dari 1 tanpa melanggar hukum pertama?
+
+## Subbab 5.6: Entropi sebagai fungsi keadaan
+
 9. Apa yang membuat $q_\text{rev}/T$ menjadi fungsi keadaan, padahal $q_\text{rev}$ sendiri bukan?
 10. Mengapa Δ*S* sistem dihitung sepanjang jalan reversibel walaupun prosesnya tak reversibel?
 11. Mengapa penguapan mempunyai perubahan entropi jauh lebih besar daripada peleburan?
+
+## Subbab 5.7: Ketaksamaan Clausius
+
 12. Apa arti "entropi diciptakan" dalam proses tak reversibel?
 13. Jelaskan mengapa kompres dingin bekerja walaupun prosesnya endoterm.
+
+## Subbab 5.8: Entropi dan peluang: rumus Boltzmann
+
 14. Apa yang dihitung oleh *W* dalam rumus Boltzmann?
 15. Mengapa hukum kedua, walaupun bersifat statistik, tidak pernah dilanggar dalam sistem makroskopik?
 16. Apa asal entropi residu CO dan es?

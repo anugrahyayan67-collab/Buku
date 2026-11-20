@@ -23,25 +23,60 @@
 
 # Pertanyaan
 
+## Subbab 7.1: Masalah gaya sentral
+
 1. Mengapa massa tereduksi, bukan massa elektron, yang muncul dalam energi atom hidrogen? Seberapa besar perbedaannya?
+
+## Subbab 7.3: Persamaan radial dan penyelesaiannya
+
 2. Apa keuntungan satuan atom? Apa yang harus diingat ketika membandingkan hasil dengan percobaan?
 3. Mengapa elektron tidak jatuh ke inti menurut mekanika kuantum?
 4. Bagaimana syarat kenormalan menghasilkan bilangan kuantum $n$? Bandingkan dengan osilator harmonik.
+
+## Subbab 7.4: Tingkat energi dan degenerasi
+
 5. Mengapa $\ell$ dibatasi oleh $n - 1$?
 6. Mengapa energi atom hidrogen tidak bergantung pada $\ell$, padahal persamaan radialnya bergantung? Apa yang merusak degenerasi ini dalam atom lain?
+
+## Subbab 7.5: Fungsi radial dan simpul
+
 7. Apa beda simpul radial dan simpul sudut? Mengapa jumlah totalnya $n - 1$?
 8. Mengapa hanya orbital s yang mempunyai rapat elektron tidak nol di inti? Sebutkan dua akibatnya yang dapat diukur.
+
+## Subbab 7.6: Fungsi distribusi radial
+
 9. Mengapa fungsi distribusi radial 1s nol di inti, padahal $|\psi|^2$ terbesar di sana?
 10. Apa arti penembusan, dan bagaimana ia menjelaskan urutan energi s < p < d dalam atom berelektron banyak?
+
+## Subbab 7.7: Orbital kompleks dan orbital riil
+
 11. Kapan orbital kompleks lebih berguna daripada orbital riil, dan sebaliknya?
+
+## Subbab 7.8: Bentuk orbital s, p, d, f
+
 12. Mengapa tanda fungsi gelombang penting, padahal yang terukur adalah $|\psi|^2$?
 13. Mengapa ada lima orbital d dan tujuh orbital f?
+
+## Subbab 7.9: Nilai harap dan teorema virial
+
 14. Apa isi teorema virial untuk atom hidrogen? Apa artinya bagi energi kinetik elektron ketika ikatan kimia terbentuk?
+
+## Subbab 7.10: Atom mirip hidrogen
+
 15. Mengapa hukum Moseley memastikan bahwa tabel periodik harus diurutkan menurut nomor atom?
 16. Mengapa unsur berat memerlukan kimia kuantum relativistik?
+
+## Subbab 7.11: Spektrum hidrogen dan aturan seleksi
+
 17. Jelaskan aturan seleksi $\Delta\ell = \pm1$ dengan dua cara: momentum sudut foton dan paritas.
 18. Mengapa keadaan 2s hidrogen metastabil? Apa analognya dalam kimia molekul?
+
+## Subbab 7.12: Efek Zeeman
+
 19. Mengapa efek Zeeman normal selalu memberi tepat tiga garis?
+
+## Subbab 7.13: Penyelesaian numerik persamaan radial
+
 20. Apa yang dapat dilakukan metode numerik yang tidak dapat dilakukan penyelesaian eksak? Berikan dua contoh dari bab ini.
 21. Bagaimana teka-teki pembuka bab (2s dan 2p berenergi sama pada H, tetapi tidak pada Li) terjawab?
 

@@ -24,24 +24,53 @@
 
 # Pertanyaan
 
+## Subbab 8.2: Teorema variasi
+
 1. Mengapa metode variasi selalu memberi batas atas energi keadaan dasar, sedangkan teori perturbasi dapat memberi energi di bawah nilai eksak?
+
+## Subbab 8.3: Fungsi uji sederhana; atom helium dengan muatan efektif
+
 2. Sebuah fungsi uji memberi energi dengan galat 0,1%, tetapi momen dipolnya meleset 10%. Mengapa hal ini wajar?
 3. Bagaimana simetri memungkinkan kita memperoleh batas atas untuk keadaan tereksitasi, padahal fungsi keadaan dasar eksak tidak diketahui?
 4. Apa makna fisika muatan inti efektif $\zeta = 27/16$ untuk helium? Mengapa nilainya tidak 1 dan tidak 2?
 5. Mengapa fungsi hasil kali dua orbital, betapa pun baiknya orbital itu, tidak dapat memberi energi eksak helium?
+
+## Subbab 8.4: Fungsi variasi linear dan persamaan sekuler
+
 6. Apa keuntungan fungsi variasi linear dibandingkan fungsi uji nonlinear, dan apa harga yang harus dibayar?
 7. Apa makna teorema Hylleraas–Undheim–MacDonald bagi perhitungan spektrum elektronik?
+
+## Subbab 8.5: Matriks, nilai eigen, diagonalisasi (dengan Python)
+
 8. Mengapa kimia komputasi memakai fungsi Gauss, padahal fungsi eksponensial (Slater) lebih mirip orbital atom?
+
+## Subbab 8.6: Perturbasi tak terdegenerasi orde pertama
+
 9. Mengapa dua orbital yang energinya berdekatan bercampur kuat, sedangkan yang berjauhan hampir tidak bercampur? Berikan dua contoh kimia.
 10. Apa beda makna fisika koreksi energi orde pertama dan orde kedua?
+
+## Subbab 8.7: Orde kedua
+
 11. Mengapa perturbasi orde kedua selalu menurunkan energi keadaan dasar? Hubungkan dengan teorema variasi.
 12. Kapan deret perturbasi gagal, dan apa arti "deret asimtotik"?
+
+## Subbab 8.9: Perturbasi tingkat terdegenerasi; keadaan tereksitasi helium
+
 13. Mengapa keadaan triplet helium lebih rendah daripada singlet dari konfigurasi yang sama, padahal Hamiltoniannya tidak memuat spin?
 14. Mengapa dalam atom berelektron banyak orbital 2s lebih rendah daripada 2p, padahal dalam hidrogen keduanya sama?
+
+## Subbab 8.10: Efek Stark dan polarisabilitas
+
 15. Mengapa atom tidak mempunyai momen dipol permanen, sedangkan HCl mempunyai? Mengapa HCl dalam keadaan $J = 0$ hanya menunjukkan efek Stark kuadratik?
 16. Bagaimana gaya dispersi London muncul di antara dua atom yang tidak mempunyai dipol? Mengapa metode Hartree–Fock tidak dapat menangkapnya?
 17. Mengapa molekul berwarna umumnya lebih mudah dipolarisasi daripada molekul tak berwarna yang berukuran sama?
+
+## Subbab 8.11: Perturbasi bergantung waktu; interaksi radiasi dan materi
+
 18. Bagaimana syarat frekuensi Bohr $\hbar\omega = E_f - E_i$ muncul dari teori perturbasi bergantung waktu?
+
+## Subbab 8.12: Momen dipol transisi, aturan seleksi, aturan emas Fermi
+
 19. Mengapa transisi d–d kompleks oktahedral lemah, sedangkan transisi transfer muatan kuat?
 20. Bagaimana aturan emas Fermi menjelaskan bahwa keadaan tereksitasi meluruh secara eksponensial, dan bahwa garis spektrum mempunyai lebar alami?
 21. Bagaimana teka-teki pembuka bab terjawab: bagaimana energi helium dapat dihitung lebih teliti daripada diukur, tanpa pernah menyelesaikan persamaan Schrödingernya?

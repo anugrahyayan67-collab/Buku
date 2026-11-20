@@ -26,25 +26,66 @@
 
 # Pertanyaan
 
+## Subbab 4.1: Operator dan aljabarnya
+
 1. Mengapa operator besaran fisis harus linear? Apa hubungannya dengan asas superposisi?
 2. Mengapa urutan operator penting? Beri contoh dua operator yang tidak komut dan makna fisisnya.
+
+## Subbab 4.2: Fungsi eigen dan nilai eigen
+
 3. Apa arti degenerasi, dan mengapa kita bebas memilih basis dalam ruang terdegenerasi?
 4. Orbital $p_x$ dan $p_{+1}$: mana yang "benar"? Kapan masing-masing lebih berguna?
+
+## Subbab 4.3: Operator besaran fisika
+
 5. Mengapa operator momentum memuat $i$?
+
+## Subbab 4.4: Persamaan Schrödinger tiga dimensi dan banyak partikel
+
 6. Mengapa suku tolakan elektron–elektron mencegah pemisahan variabel dalam atom berelektron banyak?
+
+## Subbab 4.5: Kotak tiga dimensi dan degenerasi
+
 7. Bagaimana simetri menghasilkan degenerasi, dan bagaimana penurunan simetri memecahnya? Beri contoh kimia.
 8. Mengapa elektron dalam logam hampir tidak menyumbang pada kapasitas kalor, padahal jumlahnya sangat banyak?
+
+## Subbab 4.6: Nilai harap
+
 9. Apa beda nilai harap dan nilai eigen? Kapan keduanya sama?
 10. Dalam arti apa mekanika Newton adalah limit mekanika kuantum (teorema Ehrenfest)?
+
+## Subbab 4.7: Syarat fungsi gelombang yang dapat diterima
+
 11. Mengapa fungsi gelombang harus bernilai tunggal? Apa akibatnya bagi momentum sudut?
+
+## Subbab 4.8: Operator Hermitian
+
 12. Mengapa nilai eigen operator Hermitian riil? Mengapa fungsi eigennya ortogonal?
+
+## Subbab 4.9: Ekspansi dalam fungsi eigen; kelengkapan
+
 13. Apa arti kelengkapan, dan mengapa dalam praktik basis selalu dipotong? Apa akibatnya?
+
+## Subbab 4.10: Komutator dan pengukuran serentak
+
 14. Mengapa dua besaran yang operatornya komut dapat diukur serentak dengan tajam?
 15. Bagaimana relasi ketidakpastian Heisenberg mengikuti dari komutator?
+
+## Subbab 4.11: Paritas
+
 16. Mengapa transisi d–d dalam kompleks oktahedral lemah? Mengapa kompleks tetrahedral lebih berwarna?
+
+## Subbab 4.12: Pengukuran dan superposisi
+
 17. Apa yang terjadi pada fungsi gelombang ketika diukur? Mengapa pengukuran mengganggu?
 18. Apa beda superposisi dan campuran statistik? Mengapa benda makroskopik tidak teramati dalam superposisi?
+
+## Subbab 4.13: Postulat mekanika kuantum
+
 19. Sebutkan postulat-postulat mekanika kuantum dengan kalimatmu sendiri.
+
+## Subbab 4.14: Notasi Dirac dan representasi matriks
+
 20. Mengapa persamaan Schrödinger dapat diubah menjadi soal diagonalisasi matriks? Apa hubungannya dengan kimia komputasi?
 21. Mengapa Heisenberg dan Schrödinger, dengan matematika yang tampak berbeda, memperoleh hasil yang sama?
 

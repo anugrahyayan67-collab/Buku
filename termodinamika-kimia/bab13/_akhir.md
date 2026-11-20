@@ -16,19 +16,42 @@
 
 # Pertanyaan
 
+## Subbab 13.1: Sel elektrokimia dan reaksi setengah sel
+
 1. Mengapa memisahkan reaksi redoks ke dua elektrode memungkinkan kerja listrik diperoleh?
 2. Mengapa sel tanpa sambungan cairan lebih disukai untuk pengukuran teliti?
+
+## Subbab 13.2: Kerja listrik dan ΔG = −nFE
+
 3. Jelaskan mengapa voltmeter dapat mengukur $\Delta_\text{r}G$ lebih teliti daripada kalorimeter.
+
+## Subbab 13.3: Potensial elektrode standar
+
 4. Mengapa potensial satu elektrode tidak dapat diukur sendirian?
 5. Mengapa potensial setengah sel tidak boleh dijumlahkan langsung untuk memperoleh setengah sel baru?
+
+## Subbab 13.4: Persamaan Nernst
+
 6. Mengapa daya oksidasi permanganat bergantung pada pH?
 7. Jelaskan arti jendela kestabilan air pada Gambar 13.2.
+
+## Subbab 13.5: Potensial standar dan tetapan kesetimbangan
+
 8. Bagaimana tegangan sel dapat memberi $K_\text{sp}$ garam yang sangat sukar larut?
 9. Mengapa titrasi redoks dengan selisih *E*° besar memberi titik akhir yang tajam?
+
+## Subbab 13.6: Ketergantungan *E* pada suhu: ΔS dan ΔH dari pengukuran sel
+
 10. Bagaimana Δ*S* dan Δ*H* reaksi dapat diukur hanya dengan voltmeter dan termometer?
 11. Mengapa baterai yang dihubung pendek menjadi panas?
+
+## Subbab 13.7: Sel konsentrasi dan pengukuran pH
+
 12. Jelaskan asal tegangan sel konsentrasi.
 13. Bagaimana sinyal saraf berhubungan dengan potensial Nernst?
+
+## Subbab 13.8: Baterai dan sel bahan bakar
+
 14. Mengapa baterai litium mempunyai energi spesifik jauh lebih tinggi daripada aki timbal?
 15. Mengapa sel bahan bakar dan elektroliser nyata jauh dari batas termodinamikanya?
 

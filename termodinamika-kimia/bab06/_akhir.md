@@ -18,19 +18,39 @@
 
 # Pertanyaan
 
+## Subbab 6.1: Entropi sebagai fungsi T dan V
+
 1. Mengapa entropi gas ideal bertambah bila suhunya naik? Jelaskan dengan gambaran molekul.
 2. Tunjukkan bahwa (6.1) memberi Δ*S* = 0 untuk proses adiabatik reversibel, tetapi tidak untuk ekspansi bebas.
+
+## Subbab 6.2: Entropi sebagai fungsi T dan P
+
 3. Mengapa kenaikan tekanan pada suhu tetap menurunkan entropi gas?
+
+## Subbab 6.3: Entropi pemuaian dan pencampuran gas ideal
+
 4. Mengapa entropi pencampuran selalu positif?
 5. Apa isi paradoks Gibbs dan bagaimana penyelesaiannya?
+
+## Subbab 6.4: Entropi perubahan fasa dan aturan Trouton
+
 6. Jelaskan strategi menghitung Δ*S* untuk proses tak reversibel seperti pembekuan air lewat dingin.
 7. Mengapa titik leleh adalah suhu ketika $\Delta S_\text{total}$ untuk peleburan sama dengan nol?
+
+## Subbab 6.6: Hukum ketiga dan entropi mutlak
+
 8. Mengapa entropi dapat mempunyai nilai mutlak, sedangkan energi dalam dan entalpi tidak?
 9. Mengapa hukum *T*³ Debye diperlukan dalam pengukuran entropi mutlak?
 10. Mengapa sumbangan terbesar pada entropi suatu gas pada suhu kamar biasanya berasal dari penguapan?
+
+## Subbab 6.7: Entropi reaksi standar
+
 11. Mengapa entropi standar unsur tidak nol, padahal entalpi pembentukan standarnya nol?
 12. Jelaskan mengapa entropi molar standar Ar lebih besar daripada He.
 13. Mengapa perubahan jumlah mol gas biasanya menentukan tanda entropi reaksi?
+
+## Subbab 6.8: Entropi lingkungan dan entropi total
+
 14. Jelaskan keempat kombinasi tanda Δ*H* dan Δ*S* serta akibatnya pada spontanitas.
 15. Mengapa reaksi yang spontan pada suhu kamar, seperti sintesis amonia, tetap memerlukan katalis?
 

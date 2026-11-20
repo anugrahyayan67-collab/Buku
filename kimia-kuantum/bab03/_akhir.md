@@ -25,25 +25,54 @@
 
 # Pertanyaan
 
+## Subbab 3.2: Persamaan Schrödinger bergantung waktu
+
 1. Apa persamaan dan perbedaan antara persamaan gelombang tali dan persamaan Schrödinger? Mengapa yang kedua orde satu terhadap waktu?
 2. Mengapa fungsi gelombang harus kompleks? Apa yang terjadi jika kita memaksanya riil dalam persamaan bergantung waktu?
+
+## Subbab 3.3: Tafsir Born dan normalisasi
+
 3. Apa makna fisis $|\Psi|^2$? Mengapa $\Psi$ sendiri tidak dapat diamati?
 4. Mengapa normalisasi tetap terjaga ketika fungsi gelombang berevolusi?
+
+## Subbab 3.4: Persamaan tak bergantung waktu dan keadaan stasioner
+
 5. Dalam arti apa keadaan stasioner "stasioner", padahal fungsi gelombangnya berubah terhadap waktu?
 6. Mengapa superposisi keadaan dengan energi berbeda menghasilkan gerak? Apa hubungannya dengan spektroskopi?
+
+## Subbab 3.5: Partikel bebas dan paket gelombang
+
 7. Mengapa energi partikel bebas malar, sedangkan energi partikel terkurung diskret?
 8. Mengapa paket gelombang yang mula-mula sempit melebar lebih cepat?
+
+## Subbab 3.6: Partikel dalam kotak satu dimensi
+
 9. Jelaskan asal energi titik nol partikel dalam kotak dengan dua cara: gelombang berdiri dan asas ketidakpastian.
 10. Mengapa selang antartingkat partikel dalam kotak makin besar dengan $n$, sedangkan nada atas senar berjarak sama?
 11. Mengapa transisi $1 \to 3$ partikel dalam kotak terlarang?
 12. Apa hubungan antara banyaknya simpul dan energi? Beri contoh kimia.
+
+## Subbab 3.7: Sifat fungsi gelombang: simpul, ortogonalitas, batas klasik
+
 13. Bagaimana asas korespondensi tampak pada rapat peluang partikel dalam kotak?
+
+## Subbab 3.8: Model elektron bebas untuk poliena dan zat warna sianin
+
 14. Mengapa model elektron bebas berhasil untuk zat warna sianin, tetapi gagal untuk β-karotena?
 15. Mengapa warna titik kuantum bergantung pada ukurannya?
+
+## Subbab 3.9: Sumur potensial terhingga
+
 16. Mengapa fungsi gelombang keadaan terikat dalam sumur terhingga tidak nol di luar sumur? Apakah partikel "berada" di sana?
 17. Mengapa sumur satu dimensi sedangkal apa pun selalu mempunyai keadaan terikat?
+
+## Subbab 3.10: Tangga potensial dan pantulan
+
 18. Mengapa partikel dapat dipantulkan oleh tangga yang energinya lebih rendah dari energi partikel?
 19. Mengapa peluang transmisi dihitung dari arus peluang, bukan dari kuadrat amplitudo?
+
+## Subbab 3.12: Penerobosan dalam kimia: STM, transfer proton, inversi amonia
+
 20. Mengapa penerobosan penting untuk elektron dan atom hidrogen, tetapi hampir tidak berarti untuk atom karbon?
 21. Bagaimana STM mencapai resolusi atom?
 22. Jelaskan inversi amonia dengan bahasa superposisi dua keadaan. Mengapa molekul kiral nyata tidak berinversi?

@@ -19,19 +19,45 @@
 
 # Pertanyaan
 
+## Subbab 2.1: Penyimpangan dari gas ideal: faktor kompresi
+
 1. Apa arti fisis $Z < 1$ dan $Z > 1$? Berikan satu contoh gas dan kondisi untuk masing-masing.
+
+## Subbab 2.2: Gaya antarmolekul dan potensial Lennard-Jones
+
 2. Mengapa gaya dispersi London ada di antara semua molekul, bahkan atom gas mulia?
 3. Mengapa tolakan pada potensial Lennard-Jones naik jauh lebih curam daripada penurunan tarikan?
+
+## Subbab 2.3: Persamaan van der Waals
+
 4. Jelaskan dengan gambaran molekul asal koreksi $-a/V_\text{m}^2$ dan mengapa ia sebanding dengan kuadrat konsentrasi.
 5. Mengapa *b* dalam persamaan van der Waals kira-kira empat kali volume sebenarnya molekul dalam satu mol, bukan sama dengan volume itu?
-6. Apa yang terjadi pada perbedaan antara cairan dan gas ketika suhu mendekati suhu kritis?
-7. Mengapa bagian lengkungan isoterm van der Waals tempat tekanan naik bila volume bertambah tidak mungkin teramati?
+
+## Subbab 2.4: Isoterm gas nyata dan pencairan gas
+
+6. Mengapa bagian lengkungan isoterm van der Waals tempat tekanan naik bila volume bertambah tidak mungkin teramati?
+
+## Subbab 2.5: Titik kritis dan tetapan kritis
+
+7. Apa yang terjadi pada perbedaan antara cairan dan gas ketika suhu mendekati suhu kritis?
 8. Mengapa CO₂ dapat disimpan sebagai cairan dalam tabung pada suhu kamar, tetapi N₂ tidak?
+
+## Subbab 2.6: Hukum keadaan sehubungan
+
 9. Apa isi hukum keadaan sehubungan, dan mengapa ia berlaku lebih baik untuk Ar daripada untuk H₂O?
+
+## Subbab 2.7: Persamaan virial dan suhu Boyle
+
 10. Mengapa koefisien virial kedua berubah tanda pada suhu Boyle?
 11. Bagaimana persamaan virial dapat diturunkan dari persamaan van der Waals, dan apa keterbatasan hasilnya?
+
+## Subbab 2.9: Efek Joule–Thomson dan pencairan gas
+
 12. Mengapa gas ideal tidak mengalami efek Joule–Thomson?
 13. Mengapa helium harus didinginkan lebih dulu sebelum dapat dicairkan dengan proses Linde?
+
+## Subbab 2.10: Fluida superkritis
+
 14. Apa yang membuat fluida superkritis menjadi pelarut yang dapat "disetel"?
 15. Jelaskan seluruh jawaban teka-teki pembuka bab ini: mengapa tabung CO₂ berisi cairan, tabung O₂ berisi gas, dan mulut tabung pemadam CO₂ membeku saat disemprotkan.
 

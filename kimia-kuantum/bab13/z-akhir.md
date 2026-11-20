@@ -22,27 +22,68 @@
 
 # Pertanyaan
 
+## Subbab 13.1: OM delokalisasi vs orbital lokal
+
 1. Mengapa orbital molekul kanonik pada umumnya tersebar ke seluruh molekul? Apakah ini bertentangan dengan gambaran ikatan lokal?
 2. Mengapa orbital antiikatan lebih tidak stabil daripada orbital ikatan stabil? Apa akibatnya bagi interaksi antara dua molekul berkulit tertutup?
+
+## Subbab 13.2: OM H₂O, NH₃, CH₄ dari simetri
+
 3. Bagaimana simetri menyederhanakan perhitungan OM? Mengapa HOMO air adalah orbital $2p$ oksigen murni?
 4. Apa yang diukur oleh spektrum fotoelektron, dan bagaimana kaitannya dengan energi orbital (teorema Koopmans)?
+
+## Subbab 13.3: Diagram Walsh dan bentuk molekul
+
 5. Jelaskan dengan diagram Walsh mengapa BeH₂ linear dan H₂O bengkok.
 6. Mengapa jumlah energi orbital adalah ukuran yang kasar untuk energi total, dan apa akibatnya bagi ramalan sudut ikatan?
+
+## Subbab 13.4: Metode Hückel
+
 7. Sebutkan empat metode Hückel. Mengapa model ini hanya bergantung pada topologi molekul?
 8. Mengapa nilai $\beta$ yang "tepat" berbeda untuk termokimia, spektroskopi UV, dan energi ionisasi?
+
+## Subbab 13.5: Etilena, alil, butadiena
+
 9. Mengapa kation, radikal, dan anion alil sama-sama distabilkan oleh delokalisasi?
+
+## Subbab 13.6: Poliena linear dan siklik: rumus umum
+
 10. Mengapa poliena yang lebih panjang menyerap pada panjang gelombang yang lebih panjang? Mengapa celahnya tidak menuju nol untuk rantai sangat panjang?
+
+## Subbab 13.7: Benzena, aromatisitas, aturan 4n + 2, antiaromatisitas
+
 11. Jelaskan aturan $4n + 2$ dengan lingkaran Frost. Mengapa siklobutadiena berbentuk persegi panjang?
 12. Bagaimana NMR membuktikan aromatisitas [18]annulena?
+
+## Subbab 13.8: Heteroatom dalam Hückel: piridina, pirola
+
 13. Mengapa piridina bersifat basa sedangkan pirola tidak? Mengapa arah momen dipol keduanya berlawanan?
+
+## Subbab 13.9: Energi delokalisasi, muatan, dan orde ikatan
+
 14. Apa itu hidrokarbon alternan, dan apa isi teorema pasangan? Mengapa azulena berwarna biru dan mempunyai momen dipol, sedangkan naftalena tidak?
 15. Bagaimana orde ikatan π dan valensi bebas dipakai untuk meramalkan panjang ikatan dan kereaktifan?
+
+## Subbab 13.10: Orbital perbatasan HOMO–LUMO dan reaktivitas
+
 16. Mengapa interaksi HOMO–LUMO mendominasi reaktivitas? Apa perbedaan antara reaksi yang dikendalikan muatan dan yang dikendalikan orbital?
+
+## Subbab 13.11: Reaksi perisiklik dan aturan Woodward–Hoffmann
+
 17. Mengapa reaksi Diels–Alder diizinkan secara termal, sedangkan dimerisasi [2 + 2] alkena memerlukan cahaya?
 18. Mengapa stereokimia penutupan cincin elektrosiklik berbalik ketika reaksi diinduksi cahaya?
+
+## Subbab 13.12: Metode Pariser–Parr–Pople
+
 19. Apa yang ditambahkan metode PPP pada model Hückel? Mengapa ia dapat memisahkan keempat keadaan tereksitasi benzena?
+
+## Subbab 13.13: Dari molekul ke padatan: rantai Hückel tak hingga dan pita energi
+
 20. Bagaimana tingkat energi molekul berubah menjadi pita energi? Apa itu massa efektif dan rapat keadaan?
 21. Mengapa rantai satu dimensi yang setengah terisi tidak stabil (ketidakstabilan Peierls)? Apa hubungannya dengan antiaromatisitas?
+
+## Subbab 13.14: Logam, semikonduktor, grafena
+
 22. Mengapa grafena tidak mempunyai celah pita, dan apa itu kerucut Dirac?
 23. Bagaimana teka-teki pembuka bab (benzena, siklobutadiena, siklooktatetraena; warna poliena; reaksi termal dan fotokimia) terjawab?
 

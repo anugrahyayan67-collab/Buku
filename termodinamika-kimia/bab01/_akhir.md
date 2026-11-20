@@ -21,20 +21,46 @@
 
 # Pertanyaan
 
+## Subbab 1.2: Kesetimbangan termal, hukum ke-nol, dan suhu
+
 1. Mengapa suhu tidak dapat didefinisikan tanpa hukum ke-nol?
 2. Apa keuntungan termometer gas dibanding termometer raksa untuk mendefinisikan skala suhu?
+
+## Subbab 1.3: Tekanan dan cara mengukurnya
+
 3. Mengapa IUPAC memilih 1 bar, bukan 1 atm, sebagai tekanan standar?
+
+## Subbab 1.4: Hukum-hukum gas: Boyle, Charles, Avogadro
+
 4. Mengapa kurva *V* terhadap *T* pada tekanan tetap untuk semua gas memotong volume nol pada suhu yang sama?
 5. Jelaskan dengan gambaran molekul mengapa tekanan gas naik bila (a) volumenya dikecilkan, (b) suhunya dinaikkan.
+
+## Subbab 1.5: Persamaan gas ideal dan pemakaiannya
+
 6. Dalam kondisi apa gas nyata paling mendekati gas ideal, dan mengapa?
 7. Mengapa satu mol gas apa pun menempati volume yang hampir sama pada suhu dan tekanan yang sama, padahal ukuran molekulnya berbeda-beda?
+
+## Subbab 1.6: Campuran gas: hukum Dalton dan fraksi mol
+
 8. Mengapa hukum Dalton hanya berlaku persis untuk gas ideal?
+
+## Subbab 1.7: Teori kinetik: dari tumbukan molekul ke tekanan
+
 9. Anggapan apa saja yang dipakai dalam penurunan $pV = \tfrac13Nm\langle v^2\rangle$? Anggapan mana yang paling mudah dilanggar?
 10. Apa arti fisis suhu menurut teori kinetik? Apakah satu molekul tunggal mempunyai suhu?
+
+## Subbab 1.8: Kelajuan molekul dan sebaran Maxwell–Boltzmann
+
 11. Mengapa sebaran Maxwell–Boltzmann bernilai nol pada kelajuan nol, padahal faktor Boltzmannya terbesar di sana?
 12. Mengapa $v_\text{rms}$ selalu lebih besar daripada $\bar v$?
+
+## Subbab 1.9: Efusi dan difusi: hukum Graham
+
 13. Mengapa balon helium mengempis lebih cepat daripada balon berisi udara?
 14. Bedakan efusi dan difusi. Mengapa hukum Graham berlaku persis untuk efusi tetapi hanya secara pendekatan untuk difusi?
+
+## Subbab 1.10: Tumbukan antarmolekul dan jalan bebas rata-rata
+
 15. Mengapa jalan bebas rata-rata bertambah bila tekanan diturunkan, padahal kelajuan molekul tidak berubah?
 16. Jelaskan dengan kata-katamu sendiri mengapa wangi parfum menyebar jauh lebih lambat daripada kelajuan molekulnya.
 

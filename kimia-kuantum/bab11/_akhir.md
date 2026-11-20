@@ -28,26 +28,67 @@
 
 # Pertanyaan
 
+## Subbab 11.1: Pendekatan Born–Oppenheimer
+
 1. Apa arti "fungsi gelombang elektronik bergantung pada posisi inti secara parametrik"? Mengapa ini memungkinkan konsep geometri molekul?
 2. Mengapa pendekatan Born–Oppenheimer gagal di dekat persilangan yang dihindari? Beri contoh proses kimia yang bergantung pada kegagalan itu.
+
+## Subbab 11.2: Gerak inti dalam molekul diatom
+
 3. Jelaskan bagaimana $R_e$, $D_e$, $\omega_e$, $B_e$, dan $\omega_ex_e$ semuanya ditentukan oleh satu fungsi $U(R)$.
+
+## Subbab 11.3: Ion molekul hidrogen H₂⁺
+
 4. Mengapa H₂⁺ penting bagi teori ikatan, padahal ia hanyalah ion yang jarang dijumpai?
 5. Mengapa persamaan Schrödinger H₂⁺ terpisah dalam koordinat eliptik, sedangkan persamaan H₂ tidak?
+
+## Subbab 11.4: LCAO untuk H₂⁺: integral tumpang tindih, Coulomb, pertukaran
+
 6. Apa makna fisis integral $S$, $J$, dan $K$? Mengapa integral Coulomb saja tidak dapat menghasilkan ikatan?
+
+## Subbab 11.5: Orbital ikatan dan antiikatan
+
 7. Mengapa orbital antiikatan lebih "antiikatan" daripada orbital ikatan "mengikat"? Apa akibatnya bagi He₂?
+
+## Subbab 11.6: Keadaan tereksitasi H₂⁺ dan bentuk orbital σ, π, δ
+
 8. Mengapa label $g/u$ orbital π kebalikan dari orbital σ yang dibangun dengan cara serupa?
 9. Mengapa tumpang tindih π meluruh lebih cepat daripada tumpang tindih σ ketika jarak antaratom bertambah? Apa akibatnya bagi ikatan rangkap unsur periode 3?
+
+## Subbab 11.7: Konfigurasi OM diatom homonuklir periode 2
+
 10. Bagaimana teori OM menjelaskan bahwa O₂ paramagnetik? Di mana letak kegagalan struktur Lewis?
+
+## Subbab 11.8: Pencampuran s–p dan urutan orbital N₂ vs O₂
+
 11. Jelaskan pencampuran s–p. Bukti apa yang menunjukkan bahwa HOMO N₂ adalah orbital σ, bukan π?
 12. Bagaimana bentuk pita (sempit atau berderet getaran panjang) dalam spektrum fotoelektron memberi tahu sifat ikatan sebuah orbital?
+
+## Subbab 11.9: Lambang suku molekul
+
 13. Turunkan secara kualitatif mengapa keadaan dasar O₂ triplet. Mengapa oksigen singlet jauh lebih reaktif terhadap molekul organik?
+
+## Subbab 11.12: Perbandingan OM dan IV; interaksi konfigurasi
+
 14. Bandingkan fungsi gelombang OM dan Heitler–London untuk H₂. Apa kekuatan dan kelemahan masing-masing?
 15. Mengapa fungsi OM sederhana gagal pada disosiasi, dan bagaimana interaksi konfigurasi memperbaikinya?
 16. Mengapa hampir seluruh energi ikat Heitler–London berasal dari integral pertukaran? Apa hubungannya dengan "pasangan elektron" Lewis?
+
+## Subbab 11.13: Diatom heteronuklir: HF, CO, LiH
+
 17. Bagaimana selisih energi orbital atom dan unsur interaksi $\beta$ menentukan apakah sebuah ikatan kovalen, polar, atau ionik?
 18. Mengapa momen dipol CO kecil dan berarah C⁻O⁺? Mengapa CO terikat pada logam melalui karbon?
+
+## Subbab 11.14: Elektronegativitas, kerapatan elektron, momen dipol
+
 19. Bandingkan definisi elektronegativitas Pauling dan Mulliken. Mengapa keduanya berkorelasi?
+
+## Subbab 11.15: Mengapa ikatan terbentuk: teorema virial
+
 20. Menurut teorema virial, apakah ikatan kimia menurunkan energi kinetik atau energi potensial elektron? Jelaskan mengapa jawabannya bergantung pada jarak.
+
+## Subbab 11.16: Teorema Hellmann–Feynman dan gaya pada inti
+
 21. Apakah ada "gaya pertukaran" yang bekerja pada inti? Jelaskan dengan teorema Hellmann–Feynman.
 22. Bagaimana teka-teki pembuka bab (oksigen cair yang tertahan di antara kutub magnet) terjawab oleh teori bab ini?
 

@@ -19,19 +19,39 @@
 
 # Pertanyaan
 
-1. Mengapa energi Gibbs disebut "bebas"? Bagian energi mana yang tidak bebas?
-2. Jelaskan arti fisis suku *U* dan −*TS* dalam energi Helmholtz.
+## Subbab 7.2: Energi bebas Helmholtz
+
+1. Jelaskan arti fisis suku *U* dan −*TS* dalam energi Helmholtz.
+
+## Subbab 7.3: Energi bebas Gibbs
+
+2. Mengapa energi Gibbs disebut "bebas"? Bagian energi mana yang tidak bebas?
 3. Mengapa energi Gibbs lebih berguna bagi kimiawan daripada energi Helmholtz?
+
+## Subbab 7.4: Kerja maksimum dan kerja bukan-ekspansi
+
 4. Apa yang dimaksud kerja bukan-ekspansi? Berikan tiga contoh.
 5. Jelaskan mengapa sel bahan bakar hidrogen dibatasi efisiensi 83%.
 6. Bagaimana pembakaran glukosa dapat menghasilkan kerja lebih besar daripada kalornya tanpa melanggar hukum pertama?
+
+## Subbab 7.5: Persamaan fundamental
+
 7. Apa yang dimaksud variabel alami suatu fungsi termodinamika?
-8. Mengapa hubungan Maxwell diturunkan dari sifat diferensial eksak?
-9. Berikan satu contoh besaran yang sukar diukur yang dapat dihitung dengan hubungan Maxwell.
-10. Apa arti fisis tekanan dalam, dan mengapa nilainya nol untuk gas ideal?
-11. Mengapa *G* setiap zat turun bila suhu naik?
-12. Jelaskan dengan Gambar 7.1 mengapa setiap zat akhirnya menguap pada suhu yang cukup tinggi.
+8. Mengapa *G* setiap zat turun bila suhu naik?
+9. Jelaskan dengan Gambar 7.1 mengapa setiap zat akhirnya menguap pada suhu yang cukup tinggi.
+
+## Subbab 7.6: Hubungan Maxwell
+
+10. Mengapa hubungan Maxwell diturunkan dari sifat diferensial eksak?
+11. Berikan satu contoh besaran yang sukar diukur yang dapat dihitung dengan hubungan Maxwell.
+12. Apa arti fisis tekanan dalam, dan mengapa nilainya nol untuk gas ideal?
+
+## Subbab 7.8: Ketergantungan G pada tekanan
+
 13. Mengapa *G* gas jauh lebih peka terhadap tekanan daripada *G* cairan?
+
+## Subbab 7.9: Energi bebas Gibbs reaksi standar
+
 14. Apa yang dimaksud stabil secara termodinamika dan stabil secara kinetik? Berikan contohnya.
 15. Mengapa ozon di stratosfer tetap ada walaupun penguraiannya spontan?
 

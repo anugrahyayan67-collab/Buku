@@ -29,26 +29,61 @@
 
 # Pertanyaan
 
+## Subbab 15.1: Koefisien Einstein
+
 1. Mengapa Einstein harus memperkenalkan emisi terangsang agar molekul dan radiasi dapat berada dalam kesetimbangan termal?
 2. Mengapa laju emisi spontan sebanding dengan $\nu^3$, dan apa akibatnya bagi pembuatan maser dan laser?
+
+## Subbab 15.2: Hukum Beer–Lambert dan kekuatan osilator
+
 3. Dalam keadaan apa hukum Beer–Lambert tidak berlaku? Berikan tiga contoh.
 4. Apa yang diukur kekuatan osilator, dan bagaimana aturan jumlah Thomas–Reiche–Kuhn membatasi intensitas semua pita suatu molekul?
+
+## Subbab 15.3: Lebar garis
+
 5. Bedakan pelebaran homogen dan tak homogen. Berikan satu contoh masing-masing dari gas dan dari larutan.
 6. Bagaimana lebar garis spektrum dapat dipakai untuk mengukur laju reaksi unimolekular?
+
+## Subbab 15.4: Spektroskopi rotasi lanjut
+
 7. Mengapa tetapan rotasi $A$ rotor simetris lonjong tidak dapat ditentukan dari spektrum gelombang mikro murninya?
 8. Mengapa efek Stark molekul linear muncul baru pada orde kedua, dan bagaimana ia dipakai untuk mengukur momen dipol?
 9. Mengapa aturan seleksi Raman rotasi $\Delta J = \pm2$, bukan $\pm1$?
+
+## Subbab 15.5: Spektroskopi getaran IR
+
 10. Jelaskan perbedaan pita sejajar dan tegak lurus molekul linear, dan apa yang dapat dipelajari dari bentuk pita.
 11. Apa itu resonansi Fermi, dan bagaimana kamu mengenalinya dalam spektrum?
+
+## Subbab 15.6: Spektroskopi Raman
+
 12. Turunkan aturan larangan bersama dari paritas fungsi $x$, $y$, $z$ dan fungsi kuadrat.
 13. Mengapa garis anti-Stokes lebih lemah daripada garis Stokes, dan bagaimana perbedaannya dipakai sebagai termometer?
+
+## Subbab 15.7: Spektroskopi elektronik dan asas Franck–Condon
+
 14. Jelaskan asas Franck–Condon dan mengapa transisi elektronik digambarkan sebagai garis tegak.
 15. Mengapa transisi yang terlarang simetri, seperti pita 254 nm benzena, tetap teramati?
+
+## Subbab 15.8: Fluoresensi, fosforesensi, diagram Jablonski
+
 16. Nyatakan aturan Kasha dan jelaskan asal geseran Stokes. Mengapa azulena merupakan pengecualian?
 17. Mengapa fosforesensi jarang teramati dalam larutan cair pada suhu kamar?
+
+## Subbab 15.9: UV-Vis senyawa organik
+
 18. Mengapa $\lambda_\text{maks}$ poliena tidak terus bertambah tanpa batas ketika rantai diperpanjang, sedangkan model elektron bebas meramalkan demikian?
+
+## Subbab 15.10: Laser
+
 19. Mengapa laser tiga tingkat memerlukan pemompaan jauh lebih kuat daripada laser empat tingkat?
+
+## Subbab 15.11: Spektroskopi fotoelektron
+
 20. Apa yang diungkapkan struktur getaran pita fotoelektron tentang orbital yang dikosongkan? Kapan teorema Koopmans gagal?
+
+## Subbab 15.12: Spektroskopi resolusi waktu
+
 21. Mengapa pulsa yang sangat singkat menghasilkan paket gelombang, dan apa harga yang dibayar dalam resolusi energi?
 22. Bagaimana teka-teki pembuka bab (satu garis CO dari awan antarbintang, dan umur setengah tahun) terjawab?
 

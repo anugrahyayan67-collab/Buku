@@ -69,33 +69,74 @@ Rumus-rumus ini tidak perlu dihafal. Semuanya keluar dalam tiga baris dari diagr
 
 # Pertanyaan
 
+## Subbab 3.2: Hukum pertama Newton
+
 1. Sebuah buku meluncur di lantai dan berhenti. Jelaskan peristiwa ini menurut Aristoteles, lalu menurut Newton.
 2. Mengapa penumpang bus terdorong ke depan saat bus mengerem, dan terasa tertekan ke sandaran saat bus mulai melaju? Gaya apa yang sebenarnya bekerja pada penumpang dalam tiap kasus?
+
+## Subbab 3.4: Hukum kedua Newton
+
 3. Jika gaya total pada sebuah benda nol, dapatkah benda itu bergerak? Jika hanya satu gaya yang bekerja pada sebuah benda, dapatkah percepatannya nol? Dapatkah kecepatannya nol?
-4. Sebuah bola dilempar tegak lurus ke atas. Gambar diagram benda bebasnya (abaikan udara) saat naik, di titik tertinggi, dan saat turun. Apakah ketiganya berbeda?
-5. Sebuah batu digantung dengan benang. Benang lain yang sama diikat di bawah batu. Jika benang bawah ditarik perlahan, benang atas yang putus. Jika disentak, benang bawah yang putus. Jelaskan.
-6. Seorang astronaut di stasiun antariksa memegang dua kaleng yang tampak sama, satu kosong dan satu penuh. Keduanya melayang. Bagaimana ia bisa mengetahui mana yang penuh tanpa membukanya?
-7. "Gaya normal adalah reaksi dari berat." Tunjukkan dua hal yang salah dalam pernyataan ini.
-8. Dalam lomba tarik tambang, kedua regu menarik tambang dengan gaya yang sama besar (hukum ketiga). Lalu mengapa ada yang menang?
-9. Kamu berdiri di atas timbangan dan tiba-tiba menekuk lutut dengan cepat. Apa yang terjadi pada angka timbangan sesaat setelah kamu mulai turun? Sesaat sebelum kamu berhenti?
-10. Pada Contoh 3.12, mengapa tegangan tali lebih kecil daripada berat beban gantung? Dalam keadaan apa keduanya sama?
-11. Sebuah mobil bergerak di jalan lurus dengan kecepatan tetap 100 km/jam. Berapa gaya total padanya? Kalau begitu, mengapa mesinnya harus tetap bekerja?
-12. Seorang teman menggambar diagram benda bebas sebuah balok yang meluncur turun di bidang miring licin dan memasukkan tiga gaya: berat, gaya normal, dan "gaya luncur" sepanjang bidang. Apa yang salah?
+
+## Subbab 3.5: Tiga gaya yang selalu muncul
+
+4. Sebuah batu digantung dengan benang. Benang lain yang sama diikat di bawah batu. Jika benang bawah ditarik perlahan, benang atas yang putus. Jika disentak, benang bawah yang putus. Jelaskan.
+5. Seorang astronaut di stasiun antariksa memegang dua kaleng yang tampak sama, satu kosong dan satu penuh. Keduanya melayang. Bagaimana ia bisa mengetahui mana yang penuh tanpa membukanya?
+
+## Subbab 3.6: Hukum ketiga Newton
+
+6. "Gaya normal adalah reaksi dari berat." Tunjukkan dua hal yang salah dalam pernyataan ini.
+7. Dalam lomba tarik tambang, kedua regu menarik tambang dengan gaya yang sama besar (hukum ketiga). Lalu mengapa ada yang menang?
+
+## Subbab 3.7: Diagram benda bebas dan strategi
+
+8. Sebuah bola dilempar tegak lurus ke atas. Gambar diagram benda bebasnya (abaikan udara) saat naik, di titik tertinggi, dan saat turun. Apakah ketiganya berbeda?
+9. Seorang teman menggambar diagram benda bebas sebuah balok yang meluncur turun di bidang miring licin dan memasukkan tiga gaya: berat, gaya normal, dan "gaya luncur" sepanjang bidang. Apa yang salah?
+
+## Subbab 3.8: Penerapan hukum Newton
+
+10. Kamu berdiri di atas timbangan dan tiba-tiba menekuk lutut dengan cepat. Apa yang terjadi pada angka timbangan sesaat setelah kamu mulai turun? Sesaat sebelum kamu berhenti?
+11. Pada Contoh 3.12, mengapa tegangan tali lebih kecil daripada berat beban gantung? Dalam keadaan apa keduanya sama?
+12. Sebuah mobil bergerak di jalan lurus dengan kecepatan tetap 100 km/jam. Berapa gaya total padanya? Kalau begitu, mengapa mesinnya harus tetap bekerja?
+
+## Subbab 3.9: Gesekan
+
 13. Mengapa lebih sulit mulai mendorong lemari daripada menjaganya tetap bergerak?
+
+## Subbab 3.10: Soal-soal dengan gesekan
+
 14. Sebuah balok diam di bidang miring kasar. Kemiringannya diperbesar sedikit, dan balok tetap diam. Apakah gaya gesek padanya bertambah, berkurang, atau tetap? Bagaimana dengan gaya normalnya?
 15. Sistem rem ABS mencegah roda terkunci saat pengereman keras. Dengan pengetahuan tentang $\mu_s$ dan $\mu_k$, jelaskan mengapa hal itu memperpendek jarak berhenti.
 16. Beri contoh gesekan yang (a) melawan gerak benda; (b) searah dengan gerak benda; (c) menyebabkan benda bergerak.
 17. Ban balap dibuat lebar. Jika gesekan tidak bergantung pada luas bidang sentuh, apa gunanya? (Petunjuk: model gesekan sederhana punya batas.)
+
+## Subbab 3.11: Dinamika gerak melingkar
+
 18. Sebuah batu diputar dengan tali pada lingkaran mendatar. Tiba-tiba talinya putus. Gambarkan lintasan batu dilihat dari atas, dan jelaskan dengan hukum pertama Newton.
 19. Mengapa pembalap sepeda dan pelari memiringkan badan ke dalam tikungan?
+
+## Subbab 3.12: Gerak melingkar tegak
+
 20. Di puncak lintasan melingkar tegak, penumpang kereta luncur berada dalam posisi terbalik tetapi tidak jatuh, bahkan tanpa sabuk pengaman. Jelaskan. Apa yang terjadi jika kereta terlalu lambat?
-21. Astronaut di stasiun antariksa yang mengorbit dan penumpang mobil di puncak bukit pada kelajuan kritis (Contoh 3.25b) sama-sama tanpa bobot semu. Apa kesamaan fisikanya?
-22. Seekor semut dan seekor gajah jatuh dari ketinggian yang sama. Semut selamat. Jelaskan dengan kecepatan terminal.
-23. Seorang penerjun mencapai kecepatan terminal, lalu membuka payungnya. Sesaat setelah payung terbuka, ke mana arah gaya total dan percepatannya? Apakah ia bergerak ke atas?
-24. Seorang teman berkata, "Pakaian di mesin pengering menempel di dinding tabung karena gaya sentrifugal melemparnya ke luar." Tulis ulang penjelasan itu dari sudut pandang kerangka inersia.
+
+## Subbab 3.13: Gaya hambat dan kecepatan terminal
+
+21. Seekor semut dan seekor gajah jatuh dari ketinggian yang sama. Semut selamat. Jelaskan dengan kecepatan terminal.
+22. Seorang penerjun mencapai kecepatan terminal, lalu membuka payungnya. Sesaat setelah payung terbuka, ke mana arah gaya total dan percepatannya? Apakah ia bergerak ke atas?
+
+## Subbab 3.14: Kerangka yang dipercepat dan gaya fiktif
+
+23. Seorang teman berkata, "Pakaian di mesin pengering menempel di dinding tabung karena gaya sentrifugal melemparnya ke luar." Tulis ulang penjelasan itu dari sudut pandang kerangka inersia.
+
+## Subbab 3.15: Gravitasi universal
+
+24. Astronaut di stasiun antariksa yang mengorbit dan penumpang mobil di puncak bukit pada kelajuan kritis (Contoh 3.25b) sama-sama tanpa bobot semu. Apa kesamaan fisikanya?
 25. Mengapa Newton menulis hukum keduanya sebagai laju perubahan momentum, bukan $F = ma$? Sebutkan satu keadaan ketika $F = ma$ memberi jawaban keliru.
 26. Seorang teman berkata, "Di stasiun antariksa tidak ada gravitasi, karena itu astronaut melayang." Bagaimana kamu meluruskannya?
 27. Mengapa semua benda jatuh dengan percepatan yang sama, padahal benda yang lebih berat ditarik gravitasi lebih kuat?
+
+## Subbab 3.16: Asal-usul gaya dan batas-batas mekanika Newton
+
 28. Gaya normal, gesekan, dan tegangan tali disebut "gaya sentuh". Gaya dasar apa yang sebenarnya bekerja pada ketiganya?
 29. Apakah teori relativitas membuktikan bahwa mekanika Newton salah? Jelaskan.
 

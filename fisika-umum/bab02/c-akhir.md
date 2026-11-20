@@ -72,27 +72,65 @@ Untuk jatuh bebas dengan arah ke atas positif, ganti $x$ dengan $y$ dan $a$ deng
 
 # Pertanyaan
 
+## Subbab 2.1: Posisi, perpindahan, dan jarak
+
 1. Dapatkah perpindahan sebuah benda nol sementara jarak tempuhnya tidak nol? Dapatkah sebaliknya? Beri contoh.
+
+## Subbab 2.3: Kecepatan sesaat
+
 2. Spidometer mobil menunjukkan angka yang tetap selama mobil melewati tikungan. Apakah kecepatan mobil tetap? (Jawaban lengkapnya ada di subbab 2.14, tetapi pikirkan arti "kecepatan" sebagai vektor.)
 3. Dapatkah kecepatan rata-rata sebuah benda dalam suatu selang waktu sama dengan nol, padahal kecepatan sesaatnya tidak pernah nol dalam selang itu? Jelaskan dengan grafik $x$–$t$.
+
+## Subbab 2.4: Percepatan
+
 4. Beri contoh gerak sehari-hari dengan: (a) kecepatan positif dan percepatan negatif; (b) kecepatan negatif dan percepatan negatif; (c) kecepatan nol dan percepatan tidak nol; (d) kecepatan tidak nol dan percepatan nol.
-5. Seorang teman berkata, "Di titik tertinggi, bola yang dilempar ke atas berhenti, jadi percepatannya nol." Bagaimana kamu meyakinkannya bahwa itu keliru?
-6. Dua grafik berbentuk sama persis: garis lurus menanjak dari titik asal. Yang satu grafik $x$–$t$, yang lain grafik $v$–$t$. Ceritakan gerak yang digambarkan masing-masing.
+
+## Subbab 2.5: Membaca grafik gerak
+
+5. Dua grafik berbentuk sama persis: garis lurus menanjak dari titik asal. Yang satu grafik $x$–$t$, yang lain grafik $v$–$t$. Ceritakan gerak yang digambarkan masing-masing.
+6. Luas di bawah grafik $v$–$t$ adalah perpindahan. Apa arti luas di bawah grafik $a$–$t$? Apa arti kemiringan grafik $a$–$t$? (Besaran terakhir ini disebut *sentakan* dan menentukan kenyamanan penumpang kereta dan lift.)
+
+## Subbab 2.6: Gerak dengan percepatan konstan
+
 7. Mengapa persamaan $x = x_0 + \tfrac12(v_0 + v)t$ tidak boleh dipakai pada Contoh 2.3?
-8. Kamu menjatuhkan sebuah bola dari jendela. Satu sekon kemudian kamu menjatuhkan bola kedua dari tempat yang sama. Selama keduanya di udara, apakah jarak di antara mereka tetap, bertambah, atau berkurang? Bagaimana dengan selisih kecepatannya?
-9. Sebuah bola dilempar ke atas dan ditangkap kembali di ketinggian yang sama. Jika hambatan udara **tidak** diabaikan, mana yang lebih lama: perjalanan naik atau perjalanan turun? (Petunjuk: bandingkan kelajuan saat melewati ketinggian yang sama ketika naik dan ketika turun.)
-10. Luas di bawah grafik $v$–$t$ adalah perpindahan. Apa arti luas di bawah grafik $a$–$t$? Apa arti kemiringan grafik $a$–$t$? (Besaran terakhir ini disebut *sentakan* dan menentukan kenyamanan penumpang kereta dan lift.)
+
+## Subbab 2.7: Jatuh bebas
+
+8. Seorang teman berkata, "Di titik tertinggi, bola yang dilempar ke atas berhenti, jadi percepatannya nol." Bagaimana kamu meyakinkannya bahwa itu keliru?
+9. Kamu menjatuhkan sebuah bola dari jendela. Satu sekon kemudian kamu menjatuhkan bola kedua dari tempat yang sama. Selama keduanya di udara, apakah jarak di antara mereka tetap, bertambah, atau berkurang? Bagaimana dengan selisih kecepatannya?
+10. Sebuah bola dilempar ke atas dan ditangkap kembali di ketinggian yang sama. Jika hambatan udara **tidak** diabaikan, mana yang lebih lama: perjalanan naik atau perjalanan turun? (Petunjuk: bandingkan kelajuan saat melewati ketinggian yang sama ketika naik dan ketika turun.)
+
+## Subbab 2.8: Gerak bertahap dan gerak dua benda
+
 11. Dalam Contoh 2.12, mengapa kecepatan polisi saat menyusul tidak bergantung pada besar percepatannya?
+
+## Subbab 2.9: Percepatan yang berubah
+
 12. Jelaskan dengan kata-katamu sendiri mengapa "membagi dengan nol" tidak terjadi dalam definisi kecepatan sesaat.
+
+## Subbab 2.10: Posisi, kecepatan, dan percepatan sebagai vektor
+
 13. Dapatkah sebuah benda dipercepat sementara kelajuannya tetap? Dapatkah kecepatannya tetap sementara kelajuannya berubah?
+
+## Subbab 2.12: Gerak peluru
+
 14. Di titik mana pada lintasan peluru kelajuannya paling kecil? Di titik mana kecepatan dan percepatannya saling tegak lurus?
 15. Sebuah bola dilempar miring ke atas. Gambarkan vektor percepatannya di tiga titik: saat naik, di titik tertinggi, dan saat turun.
 16. Seorang penumpang kereta yang melaju dengan kecepatan tetap melempar bola tegak lurus ke atas. Di mana bola itu jatuh menurut penumpang? Seperti apa lintasannya menurut orang di peron?
 17. Mengapa atlet lompat jauh tidak melompat pada sudut 45°, padahal sudut itu memberi jangkauan terjauh? (Petunjuk: apakah kelajuan lepas landasnya bebas dari sudutnya?)
 18. Dua peluru ditembakkan dengan kelajuan sama pada sudut 30° dan 60°. Mana yang melayang lebih lama? Mana yang lebih jauh? Mana yang lebih cepat saat mendarat?
+
+## Subbab 2.14: Gerak melingkar beraturan
+
 19. Jelaskan mengapa gerak melingkar beraturan bukan gerak dengan percepatan konstan, walaupun besar percepatannya tetap.
 20. Sebuah batu yang diputar dengan tali tiba-tiba lepas. Ke arah mana ia bergerak sesaat setelah lepas: sepanjang jari-jari ke luar, menyinggung lingkaran, atau di antaranya?
+
+## Subbab 2.15: Percepatan tangensial dan radial
+
 21. Pada kecepatan yang sama, tikungan tajam terasa lebih "melempar" daripada tikungan lebar. Jelaskan dengan $a_c = v^2/r$.
+
+## Subbab 2.16: Gerak relatif
+
 22. Hujan jatuh tegak lurus. Apakah kamu lebih sedikit kehujanan jika berlari atau jika berjalan menuju tempat berteduh? Pertimbangkan hujan yang mengenai kepala dan yang mengenai badan bagian depan secara terpisah.
 23. Dalam Contoh 2.23, mengapa arus sungai tidak memengaruhi waktu menyeberang pada bagian (a)?
 24. Jelaskan dengan kata-katamu sendiri mengapa dokter hewan harus membidik tepat ke monyet.

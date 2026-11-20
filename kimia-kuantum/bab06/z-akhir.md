@@ -22,24 +22,56 @@
 
 # Pertanyaan
 
+## Subbab 6.1: Momentum sudut klasik
+
 1. Mengapa momentum sudut menjadi besaran yang "baik" (kekal) dalam atom, dan apa akibatnya bagi pelabelan orbital?
+
+## Subbab 6.2: Operator momentum sudut dan komutatornya
+
 2. Mengapa tidak ada keadaan dengan $L_x$, $L_y$, dan $L_z$ semuanya tajam, kecuali $\mathbf L = 0$?
+
+## Subbab 6.3: Partikel pada cincin
+
 3. Bandingkan asal kuantisasi pada partikel dalam kotak dan partikel pada cincin.
 4. Mengapa partikel pada cincin tidak mempunyai energi titik nol, sedangkan osilator harmonik mempunyai?
 5. Bagaimana model elektron pada cincin menjelaskan aturan $4n + 2$? Apa keterbatasannya?
+
+## Subbab 6.4: Partikel pada bola
+
 6. Mengapa deret Legendre harus berhenti, dan bagaimana syarat itu menghasilkan bilangan kuantum $\ell$?
 7. Mengapa energi partikel pada bola tidak bergantung pada $m$? Kapan degenerasi ini pecah?
+
+## Subbab 6.5: Harmonik bola
+
 8. Apa hubungan antara harmonik bola dan nama orbital $p_x$, $d_{xy}$, $d_{z^2}$?
 9. Mengapa orbital riil dan orbital kompleks sama-sama sah? Kapan masing-masing lebih berguna?
 10. Mengapa subkulit penuh berbentuk bola, padahal setiap orbitalnya berarah?
+
+## Subbab 6.6: Kuantisasi ruang dan model vektor
+
 11. Apa arti kuantisasi ruang? Mengapa vektor momentum sudut tidak pernah sejajar sumbu $z$?
+
+## Subbab 6.7: Metode operator tangga
+
 12. Bagaimana operator tangga menunjukkan bahwa nilai setengah bulat diizinkan? Mengapa momentum sudut orbital tetap bulat?
+
+## Subbab 6.8: Masalah dua benda dan massa tereduksi
+
 13. Bagaimana pemisahan masalah dua benda memungkinkan kita memakai hasil partikel pada bola untuk molekul diatom?
 14. Apa peran potensial efektif sentrifugal dalam atom dan molekul?
+
+## Subbab 6.10: Spektrum rotasi gelombang mikro
+
 15. Mengapa jarak antargaris rotasi molekul diatom hampir sama? Apa yang membuatnya tidak tepat sama?
 16. Mengapa hanya molekul polar yang mempunyai spektrum rotasi murni, tetapi semua molekul (kecuali yang bersimetri bola) mempunyai spektrum Raman rotasi?
+
+## Subbab 6.11: Populasi rotasi dan intensitas
+
 17. Bagaimana suhu gas antarbintang ditentukan dari garis rotasi?
 18. Mengapa hidrogen mempunyai bentuk orto dan para, dan mengapa konversinya penting bagi penyimpanan hidrogen cair?
+
+## Subbab 6.12: Distorsi sentrifugal dan spektrum rotasi–getaran
+
 19. Apa perbedaan $r_0$ dan $r_e$? Mana yang harus dibandingkan dengan perhitungan kuantum?
 20. Bagaimana spektrum rotasi–getaran memberi tetapan rotasi dua tingkat getaran sekaligus?
 21. Bagaimana teka-teki pembuka bab (panjang ikatan CO dari satu frekuensi radio) terjawab oleh teori bab ini?

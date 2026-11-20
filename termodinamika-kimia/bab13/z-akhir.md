@@ -16,19 +16,42 @@
 
 # Pertanyaan
 
+## Subbab 13.1: Sel elektrokimia dan reaksi setengah sel
+
 1. Mengapa memisahkan reaksi redoks ke dua elektrode memungkinkan kerja listrik diperoleh?
 2. Mengapa sel tanpa sambungan cairan lebih disukai untuk pengukuran teliti?
+
+## Subbab 13.2: Kerja listrik dan ΔG = −nFE
+
 3. Jelaskan mengapa voltmeter dapat mengukur $\Delta_\text{r}G$ lebih teliti daripada kalorimeter.
+
+## Subbab 13.3: Potensial elektrode standar
+
 4. Mengapa potensial satu elektrode tidak dapat diukur sendirian?
 5. Mengapa potensial setengah sel tidak boleh dijumlahkan langsung untuk memperoleh setengah sel baru?
+
+## Subbab 13.4: Persamaan Nernst
+
 6. Mengapa daya oksidasi permanganat bergantung pada pH?
 7. Jelaskan arti jendela kestabilan air pada Gambar 13.2.
+
+## Subbab 13.5: Potensial standar dan tetapan kesetimbangan
+
 8. Bagaimana tegangan sel dapat memberi $K_\text{sp}$ garam yang sangat sukar larut?
 9. Mengapa titrasi redoks dengan selisih *E*° besar memberi titik akhir yang tajam?
+
+## Subbab 13.6: Ketergantungan *E* pada suhu: ΔS dan ΔH dari pengukuran sel
+
 10. Bagaimana Δ*S* dan Δ*H* reaksi dapat diukur hanya dengan voltmeter dan termometer?
 11. Mengapa baterai yang dihubung pendek menjadi panas?
+
+## Subbab 13.7: Sel konsentrasi dan pengukuran pH
+
 12. Jelaskan asal tegangan sel konsentrasi.
 13. Bagaimana sinyal saraf berhubungan dengan potensial Nernst?
+
+## Subbab 13.8: Baterai dan sel bahan bakar
+
 14. Mengapa baterai litium mempunyai energi spesifik jauh lebih tinggi daripada aki timbal?
 15. Mengapa sel bahan bakar dan elektroliser nyata jauh dari batas termodinamikanya?
 
@@ -228,7 +251,7 @@ $$
 
 **Soal 30.** (a) Untuk $\text{H}_2 + \tfrac12\text{O}_2 \rightarrow \text{H}_2\text{O}(l)$, $\Delta_\text{r}S^\circ = 69{,}91 - 130{,}68 - \tfrac12(205{,}14) = -163{,}3$ J K⁻¹ mol⁻¹. Dari (13.6), $dE^\circ/dT = \Delta_\text{r}S^\circ/nF = -163{,}3/(2 \times 96\,485) = -0{,}846$ mV K⁻¹. Pada 80 °C: $E^\circ = 1{,}229 - (0{,}000\,846)(55) = 1{,}182$ V.
 
-(b) Dengan uap air, $\Delta_\text{r}S^\circ = 188{,}83 - 130{,}68 - 102{,}57 = -44{,}4$ J K⁻¹ mol⁻¹. Pada 1073 K:
+Untuk (b), dengan uap air, $\Delta_\text{r}S^\circ = 188{,}83 - 130{,}68 - 102{,}57 = -44{,}4$ J K⁻¹ mol⁻¹. Pada 1073 K:
 $$
 \Delta_\text{r}G^\circ = -241\,830 - (1073{,}15)(-44{,}4) = -194{,}2\ \text{kJ mol}^{-1} , \qquad E^\circ = \frac{194\,200}{2 \times 96\,485} = 1{,}006\ \text{V} .
 $$

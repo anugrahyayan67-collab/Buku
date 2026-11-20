@@ -19,19 +19,48 @@
 
 # Pertanyaan
 
+## Subbab 4.1: Entalpi
+
 1. Mengapa entalpi lebih berguna daripada energi dalam bagi kimiawan yang bekerja dengan gelas kimia terbuka?
+
+## Subbab 4.2: Cp, Cv, dan hubungan keduanya
+
 2. Jelaskan dengan kata-kata asal suku $\Delta n_\text{gas}RT$ dalam hubungan Δ*H* dan Δ*U*.
 3. Mengapa $C_p$ lebih besar daripada $C_V$, dan mengapa selisihnya tepat *R* untuk gas ideal?
+
+## Subbab 4.3: Kalorimetri: bom dan tekanan tetap
+
 4. Mengapa asam benzoat dipilih sebagai zat baku kalorimetri?
 5. Mengapa kalor penetralan asam kuat oleh basa kuat hampir sama untuk semua pasangan?
+
+## Subbab 4.4: Entalpi perubahan fisika
+
 6. Mengapa entalpi penguapan suatu zat bergantung pada suhu?
+
+## Subbab 4.5: Persamaan termokimia dan keadaan standar
+
 7. Apa yang dimaksud dengan "per mol" dalam satuan kJ mol⁻¹ untuk entalpi reaksi?
+
+## Subbab 4.6: Hukum Hess
+
 8. Mengapa hukum Hess merupakan akibat langsung dari sifat entalpi sebagai fungsi keadaan?
+
+## Subbab 4.7: Entalpi pembentukan standar
+
 9. Mengapa unsur dalam keadaan acuannya mempunyai entalpi pembentukan nol, dan apakah itu berarti entalpinya benar-benar nol?
 10. Apa makna kimia dari entalpi pembentukan yang positif?
+
+## Subbab 4.8: Entalpi ikatan
+
 11. Mengapa entalpi ikatan hanya boleh dipakai untuk reaksi fase gas?
 12. Dalam keadaan apa taksiran entalpi ikatan rata-rata paling tidak teliti?
+
+## Subbab 4.9: Ketergantungan entalpi reaksi pada suhu: hukum Kirchhoff
+
 13. Jelaskan dengan hukum Kirchhoff mengapa entalpi penguapan air lebih besar pada 25 °C daripada pada 100 °C.
+
+## Subbab 4.10: Termokimia pembakaran dan bahan bakar
+
 14. Mengapa bahan bakar yang mengandung oksigen melepaskan energi lebih sedikit per gram?
 15. Kompres dingin menyerap kalor tetapi tetap bekerja dengan sendirinya. Apa artinya bagi hubungan antara Δ*H* dan spontanitas?
 

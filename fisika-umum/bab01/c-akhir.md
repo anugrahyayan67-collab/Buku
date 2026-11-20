@@ -72,26 +72,55 @@
 
 # Pertanyaan
 
-1. Mengapa patokan satuan yang berupa benda (seperti silinder kilogram di Paris) kurang baik dibandingkan patokan yang berupa tetapan alam? Sebutkan sedikitnya dua alasan.
-2. Seseorang berkata, "Model Bumi sebagai titik itu salah, karena Bumi jelas bukan titik." Bagaimana tanggapanmu?
+## Subbab 1.1: Cara kerja fisika
+
+1. Seseorang berkata, "Model Bumi sebagai titik itu salah, karena Bumi jelas bukan titik." Bagaimana tanggapanmu?
+
+## Subbab 1.2: Besaran dan satuan
+
+2. Mengapa patokan satuan yang berupa benda (seperti silinder kilogram di Paris) kurang baik dibandingkan patokan yang berupa tetapan alam? Sebutkan sedikitnya dua alasan.
+
+## Subbab 1.5: Analisis dimensi
+
 3. Apakah mungkin dua besaran berdimensi sama tetapi bersatuan berbeda? Apakah mungkin dua besaran bersatuan sama tetapi berbeda maknanya? Beri contoh.
 4. Sebuah persamaan lolos pemeriksaan dimensi. Apakah persamaan itu pasti benar? Sebuah persamaan gagal dalam pemeriksaan dimensi. Apakah persamaan itu pasti salah?
 5. Mengapa isi fungsi sinus harus tak berdimensi? (Petunjuk: apa arti $\sin(3\ \text{meter})$? Bagaimana nilainya jika panjang yang sama ditulis 300 cm?)
+
+## Subbab 1.7: Ketidakpastian pengukuran
+
 6. Timbangan badan di rumahmu selalu menunjuk 1,5 kg terlalu besar. Jika kamu menimbang lima kali dan merata-ratakan, apakah hasilnya menjadi lebih akurat? Lebih presis?
 7. Jelaskan perbedaan antara pernyataan "panjangnya 2 m", "panjangnya 2,0 m", dan "panjangnya 2,00 m".
 8. Kamu ingin mengukur tebal sehelai rambut dengan penggaris biasa. Rancang caranya.
 9. Mengapa mengurangkan dua hasil ukur yang nilainya hampir sama menghasilkan ketidakpastian relatif yang besar? Beri contoh dengan angka.
 10. Jika semua ukuran sebuah benda diperbesar tiga kali (bahannya tetap), berapa kali luas permukaannya membesar? Massanya? Apa akibatnya bagi kaki seekor hewan yang diperbesar tiga kali?
+
+## Subbab 1.8: Estimasi dan orde besaran
+
 11. Dalam Contoh 1.12, tiap faktor bisa meleset dua kali lipat. Mengapa hasil akhirnya biasanya tidak meleset $2 \times 2 \times 2 \times 2 = 16$ kali?
+
+## Subbab 1.11: Skalar dan vektor
+
 12. Seorang teman menulis jawaban akhir: "kecepatannya 14,28571429 m/s". Datanya adalah jarak 100 m dan waktu 7,0 s. Apa yang salah, dan bagaimana seharusnya?
-13. Dapatkah besar sebuah vektor lebih kecil daripada besar salah satu komponennya? Dapatkah sama?
-14. Dua vektor berbeda besarnya. Dapatkah jumlahnya nol? Bagaimana dengan tiga vektor yang besarnya berbeda-beda?
-15. Jika $\vec A + \vec B = \vec A - \vec B$, apa yang dapat dikatakan tentang $\vec B$?
-16. Dalam keadaan apa $|\vec A + \vec B| = A + B$? Dalam keadaan apa $|\vec A + \vec B| = |\vec A - \vec B|$?
-17. Jika sumbu koordinat diputar, komponen sebuah vektor berubah. Apakah besarnya berubah? Apakah perkalian titik dua vektor berubah?
-18. Waktu punya "arah" (maju), dan suhu bisa positif atau negatif. Mengapa keduanya tetap bukan vektor?
-19. $\vec A \cdot \vec B = 0$ dan $\vec A \times \vec B = 0$ sekaligus. Apa kesimpulannya?
-20. Mengapa $\vec A \cdot (\vec B \cdot \vec C)$ tidak bermakna, sedangkan $\vec A \cdot (\vec B \times \vec C)$ bermakna?
+13. Waktu punya "arah" (maju), dan suhu bisa positif atau negatif. Mengapa keduanya tetap bukan vektor?
+
+## Subbab 1.12: Penjumlahan vektor secara grafis
+
+14. Dapatkah besar sebuah vektor lebih kecil daripada besar salah satu komponennya? Dapatkah sama?
+15. Dua vektor berbeda besarnya. Dapatkah jumlahnya nol? Bagaimana dengan tiga vektor yang besarnya berbeda-beda?
+16. Jika $\vec A + \vec B = \vec A - \vec B$, apa yang dapat dikatakan tentang $\vec B$?
+17. Dalam keadaan apa $|\vec A + \vec B| = A + B$? Dalam keadaan apa $|\vec A + \vec B| = |\vec A - \vec B|$?
+
+## Subbab 1.13: Komponen vektor
+
+18. Jika sumbu koordinat diputar, komponen sebuah vektor berubah. Apakah besarnya berubah? Apakah perkalian titik dua vektor berubah?
+
+## Subbab 1.15: Perkalian titik
+
+19. Mengapa $\vec A \cdot (\vec B \cdot \vec C)$ tidak bermakna, sedangkan $\vec A \cdot (\vec B \times \vec C)$ bermakna?
+
+## Subbab 1.16: Perkalian silang
+
+20. $\vec A \cdot \vec B = 0$ dan $\vec A \times \vec B = 0$ sekaligus. Apa kesimpulannya?
 21. Kamu memutar sekrup biasa searah jarum jam dengan obeng, dan sekrup bergerak masuk. Hubungkan pengamatan ini dengan kaidah tangan kanan.
 22. Molekul CO₂ lurus, dan kedua ikatan C=O sama-sama polar, tetapi molekulnya tidak polar. Molekul H₂O bengkok dan polar. Jelaskan dengan penjumlahan vektor.
 

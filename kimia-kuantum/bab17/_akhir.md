@@ -31,27 +31,65 @@
 
 # Pertanyaan
 
+## Subbab 17.1: Peta metode: ab initio, DFT, semiempiris, mekanika molekul
+
 1. Mengapa pendekatan Born–Oppenheimer memungkinkan konsep permukaan energi potensial, dan apa saja yang ditentukan oleh permukaan itu?
 2. Apa yang dimaksud "medan rata-rata" dalam Hartree–Fock, dan gerak elektron macam apa yang hilang?
+
+## Subbab 17.2: Hartree–Fock untuk molekul
+
 3. Mengapa operator Coulomb lokal sedangkan operator pertukaran nonlokal?
 4. Mengapa energi total HF bukan jumlah energi orbital, padahal dalam teori Hückel ya?
 5. Kapan UHF lebih baik daripada RHF, dan apa harga yang harus dibayar?
+
+## Subbab 17.3: Persamaan Roothaan dan prosedur SCF
+
 6. Mengapa persamaan Roothaan merupakan masalah nilai eigen diperumum, dan bagaimana diubah menjadi masalah biasa?
 7. Mengapa prosedur SCF harus iteratif, dan apa gagasan di balik DIIS?
+
+## Subbab 17.4: Teorema Koopmans dan energi ionisasi
+
 8. Mengapa teorema Koopmans cukup baik untuk ionisasi valensi tetapi buruk untuk afinitas elektron dan ionisasi inti?
+
+## Subbab 17.5: Fungsi basis: STO, GTO, split-valence, polarisasi, difus
+
 9. Mengapa fungsi Gauss dipakai alih-alih fungsi Slater? Apa kerugiannya, dan bagaimana diatasi?
 10. Kapan fungsi polarisasi dan fungsi difus diperlukan? Berikan contoh sifat yang peka terhadap masing-masing.
 11. Mengapa energi korelasi berkonvergensi jauh lebih lambat terhadap basis daripada energi HF?
+
+## Subbab 17.7: Analisis populasi, muatan atom, potensial elektrostatik
+
 12. Mengapa muatan atom bukan besaran teramati, dan bagaimana sebaiknya muatan atom dipakai?
+
+## Subbab 17.8: OM terlokalisasi
+
 13. Orbital kanonik atau orbital terlokalisasi: mana yang "benar"? Jelaskan dengan contoh metana.
+
+## Subbab 17.9: Optimasi geometri, frekuensi getaran, sifat termodinamika
+
 14. Mengapa frekuensi harmonik hasil hitungan perlu diskalakan sebelum dibandingkan dengan spektrum IR?
+
+## Subbab 17.10: Energi korelasi dan interaksi konfigurasi
+
 15. Bedakan korelasi dinamik dan korelasi statik, dan sebutkan metode yang cocok untuk masing-masing.
 16. Apa arti konsistensi ukuran, dan mengapa CISD tidak memilikinya sedangkan CCSD memilikinya?
+
+## Subbab 17.12: Metode coupled-cluster dan metode komposit
+
 17. Mengapa CCSD(T) disebut standar emas, dan dalam keadaan apa ia gagal?
+
+## Subbab 17.13: Teori fungsional kerapatan: Hohenberg–Kohn dan Kohn–Sham
+
 18. Apa isi kedua teorema Hohenberg–Kohn, dan apa peran sistem Kohn–Sham yang tanpa interaksi?
+
+## Subbab 17.15: Interaksi nonkovalen, efek pelarut, efek relativistik
+
 19. Mengapa B3LYP tanpa koreksi tidak dapat menggambarkan tumpukan π atau dimer gas mulia?
 20. Apa galat interaksi diri, dan gejala apa saja yang ditimbulkannya dalam perhitungan DFT?
 21. Mengapa efek relativistik penting untuk kimia emas tetapi kecil untuk perak?
+
+## Subbab 17.16: Reaksi kimia dan keadaan transisi
+
 22. Bagaimana memastikan bahwa struktur yang ditemukan program adalah keadaan transisi reaksi yang dimaksud?
 23. Bagaimana teka-teki pembuka bab (persamaan yang mustahil diselesaikan, tetapi angka yang cukup teliti untuk merancang katalis) terjawab oleh isi bab ini?
 

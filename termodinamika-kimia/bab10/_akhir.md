@@ -18,18 +18,35 @@
 
 # Pertanyaan
 
+## Subbab 10.1: Termodinamika pencampuran
+
 1. Apa syarat molekul agar dua cairan membentuk larutan ideal?
+
+## Subbab 10.2: Hukum Raoult dan larutan ideal
+
 2. Bagaimana tekanan uap menjadi "jendela" untuk mengukur potensial kimia zat dalam cairan?
 3. Mengapa uap di atas campuran dua cairan lebih kaya komponen yang mudah menguap?
+
+## Subbab 10.3: Hukum Henry dan larutan encer ideal
+
 4. Mengapa tetapan Henry berbeda dari tekanan uap zat terlarut murni?
 5. Mengapa gas lebih sukar larut dalam air panas?
 6. Jelaskan penyakit dekompresi dengan hukum Henry.
+
+## Subbab 10.5: Kenaikan titik didih dan penurunan titik beku
+
 7. Mengapa sifat koligatif tidak bergantung pada jenis zat terlarut?
 8. Jelaskan dengan Gambar 10.3 mengapa zat terlarut menaikkan titik didih dan menurunkan titik beku.
 9. Mengapa kamper dipakai dalam metode Rast?
+
+## Subbab 10.6: Tekanan osmotik
+
 10. Apakah tekanan osmotik disebabkan oleh tumbukan molekul zat terlarut pada membran? Jelaskan.
 11. Mengapa cairan infus harus isotonik dengan darah?
 12. Bandingkan energi minimum desalinasi dengan osmosis balik dan distilasi.
+
+## Subbab 10.7: Larutan nyata dan aktivitas
+
 13. Apa beda penyimpangan positif dan negatif dari hukum Raoult, dilihat dari gaya antarmolekul?
 14. Mengapa aktivitas air lebih penting daripada kadar air bagi keawetan makanan?
 15. Mengapa koefisien aktivitas ion menyimpang dari satu bahkan pada larutan yang sangat encer?

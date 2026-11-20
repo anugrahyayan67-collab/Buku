@@ -29,25 +29,57 @@
 
 # Pertanyaan
 
+## Subbab 16.1: Momen magnet spin inti
+
 1. Mengapa inti dengan jumlah proton genap dan neutron genap berspin nol? Apa akibatnya bagi NMR senyawa organik?
 2. Mengapa frekuensi presesi Larmor tidak bergantung pada sudut kemiringan momen magnet? Apa padanannya dalam mekanika kuantum?
+
+## Subbab 16.2: Tingkat energi Zeeman inti
+
 3. Mengapa medan gelombang radio dalam NMR harus tegak lurus medan statis?
+
+## Subbab 16.3: Populasi dan kepekaan
+
 4. Mengapa sinyal NMR sebanding dengan selisih populasi, bukan dengan populasi tingkat bawah saja?
+
+## Subbab 16.4: Perisai dan geseran kimia
+
 5. Dengan dua cara apa magnet yang lebih kuat memperbaiki spektrum NMR?
 6. Bedakan perisai diamagnetik dan paramagnetik. Mengapa rentang geseran ¹H sempit, sedangkan rentang ¹³C dan ¹⁹F lebar?
 7. Mengapa geseran kimia lazim dinyatakan dalam ppm, sedangkan tetapan kopling dalam Hz?
 8. Jelaskan dengan arus cincin mengapa proton benzena kurang terperisai, sedangkan proton di dalam cincin [18]anulena sangat terperisai.
+
+## Subbab 16.5: Kopling spin–spin: spektrum AX
+
 9. Mengapa interaksi dipol–dipol langsung antarinti tidak tampak dalam spektrum cairan, tetapi kopling $J$ tampak?
+
+## Subbab 16.7: Kesetaraan kimia dan magnetik
+
 10. Mengapa proton-proton yang setara secara magnetik tidak menampakkan kopling di antara mereka, padahal $J$ di antara mereka tidak nol?
 11. Apa beda kesetaraan kimia dan kesetaraan magnetik? Berikan satu contoh yang setara secara kimia tetapi tidak secara magnetik.
 12. Mengapa proton CH₂ yang bertetangga dengan pusat kiral tidak setara, meskipun ikatan di sekitarnya berputar bebas?
 13. Bagaimana NMR dapat mengukur laju proses yang terlalu cepat untuk diikuti dengan metode pencampuran biasa?
+
+## Subbab 16.8: Model vektor, pulsa, dan FID
+
 14. Apa keuntungan kerangka berputar? Mengapa model vektor klasik memberi hasil yang tepat untuk spin yang tidak berkopling?
 15. Mengapa FID dan spektrum memuat informasi yang sama? Apa keunggulan Fellgett?
+
+## Subbab 16.9: Relaksasi T₁ dan T₂
+
 16. Bedakan $T_1$, $T_2$, dan $T_2^*$. Mengapa $T_2$ tidak pernah lebih besar daripada $2T_1$?
 17. Molekul kecil dalam pelarut encer dan protein besar dapat sama-sama mempunyai $T_1$ sekitar satu detik. Mengapa lebar garisnya sangat berbeda?
+
+## Subbab 16.10: Konsep NMR dua dimensi
+
 18. Bagaimana spektrum dua dimensi menunjukkan "siapa terhubung dengan siapa"? Bedakan informasi COSY, HSQC, dan NOESY.
+
+## Subbab 16.11: ESR: faktor g dan kopling hiperhalus
+
 19. Mengapa elektron tak berpasangan dalam orbital π dapat memberi kopling hiperhalus dengan proton yang terletak di bidang simpul orbital itu?
+
+## Subbab 16.12: MRI
+
 20. Bagaimana MRI mengubah frekuensi menjadi posisi, dan dari mana asal kontras antarjaringan?
 21. Bagaimana teka-teki pembuka bab (kuantum energi yang amat kecil dan selisih populasi yang amat tipis, tetapi alat struktur yang paling ampuh) terjawab oleh isi bab ini?
 

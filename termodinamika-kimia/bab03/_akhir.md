@@ -19,19 +19,45 @@
 
 # Pertanyaan
 
+## Subbab 3.1: Energi dalam dan fungsi keadaan
+
 1. Mengapa nilai mutlak energi dalam tidak dapat (dan tidak perlu) diketahui?
 2. Bedakan kerja dan kalor dari sudut gerak molekul.
+
+## Subbab 3.2: Kerja ekspansi
+
 3. Mengapa kerja ekspansi dihitung dengan tekanan luar, bukan tekanan gas?
 4. Mengapa reaksi yang menghasilkan gas melakukan kerja walaupun tidak ada piston?
+
+## Subbab 3.3: Proses reversibel dan tak reversibel
+
 5. Jelaskan dengan diagram *p*–*V* mengapa kerja ekspansi bertahap selalu lebih kecil daripada kerja ekspansi reversibel.
 6. Apa arti "reversibel" dalam termodinamika, dan mengapa tidak ada proses nyata yang benar-benar reversibel?
+
+## Subbab 3.4: Kalor dan kapasitas kalor
+
 7. Mengapa $C_p$ selalu lebih besar daripada $C_V$?
+
+## Subbab 3.5: Hukum pertama termodinamika
+
 8. Bagaimana percobaan Joule membuktikan bahwa kalor bukan zat, melainkan energi?
 9. Mengapa mesin abadi jenis pertama mustahil?
+
+## Subbab 3.6: Diferensial eksak dan tak eksak
+
 10. Jelaskan perbedaan diferensial eksak dan tak eksak dengan contoh dari kehidupan sehari-hari.
+
+## Subbab 3.7: Proses isotermal gas ideal
+
 11. Mengapa energi dalam gas ideal hanya bergantung pada suhu, sedangkan energi dalam gas nyata juga bergantung pada volume?
+
+## Subbab 3.8: Proses adiabatik gas ideal
+
 12. Mengapa adiabat lebih curam daripada isoterm pada diagram *p*–*V*?
 13. Jelaskan mengapa pompa sepeda menjadi panas dan kaleng semprot menjadi dingin.
+
+## Subbab 3.9: Energi dalam dari sudut molekul: ekuipartisi
+
 14. Apa isi asas ekuipartisi, dan mengapa asas itu gagal untuk getaran molekul pada suhu kamar?
 15. Mengapa γ gas monoatomik lebih besar daripada γ gas poliatomik?
 

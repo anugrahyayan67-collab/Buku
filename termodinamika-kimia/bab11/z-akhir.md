@@ -18,20 +18,40 @@
 
 # Pertanyaan
 
+## Subbab 11.1: Aturan fasa Gibbs
+
 1. Apa perbedaan banyaknya komponen dan banyaknya spesies dalam aturan fasa?
 2. Mengapa diagram fasa dua komponen biasanya digambar dengan suhu atau tekanan tetap?
+
+## Subbab 11.2: Diagram tekanan uap–komposisi
+
 3. Jelaskan aturan tuas dengan analogi tuas yang setimbang.
+
+## Subbab 11.3: Diagram suhu–komposisi dan distilasi
+
 4. Mengapa campuran dua cairan mendidih dalam rentang suhu?
 5. Bagaimana kolom distilasi melakukan banyak langkah penguapan–pengembunan tanpa memindahkan cairan ke labu lain?
+
+## Subbab 11.4: Azeotrop
+
 6. Mengapa azeotrop tidak dapat dilewati dengan distilasi biasa?
 7. Apa hubungan antara penyimpangan dari hukum Raoult dan jenis azeotrop?
+
+## Subbab 11.5: Cairan yang tidak bercampur sempurna
+
 8. Jelaskan dengan energi Gibbs pencampuran mengapa dua cairan dapat terpisah menjadi dua lapisan.
 9. Mengapa beberapa pasangan cairan bercampur pada suhu rendah dan terpisah pada suhu tinggi?
 10. Mengapa distilasi uap cocok untuk minyak atsiri?
+
+## Subbab 11.6: Kesetimbangan cair–padat dan eutektik
+
 11. Mengapa kelarutan ideal tidak bergantung pada pelarut? Kapan anggapan ini gagal?
 12. Bagaimana kurva pendinginan dipakai untuk menentukan diagram fasa padat–cair?
 13. Mengapa garam tidak dapat mencairkan es di bawah −21 °C?
 14. Bagaimana pemurnian zona memanfaatkan diagram fasa padat–cair?
+
+## Subbab 11.8: Ekstraksi dan sistem tiga komponen dalam praktik
+
 15. Mengapa ekstraksi berulang lebih efisien daripada satu kali ekstraksi?
 
 # Soal

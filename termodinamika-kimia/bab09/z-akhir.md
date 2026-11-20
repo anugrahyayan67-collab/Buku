@@ -18,16 +18,30 @@
 
 # Pertanyaan
 
+## Subbab 9.1: Besaran molar parsial
+
 1. Mengapa 50 mL etanol dan 50 mL air menghasilkan kurang dari 100 mL larutan?
 2. Apa perbedaan volume molar parsial dan volume molar?
 3. Mengapa syarat "campuran yang sangat besar" diperlukan dalam arti fisis besaran molar parsial?
+
+## Subbab 9.2: Volume molar parsial
+
 4. Jelaskan elektrostriksi dan akibatnya bagi volume molar parsial garam.
 5. Mengapa kadar alkohol dalam persen volume didefinisikan terhadap volume larutan akhir?
+
+## Subbab 9.3: Potensial kimia
+
 6. Apa arti fisis potensial kimia? Mengapa ia disebut "potensial"?
 7. Bandingkan potensial kimia dengan suhu dan potensial listrik sebagai pendorong aliran.
 8. Mengapa konsentrasi iodin dalam air dan CCl₄ tidak sama pada kesetimbangan, padahal potensial kimianya sama?
 9. Bagaimana tekanan dapat menghentikan aliran osmosis?
+
+## Subbab 9.4: Persamaan Gibbs–Duhem
+
 10. Apa yang dikatakan persamaan Gibbs–Duhem tentang campuran dua zat?
+
+## Subbab 9.5: Potensial kimia gas ideal dan gas nyata
+
 11. Mengapa potensial kimia zat menuju −∞ bila tekanan parsialnya menuju nol? Apa akibatnya bagi pemurnian?
 12. Mengapa pencampuran gas ideal spontan walaupun tidak ada kalor yang dilepaskan?
 13. Mengapa menangkap CO₂ dari udara lebih mahal daripada dari gas buang cerobong?

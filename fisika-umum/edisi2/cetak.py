@@ -42,7 +42,13 @@ def pembuka(n, out):
     m1 = re.search(r'<h1 id="[^"]*" class="pita1">Soal</h1>', s); m2 = re.search(r'<h1 id="[^"]*" class="pita1">Jawaban</h1>', s)
     if m1 and m2:
         blok = re.sub(r'<p>(<strong>\d+\.</strong>)', r'<p class="si">\1', s[m1.end():m2.start()])
+        mb = re.search(r'<blockquote>.*?</blockquote>', blok, re.S)   # catatan data di atas, selebar halaman
+        if mb: blok = mb.group(0) + blok[:mb.start()] + blok[mb.end():]
         s = s[:m1.end()] + '<div class="soal2">' + blok + '</div>' + s[m2.start():]
+    # bagian Pertanyaan: dikelompokkan per subbab, dua kolom seperti Soal
+    m1 = re.search(r'<h1 id="[^"]*" class="pita1">Pertanyaan</h1>', s); m2 = re.search(r'<h1 id="[^"]*" class="pita1">Soal</h1>', s)
+    if m1 and m2 and m1.end() < m2.start():
+        s = s[:m1.end()] + '<div class="soal2 tanya">' + s[m1.end():m2.start()] + '</div>' + s[m2.start():]
     balik = f'https://hal/d/{n}'
     s = re.sub(r'(<h2 id="[^"]*" class="sub">)(.*?)</h2>', lambda m: f'{m.group(1)}<a class="tl" href="{balik}">{m.group(2)}</a></h2>', s, flags=re.S)
     s = re.sub(r'(<h1 id="[^"]*" class="pita1">)(.*?)</h1>', lambda m: f'{m.group(1)}<a class="tl" href="{balik}">{m.group(2)}</a></h1>', s, flags=re.S)

@@ -35,32 +35,58 @@
 
 # Pertanyaan
 
+## Subbab 14.1: Magnet dan medan magnet
+
 1. Mengapa magnet yang dipotong dua tidak menghasilkan kutub utara dan kutub selatan yang terpisah?
 2. Apa beda mendasar garis medan magnet dengan garis medan listrik?
+
+## Subbab 14.3: Gerak partikel bermuatan dalam medan magnet
+
 3. Medan magnet tidak pernah melakukan usaha pada partikel bermuatan. Jelaskan, dan sebutkan akibatnya bagi kelajuan partikel.
 4. Bagaimana membedakan apakah sebuah partikel dibelokkan oleh medan listrik atau oleh medan magnet?
 5. Mengapa frekuensi putaran partikel dalam siklotron tidak bergantung pada kelajuannya? Mengapa hal itu penting?
 6. Spektrometer massa mengukur $m/z$, bukan $m$. Apa akibatnya bagi ion bermuatan ganda?
 7. Mengapa spektrum massa senyawa berklorin menunjukkan pasangan puncak berjarak dua satuan?
 8. Bagaimana efek Hall menunjukkan tanda pembawa muatan dalam suatu bahan?
+
+## Subbab 14.5: Medan magnet oleh arus
+
 9. Dua kawat berarus searah tarik-menarik, sedangkan dua muatan sejenis tolak-menolak. Apakah itu bertentangan?
 10. Mengapa magnet NMR dan MRI harus dibuat dari kawat superkonduktor?
+
+## Subbab 14.6: Kemagnetan atom, molekul, dan bahan
+
 11. Mengapa zat yang semua elektronnya berpasangan tidak ditarik magnet?
 12. Bagaimana pengukuran momen magnet membantu menentukan susunan elektron suatu ion kompleks?
 13. Rumus Lewis O=O gagal menjelaskan satu sifat oksigen. Sifat apa, dan teori apa yang berhasil?
 14. Mengapa besi kehilangan kemagnetannya jika dipanaskan di atas suhu tertentu?
 15. Mengapa NMR jauh kurang peka daripada spektrometri massa? Mengapa medan yang lebih kuat menolong?
 16. Mengapa geseran kimia dinyatakan dalam ppm dan bukan dalam hertz?
+
+## Subbab 14.7: Induksi elektromagnetik
+
 17. Magnet yang diam di dalam kumparan tidak menghasilkan arus. Mengapa?
 18. Hukum Lenz sering disebut akibat kekekalan energi. Jelaskan.
+
+## Subbab 14.8: Generator, transformator, dan arus bolak-balik
+
 19. Mengapa transformator tidak bekerja dengan arus searah?
 20. Mengapa inti transformator dibuat dari lembaran-lembaran tipis, bukan besi pejal?
 21. Bagaimana kompor induksi memanaskan panci tanpa memanaskan permukaan kompornya sendiri?
+
+## Subbab 14.10: Gelombang elektromagnetik
+
 22. Mengapa foton gelombang radio tidak berbahaya bagi jaringan tubuh, sedangkan foton sinar-X berbahaya?
 23. Apa yang menurut Maxwell berayun dalam gelombang cahaya?
+
+## Subbab 14.11: Rangkaian arus bolak-balik
+
 24. Mengapa induktor dan kapasitor ideal tidak memakai daya rata-rata, padahal arus mengalir melaluinya?
 25. Pada resonansi, tegangan pada kapasitor dapat jauh melampaui tegangan sumber. Bagaimana mungkin, dan mengapa tidak melanggar kekekalan energi?
 26. Mengapa faktor daya yang rendah merugikan perusahaan listrik walaupun daya nyata yang dipakai sama?
+
+## Subbab 14.12: NMR lebih dalam: membaca spektrum
+
 27. Mengapa proton yang dekat dengan atom oksigen beresonansi pada geseran kimia yang lebih besar?
 28. Mengapa tetapan kopling $J$ dinyatakan dalam hertz, sedangkan geseran kimia dalam ppm?
 29. Mengapa sinyal proton OH sering tampak sebagai satu puncak lebar, dan hilang setelah dikocok dengan D₂O?

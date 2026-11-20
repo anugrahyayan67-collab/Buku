@@ -28,25 +28,54 @@
 
 # Pertanyaan
 
+## Subbab 14.1: Orbital d dalam medan ligan
+
 1. Mengapa kelima orbital d berdegenerasi dalam ion bebas, dan apa yang menghapus degenerasi itu dalam kompleks?
 2. Mengapa orbital s dan p tidak terpecah dalam medan oktahedral, sedangkan orbital d dan f terpecah?
 3. Model muatan titik memberi $\Delta_o$ yang hampir benar untuk [CrF₆]³⁻. Mengapa model itu tetap dianggap keliru secara fisis? Sebutkan tiga bukti.
 4. Mengapa $\Delta_o$ naik tajam dari logam 3d ke 4d dan 5d, dan apa akibatnya bagi magnetisme kompleks logam berat?
+
+## Subbab 14.3: Medan tetrahedral dan bujur sangkar
+
 5. Mengapa kompleks tetrahedral hampir selalu berspin tinggi dan mengapa pita d–d-nya lebih kuat daripada kompleks oktahedral?
+
+## Subbab 14.4: Energi stabilisasi medan kristal dan sifat termodinamika
+
 6. Mengapa entalpi hidrasi Ca²⁺, Mn²⁺, dan Zn²⁺ terletak pada satu garis lurus? Apa yang dibuktikan oleh kurva "dua punuk"?
 7. Apa yang menentukan apakah sebuah spinel normal atau terbalik? Mengapa magnetit terbalik?
 8. Jelaskan deret Irving–Williams dan mengapa puncaknya di Cu²⁺, bukan di Ni²⁺.
 9. Mengapa kompleks Cr(III) dan Co(III) lembam secara kinetik, sedangkan kompleks Cu(II) sangat labil?
+
+## Subbab 14.5: Spin tinggi dan spin rendah; magnetisme
+
 10. Bagaimana pengukuran momen magnet membedakan kompleks Ni(II) tetrahedral dan bujur sangkar?
 11. Apa yang dimaksud dengan pemadaman momentum sudut orbital, dan untuk lambang keadaan dasar apa ia terjadi?
 12. Mengapa transisi spin dalam padatan sering berlangsung tajam, bahkan dengan histeresis, padahal model kesetimbangan meramalkan transisi landai?
+
+## Subbab 14.6: Efek Jahn–Teller
+
 13. Apa yang diramalkan dan apa yang tidak diramalkan oleh teorema Jahn–Teller?
+
+## Subbab 14.7: Teori medan ligan: OM kompleks oktahedral
+
 14. Mengapa orbital $t_{2g}$ tidak berikatan dalam kompleks donor σ murni? Apa yang berubah bila ligan mempunyai orbital π?
 15. Bedakan deret spektrokimia dan deret nefelauksetik. Mengapa iodida berada di ujung yang berlawanan dalam kedua deret?
+
+## Subbab 14.8: Ikatan π dan deret spektrokimia
+
 16. Mengapa CO, yang hampir tidak bersifat basa terhadap proton, membentuk ikatan sangat kuat dengan logam bervalensi rendah?
+
+## Subbab 14.10: Diagram Orgel dan Tanabe–Sugano
+
 17. Mengapa diagram Tanabe–Sugano memakai sumbu $E/B$ dan $\Delta_o/B$, dan mengapa garisnya patah pada d⁴–d⁷?
+
+## Subbab 14.11: Spektrum elektronik dan warna kompleks
+
 18. Mengapa sebagian pita d–d lebar sedangkan sebagian lain (garis R rubi, pita 25 000 cm⁻¹ Mn²⁺) tajam?
 19. Bagaimana kamu membedakan pita d–d dan pita transfer muatan dalam spektrum suatu kompleks?
+
+## Subbab 14.13: Aturan 18 elektron dan senyawa organologam
+
 20. Mengapa aturan 18 elektron andal untuk karbonil logam tetapi tidak untuk kompleks Werner seperti [Ni(H₂O)₆]²⁺?
 21. Bagaimana teka-teki pembuka bab (rubi merah, zamrud hijau, keduanya karena Cr³⁺) terjawab?
 

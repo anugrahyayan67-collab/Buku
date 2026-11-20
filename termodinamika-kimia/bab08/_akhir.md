@@ -18,20 +18,40 @@
 
 # Pertanyaan
 
+## Subbab 8.1: Fasa, transisi fasa, dan kestabilan
+
 1. Apa yang dimaksud fasa? Mengapa segelas air dengan tiga bongkah es hanya mempunyai dua fasa?
 2. Mengapa zat murni memilih fasa dengan energi Gibbs molar terendah?
 3. Jelaskan mengapa air dingin-lewat dapat bertahan, padahal pembekuannya spontan.
+
+## Subbab 8.2: Syarat kesetimbangan fasa
+
 4. Mengapa potensial kimia disebut "potensial"?
+
+## Subbab 8.3: Persamaan Clapeyron
+
 5. Mengapa persamaan Clapeyron eksak, sedangkan Clausius–Clapeyron hanya pendekatan?
 6. Mengapa tanda kemiringan garis padat–cair ditentukan oleh tanda $\Delta_\text{fus}V$?
+
+## Subbab 8.4: Persamaan Clausius–Clapeyron
+
 7. Jelaskan dengan diagram fasa mengapa panci presto memasak lebih cepat.
 8. Mengapa plot ln *p* terhadap 1/*T* sedikit melengkung untuk rentang suhu yang lebar?
 9. Mengapa garis padat–gas lebih curam daripada garis cair–gas di titik tripel?
 10. Jelaskan proses Bergeron dengan memakai tekanan uap es dan air dingin-lewat.
+
+## Subbab 8.6: Diagram fasa CO₂
+
 11. Mengapa es kering menyublim, sedangkan es biasa meleleh?
 12. Mengapa manometer tabung CO₂ tidak menunjukkan sisa isinya?
+
+## Subbab 8.7: Titik tripel dan titik kritis
+
 13. Apa yang dimaksud opalesensi kritis?
 14. Mengapa garis cair–gas berakhir di titik kritis, sedangkan garis padat–cair tidak?
+
+## Subbab 8.8: Aturan fasa Gibbs untuk satu komponen
+
 15. Mengapa empat fasa zat murni tidak dapat setimbang bersama?
 
 # Soal

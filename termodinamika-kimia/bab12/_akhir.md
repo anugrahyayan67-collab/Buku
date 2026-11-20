@@ -16,18 +16,38 @@
 
 # Pertanyaan
 
+## Subbab 12.1: Energi Gibbs reaksi dan kemajuan reaksi
+
 1. Mengapa reaksi dengan $\Delta_\text{r}G^\circ$ positif tetap menghasilkan sedikit hasil?
 2. Apa arti fisis $\Delta_\text{r}G$ sebagai kemiringan kurva *G* terhadap ξ?
+
+## Subbab 12.2: Energi Gibbs standar reaksi dan tetapan kesetimbangan
+
 3. Mengapa tetapan kesetimbangan termodinamika tidak bersatuan?
 4. Mengapa *K* sangat peka terhadap $\Delta_\text{r}G^\circ$?
 5. Jelaskan aturan penggabungan *K* dengan hukum Hess untuk energi Gibbs.
+
+## Subbab 12.3: *K*, *K*_c, dan *K*_x
+
 6. Mengapa plester kapur mengeras di udara?
+
+## Subbab 12.5: Pengaruh tekanan dan gas lembam
+
 7. Mengapa komposisi kesetimbangan reaksi dengan Δν = 0 tidak bergantung pada tekanan?
 8. Mengapa reaksi yang menambah jumlah mol gas hampir tuntas pada tekanan sangat rendah?
 9. Bagaimana gas lembam yang menumpuk merugikan pabrik amonia?
+
+## Subbab 12.6: Pengaruh suhu: persamaan van 't Hoff
+
 10. Apa hubungan antara persamaan van 't Hoff dan persamaan Clausius–Clapeyron?
 11. Bagaimana $\Delta_\text{r}H^\circ$ suatu reaksi dapat diukur tanpa kalorimeter?
+
+## Subbab 12.7: Asas Le Chatelier secara termodinamika
+
 12. Berikan contoh kegagalan asas Le Chatelier dan jelaskan sebabnya.
+
+## Subbab 12.8: Kesetimbangan dalam industri dan biokimia
+
 13. Mengapa proses Haber–Bosch dijalankan pada 400–500 °C?
 14. Mengapa biokimiawan memerlukan keadaan standar yang berbeda?
 15. Mengapa Δ*G* hidrolisis ATP di dalam sel jauh lebih negatif daripada $\Delta_\text{r}G^{\circ\prime}$?

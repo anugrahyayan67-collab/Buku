@@ -29,26 +29,55 @@
 
 # Pertanyaan
 
+## Subbab 2.1: Bilangan kompleks dan rumus Euler
+
 1. Mengapa fungsi gelombang boleh bernilai kompleks, sedangkan hasil pengukuran selalu riil? Besaran apa yang menghubungkan keduanya?
 2. Apa beda faktor fase global dan fase relatif? Mana yang dapat diamati?
 3. Mengapa bentuk eksponen kompleks $e^{ikx}$ lebih mudah dipakai daripada $\cos kx$ untuk menurunkan persamaan gelombang?
 4. Mengapa pasangan akar satuan $e^{2\pi ik/N}$ dan $e^{-2\pi ik/N}$ menghasilkan tingkat energi Hückel yang terdegenerasi pada molekul siklik?
+
+## Subbab 2.2: Turunan, integral parsial, integral Gauss
+
 5. Mengapa integral parsial dalam mekanika kuantum hampir selalu mempunyai suku batas nol?
 6. Faktor apa dalam elemen luas atau elemen volume yang membuat integral Gauss dan integral sudut orbital menjadi mudah?
 7. Bagaimana paritas memungkinkan kita menyatakan sebuah integral nol tanpa menghitungnya? Beri contoh aturan seleksi.
+
+## Subbab 2.3: Persamaan diferensial orde dua
+
 8. Apa perbedaan mendasar antara masalah syarat awal dan masalah syarat batas? Mana yang menghasilkan kuantisasi?
+
+## Subbab 2.4: Penyelesaian dengan deret pangkat
+
 9. Dalam metode deret pangkat untuk osilator harmonik, mengapa deret harus berhenti? Apa hubungannya dengan kuantisasi energi?
+
+## Subbab 2.5: Koordinat bola dan silinder, elemen volume
+
 10. Mengapa fungsi distribusi radial orbital 1s nol di inti, padahal rapat peluangnya terbesar di sana?
 11. Mengapa koordinat bola cocok untuk atom, dan koordinat silinder untuk molekul linear?
+
+## Subbab 2.6: Vektor dan hasil kali dalam fungsi
+
 12. Dalam arti apa fungsi adalah vektor? Apa padanan hasil kali titik, panjang, dan komponen?
 13. Mengapa ortonormalitas basis membuat koefisien ekspansi mudah dihitung?
 14. Apa makna fisis integral tumpang tindih, dan mengapa nilainya tidak pernah melebihi satu (untuk fungsi ternormalisasi)?
+
+## Subbab 2.7: Matriks dan determinan
+
 15. Sifat determinan mana yang mewujudkan asas larangan Pauli?
 16. Mengapa persamaan sekuler $\det(\mathbf H - E\mathbf S) = 0$ (Bab 8) muncul dari sistem persamaan linear homogen?
 17. Mengapa besaran fisis dinyatakan oleh matriks Hermitian? Sebutkan dua sifat nilai dan vektor eigennya.
+
+## Subbab 2.9: Deret Taylor dan deret Fourier
+
 18. Apa yang dimaksud pendekatan harmonik, dan suku deret Taylor mana yang diabaikan?
 19. Mengapa sinyal yang meluruh cepat terhadap waktu menghasilkan garis spektrum yang lebar?
+
+## Subbab 2.10: Peluang, nilai rata-rata, simpangan baku
+
 20. Mengapa nilai rata-rata sebuah besaran tidak harus sama dengan salah satu nilai yang mungkin terukur?
+
+## Subbab 2.11: Satuan atom
+
 21. Mengapa satuan atom disebut satuan "alami" untuk kimia? Berapa orde besaran angka-angka khas molekul dalam satuan itu?
 
 # Soal

@@ -25,26 +25,61 @@
 
 # Pertanyaan
 
+## Subbab 12.1: Dari ikatan valensi H₂ ke molekul poliatom
+
 1. Apa yang dimaksud dengan fungsi gelombang pasangan sempurna, dan bagaimana kaitannya dengan struktur Lewis?
 2. Mengapa promosi elektron menguntungkan walaupun memerlukan energi? Mengapa promosi tidak boleh dianggap peristiwa nyata?
+
+## Subbab 12.2: Orbital terarah dan gagasan hibridisasi
+
 3. Mengapa orbital-orbital hibrida pada atom yang sama harus saling ortogonal?
 4. Mengapa hibrida $s$–$p$ tidak dapat membentuk sudut kurang dari 90°? Apa akibatnya bagi cincin beranggota tiga dan empat?
 5. Mengapa karakter $s$ disebut sumber daya yang terbatas? Bagaimana gagasan ini menjelaskan kesetaraan keempat ikatan metana?
 6. Apa perbedaan antara sudut antarhibrida dan sudut antarinti? Beri dua contoh molekul yang keduanya berbeda.
+
+## Subbab 12.5: Hibrida sp³: metana; penurunan 109,47° dari ortogonalitas
+
 7. Mengapa ikatan π lebih lemah daripada ikatan σ, dan mengapa ia menghalangi rotasi?
+
+## Subbab 12.6: Hibridisasi tak setara: H₂O, NH₃, aturan Bent, persen karakter s
+
 8. Mengapa pasangan elektron bebas cenderung kaya karakter $s$?
 9. Mengapa hidrida unsur periode 3 dan seterusnya bersudut hampir 90°? Apa akibatnya bagi kebasaan dan inversi PH₃?
 10. Nyatakan aturan Bent dan berikan dua akibatnya yang dapat diamati.
+
+## Subbab 12.7: Hibridisasi dan sifat: panjang ikatan, keasaman C–H, kopling ¹³C–H
+
 11. Mengapa ikatan C–H asetilena lebih kuat secara homolitik tetapi juga jauh lebih asam daripada ikatan C–H etana?
 12. Mengapa tetapan kopling $^1J(^{13}\text{C–H})$ peka terhadap karakter $s$? Kapan hubungan $J \approx 500\alpha$ tidak dapat dipercaya?
+
+## Subbab 12.8: Orbital d dan hipervalensi: PCl₅, SF₆, ikatan tiga pusat empat elektron
+
 13. Apa saja alasan untuk meragukan peran besar orbital $3d$ dalam SF₆ dan PCl₅?
 14. Mengapa molekul hipervalen hampir selalu memerlukan ligan elektronegatif?
+
+## Subbab 12.9: Ikatan tiga pusat dua elektron: diborana
+
 15. Mengapa ikatan tiga pusat dua elektron lebih menyukai susunan tertutup, sedangkan ikatan tiga pusat empat elektron menyukai susunan linear?
+
+## Subbab 12.10: Resonansi dalam teori ikatan valensi: benzena, karbonat, amida
+
 16. Apa arti resonansi dalam teori ikatan valensi? Mengapa resonansi tidak sama dengan tautomeri?
 17. Mengapa energi resonansi bukan besaran yang dapat diukur secara langsung?
+
+## Subbab 12.11: VSEPR dan dasar kuantumnya
+
 18. Bagaimana asas Pauli menjelaskan susunan tetrahedral empat pasangan elektron, bahkan tanpa tolakan Coulomb?
+
+## Subbab 12.12: Teori ikatan valensi modern (GVB, spin-coupled)
+
 19. Apa kelebihan fungsi GVB dibandingkan fungsi Heitler–London dan fungsi RHF untuk H₂, khususnya ketika ikatan diputus?
+
+## Subbab 12.13: Ikatan valensi vs orbital molekul: spektrum fotoelektron metana sebagai uji
+
 20. Mengapa spektrum fotoelektron metana yang menunjukkan dua pita tidak membantah gambaran empat ikatan sp³ yang setara?
+
+## Subbab 12.14: Ikatan dalam senyawa logam transisi menurut teori ikatan valensi
+
 21. Apa keberhasilan dan kegagalan model hibrida Pauling untuk ion kompleks logam transisi?
 22. Bagaimana teka-teki pembuka bab (CH₄ dan bukan CH₂; H₂O 104,5° tetapi H₂S 92,1°) terjawab oleh teori bab ini?
 

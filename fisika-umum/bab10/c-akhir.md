@@ -29,27 +29,56 @@
 
 # Pertanyaan
 
+## Subbab 10.1: Suhu
+
 1. Mengapa termometer harus dibiarkan beberapa saat sebelum dibaca? Hukum apa yang mendasarinya?
 2. Mengapa suhu dalam $pV = nRT$ harus dalam kelvin, sedangkan dalam $Q = mc\,\Delta T$ boleh dalam Celsius?
+
+## Subbab 10.2: Pemuaian
+
 3. Tutup logam pada stoples kaca macet. Mengapa menyiramnya dengan air panas menolong?
 4. Mengapa alat gelas volumetri tidak boleh dikeringkan dalam oven panas?
 5. Mengapa molaritas bergantung pada suhu, sedangkan molalitas tidak?
 6. Jelaskan mengapa danau membeku dari permukaan, dan apa akibatnya jika air berperilaku seperti zat cair lain.
+
+## Subbab 10.3: Gas ideal
+
 7. Dua wadah sama besar pada suhu sama berisi gas berbeda dengan tekanan sama. Apa yang pasti sama, dan apa yang belum tentu sama?
+
+## Subbab 10.4: Kalor dan kapasitas kalor
+
 8. Mengapa daerah pantai memiliki selisih suhu siang dan malam yang lebih kecil daripada daerah gurun?
 9. Benarkah pernyataan "benda itu mengandung banyak kalor"? Perbaiki jika perlu.
+
+## Subbab 10.5: Perubahan fasa dan kalor laten
+
 10. Mengapa suhu tidak naik selama es melebur, padahal kalor terus masuk? Ke mana perginya energi itu?
 11. Mengapa luka bakar karena uap 100 °C lebih parah daripada karena air 100 °C?
 12. Lantai keramik terasa lebih dingin daripada karpet pada suhu yang sama. Jelaskan.
+
+## Subbab 10.6: Perpindahan kalor
+
 13. Mengapa beberapa lapis pakaian tipis lebih hangat daripada satu lapis tebal dengan tebal total sama?
 14. Mengapa bagian dalam termos dilapisi perak mengilap?
+
+## Subbab 10.7: Teori kinetik gas
+
 15. Jika molekul udara bergerak 500 m/s, mengapa bau parfum memerlukan waktu lama untuk sampai ke seberang ruangan?
 16. Pada suhu yang sama, molekul mana yang energi kinetik translasi rata-ratanya lebih besar: H₂ atau UF₆? Mana yang lebih cepat?
+
+## Subbab 10.8: Sebaran kelajuan Maxwell–Boltzmann
+
 17. Mengapa kenaikan suhu 10 K dapat melipatduakan laju reaksi, padahal kelajuan rata-rata molekul hampir tidak berubah?
 18. Mengapa zat cair mendingin ketika menguap? Jelaskan dengan sebaran energi molekul.
+
+## Subbab 10.9: Ekuipartisi dan kapasitas kalor
+
 19. Mengapa $C_p$ gas selalu lebih besar daripada $C_V$?
 20. Mengapa getaran molekul N₂ tidak ikut menyumbang kapasitas kalor pada suhu kamar? Mengapa hal itu tidak dapat dijelaskan fisika klasik?
 21. Kalor jenis emas jauh lebih kecil daripada aluminium, tetapi kapasitas kalor molarnya hampir sama. Jelaskan.
+
+## Subbab 10.10: Jalan bebas rata-rata dan gas nyata
+
 22. Apa arti fisis tetapan $a$ dan $b$ pada persamaan van der Waals? Mengapa $a$ air jauh lebih besar daripada $a$ nitrogen?
 23. Mengapa gas tidak dapat dicairkan di atas suhu kritisnya, sebesar apa pun tekanannya?
 

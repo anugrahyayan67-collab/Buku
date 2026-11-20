@@ -32,29 +32,58 @@
 
 # Pertanyaan
 
+## Subbab 8.2: Gerak harmonik sederhana
+
 1. Apa beda gerak periodik dan gerak harmonik sederhana? Berikan contoh gerak periodik yang bukan harmonik.
 2. Bola yang memantul-mantul di lantai bergerak periodik. Apakah geraknya harmonik sederhana? Mengapa?
 3. Dalam satu periode, berapa jarak yang ditempuh osilator beramplitudo $A$? Berapa perpindahannya?
 4. Di titik mana percepatan osilator nol? Di titik mana kecepatannya nol? Mungkinkah keduanya nol bersamaan?
 5. Mengapa periode osilator pegas tidak bergantung pada amplitudo, padahal jarak tempuhnya lebih jauh?
-6. Sebuah osilator pegas dibawa ke Bulan. Apakah periodenya berubah? Bagaimana dengan bandul?
-7. Mengapa massa beban tidak memengaruhi periode bandul?
+6. Mengapa argumen kosinus dalam $x = A\cos\omega t$ harus dalam radian?
+
+## Subbab 8.3: Gerak harmonik dan gerak melingkar
+
+7. Sebuah osilator pegas dibawa ke Bulan. Apakah periodenya berubah? Bagaimana dengan bandul?
 8. Jika pegas dipotong menjadi dua sama panjang dan salah satu potongannya dipakai, apa yang terjadi pada periode getaran beban yang sama?
-9. Mengapa argumen kosinus dalam $x = A\cos\omega t$ harus dalam radian?
-10. Osilator lebih lama berada di dekat titik balik daripada di dekat titik setimbang. Jelaskan.
+
+## Subbab 8.4: Energi gerak harmonik
+
+9. Osilator lebih lama berada di dekat titik balik daripada di dekat titik setimbang. Jelaskan.
+
+## Subbab 8.6: Bandul
+
+10. Mengapa massa beban tidak memengaruhi periode bandul?
+
+## Subbab 8.7: Getaran molekul
+
 11. Mengapa frekuensi getaran molekul memakai massa tereduksi, bukan massa total?
 12. Ikatan H–Cl lebih lunak daripada ikatan C≡O, tetapi bergetar pada frekuensi lebih tinggi. Mengapa?
 13. Mengapa mengganti hidrogen dengan deuterium menggeser pita inframerah, padahal sifat kimianya hampir sama?
 14. Mengapa getaran molekul HCl hampir tidak menyumbang pada kapasitas kalor gas itu pada suhu kamar?
 15. Apa arti fisika energi titik nol? Mungkinkah sebuah molekul benar-benar diam?
+
+## Subbab 8.8: Osilasi teredam
+
 16. Mengapa peredam kejut mobil dirancang mendekati redaman kritis, dan bukan redaman sekecil mungkin?
+
+## Subbab 8.9: Osilasi paksa dan resonansi
+
 17. Osilator ber-$Q$ tinggi memiliki puncak resonansi yang tajam dan berdering lama. Mengapa kedua sifat itu selalu muncul bersama?
 18. Barisan tentara diperintahkan berjalan tidak serempak ketika melintasi jembatan. Mengapa?
+
+## Subbab 8.10: Molekul beratom banyak dan efek rumah kaca
+
 19. Mengapa N₂ dan O₂ bukan gas rumah kaca, sedangkan CO₂ dan H₂O ya?
 20. Ulur simetris CO₂ tidak menyerap inframerah, tetapi ulur asimetrisnya menyerap kuat. Jelaskan.
+
+## Subbab 8.11: Osilasi kecil di sekitar setiap kesetimbangan
+
 21. Mengapa hampir semua sistem yang diganggu sedikit dari kesetimbangan mantap bergetar secara harmonik?
 22. Apa hubungan antara bentuk lembah energi potensial dan frekuensi getaran?
 23. Mengapa potensial Morse lebih realistis daripada parabola untuk ikatan kimia? Sebutkan dua hal yang ditangkap Morse tetapi tidak oleh parabola.
+
+## Subbab 8.12: Superposisi getaran dan analisis Fourier
+
 24. Mengapa nada yang sama dari gitar dan seruling terdengar berbeda?
 25. Apa keuntungan spektrometer FT-IR dibandingkan spektrometer yang memakai kisi difraksi?
 

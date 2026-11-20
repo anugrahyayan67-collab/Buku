@@ -30,34 +30,69 @@
 
 # Pertanyaan
 
+## Subbab 15.1: Dua awan di langit fisika
+
 1. Apa yang ditunjukkan percobaan Michelson–Morley, dan mengapa hasilnya mengejutkan?
 2. Dua kejadian serempak bagi seorang pengamat. Apakah keduanya serempak bagi semua pengamat?
+
+## Subbab 15.2: Dilatasi waktu dan kontraksi panjang
+
 3. Mengapa dilatasi waktu tidak teramati dalam kehidupan sehari-hari?
 4. Muon yang terbentuk di atmosfer atas sampai ke permukaan Bumi. Jelaskan dari kerangka Bumi dan dari kerangka muon.
 5. Mengapa tidak ada benda bermassa yang dapat dipercepat sampai laju cahaya?
+
+## Subbab 15.3: Momentum, massa, dan energi
+
 6. Apakah hukum kekekalan massa berlaku dalam reaksi kimia? Dalam reaksi inti?
 7. Mengapa massa inti selalu lebih kecil daripada jumlah massa nukleon-nukleon penyusunnya?
+
+## Subbab 15.4: Radiasi benda hitam dan kuantum Planck
+
 8. Apa yang dimaksud "bencana ultraviolet", dan bagaimana hipotesis Planck mengatasinya?
 9. Apa persamaan antara pembekuan getaran molekul (Bab 10) dan penyelesaian Planck untuk benda hitam?
+
+## Subbab 15.5: Efek fotolistrik
+
 10. Sebutkan tiga pengamatan efek fotolistrik yang tidak dapat dijelaskan teori gelombang.
 11. Mengapa cahaya merah yang sangat terang tidak melepaskan elektron dari seng, sedangkan ultraviolet yang redup dapat?
+
+## Subbab 15.6: Foton dan materi
+
 12. Mengapa lampu inframerah tidak menggelapkan kulit, sedangkan ultraviolet dapat?
 13. Kertas foto hitam-putih lama dapat diolah di bawah lampu merah. Jelaskan dengan konsep foton.
 14. Mengapa sinar-X cocok untuk menentukan struktur kristal, sedangkan cahaya tampak tidak?
+
+## Subbab 15.7: Spektrum atom dan model Bohr
+
 15. Mengapa atom menurut fisika klasik seharusnya tidak mantap?
 16. Mengapa spektrum atom berupa garis-garis dan bukan pita malar?
 17. Apa saja keberhasilan dan kegagalan model Bohr?
+
+## Subbab 15.8: Gelombang materi dan ketidakpastian
+
 18. Bagaimana gagasan de Broglie menjelaskan syarat kuantisasi Bohr?
 19. Mengapa sifat gelombang bola tenis tidak pernah teramati?
+
+## Subbab 15.9: Dari Bohr ke orbital
+
 20. Jelaskan dengan asas ketidakpastian mengapa elektron tidak jatuh ke inti.
 21. Apa beda "orbit" dalam model Bohr dengan "orbital" dalam mekanika kuantum?
 22. Bagaimana asas Pauli menentukan bentuk tabel periodik?
 23. Mengapa energi ionisasi pertama helium tidak dapat dihitung dengan model Bohr?
+
+## Subbab 15.10: Persamaan Schrödinger: partikel dalam kotak dan penerobosan
+
 24. Mengapa partikel dalam kotak tidak dapat memiliki energi nol? Jelaskan dengan gelombang berdiri dan dengan asas ketidakpastian.
 25. Mengapa molekul dengan rantai ikatan rangkap terkonjugasi yang panjang berwarna, sedangkan yang pendek tidak?
 26. Mengapa penerobosan penting bagi elektron dan hampir tidak berarti bagi atom berat?
+
+## Subbab 15.11: Ikatan kimia sebagai gejala kuantum
+
 27. Mengapa elektron dalam orbital ikatan merekatkan dua atom? Sebutkan dua alasan.
 28. Mengapa ikatan C–D lebih sulit diputus daripada ikatan C–H, padahal kurva energi potensialnya sama?
+
+## Subbab 15.12: Inti atom dan radioaktivitas
+
 29. Mengapa fusi inti ringan dan fisi inti berat sama-sama melepaskan energi?
 30. Mengapa laju peluruhan radioaktif tidak dapat dipercepat dengan pemanasan atau katalis, sedangkan laju reaksi kimia dapat?
 
