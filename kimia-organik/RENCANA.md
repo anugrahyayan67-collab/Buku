@@ -41,7 +41,7 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 ### ☑ Bab 9 Alkohol, Fenol, Eter, dan Epoksida
 9.1 Struktur, sifat, dan keasaman alkohol dan fenol · 9.2 Membuat alkohol: substitusi, adisi, reduksi karbonil · 9.3 Alkohol menjadi alkil halida (HX, SOCl₂, PBr₃) · 9.4 Dehidrasi alkohol · 9.5 Oksidasi alkohol (PCC, kromat, Swern) dan bilangan oksidasi karbon · 9.6 Gugus pelindung untuk alkohol · 9.7 Fenol: kereaktifan, oksidasi menjadi kuinon, autoksidasi dan antioksidan · 9.8 Eter: sintesis Williamson, alkoksimerkurasi · 9.9 Pemutusan eter oleh asam · 9.10 Eter mahkota · 9.11 Epoksida: pembuatan dan pembukaan cincin dalam asam dan basa · 9.12 Tiol dan sulfida
 
-### ☐ Bab 10 Senyawa Aromatik dan Substitusi Aromatik
+### ☑ Bab 10 Senyawa Aromatik dan Substitusi Aromatik
 10.1 Benzena: struktur dan kestabilan · 10.2 Aromatisitas dan aturan Hückel; antiaromatik · 10.3 Ion dan heterosiklik aromatik · 10.4 Reaksi pada posisi benzilik · 10.5 Substitusi elektrofilik aromatik: mekanisme umum · 10.6 Halogenasi, nitrasi, sulfonasi · 10.7 Alkilasi dan asilasi Friedel–Crafts · 10.8 Substituen pengaktif dan penonaktif · 10.9 Pengarah orto/para dan meta · 10.10 Benzena dengan beberapa substituen · 10.11 Substitusi nukleofilik aromatik dan benzuna · 10.12 Sintesis senyawa aromatik bertahap
 
 ## Bagian III · Senyawa karbonil dan nitrogen

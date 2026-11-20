@@ -158,3 +158,13 @@ for i, (smi, nm, hasil, c) in enumerate([('CCCCO', 'butan-1-ol', 'hijau', UT), (
 ax.text(W / 2, 4.6, 'K₂Cr₂O₇, H₂SO₄ (jingga)', ha='center', color=TUA, fontsize=13, fontweight='bold', family='Liberation Sans')
 simpan(9, f, 'Tiga alkohol dengan rumus C₄H₁₀O diuji dengan dikromat yang berwarna jingga. Alkohol primer dan sekunder mengubahnya menjadi hijau (Cr³⁺), sedangkan alkohol tersier tidak, karena karbon pembawa –OH-nya tidak mempunyai atom H.')
 print('ok9')
+
+# Bab 10: alkena mengadisi, benzena mensubstitusi
+f, ax = kanvas()
+ax.imshow(rd7('C1=CCCCC1'), extent=[0.5, 2.5, 2.75, 4.55], zorder=2); ax.imshow(rd7('BrC1CCCCC1Br'), extent=[5.3, 7.7, 2.65, 4.65], zorder=2)
+ax.imshow(rd7('c1ccccc1'), extent=[0.5, 2.5, 0.35, 2.15], zorder=2); ax.imshow(rd7('Brc1ccccc1'), extent=[5.3, 7.7, 0.3, 2.2], zorder=2)
+for y, t, t2, c in [(3.65, 'adisi', 'Br₂', UT), (1.25, 'substitusi', 'Br₂, FeBr₃', EM)]:
+    ax.annotate('', (5.1, y), (2.9, y), arrowprops=dict(arrowstyle='-|>', color=c, lw=3)); ax.text(4.0, y + 0.3, t2, ha='center', color=TUA, fontsize=12, family='Liberation Sans')
+    ax.text(4.0, y - 0.5, t, ha='center', color=c, fontsize=13, fontweight='bold', family='Liberation Sans')
+simpan(10, f, 'Sikloheksena mengadisi bromin dan kehilangan ikatan rangkapnya, sedangkan benzena mengganti satu atom H dengan Br dan mempertahankan cincin aromatiknya. Kestabilan enam elektron π yang tersebar merata membuat benzena memilih substitusi.')
+print('ok10')

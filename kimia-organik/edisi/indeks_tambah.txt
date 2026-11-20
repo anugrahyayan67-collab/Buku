@@ -262,3 +262,33 @@ tiol
 sulfida
 disulfida
 sulfoksida
+benzena
+energi resonansi
+aromatisitas
+aturan Hückel
+antiaromatik
+lingkaran Frost
+anion siklopentadienil
+kation tropilium
+piridina
+pirola
+imidazola
+heterosiklik aromatik
+posisi benzilik
+substitusi elektrofilik aromatik
+ion arenium
+efek isotop kinetik
+ion nitronium
+sulfonasi
+alkilasi Friedel–Crafts
+asilasi Friedel–Crafts
+ion asilium
+reduksi Clemmensen
+pengaktif
+penonaktif
+pengarah orto/para
+pengarah meta
+kompleks Meisenheimer
+substitusi nukleofilik aromatik
+benzuna
+gugus penghalang
