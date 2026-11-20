@@ -1,0 +1,101 @@
+## Subbab 9.1: Besaran molar parsial
+
+> Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹ dan, kecuali disebutkan lain, *T* = 298,15 K. Volume molar etanol murni 58,68 dan air murni 18,07 cm³ mol⁻¹. Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab.
+
+**Dasar**
+
+Apa yang dimaksud volume molar parsial? Mengapa ia bergantung pada komposisi? ||| $(\partial V/\partial n_\text{J})_{T,p,n'}$; bergantung pada molekul tetangga
+Suatu campuran berisi 2,00 mol A dan 3,00 mol B. Pada komposisi itu, $V_\text{A} = 40{,}0$ dan $V_\text{B} = 55{,}0$ cm³ mol⁻¹. Hitung volume campuran. ||| 245 cm³
+Dalam campuran ideal, berapa volume molar parsial setiap komponen? ||| sama dengan volume molar zat murninya
+
+**Menengah**
+
+Pada $x_\text{etanol} = 0{,}40$, $V_\text{etanol} = 57{,}19$ dan $V_\text{air} = 17{,}48$ cm³ mol⁻¹. Hitung volume 1,00 mol campuran dan volume pencampurannya. ||| 33,36 cm³; −0,95 cm³
+Mengapa (9.2) hanya boleh dipakai dengan volume molar parsial pada komposisi campuran akhir? ||| volume molar parsial berubah dengan komposisi
+
+
+Satu mol air ditambahkan ke danau etanol murni. Berapa kira-kira pertambahan volumenya (lihat Gambar 9.2)? ||| sekitar 14 cm³
+
+## Subbab 9.2: Volume molar parsial
+
+**Dasar**
+
+Dengan rumus Contoh 9.2, hitung volume molar parsial NaCl dan volume larutan pada *b* = 0,100 mol kg⁻¹. ||| 17,48 cm³ mol⁻¹; 1004,68 cm³
+Mengapa volume molar parsial MgSO₄ dalam larutan encer dapat negatif? ||| elektrostriksi: air di sekitar ion menyusut lebih banyak daripada volume ion
+
+**Menengah**
+
+@potong [P] Tunjukkan bahwa garis singgung pada kurva $V_\text{m}(x_\text{B})$ campuran dua zat memotong $x_\text{B} = 0$ di $V_\text{A}$ dan $x_\text{B} = 1$ di $V_\text{B}$. ||| lihat pembahasan
+Dengan rumus Contoh 9.2, hitung volume molar parsial air pada *b* = 0,500 mol kg⁻¹. ||| 18,063 cm³ mol⁻¹
+Berapa volume etanol murni dan air murni yang diperlukan untuk membuat 1000 cm³ campuran dengan $x_\text{etanol} = 0{,}30$ (data Contoh 9.3)? ||| 598 cm³ etanol, 430 cm³ air
+
+Pada larutan sukrosa dengan 1,000 kg air, volume 1063,9; 1066,1; dan 1068,3 cm³ untuk 0,290; 0,300; dan 0,310 mol sukrosa. Taksir volume molar parsial sukrosa. ||| 220 cm³ mol⁻¹
+
+**Tantangan ★**
+
+★ Dari rumus Contoh 9.2, tunjukkan bahwa $V_\text{air} = (1002{,}96 - 0{,}885\,b^{3/2} - 0{,}12\,b^2)/55{,}51$ cm³ mol⁻¹. ||| dari $V = n_\text{air}V_\text{air} + bV_\text{NaCl}$
+
+## Subbab 9.3: Potensial kimia
+
+**Dasar**
+
+Tuliskan persamaan fundamental (9.5) untuk campuran dua zat A dan B. ||| $dG = -S\,dT + V\,dp + \mu_\text{A}dn_\text{A} + \mu_\text{B}dn_\text{B}$
+Potensial kimia zat J dalam fasa α adalah −20,0 kJ mol⁻¹ dan dalam fasa β −22,5 kJ mol⁻¹. Ke arah mana J berpindah? Berapa Δ*G* bila 0,10 mol berpindah? ||| α → β; −0,25 kJ
+Mengapa oksigen dan karbon dioksida dapat melewati membran yang sama dalam arah berlawanan? ||| setiap zat mengikuti potensial kimianya sendiri
+
+**Menengah**
+
+Turunkan $(\partial\mu_\text{J}/\partial p)_{T,n} = V_\text{J}$ dari (9.5). ||| uji eksak pada turunan campuran $\partial^2G/\partial p\,\partial n_\text{J}$
+Tekanan osmotik darah sekitar 7,7 bar. Berapa selisih potensial kimia air murni dan air dalam darah? ||| 14 J mol⁻¹
+Pada pabrik osmosis balik, air laut ditekan 60 bar. Berapa kenaikan potensial kimia air di sisi air laut, dan apakah air mengalir ke sisi air tawar (Contoh 9.7)? ||| +108 J mol⁻¹; ya, karena melebihi 47,5 J mol⁻¹
+
+Mengapa potensial kimia disebut "suhu bagi materi"? ||| menentukan arah aliran zat seperti suhu menentukan arah aliran kalor
+Iodin dalam sistem air–CCl₄ setimbang. Bila sedikit CCl₄ murni ditambahkan, ke mana iodin berpindah mula-mula? ||| dari air ke CCl₄ (μ di CCl₄ turun)
+
+**Tantangan ★**
+
+★ Berapa kenaikan potensial kimia air cair bila tekanannya dinaikkan 100 bar? Bandingkan dengan selisih potensial kimia air dan es pada −10 °C (Contoh 8.2). ||| 181 J mol⁻¹; sebanding dengan 220 J mol⁻¹
+
+## Subbab 9.4: Persamaan Gibbs–Duhem
+
+**Dasar**
+
+Dalam campuran dengan $x_\text{A} = 0{,}60$, potensial kimia A naik 30 J mol⁻¹. Berapa perubahan potensial kimia B? ||| −45 J mol⁻¹
+Pada $x_\text{A} = 0{,}25$, volume molar parsial A naik 0,10 cm³ mol⁻¹. Berapa perubahan volume molar parsial B? ||| −0,033 cm³ mol⁻¹
+
+**Menengah**
+
+@gd [P] Turunkan persamaan Gibbs–Duhem dari $G = \sum n_\text{J}\mu_\text{J}$ dan (9.5). ||| lihat pembahasan
+Mengapa potensial kimia zat terlarut dalam larutan encer jauh lebih peka terhadap komposisi daripada potensial kimia pelarut? ||| $d\mu_\text{B} = -(x_\text{A}/x_\text{B})d\mu_\text{A}$ dengan $x_\text{A}/x_\text{B}$ besar
+Bagaimana Gibbs–Duhem dipakai untuk memperoleh potensial kimia sukrosa dalam air? ||| dari tekanan uap air pada berbagai konsentrasi, lalu diintegralkan
+
+Bila $\mu_\text{A} = \mu_\text{A}^* + RT\ln x_\text{A} + w x_\text{B}^2$, dengan *w* tetap, tentukan $\mu_\text{B}$ dengan Gibbs–Duhem. ||| $\mu_\text{B} = \mu_\text{B}^* + RT\ln x_\text{B} + w x_\text{A}^2$
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa untuk zat murni, bentuk lengkap Gibbs–Duhem $S\,dT - V\,dp + n\,d\mu = 0$ memberi $d\mu = -S_\text{m}\,dT + V_\text{m}\,dp$. ||| bagi dengan *n*
+
+## Subbab 9.5: Potensial kimia gas ideal dan gas nyata
+
+**Dasar**
+
+Hitung $\mu - \mu^\circ$ untuk N₂ dalam udara pada 1 bar ($p_{\text{N}_2} = 0{,}79$ bar). ||| −584 J mol⁻¹
+Hitung $\Delta_\text{mix}G$ dan $\Delta_\text{mix}S$ untuk mencampur 1,00 mol He dan 1,00 mol Ar. ||| −3,44 kJ; +11,5 J K⁻¹
+Seorang pendaki berada di ketinggian tempat tekanan parsial O₂ di udara 0,13 bar. Berapa penurunan potensial kimia O₂ dibandingkan di permukaan laut (0,21 bar) pada 37 °C? ||| −1,24 kJ mol⁻¹
+Apa yang dimaksud fugasitas? ||| tekanan efektif: tekanan gas ideal dengan potensial kimia yang sama
+
+**Menengah**
+
+@campur [P] Tunjukkan bahwa $\Delta_\text{mix}G$ per mol campuran dua gas ideal paling negatif pada $x = 0{,}5$, dan hitung nilainya pada 25 °C. ||| −1,72 kJ mol⁻¹
+Hitung kerja minimum untuk memperoleh 1,00 mol N₂ murni dari atmosfer. Mengapa lebih murah daripada O₂? ||| 584 J; fraksi mol N₂ lebih besar
+Hitung koefisien fugasitas dan fugasitas N₂ pada 50 bar ($B = -4{,}5$ cm³ mol⁻¹). ||| 0,991; 49,5 bar
+Untuk H₂ pada 25 °C, $B = +14{,}1$ cm³ mol⁻¹. Hitung fugasitasnya pada 100 bar. Mengapa lebih besar daripada tekanannya? ||| 106 bar; tolakan dominan
+Dari Gambar 9.3, taksir fugasitas N₂ pada 200 bar. ||| sekitar 186 bar
+
+Hitung kenaikan potensial kimia O₂ bila udara dimampatkan dari 1 bar ke 50 bar pada 25 °C. ||| 9,70 kJ mol⁻¹
+Dari Gambar 9.3, taksir selisih $\mu_\text{nyata} - \mu_\text{ideal}$ untuk H₂ pada 300 bar dan 25 °C. ||| sekitar +0,57 kJ mol⁻¹ (φ ≈ 1,26)
+Mengapa tabel $\Delta_\text{f}G^\circ$ tetap dapat dipakai untuk gas nyata? ||| keadaan standarnya gas ideal hipotetis pada 1 bar; penyimpangan masuk ke φ
+
+**Tantangan ★**
+
+★ Dari $B = b - a/RT$ (Bab 2), hitung koefisien virial kedua CH₄ pada 25 °C menurut van der Waals, lalu koefisien fugasitasnya pada 10 bar. ||| −49,3 cm³ mol⁻¹; 0,980

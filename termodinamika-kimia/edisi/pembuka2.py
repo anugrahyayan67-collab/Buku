@@ -165,3 +165,20 @@ ax.fill_between(tt + (tc - tt) * t, pt + (pc - pt) * t ** 1.6, 4.6, color=SI, al
 for (x, y), c in [((tt, pt), EM), ((tc, pc), UN)]: ax.add_patch(Circle((x, y), 0.13, fc=c, ec=NI, lw=1.5, zorder=5))
 ax.add_patch(Circle((tc, pc), 0.32, fc=EM, alpha=0.25, lw=0, zorder=4))
 simpan(8, f, 'Titik didih air turun di puncak gunung; diagram fasa memetakan di mana padat, cair, dan gas stabil, dari titik tripel sampai titik kritis.')
+
+# 9 dua gelas ukur yang dicampur dan lereng potensial kimia
+f, ax = kanvas(); rng = np.random.default_rng(9)
+def gelas(x, w, h, isi, c):
+    ax.add_patch(Rectangle((x, 0.6), w, h, fc='white', ec=NI, lw=2, alpha=0.9, zorder=2))
+    ax.add_patch(Rectangle((x + 0.04, 0.64), w - 0.08, isi, color=c, alpha=0.45, zorder=3, lw=0))
+    for k in range(1, 6): ax.plot([x, x + 0.15], [0.6 + k * h / 6] * 2, color=NI, lw=1, zorder=4)
+gelas(0.4, 0.75, 2.6, 1.3, SI); gelas(1.45, 0.75, 2.6, 1.3, UN); gelas(2.7, 0.95, 3.4, 2.5, EM)
+ax.plot([0.4, 3.65], [0.64 + 2.6, 0.64 + 2.6], color=UN, lw=1.4, ls='--', zorder=5)
+ax.annotate('', xy=(2.65, 2.4), xytext=(2.25, 2.4), arrowprops=dict(arrowstyle='-|>', color=NI, lw=2, mutation_scale=14))
+for _ in range(16): bola(ax, rng.uniform(2.85, 3.5), rng.uniform(0.8, 3.0), 0.07, SI if rng.random() < .5 else UN, z=5)
+x = np.linspace(4.6, 8.0, 200); y = 1.0 + 2.8 / (1 + np.exp(4 * (x - 6.3)))
+ax.plot(x, y, color=NI, lw=3); ax.fill_between(x, 0.7, y, color=SI, alpha=0.18, lw=0)
+for xx, c in [(5.0, UN), (5.9, UN), (6.7, SI), (7.5, SI)]:
+    yy = 1.0 + 2.8 / (1 + np.exp(4 * (xx - 6.3))); bola(ax, xx, yy + 0.2, 0.17, c, z=5)
+ax.annotate('', xy=(7.2, 1.6), xytext=(5.6, 3.7), arrowprops=dict(arrowstyle='-|>', color=UN, lw=2.2, mutation_scale=16))
+simpan(9, f, 'Dua volume yang dicampur tidak selalu menjumlah; setiap zat bergerak menuruni lereng potensial kimianya sendiri.')
