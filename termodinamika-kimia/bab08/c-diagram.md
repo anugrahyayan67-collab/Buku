@@ -185,7 +185,7 @@ Belerang mempunyai empat fasa: padat rombik, padat monoklin, cair, dan gas. Romb
 **Kuis cepat 8.8** Mengapa tidak mungkin ada suatu suhu dan tekanan tempat es, air cair, uap air, dan es III berada bersama dalam kesetimbangan?
 :::
 
-## Menuju larutan
+### Menuju bab berikutnya
 
 Seluruh bab ini dibangun dari satu syarat sederhana: dua fasa setimbang bila potensial kimianya sama. Dari syarat itu kita memperoleh persamaan Clapeyron, Clausius–Clapeyron, bentuk diagram fasa air dan CO₂, dan aturan fasa. Tetapi kita hanya membahas zat murni, tempat potensial kimia sama dengan energi Gibbs molar.
 

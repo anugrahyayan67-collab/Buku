@@ -126,49 +126,51 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, *T* = 298,15 K kecuali disebutkan lain, $
 
 **28.** ★ Gabungkan (10.11) dengan aturan Trouton untuk menunjukkan $K_\text{b} \approx RT_\text{b}^*M_\text{A}/(85\ \text{J K}^{-1}\text{mol}^{-1})$. Hitung untuk benzena dan bandingkan dengan Tabel 10.1.
 
+**29.** [P] ★ (a) Hitung titik beku cairan pendingin Contoh 10.10 dengan rumus tanpa pendekatan larutan encer, $\ln x_\text{A} = (\Delta_\text{fus}H/R)(1/T - 1/T^*)$, tetapi tetap menganggap larutannya ideal. (b) Titik beku terukurnya −15 °C. Hitung aktivitas dan koefisien aktivitas air dalam campuran itu. Apa arti nilai koefisien aktivitas yang diperoleh?
+
 ## Subbab 10.6: Tekanan osmotik
 
 **Dasar**
 
-**29.** Hitung tekanan osmotik larutan glukosa 0,100 mol L⁻¹ pada 25 °C.
+**30.** Hitung tekanan osmotik larutan glukosa 0,100 mol L⁻¹ pada 25 °C.
 
-**30.** Berapa konsentrasi glukosa (g L⁻¹) yang isotonik dengan salin normal (0,308 mol partikel per liter)?
+**31.** Berapa konsentrasi glukosa (g L⁻¹) yang isotonik dengan salin normal (0,308 mol partikel per liter)?
 
-**31.** Tekanan osmotik darah 7,7 bar setara dengan kolom air setinggi berapa?
+**32.** Tekanan osmotik darah 7,7 bar setara dengan kolom air setinggi berapa?
 
 **Menengah**
 
-**32.** Larutan 2,00 g L⁻¹ suatu polimer mempunyai tekanan osmotik 80 Pa pada 25 °C. Tentukan massa molarnya.
+**33.** Larutan 2,00 g L⁻¹ suatu polimer mempunyai tekanan osmotik 80 Pa pada 25 °C. Tentukan massa molarnya.
 
-**33.** Mengapa osmometri lebih cocok daripada penurunan titik beku untuk menentukan massa molar protein?
+**34.** Mengapa osmometri lebih cocok daripada penurunan titik beku untuk menentukan massa molar protein?
 
-**34.** Mengapa sel darah merah pecah dalam air murni?
+**35.** Mengapa sel darah merah pecah dalam air murni?
 
 **Tantangan ★**
 
-**35.** ★ Bila separuh air diambil dari air laut dengan osmosis balik, tekanan osmotik air laut sisa naik ketika makin pekat. Tunjukkan bahwa kerja minimum per m³ air tawar adalah $\Pi_0\ln2/0{,}5$, dan hitung nilainya.
+**36.** ★ Bila separuh air diambil dari air laut dengan osmosis balik, tekanan osmotik air laut sisa naik ketika makin pekat. Tunjukkan bahwa kerja minimum per m³ air tawar adalah $\Pi_0\ln2/0{,}5$, dan hitung nilainya.
 
 ## Subbab 10.7: Larutan nyata dan aktivitas
 
 **Dasar**
 
-**36.** Tekanan uap air di atas suatu larutan pada 25 °C adalah 2,90 kPa. Hitung aktivitas air.
+**37.** Tekanan uap air di atas suatu larutan pada 25 °C adalah 2,90 kPa. Hitung aktivitas air.
 
-**37.** Apa arti γ > 1 untuk pelarut?
+**38.** Apa arti γ > 1 untuk pelarut?
 
 **Menengah**
 
-**38.** [P] Dari $G^\text{E} = nw\,x_\text{A}x_\text{B}$, turunkan $\ln\gamma_\text{A} = \beta x_\text{B}^2$.
+**39.** [P] Dari $G^\text{E} = nw\,x_\text{A}x_\text{B}$, turunkan $\ln\gamma_\text{A} = \beta x_\text{B}^2$.
 
-**39.** Dalam model larutan reguler dengan β = 1,20 dan $p_\text{B}^* = 10{,}0$ kPa, berapa tetapan Henry B?
+**40.** Dalam model larutan reguler dengan β = 1,20 dan $p_\text{B}^* = 10{,}0$ kPa, berapa tetapan Henry B?
 
-**40.** Hitung $\gamma_\pm$ MgSO₄ 0,0010 mol kg⁻¹ menurut hukum pembatas Debye–Hückel.
+**41.** Hitung $\gamma_\pm$ MgSO₄ 0,0010 mol kg⁻¹ menurut hukum pembatas Debye–Hückel.
 
-**41.** Hitung kekuatan ion larutan Na₂SO₄ 0,050 mol kg⁻¹.
+**42.** Hitung kekuatan ion larutan Na₂SO₄ 0,050 mol kg⁻¹.
 
 **Tantangan ★**
 
-**42.** ★ Untuk larutan reguler, $\Delta_\text{mix}G_\text{m}/RT = x\ln x + (1 - x)\ln(1 - x) + \beta x(1 - x)$. Tunjukkan bahwa turunan keduanya di *x* = 0,5 negatif bila β > 2, dan jelaskan artinya.
+**43.** ★ Untuk larutan reguler, $\Delta_\text{mix}G_\text{m}/RT = x\ln x + (1 - x)\ln(1 - x) + \beta x(1 - x)$. Tunjukkan bahwa turunan keduanya di *x* = 0,5 negatif bila β > 2, dan jelaskan artinya.
 
 
 # Jawaban
@@ -176,27 +178,28 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, *T* = 298,15 K kecuali disebutkan lain, $
 ::: {.panjang}
 | No. | Jawaban | No. | Jawaban |
 |---|---|---|---|
-| 1 | −8,34 kJ; +28,0 J K⁻¹ | 22 | −2,0 °C (terukur −1,9 °C) |
-| 2 | interaksi A–B sama dengan A–A dan B–B | 23 | 5,11 K kg mol⁻¹ |
-| 3 | −1,39 kJ mol⁻¹ | 24 | 155 g mol⁻¹; C₁₂H₁₀ (bifenil) |
-| 4 | $\Delta_\text{mix}H$ positif besar melebihi $T\Delta_\text{mix}S$ | 25 | 157 g |
-| 5 | 10,03 kPa; 0,887 | 26 | 119 g mol⁻¹; asam asetat membentuk dimer |
-| 6 | 5,57 kPa | 27 | $\Delta_\text{vap}H \gg \Delta_\text{fus}H$; garis gas lebih curam |
-| 7 | $x_\text{benzena} = 0{,}230$ | 28 | 2,70 K kg mol⁻¹ (tabel 2,53) |
-| 8 | 78,8 kPa | 29 | 2,48 bar |
-| 9 | 0,882 | 30 | 55,5 g L⁻¹ (sekitar 5%) |
-| 10 | 41 mg L⁻¹ | 31 | 78 m |
-| 11 | 14 mg L⁻¹ | 32 | 62 kg mol⁻¹ |
-| 12 | pelarut Raoult, zat terlarut Henry | 33 | tekanan osmotik besar dan mudah diukur, ΔT sangat kecil |
-| 13 | 7,4 mg L⁻¹; kelarutan O₂ turun bila suhu naik | 34 | air masuk karena μ air di luar lebih tinggi; tekanan sekitar 8 bar |
-| 14 | 2,0 × 10⁻³ mol; 52 mL | 35 | 1,04 kWh m⁻³ |
-| 15 | B murni yang tetap berperilaku seperti dalam larutan sangat encer tidak ada | 36 | 0,915 |
-| 16 | 0,0283 kPa | 37 | penyimpangan positif dari hukum Raoult |
-| 17 | hanya bergantung pada banyaknya partikel zat terlarut | 38 | lihat pembahasan |
-| 18 | 195 g mol⁻¹ | 39 | 33,2 kPa |
-| 19 | −87,7 J mol⁻¹ | 40 | 0,743 |
-| 20 | penurunannya berasal dari entropi (μ pelarut turun), tidak bergantung pada letak zat terlarut | 41 | 0,15 |
-| 21 | −1,55 °C; 100,43 °C | 42 | $4 - 2\beta$; campuran terpisah menjadi dua fasa |
+| 1 | −8,34 kJ; +28,0 J K⁻¹ | 23 | 5,11 K kg mol⁻¹ |
+| 2 | interaksi A–B sama dengan A–A dan B–B | 24 | 155 g mol⁻¹; C₁₂H₁₀ (bifenil) |
+| 3 | −1,39 kJ mol⁻¹ | 25 | 157 g |
+| 4 | $\Delta_\text{mix}H$ positif besar melebihi $T\Delta_\text{mix}S$ | 26 | 119 g mol⁻¹; asam asetat membentuk dimer |
+| 5 | 10,03 kPa; 0,887 | 27 | $\Delta_\text{vap}H \gg \Delta_\text{fus}H$; garis gas lebih curam |
+| 6 | 5,57 kPa | 28 | 2,70 K kg mol⁻¹ (tabel 2,53) |
+| 7 | $x_\text{benzena} = 0{,}230$ | 29 | (a) −11,6 °C; (b) $a = 0{,}857$, $\gamma = 0{,}964$ |
+| 8 | 78,8 kPa | 30 | 2,48 bar |
+| 9 | 0,882 | 31 | 55,5 g L⁻¹ (sekitar 5%) |
+| 10 | 41 mg L⁻¹ | 32 | 78 m |
+| 11 | 14 mg L⁻¹ | 33 | 62 kg mol⁻¹ |
+| 12 | pelarut Raoult, zat terlarut Henry | 34 | tekanan osmotik besar dan mudah diukur, ΔT sangat kecil |
+| 13 | 7,4 mg L⁻¹; kelarutan O₂ turun bila suhu naik | 35 | air masuk karena μ air di luar lebih tinggi; tekanan sekitar 8 bar |
+| 14 | 2,0 × 10⁻³ mol; 52 mL | 36 | 1,04 kWh m⁻³ |
+| 15 | B murni yang tetap berperilaku seperti dalam larutan sangat encer tidak ada | 37 | 0,915 |
+| 16 | 0,0283 kPa | 38 | penyimpangan positif dari hukum Raoult |
+| 17 | hanya bergantung pada banyaknya partikel zat terlarut | 39 | lihat pembahasan |
+| 18 | 195 g mol⁻¹ | 40 | 33,2 kPa |
+| 19 | −87,7 J mol⁻¹ | 41 | 0,743 |
+| 20 | penurunannya berasal dari entropi (μ pelarut turun), tidak bergantung pada letak zat terlarut | 42 | 0,15 |
+| 21 | −1,55 °C; 100,43 °C | 43 | $4 - 2\beta$; campuran terpisah menjadi dua fasa |
+| 22 | −2,0 °C (terukur −1,9 °C) |  |  |
 :::
 
 
@@ -213,7 +216,19 @@ $$
 
 *Cara berpikir:* penurunan titik beku hanya memberi banyaknya mol; massa molar diperoleh dengan membaginya ke massa yang ditimbang. Ketelitiannya dibatasi oleh pengukuran ΔT yang kecil (0,66 K), sehingga hasilnya hanya cukup untuk memilih di antara beberapa kemungkinan rumus, bukan menentukan rumus dengan pasti. Gabungan dengan analisis unsur, yang memberi perbandingan C:H, menyelesaikan masalah itu.
 
-**Soal 38.** Energi Gibbs ekses: $G^\text{E} = w\,n_\text{A}n_\text{B}/(n_\text{A} + n_\text{B})$. Turunkan terhadap $n_\text{A}$ dengan $n_\text{B}$ tetap:
+**Soal 29.** (a) Air $700/18{,}015 = 38{,}86$ mol, glikol $300/62{,}07 = 4{,}83$ mol, sehingga $x_\text{air} = 0{,}8894$ dan $\ln x_\text{air} = -0{,}1172$. Maka
+$$
+\frac1T = \frac{1}{273{,}15} - \frac{(8{,}314)(-0{,}1172)}{6010} = 3{,}8233 \times 10^{-3}\ \text{K}^{-1} , \qquad T = 261{,}6\ \text{K} = -11{,}6\ ^\circ\text{C} .
+$$
+Rumus tanpa pendekatan ini memberi penurunan **lebih kecil** (11,6 K) daripada (10.11) (12,8 K), sehingga menjauh dari nilai terukur. Pendekatan larutan encer bukan penyebab selisihnya.
+
+Untuk (b), dengan aktivitas, rumus yang sama berlaku eksak dengan $\ln a_\text{air}$ sebagai ganti $\ln x_\text{air}$:
+$$
+\ln a_\text{air} = \frac{6010}{8{,}314}\left(\frac{1}{273{,}15} - \frac{1}{258{,}15}\right) = -0{,}1538 , \qquad a_\text{air} = 0{,}857 , \qquad \gamma_\text{air} = \frac{0{,}857}{0{,}889} = 0{,}964 .
+$$
+Koefisien aktivitas di bawah 1 berarti penyimpangan negatif: air dan glikol saling menarik lebih kuat daripada sesamanya (ikatan hidrogen OH–OH yang banyak), sehingga potensial kimia air turun lebih banyak daripada ramalan fraksi mol. Penyimpangan kecil pada γ, hanya 3,6%, sudah cukup menggeser titik beku 3,4 K, karena pada larutan sepekat ini $\ln a$ sendiri besar.
+
+**Soal 39.** Energi Gibbs ekses: $G^\text{E} = w\,n_\text{A}n_\text{B}/(n_\text{A} + n_\text{B})$. Turunkan terhadap $n_\text{A}$ dengan $n_\text{B}$ tetap:
 $$
 \frac{\partial G^\text{E}}{\partial n_\text{A}} = w\frac{n_\text{B}(n_\text{A} + n_\text{B}) - n_\text{A}n_\text{B}}{(n_\text{A} + n_\text{B})^2} = w\frac{n_\text{B}^2}{(n_\text{A} + n_\text{B})^2} = w\,x_\text{B}^2 .
 $$

@@ -46,7 +46,7 @@ Jelaskan mengapa membuka sekat di antara dua bagian berisi gas nitrogen yang sam
 
 **Tantangan ★**
 
-@oksigen [P] ★ Sebuah alat memisahkan oksigen murni dari udara yang sangat banyak ($x_{\text{O}_2} = 0{,}2095$), sehingga komposisi udara sisanya praktis tidak berubah. Berapa kerja minimum pada 298 K untuk memperoleh 1 mol O₂ murni pada 1 bar? Mengapa angka ini lebih besar daripada kerja memisahkan seluruh 1 mol udara pada Contoh 6.7? ||| 3,87 kJ per mol O₂; yang diambil hanya O₂, yang dalam udara encer
+@campurT [P] ★ Satu mol He pada 300 K dan satu mol Ar pada 400 K berada dalam dua bagian wadah kaku yang volumenya sama, dipisahkan sekat, dan seluruh wadah terisolasi. Sekat diangkat dan kedua gas bercampur sampai setimbang. (a) Berapa suhu akhirnya? (b) Hitung Δ*S* total dan tunjukkan sumbangan pemanasan–pendinginan dan sumbangan pencampuran secara terpisah. ||| (a) 350 K; (b) +11,78 J K⁻¹ (termal +0,26; pencampuran +11,53)
 
 
 Satu mol He dalam *V* dan satu mol Ar dalam 3*V* dicampur pada suhu sama. Hitung Δ*S*. ||| +13,9 J K⁻¹

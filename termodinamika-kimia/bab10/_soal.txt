@@ -70,6 +70,7 @@ Mengapa kenaikan titik didih lebih kecil daripada penurunan titik beku untuk lar
 **Tantangan ★**
 
 ★ Gabungkan (10.11) dengan aturan Trouton untuk menunjukkan $K_\text{b} \approx RT_\text{b}^*M_\text{A}/(85\ \text{J K}^{-1}\text{mol}^{-1})$. Hitung untuk benzena dan bandingkan dengan Tabel 10.1. ||| 2,70 K kg mol⁻¹ (tabel 2,53)
+@glikol [P] ★ (a) Hitung titik beku cairan pendingin Contoh 10.10 dengan rumus tanpa pendekatan larutan encer, $\ln x_\text{A} = (\Delta_\text{fus}H/R)(1/T - 1/T^*)$, tetapi tetap menganggap larutannya ideal. (b) Titik beku terukurnya −15 °C. Hitung aktivitas dan koefisien aktivitas air dalam campuran itu. Apa arti nilai koefisien aktivitas yang diperoleh? ||| (a) −11,6 °C; (b) $a = 0{,}857$, $\gamma = 0{,}964$
 
 ## Subbab 10.6: Tekanan osmotik
 

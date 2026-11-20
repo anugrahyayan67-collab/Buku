@@ -126,39 +126,41 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹ dan, kecuali disebutkan lain, *T* = 298,15
 
 **29.** ★ Tunjukkan bahwa untuk zat murni, bentuk lengkap Gibbs–Duhem $S\,dT - V\,dp + n\,d\mu = 0$ memberi $d\mu = -S_\text{m}\,dT + V_\text{m}\,dp$.
 
+**30.** [P] ★ Dalam suatu campuran biner, volume molar parsial A mengikuti $V_\text{A} = V^*_\text{m,A} + a\,x_\text{B}^2$ pada semua komposisi, dengan *a* tetapan. (a) Pakai persamaan Gibbs–Duhem untuk menentukan $V_\text{B}$. (b) Tunjukkan bahwa $\Delta_\text{mix}V_\text{m} = a\,x_\text{A}x_\text{B}$. (c) Pada komposisi berapa penyusutan paling besar, dan berapa nilainya bila $a = -3{,}0$ cm³ mol⁻¹?
+
 ## Subbab 9.5: Potensial kimia gas ideal dan gas nyata
 
 **Dasar**
 
-**30.** Hitung $\mu - \mu^\circ$ untuk N₂ dalam udara pada 1 bar ($p_{\text{N}_2} = 0{,}79$ bar).
+**31.** Hitung $\mu - \mu^\circ$ untuk N₂ dalam udara pada 1 bar ($p_{\text{N}_2} = 0{,}79$ bar).
 
-**31.** Hitung $\Delta_\text{mix}G$ dan $\Delta_\text{mix}S$ untuk mencampur 1,00 mol He dan 1,00 mol Ar.
+**32.** Hitung $\Delta_\text{mix}G$ dan $\Delta_\text{mix}S$ untuk mencampur 1,00 mol He dan 1,00 mol Ar.
 
-**32.** Seorang pendaki berada di ketinggian tempat tekanan parsial O₂ di udara 0,13 bar. Berapa penurunan potensial kimia O₂ dibandingkan di permukaan laut (0,21 bar) pada 37 °C?
+**33.** Seorang pendaki berada di ketinggian tempat tekanan parsial O₂ di udara 0,13 bar. Berapa penurunan potensial kimia O₂ dibandingkan di permukaan laut (0,21 bar) pada 37 °C?
 
-**33.** Apa yang dimaksud fugasitas?
+**34.** Apa yang dimaksud fugasitas?
 
 **Menengah**
 
-**34.** [P] Tunjukkan bahwa $\Delta_\text{mix}G$ per mol campuran dua gas ideal paling negatif pada $x = 0{,}5$, dan hitung nilainya pada 25 °C.
+**35.** [P] Tunjukkan bahwa $\Delta_\text{mix}G$ per mol campuran dua gas ideal paling negatif pada $x = 0{,}5$, dan hitung nilainya pada 25 °C.
 
-**35.** Hitung kerja minimum untuk memperoleh 1,00 mol N₂ murni dari atmosfer. Mengapa lebih murah daripada O₂?
+**36.** Hitung kerja minimum untuk memperoleh 1,00 mol N₂ murni dari atmosfer. Mengapa lebih murah daripada O₂?
 
-**36.** Hitung koefisien fugasitas dan fugasitas N₂ pada 50 bar ($B = -4{,}5$ cm³ mol⁻¹).
+**37.** Hitung koefisien fugasitas dan fugasitas N₂ pada 50 bar ($B = -4{,}5$ cm³ mol⁻¹).
 
-**37.** Untuk H₂ pada 25 °C, $B = +14{,}1$ cm³ mol⁻¹. Hitung fugasitasnya pada 100 bar. Mengapa lebih besar daripada tekanannya?
+**38.** Untuk H₂ pada 25 °C, $B = +14{,}1$ cm³ mol⁻¹. Hitung fugasitasnya pada 100 bar. Mengapa lebih besar daripada tekanannya?
 
-**38.** Dari Gambar 9.3, taksir fugasitas N₂ pada 200 bar.
+**39.** Dari Gambar 9.3, taksir fugasitas N₂ pada 200 bar.
 
-**39.** Hitung kenaikan potensial kimia O₂ bila udara dimampatkan dari 1 bar ke 50 bar pada 25 °C.
+**40.** Hitung kenaikan potensial kimia O₂ bila udara dimampatkan dari 1 bar ke 50 bar pada 25 °C.
 
-**40.** Dari Gambar 9.3, taksir selisih $\mu_\text{nyata} - \mu_\text{ideal}$ untuk H₂ pada 300 bar dan 25 °C.
+**41.** Dari Gambar 9.3, taksir selisih $\mu_\text{nyata} - \mu_\text{ideal}$ untuk H₂ pada 300 bar dan 25 °C.
 
-**41.** Mengapa tabel $\Delta_\text{f}G^\circ$ tetap dapat dipakai untuk gas nyata?
+**42.** Mengapa tabel $\Delta_\text{f}G^\circ$ tetap dapat dipakai untuk gas nyata?
 
 **Tantangan ★**
 
-**42.** ★ Dari $B = b - a/RT$ (Bab 2), hitung koefisien virial kedua CH₄ pada 25 °C menurut van der Waals, lalu koefisien fugasitasnya pada 10 bar.
+**43.** ★ Dari $B = b - a/RT$ (Bab 2), hitung koefisien virial kedua CH₄ pada 25 °C menurut van der Waals, lalu koefisien fugasitasnya pada 10 bar.
 
 
 # Jawaban
@@ -166,27 +168,28 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹ dan, kecuali disebutkan lain, *T* = 298,15
 ::: {.panjang}
 | No. | Jawaban | No. | Jawaban |
 |---|---|---|---|
-| 1 | $(\partial V/\partial n_\text{J})_{T,p,n'}$; bergantung pada molekul tetangga | 22 | 181 J mol⁻¹; sebanding dengan 220 J mol⁻¹ |
-| 2 | 245 cm³ | 23 | −45 J mol⁻¹ |
-| 3 | sama dengan volume molar zat murninya | 24 | −0,033 cm³ mol⁻¹ |
-| 4 | 33,36 cm³; −0,95 cm³ | 25 | lihat pembahasan |
-| 5 | volume molar parsial berubah dengan komposisi | 26 | $d\mu_\text{B} = -(x_\text{A}/x_\text{B})d\mu_\text{A}$ dengan $x_\text{A}/x_\text{B}$ besar |
-| 6 | sekitar 14 cm³ | 27 | dari tekanan uap air pada berbagai konsentrasi, lalu diintegralkan |
-| 7 | 17,48 cm³ mol⁻¹; 1004,68 cm³ | 28 | $\mu_\text{B} = \mu_\text{B}^* + RT\ln x_\text{B} + w x_\text{A}^2$ |
-| 8 | elektrostriksi: air di sekitar ion menyusut lebih banyak daripada volume ion | 29 | bagi dengan *n* |
-| 9 | lihat pembahasan | 30 | −584 J mol⁻¹ |
-| 10 | 18,063 cm³ mol⁻¹ | 31 | −3,44 kJ; +11,5 J K⁻¹ |
-| 11 | 598 cm³ etanol, 430 cm³ air | 32 | −1,24 kJ mol⁻¹ |
-| 12 | 220 cm³ mol⁻¹ | 33 | tekanan efektif: tekanan gas ideal dengan potensial kimia yang sama |
-| 13 | dari $V = n_\text{air}V_\text{air} + bV_\text{NaCl}$ | 34 | −1,72 kJ mol⁻¹ |
-| 14 | $dG = -S\,dT + V\,dp + \mu_\text{A}dn_\text{A} + \mu_\text{B}dn_\text{B}$ | 35 | 584 J; fraksi mol N₂ lebih besar |
-| 15 | α → β; −0,25 kJ | 36 | 0,991; 49,5 bar |
-| 16 | setiap zat mengikuti potensial kimianya sendiri | 37 | 106 bar; tolakan dominan |
-| 17 | uji eksak pada turunan campuran $\partial^2G/\partial p\,\partial n_\text{J}$ | 38 | sekitar 186 bar |
-| 18 | 14 J mol⁻¹ | 39 | 9,70 kJ mol⁻¹ |
-| 19 | +108 J mol⁻¹; ya, karena melebihi 47,5 J mol⁻¹ | 40 | sekitar +0,57 kJ mol⁻¹ (φ ≈ 1,26) |
-| 20 | menentukan arah aliran zat seperti suhu menentukan arah aliran kalor | 41 | keadaan standarnya gas ideal hipotetis pada 1 bar; penyimpangan masuk ke φ |
-| 21 | dari air ke CCl₄ (μ di CCl₄ turun) | 42 | −49,3 cm³ mol⁻¹; 0,980 |
+| 1 | $(\partial V/\partial n_\text{J})_{T,p,n'}$; bergantung pada molekul tetangga | 23 | −45 J mol⁻¹ |
+| 2 | 245 cm³ | 24 | −0,033 cm³ mol⁻¹ |
+| 3 | sama dengan volume molar zat murninya | 25 | lihat pembahasan |
+| 4 | 33,36 cm³; −0,95 cm³ | 26 | $d\mu_\text{B} = -(x_\text{A}/x_\text{B})d\mu_\text{A}$ dengan $x_\text{A}/x_\text{B}$ besar |
+| 5 | volume molar parsial berubah dengan komposisi | 27 | dari tekanan uap air pada berbagai konsentrasi, lalu diintegralkan |
+| 6 | sekitar 14 cm³ | 28 | $\mu_\text{B} = \mu_\text{B}^* + RT\ln x_\text{B} + w x_\text{A}^2$ |
+| 7 | 17,48 cm³ mol⁻¹; 1004,68 cm³ | 29 | bagi dengan *n* |
+| 8 | elektrostriksi: air di sekitar ion menyusut lebih banyak daripada volume ion | 30 | (a) $V^*_\text{m,B} + a\,x_\text{A}^2$; (c) $x = 0{,}5$; −0,75 cm³ mol⁻¹ |
+| 9 | lihat pembahasan | 31 | −584 J mol⁻¹ |
+| 10 | 18,063 cm³ mol⁻¹ | 32 | −3,44 kJ; +11,5 J K⁻¹ |
+| 11 | 598 cm³ etanol, 430 cm³ air | 33 | −1,24 kJ mol⁻¹ |
+| 12 | 220 cm³ mol⁻¹ | 34 | tekanan efektif: tekanan gas ideal dengan potensial kimia yang sama |
+| 13 | dari $V = n_\text{air}V_\text{air} + bV_\text{NaCl}$ | 35 | −1,72 kJ mol⁻¹ |
+| 14 | $dG = -S\,dT + V\,dp + \mu_\text{A}dn_\text{A} + \mu_\text{B}dn_\text{B}$ | 36 | 584 J; fraksi mol N₂ lebih besar |
+| 15 | α → β; −0,25 kJ | 37 | 0,991; 49,5 bar |
+| 16 | setiap zat mengikuti potensial kimianya sendiri | 38 | 106 bar; tolakan dominan |
+| 17 | uji eksak pada turunan campuran $\partial^2G/\partial p\,\partial n_\text{J}$ | 39 | sekitar 186 bar |
+| 18 | 14 J mol⁻¹ | 40 | 9,70 kJ mol⁻¹ |
+| 19 | +108 J mol⁻¹; ya, karena melebihi 47,5 J mol⁻¹ | 41 | sekitar +0,57 kJ mol⁻¹ (φ ≈ 1,26) |
+| 20 | menentukan arah aliran zat seperti suhu menentukan arah aliran kalor | 42 | keadaan standarnya gas ideal hipotetis pada 1 bar; penyimpangan masuk ke φ |
+| 21 | dari air ke CCl₄ (μ di CCl₄ turun) | 43 | −49,3 cm³ mol⁻¹; 0,980 |
+| 22 | 181 J mol⁻¹; sebanding dengan 220 J mol⁻¹ |  |  |
 :::
 
 
@@ -204,7 +207,17 @@ karena suku dalam kurung nol menurut Gibbs–Duhem (9.9). Garis singgung di titi
 
 *Cara berpikir:* kedua ungkapan menghitung perubahan yang sama dengan dua cara. Yang pertama memandang *G* sebagai jumlah sumbangan, yang kedua memandangnya sebagai fungsi keadaan dengan turunan parsial. Agar keduanya cocok, perubahan potensial kimia harus saling meniadakan bila dibobot dengan banyaknya mol. Ini bukan sifat khusus *G*: setiap besaran ekstensif mempunyai hubungan Gibbs–Duhem-nya sendiri.
 
-**Soal 34.** Per mol campuran, $\Delta_\text{mix}G_\text{m} = RT[x\ln x + (1 - x)\ln(1 - x)]$. Turunannya terhadap *x*:
+**Soal 30.** (a) Dari (9.9) dibagi *n* total, $dV_\text{B} = -(x_\text{A}/x_\text{B})\,dV_\text{A}$. Dengan $dV_\text{A} = 2a\,x_\text{B}\,dx_\text{B}$:
+$$
+dV_\text{B} = -\frac{x_\text{A}}{x_\text{B}}\,2a\,x_\text{B}\,dx_\text{B} = -2a\,x_\text{A}\,dx_\text{B} = 2a\,x_\text{A}\,dx_\text{A} ,
+$$
+karena $dx_\text{B} = -dx_\text{A}$. Integralnya $V_\text{B} = \text{tetapan} + a\,x_\text{A}^2$. Untuk B murni ($x_\text{A} = 0$), $V_\text{B} = V^*_\text{m,B}$, sehingga $V_\text{B} = V^*_\text{m,B} + a\,x_\text{A}^2$. Bentuknya sama dengan $V_\text{A}$, dengan peran A dan B ditukar: Gibbs–Duhem tidak mengizinkan bentuk lain.
+
+Untuk (b): $\Delta_\text{mix}V_\text{m} = x_\text{A}(V_\text{A} - V^*_\text{m,A}) + x_\text{B}(V_\text{B} - V^*_\text{m,B}) = a\,x_\text{A}x_\text{B}^2 + a\,x_\text{B}x_\text{A}^2 = a\,x_\text{A}x_\text{B}(x_\text{A} + x_\text{B}) = a\,x_\text{A}x_\text{B}$.
+
+Untuk (c): $x_\text{A}x_\text{B} = x(1 - x)$ paling besar di $x = 0{,}5$, sehingga penyusutan terbesar $a/4 = -0{,}75$ cm³ mol⁻¹. Model sederhana ini memberi kurva yang simetris. Kurva etanol–air pada Gambar 9.1 tidak simetris, sehingga untuk campuran itu diperlukan suku tambahan. Bentuk yang sama akan muncul lagi untuk energi Gibbs di subbab 10.7, sebagai model larutan reguler.
+
+**Soal 35.** Per mol campuran, $\Delta_\text{mix}G_\text{m} = RT[x\ln x + (1 - x)\ln(1 - x)]$. Turunannya terhadap *x*:
 $$
 \frac{d\Delta_\text{mix}G_\text{m}}{dx} = RT\left[\ln x + 1 - \ln(1 - x) - 1\right] = RT\ln\frac{x}{1 - x} ,
 $$

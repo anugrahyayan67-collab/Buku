@@ -90,7 +90,7 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹ dan data Tabel 6.1. Gas dianggap ideal. So
 
 **Tantangan ★**
 
-**17.** [P] ★ Sebuah alat memisahkan oksigen murni dari udara yang sangat banyak ($x_{\text{O}_2} = 0{,}2095$), sehingga komposisi udara sisanya praktis tidak berubah. Berapa kerja minimum pada 298 K untuk memperoleh 1 mol O₂ murni pada 1 bar? Mengapa angka ini lebih besar daripada kerja memisahkan seluruh 1 mol udara pada Contoh 6.7?
+**17.** [P] ★ Satu mol He pada 300 K dan satu mol Ar pada 400 K berada dalam dua bagian wadah kaku yang volumenya sama, dipisahkan sekat, dan seluruh wadah terisolasi. Sekat diangkat dan kedua gas bercampur sampai setimbang. (a) Berapa suhu akhirnya? (b) Hitung Δ*S* total dan tunjukkan sumbangan pemanasan–pendinginan dan sumbangan pencampuran secara terpisah.
 
 **18.** Satu mol He dalam *V* dan satu mol Ar dalam 3*V* dicampur pada suhu sama. Hitung Δ*S*.
 
@@ -212,7 +212,7 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹ dan data Tabel 6.1. Gas dianggap ideal. So
 | 14 | +2,70 J K⁻¹ mol⁻¹ | 38 | (a) +; (b) − |
 | 15 | 3,44 kJ | 39 | −243,0 J K⁻¹ mol⁻¹ |
 | 16 | molekul identik tak dapat dibedakan (paradoks Gibbs) | 40 | intan < Fe < H₂O(l) < H₂O(g) < I₂(g) |
-| 17 | 3,87 kJ per mol O₂; yang diambil hanya O₂, yang dalam udara encer | 41 | Mg²⁺ kecil bermuatan 2+ menata air hidrasi sangat kuat |
+| 17 | (a) 350 K; (b) +11,78 J K⁻¹ (termal +0,26; pencampuran +11,53) | 41 | Mg²⁺ kecil bermuatan 2+ menata air hidrasi sangat kuat |
 | 18 | +13,9 J K⁻¹ | 42 | +795 J K⁻¹ mol⁻¹ |
 | 19 | +27,4 J K⁻¹ | 43 | tinggi |
 | 20 | +35,4 J K⁻¹ mol⁻¹ | 44 | 432 K |
@@ -225,11 +225,13 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹ dan data Tabel 6.1. Gas dianggap ideal. So
 
 # Pembahasan soal terpilih
 
-**Soal 17.** Mengambil 1 mol O₂ dari udara yang sangat banyak sama dengan menaikkan tekanan O₂ itu secara isotermal dari tekanan parsialnya, $x_{\text{O}_2}p$, ke *p*. Menurut (6.3), entropinya berubah $\Delta S = -R\ln(1/0{,}2095) = -13{,}0$ J K⁻¹. Udara sisanya hampir tidak berubah, sehingga entropinya praktis tetap. Kerja minimum adalah kerja isotermal reversibel yang membuang kalor $T|\Delta S|$ ke lingkungan:
+**Soal 17.** (a) Wadah kaku dan terisolasi, sehingga *q* = 0, *w* = 0, dan Δ*U* = 0. Kedua gas monoatomik mempunyai $C_{V,\text{m}} = \tfrac32R$ yang sama, sehingga kalor yang dilepas Ar sama dengan yang diterima He: $\tfrac32R(T - 300) = \tfrac32R(400 - T)$, dan $T = 350$ K.
+
+Untuk (b): entropi fungsi keadaan, jadi kita pilih jalan reversibel yang mudah: setiap gas diubah suhunya pada volume tetap, lalu dimuaikan secara isotermal ke volume total 2*V*. Dengan (6.1):
 $$
-w_\text{min} = RT\ln\frac{1}{0{,}2095} = (8{,}314)(298{,}15)(1{,}563)\ \text{J} = 3{,}87\ \text{kJ} .
+\Delta S = \tfrac32R\left(\ln\frac{350}{300} + \ln\frac{350}{400}\right) + 2R\ln2 = 0{,}26 + 11{,}53 = +11{,}78\ \text{J K}^{-1} .
 $$
-Contoh 6.7 memisahkan **semua** komponen 1 mol udara dan memperoleh 0,21 mol O₂, dengan kerja 1,4 kJ. Di sini kita memperoleh satu mol penuh O₂, yang dalam udara tersebar encer; makin encer suatu komponen, makin mahal mengumpulkannya per mol. Itulah sebabnya memulihkan zat yang sangat encer, misalnya logam berharga dari air laut atau CO₂ dari udara (sekitar 0,04%), selalu boros energi.
+Sumbangan termal positif walaupun kalor yang berpindah sama besar: He menerima kalor pada suhu yang lebih rendah, sehingga entropi yang diperolehnya lebih besar daripada yang hilang dari Ar (bandingkan Contoh 5.12). Tetapi sumbangan itu kecil dibanding entropi pencampuran, karena selisih suhunya tidak besar. Sistem terisolasi, sehingga Δ*S* ini adalah Δ*S* total, dan positif sesuai (5.12).
 
 **Soal 22.** Jalan reversibel melalui titik leleh normal (278,6 K):
 $$

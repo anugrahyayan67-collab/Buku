@@ -77,6 +77,10 @@ $$
 
 Pada larutan sangat encer, aktivitas sama dengan molalitas (dalam satuan mol kg⁻¹). Ketika konsentrasi naik, γ menyimpang dari satu.
 
+::: {.awas}
+**Aktivitas selalu "terhadap apa".** Nilai aktivitas bergantung pada keadaan acuan yang dipilih. Untuk pelarut, acuannya pelarut murni (hukum Raoult), sehingga air murni mempunyai *a* = 1. Untuk zat terlarut, acuannya larutan encer ideal pada 1 mol kg⁻¹ (hukum Henry), sehingga zat terlarut dalam larutan 0,01 mol kg⁻¹ mempunyai *a* ≈ 0,01, bukan mendekati 1. Potensial kimia zat itu sendiri tidak bergantung pada pilihan ini; yang berubah hanyalah pembagian antara $\mu^\circ$ dan $RT\ln a$. Karena itu nilai aktivitas atau koefisien aktivitas dari dua tabel hanya boleh dibandingkan bila keadaan acuannya sama.
+:::
+
 Untuk ion, penyimpangan muncul bahkan pada konsentrasi yang sangat kecil. Gaya listrik antara ion menurun lambat dengan jarak (sebanding 1/*r*), sehingga setiap ion "merasakan" ion-ion lain walaupun mereka jauh. Setiap kation dikelilingi rata-rata sedikit lebih banyak anion daripada kation, sebuah **atmosfer ionik** yang menurunkan energinya dan menstabilkannya. Akibatnya koefisien aktivitas ion selalu kurang dari satu dalam larutan encer. Peter Debye dan Erich Hückel (1923) menghitungnya dan memperoleh, untuk larutan sangat encer dalam air pada 25 °C, **hukum pembatas Debye–Hückel**:
 
 $$
@@ -105,7 +109,7 @@ Hitung $\gamma_\pm$ menurut hukum pembatas Debye–Hückel untuk (a) NaCl 0,0010
 **Kuis cepat 10.7** Campuran aseton–kloroform menyimpang negatif dari hukum Raoult. Apakah koefisien aktivitas kedua komponen lebih besar atau lebih kecil dari 1? Apakah pencampurannya menyerap atau melepaskan kalor?
 :::
 
-## Menuju diagram fasa campuran
+### Menuju bab berikutnya
 
 Bab ini dibangun dari satu rumus: $\mu = \mu^* + RT\ln x$ untuk larutan ideal, dan $\mu = \mu^* + RT\ln a$ untuk larutan nyata. Dari rumus itu kita memperoleh hukum Raoult dan Henry, keempat sifat koligatif, dan cara mengukur aktivitas dari tekanan uap. Semua sifat koligatif ternyata satu gejala yang dilihat dari empat arah: zat terlarut menurunkan potensial kimia pelarut, dan pelarut menanggapi dengan mengubah kesetimbangannya dengan uap, dengan padatan, atau dengan pelarut murni di seberang membran.
 

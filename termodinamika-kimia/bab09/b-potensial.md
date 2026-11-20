@@ -165,7 +165,7 @@ $$
 \mu_\text{B} = \mu_\text{B}^* + RT\ln x_\text{B} .
 $$
 
-**Memahami hasil.** Bila satu komponen mengikuti hukum logaritma ini di seluruh rentang komposisi, komponen lain **harus** mengikutinya juga. Campuran seperti itu disebut **larutan ideal**, dan rumus $\mu = \mu^* + RT\ln x$ akan menjadi alat utama Bab 10. Perhatikan kemiripannya dengan (9.11) untuk gas: fraksi mol dalam larutan memainkan peran yang sama dengan tekanan parsial dalam gas.
+**Memahami hasil.** Bila satu komponen mengikuti hukum logaritma ini di seluruh rentang komposisi, komponen lain **harus** mengikutinya juga. Campuran seperti itu disebut **larutan ideal**, dan rumus $\mu = \mu^* + RT\ln x$ akan menjadi alat utama Bab 10. Perhatikan kemiripannya dengan rumus potensial kimia gas (9.11) di subbab berikutnya: fraksi mol dalam larutan memainkan peran yang sama dengan tekanan parsial dalam gas.
 :::
 
 ::: {.kuis}

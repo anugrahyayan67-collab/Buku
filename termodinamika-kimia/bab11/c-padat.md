@@ -157,7 +157,7 @@ Penambahan zat ketiga juga dapat **mengurangi** kelarutan. Bila garam dilarutkan
 **Kuis cepat 11.8** Suatu zat mempunyai *K* = 1 di antara eter dan air. Berapa kali ekstraksi dengan volume eter sama dengan volume air diperlukan agar 99% zat itu terambil?
 :::
 
-## Menuju kesetimbangan kimia
+### Menuju bab berikutnya
 
 Dalam tiga bab terakhir, potensial kimia menjelaskan semua kesetimbangan **fisika**: zat murni yang berubah fasa, pelarut yang bergerak melewati membran, campuran yang mendidih, membeku, atau terpisah menjadi lapisan. Dalam setiap kasus, zat berpindah dari satu fasa ke fasa lain sampai potensial kimianya sama di mana-mana.
 

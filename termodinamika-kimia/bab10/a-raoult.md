@@ -211,6 +211,8 @@ $$
 \mu_\text{B} = \mu_\text{B}^\circ + RT\ln\frac{b_\text{B}}{b^\circ} . \qquad \text{(10.8)}
 $$
 
+Pergantian dari $x_\text{B}$ ke $b_\text{B}$ sah karena dalam larutan encer $x_\text{B} \approx b_\text{B}M_\text{A}$, dengan $M_\text{A}$ massa molar pelarut dalam kg mol⁻¹. Maka $RT\ln x_\text{B} = RT\ln(b_\text{B}/b^\circ) + RT\ln(M_\text{A}b^\circ)$, dan suku terakhir, yang tetap, digabungkan ke dalam $\mu_\text{B}^\circ$ yang baru.
+
 Rumus (10.8) adalah bentuk yang akan kita pakai untuk zat terlarut dalam kesetimbangan kimia (Bab 12) dan sel elektrokimia (Bab 13). Ia berlaku untuk larutan encer ideal; untuk larutan nyata, $b_\text{B}/b^\circ$ diganti aktivitas (subbab 10.7).
 
 ::: {.awas}

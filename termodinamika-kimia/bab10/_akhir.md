@@ -55,6 +55,18 @@ $$
 
 *Cara berpikir:* penurunan titik beku hanya memberi banyaknya mol; massa molar diperoleh dengan membaginya ke massa yang ditimbang. Ketelitiannya dibatasi oleh pengukuran ΔT yang kecil (0,66 K), sehingga hasilnya hanya cukup untuk memilih di antara beberapa kemungkinan rumus, bukan menentukan rumus dengan pasti. Gabungan dengan analisis unsur, yang memberi perbandingan C:H, menyelesaikan masalah itu.
 
+**Soal {{glikol}}.** (a) Air $700/18{,}015 = 38{,}86$ mol, glikol $300/62{,}07 = 4{,}83$ mol, sehingga $x_\text{air} = 0{,}8894$ dan $\ln x_\text{air} = -0{,}1172$. Maka
+$$
+\frac1T = \frac{1}{273{,}15} - \frac{(8{,}314)(-0{,}1172)}{6010} = 3{,}8233 \times 10^{-3}\ \text{K}^{-1} , \qquad T = 261{,}6\ \text{K} = -11{,}6\ ^\circ\text{C} .
+$$
+Rumus tanpa pendekatan ini memberi penurunan **lebih kecil** (11,6 K) daripada (10.11) (12,8 K), sehingga menjauh dari nilai terukur. Pendekatan larutan encer bukan penyebab selisihnya.
+
+Untuk (b), dengan aktivitas, rumus yang sama berlaku eksak dengan $\ln a_\text{air}$ sebagai ganti $\ln x_\text{air}$:
+$$
+\ln a_\text{air} = \frac{6010}{8{,}314}\left(\frac{1}{273{,}15} - \frac{1}{258{,}15}\right) = -0{,}1538 , \qquad a_\text{air} = 0{,}857 , \qquad \gamma_\text{air} = \frac{0{,}857}{0{,}889} = 0{,}964 .
+$$
+Koefisien aktivitas di bawah 1 berarti penyimpangan negatif: air dan glikol saling menarik lebih kuat daripada sesamanya (ikatan hidrogen OH–OH yang banyak), sehingga potensial kimia air turun lebih banyak daripada ramalan fraksi mol. Penyimpangan kecil pada γ, hanya 3,6%, sudah cukup menggeser titik beku 3,4 K, karena pada larutan sepekat ini $\ln a$ sendiri besar.
+
 **Soal {{reguler}}.** Energi Gibbs ekses: $G^\text{E} = w\,n_\text{A}n_\text{B}/(n_\text{A} + n_\text{B})$. Turunkan terhadap $n_\text{A}$ dengan $n_\text{B}$ tetap:
 $$
 \frac{\partial G^\text{E}}{\partial n_\text{A}} = w\frac{n_\text{B}(n_\text{A} + n_\text{B}) - n_\text{A}n_\text{B}}{(n_\text{A} + n_\text{B})^2} = w\frac{n_\text{B}^2}{(n_\text{A} + n_\text{B})^2} = w\,x_\text{B}^2 .

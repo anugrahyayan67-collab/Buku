@@ -93,7 +93,7 @@ $$
 K_\text{f} = \frac{(8{,}314)(273{,}15)^2(0{,}018\,015)}{6010} = 1{,}86\ \text{K kg mol}^{-1} , \qquad K_\text{b} = \frac{(8{,}314)(373{,}15)^2(0{,}018\,015)}{40\,660} = 0{,}513\ \text{K kg mol}^{-1} .
 $$
 
-**Memahami hasil.** Kedua nilai sama dengan yang tercantum di tabel Kimia Dasar, yang kini kita ketahui asal-usulnya. $K_\text{f}$ air tiga setengah kali $K_\text{b}$-nya, karena $\Delta_\text{fus}H$ jauh lebih kecil daripada $\Delta_\text{vap}H$, walaupun $T_\text{f}^{*2}$ juga lebih kecil. Ini angka untuk penjelasan grafis pada Gambar 10.3.
+**Memahami hasil.** Kedua nilai sama dengan yang tercantum di tabel Kimia Dasar, yang kini kita ketahui asal-usulnya. $K_\text{f}$ air tiga setengah kali $K_\text{b}$-nya, karena $\Delta_\text{fus}H$ jauh lebih kecil daripada $\Delta_\text{vap}H$, walaupun $T_\text{f}^{*2}$ juga lebih kecil. Angka ini memberi besaran pada penjelasan grafis Gambar 10.3.
 :::
 
 Tabel 10.1 mengumpulkan tetapan beberapa pelarut. Pelarut dengan titik leleh tinggi dan entalpi peleburan kecil mempunyai $K_\text{f}$ besar. Kamper adalah contoh ekstrem: penurunan titik bekunya dua puluh kali lebih besar daripada air untuk molalitas yang sama, sehingga ia dipakai untuk menentukan massa molar dengan alat sederhana (**metode Rast**).

@@ -74,6 +74,7 @@ Bila $\mu_\text{A} = \mu_\text{A}^* + RT\ln x_\text{A} + w x_\text{B}^2$, dengan
 **Tantangan ★**
 
 ★ Tunjukkan bahwa untuk zat murni, bentuk lengkap Gibbs–Duhem $S\,dT - V\,dp + n\,d\mu = 0$ memberi $d\mu = -S_\text{m}\,dT + V_\text{m}\,dp$. ||| bagi dengan *n*
+@margules [P] ★ Dalam suatu campuran biner, volume molar parsial A mengikuti $V_\text{A} = V^*_\text{m,A} + a\,x_\text{B}^2$ pada semua komposisi, dengan *a* tetapan. (a) Pakai persamaan Gibbs–Duhem untuk menentukan $V_\text{B}$. (b) Tunjukkan bahwa $\Delta_\text{mix}V_\text{m} = a\,x_\text{A}x_\text{B}$. (c) Pada komposisi berapa penyusutan paling besar, dan berapa nilainya bila $a = -3{,}0$ cm³ mol⁻¹? ||| (a) $V^*_\text{m,B} + a\,x_\text{A}^2$; (c) $x = 0{,}5$; −0,75 cm³ mol⁻¹
 
 ## Subbab 9.5: Potensial kimia gas ideal dan gas nyata
 

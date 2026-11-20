@@ -75,7 +75,7 @@ Udara diisikan ke tabung selam dari 1 bar sampai 200 bar pada 25 °C. Anggap uda
 
 **Penyelesaian.** (a) Tekanan parsial setiap gas naik dengan faktor 200, karena komposisi tidak berubah. Dari (9.11), untuk setiap gas: $\Delta\mu = RT\ln200 = (2479)(5{,}298) = 13{,}1$ kJ mol⁻¹.
 
-(b) Pada suhu dan tekanan yang berubah secara reversibel pada suhu tetap, kerja minimum sama dengan kenaikan energi Gibbs: $w_\text{min} = \sum n_\text{J}\Delta\mu_\text{J} = (0{,}79 + 0{,}21)(13{,}1) = 13{,}1$ kJ per mol udara.
+(b) Untuk pemampatan isotermal reversibel, kerja minimum sama dengan kenaikan energi Gibbs: $w_\text{min} = \sum n_\text{J}\Delta\mu_\text{J} = (0{,}79 + 0{,}21)(13{,}1) = 13{,}1$ kJ per mol udara.
 
 **Memahami hasil.** Hasil ini tepat sama dengan kalor yang harus dibuang kompresor dalam Contoh 6.6: pada proses isotermal gas ideal, Δ*H* = 0, sehingga $\Delta G = -T\Delta S$, dan seluruh kerja yang masuk keluar lagi sebagai kalor. Energi yang "tersimpan" di dalam tabung bukan energi dalam yang lebih besar, tetapi energi Gibbs yang lebih besar, yaitu entropi yang lebih kecil. Ketika penyelam menghirup udara itu melalui regulator, kemampuan melakukan kerja tersebut terbuang sebagai pemuaian tak reversibel.
 :::
@@ -159,7 +159,7 @@ Maka φ = 0,680 dan *f* = (0,680)(300) = 204 bar.
 **Kuis cepat 9.5** Mengapa koefisien fugasitas semua gas mendekati 1 pada tekanan rendah? Untuk gas pada suhu di bawah suhu Boyle-nya, apakah φ pada tekanan sedang lebih besar atau lebih kecil dari 1?
 :::
 
-## Menuju larutan
+### Menuju bab berikutnya
 
 Kita kini mempunyai tiga alat. Besaran molar parsial menjelaskan bagaimana setiap komponen menyumbang pada sifat campuran. Potensial kimia memberi tahu ke mana setiap zat bergerak, dan bahwa kesetimbangan tercapai ketika potensial kimia setiap zat sama di mana-mana. Persamaan Gibbs–Duhem mengikat potensial kimia semua komponen satu sama lain. Untuk gas, rumus (9.11) dan (9.13) memberi potensial kimia secara eksplisit.
 

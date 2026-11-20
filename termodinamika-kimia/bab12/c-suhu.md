@@ -180,7 +180,7 @@ Pasangan reaksi yang dibahas di Bab 7, seperti pembentukan glutamin, kini dapat 
 **Kuis cepat 12.8** Mengapa $\Delta_\text{r}G^{\circ\prime}$ untuk reaksi yang tidak melibatkan H⁺ sama dengan $\Delta_\text{r}G^\circ$?
 :::
 
-## Menuju elektrokimia
+### Menuju bab berikutnya
 
 Bab ini mengubah seluruh termodinamika yang kita bangun menjadi alat peramal kesetimbangan. Dari tabel $\Delta_\text{f}G^\circ$, kita menghitung *K*; dari $\Delta_\text{r}H^\circ$, kita meramalkan bagaimana *K* berubah dengan suhu; dari Δν, bagaimana komposisi berubah dengan tekanan. Asas Le Chatelier, yang di Kimia Dasar dihafal, kini muncul sebagai akibat, lengkap dengan batasnya.
 

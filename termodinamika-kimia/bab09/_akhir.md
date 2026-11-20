@@ -56,6 +56,16 @@ karena suku dalam kurung nol menurut Gibbs–Duhem (9.9). Garis singgung di titi
 
 *Cara berpikir:* kedua ungkapan menghitung perubahan yang sama dengan dua cara. Yang pertama memandang *G* sebagai jumlah sumbangan, yang kedua memandangnya sebagai fungsi keadaan dengan turunan parsial. Agar keduanya cocok, perubahan potensial kimia harus saling meniadakan bila dibobot dengan banyaknya mol. Ini bukan sifat khusus *G*: setiap besaran ekstensif mempunyai hubungan Gibbs–Duhem-nya sendiri.
 
+**Soal {{margules}}.** (a) Dari (9.9) dibagi *n* total, $dV_\text{B} = -(x_\text{A}/x_\text{B})\,dV_\text{A}$. Dengan $dV_\text{A} = 2a\,x_\text{B}\,dx_\text{B}$:
+$$
+dV_\text{B} = -\frac{x_\text{A}}{x_\text{B}}\,2a\,x_\text{B}\,dx_\text{B} = -2a\,x_\text{A}\,dx_\text{B} = 2a\,x_\text{A}\,dx_\text{A} ,
+$$
+karena $dx_\text{B} = -dx_\text{A}$. Integralnya $V_\text{B} = \text{tetapan} + a\,x_\text{A}^2$. Untuk B murni ($x_\text{A} = 0$), $V_\text{B} = V^*_\text{m,B}$, sehingga $V_\text{B} = V^*_\text{m,B} + a\,x_\text{A}^2$. Bentuknya sama dengan $V_\text{A}$, dengan peran A dan B ditukar: Gibbs–Duhem tidak mengizinkan bentuk lain.
+
+Untuk (b): $\Delta_\text{mix}V_\text{m} = x_\text{A}(V_\text{A} - V^*_\text{m,A}) + x_\text{B}(V_\text{B} - V^*_\text{m,B}) = a\,x_\text{A}x_\text{B}^2 + a\,x_\text{B}x_\text{A}^2 = a\,x_\text{A}x_\text{B}(x_\text{A} + x_\text{B}) = a\,x_\text{A}x_\text{B}$.
+
+Untuk (c): $x_\text{A}x_\text{B} = x(1 - x)$ paling besar di $x = 0{,}5$, sehingga penyusutan terbesar $a/4 = -0{,}75$ cm³ mol⁻¹. Model sederhana ini memberi kurva yang simetris. Kurva etanol–air pada Gambar 9.1 tidak simetris, sehingga untuk campuran itu diperlukan suku tambahan. Bentuk yang sama akan muncul lagi untuk energi Gibbs di subbab 10.7, sebagai model larutan reguler.
+
 **Soal {{campur}}.** Per mol campuran, $\Delta_\text{mix}G_\text{m} = RT[x\ln x + (1 - x)\ln(1 - x)]$. Turunannya terhadap *x*:
 $$
 \frac{d\Delta_\text{mix}G_\text{m}}{dx} = RT\left[\ln x + 1 - \ln(1 - x) - 1\right] = RT\ln\frac{x}{1 - x} ,
