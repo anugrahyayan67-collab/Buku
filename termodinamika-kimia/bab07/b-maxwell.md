@@ -33,7 +33,7 @@ $$
 Kedua hasil ini mempunyai akibat yang dapat dilihat langsung pada Gambar 7.1. Karena entropi selalu positif, *G* setiap fasa **turun** bila suhu naik, dan karena gas mempunyai entropi terbesar, *G*-nya turun paling cepat. Itulah sebabnya pada suhu yang cukup tinggi setiap zat akhirnya menguap. Dan karena volume selalu positif, *G* naik bila tekanan naik, paling cepat untuk gas, yang volumenya paling besar.
 
 ::: {.contoh}
-**Contoh 7.9 · Membaca persamaan fundamental**
+**Contoh 7.10 · Membaca persamaan fundamental**
 
 Dari persamaan fundamental, tentukan: (a) $(\partial U/\partial S)_V$; (b) $(\partial H/\partial p)_S$; (c) $(\partial A/\partial V)_T$. Apa arti fisis masing-masing?
 
@@ -65,6 +65,10 @@ $$
 
 Dua yang terakhir paling berguna, karena ruas kanannya dapat diukur dengan mudah dan ruas kirinya tidak. Entropi tidak dapat diukur dengan alat apa pun secara langsung; tetapi bagaimana volume berubah dengan suhu, atau tekanan dengan suhu, dapat diukur dengan pipa kapiler dan manometer. Hubungan Maxwell mengubah pertanyaan yang sukar menjadi pertanyaan yang mudah.
 
+Keempat hubungan itu, beserta keempat persamaan fundamental, tidak perlu dihafal satu per satu. Gambar 7.2 memberi alat ingat yang disebut **kotak termodinamika**. Setiap fungsi energi (*U*, *H*, *A*, *G*) terletak di sisi kotak, diapit kedua variabel alaminya di sudut. Untuk menulis diferensialnya, ambil kedua variabel alami itu; koefisien setiap diferensial adalah variabel di ujung lain panah diagonal, bertanda plus bila panah menunjuk **dari** variabel alami ke koefisiennya, dan minus bila sebaliknya. Contohnya *U*, yang diapit *S* dan *V*: panah dari *S* ke *T* memberi $+T\,dS$, dan panah dari *p* ke *V* (menuju variabel alami) memberi $-p\,dV$, sehingga $dU = T\,dS - p\,dV$. Coba periksa sendiri bahwa cara yang sama memberi *dH*, *dA*, dan *dG* pada (7.8).
+
+![Gambar 7.2 Kotak termodinamika. Fungsi energi di sisi, variabel alaminya di kedua sudut yang mengapitnya. Koefisien diferensial dibaca di ujung lain panah diagonal: tanda plus bila panah menjauhi variabel alami, minus bila menuju ke sana.](fig/kotak.png){width=42%}
+
 Untuk cairan dan padatan, ruas kanan hubungan terakhir dinyatakan dengan **koefisien muai volume** $\alpha = (1/V)(\partial V/\partial T)_p$, besaran yang ditabelkan untuk banyak zat. Maka $(\partial S/\partial p)_T = -\alpha V$.
 
 Pemakaian penting lainnya adalah menghitung bagaimana energi dalam bergantung pada volume. Dari $dU = T\,dS - p\,dV$, membagi dengan *dV* pada suhu tetap dan memakai hubungan Maxwell ketiga:
@@ -75,8 +79,14 @@ $$
 
 Besaran ini disebut **tekanan dalam** $\pi_T$. Ia mengukur seberapa besar energi dalam berubah ketika molekul-molekul dijauhkan pada suhu tetap, yaitu mengukur gaya antarmolekul. Persamaan (7.11) disebut **persamaan keadaan termodinamika**, karena menghubungkan energi dengan persamaan keadaan *p*(*T*, *V*).
 
+Hubungan Maxwell ketiga juga melengkapi rumus entropi yang dijanjikan di subbab 6.1. Pandang entropi sebagai fungsi *T* dan *V*: $dS = (\partial S/\partial T)_V\,dT + (\partial S/\partial V)_T\,dV$. Koefisien pertama adalah $C_V/T$, karena pada volume tetap $dq_\text{rev} = C_V\,dT$; koefisien kedua diganti dengan hubungan Maxwell. Dengan cara yang sama untuk *T* dan *p*, memakai hubungan Maxwell keempat dan $dq_\text{rev} = C_p\,dT$ pada tekanan tetap:
+$$
+dS = \frac{C_V}{T}\,dT + \left(\frac{\partial p}{\partial T}\right)_V dV , \qquad dS = \frac{C_p}{T}\,dT - \alpha V\,dp .
+$$
+Kedua rumus ini berlaku untuk zat apa pun: gas nyata, cairan, atau padatan. Untuk gas ideal, $(\partial p/\partial T)_V = nR/V$ dan $\alpha V = nR/p$, sehingga keduanya kembali menjadi (6.1) dan (6.2).
+
 ::: {.contoh}
-**Contoh 7.10 · Tekanan dalam gas ideal dan gas van der Waals**
+**Contoh 7.11 · Tekanan dalam gas ideal dan gas van der Waals**
 
 Hitung $\pi_T$ untuk (a) gas ideal, (b) gas van der Waals. (c) Berapa nilainya untuk N₂ pada volume molar 1,00 L mol⁻¹?
 
@@ -92,7 +102,7 @@ $$
 :::
 
 ::: {.contoh}
-**Contoh 7.11 · Entropi air yang ditekan**
+**Contoh 7.12 · Entropi air yang ditekan**
 
 Untuk air cair pada 25 °C, $\alpha = 2{,}07 \times 10^{-4}$ K⁻¹ dan $V_\text{m} = 18{,}07$ cm³ mol⁻¹. Hitung perubahan entropi satu mol air bila tekanannya dinaikkan 100 bar pada suhu tetap. Bandingkan dengan gas ideal yang tekanannya dinaikkan dari 1 bar ke 101 bar.
 
@@ -114,7 +124,7 @@ dengan $\kappa_T = -(1/V)(\partial V/\partial p)_T$ **kompresibilitas isotermal*
 :::
 
 ::: {.contoh}
-**Contoh 7.12 · Energi yang diperlukan untuk menjauhkan molekul**
+**Contoh 7.13 · Energi yang diperlukan untuk menjauhkan molekul**
 
 Satu mol N₂ ($a = 1{,}370$ L² bar mol⁻²) memuai secara isotermal dari 1,00 L ke 10,0 L. Hitung Δ*U* menurut persamaan van der Waals.
 

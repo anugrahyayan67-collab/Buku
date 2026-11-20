@@ -60,6 +60,18 @@ Pada suhu dan tekanan tetap, $\Delta G = -T\Delta S_\text{total}$: penurunan ene
 
 Untuk proses pada volume tetap, penalaran yang sama memakai Δ*U* sebagai ganti Δ*H* (karena pada volume tetap, kalor yang dipertukarkan adalah Δ*U*), dan menghasilkan fungsi keadaan saudaranya, **energi bebas Helmholtz** $A = U - TS$. Kedua subbab berikutnya membahas masing-masing.
 
+::: {.contoh}
+**Contoh 7.1 · Dua jalan menuju jawaban yang sama**
+
+Untuk $\text{N}_2(g) + 3\text{H}_2(g) \rightarrow 2\text{NH}_3(g)$ pada 298,15 K dan 1 bar, $\Delta_\text{r}H^\circ = -92{,}22$ kJ mol⁻¹ dan $\Delta_\text{r}S^\circ = -198{,}76$ J K⁻¹ mol⁻¹. (a) Tentukan arah reaksi dengan cara Bab 6: hitung entropi lingkungan dan entropi total. (b) Tentukan dengan energi Gibbs. Bandingkan.
+
+**Penyelesaian.** (a) Lingkungan menerima kalor 92,22 kJ: $\Delta S_\text{lingk} = 92\,220/298{,}15 = +309{,}3$ J K⁻¹ mol⁻¹. Entropi total: $-198{,}76 + 309{,}3 = +110{,}5$ J K⁻¹ mol⁻¹. Positif: reaksi spontan.
+
+(b) $\Delta_\text{r}G^\circ = \Delta_\text{r}H^\circ - T\Delta_\text{r}S^\circ = -92{,}22 - (298{,}15)(-0{,}198\,76) = -32{,}96$ kJ mol⁻¹. Negatif: reaksi spontan.
+
+**Memahami hasil.** Kedua cara sepakat, dan angkanya terhubung tepat: $-T\Delta S_\text{total} = -(298{,}15)(0{,}1105) = -32{,}96$ kJ mol⁻¹ $= \Delta_\text{r}G^\circ$. Entropi sistem turun (empat molekul gas menjadi dua), tetapi kalor yang dilepaskan menaikkan entropi lingkungan lebih banyak lagi. Energi Gibbs melakukan pembukuan itu secara otomatis: cukup data sistem, tanpa menghitung lingkungan secara terpisah.
+:::
+
 ::: {.kuis}
 **Kuis cepat 7.1** Mengapa energi Gibbs hanya memberi kriteria spontanitas untuk proses pada suhu **dan** tekanan tetap?
 :::
@@ -92,7 +104,7 @@ $$
 Penurunan energi Helmholtz adalah kerja **maksimum** yang dapat diperoleh dari suatu proses isotermal, dan batas itu dicapai bila prosesnya reversibel. Bagian energi dalam yang "bebas" diubah menjadi kerja adalah Δ*A*; sisanya, *T*Δ*S*, terikat sebagai kalor yang harus dipertukarkan dengan lingkungan agar entropi semesta tidak turun.
 
 ::: {.contoh}
-**Contoh 7.1 · Kerja maksimum dari gas yang memuai**
+**Contoh 7.2 · Kerja maksimum dari gas yang memuai**
 
 Satu mol gas ideal memuai secara isotermal pada 298 K dari 10,0 L ke 20,0 L. Hitung Δ*U*, Δ*S*, dan Δ*A*, lalu bandingkan −Δ*A* dengan kerja ekspansi reversibel dari Bab 3.
 
@@ -102,7 +114,7 @@ Satu mol gas ideal memuai secara isotermal pada 298 K dari 10,0 L ke 20,0 L. Hit
 :::
 
 ::: {.contoh}
-**Contoh 7.2 · Kerja maksimum pembakaran metana dalam wadah tertutup**
+**Contoh 7.3 · Kerja maksimum pembakaran metana dalam wadah tertutup**
 
 Untuk pembakaran metana dengan air cair pada 298 K, $\Delta U = -885{,}3$ kJ mol⁻¹ (Contoh 4.1) dan $\Delta S^\circ = -243{,}0$ J K⁻¹ mol⁻¹. Hitung Δ*A* dan kerja maksimum pada volume tetap.
 
@@ -145,7 +157,7 @@ Penting diingat bahwa Δ*G* < 0 hanya berarti proses **dapat** terjadi; termodin
 ![Gambar 7.1 Energi Gibbs molar es, air, dan uap air terhadap suhu pada tekanan tetap (skematis). Kemiringan setiap garis sama dengan −*S*; karena gas mempunyai entropi terbesar, garisnya paling curam. Pada setiap suhu, fasa yang stabil adalah fasa dengan *G* terendah (pita jingga); titik leleh dan titik didih adalah titik potong garis-garisnya.](fig/gT.png){width=72%}
 
 ::: {.contoh}
-**Contoh 7.3 · Es pada tiga suhu**
+**Contoh 7.4 · Es pada tiga suhu**
 
 Dengan $\Delta_\text{fus}H = 6{,}01$ kJ mol⁻¹ dan $\Delta_\text{fus}S = 22{,}0$ J K⁻¹ mol⁻¹ (dianggap tetap), hitung Δ*G* untuk pencairan es pada −10 °C, 0 °C, dan +10 °C.
 
@@ -155,7 +167,7 @@ Dengan $\Delta_\text{fus}H = 6{,}01$ kJ mol⁻¹ dan $\Delta_\text{fus}S = 22{,}
 :::
 
 ::: {.contoh}
-**Contoh 7.4 · Batu kapur sekali lagi**
+**Contoh 7.5 · Batu kapur sekali lagi**
 
 Untuk $\text{CaCO}_3(s) \to \text{CaO}(s) + \text{CO}_2(g)$, $\Delta_\text{r}H^\circ = +178{,}3$ kJ mol⁻¹ dan $\Delta_\text{r}S^\circ = +160{,}6$ J K⁻¹ mol⁻¹. Hitung $\Delta_\text{r}G^\circ$ pada 298 K dan 1200 K.
 
@@ -165,7 +177,7 @@ Untuk $\text{CaCO}_3(s) \to \text{CaO}(s) + \text{CO}_2(g)$, $\Delta_\text{r}H^\
 :::
 
 ::: {.contoh}
-**Contoh 7.5 · Kantong dingin instan**
+**Contoh 7.6 · Kantong dingin instan**
 
 Kantong dingin untuk cedera olahraga berisi amonium nitrat padat dan sekantong air. Ketika kantong ditekan, garam itu larut dan kantong menjadi dingin. Untuk pelarutan NH₄NO₃, $\Delta H = +25{,}7$ kJ mol⁻¹ dan $\Delta S = +108{,}7$ J K⁻¹ mol⁻¹. Tunjukkan bahwa pelarutan ini spontan pada 25 °C, dan tentukan suhu di bawah mana ia tidak lagi spontan.
 
@@ -196,7 +208,7 @@ Penurunan energi Gibbs adalah kerja bukan-ekspansi maksimum yang dapat diperoleh
 Inilah arti fisis Δ*G* yang paling penting bagi elektrokimia (Bab 13) dan biokimia. Dalam sel elektrokimia, kerja tambahan adalah kerja listrik, dan Δ*G* langsung menentukan tegangan sel: $\Delta G = -nFE$, dengan *n* banyaknya mol elektron yang berpindah dan *F* tetapan Faraday.
 
 ::: {.contoh}
-**Contoh 7.6 · Batas sel bahan bakar hidrogen**
+**Contoh 7.7 · Batas sel bahan bakar hidrogen**
 
 Untuk $\text{H}_2(g) + \tfrac12\text{O}_2(g) \to \text{H}_2\text{O}(l)$ pada 298 K, $\Delta_\text{r}H^\circ = -285{,}83$ kJ mol⁻¹ dan $\Delta_\text{r}G^\circ = -237{,}13$ kJ mol⁻¹. (a) Berapa kerja listrik maksimum per mol H₂? (b) Berapa efisiensi maksimum sel bahan bakar bila dibandingkan dengan entalpi pembakaran? (c) Berapa tegangan sel maksimumnya? (Dua elektron berpindah per molekul H₂; $F = 96\,485$ C mol⁻¹.)
 
@@ -210,7 +222,7 @@ Untuk $\text{H}_2(g) + \tfrac12\text{O}_2(g) \to \text{H}_2\text{O}(l)$ pada 298
 :::
 
 ::: {.contoh}
-**Contoh 7.7 · Kerja dari glukosa**
+**Contoh 7.8 · Kerja dari glukosa**
 
 Untuk pembakaran glukosa, $\text{C}_6\text{H}_{12}\text{O}_6(s) + 6\text{O}_2(g) \to 6\text{CO}_2(g) + 6\text{H}_2\text{O}(l)$, $\Delta_\text{r}H^\circ = -2803$ kJ mol⁻¹ dan $\Delta_\text{r}S^\circ = +259$ J K⁻¹ mol⁻¹ pada 298 K. Hitung $\Delta_\text{r}G^\circ$ dan jelaskan teka-teki pembuka yang kedua.
 
@@ -228,7 +240,7 @@ Karena *G* fungsi keadaan, Δ*G* reaksi bersih adalah jumlah Δ*G* kedua tahap. 
 :::
 
 ::: {.contoh}
-**Contoh 7.8 · Berapa foton untuk satu glukosa?**
+**Contoh 7.9 · Berapa foton untuk satu glukosa?**
 
 Fotosintesis membalik pembakaran glukosa: $6\text{CO}_2 + 6\text{H}_2\text{O} \to \text{C}_6\text{H}_{12}\text{O}_6 + 6\text{O}_2$, dengan $\Delta_\text{r}G^\circ = +2879$ kJ mol⁻¹. Energi didatangkan oleh cahaya merah 680 nm. (a) Hitung energi satu mol foton itu. (b) Berapa mol foton paling sedikit yang diperlukan per mol glukosa? (c) Tumbuhan sebenarnya memakai sekitar 48 foton per glukosa. Berapa efisiensinya?
 

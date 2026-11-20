@@ -40,7 +40,7 @@ Reaksi dengan Δ*H* = +50 kJ mol⁻¹ dan Δ*S* = +100 J K⁻¹ mol⁻¹. Di ata
 Mengapa Δ*G* < 0 tidak menjamin reaksi berlangsung dalam waktu yang wajar? ||| termodinamika tidak berbicara tentang laju
 
 
-Tunjukkan bahwa pelarutan NH₄NO₃ (Contoh 7.5) tidak spontan pada −50 °C. Berapa Δ*G*-nya? ||| +1,4 kJ mol⁻¹
+Tunjukkan bahwa pelarutan NH₄NO₃ (Contoh 7.6) tidak spontan pada −50 °C. Berapa Δ*G*-nya? ||| +1,4 kJ mol⁻¹
 Reaksi dengan Δ*H* < 0 dan Δ*S* < 0 spontan pada suhu rendah atau tinggi? Berikan satu contoh. ||| suhu rendah; misalnya pembekuan air
 
 ## Subbab 7.4: Kerja maksimum dan kerja bukan-ekspansi
@@ -131,5 +131,5 @@ Manakah yang secara termodinamika tidak stabil terhadap unsur-unsurnya: NH₃, N
 Hitung $\Delta_\text{r}G^\circ$ pembakaran etanol cair menjadi CO₂ dan H₂O(l). ||| −1325,3 kJ mol⁻¹
 Mengapa knalpot mobil memerlukan katalis untuk mengurai NO, padahal penguraiannya sangat spontan? ||| penguraian NO sangat lambat tanpa katalis
 
-Dengan data Contoh 7.19, hitung $\Delta_\text{f}G^\circ$ CH₄ pada 1200 K. ||| +22,2 kJ mol⁻¹
+Dengan data Contoh 7.20, hitung $\Delta_\text{f}G^\circ$ CH₄ pada 1200 K. ||| +22,2 kJ mol⁻¹
 

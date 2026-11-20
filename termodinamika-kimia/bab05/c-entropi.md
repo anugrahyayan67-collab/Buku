@@ -1,6 +1,6 @@
 ## 5.6 Entropi sebagai fungsi keadaan
 
-Kembali ke pengamatan di akhir Contoh 5.4. Dalam siklus Carnot, kalor yang dipertukarkan tidak berjumlah nol (sebagian berubah menjadi kerja), tetapi jumlah $q/T$ pada kedua tahap isotermal tepat nol. Persamaan (5.2) memastikan hal ini berlaku untuk setiap siklus Carnot, karena $|q_\text{c}|/q_\text{h} = T_\text{c}/T_\text{h}$ dapat ditulis ulang, dengan tanda $q_\text{c}$ negatif, sebagai
+Kembali ke pengamatan di akhir Contoh 5.4. Dalam siklus Carnot, kalor yang dipertukarkan tidak berjumlah nol (sebagian berubah menjadi kerja), tetapi jumlah $q/T$ pada kedua tahap isotermal tepat nol. (Kedua tahap adiabatik tidak ikut dijumlahkan karena pada tahap itu *q* = 0, sehingga sumbangannya nol.) Persamaan (5.2) memastikan hal ini berlaku untuk setiap siklus Carnot, karena $|q_\text{c}|/q_\text{h} = T_\text{c}/T_\text{h}$ dapat ditulis ulang, dengan tanda $q_\text{c}$ negatif, sebagai
 
 $$
 \frac{q_\text{h}}{T_\text{h}} + \frac{q_\text{c}}{T_\text{c}} = 0 . \qquad \text{(5.6)}
@@ -8,7 +8,9 @@ $$
 
 Apa artinya? Besaran yang jumlahnya nol untuk setiap siklus adalah ciri khas fungsi keadaan. Ketinggian, misalnya: berjalan mengelilingi bukit dan kembali ke titik awal, jumlah semua naik-turun kita tepat nol. Kalor bukan fungsi keadaan, tetapi kalor reversibel dibagi suhu tampaknya ya.
 
-Clausius menunjukkan bahwa hasil ini berlaku untuk **sembarang** siklus reversibel, bukan hanya siklus Carnot. Gagasannya: setiap siklus reversibel pada diagram *p*–*V* dapat didekati dengan banyak sekali siklus Carnot kecil yang berdampingan. Isoterm dan adiabat yang dipakai bersama oleh dua siklus kecil yang bertetangga dijalani dua kali dalam arah berlawanan, sehingga sumbangannya saling menghapus, dan yang tersisa hanyalah batas luar, yaitu siklus aslinya. Karena setiap siklus kecil memenuhi (5.6), jumlah seluruhnya juga nol:
+Clausius menunjukkan bahwa hasil ini berlaku untuk **sembarang** siklus reversibel, bukan hanya siklus Carnot. Gagasannya: setiap siklus reversibel pada diagram *p*–*V* dapat didekati dengan banyak sekali siklus Carnot kecil yang berdampingan. Isoterm dan adiabat yang dipakai bersama oleh dua siklus kecil yang bertetangga dijalani dua kali dalam arah berlawanan, sehingga sumbangannya saling menghapus, dan yang tersisa hanyalah batas luar, yaitu siklus aslinya (Gambar 5.2). Karena setiap siklus kecil memenuhi (5.6), jumlah seluruhnya juga nol:
+
+![Gambar 5.2 Siklus reversibel sembarang (kurva tebal) dipetak oleh isoterm (jingga) dan adiabat (biru). Setiap petak kecil adalah satu siklus Carnot; makin rapat petaknya, makin tepat gabungan petak-petak itu mengikuti siklus aslinya.](fig/clausius.png){width=62%}
 
 $$
 \oint\frac{dq_\text{rev}}{T} = 0 .
@@ -184,9 +186,9 @@ Mari kita lihat artinya dengan contoh paling sederhana. Bayangkan empat molekul 
 
 Keadaan "dua di kiri, dua di kanan" dapat dicapai dengan enam cara, sedangkan "semua di kiri" hanya dengan satu cara. Keadaan dengan *W* terbesar adalah keadaan yang paling mungkin, dan menurut (5.15), juga keadaan dengan entropi terbesar.
 
-Dengan empat molekul, peluang menemukan semuanya di kiri masih 1/16, tidak terlalu kecil. Tetapi peluang itu turun sangat cepat dengan banyaknya molekul: untuk 100 molekul, $2^{-100} \approx 8 \times 10^{-31}$; untuk satu mol, $2^{-6 \times 10^{23}}$, angka yang begitu kecil sehingga tidak ada artinya. Gambar 5.2 memperlihatkan bagaimana sebaran peluang menyempit menjadi puncak tajam di tengah ketika banyaknya molekul bertambah.
+Dengan empat molekul, peluang menemukan semuanya di kiri masih 1/16, tidak terlalu kecil. Tetapi peluang itu turun sangat cepat dengan banyaknya molekul: untuk 100 molekul, $2^{-100} \approx 8 \times 10^{-31}$; untuk satu mol, $2^{-6 \times 10^{23}}$, angka yang begitu kecil sehingga tidak ada artinya. Gambar 5.3 memperlihatkan bagaimana sebaran peluang menyempit menjadi puncak tajam di tengah ketika banyaknya molekul bertambah.
 
-![Gambar 5.2 Peluang relatif menemukan suatu fraksi molekul di separuh kiri wadah, untuk 10, 100, dan 1000 molekul. Makin banyak molekul, makin tajam puncaknya di 0,5. Untuk satu mol molekul, penyimpangan dari sebaran merata praktis tidak pernah teramati.](fig/binomial.png){width=72%}
+![Gambar 5.3 Peluang relatif menemukan suatu fraksi molekul di separuh kiri wadah, untuk 10, 100, dan 1000 molekul. Makin banyak molekul, makin tajam puncaknya di 0,5. Untuk satu mol molekul, penyimpangan dari sebaran merata praktis tidak pernah teramati.](fig/binomial.png){width=72%}
 
 Inilah makna statistik hukum kedua. Gas tidak memuai karena ada gaya yang mendorongnya, melainkan karena keadaan "tersebar merata" dapat dicapai dengan jumlah cara yang luar biasa lebih banyak daripada keadaan "terkumpul". Molekul yang bergerak acak hampir pasti berakhir dalam keadaan yang paling banyak caranya. Proses kebalikannya tidak mustahil secara mutlak, tetapi peluangnya begitu kecil sehingga tidak akan pernah teramati selama umur semesta.
 

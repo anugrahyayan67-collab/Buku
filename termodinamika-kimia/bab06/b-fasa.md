@@ -109,7 +109,7 @@ $$
 S_\text{m}(T) = \int_0^{T_\text{f}}\frac{C_p(\text{s})}{T}dT + \frac{\Delta_\text{fus}H}{T_\text{f}} + \int_{T_\text{f}}^{T_\text{b}}\frac{C_p(\text{l})}{T}dT + \frac{\Delta_\text{vap}H}{T_\text{b}} + \int_{T_\text{b}}^{T}\frac{C_p(\text{g})}{T}dT . \qquad \text{(6.7)}
 $$
 
-Entropi yang dihitung dengan cara ini disebut **entropi ketiga hukum** atau entropi kalorimetri. Gambar 6.1 memperlihatkan bentuknya untuk argon: naik perlahan selama pemanasan, dan melompat pada setiap perubahan fasa, terutama pada penguapan.
+Entropi yang dihitung dengan cara ini disebut **entropi ketiga hukum** atau entropi kalorimetri. Gambar 6.2 memperlihatkan bentuknya untuk argon: naik perlahan selama pemanasan, dan melompat pada setiap perubahan fasa, terutama pada penguapan.
 
 Ada satu kesulitan praktis: kapasitas kalor tidak dapat diukur sampai tepat 0 K. Untungnya, pada suhu sangat rendah, kapasitas kalor padatan nonlogam mengikuti **hukum *T*³ Debye**:
 
@@ -119,7 +119,7 @@ $$
 
 Memasukkannya ke (6.5) dengan batas bawah 0 memberi hasil yang sangat praktis: $S(T) = \int_0^T aT^2\,dT = aT^3/3 = C_p(T)/3$. Jadi entropi pada suhu terendah yang diukur cukup ditaksir sebagai sepertiga kapasitas kalor pada suhu itu.
 
-![Gambar 6.1 Entropi molar argon dari 0 K sampai 300 K, dihitung dari model Debye untuk padatan dan data peleburan, cairan, penguapan, serta gas. Lompatan terbesar terjadi pada penguapan (87,3 K).](fig/entropiT.png){width=72%}
+![Gambar 6.2 Entropi molar argon dari 0 K sampai 300 K, dihitung dari model Debye untuk padatan dan data peleburan, cairan, penguapan, serta gas. Lompatan terbesar terjadi pada penguapan (87,3 K).](fig/entropiT.png){width=72%}
 
 ::: {.contoh}
 **Contoh 6.13 · Entropi mutlak argon dari kalorimetri**

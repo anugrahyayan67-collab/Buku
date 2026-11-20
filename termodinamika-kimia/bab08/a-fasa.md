@@ -131,7 +131,7 @@ $$
 $$
 Kini gas yang stabil: air menguap.
 
-(c) Kesetimbangan bila selisih itu nol: $p = \exp(-8550/RT) = 0{,}0317$ bar, sesuai Contoh 7.16.
+(c) Kesetimbangan bila selisih itu nol: $p = \exp(-8550/RT) = 0{,}0317$ bar, sesuai Contoh 7.17.
 
 **Memahami hasil.** Kata "fasa stabil" selalu menyertakan suhu **dan** tekanan. Pada 25 °C, air cair stabil di bawah tekanan uap 1 bar tetapi tidak stabil terhadap uap bertekanan rendah. Itulah sebabnya cucian kering di udara, dan itulah sebabnya pula air di dalam botol tertutup berhenti menguap ketika tekanan uapnya mencapai 3,17 kPa.
 :::

@@ -78,7 +78,7 @@ Jawabannya datang dari sifat fungsi keadaan. Karena Δ*H* hanya bergantung pada 
 
 Cara memakainya: susun reaksi-reaksi yang diketahui, balik atau kalikan bila perlu, sampai jumlahnya sama dengan reaksi yang dicari, lalu jumlahkan Δ*H*-nya dengan perlakuan yang sama.
 
-![Gambar 4.1 Diagram entalpi untuk pembakaran karbon. Pembakaran grafit langsung menjadi CO₂ dan pembakaran dua langkah melalui CO harus menghasilkan perubahan entalpi total yang sama, sehingga Δ*H* langkah pertama dapat dihitung.](fig/hess.png){width=70%}
+![Gambar 4.2 Diagram entalpi untuk pembakaran karbon. Pembakaran grafit langsung menjadi CO₂ dan pembakaran dua langkah melalui CO harus menghasilkan perubahan entalpi total yang sama, sehingga Δ*H* langkah pertama dapat dihitung.](fig/hess.png){width=70%}
 
 ::: {.contoh}
 **Contoh 4.9 · Entalpi pembentukan CO yang tidak dapat diukur langsung**
@@ -94,7 +94,7 @@ $$
 $$
 Maka $\Delta H = \Delta H_1 - \Delta H_2 = -393{,}51 + 282{,}98 = -110{,}53$ kJ mol⁻¹.
 
-**Memahami hasil.** Gambar 4.1 memperlihatkan perhitungan ini sebagai tangga energi: dari C ke CO₂ dapat ditempuh sekaligus atau dua langkah, dan kedua jalan harus turun sejauh yang sama. Dari kedua pembakaran yang mudah diukur, kita memperoleh kalor reaksi yang tidak mungkin diukur bersih.
+**Memahami hasil.** Gambar 4.2 memperlihatkan perhitungan ini sebagai tangga energi: dari C ke CO₂ dapat ditempuh sekaligus atau dua langkah, dan kedua jalan harus turun sejauh yang sama. Dari kedua pembakaran yang mudah diukur, kita memperoleh kalor reaksi yang tidak mungkin diukur bersih.
 :::
 
 ::: {.contoh}

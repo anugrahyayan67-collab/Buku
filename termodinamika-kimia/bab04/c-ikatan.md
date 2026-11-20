@@ -92,9 +92,9 @@ $\Delta_\text{vap}H^\circ$ air pada 25 °C adalah 44,01 kJ mol⁻¹. Dengan $C_{
 
 ## 4.10 Termokimia pembakaran dan bahan bakar
 
-Sekarang kita dapat menjawab pertanyaan pembuka tentang bahan bakar. Untuk membandingkan bahan bakar, yang penting bukan entalpi pembakaran per mol, melainkan **per gram** (untuk kendaraan yang harus mengangkat bahan bakarnya) atau **per liter** (untuk tangki yang ruangnya terbatas). Gambar 4.2 membandingkan beberapa bahan bakar per gram.
+Sekarang kita dapat menjawab pertanyaan pembuka tentang bahan bakar. Untuk membandingkan bahan bakar, yang penting bukan entalpi pembakaran per mol, melainkan **per gram** (untuk kendaraan yang harus mengangkat bahan bakarnya) atau **per liter** (untuk tangki yang ruangnya terbatas). Gambar 4.3 membandingkan beberapa bahan bakar per gram.
 
-![Gambar 4.2 Entalpi pembakaran spesifik beberapa bahan bakar (air sebagai cairan). Hidrogen paling unggul per gram; senyawa yang sudah mengandung oksigen, seperti etanol dan glukosa, melepaskan energi jauh lebih sedikit.](fig/bahanbakar.png){width=70%}
+![Gambar 4.3 Entalpi pembakaran spesifik beberapa bahan bakar (air sebagai cairan). Hidrogen paling unggul per gram; senyawa yang sudah mengandung oksigen, seperti etanol dan glukosa, melepaskan energi jauh lebih sedikit.](fig/bahanbakar.png){width=70%}
 
 Dua pola terlihat jelas, dan keduanya dapat dipahami dari entalpi ikatan.
 

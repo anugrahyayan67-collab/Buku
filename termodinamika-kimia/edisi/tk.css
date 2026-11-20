@@ -128,3 +128,6 @@ div.awas { background: #fdefeb; border-left-color: #c0392b; }
 div.awas > p:first-child > strong:first-child { color: #a5281b; }
 /* Kuis: sudut dan bingkai mengikuti sistem yang sama */
 div.kuis { border: .3mm solid var(--garis); border-left: 1.6mm solid var(--biru); border-radius: 0 2mm 2mm 0; background: var(--muda); }
+/* keterangan tabel tidak boleh terpisah dari tabelnya */
+p:has(+ table) { break-after: avoid; page-break-after: avoid; text-indent: 0 !important; }
+table { break-before: avoid; }

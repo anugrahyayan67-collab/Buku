@@ -124,7 +124,7 @@ $$
 
 Sekarang kita sampai pada salah satu gagasan terpenting termodinamika. Satu mol gas ideal pada 298 K memuai dari 10,0 L menjadi 20,0 L, dan suhunya dijaga tetap. Keadaan awal dan akhirnya selalu sama. Tetapi berapa kerja yang dilakukan gas?
 
-Jawabannya: bergantung pada caranya. Bila tekanan luar langsung diturunkan ke tekanan akhir gas, 1,24 bar, gas memuai dalam satu langkah melawan tekanan itu dan melakukan kerja $|w| = (1{,}24 \times 10^5\ \text{Pa})(0{,}0100\ \text{m}^3) = 1239$ J. Bila ekspansi dilakukan dalam dua tahap, mula-mula melawan 1,65 bar sampai 15,0 L, lalu melawan 1,24 bar sampai 20,0 L, kerjanya 1446 J. Makin banyak tahapnya, makin besar kerjanya (Gambar 3.1).
+Jawabannya: bergantung pada caranya. Mula-mula tekanan gas 2,48 bar (dari $p = nRT/V$ pada 10,0 L). Bila tekanan luar langsung diturunkan ke tekanan akhir gas, 1,24 bar (tekanan gas pada 20,0 L), gas memuai dalam satu langkah melawan tekanan itu dan melakukan kerja $|w| = (1{,}24 \times 10^5\ \text{Pa})(0{,}0100\ \text{m}^3) = 1239$ J. Bila ekspansi dilakukan dalam dua tahap, mula-mula melawan 1,65 bar (tekanan gas pada 15,0 L) sampai 15,0 L, lalu melawan 1,24 bar sampai 20,0 L, kerjanya 1446 J. Makin banyak tahapnya, makin besar kerjanya (Gambar 3.1).
 
 ![Gambar 3.1 Kerja ekspansi isotermal 1 mol gas ideal pada 298 K dari 10 L ke 20 L, digambarkan sebagai luas di bawah tekanan luar. Garis gelap adalah tekanan gas. Makin dekat tekanan luar mengikuti tekanan gas, makin besar kerja yang dilakukan; batasnya adalah ekspansi reversibel.](fig/kerja.png){width=96%}
 
@@ -135,6 +135,10 @@ w = -\int_{V_1}^{V_2} p\,dV = -nRT\int_{V_1}^{V_2}\frac{dV}{V} = -nRT\ln\frac{V_
 $$
 
 Untuk contoh kita: $|w| = (8{,}314)(298{,}15)\ln 2 = 1718$ J, lebih besar daripada setiap ekspansi bertahap.
+
+Bagaimana proses seperti itu dapat dibayangkan? Tahan piston dengan tumpukan butir pasir yang beratnya tepat mengimbangi tekanan gas, lalu ambil pasir itu **satu butir demi satu butir** (Gambar 3.2). Setiap butir yang diambil hanya mengurangi tekanan luar sedikit sekali, gas memuai sedikit sampai tekanannya kembali seimbang, dan seterusnya. Mengembalikan satu butir saja sudah cukup untuk membalik arah gerak piston. Itulah arti "reversibel": proses yang dapat dibalik oleh perubahan yang sangat kecil.
+
+![Gambar 3.2 Ekspansi yang mendekati reversibel. Butir-butir pasir yang menahan piston diambil satu per satu, sehingga tekanan luar setiap saat hanya sedikit lebih kecil daripada tekanan gas.](fig/pasir.png){width=88%}
 
 ::: {.inti}
 **Proses reversibel memberikan kerja maksimum.** Pada ekspansi, gas tidak pernah dapat mendorong lebih kuat daripada tekanannya sendiri. Karena itu kerja terbesar diperoleh bila tekanan luar setiap saat dibuat sama dengan tekanan gas. Setiap proses nyata, yang berlangsung dengan kecepatan tertentu, memberikan kerja yang lebih kecil.

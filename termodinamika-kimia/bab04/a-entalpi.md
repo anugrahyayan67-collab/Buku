@@ -137,7 +137,9 @@ Hitung kalor yang diperlukan untuk memanaskan 1,00 mol N₂ dari 25 °C ke 100 �
 
 Bagaimana kalor reaksi diukur? Ada dua jenis kalorimeter utama, dan perbedaannya tepat sejajar dengan perbedaan Δ*U* dan Δ*H*.
 
-**Bom kalorimeter** adalah wadah baja tebal bervolume tetap, diisi zat yang akan dibakar dan oksigen bertekanan tinggi, lalu direndam dalam air di dalam bejana terisolasi. Zat dinyalakan dengan kawat listrik, dan kenaikan suhu air diukur. Karena volume tetap, tidak ada kerja ekspansi, dan kalor yang diukur sama dengan **Δ*U***. Bom kalorimeter dipakai untuk reaksi pembakaran, termasuk untuk mengukur kandungan energi makanan dan bahan bakar. Δ*H* kemudian dihitung dengan (4.3).
+**Bom kalorimeter** adalah wadah baja tebal bervolume tetap, diisi zat yang akan dibakar dan oksigen bertekanan tinggi, lalu direndam dalam air di dalam bejana terisolasi (Gambar 4.1). Zat dinyalakan dengan kawat listrik, dan kenaikan suhu air diukur. Karena volume tetap, tidak ada kerja ekspansi, dan kalor yang diukur sama dengan **Δ*U***. Bom kalorimeter dipakai untuk reaksi pembakaran, termasuk untuk mengukur kandungan energi makanan dan bahan bakar. Δ*H* kemudian dihitung dengan (4.3).
+
+![Gambar 4.1 Skema bom kalorimeter. Sampel dibakar dalam oksigen di dalam bom baja bervolume tetap; kalor yang dilepaskan diserap air dan bom, dan kenaikan suhunya diukur dengan termometer. Karena volume tetap, kalor yang terukur sama dengan Δ*U*.](fig/bom.png){width=60%}
 
 **Kalorimeter tekanan tetap**, dalam bentuk paling sederhana berupa dua gelas plastik busa bertumpuk dengan tutup dan termometer, dipakai untuk reaksi dalam larutan: penetralan, pelarutan, pengendapan. Karena terbuka ke atmosfer, kalor yang diukur sama dengan **Δ*H***.
 

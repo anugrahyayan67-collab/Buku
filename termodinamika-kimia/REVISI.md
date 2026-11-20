@@ -194,4 +194,16 @@ Isi setiap sesi: tanggal, bab, ringkasan perubahan, angka yang dikoreksi.
 
 | Tanggal | Bab | Perubahan |
 |---|---|---|
-| | | |
+| 20-11-2026 | global (medium) | Sistem kotak seragam di `tk.css` (tiga kotak pembuka identik; semua kotak bergaris aksen kiri, sudut membulat, palet buku). Sampul: celah di bawah judul dirapatkan. K1–K2 bagian depan ditulis ulang; halaman judul tidak lagi menyebut buku ini lanjutan dirinya sendiri. K3 indeks: panen otomatis dimatikan, diganti 251 istilah pilihan. K6–K7 ejaan dan sapaan. Lampiran B (data termodinamika, 4 tabel). Keterangan tabel tidak lagi terpisah dari tabelnya. Skrip `periksa.py`. |
+| 20-11-2026 | 1, 3, 4, 5, 6, 7 (medium) | Gambar baru: molekul memantul (1.7), piston berpasir (3.3), bom kalorimeter (4.3), siklus Clausius dipetak (5.6), entropi pencampuran (6.3), kotak termodinamika (7.6). Kalimat penjelas yang menyertai: tumbukan antarmolekul (1.7), asal tekanan 2,48/1,65/1,24 bar dan gambaran pasir (3.3), tahap adiabatik q = 0 (5.6). K4 ditepati: dS(T,V) dan dS(T,p) umum di 7.6. Contoh baru 7.1 (entropi total vs energi Gibbs). |
+| 20-11-2026 | 1–6 (medium, P4) | Semua jawaban numerik soal Bab 1–6 dihitung ulang dengan Python: cocok (selisih hanya pembulatan, mis. Soal 2.19 memakai b = 0,04267). Bab 7–13 sudah dihitung saat ditulis. |
+
+### Sisa pekerjaan untuk sesi high (belum dikerjakan)
+
+- P1 baca kritis kalimat demi kalimat dengan rubrik bagian 3, Bab 1–13 (baru sebagian kecil: 1.7, 3.3, 5.6).
+- K5: contoh *K*_φ amonia di 12.8.
+- Kotak Awas/Terapan Bab 2–4 (tabung elpiji; Z < 1; tanda w dan q; pompa sepeda/mesin diesel; ΔH vs ΔU; Born–Haber).
+- Catatan energi titik nol di 1.7; catatan 273,16 K vs 273,15 di 1.2.
+- Soal tantangan ★ tambahan (Bab 3, 4, 6, 7, 8, 9, 10, 11, 12, 13).
+- Bab 9: data etanol–air terukur; Bab 11: binodal nyata (bila datanya ada); Bab 13: contoh koreksi Debye–Hückel pada Nernst.
+- Gaya bahasa: ikuti bab yang sudah ada (kalimat pendek–sedang, "kita" untuk penjelasan, "kamu" untuk kuis/tujuan, Indonesia baku, koma desimal, satu gagasan per kalimat).

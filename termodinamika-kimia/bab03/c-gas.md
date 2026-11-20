@@ -67,9 +67,9 @@ $$
 **Adiabat reversibel gas ideal.** Untuk gas monoatomik $\gamma = 5/3$; untuk gas diatomik pada suhu kamar $\gamma = 7/5$.
 :::
 
-Karena $\gamma > 1$, adiabat pada diagram *p*–*V* lebih curam daripada isoterm (Gambar 3.2). Pada ekspansi isotermal, kalor yang masuk menjaga suhu tetap, sehingga tekanan turun hanya karena volume bertambah. Pada ekspansi adiabatik, suhu juga turun, sehingga tekanan turun lebih cepat.
+Karena $\gamma > 1$, adiabat pada diagram *p*–*V* lebih curam daripada isoterm (Gambar 3.3). Pada ekspansi isotermal, kalor yang masuk menjaga suhu tetap, sehingga tekanan turun hanya karena volume bertambah. Pada ekspansi adiabatik, suhu juga turun, sehingga tekanan turun lebih cepat.
 
-![Gambar 3.2 Isoterm dan adiabat reversibel gas ideal yang berawal dari keadaan yang sama. Adiabat lebih curam karena suhu gas turun selama ekspansi; makin besar γ, makin curam adiabatnya.](fig/adiabat.png){width=66%}
+![Gambar 3.3 Isoterm dan adiabat reversibel gas ideal yang berawal dari keadaan yang sama. Adiabat lebih curam karena suhu gas turun selama ekspansi; makin besar γ, makin curam adiabatnya.](fig/adiabat.png){width=66%}
 
 ::: {.contoh}
 **Contoh 3.10 · Pompa sepeda**

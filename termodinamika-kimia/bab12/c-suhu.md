@@ -38,13 +38,13 @@ $$
 ::: {.contoh}
 **Contoh 12.12 · Amonia pada 500 K**
 
-Untuk $\text{N}_2 + 3\text{H}_2 \rightleftharpoons 2\text{NH}_3$, $K(298\ \text{K}) = 5{,}8 \times 10^5$ dan $\Delta_\text{r}H^\circ = -92{,}22$ kJ mol⁻¹. Hitung *K* pada 500 K dengan (12.6), lalu bandingkan dengan Contoh 7.13.
+Untuk $\text{N}_2 + 3\text{H}_2 \rightleftharpoons 2\text{NH}_3$, $K(298\ \text{K}) = 5{,}8 \times 10^5$ dan $\Delta_\text{r}H^\circ = -92{,}22$ kJ mol⁻¹. Hitung *K* pada 500 K dengan (12.6), lalu bandingkan dengan Contoh 7.14.
 
 **Penyelesaian.**
 $$
 \ln\frac{K}{5{,}81 \times 10^5} = \frac{92\,220}{8{,}314}\left(\frac{1}{500} - \frac{1}{298{,}15}\right) = -15{,}02 , \qquad K = (5{,}81 \times 10^5)e^{-15{,}02} = 0{,}17 .
 $$
-Di Contoh 7.13, $\Delta_\text{r}G^\circ(500\ \text{K}) = +7{,}3$ kJ mol⁻¹, sehingga $K = \exp[-7260/(8{,}314 \times 500)] = 0{,}17$. Sama.
+Di Contoh 7.14, $\Delta_\text{r}G^\circ(500\ \text{K}) = +7{,}3$ kJ mol⁻¹, sehingga $K = \exp[-7260/(8{,}314 \times 500)] = 0{,}17$. Sama.
 
 **Memahami hasil.** Kenaikan suhu dari 298 K ke 500 K menurunkan *K* tiga juta kali. Kedua cara memberi hasil yang sama karena memakai anggapan yang sama: $\Delta_\text{r}H^\circ$ tetap. Perhitungan yang lebih teliti, yang memperhitungkan perubahan $\Delta_\text{r}H^\circ$ dengan suhu lewat kapasitas kalor (kotak berikut), memberi *K* = 0,094 pada 500 K. Untuk rentang suhu yang lebar, koreksi ini penting.
 :::

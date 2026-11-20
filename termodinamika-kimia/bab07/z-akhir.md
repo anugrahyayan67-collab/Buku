@@ -83,7 +83,7 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, $F = 96\,485$ C mol⁻¹, dan data Tabel 
 
 **13.** Mengapa Δ*G* < 0 tidak menjamin reaksi berlangsung dalam waktu yang wajar?
 
-**14.** Tunjukkan bahwa pelarutan NH₄NO₃ (Contoh 7.5) tidak spontan pada −50 °C. Berapa Δ*G*-nya?
+**14.** Tunjukkan bahwa pelarutan NH₄NO₃ (Contoh 7.6) tidak spontan pada −50 °C. Berapa Δ*G*-nya?
 
 **15.** Reaksi dengan Δ*H* < 0 dan Δ*S* < 0 spontan pada suhu rendah atau tinggi? Berikan satu contoh.
 
@@ -187,7 +187,7 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, $F = 96\,485$ C mol⁻¹, dan data Tabel 
 
 **45.** Mengapa knalpot mobil memerlukan katalis untuk mengurai NO, padahal penguraiannya sangat spontan?
 
-**46.** Dengan data Contoh 7.19, hitung $\Delta_\text{f}G^\circ$ CH₄ pada 1200 K.
+**46.** Dengan data Contoh 7.20, hitung $\Delta_\text{f}G^\circ$ CH₄ pada 1200 K.
 
 
 # Jawaban

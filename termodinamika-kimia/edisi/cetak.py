@@ -117,7 +117,8 @@ def hal_bab(n, i): return MULAI[f'bab{n:02d}'] + i
 STOP = set(open(f'{E}/indeks_buang.txt').read().split('\n')) if os.path.exists(f'{E}/indeks_buang.txt') else set()
 cue = re.compile(r'disebut|dinamai|dinamakan|yaitu|didefinisikan|adalah|artinya|dikenal')
 ISTILAH = {}
-for n in BAB:
+AUTO = False   # indeks hanya dari daftar pilihan indeks_tambah.txt (revisi 1.1)
+for n in (BAB if AUTO else []):
     for f in sorted(glob.glob(f'{R}/bab{n:02d}/[a-y]-*.md')):
         for para in open(f).read().split('\n\n'):
             if para.startswith(('|', '#')): continue
@@ -186,7 +187,7 @@ open(f'{K}/judul.html', 'w').write(f'''<!doctype html><html><head><meta charset=
 <div class="judul-hal halaman"><div class="atas"><div class="j">TERMODINAMIKA<br>KIMIA</div><div class="s">Kimia Fisika 1 · dari gas ideal sampai sel elektrokimia</div><div class="pen">Septian Anugrah Dwi Putra</div><div class="e">EDISI PERTAMA</div></div>
 <div class="bawah"></div></div>
 <div class="ket halaman"><p><b>Kimia Fisika 1: Termodinamika Kimia</b><br>Edisi Pertama, 2026<br>Penyusun: Septian Anugrah Dwi Putra</p>
-<p>Isi: {nbab} bab, lampiran, serta indeks. Buku ini merupakan lanjutan dari <i>Fisika Umum</i> dan <i>Termodinamika Kimia</i> karya penyusun yang sama.</p>
+<p>Isi: {nbab} bab, lampiran, serta indeks. Buku ini merupakan lanjutan dari <i>Fisika Umum</i> dan <i>Kimia Kuantum</i> karya penyusun yang sama.</p>
 <p>Naskah disusun oleh penyusun dengan bantuan Claude (Anthropic). Semua angka dalam contoh dan jawaban dihitung ulang dengan komputer. Gambar dibuat dengan Matplotlib; huruf isi Caladea, huruf judul Inter.</p>
 <p>Tanda desimal mengikuti kaidah bahasa Indonesia (koma). Satuan mengikuti Sistem Internasional.</p></div>
 </body></html>''')

@@ -26,7 +26,7 @@ $$
 Mengapa bentuk ini lebih berguna daripada $\Delta G = \Delta H - T\Delta S$? Hasil keduanya sama bila Δ*H* dan Δ*S* dianggap tetap, tetapi (7.12) menunjukkan sesuatu yang lebih dalam: **perubahan Δ*G*/*T* terhadap suhu hanya ditentukan oleh entalpi reaksi**. Di Bab 12, karena $\Delta G^\circ/T = -R\ln K$, persamaan ini akan berubah menjadi persamaan van 't Hoff, yang menjelaskan mengapa tetapan kesetimbangan reaksi eksoterm turun bila suhu naik.
 
 ::: {.contoh}
-**Contoh 7.13 · Sintesis amonia pada 500 K**
+**Contoh 7.14 · Sintesis amonia pada 500 K**
 
 Untuk $\text{N}_2(g) + 3\text{H}_2(g) \to 2\text{NH}_3(g)$, $\Delta_\text{r}G^\circ(298\ \text{K}) = -32{,}90$ kJ mol⁻¹ dan $\Delta_\text{r}H^\circ = -92{,}22$ kJ mol⁻¹. Hitung $\Delta_\text{r}G^\circ$ pada 500 K dengan (7.13).
 
@@ -73,7 +73,7 @@ Energi Gibbs molar gas ideal naik secara logaritmik terhadap tekanan.
 Persamaan (7.16) mungkin tampak sederhana, tetapi ia adalah salah satu yang terpenting di seluruh termodinamika kimia. Di Bab 9 ia akan menjadi rumus potensial kimia, dan di Bab 12 suku logaritmanya akan berubah menjadi tetapan kesetimbangan.
 
 ::: {.contoh}
-**Contoh 7.14 · Air dan uap di bawah tekanan**
+**Contoh 7.15 · Air dan uap di bawah tekanan**
 
 Hitung kenaikan energi Gibbs molar pada 25 °C bila tekanan dinaikkan dari 1 bar ke 1000 bar untuk (a) air cair ($V_\text{m} = 18{,}07$ cm³ mol⁻¹), (b) gas ideal.
 
@@ -83,7 +83,7 @@ Hitung kenaikan energi Gibbs molar pada 25 °C bila tekanan dinaikkan dari 1 bar
 :::
 
 ::: {.contoh}
-**Contoh 7.15 · Membuat intan dari grafit**
+**Contoh 7.16 · Membuat intan dari grafit**
 
 Pada 298 K, $\Delta_\text{r}G^\circ = +2{,}90$ kJ mol⁻¹ untuk C(grafit) → C(intan): pada 1 bar, intan tidak stabil. Massa jenis grafit 2,267 g cm⁻³ dan intan 3,513 g cm⁻³. Taksir tekanan yang diperlukan agar intan menjadi stabil pada 298 K.
 
@@ -98,7 +98,7 @@ $$
 :::
 
 ::: {.contoh}
-**Contoh 7.16 · Tekanan uap air dari tabel energi Gibbs**
+**Contoh 7.17 · Tekanan uap air dari tabel energi Gibbs**
 
 Untuk $\text{H}_2\text{O}(l) \to \text{H}_2\text{O}(g)$ pada 298,15 K, $\Delta_\text{vap}G^\circ = +8{,}55$ kJ mol⁻¹. Pada tekanan uap berapa air cair dan uapnya berada dalam kesetimbangan?
 
@@ -141,7 +141,7 @@ Tabel 7.1 Energi Gibbs pembentukan standar pada 298,15 K.
 Tanda $\Delta_\text{f}G^\circ$ memberi informasi tentang **kestabilan termodinamika** senyawa terhadap unsur-unsurnya. Senyawa dengan $\Delta_\text{f}G^\circ$ negatif, seperti air dan CO₂, stabil: mereka tidak terurai dengan sendirinya menjadi unsur. Senyawa dengan $\Delta_\text{f}G^\circ$ positif, seperti NO, ozon, dan benzena, secara termodinamika cenderung terurai menjadi unsur-unsurnya. Bahwa benzena tetap bertahan di botol laboratorium menunjukkan sekali lagi bahwa termodinamika hanya berbicara tentang arah, bukan laju: senyawa-senyawa itu **stabil secara kinetik**, karena penguraiannya memerlukan pemutusan ikatan dengan penghalang energi yang tinggi.
 
 ::: {.contoh}
-**Contoh 7.17 · Memeriksa konsistensi tabel**
+**Contoh 7.18 · Memeriksa konsistensi tabel**
 
 Hitung $\Delta_\text{f}G^\circ$ H₂O(l) dari $\Delta_\text{f}H^\circ = -285{,}83$ kJ mol⁻¹ dan entropi molar standar (Tabel 6.1), lalu bandingkan dengan Tabel 7.1.
 
@@ -151,7 +151,7 @@ Hitung $\Delta_\text{f}G^\circ$ H₂O(l) dari $\Delta_\text{f}H^\circ = -285{,}8
 :::
 
 ::: {.contoh}
-**Contoh 7.18 · Pembuatan asam nitrat dan nasib ozon**
+**Contoh 7.19 · Pembuatan asam nitrat dan nasib ozon**
 
 Hitung $\Delta_\text{r}G^\circ$ pada 298 K untuk (a) $4\text{NH}_3(g) + 5\text{O}_2(g) \to 4\text{NO}(g) + 6\text{H}_2\text{O}(g)$; (b) $2\text{O}_3(g) \to 3\text{O}_2(g)$.
 
@@ -161,7 +161,7 @@ Hitung $\Delta_\text{r}G^\circ$ pada 298 K untuk (a) $4\text{NH}_3(g) + 5\text{O
 :::
 
 ::: {.contoh}
-**Contoh 7.19 · Metana yang terurai pada suhu tinggi**
+**Contoh 7.20 · Metana yang terurai pada suhu tinggi**
 
 Untuk metana, $\Delta_\text{f}H^\circ = -74{,}81$ kJ mol⁻¹; entropi standar CH₄(g), C(grafit), dan H₂(g) berturut-turut 186,26; 5,74; dan 130,68 J K⁻¹ mol⁻¹. Anggap Δ*H* dan Δ*S* tidak bergantung pada suhu. (a) Hitung $\Delta_\text{f}G^\circ$ CH₄ pada 1000 K. (b) Di atas suhu berapa metana tidak stabil terhadap unsur-unsurnya?
 
@@ -180,4 +180,4 @@ Untuk metana, $\Delta_\text{f}H^\circ = -74{,}81$ kJ mol⁻¹; entropi standar C
 
 ### Menuju bab berikutnya
 
-Gambar 7.1 sudah memberi kita petunjuk tentang perubahan fasa: pada setiap suhu, zat memilih fasa dengan energi Gibbs terendah, dan titik leleh serta titik didih adalah tempat garis-garis *G* berpotongan. Contoh 7.14 dan 7.15 menunjukkan bahwa tekanan juga menggeser titik-titik potong itu. Bab 8 menjadikan gambaran ini kuantitatif: persamaan Clapeyron dan Clausius–Clapeyron menjelaskan bagaimana titik didih bergantung pada tekanan, dan diagram fasa air dan CO₂ merangkum di mana setiap fasa stabil.
+Gambar 7.1 sudah memberi kita petunjuk tentang perubahan fasa: pada setiap suhu, zat memilih fasa dengan energi Gibbs terendah, dan titik leleh serta titik didih adalah tempat garis-garis *G* berpotongan. Contoh 7.15 dan 7.16 menunjukkan bahwa tekanan juga menggeser titik-titik potong itu. Bab 8 menjadikan gambaran ini kuantitatif: persamaan Clapeyron dan Clausius–Clapeyron menjelaskan bagaimana titik didih bergantung pada tekanan, dan diagram fasa air dan CO₂ merangkum di mana setiap fasa stabil.

@@ -10,11 +10,15 @@ Hukum-hukum gas di subbab sebelumnya ditemukan dari percobaan. Semuanya menggamb
 
 Dengan anggapan ini, tekanan tidak lagi misterius. Tekanan adalah akibat rata-rata dari miliaran tumbukan kecil molekul pada dinding setiap detik. Mari kita hitung.
 
-**Satu molekul, satu dinding.** Letakkan *N* molekul di dalam kubus bersisi *L*. Pandang satu molekul yang bergerak dengan komponen kecepatan $v_x$ menuju dinding kanan. Ketika memantul, komponen itu berbalik menjadi $-v_x$, sehingga momentumnya berubah sebesar $2mv_x$. Setelah memantul, molekul itu harus menempuh jarak 2*L* bolak-balik sebelum menumbuk dinding yang sama lagi, dan itu memerlukan waktu $2L/v_x$. Gaya rata-rata yang diberikannya pada dinding adalah perubahan momentum dibagi selang waktu itu:
+**Satu molekul, satu dinding.** Letakkan *N* molekul di dalam kubus bersisi *L*. Pandang satu molekul yang bergerak dengan komponen kecepatan $v_x$ menuju dinding kanan (Gambar 1.1). Ketika memantul, komponen itu berbalik menjadi $-v_x$, sehingga momentumnya berubah sebesar $2mv_x$. Setelah memantul, molekul itu harus menempuh jarak 2*L* bolak-balik sebelum menumbuk dinding yang sama lagi, dan itu memerlukan waktu $2L/v_x$. Gaya rata-rata yang diberikannya pada dinding adalah perubahan momentum dibagi selang waktu itu:
 
 $$
 F_1 = \frac{2mv_x}{2L/v_x} = \frac{mv_x^2}{L} .
 $$
+
+![Gambar 1.1 Satu molekul memantul pada dinding kanan kubus bersisi *L*. Setiap pantulan membalik komponen kecepatan $v_x$ dan memberi dinding momentum $2mv_x$; molekul kembali ke dinding yang sama setelah menempuh 2*L* dalam arah *x*.](fig/dinding.png){width=82%}
+
+Bagaimana dengan tumbukan antarmolekul di tengah jalan? Molekul yang kita ikuti memang dapat menumbuk molekul lain dan berbelok, tetapi tumbukan itu hanya **menukar** momentum di antara molekul-molekul; momentum total yang dibawa ke dinding per detik tidak berubah. Karena itu kita boleh menghitung seolah-olah setiap molekul bergerak bolak-balik tanpa terganggu.
 
 **Semua molekul.** Molekul yang berbeda mempunyai $v_x$ yang berbeda. Menjumlahkan semuanya sama dengan mengalikan *N* dengan rata-rata $\langle v_x^2\rangle$. Membagi gaya total dengan luas dinding $L^2$ menghasilkan tekanan, dan $L^3$ adalah volume *V*:
 
@@ -80,9 +84,9 @@ Rumus ini tampak rumit, tetapi bentuknya dapat dipahami dari dua faktor yang sal
 * Faktor eksponensial $e^{-Mv^2/2RT}$ adalah **faktor Boltzmann**, $e^{-E/RT}$ dengan $E = \tfrac12Mv^2$. Makin besar energi kinetik, makin kecil peluangnya. Faktor ini sendirian akan membuat kelajuan nol paling mungkin.
 * Faktor $v^2$ menghitung banyaknya **arah** yang tersedia. Molekul dapat bergerak ke segala arah, dan semua kecepatan dengan besar *v* menempati kulit bola berjari-jari *v*, yang luasnya $4\pi v^2$. Makin besar kelajuan, makin banyak cara untuk memilikinya.
 
-Hasil kali keduanya nol pada $v = 0$, naik ke suatu puncak, lalu turun dengan cepat di kelajuan tinggi (Gambar 1.1).
+Hasil kali keduanya nol pada $v = 0$, naik ke suatu puncak, lalu turun dengan cepat di kelajuan tinggi (Gambar 1.2).
 
-![Gambar 1.1 Sebaran kelajuan Maxwell–Boltzmann untuk N₂ pada tiga suhu. Garis titik-titik menandai kelajuan paling mungkin. Pada suhu lebih tinggi puncaknya bergeser ke kanan dan sebarannya melebar; luas di bawah setiap kurva tetap 1.](fig/maxwell.png){width=78%}
+![Gambar 1.2 Sebaran kelajuan Maxwell–Boltzmann untuk N₂ pada tiga suhu. Garis titik-titik menandai kelajuan paling mungkin. Pada suhu lebih tinggi puncaknya bergeser ke kanan dan sebarannya melebar; luas di bawah setiap kurva tetap 1.](fig/maxwell.png){width=78%}
 
 Dari sebaran ini kita dapat menghitung tiga kelajuan khas. Kelajuan **paling mungkin** $v_\text{mp}$ terletak di puncak kurva, tempat $df/dv = 0$. Kelajuan **rata-rata** $\bar v$ diperoleh dari $\int_0^\infty vf(v)\,dv$. Hasilnya, bersama $v_\text{rms}$ dari (1.16):
 
