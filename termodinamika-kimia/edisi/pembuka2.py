@@ -221,3 +221,17 @@ for i in range(4):
     ax.plot([x0 + 3.4 * xx, x0 + 3.4 * xv], [yl, yl], color=NI, lw=1.6); yl2 = 4.2 - 3.0 * xv - 0.45 * np.sin(np.pi * xv)
     ax.plot([x0 + 3.4 * xv] * 2, [yl, yl2], color=NI, lw=1.6); xx = xv
 simpan(11, f, 'Kolom distilasi melakukan langkah-langkah penguapan dan pengembunan berulang; setiap langkah adalah satu anak tangga pada diagram suhu–komposisi.')
+
+# 12 lembah energi Gibbs dan labu N2O4/NO2
+f, ax = kanvas(); rng = np.random.default_rng(12)
+for k, (x0, a) in enumerate([(0.6, 0.25), (2.2, 0.6), (3.8, 0.95)]):
+    ax.add_patch(Circle((x0 + 0.55, 1.6), 0.55, fc='white', ec=NI, lw=2, alpha=0.9, zorder=2))
+    ax.add_patch(Rectangle((x0 + 0.45, 2.1), 0.2, 0.5, fc='white', ec=NI, lw=2, zorder=2))
+    ax.add_patch(Circle((x0 + 0.55, 1.6), 0.5, color='#a0522d', alpha=a * 0.6, zorder=3, lw=0))
+    for _ in range(6): bola(ax, x0 + 0.55 + rng.uniform(-0.3, 0.3), 1.6 + rng.uniform(-0.3, 0.3), 0.05, UN if rng.random() < a else SI, z=4)
+xi = np.linspace(0.005, 0.995, 300); G = 1.0 * xi + 0.9 * (xi * np.log(xi) + (1 - xi) * np.log(1 - xi))
+X = 4.9 + 3.0 * xi; Y = 2.6 + 2.2 * G
+ax.plot(X, Y, color=NI, lw=3); ax.fill_between(X, 0.7, Y, color=SI, alpha=0.15, lw=0)
+i = np.argmin(G); bola(ax, X[i], Y[i] + 0.16, 0.16, EM, z=5)
+ax.plot([4.9, 7.9], [0.7, 0.7], color=AB, lw=1.2)
+simpan(12, f, 'Campuran N₂O₄ dan NO₂ makin cokelat ketika dipanaskan; kesetimbangan terletak di dasar lembah energi Gibbs.')

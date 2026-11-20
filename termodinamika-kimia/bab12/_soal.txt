@@ -1,0 +1,109 @@
+## Subbab 12.1: Energi Gibbs reaksi dan kemajuan reaksi
+
+> Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, *RT* = 2,479 kJ mol⁻¹ pada 25 °C, data Tabel 7.1, dan anggap gas ideal kecuali disebutkan lain. Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab.
+
+**Dasar**
+
+Apa yang dimaksud kemajuan reaksi ξ? Bila ξ = 0,40 mol untuk $\text{N}_2 + 3\text{H}_2 \rightarrow 2\text{NH}_3$, berapa mol NH₃ terbentuk? ||| perubahan banyaknya zat dibagi koefisiennya; 0,80 mol
+Untuk campuran dengan $p_{\text{N}_2\text{O}_4} = 0{,}50$ bar dan $p_{\text{NO}_2} = 0{,}50$ bar pada 25 °C, hitung $\Delta_\text{r}G$ untuk $\text{N}_2\text{O}_4 \rightarrow 2\text{NO}_2$. Ke mana reaksi berjalan? ||| +3,01 kJ mol⁻¹; ke kiri
+
+**Menengah**
+
+Mengapa kurva *G* terhadap ξ selalu mempunyai minimum di antara kedua ujung? ||| suku pencampuran menurunkan *G* dengan kemiringan tak hingga di dekat zat murni
+Apa beda $\Delta_\text{r}G$ dan $\Delta_\text{r}G^\circ$? ||| $\Delta_\text{r}G$ bergantung pada komposisi saat itu; $\Delta_\text{r}G^\circ$ pada keadaan standar
+
+## Subbab 12.2: Energi Gibbs standar reaksi dan tetapan kesetimbangan
+
+**Dasar**
+
+Hitung *K* pada 25 °C untuk $\text{SO}_2 + \tfrac12\text{O}_2 \rightleftharpoons \text{SO}_3$ ($\Delta_\text{r}G^\circ = -70{,}87$ kJ mol⁻¹). ||| $2{,}6 \times 10^{12}$
+Berapa *K* untuk reaksi dengan $\Delta_\text{r}G^\circ = -20{,}0$ kJ mol⁻¹ pada 25 °C? ||| $3{,}2 \times 10^3$
+Berapa $\Delta_\text{r}G^\circ$ untuk reaksi dengan $K = 1{,}0 \times 10^{-3}$ pada 25 °C? ||| +17,1 kJ mol⁻¹
+
+**Menengah**
+
+Hitung *K* untuk $2\text{NO}_2 \rightleftharpoons \text{N}_2\text{O}_4$ pada 25 °C. ||| 6,74
+Reaksi mempunyai $\Delta_\text{r}H^\circ = +50$ kJ mol⁻¹ dan $\Delta_\text{r}S^\circ = +150$ J K⁻¹ mol⁻¹. Hitung *K* pada 400 K. ||| 20
+@hess [P] Dari Contoh 12.2, hitung *K* pada 25 °C untuk $\text{CO}_2 + \text{H}_2 \rightleftharpoons \text{CO} + \text{H}_2\text{O}(g)$, dan jelaskan aturan yang dipakai. ||| $9{,}7 \times 10^{-6}$
+
+## Subbab 12.3: K, K_c, dan K_x
+
+**Dasar**
+
+Untuk $\text{PCl}_5 \rightleftharpoons \text{PCl}_3 + \text{Cl}_2$, *K* = 1,8 pada 523 K. Hitung $K_c$ dengan $c^\circ = 1$ mol L⁻¹. ||| 0,041
+Tuliskan *K* untuk $\text{C}(s) + \text{CO}_2(g) \rightleftharpoons 2\text{CO}(g)$. ||| $(p_\text{CO}/p^\circ)^2/(p_{\text{CO}_2}/p^\circ)$
+
+**Menengah**
+
+Hitung tekanan penguraian CaCO₃ pada 1200 K (data Contoh 12.13, Δ*H*° dan Δ*S*° tetap). ||| 4,2 bar
+Mengapa padatan murni tidak muncul dalam *K*? ||| aktivitasnya satu
+
+## Subbab 12.4: Menghitung komposisi kesetimbangan
+
+**Dasar**
+
+Dalam Contoh 12.7, bila mula-mula hanya ada 2,00 mol HI, berapa mol H₂ pada kesetimbangan? ||| 0,220 mol
+Hitung fraksi PCl₅ yang terurai pada 523 K dan 1,00 bar (*K* = 1,8). ||| 0,80
+
+**Menengah**
+
+Ulangi Contoh 12.8 (c) dengan perbandingan CO : H₂O = 1 : 2. ||| 58%
+@pcl [P] Hitung fraksi PCl₅ yang terurai pada 523 K dan 5,00 bar. Bandingkan dengan 1,00 bar dan jelaskan. ||| 0,51
+Mengapa tabel kesetimbangan harus memakai jumlah pada kesetimbangan, bukan jumlah awal? ||| *K* hanya berlaku pada kesetimbangan
+
+**Tantangan ★**
+
+★ Untuk $\text{N}_2\text{O}_4 \rightleftharpoons 2\text{NO}_2$, turunkan $\alpha = \sqrt{K/(K + 4p/p^\circ)}$. ||| dari $K = 4\alpha^2p/[(1 - \alpha^2)p^\circ]$
+
+## Subbab 12.5: Pengaruh tekanan dan gas lembam
+
+**Dasar**
+
+Hitung fraksi N₂O₄ yang terurai pada 25 °C dan 4,00 bar. ||| 0,096
+Untuk reaksi mana tekanan tidak berpengaruh pada komposisi kesetimbangan: (a) $\text{H}_2 + \text{I}_2 \rightleftharpoons 2\text{HI}$; (b) $\text{N}_2\text{O}_4 \rightleftharpoons 2\text{NO}_2$; (c) $\text{CO} + \text{H}_2\text{O} \rightleftharpoons \text{CO}_2 + \text{H}_2$? ||| (a) dan (c)
+
+**Menengah**
+
+Mengapa menambahkan argon pada volume tetap tidak menggeser kesetimbangan, tetapi pada tekanan tetap menggeser? ||| volume tetap: tekanan parsial tidak berubah; tekanan tetap: tekanan parsial turun
+Apakah *K* bergantung pada tekanan? Bagaimana dengan $K_x$? ||| *K* tidak; $K_x = K(p/p^\circ)^{-\Delta\nu}$ bergantung
+
+## Subbab 12.6: Pengaruh suhu: persamaan van 't Hoff
+
+**Dasar**
+
+*K* suatu reaksi berlipat dua bila suhu dinaikkan dari 25 °C ke 35 °C. Hitung $\Delta_\text{r}H^\circ$. ||| +52,9 kJ mol⁻¹
+Hitung *K* sintesis amonia pada 600 K dengan Δ*H*° tetap. ||| $4{,}3 \times 10^{-3}$
+
+**Menengah**
+
+Turunkan persamaan van 't Hoff dari (12.3) dan persamaan Gibbs–Helmholtz. ||| $d\ln K/dT = -d(\Delta G^\circ/RT)/dT = \Delta H^\circ/RT^2$
+Tunjukkan bahwa persamaan Clausius–Clapeyron adalah kasus khusus persamaan van 't Hoff. ||| penguapan sebagai reaksi dengan $K = p/p^\circ$
+Mengapa plot van 't Hoff untuk sintesis amonia (Gambar 12.2) sedikit melengkung? ||| $\Delta_\text{r}H^\circ$ berubah dengan suhu karena $\Delta_\text{r}C_p^\circ \ne 0$
+
+## Subbab 12.7: Asas Le Chatelier secara termodinamika
+
+**Dasar**
+
+Bagaimana kesetimbangan $\text{N}_2\text{O}_4 \rightleftharpoons 2\text{NO}_2$ bergeser bila (a) suhu dinaikkan, (b) tekanan dinaikkan, (c) NO₂ ditambahkan pada volume tetap? ||| (a) kanan; (b) kiri; (c) kiri
+
+**Menengah**
+
+@lechat [P] Tunjukkan bahwa menambahkan sedikit N₂ ke campuran N₂–H₂–NH₃ yang setimbang pada tekanan total tetap menggeser reaksi ke kiri bila $x_{\text{N}_2} > \tfrac12$. ||| $\partial\ln Q/\partial n_{\text{N}_2} = 2/n - 1/n_{\text{N}_2}$
+Mengapa katalis tidak menggeser kesetimbangan? ||| tidak mengubah $\Delta_\text{r}G^\circ$, hanya laju
+
+## Subbab 12.8: Kesetimbangan dalam industri dan biokimia
+
+**Dasar**
+
+Dari Gambar 12.3, taksir fraksi mol amonia pada kesetimbangan pada 450 °C dan 100 bar. ||| sekitar 0,14
+Reaksi $\text{A} + \text{H}^+ \rightarrow \text{B}$ mempunyai $\Delta_\text{r}G^\circ = -10{,}0$ kJ mol⁻¹. Hitung $\Delta_\text{r}G^{\circ\prime}$ pada 25 °C. ||| +29,95 kJ mol⁻¹
+
+**Menengah**
+
+Hitung Δ*G* hidrolisis ATP pada 37 °C di sel otot dengan [ATP] = 5,0 mmol L⁻¹, [ADP] = 0,50 mmol L⁻¹, dan [Pᵢ] = 5,0 mmol L⁻¹. ||| −50,1 kJ mol⁻¹
+Mengapa pabrik amonia tidak beroperasi pada 300 °C, padahal hasil kesetimbangannya jauh lebih tinggi? ||| laju reaksi terlalu lambat
+Mengapa hasil amonia terukur pada 300 bar lebih tinggi daripada perhitungan gas ideal? ||| koefisien fugasitas NH₃ kecil
+
+**Tantangan ★**
+
+★ Pada 723 K dan 300 bar, koefisien fugasitas N₂, H₂, dan NH₃ kira-kira 1,14; 1,09; dan 0,91. Hitung $K_\varphi = \varphi_{\text{NH}_3}^2/(\varphi_{\text{N}_2}\varphi_{\text{H}_2}^3)$ dan jelaskan arah pengaruhnya pada hasil. ||| 0,56; hasil naik

@@ -53,7 +53,7 @@ Pemetaan RPS: mg 1 → Bab 1 · mg 2 → Bab 2 · mg 3–4 → Bab 3–4 · mg 5
 
 ## Bagian V · Kesetimbangan kimia dan elektrokimia
 
-### ☐ Bab 12 Kesetimbangan Kimia
+### ☑ Bab 12 Kesetimbangan Kimia
 12.1 Energi Gibbs reaksi dan kemajuan reaksi · 12.2 ΔG° = −RT ln K · 12.3 Kp, Kc, dan Kx · 12.4 Menghitung komposisi kesetimbangan · 12.5 Pengaruh tekanan dan gas inert · 12.6 Pengaruh suhu: persamaan van 't Hoff · 12.7 Asas Le Chatelier secara termodinamika · 12.8 Kesetimbangan dalam industri dan biokimia
 
 ### ☐ Bab 13 Termodinamika Sel Elektrokimia
