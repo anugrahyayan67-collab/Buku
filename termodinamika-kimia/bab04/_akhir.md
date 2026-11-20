@@ -82,3 +82,20 @@ Ruas kiri $10\,460 - 418{,}4T$, ruas kanan $3335 + 41{,}84T$. Jadi $460{,}2T = 7
 2. I. N. Levine, *Physical Chemistry*, edisi ke-6 (McGraw-Hill, 2009), Bab 5. Kalorimetri, entalpi pembentukan, dan hukum Kirchhoff.
 3. NIST Chemistry WebBook (webbook.nist.gov). Basis data entalpi pembentukan dan kapasitas kalor ribuan senyawa.
 4. D. R. Lide (ed.), *CRC Handbook of Chemistry and Physics*. Tabel data termodinamika standar dan entalpi ikatan.
+
+**Soal {{kirch}}.** Dengan $C_p$ yang bergantung pada suhu, $\Delta_\text{r}C_p^\circ$ juga fungsi suhu, dan (4.9) diganti integral $\Delta_\text{r}H^\circ(T_2) = \Delta_\text{r}H^\circ(T_1) + \int_{T_1}^{T_2}\Delta_\text{r}C_p^\circ\,dT$:
+
+```python
+from scipy.integrate import quad
+d = {'N2': (28.58, 3.77e-3, -0.50e5), 'H2': (27.28, 3.26e-3, 0.50e5),
+     'NH3': (29.75, 25.1e-3, -1.55e5)}
+nu = {'N2': -1, 'H2': -3, 'NH3': 2}
+Cp = lambda T, z: d[z][0] + d[z][1]*T + d[z][2]/T**2
+dCp = lambda T: sum(nu[z]*Cp(T, z) for z in d)
+print(dCp(298.15), dCp(723))                    # -44.6  -25.2
+print(-92.22 + quad(dCp, 298.15, 723)[0]/1000)  # -106.7 kJ/mol
+```
+
+Hasilnya −106,7 kJ mol⁻¹, bukan −111,5. Kapasitas kalor NH₃ naik jauh lebih cepat dengan suhu daripada N₂ dan H₂, karena getaran NH₃ mulai aktif (subbab 3.9). Akibatnya $|\Delta_\text{r}C_p^\circ|$ menyusut dari 44,6 menjadi 25,2 J K⁻¹ mol⁻¹, dan anggapan $\Delta_\text{r}C_p^\circ$ tetap pada nilai 298 K melebih-lebihkan koreksinya. Arah koreksi tetap benar: reaksi lebih eksoterm pada suhu reaktor.
+
+**Soal {{thornton}}.** Membagi $|\Delta_\text{c}H^\circ|$ dengan koefisien O₂: metana 890,3/2 = 445; propana 2220/5 = 444; etanol 1366,8/3 = 456; glukosa 2808/6 = 468; hidrogen 285,83/0,5 = 572 kJ per mol O₂. Keempat senyawa organik melepaskan hampir sama, sekitar 450 kJ per mol O₂. Alasannya: setiap O₂ yang dipakai membentuk ikatan C=O dan O–H dalam jumlah yang hampir sama, dengan memutus ikatan C–H dan C–C yang kekuatannya juga hampir sama. Jadi kalor pembakaran praktis ditentukan oleh banyaknya oksigen yang dipakai, bukan oleh jenis senyawanya. Ini menjelaskan pola Gambar 4.3: senyawa yang sudah mengandung oksigen memerlukan O₂ lebih sedikit per gram, sehingga melepaskan kalor lebih sedikit per gram. Hidrogen menyimpang karena atom H dalam H₂ terikat lebih lemah: ikatan H–H (436 kJ mol⁻¹) dibagi dua atom H, sedangkan setiap ikatan C–H (412 kJ mol⁻¹) mengikat satu atom H. Selain itu, seluruh oksigennya menjadi air, sehingga setiap mol O₂ juga melepaskan kalor pengembunan dua mol air.

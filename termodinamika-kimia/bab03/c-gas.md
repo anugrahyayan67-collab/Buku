@@ -52,7 +52,7 @@ $$
 nC_{V,\text{m}}\,dT = -\frac{nRT}{V}\,dV \qquad \Rightarrow \qquad C_{V,\text{m}}\frac{dT}{T} = -R\frac{dV}{V} .
 $$
 
-Mengintegralkan dari keadaan 1 ke keadaan 2 dan menyusun ulang menghasilkan
+Mengintegralkan kedua ruas dari keadaan 1 ke keadaan 2, dengan $C_{V,\text{m}}$ dianggap tetap, menghasilkan $C_{V,\text{m}}\ln(T_2/T_1) = -R\ln(V_2/V_1) = R\ln(V_1/V_2)$. Membagi dengan $C_{V,\text{m}}$ dan mengambil eksponen kedua ruas:
 
 $$
 \frac{T_2}{T_1} = \left(\frac{V_1}{V_2}\right)^{R/C_{V,\text{m}}} .
@@ -107,8 +107,12 @@ $$
 **Memahami hasil.** Pemuaian sepuluh kali lipat menurunkan suhu argon dari suhu kamar sampai jauh di bawah titik didih nitrogen. Pendinginan adiabatik semacam ini, yang dilakukan dengan turbin yang mengambil kerja dari gas, dipakai pada mesin pencair gas modern, bersama efek Joule–Thomson dari subbab 2.9.
 :::
 
+::: {.terapan}
+**Mengapa puncak gunung dingin.** Udara yang naik ke lereng gunung masuk ke daerah bertekanan lebih rendah. Ia memuai hampir tanpa pertukaran kalor, karena udara adalah penghantar kalor yang buruk, sehingga ia mendingin secara adiabatik. Seberapa cepat? Turunkan bentuk ketiga (3.12) menjadi $dT/T = (R/C_{p,\text{m}})\,dp/p$, lalu pakai penurunan tekanan dengan ketinggian, $dp = -\rho g\,dz$ dengan $\rho = pM/RT$. Hasilnya sederhana: $dT/dz = -Mg/C_{p,\text{m}}$. Untuk udara kering ($M = 0{,}029$ kg mol⁻¹, $C_{p,\text{m}} = 29{,}1$ J K⁻¹ mol⁻¹), suhunya turun 9,8 K setiap kilometer naik. Udara nyata mendingin lebih lambat, rata-rata sekitar 6,5 K per kilometer, karena uap air yang mengembun menjadi awan melepaskan kalor. Proses yang sama, dibalik, juga bekerja: udara yang turun dari gunung dimampatkan dan memanas.
+:::
+
 ::: {.kuis}
-**Kuis cepat 3.8** Udara yang naik ke atas gunung memuai karena tekanan berkurang, hampir tanpa pertukaran kalor. Apa yang terjadi pada suhunya? Hubungkan dengan awan yang terbentuk di sisi gunung.
+**Kuis cepat 3.8** Angin gending yang turun dari Pegunungan Tengger ke Probolinggo terasa panas dan kering. Pakai gagasan kotak di atas untuk menjelaskan mengapa udara itu memanas ketika turun, dan mengapa ia kering.
 :::
 
 ## 3.9 Energi dalam dari sudut molekul: ekuipartisi

@@ -44,6 +44,24 @@ Taksir $\Delta_\text{r}H$ untuk klorinasi metana, $\text{CH}_4(g) + \text{Cl}_2(
 **Memahami hasil.** Kali ini taksirannya meleset 16 kJ, sekitar 16%. Kesalahan terbesar berasal dari entalpi ikatan C–Cl dan C–H yang dipakai, yang merupakan rata-rata dari banyak molekul lain dan tidak persis berlaku dalam CH₃Cl. Entalpi ikatan rata-rata baik untuk taksiran cepat dan untuk memahami **mengapa** suatu reaksi eksoterm, tetapi untuk angka yang teliti selalu pakai entalpi pembentukan.
 :::
 
+::: {.dalam}
+**Lebih dalam: siklus Born–Haber dan entalpi kisi.** Entalpi ikatan menggambarkan molekul kovalen. Untuk padatan ionik seperti NaCl, besaran yang setara adalah **entalpi kisi** $\Delta_\text{L}H$: perubahan entalpi untuk memecah satu mol padatan menjadi ion-ionnya dalam fase gas, $\text{NaCl}(s) \to \text{Na}^+(g) + \text{Cl}^-(g)$. Besaran ini tidak dapat diukur langsung, karena tidak ada cara memanaskan garam sampai terurai bersih menjadi ion gas. Hukum Hess memberi jalan memutar. Kita bentuk ion-ion gas dari unsur-unsurnya melalui empat langkah yang masing-masing dapat diukur, lalu bandingkan dengan jalan lain yang melewati NaCl padat:
+
+| Langkah | Δ*H* (kJ mol⁻¹) |
+|---|---|
+| Sublimasi: Na(s) → Na(g) | +107,3 |
+| Ionisasi: Na(g) → Na⁺(g) + e⁻ | +495,8 |
+| Atomisasi: ½Cl₂(g) → Cl(g) | +121,7 |
+| Penangkapan elektron: Cl(g) + e⁻ → Cl⁻(g) | −348,6 |
+| Pembentukan: Na(s) + ½Cl₂(g) → NaCl(s) | −411,2 |
+
+Jalan "unsur → ion gas" melalui empat langkah pertama dan jalan "unsur → NaCl(s) → ion gas" harus memberi Δ*H* total yang sama. Karena itu
+$$
+\Delta_\text{L}H = 107{,}3 + 495{,}8 + 121{,}7 - 348{,}6 - (-411{,}2) = +787{,}4\ \text{kJ mol}^{-1} .
+$$
+Angka sebesar ini menjelaskan mengapa garam dapur baru meleleh pada 801 °C. Ia juga menjelaskan mengapa NaCl larut dalam air, tetapi tidak dalam heksana: air menebus energi kisi itu dengan kalor hidrasi ion yang hampir sama besarnya. Ada satu penyederhanaan kecil. Energi ionisasi dan afinitas elektron sebenarnya diukur sebagai energi pada 0 K. Koreksinya ke entalpi pada 298 K hanya beberapa kJ mol⁻¹, dan koreksi kedua langkah itu saling menghapus.
+:::
+
 ::: {.kuis}
 **Kuis cepat 4.8** Mengapa entalpi ikatan C=C (612 kJ mol⁻¹) kurang dari dua kali entalpi ikatan C–C (348 kJ mol⁻¹)? Petunjuk: ingat ikatan σ dan π.
 :::

@@ -81,6 +81,7 @@ Periksa apakah $y\,dx - x\,dy$ diferensial eksak. ||| tidak ($1 \ne -1$)
 **Tantangan ★**
 
 @jalan [P] ★ Satu mol gas ideal monoatomik dibawa dari (2,00 bar; 10,0 L) ke (1,00 bar; 30,0 L) melalui jalan A (tekanan tetap lalu volume tetap) dan jalan B (volume tetap lalu tekanan tetap), keduanya reversibel. Hitung Δ*U*, *w*, dan *q* untuk kedua jalan. ||| $\Delta U = 1500$ J; A: $w = -4000$, $q = 5500$ J; B: $w = -2000$, $q = 3500$ J
+@eksakq [P] ★ Untuk satu mol gas ideal dengan peubah *T* dan *V*, $dw_\text{rev} = -(RT/V)\,dV$ dan $dq_\text{rev} = C_{V,\text{m}}\,dT + (RT/V)\,dV$, dengan $C_{V,\text{m}}$ tetap. (a) Tunjukkan dengan uji subbab 3.6 bahwa $dq_\text{rev}$ tak eksak. (b) Tunjukkan bahwa $dq_\text{rev}/T$ eksak, dan tentukan fungsinya. ||| (a) $0 \ne R/V$; (b) $0 = 0$, eksak; $f = C_{V,\text{m}}\ln T + R\ln V$ + tetapan
 
 ## Subbab 3.7: Proses isotermal gas ideal
 
@@ -110,6 +111,7 @@ Udara lembap ($\gamma = 1{,}40$) pada 298 K naik di lereng gunung dari tekanan 1
 **Tantangan ★**
 
 @adb [P] ★ Mulai dari $TV^{\gamma - 1} = \text{tetap}$ dan $pV = nRT$, turunkan $pV^\gamma = \text{tetap}$ dan $Tp^{(1 - \gamma)/\gamma} = \text{tetap}$. ||| substitusi $T = pV/nR$, lalu $V = nRT/p$
+@adbtak [P] ★ Satu mol argon ($C_{V,\text{m}} = \tfrac32R$) pada 300 K dan 10,0 bar memuai secara adiabatik melawan tekanan luar tetap 1,00 bar sampai tekanannya 1,00 bar. Hitung suhu akhir dan kerjanya, lalu bandingkan dengan ekspansi adiabatik reversibel pada Contoh 3.12. ||| 192 K; −1,35 kJ (reversibel: 119 K; −2,25 kJ)
 
 ## Subbab 3.9: Energi dalam dari sudut molekul: ekuipartisi
 

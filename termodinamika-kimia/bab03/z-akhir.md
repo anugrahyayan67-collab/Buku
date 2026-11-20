@@ -15,7 +15,7 @@
 | Ekuipartisi | ½*RT* per suku kuadrat per mol; $C_{V,\text{m}}$: monoatomik $\tfrac32R$, linear $\tfrac52R$, tak linear $3R$ (tanpa getaran) | 3.9 |
 | Getaran kuantum | $C_{V,\text{m}}^\text{get} = Rx^2e^x/(e^x - 1)^2$, $x = hc\tilde\nu/kT$ | 3.9 |
 
-**Jawaban kuis cepat.** **3.1** Sebagai kerja: gerakan tangan yang teratur melawan gesekan. Kenaikan suhu yang menyusul bukan bukti bahwa energi masuk sebagai kalor. **3.2** Nol, karena volume tidak berubah; energi yang dilepas reaksi seluruhnya menjadi kalor atau menaikkan suhu isi bejana. **3.3** Pada proses reversibel. Untuk memampatkan, tekanan luar harus sedikitnya sama dengan tekanan gas; proses satu tahap memakai tekanan luar sebesar tekanan akhir sepanjang jalan, sehingga kerjanya lebih besar (2,48 kJ dibanding 1,72 kJ). **3.4** Etanol, 4,184/2,44 = 1,71 kali kenaikan suhu air. **3.5** Sistem gabungan terisolasi, jadi $\Delta U = 0$. Campuran reaksi saja melepaskan energi ke dinding kalorimeter, jadi Δ*U*-nya negatif. **3.6** $\Delta U = 0$ karena *U* fungsi keadaan. *q* dan *w* tidak harus nol, tetapi jumlahnya nol: $q = -w$. Mesin kalor bekerja tepat dengan cara ini. **3.7** Seluruhnya dipakai gas untuk melakukan kerja pada lingkungan; energi dalam tidak berubah. **3.8** Suhunya turun karena udara melakukan kerja ketika memuai tanpa menerima kalor. Bila suhunya turun di bawah titik embun, uap air mengembun menjadi awan. **3.9** Gas monoatomik hanya mempunyai translasi, yang selalu aktif penuh. Getaran Cl₂ baru sebagian aktif pada suhu kamar dan makin aktif bila suhu naik.
+**Jawaban kuis cepat.** **3.1** Sebagai kerja: gerakan tangan yang teratur melawan gesekan. Kenaikan suhu yang menyusul bukan bukti bahwa energi masuk sebagai kalor. **3.2** Nol, karena volume tidak berubah; energi yang dilepas reaksi seluruhnya menjadi kalor atau menaikkan suhu isi bejana. **3.3** Pada proses reversibel. Untuk memampatkan, tekanan luar harus sedikitnya sama dengan tekanan gas; proses satu tahap memakai tekanan luar sebesar tekanan akhir sepanjang jalan, sehingga kerjanya lebih besar (2,48 kJ dibanding 1,72 kJ). **3.4** Etanol, 4,184/2,44 = 1,71 kali kenaikan suhu air. **3.5** Sistem gabungan terisolasi, jadi $\Delta U = 0$. Campuran reaksi saja melepaskan energi ke dinding kalorimeter, jadi Δ*U*-nya negatif. **3.6** $\Delta U = 0$ karena *U* fungsi keadaan. *q* dan *w* tidak harus nol, tetapi jumlahnya nol: $q = -w$. Mesin kalor bekerja tepat dengan cara ini. **3.7** Seluruhnya dipakai gas untuk melakukan kerja pada lingkungan; energi dalam tidak berubah. **3.8** Udara yang turun masuk ke tekanan lebih tinggi dan dimampatkan hampir adiabatik, sehingga suhunya naik, sampai sekitar 10 K per kilometer turun. Ketika naik di sisi gunung yang lain, udara itu mendingin di bawah titik embun; uap airnya mengembun menjadi awan dan jatuh sebagai hujan, sehingga yang turun ke Probolinggo adalah udara yang sudah kering. **3.9** Gas monoatomik hanya mempunyai translasi, yang selalu aktif penuh. Getaran Cl₂ baru sebagian aktif pada suhu kamar dan makin aktif bila suhu naik.
 
 # Pertanyaan
 
@@ -135,57 +135,61 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, 1 atm = 101 325 Pa, 1 bar L = 100 J, dan 
 
 **28.** [P] ★ Satu mol gas ideal monoatomik dibawa dari (2,00 bar; 10,0 L) ke (1,00 bar; 30,0 L) melalui jalan A (tekanan tetap lalu volume tetap) dan jalan B (volume tetap lalu tekanan tetap), keduanya reversibel. Hitung Δ*U*, *w*, dan *q* untuk kedua jalan.
 
+**29.** [P] ★ Untuk satu mol gas ideal dengan peubah *T* dan *V*, $dw_\text{rev} = -(RT/V)\,dV$ dan $dq_\text{rev} = C_{V,\text{m}}\,dT + (RT/V)\,dV$, dengan $C_{V,\text{m}}$ tetap. (a) Tunjukkan dengan uji subbab 3.6 bahwa $dq_\text{rev}$ tak eksak. (b) Tunjukkan bahwa $dq_\text{rev}/T$ eksak, dan tentukan fungsinya.
+
 ## Subbab 3.7: Proses isotermal gas ideal
 
 **Dasar**
 
-**29.** Satu mol gas ideal memuai secara isotermal reversibel pada 298 K dari 1,00 bar ke 0,100 bar. Hitung *w*, *q*, dan Δ*U*.
+**30.** Satu mol gas ideal memuai secara isotermal reversibel pada 298 K dari 1,00 bar ke 0,100 bar. Hitung *w*, *q*, dan Δ*U*.
 
-**30.** Mengapa Δ*U* = 0 untuk setiap proses isotermal gas ideal?
+**31.** Mengapa Δ*U* = 0 untuk setiap proses isotermal gas ideal?
 
 **Menengah**
 
-**31.** Tiga mol gas ideal dimampatkan secara isotermal reversibel pada 350 K dari 50,0 L ke 10,0 L. Hitung *w* dan *q*.
+**32.** Tiga mol gas ideal dimampatkan secara isotermal reversibel pada 350 K dari 50,0 L ke 10,0 L. Hitung *w* dan *q*.
 
-**32.** Satu mol gas ideal pada 298 K memuai dari 10,0 bar ke 1,00 bar melawan tekanan luar tetap 1,00 bar. Hitung *w* dan bandingkan dengan ekspansi reversibel.
+**33.** Satu mol gas ideal pada 298 K memuai dari 10,0 bar ke 1,00 bar melawan tekanan luar tetap 1,00 bar. Hitung *w* dan bandingkan dengan ekspansi reversibel.
 
 ## Subbab 3.8: Proses adiabatik gas ideal
 
 **Dasar**
 
-**33.** Helium pada 300 K dimampatkan secara adiabatik reversibel sampai setengah volumenya. Berapa suhu akhirnya?
+**34.** Helium pada 300 K dimampatkan secara adiabatik reversibel sampai setengah volumenya. Berapa suhu akhirnya?
 
-**34.** Nitrogen ($\gamma = 1{,}40$) pada 300 K dan 1,00 bar dimampatkan secara adiabatik reversibel sampai 10,0 bar. Berapa suhu akhirnya?
+**35.** Nitrogen ($\gamma = 1{,}40$) pada 300 K dan 1,00 bar dimampatkan secara adiabatik reversibel sampai 10,0 bar. Berapa suhu akhirnya?
 
 **Menengah**
 
-**35.** Pada soal helium di atas, bila tekanan awal 1,00 bar, berapa tekanan akhirnya?
+**36.** Pada soal helium di atas, bila tekanan awal 1,00 bar, berapa tekanan akhirnya?
 
-**36.** Berapa kerja yang diperlukan untuk memampatkan 2,00 mol N₂ pada soal nitrogen di atas?
+**37.** Berapa kerja yang diperlukan untuk memampatkan 2,00 mol N₂ pada soal nitrogen di atas?
 
-**37.** Udara lembap ($\gamma = 1{,}40$) pada 298 K naik di lereng gunung dari tekanan 1,00 bar ke 0,80 bar tanpa pertukaran kalor. Berapa penurunan suhunya?
+**38.** Udara lembap ($\gamma = 1{,}40$) pada 298 K naik di lereng gunung dari tekanan 1,00 bar ke 0,80 bar tanpa pertukaran kalor. Berapa penurunan suhunya?
 
 **Tantangan ★**
 
-**38.** [P] ★ Mulai dari $TV^{\gamma - 1} = \text{tetap}$ dan $pV = nRT$, turunkan $pV^\gamma = \text{tetap}$ dan $Tp^{(1 - \gamma)/\gamma} = \text{tetap}$.
+**39.** [P] ★ Mulai dari $TV^{\gamma - 1} = \text{tetap}$ dan $pV = nRT$, turunkan $pV^\gamma = \text{tetap}$ dan $Tp^{(1 - \gamma)/\gamma} = \text{tetap}$.
+
+**40.** [P] ★ Satu mol argon ($C_{V,\text{m}} = \tfrac32R$) pada 300 K dan 10,0 bar memuai secara adiabatik melawan tekanan luar tetap 1,00 bar sampai tekanannya 1,00 bar. Hitung suhu akhir dan kerjanya, lalu bandingkan dengan ekspansi adiabatik reversibel pada Contoh 3.12.
 
 ## Subbab 3.9: Energi dalam dari sudut molekul: ekuipartisi
 
 **Dasar**
 
-**39.** Ramalkan $C_{V,\text{m}}$ neon dan HCl (tanpa getaran) dengan asas ekuipartisi.
+**41.** Ramalkan $C_{V,\text{m}}$ neon dan HCl (tanpa getaran) dengan asas ekuipartisi.
 
-**40.** Berapa energi translasi dan rotasi total satu mol N₂ pada 298 K menurut ekuipartisi?
+**42.** Berapa energi translasi dan rotasi total satu mol N₂ pada 298 K menurut ekuipartisi?
 
 **Menengah**
 
-**41.** $C_{V,\text{m}}$ CH₄ terukur pada 298 K adalah 27,0 J K⁻¹ mol⁻¹. Bandingkan dengan ramalan ekuipartisi tanpa getaran dan jelaskan selisihnya.
+**43.** $C_{V,\text{m}}$ CH₄ terukur pada 298 K adalah 27,0 J K⁻¹ mol⁻¹. Bandingkan dengan ramalan ekuipartisi tanpa getaran dan jelaskan selisihnya.
 
-**42.** [P] Bilangan gelombang getaran Br₂ adalah 323 cm⁻¹. Hitung $C_{V,\text{m}}$ Br₂ pada 298 K dengan model Contoh 3.13.
+**44.** [P] Bilangan gelombang getaran Br₂ adalah 323 cm⁻¹. Hitung $C_{V,\text{m}}$ Br₂ pada 298 K dengan model Contoh 3.13.
 
 **Tantangan ★**
 
-**43.** ★ Mengapa pada suhu sangat rendah (beberapa puluh kelvin) kapasitas kalor H₂ turun mendekati $\tfrac32R$?
+**45.** ★ Mengapa pada suhu sangat rendah (beberapa puluh kelvin) kapasitas kalor H₂ turun mendekati $\tfrac32R$?
 
 
 # Jawaban
@@ -193,28 +197,29 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, 1 atm = 101 325 Pa, 1 bar L = 100 J, dan 
 ::: {.panjang}
 | No. | Jawaban | No. | Jawaban |
 |---|---|---|---|
-| 1 | entalpi, energi dalam, tekanan, massa | 23 | 1,76 K |
-| 2 | kerja (gesekan) | 24 | 0,12 K |
-| 3 | *q* dan *w* bukan fungsi keadaan; tidak ada "nilai *q* sekarang" | 25 | *dU*, *dV*, *dT* |
-| 4 | $Q = q = 500$ J; $W = 200$ J; $w = -200$ J; $\Delta U = 300$ J | 26 | eksak; $f = x^2y$ |
-| 5 | −304 J | 27 | tidak ($1 \ne -1$) |
-| 6 | 0 | 28 | $\Delta U = 1500$ J; A: $w = -4000$, $q = 5500$ J; B: $w = -2000$, $q = 3500$ J |
-| 7 | −891 J | 29 | −5,71 kJ; +5,71 kJ; 0 |
-| 8 | +11,2 kJ; jumlah mol gas berkurang 4,5, atmosfer melakukan kerja pada sistem | 30 | *U* gas ideal hanya bergantung pada *T* |
-| 9 | −3,72 kJ | 31 | +14,1 kJ; −14,1 kJ |
-| 10 | −2,74 kJ | 32 | −2,23 kJ dibanding −5,71 kJ |
-| 11 | −1,66 kJ | 33 | 476 K |
-| 12 | +2,48 kJ dibanding +1,72 kJ | 34 | 579 K |
-| 13 | setiap langkah harus menyimpang sangat kecil dari kesetimbangan | 35 | 3,17 bar |
-| 14 | −1239; −1446; −1601; −1658; −1712; −1718 J | 36 | +11,6 kJ |
-| 15 | 26,9 kJ | 37 | 18 K (menjadi 280 K) |
-| 16 | 75,4 J K⁻¹ mol⁻¹ | 38 | substitusi $T = pV/nR$, lalu $V = nRT/p$ |
-| 17 | etanol naik 1,71 kali air | 39 | 12,47; 20,79 J K⁻¹ mol⁻¹ |
-| 18 | 6,28 kJ | 40 | 6,20 kJ |
-| 19 | 44 °C | 41 | 24,94; mode getaran berfrekuensi rendah sebagian aktif |
-| 20 | −150 J | 42 | 27,6 J K⁻¹ mol⁻¹ (terukur 27,7) |
-| 21 | +100 J | 43 | rotasi pun membeku karena tingkat rotasi H₂ berjarak lebar |
-| 22 | 0 |  |  |
+| 1 | entalpi, energi dalam, tekanan, massa | 24 | 0,12 K |
+| 2 | kerja (gesekan) | 25 | *dU*, *dV*, *dT* |
+| 3 | *q* dan *w* bukan fungsi keadaan; tidak ada "nilai *q* sekarang" | 26 | eksak; $f = x^2y$ |
+| 4 | $Q = q = 500$ J; $W = 200$ J; $w = -200$ J; $\Delta U = 300$ J | 27 | tidak ($1 \ne -1$) |
+| 5 | −304 J | 28 | $\Delta U = 1500$ J; A: $w = -4000$, $q = 5500$ J; B: $w = -2000$, $q = 3500$ J |
+| 6 | 0 | 29 | (a) $0 \ne R/V$; (b) $0 = 0$, eksak; $f = C_{V,\text{m}}\ln T + R\ln V$ + tetapan |
+| 7 | −891 J | 30 | −5,71 kJ; +5,71 kJ; 0 |
+| 8 | +11,2 kJ; jumlah mol gas berkurang 4,5, atmosfer melakukan kerja pada sistem | 31 | *U* gas ideal hanya bergantung pada *T* |
+| 9 | −3,72 kJ | 32 | +14,1 kJ; −14,1 kJ |
+| 10 | −2,74 kJ | 33 | −2,23 kJ dibanding −5,71 kJ |
+| 11 | −1,66 kJ | 34 | 476 K |
+| 12 | +2,48 kJ dibanding +1,72 kJ | 35 | 579 K |
+| 13 | setiap langkah harus menyimpang sangat kecil dari kesetimbangan | 36 | 3,17 bar |
+| 14 | −1239; −1446; −1601; −1658; −1712; −1718 J | 37 | +11,6 kJ |
+| 15 | 26,9 kJ | 38 | 18 K (menjadi 280 K) |
+| 16 | 75,4 J K⁻¹ mol⁻¹ | 39 | substitusi $T = pV/nR$, lalu $V = nRT/p$ |
+| 17 | etanol naik 1,71 kali air | 40 | 192 K; −1,35 kJ (reversibel: 119 K; −2,25 kJ) |
+| 18 | 6,28 kJ | 41 | 12,47; 20,79 J K⁻¹ mol⁻¹ |
+| 19 | 44 °C | 42 | 6,20 kJ |
+| 20 | −150 J | 43 | 24,94; mode getaran berfrekuensi rendah sebagian aktif |
+| 21 | +100 J | 44 | 27,6 J K⁻¹ mol⁻¹ (terukur 27,7) |
+| 22 | 0 | 45 | rotasi pun membeku karena tingkat rotasi H₂ berjarak lebar |
+| 23 | 1,76 K |  |  |
 :::
 
 
@@ -244,11 +249,11 @@ Jalan B: volume tetap dari 2,00 ke 1,00 bar (gas didinginkan), lalu tekanan teta
 
 *Cara berpikir:* pada jalan A, gas memuai pada tekanan lebih tinggi sehingga melakukan kerja lebih banyak, dan untuk membayarnya ia harus menerima kalor lebih banyak. Selisih *q* kedua jalan tepat sama dengan selisih *w*-nya (2000 J), sehingga Δ*U* sama.
 
-**Soal 38.** Dari $T = pV/nR$: $(pV/nR)V^{\gamma - 1} = \text{tetap}$, sehingga $pV^\gamma = \text{tetap}$ (*n* dan *R* tetap). Dari $V = nRT/p$: $T(nRT/p)^{\gamma - 1} = \text{tetap}$, sehingga $T^\gamma p^{1 - \gamma} = \text{tetap}$, atau $Tp^{(1 - \gamma)/\gamma} = \text{tetap}$.
+**Soal 39.** Dari $T = pV/nR$: $(pV/nR)V^{\gamma - 1} = \text{tetap}$, sehingga $pV^\gamma = \text{tetap}$ (*n* dan *R* tetap). Dari $V = nRT/p$: $T(nRT/p)^{\gamma - 1} = \text{tetap}$, sehingga $T^\gamma p^{1 - \gamma} = \text{tetap}$, atau $Tp^{(1 - \gamma)/\gamma} = \text{tetap}$.
 
 *Cara berpikir:* ketiga bentuk adalah persamaan yang sama, dinyatakan dengan pasangan variabel yang berbeda. Pilih bentuk yang memuat dua variabel yang diketahui dalam soal; bentuk ketiga paling berguna bila tekanan diberikan, seperti pada pompa sepeda.
 
-**Soal 42.** $x = hc\tilde\nu/kT = (1{,}4388\ \text{cm K})(323\ \text{cm}^{-1})/(298{,}15\ \text{K}) = 1{,}559$. Maka
+**Soal 44.** $x = hc\tilde\nu/kT = (1{,}4388\ \text{cm K})(323\ \text{cm}^{-1})/(298{,}15\ \text{K}) = 1{,}559$. Maka
 $$
 C_{V,\text{m}}^\text{get} = (8{,}314)\frac{(1{,}559)^2e^{1{,}559}}{(e^{1{,}559} - 1)^2} = 6{,}82\ \text{J K}^{-1}\text{mol}^{-1} ,
 $$
@@ -262,3 +267,11 @@ dan $C_{V,\text{m}} = 20{,}79 + 6{,}82 = 27{,}6$ J K⁻¹ mol⁻¹.
 2. I. N. Levine, *Physical Chemistry*, edisi ke-6 (McGraw-Hill, 2009), Bab 2. Pembahasan yang teliti tentang proses reversibel dan diferensial eksak.
 3. H. B. Callen, *Thermodynamics and an Introduction to Thermostatistics*, edisi ke-2 (Wiley, 1985), Bab 1. Dasar-dasar termodinamika yang sangat jernih untuk pembaca yang ingin lebih dalam.
 4. D. A. McQuarrie dan J. D. Simon, *Molecular Thermodynamics* (University Science Books, 1999), Bab 3–4. Kapasitas kalor dari sudut molekul dan mekanika statistik.
+
+**Soal 29.** (a) Dalam bentuk $M\,dT + N\,dV$, $M = C_{V,\text{m}}$ dan $N = RT/V$. Maka $(\partial M/\partial V)_T = 0$, sedangkan $(\partial N/\partial T)_V = R/V$. Keduanya tidak sama, jadi tidak ada fungsi keadaan yang diferensialnya $dq_\text{rev}$. (b) Setelah dibagi *T*, $M = C_{V,\text{m}}/T$ dan $N = R/V$. Kini $(\partial M/\partial V)_T = 0$ dan $(\partial N/\partial T)_V = 0$, sehingga $dq_\text{rev}/T$ eksak. Fungsinya $f = C_{V,\text{m}}\ln T + R\ln V$ + tetapan. Pembagian dengan *T* mengubah besaran yang bergantung pada jalan menjadi fungsi keadaan. Fungsi keadaan baru ini adalah entropi, tokoh utama Bab 5 dan 6.
+
+**Soal 40.** Karena $q = 0$, $\Delta U = w$. Kerja melawan tekanan luar tetap $p_\text{ex} = p_2$ adalah $w = -p_2(V_2 - V_1) = -R(T_2 - T_1p_2/p_1)$. Menyamakannya dengan $\Delta U = \tfrac32R(T_2 - T_1)$:
+$$
+\tfrac32(T_2 - 300) = -(T_2 - 30) \quad\Rightarrow\quad T_2 = \frac{450 + 30}{2{,}5}\ \text{K} = 192\ \text{K} .
+$$
+Kerjanya $w = \tfrac32(8{,}314)(192 - 300)$ J $= -1{,}35$ kJ. Ekspansi reversibel (Contoh 3.12) mendinginkan gas sampai 119 K dan menghasilkan kerja 2,25 kJ. Ekspansi tak reversibel melakukan kerja lebih kecil, sehingga energi dalam yang terpakai lebih sedikit dan suhunya turun lebih sedikit. Ini sejalan dengan subbab 3.3: proses reversibel memberikan kerja terbesar.

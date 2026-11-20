@@ -95,6 +95,10 @@ $$
 **Memahami hasil.** Dari 40,66 kJ kalor yang diberikan, 37,56 kJ dipakai untuk memisahkan molekul-molekul air dari tarikan ikatan hidrogennya (kenaikan energi dalam), dan 3,10 kJ dipakai uap yang terbentuk untuk mendorong atmosfer menjauh. Sekitar 8% kalor penguapan adalah kerja ekspansi.
 :::
 
+::: {.awas}
+**Memakai $\Delta H = \Delta U + \Delta n_\text{gas}RT$ dengan benar.** Tiga kesalahan sering muncul. Pertama, $\Delta n_\text{gas}$ hanya menghitung zat **gas**. Air cair dan padatan tidak ikut, sehingga untuk pembakaran metana $\Delta n_\text{gas} = -2$, bukan 0. Kedua, bila Δ*H* dalam kJ, *R* harus ditulis $8{,}314 \times 10^{-3}$ kJ K⁻¹ mol⁻¹; lupa membagi seribu membuat koreksinya seribu kali terlalu besar. Ketiga, besarnya koreksi perlu dinilai dengan benar. Setiap mol gas menyumbang sekitar 2,5 kJ mol⁻¹ pada 298 K. Angka ini kecil dibanding entalpi pembakaran (Contoh 4.1, 0,6%), tetapi tidak kecil dibanding entalpi perubahan fisika (Contoh 4.2, 8%). Bila $\Delta n_\text{gas} = 0$, Δ*H* = Δ*U* walaupun ada gas yang ikut bereaksi.
+:::
+
 ::: {.kuis}
 **Kuis cepat 4.1** Untuk reaksi $\text{N}_2(g) + 3\text{H}_2(g) \to 2\text{NH}_3(g)$, mana yang lebih negatif, Δ*H* atau Δ*U*? Untuk $\text{H}_2(g) + \text{Cl}_2(g) \to 2\text{HCl}(g)$?
 :::

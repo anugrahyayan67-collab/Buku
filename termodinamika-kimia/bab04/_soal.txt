@@ -105,6 +105,7 @@ Taksir $\Delta_\text{r}H$ untuk $\text{N}_2 + 3\text{H}_2 \to 2\text{NH}_3$ dari
 **Tantangan ★**
 
 ★ Mengapa taksiran entalpi ikatan untuk pembentukan HCl sangat tepat, tetapi untuk NH₃ meleset hampir 20%? ||| H–H, Cl–Cl, H–Cl dari molekul diatomik (tepat); N–H adalah rata-rata
+@kcl ★ Susun siklus Born–Haber untuk KCl dan hitung entalpi kisinya. Data (kJ mol⁻¹): $\Delta_\text{f}H^\circ$ KCl(s) −436,7; sublimasi K +89,0; ionisasi K +418,8; atomisasi ½Cl₂ +121,7; penangkapan elektron Cl −348,6. Mengapa hasilnya lebih kecil daripada NaCl (787 kJ mol⁻¹)? ||| +717,6 kJ mol⁻¹; ion K⁺ lebih besar, jarak antarion lebih jauh, tarikan lebih lemah
 
 ## Subbab 4.9: Ketergantungan entalpi reaksi pada suhu
 
@@ -117,6 +118,10 @@ Suatu reaksi mempunyai $\Delta_\text{r}C_p^\circ = +10{,}0$ J K⁻¹ mol⁻¹. B
 Taksir $\Delta_\text{f}H^\circ$ H₂O(g) pada 1000 K ($C_{p,\text{m}}$: H₂O(g) 33,58; H₂ 28,82; O₂ 29,36 J K⁻¹ mol⁻¹). ||| −248,8 kJ mol⁻¹
 Mengapa hukum Kirchhoff dengan $\Delta_\text{r}C_p^\circ$ tetap hanya berlaku untuk rentang suhu yang tidak terlalu lebar? ||| kapasitas kalor sendiri berubah dengan suhu
 
+**Tantangan ★**
+
+@kirch [P] ★ (Python) Ulangi Contoh 4.16 dengan kapasitas kalor yang bergantung pada suhu, $C_{p,\text{m}} = a + bT + c/T^2$ (J K⁻¹ mol⁻¹): N₂ $a = 28{,}58$, $b = 3{,}77 \times 10^{-3}$, $c = -0{,}50 \times 10^5$; H₂ 27,28; $3{,}26 \times 10^{-3}$; $0{,}50 \times 10^5$; NH₃ 29,75; $25{,}1 \times 10^{-3}$; $-1{,}55 \times 10^5$. Mengapa hasilnya berbeda dari −111,5 kJ mol⁻¹? ||| −106,7 kJ mol⁻¹; $|\Delta_\text{r}C_p^\circ|$ mengecil dari 44,6 ke 25,2 J K⁻¹ mol⁻¹ saat suhu naik
+
 ## Subbab 4.10: Termokimia pembakaran dan bahan bakar
 
 **Dasar**
@@ -128,3 +133,7 @@ Oktana melepaskan 47,9 kJ g⁻¹ dan massa jenisnya 0,703 g mL⁻¹. Berapa ener
 
 Berapa gram hidrogen yang menghasilkan energi pembakaran sama dengan 1 L oktana? ||| 238 g
 @co2 [P] Hitung massa CO₂ yang dihasilkan per megajoule kalor pembakaran untuk metana dan oktana ($\Delta_\text{c}H^\circ = -5470$ kJ mol⁻¹). Mengapa metana lebih "bersih"? ||| 49 dan 64 g MJ⁻¹; perbandingan H/C metana lebih tinggi
+
+**Tantangan ★**
+
+@thornton [P] ★ Hitung kalor pembakaran per mol O₂ yang dipakai untuk metana (−890,3), propana (−2220), etanol (−1366,8), glukosa (−2808), dan hidrogen (−285,83 kJ mol⁻¹, semua menghasilkan air cair). Apa yang kamu perhatikan pada keempat senyawa organik? Jelaskan dengan entalpi ikatan, dan jelaskan mengapa hidrogen menyimpang. ||| 445; 444; 456; 468; 572 kJ per mol O₂; senyawa organik hampir tetap (±450)

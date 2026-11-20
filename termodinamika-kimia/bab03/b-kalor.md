@@ -71,6 +71,10 @@ Akibat hukum pertama yang paling terkenal adalah mustahilnya **mesin abadi jenis
 **Memahami hasil.** Langkah terpenting adalah menentukan tanda dengan bertanya "apakah energi masuk ke sistem atau keluar?" Setelah tanda benar, hukum pertama hanyalah penjumlahan. Pada (b), energi dalam gas turun walaupun ada kerja yang masuk, karena kalor yang keluar lebih besar.
 :::
 
+::: {.awas}
+**Tanda *q* dan *w* dalam soal cerita.** Soal jarang menuliskan tanda; ia memakai kata kerja. Terjemahkan dalam dua langkah. Pertama, tetapkan apa sistemnya. Kedua, tanyakan arah energi terhadap sistem itu. "Gas melakukan kerja 200 J", "gas mendorong piston", dan "gas memuai melawan atmosfer" semuanya berarti *w* = −200 J. "Gas dimampatkan" atau "kerja dilakukan pada gas" berarti *w* positif. "Reaksi melepaskan kalor 4 kJ" berarti *q* = −4 kJ bagi campuran reaksi, tetapi +4 kJ bagi air kalorimeter yang menerimanya. Kesalahan yang paling sering bukan salah hitung, melainkan berganti sistem di tengah soal: *q* dihitung dari kenaikan suhu air, lalu dipakai sebagai *q* reaksi tanpa membalik tandanya.
+:::
+
 ::: {.contoh}
 **Contoh 3.7 · Percobaan Joule dalam angka**
 
