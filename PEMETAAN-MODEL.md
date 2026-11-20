@@ -30,3 +30,12 @@ Ganti model dan effort lewat `/model` di Claude Code. Alur satu bab yang dianjur
 1. **Opus 5.5 · high**: tulis materi, contoh, kuis, soal, jawaban.
 2. **Sonnet 5.5 · medium**: buat gambar, bangun PDF bab, perbaiki tampilan.
 3. **Sonnet 5.5 · high**: periksa ulang angka dan rujukan, lalu commit.
+
+## Revisi buku (ditetapkan November 2026, atas permintaan penyusun)
+
+Revisi total memakai **Opus 5.5 saja**, effort disesuaikan jenis pekerjaan. Rincian untuk *Termodinamika Kimia* ada di `termodinamika-kimia/REVISI.md`.
+
+| Pekerjaan revisi | Model | Effort |
+|---|---|---|
+| Baca kritis, kalimat penjelas, tambah isi/contoh/soal tantangan | Opus 5.5 | high |
+| Verifikasi angka, ejaan/notasi, gambar, indeks, lampiran, desain, cetak | Opus 5.5 | medium |
