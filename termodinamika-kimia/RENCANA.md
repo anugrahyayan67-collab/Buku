@@ -39,7 +39,7 @@ Pemetaan RPS: mg 1 → Bab 1 · mg 2 → Bab 2 · mg 3–4 → Bab 3–4 · mg 5
 
 ## Bagian IV · Kesetimbangan fasa dan larutan
 
-### ☐ Bab 8 Kesetimbangan Fasa Zat Murni
+### ☑ Bab 8 Kesetimbangan Fasa Zat Murni
 8.1 Fasa, transisi fasa, dan kestabilan · 8.2 Syarat kesetimbangan fasa · 8.3 Persamaan Clapeyron · 8.4 Persamaan Clausius–Clapeyron · 8.5 Diagram fasa air · 8.6 Diagram fasa CO₂ · 8.7 Titik tripel dan titik kritis · 8.8 Aturan fasa Gibbs untuk satu komponen
 
 ### ☐ Bab 9 Potensial Kimia dan Besaran Molar Parsial

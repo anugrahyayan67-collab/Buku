@@ -146,3 +146,22 @@ for k, (x, y) in pos.items():
 for a, b in [('U', 'H'), ('U', 'A'), ('H', 'G'), ('A', 'G')]:
     (x1, y1), (x2, y2) = pos[a], pos[b]; ax.plot([x1 + 0.5 * np.sign(x2 - x1), x2 - 0.5 * np.sign(x2 - x1)], [y1 + 0.5 * np.sign(y2 - y1), y2 - 0.5 * np.sign(y2 - y1)], color=UN, lw=2.4)
 simpan(7, f, 'Sel bahan bakar mengubah energi Gibbs langsung menjadi kerja listrik; U, H, A, dan G terhubung oleh jaringan persamaan fundamental.')
+
+# 8 gunung dan panci, serta diagram fasa dengan titik tripel dan titik kritis
+f, ax = kanvas(); rng = np.random.default_rng(8)
+ax.fill([0.3, 1.6, 2.2, 2.9, 4.2], [0.6, 3.6, 3.0, 4.3, 0.6], color=AB, alpha=0.35, lw=0)
+ax.fill([2.55, 2.9, 3.25], [3.8, 4.3, 3.8], color='white', alpha=0.9, lw=0)
+ax.add_patch(Rectangle((1.0, 0.65), 1.6, 0.95, fc=NI, ec=NI, lw=1.5, zorder=3)); ax.add_patch(Rectangle((0.9, 1.6), 1.8, 0.12, color=UN, zorder=3))
+for _ in range(9):
+    x = rng.uniform(1.2, 2.4); t = np.linspace(0, 1, 30); ax.plot(x + 0.08 * np.sin(t * 9 + x * 5), 1.85 + 0.9 * t, color=SI, lw=1.8, alpha=0.8)
+for _ in range(6): bola(ax, rng.uniform(1.15, 2.45), rng.uniform(0.8, 1.45), 0.07, SI, z=4)
+x0, y0 = 4.9, 0.7; ax.plot([x0, 8.1], [y0, y0], color=AB, lw=1.2); ax.plot([x0, x0], [y0, 4.6], color=AB, lw=1.2)
+tt, pt, tc, pc = x0 + 1.1, y0 + 1.1, x0 + 2.9, y0 + 3.2
+t = np.linspace(0, 1, 100)
+ax.plot(tt + (tc - tt) * t, pt + (pc - pt) * t ** 1.6, color=UN, lw=3)
+ax.plot(x0 + 0.1 + (tt - x0 - 0.1) * t, y0 + 0.05 + (pt - y0 - 0.05) * t ** 2, color=NI, lw=3)
+ax.plot(tt - 0.25 * t, pt + 3.0 * t, color=NI, lw=3)
+ax.fill_between(tt + (tc - tt) * t, pt + (pc - pt) * t ** 1.6, 4.6, color=SI, alpha=0.18, lw=0)
+for (x, y), c in [((tt, pt), EM), ((tc, pc), UN)]: ax.add_patch(Circle((x, y), 0.13, fc=c, ec=NI, lw=1.5, zorder=5))
+ax.add_patch(Circle((tc, pc), 0.32, fc=EM, alpha=0.25, lw=0, zorder=4))
+simpan(8, f, 'Titik didih air turun di puncak gunung; diagram fasa memetakan di mana padat, cair, dan gas stabil, dari titik tripel sampai titik kritis.')
