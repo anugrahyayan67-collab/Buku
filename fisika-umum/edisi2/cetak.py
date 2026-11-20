@@ -21,7 +21,7 @@ def md2html(md, out, css):
     s = re.sub(r'(<h[1-3][^>]*>)(.*?)(</h[1-3]>)', lambda m: m.group(1) + m.group(2).replace('\n', ' ') + m.group(3), s, flags=re.S); open(out, 'w').write(s)
     subprocess.run(['python3', f'{R}/gaya.py', out], check=True)
     s = open(out).read()
-    s = re.sub(r'<h1 id="[^"]*" class="lampiran">Lampiran (\w) (.*?)</h1>',
+    s = re.sub(r'<h1[^>]*class="lampiran"[^>]*>Lampiran (\w) (.*?)</h1>',
                r'<h1 class="bab"><span class="pita"><span class="kata">Lampiran</span><span class="no">\1</span></span><span class="judul">\2</span></h1>', s)
     s = re.sub(r'<h2 id="([^"]*)">([A-B]\.\d+ )', r'<h2 id="\1" class="sub">\2', s)
     s = re.sub(r'(<h2 id="[^"]*" class="sub">)\s*([A-B0-9]+\.\d+) ', r'\1<span class="nsub">\2</span>', s)
@@ -62,6 +62,7 @@ for n in BAB:
 md2html(open(f'{E}/lampiran.md').read(), f'{K}/lampiran.html', CSS_E); jobs.append({'html': f'{K}/lampiran.html', 'pdf': f'{K}/lampiran.pdf'})
 md2html(open(f'{E}/depan.md').read(), f'{K}/depan.html', CSS_E); jobs.append({'html': f'{K}/depan.html', 'pdf': f'{K}/depan.pdf'})
 if not LEWATI: render(jobs)
+else: render([j for j in jobs if j['pdf'].endswith('lampiran.pdf')])   # lampiran selalu dirender ulang
 
 # ---------- 2. teks per halaman, letak judul
 def norm(s): return re.sub(r'\s+', '', re.sub(r'-\n', '', s)).lower()

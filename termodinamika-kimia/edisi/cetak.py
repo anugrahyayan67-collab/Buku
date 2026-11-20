@@ -109,7 +109,7 @@ for n in BAB: tambah(f'bab{n:02d}', NHAL[n], 'bab')
 tambah('lampiran', NHAL['lampiran'], 'lampiran')
 LJ = {}
 for _f in sorted(glob.glob(f'{R}/lampiran/[a-z]-*.md')):
-    _m = re.match(r'# Lampiran (\w) (.*)', open(_f).readline()); LJ[_m.group(1)] = (_m.group(2).strip(), cari('lampiran', _m.group(1) + 'LAMPIRAN' + _m.group(2)) or cari('lampiran', _m.group(2)) or 0)
+    _m = re.match(r'# Lampiran (\w) (.*)', open(_f).readline()); LJ[_m.group(1)] = (_m.group(2).strip(), cari('lampiran', 'LAMPIRAN' + _m.group(1) + _m.group(2)) or cari('lampiran', _m.group(1) + 'LAMPIRAN' + _m.group(2)) or cari('lampiran', _m.group(2)) or 0)
 LAMP_B = LJ['B'][1] if 'B' in LJ else 0
 def hal_bab(n, i): return MULAI[f'bab{n:02d}'] + i
 

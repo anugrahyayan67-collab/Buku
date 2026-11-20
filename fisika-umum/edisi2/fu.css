@@ -97,3 +97,17 @@ section.pembuka .kb { top: 140mm; }
 section.pembuka .nb { top: 145mm; font-size: 70pt; color: var(--tua); }
 section.pembuka h1 { top: 153mm; left: 55mm; font-size: 17pt; font-weight: 800; text-transform: uppercase; letter-spacing: 1.2px; line-height: 1.25; }
 section.pembuka .outline { top: 182mm; }
+/* Kepala lampiran = gaya kepala bab di halaman pembuka: "LAMPIRAN" kecil di atas, huruf besar, judul kapital di kanannya */
+h1.bab { display: grid; grid-template-columns: auto 1fr; column-gap: 7mm; align-items: center; margin: 4mm 0 9mm 0; padding: 0 0 5mm 0;
+         border-bottom: .4mm solid var(--garis); text-align: left; }
+h1.bab .pita { display: contents; }
+h1.bab .kata { grid-column: 1 / 3; grid-row: 1; order: 0; color: var(--jingga); font-size: 10pt; font-weight: 800; letter-spacing: 7px;
+               text-transform: uppercase; padding: 0 0 1mm 0; margin: 0; background: none; }
+h1.bab .no { grid-column: 1; grid-row: 2; order: 0; color: var(--tua); font-size: 60pt; font-weight: 900; line-height: .95; letter-spacing: -2px; margin: 0; padding: 0; background: none; }
+h1.bab .judul { grid-column: 2; grid-row: 2; font-size: 17pt; font-weight: 800; text-transform: uppercase; letter-spacing: 1.2px; line-height: 1.25;
+                color: var(--tua); padding: 0; border: none; }
+/* tabel panjang boleh menyambung ke halaman berikut; kepala tabel diulang; baris tidak terpotong */
+table { break-inside: auto; page-break-inside: auto; }
+thead { display: table-header-group; }
+tr { break-inside: avoid; page-break-inside: avoid; }
+h2, h3 { break-after: avoid; page-break-after: avoid; }

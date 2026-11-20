@@ -71,6 +71,7 @@ for n in BAB:
 md2html('\n\n'.join(open(f).read() for f in sorted(glob.glob(f'{R}/lampiran/[a-z]-*.md'))), f'{K}/lampiran.html', CSS_E); jobs.append({'html': f'{K}/lampiran.html', 'pdf': f'{K}/lampiran.pdf'})
 md2html(open(f'{E}/depan.md').read(), f'{K}/depan.html', CSS_E); jobs.append({'html': f'{K}/depan.html', 'pdf': f'{K}/depan.pdf'})
 if not LEWATI: render(jobs)
+else: render([j for j in jobs if j['pdf'].endswith('lampiran.pdf')])   # lampiran selalu dirender ulang
 
 # ---------- 2. teks per halaman, letak judul
 def norm(s): return re.sub(r'\s+', '', re.sub(r'-\n', '', s)).lower()
@@ -109,7 +110,7 @@ for n in BAB: tambah(f'bab{n:02d}', NHAL[n], 'bab')
 tambah('lampiran', NHAL['lampiran'], 'lampiran')
 LJ = {}
 for _f in sorted(glob.glob(f'{R}/lampiran/[a-z]-*.md')):
-    _m = re.match(r'# Lampiran (\w) (.*)', open(_f).readline()); LJ[_m.group(1)] = (_m.group(2).strip(), cari('lampiran', _m.group(1) + 'LAMPIRAN' + _m.group(2)) or cari('lampiran', _m.group(2)) or 0)
+    _m = re.match(r'# Lampiran (\w) (.*)', open(_f).readline()); LJ[_m.group(1)] = (_m.group(2).strip(), cari('lampiran', 'LAMPIRAN' + _m.group(1) + _m.group(2)) or cari('lampiran', _m.group(1) + 'LAMPIRAN' + _m.group(2)) or cari('lampiran', _m.group(2)) or 0)
 LAMP_B = LJ['B'][1]
 def hal_bab(n, i): return MULAI[f'bab{n:02d}'] + i
 
