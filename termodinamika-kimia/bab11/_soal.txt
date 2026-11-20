@@ -1,0 +1,112 @@
+## Subbab 11.1: Aturan fasa Gibbs
+
+> Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹. Pada 25 °C, tekanan uap benzena murni 12,7 kPa dan toluena 3,79 kPa. Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab.
+
+**Dasar**
+
+Berapa derajat kebebasan untuk larutan gula dalam air yang setimbang dengan uapnya? ||| 2
+Berapa banyak fasa paling banyak yang dapat setimbang dalam sistem dua komponen? ||| 4
+Mengapa air murni dihitung satu komponen walaupun berisi H₃O⁺ dan OH⁻? ||| ion-ion itu terbentuk dari H₂O dan jumlahnya ditentukan kesetimbangan dan netralitas
+
+**Menengah**
+
+Tentukan *C* dan *F* untuk sistem yang berisi CuSO₄·5H₂O(s), CuSO₄·3H₂O(s), dan uap air dalam kesetimbangan. ||| *C* = 2, *F* = 1
+Dalam larutan gula jenuh dengan gula padat dan uap air pada tekanan tetap, apakah suhu dapat dipilih bebas? Apa yang ditentukan olehnya? ||| ya ($F' = 1$); kelarutan dan tekanan uap
+
+## Subbab 11.2: Diagram tekanan uap–komposisi
+
+**Dasar**
+
+Hitung tekanan gelembung dan tekanan embun campuran benzena–toluena dengan *z* = 0,700 pada 25 °C. ||| 10,03 kPa; 7,45 kPa
+Apa yang dimaksud garis hubung? ||| garis yang menghubungkan komposisi dua fasa yang setimbang
+
+**Menengah**
+
+@garisuap [P] Turunkan persamaan garis uap (11.2) dari hukum Raoult dan hukum Dalton. ||| lihat pembahasan
+Campuran benzena–toluena dengan *z* = 0,600 berada pada 8,00 kPa dan 25 °C. Hitung komposisi cairan dan uap serta fraksi sistem yang cair. ||| *x* = 0,473; *y* = 0,750; 54% cair
+Mengapa aturan tuas berlaku dalam satuan massa bila sumbu diagram adalah fraksi massa? ||| neraca massa memakai satuan yang sama dengan sumbu
+
+## Subbab 11.3: Diagram suhu–komposisi dan distilasi
+
+**Dasar**
+
+Pada 1 atm, cairan benzena–toluena dengan $x_\text{benzena} = 0{,}300$ mendidih pada 98,5 °C. Hitung fraksi mol benzena di uap pertamanya ($p^*_\text{benzena} = 172{,}6$ kPa pada suhu itu). ||| 0,511
+Apa yang dimaksud pelat teoretis? ||| satu langkah kesetimbangan cair–uap
+
+**Menengah**
+
+Mengapa makin banyak pelat diperlukan bila titik didih kedua komponen berdekatan? ||| garis gelembung dan garis embun makin rapat, setiap langkah memperkaya sedikit
+Mengapa residu minyak bumi disuling pada tekanan rendah? ||| titik didih turun sehingga tidak terurai
+Dari Gambar 11.2, berapa pelat teoretis yang diperlukan untuk memperkaya benzena dari 20% menjadi 90%? ||| 5
+
+## Subbab 11.4: Azeotrop
+
+**Dasar**
+
+Jenis penyimpangan dari hukum Raoult mana yang menghasilkan azeotrop bertitik didih minimum? ||| positif
+Ubah komposisi azeotrop HCl–air (20,2% massa HCl) menjadi fraksi mol. ||| 0,111
+
+**Menengah**
+
+Dua cairan dengan $p_\text{A}^*/p_\text{B}^* = 2{,}00$ membentuk larutan reguler dengan β = 0,80. Apakah terbentuk azeotrop? Pada komposisi berapa? ||| ya; $x_\text{A} = 0{,}933$
+Apakah benzena–toluena dapat membentuk azeotrop? Jelaskan dengan syarat Contoh 11.8. ||| tidak; β ≈ 0 jauh lebih kecil daripada ln 3,35
+Mengapa saringan molekul dapat menghasilkan etanol melewati azeotrop? ||| pemisahannya tidak memakai kesetimbangan cair–uap
+
+## Subbab 11.5: Cairan yang tidak bercampur sempurna
+
+**Dasar**
+
+Hitung suhu kritis kelarutan larutan reguler dengan *w* = 4,00 kJ mol⁻¹. ||| 241 K
+Campuran klorobenzena–air mendidih pada 90,9 °C. Apakah suhu ini berubah bila jumlah air digandakan? ||| tidak, selama kedua fasa cair ada
+
+**Menengah**
+
+Pada β = 3,0, hitung komposisi kedua lapisan larutan reguler simetris. ||| $x_\text{B} = 0{,}071$ dan 0,929
+Dengan data Contoh 11.10, berapa massa setiap lapisan bila 20 g fenol dicampur dengan 80 g air pada 50 °C? ||| lapisan kaya fenol 17,6 g; kaya air 82,4 g
+Bromobenzena (*M* = 157,0 g mol⁻¹) disuling dengan uap pada 95,3 °C, tempat tekanan uap air 85,0 kPa dan bromobenzena 16,3 kPa. Berapa gram bromobenzena per gram air di dalam distilat? ||| 1,67
+Mengapa trietilamina–air bercampur pada suhu rendah tetapi terpisah pada suhu tinggi? ||| ikatan hidrogen amina–air putus pada suhu tinggi
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa (11.6) adalah syarat $\mu_\text{A}$ sama di kedua lapisan komposisi *x* dan 1 − *x* untuk larutan reguler. ||| $\ln x_\text{A}\gamma_\text{A}$ sama di kedua lapisan
+
+## Subbab 11.6: Kesetimbangan cair–padat dan eutektik
+
+**Dasar**
+
+Hitung kelarutan ideal antrasena ($T_\text{f}^* = 489{,}7$ K, $\Delta_\text{fus}H = 29{,}4$ kJ mol⁻¹) pada 25 °C. ||| *x* = 0,0097
+Hitung kelarutan ideal fenantrena ($T_\text{f}^* = 372{,}4$ K, $\Delta_\text{fus}H = 16{,}5$ kJ mol⁻¹) pada 25 °C. Bandingkan dengan antrasena dan jelaskan. ||| 0,265; titik leleh lebih rendah, lebih mudah larut
+Apa yang ditunjukkan bagian datar pada kurva pendinginan? ||| dua padatan membeku bersama pada titik eutektik
+
+**Menengah**
+
+Pada suhu berapa benzena mulai membeku dari larutan dengan $x_\text{naftalena} = 0{,}050$? ||| 2,2 °C
+@eutek [P] Larutan NaCl 10% massa didinginkan perlahan. Taksir suhu ketika es mulai terbentuk, dan jelaskan apa yang terjadi selanjutnya sampai −21,1 °C. ||| sekitar −7 °C; es terus memisah, larutan makin pekat sampai eutektik
+Mengapa solder eutektik lebih disukai daripada paduan lain? ||| meleleh pada satu suhu terendah, tanpa rentang lembek
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa untuk larutan encer, (11.8) kembali menjadi rumus penurunan titik beku (10.11). ||| $\ln x_\text{A} \approx -x_\text{B}$ dan $1/T - 1/T^* \approx -\Delta T/T^{*2}$
+
+## Subbab 11.7: Diagram segitiga tiga komponen
+
+**Dasar**
+
+Di mana letak semua campuran yang berisi 40% asam asetat pada diagram segitiga Gambar 11.6? ||| garis sejajar sisi air–kloroform pada 0,4 tinggi segitiga
+Berapa derajat kebebasan untuk sistem tiga komponen dua fasa pada suhu dan tekanan tetap? ||| 1
+
+**Menengah**
+
+Sebanyak 30 g campuran P (Gambar 11.6) dicampur dengan 70 g kloroform. Hitung komposisi baru. ||| 6% air, 79% kloroform, 15% asam asetat
+
+## Subbab 11.8: Ekstraksi dan sistem tiga komponen dalam praktik
+
+**Dasar**
+
+Hitung selisih potensial kimia standar iodin di air dan CCl₄ dari *K* = 85 pada 25 °C. ||| 11,0 kJ mol⁻¹
+Apa yang dimaksud *salting out*? ||| garam menurunkan kelarutan zat organik dalam air
+
+**Menengah**
+
+@ekstrak [P] Zat dengan *K* = 4,0 (pelarut organik/air) ada dalam 100 mL air. Bandingkan sisa di air setelah satu ekstraksi dengan 60 mL pelarut dan tiga ekstraksi masing-masing 20 mL. ||| 29% dan 17%
+Mengapa pH memengaruhi ekstraksi asam karboksilat dari air ke pelarut organik? ||| bentuk ion (pH tinggi) lebih suka air; bentuk netral (pH rendah) lebih suka pelarut organik

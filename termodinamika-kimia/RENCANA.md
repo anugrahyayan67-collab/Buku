@@ -48,7 +48,7 @@ Pemetaan RPS: mg 1 → Bab 1 · mg 2 → Bab 2 · mg 3–4 → Bab 3–4 · mg 5
 ### ☑ Bab 10 Larutan Ideal dan Sifat Koligatif
 10.1 Termodinamika pencampuran · 10.2 Hukum Raoult dan larutan ideal · 10.3 Hukum Henry dan larutan encer ideal · 10.4 Penurunan tekanan uap · 10.5 Kenaikan titik didih dan penurunan titik beku · 10.6 Tekanan osmotik · 10.7 Larutan nyata dan aktivitas
 
-### ☐ Bab 11 Kesetimbangan Fasa Dua dan Tiga Komponen
+### ☑ Bab 11 Kesetimbangan Fasa Dua dan Tiga Komponen
 11.1 Aturan fasa Gibbs · 11.2 Diagram tekanan uap–komposisi · 11.3 Diagram suhu–komposisi dan distilasi · 11.4 Azeotrop · 11.5 Cairan yang tidak bercampur sempurna · 11.6 Kesetimbangan cair–padat dan eutektik · 11.7 Diagram segitiga tiga komponen · 11.8 Ekstraksi dan sistem tiga komponen dalam praktik
 
 ## Bagian V · Kesetimbangan kimia dan elektrokimia

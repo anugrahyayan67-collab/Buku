@@ -198,3 +198,26 @@ for (x, y, r, c) in [(5.6, 3.3, 0.55, UN), (7.2, 3.3, 0.72, UN), (5.6, 1.5, 0.48
     ax.add_patch(Circle((x, y), r, fc=c, ec=NI, lw=1.5, alpha=0.85, zorder=3)); ax.add_patch(Circle((x, y), r * 0.45, fc='white', alpha=0.25, zorder=4, lw=0))
 ax.annotate('', xy=(6.45, 3.3), xytext=(6.2, 3.3), arrowprops=dict(arrowstyle='-|>', color=AB, lw=1.6))
 simpan(10, f, 'Pelarut mengalir melewati membran ke larutan yang lebih pekat; sel darah merah menggembung atau mengerut mengikuti tekanan osmotik.')
+
+# 11 kolom distilasi dan diagram suhu-komposisi
+f, ax = kanvas(); rng = np.random.default_rng(11)
+ax.add_patch(FancyBboxPatch((1.4, 0.5), 1.1, 4.1, boxstyle='round,pad=0,rounding_size=0.25', fc='white', ec=NI, lw=2.2, alpha=0.9, zorder=2))
+for k, y in enumerate(np.linspace(0.95, 4.1, 8)):
+    ax.plot([1.45, 2.45], [y, y], color=NI, lw=1.5, zorder=3)
+    c = [UN, UN, '#c9603f', SI, SI, EM, EM, EM][k]
+    ax.add_patch(Rectangle((1.47, y), 0.96, 0.1, color=c, alpha=0.6, zorder=3, lw=0))
+    for _ in range(3): bola(ax, rng.uniform(1.6, 2.3), y + rng.uniform(0.18, 0.3), 0.045, c, z=4)
+ax.plot([2.5, 3.3, 3.3], [4.3, 4.3, 3.6], color=NI, lw=2); ax.add_patch(Rectangle((3.15, 3.0), 0.3, 0.6, fc=EM, ec=NI, lw=1.5, alpha=0.8))
+ax.add_patch(Circle((1.95, 0.55), 0.0, color=NI))
+x0, y0 = 4.6, 0.7; ax.plot([x0, 8.0], [y0, y0], color=AB, lw=1.2); ax.plot([x0, x0], [y0, 4.6], color=AB, lw=1.2); ax.plot([8.0, 8.0], [y0, 4.6], color=AB, lw=1.2)
+t = np.linspace(0, 1, 100); X = x0 + 3.4 * t
+lo = 4.2 - 3.0 * t - 0.45 * np.sin(np.pi * t); hi = 4.2 - 3.0 * t + 0.45 * np.sin(np.pi * t)
+ax.plot(X, lo, color=UN, lw=3); ax.plot(X, hi, color=SI, lw=3); ax.fill_between(X, lo, hi, color=SI, alpha=0.15, lw=0)
+xx = 0.15
+for i in range(4):
+    yl = 4.2 - 3.0 * xx - 0.45 * np.sin(np.pi * xx)
+    xv = solve_x = None
+    tt = np.linspace(xx, 1, 400); hh = 4.2 - 3.0 * tt + 0.45 * np.sin(np.pi * tt); j = np.argmin(abs(hh - yl)); xv = tt[j]
+    ax.plot([x0 + 3.4 * xx, x0 + 3.4 * xv], [yl, yl], color=NI, lw=1.6); yl2 = 4.2 - 3.0 * xv - 0.45 * np.sin(np.pi * xv)
+    ax.plot([x0 + 3.4 * xv] * 2, [yl, yl2], color=NI, lw=1.6); xx = xv
+simpan(11, f, 'Kolom distilasi melakukan langkah-langkah penguapan dan pengembunan berulang; setiap langkah adalah satu anak tangga pada diagram suhu–komposisi.')
