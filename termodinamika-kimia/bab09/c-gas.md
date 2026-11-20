@@ -152,7 +152,7 @@ $$
 $$
 Maka φ = 0,680 dan *f* = (0,680)(300) = 204 bar.
 
-**Memahami hasil.** Menariknya, *Z* hampir tepat 1 pada tekanan ini, sehingga persamaan gas ideal memberi volume yang hampir benar. Tetapi potensial kimianya jauh dari ideal: metana pada 300 bar mempunyai "kecenderungan melarikan diri" setara dengan gas ideal pada hanya 204 bar. Sebabnya, φ bergantung pada **seluruh riwayat** penyimpangan dari tekanan nol sampai 300 bar (integral (9.14)), bukan hanya pada *Z* di tekanan akhir. Dalam perhitungan kesetimbangan reaksi pada tekanan tinggi, misalnya sintesis amonia pada 200–300 bar, perbedaan seperti ini menggeser hasil secara berarti, dan Bab 12 akan memakai fugasitas untuk menanganinya.
+**Memahami hasil.** Menariknya, *Z* hampir tepat 1 pada tekanan ini, sehingga persamaan gas ideal memberi volume yang hampir benar. Tetapi potensial kimianya jauh dari ideal: metana pada 300 bar mempunyai "kecenderungan melarikan diri" setara dengan gas ideal pada hanya 204 bar. Sebabnya, φ bergantung pada **seluruh riwayat** penyimpangan dari tekanan nol sampai 300 bar (integral (9.14)), bukan hanya pada *Z* di tekanan akhir. Dalam perhitungan kesetimbangan reaksi pada tekanan tinggi, misalnya sintesis amonia pada 200–300 bar, perbedaan seperti ini menggeser hasil secara berarti; Contoh 12.16 akan memakai fugasitas untuk menanganinya.
 :::
 
 ::: {.kuis}

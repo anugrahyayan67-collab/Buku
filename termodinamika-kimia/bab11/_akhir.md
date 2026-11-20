@@ -55,6 +55,15 @@ $$
 
 *Cara berpikir:* pada diagram eutektik, campuran di sisi kaya air selalu mengendapkan es lebih dulu, dan cairannya "berjalan" menuruni garis beku menuju eutektik. Aturan tuas memberi banyaknya es pada setiap suhu: pada −15 °C, misalnya, cairannya berisi sekitar 19% NaCl, sehingga sekitar separuh air sudah membeku. Inilah sebabnya air laut yang membeku menghasilkan es yang hampir tawar, dan air garam sisa yang makin asin.
 
+**Soal {{isomer}}.** Dari (11.8) pada 298,15 K:
+$$
+\ln x_\text{antrasena} = -\frac{29\,400}{8{,}314}\left(\frac{1}{298{,}15} - \frac{1}{489{,}7}\right) = -4{,}639 , \qquad x = 0{,}0097 ;
+$$
+$$
+\ln x_\text{fenantrena} = -\frac{16\,500}{8{,}314}\left(\frac{1}{298{,}15} - \frac{1}{372{,}4}\right) = -1{,}327 , \qquad x = 0{,}265 .
+$$
+Perbandingannya $0{,}265/0{,}0097 = 27$. Dua molekul dengan rumus, massa, dan gaya antarmolekul dalam larutan yang hampir sama berbeda kelarutannya 27 kali, semata-mata karena kristalnya. Antrasena lurus dan simetris, sehingga molekul-molekulnya bertumpuk rapat dan teratur di dalam kristal; diperlukan energi dan suhu lebih tinggi untuk membongkarnya. Fenantrena yang "bengkok" tersusun kurang rapat. Menurut (11.8), kelarutan ideal ditentukan oleh betapa sukarnya padatan dibongkar, bukan oleh pelarutnya: inilah dasar aturan praktis bahwa isomer bertitik leleh tinggi sukar larut.
+
 **Soal {{ekstrak}}.** Satu kali dengan 60 mL: $KV_\text{o}/V_\text{a} = (4{,}0)(0{,}60) = 2{,}4$; sisa $1/3{,}4 = 0{,}29$. Tiga kali 20 mL: $KV_\text{o}/V_\text{a} = 0{,}80$ setiap kali; sisa $(1/1{,}8)^3 = 0{,}17$.
 
 *Cara berpikir:* dengan *K* sedang, perbedaan antara kedua cara lebih kecil daripada untuk iodin (Contoh 11.17), tetapi tetap berarti: 71% terambil dengan sekali ekstraksi, 83% dengan tiga kali. Untuk mengambil 99% dengan bagian 20 mL diperlukan delapan kali ekstraksi ($0{,}556^8 = 0{,}009$). Untuk zat dengan *K* kecil seperti ini, ekstraksi berlawanan arah yang kontinu jauh lebih hemat pelarut.

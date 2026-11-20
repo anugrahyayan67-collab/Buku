@@ -72,7 +72,7 @@ Karena $\Delta_\text{r}G^\circ$ didefinisikan pada tekanan standar yang tetap, 1
 - Bila Δν < 0, $K_x$ naik ketika tekanan naik: kesetimbangan bergeser ke hasil.
 - Bila Δν = 0, tekanan tidak berpengaruh.
 
-Ini adalah bentuk kuantitatif dari pernyataan Kimia Dasar "kenaikan tekanan menggeser kesetimbangan ke arah jumlah mol gas yang lebih sedikit". Alasan molekulnya: pada tekanan tinggi, sistem dapat mengurangi volumenya dengan mengurangi banyaknya molekul gas, dan kerja *p*Δ*V* yang dihemat menurunkan energi Gibbs.
+Ini adalah bentuk kuantitatif dari pernyataan Kimia Dasar "kenaikan tekanan menggeser kesetimbangan ke arah jumlah mol gas yang lebih sedikit". Alasan termodinamikanya: energi Gibbs setiap mol gas naik sebesar $RT\ln(p/p^\circ)$ bila tekanannya dinaikkan (subbab 7.8). Sisi reaksi yang berisi lebih sedikit mol gas mengalami kenaikan *G* yang lebih kecil, sehingga pada tekanan tinggi sisi itulah yang energi Gibbsnya lebih rendah.
 
 ::: {.contoh}
 **Contoh 12.9 · N₂O₄ pada tekanan berbeda**

@@ -87,6 +87,7 @@ Mengapa solder eutektik lebih disukai daripada paduan lain? ||| meleleh pada sat
 **Tantangan ★**
 
 ★ Tunjukkan bahwa untuk larutan encer, (11.8) kembali menjadi rumus penurunan titik beku (10.11). ||| $\ln x_\text{A} \approx -x_\text{B}$ dan $1/T - 1/T^* \approx -\Delta T/T^{*2}$
+@isomer [P] ★ Antrasena dan fenantrena adalah isomer C₁₄H₁₀. Antrasena meleleh pada 489,7 K dengan $\Delta_\text{fus}H = 29{,}4$ kJ mol⁻¹; fenantrena pada 372,4 K dengan 16,5 kJ mol⁻¹. (a) Hitung kelarutan ideal keduanya pada 25 °C. (b) Berapa kali fenantrena lebih mudah larut? (c) Jelaskan dari struktur molekul mengapa antrasena mempunyai titik leleh dan entalpi peleburan yang lebih tinggi. ||| (a) $x = 0{,}0097$ dan 0,265; (b) 27 kali
 
 ## Subbab 11.7: Diagram segitiga tiga komponen
 

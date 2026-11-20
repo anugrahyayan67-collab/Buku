@@ -69,7 +69,7 @@ $$
 **Suhu kritis kelarutan atas** menurut model larutan reguler. Di atas $T_\text{c}$, kedua cairan bercampur dalam segala perbandingan; di bawahnya, campuran dengan komposisi menengah terpisah menjadi dua fasa cair.
 :::
 
-Komposisi kedua fasa pada suhu tertentu ditentukan oleh syarat kesetimbangan fasa yang sudah kita kenal: potensial kimia setiap komponen sama di kedua fasa. Untuk model reguler yang simetris, kedua fasa mempunyai komposisi *x* dan 1 − *x*, dan syarat itu menjadi
+Komposisi kedua fasa pada suhu tertentu ditentukan oleh syarat kesetimbangan fasa yang sudah kita kenal: potensial kimia setiap komponen sama di kedua fasa. Untuk model reguler yang simetris, kedua fasa mempunyai komposisi *x* dan 1 − *x*. Potensial kimia B dalam larutan reguler adalah $\mu_\text{B} = \mu_\text{B}^* + RT\ln x_\text{B} + w\,x_\text{A}^2$ (dari (10.15)). Menyamakannya di kedua lapisan, $RT\ln x + w(1 - x)^2 = RT\ln(1 - x) + w\,x^2$, lalu membagi dengan *RT* dan memakai $x^2 - (1 - x)^2 = 2x - 1$, memberi
 
 $$
 \ln\frac{x}{1 - x} = \beta(2x - 1) . \qquad \text{(11.6)}

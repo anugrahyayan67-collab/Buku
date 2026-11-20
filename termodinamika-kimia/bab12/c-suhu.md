@@ -127,7 +127,27 @@ K = \frac{(2\xi)^2(4 - 2\xi)^2}{(1 - \xi)\cdot27(1 - \xi)^3}\left(\frac{p^\circ}
 $$
 Dengan *p* = 300 bar dan mencoba nilai: ξ = 0,454, sehingga $x_{\text{NH}_3} = 0{,}908/3{,}092 = 0{,}29$.
 
-**Memahami hasil.** Gambar 12.3 menunjukkan bahwa pada 300 °C dan tekanan yang sama hasilnya hampir 70%, tetapi pada suhu itu katalis besi bekerja terlalu lambat. Pabrik memilih 400–500 °C sebagai kompromi antara laju dan hasil, lalu mengambil amonia dengan mendinginkan gas keluar (amonia mencair, N₂ dan H₂ tidak) dan mengembalikan gas sisa ke reaktor. Dengan daur ulang, hampir semua N₂ dan H₂ akhirnya menjadi amonia, walaupun setiap lintasan hanya mengubah sebagian kecil. Pengukuran nyata pada 450 °C dan 300 bar memberi sekitar 35% amonia, lebih tinggi daripada perhitungan gas ideal, karena pada tekanan setinggi itu koefisien fugasitas amonia jauh di bawah satu (Bab 9): amonia nyata "kurang ingin melarikan diri" daripada amonia ideal, sehingga lebih banyak yang terbentuk.
+**Memahami hasil.** Gambar 12.3 menunjukkan bahwa pada 300 °C dan tekanan yang sama hasilnya hampir 70%, tetapi pada suhu itu katalis besi bekerja terlalu lambat. Pabrik memilih 400–500 °C sebagai kompromi antara laju dan hasil, lalu mengambil amonia dengan mendinginkan gas keluar (amonia mencair, N₂ dan H₂ tidak) dan mengembalikan gas sisa ke reaktor. Dengan daur ulang, hampir semua N₂ dan H₂ akhirnya menjadi amonia, walaupun setiap lintasan hanya mengubah sebagian kecil. Pengukuran nyata pada 450 °C dan 300 bar memberi sekitar 35% amonia, lebih tinggi daripada perhitungan gas ideal. Contoh berikut menunjukkan dari mana selisih itu datang.
+:::
+
+::: {.contoh}
+**Contoh 12.16 · Koreksi fugasitas untuk hasil amonia**
+
+Di subbab 9.5 kita mencatat bahwa kesetimbangan bertekanan tinggi memerlukan fugasitas. Pada 723 K dan 300 bar, koefisien fugasitas menurut persamaan van der Waals (rumus kotak Lebih dalam subbab 9.5, dengan tetapan Tabel 2.1) adalah φ(N₂) = 1,099, φ(H₂) = 1,121, dan φ(NH₃) = 0,857. Anggap setiap gas di dalam campuran mempunyai koefisien fugasitas yang sama dengan bila ia murni pada tekanan total. Hitung ulang fraksi mol amonia pada Contoh 12.15.
+
+**Rencana.** Untuk gas nyata, aktivitas adalah $f_\text{J}/p^\circ = \varphi_\text{J}p_\text{J}/p^\circ$. Tetapan kesetimbangan *K* tidak berubah, tetapi kini ia memuat hasil kali koefisien fugasitas di samping tekanan parsial.
+
+**Penyelesaian.** Memasukkan $a_\text{J} = \varphi_\text{J}p_\text{J}/p^\circ$ ke (12.3) memisahkan *K* menjadi dua faktor, $K = K_\varphi K_p$, dengan
+$$
+K_\varphi = \frac{\varphi_{\text{NH}_3}^2}{\varphi_{\text{N}_2}\varphi_{\text{H}_2}^3} , \qquad K_p = \frac{(p_{\text{NH}_3}/p^\circ)^2}{(p_{\text{N}_2}/p^\circ)(p_{\text{H}_2}/p^\circ)^3} .
+$$
+Dengan angka di atas, $K_\varphi = (0{,}857)^2/[(1{,}099)(1{,}121)^3] = 0{,}474$. Tekanan parsial pada kesetimbangan karenanya harus memenuhi
+$$
+K_p = \frac{K}{K_\varphi} = \frac{3{,}6 \times 10^{-5}}{0{,}474} = 7{,}6 \times 10^{-5} ,
+$$
+dua kali nilai yang dipakai pada perhitungan gas ideal. Persamaan Contoh 12.15 dengan $7{,}6 \times 10^{-5}$ di ruas kanan memberi ξ = 0,523, sehingga $x_{\text{NH}_3} = 1{,}046/2{,}954 = 0{,}35$.
+
+**Memahami hasil.** Koreksi fugasitas menaikkan hasil dari 29% menjadi 35%, sesuai dengan pengukuran. Penyumbang terbesar adalah amonia. Molekulnya polar dan saling menarik kuat (*a* van der Waals-nya terbesar di antara ketiga gas), sehingga φ < 1: amonia nyata "kurang ingin melarikan diri" daripada amonia ideal, dan lebih banyak yang dapat terbentuk sebelum potensial kimianya menyamai pereaksi. N₂ dan H₂ pada 723 K jauh di atas suhu Boyle-nya, sehingga tolakan yang dominan dan φ > 1; pereaksi yang "lebih ingin melarikan diri" juga mendorong reaksi ke kanan. Pada tekanan rendah semua φ mendekati 1, $K_\varphi$ mendekati 1, dan koreksi ini lenyap. Itulah sebabnya perhitungan gas ideal cukup untuk kebanyakan kesetimbangan di laboratorium, tetapi tidak untuk reaktor bertekanan ratusan bar.
 :::
 
 ::: {.terapan}
@@ -147,7 +167,7 @@ $$
 Untuk reaksi yang tidak melibatkan H⁺, kedua nilai sama.
 
 ::: {.contoh}
-**Contoh 12.16 · Dua keadaan standar**
+**Contoh 12.17 · Dua keadaan standar**
 
 Reaksi $\text{A} \rightarrow \text{B} + \text{H}^+$ mempunyai $\Delta_\text{r}G^\circ = +10{,}0$ kJ mol⁻¹ pada 25 °C. Hitung $\Delta_\text{r}G^{\circ\prime}$ dan tetapan kesetimbangan biokimia $K'$.
 
@@ -159,7 +179,7 @@ Reaksi $\text{A} \rightarrow \text{B} + \text{H}^+$ mempunyai $\Delta_\text{r}G^
 Bab 7 menyebut bahwa hidrolisis ATP, dengan $\Delta_\text{r}G^{\circ\prime} = -30{,}5$ kJ mol⁻¹, adalah "mata uang energi" sel. Tetapi konsentrasi di dalam sel jauh dari 1 mol L⁻¹, sehingga Δ*G* yang sebenarnya harus dihitung dengan (12.2).
 
 ::: {.contoh}
-**Contoh 12.17 · ATP di dalam sel darah merah**
+**Contoh 12.18 · ATP di dalam sel darah merah**
 
 Di dalam sel darah merah, [ATP] = 2,25 mmol L⁻¹, [ADP] = 0,25 mmol L⁻¹, dan [Pᵢ] = 1,65 mmol L⁻¹. Hitung Δ*G* hidrolisis ATP ($\text{ATP} + \text{H}_2\text{O} \rightarrow \text{ADP} + \text{P}_\text{i}$) pada 37 °C, dengan $\Delta_\text{r}G^{\circ\prime} = -30{,}5$ kJ mol⁻¹ dan aktivitas air satu.
 

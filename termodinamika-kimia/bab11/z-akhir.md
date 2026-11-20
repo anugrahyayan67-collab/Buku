@@ -146,31 +146,33 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹. Pada 25 °C, tekanan uap benzena murni 12
 
 **34.** ★ Tunjukkan bahwa untuk larutan encer, (11.8) kembali menjadi rumus penurunan titik beku (10.11).
 
+**35.** [P] ★ Antrasena dan fenantrena adalah isomer C₁₄H₁₀. Antrasena meleleh pada 489,7 K dengan $\Delta_\text{fus}H = 29{,}4$ kJ mol⁻¹; fenantrena pada 372,4 K dengan 16,5 kJ mol⁻¹. (a) Hitung kelarutan ideal keduanya pada 25 °C. (b) Berapa kali fenantrena lebih mudah larut? (c) Jelaskan dari struktur molekul mengapa antrasena mempunyai titik leleh dan entalpi peleburan yang lebih tinggi.
+
 ## Subbab 11.7: Diagram segitiga tiga komponen
 
 **Dasar**
 
-**35.** Di mana letak semua campuran yang berisi 40% asam asetat pada diagram segitiga Gambar 11.6?
+**36.** Di mana letak semua campuran yang berisi 40% asam asetat pada diagram segitiga Gambar 11.6?
 
-**36.** Berapa derajat kebebasan untuk sistem tiga komponen dua fasa pada suhu dan tekanan tetap?
+**37.** Berapa derajat kebebasan untuk sistem tiga komponen dua fasa pada suhu dan tekanan tetap?
 
 **Menengah**
 
-**37.** Sebanyak 30 g campuran P (Gambar 11.6) dicampur dengan 70 g kloroform. Hitung komposisi baru.
+**38.** Sebanyak 30 g campuran P (Gambar 11.6) dicampur dengan 70 g kloroform. Hitung komposisi baru.
 
 ## Subbab 11.8: Ekstraksi dan sistem tiga komponen dalam praktik
 
 **Dasar**
 
-**38.** Hitung selisih potensial kimia standar iodin di air dan CCl₄ dari *K* = 85 pada 25 °C.
+**39.** Hitung selisih potensial kimia standar iodin di air dan CCl₄ dari *K* = 85 pada 25 °C.
 
-**39.** Apa yang dimaksud *salting out*?
+**40.** Apa yang dimaksud *salting out*?
 
 **Menengah**
 
-**40.** [P] Zat dengan *K* = 4,0 (pelarut organik/air) ada dalam 100 mL air. Bandingkan sisa di air setelah satu ekstraksi dengan 60 mL pelarut dan tiga ekstraksi masing-masing 20 mL.
+**41.** [P] Zat dengan *K* = 4,0 (pelarut organik/air) ada dalam 100 mL air. Bandingkan sisa di air setelah satu ekstraksi dengan 60 mL pelarut dan tiga ekstraksi masing-masing 20 mL.
 
-**41.** Mengapa pH memengaruhi ekstraksi asam karboksilat dari air ke pelarut organik?
+**42.** Mengapa pH memengaruhi ekstraksi asam karboksilat dari air ke pelarut organik?
 
 
 # Jawaban
@@ -191,14 +193,14 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹. Pada 25 °C, tekanan uap benzena murni 12
 | 11 | 0,511 | 32 | sekitar −7 °C; es terus memisah, larutan makin pekat sampai eutektik |
 | 12 | satu langkah kesetimbangan cair–uap | 33 | meleleh pada satu suhu terendah, tanpa rentang lembek |
 | 13 | garis gelembung dan garis embun makin rapat, setiap langkah memperkaya sedikit | 34 | $\ln x_\text{A} \approx -x_\text{B}$ dan $1/T - 1/T^* \approx -\Delta T/T^{*2}$ |
-| 14 | titik didih turun sehingga tidak terurai | 35 | garis sejajar sisi air–kloroform pada 0,4 tinggi segitiga |
-| 15 | 5 | 36 | 1 |
-| 16 | positif | 37 | 6% air, 79% kloroform, 15% asam asetat |
-| 17 | 0,111 | 38 | 11,0 kJ mol⁻¹ |
-| 18 | ya; $x_\text{A} = 0{,}933$ | 39 | garam menurunkan kelarutan zat organik dalam air |
-| 19 | tidak; β ≈ 0 jauh lebih kecil daripada ln 3,35 | 40 | 29% dan 17% |
-| 20 | pemisahannya tidak memakai kesetimbangan cair–uap | 41 | bentuk ion (pH tinggi) lebih suka air; bentuk netral (pH rendah) lebih suka pelarut organik |
-| 21 | 241 K |  |  |
+| 14 | titik didih turun sehingga tidak terurai | 35 | (a) $x = 0{,}0097$ dan 0,265; (b) 27 kali |
+| 15 | 5 | 36 | garis sejajar sisi air–kloroform pada 0,4 tinggi segitiga |
+| 16 | positif | 37 | 1 |
+| 17 | 0,111 | 38 | 6% air, 79% kloroform, 15% asam asetat |
+| 18 | ya; $x_\text{A} = 0{,}933$ | 39 | 11,0 kJ mol⁻¹ |
+| 19 | tidak; β ≈ 0 jauh lebih kecil daripada ln 3,35 | 40 | garam menurunkan kelarutan zat organik dalam air |
+| 20 | pemisahannya tidak memakai kesetimbangan cair–uap | 41 | 29% dan 17% |
+| 21 | 241 K | 42 | bentuk ion (pH tinggi) lebih suka air; bentuk netral (pH rendah) lebih suka pelarut organik |
 :::
 
 
@@ -215,7 +217,16 @@ $$
 
 *Cara berpikir:* pada diagram eutektik, campuran di sisi kaya air selalu mengendapkan es lebih dulu, dan cairannya "berjalan" menuruni garis beku menuju eutektik. Aturan tuas memberi banyaknya es pada setiap suhu: pada −15 °C, misalnya, cairannya berisi sekitar 19% NaCl, sehingga sekitar separuh air sudah membeku. Inilah sebabnya air laut yang membeku menghasilkan es yang hampir tawar, dan air garam sisa yang makin asin.
 
-**Soal 40.** Satu kali dengan 60 mL: $KV_\text{o}/V_\text{a} = (4{,}0)(0{,}60) = 2{,}4$; sisa $1/3{,}4 = 0{,}29$. Tiga kali 20 mL: $KV_\text{o}/V_\text{a} = 0{,}80$ setiap kali; sisa $(1/1{,}8)^3 = 0{,}17$.
+**Soal 35.** Dari (11.8) pada 298,15 K:
+$$
+\ln x_\text{antrasena} = -\frac{29\,400}{8{,}314}\left(\frac{1}{298{,}15} - \frac{1}{489{,}7}\right) = -4{,}639 , \qquad x = 0{,}0097 ;
+$$
+$$
+\ln x_\text{fenantrena} = -\frac{16\,500}{8{,}314}\left(\frac{1}{298{,}15} - \frac{1}{372{,}4}\right) = -1{,}327 , \qquad x = 0{,}265 .
+$$
+Perbandingannya $0{,}265/0{,}0097 = 27$. Dua molekul dengan rumus, massa, dan gaya antarmolekul dalam larutan yang hampir sama berbeda kelarutannya 27 kali, semata-mata karena kristalnya. Antrasena lurus dan simetris, sehingga molekul-molekulnya bertumpuk rapat dan teratur di dalam kristal; diperlukan energi dan suhu lebih tinggi untuk membongkarnya. Fenantrena yang "bengkok" tersusun kurang rapat. Menurut (11.8), kelarutan ideal ditentukan oleh betapa sukarnya padatan dibongkar, bukan oleh pelarutnya: inilah dasar aturan praktis bahwa isomer bertitik leleh tinggi sukar larut.
+
+**Soal 41.** Satu kali dengan 60 mL: $KV_\text{o}/V_\text{a} = (4{,}0)(0{,}60) = 2{,}4$; sisa $1/3{,}4 = 0{,}29$. Tiga kali 20 mL: $KV_\text{o}/V_\text{a} = 0{,}80$ setiap kali; sisa $(1/1{,}8)^3 = 0{,}17$.
 
 *Cara berpikir:* dengan *K* sedang, perbedaan antara kedua cara lebih kecil daripada untuk iodin (Contoh 11.17), tetapi tetap berarti: 71% terambil dengan sekali ekstraksi, 83% dengan tiga kali. Untuk mengambil 99% dengan bagian 20 mL diperlukan delapan kali ekstraksi ($0{,}556^8 = 0{,}009$). Untuk zat dengan *K* kecil seperti ini, ekstraksi berlawanan arah yang kontinu jauh lebih hemat pelarut.
 

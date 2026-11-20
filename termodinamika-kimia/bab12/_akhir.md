@@ -42,6 +42,20 @@
 
 # Pembahasan soal terpilih
 
+**Soal {{gxi}}.** Dengan $x_{\text{N}_2\text{O}_4} = (1 - \xi)/(1 + \xi)$ dan $x_{\text{NO}_2} = 2\xi/(1 + \xi)$ pada 1 bar:
+
+```python
+import math
+from scipy.optimize import minimize_scalar
+RT = 8.314*298.15/1000                     # kJ/mol
+G = lambda x: ((1 - x)*(97.89 + RT*math.log((1 - x)/(1 + x)))
+               + 2*x*(51.31 + RT*math.log(2*x/(1 + x))))
+r = minimize_scalar(G, bounds=(1e-9, 1 - 1e-9), method='bounded')
+print(r.x, G(r.x))                         # 0.189  96.94 kJ
+```
+
+Minimum terletak di ξ = 0,189, tepat α pada Contoh 12.6, dengan *G* = 96,94 kJ, di bawah kedua ujung (97,89 kJ untuk N₂O₄ murni dan 102,62 kJ untuk NO₂ murni). Mencari minimum *G* dan menyelesaikan $Q = K$ adalah dua cara menghitung hal yang sama, karena kemiringan $dG/d\xi$ adalah $\Delta_\text{r}G$ (12.1), dan kemiringan itu nol tepat ketika $Q = K$. Perangkat lunak teknik kimia untuk reaktor dengan banyak reaksi sekaligus memakai cara pertama: meminimumkan *G* langsung, tanpa menulis satu tetapan kesetimbangan pun.
+
 **Soal {{hess}}.** Reaksi yang diminta adalah kebalikan reaksi pergeseran air–gas pada Contoh 12.2 (c), yang mempunyai $K = 1{,}03 \times 10^5$. Membalik reaksi membalik tanda $\Delta_\text{r}G^\circ$, sehingga *K* dibalik:
 $$
 K = \frac{1}{1{,}03 \times 10^5} = 9{,}7 \times 10^{-6} .
@@ -57,6 +71,21 @@ Pada 1,00 bar, $\alpha = \sqrt{1{,}8/2{,}8} = 0{,}80$.
 
 *Cara berpikir:* reaksi menambah satu mol gas (Δν = +1), sehingga tekanan tinggi menekan penguraian, sesuai Le Chatelier. Besarnya pergeseran diberikan oleh $K_x = K(p/p^\circ)^{-1}$: menaikkan tekanan lima kali menurunkan $K_x$ lima kali, dan α turun dari 0,80 ke 0,51. Pengaruh tekanan tidak pernah membuat *K* sendiri berubah.
 
+**Soal {{vtc}}.**
+
+```python
+import math
+R, T1, K1, H, dCp = 8.314, 298.15, 5.81e5, -92220, -45.5
+for T2 in (500, 723):
+    a = -(H - T1*dCp)/R*(1/T2 - 1/T1) + dCp/R*math.log(T2/T1)   # dengan koreksi
+    b = -H/R*(1/T2 - 1/T1)                                        # tanpa koreksi
+    print(T2, K1*math.exp(a), K1*math.exp(b))
+# 500  0.094    0.17
+# 723  3.6e-05  1.9e-04
+```
+
+Koreksi kapasitas kalor menurunkan *K* hampir dua kali pada 500 K dan lima kali pada 723 K. Alasannya: $\Delta_\text{r}C_p^\circ$ negatif membuat $\Delta_\text{r}H^\circ$ makin negatif ketika suhu naik (hukum Kirchhoff), sehingga *K* turun lebih cepat daripada ramalan dengan Δ*H*° tetap. Makin lebar rentang suhunya, makin besar koreksinya.
+
 **Soal {{lechat}}.** Dengan $p_\text{J} = (n_\text{J}/n)p$, $\ln Q = 2\ln n_{\text{NH}_3} + 2\ln n - \ln n_{\text{N}_2} - 3\ln n_{\text{H}_2} + \text{tetapan}$. Turunkan terhadap $n_{\text{N}_2}$, dengan *n* juga bertambah:
 $$
 \frac{\partial\ln Q}{\partial n_{\text{N}_2}} = \frac{2}{n} - \frac{1}{n_{\text{N}_2}} .
@@ -64,6 +93,19 @@ $$
 Turunan ini positif, sehingga *Q* naik di atas *K* dan reaksi bergeser ke kiri, bila $n_{\text{N}_2} > n/2$, yaitu $x_{\text{N}_2} > \tfrac12$.
 
 *Cara berpikir:* menambah N₂ menaikkan tekanan parsial N₂ (suku $-1/n_{\text{N}_2}$) tetapi juga menambah mol total, yang mengencerkan semua gas lain (suku $2/n$, dari Δν = −2). Bila N₂ sudah melimpah, penambahan berikutnya hampir tidak menaikkan fraksi molnya, sedangkan pengencerannya tetap terasa. Kesimpulan umumnya: untuk menilai arah, hitung *Q*; jangan mengandalkan kata "melawan gangguan".
+
+**Soal {{kontak}}.** Basis 1 mol umpan: SO₂ 0,10; O₂ 0,11; N₂ 0,79. Dengan konversi *X*: SO₂ $0{,}10(1 - X)$, O₂ $0{,}11 - 0{,}05X$, SO₃ $0{,}10X$, total $1 - 0{,}05X$. Pada 1 bar, $K = x_{\text{SO}_3}/(x_{\text{SO}_2}x_{\text{O}_2}^{1/2})$:
+
+```python
+from scipy.optimize import brentq
+def f(X):
+    nt = 1 - 0.05*X
+    so2, o2, so3 = 0.10*(1 - X)/nt, (0.11 - 0.05*X)/nt, 0.10*X/nt
+    return so3/(so2*o2**0.5) - 290
+print(brentq(f, 1e-6, 0.999999))   # 0.987
+```
+
+Konversi 98,7%. Walaupun *K* turun dari $2{,}6 \times 10^{12}$ pada suhu kamar menjadi 290 pada 700 K, oksigen berlebih dan nitrogen yang tidak ikut bereaksi masih memungkinkan hampir seluruh SO₂ teroksidasi. Pada 1000 K (*K* = 1,8), perhitungan yang sama hanya memberi 36%; inilah sebabnya pabrik mendinginkan gas di antara lapisan katalis.
 
 # Bacaan lanjut
 

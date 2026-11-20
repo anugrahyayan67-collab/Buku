@@ -12,6 +12,10 @@ Untuk campuran dengan $p_{\text{N}_2\text{O}_4} = 0{,}50$ bar dan $p_{\text{NO}_
 Mengapa kurva *G* terhadap ξ selalu mempunyai minimum di antara kedua ujung? ||| suku pencampuran menurunkan *G* dengan kemiringan tak hingga di dekat zat murni
 Apa beda $\Delta_\text{r}G$ dan $\Delta_\text{r}G^\circ$? ||| $\Delta_\text{r}G$ bergantung pada komposisi saat itu; $\Delta_\text{r}G^\circ$ pada keadaan standar
 
+**Tantangan ★**
+
+@gxi [P] ★ (Python) Mulai dari 1 mol N₂O₄ pada 25 °C dan 1 bar, tuliskan energi Gibbs campuran sebagai fungsi kemajuan reaksi, $G(\xi) = (1 - \xi)\mu_{\text{N}_2\text{O}_4} + 2\xi\,\mu_{\text{NO}_2}$, dengan $\mu_\text{J} = \Delta_\text{f}G^\circ_\text{J} + RT\ln x_\text{J}$ (Tabel 7.1). Cari ξ yang membuat *G* minimum secara numerik, dan bandingkan dengan Contoh 12.6. ||| ξ = 0,189; sama dengan α Contoh 12.6
+
 ## Subbab 12.2: Energi Gibbs standar reaksi dan tetapan kesetimbangan
 
 **Dasar**
@@ -80,6 +84,10 @@ Turunkan persamaan van 't Hoff dari (12.3) dan persamaan Gibbs–Helmholtz. ||| 
 Tunjukkan bahwa persamaan Clausius–Clapeyron adalah kasus khusus persamaan van 't Hoff. ||| penguapan sebagai reaksi dengan $K = p/p^\circ$
 Mengapa plot van 't Hoff untuk sintesis amonia (Gambar 12.2) sedikit melengkung? ||| $\Delta_\text{r}H^\circ$ berubah dengan suhu karena $\Delta_\text{r}C_p^\circ \ne 0$
 
+**Tantangan ★**
+
+@vtc [P] ★ (Python) Pakai rumus kotak Lebih dalam subbab 12.6 untuk menghitung *K* sintesis amonia pada 500 K dan 723 K dari $K(298{,}15\ \text{K}) = 5{,}81 \times 10^5$, $\Delta_\text{r}H^\circ = -92{,}22$ kJ mol⁻¹, dan $\Delta_\text{r}C_p^\circ = -45{,}5$ J K⁻¹ mol⁻¹. Bandingkan dengan hasil tanpa koreksi kapasitas kalor. ||| 0,094 dan $3{,}6 \times 10^{-5}$ (tanpa koreksi: 0,17 dan $1{,}9 \times 10^{-4}$)
+
 ## Subbab 12.7: Asas Le Chatelier secara termodinamika
 
 **Dasar**
@@ -106,4 +114,5 @@ Mengapa hasil amonia terukur pada 300 bar lebih tinggi daripada perhitungan gas 
 
 **Tantangan ★**
 
-★ Pada 723 K dan 300 bar, koefisien fugasitas N₂, H₂, dan NH₃ kira-kira 1,14; 1,09; dan 0,91. Hitung $K_\varphi = \varphi_{\text{NH}_3}^2/(\varphi_{\text{N}_2}\varphi_{\text{H}_2}^3)$ dan jelaskan arah pengaruhnya pada hasil. ||| 0,56; hasil naik
+★ Pada 723 K dan 300 bar, koefisien fugasitas N₂, H₂, dan NH₃ kira-kira 1,14; 1,09; dan 0,91. Hitung $K_\varphi = \varphi_{\text{NH}_3}^2/(\varphi_{\text{N}_2}\varphi_{\text{H}_2}^3)$ dan fraksi mol amonia dengan cara Contoh 12.16, lalu bandingkan. ||| 0,56; $x_{\text{NH}_3} = 0{,}34$ (Contoh 12.16: 0,35)
+@kontak [P] ★ (Python) Gas umpan proses kontak berisi 10% SO₂, 11% O₂, dan 79% N₂ (fraksi mol). Hitung konversi SO₂ pada kesetimbangan $\text{SO}_2 + \tfrac12\text{O}_2 \rightleftharpoons \text{SO}_3$ pada 700 K dan 1 bar, dengan *K* = 290. ||| 98,7%

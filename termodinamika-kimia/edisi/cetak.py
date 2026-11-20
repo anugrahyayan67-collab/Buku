@@ -73,7 +73,7 @@ md2html(open(f'{E}/depan.md').read(), f'{K}/depan.html', CSS_E); jobs.append({'h
 if not LEWATI: render(jobs)
 
 # ---------- 2. teks per halaman, letak judul
-def norm(s): return re.sub(r'\s+', '', re.sub(r'-\n', '', s)).lower()
+def norm(s): return re.sub(r'\s+', '', re.sub(r'-\n', '', s)).lower().replace('\u2019', "'").replace('\u2018', "'").replace('\u02bc', "'")
 def plain(t): return re.sub(r'\$[^$]*\$|\*', '', t).strip()
 TEKS = {}; NHAL = {}
 for n in BAB + ['lampiran']:
