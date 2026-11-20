@@ -168,3 +168,6 @@ p:has(+ table) { break-after: avoid; page-break-after: avoid; text-indent: 0 !im
 .soal2 p.si ~ :not(h2):not(.si):not(blockquote) { margin-left: 7.5mm; }
 .soal2.tanya ol { padding-left: 7.5mm; }
 .soal2.tanya li { padding-left: .2mm; }
+
+/* Pertanyaan dan Soal rata kanan-kiri */
+.soal2, .soal2 p, .soal2 li { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
