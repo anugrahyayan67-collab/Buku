@@ -31,3 +31,43 @@ for T, c in [(1.0, NI), (2.2, UN), (4.0, SI)]:
     fv = v ** 2 * np.exp(-v ** 2 / T) / T ** 1.5; ax.plot(4.7 + v * 0.85, 0.7 + 3.5 * fv / 0.37, color=c, lw=2.6)
 ax.plot([4.7, 8.1], [0.7, 0.7], color=AB, lw=1.2); ax.plot([4.7, 4.7], [0.7, 4.4], color=AB, lw=1.2)
 simpan(1, f, 'Molekul gas bergerak acak dengan kelajuan yang beragam; sebaran kelajuannya melebar ketika gas dipanaskan.')
+
+# 2 pencairan gas di bawah piston dan isoterm gas nyata dengan kubah dua fasa
+f, ax = kanvas(); rng = np.random.default_rng(3)
+ax.add_patch(Rectangle((0.55, 0.45), 2.9, 3.6, fc='white', ec=NI, lw=2.2, zorder=1, alpha=0.9))
+ax.add_patch(Rectangle((0.6, 3.25), 2.8, 0.32, color=AB, zorder=3)); ax.add_patch(Rectangle((1.85, 3.57), 0.3, 1.1, color=AB, zorder=3))
+ax.add_patch(Rectangle((0.6, 0.5), 2.8, 1.05, color=SI, alpha=0.35, zorder=1, lw=0))
+for _ in range(9):
+    x, y = rng.uniform(0.85, 3.15), rng.uniform(1.85, 3.0); bola(ax, x, y, 0.1, UN, z=4)
+for i in range(13):
+    for j in range(4):
+        bola(ax, 0.78 + i * 0.205 + (j % 2) * 0.1, 0.66 + j * 0.2 + rng.uniform(-0.02, 0.02), 0.095, NI if (i + j) % 3 else UN, z=4)
+def brentq(f, a, b):
+    fa = f(a)
+    for _ in range(80):
+        c = (a + b) / 2; fc = f(c)
+        if fa * fc <= 0: b = c
+        else: a, fa = c, fc
+    return (a + b) / 2
+def maxwell(Tr):
+    P = lambda v: 8 * Tr / (3 * v - 1) - 3 / v ** 2
+    def akar(p):
+        r = np.roots([3 * p, -(p + 8 * Tr), 9, -3]); r = sorted(x.real for x in r if abs(x.imag) < 1e-9 and x.real > 1 / 3); return r[0], r[-1]
+    def selisih(p):
+        vl, vg = akar(p); vv = np.linspace(vl, vg, 2000); return np.trapezoid(P(vv) - p, vv)
+    ps = np.linspace(0.02, 0.999, 400); ok = [p for p in ps if len([x for x in np.roots([3 * p, -(p + 8 * Tr), 9, -3]) if abs(x.imag) < 1e-9 and x.real > 1 / 3]) == 3]
+    p = brentq(selisih, min(ok) + 1e-6, max(ok) - 1e-6); return (p,) + akar(p)
+V = np.linspace(0.4, 3.2, 600); x0 = 4.75; sx, sy = 1.1, 1.75
+X = lambda v: x0 + (v - 0.4) * sx; Y = lambda p: 0.6 + p * sy
+kub = []
+for Tr in np.linspace(0.86, 0.99, 25): kub.append(maxwell(Tr))
+kub = np.array(kub); ax.plot(X(np.r_[kub[:, 1], kub[::-1, 2]]), Y(np.r_[kub[:, 0], kub[::-1, 0]]), color=AB, lw=1.2, ls='--')
+for Tr, c in [(0.85, NI), (0.93, UN), (1.0, EM), (1.15, SI)]:
+    pr = 8 * Tr / (3 * V - 1) - 3 / V ** 2
+    if Tr < 1:
+        pv, vl, vg = maxwell(Tr); m1 = (V <= vl) & (pr < 2.0); m2 = V >= vg
+        ax.plot(X(V[m1]), Y(pr[m1]), color=c, lw=2.4); ax.plot(X(V[m2]), Y(pr[m2]), color=c, lw=2.4); ax.plot([X(vl), X(vg)], [Y(pv)] * 2, color=c, lw=2.4)
+    else:
+        m = pr < 2.0; ax.plot(X(V[m]), Y(pr[m]), color=c, lw=2.8 if Tr == 1 else 2.4)
+ax.plot([x0, 8.1], [0.6, 0.6], color=AB, lw=1.2); ax.plot([x0, x0], [0.6, 4.4], color=AB, lw=1.2)
+simpan(2, f, 'Gas yang ditekan di bawah suhu kritisnya mencair; isotermnya mendatar selama gas dan cairan hidup berdampingan.')

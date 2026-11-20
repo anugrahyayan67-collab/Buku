@@ -15,7 +15,7 @@ Pemetaan RPS: mg 1 → Bab 1 · mg 2 → Bab 2 · mg 3–4 → Bab 3–4 · mg 5
 ### ☑ Bab 1 Gas Ideal dan Teori Kinetik
 1.1 Sistem, lingkungan, dan variabel keadaan · 1.2 Kesetimbangan termal, hukum ke-nol, dan suhu · 1.3 Tekanan dan cara mengukurnya · 1.4 Hukum-hukum gas: Boyle, Charles, Avogadro · 1.5 Persamaan gas ideal dan pemakaiannya · 1.6 Campuran gas: hukum Dalton dan fraksi mol · 1.7 Teori kinetik: dari tumbukan molekul ke tekanan · 1.8 Kelajuan molekul dan sebaran Maxwell–Boltzmann · 1.9 Efusi dan difusi: hukum Graham · 1.10 Tumbukan antarmolekul dan jalan bebas rata-rata
 
-### ☐ Bab 2 Gas Nyata
+### ☑ Bab 2 Gas Nyata
 2.1 Penyimpangan dari gas ideal: faktor kompresi · 2.2 Gaya antarmolekul dan potensial Lennard-Jones · 2.3 Persamaan van der Waals · 2.4 Isoterm gas nyata dan pencairan gas · 2.5 Titik kritis dan tetapan kritis · 2.6 Hukum keadaan sehubungan · 2.7 Persamaan virial dan suhu Boyle · 2.8 Persamaan keadaan lain (Redlich–Kwong, Peng–Robinson) · 2.9 Efek Joule–Thomson dan pencairan gas · 2.10 Fluida superkritis
 
 ## Bagian II · Hukum pertama
