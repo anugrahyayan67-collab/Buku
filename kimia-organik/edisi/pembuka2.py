@@ -135,3 +135,14 @@ for y, t, c in [(3.55, 'SN2: substitusi', UT), (1.25, 'E2: eliminasi', EM)]:
 ax.text(3.9, 2.4, 'NaOCH₂CH₃, etanol', ha='center', color=TUA, fontsize=12, family='Liberation Sans')
 simpan(7, f, 'Pereaksi yang sama, hasil yang berbeda: 1-bromobutana (primer) memberi eter lewat substitusi SN2, sedangkan 2-bromo-2-metilpropana (tersier) memberi alkena lewat eliminasi E2.')
 print('ok7')
+
+# Bab 8: HBr + propena, dengan dan tanpa peroksida
+f, ax = kanvas()
+ax.imshow(rd7('CC=C'), extent=[0.3, 2.5, 1.55, 3.45], zorder=2)
+ax.imshow(rd7('CC(Br)C'), extent=[5.4, 7.7, 2.75, 4.65], zorder=2); ax.imshow(rd7('BrCCC'), extent=[5.2, 7.9, 0.35, 2.15], zorder=2)
+for y0, y1, t, c in [(2.7, 3.7, 'HBr', UT), (2.3, 1.25, 'HBr + peroksida', EM)]:
+    ax.annotate('', (5.1, y1), (2.8, y0), arrowprops=dict(arrowstyle='-|>', color=c, lw=3)); ax.text(3.75, (y0 + y1) / 2 + (0.45 if y1 > y0 else -0.5), t, ha='center', color=c, fontsize=13, fontweight='bold', family='Liberation Sans')
+ax.text(6.55, 4.75, 'Markovnikov (ionik)', ha='center', color=UT, fontsize=12, family='Liberation Sans')
+ax.text(6.55, 0.15, 'anti-Markovnikov (radikal)', ha='center', color=EM, fontsize=12, family='Liberation Sans')
+simpan(8, f, 'Satu alkena, satu pereaksi, dua produk: tanpa peroksida HBr beradisi lewat karbokation dan bromin masuk ke karbon tengah; dengan peroksida reaksi berantai radikal menaruh bromin di karbon ujung.')
+print('ok8')

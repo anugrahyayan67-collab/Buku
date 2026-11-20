@@ -35,7 +35,7 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 ### ☑ Bab 7 Alkil Halida: Substitusi dan Eliminasi
 7.1 Alkil halida: struktur dan sifat · 7.2 Halogenasi radikal alkana: reaksi berantai dan selektivitas (Cl lawan Br) · 7.3 Brominasi alilik dan benzilik dengan NBS · 7.4 Substitusi nukleofilik: gambaran umum · 7.5 Mekanisme SN2: kinetika dan stereokimia (inversi Walden) · 7.6 Faktor SN2: substrat, nukleofil, gugus pergi, pelarut · 7.7 Mekanisme SN1: kinetika, karbokation, rasemisasi · 7.8 Faktor SN1 dan penataan ulang · 7.9 Eliminasi E2: kinetika, aturan Zaitsev, basa besar (Hofmann) · 7.10 Stereokimia E2: anti-periplanar, sikloheksana · 7.11 Eliminasi E1 · 7.12 Substitusi atau eliminasi: peta keputusan · 7.13 Gugus pergi yang dibuat: tosilat dan mesilat · 7.14 Organologam dari alkil halida: Grignard, organolitium, kuprat Gilman · 7.15 Alkil halida di lingkungan dan dalam biologi
 
-### ☐ Bab 8 Alkena dan Alkuna
+### ☑ Bab 8 Alkena dan Alkuna
 8.1 Struktur, tata nama, dan kestabilan alkena (kalor hidrogenasi) · 8.2 Membuat alkena: eliminasi · 8.3 Adisi elektrofilik HX: aturan Markovnikov dan karbokation · 8.4 Penataan ulang dalam adisi · 8.5 Hidrasi: katalis asam dan oksimerkurasi · 8.6 Hidroborasi–oksidasi: anti-Markovnikov, adisi syn · 8.7 Adisi halogen dan halohidrin: ion halonium, adisi anti · 8.8 Hidrogenasi katalitik · 8.9 Epoksidasi dan dihidroksilasi · 8.10 Pemutusan oksidatif: ozonolisis · 8.11 Adisi radikal HBr dan polimerisasi · 8.12 Alkuna: struktur, keasaman, ion asetilida · 8.13 Reaksi alkuna: hidrogenasi (Lindlar, Na/NH₃), hidrasi, halogenasi · 8.14 Merancang sintesis dengan alkena dan alkuna
 
 ### ☐ Bab 9 Alkohol, Fenol, Eter, dan Epoksida
