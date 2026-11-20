@@ -50,3 +50,20 @@ alil
 gugus utama
 urutan prioritas
 nama umum
+bisiklik
+atom jembatan
+amina primer
+amina sekunder
+amina tersier
+ester
+amida
+nitril
+anhidrida
+asil halida
+fenil
+benzil
+orto
+meta
+para
+toluena
+anilina

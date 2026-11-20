@@ -14,7 +14,7 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 1.1 Apa itu kimia organik · 1.2 Ikatan kovalen dan struktur Lewis · 1.3 Muatan formal · 1.4 Menggambar molekul organik: rumus garis · 1.5 Hibridisasi dan bentuk molekul · 1.6 Ikatan σ dan π · 1.7 Kepolaran ikatan dan momen dipol · 1.8 Resonansi dan panah lengkung · 1.9 Gaya antarmolekul dan sifat fisika
 
 ### ☑ Bab 2 Gugus Fungsi dan Tata Nama IUPAC
-2.1 Gugus fungsi: bagian molekul yang bereaksi · 2.2 Rantai karbon dan gugus alkil · 2.3 Tata nama alkana · 2.4 Sikloalkana · 2.5 Alkena dan alkuna · 2.6 Senyawa dengan gugus fungsi: prioritas dan akhiran · 2.7 Nama umum yang masih dipakai · 2.8 Membaca nama menjadi struktur
+2.1 Gugus fungsi: bagian molekul yang bereaksi · 2.2 Rantai karbon dan gugus alkil · 2.3 Tata nama alkana · 2.4 Sikloalkana · 2.5 Alkena dan alkuna · 2.6 Senyawa dengan gugus fungsi: prioritas dan akhiran · 2.7 Nama umum yang masih dipakai · 2.8 Menamai turunan benzena · 2.9 Membaca nama menjadi struktur
 
 ### ☐ Bab 3 Asam dan Basa Organik
 3.1 Asam dan basa Brønsted · 3.2 pKa dan arah kesetimbangan · 3.3 Unsur pembawa muatan · 3.4 Resonansi · 3.5 Efek induktif · 3.6 Hibridisasi · 3.7 Asam dan basa Lewis · 3.8 Pelarut dan pH

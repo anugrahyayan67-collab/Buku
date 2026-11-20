@@ -195,6 +195,31 @@ Seorang mahasiswa menamai sebuah senyawa "2-etilbutana". Gambar struktur yang di
 
 Kadang-kadang cabangnya sendiri bercabang, dan tidak mempunyai nama umum. Dalam kasus itu cabang dinamai seperti molekul kecil: karbon yang menempel pada rantai induk diberi nomor 1, rantai terpanjang cabang itu menjadi akar namanya, dan nama lengkap cabang ditulis dalam kurung. Contohnya –CH₂CH(CH₃)CH₂CH₃ disebut (2-metilbutil). Aturan ini jarang diperlukan di tingkat awal, tetapi berguna untuk mengenali nama-nama seperti 5-(1,1-dimetiletil)nonana, yang tidak lain adalah 5-*tert*-butilnonana.
 
+### Mencari semua isomer secara sistematis
+
+Soal yang sering muncul berbunyi: "Gambar dan namai semua isomer C₆H₁₄." Tanpa cara yang teratur, kita mudah melewatkan satu isomer atau menggambar isomer yang sama dua kali dengan bentuk yang berbeda. Nama IUPAC justru menjadi alat pemeriksa yang ampuh: dua gambar yang bernama sama adalah senyawa yang sama, betapa pun berbeda tampilannya.
+
+Cara yang teratur adalah **memendekkan rantai induk selangkah demi selangkah**, lalu menempatkan karbon sisanya sebagai cabang di semua posisi yang mungkin:
+
+1. Mulai dari rantai lurus terpanjang (tanpa cabang).
+2. Pendekkan rantai induk satu karbon. Karbon yang tersisa menjadi satu cabang metil. Tempatkan cabang itu di setiap karbon yang mungkin, mulai dari C2. Cabang di C1 tidak dihitung, karena itu hanya memperpanjang rantai.
+3. Pendekkan lagi. Sekarang dua karbon sisa dapat menjadi dua metil atau satu etil. Coba semua penempatan.
+4. Setelah setiap gambar, **namai** strukturnya. Bila namanya sudah muncul sebelumnya, gambar itu duplikat dan dibuang.
+
+::: {.contoh}
+**Contoh 2.5 · Semua isomer C₆H₁₄**
+
+Temukan semua alkana C₆H₁₄ dengan cara sistematis.
+
+**Penyelesaian.** *Rantai enam:* heksana. *Rantai lima + satu metil:* metil di C2 memberi 2-metilpentana; metil di C3 memberi 3-metilpentana. Metil di C4 sama dengan di C2 (dinomori dari ujung lain), jadi tidak ada yang baru. *Rantai empat + dua karbon:* dua metil di C2 dan C2 memberi 2,2-dimetilbutana; di C2 dan C3 memberi 2,3-dimetilbutana. Satu etil di C2 akan memperpanjang rantai menjadi lima (3-metilpentana yang sudah ada). *Rantai tiga:* empat karbon sisa harus menempel pada C2 saja, padahal C2 hanya dapat mengikat dua cabang. Dua cabang di C2 yang jumlah karbonnya empat (misalnya dua etil) selalu membentuk rantai yang lebih panjang. Tidak ada isomer baru.
+
+Jumlahnya lima: heksana, 2-metilpentana, 3-metilpentana, 2,2-dimetilbutana, 2,3-dimetilbutana.
+
+**Memahami hasil.** Cara ini menjamin kelengkapan, karena setiap isomer mempunyai satu rantai induk tertentu dan pasti terlewati ketika kita sampai pada panjang rantai itu. Langkah penamaan menjamin tidak ada duplikat. Untuk C₇H₁₆ cara yang sama memberi sembilan isomer.
+:::
+
+Cara yang sama berlaku untuk senyawa dengan gugus fungsi. Untuk C₄H₉Cl, mulai dari kerangka karbon (butana dan 2-metilpropana), lalu tempatkan Cl di setiap jenis karbon yang berbeda. Butana mempunyai dua jenis karbon (ujung dan tengah), sehingga memberi 1-klorobutana dan 2-klorobutana. 2-Metilpropana juga mempunyai dua jenis karbon (tiga CH₃ yang setara dan satu CH), sehingga memberi 1-kloro-2-metilpropana dan 2-kloro-2-metilpropana. Jumlahnya empat. Kata kuncinya adalah **jenis karbon yang setara**: karbon-karbon yang tidak dapat dibedakan karena simetri molekul memberi produk yang sama.
+
 ::: {.kuis}
 **Kuis cepat 2.3** Namai (CH₃)₂CHCH₂C(CH₃)₂CH₂CH₃. Pastikan kamu mencari rantai terpanjang dan memberi nomor terkecil pada cabang.
 :::
@@ -210,7 +235,7 @@ Penamaannya mengikuti aturan alkana dengan tiga tambahan:
 3. **Penomoran cincin** dimulai dari salah satu karbon bercabang dan berjalan ke arah yang memberi nomor terkecil pada cabang berikutnya. Bila hanya ada satu cabang, nomor 1 tidak perlu ditulis: metilsikloheksana, bukan 1-metilsikloheksana.
 
 ::: {.contoh}
-**Contoh 2.5 · Menamai sikloalkana tersubstitusi**
+**Contoh 2.6 · Menamai sikloalkana tersubstitusi**
 
 Namai sikloheksana yang mengikat gugus etil pada satu karbon dan dua gugus metil pada karbon ketiga dan kelima dari karbon etil itu (bila dihitung di sepanjang cincin, karbon etil sebagai karbon pertama).
 
@@ -220,6 +245,32 @@ Namai sikloheksana yang mengikat gugus etil pada satu karbon dan dua gugus metil
 :::
 
 Sikloalkana juga memperkenalkan sesuatu yang tidak ada pada alkana rantai terbuka. Cincin tidak dapat berputar bebas seperti rantai, sehingga dua cabang pada cincin dapat berada di sisi yang sama dari bidang cincin (**cis**) atau di sisi yang berlawanan (**trans**). cis-1,2-Dimetilsikloheksana dan trans-1,2-dimetilsikloheksana adalah dua senyawa yang berbeda dengan sambungan atom yang sama. Isomer seperti ini disebut **stereoisomer** dan dibahas di Bab 4 dan Bab 5.
+
+### Senyawa bisiklik
+
+Dua cincin dapat berbagi atom. Bila dua cincin berbagi dua atom yang bersebelahan, seperti dalam dekalin, atau berbagi dua atom yang tidak bersebelahan, seperti dalam norbornana, senyawa itu disebut **bisiklik**. Banyak bahan alam yang penting berbentuk bisiklik, misalnya kamfer (kapur barus) dan pinena (zat wangi minyak terpentin).
+
+Kedua atom yang dimiliki bersama oleh kedua cincin disebut **atom jembatan** (*bridgehead*). Dari satu atom jembatan ke atom jembatan lainnya selalu ada tiga jalur. Nama bisiklik dibentuk dari jumlah atom karbon di setiap jalur:
+
+$$
+\text{bisiklo}[a.b.c]\text{alkana}, \qquad a \geq b \geq c ,
+$$
+
+dengan *a*, *b*, dan *c* jumlah karbon di setiap jalur, **tidak termasuk** kedua atom jembatan. Angka ditulis dari yang terbesar dan dipisahkan dengan titik. Nama alkana di akhir menyatakan jumlah **semua** karbon, termasuk atom jembatan: $a + b + c + 2$.
+
+Penomoran dimulai dari salah satu atom jembatan (C1), berjalan lewat jalur terpanjang ke atom jembatan kedua, lalu kembali lewat jalur kedua terpanjang, dan terakhir jalur terpendek.
+
+::: {.contoh}
+**Contoh 2.7 · Norbornana dan dekalin**
+
+(a) Norbornana mempunyai tujuh karbon. Dua atom jembatan dihubungkan oleh dua jalur dua karbon dan satu jalur satu karbon. (b) Dekalin mempunyai sepuluh karbon: dua cincin enam yang berbagi satu ikatan. Namai keduanya.
+
+**Penyelesaian.** (a) Jalur: 2, 2, 1. Jumlah karbon $2 + 2 + 1 + 2 = 7$, heptana. Nama: **bisiklo[2.2.1]heptana**.
+
+(b) Kedua atom jembatan bersebelahan, sehingga salah satu jalurnya tidak berisi karbon sama sekali (ikatan langsung). Dua jalur lainnya masing-masing empat karbon. Jalur: 4, 4, 0. Jumlah $4 + 4 + 0 + 2 = 10$, dekana. Nama: **bisiklo[4.4.0]dekana**.
+
+**Memahami hasil.** Angka 0 dalam nama dekalin menandai cincin yang **menyatu** (berbagi ikatan), sedangkan angka bukan nol pada ketiga jalur norbornana menandai cincin yang **berjembatan**. Perbedaan bentuk ini berakibat pada kekakuan molekul. Norbornana sangat kaku, sehingga sering dipakai untuk mempelajari bagaimana bentuk tiga dimensi mempengaruhi kereaktifan.
+:::
 
 ::: {.kuis}
 **Kuis cepat 2.4** Gambar 1,1-dimetilsiklopentana dan 1,3-dimetilsiklopentana. Berapa derajat ketidakjenuhan masing-masing?

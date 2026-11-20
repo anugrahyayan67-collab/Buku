@@ -31,6 +31,10 @@ Mengapa nama "2-propilbutana" salah? Berikan nama yang benar. ||| rantai bukan y
 Mengapa nama "3,3-metiletilpentana" salah? Berikan nama yang benar. ||| cabang harus diurutkan abjad dan diberi nomor masing-masing; 3-etil-3-metilpentana
 Gambar struktur 4-isopropil-2,2-dimetiloktana. ||| (CH₃)₃CCH₂CH(CH(CH₃)₂)CH₂CH₂CH₂CH₃
 Isomer C₈H₁₈ mana yang mempunyai titik didih paling rendah, oktana atau 2,2,3,3-tetrametilbutana? Kaitkan dengan Bab 1. ||| 2,2,3,3-tetrametilbutana (lebih bulat, gaya dispersi lemah); tetapi titik lelehnya tinggi karena simetris
+Dengan cara sistematis, temukan dan namai kesembilan isomer C₇H₁₆. ||| heptana; 2- dan 3-metilheksana; 3-etilpentana; 2,2-, 2,3-, 2,4-, 3,3-dimetilpentana; 2,2,3-trimetilbutana
+Berapa isomer struktur C₄H₉Br? Gambar dan namai semuanya. ||| 4: 1-bromobutana, 2-bromobutana, 1-bromo-2-metilpropana, 2-bromo-2-metilpropana
+Berapa isomer struktur C₅H₁₁Cl? ||| 8
+@isomer [P] Temukan ketujuh isomer struktur C₄H₁₀O, golongkan sebagai alkohol atau eter, dan namai. ||| alkohol: butan-1-ol, butan-2-ol, 2-metilpropan-1-ol, 2-metilpropan-2-ol; eter: 1-metoksipropana, 2-metoksipropana, etoksietana
 
 ## Subbab 2.4: Sikloalkana
 
@@ -41,6 +45,9 @@ Mengapa nama "1-metilsikloheksana" berlebihan? ||| satu cabang tidak perlu nomor
 @siklo [P] Namai sikloheksana yang mengikat gugus bromo di satu karbon, gugus etil di karbon sebelahnya, dan gugus metil di karbon keempat dari karbon bromo (posisi 1,2,4 bila bromo C1). Tentukan penomoran yang benar. ||| 1-bromo-2-etil-4-metilsikloheksana
 Apa yang dimaksud cis dan trans pada 1,2-dimetilsiklopentana? ||| kedua metil pada sisi yang sama (cis) atau berlawanan (trans) dari bidang cincin
 Berapa jumlah cincin dalam senyawa C₁₀H₁₈ yang tidak mempunyai ikatan rangkap? ||| 2
+Namai senyawa bisiklik dengan jalur 3, 2, dan 1 karbon di antara kedua atom jembatan. ||| bisiklo[3.2.1]oktana
+Berapa karbon dan bagaimana bentuk bisiklo[2.2.2]oktana? Berapa derajat ketidakjenuhannya? ||| 8 karbon, C₈H₁₄; dua atom jembatan dihubungkan tiga jalur dua karbon; 2
+Gambar bisiklo[3.1.0]heksana. ||| cincin lima menyatu dengan cincin tiga (berbagi satu ikatan)
 
 ## Subbab 2.5: Alkena dan alkuna
 
@@ -66,6 +73,13 @@ Namai CH₃CH(NH₂)CH₃ dan CH₃CH(NH₂)COOH. ||| propan-2-amina; asam 2-ami
 Gambar struktur 3-metilpentan-2-on, asam 2-bromopropanoat, dan propil etanoat. ||| CH₃COCH(CH₃)CH₂CH₃; CH₃CHBrCOOH; CH₃COOCH₂CH₂CH₃
 Gugus mana yang mendapat akhiran: (a) alkohol atau amina; (b) keton atau aldehida; (c) ester atau amida? ||| (a) alkohol; (b) aldehida; (c) ester
 Mengapa halogen tidak pernah menjadi akhiran nama? ||| halogen hanya dapat ditulis sebagai awalan (kloro-, bromo-)
+Namai: (a) CH₃CH₂CH₂NHCH₃; (b) (CH₃)₃N; (c) CH₃CH₂N(CH₃)CH₂CH₂CH₃. ||| (a) N-metilpropan-1-amina; (b) N,N-dimetilmetanamina; (c) N-etil-N-metilpropan-1-amina
+Golongkan sebagai amina primer, sekunder, atau tersier: (CH₃)₃CNH₂, (CH₃)₂NH, (CH₃CH₂)₃N. ||| primer; sekunder; tersier
+Namai: (a) CH₃COCl; (b) (CH₃CH₂CO)₂O; (c) CH₃CH₂CONHCH₃; (d) CH₃COOCH₂CH₂CH(CH₃)₂. ||| (a) etanoil klorida; (b) anhidrida propanoat; (c) N-metilpropanamida; (d) 3-metilbutil etanoat (isopentil asetat)
+Namai HOCH₂CH(OH)CH₃ dan HOCH₂CH₂CH₂CH₂OH. ||| propana-1,2-diol; butana-1,4-diol
+Namai: sikloheksanol dengan metil di karbon sebelah –OH; sikloheksana dengan gugus –COOH. ||| 2-metilsikloheksan-1-ol; asam sikloheksanakarboksilat
+Namai (CH₃)₂CHOCH₃ dan CH₃CH₂CHBrCH₃. ||| 2-metoksipropana; 2-bromobutana
+@ester [P] Seorang mahasiswa menamai CH₃CH₂OCOCH₃ sebagai "asetil etil eter" dan CH₃COOCH₂CH₃ sebagai "etanoat etil". Jelaskan bahwa kedua rumus menunjuk senyawa yang sama dan berikan nama yang benar. ||| keduanya etil etanoat (etil asetat)
 
 ## Subbab 2.7: Nama umum yang masih dipakai
 
@@ -75,7 +89,19 @@ Tulis nama umum (gugus + golongan) untuk CH₃CH₂Br, CH₃OCH₂CH₃, dan CH�
 Apa arti akar "form-" dan "aset-" dalam nama umum? ||| satu karbon; dua karbon
 Tulis nama IUPAC kloroform dan toluena. ||| triklorometana; metilbenzena
 
-## Subbab 2.8: Membaca nama menjadi struktur
+## Subbab 2.8: Menamai turunan benzena
+
+Namai: C₆H₅Br, C₆H₅NO₂, C₆H₅CH₂CH₃. ||| bromobenzena; nitrobenzena; etilbenzena
+Tulis struktur toluena, anilina, anisol, dan asam benzoat. ||| C₆H₅CH₃; C₆H₅NH₂; C₆H₅OCH₃; C₆H₅COOH
+Apa beda gugus fenil dan benzil? Tulis rumus keduanya. ||| fenil C₆H₅–; benzil C₆H₅CH₂–
+Namai ketiga isomer diklorobenzena dengan angka dan dengan orto/meta/para. ||| 1,2- (o-), 1,3- (m-), 1,4-diklorobenzena (p-)
+Namai 4-metilfenol dengan awalan orto/meta/para, dan gambar 3-nitroanilina. ||| p-kresol (p-metilfenol); NH₂ di C1, NO₂ di C3
+@benz [P] Namai benzena yang mengikat –NO₂ di dua posisi dan –CH₃ di satu posisi sehingga metil berada di antara kedua nitro (posisi 1,2,3 dengan metil di tengah). ||| 2-metil-1,3-dinitrobenzena (2,6-dinitrotoluena)
+Mengapa "1,2,6-triklorobenzena" bukan nama yang benar? ||| nomor tidak terkecil; 1,2,3-triklorobenzena
+Gambar 2,4,6-tribromofenol dan hitung rumus molekulnya. ||| C₆H₃Br₃O
+Mengapa C₆H₅CH₂OH bukan fenol? ||| –OH tidak terikat langsung pada cincin; benzil alkohol (fenilmetanol)
+
+## Subbab 2.9: Membaca nama menjadi struktur
 
 Gambar struktur: (a) 2,3-dimetilpentana; (b) 3-etilheks-1-ena; (c) 2-metilbutan-2-ol. ||| (a) CH₃CH(CH₃)CH(CH₃)CH₂CH₃; (b) CH₂=CHCH(C₂H₅)CH₂CH₂CH₃; (c) (CH₃)₂C(OH)CH₂CH₃
 Gambar struktur dan tulis rumus molekul 4-etil-2,2-dimetilheks-5-en-3-on. ||| (CH₃)₃CCOCH(C₂H₅)CH=CH₂; C₁₀H₁₈O
