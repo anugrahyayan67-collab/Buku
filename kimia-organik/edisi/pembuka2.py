@@ -146,3 +146,15 @@ ax.text(6.55, 4.75, 'Markovnikov (ionik)', ha='center', color=UT, fontsize=12, f
 ax.text(6.55, 0.15, 'anti-Markovnikov (radikal)', ha='center', color=EM, fontsize=12, family='Liberation Sans')
 simpan(8, f, 'Satu alkena, satu pereaksi, dua produk: tanpa peroksida HBr beradisi lewat karbokation dan bromin masuk ke karbon tengah; dengan peroksida reaksi berantai radikal menaruh bromin di karbon ujung.')
 print('ok8')
+
+# Bab 9: tiga alkohol C4H10O dan dikromat
+f, ax = kanvas()
+for i, (smi, nm, hasil, c) in enumerate([('CCCCO', 'butan-1-ol', 'hijau', UT), ('CCC(C)O', 'butan-2-ol', 'hijau', UT), ('CC(C)(C)O', '2-metilpropan-2-ol', 'tetap jingga', '#d9822b')]):
+    x = 0.4 + i * 2.65
+    ax.imshow(rd7(smi), extent=[x, x + 2.2, 2.3, 4.1], zorder=2)
+    ax.text(x + 1.1, 2.0, nm, ha='center', color=TUA, fontsize=12, family='Liberation Sans')
+    ax.add_patch(Circle((x + 1.1, 1.0), 0.42, fc=c, ec=TUA, lw=1.2, zorder=3))
+    ax.text(x + 1.1, 0.25, hasil, ha='center', color=c, fontsize=11.5, fontweight='bold', family='Liberation Sans')
+ax.text(W / 2, 4.6, 'K₂Cr₂O₇, H₂SO₄ (jingga)', ha='center', color=TUA, fontsize=13, fontweight='bold', family='Liberation Sans')
+simpan(9, f, 'Tiga alkohol dengan rumus C₄H₁₀O diuji dengan dikromat yang berwarna jingga. Alkohol primer dan sekunder mengubahnya menjadi hijau (Cr³⁺), sedangkan alkohol tersier tidak, karena karbon pembawa –OH-nya tidak mempunyai atom H.')
+print('ok9')

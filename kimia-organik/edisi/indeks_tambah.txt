@@ -231,3 +231,34 @@ alkilasi asetilida
 tautomer
 enol
 retrosintesis
+ion alkoksida
+ion fenoksida
+natrium borohidrida
+litium aluminium hidrida
+kemoselektivitas
+uji Lucas
+tionil klorida
+fosfor tribromida
+penataan ulang pinakol
+bilangan oksidasi karbon
+pereaksi Jones
+piridinium klorokromat
+oksidasi Swern
+periodinan Dess–Martin
+alkohol dehidrogenase
+gugus pelindung
+silil eter
+kuinon
+hidrokuinon
+autoksidasi
+antioksidan
+vitamin E
+sintesis eter Williamson
+alkoksimerkurasi
+eter mahkota
+ionofor
+epoksida
+tiol
+sulfida
+disulfida
+sulfoksida

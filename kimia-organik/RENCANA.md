@@ -38,7 +38,7 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 ### ☑ Bab 8 Alkena dan Alkuna
 8.1 Struktur, tata nama, dan kestabilan alkena (kalor hidrogenasi) · 8.2 Membuat alkena: eliminasi · 8.3 Adisi elektrofilik HX: aturan Markovnikov dan karbokation · 8.4 Penataan ulang dalam adisi · 8.5 Hidrasi: katalis asam dan oksimerkurasi · 8.6 Hidroborasi–oksidasi: anti-Markovnikov, adisi syn · 8.7 Adisi halogen dan halohidrin: ion halonium, adisi anti · 8.8 Hidrogenasi katalitik · 8.9 Epoksidasi dan dihidroksilasi · 8.10 Pemutusan oksidatif: ozonolisis · 8.11 Adisi radikal HBr dan polimerisasi · 8.12 Alkuna: struktur, keasaman, ion asetilida · 8.13 Reaksi alkuna: hidrogenasi (Lindlar, Na/NH₃), hidrasi, halogenasi · 8.14 Merancang sintesis dengan alkena dan alkuna
 
-### ☐ Bab 9 Alkohol, Fenol, Eter, dan Epoksida
+### ☑ Bab 9 Alkohol, Fenol, Eter, dan Epoksida
 9.1 Struktur, sifat, dan keasaman alkohol dan fenol · 9.2 Membuat alkohol: substitusi, adisi, reduksi karbonil · 9.3 Alkohol menjadi alkil halida (HX, SOCl₂, PBr₃) · 9.4 Dehidrasi alkohol · 9.5 Oksidasi alkohol (PCC, kromat, Swern) dan bilangan oksidasi karbon · 9.6 Gugus pelindung untuk alkohol · 9.7 Fenol: kereaktifan, oksidasi menjadi kuinon, autoksidasi dan antioksidan · 9.8 Eter: sintesis Williamson, alkoksimerkurasi · 9.9 Pemutusan eter oleh asam · 9.10 Eter mahkota · 9.11 Epoksida: pembuatan dan pembukaan cincin dalam asam dan basa · 9.12 Tiol dan sulfida
 
 ### ☐ Bab 10 Senyawa Aromatik dan Substitusi Aromatik

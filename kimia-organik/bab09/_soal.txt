@@ -1,0 +1,124 @@
+## Subbab 9.1: Struktur, sifat, dan keasaman alkohol dan fenol
+
+> pKa: metanol 15,5; etanol 16; 2-metilpropan-2-ol 18; air 15,7; fenol 10,0; 4-nitrofenol 7,15; etanatiol 10,6; H₂CO₃ 6,35; NH₃ 38. Soal bertanda **[P]** dibahas di akhir bab.
+
+Golongkan sebagai alkohol primer, sekunder, tersier, atau fenol: (a) 2-metilbutan-2-ol; (b) sikloheksilmetanol; (c) 4-metilfenol; (d) pentan-3-ol; (e) 2-feniletanol. ||| (a) tersier; (b) primer; (c) fenol; (d) sekunder; (e) primer
+Urutkan titik didih dan jelaskan: heksan-1-ol, dipropil eter, heksana, heksana-1,6-diol. ||| heksana-1,6-diol > heksan-1-ol > dipropil eter ≈ heksana; jumlah ikatan hidrogen
+Mengapa etanol larut sempurna dalam air, sedangkan oktan-1-ol hampir tidak larut? ||| rantai hidrokarbon panjang tidak dapat berikatan hidrogen dan mendominasi
+Mengapa dietil eter (titik didih 35 °C) larut dalam air hampir sama banyaknya dengan butan-1-ol (117 °C)? ||| keduanya dapat menerima ikatan hidrogen dari air; hanya alkohol yang memberi ikatan hidrogen antarmolekulnya sendiri
+@solv [P] Dalam fase gas, keasaman alkohol naik dengan urutan metanol < etanol < 2-metilpropan-2-ol, tetapi dalam air urutannya terbalik. Jelaskan. ||| gas: gugus alkil besar mudah terpolarisasi dan menampung muatan; air: alkoksida kecil lebih baik tersolvasi
+Mengapa NaOH tidak dapat dipakai untuk membuat natrium etoksida secara tuntas, tetapi NaH dapat? Hitung K untuk etanol + OH⁻. ||| K = 0,5; NaH melepas H₂ yang keluar sebagai gas
+Urutkan keasaman: fenol, 4-metilfenol, 4-nitrofenol, 3-nitrofenol, 2,4-dinitrofenol. ||| 2,4-dinitrofenol > 4-nitrofenol > 3-nitrofenol > fenol > 4-metilfenol
+@nitro [P] Mengapa gugus nitro di posisi para menurunkan pKa fenol jauh lebih banyak daripada di posisi meta? Tunjukkan dengan struktur resonansi. ||| para: muatan negatif dapat pindah ke oksigen gugus nitro lewat resonansi; meta: hanya efek induktif
+Berapa persen 4-nitrofenol (pKa 7,15) yang terionisasi pada pH 7,0? ||| 41%
+Campuran asam benzoat, fenol, dan sikloheksanol dalam eter. Rancang pemisahan dengan ekstraksi. ||| NaHCO₃ mengambil asam benzoat; lalu NaOH mengambil fenol; sikloheksanol tetap di eter
+Mengapa 2,2,2-trifluoroetanol lebih asam daripada etanol? ||| efek induktif tiga F menstabilkan alkoksida
+
+## Subbab 9.2: Membuat alkohol
+
+Tulis produk: (a) pentanal + NaBH₄; (b) 2-metilsikloheksanon + LiAlH₄, lalu H₃O⁺; (c) asam heksanoat + LiAlH₄, lalu H₃O⁺; (d) asam heksanoat + NaBH₄. ||| (a) pentan-1-ol; (b) 2-metilsikloheksanol (cis dan trans); (c) heksan-1-ol; (d) tidak bereaksi (garam karboksilat)
+Tulis produk: (a) C₆H₅MgBr + HCHO; (b) CH₃MgI + sikloheksanon; (c) CH₃CH₂MgBr + etilena oksida; (d) 2 CH₃MgBr + metil benzoat. Semua diikuti H₃O⁺. ||| (a) benzil alkohol; (b) 1-metilsikloheksanol; (c) butan-1-ol; (d) 2-fenilpropan-2-ol
+@grig [P] Tunjukkan semua cara membuat 3-metilpentan-3-ol dengan pereaksi Grignard dan keton atau ester. ||| CH₃CH₂MgBr + butan-2-on; CH₃MgBr + pentan-3-on; 2 CH₃CH₂MgBr + etil asetat
+Mengapa LiAlH₄ tidak boleh dipakai dalam metanol, sedangkan NaBH₄ boleh? ||| LiAlH₄ bereaksi hebat dengan pelarut protik (melepas H₂); NaBH₄ cukup lambat bereaksi dengan alkohol
+Apakah produk reduksi butan-2-on dengan NaBH₄ aktif optik? Jelaskan. ||| tidak; hidrida menyerang kedua sisi karbonil datar sama mungkin, rasemat
+Berapa gram NaBH₄ (37,83 g mol⁻¹) minimal yang diperlukan untuk mereduksi 10,0 g sikloheksanon (98,14 g mol⁻¹)? ||| 0,96 g (satu BH₄⁻ untuk empat karbonil)
+Mengapa pereaksi Grignard tidak dapat dibuat dari 4-bromobenzoat atau 3-bromopropanoat? ||| gugus –COOH (atau ester) bereaksi dengan Grignard
+Usulkan dua cara membuat butan-1-ol dari bahan berkarbon dua atau kurang. ||| (1) CH₃CH₂MgBr + etilena oksida, lalu H₃O⁺; (2) etuna + NaNH₂, CH₃CH₂Br → but-1-una; H₂, Lindlar; BH₃ lalu H₂O₂, NaOH
+Tulis produk 1-metilsikloheksena dengan tiga cara hidrasi (Bab 8) dan tunjukkan mana yang berbeda. ||| H₃O⁺ dan oksimerkurasi: 1-metilsikloheksanol; hidroborasi: trans-2-metilsikloheksanol
+
+## Subbab 9.3: Alkohol menjadi alkil halida
+
+Tulis produk: (a) 2-metilbutan-2-ol + HCl; (b) pentan-1-ol + HBr; (c) siklopentanol + SOCl₂, piridina; (d) 2-metilpropan-1-ol + PBr₃. ||| (a) 2-kloro-2-metilbutana; (b) 1-bromopentana; (c) klorosiklopentana; (d) 1-bromo-2-metilpropana
+Urutkan waktu kekeruhan pada uji Lucas: butan-1-ol, butan-2-ol, 2-metilpropan-2-ol. Jelaskan. ||| 2-metilpropan-2-ol (seketika) < butan-2-ol (±5 menit) < butan-1-ol (tidak bereaksi); kestabilan karbokation
+@inv [P] (S)-Oktan-2-ol diubah menjadi 2-bromooktana dengan PBr₃ dan, terpisah, dengan TsCl/piridina lalu NaBr. Tentukan konfigurasi produk masing-masing. Bagaimana mendapatkan (S)-2-bromooktana? ||| keduanya (R) (inversi); untuk (S) perlu dua kali inversi: TsCl, lalu CH₃COO⁻ (ester R), hidrolisis menjadi (R)-oktan-2-ol, lalu PBr₃
+Mengapa alkohol tidak bereaksi dengan NaBr, tetapi bereaksi dengan HBr? ||| –OH gugus pergi buruk; protonasi mengubahnya menjadi H₂O
+Tulis mekanisme reaksi butan-1-ol dengan SOCl₂ dan piridina. ||| O menyerang S, lepas Cl⁻ → klorosulfit; Cl⁻ menyerang C dari belakang; SO₂ dan Cl⁻ lepas
+2,2-Dimetilpropan-1-ol (neopentil alkohol) dengan HBr memberi 2-bromo-2-metilbutana. Jelaskan. ||| SN2 terhalang; ionisasi dibantu geseran metil menjadi karbokation tersier
+Mengapa PBr₃ dan SOCl₂ tidak dipakai untuk alkohol tersier? ||| langkah akhir SN2 tidak terjadi pada karbon tersier
+Satu mol PBr₃ dapat mengubah berapa mol alkohol? ||| tiga
+
+## Subbab 9.4: Dehidrasi alkohol
+
+Tulis produk utama dehidrasi dengan H₂SO₄ panas: (a) 2-metilbutan-2-ol; (b) 1-metilsiklopentanol; (c) 2,2-dimetilsikloheksanol. ||| (a) 2-metilbut-2-ena; (b) 1-metilsiklopentena; (c) 1,2-dimetilsikloheksena
+Tulis produk dehidrasi dengan POCl₃, piridina: (a) 3,3-dimetilbutan-2-ol; (b) trans-2-metilsikloheksanol. ||| (a) 3,3-dimetilbut-1-ena; (b) 3-metilsikloheksena: bila –OPOCl₂ aksial, CH₃ juga aksial sehingga H di C2 ekuatorial (tidak anti-periplanar)
+@pinakol [P] Tulis mekanisme penataan ulang pinakol dari 2,3-dimetilbutana-2,3-diol. Mengapa geseran metil terjadi walaupun karbokation awalnya sudah tersier? ||| protonasi, lepas air (C⁺ tersier), geseran metil, kation distabilkan O (oksokarbenium), lepas H⁺; ikatan C=O sangat stabil
+Mengapa POCl₃/piridina tidak menimbulkan penataan ulang? ||| E2 tanpa karbokation
+Mengapa dehidrasi alkohol primer memerlukan suhu sekitar 180 °C, sedangkan alkohol tersier cukup 25–80 °C? ||| primer tidak dapat membentuk karbokation; jalur E2 dari alkohol terprotonasi lambat
+Tulis produk penataan ulang pinakol dari 1,2-dimetilsikloheksana-1,2-diol. ||| 2,2-dimetilsikloheksanon (geseran metil) atau 1-asetil-1-metilsiklopentana (geseran ikatan cincin, kontraksi cincin); perbandingannya bergantung pada stereoisomer diol
+
+## Subbab 9.5: Oksidasi alkohol dan bilangan oksidasi karbon
+
+Tentukan bilangan oksidasi karbon pembawa gugus fungsi: (a) CH₃CH₂OH; (b) CH₃CHO; (c) CH₃COOH; (d) CH₃CCl₃; (e) (CH₃)₂C=O. ||| (a) −1; (b) +1; (c) +3; (d) +3; (e) +2
+Golongkan sebagai oksidasi, reduksi, atau bukan keduanya: (a) etena → etanol; (b) etena → etana; (c) etanol → etanal; (d) etena → 1,2-dibromoetana. ||| (a) bukan (satu C −2→−1, satu −2→−3); (b) reduksi; (c) oksidasi; (d) oksidasi
+Tulis produk: (a) heksan-1-ol + PCC; (b) heksan-1-ol + pereaksi Jones; (c) sikloheksanol + Na₂Cr₂O₇, H₂SO₄; (d) 1-metilsikloheksanol + pereaksi Jones. ||| (a) heksanal; (b) asam heksanoat; (c) sikloheksanon; (d) tidak bereaksi
+@krom [P] Tulis mekanisme oksidasi propan-2-ol oleh asam kromat dan jelaskan mengapa 2-metilpropan-2-ol tidak teroksidasi. ||| ester kromat; basa mengambil H pada C karbinol sambil Cr pergi dengan elektron (seperti E2); tersier tidak punya H itu
+Mengapa PCC berhenti pada aldehida, sedangkan pereaksi Jones meneruskan ke asam karboksilat? ||| Jones dalam air: aldehida membentuk hidrat yang teroksidasi lagi; PCC tanpa air
+Berapa gram K₂Cr₂O₇ (294,18 g mol⁻¹) yang dipakai untuk mengoksidasi 1,00 g etanol menjadi asam asetat? ||| 4,26 g
+Mengapa metanol lebih beracun daripada etanol, padahal dioksidasi oleh enzim yang sama? ||| metanol menjadi formaldehida dan asam format yang merusak saraf mata
+Pilih oksidator: (a) 2-feniletanol → fenilasetaldehida; (b) butan-2-ol → butan-2-on tanpa logam berat; (c) 4-metilbenzil alkohol → asam 4-metilbenzoat. ||| (a) PCC, Swern, atau DMP; (b) Swern, DMP, atau NaOCl/TEMPO; (c) Jones atau KMnO₄
+
+## Subbab 9.6: Gugus pelindung untuk alkohol
+
+Mengapa pereaksi Grignard tidak dapat dibuat dari 4-bromobutan-1-ol tanpa gugus pelindung? ||| Grignard (basa kuat) mengambil H dari –OH dan hancur
+Tulis pereaksi untuk memasang dan melepas gugus TBS. ||| pasang: TBSCl, imidazol; lepas: TBAF atau asam encer
+@pel [P] Rancang sintesis 1-(3-hidroksipropil)sikloheksanol dari 3-bromopropan-1-ol dan sikloheksanon. ||| TBSCl; Mg; sikloheksanon, H₃O⁺; TBAF
+Mengapa ion fluorida melepas silil eter dengan mudah? ||| ikatan Si–F (±580) jauh lebih kuat daripada Si–O (±450 kJ mol⁻¹)
+Mengapa gugus TBS lebih banyak dipakai daripada gugus TMS? ||| gugus tert-butil yang besar melindungi Si sehingga TBS lebih tahan
+Gugus pelindung apa yang cocok bila molekul harus menahan asam dan basa tetapi pelindung dilepas dengan hidrogenasi? ||| benzil eter
+
+## Subbab 9.7: Fenol: kereaktifan, kuinon, dan antioksidan
+
+Tulis produk fenol + air bromin berlebih. Mengapa reaksi ini tidak memerlukan katalis? ||| 2,4,6-tribromofenol; –OH sangat mengaktifkan cincin pada o/p
+Tulis produk oksidasi hidrokuinon dan produk reduksi p-benzokuinon. ||| p-benzokuinon; hidrokuinon
+@oks [P] Tulis tiga langkah autoksidasi asam linoleat dan jelaskan mengapa atom H bis-alilik yang diambil. ||| inisiasi (ambil H bis-alilik); R· + O₂ → ROO·; ROO· + RH → ROOH + R·; radikal pentadienil distabilkan resonansi dua ikatan rangkap
+Mengapa BHT mempunyai dua gugus tert-butil pada posisi orto? ||| melindungi radikal fenoksil dari reaksi lain, sehingga tidak meneruskan rantai
+Bagaimana vitamin C membantu kerja vitamin E? ||| mereduksi radikal tokoferoksil kembali menjadi vitamin E
+Mengapa fenol tidak dapat dioksidasi menjadi keton seperti alkohol sekunder? ||| karbon pembawa –OH bagian cincin dan tidak membawa H; oksidasi merusak aromatisitas
+Peran ubikuinon dalam mitokondria? ||| pembawa dua elektron dan dua proton (kuinon ⇌ hidrokuinon) dalam rantai respirasi
+
+## Subbab 9.8: Eter: sifat dan pembuatan
+
+Rancang sintesis Williamson: (a) butil metil eter; (b) sikloheksil etil eter; (c) anisol; (d) di-tert-butil eter (bila mungkin). ||| (a) BuO⁻ + CH₃I (atau CH₃O⁻ + BuBr); (b) sikloheksoksida + CH₃CH₂Br; (c) fenoksida + CH₃I; (d) tidak mungkin (kedua sisi tersier, E2)
+@will [P] Seorang mahasiswa mencampur natrium etoksida dengan 2-bromo-2-metilpropana untuk membuat etil tert-butil eter dan mendapat gas. Jelaskan dan perbaiki rencananya. ||| E2 menghasilkan 2-metilpropena; pakai tert-butoksida + bromoetana
+Tulis produk 1-metilsiklopentena + Hg(OCOCF₃)₂ dalam metanol, lalu NaBH₄. ||| 1-metoksi-1-metilsiklopentana
+Mengapa eter yang lama tersimpan berbahaya bila didistilasi sampai kering? ||| hidroperoksida eter menumpuk dan dapat meledak
+Tulis produk 5-bromopentan-1-ol + NaH. ||| tetrahidropiran (oksana), lewat SN2 intramolekul
+Mengapa etanol dalam H₂SO₄ memberi dietil eter pada 140 °C tetapi etena pada 180 °C? ||| suhu tinggi menguntungkan eliminasi (entropi naik)
+Mengapa pereaksi Grignard dibuat dalam eter atau THF? ||| pasangan bebas O mengikat dan menstabilkan Mg; eter tidak bereaksi dengan Grignard
+
+## Subbab 9.9: Pemutusan eter oleh asam
+
+Tulis produk dengan HBr (1 ekuivalen): (a) etil metil eter; (b) tert-butil etil eter; (c) etil fenil eter; (d) benzil metil eter. ||| (a) CH₃Br + etanol; (b) 2-bromo-2-metilpropana + etanol; (c) fenol + bromoetana; (d) benzil bromida + metanol
+@put [P] Tulis mekanisme pemutusan anisol dengan HI dan jelaskan mengapa iodobenzena tidak terbentuk. ||| protonasi O; I⁻ menyerang CH₃ (SN2); fenol tidak dapat diserang pada C cincin (SN1 dan SN2 tidak mungkin)
+Mengapa HCl jarang dipakai untuk memutus eter? ||| Cl⁻ nukleofil terlalu lemah
+Tulis produk THF dengan HBr berlebih. ||| 1,4-dibromobutana
+Mengapa tert-butil eter dapat dilepas dengan asam trifluoroasetat pada suhu kamar? ||| karbokation tersier mudah terbentuk (E1, lepas isobutilena)
+
+## Subbab 9.10: Eter mahkota
+
+Eter mahkota mana yang cocok untuk Li⁺, Na⁺, dan K⁺? ||| 12-mahkota-4; 15-mahkota-5; 18-mahkota-6
+@mah [P] Laju reaksi KF dengan 1-bromooktana dalam asetonitril naik sangat tajam bila 18-mahkota-6 ditambahkan. Jelaskan. ||| K⁺ terbungkus, garam larut, F⁻ "telanjang" (tanpa kation dan tanpa solvasi) menjadi nukleofil kuat
+Apa arti "x" dan "y" dalam nama x-mahkota-y? ||| x jumlah atom cincin, y jumlah oksigen
+Bagaimana valinomisin membunuh bakteri? ||| membawa K⁺ menembus membran, merusak keseimbangan ion
+Mengapa KMnO₄ larut dalam benzena bila ditambah 18-mahkota-6? ||| kompleks K⁺–eter mahkota bagian luarnya nonpolar; MnO₄⁻ ikut sebagai pasangan ion
+
+## Subbab 9.11: Epoksida: pembuatan dan pembukaan cincin
+
+Tulis produk 2-metiloksirana dengan: (a) CH₃O⁻ dalam CH₃OH; (b) CH₃OH, H⁺; (c) CH₃CH₂MgBr, lalu H₃O⁺; (d) LiAlH₄, lalu H₃O⁺. ||| (a) 1-metoksipropan-2-ol; (b) campuran 2-metoksipropan-1-ol dan 1-metoksipropan-2-ol (perbedaan C primer dan sekunder kecil); (c) pentan-2-ol; (d) propan-2-ol
+@epo [P] 1-Metilsikloheksena oksida dibuka dengan (a) NaOCH₃ dalam CH₃OH; (b) CH₃OH dan H₂SO₄. Tulis produk dengan stereokimia. ||| (a) trans-2-metoksi-1-metilsikloheksanol (serang CH); (b) trans-2-metoksi-2-metilsikloheksanol (serang C tersier); keduanya rasemat
+Mengapa epoksida bereaksi dengan nukleofil, sedangkan dietil eter tidak? ||| tegangan cincin sekitar 110 kJ mol⁻¹ dilepas saat cincin terbuka
+Tulis dua cara membuat 2,2-dimetiloksirana dari 2-metilpropena. ||| mCPBA; atau Br₂/H₂O lalu NaOH
+Tulis produk sikloheksena oksida dengan NaCN, lalu H₃O⁺ encer. ||| trans-2-hidroksisikloheksanakarbonitril (rasemat)
+Etilena oksida dan amonia menghasilkan etanolamina. Tulis mekanismenya. ||| NH₃ menyerang C (SN2), cincin terbuka, transfer proton
+Mengapa (2R,3R)-2,3-dimetiloksirana + H₃O⁺ menghasilkan butana-2,3-diol meso? ||| serangan dari belakang membalik satu pusat; (2R,3S) = meso
+Tulis produk propilena oksida + HBr anhidrat. ||| campuran 1-bromopropan-2-ol dan 2-bromopropan-1-ol (perbedaan C primer dan sekunder kecil)
+
+## Subbab 9.12: Tiol dan sulfida
+
+Urutkan keasaman: etanol, etanatiol, fenol, air. ||| fenol (10,0) > etanatiol (10,6) > air (15,7) > etanol (16)
+Mengapa etanatiol mendidih pada 35 °C, sedangkan etanol pada 78 °C? ||| S–H hampir tidak membentuk ikatan hidrogen
+Tulis produk: (a) 1-bromopropana + NaSH; (b) produk (a) + NaOH lalu CH₃I; (c) produk (a) + I₂. ||| (a) propana-1-tiol; (b) metil propil sulfida; (c) dipropil disulfida
+@tiol [P] Berapa persen etanatiol (pKa 10,6) terionisasi pada pH 7 dan pada pH 12? Mengapa tiolat dapat dibuat dengan NaOH sedangkan alkoksida tidak? ||| 0,025% dan 96%; K tiol + OH⁻ = 10⁵·¹ (tuntas), alkohol + OH⁻ = 0,5
+Tulis produk dimetil sulfida dengan (a) H₂O₂ (1 ekuivalen); (b) H₂O₂ berlebih; (c) CH₃I. ||| (a) DMSO; (b) dimetil sulfon; (c) trimetilsulfonium iodida
+Jelaskan peran jembatan disulfida pada protein dan pada pengeritingan rambut. ||| mengunci bentuk protein; perm: reduksi, bentuk ulang, oksidasi
+Mengapa tiolat bereaksi SN2 dengan alkil halida sekunder sedangkan alkoksida cenderung E2? ||| tiolat nukleofil kuat (polarizabel) tetapi basa lemah
