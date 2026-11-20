@@ -102,3 +102,18 @@ for (x, y0, y1, c) in [(5.0, 4.2, 1.05, UN), (6.6, 4.2, 3.25, SI), (7.4, 3.2, 1.
     ax.annotate('', xy=(x, y1), xytext=(x, y0), arrowprops=dict(arrowstyle='-|>', color=c, lw=3, mutation_scale=18))
 ax.plot([6.0, 6.6], [4.2, 4.2], color=NI, lw=3)
 simpan(4, f, 'Bom kalorimeter mengukur kalor pembakaran; karena entalpi fungsi keadaan, langkah-langkah reaksi dapat dijumlahkan.')
+
+# 5 mesin kalor: sumber panas, mesin, penampung dingin; dan molekul yang menyebar
+f, ax = kanvas()
+ax.add_patch(FancyBboxPatch((0.5, 3.6), 3.0, 0.9, boxstyle='round,pad=0,rounding_size=0.12', fc=UN, ec=NI, lw=1.6, alpha=0.9))
+ax.add_patch(FancyBboxPatch((0.5, 0.4), 3.0, 0.9, boxstyle='round,pad=0,rounding_size=0.12', fc='#bfe0f2', ec=NI, lw=1.6))
+ax.add_patch(Circle((2.0, 2.45), 0.55, fc='white', ec=NI, lw=2.2))
+for a in np.linspace(0, 2 * np.pi, 7)[:-1]: ax.plot([2.0, 2.0 + 0.45 * np.cos(a)], [2.45, 2.45 + 0.45 * np.sin(a)], color=NI, lw=1.6)
+ax.annotate('', xy=(2.0, 3.02), xytext=(2.0, 3.58), arrowprops=dict(arrowstyle='-|>', color=UN, lw=4, mutation_scale=18))
+ax.annotate('', xy=(2.0, 1.32), xytext=(2.0, 1.88), arrowprops=dict(arrowstyle='-|>', color=SI, lw=2.6, mutation_scale=16))
+ax.annotate('', xy=(3.5, 2.45), xytext=(2.6, 2.45), arrowprops=dict(arrowstyle='-|>', color=EM, lw=3.2, mutation_scale=18))
+rng = np.random.default_rng(5)
+ax.add_patch(Rectangle((4.6, 0.8), 3.3, 3.4, fc='white', ec=NI, lw=2, alpha=0.9)); ax.plot([6.25, 6.25], [0.8, 4.2], color=AB, lw=1.2, ls='--')
+for _ in range(26):
+    x, y = rng.uniform(4.8, 7.7), rng.uniform(1.0, 4.0); bola(ax, x, y, 0.09, UN if x < 6.25 else SI, z=4)
+simpan(5, f, 'Mesin kalor selalu membuang sebagian kalornya; molekul selalu menyebar. Keduanya diatur oleh hukum yang sama: entropi semesta bertambah.')
