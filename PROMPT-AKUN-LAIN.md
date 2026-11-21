@@ -6,7 +6,8 @@ Berkas ini membuat sesi baru (akun lain, perangkat lain, atau sesi yang konteksn
 
 1. Kirim ke akun itu (unggah ke chat atau ke *Project knowledge*):
    - `sumber.zip`: semua berkas repo kecuali PDF (naskah Markdown, `_soal.txt`, `_akhir.md`, skrip `alat/` dan `edisi/`, gambar `fig/`, semua pedoman). Dibuat dengan `git ls-files | grep -v '\.pdf$' | zip -@ sumber.zip`.
-   - PDF akhir dari `pdf/` (Fisika Umum, Kimia Kuantum, Kimia Fisika 1, dan Kimia Organik 1 bila sudah ada) sebagai bacaan dan pembanding hasil.
+   - PDF akhir dari `pdf/` (Fisika Umum, Kimia Kuantum, Kimia Fisika 1, Kimia Organik 1) sebagai bacaan dan pembanding hasil.
+   - `DESAIN-BUKU.md` (juga ada di dalam zip): spesifikasi lengkap huruf, ukuran, margin, warna, dan tata letak.
    - Berkas ini juga ada di dalam zip, tetapi boleh diunggah terpisah supaya langsung terbaca.
 2. Tempelkan blok "Teks untuk ditempel" ke pesan pertama, atau ke instruksi proyek/custom instructions akun itu.
 3. Bila akun itu memakai **Claude Code** (web atau terminal), sebaiknya buat repo GitHub baru dari isi `sumber.zip` (atau beri akses ke repo lama), supaya alat cetak dan commit berjalan seperti biasa. Bila hanya **chat claude.ai** dengan eksekusi kode, naskah dan gambar tetap bisa dikerjakan, tetapi cetak PDF utuh (pandoc + Chromium) mungkin tidak tersedia; dalam hal itu kirim berkas `.md` dan gambar yang berubah, lalu cetak di sesi yang punya alat lengkap.
@@ -27,7 +28,7 @@ PDF akhir buku. Langkah pertama:
 1. Ekstrak sumber.zip (atau pakai repo GitHub bila tersedia) dan jalankan
    `python3 status.py` di akar folder.
 2. Baca, berurutan: CLAUDE.md, PROMPT-AKUN-LAIN.md, PROMPT-BUKU.md, PANDUAN-BUKU.md,
-   lalu RENCANA.md dan PEDOMAN.md di folder buku yang akan dikerjakan.
+   DESAIN-BUKU.md (semua ukuran huruf, margin, warna, tata letak), lalu RENCANA.md dan PEDOMAN.md di folder buku yang akan dikerjakan.
 
 Cara kerja:
 - Bila aku memberi perintah jelas, kerjakan itu.
@@ -54,7 +55,7 @@ Cara kerja:
 | Fisika Umum | `fisika-umum/` | Edisi 1 selesai (15 bab); alat cetak `fisika-umum/edisi2/cetak.py`, catatan teknis `fisika-umum/CATATAN.md` |
 | Kimia Kuantum | `kimia-kuantum/` | Edisi 1 selesai (17 bab) |
 | Kimia Fisika 1: Termodinamika Kimia | `termodinamika-kimia/` | Edisi 1.2: 15 bab selesai; sisa soal Bab 3, 6, 7, 8, baca ulang, dan cetak akhir |
-| Kimia Organik 1: Senyawa Monofungsi | `kimia-organik/` | 16 bab selesai; PDF belum disalin ke `pdf/` |
+| Kimia Organik 1: Senyawa Monofungsi | `kimia-organik/` | 16 bab selesai; PDF digital di `pdf/` |
 | Persiapan TEP | `persiapan-tep/` | rancangan dan pedoman ada, bab belum |
 | Buku lain di `RENCANA-SERI.md` | belum ada | belum |
 
@@ -69,6 +70,7 @@ Cara kerja:
 - Label contoh: **Gambaran fisis** (opsional) · **Rencana** (opsional) · **Penyelesaian** · **Memahami hasil**.
 - LaTeX: koma desimal `9{,}8`; tanpa `\cancel` dan `\tag`.
 - Gambar: matplotlib, Liberation Sans, 220 dpi, palet seri (`CLAUDE.md`), label sumbu dengan koma desimal; setiap gambar diperiksa visual sebelum dipakai.
+- Desain halaman (huruf, ukuran, margin, kotak, pembuka bab, kepala halaman, sampul): `DESAIN-BUKU.md`.
 
 ## 3. Pekerjaan berikutnya dan cara memutuskan sendiri
 
@@ -78,7 +80,7 @@ Daftar pekerjaan yang belum selesai, **berurutan**. Bila tidak ada perintah khus
 2. ☐ **Kimia Fisika 1: soal Bab 3, 6, 7, 8 dilengkapi sampai ± 80** (pakai `alat/tebal.py`).
 3. ☐ **Kimia Fisika 1: baca ulang kejelasan Bab 1–15**, satu bab per putaran; catat temuan dan perbaikan di `termodinamika-kimia/REVISI.md`.
 4. ☐ **Kimia Fisika 1: cetak akhir** digital dan `--cetak`, salin ke `pdf/`, perbarui `pdf/README.md`, kirim PDF.
-5. ☐ **Kimia Organik 1: PDF akhir ke `pdf/`** (cetak digital dan `--cetak`), lalu baca ulang kejelasan Bab 1–16.
+5. ◐ **Kimia Organik 1**: versi digital sudah di `pdf/` (21-11-2026); belum: versi `--cetak`, ganti ilustrasi sampul dengan motif organik (lihat `DESAIN-BUKU.md` bagian 12), lalu baca ulang kejelasan Bab 1–16.
 6. ☐ **Persiapan TEP** (`persiapan-tep/`): Bab 1–4 dulu, ikuti `persiapan-tep/PEDOMAN.md`; siapkan alat cetak dengan pola `kimia-organik/edisi/`.
 7. ☐ **Matematika untuk Kimia**, lalu buku berikutnya di `RENCANA-SERI.md` (rancangan dulu, lalu bab demi bab).
 

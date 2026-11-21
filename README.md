@@ -11,7 +11,7 @@ Penyusun: Septian Anugrah Dwi Putra.
 
 - Pedoman kerja untuk sesi Claude Code: [`CLAUDE.md`](CLAUDE.md)
 - Prompt induk untuk sesi di akun mana pun: [`PROMPT-AKUN-LAIN.md`](PROMPT-AKUN-LAIN.md); keadaan seri: `python3 status.py`
-- Panduan dan templat susunan buku: [`PANDUAN-BUKU.md`](PANDUAN-BUKU.md)
+- Panduan dan templat susunan buku: [`PANDUAN-BUKU.md`](PANDUAN-BUKU.md); spesifikasi desain lengkap: [`DESAIN-BUKU.md`](DESAIN-BUKU.md)
 - PDF hasil akhir: [`pdf/`](pdf/)
 - Pemetaan model AI per tahap pekerjaan: [`PEMETAAN-MODEL.md`](PEMETAAN-MODEL.md)
 - Rencana dan pedoman Kimia Kuantum: [`kimia-kuantum/RENCANA.md`](kimia-kuantum/RENCANA.md), [`kimia-kuantum/PEDOMAN.md`](kimia-kuantum/PEDOMAN.md)
