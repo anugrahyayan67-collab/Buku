@@ -342,3 +342,113 @@ ax.set_xticks(x); ax.set_xticklabels(nm, rotation=30, ha='right', fontsize=8); a
 ax.yaxis.set_major_formatter(fmt)
 plt.tight_layout(); simpan(f, 'larut')
 print('ok tambahan')
+
+# ================= versi ilustrasi 3D (menggantikan versi garis) =================
+from ilustrasi import ax3d, sumbu, orbital_s, orbital_p, orbital_hibrid, tetes, molekul3d, bola, batang, EMAS, JINGGA, BIRU3, MERAH3
+from rdkit.Chem import AllChem
+def koord(smi, seed=7):
+    m = Chem.AddHs(Chem.MolFromSmiles(smi)); AllChem.EmbedMolecule(m, randomSeed=seed); AllChem.MMFFOptimizeMolecule(m)
+    P = m.GetConformer().GetPositions(); P = P - P[[a.GetIdx() for a in m.GetAtoms() if a.GetSymbol() != 'H'][0]]
+    return m, P
+def pasang(m, P):
+    atom = [(a.GetSymbol(), P[a.GetIdx()]) for a in m.GetAtoms()]; ik = [(b.GetBeginAtomIdx(), b.GetEndAtomIdx()) for b in m.GetBonds()]; return atom, ik
+def layar(az):
+    a = np.radians(az); return np.array([-np.sin(a), np.cos(a), 0.0])
+def rz(P, u, v):
+    u = np.array(u, float); u[2] = 0; a = np.arctan2(v[1], v[0]) - np.arctan2(u[1], u[0]); c, s_ = np.cos(a), np.sin(a)
+    return P @ np.array([[c, -s_, 0], [s_, c, 0], [0, 0, 1]]).T
+def putar(P, u, v):
+    """putar sehingga vektor u menjadi v"""
+    from ilustrasi import _rot
+    R1 = _rot(u).T; R2 = _rot(v); return P @ R1.T @ R2.T
+
+# orbital: diagram energi (garis tipis) + bentuk orbital berbayang
+f = plt.figure(figsize=(7.4, 2.0), dpi=220)
+a = f.add_axes([0.0, 0.08, 0.24, 0.84]); a.set_xlim(0, 6); a.set_ylim(0, 10); a.axis('off')
+for y, lab, n_ in [(1.0, '1s', 1), (4.0, '2s', 1), (7.0, '2p', 3)]:
+    for i in range(n_): a.plot([1.4 + i * 1.5, 2.5 + i * 1.5], [y, y], color=TUA, lw=1.2)
+    a.text(0.9, y, lab, fontsize=9, color=TUA, va='center', ha='right')
+for x, y, s in [(1.95, 1.0, 'ud'), (1.95, 4.0, 'ud'), (1.95, 7.0, 'u'), (3.45, 7.0, 'u')]:
+    if 'u' in s: a.annotate('', (x - 0.15, y + 1.1), (x - 0.15, y + 0.05), arrowprops=dict(arrowstyle='-|>', color=BIRU, lw=1.0, mutation_scale=8))
+    if 'd' in s: a.annotate('', (x + 0.15, y + 0.05), (x + 0.15, y + 1.1), arrowprops=dict(arrowstyle='-|>', color=JT, lw=1.0, mutation_scale=8))
+a.text(3.0, 9.6, 'karbon: 1s² 2s² 2p²', fontsize=9, color=TUA, ha='center', fontweight='bold')
+for k, (nm, d) in enumerate([('s', None), ('$p_x$', (1, 0, 0)), ('$p_y$', (0, 1, 0)), ('$p_z$', (0, 0, 1))]):
+    ax = ax3d(f, [0.25 + k * 0.19, 0.1, 0.19, 0.95], lim=0.95); sumbu(ax, L=0.95, fs=8)
+    if d is None: orbital_s(ax, 0.5)
+    else: orbital_p(ax, d, 1.0)
+    f.text(0.25 + k * 0.19 + 0.095, 0.04, nm, ha='center', fontsize=10, color=TUA)
+f.savefig(f'{F}/orbital.png', bbox_inches='tight'); plt.close(f)
+
+# hibridisasi
+f = plt.figure(figsize=(7.4, 2.5), dpi=220)
+t4 = np.array([[1, 1, 1], [1, -1, -1], [-1, 1, -1], [-1, -1, 1]], float)
+ax = ax3d(f, [0.0, 0.1, 0.33, 0.9], lim=1.15, elev=12, azim=-52)
+for d in t4: orbital_hibrid(ax, d, 0.25, 1.05)
+f.text(0.165, 0.04, 'sp³: empat cuping ke sudut tetrahedron\n(109,5°)', ha='center', fontsize=8.6, color=TUA)
+ax = ax3d(f, [0.335, 0.1, 0.33, 0.9], lim=1.15, elev=22, azim=-60)
+for g in (90, 210, 330): orbital_hibrid(ax, (np.cos(np.radians(g)), np.sin(np.radians(g)), 0), 1 / 3, 1.05)
+orbital_p(ax, (0, 0, 1), 0.85, w1='#8dbbe8', w2='#8dbbe8')
+f.text(0.5, 0.04, 'sp² + p: tiga cuping dalam satu bidang\n(120°); orbital p tegak lurus', ha='center', fontsize=8.6, color=TUA)
+ax = ax3d(f, [0.67, 0.1, 0.33, 0.9], lim=1.15, elev=22, azim=-60)
+for d in [(1, 0, 0), (-1, 0, 0)]: orbital_hibrid(ax, d, 0.5, 1.05)
+orbital_p(ax, (0, 1, 0), 0.75, w1='#8dbbe8', w2='#8dbbe8'); orbital_p(ax, (0, 0, 1), 0.75, w1='#a9cdf0', w2='#a9cdf0')
+f.text(0.835, 0.04, 'sp + 2p: dua cuping segaris (180°);\ndua orbital p tegak lurus', ha='center', fontsize=8.6, color=TUA)
+f.savefig(f'{F}/hibrid.png', bbox_inches='tight'); plt.close(f)
+
+# sigma dan pi
+f = plt.figure(figsize=(7.4, 2.3), dpi=220)
+pan = [('s + s (H–H)', 'ss'), ('sp³ + s (C–H)', 'hs'), ('sp³ + sp³ (C–C)', 'hh'), ('p + p sisi ke sisi (π)', 'pp')]
+for k, (t, j) in enumerate(pan):
+    ax = ax3d(f, [k * 0.25, 0.12, 0.25, 0.88], lim=1.25, elev=14, azim=-80)
+    if j == 'ss': orbital_s(ax, 0.55, (-0.42, 0, 0)); orbital_s(ax, 0.55, (0.42, 0, 0), w='#7fb0e6')
+    if j == 'hs': orbital_hibrid(ax, (1, 0, 0), 0.25, 1.0, (-0.75, 0, 0)); orbital_s(ax, 0.42, (0.62, 0, 0), w='#8dc0ee')
+    if j == 'hh': orbital_hibrid(ax, (1, 0, 0), 0.25, 0.9, (-0.85, 0, 0)); orbital_hibrid(ax, (-1, 0, 0), 0.25, 0.9, (0.85, 0, 0), w='#f3c86a')
+    if j == 'pp':
+        for x in (-0.45, 0.45): orbital_p(ax, (0, 0, 1), 0.85, (x, 0, 0), w1=JG, w2=JG)
+        ax.plot([-0.45, 0.45], [0, 0], [0, 0], color=TUA, lw=1.2)
+    f.text(k * 0.25 + 0.125, 0.05, t, ha='center', fontsize=8.8, color=TUA)
+f.text(0.375, 0.95, 'ikatan σ: tumpang tindih ujung ke ujung, di sepanjang sumbu antarinti', ha='center', fontsize=8.8, color=BIRU, fontweight='bold')
+f.text(0.875, 0.95, 'ikatan π: di atas dan di bawah sumbu', ha='center', fontsize=8.8, color=JT, fontweight='bold')
+f.savefig(f'{F}/sigmapi.png', bbox_inches='tight'); plt.close(f)
+
+# dipol: bola-batang dengan panah tipis
+def panah3d(ax, p, q, c=MERAH, lw=1.6):
+    p, q = np.array(p, float), np.array(q, float); ax.quiver(*p, *(q - p), color=c, lw=lw, arrow_length_ratio=0.25)
+    d = q - p; d /= np.linalg.norm(d); n = np.cross(d, [0, 1, 0]); n = n / (np.linalg.norm(n) + 1e-9) * 0.12; c0 = p + d * 0.12
+    ax.plot([c0[0] - n[0], c0[0] + n[0]], [c0[1] - n[1], c0[1] + n[1]], [c0[2] - n[2], c0[2] + n[2]], color=c, lw=lw)
+f = plt.figure(figsize=(7.4, 2.2), dpi=220)
+M = [('O=C=O', 'CO₂', 'μ = 0 D', (1, 0, 0)), ('O', 'H₂O', 'μ = 1,85 D', None), ('CCl', 'CH₃Cl', 'μ = 1,87 D', None), ('ClC(Cl)(Cl)Cl', 'CCl₄', 'μ = 0 D', None)]
+for k, (smi, nm, mu, _) in enumerate(M):
+    m, P = koord(smi)
+    heavy = [a.GetIdx() for a in m.GetAtoms() if a.GetSymbol() != 'H']
+    if smi == 'O=C=O': P = putar(P - P[1], P[0] - P[1], (1, 0, 0))
+    if smi == 'O':
+        hs = [a.GetIdx() for a in m.GetAtoms() if a.GetSymbol() == 'H']; bis = (P[hs[0]] + P[hs[1]]) / 2; P = putar(P, bis, (0, 0, -1)); P = rz(P, P[hs[0]] - P[hs[1]], layar(-75))
+    if smi == 'CCl': P = putar(P, P[1] - P[0], (0, 0, 1))
+    ax = ax3d(f, [k * 0.25, 0.1, 0.25, 0.8], lim=1.75, elev=12, azim=-75)
+    atom, ik = pasang(m, P); molekul3d(ax, atom, ik, s=1.0)
+    if smi == 'O=C=O':
+        panah3d(ax, (-0.25, 0, 0.75), (-1.1, 0, 0.75)); panah3d(ax, (0.25, 0, 0.75), (1.1, 0, 0.75))
+    if smi == 'O': panah3d(ax, (0, 0, -1.25), (0, 0, -0.45))
+    if smi == 'CCl': panah3d(ax, (0.9, 0, -0.2), (0.9, 0, 1.6))
+    f.text(k * 0.25 + 0.125, 0.04, f'{nm}\n{mu}', ha='center', fontsize=9, color=TUA)
+f.text(0.5, 0.97, 'panah dipol menunjuk dari ujung δ+ ke ujung δ−; pada CO₂ dan CCl₄ vektor saling meniadakan', ha='center', fontsize=8.6, color=MERAH)
+f.savefig(f'{F}/dipol.png', bbox_inches='tight'); plt.close(f)
+
+# VSEPR: bola-batang dengan pasangan bebas sebagai cuping
+f = plt.figure(figsize=(7.4, 2.2), dpi=220)
+for k, (smi, nm, sud, npb) in enumerate([('C', 'metana', '109,5°', 0), ('N', 'amonia', '107°', 1), ('O', 'air', '104,5°', 2)]):
+    m, P = koord(smi); hs = [a.GetIdx() for a in m.GetAtoms() if a.GetSymbol() == 'H']
+    sH = sum(P[h] / np.linalg.norm(P[h]) for h in hs)
+    if npb: P = putar(P, -sH, (0, 0, 1))
+    if npb == 2:
+        v_ = layar(-65); a_ = np.radians(50); P = rz(P, np.cross(P[hs[0]], P[hs[1]]), np.array([v_[0] * np.cos(a_) - v_[1] * np.sin(a_), v_[0] * np.sin(a_) + v_[1] * np.cos(a_), 0]))
+    ax = ax3d(f, [k * 0.333, 0.1, 0.333, 0.95], lim=1.2, elev=10, azim=-65)
+    atom, ik = pasang(m, P); molekul3d(ax, atom, ik)
+    if npb == 1: tetes(ax, (0, 0, 1), 0.95, 0.38, '#f3c86a', alpha=0.75)
+    if npb == 2:
+        H1, H2 = [P[h] / np.linalg.norm(P[h]) for h in hs]; bis = -(H1 + H2); bis /= np.linalg.norm(bis); n = np.cross(H1, H2); n /= np.linalg.norm(n)
+        for sg in (1, -1): tetes(ax, bis * 0.58 + n * 0.81 * sg, 0.9, 0.36, '#f3c86a', alpha=0.75)
+    f.text(k * 0.333 + 0.166, 0.03, f'{nm} ({sud})\n{4 - npb} ikatan, {npb} pasangan bebas', ha='center', fontsize=8.8, color=TUA)
+f.savefig(f'{F}/vsepr.png', bbox_inches='tight'); plt.close(f)
+print('ok ilustrasi')
