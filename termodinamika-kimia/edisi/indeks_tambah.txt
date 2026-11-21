@@ -273,3 +273,27 @@ efek isotop
 rumus barometrik
 tinggi skala
 anomali Schottky
+tegangan permukaan
+entalpi permukaan
+persamaan Young–Laplace
+persamaan Young
+sudut kontak
+kerja adhesi
+kenaikan kapiler
+persamaan Kelvin
+kondensasi kapiler
+pematangan Ostwald
+nukleasi homogen
+nukleasi heterogen
+jari-jari kritis
+kelebihan permukaan
+persamaan adsorpsi Gibbs
+surfaktan
+misel
+konsentrasi misel kritis
+efek hidrofobik
+fisisorpsi
+kemisorpsi
+isoterm Langmuir
+isoterm BET
+luas permukaan spesifik

@@ -53,7 +53,7 @@ Cara kerja:
 |---|---|---|
 | Fisika Umum | `fisika-umum/` | Edisi 1 selesai (15 bab); alat cetak `fisika-umum/edisi2/cetak.py`, catatan teknis `fisika-umum/CATATAN.md` |
 | Kimia Kuantum | `kimia-kuantum/` | Edisi 1 selesai (17 bab) |
-| Kimia Fisika 1: Termodinamika Kimia | `termodinamika-kimia/` | Edisi 1.2 sedang dituntaskan: 14 bab selesai, Bab 15 Termodinamika Permukaan belum; 428 halaman |
+| Kimia Fisika 1: Termodinamika Kimia | `termodinamika-kimia/` | Edisi 1.2: 15 bab selesai; sisa soal Bab 3, 6, 7, 8, baca ulang, dan cetak akhir |
 | Kimia Organik 1: Senyawa Monofungsi | `kimia-organik/` | 16 bab selesai; PDF belum disalin ke `pdf/` |
 | Persiapan TEP | `persiapan-tep/` | rancangan dan pedoman ada, bab belum |
 | Buku lain di `RENCANA-SERI.md` | belum ada | belum |
@@ -74,7 +74,7 @@ Cara kerja:
 
 Daftar pekerjaan yang belum selesai, **berurutan**. Bila tidak ada perintah khusus, kerjakan butir ☐ pertama. Setelah selesai, ubah menjadi ☑ (dengan tanggal) di daftar ini juga.
 
-1. ☐ **Kimia Fisika 1, Bab 15 Termodinamika Permukaan** (`termodinamika-kimia/`). Lihat catatan status di `termodinamika-kimia/RENCANA.md`; bila sudah ☑ di sana, lewati. Subbab: tegangan permukaan dan energi permukaan · persamaan Young–Laplace · kapilaritas dan sudut kontak · persamaan Kelvin dan nukleasi · persamaan adsorpsi Gibbs · surfaktan dan misel · isoterm adsorpsi (Langmuir, BET). Setelah selesai, "Penutup" buku ada di akhir Bab 15 (bukan Bab 14).
+1. ☑ (21-11-2026) **Kimia Fisika 1, Bab 15 Termodinamika Permukaan** (`termodinamika-kimia/`). Lihat catatan status di `termodinamika-kimia/RENCANA.md`; bila sudah ☑ di sana, lewati. Subbab: tegangan permukaan dan energi permukaan · persamaan Young–Laplace · kapilaritas dan sudut kontak · persamaan Kelvin dan nukleasi · persamaan adsorpsi Gibbs · surfaktan dan misel · isoterm adsorpsi (Langmuir, BET). Setelah selesai, "Penutup" buku ada di akhir Bab 15 (bukan Bab 14).
 2. ☐ **Kimia Fisika 1: soal Bab 3, 6, 7, 8 dilengkapi sampai ± 80** (pakai `alat/tebal.py`).
 3. ☐ **Kimia Fisika 1: baca ulang kejelasan Bab 1–15**, satu bab per putaran; catat temuan dan perbaikan di `termodinamika-kimia/REVISI.md`.
 4. ☐ **Kimia Fisika 1: cetak akhir** digital dan `--cetak`, salin ke `pdf/`, perbarui `pdf/README.md`, kirim PDF.

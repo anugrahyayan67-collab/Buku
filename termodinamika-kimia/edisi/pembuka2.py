@@ -266,3 +266,15 @@ for k, (x0, b) in enumerate([(0.5, 1.6), (2.9, 0.75), (5.3, 0.3)]):
     ax.plot(x0 + 1.95 * np.exp(-b * yy / 0.5) + 0.05, 0.7 + yy, color=EM, lw=2.2, alpha=0.8, zorder=3)
 ax.add_patch(Rectangle((0.5, 0.35), 6.8, 0.08, color=AB, lw=0))
 simpan(14, f, 'Molekul tersebar di antara tingkat-tingkat energi menurut faktor Boltzmann; ketika suhu naik, populasi merambat ke tingkat yang lebih tinggi.')
+
+# 15 tetes, gelembung, dan pipa kapiler
+f, ax = kanvas(); rng = np.random.default_rng(15)
+for x, y, r in [(1.0, 3.6, 0.55), (2.1, 4.3, 0.3), (2.7, 3.4, 0.18), (1.7, 2.6, 0.4)]: bola(ax, x, y, r, SI, z=3)
+ax.add_patch(Rectangle((3.6, 0.6), 4.3, 1.3, color='#bfe0f2', alpha=0.7, lw=0, zorder=1))
+for x0, h, w in [(4.2, 2.6, 0.18), (5.0, 1.6, 0.3), (5.9, 0.9, 0.5)]:
+    ax.add_patch(Rectangle((x0, 1.0), w, 3.6, fc='white', ec=NI, lw=1.6, alpha=0.9, zorder=2))
+    ax.add_patch(Rectangle((x0 + 0.02, 1.0), w - 0.04, 0.9 + h, color='#8cc0e8', alpha=0.85, lw=0, zorder=3))
+for _ in range(14):
+    x, y = rng.uniform(6.8, 7.7), rng.uniform(2.2, 4.6); bola(ax, x, y, rng.uniform(0.05, 0.14), UN if rng.random() < 0.5 else EM, z=4)
+ax.plot([0.4, 3.3], [1.6, 1.6], color=AB, lw=1.2)
+simpan(15, f, 'Tetes membulat, air naik di pipa sempit, dan gelembung kecil bertekanan lebih tinggi: semuanya akibat energi permukaan.')

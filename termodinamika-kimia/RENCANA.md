@@ -26,7 +26,7 @@ Buku ini lanjutan langsung dari *Fisika Umum* Bab 10–11 (suhu, kalor, gas idea
 | **Bab 14** | **Termodinamika statistik**: sebaran Boltzmann, fungsi partisi molekul (translasi, rotasi, getaran, elektronik), *U*, *C*$_V$, *S* (Sackur–Tetrode), *G*, tetapan kesetimbangan dari fungsi partisi | Atkins 13–15, McQuarrie–Simon 17–23, Engel–Reid 31–33 |
 | **Bab 15** | **Termodinamika permukaan**: tegangan permukaan, persamaan Laplace, kapilaritas, persamaan Kelvin dan nukleasi, persamaan adsorpsi Gibbs, surfaktan dan misel, isoterm adsorpsi | Levine 13, Castellan 18, Atkins 16 |
 
-Bersamaan dengan itu, setiap bab dilengkapi menurut `PROMPT-BUKU.md`: soal tanpa label tingkat (±80 per bab), ±20 pertanyaan konsep, gambar sebanyak yang dibutuhkan (≥ 5), dan pembahasan dengan *Cara berpikir*. Status: Bab 1–6 ☑ (soal, gambar, pertanyaan); Bab 7–13 ◐; subbab tambahan ☑ (4.11, 8.9, 10.8, 11.9, 12.9, 13.9); Bab 14 ☑; Bab 15 ☐.
+Bersamaan dengan itu, setiap bab dilengkapi menurut `PROMPT-BUKU.md`: soal tanpa label tingkat (±80 per bab), ±20 pertanyaan konsep, gambar sebanyak yang dibutuhkan (≥ 5), dan pembahasan dengan *Cara berpikir*. Status: Bab 1–6 ☑ (soal, gambar, pertanyaan); Bab 7–13 ◐; subbab tambahan ☑ (4.11, 8.9, 10.8, 11.9, 12.9, 13.9); Bab 14 ☑; Bab 15 ☑.
 
 Status: ☐ belum · ◐ sedang · ☑ selesai
 
@@ -86,8 +86,8 @@ Pemetaan RPS: mg 1 → Bab 1 · mg 2 → Bab 2 · mg 3–4 → Bab 3–4 · mg 5
 ### ☑ Bab 14 Termodinamika Statistik
 14.1 Keadaan mikro dan konfigurasi dominan · 14.2 Sebaran Boltzmann · 14.3 Fungsi partisi molekul · 14.4 Fungsi partisi translasi · 14.5 Fungsi partisi rotasi, getaran, dan elektronik · 14.6 Energi dalam dan kapasitas kalor · 14.7 Entropi statistik · 14.8 Energi Gibbs dan tetapan kesetimbangan · 14.9 Faktor Boltzmann dalam kimia (baru, Edisi 1.2; 18 contoh, 9 gambar, 82 soal, 22 pertanyaan, 10 pembahasan)
 
-### ☐ Bab 15 Termodinamika Permukaan
-Rencana: tegangan permukaan dan energi permukaan · persamaan Young–Laplace · kapilaritas dan sudut kontak · persamaan Kelvin dan nukleasi · persamaan adsorpsi Gibbs · surfaktan dan misel · isoterm adsorpsi (Langmuir, BET). Bila Bab 15 ditulis, pindahkan "Penutup" dari akhir Bab 14 ke akhir Bab 15.
+### ☑ Bab 15 Termodinamika Permukaan
+15.1 Tegangan permukaan dan energi permukaan · 15.2 Persamaan Young–Laplace · 15.3 Kapilaritas dan sudut kontak · 15.4 Persamaan Kelvin · 15.5 Nukleasi · 15.6 Persamaan adsorpsi Gibbs · 15.7 Surfaktan dan misel · 15.8 Adsorpsi gas pada padatan: isoterm Langmuir · 15.9 Adsorpsi banyak lapisan dan luas permukaan: isoterm BET (baru, Edisi 1.2; 18 contoh, 9 gambar, 80 soal, 22 pertanyaan, 8 pembahasan)
 
 ## Lampiran
 A. Tetapan dan faktor konversi · B. Matematika: diferensial parsial dan diferensial total · C. Data termodinamika standar · D. Potensial reduksi standar
