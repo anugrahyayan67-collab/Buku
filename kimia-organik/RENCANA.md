@@ -49,7 +49,7 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 ### ☑ Bab 11 Aldehida dan Keton
 11.1 Gugus karbonil: struktur, tata nama, sifat · 11.2 Membuat aldehida dan keton · 11.3 Adisi nukleofilik: mekanisme dalam asam dan basa · 11.4 Hidrat dan sianohidrin · 11.5 Asetal dan gugus pelindung · 11.6 Imina, enamina, dan turunan amina · 11.7 Reduksi: NaBH₄, LiAlH₄, Wolff–Kishner, Clemmensen · 11.8 Senyawa organologam: pereaksi Grignard dan organolitium · 11.9 Reaksi Wittig · 11.10 Oksidasi Baeyer–Villiger · 11.11 Keto–enol dan halogenasi α (pengantar karbon α) · 11.12 Merancang sintesis dengan karbonil
 
-### ☐ Bab 12 Asam Karboksilat dan Turunannya
+### ☑ Bab 12 Asam Karboksilat dan Turunannya
 12.1 Asam karboksilat: sifat dan keasaman · 12.2 Membuat asam karboksilat · 12.3 Turunan asam: struktur dan kereaktifan relatif · 12.4 Substitusi asil nukleofilik: mekanisme adisi–eliminasi · 12.5 Klorida asam · 12.6 Anhidrida · 12.7 Ester: esterifikasi Fischer, hidrolisis, saponifikasi · 12.8 Amida dan hidrolisisnya · 12.9 Nitril · 12.10 Reduksi dan reaksi dengan organologam · 12.11 Lemak, sabun, poliester, dan poliamida · 12.12 β-Laktam dan obat turunan asam
 
 ### ☐ Bab 13 Amina

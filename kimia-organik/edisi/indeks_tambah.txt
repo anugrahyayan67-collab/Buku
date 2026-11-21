@@ -323,3 +323,30 @@ ion enolat
 enol
 reaksi haloform
 uji iodoform
+asam karboksilat
+ion karboksilat
+karboksilasi
+turunan asam karboksilat
+substitusi asil nukleofilik
+tangga kereaktifan
+klorida asam
+anhidrida asam
+ester
+esterifikasi Fischer
+saponifikasi
+transesterifikasi
+biodiesel
+amida
+resonansi amida
+nitril
+laktam
+trigliserida
+sabun
+misel
+bilangan penyabunan
+polimer kondensasi
+poliester
+nilon
+β-laktam
+penisilin
+aspirin

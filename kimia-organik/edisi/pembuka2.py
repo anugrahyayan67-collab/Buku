@@ -183,3 +183,14 @@ ax.text(6.3, 0.45, 'hemiasetal siklik: > 99,99%', ha='center', color=UT, fontsiz
 ax.text(W / 2, 4.6, 'glukosa dalam air', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
 simpan(11, f, 'Glukosa adalah aldehida, tetapi dalam air hampir seluruhnya berbentuk cincin. Gugus –OH pada C5 menyerang gugus aldehida dalam molekul yang sama dan membentuk hemiasetal siklik: adisi nukleofilik pada gugus karbonil.')
 print('ok11')
+
+# Bab 12: ester lawan amida
+f, ax = kanvas()
+ax.imshow(rd11('CC(=O)Oc1ccccc1C(=O)O'), extent=[0.3, 3.7, 1.4, 4.2], zorder=2)
+ax.imshow(rd11('CC(=O)NC(C)C(=O)NC(C)C(=O)O'), extent=[4.6, 8.0, 1.4, 4.2], zorder=2)
+ax.text(2.0, 4.45, 'ester (aspirin)', ha='center', color=EM, fontsize=14, fontweight='bold', family='Liberation Sans')
+ax.text(6.3, 4.45, 'amida (ikatan peptida)', ha='center', color=UT, fontsize=14, fontweight='bold', family='Liberation Sans')
+ax.text(2.0, 0.75, 'terhidrolisis oleh uap air\n(berbau cuka)', ha='center', color=EM, fontsize=12, family='Liberation Sans')
+ax.text(6.3, 0.75, 'bertahan ratusan tahun\npada pH netral', ha='center', color=UT, fontsize=12, family='Liberation Sans')
+simpan(12, f, 'Dua turunan asam karboksilat dengan nasib yang sangat berbeda: ester aspirin perlahan terhidrolisis oleh uap air, sedangkan ikatan amida pada protein hampir tidak pernah putus tanpa enzim. Perbedaannya terletak pada gugus pergi dan resonansi.')
+print('ok12')
