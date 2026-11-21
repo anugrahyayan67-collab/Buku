@@ -11,8 +11,10 @@
 | Suhu | $\Delta_\text{r}S = nF(\partial E/\partial T)_p$; $\Delta_\text{r}H = -nF[E - T(\partial E/\partial T)_p]$ | 13.6 |
 | Sel konsentrasi dan pH | $E = (RT/F)\ln(a_2/a_1)$; potensial Nernst membran; pH meter 59 mV per satuan pH | 13.7 |
 | Baterai dan sel bahan bakar | energi spesifik $= -\Delta_\text{r}G/m$; tegangan termonetral $\Delta_\text{r}H/nF = 1{,}481$ V untuk H₂ | 13.8 |
+| Diagram Pourbaix | garis mendatar (redoks), tegak (asam–basa, pengendapan), miring (kemiringan −0,059 16 *m*/*n* V per pH); daerah kebal, korosi, pasif | 13.9 |
+| Perlindungan korosi | naikkan pH (beton), turunkan *E* (proteksi katodik dengan Zn atau Mg), pasivasi (Cr₂O₃) | 13.9 |
 
-**Jawaban kuis cepat.** **13.1** Menuju bagian seng (anode), karena di sana ion Zn²⁺ terus terbentuk dan larutan cenderung bermuatan positif; anion bergerak untuk menetralkannya. **13.2** Ketika arus mengalir, sebagian tegangan terpakai untuk melawan hambatan dalam sel dan penghalang reaksi di elektrode, sehingga tegangan di kutub lebih kecil daripada potensial sel. **13.3** Ya: $E^\circ = 0{,}771 - 0{,}340 = +0{,}431$ V untuk $\text{Cu} + 2\text{Fe}^{3+} \rightarrow \text{Cu}^{2+} + 2\text{Fe}^{2+}$. **13.4** Potensial Na⁺/Na (−2,714 V) jauh di bawah garis H₂ pada pH apa pun, sehingga natrium mereduksi air menjadi H₂ dengan dorongan lebih dari 2 V. **13.5** *K* = 1. Sel dapat menghasilkan listrik bila *Q* ≠ 1, seperti sel konsentrasi (subbab 13.7). **13.6** $\Delta_\text{r}S = 0$, sehingga $\Delta_\text{r}G = \Delta_\text{r}H$: seluruh entalpi dapat menjadi kerja listrik. **13.7** Kemiringan $RT\ln10/F$ bergantung pada suhu (62,1 mV per satuan pH pada 40 °C, bukan 59,2 mV), sehingga selisih tegangan yang sama ditafsirkan sebagai selisih pH yang salah. **13.8** Timah (*E*° = −0,14 V) kurang mudah teroksidasi daripada besi (−0,45 V). Bila tergores, besi menjadi anode dan timah katode, sehingga besi berkarat lebih cepat. Seng lebih mudah teroksidasi daripada besi, sehingga selalu menjadi anode.
+**Jawaban kuis cepat.** **13.1** Menuju bagian seng (anode), karena di sana ion Zn²⁺ terus terbentuk dan larutan cenderung bermuatan positif; anion bergerak untuk menetralkannya. **13.2** Ketika arus mengalir, sebagian tegangan terpakai untuk melawan hambatan dalam sel dan penghalang reaksi di elektrode, sehingga tegangan di kutub lebih kecil daripada potensial sel. **13.3** Ya: $E^\circ = 0{,}771 - 0{,}340 = +0{,}431$ V untuk $\text{Cu} + 2\text{Fe}^{3+} \rightarrow \text{Cu}^{2+} + 2\text{Fe}^{2+}$. **13.4** Potensial Na⁺/Na (−2,714 V) jauh di bawah garis H₂ pada pH apa pun, sehingga natrium mereduksi air menjadi H₂ dengan dorongan lebih dari 2 V. **13.5** *K* = 1. Sel dapat menghasilkan listrik bila *Q* ≠ 1, seperti sel konsentrasi (subbab 13.7). **13.6** $\Delta_\text{r}S = 0$, sehingga $\Delta_\text{r}G = \Delta_\text{r}H$: seluruh entalpi dapat menjadi kerja listrik. **13.7** Kemiringan $RT\ln10/F$ bergantung pada suhu (62,1 mV per satuan pH pada 40 °C, bukan 59,2 mV), sehingga selisih tegangan yang sama ditafsirkan sebagai selisih pH yang salah. **13.8** Timah (*E*° = −0,14 V) kurang mudah teroksidasi daripada besi (−0,45 V). Bila tergores, besi menjadi anode dan timah katode, sehingga besi berkarat lebih cepat. Seng lebih mudah teroksidasi daripada besi, sehingga selalu menjadi anode. **13.9** Di pH 11. Pada pH 3 yang jenuh udara, besi berada di daerah korosi (Fe²⁺/Fe³⁺ larut); pada pH 11, rentang potensial yang sama jatuh di daerah pasif Fe(OH)₃, sehingga terbentuk lapisan oksida yang menutup permukaan.
 
 # Pertanyaan
 
@@ -34,26 +36,34 @@
 
 6. Mengapa daya oksidasi permanganat bergantung pada pH?
 7. Jelaskan arti jendela kestabilan air pada Gambar 13.2.
+8. Mengapa tegangan baterai turun perlahan ketika dipakai, lalu jatuh tajam menjelang habis?
 
 ## Subbab 13.5: Potensial standar dan tetapan kesetimbangan
 
-8. Bagaimana tegangan sel dapat memberi $K_\text{sp}$ garam yang sangat sukar larut?
-9. Mengapa titrasi redoks dengan selisih *E*° besar memberi titik akhir yang tajam?
+9. Bagaimana tegangan sel dapat memberi $K_\text{sp}$ garam yang sangat sukar larut?
+10. Mengapa titrasi redoks dengan selisih *E*° besar memberi titik akhir yang tajam?
 
 ## Subbab 13.6: Ketergantungan *E* pada suhu: ΔS dan ΔH dari pengukuran sel
 
-10. Bagaimana Δ*S* dan Δ*H* reaksi dapat diukur hanya dengan voltmeter dan termometer?
-11. Mengapa baterai yang dihubung pendek menjadi panas?
+11. Bagaimana Δ*S* dan Δ*H* reaksi dapat diukur hanya dengan voltmeter dan termometer?
+12. Mengapa baterai yang dihubung pendek menjadi panas?
+13. Mengapa sel dengan Δ*S* positif dapat menghasilkan kerja listrik lebih besar daripada −Δ*H*?
 
 ## Subbab 13.7: Sel konsentrasi dan pengukuran pH
 
-12. Jelaskan asal tegangan sel konsentrasi.
-13. Bagaimana sinyal saraf berhubungan dengan potensial Nernst?
+14. Jelaskan asal tegangan sel konsentrasi.
+15. Bagaimana sinyal saraf berhubungan dengan potensial Nernst?
 
 ## Subbab 13.8: Baterai dan sel bahan bakar
 
-14. Mengapa baterai litium mempunyai energi spesifik jauh lebih tinggi daripada aki timbal?
-15. Mengapa sel bahan bakar dan elektroliser nyata jauh dari batas termodinamikanya?
+16. Mengapa baterai litium mempunyai energi spesifik jauh lebih tinggi daripada aki timbal?
+17. Mengapa sel bahan bakar dan elektroliser nyata jauh dari batas termodinamikanya?
+
+## Subbab 13.9: Diagram Pourbaix dan korosi
+
+18. Apa arti tiga jenis garis (mendatar, tegak, miring) pada diagram Pourbaix?
+19. Mengapa tulangan baja di dalam beton tidak berkarat, tetapi mulai berkarat setelah beton terkarbonasi?
+20. Mengapa proteksi katodik tidak boleh berlebihan?
 
 # Soal
 
@@ -99,6 +109,14 @@ $$
 \Delta_\text{r}G^\circ = -241\,830 - (1073{,}15)(-44{,}4) = -194{,}2\ \text{kJ mol}^{-1} , \qquad E^\circ = \frac{194\,200}{2 \times 96\,485} = 1{,}006\ \text{V} .
 $$
 Batas termodinamika SOFC memang lebih rendah, karena entropi reaksi negatif menurunkan $-\Delta_\text{r}G$ ketika suhu naik. Tetapi pada 800 °C reaksi di elektrode berjalan sangat cepat, sehingga overpotensialnya kecil dan katalis platina tidak diperlukan; sel nyata dapat bekerja dekat batasnya. Kalor buangnya pun bersuhu tinggi, sehingga masih dapat menggerakkan turbin. Sel PEM memiliki batas lebih tinggi, tetapi bekerja jauh di bawahnya (Contoh 13.17). Inilah persaingan antara termodinamika dan laju yang kita temui di sepanjang buku.
+
+**Soal {{pb}}.** Reaksinya $\text{Fe(OH)}_3(s) + 3\text{H}^+ + e^- \rightleftharpoons \text{Fe}^{2+} + 3\text{H}_2\text{O}$. Persamaan Nernst untuk setengah reaksi ini adalah
+$$
+E = E^{\circ\prime} - 0{,}059\,16\log\frac{[\text{Fe}^{2+}]}{[\text{H}^+]^3} = E^{\circ\prime} - 0{,}059\,16\log[\text{Fe}^{2+}] - 3(0{,}059\,16)\,\text{pH} ,
+$$
+karena $-\log[\text{H}^+]^3 = 3\,\text{pH}$. Jadi kemiringannya $-0{,}177$ V per pH. Untuk menentukan $E^{\circ\prime}$ tanpa data tambahan, perhatikan bahwa garis ini harus bertemu dengan dua garis lain di satu titik: garis tegak Fe³⁺/Fe(OH)₃ pada pH 3,15 (Contoh 13.18) dan garis mendatar Fe³⁺/Fe²⁺ pada 0,771 V. Di titik itu ketiga spesies (Fe³⁺, Fe²⁺, Fe(OH)₃) setimbang bersama, sehingga semua persamaan batas harus memberi potensial yang sama. Dengan $[\text{Fe}^{2+}] = 10^{-6}$, garis kita adalah $E = 0{,}771 - 0{,}177(\text{pH} - 3{,}15)$.
+
+*Cara berpikir:* diagram Pourbaix tidak memerlukan data baru di luar *E*° dan *K*$_\text{sp}$; setiap garis adalah persamaan Nernst atau ungkapan *K* yang ditulis dalam pH. Titik pertemuan tiga garis adalah "titik tripel" diagram ini, dan sama seperti titik tripel diagram fasa (Bab 8), aturan fasa menjamin bahwa ketiga batas bertemu di satu titik. Kemiringan garis cukup dihitung dari perbandingan H⁺ terhadap elektron, sehingga bentuk diagram dapat diramalkan bahkan sebelum angka pastinya dihitung.
 
 # Bacaan lanjut
 

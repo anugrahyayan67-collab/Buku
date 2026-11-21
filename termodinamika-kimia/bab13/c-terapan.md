@@ -147,6 +147,72 @@ Baterai adalah sel elektrokimia yang dikemas. Termodinamika menentukan dua angka
 **Kuis cepat 13.8** Mengapa lapisan timah pada kaleng melindungi besi selama utuh, tetapi mempercepat karat bila tergores, sedangkan lapisan seng tidak?
 :::
 
+## 13.9 Diagram Pourbaix dan korosi
+
+Jembatan besi, kerangka kapal, dan pipa air semuanya berkarat, tetapi tidak dengan laju yang sama. Besi di air laut berkarat jauh lebih cepat daripada di air sungai; besi di dalam beton yang basa hampir tidak berkarat; dan besi yang disambungkan ke sepotong seng bertahan bertahun-tahun di laut. Semua pengamatan itu dapat dibaca dari satu peta yang menggabungkan persamaan Nernst dengan kesetimbangan asam–basa dan kelarutan: **diagram Pourbaix**, atau diagram potensial–pH.
+
+### Membangun peta
+
+Gambar 13.2 sudah memperlihatkan contoh paling sederhana: jendela kestabilan air, dibatasi dua garis miring $E = 1{,}229 - 0{,}059\,16\,\text{pH}$ (O₂/H₂O) dan $E = -0{,}059\,16\,\text{pH}$ (H₂O/H₂). Untuk suatu logam, kita menambahkan garis untuk setiap kesetimbangan antara spesiesnya. Ada tiga jenis garis:
+
+* **Garis mendatar**: reaksi redoks tanpa H⁺ atau OH⁻, misalnya $\text{Fe}^{2+} + 2e^- \rightleftharpoons \text{Fe}$. Potensialnya tidak bergantung pada pH.
+* **Garis tegak**: reaksi asam–basa atau pengendapan tanpa elektron, misalnya $\text{Fe}^{3+} + 3\text{OH}^- \rightleftharpoons \text{Fe(OH)}_3$. Batasnya hanya bergantung pada pH.
+* **Garis miring**: reaksi yang melibatkan elektron dan H⁺ sekaligus, misalnya $\text{Fe(OH)}_3 + 3\text{H}^+ + e^- \rightleftharpoons \text{Fe}^{2+} + 3\text{H}_2\text{O}$. Menurut persamaan Nernst, kemiringannya $-0{,}059\,16\,m/n$ V per satuan pH, dengan *m* jumlah H⁺ dan *n* jumlah elektron.
+
+Untuk ion terlarut kita harus memilih satu aktivitas sebagai batas. Ahli korosi biasanya memakai 10⁻⁶: di bawah kadar itu, logam dianggap "tidak berkarat" untuk keperluan praktis.
+
+::: {.contoh}
+**Contoh 13.18 · Tiga garis batas untuk besi**
+
+Pakai $E^\circ(\text{Fe}^{2+}/\text{Fe}) = -0{,}447$ V, $E^\circ(\text{Fe}^{3+}/\text{Fe}^{2+}) = +0{,}771$ V, $K_\text{sp}(\text{Fe(OH)}_3) = 2{,}79 \times 10^{-39}$, $K_\text{sp}(\text{Fe(OH)}_2) = 4{,}87 \times 10^{-17}$, dan aktivitas ion terlarut 10⁻⁶. Hitung (a) potensial batas Fe/Fe²⁺, (b) pH tempat Fe(OH)₃ mulai mengendap dari Fe³⁺, (c) pH tempat Fe(OH)₂ mulai mengendap dari Fe²⁺.
+
+**Penyelesaian.** (a) Dari persamaan Nernst untuk $\text{Fe}^{2+} + 2e^- \to \text{Fe}$,
+$$
+E = -0{,}447 + \frac{0{,}059\,16}{2}\log(10^{-6}) = -0{,}624\ \text{V} .
+$$
+(b) Pengendapan dimulai bila $[\text{OH}^-]^3 = K_\text{sp}/[\text{Fe}^{3+}] = 2{,}79 \times 10^{-33}$, yaitu $[\text{OH}^-] = 1{,}41 \times 10^{-11}$, pOH = 10,85, **pH = 3,15**.
+
+(c) $[\text{OH}^-]^2 = 4{,}87 \times 10^{-17}/10^{-6}$, sehingga $[\text{OH}^-] = 6{,}98 \times 10^{-6}$ dan **pH = 8,84**.
+
+**Memahami hasil.** Fe(OH)₃ sudah mengendap pada larutan yang cukup asam (pH 3), karena *K*$_\text{sp}$-nya luar biasa kecil, sedangkan Fe(OH)₂ baru mengendap pada larutan basa. Garis miring Fe(OH)₃/Fe²⁺ menghubungkan kedua batas itu dengan kemiringan $-3(0{,}059\,16) = -0{,}177$ V per pH, karena reaksinya memakai tiga H⁺ untuk satu elektron.
+:::
+
+Bila semua garis digambar, peta besi terbagi menjadi tiga jenis daerah (Gambar 13.4):
+
+* **kekebalan**: di bawah −0,62 V, besi logam adalah bentuk yang stabil, dan besi tidak dapat berkarat;
+* **korosi**: daerah Fe²⁺ dan Fe³⁺ terlarut, tempat besi larut terus-menerus;
+* **pasivasi**: daerah Fe(OH)₃ (yang mengering menjadi Fe₂O₃) dan Fe(OH)₂. Di sini besi tetap teroksidasi, tetapi hasilnya padatan yang dapat menutup permukaan.
+
+![Gambar 13.4 Diagram Pourbaix besi yang disederhanakan pada 25 °C, dengan aktivitas ion terlarut 10⁻⁶ (hanya Fe, Fe²⁺, Fe³⁺, Fe(OH)₂, dan Fe(OH)₃). Garis putus-putus adalah batas kestabilan air (Gambar 13.2). Titik pada pH 7 menandai potensial O₂/H₂O di air netral yang jenuh udara.](fig/pourbaix.png){width=82%}
+
+### Membaca peta: mengapa besi berkarat, dan bagaimana mencegahnya
+
+Di air netral yang jenuh udara, oksigen dapat menarik potensial permukaan logam sampai mendekati garis O₂/H₂O, sekitar +0,8 V pada pH 7 (titik pada Gambar 13.4). Seluruh rentang antara −0,62 V dan +0,8 V berada di atas daerah kekebalan, sehingga besi **pasti** teroksidasi; termodinamika tidak memberi jalan keluar. Yang menentukan nasibnya adalah hasil oksidasinya. Pada pH 7, garis Fe(OH)₃/Fe²⁺ melintas di sekitar +0,1 V, sehingga besi yang potensialnya di bawah nilai itu larut sebagai Fe²⁺ dan baru mengendap sebagai karat setelah teroksidasi lebih lanjut di larutan. Karat yang terbentuk jauh dari logam itu berpori dan tidak melindungi.
+
+Diagram ini langsung memberi tiga strategi perlindungan:
+
+1. **Menaikkan pH.** Beton mempunyai pH sekitar 12,5. Pada pH itu besi berada di daerah pasivasi pada hampir semua potensial yang mungkin, sehingga tulangan baja di dalam beton tetap utuh. Bila beton terkarbonasi oleh CO₂ udara dan pH-nya turun di bawah sekitar 9, tulangan mulai berkarat.
+2. **Menurunkan potensial (proteksi katodik).** Bila besi disambungkan ke logam yang lebih aktif, misalnya seng ($E^\circ = -0{,}762$ V) atau magnesium, logam itu yang teroksidasi dan memasok elektron ke besi, sehingga potensial besi ditarik ke daerah kekebalan. Seng "dikorbankan" dan harus diganti berkala. Lambung kapal dan pipa bawah tanah dilindungi dengan cara ini, juga dengan arus listrik dari luar.
+3. **Menaikkan potensial ke daerah pasif.** Pada baja tahan karat, kromium membentuk lapisan Cr₂O₃ yang sangat rapat dan pasif dalam rentang potensial dan pH yang jauh lebih lebar daripada besi.
+
+::: {.contoh}
+**Contoh 13.19 · Proteksi katodik dengan seng**
+
+Lambung kapal besi di air laut (pH ≈ 8) disambungkan ke balok seng. (a) Dengan [Zn²⁺] = 10⁻⁶, berapa potensial Zn²⁺/Zn? (b) Apakah potensial itu cukup rendah untuk membawa besi ke daerah kekebalan? (c) Berapa massa seng yang habis per tahun bila arus perlindungan rata-rata 2,0 A?
+
+**Penyelesaian.** (a) $E = -0{,}762 + (0{,}059\,16/2)\log(10^{-6}) = -0{,}939$ V.
+
+(b) Batas kekebalan besi adalah −0,624 V (Contoh 13.18). Potensial seng 0,32 V lebih negatif, sehingga besi yang tersambung baik ke seng berada di daerah kekebalan.
+
+(c) Muatan per tahun $Q = (2{,}0\ \text{A})(3{,}156 \times 10^7\ \text{s}) = 6{,}31 \times 10^7$ C. Seng melepas dua elektron per atom, sehingga $n = Q/2F = 327$ mol, dan massanya $(327)(65{,}38) = 21$ kg.
+
+**Memahami hasil.** Termodinamika menjamin perlindungan selama seng masih ada dan tersambung baik; laju habisnya seng ditentukan oleh arus, yaitu oleh kinetika reaksi di permukaan dan luas lambung yang harus dilindungi. Pada potensial serendah −0,94 V, air pun dapat tereduksi menjadi H₂ (garis bawah Gambar 13.4 terletak di sekitar −0,47 V pada pH 8), sehingga sebagian arus terbuang untuk membentuk gas hidrogen. Perlindungan yang berlebihan juga merugikan, karena hidrogen dapat masuk ke baja dan membuatnya getas.
+:::
+
+::: {.kuis}
+**Kuis cepat 13.9** Menurut Gambar 13.4, apakah besi lebih tahan karat di air pH 3 yang jenuh udara atau di air pH 11 yang jenuh udara? Jelaskan dengan daerah pada diagram.
+:::
+
 ## Penutup: satu fungsi, banyak wajah
 
 Kita memulai buku ini dengan molekul gas yang bergerak acak di dalam wadah, dan mengakhirinya dengan sinyal di sel saraf dan baterai di telepon genggam. Di antara keduanya, hampir setiap gejala yang kita bahas dapat ditelusuri ke satu besaran: energi Gibbs, dan turunannya, potensial kimia.

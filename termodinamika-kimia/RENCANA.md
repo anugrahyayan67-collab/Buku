@@ -78,7 +78,7 @@ Pemetaan RPS: mg 1 → Bab 1 · mg 2 → Bab 2 · mg 3–4 → Bab 3–4 · mg 5
 12.1 Energi Gibbs reaksi dan kemajuan reaksi · 12.2 ΔG° = −RT ln K · 12.3 Kp, Kc, dan Kx · 12.4 Menghitung komposisi kesetimbangan · 12.5 Pengaruh tekanan dan gas inert · 12.6 Pengaruh suhu: persamaan van 't Hoff · 12.7 Asas Le Chatelier secara termodinamika · 12.8 Kesetimbangan dalam industri dan biokimia · 12.9 Kesetimbangan dalam larutan (baru, Edisi 1.2)
 
 ### ☑ Bab 13 Termodinamika Sel Elektrokimia
-13.1 Sel elektrokimia dan reaksi setengah sel · 13.2 Kerja listrik dan ΔG = −nFE · 13.3 Potensial elektrode standar · 13.4 Persamaan Nernst · 13.5 E° dan tetapan kesetimbangan · 13.6 Ketergantungan E pada suhu: ΔS dan ΔH dari pengukuran sel · 13.7 Sel konsentrasi dan pengukuran pH · 13.8 Baterai dan sel bahan bakar
+13.1 Sel elektrokimia dan reaksi setengah sel · 13.2 Kerja listrik dan ΔG = −nFE · 13.3 Potensial elektrode standar · 13.4 Persamaan Nernst · 13.5 E° dan tetapan kesetimbangan · 13.6 Ketergantungan E pada suhu: ΔS dan ΔH dari pengukuran sel · 13.7 Sel konsentrasi dan pengukuran pH · 13.8 Baterai dan sel bahan bakar · 13.9 Diagram Pourbaix dan korosi (baru, Edisi 1.2)
 
 ## Lampiran
 A. Tetapan dan faktor konversi · B. Matematika: diferensial parsial dan diferensial total · C. Data termodinamika standar · D. Potensial reduksi standar
