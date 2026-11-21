@@ -92,7 +92,7 @@ f, ax = plt.subplots(figsize=(5.8, 2.9), dpi=220)
 X = [0, 1, 2, 3, 4, 5, 6, 7]; Y = [1.5, 1.6, 6.2, 4.4, 5.0, 2.2, 2.6, 0.6]; xx = np.linspace(0, 7, 600)
 ax.plot(xx, CubicSpline(X, Y, bc_type='clamped')(xx), color=BIRU, lw=2)
 for x, y, t in [(2, 6.5, '‡₁ (lambat)'), (4, 5.35, '‡₂'), (6, 2.95, '‡₃')]: T(ax, x, y, t, fs=8.5, c=JT)
-for x, y, t in [(0.2, 1.1, 'R₃C–Br\n+ H₂O'), (3, 3.85, 'R$_3$C$^+$'), (5, 1.6, 'R$_3$C–OH$_2^+$'), (7, 0.1, 'R$_3$C–OH\n+ H$_3$O$^+$')]: T(ax, x, y, t, fs=8)
+for x, y, t in [(0.45, 0.35, 'R₃C–Br\n+ H₂O'), (3, 3.85, 'R$_3$C$^+$'), (5, 1.6, 'R$_3$C–OH$_2^+$'), (7, 0.1, 'R$_3$C–OH\n+ H$_3$O$^+$')]: T(ax, x, y, t, fs=8)
 ax.set_xticks([]); ax.set_yticks([]); ax.set_xlabel('koordinat reaksi'); ax.set_ylabel('energi'); ax.set_ylim(-0.6, 7.2)
 f.savefig(f'{F}/sn1energi.png', bbox_inches='tight'); plt.close(f)
 
@@ -117,10 +117,10 @@ cx = 5.0; ax.add_patch(Circle((cx, 0), 1.0, fc='white', ec=TUA, lw=1.5, zorder=1
 for a, g in [(90, 'H'), (210, 'CH₃'), (330, 'H')]:
     r = np.radians(a); ikat(ax, (cx, 0), (cx + 1.6 * np.cos(r), 1.6 * np.sin(r)), sh=(0, 0)); T(ax, cx + 1.95 * np.cos(r), 1.95 * np.sin(r), g, fs=9.5, c=BIRU if a == 90 else TUA)
 for a, g in [(270, 'Br'), (30, 'CH₃'), (150, 'H')]:
-    r = np.radians(a); ikat(ax, (cx + 1.0 * np.cos(r), 1.0 * np.sin(r)), (cx + 1.7 * np.cos(r), 1.7 * np.sin(r)), sh=(0, 0)); T(ax, cx + 2.05 * np.cos(r), 2.05 * np.sin(r), g, fs=9.5, c=JT if g == 'Br' else TUA)
+    r = np.radians(a); ikat(ax, (cx + 1.0 * np.cos(r), 1.0 * np.sin(r)), (cx + 1.7 * np.cos(r), 1.7 * np.sin(r)), sh=(0, 0)); T(ax, cx + 2.05 * np.cos(r) - (0.35 if g == 'Br' else 0), 2.05 * np.sin(r), g, fs=9.5, c=JT if g == 'Br' else TUA)
 ax.plot(cx, 0, 'o', color=TUA, ms=4, zorder=3)
 T(ax, cx - 2.3, 2.9, 'B:$^-$', c=BIRU)
-panah(ax, (cx - 1.9, 2.7), (cx - 0.25, 2.05), rad=-0.3, c=BIRU); panah(ax, (cx + 0.15, 1.3), (cx + 0.3, 0.35), rad=-0.5); panah(ax, (cx + 0.15, -1.2), (cx + 0.2, -2.25), rad=0.6)
+panah(ax, (cx - 1.9, 2.7), (cx - 0.25, 2.05), rad=-0.3, c=BIRU); panah(ax, (cx + 0.15, 1.3), (cx + 0.3, 0.35), rad=-0.5); panah(ax, (cx + 0.12, -1.25), (cx + 0.6, -1.85), rad=0.5)
 T(ax, cx, -3.1, 'H dan Br anti-periplanar (180°)', fs=8.3, c=HJ)
 reaksi(ax, 8.8, 10.6, 0)
 # alkena

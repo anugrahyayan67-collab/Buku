@@ -174,7 +174,7 @@ for k, (lab, c) in enumerate([('orto', BIRU), ('meta', JT), ('para', HJ)]):
     vals = [d[1 + k] for d in dd]; ax.bar(xx + (k - 1) * 0.26, vals, 0.25, color=c, label=lab)
     for xi, vv in zip(xx + (k - 1) * 0.26, vals): ax.text(xi, vv + 1.5, str(vv), ha='center', fontsize=7)
 for yv, c in [(40, '#888888'), (20, '#bbbbbb')]: ax.axhline(yv, color=c, lw=0.8, ls='--')
-ax.text(4.75, 41.5, 'statistik o, m', fontsize=7, color='#888888', ha='right'); ax.text(4.75, 21.5, 'statistik p', fontsize=7, color='#999999', ha='right')
+ax.text(2.0, 42.0, 'nilai statistik o, m (40%)', fontsize=7, color='#888888', ha='center'); ax.text(2.0, 22.0, 'nilai statistik p (20%)', fontsize=7, color='#888888', ha='center')
 ax.set_xticks(xx); ax.set_xticklabels([d[0] for d in dd], fontsize=8.5); ax.set_ylabel('% produk nitrasi'); ax.set_ylim(0, 115)
 ax.legend(frameon=False, fontsize=8, ncol=3, loc='upper center')
 plt.tight_layout(); f.savefig(f'{F}/omp.png', bbox_inches='tight'); plt.close(f)

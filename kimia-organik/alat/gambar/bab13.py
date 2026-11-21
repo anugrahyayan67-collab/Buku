@@ -58,7 +58,7 @@ d2 = [('piperidina', 11.1, BIRU), ('dimetilamina', 10.73, BIRU), ('metilamina', 
 f, ax = plt.subplots(figsize=(6.0, 3.8), dpi=220)
 y = np.arange(len(d2))[::-1]
 ax.barh(y, [v for _, v, _ in d2], color=[c for *_, c in d2], height=0.65)
-for yi, (n, v, c) in zip(y, d2): ax.text(v + (0.25 if v >= 0 else -0.25), yi, koma(v), va='center', ha='left' if v >= 0 else 'right', fontsize=8.5)
+for yi, (n, v, c) in zip(y, d2): ax.text(v + (0.25 if v >= 0 else -0.25), yi, (koma(v) + ',0' if float(v).is_integer() and abs(v) < 100 else koma(v)), va='center', ha='left' if v >= 0 else 'right', fontsize=8.5)
 ax.axvline(0, color=TUA, lw=0.8); ax.set_yticks(y); ax.set_yticklabels([n for n, *_ in d2], fontsize=8.5); ax.set_xlabel('pKaH (lebih besar = basa lebih kuat)'); ax.set_xlim(-5.5, 12.8)
 ax.xaxis.set_major_formatter(matplotlib.ticker.FuncFormatter(lambda q, _: koma(q)))
 plt.tight_layout(); f.savefig(f'{F}/pkah.png', bbox_inches='tight'); plt.close(f)
