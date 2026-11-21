@@ -63,7 +63,7 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 ### ☑ Bab 15 Spektroskopi NMR
 15.1 Asas NMR · 15.2 Geseran kimia ¹H · 15.3 Kesetaraan proton dan jumlah sinyal · 15.4 Integrasi · 15.5 Pemecahan spin–spin dan aturan n + 1 · 15.6 Tetapan kopling dan pola rumit · 15.7 Proton OH dan NH · 15.8 NMR ¹³C dan DEPT · 15.9 Strategi menentukan struktur dari IR, MS, dan NMR
 
-### ☐ Bab 16 Strategi Sintesis
+### ☑ Bab 16 Strategi Sintesis
 16.1 Mengapa sintesis · 16.2 Mengubah gugus fungsi: peta reaksi · 16.3 Membentuk ikatan C–C · 16.4 Analisis retrosintesis · 16.5 Selektivitas: kemo-, regio-, dan stereoselektivitas · 16.6 Gugus pelindung dalam rancangan · 16.7 Sintesis bertahap dan hasil keseluruhan · 16.8 Kimia hijau dan ekonomi atom · 16.9 Studi kasus: sintesis obat sederhana
 
 ## Lampiran

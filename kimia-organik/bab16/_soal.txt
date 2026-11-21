@@ -1,0 +1,121 @@
+## Subbab 16.1: Mengapa sintesis
+
+> Massa molar dan data lain yang diperlukan diberikan dalam soal. Banyak soal sintesis mempunyai lebih dari satu jawaban yang benar; jawaban di bagian akhir memberi satu jalan yang wajar. Soal bertanda **[P]** dibahas di akhir bab.
+
+Sebutkan empat alasan kimiawan melakukan sintesis organik. ||| membuat senyawa berguna, membuat senyawa baru untuk diuji, memastikan struktur, menguji gagasan
+Mengapa percobaan Perkin membuat kina dari aliltoluidina pasti gagal, meskipun rumus molekulnya "cocok"? ||| struktur kina belum diketahui; rumus molekul tidak menentukan cara atom tersambung
+Mengapa sintesis urea oleh Wöhler dianggap penting dalam sejarah kimia? ||| senyawa organik dibuat dari bahan anorganik, menggugurkan anggapan bahwa senyawa organik hanya dibuat makhluk hidup
+Sebutkan lima kriteria rencana sintesis yang baik. ||| pendek; hasil tinggi dan selektif; bahan awal murah; aman dan ramah lingkungan; dapat diperbesar skalanya
+Mengapa reaksi yang berhasil pada skala 100 mg belum tentu cocok untuk skala ton? ||| keamanan (panas reaksi, pereaksi berbahaya), biaya, pemurnian (kromatografi tidak praktis), limbah
+Bagaimana sintesis dulu dipakai untuk memastikan struktur senyawa alam, dan apa yang menggantikannya sekarang? ||| senyawa alam dibandingkan dengan hasil sintesis dari bahan yang strukturnya diketahui; kini terutama spektroskopi (NMR, MS, kristalografi sinar X)
+
+## Subbab 16.2: Mengubah gugus fungsi: peta reaksi
+
+Tentukan tingkat oksidasi karbon yang dicetak: (a) CH₃**C**H₂OH; (b) CH₃**C**HO; (c) CH₃**C**OOH; (d) CH₃**C**N; (e) CH₃**C**H₂Br; (f) **C**H₃OCH₃. ||| (a) 1; (b) 2; (c) 3; (d) 3; (e) 1; (f) 1
+Apakah perubahan berikut memerlukan oksidator, reduktor, atau tidak keduanya? (a) etanol → etil bromida; (b) asetaldehida → asam asetat; (c) asetonitril → etilamina; (d) asam asetat → asetil klorida; (e) aseton → propan-2-ol. ||| (a) tidak; (b) oksidator; (c) reduktor; (d) tidak; (e) reduktor
+Tuliskan pereaksi untuk: (a) butan-1-ol → butanal; (b) butan-1-ol → asam butanoat; (c) butan-2-ol → butanon; (d) butanon → butan-2-ol. ||| (a) PCC; (b) H₂CrO₄ (Jones) atau KMnO₄; (c) PCC atau H₂CrO₄; (d) NaBH₄
+Tuliskan pereaksi untuk: (a) sikloheksena → sikloheksanol; (b) sikloheksena → *trans*-2-bromosikloheksanol; (c) sikloheksena → *cis*-sikloheksana-1,2-diol; (d) sikloheksena → heksanadial. ||| (a) H₃O⁺ atau BH₃ lalu H₂O₂, NaOH; (b) Br₂, H₂O; (c) OsO₄ lalu NaHSO₃; (d) O₃ lalu (CH₃)₂S
+@pindah [P] Tunjukkan cara mengubah 2-metilbutan-2-ol menjadi 3-metilbutan-2-ol. ||| H₂SO₄, panas → 2-metilbut-2-ena; BH₃ lalu H₂O₂, NaOH → 3-metilbutan-2-ol
+Tunjukkan cara mengubah 1-bromopropana menjadi propan-2-ol dan menjadi propan-1-ol. ||| *t*-BuOK → propena → H₃O⁺ → propan-2-ol; 1-bromopropana + NaOH (SN2) → propan-1-ol
+Tunjukkan cara mengubah sikloheksanol menjadi sikloheksana, dalam dua langkah. ||| H₂SO₄, panas → sikloheksena → H₂, Pd
+Tunjukkan cara mengubah asam butanoat menjadi (a) butan-1-ol; (b) *N*,*N*-dimetilbutanamida; (c) butan-1-amina (lewat amida); (d) metil butanoat. ||| (a) LiAlH₄; (b) SOCl₂ lalu (CH₃)₂NH; (c) SOCl₂, NH₃, lalu LiAlH₄; (d) CH₃OH, H⁺
+Tunjukkan cara mengubah benzena menjadi (a) anilina; (b) fenol; (c) benzonitril, lewat garam diazonium. ||| (a) HNO₃/H₂SO₄ lalu Fe/HCl; (b) anilina → NaNO₂/HCl → H₂O, panas; (c) anilina → NaNO₂/HCl → CuCN
+Tunjukkan cara mengubah propuna menjadi (a) aseton; (b) propanal; (c) propena. ||| (a) H₂O, H₂SO₄, HgSO₄; (b) disiamilboran lalu H₂O₂, NaOH; (c) H₂, Lindlar
+Mengapa alkohol disebut "pusat" peta interkonversi gugus fungsi? ||| alkohol dapat diubah menjadi hampir semua gugus (halida, alkena, eter, karbonil, asam) dan dibuat dari hampir semua gugus
+Tunjukkan cara mengubah etilbenzena menjadi asam benzoat dan menjadi 1-feniletanol. ||| KMnO₄, panas; NBS, cahaya lalu OH⁻ (atau NBS lalu H₂O)
+
+## Subbab 16.3: Membentuk ikatan C–C
+
+Pereaksi Grignard dan karbonil apa yang memberi (a) pentan-3-ol; (b) 2-metilbutan-2-ol (dua cara); (c) benzil alkohol? ||| (a) EtMgBr + propanal; (b) EtMgBr + aseton, atau MeMgBr + butanon; (c) PhMgBr + H₂C=O
+Tuliskan produk PhMgBr dengan: (a) etil asetat (berlebih); (b) CO₂ lalu H₃O⁺; (c) metiloksirana lalu H₃O⁺; (d) asetonitril lalu H₃O⁺. ||| (a) 1,1-difeniletanol; (b) asam benzoat; (c) 1-fenilpropan-2-ol; (d) asetofenon
+Buatlah asam 2-metilpropanoat dari 2-bromopropana dengan dua cara. ||| Mg lalu CO₂, H₃O⁺; atau NaCN lalu H₃O⁺, panas (SN2 pada halida sekunder lambat, Grignard lebih baik)
+Buatlah heks-3-una dari asetilena. ||| NaNH₂, EtBr; NaNH₂, EtBr
+Buatlah (*E*)-heks-3-ena dan (*Z*)-heks-3-ena dari asetilena. ||| heks-3-una (soal sebelumnya); Na, NH₃ → (*E*); H₂, Lindlar → (*Z*)
+Mengapa alkilasi ion asetilida dengan 2-bromopropana memberi hasil buruk? ||| asetilida basa kuat; halida sekunder mengalami E2 menghasilkan propena
+Buatlah metilenasikloheksana dari sikloheksanon. Mengapa reaksi Wittig lebih baik daripada Grignard lalu dehidrasi? ||| Ph₃P=CH₂; dehidrasi 1-metilsikloheksanol memberi 1-metilsikloheksena (Zaitsev), bukan alkena eksosiklik
+Buatlah propilbenzena dari benzena. Mengapa alkilasi Friedel–Crafts dengan 1-kloropropana tidak dipakai? ||| asilasi CH₃CH₂COCl/AlCl₃ lalu Wolff–Kishner atau Clemmensen; alkilasi langsung menata ulang karbokation menjadi isopropilbenzena
+Buatlah 1-fenilpentan-1-on dari benzena. ||| pentanoil klorida, AlCl₃
+Gunakan kuprat Gilman untuk membuat 2-metilheksana dari bahan yang lebih kecil. ||| ((CH₃)₂CH)₂CuLi + 1-bromobutana, atau (CH₃CH₂CH₂CH₂)₂CuLi + 2-bromopropana
+@grig [P] Usulkan dua sintesis 3-metilpentan-3-ol dengan Grignard + keton, dan satu dengan Grignard + ester. ||| EtMgBr + butanon; MeMgBr + pentan-3-on; 2 EtMgBr + metil asetat
+Bagaimana menambahkan tepat satu karbon pada rantai 1-bromobutana sehingga diperoleh (a) asam pentanoat; (b) pentan-1-ol; (c) pentan-1-amina? ||| (a) Mg, CO₂ atau NaCN, H₃O⁺; (b) Mg, H₂C=O; (c) NaCN lalu LiAlH₄
+Bagaimana menambahkan tepat dua karbon pada fenilmagnesium bromida untuk memperoleh 2-feniletanol? ||| oksirana lalu H₃O⁺
+Mengapa Grignard tidak dapat dibuat dari 4-bromobutan-1-ol atau 4-bromobutan-2-on? ||| OH memprotonasi Grignard; C=O diserang Grignard dalam molekul yang sama
+
+## Subbab 16.4: Analisis retrosintesis
+
+Apa arti panah ⇒ dalam retrosintesis? ||| "dapat dibuat dari"
+Bedakan sinton dan padanan sintetik, dan beri dua contoh. ||| sinton: potongan bermuatan ideal; padanan: pereaksi nyata; R⁻ ↔ RMgBr; R⁺ ↔ RBr
+Tunjukkan padanan sintetik untuk sinton: (a) CH₃⁻; (b) ⁻C≡CH; (c) CH₃CH₂⁺; (d) CH₃C⁺=O; (e) ⁺COOH; (f) C₆H₅⁻. ||| (a) CH₃MgBr atau CH₃Li; (b) HC≡CNa; (c) CH₃CH₂Br; (d) CH₃COCl; (e) CO₂; (f) C₆H₅MgBr
+Tuliskan diskoneksi dan sintesis maju untuk 1-sikloheksiletanol. ||| ⇒ sikloheksanakarbaldehida + CH₃MgBr, atau asetaldehida + sikloheksil-MgBr
+Tuliskan diskoneksi dan sintesis maju untuk etil propil eter (Williamson). Pasangan mana yang lebih baik? ||| CH₃CH₂O⁻ + 1-bromopropana atau CH₃CH₂CH₂O⁻ + bromoetana; keduanya primer, keduanya baik
+Tuliskan diskoneksi untuk *tert*-butil metil eter. Mengapa hanya satu pasangan Williamson yang berhasil? ||| (CH₃)₃CO⁻ + CH₃I; pasangan CH₃O⁻ + (CH₃)₃CBr memberi eliminasi
+@retro [P] Lakukan analisis retrosintesis 2-metil-1-fenilpropan-2-ol, C₆H₅CH₂C(OH)(CH₃)₂, dan tuliskan sintesis maju dari toluena dan aseton. ||| ⇒ benzil-MgBr + aseton; toluena → NBS, cahaya → benzil bromida → Mg → + aseton → H₃O⁺
+Rancang sintesis oktan-4-on dari butanal dan 1-bromobutana. ||| 1-bromobutana → Mg → + butanal → oktan-4-ol → PCC
+Rancang sintesis 2-metilpentan-3-on dari bahan dengan paling banyak empat karbon. ||| isobutiraldehida (2-metilpropanal) + EtMgBr → 2-metilpentan-3-ol → PCC
+Rancang sintesis asam 3-fenilpropanoat dari benzil bromida. ||| benzil-MgBr + oksirana → 3-fenilpropan-1-ol → H₂CrO₄; atau benzil bromida + ⁻CH(COOEt)₂ (Kimia Organik 2)
+Rancang sintesis 1-fenilbutan-1-on dari benzena. ||| butanoil klorida, AlCl₃
+Rancang sintesis 4-metilpentan-2-ol dari aldehida dan Grignard yang sesuai (dua cara). ||| isobutil-MgBr + asetaldehida; CH₃MgBr + 3-metilbutanal
+Mengapa diskoneksi yang membelah molekul di tengah biasanya lebih baik daripada yang memotong satu atom di ujung? ||| menyederhanakan masalah paling banyak, memungkinkan sintesis konvergen, bahan lebih kecil
+
+## Subbab 16.5: Selektivitas: kemo-, regio-, dan stereoselektivitas
+
+Definisikan kemoselektivitas, regioselektivitas, dan stereoselektivitas dengan satu contoh masing-masing. ||| gugus mana (NaBH₄: keton bukan ester); posisi mana (Markovnikov); stereoisomer mana (Lindlar: *cis*)
+@kemo [P] Tuliskan produk reaksi metil 4-asetilbenzoat dengan (a) NaBH₄; (b) LiAlH₄ lalu H₂O; (c) NaOH lalu H₃O⁺. ||| (a) metil 4-(1-hidroksietil)benzoat; (b) 1-[4-(hidroksimetil)fenil]etanol; (c) asam 4-asetilbenzoat
+Pereaksi apa yang mengoksidasi alkohol primer menjadi aldehida tanpa meneruskan ke asam? ||| PCC (atau Swern)
+Tuliskan pereaksi untuk mengubah heks-5-en-2-on menjadi (a) heksan-2-on; (b) heks-5-en-2-ol. ||| (a) H₂, Pd; (b) NaBH₄
+Buatlah *m*-kloroanilina dari benzena. ||| nitrasi → klorinasi (Cl₂, FeCl₃; NO₂ pengarah *meta*) → reduksi (Fe, HCl)
+Buatlah *p*-kloroanilina dari benzena. ||| klorinasi → nitrasi (pisahkan *para*) → reduksi
+Buatlah asam *m*-bromobenzoat dan asam *p*-bromobenzoat dari toluena. ||| *m*: KMnO₄ lalu Br₂/FeBr₃; *p*: Br₂/FeBr₃ (pisahkan *para*) lalu KMnO₄
+@urutan [P] Buatlah *m*-nitroasetofenon dan jelaskan mengapa urutan sebaliknya (nitrasi dulu) gagal. ||| asilasi Friedel–Crafts (CH₃COCl, AlCl₃) lalu nitrasi (COCH₃ pengarah *meta*); nitrobenzena terlalu dinonaktifkan untuk Friedel–Crafts
+Pereaksi apa yang memberi 2-metilbutan-2-ol dan pereaksi apa yang memberi 3-metilbutan-2-ol dari 2-metilbut-2-ena? ||| H₃O⁺ (atau oksimerkurasi); BH₃ lalu H₂O₂, NaOH
+Ramalkan produk pembukaan metiloksirana dengan (a) CH₃O⁻ dalam CH₃OH; (b) CH₃OH dengan H₂SO₄ sedikit. ||| (a) 1-metoksipropan-2-ol (serangan pada C kurang tersubstitusi); (b) 2-metoksipropan-1-ol
+Buatlah *meso*-2,3-dibromobutana dan (±)-2,3-dibromobutana dari but-2-una. ||| *meso*: Na/NH₃ → (*E*)-but-2-ena → Br₂ (adisi *anti*); rasemat: H₂/Lindlar → (*Z*)-but-2-ena → Br₂
+Dari (*R*)-butan-2-ol, buatlah (*S*)-2-azidobutana. ||| TsCl, piridina (retensi) lalu NaN₃ (SN2, inversi)
+Mengapa 2-metilbut-2-ena dengan HBr dan peroksida memberi produk berbeda daripada HBr tanpa peroksida? ||| peroksida: mekanisme radikal, Br pada C kurang tersubstitusi (anti-Markovnikov); tanpa peroksida: karbokation, Markovnikov
+
+## Subbab 16.6: Gugus pelindung dalam rancangan
+
+Sebutkan tiga syarat gugus pelindung yang baik. ||| mudah dipasang, tahan kondisi reaksi, mudah dilepas
+Gugus pelindung apa untuk: (a) keton terhadap Grignard; (b) alkohol terhadap Grignard; (c) amina terhadap oksidator; (d) amina yang harus dilepas dengan asam? ||| (a) asetal siklik; (b) eter silil (TBS); (c) asetamida; (d) Boc
+@lindung [P] Ubah 4-bromobenzaldehida menjadi asam 4-formilbenzoat. ||| asetal (etilena glikol, H⁺) → Mg → CO₂ → H₃O⁺ (memprotonasi karboksilat dan melepas asetal)
+Mengapa asetal tahan terhadap LiAlH₄ dan Grignard tetapi mudah dilepas oleh asam? ||| asetal adalah eter ganda tanpa C=O dan tanpa H asam; dalam asam, O terprotonasi dan ion oksokarbenium terbentuk
+Mengapa eter silil dilepas dengan ion fluorida? ||| ikatan Si–F sangat kuat
+Mengapa anilina diasetilasi sebelum nitrasi atau brominasi? ||| NH₂ terlalu mengaktifkan (polisubstitusi) dan teroksidasi; NHCOCH₃ lebih lemah, tetap *o*/*p*, lebih besar (dominan *para*)
+Buatlah *p*-nitroanilina dari anilina. ||| Ac₂O → nitrasi → hidrolisis amida
+Buatlah 4-bromoanilina dari anilina (hanya monobrominasi). ||| Ac₂O → Br₂ → hidrolisis
+Mengapa sintesis modern berusaha menghindari gugus pelindung? ||| setiap gugus menambah dua langkah, menurunkan hasil, menambah limbah
+Jelaskan bagaimana gugus nitro berperan sebagai "amina tersembunyi". ||| dipasang dengan SEA, tahan oksidasi dan pengarah *meta*, lalu direduksi menjadi NH₂ di akhir
+
+## Subbab 16.7: Sintesis bertahap dan hasil keseluruhan
+
+Hitung hasil keseluruhan sintesis empat langkah dengan hasil 75% per langkah. ||| 31,6%
+Hitung hasil keseluruhan sintesis tujuh langkah dengan hasil 90% per langkah. ||| 47,8%
+Berapa hasil per langkah rata-rata agar sintesis delapan langkah memberi 50%? ||| 91,7%
+@massa [P] Parasetamol (*M* = 151,16) dibuat dari fenol (*M* = 94,11) dalam tiga langkah: nitrasi dan pemisahan isomer *para* (60%), reduksi (90%), asetilasi (85%). Berapa gram fenol diperlukan untuk 20,0 g parasetamol? ||| hasil keseluruhan 45,9%; 27,1 g fenol
+Sintesis A terdiri atas enam langkah linear dengan 85% per langkah. Sintesis B terdiri atas dua cabang (lima dan tiga langkah) lalu satu penggabungan, semua 85%. Bandingkan hasil keseluruhannya. ||| A: 0,85⁶ = 37,7%; B: rangkaian terpanjang juga enam langkah, 37,7%; tetapi bahan cabang pendek hanya melewati empat langkah (52,2%)
+Mengapa bahan yang mahal sebaiknya dimasukkan selambat mungkin dalam sintesis? ||| sedikit langkah setelahnya, sehingga sedikit yang terbuang
+Mengapa jumlah langkah total bukan ukuran yang tepat untuk membandingkan sintesis linear dan konvergen? ||| hasil ditentukan oleh rangkaian linear terpanjang, bukan jumlah langkah total
+Sebuah langkah memberi produk dengan hasil 95% tetapi produk harus dimurnikan dengan kromatografi yang kehilangan 15%. Berapa hasil efektif langkah itu? ||| 80,8%
+
+## Subbab 16.8: Kimia hijau dan ekonomi atom
+
+Hitung ekonomi atom eliminasi 2-bromopropana (122,99) dengan NaOCH₂CH₃ (68,05) menjadi propena (42,08). ||| 22,0%
+Hitung ekonomi atom esterifikasi Fischer asam asetat (60,05) dan etanol (46,07) menjadi etil asetat (88,11). ||| 83,0%
+Hitung ekonomi atom hidrasi etena menjadi etanol dan jelaskan mengapa nilainya 100%. ||| 100%; reaksi adisi, semua atom masuk produk
+@ae [P] Bandingkan dua cara membuat metilenasikloheksana (C₇H₁₂, 96,17): (a) reaksi Wittig sikloheksanon (98,15) dengan Ph₃P=CH₂ (276,32); (b) eliminasi E2 (bromometil)sikloheksana (177,08) dengan *t*-BuOK (112,21). Hitung ekonomi atom keduanya dan sebutkan kelebihan cara (a). ||| (a) 25,7%; (b) 33,2%; (a) tidak memerlukan halida dan tidak bersaing dengan SN2
+Sebuah pabrik menghasilkan 1,0 ton produk dan 25 ton limbah. Hitung faktor E dan sebutkan industri yang khas mempunyai nilai seperti itu. ||| 25; farmasi atau kimia halus
+Sebutkan lima dari dua belas asas kimia hijau. ||| cegah limbah; ekonomi atom; pereaksi kurang berbahaya; pelarut aman; efisiensi energi; bahan terbarukan; kurangi turunan; katalis
+Mengapa katalis lebih disukai daripada pereaksi stoikiometrik? ||| dipakai dalam jumlah kecil dan tidak menjadi limbah stoikiometrik
+Jelaskan perbedaan antara hasil, ekonomi atom, dan faktor E. ||| hasil: produk nyata/teoretis; ekonomi atom: massa produk/massa pereaksi (teoretis); faktor E: limbah nyata/produk
+Mengapa proses BHC untuk ibuprofen dianggap lebih hijau daripada proses Boots? ||| tiga langkah lawan enam; semua katalitik; ekonomi atom 77% (±99% dengan pemanfaatan asam asetat) lawan 40%
+
+## Subbab 16.9: Studi kasus: sintesis obat sederhana
+
+Tuliskan sintesis parasetamol dari fenol dan sebutkan peran setiap langkah. ||| nitrasi (pengarah *o*/*p*), reduksi NO₂, asetilasi N kemoselektif
+Mengapa 4-aminofenol diasetilasi pada N, bukan pada O? ||| N lebih nukleofilik daripada O fenol
+Hitung ekonomi atom langkah esterifikasi asam 4-nitrobenzoat (167,12) dengan etanol (46,07) menjadi etil 4-nitrobenzoat (195,17). ||| 91,5%
+@benzo [P] Seorang mahasiswa membuat benzokaina dari toluena dengan urutan: oksidasi KMnO₄ → nitrasi → esterifikasi → reduksi. Apa produknya dan mengapa salah? ||| etil 3-aminobenzoat (isomer *meta*); COOH adalah pengarah *meta*
+Tuliskan sintesis aspirin dari asam salisilat dan hitung ekonomi atomnya. ||| Ac₂O (H⁺ katalis); 75,0%
+Mengapa gugus NO₂ dalam sintesis benzokaina direduksi paling akhir? ||| amina akan teroksidasi oleh KMnO₄ dan bersaing dalam esterifikasi; NO₂ sebagai amina tersembunyi
+Usulkan sintesis prokaina, H₂NC₆H₄COOCH₂CH₂N(C₂H₅)₂, dari asam 4-nitrobenzoat. ||| SOCl₂ → + HOCH₂CH₂N(C₂H₅)₂ → H₂, Pd
+Usulkan sintesis fenasetin (4-etoksiasetanilida) dari parasetamol. ||| NaOH lalu CH₃CH₂I (sintesis eter Williamson pada fenoksida)
