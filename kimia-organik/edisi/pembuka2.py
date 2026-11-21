@@ -222,3 +222,23 @@ ax.text(6.6, 1.0, 'm/z 58 = M⁺·\n43 = CH₃CO⁺', ha='left', color=TUA, font
 ax.text(W / 2, 4.65, 'aseton dalam dua spektrum', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
 simpan(14, f, 'Aseton dilihat dengan dua alat: spektrum inframerah memperlihatkan pita C=O yang kuat pada 1715 cm⁻¹, dan spektrum massa memperlihatkan ion molekul m/z 58 serta ion asetil m/z 43 dari pemutusan α (skematis).')
 print('ok14')
+
+# Bab 15: spektrum 1H NMR etil asetat (skematis)
+from math import comb as _comb
+f, ax = kanvas()
+X = np.linspace(-0.3, 5.0, 20000)
+def _lor(x, p, a, w=0.012): return a * (w / 2) ** 2 / ((x - p) ** 2 + (w / 2) ** 2)
+Yn = np.zeros_like(X); J = 0.07
+for d, n, k in [(4.12, 2, 3), (2.05, 3, 0), (1.26, 3, 2), (0.0, 1.5, 0)]:
+    for i in range(k + 1): Yn += _lor(X, d + (i - k / 2) * J, n * _comb(k, i) / 2 ** k)
+Yn = Yn / Yn.max()
+xs = 7.6 - (X + 0.3) / 5.3 * 7.0
+for lw, al in [(9, .08), (2.4, 1)]: ax.plot(xs, 0.7 + 2.9 * Yn, color=UT, lw=lw, alpha=al)
+I = np.cumsum(np.where(X > 0.5, Yn, 0)[::-1])[::-1]; I = I / I.max()
+ax.plot(xs, 1.0 + 2.6 * I, color=EM, lw=2.2)
+for d, t in [(4.12, 'kuartet'), (2.05, 'singlet'), (1.26, 'triplet')]:
+    x = 7.6 - (d + 0.3) / 5.3 * 7.0; ax.text(x, 0.35, t, ha='center', color=TUA, fontsize=11, family='Liberation Sans')
+ax.text(W / 2, 4.65, 'etil asetat dalam spektrum NMR', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
+ax.text(7.6 - (0.0 + 0.3) / 5.3 * 7.0, 2.3, 'TMS', ha='center', color=TUA, fontsize=10, family='Liberation Sans')
+simpan(15, f, 'Spektrum ¹H NMR etil asetat: kuartet CH₂ pada δ 4,1, singlet CH₃ asetil pada δ 2,1, dan triplet CH₃ pada δ 1,3, dengan kurva integrasi 2 : 3 : 3 (skematis).')
+print('ok15')

@@ -386,3 +386,24 @@ pola isotop
 penataan ulang McLafferty
 ion tropilium
 massa eksak
+resonansi magnet inti
+spin inti
+frekuensi Larmor
+rasio giromagnetik
+transformasi Fourier
+geseran kimia
+perisai
+tetrametilsilana
+anisotropi magnet
+arus cincin
+proton diastereotopik
+proton enantiotopik
+integrasi
+pemecahan spin–spin
+aturan n + 1
+tetapan kopling
+persamaan Karplus
+doblet dari doblet
+pertukaran D2O
+DEPT
+pemisahan proton pita lebar
