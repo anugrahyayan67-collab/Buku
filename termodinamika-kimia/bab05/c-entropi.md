@@ -8,9 +8,9 @@ $$
 
 Apa artinya? Besaran yang jumlahnya nol untuk setiap siklus adalah ciri khas fungsi keadaan. Ketinggian, misalnya: berjalan mengelilingi bukit dan kembali ke titik awal, jumlah semua naik-turun kita tepat nol. Kalor bukan fungsi keadaan, tetapi kalor reversibel dibagi suhu tampaknya ya.
 
-Clausius menunjukkan bahwa hasil ini berlaku untuk **sembarang** siklus reversibel, bukan hanya siklus Carnot. Gagasannya: setiap siklus reversibel pada diagram *p*–*V* dapat didekati dengan banyak sekali siklus Carnot kecil yang berdampingan. Isoterm dan adiabat yang dipakai bersama oleh dua siklus kecil yang bertetangga dijalani dua kali dalam arah berlawanan, sehingga sumbangannya saling menghapus, dan yang tersisa hanyalah batas luar, yaitu siklus aslinya (Gambar 5.2). Karena setiap siklus kecil memenuhi (5.6), jumlah seluruhnya juga nol:
+Clausius menunjukkan bahwa hasil ini berlaku untuk **sembarang** siklus reversibel, bukan hanya siklus Carnot. Gagasannya: setiap siklus reversibel pada diagram *p*–*V* dapat didekati dengan banyak sekali siklus Carnot kecil yang berdampingan. Isoterm dan adiabat yang dipakai bersama oleh dua siklus kecil yang bertetangga dijalani dua kali dalam arah berlawanan, sehingga sumbangannya saling menghapus, dan yang tersisa hanyalah batas luar, yaitu siklus aslinya (Gambar 5.5). Karena setiap siklus kecil memenuhi (5.6), jumlah seluruhnya juga nol:
 
-![Gambar 5.2 Siklus reversibel sembarang (kurva tebal) dipetak oleh isoterm (jingga) dan adiabat (biru). Setiap petak kecil adalah satu siklus Carnot; makin rapat petaknya, makin tepat gabungan petak-petak itu mengikuti siklus aslinya.](fig/clausius.png){width=62%}
+![Gambar 5.5 Siklus reversibel sembarang (kurva tebal) dipetak oleh isoterm (jingga) dan adiabat (biru). Setiap petak kecil adalah satu siklus Carnot; makin rapat petaknya, makin tepat gabungan petak-petak itu mengikuti siklus aslinya.](fig/clausius.png){width=62%}
 
 $$
 \oint\frac{dq_\text{rev}}{T} = 0 .
@@ -68,6 +68,10 @@ Hitung entropi penguapan pada titik didih normal untuk benzena (30,8 kJ mol⁻¹
 
 **Memahami hasil.** Untuk cairan nonpolar, entropi penguapan hampir sama, sekitar 85 J K⁻¹ mol⁻¹. Pengamatan ini disebut **aturan Trouton**. Alasannya: penguapan membebaskan molekul dari ruang cairan ke ruang gas yang kira-kira sama besar untuk semua zat pada tekanan 1 atm, sehingga kenaikan "penyebarannya" pun kira-kira sama. Air dan etanol menyimpang jauh ke atas, karena molekul-molekulnya di dalam cairan sudah tertata oleh ikatan hidrogen; penguapan menghancurkan keteraturan tambahan itu. Aturan Trouton berguna untuk menaksir entalpi penguapan dari titik didih: $\Delta_\text{vap}H \approx (85\ \text{J K}^{-1}\text{mol}^{-1})T_\text{b}$.
 :::
+
+Dengan entropi sebagai sumbu, siklus Carnot berubah menjadi bentuk yang sangat sederhana. Pada diagram *T*–*S* (Gambar 5.6), kedua tahap isotermal adalah garis mendatar dan kedua tahap adiabatik reversibel adalah garis tegak, karena entropinya tidak berubah. Siklusnya menjadi persegi panjang. Karena $dq_\text{rev} = T\,dS$, luas di bawah setiap jalur sama dengan kalor yang dipertukarkan, dan luas di dalam persegi panjang sama dengan kerja bersih. Efisiensi Carnot terbaca langsung dari gambar: perbandingan luas hijau terhadap seluruh luas di bawah garis atas, yaitu $(T_\text{h} - T_\text{c})/T_\text{h}$.
+
+![Gambar 5.6 Siklus Carnot pada diagram suhu–entropi. Tahap isotermal mendatar, tahap adiabatik tegak. Luas di bawah garis atas adalah kalor yang diserap, luas di bawah garis bawah adalah kalor yang dibuang, dan selisihnya (luas hijau) adalah kerja.](fig/ts.png){width=72%}
 
 ::: {.kuis}
 **Kuis cepat 5.6** Gas ideal memuai secara isotermal sampai volumenya tiga kali. Bila prosesnya dilakukan secara tak reversibel, apakah Δ*S* gas lebih besar, lebih kecil, atau sama dengan bila dilakukan secara reversibel?
@@ -186,9 +190,9 @@ Mari kita lihat artinya dengan contoh paling sederhana. Bayangkan empat molekul 
 
 Keadaan "dua di kiri, dua di kanan" dapat dicapai dengan enam cara, sedangkan "semua di kiri" hanya dengan satu cara. Keadaan dengan *W* terbesar adalah keadaan yang paling mungkin, dan menurut (5.15), juga keadaan dengan entropi terbesar.
 
-Dengan empat molekul, peluang menemukan semuanya di kiri masih 1/16, tidak terlalu kecil. Tetapi peluang itu turun sangat cepat dengan banyaknya molekul: untuk 100 molekul, $2^{-100} \approx 8 \times 10^{-31}$; untuk satu mol, $2^{-6 \times 10^{23}}$, angka yang begitu kecil sehingga tidak ada artinya. Gambar 5.3 memperlihatkan bagaimana sebaran peluang menyempit menjadi puncak tajam di tengah ketika banyaknya molekul bertambah.
+Dengan empat molekul, peluang menemukan semuanya di kiri masih 1/16, tidak terlalu kecil. Tetapi peluang itu turun sangat cepat dengan banyaknya molekul: untuk 100 molekul, $2^{-100} \approx 8 \times 10^{-31}$; untuk satu mol, $2^{-6 \times 10^{23}}$, angka yang begitu kecil sehingga tidak ada artinya. Gambar 5.7 memperlihatkan bagaimana sebaran peluang menyempit menjadi puncak tajam di tengah ketika banyaknya molekul bertambah.
 
-![Gambar 5.3 Peluang relatif menemukan suatu fraksi molekul di separuh kiri wadah, untuk 10, 100, dan 1000 molekul. Makin banyak molekul, makin tajam puncaknya di 0,5. Untuk satu mol molekul, penyimpangan dari sebaran merata praktis tidak pernah teramati.](fig/binomial.png){width=72%}
+![Gambar 5.7 Peluang relatif menemukan suatu fraksi molekul di separuh kiri wadah, untuk 10, 100, dan 1000 molekul. Makin banyak molekul, makin tajam puncaknya di 0,5. Untuk satu mol molekul, penyimpangan dari sebaran merata praktis tidak pernah teramati.](fig/binomial.png){width=72%}
 
 Inilah makna statistik hukum kedua. Gas tidak memuai karena ada gaya yang mendorongnya, melainkan karena keadaan "tersebar merata" dapat dicapai dengan jumlah cara yang luar biasa lebih banyak daripada keadaan "terkumpul". Molekul yang bergerak acak hampir pasti berakhir dalam keadaan yang paling banyak caranya. Proses kebalikannya tidak mustahil secara mutlak, tetapi peluangnya begitu kecil sehingga tidak akan pernah teramati selama umur semesta.
 

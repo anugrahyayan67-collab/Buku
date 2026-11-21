@@ -8,6 +8,11 @@ Apa bedanya "spontan" dalam termodinamika dan "cepat"? ||| spontan: dapat terjad
 Intan pada suhu kamar secara termodinamika cenderung berubah menjadi grafit. Mengapa intan pada cincin tidak berubah? ||| lajunya sangat lambat (penghalang energi besar)
 Mengapa proses yang spontan dapat menurunkan keteraturan sistem tetapi tidak dapat menurunkan entropi total? ||| lingkungan menerima kalor dan entropinya naik lebih banyak
 
+
+Manakah yang spontan: (a) es mencair pada 10 °C, (b) garam terpisah sendiri dari larutannya, (c) besi berkarat di udara lembap, (d) kalor mengalir dari kopi dingin ke tangan yang hangat? ||| (a) dan (c)
+Mengapa "spontan" tidak berarti "cepat"? Berikan contoh. ||| spontan menyatakan arah, bukan laju; intan → grafit spontan tetapi sangat lambat
+Reaksi yang endoterm, seperti melarutnya NH₄NO₃ dalam air, tetap berlangsung spontan. Apa artinya bagi gagasan bahwa reaksi spontan selalu melepas energi? ||| keliru; yang menentukan arah adalah entropi total
+
 ## Subbab 5.2: Mesin kalor dan pernyataan hukum kedua
 
 Mesin menerima kalor 1000 J dan membuang 650 J per siklus. Berapa kerjanya dan efisiensinya? ||| 350 J; 0,35
@@ -21,6 +26,11 @@ Hitung efisiensi ideal siklus Otto dengan perbandingan kompresi 9 dan $\gamma = 
 
 Apa yang dimaksud mesin abadi jenis kedua? Mengapa ia tidak melanggar hukum pertama? ||| mesin yang mengubah kalor seluruhnya menjadi kerja; energi tetap kekal
 
+
+Mesin menyerap 2000 J dari reservoir panas dan membuang 1200 J ke reservoir dingin per siklus. Hitung kerja dan efisiensinya. ||| 800 J; 0,40
+Nyatakan hukum kedua menurut Kelvin–Planck dan menurut Clausius, lalu jelaskan mengapa keduanya setara. ||| mesin yang melanggar satu dapat dipakai membuat mesin yang melanggar yang lain
+Mengapa mesin kalor harus membuang sebagian kalornya ke reservoir dingin? ||| tanpa membuang kalor, entropi yang masuk bersama $q_\text{h}$ tidak dapat keluar; siklus tidak kembali ke keadaan awal
+
 ## Subbab 5.3: Siklus Carnot tahap demi tahap
 
 Pada tahap mana dalam siklus Carnot kalor dipertukarkan, dan pada tahap mana suhu berubah? ||| isotermal; adiabatik
@@ -29,6 +39,11 @@ Mengapa kerja kedua tahap adiabatik dalam siklus Carnot gas ideal saling menghap
 @carnot [P] Dua mol gas ideal diatomik ($C_{V,\text{m}} = \tfrac52R$) menjalani siklus Carnot antara 600 K dan 300 K, dengan $V_\text{A} = 5{,}00$ L dan $V_\text{B} = 15{,}0$ L. Hitung $V_\text{C}$, $V_\text{D}$, $q_\text{h}$, $q_\text{c}$, kerja tahap adiabatik ekspansi, dan efisiensinya. ||| 84,9 L; 28,3 L; +10,96 kJ; −5,48 kJ; −12,47 kJ; 0,50
 Pada Contoh 5.4, bila gasnya diatomik, apakah volume titik C dan efisiensinya berubah? ||| $V_\text{C}$ berubah (γ berbeda); efisiensi tetap 0,40
 Hitung Δ*H* untuk satu siklus Carnot penuh. Mengapa hasilnya pasti nol? ||| 0; *H* fungsi keadaan
+
+
+Pada tahap mana dalam siklus Carnot gas menyerap kalor, dan pada tahap mana suhunya berubah? ||| isotermal panas; kedua tahap adiabatik
+Mengapa tahap isotermal siklus Carnot harus dijalankan sangat lambat? ||| supaya reversibel: suhu gas hampir sama dengan reservoir
+Pada Gambar 5.2, mengapa luas di dalam siklus sama dengan kerja bersih per siklus? ||| kerja = −∮*p dV*; luas di bawah ekspansi dikurangi luas di bawah kompresi
 
 ## Subbab 5.4: Efisiensi mesin Carnot
 
@@ -44,6 +59,12 @@ Mengapa nol mutlak tidak dapat dicapai menurut efisiensi Carnot? ||| mesin yang 
 
 Dua mesin Carnot dirangkai: mesin pertama bekerja antara $T_\text{h}$ dan $T_\text{m}$, mesin kedua menerima kalor buangan mesin pertama dan bekerja antara $T_\text{m}$ dan $T_\text{c}$. Tunjukkan bahwa efisiensi gabungannya $1 - T_\text{c}/T_\text{h}$. ||| $|q_\text{c}|/q_\text{h} = (T_\text{m}/T_\text{h})(T_\text{c}/T_\text{m})$
 
+
+Hitung efisiensi Carnot untuk mesin antara 600 K dan 300 K, dan antara 1100 K dan 310 K. ||| 0,50; 0,72
+Pembangkit listrik 1000 MW bekerja dengan efisiensi 38%. Berapa kalor yang dibuang ke sungai atau menara pendingin per detik? ||| 1630 MW
+Dua mesin Carnot dirangkai: yang pertama antara 900 K dan 600 K, yang kedua memakai kalor buangan pertama dan membuang ke 300 K. Berapa efisiensi gabungannya? ||| 2/3, sama dengan satu mesin 900 K → 300 K
+Dari Gambar 5.3, mengapa menaikkan $T_\text{h}$ dari 800 K ke 1400 K hanya menaikkan efisiensi Carnot sekitar 15 poin persen? ||| kurva mendatar: $1 - T_\text{c}/T_\text{h}$ makin peka hanya bila $T_\text{h}$ kecil
+
 ## Subbab 5.5: Mesin pendingin dan pompa kalor
 
 Hitung COP maksimum kulkas yang bagian dalamnya 0 °C di dapur 30 °C. ||| 9,1
@@ -55,6 +76,12 @@ Kulkas dengan COP 5 menerima kerja 100 J. Berapa kalor yang diambil dari dalam d
 Pompa kalor nyata dengan COP 3,0 memanaskan rumah. Berapa kWh listrik untuk 15 kWh kalor? ||| 5,0 kWh
 
 Mengapa memanaskan rumah dengan pompa kalor lebih hemat listrik daripada dengan pemanas listrik biasa? ||| pemanas listrik: 1 J listrik → 1 J kalor; pompa kalor: 1 J listrik memindahkan beberapa joule kalor dari luar
+
+
+Hitung COP maksimum pendingin dengan ruang beku −18 °C dan dapur 25 °C, serta pompa kalor antara 0 °C dan 35 °C. ||| 5,9; 8,8
+Berapa kerja minimum untuk mengambil 100 kJ kalor dari ruang beku −18 °C ke dapur 25 °C? ||| 16,9 kJ
+Pompa kalor memasok 10,0 kW kalor ke rumah pada 40 °C dari udara luar 5 °C. Berapa daya listrik minimumnya? ||| 1,12 kW
+Lemari es dibiarkan terbuka di ruangan tertutup. Apakah ruangan menjadi dingin? Jelaskan dengan hukum pertama dan kedua. ||| tidak; ruangan memanas karena kerja kompresor ikut menjadi kalor
 
 ## Subbab 5.6: Entropi sebagai fungsi keadaan
 
@@ -70,6 +97,12 @@ Mengapa entropi penguapan metana (73 J K⁻¹ mol⁻¹) di bawah nilai Trouton? 
 
 Satu mol gas ideal monoatomik dibawa dari (300 K, 10,0 L) ke (600 K, 20,0 L). Hitung Δ*S* melalui jalan reversibel: ekspansi isotermal lalu pemanasan pada volume tetap. ||| $R\ln2 + \tfrac32R\ln2 = 14{,}4$ J K⁻¹
 
+
+Hitung Δ*S* untuk melelehkan 1 mol es pada 0 °C dan menguapkan 1 mol air pada 100 °C. ||| +22,0 J K⁻¹; +109,0 J K⁻¹
+Hitung Δ*S* untuk 2,00 mol gas ideal yang volumenya menjadi dua kali pada suhu tetap. ||| +11,5 J K⁻¹
+Hitung Δ*S* untuk memanaskan 1,00 kg air dari 20 °C ke 80 °C. ||| +779 J K⁻¹
+Dari Gambar 5.6, mengapa siklus Carnot berbentuk persegi panjang pada diagram *T*–*S*? ||| isotermal: *T* tetap (mendatar); adiabatik reversibel: *S* tetap (tegak)
+
 ## Subbab 5.7: Ketaksamaan Clausius
 
 Kalor 500 J mengalir dari benda besar 400 K ke benda besar 300 K. Hitung $\Delta S_\text{total}$. ||| +0,417 J K⁻¹
@@ -83,6 +116,12 @@ Dua mol gas ideal memuai ke ruang hampa sampai volumenya tiga kali. Hitung $\Del
 Hitung entropi pencampuran 1,00 mol Ar dengan 3,00 mol He pada suhu dan tekanan tetap. ||| +18,7 J K⁻¹
 Hitung Δ*S* total ketika 1,00 kg air 100 °C dicampur dengan 1,00 kg air 0 °C dalam wadah terisolasi. ||| +101 J K⁻¹
 
+
+Kalor 1000 J mengalir langsung dari benda 400 K ke benda 300 K. Hitung Δ*S* total. ||| +0,833 J K⁻¹
+@campurair [P] Sebanyak 100 g air 80 °C dicampur dengan 100 g air 20 °C dalam wadah terisolasi. Hitung Δ*S* total dan jelaskan tandanya. ||| +3,62 J K⁻¹; proses spontan tak reversibel
+Satu mol gas ideal memuai bebas ke ruang hampa sampai volumenya dua kali. Hitung Δ*S* sistem, lingkungan, dan total. ||| +5,76; 0; +5,76 J K⁻¹
+Mengapa entropi sistem boleh turun, misalnya air membeku di lemari es, tanpa melanggar hukum kedua? ||| entropi lingkungan naik lebih banyak; yang tidak boleh turun adalah entropi total
+
 ## Subbab 5.8: Entropi dan peluang: rumus Boltzmann
 
 Ada berapa cara menyusun 6 molekul sehingga tepat 3 di kiri dan 3 di kanan? ||| 20
@@ -95,3 +134,8 @@ Hitung $\ln 100!$ secara tepat dan dengan rumus Stirling. Berapa persen selisihn
 Berapa entropi susunan 10 kartu berbeda yang dikocok, dalam J K⁻¹? ||| $2{,}09 \times 10^{-22}$ J K⁻¹
 
 @pauling [P] Pauling menunjukkan bahwa dalam es, setiap molekul H₂O mempunyai rata-rata 3/2 susunan yang diizinkan. Hitung entropi residu es dan bandingkan dengan nilai terukur 3,4 J K⁻¹ mol⁻¹. ||| $R\ln(3/2) = 3{,}37$ J K⁻¹ mol⁻¹
+
+Berapa peluang keempat molekul gas berada di separuh kiri wadah? Dan peluang 100 molekul? ||| 1/16; $7{,}9 \times 10^{-31}$
+Gunakan $S = k\ln W$ untuk menghitung kenaikan entropi 1 mol gas yang volumenya menjadi dua kali, dengan $W$ naik menjadi $2^{N_\text{A}}$ kali. ||| $R\ln2$ = 5,76 J K⁻¹ mol⁻¹
+Kristal CO pada 0 K mempunyai entropi sisa sekitar *R* ln 2. Jelaskan asalnya. ||| setiap molekul dapat menghadap C–O atau O–C dengan energi hampir sama
+

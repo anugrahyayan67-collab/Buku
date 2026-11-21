@@ -74,6 +74,8 @@ Hukum kedua termodinamika lahir bukan dari laboratorium kimia, melainkan dari ru
 
 Setiap **mesin kalor** bekerja dalam **siklus**: ia menerima kalor $q_\text{h}$ dari sumber panas bersuhu $T_\text{h}$ (misalnya ketel uap), melakukan kerja, membuang sebagian kalor $q_\text{c}$ ke penampung dingin bersuhu $T_\text{c}$ (misalnya sungai atau udara), lalu kembali ke keadaan awalnya untuk memulai siklus berikutnya. Karena keadaan awal dan akhir siklus sama, $\Delta U = 0$ untuk satu siklus penuh, dan hukum pertama memberi
 
+![Gambar 5.1 Kiri: mesin kalor mengambil kalor dari reservoir panas, mengubah sebagian menjadi kerja, dan membuang sisanya ke reservoir dingin. Kanan: mesin pendingin atau pompa kalor menjalankan siklus terbalik; dengan kerja dari luar, kalor dipindahkan dari reservoir dingin ke reservoir panas (subbab 5.5).](fig/mesin.png){width=86%}
+
 $$
 |w| = q_\text{h} - |q_\text{c}| .
 $$

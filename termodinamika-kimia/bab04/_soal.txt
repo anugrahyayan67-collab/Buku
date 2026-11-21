@@ -77,6 +77,10 @@ Entalpi pembakaran grafit −393,51 dan intan −395,41 kJ mol⁻¹. Hitung Δ*H
 Dari entalpi pembakaran CH₄ (−890,36), C (−393,51), dan H₂ (−285,83 kJ mol⁻¹), hitung $\Delta_\text{f}H^\circ$ metana. ||| −74,81 kJ mol⁻¹
 Entalpi pembakaran C₂H₂ adalah −1299,6 kJ mol⁻¹. Dengan data Contoh 4.10, hitung Δ*H* untuk $\text{C}_2\text{H}_2 + 2\text{H}_2 \to \text{C}_2\text{H}_6$. ||| −311,5 kJ mol⁻¹
 
+
+Dari S(s) + O₂ → SO₂, Δ*H*° = −296,83 kJ mol⁻¹, dan SO₂ + ½O₂ → SO₃, Δ*H*° = −98,9 kJ mol⁻¹, hitung Δ$_\text{f}$*H*°(SO₃, g). ||| −395,7 kJ mol⁻¹
+Pada Gambar 4.2, mengapa panjang panah langsung C → CO₂ harus sama dengan jumlah kedua panah lewat CO? ||| entalpi fungsi keadaan; awal dan akhir sama
+
 ## Subbab 4.7: Entalpi pembentukan standar
 
 Hitung $\Delta_\text{r}H^\circ$ untuk $\text{CaCO}_3(s) \to \text{CaO}(s) + \text{CO}_2(g)$, dengan $\Delta_\text{f}H^\circ$ CaO(s) = −635,09 kJ mol⁻¹. ||| +178,3 kJ mol⁻¹
