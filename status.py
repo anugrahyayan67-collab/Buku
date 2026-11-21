@@ -15,8 +15,8 @@ for f in sorted(glob.glob('*/RENCANA.md')):
     nbab = len(glob.glob(os.path.join(os.path.dirname(f), 'bab[0-9][0-9]')))
     print(f'  {os.path.dirname(f):22s} {done}/{len(bab)} bab ☑, {nbab} folder bab' + (f' | berikutnya: {todo[0]}' if todo else ''))
 print('\n== PDF akhir di pdf/:', ', '.join(sorted(os.path.basename(p) for p in glob.glob('pdf/*.pdf'))))
-print('\n== Antrean (ANTREAN.md): tiga butir terbuka pertama')
+print('\n== Pekerjaan berikutnya (PROMPT-AKUN-LAIN.md bagian 3): tiga butir terbuka pertama')
 n = 0
-for line in open('ANTREAN.md'):
-    m = re.match(r'- ([☐◐]) \*\*(.+?)\*\*', line)
+for line in open('PROMPT-AKUN-LAIN.md'):
+    m = re.match(r'\d+\. ([☐◐]) \*\*(.+?)\*\*', line)
     if m and n < 3: print(f'  {m.group(1)} {m.group(2)}'); n += 1

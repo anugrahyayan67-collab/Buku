@@ -2,32 +2,43 @@
 
 Berkas ini membuat sesi baru (akun lain, perangkat lain, atau sesi yang konteksnya sudah hilang) langsung paham proyek, tahu apa yang harus dikerjakan tanpa disuruh satu per satu, dan tahu alat apa yang tersedia.
 
-**Cara pakai.** Tempelkan blok di bagian "Teks untuk ditempel" ke pesan pertama sesi baru, atau ke *instruksi proyek / custom instructions* akun itu. Sisanya (bagian 1–9) adalah rincian yang akan dibaca sesi itu sendiri dari repo.
+**Cara pakai di akun lain.**
+
+1. Kirim ke akun itu (unggah ke chat atau ke *Project knowledge*):
+   - `sumber.zip`: semua berkas repo kecuali PDF (naskah Markdown, `_soal.txt`, `_akhir.md`, skrip `alat/` dan `edisi/`, gambar `fig/`, semua pedoman). Dibuat dengan `git ls-files | grep -v '\.pdf$' | zip -@ sumber.zip`.
+   - PDF akhir dari `pdf/` (Fisika Umum, Kimia Kuantum, Kimia Fisika 1, dan Kimia Organik 1 bila sudah ada) sebagai bacaan dan pembanding hasil.
+   - Berkas ini juga ada di dalam zip, tetapi boleh diunggah terpisah supaya langsung terbaca.
+2. Tempelkan blok "Teks untuk ditempel" ke pesan pertama, atau ke instruksi proyek/custom instructions akun itu.
+3. Bila akun itu memakai **Claude Code** (web atau terminal), sebaiknya buat repo GitHub baru dari isi `sumber.zip` (atau beri akses ke repo lama), supaya alat cetak dan commit berjalan seperti biasa. Bila hanya **chat claude.ai** dengan eksekusi kode, naskah dan gambar tetap bisa dikerjakan, tetapi cetak PDF utuh (pandoc + Chromium) mungkin tidak tersedia; dalam hal itu kirim berkas `.md` dan gambar yang berubah, lalu cetak di sesi yang punya alat lengkap.
+
+Sisanya (bagian 1–9) adalah rincian yang dibaca sesi itu sendiri.
 
 ---
 
 ## Teks untuk ditempel
 
 ```
-Kamu melanjutkan proyek seri buku kuliah S1 Kimia berbahasa Indonesia di repo GitHub
-anugrahyayan67-collab/Buku (cabang kerja: kimia-kuantum-bab01). Penyusun membaca hasilnya
-di iPad dan berbicara santai dalam bahasa Indonesia; jawab juga santai, tetapi isi buku
-ditulis dalam bahasa Indonesia baku yang enak dibaca.
+Kamu melanjutkan proyek seri buku kuliah S1 Kimia berbahasa Indonesia milik penyusun.
+Penyusun membaca hasilnya di iPad dan berbicara santai dalam bahasa Indonesia; jawab juga
+santai, tetapi isi buku ditulis dalam bahasa Indonesia baku yang enak dibaca.
 
-Sebelum apa pun:
-1. Siapkan repo (clone bila belum ada) dan jalankan `python3 status.py` di akar repo.
+Bahan yang kuberikan: sumber.zip (seluruh naskah, skrip, gambar, dan pedoman) dan
+PDF akhir buku. Langkah pertama:
+1. Ekstrak sumber.zip (atau pakai repo GitHub bila tersedia) dan jalankan
+   `python3 status.py` di akar folder.
 2. Baca, berurutan: CLAUDE.md, PROMPT-AKUN-LAIN.md, PROMPT-BUKU.md, PANDUAN-BUKU.md,
-   ANTREAN.md, lalu RENCANA.md dan PEDOMAN.md di folder buku yang akan dikerjakan.
+   lalu RENCANA.md dan PEDOMAN.md di folder buku yang akan dikerjakan.
 
 Cara kerja:
-- Bila penyusun memberi perintah jelas, kerjakan itu.
-- Bila penyusun hanya bilang "lanjut", "gas", "kerjakan", atau tidak memberi perintah
-  khusus, ambil butir ☐ pertama di ANTREAN.md dan kerjakan sampai tuntas tanpa menunggu
-  izin per langkah. Setelah selesai, centang butirnya, commit, push, kirim PDF, laporkan
-  singkat, lalu lanjut ke butir berikutnya selama kuota masih cukup.
-- Bertanya hanya bila benar-benar tidak bisa diputuskan dari berkas di repo.
+- Bila aku memberi perintah jelas, kerjakan itu.
+- Bila aku hanya bilang "lanjut", "gas", "kerjakan", atau tidak memberi perintah
+  khusus, ambil pekerjaan pertama yang belum selesai di bagian 3 PROMPT-AKUN-LAIN.md
+  dan kerjakan sampai tuntas tanpa menunggu izin per langkah, lalu lanjut ke berikutnya.
+- Bertanya hanya bila benar-benar tidak bisa diputuskan dari berkas yang ada.
 - Kerjakan sendiri tanpa subagen. Semua angka dihitung dengan Python dulu.
-- Setiap selesai satu bab atau satu tahap: commit + push, kirim PDF lewat SendUserFile.
+- Setiap selesai satu bab atau satu tahap: kirim PDF (atau berkas hasil) kepadaku,
+  perbarui catatan status di PROMPT-AKUN-LAIN.md dan RENCANA.md, dan bila ada repo,
+  commit + push.
 ```
 
 ---
@@ -59,19 +70,24 @@ Cara kerja:
 - LaTeX: koma desimal `9{,}8`; tanpa `\cancel` dan `\tag`.
 - Gambar: matplotlib, Liberation Sans, 220 dpi, palet seri (`CLAUDE.md`), label sumbu dengan koma desimal; setiap gambar diperiksa visual sebelum dipakai.
 
-## 3. Mengambil keputusan tanpa perintah
+## 3. Pekerjaan berikutnya dan cara memutuskan sendiri
 
-Urutan prioritas ketika penyusun tidak memberi perintah khusus:
+Daftar pekerjaan yang belum selesai, **berurutan**. Bila tidak ada perintah khusus, kerjakan butir ☐ pertama. Setelah selesai, ubah menjadi ☑ (dengan tanggal) di daftar ini juga.
 
-1. Perbaiki dulu hal yang rusak: build gagal, rujukan `??`, `{{kunci}}` yang tidak terganti, gambar terpotong.
-2. Butir ☐ pertama di `ANTREAN.md`.
-3. Bila antrean kosong: buku berikutnya di `RENCANA-SERI.md` yang statusnya ☐ (rancangan dulu, lalu bab demi bab), dan tambahkan butir-butirnya ke `ANTREAN.md`.
+1. ☐ **Kimia Fisika 1, Bab 15 Termodinamika Permukaan** (`termodinamika-kimia/`). Lihat catatan status di `termodinamika-kimia/RENCANA.md`; bila sudah ☑ di sana, lewati. Subbab: tegangan permukaan dan energi permukaan · persamaan Young–Laplace · kapilaritas dan sudut kontak · persamaan Kelvin dan nukleasi · persamaan adsorpsi Gibbs · surfaktan dan misel · isoterm adsorpsi (Langmuir, BET). Setelah selesai, "Penutup" buku ada di akhir Bab 15 (bukan Bab 14).
+2. ☐ **Kimia Fisika 1: soal Bab 3, 6, 7, 8 dilengkapi sampai ± 80** (pakai `alat/tebal.py`).
+3. ☐ **Kimia Fisika 1: baca ulang kejelasan Bab 1–15**, satu bab per putaran; catat temuan dan perbaikan di `termodinamika-kimia/REVISI.md`.
+4. ☐ **Kimia Fisika 1: cetak akhir** digital dan `--cetak`, salin ke `pdf/`, perbarui `pdf/README.md`, kirim PDF.
+5. ☐ **Kimia Organik 1: PDF akhir ke `pdf/`** (cetak digital dan `--cetak`), lalu baca ulang kejelasan Bab 1–16.
+6. ☐ **Persiapan TEP** (`persiapan-tep/`): Bab 1–4 dulu, ikuti `persiapan-tep/PEDOMAN.md`; siapkan alat cetak dengan pola `kimia-organik/edisi/`.
+7. ☐ **Matematika untuk Kimia**, lalu buku berikutnya di `RENCANA-SERI.md` (rancangan dulu, lalu bab demi bab).
 
-Aturan tambahan:
+Aturan memutuskan sendiri:
+- Perbaiki dulu hal yang rusak (build gagal, rujukan `??`, `{{kunci}}` yang tidak terganti, gambar terpotong), baru lanjut ke daftar.
 - **Satu sesi = satu bab baru** (paling banyak dua). Pekerjaan kecil (gambar, soal, cetak ulang, baca ulang) boleh beberapa dalam satu sesi.
-- Bila ada keputusan isi yang tidak tercatat di repo (misalnya memilih urutan bab buku baru), ambil pilihan yang paling sesuai dengan buku acuan, catat alasannya di `RENCANA.md`, dan sebutkan di laporan. Jangan berhenti hanya untuk bertanya.
-- Bertanya hanya bila: perintah penyusun bisa berarti dua buku/pekerjaan yang berbeda, atau tindakan tidak bisa dibatalkan (menghapus berkas besar, menimpa PDF akhir dengan versi yang lebih buruk).
-- Setiap butir selesai: centang di `ANTREAN.md` (☑ + tanggal + hash commit), perbarui status di `RENCANA.md` buku itu dan `RENCANA-SERI.md`.
+- Keputusan isi yang tidak tercatat (misalnya urutan bab buku baru): pilih yang paling sesuai dengan buku acuan, catat alasannya di `RENCANA.md`, sebutkan di laporan. Jangan berhenti hanya untuk bertanya.
+- Bertanya hanya bila perintah bisa berarti dua pekerjaan berbeda, atau tindakan tidak bisa dibatalkan (menghapus berkas besar, menimpa PDF akhir dengan versi yang lebih buruk).
+- Setiap butir selesai: perbarui daftar di atas, status di `RENCANA.md` buku itu, dan `RENCANA-SERI.md`.
 
 ## 4. Alat di repo dan jebakannya
 
@@ -128,14 +144,14 @@ Ikuti `PEMETAAN-MODEL.md`: menulis isi dan revisi isi dengan Opus 5.5 (effort hi
 Setelah setiap tahap, laporkan dalam bahasa Indonesia santai, singkat, berurutan:
 1. Apa yang selesai, dengan angka (subbab, contoh, soal, gambar, halaman).
 2. Hal yang perlu diketahui penyusun (angka yang dikoreksi, keputusan yang diambil sendiri beserta alasannya, data yang perlu dicek).
-3. Butir antrean berikutnya.
+3. Pekerjaan berikutnya menurut bagian 3.
 
 Kirim PDF terbaru lewat SendUserFile setiap ada perubahan isi yang berarti.
 
 ## 8. Yang tidak diinginkan
 
-- Menunggu izin untuk langkah yang sudah jelas dari antrean atau pedoman.
-- Menulis buku/bab yang tidak ada di antrean atau rencana tanpa alasan.
+- Menunggu izin untuk langkah yang sudah jelas dari bagian 3 atau pedoman.
+- Menulis buku/bab yang tidak ada di bagian 3 atau rencana tanpa alasan.
 - Penjelasan tipis, langkah diloncati, kalimat pengisi untuk menebalkan.
 - Label tingkat soal, latihan ujian, proyek.
 - Menyalin teks atau soal dari buku acuan.
@@ -144,4 +160,4 @@ Kirim PDF terbaru lewat SendUserFile setiap ada perubahan isi yang berarti.
 
 ## 9. Memperbarui berkas ini
 
-Bila ada aturan baru dari penyusun, alat baru, atau buku baru selesai, perbarui berkas ini, `ANTREAN.md`, dan tabel di bagian 1 pada commit yang sama.
+Bila ada aturan baru dari penyusun, alat baru, atau buku baru selesai, perbarui berkas ini (tabel bagian 1 dan daftar bagian 3) pada commit yang sama.

@@ -10,7 +10,7 @@ Naskah dan alat cetak buku sains berbahasa Indonesia untuk mahasiswa kimia.
 Penyusun: Septian Anugrah Dwi Putra.
 
 - Pedoman kerja untuk sesi Claude Code: [`CLAUDE.md`](CLAUDE.md)
-- Prompt induk untuk sesi di akun mana pun: [`PROMPT-AKUN-LAIN.md`](PROMPT-AKUN-LAIN.md); antrean tugas: [`ANTREAN.md`](ANTREAN.md); keadaan seri: `python3 status.py`
+- Prompt induk untuk sesi di akun mana pun: [`PROMPT-AKUN-LAIN.md`](PROMPT-AKUN-LAIN.md); keadaan seri: `python3 status.py`
 - Panduan dan templat susunan buku: [`PANDUAN-BUKU.md`](PANDUAN-BUKU.md)
 - PDF hasil akhir: [`pdf/`](pdf/)
 - Pemetaan model AI per tahap pekerjaan: [`PEMETAAN-MODEL.md`](PEMETAAN-MODEL.md)

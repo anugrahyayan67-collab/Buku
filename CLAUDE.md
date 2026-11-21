@@ -14,7 +14,7 @@ Repo ini berisi naskah buku sains berbahasa Indonesia untuk mahasiswa kimia, dib
 - Jangan memasukkan data pribadi penyusun selain nama (tanpa tanggal lahir, tanpa surel) ke berkas mana pun.
 
 ## Awal setiap sesi
-Jalankan `python3 status.py`, lalu baca `PROMPT-AKUN-LAIN.md` (prompt induk: konteks, cara mengambil keputusan, alat, plugin) dan `ANTREAN.md`. Bila penyusun hanya bilang "lanjut" atau tidak memberi perintah khusus, kerjakan butir ☐ pertama di `ANTREAN.md` sampai tuntas, centang, commit, lalu lanjut.
+Jalankan `python3 status.py`, lalu baca `PROMPT-AKUN-LAIN.md` (prompt induk: konteks, daftar pekerjaan berikutnya, cara mengambil keputusan, alat, plugin). Bila penyusun hanya bilang "lanjut" atau tidak memberi perintah khusus, kerjakan butir ☐ pertama di bagian 3 berkas itu sampai tuntas, centang, commit, lalu lanjut.
 
 ## Panduan susunan dan desain
 Semua buku mengikuti `PANDUAN-BUKU.md` (susunan bab, kotak, aturan penulisan, desain, alat cetak, langkah memulai buku baru) dan `PROMPT-BUKU.md` (standar kelengkapan dan gaya penjelasan yang diinginkan penyusun; wajib dibaca sebelum menulis atau merevisi).
