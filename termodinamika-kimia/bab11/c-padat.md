@@ -157,6 +157,74 @@ Penambahan zat ketiga juga dapat **mengurangi** kelarutan. Bila garam dilarutkan
 **Kuis cepat 11.8** Suatu zat mempunyai *K* = 1 di antara eter dan air. Berapa kali ekstraksi dengan volume eter sama dengan volume air diperlukan agar 99% zat itu terambil?
 :::
 
+## 11.9 Larutan padat dan pemurnian zona
+
+Diagram eutektik di subbab 11.6 menganggap kedua komponen sama sekali tidak saling melarutkan dalam keadaan padat: kristal A hanya berisi A, kristal B hanya berisi B. Untuk benzena dan naftalena anggapan itu baik, karena molekulnya terlalu berbeda untuk saling menggantikan di kisi kristal. Tetapi tembaga dan nikel, misalnya, mempunyai jari-jari atom yang hampir sama (128 dan 125 pm) dan kisi kristal yang sama (kubus berpusat muka). Atom nikel dapat menempati kedudukan atom tembaga di kisi tanpa merusaknya. Paduan Cu–Ni dengan komposisi berapa pun membentuk satu fasa padat yang homogen, yang disebut **larutan padat**. Seperti apa diagram fasanya?
+
+### Diagram lensa
+
+Bila larutan cair maupun larutan padat keduanya ideal, syarat kesetimbangan untuk setiap komponen *i* adalah kesamaan potensial kimianya di kedua fasa. Dengan cara yang sama seperti penurunan kelarutan ideal (11.8), syarat itu memberi
+$$
+\frac{x_i^\text{cair}}{x_i^\text{padat}} = \exp\left[-\frac{\Delta_\text{fus}H_i}{R}\left(\frac{1}{T} - \frac{1}{T_{\text{f},i}}\right)\right] \equiv K_i . \qquad \text{(11.11)}
+$$
+Pada suhu tertentu, $K_\text{Cu}$ dan $K_\text{Ni}$ dapat dihitung, dan dua persamaan $x_\text{Cu}^\text{padat} + x_\text{Ni}^\text{padat} = 1$ serta $K_\text{Cu}x_\text{Cu}^\text{padat} + K_\text{Ni}x_\text{Ni}^\text{padat} = 1$ menentukan komposisi kedua fasa. Hasilnya, untuk setiap suhu antara titik leleh kedua logam, adalah dua titik: komposisi cairan (pada **likuidus**) dan komposisi padatan (pada **solidus**) yang setimbang. Kedua kurva membentuk diagram berbentuk lensa (Gambar 11.7).
+
+![Gambar 11.7 Diagram fasa Cu–Ni yang dihitung dari model larutan ideal untuk fasa cair dan padat, dengan titik leleh dan entalpi peleburan kedua logam murni. Di antara likuidus dan solidus, cairan dan larutan padat berada bersama; garis mendatar pada 1500 K menghubungkan komposisi kedua fasa itu.](fig/lensa.png){width=72%}
+
+Bentuk ini sama dengan diagram suhu–komposisi untuk distilasi campuran ideal (subbab 11.3), dan itu bukan kebetulan: matematikanya sama, hanya peran "cair dan uap" diganti "padat dan cair". Padatan yang membeku selalu lebih kaya akan komponen dengan titik leleh lebih tinggi, sebagaimana uap selalu lebih kaya akan komponen yang lebih mudah menguap. Aturan tuas (subbab 11.2) berlaku tanpa perubahan untuk menghitung banyaknya kedua fasa.
+
+::: {.contoh}
+**Contoh 11.18 · Membekukan paduan Cu–Ni**
+
+Untuk tembaga, $T_\text{f}$ = 1357,8 K dan Δ$_\text{fus}$*H* = 13,26 kJ mol⁻¹; untuk nikel, 1728,3 K dan 17,48 kJ mol⁻¹. Anggap kedua fasa ideal. (a) Pada 1500 K, berapa komposisi cairan dan padatan yang setimbang? (b) Lelehan paduan dengan $x_\text{Ni}$ = 0,38 didinginkan perlahan sampai 1500 K. Berapa fraksi mol bahan yang sudah membeku?
+
+**Penyelesaian.** (a) Dari (11.11) pada 1500 K:
+$$
+K_\text{Cu} = \exp\left[-\frac{13\,260}{8{,}314}\left(\frac{1}{1500} - \frac{1}{1357{,}8}\right)\right] = 1{,}118 , \qquad K_\text{Ni} = \exp\left[-\frac{17\,480}{8{,}314}\left(\frac{1}{1500} - \frac{1}{1728{,}3}\right)\right] = 0{,}831 .
+$$
+Maka $x_\text{Cu}^\text{padat} = (1 - K_\text{Ni})/(K_\text{Cu} - K_\text{Ni}) = 0{,}589$, sehingga padatan berisi $x_\text{Ni}$ = 0,411. Cairannya berisi $x_\text{Cu}^\text{cair} = K_\text{Cu}(0{,}589) = 0{,}659$, yaitu $x_\text{Ni}$ = 0,341.
+
+(b) Dengan aturan tuas, fraksi padat $= (0{,}38 - 0{,}341)/(0{,}411 - 0{,}341) = 0{,}56$.
+
+**Memahami hasil.** Pada 1500 K, lebih dari separuh bahan sudah membeku, dan padatan yang terbentuk berisi nikel 7 poin persen lebih banyak daripada cairan di sekitarnya. Bila pendinginan berlangsung cepat, atom di dalam butir kristal tidak sempat berdifusi untuk menyamakan komposisi, sehingga pusat setiap butir kaya nikel dan tepinya kaya tembaga. Gejala ini, yang disebut **segregasi**, membuat paduan cor sering harus dipanaskan ulang (anil) supaya komposisinya merata. Model ideal ini hanya pendekatan; diagram Cu–Ni yang terukur sedikit lebih lebar, karena kedua larutan tidak sepenuhnya ideal.
+:::
+
+### Senyawa yang meleleh kongruen dan tak kongruen
+
+Subbab 11.6 menyinggung bahwa A dan B dapat membentuk senyawa padat. Bila senyawa itu meleleh menjadi cairan yang komposisinya sama dengan senyawa itu sendiri, peleburannya disebut **kongruen**, dan diagramnya berupa dua diagram eutektik berdampingan dengan maksimum di komposisi senyawa. Contohnya Mg₂Si, yang meleleh kongruen pada sekitar 1100 °C.
+
+Tidak semua senyawa sebaik itu. Natrium sulfat dekahidrat (garam Glauber, Na₂SO₄·10H₂O) tidak meleleh pada 32,4 °C, melainkan **terurai** menjadi padatan lain (Na₂SO₄ anhidrat) dan larutan jenuh yang komposisinya berbeda. Peleburan semacam ini disebut **tak kongruen**, dan suhu tempat tiga fasa itu berada bersama disebut **titik peritektik**. Pada titik itu, menurut aturan fasa untuk dua komponen pada tekanan tetap ($F' = C - P + 1 = 2 - 3 + 1 = 0$), suhu tertentu tunggal, sehingga kurva pendinginan memperlihatkan bagian datar, seperti pada titik eutektik. Garam Glauber dipakai sebagai bahan penyimpan kalor di bangunan justru karena titik peritektiknya dekat suhu ruang: ia menyerap kalor besar ketika "meleleh" pada siang hari dan melepasnya kembali pada malam hari.
+
+### Pemurnian zona
+
+Diagram lensa mempunyai akibat praktis yang sangat penting: bila sedikit kotoran B terdapat dalam A, padatan yang membeku dari lelehan **tidak** mempunyai komposisi yang sama dengan lelehannya. Perbandingan konsentrasi kotoran di padatan terhadap di cairan yang setimbang disebut **koefisien distribusi** *k*:
+$$
+k = \frac{C_\text{padat}}{C_\text{cair}} .
+$$
+Untuk kebanyakan kotoran dalam silikon, *k* jauh lebih kecil dari 1 (untuk besi dalam silikon sekitar 10⁻⁵, untuk fosfor 0,35). Kotoran lebih suka tinggal di cairan.
+
+W. G. Pfann (1952) memanfaatkan hal ini dalam **pemurnian zona**. Batang padat dilewatkan perlahan melalui pemanas cincin, sehingga hanya satu zona sempit sepanjang *L* yang meleleh. Ketika zona itu bergerak sepanjang batang, padatan yang membeku di belakangnya mengambil kotoran sebanyak *k* kali kadar di cairan, dan sisanya terbawa maju oleh zona. Setelah satu lintasan, kadar kotoran pada jarak *x* dari ujung awal adalah
+$$
+\frac{C(x)}{C_0} = 1 - (1 - k)\,e^{-kx/L} , \qquad \text{(11.12)}
+$$
+dengan $C_0$ kadar awal yang seragam. Kotoran menumpuk di ujung akhir batang, yang kemudian dipotong dan dibuang.
+
+![Gambar 11.8 Kadar kotoran sepanjang batang setelah satu lintasan pemurnian zona, menurut (11.12). Makin kecil koefisien distribusi *k*, makin bersih bagian awal batang. Lintasan berulang menurunkan kadar lebih jauh.](fig/zona.png){width=76%}
+
+::: {.contoh}
+**Contoh 11.19 · Satu lintasan pemurnian zona**
+
+Batang silikon mengandung kotoran dengan *k* = 0,10 secara seragam. Setelah satu lintasan zona, berapa kadar kotoran relatif di ujung awal (*x* = 0), pada *x* = *L*, dan pada *x* = 5*L*? Bagaimana bila *k* = 0,50?
+
+**Penyelesaian.** Untuk *k* = 0,10: pada *x* = 0, $C/C_0 = 1 - 0{,}90 = 0{,}10$; pada *x* = *L*, $1 - 0{,}90\,e^{-0{,}10} = 0{,}19$; pada *x* = 5*L*, $1 - 0{,}90\,e^{-0{,}50} = 0{,}45$. Untuk *k* = 0,50: 0,50; 0,70; 0,96.
+
+**Memahami hasil.** Satu lintasan sudah menurunkan kotoran sepuluh kali di ujung awal bila *k* = 0,1, tetapi hanya dua kali bila *k* = 0,5. Dengan puluhan lintasan, kotoran dengan *k* kecil dapat diturunkan sampai tingkat bagian per miliar, kemurnian yang diperlukan silikon untuk transistor. Prinsipnya sama dengan distilasi bertingkat (subbab 11.3): setiap lintasan adalah satu "pelat teoretis", dan pemisahan menumpuk karena satu fasa selalu sedikit lebih kaya akan satu komponen daripada fasa lainnya.
+:::
+
+::: {.kuis}
+**Kuis cepat 11.9** Mengapa garam dapur dan air membentuk diagram eutektik, sedangkan tembaga dan nikel membentuk larutan padat? Petunjuk: bandingkan ukuran dan jenis partikelnya.
+:::
+
 ### Menuju bab berikutnya
 
 Dalam tiga bab terakhir, potensial kimia menjelaskan semua kesetimbangan **fisika**: zat murni yang berubah fasa, pelarut yang bergerak melewati membran, campuran yang mendidih, membeku, atau terpisah menjadi lapisan. Dalam setiap kasus, zat berpindah dari satu fasa ke fasa lain sampai potensial kimianya sama di mana-mana.
