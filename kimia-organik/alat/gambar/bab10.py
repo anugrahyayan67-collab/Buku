@@ -7,7 +7,7 @@ from scipy.interpolate import PchipInterpolator
 from rdkit import Chem
 from rdkit.Chem.Draw import rdMolDraw2D
 from PIL import Image
-import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from rdk import rapat, pasang
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from rdk import rapat, pasang, ukuran_px
 plt.rcParams.update({'font.family': 'Liberation Sans', 'font.size': 9.5, 'axes.spines.top': False, 'axes.spines.right': False})
 R = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
 F = f'{R}/bab10/fig'; os.makedirs(F, exist_ok=True)
@@ -27,12 +27,15 @@ def mol(smi, hs=(), note=None):
     if note:
         for i, t in note.items(): m.GetAtomWithIdx(i).SetProp('atomNote', t)
     return m
-def rd(smi, w=360, h=300, fs=30, hs=(), pad=0.15, note=None, m=None):
+def rd(smi, w=360, h=300, fs=30, hs=(), pad=0.15, note=None, m=None, bl=None):
     m = m or mol(smi, hs, note)
     d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 2; o.fixedFontSize = fs; o.padding = pad; o.annotationFontScale = 0.9
+    if bl: o.fixedBondLength = bl
     o.updateAtomPalette({35: (0.71, 0.33, 0.11), 8: (0.71, 0.33, 0.11), 7: (0.11, 0.46, 0.74), 17: (0.10, 0.54, 0.42), 9: (0.10, 0.54, 0.42), 16: (0.75, 0.6, 0.1), 1: (0.05, 0.15, 0.28)})
     rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing(); return rapat(Image.open(io.BytesIO(d.GetDrawingText())))
-def gb(ax, smi, x0, x1, y0, y1, **k): pasang(ax, rd(smi, **k), x0, x1, y0, y1, zorder=2)
+def gb(ax, smi, x0, x1, y0, y1, **k):
+    k['w'], k['h'] = ukuran_px(ax, x0, x1, y0, y1); k['fs'] = min(k.get('fs', 25), 25); k.setdefault('bl', 30)
+    pasang(ax, rd(smi, **k), x0, x1, y0, y1, zorder=2, maks=1.0)
 
 # 1. lingkaran Frost
 f, axs = plt.subplots(1, 3, figsize=(7.4, 2.9), dpi=220)
@@ -161,7 +164,7 @@ for r, (nm, sm) in enumerate(baris):
         s2 = s.replace('(N)', '(' + NIT + ')').replace('C1N', 'C1' + NIT)
         x = 2.0 + k * 6.2
         if k == 3: ax.add_patch(FancyBboxPatch((x - 0.1, y - 0.1), 5.4, 5.4, boxstyle='round,pad=0.1', fc='#e8f5ef', ec=HJ, lw=1.3, zorder=0))
-        gb(ax, s2, x, x + 5.2, y, y + 5.2, hs=hs_sp3(s2), w=380, h=380, fs=28)
+        gb(ax, s2, x, x + 5.2, y, y + 5.2, hs=hs_sp3(s2), w=380, h=380, fs=28, bl=32)
         if k < len(sm) - 1: T(ax, x + 5.7, y + 2.6, '↔', fs=13, family='DejaVu Sans')
     if nm == 'meta': T(ax, 21.3, y + 2.6, 'tidak ada struktur\noksonium', fs=8.5, c=MERAH)
 T(ax, 22.3, 18.9, 'semua atom beroktet (oksonium)', fs=8.2, c=HJ)

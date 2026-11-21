@@ -6,7 +6,7 @@ from matplotlib.patches import FancyArrowPatch, FancyBboxPatch
 from rdkit import Chem
 from rdkit.Chem.Draw import rdMolDraw2D
 from PIL import Image
-import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from rdk import rapat, pasang
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from rdk import rapat, pasang, ukuran_px
 plt.rcParams.update({'font.family': 'Liberation Sans', 'font.size': 9.5, 'axes.spines.top': False, 'axes.spines.right': False})
 R = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
 F = f'{R}/bab09/fig'; os.makedirs(F, exist_ok=True)
@@ -20,13 +20,16 @@ def reaksi(ax, x1, x2, y, t='', c=TUA, t2='', fs=8.5):
     if t2: T(ax, (x1 + x2) / 2, y - 0.35, t2, fs=fs)
 def kanv(w, h, xl, yl):
     f, ax = plt.subplots(figsize=(w, h), dpi=220); ax.set_xlim(*xl); ax.set_ylim(*yl); ax.set_aspect('equal'); ax.axis('off'); return f, ax
-def rd(smi, w=360, h=300, fs=30, hs=(), pad=0.15):
+def rd(smi, w=360, h=300, fs=30, hs=(), pad=0.15, bl=None):
     m = Chem.MolFromSmiles(smi)
     if hs: m = Chem.AddHs(m, onlyOnAtoms=tuple(hs))
     d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 2; o.fixedFontSize = fs; o.padding = pad
+    if bl: o.fixedBondLength = bl
     o.updateAtomPalette({35: (0.71, 0.33, 0.11), 8: (0.71, 0.33, 0.11), 17: (0.10, 0.54, 0.42), 16: (0.75, 0.6, 0.1), 1: (0.05, 0.15, 0.28)})
     rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing(); return rapat(Image.open(io.BytesIO(d.GetDrawingText())))
-def gb(ax, smi, x0, x1, y0, y1, **k): pasang(ax, rd(smi, **k), x0, x1, y0, y1)
+def gb(ax, smi, x0, x1, y0, y1, **k):
+    k['w'], k['h'] = ukuran_px(ax, x0, x1, y0, y1); k['fs'] = min(k.get('fs', 25), 25); k.setdefault('bl', 30)
+    pasang(ax, rd(smi, **k), x0, x1, y0, y1, maks=1.0)
 
 # 1. titik didih
 f, ax = plt.subplots(figsize=(6.2, 3.2), dpi=220)
@@ -121,10 +124,28 @@ T(ax, 1.8, 2.5, 'CH₃O$^-$', fs=12); T(ax, 4.3, 2.5, '+', fs=13); gb(ax, 'CC(C)
 reaksi(ax, 8.4, 11.0, 2.5, 'E2', c=MERAH); gb(ax, 'C=C(C)C', 11.6, 14.6, 0.8, 4.2); T(ax, 16.6, 2.5, '+ CH₃OH', fs=9); T(ax, 20.4, 2.5, 'gagal:\nhalida tersier', fs=9, c=MERAH)
 f.savefig(f'{F}/williamson.png', bbox_inches='tight'); plt.close(f)
 
-# 10. eter mahkota
-f, ax = kanv(4.0, 3.6, (0, 10), (0, 9))
-gb(ax, 'C1COCCOCCOCCOCCOCCO1', 0, 10, 0, 9, w=560, h=500, fs=34)
-T(ax, 5.0, 4.5, 'K$^+$', fs=17, c=BIRU, fontweight='bold')
+# 10. eter mahkota: render 3D (konformer dengan keenam O paling melingkar mengelilingi K+)
+import sys as _sy; _sy.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'r3d'))
+from r3d import render, spek_molekul, tampil, atom_ikat, pas, normal_cincin
+from rdkit.Chem import AllChem
+TMP = os.path.join(F, '_r3d'); os.makedirs(TMP, exist_ok=True)
+m = Chem.AddHs(Chem.MolFromSmiles('C1COCCOCCOCCOCCOCCO1')); ids = AllChem.EmbedMultipleConfs(m, numConfs=300, randomSeed=5); AllChem.MMFFOptimizeMoleculeConfs(m, maxIters=2000)
+Oi = [a_.GetIdx() for a_ in m.GetAtoms() if a_.GetSymbol() == 'O']; best = None
+for cid in ids:
+    P = m.GetConformer(cid).GetPositions(); c = P[Oi].mean(0); d = np.linalg.norm(P[Oi] - c, axis=1); sk = d.std() + abs(d.mean() - 2.8)
+    if best is None or sk < best[0]: best = (sk, P)
+P = best[1]; c, n = normal_cincin(P, Oi); P = P - P[Oi].mean(0)
+from ilustrasi import _rot
+P = P @ _rot(n); at, ik = atom_ikat(m, P)
+sp = spek_molekul(at, ik); sp['atoms'].append({'p': [0, 0, 0], 'r': 0.62, 'c': 0x8a63c9})
+for i in Oi:   # interaksi ion–dipol K+···O sebagai garis putus
+    q = P[i]; L = np.linalg.norm(q)
+    for t0 in np.arange(0.25, 0.86, 0.12): sp['bonds'].append({'p': list(map(float, q * t0)), 'q': list(map(float, q * (t0 + 0.06))), 'r': 0.035, 'c': 0x8a63c9})
+sp.update(w=900, h=760, camdir=[0.2, -1, 1.15], up=[0, 0, 1]); sp['labels'] = [[0, 0, 0]]
+PR = render([(pas(sp, 0.3), f'{TMP}/mahkota.png')])
+print('O–K', np.round(np.linalg.norm(P[Oi], axis=1), 2))
+f = plt.figure(figsize=(4.4, 3.7), dpi=220); a_ = f.add_axes([0, 0, 1, 1]); fn = f'{TMP}/mahkota.png'; tampil(a_, fn)
+q = PR[fn][0]; a_.text(q[0], q[1], 'K$^+$', fontsize=12, color='white', fontweight='bold', ha='center', va='center')
 f.savefig(f'{F}/mahkota.png', bbox_inches='tight'); plt.close(f)
 
 # 11. epoksida asam lawan basa

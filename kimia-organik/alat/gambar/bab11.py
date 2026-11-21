@@ -6,7 +6,7 @@ from matplotlib.patches import FancyBboxPatch, Arc
 from rdkit import Chem
 from rdkit.Chem.Draw import rdMolDraw2D
 from PIL import Image
-import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from rdk import rapat, pasang
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from rdk import rapat, pasang, ukuran_px
 plt.rcParams.update({'font.family': 'Liberation Sans', 'font.size': 9.5, 'axes.spines.top': False, 'axes.spines.right': False})
 R = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
 F = f'{R}/bab11/fig'; os.makedirs(F, exist_ok=True)
@@ -22,15 +22,18 @@ def reaksi(ax, x1, x2, y, t='', c=TUA, t2='', fs=8.5, dua=False):
     if t2: T(ax, (x1 + x2) / 2, y - 0.42, t2, fs=fs)
 def kanv(w, h, xl, yl):
     f, ax = plt.subplots(figsize=(w, h), dpi=220); ax.set_xlim(*xl); ax.set_ylim(*yl); ax.set_aspect('equal'); ax.axis('off'); return f, ax
-def rd(smi, w=360, h=300, fs=30, hs=(), pad=0.15, lab=None):
+def rd(smi, w=360, h=300, fs=30, hs=(), pad=0.15, lab=None, bl=None):
     m = Chem.MolFromSmiles(smi)
     if hs: m = Chem.AddHs(m, onlyOnAtoms=tuple(hs))
     d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 2; o.fixedFontSize = fs; o.padding = pad
+    if bl: o.fixedBondLength = bl
     o.updateAtomPalette({35: (0.71, 0.33, 0.11), 8: (0.71, 0.33, 0.11), 7: (0.11, 0.46, 0.74), 17: (0.10, 0.54, 0.42), 15: (0.55, 0.35, 0.65), 53: (0.45, 0.2, 0.6), 1: (0.05, 0.15, 0.28)})
     if lab:
         for i, t in lab.items(): o.atomLabels[i] = t
     rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing(); return rapat(Image.open(io.BytesIO(d.GetDrawingText())))
-def gb(ax, smi, x0, x1, y0, y1, **k): pasang(ax, rd(smi, **k), x0, x1, y0, y1, zorder=2)
+def gb(ax, smi, x0, x1, y0, y1, **k):
+    k['w'], k['h'] = ukuran_px(ax, x0, x1, y0, y1); k['fs'] = min(k.get('fs', 25), 25); k.setdefault('bl', 30)
+    pasang(ax, rd(smi, **k), x0, x1, y0, y1, zorder=2, maks=1.0)
 
 # 1. gugus karbonil
 f, ax = kanv(7.2, 2.4, (0, 24), (0, 8))

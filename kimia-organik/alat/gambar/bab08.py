@@ -7,7 +7,7 @@ from scipy.interpolate import CubicSpline, PchipInterpolator
 from rdkit import Chem
 from rdkit.Chem.Draw import rdMolDraw2D
 from PIL import Image
-import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from rdk import rapat, pasang
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from rdk import rapat, pasang, ukuran_px
 plt.rcParams.update({'font.family': 'Liberation Sans', 'font.size': 9.5, 'axes.spines.top': False, 'axes.spines.right': False})
 R = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
 F = f'{R}/bab08/fig'; os.makedirs(F, exist_ok=True)
@@ -27,13 +27,16 @@ def reaksi(ax, x1, x2, y, t='', c=TUA, t2='', fs=8.5):
     if t2: T(ax, (x1 + x2) / 2, y - 0.32, t2, fs=fs)
 def kanv(w, h, xl, yl):
     f, ax = plt.subplots(figsize=(w, h), dpi=220); ax.set_xlim(*xl); ax.set_ylim(*yl); ax.set_aspect('equal'); ax.axis('off'); return f, ax
-def rd(smi, w=360, h=300, fs=30, hs=(), pad=0.18):
+def rd(smi, w=360, h=300, fs=30, hs=(), pad=0.18, bl=None):
     m = Chem.MolFromSmiles(smi)
     if hs: m = Chem.AddHs(m, onlyOnAtoms=tuple(hs))
     d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 2; o.fixedFontSize = fs; o.padding = pad
+    if bl: o.fixedBondLength = bl
     o.updateAtomPalette({35: (0.71, 0.33, 0.11), 8: (0.71, 0.33, 0.11), 5: (0.11, 0.46, 0.74), 1: (0.05, 0.15, 0.28)})
     rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing(); return rapat(Image.open(io.BytesIO(d.GetDrawingText())))
-def gb(ax, smi, x0, x1, y0, y1, **k): pasang(ax, rd(smi, **k), x0, x1, y0, y1)
+def gb(ax, smi, x0, x1, y0, y1, **k):
+    k['w'], k['h'] = ukuran_px(ax, x0, x1, y0, y1); k['fs'] = min(k.get('fs', 25), 25); k.setdefault('bl', 30)
+    pasang(ax, rd(smi, **k), x0, x1, y0, y1, maks=1.0)
 
 # 1. kalor hidrogenasi butena (sumbu terputus: hanya selisih yang penting)
 f, ax = plt.subplots(figsize=(6.0, 3.4), dpi=220)
@@ -107,7 +110,7 @@ f, ax = kanv(7.6, 2.0, (0, 23), (0, 6))
 gb(ax, 'C1=CCCC1', 0, 4.0, 0.8, 5.2)
 reaksi(ax, 4.2, 6.6, 3.0, 'Br₂')
 gb(ax, 'C1C[C@@H]2[Br+][C@@H]2C1', 6.8, 11.6, 0.5, 5.5, hs=(2, 4))
-T(ax, 13.0, 1.0, 'Br$^-$', fs=11, c=JT); panah(ax, (12.7, 1.2), (11.0, 2.0), rad=-0.3)
+T(ax, 12.9, 1.1, 'Br$^-$', fs=11, c=JT); panah(ax, (12.5, 1.35), (10.7, 2.2), rad=-0.35)
 T(ax, 13.0, 0.25, 'dari belakang', fs=7.5, c=HJ)
 reaksi(ax, 13.6, 15.6, 3.0)
 gb(ax, 'Br[C@@H]1CCC[C@H]1Br', 15.8, 20.6, 0.5, 5.5)
@@ -149,8 +152,8 @@ f.savefig(f'{F}/diol.png', bbox_inches='tight'); plt.close(f)
 
 # 8. ozonolisis
 f, ax = kanv(7.6, 4.0, (0, 23), (0, 12))
-gb(ax, 'CC(C)=CCC', 0, 3.8, 7.0, 11.0)
-reaksi(ax, 3.9, 5.5, 9.0, 'O₃, −78 °C')
+gb(ax, 'CC(C)=CCC', 0, 3.2, 7.0, 11.0)
+reaksi(ax, 3.5, 5.5, 9.0, 'O₃, −78 °C')
 gb(ax, 'CCC1OOOC1(C)C', 5.6, 9.6, 6.8, 11.2); T(ax, 7.6, 6.6, 'molozonida', fs=8, c=HJ)
 reaksi(ax, 9.7, 11.1, 9.0)
 gb(ax, 'CC(C)=[O+][O-]', 11.2, 14.4, 7.0, 11.0); T(ax, 14.8, 9.0, '+', fs=12); gb(ax, 'CCC=O', 15.1, 17.7, 7.4, 10.6)
@@ -200,7 +203,7 @@ for y, enol, karb, t1, t2, c in [(7.9, 'C=C(O)CCCC', 'CC(=O)CCCC', 'H₂O, H₂S
                                   (2.5, 'OC=CCCCC', 'O=CCCCCC', '(1) 9-BBN; (2) H₂O₂, NaOH', 'heksanal', JT)]:
     ax.annotate('', (7.0, y), (4.4, 5.2 + (0.6 if y > 5 else -0.6)), arrowprops=dict(arrowstyle='-|>', color=TUA, lw=1.3))
     T(ax, 5.3, y + (0.9 if y > 5 else -0.9), t1, fs=8.2)
-    gb(ax, enol, 7.1, 11.9, y - 2.3, y + 2.3); T(ax, 9.5, y + 2.0 if y > 5 else y - 2.0, 'enol', fs=8, c=BIRU)
+    gb(ax, enol, 7.1, 11.9, y - 2.3, y + 2.3); T(ax, 9.5, y + 1.35 if y > 5 else y - 1.35, 'enol', fs=8, c=BIRU)
     ax.annotate('', (15.0, y + 0.15), (12.2, y + 0.15), arrowprops=dict(arrowstyle='-|>', color=TUA, lw=1.2)); ax.annotate('', (12.2, y - 0.15), (13.6, y - 0.15), arrowprops=dict(arrowstyle='-|>', color=TUA, lw=0.8))
     T(ax, 13.6, y + 0.65, 'tautomerisasi', fs=7.5)
     gb(ax, karb, 15.2, 20.0, y - 2.3, y + 2.3); T(ax, 21.6, y, t2, fs=9, c=c)
