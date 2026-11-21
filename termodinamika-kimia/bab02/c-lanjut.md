@@ -32,8 +32,26 @@ Pada suhu rendah, suku tarikan $a/RT$ besar dan *B* negatif. Pada suhu tinggi, m
 
 Tabel 2.3 Koefisien virial kedua dan suhu Boyle.
 
+Gambar 2.5 memperlihatkan bentuk khas *B*(*T*) yang dicocokkan pada data Tabel 2.3. Semua gas mengikuti pola yang sama: sangat negatif pada suhu rendah, naik melewati nol di suhu Boyle, lalu mendatar pada nilai positif kecil yang mencerminkan volume molekul. Yang membedakan gas hanyalah **letak** kurvanya. CO₂, yang tarikannya kuat, baru mencapai *B* = 0 di atas 700 K; helium, yang hampir tanpa tarikan, sudah positif bahkan di 273 K.
+
+![Gambar 2.5 Koefisien virial kedua terhadap suhu, dari rumus $B = b' - a'/T$ yang dicocokkan pada nilai *B* di 273 K dan suhu Boyle terukur (Tabel 2.3). Titik menandai suhu Boyle.](fig/virialB.png){width=80%}
+
 ::: {.contoh}
-**Contoh 2.8 · Koreksi virial untuk CO₂**
+**Contoh 2.9 · Seberapa salah gas ideal untuk nitrogen di laboratorium?**
+
+Dari Gambar 2.5, *B* nitrogen pada 25 °C sekitar −5,2 cm³ mol⁻¹. Berapa faktor kompresi N₂ pada 25 °C dan 20,0 bar menurut persamaan virial yang dipotong setelah suku kedua? Berapa persen kesalahan bila jumlah gas dihitung dengan *pV* = *nRT*?
+
+**Penyelesaian.** Bentuk tekanan persamaan virial, $Z = 1 + Bp/RT$, memberi
+$$
+Z = 1 + \frac{(-5{,}2 \times 10^{-6}\ \text{m}^3\,\text{mol}^{-1})(20{,}0 \times 10^5\ \text{Pa})}{(8{,}314\ \text{J K}^{-1}\,\text{mol}^{-1})(298{,}15\ \text{K})} = 0{,}9958 .
+$$
+Jumlah gas sebenarnya $n = pV/ZRT$, jadi gas ideal meremehkannya sekitar 0,42%.
+
+**Memahami hasil.** Untuk tabung nitrogen di laboratorium (sampai puluhan bar), gas ideal sudah sangat baik, karena 25 °C dekat dengan suhu Boyle N₂ (327 K). Tetapi jangan memakai suku kedua saja pada tekanan tabung penuh, sekitar 200 bar: di sana suku ketiga dan seterusnya tidak lagi kecil, dan *Z* nitrogen sebenarnya justru sedikit **di atas** 1, karena tolakan sudah lebih penting daripada tarikan. Persamaan virial yang dipotong hanya andal selama $|Bp/RT|$ kecil.
+:::
+
+::: {.contoh}
+**Contoh 2.10 · Koreksi virial untuk CO₂**
 
 Untuk CO₂ pada 273 K, $B = -149{,}7$ cm³ mol⁻¹. Hitung *Z* pada 1,00 bar dan 10,0 bar, lalu persentase kesalahan bila volumenya dihitung dengan persamaan gas ideal.
 
@@ -47,7 +65,7 @@ Persamaan gas ideal memberi volume 0,7% terlalu besar pada 1 bar dan 7% terlalu 
 :::
 
 ::: {.contoh}
-**Contoh 2.9 · Suhu Boyle menurut van der Waals**
+**Contoh 2.11 · Suhu Boyle menurut van der Waals**
 
 Hitung suhu Boyle N₂ dan He dari tetapan van der Waals, lalu bandingkan dengan Tabel 2.3.
 
@@ -77,7 +95,7 @@ Faktor $1/\sqrt T$ mencerminkan kenyataan bahwa pada suhu tinggi molekul-molekul
 Ketiga persamaan ini berbentuk pangkat tiga dalam $V_\text{m}$, sehingga semuanya dapat diselesaikan dengan cara yang sama seperti Contoh 2.4. Yang membedakannya hanyalah ketelitian.
 
 ::: {.contoh}
-**Contoh 2.10 · Membandingkan tiga persamaan**
+**Contoh 2.12 · Membandingkan tiga persamaan**
 
 Hitung tekanan satu mol CO₂ dalam 0,500 L pada 300 K menurut persamaan gas ideal, van der Waals, dan Redlich–Kwong ($T_\text{c} = 304{,}1$ K, $p_\text{c} = 73{,}8$ bar).
 
@@ -128,8 +146,22 @@ dengan $C_{p,\text{m}}$ kapasitas kalor molar pada tekanan tetap. Lagi-lagi tamp
 
 Tabel 2.4 Koefisien Joule–Thomson pada 1 atm dan suhu inversi.
 
+Persamaan van der Waals juga meramalkan di mana μ$_\text{JT}$ berganti tanda. Kumpulan titik dengan μ$_\text{JT}$ = 0 membentuk **kurva inversi** (Gambar 2.6). Di dalam kurva, gas mendingin saat memuai melalui katup; di luarnya, gas memanas. Pada tekanan rendah, kurva memotong sumbu suhu di dua titik: suhu inversi atas $T_\text{inv} = 2a/Rb$ (yaitu dua kali suhu Boyle van der Waals) dan suhu inversi bawah yang jauh lebih rendah.
+
+![Gambar 2.6 Kurva inversi Joule–Thomson menurut persamaan van der Waals dalam variabel tereduksi. Di daerah biru μ$_\text{JT}$ > 0, sehingga pemuaian melalui katup mendinginkan gas; inilah daerah kerja mesin pencair gas. Di luarnya gas memanas.](fig/inversi.png){width=74%}
+
 ::: {.contoh}
-**Contoh 2.11 · Pendinginan nitrogen dan pemanasan helium**
+**Contoh 2.13 · Suhu inversi nitrogen dan pendinginan sekali tahap**
+
+(a) Hitung suhu inversi atas N₂ menurut van der Waals (*a* = 1,370 L² bar mol⁻², *b* = 0,0387 L mol⁻¹) dan bandingkan dengan nilai terukur di Tabel 2.4. (b) Nitrogen pada 25 °C dan 200 bar dilewatkan katup ke 1 atm. Perkirakan penurunan suhunya dengan μ$_\text{JT}$ = 0,27 K atm⁻¹ yang dianggap tetap.
+
+**Penyelesaian.** (a) $T_\text{inv} = 2a/Rb = 2(1{,}370)/[(0{,}083\,14)(0{,}0387)] = 852$ K, jauh di atas nilai terukur 621 K. (b) $\Delta p = 1 - 197{,}4 = -196{,}4$ atm, sehingga $\Delta T \approx \mu_\text{JT}\Delta p = (0{,}27)(-196{,}4) = -53$ K.
+
+**Memahami hasil.** Van der Waals meramalkan arah dengan benar tetapi angkanya kasar, sama seperti untuk titik kritis (subbab 2.5). Penurunan 53 K juga hanya perkiraan kasar: μ$_\text{JT}$ mengecil pada tekanan tinggi, sehingga penurunan nyatanya lebih kecil, sekitar 40 K. Satu tahap jelas tidak cukup untuk mencairkan nitrogen (77 K). Karena itulah mesin Linde memakai gas yang sudah didinginkan untuk mendinginkan gas yang datang berikutnya, sehingga suhu turun sedikit demi sedikit pada setiap putaran.
+:::
+
+::: {.contoh}
+**Contoh 2.14 · Pendinginan nitrogen dan pemanasan helium**
 
 (a) Taksir koefisien Joule–Thomson N₂ pada 298 K dari (2.14), dengan $C_{p,\text{m}} = 29{,}1$ J K⁻¹ mol⁻¹. (b) Gas N₂ dan He masing-masing dialirkan melalui katup dari 200 atm ke 1 atm pada suhu awal 298 K. Taksir perubahan suhunya dengan nilai $\mu_\text{JT}$ Tabel 2.4.
 
@@ -164,8 +196,12 @@ Fluida superkritis yang paling banyak dipakai adalah CO₂, karena titik kritisn
 
 Karena menggantikan pelarut organik yang mencemari, CO₂ superkritis menjadi salah satu contoh utama **kimia hijau**.
 
+Gambar 2.7 memperlihatkan di mana daerah superkritis CO₂ berada pada diagram fasa. Garis uap–cair berhenti di titik kritis; di atas suhu dan tekanan kritis tidak ada lagi batas antara "cair" dan "gas". Sedikit di atas titik kritis, perubahan kecil tekanan atau suhu mengubah massa jenis fluida secara besar, dan itulah yang membuat daya larutnya dapat "disetel".
+
+![Gambar 2.7 Diagram fasa CO₂ (skala tekanan logaritmik). Garis padat–gas dan cair–gas dihitung dari persamaan Clausius–Clapeyron (Bab 8) dengan titik tripel dan titik kritis terukur. Daerah jingga adalah fluida superkritis. Pada 1 atm, CO₂ padat langsung menyublim; cair hanya ada di atas 5,2 bar.](fig/co2.png){width=76%}
+
 ::: {.contoh}
-**Contoh 2.12 · Massa jenis CO₂ superkritis**
+**Contoh 2.15 · Massa jenis CO₂ superkritis**
 
 CO₂ superkritis untuk ekstraksi sering dipakai pada 40 °C dan 100 bar. Hitung massa jenisnya menurut persamaan gas ideal dan persamaan van der Waals, lalu bandingkan dengan nilai terukur, sekitar 630 g L⁻¹.
 
