@@ -1,150 +1,96 @@
 ## Subbab 2.1: Penyimpangan dari gas ideal: faktor kompresi
 
-> Pakai $R = 0{,}083\,14$ L bar K⁻¹ mol⁻¹ $= 8{,}314$ J K⁻¹ mol⁻¹ dan tetapan dalam Tabel 2.1–2.4. Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab.
-
-**Dasar**
+> Pakai $R = 0{,}083\,14$ L bar K⁻¹ mol⁻¹ $= 8{,}314$ J K⁻¹ mol⁻¹ dan tetapan dalam Tabel 2.1–2.4. Soal bertanda **[P]** dibahas di akhir bab.
 
 Satu mol gas dalam wadah 1,00 L pada 300 K terukur bertekanan 23,5 bar. Hitung *Z*. ||| 0,942
 Pada kondisi tertentu suatu gas mempunyai $Z = 1{,}10$. Apa artinya? ||| volume molarnya 10% lebih besar daripada gas ideal
 Dalam keadaan apa *Z* semua gas mendekati 1? ||| tekanan mendekati nol (molekul berjauhan)
-
-**Menengah**
 
 Suatu gas mempunyai $Z = 0{,}85$ pada 50,0 bar dan 300 K. Berapa volume molarnya? ||| 0,424 L mol⁻¹
 Mengapa kurva *Z* terhadap *p* untuk CO₂ turun jauh di bawah 1, sedangkan untuk He langsung naik? ||| tarikan CO₂ kuat; tarikan He sangat lemah sehingga hanya ukuran yang terasa
 
 ## Subbab 2.2: Gaya antarmolekul dan potensial Lennard-Jones
 
-**Dasar**
-
 Untuk kripton, σ = 0,363 nm. Pada jarak berapa energi potensial Lennard-Jones-nya minimum? ||| 0,407 nm
 Untuk xenon, $\varepsilon/k = 221$ K. Nyatakan ε dalam kJ mol⁻¹. ||| 1,84 kJ mol⁻¹
-
-**Menengah**
 
 Hitung energi potensial Lennard-Jones sepasang atom Ar ($\sigma = 0{,}3405$ nm, $\varepsilon = 1{,}00$ kJ mol⁻¹) pada jarak 0,50 nm. ||| −0,36 kJ mol⁻¹
 Untuk helium, $\varepsilon/k = 10{,}2$ K. Jelaskan mengapa helium baru mencair pada 4,2 K. ||| tarikan sangat lemah; *RT* harus lebih kecil dari ε
 
-**Tantangan ★**
-
-★ Turunkan bahwa minimum potensial Lennard-Jones terletak pada $r = 2^{1/6}\sigma$ dan bahwa kedalamannya ε. ||| $dV/dr = 0 \Rightarrow (\sigma/r)^6 = \tfrac12$; $V = 4\varepsilon(\tfrac14 - \tfrac12) = -\varepsilon$
+Turunkan bahwa minimum potensial Lennard-Jones terletak pada $r = 2^{1/6}\sigma$ dan bahwa kedalamannya ε. ||| $dV/dr = 0 \Rightarrow (\sigma/r)^6 = \tfrac12$; $V = 4\varepsilon(\tfrac14 - \tfrac12) = -\varepsilon$
 
 ## Subbab 2.3: Persamaan van der Waals
-
-**Dasar**
 
 Hitung tekanan 1,00 mol N₂ dalam 1,00 L pada 273 K menurut persamaan gas ideal dan van der Waals. ||| 22,7 bar; 22,3 bar
 Apa satuan SI tetapan *a* dan *b*? ||| *a*: Pa m⁶ mol⁻²; *b*: m³ mol⁻¹
 Hitung tekanan 1,00 mol NH₃ dalam 2,00 L pada 400 K menurut van der Waals dan gas ideal. ||| 15,9 bar; 16,6 bar
 
-**Menengah**
-
 @o2 [P] Tabung oksigen 50,0 L diisi sampai 150 bar pada 25 °C. Berapa kilogram O₂ di dalamnya menurut gas ideal dan menurut van der Waals? ||| 9,68 kg; 10,8 kg
 Untuk 1,00 mol H₂ dalam 0,100 L pada 300 K, hitung kedua suku persamaan van der Waals. Suku mana yang dominan, dan apakah *Z* lebih atau kurang dari 1? ||| 339,9 dan 24,8 bar; ukuran; $Z = 1{,}26$
 
-**Tantangan ★**
-
-@vir [P] ★ Kembangkan persamaan van der Waals untuk $V_\text{m}$ besar dan tunjukkan bahwa koefisien virial keduanya $B = b - a/RT$. ||| $Z = (1 - b/V_\text{m})^{-1} - a/RTV_\text{m} \approx 1 + (b - a/RT)/V_\text{m}$
+@vir [P] Kembangkan persamaan van der Waals untuk $V_\text{m}$ besar dan tunjukkan bahwa koefisien virial keduanya $B = b - a/RT$. ||| $Z = (1 - b/V_\text{m})^{-1} - a/RTV_\text{m} \approx 1 + (b - a/RT)/V_\text{m}$
 
 ## Subbab 2.4: Isoterm gas nyata dan pencairan gas
-
-**Dasar**
 
 Mengapa isoterm gas nyata di bawah suhu kritis mempunyai bagian yang mendatar? ||| gas dan cairan setimbang pada tekanan uap
 Dari tiga akar nyata persamaan van der Waals, mana yang mewakili cairan dan mana yang mewakili gas? ||| terkecil cairan; terbesar gas; tengah tak stabil
 
-**Menengah**
-
 Hitung ketiga akar persamaan van der Waals untuk CO₂ pada 290 K dan 60 bar, serta massa jenis untuk akar terkecil dan terbesar. ||| 0,0901; 0,1255; 0,2289 L mol⁻¹; 489 dan 192 g L⁻¹
 Apa yang dimaksud konstruksi Maxwell? ||| garis mendatar yang memotong luas sama di atas dan di bawah lengkungan
 
-**Tantangan ★**
-
-★ (Python) Gambarkan isoterm van der Waals CO₂ pada 260, 280, 304, dan 330 K untuk $V_\text{m}$ antara 0,05 dan 0,6 L mol⁻¹. Pada suhu mana lengkungan hilang? ||| pada dan di atas ≈ 304 K
+(Python) Gambarkan isoterm van der Waals CO₂ pada 260, 280, 304, dan 330 K untuk $V_\text{m}$ antara 0,05 dan 0,6 L mol⁻¹. Pada suhu mana lengkungan hilang? ||| pada dan di atas ≈ 304 K
 
 ## Subbab 2.5: Titik kritis dan tetapan kritis
-
-**Dasar**
 
 Hitung $T_\text{c}$ dan $p_\text{c}$ N₂ dari tetapan van der Waalsnya. ||| 126 K; 33,9 bar
 Hitung *a* dan *b* van der Waals untuk CH₄ dari $T_\text{c} = 190{,}6$ K dan $p_\text{c} = 46{,}0$ bar. ||| 2,30 L² bar mol⁻²; 0,0431 L mol⁻¹
 Dapatkah oksigen dicairkan pada 25 °C hanya dengan menekannya? ||| tidak; $T_\text{c}$ = 154,6 K
-
-**Menengah**
 
 @zc [P] Tunjukkan bahwa persamaan van der Waals meramalkan $Z_\text{c} = 3/8$ untuk semua gas, lalu bandingkan dengan nilai CO₂ dari Tabel 2.2. ||| 0,375; terukur 0,274
 Bila *b* dihitung dari volume kritis terukur CO₂ ($b = V_\text{c}/3$), berapa nilainya? Bandingkan dengan Tabel 2.1. ||| 31,3 cm³ mol⁻¹ dibanding 42,7
 
 ## Subbab 2.6: Hukum keadaan sehubungan
 
-**Dasar**
-
 Hitung suhu dan tekanan tereduksi CO₂ pada 350 K dan 100 bar. ||| 1,15; 1,36
 Tuliskan tiga variabel tereduksi. ||| $T/T_\text{c}$, $p/p_\text{c}$, $V_\text{m}/V_\text{c}$
-
-**Menengah**
 
 @red [P] Nitrogen berada pada 300 K dan 50,0 bar. Pada suhu dan tekanan berapa oksigen berada dalam keadaan sehubungan? ||| 368 K; 74,1 bar
 Hitung *Z* dari persamaan van der Waals tereduksi untuk $T_\text{r} = 1{,}5$ dan $p_\text{r} = 1{,}0$. ||| 0,89
 
-**Tantangan ★**
-
-★ Turunkan persamaan (2.8) dengan memasukkan (2.5) dan (2.7) ke dalam persamaan van der Waals. ||| substitusi $p = p_\text{r}a/27b^2$, $V_\text{m} = 3bV_\text{r}$, $T = 8aT_\text{r}/27Rb$
+Turunkan persamaan (2.8) dengan memasukkan (2.5) dan (2.7) ke dalam persamaan van der Waals. ||| substitusi $p = p_\text{r}a/27b^2$, $V_\text{m} = 3bV_\text{r}$, $T = 8aT_\text{r}/27Rb$
 
 ## Subbab 2.7: Persamaan virial dan suhu Boyle
-
-**Dasar**
 
 Untuk Ar pada 273 K, $B = -21{,}7$ cm³ mol⁻¹. Hitung *Z* pada 50 bar. ||| 0,952
 Hitung *Z* He pada 273 K dan 100 bar ($B = +11{,}9$ cm³ mol⁻¹). ||| 1,052
 Hitung suhu Boyle O₂ menurut van der Waals dan bandingkan dengan Tabel 2.3. ||| 522 K (terukur 406 K)
 
-**Menengah**
-
 Hitung koefisien virial kedua N₂ pada 273 K dari (2.11). Mengapa berbeda dari nilai Tabel 2.3? ||| −21,6 cm³ mol⁻¹; van der Waals hanya pendekatan
 
-**Tantangan ★**
-
-★ Pada suhu berapa *B* N₂ menurut van der Waals sama dengan +10 cm³ mol⁻¹? ||| 574 K
+Pada suhu berapa *B* N₂ menurut van der Waals sama dengan +10 cm³ mol⁻¹? ||| 574 K
 
 ## Subbab 2.8: Persamaan keadaan lain
 
-**Dasar**
-
 Hitung tetapan Redlich–Kwong *a* dan *b* untuk N₂ ($T_\text{c} = 126{,}2$ K, $p_\text{c} = 34{,}0$ bar). ||| 15,6 L² bar K^½ mol⁻²; 0,0267 L mol⁻¹
-
-**Menengah**
 
 Satu mol N₂ dalam 0,100 L pada 200 K. Hitung tekanannya menurut gas ideal, van der Waals, dan Redlich–Kwong. ||| 166; 134; 140 bar
 (Python) Hitung jumlah mol CH₄ dalam tabung 50,0 L pada 200 bar dan 25 °C dengan persamaan Redlich–Kwong. Bandingkan dengan Contoh 2.4. ||| 480 mol (van der Waals 492 mol)
 
-**Tantangan ★**
-
-★ Mengapa persamaan keadaan yang tetapannya dihitung dari $T_\text{c}$ dan $p_\text{c}$ biasanya paling teliti untuk gas yang molekulnya bulat dan nonpolar? ||| hukum keadaan sehubungan berlaku paling baik untuk molekul semacam itu
+Mengapa persamaan keadaan yang tetapannya dihitung dari $T_\text{c}$ dan $p_\text{c}$ biasanya paling teliti untuk gas yang molekulnya bulat dan nonpolar? ||| hukum keadaan sehubungan berlaku paling baik untuk molekul semacam itu
 
 ## Subbab 2.9: Efek Joule–Thomson dan pencairan gas
-
-**Dasar**
 
 Apa tanda $\mu_\text{JT}$ untuk gas di atas suhu inversinya, dan apa yang terjadi bila gas itu memuai melalui katup? ||| negatif; gas memanas
 @ar [P] Taksir perubahan suhu argon yang memuai melalui katup dari 100 atm ke 1 atm pada 298 K. ||| ≈ −42 K
 
-**Menengah**
-
 Hitung suhu inversi He menurut van der Waals, $T_\text{inv} \approx 2a/Rb$, dan bandingkan dengan Tabel 2.4. ||| 35 K (terukur 40 K)
 Taksir $\mu_\text{JT}$ CO₂ pada 298 K dengan (2.14), $C_{p,\text{m}} = 37{,}1$ J K⁻¹ mol⁻¹. ||| 0,69 K atm⁻¹ (terukur 1,11)
 
-**Tantangan ★**
-
-★ Jelaskan mengapa proses Linde dapat mencairkan udara walaupun satu kali pemuaian hanya menurunkan suhu beberapa puluh kelvin. ||| gas dingin hasil pemuaian mendinginkan gas masuk (penukar kalor berlawanan arah), sehingga suhu turun bertahap
+Jelaskan mengapa proses Linde dapat mencairkan udara walaupun satu kali pemuaian hanya menurunkan suhu beberapa puluh kelvin. ||| gas dingin hasil pemuaian mendinginkan gas masuk (penukar kalor berlawanan arah), sehingga suhu turun bertahap
 
 ## Subbab 2.10: Fluida superkritis
 
-**Dasar**
-
 Apakah CO₂ pada 35 °C dan 50 bar merupakan fluida superkritis? Bagaimana pada 40 °C dan 100 bar? ||| tidak (p < pc); ya
 Sebutkan tiga alasan CO₂ banyak dipakai sebagai fluida superkritis. ||| titik kritis mudah dicapai; murah dan tidak beracun; tidak meninggalkan sisa
-
-**Menengah**
 
 Hitung massa jenis air pada 400 °C dan 250 bar menurut persamaan gas ideal. Apakah nilai sebenarnya lebih besar atau lebih kecil, dan mengapa? ||| 80,5 g L⁻¹; lebih besar, karena tarikan antarmolekul ($Z < 1$)

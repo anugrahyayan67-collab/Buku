@@ -1,113 +1,75 @@
 ## Subbab 13.1: Sel elektrokimia dan reaksi setengah sel
 
-> Pakai $F = 96\,485$ C mol⁻¹, $R = 8{,}314$ J K⁻¹ mol⁻¹, $RT\ln10/F = 0{,}059\,16$ V pada 25 °C, dan Tabel 13.1. Anggap aktivitas sama dengan konsentrasi (mol L⁻¹) kecuali disebutkan lain. Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab.
-
-**Dasar**
+> Pakai $F = 96\,485$ C mol⁻¹, $R = 8{,}314$ J K⁻¹ mol⁻¹, $RT\ln10/F = 0{,}059\,16$ V pada 25 °C, dan Tabel 13.1. Anggap aktivitas sama dengan konsentrasi (mol L⁻¹) kecuali disebutkan lain. Soal bertanda **[P]** dibahas di akhir bab.
 
 Tuliskan reaksi setengah sel dan reaksi sel untuk $\text{Zn}\,|\,\text{Zn}^{2+}\,\|\,\text{Ag}^+\,|\,\text{Ag}$. ||| Zn → Zn²⁺ + 2e⁻; Ag⁺ + e⁻ → Ag; Zn + 2Ag⁺ → Zn²⁺ + 2Ag
 Apa fungsi jembatan garam? ||| menutup rangkaian lewat aliran ion tanpa mencampur larutan
-
-**Menengah**
 
 Tuliskan diagram sel untuk reaksi $\text{Cu} + 2\text{Fe}^{3+} \rightarrow \text{Cu}^{2+} + 2\text{Fe}^{2+}$. ||| $\text{Cu}\,|\,\text{Cu}^{2+}\,\|\,\text{Fe}^{3+}, \text{Fe}^{2+}\,|\,\text{Pt}$
 Mengapa elektrode Ag|AgCl disukai sebagai elektrode pembanding? ||| stabil, mudah dibuat, potensialnya hanya bergantung pada [Cl⁻]
 
 ## Subbab 13.2: Kerja listrik dan ΔG = −nFE
 
-**Dasar**
-
 Hitung $E^\circ$ dan $\Delta_\text{r}G^\circ$ sel $\text{Zn}\,|\,\text{Zn}^{2+}\,\|\,\text{Ag}^+\,|\,\text{Ag}$. ||| 1,562 V; −301,3 kJ mol⁻¹
 Mengapa *E* tidak berubah bila persamaan reaksi sel dikalikan dua? ||| Δ*G* dan *n* sama-sama berlipat dua
-
-**Menengah**
 
 Mengapa potensial sel harus diukur pada arus hampir nol? ||| agar proses reversibel; arus besar menimbulkan kerugian hambatan dan overpotensial
 Satu milivolt pada sel dengan *n* = 1 setara berapa kJ mol⁻¹? ||| 0,096 kJ mol⁻¹
 
 ## Subbab 13.3: Potensial elektrode standar
 
-**Dasar**
-
 Hitung $E^\circ$ untuk $\text{Zn} + \text{Cl}_2 \rightarrow \text{Zn}^{2+} + 2\text{Cl}^-$. ||| 2,120 V
 Apakah perak larut dalam HCl 1 mol L⁻¹ dengan melepaskan H₂? ||| tidak ($E^\circ = -0{,}800$ V)
 Susun Li, Zn, Fe, Cu, Ag menurut kekuatannya sebagai pereduksi. ||| Li > Zn > Fe > Cu > Ag
-
-**Menengah**
 
 @gabung [P] Dari $E^\circ(\text{Cu}^{2+}/\text{Cu}) = 0{,}340$ V dan $E^\circ(\text{Cu}^{+}/\text{Cu}) = 0{,}521$ V, hitung $E^\circ(\text{Cu}^{2+}/\text{Cu}^+)$. Apakah ion Cu⁺ stabil dalam air? ||| 0,159 V; tidak, Cu⁺ terdisproporsionasi
 Mengapa larutan FeCl₃ dapat dipakai untuk melarutkan tembaga pada papan sirkuit? ||| $E^\circ = 0{,}771 - 0{,}340 = +0{,}431$ V
 
 ## Subbab 13.4: Persamaan Nernst
 
-**Dasar**
-
 Hitung potensial sel Daniell dengan [Zn²⁺] = 0,10 dan [Cu²⁺] = 1,0 mol L⁻¹. ||| 1,132 V
 Hitung potensial elektrode hidrogen (1 bar) pada pH 4,0. ||| −0,237 V
 Hitung potensial elektrode Ag⁺/Ag dengan [Ag⁺] = 1,0 × 10⁻³ mol L⁻¹. ||| 0,622 V
-
-**Menengah**
 
 Hitung potensial elektrode Fe²⁺/Fe dengan [Fe²⁺] = 0,010 mol L⁻¹. Apakah lebih mudah atau lebih sukar dioksidasi daripada pada keadaan standar? ||| −0,506 V; lebih mudah
 Mengapa tegangan baterai hampir tetap selama sebagian besar umurnya? ||| *E* bergantung logaritmik pada *Q*
 Pada pH berapa potensial elektrode oksigen (1 bar) sama dengan $E^\circ(\text{Cl}_2/\text{Cl}^-)$? Apa artinya? ||| tidak ada pH ≥ 0; oksigen tidak dapat mengoksidasi Cl⁻ menjadi Cl₂ pada keadaan standar
 
-**Tantangan ★**
-
-★ Turunkan persamaan Nernst dari $\Delta_\text{r}G = \Delta_\text{r}G^\circ + RT\ln Q$, dan tunjukkan bahwa di 25 °C setiap kenaikan *Q* sepuluh kali menurunkan *E* sebesar 59,16/*n* mV. ||| bagi dengan −*nF*
-@dh [P] ★ Ulangi Contoh 13.7 untuk HCl 0,0500 mol kg⁻¹ dengan tiga koefisien aktivitas: (a) hukum pembatas Debye–Hückel; (b) bentuk diperluas $\log\gamma_\pm = -0{,}509\sqrt I/(1 + \sqrt I)$, yang secara kasar memperhitungkan ukuran ion; (c) nilai terukur $\gamma_\pm = 0{,}830$. Bandingkan juga dengan hasil tanpa koreksi aktivitas. ||| (a) 0,3897 V; (b) 0,3872 V; (c) 0,3858 V; tanpa koreksi 0,3762 V
+Turunkan persamaan Nernst dari $\Delta_\text{r}G = \Delta_\text{r}G^\circ + RT\ln Q$, dan tunjukkan bahwa di 25 °C setiap kenaikan *Q* sepuluh kali menurunkan *E* sebesar 59,16/*n* mV. ||| bagi dengan −*nF*
+@dh [P] Ulangi Contoh 13.7 untuk HCl 0,0500 mol kg⁻¹ dengan tiga koefisien aktivitas: (a) hukum pembatas Debye–Hückel; (b) bentuk diperluas $\log\gamma_\pm = -0{,}509\sqrt I/(1 + \sqrt I)$, yang secara kasar memperhitungkan ukuran ion; (c) nilai terukur $\gamma_\pm = 0{,}830$. Bandingkan juga dengan hasil tanpa koreksi aktivitas. ||| (a) 0,3897 V; (b) 0,3872 V; (c) 0,3858 V; tanpa koreksi 0,3762 V
 
 ## Subbab 13.5: Potensial standar dan tetapan kesetimbangan
 
-**Dasar**
-
 Hitung *K* untuk $\text{Zn} + \text{Cl}_2 \rightleftharpoons \text{Zn}^{2+} + 2\text{Cl}^-$ pada 25 °C. ||| $5 \times 10^{71}$
 Hitung *K* untuk $\text{Cu} + 2\text{Fe}^{3+} \rightleftharpoons \text{Cu}^{2+} + 2\text{Fe}^{2+}$. ||| $3{,}7 \times 10^{14}$
-
-**Menengah**
 
 @ksp [P] Dengan $E^\circ(\text{AgBr}/\text{Ag}) = 0{,}0713$ V dan $E^\circ(\text{Ag}^+/\text{Ag}) = 0{,}7996$ V, hitung $K_\text{sp}$ AgBr. ||| $4{,}9 \times 10^{-13}$
 Bagaimana *K* sel Daniell berubah pada 50 °C, bila $E^\circ$ dianggap tetap? Hitung ln *K*. ||| ln *K* = 79,2 (lebih kecil dari 85,8 pada 25 °C)
 
 ## Subbab 13.6: Ketergantungan E pada suhu
 
-**Dasar**
-
 Potensial sel dengan *n* = 2 naik 0,10 mV per kelvin. Hitung $\Delta_\text{r}S$. ||| +19,3 J K⁻¹ mol⁻¹
 Suatu sel dengan *n* = 2 mempunyai *E* = 0,500 V dan $dE/dT = -0{,}40$ mV K⁻¹ pada 25 °C. Hitung $\Delta_\text{r}H$. ||| −119,5 kJ mol⁻¹
-
-**Menengah**
 
 @panas [P] Untuk sel pada soal sebelumnya, berapa kalor yang dilepaskan bila sel bekerja reversibel, dan bila dihubung pendek? ||| 23,0 kJ mol⁻¹; 119,5 kJ mol⁻¹
 Dapatkah sel elektrokimia menghasilkan kerja listrik lebih besar daripada $-\Delta_\text{r}H$? Kapan? ||| ya, bila $dE/dT > 0$ (Δ*S* > 0)
 
-**Tantangan ★**
-
-@sofc [P] ★ (a) Hitung $dE^\circ/dT$ sel bahan bakar hidrogen–oksigen yang menghasilkan air cair (Tabel 6.1), dan *E*° pada 80 °C, suhu kerja sel bahan bakar membran (PEM). (b) Sel bahan bakar oksida padat (SOFC) bekerja pada 800 °C dan menghasilkan uap air. Dengan $\Delta_\text{f}H^\circ$ H₂O(g) = −241,83 kJ mol⁻¹ dan entropi standar dari Tabel 6.1, dianggap tetap, hitung *E*°-nya. Mengapa SOFC tetap menarik walaupun tegangannya lebih rendah? ||| (a) −0,846 mV K⁻¹; 1,182 V; (b) 1,006 V
+@sofc [P] (a) Hitung $dE^\circ/dT$ sel bahan bakar hidrogen–oksigen yang menghasilkan air cair (Tabel 6.1), dan *E*° pada 80 °C, suhu kerja sel bahan bakar membran (PEM). (b) Sel bahan bakar oksida padat (SOFC) bekerja pada 800 °C dan menghasilkan uap air. Dengan $\Delta_\text{f}H^\circ$ H₂O(g) = −241,83 kJ mol⁻¹ dan entropi standar dari Tabel 6.1, dianggap tetap, hitung *E*°-nya. Mengapa SOFC tetap menarik walaupun tegangannya lebih rendah? ||| (a) −0,846 mV K⁻¹; 1,182 V; (b) 1,006 V
 
 ## Subbab 13.7: Sel konsentrasi dan pengukuran pH
 
-**Dasar**
-
 Hitung potensial sel konsentrasi Cu|Cu²⁺(0,0010)‖Cu²⁺(1,0)|Cu. ||| 0,089 V
 Dua larutan memberi selisih tegangan 0,35 V pada pH meter di 25 °C. Berapa selisih pH-nya? ||| 5,9
-
-**Menengah**
 
 Mengapa potensial istirahat sel saraf dekat potensial Nernst K⁺? ||| membran istirahat terutama permeabel K⁺
 Mengapa pH meter harus dikalibrasi dengan larutan penyangga? ||| tetapan pada (13.8) berbeda untuk setiap elektrode dan berubah
 
 ## Subbab 13.8: Baterai dan sel bahan bakar
 
-**Dasar**
-
 Hitung tegangan termonetral sel bahan bakar hidrogen. ||| 1,481 V
 Sel bahan bakar bekerja pada 0,85 V. Hitung efisiensinya terhadap entalpi pembakaran hidrogen. ||| 57%
-
-**Menengah**
 
 Baterai seng–udara memakai $\text{Zn} + \tfrac12\text{O}_2 \rightarrow \text{ZnO}$ dengan *E* ≈ 1,65 V. Hitung energi spesifik teoretisnya per kilogram seng. Mengapa massa oksigen tidak dihitung? ||| 1350 Wh kg⁻¹; O₂ diambil dari udara
 Mengapa seng melindungi besi dari karat walaupun lapisannya tergores? ||| seng lebih mudah teroksidasi dan menjadi anode korban
 
-**Tantangan ★**
-
-★ Bila hidrogen dibuat dengan elektrolisis pada 1,8 V lalu dipakai di sel bahan bakar pada 0,70 V, berapa fraksi listrik awal yang kembali? Di mana energi yang hilang? ||| 39%; kalor dari overpotensial dan hambatan
+Bila hidrogen dibuat dengan elektrolisis pada 1,8 V lalu dipakai di sel bahan bakar pada 0,70 V, berapa fraksi listrik awal yang kembali? Di mana energi yang hilang? ||| 39%; kalor dari overpotensial dan hambatan

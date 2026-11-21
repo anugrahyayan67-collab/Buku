@@ -142,6 +142,10 @@ karena berat kolom itu $\rho Ahg$ dibagi luas alasnya *A*. Persamaan (1.4) menje
 
 Untuk mengukur tekanan gas di dalam wadah, kimiawan memakai **manometer**: tabung berbentuk U berisi cairan, dengan satu ujung tersambung ke gas. Bila ujung yang lain terbuka ke udara, selisih tinggi cairan di kedua kaki menyatakan selisih tekanan gas terhadap tekanan atmosfer.
 
+Kedua alat itu digambarkan berdampingan pada Gambar 1.1. Perhatikan bahwa barometer mengukur tekanan **mutlak**, karena di atas kolom raksanya hampa, sedangkan manometer ujung terbuka hanya mengukur **selisih** tekanan terhadap udara luar. Karena itu bacaan manometer selalu harus dijumlahkan dengan bacaan barometer.
+
+![Gambar 1.1 Barometer (kiri) dan manometer ujung terbuka (kanan). Pada barometer, berat kolom raksa setinggi *h* diimbangi tekanan udara pada permukaan bak. Pada manometer, raksa di kaki terbuka berdiri lebih tinggi bila tekanan gas lebih besar daripada tekanan udara; selisih tinggi Δ*h* sebanding dengan selisih tekanan.](fig/manometer.png){width=84%}
+
 ::: {.contoh}
 **Contoh 1.3 · Manometer ujung terbuka**
 

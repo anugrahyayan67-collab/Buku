@@ -1,38 +1,26 @@
 ## Subbab 4.1: Entalpi
 
-> Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, $RT = 2{,}479$ kJ mol⁻¹ pada 298 K, dan data Tabel 4.1–4.2. Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab.
-
-**Dasar**
+> Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, $RT = 2{,}479$ kJ mol⁻¹ pada 298 K, dan data Tabel 4.1–4.2. Soal bertanda **[P]** dibahas di akhir bab.
 
 Untuk $\text{CO}(g) + \tfrac12\text{O}_2(g) \to \text{CO}_2(g)$, $\Delta H = -282{,}98$ kJ mol⁻¹ pada 298 K. Hitung Δ*U*. ||| −281,74 kJ mol⁻¹
 Reaksi dengan Δ*H* = +45 kJ mol⁻¹ disebut apa, dan apakah gelas kimianya terasa hangat atau dingin? ||| endoterm; dingin
 Berapa selisih *H* dan *U* untuk 1 mol gas ideal pada 298 K? ||| *RT* = 2,48 kJ
-
-**Menengah**
 
 Entalpi penguapan etanol pada titik didihnya (78,3 °C) adalah 38,6 kJ mol⁻¹. Hitung $\Delta_\text{vap}U$. ||| 35,7 kJ mol⁻¹
 Untuk reaksi apa Δ*H* lebih positif daripada Δ*U*? Berikan satu contoh. ||| bila jumlah mol gas bertambah, misalnya penguraian CaCO₃
 
 ## Subbab 4.2: Cp, Cv, dan hubungan keduanya
 
-**Dasar**
-
 $C_{p,\text{m}}$ CO₂ pada 298 K adalah 37,11 J K⁻¹ mol⁻¹. Berapa $C_{V,\text{m}}$-nya bila dianggap gas ideal? ||| 28,80 J K⁻¹ mol⁻¹
 Hitung kalor untuk memanaskan 2,00 mol He dari 300 K ke 400 K pada tekanan tetap dan pada volume tetap. ||| 4,16 kJ; 2,49 kJ
-
-**Menengah**
 
 @cpT [P] Untuk O₂, $C_{p,\text{m}} = 29{,}96 + 4{,}18 \times 10^{-3}T - 1{,}67 \times 10^5/T^2$ (J K⁻¹ mol⁻¹). Hitung kalor untuk memanaskan 1,00 mol O₂ dari 300 K ke 500 K pada tekanan tetap. ||| 6,10 kJ
 Mengapa $C_p - C_V$ untuk padatan jauh lebih kecil daripada *R*? ||| padatan hampir tidak memuai, sehingga kerja ekspansinya sangat kecil
 
 ## Subbab 4.3: Kalorimetri: bom dan tekanan tetap
 
-**Dasar**
-
 Pembakaran 1,000 g asam benzoat ($\Delta_\text{c}U = -26{,}43$ kJ g⁻¹) menaikkan suhu bom kalorimeter 2,64 K. Berapa kapasitas kalornya? ||| 10,0 kJ K⁻¹
 Mengapa kalorimeter gelas busa mengukur Δ*H*, bukan Δ*U*? ||| tekanannya tetap (terbuka ke atmosfer)
-
-**Menengah**
 
 Pembakaran 1,000 g sukrosa ($M = 342{,}30$ g mol⁻¹) dalam bom kalorimeter berkapasitas kalor 10,0 kJ K⁻¹ menaikkan suhu 1,65 K. Hitung $\Delta_\text{c}H$ sukrosa. ||| −5648 kJ mol⁻¹
 @naf [P] Energi dalam pembakaran naftalena padat, $\text{C}_{10}\text{H}_8(s) + 12\text{O}_2(g) \to 10\text{CO}_2(g) + 4\text{H}_2\text{O}(l)$, adalah −5150 kJ mol⁻¹ pada 298 K. Hitung $\Delta_\text{c}H$. ||| −5155 kJ mol⁻¹
@@ -40,100 +28,64 @@ Sebanyak 100 mL HCl 0,500 M dicampur dengan 100 mL NaOH 0,500 M. Dengan $\Delta 
 
 ## Subbab 4.4: Entalpi perubahan fisika
 
-**Dasar**
-
 Berapa kalor yang diperlukan untuk mencairkan 50,0 g es pada 0 °C? ||| 16,7 kJ
 Berapa kalor yang diperlukan untuk menguapkan 100 g air pada 100 °C? ||| 226 kJ
-
-**Menengah**
 
 @es [P] Sebanyak 10,0 g es pada 0 °C dimasukkan ke dalam 100 g air pada 25 °C dalam wadah terisolasi. Berapa suhu akhirnya? ||| 15,5 °C
 Mengapa entalpi penguapan selalu jauh lebih besar daripada entalpi peleburan zat yang sama? ||| penguapan memisahkan molekul sepenuhnya; peleburan hanya melonggarkannya
 
 ## Subbab 4.5: Persamaan termokimia dan keadaan standar
 
-**Dasar**
-
 Untuk $2\text{H}_2(g) + \text{O}_2(g) \to 2\text{H}_2\text{O}(l)$, $\Delta_\text{r}H^\circ = -571{,}66$ kJ mol⁻¹. Berapa $\Delta_\text{r}H^\circ$ untuk $\text{H}_2\text{O}(l) \to \text{H}_2(g) + \tfrac12\text{O}_2(g)$? ||| +285,83 kJ mol⁻¹
 Apa yang dimaksud keadaan standar, dan apakah keadaan standar menyebut suhu? ||| zat murni pada 1 bar; tidak menyebut suhu
-
-**Menengah**
 
 Berapa kalor yang dilepaskan pembakaran 1,00 kg metana ($\Delta_\text{c}H^\circ = -890{,}3$ kJ mol⁻¹)? ||| 55,5 MJ
 Dari $\Delta_\text{f}H^\circ$ H₂O(l) dan $\Delta_\text{vap}H^\circ = 44{,}01$ kJ mol⁻¹ pada 298 K, hitung $\Delta_\text{f}H^\circ$ H₂O(g). ||| −241,82 kJ mol⁻¹
 
 ## Subbab 4.6: Hukum Hess
 
-**Dasar**
-
 Diketahui $\text{S} + \text{O}_2 \to \text{SO}_2$, Δ*H* = −296,83 kJ mol⁻¹ dan $\text{SO}_2 + \tfrac12\text{O}_2 \to \text{SO}_3$, Δ*H* = −98,89 kJ mol⁻¹. Hitung Δ*H* untuk $\text{S} + \tfrac32\text{O}_2 \to \text{SO}_3$. ||| −395,72 kJ mol⁻¹
 Entalpi pembakaran grafit −393,51 dan intan −395,41 kJ mol⁻¹. Hitung Δ*H* untuk grafit → intan. ||| +1,90 kJ mol⁻¹
-
-**Menengah**
 
 Dari entalpi pembakaran CH₄ (−890,36), C (−393,51), dan H₂ (−285,83 kJ mol⁻¹), hitung $\Delta_\text{f}H^\circ$ metana. ||| −74,81 kJ mol⁻¹
 Entalpi pembakaran C₂H₂ adalah −1299,6 kJ mol⁻¹. Dengan data Contoh 4.10, hitung Δ*H* untuk $\text{C}_2\text{H}_2 + 2\text{H}_2 \to \text{C}_2\text{H}_6$. ||| −311,5 kJ mol⁻¹
 
 ## Subbab 4.7: Entalpi pembentukan standar
 
-**Dasar**
-
 Hitung $\Delta_\text{r}H^\circ$ untuk $\text{CaCO}_3(s) \to \text{CaO}(s) + \text{CO}_2(g)$, dengan $\Delta_\text{f}H^\circ$ CaO(s) = −635,09 kJ mol⁻¹. ||| +178,3 kJ mol⁻¹
 Hitung entalpi pembakaran standar glukosa dari Tabel 4.1. ||| −2802,7 kJ mol⁻¹
 Manakah yang entalpi pembentukan standarnya nol pada 298 K: O₂(g), O₃(g), C(intan), Br₂(l), Br₂(g)? ||| O₂(g) dan Br₂(l)
 
-**Menengah**
-
 Hitung $\Delta_\text{r}H^\circ$ untuk $4\text{NH}_3(g) + 5\text{O}_2(g) \to 4\text{NO}(g) + 6\text{H}_2\text{O}(g)$, langkah pertama pembuatan asam nitrat. ||| −905,5 kJ mol⁻¹
 Hitung entalpi pembakaran asetilena per gram, dengan air sebagai cairan. ||| −49,9 kJ g⁻¹
 
-**Tantangan ★**
-
-★ Dengan $\Delta_\text{f}H^\circ$ NH₄⁺(aq) = −132,51 dan NO₃⁻(aq) = −205,0 kJ mol⁻¹, hitung entalpi pelarutan NH₄NO₃ pada pengenceran tak hingga. Mengapa berbeda dari 25,7 kJ mol⁻¹ pada Contoh 4.13? ||| +28,1 kJ mol⁻¹; Contoh 4.13 adalah larutan pekat
+Dengan $\Delta_\text{f}H^\circ$ NH₄⁺(aq) = −132,51 dan NO₃⁻(aq) = −205,0 kJ mol⁻¹, hitung entalpi pelarutan NH₄NO₃ pada pengenceran tak hingga. Mengapa berbeda dari 25,7 kJ mol⁻¹ pada Contoh 4.13? ||| +28,1 kJ mol⁻¹; Contoh 4.13 adalah larutan pekat
 
 ## Subbab 4.8: Entalpi ikatan
-
-**Dasar**
 
 Taksir $\Delta_\text{r}H$ untuk $\text{H}_2 + \text{Cl}_2 \to 2\text{HCl}$ dari entalpi ikatan, lalu bandingkan dengan $2\Delta_\text{f}H^\circ(\text{HCl}) = -184{,}6$ kJ mol⁻¹. ||| −184 kJ mol⁻¹; sangat cocok
 Taksir $\Delta_\text{r}H$ untuk $\text{N}_2 + 3\text{H}_2 \to 2\text{NH}_3$ dari entalpi ikatan. ||| −75 kJ mol⁻¹ (sebenarnya −92,2)
 
-**Menengah**
-
 @hidro [P] Taksir entalpi hidrogenasi etena dari entalpi ikatan dan bandingkan dengan Contoh 4.10. ||| −124 kJ mol⁻¹ dibanding −137,0
 
-**Tantangan ★**
-
-★ Mengapa taksiran entalpi ikatan untuk pembentukan HCl sangat tepat, tetapi untuk NH₃ meleset hampir 20%? ||| H–H, Cl–Cl, H–Cl dari molekul diatomik (tepat); N–H adalah rata-rata
-@kcl ★ Susun siklus Born–Haber untuk KCl dan hitung entalpi kisinya. Data (kJ mol⁻¹): $\Delta_\text{f}H^\circ$ KCl(s) −436,7; sublimasi K +89,0; ionisasi K +418,8; atomisasi ½Cl₂ +121,7; penangkapan elektron Cl −348,6. Mengapa hasilnya lebih kecil daripada NaCl (787 kJ mol⁻¹)? ||| +717,6 kJ mol⁻¹; ion K⁺ lebih besar, jarak antarion lebih jauh, tarikan lebih lemah
+Mengapa taksiran entalpi ikatan untuk pembentukan HCl sangat tepat, tetapi untuk NH₃ meleset hampir 20%? ||| H–H, Cl–Cl, H–Cl dari molekul diatomik (tepat); N–H adalah rata-rata
+@kcl Susun siklus Born–Haber untuk KCl dan hitung entalpi kisinya. Data (kJ mol⁻¹): $\Delta_\text{f}H^\circ$ KCl(s) −436,7; sublimasi K +89,0; ionisasi K +418,8; atomisasi ½Cl₂ +121,7; penangkapan elektron Cl −348,6. Mengapa hasilnya lebih kecil daripada NaCl (787 kJ mol⁻¹)? ||| +717,6 kJ mol⁻¹; ion K⁺ lebih besar, jarak antarion lebih jauh, tarikan lebih lemah
 
 ## Subbab 4.9: Ketergantungan entalpi reaksi pada suhu
 
-**Dasar**
-
 Suatu reaksi mempunyai $\Delta_\text{r}C_p^\circ = +10{,}0$ J K⁻¹ mol⁻¹. Berapa perubahan $\Delta_\text{r}H^\circ$ antara 298 K dan 398 K? ||| bertambah 1,0 kJ mol⁻¹
-
-**Menengah**
 
 Taksir $\Delta_\text{f}H^\circ$ H₂O(g) pada 1000 K ($C_{p,\text{m}}$: H₂O(g) 33,58; H₂ 28,82; O₂ 29,36 J K⁻¹ mol⁻¹). ||| −248,8 kJ mol⁻¹
 Mengapa hukum Kirchhoff dengan $\Delta_\text{r}C_p^\circ$ tetap hanya berlaku untuk rentang suhu yang tidak terlalu lebar? ||| kapasitas kalor sendiri berubah dengan suhu
 
-**Tantangan ★**
-
-@kirch [P] ★ (Python) Ulangi Contoh 4.16 dengan kapasitas kalor yang bergantung pada suhu, $C_{p,\text{m}} = a + bT + c/T^2$ (J K⁻¹ mol⁻¹): N₂ $a = 28{,}58$, $b = 3{,}77 \times 10^{-3}$, $c = -0{,}50 \times 10^5$; H₂ 27,28; $3{,}26 \times 10^{-3}$; $0{,}50 \times 10^5$; NH₃ 29,75; $25{,}1 \times 10^{-3}$; $-1{,}55 \times 10^5$. Mengapa hasilnya berbeda dari −111,5 kJ mol⁻¹? ||| −106,7 kJ mol⁻¹; $|\Delta_\text{r}C_p^\circ|$ mengecil dari 44,6 ke 25,2 J K⁻¹ mol⁻¹ saat suhu naik
+@kirch [P] (Python) Ulangi Contoh 4.16 dengan kapasitas kalor yang bergantung pada suhu, $C_{p,\text{m}} = a + bT + c/T^2$ (J K⁻¹ mol⁻¹): N₂ $a = 28{,}58$, $b = 3{,}77 \times 10^{-3}$, $c = -0{,}50 \times 10^5$; H₂ 27,28; $3{,}26 \times 10^{-3}$; $0{,}50 \times 10^5$; NH₃ 29,75; $25{,}1 \times 10^{-3}$; $-1{,}55 \times 10^5$. Mengapa hasilnya berbeda dari −111,5 kJ mol⁻¹? ||| −106,7 kJ mol⁻¹; $|\Delta_\text{r}C_p^\circ|$ mengecil dari 44,6 ke 25,2 J K⁻¹ mol⁻¹ saat suhu naik
 
 ## Subbab 4.10: Termokimia pembakaran dan bahan bakar
-
-**Dasar**
 
 Hitung entalpi pembakaran per gram metanol ($\Delta_\text{c}H^\circ = -726{,}1$ kJ mol⁻¹) dan etana (−1559,8 kJ mol⁻¹). ||| 22,7 dan 51,9 kJ g⁻¹
 Oktana melepaskan 47,9 kJ g⁻¹ dan massa jenisnya 0,703 g mL⁻¹. Berapa energinya per liter? ||| 33,7 MJ L⁻¹
 
-**Menengah**
-
 Berapa gram hidrogen yang menghasilkan energi pembakaran sama dengan 1 L oktana? ||| 238 g
 @co2 [P] Hitung massa CO₂ yang dihasilkan per megajoule kalor pembakaran untuk metana dan oktana ($\Delta_\text{c}H^\circ = -5470$ kJ mol⁻¹). Mengapa metana lebih "bersih"? ||| 49 dan 64 g MJ⁻¹; perbandingan H/C metana lebih tinggi
 
-**Tantangan ★**
-
-@thornton [P] ★ Hitung kalor pembakaran per mol O₂ yang dipakai untuk metana (−890,3), propana (−2220), etanol (−1366,8), glukosa (−2808), dan hidrogen (−285,83 kJ mol⁻¹, semua menghasilkan air cair). Apa yang kamu perhatikan pada keempat senyawa organik? Jelaskan dengan entalpi ikatan, dan jelaskan mengapa hidrogen menyimpang. ||| 445; 444; 456; 468; 572 kJ per mol O₂; senyawa organik hampir tetap (±450)
+@thornton [P] Hitung kalor pembakaran per mol O₂ yang dipakai untuk metana (−890,3), propana (−2220), etanol (−1366,8), glukosa (−2808), dan hidrogen (−285,83 kJ mol⁻¹, semua menghasilkan air cair). Apa yang kamu perhatikan pada keempat senyawa organik? Jelaskan dengan entalpi ikatan, dan jelaskan mengapa hidrogen menyimpang. ||| 445; 444; 456; 468; 572 kJ per mol O₂; senyawa organik hampir tetap (±450)

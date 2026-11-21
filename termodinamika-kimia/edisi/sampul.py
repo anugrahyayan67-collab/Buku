@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Sampul depan & belakang Termodinamika Kimia Edisi 1 + gambar: isoterm bercahaya dan siklus Carnot.
+# Sampul depan & belakang Kimia Fisika 1: Termodinamika Kimia Edisi 1 + gambar: isoterm bercahaya dan siklus Carnot.
 import os, re, glob, numpy as np, matplotlib
 matplotlib.use('Agg'); import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
@@ -64,8 +64,8 @@ open(f'{K}/sampul.html', 'w').write(f'''<!doctype html><html><head><meta charset
 .tp b{{font-family:Inter,sans-serif;font-size:8.5pt;letter-spacing:2px;color:#b4442b;display:block;margin-bottom:1.5mm}}
 </style></head><body>
 <div class="pg"><div class="bar"></div><div class="ed">EDISI PERTAMA</div><div class="pen">SEPTIAN ANUGRAH DWI PUTRA</div>
-<div class="jd">TERMODINAMIKA<br><span>KIMIA</span></div>
-<div class="sb">Kimia Fisika 1 · dari gas ideal sampai sel elektrokimia</div>
+<div class="jd">KIMIA<br><span>FISIKA 1</span></div>
+<div class="sb">Termodinamika Kimia · dari gas ideal sampai sel elektrokimia</div>
 <div class="panel"><img src="sampul-latar.png"></div></div>
 <div class="pg blk"><div class="bar"></div><div class="isi"><h2>Mengapa reaksi kimia <span>berjalan ke satu arah?</span></h2>
 <p>Buku ini menjawab pertanyaan-pertanyaan pokok kimia fisika dengan termodinamika: mengapa gas memuai bila dipanaskan, dari mana datangnya kalor reaksi, mengapa es mencair tetapi tidak membeku kembali dengan sendirinya pada suhu kamar, sampai di mana sebuah reaksi berhenti, dan berapa tegangan yang dapat diberikan sebuah baterai.</p>

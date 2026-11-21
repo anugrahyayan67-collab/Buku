@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Mencetak Termodinamika Kimia Edisi 1 sebagai satu buku utuh.
+# Mencetak Kimia Fisika 1: Termodinamika Kimia Edisi 1 sebagai satu buku utuh.
 # Pakai: python3 kimia-kuantum/edisi/cetak.py [--lewati-bab]   (--lewati-bab: pakai PDF bab hasil render sebelumnya)
 import re, os, sys, glob, json, subprocess, html
 from pypdf import PdfReader, PdfWriter
@@ -20,7 +20,7 @@ def koma(s):
     return re.sub(r'<mn>(\d+)</mn><mo>,</mo><msup><mn>(\d+)</mn>', r'<msup><mn>\1,\2</mn>', s)
 def md2html(md, out, css):
     src = out[:-5] + '.md'; open(src, 'w').write(md)
-    cmd = ['pandoc', src, '-s', '--mathml', '--metadata', 'pagetitle=Termodinamika Kimia', '-o', out] + sum([['-c', c] for c in css], [])
+    cmd = ['pandoc', src, '-s', '--mathml', '--metadata', 'pagetitle=Kimia Fisika 1', '-o', out] + sum([['-c', c] for c in css], [])
     subprocess.run(cmd, check=True, cwd=os.path.dirname(out), stderr=subprocess.DEVNULL)
     s = koma(open(out).read()); open(out, 'w').write(s)
     s = open(out).read().replace('<h1\n', '<h1 ').replace('<h2\n', '<h2 ').replace('<h3\n', '<h3 ')
@@ -193,7 +193,7 @@ isi.append(f'<div class="bab">{r("Indeks", MULAI["indeks"])}</div>')
 nbab = len(BAB); ncontoh = sum(len(re.findall(r'::: \{\.contoh\}', open(f).read())) for f in glob.glob(f'{R}/bab*/[a-y]-*.md'))
 nsoal = sum(len(re.findall(r'^\*\*\d+\.\*\*', open(f'{R}/bab{n:02d}/z-akhir.md').read(), re.M)) for n in BAB)
 open(f'{K}/judul.html', 'w').write(f'''<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="../../buku.css"><link rel="stylesheet" href="../../buku2.css"><link rel="stylesheet" href="../../buku3.css"><link rel="stylesheet" href="../tk.css"></head><body>
-<div class="judul-hal halaman"><div class="atas"><div class="j">TERMODINAMIKA<br>KIMIA</div><div class="s">Kimia Fisika 1 · dari gas ideal sampai sel elektrokimia</div><div class="pen">Septian Anugrah Dwi Putra</div><div class="e">EDISI PERTAMA</div></div>
+<div class="judul-hal halaman"><div class="atas"><div class="j">KIMIA<br>FISIKA 1</div><div class="s">Termodinamika Kimia · dari gas ideal sampai sel elektrokimia</div><div class="pen">Septian Anugrah Dwi Putra</div><div class="e">EDISI PERTAMA</div></div>
 <div class="bawah"></div></div>
 <div class="ket halaman"><p><b>Kimia Fisika 1: Termodinamika Kimia</b><br>Edisi Pertama, 2026<br>Penyusun: Septian Anugrah Dwi Putra</p>
 <p>Isi: {nbab} bab, lampiran, serta indeks. Buku ini merupakan lanjutan dari <i>Fisika Umum</i> dan <i>Kimia Kuantum</i> karya penyusun yang sama.</p>
@@ -244,7 +244,7 @@ for k, j, jenis, _ in URUT:
     else: kanan = 'Indeks'
     if jenis == 'awal': ov = {}
     elif p % 2: ov = {'kanan': kanan, 'no': str(p)}
-    else: ov = {'kiri': 'Termodinamika Kimia', 'no': str(p)}
+    else: ov = {'kiri': 'Kimia Fisika 1', 'no': str(p)}
     halaman.append((k, j, ov))
 from reportlab.pdfgen import canvas
 from reportlab.lib.units import mm
@@ -332,7 +332,7 @@ for n in BAB:
     w.add_outline_item('Jawaban dan pembahasan', off + hal_bab(n, AKHIR[n][1]), parent=par)
 for x in sorted(LJ): w.add_outline_item(f'Lampiran {x}  {LJ[x][0]}', off + MULAI['lampiran'] + LJ[x][1])
 w.add_outline_item('Indeks', off + MULAI['indeks'])
-w.add_metadata({'/Title': 'Termodinamika Kimia, Edisi Pertama', '/Author': 'Septian Anugrah Dwi Putra', '/Subject': 'Termodinamika kimia untuk mahasiswa kimia'})
+w.add_metadata({'/Title': 'Kimia Fisika 1: Termodinamika Kimia, Edisi Pertama', '/Author': 'Septian Anugrah Dwi Putra', '/Subject': 'Termodinamika kimia untuk mahasiswa kimia'})
 w.page_mode = '/UseOutlines'
-out = f'{R}/Termodinamika-Kimia-Edisi-1' + ('-cetak' if CETAK else '') + '.pdf'; w.write(out)
+out = f'{R}/Kimia-Fisika-1-Edisi-1' + ('-cetak' if CETAK else '') + '.pdf'; w.write(out)
 print('selesai:', out, len(w.pages), 'halaman; isi arab', hal - 1)

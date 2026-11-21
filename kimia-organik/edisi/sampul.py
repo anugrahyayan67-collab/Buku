@@ -72,5 +72,5 @@ open(f'{K}/sampul.html', 'w').write(f'''<!doctype html><html><head><meta charset
 <p>Setiap reaksi dijelaskan dari aliran elektronnya, langkah demi langkah dengan panah lengkung, sehingga pembaca memahami mengapa sebuah reaksi terjadi, bukan sekadar menghafal hasilnya. Contoh diambil dari obat, bahan alam, industri, dan laboratorium.</p>
 <p>Setiap bab ditutup dengan ringkasan, pertanyaan konsep, soal beserta jawabannya, pembahasan soal terpilih, dan bacaan lanjut. Buku ini adalah lanjutan dari <i>Kimia Kuantum</i> dan <i>Termodinamika Kimia</i>.</p>
 <ul>{daftar}</ul></div>
-<div class="tp"><b>TENTANG PENYUSUN</b><b style="color:#143d2a;letter-spacing:.5px;font-size:11pt">Septian Anugrah Dwi Putra</b>Mahasiswa S1 Kimia, Universitas Negeri Surabaya. Penyusun <i>Fisika Umum</i>, <i>Kimia Kuantum</i>, dan <i>Termodinamika Kimia</i>; buku ini disusun untuk mata kuliah Senyawa Organik Monofungsi.</div></div>
+<div class="tp"><b>TENTANG PENYUSUN</b><b style="color:#143d2a;letter-spacing:.5px;font-size:11pt">Septian Anugrah Dwi Putra</b>Mahasiswa S1 Kimia, Universitas Negeri Surabaya. Penyusun <i>Fisika Umum</i>, <i>Kimia Kuantum</i>, dan <i>Kimia Fisika 1</i>; buku ini disusun untuk mata kuliah Senyawa Organik Monofungsi.</div></div>
 </body></html>''')

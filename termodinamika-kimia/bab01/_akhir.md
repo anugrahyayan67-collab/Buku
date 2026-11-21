@@ -21,48 +21,57 @@
 
 # Pertanyaan
 
+## Subbab 1.1: Sistem, lingkungan, dan variabel keadaan
+
+1. Mengapa termodinamika dapat bekerja dengan sistem tanpa mengetahui susunan molekulnya, padahal setiap besaran makroskopik berasal dari molekul?
+
 ## Subbab 1.2: Kesetimbangan termal, hukum ke-nol, dan suhu
 
-1. Mengapa suhu tidak dapat didefinisikan tanpa hukum ke-nol?
-2. Apa keuntungan termometer gas dibanding termometer raksa untuk mendefinisikan skala suhu?
+2. Mengapa suhu tidak dapat didefinisikan tanpa hukum ke-nol?
+3. Apa keuntungan termometer gas dibanding termometer raksa untuk mendefinisikan skala suhu?
 
 ## Subbab 1.3: Tekanan dan cara mengukurnya
 
-3. Mengapa IUPAC memilih 1 bar, bukan 1 atm, sebagai tekanan standar?
+4. Mengapa IUPAC memilih 1 bar, bukan 1 atm, sebagai tekanan standar?
 
 ## Subbab 1.4: Hukum-hukum gas: Boyle, Charles, Avogadro
 
-4. Mengapa kurva *V* terhadap *T* pada tekanan tetap untuk semua gas memotong volume nol pada suhu yang sama?
-5. Jelaskan dengan gambaran molekul mengapa tekanan gas naik bila (a) volumenya dikecilkan, (b) suhunya dinaikkan.
+5. Mengapa kurva *V* terhadap *T* pada tekanan tetap untuk semua gas memotong volume nol pada suhu yang sama?
+6. Jelaskan dengan gambaran molekul mengapa tekanan gas naik bila (a) volumenya dikecilkan, (b) suhunya dinaikkan.
 
 ## Subbab 1.5: Persamaan gas ideal dan pemakaiannya
 
-6. Dalam kondisi apa gas nyata paling mendekati gas ideal, dan mengapa?
-7. Mengapa satu mol gas apa pun menempati volume yang hampir sama pada suhu dan tekanan yang sama, padahal ukuran molekulnya berbeda-beda?
+7. Dalam kondisi apa gas nyata paling mendekati gas ideal, dan mengapa?
+8. Mengapa satu mol gas apa pun menempati volume yang hampir sama pada suhu dan tekanan yang sama, padahal ukuran molekulnya berbeda-beda?
+9. Persamaan gas ideal memuat empat variabel. Mengapa dalam soal perubahan keadaan cukup menulis $p_1V_1/n_1T_1 = p_2V_2/n_2T_2$ tanpa nilai *R*?
 
 ## Subbab 1.6: Campuran gas: hukum Dalton dan fraksi mol
 
-8. Mengapa hukum Dalton hanya berlaku persis untuk gas ideal?
+10. Mengapa hukum Dalton hanya berlaku persis untuk gas ideal?
+11. Mengapa tekanan parsial suatu gas dalam campuran ideal tidak bergantung pada gas lain yang ada di wadah yang sama?
 
 ## Subbab 1.7: Teori kinetik: dari tumbukan molekul ke tekanan
 
-9. Anggapan apa saja yang dipakai dalam penurunan $pV = \tfrac13Nm\langle v^2\rangle$? Anggapan mana yang paling mudah dilanggar?
-10. Apa arti fisis suhu menurut teori kinetik? Apakah satu molekul tunggal mempunyai suhu?
+12. Anggapan apa saja yang dipakai dalam penurunan $pV = \tfrac13Nm\langle v^2\rangle$? Anggapan mana yang paling mudah dilanggar?
+13. Apa arti fisis suhu menurut teori kinetik? Apakah satu molekul tunggal mempunyai suhu?
 
 ## Subbab 1.8: Kelajuan molekul dan sebaran Maxwell–Boltzmann
 
-11. Mengapa sebaran Maxwell–Boltzmann bernilai nol pada kelajuan nol, padahal faktor Boltzmannya terbesar di sana?
-12. Mengapa $v_\text{rms}$ selalu lebih besar daripada $\bar v$?
+14. Mengapa sebaran Maxwell–Boltzmann bernilai nol pada kelajuan nol, padahal faktor Boltzmannya terbesar di sana?
+15. Mengapa $v_\text{rms}$ selalu lebih besar daripada $\bar v$?
+16. Pada suhu yang sama, apakah semua molekul N₂ bergerak dengan kelajuan yang sama? Apa yang sebenarnya ditetapkan oleh suhu?
+17. Mengapa sebaran Maxwell–Boltzmann bernilai nol pada $v = 0$, padahal faktor Boltzmann $e^{-mv^2/2kT}$ paling besar di sana?
 
 ## Subbab 1.9: Efusi dan difusi: hukum Graham
 
-13. Mengapa balon helium mengempis lebih cepat daripada balon berisi udara?
-14. Bedakan efusi dan difusi. Mengapa hukum Graham berlaku persis untuk efusi tetapi hanya secara pendekatan untuk difusi?
+18. Mengapa balon helium mengempis lebih cepat daripada balon berisi udara?
+19. Bedakan efusi dan difusi. Mengapa hukum Graham berlaku persis untuk efusi tetapi hanya secara pendekatan untuk difusi?
 
 ## Subbab 1.10: Tumbukan antarmolekul dan jalan bebas rata-rata
 
-15. Mengapa jalan bebas rata-rata bertambah bila tekanan diturunkan, padahal kelajuan molekul tidak berubah?
-16. Jelaskan dengan kata-katamu sendiri mengapa wangi parfum menyebar jauh lebih lambat daripada kelajuan molekulnya.
+20. Mengapa jalan bebas rata-rata bertambah bila tekanan diturunkan, padahal kelajuan molekul tidak berubah?
+21. Jelaskan dengan kata-katamu sendiri mengapa wangi parfum menyebar jauh lebih lambat daripada kelajuan molekulnya.
+22. Bila tekanan gas diturunkan seribu kali pada suhu tetap, apa yang terjadi pada frekuensi tumbukan dan pada jalan bebas rata-rata? Mengapa keduanya berubah berlawanan?
 
 # Soal
 
@@ -120,6 +129,14 @@ $$
 $$
 
 *Cara berpikir:* dalam percobaan nyata, cincin terbentuk sedikit lebih dekat ke ujung HCl daripada perkiraan ini, karena kedua gas berdifusi melalui udara, bukan berefusi ke ruang hampa. Tumbukan dengan molekul udara memperlambat keduanya dengan cara yang tidak persis sebanding dengan $1/\sqrt M$.
+
+**Soal {{airbag}}.** Hitung dulu jumlah gas yang diperlukan, baru jumlah padatan, karena hanya gas yang mengisi kantong. Dari persamaan gas ideal,
+$$
+n_{\text{N}_2} = \frac{pV}{RT} = \frac{(1{,}15\ \text{atm})(60{,}0\ \text{L})}{(0{,}082\,06\ \text{L atm K}^{-1}\,\text{mol}^{-1})(298{,}15\ \text{K})} = 2{,}82\ \text{mol} .
+$$
+Menurut persamaan reaksi, 2 mol NaN₃ menghasilkan 3 mol N₂, jadi $n_{\text{NaN}_3} = \tfrac23(2{,}82) = 1{,}88$ mol, dan massanya $(1{,}88\ \text{mol})(65{,}01\ \text{g mol}^{-1}) = 122$ g.
+
+*Cara berpikir:* soal stoikiometri yang melibatkan gas selalu mempunyai satu "jembatan" berupa jumlah zat. Persamaan gas ideal mengubah *p*, *V*, *T* menjadi mol; koefisien reaksi mengubah mol satu zat menjadi mol zat lain; massa molar mengubah mol menjadi gram. Kantong udara nyata memakai sedikit lebih banyak NaN₃ dan menambahkan KNO₃ serta SiO₂ untuk mengubah natrium yang reaktif menjadi kaca silikat yang aman, sehingga jumlah gas sebenarnya sedikit lebih besar daripada hitungan sederhana ini.
 
 # Bacaan lanjut
 

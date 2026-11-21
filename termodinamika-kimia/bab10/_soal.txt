@@ -1,25 +1,17 @@
 ## Subbab 10.1: Termodinamika pencampuran
 
-> Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, *T* = 298,15 K kecuali disebutkan lain, $p^*$ air 3,169 kPa pada 25 °C, dan Tabel 10.1. Pada 25 °C, tekanan uap benzena murni 12,7 kPa dan toluena 3,79 kPa. Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab.
-
-**Dasar**
+> Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, *T* = 298,15 K kecuali disebutkan lain, $p^*$ air 3,169 kPa pada 25 °C, dan Tabel 10.1. Pada 25 °C, tekanan uap benzena murni 12,7 kPa dan toluena 3,79 kPa. Soal bertanda **[P]** dibahas di akhir bab.
 
 Hitung $\Delta_\text{mix}G$ dan $\Delta_\text{mix}S$ bila 2,00 mol A dan 3,00 mol B membentuk larutan ideal. ||| −8,34 kJ; +28,0 J K⁻¹
 Mengapa $\Delta_\text{mix}H$ larutan ideal nol, padahal molekul cairan saling berinteraksi kuat? ||| interaksi A–B sama dengan A–A dan B–B
-
-**Menengah**
 
 Hitung $\Delta_\text{mix}G$ per mol larutan ideal heksana–heptana dengan $x_\text{heksana} = 0{,}25$. ||| −1,39 kJ mol⁻¹
 Mengapa minyak dan air tidak bercampur, padahal entropi pencampuran selalu positif? ||| $\Delta_\text{mix}H$ positif besar melebihi $T\Delta_\text{mix}S$
 
 ## Subbab 10.2: Hukum Raoult dan larutan ideal
 
-**Dasar**
-
 Hitung tekanan uap total dan fraksi mol benzena dalam uap di atas campuran dengan $x_\text{benzena} = 0{,}700$. ||| 10,03 kPa; 0,887
 Hitung tekanan uap total campuran benzena–toluena dengan $x_\text{benzena} = 0{,}200$. ||| 5,57 kPa
-
-**Menengah**
 
 Berapa komposisi cairan benzena–toluena yang uapnya berisi 50% benzena? ||| $x_\text{benzena} = 0{,}230$
 Dengan data Contoh 10.3, pada tekanan berapa campuran dengan $x_\text{benzena} = 0{,}300$ mendidih pada 90,0 °C? ||| 78,8 kPa
@@ -27,13 +19,9 @@ Dengan data Contoh 10.3, pada tekanan berapa campuran dengan $x_\text{benzena} =
 
 ## Subbab 10.3: Hukum Henry dan larutan encer ideal
 
-**Dasar**
-
 Hitung kelarutan O₂ dalam air (mg L⁻¹) di bawah O₂ murni 1,00 bar pada 25 °C. ||| 41 mg L⁻¹
 Hitung kelarutan N₂ dalam air yang bersentuhan dengan udara ($p_{\text{N}_2} = 0{,}78$ bar). ||| 14 mg L⁻¹
 Dalam larutan encer ideal, komponen mana yang mengikuti hukum Raoult dan mana yang mengikuti hukum Henry? ||| pelarut Raoult, zat terlarut Henry
-
-**Menengah**
 
 Pada 35 °C tetapan Henry O₂ dalam air $5{,}07 \times 10^4$ bar. Hitung oksigen terlarut air jenuh udara. Mengapa ikan lebih menderita pada musim panas? ||| 7,4 mg L⁻¹; kelarutan O₂ turun bila suhu naik
 Seorang penyelam berada lama di kedalaman 40 m ($p_{\text{N}_2} = 3{,}95$ bar). Taksir kelebihan N₂ terlarut per liter darah dibandingkan di permukaan, dan volumenya sebagai gas pada 37 °C dan 1 bar. ||| 2,0 × 10⁻³ mol; 52 mL
@@ -41,12 +29,8 @@ Mengapa keadaan standar zat terlarut berbasis hukum Henry disebut hipotetis? |||
 
 ## Subbab 10.4: Penurunan tekanan uap
 
-**Dasar**
-
 Hitung penurunan tekanan uap air bila 0,500 mol urea dilarutkan dalam 1,000 kg air pada 25 °C. ||| 0,0283 kPa
 Mengapa penurunan tekanan uap disebut sifat koligatif? ||| hanya bergantung pada banyaknya partikel zat terlarut
-
-**Menengah**
 
 Sebanyak 5,00 g zat tak menguap dalam 50,0 g air menurunkan tekanan uap dari 3,169 ke 3,140 kPa pada 25 °C. Tentukan massa molarnya. ||| 195 g mol⁻¹
 Hitung penurunan potensial kimia air dalam larutan sukrosa 2,00 mol kg⁻¹ (anggap ideal). ||| −87,7 J mol⁻¹
@@ -54,56 +38,38 @@ Mengapa penjelasan "zat terlarut menutupi permukaan" untuk penurunan tekanan uap
 
 ## Subbab 10.5: Kenaikan titik didih dan penurunan titik beku
 
-**Dasar**
-
 Sebanyak 10,0 g urea (*M* = 60,06 g mol⁻¹) dilarutkan dalam 200 g air. Hitung titik beku dan titik didihnya. ||| −1,55 °C; 100,43 °C
 Taksir titik beku air laut (1,09 mol partikel per kg air). ||| −2,0 °C (terukur −1,9 °C)
 Hitung $K_\text{f}$ benzena dari $T_\text{f}^* = 278{,}7$ K dan $\Delta_\text{fus}H = 9{,}87$ kJ mol⁻¹. ||| 5,11 K kg mol⁻¹
-
-**Menengah**
 
 @beku [P] Sebanyak 0,500 g hidrokarbon dalam 25,0 g benzena menurunkan titik beku 0,66 K. Tentukan massa molarnya, dan usulkan rumus molekul bila senyawa itu aromatik dengan 12 atom karbon. ||| 155 g mol⁻¹; C₁₂H₁₀ (bifenil)
 Berapa gram NaCl per kg air yang diperlukan, secara ideal, agar larutan tidak membeku sampai −10 °C? ||| 157 g
 Sebanyak 1,00 g asam asetat dalam 100 g benzena menurunkan titik beku 0,43 K. Hitung massa molar tampaknya dan jelaskan. ||| 119 g mol⁻¹; asam asetat membentuk dimer
 Mengapa kenaikan titik didih lebih kecil daripada penurunan titik beku untuk larutan yang sama? ||| $\Delta_\text{vap}H \gg \Delta_\text{fus}H$; garis gas lebih curam
 
-**Tantangan ★**
-
-★ Gabungkan (10.11) dengan aturan Trouton untuk menunjukkan $K_\text{b} \approx RT_\text{b}^*M_\text{A}/(85\ \text{J K}^{-1}\text{mol}^{-1})$. Hitung untuk benzena dan bandingkan dengan Tabel 10.1. ||| 2,70 K kg mol⁻¹ (tabel 2,53)
-@glikol [P] ★ (a) Hitung titik beku cairan pendingin Contoh 10.10 dengan rumus tanpa pendekatan larutan encer, $\ln x_\text{A} = (\Delta_\text{fus}H/R)(1/T - 1/T^*)$, tetapi tetap menganggap larutannya ideal. (b) Titik beku terukurnya −15 °C. Hitung aktivitas dan koefisien aktivitas air dalam campuran itu. Apa arti nilai koefisien aktivitas yang diperoleh? ||| (a) −11,6 °C; (b) $a = 0{,}857$, $\gamma = 0{,}964$
+Gabungkan (10.11) dengan aturan Trouton untuk menunjukkan $K_\text{b} \approx RT_\text{b}^*M_\text{A}/(85\ \text{J K}^{-1}\text{mol}^{-1})$. Hitung untuk benzena dan bandingkan dengan Tabel 10.1. ||| 2,70 K kg mol⁻¹ (tabel 2,53)
+@glikol [P] (a) Hitung titik beku cairan pendingin Contoh 10.10 dengan rumus tanpa pendekatan larutan encer, $\ln x_\text{A} = (\Delta_\text{fus}H/R)(1/T - 1/T^*)$, tetapi tetap menganggap larutannya ideal. (b) Titik beku terukurnya −15 °C. Hitung aktivitas dan koefisien aktivitas air dalam campuran itu. Apa arti nilai koefisien aktivitas yang diperoleh? ||| (a) −11,6 °C; (b) $a = 0{,}857$, $\gamma = 0{,}964$
 
 ## Subbab 10.6: Tekanan osmotik
-
-**Dasar**
 
 Hitung tekanan osmotik larutan glukosa 0,100 mol L⁻¹ pada 25 °C. ||| 2,48 bar
 Berapa konsentrasi glukosa (g L⁻¹) yang isotonik dengan salin normal (0,308 mol partikel per liter)? ||| 55,5 g L⁻¹ (sekitar 5%)
 Tekanan osmotik darah 7,7 bar setara dengan kolom air setinggi berapa? ||| 78 m
 
-**Menengah**
-
 Larutan 2,00 g L⁻¹ suatu polimer mempunyai tekanan osmotik 80 Pa pada 25 °C. Tentukan massa molarnya. ||| 62 kg mol⁻¹
 Mengapa osmometri lebih cocok daripada penurunan titik beku untuk menentukan massa molar protein? ||| tekanan osmotik besar dan mudah diukur, ΔT sangat kecil
 Mengapa sel darah merah pecah dalam air murni? ||| air masuk karena μ air di luar lebih tinggi; tekanan sekitar 8 bar
 
-**Tantangan ★**
-
-★ Bila separuh air diambil dari air laut dengan osmosis balik, tekanan osmotik air laut sisa naik ketika makin pekat. Tunjukkan bahwa kerja minimum per m³ air tawar adalah $\Pi_0\ln2/0{,}5$, dan hitung nilainya. ||| 1,04 kWh m⁻³
+Bila separuh air diambil dari air laut dengan osmosis balik, tekanan osmotik air laut sisa naik ketika makin pekat. Tunjukkan bahwa kerja minimum per m³ air tawar adalah $\Pi_0\ln2/0{,}5$, dan hitung nilainya. ||| 1,04 kWh m⁻³
 
 ## Subbab 10.7: Larutan nyata dan aktivitas
 
-**Dasar**
-
 Tekanan uap air di atas suatu larutan pada 25 °C adalah 2,90 kPa. Hitung aktivitas air. ||| 0,915
 Apa arti γ > 1 untuk pelarut? ||| penyimpangan positif dari hukum Raoult
-
-**Menengah**
 
 @reguler [P] Dari $G^\text{E} = nw\,x_\text{A}x_\text{B}$, turunkan $\ln\gamma_\text{A} = \beta x_\text{B}^2$. ||| lihat pembahasan
 Dalam model larutan reguler dengan β = 1,20 dan $p_\text{B}^* = 10{,}0$ kPa, berapa tetapan Henry B? ||| 33,2 kPa
 Hitung $\gamma_\pm$ MgSO₄ 0,0010 mol kg⁻¹ menurut hukum pembatas Debye–Hückel. ||| 0,743
 Hitung kekuatan ion larutan Na₂SO₄ 0,050 mol kg⁻¹. ||| 0,15
 
-**Tantangan ★**
-
-★ Untuk larutan reguler, $\Delta_\text{mix}G_\text{m}/RT = x\ln x + (1 - x)\ln(1 - x) + \beta x(1 - x)$. Tunjukkan bahwa turunan keduanya di *x* = 0,5 negatif bila β > 2, dan jelaskan artinya. ||| $4 - 2\beta$; campuran terpisah menjadi dua fasa
+Untuk larutan reguler, $\Delta_\text{mix}G_\text{m}/RT = x\ln x + (1 - x)\ln(1 - x) + \beta x(1 - x)$. Tunjukkan bahwa turunan keduanya di *x* = 0,5 negatif bila β > 2, dan jelaskan artinya. ||| $4 - 2\beta$; campuran terpisah menjadi dua fasa

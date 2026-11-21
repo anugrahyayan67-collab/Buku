@@ -1,44 +1,30 @@
 ## Subbab 5.1: Proses spontan dan arah perubahan
 
-> Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹. Suhu dalam rumus efisiensi dan entropi selalu dalam kelvin. Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab.
-
-**Dasar**
+> Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹. Suhu dalam rumus efisiensi dan entropi selalu dalam kelvin. Soal bertanda **[P]** dibahas di akhir bab.
 
 Manakah yang spontan pada 25 °C dan 1 atm: (a) kopi panas mendingin; (b) garam dapur larut dalam air; (c) air terurai menjadi H₂ dan O₂; (d) besi berkarat di udara lembap? ||| a, b, d
 Apa bedanya "spontan" dalam termodinamika dan "cepat"? ||| spontan: dapat terjadi dengan sendirinya; laju diatur kinetika
-
-**Menengah**
 
 Intan pada suhu kamar secara termodinamika cenderung berubah menjadi grafit. Mengapa intan pada cincin tidak berubah? ||| lajunya sangat lambat (penghalang energi besar)
 Mengapa proses yang spontan dapat menurunkan keteraturan sistem tetapi tidak dapat menurunkan entropi total? ||| lingkungan menerima kalor dan entropinya naik lebih banyak
 
 ## Subbab 5.2: Mesin kalor dan pernyataan hukum kedua
 
-**Dasar**
-
 Mesin menerima kalor 1000 J dan membuang 650 J per siklus. Berapa kerjanya dan efisiensinya? ||| 350 J; 0,35
 Mesin berefisiensi 30% menghasilkan kerja 300 J per siklus. Berapa kalor yang diterima dan dibuang? ||| 1000 J; 700 J
 Nyatakan hukum kedua menurut Kelvin dengan kata-katamu sendiri. ||| tidak ada siklus yang mengubah kalor dari satu sumber seluruhnya menjadi kerja
-
-**Menengah**
 
 Mesin mobil berefisiensi 25% menghasilkan daya 40 kW. Berapa laju kalor dari bahan bakar dan laju kalor yang dibuang? ||| 160 kW; 120 kW
 Tunjukkan bahwa bila pernyataan Clausius dilanggar, pernyataan Kelvin juga dilanggar. ||| gabungkan "kulkas tanpa kerja" dengan mesin kalor biasa: hasil bersih mengubah kalor seluruhnya menjadi kerja
 
 Hitung efisiensi ideal siklus Otto dengan perbandingan kompresi 9 dan $\gamma = 1{,}40$. ||| 0,585
 
-**Tantangan ★**
-
-★ Apa yang dimaksud mesin abadi jenis kedua? Mengapa ia tidak melanggar hukum pertama? ||| mesin yang mengubah kalor seluruhnya menjadi kerja; energi tetap kekal
+Apa yang dimaksud mesin abadi jenis kedua? Mengapa ia tidak melanggar hukum pertama? ||| mesin yang mengubah kalor seluruhnya menjadi kerja; energi tetap kekal
 
 ## Subbab 5.3: Siklus Carnot tahap demi tahap
 
-**Dasar**
-
 Pada tahap mana dalam siklus Carnot kalor dipertukarkan, dan pada tahap mana suhu berubah? ||| isotermal; adiabatik
 Mengapa kerja kedua tahap adiabatik dalam siklus Carnot gas ideal saling menghapus? ||| keduanya mengubah suhu antara $T_\text{h}$ dan $T_\text{c}$ yang sama, dengan arah berlawanan
-
-**Menengah**
 
 @carnot [P] Dua mol gas ideal diatomik ($C_{V,\text{m}} = \tfrac52R$) menjalani siklus Carnot antara 600 K dan 300 K, dengan $V_\text{A} = 5{,}00$ L dan $V_\text{B} = 15{,}0$ L. Hitung $V_\text{C}$, $V_\text{D}$, $q_\text{h}$, $q_\text{c}$, kerja tahap adiabatik ekspansi, dan efisiensinya. ||| 84,9 L; 28,3 L; +10,96 kJ; −5,48 kJ; −12,47 kJ; 0,50
 Pada Contoh 5.4, bila gasnya diatomik, apakah volume titik C dan efisiensinya berubah? ||| $V_\text{C}$ berubah (γ berbeda); efisiensi tetap 0,40
@@ -46,13 +32,9 @@ Hitung Δ*H* untuk satu siklus Carnot penuh. Mengapa hasilnya pasti nol? ||| 0; 
 
 ## Subbab 5.4: Efisiensi mesin Carnot
 
-**Dasar**
-
 Hitung efisiensi Carnot antara 400 K dan 300 K, dan antara 1000 K dan 300 K. ||| 0,25; 0,70
 Penampung dingin bersuhu 300 K. Berapa suhu penampung panas agar efisiensi Carnot 50%? ||| 600 K
 Hitung efisiensi Carnot pembangkit dengan uap 300 °C dan pembuangan 30 °C. ||| 0,471
-
-**Menengah**
 
 Untuk $T_\text{h} = 600$ K dan $T_\text{c} = 300$ K, mana yang menaikkan efisiensi Carnot lebih banyak: menaikkan $T_\text{h}$ 10 K atau menurunkan $T_\text{c}$ 10 K? ||| menurunkan $T_\text{c}$ (0,517 dibanding 0,508)
 Seorang penemu mengaku mesinnya berefisiensi 45% antara 500 K dan 300 K. Apakah mungkin? ||| tidak; batas Carnot 40%
@@ -60,37 +42,25 @@ Seorang penemu mengaku mesinnya berefisiensi 45% antara 500 K dan 300 K. Apakah 
 Berapa kerja maksimum yang dapat diperoleh dari 1,00 kg air yang mendingin dari 60 °C ke lingkungan 20 °C? ||| 10,5 kJ (dari 167 kJ kalor)
 Mengapa nol mutlak tidak dapat dicapai menurut efisiensi Carnot? ||| mesin yang membuang kalor ke 0 K berefisiensi 100%, melanggar Kelvin
 
-**Tantangan ★**
-
-★ Dua mesin Carnot dirangkai: mesin pertama bekerja antara $T_\text{h}$ dan $T_\text{m}$, mesin kedua menerima kalor buangan mesin pertama dan bekerja antara $T_\text{m}$ dan $T_\text{c}$. Tunjukkan bahwa efisiensi gabungannya $1 - T_\text{c}/T_\text{h}$. ||| $|q_\text{c}|/q_\text{h} = (T_\text{m}/T_\text{h})(T_\text{c}/T_\text{m})$
+Dua mesin Carnot dirangkai: mesin pertama bekerja antara $T_\text{h}$ dan $T_\text{m}$, mesin kedua menerima kalor buangan mesin pertama dan bekerja antara $T_\text{m}$ dan $T_\text{c}$. Tunjukkan bahwa efisiensi gabungannya $1 - T_\text{c}/T_\text{h}$. ||| $|q_\text{c}|/q_\text{h} = (T_\text{m}/T_\text{h})(T_\text{c}/T_\text{m})$
 
 ## Subbab 5.5: Mesin pendingin dan pompa kalor
 
-**Dasar**
-
 Hitung COP maksimum kulkas yang bagian dalamnya 0 °C di dapur 30 °C. ||| 9,1
 Hitung COP maksimum pompa kalor yang memanaskan rumah pada 20 °C ketika suhu luar −5 °C. ||| 11,7
-
-**Menengah**
 
 AC mengambil kalor 3,5 kW dari ruangan 22 °C dan membuangnya ke luar bersuhu 34 °C. Berapa daya listrik minimum yang diperlukan? ||| 0,14 kW
 Kulkas dengan COP 5 menerima kerja 100 J. Berapa kalor yang diambil dari dalam dan dibuang ke dapur? ||| 500 J; 600 J
 
 Pompa kalor nyata dengan COP 3,0 memanaskan rumah. Berapa kWh listrik untuk 15 kWh kalor? ||| 5,0 kWh
 
-**Tantangan ★**
-
-★ Mengapa memanaskan rumah dengan pompa kalor lebih hemat listrik daripada dengan pemanas listrik biasa? ||| pemanas listrik: 1 J listrik → 1 J kalor; pompa kalor: 1 J listrik memindahkan beberapa joule kalor dari luar
+Mengapa memanaskan rumah dengan pompa kalor lebih hemat listrik daripada dengan pemanas listrik biasa? ||| pemanas listrik: 1 J listrik → 1 J kalor; pompa kalor: 1 J listrik memindahkan beberapa joule kalor dari luar
 
 ## Subbab 5.6: Entropi sebagai fungsi keadaan
-
-**Dasar**
 
 Hitung Δ*S* untuk 2,00 mol gas ideal yang memuai secara isotermal dari 10,0 L ke 50,0 L. ||| +26,8 J K⁻¹
 Entalpi penguapan benzena 30,8 kJ mol⁻¹ pada titik didihnya, 353,2 K. Hitung entropi penguapannya. ||| +87,2 J K⁻¹ mol⁻¹
 Natrium meleleh pada 371 K dengan $\Delta_\text{fus}H = 2{,}60$ kJ mol⁻¹. Hitung $\Delta_\text{fus}S$. ||| +7,01 J K⁻¹ mol⁻¹
-
-**Menengah**
 
 Hitung Δ*S* untuk pemanasan 100 g air dari 20 °C ke 80 °C pada tekanan tetap. ||| +77,8 J K⁻¹
 Hitung Δ*S* satu mol gas ideal yang dimampatkan secara isotermal dari 1,00 bar ke 10,0 bar. ||| −19,1 J K⁻¹
@@ -98,36 +68,25 @@ Hitung Δ*S* satu mol gas ideal yang dimampatkan secara isotermal dari 1,00 bar 
 Taksir entalpi penguapan toluena (titik didih 383,8 K) dengan aturan Trouton. ||| ≈ 32,6 kJ mol⁻¹ (terukur 33,2)
 Mengapa entropi penguapan metana (73 J K⁻¹ mol⁻¹) di bawah nilai Trouton? ||| titik didih sangat rendah; volume molar gas pada 1 atm lebih kecil, sehingga kenaikan "ruang" lebih kecil
 
-**Tantangan ★**
-
-★ Satu mol gas ideal monoatomik dibawa dari (300 K, 10,0 L) ke (600 K, 20,0 L). Hitung Δ*S* melalui jalan reversibel: ekspansi isotermal lalu pemanasan pada volume tetap. ||| $R\ln2 + \tfrac32R\ln2 = 14{,}4$ J K⁻¹
+Satu mol gas ideal monoatomik dibawa dari (300 K, 10,0 L) ke (600 K, 20,0 L). Hitung Δ*S* melalui jalan reversibel: ekspansi isotermal lalu pemanasan pada volume tetap. ||| $R\ln2 + \tfrac32R\ln2 = 14{,}4$ J K⁻¹
 
 ## Subbab 5.7: Ketaksamaan Clausius
-
-**Dasar**
 
 Kalor 500 J mengalir dari benda besar 400 K ke benda besar 300 K. Hitung $\Delta S_\text{total}$. ||| +0,417 J K⁻¹
 Reaksi pada 298 K melepaskan kalor 100 kJ ke lingkungan. Berapa $\Delta S_\text{lingkungan}$? ||| +335 J K⁻¹
 Mengapa proses reversibel tidak menciptakan entropi? ||| entropi hanya berpindah; $\Delta S_\text{total} = 0$
 
-**Menengah**
-
 @beku [P] Satu mol air yang sangat dingin (−10 °C) membeku pada tekanan 1 atm. Pada −10 °C, $\Delta H = -5{,}63$ kJ mol⁻¹ dan $\Delta S_\text{sistem} = -20{,}6$ J K⁻¹ mol⁻¹. Tunjukkan bahwa pembekuan ini spontan. ||| $\Delta S_\text{lingk} = +21{,}4$; total $+0{,}8$ J K⁻¹ mol⁻¹
 Sebanyak 100 g air 80 °C dicampur dengan 100 g air 20 °C dalam wadah terisolasi. Hitung Δ*S* total. ||| +3,62 J K⁻¹
 Dua mol gas ideal memuai ke ruang hampa sampai volumenya tiga kali. Hitung $\Delta S_\text{total}$. ||| +18,3 J K⁻¹
-
 
 Hitung entropi pencampuran 1,00 mol Ar dengan 3,00 mol He pada suhu dan tekanan tetap. ||| +18,7 J K⁻¹
 Hitung Δ*S* total ketika 1,00 kg air 100 °C dicampur dengan 1,00 kg air 0 °C dalam wadah terisolasi. ||| +101 J K⁻¹
 
 ## Subbab 5.8: Entropi dan peluang: rumus Boltzmann
 
-**Dasar**
-
 Ada berapa cara menyusun 6 molekul sehingga tepat 3 di kiri dan 3 di kanan? ||| 20
 Berapa peluang menemukan 10 molekul semuanya di separuh kiri wadah? ||| $9{,}8 \times 10^{-4}$
-
-**Menengah**
 
 Molekul N₂O (N–N–O) dapat terkunci di kristal dalam dua arah. Hitung entropi residunya bila arahnya acak sempurna. ||| 5,76 J K⁻¹ mol⁻¹
 Dengan rumus Boltzmann, hitung Δ*S* satu mol gas yang volumenya dilipattigakan. ||| 9,13 J K⁻¹
@@ -135,6 +94,4 @@ Dengan rumus Boltzmann, hitung Δ*S* satu mol gas yang volumenya dilipattigakan.
 Hitung $\ln 100!$ secara tepat dan dengan rumus Stirling. Berapa persen selisihnya? ||| 363,7 dan 360,5; 0,9%
 Berapa entropi susunan 10 kartu berbeda yang dikocok, dalam J K⁻¹? ||| $2{,}09 \times 10^{-22}$ J K⁻¹
 
-**Tantangan ★**
-
-@pauling [P] ★ Pauling menunjukkan bahwa dalam es, setiap molekul H₂O mempunyai rata-rata 3/2 susunan yang diizinkan. Hitung entropi residu es dan bandingkan dengan nilai terukur 3,4 J K⁻¹ mol⁻¹. ||| $R\ln(3/2) = 3{,}37$ J K⁻¹ mol⁻¹
+@pauling [P] Pauling menunjukkan bahwa dalam es, setiap molekul H₂O mempunyai rata-rata 3/2 susunan yang diizinkan. Hitung entropi residu es dan bandingkan dengan nilai terukur 3,4 J K⁻¹ mol⁻¹. ||| $R\ln(3/2) = 3{,}37$ J K⁻¹ mol⁻¹
