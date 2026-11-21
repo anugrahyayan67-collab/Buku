@@ -110,7 +110,7 @@ Untuk CO₂: suku ideal $(8{,}314)(273{,}15)\ln10 = 5229$ J mol⁻¹; suku viria
 $$
 T = \frac{322\,900\ \text{J}}{316{,}9\ \text{J K}^{-1}} \approx 1020\ \text{K} .
 $$
-Di atas suhu itu garis CO berada di bawah garis FeO pada Gambar 7.5, dan karbon "menang" merebut oksigen.
+Di atas suhu itu garis CO berada di bawah garis FeO pada Gambar 7.8, dan karbon "menang" merebut oksigen.
 
 *Cara berpikir:* kemiringan setiap garis Ellingham adalah −Δ*S*°, dan Δ*S*° hampir seluruhnya ditentukan oleh perubahan jumlah mol gas. Pembentukan oksida padat menghabiskan satu mol gas, sehingga Δ*S*° ≈ −200 J K⁻¹ dan garisnya naik. Pembentukan CO mengubah 1 mol O₂ menjadi 2 mol CO, sehingga Δ*S*° positif dan garisnya turun. Karena itu, pada suhu cukup tinggi karbon dapat mereduksi hampir semua oksida, dan batas praktisnya ditentukan oleh suhu yang dapat dicapai tanur. Penalaran "tanda Δ*S* dari mol gas" ini adalah alat cepat yang sama dengan Gambar 7.2.
 

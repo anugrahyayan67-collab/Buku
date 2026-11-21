@@ -40,7 +40,7 @@
 ## Subbab 10.5: Kenaikan titik didih dan penurunan titik beku
 
 8. Mengapa sifat koligatif tidak bergantung pada jenis zat terlarut?
-9. Jelaskan dengan Gambar 10.3 mengapa zat terlarut menaikkan titik didih dan menurunkan titik beku.
+9. Jelaskan dengan Gambar 10.5 mengapa zat terlarut menaikkan titik didih dan menurunkan titik beku.
 10. Mengapa kamper dipakai dalam metode Rast?
 
 ## Subbab 10.6: Tekanan osmotik
