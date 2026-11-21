@@ -22,47 +22,52 @@
 ## Subbab 4.1: Entalpi
 
 1. Mengapa entalpi lebih berguna daripada energi dalam bagi kimiawan yang bekerja dengan gelas kimia terbuka?
+2. Entalpi didefinisikan sebagai *H* = *U* + *pV*. Mengapa besaran buatan ini lebih berguna daripada *U* untuk reaksi di labu terbuka?
 
 ## Subbab 4.2: Cp, Cv, dan hubungan keduanya
 
-2. Jelaskan dengan kata-kata asal suku $\Delta n_\text{gas}RT$ dalam hubungan Δ*H* dan Δ*U*.
-3. Mengapa $C_p$ lebih besar daripada $C_V$, dan mengapa selisihnya tepat *R* untuk gas ideal?
+3. Jelaskan dengan kata-kata asal suku $\Delta n_\text{gas}RT$ dalam hubungan Δ*H* dan Δ*U*.
+4. Mengapa $C_p$ lebih besar daripada $C_V$, dan mengapa selisihnya tepat *R* untuk gas ideal?
 
 ## Subbab 4.3: Kalorimetri: bom dan tekanan tetap
 
-4. Mengapa asam benzoat dipilih sebagai zat baku kalorimetri?
-5. Mengapa kalor penetralan asam kuat oleh basa kuat hampir sama untuk semua pasangan?
+5. Mengapa asam benzoat dipilih sebagai zat baku kalorimetri?
+6. Mengapa kalor penetralan asam kuat oleh basa kuat hampir sama untuk semua pasangan?
 
 ## Subbab 4.4: Entalpi perubahan fisika
 
-6. Mengapa entalpi penguapan suatu zat bergantung pada suhu?
+7. Mengapa entalpi penguapan suatu zat bergantung pada suhu?
 
 ## Subbab 4.5: Persamaan termokimia dan keadaan standar
 
-7. Apa yang dimaksud dengan "per mol" dalam satuan kJ mol⁻¹ untuk entalpi reaksi?
+8. Apa yang dimaksud dengan "per mol" dalam satuan kJ mol⁻¹ untuk entalpi reaksi?
 
 ## Subbab 4.6: Hukum Hess
 
-8. Mengapa hukum Hess merupakan akibat langsung dari sifat entalpi sebagai fungsi keadaan?
+9. Mengapa hukum Hess merupakan akibat langsung dari sifat entalpi sebagai fungsi keadaan?
+10. Mengapa hukum Hess bukan hukum baru, melainkan akibat langsung dari sifat entalpi sebagai fungsi keadaan?
 
 ## Subbab 4.7: Entalpi pembentukan standar
 
-9. Mengapa unsur dalam keadaan acuannya mempunyai entalpi pembentukan nol, dan apakah itu berarti entalpinya benar-benar nol?
-10. Apa makna kimia dari entalpi pembentukan yang positif?
+11. Mengapa unsur dalam keadaan acuannya mempunyai entalpi pembentukan nol, dan apakah itu berarti entalpinya benar-benar nol?
+12. Apa makna kimia dari entalpi pembentukan yang positif?
+13. Mengapa entalpi pembentukan unsur dalam keadaan acuannya ditetapkan nol, dan mengapa pilihan itu tidak memengaruhi entalpi reaksi?
 
 ## Subbab 4.8: Entalpi ikatan
 
-11. Mengapa entalpi ikatan hanya boleh dipakai untuk reaksi fase gas?
-12. Dalam keadaan apa taksiran entalpi ikatan rata-rata paling tidak teliti?
+14. Mengapa entalpi ikatan hanya boleh dipakai untuk reaksi fase gas?
+15. Dalam keadaan apa taksiran entalpi ikatan rata-rata paling tidak teliti?
+16. Mengapa entalpi reaksi yang ditaksir dari entalpi ikatan rata-rata hanya cocok untuk reaksi fase gas?
 
 ## Subbab 4.9: Ketergantungan entalpi reaksi pada suhu: hukum Kirchhoff
 
-13. Jelaskan dengan hukum Kirchhoff mengapa entalpi penguapan air lebih besar pada 25 °C daripada pada 100 °C.
+17. Jelaskan dengan hukum Kirchhoff mengapa entalpi penguapan air lebih besar pada 25 °C daripada pada 100 °C.
 
 ## Subbab 4.10: Termokimia pembakaran dan bahan bakar
 
-14. Mengapa bahan bakar yang mengandung oksigen melepaskan energi lebih sedikit per gram?
-15. Kompres dingin menyerap kalor tetapi tetap bekerja dengan sendirinya. Apa artinya bagi hubungan antara Δ*H* dan spontanitas?
+18. Mengapa bahan bakar yang mengandung oksigen melepaskan energi lebih sedikit per gram?
+19. Kompres dingin menyerap kalor tetapi tetap bekerja dengan sendirinya. Apa artinya bagi hubungan antara Δ*H* dan spontanitas?
+20. Hidrogen melepas kalor paling banyak per kilogram, tetapi sedikit per liter. Mengapa kedua ukuran itu sama penting untuk bahan bakar kendaraan?
 
 # Soal
 
@@ -120,7 +125,15 @@ Hasilnya −106,7 kJ mol⁻¹, bukan −111,5. Kapasitas kalor NH₃ naik jauh l
 
 *Cara berpikir:* metana mempunyai empat atom H untuk setiap atom C, oktana hanya 2,25. Pembentukan air dari hidrogen menghasilkan energi tanpa CO₂, sehingga makin tinggi perbandingan H/C, makin sedikit CO₂ per satuan energi. Hidrogen murni berada di ujung deret ini: nol gram CO₂ per megajoule.
 
-**Soal {{thornton}}.** Membagi $|\Delta_\text{c}H^\circ|$ dengan koefisien O₂: metana 890,3/2 = 445; propana 2220/5 = 444; etanol 1366,8/3 = 456; glukosa 2808/6 = 468; hidrogen 285,83/0,5 = 572 kJ per mol O₂. Keempat senyawa organik melepaskan hampir sama, sekitar 450 kJ per mol O₂. Alasannya: setiap O₂ yang dipakai membentuk ikatan C=O dan O–H dalam jumlah yang hampir sama, dengan memutus ikatan C–H dan C–C yang kekuatannya juga hampir sama. Jadi kalor pembakaran praktis ditentukan oleh banyaknya oksigen yang dipakai, bukan oleh jenis senyawanya. Ini menjelaskan pola Gambar 4.3: senyawa yang sudah mengandung oksigen memerlukan O₂ lebih sedikit per gram, sehingga melepaskan kalor lebih sedikit per gram. Hidrogen menyimpang karena atom H dalam H₂ terikat lebih lemah: ikatan H–H (436 kJ mol⁻¹) dibagi dua atom H, sedangkan setiap ikatan C–H (412 kJ mol⁻¹) mengikat satu atom H. Selain itu, seluruh oksigennya menjadi air, sehingga setiap mol O₂ juga melepaskan kalor pengembunan dua mol air.
+**Soal {{thornton}}.** Membagi $|\Delta_\text{c}H^\circ|$ dengan koefisien O₂: metana 890,3/2 = 445; propana 2220/5 = 444; etanol 1366,8/3 = 456; glukosa 2808/6 = 468; hidrogen 285,83/0,5 = 572 kJ per mol O₂. Keempat senyawa organik melepaskan hampir sama, sekitar 450 kJ per mol O₂. Alasannya: setiap O₂ yang dipakai membentuk ikatan C=O dan O–H dalam jumlah yang hampir sama, dengan memutus ikatan C–H dan C–C yang kekuatannya juga hampir sama. Jadi kalor pembakaran praktis ditentukan oleh banyaknya oksigen yang dipakai, bukan oleh jenis senyawanya. Ini menjelaskan pola Gambar 4.7: senyawa yang sudah mengandung oksigen memerlukan O₂ lebih sedikit per gram, sehingga melepaskan kalor lebih sedikit per gram. Hidrogen menyimpang karena atom H dalam H₂ terikat lebih lemah: ikatan H–H (436 kJ mol⁻¹) dibagi dua atom H, sedangkan setiap ikatan C–H (412 kJ mol⁻¹) mengikat satu atom H. Selain itu, seluruh oksigennya menjadi air, sehingga setiap mol O₂ juga melepaskan kalor pengembunan dua mol air.
+
+**Soal {{co2}}.** Pembakaran satu mol metana menghasilkan satu mol CO₂ (44,01 g) dan melepas 890,3 kJ, sehingga
+$$
+\frac{44{,}01\ \text{g}}{0{,}8903\ \text{MJ}} = 49{,}4\ \text{g MJ}^{-1} .
+$$
+Satu mol oktana menghasilkan 8 mol CO₂ (352,1 g) dan melepas 5470 kJ: $352{,}1/5{,}470 = 64{,}4$ g MJ⁻¹. Untuk energi yang sama, metana melepas $1 - 49{,}4/64{,}4 = 23\%$ lebih sedikit CO₂.
+
+*Cara berpikir:* untuk membandingkan bahan bakar secara adil, bagilah dengan besaran yang benar-benar diinginkan, yaitu energi, bukan massa atau mol. Metana unggul karena sebagian besar energinya berasal dari pembentukan air (empat ikatan O–H per karbon), bukan dari pembentukan CO₂. Makin besar perbandingan H/C, makin sedikit CO₂ per energi; hidrogen murni adalah batasnya, dengan nol CO₂. Perhitungan ini belum memasukkan kebocoran metana, gas rumah kaca yang jauh lebih kuat daripada CO₂.
 
 # Bacaan lanjut
 

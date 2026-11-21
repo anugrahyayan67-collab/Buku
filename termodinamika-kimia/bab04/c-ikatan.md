@@ -22,6 +22,8 @@ $$
 
 Reaksi eksoterm bila ikatan yang terbentuk lebih kuat daripada yang diputus. Itulah inti pembakaran: ikatan C=O dalam CO₂ dan O–H dalam air termasuk ikatan terkuat yang dapat dibentuk karbon, hidrogen, dan oksigen.
 
+![Gambar 4.4 Taksiran entalpi pembakaran metana dari entalpi ikatan. Semua ikatan pereaksi diputus (naik), lalu semua ikatan hasil dibentuk (turun). Beda kedua langkah memberi Δ$_\text{r}$H; karena dipakai entalpi ikatan rata-rata, hasilnya hanya taksiran (Contoh 4.14).](fig/ikatan.png){width=80%}
+
 ::: {.contoh}
 **Contoh 4.14 · Menaksir pembakaran metana**
 
@@ -54,6 +56,8 @@ Taksir $\Delta_\text{r}H$ untuk klorinasi metana, $\text{CH}_4(g) + \text{Cl}_2(
 | Atomisasi: ½Cl₂(g) → Cl(g) | +121,7 |
 | Penangkapan elektron: Cl(g) + e⁻ → Cl⁻(g) | −348,6 |
 | Pembentukan: Na(s) + ½Cl₂(g) → NaCl(s) | −411,2 |
+
+![Gambar 4.5 Siklus Born–Haber untuk NaCl. Jalan bertangga (biru dan hijau) dan jalan langsung (pembentukan lalu memecah kisi) menghubungkan keadaan awal dan akhir yang sama, sehingga entalpi kisi dapat dihitung dari besaran yang terukur.](fig/bornhaber.png){width=90%}
 
 Jalan "unsur → ion gas" melalui empat langkah pertama dan jalan "unsur → NaCl(s) → ion gas" harus memberi Δ*H* total yang sama. Karena itu
 $$
@@ -94,6 +98,8 @@ $$
 **Memahami hasil.** Pada suhu reaktor, reaksi melepaskan sekitar 20% lebih banyak kalor. Taksiran ini kasar karena kapasitas kalor sebenarnya naik dengan suhu, tetapi arahnya benar. Kalor reaksi yang besar ini harus terus diambil dari reaktor agar suhunya tidak naik, karena seperti akan kita lihat di Bab 12, suhu yang terlalu tinggi mengurangi hasil amonia.
 :::
 
+![Gambar 4.6 Entalpi penguapan air dari 0 °C sampai 100 °C. Garis lurus adalah hukum Kirchhoff dengan Δ$C_p$ tetap, dihitung dari nilai di 100 °C; titik adalah data terukur. Pendekatan Δ$C_p$ tetap sudah sangat baik dalam rentang 100 K ini.](fig/kirchhoff.png){width=74%}
+
 ::: {.contoh}
 **Contoh 4.17 · Mengapa air lebih sukar menguap pada suhu rendah**
 
@@ -110,9 +116,9 @@ $\Delta_\text{vap}H^\circ$ air pada 25 °C adalah 44,01 kJ mol⁻¹. Dengan $C_{
 
 ## 4.10 Termokimia pembakaran dan bahan bakar
 
-Sekarang kita dapat menjawab pertanyaan pembuka tentang bahan bakar. Untuk membandingkan bahan bakar, yang penting bukan entalpi pembakaran per mol, melainkan **per gram** (untuk kendaraan yang harus mengangkat bahan bakarnya) atau **per liter** (untuk tangki yang ruangnya terbatas). Gambar 4.3 membandingkan beberapa bahan bakar per gram.
+Sekarang kita dapat menjawab pertanyaan pembuka tentang bahan bakar. Untuk membandingkan bahan bakar, yang penting bukan entalpi pembakaran per mol, melainkan **per gram** (untuk kendaraan yang harus mengangkat bahan bakarnya) atau **per liter** (untuk tangki yang ruangnya terbatas). Gambar 4.7 membandingkan beberapa bahan bakar per gram.
 
-![Gambar 4.3 Entalpi pembakaran spesifik beberapa bahan bakar (air sebagai cairan). Hidrogen paling unggul per gram; senyawa yang sudah mengandung oksigen, seperti etanol dan glukosa, melepaskan energi jauh lebih sedikit.](fig/bahanbakar.png){width=70%}
+![Gambar 4.7 Entalpi pembakaran spesifik beberapa bahan bakar (air sebagai cairan). Hidrogen paling unggul per gram; senyawa yang sudah mengandung oksigen, seperti etanol dan glukosa, melepaskan energi jauh lebih sedikit.](fig/bahanbakar.png){width=70%}
 
 Dua pola terlihat jelas, dan keduanya dapat dipahami dari entalpi ikatan.
 
