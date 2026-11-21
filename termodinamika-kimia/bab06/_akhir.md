@@ -31,28 +31,33 @@
 
 4. Mengapa entropi pencampuran selalu positif?
 5. Apa isi paradoks Gibbs dan bagaimana penyelesaiannya?
+6. Mengapa pencampuran gas ideal selalu spontan walaupun tidak ada kalor yang dilepas atau diserap?
 
 ## Subbab 6.4: Entropi perubahan fasa dan aturan Trouton
 
-6. Jelaskan strategi menghitung Δ*S* untuk proses tak reversibel seperti pembekuan air lewat dingin.
-7. Mengapa titik leleh adalah suhu ketika $\Delta S_\text{total}$ untuk peleburan sama dengan nol?
+7. Jelaskan strategi menghitung Δ*S* untuk proses tak reversibel seperti pembekuan air lewat dingin.
+8. Mengapa titik leleh adalah suhu ketika $\Delta S_\text{total}$ untuk peleburan sama dengan nol?
+9. Apa yang dikatakan aturan Trouton tentang perubahan "banyaknya cara" ketika cairan menjadi gas, dan mengapa nilainya hampir sama untuk banyak cairan?
 
 ## Subbab 6.6: Hukum ketiga dan entropi mutlak
 
-8. Mengapa entropi dapat mempunyai nilai mutlak, sedangkan energi dalam dan entalpi tidak?
-9. Mengapa hukum *T*³ Debye diperlukan dalam pengukuran entropi mutlak?
-10. Mengapa sumbangan terbesar pada entropi suatu gas pada suhu kamar biasanya berasal dari penguapan?
+10. Mengapa entropi dapat mempunyai nilai mutlak, sedangkan energi dalam dan entalpi tidak?
+11. Mengapa hukum *T*³ Debye diperlukan dalam pengukuran entropi mutlak?
+12. Mengapa sumbangan terbesar pada entropi suatu gas pada suhu kamar biasanya berasal dari penguapan?
+13. Apa yang dimaksud kristal sempurna dalam hukum ketiga, dan mengapa kaca atau es biasa tidak memenuhinya?
 
 ## Subbab 6.7: Entropi reaksi standar
 
-11. Mengapa entropi standar unsur tidak nol, padahal entalpi pembentukan standarnya nol?
-12. Jelaskan mengapa entropi molar standar Ar lebih besar daripada He.
-13. Mengapa perubahan jumlah mol gas biasanya menentukan tanda entropi reaksi?
+14. Mengapa entropi standar unsur tidak nol, padahal entalpi pembentukan standarnya nol?
+15. Jelaskan mengapa entropi molar standar Ar lebih besar daripada He.
+16. Mengapa perubahan jumlah mol gas biasanya menentukan tanda entropi reaksi?
+17. Mengapa reaksi yang menghasilkan lebih banyak mol gas hampir selalu mempunyai Δ$_\text{r}$*S*° positif?
 
 ## Subbab 6.8: Entropi lingkungan dan entropi total
 
-14. Jelaskan keempat kombinasi tanda Δ*H* dan Δ*S* serta akibatnya pada spontanitas.
-15. Mengapa reaksi yang spontan pada suhu kamar, seperti sintesis amonia, tetap memerlukan katalis?
+18. Jelaskan keempat kombinasi tanda Δ*H* dan Δ*S* serta akibatnya pada spontanitas.
+19. Mengapa reaksi yang spontan pada suhu kamar, seperti sintesis amonia, tetap memerlukan katalis?
+20. Reaksi eksoterm menaikkan entropi lingkungan. Mengapa kenaikan itu lebih besar bila lingkungannya dingin?
 
 # Soal
 
@@ -112,6 +117,14 @@ T = \frac{\Delta_\text{r}H^\circ}{\Delta_\text{r}S^\circ} = \frac{492\,600}{543{
 $$
 
 *Cara berpikir:* reduksi bijih besi dengan karbon sangat endoterm, tetapi menghasilkan tiga mol gas CO dari padatan, sehingga entropinya naik sangat besar. Di atas sekitar 900 K entropi menang. Tanur tinggi bekerja jauh di atas suhu ini (lebih dari 1500 °C di bagian bawah), baik untuk mempercepat reaksi maupun untuk mencairkan besi yang terbentuk.
+
+**Soal {{kalsinasi}}.** Dari Tabel 6.1, Δ$_\text{r}$*S*° = 39,75 + 213,74 − 92,9 = +160,6 J K⁻¹. Pada 298 K, lingkungan kehilangan kalor 178,3 kJ, sehingga
+$$
+\Delta S_\text{ling} = -\frac{\Delta H}{T} = -\frac{178\,300\ \text{J}}{298{,}15\ \text{K}} = -598\ \text{J K}^{-1}, \qquad \Delta S_\text{total} = 160{,}6 - 598 = -437\ \text{J K}^{-1} .
+$$
+Penguraian tidak spontan. Penguraian menjadi spontan bila $\Delta S_\text{total} = \Delta S - \Delta H/T > 0$, yaitu $T > \Delta H/\Delta S = 178\,300/160{,}6 = 1110$ K, dengan anggapan Δ*H* dan Δ*S* tidak bergantung suhu.
+
+*Cara berpikir:* reaksi ini berebut antara dua kecenderungan. Entropi sistem naik karena satu mol gas terbentuk dari padatan, tetapi entropi lingkungan turun karena reaksi menyerap banyak kalor. Penurunan kedua mengecil sebanding 1/*T*, sedangkan kenaikan pertama hampir tetap, sehingga pada suhu cukup tinggi sistem menang. Itulah sebabnya tungku kapur dipanaskan sampai sekitar 900–1000 °C. Persaingan "Δ*H* lawan *T*Δ*S*" ini akan diringkas di Bab 7 menjadi satu besaran, energi Gibbs, dan suhu 1110 K adalah suhu tempat Δ*G*° = 0. Nilai sebenarnya (sekitar 1100 K) sangat dekat, karena Δ*H* dan Δ*S* reaksi ini hampir tidak berubah dengan suhu.
 
 # Bacaan lanjut
 

@@ -16,6 +16,8 @@ Hukum ketiga memberi kita **entropi molar standar** $S_\text{m}^\circ$ setiap za
 
 Tabel 6.1 Entropi molar standar pada 298,15 K.
 
+![Gambar 6.5 Entropi molar standar zat dalam Tabel 6.1, dikelompokkan menurut wujud. Gas jauh di atas cairan dan padatan; di dalam setiap kelompok, atom yang lebih berat dan molekul yang lebih rumit mempunyai entropi lebih besar.](fig/Spola.png){width=86%}
+
 Tabel ini menyimpan banyak kimia, dan polanya dapat dipahami dari gambaran "banyaknya cara" Boltzmann:
 
 * **Gas jauh lebih besar daripada cairan, cairan lebih besar daripada padatan.** Bandingkan H₂O cair dan gas, atau I₂ padat dan gas. Molekul gas mempunyai ruang ribuan kali lebih luas.
@@ -125,6 +127,10 @@ Untuk $\text{H}_2\text{O}(l) \to \text{H}_2\text{O}(g)$ pada 298 K, $\Delta_\tex
 
 **Memahami hasil.** Pada 25 °C, air tidak dapat menguap menjadi uap **bertekanan 1 bar**. Tetapi air tetap menguap dari gelas yang terbuka, karena uap di udara bertekanan parsial jauh lebih kecil daripada 1 bar, dan entropi uap bertambah ketika tekanannya lebih rendah (persamaan 6.3). Penguapan berhenti ketika tekanan uap air di atas cairan mencapai tekanan uap jenuhnya, sekitar 0,032 bar pada 25 °C. Hubungan antara tekanan uap dan suhu akan kita turunkan di Bab 8. Taksiran titik didih meleset 3 K karena Δ*H* dan Δ*S* dianggap tetap dari 25 °C sampai 100 °C.
 :::
+
+Gambar 6.6 memperlihatkan perhitungan ini untuk pembekuan air pada berbagai suhu, dengan anggapan Δ$_\text{fus}$*H* dan Δ$_\text{fus}$*S* tidak berubah. Entropi sistem selalu turun sekitar 22 J K⁻¹ mol⁻¹ saat air membeku. Entropi lingkungan naik sebesar $\Delta_\text{fus}H/T$, lebih banyak bila lingkungan dingin. Kedua garis berpotongan tepat di 273 K. Di bawahnya, kenaikan entropi lingkungan menang dan air membeku spontan; di atasnya, es mencair. Titik leleh adalah suhu tempat kedua sumbangan seimbang, suatu gagasan yang di Bab 7 akan diringkas menjadi Δ*G* = 0.
+
+![Gambar 6.6 Pembekuan air pada 1 bar. Kiri: perubahan entropi sistem dan lingkungan. Kanan: jumlahnya, yaitu entropi total, positif di bawah 273 K (pembekuan spontan) dan negatif di atasnya.](fig/beku.png){width=86%}
 
 ::: {.kuis}
 **Kuis cepat 6.8** Suatu reaksi eksoterm mengurangi jumlah mol gas. Apakah ia lebih mungkin spontan pada suhu rendah atau tinggi?

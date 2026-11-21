@@ -36,6 +36,10 @@ Hitung entropi penguapan air pada 25 °C dengan jalan melalui titik didih normal
 **Memahami hasil.** Selisih 0,5% berasal dari anggapan kapasitas kalor tetap dan dari perbedaan kecil antara tekanan 1 atm dan 1 bar. Entropi penguapan pada 25 °C lebih besar daripada pada 100 °C, karena air cair yang lebih dingin lebih teratur oleh ikatan hidrogennya, sehingga penguapannya membebaskan lebih banyak keteraturan.
 :::
 
+Gambar 6.2 memperlihatkan seberapa baik aturan Trouton bekerja. Untuk cairan yang molekulnya tidak saling terikat secara khusus (CCl₄, benzena, sikloheksana, H₂S), entropi penguapan berkumpul di sekitar 85 J K⁻¹ mol⁻¹. Cairan berikatan hidrogen (NH₃, etanol, air) menyimpang ke atas: molekulnya tersusun lebih teratur di dalam cairan, sehingga keteraturan yang "hilang" saat menguap lebih besar. Metana menyimpang ke bawah karena titik didihnya sangat rendah, sehingga gas yang terbentuk masih relatif rapat dan entropi gasnya lebih kecil.
+
+![Gambar 6.2 Entropi penguapan pada titik didih normal, $\Delta_\text{vap}H/T_\text{b}$, untuk delapan cairan. Cairan tanpa ikatan hidrogen mengikuti aturan Trouton; cairan berikatan hidrogen (jingga) lebih besar.](fig/trouton.png){width=80%}
+
 ::: {.kuis}
 **Kuis cepat 6.4** Pada 0 °C, mengapa $\Delta S_\text{total}$ untuk pembekuan air sama dengan nol? Apa artinya bagi es dan air pada suhu itu?
 :::
@@ -89,6 +93,10 @@ Hitung perubahan entropi satu mol H₂O dari es pada −20 °C sampai uap pada 1
 **Memahami hasil.** Dua pertiga kenaikan entropi berasal dari penguapan saja. Pemanasan air cair sejauh 100 K menyumbang sama besar dengan peleburan, karena kapasitas kalor air cair yang besar. Pola yang sama akan kita lihat lagi pada argon di subbab 6.6 (Contoh 6.13): perubahan fasa, terutama penguapan, mendominasi entropi.
 :::
 
+Menggabungkan pemanasan dan perubahan fasa memberi kurva entropi zat terhadap suhu (Gambar 6.3). Dalam setiap fasa, entropi naik perlahan, sebanding dengan $C_p\ln T$; pada setiap perubahan fasa ia melompat sebesar $\Delta_\text{trs}H/T_\text{trs}$. Lompatan penguapan air lima kali lebih besar daripada lompatan pelelehannya, karena perbedaan keteraturan antara cair dan gas jauh lebih besar daripada antara padat dan cair.
+
+![Gambar 6.3 Entropi molar air dari es pada 230 K sampai uap pada 420 K, pada 1 bar, dihitung dari $S_\text{m}^\circ$(l, 298 K) = 69,91 J K⁻¹ mol⁻¹, kapasitas kalor setiap fasa, dan entalpi perubahan fasa. Lompatan pada titik leleh dan titik didih adalah $\Delta_\text{trs}H/T_\text{trs}$.](fig/pemanasan.png){width=78%}
+
 ::: {.kuis}
 **Kuis cepat 6.5** Mengapa Δ*S* pemanasan dari 10 K ke 20 K dapat sebanding dengan Δ*S* pemanasan dari 100 K ke 200 K, walaupun selisih suhunya jauh lebih kecil?
 :::
@@ -109,7 +117,7 @@ $$
 S_\text{m}(T) = \int_0^{T_\text{f}}\frac{C_p(\text{s})}{T}dT + \frac{\Delta_\text{fus}H}{T_\text{f}} + \int_{T_\text{f}}^{T_\text{b}}\frac{C_p(\text{l})}{T}dT + \frac{\Delta_\text{vap}H}{T_\text{b}} + \int_{T_\text{b}}^{T}\frac{C_p(\text{g})}{T}dT . \qquad \text{(6.7)}
 $$
 
-Entropi yang dihitung dengan cara ini disebut **entropi ketiga hukum** atau entropi kalorimetri. Gambar 6.2 memperlihatkan bentuknya untuk argon: naik perlahan selama pemanasan, dan melompat pada setiap perubahan fasa, terutama pada penguapan.
+Entropi yang dihitung dengan cara ini disebut **entropi ketiga hukum** atau entropi kalorimetri. Gambar 6.4 memperlihatkan bentuknya untuk argon: naik perlahan selama pemanasan, dan melompat pada setiap perubahan fasa, terutama pada penguapan.
 
 Ada satu kesulitan praktis: kapasitas kalor tidak dapat diukur sampai tepat 0 K. Untungnya, pada suhu sangat rendah, kapasitas kalor padatan nonlogam mengikuti **hukum *T*³ Debye**:
 
@@ -119,7 +127,7 @@ $$
 
 Memasukkannya ke (6.5) dengan batas bawah 0 memberi hasil yang sangat praktis: $S(T) = \int_0^T aT^2\,dT = aT^3/3 = C_p(T)/3$. Jadi entropi pada suhu terendah yang diukur cukup ditaksir sebagai sepertiga kapasitas kalor pada suhu itu.
 
-![Gambar 6.2 Entropi molar argon dari 0 K sampai 300 K, dihitung dari model Debye untuk padatan dan data peleburan, cairan, penguapan, serta gas. Lompatan terbesar terjadi pada penguapan (87,3 K).](fig/entropiT.png){width=72%}
+![Gambar 6.4 Entropi molar argon dari 0 K sampai 300 K, dihitung dari model Debye untuk padatan dan data peleburan, cairan, penguapan, serta gas. Lompatan terbesar terjadi pada penguapan (87,3 K).](fig/entropiT.png){width=72%}
 
 ::: {.contoh}
 **Contoh 6.13 · Entropi mutlak argon dari kalorimetri**

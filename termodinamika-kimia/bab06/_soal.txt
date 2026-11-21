@@ -11,6 +11,11 @@ Tunjukkan dari (6.1) bahwa syarat Δ*S* = 0 menghasilkan $TV^{\gamma - 1} = \tex
 
 Dua mol CO₂ memuai secara isotermal dari 0,200 L ke 2,00 L. Hitung Δ*S* menurut van der Waals ($b = 0{,}042\,67$ L mol⁻¹, per mol) dan gas ideal. ||| per mol: 0,100 → 1,00 L mol⁻¹; van der Waals 21,0; ideal 19,1 J K⁻¹ mol⁻¹
 
+
+Hitung Δ*S* untuk 1,00 mol argon yang dipanaskan dari 300 K ke 600 K pada volume tetap, lalu bila sekaligus volumenya menjadi dua kali. ||| +8,64 J K⁻¹; +14,41 J K⁻¹
+Mengapa Δ*S* untuk pemanasan pada volume tetap memakai $C_V$, sedangkan pada tekanan tetap memakai $C_p$? ||| kalor reversibelnya masing-masing $C_V\,dT$ dan $C_p\,dT$
+Untuk gas ideal, mengapa suku volume dalam *dS* hanya bergantung pada *V*, tidak pada *T*? ||| $(\partial p/\partial T)_V = nR/V$ tidak memuat *T*
+
 ## Subbab 6.2: Entropi sebagai fungsi T dan P
 
 Satu mol O₂ ($C_{p,\text{m}} = 29{,}36$ J K⁻¹ mol⁻¹) dipanaskan dari 298 K ke 500 K pada tekanan tetap. Hitung Δ*S*. ||| +15,2 J K⁻¹
@@ -21,6 +26,11 @@ Satu mol CO₂ ($C_{p,\text{m}} = 37{,}11$ J K⁻¹ mol⁻¹) dibawa dari 25 °C
 Mengapa suku suhu dalam (6.2) memakai $C_p$, sedangkan dalam (6.1) memakai $C_V$? ||| pemanasan pada tekanan tetap juga menambah volume
 
 Berapa kalor minimum yang dibuang per mol bila udara dimampatkan secara isotermal pada 25 °C dari 1 bar ke 200 bar? ||| 13,1 kJ
+
+
+Hitung Δ*S* untuk 1 mol N₂ yang dipanaskan dari 300 K ke 500 K pada tekanan tetap, dan untuk pemampatan isotermal 1 mol gas ideal dari 1 bar ke 10 bar. ||| +14,9 J K⁻¹; −19,1 J K⁻¹
+Hitung Δ*S* untuk 2,00 mol O₂ dari 25 °C dan 1,00 bar ke 100 °C dan 5,00 bar. ||| −13,7 J K⁻¹
+Mengapa entropi gas turun ketika dimampatkan pada suhu tetap? Jelaskan dari sudut molekul. ||| volume yang tersedia lebih kecil: lebih sedikit cara menempatkan molekul
 
 ## Subbab 6.3: Entropi pemuaian dan pencampuran gas ideal
 
@@ -35,6 +45,12 @@ Jelaskan mengapa membuka sekat di antara dua bagian berisi gas nitrogen yang sam
 Satu mol He dalam *V* dan satu mol Ar dalam 3*V* dicampur pada suhu sama. Hitung Δ*S*. ||| +13,9 J K⁻¹
 Hitung entropi pencampuran 3,00 mol gas yang terdiri atas tiga komponen dengan jumlah mol sama. ||| +27,4 J K⁻¹
 
+
+Hitung Δ$_\text{mix}$*S* untuk 1 mol N₂ dan 1 mol O₂ pada suhu dan tekanan sama. ||| +11,5 J K⁻¹
+Hitung Δ$_\text{mix}$*S* per mol udara (78% N₂, 21% O₂, 1% Ar). ||| 4,72 J K⁻¹ mol⁻¹
+Hitung Δ$_\text{mix}$*S* untuk 2,00 mol He dan 3,00 mol Ar pada suhu dan tekanan sama. ||| +28,0 J K⁻¹
+Mengapa mencampur dua bagian gas yang **sama** tidak menaikkan entropi (paradoks Gibbs)? ||| molekul identik tidak dapat dibedakan; tidak ada susunan baru
+
 ## Subbab 6.4: Entropi perubahan fasa
 
 Benzena meleleh pada 278,6 K dengan $\Delta_\text{fus}H = 9{,}87$ kJ mol⁻¹. Hitung $\Delta_\text{fus}S$. ||| +35,4 J K⁻¹ mol⁻¹
@@ -44,6 +60,12 @@ Mengapa rumus $\Delta H/T$ tidak dapat langsung dipakai untuk pembekuan air pada
 Hitung $\Delta S_\text{sistem}$ pembekuan 1 mol air lewat dingin pada −5 °C dengan data Contoh 6.9. ||| −21,3 J K⁻¹
 
 @adiabeku [P] Satu mol air lewat dingin pada −10 °C berada di dalam termos yang terisolasi sempurna. Air itu diguncang dan sebagian membeku dengan cepat sampai seluruh isinya mencapai 0 °C. (a) Berapa fraksi air yang membeku? (b) Hitung Δ*S* sistem. Mengapa Δ*S* ini sekaligus Δ*S* total? Pakai data Contoh 6.9. ||| (a) 0,125; (b) +0,05 J K⁻¹; sistem terisolasi, $\Delta S_\text{lingk} = 0$
+
+
+Hitung Δ$_\text{vap}$*S* benzena (Δ$_\text{vap}$*H* = 30,72 kJ mol⁻¹, $T_\text{b}$ = 353,2 K). Apakah mengikuti aturan Trouton? ||| 87,0 J K⁻¹ mol⁻¹; ya
+Dengan aturan Trouton (85 J K⁻¹ mol⁻¹), perkirakan titik didih cairan dengan Δ$_\text{vap}$*H* = 29,8 kJ mol⁻¹. ||| ≈ 351 K
+Etanol meleleh pada 159 K dengan Δ$_\text{fus}$*H* = 4,93 kJ mol⁻¹. Hitung Δ$_\text{fus}$*S*. ||| 31,0 J K⁻¹ mol⁻¹
+Dari Gambar 6.2, mengapa metana menyimpang ke bawah dari aturan Trouton? ||| titik didih sangat rendah: gasnya masih rapat, entropi gas kecil
 
 ## Subbab 6.5: Entropi pemanasan
 
@@ -56,6 +78,12 @@ Hitung Δ*S* satu mol air dari cair 50 °C ke uap 150 °C pada 1 atm (data Conto
 
 @numerik [P] (Python) Kapasitas kalor suatu padatan terukur (J K⁻¹ mol⁻¹): 10 K 0,43; 20 K 3,1; 50 K 14,2; 100 K 21,5; 150 K 23,8; 200 K 24,6; 250 K 25,0; 298 K 25,3. Hitung entropi molarnya pada 298 K dengan hukum *T*³ di bawah 10 K dan aturan trapesium untuk $C_p/T$. ||| ≈ 46,6 J K⁻¹ mol⁻¹
 
+
+Hitung Δ*S* untuk memanaskan 1,00 mol air cair dari 0 °C ke 100 °C. ||| +23,5 J K⁻¹
+Hitung Δ*S* untuk mengubah 1,00 mol es −10 °C menjadi uap 110 °C ($C_p$: es 37,8; cair 75,3; uap 33,6 J K⁻¹ mol⁻¹). ||| +156,8 J K⁻¹
+Untuk aluminium, $C_{p,\text{m}} = 20{,}67 + 0{,}012\,38\,T$ J K⁻¹ mol⁻¹. Hitung Δ*S* untuk memanaskan 1 mol dari 300 K ke 600 K. ||| +18,0 J K⁻¹
+Dari Gambar 6.3, mengapa lompatan entropi pada titik didih jauh lebih besar daripada pada titik leleh? ||| perbedaan keteraturan cair–gas jauh lebih besar daripada padat–cair
+
 ## Subbab 6.6: Hukum ketiga dan entropi mutlak
 
 Kapasitas kalor suatu padatan pada 5,0 K adalah 0,052 J K⁻¹ mol⁻¹. Taksir entropinya pada 5,0 K. ||| 0,017 J K⁻¹ mol⁻¹
@@ -66,6 +94,11 @@ Mengapa entropi kalorimetri CO lebih kecil daripada entropi sebenarnya? ||| entr
 Mengapa kapasitas kalor semua zat menuju nol pada 0 K? ||| hukum *T*³; hukum ketiga
 
 @pauling [P] Turunkan entropi residu es dengan cara Pauling. Dalam es, setiap atom O dikelilingi empat atom H: dua dekat (ikatan kovalen) dan dua jauh (ikatan hidrogen). Untuk *N* molekul ada 2*N* atom H, dan setiap atom H dapat berada di salah satu dari dua posisi pada ikatannya. (a) Tanpa aturan apa pun, berapa banyak susunan? (b) Dari 16 susunan empat atom H di sekitar satu atom O, berapa yang memenuhi syarat "tepat dua dekat"? (c) Gabungkan menjadi *W* dan hitung $S = k\ln W$ per mol. ||| (a) $2^{2N}$; (b) 6; (c) $W = (3/2)^N$, $S = R\ln\tfrac32 = 3{,}37$ J K⁻¹ mol⁻¹
+
+
+Pada suhu sangat rendah $C_p \approx aT^3$ (hukum Debye). Tunjukkan bahwa $S(T) = C_p(T)/3$, lalu hitung *S* pada 10 K bila $C_p$ = 0,50 J K⁻¹ mol⁻¹. ||| 0,17 J K⁻¹ mol⁻¹
+Mengapa hukum ketiga memungkinkan kita menulis entropi **mutlak**, padahal energi dalam dan entalpi hanya punya nilai relatif? ||| ada titik nol alami: kristal sempurna pada 0 K mempunyai *S* = 0
+Mengapa nol mutlak tidak dapat dicapai dalam jumlah langkah yang berhingga? ||| setiap langkah pendinginan menurunkan suhu makin sedikit ketika semua kurva *S*(*T*) menyatu di *S* = 0
 
 ## Subbab 6.7: Entropi reaksi standar
 
@@ -78,6 +111,12 @@ Urutkan menurut entropi molar standar dan jelaskan: H₂O(g), H₂O(l), C(intan)
 
 Mengapa entropi pelarutan MgCl₂ negatif, sedangkan NaCl positif? ||| Mg²⁺ kecil bermuatan 2+ menata air hidrasi sangat kuat
 
+
+Hitung Δ$_\text{r}$*S*° untuk 2H₂(g) + O₂(g) → 2H₂O(l) dan N₂ + 3H₂ → 2NH₃. ||| −326,7 J K⁻¹; −198,8 J K⁻¹
+Hitung Δ$_\text{r}$*S*° untuk CaCO₃(s) → CaO(s) + CO₂(g) dan I₂(s) → I₂(g). ||| +160,6 J K⁻¹; +144,6 J K⁻¹
+Hitung Δ*S*° untuk C(grafit) → C(intan) dan jelaskan tandanya. ||| −3,36 J K⁻¹; intan lebih kaku
+Tanpa tabel, ramalkan tanda Δ*S*° untuk (a) 2SO₂ + O₂ → 2SO₃, (b) NH₄Cl(s) → NH₃(g) + HCl(g), (c) H₂(g) + Cl₂(g) → 2HCl(g). ||| (a) −; (b) +; (c) ≈ 0
+
 ## Subbab 6.8: Entropi lingkungan dan entropi total
 
 Hitung $\Delta S_\text{total}$ untuk pembentukan air cair dari H₂ dan O₂ pada 298 K ($\Delta_\text{r}H^\circ = -285{,}83$ kJ mol⁻¹, $\Delta_\text{r}S^\circ = -163{,}3$ J K⁻¹ mol⁻¹). ||| +795 J K⁻¹ mol⁻¹
@@ -89,4 +128,9 @@ Di atas suhu berapa sintesis amonia dalam keadaan standar berhenti spontan (Δ*H
 
 Taksir titik didih normal air dari $\Delta_\text{vap}H^\circ$ dan $\Delta_\text{vap}S^\circ$ pada 298 K. Mengapa tidak tepat 373 K? ||| 370 K; Δ*H*, Δ*S* berubah dengan suhu
 Mengapa air tetap menguap dari gelas terbuka pada 25 °C, walaupun $\Delta S_\text{total}$ penguapan standar negatif? ||| tekanan parsial uap di udara jauh di bawah 1 bar
+
+
+Untuk sintesis amonia pada 298 K (Δ*H*° = −92,22 kJ), hitung Δ*S* lingkungan dan Δ*S* total. ||| +309,3; +110,6 J K⁻¹
+@kalsinasi [P] Untuk CaCO₃ → CaO + CO₂ (Δ*H*° = +178,3 kJ), hitung Δ*S* total pada 298 K, lalu perkirakan suhu terendah tempat penguraian spontan pada 1 bar. ||| −437 J K⁻¹; ≈ 1110 K
+Hitung Δ*S* sistem, lingkungan, dan total untuk penguapan 1 mol air pada 25 °C dan 1 bar (Δ$_\text{vap}$*H* = 44,01 kJ mol⁻¹). Mengapa air tetap menguap dari gelas di udara? ||| +118,9; −147,6; −28,7 J K⁻¹; tekanan parsial uap di udara jauh di bawah 1 bar
 
