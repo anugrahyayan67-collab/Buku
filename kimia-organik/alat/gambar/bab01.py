@@ -455,3 +455,105 @@ for k, (smi, nm, sud, npb) in enumerate([('C', 'metana', '109,5°', 0), ('N', 'a
     f.text(k * 0.333 + 0.166, 0.03, f'{nm} ({sud})\n{4 - npb} ikatan, {npb} pasangan bebas', ha='center', fontsize=8.8, color=TUA)
 f.savefig(f'{F}/vsepr.png', bbox_inches='tight'); plt.close(f)
 print('ok ilustrasi')
+
+# ================= versi render WebGL (three.js) =================
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'r3d'))
+from r3d import render, spek_molekul, tampil, tetra, hx, kamera_terbaik
+TMP = os.path.join(F, '_r3d'); os.makedirs(TMP, exist_ok=True)
+BIRU_O, MERAH_O, EMAS_O, JG_O, PUC = 0x4f86d9, 0xe0707a, 0xf4b942, 0xf0a060, 0x9cc4ee
+def sumbu3(L=1.25):
+    return [{'p': [-L, 0, 0], 'q': [L, 0, 0]}, {'p': [0, -L, 0], 'q': [0, L, 0]}, {'p': [0, 0, -L], 'q': [0, 0, L]}]
+def lob(d, L=1.0, w=0.36, c=EMAS_O, o=(0, 0, 0), a=1.0, k=0.7): return {'d': list(map(float, d)), 'L': L, 'w': w, 'c': c, 'o': list(o), 'a': a, 'k': k}
+def porb(d, L=0.95, c1=BIRU_O, c2=MERAH_O, o=(0, 0, 0)): return [lob(d, L, 0.36, c1, o), lob(-np.array(d, float), L, 0.36, c2, o)]
+def horb(d, c=EMAS_O, o=(0, 0, 0), s=1.0): return [lob(d, 1.1 * s, 0.42 * s, c, o, k=0.75), lob(-np.array(d, float), 0.3 * s, 0.16 * s, 0xe8893a, o, k=0.6)]
+CAM = [1.0, -1.35, 0.55]
+jobs = []
+# orbital s, p
+for nm, d in [('s', None), ('px', (1, 0, 0)), ('py', (0, 1, 0)), ('pz', (0, 0, 1))]:
+    sp = {'w': 520, 'h': 520, 'zoom': 1.45, 'camdir': CAM, 'axes': sumbu3(1.3), 'labels': [[1.45, 0, 0], [0, 1.45, 0], [0, 0, 1.45]]}
+    if d is None: sp['spheres'] = [{'p': [0, 0, 0], 'r': 0.55, 'c': BIRU_O}]
+    else: sp['lobes'] = porb(d)
+    jobs.append((sp, f'{TMP}/o_{nm}.png'))
+# hibrid
+jobs.append(({'w': 600, 'h': 560, 'zoom': 1.35, 'camdir': [1.0, -1.6, 0.35], 'lobes': sum([horb(v) for v in tetra()], [])}, f'{TMP}/h_sp3.png'))
+jobs.append(({'w': 600, 'h': 560, 'zoom': 1.35, 'camdir': [0.7, -1.4, 0.6], 'lobes': sum([horb((np.cos(a), np.sin(a), 0)) for a in np.radians([90, 210, 330])], []) + porb((0, 0, 1), 0.85, PUC, PUC)}, f'{TMP}/h_sp2.png'))
+jobs.append(({'w': 600, 'h': 560, 'zoom': 1.35, 'camdir': [0.7, -1.4, 0.6], 'lobes': horb((1, 0, 0)) + horb((-1, 0, 0)) + porb((0, 1, 0), 0.8, PUC, PUC) + porb((0, 0, 1), 0.8, 0xb9d7f3, 0xb9d7f3)}, f'{TMP}/h_sp.png'))
+# sigma pi
+SC = [0.15, -1, 0.25]
+jobs.append(({'w': 600, 'h': 380, 'zoom': 0.95, 'camdir': SC, 'spheres': [{'p': [-0.42, 0, 0], 'r': 0.55, 'c': BIRU_O}, {'p': [0.42, 0, 0], 'r': 0.55, 'c': PUC}]}, f'{TMP}/s_ss.png'))
+jobs.append(({'w': 600, 'h': 380, 'zoom': 0.95, 'camdir': SC, 'lobes': horb((1, 0, 0), o=(-0.75, 0, 0)), 'spheres': [{'p': [0.62, 0, 0], 'r': 0.42, 'c': PUC}]}, f'{TMP}/s_hs.png'))
+jobs.append(({'w': 600, 'h': 380, 'zoom': 0.95, 'camdir': SC, 'lobes': horb((1, 0, 0), o=(-0.85, 0, 0), s=0.9) + horb((-1, 0, 0), c=0xf6d27a, o=(0.85, 0, 0), s=0.9)}, f'{TMP}/s_hh.png'))
+jobs.append(({'w': 600, 'h': 380, 'zoom': 0.95, 'camdir': SC, 'lobes': porb((0, 0, 1), 0.85, JG_O, JG_O, (-0.45, 0, 0)) + porb((0, 0, 1), 0.85, JG_O, JG_O, (0.45, 0, 0)),
+              'bonds': [{'p': [-0.45, 0, 0], 'q': [0.45, 0, 0], 'r': 0.03, 'c': 0x3b4049}]}, f'{TMP}/s_pp.png'))
+# molekul: geometri ideal
+def mol(at, ik): return at, ik
+dCO, dOH, dCH, dCCl, dNH = 1.16, 0.96, 1.09, 1.78, 1.01
+t = tetra()
+M = {}
+M['co2'] = ([('C', (0, 0, 0)), ('O', (dCO, 0, 0)), ('O', (-dCO, 0, 0))], [(0, 1, 2), (0, 2, 2)])
+a = np.radians(104.5 / 2); M['h2o'] = ([('O', (0, 0, 0)), ('H', (dOH * np.sin(a), 0, -dOH * np.cos(a))), ('H', (-dOH * np.sin(a), 0, -dOH * np.cos(a)))], [(0, 1), (0, 2)])
+M['ch3cl'] = ([('C', (0, 0, 0)), ('Cl', tuple(t[0] * dCCl))] + [('H', tuple(v * dCH)) for v in t[1:]], [(0, 1), (0, 2), (0, 3), (0, 4)])
+M['ccl4'] = ([('C', (0, 0, 0))] + [('Cl', tuple(v * dCCl)) for v in t], [(0, 1), (0, 2), (0, 3), (0, 4)])
+M['ch4'] = ([('C', (0, 0, 0))] + [('H', tuple(v * dCH)) for v in t], [(0, 1), (0, 2), (0, 3), (0, 4)])
+M['nh3'] = ([('N', (0, 0, 0))] + [('H', tuple(v * dNH)) for v in t[1:]], [(0, 1), (0, 2), (0, 3)])
+M['h2o_v'] = ([('O', (0, 0, 0)), ('H', (0.76, 0, -0.59)), ('H', (-0.76, 0, -0.59))], [(0, 1), (0, 2)])
+MC = [0.35, -1, 0.18]
+lab_dipol = {'co2': [[-0.25, 0, 0.6], [-1.1, 0, 0.6], [0.25, 0, 0.6], [1.1, 0, 0.6]], 'h2o': [[0, 0, -1.25], [0, 0, -0.35]], 'ch3cl': [[0, 0, 0], list(t[0] * dCCl)], 'ccl4': [[0, 0, 0]]}
+for k in ['co2', 'h2o', 'ch3cl', 'ccl4']:
+    sp = spek_molekul(*M[k], ganda=[0, 0, 1]); sp.update({'w': 520, 'h': 560, 'zoom': 2.45, 'target': [0, 0, 0.25], 'camdir': MC if k not in ('ch3cl', 'ccl4') else kamera_terbaik([p for _, p in M[k][0]], (5, 15)), 'labels': lab_dipol[k]}); jobs.append((sp, f'{TMP}/d_{k}.png'))
+for k, npb in [('ch4', 0), ('nh3', 1), ('h2o_v', 2)]:
+    pts = [p for _, p in M[k][0]] + ([tuple(t[0] * 0.9)] if npb == 1 else []) + ([(0, 0.62, 0.45), (0, -0.62, 0.45)] if npb == 2 else [])
+    sp = spek_molekul(*M[k]); sp.update({'w': 520, 'h': 520, 'zoom': 1.55, 'camdir': kamera_terbaik(pts, (10, 30))})
+    if npb == 1: sp['lobes'] = [lob(t[0], 0.95, 0.34, 0xf3c86a, a=0.85)]
+    if npb == 2: sp['lobes'] = [lob((0, sg * 0.81, 0.58), 0.95, 0.34, 0xf3c86a, a=0.85) for sg in (1, -1)]
+    jobs.append((sp, f'{TMP}/v_{k}.png'))
+META = render(jobs)
+
+def bingkai(f, rect): a = f.add_axes(rect); a.axis('off'); return a
+# susun gambar orbital
+f = plt.figure(figsize=(7.4, 2.0), dpi=220)
+a = f.add_axes([0.0, 0.08, 0.24, 0.84]); a.set_xlim(0, 6); a.set_ylim(0, 10); a.axis('off')
+for y, lab, n_ in [(1.0, '1s', 1), (4.0, '2s', 1), (7.0, '2p', 3)]:
+    for i in range(n_): a.plot([1.4 + i * 1.5, 2.5 + i * 1.5], [y, y], color=TUA, lw=1.1)
+    a.text(0.9, y, lab, fontsize=9, color=TUA, va='center', ha='right')
+for x, y, s_ in [(1.95, 1.0, 'ud'), (1.95, 4.0, 'ud'), (1.95, 7.0, 'u'), (3.45, 7.0, 'u')]:
+    if 'u' in s_: a.annotate('', (x - 0.15, y + 1.1), (x - 0.15, y + 0.05), arrowprops=dict(arrowstyle='-|>', color=BIRU, lw=1.0, mutation_scale=8))
+    if 'd' in s_: a.annotate('', (x + 0.15, y + 0.05), (x + 0.15, y + 1.1), arrowprops=dict(arrowstyle='-|>', color=JT, lw=1.0, mutation_scale=8))
+a.text(3.0, 9.6, 'karbon: 1s² 2s² 2p²', fontsize=9, color=TUA, ha='center', fontweight='bold')
+for k, (nm, t_) in enumerate([('s', 's'), ('px', '$p_x$'), ('py', '$p_y$'), ('pz', '$p_z$')]):
+    a = bingkai(f, [0.25 + k * 0.19, 0.12, 0.19, 0.86]); fn = f'{TMP}/o_{nm}.png'
+    tampil(a, fn, [('x', 0), ('y', 0), ('z', 0)], META[fn], fs=8, c='#55606b', style='italic')
+    f.text(0.25 + k * 0.19 + 0.095, 0.04, t_, ha='center', fontsize=10, color=TUA)
+f.savefig(f'{F}/orbital.png', bbox_inches='tight'); plt.close(f)
+# hibrid
+f = plt.figure(figsize=(7.4, 2.5), dpi=220)
+for k, (nm, t_) in enumerate([('sp3', 'sp³: empat cuping ke sudut tetrahedron\n(109,5°)'), ('sp2', 'sp² + p: tiga cuping dalam satu bidang\n(120°); orbital p tegak lurus'), ('sp', 'sp + 2p: dua cuping segaris (180°);\ndua orbital p tegak lurus')]):
+    a = bingkai(f, [k * 0.333, 0.2, 0.333, 0.8]); tampil(a, f'{TMP}/h_{nm}.png'); f.text(k * 0.333 + 0.166, 0.03, t_, ha='center', fontsize=8.6, color=TUA)
+f.savefig(f'{F}/hibrid.png', bbox_inches='tight'); plt.close(f)
+# sigma pi
+f = plt.figure(figsize=(7.4, 1.9), dpi=220)
+for k, (nm, t_) in enumerate([('ss', 's + s (H–H)'), ('hs', 'sp³ + s (C–H)'), ('hh', 'sp³ + sp³ (C–C)'), ('pp', 'p + p sisi ke sisi (π)')]):
+    a = bingkai(f, [k * 0.25, 0.16, 0.25, 0.68]); tampil(a, f'{TMP}/s_{nm}.png'); f.text(k * 0.25 + 0.125, 0.04, t_, ha='center', fontsize=8.8, color=TUA)
+f.text(0.375, 0.95, 'ikatan σ: tumpang tindih ujung ke ujung, di sepanjang sumbu antarinti', ha='center', fontsize=8.8, color=BIRU, fontweight='bold')
+f.text(0.875, 0.95, 'ikatan π: di atas dan di bawah sumbu', ha='center', fontsize=8.8, color=JT, fontweight='bold')
+f.savefig(f'{F}/sigmapi.png', bbox_inches='tight'); plt.close(f)
+# dipol
+def pd2(a, p, q, c=MERAH):
+    p, q = np.array(p, float), np.array(q, float); a.add_patch(FancyArrowPatch(p, q, arrowstyle='-|>', mutation_scale=10, color=c, lw=1.4, zorder=5))
+    d = (q - p) / np.hypot(*(q - p)); n = np.array([-d[1], d[0]]) * 9; c0 = p + d * 14; a.plot([c0[0] - n[0], c0[0] + n[0]], [c0[1] - n[1], c0[1] + n[1]], color=c, lw=1.4, zorder=5)
+f = plt.figure(figsize=(7.4, 2.3), dpi=220)
+for k, (nm, t_, mu) in enumerate([('co2', 'CO₂', 'μ = 0 D'), ('h2o', 'H₂O', 'μ = 1,85 D'), ('ch3cl', 'CH₃Cl', 'μ = 1,87 D'), ('ccl4', 'CCl₄', 'μ = 0 D')]):
+    a = bingkai(f, [k * 0.25, 0.18, 0.25, 0.74]); fn = f'{TMP}/d_{nm}.png'; tampil(a, fn); pr = META[fn]
+    if nm == 'co2': pd2(a, pr[0], pr[1]); pd2(a, pr[2], pr[3])
+    if nm == 'h2o': pd2(a, pr[0], pr[1])
+    if nm == 'ch3cl': o_ = np.array([150, 0]); v_ = np.array(pr[1]) - np.array(pr[0]); pd2(a, np.array(pr[0]) + o_ - v_ * 0.35, np.array(pr[1]) + o_ + v_ * 0.1)
+    f.text(k * 0.25 + 0.125, 0.03, f'{t_}\n{mu}', ha='center', fontsize=9, color=TUA)
+f.text(0.5, 0.97, 'panah dipol menunjuk dari ujung δ+ ke ujung δ−; pada CO₂ dan CCl₄ vektor saling meniadakan', ha='center', fontsize=8.6, color=MERAH)
+f.savefig(f'{F}/dipol.png', bbox_inches='tight'); plt.close(f)
+# VSEPR
+f = plt.figure(figsize=(7.4, 2.3), dpi=220)
+for k, (nm, t_, sud, npb) in enumerate([('ch4', 'metana', '109,5°', 0), ('nh3', 'amonia', '107°', 1), ('h2o_v', 'air', '104,5°', 2)]):
+    a = bingkai(f, [k * 0.333, 0.2, 0.333, 0.78]); tampil(a, f'{TMP}/v_{nm}.png')
+    f.text(k * 0.333 + 0.166, 0.03, f'{t_} ({sud})\n{4 - npb} ikatan, {npb} pasangan bebas', ha='center', fontsize=8.8, color=TUA)
+f.savefig(f'{F}/vsepr.png', bbox_inches='tight'); plt.close(f)
+print('ok webgl')
