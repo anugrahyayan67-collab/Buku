@@ -213,10 +213,8 @@ Lambung kapal besi di air laut (pH ≈ 8) disambungkan ke balok seng. (a) Dengan
 **Kuis cepat 13.9** Menurut Gambar 13.4, apakah besi lebih tahan karat di air pH 3 yang jenuh udara atau di air pH 11 yang jenuh udara? Jelaskan dengan daerah pada diagram.
 :::
 
-## Penutup: satu fungsi, banyak wajah
+### Menuju bab berikutnya
 
-Kita memulai buku ini dengan molekul gas yang bergerak acak di dalam wadah, dan mengakhirinya dengan sinyal di sel saraf dan baterai di telepon genggam. Di antara keduanya, hampir setiap gejala yang kita bahas dapat ditelusuri ke satu besaran: energi Gibbs, dan turunannya, potensial kimia.
+Dengan bab ini, bangunan termodinamika klasik selesai. Hukum pertama dan kedua, energi Gibbs, dan potensial kimia telah membawa kita dari gas ideal sampai baterai dan korosi, dan semuanya dapat diukur: kalor dengan kalorimeter, tekanan dengan manometer, energi Gibbs dengan voltmeter. Tetapi ada satu pertanyaan yang tidak pernah dijawab oleh termodinamika klasik: **dari mana** angka-angka dalam tabel itu berasal? Mengapa entropi argon 154,84 J K⁻¹ mol⁻¹ dan bukan angka lain? Mengapa kapasitas kalor klorin lebih besar daripada nitrogen?
 
-Hukum pertama memberi kita neraca energi: kalor dan kerja tidak hilang. Hukum kedua memberi arah: entropi alam semesta tidak berkurang. Energi Gibbs menggabungkan keduanya menjadi satu kriteria yang hanya memerlukan sifat sistem, dan potensial kimia memecahnya menjadi sumbangan setiap zat. Dari sana muncul semuanya: titik didih yang turun di gunung, es yang mencair ketika ditekan, garam yang menurunkan titik beku, osmosis yang memecah sel darah, distilasi yang memisahkan minyak bumi, kesetimbangan yang memberi makan dunia, dan tegangan sel yang mengukur semuanya dengan sebuah voltmeter.
-
-Termodinamika mempunyai satu keterbatasan yang sudah kita temui berulang kali: ia mengatakan ke mana proses **dapat** berjalan, tetapi tidak seberapa cepat. Intan seharusnya berubah menjadi grafit, benzena seharusnya terurai, dan kayu di udara seharusnya terbakar; semuanya tidak terjadi karena **laju**. Pertanyaan tentang laju, tentang mengapa reaksi memerlukan energi aktivasi dan bagaimana katalis bekerja, adalah pokok buku berikutnya dalam seri ini: *Kimia Fisika 2: Kinetika Kimia*.
+Bab berikutnya menjawabnya dengan turun ke tingkat molekul. **Termodinamika statistik** menghitung energi dalam, entropi, energi Gibbs, dan tetapan kesetimbangan dari tingkat-tingkat energi molekul yang dibaca dari spektrum. Alat utamanya hanya satu: sebaran Boltzmann, $e^{-\varepsilon/kT}$, dan fungsi partisi yang merangkumnya.
