@@ -8,6 +8,10 @@ Mengapa $\Delta_\text{mix}H$ larutan ideal nol, padahal molekul cairan saling be
 Hitung $\Delta_\text{mix}G$ per mol larutan ideal heksana–heptana dengan $x_\text{heksana} = 0{,}25$. ||| −1,39 kJ mol⁻¹
 Mengapa minyak dan air tidak bercampur, padahal entropi pencampuran selalu positif? ||| $\Delta_\text{mix}H$ positif besar melebihi $T\Delta_\text{mix}S$
 
+
+Hitung Δ$_\text{mix}$*G* dan Δ$_\text{mix}$*S* untuk 1 mol benzena dan 1 mol toluena pada 25 °C (anggap ideal). ||| −3,44 kJ; +11,5 J K⁻¹
+Mengapa Δ$_\text{mix}$*H* = 0 dan Δ$_\text{mix}$*V* = 0 untuk larutan ideal? ||| interaksi A–B sama dengan rata-rata A–A dan B–B; ukuran molekul serupa
+
 ## Subbab 10.2: Hukum Raoult dan larutan ideal
 
 Hitung tekanan uap total dan fraksi mol benzena dalam uap di atas campuran dengan $x_\text{benzena} = 0{,}700$. ||| 10,03 kPa; 0,887
@@ -16,6 +20,11 @@ Hitung tekanan uap total campuran benzena–toluena dengan $x_\text{benzena} = 0
 Berapa komposisi cairan benzena–toluena yang uapnya berisi 50% benzena? ||| $x_\text{benzena} = 0{,}230$
 Dengan data Contoh 10.3, pada tekanan berapa campuran dengan $x_\text{benzena} = 0{,}300$ mendidih pada 90,0 °C? ||| 78,8 kPa
 @uap [P] Uap di atas campuran benzena–toluena dengan $x_\text{benzena} = 0{,}400$ diembunkan seluruhnya, lalu cairan hasil embunan itu dibiarkan setimbang dengan uapnya pada 25 °C. Berapa fraksi mol benzena di uap yang kedua? ||| 0,882
+
+
+Campuran benzena–toluena dengan $x_\text{benzena}$ = 0,30 pada 25 °C. Hitung tekanan uap total dan fraksi mol benzena dalam uap. ||| 6,46 kPa; 0,59
+Mengapa uap di atas campuran ideal selalu lebih kaya akan komponen yang lebih mudah menguap? ||| tekanan parsialnya lebih besar per fraksi mol cairan
+Pasangan mana yang paling mendekati larutan ideal: (a) benzena–toluena, (b) air–etanol, (c) heksana–air? ||| (a)
 
 ## Subbab 10.3: Hukum Henry dan larutan encer ideal
 
@@ -27,6 +36,11 @@ Pada 35 °C tetapan Henry O₂ dalam air $5{,}07 \times 10^4$ bar. Hitung oksige
 Seorang penyelam berada lama di kedalaman 40 m ($p_{\text{N}_2} = 3{,}95$ bar). Taksir kelebihan N₂ terlarut per liter darah dibandingkan di permukaan, dan volumenya sebagai gas pada 37 °C dan 1 bar. ||| 2,0 × 10⁻³ mol; 52 mL
 Mengapa keadaan standar zat terlarut berbasis hukum Henry disebut hipotetis? ||| B murni yang tetap berperilaku seperti dalam larutan sangat encer tidak ada
 
+
+Tetapan Henry O₂ dalam air pada 25 °C 769 L atm mol⁻¹. Hitung kelarutan O₂ dari udara (0,21 atm) dalam mol L⁻¹ dan mg L⁻¹. ||| $2{,}7 \times 10^{-4}$ mol L⁻¹; 8,7 mg L⁻¹
+Minuman bersoda dikemas dengan CO₂ 4,0 atm ($K_\text{H}$ = 29,4 L atm mol⁻¹). Berapa gram CO₂ larut per liter? ||| 6,0 g L⁻¹
+Mengapa penyelam yang naik terlalu cepat dapat mengalami penyakit dekompresi? ||| N₂ yang larut di darah pada tekanan tinggi keluar sebagai gelembung ketika tekanan turun cepat
+
 ## Subbab 10.4: Penurunan tekanan uap
 
 Hitung penurunan tekanan uap air bila 0,500 mol urea dilarutkan dalam 1,000 kg air pada 25 °C. ||| 0,0283 kPa
@@ -35,6 +49,10 @@ Mengapa penurunan tekanan uap disebut sifat koligatif? ||| hanya bergantung pada
 Sebanyak 5,00 g zat tak menguap dalam 50,0 g air menurunkan tekanan uap dari 3,169 ke 3,140 kPa pada 25 °C. Tentukan massa molarnya. ||| 195 g mol⁻¹
 Hitung penurunan potensial kimia air dalam larutan sukrosa 2,00 mol kg⁻¹ (anggap ideal). ||| −87,7 J mol⁻¹
 Mengapa penjelasan "zat terlarut menutupi permukaan" untuk penurunan tekanan uap tidak tepat? ||| penurunannya berasal dari entropi (μ pelarut turun), tidak bergantung pada letak zat terlarut
+
+
+Larutan dengan fraksi mol zat terlarut 0,050 dalam air pada 25 °C. Berapa penurunan tekanan uapnya? ||| 0,158 kPa (menjadi 3,01 kPa)
+Mengapa penurunan tekanan uap tidak bergantung pada jenis zat terlarut yang tidak mudah menguap? ||| hanya mengencerkan pelarut: $\mu_\text{A}$ turun sebesar *RT* ln $x_\text{A}$
 
 ## Subbab 10.5: Kenaikan titik didih dan penurunan titik beku
 
@@ -50,6 +68,11 @@ Mengapa kenaikan titik didih lebih kecil daripada penurunan titik beku untuk lar
 Gabungkan (10.11) dengan aturan Trouton untuk menunjukkan $K_\text{b} \approx RT_\text{b}^*M_\text{A}/(85\ \text{J K}^{-1}\text{mol}^{-1})$. Hitung untuk benzena dan bandingkan dengan Tabel 10.1. ||| 2,70 K kg mol⁻¹ (tabel 2,53)
 @glikol [P] (a) Hitung titik beku cairan pendingin Contoh 10.10 dengan rumus tanpa pendekatan larutan encer, $\ln x_\text{A} = (\Delta_\text{fus}H/R)(1/T - 1/T^*)$, tetapi tetap menganggap larutannya ideal. (b) Titik beku terukurnya −15 °C. Hitung aktivitas dan koefisien aktivitas air dalam campuran itu. Apa arti nilai koefisien aktivitas yang diperoleh? ||| (a) −11,6 °C; (b) $a = 0{,}857$, $\gamma = 0{,}964$
 
+
+Hitung tetapan krioskopik benzena dari $T_\text{f}$ = 278,65 K dan Δ$_\text{fus}$*H* = 10,59 kJ mol⁻¹. ||| 4,76 K kg mol⁻¹ (terukur 5,12)
+Sebanyak 2,00 kg etilena glikol dicampur dengan 5,00 kg air. Perkirakan titik bekunya dengan rumus larutan encer. ||| ≈ −12 °C
+Mengapa garam lebih efektif daripada gula untuk mencairkan es di jalan, per mol yang ditambahkan? ||| garam terurai menjadi dua ion atau lebih; sifat koligatif menghitung jumlah partikel
+
 ## Subbab 10.6: Tekanan osmotik
 
 Hitung tekanan osmotik larutan glukosa 0,100 mol L⁻¹ pada 25 °C. ||| 2,48 bar
@@ -62,6 +85,11 @@ Mengapa sel darah merah pecah dalam air murni? ||| air masuk karena μ air di lu
 
 Bila separuh air diambil dari air laut dengan osmosis balik, tekanan osmotik air laut sisa naik ketika makin pekat. Tunjukkan bahwa kerja minimum per m³ air tawar adalah $\Pi_0\ln2/0{,}5$, dan hitung nilainya. ||| 1,04 kWh m⁻³
 
+
+Hitung tekanan osmotik darah (≈ 0,30 osmol L⁻¹) pada 37 °C. ||| 774 kPa (7,6 atm)
+Larutan polimer 5,0 g L⁻¹ mempunyai tekanan osmotik 0,80 kPa pada 25 °C. Hitung massa molarnya. ||| $1{,}5 \times 10^4$ g mol⁻¹
+Mengapa osmometri lebih cocok daripada penurunan titik beku untuk menentukan massa molar protein? ||| efeknya jauh lebih besar dan mudah diukur pada konsentrasi kecil
+
 ## Subbab 10.7: Larutan nyata dan aktivitas
 
 Tekanan uap air di atas suatu larutan pada 25 °C adalah 2,90 kPa. Hitung aktivitas air. ||| 0,915
@@ -73,3 +101,19 @@ Hitung $\gamma_\pm$ MgSO₄ 0,0010 mol kg⁻¹ menurut hukum pembatas Debye–H�
 Hitung kekuatan ion larutan Na₂SO₄ 0,050 mol kg⁻¹. ||| 0,15
 
 Untuk larutan reguler, $\Delta_\text{mix}G_\text{m}/RT = x\ln x + (1 - x)\ln(1 - x) + \beta x(1 - x)$. Tunjukkan bahwa turunan keduanya di *x* = 0,5 negatif bila β > 2, dan jelaskan artinya. ||| $4 - 2\beta$; campuran terpisah menjadi dua fasa
+
+Tekanan uap air di atas suatu larutan garam 2,90 kPa pada 25 °C ($p^*$ = 3,169 kPa). Hitung aktivitas air. ||| 0,915
+Dalam model larutan reguler dengan $W/RT$ = 1, hitung γ$_\text{A}$ pada $x_\text{A}$ = 0,50. ||| 1,28
+Hitung γ$_\pm$ MgSO₄ 0,0010 mol kg⁻¹ dengan hukum pembatas. ||| 0,74
+
+## Subbab 10.8: Larutan elektrolit
+
+Hitung kekuatan ion larutan MgSO₄ 0,10 mol kg⁻¹, Na₂SO₄ 0,050 mol kg⁻¹, dan LaCl₃ 0,010 mol kg⁻¹. ||| 0,40; 0,15; 0,060
+Hitung γ$_\pm$ Na₂SO₄ 0,050 mol kg⁻¹ dengan hukum Debye–Hückel yang diperluas. ||| 0,52
+Hitung γ$_\pm$ MgSO₄ 0,010 mol kg⁻¹ dengan bentuk diperluas. ||| 0,46
+Hitung γ$_\pm$ NaCl 0,10 mol kg⁻¹ dengan persamaan Davies dan bandingkan dengan nilai terukur 0,778. ||| 0,782
+Hitung panjang Debye air laut (*I* ≈ 0,7 mol L⁻¹) pada 25 °C. ||| 0,36 nm
+@baso4 [P] $K_\text{sp}$ BaSO₄ = $1{,}08 \times 10^{-10}$ pada 25 °C. Hitung kelarutannya dalam air murni dan dalam KNO₃ 0,10 mol kg⁻¹ (persamaan Davies). Mengapa efeknya jauh lebih besar daripada untuk AgCl? ||| $1{,}04 \times 10^{-5}$ dan $2{,}8 \times 10^{-5}$ mol kg⁻¹; log γ$_\pm$ sebanding |*z*$_+$*z*$_-$| = 4
+Mengapa garam asing menaikkan kelarutan garam sukar larut, sedangkan garam dengan ion senama menurunkannya? ||| garam asing hanya menurunkan γ (atmosfer ion); ion senama menaikkan hasil kali konsentrasi secara langsung
+Mengapa koefisien aktivitas satu jenis ion saja tidak dapat diukur? ||| larutan harus netral; ion tidak dapat ditambahkan tanpa ion lawan
+

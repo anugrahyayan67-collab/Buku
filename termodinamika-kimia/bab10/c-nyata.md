@@ -109,6 +109,93 @@ Hitung $\gamma_\pm$ menurut hukum pembatas Debye–Hückel untuk (a) NaCl 0,0010
 **Kuis cepat 10.7** Campuran aseton–kloroform menyimpang negatif dari hukum Raoult. Apakah koefisien aktivitas kedua komponen lebih besar atau lebih kecil dari 1? Apakah pencampurannya menyerap atau melepaskan kalor?
 :::
 
+## 10.8 Larutan elektrolit
+
+Subbab 10.7 memperkenalkan hukum pembatas Debye–Hückel sebagai rumus. Di sini kita melihat dari mana rumus itu datang, seberapa jauh ia berlaku, dan bagaimana kimiawan memperbaikinya untuk larutan yang lebih pekat, seperti air laut atau cairan tubuh. Pertanyaan pembukanya sederhana: mengapa larutan NaCl yang hanya 0,01 mol kg⁻¹ sudah menyimpang 10% dari perilaku ideal, padahal larutan sukrosa pada konsentrasi yang sama hampir tidak menyimpang sama sekali?
+
+### Atmosfer ion
+
+Jawabannya terletak pada jangkauan gaya listrik. Gaya antara dua molekul netral, seperti dua molekul sukrosa, turun sangat cepat dengan jarak (energinya sebanding $r^{-6}$, subbab 2.2), sehingga pada larutan encer molekul zat terlarut hampir tidak pernah saling merasakan. Energi Coulomb antara dua ion turun hanya sebanding $1/r$. Pada 0,01 mol kg⁻¹, jarak rata-rata antarion sekitar 5 nm, dan pada jarak itu energi tarik-menarik dua ion bermuatan tunggal dalam air masih sekitar sepersepuluh *kT*. Itu kecil untuk satu pasang ion, tetapi setiap ion mempunyai banyak tetangga.
+
+Akibatnya, ion-ion tidak tersebar acak sempurna. Di sekitar setiap kation, anion sedikit lebih sering ditemukan daripada kation, dan sebaliknya. Debye dan Hückel (1923) menyebut awan bermuatan berlawanan ini **atmosfer ion** (Gambar 10.4). Atmosfer itu menurunkan energi ion pusat, karena ion dikelilingi muatan yang menariknya. Energi yang lebih rendah berarti potensial kimia yang lebih rendah, dan itulah arti $\gamma_\pm < 1$: ion "lebih stabil" di dalam larutan nyata daripada di larutan ideal yang ionnya tidak saling merasakan.
+
+![Gambar 10.4 Atmosfer ion (skematis). Di sekitar kation pusat, anion sedikit lebih banyak daripada kation. Tebal atmosfer adalah panjang Debye $\kappa^{-1}$, yang mengecil bila kekuatan ion naik.](fig/atmosfer.png){width=58%}
+
+Seberapa tebal atmosfer itu? Teori Debye–Hückel memberi ketebalan khasnya, yang disebut **panjang Debye** $\kappa^{-1}$. Untuk larutan dalam air pada 25 °C,
+$$
+\kappa^{-1} = \frac{0{,}304\ \text{nm}}{\sqrt{I}} , \qquad \text{(10.18)}
+$$
+dengan *I* kekuatan ion dalam mol L⁻¹. Makin besar kekuatan ion, makin banyak ion yang tersedia untuk menyusun atmosfer, sehingga atmosfer makin rapat dan makin tipis. Energi yang diturunkan atmosfer sebanding dengan $1/\kappa^{-1}$, yaitu sebanding $\sqrt{I}$, dan dari situlah akar kekuatan ion dalam hukum pembatas (10.17) berasal.
+
+::: {.contoh}
+**Contoh 10.17 · Panjang Debye di laboratorium dan di dalam sel**
+
+Hitung panjang Debye pada 25 °C untuk (a) NaCl 0,0010 mol L⁻¹, (b) NaCl 0,010 mol L⁻¹, (c) larutan dengan kekuatan ion 0,15 mol L⁻¹, kira-kira cairan tubuh.
+
+**Penyelesaian.** Untuk NaCl, $I = \tfrac12[(1)^2c + (1)^2c] = c$. (a) $\kappa^{-1} = 0{,}304/\sqrt{0{,}0010} = 9{,}6$ nm. (b) $0{,}304/\sqrt{0{,}010} = 3{,}0$ nm. (c) $0{,}304/\sqrt{0{,}15} = 0{,}78$ nm.
+
+**Memahami hasil.** Di dalam sel, atmosfer ion hanya setebal dua atau tiga molekul air. Artinya muatan pada protein dan DNA "tersembunyi" dari muatan lain yang jaraknya lebih dari sekitar 1 nm. Itulah sebabnya dua muatan sejenis pada permukaan protein yang berjauhan hampir tidak saling menolak, dan mengapa banyak enzim berubah perilaku bila kekuatan ion larutan penyangga diubah. Gagasan "penyaringan muatan" yang sama menjelaskan mengapa koloid menggumpal bila garam ditambahkan: atmosfer ion yang tipis tidak lagi cukup menjaga partikel tetap terpisah.
+:::
+
+### Seberapa jauh hukum pembatas berlaku?
+
+Hukum pembatas menganggap ion sebagai titik bermuatan. Anggapan itu hanya baik bila atmosfer jauh lebih tebal daripada ukuran ion, kira-kira 0,3–0,5 nm. Dari (10.18), syarat itu dipenuhi bila *I* jauh di bawah 0,01. Untuk larutan lebih pekat, ukuran ion harus diperhitungkan. Ion tidak dapat mendekat lebih dekat dari jumlah jari-jarinya, sehingga atmosfer tidak dapat serapat yang diramalkan. Hasilnya adalah **hukum Debye–Hückel yang diperluas**:
+$$
+\log\gamma_\pm = -\frac{0{,}509\,|z_+z_-|\sqrt{I}}{1 + \sqrt{I}} . \qquad \text{(10.19)}
+$$
+Penyebut $1 + \sqrt{I}$ adalah koreksi ukuran ion, dengan diameter ion khas sekitar 0,3 nm. Untuk larutan yang lebih pekat lagi, Davies menambahkan suku empiris yang membuat γ naik kembali:
+$$
+\log\gamma_\pm = -0{,}509\,|z_+z_-|\left(\frac{\sqrt{I}}{1 + \sqrt{I}} - 0{,}30\,I\right) . \qquad \text{(10.20)}
+$$
+Suku positif $0{,}30\,I$ mencerminkan dua hal yang diabaikan Debye–Hückel: sebagian air terikat erat pada ion (hidrasi), sehingga "pelarut bebas" berkurang dan konsentrasi efektif ion naik.
+
+Gambar 10.5 membandingkan ketiga rumus dengan data NaCl. Hukum pembatas tepat sampai sekitar 0,005 mol kg⁻¹, lalu meleset makin jauh. Bentuk diperluas bertahan sampai sekitar 0,1 mol kg⁻¹, dan persamaan Davies sampai sekitar 0,2–0,5 mol kg⁻¹. Di atas itu, termasuk air laut (*I* ≈ 0,7), tidak ada rumus sederhana yang memadai, dan kimiawan memakai data terukur atau model yang lebih rumit (misalnya persamaan Pitzer).
+
+![Gambar 10.5 Koefisien aktivitas ion rata-rata NaCl dalam air pada 25 °C: data terukur dibandingkan dengan hukum pembatas Debye–Hückel, bentuk diperluas, dan persamaan Davies. Setiap perbaikan memperpanjang rentang berlakunya, tetapi tidak ada yang tepat sampai 1 mol kg⁻¹.](fig/gamma.png){width=78%}
+
+::: {.strategi}
+**Strategi: memilih rumus koefisien aktivitas ion.**
+
+1. Hitung kekuatan ion dari **semua** ion dalam larutan, termasuk ion yang tidak ikut bereaksi: $I = \tfrac12\sum_i z_i^2 b_i$.
+2. Bila *I* < 0,005, pakai hukum pembatas (10.17).
+3. Bila 0,005 < *I* < 0,1, pakai bentuk diperluas (10.19).
+4. Bila 0,1 < *I* < 0,5, pakai persamaan Davies (10.20) dan anggap hasilnya hanya taksiran.
+5. Di atas 0,5, cari data terukur.
+6. Periksa kewajaran: γ$_\pm$ harus mendekati 1 bila larutan diencerkan, dan ion bermuatan dua atau tiga harus mempunyai γ$_\pm$ jauh lebih kecil daripada ion bermuatan satu pada kekuatan ion yang sama.
+:::
+
+### Efek garam pada kelarutan
+
+Konsekuensi kimia yang paling mudah diamati adalah **efek garam**: garam yang sukar larut menjadi sedikit **lebih** larut bila ke dalam larutan ditambahkan garam lain yang tidak mempunyai ion sejenis. Untuk AgCl, kesetimbangan kelarutannya ditulis dengan aktivitas:
+$$
+K_\text{sp} = a_{\text{Ag}^+}a_{\text{Cl}^-} = \gamma_\pm^2\,s^2 ,
+$$
+dengan *s* kelarutan molar. Karena $K_\text{sp}$ tetap pada suhu tetap, penurunan $\gamma_\pm$ oleh garam asing harus diimbangi kenaikan *s*:
+$$
+s = \frac{\sqrt{K_\text{sp}}}{\gamma_\pm} .
+$$
+Inilah kebalikan efek ion senama yang dikenal dari kimia dasar. Garam asing tidak bereaksi dengan Ag⁺ atau Cl⁻; ia hanya menebalkan atmosfer ion di sekitar setiap ion perak dan klorida, sehingga keduanya lebih stabil di dalam larutan dan lebih banyak padatan yang larut.
+
+::: {.contoh}
+**Contoh 10.18 · AgCl dalam larutan KNO₃**
+
+$K_\text{sp}$ AgCl pada 25 °C adalah $1{,}77 \times 10^{-10}$. Hitung kelarutannya (a) dalam air murni, (b) dalam KNO₃ 0,010 mol kg⁻¹, (c) dalam KNO₃ 0,050 mol kg⁻¹. Pakai hukum Debye–Hückel yang diperluas.
+
+**Rencana.** Kelarutan AgCl sangat kecil, sehingga kekuatan ion praktis ditentukan oleh KNO₃ saja: *I* = *b*(KNO₃).
+
+**Penyelesaian.** (a) Dalam air murni, *I* ≈ 0 dan γ$_\pm$ ≈ 1: $s = \sqrt{1{,}77 \times 10^{-10}} = 1{,}33 \times 10^{-5}$ mol kg⁻¹.
+
+(b) $I = 0{,}010$: $\log\gamma_\pm = -0{,}509(0{,}100)/(1{,}100) = -0{,}0463$, sehingga γ$_\pm$ = 0,899 dan $s = 1{,}33 \times 10^{-5}/0{,}899 = 1{,}48 \times 10^{-5}$ mol kg⁻¹.
+
+(c) $I = 0{,}050$: $\log\gamma_\pm = -0{,}509(0{,}224)/(1{,}224) = -0{,}0931$, sehingga γ$_\pm$ = 0,807 dan $s = 1{,}65 \times 10^{-5}$ mol kg⁻¹.
+
+**Memahami hasil.** KNO₃ 0,050 mol kg⁻¹ menaikkan kelarutan AgCl sekitar 24%. Efek ini kecil dibanding efek ion senama (NaCl 0,010 mol kg⁻¹ akan menurunkan kelarutan AgCl hampir seribu kali), tetapi cukup besar untuk diperhitungkan dalam analisis gravimetri yang teliti. Ion bermuatan lebih tinggi memberi efek jauh lebih besar, karena kekuatan ion naik dengan kuadrat muatan dan log γ$_\pm$ sebanding $|z_+z_-|$. Untuk BaSO₄ (|*z*$_+$*z*$_-$| = 4) dalam larutan garam, kenaikan kelarutannya bisa beberapa kali lipat.
+:::
+
+::: {.kuis}
+**Kuis cepat 10.8** Larutan A berisi NaCl 0,030 mol kg⁻¹, larutan B berisi MgSO₄ 0,0075 mol kg⁻¹. Mana yang kekuatan ionnya lebih besar? Pada larutan mana koefisien aktivitas ion rata-ratanya lebih kecil?
+:::
+
 ### Menuju bab berikutnya
 
 Bab ini dibangun dari satu rumus: $\mu = \mu^* + RT\ln x$ untuk larutan ideal, dan $\mu = \mu^* + RT\ln a$ untuk larutan nyata. Dari rumus itu kita memperoleh hukum Raoult dan Henry, keempat sifat koligatif, dan cara mengukur aktivitas dari tekanan uap. Semua sifat koligatif ternyata satu gejala yang dilihat dari empat arah: zat terlarut menurunkan potensial kimia pelarut, dan pelarut menanggapi dengan mengubah kesetimbangannya dengan uap, dengan padatan, atau dengan pelarut murni di seberang membran.

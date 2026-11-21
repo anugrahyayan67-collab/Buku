@@ -13,8 +13,11 @@
 | Aktivitas | $\mu = \mu^* + RT\ln a$; $a = \gamma x$ (pelarut), $a = \gamma b/b^\circ$ (zat terlarut) | 10.7 |
 | Larutan reguler | $\ln\gamma_\text{A} = \beta x_\text{B}^2$, $\beta = w/RT$ | 10.7 |
 | Debye–Hückel | $\log\gamma_\pm = -0{,}509\,|z_+z_-|\sqrt{I}$; $I = \tfrac12\sum z_i^2b_i/b^\circ$ | 10.7 |
+| Atmosfer ion dan panjang Debye | $\kappa^{-1} = 0{,}304\ \text{nm}/\sqrt{I}$ pada 25 °C; atmosfer menurunkan μ ion | 10.8 |
+| Debye–Hückel diperluas dan Davies | $\log\gamma_\pm = -0{,}509|z_+z_-|\sqrt I/(1+\sqrt I)$; Davies menambah $-0{,}30I$ di dalam kurung | 10.8 |
+| Efek garam | $s = \sqrt{K_\text{sp}}/\gamma_\pm$: garam asing menaikkan kelarutan | 10.8 |
 
-**Jawaban kuis cepat.** **10.1** Tidak. Volume campuran etanol–air lebih kecil daripada jumlah volume komponennya, dan pencampurannya melepaskan kalor, sehingga interaksi etanol–air berbeda dari rata-rata etanol–etanol dan air–air. **10.2** Toluena kurang mudah menguap (tekanan uap murninya lebih kecil), sehingga sumbangannya pada uap lebih kecil daripada pada cairan. **10.3** Air mengikuti hukum Raoult (pelarut, hampir murni), O₂ mengikuti hukum Henry (zat terlarut encer). **10.4** NaCl, karena memberi dua partikel per satuan rumus; penurunannya kira-kira dua kali. **10.5** Zat terlarut dianggap tidak larut dalam padatan, sehingga μ padatan tidak berubah. Bila zat terlarut ikut membeku, μ padatan juga turun, dan titik beku dapat turun lebih sedikit atau bahkan naik. **10.6** Air masuk ke sel sayuran yang lebih pekat (μ air di luar lebih tinggi) sehingga sel kembali tegang; dalam air garam pekat, μ air di luar lebih rendah dan air keluar dari sel. **10.7** Lebih kecil dari 1; pencampurannya melepaskan kalor.
+**Jawaban kuis cepat.** **10.1** Tidak. Volume campuran etanol–air lebih kecil daripada jumlah volume komponennya, dan pencampurannya melepaskan kalor, sehingga interaksi etanol–air berbeda dari rata-rata etanol–etanol dan air–air. **10.2** Toluena kurang mudah menguap (tekanan uap murninya lebih kecil), sehingga sumbangannya pada uap lebih kecil daripada pada cairan. **10.3** Air mengikuti hukum Raoult (pelarut, hampir murni), O₂ mengikuti hukum Henry (zat terlarut encer). **10.4** NaCl, karena memberi dua partikel per satuan rumus; penurunannya kira-kira dua kali. **10.5** Zat terlarut dianggap tidak larut dalam padatan, sehingga μ padatan tidak berubah. Bila zat terlarut ikut membeku, μ padatan juga turun, dan titik beku dapat turun lebih sedikit atau bahkan naik. **10.6** Air masuk ke sel sayuran yang lebih pekat (μ air di luar lebih tinggi) sehingga sel kembali tegang; dalam air garam pekat, μ air di luar lebih rendah dan air keluar dari sel. **10.7** Lebih kecil dari 1; pencampurannya melepaskan kalor. **10.8** *I*(A) = 0,030; *I*(B) = ½(4 × 0,0075 + 4 × 0,0075) = 0,030, sama besar. Tetapi |*z*$_+$*z*$_-$| MgSO₄ = 4, sehingga log γ$_\pm$ empat kali lebih negatif: γ$_\pm$ larutan B jauh lebih kecil (sekitar 0,50 lawan 0,84 menurut bentuk diperluas).
 
 # Pertanyaan
 
@@ -32,24 +35,32 @@
 4. Mengapa tetapan Henry berbeda dari tekanan uap zat terlarut murni?
 5. Mengapa gas lebih sukar larut dalam air panas?
 6. Jelaskan penyakit dekompresi dengan hukum Henry.
+7. Apa beda keadaan acuan hukum Raoult dan hukum Henry, dan mengapa zat terlarut encer memerlukan acuan Henry?
 
 ## Subbab 10.5: Kenaikan titik didih dan penurunan titik beku
 
-7. Mengapa sifat koligatif tidak bergantung pada jenis zat terlarut?
-8. Jelaskan dengan Gambar 10.3 mengapa zat terlarut menaikkan titik didih dan menurunkan titik beku.
-9. Mengapa kamper dipakai dalam metode Rast?
+8. Mengapa sifat koligatif tidak bergantung pada jenis zat terlarut?
+9. Jelaskan dengan Gambar 10.3 mengapa zat terlarut menaikkan titik didih dan menurunkan titik beku.
+10. Mengapa kamper dipakai dalam metode Rast?
 
 ## Subbab 10.6: Tekanan osmotik
 
-10. Apakah tekanan osmotik disebabkan oleh tumbukan molekul zat terlarut pada membran? Jelaskan.
-11. Mengapa cairan infus harus isotonik dengan darah?
-12. Bandingkan energi minimum desalinasi dengan osmosis balik dan distilasi.
+11. Apakah tekanan osmotik disebabkan oleh tumbukan molekul zat terlarut pada membran? Jelaskan.
+12. Mengapa cairan infus harus isotonik dengan darah?
+13. Bandingkan energi minimum desalinasi dengan osmosis balik dan distilasi.
+14. Mengapa tekanan osmotik larutan encer mirip dengan tekanan gas ideal, $\Pi = cRT$, padahal pelarutnya cair?
 
 ## Subbab 10.7: Larutan nyata dan aktivitas
 
-13. Apa beda penyimpangan positif dan negatif dari hukum Raoult, dilihat dari gaya antarmolekul?
-14. Mengapa aktivitas air lebih penting daripada kadar air bagi keawetan makanan?
-15. Mengapa koefisien aktivitas ion menyimpang dari satu bahkan pada larutan yang sangat encer?
+15. Apa beda penyimpangan positif dan negatif dari hukum Raoult, dilihat dari gaya antarmolekul?
+16. Mengapa aktivitas air lebih penting daripada kadar air bagi keawetan makanan?
+17. Mengapa koefisien aktivitas ion menyimpang dari satu bahkan pada larutan yang sangat encer?
+
+## Subbab 10.8: Larutan elektrolit
+
+18. Mengapa larutan NaCl 0,01 mol kg⁻¹ sudah menyimpang 10% dari perilaku ideal, sedangkan larutan sukrosa pada konsentrasi yang sama hampir tidak?
+19. Apa yang dimaksud atmosfer ion, dan mengapa keberadaannya menurunkan potensial kimia ion?
+20. Mengapa panjang Debye yang pendek di dalam sel penting bagi interaksi antarprotein?
 
 # Soal
 
@@ -91,6 +102,14 @@ $$
 Turunan ini adalah selisih potensial kimia A terhadap larutan ideal, yaitu $RT\ln\gamma_\text{A}$. Maka $\ln\gamma_\text{A} = (w/RT)x_\text{B}^2 = \beta x_\text{B}^2$.
 
 *Cara berpikir:* koefisien aktivitas adalah besaran molar parsial dari energi Gibbs ekses, dibagi *RT*. Bentuk $x_\text{B}^2$ masuk akal: molekul A dalam larutan yang hampir murni A ($x_\text{B}$ kecil) hampir tidak bertemu B, sehingga penyimpangannya kecil sekali, sebanding dengan kuadrat $x_\text{B}$. Inilah alasan hukum Raoult selalu berlaku bagi pelarut di batas encer.
+
+**Soal {{baso4}}.** Dalam air murni, $s_0 = \sqrt{K_\text{sp}} = \sqrt{1{,}08 \times 10^{-10}} = 1{,}04 \times 10^{-5}$ mol kg⁻¹. Dalam KNO₃ 0,10 mol kg⁻¹, kekuatan ion ditentukan oleh KNO₃, *I* = 0,10, dan untuk BaSO₄ $|z_+z_-| = 4$. Persamaan Davies memberi
+$$
+\log\gamma_\pm = -(0{,}509)(4)\left(\frac{0{,}316}{1{,}316} - 0{,}030\right) = -0{,}428 , \qquad \gamma_\pm = 0{,}373 ,
+$$
+sehingga $s = s_0/\gamma_\pm = 2{,}8 \times 10^{-5}$ mol kg⁻¹, hampir tiga kali kelarutan dalam air murni. Untuk AgCl pada kekuatan ion yang sama, γ$_\pm$ ≈ 0,78 dan kenaikannya hanya sekitar 28%.
+
+*Cara berpikir:* efek garam bekerja melalui γ, dan log γ sebanding dengan perkalian muatan ion. Ion bermuatan dua mempunyai atmosfer yang empat kali "lebih kuat", sehingga stabilisasinya oleh garam asing jauh lebih besar. Dalam praktik analisis, pencucian endapan BaSO₄ dengan larutan garam pekat dapat melarutkan endapan secara berarti; karena itu endapan dicuci dengan air atau larutan yang mengandung ion senama. Untuk kekuatan ion 0,1, hasil Davies sudah merupakan taksiran, sehingga angka ini sebaiknya dibaca "sekitar dua sampai tiga kali".
 
 # Bacaan lanjut
 
