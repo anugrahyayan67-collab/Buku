@@ -190,6 +190,10 @@ Batasnya adalah suhu tempat Δ*G* = 0: $T = \Delta H/\Delta S = 25{,}7/0{,}1087 
 **Memahami hasil.** Pelarutan ini **menyerap** kalor dan tetap berlangsung sendiri, karena ion-ion yang tersebar di dalam air mempunyai entropi jauh lebih besar daripada kisi kristal yang teratur. Energi untuk mendinginkan kantong "dibayar" oleh entropi. Contoh ini menghapus anggapan lama bahwa proses spontan harus melepaskan kalor; yang menentukan adalah tanda Δ*G*, bukan tanda Δ*H*.
 :::
 
+Karena Δ*G* = Δ*H* − *T*Δ*S*, tanda Δ*H* dan Δ*S* saja sudah memberi tahu kita banyak hal tentang suatu proses (Gambar 7.2). Bila kedua tanda "bekerja sama" (Δ*H* < 0 dan Δ*S* > 0), proses spontan pada suhu berapa pun; bila keduanya melawan, proses tidak pernah spontan. Dua kemungkinan sisanya adalah yang paling menarik secara kimia: di sana suhu menentukan pemenang, dan ada suhu peralihan $T = \Delta H/\Delta S$ tempat Δ*G* berganti tanda.
+
+![Gambar 7.2 Empat kemungkinan tanda Δ*H* dan Δ*S*. Pada kuadran kanan bawah proses selalu spontan, pada kuadran kiri atas tidak pernah; pada dua kuadran lainnya suhu menentukan arah, dengan suhu peralihan Δ*H*/Δ*S*.](fig/kuadran.png){width=74%}
+
 ::: {.kuis}
 **Kuis cepat 7.3** Pada titik didih normal air, berapa Δ*G* penguapan? Mengapa?
 :::

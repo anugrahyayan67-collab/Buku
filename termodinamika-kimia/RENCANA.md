@@ -6,6 +6,27 @@ Buku ini lanjutan langsung dari *Fisika Umum* Bab 10–11 (suhu, kalor, gas idea
 
 **Target awal** (± 35–40 halaman, ≥ 25 contoh, ≥ 60 soal per bab) diganti kriteria mutu; lihat `REVISI.md`. Revisi 1.1 (bagian medium dan high) selesai 20-11-2026.
 
+## Perbaikan total Edisi 1.2: pembandingan dengan buku acuan (21-11-2026)
+
+**Buku acuan cakupan:** Atkins & de Paula, *Physical Chemistry* (Bagian 1 Termodinamika dan bab termodinamika statistik); Levine, *Physical Chemistry* (Bab 1–14, termasuk permukaan dan sistem elektrokimia); Engel & Reid, *Physical Chemistry* (termodinamika klasik dan statistik); McQuarrie & Simon, *Physical Chemistry: A Molecular Approach* (fungsi partisi dipakai sejak awal); Silbey, Alberty & Bawendi, *Physical Chemistry* (termodinamika biokimia, potensial kimia transformasi); Castellan, *Physical Chemistry* (permukaan, kesetimbangan sistem tak ideal). Teks, contoh, dan soal ditulis sendiri; buku acuan hanya dipakai untuk memastikan cakupan.
+
+**Alasan.** Edisi 1 (±330 halaman) mengikuti RPS dengan ketat, tetapi lebih tipis daripada bagian termodinamika buku acuan. Topik di bawah ini ada di sedikitnya dua buku acuan dan belum ada atau hanya disinggung di Edisi 1. Subbab baru diletakkan **di akhir bab** dan bab baru **di akhir buku**, supaya nomor subbab, contoh, dan persamaan yang sudah dirujuk tidak bergeser.
+
+| Letak | Tambahan | Acuan |
+|---|---|---|
+| 3.10 | Sifat termodinamika zat terkondensasi: koefisien muai α, kompresibilitas isotermal κ$_T$, tekanan dalam π$_T$, percobaan Joule | Atkins 2D, Levine 4 |
+| 4.11 | Entalpi pelarutan, pengenceran, dan hidrasi ion; entalpi pembentukan ion dalam larutan | Atkins 2C, Levine 5 |
+| 7.10 | Hubungan umum: $C_p - C_V = TV\alpha^2/\kappa_T$, μ$_\text{JT}$ dari α, transformasi Legendre dan teorema Euler | Atkins 3E, Engel–Reid 3 |
+| 8.9 | Klasifikasi transisi fasa Ehrenfest; transisi orde kedua dan transisi λ | Atkins 4B, Levine 7 |
+| 10.8 | Larutan elektrolit: kekuatan ion, teori Debye–Hückel, koefisien aktivitas ion rata-rata, efek garam pada kelarutan | Atkins 5F, Levine 10 |
+| 11.9 | Suhu larutan kritis atas dan bawah, larutan padat, leleh tak kongruen, pemurnian zona | Atkins 5C, Castellan 16 |
+| 12.9 | Kesetimbangan dalam larutan: *K*$_\text{sp}$, *K*$_\text{a}$ dari Δ*G*°, kesetimbangan berpasangan dan keadaan standar biokimia | Silbey–Alberty, Atkins 6A |
+| 13.9 | Diagram Pourbaix dan korosi; *K*$_\text{sp}$ dan p*K*$_\text{a}$ dari pengukuran sel | Atkins 6D, Levine 14 |
+| **Bab 14** | **Termodinamika statistik**: sebaran Boltzmann, fungsi partisi molekul (translasi, rotasi, getaran, elektronik), *U*, *C*$_V$, *S* (Sackur–Tetrode), *G*, tetapan kesetimbangan dari fungsi partisi | Atkins 13–15, McQuarrie–Simon 17–23, Engel–Reid 31–33 |
+| **Bab 15** | **Termodinamika permukaan**: tegangan permukaan, persamaan Laplace, kapilaritas, persamaan Kelvin dan nukleasi, persamaan adsorpsi Gibbs, surfaktan dan misel, isoterm adsorpsi | Levine 13, Castellan 18, Atkins 16 |
+
+Bersamaan dengan itu, setiap bab dilengkapi menurut `PROMPT-BUKU.md`: soal tanpa label tingkat (±80 per bab), ±20 pertanyaan konsep, gambar sebanyak yang dibutuhkan (≥ 5), dan pembahasan dengan *Cara berpikir*. Status: Bab 1–6 ☑ (soal, gambar, pertanyaan); Bab 7–13 ◐; subbab tambahan ☐; Bab 14–15 ☐.
+
 Status: ☐ belum · ◐ sedang · ☑ selesai
 
 Pemetaan RPS: mg 1 → Bab 1 · mg 2 → Bab 2 · mg 3–4 → Bab 3–4 · mg 5 → Bab 5 · mg 6–7 → Bab 8, 12 · mg 9 → Bab 9–10 · mg 10 → Bab 6 · mg 11 → Bab 7 · mg 12 → Bab 13 · mg 13–15 → Bab 8, 11.

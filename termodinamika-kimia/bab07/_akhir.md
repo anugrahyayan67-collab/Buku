@@ -22,38 +22,43 @@
 ## Subbab 7.2: Energi bebas Helmholtz
 
 1. Jelaskan arti fisis suku *U* dan −*TS* dalam energi Helmholtz.
+2. Kapan kimiawan memakai energi Helmholtz, dan kapan energi Gibbs? Berikan satu contoh situasi untuk masing-masing.
 
 ## Subbab 7.3: Energi bebas Gibbs
 
-2. Mengapa energi Gibbs disebut "bebas"? Bagian energi mana yang tidak bebas?
-3. Mengapa energi Gibbs lebih berguna bagi kimiawan daripada energi Helmholtz?
+3. Mengapa energi Gibbs disebut "bebas"? Bagian energi mana yang tidak bebas?
+4. Mengapa energi Gibbs lebih berguna bagi kimiawan daripada energi Helmholtz?
 
 ## Subbab 7.4: Kerja maksimum dan kerja bukan-ekspansi
 
-4. Apa yang dimaksud kerja bukan-ekspansi? Berikan tiga contoh.
-5. Jelaskan mengapa sel bahan bakar hidrogen dibatasi efisiensi 83%.
-6. Bagaimana pembakaran glukosa dapat menghasilkan kerja lebih besar daripada kalornya tanpa melanggar hukum pertama?
+5. Apa yang dimaksud kerja bukan-ekspansi? Berikan tiga contoh.
+6. Jelaskan mengapa sel bahan bakar hidrogen dibatasi efisiensi 83%.
+7. Bagaimana pembakaran glukosa dapat menghasilkan kerja lebih besar daripada kalornya tanpa melanggar hukum pertama?
+8. Mengapa tubuh manusia dapat dipandang sebagai mesin isotermal yang dibatasi Δ*G*, bukan mesin kalor yang dibatasi efisiensi Carnot?
 
 ## Subbab 7.5: Persamaan fundamental
 
-7. Apa yang dimaksud variabel alami suatu fungsi termodinamika?
-8. Mengapa *G* setiap zat turun bila suhu naik?
-9. Jelaskan dengan Gambar 7.1 mengapa setiap zat akhirnya menguap pada suhu yang cukup tinggi.
+9. Apa yang dimaksud variabel alami suatu fungsi termodinamika?
+10. Mengapa *G* setiap zat turun bila suhu naik?
+11. Jelaskan dengan Gambar 7.1 mengapa setiap zat akhirnya menguap pada suhu yang cukup tinggi.
 
 ## Subbab 7.6: Hubungan Maxwell
 
-10. Mengapa hubungan Maxwell diturunkan dari sifat diferensial eksak?
-11. Berikan satu contoh besaran yang sukar diukur yang dapat dihitung dengan hubungan Maxwell.
-12. Apa arti fisis tekanan dalam, dan mengapa nilainya nol untuk gas ideal?
+12. Mengapa hubungan Maxwell diturunkan dari sifat diferensial eksak?
+13. Berikan satu contoh besaran yang sukar diukur yang dapat dihitung dengan hubungan Maxwell.
+14. Apa arti fisis tekanan dalam, dan mengapa nilainya nol untuk gas ideal?
+15. Apa gunanya hubungan Maxwell bila semua besaran di dalamnya dapat diukur langsung? Petunjuk: entropi tidak dapat diukur langsung.
 
 ## Subbab 7.8: Ketergantungan G pada tekanan
 
-13. Mengapa *G* gas jauh lebih peka terhadap tekanan daripada *G* cairan?
+16. Mengapa *G* gas jauh lebih peka terhadap tekanan daripada *G* cairan?
+17. Mengapa energi Gibbs gas bergantung kuat pada tekanan, sedangkan energi Gibbs cairan hampir tidak?
 
 ## Subbab 7.9: Energi bebas Gibbs reaksi standar
 
-14. Apa yang dimaksud stabil secara termodinamika dan stabil secara kinetik? Berikan contohnya.
-15. Mengapa ozon di stratosfer tetap ada walaupun penguraiannya spontan?
+18. Apa yang dimaksud stabil secara termodinamika dan stabil secara kinetik? Berikan contohnya.
+19. Mengapa ozon di stratosfer tetap ada walaupun penguraiannya spontan?
+20. Mengapa nilai Δ$_\text{f}$*G*° yang negatif tidak menjamin bahwa senyawa itu akan terbentuk dengan cepat dari unsurnya?
 
 # Soal
 
@@ -100,6 +105,14 @@ $$
 \Delta G_\text{m} = RT\ln\frac{p_2}{p_1} + B(p_2 - p_1) .
 $$
 Untuk CO₂: suku ideal $(8{,}314)(273{,}15)\ln10 = 5229$ J mol⁻¹; suku virial $(-149{,}7 \times 10^{-6})(9{,}0 \times 10^5) = -135$ J mol⁻¹. Totalnya 5,09 kJ mol⁻¹, 2,6% lebih kecil daripada gas ideal. Tarikan antarmolekul (*B* negatif) membuat CO₂ lebih mudah dimampatkan, sehingga energi Gibbsnya naik lebih lambat. Suku koreksi inilah yang di subbab 9.5 akan diserap ke dalam **fugasitas**.
+
+**Soal {{ellingham}}.** Untuk satu mol O₂: $2\text{C} + \text{O}_2 \to 2\text{CO}$, Δ*H*° = −221,1 kJ, Δ*S*° = 2(197,67) − 2(5,74) − 205,14 = +178,7 J K⁻¹; $2\text{Fe} + \text{O}_2 \to 2\text{FeO}$, Δ*H*° = −544,0 kJ, Δ*S*° = −138,2 J K⁻¹. Reaksi reduksi $2\text{FeO} + 2\text{C} \to 2\text{Fe} + 2\text{CO}$ adalah selisih keduanya, dengan Δ*H*° = +322,9 kJ dan Δ*S*° = +316,9 J K⁻¹. Δ*G*° = 0 pada
+$$
+T = \frac{322\,900\ \text{J}}{316{,}9\ \text{J K}^{-1}} \approx 1020\ \text{K} .
+$$
+Di atas suhu itu garis CO berada di bawah garis FeO pada Gambar 7.5, dan karbon "menang" merebut oksigen.
+
+*Cara berpikir:* kemiringan setiap garis Ellingham adalah −Δ*S*°, dan Δ*S*° hampir seluruhnya ditentukan oleh perubahan jumlah mol gas. Pembentukan oksida padat menghabiskan satu mol gas, sehingga Δ*S*° ≈ −200 J K⁻¹ dan garisnya naik. Pembentukan CO mengubah 1 mol O₂ menjadi 2 mol CO, sehingga Δ*S*° positif dan garisnya turun. Karena itu, pada suhu cukup tinggi karbon dapat mereduksi hampir semua oksida, dan batas praktisnya ditentukan oleh suhu yang dapat dicapai tanur. Penalaran "tanda Δ*S* dari mol gas" ini adalah alat cepat yang sama dengan Gambar 7.2.
 
 # Bacaan lanjut
 
