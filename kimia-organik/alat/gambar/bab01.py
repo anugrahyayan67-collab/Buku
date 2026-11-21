@@ -504,8 +504,9 @@ for k in ['co2', 'h2o', 'ch3cl', 'ccl4']:
 for k, npb in [('ch4', 0), ('nh3', 1), ('h2o_v', 2)]:
     pts = [p for _, p in M[k][0]] + ([tuple(t[0] * 0.9)] if npb == 1 else []) + ([(0, 0.62, 0.45), (0, -0.62, 0.45)] if npb == 2 else [])
     sp = spek_molekul(*M[k]); sp.update({'w': 520, 'h': 520, 'zoom': 1.55, 'camdir': kamera_terbaik(pts, (10, 30))})
-    if npb == 1: sp['lobes'] = [lob(t[0], 0.95, 0.34, 0xf3c86a, a=0.85)]
-    if npb == 2: sp['lobes'] = [lob((0, sg * 0.81, 0.58), 0.95, 0.34, 0xf3c86a, a=0.85) for sg in (1, -1)]
+    r0 = 0.30  # sedikit di bawah jari-jari atom pusat agar ujung cuping menempel rapat
+    if npb == 1: sp['lobes'] = [lob(t[0], 0.95, 0.34, 0xf3c86a, o=tuple(t[0] * r0))]
+    if npb == 2: sp['lobes'] = [lob((0, sg * 0.81, 0.58), 0.95, 0.34, 0xf3c86a, o=(0, sg * 0.81 * r0, 0.58 * r0)) for sg in (1, -1)]
     jobs.append((sp, f'{TMP}/v_{k}.png'))
 META = render(jobs)
 
