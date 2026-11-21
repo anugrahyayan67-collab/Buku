@@ -200,6 +200,73 @@ Pasangan reaksi yang dibahas di Bab 7, seperti pembentukan glutamin, kini dapat 
 **Kuis cepat 12.8** Mengapa $\Delta_\text{r}G^{\circ\prime}$ untuk reaksi yang tidak melibatkan H⁺ sama dengan $\Delta_\text{r}G^\circ$?
 :::
 
+## 12.9 Kesetimbangan dalam larutan
+
+Sebagian besar kesetimbangan yang dikenal mahasiswa dari kimia dasar terjadi di dalam air: ionisasi asam lemah, kelarutan garam, ionisasi air sendiri. Tabel *K*$_\text{a}$ dan *K*$_\text{sp}$ di buku kimia dasar tampak seperti daftar angka yang harus dihafal. Termodinamika memperlihatkan bahwa angka-angka itu tidak berdiri sendiri: semuanya dapat dihitung dari tabel energi Gibbs pembentukan yang sama dengan yang kita pakai untuk reaksi gas, asalkan kita punya nilai Δ$_\text{f}$*G*° untuk **ion** dalam air.
+
+### Energi Gibbs pembentukan ion
+
+Ion tidak pernah dapat dibuat sendirian; larutan selalu netral. Karena itu, nilai Δ$_\text{f}$*G*° satu ion tidak dapat diukur langsung. Jalan keluarnya adalah konvensi: Δ$_\text{f}$*G*°, Δ$_\text{f}$*H*°, dan *S*° untuk H⁺(aq) ditetapkan **nol** pada semua suhu. Dengan acuan ini, nilai ion lain diperoleh dari reaksi yang dapat diukur. Misalnya, dari pembentukan HCl(aq) yang terukur dan acuan H⁺ = 0, kita memperoleh Δ$_\text{f}$*G*°(Cl⁻, aq) = −131,23 kJ mol⁻¹. Selama setiap reaksi yang kita hitung seimbang muatannya, konvensi ini tidak memengaruhi hasil, sama seperti pilihan unsur sebagai acuan nol untuk Δ$_\text{f}$*H*° di subbab 4.7.
+
+| Zat | Δ$_\text{f}$*G*° (kJ mol⁻¹) | Zat | Δ$_\text{f}$*G*° (kJ mol⁻¹) |
+|---|---|---|---|
+| H⁺(aq) | 0 (konvensi) | Ag⁺(aq) | +77,11 |
+| OH⁻(aq) | −157,24 | Cl⁻(aq) | −131,23 |
+| H₂O(l) | −237,13 | AgCl(s) | −109,79 |
+| CH₃COOH(aq) | −396,46 | NH₄⁺(aq) | −79,31 |
+| CH₃COO⁻(aq) | −369,31 | NH₃(aq) | −26,50 |
+
+Tabel 12.2 Energi Gibbs pembentukan standar beberapa spesies dalam air pada 25 °C (keadaan standar 1 mol kg⁻¹).
+
+### *K*$_\text{a}$ dan *K*$_\text{sp}$ dari tabel
+
+Dengan tabel itu, setiap tetapan kesetimbangan dalam larutan dihitung dengan dua langkah yang sudah kita kenal: hitung Δ$_\text{r}$*G*° dari Δ$_\text{f}$*G*° hasil dikurangi pereaksi, lalu pakai *K* = exp(−Δ$_\text{r}$*G*°/*RT*) dari (12.5). Karena aktivitas ion dalam larutan encer sama dengan molalitasnya (subbab 10.7), *K* itu adalah *K*$_\text{a}$ atau *K*$_\text{sp}$ yang dikenal, dinyatakan dalam molalitas.
+
+::: {.contoh}
+**Contoh 12.19 · *K*$_\text{sp}$ AgCl dan *K*$_\text{a}$ asam asetat dari energi Gibbs**
+
+Dari Tabel 12.2, hitung (a) *K*$_\text{sp}$ AgCl pada 25 °C, (b) *K*$_\text{a}$ dan p*K*$_\text{a}$ asam asetat, (c) p*K*$_\text{a}$ ion amonium.
+
+**Penyelesaian.** (a) Untuk $\text{AgCl}(s) \rightleftharpoons \text{Ag}^+(aq) + \text{Cl}^-(aq)$,
+$$
+\Delta_\text{r}G^\circ = 77{,}11 + (-131{,}23) - (-109{,}79) = +55{,}67\ \text{kJ mol}^{-1} ,
+$$
+$$
+K_\text{sp} = \exp\left(-\frac{55\,670}{(8{,}314)(298{,}15)}\right) = 1{,}76 \times 10^{-10} .
+$$
+(b) Untuk $\text{CH}_3\text{COOH}(aq) \rightleftharpoons \text{H}^+(aq) + \text{CH}_3\text{COO}^-(aq)$, $\Delta_\text{r}G^\circ = 0 + (-369{,}31) - (-396{,}46) = +27{,}15$ kJ mol⁻¹, sehingga $K_\text{a} = 1{,}75 \times 10^{-5}$ dan p*K*$_\text{a}$ = 4,76.
+
+(c) Untuk $\text{NH}_4^+ \rightleftharpoons \text{H}^+ + \text{NH}_3$, Δ$_\text{r}$*G*° = −26,50 − (−79,31) = +52,81 kJ mol⁻¹, dan p*K*$_\text{a}$ = Δ$_\text{r}$*G*°/(*RT* ln 10) = 9,25.
+
+**Memahami hasil.** Ketiga nilai sama dengan tabel kimia dasar, padahal kita hanya memakai energi Gibbs. Rumus p*K*$_\text{a}$ = Δ$_\text{r}$*G*°/(5,708 kJ mol⁻¹) pada 25 °C memberi alat ingat yang berguna: setiap 5,7 kJ mol⁻¹ energi Gibbs standar ionisasi menaikkan p*K*$_\text{a}$ satu satuan. Selisih p*K*$_\text{a}$ asam asetat dan ion amonium (4,5 satuan) berarti selisih energi Gibbs ionisasi sekitar 26 kJ mol⁻¹, kira-kira sebesar satu ikatan hidrogen yang kuat.
+:::
+
+### Ionisasi air dan suhu
+
+Reaksi $\text{H}_2\text{O}(l) \rightleftharpoons \text{H}^+(aq) + \text{OH}^-(aq)$ mempunyai Δ$_\text{r}$*G*° = −157,24 − (−237,13) = +79,89 kJ mol⁻¹, sehingga *K*$_\text{w}$ = 1,01 × 10⁻¹⁴ pada 25 °C, yaitu p*K*$_\text{w}$ = 14,00. Reaksi ini sangat endoterm (Δ$_\text{r}$*H*° = +55,8 kJ mol⁻¹), karena ikatan O–H harus diputus dan ion yang terbentuk harus disusun ulang oleh air di sekitarnya. Menurut van 't Hoff (subbab 12.6), *K*$_\text{w}$ naik tajam dengan suhu (Gambar 12.4).
+
+![Gambar 12.4 p*K*$_\text{w}$ air terhadap suhu, dihitung dengan persamaan van 't Hoff dari nilai pada 25 °C dengan Δ$_\text{r}$*H*° tetap, dibandingkan dengan nilai terukur. Garis putus: pH larutan netral, p*K*$_\text{w}$/2.](fig/kw.png){width=76%}
+
+Akibat yang sering mengejutkan: **pH larutan netral bukan selalu 7**. Netral berarti [H⁺] = [OH⁻], sehingga pH netral = p*K*$_\text{w}$/2. Pada 37 °C, suhu tubuh, p*K*$_\text{w}$ ≈ 13,6, sehingga pH netral sekitar 6,8. Darah dengan pH 7,4 lebih basa daripada netral sebanyak 0,6 satuan, bukan 0,4. Pada 100 °C, air murni mempunyai pH sekitar 6,1 tetapi tetap netral.
+
+::: {.contoh}
+**Contoh 12.20 · pH air murni pada beberapa suhu**
+
+Dari p*K*$_\text{w}$ = 14,00 pada 25 °C dan Δ$_\text{r}$*H*° = 55,84 kJ mol⁻¹, hitung pH air murni pada 0 °C, 37 °C, dan 100 °C. Nilai terukur p*K*$_\text{w}$ pada 0 °C dan 100 °C adalah 14,94 dan 12,26.
+
+**Penyelesaian.** Dari van 't Hoff dalam bentuk logaritma basis 10,
+$$
+\text{p}K_\text{w}(T) = 14{,}00 + \frac{\Delta_\text{r}H^\circ}{R\ln 10}\left(\frac{1}{T} - \frac{1}{298{,}15\ \text{K}}\right) .
+$$
+Pada 0 °C: p*K*$_\text{w}$ = 14,89, pH = 7,45. Pada 37 °C: p*K*$_\text{w}$ = 13,62, pH = 6,81. Pada 100 °C: p*K*$_\text{w}$ = 12,03, pH = 6,02.
+
+**Memahami hasil.** Pada 0 °C hitungan meleset hanya 0,05 satuan, tetapi pada 100 °C sudah 0,23 satuan. Penyebabnya adalah anggapan Δ$_\text{r}$*H*° tetap: reaksi ini mempunyai Δ$_\text{r}$*C*$_p$° yang besar dan negatif (sekitar −200 J K⁻¹ mol⁻¹), sehingga Δ$_\text{r}$*H*° mengecil pada suhu tinggi. Untuk rentang suhu yang lebar, koreksi Kirchhoff (subbab 4.9) harus dimasukkan ke dalam van 't Hoff, seperti pada soal van 't Hoff dengan Δ*C*$_p$ di akhir bab. Bagi biokimia, pesan pentingnya adalah bahwa pH buffer harus disebut **bersama suhunya**.
+:::
+
+::: {.kuis}
+**Kuis cepat 12.9** Larutan pada 50 °C mempunyai pH 6,8. Apakah larutan itu asam, netral, atau basa? (p*K*$_\text{w}$ = 13,26 pada 50 °C.)
+:::
+
 ### Menuju bab berikutnya
 
 Bab ini mengubah seluruh termodinamika yang kita bangun menjadi alat peramal kesetimbangan. Dari tabel $\Delta_\text{f}G^\circ$, kita menghitung *K*; dari $\Delta_\text{r}H^\circ$, kita meramalkan bagaimana *K* berubah dengan suhu; dari Δν, bagaimana komposisi berubah dengan tekanan. Asas Le Chatelier, yang di Kimia Dasar dihafal, kini muncul sebagai akibat, lengkap dengan batasnya.

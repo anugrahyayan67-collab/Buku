@@ -11,8 +11,10 @@
 | van 't Hoff | $d\ln K/dT = \Delta_\text{r}H^\circ/RT^2$; $\ln(K_2/K_1) = -(\Delta_\text{r}H^\circ/R)(1/T_2 - 1/T_1)$ | 12.6 |
 | Le Chatelier | benar untuk *T* dan *p*; untuk komposisi bandingkan *Q* dengan *K* | 12.7 |
 | Keadaan standar biokimia | $\Delta_\text{r}G^{\circ\prime} = \Delta_\text{r}G^\circ + \nu RT\ln10^{-7}$ | 12.8 |
+| Δ$_\text{f}$*G*° ion | konvensi: H⁺(aq) = 0; *K*$_\text{a}$, *K*$_\text{sp}$ dari *K* = exp(−Δ$_\text{r}$*G*°/*RT*); p*K* = Δ$_\text{r}$*G*°/(5,708 kJ mol⁻¹) pada 25 °C | 12.9 |
+| Ionisasi air | p*K*$_\text{w}$ = 14,00 pada 25 °C, turun dengan suhu (Δ$_\text{r}$*H*° = +55,8 kJ mol⁻¹); pH netral = p*K*$_\text{w}$/2 | 12.9 |
 
-**Jawaban kuis cepat.** **12.1** Di kedua ujung, suku pencampuran membuat kemiringan *G* menuju −∞ (atau +∞), sehingga kurva selalu turun dulu menjauhi zat murni. **12.2** $\Delta_\text{r}G^\circ = 0$. Tidak: *K* = 1 berarti hasil kali aktivitas hasil sama dengan hasil kali aktivitas pereaksi (dengan pangkat koefisiennya), bukan jumlahnya sama. **12.3** Ya, karena Δν = 0, sehingga faktor $(c^\circ RT/p^\circ)^{\Delta\nu}$ dan $(p/p^\circ)^{\Delta\nu}$ sama dengan satu. **12.4** 0,220 mol, sama dengan Contoh 12.7 (kesetimbangan tidak bergantung pada arah pendekatan). **12.5** Tidak berpengaruh, karena tekanan parsial setiap gas tidak berubah. **12.6** Miring ke bawah (kemiringan $-\Delta_\text{r}H^\circ/R$ negatif), karena *K* naik ketika 1/*T* turun. **12.7** Tidak. Katalis tidak mengubah $\Delta_\text{r}G^\circ$, sehingga *K* tetap; ia hanya mempercepat tercapainya kesetimbangan. **12.8** Karena tidak ada H⁺ dalam *Q*, perubahan keadaan standar H⁺ tidak berpengaruh.
+**Jawaban kuis cepat.** **12.1** Di kedua ujung, suku pencampuran membuat kemiringan *G* menuju −∞ (atau +∞), sehingga kurva selalu turun dulu menjauhi zat murni. **12.2** $\Delta_\text{r}G^\circ = 0$. Tidak: *K* = 1 berarti hasil kali aktivitas hasil sama dengan hasil kali aktivitas pereaksi (dengan pangkat koefisiennya), bukan jumlahnya sama. **12.3** Ya, karena Δν = 0, sehingga faktor $(c^\circ RT/p^\circ)^{\Delta\nu}$ dan $(p/p^\circ)^{\Delta\nu}$ sama dengan satu. **12.4** 0,220 mol, sama dengan Contoh 12.7 (kesetimbangan tidak bergantung pada arah pendekatan). **12.5** Tidak berpengaruh, karena tekanan parsial setiap gas tidak berubah. **12.6** Miring ke bawah (kemiringan $-\Delta_\text{r}H^\circ/R$ negatif), karena *K* naik ketika 1/*T* turun. **12.7** Tidak. Katalis tidak mengubah $\Delta_\text{r}G^\circ$, sehingga *K* tetap; ia hanya mempercepat tercapainya kesetimbangan. **12.8** Karena tidak ada H⁺ dalam *Q*, perubahan keadaan standar H⁺ tidak berpengaruh. **12.9** Basa. pH netral pada 50 °C adalah 13,26/2 = 6,63; pH 6,8 lebih tinggi daripada itu.
 
 # Pertanyaan
 
@@ -26,31 +28,42 @@
 3. Mengapa tetapan kesetimbangan termodinamika tidak bersatuan?
 4. Mengapa *K* sangat peka terhadap $\Delta_\text{r}G^\circ$?
 5. Jelaskan aturan penggabungan *K* dengan hukum Hess untuk energi Gibbs.
+6. Mengapa *K* tidak bersatuan, padahal tampak seperti perbandingan tekanan atau konsentrasi?
 
 ## Subbab 12.3: *K*, *K*_c, dan *K*_x
 
-6. Mengapa plester kapur mengeras di udara?
+7. Mengapa plester kapur mengeras di udara?
+
+## Subbab 12.4: Menghitung komposisi kesetimbangan
+
+8. Mengapa komposisi kesetimbangan tidak bergantung pada arah kita mendekatinya (dari pereaksi atau dari hasil)?
 
 ## Subbab 12.5: Pengaruh tekanan dan gas lembam
 
-7. Mengapa komposisi kesetimbangan reaksi dengan Δν = 0 tidak bergantung pada tekanan?
-8. Mengapa reaksi yang menambah jumlah mol gas hampir tuntas pada tekanan sangat rendah?
-9. Bagaimana gas lembam yang menumpuk merugikan pabrik amonia?
+9. Mengapa komposisi kesetimbangan reaksi dengan Δν = 0 tidak bergantung pada tekanan?
+10. Mengapa reaksi yang menambah jumlah mol gas hampir tuntas pada tekanan sangat rendah?
+11. Bagaimana gas lembam yang menumpuk merugikan pabrik amonia?
 
 ## Subbab 12.6: Pengaruh suhu: persamaan van 't Hoff
 
-10. Apa hubungan antara persamaan van 't Hoff dan persamaan Clausius–Clapeyron?
-11. Bagaimana $\Delta_\text{r}H^\circ$ suatu reaksi dapat diukur tanpa kalorimeter?
+12. Apa hubungan antara persamaan van 't Hoff dan persamaan Clausius–Clapeyron?
+13. Bagaimana $\Delta_\text{r}H^\circ$ suatu reaksi dapat diukur tanpa kalorimeter?
+14. Mengapa reaksi endoterm makin disukai pada suhu tinggi, ditinjau dari entropi lingkungan?
 
 ## Subbab 12.7: Asas Le Chatelier secara termodinamika
 
-12. Berikan contoh kegagalan asas Le Chatelier dan jelaskan sebabnya.
+15. Berikan contoh kegagalan asas Le Chatelier dan jelaskan sebabnya.
 
 ## Subbab 12.8: Kesetimbangan dalam industri dan biokimia
 
-13. Mengapa proses Haber–Bosch dijalankan pada 400–500 °C?
-14. Mengapa biokimiawan memerlukan keadaan standar yang berbeda?
-15. Mengapa Δ*G* hidrolisis ATP di dalam sel jauh lebih negatif daripada $\Delta_\text{r}G^{\circ\prime}$?
+16. Mengapa proses Haber–Bosch dijalankan pada 400–500 °C?
+17. Mengapa biokimiawan memerlukan keadaan standar yang berbeda?
+18. Mengapa Δ*G* hidrolisis ATP di dalam sel jauh lebih negatif daripada $\Delta_\text{r}G^{\circ\prime}$?
+
+## Subbab 12.9: Kesetimbangan dalam larutan
+
+19. Mengapa tabel *K*$_\text{a}$ dan *K*$_\text{sp}$ tidak perlu dihafal bila tersedia tabel energi Gibbs pembentukan ion?
+20. Mengapa pH larutan netral bergantung pada suhu?
 
 # Soal
 
@@ -126,6 +139,18 @@ print(brentq(f, 1e-6, 0.999999))   # 0.987
 ```
 
 Konversi 98,7%. Walaupun *K* turun dari $2{,}6 \times 10^{12}$ pada suhu kamar menjadi 290 pada 700 K, oksigen berlebih dan nitrogen yang tidak ikut bereaksi masih memungkinkan hampir seluruh SO₂ teroksidasi. Pada 1000 K (*K* = 1,8), perhitungan yang sama hanya memberi 36%; inilah sebabnya pabrik mendinginkan gas di antara lapisan katalis.
+
+**Soal {{kwt}}.** Tanpa koreksi, van 't Hoff dengan Δ$_\text{r}$*H*° tetap memberi
+$$
+\ln\frac{K_\text{w}(373)}{K_\text{w}(298)} = -\frac{\Delta_\text{r}H^\circ}{R}\left(\frac{1}{373{,}15} - \frac{1}{298{,}15}\right) = 4{,}53 ,
+$$
+sehingga p*K*$_\text{w}$ = 14,00 − 4,53/ln 10 = 12,03. Dengan Δ$_\text{r}$*C*$_p$° tetap, hukum Kirchhoff memberi $\Delta_\text{r}H^\circ(T) = \Delta_\text{r}H^\circ(T_1) + \Delta_\text{r}C_p^\circ(T - T_1)$. Memasukkannya ke $d\ln K/dT = \Delta_\text{r}H^\circ/RT^2$ dan mengintegrasikan menambah satu suku:
+$$
+\ln\frac{K_2}{K_1} = -\frac{\Delta_\text{r}H^\circ(T_1)}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right) + \frac{\Delta_\text{r}C_p^\circ}{R}\left(\ln\frac{T_2}{T_1} + \frac{T_1}{T_2} - 1\right) .
+$$
+Suku kedua bernilai $(-215/8{,}314)(0{,}2324 + 0{,}7990 - 1) = -0{,}605$, sehingga ln(*K*$_2$/*K*$_1$) = 3,92 dan p*K*$_\text{w}$ = 12,29, hanya 0,03 dari nilai terukur.
+
+*Cara berpikir:* van 't Hoff dengan Δ*H* tetap adalah pendekatan orde pertama. Bila rentang suhu lebar atau Δ*C*$_p$ besar, seperti reaksi yang melibatkan ion dalam air (hidrasi ion mengubah keteraturan air di sekitarnya), suku Kirchhoff harus ditambahkan. Pola ini sama dengan koreksi tekanan uap air di Bab 8 dan entalpi penguapan di Bab 4: setiap kali sebuah "tetapan" tampak menyimpang pada suhu jauh, periksa dulu apakah Δ*H*-nya sebenarnya berubah dengan suhu.
 
 # Bacaan lanjut
 
