@@ -1,0 +1,236 @@
+## Subbab 14.1: Orbital d dalam medan ligan
+
+> Pakai 1 cm⁻¹ = 0,011 963 kJ/mol dan $hc = 1{,}2398 \times 10^{-4}$ eV cm. Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab.
+
+**Dasar**
+
+Sebutkan bidang simpul orbital $d_{xy}$ dan $d_{x^2-y^2}$. Mana yang bernilai nol di keenam posisi ligan oktahedral? ||| $d_{xy}$: bidang $xz$ dan $yz$ (nol di semua ligan); $d_{x^2-y^2}$: bidang $x = \pm y$
+Pada sudut $\theta$ berapa fungsi sudut $d_{z^2}$ bernilai nol? ||| $\cos^2\theta = \tfrac13$: $\theta = 54{,}74°$ dan $125{,}26°$
+Dalam medan oktahedral, $e_g$ berada di $+6Dq$. Tunjukkan dengan aturan pusat berat bahwa $t_{2g}$ berada di $-4Dq$. ||| $2(6Dq) + 3E = 0$, $E = -4Dq$
+
+**Menengah**
+
+Menurut model muatan titik, berapa kali $\Delta_o$ berubah bila muatan ligan diduakalikan dan jarak logam–ligan diperbesar 10%? ||| $2/1{,}1^5 = 1{,}24$ kali
+Tentukan pemecahan sembilan fungsi $\ell = 4$ dalam grup $O$ dengan rumus (14.8). ||| karakter 9, 0, 1, 1, 1; $A_1 + E + T_1 + T_2$
+@dq [P] Taksir $Dq$ dan $\Delta_o$ untuk [TiF₆]³⁻ dengan model muatan titik: orbital Slater 3d dengan $\zeta = 4/3$ bohr⁻¹, $Z = 1$, Ti–F 1,94 Å. Bandingkan dengan nilai teramati sekitar 17 000 cm⁻¹. ||| $\langle r^4\rangle = 99{,}7$ bohr⁴; $Dq = 5500$ cm⁻¹; $\Delta_o \approx 55\,000$ cm⁻¹, tiga kali terlalu besar
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa rata-rata $x^4/r^4$ atas permukaan bola adalah $\tfrac15$, lalu simpulkan bahwa jumlah pergeseran kelima orbital d oleh suku (14.5) nol. ||| $\langle\cos^4\theta\rangle = \tfrac15$; $3 \cdot \tfrac15 - \tfrac35 = 0$
+
+## Subbab 14.2: Teori medan kristal oktahedral
+
+**Dasar**
+
+Tuliskan konfigurasi $t_{2g}^xe_g^y$ dan ESMK (dalam $\Delta_o$) untuk [V(H₂O)₆]²⁺ dan [Fe(H₂O)₆]³⁺ (spin tinggi). ||| $t_{2g}^3$, $-1{,}2\Delta_o$; $t_{2g}^3e_g^2$, 0
+Kompleks d¹ menyerap maksimum pada 625 nm. Hitung $\Delta_o$ dalam cm⁻¹ dan kJ/mol. ||| 16 000 cm⁻¹; 191 kJ/mol
+Ramalkan $\Delta_o$ [Co(NH₃)₆]³⁺ dengan rumus Jørgensen. ||| $1{,}25 \times 18\,200 = 22\,750$ cm⁻¹
+
+**Menengah**
+
+Ramalkan $\Delta_o$ dan panjang gelombang serapan [Rh(en)₃]³⁺. Apakah kompleks ini berwarna pekat? ||| 34 560 cm⁻¹; 289 nm (ultraviolet); hampir tak berwarna (kuning pucat)
+Berapa persen jarak logam–ligan harus memendek agar $\Delta_o$ naik 25%, bila $\Delta_o \propto a^{-5}$? ||| 4,4%
+Kompleks [NiL₆]²⁺ menyerap pertama di 10 400 cm⁻¹. Tentukan $f(\text{L})$ dan letaknya dalam deret spektrokimia. ||| $f = 1{,}20$; di antara H₂O dan NH₃ (dekat piridina)
+
+**Tantangan ★**
+
+★ Pada tekanan 10 GPa, jarak Cr–O dalam rubi memendek sekitar 0,5%. Berapa pergeseran pita $^4T_{2g}$ (18 000 cm⁻¹)? ||| $18\,000[(1/0{,}995)^5 - 1] = 460$ cm⁻¹ ke energi lebih tinggi
+
+## Subbab 14.3: Medan tetrahedral dan bujur sangkar
+
+**Dasar**
+
+Jika $\Delta_o = 18\,000$ cm⁻¹, berapa $\Delta_t$ untuk ligan dan jarak yang sama? ||| 8000 cm⁻¹
+Hitung ESMK d² tetrahedral dalam $\Delta_t$. ||| $e^2$: $-1{,}2\Delta_t$
+[PdCl₄]²⁻ diamagnetik, [NiCl₄]²⁻ paramagnetik. Tentukan geometri keduanya. ||| Pd: bujur sangkar; Ni: tetrahedral
+
+**Menengah**
+
+Dengan AOM σ, hitung energi orbital d (dalam $e_\sigma$) untuk kompleks segitiga datar ML₃ (ligan di bidang $xy$ pada $\phi = 0°$, 120°, 240°). ||| $d_{x^2-y^2}$, $d_{xy}$: 9/8; $d_{z^2}$: 3/4; $d_{xz}$, $d_{yz}$: 0; jumlah 3
+@sqpl [P] Kompleks bujur sangkar d⁸ dengan $e_\sigma = 7000$ dan $e_\pi = 1000$ cm⁻¹ (donor π). Hitung energi kelima orbital dengan AOM ($d_{xy}$: $4e_\pi$; $d_{xz}$, $d_{yz}$: $2e_\pi$) dan selisih HOMO–LUMO. ||| $d_{x^2-y^2}$ 21 000; $d_{z^2}$ 7000; $d_{xy}$ 4000; $d_{xz}$, $d_{yz}$ 2000; celah 14 000 cm⁻¹
+Mengapa kompleks d¹⁰ seperti [Zn(NH₃)₄]²⁺ tidak memperoleh keuntungan apa pun dari geometri bujur sangkar? ||| semua orbital penuh; energi σ total $= 4e_\sigma$ untuk setiap geometri (aturan jumlah)
+
+**Tantangan ★**
+
+★ Dalam oktahedron memanjang, ligan aksial mempunyai $e_\sigma' = 0{,}6e_\sigma$. Hitung energi $d_{z^2}$ dan $d_{x^2-y^2}$ dengan AOM σ dan pemecahannya. ||| $d_{z^2} = 2(0{,}6) + 1 = 2{,}2e_\sigma$; $d_{x^2-y^2} = 3e_\sigma$; selisih $0{,}8e_\sigma$
+
+## Subbab 14.4: Energi stabilisasi medan kristal dan sifat termodinamika
+
+**Dasar**
+
+Hitung ESMK [V(H₂O)₆]²⁺ dalam kJ/mol. ||| $-14\,880$ cm⁻¹ $= -178$ kJ/mol
+Ion M²⁺ periode 4 mana yang ESMK oktahedral spin tingginya nol? ||| Ca²⁺ (d⁰), Mn²⁺ (d⁵), Zn²⁺ (d¹⁰)
+Berapa EPLO Cr³⁺ dalam $Dq$? ||| $-8{,}44Dq$
+
+**Menengah**
+
+Ramalkan apakah CoFe₂O₄, CuFe₂O₄, dan FeCr₂O₄ spinel normal atau terbalik. ||| terbalik; terbalik; normal
+Dari data Contoh 14.18, hitung selisih $\Delta G°$ pembentukan [Cu(en)]²⁺ dan [Ni(en)]²⁺. ||| $-17{,}3$ kJ/mol (Cu lebih stabil)
+EAML d⁸ adalah $2Dq$. Untuk [Ni(H₂O)₆]²⁺ ($Dq = 850$ cm⁻¹), hitung EAML dalam kJ/mol dan faktor perlambatan $e^{E/RT}$ pada 298 K. ||| 20,3 kJ/mol; faktor sekitar 3700
+
+**Tantangan ★**
+
+★ Dari energi orbital piramida bujur sangkar di subbab 14.4, turunkan EAML d³ dan d⁶ spin rendah. ||| d³: $-10{,}00 - (-12) = 2{,}00Dq$; d⁶ SR: $-20{,}00 - (-24) = 4{,}00Dq$
+
+## Subbab 14.5: Spin tinggi dan spin rendah; magnetisme
+
+**Dasar**
+
+Hitung momen magnet spin saja d⁴ oktahedral spin tinggi dan spin rendah. ||| 4,90 dan 2,83 µ_B
+Suatu kompleks mempunyai $\chi_MT = 1{,}87$ cm³ K mol⁻¹. Berapa $\mu_\text{eff}$ dan banyaknya elektron tak berpasangan? ||| 3,87 µ_B; 3
+[Mn(CN)₆]⁴⁻ berspin rendah. Berapa elektron tak berpasangan dan momen spin sajanya? ||| $t_{2g}^5$: 1; 1,73 µ_B
+
+**Menengah**
+
+Hitung $P$ Griffith untuk Fe³⁺ ($B = 1015$, $C = 4800$ cm⁻¹), kurangi 20% untuk efek nefelauksetik, lalu ramalkan keadaan spin [Fe(H₂O)₆]³⁺ dan [Fe(CN)₆]³⁻. ||| $P = 31\,600$; 25 300 cm⁻¹; spin tinggi dan spin rendah
+Hitung $\mu_\text{eff}$ [Cu(H₂O)₆]²⁺ dengan (14.23) bila $\lambda = -830$ cm⁻¹, $\Delta_o = 12\,600$ cm⁻¹, dan $\alpha = 2$. ||| 1,96 µ_B
+@sco [P] Kompleks transisi spin dengan $\Delta H = 15{,}0$ kJ/mol dan $\Delta S = 60$ J K⁻¹ mol⁻¹. Hitung $T_{1/2}$ dan fraksi spin tinggi pada 298 K. ||| 250 K; 0,76
+
+**Tantangan ★**
+
+★ Dengan model pasangan sejajar (14.19) dan energi pertukaran $K$ per pasangan, hitung biaya pertukaran **per pasangan tambahan** ketika d⁴, d⁵, d⁶, dan d⁷ berpindah ke spin rendah. ||| $3K$, $3K$, $2K$, $2K$
+
+## Subbab 14.6: Efek Jahn–Teller
+
+**Dasar**
+
+Manakah yang mengalami efek Jahn–Teller kuat: [Ti(H₂O)₆]³⁺, [Cr(H₂O)₆]³⁺, [Mn(H₂O)₆]³⁺, [Fe(H₂O)₆]²⁺, [Ni(H₂O)₆]²⁺? ||| hanya [Mn(H₂O)₆]³⁺ (Ti³⁺ dan Fe²⁺ lemah)
+Jika $E_\text{JT} = 1500$ cm⁻¹, berapa pemisahan kedua cabang pada geometri minimum? ||| 6000 cm⁻¹
+Mengapa Ni²⁺ oktahedral tidak terdistorsi, padahal Cu²⁺ terdistorsi? ||| $e_g^2$ terisi seragam: suku linear saling meniadakan
+
+**Menengah**
+
+Dalam MnF₃, setiap Mn³⁺ dikelilingi F⁻ pada 1,79; 1,79; 1,91; 1,91; 2,09; 2,09 Å (sumbu $x$, $y$, $z$). Hitung $Q_\theta$. ||| rata-rata 1,93 Å; $Q_\theta = 0{,}277$ Å
+Untuk $A = 8000$ cm⁻¹/Å dan $k = 20\,000$ cm⁻¹/Å², hitung $Q_0$ dan $E_\text{JT}$. ||| 0,40 Å; 1600 cm⁻¹
+Dari $\log K_5 = -0{,}46$, berapa perbandingan [Cu(NH₃)₅]²⁺ terhadap [Cu(NH₃)₄]²⁺ dalam larutan NH₃ 1 M? ||| $K_5 = 0{,}35$
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa pemampatan tetragonal (dua ikatan aksial pendek) juga memberi stabilisasi $-AQ$ untuk d⁹ hingga orde linear. Apa yang menentukan bahwa pemanjangan lebih sering teramati? ||| lubang di $d_{z^2}$ memberi $-|A||Q|$ juga; suku orde tinggi (anharmonisitas, pencampuran 4s–3d$_{z^2}$)
+
+## Subbab 14.7: Teori medan ligan: OM kompleks oktahedral
+
+**Dasar**
+
+Dari 15 orbital basis ML₆ (σ saja), berapa banyak orbital ikatan, tak berikatan, dan antiikatan? ||| 6; 3; 6
+Turunkan tumpang tindih grup $t_{1u}$ antara $4p_x$ dan SALC $\tfrac{1}{\sqrt2}(\sigma_1 - \sigma_3)$. ||| $\tfrac{1}{\sqrt2}(S_p + S_p) = \sqrt2\,S_p$
+Hitung banyaknya elektron valensi dalam diagram OM [Fe(CN)₆]⁴⁻ dan banyaknya elektron $e_g^*$. ||| 18; 0
+
+**Menengah**
+
+Untuk $\alpha_M = -10{,}0$, $\alpha_L = -14{,}0$, dan $\beta_{e_g} = 2{,}0$ eV, hitung energi $e_g^*$, $\Delta_o$ (cm⁻¹), dan persen karakter logam $e_g^*$. ||| $-9{,}17$ eV; 0,828 eV = 6680 cm⁻¹; 85%
+Ramalkan $\beta$ nefelauksetik untuk [CoF₆]³⁻ dan [Co(NH₃)₆]³⁺ dengan (14.33). ||| 0,74; 0,54
+[Ni(NH₃)₆]²⁺ menyerap di 10 750, 17 500, dan 28 200 cm⁻¹. Tentukan $B$ dan $\beta$ ($B_\text{bebas} = 1041$ cm⁻¹). ||| $B = 897$ cm⁻¹; $\beta = 0{,}86$
+
+**Tantangan ★**
+
+★ Dengan pendekatan $\beta_\sigma \propto S_\sigma$, tunjukkan $\Delta_o \propto S_\sigma^2$. Jika tumpang tindih 4d–ligan 1,25 kali tumpang tindih 3d–ligan (dengan selisih energi sama), berapa perbandingan $\Delta_o$? Bandingkan dengan [Rh(NH₃)₆]³⁺/[Co(NH₃)₆]³⁺. ||| 1,56; teramati 1,49
+
+## Subbab 14.8: Ikatan π dan deret spektrokimia
+
+**Dasar**
+
+Golongkan sebagai donor π, akseptor π, atau donor σ saja: Cl⁻, NH₃, CO, OH⁻, PPh₃, H⁻, CN⁻. ||| donor π: Cl⁻, OH⁻; akseptor π: CO, PPh₃, CN⁻; σ saja: NH₃, H⁻
+Hitung $\Delta_o$ bila $e_\sigma = 6000$ dan $e_\pi = 1500$ cm⁻¹. ||| 12 000 cm⁻¹
+Mana yang $\tilde\nu(\text{CO})$-nya lebih rendah: Ni(CO)₄ atau [Co(CO)₄]⁻? Mengapa? ||| [Co(CO)₄]⁻; muatan negatif, ikatan balik lebih kuat
+
+**Menengah**
+
+$\tilde\nu(\text{CO})$ Ni(CO)₄ adalah 2060 cm⁻¹. Hitung tetapan gaya C–O dan persen penurunannya dari CO bebas. ||| 1714 N/m; 7,6%
+Untuk [CrCl₆]³⁻, $\Delta_o = 13\,200$ cm⁻¹. Jika $e_\sigma(\text{Cl}^-) = 5800$ cm⁻¹, hitung $e_\pi(\text{Cl}^-)$. ||| 1050 cm⁻¹
+Dalam AOM tetrahedral, $E(e) = \tfrac83e_\pi$ dan $E(t_2) = \tfrac43e_\sigma + \tfrac89e_\pi$. Tunjukkan bahwa $\Delta_t = \tfrac49\Delta_o$ tetap berlaku dengan ikatan π, lalu hitung untuk $e_\sigma = 7000$, $e_\pi = 1000$ cm⁻¹. ||| $\Delta_t = \tfrac43e_\sigma - \tfrac{16}{9}e_\pi = \tfrac49(3e_\sigma - 4e_\pi)$; 7556 dan 17 000 cm⁻¹
+
+**Tantangan ★**
+
+★ Dengan perturbasi orde kedua, taksir pergeseran $t_{2g}$ oleh orbital π* pada $-7{,}0$ eV ($\alpha_d = -11{,}0$ eV, $\beta = 1{,}0$ eV). Bandingkan dengan hasil tepat Contoh 14.33. ||| $-\beta^2/4 = -0{,}25$ eV; tepat $-0{,}236$ eV
+
+## Subbab 14.9: Lambang suku ion bebas dan pemecahannya
+
+**Dasar**
+
+Berapa banyak keadaan mikro d⁴? ||| $\binom{10}{4} = 210$
+Tentukan suku dasar d⁷ dan d⁶. ||| $^4F$; $^5D$
+Bagaimana $^5D$ terpecah dalam $O_h$, dan pecahan mana yang terendah untuk d⁶ spin tinggi? ||| $^5E_g + {}^5T_{2g}$; $^5T_{2g}$
+
+**Menengah**
+
+Periksa bahwa suku-suku d² ($^3F$, $^3P$, $^1G$, $^1D$, $^1S$) menampung 45 keadaan. ||| $21 + 9 + 9 + 5 + 1 = 45$
+Berapa jarak $^4P$ di atas $^4F$ untuk Co²⁺ bebas ($B = 971$ cm⁻¹)? ||| $15B = 14\,565$ cm⁻¹
+Tuliskan keadaan yang berasal dari konfigurasi $t_{2g}^1e_g^1$ (d²) dan jelaskan mengapa singlet dan triplet muncul untuk setiap kesetangkupan ruang. ||| $^{1,3}T_{1g}$, $^{1,3}T_{2g}$; elektron di himpunan orbital berbeda
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa keadaan mikro dengan $M_L = 4$ dalam d² harus berspin singlet, sehingga suku $G$ hanya muncul sebagai $^1G$. ||| $M_L = 4$ menuntut kedua elektron di $m = 2$; Pauli memaksa spin berlawanan
+
+## Subbab 14.10: Diagram Orgel dan Tanabe–Sugano
+
+**Dasar**
+
+[Ni(en)₃]²⁺ menyerap pertama di 11 200 cm⁻¹. Berapa $Dq$? ||| 1120 cm⁻¹
+Berapa pita spin diizinkan yang diharapkan untuk d³ oktahedral? ||| 3 ($^4T_{2g}$, $^4T_{1g}(F)$, $^4T_{1g}(P)$)
+Berapa pita spin diizinkan untuk d⁶ spin tinggi oktahedral, dan apa lambangnya? ||| 1: $^5T_{2g} \to {}^5E_g$
+
+**Menengah**
+
+@ninh3 [P] [Ni(NH₃)₆]²⁺ menyerap di 10 750, 17 500, dan 28 200 cm⁻¹. Tentukan $Dq$ dan $B$, lalu ramalkan kembali $\nu_2$ dan $\nu_3$. ||| $Dq = 1075$; $B = 897$; 17 310 dan 28 390 cm⁻¹
+[Cr(en)₃]³⁺ menyerap di 21 900 dan 28 500 cm⁻¹. Tentukan $Dq$, $B$, dan $\beta$. ||| $Dq = 2190$; $B = 616$; $\beta = 0{,}67$
+[V(urea)₆]³⁺ menyerap di 16 500 dan 24 000 cm⁻¹. Tentukan $Dq$ dan $B$ secara numerik. ||| $Dq = 1773$; $B = 582$ cm⁻¹
+
+**Tantangan ★**
+
+@coaq [P] ★ [Co(H₂O)₆]²⁺ (d⁷ spin tinggi) menyerap di 8100 ($^4T_{2g}$) dan 19 400 cm⁻¹ ($^4T_{1g}(P)$). Dengan rumus d², tentukan $Dq$ dan $B$, lalu ramalkan pita $^4A_{2g}$. ||| $Dq = 922$, $B = 828$ cm⁻¹; $^4A_{2g}$ di 17 300 cm⁻¹
+
+## Subbab 14.11: Spektrum elektronik dan warna kompleks
+
+**Dasar**
+
+Hitung absorbans larutan [Ni(H₂O)₆]²⁺ 0,050 M ($\varepsilon = 5$) dalam kuvet 1 cm. ||| 0,25
+Transisi d–d kompleks mana yang terlarang baik oleh aturan spin maupun Laporte: [Mn(H₂O)₆]²⁺, [Cr(H₂O)₆]³⁺, [CoCl₄]²⁻? ||| [Mn(H₂O)₆]²⁺
+Suatu kompleks hanya menyerap di sekitar 600 nm. Apa warnanya? ||| biru kehijauan
+
+**Menengah**
+
+Hitung kekuatan osilator pita d–d berbentuk Gauss dengan $\varepsilon_\text{maks} = 10$ dan lebar setengah 3500 cm⁻¹, memakai $f = 4{,}32 \times 10^{-9}\int\varepsilon\,d\tilde\nu$. ||| $1{,}6 \times 10^{-4}$
+Untuk intensitas vibronik dengan $\tilde\nu_u = 200$ cm⁻¹, berapa perbandingan intensitas pada 298 K dan 77 K? ||| 2,13
+Alexandrite mempunyai pita $^4T_{2g}$ di sekitar 17 000 cm⁻¹. Hitung panjang gelombangnya dan jelaskan mengapa warnanya berubah dengan jenis cahaya. ||| 588 nm; jendela merah dan hijau hampir sama lebar
+
+**Tantangan ★**
+
+@cocl4 [P] ★ [CoCl₄]²⁻ (d⁷ tetrahedral, pola seperti d³/d⁸ oktahedral) mempunyai $\Delta_t = 3300$ cm⁻¹ dan pita $^4A_2 \to {}^4T_1(P)$ di 14 700 cm⁻¹. Tentukan $B$ dan $\beta$ ($B_\text{bebas} = 971$ cm⁻¹), dan ramalkan pita $^4T_1(F)$. ||| $B = 703$ cm⁻¹; $\beta = 0{,}72$; $^4T_1(F)$ di 5740 cm⁻¹
+
+## Subbab 14.12: Transfer muatan
+
+**Dasar**
+
+Golongkan jenis transfer muatan: MnO₄⁻, [Ru(bpy)₃]²⁺, biru Prusia, [Fe(SCN)(H₂O)₅]²⁺. ||| LMCT; MLCT; antarvalensi; LMCT
+CrO₄²⁻ menyerap di 373 nm. Nyatakan dalam cm⁻¹ dan eV. ||| 26 810 cm⁻¹; 3,32 eV
+Dengan $\chi_\text{opt}(\text{Ir}^{4+}) = 2{,}32$, ramalkan pita LMCT pertama [IrF₆]²⁻. ||| 47 400 cm⁻¹ (ultraviolet)
+
+**Menengah**
+
+Larutan mengandung 2,0 mg/L besi sebagai ferroin. Hitung absorbansnya pada 510 nm dalam kuvet 1 cm. ||| $c = 3{,}58 \times 10^{-5}$ M; $A = 0{,}40$
+Ramalkan lebar pita antarvalensi kelas II yang berpuncak di 12 000 cm⁻¹ pada 298 K. ||| 5260 cm⁻¹
+Pada panjang gelombang berapa keadaan $^3$MLCT [Ru(bpy)₃]²⁺ ($E_{00} = 2{,}12$ eV) akan berpendar seandainya tanpa geseran Stokes? ||| 585 nm
+
+**Tantangan ★**
+
+@hab [P] ★ Untuk pita antarvalensi Fe(II)→Fe(III) dengan $\tilde\nu = 14\,000$ cm⁻¹, $\varepsilon = 9800$, $\Delta\tilde\nu_{1/2} = 6000$ cm⁻¹, dan $r = 5{,}1$ Å, hitung $H_{ab}$ dan koefisien delokalisasi $\alpha^2 = (H_{ab}/\tilde\nu)^2$. ||| $H_{ab} = 3660$ cm⁻¹; $\alpha^2 = 0{,}069$
+
+## Subbab 14.13: Aturan 18 elektron dan senyawa organologam
+
+**Dasar**
+
+Hitung elektron valensi Fe(CO)₄(η²-C₂H₄), Mo(CO)₃(η⁶-C₆H₆), [Mn(CO)₅]⁻, dan W(CO)₆. ||| semuanya 18
+Hitung elektron valensi Cp₂TiCl₂. ||| $4 + 10 + 2 = 16$
+Ramalkan rumus karbonil monomer rutenium dan osmium yang mengikuti aturan 18 elektron. ||| Ru(CO)₅, Os(CO)₅
+
+**Menengah**
+
+@fe2co9 [P] Fe₂(CO)₉ mempunyai tiga CO jembatan dan enam CO ujung. Tunjukkan bahwa setiap Fe mencapai 18 elektron bila ada ikatan Fe–Fe. ||| $8 + 6 + 3 + 1 = 18$
+Fragmen organik apa yang isolobal dengan Fe(CO)₄ dan Os(CO)₄? Senyawa organik apa yang sepadan dengan Os₃(CO)₁₂? ||| CH₂; siklopropana
+Hitung elektron valensi Fe(CO)₂(NO)₂ dengan NO linear (pemberi 3 elektron). ||| $8 + 4 + 6 = 18$
+Kompleks Vaska, IrCl(CO)(PPh₃)₂, bereaksi dengan H₂. Hitung elektron sebelum dan sesudah reaksi. ||| 16 → 18
+
+**Tantangan ★**
+
+★ Ion ferosenium [Cp₂Fe]⁺ mempunyai berapa elektron valensi dan elektron tak berpasangan? Mengapa $\mu_\text{eff}$ terukur (sekitar 2,3 µ_B) di atas nilai spin saja? ||| 17; 1; keadaan dasar berdegenerasi orbital ($E$), momentum sudut tidak padam sepenuhnya

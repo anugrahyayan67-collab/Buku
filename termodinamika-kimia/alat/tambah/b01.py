@@ -1,0 +1,38 @@
+import sys, os; sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
+from tebal import soal
+N = 1
+S = {
+'1.1': ['Berapa mol air terdapat dalam 1,00 m³ air cair (ρ = 0,997 g cm⁻³)? Apakah jumlah zat besaran intensif atau ekstensif? ||| $5{,}53 \\times 10^4$ mol; ekstensif',
+        'Sebutkan dua variabel keadaan yang cukup untuk menentukan keadaan 1 mol gas murni, dan jelaskan mengapa variabel ketiga tidak bebas. ||| misalnya *p* dan *T*; *V* ditentukan oleh persamaan keadaan',
+        'Kopi panas dalam cangkir terbuka: sistem apa, dan apa yang melintasi batasnya? ||| terbuka; uap air (materi) dan kalor'],
+'1.2': ['Pada suhu berapa skala Celsius dan Fahrenheit menunjukkan angka yang sama? Nyatakan juga 310,15 K dalam °F. ||| −40; 98,6 °F',
+        'Termometer gas bervolume tetap menunjukkan 0,0500 bar di titik tripel air dan 0,0683 bar di dalam air mendidih. Berapa suhu air mendidih menurut termometer ini? ||| 373,1 K',
+        'Mengapa skala kelvin tidak memakai tanda derajat, dan mengapa selisih 1 K sama dengan selisih 1 °C? ||| kelvin satuan SI mutlak; kedua skala hanya bergeser 273,15'],
+'1.3': ['Berapa tinggi kolom air (ρ = 997 kg m⁻³) yang setara dengan 1,00 atm? Mengapa barometer air tidak praktis? ||| 10,4 m; terlalu tinggi',
+        'Ban sepeda dipompa sampai pengukur menunjukkan 32 psi (1 psi = 6,895 kPa). Berapa tekanan mutlak di dalam ban dalam kPa? ||| 322 kPa (terbaca 221 kPa + 101 kPa)',
+        'Manometer berisi minyak (ρ = 850 kg m⁻³) menunjukkan selisih tinggi 18,0 cm. Berapa selisih tekanannya dalam Pa dan dalam mmHg? ||| 1500 Pa; 11,3 mmHg'],
+'1.4': ['Ban mobil diisi sampai pengukur menunjukkan 2,20 bar pada 15 °C. Setelah perjalanan jauh suhunya 45 °C. Berapa bacaan pengukur sekarang bila volumenya tetap? (Tekanan udara 1,013 bar.) ||| 2,53 bar (tekanan mutlak naik dari 3,21 ke 3,55 bar)',
+        'Balon cuaca berisi 3,00 L gas pada 1,00 atm dan 25 °C naik ke ketinggian dengan tekanan 0,500 atm dan suhu −20 °C. Berapa volumenya? ||| 5,09 L',
+        'Mengapa hukum Charles hanya berlaku bila suhu dinyatakan dalam kelvin, tidak dalam °C? ||| $V \\propto T$ hanya bila nol skala suhu adalah nol mutlak'],
+'1.5': ['Hitung volume molar gas ideal pada 0 °C dan 1 bar, lalu pada 0 °C dan 1 atm. ||| 22,71 L mol⁻¹; 22,41 L mol⁻¹',
+        'Ruang kuliah berukuran 4,0 m × 5,0 m × 3,0 m berisi udara pada 1,00 atm dan 25 °C. Berapa mol dan berapa kilogram udara di dalamnya ($M$ = 28,97 g mol⁻¹)? ||| 2450 mol; 71 kg',
+        'Suatu gas mempunyai massa jenis 1,25 g L⁻¹ pada 0 °C dan 1,00 atm. Berapa massa molarnya, dan gas apa yang mungkin? ||| 28,0 g mol⁻¹; N₂ atau CO',
+        '@airbag [P] Kantong udara mobil mengembang karena reaksi $2\\,\\text{NaN}_3(s) \\to 2\\,\\text{Na}(s) + 3\\,\\text{N}_2(g)$. Berapa gram NaN₃ yang diperlukan untuk mengisi kantong 60,0 L sampai 1,15 atm pada 25 °C? ||| 2,82 mol N₂; 122 g NaN₃'],
+'1.6': ['Udara kering terdiri atas N₂ 78,08%, O₂ 20,95%, Ar 0,93%, dan CO₂ 0,04% (fraksi mol). Hitung massa molar rata-ratanya. ||| 28,97 g mol⁻¹',
+        'Di ketinggian 5500 m tekanan udara sekitar 0,50 atm. Berapa tekanan parsial O₂, dan mengapa pendaki merasa sesak napas? ||| 0,105 atm (10,6 kPa); separuh nilai di permukaan laut',
+        'Penyelam dalam memakai campuran helium–oksigen. Bila tekanan total di kedalaman 10 atm dan tekanan parsial O₂ harus 0,21 atm, berapa fraksi mol O₂ campuran itu? ||| 0,021',
+        'Campuran 50% massa He dan 50% massa O₂. Berapa fraksi mol He? ||| 0,889'],
+'1.7': ['Berapa energi kinetik translasi total 1,00 mol gas ideal pada 300 K? Apakah jawabannya bergantung pada jenis gas? ||| 3,74 kJ; tidak',
+        'Pemisahan isotop uranium memanfaatkan gas UF₆. Berapa perbandingan $v_\\text{rms}$ ²³⁵UF₆ terhadap ²³⁸UF₆? ||| 1,0043',
+        'Hitung $v_\\text{rms}$ H₂ pada 20 K, suhu hidrogen cair. ||| 497 m s⁻¹'],
+'1.8': ['Hitung $v_\\text{mp}$, $\\bar v$, dan $v_\\text{rms}$ untuk Cl₂ (*M* = 70,9 g mol⁻¹) pada 25 °C. ||| 264; 298; 324 m s⁻¹',
+        'Dengan integrasi numerik sebaran Maxwell–Boltzmann, hitung fraksi molekul N₂ yang lebih cepat dari 1000 m s⁻¹ pada 298 K dan pada 1000 K. ||| 0,010; 0,34',
+        'Kelajuan lepas dari Bumi 11,2 km s⁻¹. Bandingkan dengan $v_\\text{mp}$ H₂ di atmosfer atas (≈ 1000 K), lalu jelaskan mengapa Bumi kehilangan hidrogen tetapi tidak nitrogen. ||| 2,87 km s⁻¹; ekor sebaran H₂ jauh lebih panjang ke kelajuan tinggi'],
+'1.9': ['Volume yang sama gas X berefusi dalam 1,00 menit, sedangkan O₂ dalam 2,40 menit pada kondisi yang sama. Berapa massa molar X? ||| 5,56 g mol⁻¹',
+        'Kapas yang dibasahi NH₃ dan HCl pekat diletakkan di kedua ujung tabung 100 cm. Pada jarak berapa dari ujung NH₃ cincin putih NH₄Cl terbentuk menurut hukum Graham? ||| 59 cm (dalam praktik sedikit kurang)',
+        'Berapa faktor pemisahan satu tahap efusi ²³⁵UF₆/²³⁸UF₆, dan kira-kira berapa tahap diperlukan untuk menaikkan perbandingan isotop sebesar faktor 5? ||| 1,0043; ln 5/ln 1,0043 ≈ 375 tahap'],
+'1.10': ['Hitung jalan bebas rata-rata N₂ (*d* = 0,37 nm) pada 25 °C dan 1,00 atm, lalu nyatakan sebagai kelipatan diameter molekulnya. ||| 67 nm; ≈ 180 kali *d*',
+         'Hitung frekuensi tumbukan satu molekul N₂ pada 25 °C dan 1,00 atm, dan selang waktu rata-rata antartumbukan. ||| $7{,}1 \\times 10^9$ s⁻¹; 0,14 ns',
+         'Pada tekanan berapa jalan bebas rata-rata N₂ pada 25 °C mencapai 10 cm, ukuran ruang hampa sebuah alat? ||| 0,068 Pa ($5{,}1 \\times 10^{-4}$ torr)'],
+}
+for k, b in S.items(): print(k, soal(N, k, b))

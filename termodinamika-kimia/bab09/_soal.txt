@@ -1,0 +1,129 @@
+## Subbab 9.1: Besaran molar parsial
+
+> Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹ dan, kecuali disebutkan lain, *T* = 298,15 K. Volume molar etanol murni 58,68 dan air murni 18,07 cm³ mol⁻¹. Soal bertanda **[P]** dibahas di akhir bab.
+
+Apa yang dimaksud volume molar parsial? Mengapa ia bergantung pada komposisi? ||| $(\partial V/\partial n_\text{J})_{T,p,n'}$; bergantung pada molekul tetangga
+Suatu campuran berisi 2,00 mol A dan 3,00 mol B. Pada komposisi itu, $V_\text{A} = 40{,}0$ dan $V_\text{B} = 55{,}0$ cm³ mol⁻¹. Hitung volume campuran. ||| 245 cm³
+Dalam campuran ideal, berapa volume molar parsial setiap komponen? ||| sama dengan volume molar zat murninya
+
+Pada $x_\text{etanol} = 0{,}40$, $V_\text{etanol} = 57{,}19$ dan $V_\text{air} = 17{,}48$ cm³ mol⁻¹. Hitung volume 1,00 mol campuran dan volume pencampurannya. ||| 33,36 cm³; −0,95 cm³
+Mengapa (9.2) hanya boleh dipakai dengan volume molar parsial pada komposisi campuran akhir? ||| volume molar parsial berubah dengan komposisi
+
+Satu mol air ditambahkan ke danau etanol murni. Berapa kira-kira pertambahan volumenya (lihat Gambar 9.2)? ||| sekitar 14 cm³
+
+
+Sebutkan tiga besaran molar parsial selain volume, dan tuliskan definisinya sebagai turunan parsial. ||| $H_\text{A} = (\partial H/\partial n_\text{A})_{T,p,n_\text{B}}$, demikian pula *S* dan *G* (= μ)
+Mengapa besaran molar parsial adalah besaran intensif? ||| perbandingan dua besaran ekstensif; tidak bergantung ukuran sampel, hanya komposisi
+Volume total campuran adalah $V = n_\text{A}V_\text{A} + n_\text{B}V_\text{B}$. Mengapa rumus ini benar walaupun $V_\text{A}$ dan $V_\text{B}$ berubah dengan komposisi? ||| teorema Euler: *V* fungsi homogen derajat satu dalam jumlah mol
+Mengapa volume molar parsial dapat bernilai negatif, sedangkan volume molar zat murni tidak pernah? ||| menyatakan perubahan volume larutan, bukan ruang yang ditempati molekul; ion kecil bermuatan besar memampatkan air di sekitarnya
+
+## Subbab 9.2: Volume molar parsial
+
+Dengan rumus Contoh 9.2, hitung volume molar parsial NaCl dan volume larutan pada *b* = 0,100 mol kg⁻¹. ||| 17,48 cm³ mol⁻¹; 1004,68 cm³
+Mengapa volume molar parsial MgSO₄ dalam larutan encer dapat negatif? ||| elektrostriksi: air di sekitar ion menyusut lebih banyak daripada volume ion
+
+@potong [P] Tunjukkan bahwa garis singgung pada kurva $V_\text{m}(x_\text{B})$ campuran dua zat memotong $x_\text{B} = 0$ di $V_\text{A}$ dan $x_\text{B} = 1$ di $V_\text{B}$. ||| lihat pembahasan
+Dengan rumus Contoh 9.2, hitung volume molar parsial air pada *b* = 0,500 mol kg⁻¹. ||| 18,063 cm³ mol⁻¹
+Berapa volume etanol murni dan air murni yang diperlukan untuk membuat 1000 cm³ campuran dengan $x_\text{etanol} = 0{,}30$ (data Contoh 9.3)? ||| 598 cm³ etanol, 430 cm³ air
+
+Pada larutan sukrosa dengan 1,000 kg air, volume 1063,9; 1066,1; dan 1068,3 cm³ untuk 0,290; 0,300; dan 0,310 mol sukrosa. Taksir volume molar parsial sukrosa. ||| 220 cm³ mol⁻¹
+
+Dari rumus Contoh 9.2, tunjukkan bahwa $V_\text{air} = (1002{,}96 - 0{,}885\,b^{3/2} - 0{,}12\,b^2)/55{,}51$ cm³ mol⁻¹. ||| dari $V = n_\text{air}V_\text{air} + bV_\text{NaCl}$
+
+
+Dalam campuran etanol–air pada suatu komposisi, $V_\text{etanol}$ = 56,0 dan $V_\text{air}$ = 17,0 cm³ mol⁻¹. Hitung volume campuran 1,00 mol etanol dan 1,00 mol air, dan bandingkan dengan jumlah volume murninya. ||| 73,0 cm³ lawan 76,8 cm³
+Volume molar parsial NaCl dalam larutan encer sekitar 16,6 cm³ mol⁻¹. Berapa pertambahan volume bila 0,500 mol NaCl dilarutkan dalam 1 kg air? ||| ≈ 8,3 cm³
+Volume molar parsial MgSO₄ dalam larutan sangat encer sekitar −1,4 cm³ mol⁻¹. Apa yang terjadi pada volume larutan bila 0,10 mol garam ditambahkan, dan mengapa? ||| berkurang 0,14 cm³; ion menarik dan memampatkan molekul air (elektrostriksi)
+Jelaskan cara membaca volume molar parsial kedua komponen dari satu garis singgung pada kurva $V_\text{m}$ terhadap *x* (Gambar 9.1). ||| perpotongan garis singgung dengan sumbu $x$ = 0 dan $x$ = 1
+
+## Subbab 9.3: Potensial kimia
+
+Tuliskan persamaan fundamental (9.5) untuk campuran dua zat A dan B. ||| $dG = -S\,dT + V\,dp + \mu_\text{A}dn_\text{A} + \mu_\text{B}dn_\text{B}$
+Potensial kimia zat J dalam fasa α adalah −20,0 kJ mol⁻¹ dan dalam fasa β −22,5 kJ mol⁻¹. Ke arah mana J berpindah? Berapa Δ*G* bila 0,10 mol berpindah? ||| α → β; −0,25 kJ
+Mengapa oksigen dan karbon dioksida dapat melewati membran yang sama dalam arah berlawanan? ||| setiap zat mengikuti potensial kimianya sendiri
+
+Turunkan $(\partial\mu_\text{J}/\partial p)_{T,n} = V_\text{J}$ dari (9.5). ||| uji eksak pada turunan campuran $\partial^2G/\partial p\,\partial n_\text{J}$
+Tekanan osmotik darah sekitar 7,7 bar. Berapa selisih potensial kimia air murni dan air dalam darah? ||| 14 J mol⁻¹
+Pada pabrik osmosis balik, air laut ditekan 60 bar. Berapa kenaikan potensial kimia air di sisi air laut, dan apakah air mengalir ke sisi air tawar (Contoh 9.7)? ||| +108 J mol⁻¹; ya, karena melebihi 47,5 J mol⁻¹
+
+Mengapa potensial kimia disebut "suhu bagi materi"? ||| menentukan arah aliran zat seperti suhu menentukan arah aliran kalor
+Iodin dalam sistem air–CCl₄ setimbang. Bila sedikit CCl₄ murni ditambahkan, ke mana iodin berpindah mula-mula? ||| dari air ke CCl₄ (μ di CCl₄ turun)
+
+Berapa kenaikan potensial kimia air cair bila tekanannya dinaikkan 100 bar? Bandingkan dengan selisih potensial kimia air dan es pada −10 °C (Contoh 8.2). ||| 181 J mol⁻¹; sebanding dengan 220 J mol⁻¹
+
+
+Hitung $\mu_\text{A} - \mu_\text{A}^*$ pada 25 °C untuk $x_\text{A}$ = 0,50 dan 0,90 dalam campuran ideal. ||| −1,72 dan −0,26 kJ mol⁻¹
+Hitung tekanan osmotik larutan sukrosa 0,10 mol L⁻¹ pada 25 °C. ||| 248 kPa
+Iodin terbagi antara CCl₄ dan air dengan *K* = 85. Berapa fraksi iodin yang tertinggal dalam 50 mL air setelah diekstraksi sekali dengan 10 mL CCl₄, dan setelah dua kali dengan 5 mL? ||| 5,6%; 1,1%
+Dari Gambar 9.3, mengapa membuang sisa kotoran yang tinggal sedikit memerlukan usaha paling besar? ||| μ kotoran sangat rendah pada $x$ kecil; diperlukan kerja besar untuk mengeluarkannya
+Mengapa potensial kimia menentukan arah perpindahan zat antarfasa, padahal konsentrasi tidak selalu? ||| zat berpindah ke μ lebih rendah; μ juga memuat interaksi dan keadaan standar setiap fasa
+
+## Subbab 9.4: Persamaan Gibbs–Duhem
+
+Dalam campuran dengan $x_\text{A} = 0{,}60$, potensial kimia A naik 30 J mol⁻¹. Berapa perubahan potensial kimia B? ||| −45 J mol⁻¹
+Pada $x_\text{A} = 0{,}25$, volume molar parsial A naik 0,10 cm³ mol⁻¹. Berapa perubahan volume molar parsial B? ||| −0,033 cm³ mol⁻¹
+
+@gd [P] Turunkan persamaan Gibbs–Duhem dari $G = \sum n_\text{J}\mu_\text{J}$ dan (9.5). ||| lihat pembahasan
+Mengapa potensial kimia zat terlarut dalam larutan encer jauh lebih peka terhadap komposisi daripada potensial kimia pelarut? ||| $d\mu_\text{B} = -(x_\text{A}/x_\text{B})d\mu_\text{A}$ dengan $x_\text{A}/x_\text{B}$ besar
+Bagaimana Gibbs–Duhem dipakai untuk memperoleh potensial kimia sukrosa dalam air? ||| dari tekanan uap air pada berbagai konsentrasi, lalu diintegralkan
+
+Bila $\mu_\text{A} = \mu_\text{A}^* + RT\ln x_\text{A} + w x_\text{B}^2$, dengan *w* tetap, tentukan $\mu_\text{B}$ dengan Gibbs–Duhem. ||| $\mu_\text{B} = \mu_\text{B}^* + RT\ln x_\text{B} + w x_\text{A}^2$
+
+Tunjukkan bahwa untuk zat murni, bentuk lengkap Gibbs–Duhem $S\,dT - V\,dp + n\,d\mu = 0$ memberi $d\mu = -S_\text{m}\,dT + V_\text{m}\,dp$. ||| bagi dengan *n*
+@margules [P] Dalam suatu campuran biner, volume molar parsial A mengikuti $V_\text{A} = V^*_\text{m,A} + a\,x_\text{B}^2$ pada semua komposisi, dengan *a* tetapan. (a) Pakai persamaan Gibbs–Duhem untuk menentukan $V_\text{B}$. (b) Tunjukkan bahwa $\Delta_\text{mix}V_\text{m} = a\,x_\text{A}x_\text{B}$. (c) Pada komposisi berapa penyusutan paling besar, dan berapa nilainya bila $a = -3{,}0$ cm³ mol⁻¹? ||| (a) $V^*_\text{m,B} + a\,x_\text{A}^2$; (c) $x = 0{,}5$; −0,75 cm³ mol⁻¹
+
+
+Dalam campuran biner pada $x_\text{B}$ = 0,30, $V_\text{B}$ naik 0,80 cm³ mol⁻¹ untuk suatu perubahan kecil komposisi. Berapa perubahan $V_\text{A}$? ||| −0,34 cm³ mol⁻¹
+Tunjukkan dari persamaan Gibbs–Duhem bahwa bila $\mu_\text{B}$ naik, $\mu_\text{A}$ harus turun. ||| $x_\text{A}d\mu_\text{A} = -x_\text{B}d\mu_\text{B}$
+Mengapa persamaan Gibbs–Duhem dapat dipakai untuk memeriksa konsistensi data tekanan uap campuran? ||| kedua koefisien aktivitas tidak bebas; data yang melanggar hubungan itu pasti salah ukur
+Pada Gambar 9.2, mengapa ketika $V_\text{etanol}$ mencapai minimum, $V_\text{air}$ mencapai maksimum pada komposisi yang sama? ||| Gibbs–Duhem: kemiringan keduanya berlawanan tanda dan nol bersamaan
+
+## Subbab 9.5: Potensial kimia gas ideal dan gas nyata
+
+Hitung $\mu - \mu^\circ$ untuk N₂ dalam udara pada 1 bar ($p_{\text{N}_2} = 0{,}79$ bar). ||| −584 J mol⁻¹
+Hitung $\Delta_\text{mix}G$ dan $\Delta_\text{mix}S$ untuk mencampur 1,00 mol He dan 1,00 mol Ar. ||| −3,44 kJ; +11,5 J K⁻¹
+Seorang pendaki berada di ketinggian tempat tekanan parsial O₂ di udara 0,13 bar. Berapa penurunan potensial kimia O₂ dibandingkan di permukaan laut (0,21 bar) pada 37 °C? ||| −1,24 kJ mol⁻¹
+Apa yang dimaksud fugasitas? ||| tekanan efektif: tekanan gas ideal dengan potensial kimia yang sama
+
+@campur [P] Tunjukkan bahwa $\Delta_\text{mix}G$ per mol campuran dua gas ideal paling negatif pada $x = 0{,}5$, dan hitung nilainya pada 25 °C. ||| −1,72 kJ mol⁻¹
+Hitung kerja minimum untuk memperoleh 1,00 mol N₂ murni dari atmosfer. Mengapa lebih murah daripada O₂? ||| 584 J; fraksi mol N₂ lebih besar
+Hitung koefisien fugasitas dan fugasitas N₂ pada 50 bar ($B = -4{,}5$ cm³ mol⁻¹). ||| 0,991; 49,5 bar
+Untuk H₂ pada 25 °C, $B = +14{,}1$ cm³ mol⁻¹. Hitung fugasitasnya pada 100 bar. Mengapa lebih besar daripada tekanannya? ||| 106 bar; tolakan dominan
+Dari Gambar 9.4, taksir fugasitas N₂ pada 200 bar. ||| sekitar 186 bar
+
+Hitung kenaikan potensial kimia O₂ bila udara dimampatkan dari 1 bar ke 50 bar pada 25 °C. ||| 9,70 kJ mol⁻¹
+Dari Gambar 9.4, taksir selisih $\mu_\text{nyata} - \mu_\text{ideal}$ untuk H₂ pada 300 bar dan 25 °C. ||| sekitar +0,57 kJ mol⁻¹ (φ ≈ 1,26)
+Mengapa tabel $\Delta_\text{f}G^\circ$ tetap dapat dipakai untuk gas nyata? ||| keadaan standarnya gas ideal hipotetis pada 1 bar; penyimpangan masuk ke φ
+
+Dari $B = b - a/RT$ (Bab 2), hitung koefisien virial kedua CH₄ pada 25 °C menurut van der Waals, lalu koefisien fugasitasnya pada 10 bar. ||| −49,3 cm³ mol⁻¹; 0,980
+
+@fug [P] Turunkan $\ln\varphi = \int_0^p (Z - 1)\,dp/p$ dari $d\mu = V_\text{m}\,dp$, lalu pakai untuk gas yang mengikuti $Z = 1 + Bp/RT$. ||| $\ln\varphi = Bp/RT$
+Hitung kenaikan potensial kimia O₂ bila tekanan parsialnya naik dari 0,21 bar ke 1,00 bar pada 25 °C. ||| +3,87 kJ mol⁻¹
+Hitung kenaikan potensial kimia 1 mol gas ideal yang dimampatkan dari 1 bar ke 100 bar pada 25 °C. ||| +11,4 kJ mol⁻¹
+Dengan $\ln\varphi \approx Bp/RT$, hitung φ N₂ pada 25 °C dan 50 bar ($B$ = −5,2 cm³ mol⁻¹) dan CO₂ pada 10 bar ($B$ = −125 cm³ mol⁻¹). ||| 0,990; 0,951
+Koefisien fugasitas H₂ pada 300 bar dan 25 °C sekitar 1,20. Berapa fugasitasnya, dan mengapa φ > 1? ||| 360 bar; tolakan (volume molekul) lebih penting daripada tarikan yang sangat lemah
+Dari Gambar 9.5, berapa tekanan efektif CO₂ pada 45 bar dan 300 K? ||| ≈ 37 bar (φ ≈ 0,81)
+
+## Subbab 9.6: Entalpi molar parsial dan kalor pelarutan
+
+Campuran dua cairan mengikuti model reguler dengan *w* = +4,0 kJ mol⁻¹. Hitung $\Delta_\text{campur}H_\text{m}$, $H_\text{A} - H^*_\text{A}$, dan $H_\text{B} - H^*_\text{B}$ pada $x_\text{B}$ = 0,50. Apakah pencampuran ini menyerap atau melepas kalor? ||| +1,0 kJ mol⁻¹; +1,0; +1,0; menyerap
+Untuk larutan reguler dengan *w* = −6,0 kJ mol⁻¹, hitung $H_\text{A} - H^*_\text{A}$, $H_\text{B} - H^*_\text{B}$, dan $\Delta_\text{campur}H_\text{m}$ pada $x_\text{B}$ = 0,10. ||| −0,06; −4,86; −0,54 kJ mol⁻¹
+Untuk larutan reguler yang sama (*w* = −6,0 kJ mol⁻¹), hitung entalpi pelarutan **integral** per mol B ketika B dilarutkan ke dalam A sampai $x_\text{B}$ = 0,25, dan bandingkan dengan entalpi pelarutan **diferensial** B pada komposisi itu. ||| integral −4,5 kJ mol⁻¹; diferensial −3,375 kJ mol⁻¹
+Dengan $\Delta_\text{f}H^\circ$ HCl(g) = −92,31 dan HCl(aq, encer tak hingga) = −167,16 kJ mol⁻¹, hitung entalpi pelarutan HCl(g) dalam air. ||| −74,85 kJ mol⁻¹
+Sebanyak 7,46 g KCl (0,100 mol) dilarutkan dalam 100 g air. Dengan $\Delta_\text{sol}H$ = +17,2 kJ mol⁻¹ dan kapasitas kalor jenis 4,18 J g⁻¹ K⁻¹, berapa perubahan suhunya? ||| turun 3,8 K
+Sebanyak 5,0 mL asam sulfat pekat (98 persen, 1,84 g mL⁻¹) dituang ke dalam 250 mL air. Taksir batas atas kenaikan suhu (kapasitas kalor jenis 4,0 J g⁻¹ K⁻¹). ||| 8,4 K
+Untuk larutan ideal, hitung entropi molar parsial A relatif terhadap zat murni, $S_\text{A} - S^*_\text{A}$, pada $x_\text{A}$ = 0,75. ||| +2,39 J K⁻¹ mol⁻¹
+Mengapa air tidak boleh dituangkan ke dalam asam sulfat pekat, padahal kalor totalnya sama dengan bila asam dituang ke dalam air? ||| tetes pertama air berada dalam asam hampir murni (entalpi molar parsial paling negatif) dan kalornya terkumpul di massa yang sangat kecil
+
+## Subbab 9.7: Potensial kimia dalam medan gravitasi dan medan listrik
+
+Hitung tinggi skala *RT*/*Mg* untuk CO₂ dan N₂ pada 288 K. ||| 5,55 km; 8,71 km
+Bila atmosfer berada dalam kesetimbangan difusi tanpa pengadukan pada 288 K, berapa kali perbandingan tekanan parsial CO₂ terhadap N₂ pada ketinggian 1 km dibanding di permukaan? ||| 0,937
+Hitung perbandingan konsentrasi mioglobin (*M* = 17,8 kg mol⁻¹, $\bar v$ = 0,741 cm³ g⁻¹) pada *r* = 7,2 cm terhadap 6,8 cm dalam ultrasentrifus 8000 putaran per menit pada 20 °C. ||| 1,45
+@sed [P] (a) Pada kondisi yang sama dengan soal sebelumnya, hitung perbandingan konsentrasi untuk imunoglobulin G (*M* = 150 kg mol⁻¹, $\bar v$ = 0,739 cm³ g⁻¹). (b) Berapa putaran per menit yang diperlukan agar perbandingan untuk mioglobin menjadi 4,0? ||| (a) 23,9; (b) sekitar 15 400 putaran per menit
+Berapa fraksi massa protein dengan $\bar v$ = 0,73 cm³ g⁻¹ yang "terasa" di dalam air (ρ = 0,998 g cm⁻³)? ||| 0,27
+Hitung potensial Nernst membran untuk Cl⁻ pada 37 °C, dengan [Cl⁻] 10 mmol L⁻¹ di dalam dan 110 mmol L⁻¹ di luar sel. ||| −64 mV (dalam terhadap luar)
+Untuk sel pada soal sebelumnya dengan $\phi_\text{dalam} - \phi_\text{luar}$ = −70 mV, hitung $\Delta\tilde\mu$ untuk memindahkan Cl⁻ dari luar ke dalam. Ke mana Cl⁻ cenderung bergerak? ||| +0,57 kJ mol⁻¹; sedikit keluar (hampir setimbang)
+@proton [P] Membran dalam mitokondria memisahkan matriks (lebih basa 0,75 satuan pH dan lebih negatif 0,16 V) dari ruang antarmembran. Hitung $\Delta\tilde\mu$ untuk memindahkan satu mol H⁺ dari ruang antarmembran ke dalam matriks pada 37 °C. Bila sintesis ATP di dalam sel memerlukan sekitar 53 kJ mol⁻¹, paling sedikit berapa proton harus masuk untuk setiap ATP? ||| −19,9 kJ mol⁻¹; paling sedikit 3 proton
+Mengapa sebaran konsentrasi dalam ultrasentrifus tidak bergantung pada bentuk molekul, padahal laju sedimentasinya bergantung? ||| kesetimbangan hanya ditentukan oleh potensial (termodinamika); laju ditentukan oleh gesekan yang bergantung pada bentuk
+

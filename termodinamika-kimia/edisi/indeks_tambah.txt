@@ -1,0 +1,299 @@
+sistem terbuka
+sistem tertutup
+sistem terisolasi
+lingkungan
+variabel keadaan
+besaran ekstensif
+besaran intensif
+volume molar
+kesetimbangan termal
+hukum ke-nol termodinamika
+suhu termodinamika
+kelvin
+nol mutlak
+titik tripel
+pascal
+tekanan standar
+barometer
+manometer
+hukum Boyle
+hukum Charles
+asas Avogadro
+isoterm
+isobar
+persamaan gas ideal
+gas ideal
+tetapan gas
+massa molar
+tekanan parsial
+hukum Dalton
+fraksi mol
+teori kinetik
+tetapan Boltzmann
+kelajuan rms
+sebaran Maxwell–Boltzmann
+faktor Boltzmann
+efusi
+difusi
+hukum Graham
+penampang lintang tumbukan
+frekuensi tumbukan
+jalan bebas rata-rata
+jalan acak
+faktor kompresi
+gaya dispersi London
+potensial Lennard-Jones
+persamaan van der Waals
+tekanan uap
+konstruksi Maxwell
+suhu kritis
+titik kritis
+variabel tereduksi
+hukum keadaan sehubungan
+persamaan virial
+koefisien virial kedua
+suhu Boyle
+persamaan Redlich–Kwong
+persamaan Peng–Robinson
+faktor asentrik
+efek Joule–Thomson
+koefisien Joule–Thomson
+suhu inversi
+proses Linde
+fluida superkritis
+energi dalam
+kerja
+kalor
+fungsi keadaan
+konvensi tanda IUPAC
+kerja ekspansi
+ekspansi bebas
+proses reversibel
+diatermik
+proses adiabatik
+proses isotermal
+kapasitas kalor
+kapasitas kalor molar
+kalorimeter
+hukum pertama termodinamika
+mesin abadi jenis pertama
+diferensial eksak
+diferensial tak eksak
+perbandingan kapasitas kalor
+asas ekuipartisi energi
+entalpi
+termokimia
+eksoterm
+endoterm
+bom kalorimeter
+kalorimeter tekanan tetap
+entalpi peleburan
+entalpi penguapan
+entalpi sublimasi
+persamaan termokimia
+keadaan standar
+hukum Hess
+entalpi pembentukan standar
+keadaan acuan
+entalpi ikatan
+entalpi ikatan rata-rata
+hukum Kirchhoff
+proses spontan
+hukum kedua termodinamika
+mesin kalor
+siklus Carnot
+efisiensi Carnot
+siklus Otto
+skala suhu termodinamika
+eksergi
+koefisien kinerja
+mesin pendingin
+pompa kalor
+entropi
+ketaksamaan Clausius
+aturan Trouton
+rumus Boltzmann
+keadaan mikro
+entropi residu
+entropi pencampuran
+paradoks Gibbs
+hukum ketiga termodinamika
+entropi molar standar
+entropi reaksi standar
+entropi lingkungan
+energi bebas
+energi bebas Helmholtz
+energi bebas Gibbs
+kerja maksimum
+kerja bukan-ekspansi
+persamaan fundamental
+variabel alami
+hubungan Maxwell
+koefisien muai volume
+kompresibilitas isotermal
+tekanan dalam
+persamaan keadaan termodinamika
+persamaan Gibbs–Helmholtz
+energi Gibbs pembentukan standar
+kestabilan termodinamika
+stabil secara kinetik
+fasa
+polimorf
+transisi fasa
+suhu transisi
+diagram fasa
+dingin-lewat
+metastabil
+garis batas fasa
+persamaan Clapeyron
+persamaan Clausius–Clapeyron
+proses Bergeron
+pengeringan beku
+opalesensi kritis
+aturan fasa
+derajat kebebasan
+besaran molar parsial
+volume molar parsial
+metode garis singgung
+metode titik potong
+elektrostriksi
+potensial kimia
+persamaan Gibbs–Duhem
+potensial kimia standar
+energi Gibbs pencampuran
+fugasitas
+koefisien fugasitas
+gas ideal hipotetis
+larutan ideal
+hukum Raoult
+hukum Henry
+larutan encer ideal
+oksigen terlarut
+penyakit dekompresi
+sifat koligatif
+penurunan tekanan uap
+kenaikan titik didih
+penurunan titik beku
+tetapan krioskopik
+tetapan ebulioskopik
+metode Rast
+osmosis
+tekanan osmotik
+persamaan van 't Hoff
+isotonik
+osmosis balik
+desalinasi
+aktivitas
+koefisien aktivitas
+penyimpangan positif
+penyimpangan negatif
+aktivitas air
+larutan reguler
+energi Gibbs ekses
+atmosfer ionik
+hukum pembatas Debye–Hückel
+kekuatan ion
+koefisien osmotik
+komponen
+diagram tekanan–komposisi
+diagram suhu–komposisi
+garis hubung
+aturan tuas
+titik gelembung
+titik embun
+distilasi fraksional
+pelat teoretis
+azeotrop
+distilasi azeotropik
+saringan molekul
+suhu kritis kelarutan atas
+suhu kritis kelarutan bawah
+kurva kelarutan
+distilasi uap
+minyak atsiri
+kelarutan ideal
+titik eutektik
+kurva pendinginan
+pemurnian zona
+diagram segitiga sama sisi
+ekstraksi pelarut
+hukum distribusi Nernst
+salting out
+kemajuan reaksi
+energi Gibbs reaksi
+kuosien reaksi
+tetapan kesetimbangan
+tekanan penguraian
+asas Le Chatelier
+proses Haber–Bosch
+proses kontak
+keadaan standar biokimia
+sel elektrokimia
+reaksi setengah sel
+elektrode
+anode
+katode
+jembatan garam
+diagram sel
+tetapan Faraday
+potensial sel
+elektrode hidrogen standar
+potensial elektrode standar
+persamaan Nernst
+sel konsentrasi
+potensial Nernst
+elektrode kaca
+energi spesifik
+sel bahan bakar
+tegangan termonetral
+overpotensial
+korosi
+anode korban
+termodinamika statistik
+keadaan mikro
+bobot konfigurasi
+asas peluang a priori sama
+pendekatan Stirling
+sebaran Boltzmann
+faktor Boltzmann
+pengali Lagrange
+fungsi partisi
+fungsi partisi kanonik
+panjang gelombang termal
+suhu rotasi karakteristik
+suhu getaran karakteristik
+bilangan simetri
+fungsi Einstein
+padatan Einstein
+hukum Dulong–Petit
+rumus Sackur–Tetrode
+entropi residu
+paradoks Gibbs
+efek isotop
+rumus barometrik
+tinggi skala
+anomali Schottky
+tegangan permukaan
+entalpi permukaan
+persamaan Young–Laplace
+persamaan Young
+sudut kontak
+kerja adhesi
+kenaikan kapiler
+persamaan Kelvin
+kondensasi kapiler
+pematangan Ostwald
+nukleasi homogen
+nukleasi heterogen
+jari-jari kritis
+kelebihan permukaan
+persamaan adsorpsi Gibbs
+surfaktan
+misel
+konsentrasi misel kritis
+efek hidrofobik
+fisisorpsi
+kemisorpsi
+isoterm Langmuir
+isoterm BET
+luas permukaan spesifik

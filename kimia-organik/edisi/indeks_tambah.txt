@@ -1,0 +1,429 @@
+gugus fungsi
+ikatan kovalen
+struktur Lewis
+aturan oktet
+pasangan elektron bebas
+muatan formal
+karbokation
+karbanion
+radikal
+rumus kondensasi
+rumus garis
+derajat ketidakjenuhan
+baji
+hibridisasi
+orbital hibrida
+VSEPR
+karakter s
+ikatan sigma
+ikatan pi
+keelektronegatifan
+ikatan kovalen polar
+momen dipol
+resonansi
+struktur penyumbang
+hibrida resonansi
+terdelokalisasi
+panah lengkung
+gaya antarmolekul
+gaya dispersi London
+gaya dipol–dipol
+ikatan hidrogen
+hidrofilik
+hidrofobik
+misel
+pKa
+gugus karbonil
+fenol
+IUPAC
+gugus alkil
+karbon primer
+karbon sekunder
+karbon tersier
+karbon kuaterner
+isomer struktur
+rantai induk
+sikloalkana
+stereoisomer
+vinil
+alil
+gugus utama
+urutan prioritas
+nama umum
+bisiklik
+atom jembatan
+amina primer
+amina sekunder
+amina tersier
+ester
+amida
+nitril
+anhidrida
+asil halida
+fenil
+benzil
+orto
+meta
+para
+toluena
+anilina
+orbital atom
+elektron valensi
+teori orbital molekul
+orbital ikatan
+orbital antiikatan
+orde ikatan
+HOMO
+LUMO
+terlokalisasi
+asam Brønsted
+basa Brønsted
+asam konjugat
+basa konjugat
+tetapan keasaman
+efek induktif
+ARIO
+efek leveling
+asam Lewis
+basa Lewis
+persamaan Henderson–Hasselbalch
+larutan penyangga
+ekstraksi asam–basa
+perangkap ion
+alkaloid
+selektivitas
+alkana
+konformasi
+proyeksi Newman
+proyeksi kuda-kuda
+konformasi goyang
+konformasi tindih
+anti
+gauche
+tegangan torsi
+tegangan sterik
+hiperkonjugasi
+tegangan cincin
+ikatan pisang
+bentuk kursi
+bentuk perahu
+putar-perahu
+pembalikan kursi
+aksial
+ekuatorial
+interaksi 1,3-diaksial
+nilai A
+dekalin
+steroid
+kalor pembakaran
+bilangan oktana
+stereokimia
+kiral
+akiral
+enansiomer
+diastereomer
+pusat kiral
+bidang cermin
+aturan Cahn–Ingold–Prelog
+konfigurasi R
+konfigurasi S
+aktivitas optik
+polarimeter
+rotasi jenis
+campuran rasemik
+kelebihan enansiomer
+senyawa meso
+proyeksi Fischer
+konvensi D dan L
+alena
+atropisomer
+isomer E/Z
+resolusi
+kromatografi kiral
+model tiga titik
+talidomida
+mekanisme reaksi
+reaksi polar
+nukleofil
+elektrofil
+gugus pergi
+panah berkepala setengah
+langkah serempak
+energi disosiasi ikatan
+energi aktivasi
+persamaan Arrhenius
+diagram energi
+keadaan transisi
+intermediet
+langkah penentu laju
+postulat Hammond
+karbokation
+geseran hidrida
+penataan ulang
+karbanion
+radikal
+reaksi berantai
+inisiasi
+propagasi
+terminasi
+antioksidan
+kendali kinetik
+kendali termodinamik
+alkil halida
+halogenasi radikal
+reaktivitas relatif
+N-bromosuksinimida
+brominasi alilik
+substitusi nukleofilik
+SN1
+SN2
+inversi Walden
+nukleofilisitas
+pelarut protik
+pelarut aprotik polar
+solvolisis
+pasangan ion
+eliminasi
+E1
+E2
+karbon beta
+aturan Zaitsev
+produk Hofmann
+anti-periplanar
+stereospesifik
+tosilat
+mesilat
+pereaksi Grignard
+organolitium
+kuprat Gilman
+kloroflurokarbon
+S-adenosilmetionina
+kalor hidrogenasi
+aturan Bredt
+dehidrasi
+adisi elektrofilik
+aturan Markovnikov
+regioselektif
+geseran hidrida
+geseran metil
+oksimerkurasi
+ion merkurinium
+hidroborasi
+adisi syn
+adisi anti
+ion bromonium
+stereospesifik
+halohidrin
+hidrogenasi katalitik
+katalis Lindlar
+lemak trans
+epoksidasi
+dihidroksilasi
+osmium tetroksida
+ozonolisis
+molozonida
+ozonida
+efek peroksida
+polimerisasi
+derajat polimerisasi
+ion asetilida
+alkilasi asetilida
+tautomer
+enol
+retrosintesis
+ion alkoksida
+ion fenoksida
+natrium borohidrida
+litium aluminium hidrida
+kemoselektivitas
+uji Lucas
+tionil klorida
+fosfor tribromida
+penataan ulang pinakol
+bilangan oksidasi karbon
+pereaksi Jones
+piridinium klorokromat
+oksidasi Swern
+periodinan Dess–Martin
+alkohol dehidrogenase
+gugus pelindung
+silil eter
+kuinon
+hidrokuinon
+autoksidasi
+antioksidan
+vitamin E
+sintesis eter Williamson
+alkoksimerkurasi
+eter mahkota
+ionofor
+epoksida
+tiol
+sulfida
+disulfida
+sulfoksida
+benzena
+energi resonansi
+aromatisitas
+aturan Hückel
+antiaromatik
+lingkaran Frost
+anion siklopentadienil
+kation tropilium
+piridina
+pirola
+imidazola
+heterosiklik aromatik
+posisi benzilik
+substitusi elektrofilik aromatik
+ion arenium
+efek isotop kinetik
+ion nitronium
+sulfonasi
+alkilasi Friedel–Crafts
+asilasi Friedel–Crafts
+ion asilium
+reduksi Clemmensen
+pengaktif
+penonaktif
+pengarah orto/para
+pengarah meta
+kompleks Meisenheimer
+substitusi nukleofilik aromatik
+benzuna
+gugus penghalang
+gugus karbonil
+aldehida
+keton
+adisi nukleofilik
+zat antara tetrahedral
+hidrat
+sianohidrin
+hemiasetal
+asetal
+ion oksokarbenium
+anomer
+mutarotasi
+glikosida
+imina
+enamina
+karbinolamina
+oksim
+hidrazon
+reduksi Wolff–Kishner
+DIBAL-H
+reaksi Wittig
+ilida fosfor
+oksafosfetana
+oksidasi Baeyer–Villiger
+zat antara Criegee
+lakton
+karbon α
+ion enolat
+enol
+reaksi haloform
+uji iodoform
+asam karboksilat
+ion karboksilat
+karboksilasi
+turunan asam karboksilat
+substitusi asil nukleofilik
+tangga kereaktifan
+klorida asam
+anhidrida asam
+ester
+esterifikasi Fischer
+saponifikasi
+transesterifikasi
+biodiesel
+amida
+resonansi amida
+nitril
+laktam
+trigliserida
+sabun
+misel
+bilangan penyabunan
+polimer kondensasi
+poliester
+nilon
+β-laktam
+penisilin
+aspirin
+amina
+ion amonium kuaterner
+inversi nitrogen
+pKaH
+anilina
+garam hidroklorida
+sintesis Gabriel
+aminasi reduktif
+natrium sianoborohidrida
+sulfonamida
+eliminasi Hofmann
+aturan Hofmann
+garam diazonium
+diazotisasi
+ion nitrosonium
+reaksi Sandmeyer
+pewarna azo
+kopling azo
+metil jingga
+reaksi Chichibabin
+indola
+alkaloid
+neurotransmiter
+surfaktan kationik
+spektroskopi inframerah
+bilangan gelombang
+hukum Hooke
+daerah sidik jari
+spektrometri massa
+ion molekul
+puncak dasar
+aturan nitrogen
+pola isotop
+penataan ulang McLafferty
+ion tropilium
+massa eksak
+resonansi magnet inti
+spin inti
+frekuensi Larmor
+rasio giromagnetik
+transformasi Fourier
+geseran kimia
+perisai
+tetrametilsilana
+anisotropi magnet
+arus cincin
+proton diastereotopik
+proton enantiotopik
+integrasi
+pemecahan spin–spin
+aturan n + 1
+tetapan kopling
+persamaan Karplus
+doblet dari doblet
+pertukaran D2O
+DEPT
+pemisahan proton pita lebar
+sintesis organik
+molekul target
+interkonversi gugus fungsi
+tingkat oksidasi
+analisis retrosintesis
+diskoneksi
+sinton
+padanan sintetik
+kemoselektivitas
+regioselektivitas
+stereoselektivitas
+gugus pelindung
+hasil keseluruhan
+sintesis konvergen
+kimia hijau
+ekonomi atom
+faktor E
+parasetamol
+benzokaina
+ibuprofen

@@ -1,0 +1,15 @@
+# hasil cetak dan berkas antara (dibuat ulang oleh skrip)
+*.pdf
+*.docx
+*.html
+_all.md
+_e2.md
+_buku.md
+_kerja/
+_ed1/
+__pycache__/
+_bab.md
+
+# PDF hasil akhir yang sengaja disimpan
+!pdf/*.pdf
+kirim/

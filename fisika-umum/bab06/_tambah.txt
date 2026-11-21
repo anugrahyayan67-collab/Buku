@@ -1,0 +1,35 @@
+@@RINGKASAN
+| Modulus limbak | $\Delta p = -B\,\Delta V/V$; air $B = 2{,}2 \times 10^9$ Pa; gas ideal (suhu tetap) $B = p$ | 6.10 |
+| Tekanan osmotik | $\Pi = cRT$, $\ c$ = konsentrasi partikel (osmolaritas) | 6.11 |
+@@KUIS
+**6.10** Molekul gas berjauhan, jadi memampatkan gas hanya mengurangi ruang kosong. Molekul zat cair sudah bersentuhan; memampatkannya berarti mendesak awan elektron mereka. **6.11** Dari larutan glukosa ke larutan NaCl, karena NaCl memberi dua kali lebih banyak partikel (0,20 osmol/L).
+@@PERTANYAAN
+Mengapa rem hidraulik memakai minyak, dan mengapa gelembung udara di dalamnya berbahaya?
+Mengapa rumus tekanan osmotik $\Pi = cRT$ sama bentuknya dengan persamaan gas ideal?
+Mengapa buah stroberi yang ditaburi gula menjadi berair?
+Mengapa ikan air tawar mati jika dimasukkan ke air laut?
+Mengapa osmometri lebih cocok untuk menentukan massa molar protein daripada penurunan titik beku?
+@@SOAL
+## Subbab 6.10: Kemampatan dan modulus limbak
+Berapa susut volume 2,0 L air yang tekanannya dinaikkan 50 MPa? ||| 45 mL
+Suatu zat cair menyusut 0,90% ketika tekanannya dinaikkan 200 atm. Berapa modulus limbaknya? ||| $2{,}3 \times 10^9$ Pa
+Berapa massa jenis air laut pada kedalaman 4000 m (massa jenis di permukaan 1025 kg/m³)? ||| 1044 kg/m³
+Berapa persen raksa menyusut pada tekanan 1000 atm? ||| 0,36%
+## Subbab 6.11: Tekanan osmotik
+Berapa tekanan osmotik larutan urea 0,20 mol/L pada 37 °C? ||| 5,1 atm
+Berapa tekanan osmotik larutan CaCl₂ 0,050 mol/L pada 25 °C (terurai sempurna)? ||| 3,7 atm
+@polimer Larutan polimer 2,5 g/L memiliki tekanan osmotik 0,85 mmHg pada 25 °C. Berapa massa molar polimer itu? ||| $5{,}5 \times 10^4$ g/mol
+Berapa gram NaCl tiap liter yang memberi tekanan osmotik 3,0 atm pada 20 °C? ||| 3,6 g
+Air payau berosmolaritas 0,10 osmol/L. Berapa tekanan osmotiknya pada 25 °C dan energi paling sedikit untuk menawarkan 1 m³? ||| 2,4 atm; 0,069 kW·h
+Berapa osmolaritas getah yang dapat mengangkat air setinggi 30 m dengan osmosis pada 25 °C? ||| 0,12 osmol/L
+Sel darah (0,30 osmol/L) dicelupkan ke larutan NaCl 0,50 mol/L pada 37 °C. Ke arah mana air mengalir, dan berapa beda tekanan osmotiknya? ||| keluar dari sel; 18 atm
+@@PEMBAHASAN
+**Soal {{polimer}}.** Ubah tekanan ke pascal: $\Pi = 0{,}85 \times 133{,}3 = 113$ Pa. Konsentrasi molar:
+
+$$
+c = \frac{\Pi}{RT} = \frac{113}{(8{,}314)(298)} = 0{,}0457\ \text{mol/m}^3 .
+$$
+
+Konsentrasi massa $2{,}5\ \text{g/L} = 2500\ \text{g/m}^3$, jadi $M = \dfrac{2500}{0{,}0457} = 5{,}5 \times 10^4$ g/mol.
+
+*Cara berpikir:* tekanan osmotik menghitung **molekul**, bukan massa. Membagi massa per volume dengan molekul per volume memberi massa per molekul, yaitu massa molar. Untuk polimer yang molekulnya tidak sama panjang, hasilnya adalah massa molar **rata-rata jumlah**.

@@ -1,0 +1,121 @@
+## Subbab 12.1: Muatan listrik
+
+> Gunakan $k = 8{,}988 \times 10^9$ N·m²/C², $e = 1{,}602 \times 10^{-19}$ C, $\varepsilon_0 = 8{,}854 \times 10^{-12}$ C²/(N·m²), $ke^2 = 1{,}440$ eV·nm, $m_e = 9{,}109 \times 10^{-31}$ kg, $m_p = 1{,}673 \times 10^{-27}$ kg, 1 eV = 96,49 kJ/mol, 1 D $= 3{,}336 \times 10^{-30}$ C·m, dan $k_BT = 0{,}0257$ eV pada 298 K.
+
+Berapa elektron yang harus dipindahkan untuk memberi muatan +3,2 nC? ||| $2{,}0 \times 10^{10}$
+Berapa besar muatan total semua elektron dalam 1,0 mg besi (55,85 g/mol; 26 elektron tiap atom)? ||| 45 C
+Berapa muatan untuk mengendapkan 0,500 g perak (107,87 g/mol) dari larutan Ag⁺? ||| 447 C
+Nyatakan tetapan Faraday dalam ampere-jam per mol (1 A·h = 3600 C). ||| 26,8 A·h/mol
+
+## Subbab 12.2: Hukum Coulomb
+
+Berapa gaya antara muatan +2,0 μC dan +6,0 μC yang terpisah 15 cm? ||| 4,8 N, tolak
+Dua muatan sama besar 1,0 μC saling menolak dengan gaya 1,0 N. Berapa jaraknya? ||| 9,5 cm
+Berapa gaya tolak antara dua proton yang terpisah 1,0 fm di dalam inti? ||| 230 N
+Muatan +5,0 μC berada di $x = 0$ dan −3,0 μC di $x = 0{,}40$ m. Berapa gaya pada muatan +2,0 μC di $x = 0{,}20$ m? ||| 3,6 N ke arah $+x$
+Muatan +2,0 μC dan +8,0 μC terpisah 60 cm. Di mana muatan ketiga tidak mengalami gaya? ||| 20 cm dari muatan 2,0 μC, di antara keduanya
+@tigasama Tiga muatan +2,0 μC berada di titik-titik sudut segitiga sama sisi bersisi 10 cm. Berapa gaya pada tiap muatan? ||| 6,2 N, menjauhi pusat segitiga
+Muatan +1,0 μC di titik asal, +2,0 μC di (0,20 m; 0), dan +3,0 μC di (0; 0,20 m). Tentukan besar gaya pada muatan di titik asal dan arahnya. ||| 0,81 N; 56° di bawah sumbu $-x$
+Dua bola 1,0 g digantung dengan benang 30 cm dari satu titik dan diberi muatan sama; tiap benang menyimpang 15°. Berapa muatannya? ||| 84 nC
+Berapa gaya tarik antara ion Mg²⁺ dan O²⁻ berjarak 0,21 nm? ||| $2{,}1 \times 10^{-8}$ N
+Berapa gaya tolak pada partikel alfa yang berjarak $1{,}0 \times 10^{-13}$ m dari inti emas ($Z = 79$)? ||| 3,6 N
+
+## Subbab 12.3: Medan listrik
+
+Berapa medan pada jarak 50 cm dari muatan +8,0 nC? ||| 288 N/C
+Muatan uji 2,0 μC mengalami gaya $4{,}0 \times 10^{-3}$ N. Berapa medan di titik itu? ||| 2000 N/C
+Muatan +4,0 nC dan +9,0 nC terpisah 50 cm. Di mana medannya nol? ||| 20 cm dari muatan 4,0 nC
+Muatan +3,0 nC dan −5,0 nC terpisah 20 cm. Berapa medan di titik tengahnya? ||| 7200 N/C, menuju muatan negatif
+@atasgaris Dua muatan +2,0 nC berada di (−3,0 cm; 0) dan (+3,0 cm; 0). Berapa medan di titik (0; 4,0 cm)? ||| $1{,}15 \times 10^4$ N/C, arah $+y$
+Molekul HF memiliki momen dipol 1,82 D. Taksir medannya pada sumbu dipol sejauh 0,50 nm. ||| $8{,}7 \times 10^8$ N/C
+Molekul HCl (1,08 D) berada dalam medan $5{,}0 \times 10^6$ N/C. Hitung $pE$ dan bandingkan dengan $k_BT$ pada 298 K. ||| $1{,}8 \times 10^{-23}$ J; 0,004 $k_BT$
+Berapa rapat muatan pelat yang menghasilkan medan $3{,}0 \times 10^6$ N/C di antara dua pelat sejajar? ||| 27 μC/m²
+Dua pelat sejajar bermuatan ±5,0 μC/m². Berapa medan di antaranya? ||| $5{,}6 \times 10^5$ N/C
+Berapa momen dipol (dalam debye) sepasang muatan $\pm e$ yang terpisah 0,100 nm? ||| 4,80 D
+
+## Subbab 12.4: Gerak muatan dalam medan
+
+Berapa percepatan proton dalam medan 500 N/C? ||| $4{,}8 \times 10^{10}$ m/s²
+Elektron dilepas dari diam dalam medan 5000 N/C. Berapa kelajuannya setelah 2,0 cm? ||| $5{,}9 \times 10^6$ m/s
+Elektron berkelajuan $3{,}0 \times 10^6$ m/s masuk searah medan 1000 N/C. Seberapa jauh ia bergerak sebelum berhenti? ||| 2,6 cm
+@defleksi Elektron berkelajuan $1{,}0 \times 10^7$ m/s melewati pelat pembelok sepanjang 5,0 cm bermedan 2000 N/C. Berapa simpangan dan sudut beloknya? ||| 4,4 mm; 10°
+Tetes minyak bermassa $1{,}6 \times 10^{-15}$ kg melayang dalam medan $4{,}9 \times 10^4$ N/C. Berapa muatan elementer yang dibawanya? ||| 2
+Mobilitas ion K⁺ dalam air $7{,}62 \times 10^{-8}$ m²/(V·s). Dalam medan 200 V/m, berapa kelajuan hanyutnya dan berapa lama ia menempuh 1,0 cm? ||| $1{,}5 \times 10^{-5}$ m/s; 11 menit
+Proton dilepas dari diam dalam medan $1{,}0 \times 10^4$ N/C. Berapa lama ia menempuh 1,0 cm? ||| $1{,}4 \times 10^{-7}$ s
+
+## Subbab 12.5: Hukum Gauss
+
+Medan seragam 300 N/C menembus bidang 0,50 m² yang normalnya bersudut 30° terhadap medan. Berapa fluksnya? ||| 130 N·m²/C
+Berapa fluks total melalui permukaan tertutup yang melingkupi muatan −5,0 nC? ||| −565 N·m²/C
+Muatan 6,0 nC berada di pusat sebuah kubus. Berapa fluks melalui satu sisi kubus? ||| 113 N·m²/C
+Kulit bola berjari-jari 15 cm bermuatan 80 nC. Berapa medan pada jarak 10 cm dan 30 cm dari pusat? ||| 0; 8000 N/C
+Bola pejal berjari-jari 10 cm bermuatan seragam 20 nC. Berapa medan pada jarak 5,0 cm dari pusat? ||| 9000 N/C
+Berapa medan pada jarak 2,0 cm dari kawat panjang bermuatan 5,0 nC/m? ||| 4500 N/C
+Berapa medan di dekat bidang luas bermuatan 1,0 μC/m²? ||| $5{,}6 \times 10^4$ N/C
+Berapa muatan terbesar dan potensial terbesar bola logam berjari-jari 1,0 cm di udara (medan tembus $3{,}0 \times 10^6$ N/C)? ||| 33 nC; 30 kV
+Elektron terluar litium ($Z = 3$) berada di luar dua elektron dalam. Jika perisainya sempurna, berapa medan yang dirasakannya pada jarak 0,10 nm dari inti? ||| $1{,}4 \times 10^{11}$ N/C
+
+## Subbab 12.6: Potensial listrik
+
+Berapa potensial pada jarak 50 cm dari muatan +3,0 nC? ||| 54 V
+Berapa potensial di titik tengah antara +4,0 nC dan −4,0 nC? Berapa medannya di sana, nol atau tidak? ||| 0 V; tidak nol
+Dua muatan +5,0 nC masing-masing berjarak 10 cm dari titik P. Berapa potensial di P? ||| 900 V
+Berapa energi potensial listrik dua proton yang berjarak 2,0 fm, dalam MeV? ||| 0,72 MeV
+Berapa usaha untuk memindahkan muatan 3,0 μC dari potensial 50 V ke 200 V? ||| $4{,}5 \times 10^{-4}$ J
+Elektron dipercepat melalui 150 V. Berapa kelajuannya? ||| $7{,}3 \times 10^6$ m/s
+Ion Ar⁺ (39,95 u) dipercepat melalui 2000 V dalam spektrometer massa. Berapa kelajuannya? ||| $9{,}8 \times 10^4$ m/s
+Elektron ion He⁺ berjarak rata-rata 0,02645 nm dari inti. Hitung energi potensialnya, dan energi totalnya jika $K = -\tfrac12U$. ||| −108,9 eV; −54,4 eV
+Berapa medan di antara dua pelat berjarak 2,0 mm yang berbeda potensial 500 V? ||| $2{,}5 \times 10^5$ V/m
+Berapa tegangan yang diperlukan untuk memercikkan bunga api melintasi celah udara 1,0 cm? ||| 30 kV
+Partikel alfa 7,7 MeV ditembakkan lurus ke inti emas. Berapa jarak terdekatnya? ||| 30 fm
+Dalam molekul KCl gas, jarak antarion 0,267 nm. Berapa energi potensial Coulomb-nya dalam eV dan kJ/mol? ||| −5,39 eV; −520 kJ/mol
+Tiga proton berada di titik sudut segitiga sama sisi bersisi 0,10 nm. Berapa energi potensial totalnya? ||| 43 eV
+Energi ikatan H–H adalah 4,5 eV per molekul. Nyatakan dalam kJ/mol. ||| 434 kJ/mol
+Dalam ion H₂⁺, kedua proton berjarak 0,106 nm. Berapa energi tolak di antara keduanya? ||| 13,6 eV
+
+## Subbab 12.7: Kapasitor
+
+Berapa kapasitansi dua pelat seluas 200 cm² yang dipisahkan udara 0,50 mm? ||| 354 pF
+Kapasitor 47 μF dihubungkan ke baterai 9,0 V. Berapa muatan dan energinya? ||| 423 μC; 1,9 mJ
+Berapa jarak pelat agar kapasitor udara seluas 1,0 cm² berkapasitansi 1,0 nF? ||| 0,89 μm
+Kapasitor 6,0 μF dan 12 μF disusun seri, lalu paralel. Berapa kapasitansi penggantinya? ||| 4,0 μF; 18 μF
+Tiga kapasitor 6,0 μF disusun seri, lalu paralel. Berapa kapasitansi penggantinya? ||| 2,0 μF; 18 μF
+Kapasitor lampu kilat 200 μF dimuati sampai 300 V. Berapa energinya? ||| 9,0 J
+Kapasitor 3,0 μF dan 6,0 μF diseri, lalu gabungan itu diparalel dengan 4,0 μF dan dihubungkan ke 10 V. Berapa kapasitansi pengganti dan muatan totalnya? ||| 6,0 μF; 60 μC
+Berapa rapat energi medan listrik $1{,}0 \times 10^7$ V/m di dalam membran sel ($\kappa = 3{,}0$; rapat energi menjadi $\tfrac12\kappa\varepsilon_0E^2$)? ||| 1300 J/m³
+Awan dan tanah membentuk kapasitor seluas 1,0 km² berjarak 1,0 km. Berapa kapasitansinya, dan berapa energinya pada $1{,}0 \times 10^8$ V? ||| 8,9 nF; $4{,}4 \times 10^7$ J
+@bagi Kapasitor 10 μF bermuatan pada 100 V dilepas dari baterai, lalu dihubungkan paralel dengan kapasitor 10 μF kosong. Berapa tegangan akhirnya, dan berapa energi sebelum dan sesudahnya? ||| 50 V; 50 mJ; 25 mJ
+
+## Subbab 12.8: Dielektrik
+
+Kapasitor udara 50 pF diisi kertas ($\kappa = 3{,}5$). Berapa kapasitansinya? ||| 175 pF
+Medan $2{,}0 \times 10^5$ N/C di antara pelat terisolasi. Berapa medannya setelah diisi teflon? ||| $9{,}5 \times 10^4$ N/C
+@etanol Hitung energi pemisahan pasangan ion Na⁺Cl⁻ berjarak 0,282 nm di dalam etanol ($\kappa = 24$), dalam eV dan dalam $k_BT$. Apa akibatnya bagi kelarutan NaCl dalam etanol? ||| 0,21 eV; 8,3 $k_BT$; sukar larut
+Hitung jarak Bjerrum dalam metanol ($\kappa = 33$), dan untuk ion bermuatan ganda (2+ dan 2−) dalam air. ||| 1,7 nm; 2,9 nm
+Berapa gaya antara Na⁺ dan Cl⁻ yang berjarak 1,0 nm di ruang hampa dan di dalam air? ||| $2{,}3 \times 10^{-10}$ N; $2{,}9 \times 10^{-12}$ N
+Berapa medan di dalam membran setebal 3,0 nm ketika tegangannya 100 mV? ||| $3{,}3 \times 10^7$ V/m
+Kapasitor keramik memakai dielektrik ber-$\kappa$ 1200 setebal 10 μm dengan luas 1,0 cm². Berapa kapasitansinya? ||| 106 nF
+Dua pelat seluas 10 cm² berjarak 1,0 mm dicelupkan ke air murni. Berapa kapasitansinya? ||| 695 pF
+
+## Subbab 12.9: Molekul dan kristal
+
+Molekul HF: momen dipol 1,82 D, panjang ikatan 91,7 pm. Berapa muatan parsialnya? ||| 0,41
+Molekul HBr: momen dipol 0,82 D, panjang ikatan 141 pm. Berapa muatan parsialnya? ||| 0,12
+Molekul H₂S memiliki momen dipol 0,97 D dan sudut ikatan 92,1°. Berapa momen dipol tiap ikatan S–H? ||| 0,70 D
+@kcl Kristal KCl bersusunan seperti NaCl ($M = 1{,}748$) dengan $r_0 = 0{,}314$ nm. Hitung energi Coulomb tiap pasangan ion dan taksir energi kisinya (kurangi seperdelapan untuk gaya tolak). ||| −8,02 eV; 677 kJ/mol
+Taksir energi Coulomb kisi MgO (susunan NaCl; $r_0 = 0{,}210$ nm; muatan ±2) dalam kJ/mol. ||| 4630 kJ/mol
+Taksir energi Coulomb kisi LiF (susunan NaCl; $r_0 = 0{,}201$ nm). ||| 1210 kJ/mol
+Hitung energi interaksi ion K⁺ dengan satu molekul air pada jarak 0,28 nm, dan ion Li⁺ pada jarak 0,21 nm. ||| −68 kJ/mol; −121 kJ/mol
+Hitung energi interaksi dua molekul HCl (1,08 D) yang tersusun segaris berjarak 0,37 nm. ||| −2,8 kJ/mol
+
+## Subbab 12.10: Medan dari muatan yang tersebar
+Cincin berjari-jari 10 cm bermuatan 4,0 nC. Berapa medan pada sumbunya, 20 cm dari pusat? ||| 643 N/C
+Pada jarak berapa dari pusat, di sepanjang sumbu, medan cincin berjari-jari 3,0 cm paling besar? ||| 2,1 cm
+Batang sepanjang 0,40 m bermuatan 5,0 nC/m. Berapa medan di titik pada perpanjangannya, 10 cm dari ujung? ||| 360 N/C
+@cakram Cakram berjari-jari 5,0 cm bermuatan seragam $2{,}0\ \mu\text{C/m}^2$. Berapa medan pada sumbunya sejauh 5,0 cm? ||| $3{,}3 \times 10^4$ N/C
+## Subbab 12.11: Elektrostatika larutan
+Hitung kekuatan ion dan panjang Debye larutan Na₂SO₄ 0,020 mol/L pada 25 °C. ||| 0,060 mol/L; 1,2 nm
+Hitung kekuatan ion larutan Al₂(SO₄)₃ 0,0010 mol/L. ||| 0,015 mol/L
+Hitung koefisien aktivitas rata-rata HCl 0,0050 mol/L dan ZnSO₄ 0,0010 mol/L. ||| 0,92; 0,74
+Pada kekuatan ion berapa panjang Debye dalam air menjadi 1,0 nm? ||| 0,092 mol/L
+@barium Dengan hukum pembatas, taksir kelarutan BaSO₄ ($K_{sp} = 1{,}1 \times 10^{-10}$) dalam larutan NaCl 0,010 mol/L, dan bandingkan dengan dalam air murni. ||| $1{,}7 \times 10^{-5}$ mol/L; $1{,}05 \times 10^{-5}$ mol/L

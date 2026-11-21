@@ -1,0 +1,23 @@
+import numpy as np, matplotlib; matplotlib.use('Agg'); import matplotlib.pyplot as plt
+from matplotlib.patches import Rectangle, Circle, FancyArrowPatch as FA, Ellipse, Polygon
+plt.rcParams.update({'font.family':'Liberation Sans','font.size':10,'mathtext.fontset':'dejavusans','text.color':'#17355e'})
+B='#1b75bc'; T='#17355e'; H='#b5541c'; W='#cfe3f5'; G='#1a8a6a'
+def sv(f,n): f.savefig(n,dpi=220,bbox_inches='tight'); plt.close(f)
+def ar(ax,a,b,c='k',lw=1.6,ms=12): ax.add_patch(FA(a,b,arrowstyle='-|>',mutation_scale=ms,color=c,lw=lw,shrinkA=0,shrinkB=0))
+f,axs=plt.subplots(1,2,figsize=(6.6,3.0))
+ax=axs[0]; ax.set_aspect('equal'); ax.axis('off')
+ax.plot(0,0,'o',color=T,ms=6); ax.add_patch(Circle((0,0),0.25,fc='none',ec=T,ls=':'))
+ax.add_patch(Polygon([[0.6,-0.18],[2.6,-0.18],[2.75,0],[2.6,0.18],[0.6,0.18]],fc=W,ec=T))
+ax.add_patch(Circle((1.7,0),0.08,fc=H)); ar(ax,(1.7,0.14),(2.3,0.14),B,1.4,9); ax.text(2.0,0.28,'mengendap',fontsize=8,color=B,ha='center')
+ar(ax,(1.7,-0.3),(1.1,-0.3),G,1.4,9); ax.text(1.4,-0.55,'gaya hambat\n+ apung',fontsize=7.5,color=G,ha='center',va='top')
+ax.text(-0.1,0.4,'sumbu',fontsize=8.5); ax.annotate('',xy=(1.7,-1.05),xytext=(0,-1.05),arrowprops=dict(arrowstyle='<->',lw=.7)); ax.text(0.85,-1.3,'$r$',ha='center')
+ax.text(1.4,0.9,r'percepatan $\omega^2 r$ ke luar' '\n(dalam kerangka tabung)',fontsize=8,ha='center')
+ax.set_xlim(-0.4,3.0); ax.set_ylim(-1.5,1.3); ax.set_title('(a) sentrifus',fontsize=9)
+ax=axs[1]; ax.set_aspect('equal'); ax.axis('off')
+ax.add_patch(Ellipse((0,1.2),2.4,0.25,fc='#ddd',ec=T)); ax.add_patch(Rectangle((-0.25,1.2),0.5,0.45,fc=T))
+for x in [-0.8,-0.3,0.2,0.7]: ar(ax,(x,1.0),(x*1.0,-0.2),B,1.3,10)
+ax.plot([-1.2,-0.9],[1.2,-0.4],color='#9bb',ls='--',lw=.8); ax.plot([1.2,0.9],[1.2,-0.4],color='#9bb',ls='--',lw=.8)
+ar(ax,(1.55,1.2),(1.55,1.9),H,1.8,11); ax.text(1.65,1.55,'gaya angkat\n= laju momentum\nudara ke bawah',fontsize=7.5,color=H)
+ax.text(0,-0.5,'udara didorong ke bawah',ha='center',fontsize=8,color=B)
+ax.set_xlim(-1.6,2.9); ax.set_ylim(-0.8,2.1); ax.set_title('(b) rotor helikopter',fontsize=9)
+sv(f,'c_momentum.png')

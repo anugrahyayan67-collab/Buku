@@ -1,0 +1,218 @@
+## Subbab 2.1: Bilangan kompleks dan rumus Euler
+
+> Gunakan tetapan dan tabel konversi di Bab 1 bila diperlukan. Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab. Untuk soal bertanda (Python), gunakan NumPy.
+
+**Dasar**
+
+Hitung $(2 + 3i)(4 - i)$ dan $(2 + 3i)/(4 - i)$. ||| $11 + 10i$; $(5 + 14i)/17 = 0{,}294 + 0{,}824i$
+Nyatakan $-1 + i$ dan $-3i$ dalam bentuk kutub $re^{i\theta}$. ||| $\sqrt2\,e^{i3\pi/4}$; $3e^{-i\pi/2}$
+Sederhanakan $i^{27}$ dan $(1 + i)/(1 - i)$. ||| $-i$; $i$
+Jika $\psi = (1 + i)e^{ikx}$, berapa $\psi^*$ dan $|\psi|^2$? ||| $(1 - i)e^{-ikx}$; 2
+
+**Menengah**
+
+Tentukan ketiga akar $z^3 = -8$ dalam bentuk Kartesius. ||| $1 + \sqrt3\,i$; $-2$; $1 - \sqrt3\,i$
+Hitung $(\cos 30° + i\sin 30°)^6$ dengan rumus de Moivre. ||| $-1$
+Tunjukkan bahwa jumlah kelima akar kelima dari satu adalah nol. Apa makna geometrinya? ||| deret geometri $(1 - z^5)/(1 - z) = 0$; titik berat segi lima di titik asal
+Dengan $E_k = \alpha + 2\beta\cos(2\pi k/N)$, hitung tingkat energi π siklobutadiena ($N = 4$) dan anion siklopentadienil ($N = 5$), dalam $x = (E - \alpha)/\beta$. ||| $N = 4$: 2, 0, 0, −2; $N = 5$: 2; 0,618 (dua); −1,618 (dua)
+
+**Tantangan ★**
+
+@euler ★ [P] Dengan rumus Euler, turunkan $\sin 3\theta = 3\sin\theta - 4\sin^3\theta$, lalu tunjukkan bahwa $\sum_{k=0}^{N-1}\cos(2\pi k/N) = 0$ untuk $N \ge 2$. ||| ambil bagian khayal $(\cos\theta + i\sin\theta)^3$; jumlah akar satuan nol
+
+## Subbab 2.2: Turunan, integral parsial, integral Gauss
+
+**Dasar**
+
+Untuk $f(x, y) = x^2\sin y$, hitung $\partial f/\partial x$, $\partial f/\partial y$, dan $\partial^2f/\partial x\,\partial y$. ||| $2x\sin y$; $x^2\cos y$; $2x\cos y$
+Hitung $\int_0^\infty x^3e^{-2x}\,dx$ dengan (2.8). ||| $3/8 = 0{,}375$
+Hitung $\int_{-\infty}^\infty e^{-3x^2}\,dx$ dan $\int_{-\infty}^\infty x^2e^{-3x^2}\,dx$. ||| 1,023; 0,171
+Hitung $\int_0^\pi x\sin x\,dx$ dengan integral parsial. ||| $\pi$
+
+**Menengah**
+
+Hitung $\langle x^2\rangle = \dfrac2L\int_0^Lx^2\sin^2(\pi x/L)\,dx$ untuk $L = 1$. ||| 0,2827
+Fungsi $\psi = Ne^{-x^2/2}$. Tentukan $N$, $\langle x^2\rangle$, dan $\langle x^4\rangle$. ||| $\pi^{-1/4} = 0{,}751$; 0,5; 0,75
+Apakah $\int_{-\infty}^\infty xe^{-(x - 1)^2}\,dx$ nol? Hitung nilainya dengan substitusi $u = x - 1$. ||| tidak; $\sqrt\pi = 1{,}772$
+Hitung $\int_0^\infty x^2e^{-x^2}\,dx$ dengan memanfaatkan paritas. ||| $\sqrt\pi/4 = 0{,}443$
+Tanpa menghitung, tentukan mana yang nol: (a) $\int_{-1}^1x^2\sin x\,dx$; (b) $\int_{-\pi}^\pi\cos x\sin 2x\,dx$; (c) $\int_{-\infty}^\infty x^2e^{-x^2}\cos x\,dx$. ||| (a) nol; (b) nol; (c) tidak nol
+
+**Tantangan ★**
+
+★ Turunkan $\int_{-\infty}^\infty x^{2n}e^{-ax^2}\,dx = \dfrac{(2n - 1)!!}{2^na^n}\sqrt{\dfrac\pi a}$ dengan menurunkan terhadap $a$ berulang kali. Periksa untuk $n = 2$. ||| $n = 2$: $\tfrac34\sqrt\pi\,a^{-5/2}$
+★ Lengkapkan kuadrat untuk menunjukkan $\int_{-\infty}^\infty e^{-ax^2 + bx}\,dx = \sqrt{\pi/a}\,e^{b^2/4a}$. ||| $-a(x - b/2a)^2 + b^2/4a$
+
+## Subbab 2.3: Persamaan diferensial orde dua
+
+**Dasar**
+
+Tuliskan penyelesaian umum (a) $y'' = 9y$; (b) $y'' + 9y = 0$; (c) $y'' - 4y' + 4y = 0$. ||| (a) $c_1e^{3x} + c_2e^{-3x}$; (b) $A\sin 3x + B\cos 3x$; (c) $(c_1 + c_2x)e^{2x}$
+Selesaikan $y'' + 4y = 0$ dengan $y(0) = 1$, $y'(0) = 2$. ||| $\cos 2x + \sin 2x$
+Selesaikan $y'' + 2y' + 10y = 0$. ||| $e^{-x}(A\cos 3x + B\sin 3x)$
+
+**Menengah**
+
+Untuk $y'' = -k^2y$ dengan $y(0) = y(L) = 0$ dan $k = \sqrt{2m_eE}/\hbar$, hitung dua energi terendah elektron untuk $L = 0{,}50$ nm. ||| 1,50 eV; 6,02 eV
+@kotak2 [P] Untuk $y'' = -k^2y$ dengan $y(0) = 0$ dan $y'(L) = 0$, nilai $k$ mana yang diizinkan? Gambarkan dua penyelesaian pertama. ||| $k = (n - \tfrac12)\pi/L$, $n = 1, 2, \ldots$
+Ulangi Contoh 2.16 untuk $k_1 = 0{,}20$ min⁻¹ dan $k_2 = 0{,}10$ min⁻¹. ||| $t_\text{maks} = 6{,}93$ min; $[\text{B}]_\text{maks} = 0{,}50$
+Tunjukkan bahwa $y = e^{ikx}$ dan $y = e^{-ikx}$ bebas linear, lalu nyatakan $\sin kx$ sebagai kombinasinya. ||| $\sin kx = (e^{ikx} - e^{-ikx})/2i$
+
+**Tantangan ★**
+
+★ Untuk $y'' = \kappa^2y$ pada $x > 0$ dengan syarat $y \to 0$ ketika $x \to \infty$ dan $y(0) = 1$, tentukan penyelesaiannya. Pada jarak berapa $y$ turun menjadi $1/e$ jika $\kappa = \sqrt{2m_e(1\ \text{eV})}/\hbar$? ||| $e^{-\kappa x}$; $1/\kappa = 0{,}195$ nm
+★ Reaksi $\text{A} \to \text{B} \to \text{C}$ dengan $k_1 = k_2 = k$. Tunjukkan bahwa $[\text{B}] = kt\,e^{-kt}$ dan tentukan $t_\text{maks}$ serta $[\text{B}]_\text{maks}$. ||| $t = 1/k$; $1/e = 0{,}368$
+
+## Subbab 2.4: Penyelesaian dengan deret pangkat
+
+**Dasar**
+
+Turunkan rekursi (2.19) untuk persamaan Hermite. ||| $(k + 2)(k + 1)a_{k+2} - 2ka_k + 2\nu a_k = 0$
+Dengan rekursi (2.19), tentukan $H_0$ dan $H_1$ (koefisien tertinggi $2^n$). ||| $H_0 = 1$; $H_1 = 2x$
+
+**Menengah**
+
+@hermite5 [P] Tentukan $H_5$ dari rekursi dan periksa banyaknya akar riilnya. ||| $32x^5 - 160x^3 + 120x$; lima akar
+Selesaikan $y' = y$ dengan deret pangkat dan $y(0) = 1$. ||| $\sum x^k/k! = e^x$
+Persamaan Legendre $(1 - x^2)y'' - 2xy' + \ell(\ell + 1)y = 0$ mempunyai rekursi $a_{k+2} = \dfrac{k(k + 1) - \ell(\ell + 1)}{(k + 2)(k + 1)}a_k$. Tentukan penyelesaian polinom untuk $\ell = 2$ dan $\ell = 3$. ||| $\propto 1 - 3x^2$; $\propto x - \tfrac53x^3$
+Untuk persamaan Hermite dengan $\nu = 1{,}5$, hitung $a_3$, $a_5$, $a_7$ deret ganjil dengan $a_1 = 1$. ||| $-1/6$; $-1/40$; $-0{,}004\,17$
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa untuk $k$ besar rekursi Legendre memberikan $a_{k+2}/a_k \to 1$, sehingga deret tak hingga divergen di $x = \pm1$. Mengapa hal ini memaksa $\ell$ bulat? ||| deret seperti $\sum x^k$ divergen di $\cos\theta = \pm1$; fungsi sudut harus berhingga di kutub
+
+## Subbab 2.5: Koordinat bola dan silinder
+
+**Dasar**
+
+Nyatakan $(0, 3, 4)$ dalam koordinat bola dan $(r, \theta, \phi) = (3, 90°, 60°)$ dalam koordinat Kartesius. ||| $(5;\ 36{,}87°;\ 90°)$; $(1{,}50;\ 2{,}60;\ 0)$
+Hitung luas permukaan bola satuan dengan $\int_0^{2\pi}\int_0^\pi\sin\theta\,d\theta\,d\phi$. ||| $4\pi$
+Hitung peluang elektron 1s berada di luar bola berjari-jari $2a_0$. ||| 0,238
+Berapa volume kulit bola berjari-jari $a_0 = 52{,}9$ pm dan tebal 1 pm? ||| $3{,}5 \times 10^{-32}$ m³
+
+**Menengah**
+
+@norm2s [P] Orbital 2s hidrogen (satuan atom) adalah $N(2 - r)e^{-r/2}$. Tentukan $N$. ||| $1/\sqrt{32\pi} = 0{,}0997$
+Hitung $\langle r\rangle$ untuk orbital 2p$_z$ Contoh 2.24 dan $\langle 1/r\rangle$ untuk orbital 1s (satuan atom). ||| $5a_0$; $1/a_0$
+Hitung $\langle r^2\rangle$ dan $\sigma_r$ untuk orbital 1s. ||| $3a_0^2$; $0{,}866a_0$
+Tunjukkan bahwa orbital 2p$_z$ dan 1s ortogonal hanya karena integral sudutnya, $\int_0^\pi\cos\theta\sin\theta\,d\theta = 0$. ||| integral sudut nol
+
+**Tantangan ★**
+
+★ Turunkan $d\tau = r^2\sin\theta\,dr\,d\theta\,d\phi$ dari determinan jakobian $\partial(x, y, z)/\partial(r, \theta, \phi)$. ||| determinan $= r^2\sin\theta$
+★ Dalam koordinat silinder, hitung $\int e^{-\rho^2}\,d\tau$ untuk silinder tak hingga panjang satu satuan dan bandingkan dengan integral Gauss dua dimensi. ||| $\pi$
+
+## Subbab 2.6: Vektor dan hasil kali dalam fungsi
+
+**Dasar**
+
+Hitung sudut antara $(1, 0, 1)$ dan $(1, 1, 0)$. ||| 60°
+Apakah $f = x$ dan $g = x^2$ ortogonal pada $[-1, 1]$? Pada $[0, 1]$? ||| ya; tidak ($\langle f|g\rangle = 1/4$)
+Elektron di $\vec r = (a_0, 0, 0)$ bergerak dengan $\vec p = (0, m_ev, 0)$, $v = \alpha c$. Hitung $\vec L = \vec r \times \vec p$ dalam satuan $\hbar$. ||| $(0, 0, \hbar)$
+
+**Menengah**
+
+Normalkan $f = 3\phi_1 + 4i\phi_2$ ($\phi_1$, $\phi_2$ ortonormal) dan hitung $|c_1|^2$, $|c_2|^2$. ||| $(3\phi_1 + 4i\phi_2)/5$; 0,36; 0,64
+@gram3 [P] Lanjutkan Contoh 2.28: ortogonalkan $x^3$ terhadap $1, x, x^2 - \tfrac13$ pada $[-1, 1]$. ||| $x^3 - \tfrac35x$, sebanding dengan $P_3 = \tfrac12(5x^3 - 3x)$
+Hitung integral tumpang tindih $S$ antara $e^{-x^2/2}$ dan $e^{-(x - 2)^2/2}$ yang masing-masing dinormalkan. ||| $e^{-1} = 0{,}368$
+Hitung $c_1$ untuk fungsi segitiga ternormalisasi $f(x) = \sqrt{12/L^3}\,x$ ($0 \le x \le L/2$), $\sqrt{12/L^3}\,(L - x)$ ($L/2 \le x \le L$) pada basis Contoh 2.26. ||| $c_1 = 4\sqrt6/\pi^2 = 0{,}993$
+
+**Tantangan ★**
+
+★ Buktikan ketaksamaan Schwarz dengan meninjau $\langle f - \lambda g|f - \lambda g\rangle \ge 0$ untuk $\lambda = \langle g|f\rangle/\langle g|g\rangle$. ||| $\langle f|f\rangle - |\langle g|f\rangle|^2/\langle g|g\rangle \ge 0$
+
+## Subbab 2.7: Matriks dan determinan
+
+**Dasar**
+
+Untuk $\mathbf A = \begin{pmatrix}1 & 2\\ 3 & 4\end{pmatrix}$ dan $\mathbf B = \begin{pmatrix}0 & 1\\ 1 & 0\end{pmatrix}$, hitung $\mathbf{AB}$, $\mathbf{BA}$, dan $[\mathbf A, \mathbf B]$. ||| $\begin{pmatrix}2 & 1\\ 4 & 3\end{pmatrix}$; $\begin{pmatrix}3 & 4\\ 1 & 2\end{pmatrix}$; $\begin{pmatrix}-1 & -3\\ 3 & 1\end{pmatrix}$
+Hitung $\det\begin{pmatrix}1 & 2 & 3\\ 0 & 1 & 4\\ 5 & 6 & 0\end{pmatrix}$. ||| 1
+Hitung invers $\begin{pmatrix}4 & 1\\ 2 & 3\end{pmatrix}$. ||| $\begin{pmatrix}0{,}3 & -0{,}1\\ -0{,}2 & 0{,}4\end{pmatrix}$
+
+**Menengah**
+
+Hitung $\sigma_y\sigma_z$, $\sigma_z\sigma_y$, dan $\sigma_x^2$ (matriks Pauli). ||| $i\sigma_x$; $-i\sigma_x$; $\mathbf I$
+Hitung determinan Hückel alil $\begin{vmatrix} -x & 1 & 0\\ 1 & -x & 1\\ 0 & 1 & -x\end{vmatrix}$ pada $x = -0{,}5$. ||| $-0{,}875$
+Tuliskan determinan Slater tiga elektron dalam spin-orbital $a$, $b$, $c$ dan uraikan menjadi enam suku. ||| $a_1b_2c_3 - a_1c_2b_3 - b_1a_2c_3 + b_1c_2a_3 + c_1a_2b_3 - c_1b_2a_3$
+Tunjukkan bahwa $\mathbf R(\theta)\mathbf R(\phi) = \mathbf R(\theta + \phi)$ untuk matriks rotasi dua dimensi. ||| perkalian memberi rumus jumlah sudut
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa $\det\mathbf U = e^{i\gamma}$ (modulus satu) untuk setiap matriks uniter $\mathbf U$. ||| $|\det\mathbf U|^2 = \det(\mathbf U^\dagger\mathbf U) = 1$
+
+## Subbab 2.8: Nilai eigen dan vektor eigen matriks
+
+**Dasar**
+
+Cari nilai eigen dan vektor eigen $\begin{pmatrix}3 & 1\\ 1 & 3\end{pmatrix}$ dan $\begin{pmatrix}1 & 2\\ 2 & 1\end{pmatrix}$. ||| 4 dan 2, $(1, \pm1)/\sqrt2$; 3 dan −1, $(1, \pm1)/\sqrt2$
+Cari nilai eigen $\sigma_x$ dan vektor eigennya. ||| $\pm1$; $(1, \pm1)/\sqrt2$
+Sebuah matriks $2 \times 2$ mempunyai teras 5 dan determinan 6. Berapa nilai eigennya? ||| 2 dan 3
+
+**Menengah**
+
+Cari nilai eigen $\begin{pmatrix}2 & 0 & 0\\ 0 & 3 & 4\\ 0 & 4 & 9\end{pmatrix}$. ||| 1; 2; 11
+@siklobuta [P] Tuliskan matriks Hückel siklobutadiena dan cari nilai eigennya. Berapa elektron tak berpasangan yang diramalkan untuk keadaan dasarnya? ||| $x = 2, 0, 0, -2$; dua (dalam dua orbital $x = 0$)
+(Python) Cari nilai eigen Hückel heksatriena dan bandingkan dengan $2\cos[k\pi/(N + 1)]$. ||| ±1,802; ±1,247; ±0,445
+(Python) Cari nilai eigen Hückel trimetilenametana (satu C pusat terikat pada tiga C). ||| $\pm\sqrt3$, 0, 0
+Ulangi Contoh 2.38 dengan $\alpha_A = -18{,}6$ eV, $\alpha_B = -13{,}6$ eV, $\beta = -4{,}0$ eV. ||| −20,82 dan −11,38 eV; $c_A^2 = 0{,}765$
+
+**Tantangan ★**
+
+★ Buktikan bahwa vektor eigen matriks Hermitian dengan nilai eigen berbeda ortogonal. ||| $(\lambda_1 - \lambda_2)\mathbf c_1^\dagger\mathbf c_2 = 0$
+★ (Python) Untuk anion siklopentadienil (6 elektron π), hitung energi π total dan bandingkan dengan tiga ikatan π terlokalisasi. ||| $6\alpha + 6{,}472\beta$; delokalisasi $0{,}472\beta$ dibanding $6\alpha + 6\beta$
+
+## Subbab 2.9: Deret Taylor dan deret Fourier
+
+**Dasar**
+
+Hitung $\cos 0{,}2$ dengan tiga suku deret Taylor dan bandingkan dengan nilai tepat. ||| 0,980 067 lawan 0,980 067
+Uraikan $\ln(1 + x)$ sampai $x^3$ dan $(1 + x)^{-1/2}$ sampai $x^2$. ||| $x - x^2/2 + x^3/3$; $1 - x/2 + 3x^2/8$
+Garis NMR mempunyai lebar 2,0 Hz. Berapa $T_2$-nya? ||| 0,16 s
+
+**Menengah**
+
+Potensial Lennard-Jones $V = 4\varepsilon[(\sigma/r)^{12} - (\sigma/r)^6]$. Tunjukkan bahwa minimumnya di $r_e = 2^{1/6}\sigma$ dan tetapan gayanya $k = 57{,}1\varepsilon/\sigma^2$. ||| $k = 72\varepsilon/(2^{1/3}\sigma^2)$
+@lj [P] Untuk Ar₂, $\varepsilon/k_B = 120$ K dan $\sigma = 0{,}34$ nm. Hitung $k$ dan bilangan gelombang getaran harmonik ($\mu = 19{,}97$ u). ||| 0,82 N/m; 26 cm⁻¹
+Untuk H₂, potensial Morse dengan $D_e = 4{,}747$ eV dan $a = 1{,}944$ Å⁻¹. Hitung $k$ dan $\tilde\nu$ ($\mu = 0{,}504$ u). ||| 575 N/m; 4400 cm⁻¹
+Hitung koefisien Fourier $b_n$ untuk $f(x) = x$ pada $(-\pi, \pi)$. ||| $b_n = 2(-1)^{n+1}/n$
+Interferometer FT-IR mempunyai beda lintasan optis maksimum 4,0 cm. Berapa kira-kira resolusinya? ||| 0,25 cm⁻¹
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa transformasi Fourier $e^{-x^2/4\sigma^2}$ sebanding dengan $e^{-\sigma^2k^2}$, dengan melengkapkan kuadrat. ||| eksponen $-(x/2\sigma + i\sigma k)^2 - \sigma^2k^2$
+
+## Subbab 2.10: Peluang, nilai rata-rata, simpangan baku
+
+**Dasar**
+
+Sebuah sistem mempunyai tiga tingkat dengan energi 0, $kT$, dan $2kT$ (tanpa degenerasi). Hitung peluang setiap tingkat, $\langle E\rangle$, dan $\sigma_E$ (dalam $kT$). ||| 0,665; 0,245; 0,090; 0,425; 0,651
+Hitung peluang nilai acak bersebaran Gauss jatuh dalam $\pm2\sigma$ dan $\pm3\sigma$. ||| 95,4%; 99,7%
+Hitung kelajuan rata-rata He, H₂, dan UF₆ pada 298 K. ||| 1256; 1770; 134 m/s
+
+**Menengah**
+
+Untuk sebaran eksponensial dengan umur $\tau$, hitung peluang umur sebuah molekul antara $\tau$ dan $2\tau$. ||| 0,233
+@corot [P] (Python) Populasi rotasi CO pada 298 K sebanding dengan $(2J + 1)e^{-BJ(J+1)hc/kT}$ dengan $B = 1{,}9225$ cm⁻¹. Hitung $\langle J\rangle$, $\sigma_J$, dan $J$ terpadat. ||| 8,69; 4,81; 7
+Untuk partikel dalam kotak pada keadaan $n = 2$, berapa peluang partikel berada di separuh kiri kotak? Di seperempat pertama? ||| 1/2; 1/4
+Hitung $\sigma_x$ partikel dalam kotak untuk $n = 1$ dan $n = 10$, dan bandingkan dengan $L/\sqrt{12}$. ||| 0,181$L$; 0,288$L$; 0,289$L$
+
+**Tantangan ★**
+
+★ Buktikan bahwa untuk sebaran apa pun $\langle x^2\rangle \ge \langle x\rangle^2$. Kapan tanda sama dengan berlaku? ||| $\sigma^2 = \langle(x - \langle x\rangle)^2\rangle \ge 0$; bila semua hasil sama
+
+## Subbab 2.11: Satuan atom
+
+**Dasar**
+
+Nyatakan 1,00 Å dalam bohr dan 1,00 eV dalam hartree. ||| 1,890 bohr; 0,036 75 $E_h$
+Nyatakan momen dipol H₂O (1,85 D) dalam satuan atom. ||| 0,728 a.u.
+Berapa 1,00 fs dalam satuan atom waktu? ||| 41,3 a.u.
+
+**Menengah**
+
+@auh2 [P] Energi disosiasi H₂ menurut perhitungan adalah 0,1745 $E_h$. Nyatakan dalam eV dan kJ/mol. Medan listrik $10^9$ V/m berapa dalam satuan atom? ||| 4,748 eV; 458,1 kJ/mol; 0,0019 a.u.
+Tuliskan energi ion He⁺ pada $n = 2$ dalam satuan atom. ||| $-0{,}5\ E_h$
+Berapa laju cahaya dalam satuan atom? Berapa $v/c$ elektron 1s pada atom raksa ($Z = 80$) menurut model Bohr? ||| 137,04; 0,58
+
+**Tantangan ★**
+
+★ Tunjukkan dengan analisis dimensi bahwa satu-satunya kombinasi $m_e$, $e$, $\hbar$, $4\pi\varepsilon_0$ yang berdimensi panjang adalah $a_0$, dan yang berdimensi energi adalah $E_h$. ||| selesaikan pangkat-pangkat dimensi

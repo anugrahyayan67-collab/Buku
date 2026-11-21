@@ -1,0 +1,12 @@
+Program pendamping Bab 17 (Python 3 + NumPy + SciPy). Jalankan dari folder ini.
+
+scf_kecil.py  SCF minimal H2 dan HeH+ (STO-3G, hanya fungsi s) seperti di subbab 17.3
+kq.py         integral Gauss s, p, d (McMurchie-Davidson), basis STO-3G/6-31G/6-31G*/6-31G**, RHF+DIIS
+kq2.py        UHF, momen dipol, muatan Mulliken/Lowdin, MP2, CCSD, CCSD(T), CI determinan (FCI/CISD)
+frek.py       Hessian beda hingga, frekuensi harmonik, proyeksi translasi/rotasi
+termo.py      besaran termodinamika gas ideal (ZPE, H, S, Cp) dari frekuensi dan geometri
+lda.py        Kohn-Sham LDA (PW92) untuk atom satu orbital 1s (H, He) pada kisi radial
+
+Contoh:  python3 -c "from kq2 import *; r = energi(h2o(0.9572, 104.52), STO3G, 10); print(r['E'])"
+Uji: geometri H2O Crawford dengan STO-3G memberi E(HF) = -74.942080, E(MP2) = -0.049150,
+E(CCSD) = -0.070680, E(T) = -0.000100 hartree.

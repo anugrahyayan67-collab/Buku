@@ -1,0 +1,122 @@
+## Subbab 5.1: Peta isomer: konstitusi dan stereoisomer
+
+> Gunakan aturan CIP (subbab 5.3). Rotasi jenis $[\alpha] = \alpha/(lc)$ dengan *l* dalam dm dan *c* dalam g mL⁻¹. Soal bertanda **[P]** dibahas di akhir bab.
+
+Golongkan setiap pasangan: (a) propan-1-ol dan propan-2-ol; (b) cis- dan trans-pent-2-ena; (c) (R)- dan (S)-2-klorobutana; (d) dua konformasi kursi metilsikloheksana. ||| (a) konstitusi; (b) diastereomer; (c) enansiomer; (d) senyawa sama (konformer)
+Apa beda isomer konstitusi dan stereoisomer? ||| sambungan berbeda lawan susunan ruang berbeda
+Mengapa konformer tidak dihitung sebagai isomer yang dapat dipisahkan? ||| saling berubah cepat oleh putaran ikatan
+@peta [P] Golongkan hubungan: (a) (2R,3R)- dan (2S,3S)-2,3-dikloropentana; (b) (2R,3R)- dan (2R,3S)-2,3-dikloropentana; (c) 1,2- dan 1,3-dikloropentana; (d) cis- dan trans-1,4-dimetilsikloheksana. ||| (a) enansiomer; (b) diastereomer; (c) konstitusi; (d) diastereomer (keduanya akiral)
+Apakah dua diastereomer harus mempunyai pusat kiral? Berikan contoh. ||| tidak; cis/trans-but-2-ena
+
+## Subbab 5.2: Kiralitas dan pusat kiral
+
+Mana yang kiral: gelas, sekrup, sepatu, sendok, gunting? ||| sekrup, sepatu, gunting
+Tandai pusat kiral: (a) 3-metilheksana; (b) 2-metilbutan-1-ol; (c) 2-metilbutan-2-ol; (d) 1-feniletanol. ||| (a) C3; (b) C2; (c) tidak ada; (d) C1
+Berapa pusat kiral dalam asam laktat, alanina, glukosa rantai terbuka, dan kolesterol? ||| 1; 1; 4; 8
+Mana yang kiral: 3-metilpentana, 3-metilheksana, 1,2-dikloropropana, 1,3-dikloropropana? ||| 3-metilheksana dan 1,2-dikloropropana
+@pusat [P] Tandai semua pusat kiral dalam (a) 2-bromo-4-metilpentana; (b) 3-metilsikloheksanol; (c) 4-metilsikloheksanol. Jelaskan jawaban (c). ||| (a) C2; (b) C1 dan C3; (c) tidak ada; dua jalur cincin identik
+Mengapa karbon sp² tidak dapat menjadi pusat kiral? ||| hanya tiga gugus
+Apa syarat yang sebenarnya (berdasarkan simetri) agar molekul kiral? ||| tidak ada bidang cermin dan pusat inversi
+
+## Subbab 5.3: Aturan prioritas Cahn–Ingold–Prelog
+
+Urutkan prioritas: –Cl, –SH, –OH, –CH₃. ||| –Cl > –SH > –OH > –CH₃
+Urutkan prioritas: –CH₂Cl, –CH₂Br, –CH₂OH, –CHCl₂. ||| –CH₂Br > –CHCl₂ > –CH₂Cl > –CH₂OH
+Urutkan prioritas: –CH=O, –CH₂OH, –CN, –COOH. ||| –COOH > –CHO > –CH₂OH > –CN
+Urutkan prioritas: –C₆H₅, –C(CH₃)₃, –CH=CH₂, –C≡CH. ||| –C₆H₅ > –C≡CH > –C(CH₃)₃ > –CH=CH₂
+@cip [P] Urutkan prioritas: –CH(CH₃)₂, –CH₂CH₂CH₂CH₃, –CH₂CH(CH₃)₂, –CH₂OCH₃. Tunjukkan himpunan atom pada setiap langkah. ||| –CH₂OCH₃ > –CH(CH₃)₂ > –CH₂CH(CH₃)₂ > –CH₂CH₂CH₂CH₃
+Mengapa –CH₂OH lebih tinggi daripada –C(CH₃)₃? ||| atom tertinggi pada C pertama: O lawan C
+Bagaimana ikatan rangkap dihitung dalam aturan CIP? ||| atom berikatan rangkap dihitung dua kali
+
+## Subbab 5.4: Konfigurasi R dan S
+
+Tentukan R/S: CHBrClF dengan H pada baji putus-putus dan Br → Cl → F searah jarum jam. ||| R
+Tentukan R/S untuk molekul yang sama bila H pada baji tebal dan Br → Cl → F searah jarum jam. ||| S
+Gambar (S)-2-klorobutana dengan baji. ||| H di belakang; Cl → C₂H₅ → CH₃ berlawanan arah jarum jam
+Gambar (R)-asam laktat, CH₃CH(OH)COOH. ||| H di belakang; OH → COOH → CH₃ searah jarum jam
+@rs [P] 2-Bromobutana digambar dengan H dan CH₃ di bidang kertas, Br pada baji tebal, dan C₂H₅ pada baji putus-putus. Jelaskan cara menentukan R/S dengan menukar dua gugus. Bila setelah H ditukar dengan C₂H₅ urutan Br → C₂H₅ → CH₃ terlihat searah jarum jam, apa konfigurasi molekul semula? ||| setelah tukar: H di belakang, searah jarum jam = R; molekul semula kebalikannya: S
+Mengapa sistein alami adalah R, padahal hampir semua asam amino alami S? ||| atom S pada rantai samping menaikkan prioritas CH₂SH di atas COOH
+Bila –OH pada (R)-butan-2-ol diganti –Cl tanpa menyentuh pusat kiral, apakah konfigurasinya tetap R? ||| ya (prioritas Cl tetap tertinggi); huruf dapat berubah hanya bila urutan prioritas berubah
+
+## Subbab 5.5: Aktivitas optik, rotasi jenis, dan kelebihan enansiomer
+
+Larutan 0,0500 g mL⁻¹ dalam tabung 2,00 dm memberi α = −1,85°. Hitung rotasi jenisnya. ||| −18,5
+Sukrosa mempunyai [α] = +66,5. Berapa α teramati untuk larutan 0,250 g mL⁻¹ dalam tabung 1,00 dm? ||| +16,6°
+(R)-2-bromobutana murni [α] = −23,1. Sampel mempunyai [α] = −4,6. Berapa ee-nya? ||| 20%
+Campuran mempunyai ee 80%. Berapa persen masing-masing enansiomer? ||| 90% dan 10%
+@ee [P] (R)-karvon murni mempunyai [α] −62 dan (S)-karvon +62. Sampel karvon mempunyai [α] −31. Berapa ee, enansiomer mana yang berlebih, dan berapa persen masing-masing? ||| ee 50%; R berlebih; 75% R, 25% S
+Mengapa campuran rasemik tidak memutar bidang cahaya terpolarisasi? ||| pemutaran kedua enansiomer saling meniadakan
+Apakah (R) selalu berarti (+)? Jelaskan. ||| tidak; tidak ada hubungan langsung
+Mengapa pembuatan molekul kiral dari bahan akiral tanpa katalis kiral selalu menghasilkan rasemat? ||| tidak ada yang membedakan kedua jalur bayangan cermin
+
+## Subbab 5.6: Diastereomer
+
+Berapa stereoisomer paling banyak untuk molekul dengan 3 pusat kiral? 5 pusat kiral? ||| 8; 32
+Tulis keempat stereoisomer 2-bromo-3-klorobutana dan tandai pasangan enansiomernya. ||| (2R,3R)/(2S,3S); (2R,3S)/(2S,3R)
+Apa hubungan (2R,3S) dengan (2R,3R)? ||| diastereomer
+@diast [P] Treonina, asam amino esensial, adalah (2S,3R)-2-amino-3-hidroksibutanoat. Tuliskan konfigurasi enansiomernya dan kedua diastereomernya. Mana yang dapat dipisahkan dari treonina dengan kristalisasi? ||| enansiomer (2R,3S); diastereomer (2S,3S) dan (2R,3R); kedua diastereomer
+Mengapa enansiomer mempunyai titik leleh yang sama, tetapi diastereomer tidak? ||| jarak dan sudut antaratom sama pada enansiomer, berbeda pada diastereomer
+Berapa stereoisomer aldoheksosa (gula enam karbon dengan 4 pusat kiral)? Berapa pasangan enansiomer? ||| 16; 8 pasang
+
+## Subbab 5.7: Senyawa meso
+
+Mengapa asam tartarat hanya mempunyai tiga stereoisomer? ||| (R,S) dan (S,R) adalah molekul yang sama (meso)
+Manakah yang meso: (2R,3S)-2,3-dikloro­butana, (2R,3R)-2,3-diklorobutana, (2R,3S)-2,3-dikloropentana? ||| hanya (2R,3S)-2,3-diklorobutana
+Berapa stereoisomer pentana-2,4-diol? Berapa yang aktif optik? ||| 3; 2
+@meso [P] Gambar (2R,3S)-2,3-dibromobutana dalam proyeksi Fischer dan tunjukkan bidang cermin internalnya. Mengapa senyawa ini tidak aktif optik walaupun mempunyai dua pusat kiral? ||| Br di sisi sama pada kedua pusat; bidang cermin di tengah; bayangan cerminnya sendiri
+Apakah setiap molekul dengan dua pusat kiral yang setara mempunyai bentuk meso? ||| ya, bentuk dengan konfigurasi berlawanan (R,S)
+Apa sifat fisika bentuk meso asam tartarat dibandingkan bentuk (R,R)? ||| berbeda (diastereomer); titik leleh 146 °C lawan 170 °C
+
+## Subbab 5.8: Proyeksi Fischer
+
+Gambar proyeksi Fischer (R)-gliseraldehida dan tentukan apakah D atau L. ||| CHO atas, CH₂OH bawah, OH kanan; D
+Tentukan R/S: proyeksi Fischer dengan COOH atas, CH₃ bawah, NH₂ kiri, H kanan. ||| S (L-alanina)
+Apa yang terjadi bila proyeksi Fischer diputar 90°? 180°? ||| enansiomer; molekul sama
+Menukar dua gugus pada proyeksi Fischer menghasilkan apa? Menukar dua pasang? ||| enansiomer; molekul sama
+@fischer [P] Proyeksi Fischer D-eritrosa: CHO atas, CH₂OH bawah; pada C2 dan C3, OH di kanan. Tentukan konfigurasi R/S C2 dan C3. Apakah D-eritrosa meso? ||| (2R,3R); tidak meso (ujung CHO dan CH₂OH berbeda)
+Bagaimana menentukan D atau L untuk gula dari proyeksi Fischer? ||| OH pada pusat kiral paling bawah: kanan D, kiri L
+Mengapa garis mendatar dalam proyeksi Fischer berarti ikatan ke depan? ||| konvensi Fischer: ikatan mendatar ke arah pembaca
+
+## Subbab 5.9: Stereokimia senyawa siklik
+
+Berapa stereoisomer 1,2-diklorosiklopentana? Mana yang meso? ||| 3; cis
+Apakah cis-1,4-dimetilsikloheksana kiral? trans-1,4? ||| keduanya akiral
+Berapa stereoisomer 1-bromo-2-metilsikloheksana? ||| 4 (dua pasang enansiomer)
+@siklik [P] Tentukan konfigurasi R/S kedua pusat kiral pada cis-1,2-dimetilsikloheksana dan tunjukkan bahwa ini meso. Mengapa trans-1,2-dimetilsikloheksana kiral walaupun kedua kursinya e,e dan a,a? ||| (1R,2S); bidang cermin; trans tidak mempunyai bidang cermin di kedua bentuk kursi
+Apakah 1,3-dimetilsiklobutana mempunyai pusat kiral? ||| tidak; jalur cincin identik
+Berapa pusat kiral dalam mentol dan berapa stereoisomernya? ||| 3; 8
+
+## Subbab 5.10: Kiralitas tanpa pusat kiral: alena dan biaril
+
+Mana yang kiral: penta-2,3-diena, 2-metilbuta-2,3-diena, buta-1,2-diena? ||| hanya penta-2,3-diena
+Mengapa alena dengan empat gugus ujung yang tepat dapat kiral tanpa pusat kiral? ||| bidang kedua ujung saling tegak lurus; tidak ada bidang cermin
+Apa itu atropisomer? ||| stereoisomer karena putaran ikatan tunggal terhalang
+@aksial [P] Mengapa penghalang putaran menentukan apakah atropisomer dapat dipisahkan? Berapa kira-kira batasnya pada suhu kamar? ||| penghalang kecil → saling berubah cepat; ± 80–100 kJ mol⁻¹
+Apakah 1,3-dikloroalena (ClCH=C=CHCl) dan 1,1-dikloroalena (Cl₂C=C=CH₂) kiral? ||| yang pertama kiral, yang kedua akiral
+
+## Subbab 5.11: Isomer E/Z
+
+Tentukan E/Z: (a) CH₃CH=CHCH₃ dengan kedua CH₃ di sisi sama; (b) BrCH=CHCl dengan Br dan Cl berseberangan. ||| (a) Z; (b) E
+Tentukan E/Z untuk (CH₃)₂C=CHCH₃. ||| tidak ada isomer E/Z (dua CH₃ sama pada satu karbon)
+Tentukan E/Z: F(Cl)C=C(Br)(CH₃) dengan Cl dan Br di sisi yang sama. ||| Z
+@ez [P] Gambar (E)- dan (Z)-3-metilpent-2-ena. Pada isomer mana kedua gugus metil (C1 dan metil cabang) berada di sisi yang sama? Apakah Z selalu berarti cis? ||| Z: CH₃ (C1) dan etil sisi sama; pada E kedua metil sisi sama; tidak selalu
+Mengapa asam oleat cair pada suhu kamar, sedangkan asam elaidat (isomer E-nya) padat? ||| Z tertekuk, sulit tersusun rapat
+Mengapa lemak trans berbahaya bagi kesehatan? ||| menaikkan LDL; bentuk lurus seperti lemak jenuh
+
+## Subbab 5.12: Resolusi enansiomer
+
+Apa yang dimaksud resolusi? ||| pemisahan enansiomer
+Mengapa resolusi dengan pereaksi kiral bekerja? ||| mengubah enansiomer menjadi diastereomer
+Sebutkan dua pereaksi peresolusi untuk asam dan dua untuk basa. ||| brusina, kuinina; asam tartarat, asam kamforsulfonat
+@resol [P] Rancang resolusi (±)-1-feniletilamina dengan asam (R,R)-tartarat. Sebutkan garam yang terbentuk, cara memisahkannya, dan cara memperoleh kembali amina murni. ||| dua garam diastereomer; kristalisasi; basakan dengan NaOH dan ekstrak
+Bagaimana kromatografi kiral memisahkan enansiomer? ||| kompleks sementara diastereomer dengan fasa diam kiral
+Apa keuntungan sintesis asimetris dibandingkan resolusi? ||| tidak membuang separuh produk
+
+## Subbab 5.13: Stereokimia obat dan enzim
+
+Jelaskan model tiga titik. ||| hanya satu enansiomer cocok di tiga tempat ikatan reseptor
+Mengapa (R)- dan (S)-karvon berbau berbeda? ||| reseptor bau kiral
+Mengapa ibuprofen boleh dijual sebagai rasemat? ||| enansiomer R diubah sebagian menjadi S di tubuh
+@obat [P] Mengapa pemberian talidomida sebagai satu enansiomer murni tidak menghilangkan bahayanya? ||| kedua enansiomer saling berubah (rasemisasi) di dalam tubuh
+Sebuah obat rasemik 200 mg; hanya enansiomer R aktif. Berapa mg zat aktif? Berapa dosis enansiomer R murni yang setara? ||| 100 mg; 100 mg
+Mengapa enzim hampir selalu menghasilkan satu enansiomer saja? ||| enzim kiral

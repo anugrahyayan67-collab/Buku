@@ -1,0 +1,253 @@
+## Subbab 13.1: OM delokalisasi vs orbital lokal
+
+> Dalam soal-soal Hückel, energi ditulis $E = \alpha + x\beta$ dengan $\beta < 0$; bila tidak disebut lain, pakai $\lvert\beta\rvert = 75$ kJ/mol untuk sifat termokimia. Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab.
+
+**Dasar**
+
+Dengan basis minimal, tentukan banyaknya OM dan banyaknya OM terisi untuk NH₃, C₂H₂, dan HCN. ||| 8 dan 5; 12 dan 7; 11 dan 7
+Dua orbital $1s$ hidrogen ($\alpha = -13{,}6$ eV) dengan $S = 0{,}3$ dan $\beta = 1{,}75S\alpha$. Hitung $E_+$ dan $E_-$ dengan (13.3). ||| $\beta = -7{,}14$ eV; $-15{,}95$ eV; $-9{,}23$ eV
+Orbital oksigen mana yang dapat bercampur dengan $h_+ = h_a + h_b$ dan mana dengan $h_- = h_a - h_b$ pada H₂O? ||| $2s$, $2p_z$; $2p_y$
+
+**Menengah**
+
+@dua [P] Dua orbital dengan energi $\alpha_A = -15$ eV dan $\alpha_B = -10$ eV berinteraksi dengan $\beta = -2$ eV ($S = 0$). Hitung energi OM secara tepat dan dengan perturbasi orde kedua. ||| tepat $-15{,}70$ dan $-9{,}30$ eV; perturbasi $-15{,}80$ dan $-9{,}20$ eV
+Untuk model BeH₂ dengan $2\sigma_g = c(2s) + d(h_a + h_b)$ dan $1\sigma_u = c(2p_z) + d(h_a - h_b)$ (koefisien sama), tunjukkan bahwa $(2\sigma_g + 1\sigma_u)/\sqrt2$ memuat hibrida sp murni. ||| bagian Be: $c(2s + 2p_z)/\sqrt2$
+Mengapa energi orbital kanonik terdefinisi, sedangkan "energi orbital terlokalisasi" tidak? ||| orbital lokal bukan fungsi eigen operator Fock
+
+**Tantangan ★**
+
+★ Pada metana, bila $2a_1 = c_s(2s) + \ldots$ dan $1t_{2x} = c_p(2p_x) + \ldots$ dengan $c_s = 0{,}64$ dan $c_p = 0{,}55$, berapa karakter $s$ bagian karbon dari orbital terlokalisasi $\tfrac12(2a_1 + 1t_{2x} + 1t_{2y} + 1t_{2z})$? ||| $c_s^2/(c_s^2 + 3c_p^2) = 0{,}31$
+
+## Subbab 13.2: OM H₂O, NH₃, CH₄ dari simetri
+
+**Dasar**
+
+Klasifikasikan orbital $2s$, $2p_x$, $2p_y$, $2p_z$ nitrogen pada NH₃ ($C_{3v}$, sumbu $z$ sepanjang $C_3$). ||| $a_1$; $e$; $e$; $a_1$
+OM air mana yang merupakan orbital $2p$ oksigen murni, dan mengapa? ||| $1b_1$; satu-satunya orbital $b_1$
+Untuk CH₄ dengan H di $(1,1,1)$, $(1,-1,-1)$, $(-1,1,-1)$, $(-1,-1,1)$, tuliskan SALC yang bersimetri seperti $p_z$. ||| $\tfrac12(h_1 - h_2 - h_3 + h_4)$
+
+**Menengah**
+
+@proyeksi [P] Dengan operator proyeksi $C_{3v}$, proyeksikan $h_1$ (orbital $1s$ H pertama pada NH₃) ke $A_1$ dan $E$. ||| $A_1$: $h_1 + h_2 + h_3$; $E$: $2h_1 - h_2 - h_3$
+Energi ionisasi pertama H₂S 10,5 eV, lebih rendah daripada H₂O (12,6 eV). Jelaskan dengan asal orbital $1b_1$. ||| $3p$ S lebih tinggi daripada $2p$ O
+Mengapa metana tidak mempunyai pasangan bebas dalam bahasa OM, sedangkan NH₃ mempunyai satu? ||| semua orbital valensi C mendapat pasangan SALC
+
+**Tantangan ★**
+
+★ Dengan energi Hückel diperluas H₂O ($-33{,}25$; $-17{,}11$; $-15{,}46$; $-14{,}80$ eV) dan energi ionisasi (32,2; 18,51; 14,74; 12,62 eV), hitung galat teorema Koopmans untuk setiap orbital. Orbital mana yang paling buruk, dan mengapa? ||| $+1{,}05$; $-1{,}40$; $+0{,}72$; $+2{,}18$ eV; $1b_1$ (pasangan bebas, relaksasi besar)
+
+## Subbab 13.3: Diagram Walsh dan bentuk molekul
+
+**Dasar**
+
+Ramalkan bentuk BeH₂, BH₂, NH₂⁻, dan H₂O⁺ dengan diagram Walsh AH₂. ||| linear; bengkok; bengkok; bengkok
+Ramalkan bentuk N₃⁻, NO₂⁺, O₃, ClO₂, dan XeF₂ dari banyaknya elektron valensi. ||| linear (16); linear (16); bengkok (18); bengkok (19); linear (22)
+Ramalkan bentuk BH₃, CH₃⁻, dan radikal CH₃. ||| datar; piramida; hampir datar
+
+**Menengah**
+
+@walsh4 Dengan energi Hückel diperluas $2a_1$ dan $1b_2$ pada 180° ($-33{,}27$; $-17{,}85$ eV) dan 105° ($-33{,}25$; $-17{,}11$ eV), tunjukkan bahwa molekul AH₂ dengan 4 elektron valensi lebih suka linear. ||| linear lebih rendah 1,52 eV
+Mengapa metilena singlet ($3a_1^2$) lebih bengkok daripada metilena triplet ($3a_1^1\,1b_1^1$)? ||| dua elektron di $3a_1$ yang distabilkan lengkungan
+Mengapa keadaan tereksitasi $n \to \pi^*$ formaldehida berbentuk piramida? ||| π* distabilkan bila C piramida
+
+**Tantangan ★**
+
+★ SiH₂ mempunyai keadaan dasar singlet dengan sudut sekitar 92°, berbeda dengan CH₂. Jelaskan dengan diagram Walsh dan selisih energi $3s$–$3p$. ||| celah $s$–$p$ besar; $3a_1^2$ kaya $s$ stabil
+
+## Subbab 13.4: Metode Hückel
+
+**Dasar**
+
+Tuliskan matriks keterhubungan alil dan benzena, dan periksa bahwa jejaknya nol. ||| diagonal nol
+Dengan $\alpha = -11{,}4$ eV dan $\beta = -2{,}4$ eV, hitung energi keempat OM π butadiena. ||| $-15{,}28$; $-12{,}88$; $-9{,}92$; $-7{,}52$ eV
+Periksa untuk butadiena bahwa $\sum x_k = 0$ dan $\sum x_k^2 = 2\times$ banyaknya ikatan. ||| 0; 6
+
+**Menengah**
+
+@epi [P] Buktikan bahwa $E_\pi = N_\pi\alpha + 2\beta\sum_\text{ikatan}p_{rs}$ untuk hidrokarbon dengan satu elektron π per atom, dan periksa untuk butadiena. ||| $4\alpha + 2\beta(0{,}894 + 0{,}447 + 0{,}894) = 4\alpha + 4{,}472\beta$
+Trimetilenmetana, C(CH₂)₃, mempunyai satu karbon pusat dengan tiga tetangga. Hitung nilai $x$ dan tentukan keadaan dasar untuk empat elektron π. ||| $\pm\sqrt3$, 0, 0; dua elektron di dua orbital nonikatan: triplet
+Mengapa model Hückel tidak dapat membedakan butadiena *s-cis* dan *s-trans*? ||| matriks keterhubungan sama
+
+**Tantangan ★**
+
+★ Dengan tumpang tindih, $E_\pm = (\alpha \pm \beta)/(1 \pm S)$. Untuk $S = 0{,}25$, berapa faktor pengali $\beta$ untuk orbital ikatan dan antiikatan (anggap $\alpha = 0$)? ||| 0,80 dan 1,33
+
+## Subbab 13.5: Etilena, alil, butadiena
+
+**Dasar**
+
+Hitung muatan π setiap karbon dan $E_\pi$ anion alil. ||| C1, C3 $-\tfrac12$; C2 0; $4\alpha + 2\sqrt2\beta$
+Periksa normalisasi $\psi_1$ butadiena (0,3717; 0,6015; 0,6015; 0,3717). ||| $2(0{,}138 + 0{,}362) = 1$
+Celah HOMO–LUMO butadiena $1{,}236\lvert\beta\rvert$. Dengan $\lvert\beta\rvert = 4{,}62$ eV, berapa panjang gelombang serapannya? ||| 5,71 eV; 217 nm
+
+**Menengah**
+
+@butad [P] Turunkan $\det(\mathbf A - x\mathbf I) = x^4 - 3x^2 + 1$ untuk butadiena dan selesaikan. ||| $x = \pm1{,}618$, $\pm0{,}618$
+Hitung orde ikatan π $p_{12}$ dan $p_{23}$ butadiena dalam keadaan tereksitasi $\psi_1^2\psi_2^1\psi_3^1$. Apa artinya bagi rotasi di sekitar C2–C3? ||| 0,447 dan 0,724; ikatan tengah menjadi lebih rangkap
+Orbital nonikatan rantai lima atom adalah $\tfrac{1}{\sqrt3}(1, 0, -1, 0, 1)$. Hitung muatan π kation dan anion pentadienil. ||| kation $+\tfrac13$ di C1, C3, C5; anion $-\tfrac13$
+
+**Tantangan ★**
+
+★ Energi π per atom rantai tak hingga setengah terisi adalah $4\lvert\beta\rvert/\pi$. Berapa energi delokalisasi per ikatan rangkap poliena tak hingga, dibanding butadiena ($0{,}236\lvert\beta\rvert$ per ikatan rangkap)? ||| $2(4/\pi) - 2 = 0{,}546\lvert\beta\rvert$
+
+## Subbab 13.6: Poliena linear dan siklik: rumus umum
+
+**Dasar**
+
+Dengan (13.12), hitung kelima nilai $x$ untuk rantai lima atom. ||| 1,732; 1; 0; $-1$; $-1{,}732$
+Dengan lingkaran Frost, tentukan tingkat energi cincin lima atom. ||| 2; 0,618 (dua); $-1{,}618$ (dua)
+Hitung celah HOMO–LUMO Hückel poliena dengan $N = 12$. ||| $4\sin(\pi/26) = 0{,}482$
+
+**Menengah**
+
+@norm Buktikan $\sum_{r=1}^{N}\sin^2[rk\pi/(N + 1)] = (N + 1)/2$ untuk $k = 1, \ldots, N$. ||| tulis $\sin^2 = \tfrac12(1 - \cos)$ dan jumlahkan deret kosinus
+Tunjukkan bahwa untuk $N$ besar celah (13.13) mendekati $2\pi\lvert\beta\rvert/(N + 1)$, dan bandingkan ketergantungan pada $N$ dengan model partikel dalam kotak. ||| keduanya $\propto 1/N$
+Mengapa tingkat terendah setiap cincin tunggal, sedangkan tingkat-tingkat berikutnya berpasangan? ||| $\cos(2\pi k/N) = \cos(-2\pi k/N)$
+
+**Tantangan ★**
+
+★ Dengan $E = 2{,}34 + 2{,}68\,\Delta x$ eV (Contoh 13.19), berapa $N$ yang diperlukan agar serapan mencapai 500 nm? Apa kesimpulan tentang poliena yang sangat panjang? ||| $\Delta x = 0{,}051$, $N \approx 120$; serapan jenuh di sekitar 530 nm
+
+## Subbab 13.7: Benzena, aromatisitas, aturan 4n + 2, antiaromatisitas
+
+**Dasar**
+
+Manakah yang aromatik: C₃H₃⁺, C₄H₄²⁺, C₉H₉⁻, C₈H₈²⁻, C₅H₅⁺? ||| ya; ya; ya; ya; tidak
+Hitung energi delokalisasi kation tropilium dari lingkaran Frost $N = 7$. ||| $2{,}99\beta$
+Manakah annulena aromatik: [14], [16], [18]? ||| [14] dan [18]
+
+**Menengah**
+
+@mobius [P] Hitung tingkat energi cincin Möbius delapan atom dan $E_\pi$ untuk delapan elektron. Bandingkan dengan siklooktatetraena datar Hückel. ||| $\pm1{,}848$, $\pm0{,}765$ (masing-masing dua kali); $10{,}45\beta$ vs $9{,}66\beta$ (terbuka)
+Dengan $\delta = 0{,}1$, berapa keuntungan energi π siklobutadiena persegi panjang dibanding bujur sangkar, dalam kJ/mol? ||| $0{,}4\lvert\beta\rvert = 30$ kJ/mol
+Hitung $E_\pi$ kation dan anion siklopentadienil. Mengapa kation triplet? ||| $4\alpha + 5{,}24\beta$; $6\alpha + 6{,}47\beta$; dua elektron di pasangan berdegenerasi
+
+**Tantangan ★**
+
+★ Buktikan dengan (13.14) bahwa untuk cincin Hückel kulit tertutup selalu tercapai pada $4n + 2$ elektron, dan bahwa pada $4n$ elektron dua elektron terakhir menempati pasangan berdegenerasi. ||| tingkat $k = 0$ tunggal, $\pm k$ berpasangan
+
+## Subbab 13.8: Heteroatom dalam Hückel: piridina, pirola
+
+**Dasar**
+
+Berapa elektron π pada piridina, pirola, furan, dan tiofena? ||| 6 semuanya
+Pada imidazola, N mana yang basa? ||| N jenis piridina
+Untuk gugus C=O dengan $h_\text{O} = 2$, hitung $x$ dan muatan π O. ||| $1 \pm \sqrt2$; $-0{,}71$
+
+**Menengah**
+
+@pirid [P] Dengan teori perturbasi orde pertama, taksir pergeseran orbital pasangan HOMO benzena ketika satu CH diganti N ($h = 0{,}5$). Bandingkan dengan hasil numerik 1,167 dan 1,000. ||| $\Delta x = h c_\text{N}^2$: 0,167 dan 0
+Arah momen dipol piridina dan pirola berlawanan. Jelaskan dengan muatan π. ||| piridina: N negatif; pirola: N positif
+Mengapa protonasi pirola terjadi di C2, bukan di N? ||| protonasi N merusak sekstet aromatik
+
+**Tantangan ★**
+
+★ Hitung $E_\pi$ pirola ($h = 1{,}5$) dan furan ($h = 2{,}0$), keduanya dengan $k = 0{,}8$, serta energi delokalisasi terhadap butadiena ditambah pasangan bebas terpisah. Mana yang lebih aromatik? ||| pirola $8{,}25\beta$, 0,78β; furan $9{,}13\beta$, 0,66β; pirola
+
+## Subbab 13.9: Energi delokalisasi, muatan, dan orde ikatan
+
+**Dasar**
+
+Manakah yang alternan: naftalena, azulena, fulvena, stirena? ||| ya; tidak; tidak; ya
+Dengan (13.18), ramalkan panjang ikatan untuk $p = 0{,}5$ dan $p = 0{,}75$. ||| 143,8 pm; 138,2 pm
+Hitung valensi bebas karbon etilena dan benzena. ||| 0,732; 0,399
+
+**Menengah**
+
+@teo [P] Buktikan bahwa untuk hidrokarbon alternan dengan matriks $\begin{pmatrix}\mathbf 0 & \mathbf B\\ \mathbf B^\text{T} & \mathbf 0\end{pmatrix}$, nilai eigen muncul berpasangan $\pm x$. ||| $(\mathbf u, -\mathbf v)$ vektor eigen untuk $-x$
+Hitung muatan π kation benzil dari orbital nonikatan Contoh 13.30. ||| CH₂ $+\tfrac47$; orto, para $+\tfrac17$; meta 0
+Energi delokalisasi Hückel antrasena $5{,}314\beta$ dan fenantrena $5{,}448\beta$. Berapa selisihnya dalam kJ/mol? ||| 10 kJ/mol; fenantrena lebih stabil
+
+**Tantangan ★**
+
+★ Buktikan bahwa kerapatan elektron π setiap atom hidrokarbon alternan netral tepat 1. ||| teorema pasangan dan kelengkapan
+
+## Subbab 13.10: Orbital perbatasan HOMO–LUMO dan reaktivitas
+
+**Dasar**
+
+Hitung perbandingan $c^2$ HOMO naftalena pada posisi α dan β. ||| $0{,}181/0{,}069 = 2{,}6$
+Di atom mana akrolein diserang kuprat? Di mana diserang CH₃Li? ||| C(β); C karbonil
+Hitung celah HOMO diena–LUMO dienofil untuk butadiena + etilena dan butadiena + akrolein. ||| $1{,}618\lvert\beta\rvert$; $0{,}965\lvert\beta\rvert$
+
+**Menengah**
+
+@orto Untuk 1-metoksibutadiena (HOMO: C1 0,513; C4 0,603) dan akrolein (LUMO: C(β) 0,657; C(α) 0,228), bandingkan $(\sum cc)^2$ untuk orientasi "orto" (C4–Cβ, C1–Cα) dan "meta" (C1–Cβ, C4–Cα). ||| orto 0,263; meta 0,225
+Dengan $\text{IE} = 6{,}00 + 3{,}31\,x_\text{HOMO}$ eV, ramalkan IE heksasena ($x_\text{HOMO} = 0{,}171$). ||| 6,57 eV
+Mengapa diena dengan gugus pemberi elektron bereaksi lebih cepat dengan dienofil penarik elektron? ||| HOMO naik, LUMO turun, celah mengecil
+
+**Tantangan ★**
+
+★ Jelaskan dengan rumus Klopman–Salem mengapa ion F⁻ menyerang karbon karbonil enon, sedangkan RS⁻ menyerang karbon β. ||| kendali muatan vs kendali orbital
+
+## Subbab 13.11: Reaksi perisiklik dan aturan Woodward–Hoffmann
+
+**Dasar**
+
+(2*E*,4*Z*,6*Z*)-Okta-2,4,6-triena menutup cincin secara termal. Apakah 5,6-dimetilsikloheksa-1,3-diena yang terbentuk *cis* atau *trans*? ||| *trans* (disrotasi)
+Apakah sikloadisi $[\pi6_s + \pi4_s]$ diizinkan secara termal? ||| ya
+Mengapa pembentukan dimer timin dalam DNA memerlukan sinar UV? ||| [2 + 2] suprafasial terlarang termal
+
+**Menengah**
+
+@korelasi [P] Susun diagram korelasi disrotasi (cermin dipertahankan) untuk heksatriena → sikloheksadiena dan tunjukkan bahwa reaksi termalnya diizinkan. ||| $\psi_1^2\psi_2^2\psi_3^2 \to \sigma^2\pi_1^2\pi_2^2$
+Pembukaan cincin kation siklopropil menjadi kation alil (2 elektron): konrotasi atau disrotasi secara termal? ||| disrotasi
+Tentukan apakah geseran [1,3]-alkil dengan inversi konfigurasi pada karbon yang berpindah ($\sigma2_a + \pi2_s$) diizinkan secara termal. ||| ya
+
+**Tantangan ★**
+
+★ Analisis geseran [1,5]-H suprafasial dengan aturan Dewar–Zimmerman: berapa elektron dalam keadaan transisi, dan apakah susunannya Hückel atau Möbius? ||| 6 elektron, Hückel: aromatik, diizinkan
+
+## Subbab 13.12: Metode Pariser–Parr–Pople
+
+**Dasar**
+
+Hitung $\gamma$ Mataga–Nishimoto untuk dua karbon berjarak 1,40 Å dan 3,00 Å. ||| 5,35 eV; 3,35 eV
+Mengapa pita benzena di 254 nm lemah? ||| $^1B_{2u}$ terlarang oleh simetri
+Berapa selisih energi singlet dan triplet dari konfigurasi $i \to a$ yang sama dalam CIS? ||| $2K_{ia}$
+
+**Menengah**
+
+@etilenappp [P] Untuk etilena (C–C 1,34 Å) dengan $\beta = -2{,}39$ eV dan $\gamma_{11} = 11{,}13$ eV, tunjukkan bahwa energi eksitasi singlet $\pi \to \pi^*$ adalah $-2\beta + \tfrac12(\gamma_{11} - \gamma_{12})$ dan triplet $-2\beta - \tfrac12(\gamma_{11} - \gamma_{12})$. Hitung keduanya. ||| 7,61 eV; 1,95 eV
+PPP-CIS memberi naftalena 4,14; 4,48; 5,80 eV. Bandingkan dengan 4,0; 4,45; 5,89 eV dan hitung galat rata-rata mutlaknya. ||| 0,09 eV
+Mengapa $\gamma_{\mu\mu} = I - A$ dapat ditafsirkan sebagai "biaya" menaruh dua elektron π pada satu atom? ||| C⁺ + C⁻ dari dua C netral
+
+**Tantangan ★**
+
+★ PPP-CIS memberi keadaan singlet terendah azulena 1,91 eV dengan kekuatan osilator 0,02. Hitung panjang gelombangnya, warna komplementernya, dan jelaskan mengapa serapannya lemah. ||| 649 nm; biru; HOMO dan LUMO pada atom berbeda
+
+## Subbab 13.13: Dari molekul ke padatan: rantai Hückel tak hingga dan pita energi
+
+**Dasar**
+
+Rantai $N$ atom dengan satu orbital per atom: berapa keadaan dalam pita, dan berapa elektron yang dapat ditampung? ||| $N$; $2N$
+Berapa $E$ pada $k = \pi/2a$? Apa artinya bagi rantai setengah terisi? ||| $\alpha$; tingkat Fermi
+Hitung massa efektif untuk $\lvert\beta\rvert = 1{,}0$ eV dan $a = 3{,}0$ Å. ||| $0{,}42\,m_e$
+
+**Menengah**
+
+@dos Turunkan rapat keadaan (13.26) untuk rantai tak hingga. ||| $g = (Na/\pi)\lvert dk/dE\rvert$
+Rantai dengan $\beta_1 = -2{,}8$ eV dan $\beta_2 = -2{,}2$ eV berselang-seling. Berapa celah di tepi zona? ||| 1,2 eV
+Mengapa poliasetilena yang di-doping iodium menghantarkan listrik? ||| lubang di pita valensi
+
+**Tantangan ★**
+
+★ Turunkan energi π per atom rantai tak hingga setengah terisi, $\tfrac{1}{\pi}\int_{-\pi/2}^{\pi/2}2\cos\theta\,d\theta$ (dalam $\lvert\beta\rvert$, dua elektron per orbital terisi, dibagi banyaknya atom). ||| $4/\pi = 1{,}273$
+
+## Subbab 13.14: Logam, semikonduktor, grafena
+
+**Dasar**
+
+Golongkan sebagai logam, semikonduktor, atau isolator: Na, intan, Si, Mg. ||| logam; isolator; semikonduktor; logam
+Berapa lebar pita kisi kubus sederhana Hückel dengan $\beta = -1$ eV? ||| 12 eV
+Hitung $v_F$ grafena bila $\lvert\beta\rvert = 3{,}0$ eV. ||| $9{,}7 \times 10^5$ m/s
+
+**Menengah**
+
+@dirac [P] Uraikan $f(\mathbf k)$ di sekitar titik K sampai orde pertama dan turunkan $E - \alpha = \pm\hbar v_Fq$ dengan $v_F = 3\lvert\beta\rvert a_\text{CC}/2\hbar$. ||| $\lvert f\rvert \approx \tfrac32a_\text{CC}q$
+Tentukan sifat nanotabung (6,6), (7,0), (11,0), diameternya, dan celah yang semikonduktor. ||| logam 8,1 Å; semi 5,5 Å, 1,40 eV; semi 8,6 Å, 0,89 eV
+Mengapa celah Si (1,12 eV) lebih kecil daripada intan (5,5 eV)? ||| ikatan Si–Si lebih lemah: pemisahan ikatan–antiikatan kecil
+
+**Tantangan ★**
+
+★ Untuk boron nitrida heksagonal, energi diagonal B dan N berbeda $\Delta$. Tunjukkan bahwa $E = \bar\alpha \pm \sqrt{\Delta^2/4 + \beta^2\lvert f\rvert^2}$ dan bahwa celahnya $\Delta$. Dengan celah 6 eV, berapa $\Delta$? ||| celah di K; $\Delta \approx 6$ eV

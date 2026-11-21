@@ -1,0 +1,131 @@
+## Subbab 12.1: Asam karboksilat: sifat dan keasaman
+
+> pKa: CH₃COOH 4,76; HCOOH 3,75; C₆H₅COOH 4,20; ClCH₂COOH 2,86; Cl₂CHCOOH 1,29; Cl₃CCOOH 0,65; H₂CO₃ 6,35; C₂H₅OH 16. Fischer (asam asetat + etanol): K ≈ 4. Soal bertanda **[P]** dibahas di akhir bab.
+
+Beri nama IUPAC: (a) CH₃CH₂CH(CH₃)COOH; (b) HOOC(CH₂)₄COOH; (c) asam yang terikat pada sikloheksana; (d) CH₂=CHCOOH. ||| (a) asam 2-metilbutanoat; (b) asam heksanadioat; (c) asam sikloheksanakarboksilat; (d) asam propenoat (akrilat)
+Mengapa asam asetat (118 °C) mendidih lebih tinggi daripada propan-1-ol (97 °C)? ||| dimer dengan dua ikatan hidrogen
+@resonansi [P] Jelaskan mengapa asam asetat sekitar 10¹¹ kali lebih asam daripada etanol. Bukti struktur apa yang mendukung penjelasanmu? ||| muatan ion asetat tersebar ke dua O lewat resonansi (dan efek induktif C=O); kedua C–O pada ion format sama panjang 127 pm
+Urutkan keasaman: asam asetat, asam fluoroasetat, asam iodoasetat, asam trifluoroasetat, asam propanoat. ||| trifluoroasetat > fluoroasetat > iodoasetat > asetat > propanoat
+@induktif [P] Jelaskan perbedaan pKa asam 2-, 3-, dan 4-klorobutanoat (2,86; 4,05; 4,52). ||| efek induktif melemah dengan jarak (sekitar tiga kali per karbon)
+Urutkan keasaman: asam benzoat, asam 4-nitrobenzoat, asam 4-metoksibenzoat, asam 4-klorobenzoat. ||| 4-nitro > 4-kloro > benzoat > 4-metoksi
+Hitung K untuk asam asetat + HCO₃⁻. Apa artinya bagi uji bikarbonat? ||| K ≈ 39; asam karboksilat larut dalam NaHCO₃ dengan gelembung CO₂, fenol tidak
+Ibuprofen mempunyai pKa 4,9. Berapa persen dalam bentuk anion pada pH 7,4? ||| 99,7%
+Mengapa nama metabolit sering ditulis sebagai anion (laktat, piruvat)? ||| pada pH tubuh asam karboksilat hampir seluruhnya terionisasi
+
+Mengapa asam butanoat berbau tajam, sedangkan natrium butanoat hampir tidak berbau? ||| garam ionik tidak menguap
+
+## Subbab 12.2: Membuat asam karboksilat
+
+Tulis produk: (a) heksan-1-ol + pereaksi Jones; (b) 4-tert-butiltoluena + KMnO₄ panas; (c) siklopentena + KMnO₄ panas; (d) bromosikloheksana + Mg, lalu CO₂, lalu H₃O⁺. ||| (a) asam heksanoat; (b) asam 4-tert-butilbenzoat; (c) asam pentanadioat; (d) asam sikloheksanakarboksilat
+@grignit [P] Rancang sintesis asam 2,2-dimetilpropanoat dari 2-bromo-2-metilpropana. Mengapa jalur nitril tidak dapat dipakai? ||| Mg, eter; CO₂; H₃O⁺; jalur nitril gagal karena SN2 tidak terjadi pada C tersier (E2)
+Rancang sintesis asam 4-hidroksibutanoat dari 3-bromopropan-1-ol. Jalur mana yang dipakai? ||| NaCN (SN2), lalu H₃O⁺ panas (Grignard tidak dapat karena –OH)
+Berapa karbon yang ditambahkan pada karboksilasi Grignard dan pada jalur nitril? ||| satu karbon pada keduanya
+Tulis produk propilbenzena + KMnO₄ panas. ||| asam benzoat
+
+Rancang sintesis asam 3-fenilpropanoat dari 2-feniletil bromida dengan dua cara. ||| Mg, CO₂, H₃O⁺; atau NaCN lalu H₃O⁺ panas
+
+## Subbab 12.3: Turunan asam: struktur dan kereaktifan relatif
+
+Beri nama: (a) CH₃CH₂COCl; (b) (CH₃CH₂CO)₂O; (c) CH₃COOCH(CH₃)₂; (d) HCON(CH₃)₂; (e) CH₃CH₂CH₂CN. ||| (a) propanoil klorida; (b) anhidrida propanoat; (c) isopropil asetat; (d) N,N-dimetilformamida; (e) butananitril
+@tangga [P] Jelaskan dua faktor yang menyebabkan klorida asam jauh lebih reaktif daripada amida. ||| Cl⁻ gugus pergi sangat baik, NH₂⁻ sangat buruk; N menstabilkan C=O lewat resonansi kuat, Cl hampir tidak
+Mengapa turunan asam mengalami substitusi, sedangkan keton mengalami adisi? ||| turunan asam mempunyai gugus pergi yang dapat lepas dari zat antara tetrahedral; H⁻/R⁻ pada keton terlalu basa
+Mana yang dapat dilakukan langsung: (a) asetil klorida → etil asetat; (b) asetamida → asetil klorida; (c) etil asetat → asetamida; (d) asam asetat → anhidrida asetat (dengan pemanasan biasa)? ||| (a) ya; (b) tidak; (c) ya; (d) tidak untuk asetat (perlu lewat klorida asam)
+Mengapa ion karboksilat paling tidak reaktif terhadap nukleofil? ||| bermuatan negatif, menolak nukleofil; O⁻ gugus pergi sangat buruk
+Gambar struktur γ-butirolakton dan pirolidin-2-on. Golongan apa masing-masing? ||| lakton (ester siklik) beranggota lima; laktam (amida siklik) beranggota lima
+
+## Subbab 12.4: Substitusi asil nukleofilik: mekanisme adisi–eliminasi
+
+Tulis mekanisme asetil klorida + air. ||| adisi H₂O (zat antara tetrahedral) → lepas Cl⁻ → lepas H⁺: asam asetat + HCl
+Tulis mekanisme umum dalam asam untuk ester + air. ||| protonasi C=O, adisi air, transfer proton ke OR, lepas ROH, deprotonasi
+@isotop [P] Bila etil benzoat berlabel ¹⁸O pada oksigen karbonil dihidrolisis sebagian dalam NaOH, ester yang tersisa kehilangan sebagian ¹⁸O. Jelaskan. ||| zat antara tetrahedral: dua O setara (–OH dan –O⁻) bertukar proton; bila kembali ke ester, O mana pun dapat menjadi O karbonil
+Mengapa substitusi asil bukan SN2? ||| nukleofil masuk ke orbital π* membentuk zat antara, baru kemudian gugus pergi lepas
+Mengapa reaksi amina dengan klorida asam memerlukan dua ekuivalen amina? ||| satu sebagai nukleofil, satu menangkap HCl
+
+Gambar zat antara tetrahedral pada reaksi metil asetat + OH⁻. ||| CH₃C(O⁻)(OH)OCH₃
+
+## Subbab 12.5: Klorida asam
+
+Tulis produk propanoil klorida dengan: (a) H₂O; (b) CH₃OH, piridina; (c) 2 NH₃; (d) C₆H₆, AlCl₃; (e) (CH₃)₂CuLi; (f) LiAlH₄. ||| (a) asam propanoat; (b) metil propanoat; (c) propanamida + NH₄Cl; (d) 1-fenilpropan-1-on; (e) butan-2-on; (f) propan-1-ol
+Tulis mekanisme pembuatan asetil klorida dari asam asetat dan SOCl₂. ||| O menyerang S → asil klorosulfit; Cl⁻ adisi–eliminasi; lepas SO₂ + Cl⁻ (+ HCl)
+@kl [P] Rancang sintesis N,N-dietilbenzamida dari toluena. ||| KMnO₄ → asam benzoat; SOCl₂ → benzoil klorida; 2 (CH₃CH₂)₂NH
+Mengapa klorida asam berasap di udara lembap? ||| bereaksi dengan uap air menghasilkan HCl
+Bagaimana membuat aldehida dari klorida asam? ||| LiAlH(O-tBu)₃ pada suhu rendah
+
+Rancang sintesis metil 3-metilbutanoat dari asam 3-metilbutanoat dengan dua cara. ||| Fischer (CH₃OH berlebih, H⁺); atau SOCl₂ lalu CH₃OH, piridina
+
+## Subbab 12.6: Anhidrida asam
+
+Tulis produk anhidrida asetat dengan: (a) etanol; (b) anilina; (c) air. ||| (a) etil asetat + asam asetat; (b) asetanilida + asam asetat; (c) 2 asam asetat
+Hitung massa aspirin (180,16 g mol⁻¹) dari 2,00 g asam salisilat (138,12 g mol⁻¹) dan massa anhidrida asetat (102,09 g mol⁻¹) yang diperlukan. ||| 2,61 g aspirin; 1,48 g anhidrida
+@aspirin [P] Mengapa aspirin tua berbau cuka? Tulis reaksinya. ||| hidrolisis ester fenol oleh uap air: asam salisilat + asam asetat
+Mengapa anhidrida asetat lebih disukai daripada asetil klorida di industri? ||| lebih murah, lebih mudah ditangani, hasil samping asam asetat bukan HCl
+Tulis produk pemanasan asam ftalat. ||| anhidrida ftalat + H₂O
+Mengapa asetilasi 4-aminofenol memberi parasetamol (N-asetil), bukan ester? ||| N lebih nukleofilik daripada O fenol
+
+## Subbab 12.7: Ester
+
+Tulis produk esterifikasi Fischer: (a) asam asetat + pentan-1-ol; (b) asam benzoat + etanol; (c) asam 4-hidroksibutanoat (intramolekul). ||| (a) pentil asetat; (b) etil benzoat; (c) γ-butirolakton
+@fischer [P] Hitung hasil esterifikasi 1 mol asam asetat dengan 1, 3, dan 10 mol etanol (K = 4). ||| 67%, 90%, 97%
+Tulis mekanisme saponifikasi etil asetat. Mengapa basa harus stoikiometrik? ||| OH⁻ adisi, lepas EtO⁻, transfer proton (karboksilat); OH⁻ habis menjadi karboksilat
+Di mana label ¹⁸O berakhir pada esterifikasi Fischer asam benzoat dengan CH₃¹⁸OH? ||| di ester (metil benzoat), bukan di air
+Tulis produk transesterifikasi metil asetat dengan etanol berlebih (H⁺). ||| etil asetat + metanol
+Tulis produk etil asetat + NH₃. ||| asetamida + etanol
+Ester apa yang memberi aroma pisang? Tulis cara membuatnya. ||| isopentil asetat (3-metilbutil asetat): asam asetat + 3-metilbutan-1-ol, H⁺
+Mengapa ester tert-butil dihidrolisis dalam asam lewat mekanisme berbeda? ||| ikatan alkil–O putus lewat karbokation tersier (SN1/E1)
+
+Mengapa biodiesel dibuat dengan metanol dan katalis basa tanpa air? ||| transesterifikasi; air akan menyabunkan ester dan menghabiskan basa
+
+## Subbab 12.8: Amida dan hidrolisisnya
+
+@amida [P] Jelaskan tiga bukti bahwa ikatan C–N amida mempunyai sifat rangkap. ||| C–N pendek (132 pm); gugus datar; rotasi terhambat (dua metil DMF berbeda pada NMR)
+Mengapa amida diprotonasi pada oksigen, bukan nitrogen? ||| pasangan bebas N terlibat resonansi; protonasi O menghasilkan kation terstabilkan resonansi
+Tulis produk hidrolisis N-fenilasetamida dalam (a) HCl panas; (b) NaOH panas. ||| (a) asam asetat + ion anilinium; (b) ion asetat + anilina
+Mengapa asam karboksilat + amina pada suhu kamar tidak memberi amida? ||| terjadi reaksi asam–basa membentuk garam amonium karboksilat
+Mengapa protein tidak terhidrolisis dalam air pada suhu kamar, tetapi terhidrolisis cepat dalam usus? ||| amida sangat stabil; enzim protease mempercepat jutaan kali
+Mengapa ikatan peptida membuat rantai protein kaku? ||| gugus amida datar dan tidak berputar; hanya ikatan di sekitarnya yang berputar
+Urutkan kecepatan hidrolisis: metil benzoat, benzoil klorida, benzamida, anhidrida benzoat. ||| benzoil klorida > anhidrida > metil benzoat > benzamida
+
+Rancang sintesis N-metilasetamida dari asam asetat dan dari etil asetat. ||| SOCl₂ lalu 2 CH₃NH₂; atau CH₃NH₂ dengan etil asetat (pemanasan)
+
+## Subbab 12.9: Nitril
+
+Tulis produk: (a) 1-bromopentana + NaCN; (b) produk (a) + H₃O⁺ panas; (c) produk (a) + LiAlH₄; (d) produk (a) + CH₃CH₂MgBr, lalu H₃O⁺. ||| (a) heksananitril; (b) asam heksanoat; (c) heksan-1-amina; (d) oktan-3-on
+@nitril [P] Mengapa adisi Grignard pada nitril berhenti pada keton, sedangkan pada ester tidak? ||| nitril membentuk anion imina yang tidak bereaksi lagi; keton baru terbentuk setelah hidrolisis (Grignard sudah habis)
+Tulis cara membuat benzonitril dari benzamida. ||| SOCl₂ (atau P₄O₁₀), dehidrasi
+Mengapa nitril tersier tidak dibuat dengan NaCN + alkil halida tersier? ||| SN2 tidak terjadi; E2
+Tulis produk butananitril + DIBAL-H, lalu H₂O. ||| butanal
+
+Tulis produk hidrolisis sebagian (lembut) benzonitril. ||| benzamida
+
+## Subbab 12.10: Reduksi dan reaksi dengan organologam
+
+Tulis produk dengan LiAlH₄ (lalu H₂O): (a) metil heksanoat; (b) asam butanoat; (c) N-metilbenzamida; (d) γ-butirolakton. ||| (a) heksan-1-ol + metanol; (b) butan-1-ol; (c) N-metilbenzilamina; (d) butana-1,4-diol
+@red [P] Mengapa LiAlH₄ mereduksi amida menjadi amina, tetapi ester menjadi alkohol? ||| ester: alkoksida lepas → aldehida → alkohol; amida: N tidak lepas, O–Al lepas → iminium → amina
+Tulis produk etil propanoat + 2 C₆H₅MgBr, lalu H₃O⁺. ||| 1,1-difenilpropan-1-ol
+Mengapa reduksi ester dengan LiAlH₄ tidak dapat dihentikan pada aldehida? ||| aldehida lebih reaktif daripada ester
+Rancang sintesis 2-metilbutan-2-ol dari etil propanoat. ||| 2 CH₃MgBr, H₃O⁺
+Mengapa asam karboksilat tidak bereaksi dengan pereaksi Grignard menghasilkan alkohol? ||| reaksi asam–basa menghancurkan Grignard
+
+Tulis produk metil 4-oksopentanoat + NaBH₄. ||| metil 4-hidroksipentanoat (dapat menutup cincin menjadi γ-valerolakton)
+
+## Subbab 12.11: Lemak, sabun, poliester, dan poliamida
+
+Tulis produk saponifikasi gliseril trioleat dengan NaOH. ||| gliserol + 3 natrium oleat
+Mengapa minyak kedelai cair tetapi lemak sapi padat pada suhu kamar? ||| asam lemak tak jenuh cis bengkok, tidak tersusun rapat
+@sapon [P] Hitung bilangan penyabunan tristearin (891,5 g mol⁻¹) dan massa NaOH untuk 100 g tristearin. ||| 189 mg KOH/g; 13,5 g NaOH
+Jelaskan cara sabun membersihkan minyak. ||| misel: ekor hidrofobik melarutkan minyak, kepala ionik di permukaan
+Nilon-6,6 dengan massa molar rata-rata 22 600 g mol⁻¹. Berapa satuan berulang (226,32 g mol⁻¹)? ||| sekitar 100
+Gambar satuan berulang PET dan sebutkan monomernya. ||| –[OCH₂CH₂O–CO–C₆H₄–CO]–; asam tereftalat dan etilena glikol
+Apa beda polimer adisi dan polimer kondensasi? ||| kondensasi melepas molekul kecil (H₂O) tiap langkah; adisi tidak
+Mengapa Kevlar sangat kuat? ||| rantai aromatik kaku dan ikatan hidrogen antarrantai
+
+Mengapa PLA dapat terurai di alam? ||| ikatan ester dapat dihidrolisis oleh air dan enzim
+
+## Subbab 12.12: β-Laktam dan obat turunan asam
+
+@laktam [P] Jelaskan dua alasan cincin β-laktam penisilin lebih reaktif daripada amida biasa, dan bagaimana sifat ini membunuh bakteri. ||| tegangan cincin empat; N tidak datar sehingga resonansi amida lemah; serina transpeptidase terasilasi
+Bagaimana bakteri menjadi resistan terhadap penisilin? ||| β-laktamase menghidrolisis cincin β-laktam
+Apa peran asam klavulanat dalam ko-amoksiklav? ||| menghambat β-laktamase secara permanen
+Mengapa efek aspirin pada trombosit bertahan beberapa hari? ||| asetilasi COX permanen; trombosit tidak membuat enzim baru
+Mengapa lidokaina bekerja lebih lama daripada prokaina? ||| amida tidak dihidrolisis esterase plasma; ester cepat dihidrolisis
+Tulis gugus fungsi turunan asam pada parasetamol, aspirin, dan penisilin. ||| amida; ester (dan asam karboksilat); amida (β-laktam) dan asam karboksilat

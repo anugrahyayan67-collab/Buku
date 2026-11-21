@@ -1,0 +1,345 @@
+@@ a-momentum.md | ## 5.3 Kekekalan momentum
+### Impuls gaya yang berubah halus
+
+Jika bentuk gaya terhadap waktu diketahui, impulsnya dihitung dengan integral. Bentuk yang sering dipakai sebagai model pukulan adalah setengah gelombang sinus selama waktu sentuh $\tau$:
+
+$$
+F(t) = F_0\sin\frac{\pi t}{\tau}, \qquad J = \int_0^\tau F\,dt = \frac{2}{\pi}F_0\tau . \qquad \text{(5.xa)}
+$$
+
+Gaya rata-ratanya $2F_0/\pi = 0{,}64F_0$, sedikit lebih besar daripada setengah gaya puncak.
+
+::: {.contoh}
+**Contoh 5.xa · Servis tenis**
+
+Gaya raket pada bola tenis 0,057 kg yang mula-mula diam dimodelkan sebagai setengah gelombang sinus dengan gaya puncak 1500 N dan waktu sentuh 3,0 ms. Berapa kelajuan bola?
+
+**Kerjakan.**
+
+$$
+J = \frac{2}{\pi}(1500)(3{,}0 \times 10^{-3}) = 2{,}86\ \text{N·s}, \qquad v = \frac{2{,}86}{0{,}057} = 50\ \text{m/s}.
+$$
+
+**Periksa.** Kelajuan 50 m/s adalah 180 km/jam, wajar untuk servis yang keras. Gaya puncaknya setara dengan berat 150 kg, bekerja pada bola 57 gram.
+:::
+
+### Dari jarak berhenti ke waktu berhenti
+
+Sering kali yang diketahui adalah **jarak** berhentinya (dalamnya zona remuk, tebal busa helm), bukan waktunya. Jika perlambatan dianggap tetap, kelajuan rata-rata selama berhenti adalah setengah kelajuan awal, sehingga $\Delta t = 2d/v$.
+
+::: {.contoh}
+**Contoh 5.xb · Zona remuk**
+
+Mobil yang melaju 15 m/s menabrak tembok. Bagian depannya ringsek sedalam 0,60 m sebelum kabin berhenti. Berapa gaya rata-rata pada penumpang 70 kg yang terikat sabuk pengaman?
+
+**Kerjakan.** Waktu berhenti: $\Delta t = \dfrac{2(0{,}60)}{15} = 0{,}080$ s.
+
+$$
+F = \frac{\Delta p}{\Delta t} = \frac{(70)(15)}{0{,}080} = 1{,}3 \times 10^4\ \text{N}.
+$$
+
+**Periksa.** Dengan usaha–energi: $Fd = \tfrac12mv^2$ memberi $F = \dfrac{(70)(15)^2}{2(0{,}60)} = 1{,}3 \times 10^4$ N. Sama, karena kedua teorema berasal dari hukum yang sama. Gaya ini 19 kali berat badan: berat, tetapi masih dapat ditanggung jika tersebar pada sabuk yang lebar. Mobil yang "kokoh" dan tidak ringsek akan berhenti dalam jarak jauh lebih pendek, dan gayanya jauh lebih besar.
+:::
+
+@@ a-momentum.md | ## 5.4 Tumbukan tak lenting
+### Kekekalan pada satu arah saja
+
+Jika gaya luar hanya bekerja pada satu arah, momentum pada arah lain tetap kekal.
+
+::: {.contoh}
+**Contoh 5.xc · Meriam yang menembak miring**
+
+Meriam 800 kg di atas rel mendatar yang licin menembakkan peluru 10 kg dengan kelajuan 300 m/s pada sudut 40° di atas mendatar (terhadap tanah). Berapa kelajuan rekoil meriam?
+
+**Modelkan.** Selama tembakan, rel mengerjakan gaya normal yang sangat besar ke atas pada meriam. Itu gaya luar pada arah tegak, jadi momentum tegak **tidak** kekal. Pada arah mendatar tidak ada gaya luar.
+
+**Kerjakan.**
+
+$$
+0 = (10)(300\cos 40°) - 800V \quad\Longrightarrow\quad V = \frac{2298}{800} = 2{,}9\ \text{m/s}.
+$$
+
+**Periksa.** Momentum tegak peluru, $(10)(300\sin 40°) = 1930$ kg·m/s, diberikan oleh Bumi melalui rel. Bumi memperoleh momentum yang sama ke bawah, tetapi karena massanya luar biasa besar, kelajuannya tidak terukur.
+:::
+
+### Urutan kejadian berpengaruh
+
+::: {.contoh}
+**Contoh 5.xd · Melompat bersama atau bergantian?**
+
+Dua orang, masing-masing 50 kg, berdiri di atas gerobak 100 kg yang diam di rel licin. Mereka melompat turun ke arah belakang dengan kelajuan 2,0 m/s **relatif terhadap gerobak**. Berapa kelajuan akhir gerobak jika (a) keduanya melompat bersamaan; (b) mereka melompat satu per satu?
+
+**Kerjakan.** Ambil arah maju gerobak positif. Jika gerobak bergerak $V$ setelah lompatan, pelompat bergerak $V - 2{,}0$ terhadap tanah.
+
+(a) $0 = 100V + 100(V - 2{,}0)$, sehingga $V = 1{,}0$ m/s.
+
+(b) Lompatan pertama (gerobak membawa satu orang, massa 150 kg):
+
+$$
+0 = 150V_1 + 50(V_1 - 2{,}0) \quad\Longrightarrow\quad V_1 = 0{,}50\ \text{m/s}.
+$$
+
+Lompatan kedua, dengan momentum awal $(150)(0{,}50) = 75$ kg·m/s:
+
+$$
+75 = 100V_2 + 50(V_2 - 2{,}0) \quad\Longrightarrow\quad V_2 = 1{,}17\ \text{m/s}.
+$$
+
+**Periksa.** Melompat bergantian memberi gerobak kelajuan lebih besar. Pelompat kedua mendorong gerobak yang sudah lebih ringan, sehingga dorongannya lebih berhasil. Inilah gagasan di balik roket (subbab 5.8): massa dilempar sedikit demi sedikit, dan tiap lemparan berikutnya bekerja pada kendaraan yang makin ringan.
+:::
+
+@@ b-tumbukan.md | ## 5.6 Tumbukan dalam dua dimensi
+### Tumbukan beruntun
+
+::: {.contoh}
+**Contoh 5.xe · Tiga bola berderet**
+
+Tiga bola berada segaris di rel licin: 4,0 kg, 2,0 kg, dan 1,0 kg. Dua bola terakhir mula-mula diam. Bola 4,0 kg digerakkan 3,0 m/s menuju bola 2,0 kg. Semua tumbukan lenting. Berapa kelajuan bola 1,0 kg setelah ditumbuk?
+
+**Kerjakan.** Tumbukan pertama, bola 4,0 kg dengan bola 2,0 kg: $v_2' = \dfrac{2(4{,}0)}{6{,}0}(3{,}0) = 4{,}0$ m/s.
+
+Tumbukan kedua, bola 2,0 kg dengan bola 1,0 kg: $v_3' = \dfrac{2(2{,}0)}{3{,}0}(4{,}0) = 5{,}3$ m/s.
+
+**Periksa.** Jika bola 4,0 kg langsung menumbuk bola 1,0 kg, hasilnya $\dfrac{2(4{,}0)}{5{,}0}(3{,}0) = 4{,}8$ m/s. Menyisipkan bola bermassa di antaranya justru **menaikkan** kelajuan akhir. Energi berpindah paling baik antara benda yang massanya berdekatan, jadi rantai massa yang menurun bertahap memindahkan energi lebih baik daripada satu loncatan besar. Cambuk bekerja dengan gagasan ini: massa per satuan panjangnya mengecil ke ujung, sehingga ujungnya dapat melebihi laju bunyi.
+:::
+
+### Menimbang partikel dengan tumbukan
+
+::: {.contoh}
+**Contoh 5.xf · Bagaimana massa neutron diukur**
+
+Pada tahun 1932 James Chadwick menemukan radiasi netral yang tidak dapat ditimbang dengan medan listrik atau magnet. Ia membiarkan radiasi itu menumbuk inti hidrogen (1,0 u) dan inti nitrogen (14 u) yang diam, lalu mengukur kelajuan rekoil terbesar inti-inti itu: $3{,}3 \times 10^7$ m/s untuk hidrogen dan $4{,}7 \times 10^6$ m/s untuk nitrogen. Berapa massa partikel radiasi itu?
+
+**Rencanakan.** Kelajuan rekoil terbesar terjadi pada tumbukan lenting lurus. Dari (5.11), $v_2' = \dfrac{2m}{m + M}v$. Kelajuan $v$ partikel tak dikenal sama pada kedua percobaan, jadi perbandingan kedua rekoil menghilangkannya.
+
+**Kerjakan.**
+
+$$
+\frac{v_\text{H}'}{v_\text{N}'} = \frac{m + 14}{m + 1{,}0} = \frac{3{,}3 \times 10^7}{4{,}7 \times 10^6} = 7{,}0 .
+$$
+
+$m + 14 = 7{,}0m + 7{,}0$, sehingga $m = \dfrac{7{,}0}{6{,}0} = 1{,}2$ u.
+
+**Periksa.** Dalam ketelitian pengukurannya, massa partikel itu sama dengan massa proton. Chadwick menyimpulkan adanya partikel netral bermassa hampir sama dengan proton: **neutron**. Nilai modernnya 1,0087 u. Dua pengukuran kelajuan dan kekekalan momentum cukup untuk "menimbang" partikel yang tidak dapat dilihat maupun dibelokkan.
+:::
+
+@@ b-tumbukan.md | ## 5.7 Pusat massa
+### Memantul dari permukaan
+
+Bola yang menumbuk lantai licin secara miring hanya menerima gaya tegak lurus lantai. Komponen kecepatannya yang **sejajar** lantai tidak berubah, dan komponen yang **tegak lurus** lantai berbalik dan dikalikan $e$.
+
+::: {.contoh}
+**Contoh 5.xg · Pantulan miring**
+
+Bola menumbuk lantai licin dengan kelajuan 10 m/s pada sudut 45° terhadap garis normal. Koefisien restitusinya 0,50. Tentukan kelajuan dan arah bola sesudah memantul.
+
+**Kerjakan.** Sebelum: komponen sejajar $10\sin 45° = 7{,}07$ m/s, komponen tegak lurus $7{,}07$ m/s.
+
+Sesudah: komponen sejajar tetap 7,07 m/s; komponen tegak lurus $(0{,}50)(7{,}07) = 3{,}54$ m/s.
+
+$$
+v' = \sqrt{7{,}07^2 + 3{,}54^2} = 7{,}9\ \text{m/s}, \qquad \theta' = \tan^{-1}\frac{7{,}07}{3{,}54} = 63°\ \text{dari garis normal}.
+$$
+
+**Periksa.** Bola memantul lebih "rebah" daripada datangnya. Umumnya $\tan\theta' = \tan\theta/e$. Hanya untuk $e = 1$ sudut pantul sama dengan sudut datang, seperti pemantulan cahaya.
+:::
+
+@@ b-tumbukan.md | ## 5.8 Sistem yang massanya berubah: roket
+### Energi yang hilang pada tumbukan, secara umum
+
+Karena hanya $K_\text{relatif}$ yang dapat berubah, dan koefisien restitusi mengalikan kelajuan relatif dengan $e$, energi kinetik yang hilang pada tumbukan apa pun adalah
+
+$$
+\Delta K_\text{hilang} = \tfrac12\mu v_\text{rel}^2\,(1 - e^2). \qquad \text{(5.xb)}
+$$
+
+::: {.contoh}
+**Contoh 5.xh · Memeriksa ulang tabrakan berhadapan**
+
+Hitung ulang energi yang hilang pada Contoh 5.19 (mobil 1200 kg dengan 20 m/s dan mobil 1800 kg dengan 15 m/s, berhadapan, menyatu) dengan rumus (5.xb).
+
+**Kerjakan.** $\mu = \dfrac{(1200)(1800)}{3000} = 720$ kg. Kelajuan relatif: $20 + 15 = 35$ m/s. Menyatu berarti $e = 0$.
+
+$$
+\Delta K = \tfrac12(720)(35)^2 = 4{,}4 \times 10^5\ \text{J}.
+$$
+
+**Periksa.** Sama dengan hasil Contoh 5.19, dalam satu baris. Rumus ini juga menunjukkan bahwa kerusakan pada tabrakan hanya bergantung pada kelajuan **relatif**. Mobil yang menabrak mobil sejenis dari belakang dengan selisih kelajuan 35 m/s sama rusaknya dengan tabrakan berhadapan di atas.
+:::
+
+::: {.contoh}
+**Contoh 5.xi · Dua balok yang dihubungkan pegas**
+
+Dua balok, masing-masing 2,0 kg, dihubungkan pegas ($k = 900$ N/m) dan diam di lantai licin. Salah satu balok dipukul sehingga tiba-tiba bergerak 3,0 m/s menuju balok lain. (a) Berapa kecepatan pusat massa sistem sesudahnya? (b) Berapa penekanan terbesar pegas?
+
+**Kerjakan.**
+
+(a) $v_\text{pm} = \dfrac{(2{,}0)(3{,}0)}{4{,}0} = 1{,}5$ m/s, dan nilainya tetap selamanya.
+
+(b) Energi kinetik total 9,0 J. Energi gerak pusat massa $\tfrac12(4{,}0)(1{,}5)^2 = 4{,}5$ J terkunci. Sisanya, 4,5 J, adalah energi relatif. Periksa: $\tfrac12\mu v_\text{rel}^2 = \tfrac12(1{,}0)(3{,}0)^2 = 4{,}5$ J. Saat pegas tertekan paling jauh, seluruh energi relatif tersimpan di pegas:
+
+$$
+\tfrac12kx^2 = 4{,}5 \quad\Longrightarrow\quad x = 0{,}10\ \text{m}.
+$$
+
+**Periksa.** Sistem ini lalu melaju dengan pusat massa bergerak tetap 1,5 m/s, sementara kedua balok bergetar maju-mundur terhadap pusat massa. Ini model mekanik sebuah molekul dwiatom yang ditumbuk: sebagian energi tumbukan menjadi gerak molekul secara utuh (translasi), sebagian menjadi getaran.
+:::
+
+### Pusat massa dengan integral
+
+Untuk benda yang massanya tersebar tidak merata, jumlah pada (5.16) menjadi integral:
+
+$$
+x_\text{pm} = \frac1M\int x\,dm . \qquad \text{(5.xc)}
+$$
+
+::: {.contoh}
+**Contoh 5.xj · Batang yang tidak serbasama**
+
+Massa per satuan panjang sebuah batang sepanjang $L$ bertambah sebanding dengan jarak dari ujung kirinya: $\lambda = ax$. Di mana pusat massanya?
+
+**Kerjakan.** Potongan sepanjang $dx$ di posisi $x$ bermassa $dm = ax\,dx$.
+
+$$
+M = \int_0^L ax\,dx = \tfrac12aL^2, \qquad \int_0^L x\,(ax\,dx) = \tfrac13aL^3 .
+$$
+
+$$
+x_\text{pm} = \frac{\tfrac13aL^3}{\tfrac12aL^2} = \tfrac23L .
+$$
+
+**Periksa.** Pusat massa berada di dua pertiga panjang, lebih dekat ke ujung yang berat. Untuk batang serbasama hasilnya $\tfrac12L$. Hasil $\tfrac23$ ini sama dengan letak pusat massa segitiga dari puncaknya, karena sebaran massanya serupa.
+:::
+
+@@ b-tumbukan.md | ## 5.9 Momentum di skala atom
+### Mengapa roket dibuat bertingkat
+
+::: {.contoh}
+**Contoh 5.xk · Satu tingkat melawan dua tingkat**
+
+Dua rancangan roket bermassa awal 100 ton dengan $v_e = 3000$ m/s, masing-masing membawa muatan 2,0 ton. Rancangan A satu tingkat: 90 ton bahan bakar dan 8,0 ton struktur. Rancangan B dua tingkat: tingkat pertama 72 ton bahan bakar dan 8,0 ton struktur; tingkat kedua 16,2 ton bahan bakar dan 1,8 ton struktur. Bandingkan $\Delta v$ keduanya di ruang bebas.
+
+**Kerjakan.**
+
+*Rancangan A.* Massa akhir $100 - 90 = 10$ ton: $\Delta v = 3000\ln\dfrac{100}{10} = 6{,}9$ km/s.
+
+*Rancangan B.* Tingkat pertama: massa turun dari 100 ton ke 28 ton, $\Delta v_1 = 3000\ln\dfrac{100}{28} = 3{,}8$ km/s. Struktur 8,0 ton dibuang, tersisa 20 ton. Tingkat kedua: massa turun dari 20 ton ke 3,8 ton, $\Delta v_2 = 3000\ln\dfrac{20}{3{,}8} = 5{,}0$ km/s.
+
+Total: $\Delta v = 8{,}8$ km/s.
+
+**Periksa.** Rancangan B membawa bahan bakar **lebih sedikit** (88,2 ton dibanding 90 ton) dan struktur lebih banyak, tetapi memperoleh $\Delta v$ 27% lebih besar. Kuncinya adalah membuang 8 ton tangki kosong, sehingga tingkat kedua tidak perlu ikut mempercepatnya. Rancangan A tidak mencapai kelajuan orbit; rancangan B mencapainya.
+:::
+
+::: {.contoh}
+**Contoh 5.xl · Mesin ion**
+
+Mesin ion menyemburkan ion xenon dengan $v_e = 30$ km/s, sepuluh kali mesin kimia, tetapi hanya 3,0 mg per sekon. (a) Berapa gaya dorongnya? (b) Untuk memperoleh $\Delta v = 5{,}0$ km/s, berapa bagian massa awal yang harus berupa bahan bakar, dibandingkan dengan mesin kimia ber-$v_e$ 3,0 km/s?
+
+**Kerjakan.**
+
+(a) $F = Rv_e = (3{,}0 \times 10^{-6})(3{,}0 \times 10^4) = 0{,}090$ N.
+
+(b) Bagian bahan bakar adalah $1 - e^{-\Delta v/v_e}$. Mesin ion: $1 - e^{-0{,}167} = 15\%$. Mesin kimia: $1 - e^{-1{,}67} = 81\%$.
+
+**Periksa.** Gaya dorong mesin ion setara dengan berat selembar kertas, jadi tidak mungkin dipakai untuk lepas landas. Tetapi di ruang bebas ia dapat menyala berbulan-bulan dan sangat hemat bahan bakar. Wahana penjelajah asteroid memakai mesin jenis ini. Dalam persamaan roket, menaikkan $v_e$ jauh lebih berharga daripada menambah bahan bakar.
+:::
+
+### Rantai yang jatuh
+
+::: {.contoh}
+**Contoh 5.xm · Rantai jatuh ke timbangan**
+
+Rantai sepanjang 1,0 m bermassa 2,0 kg dipegang tegak dengan ujung bawahnya tepat menyentuh timbangan, lalu dilepas. Berapa gaya yang ditunjukkan timbangan tepat ketika mata rantai terakhir mendarat?
+
+**Rencanakan.** Timbangan menahan dua hal: berat bagian rantai yang sudah mendarat, dan gaya untuk **menghentikan** mata rantai yang sedang mendarat. Yang kedua adalah gaya aliran, (massa per sekon) × (kelajuan).
+
+**Kerjakan.** Massa per satuan panjang $\lambda = 2{,}0$ kg/m. Ketika panjang $x$ sudah mendarat, mata rantai yang sedang jatuh memiliki kelajuan $v = \sqrt{2gx}$.
+
+- Berat bagian yang sudah mendarat: $\lambda xg$.
+- Massa yang mendarat per sekon: $\lambda v$. Gaya untuk menghentikannya: $(\lambda v)v = \lambda v^2 = 2\lambda xg$.
+
+Total: $F = 3\lambda xg$. Tepat ketika seluruh rantai mendarat ($x = 1{,}0$ m):
+
+$$
+F = 3Mg = 3(2{,}0)(9{,}80) = 59\ \text{N}.
+$$
+
+**Periksa.** Timbangan sesaat menunjukkan **tiga kali** berat rantai, lalu turun ke $Mg = 19{,}6$ N begitu semuanya diam. Gaya penghenti selalu dua kali berat bagian yang sudah mendarat, berapa pun panjang rantainya.
+:::
+
+@@ b-tumbukan.md | AKHIR
+### Alat-alat yang bekerja dengan momentum
+
+::: {.contoh}
+**Contoh 5.xn · Spektrometer massa waktu-terbang**
+
+Dalam spektrometer waktu-terbang, ion bermuatan tunggal dipercepat sehingga semuanya memiliki energi kinetik 2000 eV, lalu melayang bebas sejauh 1,0 m ke detektor. Berapa waktu terbang ion bermassa 100 u dan 101 u? ($1\ \text{u} = 1{,}6605 \times 10^{-27}$ kg.)
+
+**Kerjakan.** $v = \sqrt{2K/m}$ dan $t = L/v$.
+
+Untuk 100 u: $v = \sqrt{\dfrac{2(2000)(1{,}602 \times 10^{-19})}{(100)(1{,}6605 \times 10^{-27})}} = 6{,}21 \times 10^4$ m/s, sehingga $t = 16{,}10\ \mu$s.
+
+Untuk 101 u: $t$ sebanding dengan $\sqrt m$, jadi $t = 16{,}10\sqrt{1{,}01} = 16{,}18\ \mu$s.
+
+**Periksa.** Selisihnya 0,08 mikrosekon, 80 nanosekon, yang mudah dibedakan elektronika modern. Karena $t \propto \sqrt m$, satu denyut ion menghasilkan seluruh spektrum massa sekaligus: ion ringan tiba dulu, ion berat belakangan.
+:::
+
+::: {.contoh}
+**Contoh 5.xo · Efusi dan pemisahan isotop**
+
+Laju efusi gas melalui lubang kecil sebanding dengan kelajuan rata-rata molekulnya, yaitu sebanding dengan $1/\sqrt M$ (hukum Graham). Bandingkan laju efusi (a) H₂ dan O₂; (b) ²³⁵UF₆ (349 g/mol) dan ²³⁸UF₆ (352 g/mol).
+
+**Kerjakan.**
+
+(a) $\sqrt{32/2} = 4{,}0$. Hidrogen keluar empat kali lebih cepat.
+
+(b) $\sqrt{352/349} = 1{,}0043$. Molekul yang lebih ringan keluar 0,43% lebih cepat.
+
+**Periksa.** Pada suhu yang sama, semua molekul memiliki energi kinetik rata-rata yang sama, sehingga yang lebih ringan bergerak lebih cepat dan lebih sering menumbuk lubang. Selisih 0,43% pada (b) sangat kecil. Untuk menaikkan kadar uranium-235 dari 0,7% menjadi beberapa persen, proses efusi harus diulang lebih dari seribu tahap.
+:::
+
+::: {.contoh}
+**Contoh 5.xp · Rekoil atom oleh cahaya**
+
+Foton berpanjang gelombang $\lambda$ membawa momentum $p = h/\lambda$, dengan $h = 6{,}626 \times 10^{-34}$ J·s (Bab 15). Atom natrium (23,0 u) menyerap foton cahaya kuning, $\lambda = 589$ nm. (a) Berapa perubahan kelajuan atom? (b) Berapa foton yang harus diserap dari depan untuk menghentikan atom yang melaju 600 m/s?
+
+**Kerjakan.**
+
+(a) $p = \dfrac{6{,}626 \times 10^{-34}}{589 \times 10^{-9}} = 1{,}12 \times 10^{-27}$ kg·m/s.
+
+$$
+\Delta v = \frac{p}{m} = \frac{1{,}12 \times 10^{-27}}{(23{,}0)(1{,}6605 \times 10^{-27})} = 0{,}029\ \text{m/s} = 2{,}9\ \text{cm/s}.
+$$
+
+(b) $\dfrac{600}{0{,}029} = 2{,}0 \times 10^4$ foton.
+
+**Periksa.** Satu foton hampir tidak terasa, tetapi atom dapat menyerap puluhan juta foton per sekon dari laser. Dua puluh ribu serapan hanya memerlukan sekitar satu milisekon. Begitulah **pendinginan laser** memperlambat atom dari kelajuan suhu kamar sampai hampir diam. Tekniknya memperoleh Hadiah Nobel Fisika 1997 dan menjadi dasar jam atom paling teliti.
+:::
+
+@@ _soal.txt | ## Subbab 5.3: Kekekalan momentum
+Gaya pada bola 0,16 kg yang mula-mula diam berbentuk setengah gelombang sinus dengan gaya puncak 900 N dan waktu sentuh 4,0 ms. Berapa impulsnya dan kelajuan akhir bola? ||| 2,3 N·s; 14 m/s
+Mobil yang melaju 20 m/s menabrak penghalang, dan bagian depannya ringsek 0,80 m sebelum kabin berhenti. Berapa gaya rata-rata pada penumpang 60 kg yang memakai sabuk pengaman? ||| $1{,}5 \times 10^4$ N
+
+@@ _soal.txt | ## Subbab 5.4: Tumbukan tak lenting
+Meriam 1000 kg di rel mendatar licin menembakkan peluru 20 kg dengan kelajuan 250 m/s pada sudut 35° di atas mendatar. Berapa kelajuan rekoil meriam? ||| 4,1 m/s
+Dua orang, masing-masing 60 kg, berdiri di gerobak 120 kg yang diam di rel licin. Mereka melompat ke belakang dengan kelajuan 3,0 m/s relatif terhadap gerobak. Berapa kelajuan akhir gerobak jika mereka melompat (a) bersamaan; (b) satu per satu? ||| (a) 1,5 m/s; (b) 1,75 m/s
+
+@@ _soal.txt | ## Subbab 5.6: Tumbukan dua dimensi
+Tiga bola berada segaris: 6,0 kg, 3,0 kg, dan 1,0 kg. Bola 6,0 kg bergerak 2,0 m/s menuju bola 3,0 kg yang diam, yang lalu menumbuk bola 1,0 kg yang diam. Semua tumbukan lenting. Berapa kelajuan bola 1,0 kg? ||| 4,0 m/s
+Sebuah partikel tak dikenal menumbuk lenting dan lurus inti hidrogen (1,0 u) dan inti helium (4,0 u) yang diam. Kelajuan rekoil hidrogen 2,5 kali kelajuan rekoil helium. Berapa massa partikel itu? ||| 1,0 u
+
+@@ _soal.txt | ## Subbab 5.7: Pusat massa
+Bola menumbuk lantai licin pada sudut 30° terhadap garis normal dengan koefisien restitusi 0,60. Pada sudut berapa terhadap garis normal bola memantul? ||| 44°
+
+@@ _soal.txt | ## Subbab 5.8: Roket dan sistem bermassa berubah
+Balok 3,0 kg dengan kecepatan $+4{,}0$ m/s dan balok 6,0 kg dengan kecepatan $-2{,}0$ m/s bertumbukan dan menyatu. Hitung energi kinetik yang hilang dengan massa tereduksi dan kelajuan relatif. ||| 36 J
+Balok 1,0 kg dan 2,0 kg dihubungkan pegas ($k = 600$ N/m) dan diam di lantai licin. Balok 1,0 kg dipukul sehingga tiba-tiba bergerak 3,0 m/s menuju balok lain. Berapa kecepatan pusat massa dan penekanan terbesar pegas? ||| 1,0 m/s; 0,10 m
+
+@@ _soal.txt | ## Subbab 5.9: Momentum di skala atom
+Mesin ion memiliki $v_e = 25$ km/s. Berapa bagian massa awal yang harus berupa bahan bakar untuk memperoleh $\Delta v = 4{,}0$ km/s? ||| 15%
+Rantai sepanjang 1,5 m bermassa 3,0 kg dipegang tegak dengan ujung bawahnya menyentuh timbangan, lalu dilepas. Berapa gaya yang ditunjukkan timbangan tepat ketika mata rantai terakhir mendarat? ||| 88 N
+
+@@ _soal.txt | ## Soal gabungan
+Berapa perbandingan laju efusi gas helium (4,0 g/mol) dan nitrogen (28 g/mol)? ||| 2,6
+Dalam spektrometer waktu-terbang, ion bermuatan tunggal bermassa 50 u dengan energi kinetik 1500 eV menempuh lintasan 0,80 m. Berapa waktu terbangnya? ($1\ \text{u} = 1{,}6605 \times 10^{-27}$ kg.) ||| 10,5 μs
+Atom rubidium-87 (86,9 u) menyerap foton berpanjang gelombang 780 nm. Berapa perubahan kelajuannya? ($h = 6{,}626 \times 10^{-34}$ J·s; momentum foton $h/\lambda$.) ||| 5,9 mm/s

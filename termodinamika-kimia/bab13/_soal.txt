@@ -1,0 +1,152 @@
+## Subbab 13.1: Sel elektrokimia dan reaksi setengah sel
+
+> Pakai $F = 96\,485$ C mol⁻¹, $R = 8{,}314$ J K⁻¹ mol⁻¹, $RT\ln10/F = 0{,}059\,16$ V pada 25 °C, dan Tabel 13.1. Anggap aktivitas sama dengan konsentrasi (mol L⁻¹) kecuali disebutkan lain. Soal bertanda **[P]** dibahas di akhir bab.
+
+Tuliskan reaksi setengah sel dan reaksi sel untuk $\text{Zn}\,|\,\text{Zn}^{2+}\,\|\,\text{Ag}^+\,|\,\text{Ag}$. ||| Zn → Zn²⁺ + 2e⁻; Ag⁺ + e⁻ → Ag; Zn + 2Ag⁺ → Zn²⁺ + 2Ag
+Apa fungsi jembatan garam? ||| menutup rangkaian lewat aliran ion tanpa mencampur larutan
+
+Tuliskan diagram sel untuk reaksi $\text{Cu} + 2\text{Fe}^{3+} \rightarrow \text{Cu}^{2+} + 2\text{Fe}^{2+}$. ||| $\text{Cu}\,|\,\text{Cu}^{2+}\,\|\,\text{Fe}^{3+}, \text{Fe}^{2+}\,|\,\text{Pt}$
+Mengapa elektrode Ag|AgCl disukai sebagai elektrode pembanding? ||| stabil, mudah dibuat, potensialnya hanya bergantung pada [Cl⁻]
+
+
+Tuliskan diagram sel untuk reaksi Zn(s) + 2Ag⁺(aq) → Zn²⁺(aq) + 2Ag(s), dan tentukan anode dan katodenya. ||| Zn|Zn²⁺‖Ag⁺|Ag; anode Zn, katode Ag
+Mengapa jembatan garam diperlukan dalam sel Daniell? ||| menjaga kenetralan listrik kedua larutan tanpa mencampurnya
+Apa beda sel galvani dan sel elektrolisis dari sudut Δ*G*? ||| galvani: Δ*G* < 0, menghasilkan kerja; elektrolisis: Δ*G* > 0, memerlukan kerja dari luar
+
+## Subbab 13.2: Kerja listrik dan ΔG = −nFE
+
+Hitung $E^\circ$ dan $\Delta_\text{r}G^\circ$ sel $\text{Zn}\,|\,\text{Zn}^{2+}\,\|\,\text{Ag}^+\,|\,\text{Ag}$. ||| 1,562 V; −301,3 kJ mol⁻¹
+Mengapa *E* tidak berubah bila persamaan reaksi sel dikalikan dua? ||| Δ*G* dan *n* sama-sama berlipat dua
+
+Mengapa potensial sel harus diukur pada arus hampir nol? ||| agar proses reversibel; arus besar menimbulkan kerugian hambatan dan overpotensial
+Satu milivolt pada sel dengan *n* = 1 setara berapa kJ mol⁻¹? ||| 0,096 kJ mol⁻¹
+
+
+Hitung Δ$_\text{r}$*G* sel Daniell yang tegangannya 1,10 V. ||| −212 kJ mol⁻¹
+Hitung tegangan standar sel bahan bakar H₂–O₂ dari Δ$_\text{r}$*G*° = −237,13 kJ per mol H₂O(l). ||| 1,229 V
+Mengapa tegangan sel tidak bergantung pada cara kita menuliskan koefisien reaksi, padahal Δ$_\text{r}$*G* bergantung? ||| Δ*G* dan *n* sama-sama berlipat; *E* = −Δ*G*/*nF* tetap
+
+
+Suatu sel dengan *n* = 2 mempunyai potensial 1,50 V. Hitung $\Delta_\text{r}G$ dan kerja listrik maksimum per mol reaksi. ||| −289 kJ mol⁻¹; 289 kJ
+
+## Subbab 13.3: Potensial elektrode standar
+
+Hitung $E^\circ$ untuk $\text{Zn} + \text{Cl}_2 \rightarrow \text{Zn}^{2+} + 2\text{Cl}^-$. ||| 2,120 V
+Apakah perak larut dalam HCl 1 mol L⁻¹ dengan melepaskan H₂? ||| tidak ($E^\circ = -0{,}800$ V)
+Susun Li, Zn, Fe, Cu, Ag menurut kekuatannya sebagai pereduksi. ||| Li > Zn > Fe > Cu > Ag
+
+@gabung [P] Dari $E^\circ(\text{Cu}^{2+}/\text{Cu}) = 0{,}340$ V dan $E^\circ(\text{Cu}^{+}/\text{Cu}) = 0{,}521$ V, hitung $E^\circ(\text{Cu}^{2+}/\text{Cu}^+)$. Apakah ion Cu⁺ stabil dalam air? ||| 0,159 V; tidak, Cu⁺ terdisproporsionasi
+Mengapa larutan FeCl₃ dapat dipakai untuk melarutkan tembaga pada papan sirkuit? ||| $E^\circ = 0{,}771 - 0{,}340 = +0{,}431$ V
+
+
+Hitung *E*° sel Cu|Cu²⁺‖Ag⁺|Ag dan Zn|Zn²⁺‖Ag⁺|Ag dari Tabel 13.1. ||| 0,460 V; 1,562 V
+Logam mana di Tabel 13.1 yang larut dalam HCl 1 M dengan melepaskan H₂? ||| logam dengan *E*° < 0: Li, Na, Zn, Fe
+Mengapa *E*° tidak dikalikan dengan koefisien reaksi ketika menggabungkan setengah sel? ||| *E*° besaran intensif (energi per muatan)
+
+
+Hitung *E*° sel $\text{Fe}\,|\,\text{Fe}^{2+}\,\|\,\text{Ag}^+\,|\,\text{Ag}$. ||| 1,247 V
+Dapatkah gas klorin mengoksidasi Fe²⁺ menjadi Fe³⁺ dalam keadaan standar? Hitung *E*° reaksinya. ||| ya; +0,587 V
+
+## Subbab 13.4: Persamaan Nernst
+
+Hitung potensial sel Daniell dengan [Zn²⁺] = 0,10 dan [Cu²⁺] = 1,0 mol L⁻¹. ||| 1,132 V
+Hitung potensial elektrode hidrogen (1 bar) pada pH 4,0. ||| −0,237 V
+Hitung potensial elektrode Ag⁺/Ag dengan [Ag⁺] = 1,0 × 10⁻³ mol L⁻¹. ||| 0,622 V
+
+Hitung potensial elektrode Fe²⁺/Fe dengan [Fe²⁺] = 0,010 mol L⁻¹. Apakah lebih mudah atau lebih sukar dioksidasi daripada pada keadaan standar? ||| −0,506 V; lebih mudah
+Mengapa tegangan baterai hampir tetap selama sebagian besar umurnya? ||| *E* bergantung logaritmik pada *Q*
+Pada pH berapa potensial elektrode oksigen (1 bar) sama dengan $E^\circ(\text{Cl}_2/\text{Cl}^-)$? Apa artinya? ||| tidak ada pH ≥ 0; oksigen tidak dapat mengoksidasi Cl⁻ menjadi Cl₂ pada keadaan standar
+
+Turunkan persamaan Nernst dari $\Delta_\text{r}G = \Delta_\text{r}G^\circ + RT\ln Q$, dan tunjukkan bahwa di 25 °C setiap kenaikan *Q* sepuluh kali menurunkan *E* sebesar 59,16/*n* mV. ||| bagi dengan −*nF*
+@dh [P] Ulangi Contoh 13.7 untuk HCl 0,0500 mol kg⁻¹ dengan tiga koefisien aktivitas: (a) hukum pembatas Debye–Hückel; (b) bentuk diperluas $\log\gamma_\pm = -0{,}509\sqrt I/(1 + \sqrt I)$, yang secara kasar memperhitungkan ukuran ion; (c) nilai terukur $\gamma_\pm = 0{,}830$. Bandingkan juga dengan hasil tanpa koreksi aktivitas. ||| (a) 0,3897 V; (b) 0,3872 V; (c) 0,3858 V; tanpa koreksi 0,3762 V
+
+
+Hitung tegangan sel Daniell dengan [Zn²⁺] = 1,0 M dan [Cu²⁺] = 0,010 M pada 25 °C. ||| 1,04 V
+Hitung potensial elektrode hidrogen (1 bar H₂) dalam larutan pH 5,0. ||| −0,296 V
+Mengapa potensial elektrode yang melibatkan H⁺ bergantung pada pH? ||| [H⁺] muncul dalam suku logaritma Nernst
+
+
+Hitung potensial sel $\text{Zn}\,|\,\text{Zn}^{2+}(0{,}010)\,\|\,\text{Cu}^{2+}(1{,}0)\,|\,\text{Cu}$ pada 25 °C. ||| 1,161 V
+Hitung potensial elektrode Ag⁺/Ag terhadap SHE bila [Ag⁺] = 1,0 × 10⁻³ mol L⁻¹. ||| 0,623 V
+
+## Subbab 13.5: Potensial standar dan tetapan kesetimbangan
+
+Hitung *K* untuk $\text{Zn} + \text{Cl}_2 \rightleftharpoons \text{Zn}^{2+} + 2\text{Cl}^-$ pada 25 °C. ||| $5 \times 10^{71}$
+Hitung *K* untuk $\text{Cu} + 2\text{Fe}^{3+} \rightleftharpoons \text{Cu}^{2+} + 2\text{Fe}^{2+}$. ||| $3{,}7 \times 10^{14}$
+
+@ksp [P] Dengan $E^\circ(\text{AgBr}/\text{Ag}) = 0{,}0713$ V dan $E^\circ(\text{Ag}^+/\text{Ag}) = 0{,}7996$ V, hitung $K_\text{sp}$ AgBr. ||| $4{,}9 \times 10^{-13}$
+Bagaimana *K* sel Daniell berubah pada 50 °C, bila $E^\circ$ dianggap tetap? Hitung ln *K*. ||| ln *K* = 79,2 (lebih kecil dari 85,8 pada 25 °C)
+
+
+Hitung *K* reaksi sel Daniell pada 25 °C (*E*° = 1,10 V). ||| $1{,}5 \times 10^{37}$
+Reaksi dengan satu elektron mempunyai *E*° = 0,10 V. Hitung *K*-nya pada 25 °C. ||| 49
+Hitung *K*$_\text{sp}$ AgCl dari *E*°(AgCl/Ag) = 0,222 V dan *E*°(Ag⁺/Ag) = 0,800 V. ||| $1{,}7 \times 10^{-10}$
+
+
+Hitung *K* reaksi $\text{Fe} + \text{Cu}^{2+} \rightleftharpoons \text{Fe}^{2+} + \text{Cu}$ pada 25 °C. ||| 4 × 10²⁶
+Dari *E*°(AgCl/Ag) = 0,222 V dan *E*°(Ag⁺/Ag) = 0,800 V, hitung $K_\text{sp}$ AgCl dan bandingkan dengan hasil Contoh 12.19. ||| 1,7 × 10⁻¹⁰; cocok dengan 1,76 × 10⁻¹⁰
+
+## Subbab 13.6: Ketergantungan E pada suhu
+
+Potensial sel dengan *n* = 2 naik 0,10 mV per kelvin. Hitung $\Delta_\text{r}S$. ||| +19,3 J K⁻¹ mol⁻¹
+Suatu sel dengan *n* = 2 mempunyai *E* = 0,500 V dan $dE/dT = -0{,}40$ mV K⁻¹ pada 25 °C. Hitung $\Delta_\text{r}H$. ||| −119,5 kJ mol⁻¹
+
+@panas [P] Untuk sel pada soal sebelumnya, berapa kalor yang dilepaskan bila sel bekerja reversibel, dan bila dihubung pendek? ||| 23,0 kJ mol⁻¹; 119,5 kJ mol⁻¹
+Dapatkah sel elektrokimia menghasilkan kerja listrik lebih besar daripada $-\Delta_\text{r}H$? Kapan? ||| ya, bila $dE/dT > 0$ (Δ*S* > 0)
+
+@sofc [P] (a) Hitung $dE^\circ/dT$ sel bahan bakar hidrogen–oksigen yang menghasilkan air cair (Tabel 6.1), dan *E*° pada 80 °C, suhu kerja sel bahan bakar membran (PEM). (b) Sel bahan bakar oksida padat (SOFC) bekerja pada 800 °C dan menghasilkan uap air. Dengan $\Delta_\text{f}H^\circ$ H₂O(g) = −241,83 kJ mol⁻¹ dan entropi standar dari Tabel 6.1, dianggap tetap, hitung *E*°-nya. Mengapa SOFC tetap menarik walaupun tegangannya lebih rendah? ||| (a) −0,846 mV K⁻¹; 1,182 V; (b) 1,006 V
+
+
+Suatu sel dua elektron mempunyai d*E*°/d*T* = −4,0 × 10⁻⁴ V K⁻¹ dan *E*° = 1,10 V pada 25 °C. Hitung Δ$_\text{r}$*S*° dan Δ$_\text{r}$*H*°. ||| −77,2 J K⁻¹ mol⁻¹; −235 kJ mol⁻¹
+Mengapa pengukuran tegangan pada beberapa suhu memberi Δ*S* reaksi tanpa kalorimeter? ||| (∂Δ*G*/∂*T*)$_p$ = −Δ*S* dan Δ*G* = −*nFE*
+
+
+Sel dengan *n* = 2 mempunyai *E* = 1,10 V dan $(\partial E/\partial T)_p$ = −0,50 mV K⁻¹ pada 25 °C. Hitung $\Delta_\text{r}S$ dan $\Delta_\text{r}H$. ||| −96,5 J K⁻¹ mol⁻¹; −241 kJ mol⁻¹
+
+## Subbab 13.7: Sel konsentrasi dan pengukuran pH
+
+Hitung potensial sel konsentrasi Cu|Cu²⁺(0,0010)‖Cu²⁺(1,0)|Cu. ||| 0,089 V
+Dua larutan memberi selisih tegangan 0,35 V pada pH meter di 25 °C. Berapa selisih pH-nya? ||| 5,9
+
+Mengapa potensial istirahat sel saraf dekat potensial Nernst K⁺? ||| membran istirahat terutama permeabel K⁺
+Mengapa pH meter harus dikalibrasi dengan larutan penyangga? ||| tetapan pada (13.8) berbeda untuk setiap elektrode dan berubah
+
+
+Hitung tegangan sel konsentrasi Cu|Cu²⁺(0,0010 M)‖Cu²⁺(0,10 M)|Cu pada 25 °C. ||| 0,059 V
+Hitung potensial membran sel saraf yang ditentukan K⁺ (140 mM di dalam, 5 mM di luar) pada 37 °C. ||| 89 mV
+Mengapa elektrode kaca harus dikalibrasi dengan larutan penyangga, padahal responsnya mengikuti Nernst? ||| ada potensial asimetri dan sambungan cairan yang tidak diketahui
+
+
+Hitung potensial sel konsentrasi $\text{Cu}\,|\,\text{Cu}^{2+}(0{,}0010)\,\|\,\text{Cu}^{2+}(0{,}10)\,|\,\text{Cu}$ pada 25 °C. Elektrode mana yang menjadi katode? ||| 0,0592 V; elektrode dalam larutan 0,10 mol L⁻¹
+Berapa mV perubahan tegangan elektrode kaca per satuan pH pada suhu tubuh, 37 °C? ||| 61,5 mV
+
+## Subbab 13.8: Baterai dan sel bahan bakar
+
+Hitung tegangan termonetral sel bahan bakar hidrogen. ||| 1,481 V
+Sel bahan bakar bekerja pada 0,85 V. Hitung efisiensinya terhadap entalpi pembakaran hidrogen. ||| 57%
+
+Baterai seng–udara memakai $\text{Zn} + \tfrac12\text{O}_2 \rightarrow \text{ZnO}$ dengan *E* ≈ 1,65 V. Hitung energi spesifik teoretisnya per kilogram seng. Mengapa massa oksigen tidak dihitung? ||| 1350 Wh kg⁻¹; O₂ diambil dari udara
+Mengapa seng melindungi besi dari karat walaupun lapisannya tergores? ||| seng lebih mudah teroksidasi dan menjadi anode korban
+
+Bila hidrogen dibuat dengan elektrolisis pada 1,8 V lalu dipakai di sel bahan bakar pada 0,70 V, berapa fraksi listrik awal yang kembali? Di mana energi yang hilang? ||| 39%; kalor dari overpotensial dan hambatan
+
+Bandingkan energi per mol elektron baterai litium-ion (3,7 V) dan per mol reaksi aki timbal (2,05 V, dua elektron). ||| 357 kJ per mol e⁻; 396 kJ per mol reaksi (198 kJ per mol e⁻)
+Mengapa litium dipakai pada baterai berenergi tinggi? ||| *E*° sangat negatif dan massa sangat kecil: energi per kilogram besar
+
+
+Baterai seng–udara ($\text{Zn} + \tfrac12\text{O}_2 \rightarrow \text{ZnO}$) bertegangan sekitar 1,65 V. Hitung energi spesifiknya per kilogram seng (oksigen diambil dari udara). ||| 4870 kJ kg⁻¹ = 1350 Wh kg⁻¹
+Hitung efisiensi termodinamika maksimum sel bahan bakar hidrogen–oksigen pada 25 °C yang menghasilkan air cair ($\Delta_\text{r}G^\circ$ = −237,13, $\Delta_\text{r}H^\circ$ = −285,83 kJ mol⁻¹). ||| 0,830
+
+## Subbab 13.9: Diagram Pourbaix dan korosi
+
+Hitung potensial batas Zn²⁺/Zn, Cu²⁺/Cu, dan Mg²⁺/Mg untuk aktivitas ion 10⁻⁶ (*E*°: Zn −0,762; Cu +0,340; Mg −2,37 V). ||| −0,939; +0,162; −2,55 V
+Berapa kemiringan garis Pourbaix untuk reaksi yang memakai 2 H⁺ dan 2 elektron, dan untuk 3 H⁺ dan 1 elektron? ||| −0,059 V per pH; −0,177 V per pH
+Hitung potensial O₂/H₂O dan H₂O/H₂ pada pH 8 (tekanan gas 1 bar). ||| +0,756 V; −0,473 V
+Berapa massa anode magnesium yang habis per tahun bila arus perlindungan rata-rata 1,0 A? ||| 4,0 kg
+Mengapa tembaga tidak berkarat di air netral bebas oksigen, tetapi besi berkarat? Pakai potensial batas logam dan garis H₂O/H₂. ||| batas Cu (+0,16 V) di atas garis H₂O/H₂ (−0,41 V): air tidak dapat mengoksidasi Cu; batas Fe (−0,62 V) di bawahnya
+@pb [P] Turunkan persamaan garis batas Fe(OH)₃/Fe²⁺ pada diagram Pourbaix besi dan tunjukkan bahwa garis itu melewati titik (pH 3,15; 0,771 V) dengan kemiringan −0,177 V per pH. ||| $E = E^\circ{}' - 0{,}177\,\text{pH} - 0{,}059\,16\log[\text{Fe}^{2+}]$
+
+
+Berapa kemiringan garis pada diagram Pourbaix untuk setengah reaksi yang melibatkan 2 H⁺ per elektron? ||| −0,118 V per satuan pH
+Anode korban magnesium ($E^\circ(\text{Mg}^{2+}/\text{Mg})$ = −2,372 V) melindungi pipa baja dengan arus rata-rata 2,0 A. Hitung potensial Mg pada $a_{\text{Mg}^{2+}}$ = 10⁻⁶ dan massa Mg yang habis per tahun. ||| −2,549 V; 8,0 kg
+

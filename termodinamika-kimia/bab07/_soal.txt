@@ -1,0 +1,143 @@
+## Subbab 7.1: Mengapa perlu energi bebas
+
+> Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, $F = 96\,485$ C mol⁻¹, dan data Tabel 4.1, 6.1, 7.1. Soal bertanda **[P]** dibahas di akhir bab.
+
+Tunjukkan bahwa pada suhu dan tekanan tetap, $\Delta G = -T\Delta S_\text{total}$. ||| $\Delta S_\text{total} = \Delta S - \Delta H/T$, kalikan −*T*
+Mengapa energi Gibbs tidak memerlukan perhitungan entropi lingkungan? ||| entropi lingkungan sudah tercakup dalam suku Δ*H*
+
+Untuk proses apa energi Helmholtz lebih tepat dipakai daripada energi Gibbs? ||| proses pada suhu dan volume tetap (misalnya bom kalorimeter)
+
+
+Hitung Δ$_\text{r}$*G*° sintesis amonia pada 298 K dari Δ*H*° = −92,22 kJ dan Δ*S*° = −198,75 J K⁻¹. ||| −32,96 kJ
+Mengapa kriteria Δ*G* < 0 lebih praktis daripada Δ*S*$_\text{total}$ > 0, padahal keduanya setara? ||| hanya memakai besaran sistem; lingkungan tercakup lewat −Δ*H*/*T* pada *T* dan *p* tetap
+Kriteria Δ*G* < 0 hanya berlaku pada syarat apa? ||| suhu dan tekanan tetap, tanpa kerja selain kerja ekspansi
+
+## Subbab 7.2: Energi bebas Helmholtz
+
+Satu mol gas ideal dimampatkan secara isotermal pada 298 K dari 20,0 L ke 10,0 L. Hitung Δ*A*. ||| +1,72 kJ
+Apa arti fisis −Δ*A*? ||| kerja maksimum pada suhu tetap
+
+Hitung Δ*A* dan Δ*G* untuk pembakaran metana (air cair) pada 298 K, dengan Δ*U* = −885,3 dan Δ*H* = −890,3 kJ mol⁻¹, Δ*S* = −243,0 J K⁻¹ mol⁻¹. Mengapa keduanya berbeda? ||| −812,9 dan −817,9 kJ mol⁻¹; selisih $\Delta n_\text{gas}RT$
+Untuk proses isotermal dengan Δ*S* > 0, mengapa kerja maksimum dapat melebihi −Δ*U*? ||| sistem dapat menyerap kalor $T\Delta S$ dari lingkungan dan mengubahnya menjadi kerja
+
+Dua mol gas ideal memuai secara isotermal pada 300 K dari 5,0 L ke 25,0 L. Hitung Δ*A* dan kerja maksimumnya. ||| −8,03 kJ; 8,03 kJ
+
+
+Hitung Δ*A* untuk 1,00 mol gas ideal yang memuai isotermal dari *V* ke 2*V* pada 300 K. ||| −1,73 kJ
+Pada syarat apa Δ*A* < 0 menjadi kriteria spontanitas? ||| suhu dan volume tetap
+Mengapa Δ*A* disebut "energi bebas", dan apa yang "tidak bebas" dari energi dalam? ||| −Δ*A* adalah kerja maksimum; *T*Δ*S* harus dipertukarkan sebagai kalor
+
+## Subbab 7.3: Energi bebas Gibbs
+
+Hitung Δ*G* pencairan es pada −5 °C ($\Delta_\text{fus}H = 6{,}01$ kJ mol⁻¹, $\Delta_\text{fus}S = 22{,}0$ J K⁻¹ mol⁻¹). ||| +111 J mol⁻¹
+Hitung Δ*G* penguapan air pada 110 °C ($\Delta_\text{vap}H = 40{,}66$ kJ mol⁻¹, $\Delta_\text{vap}S = 108{,}96$ J K⁻¹ mol⁻¹). ||| −1,09 kJ mol⁻¹
+Berapa Δ*G* penguapan benzena pada titik didih normalnya, 353,2 K? ||| 0 (kesetimbangan)
+
+Reaksi dengan Δ*H* = +50 kJ mol⁻¹ dan Δ*S* = +100 J K⁻¹ mol⁻¹. Di atas suhu berapa reaksi ini spontan? ||| 500 K
+Mengapa Δ*G* < 0 tidak menjamin reaksi berlangsung dalam waktu yang wajar? ||| termodinamika tidak berbicara tentang laju
+
+Tunjukkan bahwa pelarutan NH₄NO₃ (Contoh 7.6) tidak spontan pada −50 °C. Berapa Δ*G*-nya? ||| +1,4 kJ mol⁻¹
+Reaksi dengan Δ*H* < 0 dan Δ*S* < 0 spontan pada suhu rendah atau tinggi? Berikan satu contoh. ||| suhu rendah; misalnya pembekuan air
+
+
+Hitung Δ*G* pelelehan 1 mol es pada −10 °C dan +10 °C (Δ*H* = 6,01 kJ, Δ*S* = 22,0 J K⁻¹ dianggap tetap). ||| +0,22 kJ; −0,22 kJ
+Dari Gambar 7.2, golongkan: (a) pembakaran metana, (b) penguapan air, (c) dimerisasi 2NO₂ → N₂O₄, (d) N₂ + 2O₂ → 2NO₂. ||| (a) selalu spontan; (b) spontan pada *T* tinggi; (c) spontan pada *T* rendah; (d) tidak pernah
+Suatu reaksi mempunyai Δ*H*° = +40 kJ dan Δ*S*° = +120 J K⁻¹. Di atas suhu berapa reaksi spontan pada keadaan standar? ||| 333 K
+Mengapa Δ*G* = 0 pada titik leleh normal? ||| kedua fasa setimbang pada 1 atm; tidak ada arah yang disukai
+
+## Subbab 7.4: Kerja maksimum dan kerja bukan-ekspansi
+
+Hitung kerja listrik maksimum dan tegangan maksimum sel bahan bakar etanol, $\text{C}_2\text{H}_5\text{OH}(l) + 3\text{O}_2(g) \to 2\text{CO}_2(g) + 3\text{H}_2\text{O}(l)$, dengan 12 elektron per molekul etanol. ||| 1325 kJ mol⁻¹; 1,14 V
+Sebuah reaksi mempunyai Δ*H* = −100 dan Δ*G* = −120 kJ mol⁻¹ pada 298 K. Berapa Δ*S*-nya? ||| +67 J K⁻¹ mol⁻¹
+
+@metanol [P] Untuk sel bahan bakar metanol, $\text{CH}_3\text{OH}(l) + \tfrac32\text{O}_2(g) \to \text{CO}_2(g) + 2\text{H}_2\text{O}(l)$, dengan $\Delta_\text{f}G^\circ$ CH₃OH(l) = −166,27 kJ mol⁻¹ dan enam elektron per molekul metanol. Hitung $\Delta_\text{r}G^\circ$ dan tegangan maksimumnya. ||| −702,4 kJ mol⁻¹; 1,21 V
+Efisiensi sel bahan bakar hidrogen dibatasi 83%, sedangkan mesin kalor dibatasi efisiensi Carnot. Mengapa sel bahan bakar dapat lebih efisien? ||| tidak melewati tahap kalor
+
+Sebuah reaksi biosintesis mempunyai $\Delta G^{\circ\prime} = +50$ kJ mol⁻¹. Berapa molekul ATP paling sedikit yang harus dihidrolisis bersamanya agar reaksi bersihnya spontan? ||| 2 (bersih −11 kJ mol⁻¹)
+Hitung energi satu mol foton 700 nm. Berapa mol foton itu paling sedikit untuk membuat satu mol glukosa? ||| 170,9 kJ mol⁻¹; 17
+
+Sel hidup menyimpan sekitar 40% energi Gibbs glukosa sebagai ATP. Bila hidrolisis ATP memberikan 30,5 kJ mol⁻¹, berapa mol ATP yang dihasilkan per mol glukosa? ||| ≈ 38
+
+
+Hitung kerja listrik maksimum dari pembakaran 1 mol glukosa (Δ*G*° = −2879 kJ) dan dari sel bahan bakar H₂–O₂ per mol H₂O(l). ||| 2879 kJ; 237 kJ (tegangan 1,23 V)
+Mengapa kerja bukan-ekspansi maksimum sama dengan −Δ*G*, bukan −Δ*H*? ||| sebagian energi *T*Δ*S* harus dipertukarkan sebagai kalor dengan lingkungan
+Bila Δ*S* reaksi positif, dapatkah kerja listrik maksimum melebihi −Δ*H*? Jelaskan. ||| ya; sel menyerap kalor dari lingkungan dan mengubahnya menjadi kerja
+
+## Subbab 7.5: Persamaan fundamental
+
+Tuliskan keempat persamaan fundamental dan variabel alaminya. ||| lihat (7.8)
+Dari $dG = -S\,dT + V\,dp$, tentukan $(\partial G/\partial T)_p$ dan $(\partial G/\partial p)_T$. ||| −*S*; *V*
+
+Mengapa persamaan fundamental berlaku juga untuk proses tak reversibel? ||| semua besarannya fungsi keadaan
+Dari $dA = -S\,dT - p\,dV$, apa arti $(\partial A/\partial V)_T$? ||| −*p*
+
+
+Turunkan $dG = V\,dp - S\,dT$ dari $G = H - TS$ dan $dH = T\,dS + V\,dp$. ||| *dG* = *dH* − *T dS* − *S dT*
+Dari *dG* = *V dp* − *S dT*, apa variabel alami *G*, dan mengapa itu membuat *G* cocok untuk kimia? ||| *T* dan *p*, yang mudah dikendalikan di laboratorium
+Tuliskan persamaan fundamental untuk *dU*, *dH*, *dA*, *dG*. ||| *T dS* − *p dV*; *T dS* + *V dp*; −*S dT* − *p dV*; −*S dT* + *V dp*
+
+## Subbab 7.6: Hubungan Maxwell
+
+Turunkan hubungan Maxwell dari $dG = -S\,dT + V\,dp$. ||| $(\partial S/\partial p)_T = -(\partial V/\partial T)_p$
+Hitung tekanan dalam CO₂ ($a = 3{,}640$ L² bar mol⁻²) pada volume molar 0,500 L mol⁻¹. ||| 14,6 bar
+
+Untuk tembaga pada 25 °C, $\alpha = 4{,}95 \times 10^{-5}$ K⁻¹, $\kappa_T = 7{,}3 \times 10^{-12}$ Pa⁻¹, $V_\text{m} = 7{,}11$ cm³ mol⁻¹. Hitung $C_{p,\text{m}} - C_{V,\text{m}}$. ||| 0,71 J K⁻¹ mol⁻¹
+@maxwell [P] Pakai hubungan Maxwell ketiga untuk menunjukkan bahwa entropi gas van der Waals tidak bergantung pada tetapan *a*. ||| $(\partial S/\partial V)_T = (\partial p/\partial T)_V = nR/(V - nb)$
+
+Satu mol CO₂ ($a = 3{,}640$ L² bar mol⁻²) memuai secara isotermal dari 0,500 L ke 5,00 L. Hitung Δ*U* menurut van der Waals. ||| +655 J
+
+Tunjukkan dari $C_p - C_V = TV\alpha^2/\kappa_T$ bahwa $C_p - C_V = nR$ untuk gas ideal. ||| $\alpha = 1/T$, $\kappa_T = 1/p$
+@hp [P] (a) Dari $dH = T\,dS + V\,dp$ dan hubungan Maxwell keempat, turunkan $(\partial H/\partial p)_T = V(1 - \alpha T)$. (b) Tunjukkan bahwa nilainya nol untuk gas ideal. (c) Berapa kenaikan entalpi molar air cair pada 25 °C bila tekanannya dinaikkan 100 bar? Pakai data Contoh 7.12. ||| (b) $\alpha = 1/T$; (c) +170 J mol⁻¹
+
+
+Dengan hubungan Maxwell $(\partial S/\partial p)_T = -(\partial V/\partial T)_p$, hitung perubahan entropi 1 mol air bila tekanan naik 100 bar ($\alpha$ = 2,07 × 10⁻⁴ K⁻¹, $V_\text{m}$ = 18,07 cm³ mol⁻¹). ||| −0,037 J K⁻¹ mol⁻¹
+Turunkan hubungan Maxwell dari $dA = -S\,dT - p\,dV$. ||| $(\partial S/\partial V)_T = (\partial p/\partial T)_V$
+Dengan kotak termodinamika (Gambar 7.4), tuliskan turunan $(\partial G/\partial T)_p$ dan $(\partial H/\partial p)_S$. ||| −*S*; *V*
+
+## Subbab 7.7: Persamaan Gibbs–Helmholtz
+
+Turunkan (7.12) dari $(\partial G/\partial T)_p = -S$. ||| turunan hasil bagi dan $G + TS = H$
+
+@gh [P] Untuk penguraian CaCO₃, $\Delta_\text{r}G^\circ(298\ \text{K}) = +130{,}4$ dan $\Delta_\text{r}H^\circ = +178{,}3$ kJ mol⁻¹. Hitung $\Delta_\text{r}G^\circ$ pada 1000 K dengan (7.13). ||| +17,6 kJ mol⁻¹
+Untuk reaksi endoterm, apakah Δ*G*/*T* bertambah atau berkurang bila suhu naik? ||| berkurang
+
+
+Δ$_\text{r}$*G*° sintesis amonia −32,90 kJ pada 298 K dan Δ$_\text{r}$*H*° −92,22 kJ. Dengan Gibbs–Helmholtz (Δ*H* tetap), hitung Δ$_\text{r}$*G*° pada 500 K. ||| +7,3 kJ
+Mengapa persamaan Gibbs–Helmholtz memakai *G*/*T* dan bukan *G* saja? ||| $\partial(G/T)/\partial T = -H/T^2$ hanya memuat *H*, yang hampir tetap
+Pada Gambar 7.1, mengapa garis uap paling curam? ||| kemiringan −*S*$_\text{m}$; entropi uap paling besar
+
+## Subbab 7.8: Ketergantungan G pada tekanan
+
+Hitung kenaikan $G_\text{m}$ gas ideal pada 298 K bila tekanan dinaikkan dari 1 bar ke 10 bar. ||| 5,71 kJ mol⁻¹
+Hitung kenaikan $G_\text{m}$ raksa cair ($V_\text{m} = 14{,}8$ cm³ mol⁻¹) bila tekanan dinaikkan dari 1 bar ke 100 bar. ||| 147 J mol⁻¹
+
+Pada 1000 bar dan 298 K, berapa $\Delta_\text{r}G$ untuk grafit → intan? ||| +2,71 kJ mol⁻¹
+Es kurang rapat daripada air. Jelaskan dengan (7.14) mengapa titik leleh es turun bila tekanan naik. ||| *G* es naik lebih banyak daripada *G* air
+
+Untuk benzena, $\Delta_\text{f}G^\circ$ cair dan gas berturut-turut 124,3 dan 129,7 kJ mol⁻¹. Taksir tekanan uap benzena pada 25 °C. ||| 0,113 bar
+
+@virial [P] Untuk gas yang mengikuti persamaan virial terpotong $V_\text{m} = RT/p + B$ (subbab 2.7), turunkan kenaikan energi Gibbs molar dari $p_1$ ke $p_2$ pada suhu tetap. Hitung untuk CO₂ pada 273 K ($B = -149{,}7$ cm³ mol⁻¹) dari 1,00 bar ke 10,0 bar, dan bandingkan dengan gas ideal. ||| $RT\ln(p_2/p_1) + B(p_2 - p_1)$; 5,09 kJ mol⁻¹ (ideal 5,23)
+
+
+Hitung kenaikan $G_\text{m}$ gas ideal yang dimampatkan dari 1 bar ke 10 bar pada 298 K, dan air cair dari 1 bar ke 100 bar. ||| +5,71 kJ mol⁻¹; +0,179 kJ mol⁻¹
+Pada tekanan berapa grafit dan intan setimbang pada 298 K, bila Δ*G*° = +2,90 kJ mol⁻¹ dan rapatannya 2,26 dan 3,51 g cm⁻³ (anggap tak termampatkan)? ||| ≈ 15 kbar (1,5 GPa)
+Mengapa tekanan hampir tidak memengaruhi energi Gibbs zat padat (Gambar 7.7)? ||| volume molarnya kecil: *V*Δ*p* kecil
+
+## Subbab 7.9: Energi bebas Gibbs reaksi standar
+
+Hitung $\Delta_\text{r}G^\circ$ untuk $2\text{NO}(g) \to \text{N}_2(g) + \text{O}_2(g)$. ||| −173,1 kJ mol⁻¹
+Hitung $\Delta_\text{f}G^\circ$ H₂O(g) dari $\Delta_\text{f}H^\circ = -241{,}82$ kJ mol⁻¹ dan Tabel 6.1. ||| −228,6 kJ mol⁻¹
+Manakah yang secara termodinamika tidak stabil terhadap unsur-unsurnya: NH₃, NO, CH₄, benzena? ||| NO, benzena
+
+Hitung $\Delta_\text{r}G^\circ$ pembakaran etanol cair menjadi CO₂ dan H₂O(l). ||| −1325,3 kJ mol⁻¹
+Mengapa knalpot mobil memerlukan katalis untuk mengurai NO, padahal penguraiannya sangat spontan? ||| penguraian NO sangat lambat tanpa katalis
+
+Dengan data Contoh 7.20, hitung $\Delta_\text{f}G^\circ$ CH₄ pada 1200 K. ||| +22,2 kJ mol⁻¹
+
+
+Hitung Δ$_\text{r}$*G*° pembakaran metana dan etanol (hasil H₂O cair) dari tabel. ||| −817,9; −1325,3 kJ mol⁻¹
+Hitung Δ$_\text{r}$*G*° untuk 2NO + O₂ → 2NO₂ dan 3O₂ → 2O₃. ||| −70,5 kJ; +326,4 kJ
+Hitung Δ$_\text{r}$*G*° penguraian CaCO₃ pada 298 K dari tabel. ||| +130,4 kJ
+Benzena mempunyai Δ$_\text{f}$*G*° = +124,3 kJ mol⁻¹. Mengapa benzena tetap dapat disimpan bertahun-tahun? ||| tidak stabil secara termodinamika terhadap unsur, tetapi peruraiannya sangat lambat (stabil kinetik)
+@ellingham [P] Dari Gambar 7.8, perkirakan suhu terendah tempat karbon (menjadi CO) dapat mereduksi FeO pada keadaan standar, lalu jelaskan mengapa garis CO turun sedangkan garis oksida logam naik. ||| ≈ 1020 K; Δ*S*° pembentukan CO positif (gas bertambah), oksida logam negatif
+

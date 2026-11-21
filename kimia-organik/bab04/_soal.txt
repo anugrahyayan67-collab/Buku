@@ -1,0 +1,117 @@
+## Subbab 4.1: Sumber dan sifat fisika alkana
+
+> Harga interaksi (kJ mol⁻¹): H/H tindih 4,0; H/CH₃ tindih 6,0; CH₃/CH₃ tindih 11; CH₃/CH₃ gauche 3,8. Nilai A dari tabel subbab 4.8. *RT* = 2,479 kJ mol⁻¹ pada 25 °C. Soal bertanda **[P]** dibahas di akhir bab.
+
+Urutkan titik didih: butana, heksana, oktana, propana. ||| propana < butana < heksana < oktana
+Urutkan titik didih: 2-metilpentana, heksana, 2,2-dimetilbutana. ||| 2,2-dimetilbutana < 2-metilpentana < heksana
+Mengapa alkana tidak larut dalam air tetapi larut dalam heksana? ||| tidak dapat membentuk ikatan hidrogen; yang serupa melarutkan yang serupa
+Mengapa tumpahan minyak mengapung di laut? ||| massa jenis alkana (0,6–0,8 g mL⁻¹) lebih kecil daripada air
+@leleh [P] Mengapa 2,2-dimetilpropana meleleh pada −16 °C, jauh di atas pentana (−130 °C), padahal titik didihnya lebih rendah? ||| simetris, tersusun rapi dalam kristal; titik didih ditentukan luas kontak
+Fraksi minyak bumi mana yang mengandung C₈? Pada suhu sekitar berapa fraksi itu mendidih? ||| bensin; 30–200 °C
+Mengapa gaya antarmolekul alkana hanya gaya dispersi? ||| tidak polar dan tidak mempunyai O–H/N–H
+
+## Subbab 4.2: Konformasi etana: proyeksi Newman dan kuda-kuda
+
+Gambar proyeksi Newman dan proyeksi kuda-kuda etana dalam konformasi goyang. ||| tiga H depan dan tiga H belakang berselang 60°
+Apa beda konformasi dan konfigurasi? ||| konformasi berubah dengan putaran ikatan tunggal; konfigurasi memerlukan pemutusan ikatan
+Berapa sudut torsi H–C–C–H pada konformasi goyang dan tindih etana? ||| 60° (180°, 300°); 0° (120°, 240°)
+Mengapa konformasi tindih etana kurang stabil? Sebutkan dua penjelasan. ||| hiperkonjugasi σ(C–H)→σ*(C–H) hilang; tolakan pasangan elektron ikatan
+@laju [P] Dengan penghalang 12 kJ mol⁻¹ dan faktor *kT*/*h* = 6,2 × 10¹² s⁻¹, perkirakan laju putaran etana pada 25 °C. Mengapa konformer goyang dan tindih tidak dapat dipisahkan? ||| ± 4,9 × 10¹⁰ s⁻¹; berubah terlalu cepat
+Berapa perbandingan jumlah molekul propana dalam konformasi tindih terhadap goyang pada 25 °C (penghalang 14 kJ mol⁻¹)? ||| 3,5 × 10⁻³
+Gambar proyeksi Newman 1,2-dibromoetana dalam konformasi anti dan gauche. ||| anti: Br berlawanan (180°); gauche: Br bersebelahan (60°)
+
+## Subbab 4.3: Tegangan torsi dan tegangan sterik: propana dan butana
+
+Hitung energi konformasi tindih propana dari harga interaksi. ||| 2(4,0) + 6,0 = 14 kJ mol⁻¹
+Gambar diagram energi putaran ikatan C2–C3 butana dan tandai anti, gauche, dan dua jenis tindih. ||| anti 0; gauche 3,8; tindih H/CH₃ 16; tindih CH₃/CH₃ 19
+Hitung persentase anti-butana pada 100 °C (selisih anti–gauche 3,8 kJ mol⁻¹, dua gauche). ||| 63%
+Pandang 2-metilbutana sepanjang ikatan C2–C3. Gambar konformasi goyang yang paling stabil dan hitung energinya relatif terhadap konformasi tanpa interaksi gauche. ||| satu interaksi gauche CH₃/CH₃; 3,8 kJ mol⁻¹
+@iso [P] Pandang 2,3-dimetilbutana sepanjang ikatan C2–C3. Gambar ketiga konformasi goyang dan hitung energinya dengan harga interaksi gauche. Mana yang paling stabil? ||| satu konformasi (H anti terhadap H) dengan 2 gauche (7,6), paling stabil; dua konformasi setara dengan 3 gauche (11,4)
+Apa beda tegangan torsi dan tegangan sterik? ||| torsi: ikatan tindih; sterik: atom tak berikatan terlalu dekat
+Mengapa rantai alkana panjang dalam cairan tidak lurus seperti zig-zag? ||| banyak ikatan dalam konformasi gauche
+Mengapa anti- dan gauche-butana tidak dapat disimpan dalam botol terpisah? ||| penghalang kecil; saling berubah sangat cepat
+Gambar proyeksi Newman 1-kloropropana sepanjang ikatan C1–C2 dalam konformasi anti dan gauche (Cl dan CH₃). ||| anti: Cl dan CH₃ 180°; gauche: 60°
+
+## Subbab 4.4: Tegangan cincin dan kalor pembakaran
+
+Hitung tegangan cincin siklopropana dari ΔH_c = 2091 kJ mol⁻¹. ||| 115 kJ mol⁻¹
+Hitung tegangan cincin siklooktana dari ΔH_c = 5309 kJ mol⁻¹. ||| 40 kJ mol⁻¹
+Hitung tegangan per ikatan C–C pada siklopropana. ||| ± 38 kJ mol⁻¹
+Sebutkan tiga sumber tegangan cincin. ||| sudut, torsi, sterik
+Mengapa ramalan Baeyer gagal untuk sikloheksana? ||| sikloheksana tidak datar
+@strain [P] Kalor pembakaran metilsiklopropana (C₄H₈) adalah 2741 kJ mol⁻¹, sedangkan siklobutana 2744 kJ mol⁻¹. Isomer mana yang lebih stabil, dan berapa selisihnya? Apakah ini sesuai dengan tegangan cincin keduanya? ||| metilsiklopropana lebih stabil ± 3 kJ mol⁻¹; tegangan cincin hampir sama (115 dan 110), cabang metil sedikit menstabilkan
+Mengapa cincin sedang (8–11) kembali sedikit tegang? ||| H di dalam cincin berdesakan (tegangan sterik)
+
+## Subbab 4.5: Siklopropana, siklobutana, dan siklopentana
+
+Mengapa siklopropana pasti datar? ||| tiga titik selalu sebidang
+Apa yang dimaksud ikatan pisang? ||| tumpang tindih di luar garis inti pada siklopropana
+Mengapa siklopropana bereaksi dengan Br₂ seperti alkena? ||| ikatan lemah dan elektron di luar sumbu
+Bentuk apa yang diambil siklobutana dan siklopentana untuk mengurangi tegangan torsi? ||| lipatan kupu-kupu; amplop
+@amplop [P] Bila siklopentana datar, berapa tegangan torsinya dari sepuluh pasangan H/H tindih? Bandingkan dengan tegangan terukur (27 kJ mol⁻¹) dan jelaskan selisihnya. ||| 40 kJ mol⁻¹; bentuk amplop mengurangi tindih
+Mengapa siklobutana melipat walaupun lipatan memperkecil sudut ikatan? ||| tegangan torsi berkurang lebih banyak
+
+## Subbab 4.6: Sikloheksana: kursi, perahu, dan putar-perahu
+
+Sebutkan dua alasan sikloheksana kursi bebas tegangan. ||| sudut ± 111°; semua ikatan goyang
+Apa itu hidrogen tiang bendera? ||| dua H pada C1 dan C4 bentuk perahu yang saling berdekatan
+Urutkan energi: kursi, perahu, putar-perahu, setengah-kursi. ||| kursi (0) < putar-perahu (23) < perahu (29) < setengah-kursi (45)
+@flip [P] Penghalang pembalikan kursi 45 kJ mol⁻¹. Perkirakan laju pembalikan pada 25 °C (*kT*/*h* = 6,2 × 10¹² s⁻¹). Pada suhu sekitar −100 °C, spektrum NMR sikloheksana dapat membedakan H aksial dan ekuatorial. Mengapa? ||| ± 8 × 10⁴ s⁻¹; pada suhu rendah pembalikan jauh lebih lambat
+Berapa bagian sikloheksana dalam bentuk putar-perahu pada 25 °C? ||| 9,3 × 10⁻⁵
+Mengapa cincin enam begitu umum di alam? ||| bebas tegangan
+
+## Subbab 4.7: Ikatan aksial dan ekuatorial; menggambar kursi
+
+Gambar sikloheksana kursi dan tandai keenam ikatan aksial dan keenam ikatan ekuatorial. ||| aksial tegak bergantian atas-bawah; ekuatorial sejajar ikatan cincin
+Pada karbon yang terangkat, ke mana ikatan aksial mengarah? Ke mana ikatan ekuatorial? ||| aksial ke atas; ekuatorial ke samping sedikit ke bawah
+Setelah pembalikan kursi, gugus yang aksial-ke-bawah menjadi apa? ||| ekuatorial, sedikit ke bawah
+Apa beda memutar gambar kursi dan membalik kursi? ||| memutar tidak mengubah aksial/ekuatorial; membalik mengubahnya
+Gambar bromosikloheksana dengan Br aksial, lalu gambar hasil pembalikan kursinya. ||| Br menjadi ekuatorial, tetap di sisi yang sama
+Pada karbon yang turun, ke mana ikatan aksial dan ekuatorial mengarah? ||| aksial ke bawah; ekuatorial ke samping sedikit ke atas
+Gambar metilsikloheksana dalam kedua bentuk kursi dan tandai mana yang metilnya aksial. ||| satu kursi metil aksial, yang lain ekuatorial
+
+## Subbab 4.8: Interkonversi kursi dan nilai A
+
+Hitung persentase konformer ekuatorial untuk klorosikloheksana (A = 2,2 kJ mol⁻¹) pada 25 °C. ||| 71%
+Hitung persentase isopropilsikloheksana ekuatorial pada 25 °C (A = 9,2 kJ mol⁻¹). ||| 98%
+Pada 25 °C, sebuah substituen 90% ekuatorial. Berapa nilai A-nya? ||| 5,4 kJ mol⁻¹
+Mengapa nilai A gugus etil hampir sama dengan metil, sedangkan *tert*-butil jauh lebih besar? ||| etil dapat berputar menjauhkan CH₃; tert-butil pasti mengarahkan satu CH₃ ke dalam
+Mengapa nilai A bromin kecil walaupun atomnya besar? ||| ikatan C–Br panjang
+@noll [P] Berapa persen metilsikloheksana aksial pada −100 °C (173 K)? Bandingkan dengan 25 °C dan jelaskan. ||| 0,6% (25 °C: 5%); pada suhu rendah konformer energi tinggi berkurang
+Tunjukkan bahwa metil aksial mempunyai dua interaksi gauche butana dengan karbon cincin. ||| gauche dengan C3 lewat C1–C2 dan dengan C5 lewat C1–C6
+Mengapa *tert*-butil disebut gugus pengunci? ||| hampir hanya ekuatorial (K ± 4000)
+Hitung selisih energi bebas antara konformer ekuatorial dan aksial fenilsikloheksana bila 99,1% ekuatorial pada 25 °C. ||| ± 11,7 kJ mol⁻¹
+
+## Subbab 4.9: Sikloheksana tersubstitusi ganda: cis dan trans
+
+Isomer mana yang dapat menempatkan kedua metil ekuatorial: cis-1,2, trans-1,2, cis-1,3, trans-1,3, cis-1,4, trans-1,4? ||| trans-1,2; cis-1,3; trans-1,4
+Mana yang lebih stabil, cis- atau trans-1,4-dimetilsikloheksana? Berapa selisihnya? ||| trans; ± 7,6 kJ mol⁻¹
+@diMe [P] Hitung energi kedua kursi cis- dan trans-1,2-dimetilsikloheksana. Pakai 7,6 kJ mol⁻¹ per metil aksial dan 3,8 kJ mol⁻¹ untuk interaksi gauche antara kedua metil yang bersebelahan. Isomer mana yang lebih stabil? ||| cis: a,e = e,a = 11,4; trans: e,e 3,8, a,a 15,2; trans lebih stabil 7,6
+Gambar konformasi paling stabil cis-1-*tert*-butil-3-metilsikloheksana. ||| kedua gugus ekuatorial
+Gambar konformasi paling stabil trans-1-*tert*-butil-3-metilsikloheksana. Gugus mana yang aksial? ||| tert-butil ekuatorial, metil aksial
+Pada cis-1,4-di-*tert*-butilsikloheksana, satu gugus *tert*-butil harus aksial pada bentuk kursi. Molekul ini justru memilih bentuk putar-perahu. Mengapa? ||| biaya tert-butil aksial (± 20 kJ mol⁻¹ atau lebih) sebanding dengan biaya putar-perahu, dan putar-perahu dapat menempatkan kedua tert-butil mirip ekuatorial
+Mengapa pada sikloheksana, isomer cis tidak selalu kurang stabil daripada trans? ||| bergantung posisi; cis-1,3 dapat e,e
+Mentol alami mempunyai tiga gugus ekuatorial. Berapa stereoisomer mentol yang mungkin? ||| 8
+Mana yang lebih stabil: cis- atau trans-1,3-dimetilsikloheksana? Jelaskan dengan gambar kursi. ||| cis (e,e)
+Gambar kursi paling stabil trans-1-isopropil-2-metilsikloheksana. ||| kedua gugus ekuatorial (trans-1,2 dapat e,e)
+
+## Subbab 4.10: Cincin menyatu: dekalin dan steroid
+
+Gambar cis- dan trans-dekalin dalam bentuk kursi. ||| trans: penghubung e,e (datar); cis: a,e (tertekuk)
+Mengapa trans-dekalin lebih stabil daripada cis-dekalin? Berapa selisihnya? ||| cis mempunyai tiga gauche tambahan; ± 11 kJ mol⁻¹
+Mengapa trans-dekalin tidak dapat membalik kursi? ||| penghubung akan menjadi a,a yang berlawanan arah
+Sebutkan tiga steroid dan peranannya. ||| kolesterol (membran), testosteron (hormon), kortison (antiradang)
+@steroid [P] Mengapa kerangka steroid kaku dan hampir datar? Apa kegunaannya bagi fungsi biologis kolesterol? ||| semua sambungan trans; menyisip dan mengakukan membran
+Apakah cis-dekalin dapat membalik kursi? Apa yang terjadi pada ikatan penghubung? ||| ya; a,e menjadi e,a
+
+## Subbab 4.11: Pembakaran alkana dan kalor pembakaran
+
+Tulis persamaan setara pembakaran sempurna pentana, heptana, dan dekana. ||| C₅H₁₂ + 8 O₂ → 5 CO₂ + 6 H₂O; C₇H₁₆ + 11 O₂ → 7 CO₂ + 8 H₂O; 2 C₁₀H₂₂ + 31 O₂ → 20 CO₂ + 22 H₂O
+Berapa massa CO₂ yang dihasilkan dari pembakaran 1,00 kg oktana? ||| 3,08 kg
+Berapa kJ kalor yang dilepas oktana per mol O₂ yang dipakai? ||| 438 kJ
+Hitung kalor pembakaran per gram untuk metana dan etanol. Mengapa etanol lebih kecil? ||| 55,5 dan 29,7 kJ g⁻¹; etanol sudah mengandung O
+@isomer [P] Kalor pembakaran oktana 5470 kJ mol⁻¹ dan 2,2,4-trimetilpentana 5461 kJ mol⁻¹. Isomer mana yang lebih stabil? Tunjukkan dengan hukum Hess. ||| 2,2,4-trimetilpentana, 9 kJ mol⁻¹
+Mengapa pembakaran tidak sempurna berbahaya? ||| menghasilkan CO beracun dan jelaga
+Mengapa lemak menyimpan lebih banyak energi per gram daripada gula? ||| rantai mirip alkana, karbon lebih tereduksi
+Berapa liter udara (21% O₂, 24,5 L mol⁻¹) yang diperlukan untuk membakar 1,00 mol propana? ||| 583 L
+Tulis persamaan pembakaran tidak sempurna metana yang menghasilkan CO. ||| 2 CH₄ + 3 O₂ → 2 CO + 4 H₂O

@@ -1,0 +1,238 @@
+## Subbab 6.1: Momentum sudut klasik
+
+> Gunakan tetapan di Bab 1 dan massa isotop di Bab 5. Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab.
+
+**Dasar**
+
+Elektron pada orbit Bohr pertama bergerak dengan laju $2{,}188 \times 10^6$ m/s pada jari-jari 52,9 pm. Hitung momentum sudutnya dalam satuan $\hbar$. ||| $1{,}00\,\hbar$
+Partikel di $\mathbf r = (0;\ 2;\ 0)$ m dengan $\mathbf p = (3;\ 0;\ 0)$ kg m/s. Hitung $\mathbf L$. ||| $(0;\ 0;\ -6)$ kg m²/s
+Dengan $E = L^2/2I$, hitung energi rotasi HCl ($I = 2{,}642 \times 10^{-47}$ kg m²) bila $L = \sqrt2\,\hbar$, dalam cm⁻¹. ||| 21,19 cm⁻¹ ($= 2B$)
+
+**Menengah**
+
+Hitung besar momen magnet orbital elektron dengan $L = \sqrt6\,\hbar$ ($\ell = 2$). ||| $\sqrt6\,\mu_B = 2{,}27 \times 10^{-23}$ J/T
+Tunjukkan bahwa untuk gaya sentral $\mathbf F = f(r)\hat{\mathbf r}$, torsi $\mathbf r \times \mathbf F = 0$ sehingga $\mathbf L$ kekal. ||| $\mathbf r \times \mathbf r = 0$
+Dua atom bermassa $m_1$ dan $m_2$ berjarak $r$ berputar terhadap pusat massanya. Tunjukkan bahwa $I = m_1r_1^2 + m_2r_2^2 = \mu r^2$. ||| $r_1 = m_2r/M$, $r_2 = m_1r/M$
+
+Berapa momen magnet orbital (dalam $\mu_B$) elektron dengan $\ell = 2$, $m_\ell = -1$ sepanjang sumbu $z$? Berapa besar momen totalnya? ||| $+1\,\mu_B$ (berlawanan dengan $L_z$); $\sqrt6\,\mu_B$
+
+**Tantangan ★**
+
+@bumi [P] ★ Hitung momentum sudut rotasi Bumi ($I = 0{,}331MR^2$, $M = 5{,}97 \times 10^{24}$ kg, $R = 6371$ km, hari sideris 86 164 s) dalam satuan $\hbar$. Berapa sudut minimum antara $\mathbf L$ dan sumbu kuantisasi? ||| $5{,}8 \times 10^{33}$ J s $= 5{,}5 \times 10^{67}\,\hbar$; sudut $\approx 1/\sqrt\ell \approx 10^{-34}$ rad
+
+## Subbab 6.2: Operator momentum sudut dan komutatornya
+
+**Dasar**
+
+Hitung $\hat L_z(x + iy)$, $\hat L_z(x - iy)$, dan $\hat L_zz$. ||| $\hbar(x + iy)$; $-\hbar(x - iy)$; 0
+Apakah $(x + iy)^2$ fungsi eigen $\hat L_z$? Nilai eigennya? ||| ya; $2\hbar$
+Tunjukkan dengan (6.7) bahwa $\hat L^2\cos\theta = 2\hbar^2\cos\theta$. ||| langsung
+
+**Menengah**
+
+Turunkan $[\hat L_y, \hat L_z] = i\hbar\hat L_x$ dari komutator kanonik. ||| seperti penurunan $[\hat L_x, \hat L_y]$
+Hitung $[\hat L_z, \hat p_x]$ dan $[\hat L_z, \hat p_y]$. ||| $i\hbar\hat p_y$; $-i\hbar\hat p_x$
+Tunjukkan bahwa $3\cos^2\theta - 1$ adalah fungsi eigen $\hat L^2$ dengan nilai eigen $6\hbar^2$. ||| $\ell = 2$
+Buktikan $[\hat L_z, r^2] = 0$ dan jelaskan maknanya. ||| rotasi terhadap $z$ tidak mengubah jarak dari titik asal
+
+**Tantangan ★**
+
+★ Buktikan $[\hat L^2, \hat L_x] = 0$ dengan memakai $[\hat A^2, \hat B] = \hat A[\hat A, \hat B] + [\hat A, \hat B]\hat A$. ||| suku-suku saling menghapus
+
+## Subbab 6.3: Partikel pada cincin
+
+**Dasar**
+
+Hitung empat tingkat energi terendah elektron pada cincin berjari-jari 100 pm, dalam eV. ||| 0; 3,81; 15,2; 34,3 eV
+Normalisasi $\psi = A\cos m\phi$ ($m \ne 0$) pada $[0, 2\pi]$. ||| $A = 1/\sqrt\pi$
+Berapa banyak elektron π yang mengisi kulit-kulit penuh sampai $|m| = 2$? sampai $|m| = 3$? ||| 10; 14
+
+**Menengah**
+
+@cincin [P] Partikel pada cincin dalam keadaan $\psi = (e^{i\phi} + 2e^{2i\phi})/\sqrt{10\pi}$. Hitung peluang hasil pengukuran $L_z$, $\langle L_z\rangle$, dan $\langle E\rangle$. ||| $P(\hbar) = \tfrac15$, $P(2\hbar) = \tfrac45$; $\langle L_z\rangle = \tfrac95\hbar$; $\langle E\rangle = \tfrac{17}{5}\cdot\tfrac{\hbar^2}{2I}$
+Model cincin untuk [18]anulena: 18 elektron π pada cincin dengan keliling $18 \times 140$ pm. Hitung jari-jari dan panjang gelombang transisi $|m| = 4 \to 5$. ||| $R = 401$ pm; 582 nm (terukur: pita kuat di 369 nm)
+Berapa jari-jari cincin yang membuat transisi $|m| = 1 \to 2$ benzena jatuh tepat di 255 nm? ||| 153 pm
+Siklobutadiena mempunyai 4 elektron π. Bagaimana konfigurasinya menurut model cincin, dan apa akibatnya? ||| $m = 0$ penuh, $m = \pm1$ setengah terisi: kulit terbuka, tidak stabil (antiaromatik)
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa $\psi_m$ dan $\psi_{-m}$ mempunyai rapat peluang yang sama tetapi $\langle L_z\rangle$ berlawanan, sedangkan $\cos m\phi$ mempunyai $\langle L_z\rangle = 0$. Jelaskan dalam bahasa gelombang berjalan dan gelombang berdiri. ||| $\cos m\phi$ adalah superposisi sama besar dua arah putaran
+
+## Subbab 6.4: Partikel pada bola
+
+**Dasar**
+
+Berapa energi (dalam $\hbar^2/2I$) dan degenerasi tingkat $\ell = 3$? ||| 12; 7
+Berapa energi rotasi H₂ pada $J = 1$, dinyatakan dalam kelvin ($E/k$)? ($B = 60{,}85$ cm⁻¹) ||| 175 K
+Berapa banyak keadaan (tanpa spin) yang ada sampai $\ell = 5$? ||| 36
+
+**Menengah**
+
+Periksa bahwa $P_3(x) = \tfrac12(5x^3 - 3x)$ memenuhi persamaan Legendre dengan $\ell = 3$. ||| substitusi
+Hitung $P_2^1(x)$ dengan (6.14). ||| $3x\sqrt{1 - x^2}$
+Untuk elektron pada bola berjari-jari 355 pm, hitung energi transisi $\ell = 4 \to 5$. ||| 3,02 eV
+
+**Tantangan ★**
+
+@legendre [P] ★ Dengan $x = \cos\theta$, tunjukkan bahwa persamaan $\Theta$ di (6.12) menjadi (6.13). ||| lihat pembahasan
+
+## Subbab 6.5: Harmonik bola
+
+**Dasar**
+
+Normalisasi $Y_0^0 = N$ pada bola satuan. ||| $N = 1/\sqrt{4\pi}$
+Periksa bahwa $\int|Y_1^1|^2\sin\theta\,d\theta\,d\phi = 1$. ||| $\tfrac{3}{8\pi}\cdot2\pi\cdot\tfrac43 = 1$
+Apa paritas $Y_3^2$? $Y_4^0$? ||| ganjil; genap
+
+**Menengah**
+
+Tunjukkan bahwa $Y_1^0$ dan $Y_2^0$ ortogonal. ||| $\int_{-1}^1x(3x^2 - 1)dx = 0$
+Nyatakan $d_{xy} \propto \sin^2\theta\sin2\phi$ dengan $Y_2^{\pm2}$. ||| $d_{xy} = \tfrac{-i}{\sqrt2}(Y_2^2 - Y_2^{-2})$
+Tentukan kerucut simpul $Y_3^0 \propto 5\cos^3\theta - 3\cos\theta$. ||| $\theta = 39{,}2°$, 90°, 140,8°
+Berapa banyak simpul sudut (bidang dan kerucut) pada $Y_3^{\pm3}$ riil? ||| 3 bidang, 0 kerucut
+
+**Tantangan ★**
+
+@unsold [P] ★ Buktikan teorema Unsöld untuk $\ell = 2$: $\sum_m|Y_2^m|^2 = 5/4\pi$. ||| lihat pembahasan
+
+## Subbab 6.6: Kuantisasi ruang dan model vektor
+
+**Dasar**
+
+Untuk $\ell = 3$, berapa $|\mathbf L|$ dan sudut terkecil terhadap sumbu $z$? ||| $\sqrt{12}\,\hbar = 3{,}46\,\hbar$; 30,0°
+Berapa banyak orientasi yang diizinkan untuk $\ell = 4$? ||| 9
+Hitung $\langle L_x^2\rangle$ untuk $\ell = 2$, $m = 0$ dan $m = 2$. ||| $3\hbar^2$; $\hbar^2$
+
+**Menengah**
+
+Tingkat d ($\ell = 2$) dalam medan 2,0 T terpecah menjadi berapa tingkat, dan berapa jaraknya (cm⁻¹)? ||| 5 tingkat, berjarak 0,934 cm⁻¹
+Berapa $\Delta L_x$ untuk $\ell = 1$, $m = 0$? ||| $\hbar$
+Mengapa berkas atom perak dalam percobaan Stern–Gerlach terpecah dua, bukan tiga atau satu? ||| momentum sudut totalnya spin ½: $2s + 1 = 2$
+
+Berapa sudut terkecil antara $\mathbf L$ dan sumbu $z$ untuk $\ell = 10$ dan $\ell = 100$? ||| 17,5°; 5,7°
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa $\hat L_x^2 + \hat L_y^2 = \hat L^2 - \hat L_z^2$ dan, dari kepositifannya, bahwa $m^2 \le \ell(\ell + 1)$. ||| $\langle L_x^2 + L_y^2\rangle \ge 0$
+
+## Subbab 6.7: Metode operator tangga
+
+**Dasar**
+
+Hitung $\hat L_+|1, 1\rangle$ dan $\hat L_-|1, 1\rangle$. ||| 0; $\sqrt2\,\hbar|1, 0\rangle$
+Hitung $\hat L_+|2, 0\rangle$. ||| $\sqrt6\,\hbar|2, 1\rangle$
+Hitung $\hat L_-|\tfrac32, \tfrac32\rangle$. ||| $\sqrt3\,\hbar|\tfrac32, \tfrac12\rangle$
+
+**Menengah**
+
+Tuliskan matriks $\hat L_y$ untuk $\ell = 1$. ||| $\tfrac{\hbar}{\sqrt2}\begin{pmatrix}0 & -i & 0\\ i & 0 & -i\\ 0 & i & 0\end{pmatrix}$
+Buktikan $\hat L_+\hat L_- = \hat L^2 - \hat L_z^2 + \hbar\hat L_z$. ||| seperti (6.21)
+Dengan operator tangga, hitung $\langle 1, 1|L_x^2|1, 1\rangle$. ||| $\hbar^2/2$
+
+**Tantangan ★**
+
+@tangga1 [P] ★ Kenakan $\hat L_- = \hbar e^{-i\phi}(-\partial_\theta + i\cot\theta\,\partial_\phi)$ pada $Y_1^0$ dan tunjukkan bahwa hasilnya $\sqrt2\,\hbar Y_1^{-1}$. ||| lihat pembahasan
+★ Untuk $\ell = 1$, cari vektor eigen $\hat L_x$ dengan nilai eigen $+\hbar$ dan nyatakan sebagai kombinasi $p_x$, $p_y$, $p_z$. ||| $\tfrac12(1, \sqrt2, 1) = (p_z - ip_y)/\sqrt2 \propto -(p_y + ip_z)/\sqrt2$, yaitu "$p_{+1}$" terhadap sumbu $x$
+
+## Subbab 6.8: Masalah dua benda dan massa tereduksi
+
+**Dasar**
+
+Berapa massa tereduksi elektron–proton dalam satuan $m_e$? ||| 0,999 456
+Berapa panjang gelombang Lyman-α positronium? ||| 243,0 nm (dua kali H)
+Hitung penghalang sentrifugal $\ell(\ell+1)\hbar^2/2\mu r_e^2$ untuk H₂ pada $J = 10$ (cm⁻¹). ||| 6694 cm⁻¹
+
+**Menengah**
+
+Hitung perbandingan $R_{\text{He}^+}/R_\text{H}$ dan panjang gelombang Lyman-α He⁺ ($m(^4\text{He})$ inti $= 4{,}001\,51$ u). ||| 1,000 407; 30,380 nm (bukan tepat 121,568/4 = 30,392 nm)
+@muon [P] Dalam hidrogen muonik, elektron diganti muon ($m_\mu = 206{,}77\,m_e$). Hitung massa tereduksi, energi keadaan dasar, dan jari-jari Bohr-nya. ||| $\mu = 185{,}84\,m_e$; $-2{,}53$ keV; 285 fm
+Hitung pergeseran H$_\alpha$ tritium terhadap hidrogen. ||| 0,238 nm (656,232 nm)
+
+Hitung massa tereduksi ¹⁴N₂ (14,003074 u) dan ¹H¹²⁷I (126,904473 u). ||| 7,0015 u; 0,9999 u
+
+**Tantangan ★**
+
+★ Turunkan $\nabla_1 = \tfrac{m_1}{M}\nabla_R + \nabla_r$ dengan aturan rantai, lalu tunjukkan bahwa suku silang di (6.24) hilang. ||| langsung
+
+## Subbab 6.9: Rotor tegar diatom
+
+**Dasar**
+
+Hitung $B$ untuk HF ($r_e = 91{,}68$ pm). ||| 20,96 cm⁻¹
+Dari $B_e(\text{H}_2) = 60{,}853$ cm⁻¹, hitung $r_e$. ||| 74,14 pm
+Berapa energi tingkat $J = 5$ CO ($B = 1{,}9313$ cm⁻¹)? ||| 57,9 cm⁻¹
+
+**Menengah**
+
+Ramalkan $B$ untuk D₂ dari H₂. ||| 30,45 cm⁻¹
+Untuk CO pada 298 K, pada $J$ berapa energi rotasi sama dengan $kT$? ||| $J \approx 10$
+Mengapa rotasi I₂ pada suhu kamar dapat diperlakukan secara klasik, tetapi rotasi H₂ pada 50 K tidak? ||| $\theta_\text{rot}(\text{I}_2) = 0{,}05$ K $\ll T$; $\theta_\text{rot}(\text{H}_2) = 88$ K $> 50$ K
+
+Konstanta rotasi ¹H₂ adalah 60,85 cm⁻¹. Hitung panjang ikatannya. ||| 74,1 pm
+Panjang ikatan ¹H¹⁹F 91,7 pm (¹⁹F: 18,998403 u). Hitung $\tilde B$. ||| 20,9 cm⁻¹
+
+**Tantangan ★**
+
+@ocs [P] ★ Untuk ¹⁶O¹²C³²S, $B_0 = 6081{,}49$ MHz; untuk ¹⁶O¹²C³⁴S, $B_0 = 5932{,}83$ MHz. Anggap panjang ikatan sama untuk keduanya, dan tentukan $r(\text{C–O})$ dan $r(\text{C–S})$. ||| 116,3 pm; 156,0 pm
+
+## Subbab 6.10: Spektrum rotasi gelombang mikro
+
+**Dasar**
+
+Hitung dua garis rotasi pertama HF ($B_0 = 20{,}56$ cm⁻¹). ||| 41,12; 82,24 cm⁻¹
+Manakah yang mempunyai spektrum rotasi murni: H₂, HD, CO₂, NO, O₃? ||| HD (sangat lemah), NO, O₃
+Garis $J = 1 \leftarrow 0$ HCN di 88,63 GHz. Berapa panjang gelombangnya? ||| 3,38 mm
+
+**Menengah**
+
+Dengan $B = 57\,635{,}97$ MHz dan $D = 0{,}1835$ MHz, hitung frekuensi $J = 1 \leftarrow 0$ dan $J = 2 \leftarrow 1$ CO. ||| 115 271,2 MHz; 230 538,0 MHz
+Hitung $\int Y_0^{0*}\cos\theta\,Y_1^0\,d\Omega$ dan $\int Y_2^{0*}\cos\theta\,Y_0^0\,d\Omega$. Apa maknanya bagi aturan seleksi? ||| $1/\sqrt3$; 0: $\Delta J = 2$ terlarang
+NaCl gas pada 1000 K: berapa jarak antargaris (GHz) dan $J$ terpadat? ($B = 0{,}2181$ cm⁻¹) ||| 13,08 GHz; $J \approx 39$
+Jarak antargaris suatu molekul 0,4056 cm⁻¹ dan $\mu = 15{,}0$ u. Hitung panjang ikatannya. ||| $B = 0{,}2028$ cm⁻¹; $I = 1{,}38 \times 10^{-45}$ kg m²; $r = 235$ pm
+
+Pada frekuensi berapa (GHz) garis $J = 2 \to 3$ ¹²C¹⁶O, bila $B = 57{,}636$ GHz dan distorsi diabaikan? ||| 345,8 GHz
+
+**Tantangan ★**
+
+★ Mengapa spektrum Raman rotasi mempunyai aturan $\Delta J = 0, \pm2$, dan berapa jarak antargarisnya? ||| polarisabilitas berulang tiap setengah putaran; garis berjarak $4B$
+
+## Subbab 6.11: Populasi rotasi dan intensitas
+
+**Dasar**
+
+Tentukan $J_\text{maks}$ untuk HF ($B = 20{,}56$ cm⁻¹) pada 298 K. ||| $J = 2$
+Hitung $N_{10}/N_0$ untuk CO pada 298 K. ||| 7,57
+Hitung $q_\text{rot}$ untuk HF pada 298 K. ||| 10,4
+
+**Menengah**
+
+Pada suhu berapa $J = 10$ menjadi tingkat terpadat CO? ||| 610 K
+Hitung fraksi para-H₂ pada kesetimbangan pada 150 K. ||| 0,290
+@orto [P] Deuteron mempunyai spin 1. Tentukan perbandingan orto : para D₂ pada suhu tinggi, dan $J$ mana yang dimiliki masing-masing. ||| 2 : 1; orto = $J$ genap, para = $J$ ganjil
+Hitung sumbangan bilangan simetri pada entropi molar N₂. ||| $-R\ln2 = -5{,}76$ J K⁻¹ mol⁻¹
+
+Hitung $J_\text{maks}$ untuk HCl pada 1000 K dan untuk CO pada 10 K (awan antarbintang). ||| 5,2 (J = 5); 0,85 (J = 1)
+
+**Tantangan ★**
+
+★ Dalam spektrum Raman rotasi ¹⁴N₂ (spin inti 1), intensitas garis berganti-ganti. Berapa perbandingan intensitas garis $J$ genap terhadap ganjil? ||| 2 : 1
+
+## Subbab 6.12: Distorsi sentrifugal dan spektrum rotasi–getaran
+
+**Dasar**
+
+Hitung $D$ untuk HF ($B_e = 20{,}956$, $\omega_e = 4138{,}3$ cm⁻¹). ||| $2{,}15 \times 10^{-3}$ cm⁻¹
+Dari $B = 10{,}593$ dan $D = 5{,}32 \times 10^{-4}$ cm⁻¹, perkirakan $\omega_e$ HCl. ||| 2990 cm⁻¹
+Berapa $B_2$ untuk HCl ($B_e = 10{,}59$, $\alpha_e = 0{,}30$ cm⁻¹)? ||| 9,84 cm⁻¹
+
+**Menengah**
+
+Untuk pita dasar CO, $\tilde\nu_0 = 2143{,}27$, $B_0 = 1{,}9225$, $B_1 = 1{,}9050$ cm⁻¹. Hitung $R(0)$, $R(1)$, $P(1)$, $P(2)$. ||| 2147,08; 2150,86; 2139,43; 2135,55 cm⁻¹
+@kombinasi [P] Dari garis-garis CO soal sebelumnya, peroleh kembali $B_0$ dan $B_1$ dengan selisih kombinasi. ||| $B_0 = 1{,}9225$; $B_1 = 1{,}9050$ cm⁻¹
+Pada $J$ berapa cabang R pita dasar CO membentuk kepala pita? Apakah teramati pada suhu kamar? ||| $J \approx 108$; tidak (populasi praktis nol)
+
+Dengan $\tilde D = 5{,}3 \times 10^{-4}$ cm⁻¹, berapa geseran garis $J = 15 \to 16$ HCl akibat distorsi, $4\tilde D(J + 1)^3$? ||| 8,7 cm⁻¹
+
+**Tantangan ★**
+
+@kratzer [P] ★ Turunkan rumus Kratzer $D = 4B^3/\tilde\omega^2$ dari model klasik pegas yang diregangkan gaya sentrifugal. ||| lihat pembahasan

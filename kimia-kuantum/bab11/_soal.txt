@@ -1,0 +1,297 @@
+## Subbab 11.1: Pendekatan Born–Oppenheimer
+
+> Pakai satuan atom bila tidak disebut lain: 1 hartree $= 27{,}211$ eV, 1 bohr $= 52{,}918$ pm, 1 hartree/bohr $= 82{,}39$ nN, $e^2/4\pi\varepsilon_0 = 14{,}40$ eV Å. Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab.
+
+**Dasar**
+
+Suku mana dalam Hamiltonian molekul (11.1) yang dihilangkan untuk memperoleh persamaan elektronik (11.2), dan suku mana yang menjadi tetapan? ||| $\hat T_N$ dihilangkan; $\hat V_{NN}$ tetapan
+Hitung $(m_e/\mu)^{1/4}$ untuk H₂ dengan $\mu = m_p/2$. ||| 0,182
+Pada jarak berapa kurva ionik Li⁺ + F⁻ menyilang energi Li + F ($I$(Li) $= 5{,}392$ eV, $A$(F) $= 3{,}401$ eV)? Bagaimana dengan K⁺ + Cl⁻ ($I$(K) $= 4{,}341$ eV, $A$(Cl) $= 3{,}613$ eV)? ||| 7,23 Å; 19,8 Å
+
+**Menengah**
+
+Apakah pendekatan Born–Oppenheimer lebih baik untuk D₂ atau H₂? Jelaskan dengan hierarki energi. ||| D₂: $m_e/\mu$ dua kali lebih kecil
+Dua keadaan elektronik molekul diatom, $^1\Sigma^+$ dan $^3\Pi$, mendekati satu sama lain. Bolehkah kurvanya bersilangan? Bagaimana dengan dua keadaan $^1\Sigma^+$? ||| boleh (simetri berbeda); tidak (persilangan dihindari)
+Mengapa $U(R)$ disebut "permukaan energi potensial" padahal ia adalah energi elektronik? ||| $U(R)$ berperan sebagai energi potensial bagi gerak inti dalam (11.3)
+
+**Tantangan ★**
+
+@zp [P] ★ Hitung simpangan baku posisi inti H₂ dalam keadaan getaran dasar, $\sigma = \sqrt{\hbar/2\mu\omega}$ ($\tilde\nu = 4401$ cm⁻¹), dan bandingkan dengan $R_e = 74{,}14$ pm. Apa artinya bagi konsep "panjang ikatan"? ||| 8,7 pm, 12% dari $R_e$
+
+## Subbab 11.2: Gerak inti dalam molekul diatom
+
+**Dasar**
+
+Dengan $D_e = 4{,}7474$ eV (sama untuk semua isotopolog) serta $\omega_e = 3115{,}5$ cm⁻¹ dan $\omega_ex_e = 61{,}82$ cm⁻¹ untuk D₂, hitung $D_0$ D₂. ||| 4,556 eV
+Hitung tetapan rotasi $B_e$ H₂ dari $R_e = 74{,}144$ pm. ||| 60,85 cm⁻¹
+Hitung tetapan gaya N₂ dari $\omega_e = 2358{,}6$ cm⁻¹ ($\mu = 7{,}0015$ u). ||| 2295 N/m
+
+**Menengah**
+
+Perkirakan $D_e$ N₂ dengan potensial Morse ($\omega_ex_e = 14{,}32$ cm⁻¹) dan bandingkan dengan nilai sebenarnya ($D_0 = 9{,}759$ eV ditambah energi titik nol). ||| 12,0 eV; sebenarnya 9,90 eV
+Kurva eksak H₂⁺ mempunyai kelengkungan $U''(R_e) = 0{,}1030$ hartree/bohr². Hitung $\omega_e$ dalam cm⁻¹ dengan $\mu = m_p/2 = 918{,}1$ satuan massa elektron. ||| 2324 cm⁻¹ (terukur 2322)
+Hitung parameter Morse $a = \sqrt{k/2D_e}$ untuk H₂ ($k = 575$ N/m, $D_e = 4{,}747$ eV) dalam Å⁻¹. ||| 1,94 Å⁻¹
+Mengapa $\omega_e$ dan $B_e$ H₂, HD, dan D₂ berbeda, sedangkan $R_e$ dan $D_e$ sama? ||| $U(R)$ sama; massa tereduksi berbeda
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa potensial efektif (11.4) kehilangan minimumnya bila suku sentrifugal cukup besar. Untuk potensial Morse H₂, perkirakan secara kasar $J$ pada saat itu dengan syarat energi rotasi $hcB_eJ(J + 1)$ sebanding dengan $D_e$ ($B_e = 60{,}85$ cm⁻¹, $D_e = 38\,290$ cm⁻¹). ||| $J(J+1) \approx D_e/B_e \approx 630$, sekitar $J \approx 25$
+
+## Subbab 11.3: Ion molekul hidrogen H₂⁺
+
+**Dasar**
+
+Tentukan $(\lambda, \mu)$ untuk titik di bidang bagi tegak lurus antarinti yang berjarak $R/2$ dari sumbu. ||| $\lambda = \sqrt2$, $\mu = 0$
+Dengan (11.8), tunjukkan bahwa volume elipsoid $\lambda \le \lambda_0$ adalah $(\pi R^3/6)\lambda_0(\lambda_0^2 - 1)$ dan hitung untuk $R = 2$ bohr, $\lambda_0 = 2$. ||| $8\pi = 25{,}1$ bohr³
+Apa lambang orbital H₂⁺ dengan $m = \pm2$? Berapa degenerasinya? ||| δ; dua
+
+**Menengah**
+
+Dengan $\omega_e = 2321{,}7$ cm⁻¹, $\omega_ex_e = 66{,}2$ cm⁻¹, dan $D_e = 2{,}7928$ eV, hitung $D_0$ H₂⁺. ||| 2,651 eV
+Tunjukkan bahwa $1/r_A + 1/r_B = 4\lambda/[R(\lambda^2 - \mu^2)]$. ||| $r_Ar_B = R^2(\lambda^2 - \mu^2)/4$
+Ke orbital atom bersatu apa keadaan $2p\sigma_u$ menuju bila $R \to 0$, dan berapa energi elektroniknya di batas itu? ||| He⁺ $2p$; $-0{,}5$ hartree
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa untuk $r \gg R$, $\lambda \approx 2r/R$ dan $\mu \approx \cos\theta$. ||| uraikan $r_{A,B} \approx r \pm \tfrac R2\cos\theta$
+
+## Subbab 11.4: LCAO untuk H₂⁺
+
+**Dasar**
+
+Hitung $S$ untuk $R = 1$, 3, dan 5 bohr. ||| 0,858; 0,349; 0,097
+Hitung $J + 1/R$ pada $R = 1$ bohr dan $K$ pada $R = 2{,}5$ bohr. ||| 0,271 hartree; $-0{,}287$ hartree
+Tunjukkan bahwa $H_{AB} = (E_{1s} + 1/R)S + K$. ||| $(-\tfrac12\nabla^2 - 1/r_B)1s_B = E_{1s}1s_B$
+
+**Menengah**
+
+Hitung $E_+$ dan $E_-$ LCAO pada $R = 3$ bohr dalam hartree dan relatif terhadap H + H⁺ dalam eV. ||| $-0{,}5591$ ($-1{,}61$ eV); $-0{,}3676$ ($+3{,}60$ eV)
+Hitung $S$ untuk orbital dengan $\zeta = 1{,}24$ pada $R = 2$ bohr. ||| 0,463
+Mengapa LCAO dengan $\zeta = 1$ memberi ikatan terlalu panjang? ||| orbital terlalu menyebar; tidak menyusut ke arah dua inti
+
+**Tantangan ★**
+
+@satu [P] ★ Tunjukkan bahwa untuk $R \to 0$, energi elektronik LCAO ($\zeta = 1$), $E_+ - 1/R$, menuju $-1{,}5$ hartree, sedangkan nilai eksaknya $-2$ hartree. Apa yang harus diubah agar batas atom bersatu benar? ||| $S \to 1$, $J \to -1$, $K \to -1$; perlu $\zeta \to 2$
+
+## Subbab 11.5: Orbital ikatan dan antiikatan
+
+**Dasar**
+
+Tentukan orde ikatan H₂⁻, He₂²⁺, dan HeH (tiga elektron). ||| 0,5; 1; 0,5
+Hitung koefisien $1s_A$ dalam $\psi_+$ ternormalisasi pada $R = 2$ bohr ($S = 0{,}5865$). ||| 0,561
+Berapa kerapatan $\psi_-$ di titik tengah antarinti? Mengapa? ||| nol; bidang simpul
+
+**Menengah**
+
+Hitung populasi tumpang tindih $\psi_+$ pada $R = 2{,}5$ bohr ($S = 0{,}458$). ||| 0,314 elektron
+Hitung energi kinetik $T_+$ pada $R = 2{,}5$ bohr dan bandingkan dengan atom H. ||| 0,383 hartree (< 0,5)
+Berapa peluang elektron dalam $\psi_+$ berada lebih dekat ke $A$ daripada ke $B$? Apakah berbeda untuk $\psi_-$? ||| $\tfrac12$; sama
+
+**Tantangan ★**
+
+@he22 [P] ★ Ion He₂²⁺ mempunyai orde ikatan 1, tetapi energinya di jarak setimbang lebih tinggi daripada dua ion He⁺ yang terpisah. Mengapa ion ini dapat diamati, dan bagaimana bentuk kurva potensialnya? ||| sumur metastabil di balik penghalang Coulomb
+
+## Subbab 11.6: Keadaan tereksitasi dan orbital σ, π, δ
+
+**Dasar**
+
+Berapa bidang simpul yang memuat sumbu dan yang tegak lurus sumbu untuk $\sigma_g$, $\sigma_u^*$, $\pi_u$, $\pi_g^*$, $\delta_g$? ||| 0 dan 0; 0 dan 1; 1 dan 0; 1 dan 1; 2 dan 0
+Pasangan orbital atom mana yang dapat membentuk OM π dengan sumbu ikatan $z$: $p_x$–$p_x$, $p_x$–$p_y$, $s$–$p_x$, $p_x$–$d_{xz}$? ||| $p_x$–$p_x$ dan $p_x$–$d_{xz}$
+Dari tabel energi eksak pada $R = 2$ bohr, keadaan mana yang bersifat $g$? ||| $1s\sigma_g$, $2s\sigma_g$, $3d\sigma_g$, $3d\pi_g$, $3d\delta_g$
+
+**Menengah**
+
+Tumpang tindih δ antara $d_{xy}$ dua atom sebanding dengan $\cos2\phi$, dengan $\phi$ sudut puntir. Hitung faktor ini untuk konformasi tindih ($0°$), $22{,}5°$, dan bersilang ($45°$). ||| 1; 0,707; 0
+Dengan diagram korelasi, ke orbital atom terpisah mana $3d\sigma_g$ dan $3d\pi_g$ menuju? ||| $\sigma_g2p$; $\pi_g^*2p$
+Dengan tumpang tindih di Contoh 11.26, jelaskan mengapa F₂ hampir tidak mempunyai ikatan π bersih meskipun orbital $1\pi_u$ dan $1\pi_g$ terisi penuh. ||| keduanya terisi; tumpang tindih π kecil
+
+**Tantangan ★**
+
+★ Bila sumbu $z$ kedua atom sejajar (bukan saling menunjuk), tentukan kombinasi $p_{zA} \pm p_{zB}$ mana yang mengikat dan labelnya. ||| $p_{zA} - p_{zB}$ mengikat, $\sigma_g$
+
+## Subbab 11.7: Konfigurasi OM diatom homonuklir periode 2
+
+**Dasar**
+
+Tentukan orde ikatan Li₂⁺, B₂⁺, C₂²⁻, dan O₂²⁺. ||| 0,5; 0,5; 3; 3
+Manakah yang paramagnetik: B₂, C₂, N₂, O₂, F₂, O₂⁺, O₂⁻? ||| B₂, O₂, O₂⁺, O₂⁻
+Hitung momen magnet spin saja O₂⁺. ||| $\sqrt3\,\mu_B = 1{,}73\,\mu_B$
+
+**Menengah**
+
+Urutkan panjang ikatan N₂, N₂⁺, dan N₂⁻. ||| N₂ < N₂⁺ < N₂⁻
+Mengapa Be₂ hanya terikat sangat lemah, dan mengapa Li₂ terikat lebih lemah daripada H₂ meskipun orde ikatannya sama? ||| orde 0; orbital 2s besar dan tumpang tindih di jarak besar
+Dengan $\omega$ O₂ (1580) dan O₂⁺ (1905 cm⁻¹), berapa perbandingan tetapan gayanya? ||| 1,45
+
+**Tantangan ★**
+
+@c22 ★ Ion asetilida C₂²⁻ (dalam CaC₂) mempunyai jarak C–C 119 pm, lebih pendek daripada C₂ (124 pm). Jelaskan dengan konfigurasi OM. ||| dua elektron tambahan masuk $3\sigma_g$ (ikatan): orde 2 → 3
+
+## Subbab 11.8: Pencampuran s–p
+
+**Dasar**
+
+Untuk molekul mana pencampuran s–p cukup kuat untuk menempatkan $3\sigma_g$ di atas $1\pi_u$? ||| Li₂ sampai N₂
+Apa HOMO N₂, O₂, F₂, dan CO? ||| $3\sigma_g$; $1\pi_g$; $1\pi_g$; $5\sigma$
+Mengapa pita fotoelektron yang lebar dengan deret getaran panjang menandai elektron yang mengikat kuat? ||| ionisasi mengubah panjang ikatan banyak (Franck–Condon)
+
+**Menengah**
+
+Ulangi model 2 × 2 Contoh 11.35 untuk O₂ dengan energi tak bercampur $-33{,}0$ dan $-16{,}5$ eV serta kopling $-3{,}0$ eV. Berapa pergeseran $3\sigma_g$? ||| 0,53 eV; $3\sigma_g$ di $-15{,}97$ eV
+Dari bilangan gelombang ion N₂⁺ (2207, 1903, 2420 cm⁻¹), hitung jarak antarpuncak deret getaran ketiga pita fotoelektron N₂ dalam eV. ||| 0,274; 0,236; 0,300 eV
+Mengapa orbital $2\sigma_u$ N₂ hanya lemah antiikatan? ||| bercampur dengan $3\sigma_u$; berkarakter pasangan bebas
+Hartree–Fock/cc-pVTZ memberi $-\varepsilon$ N₂: $1\pi_u$ 16,65 eV dan $3\sigma_g$ 17,21 eV. Apa yang diramalkan teorema Koopmans untuk HOMO, dan apa kata spektrum fotoelektron? ||| $1\pi_u$; spektrum: $3\sigma_g$ (15,58 eV)
+
+**Tantangan ★**
+
+@pert [P] ★ Bandingkan pergeseran eksak pada Contoh 11.35 (0,765 eV) dengan perkiraan perturbasi (11.19). Kapan perkiraan orde kedua dapat dipercaya? ||| 0,818 eV; bila $H_{12}$ jauh lebih kecil daripada selisih energi
+
+## Subbab 11.9: Lambang suku molekul
+
+**Dasar**
+
+Tentukan lambang suku keadaan dasar Li₂, B₂⁺, N₂⁺, O₂⁻, NO, CN⁻, dan C₂⁻. ||| $^1\Sigma_g^+$; $^2\Pi_u$; $^2\Sigma_g^+$; $^2\Pi_g$; $^2\Pi$; $^1\Sigma^+$; $^2\Sigma_g^+$
+Berapa keadaan mikro konfigurasi $\pi^3$, dan apa lambang sukunya? ||| 4; $^2\Pi$
+Apa arti huruf X, a, dan b dalam $X\,^3\Sigma_g^-$, $a\,^1\Delta_g$, $b\,^1\Sigma_g^+$? ||| keadaan dasar; tereksitasi dengan multiplisitas lain
+
+**Menengah**
+
+Turunkan lambang suku konfigurasi $\delta^2$. ||| $^3\Sigma^-$, $^1\Gamma$, $^1\Sigma^+$
+Turunkan lambang suku konfigurasi tereksitasi N₂ $(1\pi_u)^3(1\pi_g)^1$. ||| $^{1,3}\Sigma_u^+$, $^{1,3}\Sigma_u^-$, $^{1,3}\Delta_u$
+Manakah transisi N₂ yang diizinkan dari $X\,^1\Sigma_g^+$: ke $^1\Pi_u$, $^1\Pi_g$, $^3\Sigma_u^+$? ||| hanya $^1\Pi_u$
+Keadaan dasar OH, $^2\Pi$, terpecah 139 cm⁻¹ oleh kopling spin–orbit. Hitung perbandingan populasi komponen atas terhadap bawah pada 300 K. ||| 0,51
+
+**Tantangan ★**
+
+@o2a [P] ★ Keadaan $a\,^1\Delta_g$ O₂ dalam gas mempunyai umur pancaran sekitar 72 menit. Jelaskan dengan aturan seleksi mengapa umurnya begitu panjang. ||| terlarang spin, $g \to g$, dan $\Delta\Lambda = 2$
+
+## Subbab 11.10: Molekul hidrogen: teori OM
+
+**Dasar**
+
+Uraikan $\sigma_u(1)\sigma_u(2)$ atas orbital atom dan identifikasi bagian kovalen dan ionik. ||| (ionik) $-$ (kovalen)
+Hitung $(aa|aa)$ untuk $\zeta = 1{,}19$ dalam eV. ||| 20,2 eV
+Dalam basis minimal ($\zeta = 1$), berapa energi H⁻? Apakah H⁻ terikat dalam model ini (eksak: $-0{,}5278$ hartree)? ||| $-0{,}375$ hartree; tidak terikat (di atas H + e⁻)
+
+**Menengah**
+
+Pada $R = 2$ bohr ($\zeta = 1$): $S = 0{,}5865$, $H_{aa} = -0{,}9725$, $H_{ab} = -0{,}6992$, $(aa|aa) = 0{,}6250$, $(aa|bb) = 0{,}4260$, $(aa|ab) = 0{,}3080$, $(ab|ab) = 0{,}1842$ hartree. Hitung $E_\text{OM}$. ||| $-1{,}0808$ hartree
+Dengan teorema Koopmans, perkirakan energi ionisasi H₂ dari fungsi OM ($\zeta = 1$) pada $R = 1{,}603$ bohr, dengan $\varepsilon = -0{,}5851$ hartree. ||| 15,9 eV
+Berapa kesalahan energi OM ($\zeta = 1$) pada disosiasi, dalam eV? ||| 8,5 eV
+
+**Tantangan ★**
+
+@jss [P] ★ Turunkan (11.24) dengan menguraikan $\sigma_g$ atas $a$ dan $b$. ||| suku-suku silang memberi $4(aa|ab)$ dan $2(ab|ab)$
+
+## Subbab 11.11: Teori ikatan valensi Heitler–London
+
+**Dasar**
+
+Apa energi fungsi Heitler–London untuk $R \to \infty$? ||| $2E_\text{H} = -1$ hartree
+Mengapa fungsi ruang antisimetris $\Psi_-$ harus disertai spin triplet? ||| fungsi total harus antisimetris
+Mengapa He tidak membentuk ikatan valensi dengan He? ||| tidak ada elektron tak berpasangan
+
+**Menengah**
+
+Pada $R = 1{,}4$ bohr ($\zeta = 1$), $Q = -0{,}062$ eV dan $X = -4{,}435$ eV, dengan $S = 0{,}7529$. Hitung energi ikat singlet. ||| $-2{,}87$ eV
+Hitung energi Heitler–London pada $R = 2$ bohr dengan integral pada soal OM di subbab 11.10. ||| $-1{,}1036$ hartree
+Bagaimana teori ikatan valensi menjelaskan valensi tiga nitrogen dan valensi dua oksigen? ||| banyak elektron 2p tak berpasangan
+
+**Tantangan ★**
+
+@norm ★ Tunjukkan bahwa faktor normalisasi (11.26) adalah $1/\sqrt{2(1 \pm S^2)}$. ||| $\langle a(1)b(2)|b(1)a(2)\rangle = S^2$
+
+## Subbab 11.12: Perbandingan OM dan IV; interaksi konfigurasi
+
+**Dasar**
+
+Berapa $\lambda$ dalam (11.28) untuk fungsi OM sederhana dan untuk Heitler–London? ||| 1; 0
+Hitung energi korelasi He dari $E_\text{HF} = -2{,}86168$ dan $E_\text{eksak} = -2{,}90372$ hartree. ||| $-0{,}0420$ hartree $= -1{,}14$ eV
+Bila $\lambda = 0{,}26$ dan tumpang tindih diabaikan, berapa bobot struktur ionik? ||| 6,3%
+
+**Menengah**
+
+CI pada $R = 1{,}4$ bohr dengan $\zeta = 1{,}19$ ($S = 0{,}679$) memberi $c_1 = 0{,}9937$, $c_2 = -0{,}1121$. Hitung $\lambda$. ||| 0,258
+Mengapa konfigurasi $(\sigma_g)^1(\sigma_u)^1$ tidak bercampur dengan $(\sigma_g)^2$? ||| simetri $\Sigma_u$, bukan $\Sigma_g$
+Mengapa bobot $(\sigma_u)^2$ dalam CI naik ketika $R$ bertambah? ||| selisih energi $\sigma_g$–$\sigma_u$ mengecil
+Berapa persen energi korelasi H₂ yang ditangkap FCI/cc-pVDZ ($E_\text{FCI} = -1{,}16367$, $E_\text{RHF} = -1{,}12875$ hartree), bila energi korelasi eksak $-0{,}04084$ hartree? ||| 85%
+Pada $R = 4$ bohr, okupasi orbital natural H₂ adalah 1,512 dan 0,485. Kira-kira berapa bobot konfigurasi $(\sigma_u)^2$? ||| sekitar 0,24
+Berapa $\langle\hat S^2\rangle$ UHF H₂ tepat di titik Coulson–Fischer dan pada disosiasi? ||| 0; mendekati 1
+
+**Tantangan ★**
+
+@hlci [P] ★ Tunjukkan bahwa fungsi Heitler–London sama dengan $(1 + S)\sigma_g(1)\sigma_g(2) - (1 - S)\sigma_u(1)\sigma_u(2)$, sampai faktor tetapan. ||| uraikan kedua suku atas $a$ dan $b$
+
+## Subbab 11.13: Diatom heteronuklir
+
+**Dasar**
+
+Orbital F mana yang tetap tak mengikat dalam HF? ||| $2s$ (hampir), $2p_x$, $2p_y$
+Tentukan orde ikatan NO, NO⁺, NO⁻, CN, dan CN⁻. ||| 2,5; 3; 2; 2,5; 3
+Dengan (11.31), hitung energi OM untuk $\alpha_A = -15$, $\alpha_B = -10$, $\beta = -3$ eV. ||| $-16{,}41$ dan $-8{,}59$ eV
+
+**Menengah**
+
+Ion HeH⁺ (dua elektron) dapat dimodelkan dengan $\alpha_\text{He} = -24{,}6$ eV, $\alpha_\text{H} = -13{,}6$ eV, $\beta = -4{,}0$ eV. Hitung komposisi orbital ikatan dan muatan pada He. ||| 90% He; muatan He $+0{,}19$, H $+0{,}81$
+Bandingkan energi orbital ikatan LiH ($\alpha_\text{H} = -13{,}6$, $\alpha_\text{Li} = -5{,}39$, $\beta = -2{,}5$ eV) dari akar eksak dan dari perkiraan $\alpha_\text{H} - \beta^2/\Delta\alpha$. ||| $-14{,}30$ dan $-14{,}36$ eV
+Mengapa donasi balik ke $2\pi^*$ menurunkan frekuensi ulur C≡O, sedangkan donasi σ dari $5\sigma$ justru sedikit menaikkannya? ||| $2\pi^*$ antiikatan; $5\sigma$ sedikit antiikatan
+
+**Tantangan ★**
+
+@lemah [P] ★ Untuk $|\alpha_B - \alpha_A| = \Delta \gg |\beta|$, tunjukkan bahwa orbital ikatan $\approx \phi_A + (\beta/\Delta)\phi_B$ dan energi $\approx \alpha_A - \beta^2/\Delta$. ||| uraian deret akar (11.31)
+
+## Subbab 11.14: Elektronegativitas, kerapatan elektron, momen dipol
+
+**Dasar**
+
+Hitung karakter ionik HBr ($\mu = 0{,}827$ D, $R_e = 141{,}4$ pm). ||| 0,122
+Hitung $|\chi_\text{H} - \chi_\text{Br}|$ Pauling dari $D$(Br–Br) = 193,9 dan $D$(H–Br) = 366,3 kJ/mol ($D$(H–H) = 436). ||| 0,73
+Hitung elektronegativitas Mulliken H ($I = 13{,}598$, $A = 0{,}754$ eV). ||| 7,18 eV
+
+**Menengah**
+
+Hitung momen dipol KCl dari model muatan titik $\pm e$ ($R_e = 266{,}7$ pm) dan karakter ioniknya (terukur 10,27 D). ||| 12,81 D; 0,80
+Hitung karakter ionik HF menurut rumus Pauling $1 - \exp[-\tfrac14(\Delta\chi)^2]$ dengan $\Delta\chi = 1{,}78$ dan bandingkan dengan $\mu/eR_e$. ||| 0,55; 0,415
+Mengapa momen dipol tidak dapat dihitung hanya dari muatan atom Mulliken? ||| pasangan bebas dan polarisasi atom menyumbang dipol
+Mengapa muatan Mulliken LiH (RHF/cc-pVTZ, $\pm0{,}26e$) jauh dari $\mu/eR_e = 0{,}77$, padahal momen dipol RHF-nya cocok dengan pengukuran? ||| pembagian kerapatan bergantung pada basis; dipol adalah besaran terukur
+
+**Tantangan ★**
+
+@asal ★ Tunjukkan dari (11.32) bahwa momen dipol molekul netral tidak bergantung pada titik asal, sedangkan momen dipol ion bergantung. ||| geser asal sejauh $\mathbf d$: $\boldsymbol\mu$ berubah $Q\mathbf d$
+
+## Subbab 11.15: Teorema virial
+
+**Dasar**
+
+Hitung $\langle T\rangle$ dan $\langle V\rangle$ atom He ($E = -2{,}9037$ hartree). ||| 2,9037; $-5{,}8074$ hartree
+Hitung $\langle T\rangle$ elektron H₂ di $R_e$ ($E = -1{,}1745$ hartree). ||| 1,1745 hartree
+Pada $R = 4$ bohr, H₂⁺ eksak: $T = 0{,}43811$, $V = -0{,}98420$ hartree. Hitung $dE/dR$. ||| 0,0270 hartree/bohr (tarik)
+
+**Menengah**
+
+Untuk LCAO ($\zeta = 1$) pada $R = 2$ bohr, $T = 0{,}3863$ dan $E = -0{,}5538$ hartree. Hitung $V$ dan $-V/T$. ||| $-0{,}9400$; 2,43
+Untuk atom H dengan fungsi uji $e^{-\zeta r}$, $E(\zeta) = \zeta^2/2 - \zeta$. Tunjukkan bahwa minimumnya memenuhi teorema virial. ||| $\zeta = 1$; $T = \tfrac12$, $V = -1$
+Untuk He dengan fungsi uji $e^{-\zeta(r_1 + r_2)}$, $E = \zeta^2 - 2Z\zeta + \tfrac58\zeta$. Hitung $\zeta$ optimal, $T$, dan $V$. ||| $\tfrac{27}{16}$; 2,848; $-5{,}695$ hartree
+
+**Tantangan ★**
+
+@rn [P] ★ Tunjukkan dengan argumen penskalaan bahwa untuk potensial $V \propto r^n$, $2\langle T\rangle = n\langle V\rangle$. Periksa untuk osilator harmonik. ||| $E(\eta) = \eta^2T + \eta^{-n}V$; osilator: $T = V$
+
+## Subbab 11.16: Teorema Hellmann–Feynman
+
+**Dasar**
+
+Nyatakan gaya 0,1 hartree/bohr dalam nN. ||| 8,24 nN
+Apakah titik pada sumbu di belakang inti $A$ (di sisi jauh dari $B$) termasuk daerah mengikat? ||| tidak (antiikat)
+Dengan $\lambda = k$ untuk osilator $\hat H = \hat p^2/2m + \tfrac12kx^2$, tunjukkan bahwa $\langle x^2\rangle = \hbar/(2m\omega)$ di keadaan dasar. ||| $dE/dk = \tfrac12\langle x^2\rangle$; $E = \tfrac12\hbar\sqrt{k/m}$
+
+**Menengah**
+
+Tunjukkan dengan (11.41) bahwa setiap titik di bidang bagi tegak lurus antarinti termasuk daerah mengikat. ||| $\cos\theta_A = \cos\theta_B = R/2r > 0$
+Energi sebuah molekul dalam medan listrik $F$ (satuan atom): $E(+0{,}001) = -100{,}0707025$, $E(-0{,}001) = -100{,}0693025$, $E(0) = -100{,}0700000$. Hitung $\mu = -dE/dF$ dan $\alpha = -d^2E/dF^2$. ||| $\mu = 0{,}70$ a.u. $= 1{,}78$ D; $\alpha = 5{,}0$ a.u.
+Untuk He dengan $E = -(Z - \tfrac5{16})^2$, pakai $\lambda = Z$ untuk menghitung $\langle 1/r\rangle$ per elektron. ||| $Z - \tfrac{5}{16} = 1{,}6875$ bohr⁻¹
+Dengan $\mu = 0{,}760$ dan $\alpha_{zz} = 5{,}59$ satuan atom untuk HF, hitung perubahan energi molekul yang dipolnya sejajar medan $10^8$ V/m (1 satuan atom medan $= 5{,}142 \times 10^{11}$ V/m). ||| $-1{,}48 \times 10^{-4}$ hartree $= -4{,}0$ meV
+
+**Tantangan ★**
+
+@pulay [P] ★ Mengapa perhitungan dengan basis gelombang datar (yang tidak bergerak bersama inti) tidak memerlukan gaya Pulay, sedangkan basis orbital Gauss yang berpusat di atom memerlukannya? ||| basis tetap: $\partial\psi/\partial R$ hanya dari koefisien, yang optimal

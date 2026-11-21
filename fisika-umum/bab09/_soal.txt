@@ -1,0 +1,147 @@
+## Subbab 9.1: Sifat gelombang
+
+> Gunakan laju bunyi di udara 343 m/s dan laju cahaya $3{,}00 \times 10^8$ m/s, kecuali disebutkan lain.
+
+Berapa panjang gelombang nada C tengah, 262 Hz, di udara? ||| 1,31 m
+Berapa panjang gelombang bunyi 4000 Hz di udara? ||| 8,6 cm
+Lumba-lumba memancarkan bunyi 50 kHz di air laut ($v = 1480$ m/s). Berapa panjang gelombangnya? ||| 3,0 cm
+Berapa panjang gelombang siaran radio FM berfrekuensi 98 MHz? ||| 3,06 m
+Sebuah pelampung naik-turun 15 kali dalam 60 s ketika ombak lewat, dan jarak antarpuncak ombak 6,0 m. Berapa laju ombak itu? ||| 1,5 m/s
+Berapa frekuensi cahaya berpanjang gelombang 600 nm? ||| $5{,}0 \times 10^{14}$ Hz
+Gelombang 500 Hz merambat dari udara ke air ($v = 1480$ m/s). Berapa panjang gelombangnya di udara dan di air? ||| 0,69 m; 2,96 m
+
+Gelombang P gempa berlaju 6,0 km/s dan gelombang S 3,5 km/s. Sebuah stasiun mencatat selisih waktu tiba 40 s. Seberapa jauh pusat gempanya? ||| 336 km
+
+## Subbab 9.2: Fungsi gelombang
+
+@fg Gelombang pada tali diperikan oleh $y = 0{,}030\sin(8{,}0x - 5{,}0t)$ (SI). Tentukan panjang gelombang, frekuensi, dan lajunya. ||| 0,79 m; 0,80 Hz; 0,63 m/s
+Untuk gelombang pada Soal {{fg}}, berapa kelajuan terbesar sebuah titik pada tali? ||| 0,15 m/s
+Tuliskan fungsi gelombang sinus yang merambat ke arah $+x$ dengan amplitudo 5,0 cm, panjang gelombang 2,0 m, dan frekuensi 6,0 Hz. ||| $y = 0{,}050\sin(3{,}14x - 37{,}7t)$ m
+Berapa laju gelombang pada soal sebelumnya? ||| 12 m/s
+Berapa beda fase getaran dua titik yang berjarak 0,25 m pada gelombang berpanjang gelombang 1,0 m? ||| 90° ($\pi/2$ rad)
+Berapa jarak terdekat dua titik yang bergetar berlawanan fase pada gelombang berpanjang gelombang 1,6 m? ||| 0,80 m
+Ke arah mana gelombang $y = 0{,}010\sin(4{,}0x + 20t)$ (SI) merambat, dan berapa lajunya? ||| ke arah $-x$; 5,0 m/s
+
+## Subbab 9.3: Laju gelombang
+
+Tali bermassa 2,0 g/m ditegangkan 50 N. Berapa laju gelombang padanya? ||| 158 m/s
+Kawat bermassa 8,0 g/m ditegangkan 120 N. Berapa laju gelombang padanya? ||| 122 m/s
+Berapa tegangan yang diperlukan agar laju gelombang pada kawat 8,0 g/m itu menjadi 90 m/s? ||| 65 N
+Tegangan sebuah senar dijadikan empat kali. Menjadi berapa kali laju gelombangnya? ||| 2 kali
+Perkirakan laju bunyi di udara pada 35 °C. ||| 352 m/s
+Hitung laju bunyi dalam CO₂ pada 20 °C ($\gamma = 1{,}30$; $M = 0{,}0440$ kg/mol). ||| 268 m/s
+Hitung laju bunyi dalam batang tembaga ($Y = 1{,}6 \times 10^{11}$ Pa; $\rho = 8900\ \text{kg/m}^3$). ||| $4{,}2 \times 10^3$ m/s
+Sonar kapal menerima gema dari dasar laut 0,40 s setelah denyut dikirim. Laju bunyi di air laut 1500 m/s. Berapa kedalaman laut di situ? ||| 300 m
+Guntur terdengar 3,5 s setelah kilat terlihat. Seberapa jauh petirnya? ||| 1,2 km
+Hitung laju bunyi dalam hidrogen pada 20 °C ($\gamma = 1{,}41$; $M = 0{,}002016$ kg/mol). ||| $1{,}3 \times 10^3$ m/s
+@gamma **[P]** Laju bunyi dalam suatu gas murni pada 293 K terukur 343 m/s, dan massa molarnya 4,00 g/mol tidak cocok; ternyata gas itu campuran. Jika $\gamma = 1{,}40$, berapa massa molar rata-ratanya? ||| 29 g/mol
+Rel baja dipukul di satu titik. Seorang pengamat 2,5 km dari sana mendengar dua bunyi: satu lewat rel ($v = 5100$ m/s) dan satu lewat udara. Berapa selang waktu antara keduanya? ||| 6,8 s
+
+Tali sepanjang 1,5 m bermassa 60 g tergantung dengan beban 10 kg di ujungnya. Berapa laju denyut pada tali dan waktu rambatnya dari bawah ke atas? (Abaikan berat tali.) ||| 49,5 m/s; 0,030 s
+Batu dijatuhkan ke sumur, dan bunyi ceburannya terdengar 2,0 s kemudian. Berapa kedalaman sumur itu? ||| 18,5 m
+
+## Subbab 9.4 dan 9.5: Intensitas dan desibel
+
+Tali bermassa 2,0 g/m dengan laju gelombang 158 m/s digetarkan 40 Hz dengan amplitudo 1,5 cm. Berapa daya rata-rata gelombangnya? ||| 2,2 W
+@sp Sebuah sumber memancarkan bunyi 40 W sama rata ke segala arah. Berapa intensitasnya pada jarak 5,0 m? ||| 0,13 W/m²
+Berapa intensitas bunyi dari sumber pada Soal {{sp}} pada jarak 15 m? ||| 0,014 W/m²
+Intensitas cahaya Matahari di Bumi 1400 W/m², dan jarak Bumi–Matahari $1{,}5 \times 10^{11}$ m. Berapa daya total yang dipancarkan Matahari? ||| $4{,}0 \times 10^{26}$ W
+Berapa taraf intensitas bunyi berintensitas $3{,}0 \times 10^{-6}\ \text{W/m}^2$? ||| 65 dB
+Berapa intensitas bunyi bertaraf 95 dB? ||| $3{,}2 \times 10^{-3}$ W/m²
+Intensitas sebuah bunyi dijadikan lima kali. Berapa desibel tarafnya bertambah? ||| 7,0 dB
+Seorang pendengar menjauh dari sumber bunyi sampai jaraknya empat kali semula. Berapa desibel tarafnya turun? ||| 12 dB
+Berapa taraf intensitas pada jarak 5,0 m dari sumber di Soal {{sp}}? ||| 111 dB
+Pada jarak berapa dari sumber di Soal {{sp}} taraf intensitasnya 85 dB? ||| 100 m
+Berapa amplitudo tekanan bunyi bertaraf 90 dB di udara ($\rho v = 412$ dalam SI)? ||| 0,91 Pa
+Satu mesin menghasilkan 80 dB di suatu titik. Berapa tarafnya jika (a) dua mesin, (b) tiga mesin yang sama bekerja bersama? ||| (a) 83 dB; (b) 85 dB
+Bunyi bertaraf 65 dB masuk melalui jendela terbuka seluas 20 cm². Berapa daya bunyi yang masuk? ||| $6{,}3 \times 10^{-9}$ W
+@biola **[P]** Berapa banyak biola yang harus dimainkan bersama agar tarafnya 15 dB di atas satu biola? ||| 32
+
+Dengan aturan "85 dB selama 8 jam, dipotong setengah tiap 3 dB", berapa lama paparan yang diizinkan pada 95 dB? ||| 48 menit
+Sebuah dinding meredam 25 dB. Jika taraf bunyi di satu sisi 90 dB, berapa taraf di sisi lain? ||| 65 dB
+
+## Subbab 9.6: Efek Doppler
+
+Kereta api membunyikan peluit 600 Hz sambil melaju 25 m/s. Berapa frekuensi yang didengar orang di peron ketika kereta (a) mendekat; (b) menjauh? ||| (a) 647 Hz; (b) 559 Hz
+Sebuah sirene diam berbunyi 500 Hz. Berapa frekuensi yang didengar pengendara yang (a) mendekatinya dengan 20 m/s; (b) menjauhinya dengan 20 m/s? ||| (a) 529 Hz; (b) 471 Hz
+Radar memancarkan gelombang mikro 10,5 GHz ke mobil yang mendekat dengan 30 m/s. Berapa pergeseran frekuensi gelombang pantulnya? ||| 2,1 kHz
+Garis hidrogen yang di laboratorium berada di 486,1 nm teramati 4,0 nm lebih panjang dalam cahaya sebuah galaksi. Seberapa cepat galaksi itu menjauh? ||| $2{,}5 \times 10^6$ m/s
+Sebuah pesawat terbang dengan bilangan Mach 1,5. Berapa setengah sudut kerucut gelombang kejutnya? ||| 42°
+Sebuah mobil membunyikan klakson 466 Hz sambil menjauh, dan pengamat diam mendengar 440 Hz. Berapa kelajuan mobil itu? ||| 20 m/s
+Alat USG 3,0 MHz memantul dari darah yang mengalir 0,30 m/s searah berkas ($v = 1540$ m/s). Berapa pergeseran frekuensinya? ||| 1,2 kHz
+Ambulans dengan sirene 1000 Hz melaju 15 m/s menuju mobil yang melaju 15 m/s ke arahnya. Berapa frekuensi yang didengar pengemudi mobil? ||| 1091 Hz
+Berapa kelajuan pesawat yang terbang pada Mach 3 di udara dengan laju bunyi 343 m/s? ||| 1030 m/s
+
+Kelelawar terbang 6,0 m/s menuju dinding sambil memancarkan 40,0 kHz. Berapa frekuensi gema yang didengarnya? ||| 41,4 kHz
+
+## Subbab 9.7: Superposisi dan interferensi
+
+Dua pengeras suara sefase berjarak 3,0 m dan 3,6 m dari pendengar. Berapa frekuensi terendah yang memberi interferensi (a) konstruktif; (b) destruktif di tempat pendengar? ||| (a) 572 Hz; (b) 286 Hz
+Dua sumber sefase memancarkan bunyi berpanjang gelombang 1,5 m. Berapa beda lintasan terkecil (selain nol) untuk interferensi konstruktif, dan terkecil untuk destruktif? ||| 1,5 m; 0,75 m
+Dua garpu tala, 256 Hz dan 260 Hz, dibunyikan bersama. Berapa frekuensi layangannya? ||| 4 Hz
+Sebuah senar dan garpu tala 330 Hz menghasilkan 2 layangan tiap sekon. Ketika senar dikendurkan sedikit, layangannya hilang. Berapa frekuensi senar semula? ||| 332 Hz
+Dua gelombang beramplitudo sama, masing-masing berintensitas $I$, bertemu dengan beda fase 60°. Berapa amplitudo dan intensitas gabungannya? ||| $1{,}73A$; $3I$
+Dua gelombang sefase berintensitas $I$ dan $4I$ berinterferensi konstruktif. Berapa intensitas gabungannya? (Jumlahkan amplitudonya.) ||| $9I$
+
+Pipa cabang buntu dipasang pada saluran udara untuk meredam dengung 100 Hz. Berapa panjangnya? ||| 0,86 m
+
+## Subbab 9.8: Gelombang berdiri pada tali
+
+@tali Tali sepanjang 0,80 m bermassa 4,0 g/m ditegangkan 60 N dan terikat di kedua ujungnya. Berapa frekuensi dasar dan harmonik keduanya? ||| 77 Hz; 153 Hz
+Senar sepanjang 1,5 m bermassa 1,5 g/m harus memiliki frekuensi dasar 120 Hz. Berapa tegangannya? ||| 194 N
+Senar yang bergetar 196 Hz dikencangkan sehingga tegangannya naik 10%. Berapa frekuensinya sekarang? ||| 206 Hz
+Senar sepanjang 0,65 m bergetar 196 Hz. Di mana harus ditekan agar bergetar 247 Hz? ||| panjang getar 0,516 m (13,4 cm dari ujung)
+Tali sepanjang 0,90 m bergetar dengan tiga perut pada 60 Hz. Berapa panjang gelombang dan laju gelombangnya? ||| 0,60 m; 36 m/s
+Senar biola sepanjang 0,60 m bermassa 0,60 g/m disetel pada 440 Hz. Berapa laju gelombang dan tegangannya? ||| 528 m/s; 167 N
+@melde **[P]** Tali bermassa 3,0 g/m sepanjang 1,0 m digetarkan 50 Hz dan ditegangkan oleh beban tergantung. Berapa massa beban agar terbentuk empat perut? ||| 0,19 kg
+Tegangan sebuah senar dilipatduakan. Dengan faktor berapa frekuensi dasarnya berubah? ||| 1,41 kali
+
+Senar bas sepanjang 0,90 m ditegangkan 300 N dan harus berbunyi 82,4 Hz. Berapa massa per satuan panjangnya? ||| 13,6 g/m
+
+## Subbab 9.9: Gelombang berdiri dalam kolom udara
+
+Berapa frekuensi dasar pipa terbuka sepanjang 0,33 m? ||| 520 Hz
+Sebuah pipa panjangnya 0,50 m. Berapa frekuensi dasarnya jika (a) terbuka di kedua ujung; (b) tertutup di satu ujung? ||| (a) 343 Hz; (b) 172 Hz
+Berapa frekuensi harmonik ketiga pipa tertutup sepanjang 0,75 m? ||| 343 Hz
+Berapa panjang pipa (a) tertutup, (b) terbuka yang frekuensi dasarnya 262 Hz? ||| (a) 0,327 m; (b) 0,655 m
+Garpu tala 500 Hz menghasilkan resonansi pada tabung berisi air ketika panjang kolom udaranya 17,0 cm dan 51,0 cm. Berapa laju bunyinya? ||| 340 m/s
+Liang telinga seorang anak panjangnya 3,0 cm. Berapa frekuensi resonansi dasarnya? ||| 2,9 kHz
+Sebuah seruling disetel pada 20 °C. Berapa persen frekuensinya turun pada 0 °C? ||| 3,5%
+Dengan faktor berapa frekuensi resonansi sebuah rongga berubah jika udara di dalamnya diganti hidrogen ($v = 1320$ m/s)? ||| 3,8 kali
+
+Berapa panjang pipa organ terbuka yang nada dasarnya 20 Hz? ||| 8,6 m
+Dua dinding sejajar berjarak 3,0 m. Berapa frekuensi resonansi terendah udara di antaranya? ||| 57 Hz
+
+## Subbab 9.10: Dari senar ke atom
+
+> Gunakan $h = 6{,}626 \times 10^{-34}$ J·s, $m_e = 9{,}109 \times 10^{-31}$ kg, dan 1 eV = $1{,}602 \times 10^{-19}$ J.
+
+Berapa panjang gelombang de Broglie elektron yang bergerak $1{,}0 \times 10^6$ m/s? ||| 0,73 nm
+Berapa panjang gelombang de Broglie bola bisbol 0,145 kg yang melaju 40 m/s? ||| $1{,}1 \times 10^{-34}$ m
+Berapa energi tingkat dasar elektron dalam kotak satu dimensi selebar 1,0 nm, dalam eV? ||| 0,38 eV
+Untuk elektron pada soal sebelumnya, berapa panjang gelombang cahaya yang diserap pada loncatan $n = 1 \to 2$? ||| 1100 nm
+@heks **[P]** Heksatriena memiliki 6 elektron $\pi$ dalam kotak kira-kira 0,84 nm. Dengan model partikel dalam kotak, pada panjang gelombang berapa serapan berenergi terendahnya? ||| 332 nm
+Alat USG 3,0 MHz dipakai di jaringan ($v = 1540$ m/s). Berapa panjang gelombangnya? Gema dari suatu batas jaringan kembali setelah 80 μs. Berapa kedalamannya? ||| 0,51 mm; 6,2 cm
+Berapa energi tingkat dasar proton ($m = 1{,}673 \times 10^{-27}$ kg) yang terkurung dalam kotak seukuran inti, $1{,}0 \times 10^{-14}$ m, dalam MeV? ||| 2,0 MeV
+Berapa panjang gelombang gelombang mikro 2,45 GHz? ||| 12,2 cm
+Berapa panjang gelombang de Broglie elektron berenergi kinetik 54 eV? ||| 0,167 nm
+Sinar X berpanjang gelombang 0,071 nm memberi puncak pertama pada sudut 10,2° terhadap bidang atom sebuah kristal. Berapa jarak antarbidangnya? ||| 0,200 nm
+
+## Subbab 9.11: Pemantulan dan pembiasan
+Berapa laju cahaya dalam kaca berindeks 1,52, dan berapa panjang gelombang cahaya hijau 500 nm di dalamnya? ||| $1{,}97 \times 10^8$ m/s; 329 nm
+Cahaya dari udara jatuh pada kaca (n = 1,50) dengan sudut datang 45°. Berapa sudut biasnya? ||| 28,1°
+Cahaya dari dalam air menuju udara dengan sudut datang 40°. Berapa sudut biasnya? Apa yang terjadi jika sudut datangnya 50°? ||| 59,0°; dipantulkan seluruhnya
+Berapa sudut kritis untuk cahaya yang bergerak dari kaca (1,50) ke air (1,333)? ||| 62,7°
+Berapa sudut kritis benzena (n = 1,501) terhadap udara? ||| 41,8°
+Sudut kritis suatu bahan terhadap udara 42,0°. Berapa indeks biasnya? ||| 1,49
+## Subbab 9.12: Interferensi dan difraksi cahaya
+Pada percobaan celah ganda dengan $d = 0{,}25$ mm dan $L = 1{,}2$ m, jarak antarpita terang 3,0 mm. Berapa panjang gelombang cahayanya? ||| 625 nm
+Kisi 300 garis/mm disinari cahaya 500 nm. Pada sudut berapa orde pertama muncul? ||| 8,6°
+Kisi 1200 garis/mm memberi orde pertama pada 30,0°. Berapa panjang gelombang cahayanya? ||| 417 nm
+@pisah Spektrometer harus memisahkan dua garis berjarak 0,050 nm di sekitar 500 nm pada orde pertama. Berapa daya pisah yang diperlukan, dan berapa lebar kisi 1200 garis/mm yang harus disinari? ||| 10 000; 8,3 mm
+Cahaya 600 nm melewati celah tunggal selebar 0,050 mm. Berapa lebar pita terang tengah pada layar sejauh 1,0 m? ||| 24 mm
+## Subbab 9.13: Polarisasi
+Cahaya tak terpolarisasi 80 W/m² melewati tiga polaroid dengan sumbu 0°, 30°, dan 90°. Berapa intensitas yang keluar? ||| 7,5 W/m²
+Berapa sudut Brewster untuk permukaan benzena? ||| 56,3°
+Larutan 0,050 g/mL dalam tabung 2,0 dm memutar bidang polarisasi 5,0°. Berapa rotasi jenisnya? ||| 50° dm⁻¹ (g/mL)⁻¹
+@inversi Larutan sukrosa 0,10 g/mL dalam tabung 2,0 dm terhidrolisis sempurna menjadi glukosa (+52,7°) dan fruktosa (−92°). Berapa sudut putar akhirnya? (Massa molar sukrosa 342,3; glukosa dan fruktosa 180,2 g/mol.) ||| −4,1°

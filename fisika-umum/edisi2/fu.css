@@ -1,0 +1,164 @@
+/* Palet Fisika Umum: biru tua, biru, biru muda, jingga (tata letak sama dengan Kimia Kuantum) */
+:root { --tua:#0e2748; --gelap:#0e2748; --biru:#1b75bc; --langit:#7fc0f0; --muda:#edf5fc; --garis:#cfe0f0;
+        --jingga:#c0601f; --jingga-t:#f0a060; --hangat:#b5541c; }
+section.pembuka { background: radial-gradient(ellipse at 50% 70%, #3a2a85 0%, #221860 40%, #150f3d 78%, #0e0a2c 100%); }
+section.pembuka .nb { color: var(--langit); }
+/* Judul seragam: gaya ringan seperti subbab 3.4 (huruf besar di awal, tebal sedang) */
+h2.sub { font-size: 14.5pt; font-weight: 700; color: var(--tua); letter-spacing: -.1px; text-transform: none;
+         border-bottom: .3mm solid var(--garis); padding: 0 0 1.6mm 0; margin: 9mm 0 3.5mm; }
+h2.sub .nsub { color: inherit; font-weight: 700; min-width: 0; margin-right: 2.2mm; }
+h3 { font-size: 11.5pt; font-weight: 700; color: var(--tua); }
+h3::before { width: 1.8mm; height: 1.8mm; margin-right: 2mm; }
+h2.kecil { font-size: 10.5pt; font-weight: 700; text-transform: none; letter-spacing: 0; }
+div.contoh > p:first-child > strong:first-child { font-weight: 700; font-size: 10.3pt; }
+div.contoh > p:first-child > strong:first-child .cno { color: var(--biru); font-weight: 700; letter-spacing: 0; }
+strong.lk { text-transform: none; letter-spacing: 0; font-size: 9.6pt; font-weight: 700; }
+div.tujuan > p:first-child > strong:first-child { text-transform: none; letter-spacing: 0; font-size: 10pt; font-weight: 700; }
+h1.pita1 { text-transform: none; letter-spacing: 0; font-weight: 700; font-size: 14pt; }
+div.kuis::before { content: "?"; font: italic 700 13pt/7mm Caladea, serif; color: #fff; }
+div.kuis > p:first-child > strong:first-child { font-weight: 700; }
+/* revisi: isi ringkas muat satu halaman, sub-subbab tanpa kotak, tanda tanya kuis huruf Inter */
+.ringkas3 .bab { margin-top: 1.5mm; font-size: 11.2pt; }
+.ringkas3 .bagianbuku { margin-top: 4.5mm; }
+.toc.halaman h1 { margin-bottom: 3mm; }
+h3::before { content: none; }
+h3 { color: var(--biru); font-size: 11.5pt; font-weight: 700; }
+div.kuis::before { font: 700 11.5pt/7mm Inter, sans-serif; color: #fff; }
+/* subbab persis gaya dasar (seperti 3.4 semula) */
+h2.sub { font-size: 12.5pt; font-weight: 700; margin: 8mm 0 2.5mm; padding: 0 0 1mm 0; border-bottom: 1px solid var(--garis); line-height: 1.25; }
+h2.sub .nsub { margin-right: 1.3mm; }
+h3 { font-size: 10.8pt; }
+/* judul bagian akhir bab lebih tipis */
+h1.pita1 { font-size: 12.5pt; padding: 2mm 5mm; border-radius: 1.6mm; margin-bottom: 5mm; }
+/* bagian Soal */
+.soal2 p { text-indent: 0 !important; margin: 0 0 1.4mm 0; }
+.soal2 p.si { padding-left: 7.5mm; text-indent: -7.5mm !important; }
+.soal2 p.si > strong:first-child { display: inline-block; min-width: 7.5mm; text-indent: 0; color: var(--tua); font-family: Inter, sans-serif; font-size: 9.2pt; }
+.soal2 p.tk { font-family: Inter, sans-serif; font-weight: 700; font-size: 9.2pt; color: var(--biru); margin: 3.2mm 0 1.6mm 0; }
+.soal2 h2.kecil { margin-top: 7mm; }
+/* judul bagian akhir bab: kebalikan subbab 3.4 — kotak biru tipis bersudut tegas, teks putih di tengah */
+h1.pita1 { background: var(--biru); color: #fff; border: none; border-radius: 0; text-align: center;
+           font-size: 12.5pt; font-weight: 700; letter-spacing: .3px; padding: 1.6mm 5mm; margin: 0 0 5mm 0; line-height: 1.25; }
+h1.pita1 a.tl { color: #fff; }
+/* soal: rapat seperti daftar bernomor di materi */
+.soal2 p { margin: 0 0 .8mm 0; }
+.soal2 p.si { padding-left: 6.5mm; text-indent: -6.5mm !important; }
+.soal2 p.si > strong:first-child { min-width: 6.5mm; font-family: Caladea, serif; font-size: 10pt; color: var(--jingga); }
+.soal2 p.tk { margin: 2.6mm 0 1mm 0; font-size: 9.6pt; }
+.soal2 h2.kecil + p { margin-bottom: 1.5mm; }
+/* judul bagian akhir bab = gaya kepala tabel */
+h1.pita1 { background: var(--tua); color: #fff; text-align: left; border-radius: 0; font-size: 8.7pt; font-weight: 700;
+           letter-spacing: .2px; padding: 2mm 3mm; margin: 0 0 4mm 0; line-height: 1.35; }
+h1.pita1 { text-align: center; font-size: 12.5pt; padding: 1.8mm 4mm; }
+/* soal: gaya lama (serif tebal hitam, subbab kapital) tetapi rapat dan rapi */
+.soal2 h2.kecil { text-transform: uppercase; letter-spacing: 1px; font-size: 10.5pt; font-weight: 700; margin: 6mm 0 2mm; }
+.soal2 p { margin: 0 0 .5mm 0; line-height: 1.36; }
+.soal2 p.si { padding-left: 6mm; text-indent: -6mm !important; }
+.soal2 p.si > strong:first-child { min-width: 6mm; font-family: Caladea, serif; font-size: 10pt; color: var(--ink); }
+.soal2 p.tk { font-family: Caladea, serif; font-size: 10pt; font-weight: 700; color: var(--ink); margin: 1.6mm 0 .5mm 0; }
+.soal2 h2.kecil + p { margin-bottom: 1mm; }
+/* judul lampiran: pita tipis biru tua seperti judul Soal/Jawaban, judul ukuran sedang */
+h1.bab { padding-top: 0; margin: 0 0 6mm 0; text-align: center; }
+h1.bab .pita { display: block; background: var(--tua); padding: 1.8mm 4mm; margin: 0 0 4mm 0; text-align: center; }
+h1.bab .kata { display: inline; background: none; padding: 0; border-radius: 0; color: #fff; font-size: 12.5pt; font-weight: 700; letter-spacing: .3px; text-align: center; }
+h1.bab .no { display: inline; background: none; padding: 0; margin-left: 1.6mm; min-width: 0; border-radius: 0; color: var(--langit); font-size: 12.5pt; font-weight: 700; line-height: inherit; }
+h1.bab .judul { padding-left: 0; font-size: 17pt; font-weight: 700; text-transform: none; letter-spacing: 0; color: var(--tua); }
+/* judul lampiran: pembuka bab ringkas (bukan pita) */
+h1.bab { text-align: left; margin: 2mm 0 8mm 0; padding: 0; }
+h1.bab .pita { display: flex; align-items: flex-end; gap: 4mm; background: none; padding: 0; margin: 0 0 2.5mm 0; }
+h1.bab .kata { display: block; order: 2; background: none; color: var(--biru); font-size: 9pt; font-weight: 800; letter-spacing: 4px; text-transform: uppercase; padding: 0 0 3mm 0; }
+h1.bab .no { display: block; order: 1; background: none; color: var(--biru); font-size: 46pt; font-weight: 900; line-height: .9; margin: 0; padding: 0; }
+h1.bab .judul { display: block; font-size: 21pt; font-weight: 800; color: var(--tua); text-transform: none; letter-spacing: -.2px; line-height: 1.15;
+                border-bottom: .8mm solid var(--tua); padding: 0 0 3mm 0; }
+h1.bab .pita { justify-content: flex-start; }
+h1.bab .kata { flex: 0 0 auto; text-align: left; }
+/* ===== halaman pembuka bab gaya terang ===== */
+section.pembuka { background: #fff; color: var(--tua); }
+section.pembuka::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 7mm; background: var(--tua); }
+section.pembuka img.orb { top: 20mm; bottom: auto; left: 10mm; width: 195mm; height: 118mm; }
+section.pembuka .bag { top: 11mm; left: 20mm; color: var(--biru); }
+section.pembuka .cap { top: 139mm; bottom: auto; left: 20mm; right: 20mm; text-align: right; color: #5d6b7d; font-weight: 400; font-size: 8.5pt; }
+section.pembuka .kb { top: 158mm; left: 20mm; color: var(--jingga); }
+section.pembuka .nb { top: 163mm; left: 17mm; font-size: 80pt; letter-spacing: -3px; color: var(--biru); }
+section.pembuka h1 { top: 168mm; left: 62mm; right: 18mm; width: auto; max-width: none; font-size: 24pt; text-transform: none; color: var(--tua);
+                     border-bottom: none; line-height: 1.12; }
+section.pembuka h1 a.tl { color: var(--tua); }
+section.pembuka .outline { position: absolute; top: 200mm; left: 20mm; right: 18mm; }
+section.pembuka .oh { font-family: Inter, sans-serif; font-weight: 700; font-size: 10.5pt; color: #fff; background: var(--tua); padding: 1.4mm 4mm; margin-bottom: 3mm; }
+section.pembuka .outline ul { list-style: none; margin: 0; padding: 0 0 0 1mm; columns: 2; column-gap: 9mm; font-family: Inter, sans-serif; font-size: 9pt; line-height: 1.35; color: #1f2a38; }
+section.pembuka .outline li { break-inside: avoid; margin: 0 0 1.4mm 0; padding-left: 9mm; text-indent: -9mm; }
+section.pembuka .outline li b { display: inline-block; width: 9mm; text-indent: 0; color: var(--biru); }
+/* revisi pembuka: panel gambar lebih kecil, nomor nila tua, judul kapital */
+section.pembuka { background: #fff; }
+section.pembuka::after { content: ""; position: absolute; left: 20mm; right: 18mm; top: 22mm; height: 98mm; background: linear-gradient(180deg, #e8f1fa, #f5f9fd); z-index: 0; }
+section.pembuka img.orb { z-index: 1; top: 26mm; left: 26mm; width: 160mm; height: 90mm; }
+section.pembuka .cap { top: 122mm; right: 18mm; }
+section.pembuka .kb { top: 140mm; }
+section.pembuka .nb { top: 145mm; font-size: 70pt; color: var(--tua); }
+section.pembuka h1 { top: 153mm; left: 55mm; font-size: 17pt; font-weight: 800; text-transform: uppercase; letter-spacing: 1.2px; line-height: 1.25; }
+section.pembuka .outline { top: 182mm; }
+/* Kepala lampiran = gaya kepala bab di halaman pembuka: "LAMPIRAN" kecil di atas, huruf besar, judul kapital di kanannya */
+h1.bab { display: grid; grid-template-columns: auto 1fr; column-gap: 7mm; align-items: center; margin: 4mm 0 9mm 0; padding: 0 0 5mm 0;
+         border-bottom: .4mm solid var(--garis); text-align: left; }
+h1.bab .pita { display: contents; }
+h1.bab .kata { grid-column: 1 / 3; grid-row: 1; order: 0; color: var(--jingga); font-size: 10pt; font-weight: 800; letter-spacing: 7px;
+               text-transform: uppercase; padding: 0 0 1mm 0; margin: 0; background: none; }
+h1.bab .no { grid-column: 1; grid-row: 2; order: 0; color: var(--tua); font-size: 60pt; font-weight: 900; line-height: .95; letter-spacing: -2px; margin: 0; padding: 0; background: none; }
+h1.bab .judul { grid-column: 2; grid-row: 2; font-size: 17pt; font-weight: 800; text-transform: uppercase; letter-spacing: 1.2px; line-height: 1.25;
+                color: var(--tua); padding: 0; border: none; }
+/* tabel panjang boleh menyambung ke halaman berikut; kepala tabel diulang; baris tidak terpotong */
+table { break-inside: auto; page-break-inside: auto; }
+thead { display: table-header-group; }
+tr { break-inside: avoid; page-break-inside: avoid; }
+h2, h3 { break-after: avoid; page-break-after: avoid; }
+/* ===== Sistem kotak seragam (sama dengan Termodinamika Kimia, warna mengikuti palet buku) =====
+   Semua kotak: bingkai tipis, garis aksen kiri 1,6 mm, sudut kanan membulat, judul Inter tebal sewarna aksen.
+   Tiga kotak pembuka bab (Pertanyaan pembuka, Tujuan belajar, Prasyarat) bergaya sama persis. */
+div.strategi, div.tujuan, div.mat, div.inti, div.dalam, div.terapan, div.awas {
+  background: color-mix(in srgb, var(--muda) 55%, #fff); color: var(--ink); border: .3mm solid var(--garis); border-left: 1.6mm solid var(--tua);
+  border-top-width: .3mm; border-radius: 0 2mm 2mm 0; padding: 3.4mm 5.5mm 3mm 5.5mm; margin: 4.5mm 0; box-shadow: none; text-align: left; }
+div.strategi > p:first-child > strong:first-child, div.tujuan > p:first-child > strong:first-child,
+div.mat > p:first-child > strong:first-child, div.dalam > p:first-child > strong:first-child,
+div.terapan > p:first-child > strong:first-child, div.awas > p:first-child > strong:first-child {
+  font-family: Inter, "Liberation Sans", sans-serif; font-size: 9.8pt; font-weight: 700; letter-spacing: .2px;
+  text-transform: none; color: var(--tua); background: none; padding: 0; border-radius: 0; }
+div.strategi > p:first-child, div.tujuan > p:first-child, div.mat > p:first-child { margin-bottom: 1.6mm; }
+div.strategi ol, div.tujuan ol { margin: 1mm 0 0 0; }
+div.strategi li::marker, div.tujuan li::marker { color: var(--biru); font-weight: 700; }
+div.mat:not(div.tujuan + div.mat) { background: #fdf9f0; border-left-color: var(--jingga); }
+div.mat:not(div.tujuan + div.mat) > p:first-child > strong:first-child { color: var(--jingga); }
+div.inti { background: var(--muda); border-left-color: var(--biru); margin: 4mm 0; padding: 3mm 6mm; text-align: left; }
+div.inti strong { color: var(--tua); }
+div.dalam { background: #fff; border-left-color: var(--hangat); }
+div.dalam > p:first-child > strong:first-child { color: var(--hangat); }
+div.terapan { background: #fdf8ea; border-left-color: var(--jingga-t); }
+div.terapan > p:first-child > strong:first-child { color: var(--jingga); }
+div.awas { background: #fdefeb; border-left-color: #c0392b; }
+div.awas > p:first-child > strong:first-child { color: #a5281b; }
+div.kuis { border: .3mm solid var(--garis); border-left: 1.6mm solid var(--biru); border-radius: 0 2mm 2mm 0; background: var(--muda); }
+/* tabel: garis dan baris selang-seling mengikuti palet buku; keterangan tabel menempel pada tabelnya */
+td { border-bottom: .3px solid var(--garis); }
+tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--muda) 60%, #fff); }
+p:has(+ table) { break-after: avoid; page-break-after: avoid; text-indent: 0 !important; }
+/* Pertanyaan dan Soal akhir bab: dua kolom (turun di kiri, lalu lanjut di kanan) */
+.soal2 { column-count: 2; column-gap: 8mm; column-rule: .3px solid var(--garis); }
+.soal2 > blockquote:first-child { column-span: all; margin-bottom: 3mm; }
+.soal2 h2.kecil { break-after: avoid; break-inside: avoid; font-size: 9.6pt; letter-spacing: .6px; line-height: 1.3; margin: 3.5mm 0 1.5mm; }
+.soal2 h2.kecil:first-child, .soal2 > blockquote + h2.kecil { margin-top: 0; }
+.soal2 p, .soal2 li { break-inside: avoid; }
+.soal2.tanya ol { margin: 0 0 1mm 0; padding-left: 6mm; }
+.soal2.tanya li { margin-bottom: .8mm; line-height: 1.38; }
+.soal2.tanya li::marker { font-family: Caladea, serif; font-weight: 700; color: var(--ink); }
+.soal2 .katex-display, .soal2 math[display="block"] { overflow-x: hidden; }
+.soal2, .soal2 p, .soal2 li { text-align: left; hyphens: auto; }
+.soal2 p.tk { break-after: avoid; page-break-after: avoid; }
+
+/* Nomor Pertanyaan dan Soal rata: nomor rata kanan dalam kotak tetap, teks semua mulai di garis yang sama */
+.soal2 p.si { padding-left: 7.5mm; text-indent: -7.5mm !important; }
+.soal2 p.si > strong:first-child { display: inline-block; box-sizing: border-box; width: 7.5mm; min-width: 0; padding-right: 1.8mm; text-align: right; text-indent: 0; font-family: Caladea, serif; font-size: 10pt; color: var(--ink); }
+.soal2 p.si ~ :not(h2):not(.si):not(blockquote) { margin-left: 7.5mm; }
+.soal2.tanya ol { padding-left: 7.5mm; }
+.soal2.tanya li { padding-left: .2mm; }
+
+/* Pertanyaan dan Soal rata kanan-kiri */
+.soal2, .soal2 p, .soal2 li { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }

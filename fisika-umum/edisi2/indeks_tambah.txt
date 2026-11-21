@@ -1,0 +1,251 @@
+angka penting
+analisis dimensi
+notasi ilmiah
+ketidakpastian
+vektor satuan
+perkalian titik
+perkalian silang
+kecepatan rata-rata
+kecepatan sesaat
+percepatan
+jatuh bebas
+gerak peluru
+gerak melingkar beraturan
+gerak relatif
+hukum pertama Newton
+hukum kedua Newton
+hukum ketiga Newton
+berat
+gesekan
+usaha
+energi kinetik
+teorema usaha–energi
+hukum Hooke
+kekekalan energi
+kekekalan momentum
+tumbukan lenting
+tumbukan tak lenting
+roket
+tekanan
+tekanan hidrostatis
+hukum Pascal
+hukum Archimedes
+barometer
+manometer
+kapilaritas
+persamaan kontinuitas
+persamaan Bernoulli
+efek Venturi
+hukum Poiseuille
+hukum Stokes
+bilangan Reynolds
+aliran laminar
+turbulen
+hukum Fick
+periode
+frekuensi
+amplitudo
+bandul sederhana
+osilator harmonik
+energi titik nol
+panjang gelombang
+laju gelombang
+laju bunyi
+gelombang transversal
+gelombang longitudinal
+partikel dalam kotak
+skala Celsius
+kelvin
+pemuaian
+gas ideal
+hukum Boyle
+hukum Charles
+hukum Dalton
+kalorimetri
+kapasitas kalor
+konduksi
+konveksi
+radiasi
+hukum Stefan–Boltzmann
+hukum Wien
+teori kinetik
+sebaran Maxwell–Boltzmann
+faktor Boltzmann
+persamaan Arrhenius
+hukum Graham
+efusi
+ekuipartisi
+hukum Dulong–Petit
+persamaan van der Waals
+titik kritis
+hukum Fourier
+pendinginan Newton
+hukum pertama termodinamika
+proses isotermal
+proses adiabatik
+proses isobarik
+proses isokhorik
+entalpi
+hukum Hess
+entalpi pembentukan
+mesin kalor
+efisiensi Carnot
+siklus Carnot
+mesin pendingin
+pompa kalor
+koefisien kinerja
+hukum kedua termodinamika
+entropi
+hukum ketiga termodinamika
+energi bebas Gibbs
+tetapan kesetimbangan
+aturan Trouton
+muatan elementer
+tetapan Faraday
+hukum Coulomb
+medan listrik
+garis medan
+hukum Gauss
+konduktor
+isolator
+energi kisi
+tetapan Madelung
+ikatan hidrogen
+hidrasi
+lapisan ganda listrik
+hukum Ohm
+hukum Kirchhoff
+rangkaian seri
+rangkaian paralel
+amperemeter
+voltmeter
+potensiometer
+rangkaian RC
+konduktivitas molar
+hukum Kohlrausch
+elektrolisis
+sel Galvani
+persamaan Nernst
+pH meter
+potensial membran
+medan magnet
+gaya magnet
+spektrometer massa
+siklotron
+efek Hall
+solenoide
+hukum Ampere
+magneton Bohr
+diamagnetisme
+resonansi spin elektron
+resonansi magnetik inti
+geseran kimia
+MRI
+hukum Faraday
+hukum Lenz
+ggl gerak
+generator
+arus bolak-balik
+transformator
+rangkaian LC
+persamaan Maxwell
+laju cahaya
+spektrum elektromagnetik
+relativitas khusus
+dilatasi waktu
+kontraksi panjang
+energi ikat inti
+bencana ultraviolet
+kuantum
+efek fotolistrik
+fungsi kerja
+potensial henti
+hukum Bragg
+sinar-X
+difraksi sinar-X
+fotokimia
+hasil kuantum
+spektrum garis
+rumus Rydberg
+deret Balmer
+deret Lyman
+model Bohr
+energi ionisasi
+muatan inti efektif
+panjang gelombang de Broglie
+dualisme gelombang–partikel
+asas ketidakpastian
+fungsi gelombang
+asas larangan Pauli
+tabel periodik
+gerak rotasi
+momen inersia
+torsi
+momentum sudut
+gravitasi universal
+hukum ketiga Kepler
+orbit
+tekanan osmotik
+modulus limbak
+kemampatan
+sentrifugasi
+koefisien sedimentasi
+gaya angkat
+osilasi kecil
+potensial Morse
+potensial Lennard-Jones
+analisis Fourier
+hukum Snell
+indeks bias
+pemantulan total
+kisi difraksi
+interferensi
+polarisasi
+aktivitas optik
+polarimeter
+diagram fasa
+persamaan Clapeyron
+persamaan Clausius–Clapeyron
+potensial kimia
+persamaan van 't Hoff
+hukum Raoult
+panjang Debye
+kekuatan ion
+koefisien aktivitas
+semikonduktor
+celah pita
+doping
+diode
+LED
+sel surya
+persamaan Tafel
+tegangan lebih
+korosi
+reaktansi
+impedansi
+resonansi
+faktor daya
+penyaring
+fasor
+geseran kimia
+tetapan perisai
+tetapan kopling
+pemecahan spin–spin
+waktu relaksasi
+partikel dalam kotak
+persamaan Schrödinger
+energi titik nol
+penerobosan
+titik kuantum
+orbital ikatan
+orbital antiikatan
+orde ikatan
+efek isotop kinetik
+energi ikat tiap nukleon
+fisi
+fusi
+peluruhan radioaktif
+waktu paruh
+aktivitas
+becquerel
+penanggalan radiokarbon

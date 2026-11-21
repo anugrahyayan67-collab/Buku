@@ -1,0 +1,41 @@
+@@RINGKASAN
+| Muatan tersebar | $\vec E = \int k\,dq/r^2$ (arah tiap bagian diperhitungkan); cincin pada sumbu: $E = kQz/(z^2 + R^2)^{3/2}$ | 12.10 |
+| Kekuatan ion | $I = \tfrac12\sum c_iz_i^2$ | 12.11 |
+| Panjang Debye | $\lambda_D = \sqrt{\kappa\varepsilon_0k_BT/(2N_Ae^2I)}$; air 25 °C: $0{,}304\ \text{nm}/\sqrt{I}$ | 12.11 |
+| Hukum pembatas Debye–Hückel | $\log\gamma_\pm = -0{,}509\lvert z_+z_-\rvert\sqrt I$ | 12.11 |
+@@KUIS
+**12.10** Nol. Setiap bagian cincin diimbangi bagian di seberangnya yang sama jauh dan berlawanan arah. **12.11** Sama: keduanya $I = 0{,}03$ mol/L. MgCl₂ 0,01 M memberi $\tfrac12[(0{,}01)(4) + (0{,}02)(1)] = 0{,}03$.
+@@PERTANYAAN
+Mengapa medan di pusat cincin bermuatan nol, padahal seluruh muatannya berada di dekat titik itu?
+Bagaimana menghitung medan cakram luas dengan menjumlahkan cincin memberi hasil yang sama dengan hukum Gauss?
+Mengapa gaya elektrostatik antara dua gugus bermuatan pada protein di dalam tubuh hampir tidak terasa pada jarak lebih dari satu nanometer?
+Mengapa ion bermuatan ganda menyumbang empat kali lebih banyak pada kekuatan ion?
+Mengapa lempung yang terbawa sungai mengendap di muara ketika bertemu air laut?
+@@SOAL
+## Subbab 12.10: Medan dari muatan yang tersebar
+Cincin berjari-jari 10 cm bermuatan 4,0 nC. Berapa medan pada sumbunya, 20 cm dari pusat? ||| 643 N/C
+Pada jarak berapa dari pusat, di sepanjang sumbu, medan cincin berjari-jari 3,0 cm paling besar? ||| 2,1 cm
+Batang sepanjang 0,40 m bermuatan 5,0 nC/m. Berapa medan di titik pada perpanjangannya, 10 cm dari ujung? ||| 360 N/C
+@cakram Cakram berjari-jari 5,0 cm bermuatan seragam $2{,}0\ \mu\text{C/m}^2$. Berapa medan pada sumbunya sejauh 5,0 cm? ||| $3{,}3 \times 10^4$ N/C
+## Subbab 12.11: Elektrostatika larutan
+Hitung kekuatan ion dan panjang Debye larutan Na₂SO₄ 0,020 mol/L pada 25 °C. ||| 0,060 mol/L; 1,2 nm
+Hitung kekuatan ion larutan Al₂(SO₄)₃ 0,0010 mol/L. ||| 0,015 mol/L
+Hitung koefisien aktivitas rata-rata HCl 0,0050 mol/L dan ZnSO₄ 0,0010 mol/L. ||| 0,92; 0,74
+Pada kekuatan ion berapa panjang Debye dalam air menjadi 1,0 nm? ||| 0,092 mol/L
+@barium Dengan hukum pembatas, taksir kelarutan BaSO₄ ($K_{sp} = 1{,}1 \times 10^{-10}$) dalam larutan NaCl 0,010 mol/L, dan bandingkan dengan dalam air murni. ||| $1{,}7 \times 10^{-5}$ mol/L; $1{,}05 \times 10^{-5}$ mol/L
+@@PEMBAHASAN
+**Soal {{cakram}}.** $\dfrac{\sigma}{2\varepsilon_0} = \dfrac{2{,}0 \times 10^{-6}}{2(8{,}854 \times 10^{-12})} = 1{,}13 \times 10^5$ N/C. Faktor kurung: $1 - \dfrac{0{,}05}{\sqrt{0{,}05^2 + 0{,}05^2}} = 1 - 0{,}707 = 0{,}293$.
+
+$$
+E = (1{,}13 \times 10^5)(0{,}293) = 3{,}3 \times 10^4\ \text{N/C}.
+$$
+
+*Cara berpikir:* jarak titik sama dengan jari-jari cakram, jadi cakram tidak lagi "tampak" seperti bidang luas, dan medannya kurang dari sepertiga nilai bidang. Jauh dari cakram, deret $1 - z/\sqrt{z^2 + R^2} \approx R^2/2z^2$ memberi $E \approx \sigma\pi R^2 k/z^2 = kQ/z^2$: muatan titik, seperti seharusnya.
+
+**Soal {{barium}}.** Dalam NaCl 0,010 M, $I \approx 0{,}010$ (sumbangan BaSO₄ sendiri sangat kecil). Untuk ion bermuatan ganda, $\log\gamma_\pm = -0{,}509(4)(0{,}10) = -0{,}204$, $\gamma_\pm = 0{,}63$.
+
+$$
+s = \frac{\sqrt{K_{sp}}}{\gamma_\pm} = \frac{1{,}05 \times 10^{-5}}{0{,}63} = 1{,}7 \times 10^{-5}\ \text{mol/L}.
+$$
+
+*Cara berpikir:* garam yang tidak berhubungan menaikkan kelarutan sekitar 60%, jauh lebih besar daripada untuk AgCl (Contoh 12.n6), karena koefisien aktivitas ion bermuatan ganda jauh lebih peka terhadap kekuatan ion. Pada $I = 0{,}01$, hukum pembatas untuk ion 2:2 sudah di tepi batas berlakunya; nilai sebenarnya sedikit lebih kecil.

@@ -1,0 +1,147 @@
+## Subbab 7.1 dan 7.2: Debit dan kontinuitas
+
+Sebuah keran mengisi ember 20 liter dalam 50 s. Berapa debitnya? ||| $4{,}0 \times 10^{-4}$ m³/s
+Air dengan debit $4{,}0 \times 10^{-4}$ m³/s mengalir dalam pipa berdiameter 2,5 cm. Berapa kelajuannya? ||| 0,81 m/s
+Air mengalir 1,2 m/s dalam selang berdiameter 1,9 cm dan keluar melalui ujung semprot berdiameter 0,60 cm. Berapa kelajuan keluarnya? ||| 12 m/s
+Sungai selebar 20 m dan sedalam 3,0 m mengalir 0,50 m/s. Di bagian hilir sungai menyempit menjadi lebar 8,0 m dan dalam 2,5 m. Berapa kelajuan air di sana? ||| 1,5 m/s
+Berapa lama waktu untuk mengisi kolam 50 m³ dengan selang berdiameter 3,0 cm yang airnya mengalir 2,5 m/s? ||| 7,9 jam
+Darah mengalir 0,33 m/s dalam aorta berjari-jari 0,90 cm. Berapa debitnya dalam L/menit? ||| 5,0 L/menit
+Darah dengan debit $8{,}4 \times 10^{-5}$ m³/s tersebar ke kapiler-kapiler berjari-jari 3,0 μm, dan mengalir 0,50 mm/s di dalamnya. Berapa banyak kapilernya? ||| $5{,}9 \times 10^9$
+Air keluar dari keran berdiameter 1,0 cm dengan kelajuan 0,50 m/s. Berapa diameter pancarannya 20 cm di bawah keran? ||| 0,49 cm
+Air mengalir 1,5 m/s dalam pipa berdiameter 6,0 cm, yang lalu bercabang menjadi tiga pipa berdiameter 2,0 cm. Berapa kelajuan air di tiap cabang? ||| 4,5 m/s
+Udara mengalir dengan debit 0,30 m³/s melalui saluran berpenampang 0,40 m × 0,25 m. Berapa kelajuannya? ||| 3,0 m/s
+Pendorong alat suntik berdiameter 1,2 cm ditekan dengan kelajuan 1,0 cm/s. Jarumnya berdiameter dalam 0,40 mm. Berapa kelajuan zat cair keluar dari jarum? ||| 9,0 m/s
+Air mengalir 2,0 m/s dalam pipa berdiameter 5,0 cm. Berapa massa air yang lewat tiap menit? ||| 236 kg
+
+Air mengalir 1,2 m/s dalam pipa berdiameter 5,0 cm, yang bercabang menjadi pipa berdiameter 3,0 cm dan 4,0 cm. Di cabang 3,0 cm air mengalir 2,0 m/s. Berapa kelajuannya di cabang 4,0 cm? ||| 0,75 m/s
+
+## Subbab 7.3 dan 7.4: Persamaan Bernoulli dan penerapannya
+
+Air mengalir dalam pipa mendatar 1,5 m/s pada tekanan 150 kPa. Di bagian yang luas penampangnya sepertiga, berapa tekanannya? ||| 141 kPa
+Air mengalir turun 5,0 m dalam pipa berpenampang tetap. Berapa perubahan tekanannya? ||| naik 49 kPa
+Air mengalir 0,80 m/s dalam pipa berdiameter 5,0 cm pada tekanan terukur 400 kPa. Pipa naik 8,0 m dan menyempit menjadi 2,5 cm. Berapa tekanan terukur di atas? ||| 317 kPa
+Berapa kelajuan air yang keluar dari lubang 3,0 m di bawah permukaan tangki terbuka? ||| 7,7 m/s
+Lubang seluas 0,50 cm² berada 1,25 m di bawah permukaan air sebuah tangki. Berapa debit idealnya? ||| $2{,}5 \times 10^{-4}$ m³/s
+Lubang di dinding tangki berada 0,80 m di bawah permukaan air dan 1,25 m di atas lantai. Seberapa jauh dari kaki tangki air itu jatuh? ||| 2,0 m
+Tangki berisi air setinggi 2,0 m dari lantai. Lubang dibuat 0,50 m di bawah permukaan. (a) Seberapa jauh air jatuh dari kaki tangki? (b) Pada kedalaman lain berapa lubang akan memancar sama jauh? ||| (a) 1,7 m; (b) 1,5 m
+Tangki berpenampang 0,50 m² berisi air setinggi 0,80 m dan memiliki lubang seluas 2,0 cm² di dasarnya. Berapa lama sampai kosong? ||| $1{,}0 \times 10^3$ s (17 menit)
+@tutup **[P]** Tangki **tertutup** berisi air, dengan udara di atasnya bertekanan terukur 50 kPa. Berapa kelajuan air yang keluar dari lubang 1,0 m di bawah permukaan? ||| 11 m/s
+Venturimeter berdiameter 8,0 cm dengan leher 4,0 cm dialiri air, dan selisih tekanannya 8,0 kPa. Berapa kelajuan air di pipa dan debitnya? ||| 1,03 m/s; $5{,}2 \times 10^{-3}$ m³/s
+Tabung pitot di terowongan angin menunjukkan selisih tekanan 800 Pa. Berapa kelajuan udaranya ($1{,}2\ \text{kg/m}^3$)? ||| 37 m/s
+Tabung pitot sederhana dicelupkan menghadap arus sungai, dan air di dalamnya naik 12 cm di atas permukaan sungai. Berapa kelajuan arus? ||| 1,5 m/s
+Ujung keluar sebuah sifon berdiameter 1,0 cm berada 1,2 m di bawah permukaan air. Berapa kelajuan air dan debitnya? ||| 4,8 m/s; $3{,}8 \times 10^{-4}$ m³/s
+Pada sifon di soal sebelumnya, puncak selangnya 2,0 m di atas permukaan air. Berapa tekanan mutlak di puncak itu? ||| 70 kPa
+Angin 25 m/s bertiup di atas atap datar seluas 150 m². Berapa gaya angkat pada atap? ||| $5{,}6 \times 10^4$ N
+Udara mengalir 60 m/s di atas sayap dan 50 m/s di bawahnya. Luas sayap 20 m². Berapa gaya angkatnya? ||| $1{,}3 \times 10^4$ N
+Pesawat bermassa $1{,}5 \times 10^5$ kg dengan luas sayap 400 m² terbang mendatar pada ketinggian tempat massa jenis udara $0{,}90\ \text{kg/m}^3$. Udara di bawah sayap mengalir 230 m/s. Berapa kelajuan udara di atas sayap? ||| 247 m/s
+Udara ditiup 30 m/s melintasi ujung atas sebuah pipa yang tercelup ke air. Seberapa tinggi air terisap naik? ||| 5,5 cm
+Dalam pompa isap air, air masuk 1,5 m/s pada tekanan mutlak 150 kPa dan dipercepat menjadi 16 m/s di leher. Berapa tekanan mutlak di leher? ||| 23 kPa
+Darah ($1060\ \text{kg/m}^3$) mengalir 0,45 m/s dalam arteri yang di satu tempat menyempit sehingga luas penampangnya sepertiga. Berapa penurunan tekanan di penyempitan itu, dalam Pa dan mmHg? ||| 860 Pa; 6,4 mmHg
+Air mengalir 3,0 m/s dalam selang pemadam dan keluar dari ujung semprot dengan 30 m/s. Berapa tekanan terukur di dalam selang? ||| 446 kPa
+Air keluar dari ujung semprot yang mengarah tegak ke atas. Tekanan terukur air di pipa lebar tepat sebelum ujung semprot 200 kPa. Seberapa tinggi air memancar, dalam keadaan ideal? ||| 20 m
+Tangki air berada 12 m di atas sebuah keran yang terbuka penuh. Berapa kelajuan ideal air keluar? ||| 15 m/s
+Berapa tekanan dinamis udara ($1{,}2\ \text{kg/m}^3$) yang bergerak 40 m/s? ||| 960 Pa
+Baling-baling kapal berada 2,0 m di bawah permukaan laut, tempat tekanan mutlaknya 120,9 kPa. Tekanan uap air 2,3 kPa. Pada kelajuan air berapa (terhadap sudu) kavitasi mulai terjadi? ||| 15 m/s
+
+Pipa lebar di permukaan tanah memasok air mancur dengan tekanan terukur 250 kPa. Ujung semprotnya 1,0 m di atas pipa, dengan diameter seperempat diameter pipa, mengarah ke atas. Dalam keadaan ideal, berapa kelajuan air keluar dan tinggi pancarannya di atas ujung semprot? ||| 22 m/s; 25 m
+
+## Subbab 7.5: Kekentalan dan hukum Poiseuille
+
+Gunakan $\eta_\text{air} = 1{,}0 \times 10^{-3}$ Pa·s, kecuali disebutkan lain.
+
+Pelat seluas 0,10 m² meluncur 0,30 m/s di atas lapisan minyak setebal 0,50 mm ($\eta = 0{,}080$ Pa·s). Berapa gaya kentalnya? ||| 4,8 N
+Air mengalir melalui pipa berjari-jari 2,0 mm sepanjang 2,0 m karena selisih tekanan 500 Pa. Berapa debitnya? ||| $1{,}6 \times 10^{-6}$ m³/s
+@minyak Minyak ($\eta = 0{,}10$ Pa·s) harus dialirkan $1{,}0 \times 10^{-6}$ m³/s melalui pipa berjari-jari 3,0 mm sepanjang 0,50 m. Berapa selisih tekanan yang diperlukan? ||| $1{,}6 \times 10^3$ Pa
+Jari-jari sebuah pembuluh berkurang 10%. Jika selisih tekanan tetap, menjadi berapa kali debitnya? ||| 0,66
+Jari-jari sebuah pipa dilipatduakan. Jika selisih tekanan tetap, berapa kali debitnya? ||| 16 kali
+Jari-jari sebuah arteri berkurang 30%. Berapa kali selisih tekanan harus dinaikkan agar debit tetap? ||| 4,2 kali
+Larutan ($\eta = 1{,}2 \times 10^{-3}$ Pa·s) disuntikkan 0,20 mL/s melalui jarum berjari-jari 0,15 mm sepanjang 2,5 cm. Berapa selisih tekanan sepanjang jarum? ||| $3{,}0 \times 10^4$ Pa
+@infus **[P]** Cairan infus ($\rho = 1020\ \text{kg/m}^3$) harus mengalir $3{,}0 \times 10^{-7}$ m³/s melalui jarum berjari-jari 0,30 mm sepanjang 3,0 cm ke vena bertekanan terukur 2,0 kPa. Seberapa tinggi kantong infus harus digantung di atas lengan? ||| 0,48 m
+Dalam viskometer Ostwald pada 20 °C, air ($\rho = 0{,}998$ g/mL, $\eta = 1{,}002$ mPa·s) mengalir dalam 60,0 s dan aseton ($\rho = 0{,}791$ g/mL) dalam 24,2 s. Berapa kekentalan aseton? ||| 0,32 mPa·s
+Air mengalir laminar dengan debit $2{,}0 \times 10^{-6}$ m³/s dalam pipa berjari-jari 1,5 mm. Berapa kelajuan rata-rata dan kelajuan di sumbu pipa? ||| 0,28 m/s; 0,57 m/s
+Berapa hambatan aliran pipa berjari-jari 1,0 mm sepanjang 1,0 m untuk air? ||| $2{,}5 \times 10^9$ Pa·s/m³
+Dua pipa, masing-masing berhambatan aliran $4{,}0 \times 10^9$ Pa·s/m³, dipasang (a) paralel, (b) seri. Berapa hambatan gabungannya? ||| (a) $2{,}0 \times 10^9$; (b) $8{,}0 \times 10^9$ Pa·s/m³
+Darah ($\eta = 3{,}5 \times 10^{-3}$ Pa·s) mengalir $9{,}0 \times 10^{-5}$ m³/s melalui aorta berjari-jari 1,0 cm. Berapa penurunan tekanan sepanjang 0,20 m? ||| 16 Pa
+Berapa daya yang hilang menjadi panas pada aliran di Soal {{minyak}}? ||| $1{,}6 \times 10^{-3}$ W
+Darah 3,5 kali lebih kental daripada larutan garam. Dengan alat infus dan ketinggian yang sama, berapa perbandingan debit darah terhadap debit larutan garam? ||| 0,29
+Kekentalan air 1,00 mPa·s pada 20 °C dan 0,47 mPa·s pada 60 °C. Berapa kali debit air panas dibandingkan air dingin melalui pipa kapiler yang sama dengan selisih tekanan sama? ||| 2,1 kali
+
+Air mengalir melalui dua pipa seri: jari-jari 1,5 mm sepanjang 0,50 m, lalu jari-jari 0,50 mm sepanjang 0,10 m. Selisih tekanan totalnya 2000 Pa. Berapa debitnya, dan berapa bagian penurunan tekanan yang terjadi di pipa sempit? ||| $4{,}6 \times 10^{-7}$ m³/s; 94%
+Kolom kromatografi berisi butir 10 μm memerlukan tekanan 15 bar. Berapa tekanan untuk debit yang sama jika butirnya 5 μm? ||| 60 bar
+
+## Subbab 7.6: Bilangan Reynolds
+
+Gunakan untuk udara $\rho = 1{,}2\ \text{kg/m}^3$ dan $\eta = 1{,}8 \times 10^{-5}$ Pa·s.
+
+Hitung bilangan Reynolds air yang mengalir 0,50 m/s dalam pipa berdiameter 2,0 cm. Laminar atau turbulen? ||| $1{,}0 \times 10^4$; turbulen
+Hitung bilangan Reynolds udara yang mengalir 5,0 m/s dalam saluran berdiameter 0,30 m. ||| $1{,}0 \times 10^5$; turbulen
+Berapa kelajuan terbesar air agar tetap laminar dalam pipa berdiameter 2,5 cm? ||| 0,080 m/s
+Berapa kelajuan terbesar minyak ($\eta = 0{,}20$ Pa·s, $\rho = 900\ \text{kg/m}^3$) agar tetap laminar dalam pipa berdiameter 2,5 cm? ||| 18 m/s
+Darah ($\rho = 1060\ \text{kg/m}^3$, $\eta = 3{,}5 \times 10^{-3}$ Pa·s) mengalir 0,25 m/s dalam arteri berdiameter 4,0 mm. Berapa bilangan Reynoldsnya? ||| 300; laminar
+Berapa bilangan Reynolds bola golf berdiameter 4,3 cm yang melesat 60 m/s di udara? ||| $1{,}7 \times 10^5$
+Madu ($\eta = 10$ Pa·s, $\rho = 1400\ \text{kg/m}^3$) mengalir 1,0 cm/s dalam pipa berdiameter 1,0 cm. Berapa bilangan Reynoldsnya? ||| 0,014
+Berapa debit terbesar air yang masih laminar dalam pipa berdiameter 1,0 cm? ||| $1{,}6 \times 10^{-5}$ m³/s
+
+## Subbab 7.7: Hukum Stokes
+
+Bola berjari-jari 2,0 mm bergerak 5,0 cm/s dalam gliserol ($\eta = 1{,}41$ Pa·s). Berapa gaya hambatnya? ||| $2{,}7 \times 10^{-3}$ N
+@alu Bola aluminium ($2700\ \text{kg/m}^3$) berjari-jari 0,50 mm jatuh dalam minyak ($\rho = 900\ \text{kg/m}^3$, $\eta = 0{,}30$ Pa·s). Berapa kecepatan terminalnya? ||| 3,3 mm/s
+Berapa kecepatan terminal tetes awan berjari-jari 5,0 μm di udara? ||| 3,0 mm/s
+Butir debu ($2500\ \text{kg/m}^3$) berjari-jari 2,0 μm melayang di udara. Berapa kecepatan terminalnya, dan berapa lama ia turun 2,0 m di udara yang tenang? ||| 1,2 mm/s; 28 menit
+Bola baja ($7800\ \text{kg/m}^3$) berjari-jari 1,0 mm jatuh 10 cm dalam 4,0 s dengan kelajuan tetap di dalam zat cair bermassa jenis $1260\ \text{kg/m}^3$. Berapa kekentalan zat cair itu? ||| 0,57 Pa·s
+@sdm Sel darah merah dapat dianggap bola berjari-jari 2,5 μm dengan massa jenis $1100\ \text{kg/m}^3$ dalam plasma ($\rho = 1030\ \text{kg/m}^3$, $\eta = 1{,}5 \times 10^{-3}$ Pa·s). Berapa laju endapnya dalam mm/jam? ||| 2,3 mm/jam
+Darah pada Soal {{sdm}} disentrifugasi dengan 3000 kali $g$. Berapa lama sel darah merah mengendap sejauh 5,0 cm? ||| 26 s
+Berapa kelajuan naik gelembung udara berjari-jari 0,050 mm dalam air? ||| 5,4 mm/s
+@milk **[P]** Dalam percobaan Millikan, tetes minyak ($900\ \text{kg/m}^3$) jatuh di udara dengan kecepatan terminal $2{,}0 \times 10^{-4}$ m/s, lalu ditahan melayang oleh medan listrik $1{,}15 \times 10^5$ V/m. Berapa muatan tetes itu, dan berapa kali muatan elementer? ||| $8{,}0 \times 10^{-19}$ C; 5 kali
+Berapa lama kira-kira butir air berjari-jari 1,0 μm mencapai kecepatan terminalnya di udara? ||| $1{,}2 \times 10^{-5}$ s
+Butir-butir ($2600\ \text{kg/m}^3$) dalam suatu suspensi air mengendap dengan laju 1,0 cm per jam. Berapa jari-jarinya? ||| 0,89 μm
+Periksa apakah hukum Stokes berlaku pada Soal {{alu}} dengan menghitung bilangan Reynoldsnya. ||| Re = 0,010; berlaku
+
+Sampai jari-jari berapa hukum Stokes berlaku (Re = 1) untuk butir pasir ($2600\ \text{kg/m}^3$) yang mengendap dalam air? Anggap $\rho - \rho_f \approx 2600\ \text{kg/m}^3$ untuk taksiran kasar. ||| sekitar 45 μm
+
+## Subbab 7.8: Energi dan daya
+
+Pompa menaikkan air 3,0 L/s setinggi 20 m. Berapa daya yang diberikannya kepada air (abaikan energi kinetik)? ||| 588 W
+Jika air pada soal sebelumnya keluar dengan kelajuan 8,0 m/s, berapa daya totalnya? Berapa daya listrik pompa jika efisiensinya 65%? ||| 684 W; 1,05 kW
+Pompa sirkulasi menghasilkan selisih tekanan 60 kPa pada debit 2,0 L/s. Berapa daya yang diberikannya kepada zat cair? ||| 120 W
+Jantung memompa 5,5 L/menit melawan tekanan rata-rata 16 kPa. Berapa daya mekaniknya? ||| 1,5 W
+Turbin angin berdiameter 40 m bekerja pada angin 12 m/s dengan efisiensi 40%. Berapa dayanya? ||| 0,52 MW
+Kelajuan angin naik 20%. Berapa kali daya turbin angin bertambah? ||| 1,7 kali
+Pembangkit listrik tenaga air menerima debit 80 m³/s dengan beda tinggi 50 m dan berefisiensi 90%. Berapa dayanya? ||| 35 MW
+Arus sungai berkelajuan 3,0 m/s melewati penampang 0,50 m². Berapa daya yang dibawanya? ||| 6,8 kW
+Tekanan zat cair turun 35 kPa sepanjang sebuah pipa mendatar pada debit 0,40 L/s. Berapa daya yang hilang karena kekentalan? ||| 14 W
+
+Minyak ($\eta = 0{,}050$ Pa·s) dipompa 5,0 L/s melalui pipa mendatar berjari-jari 4,0 cm sepanjang 500 m. Berapa selisih tekanan dan daya pompa yang diperlukan? ||| $1{,}2 \times 10^5$ Pa; 0,62 kW
+
+## Subbab 7.9: Difusi
+
+Berapa lama molekul kecil ($D = 1{,}0 \times 10^{-9}\ \text{m}^2/\text{s}$) berdifusi sejauh 10 μm dalam air? ||| 0,050 s
+Berapa lama molekul yang sama berdifusi sejauh 5,0 cm? ||| $1{,}25 \times 10^6$ s (14 hari)
+Berapa lama molekul gas ($D = 2{,}0 \times 10^{-5}\ \text{m}^2/\text{s}$) berdifusi sejauh 1,0 m dalam udara yang benar-benar tenang? ||| $2{,}5 \times 10^4$ s (7 jam)
+Zat terlarut ($D = 1{,}0 \times 10^{-9}\ \text{m}^2/\text{s}$) berdifusi melintasi lapisan setebal 0,50 mm dengan selisih konsentrasi 20 mol/m³. Berapa fluksnya, dan berapa mol yang melintasi 1,0 cm² tiap sekon? ||| $4{,}0 \times 10^{-5}$ mol/(m²·s); $4{,}0 \times 10^{-9}$ mol/s
+Perkirakan koefisien difusi dalam air pada 298 K untuk molekul berjari-jari 0,50 nm. ||| $4{,}4 \times 10^{-10}$ m²/s
+Butir nano memiliki koefisien difusi $6{,}0 \times 10^{-11}\ \text{m}^2/\text{s}$ dalam air pada 298 K. Berapa jari-jarinya? ||| 3,6 nm
+Sebuah protein ($D = 7{,}0 \times 10^{-11}\ \text{m}^2/\text{s}$) harus berdifusi melintasi sel selebar 20 μm. Berapa lama? ||| 2,9 s
+
+Dinding sebuah sel setebal 1,0 μm. Berapa lama molekul kecil ($D = 1{,}0 \times 10^{-9}\ \text{m}^2/\text{s}$) melintasinya? Berapa kali lebih lama jika tebalnya 5,0 μm? ||| $5{,}0 \times 10^{-4}$ s; 25 kali
+
+## Soal gabungan
+
+Pada venturimeter berdiameter 10 cm dengan leher 5,0 cm yang dialiri air, selisih tekanan diukur dengan manometer raksa yang menunjukkan beda tinggi 4,0 cm. Kedua kaki manometer berisi air di atas raksa. Berapa debit airnya? ||| $6{,}4 \times 10^{-3}$ m³/s
+@lepas **[P]** Pesawat kecil bermassa 1200 kg memiliki luas sayap 16 m². Bentuk sayapnya membuat udara di atas sayap mengalir 15% lebih cepat daripada di bawahnya. Berapa kelajuan udara di bawah sayap saat pesawat tepat terangkat? ($\rho = 1{,}2\ \text{kg/m}^3$.) ||| 62 m/s
+@banding **[P]** Kantong infus berisi air digantung 1,0 m di atas ujung jarum berjari-jari dalam 0,25 mm sepanjang 4,0 cm, dan ujung jarum terbuka ke udara. Hitung debitnya (a) menurut hukum Torricelli, (b) menurut hukum Poiseuille. Mana yang lebih mendekati kenyataan? ||| (a) $8{,}7 \times 10^{-7}$ m³/s; (b) $3{,}8 \times 10^{-7}$ m³/s
+Butir emas ($19\,300\ \text{kg/m}^3$) berjari-jari 0,50 μm tersuspensi dalam air. Berapa laju endapnya? ||| $1{,}0 \times 10^{-5}$ m/s
+
+## Subbab 7.10: Sedimentasi dan sentrifugasi
+Berapa RCF sentrifus 12 000 rpm pada jarak 9,0 cm dari sumbu? ||| $1{,}45 \times 10^4\ g$
+Berapa rpm yang diperlukan agar cuplikan berjarak 6,0 cm merasakan 20 000 $g$? ||| 17 300 rpm
+Pada 50 000 rpm dan $r = 6{,}5$ cm, sebuah makromolekul mengendap 2,5 μm/s. Berapa koefisien sedimentasinya? ||| 14 S
+Berapa kelajuan terminal butir pasir kuarsa (massa jenis 2650 kg/m³) berjari-jari 50 μm dalam air? ||| 9,0 mm/s
+Berapa lama butir lempung berdiameter 2,0 μm (massa jenis 2650 kg/m³) turun 10 cm dalam air diam? ||| 0,32 hari
+@katalase Suatu enzim memiliki $s = 11{,}3$ S, $D = 4{,}0 \times 10^{-11}$ m²/s, dan $\bar v = 0{,}73$ mL/g dalam air pada 20 °C. Berapa massa molarnya? ||| $2{,}5 \times 10^5$ g/mol
+## Subbab 7.11: Gaya hambat dan gaya angkat
+Berapa kali daya untuk melawan hambatan udara jika kelajuan dilipatduakan dari 60 km/jam ke 120 km/jam? ||| 8 kali
+Bola sepak bermassa 0,43 kg, diameter 22 cm, $C_D = 0{,}25$. Berapa kelajuan terminalnya di udara? ||| 27 m/s
+Truk berluas depan 9,0 m² dan $C_D = 0{,}80$ melaju 90 km/jam. Berapa gaya hambat dan daya untuk melawannya? ||| 2,7 kN; 68 kW
+Drone 1,2 kg memiliki empat rotor berjari-jari 12 cm. Dengan teori momentum sederhana, berapa daya paling sedikit untuk melayang? ||| 61 W
+Selang pemadam menyemburkan 3,0 kg air tiap sekon dengan kelajuan 20 m/s. Berapa gaya dorong balik yang harus ditahan petugas? ||| 60 N
