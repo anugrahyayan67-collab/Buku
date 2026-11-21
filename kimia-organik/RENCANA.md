@@ -57,7 +57,7 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 
 ## Bagian IV · Penentuan struktur dan sintesis
 
-### ☐ Bab 14 Spektroskopi Inframerah dan Spektrometri Massa
+### ☑ Bab 14 Spektroskopi Inframerah dan Spektrometri Massa
 14.1 Spektroskopi dan spektrum elektromagnetik · 14.2 Getaran molekul dan pita IR · 14.3 Daerah gugus fungsi: O–H, N–H, C–H, C≡N, C=O · 14.4 Membaca spektrum IR · 14.5 Spektrometer massa: ionisasi dan ion molekul · 14.6 Pola isotop: Cl, Br, dan aturan nitrogen · 14.7 Fragmentasi khas · 14.8 Massa eksak dan rumus molekul · 14.9 Menggabungkan IR dan MS
 
 ### ☐ Bab 15 Spektroskopi NMR

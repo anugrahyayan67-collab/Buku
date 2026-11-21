@@ -206,3 +206,19 @@ ax.text(1.8, 0.8, 'trimetilamina\nmudah menguap: bau amis', ha='center', color=E
 ax.text(6.5, 0.8, 'ion trimetilamonium\ntidak menguap: tidak berbau', ha='center', color=UT, fontsize=12, family='Liberation Sans')
 simpan(13, f, 'Bau amis ikan berasal dari trimetilamina yang mudah menguap. Asam dalam jeruk nipis memprotonasinya menjadi ion trimetilamonium yang tidak menguap, sehingga baunya hilang; dalam basa, amina bebas kembali.')
 print('ok13')
+
+# Bab 14: spektrum IR dan MS aseton (skematis)
+f, ax = kanvas()
+X = np.linspace(400, 4000, 2000)
+A = 0.9 * np.exp(-0.5 * ((X - 1715) / 14) ** 2) + 0.35 * np.exp(-0.5 * ((X - 3000) / 20) ** 2) + 0.4 * np.exp(-0.5 * ((X - 1360) / 9) ** 2) + 0.35 * np.exp(-0.5 * ((X - 1220) / 12) ** 2)
+Y = 2.6 + 1.6 * np.exp(-1.6 * A)
+xs = 0.5 + (4000 - X) / 3600 * 7.2
+for lw, al in [(10, .08), (3, 1)]: ax.plot(xs, Y, color=UT, lw=lw, alpha=al)
+ax.text(0.5 + (4000 - 1715) / 3600 * 7.2 + 1.3, 3.05, 'C=O 1715 cm⁻¹', ha='center', color=EM, fontsize=13, fontweight='bold', family='DejaVu Sans')
+for m, h in [(15, 0.15), (43, 1.4), (58, 0.9)]:
+    x = 1.0 + (m - 10) / 55 * 6.0; ax.add_patch(plt.Rectangle((x - 0.08, 0.5), 0.16, h, fc=TUA, ec='none'))
+    ax.text(x, 0.5 + h + 0.12, str(m), ha='center', color=TUA, fontsize=11, family='Liberation Sans')
+ax.text(6.6, 1.0, 'm/z 58 = M⁺·\n43 = CH₃CO⁺', ha='left', color=TUA, fontsize=11, family='DejaVu Sans')
+ax.text(W / 2, 4.65, 'aseton dalam dua spektrum', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
+simpan(14, f, 'Aseton dilihat dengan dua alat: spektrum inframerah memperlihatkan pita C=O yang kuat pada 1715 cm⁻¹, dan spektrum massa memperlihatkan ion molekul m/z 58 serta ion asetil m/z 43 dari pemutusan α (skematis).')
+print('ok14')
