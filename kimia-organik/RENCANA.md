@@ -66,5 +66,5 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 ### ☑ Bab 16 Strategi Sintesis
 16.1 Mengapa sintesis · 16.2 Mengubah gugus fungsi: peta reaksi · 16.3 Membentuk ikatan C–C · 16.4 Analisis retrosintesis · 16.5 Selektivitas: kemo-, regio-, dan stereoselektivitas · 16.6 Gugus pelindung dalam rancangan · 16.7 Sintesis bertahap dan hasil keseluruhan · 16.8 Kimia hijau dan ekonomi atom · 16.9 Studi kasus: sintesis obat sederhana
 
-## Lampiran
+## ☑ Lampiran
 A Tabel pKa · B Ringkasan reaksi per gugus fungsi · C Tabel spektroskopi (IR, ¹H NMR, ¹³C NMR) · D Pereaksi dan singkatan yang sering dipakai
