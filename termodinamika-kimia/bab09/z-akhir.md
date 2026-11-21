@@ -13,8 +13,10 @@
 | Gas ideal | $\mu_\text{J} = \mu_\text{J}^\circ + RT\ln(p_\text{J}/p^\circ)$ | 9.5 |
 | Pencampuran gas ideal | $\Delta_\text{mix}G = nRT\sum x_\text{J}\ln x_\text{J}$; $\Delta_\text{mix}H = 0$ | 9.5 |
 | Fugasitas | $\mu = \mu^\circ + RT\ln(f/p^\circ)$, $f = \varphi p$; $\ln\varphi = \int_0^p (Z - 1)\,dp/p \approx Bp/RT$ | 9.5 |
+| Entalpi molar parsial | $\Delta_\text{campur}H = \sum n_\text{J}(H_\text{J} - H^*_\text{J})$; reguler: $H_\text{A} - H^*_\text{A} = wx_\text{B}^2$; $\partial(\mu_\text{J}/T)/\partial T = -H_\text{J}/T^2$ | 9.6 |
+| Medan luar | $\mu + Mgh$ tetap; sedimentasi $\ln(c_2/c_1) = M(1 - \bar v\rho)\omega^2(r_2^2 - r_1^2)/2RT$; $\tilde\mu = \mu + zF\phi$ | 9.7 |
 
-**Jawaban kuis cepat.** **9.1** Lebih kecil, karena etanol menyumbang volume lebih sedikit per mol daripada ketika murni. **9.2** Di dekat $x_\text{etanol} = 0$, campuran hampir air murni, sehingga volume molar parsial air sama dengan volume molar air murni dan selisihnya nol. **9.3** Oksigen mengalir dari A ke B, nitrogen dari B ke A; setiap gas mengikuti potensial kimianya sendiri. **9.4** Tidak mungkin. Menurut Gibbs–Duhem, $n_\text{A}\,dV_\text{A} + n_\text{B}\,dV_\text{B} = 0$, sehingga keduanya harus berubah berlawanan arah (atau keduanya tetap). **9.5** Pada tekanan rendah molekul-molekul jarang bertemu, sehingga semua gas berperilaku ideal dan *Z* → 1. Di bawah suhu Boyle, tarikan dominan pada tekanan sedang, sehingga φ < 1.
+**Jawaban kuis cepat.** **9.1** Lebih kecil, karena etanol menyumbang volume lebih sedikit per mol daripada ketika murni. **9.2** Di dekat $x_\text{etanol} = 0$, campuran hampir air murni, sehingga volume molar parsial air sama dengan volume molar air murni dan selisihnya nol. **9.3** Oksigen mengalir dari A ke B, nitrogen dari B ke A; setiap gas mengikuti potensial kimianya sendiri. **9.4** Tidak mungkin. Menurut Gibbs–Duhem, $n_\text{A}\,dV_\text{A} + n_\text{B}\,dV_\text{B} = 0$, sehingga keduanya harus berubah berlawanan arah (atau keduanya tetap). **9.5** Pada tekanan rendah molekul-molekul jarang bertemu, sehingga semua gas berperilaku ideal dan *Z* → 1. Di bawah suhu Boyle, tarikan dominan pada tekanan sedang, sehingga φ < 1. **9.6** Komponen B, yang encer: $H_\text{B} - H^*_\text{B} = w(0{,}9)^2 = 0{,}81w$, sedangkan $H_\text{A} - H^*_\text{A} = 0{,}01w$. Bila $x_\text{B} \to 0$, $H_\text{B} - H^*_\text{B} \to w$: entalpi pelarutan diferensial pada pengenceran tak hingga. **9.7** Terbalik: konsentrasinya naik ke arah sumbu putar, karena $1 - \bar v\rho < 0$ dan zat itu "mengapung" ke dalam. Cara inilah yang dipakai untuk memisahkan lipoprotein darah menurut kerapatannya.
 
 # Pertanyaan
 
@@ -52,6 +54,16 @@
 18. Apa keadaan standar untuk gas nyata, dan mengapa disebut hipotetis?
 19. Mengapa koefisien fugasitas H₂ lebih besar dari 1 pada suhu kamar, sedangkan CH₄ lebih kecil?
 20. Fugasitas sering disebut "tekanan yang dikoreksi". Koreksi apa yang dimaksud, dan mengapa koreksinya dapat membuat *f* lebih besar atau lebih kecil dari *p*?
+
+## Subbab 9.6: Entalpi molar parsial dan kalor pelarutan
+
+21. Apa beda entalpi pelarutan diferensial dan integral? Bagaimana keduanya terlihat pada grafik entalpi pencampuran?
+22. Mengapa semua hubungan Maxwell dan Gibbs–Helmholtz juga berlaku untuk besaran molar parsial?
+
+## Subbab 9.7: Potensial kimia dalam medan gravitasi dan medan listrik
+
+23. Mengapa syarat kesetimbangan harus memakai potensial gravitokimia atau elektrokimia bila ada medan luar?
+24. Mengapa gaya apung sangat mengurangi kemampuan ultrasentrifus memisahkan protein?
 
 # Soal
 
@@ -199,45 +211,92 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹ dan, kecuali disebutkan lain, *T* = 298,15
 
 **66.** Dari Gambar 9.5, berapa tekanan efektif CO₂ pada 45 bar dan 300 K?
 
+## Subbab 9.6: Entalpi molar parsial dan kalor pelarutan
+
+**67.** Campuran dua cairan mengikuti model reguler dengan *w* = +4,0 kJ mol⁻¹. Hitung $\Delta_\text{campur}H_\text{m}$, $H_\text{A} - H^*_\text{A}$, dan $H_\text{B} - H^*_\text{B}$ pada $x_\text{B}$ = 0,50. Apakah pencampuran ini menyerap atau melepas kalor?
+
+**68.** Untuk larutan reguler dengan *w* = −6,0 kJ mol⁻¹, hitung $H_\text{A} - H^*_\text{A}$, $H_\text{B} - H^*_\text{B}$, dan $\Delta_\text{campur}H_\text{m}$ pada $x_\text{B}$ = 0,10.
+
+**69.** Untuk larutan reguler yang sama (*w* = −6,0 kJ mol⁻¹), hitung entalpi pelarutan **integral** per mol B ketika B dilarutkan ke dalam A sampai $x_\text{B}$ = 0,25, dan bandingkan dengan entalpi pelarutan **diferensial** B pada komposisi itu.
+
+**70.** Dengan $\Delta_\text{f}H^\circ$ HCl(g) = −92,31 dan HCl(aq, encer tak hingga) = −167,16 kJ mol⁻¹, hitung entalpi pelarutan HCl(g) dalam air.
+
+**71.** Sebanyak 7,46 g KCl (0,100 mol) dilarutkan dalam 100 g air. Dengan $\Delta_\text{sol}H$ = +17,2 kJ mol⁻¹ dan kapasitas kalor jenis 4,18 J g⁻¹ K⁻¹, berapa perubahan suhunya?
+
+**72.** Sebanyak 5,0 mL asam sulfat pekat (98 persen, 1,84 g mL⁻¹) dituang ke dalam 250 mL air. Taksir batas atas kenaikan suhu (kapasitas kalor jenis 4,0 J g⁻¹ K⁻¹).
+
+**73.** Untuk larutan ideal, hitung entropi molar parsial A relatif terhadap zat murni, $S_\text{A} - S^*_\text{A}$, pada $x_\text{A}$ = 0,75.
+
+**74.** Mengapa air tidak boleh dituangkan ke dalam asam sulfat pekat, padahal kalor totalnya sama dengan bila asam dituang ke dalam air?
+
+## Subbab 9.7: Potensial kimia dalam medan gravitasi dan medan listrik
+
+**75.** Hitung tinggi skala *RT*/*Mg* untuk CO₂ dan N₂ pada 288 K.
+
+**76.** Bila atmosfer berada dalam kesetimbangan difusi tanpa pengadukan pada 288 K, berapa kali perbandingan tekanan parsial CO₂ terhadap N₂ pada ketinggian 1 km dibanding di permukaan?
+
+**77.** Hitung perbandingan konsentrasi mioglobin (*M* = 17,8 kg mol⁻¹, $\bar v$ = 0,741 cm³ g⁻¹) pada *r* = 7,2 cm terhadap 6,8 cm dalam ultrasentrifus 8000 putaran per menit pada 20 °C.
+
+**78.** [P] (a) Pada kondisi yang sama dengan soal sebelumnya, hitung perbandingan konsentrasi untuk imunoglobulin G (*M* = 150 kg mol⁻¹, $\bar v$ = 0,739 cm³ g⁻¹). (b) Berapa putaran per menit yang diperlukan agar perbandingan untuk mioglobin menjadi 4,0?
+
+**79.** Berapa fraksi massa protein dengan $\bar v$ = 0,73 cm³ g⁻¹ yang "terasa" di dalam air (ρ = 0,998 g cm⁻³)?
+
+**80.** Hitung potensial Nernst membran untuk Cl⁻ pada 37 °C, dengan [Cl⁻] 10 mmol L⁻¹ di dalam dan 110 mmol L⁻¹ di luar sel.
+
+**81.** Untuk sel pada soal sebelumnya dengan $\phi_\text{dalam} - \phi_\text{luar}$ = −70 mV, hitung $\Delta\tilde\mu$ untuk memindahkan Cl⁻ dari luar ke dalam. Ke mana Cl⁻ cenderung bergerak?
+
+**82.** [P] Membran dalam mitokondria memisahkan matriks (lebih basa 0,75 satuan pH dan lebih negatif 0,16 V) dari ruang antarmembran. Hitung $\Delta\tilde\mu$ untuk memindahkan satu mol H⁺ dari ruang antarmembran ke dalam matriks pada 37 °C. Bila sintesis ATP di dalam sel memerlukan sekitar 53 kJ mol⁻¹, paling sedikit berapa proton harus masuk untuk setiap ATP?
+
+**83.** Mengapa sebaran konsentrasi dalam ultrasentrifus tidak bergantung pada bentuk molekul, padahal laju sedimentasinya bergantung?
+
 
 # Jawaban
 
 ::: {.panjang}
 | No. | Jawaban | No. | Jawaban |
 |---|---|---|---|
-| 1 | $(\partial V/\partial n_\text{J})_{T,p,n'}$; bergantung pada molekul tetangga | 34 | μ kotoran sangat rendah pada $x$ kecil; diperlukan kerja besar untuk mengeluarkannya |
-| 2 | 245 cm³ | 35 | zat berpindah ke μ lebih rendah; μ juga memuat interaksi dan keadaan standar setiap fasa |
-| 3 | sama dengan volume molar zat murninya | 36 | −45 J mol⁻¹ |
-| 4 | 33,36 cm³; −0,95 cm³ | 37 | −0,033 cm³ mol⁻¹ |
-| 5 | volume molar parsial berubah dengan komposisi | 38 | lihat pembahasan |
-| 6 | sekitar 14 cm³ | 39 | $d\mu_\text{B} = -(x_\text{A}/x_\text{B})d\mu_\text{A}$ dengan $x_\text{A}/x_\text{B}$ besar |
-| 7 | $H_\text{A} = (\partial H/\partial n_\text{A})_{T,p,n_\text{B}}$, demikian pula *S* dan *G* (= μ) | 40 | dari tekanan uap air pada berbagai konsentrasi, lalu diintegralkan |
-| 8 | perbandingan dua besaran ekstensif; tidak bergantung ukuran sampel, hanya komposisi | 41 | $\mu_\text{B} = \mu_\text{B}^* + RT\ln x_\text{B} + w x_\text{A}^2$ |
-| 9 | teorema Euler: *V* fungsi homogen derajat satu dalam jumlah mol | 42 | bagi dengan *n* |
-| 10 | menyatakan perubahan volume larutan, bukan ruang yang ditempati molekul; ion kecil bermuatan besar memampatkan air di sekitarnya | 43 | (a) $V^*_\text{m,B} + a\,x_\text{A}^2$; (c) $x = 0{,}5$; −0,75 cm³ mol⁻¹ |
-| 11 | 17,48 cm³ mol⁻¹; 1004,68 cm³ | 44 | −0,34 cm³ mol⁻¹ |
-| 12 | elektrostriksi: air di sekitar ion menyusut lebih banyak daripada volume ion | 45 | $x_\text{A}d\mu_\text{A} = -x_\text{B}d\mu_\text{B}$ |
-| 13 | lihat pembahasan | 46 | kedua koefisien aktivitas tidak bebas; data yang melanggar hubungan itu pasti salah ukur |
-| 14 | 18,063 cm³ mol⁻¹ | 47 | Gibbs–Duhem: kemiringan keduanya berlawanan tanda dan nol bersamaan |
-| 15 | 598 cm³ etanol, 430 cm³ air | 48 | −584 J mol⁻¹ |
-| 16 | 220 cm³ mol⁻¹ | 49 | −3,44 kJ; +11,5 J K⁻¹ |
-| 17 | dari $V = n_\text{air}V_\text{air} + bV_\text{NaCl}$ | 50 | −1,24 kJ mol⁻¹ |
-| 18 | 73,0 cm³ lawan 76,8 cm³ | 51 | tekanan efektif: tekanan gas ideal dengan potensial kimia yang sama |
-| 19 | ≈ 8,3 cm³ | 52 | −1,72 kJ mol⁻¹ |
-| 20 | berkurang 0,14 cm³; ion menarik dan memampatkan molekul air (elektrostriksi) | 53 | 584 J; fraksi mol N₂ lebih besar |
-| 21 | perpotongan garis singgung dengan sumbu $x$ = 0 dan $x$ = 1 | 54 | 0,991; 49,5 bar |
-| 22 | $dG = -S\,dT + V\,dp + \mu_\text{A}dn_\text{A} + \mu_\text{B}dn_\text{B}$ | 55 | 106 bar; tolakan dominan |
-| 23 | α → β; −0,25 kJ | 56 | sekitar 186 bar |
-| 24 | setiap zat mengikuti potensial kimianya sendiri | 57 | 9,70 kJ mol⁻¹ |
-| 25 | uji eksak pada turunan campuran $\partial^2G/\partial p\,\partial n_\text{J}$ | 58 | sekitar +0,57 kJ mol⁻¹ (φ ≈ 1,26) |
-| 26 | 14 J mol⁻¹ | 59 | keadaan standarnya gas ideal hipotetis pada 1 bar; penyimpangan masuk ke φ |
-| 27 | +108 J mol⁻¹; ya, karena melebihi 47,5 J mol⁻¹ | 60 | −49,3 cm³ mol⁻¹; 0,980 |
-| 28 | menentukan arah aliran zat seperti suhu menentukan arah aliran kalor | 61 | $\ln\varphi = Bp/RT$ |
-| 29 | dari air ke CCl₄ (μ di CCl₄ turun) | 62 | +3,87 kJ mol⁻¹ |
-| 30 | 181 J mol⁻¹; sebanding dengan 220 J mol⁻¹ | 63 | +11,4 kJ mol⁻¹ |
-| 31 | −1,72 dan −0,26 kJ mol⁻¹ | 64 | 0,990; 0,951 |
-| 32 | 248 kPa | 65 | 360 bar; tolakan (volume molekul) lebih penting daripada tarikan yang sangat lemah |
-| 33 | 5,6%; 1,1% | 66 | ≈ 37 bar (φ ≈ 0,81) |
+| 1 | $(\partial V/\partial n_\text{J})_{T,p,n'}$; bergantung pada molekul tetangga | 43 | (a) $V^*_\text{m,B} + a\,x_\text{A}^2$; (c) $x = 0{,}5$; −0,75 cm³ mol⁻¹ |
+| 2 | 245 cm³ | 44 | −0,34 cm³ mol⁻¹ |
+| 3 | sama dengan volume molar zat murninya | 45 | $x_\text{A}d\mu_\text{A} = -x_\text{B}d\mu_\text{B}$ |
+| 4 | 33,36 cm³; −0,95 cm³ | 46 | kedua koefisien aktivitas tidak bebas; data yang melanggar hubungan itu pasti salah ukur |
+| 5 | volume molar parsial berubah dengan komposisi | 47 | Gibbs–Duhem: kemiringan keduanya berlawanan tanda dan nol bersamaan |
+| 6 | sekitar 14 cm³ | 48 | −584 J mol⁻¹ |
+| 7 | $H_\text{A} = (\partial H/\partial n_\text{A})_{T,p,n_\text{B}}$, demikian pula *S* dan *G* (= μ) | 49 | −3,44 kJ; +11,5 J K⁻¹ |
+| 8 | perbandingan dua besaran ekstensif; tidak bergantung ukuran sampel, hanya komposisi | 50 | −1,24 kJ mol⁻¹ |
+| 9 | teorema Euler: *V* fungsi homogen derajat satu dalam jumlah mol | 51 | tekanan efektif: tekanan gas ideal dengan potensial kimia yang sama |
+| 10 | menyatakan perubahan volume larutan, bukan ruang yang ditempati molekul; ion kecil bermuatan besar memampatkan air di sekitarnya | 52 | −1,72 kJ mol⁻¹ |
+| 11 | 17,48 cm³ mol⁻¹; 1004,68 cm³ | 53 | 584 J; fraksi mol N₂ lebih besar |
+| 12 | elektrostriksi: air di sekitar ion menyusut lebih banyak daripada volume ion | 54 | 0,991; 49,5 bar |
+| 13 | lihat pembahasan | 55 | 106 bar; tolakan dominan |
+| 14 | 18,063 cm³ mol⁻¹ | 56 | sekitar 186 bar |
+| 15 | 598 cm³ etanol, 430 cm³ air | 57 | 9,70 kJ mol⁻¹ |
+| 16 | 220 cm³ mol⁻¹ | 58 | sekitar +0,57 kJ mol⁻¹ (φ ≈ 1,26) |
+| 17 | dari $V = n_\text{air}V_\text{air} + bV_\text{NaCl}$ | 59 | keadaan standarnya gas ideal hipotetis pada 1 bar; penyimpangan masuk ke φ |
+| 18 | 73,0 cm³ lawan 76,8 cm³ | 60 | −49,3 cm³ mol⁻¹; 0,980 |
+| 19 | ≈ 8,3 cm³ | 61 | $\ln\varphi = Bp/RT$ |
+| 20 | berkurang 0,14 cm³; ion menarik dan memampatkan molekul air (elektrostriksi) | 62 | +3,87 kJ mol⁻¹ |
+| 21 | perpotongan garis singgung dengan sumbu $x$ = 0 dan $x$ = 1 | 63 | +11,4 kJ mol⁻¹ |
+| 22 | $dG = -S\,dT + V\,dp + \mu_\text{A}dn_\text{A} + \mu_\text{B}dn_\text{B}$ | 64 | 0,990; 0,951 |
+| 23 | α → β; −0,25 kJ | 65 | 360 bar; tolakan (volume molekul) lebih penting daripada tarikan yang sangat lemah |
+| 24 | setiap zat mengikuti potensial kimianya sendiri | 66 | ≈ 37 bar (φ ≈ 0,81) |
+| 25 | uji eksak pada turunan campuran $\partial^2G/\partial p\,\partial n_\text{J}$ | 67 | +1,0 kJ mol⁻¹; +1,0; +1,0; menyerap |
+| 26 | 14 J mol⁻¹ | 68 | −0,06; −4,86; −0,54 kJ mol⁻¹ |
+| 27 | +108 J mol⁻¹; ya, karena melebihi 47,5 J mol⁻¹ | 69 | integral −4,5 kJ mol⁻¹; diferensial −3,375 kJ mol⁻¹ |
+| 28 | menentukan arah aliran zat seperti suhu menentukan arah aliran kalor | 70 | −74,85 kJ mol⁻¹ |
+| 29 | dari air ke CCl₄ (μ di CCl₄ turun) | 71 | turun 3,8 K |
+| 30 | 181 J mol⁻¹; sebanding dengan 220 J mol⁻¹ | 72 | 8,4 K |
+| 31 | −1,72 dan −0,26 kJ mol⁻¹ | 73 | +2,39 J K⁻¹ mol⁻¹ |
+| 32 | 248 kPa | 74 | tetes pertama air berada dalam asam hampir murni (entalpi molar parsial paling negatif) dan kalornya terkumpul di massa yang sangat kecil |
+| 33 | 5,6%; 1,1% | 75 | 5,55 km; 8,71 km |
+| 34 | μ kotoran sangat rendah pada $x$ kecil; diperlukan kerja besar untuk mengeluarkannya | 76 | 0,937 |
+| 35 | zat berpindah ke μ lebih rendah; μ juga memuat interaksi dan keadaan standar setiap fasa | 77 | 1,45 |
+| 36 | −45 J mol⁻¹ | 78 | (a) 23,9; (b) sekitar 15 400 putaran per menit |
+| 37 | −0,033 cm³ mol⁻¹ | 79 | 0,27 |
+| 38 | lihat pembahasan | 80 | −64 mV (dalam terhadap luar) |
+| 39 | $d\mu_\text{B} = -(x_\text{A}/x_\text{B})d\mu_\text{A}$ dengan $x_\text{A}/x_\text{B}$ besar | 81 | +0,57 kJ mol⁻¹; sedikit keluar (hampir setimbang) |
+| 40 | dari tekanan uap air pada berbagai konsentrasi, lalu diintegralkan | 82 | −19,9 kJ mol⁻¹; paling sedikit 3 proton |
+| 41 | $\mu_\text{B} = \mu_\text{B}^* + RT\ln x_\text{B} + w x_\text{A}^2$ | 83 | kesetimbangan hanya ditentukan oleh potensial (termodinamika); laju ditentukan oleh gesekan yang bergantung pada bentuk |
+| 42 | bagi dengan *n* |  |  |
 :::
 
 
@@ -280,6 +339,22 @@ $$
 karena $V_\text{m} = ZRT/p$. Pada $p \to 0$ semua gas ideal, sehingga $f/p \to 1$ dan $\ln(f/p) \to 0$. Mengintegrasikan dari 0 sampai *p* memberi $\ln\varphi = \int_0^p (Z - 1)\,dp/p$. Bila $Z - 1 = Bp/RT$, integrannya $B/RT$ yang tetap, sehingga $\ln\varphi = Bp/RT$.
 
 *Cara berpikir:* fugasitas tidak memerlukan teori baru; ia hanya menghimpun seluruh ketakidealan ke dalam satu besaran, sehingga semua rumus potensial kimia gas ideal tetap dapat dipakai. Yang diperlukan untuk menghitungnya hanyalah *Z* sebagai fungsi tekanan, dari persamaan keadaan mana pun di Bab 2. Tanda *B* langsung memberi tanda ln φ: tarikan (*B* < 0) membuat φ < 1, tolakan (*B* > 0) membuat φ > 1. Gagasan yang sama dipakai di Bab 10 untuk larutan nyata: aktivitas berperan seperti fugasitas, dan koefisien aktivitas seperti φ.
+
+**Soal 78.** (a) $M(1 - \bar v\rho) = (150)(1 - 0{,}739 \times 0{,}998) = 39{,}37$ kg mol⁻¹. Dengan $\omega^2(r_2^2 - r_1^2) = (837{,}8)^2(5{,}60 \times 10^{-4}) = 393{,}0$ s⁻²:
+$$
+\ln\frac{c_2}{c_1} = \frac{(39{,}37)(393{,}0)}{2(8{,}314)(293{,}15)} = 3{,}174 , \qquad \frac{c_2}{c_1} = 23{,}9 .
+$$
+(b) Untuk mioglobin, $M(1 - \bar v\rho) = 4{,}64$ kg mol⁻¹. Agar $\ln(c_2/c_1) = \ln 4$: $\omega^2 = 2RT\ln4/[(4{,}64)(5{,}60 \times 10^{-4})] = 2{,}60 \times 10^6$ s⁻², sehingga ω = 1613 rad s⁻¹, atau sekitar 15 400 putaran per menit.
+
+*Cara berpikir:* eksponen dalam (9.19) sebanding dengan $M\omega^2$, sehingga kecepatan putar harus dipilih sesuai ukuran molekul. Bila terlalu lambat, protein kecil hampir tersebar rata dan perbandingannya sukar diukur; bila terlalu cepat, protein besar terkumpul seluruhnya di dasar sel. Untuk protein yang 8,5 kali lebih "berat" efektif, kecepatan sudut yang sama memberi eksponen 8,5 kali lebih besar, sehingga perbandingan 4 berubah menjadi hampir 24.
+
+**Soal 82.** Ambil arah dari ruang antarmembran (luar) ke matriks (dalam). Matriks lebih basa 0,75 satuan pH, sehingga $c_\text{dalam}/c_\text{luar} = 10^{-0{,}75}$, dan $\phi_\text{dalam} - \phi_\text{luar} = -0{,}16$ V. Dengan *RT* = 2,579 kJ mol⁻¹ pada 310 K:
+$$
+\Delta\tilde\mu = RT\ln10^{-0{,}75} + F(-0{,}16) = -4{,}45 - 15{,}44 = -19{,}9\ \text{kJ mol}^{-1} .
+$$
+Untuk 53 kJ mol⁻¹ diperlukan paling sedikit $53/19{,}9 = 2{,}7$, jadi 3 proton per ATP.
+
+*Cara berpikir:* gradien elektrokimia proton adalah "baterai" mitokondria. Bagian listriknya (beda potensial) menyumbang tiga perempat, bagian konsentrasinya (beda pH) seperempat; keduanya hanya dapat dijumlahkan karena keduanya dinyatakan dalam satuan energi Gibbs per mol lewat (9.20). Enzim ATP sintase memang memakai sekitar tiga sampai empat proton per ATP, angka yang sejalan dengan batas termodinamika ini; sisanya hilang sebagai kalor, harga yang dibayar agar sintesis berjalan dengan laju yang berarti.
 
 # Bacaan lanjut
 

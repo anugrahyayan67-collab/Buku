@@ -104,3 +104,26 @@ Dengan $\ln\varphi \approx Bp/RT$, hitung φ N₂ pada 25 °C dan 50 bar ($B$ = 
 Koefisien fugasitas H₂ pada 300 bar dan 25 °C sekitar 1,20. Berapa fugasitasnya, dan mengapa φ > 1? ||| 360 bar; tolakan (volume molekul) lebih penting daripada tarikan yang sangat lemah
 Dari Gambar 9.5, berapa tekanan efektif CO₂ pada 45 bar dan 300 K? ||| ≈ 37 bar (φ ≈ 0,81)
 
+## Subbab 9.6: Entalpi molar parsial dan kalor pelarutan
+
+Campuran dua cairan mengikuti model reguler dengan *w* = +4,0 kJ mol⁻¹. Hitung $\Delta_\text{campur}H_\text{m}$, $H_\text{A} - H^*_\text{A}$, dan $H_\text{B} - H^*_\text{B}$ pada $x_\text{B}$ = 0,50. Apakah pencampuran ini menyerap atau melepas kalor? ||| +1,0 kJ mol⁻¹; +1,0; +1,0; menyerap
+Untuk larutan reguler dengan *w* = −6,0 kJ mol⁻¹, hitung $H_\text{A} - H^*_\text{A}$, $H_\text{B} - H^*_\text{B}$, dan $\Delta_\text{campur}H_\text{m}$ pada $x_\text{B}$ = 0,10. ||| −0,06; −4,86; −0,54 kJ mol⁻¹
+Untuk larutan reguler yang sama (*w* = −6,0 kJ mol⁻¹), hitung entalpi pelarutan **integral** per mol B ketika B dilarutkan ke dalam A sampai $x_\text{B}$ = 0,25, dan bandingkan dengan entalpi pelarutan **diferensial** B pada komposisi itu. ||| integral −4,5 kJ mol⁻¹; diferensial −3,375 kJ mol⁻¹
+Dengan $\Delta_\text{f}H^\circ$ HCl(g) = −92,31 dan HCl(aq, encer tak hingga) = −167,16 kJ mol⁻¹, hitung entalpi pelarutan HCl(g) dalam air. ||| −74,85 kJ mol⁻¹
+Sebanyak 7,46 g KCl (0,100 mol) dilarutkan dalam 100 g air. Dengan $\Delta_\text{sol}H$ = +17,2 kJ mol⁻¹ dan kapasitas kalor jenis 4,18 J g⁻¹ K⁻¹, berapa perubahan suhunya? ||| turun 3,8 K
+Sebanyak 5,0 mL asam sulfat pekat (98 persen, 1,84 g mL⁻¹) dituang ke dalam 250 mL air. Taksir batas atas kenaikan suhu (kapasitas kalor jenis 4,0 J g⁻¹ K⁻¹). ||| 8,4 K
+Untuk larutan ideal, hitung entropi molar parsial A relatif terhadap zat murni, $S_\text{A} - S^*_\text{A}$, pada $x_\text{A}$ = 0,75. ||| +2,39 J K⁻¹ mol⁻¹
+Mengapa air tidak boleh dituangkan ke dalam asam sulfat pekat, padahal kalor totalnya sama dengan bila asam dituang ke dalam air? ||| tetes pertama air berada dalam asam hampir murni (entalpi molar parsial paling negatif) dan kalornya terkumpul di massa yang sangat kecil
+
+## Subbab 9.7: Potensial kimia dalam medan gravitasi dan medan listrik
+
+Hitung tinggi skala *RT*/*Mg* untuk CO₂ dan N₂ pada 288 K. ||| 5,55 km; 8,71 km
+Bila atmosfer berada dalam kesetimbangan difusi tanpa pengadukan pada 288 K, berapa kali perbandingan tekanan parsial CO₂ terhadap N₂ pada ketinggian 1 km dibanding di permukaan? ||| 0,937
+Hitung perbandingan konsentrasi mioglobin (*M* = 17,8 kg mol⁻¹, $\bar v$ = 0,741 cm³ g⁻¹) pada *r* = 7,2 cm terhadap 6,8 cm dalam ultrasentrifus 8000 putaran per menit pada 20 °C. ||| 1,45
+@sed [P] (a) Pada kondisi yang sama dengan soal sebelumnya, hitung perbandingan konsentrasi untuk imunoglobulin G (*M* = 150 kg mol⁻¹, $\bar v$ = 0,739 cm³ g⁻¹). (b) Berapa putaran per menit yang diperlukan agar perbandingan untuk mioglobin menjadi 4,0? ||| (a) 23,9; (b) sekitar 15 400 putaran per menit
+Berapa fraksi massa protein dengan $\bar v$ = 0,73 cm³ g⁻¹ yang "terasa" di dalam air (ρ = 0,998 g cm⁻³)? ||| 0,27
+Hitung potensial Nernst membran untuk Cl⁻ pada 37 °C, dengan [Cl⁻] 10 mmol L⁻¹ di dalam dan 110 mmol L⁻¹ di luar sel. ||| −64 mV (dalam terhadap luar)
+Untuk sel pada soal sebelumnya dengan $\phi_\text{dalam} - \phi_\text{luar}$ = −70 mV, hitung $\Delta\tilde\mu$ untuk memindahkan Cl⁻ dari luar ke dalam. Ke mana Cl⁻ cenderung bergerak? ||| +0,57 kJ mol⁻¹; sedikit keluar (hampir setimbang)
+@proton [P] Membran dalam mitokondria memisahkan matriks (lebih basa 0,75 satuan pH dan lebih negatif 0,16 V) dari ruang antarmembran. Hitung $\Delta\tilde\mu$ untuk memindahkan satu mol H⁺ dari ruang antarmembran ke dalam matriks pada 37 °C. Bila sintesis ATP di dalam sel memerlukan sekitar 53 kJ mol⁻¹, paling sedikit berapa proton harus masuk untuk setiap ATP? ||| −19,9 kJ mol⁻¹; paling sedikit 3 proton
+Mengapa sebaran konsentrasi dalam ultrasentrifus tidak bergantung pada bentuk molekul, padahal laju sedimentasinya bergantung? ||| kesetimbangan hanya ditentukan oleh potensial (termodinamika); laju ditentukan oleh gesekan yang bergantung pada bentuk
+

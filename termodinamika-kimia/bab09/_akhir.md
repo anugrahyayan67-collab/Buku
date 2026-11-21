@@ -13,8 +13,10 @@
 | Gas ideal | $\mu_\text{J} = \mu_\text{J}^\circ + RT\ln(p_\text{J}/p^\circ)$ | 9.5 |
 | Pencampuran gas ideal | $\Delta_\text{mix}G = nRT\sum x_\text{J}\ln x_\text{J}$; $\Delta_\text{mix}H = 0$ | 9.5 |
 | Fugasitas | $\mu = \mu^\circ + RT\ln(f/p^\circ)$, $f = \varphi p$; $\ln\varphi = \int_0^p (Z - 1)\,dp/p \approx Bp/RT$ | 9.5 |
+| Entalpi molar parsial | $\Delta_\text{campur}H = \sum n_\text{J}(H_\text{J} - H^*_\text{J})$; reguler: $H_\text{A} - H^*_\text{A} = wx_\text{B}^2$; $\partial(\mu_\text{J}/T)/\partial T = -H_\text{J}/T^2$ | 9.6 |
+| Medan luar | $\mu + Mgh$ tetap; sedimentasi $\ln(c_2/c_1) = M(1 - \bar v\rho)\omega^2(r_2^2 - r_1^2)/2RT$; $\tilde\mu = \mu + zF\phi$ | 9.7 |
 
-**Jawaban kuis cepat.** **9.1** Lebih kecil, karena etanol menyumbang volume lebih sedikit per mol daripada ketika murni. **9.2** Di dekat $x_\text{etanol} = 0$, campuran hampir air murni, sehingga volume molar parsial air sama dengan volume molar air murni dan selisihnya nol. **9.3** Oksigen mengalir dari A ke B, nitrogen dari B ke A; setiap gas mengikuti potensial kimianya sendiri. **9.4** Tidak mungkin. Menurut Gibbs–Duhem, $n_\text{A}\,dV_\text{A} + n_\text{B}\,dV_\text{B} = 0$, sehingga keduanya harus berubah berlawanan arah (atau keduanya tetap). **9.5** Pada tekanan rendah molekul-molekul jarang bertemu, sehingga semua gas berperilaku ideal dan *Z* → 1. Di bawah suhu Boyle, tarikan dominan pada tekanan sedang, sehingga φ < 1.
+**Jawaban kuis cepat.** **9.1** Lebih kecil, karena etanol menyumbang volume lebih sedikit per mol daripada ketika murni. **9.2** Di dekat $x_\text{etanol} = 0$, campuran hampir air murni, sehingga volume molar parsial air sama dengan volume molar air murni dan selisihnya nol. **9.3** Oksigen mengalir dari A ke B, nitrogen dari B ke A; setiap gas mengikuti potensial kimianya sendiri. **9.4** Tidak mungkin. Menurut Gibbs–Duhem, $n_\text{A}\,dV_\text{A} + n_\text{B}\,dV_\text{B} = 0$, sehingga keduanya harus berubah berlawanan arah (atau keduanya tetap). **9.5** Pada tekanan rendah molekul-molekul jarang bertemu, sehingga semua gas berperilaku ideal dan *Z* → 1. Di bawah suhu Boyle, tarikan dominan pada tekanan sedang, sehingga φ < 1. **9.6** Komponen B, yang encer: $H_\text{B} - H^*_\text{B} = w(0{,}9)^2 = 0{,}81w$, sedangkan $H_\text{A} - H^*_\text{A} = 0{,}01w$. Bila $x_\text{B} \to 0$, $H_\text{B} - H^*_\text{B} \to w$: entalpi pelarutan diferensial pada pengenceran tak hingga. **9.7** Terbalik: konsentrasinya naik ke arah sumbu putar, karena $1 - \bar v\rho < 0$ dan zat itu "mengapung" ke dalam. Cara inilah yang dipakai untuk memisahkan lipoprotein darah menurut kerapatannya.
 
 # Pertanyaan
 
@@ -52,6 +54,16 @@
 18. Apa keadaan standar untuk gas nyata, dan mengapa disebut hipotetis?
 19. Mengapa koefisien fugasitas H₂ lebih besar dari 1 pada suhu kamar, sedangkan CH₄ lebih kecil?
 20. Fugasitas sering disebut "tekanan yang dikoreksi". Koreksi apa yang dimaksud, dan mengapa koreksinya dapat membuat *f* lebih besar atau lebih kecil dari *p*?
+
+## Subbab 9.6: Entalpi molar parsial dan kalor pelarutan
+
+21. Apa beda entalpi pelarutan diferensial dan integral? Bagaimana keduanya terlihat pada grafik entalpi pencampuran?
+22. Mengapa semua hubungan Maxwell dan Gibbs–Helmholtz juga berlaku untuk besaran molar parsial?
+
+## Subbab 9.7: Potensial kimia dalam medan gravitasi dan medan listrik
+
+23. Mengapa syarat kesetimbangan harus memakai potensial gravitokimia atau elektrokimia bila ada medan luar?
+24. Mengapa gaya apung sangat mengurangi kemampuan ultrasentrifus memisahkan protein?
 
 # Soal
 
@@ -100,6 +112,22 @@ $$
 karena $V_\text{m} = ZRT/p$. Pada $p \to 0$ semua gas ideal, sehingga $f/p \to 1$ dan $\ln(f/p) \to 0$. Mengintegrasikan dari 0 sampai *p* memberi $\ln\varphi = \int_0^p (Z - 1)\,dp/p$. Bila $Z - 1 = Bp/RT$, integrannya $B/RT$ yang tetap, sehingga $\ln\varphi = Bp/RT$.
 
 *Cara berpikir:* fugasitas tidak memerlukan teori baru; ia hanya menghimpun seluruh ketakidealan ke dalam satu besaran, sehingga semua rumus potensial kimia gas ideal tetap dapat dipakai. Yang diperlukan untuk menghitungnya hanyalah *Z* sebagai fungsi tekanan, dari persamaan keadaan mana pun di Bab 2. Tanda *B* langsung memberi tanda ln φ: tarikan (*B* < 0) membuat φ < 1, tolakan (*B* > 0) membuat φ > 1. Gagasan yang sama dipakai di Bab 10 untuk larutan nyata: aktivitas berperan seperti fugasitas, dan koefisien aktivitas seperti φ.
+
+**Soal {{sed}}.** (a) $M(1 - \bar v\rho) = (150)(1 - 0{,}739 \times 0{,}998) = 39{,}37$ kg mol⁻¹. Dengan $\omega^2(r_2^2 - r_1^2) = (837{,}8)^2(5{,}60 \times 10^{-4}) = 393{,}0$ s⁻²:
+$$
+\ln\frac{c_2}{c_1} = \frac{(39{,}37)(393{,}0)}{2(8{,}314)(293{,}15)} = 3{,}174 , \qquad \frac{c_2}{c_1} = 23{,}9 .
+$$
+(b) Untuk mioglobin, $M(1 - \bar v\rho) = 4{,}64$ kg mol⁻¹. Agar $\ln(c_2/c_1) = \ln 4$: $\omega^2 = 2RT\ln4/[(4{,}64)(5{,}60 \times 10^{-4})] = 2{,}60 \times 10^6$ s⁻², sehingga ω = 1613 rad s⁻¹, atau sekitar 15 400 putaran per menit.
+
+*Cara berpikir:* eksponen dalam (9.19) sebanding dengan $M\omega^2$, sehingga kecepatan putar harus dipilih sesuai ukuran molekul. Bila terlalu lambat, protein kecil hampir tersebar rata dan perbandingannya sukar diukur; bila terlalu cepat, protein besar terkumpul seluruhnya di dasar sel. Untuk protein yang 8,5 kali lebih "berat" efektif, kecepatan sudut yang sama memberi eksponen 8,5 kali lebih besar, sehingga perbandingan 4 berubah menjadi hampir 24.
+
+**Soal {{proton}}.** Ambil arah dari ruang antarmembran (luar) ke matriks (dalam). Matriks lebih basa 0,75 satuan pH, sehingga $c_\text{dalam}/c_\text{luar} = 10^{-0{,}75}$, dan $\phi_\text{dalam} - \phi_\text{luar} = -0{,}16$ V. Dengan *RT* = 2,579 kJ mol⁻¹ pada 310 K:
+$$
+\Delta\tilde\mu = RT\ln10^{-0{,}75} + F(-0{,}16) = -4{,}45 - 15{,}44 = -19{,}9\ \text{kJ mol}^{-1} .
+$$
+Untuk 53 kJ mol⁻¹ diperlukan paling sedikit $53/19{,}9 = 2{,}7$, jadi 3 proton per ATP.
+
+*Cara berpikir:* gradien elektrokimia proton adalah "baterai" mitokondria. Bagian listriknya (beda potensial) menyumbang tiga perempat, bagian konsentrasinya (beda pH) seperempat; keduanya hanya dapat dijumlahkan karena keduanya dinyatakan dalam satuan energi Gibbs per mol lewat (9.20). Enzim ATP sintase memang memakai sekitar tiga sampai empat proton per ATP, angka yang sejalan dengan batas termodinamika ini; sisanya hilang sebagai kalor, harga yang dibayar agar sintesis berjalan dengan laju yang berarti.
 
 # Bacaan lanjut
 

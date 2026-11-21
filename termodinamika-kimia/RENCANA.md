@@ -21,6 +21,7 @@ Buku ini lanjutan langsung dari *Fisika Umum* Bab 10–11 (suhu, kalor, gas idea
 | 10.8 | Larutan elektrolit: kekuatan ion, teori Debye–Hückel, koefisien aktivitas ion rata-rata, efek garam pada kelarutan | Atkins 5F, Levine 10 |
 | 11.9 | Suhu larutan kritis atas dan bawah, larutan padat, leleh tak kongruen, pemurnian zona | Atkins 5C, Castellan 16 |
 | 12.9 | Kesetimbangan dalam larutan: *K*$_\text{sp}$, *K*$_\text{a}$ dari Δ*G*°, kesetimbangan berpasangan dan keadaan standar biokimia | Silbey–Alberty, Atkins 6A |
+| 9.6–9.7 | Entalpi molar parsial, entalpi pelarutan diferensial dan integral; potensial gravitokimia (ultrasentrifus) dan potensial elektrokimia | Atkins 5A, Levine 9, Silbey–Alberty |
 | 13.9 | Diagram Pourbaix dan korosi; *K*$_\text{sp}$ dan p*K*$_\text{a}$ dari pengukuran sel | Atkins 6D, Levine 14 |
 | **Bab 14** | **Termodinamika statistik**: sebaran Boltzmann, fungsi partisi molekul (translasi, rotasi, getaran, elektronik), *U*, *C*$_V$, *S* (Sackur–Tetrode), *G*, tetapan kesetimbangan dari fungsi partisi | Atkins 13–15, McQuarrie–Simon 17–23, Engel–Reid 31–33 |
 | **Bab 15** | **Termodinamika permukaan**: tegangan permukaan, persamaan Laplace, kapilaritas, persamaan Kelvin dan nukleasi, persamaan adsorpsi Gibbs, surfaktan dan misel, isoterm adsorpsi | Levine 13, Castellan 18, Atkins 16 |
@@ -64,7 +65,7 @@ Pemetaan RPS: mg 1 → Bab 1 · mg 2 → Bab 2 · mg 3–4 → Bab 3–4 · mg 5
 8.1 Fasa, transisi fasa, dan kestabilan · 8.2 Syarat kesetimbangan fasa · 8.3 Persamaan Clapeyron · 8.4 Persamaan Clausius–Clapeyron · 8.5 Diagram fasa air · 8.6 Diagram fasa CO₂ · 8.7 Titik tripel dan titik kritis · 8.8 Aturan fasa Gibbs untuk satu komponen · 8.9 Klasifikasi transisi fasa (baru, Edisi 1.2)
 
 ### ☑ Bab 9 Potensial Kimia dan Besaran Molar Parsial
-9.1 Besaran molar parsial · 9.2 Volume molar parsial · 9.3 Potensial kimia · 9.4 Persamaan Gibbs–Duhem · 9.5 Potensial kimia gas ideal dan gas nyata (fugasitas)
+9.1 Besaran molar parsial · 9.2 Volume molar parsial · 9.3 Potensial kimia · 9.4 Persamaan Gibbs–Duhem · 9.5 Potensial kimia gas ideal dan gas nyata (fugasitas) · 9.6 Entalpi molar parsial dan kalor pelarutan (baru, Edisi 1.2) · 9.7 Potensial kimia dalam medan gravitasi dan medan listrik (baru, Edisi 1.2)
 
 ### ☑ Bab 10 Larutan Ideal dan Sifat Koligatif
 10.1 Termodinamika pencampuran · 10.2 Hukum Raoult dan larutan ideal · 10.3 Hukum Henry dan larutan encer ideal · 10.4 Penurunan tekanan uap · 10.5 Kenaikan titik didih dan penurunan titik beku · 10.6 Tekanan osmotik · 10.7 Larutan nyata dan aktivitas · 10.8 Larutan elektrolit (baru, Edisi 1.2)
