@@ -14,6 +14,9 @@ Berapa derajat kebebasan larutan NaCl jenuh yang setimbang dengan NaCl padat pad
 Mengapa jumlah komponen sistem CaCO₃(s) ⇌ CaO(s) + CO₂(g) adalah dua, bukan tiga? ||| ada satu reaksi yang mengaitkan ketiga zat: *C* = 3 − 1
 Mengapa dalam diagram dua komponen pada tekanan tetap kita memakai $F' = C - P + 1$? ||| satu derajat kebebasan sudah dipakai untuk menetapkan tekanan
 
+
+Berapa derajat kebebasan larutan NaCl dalam air yang setimbang dengan es dan uap air? Apa artinya? ||| *F* = 1; tekanan (atau suhu, atau komposisi) ditentukan bila satu variabel dipilih
+
 ## Subbab 11.2: Diagram tekanan uap–komposisi
 
 Hitung tekanan gelembung dan tekanan embun campuran benzena–toluena dengan *z* = 0,700 pada 25 °C. ||| 10,03 kPa; 7,45 kPa
@@ -28,6 +31,10 @@ Campuran benzena–toluena ($x_\text{benzena}$ = 0,50) pada 25 °C. Hitung tekan
 Pada suatu tekanan, campuran dengan $x_\text{A}$ total 0,40 terpisah menjadi cair ($x_\text{A}$ = 0,25) dan uap ($y_\text{A}$ = 0,60). Berapa fraksi mol bahan yang menjadi uap? ||| 0,43
 Mengapa garis gelembung pada diagram *p*–*x* untuk larutan ideal berupa garis lurus, sedangkan garis embunnya melengkung? ||| $p = x_\text{A}p_\text{A}^* + x_\text{B}p_\text{B}^*$ linear dalam *x*; terhadap *y* tidak linear
 
+
+Pada 25 °C, berapa tekanan ketika uap benzena–toluena dengan $y_\text{benzena}$ = 0,50 mulai mengembun (titik embun)? ||| 5,84 kPa
+Berapa tekanan titik gelembung campuran benzena–toluena dengan $x_\text{benzena}$ = 0,60 pada 25 °C? ||| 9,14 kPa
+
 ## Subbab 11.3: Diagram suhu–komposisi dan distilasi
 
 Pada 1 atm, cairan benzena–toluena dengan $x_\text{benzena} = 0{,}300$ mendidih pada 98,5 °C. Hitung fraksi mol benzena di uap pertamanya ($p^*_\text{benzena} = 172{,}6$ kPa pada suhu itu). ||| 0,511
@@ -40,6 +47,9 @@ Dari Gambar 11.2, berapa pelat teoretis yang diperlukan untuk memperkaya benzena
 
 Mengapa kolom distilasi yang lebih tinggi memberi pemisahan lebih baik? ||| lebih banyak pelat teoretis: lebih banyak tahap penguapan–pengembunan
 Pada diagram *T*–*x*, mengapa daerah dua fasa disebut "lensa"? ||| dibatasi garis gelembung (bawah) dan garis embun (atas) yang bertemu di kedua titik didih murni
+
+
+Campuran benzena–toluena dengan $z_\text{benzena}$ = 0,40 dipanaskan sampai cairan yang tersisa mempunyai $x_\text{benzena}$ = 0,30 dan uapnya $y_\text{benzena}$ = 0,511. Dengan aturan tuas, berapa fraksi mol campuran yang sudah menguap? ||| 0,47
 
 ## Subbab 11.4: Azeotrop
 
@@ -72,6 +82,10 @@ Dalam model larutan reguler, hitung suhu kritis kelarutan atas untuk *w* = 4,0 k
 Bromobenzena (*M* = 157) didistilasi uap pada 1 atm; pada suhu didih campuran, tekanan uap air 94,3 kPa dan bromobenzena 7,0 kPa. Berapa gram bromobenzena per gram air di distilat? ||| 0,65 g
 Mengapa distilasi uap memungkinkan zat bertitik didih tinggi didistilasi di bawah 100 °C? ||| kedua cairan tak bercampur menyumbang tekanan uap penuh masing-masing; jumlahnya mencapai 1 atm di bawah 100 °C
 
+
+Hitung suhu kritis kelarutan atas larutan reguler dengan *w* = 3,0 kJ mol⁻¹. ||| 180 K
+Nitrobenzena (123,11 g mol⁻¹) didistilasi uap; pada suhu didih campuran tekanan uap air 98,2 kPa dan nitrobenzena 3,1 kPa. Berapa gram nitrobenzena per gram air di distilat? ||| 0,22 g
+
 ## Subbab 11.6: Kesetimbangan cair–padat dan eutektik
 
 Hitung kelarutan ideal antrasena ($T_\text{f}^* = 489{,}7$ K, $\Delta_\text{fus}H = 29{,}4$ kJ mol⁻¹) pada 25 °C. ||| *x* = 0,0097
@@ -90,6 +104,9 @@ Hitung kelarutan ideal naftalena ($T_\text{f}$ = 353,4 K, Δ$_\text{fus}$*H* = 1
 Mengapa kurva pendinginan campuran non-eutektik mempunyai patahan sebelum bagian datar? ||| satu komponen mulai membeku: laju pendinginan berkurang karena kalor peleburan dilepas
 Mengapa garam ditaburkan di jalan bersalju tidak berguna bila suhu di bawah −21 °C? ||| di bawah suhu eutektik air–NaCl tidak ada cairan yang dapat terbentuk
 
+
+Pada 50 °C, berapa kelarutan ideal naftalena ($T_\text{f}$ = 353,4 K, $\Delta_\text{fus}H$ = 19,0 kJ mol⁻¹)? Bandingkan dengan nilainya pada 25 °C (0,30). ||| *x* = 0,55; naik hampir dua kali
+
 ## Subbab 11.7: Diagram segitiga tiga komponen
 
 Di mana letak semua campuran yang berisi 40% asam asetat pada diagram segitiga Gambar 11.6? ||| garis sejajar sisi air–kloroform pada 0,4 tinggi segitiga
@@ -100,6 +117,9 @@ Sebanyak 30 g campuran P (Gambar 11.6) dicampur dengan 70 g kloroform. Hitung ko
 
 Pada diagram segitiga, di mana letak campuran berkomposisi 20% A, 30% B, 50% C? ||| titik yang berjarak 0,2 dari sisi BC, 0,3 dari sisi AC, 0,5 dari sisi AB
 Mengapa campuran dua titik pada diagram segitiga selalu terletak pada garis lurus yang menghubungkan keduanya? ||| keseimbangan massa: aturan tuas dalam dua dimensi
+
+
+Sebanyak 50 g campuran berkomposisi 20% A, 30% B, 50% C (massa) dicampur dengan 50 g A murni. Tentukan komposisi baru dan letaknya pada diagram segitiga. ||| 60% A, 15% B, 25% C; pada garis yang menghubungkan titik awal dengan sudut A, di tengahnya
 
 ## Subbab 11.8: Ekstraksi dan sistem tiga komponen dalam praktik
 
@@ -112,6 +132,10 @@ Mengapa pH memengaruhi ekstraksi asam karboksilat dari air ke pelarut organik? |
 Zat dengan *K* = 4,0 (organik/air) diekstraksi dari 100 mL air. Bandingkan sekali dengan 100 mL pelarut dan tiga kali dengan 33,3 mL. ||| tersisa 20% lawan 7,9%
 Mengapa ekstraksi berkali-kali dengan volume kecil lebih efektif daripada sekali dengan volume besar? ||| setiap tahap mengambil fraksi yang sama dari sisa; perkalian fraksi menurun cepat
 
+
+Zat dengan *K* = 10 (organik/air) ada dalam 50 mL air. Bandingkan fraksi yang tersisa di air setelah satu ekstraksi dengan 50 mL pelarut dan dua ekstraksi masing-masing 25 mL. ||| 9,1% dan 2,8%
+Zat dengan *K* = 4,0 ada dalam 100 mL air dan diekstraksi berulang dengan 20 mL pelarut setiap kali. Berapa kali ekstraksi diperlukan agar yang tersisa di air kurang dari 1 persen? ||| 8 kali
+
 ## Subbab 11.9: Larutan padat dan pemurnian zona
 
 Dengan model ideal Contoh 11.18, hitung komposisi cairan dan padatan Cu–Ni yang setimbang pada 1600 K. ||| cair $x_\text{Ni}$ = 0,61; padat 0,68
@@ -120,4 +144,8 @@ Apa perbedaan peleburan kongruen dan tak kongruen? Berikan satu contoh masing-ma
 Kotoran fosfor dalam silikon mempunyai *k* = 0,35. Setelah satu lintasan zona, berapa kadar relatifnya pada *x* = 0 dan *x* = 2*L*? ||| 0,35; 0,68
 @zona [P] Turunkan persamaan pemurnian zona satu lintasan (11.12) dengan menulis neraca kotoran untuk zona leleh yang bergerak sejauh *dx*. ||| $L\,dC_\text{l} = (C_0 - kC_\text{l})\,dx$; integrasi dengan $C_\text{l}(0) = C_0$
 Mengapa pemurnian zona tidak efektif untuk kotoran dengan *k* ≈ 1? ||| padatan mengambil kotoran sebanyak kadarnya di cairan; tidak ada pemisahan
+
+
+Untuk kotoran dengan *k* = 0,10, berapa kadar relatif $C/C_0$ di batang pada *x* = *L* setelah satu lintasan zona? ||| 0,19
+Paduan Cu–Ni dengan $x_\text{Ni}$ = 0,36 berada pada 1500 K, tempat cairan setimbang berkomposisi 0,341 dan padatan 0,411. Berapa fraksi mol paduan yang berupa padatan? ||| 0,27
 

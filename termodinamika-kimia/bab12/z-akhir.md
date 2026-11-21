@@ -87,143 +87,167 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, *RT* = 2,479 kJ mol⁻¹ pada 25 °C, dat
 
 **8.** Apa arti Δ$_\text{r}$*G* = 0 dan apa beda maknanya dengan Δ$_\text{r}$*G*° = 0?
 
+**9.** Pada 25 °C, suatu campuran berisi NO₂ 0,10 bar dan N₂O₄ 0,90 bar ($K$ = 0,148 untuk $\text{N}_2\text{O}_4 \rightleftharpoons 2\text{NO}_2$). Hitung $\Delta_\text{r}G^\circ$ dan $\Delta_\text{r}G$, lalu tentukan arah reaksi.
+
 ## Subbab 12.2: Energi Gibbs standar reaksi dan tetapan kesetimbangan
 
-**9.** Hitung *K* pada 25 °C untuk $\text{SO}_2 + \tfrac12\text{O}_2 \rightleftharpoons \text{SO}_3$ ($\Delta_\text{r}G^\circ = -70{,}87$ kJ mol⁻¹).
+**10.** Hitung *K* pada 25 °C untuk $\text{SO}_2 + \tfrac12\text{O}_2 \rightleftharpoons \text{SO}_3$ ($\Delta_\text{r}G^\circ = -70{,}87$ kJ mol⁻¹).
 
-**10.** Berapa *K* untuk reaksi dengan $\Delta_\text{r}G^\circ = -20{,}0$ kJ mol⁻¹ pada 25 °C?
+**11.** Berapa *K* untuk reaksi dengan $\Delta_\text{r}G^\circ = -20{,}0$ kJ mol⁻¹ pada 25 °C?
 
-**11.** Berapa $\Delta_\text{r}G^\circ$ untuk reaksi dengan $K = 1{,}0 \times 10^{-3}$ pada 25 °C?
+**12.** Berapa $\Delta_\text{r}G^\circ$ untuk reaksi dengan $K = 1{,}0 \times 10^{-3}$ pada 25 °C?
 
-**12.** Hitung *K* untuk $2\text{NO}_2 \rightleftharpoons \text{N}_2\text{O}_4$ pada 25 °C.
+**13.** Hitung *K* untuk $2\text{NO}_2 \rightleftharpoons \text{N}_2\text{O}_4$ pada 25 °C.
 
-**13.** Reaksi mempunyai $\Delta_\text{r}H^\circ = +50$ kJ mol⁻¹ dan $\Delta_\text{r}S^\circ = +150$ J K⁻¹ mol⁻¹. Hitung *K* pada 400 K.
+**14.** Reaksi mempunyai $\Delta_\text{r}H^\circ = +50$ kJ mol⁻¹ dan $\Delta_\text{r}S^\circ = +150$ J K⁻¹ mol⁻¹. Hitung *K* pada 400 K.
 
-**14.** [P] Dari Contoh 12.2, hitung *K* pada 25 °C untuk $\text{CO}_2 + \text{H}_2 \rightleftharpoons \text{CO} + \text{H}_2\text{O}(g)$, dan jelaskan aturan yang dipakai.
+**15.** [P] Dari Contoh 12.2, hitung *K* pada 25 °C untuk $\text{CO}_2 + \text{H}_2 \rightleftharpoons \text{CO} + \text{H}_2\text{O}(g)$, dan jelaskan aturan yang dipakai.
 
-**15.** Hitung Δ$_\text{r}$*G*° dan *K* pada 25 °C untuk N₂O₄ ⇌ 2NO₂ (Δ$_\text{f}$*G*°: NO₂ 51,31; N₂O₄ 97,89 kJ mol⁻¹).
+**16.** Hitung Δ$_\text{r}$*G*° dan *K* pada 25 °C untuk N₂O₄ ⇌ 2NO₂ (Δ$_\text{f}$*G*°: NO₂ 51,31; N₂O₄ 97,89 kJ mol⁻¹).
 
-**16.** Hitung *K* pada 25 °C untuk 2SO₂ + O₂ ⇌ 2SO₃ (Δ$_\text{f}$*G*°: SO₂ −300,19; SO₃ −371,06). Mengapa proses kontak tetap memerlukan katalis?
+**17.** Hitung *K* pada 25 °C untuk 2SO₂ + O₂ ⇌ 2SO₃ (Δ$_\text{f}$*G*°: SO₂ −300,19; SO₃ −371,06). Mengapa proses kontak tetap memerlukan katalis?
 
-**17.** Hitung *K* reaksi pergeseran air–gas CO + H₂O(g) ⇌ CO₂ + H₂ pada 25 °C.
+**18.** Hitung *K* reaksi pergeseran air–gas CO + H₂O(g) ⇌ CO₂ + H₂ pada 25 °C.
 
-**18.** Bila *K* reaksi A ⇌ B adalah 10, berapa *K* untuk 2B ⇌ 2A?
+**19.** Bila *K* reaksi A ⇌ B adalah 10, berapa *K* untuk 2B ⇌ 2A?
+
+**20.** Reaksi dengan $\Delta_\text{r}G^\circ$ = +20,0 kJ mol⁻¹ (dianggap tetap): hitung *K* pada 298 K dan 500 K.
 
 ## Subbab 12.3: K, K_c, dan K_x
 
-**19.** Untuk $\text{PCl}_5 \rightleftharpoons \text{PCl}_3 + \text{Cl}_2$, *K* = 1,8 pada 523 K. Hitung $K_c$ dengan $c^\circ = 1$ mol L⁻¹.
+**21.** Untuk $\text{PCl}_5 \rightleftharpoons \text{PCl}_3 + \text{Cl}_2$, *K* = 1,8 pada 523 K. Hitung $K_c$ dengan $c^\circ = 1$ mol L⁻¹.
 
-**20.** Tuliskan *K* untuk $\text{C}(s) + \text{CO}_2(g) \rightleftharpoons 2\text{CO}(g)$.
+**22.** Tuliskan *K* untuk $\text{C}(s) + \text{CO}_2(g) \rightleftharpoons 2\text{CO}(g)$.
 
-**21.** Hitung tekanan penguraian CaCO₃ pada 1200 K (data Contoh 12.13, Δ*H*° dan Δ*S*° tetap).
+**23.** Hitung tekanan penguraian CaCO₃ pada 1200 K (data Contoh 12.13, Δ*H*° dan Δ*S*° tetap).
 
-**22.** Mengapa padatan murni tidak muncul dalam *K*?
+**24.** Mengapa padatan murni tidak muncul dalam *K*?
 
-**23.** Ubah *K* = 0,148 untuk N₂O₄ ⇌ 2NO₂ pada 25 °C menjadi *K*$_\text{c}$ (*c*° = 1 mol L⁻¹).
+**25.** Ubah *K* = 0,148 untuk N₂O₄ ⇌ 2NO₂ pada 25 °C menjadi *K*$_\text{c}$ (*c*° = 1 mol L⁻¹).
 
-**24.** Mengapa padatan dan cairan murni tidak muncul dalam ungkapan *K*?
+**26.** Mengapa padatan dan cairan murni tidak muncul dalam ungkapan *K*?
 
-**25.** Kapan *K*$_\text{x}$ bergantung pada tekanan total, dan kapan tidak?
+**27.** Kapan *K*$_\text{x}$ bergantung pada tekanan total, dan kapan tidak?
+
+**28.** Dengan $\Delta_\text{f}G^\circ$(NH₃, g) = −16,45 kJ mol⁻¹, hitung *K* dan $K_c$ (dalam mol L⁻¹) untuk $\text{N}_2 + 3\text{H}_2 \rightleftharpoons 2\text{NH}_3$ pada 25 °C.
 
 ## Subbab 12.4: Menghitung komposisi kesetimbangan
 
-**26.** Dalam Contoh 12.7, bila mula-mula hanya ada 2,00 mol HI, berapa mol H₂ pada kesetimbangan?
+**29.** Dalam Contoh 12.7, bila mula-mula hanya ada 2,00 mol HI, berapa mol H₂ pada kesetimbangan?
 
-**27.** Hitung fraksi PCl₅ yang terurai pada 523 K dan 1,00 bar (*K* = 1,8).
+**30.** Hitung fraksi PCl₅ yang terurai pada 523 K dan 1,00 bar (*K* = 1,8).
 
-**28.** Ulangi Contoh 12.8 (c) dengan perbandingan CO : H₂O = 1 : 2.
+**31.** Ulangi Contoh 12.8 (c) dengan perbandingan CO : H₂O = 1 : 2.
 
-**29.** [P] Hitung fraksi PCl₅ yang terurai pada 523 K dan 5,00 bar. Bandingkan dengan 1,00 bar dan jelaskan.
+**32.** [P] Hitung fraksi PCl₅ yang terurai pada 523 K dan 5,00 bar. Bandingkan dengan 1,00 bar dan jelaskan.
 
-**30.** Mengapa tabel kesetimbangan harus memakai jumlah pada kesetimbangan, bukan jumlah awal?
+**33.** Mengapa tabel kesetimbangan harus memakai jumlah pada kesetimbangan, bukan jumlah awal?
 
-**31.** Untuk $\text{N}_2\text{O}_4 \rightleftharpoons 2\text{NO}_2$, turunkan $\alpha = \sqrt{K/(K + 4p/p^\circ)}$.
+**34.** Untuk $\text{N}_2\text{O}_4 \rightleftharpoons 2\text{NO}_2$, turunkan $\alpha = \sqrt{K/(K + 4p/p^\circ)}$.
 
-**32.** Hitung derajat disosiasi N₂O₄ pada 25 °C dan tekanan total 1,00 bar, lalu pada 10,0 bar (*K* = 0,148).
+**35.** Hitung derajat disosiasi N₂O₄ pada 25 °C dan tekanan total 1,00 bar, lalu pada 10,0 bar (*K* = 0,148).
 
-**33.** Untuk H₂ + I₂(g) ⇌ 2HI dengan *K* = 54 pada 700 K, mulai dari 1,00 mol H₂ dan 1,00 mol I₂, berapa mol HI pada kesetimbangan?
+**36.** Untuk H₂ + I₂(g) ⇌ 2HI dengan *K* = 54 pada 700 K, mulai dari 1,00 mol H₂ dan 1,00 mol I₂, berapa mol HI pada kesetimbangan?
 
-**34.** Mengapa untuk reaksi dengan *K* sangat besar kita boleh menganggap reaksi berjalan sempurna lalu menghitung sisa kecil pereaksi?
+**37.** Mengapa untuk reaksi dengan *K* sangat besar kita boleh menganggap reaksi berjalan sempurna lalu menghitung sisa kecil pereaksi?
+
+**38.** Sebanyak 1,00 mol H₂ dan 1,00 mol I₂ dipanaskan dalam wadah tertutup sampai setimbang pada suhu ketika *K* = 50 untuk $\text{H}_2 + \text{I}_2 \rightleftharpoons 2\text{HI}$. Berapa mol HI terbentuk?
 
 ## Subbab 12.5: Pengaruh tekanan dan gas lembam
 
-**35.** Hitung fraksi N₂O₄ yang terurai pada 25 °C dan 4,00 bar.
+**39.** Hitung fraksi N₂O₄ yang terurai pada 25 °C dan 4,00 bar.
 
-**36.** Untuk reaksi mana tekanan tidak berpengaruh pada komposisi kesetimbangan: (a) $\text{H}_2 + \text{I}_2 \rightleftharpoons 2\text{HI}$; (b) $\text{N}_2\text{O}_4 \rightleftharpoons 2\text{NO}_2$; (c) $\text{CO} + \text{H}_2\text{O} \rightleftharpoons \text{CO}_2 + \text{H}_2$?
+**40.** Untuk reaksi mana tekanan tidak berpengaruh pada komposisi kesetimbangan: (a) $\text{H}_2 + \text{I}_2 \rightleftharpoons 2\text{HI}$; (b) $\text{N}_2\text{O}_4 \rightleftharpoons 2\text{NO}_2$; (c) $\text{CO} + \text{H}_2\text{O} \rightleftharpoons \text{CO}_2 + \text{H}_2$?
 
-**37.** Mengapa menambahkan argon pada volume tetap tidak menggeser kesetimbangan, tetapi pada tekanan tetap menggeser?
+**41.** Mengapa menambahkan argon pada volume tetap tidak menggeser kesetimbangan, tetapi pada tekanan tetap menggeser?
 
-**38.** Apakah *K* bergantung pada tekanan? Bagaimana dengan $K_x$?
+**42.** Apakah *K* bergantung pada tekanan? Bagaimana dengan $K_x$?
 
-**39.** Mengapa menambah gas lembam pada volume tetap tidak menggeser kesetimbangan gas ideal, tetapi menambahnya pada tekanan tetap dapat menggesernya?
+**43.** Mengapa menambah gas lembam pada volume tetap tidak menggeser kesetimbangan gas ideal, tetapi menambahnya pada tekanan tetap dapat menggesernya?
 
-**40.** Ke arah mana kesetimbangan 2SO₂ + O₂ ⇌ 2SO₃ bergeser bila tekanan dinaikkan, dan mengapa *K* tidak berubah?
+**44.** Ke arah mana kesetimbangan 2SO₂ + O₂ ⇌ 2SO₃ bergeser bila tekanan dinaikkan, dan mengapa *K* tidak berubah?
+
+**45.** Hitung derajat penguraian N₂O₄ pada 25 °C dan tekanan total 0,50 bar.
+
+**46.** Ke dalam wadah bervolume tetap yang berisi campuran N₂O₄–NO₂ setimbang ditambahkan argon sampai tekanan total berlipat dua. Bagaimana komposisi kesetimbangan berubah? Jelaskan.
 
 ## Subbab 12.6: Pengaruh suhu: persamaan van 't Hoff
 
-**41.** *K* suatu reaksi berlipat dua bila suhu dinaikkan dari 25 °C ke 35 °C. Hitung $\Delta_\text{r}H^\circ$.
+**47.** *K* suatu reaksi berlipat dua bila suhu dinaikkan dari 25 °C ke 35 °C. Hitung $\Delta_\text{r}H^\circ$.
 
-**42.** Hitung *K* sintesis amonia pada 600 K dengan Δ*H*° tetap.
+**48.** Hitung *K* sintesis amonia pada 600 K dengan Δ*H*° tetap.
 
-**43.** Turunkan persamaan van 't Hoff dari (12.3) dan persamaan Gibbs–Helmholtz.
+**49.** Turunkan persamaan van 't Hoff dari (12.3) dan persamaan Gibbs–Helmholtz.
 
-**44.** Tunjukkan bahwa persamaan Clausius–Clapeyron adalah kasus khusus persamaan van 't Hoff.
+**50.** Tunjukkan bahwa persamaan Clausius–Clapeyron adalah kasus khusus persamaan van 't Hoff.
 
-**45.** Mengapa plot van 't Hoff untuk sintesis amonia (Gambar 12.4) sedikit melengkung?
+**51.** Mengapa plot van 't Hoff untuk sintesis amonia (Gambar 12.4) sedikit melengkung?
 
-**46.** [P] (Python) Pakai rumus kotak Lebih dalam subbab 12.6 untuk menghitung *K* sintesis amonia pada 500 K dan 723 K dari $K(298{,}15\ \text{K}) = 5{,}81 \times 10^5$, $\Delta_\text{r}H^\circ = -92{,}22$ kJ mol⁻¹, dan $\Delta_\text{r}C_p^\circ = -45{,}5$ J K⁻¹ mol⁻¹. Bandingkan dengan hasil tanpa koreksi kapasitas kalor.
+**52.** [P] (Python) Pakai rumus kotak Lebih dalam subbab 12.6 untuk menghitung *K* sintesis amonia pada 500 K dan 723 K dari $K(298{,}15\ \text{K}) = 5{,}81 \times 10^5$, $\Delta_\text{r}H^\circ = -92{,}22$ kJ mol⁻¹, dan $\Delta_\text{r}C_p^\circ = -45{,}5$ J K⁻¹ mol⁻¹. Bandingkan dengan hasil tanpa koreksi kapasitas kalor.
 
-**47.** *K* suatu reaksi menjadi dua kali bila suhu naik dari 25 °C ke 35 °C. Berapa Δ$_\text{r}$*H*°?
+**53.** *K* suatu reaksi menjadi dua kali bila suhu naik dari 25 °C ke 35 °C. Berapa Δ$_\text{r}$*H*°?
 
-**48.** Dengan Δ$_\text{r}$*H*° = +57,2 kJ mol⁻¹, hitung *K* N₂O₄ ⇌ 2NO₂ pada 350 K dari *K* = 0,148 pada 298 K.
+**54.** Dengan Δ$_\text{r}$*H*° = +57,2 kJ mol⁻¹, hitung *K* N₂O₄ ⇌ 2NO₂ pada 350 K dari *K* = 0,148 pada 298 K.
 
-**49.** Mengapa plot ln *K* terhadap 1/*T* berupa garis lurus, dan apa arti kemiringannya?
+**55.** Mengapa plot ln *K* terhadap 1/*T* berupa garis lurus, dan apa arti kemiringannya?
+
+**56.** Tetapan kesetimbangan suatu reaksi berlipat dua ketika suhu naik dari 25 °C ke 35 °C. Hitung $\Delta_\text{r}H^\circ$.
 
 ## Subbab 12.7: Asas Le Chatelier secara termodinamika
 
-**50.** Bagaimana kesetimbangan $\text{N}_2\text{O}_4 \rightleftharpoons 2\text{NO}_2$ bergeser bila (a) suhu dinaikkan, (b) tekanan dinaikkan, (c) NO₂ ditambahkan pada volume tetap?
+**57.** Bagaimana kesetimbangan $\text{N}_2\text{O}_4 \rightleftharpoons 2\text{NO}_2$ bergeser bila (a) suhu dinaikkan, (b) tekanan dinaikkan, (c) NO₂ ditambahkan pada volume tetap?
 
-**51.** [P] Tunjukkan bahwa menambahkan sedikit N₂ ke campuran N₂–H₂–NH₃ yang setimbang pada tekanan total tetap menggeser reaksi ke kiri bila $x_{\text{N}_2} > \tfrac12$.
+**58.** [P] Tunjukkan bahwa menambahkan sedikit N₂ ke campuran N₂–H₂–NH₃ yang setimbang pada tekanan total tetap menggeser reaksi ke kiri bila $x_{\text{N}_2} > \tfrac12$.
 
-**52.** Mengapa katalis tidak menggeser kesetimbangan?
+**59.** Mengapa katalis tidak menggeser kesetimbangan?
 
-**53.** Jelaskan secara termodinamika mengapa menurunkan suhu menaikkan hasil amonia, tetapi pabrik tetap bekerja pada sekitar 450 °C.
+**60.** Jelaskan secara termodinamika mengapa menurunkan suhu menaikkan hasil amonia, tetapi pabrik tetap bekerja pada sekitar 450 °C.
 
-**54.** Apakah asas Le Chatelier selalu benar? Berikan contoh menambah satu pereaksi yang justru mengurangi hasil.
+**61.** Apakah asas Le Chatelier selalu benar? Berikan contoh menambah satu pereaksi yang justru mengurangi hasil.
+
+**62.** Untuk $\text{N}_2\text{O}_4 \rightleftharpoons 2\text{NO}_2$, $\Delta_\text{r}H^\circ$ = +57,2 kJ mol⁻¹ dan *K* = 0,148 pada 25 °C. Hitung *K* pada 35 °C dan jelaskan perubahan warna campuran sesuai asas Le Chatelier.
 
 ## Subbab 12.8: Kesetimbangan dalam industri dan biokimia
 
-**55.** Dari Gambar 12.5, taksir fraksi mol amonia pada kesetimbangan pada 450 °C dan 100 bar.
+**63.** Dari Gambar 12.5, taksir fraksi mol amonia pada kesetimbangan pada 450 °C dan 100 bar.
 
-**56.** Reaksi $\text{A} + \text{H}^+ \rightarrow \text{B}$ mempunyai $\Delta_\text{r}G^\circ = -10{,}0$ kJ mol⁻¹. Hitung $\Delta_\text{r}G^{\circ\prime}$ pada 25 °C.
+**64.** Reaksi $\text{A} + \text{H}^+ \rightarrow \text{B}$ mempunyai $\Delta_\text{r}G^\circ = -10{,}0$ kJ mol⁻¹. Hitung $\Delta_\text{r}G^{\circ\prime}$ pada 25 °C.
 
-**57.** Hitung Δ*G* hidrolisis ATP pada 37 °C di sel otot dengan [ATP] = 5,0 mmol L⁻¹, [ADP] = 0,50 mmol L⁻¹, dan [Pᵢ] = 5,0 mmol L⁻¹.
+**65.** Hitung Δ*G* hidrolisis ATP pada 37 °C di sel otot dengan [ATP] = 5,0 mmol L⁻¹, [ADP] = 0,50 mmol L⁻¹, dan [Pᵢ] = 5,0 mmol L⁻¹.
 
-**58.** Mengapa pabrik amonia tidak beroperasi pada 300 °C, padahal hasil kesetimbangannya jauh lebih tinggi?
+**66.** Mengapa pabrik amonia tidak beroperasi pada 300 °C, padahal hasil kesetimbangannya jauh lebih tinggi?
 
-**59.** Mengapa hasil amonia terukur pada 300 bar lebih tinggi daripada perhitungan gas ideal?
+**67.** Mengapa hasil amonia terukur pada 300 bar lebih tinggi daripada perhitungan gas ideal?
 
-**60.** Pada 723 K dan 300 bar, koefisien fugasitas N₂, H₂, dan NH₃ kira-kira 1,14; 1,09; dan 0,91. Hitung $K_\varphi = \varphi_{\text{NH}_3}^2/(\varphi_{\text{N}_2}\varphi_{\text{H}_2}^3)$ dan fraksi mol amonia dengan cara Contoh 12.16, lalu bandingkan.
+**68.** Pada 723 K dan 300 bar, koefisien fugasitas N₂, H₂, dan NH₃ kira-kira 1,14; 1,09; dan 0,91. Hitung $K_\varphi = \varphi_{\text{NH}_3}^2/(\varphi_{\text{N}_2}\varphi_{\text{H}_2}^3)$ dan fraksi mol amonia dengan cara Contoh 12.16, lalu bandingkan.
 
-**61.** [P] (Python) Gas umpan proses kontak berisi 10% SO₂, 11% O₂, dan 79% N₂ (fraksi mol). Hitung konversi SO₂ pada kesetimbangan $\text{SO}_2 + \tfrac12\text{O}_2 \rightleftharpoons \text{SO}_3$ pada 700 K dan 1 bar, dengan *K* = 290.
+**69.** [P] (Python) Gas umpan proses kontak berisi 10% SO₂, 11% O₂, dan 79% N₂ (fraksi mol). Hitung konversi SO₂ pada kesetimbangan $\text{SO}_2 + \tfrac12\text{O}_2 \rightleftharpoons \text{SO}_3$ pada 700 K dan 1 bar, dengan *K* = 290.
 
-**62.** Mengapa proses Haber–Bosch memakai tekanan sekitar 200–300 bar, padahal kompresor sangat mahal?
+**70.** Mengapa proses Haber–Bosch memakai tekanan sekitar 200–300 bar, padahal kompresor sangat mahal?
 
-**63.** Mengapa reaksi biokimia memakai keadaan standar biokimia (pH 7)?
+**71.** Mengapa reaksi biokimia memakai keadaan standar biokimia (pH 7)?
+
+**72.** Di dalam sel otot, [ATP] = 3,0, [ADP] = 0,50, dan [Pᵢ] = 2,0 mmol L⁻¹. Hitung Δ*G* hidrolisis ATP pada 37 °C ($\Delta_\text{r}G^{\circ\prime}$ = −30,5 kJ mol⁻¹).
 
 ## Subbab 12.9: Kesetimbangan dalam larutan
 
-**64.** Hitung *K*$_\text{sp}$ AgBr pada 25 °C dari Δ$_\text{f}$*G*°: Ag⁺ +77,11; Br⁻ −103,96; AgBr(s) −96,90 kJ mol⁻¹.
+**73.** Hitung *K*$_\text{sp}$ AgBr pada 25 °C dari Δ$_\text{f}$*G*°: Ag⁺ +77,11; Br⁻ −103,96; AgBr(s) −96,90 kJ mol⁻¹.
 
-**65.** Suatu asam lemah mempunyai Δ$_\text{r}$*G*° ionisasi +34,0 kJ mol⁻¹. Hitung p*K*$_\text{a}$-nya pada 25 °C.
+**74.** Suatu asam lemah mempunyai Δ$_\text{r}$*G*° ionisasi +34,0 kJ mol⁻¹. Hitung p*K*$_\text{a}$-nya pada 25 °C.
 
-**66.** Asam format mempunyai *K*$_\text{a}$ = 1,8 × 10⁻⁴. Hitung Δ$_\text{r}$*G*° ionisasinya.
+**75.** Asam format mempunyai *K*$_\text{a}$ = 1,8 × 10⁻⁴. Hitung Δ$_\text{r}$*G*° ionisasinya.
 
-**67.** Hitung pH air murni pada 37 °C (p*K*$_\text{w}$ = 13,62). Apakah darah pH 7,4 basa?
+**76.** Hitung pH air murni pada 37 °C (p*K*$_\text{w}$ = 13,62). Apakah darah pH 7,4 basa?
 
-**68.** Mengapa nilai Δ$_\text{f}$*G*° untuk satu jenis ion tidak dapat diukur, dan konvensi apa yang dipakai?
+**77.** Mengapa nilai Δ$_\text{f}$*G*° untuk satu jenis ion tidak dapat diukur, dan konvensi apa yang dipakai?
 
-**69.** [P] Ionisasi air mempunyai Δ$_\text{r}$*H*° = +55,84 kJ mol⁻¹ dan Δ$_\text{r}$*C*$_p$° ≈ −215 J K⁻¹ mol⁻¹ pada 25 °C. Hitung p*K*$_\text{w}$ pada 100 °C dengan dan tanpa koreksi Δ*C*$_p$, lalu bandingkan dengan nilai terukur 12,26.
+**78.** [P] Ionisasi air mempunyai Δ$_\text{r}$*H*° = +55,84 kJ mol⁻¹ dan Δ$_\text{r}$*C*$_p$° ≈ −215 J K⁻¹ mol⁻¹ pada 25 °C. Hitung p*K*$_\text{w}$ pada 100 °C dengan dan tanpa koreksi Δ*C*$_p$, lalu bandingkan dengan nilai terukur 12,26.
+
+**79.** Dengan $\Delta_\text{f}G^\circ$ Br⁻(aq) = −103,96 dan AgBr(s) = −96,90 kJ mol⁻¹ serta Tabel 12.2, hitung $K_\text{sp}$ AgBr pada 25 °C.
+
+**80.** Dari p*K*$_\text{a}$ ion amonium (9,25), hitung $K_\text{b}$ amonia pada 25 °C.
+
+**81.** Berapa fraksi asam asetat (p*K*$_\text{a}$ = 4,76) yang berupa ion asetat pada pH 5,00?
 
 
 # Jawaban
@@ -231,41 +255,47 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, *RT* = 2,479 kJ mol⁻¹ pada 25 °C, dat
 ::: {.panjang}
 | No. | Jawaban | No. | Jawaban |
 |---|---|---|---|
-| 1 | perubahan banyaknya zat dibagi koefisiennya; 0,80 mol | 36 | (a) dan (c) |
-| 2 | +3,01 kJ mol⁻¹; ke kiri | 37 | volume tetap: tekanan parsial tidak berubah; tekanan tetap: tekanan parsial turun |
-| 3 | suku pencampuran menurunkan *G* dengan kemiringan tak hingga di dekat zat murni | 38 | *K* tidak; $K_x = K(p/p^\circ)^{-\Delta\nu}$ bergantung |
-| 4 | $\Delta_\text{r}G$ bergantung pada komposisi saat itu; $\Delta_\text{r}G^\circ$ pada keadaan standar | 39 | volume tetap: tekanan parsial tidak berubah; tekanan tetap: tekanan parsial semua gas turun |
-| 5 | ξ = 0,189; sama dengan α Contoh 12.6 | 40 | ke kanan (mol gas berkurang); *K* hanya bergantung pada suhu |
-| 6 | −1,53 kJ mol⁻¹; ke kanan | 41 | +52,9 kJ mol⁻¹ |
-| 7 | suku pencampuran *RT* Σ *n* ln *x* selalu menurunkan *G* di antara kedua ujung | 42 | $4{,}3 \times 10^{-3}$ |
-| 8 | Δ$_\text{r}$*G* = 0: setimbang; Δ$_\text{r}$*G*° = 0: *K* = 1 | 43 | $d\ln K/dT = -d(\Delta G^\circ/RT)/dT = \Delta H^\circ/RT^2$ |
-| 9 | $2{,}6 \times 10^{12}$ | 44 | penguapan sebagai reaksi dengan $K = p/p^\circ$ |
-| 10 | $3{,}2 \times 10^3$ | 45 | $\Delta_\text{r}H^\circ$ berubah dengan suhu karena $\Delta_\text{r}C_p^\circ \ne 0$ |
-| 11 | +17,1 kJ mol⁻¹ | 46 | 0,094 dan $3{,}6 \times 10^{-5}$ (tanpa koreksi: 0,17 dan $1{,}9 \times 10^{-4}$) |
-| 12 | 6,74 | 47 | +52,9 kJ mol⁻¹ |
-| 13 | 20 | 48 | 4,5 |
-| 14 | $9{,}7 \times 10^{-6}$ | 49 | van 't Hoff dengan Δ$_\text{r}$*H*° tetap; kemiringan −Δ$_\text{r}$*H*°/*R* |
-| 15 | +4,73 kJ; 0,148 | 50 | (a) kanan; (b) kiri; (c) kiri |
-| 16 | $6{,}8 \times 10^{24}$; reaksi sangat lambat tanpa katalis | 51 | $\partial\ln Q/\partial n_{\text{N}_2} = 2/n - 1/n_{\text{N}_2}$ |
-| 17 | $1{,}0 \times 10^5$ | 52 | tidak mengubah $\Delta_\text{r}G^\circ$, hanya laju |
-| 18 | 0,010 | 53 | reaksi eksoterm: *K* naik pada suhu rendah; tetapi laju terlalu lambat |
-| 19 | 0,041 | 54 | tidak selalu; menambah N₂ pada campuran kaya N₂ dapat mengurangi hasil NH₃ (Contoh 12.14) |
-| 20 | $(p_\text{CO}/p^\circ)^2/(p_{\text{CO}_2}/p^\circ)$ | 55 | sekitar 0,14 |
-| 21 | 4,2 bar | 56 | +29,95 kJ mol⁻¹ |
-| 22 | aktivitasnya satu | 57 | −50,1 kJ mol⁻¹ |
-| 23 | 0,0060 | 58 | laju reaksi terlalu lambat |
-| 24 | aktivitasnya 1 (keadaan standarnya sendiri) | 59 | koefisien fugasitas NH₃ kecil |
-| 25 | bergantung bila Δν$_\text{gas}$ ≠ 0 | 60 | 0,56; $x_{\text{NH}_3} = 0{,}34$ (Contoh 12.16: 0,35) |
-| 26 | 0,220 mol | 61 | 98,7% |
-| 27 | 0,80 | 62 | Δν$_\text{gas}$ = −2: tekanan tinggi menaikkan hasil kesetimbangan |
-| 28 | 58% | 63 | [H⁺] dalam sel sekitar 10⁻⁷ M; keadaan standar 1 M H⁺ jauh dari kenyataan |
-| 29 | 0,51 | 64 | $5{,}3 \times 10^{-13}$ |
-| 30 | *K* hanya berlaku pada kesetimbangan | 65 | 5,96 |
-| 31 | dari $K = 4\alpha^2p/[(1 - \alpha^2)p^\circ]$ | 66 | +21,4 kJ mol⁻¹ |
-| 32 | 0,189; 0,061 | 67 | 6,81; ya, 0,6 satuan di atas netral |
-| 33 | 1,57 mol | 68 | larutan harus netral; Δ$_\text{f}$*G*°(H⁺, aq) = 0 |
-| 34 | pendekatan itu menghindari pengurangan dua bilangan besar yang hampir sama | 69 | tanpa: 12,03; dengan: 12,29 |
-| 35 | 0,096 |  |  |
+| 1 | perubahan banyaknya zat dibagi koefisiennya; 0,80 mol | 42 | *K* tidak; $K_x = K(p/p^\circ)^{-\Delta\nu}$ bergantung |
+| 2 | +3,01 kJ mol⁻¹; ke kiri | 43 | volume tetap: tekanan parsial tidak berubah; tekanan tetap: tekanan parsial semua gas turun |
+| 3 | suku pencampuran menurunkan *G* dengan kemiringan tak hingga di dekat zat murni | 44 | ke kanan (mol gas berkurang); *K* hanya bergantung pada suhu |
+| 4 | $\Delta_\text{r}G$ bergantung pada komposisi saat itu; $\Delta_\text{r}G^\circ$ pada keadaan standar | 45 | 0,262 |
+| 5 | ξ = 0,189; sama dengan α Contoh 12.6 | 46 | tidak berubah; tekanan parsial pereaksi dan hasil tetap, *Q* = *K* |
+| 6 | −1,53 kJ mol⁻¹; ke kanan | 47 | +52,9 kJ mol⁻¹ |
+| 7 | suku pencampuran *RT* Σ *n* ln *x* selalu menurunkan *G* di antara kedua ujung | 48 | $4{,}3 \times 10^{-3}$ |
+| 8 | Δ$_\text{r}$*G* = 0: setimbang; Δ$_\text{r}$*G*° = 0: *K* = 1 | 49 | $d\ln K/dT = -d(\Delta G^\circ/RT)/dT = \Delta H^\circ/RT^2$ |
+| 9 | +4,74 kJ mol⁻¹; −6,42 kJ mol⁻¹; ke kanan (N₂O₄ terurai) | 50 | penguapan sebagai reaksi dengan $K = p/p^\circ$ |
+| 10 | $2{,}6 \times 10^{12}$ | 51 | $\Delta_\text{r}H^\circ$ berubah dengan suhu karena $\Delta_\text{r}C_p^\circ \ne 0$ |
+| 11 | $3{,}2 \times 10^3$ | 52 | 0,094 dan $3{,}6 \times 10^{-5}$ (tanpa koreksi: 0,17 dan $1{,}9 \times 10^{-4}$) |
+| 12 | +17,1 kJ mol⁻¹ | 53 | +52,9 kJ mol⁻¹ |
+| 13 | 6,74 | 54 | 4,5 |
+| 14 | 20 | 55 | van 't Hoff dengan Δ$_\text{r}$*H*° tetap; kemiringan −Δ$_\text{r}$*H*°/*R* |
+| 15 | $9{,}7 \times 10^{-6}$ | 56 | +52,9 kJ mol⁻¹ |
+| 16 | +4,73 kJ; 0,148 | 57 | (a) kanan; (b) kiri; (c) kiri |
+| 17 | $6{,}8 \times 10^{24}$; reaksi sangat lambat tanpa katalis | 58 | $\partial\ln Q/\partial n_{\text{N}_2} = 2/n - 1/n_{\text{N}_2}$ |
+| 18 | $1{,}0 \times 10^5$ | 59 | tidak mengubah $\Delta_\text{r}G^\circ$, hanya laju |
+| 19 | 0,010 | 60 | reaksi eksoterm: *K* naik pada suhu rendah; tetapi laju terlalu lambat |
+| 20 | 3,1 × 10⁻⁴; 8,1 × 10⁻³ | 61 | tidak selalu; menambah N₂ pada campuran kaya N₂ dapat mengurangi hasil NH₃ (Contoh 12.14) |
+| 21 | 0,041 | 62 | 0,313; lebih cokelat karena reaksi endoterm bergeser ke NO₂ |
+| 22 | $(p_\text{CO}/p^\circ)^2/(p_{\text{CO}_2}/p^\circ)$ | 63 | sekitar 0,14 |
+| 23 | 4,2 bar | 64 | +29,95 kJ mol⁻¹ |
+| 24 | aktivitasnya satu | 65 | −50,1 kJ mol⁻¹ |
+| 25 | 0,0060 | 66 | laju reaksi terlalu lambat |
+| 26 | aktivitasnya 1 (keadaan standarnya sendiri) | 67 | koefisien fugasitas NH₃ kecil |
+| 27 | bergantung bila Δν$_\text{gas}$ ≠ 0 | 68 | 0,56; $x_{\text{NH}_3} = 0{,}34$ (Contoh 12.16: 0,35) |
+| 28 | *K* = 5,8 × 10⁵; $K_c$ = 3,6 × 10⁸ | 69 | 98,7% |
+| 29 | 0,220 mol | 70 | Δν$_\text{gas}$ = −2: tekanan tinggi menaikkan hasil kesetimbangan |
+| 30 | 0,80 | 71 | [H⁺] dalam sel sekitar 10⁻⁷ M; keadaan standar 1 M H⁺ jauh dari kenyataan |
+| 31 | 58% | 72 | −51,1 kJ mol⁻¹ |
+| 32 | 0,51 | 73 | $5{,}3 \times 10^{-13}$ |
+| 33 | *K* hanya berlaku pada kesetimbangan | 74 | 5,96 |
+| 34 | dari $K = 4\alpha^2p/[(1 - \alpha^2)p^\circ]$ | 75 | +21,4 kJ mol⁻¹ |
+| 35 | 0,189; 0,061 | 76 | 6,81; ya, 0,6 satuan di atas netral |
+| 36 | 1,57 mol | 77 | larutan harus netral; Δ$_\text{f}$*G*°(H⁺, aq) = 0 |
+| 37 | pendekatan itu menghindari pengurangan dua bilangan besar yang hampir sama | 78 | tanpa: 12,03; dengan: 12,29 |
+| 38 | 1,56 mol | 79 | 5,3 × 10⁻¹³ |
+| 39 | 0,096 | 80 | 1,8 × 10⁻⁵ |
+| 40 | (a) dan (c) | 81 | 0,63 |
+| 41 | volume tetap: tekanan parsial tidak berubah; tekanan tetap: tekanan parsial turun |  |  |
 :::
 
 
@@ -285,14 +315,14 @@ print(r.x, G(r.x))                         # 0.189  96.94 kJ
 
 Minimum terletak di ξ = 0,189, tepat α pada Contoh 12.6, dengan *G* = 96,94 kJ, di bawah kedua ujung (97,89 kJ untuk N₂O₄ murni dan 102,62 kJ untuk NO₂ murni). Mencari minimum *G* dan menyelesaikan $Q = K$ adalah dua cara menghitung hal yang sama, karena kemiringan $dG/d\xi$ adalah $\Delta_\text{r}G$ (12.1), dan kemiringan itu nol tepat ketika $Q = K$. Perangkat lunak teknik kimia untuk reaktor dengan banyak reaksi sekaligus memakai cara pertama: meminimumkan *G* langsung, tanpa menulis satu tetapan kesetimbangan pun.
 
-**Soal 14.** Reaksi yang diminta adalah kebalikan reaksi pergeseran air–gas pada Contoh 12.2 (c), yang mempunyai $K = 1{,}03 \times 10^5$. Membalik reaksi membalik tanda $\Delta_\text{r}G^\circ$, sehingga *K* dibalik:
+**Soal 15.** Reaksi yang diminta adalah kebalikan reaksi pergeseran air–gas pada Contoh 12.2 (c), yang mempunyai $K = 1{,}03 \times 10^5$. Membalik reaksi membalik tanda $\Delta_\text{r}G^\circ$, sehingga *K* dibalik:
 $$
 K = \frac{1}{1{,}03 \times 10^5} = 9{,}7 \times 10^{-6} .
 $$
 
 *Cara berpikir:* $\ln K = -\Delta_\text{r}G^\circ/RT$ dan $\Delta_\text{r}G^\circ$ adalah fungsi keadaan yang mengikuti stoikiometri. Apa yang berlaku untuk $\Delta_\text{r}G^\circ$ (dibalik → berganti tanda, dijumlahkan → dijumlahkan, dikalikan *n* → dikalikan *n*) berlaku untuk ln *K*, sehingga *K* masing-masing dibalik, dikalikan, dan dipangkatkan. Pada 25 °C, reaksi balik ini praktis tidak berjalan; tetapi pada suhu tinggi, seperti di Contoh 12.8, *K* naik mendekati 1 dan reaksi ini menjadi berarti.
 
-**Soal 29.** Dengan α fraksi terurai: PCl₅ 1 − α, PCl₃ α, Cl₂ α, total 1 + α. Seperti pada N₂O₄,
+**Soal 32.** Dengan α fraksi terurai: PCl₅ 1 − α, PCl₃ α, Cl₂ α, total 1 + α. Seperti pada N₂O₄,
 $$
 K = \frac{\alpha^2}{1 - \alpha^2}\cdot\frac{p}{p^\circ} \quad\Rightarrow\quad \alpha = \sqrt{\frac{K}{K + p/p^\circ}} = \sqrt{\frac{1{,}8}{6{,}8}} = 0{,}51 .
 $$
@@ -300,7 +330,7 @@ Pada 1,00 bar, $\alpha = \sqrt{1{,}8/2{,}8} = 0{,}80$.
 
 *Cara berpikir:* reaksi menambah satu mol gas (Δν = +1), sehingga tekanan tinggi menekan penguraian, sesuai Le Chatelier. Besarnya pergeseran diberikan oleh $K_x = K(p/p^\circ)^{-1}$: menaikkan tekanan lima kali menurunkan $K_x$ lima kali, dan α turun dari 0,80 ke 0,51. Pengaruh tekanan tidak pernah membuat *K* sendiri berubah.
 
-**Soal 46.**
+**Soal 52.**
 
 ```python
 import math
@@ -315,7 +345,7 @@ for T2 in (500, 723):
 
 Koreksi kapasitas kalor menurunkan *K* hampir dua kali pada 500 K dan lima kali pada 723 K. Alasannya: $\Delta_\text{r}C_p^\circ$ negatif membuat $\Delta_\text{r}H^\circ$ makin negatif ketika suhu naik (hukum Kirchhoff), sehingga *K* turun lebih cepat daripada ramalan dengan Δ*H*° tetap. Makin lebar rentang suhunya, makin besar koreksinya.
 
-**Soal 51.** Dengan $p_\text{J} = (n_\text{J}/n)p$, $\ln Q = 2\ln n_{\text{NH}_3} + 2\ln n - \ln n_{\text{N}_2} - 3\ln n_{\text{H}_2} + \text{tetapan}$. Turunkan terhadap $n_{\text{N}_2}$, dengan *n* juga bertambah:
+**Soal 58.** Dengan $p_\text{J} = (n_\text{J}/n)p$, $\ln Q = 2\ln n_{\text{NH}_3} + 2\ln n - \ln n_{\text{N}_2} - 3\ln n_{\text{H}_2} + \text{tetapan}$. Turunkan terhadap $n_{\text{N}_2}$, dengan *n* juga bertambah:
 $$
 \frac{\partial\ln Q}{\partial n_{\text{N}_2}} = \frac{2}{n} - \frac{1}{n_{\text{N}_2}} .
 $$
@@ -323,7 +353,7 @@ Turunan ini positif, sehingga *Q* naik di atas *K* dan reaksi bergeser ke kiri, 
 
 *Cara berpikir:* menambah N₂ menaikkan tekanan parsial N₂ (suku $-1/n_{\text{N}_2}$) tetapi juga menambah mol total, yang mengencerkan semua gas lain (suku $2/n$, dari Δν = −2). Bila N₂ sudah melimpah, penambahan berikutnya hampir tidak menaikkan fraksi molnya, sedangkan pengencerannya tetap terasa. Kesimpulan umumnya: untuk menilai arah, hitung *Q*; jangan mengandalkan kata "melawan gangguan".
 
-**Soal 61.** Basis 1 mol umpan: SO₂ 0,10; O₂ 0,11; N₂ 0,79. Dengan konversi *X*: SO₂ $0{,}10(1 - X)$, O₂ $0{,}11 - 0{,}05X$, SO₃ $0{,}10X$, total $1 - 0{,}05X$. Pada 1 bar, $K = x_{\text{SO}_3}/(x_{\text{SO}_2}x_{\text{O}_2}^{1/2})$:
+**Soal 69.** Basis 1 mol umpan: SO₂ 0,10; O₂ 0,11; N₂ 0,79. Dengan konversi *X*: SO₂ $0{,}10(1 - X)$, O₂ $0{,}11 - 0{,}05X$, SO₃ $0{,}10X$, total $1 - 0{,}05X$. Pada 1 bar, $K = x_{\text{SO}_3}/(x_{\text{SO}_2}x_{\text{O}_2}^{1/2})$:
 
 ```python
 from scipy.optimize import brentq
@@ -336,7 +366,7 @@ print(brentq(f, 1e-6, 0.999999))   # 0.987
 
 Konversi 98,7%. Walaupun *K* turun dari $2{,}6 \times 10^{12}$ pada suhu kamar menjadi 290 pada 700 K, oksigen berlebih dan nitrogen yang tidak ikut bereaksi masih memungkinkan hampir seluruh SO₂ teroksidasi. Pada 1000 K (*K* = 1,8), perhitungan yang sama hanya memberi 36%; inilah sebabnya pabrik mendinginkan gas di antara lapisan katalis.
 
-**Soal 69.** Tanpa koreksi, van 't Hoff dengan Δ$_\text{r}$*H*° tetap memberi
+**Soal 78.** Tanpa koreksi, van 't Hoff dengan Δ$_\text{r}$*H*° tetap memberi
 $$
 \ln\frac{K_\text{w}(373)}{K_\text{w}(298)} = -\frac{\Delta_\text{r}H^\circ}{R}\left(\frac{1}{373{,}15} - \frac{1}{298{,}15}\right) = 4{,}53 ,
 $$

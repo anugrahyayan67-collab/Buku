@@ -15,6 +15,9 @@ Untuk N₂O₄ ⇌ 2NO₂ pada 25 °C (Δ$_\text{r}$*G*° = +4,73 kJ), hitung Δ
 Mengapa kurva *G* terhadap ξ (Gambar 12.1) mempunyai minimum, walaupun Δ$_\text{r}$*G*° positif? ||| suku pencampuran *RT* Σ *n* ln *x* selalu menurunkan *G* di antara kedua ujung
 Apa arti Δ$_\text{r}$*G* = 0 dan apa beda maknanya dengan Δ$_\text{r}$*G*° = 0? ||| Δ$_\text{r}$*G* = 0: setimbang; Δ$_\text{r}$*G*° = 0: *K* = 1
 
+
+Pada 25 °C, suatu campuran berisi NO₂ 0,10 bar dan N₂O₄ 0,90 bar ($K$ = 0,148 untuk $\text{N}_2\text{O}_4 \rightleftharpoons 2\text{NO}_2$). Hitung $\Delta_\text{r}G^\circ$ dan $\Delta_\text{r}G$, lalu tentukan arah reaksi. ||| +4,74 kJ mol⁻¹; −6,42 kJ mol⁻¹; ke kanan (N₂O₄ terurai)
+
 ## Subbab 12.2: Energi Gibbs standar reaksi dan tetapan kesetimbangan
 
 Hitung *K* pada 25 °C untuk $\text{SO}_2 + \tfrac12\text{O}_2 \rightleftharpoons \text{SO}_3$ ($\Delta_\text{r}G^\circ = -70{,}87$ kJ mol⁻¹). ||| $2{,}6 \times 10^{12}$
@@ -31,6 +34,9 @@ Hitung *K* pada 25 °C untuk 2SO₂ + O₂ ⇌ 2SO₃ (Δ$_\text{f}$*G*°: SO₂
 Hitung *K* reaksi pergeseran air–gas CO + H₂O(g) ⇌ CO₂ + H₂ pada 25 °C. ||| $1{,}0 \times 10^5$
 Bila *K* reaksi A ⇌ B adalah 10, berapa *K* untuk 2B ⇌ 2A? ||| 0,010
 
+
+Reaksi dengan $\Delta_\text{r}G^\circ$ = +20,0 kJ mol⁻¹ (dianggap tetap): hitung *K* pada 298 K dan 500 K. ||| 3,1 × 10⁻⁴; 8,1 × 10⁻³
+
 ## Subbab 12.3: K, K_c, dan K_x
 
 Untuk $\text{PCl}_5 \rightleftharpoons \text{PCl}_3 + \text{Cl}_2$, *K* = 1,8 pada 523 K. Hitung $K_c$ dengan $c^\circ = 1$ mol L⁻¹. ||| 0,041
@@ -43,6 +49,9 @@ Mengapa padatan murni tidak muncul dalam *K*? ||| aktivitasnya satu
 Ubah *K* = 0,148 untuk N₂O₄ ⇌ 2NO₂ pada 25 °C menjadi *K*$_\text{c}$ (*c*° = 1 mol L⁻¹). ||| 0,0060
 Mengapa padatan dan cairan murni tidak muncul dalam ungkapan *K*? ||| aktivitasnya 1 (keadaan standarnya sendiri)
 Kapan *K*$_\text{x}$ bergantung pada tekanan total, dan kapan tidak? ||| bergantung bila Δν$_\text{gas}$ ≠ 0
+
+
+Dengan $\Delta_\text{f}G^\circ$(NH₃, g) = −16,45 kJ mol⁻¹, hitung *K* dan $K_c$ (dalam mol L⁻¹) untuk $\text{N}_2 + 3\text{H}_2 \rightleftharpoons 2\text{NH}_3$ pada 25 °C. ||| *K* = 5,8 × 10⁵; $K_c$ = 3,6 × 10⁸
 
 ## Subbab 12.4: Menghitung komposisi kesetimbangan
 
@@ -60,6 +69,9 @@ Hitung derajat disosiasi N₂O₄ pada 25 °C dan tekanan total 1,00 bar, lalu p
 Untuk H₂ + I₂(g) ⇌ 2HI dengan *K* = 54 pada 700 K, mulai dari 1,00 mol H₂ dan 1,00 mol I₂, berapa mol HI pada kesetimbangan? ||| 1,57 mol
 Mengapa untuk reaksi dengan *K* sangat besar kita boleh menganggap reaksi berjalan sempurna lalu menghitung sisa kecil pereaksi? ||| pendekatan itu menghindari pengurangan dua bilangan besar yang hampir sama
 
+
+Sebanyak 1,00 mol H₂ dan 1,00 mol I₂ dipanaskan dalam wadah tertutup sampai setimbang pada suhu ketika *K* = 50 untuk $\text{H}_2 + \text{I}_2 \rightleftharpoons 2\text{HI}$. Berapa mol HI terbentuk? ||| 1,56 mol
+
 ## Subbab 12.5: Pengaruh tekanan dan gas lembam
 
 Hitung fraksi N₂O₄ yang terurai pada 25 °C dan 4,00 bar. ||| 0,096
@@ -71,6 +83,10 @@ Apakah *K* bergantung pada tekanan? Bagaimana dengan $K_x$? ||| *K* tidak; $K_x 
 
 Mengapa menambah gas lembam pada volume tetap tidak menggeser kesetimbangan gas ideal, tetapi menambahnya pada tekanan tetap dapat menggesernya? ||| volume tetap: tekanan parsial tidak berubah; tekanan tetap: tekanan parsial semua gas turun
 Ke arah mana kesetimbangan 2SO₂ + O₂ ⇌ 2SO₃ bergeser bila tekanan dinaikkan, dan mengapa *K* tidak berubah? ||| ke kanan (mol gas berkurang); *K* hanya bergantung pada suhu
+
+
+Hitung derajat penguraian N₂O₄ pada 25 °C dan tekanan total 0,50 bar. ||| 0,262
+Ke dalam wadah bervolume tetap yang berisi campuran N₂O₄–NO₂ setimbang ditambahkan argon sampai tekanan total berlipat dua. Bagaimana komposisi kesetimbangan berubah? Jelaskan. ||| tidak berubah; tekanan parsial pereaksi dan hasil tetap, *Q* = *K*
 
 ## Subbab 12.6: Pengaruh suhu: persamaan van 't Hoff
 
@@ -88,6 +104,9 @@ Mengapa plot van 't Hoff untuk sintesis amonia (Gambar 12.4) sedikit melengkung?
 Dengan Δ$_\text{r}$*H*° = +57,2 kJ mol⁻¹, hitung *K* N₂O₄ ⇌ 2NO₂ pada 350 K dari *K* = 0,148 pada 298 K. ||| 4,5
 Mengapa plot ln *K* terhadap 1/*T* berupa garis lurus, dan apa arti kemiringannya? ||| van 't Hoff dengan Δ$_\text{r}$*H*° tetap; kemiringan −Δ$_\text{r}$*H*°/*R*
 
+
+Tetapan kesetimbangan suatu reaksi berlipat dua ketika suhu naik dari 25 °C ke 35 °C. Hitung $\Delta_\text{r}H^\circ$. ||| +52,9 kJ mol⁻¹
+
 ## Subbab 12.7: Asas Le Chatelier secara termodinamika
 
 Bagaimana kesetimbangan $\text{N}_2\text{O}_4 \rightleftharpoons 2\text{NO}_2$ bergeser bila (a) suhu dinaikkan, (b) tekanan dinaikkan, (c) NO₂ ditambahkan pada volume tetap? ||| (a) kanan; (b) kiri; (c) kiri
@@ -98,6 +117,9 @@ Mengapa katalis tidak menggeser kesetimbangan? ||| tidak mengubah $\Delta_\text{
 
 Jelaskan secara termodinamika mengapa menurunkan suhu menaikkan hasil amonia, tetapi pabrik tetap bekerja pada sekitar 450 °C. ||| reaksi eksoterm: *K* naik pada suhu rendah; tetapi laju terlalu lambat
 Apakah asas Le Chatelier selalu benar? Berikan contoh menambah satu pereaksi yang justru mengurangi hasil. ||| tidak selalu; menambah N₂ pada campuran kaya N₂ dapat mengurangi hasil NH₃ (Contoh 12.14)
+
+
+Untuk $\text{N}_2\text{O}_4 \rightleftharpoons 2\text{NO}_2$, $\Delta_\text{r}H^\circ$ = +57,2 kJ mol⁻¹ dan *K* = 0,148 pada 25 °C. Hitung *K* pada 35 °C dan jelaskan perubahan warna campuran sesuai asas Le Chatelier. ||| 0,313; lebih cokelat karena reaksi endoterm bergeser ke NO₂
 
 ## Subbab 12.8: Kesetimbangan dalam industri dan biokimia
 
@@ -114,6 +136,9 @@ Pada 723 K dan 300 bar, koefisien fugasitas N₂, H₂, dan NH₃ kira-kira 1,14
 Mengapa proses Haber–Bosch memakai tekanan sekitar 200–300 bar, padahal kompresor sangat mahal? ||| Δν$_\text{gas}$ = −2: tekanan tinggi menaikkan hasil kesetimbangan
 Mengapa reaksi biokimia memakai keadaan standar biokimia (pH 7)? ||| [H⁺] dalam sel sekitar 10⁻⁷ M; keadaan standar 1 M H⁺ jauh dari kenyataan
 
+
+Di dalam sel otot, [ATP] = 3,0, [ADP] = 0,50, dan [Pᵢ] = 2,0 mmol L⁻¹. Hitung Δ*G* hidrolisis ATP pada 37 °C ($\Delta_\text{r}G^{\circ\prime}$ = −30,5 kJ mol⁻¹). ||| −51,1 kJ mol⁻¹
+
 ## Subbab 12.9: Kesetimbangan dalam larutan
 
 Hitung *K*$_\text{sp}$ AgBr pada 25 °C dari Δ$_\text{f}$*G*°: Ag⁺ +77,11; Br⁻ −103,96; AgBr(s) −96,90 kJ mol⁻¹. ||| $5{,}3 \times 10^{-13}$
@@ -122,4 +147,9 @@ Asam format mempunyai *K*$_\text{a}$ = 1,8 × 10⁻⁴. Hitung Δ$_\text{r}$*G*�
 Hitung pH air murni pada 37 °C (p*K*$_\text{w}$ = 13,62). Apakah darah pH 7,4 basa? ||| 6,81; ya, 0,6 satuan di atas netral
 Mengapa nilai Δ$_\text{f}$*G*° untuk satu jenis ion tidak dapat diukur, dan konvensi apa yang dipakai? ||| larutan harus netral; Δ$_\text{f}$*G*°(H⁺, aq) = 0
 @kwt [P] Ionisasi air mempunyai Δ$_\text{r}$*H*° = +55,84 kJ mol⁻¹ dan Δ$_\text{r}$*C*$_p$° ≈ −215 J K⁻¹ mol⁻¹ pada 25 °C. Hitung p*K*$_\text{w}$ pada 100 °C dengan dan tanpa koreksi Δ*C*$_p$, lalu bandingkan dengan nilai terukur 12,26. ||| tanpa: 12,03; dengan: 12,29
+
+
+Dengan $\Delta_\text{f}G^\circ$ Br⁻(aq) = −103,96 dan AgBr(s) = −96,90 kJ mol⁻¹ serta Tabel 12.2, hitung $K_\text{sp}$ AgBr pada 25 °C. ||| 5,3 × 10⁻¹³
+Dari p*K*$_\text{a}$ ion amonium (9,25), hitung $K_\text{b}$ amonia pada 25 °C. ||| 1,8 × 10⁻⁵
+Berapa fraksi asam asetat (p*K*$_\text{a}$ = 4,76) yang berupa ion asetat pada pH 5,00? ||| 0,63
 
