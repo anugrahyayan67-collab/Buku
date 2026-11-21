@@ -5,7 +5,7 @@ TUA, BIRU, MUDA, JG, JT, HJ = '#0e2748', '#1b75bc', '#7fc0f0', '#f0a060', '#b554
 MERAH = '#c0392b'
 WARNA = {'O': JT, 'N': BIRU, 'Cl': HJ, 'F': HJ, 'Br': '#8b3a1a', 'I': '#6a3d9a', 'S': '#b8860b', 'H': TUA, 'C': TUA}
 
-def molekul(ax, atom, ikatan, lp=None, muatan=None, ox=0.0, oy=0.0, s=1.0, fs=13, lw=1.6, gap=0.24, warna=None, z=3):
+def molekul(ax, atom, ikatan, lp=None, muatan=None, ox=0.0, oy=0.0, s=1.0, fs=12, lw=1.25, gap=0.24, warna=None, z=3):
     """atom: {nama: (x, y, label)}; label '' = titik sudut karbon tanpa huruf.
     ikatan: [(a, b, orde)] orde 1, 2, 3, 'w' (baji), 'h' (garis putus), 'p' (ikatan parsial putus-putus).
     lp: {nama: [sudut, ...]} pasangan bebas; muatan: {nama: (teks, sudut)}."""

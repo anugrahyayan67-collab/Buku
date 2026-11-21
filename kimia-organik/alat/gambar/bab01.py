@@ -14,7 +14,7 @@ TUA, BIRU, MUDA, JG, JT, HJ = '#0e2748', '#1b75bc', '#7fc0f0', '#f0a060', '#b554
 # 1. rumus garis
 def gbr(smi, w=520, h=300):
     d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions()
-    o.bondLineWidth = 3; o.fixedFontSize = 30; o.updateAtomPalette({8: (0.71, 0.33, 0.11), 7: (0.11, 0.46, 0.74)})
+    o.bondLineWidth = 2; o.fixedFontSize = 30; o.updateAtomPalette({8: (0.71, 0.33, 0.11), 7: (0.11, 0.46, 0.74)})
     o.clearBackground = True; o.padding = 0.12; o.fixedBondLength = 45
     rdMolDraw2D.PrepareAndDrawMolecule(d, Chem.MolFromSmiles(smi)); d.FinishDrawing()
     return Image.open(io.BytesIO(d.GetDrawingText()))
@@ -318,7 +318,7 @@ plt.tight_layout(); simpan(f, 'didih')
 # 15. ikatan hidrogen etanol vs dimetil eter
 f, ax = kanv(7.4, 3.2, (0, 30), (-0.8, 12))
 def etanol(ox, oy, ang=0):
-    return molekul(ax, {'R': (0, 0, 'CH₃CH₂'), 'O': (3.2, 0, 'O'), 'H': (4.0, -0.7, 'H')}, [('R', 'O', 1), ('O', 'H', 1)], lp={'O': [80, 140]}, ox=ox, oy=oy, s=1.3, gap=0.24)
+    return molekul(ax, {'R': (0, 0, 'C₂H₅'), 'O': (2.6, 0, 'O'), 'H': (3.4, -0.7, 'H')}, [('R', 'O', 1), ('O', 'H', 1)], lp={'O': [80, 140]}, ox=ox, oy=oy, s=1.3, gap=0.24)
 P1 = etanol(1.6, 9.0); P2 = etanol(6.0, 5.6); P3 = etanol(1.6, 2.4)
 for a, b in [(P1['H'], P2['O']), (P2['H'], P3['O'] + np.array([0.1, 0.3]))]:
     ax.plot([a[0] + 0.1, b[0] - 0.05], [a[1] - 0.15, b[1] + 0.3], color=BIRU, lw=1.6, ls=(0, (2, 2)))
@@ -558,3 +558,26 @@ for k, (nm, t_, sud, npb) in enumerate([('ch4', 'metana', '109,5°', 0), ('nh3',
     f.text(k * 0.333 + 0.166, 0.03, f'{t_} ({sud})\n{4 - npb} ikatan, {npb} pasangan bebas', ha='center', fontsize=8.8, color=TUA)
 f.savefig(f'{F}/vsepr.png', bbox_inches='tight'); plt.close(f)
 print('ok webgl')
+
+# rotasi ikatan rangkap: render 3D
+dCC = 1.34; hx_, hz_ = 1.09 * np.cos(np.radians(60)), 1.09 * np.sin(np.radians(60))
+def etena(putar90=False):
+    a = [('C', (-dCC / 2, 0, 0)), ('C', (dCC / 2, 0, 0)), ('H', (-dCC / 2 - hx_, hz_, 0)), ('H', (-dCC / 2 - hx_, -hz_, 0))]
+    if putar90: a += [('H', (dCC / 2 + hx_, 0, hz_)), ('H', (dCC / 2 + hx_, 0, -hz_))]
+    else: a += [('H', (dCC / 2 + hx_, hz_, 0)), ('H', (dCC / 2 + hx_, -hz_, 0))]
+    return a, [(0, 1), (0, 2), (0, 3), (1, 4), (1, 5)]
+J = []
+for k, tw in [('rata', False), ('putar', True)]:
+    at, ik = etena(tw); sp = spek_molekul(at, ik); sp.update({'w': 640, 'h': 520, 'zoom': 1.5, 'camdir': [0.55, -1, 0.5]})
+    sp['lobes'] = porb((0, 0, 1), 0.8, JG_O, JG_O, (-dCC / 2, 0, 0)) + (porb((0, 1, 0), 0.8, JG_O, JG_O, (dCC / 2, 0, 0)) if tw else porb((0, 0, 1), 0.8, JG_O, JG_O, (dCC / 2, 0, 0)))
+    for l_ in sp['lobes']: l_['w'] = 0.27; l_['a'] = 0.78
+    J.append((sp, f'{TMP}/r_{k}.png'))
+render(J)
+f = plt.figure(figsize=(7.0, 2.4), dpi=220)
+a = bingkai(f, [0.0, 0.2, 0.42, 0.8]); tampil(a, f'{TMP}/r_rata.png'); f.text(0.21, 0.04, 'kedua orbital p sejajar:\ntumpang tindih, ikatan π ada', ha='center', fontsize=8.8, color=TUA)
+a = bingkai(f, [0.58, 0.2, 0.42, 0.8]); tampil(a, f'{TMP}/r_putar.png'); f.text(0.79, 0.04, 'satu karbon diputar 90°:\ntumpang tindih nol, ikatan π putus', ha='center', fontsize=8.8, color=TUA)
+f.add_artist(FancyArrowPatch((0.44, 0.55), (0.56, 0.55), transform=f.transFigure, arrowstyle='-|>', mutation_scale=12, color=TUA, lw=1.3)); f.text(0.5, 0.65, '≈ 260 kJ mol$^{-1}$', ha='center', fontsize=8.8, color=MERAH)
+f.savefig(f'{F}/rotasi.png', bbox_inches='tight'); plt.close(f)
+print('ok rotasi')
+
+print('ok ikatanH')

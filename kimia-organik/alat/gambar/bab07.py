@@ -43,7 +43,7 @@ ax[0].legend(frameon=False, fontsize=7.5, loc='upper left')
 plt.tight_layout(); f.savefig(f'{F}/radsel.png', bbox_inches='tight'); plt.close(f)
 
 def rd(smi, w=360, h=300, fs=30):
-    m = Chem.MolFromSmiles(smi); d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 3; o.fixedFontSize = fs; o.padding = 0.18
+    m = Chem.MolFromSmiles(smi); d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 2; o.fixedFontSize = fs; o.padding = 0.18
     o.updateAtomPalette({35: (0.71, 0.33, 0.11), 8: (0.71, 0.33, 0.11)})
     rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing(); return Image.open(io.BytesIO(d.GetDrawingText()))
 

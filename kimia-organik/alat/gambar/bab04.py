@@ -90,7 +90,7 @@ def T(ax, x, y, s, c=TUA, fs=10, **k): ax.text(x, y, s, ha=k.pop('ha', 'center')
 def rd(smi, w=420, h=320, bl=45, fs=26, hs=False):
     m = Chem.MolFromSmiles(smi)
     if hs: m = Chem.AddHs(m, explicitOnly=False, onlyOnAtoms=tuple(a.GetIdx() for a in m.GetAtoms() if a.HasProp('_CIPCode') or a.GetChiralTag() != Chem.ChiralType.CHI_UNSPECIFIED))
-    d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 3; o.fixedFontSize = fs; o.padding = 0.12; o.fixedBondLength = bl
+    d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 2; o.fixedFontSize = fs; o.padding = 0.12; o.fixedBondLength = bl
     o.updateAtomPalette({8: (0.71, 0.33, 0.11), 1: (0.11, 0.46, 0.74)}); o.setBackgroundColour((1, 1, 1, 0))
     rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing(); return Image.open(io.BytesIO(d.GetDrawingText()))
 
@@ -223,3 +223,100 @@ for bb, x in zip(b, v): ax.text(bb.get_x() + bb.get_width() / 2, x + 2, kom(x, 0
 ax.set_ylabel('kalor pembakaran (kJ g$^{-1}$)'); ax.set_ylim(0, 160); ax.text(3.0, 70, 'sudah mengandung O:\nsebagian "sudah terbakar"', fontsize=8, color=JT, ha='center')
 plt.tight_layout(); simpan(f, 'bakar')
 print('ok tambahan')
+
+# ================= versi render WebGL =================
+import sys; sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'r3d'))
+from r3d import render, spek_molekul, tampil, konformer, tegakkan, aksial, atom_ikat, normal_cincin, kamera_terbaik, arahkan_z
+TMP = os.path.join(F, '_r3d'); os.makedirs(TMP, exist_ok=True)
+def bingkai(f, rect): a = f.add_axes(rect); a.axis('off'); return a
+AKS, EKU, PUDAR = '#2f7fd6', '#e8893a', '#e6e8eb'
+CAMK = [0.12, -1, 0.42]
+def kursi_sikloheksana():
+    m, P = konformer('C1CCCCC1', lambda m, P: True, n=10); ring = list(range(6)); P = tegakkan(P, ring); P = arahkan_z(P, P[0]); P = P if P[0][2] < 0 else P * [1, -1, -1]
+    ax_h, eq_h = [], []
+    for a in m.GetAtoms():
+        if a.GetSymbol() == 'H':
+            c = a.GetNeighbors()[0].GetIdx(); (ax_h if aksial(m, P, c, a.GetIdx(), ring) else eq_h).append(a.GetIdx())
+    return m, P, ax_h, eq_h
+m, P, ax_h, eq_h = kursi_sikloheksana(); atom, ik = atom_ikat(m, P)
+J = []
+J.append((dict(spek_molekul(atom, ik, warna={**{i: AKS for i in ax_h}, **{i: PUDAR for i in eq_h}}), w=760, h=520, zoom=2.2, camdir=CAMK), f'{TMP}/k_aks.png'))
+J.append((dict(spek_molekul(atom, ik, warna={**{i: EKU for i in eq_h}, **{i: PUDAR for i in ax_h}}), w=760, h=520, zoom=2.2, camdir=CAMK), f'{TMP}/k_eku.png'))
+# perahu (koordinat ideal)
+Bc = np.array([[1.26, 0.73, 0], [0, 1.46, 0], [-1.26, 0.73, 0], [-1.26, -0.73, 0], [0, -1.46, 0], [1.26, -0.73, 0]])
+Bc = np.array([[0.0, 1.48, 0.62], [1.27, 0.76, 0.0], [1.27, -0.76, 0.0], [0.0, -1.48, 0.62], [-1.27, -0.76, 0.0], [-1.27, 0.76, 0.0]])
+def tambahH(Cpos, ring_order):
+    at = [('C', tuple(p)) for p in Cpos]; ik_ = [(i, (i + 1) % 6) for i in range(6)]; n_ = len(at); cen = Cpos.mean(0)
+    for i in range(6):
+        p = Cpos[i]; a_, b_ = Cpos[i - 1], Cpos[(i + 1) % 6]; bis = p - (a_ + b_) / 2; bis /= np.linalg.norm(bis); perp = np.cross(b_ - a_, bis); perp /= np.linalg.norm(perp)
+        for sg in (1, -1):
+            v = bis * np.cos(np.radians(54.75)) + perp * sg * np.sin(np.radians(54.75)); at.append(('H', tuple(p + v * 1.09))); ik_.append((i, len(at) - 1))
+    return at, ik_
+atB, ikB = tambahH(Bc, None)
+flag = [max([6 + 2 * i, 7 + 2 * i], key=lambda j: atB[j][1][2]) for i in (0, 3)]   # H tiang bendera pada C1 dan C4
+atB = [(e, tuple(np.array(p) - [0, 0, 0.3])) for e, p in atB]
+J.append((dict(spek_molekul(atB, ikB, warna={i: '#e05a4f' for i in flag}), w=760, h=520, zoom=2.2, camdir=[1, -0.25, 0.3]), f'{TMP}/k_perahu.png'))
+J.append((dict(spek_molekul(atom, ik), w=760, h=520, zoom=2.2, camdir=CAMK), f'{TMP}/k_kursi.png'))
+# cincin kecil
+for nm, smi, n_ in [('c3', 'C1CC1', 3), ('c4', 'C1CCC1', 4), ('c5', 'C1CCCC1', 5)]:
+    mm, PP = konformer(smi, lambda m, P: True, n=30); PP = tegakkan(PP, list(range(n_))); at_, ik_ = atom_ikat(mm, PP)
+    J.append((dict(spek_molekul(at_, ik_), w=560, h=480, zoom=1.75, camdir=[0.2, -1, 0.45] if n_ != 3 else [0.15, -1, 0.75]), f'{TMP}/k_{nm}.png'))
+# metilsikloheksana aksial / ekuatorial
+def metil_konf(want_ax):
+    def syarat(m, P):
+        ring = [a.GetIdx() for a in m.GetAtoms() if a.IsInRing()]; c = [a.GetIdx() for a in m.GetAtoms() if a.GetSymbol() == 'C' and not a.IsInRing()][0]
+        ci = [n.GetIdx() for n in m.GetAtomWithIdx(c).GetNeighbors() if n.IsInRing()][0]; return aksial(m, P, ci, c, ring) == want_ax
+    mm, PP = konformer('CC1CCCCC1', syarat, n=200); ring = [a.GetIdx() for a in mm.GetAtoms() if a.IsInRing()]; PP = tegakkan(PP, ring); PP = arahkan_z(PP, PP[1])
+    if PP[1][2] > 0: PP = PP * [1, -1, -1]
+    return mm, PP, ring
+for nm, w in [('ax', True), ('eq', False)]:
+    mm, PP, ring = metil_konf(w); at_, ik_ = atom_ikat(mm, PP)
+    me = [0] + [n.GetIdx() for n in mm.GetAtomWithIdx(0).GetNeighbors() if n.GetSymbol() == 'H']
+    hl = {i: EKU for i in me if i != 0}; hl[0] = '#c9662a'
+    if w:   # H aksial pada C3 dan C5 di sisi yang sama dengan CH3
+        ci = 1; ups = []
+        for a in mm.GetAtoms():
+            if a.GetSymbol() == 'H' and a.GetNeighbors()[0].IsInRing() and a.GetNeighbors()[0].GetIdx() != ci:
+                c_ = a.GetNeighbors()[0].GetIdx()
+                if aksial(mm, PP, c_, a.GetIdx(), ring) and np.sign(PP[a.GetIdx()][2] - PP[c_][2]) == np.sign(PP[0][2] - PP[1][2]): ups.append(a.GetIdx())
+        hl.update({i: AKS for i in ups})
+    J.append((dict(spek_molekul(at_, ik_, warna=hl), w=760, h=600, zoom=2.6, camdir=CAMK), f'{TMP}/k_me_{nm}.png'))
+# cis-1,3-dimetil: e,e dan a,a
+def dimetil(want_ax):
+    def syarat(m, P):
+        ring = [a.GetIdx() for a in m.GetAtoms() if a.IsInRing()]; me = [a.GetIdx() for a in m.GetAtoms() if a.GetSymbol() == 'C' and not a.IsInRing()]
+        return all(aksial(m, P, [n.GetIdx() for n in m.GetAtomWithIdx(c).GetNeighbors() if n.IsInRing()][0], c, ring) == want_ax for c in me)
+    mm, PP = konformer('C[C@@H]1CCC[C@H](C)C1', syarat, n=400); ring = [a.GetIdx() for a in mm.GetAtoms() if a.IsInRing()]; PP = tegakkan(PP, ring); PP = arahkan_z(PP, PP[7], (0, 1))
+    at_, ik_ = atom_ikat(mm, PP); me = [a.GetIdx() for a in mm.GetAtoms() if a.GetSymbol() == 'C' and not a.IsInRing()]
+    return dict(spek_molekul(at_, ik_, warna={i: '#c9662a' for i in me}), w=760, h=600, zoom=2.7, camdir=CAMK)
+J.append((dimetil(False), f'{TMP}/k_dm_ee.png')); J.append((dimetil(True), f'{TMP}/k_dm_aa.png'))
+for sp_, out_ in J:
+    if sp_.get('camdir') == CAMK or 'k_me' in out_ or 'k_dm' in out_:
+        sp_['camdir'] = kamera_terbaik([a_['p'] for a_ in sp_['atoms']], (6, 24))
+    if 'k_dm' in out_ or 'k_me' in out_: sp_['zoom'] = 3.0; sp_['w'] = 820
+render(J)
+
+# susun
+f = plt.figure(figsize=(7.0, 2.4), dpi=220)
+for k, (nm, t, c) in enumerate([('aks', 'enam H aksial (biru): sejajar sumbu cincin,\nbergantian ke atas dan ke bawah', AKS), ('eku', 'enam H ekuatorial (jingga): mengarah ke luar\nkira-kira sepanjang "khatulistiwa" cincin', EKU)]):
+    a = bingkai(f, [k * 0.5, 0.2, 0.5, 0.8]); tampil(a, f'{TMP}/k_{nm}.png'); f.text(k * 0.5 + 0.25, 0.03, t, ha='center', fontsize=8.6, color=c)
+f.savefig(f'{F}/kursi.png', bbox_inches='tight'); plt.close(f)
+f = plt.figure(figsize=(7.0, 2.4), dpi=220)
+a = bingkai(f, [0.0, 0.2, 0.5, 0.8]); tampil(a, f'{TMP}/k_kursi.png'); f.text(0.25, 0.03, 'kursi: semua ikatan C–H bertetangga goyang,\ntanpa tegangan', ha='center', fontsize=8.6, color=TUA)
+a = bingkai(f, [0.5, 0.2, 0.5, 0.8]); tampil(a, f'{TMP}/k_perahu.png'); f.text(0.75, 0.03, 'perahu: dua H "tiang bendera" (merah) berdesakan\ndan ikatan di sisi bertindih (+29 kJ mol$^{-1}$)', ha='center', fontsize=8.6, color=TUA)
+f.savefig(f'{F}/perahu.png', bbox_inches='tight'); plt.close(f)
+f = plt.figure(figsize=(7.4, 2.4), dpi=220)
+for k, (nm, t) in enumerate([('c3', 'siklopropana: datar, sudut 60°,\nsemua C–H bertindih'), ('c4', 'siklobutana: terlipat ±25°\n(lipatan kupu-kupu)'), ('c5', 'siklopentana: amplop\n(satu karbon keluar bidang)')]):
+    a = bingkai(f, [k * 0.333, 0.22, 0.333, 0.78]); tampil(a, f'{TMP}/k_{nm}.png'); f.text(k * 0.333 + 0.166, 0.03, t, ha='center', fontsize=8.6, color=TUA)
+f.savefig(f'{F}/cincinkecil.png', bbox_inches='tight'); plt.close(f)
+f = plt.figure(figsize=(7.2, 2.6), dpi=220)
+a = bingkai(f, [0.0, 0.2, 0.47, 0.8]); tampil(a, f'{TMP}/k_me_ax.png'); f.text(0.235, 0.03, 'CH₃ aksial: berdesakan dengan dua H aksial (biru)\npada C3 dan C5 · lebih tinggi 7,3 kJ mol$^{-1}$ (5%)', ha='center', fontsize=8.4, color=TUA)
+a = bingkai(f, [0.53, 0.2, 0.47, 0.8]); tampil(a, f'{TMP}/k_me_eq.png'); f.text(0.765, 0.03, 'CH₃ ekuatorial: menjauhi cincin\nlebih stabil · 95% pada 25 °C', ha='center', fontsize=8.4, color=TUA)
+f.text(0.5, 0.6, '⇌', ha='center', va='center', fontsize=20, color=TUA, family='DejaVu Sans')
+f.savefig(f'{F}/metil.png', bbox_inches='tight'); plt.close(f)
+f = plt.figure(figsize=(7.2, 2.6), dpi=220)
+a = bingkai(f, [0.0, 0.2, 0.47, 0.72]); tampil(a, f'{TMP}/k_dm_ee.png'); f.text(0.235, 0.03, 'e,e: kedua CH₃ ekuatorial\n(jauh lebih stabil)', ha='center', fontsize=8.6, color=HJ)
+a = bingkai(f, [0.53, 0.2, 0.47, 0.72]); tampil(a, f'{TMP}/k_dm_aa.png'); f.text(0.765, 0.03, 'a,a: kedua CH₃ aksial dan saling berdesakan\n(interaksi 1,3-diaksial CH₃/CH₃)', ha='center', fontsize=8.6, color='#c0392b')
+f.text(0.5, 0.56, '⇌', ha='center', va='center', fontsize=20, color=TUA, family='DejaVu Sans'); f.text(0.5, 0.97, 'cis-1,3-dimetilsikloheksana', ha='center', fontsize=10, color=TUA, fontweight='bold')
+f.savefig(f'{F}/dimetil.png', bbox_inches='tight'); plt.close(f)
+print('ok webgl')

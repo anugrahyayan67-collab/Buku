@@ -30,7 +30,7 @@ f.savefig(f'{F}/peta.png', bbox_inches='tight'); plt.close(f)
 
 def rd(smi, w=420, h=320, fs=28):
     m = Chem.MolFromSmiles(smi); d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions()
-    o.bondLineWidth = 3; o.fixedFontSize = fs; o.addStereoAnnotation = True; o.padding = 0.15
+    o.bondLineWidth = 2; o.fixedFontSize = fs; o.addStereoAnnotation = True; o.padding = 0.15
     o.updateAtomPalette({8: (0.71, 0.33, 0.11), 35: (0.55, 0.2, 0.1)})
     rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing(); return Image.open(io.BytesIO(d.GetDrawingText()))
 
@@ -91,7 +91,7 @@ def T(ax, x, y, s, c=TUA, fs=10, **k): ax.text(x, y, s, ha=k.pop('ha', 'center')
 def rd(smi, w=440, h=320, bl=42, fs=26, notes=None, hl=(), cip=False, hs=False):
     m = Chem.MolFromSmiles(smi)
     if hs: m = Chem.AddHs(m, onlyOnAtoms=tuple(a.GetIdx() for a in m.GetAtoms() if a.GetChiralTag() != Chem.ChiralType.CHI_UNSPECIFIED))
-    d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 3; o.fixedFontSize = fs; o.padding = 0.12; o.fixedBondLength = bl
+    d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 2; o.fixedFontSize = fs; o.padding = 0.12; o.fixedBondLength = bl
     o.annotationFontScale = 0.8; o.addStereoAnnotation = cip
     o.updateAtomPalette({8: (0.71, 0.33, 0.11), 7: (0.11, 0.46, 0.74), 17: (0.1, 0.54, 0.42), 35: (0.55, 0.2, 0.1), 1: (0.05, 0.15, 0.28)}); o.setBackgroundColour((1, 1, 1, 0))
     for i, t in (notes or {}).items(): m.GetAtomWithIdx(i).SetProp('atomNote', t)

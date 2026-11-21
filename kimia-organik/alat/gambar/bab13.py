@@ -25,7 +25,7 @@ def kanv(w, h, xl, yl):
 def rd(smi, w=360, h=300, fs=30, pad=0.15, hs=(), bl=None):
     m = Chem.MolFromSmiles(smi)
     if hs: m = Chem.AddHs(m, onlyOnAtoms=tuple(hs))
-    d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 3; o.fixedFontSize = fs; o.padding = pad
+    d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 2; o.fixedFontSize = fs; o.padding = pad
     if bl: o.fixedBondLength = bl
     o.updateAtomPalette({35: (0.71, 0.33, 0.11), 8: (0.71, 0.33, 0.11), 7: (0.11, 0.46, 0.74), 17: (0.10, 0.54, 0.42), 9: (0.10, 0.54, 0.42), 16: (0.75, 0.6, 0.1), 53: (0.45, 0.2, 0.6), 1: (0.05, 0.15, 0.28)})
     rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing(); return Image.open(io.BytesIO(d.GetDrawingText()))

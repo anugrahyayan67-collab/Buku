@@ -12,7 +12,7 @@ TUA, BIRU, MUDA, JG, JT, HJ = '#0e2748', '#1b75bc', '#7fc0f0', '#f0a060', '#b554
 def gbr(smi, sorot=(), w=420, h=300):
     m = Chem.MolFromSmiles(smi)
     d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions()
-    o.bondLineWidth = 3; o.fixedFontSize = 28; o.padding = 0.15; o.dummiesAreAttachments = True
+    o.bondLineWidth = 2; o.fixedFontSize = 28; o.padding = 0.15; o.dummiesAreAttachments = True
     o.updateAtomPalette({8: (0.71, 0.33, 0.11), 7: (0.11, 0.46, 0.74), 17: (0.1, 0.54, 0.42), 35: (0.55, 0.2, 0.1)})
     at = [a.GetIdx() for p in sorot for t in m.GetSubstructMatches(Chem.MolFromSmarts(p)) for a in [m.GetAtomWithIdx(i) for i in t]]
     rdMolDraw2D.PrepareAndDrawMolecule(d, m, highlightAtoms=at, highlightAtomColors={i: (0.5, 0.75, 0.94) for i in at},
@@ -42,7 +42,7 @@ import numpy as np
 from matplotlib.patches import FancyBboxPatch
 def gbrn(smi, notes=None, hl=(), hlc=None, w=440, h=300, bl=None, fs=26):
     m = Chem.MolFromSmiles(smi); d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions()
-    o.bondLineWidth = 3; o.fixedFontSize = fs; o.padding = 0.15; o.annotationFontScale = 0.75
+    o.bondLineWidth = 2; o.fixedFontSize = fs; o.padding = 0.15; o.annotationFontScale = 0.75
     if bl: o.fixedBondLength = bl
     o.updateAtomPalette({8: (0.71, 0.33, 0.11), 7: (0.11, 0.46, 0.74), 17: (0.1, 0.54, 0.42), 35: (0.55, 0.2, 0.1), 16: (0.72, 0.53, 0.04)})
     for i, t in (notes or {}).items(): m.GetAtomWithIdx(i).SetProp('atomNote', t)

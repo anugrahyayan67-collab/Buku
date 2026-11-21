@@ -23,7 +23,7 @@ def retro(ax, a, b, c=TUA):
     ax.plot([x1 - 0.35, x1, x1 - 0.35], [y + 0.28, y, y - 0.28], color=c, lw=1.3)
 def simpan(f, n): f.savefig(f'{F}/{n}.png', bbox_inches='tight'); plt.close(f)
 def rd(smi, w=360, h=260, fs=26, bl=None, hl=(), hb=()):
-    m = Chem.MolFromSmiles(smi); d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 3; o.fixedFontSize = fs; o.padding = 0.08
+    m = Chem.MolFromSmiles(smi); d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 2; o.fixedFontSize = fs; o.padding = 0.08
     if bl: o.fixedBondLength = bl
     o.updateAtomPalette({8: (0.71, 0.33, 0.11), 7: (0.11, 0.46, 0.74), 35: (0.55, 0.25, 0.10), 12: (0.10, 0.54, 0.42), 1: (0.05, 0.15, 0.28)})
     o.setBackgroundColour((1, 1, 1, 0)); rdMolDraw2D.PrepareAndDrawMolecule(d, m, highlightAtoms=list(hl), highlightBonds=list(hb), highlightAtomColors={i: (0.94, 0.63, 0.38) for i in hl}, highlightBondColors={i: (0.94, 0.63, 0.38) for i in hb})

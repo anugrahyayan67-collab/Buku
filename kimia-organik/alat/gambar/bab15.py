@@ -147,7 +147,7 @@ def rdh(smi, hidx, hl_atoms=(), w=380, h=300, fs=26):
     m = Chem.AddHs(Chem.MolFromSmiles(smi), onlyOnAtoms=tuple(hidx)); Chem.AssignStereochemistry(m, cleanIt=True, force=True)
     from rdkit.Chem import AllChem; AllChem.Compute2DCoords(m)
     hs = [a.GetIdx() for a in m.GetAtoms() if a.GetSymbol() == 'H']
-    d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 3; o.fixedFontSize = fs; o.padding = 0.12
+    d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 2; o.fixedFontSize = fs; o.padding = 0.12
     o.updateAtomPalette({8: (0.71, 0.33, 0.11), 17: (0.10, 0.54, 0.42), 1: (0.05, 0.15, 0.28)})
     for i, a in enumerate(hs): o.atomLabels[a] = 'H' + ('ᵃ' if i == 0 else 'ᵇ')
     cols = {hs[0]: (0.94, 0.63, 0.38), hs[1]: (0.50, 0.75, 0.94)}
@@ -213,7 +213,7 @@ def dd(ax, x0, J1, J2, l1, l2, tl):
 pos = [(5.5, Jt, Jc, '$J_{ab}$ 17,6', '$J_{ac}$ 10,9', 'H$_a$  δ 6,72'), (16.5, Jt, Jg, '$J_{ab}$ 17,6', '$J_{bc}$ 0,9', 'H_b  δ 5,75'.replace('H_b', 'H$_b$')), (27.5, Jc, Jg, '$J_{ac}$ 10,9', '$J_{bc}$ 0,9', 'H$_c$  δ 5,24')]
 for x0, J1, J2, l1, l2, tl in pos: dd(ax, x0, J1, J2, l1, l2, tl)
 mol = Chem.MolFromSmiles('C=Cc1ccccc1')
-d = rdMolDraw2D.MolDraw2DCairo(520, 300); o = d.drawOptions(); o.bondLineWidth = 3; o.fixedFontSize = 28; o.padding = 0.1
+d = rdMolDraw2D.MolDraw2DCairo(520, 300); o = d.drawOptions(); o.bondLineWidth = 2; o.fixedFontSize = 28; o.padding = 0.1
 mH = Chem.AddHs(mol, onlyOnAtoms=(0, 1)); from rdkit.Chem import AllChem; AllChem.Compute2DCoords(mH)
 hs = [a.GetIdx() for a in mH.GetAtoms() if a.GetSymbol() == 'H']
 # H pada C1 = a; H pada C0: tentukan cis/trans terhadap Ha lewat koordinat

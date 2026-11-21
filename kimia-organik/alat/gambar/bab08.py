@@ -29,7 +29,7 @@ def kanv(w, h, xl, yl):
 def rd(smi, w=360, h=300, fs=30, hs=(), pad=0.18):
     m = Chem.MolFromSmiles(smi)
     if hs: m = Chem.AddHs(m, onlyOnAtoms=tuple(hs))
-    d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 3; o.fixedFontSize = fs; o.padding = pad
+    d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 2; o.fixedFontSize = fs; o.padding = pad
     o.updateAtomPalette({35: (0.71, 0.33, 0.11), 8: (0.71, 0.33, 0.11), 5: (0.11, 0.46, 0.74), 1: (0.05, 0.15, 0.28)})
     rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing(); return Image.open(io.BytesIO(d.GetDrawingText()))
 def gb(ax, smi, x0, x1, y0, y1, **k): ax.imshow(rd(smi, **k), extent=[x0, x1, y0, y1])
