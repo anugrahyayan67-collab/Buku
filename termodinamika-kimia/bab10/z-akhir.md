@@ -40,7 +40,7 @@
 ## Subbab 10.5: Kenaikan titik didih dan penurunan titik beku
 
 8. Mengapa sifat koligatif tidak bergantung pada jenis zat terlarut?
-9. Jelaskan dengan Gambar 10.3 mengapa zat terlarut menaikkan titik didih dan menurunkan titik beku.
+9. Jelaskan dengan Gambar 10.5 mengapa zat terlarut menaikkan titik didih dan menurunkan titik beku.
 10. Mengapa kamper dipakai dalam metode Rast?
 
 ## Subbab 10.6: Tekanan osmotik
@@ -140,7 +140,7 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, *T* = 298,15 K kecuali disebutkan lain, $
 
 **33.** Mengapa penurunan tekanan uap tidak bergantung pada jenis zat terlarut yang tidak mudah menguap?
 
-**34.** Air laut dapat didekati sebagai larutan ideal dengan 1,10 mol partikel terlarut per kilogram air. Hitung tekanan uapnya pada 25 °C dan penurunannya.
+**34.** Hitung tekanan uap larutan gliserol 2,00 mol kg⁻¹ dalam air pada 25 °C (anggap ideal) dan penurunannya.
 
 **35.** Berapa gram glukosa yang harus dilarutkan dalam 100 g air agar tekanan uapnya turun 1,0 persen?
 
@@ -198,7 +198,7 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, *T* = 298,15 K kecuali disebutkan lain, $
 
 **60.** Mengapa osmometri lebih cocok daripada penurunan titik beku untuk menentukan massa molar protein?
 
-**61.** Hitung tekanan osmotik larutan garam fisiologis (NaCl 0,154 mol L⁻¹, dianggap terurai sempurna dan ideal) pada 37 °C.
+**61.** Cairan infus glukosa 5 persen berisi 50 g glukosa (180,16 g mol⁻¹) per liter. Hitung tekanan osmotiknya pada 37 °C dan bandingkan dengan darah (sekitar 7,7 bar).
 
 **62.** Larutan 2,0 g L⁻¹ suatu polimer mempunyai tekanan osmotik 250 Pa pada 25 °C. Hitung massa molarnya.
 
@@ -271,7 +271,7 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, *T* = 298,15 K kecuali disebutkan lain, $
 | 17 | 8,25 kPa; $y_\text{benzena}$ = 0,770 | 58 | 774 kPa (7,6 atm) |
 | 18 | 41 mg L⁻¹ | 59 | $1{,}5 \times 10^4$ g mol⁻¹ |
 | 19 | 14 mg L⁻¹ | 60 | efeknya jauh lebih besar dan mudah diukur pada konsentrasi kecil |
-| 20 | pelarut Raoult, zat terlarut Henry | 61 | 794 kPa (7,9 bar) |
+| 20 | pelarut Raoult, zat terlarut Henry | 61 | 7,2 bar; sedikit hipotonik |
 | 21 | 7,4 mg L⁻¹; kelarutan O₂ turun bila suhu naik | 62 | 19,8 kg mol⁻¹ |
 | 22 | 2,0 × 10⁻³ mol; 52 mL | 63 | 0,915 |
 | 23 | B murni yang tetap berperilaku seperti dalam larutan sangat encer tidak ada | 64 | penyimpangan positif dari hukum Raoult |
@@ -285,7 +285,7 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, *T* = 298,15 K kecuali disebutkan lain, $
 | 31 | penurunannya berasal dari entropi (μ pelarut turun), tidak bergantung pada letak zat terlarut | 72 | 0,74 |
 | 32 | 0,158 kPa (menjadi 3,01 kPa) | 73 | 0,490; 1,23 |
 | 33 | hanya mengencerkan pelarut: $\mu_\text{A}$ turun sebesar *RT* ln $x_\text{A}$ | 74 | 0,40; 0,15; 0,060 |
-| 34 | 3,107 kPa; 0,062 kPa | 75 | 0,52 |
+| 34 | 3,059 kPa; 0,110 kPa | 75 | 0,52 |
 | 35 | 10,1 g | 76 | 0,46 |
 | 36 | −1,55 °C; 100,43 °C | 77 | 0,782 |
 | 37 | −2,0 °C (terukur −1,9 °C) | 78 | 0,36 nm |

@@ -62,7 +62,7 @@ Larutan dengan fraksi mol zat terlarut 0,050 dalam air pada 25 °C. Berapa penur
 Mengapa penurunan tekanan uap tidak bergantung pada jenis zat terlarut yang tidak mudah menguap? ||| hanya mengencerkan pelarut: $\mu_\text{A}$ turun sebesar *RT* ln $x_\text{A}$
 
 
-Air laut dapat didekati sebagai larutan ideal dengan 1,10 mol partikel terlarut per kilogram air. Hitung tekanan uapnya pada 25 °C dan penurunannya. ||| 3,107 kPa; 0,062 kPa
+Hitung tekanan uap larutan gliserol 2,00 mol kg⁻¹ dalam air pada 25 °C (anggap ideal) dan penurunannya. ||| 3,059 kPa; 0,110 kPa
 Berapa gram glukosa yang harus dilarutkan dalam 100 g air agar tekanan uapnya turun 1,0 persen? ||| 10,1 g
 
 ## Subbab 10.5: Kenaikan titik didih dan penurunan titik beku
@@ -107,7 +107,7 @@ Larutan polimer 5,0 g L⁻¹ mempunyai tekanan osmotik 0,80 kPa pada 25 °C. Hit
 Mengapa osmometri lebih cocok daripada penurunan titik beku untuk menentukan massa molar protein? ||| efeknya jauh lebih besar dan mudah diukur pada konsentrasi kecil
 
 
-Hitung tekanan osmotik larutan garam fisiologis (NaCl 0,154 mol L⁻¹, dianggap terurai sempurna dan ideal) pada 37 °C. ||| 794 kPa (7,9 bar)
+Cairan infus glukosa 5 persen berisi 50 g glukosa (180,16 g mol⁻¹) per liter. Hitung tekanan osmotiknya pada 37 °C dan bandingkan dengan darah (sekitar 7,7 bar). ||| 7,2 bar; sedikit hipotonik
 Larutan 2,0 g L⁻¹ suatu polimer mempunyai tekanan osmotik 250 Pa pada 25 °C. Hitung massa molarnya. ||| 19,8 kg mol⁻¹
 
 ## Subbab 10.7: Larutan nyata dan aktivitas

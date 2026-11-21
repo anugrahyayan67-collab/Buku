@@ -51,7 +51,7 @@ $$
 \ln\gamma_\text{A} = \beta x_\text{B}^2 , \qquad \ln\gamma_\text{B} = \beta x_\text{A}^2 , \qquad \beta = \frac{w}{RT} . \qquad \text{(10.15)}
 $$
 
-Bila β > 0 (A–B lebih lemah), γ > 1: penyimpangan positif. Bila β < 0, penyimpangan negatif. Bila $x_\text{B} \to 0$, $\gamma_\text{A} \to 1$: pelarut kembali mengikuti Raoult. Dan bila $x_\text{B} \to 0$, $\gamma_\text{B} \to e^\beta$, tetap: zat terlarut encer mengikuti hukum Henry dengan $K_\text{B} = e^\beta p_\text{B}^*$. Gambar 10.2 dibuat dengan model ini. Satu model sederhana menghasilkan kedua hukum batas sekaligus.
+Bila β > 0 (A–B lebih lemah), γ > 1: penyimpangan positif. Bila β < 0, penyimpangan negatif. Bila $x_\text{B} \to 0$, $\gamma_\text{A} \to 1$: pelarut kembali mengikuti Raoult. Dan bila $x_\text{B} \to 0$, $\gamma_\text{B} \to e^\beta$, tetap: zat terlarut encer mengikuti hukum Henry dengan $K_\text{B} = e^\beta p_\text{B}^*$. Gambar 10.3 dibuat dengan model ini. Satu model sederhana menghasilkan kedua hukum batas sekaligus.
 
 ::: {.contoh}
 **Contoh 10.15 · Tekanan uap larutan reguler**
@@ -117,9 +117,9 @@ Subbab 10.7 memperkenalkan hukum pembatas Debye–Hückel sebagai rumus. Di sini
 
 Jawabannya terletak pada jangkauan gaya listrik. Gaya antara dua molekul netral, seperti dua molekul sukrosa, turun sangat cepat dengan jarak (energinya sebanding $r^{-6}$, subbab 2.2), sehingga pada larutan encer molekul zat terlarut hampir tidak pernah saling merasakan. Energi Coulomb antara dua ion turun hanya sebanding $1/r$. Pada 0,01 mol kg⁻¹, jarak rata-rata antarion sekitar 5 nm, dan pada jarak itu energi tarik-menarik dua ion bermuatan tunggal dalam air masih sekitar sepersepuluh *kT*. Itu kecil untuk satu pasang ion, tetapi setiap ion mempunyai banyak tetangga.
 
-Akibatnya, ion-ion tidak tersebar acak sempurna. Di sekitar setiap kation, anion sedikit lebih sering ditemukan daripada kation, dan sebaliknya. Debye dan Hückel (1923) menyebut awan bermuatan berlawanan ini **atmosfer ion** (Gambar 10.4). Atmosfer itu menurunkan energi ion pusat, karena ion dikelilingi muatan yang menariknya. Energi yang lebih rendah berarti potensial kimia yang lebih rendah, dan itulah arti $\gamma_\pm < 1$: ion "lebih stabil" di dalam larutan nyata daripada di larutan ideal yang ionnya tidak saling merasakan.
+Akibatnya, ion-ion tidak tersebar acak sempurna. Di sekitar setiap kation, anion sedikit lebih sering ditemukan daripada kation, dan sebaliknya. Debye dan Hückel (1923) menyebut awan bermuatan berlawanan ini **atmosfer ion** (Gambar 10.7). Atmosfer itu menurunkan energi ion pusat, karena ion dikelilingi muatan yang menariknya. Energi yang lebih rendah berarti potensial kimia yang lebih rendah, dan itulah arti $\gamma_\pm < 1$: ion "lebih stabil" di dalam larutan nyata daripada di larutan ideal yang ionnya tidak saling merasakan.
 
-![Gambar 10.4 Atmosfer ion (skematis). Di sekitar kation pusat, anion sedikit lebih banyak daripada kation. Tebal atmosfer adalah panjang Debye $\kappa^{-1}$, yang mengecil bila kekuatan ion naik.](fig/atmosfer.png){width=58%}
+![Gambar 10.7 Atmosfer ion (skematis). Di sekitar kation pusat, anion sedikit lebih banyak daripada kation. Tebal atmosfer adalah panjang Debye $\kappa^{-1}$, yang mengecil bila kekuatan ion naik.](fig/atmosfer.png){width=58%}
 
 Seberapa tebal atmosfer itu? Teori Debye–Hückel memberi ketebalan khasnya, yang disebut **panjang Debye** $\kappa^{-1}$. Untuk larutan dalam air pada 25 °C,
 $$
@@ -149,9 +149,9 @@ $$
 $$
 Suku positif $0{,}30\,I$ mencerminkan dua hal yang diabaikan Debye–Hückel: sebagian air terikat erat pada ion (hidrasi), sehingga "pelarut bebas" berkurang dan konsentrasi efektif ion naik.
 
-Gambar 10.5 membandingkan ketiga rumus dengan data NaCl. Hukum pembatas tepat sampai sekitar 0,005 mol kg⁻¹, lalu meleset makin jauh. Bentuk diperluas bertahan sampai sekitar 0,1 mol kg⁻¹, dan persamaan Davies sampai sekitar 0,2–0,5 mol kg⁻¹. Di atas itu, termasuk air laut (*I* ≈ 0,7), tidak ada rumus sederhana yang memadai, dan kimiawan memakai data terukur atau model yang lebih rumit (misalnya persamaan Pitzer).
+Gambar 10.8 membandingkan ketiga rumus dengan data NaCl. Hukum pembatas tepat sampai sekitar 0,005 mol kg⁻¹, lalu meleset makin jauh. Bentuk diperluas bertahan sampai sekitar 0,1 mol kg⁻¹, dan persamaan Davies sampai sekitar 0,2–0,5 mol kg⁻¹. Di atas itu, termasuk air laut (*I* ≈ 0,7), tidak ada rumus sederhana yang memadai, dan kimiawan memakai data terukur atau model yang lebih rumit (misalnya persamaan Pitzer).
 
-![Gambar 10.5 Koefisien aktivitas ion rata-rata NaCl dalam air pada 25 °C: data terukur dibandingkan dengan hukum pembatas Debye–Hückel, bentuk diperluas, dan persamaan Davies. Setiap perbaikan memperpanjang rentang berlakunya, tetapi tidak ada yang tepat sampai 1 mol kg⁻¹.](fig/gamma.png){width=78%}
+![Gambar 10.8 Koefisien aktivitas ion rata-rata NaCl dalam air pada 25 °C: data terukur dibandingkan dengan hukum pembatas Debye–Hückel, bentuk diperluas, dan persamaan Davies. Setiap perbaikan memperpanjang rentang berlakunya, tetapi tidak ada yang tepat sampai 1 mol kg⁻¹.](fig/gamma.png){width=78%}
 
 ::: {.strategi}
 **Strategi: memilih rumus koefisien aktivitas ion.**
