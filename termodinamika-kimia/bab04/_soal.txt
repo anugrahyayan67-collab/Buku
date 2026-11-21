@@ -144,3 +144,11 @@ Hitung kalor pembakaran per kilogram untuk H₂ (−285,8), CH₄ (−890,3), da
 @co2 [P] Berapa gram CO₂ dilepas per megajoule kalor dari metana dan dari oktana? Apa artinya bagi peralihan bahan bakar? ||| 49 g MJ⁻¹ dan 64 g MJ⁻¹; gas alam melepas sekitar 23% lebih sedikit CO₂ per energi
 Mengapa kalor pembakaran bahan bakar biasanya dinyatakan dengan air **cair** sebagai hasil (nilai kalor atas), dan kapan nilai kalor bawah lebih tepat? ||| standar kalorimetri; mesin dan tungku membuang air sebagai uap
 
+## Subbab 4.11: Entalpi pelarutan dan hidrasi ion
+
+Dari Tabel 4.3, hitung entalpi pelarutan KCl pada pengenceran tak hingga, lalu hitung entalpi hidrasi K⁺ + Cl⁻ bila entalpi kisi KCl 717,4 kJ mol⁻¹. ||| +17,2 kJ mol⁻¹; −700,2 kJ mol⁻¹
+Hitung entalpi pelarutan NaOH dari Tabel 4.3. Berapa kenaikan suhu bila 4,00 g NaOH dilarutkan dalam 100 g air (anggap kapasitas kalor larutan seperti air)? ||| −44,5 kJ mol⁻¹; ≈ 10 K
+Mengapa entalpi pelarutan NH₄NO₃ dari tabel (+28,1 kJ mol⁻¹) berbeda dari nilai +25,7 kJ mol⁻¹ pada kompres dingin? ||| tabel untuk pengenceran tak hingga; larutan pekat mempunyai entalpi pengenceran
+Mengapa garam yang pelarutannya endoterm, seperti KCl, tetap mudah larut? ||| entropi naik saat ion lepas dari kisi; Δ*G* tetap negatif
+Urutkan entalpi hidrasi Li⁺, Na⁺, K⁺, Mg²⁺ dari yang paling negatif, dan jelaskan alasannya. ||| Mg²⁺ < Li⁺ < Na⁺ < K⁺ (paling negatif dahulu); muatan besar dan ukuran kecil menarik dipol air lebih kuat
+

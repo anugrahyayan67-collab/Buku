@@ -14,8 +14,10 @@
 | Entalpi ikatan | $\Delta_\text{r}H \approx \sum D(\text{diputus}) - \sum D(\text{dibentuk})$, fase gas | 4.8 |
 | Kirchhoff | $\Delta_\text{r}H^\circ(T_2) = \Delta_\text{r}H^\circ(T_1) + \Delta_\text{r}C_p^\circ(T_2 - T_1)$ | 4.9 |
 | Bahan bakar | H₂ 142, CH₄ 55,5, oktana 47,9, etanol 29,7, glukosa 15,6 kJ g⁻¹ | 4.10 |
+| Siklus pelarutan | $\Delta_\text{sol}H = \Delta_\text{L}H + \Delta_\text{hyd}H$; dua besaran besar yang hampir saling menghapus | 4.11 |
+| Entalpi pembentukan ion | konvensi Δ$_\text{f}$*H*°(H⁺, aq) = 0; Δ$_\text{sol}$*H*° dari tabel ion (pengenceran tak hingga) | 4.11 |
 
-**Jawaban kuis cepat.** **4.1** Untuk sintesis amonia, $\Delta n_\text{gas} = -2$, sehingga $\Delta H = \Delta U - 2RT$: Δ*H* lebih negatif. Untuk pembentukan HCl, $\Delta n_\text{gas} = 0$ dan keduanya sama. **4.2** Cairan hampir tidak memuai ketika dipanaskan, sehingga hampir tidak ada kerja ekspansi. Uap air memuai seperti gas ideal, sehingga $C_p - C_V = R$. **4.3** Volumenya tetap, sehingga tidak ada kerja ekspansi dan $q_V = \Delta U$. Keduanya sama bila jumlah mol gas tidak berubah, misalnya pembakaran glukosa. **4.4** Uap yang mengembun di kulit melepaskan kalor pengembunan 40,7 kJ mol⁻¹, jauh lebih besar daripada kalor yang dilepaskan air 100 °C ketika mendingin beberapa puluh derajat. **4.5** Dibalik dan dikalikan dua: +571,6 kJ mol⁻¹. **4.6** Bila Δ*H* bergantung pada jalan, jalan langsung dan jalan bertahap dapat memberi hasil berbeda, sehingga menjumlahkan reaksi-reaksi lain tidak lagi sah. **4.7** Keadaan acuan karbon adalah grafit, bentuk yang paling stabil. Intan adalah bentuk lain, 1,9 kJ mol⁻¹ lebih tinggi dalam entalpi. **4.8** Ikatan rangkap terdiri atas satu ikatan σ dan satu ikatan π. Ikatan π, yang terbentuk dari tumpang tindih orbital p menyamping, lebih lemah daripada ikatan σ. **4.9** Entalpi reaksi tidak berubah dengan suhu. **4.10** Etana: metanol sudah mengandung oksigen, sehingga sebagian molekulnya sudah "terbakar" (22,7 dibanding 51,9 kJ g⁻¹).
+**Jawaban kuis cepat.** **4.1** Untuk sintesis amonia, $\Delta n_\text{gas} = -2$, sehingga $\Delta H = \Delta U - 2RT$: Δ*H* lebih negatif. Untuk pembentukan HCl, $\Delta n_\text{gas} = 0$ dan keduanya sama. **4.2** Cairan hampir tidak memuai ketika dipanaskan, sehingga hampir tidak ada kerja ekspansi. Uap air memuai seperti gas ideal, sehingga $C_p - C_V = R$. **4.3** Volumenya tetap, sehingga tidak ada kerja ekspansi dan $q_V = \Delta U$. Keduanya sama bila jumlah mol gas tidak berubah, misalnya pembakaran glukosa. **4.4** Uap yang mengembun di kulit melepaskan kalor pengembunan 40,7 kJ mol⁻¹, jauh lebih besar daripada kalor yang dilepaskan air 100 °C ketika mendingin beberapa puluh derajat. **4.5** Dibalik dan dikalikan dua: +571,6 kJ mol⁻¹. **4.6** Bila Δ*H* bergantung pada jalan, jalan langsung dan jalan bertahap dapat memberi hasil berbeda, sehingga menjumlahkan reaksi-reaksi lain tidak lagi sah. **4.7** Keadaan acuan karbon adalah grafit, bentuk yang paling stabil. Intan adalah bentuk lain, 1,9 kJ mol⁻¹ lebih tinggi dalam entalpi. **4.8** Ikatan rangkap terdiri atas satu ikatan σ dan satu ikatan π. Ikatan π, yang terbentuk dari tumpang tindih orbital p menyamping, lebih lemah daripada ikatan σ. **4.9** Entalpi reaksi tidak berubah dengan suhu. **4.10** Etana: metanol sudah mengandung oksigen, sehingga sebagian molekulnya sudah "terbakar" (22,7 dibanding 51,9 kJ g⁻¹). **4.11** Karena Δ$_\text{sol}$*H* = Δ$_\text{L}$*H* + Δ$_\text{hyd}$*H* kecil untuk keduanya, entalpi hidrasi LiF harus sekitar 290 kJ mol⁻¹ lebih negatif daripada CsF. Anionnya sama (F⁻), jadi selisih itu berasal dari kation: Li⁺ yang kecil terhidrasi jauh lebih kuat daripada Cs⁺.
 
 # Pertanyaan
 
@@ -68,6 +70,10 @@
 18. Mengapa bahan bakar yang mengandung oksigen melepaskan energi lebih sedikit per gram?
 19. Kompres dingin menyerap kalor tetapi tetap bekerja dengan sendirinya. Apa artinya bagi hubungan antara Δ*H* dan spontanitas?
 20. Hidrogen melepas kalor paling banyak per kilogram, tetapi sedikit per liter. Mengapa kedua ukuran itu sama penting untuk bahan bakar kendaraan?
+
+## Subbab 4.11: Entalpi pelarutan dan hidrasi ion
+
+21. Mengapa entalpi pelarutan garam ionik biasanya kecil, padahal entalpi kisi dan entalpi hidrasinya ratusan kJ mol⁻¹?
 
 # Soal
 
@@ -255,53 +261,67 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, $RT = 2{,}479$ kJ mol⁻¹ pada 298 K, da
 
 **81.** Mengapa kalor pembakaran bahan bakar biasanya dinyatakan dengan air **cair** sebagai hasil (nilai kalor atas), dan kapan nilai kalor bawah lebih tepat?
 
+## Subbab 4.11: Entalpi pelarutan dan hidrasi ion
+
+**82.** Dari Tabel 4.3, hitung entalpi pelarutan KCl pada pengenceran tak hingga, lalu hitung entalpi hidrasi K⁺ + Cl⁻ bila entalpi kisi KCl 717,4 kJ mol⁻¹.
+
+**83.** Hitung entalpi pelarutan NaOH dari Tabel 4.3. Berapa kenaikan suhu bila 4,00 g NaOH dilarutkan dalam 100 g air (anggap kapasitas kalor larutan seperti air)?
+
+**84.** Mengapa entalpi pelarutan NH₄NO₃ dari tabel (+28,1 kJ mol⁻¹) berbeda dari nilai +25,7 kJ mol⁻¹ pada kompres dingin?
+
+**85.** Mengapa garam yang pelarutannya endoterm, seperti KCl, tetap mudah larut?
+
+**86.** Urutkan entalpi hidrasi Li⁺, Na⁺, K⁺, Mg²⁺ dari yang paling negatif, dan jelaskan alasannya.
+
 
 # Jawaban
 
 ::: {.panjang}
 | No. | Jawaban | No. | Jawaban |
 |---|---|---|---|
-| 1 | −281,74 kJ mol⁻¹ | 42 | −74,81 kJ mol⁻¹ |
-| 2 | endoterm; dingin | 43 | −311,5 kJ mol⁻¹ |
-| 3 | *RT* = 2,48 kJ | 44 | −395,7 kJ mol⁻¹ |
-| 4 | 35,7 kJ mol⁻¹ | 45 | entalpi fungsi keadaan; awal dan akhir sama |
-| 5 | bila jumlah mol gas bertambah, misalnya penguraian CaCO₃ | 46 | +178,3 kJ mol⁻¹ |
-| 6 | −7,44 kJ mol⁻¹ (Δ*n*$_\text{gas}$ = −3) | 47 | −2802,7 kJ mol⁻¹ |
-| 7 | −87,26 kJ mol⁻¹ | 48 | O₂(g) dan Br₂(l) |
-| 8 | reaksi tanpa perubahan mol gas, misalnya H₂ + Cl₂ → 2HCl atau reaksi dalam larutan | 49 | −905,5 kJ mol⁻¹ |
-| 9 | 28,80 J K⁻¹ mol⁻¹ | 50 | −49,9 kJ g⁻¹ |
-| 10 | 4,16 kJ; 2,49 kJ | 51 | +28,1 kJ mol⁻¹; Contoh 4.13 adalah larutan pekat |
-| 11 | 6,10 kJ | 52 | −890,4 kJ mol⁻¹ |
-| 12 | padatan hampir tidak memuai, sehingga kerja ekspansinya sangat kecil | 53 | −2802,7 kJ mol⁻¹; −15,6 kJ g⁻¹ |
-| 13 | 4,16 kJ; 2,49 kJ | 54 | −24,7 kJ mol⁻¹ |
-| 14 | 28,8 J K⁻¹ mol⁻¹ | 55 | +178,3 kJ mol⁻¹ |
-| 15 | cairan dan padatan hampir tidak memuai saat dipanaskan, sehingga kerja pemuaian sangat kecil | 56 | −1299,6 kJ mol⁻¹; Δ$_\text{f}$*H*° asetilena positif menambah kalor yang dilepas |
-| 16 | 10,0 kJ K⁻¹ | 57 | −905,5 kJ |
-| 17 | tekanannya tetap (terbuka ke atmosfer) | 58 | −184 kJ mol⁻¹; sangat cocok |
-| 18 | −5648 kJ mol⁻¹ | 59 | −75 kJ mol⁻¹ (sebenarnya −92,2) |
-| 19 | −5155 kJ mol⁻¹ | 60 | −124 kJ mol⁻¹ dibanding −137,0 |
-| 20 | 3,41 K | 61 | H–H, Cl–Cl, H–Cl dari molekul diatomik (tepat); N–H adalah rata-rata |
-| 21 | −5133 kJ mol⁻¹; −5138 kJ mol⁻¹ | 62 | +717,6 kJ mol⁻¹; ion K⁺ lebih besar, jarak antarion lebih jauh, tarikan lebih lemah |
-| 22 | −56 kJ mol⁻¹ | 63 | −184 kJ |
-| 23 | bom bervolume tetap (*q*$_V$ = Δ*U*); gelas gabus terbuka pada tekanan tetap (*q*$_p$ = Δ*H*) | 64 | −75 kJ |
-| 24 | kalor diserap seluruh peralatan (bom, air, pengaduk), yang kapasitas kalornya tidak dapat dihitung tepat | 65 | −124 kJ; −115 kJ |
-| 25 | 16,7 kJ | 66 | afinitas elektron dan pembentukan kisi; energi kisi yang besar menebus ionisasi |
-| 26 | 226 kJ | 67 | bertambah 1,0 kJ mol⁻¹ |
-| 27 | 15,5 °C | 68 | −248,8 kJ mol⁻¹ |
-| 28 | penguapan memisahkan molekul sepenuhnya; peleburan hanya melonggarkannya | 69 | kapasitas kalor sendiri berubah dengan suhu |
-| 29 | 33,4 kJ; 2,26 MJ | 70 | −106,7 kJ mol⁻¹; $|\Delta_\text{r}C_p^\circ|$ mengecil dari 44,6 ke 25,2 J K⁻¹ mol⁻¹ saat suhu naik |
-| 30 | 151 kJ | 71 | −242,6 kJ mol⁻¹ |
-| 31 | 1,20 MJ | 72 | ≈ 42,3 kJ mol⁻¹ |
-| 32 | uap melepas entalpi penguapan yang besar saat mengembun di kulit | 73 | rentang suhu lebar, atau ada perubahan fasa di antaranya |
-| 33 | +285,83 kJ mol⁻¹ | 74 | 22,7 dan 51,9 kJ g⁻¹ |
-| 34 | zat murni pada 1 bar; tidak menyebut suhu | 75 | 33,7 MJ L⁻¹ |
-| 35 | 55,5 MJ | 76 | 238 g |
-| 36 | −241,82 kJ mol⁻¹ | 77 | 49 dan 64 g MJ⁻¹; perbandingan H/C metana lebih tinggi |
-| 37 | 151 MJ | 78 | 445; 444; 456; 468; 572 kJ per mol O₂; senyawa organik hampir tetap (±450) |
-| 38 | 2H₂O(l) → 2H₂(g) + O₂(g); +571,66 kJ | 79 | 142; 55,5; 47,9 MJ kg⁻¹ |
-| 39 | entalpi bergantung wujud; H₂O(l) dan H₂O(g) berbeda 44 kJ mol⁻¹ | 80 | 49 g MJ⁻¹ dan 64 g MJ⁻¹; gas alam melepas sekitar 23% lebih sedikit CO₂ per energi |
-| 40 | −395,72 kJ mol⁻¹ | 81 | standar kalorimetri; mesin dan tungku membuang air sebagai uap |
-| 41 | +1,90 kJ mol⁻¹ |  |  |
+| 1 | −281,74 kJ mol⁻¹ | 44 | −395,7 kJ mol⁻¹ |
+| 2 | endoterm; dingin | 45 | entalpi fungsi keadaan; awal dan akhir sama |
+| 3 | *RT* = 2,48 kJ | 46 | +178,3 kJ mol⁻¹ |
+| 4 | 35,7 kJ mol⁻¹ | 47 | −2802,7 kJ mol⁻¹ |
+| 5 | bila jumlah mol gas bertambah, misalnya penguraian CaCO₃ | 48 | O₂(g) dan Br₂(l) |
+| 6 | −7,44 kJ mol⁻¹ (Δ*n*$_\text{gas}$ = −3) | 49 | −905,5 kJ mol⁻¹ |
+| 7 | −87,26 kJ mol⁻¹ | 50 | −49,9 kJ g⁻¹ |
+| 8 | reaksi tanpa perubahan mol gas, misalnya H₂ + Cl₂ → 2HCl atau reaksi dalam larutan | 51 | +28,1 kJ mol⁻¹; Contoh 4.13 adalah larutan pekat |
+| 9 | 28,80 J K⁻¹ mol⁻¹ | 52 | −890,4 kJ mol⁻¹ |
+| 10 | 4,16 kJ; 2,49 kJ | 53 | −2802,7 kJ mol⁻¹; −15,6 kJ g⁻¹ |
+| 11 | 6,10 kJ | 54 | −24,7 kJ mol⁻¹ |
+| 12 | padatan hampir tidak memuai, sehingga kerja ekspansinya sangat kecil | 55 | +178,3 kJ mol⁻¹ |
+| 13 | 4,16 kJ; 2,49 kJ | 56 | −1299,6 kJ mol⁻¹; Δ$_\text{f}$*H*° asetilena positif menambah kalor yang dilepas |
+| 14 | 28,8 J K⁻¹ mol⁻¹ | 57 | −905,5 kJ |
+| 15 | cairan dan padatan hampir tidak memuai saat dipanaskan, sehingga kerja pemuaian sangat kecil | 58 | −184 kJ mol⁻¹; sangat cocok |
+| 16 | 10,0 kJ K⁻¹ | 59 | −75 kJ mol⁻¹ (sebenarnya −92,2) |
+| 17 | tekanannya tetap (terbuka ke atmosfer) | 60 | −124 kJ mol⁻¹ dibanding −137,0 |
+| 18 | −5648 kJ mol⁻¹ | 61 | H–H, Cl–Cl, H–Cl dari molekul diatomik (tepat); N–H adalah rata-rata |
+| 19 | −5155 kJ mol⁻¹ | 62 | +717,6 kJ mol⁻¹; ion K⁺ lebih besar, jarak antarion lebih jauh, tarikan lebih lemah |
+| 20 | 3,41 K | 63 | −184 kJ |
+| 21 | −5133 kJ mol⁻¹; −5138 kJ mol⁻¹ | 64 | −75 kJ |
+| 22 | −56 kJ mol⁻¹ | 65 | −124 kJ; −115 kJ |
+| 23 | bom bervolume tetap (*q*$_V$ = Δ*U*); gelas gabus terbuka pada tekanan tetap (*q*$_p$ = Δ*H*) | 66 | afinitas elektron dan pembentukan kisi; energi kisi yang besar menebus ionisasi |
+| 24 | kalor diserap seluruh peralatan (bom, air, pengaduk), yang kapasitas kalornya tidak dapat dihitung tepat | 67 | bertambah 1,0 kJ mol⁻¹ |
+| 25 | 16,7 kJ | 68 | −248,8 kJ mol⁻¹ |
+| 26 | 226 kJ | 69 | kapasitas kalor sendiri berubah dengan suhu |
+| 27 | 15,5 °C | 70 | −106,7 kJ mol⁻¹; $|\Delta_\text{r}C_p^\circ|$ mengecil dari 44,6 ke 25,2 J K⁻¹ mol⁻¹ saat suhu naik |
+| 28 | penguapan memisahkan molekul sepenuhnya; peleburan hanya melonggarkannya | 71 | −242,6 kJ mol⁻¹ |
+| 29 | 33,4 kJ; 2,26 MJ | 72 | ≈ 42,3 kJ mol⁻¹ |
+| 30 | 151 kJ | 73 | rentang suhu lebar, atau ada perubahan fasa di antaranya |
+| 31 | 1,20 MJ | 74 | 22,7 dan 51,9 kJ g⁻¹ |
+| 32 | uap melepas entalpi penguapan yang besar saat mengembun di kulit | 75 | 33,7 MJ L⁻¹ |
+| 33 | +285,83 kJ mol⁻¹ | 76 | 238 g |
+| 34 | zat murni pada 1 bar; tidak menyebut suhu | 77 | 49 dan 64 g MJ⁻¹; perbandingan H/C metana lebih tinggi |
+| 35 | 55,5 MJ | 78 | 445; 444; 456; 468; 572 kJ per mol O₂; senyawa organik hampir tetap (±450) |
+| 36 | −241,82 kJ mol⁻¹ | 79 | 142; 55,5; 47,9 MJ kg⁻¹ |
+| 37 | 151 MJ | 80 | 49 g MJ⁻¹ dan 64 g MJ⁻¹; gas alam melepas sekitar 23% lebih sedikit CO₂ per energi |
+| 38 | 2H₂O(l) → 2H₂(g) + O₂(g); +571,66 kJ | 81 | standar kalorimetri; mesin dan tungku membuang air sebagai uap |
+| 39 | entalpi bergantung wujud; H₂O(l) dan H₂O(g) berbeda 44 kJ mol⁻¹ | 82 | +17,2 kJ mol⁻¹; −700,2 kJ mol⁻¹ |
+| 40 | −395,72 kJ mol⁻¹ | 83 | −44,5 kJ mol⁻¹; ≈ 10 K |
+| 41 | +1,90 kJ mol⁻¹ | 84 | tabel untuk pengenceran tak hingga; larutan pekat mempunyai entalpi pengenceran |
+| 42 | −74,81 kJ mol⁻¹ | 85 | entropi naik saat ion lepas dari kisi; Δ*G* tetap negatif |
+| 43 | −311,5 kJ mol⁻¹ | 86 | Mg²⁺ < Li⁺ < Na⁺ < K⁺ (paling negatif dahulu); muatan besar dan ukuran kecil menarik dipol air lebih kuat |
 :::
 
 

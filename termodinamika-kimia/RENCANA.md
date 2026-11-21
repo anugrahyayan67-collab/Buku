@@ -14,9 +14,9 @@ Buku ini lanjutan langsung dari *Fisika Umum* Bab 10–11 (suhu, kalor, gas idea
 
 | Letak | Tambahan | Acuan |
 |---|---|---|
-| 3.10 | Sifat termodinamika zat terkondensasi: koefisien muai α, kompresibilitas isotermal κ$_T$, tekanan dalam π$_T$, percobaan Joule | Atkins 2D, Levine 4 |
+| (7.6) | Koefisien muai α, kompresibilitas κ$_T$, tekanan dalam π$_T$: **ternyata sudah ada** di subbab 7.6, tidak ditambah | Atkins 2D, Levine 4 |
 | 4.11 | Entalpi pelarutan, pengenceran, dan hidrasi ion; entalpi pembentukan ion dalam larutan | Atkins 2C, Levine 5 |
-| 7.10 | Hubungan umum: $C_p - C_V = TV\alpha^2/\kappa_T$, μ$_\text{JT}$ dari α, transformasi Legendre dan teorema Euler | Atkins 3E, Engel–Reid 3 |
+| (7.6) | $C_p - C_V = TV\alpha^2/\kappa_T$: **sudah ada** di subbab 7.6, tidak ditambah | Atkins 3E, Engel–Reid 3 |
 | 8.9 | Klasifikasi transisi fasa Ehrenfest; transisi orde kedua dan transisi λ | Atkins 4B, Levine 7 |
 | 10.8 | Larutan elektrolit: kekuatan ion, teori Debye–Hückel, koefisien aktivitas ion rata-rata, efek garam pada kelarutan | Atkins 5F, Levine 10 |
 | 11.9 | Suhu larutan kritis atas dan bawah, larutan padat, leleh tak kongruen, pemurnian zona | Atkins 5C, Castellan 16 |
@@ -45,7 +45,7 @@ Pemetaan RPS: mg 1 → Bab 1 · mg 2 → Bab 2 · mg 3–4 → Bab 3–4 · mg 5
 3.1 Energi dalam dan fungsi keadaan · 3.2 Kerja ekspansi · 3.3 Proses reversibel dan tak reversibel · 3.4 Kalor dan kapasitas kalor · 3.5 Hukum pertama termodinamika · 3.6 Diferensial eksak dan tak eksak · 3.7 Proses isotermal gas ideal · 3.8 Proses adiabatik gas ideal · 3.9 Energi dalam dari sudut molekul: ekuipartisi
 
 ### ☑ Bab 4 Entalpi dan Termokimia
-4.1 Entalpi · 4.2 Cp, Cv, dan hubungan keduanya · 4.3 Kalorimetri: bom dan tekanan tetap · 4.4 Entalpi perubahan fisika · 4.5 Persamaan termokimia dan keadaan standar · 4.6 Hukum Hess · 4.7 Entalpi pembentukan standar · 4.8 Entalpi ikatan · 4.9 Ketergantungan entalpi reaksi pada suhu: hukum Kirchhoff · 4.10 Termokimia pembakaran dan bahan bakar
+4.1 Entalpi · 4.2 Cp, Cv, dan hubungan keduanya · 4.3 Kalorimetri: bom dan tekanan tetap · 4.4 Entalpi perubahan fisika · 4.5 Persamaan termokimia dan keadaan standar · 4.6 Hukum Hess · 4.7 Entalpi pembentukan standar · 4.8 Entalpi ikatan · 4.9 Ketergantungan entalpi reaksi pada suhu: hukum Kirchhoff · 4.10 Termokimia pembakaran dan bahan bakar · 4.11 Entalpi pelarutan dan hidrasi ion (baru, Edisi 1.2)
 
 ## Bagian III · Hukum kedua dan ketiga
 

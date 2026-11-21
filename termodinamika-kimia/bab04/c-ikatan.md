@@ -146,6 +146,56 @@ Kantong penghangat tangan bekerja dengan mengoksidasi besi menjadi Fe₂O₃: $4
 **Kuis cepat 4.10** Metanol (CH₃OH) dan etana (C₂H₆) mempunyai massa molar yang hampir sama. Mana yang kamu duga melepaskan energi lebih banyak per gram ketika dibakar, dan mengapa?
 :::
 
+## 4.11 Entalpi pelarutan dan hidrasi ion
+
+Contoh 4.13 memakai entalpi pelarutan NH₄NO₃ (+25,7 kJ mol⁻¹) sebagai data begitu saja. Mengapa sebagian garam mendinginkan air ketika larut (NH₄NO₃, KCl), sedangkan yang lain memanaskannya (NaOH, CaCl₂), dan NaCl hampir tidak mengubah suhu sama sekali? Jawabannya adalah persaingan dua besaran yang sangat besar, yang hampir saling menghapus.
+
+### Siklus pelarutan
+
+Melarutkan garam ionik dapat dibayangkan sebagai dua langkah (Gambar 4.8). Mula-mula kisi kristal dipecah menjadi ion-ion dalam fase gas; langkah ini menyerap **entalpi kisi** Δ$_\text{L}$*H* yang besar (subbab 4.8). Lalu setiap ion gas dimasukkan ke dalam air dan dikelilingi molekul air yang mengarahkan dipolnya ke ion; langkah ini melepas **entalpi hidrasi** Δ$_\text{hyd}$*H*. Menurut hukum Hess,
+$$
+\Delta_\text{sol}H = \Delta_\text{L}H + \Delta_\text{hyd}H . \qquad \text{(4.10)}
+$$
+Untuk NaCl, Δ$_\text{L}$*H* = +787,4 kJ mol⁻¹ dan entalpi pelarutannya terukur +3,9 kJ mol⁻¹, sehingga entalpi hidrasi kedua ion bersama-sama adalah −783,5 kJ mol⁻¹. Dua angka sebesar hampir 800 kJ mol⁻¹ saling menghapus sampai tinggal 4 kJ mol⁻¹. Karena itu tanda entalpi pelarutan sangat peka: perubahan kecil ukuran atau muatan ion dapat membalik tandanya.
+
+![Gambar 4.8 Siklus pelarutan NaCl. Memecah kisi menyerap 787,4 kJ mol⁻¹; menghidrasi kedua ion melepas 783,5 kJ mol⁻¹. Selisih kecil keduanya adalah entalpi pelarutan.](fig/pelarutan.png){width=76%}
+
+Apa yang menentukan besarnya entalpi hidrasi? Ion kecil dan bermuatan besar menarik dipol air paling kuat, karena medan listrik di permukaannya paling besar. Entalpi hidrasi Li⁺ jauh lebih negatif daripada Cs⁺, dan Mg²⁺ jauh lebih negatif daripada Na⁺. Itulah sebabnya garam litium dan magnesium cenderung melarut secara eksoterm, dan mengapa ion-ion itu dalam larutan selalu membawa selubung air yang terikat erat.
+
+### Entalpi pembentukan ion dalam larutan
+
+Sama seperti energi Gibbs (subbab 12.9), entalpi pembentukan satu jenis ion tidak dapat diukur sendirian, karena larutan selalu netral. Konvensinya sama: Δ$_\text{f}$*H*°(H⁺, aq) = 0. Dengan acuan ini, ion lain mempunyai nilai tabel, dan entalpi pelarutan garam pada pengenceran tak hingga dihitung seperti entalpi reaksi biasa dengan (4.7).
+
+| Spesies | Δ$_\text{f}$*H*° (kJ mol⁻¹) | Spesies | Δ$_\text{f}$*H*° (kJ mol⁻¹) |
+|---|---|---|---|
+| Na⁺(aq) | −240,12 | NaCl(s) | −411,15 |
+| K⁺(aq) | −252,38 | KCl(s) | −436,75 |
+| NH₄⁺(aq) | −132,51 | NH₄NO₃(s) | −365,56 |
+| Cl⁻(aq) | −167,16 | NaOH(s) | −425,61 |
+| OH⁻(aq) | −229,99 | NO₃⁻(aq) | −205,0 |
+
+Tabel 4.3 Entalpi pembentukan standar beberapa ion dalam air (pengenceran tak hingga) dan garam padatnya, pada 25 °C.
+
+::: {.contoh}
+**Contoh 4.19 · Garam yang mendinginkan dan garam yang memanaskan**
+
+Dari Tabel 4.3, hitung entalpi pelarutan pada pengenceran tak hingga untuk NaCl, KCl, NaOH, dan NH₄NO₃. Bandingkan nilai NH₄NO₃ dengan +25,7 kJ mol⁻¹ pada Contoh 4.13.
+
+**Penyelesaian.** Untuk $\text{NaCl}(s) \to \text{Na}^+(aq) + \text{Cl}^-(aq)$:
+$$
+\Delta_\text{sol}H^\circ = (-240{,}12) + (-167{,}16) - (-411{,}15) = +3{,}87\ \text{kJ mol}^{-1} .
+$$
+Dengan cara yang sama: KCl +17,2 kJ mol⁻¹; NaOH −44,5 kJ mol⁻¹; NH₄NO₃ +28,1 kJ mol⁻¹.
+
+**Memahami hasil.** KCl dan NH₄NO₃ menyerap kalor saat larut, sehingga larutannya mendingin; NaOH melepas banyak kalor, dan melarutkan butiran NaOH memang dapat membuat gelas panas. Nilai NH₄NO₃ dari tabel (+28,1) sedikit lebih besar daripada +25,7 kJ mol⁻¹ yang dipakai di Contoh 4.13. Keduanya benar: tabel memberi nilai pada pengenceran tak hingga, sedangkan kompres dingin membuat larutan pekat, dan entalpi pelarutan bergantung pada konsentrasi akhir. Selisihnya disebut **entalpi pengenceran**, yaitu kalor yang menyertai penambahan pelarut pada larutan yang sudah ada. Untuk garam yang sangat mudah larut seperti NH₄NO₃, besarnya beberapa kJ mol⁻¹.
+:::
+
+Mengapa KCl, yang entalpi pelarutannya +17 kJ mol⁻¹, tetap larut dengan mudah? Karena pelarutan menaikkan entropi: ion yang tadinya terkunci di kisi kristal menjadi bebas bergerak di larutan. Bab 6 dan 7 akan memperlihatkan bahwa yang menentukan apakah garam larut adalah Δ*G* = Δ*H* − *T*Δ*S*, bukan Δ*H* saja. Entalpi pelarutan hanya menentukan apakah larutan menjadi hangat atau dingin.
+
+::: {.kuis}
+**Kuis cepat 4.11** Entalpi kisi LiF (1037 kJ mol⁻¹) jauh lebih besar daripada CsF (744 kJ mol⁻¹), tetapi entalpi pelarutan keduanya kecil. Apa yang dapat kamu simpulkan tentang entalpi hidrasi Li⁺ dibanding Cs⁺?
+:::
+
 ### Menuju bab berikutnya
 
 Hukum pertama dan entalpi memungkinkan kita menghitung berapa energi yang dipertukarkan dalam setiap proses. Tetapi keduanya tidak dapat menjawab pertanyaan yang lebih mendasar: **ke arah mana** suatu proses berjalan dengan sendirinya? Kalor mengalir dari benda panas ke benda dingin, tidak pernah sebaliknya, walaupun hukum pertama mengizinkan keduanya. Kompres dingin menyerap kalor, tetapi tetap bekerja. Bab 5 memperkenalkan hukum kedua termodinamika dan besaran yang menentukan arah semua perubahan: **entropi**.

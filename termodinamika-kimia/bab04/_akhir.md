@@ -14,8 +14,10 @@
 | Entalpi ikatan | $\Delta_\text{r}H \approx \sum D(\text{diputus}) - \sum D(\text{dibentuk})$, fase gas | 4.8 |
 | Kirchhoff | $\Delta_\text{r}H^\circ(T_2) = \Delta_\text{r}H^\circ(T_1) + \Delta_\text{r}C_p^\circ(T_2 - T_1)$ | 4.9 |
 | Bahan bakar | H₂ 142, CH₄ 55,5, oktana 47,9, etanol 29,7, glukosa 15,6 kJ g⁻¹ | 4.10 |
+| Siklus pelarutan | $\Delta_\text{sol}H = \Delta_\text{L}H + \Delta_\text{hyd}H$; dua besaran besar yang hampir saling menghapus | 4.11 |
+| Entalpi pembentukan ion | konvensi Δ$_\text{f}$*H*°(H⁺, aq) = 0; Δ$_\text{sol}$*H*° dari tabel ion (pengenceran tak hingga) | 4.11 |
 
-**Jawaban kuis cepat.** **4.1** Untuk sintesis amonia, $\Delta n_\text{gas} = -2$, sehingga $\Delta H = \Delta U - 2RT$: Δ*H* lebih negatif. Untuk pembentukan HCl, $\Delta n_\text{gas} = 0$ dan keduanya sama. **4.2** Cairan hampir tidak memuai ketika dipanaskan, sehingga hampir tidak ada kerja ekspansi. Uap air memuai seperti gas ideal, sehingga $C_p - C_V = R$. **4.3** Volumenya tetap, sehingga tidak ada kerja ekspansi dan $q_V = \Delta U$. Keduanya sama bila jumlah mol gas tidak berubah, misalnya pembakaran glukosa. **4.4** Uap yang mengembun di kulit melepaskan kalor pengembunan 40,7 kJ mol⁻¹, jauh lebih besar daripada kalor yang dilepaskan air 100 °C ketika mendingin beberapa puluh derajat. **4.5** Dibalik dan dikalikan dua: +571,6 kJ mol⁻¹. **4.6** Bila Δ*H* bergantung pada jalan, jalan langsung dan jalan bertahap dapat memberi hasil berbeda, sehingga menjumlahkan reaksi-reaksi lain tidak lagi sah. **4.7** Keadaan acuan karbon adalah grafit, bentuk yang paling stabil. Intan adalah bentuk lain, 1,9 kJ mol⁻¹ lebih tinggi dalam entalpi. **4.8** Ikatan rangkap terdiri atas satu ikatan σ dan satu ikatan π. Ikatan π, yang terbentuk dari tumpang tindih orbital p menyamping, lebih lemah daripada ikatan σ. **4.9** Entalpi reaksi tidak berubah dengan suhu. **4.10** Etana: metanol sudah mengandung oksigen, sehingga sebagian molekulnya sudah "terbakar" (22,7 dibanding 51,9 kJ g⁻¹).
+**Jawaban kuis cepat.** **4.1** Untuk sintesis amonia, $\Delta n_\text{gas} = -2$, sehingga $\Delta H = \Delta U - 2RT$: Δ*H* lebih negatif. Untuk pembentukan HCl, $\Delta n_\text{gas} = 0$ dan keduanya sama. **4.2** Cairan hampir tidak memuai ketika dipanaskan, sehingga hampir tidak ada kerja ekspansi. Uap air memuai seperti gas ideal, sehingga $C_p - C_V = R$. **4.3** Volumenya tetap, sehingga tidak ada kerja ekspansi dan $q_V = \Delta U$. Keduanya sama bila jumlah mol gas tidak berubah, misalnya pembakaran glukosa. **4.4** Uap yang mengembun di kulit melepaskan kalor pengembunan 40,7 kJ mol⁻¹, jauh lebih besar daripada kalor yang dilepaskan air 100 °C ketika mendingin beberapa puluh derajat. **4.5** Dibalik dan dikalikan dua: +571,6 kJ mol⁻¹. **4.6** Bila Δ*H* bergantung pada jalan, jalan langsung dan jalan bertahap dapat memberi hasil berbeda, sehingga menjumlahkan reaksi-reaksi lain tidak lagi sah. **4.7** Keadaan acuan karbon adalah grafit, bentuk yang paling stabil. Intan adalah bentuk lain, 1,9 kJ mol⁻¹ lebih tinggi dalam entalpi. **4.8** Ikatan rangkap terdiri atas satu ikatan σ dan satu ikatan π. Ikatan π, yang terbentuk dari tumpang tindih orbital p menyamping, lebih lemah daripada ikatan σ. **4.9** Entalpi reaksi tidak berubah dengan suhu. **4.10** Etana: metanol sudah mengandung oksigen, sehingga sebagian molekulnya sudah "terbakar" (22,7 dibanding 51,9 kJ g⁻¹). **4.11** Karena Δ$_\text{sol}$*H* = Δ$_\text{L}$*H* + Δ$_\text{hyd}$*H* kecil untuk keduanya, entalpi hidrasi LiF harus sekitar 290 kJ mol⁻¹ lebih negatif daripada CsF. Anionnya sama (F⁻), jadi selisih itu berasal dari kation: Li⁺ yang kecil terhidrasi jauh lebih kuat daripada Cs⁺.
 
 # Pertanyaan
 
@@ -68,6 +70,10 @@
 18. Mengapa bahan bakar yang mengandung oksigen melepaskan energi lebih sedikit per gram?
 19. Kompres dingin menyerap kalor tetapi tetap bekerja dengan sendirinya. Apa artinya bagi hubungan antara Δ*H* dan spontanitas?
 20. Hidrogen melepas kalor paling banyak per kilogram, tetapi sedikit per liter. Mengapa kedua ukuran itu sama penting untuk bahan bakar kendaraan?
+
+## Subbab 4.11: Entalpi pelarutan dan hidrasi ion
+
+21. Mengapa entalpi pelarutan garam ionik biasanya kecil, padahal entalpi kisi dan entalpi hidrasinya ratusan kJ mol⁻¹?
 
 # Soal
 
