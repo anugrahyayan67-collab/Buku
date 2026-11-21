@@ -6,6 +6,7 @@ from rdkit import Chem
 from rdkit.Chem import Draw
 from rdkit.Chem.Draw import rdMolDraw2D
 from PIL import Image
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from rdk import rapat
 plt.rcParams.update({'font.family': 'Liberation Sans', 'font.size': 10})
 R = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
 F = f'{R}/bab01/fig'; os.makedirs(F, exist_ok=True)
@@ -17,7 +18,7 @@ def gbr(smi, w=520, h=300):
     o.bondLineWidth = 2; o.fixedFontSize = 30; o.updateAtomPalette({8: (0.71, 0.33, 0.11), 7: (0.11, 0.46, 0.74)})
     o.clearBackground = True; o.padding = 0.12; o.fixedBondLength = 45
     rdMolDraw2D.PrepareAndDrawMolecule(d, Chem.MolFromSmiles(smi)); d.FinishDrawing()
-    return Image.open(io.BytesIO(d.GetDrawingText()))
+    return rapat(Image.open(io.BytesIO(d.GetDrawingText())))
 mol = [('CCCCCCO', 'heksan-1-ol'), ('CC(=O)OCCC(C)C', 'isopentil asetat'), ('C1=CCCCC1', 'sikloheksena')]
 f, ax = plt.subplots(1, 3, figsize=(7.6, 2.2), dpi=220)
 for a, (s, n) in zip(ax, mol):

@@ -4,6 +4,7 @@ matplotlib.use('Agg'); import matplotlib.pyplot as plt
 from rdkit import Chem
 from rdkit.Chem.Draw import rdMolDraw2D
 from PIL import Image
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from rdk import rapat, pasang
 plt.rcParams.update({'font.family': 'Liberation Sans', 'font.size': 10})
 R = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
 F = f'{R}/bab02/fig'; os.makedirs(F, exist_ok=True)
@@ -18,7 +19,7 @@ def gbr(smi, sorot=(), w=420, h=300):
     rdMolDraw2D.PrepareAndDrawMolecule(d, m, highlightAtoms=at, highlightAtomColors={i: (0.5, 0.75, 0.94) for i in at},
                                        highlightBonds=[b.GetIdx() for b in m.GetBonds() if b.GetBeginAtomIdx() in at and b.GetEndAtomIdx() in at],
                                        highlightBondColors={b.GetIdx(): (0.5, 0.75, 0.94) for b in m.GetBonds()})
-    d.FinishDrawing(); return Image.open(io.BytesIO(d.GetDrawingText()))
+    d.FinishDrawing(); return rapat(Image.open(io.BytesIO(d.GetDrawingText())))
 
 def lembar(daftar, nama, kol, ukuran):
     baris = (len(daftar) + kol - 1) // kol
@@ -50,7 +51,7 @@ def gbrn(smi, notes=None, hl=(), hlc=None, w=440, h=300, bl=None, fs=26):
     hb = [b.GetIdx() for b in m.GetBonds() if b.GetBeginAtomIdx() in hl and b.GetEndAtomIdx() in hl]
     rdMolDraw2D.PrepareAndDrawMolecule(d, m, highlightAtoms=hl, highlightBonds=hb, highlightAtomColors={i: col.get(i, (0.5, 0.75, 0.94)) for i in hl},
                                        highlightBondColors={b: col.get(m.GetBondWithIdx(b).GetBeginAtomIdx(), (0.5, 0.75, 0.94)) for b in hb})
-    d.FinishDrawing(); return Image.open(io.BytesIO(d.GetDrawingText()))
+    d.FinishDrawing(); return rapat(Image.open(io.BytesIO(d.GetDrawingText())))
 def sorot(smi, smarts):
     m = Chem.MolFromSmiles(smi); return [i for p in smarts for t in m.GetSubstructMatches(Chem.MolFromSmarts(p)) for i in t]
 def grid(items, nama, kol, ukuran, fs_t=9):

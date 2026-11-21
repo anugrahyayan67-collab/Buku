@@ -5,6 +5,7 @@ from matplotlib.patches import FancyBboxPatch, Polygon
 from rdkit import Chem
 from rdkit.Chem.Draw import rdMolDraw2D
 from PIL import Image
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from rdk import rapat, pasang
 plt.rcParams.update({'font.family': 'Liberation Sans', 'font.size': 9.5})
 R = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
 F = f'{R}/bab05/fig'; os.makedirs(F, exist_ok=True)
@@ -32,7 +33,7 @@ def rd(smi, w=420, h=320, fs=28):
     m = Chem.MolFromSmiles(smi); d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions()
     o.bondLineWidth = 2; o.fixedFontSize = fs; o.addStereoAnnotation = True; o.padding = 0.15
     o.updateAtomPalette({8: (0.71, 0.33, 0.11), 35: (0.55, 0.2, 0.1)})
-    rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing(); return Image.open(io.BytesIO(d.GetDrawingText()))
+    rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing(); return rapat(Image.open(io.BytesIO(d.GetDrawingText())))
 
 # 2. enansiomer butan-2-ol
 f, ax = plt.subplots(1, 3, figsize=(7.0, 2.6), dpi=220, gridspec_kw={'width_ratios': [1, 0.12, 1]})
@@ -97,7 +98,7 @@ def rd(smi, w=440, h=320, bl=42, fs=26, notes=None, hl=(), cip=False, hs=False):
     for i, t in (notes or {}).items(): m.GetAtomWithIdx(i).SetProp('atomNote', t)
     hl = list(hl)
     rdMolDraw2D.PrepareAndDrawMolecule(d, m, highlightAtoms=hl, highlightAtomColors={i: (0.94, 0.63, 0.38) for i in hl}, highlightBonds=[])
-    d.FinishDrawing(); return Image.open(io.BytesIO(d.GetDrawingText()))
+    d.FinishDrawing(); return rapat(Image.open(io.BytesIO(d.GetDrawingText())))
 def pusat(smi):
     m = Chem.MolFromSmiles(smi); return [i for i, _ in Chem.FindMolChiralCenters(m, includeUnassigned=True, useLegacyImplementation=False)]
 
@@ -146,7 +147,7 @@ plt.tight_layout(w_pad=4); simpan(f, 'efedrina')
 # 9. empat stereoisomer 2-bromo-3-klorobutana
 f, ax = plt.subplots(figsize=(6.8, 4.4), dpi=220); ax.set_xlim(0, 20); ax.set_ylim(0, 13); ax.axis('off')
 S4 = [('C[C@@H](Br)[C@@H](C)Cl', '(2R,3R)', (4, 10.2)), ('C[C@H](Br)[C@H](C)Cl', '(2S,3S)', (16, 10.2)), ('C[C@@H](Br)[C@H](C)Cl', '(2R,3S)', (4, 2.8)), ('C[C@H](Br)[C@@H](C)Cl', '(2S,3R)', (16, 2.8))]
-for s, t, (x, y) in S4: ax.imshow(rd(s, w=420, h=300, bl=48, fs=26), extent=[x - 3.5, x + 3.5, y - 2.3, y + 2.3], zorder=2); T(ax, x, y - 2.7, t, fs=9.5, fontweight='bold')
+for s, t, (x, y) in S4: pasang(ax, rd(s, w=420, h=300, bl=48, fs=26), x - 3.5, x + 3.5, y - 2.3, y + 2.3, zorder=2); T(ax, x, y - 2.7, t, fs=9.5, fontweight='bold')
 for (x1, y1), (x2, y2), lab, c in [((7.8, 10.2), (12.2, 10.2), 'enansiomer', HJ), ((7.8, 2.8), (12.2, 2.8), 'enansiomer', HJ), ((4, 7.2), (4, 5.6), 'diastereomer', JT), ((16, 7.2), (16, 5.6), 'diastereomer', JT), ((7.5, 7.4), (12.5, 5.4), 'diastereomer', JT)]:
     ax.add_patch(FancyArrowPatch((x1, y1), (x2, y2), arrowstyle='<|-|>', mutation_scale=9, color=c, lw=1.2))
     ax.text((x1 + x2) / 2 + (1.6 if x1 == x2 else 1.2), (y1 + y2) / 2 + (0 if x1 == x2 else 0.9), lab, ha='center', fontsize=8, color=c)
@@ -181,7 +182,7 @@ simpan(f, 'alena')
 D = [('C/C=C\\C', '(Z)-but-2-ena\nprioritas tinggi sepihak'), ('C/C=C/C', '(E)-but-2-ena\nprioritas tinggi berseberangan'),
      ('Br/C(Cl)=C/C', '(E)-1-bromo-1-kloropropena\nBr > Cl; CH₃ > H'), ('CCCCCCCC/C=C\\CCCCCCCC(=O)O', 'asam oleat: (Z)')]
 f, ax = plt.subplots(1, 4, figsize=(7.6, 2.3), dpi=220)
-for a, (s, t) in zip(ax, D): a.imshow(rd(s, w=440, h=320, bl=60 if 'CCCCCCCC' not in s else 22, fs=28 if 'CCCC' not in s else 18)); a.axis('off'); a.set_title(t, fontsize=8, color=TUA, y=-0.25)
+for a, (s, t) in zip(ax, D): a.imshow(rd(s, w=440, h=320, bl=60 if 'CCCCCCCC' not in s else 30, fs=28 if 'CCCC' not in s else 24)); a.axis('off'); a.set_title(t, fontsize=8, color=TUA, y=-0.25)
 plt.tight_layout(); simpan(f, 'EZ')
 
 # 13. resolusi
@@ -207,3 +208,52 @@ f, ax = plt.subplots(1, 4, figsize=(7.6, 2.3), dpi=220)
 for a, (s, t) in zip(ax, D): a.imshow(rd(s, w=440, h=340, bl=32, fs=22)); a.axis('off'); a.set_title(t, fontsize=8.3, color=TUA, y=-0.25)
 plt.tight_layout(); simpan(f, 'obat')
 print('ok tambahan')
+
+# ================= versi render WebGL (3D) =================
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'r3d'))
+from r3d import render, spek_molekul, tampil, koord, atom_ikat, kamera_terbaik
+TMP = os.path.join(F, '_r3d'); os.makedirs(TMP, exist_ok=True)
+def bingkai(f, rect): a = f.add_axes(rect); a.axis('off'); return a
+def satuan(v): v = np.asarray(v, float); return v / np.linalg.norm(v)
+J = []; LAB = {}
+# enansiomer butan-2-ol: (R) dan bayangan cerminnya (S) = koordinat x dicerminkan, kamera dicerminkan
+m, P, atom, ik = koord('C[C@@H](O)CC')
+c = 1; nb = {a.GetSymbol() + str(a.GetIdx()): a.GetIdx() for a in m.GetAtomWithIdx(c).GetNeighbors()}
+h = [i for k, i in nb.items() if k[0] == 'H'][0]; o = 2; me = 0; et = 3
+P = P - P[c]; vo, vh = satuan(P[o]), satuan(P[h])
+# susun: O ke atas (+z), H ke belakang (+y, menjauhi kamera yang memandang dari -y)
+z = vo; y = satuan(vh - vh.dot(z) * z); x = np.cross(y, z); P = P @ np.array([x, y, z]).T
+cam = satuan([0.42, -1, 0.22])
+for nm, sx in (('R', 1), ('S', -1)):
+    Q = P * [sx, 1, 1]; at = [(e, Q[i]) for i, (e, _) in enumerate(atom)]
+    lp = {'OH': Q[o], 'CH$_3$': Q[me], 'C$_2$H$_5$': Q[4], 'H': Q[h], '_c': Q[c]}
+    LAB[nm] = list(lp)
+    J.append((dict(spek_molekul(at, ik), w=980, h=640, zoom=2.5, camdir=list(cam * [sx, 1, 1]), up=[0, 0, 1], target=[0, 0, 0.1], labels=[list(map(float, v)) for v in lp.values()]), f'{TMP}/e_{nm}.png'))
+# alena ClCH=C=CHCl: geometri dibangun manual (ujung kiri di bidang xz, ujung kanan di bidang xy)
+c60, s60 = 0.5, np.sqrt(3) / 2; C1, C2, C3 = np.array([-1.31, 0, 0]), np.zeros(3), np.array([1.31, 0, 0])
+P2 = np.array([C1, C2, C3, C1 + 1.75 * np.array([-c60, 0, s60]), C1 + 1.08 * np.array([-c60, 0, -s60]), C3 + 1.75 * np.array([c60, -s60, 0]), C3 + 1.08 * np.array([c60, s60, 0])])
+el2 = ['C', 'C', 'C', 'Cl', 'H', 'Cl', 'H']; ik2 = [(0, 1, 2), (1, 2, 2), (0, 3), (0, 4), (2, 5), (2, 6)]
+for nm, sx in (('a', 1), ('b', -1)):
+    Q = P2 * [sx, 1, 1]; at = [(e, Q[i]) for i, e in enumerate(el2)]
+    J.append((dict(spek_molekul(at, ik2, ganda={(0, 1): [0, 1, 0], (1, 2): [0, 0, 1]}), w=800, h=640, zoom=2.3, camdir=list(satuan([0.6 * sx, -1, 0.6])), target=[0, 0, 0.1], up=[0, 0, 1]), f'{TMP}/al_{nm}.png'))
+# untuk ganda ikatan alena: tiap C=C memakai bidang p-nya sendiri; spek_molekul memakai satu arah 'ganda' — atur ulang
+PR = render(J)
+
+f = plt.figure(figsize=(7.0, 3.0), dpi=220)
+for k, (nm, t) in enumerate([('R', '(R)-butan-2-ol'), ('S', '(S)-butan-2-ol')]):
+    a = bingkai(f, [0.0 if k == 0 else 0.53, 0.12, 0.47, 0.88]); fn = f'{TMP}/e_{nm}.png'
+    tampil(a, fn); pr = np.array(PR[fn]); pc = pr[-1]
+    for l, q in zip(LAB[nm][:-1], pr[:-1]):
+        d = satuan(q - pc); off = {'OH': 0, 'H': 85}.get(l, 165)
+        if l == 'H': d = satuan(d + [0, -0.9])
+        if l == 'OH': q = q + [(80 if nm == 'R' else -80), 0]
+        a.text(*(q + d * off), l, ha='center', va='center', fontsize=10, color=TUA, fontweight='bold')
+    f.text(0.235 if k == 0 else 0.765, 0.03, t, ha='center', fontsize=10, color=TUA)
+f.add_artist(plt.Line2D([0.5, 0.5], [0.1, 0.95], color=BIRU, lw=1.6, ls=(0, (4, 3)))); f.text(0.5, 0.04, 'cermin', ha='center', fontsize=8.5, color=BIRU)
+f.savefig(f'{F}/enansiomer.png', bbox_inches='tight'); plt.close(f)
+f = plt.figure(figsize=(7.0, 2.6), dpi=220)
+for k, nm in enumerate('ab'): a = bingkai(f, [0.0 if k == 0 else 0.53, 0.16, 0.47, 0.84]); tampil(a, f'{TMP}/al_{nm}.png')
+f.add_artist(plt.Line2D([0.5, 0.5], [0.16, 0.98], color='#9aa5b1', lw=1, ls='--')); f.text(0.5, 1.0, 'cermin', ha='center', fontsize=8.5, color='#777777')
+f.text(0.5, 0.03, 'ClCH=C=CHCl: kedua ujung saling tegak lurus (Cl hijau, H putih), sehingga molekul tidak dapat ditumpuk pada bayangannya', ha='center', fontsize=8, color=TUA)
+f.savefig(f'{F}/alena.png', bbox_inches='tight'); plt.close(f)
+print('ok webgl')

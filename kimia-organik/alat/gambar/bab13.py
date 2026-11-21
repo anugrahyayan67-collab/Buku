@@ -6,6 +6,7 @@ from matplotlib.patches import FancyBboxPatch, Ellipse
 from rdkit import Chem
 from rdkit.Chem.Draw import rdMolDraw2D
 from PIL import Image
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from rdk import rapat, pasang
 plt.rcParams.update({'font.family': 'Liberation Sans', 'font.size': 9.5, 'axes.spines.top': False, 'axes.spines.right': False})
 R = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
 F = f'{R}/bab13/fig'; os.makedirs(F, exist_ok=True)
@@ -28,8 +29,8 @@ def rd(smi, w=360, h=300, fs=30, pad=0.15, hs=(), bl=None):
     d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 2; o.fixedFontSize = fs; o.padding = pad
     if bl: o.fixedBondLength = bl
     o.updateAtomPalette({35: (0.71, 0.33, 0.11), 8: (0.71, 0.33, 0.11), 7: (0.11, 0.46, 0.74), 17: (0.10, 0.54, 0.42), 9: (0.10, 0.54, 0.42), 16: (0.75, 0.6, 0.1), 53: (0.45, 0.2, 0.6), 1: (0.05, 0.15, 0.28)})
-    rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing(); return Image.open(io.BytesIO(d.GetDrawingText()))
-def gb(ax, smi, x0, x1, y0, y1, **k): ax.imshow(rd(smi, **k), extent=[x0, x1, y0, y1], zorder=2)
+    rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing(); return rapat(Image.open(io.BytesIO(d.GetDrawingText())))
+def gb(ax, smi, x0, x1, y0, y1, **k): pasang(ax, rd(smi, **k), x0, x1, y0, y1, zorder=2)
 
 # 1. inversi nitrogen
 f, ax = kanv(7.0, 2.4, (0, 24), (0, 8.2))

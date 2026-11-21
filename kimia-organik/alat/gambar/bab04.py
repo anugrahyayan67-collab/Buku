@@ -85,6 +85,7 @@ from matplotlib.patches import Polygon, FancyArrowPatch, Ellipse
 from rdkit import Chem
 from rdkit.Chem.Draw import rdMolDraw2D
 from PIL import Image
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from rdk import rapat, pasang
 def simpan(f, n): f.savefig(f'{F}/{n}.png', bbox_inches='tight'); plt.close(f)
 def T(ax, x, y, s, c=TUA, fs=10, **k): ax.text(x, y, s, ha=k.pop('ha', 'center'), va=k.pop('va', 'center'), color=c, fontsize=fs, **k)
 def rd(smi, w=420, h=320, bl=45, fs=26, hs=False):
@@ -92,7 +93,7 @@ def rd(smi, w=420, h=320, bl=45, fs=26, hs=False):
     if hs: m = Chem.AddHs(m, explicitOnly=False, onlyOnAtoms=tuple(a.GetIdx() for a in m.GetAtoms() if a.HasProp('_CIPCode') or a.GetChiralTag() != Chem.ChiralType.CHI_UNSPECIFIED))
     d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 2; o.fixedFontSize = fs; o.padding = 0.12; o.fixedBondLength = bl
     o.updateAtomPalette({8: (0.71, 0.33, 0.11), 1: (0.11, 0.46, 0.74)}); o.setBackgroundColour((1, 1, 1, 0))
-    rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing(); return Image.open(io.BytesIO(d.GetDrawingText()))
+    rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing(); return rapat(Image.open(io.BytesIO(d.GetDrawingText())))
 
 # 6. titik didih dan titik leleh alkana rantai lurus
 n = np.arange(1, 11)

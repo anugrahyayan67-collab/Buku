@@ -190,14 +190,65 @@ for a in ax: a.plot(0, 0, 'o', color=TUA, ms=5)
 plt.tight_layout(); simpan(f, 'geometri')
 
 # 11. siklus propagasi radikal
-f, ax = kanv(6.4, 3.2, (0, 24), (0, 12))
+f, ax = kanv(7.0, 3.2, (-1, 25), (0, 12))
 ax.add_patch(Circle((12, 6), 3.4, fc='none', ec=BIRU, lw=1.6, ls='--'))
-T(ax, 12, 9.9, 'Cl·', fs=13, c=MERAH, fontweight='bold'); T(ax, 12, 2.1, '·CH₃', fs=13, c=MERAH, fontweight='bold')
+T(ax, 12, 9.4, 'Cl·', fs=13, c=MERAH, fontweight='bold', bbox=dict(fc='white', ec='none', pad=2)); T(ax, 12, 2.6, '·CH₃', fs=13, c=MERAH, fontweight='bold', bbox=dict(fc='white', ec='none', pad=2))
 ax.add_patch(FancyArrowPatch((14.6, 8.4), (14.6, 3.6), connectionstyle='arc3,rad=-0.45', arrowstyle='-|>', mutation_scale=14, color=TUA, lw=1.6))
 ax.add_patch(FancyArrowPatch((9.4, 3.6), (9.4, 8.4), connectionstyle='arc3,rad=-0.45', arrowstyle='-|>', mutation_scale=14, color=TUA, lw=1.6))
-T(ax, 19.8, 7.2, '+ CH₄', fs=10); T(ax, 19.8, 4.8, '→ HCl', fs=10, c=HJ); T(ax, 19.8, 9.0, 'propagasi 1 (Δ$H$° = +7)', fs=8.2, c='#555555')
-T(ax, 4.2, 4.8, '+ Cl₂', fs=10); T(ax, 4.2, 7.2, '→ CH₃Cl', fs=10, c=HJ); T(ax, 4.2, 3.0, 'propagasi 2 (Δ$H$° = −108)', fs=8.2, c='#555555')
+T(ax, 19.9, 6.9, 'propagasi 1', fs=9, c=BIRU, fontweight='bold'); T(ax, 19.9, 6.0, 'Cl· + CH₄ → HCl + ·CH₃', fs=9); T(ax, 19.9, 5.1, 'Δ$H$° = +7 kJ mol$^{-1}$', fs=8.2, c='#555555')
+T(ax, 4.1, 6.9, 'propagasi 2', fs=9, c=BIRU, fontweight='bold'); T(ax, 4.1, 6.0, '·CH₃ + Cl₂ → CH₃Cl + Cl·', fs=9); T(ax, 4.1, 5.1, 'Δ$H$° = −108 kJ mol$^{-1}$', fs=8.2, c='#555555')
 T(ax, 12, 11.4, 'inisiasi: Cl₂ + $h\\nu$ → 2 Cl·   ·   terminasi: dua radikal bergabung', fs=8.5, c=TUA)
 T(ax, 12, 6.0, 'satu Cl· memutar\nrantai ribuan kali', fs=8, c=BIRU)
 simpan(f, 'rantai')
 print('ok tambahan')
+
+# ================= versi render WebGL (3D) =================
+import sys; sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'r3d'))
+from r3d import render, spek_molekul, tampil
+TMP = os.path.join(F, '_r3d'); os.makedirs(TMP, exist_ok=True)
+def bingkai(f, rect): a = f.add_axes(rect); a.axis('off'); return a
+def satuan(v): v = np.asarray(v, float); return v / np.linalg.norm(v)
+def lob(d, L=1.0, w=0.36, c=0xf4b942, o=(0, 0, 0), a=1.0, k=0.7): return {'d': list(map(float, d)), 'L': L, 'w': w, 'c': c, 'o': list(map(float, o)), 'a': a, 'k': k}
+BIRU_O, PUCAT, EMAS = 0x4f86d9, 0xc9d6e4, 0xf4b942
+J = []; LB = {}
+c60, s60 = 0.5, np.sqrt(3) / 2
+def metil(z):  # tiga H di sekitar C, z = tinggi H (0 datar; negatif piramidal)
+    r = np.sqrt(1.09 ** 2 - z ** 2); return [('C', np.zeros(3))] + [('H', np.array([r * np.cos(np.radians(t)), r * np.sin(np.radians(t)), z])) for t in (90, 210, 330)]
+CAMG = [0.3, -1, 0.5]
+for nm, z, lobes, lab in [
+    ('kat', 0.0, [lob((0, 0, 1), 1.05, 0.36, PUCAT, a=0.5), lob((0, 0, -1), 1.05, 0.36, PUCAT, a=0.5)], []),
+    ('rad', -0.15, [lob((0, 0, 1), 1.05, 0.36, BIRU_O, a=0.55), lob((0, 0, -1), 1.05, 0.36, PUCAT, a=0.45)], [('•', [0, 0, 0.75])]),
+    ('ani', -0.363, [lob((0, 0, 1), 1.15, 0.42, BIRU_O, o=(0, 0, 0.3), k=0.75)], [('••', [0, 0, 0.95])])]:
+    at = metil(z); sp = spek_molekul(at, [(0, 1), (0, 2), (0, 3)]); sp.update(w=560, h=520, zoom=1.45, camdir=CAMG, up=[0, 0, 1], target=[0, 0, 0.25], lobes=lobes, labels=[p for _, p in lab])
+    LB[nm] = [t for t, _ in lab]; J.append((sp, f'{TMP}/g_{nm}.png'))
+# hiperkonjugasi pada kation etil: σ(C–H) sejajar orbital p kosong
+Cm = np.array([-1.48, 0, 0]); tet = [(-0.334, 0, 0.943), (-0.334, 0.816, -0.471), (-0.334, -0.816, -0.471)]
+at = [('C', np.zeros(3)), ('C', Cm), ('H', np.array([0.545, 0.944, 0])), ('H', np.array([0.545, -0.944, 0]))] + [('H', Cm + 1.09 * np.array(t)) for t in tet]
+ik = [(0, 1), (0, 2), (0, 3), (1, 4), (1, 5), (1, 6)]
+sp = spek_molekul(at, ik, warna={4: '#7fb4ec'})
+sp.update(w=640, h=560, zoom=1.75, camdir=[0.15, -1, 0.28], up=[0, 0, 1], target=[-0.6, 0, 0.35],
+          lobes=[lob((0, 0, 1), 1.05, 0.36, PUCAT, a=0.5), lob((0, 0, -1), 1.05, 0.36, PUCAT, a=0.5), lob(satuan(tet[0]), 1.35, 0.30, EMAS, o=Cm + 0.15 * np.array(tet[0]), a=0.6)],
+          labels=[[0, 0, 0], [0, 0, 1.3], list(Cm + 1.25 * np.array(tet[0])), [-0.5, 0, 1.0], [-0.15, 0, 0.95]])
+J.append((sp, f'{TMP}/g_hk.png'))
+PR = render(J)
+
+f = plt.figure(figsize=(7.4, 2.9), dpi=220)
+for k, (nm, t) in enumerate([('kat', 'karbokation CH$_3^+$: sp², datar,\norbital p kosong'), ('rad', 'radikal ·CH$_3$: hampir datar,\nsatu elektron di orbital p'), ('ani', 'karbanion CH$_3^-$: sp³, piramidal,\npasangan bebas')]):
+    a = bingkai(f, [k / 3, 0.2, 1 / 3, 0.8]); fn = f'{TMP}/g_{nm}.png'; tampil(a, fn)
+    for l, q in zip(LB[nm], PR[fn]): a.text(q[0], q[1], l, ha='center', va='center', fontsize=14, color=TUA, fontweight='bold')
+    f.text(k / 3 + 1 / 6, 0.04, t, ha='center', fontsize=8.6, color=TUA)
+f.savefig(f'{F}/geometri.png', bbox_inches='tight'); plt.close(f)
+
+f = plt.figure(figsize=(7.2, 2.9), dpi=220)
+a = bingkai(f, [0.0, 0.1, 0.42, 0.9]); fn = f'{TMP}/g_hk.png'; tampil(a, fn); q = np.array(PR[fn])
+a.text(q[0][0] - 95, q[0][1] + 90, 'C$^+$', fontsize=10, color=JT, fontweight='bold')
+a.text(q[1][0] + 40, q[1][1], 'p kosong', fontsize=8, color='#555555', ha='left', va='center')
+a.text(q[2][0] - 45, q[2][1] + 30, 'σ(C–H)', fontsize=8.5, color='#b07a10', ha='right', fontweight='bold')
+a.add_patch(FancyArrowPatch(tuple(q[3]), tuple(q[4] + [10, 0]), connectionstyle='arc3,rad=-0.5', arrowstyle='-|>', mutation_scale=10, color=JT, lw=1.3))
+f.text(0.21, 0.02, 'hiperkonjugasi: σ(C–H) → p kosong', ha='center', fontsize=8.8, color=TUA)
+b = f.add_axes([0.52, 0.2, 0.46, 0.68]); lab = ['CH$_3^+$', 'RCH$_2^+$\n(1°)', 'R$_2$CH$^+$\n(2°)', 'R$_3$C$^+$\n(3°)', 'alilik /\nbenzilik']; val = [1, 2, 3, 4, 4.3]
+b.bar(range(5), val, color=[MUDA, BIRU, BIRU, TUA, HJ], width=0.65); b.spines[['top', 'right']].set_visible(False)
+b.set_xticks(range(5)); b.set_xticklabels(lab, fontsize=8); b.set_yticks([]); b.set_ylabel('kestabilan (kualitatif)')
+b.set_title('kestabilan karbokation', fontsize=9, color=TUA)
+f.savefig(f'{F}/kation.png', bbox_inches='tight'); plt.close(f)
+print('ok webgl')

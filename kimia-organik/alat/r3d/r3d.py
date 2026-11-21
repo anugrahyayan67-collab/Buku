@@ -12,7 +12,7 @@ def spek_molekul(atom, ikatan, skala_atom=1.0, r_ikatan=0.085, warna_ikatan='#b9
         n = o[0] if o else 1; p, q = np.array(atom[i][1], float), np.array(atom[j][1], float)
         if n == 1: sp['bonds'].append({'p': list(p), 'q': list(q), 'r': r_ikatan, 'c': hx(warna_ikatan)})
         else:
-            d = q - p; u = np.cross(d, ganda if ganda is not None else [0, 0, 1]);
+            d = q - p; g = (ganda.get((i, j), ganda.get((j, i), [0, 0, 1])) if isinstance(ganda, dict) else ganda); u = np.cross(d, g if g is not None else [0, 0, 1]);
             if np.linalg.norm(u) < 1e-6: u = np.cross(d, [0, 1, 0])
             u = u / np.linalg.norm(u) * 0.09
             offs = [-1, 1] if n == 2 else [-1.6, 0, 1.6]
@@ -86,3 +86,15 @@ def arahkan_z(P, v, ke=(-1, 0)):
     """Putar mengelilingi sumbu z sehingga proyeksi xy vektor v menghadap arah 'ke'."""
     a = np.arctan2(ke[1], ke[0]) - np.arctan2(v[1], v[0]); c, s_ = np.cos(a), np.sin(a)
     return P @ np.array([[c, -s_, 0], [s_, c, 0], [0, 0, 1]]).T
+
+def pas(sp, pad=0.35):
+    """Atur target dan zoom agar seluruh atom/cuping masuk bingkai (kamera ortografik, up = z bila tidak diberi)."""
+    cd = np.array(sp['camdir'], float); cd /= np.linalg.norm(cd); up = np.array(sp.get('up', [0, 0, 1]), float)
+    fw = -cd; r = np.cross(fw, up); r /= np.linalg.norm(r); u = np.cross(r, fw)
+    pts = [(np.array(a['p']), a['r']) for a in sp.get('atoms', [])]
+    for l in sp.get('lobes', []):
+        o, d = np.array(l['o']), np.array(l['d']) / np.linalg.norm(l['d']); pts += [(o + d * l['L'] * t, l['w']) for t in (0.5, 0.9)]
+    X = np.array([[p @ r - rr, p @ r + rr, p @ u - rr, p @ u + rr] for p, rr in pts])
+    x0, x1, y0, y1 = X[:, 0].min(), X[:, 1].max(), X[:, 2].min(), X[:, 3].max()
+    cx, cy = (x0 + x1) / 2, (y0 + y1) / 2; asp = sp['w'] / sp['h']
+    sp['target'] = list(map(float, r * cx + u * cy)); sp['zoom'] = float(max((y1 - y0) / 2, (x1 - x0) / 2 / asp) + pad); return sp

@@ -70,6 +70,7 @@ from lewis import molekul, lengkung, resonansi, panah, MERAH
 from rdkit import Chem
 from rdkit.Chem.Draw import rdMolDraw2D
 from PIL import Image
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from rdk import rapat, pasang
 TUA, BIRU, MUDA, JG, JT, HJ = '#0e2748', '#1b75bc', '#7fc0f0', '#f0a060', '#b5541c', '#1a8a6a'
 koma = lambda v: f'{v:g}'.replace('.', ',').replace('-', '−')
 fmt = matplotlib.ticker.FuncFormatter(lambda q, _: koma(round(q, 3)))
@@ -80,7 +81,7 @@ def simpan(f, n): f.savefig(f'{F}/{n}.png', bbox_inches='tight'); plt.close(f)
 def rd(smi, w=420, h=300, bl=45, fs=28):
     m = Chem.MolFromSmiles(smi); d = rdMolDraw2D.MolDraw2DCairo(w, h); o = d.drawOptions(); o.bondLineWidth = 2; o.fixedFontSize = fs; o.padding = 0.12; o.fixedBondLength = bl
     o.updateAtomPalette({8: (0.71, 0.33, 0.11), 7: (0.11, 0.46, 0.74), 17: (0.1, 0.54, 0.42)}); o.setBackgroundColour((1, 1, 1, 0))
-    rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing(); return Image.open(io.BytesIO(d.GetDrawingText()))
+    rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing(); return rapat(Image.open(io.BytesIO(d.GetDrawingText())))
 
 # 4. transfer proton dengan pasangan konjugat
 f, ax = kanv(7.4, 2.6, (0, 30), (0, 10))

@@ -6,6 +6,7 @@ from matplotlib.patches import FancyBboxPatch, Circle
 from rdkit import Chem
 from rdkit.Chem.Draw import rdMolDraw2D
 from PIL import Image
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from rdk import rapat, pasang
 plt.rcParams.update({'font.family': 'Liberation Sans', 'font.size': 9.5, 'axes.spines.top': False, 'axes.spines.right': False})
 R = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
 F = f'{R}/bab12/fig'; os.makedirs(F, exist_ok=True)
@@ -30,8 +31,8 @@ def rd(smi, w=360, h=300, fs=30, pad=0.15, hl=None):
         bonds = [b.GetIdx() for b in m.GetBonds() if b.GetBeginAtomIdx() in hl and b.GetEndAtomIdx() in hl]
         rdMolDraw2D.PrepareAndDrawMolecule(d, m, highlightAtoms=hl, highlightBonds=bonds, highlightAtomColors={i: (0.98, 0.75, 0.7) for i in hl}, highlightBondColors={b: (0.98, 0.75, 0.7) for b in bonds})
     else: rdMolDraw2D.PrepareAndDrawMolecule(d, m)
-    d.FinishDrawing(); return Image.open(io.BytesIO(d.GetDrawingText()))
-def gb(ax, smi, x0, x1, y0, y1, **k): ax.imshow(rd(smi, **k), extent=[x0, x1, y0, y1], zorder=2)
+    d.FinishDrawing(); return rapat(Image.open(io.BytesIO(d.GetDrawingText())))
+def gb(ax, smi, x0, x1, y0, y1, **k): pasang(ax, rd(smi, **k), x0, x1, y0, y1, zorder=2)
 
 # 1. karboksilat dan dimer
 f, ax = kanv(7.4, 2.4, (0, 26), (0, 8.4))

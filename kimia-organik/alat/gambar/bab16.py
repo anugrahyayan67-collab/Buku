@@ -6,6 +6,7 @@ from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
 from rdkit import Chem
 from rdkit.Chem.Draw import rdMolDraw2D
 from PIL import Image
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from rdk import rapat, pasang
 plt.rcParams.update({'font.family': 'Liberation Sans', 'font.size': 9.5, 'axes.spines.top': False, 'axes.spines.right': False, 'mathtext.fontset': 'dejavusans'})
 R = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
 F = f'{R}/bab16/fig'; os.makedirs(F, exist_ok=True)
@@ -27,10 +28,10 @@ def rd(smi, w=360, h=260, fs=26, bl=None, hl=(), hb=()):
     if bl: o.fixedBondLength = bl
     o.updateAtomPalette({8: (0.71, 0.33, 0.11), 7: (0.11, 0.46, 0.74), 35: (0.55, 0.25, 0.10), 12: (0.10, 0.54, 0.42), 1: (0.05, 0.15, 0.28)})
     o.setBackgroundColour((1, 1, 1, 0)); rdMolDraw2D.PrepareAndDrawMolecule(d, m, highlightAtoms=list(hl), highlightBonds=list(hb), highlightAtomColors={i: (0.94, 0.63, 0.38) for i in hl}, highlightBondColors={i: (0.94, 0.63, 0.38) for i in hb})
-    d.FinishDrawing(); return Image.open(io.BytesIO(d.GetDrawingText()))
+    d.FinishDrawing(); return rapat(Image.open(io.BytesIO(d.GetDrawingText())))
 def gb(ax, smi, x0, x1, y0, y1, **k):
     k.setdefault('fs', 26); k['bl'] = k.get('bl', 30) * 1.6
-    ax.imshow(rd(smi, w=int((x1 - x0) * 75), h=int((y1 - y0) * 75), **k), extent=[x0, x1, y0, y1], zorder=2)
+    pasang(ax, rd(smi, w=int((x1 - x0) * 75), h=int((y1 - y0) * 75), **k), x0, x1, y0, y1, zorder=2)
 def skema(ax, items, y0, y1, x=0.0, wm=3.0, wa=2.2, bl=34, fs=24):
     for it in items:
         if isinstance(it, tuple):

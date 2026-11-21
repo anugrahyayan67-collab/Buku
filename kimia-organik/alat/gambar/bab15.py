@@ -7,6 +7,7 @@ from matplotlib.patches import FancyBboxPatch, Rectangle, Circle, FancyArrowPatc
 from rdkit import Chem
 from rdkit.Chem.Draw import rdMolDraw2D
 from PIL import Image
+import sys as _s, os as _o; _s.path.insert(0, _o.path.dirname(_o.path.abspath(__file__))); from rdk import rapat, pasang
 plt.rcParams.update({'font.family': 'Liberation Sans', 'font.size': 9.5, 'axes.spines.top': False, 'axes.spines.right': False, 'mathtext.fontset': 'dejavusans'})
 R = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
 F = f'{R}/bab15/fig'; os.makedirs(F, exist_ok=True)
@@ -151,13 +152,13 @@ def rdh(smi, hidx, hl_atoms=(), w=380, h=300, fs=26):
     o.updateAtomPalette({8: (0.71, 0.33, 0.11), 17: (0.10, 0.54, 0.42), 1: (0.05, 0.15, 0.28)})
     for i, a in enumerate(hs): o.atomLabels[a] = 'H' + ('ᵃ' if i == 0 else 'ᵇ')
     cols = {hs[0]: (0.94, 0.63, 0.38), hs[1]: (0.50, 0.75, 0.94)}
-    rdMolDraw2D.PrepareAndDrawMolecule(d, m, highlightAtoms=hs, highlightAtomColors=cols, highlightBonds=[]); d.FinishDrawing(); return Image.open(io.BytesIO(d.GetDrawingText()))
+    rdMolDraw2D.PrepareAndDrawMolecule(d, m, highlightAtoms=hs, highlightAtomColors=cols, highlightBonds=[]); d.FinishDrawing(); return rapat(Image.open(io.BytesIO(d.GetDrawingText())))
 f, ax = kanv(7.4, 3.0, (0, 30), (0, 12))
 pan = [('CCC', [1], '(a) propana', 'ganti Hᵃ atau Hᵇ →\nsenyawa identik', 'homotopik: setara', HJ),
        ('CCO', [1], '(b) etanol', 'ganti Hᵃ atau Hᵇ →\nsepasang enansiomer', 'enantiotopik: setara\n(dalam pelarut akiral)', BIRU),
        ('C[C@@H](Cl)CC', [3], '(c) ($R$)-2-klorobutana', 'ganti Hᵃ atau Hᵇ →\nsepasang diastereomer', 'diastereotopik:\ntidak setara', JT)]
 for i, (smi, hidx, tl, s1, s2, c) in enumerate(pan):
-    cx = 5 + i * 10; ax.imshow(rdh(smi, hidx), extent=[cx - 4.4, cx + 4.4, 4.6, 11.3], zorder=2)
+    cx = 5 + i * 10; pasang(ax, rdh(smi, hidx), cx - 4.4, cx + 4.4, 4.6, 11.3, zorder=2)
     T(ax, cx, 11.7, tl, fs=9, fontweight='bold'); T(ax, cx, 3.7, s1, fs=8); T(ax, cx, 1.3, s2, fs=8.5, c=c, fontweight='bold')
 simpan(f, 'topik')
 
@@ -222,7 +223,7 @@ ha = [h for h in hs if mH.GetAtomWithIdx(h).GetNeighbors()[0].GetIdx() == 1][0];
 ax_ = P(1) - P(0); side = lambda i: np.sign(ax_[0] * (P(i) - P(0))[1] - ax_[1] * (P(i) - P(0))[0])
 hc = [h for h in h0 if side(h) == side(ha)][0]; hb = [h for h in h0 if h != hc][0]
 o.atomLabels[ha] = 'H<sub>a</sub>'; o.atomLabels[hb] = 'H<sub>b</sub>'; o.atomLabels[hc] = 'H<sub>c</sub>'
-rdMolDraw2D.PrepareAndDrawMolecule(d, mH); d.FinishDrawing(); ax.imshow(Image.open(io.BytesIO(d.GetDrawingText())), extent=[11.0, 22.0, -0.4, 4.4], zorder=2)
+rdMolDraw2D.PrepareAndDrawMolecule(d, mH); d.FinishDrawing(); pasang(ax, Image.open(io.BytesIO(d.GetDrawingText())), 11.0, 22.0, -0.4, 4.4, zorder=2)
 T(ax, 5.0, 2.0, 'H$_b$: trans terhadap H$_a$\nH$_c$: cis terhadap H$_a$', fs=8.5, c=TUA)
 simpan(f, 'dd')
 
