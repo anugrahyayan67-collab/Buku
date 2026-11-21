@@ -92,7 +92,7 @@ Tunjukkan dari $C_p - C_V = TV\alpha^2/\kappa_T$ bahwa $C_p - C_V = nR$ untuk ga
 
 Dengan hubungan Maxwell $(\partial S/\partial p)_T = -(\partial V/\partial T)_p$, hitung perubahan entropi 1 mol air bila tekanan naik 100 bar ($\alpha$ = 2,07 × 10⁻⁴ K⁻¹, $V_\text{m}$ = 18,07 cm³ mol⁻¹). ||| −0,037 J K⁻¹ mol⁻¹
 Turunkan hubungan Maxwell dari $dA = -S\,dT - p\,dV$. ||| $(\partial S/\partial V)_T = (\partial p/\partial T)_V$
-Dengan kotak termodinamika (Gambar 7.3), tuliskan turunan $(\partial G/\partial T)_p$ dan $(\partial H/\partial p)_S$. ||| −*S*; *V*
+Dengan kotak termodinamika (Gambar 7.4), tuliskan turunan $(\partial G/\partial T)_p$ dan $(\partial H/\partial p)_S$. ||| −*S*; *V*
 
 ## Subbab 7.7: Persamaan Gibbs–Helmholtz
 
@@ -121,7 +121,7 @@ Untuk benzena, $\Delta_\text{f}G^\circ$ cair dan gas berturut-turut 124,3 dan 12
 
 Hitung kenaikan $G_\text{m}$ gas ideal yang dimampatkan dari 1 bar ke 10 bar pada 298 K, dan air cair dari 1 bar ke 100 bar. ||| +5,71 kJ mol⁻¹; +0,179 kJ mol⁻¹
 Pada tekanan berapa grafit dan intan setimbang pada 298 K, bila Δ*G*° = +2,90 kJ mol⁻¹ dan rapatannya 2,26 dan 3,51 g cm⁻³ (anggap tak termampatkan)? ||| ≈ 15 kbar (1,5 GPa)
-Mengapa tekanan hampir tidak memengaruhi energi Gibbs zat padat (Gambar 7.4)? ||| volume molarnya kecil: *V*Δ*p* kecil
+Mengapa tekanan hampir tidak memengaruhi energi Gibbs zat padat (Gambar 7.7)? ||| volume molarnya kecil: *V*Δ*p* kecil
 
 ## Subbab 7.9: Energi bebas Gibbs reaksi standar
 
@@ -139,5 +139,5 @@ Hitung Δ$_\text{r}$*G*° pembakaran metana dan etanol (hasil H₂O cair) dari t
 Hitung Δ$_\text{r}$*G*° untuk 2NO + O₂ → 2NO₂ dan 3O₂ → 2O₃. ||| −70,5 kJ; +326,4 kJ
 Hitung Δ$_\text{r}$*G*° penguraian CaCO₃ pada 298 K dari tabel. ||| +130,4 kJ
 Benzena mempunyai Δ$_\text{f}$*G*° = +124,3 kJ mol⁻¹. Mengapa benzena tetap dapat disimpan bertahun-tahun? ||| tidak stabil secara termodinamika terhadap unsur, tetapi peruraiannya sangat lambat (stabil kinetik)
-@ellingham [P] Dari Gambar 7.5, perkirakan suhu terendah tempat karbon (menjadi CO) dapat mereduksi FeO pada keadaan standar, lalu jelaskan mengapa garis CO turun sedangkan garis oksida logam naik. ||| ≈ 1020 K; Δ*S*° pembentukan CO positif (gas bertambah), oksida logam negatif
+@ellingham [P] Dari Gambar 7.8, perkirakan suhu terendah tempat karbon (menjadi CO) dapat mereduksi FeO pada keadaan standar, lalu jelaskan mengapa garis CO turun sedangkan garis oksida logam naik. ||| ≈ 1020 K; Δ*S*° pembentukan CO positif (gas bertambah), oksida logam negatif
 

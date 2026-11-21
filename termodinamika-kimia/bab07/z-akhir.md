@@ -178,7 +178,7 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, $F = 96\,485$ C mol⁻¹, dan data Tabel 
 
 **51.** Turunkan hubungan Maxwell dari $dA = -S\,dT - p\,dV$.
 
-**52.** Dengan kotak termodinamika (Gambar 7.3), tuliskan turunan $(\partial G/\partial T)_p$ dan $(\partial H/\partial p)_S$.
+**52.** Dengan kotak termodinamika (Gambar 7.4), tuliskan turunan $(\partial G/\partial T)_p$ dan $(\partial H/\partial p)_S$.
 
 ## Subbab 7.7: Persamaan Gibbs–Helmholtz
 
@@ -212,7 +212,7 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, $F = 96\,485$ C mol⁻¹, dan data Tabel 
 
 **66.** Pada tekanan berapa grafit dan intan setimbang pada 298 K, bila Δ*G*° = +2,90 kJ mol⁻¹ dan rapatannya 2,26 dan 3,51 g cm⁻³ (anggap tak termampatkan)?
 
-**67.** Mengapa tekanan hampir tidak memengaruhi energi Gibbs zat padat (Gambar 7.4)?
+**67.** Mengapa tekanan hampir tidak memengaruhi energi Gibbs zat padat (Gambar 7.7)?
 
 ## Subbab 7.9: Energi bebas Gibbs reaksi standar
 
@@ -236,7 +236,7 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, $F = 96\,485$ C mol⁻¹, dan data Tabel 
 
 **77.** Benzena mempunyai Δ$_\text{f}$*G*° = +124,3 kJ mol⁻¹. Mengapa benzena tetap dapat disimpan bertahun-tahun?
 
-**78.** [P] Dari Gambar 7.5, perkirakan suhu terendah tempat karbon (menjadi CO) dapat mereduksi FeO pada keadaan standar, lalu jelaskan mengapa garis CO turun sedangkan garis oksida logam naik.
+**78.** [P] Dari Gambar 7.8, perkirakan suhu terendah tempat karbon (menjadi CO) dapat mereduksi FeO pada keadaan standar, lalu jelaskan mengapa garis CO turun sedangkan garis oksida logam naik.
 
 
 # Jawaban
@@ -328,7 +328,7 @@ Untuk CO₂: suku ideal $(8{,}314)(273{,}15)\ln10 = 5229$ J mol⁻¹; suku viria
 $$
 T = \frac{322\,900\ \text{J}}{316{,}9\ \text{J K}^{-1}} \approx 1020\ \text{K} .
 $$
-Di atas suhu itu garis CO berada di bawah garis FeO pada Gambar 7.5, dan karbon "menang" merebut oksigen.
+Di atas suhu itu garis CO berada di bawah garis FeO pada Gambar 7.8, dan karbon "menang" merebut oksigen.
 
 *Cara berpikir:* kemiringan setiap garis Ellingham adalah −Δ*S*°, dan Δ*S*° hampir seluruhnya ditentukan oleh perubahan jumlah mol gas. Pembentukan oksida padat menghabiskan satu mol gas, sehingga Δ*S*° ≈ −200 J K⁻¹ dan garisnya naik. Pembentukan CO mengubah 1 mol O₂ menjadi 2 mol CO, sehingga Δ*S*° positif dan garisnya turun. Karena itu, pada suhu cukup tinggi karbon dapat mereduksi hampir semua oksida, dan batas praktisnya ditentukan oleh suhu yang dapat dicapai tanur. Penalaran "tanda Δ*S* dari mol gas" ini adalah alat cepat yang sama dengan Gambar 7.2.
 
