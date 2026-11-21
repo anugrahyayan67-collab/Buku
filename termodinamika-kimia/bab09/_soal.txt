@@ -96,3 +96,11 @@ Dari Gambar 9.4, taksir selisih $\mu_\text{nyata} - \mu_\text{ideal}$ untuk H₂
 Mengapa tabel $\Delta_\text{f}G^\circ$ tetap dapat dipakai untuk gas nyata? ||| keadaan standarnya gas ideal hipotetis pada 1 bar; penyimpangan masuk ke φ
 
 Dari $B = b - a/RT$ (Bab 2), hitung koefisien virial kedua CH₄ pada 25 °C menurut van der Waals, lalu koefisien fugasitasnya pada 10 bar. ||| −49,3 cm³ mol⁻¹; 0,980
+
+@fug [P] Turunkan $\ln\varphi = \int_0^p (Z - 1)\,dp/p$ dari $d\mu = V_\text{m}\,dp$, lalu pakai untuk gas yang mengikuti $Z = 1 + Bp/RT$. ||| $\ln\varphi = Bp/RT$
+Hitung kenaikan potensial kimia O₂ bila tekanan parsialnya naik dari 0,21 bar ke 1,00 bar pada 25 °C. ||| +3,87 kJ mol⁻¹
+Hitung kenaikan potensial kimia 1 mol gas ideal yang dimampatkan dari 1 bar ke 100 bar pada 25 °C. ||| +11,4 kJ mol⁻¹
+Dengan $\ln\varphi \approx Bp/RT$, hitung φ N₂ pada 25 °C dan 50 bar ($B$ = −5,2 cm³ mol⁻¹) dan CO₂ pada 10 bar ($B$ = −125 cm³ mol⁻¹). ||| 0,990; 0,951
+Koefisien fugasitas H₂ pada 300 bar dan 25 °C sekitar 1,20. Berapa fugasitasnya, dan mengapa φ > 1? ||| 360 bar; tolakan (volume molekul) lebih penting daripada tarikan yang sangat lemah
+Dari Gambar 9.5, berapa tekanan efektif CO₂ pada 45 bar dan 300 K? ||| ≈ 37 bar (φ ≈ 0,81)
+
