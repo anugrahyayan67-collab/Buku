@@ -85,7 +85,7 @@ Dengan kemiringan −135 bar K⁻¹ (Contoh 8.5), titik leleh turun $90{,}0/135 
 
 *Cara berpikir:* penurunan titik leleh ini kecil, tetapi berarti. Di dasar gletser yang tebal, suhu es sering sudah mendekati 0 °C karena kalor dari bumi, sehingga penurunan dua pertiga derajat cukup untuk membuat lapisan air tipis. Lapisan air itu melumasi dasar gletser, sehingga gletser dapat meluncur di atas batuan. Bandingkan dengan sepatu luncur (Contoh 8.6): di sana tekanan lebih kecil dan es jauh lebih dingin, sehingga penjelasan tekanan gagal.
 
-**Soal {{cc}}.** Garis pada Gambar 8.2 adalah $\ln(p/\text{kPa}) = -5155/T + 18{,}449$. Pada 323,15 K:
+**Soal {{cc}}.** Garis pada Gambar 8.3 adalah $\ln(p/\text{kPa}) = -5155/T + 18{,}449$. Pada 323,15 K:
 $$
 \ln(p/\text{kPa}) = -\frac{5155}{323{,}15} + 18{,}449 = -15{,}952 + 18{,}449 = 2{,}498 ,
 $$

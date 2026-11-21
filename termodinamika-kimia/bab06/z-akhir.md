@@ -145,7 +145,7 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹ dan data Tabel 6.1. Gas dianggap ideal. So
 
 **37.** Etanol meleleh pada 159 K dengan Δ$_\text{fus}$*H* = 4,93 kJ mol⁻¹. Hitung Δ$_\text{fus}$*S*.
 
-**38.** Dari Gambar 6.2, mengapa metana menyimpang ke bawah dari aturan Trouton?
+**38.** Dari Gambar 6.3, mengapa metana menyimpang ke bawah dari aturan Trouton?
 
 ## Subbab 6.5: Entropi pemanasan
 
@@ -165,7 +165,7 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹ dan data Tabel 6.1. Gas dianggap ideal. So
 
 **46.** Untuk aluminium, $C_{p,\text{m}} = 20{,}67 + 0{,}012\,38\,T$ J K⁻¹ mol⁻¹. Hitung Δ*S* untuk memanaskan 1 mol dari 300 K ke 600 K.
 
-**47.** Dari Gambar 6.3, mengapa lompatan entropi pada titik didih jauh lebih besar daripada pada titik leleh?
+**47.** Dari Gambar 6.4, mengapa lompatan entropi pada titik didih jauh lebih besar daripada pada titik leleh?
 
 ## Subbab 6.6: Hukum ketiga dan entropi mutlak
 

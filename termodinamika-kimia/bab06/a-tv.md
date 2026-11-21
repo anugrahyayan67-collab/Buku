@@ -138,6 +138,10 @@ $$
 
 Persamaan inilah yang nanti, di Bab 9 dan 12, membuat potensial kimia dan tetapan kesetimbangan bergantung pada tekanan parsial.
 
+Gambar 6.1 membandingkan kedua cara mengubah entropi gas ideal. Pemanasan dari 298 K ke 1000 K menaikkan entropi gas monoatomik 15,1 J K⁻¹ mol⁻¹ pada volume tetap tetapi 25,2 J K⁻¹ mol⁻¹ pada tekanan tetap, karena pada tekanan tetap gas juga memuai. Kenaikan entropi karena pemuaian isotermal hanya bergantung pada perbandingan volume: setiap pelipatduaan menambah $R\ln2 = 5{,}76$ J K⁻¹ mol⁻¹, berapa pun volume awalnya.
+
+![Gambar 6.1 Kiri: kenaikan entropi molar gas ideal yang dipanaskan dari 298 K, pada volume tetap dan pada tekanan tetap. Kanan: perubahan entropi molar pada perubahan volume isotermal (sumbu mendatar logaritmik); pemampatan memberi Δ*S* negatif.](fig/STV.png){width=94%}
+
 Untuk **cairan dan padatan**, volume hampir tidak berubah dengan tekanan maupun suhu, sehingga suku tekanan dapat diabaikan, dan $C_p \approx C_V$. Perubahan entropinya praktis hanya karena suhu: $\Delta S \approx C_p\ln(T_2/T_1)$.
 
 ::: {.contoh}
@@ -196,9 +200,9 @@ $$
 **Entropi pencampuran gas ideal.** Karena $0 < x_J < 1$, setiap $\ln x_J$ negatif, sehingga $\Delta_\text{mix}S$ selalu positif.
 :::
 
-Untuk campuran dua komponen, entropi pencampuran per mol campuran paling besar pada $x_A = x_B = \tfrac12$, yaitu $R\ln2 = 5{,}76$ J K⁻¹ mol⁻¹ (Gambar 6.1). Rumus ini sama dengan yang kita peroleh dari hitungan susunan molekul di subbab 5.8.
+Untuk campuran dua komponen, entropi pencampuran per mol campuran paling besar pada $x_A = x_B = \tfrac12$, yaitu $R\ln2 = 5{,}76$ J K⁻¹ mol⁻¹ (Gambar 6.2). Rumus ini sama dengan yang kita peroleh dari hitungan susunan molekul di subbab 5.8.
 
-![Gambar 6.1 Entropi pencampuran gas ideal per mol campuran untuk dua komponen. Kurvanya simetris, paling tinggi di tengah, dan sangat curam di kedua ujung: menambahkan sedikit zat lain ke zat murni selalu menaikkan entropi dengan tajam.](fig/campurS.png){width=62%}
+![Gambar 6.2 Entropi pencampuran gas ideal per mol campuran untuk dua komponen. Kurvanya simetris, paling tinggi di tengah, dan sangat curam di kedua ujung: menambahkan sedikit zat lain ke zat murni selalu menaikkan entropi dengan tajam.](fig/campurS.png){width=62%}
 
 Ada satu kehalusan yang terkenal dengan nama **paradoks Gibbs**. Bila kedua bagian berisi gas yang **sama**, misalnya nitrogen di kedua sisi sekat, membuka sekat tidak mengubah apa pun yang dapat diukur, sehingga Δ*S* harus nol. Tetapi rumus (6.4) seolah-olah memberi nilai positif. Penyelesaiannya: molekul-molekul yang identik tidak dapat dibedakan, sehingga menukar posisi dua molekul nitrogen tidak menghasilkan susunan baru. Rumus (6.4) hanya berlaku untuk gas yang benar-benar berbeda. Perbedaan sekecil apa pun, misalnya ¹⁴N₂ dan ¹⁵N₂, sudah cukup untuk membuat pencampurannya menaikkan entropi sebesar penuh.
 

@@ -1,8 +1,8 @@
 ## 8.5 Diagram fasa air
 
-Kini kita dapat menggambar peta lengkapnya. Setiap garis batas fasa berawal atau berakhir di titik istimewa, dan kemiringannya diberikan oleh persamaan Clapeyron. Gambar 8.4 memperlihatkan hasilnya untuk air. Sumbu tekanan dibuat logaritmik supaya rentang dari seperseratus ribu bar sampai ribuan bar dapat terlihat dalam satu gambar.
+Kini kita dapat menggambar peta lengkapnya. Setiap garis batas fasa berawal atau berakhir di titik istimewa, dan kemiringannya diberikan oleh persamaan Clapeyron. Gambar 8.5 memperlihatkan hasilnya untuk air. Sumbu tekanan dibuat logaritmik supaya rentang dari seperseratus ribu bar sampai ribuan bar dapat terlihat dalam satu gambar.
 
-![Gambar 8.4 Diagram fasa air (sumbu tekanan logaritmik). Ketiga garis bertemu di titik tripel; garis cair–gas berakhir di titik kritis. Garis padat–cair miring sedikit ke kiri karena es kurang rapat daripada air cair; pada skala logaritmik ia tampak hampir tegak sampai ratusan bar. Garis titik-titik menandai 1 atm.](fig/air.png){width=80%}
+![Gambar 8.5 Diagram fasa air (sumbu tekanan logaritmik). Ketiga garis bertemu di titik tripel; garis cair–gas berakhir di titik kritis. Garis padat–cair miring sedikit ke kiri karena es kurang rapat daripada air cair; pada skala logaritmik ia tampak hampir tegak sampai ratusan bar. Garis titik-titik menandai 1 atm.](fig/air.png){width=80%}
 
 Cara membaca diagram ini sederhana. Setiap titik (*T*, *p*) menyatakan satu keadaan. Bila titik itu jatuh di dalam salah satu daerah, fasa yang tertulis di sana adalah satu-satunya fasa stabil. Bila jatuh tepat pada garis, dua fasa setimbang. Perjalanan sepanjang garis mendatar adalah pemanasan atau pendinginan pada tekanan tetap; perjalanan sepanjang garis tegak adalah pemampatan atau pengembangan pada suhu tetap. Setiap kali perjalanan memotong garis, terjadi transisi fasa.
 
@@ -44,7 +44,7 @@ sehingga $T_\text{b} = 282$ K, sekitar 9 °C.
 **Memahami hasil.** Bahkan di tempat terbaik di Mars, air cair hanya stabil dalam rentang sembilan derajat. Siang hari di musim panas Mars dapat melewati rentang itu, tetapi air yang terbentuk akan cepat mendidih atau membeku lagi. Itulah sebabnya pencarian air cair di Mars berpusat pada air **asin** di bawah permukaan: garam terlarut menurunkan titik beku dan menaikkan titik didih, seperti yang akan kita hitung di Bab 10.
 :::
 
-Diagram pada Gambar 8.4 hanya menunjukkan es biasa, yang disebut es Ih. Di atas sekitar 2000 bar, garis padat–cair berbelok, dan muncul bentuk-bentuk es lain yang lebih rapat: es III, V, VI, VII, dan seterusnya. Es VII, yang stabil di atas sekitar 22 000 bar, lebih rapat daripada air cair dan meleleh pada suhu jauh di atas 100 °C. Es seperti ini diperkirakan ada di dalam bulan-bulan es Jupiter dan Saturnus. Setiap bentuk es mempunyai daerahnya sendiri di diagram fasa lengkap, dan setiap dua daerah yang berbatasan dipisahkan oleh garis yang kemiringannya diberikan oleh persamaan Clapeyron.
+Diagram pada Gambar 8.5 hanya menunjukkan es biasa, yang disebut es Ih. Di atas sekitar 2000 bar, garis padat–cair berbelok, dan muncul bentuk-bentuk es lain yang lebih rapat: es III, V, VI, VII, dan seterusnya. Es VII, yang stabil di atas sekitar 22 000 bar, lebih rapat daripada air cair dan meleleh pada suhu jauh di atas 100 °C. Es seperti ini diperkirakan ada di dalam bulan-bulan es Jupiter dan Saturnus. Setiap bentuk es mempunyai daerahnya sendiri di diagram fasa lengkap, dan setiap dua daerah yang berbatasan dipisahkan oleh garis yang kemiringannya diberikan oleh persamaan Clapeyron.
 
 ::: {.kuis}
 **Kuis cepat 8.5** Mengapa air yang ditaruh dalam ruang hampa pada suhu kamar mendidih sambil membeku?
@@ -52,9 +52,9 @@ Diagram pada Gambar 8.4 hanya menunjukkan es biasa, yang disebut es Ih. Di atas 
 
 ## 8.6 Diagram fasa CO₂
 
-Diagram fasa karbon dioksida (Gambar 8.5) tampak serupa dengan air, tetapi dua perbedaan kecil menimbulkan akibat besar.
+Diagram fasa karbon dioksida (Gambar 8.6) tampak serupa dengan air, tetapi dua perbedaan kecil menimbulkan akibat besar.
 
-![Gambar 8.5 Diagram fasa CO₂ (sumbu tekanan logaritmik). Titik tripelnya terletak di atas 1 atm, sehingga pada tekanan udara biasa CO₂ padat menyublim pada 194,7 K tanpa meleleh. Pada 25 °C, CO₂ cair dan gas setimbang pada 64 bar, tekanan di dalam tabung pemadam api. Garis padat–cair miring ke kanan karena CO₂ padat lebih rapat daripada cairannya.](fig/co2.png){width=80%}
+![Gambar 8.6 Diagram fasa CO₂ (sumbu tekanan logaritmik). Titik tripelnya terletak di atas 1 atm, sehingga pada tekanan udara biasa CO₂ padat menyublim pada 194,7 K tanpa meleleh. Pada 25 °C, CO₂ cair dan gas setimbang pada 64 bar, tekanan di dalam tabung pemadam api. Garis padat–cair miring ke kanan karena CO₂ padat lebih rapat daripada cairannya.](fig/co2.png){width=80%}
 
 Perbedaan pertama: **titik tripel CO₂ terletak pada 5,18 bar**, jauh di atas tekanan udara. Garis 1 atm karenanya melewati diagram di bawah titik tripel, tidak pernah menyentuh daerah cair, dan hanya memotong garis padat–gas pada −78,5 °C (194,7 K). Inilah sebabnya es kering menyublim. CO₂ cair hanya ada di atas 5,18 bar.
 
@@ -65,7 +65,7 @@ Titik kritisnya, 31,0 °C dan 73,8 bar, sangat dekat dengan suhu kamar. Pada 25 
 ::: {.contoh}
 **Contoh 8.16 · Membaca diagram fasa CO₂**
 
-Dari titik-titik pada Gambar 8.5: titik tripel (216,55 K; 5,18 bar), titik kritis (304,13 K; 73,8 bar), dan titik sublimasi pada 1 atm (194,65 K), taksir (a) $\Delta_\text{vap}H$ CO₂ dari dua titik ujung garis cair–gas; (b) $\Delta_\text{fus}H$ di titik tripel, dengan $\Delta_\text{sub}H = 26{,}1$ kJ mol⁻¹ (Contoh 8.13).
+Dari titik-titik pada Gambar 8.6: titik tripel (216,55 K; 5,18 bar), titik kritis (304,13 K; 73,8 bar), dan titik sublimasi pada 1 atm (194,65 K), taksir (a) $\Delta_\text{vap}H$ CO₂ dari dua titik ujung garis cair–gas; (b) $\Delta_\text{fus}H$ di titik tripel, dengan $\Delta_\text{sub}H = 26{,}1$ kJ mol⁻¹ (Contoh 8.13).
 
 **Penyelesaian.** (a) Dari (8.5):
 $$
@@ -105,14 +105,16 @@ $$
 $$
 Garis padat–cair: $-1{,}35 \times 10^7$ Pa K⁻¹ (Contoh 8.5).
 
-**Memahami hasil.** Garis padat–gas 13% lebih curam daripada garis cair–gas, tepat perbandingan $\Delta_\text{sub}H/\Delta_\text{vap}H$. Selisihnya kecil, sehingga pada Gambar 8.4 kedua garis tampak hampir menyambung. Garis padat–cair, sebaliknya, sekitar tiga ratus ribu kali lebih curam: pada skala gambar ia tegak lurus.
+**Memahami hasil.** Garis padat–gas 13% lebih curam daripada garis cair–gas, tepat perbandingan $\Delta_\text{sub}H/\Delta_\text{vap}H$. Selisihnya kecil, sehingga pada Gambar 8.5 kedua garis tampak hampir menyambung. Garis padat–cair, sebaliknya, sekitar tiga ratus ribu kali lebih curam: pada skala gambar ia tegak lurus.
 :::
 
 **Titik kritis** adalah ujung garis cair–gas. Kita sudah bertemu dengannya di Bab 2 dari sudut pandang persamaan keadaan: di sana titik kritis adalah titik belok isoterm van der Waals, dengan $T_\text{c} = 8a/27Rb$. Untuk CO₂, rumus itu memberi 304 K, sangat dekat dengan nilai terukur. Kini kita melihatnya dari sudut pandang kesetimbangan fasa.
 
-Bayangkan memanaskan air di dalam tabung kaca tebal yang tertutup, sehingga cairan dan uapnya selalu setimbang. Ketika suhu naik, cairan memuai dan rapatannya turun; tekanan uap naik dan rapatan uap naik. Kedua rapatan bergerak saling mendekati. Entalpi penguapan juga mengecil, karena makin sedikit perbedaan antara molekul di cairan dan di uap. Pada suhu kritis, kedua rapatan menjadi sama, $\Delta_\text{vap}H$ menjadi nol, dan **meniskus**, batas antara cairan dan uap, lenyap. Tepat sebelum itu, isi tabung tampak keruh berkilau seperti susu, gejala yang disebut **opalesensi kritis**: rapatan berfluktuasi pada skala yang sebanding dengan panjang gelombang cahaya, sehingga cahaya dihamburkan kuat.
+Bayangkan memanaskan air di dalam tabung kaca tebal yang tertutup, sehingga cairan dan uapnya selalu setimbang. Ketika suhu naik, cairan memuai dan rapatannya turun; tekanan uap naik dan rapatan uap naik. Kedua rapatan bergerak saling mendekati (Gambar 8.7). Entalpi penguapan juga mengecil, karena makin sedikit perbedaan antara molekul di cairan dan di uap. Pada suhu kritis, kedua rapatan menjadi sama, $\Delta_\text{vap}H$ menjadi nol, dan **meniskus**, batas antara cairan dan uap, lenyap. Tepat sebelum itu, isi tabung tampak keruh berkilau seperti susu, gejala yang disebut **opalesensi kritis**: rapatan berfluktuasi pada skala yang sebanding dengan panjang gelombang cahaya, sehingga cahaya dihamburkan kuat.
 
 Di atas titik kritis hanya ada satu fasa fluida. Karena garis cair–gas berakhir, kita dapat mengubah cairan menjadi gas **tanpa pernah mendidih**: panaskan cairan pada tekanan tinggi sampai di atas suhu kritis, turunkan tekanan, lalu dinginkan. Perjalanan memutari titik kritis ini tidak pernah memotong garis fasa, sehingga tidak ada saat ketika dua fasa terlihat bersama. Cairan dan gas, ternyata, bukan dua jenis keadaan yang secara mendasar berbeda; keduanya adalah dua ujung satu keadaan fluida yang sinambung.
+
+![Gambar 8.7 Rapatan air cair dan uap air yang saling setimbang terhadap suhu (data IAPWS, dibulatkan; garis putus: perkiraan bentuk di dekat titik kritis). Kedua rapatan bertemu di titik kritis, 374 °C dan 322 kg m⁻³, tempat perbedaan cairan dan gas lenyap.](fig/kritis.png){width=80%}
 
 ::: {.dalam}
 **Lebih dalam: mengapa garis padat–cair tidak berakhir.** Garis cair–gas berakhir di titik kritis karena cairan dan gas berbeda hanya secara **kuantitatif**: keduanya tidak teratur, hanya rapatannya yang berbeda, dan perbedaan itu dapat dibuat menjadi nol secara bertahap. Padatan kristal dan cairan berbeda secara **kualitatif**: padatan mempunyai susunan berulang dengan simetri tertentu, sedangkan cairan tidak. Simetri tidak dapat berubah sedikit demi sedikit; ia ada atau tidak ada. Karena itu tidak ada jalan sinambung dari kristal ke cairan, dan garis padat–cair (sejauh yang diketahui) tidak mempunyai titik kritis. Argumen ini, yang dikemukakan Lev Landau, menghubungkan termodinamika dengan simetri dan menjadi dasar teori modern transisi fasa.
@@ -200,15 +202,15 @@ Paul Ehrenfest (1933) menggolongkan transisi menurut turunan **pertama** yang me
 * Pada **transisi orde pertama**, turunan pertama *G* tidak kontinu: entropi dan volume melompat di suhu transisi. Lompatan entropi berarti ada kalor laten, $\Delta_\text{trs}H = T_\text{trs}\Delta_\text{trs}S$. Pelelehan, pendidihan, penyubliman, dan sebagian besar perubahan bentuk kristal termasuk di sini.
 * Pada **transisi orde kedua**, turunan pertama kontinu, sehingga tidak ada kalor laten dan tidak ada lompatan volume, tetapi turunan **kedua** melompat. Turunan kedua *G* terhadap suhu adalah $-(\partial S/\partial T)_p = -C_p/T$, jadi yang melompat adalah kapasitas kalor (juga koefisien muai dan kompresibilitas).
 
-Gambar 8.6 memperlihatkan perbedaan itu. Pada transisi orde pertama, kurva *G* patah: kemiringannya berubah mendadak. Akibatnya *S* melompat, dan kapasitas kalor pada suhu transisi tak hingga, karena kalor dapat masuk tanpa menaikkan suhu sampai seluruh zat berubah fasa. Pada transisi orde kedua, kurva *G* tetap mulus dan hanya kelengkungannya yang berubah; *S* hanya menekuk, dan *C*$_p$ yang melompat.
+Gambar 8.8 memperlihatkan perbedaan itu. Pada transisi orde pertama, kurva *G* patah: kemiringannya berubah mendadak. Akibatnya *S* melompat, dan kapasitas kalor pada suhu transisi tak hingga, karena kalor dapat masuk tanpa menaikkan suhu sampai seluruh zat berubah fasa. Pada transisi orde kedua, kurva *G* tetap mulus dan hanya kelengkungannya yang berubah; *S* hanya menekuk, dan *C*$_p$ yang melompat.
 
-![Gambar 8.6 Klasifikasi Ehrenfest (skematis). Atas: transisi orde pertama; *G* patah, *S* melompat (kalor laten), *C*$_p$ tak hingga di suhu transisi. Bawah: transisi orde kedua; *G* dan *S* kontinu, *C*$_p$ melompat.](fig/orde.png){width=86%}
+![Gambar 8.8 Klasifikasi Ehrenfest (skematis). Atas: transisi orde pertama; *G* patah, *S* melompat (kalor laten), *C*$_p$ tak hingga di suhu transisi. Bawah: transisi orde kedua; *G* dan *S* kontinu, *C*$_p$ melompat.](fig/orde.png){width=86%}
 
 Mengapa persamaan Clapeyron tidak berlaku untuk transisi orde kedua? Persamaan (8.4) adalah $dp/dT = \Delta_\text{trs}S/\Delta_\text{trs}V$. Pada transisi orde kedua, pembilang dan penyebutnya sama-sama nol, sehingga persamaan itu tidak memberi informasi. Ehrenfest menurunkan pengganti yang memakai lompatan turunan kedua, $dp/dT = \Delta C_p/(TV\Delta\alpha)$, tetapi bentuk ini jarang dipakai, karena transisi orde kedua yang "bersih" hampir tidak ada di alam.
 
 ### Transisi λ
 
-Kebanyakan transisi tanpa kalor laten di alam tidak berupa lompatan *C*$_p$ yang rapi seperti Gambar 8.6, melainkan **puncak** *C*$_p$ yang naik tajam menuju tak hingga dari kedua sisi. Bentuk kurvanya mirip huruf Yunani λ, sehingga disebut **transisi λ**. Contohnya:
+Kebanyakan transisi tanpa kalor laten di alam tidak berupa lompatan *C*$_p$ yang rapi seperti Gambar 8.8, melainkan **puncak** *C*$_p$ yang naik tajam menuju tak hingga dari kedua sisi. Bentuk kurvanya mirip huruf Yunani λ, sehingga disebut **transisi λ**. Contohnya:
 
 * helium-4 cair menjadi superfluida pada 2,17 K;
 * besi kehilangan feromagnetisme pada titik Curie, 1043 K;
@@ -236,7 +238,7 @@ $$
 \frac{dp}{dT} = \frac{\Delta_\text{fus}S}{\Delta_\text{fus}V} = \frac{22{,}0\ \text{J K}^{-1}\,\text{mol}^{-1}}{-1{,}63 \times 10^{-6}\ \text{m}^3\,\text{mol}^{-1}} = -1{,}35 \times 10^{7}\ \text{Pa K}^{-1} = -135\ \text{bar K}^{-1} .
 $$
 
-**Memahami hasil.** Kedua lompatan itu adalah lompatan turunan pertama *G*, tanda transisi orde pertama. Perbandingannya memberi kemiringan garis fasa, dan tanda negatifnya menjelaskan mengapa garis padat–cair air condong ke kiri (Gambar 8.4). Hitungan ini sama dengan Contoh 8.5, tetapi kini terlihat sebagai akibat klasifikasi Ehrenfest: persamaan Clapeyron hanya bermakna karena kedua lompatan itu tidak nol.
+**Memahami hasil.** Kedua lompatan itu adalah lompatan turunan pertama *G*, tanda transisi orde pertama. Perbandingannya memberi kemiringan garis fasa, dan tanda negatifnya menjelaskan mengapa garis padat–cair air condong ke kiri (Gambar 8.5). Hitungan ini sama dengan Contoh 8.5, tetapi kini terlihat sebagai akibat klasifikasi Ehrenfest: persamaan Clapeyron hanya bermakna karena kedua lompatan itu tidak nol.
 :::
 
 ::: {.kuis}

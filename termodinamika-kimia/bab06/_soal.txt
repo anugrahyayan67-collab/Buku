@@ -65,7 +65,7 @@ Hitung $\Delta S_\text{sistem}$ pembekuan 1 mol air lewat dingin pada −5 °C d
 Hitung Δ$_\text{vap}$*S* benzena (Δ$_\text{vap}$*H* = 30,72 kJ mol⁻¹, $T_\text{b}$ = 353,2 K). Apakah mengikuti aturan Trouton? ||| 87,0 J K⁻¹ mol⁻¹; ya
 Dengan aturan Trouton (85 J K⁻¹ mol⁻¹), perkirakan titik didih cairan dengan Δ$_\text{vap}$*H* = 29,8 kJ mol⁻¹. ||| ≈ 351 K
 Etanol meleleh pada 159 K dengan Δ$_\text{fus}$*H* = 4,93 kJ mol⁻¹. Hitung Δ$_\text{fus}$*S*. ||| 31,0 J K⁻¹ mol⁻¹
-Dari Gambar 6.2, mengapa metana menyimpang ke bawah dari aturan Trouton? ||| titik didih sangat rendah: gasnya masih rapat, entropi gas kecil
+Dari Gambar 6.3, mengapa metana menyimpang ke bawah dari aturan Trouton? ||| titik didih sangat rendah: gasnya masih rapat, entropi gas kecil
 
 ## Subbab 6.5: Entropi pemanasan
 
@@ -82,7 +82,7 @@ Hitung Δ*S* satu mol air dari cair 50 °C ke uap 150 °C pada 1 atm (data Conto
 Hitung Δ*S* untuk memanaskan 1,00 mol air cair dari 0 °C ke 100 °C. ||| +23,5 J K⁻¹
 Hitung Δ*S* untuk mengubah 1,00 mol es −10 °C menjadi uap 110 °C ($C_p$: es 37,8; cair 75,3; uap 33,6 J K⁻¹ mol⁻¹). ||| +156,8 J K⁻¹
 Untuk aluminium, $C_{p,\text{m}} = 20{,}67 + 0{,}012\,38\,T$ J K⁻¹ mol⁻¹. Hitung Δ*S* untuk memanaskan 1 mol dari 300 K ke 600 K. ||| +18,0 J K⁻¹
-Dari Gambar 6.3, mengapa lompatan entropi pada titik didih jauh lebih besar daripada pada titik leleh? ||| perbedaan keteraturan cair–gas jauh lebih besar daripada padat–cair
+Dari Gambar 6.4, mengapa lompatan entropi pada titik didih jauh lebih besar daripada pada titik leleh? ||| perbedaan keteraturan cair–gas jauh lebih besar daripada padat–cair
 
 ## Subbab 6.6: Hukum ketiga dan entropi mutlak
 

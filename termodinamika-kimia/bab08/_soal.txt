@@ -55,7 +55,7 @@ Tekanan uap iodin pada 25 °C adalah 0,0413 kPa dan $\Delta_\text{sub}H = 62{,}4
 Tekanan uap dietil eter 58,9 kPa pada 20 °C dan titik didih normalnya 34,6 °C. Hitung $\Delta_\text{vap}H$. ||| 27,9 kJ mol⁻¹
 Hitung titik didih air di puncak Everest, tempat tekanan udara sekitar 0,34 bar. ||| 71 °C
 
-@cc [P] Pakai garis pada Gambar 8.2 untuk menaksir tekanan uap air pada 50 °C. ||| 12,2 kPa (terukur 12,35 kPa)
+@cc [P] Pakai garis pada Gambar 8.3 untuk menaksir tekanan uap air pada 50 °C. ||| 12,2 kPa (terukur 12,35 kPa)
 Hitung tekanan uap es kering pada −90 °C (data Contoh 8.13). ||| 0,37 bar
 Dalam alat pengering beku, es dijaga pada −30 °C. Berapa tekanan ruang paling tinggi agar es tetap menyublim? ||| 38 Pa
 Taksir tekanan uap toluena pada 25 °C dari titik didihnya, 383,8 K, dengan aturan Trouton. ||| 5,4 kPa (terukur 3,8 kPa)
@@ -65,7 +65,7 @@ Mengapa tekanan uap air dingin-lewat lebih tinggi daripada tekanan uap es pada s
 @uap25 [P] Pakai hasil Soal {{cpint}} untuk air, dengan $b = \Delta C_p = -41{,}7$ J K⁻¹ mol⁻¹ (Contoh 4.17) dan *a* dipilih sehingga $\Delta_\text{vap}H = 40{,}66$ kJ mol⁻¹ pada 373,15 K. Hitung tekanan uap air pada 25 °C dari titik didih normalnya, lalu bandingkan dengan hasil bila Δ*H* dianggap tetap dan dengan nilai terukur 3,17 kPa. ||| 3,27 kPa (Δ*H* tetap: 3,75 kPa)
 
 
-Dari Gambar 8.3, perkirakan titik didih etanol pada 50 kPa. ||| ≈ 60 °C
+Dari Gambar 8.4, perkirakan titik didih etanol pada 50 kPa. ||| ≈ 60 °C
 Tekanan uap air 3,17 kPa pada 25 °C dan 101,3 kPa pada 100 °C. Hitung Δ$_\text{vap}$*H* rata-ratanya. ||| 42,7 kJ mol⁻¹
 Hitung tekanan uap dietil eter pada 20 °C dari titik didih 34,6 °C dan Δ$_\text{vap}$*H* = 26,5 kJ mol⁻¹. ||| 61 kPa
 Mengapa bensin cepat menguap pada hari panas, tetapi oli mesin hampir tidak? ||| tekanan uap bergantung eksponensial pada Δ$_\text{vap}$*H*/*RT*; oli molekul besar, Δ$_\text{vap}$*H* besar

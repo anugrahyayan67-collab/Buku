@@ -122,6 +122,10 @@ Untuk zat murni, energi Gibbs molar adalah **potensial kimia** zat itu, diberi l
 
 Persamaan (8.2) adalah satu persamaan dengan dua variabel, *T* dan *p*. Persamaan seperti itu biasanya mempunyai penyelesaian berupa **garis** pada bidang *p*–*T*: untuk setiap tekanan ada satu suhu tempat kedua fasa setimbang. Inilah alasan titik didih bergantung pada tekanan. Garis-garis itu disebut **garis batas fasa**, dan gambar yang memuat semuanya disebut **diagram fasa**. Pada setiap titik di luar garis, hanya satu fasa yang stabil; pada setiap titik di atas garis, dua fasa setimbang.
 
+Karena energi Gibbs molar setiap fasa bergantung pada tekanan dengan kemiringan $V_\text{m}$ (subbab 7.8), tekanan dapat membalik urutan kestabilan dua fasa. Gambar 8.2 memperlihatkan es dan air pada −1 °C. Pada 1 bar, potensial kimia air 22 J mol⁻¹ lebih tinggi daripada es, sehingga es yang stabil. Tetapi es mempunyai volume molar lebih besar, sehingga potensial kimianya naik lebih cepat ketika ditekan, dan di atas sekitar 136 bar air menjadi fasa yang stabil: es mencair karena ditekan. Angka ini sesuai dengan kemiringan garis padat–cair air, sekitar −135 bar per kelvin, yang akan kita hitung dengan persamaan Clapeyron di subbab 8.3.
+
+![Gambar 8.2 Selisih potensial kimia air dan es pada −1 °C terhadap tekanan. Kemiringannya adalah selisih volume molar, −1,63 cm³ mol⁻¹. Di bawah 136 bar es stabil; di atasnya air stabil.](fig/mup.png){width=80%}
+
 ::: {.contoh}
 **Contoh 8.4 · Air atau uap pada 25 °C**
 
