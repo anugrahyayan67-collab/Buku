@@ -79,7 +79,7 @@ Hitung *K* sintesis amonia pada 600 K dengan Δ*H*° tetap. ||| $4{,}3 \times 10
 
 Turunkan persamaan van 't Hoff dari (12.3) dan persamaan Gibbs–Helmholtz. ||| $d\ln K/dT = -d(\Delta G^\circ/RT)/dT = \Delta H^\circ/RT^2$
 Tunjukkan bahwa persamaan Clausius–Clapeyron adalah kasus khusus persamaan van 't Hoff. ||| penguapan sebagai reaksi dengan $K = p/p^\circ$
-Mengapa plot van 't Hoff untuk sintesis amonia (Gambar 12.2) sedikit melengkung? ||| $\Delta_\text{r}H^\circ$ berubah dengan suhu karena $\Delta_\text{r}C_p^\circ \ne 0$
+Mengapa plot van 't Hoff untuk sintesis amonia (Gambar 12.4) sedikit melengkung? ||| $\Delta_\text{r}H^\circ$ berubah dengan suhu karena $\Delta_\text{r}C_p^\circ \ne 0$
 
 @vtc [P] (Python) Pakai rumus kotak Lebih dalam subbab 12.6 untuk menghitung *K* sintesis amonia pada 500 K dan 723 K dari $K(298{,}15\ \text{K}) = 5{,}81 \times 10^5$, $\Delta_\text{r}H^\circ = -92{,}22$ kJ mol⁻¹, dan $\Delta_\text{r}C_p^\circ = -45{,}5$ J K⁻¹ mol⁻¹. Bandingkan dengan hasil tanpa koreksi kapasitas kalor. ||| 0,094 dan $3{,}6 \times 10^{-5}$ (tanpa koreksi: 0,17 dan $1{,}9 \times 10^{-4}$)
 
@@ -101,7 +101,7 @@ Apakah asas Le Chatelier selalu benar? Berikan contoh menambah satu pereaksi yan
 
 ## Subbab 12.8: Kesetimbangan dalam industri dan biokimia
 
-Dari Gambar 12.3, taksir fraksi mol amonia pada kesetimbangan pada 450 °C dan 100 bar. ||| sekitar 0,14
+Dari Gambar 12.5, taksir fraksi mol amonia pada kesetimbangan pada 450 °C dan 100 bar. ||| sekitar 0,14
 Reaksi $\text{A} + \text{H}^+ \rightarrow \text{B}$ mempunyai $\Delta_\text{r}G^\circ = -10{,}0$ kJ mol⁻¹. Hitung $\Delta_\text{r}G^{\circ\prime}$ pada 25 °C. ||| +29,95 kJ mol⁻¹
 
 Hitung Δ*G* hidrolisis ATP pada 37 °C di sel otot dengan [ATP] = 5,0 mmol L⁻¹, [ADP] = 0,50 mmol L⁻¹, dan [Pᵢ] = 5,0 mmol L⁻¹. ||| −50,1 kJ mol⁻¹

@@ -169,7 +169,7 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, *RT* = 2,479 kJ mol⁻¹ pada 25 °C, dat
 
 **44.** Tunjukkan bahwa persamaan Clausius–Clapeyron adalah kasus khusus persamaan van 't Hoff.
 
-**45.** Mengapa plot van 't Hoff untuk sintesis amonia (Gambar 12.2) sedikit melengkung?
+**45.** Mengapa plot van 't Hoff untuk sintesis amonia (Gambar 12.4) sedikit melengkung?
 
 **46.** [P] (Python) Pakai rumus kotak Lebih dalam subbab 12.6 untuk menghitung *K* sintesis amonia pada 500 K dan 723 K dari $K(298{,}15\ \text{K}) = 5{,}81 \times 10^5$, $\Delta_\text{r}H^\circ = -92{,}22$ kJ mol⁻¹, dan $\Delta_\text{r}C_p^\circ = -45{,}5$ J K⁻¹ mol⁻¹. Bandingkan dengan hasil tanpa koreksi kapasitas kalor.
 
@@ -193,7 +193,7 @@ Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹, *RT* = 2,479 kJ mol⁻¹ pada 25 °C, dat
 
 ## Subbab 12.8: Kesetimbangan dalam industri dan biokimia
 
-**55.** Dari Gambar 12.3, taksir fraksi mol amonia pada kesetimbangan pada 450 °C dan 100 bar.
+**55.** Dari Gambar 12.5, taksir fraksi mol amonia pada kesetimbangan pada 450 °C dan 100 bar.
 
 **56.** Reaksi $\text{A} + \text{H}^+ \rightarrow \text{B}$ mempunyai $\Delta_\text{r}G^\circ = -10{,}0$ kJ mol⁻¹. Hitung $\Delta_\text{r}G^{\circ\prime}$ pada 25 °C.
 

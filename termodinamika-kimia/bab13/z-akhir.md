@@ -35,7 +35,7 @@
 ## Subbab 13.4: Persamaan Nernst
 
 6. Mengapa daya oksidasi permanganat bergantung pada pH?
-7. Jelaskan arti jendela kestabilan air pada Gambar 13.2.
+7. Jelaskan arti jendela kestabilan air pada Gambar 13.4.
 8. Mengapa tegangan baterai turun perlahan ketika dipakai, lalu jatuh tajam menjelang habis?
 
 ## Subbab 13.5: Potensial standar dan tetapan kesetimbangan

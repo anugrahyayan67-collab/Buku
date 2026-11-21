@@ -122,6 +122,10 @@ Tabel 12.1 Hubungan $\Delta_\text{r}G^\circ$ dan *K* pada 25 °C.
 
 Reaksi dengan $\Delta_\text{r}G^\circ$ di bawah sekitar −50 kJ mol⁻¹ praktis berjalan tuntas; di atas +50 kJ mol⁻¹, praktis tidak berjalan. Hanya reaksi dengan $|\Delta_\text{r}G^\circ|$ kurang dari beberapa puluh kJ mol⁻¹ yang menghasilkan campuran kesetimbangan dengan pereaksi dan hasil dalam jumlah yang sebanding. Untuk reaksi-reaksi itulah perhitungan kesetimbangan paling penting.
 
+Gambar 12.2 menampilkan hubungan yang sama sebagai garis lurus: log *K* berbanding lurus dengan $-\Delta_\text{r}G^\circ$, dengan kemiringan $1/(RT\ln10)$. Pada suhu yang lebih tinggi garisnya lebih landai, sehingga $\Delta_\text{r}G^\circ$ yang sama menghasilkan *K* yang lebih dekat ke 1: energi termal yang lebih besar membuat selisih energi Gibbs yang sama "kurang menentukan". Perlu diingat bahwa $\Delta_\text{r}G^\circ$ sendiri juga berubah dengan suhu (subbab 12.6); gambar ini hanya memperlihatkan peran *RT* di penyebut.
+
+![Gambar 12.2 Logaritma tetapan kesetimbangan terhadap $\Delta_\text{r}G^\circ$ pada 298,15 K dan 1000 K. Daerah hijau: reaksi praktis tuntas; daerah jingga: praktis tidak berjalan. Hanya reaksi di antara keduanya yang menghasilkan campuran pereaksi dan hasil dalam jumlah sebanding.](fig/logK.png){width=80%}
+
 ::: {.contoh}
 **Contoh 12.2 · Tiga tetapan dari tabel**
 

@@ -11,12 +11,12 @@ $$
 
 Ini cara yang sangat elegan: tiga besaran termodinamika utama sebuah reaksi, $\Delta_\text{r}G$, $\Delta_\text{r}S$, dan $\Delta_\text{r}H$, diperoleh dari voltmeter dan termometer saja, tanpa kalorimeter. Dan karena tegangan dapat diukur sangat teliti, hasilnya sering lebih baik daripada pengukuran kalorimetri langsung.
 
-![Gambar 13.3 Potensial standar sel Pt|H₂|HCl|AgCl|Ag terhadap suhu (titik: pengukuran klasik Bates dan Bower; kurva: polinom kuadrat). Garis putus-putus adalah garis singgung di 25 °C, yang kemiringannya memberi $\Delta_\text{r}S^\circ$.](fig/ET.png){width=70%}
+![Gambar 13.6 Potensial standar sel Pt|H₂|HCl|AgCl|Ag terhadap suhu (titik: pengukuran klasik Bates dan Bower; kurva: polinom kuadrat). Garis putus-putus adalah garis singgung di 25 °C, yang kemiringannya memberi $\Delta_\text{r}S^\circ$.](fig/ET.png){width=70%}
 
 ::: {.contoh}
 **Contoh 13.11 · Termodinamika lengkap dari satu sel**
 
-Untuk sel Pt|H₂|HCl|AgCl|Ag (reaksi $\tfrac12\text{H}_2 + \text{AgCl} \rightarrow \text{Ag} + \text{H}^+ + \text{Cl}^-$, *n* = 1), $E^\circ = 0{,}2224$ V dan $dE^\circ/dT = -0{,}637$ mV K⁻¹ pada 25 °C (Gambar 13.3). Hitung $\Delta_\text{r}G^\circ$, $\Delta_\text{r}S^\circ$, dan $\Delta_\text{r}H^\circ$, lalu bandingkan dengan tabel: $\Delta_\text{f}H^\circ$ AgCl(s) = −127,07 dan HCl(aq) = −167,16 kJ mol⁻¹.
+Untuk sel Pt|H₂|HCl|AgCl|Ag (reaksi $\tfrac12\text{H}_2 + \text{AgCl} \rightarrow \text{Ag} + \text{H}^+ + \text{Cl}^-$, *n* = 1), $E^\circ = 0{,}2224$ V dan $dE^\circ/dT = -0{,}637$ mV K⁻¹ pada 25 °C (Gambar 13.6). Hitung $\Delta_\text{r}G^\circ$, $\Delta_\text{r}S^\circ$, dan $\Delta_\text{r}H^\circ$, lalu bandingkan dengan tabel: $\Delta_\text{f}H^\circ$ AgCl(s) = −127,07 dan HCl(aq) = −167,16 kJ mol⁻¹.
 
 **Penyelesaian.**
 $$
@@ -102,8 +102,10 @@ Pada 25 °C, sebuah pH meter menunjukkan 0,4120 V dalam penyangga pH 7,00. Dalam
 
 **Penyelesaian.** Dari (13.8), selisih tegangan $0{,}5890 - 0{,}4120 = 0{,}1770$ V. Karena *E* naik ketika pH turun: $\Delta\text{pH} = -0{,}1770/0{,}059\,16 = -2{,}99$. pH sampel = 7,00 − 2,99 = 4,01.
 
-**Memahami hasil.** Satu satuan pH setara 59 mV. Untuk mengukur pH sampai 0,01, tegangan harus diukur sampai 0,6 mV, dan suhu harus diperhatikan, karena kemiringan $RT\ln10/F$ berubah 0,2 mV per derajat per satuan pH. pH meter yang baik menyertakan sensor suhu untuk mengoreksinya secara otomatis.
+**Memahami hasil.** Satu satuan pH setara 59 mV. Untuk mengukur pH sampai 0,01, tegangan harus diukur sampai 0,6 mV, dan suhu harus diperhatikan, karena kemiringan $RT\ln10/F$ berubah 0,2 mV per derajat per satuan pH. pH meter yang baik menyertakan sensor suhu untuk mengoreksinya secara otomatis (Gambar 13.7).
 :::
+
+![Gambar 13.7 Garis kalibrasi pH meter: potensial sel elektrode kaca terhadap pH, dengan titik kalibrasi pH 7,00 pada 0,4120 V. Kemiringan $RT\ln10/F$ bergantung pada suhu, sehingga garis 25 °C dan 40 °C berpotongan di titik kalibrasi tetapi menyimpang makin jauh darinya.](fig/phmeter.png){width=80%}
 
 ::: {.kuis}
 **Kuis cepat 13.7** Mengapa pH meter yang dikalibrasi pada 25 °C memberi pembacaan yang salah bila sampelnya pada 40 °C, walaupun tetapannya tidak berubah?
@@ -153,7 +155,7 @@ Jembatan besi, kerangka kapal, dan pipa air semuanya berkarat, tetapi tidak deng
 
 ### Membangun peta
 
-Gambar 13.2 sudah memperlihatkan contoh paling sederhana: jendela kestabilan air, dibatasi dua garis miring $E = 1{,}229 - 0{,}059\,16\,\text{pH}$ (O₂/H₂O) dan $E = -0{,}059\,16\,\text{pH}$ (H₂O/H₂). Untuk suatu logam, kita menambahkan garis untuk setiap kesetimbangan antara spesiesnya. Ada tiga jenis garis:
+Gambar 13.4 sudah memperlihatkan contoh paling sederhana: jendela kestabilan air, dibatasi dua garis miring $E = 1{,}229 - 0{,}059\,16\,\text{pH}$ (O₂/H₂O) dan $E = -0{,}059\,16\,\text{pH}$ (H₂O/H₂). Untuk suatu logam, kita menambahkan garis untuk setiap kesetimbangan antara spesiesnya. Ada tiga jenis garis:
 
 * **Garis mendatar**: reaksi redoks tanpa H⁺ atau OH⁻, misalnya $\text{Fe}^{2+} + 2e^- \rightleftharpoons \text{Fe}$. Potensialnya tidak bergantung pada pH.
 * **Garis tegak**: reaksi asam–basa atau pengendapan tanpa elektron, misalnya $\text{Fe}^{3+} + 3\text{OH}^- \rightleftharpoons \text{Fe(OH)}_3$. Batasnya hanya bergantung pada pH.
@@ -177,17 +179,17 @@ $$
 **Memahami hasil.** Fe(OH)₃ sudah mengendap pada larutan yang cukup asam (pH 3), karena *K*$_\text{sp}$-nya luar biasa kecil, sedangkan Fe(OH)₂ baru mengendap pada larutan basa. Garis miring Fe(OH)₃/Fe²⁺ menghubungkan kedua batas itu dengan kemiringan $-3(0{,}059\,16) = -0{,}177$ V per pH, karena reaksinya memakai tiga H⁺ untuk satu elektron.
 :::
 
-Bila semua garis digambar, peta besi terbagi menjadi tiga jenis daerah (Gambar 13.4):
+Bila semua garis digambar, peta besi terbagi menjadi tiga jenis daerah (Gambar 13.8):
 
 * **kekebalan**: di bawah −0,62 V, besi logam adalah bentuk yang stabil, dan besi tidak dapat berkarat;
 * **korosi**: daerah Fe²⁺ dan Fe³⁺ terlarut, tempat besi larut terus-menerus;
 * **pasivasi**: daerah Fe(OH)₃ (yang mengering menjadi Fe₂O₃) dan Fe(OH)₂. Di sini besi tetap teroksidasi, tetapi hasilnya padatan yang dapat menutup permukaan.
 
-![Gambar 13.4 Diagram Pourbaix besi yang disederhanakan pada 25 °C, dengan aktivitas ion terlarut 10⁻⁶ (hanya Fe, Fe²⁺, Fe³⁺, Fe(OH)₂, dan Fe(OH)₃). Garis putus-putus adalah batas kestabilan air (Gambar 13.2). Titik pada pH 7 menandai potensial O₂/H₂O di air netral yang jenuh udara.](fig/pourbaix.png){width=82%}
+![Gambar 13.8 Diagram Pourbaix besi yang disederhanakan pada 25 °C, dengan aktivitas ion terlarut 10⁻⁶ (hanya Fe, Fe²⁺, Fe³⁺, Fe(OH)₂, dan Fe(OH)₃). Garis putus-putus adalah batas kestabilan air (Gambar 13.4). Titik pada pH 7 menandai potensial O₂/H₂O di air netral yang jenuh udara.](fig/pourbaix.png){width=82%}
 
 ### Membaca peta: mengapa besi berkarat, dan bagaimana mencegahnya
 
-Di air netral yang jenuh udara, oksigen dapat menarik potensial permukaan logam sampai mendekati garis O₂/H₂O, sekitar +0,8 V pada pH 7 (titik pada Gambar 13.4). Seluruh rentang antara −0,62 V dan +0,8 V berada di atas daerah kekebalan, sehingga besi **pasti** teroksidasi; termodinamika tidak memberi jalan keluar. Yang menentukan nasibnya adalah hasil oksidasinya. Pada pH 7, garis Fe(OH)₃/Fe²⁺ melintas di sekitar +0,1 V, sehingga besi yang potensialnya di bawah nilai itu larut sebagai Fe²⁺ dan baru mengendap sebagai karat setelah teroksidasi lebih lanjut di larutan. Karat yang terbentuk jauh dari logam itu berpori dan tidak melindungi.
+Di air netral yang jenuh udara, oksigen dapat menarik potensial permukaan logam sampai mendekati garis O₂/H₂O, sekitar +0,8 V pada pH 7 (titik pada Gambar 13.8). Seluruh rentang antara −0,62 V dan +0,8 V berada di atas daerah kekebalan, sehingga besi **pasti** teroksidasi; termodinamika tidak memberi jalan keluar. Yang menentukan nasibnya adalah hasil oksidasinya. Pada pH 7, garis Fe(OH)₃/Fe²⁺ melintas di sekitar +0,1 V, sehingga besi yang potensialnya di bawah nilai itu larut sebagai Fe²⁺ dan baru mengendap sebagai karat setelah teroksidasi lebih lanjut di larutan. Karat yang terbentuk jauh dari logam itu berpori dan tidak melindungi.
 
 Diagram ini langsung memberi tiga strategi perlindungan:
 
@@ -206,11 +208,11 @@ Lambung kapal besi di air laut (pH ≈ 8) disambungkan ke balok seng. (a) Dengan
 
 (c) Muatan per tahun $Q = (2{,}0\ \text{A})(3{,}156 \times 10^7\ \text{s}) = 6{,}31 \times 10^7$ C. Seng melepas dua elektron per atom, sehingga $n = Q/2F = 327$ mol, dan massanya $(327)(65{,}38) = 21$ kg.
 
-**Memahami hasil.** Termodinamika menjamin perlindungan selama seng masih ada dan tersambung baik; laju habisnya seng ditentukan oleh arus, yaitu oleh kinetika reaksi di permukaan dan luas lambung yang harus dilindungi. Pada potensial serendah −0,94 V, air pun dapat tereduksi menjadi H₂ (garis bawah Gambar 13.4 terletak di sekitar −0,47 V pada pH 8), sehingga sebagian arus terbuang untuk membentuk gas hidrogen. Perlindungan yang berlebihan juga merugikan, karena hidrogen dapat masuk ke baja dan membuatnya getas.
+**Memahami hasil.** Termodinamika menjamin perlindungan selama seng masih ada dan tersambung baik; laju habisnya seng ditentukan oleh arus, yaitu oleh kinetika reaksi di permukaan dan luas lambung yang harus dilindungi. Pada potensial serendah −0,94 V, air pun dapat tereduksi menjadi H₂ (garis bawah Gambar 13.8 terletak di sekitar −0,47 V pada pH 8), sehingga sebagian arus terbuang untuk membentuk gas hidrogen. Perlindungan yang berlebihan juga merugikan, karena hidrogen dapat masuk ke baja dan membuatnya getas.
 :::
 
 ::: {.kuis}
-**Kuis cepat 13.9** Menurut Gambar 13.4, apakah besi lebih tahan karat di air pH 3 yang jenuh udara atau di air pH 11 yang jenuh udara? Jelaskan dengan daerah pada diagram.
+**Kuis cepat 13.9** Menurut Gambar 13.8, apakah besi lebih tahan karat di air pH 3 yang jenuh udara atau di air pH 11 yang jenuh udara? Jelaskan dengan daerah pada diagram.
 :::
 
 ### Menuju bab berikutnya

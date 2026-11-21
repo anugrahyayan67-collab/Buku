@@ -145,6 +145,10 @@ Tabel 13.1 Potensial elektrode standar (reduksi) pada 25 °C.
 
 Tabel ini adalah deret volta Kimia Dasar yang diberi angka. Zat di bagian atas kiri (Li⁺, Na⁺) sangat sukar direduksi, sehingga bentuk tereduksinya (Li, Na) adalah **pereduksi** kuat. Zat di bagian bawah kiri (MnO₄⁻, PbO₂, Cl₂) mudah direduksi: **pengoksidasi** kuat. Bila dua setengah sel digabung, yang *E*°-nya lebih positif menjadi katode.
 
+Gambar 13.2 menyusun tabel yang sama sebagai tangga. Potensial sel standar dari dua pasangan mana pun adalah jarak tegak di antara kedua anak tangga, dengan pasangan yang lebih tinggi sebagai katode. Tangga ini juga memperlihatkan betapa jauhnya litium dan natrium dari pasangan lain: lebih dari 2 V di bawah hidrogen, alasan logam-logam ini bereaksi hebat dengan air dan alasan litium dipilih untuk baterai bertegangan tinggi (subbab 13.8).
+
+![Gambar 13.2 Tangga potensial elektrode standar dari Tabel 13.1. Makin tinggi letak pasangan, makin kuat bentuk teroksidasinya sebagai pengoksidasi; makin rendah, makin kuat bentuk tereduksinya sebagai pereduksi. Potensial sel adalah jarak antara dua anak tangga, misalnya 1,102 V untuk sel Daniell.](fig/tangga.png){width=86%}
+
 ::: {.contoh}
 **Contoh 13.3 · Logam mana yang larut dalam asam?**
 
