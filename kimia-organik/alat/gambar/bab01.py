@@ -411,44 +411,47 @@ f.text(0.375, 0.95, 'ikatan σ: tumpang tindih ujung ke ujung, di sepanjang sumb
 f.text(0.875, 0.95, 'ikatan π: di atas dan di bawah sumbu', ha='center', fontsize=8.8, color=JT, fontweight='bold')
 f.savefig(f'{F}/sigmapi.png', bbox_inches='tight'); plt.close(f)
 
-# dipol: bola-batang dengan panah tipis
-def panah3d(ax, p, q, c=MERAH, lw=1.6):
-    p, q = np.array(p, float), np.array(q, float); ax.quiver(*p, *(q - p), color=c, lw=lw, arrow_length_ratio=0.25)
-    d = q - p; d /= np.linalg.norm(d); n = np.cross(d, [0, 1, 0]); n = n / (np.linalg.norm(n) + 1e-9) * 0.12; c0 = p + d * 0.12
-    ax.plot([c0[0] - n[0], c0[0] + n[0]], [c0[1] - n[1], c0[1] + n[1]], [c0[2] - n[2], c0[2] + n[2]], color=c, lw=lw)
-f = plt.figure(figsize=(7.4, 2.2), dpi=220)
-M = [('O=C=O', 'CO₂', 'μ = 0 D', (1, 0, 0)), ('O', 'H₂O', 'μ = 1,85 D', None), ('CCl', 'CH₃Cl', 'μ = 1,87 D', None), ('ClC(Cl)(Cl)Cl', 'CCl₄', 'μ = 0 D', None)]
-for k, (smi, nm, mu, _) in enumerate(M):
+# dipol: bola-batang (penggambar 2D berurutan kedalaman) dengan panah tipis
+from ilustrasi import bolabatang, hadap
+def kanvas2d(f, rect, lim=1.6):
+    a = f.add_axes(rect); a.set_xlim(-lim, lim); a.set_ylim(-lim, lim); a.set_aspect('equal'); a.axis('off'); return a
+def pdipol(a, p, q, c=MERAH):
+    p, q = np.array(p, float), np.array(q, float); a.add_patch(FancyArrowPatch(p, q, arrowstyle='-|>', mutation_scale=9, color=c, lw=1.3, zorder=200))
+    d = (q - p) / np.hypot(*(q - p)); n = np.array([-d[1], d[0]]) * 0.11; c0 = p + d * 0.12; a.plot([c0[0] - n[0], c0[0] + n[0]], [c0[1] - n[1], c0[1] + n[1]], color=c, lw=1.3, zorder=200)
+f = plt.figure(figsize=(7.4, 2.5), dpi=220)
+EL, AZ = 12, -70
+for k, (smi, nm, mu) in enumerate([('O=C=O', 'CO₂', 'μ = 0 D'), ('O', 'H₂O', 'μ = 1,85 D'), ('CCl', 'CH₃Cl', 'μ = 1,87 D'), ('C(Cl)(Cl)(Cl)Cl', 'CCl₄', 'μ = 0 D')]):
     m, P = koord(smi)
-    heavy = [a.GetIdx() for a in m.GetAtoms() if a.GetSymbol() != 'H']
-    if smi == 'O=C=O': P = putar(P - P[1], P[0] - P[1], (1, 0, 0))
-    if smi == 'O':
-        hs = [a.GetIdx() for a in m.GetAtoms() if a.GetSymbol() == 'H']; bis = (P[hs[0]] + P[hs[1]]) / 2; P = putar(P, bis, (0, 0, -1)); P = rz(P, P[hs[0]] - P[hs[1]], layar(-75))
-    if smi == 'CCl': P = putar(P, P[1] - P[0], (0, 0, 1))
-    ax = ax3d(f, [k * 0.25, 0.1, 0.25, 0.8], lim=1.75, elev=12, azim=-75)
-    atom, ik = pasang(m, P); molekul3d(ax, atom, ik, s=1.0)
-    if smi == 'O=C=O':
-        panah3d(ax, (-0.25, 0, 0.75), (-1.1, 0, 0.75)); panah3d(ax, (0.25, 0, 0.75), (1.1, 0, 0.75))
-    if smi == 'O': panah3d(ax, (0, 0, -1.25), (0, 0, -0.45))
-    if smi == 'CCl': panah3d(ax, (0.9, 0, -0.2), (0.9, 0, 1.6))
-    f.text(k * 0.25 + 0.125, 0.04, f'{nm}\n{mu}', ha='center', fontsize=9, color=TUA)
+    hs = [a.GetIdx() for a in m.GetAtoms() if a.GetSymbol() == 'H']
+    if smi == 'O=C=O': P = hadap(P - P[1], kanan=P[0] - P[1], atas=(0, 0, 1), elev=EL, azim=AZ)
+    if smi == 'O': P = hadap(P, kanan=P[hs[0]] - P[hs[1]], atas=-(P[hs[0]] + P[hs[1]]), elev=EL, azim=AZ)
+    if smi == 'CCl': ax_ = P[1] - P[0]; h_ = P[hs[0]] - np.dot(P[hs[0]], ax_) / np.dot(ax_, ax_) * ax_; P = hadap(P, atas=ax_, kanan=h_ * 0.5 + np.cross(ax_, h_) * 0.3, elev=EL, azim=AZ)
+    if smi.startswith('C(Cl)'): ax_ = P[1] - P[0]; h_ = P[2] - np.dot(P[2], ax_) / np.dot(ax_, ax_) * ax_; P = hadap(P, atas=ax_, kanan=h_ * 0.5 + np.cross(ax_, h_) * 0.3, elev=EL, azim=AZ)
+    a = kanvas2d(f, [k * 0.25, 0.17, 0.25, 0.76], lim=2.5)
+    atom, ik = pasang(m, P); bolabatang(a, atom, ik, elev=EL, azim=AZ, skala=1.0)
+    if smi == 'O=C=O': pdipol(a, (-0.2, 0.65), (-1.15, 0.65)); pdipol(a, (0.2, 0.65), (1.15, 0.65))
+    if smi == 'O': pdipol(a, (0, -1.4), (0, -0.45))
+    if smi == 'CCl': pdipol(a, (1.15, -0.4), (1.15, 1.7))
+    f.text(k * 0.25 + 0.125, 0.03, f'{nm}\n{mu}', ha='center', fontsize=9, color=TUA)
 f.text(0.5, 0.97, 'panah dipol menunjuk dari ujung δ+ ke ujung δ−; pada CO₂ dan CCl₄ vektor saling meniadakan', ha='center', fontsize=8.6, color=MERAH)
 f.savefig(f'{F}/dipol.png', bbox_inches='tight'); plt.close(f)
 
 # VSEPR: bola-batang dengan pasangan bebas sebagai cuping
-f = plt.figure(figsize=(7.4, 2.2), dpi=220)
+f = plt.figure(figsize=(7.4, 2.3), dpi=220)
 for k, (smi, nm, sud, npb) in enumerate([('C', 'metana', '109,5°', 0), ('N', 'amonia', '107°', 1), ('O', 'air', '104,5°', 2)]):
     m, P = koord(smi); hs = [a.GetIdx() for a in m.GetAtoms() if a.GetSymbol() == 'H']
     sH = sum(P[h] / np.linalg.norm(P[h]) for h in hs)
-    if npb: P = putar(P, -sH, (0, 0, 1))
+    if npb == 0: P = hadap(P, atas=P[hs[0]], kanan=np.cross(P[hs[0]], P[hs[1]]), elev=14, azim=-55)
+    if npb == 1: P = hadap(P, atas=-sH, kanan=np.cross(-sH, P[hs[0]]) + P[hs[0]] * 0.0, elev=14, azim=-55)
     if npb == 2:
-        v_ = layar(-65); a_ = np.radians(50); P = rz(P, np.cross(P[hs[0]], P[hs[1]]), np.array([v_[0] * np.cos(a_) - v_[1] * np.sin(a_), v_[0] * np.sin(a_) + v_[1] * np.cos(a_), 0]))
-    ax = ax3d(f, [k * 0.333, 0.1, 0.333, 0.95], lim=1.2, elev=10, azim=-65)
-    atom, ik = pasang(m, P); molekul3d(ax, atom, ik)
-    if npb == 1: tetes(ax, (0, 0, 1), 0.95, 0.38, '#f3c86a', alpha=0.75)
+        H1, H2 = P[hs[0]], P[hs[1]]; P = hadap(P, atas=-(H1 + H2), kanan=(H1 - H2) * 0.6 + np.cross(H1, H2) * 0.8, elev=14, azim=-55)
+    cup = []
+    if npb == 1: cup = [(0, (0, 0, 1), '#f3c86a')]
     if npb == 2:
         H1, H2 = [P[h] / np.linalg.norm(P[h]) for h in hs]; bis = -(H1 + H2); bis /= np.linalg.norm(bis); n = np.cross(H1, H2); n /= np.linalg.norm(n)
-        for sg in (1, -1): tetes(ax, bis * 0.58 + n * 0.81 * sg, 0.9, 0.36, '#f3c86a', alpha=0.75)
+        cup = [(0, bis * 0.58 + n * 0.81 * sg, '#f3c86a') for sg in (1, -1)]
+    a = kanvas2d(f, [k * 0.333, 0.2, 0.333, 0.78], lim=1.45)
+    atom, ik = pasang(m, P); bolabatang(a, atom, ik, elev=14, azim=-55, skala=1.0, cuping=cup)
     f.text(k * 0.333 + 0.166, 0.03, f'{nm} ({sud})\n{4 - npb} ikatan, {npb} pasangan bebas', ha='center', fontsize=8.8, color=TUA)
 f.savefig(f'{F}/vsepr.png', bbox_inches='tight'); plt.close(f)
 print('ok ilustrasi')
