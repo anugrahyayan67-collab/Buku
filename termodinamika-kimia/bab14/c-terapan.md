@@ -76,7 +76,7 @@ Untuk O₂ (*M* = 31,998): $S^\text{T}_\text{m} = 152{,}08$, $S^\text{R}_\text{m
 
 Untuk beberapa zat, kedua cara tidak cocok, dan selisihnya justru mengajarkan sesuatu. Karbon monoksida adalah contoh terkenal: Tabel 6.1 (nilai spektroskopi) memberi 197,67 J K⁻¹ mol⁻¹, dan perhitungan kita dengan Tabel 14.1 memberi 197,61, tetapi pengukuran kalorimetri dari dekat 0 K hanya memberi sekitar 193,3. Kalorimetri kehilangan sekitar 4,3 J K⁻¹ mol⁻¹.
 
-Penjelasannya diberikan di subbab 5.8: molekul CO hampir simetris (dipolnya sangat kecil), sehingga dalam kristal ia dapat menghadap ke dua arah, CO atau OC, dengan energi yang hampir sama. Ketika kristal didinginkan, molekul-molekul membeku dalam arah acak sebelum sempat tersusun rapi, sehingga pada 0 K masih ada $W = 2^{N_\text{A}}$ susunan dan **entropi residu** $R\ln2 = 5{,}76$ J K⁻¹ mol⁻¹. Kalorimetri, yang mulai dari "nol" pada 0 K, tidak pernah melihat entropi ini. Nilai terukur 4,3 sedikit lebih kecil daripada 5,76, tanda bahwa sebagian molekul sempat tersusun sebelum membeku. Es mempunyai entropi residu yang serupa, sekitar 3,4 J K⁻¹ mol⁻¹, yang dijelaskan Pauling sebagai $R\ln\tfrac32 = 3{,}37$ dari banyaknya cara menempatkan atom hidrogen di antara atom oksigen (Soal {{es}}).
+Penjelasannya diberikan di subbab 5.8: molekul CO hampir simetris (dipolnya sangat kecil), sehingga dalam kristal ia dapat menghadap ke dua arah, CO atau OC, dengan energi yang hampir sama. Ketika kristal didinginkan, molekul-molekul membeku dalam arah acak sebelum sempat tersusun rapi, sehingga pada 0 K masih ada $W = 2^{N_\text{A}}$ susunan dan **entropi residu** $R\ln2 = 5{,}76$ J K⁻¹ mol⁻¹. Kalorimetri, yang mulai dari "nol" pada 0 K, tidak pernah melihat entropi ini. Nilai terukur 4,3 sedikit lebih kecil daripada 5,76, tanda bahwa sebagian molekul sempat tersusun sebelum membeku. Es mempunyai entropi residu yang serupa, sekitar 3,4 J K⁻¹ mol⁻¹, yang dijelaskan Pauling sebagai $R\ln\tfrac32 = 3{,}37$ dari banyaknya cara menempatkan atom hidrogen di antara atom oksigen (Soal 61).
 
 ::: {.strategi}
 **Strategi: menghitung entropi gas dari spektroskopi**
@@ -180,7 +180,7 @@ $$
 p(h) = p(0)\,e^{-mgh/kT} = p(0)\,e^{-h/H} , \qquad H = \frac{RT}{Mg} . \qquad \text{(14.25)}
 $$
 
-Tinggi skala *H* adalah ketinggian tempat tekanan turun menjadi 1/*e* kali. Untuk udara (*M* = 28,96 g mol⁻¹) pada 288 K, $H = 8{,}43$ km. Rumus yang sama dapat diturunkan dari keseimbangan gaya pada lapisan udara (Soal {{barometrik}}), tetapi sudut pandang Boltzmann menunjukkan bahwa ia hanyalah persaingan antara energi potensial dan energi termal.
+Tinggi skala *H* adalah ketinggian tempat tekanan turun menjadi 1/*e* kali. Untuk udara (*M* = 28,96 g mol⁻¹) pada 288 K, $H = 8{,}43$ km. Rumus yang sama dapat diturunkan dari keseimbangan gaya pada lapisan udara (Soal 74), tetapi sudut pandang Boltzmann menunjukkan bahwa ia hanyalah persaingan antara energi potensial dan energi termal.
 
 ::: {.contoh}
 **Contoh 14.16 · Tekanan di puncak Everest**

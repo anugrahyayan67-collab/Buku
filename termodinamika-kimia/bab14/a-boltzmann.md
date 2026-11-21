@@ -281,7 +281,7 @@ Keadaan dasar elektronik nitrogen monoksida terbelah menjadi dua tingkat, masing
 | $q^\text{E}$ | 2,061 | 3,115 | 3,680 |
 | fraksi tingkat atas | 0,030 | 0,358 | 0,457 |
 
-**Memahami hasil.** Pada 50 K hampir semua molekul di tingkat bawah; pada suhu kamar lebih dari sepertiga di tingkat atas; pada suhu tinggi fraksinya mendekati 1/2 tetapi tidak pernah melewatinya. Perubahan populasi ini menyerap energi, sehingga NO mempunyai kapasitas kalor tambahan yang memuncak di sekitar 73 K (puncak Schottky, Soal {{schottky}}). Sumbangan elektronik ini juga harus diperhitungkan bila entropi NO dihitung dari spektroskopi.
+**Memahami hasil.** Pada 50 K hampir semua molekul di tingkat bawah; pada suhu kamar lebih dari sepertiga di tingkat atas; pada suhu tinggi fraksinya mendekati 1/2 tetapi tidak pernah melewatinya. Perubahan populasi ini menyerap energi, sehingga NO mempunyai kapasitas kalor tambahan yang memuncak di sekitar 73 K (puncak Schottky, Soal 21). Sumbangan elektronik ini juga harus diperhitungkan bila entropi NO dihitung dari spektroskopi.
 :::
 
 ### Dari satu molekul ke seluruh sistem
@@ -292,7 +292,7 @@ $$
 Q = q^N \quad (\text{molekul terbedakan}) , \qquad Q = \frac{q^N}{N!} \quad (\text{molekul tak terbedakan}) . \qquad \text{(14.11)}
 $$
 
-Molekul di dalam kristal **terbedakan** oleh tempatnya di kisi: menukar energi atom di pojok kiri dan pojok kanan menghasilkan keadaan mikro baru. Molekul gas **tak terbedakan**: menukar dua molekul identik yang bebas bergerak tidak menghasilkan keadaan baru, sehingga hitungan $q^N$ terlalu besar sebanyak *N*! kali. Faktor *N*! ini, yang tampak seperti detail, ternyata menentukan apakah entropi gas bersifat ekstensif, dan tanpanya kita akan memperoleh paradoks Gibbs (Soal {{gibbs}}).
+Molekul di dalam kristal **terbedakan** oleh tempatnya di kisi: menukar energi atom di pojok kiri dan pojok kanan menghasilkan keadaan mikro baru. Molekul gas **tak terbedakan**: menukar dua molekul identik yang bebas bergerak tidak menghasilkan keadaan baru, sehingga hitungan $q^N$ terlalu besar sebanyak *N*! kali. Faktor *N*! ini, yang tampak seperti detail, ternyata menentukan apakah entropi gas bersifat ekstensif, dan tanpanya kita akan memperoleh paradoks Gibbs (Soal 24).
 
 Energi dalam sistem *N* molekul adalah *N* kali energi rata-rata, dan dari persamaan (14.9) dan (14.11), keduanya dapat ditulis dengan *Q*: $U - U(0) = -(\partial\ln Q/\partial\beta)_V$. Di sini *U*(0) adalah energi dalam pada *T* = 0, ketika semua molekul di keadaan dasar. Faktor *N*! tidak bergantung pada β, sehingga tidak mempengaruhi energi; ia hanya mempengaruhi entropi dan energi bebas.
 
