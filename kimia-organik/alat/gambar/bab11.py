@@ -32,21 +32,38 @@ def rd(smi, w=360, h=300, fs=30, hs=(), pad=0.15, lab=None, bl=None):
         for i, t in lab.items(): o.atomLabels[i] = t
     rdMolDraw2D.PrepareAndDrawMolecule(d, m); d.FinishDrawing(); return rapat(Image.open(io.BytesIO(d.GetDrawingText())))
 def gb(ax, smi, x0, x1, y0, y1, **k):
-    k['w'], k['h'] = ukuran_px(ax, x0, x1, y0, y1); k['fs'] = min(k.get('fs', 25), 25); k.setdefault('bl', 30)
+    k['w'], k['h'] = ukuran_px(ax, x0, x1, y0, y1); k['fs'] = min(k.get('fs', 25), 25); k.setdefault('bl', 40)
     pasang(ax, rd(smi, **k), x0, x1, y0, y1, zorder=2, maks=1.0)
 
 # 1. gugus karbonil
 f, ax = kanv(7.2, 2.4, (0, 24), (0, 8))
-gb(ax, 'CC(C)=O', 0, 4.2, 1.6, 6.4); T(ax, 4.8, 4.0, '↔', fs=15, family='DejaVu Sans'); gb(ax, 'C[C+](C)[O-]', 5.4, 9.6, 1.6, 6.4)
+gb(ax, 'CC(C)=O', 0, 4.2, 1.6, 6.4, bl=48); T(ax, 4.8, 4.0, '↔', fs=15, family='DejaVu Sans'); gb(ax, 'C[C+](C)[O-]', 5.4, 9.6, 1.6, 6.4, bl=48)
 T(ax, 4.8, 1.0, 'karbon δ+ (elektrofil), oksigen δ−', fs=8.5, c=HJ)
-cx, cy = 16.0, 3.4
-ax.plot([cx - 1.6, cx], [cy + 0.9, cy], color=TUA, lw=2); ax.plot([cx - 1.6, cx], [cy - 0.9, cy], color=TUA, lw=2)
-ax.plot([cx, cx + 2.2], [cy + 0.08, cy + 0.08], color=JT, lw=2); ax.plot([cx, cx + 2.2], [cy - 0.08, cy - 0.08], color=JT, lw=2)
-T(ax, cx + 2.6, cy, 'O', c=JT, fs=13); T(ax, cx - 0.1, cy - 0.55, 'C', fs=11)
-ang = np.deg2rad(107); L = 3.6; nx, ny = cx + L * np.cos(ang), cy + L * np.sin(ang)
-ax.annotate('', (cx - 0.05, cy + 0.25), (nx, ny), arrowprops=dict(arrowstyle='-|>', color=BIRU, lw=1.5)); T(ax, nx - 0.3, ny + 0.4, 'Nu$^-$', c=BIRU, fs=12)
-ax.add_patch(Arc((cx, cy), 2.4, 2.4, theta1=0, theta2=107, color=HJ, lw=1)); T(ax, cx + 1.2, cy + 1.35, '≈107°', fs=9, c=HJ)
-T(ax, cx + 0.3, 0.6, 'arah serangan ke orbital π*', fs=8.5, c=HJ)
+T(ax, 16.5, 0.6, 'arah serangan ke orbital π* (sudut Bürgi–Dunitz)', fs=8.5, c=HJ)
+# panel kanan: render 3D H2C=O dengan orbital π* dan arah datang Nu
+import sys as _sy; _sy.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'r3d'))
+from r3d import render, pas
+TMP = os.path.join(F, '_r3d'); os.makedirs(TMP, exist_ok=True)
+def lob(d, L, w, c, o, a=0.85, k=0.7): return {'d': list(map(float, d)), 'L': L, 'w': w, 'c': c, 'o': list(map(float, o)), 'a': a, 'k': k}
+O_ = np.array([1.21, 0, 0]); H1 = 1.10 * np.array([np.cos(np.radians(121.8)), np.sin(np.radians(121.8)), 0]); H2 = H1 * [1, -1, 1]
+t = np.radians(107); u = np.array([np.cos(t), 0, np.sin(t)]); NU = u * 2.7
+B1, M1 = 0x4f86d9, 0xe0707a
+sp = {'atoms': [{'p': [0, 0, 0], 'r': 0.32, 'c': 0x3b4049}, {'p': list(O_), 'r': 0.31, 'c': 0xe04a3c}, {'p': list(H1), 'r': 0.22, 'c': 0xf4f4f4}, {'p': list(H2), 'r': 0.22, 'c': 0xf4f4f4},
+                 {'p': list(map(float, NU)), 'r': 0.36, 'c': 0x8a63c9}],
+      'bonds': [{'p': [0, 0.075, 0], 'q': list(O_ + [0, 0.075, 0]), 'r': 0.06, 'c': 0xb9bfc7}, {'p': [0, -0.075, 0], 'q': list(O_ + [0, -0.075, 0]), 'r': 0.06, 'c': 0xb9bfc7},
+                {'p': [0, 0, 0], 'q': list(H1), 'r': 0.08, 'c': 0xb9bfc7}, {'p': [0, 0, 0], 'q': list(H2), 'r': 0.08, 'c': 0xb9bfc7}],
+      'lobes': [lob((0, 0, 1), 1.05, 0.40, B1, (0, 0, 0)), lob((0, 0, -1), 1.05, 0.40, M1, (0, 0, 0)), lob((0, 0, 1), 0.7, 0.30, M1, O_), lob((0, 0, -1), 0.7, 0.30, B1, O_)]}
+for a0 in np.arange(0.62, 2.3, 0.16): sp['bonds'].append({'p': list(map(float, u * a0)), 'q': list(map(float, u * (a0 + 0.09))), 'r': 0.03, 'c': 0x8a63c9})
+arc = [0.8 * np.array([np.cos(a), 0, np.sin(a)]) for a in np.linspace(0, t, 22)]
+for p_, q_ in zip(arc[:-1], arc[1:]): sp['bonds'].append({'p': list(map(float, p_)), 'q': list(map(float, q_)), 'r': 0.018, 'c': 0x1a8a6a})
+sp.update(w=820, h=640, camdir=[0.3, -1, 0.35], up=[0, 0, 1], labels=[list(map(float, NU)), list(O_), [0.85 * np.cos(t / 2), 0, 0.85 * np.sin(t / 2)], [0, 0, 1.15]])
+PR = render([(pas(sp, 0.3), f'{TMP}/bd.png')]); q = PR[f'{TMP}/bd.png']
+from r3d import tampil
+a2 = f.add_axes([0.5, 0.12, 0.42, 0.88]); tampil(a2, f'{TMP}/bd.png')
+a2.text(q[0][0] - 50, q[0][1] - 40, 'Nu$^-$', fontsize=10, color='#6a45b0', fontweight='bold', ha='right')
+a2.text(q[1][0] + 55, q[1][1] + 30, 'O', fontsize=10, color=JT, fontweight='bold')
+a2.text(q[2][0] + 40, q[2][1] - 30, '≈107°', fontsize=8.5, color=HJ, fontweight='bold')
+a2.text(q[3][0] - 70, q[3][1], 'π*', fontsize=10, color='#2f5fae', fontweight='bold', ha='right')
 f.savefig(f'{F}/karbonil.png', bbox_inches='tight'); plt.close(f)
 
 # 2. mekanisme basa dan asam

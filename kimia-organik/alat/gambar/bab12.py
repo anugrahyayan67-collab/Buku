@@ -34,12 +34,18 @@ def rd(smi, w=360, h=300, fs=30, pad=0.15, hl=None, bl=None):
     else: rdMolDraw2D.PrepareAndDrawMolecule(d, m)
     d.FinishDrawing(); return rapat(Image.open(io.BytesIO(d.GetDrawingText())))
 def gb(ax, smi, x0, x1, y0, y1, **k):
-    k['w'], k['h'] = ukuran_px(ax, x0, x1, y0, y1); k['fs'] = min(k.get('fs', 25), 25); k.setdefault('bl', 30)
+    k['w'], k['h'] = ukuran_px(ax, x0, x1, y0, y1); k['fs'] = min(k.get('fs', 25), 25); k.setdefault('bl', 40)
     pasang(ax, rd(smi, **k), x0, x1, y0, y1, zorder=2, maks=1.0)
 
 # 1. karboksilat dan dimer
 f, ax = kanv(7.4, 2.4, (0, 26), (0, 8.4))
-gb(ax, 'CC(=O)[O-]', 0, 4.0, 2.0, 6.4); T(ax, 4.6, 4.2, '↔', fs=15, family='DejaVu Sans'); gb(ax, 'CC([O-])=O', 5.2, 9.2, 2.0, 6.4)
+from lewis import molekul as _mol
+_A = {'m': (-1.05, -0.6, 'H₃C'), 'c': (0, 0, 'C'), 'a': (0, 1.2, 'O'), 'b': (1.04, -0.6, 'O')}
+_mol(ax, _A, [('m', 'c', 1), ('c', 'a', 2), ('c', 'b', 1)], lp={'a': [45, 135], 'b': [25, -40, -105]}, muatan={'b': ('-', -165)}, ox=1.9, oy=3.7, s=1.15, fs=11)
+T(ax, 4.6, 4.2, '↔', fs=15, family='DejaVu Sans')
+_mol(ax, _A, [('m', 'c', 1), ('c', 'a', 1), ('c', 'b', 2)], lp={'a': [15, 90, 165], 'b': [30, -90]}, muatan={'a': ('-', -40)}, ox=6.9, oy=3.7, s=1.15, fs=11)
+for k_ in ('b',): pass
+
 T(ax, 4.6, 1.2, 'kedua C–O setara (127 pm)', fs=8.5, c=HJ)
 # dimer manual
 def L(p, q, c=TUA, lw=1.6, ls='-'): ax.plot([p[0], q[0]], [p[1], q[1]], color=c, lw=lw, ls=ls)
