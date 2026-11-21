@@ -123,7 +123,7 @@ Hitung efisiensi ideal untuk $r = 8$ dan $r = 10$ dengan $\gamma = 1{,}40$, lalu
 
 **Penyelesaian.** $r = 8$: $\eta = 1 - 8^{-0{,}40} = 0{,}565$. $r = 10$: $\eta = 1 - 10^{-0{,}40} = 0{,}602$.
 
-**Memahami hasil.** Mesin nyata hanya mencapai setengah efisiensi ideal ini, karena gesekan, kebocoran kalor melalui dinding silinder, pembakaran yang tidak seketika, dan gas buang yang masih panas. Rumus ini juga menjelaskan mengapa perbandingan kompresi yang lebih tinggi menaikkan efisiensi; batasnya adalah ketukan mesin (*knocking*), yaitu penyalaan dini campuran bensin dan udara yang terlalu panas karena dimampatkan (bandingkan Contoh 3.11). Bensin dengan angka oktan lebih tinggi tahan terhadap penyalaan dini, sehingga memungkinkan perbandingan kompresi lebih tinggi.
+**Memahami hasil.** Mesin nyata hanya mencapai setengah efisiensi ideal ini, karena gesekan, kebocoran kalor melalui dinding silinder, pembakaran yang tidak seketika, dan gas buang yang masih panas. Rumus ini juga menjelaskan mengapa perbandingan kompresi yang lebih tinggi menaikkan efisiensi; batasnya adalah ketukan mesin (*knocking*), yaitu penyalaan dini campuran bensin dan udara yang terlalu panas karena dimampatkan (bandingkan Contoh 3.12). Bensin dengan angka oktan lebih tinggi tahan terhadap penyalaan dini, sehingga memungkinkan perbandingan kompresi lebih tinggi.
 :::
 
 ::: {.kuis}

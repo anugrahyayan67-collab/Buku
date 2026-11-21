@@ -37,29 +37,33 @@
 ## Subbab 3.4: Kalor dan kapasitas kalor
 
 7. Mengapa $C_p$ selalu lebih besar daripada $C_V$?
+8. Mengapa kapasitas kalor pada tekanan tetap selalu lebih besar daripada pada volume tetap, padahal zatnya sama?
 
 ## Subbab 3.5: Hukum pertama termodinamika
 
-8. Bagaimana percobaan Joule membuktikan bahwa kalor bukan zat, melainkan energi?
-9. Mengapa mesin abadi jenis pertama mustahil?
+9. Bagaimana percobaan Joule membuktikan bahwa kalor bukan zat, melainkan energi?
+10. Mengapa mesin abadi jenis pertama mustahil?
+11. Kalor dan kerja keduanya adalah energi yang berpindah. Apa yang membedakan keduanya dari sudut gerak molekul?
 
 ## Subbab 3.6: Diferensial eksak dan tak eksak
 
-10. Jelaskan perbedaan diferensial eksak dan tak eksak dengan contoh dari kehidupan sehari-hari.
+12. Jelaskan perbedaan diferensial eksak dan tak eksak dengan contoh dari kehidupan sehari-hari.
 
 ## Subbab 3.7: Proses isotermal gas ideal
 
-11. Mengapa energi dalam gas ideal hanya bergantung pada suhu, sedangkan energi dalam gas nyata juga bergantung pada volume?
+13. Mengapa energi dalam gas ideal hanya bergantung pada suhu, sedangkan energi dalam gas nyata juga bergantung pada volume?
 
 ## Subbab 3.8: Proses adiabatik gas ideal
 
-12. Mengapa adiabat lebih curam daripada isoterm pada diagram *p*–*V*?
-13. Jelaskan mengapa pompa sepeda menjadi panas dan kaleng semprot menjadi dingin.
+14. Mengapa adiabat lebih curam daripada isoterm pada diagram *p*–*V*?
+15. Jelaskan mengapa pompa sepeda menjadi panas dan kaleng semprot menjadi dingin.
+16. Mengapa gas yang dimampatkan secara adiabatik menjadi panas, padahal tidak ada kalor yang masuk?
 
 ## Subbab 3.9: Energi dalam dari sudut molekul: ekuipartisi
 
-14. Apa isi asas ekuipartisi, dan mengapa asas itu gagal untuk getaran molekul pada suhu kamar?
-15. Mengapa γ gas monoatomik lebih besar daripada γ gas poliatomik?
+17. Apa isi asas ekuipartisi, dan mengapa asas itu gagal untuk getaran molekul pada suhu kamar?
+18. Mengapa γ gas monoatomik lebih besar daripada γ gas poliatomik?
+19. Asas ekuipartisi meramalkan $C_{V,\text{m}}$ yang tidak bergantung suhu. Mengapa kapasitas kalor nyata justru naik bertangga dengan suhu (Gambar 3.7)?
 
 # Soal
 
@@ -85,7 +89,7 @@ for N in [1, 2, 5, 10, 100, 1000]:
 
 Kerja mendekati $-RT\ln2 = -1718$ J ketika *N* bertambah.
 
-*Cara berpikir:* jumlah ini adalah luas sekumpulan persegi panjang di bawah kurva tekanan gas (Gambar 3.1). Makin sempit persegi panjangnya, makin rapat mereka mengisi luas di bawah kurva, dan batasnya adalah integral (3.4). Proses reversibel adalah limit proses bertahap ketika jumlah tahapnya tak terhingga.
+*Cara berpikir:* jumlah ini adalah luas sekumpulan persegi panjang di bawah kurva tekanan gas (Gambar 3.2). Makin sempit persegi panjangnya, makin rapat mereka mengisi luas di bawah kurva, dan batasnya adalah integral (3.4). Proses reversibel adalah limit proses bertahap ketika jumlah tahapnya tak terhingga.
 
 **Soal {{jalan}}.** Untuk gas ideal monoatomik, $\Delta U = \tfrac32nR\Delta T = \tfrac32(p_2V_2 - p_1V_1) = \tfrac32(30 - 20)$ bar L $= 15$ bar L $= 1500$ J untuk kedua jalan.
 
@@ -105,7 +109,7 @@ Jalan B: volume tetap dari 2,00 ke 1,00 bar (gas didinginkan), lalu tekanan teta
 $$
 \tfrac32(T_2 - 300) = -(T_2 - 30) \quad\Rightarrow\quad T_2 = \frac{450 + 30}{2{,}5}\ \text{K} = 192\ \text{K} .
 $$
-Kerjanya $w = \tfrac32(8{,}314)(192 - 300)$ J $= -1{,}35$ kJ. Ekspansi reversibel (Contoh 3.12) mendinginkan gas sampai 119 K dan menghasilkan kerja 2,25 kJ. Ekspansi tak reversibel melakukan kerja lebih kecil, sehingga energi dalam yang terpakai lebih sedikit dan suhunya turun lebih sedikit. Ini sejalan dengan subbab 3.3: proses reversibel memberikan kerja terbesar.
+Kerjanya $w = \tfrac32(8{,}314)(192 - 300)$ J $= -1{,}35$ kJ. Ekspansi reversibel (Contoh 3.13) mendinginkan gas sampai 119 K dan menghasilkan kerja 2,25 kJ. Ekspansi tak reversibel melakukan kerja lebih kecil, sehingga energi dalam yang terpakai lebih sedikit dan suhunya turun lebih sedikit. Ini sejalan dengan subbab 3.3: proses reversibel memberikan kerja terbesar.
 
 **Soal {{br2}}.** $x = hc\tilde\nu/kT = (1{,}4388\ \text{cm K})(323\ \text{cm}^{-1})/(298{,}15\ \text{K}) = 1{,}559$. Maka
 $$
@@ -114,6 +118,18 @@ $$
 dan $C_{V,\text{m}} = 20{,}79 + 6{,}82 = 27{,}6$ J K⁻¹ mol⁻¹.
 
 *Cara berpikir:* Br₂ lebih berat dan ikatannya lebih lemah daripada Cl₂, sehingga frekuensi getarannya lebih rendah dan getarannya lebih "bangun" pada suhu kamar (6,8 dari 8,3 J K⁻¹ mol⁻¹, dibanding 4,7 untuk Cl₂). Urutan N₂ < Cl₂ < Br₂ dalam kapasitas kalor adalah urutan frekuensi getaran yang makin rendah.
+
+**Soal {{adb}}.** Untuk gas diatomik, $C_{V,\text{m}} = \tfrac52R$ dan $C_{p,\text{m}} = \tfrac72R$.
+
+(a) Pada adiabat reversibel berlaku $T_2 = T_1(p_2/p_1)^{R/C_{p,\text{m}}} = (300\ \text{K})(0{,}100)^{2/7} = 155$ K. Karena *q* = 0, $w = \Delta U = C_{V,\text{m}}(T_2 - T_1) = (20{,}79)(155 - 300) = -3{,}01$ kJ.
+
+(b) Melawan tekanan luar tetap, rumus adiabat reversibel **tidak** berlaku. Kita kembali ke hukum pertama: $\Delta U = w$, dengan $\Delta U = C_{V,\text{m}}(T_2 - T_1)$ dan $w = -p_2(V_2 - V_1) = -p_2(RT_2/p_2 - RT_1/p_1)$. Menyamakan keduanya,
+$$
+C_{V,\text{m}}(T_2 - T_1) = -RT_2 + RT_1\frac{p_2}{p_1} \quad\Rightarrow\quad T_2 = T_1\,\frac{C_{V,\text{m}} + R\,p_2/p_1}{C_{V,\text{m}} + R} = 223\ \text{K} ,
+$$
+dan $w = C_{V,\text{m}}(223 - 300) = -1{,}60$ kJ.
+
+*Cara berpikir:* untuk setiap proses adiabatik, mulailah dari $\Delta U = w$. Rumus $TV^{\gamma-1}$ = tetap hanyalah hasil integrasi persamaan itu untuk kasus reversibel. Proses tak reversibel melakukan kerja lebih sedikit, sehingga energi dalamnya turun lebih sedikit dan gasnya kurang dingin. Perbandingan ini adalah versi adiabatik dari kesimpulan Contoh 3.10: proses reversibel memberi kerja paling banyak.
 
 # Bacaan lanjut
 
