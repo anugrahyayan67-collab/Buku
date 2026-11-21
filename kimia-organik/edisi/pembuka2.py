@@ -194,3 +194,15 @@ ax.text(2.0, 0.75, 'terhidrolisis oleh uap air\n(berbau cuka)', ha='center', col
 ax.text(6.3, 0.75, 'bertahan ratusan tahun\npada pH netral', ha='center', color=UT, fontsize=12, family='Liberation Sans')
 simpan(12, f, 'Dua turunan asam karboksilat dengan nasib yang sangat berbeda: ester aspirin perlahan terhidrolisis oleh uap air, sedangkan ikatan amida pada protein hampir tidak pernah putus tanpa enzim. Perbedaannya terletak pada gugus pergi dan resonansi.')
 print('ok12')
+
+# Bab 13: trimetilamina dan jeruk nipis
+f, ax = kanvas()
+ax.imshow(rd11('CN(C)C'), extent=[0.6, 3.0, 1.6, 3.8], zorder=2)
+ax.imshow(rd11('C[NH+](C)C'), extent=[5.3, 7.7, 1.6, 3.8], zorder=2)
+ax.annotate('', (5.1, 2.85), (3.3, 2.85), arrowprops=dict(arrowstyle='-|>', color=UT, lw=3)); ax.annotate('', (3.3, 2.45), (5.1, 2.45), arrowprops=dict(arrowstyle='-|>', color=EM, lw=3))
+ax.text(4.2, 3.2, 'H⁺ (jeruk nipis)', ha='center', color=UT, fontsize=12.5, fontweight='bold', family='DejaVu Sans')
+ax.text(4.2, 1.85, 'OH⁻', ha='center', color=EM, fontsize=12.5, fontweight='bold', family='DejaVu Sans')
+ax.text(1.8, 0.8, 'trimetilamina\nmudah menguap: bau amis', ha='center', color=EM, fontsize=12, family='Liberation Sans')
+ax.text(6.5, 0.8, 'ion trimetilamonium\ntidak menguap: tidak berbau', ha='center', color=UT, fontsize=12, family='Liberation Sans')
+simpan(13, f, 'Bau amis ikan berasal dari trimetilamina yang mudah menguap. Asam dalam jeruk nipis memprotonasinya menjadi ion trimetilamonium yang tidak menguap, sehingga baunya hilang; dalam basa, amina bebas kembali.')
+print('ok13')

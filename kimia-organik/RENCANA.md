@@ -52,7 +52,7 @@ Status: ☐ belum · ◐ sedang · ☑ selesai
 ### ☑ Bab 12 Asam Karboksilat dan Turunannya
 12.1 Asam karboksilat: sifat dan keasaman · 12.2 Membuat asam karboksilat · 12.3 Turunan asam: struktur dan kereaktifan relatif · 12.4 Substitusi asil nukleofilik: mekanisme adisi–eliminasi · 12.5 Klorida asam · 12.6 Anhidrida · 12.7 Ester: esterifikasi Fischer, hidrolisis, saponifikasi · 12.8 Amida dan hidrolisisnya · 12.9 Nitril · 12.10 Reduksi dan reaksi dengan organologam · 12.11 Lemak, sabun, poliester, dan poliamida · 12.12 β-Laktam dan obat turunan asam
 
-### ☐ Bab 13 Amina
+### ☑ Bab 13 Amina
 13.1 Struktur, tata nama, dan sifat amina · 13.2 Kebasaan amina, anilina, dan heterosiklik · 13.3 Membuat amina: alkilasi, Gabriel, aminasi reduktif, reduksi amida dan nitril · 13.4 Reaksi amina: asilasi, sulfonamida, eliminasi Hofmann · 13.5 Garam diazonium dan reaksi Sandmeyer · 13.6 Pewarna azo · 13.7 Heterosiklik nitrogen: piridina, pirola, imidazola, indola · 13.8 Amina dalam biologi dan obat
 
 ## Bagian IV · Penentuan struktur dan sintesis

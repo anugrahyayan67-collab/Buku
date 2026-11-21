@@ -1,0 +1,112 @@
+## Subbab 13.1: Struktur, tata nama, dan sifat amina
+
+> pKaH: NH₃ 9,25; CH₃NH₂ 10,64; (CH₃)₂NH 10,73; (CH₃)₃N 9,80; piperidina 11,1; anilina 4,6; 4-nitroanilina 1,0; piridina 5,2; imidazola 7,0; pirola −3,8. Soal bertanda **[P]** dibahas di akhir bab.
+
+Golongkan sebagai primer, sekunder, tersier, atau kuaterner: (a) sikloheksilamina; (b) N-metilsikloheksanamina; (c) N,N-dimetilanilina; (d) piridina; (e) kolina, (CH₃)₃N⁺CH₂CH₂OH. ||| (a) primer; (b) sekunder; (c) tersier; (d) tersier (aromatik); (e) kuaterner
+Beri nama: (a) CH₃CH₂CH₂NHCH₃; (b) (CH₃)₂CHNH₂; (c) H₂NCH₂CH₂CH₂CH₂NH₂; (d) C₆H₅N(CH₂CH₃)₂. ||| (a) N-metilpropan-1-amina; (b) propan-2-amina; (c) butana-1,4-diamina (putresina); (d) N,N-dietilanilina
+@inversi [P] Mengapa N-etil-N-metilpropan-1-amina tidak dapat dipisahkan menjadi enansiomer, sedangkan butan-2-amina dapat? ||| inversi N cepat (±25 kJ mol⁻¹); pusat kiral butan-2-amina pada C
+Urutkan titik didih: propan-1-ol, propilamina, trimetilamina, butana. ||| propan-1-ol > propilamina > trimetilamina > butana
+Mengapa ikatan hidrogen N–H···N lebih lemah daripada O–H···O? ||| N kurang elektronegatif daripada O
+Sebutkan dua diamina yang berbau busuk dari pembusukan protein. ||| putresina dan kadaverina
+
+Gambar bentuk trimetilamina dan perkirakan sudut C–N–C. ||| piramida; ±108°
+Apa beda tert-butilamina dan N,N-dimetiletilamina dalam penggolongan? ||| amina primer; amina tersier
+
+## Subbab 13.2: Kebasaan amina, anilina, dan heterosiklik
+
+Urutkan kebasaan: amonia, metilamina, anilina, asetamida, piridina, piperidina. ||| piperidina > metilamina > amonia > piridina > anilina > asetamida
+@solvasi [P] Mengapa trimetilamina (9,80) kurang basa daripada dimetilamina (10,73) dalam air, padahal dalam fase gas lebih basa? ||| ion trimetilamonium hanya satu N–H untuk ikatan hidrogen dengan air; solvasi lebih lemah
+@anilina [P] Mengapa 4-nitroanilina (pKaH 1,0) jauh kurang basa daripada 3-nitroanilina (2,5)? ||| pada posisi para, pasangan bebas N ditarik lewat resonansi sampai ke O gugus nitro; pada meta hanya induktif
+Urutkan kebasaan: anilina, 4-metilanilina, 4-kloroanilina, 4-metoksianilina. ||| 4-metoksi > 4-metil > anilina > 4-kloro
+Hitung persen trimetilamina terprotonasi pada pH 7,4 dan pada pH 2,5. ||| 99,6%; 99,99999%
+Rancang pemisahan campuran anilina, fenol, dan toluena dalam eter. ||| HCl encer mengambil anilina; NaOH mengambil fenol; toluena tetap di eter
+Mengapa obat amina sering dijual sebagai garam hidroklorida? ||| padatan kristal, stabil, larut air
+Berapa kali sikloheksilamina (pKaH 10,6) lebih basa daripada anilina (4,6)? ||| sejuta kali
+
+Mengapa asetamida hampir tidak basa? Di mana amida diprotonasi oleh asam kuat? ||| pasangan bebas N terdelokalisasi ke C=O; pada O
+Hitung K reaksi metilamina dengan asam asetat (pKa 4,76; pKaH 10,64). ||| K = 10^5,88 ≈ 7,6 × 10⁵
+
+## Subbab 13.3: Membuat amina
+
+Mengapa alkilasi amonia dengan bromoetana memberi campuran? ||| amina produk lebih nukleofilik dan bereaksi lagi
+Tulis langkah sintesis Gabriel untuk membuat 2-feniletanamina. ||| kalium ftalimida + 2-feniletil bromida (SN2); H₂NNH₂
+@reduktif [P] Mengapa NaBH₃CN dipakai pada aminasi reduktif, bukan NaBH₄? ||| NaBH₃CN lebih lemah: mereduksi ion iminium tetapi hampir tidak mereduksi aldehida/keton pada pH 5–7
+Tulis produk aminasi reduktif: (a) aseton + NH₃; (b) benzaldehida + metilamina; (c) sikloheksanon + piperidina. Semua dengan NaBH₃CN. ||| (a) propan-2-amina; (b) N-metilbenzilamina; (c) 1-sikloheksilpiperidina
+Tulis produk LiAlH₄ (lalu H₂O): (a) N-metilbenzamida; (b) heksananitril; (c) 1-azidobutana; (d) N,N-dietilasetamida. ||| (a) N-metilbenzilamina; (b) heksan-1-amina; (c) butan-1-amina; (d) trietilamina
+@amfet [P] Rancang dua sintesis 1-fenilpropan-2-amina: dari keton dan dari alkohol. Bagaimana mendapatkan satu enansiomer? ||| aminasi reduktif 1-fenilpropan-2-on; atau alkohol → tosilat → NaN₃ → LiAlH₄ (inversi); alkohol enantiomurni memberi amina enantiomurni
+Mengapa nitrasi toluena lalu reduksi tidak dapat memberi 3-metilanilina sebagai produk utama? ||| metil pengarah o/p; nitrasi memberi 2- dan 4-nitrotoluena
+Rancang sintesis pentan-1-amina dari butan-1-ol (tambah satu karbon). ||| PBr₃; NaCN; LiAlH₄
+Rancang sintesis N-etilbenzilamina dengan dua cara. ||| benzaldehida + etilamina, NaBH₃CN; atau benzilamina + asetil klorida, lalu LiAlH₄
+Mengapa alkil azida tidak bereaksi lagi dengan alkil halida? ||| N azida tidak cukup nukleofilik setelah alkilasi
+
+Tulis produk alkilasi tuntas piperidina dengan CH₃I berlebih. ||| iodida N,N-dimetilpiperidinium
+Rancang sintesis N-metilsikloheksanamina dari sikloheksanol. ||| PCC → sikloheksanon; CH₃NH₂, NaBH₃CN
+
+## Subbab 13.4: Reaksi amina: asilasi, sulfonamida, dan eliminasi Hofmann
+
+Tulis produk: (a) dietilamina + asetil klorida; (b) anilina + anhidrida benzoat; (c) trietilamina + asetil klorida. ||| (a) N,N-dietilasetamida; (b) benzanilida (N-fenilbenzamida); (c) tidak ada amida stabil (garam asilamonium sementara)
+Mengapa asilasi amina berhenti setelah satu gugus asil? ||| nitrogen amida tidak nukleofilik
+@hofmann [P] Jelaskan dengan dua alasan mengapa eliminasi Hofmann butan-2-amina memberi terutama but-1-ena. ||| gugus pergi –NMe₃⁺ besar (sterik); gugus pergi buruk → keadaan transisi mirip karbanion, karbanion primer lebih stabil
+Tulis produk eliminasi Hofmann: (a) pentan-3-amina; (b) N,N-dimetilsikloheksanamina; (c) 3-metilbutan-2-amina. ||| (a) pent-2-ena (satu-satunya, E dan Z); (b) sikloheksena; (c) 3-metilbut-1-ena (utama)
+Bagaimana sulfanilamida membunuh bakteri? ||| meniru PABA, menghentikan pembuatan asam folat bakteri
+Mengapa anilina diasetilasi sebelum nitrasi? ||| mengurangi kereaktifan, mencegah oksidasi, dan memberi selektivitas para
+Tulis produk piperidina setelah dua kali eliminasi Hofmann berturut-turut. ||| penta-1,4-diena + trimetilamina
+Mengapa sulfonamida dari amina primer larut dalam NaOH? ||| H pada N cukup asam (pKa ±10)
+
+Tulis produk 4-metilanilina + benzenasulfonil klorida. ||| N-(4-metilfenil)benzenasulfonamida
+Mengapa amina tersier tidak dapat diasilasi menjadi amida yang stabil? ||| tidak mempunyai H pada N untuk dilepas
+
+## Subbab 13.5: Garam diazonium dan reaksi Sandmeyer
+
+Tulis pembentukan ion nitrosonium dari NaNO₂ dan HCl. ||| HNO₂ + H⁺ → H₂O–NO⁺ → N≡O⁺ + H₂O
+Mengapa garam arenadiazonium cukup stabil pada 0 °C, sedangkan garam alkanadiazonium tidak? ||| muatan distabilkan resonansi dengan cincin; alkil diazonium segera melepas N₂ menjadi karbokation
+Tulis produk garam benzenadiazonium dengan: (a) CuBr; (b) KI; (c) HBF₄, panas; (d) H₂O, panas; (e) H₃PO₂. ||| (a) bromobenzena; (b) iodobenzena; (c) fluorobenzena; (d) fenol; (e) benzena
+@tribromo [P] Rancang sintesis 1,3,5-tribromobenzena dari benzena. ||| nitrasi; reduksi; Br₂ (air) → 2,4,6-tribromoanilina; NaNO₂, HCl; H₃PO₂
+Rancang sintesis 3-bromofenol dari benzena. ||| nitrasi; Br₂/FeBr₃ (meta); reduksi; diazotisasi; H₂O panas
+Rancang sintesis 4-fluorotoluena dari toluena. ||| nitrasi (pisahkan para); reduksi; diazotisasi; HBF₄, panas
+@sandmeyer [P] Rancang sintesis asam 3-bromobenzoat dari nitrobenzena lewat nitril. ||| Br₂/FeBr₃ (meta); reduksi NO₂; diazotisasi; CuCN; H₃O⁺ panas
+Mengapa –N₂⁺ disebut gugus pergi terbaik? ||| lepas sebagai N₂, molekul sangat stabil
+Rancang sintesis 3,5-dibromotoluena dari 4-metilanilina. ||| Br₂ (orto terhadap NH₂, kedua sisi); diazotisasi; H₃PO₂
+
+Mengapa diazotisasi harus dilakukan pada 0–5 °C? ||| garam diazonium terurai (melepas N₂) pada suhu lebih tinggi; kering dapat meledak
+Tulis produk 4-nitroanilina: NaNO₂, HCl; lalu CuCl. ||| 1-kloro-4-nitrobenzena
+
+## Subbab 13.6: Pewarna azo
+
+Tulis produk kopling garam benzenadiazonium dengan (a) fenol (pH 9); (b) N,N-dimetilanilina (pH 6). ||| (a) 4-(fenildiazenil)fenol; (b) 4-(fenildiazenil)-N,N-dimetilanilina
+@azo [P] Mengapa kopling azo memerlukan cincin yang sangat aktif, dan mengapa terjadi di posisi para? ||| ion diazonium elektrofil lemah; para kurang terhalang daripada orto
+Mengapa senyawa azo berwarna? ||| sistem π terkonjugasi panjang; selisih energi HOMO–LUMO kecil, menyerap cahaya tampak
+Jelaskan perubahan warna metil jingga dari kuning ke merah dalam asam. ||| protonasi N azo mengubah susunan konjugasi (kuinonoid), serapan bergeser ke panjang gelombang lebih panjang
+Mengapa pewarna untuk kain sering membawa gugus –SO₃⁻? ||| larut dalam air dan menempel pada serat
+Rancang sintesis pewarna dari anilina dan 2-naftol. ||| anilina + NaNO₂/HCl, 0 °C; lalu 2-naftol dalam NaOH (kopling di C1)
+Mengapa metanil yellow dilarang untuk makanan? ||| dapat dipecah menjadi amina aromatik berbahaya
+
+Mengapa kopling dengan fenol tidak dilakukan dalam basa kuat? ||| ion diazonium berubah menjadi spesies tidak reaktif dalam basa kuat
+Di mana garam diazonium mengkopling dengan 4-metilfenol? ||| orto terhadap –OH (para sudah terisi)
+
+## Subbab 13.7: Heterosiklik nitrogen: piridina, pirola, imidazola, dan indola
+
+@piridina [P] Mengapa piridina mengalami SEAr di C3, tetapi substitusi nukleofilik di C2 dan C4? ||| serangan E⁺ di C2/C4 menempatkan + pada N bersekstet; serangan Nu⁻ di C2/C4 menempatkan − pada N yang elektronegatif
+@pirola [P] Gambarkan ion arenium dari serangan Br⁺ pada C2 dan C3 pirola, dan jelaskan mengapa C2 disukai. ||| C2: tiga struktur termasuk iminium; C3: dua struktur
+Urutkan kereaktifan SEAr: tiofena, pirola, furan, benzena, piridina. ||| pirola > furan > tiofena > benzena > piridina
+Tulis produk: (a) furan + anhidrida asetat, BF₃; (b) 4-kloropiridina + NaOCH₃; (c) indola + CH₃COCl (lunak); (d) piridina + NaNH₂, panas. ||| (a) 2-asetilfuran; (b) 4-metoksipiridina; (c) 3-asetilindola; (d) 2-aminopiridina
+Mengapa imidazola amfoter? ||| N jenis piridina menerima H⁺; N–H jenis pirola dapat melepas H⁺
+Mengapa indola disubstitusi di C3, bukan C2? ||| serangan di C3 menghasilkan kation yang distabilkan N tanpa merusak aromatisitas cincin benzena
+Berapa ikatan hidrogen dalam pasangan G–C dan A–T? ||| tiga dan dua
+Mengapa piperidina jauh lebih basa daripada piridina? ||| N sp³ dengan pasangan bebas di orbital berkarakter s lebih kecil
+
+Mengapa piridina tidak mengalami Friedel–Crafts? ||| N mengikat AlCl₃, cincin menjadi sangat miskin elektron
+Mengapa pirola mudah berpolimerisasi dalam asam kuat? ||| sangat kaya elektron; protonasi di C memberi kation elektrofilik yang diserang pirola lain
+
+## Subbab 13.8: Amina dalam biologi dan obat
+
+Tulis produk dekarboksilasi histidina dan triptofan, dan nama senyawa yang terbentuk. ||| histamina; triptamina (lalu serotonin setelah hidroksilasi)
+@obat [P] Efedrina (pKaH 9,6). Hitung fraksi basa bebas pada pH 7,4 dan pH 2. Di mana obat ini diserap? ||| 0,63%; 2,5 × 10⁻⁶ %; di usus
+Mengapa L-DOPA diberikan kepada penderita Parkinson, bukan dopamina? ||| dopamina tidak menembus sawar darah otak; L-DOPA dapat, lalu diubah di otak
+Bagaimana gas saraf dan pestisida organofosfat bekerja? ||| menghambat asetilkolinesterase secara kovalen
+Mengapa obat amina kuaterner tidak masuk ke otak? ||| bermuatan tetap, tidak menembus membran lemak
+Mengapa benzalkonium klorida dipakai sebagai antiseptik dan pelembut kain? ||| surfaktan kationik; merusak membran bakteri; menempel pada serat bermuatan negatif
+Apa persamaan struktur nikotina dan asetilkolina pada reseptor? ||| keduanya mempunyai N bermuatan positif (terprotonasi/kuaterner) pada jarak tertentu dari atom penerima ikatan hidrogen
+Mengapa piperina dan kapsaisina tidak bersifat basa walaupun mengandung nitrogen? ||| nitrogennya amida
+Sebutkan dua alkaloid yang berkaitan dengan sejarah atau kebiasaan di Indonesia. ||| kinina (perkebunan kina di Jawa); kafeina (kopi); nikotina (tembakau)
+Tulis jenis reaksi pada langkah norepinefrina → epinefrina. ||| N-metilasi SN2 oleh SAM
