@@ -124,9 +124,9 @@ Selisih potensial kimia: $\mu_\text{nyata} - \mu_\text{ideal} = RT\ln\varphi = B
 **Memahami hasil.** Pada 10 bar, CO₂ "berperilaku" seperti gas ideal pada 9,51 bar. Tarikan antarmolekul menurunkan potensial kimianya, karena molekul-molekul yang saling menarik kurang "ingin" melepaskan diri. Nama fugasitas berasal dari kata Latin *fugere*, melarikan diri: fugasitas mengukur kecenderungan zat untuk lari dari fasanya. Pada 1 bar, φ = 0,995, sehingga untuk kebanyakan perhitungan pada tekanan atmosfer, menganggap CO₂ ideal hanya membawa kesalahan 0,5%.
 :::
 
-Pada tekanan tinggi, persamaan virial dua suku tidak cukup, dan (9.14) harus diintegralkan dengan persamaan keadaan yang lebih lengkap. Gambar 9.3 memperlihatkan hasilnya untuk tiga gas menurut persamaan van der Waals.
+Pada tekanan tinggi, persamaan virial dua suku tidak cukup, dan (9.14) harus diintegralkan dengan persamaan keadaan yang lebih lengkap. Gambar 9.4 memperlihatkan hasilnya untuk tiga gas menurut persamaan van der Waals.
 
-![Gambar 9.3 Koefisien fugasitas H₂, N₂, dan CH₄ pada 25 °C menurut persamaan van der Waals. Pada tekanan sedang, tarikan antarmolekul membuat φ < 1; pada tekanan sangat tinggi, tolakan (ukuran molekul) membuat φ naik melewati 1. Hidrogen berada di atas suhu Boyle-nya, sehingga φ > 1 pada semua tekanan.](fig/phi.png){width=72%}
+![Gambar 9.4 Koefisien fugasitas H₂, N₂, dan CH₄ pada 25 °C menurut persamaan van der Waals. Pada tekanan sedang, tarikan antarmolekul membuat φ < 1; pada tekanan sangat tinggi, tolakan (ukuran molekul) membuat φ naik melewati 1. Hidrogen berada di atas suhu Boyle-nya, sehingga φ > 1 pada semua tekanan.](fig/phi.png){width=72%}
 
 Bentuk kurva-kurva itu adalah cerminan langsung dari Gambar 2.1 tentang faktor kompresi. Metana, yang tarikannya paling kuat, menyimpang paling jauh ke bawah. Hidrogen, yang tarikannya sangat lemah, didominasi tolakan sejak awal; menurut van der Waals, suhu Boyle-nya, $a/Rb = 112$ K, jauh di bawah suhu kamar.
 
@@ -135,7 +135,7 @@ Bentuk kurva-kurva itu adalah cerminan langsung dari Gambar 2.1 tentang faktor k
 $$
 \ln\varphi = Z - 1 - \ln(Z - B') - \frac{A'}{Z} .
 $$
-Suku $-\ln(Z - B')$ positif dan berasal dari ukuran molekul (tolakan); suku $-A'/Z$ negatif dan berasal dari tarikan. Gambar 9.3 dibuat dengan rumus ini.
+Suku $-\ln(Z - B')$ positif dan berasal dari ukuran molekul (tolakan); suku $-A'/Z$ negatif dan berasal dari tarikan. Gambar 9.4 dibuat dengan rumus ini.
 :::
 
 ::: {.contoh}
@@ -154,6 +154,10 @@ Maka φ = 0,680 dan *f* = (0,680)(300) = 204 bar.
 
 **Memahami hasil.** Menariknya, *Z* hampir tepat 1 pada tekanan ini, sehingga persamaan gas ideal memberi volume yang hampir benar. Tetapi potensial kimianya jauh dari ideal: metana pada 300 bar mempunyai "kecenderungan melarikan diri" setara dengan gas ideal pada hanya 204 bar. Sebabnya, φ bergantung pada **seluruh riwayat** penyimpangan dari tekanan nol sampai 300 bar (integral (9.14)), bukan hanya pada *Z* di tekanan akhir. Dalam perhitungan kesetimbangan reaksi pada tekanan tinggi, misalnya sintesis amonia pada 200–300 bar, perbedaan seperti ini menggeser hasil secara berarti; Contoh 12.16 akan memakai fugasitas untuk menanganinya.
 :::
+
+Gambar 9.5 memperlihatkan arti fugasitas pada satu contoh, CO₂ pada 300 K menurut persamaan van der Waals. Pada tekanan rendah, kurva gas nyata berimpit dengan kurva gas ideal. Ketika tekanan naik, tarikan antarmolekul membuat molekul CO₂ "lebih nyaman" daripada molekul gas ideal, sehingga potensial kimianya lebih rendah; selisihnya adalah $RT\ln\varphi$. Pada 45 bar, φ ≈ 0,81, sehingga CO₂ berperilaku seolah-olah tekanannya hanya 37 bar.
+
+![Gambar 9.5 Potensial kimia CO₂ pada 300 K terhadap tekanan, untuk gas ideal (garis putus) dan menurut persamaan van der Waals (garis padat). Fugasitas *f* adalah "tekanan efektif" yang membuat rumus gas ideal tetap berlaku; jarak antara kedua kurva adalah $RT\ln\varphi$.](fig/mufug.png){width=76%}
 
 ::: {.kuis}
 **Kuis cepat 9.5** Mengapa koefisien fugasitas semua gas mendekati 1 pada tekanan rendah? Untuk gas pada suhu di bawah suhu Boyle-nya, apakah φ pada tekanan sedang lebih besar atau lebih kecil dari 1?

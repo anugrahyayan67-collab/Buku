@@ -23,30 +23,35 @@
 1. Mengapa 50 mL etanol dan 50 mL air menghasilkan kurang dari 100 mL larutan?
 2. Apa perbedaan volume molar parsial dan volume molar?
 3. Mengapa syarat "campuran yang sangat besar" diperlukan dalam arti fisis besaran molar parsial?
+4. Mengapa 50 mL etanol dan 50 mL air tidak menghasilkan 100 mL campuran? Jelaskan dari sudut molekul.
 
 ## Subbab 9.2: Volume molar parsial
 
-4. Jelaskan elektrostriksi dan akibatnya bagi volume molar parsial garam.
-5. Mengapa kadar alkohol dalam persen volume didefinisikan terhadap volume larutan akhir?
+5. Jelaskan elektrostriksi dan akibatnya bagi volume molar parsial garam.
+6. Mengapa kadar alkohol dalam persen volume didefinisikan terhadap volume larutan akhir?
+7. Apa arti fisis volume molar parsial yang negatif?
 
 ## Subbab 9.3: Potensial kimia
 
-6. Apa arti fisis potensial kimia? Mengapa ia disebut "potensial"?
-7. Bandingkan potensial kimia dengan suhu dan potensial listrik sebagai pendorong aliran.
-8. Mengapa konsentrasi iodin dalam air dan CCl₄ tidak sama pada kesetimbangan, padahal potensial kimianya sama?
-9. Bagaimana tekanan dapat menghentikan aliran osmosis?
+8. Apa arti fisis potensial kimia? Mengapa ia disebut "potensial"?
+9. Bandingkan potensial kimia dengan suhu dan potensial listrik sebagai pendorong aliran.
+10. Mengapa konsentrasi iodin dalam air dan CCl₄ tidak sama pada kesetimbangan, padahal potensial kimianya sama?
+11. Bagaimana tekanan dapat menghentikan aliran osmosis?
+12. Mengapa potensial kimia disebut "tekanan untuk keluar" suatu zat dari fasanya?
+13. Mengapa ln *x* dalam rumus potensial kimia campuran ideal berasal dari entropi, bukan dari energi interaksi?
 
 ## Subbab 9.4: Persamaan Gibbs–Duhem
 
-10. Apa yang dikatakan persamaan Gibbs–Duhem tentang campuran dua zat?
+14. Apa yang dikatakan persamaan Gibbs–Duhem tentang campuran dua zat?
 
 ## Subbab 9.5: Potensial kimia gas ideal dan gas nyata
 
-11. Mengapa potensial kimia zat menuju −∞ bila tekanan parsialnya menuju nol? Apa akibatnya bagi pemurnian?
-12. Mengapa pencampuran gas ideal spontan walaupun tidak ada kalor yang dilepaskan?
-13. Mengapa menangkap CO₂ dari udara lebih mahal daripada dari gas buang cerobong?
-14. Apa keadaan standar untuk gas nyata, dan mengapa disebut hipotetis?
-15. Mengapa koefisien fugasitas H₂ lebih besar dari 1 pada suhu kamar, sedangkan CH₄ lebih kecil?
+15. Mengapa potensial kimia zat menuju −∞ bila tekanan parsialnya menuju nol? Apa akibatnya bagi pemurnian?
+16. Mengapa pencampuran gas ideal spontan walaupun tidak ada kalor yang dilepaskan?
+17. Mengapa menangkap CO₂ dari udara lebih mahal daripada dari gas buang cerobong?
+18. Apa keadaan standar untuk gas nyata, dan mengapa disebut hipotetis?
+19. Mengapa koefisien fugasitas H₂ lebih besar dari 1 pada suhu kamar, sedangkan CH₄ lebih kecil?
+20. Fugasitas sering disebut "tekanan yang dikoreksi". Koreksi apa yang dimaksud, dan mengapa koreksinya dapat membuat *f* lebih besar atau lebih kecil dari *p*?
 
 # Soal
 
@@ -87,6 +92,14 @@ $$
 nol bila $x = 1 - x$, yaitu $x = 0{,}5$. Nilainya: $RT\ln0{,}5 = (2479)(-0{,}693) = -1{,}72$ kJ mol⁻¹.
 
 *Cara berpikir:* kurva $\Delta_\text{mix}G_\text{m}$ simetris dan paling dalam di tengah, tempat ketidakteraturan campuran paling besar. Di kedua ujung, kemiringannya menuju −∞ dan +∞: menambahkan sedikit pertama zat lain ke dalam zat murni selalu sangat menguntungkan. Inilah alasan termodinamika mengapa setiap zat murni cenderung tercemar oleh zat lain, dan mengapa pemurnian sempurna tidak mungkin.
+
+**Soal {{fug}}.** Pada suhu tetap, $d\mu = V_\text{m}\,dp$ untuk gas apa pun. Untuk gas ideal, $V_\text{m} = RT/p$, sehingga $d\mu^\text{id} = RT\,dp/p$. Untuk gas nyata kita **mendefinisikan** fugasitas supaya bentuknya sama: $d\mu = RT\,d\ln f$. Mengurangkan kedua persamaan,
+$$
+RT\,d\ln\frac{f}{p} = \left(V_\text{m} - \frac{RT}{p}\right)dp = \frac{RT}{p}(Z - 1)\,dp ,
+$$
+karena $V_\text{m} = ZRT/p$. Pada $p \to 0$ semua gas ideal, sehingga $f/p \to 1$ dan $\ln(f/p) \to 0$. Mengintegrasikan dari 0 sampai *p* memberi $\ln\varphi = \int_0^p (Z - 1)\,dp/p$. Bila $Z - 1 = Bp/RT$, integrannya $B/RT$ yang tetap, sehingga $\ln\varphi = Bp/RT$.
+
+*Cara berpikir:* fugasitas tidak memerlukan teori baru; ia hanya menghimpun seluruh ketakidealan ke dalam satu besaran, sehingga semua rumus potensial kimia gas ideal tetap dapat dipakai. Yang diperlukan untuk menghitungnya hanyalah *Z* sebagai fungsi tekanan, dari persamaan keadaan mana pun di Bab 2. Tanda *B* langsung memberi tanda ln φ: tarikan (*B* < 0) membuat φ < 1, tolakan (*B* > 0) membuat φ > 1. Gagasan yang sama dipakai di Bab 10 untuk larutan nyata: aktivitas berperan seperti fugasitas, dan koefisien aktivitas seperti φ.
 
 # Bacaan lanjut
 
