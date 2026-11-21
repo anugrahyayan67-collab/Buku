@@ -86,6 +86,8 @@ Elektrofil adalah tempat elektron masuk. Jenis yang umum:
 
 Dalam bahasa orbital, elektrofil adalah spesi dengan **LUMO yang rendah**: orbital kosong yang energinya rendah dan mudah diisi. Pada C–Br, LUMO-nya adalah orbital σ* C–Br; pada C=O, LUMO-nya adalah orbital π* C=O. Mengisi orbital antiikatan itu melemahkan ikatan yang bersangkutan, dan itulah sebabnya ikatan C–Br atau ikatan π C=O putus ketika nukleofil menyerang.
 
+![Gambar 6.1 Nukleofil dan elektrofil. Nukleofil mempunyai pasangan elektron yang dapat diberikan (pasangan bebas atau ikatan π); elektrofil mempunyai atom yang kekurangan elektron (muatan positif, muatan parsial δ+, atau orbital kosong).](fig/nukelek.png){width=96%}
+
 ::: {.contoh}
 **Contoh 6.1 · Nukleofil atau elektrofil?**
 
@@ -98,6 +100,16 @@ Tentukan apakah spesi atau atom yang ditandai bersifat nukleofilik atau elektrof
 
 ::: {.kuis}
 **Kuis cepat 6.2** Sebutkan dua nukleofil anionik, dua nukleofil netral, dan dua elektrofil yang bukan kation.
+:::
+
+::: {.contoh}
+**Contoh 6.2 · Menandai polaritas untuk meramalkan tempat serangan**
+
+Tandai karbon δ+ atau δ− dalam (a) klorometana, CH₃Cl; (b) metilmagnesium bromida, CH₃MgBr; (c) aseton, (CH₃)₂C=O. Lalu ramalkan apa yang terjadi bila (b) dicampur dengan (c).
+
+**Penyelesaian.** (a) Cl (3,16) lebih elektronegatif daripada C (2,55): karbon **δ+**, elektrofil. (b) Mg (1,31) jauh kurang elektronegatif daripada C: ikatan C–Mg terpolarisasi ke arah karbon, sehingga karbon **δ−**, nukleofil. (c) O lebih elektronegatif: karbon karbonil **δ+**, elektrofil. Bila (b) dan (c) bertemu, karbon δ− pada CH₃MgBr menyerang karbon δ+ pada aseton, membentuk ikatan C–C baru dan, setelah ditambah air, 2-metilpropan-2-ol (reaksi Grignard, Bab 11).
+
+**Memahami hasil.** Atom karbon yang sama dapat menjadi elektrofil atau nukleofil, bergantung pada atom yang terikat padanya. Mengganti Cl dengan Mg membalik polaritas karbon. Kemampuan membaca polaritas ikatan seperti ini adalah langkah pertama untuk meramalkan reaksi apa pun.
 :::
 
 ## 6.3 Panah lengkung untuk reaksi
@@ -122,8 +134,10 @@ Setiap panah mengubah struktur dengan cara yang dapat diramalkan:
 * Panah dari **ikatan** ke **satu atom**: ikatan putus, atom tujuan mendapat pasangan bebas baru dan bertambah muatan negatif satu. Atom di ujung lain ikatan kehilangan satu ikatan dan bertambah muatan positif satu.
 * Panah dari **ikatan π** ke **ruang di antara dua atom lain**: ikatan π lama hilang, ikatan baru terbentuk di tempat lain.
 
+![Gambar 6.2 Panah lengkung untuk reaksi ion hidroksida dengan bromometana. Panah pertama berpangkal pada pasangan bebas oksigen dan berujung pada karbon (ikatan C–O baru); panah kedua berpangkal pada ikatan C–Br dan berujung pada bromin (Br⁻ lepas).](fig/sn2panah.png){width=96%}
+
 ::: {.contoh}
-**Contoh 6.2 · Menggambar produk dari panah**
+**Contoh 6.3 · Menggambar produk dari panah**
 
 Ion sianida, CN⁻, menyerang karbon bromometana dengan pasangan bebas karbonnya, dan ion bromida lepas. Gambar panah lengkungnya dan produknya, dan periksa muatannya.
 
@@ -171,10 +185,12 @@ Sebuah gugus kecil, biasanya atom hidrogen bersama pasangan elektronnya (**geser
 Pola 1 dan 2 adalah kebalikan satu sama lain; pola 3 adalah pola 1 dan 2 yang terjadi bersamaan pada proton.
 :::
 
-Beberapa langkah reaksi menggabungkan dua pola sekaligus dalam satu langkah **serempak** (*concerted*). Reaksi SN2 adalah serangan nukleofil dan lepasnya gugus pergi yang terjadi bersamaan (Contoh 6.2). Reaksi E2 adalah transfer proton dan lepasnya gugus pergi yang terjadi bersamaan (Bab 7). Mengenali pola-pola dasarnya membuat langkah gabungan seperti ini juga mudah dipahami.
+Beberapa langkah reaksi menggabungkan dua pola sekaligus dalam satu langkah **serempak** (*concerted*). Reaksi SN2 adalah serangan nukleofil dan lepasnya gugus pergi yang terjadi bersamaan (Contoh 6.3). Reaksi E2 adalah transfer proton dan lepasnya gugus pergi yang terjadi bersamaan (Bab 7). Mengenali pola-pola dasarnya membuat langkah gabungan seperti ini juga mudah dipahami.
+
+![Gambar 6.3 Empat pola langkah polar. Hampir setiap mekanisme ionik dalam buku ini adalah rangkaian dari keempat pola ini: serangan nukleofil, lepasnya gugus pergi, transfer proton, dan penataan ulang karbokation.](fig/pola.png){width=94%}
 
 ::: {.contoh}
-**Contoh 6.3 · Mengenali pola**
+**Contoh 6.4 · Mengenali pola**
 
 Tentukan pola setiap langkah: (a) (CH₃)₃C⁺ + H₂O → (CH₃)₃C–OH₂⁺; (b) (CH₃)₃C–OH₂⁺ + H₂O → (CH₃)₃C–OH + H₃O⁺; (c) (CH₃)₂CH–CH⁺–CH₃ → (CH₃)₂C⁺–CH₂CH₃; (d) (CH₃)₃C–Br → (CH₃)₃C⁺ + Br⁻.
 
@@ -204,7 +220,7 @@ Dengan empat pola, kita dapat menyusun mekanisme reaksi yang belum pernah kita l
 Aturan "jangan mencampur" pada langkah 2 sangat penting. Mahasiswa sering menulis mekanisme di dalam asam kuat yang memakai OH⁻ sebagai nukleofil, padahal dalam asam kuat konsentrasi OH⁻ sangat kecil (subbab 3.11). Dalam asam, nukleofilnya adalah molekul netral seperti air atau alkohol, dan proton dilepas oleh molekul air, bukan oleh hidroksida.
 
 ::: {.contoh}
-**Contoh 6.4 · Mekanisme dalam asam: alkohol menjadi alkil bromida**
+**Contoh 6.5 · Mekanisme dalam asam: alkohol menjadi alkil bromida**
 
 2-Metilpropan-2-ol bereaksi dengan HBr pekat menghasilkan 2-bromo-2-metilpropana dan air. Usulkan mekanismenya.
 
@@ -220,7 +236,7 @@ Aturan "jangan mencampur" pada langkah 2 sangat penting. Mahasiswa sering menuli
 :::
 
 ::: {.contoh}
-**Contoh 6.5 · Mekanisme dalam basa: hidrolisis ester**
+**Contoh 6.6 · Mekanisme dalam basa: hidrolisis ester**
 
 Etil asetat bereaksi dengan NaOH menghasilkan ion asetat dan etanol. Usulkan mekanisme yang hanya memakai pola-pola dasar dan tidak melibatkan karbokation.
 

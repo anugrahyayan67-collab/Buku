@@ -8,7 +8,7 @@ Lihat ion asetat, CH₃COO⁻, yang terbentuk ketika asam asetat melepaskan prot
 
 Masalahnya, tidak ada satu struktur Lewis pun yang dapat menggambarkan keadaan ini. Kita dapat menggambar dua struktur yang sama baiknya: yang satu dengan ikatan rangkap ke oksigen kiri, yang lain dengan ikatan rangkap ke oksigen kanan. Keduanya hanya berbeda dalam letak elektron, sedangkan letak semua atom tetap sama.
 
-![Gambar 1.4 Resonansi ion asetat. Dua struktur penyumbang (kiri dan tengah) dihubungkan oleh panah berkepala dua; panah lengkung menunjukkan bagaimana pasangan elektron berpindah dari satu struktur ke struktur lainnya. Kanan: hibrida resonansi, dengan kedua ikatan C–O setara dan muatan negatif terbagi rata (δ−) pada kedua oksigen.](fig/resonansi.png){width=92%}
+![Gambar 1.12 Resonansi ion asetat. Dua struktur penyumbang (kiri dan tengah) dihubungkan oleh panah berkepala dua; panah lengkung menunjukkan bagaimana pasangan elektron berpindah dari satu struktur ke struktur lainnya. Kanan: hibrida resonansi, dengan kedua ikatan C–O setara dan muatan negatif terbagi rata (δ−) pada kedua oksigen.](fig/resonansi.png){width=92%}
 
 ### Struktur penyumbang dan hibrida resonansi
 
@@ -28,7 +28,7 @@ Kestabilan tambahan ini mempunyai akibat yang dapat diukur. Asam asetat (pKa 4,7
 
 Untuk berpindah dari satu struktur penyumbang ke struktur lainnya, kimiawan memakai **panah lengkung**. Panah lengkung menunjukkan pergerakan **sepasang elektron**. Pangkal panah ditempatkan pada sumber elektron, yaitu pasangan bebas atau ikatan. Kepala panah ditempatkan pada tujuan elektron, yaitu sebuah atom atau ruang di antara dua atom tempat ikatan baru terbentuk.
 
-Pada ion asetat (Gambar 1.4), dua panah diperlukan. Panah pertama berpangkal pada pasangan bebas oksigen yang bermuatan negatif dan berujung di antara oksigen itu dan karbon. Artinya, pasangan bebas itu menjadi ikatan π yang baru. Panah kedua berpangkal pada ikatan π C=O yang lama dan berujung pada oksigen lainnya. Artinya, ikatan π yang lama menjadi pasangan bebas pada oksigen itu. Hasilnya adalah struktur penyumbang kedua, dengan muatan negatif berpindah ke oksigen lainnya.
+Pada ion asetat (Gambar 1.12), dua panah diperlukan. Panah pertama berpangkal pada pasangan bebas oksigen yang bermuatan negatif dan berujung di antara oksigen itu dan karbon. Artinya, pasangan bebas itu menjadi ikatan π yang baru. Panah kedua berpangkal pada ikatan π C=O yang lama dan berujung pada oksigen lainnya. Artinya, ikatan π yang lama menjadi pasangan bebas pada oksigen itu. Hasilnya adalah struktur penyumbang kedua, dengan muatan negatif berpindah ke oksigen lainnya.
 
 Panah lengkung adalah alat terpenting dalam kimia organik. Di bab ini kita memakainya untuk resonansi, yaitu memindahkan elektron di atas kerangka atom yang tidak berubah. Mulai Bab 6, panah yang sama dipakai untuk mekanisme reaksi, yaitu menggambarkan bagaimana ikatan putus dan terbentuk ketika molekul bereaksi. Kebiasaan menggambar panah dengan benar sejak sekarang akan sangat menolong di bab-bab berikutnya.
 
@@ -53,6 +53,8 @@ Menggambar struktur penyumbang menjadi jauh lebih mudah bila kita mengenali pola
 5. **Ikatan π terkonjugasi dalam cincin.** Bila ikatan rangkap dua dan ikatan tunggal berselang-seling dalam cincin, seperti dalam benzena, semua ikatan π dapat bergeser bersama-sama mengelilingi cincin. Tiga panah sekaligus.
 
 Pola-pola ini mempunyai satu kesamaan: elektron selalu bergerak ke arah atom yang dapat menerimanya, yaitu atom bermuatan positif, atom yang lebih elektronegatif, atau atom di ujung ikatan π yang dapat melepas ikatan π lamanya. Setiap kali kamu menemukan pasangan bebas, ikatan π, atau muatan positif yang bersebelahan dengan sistem π, tanyakan apakah salah satu dari lima pola itu berlaku.
+
+![Gambar 1.13 Lima pola resonansi dengan panah lengkungnya. (1) Pasangan bebas di samping ikatan π (ion enolat). (2) Pasangan bebas di samping muatan positif. (3) Ikatan π di samping muatan positif (kation alil). (4) Ikatan π antara atom yang berbeda keelektronegatifan (karbonil). (5) Ikatan π terkonjugasi dalam cincin (benzena).](fig/pola.png){width=92%}
 
 ::: {.contoh}
 **Contoh 1.11 · Mengenali pola resonansi**
@@ -132,6 +134,8 @@ Bahkan molekul yang sama sekali tidak polar, seperti metana atau heksana, dapat 
 
 Gaya dispersi bergantung pada dua hal. Pertama, **jumlah elektron**: molekul yang lebih besar mempunyai awan elektron yang lebih besar dan lebih mudah diganggu, sehingga gaya dispersinya lebih kuat. Inilah sebabnya titik didih alkana naik teratur dengan panjang rantai: metana −162 °C, propana −42 °C, butana −0,5 °C, pentana 36 °C. Kedua, **luas permukaan kontak**: molekul yang panjang dan lurus dapat saling menempel di sepanjang rantainya, sedangkan molekul yang bulat hanya bersentuhan di beberapa titik. Ketiga isomer C₅H₁₂ menunjukkan hal ini dengan jelas: pentana yang lurus mendidih pada 36 °C, 2-metilbutana yang bercabang pada 28 °C, dan 2,2-dimetilpropana yang hampir bulat sudah mendidih pada 9,5 °C. Rumus molekulnya sama, massanya sama, tetapi bentuknya berbeda.
 
+![Gambar 1.14 Titik didih alkana dan alkan-1-ol terhadap jumlah atom karbon. Keduanya naik teratur karena gaya dispersi bertambah dengan ukuran molekul. Alkohol selalu jauh lebih tinggi karena ikatan hidrogen; selisihnya mengecil pada rantai panjang karena porsi gaya dispersi makin besar.](fig/didih.png){width=84%}
+
 ### Gaya dipol–dipol
 
 Molekul yang mempunyai momen dipol tetap, seperti aseton atau klorometana, saling tarik dengan ujung δ+ satu molekul menghadap ujung δ− molekul lain. Tarikan tambahan ini disebut **gaya dipol–dipol**. Gaya ini bekerja **di samping** gaya dispersi, bukan menggantikannya. Contohnya, propana (C₃H₈, 44 g mol⁻¹, tidak polar) mendidih pada −42 °C, sedangkan asetaldehida (CH₃CHO, 44 g mol⁻¹, polar) mendidih pada 20 °C. Massanya hampir sama, sehingga gaya dispersinya kira-kira sama. Selisih titik didih sekitar 60 derajat itu berasal dari gaya dipol–dipol.
@@ -145,6 +149,8 @@ Mengapa hidrogen istimewa? Hidrogen hanya mempunyai satu elektron. Ketika elektr
 ### Jawaban teka-teki pembuka
 
 Sekarang kembali ke kedua botol C₂H₆O. Etanol, CH₃CH₂OH, mempunyai ikatan O–H, sehingga setiap molekulnya dapat menjadi donor sekaligus akseptor ikatan hidrogen. Dalam etanol cair, molekul-molekul saling terkait dalam jaringan ikatan hidrogen. Untuk mendidih, jaringan itu harus diputus, dan itu memerlukan banyak energi. Dimetil eter, CH₃OCH₃, juga mempunyai oksigen dengan pasangan bebas, sehingga dapat menjadi akseptor. Namun semua atom hidrogennya terikat pada karbon. Tanpa ikatan O–H, dimetil eter tidak mempunyai donor, sehingga molekul-molekulnya tidak dapat membentuk ikatan hidrogen satu sama lain. Yang tersisa hanyalah gaya dispersi dan gaya dipol–dipol yang lemah. Akibatnya titik didih etanol 78 °C, sedangkan dimetil eter −24 °C. Selisih 102 derajat itu adalah sumbangan ikatan hidrogen.
+
+![Gambar 1.15 Jawaban teka-teki pembuka. Molekul etanol saling terikat lewat ikatan hidrogen O–H···O (garis putus-putus biru), sehingga titik didihnya 78 °C. Dimetil eter tidak mempunyai H pada oksigen, sehingga tidak dapat menjadi donor ikatan hidrogen, dan mendidih pada −24 °C.](fig/ikatanH.png){width=92%}
 
 Hal yang sama menjelaskan perbedaan kimianya. Ikatan O–H etanol dapat diputus oleh logam natrium, menghasilkan gas hidrogen dan natrium etoksida. Dimetil eter tidak mempunyai ikatan O–H, sehingga tidak bereaksi dengan cara itu. Sambungan atom menentukan baik sifat fisika maupun sifat kimia.
 
@@ -165,6 +171,20 @@ Urutkan senyawa berikut dari titik didih terendah ke tertinggi: butana (C₄H₁
 Gagasan yang sama menjelaskan kelarutan. Sebuah zat larut dalam pelarut bila gaya tarik baru antara zat dan pelarut cukup kuat untuk menggantikan gaya tarik yang putus di dalam zat itu dan di dalam pelarutnya. Air membentuk jaringan ikatan hidrogen yang kuat. Molekul yang dapat ikut serta dalam jaringan itu, yaitu molekul dengan gugus O–H atau N–H, atau molekul dengan atom O dan N sebagai akseptor, larut dalam air. Molekul yang tidak dapat ikut serta, seperti hidrokarbon, hanya akan merusak jaringan itu tanpa memberi gantinya. Karena itu hidrokarbon tidak larut dalam air. Aturan praktisnya sering diringkas sebagai **"yang serupa melarutkan yang serupa"**: zat polar larut dalam pelarut polar, zat tidak polar larut dalam pelarut tidak polar.
 
 Dalam molekul organik, kelarutan dalam air adalah hasil tarik-menarik antara bagian yang menyukai air (**hidrofilik**, seperti –OH, –NH₂, –COOH) dan bagian yang tidak menyukai air (**hidrofobik**, yaitu rantai karbon). Metanol, etanol, dan propanol bercampur dengan air dalam perbandingan berapa pun, karena gugus –OH masih mendominasi. Butan-1-ol hanya larut sekitar 7 g per 100 mL air, dan heksan-1-ol kurang dari 1 g per 100 mL. Rantai karbon yang makin panjang makin menutupi pengaruh satu gugus –OH. Sebagai pedoman kasar, satu gugus –OH mampu "membawa" sekitar tiga sampai empat atom karbon ke dalam air.
+
+![Gambar 1.16 Kelarutan alkan-1-ol dalam air pada 20 °C. Tiga alkohol pertama bercampur sempurna dengan air; setelah itu kelarutan turun tajam karena ekor hidrokarbon yang hidrofobik makin panjang, sedangkan kepala –OH tetap satu.](fig/larut.png){width=80%}
+
+::: {.contoh}
+**Contoh 1.15 · Meramalkan kelarutan dalam air**
+
+Urutkan kelarutan dalam air: pentana, butan-1-ol, dietil eter, dan asam propanoat. Keempatnya mempunyai massa molar yang mirip (72–74 g mol⁻¹).
+
+**Rencana.** Bandingkan bagian hidrofilik (gugus yang dapat membentuk ikatan hidrogen dengan air) dan bagian hidrofobik (rantai karbon).
+
+**Penyelesaian.** Pentana tidak mempunyai gugus polar dan tidak dapat membentuk ikatan hidrogen: **paling sukar larut** (sekitar 0,04 g per 100 mL). Dietil eter mempunyai oksigen yang dapat **menerima** ikatan hidrogen dari air, tetapi tidak mempunyai H pada oksigen: sekitar 6–7 g per 100 mL. Butan-1-ol dapat menerima dan memberi ikatan hidrogen, tetapi ekor empat karbonnya cukup besar: sekitar 7,7 g per 100 mL. Asam propanoat mempunyai gugus –COOH dengan dua oksigen dan satu O–H, dan rantainya hanya dua karbon: **bercampur sempurna**. Urutan: pentana < dietil eter ≈ butan-1-ol < asam propanoat.
+
+**Memahami hasil.** Dietil eter dan butan-1-ol hampir sama larutnya meskipun titik didihnya sangat berbeda (35 °C lawan 118 °C). Titik didih ditentukan oleh tarikan antarmolekul zat itu sendiri, sedangkan kelarutan ditentukan oleh tarikan dengan air: eter tidak dapat membentuk ikatan hidrogen dengan sesamanya, tetapi dapat menerima ikatan hidrogen dari air.
+:::
 
 ::: {.terapan}
 **Sabun: satu molekul, dua sifat**

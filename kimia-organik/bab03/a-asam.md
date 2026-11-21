@@ -79,6 +79,8 @@ Urutan menggambar ini sengaja dibuat begitu. Basa yang "menyerang" proton; proto
 Banyak mahasiswa menggambar panah dari H⁺ ke basa, seolah-olah proton yang bergerak menuju basa. Panah lengkung **tidak pernah** berpangkal pada atom hidrogen atau pada muatan positif, karena keduanya tidak membawa pasangan elektron. Panah selalu berpangkal pada pasangan bebas atau ikatan. Bila kamu terbiasa menggambar dengan benar sejak sekarang, mekanisme di Bab 6 sampai 13 akan jauh lebih mudah.
 :::
 
+![Gambar 3.1 Reaksi asam–basa Brønsted sebagai transfer proton. Pasangan elektron bebas oksigen air (basa) menyerang proton HCl (asam); pasangan elektron ikatan H–Cl berpindah ke klorin. Hasilnya ion klorida (basa konjugat) dan ion hidronium (asam konjugat).](fig/transfer.png){width=96%}
+
 ::: {.contoh}
 **Contoh 3.1 · Panah lengkung untuk transfer proton**
 
@@ -131,9 +133,9 @@ Tanda minus dipilih supaya asam yang biasa dijumpai mempunyai pKa positif. Akiba
 
 Karena pKa adalah logaritma, selisih satu satuan pKa berarti selisih **sepuluh kali** dalam Ka. Selisih lima satuan berarti sepuluh pangkat lima, seratus ribu kali. Ini skala yang sama dengan pH, dan logikanya sama: setiap langkah satu satuan adalah satu kali lipat sepuluh.
 
-![Gambar 3.1 Skala pKa golongan senyawa organik yang penting. Asam paling kuat di kiri (pKa kecil atau negatif), paling lemah di kanan. Garis tegak menandai batas air: asam yang lebih kuat daripada H₃O⁺ (pKa −1,7) terionisasi sempurna di dalam air, dan basa konjugat asam yang lebih lemah daripada H₂O (pKa 15,7) tidak dapat bertahan di dalam air.](fig/skala.png){width=96%}
+![Gambar 3.2 Skala pKa golongan senyawa organik yang penting. Asam paling kuat di kiri (pKa kecil atau negatif), paling lemah di kanan. Garis tegak menandai batas air: asam yang lebih kuat daripada H₃O⁺ (pKa −1,7) terionisasi sempurna di dalam air, dan basa konjugat asam yang lebih lemah daripada H₂O (pKa 15,7) tidak dapat bertahan di dalam air.](fig/skala.png){width=96%}
 
-Gambar 3.1 dan Lampiran A memuat nilai pKa yang perlu diketahui. Kamu tidak harus menghafal semua angka, tetapi sebaiknya mengingat beberapa patokan, karena patokan inilah yang dipakai untuk menaksir nilai lainnya:
+Gambar 3.2 dan Lampiran A memuat nilai pKa yang perlu diketahui. Kamu tidak harus menghafal semua angka, tetapi sebaiknya mengingat beberapa patokan, karena patokan inilah yang dipakai untuk menaksir nilai lainnya:
 
 | Golongan | Contoh | pKa kira-kira |
 |---|---|---|
@@ -247,6 +249,8 @@ $$
 Pada 25 °C, $2{,}303 RT = 2{,}303 \times 8{,}314 \times 298{,}15 = 5{,}71$ kJ mol⁻¹. Jadi **setiap satuan pKa bernilai 5,71 kJ mol⁻¹** energi Gibbs. Asam dengan pKa positif mempunyai ΔG° ionisasi positif: ionisasinya "menanjak", sehingga hanya sebagian kecil molekul yang terionisasi. Asam dengan pKa negatif mempunyai ΔG° negatif: ionisasinya "menurun", sehingga hampir semuanya terionisasi.
 
 Persamaan (3.4) memberi makna fisis pada skala pKa. Perbedaan kekuatan asam adalah perbedaan energi. Asam asetat lebih kuat daripada etanol sebesar $16 - 4{,}76 = 11{,}24$ satuan pKa, yang berarti ionisasinya $11{,}24 \times 5{,}71 = 64$ kJ mol⁻¹ lebih mudah. Energi sebesar itu kira-kira setara dengan tiga ikatan hidrogen. Sumbernya, seperti yang akan kita lihat di subbab 3.6, adalah kestabilan tambahan ion asetat karena resonansi.
+
+![Gambar 3.3 Hubungan linear antara Δ*G*° ionisasi dan p*K*ₐ pada 25 °C. Setiap satuan p*K*ₐ setara dengan 5,71 kJ mol⁻¹; asam dengan p*K*ₐ negatif mempunyai Δ*G*° ionisasi negatif.](fig/dG.png){width=78%}
 
 ::: {.contoh}
 **Contoh 3.7 · ΔG° ionisasi asam asetat**

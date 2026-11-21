@@ -1,6 +1,6 @@
 ## 4.7 Ikatan aksial dan ekuatorial; menggambar kursi
 
-Setiap karbon sikloheksana kursi membawa dua atom hidrogen, dan kedua hidrogen itu tidak setara. Satu ikatan C–H mengarah lurus ke atas atau lurus ke bawah, sejajar dengan sumbu tegak cincin. Ikatan ini disebut **aksial** (searah sumbu). Ikatan lainnya mengarah ke luar, kira-kira di sepanjang "khatulistiwa" cincin. Ikatan ini disebut **ekuatorial** (searah khatulistiwa). Jadi ada enam ikatan aksial dan enam ikatan ekuatorial (Gambar 4.4).
+Setiap karbon sikloheksana kursi membawa dua atom hidrogen, dan kedua hidrogen itu tidak setara. Satu ikatan C–H mengarah lurus ke atas atau lurus ke bawah, sejajar dengan sumbu tegak cincin. Ikatan ini disebut **aksial** (searah sumbu). Ikatan lainnya mengarah ke luar, kira-kira di sepanjang "khatulistiwa" cincin. Ikatan ini disebut **ekuatorial** (searah khatulistiwa). Jadi ada enam ikatan aksial dan enam ikatan ekuatorial (Gambar 4.9).
 
 Pola arahnya teratur. Pada karbon yang terangkat ke atas (karbon 1, 3, 5), ikatan aksial mengarah **ke atas**. Pada karbon yang turun ke bawah (karbon 2, 4, 6), ikatan aksial mengarah **ke bawah**. Ikatan ekuatorial selalu sedikit miring ke arah yang berlawanan dengan ikatan aksial pada karbon yang sama. Jadi setiap karbon mempunyai satu ikatan "atas" dan satu ikatan "bawah": pada karbon atas, ikatan atasnya aksial; pada karbon bawah, ikatan atasnya ekuatorial.
 
@@ -56,6 +56,8 @@ Lihat metilsikloheksana dengan gugus metil aksial. Gugus metil mengarah lurus ke
 
 Ada cara lain untuk melihat interaksi yang sama, dan cara ini memberi angkanya. Pandang metilsikloheksana sepanjang ikatan C1–C2 dalam proyeksi Newman. Bila metil aksial, gugus metil dan karbon cincin C3 berada pada susunan **gauche**, sama seperti dua metil pada gauche-butana (subbab 4.3). Hal yang sama terjadi sepanjang ikatan C1–C6 dengan karbon C5. Jadi metil aksial mempunyai **dua interaksi gauche butana**, masing-masing 3,8 kJ mol⁻¹, jumlahnya sekitar 7,6 kJ mol⁻¹. Bila metil ekuatorial, metil itu anti terhadap C3 dan C5: tidak ada interaksi gauche.
 
+![Gambar 4.12 Dua konformer kursi metilsikloheksana. Bila CH₃ aksial, ia berdesakan dengan dua H aksial pada C3 dan C5 (interaksi 1,3-diaksial, garis putus-putus merah). Pembalikan kursi memindahkan CH₃ ke posisi ekuatorial yang menjauhi cincin.](fig/metil.png){width=92%}
+
 ### Nilai A
 
 Selisih energi bebas antara konformer aksial dan ekuatorial sebuah substituen disebut **nilai A**. Makin besar nilai A, makin kuat substituen itu memilih posisi ekuatorial. Nilai A dapat dipakai untuk menghitung perbandingan kedua konformer dengan hubungan kesetimbangan:
@@ -79,6 +81,8 @@ $$
 | –C(CH₃)₃ | ± 20 | ± 4000 | > 99,9 |
 
 Tabel ini memuat beberapa kejutan yang patut dijelaskan. Halogen mempunyai nilai A kecil, walaupun bromin dan klorin adalah atom yang cukup besar. Penyebabnya, ikatan C–Br dan C–Cl panjang, sehingga atom halogen berada jauh dari hidrogen aksial lainnya. Gugus etil hampir sama dengan metil, karena gugus etil dapat berputar sehingga CH₃-nya mengarah ke luar cincin, menjauhi hidrogen aksial. Gugus isopropil sedikit lebih besar, karena salah satu metilnya terpaksa mengarah ke dalam. Gugus *tert*-butil sangat besar, karena salah satu dari tiga metilnya **pasti** mengarah ke dalam cincin dan bertabrakan hebat dengan hidrogen aksial.
+
+![Gambar 4.13 Nilai A beberapa substituen: selisih energi antara konformer aksial dan ekuatorial. Makin besar gugus di dekat cincin, makin besar nilai A; gugus *tert*-butil praktis terkunci di posisi ekuatorial.](fig/nilaiA.png){width=80%}
 
 ::: {.contoh}
 **Contoh 4.8 · Konformer metilsikloheksana**
@@ -142,6 +146,8 @@ Isomer cis lebih stabil, dengan selisih sekitar 7,6 kJ mol⁻¹.
 **Memahami hasil.** Pada kebanyakan alkena, isomer trans lebih stabil daripada cis karena gugus besar berjauhan. Pada sikloheksana, aturan itu tidak berlaku umum: isomer yang lebih stabil adalah isomer yang dapat menempatkan semua gugus besar ekuatorial, dan itu bisa cis atau trans bergantung pada posisinya.
 :::
 
+![Gambar 4.14 Dua konformer kursi *cis*-1,3-dimetilsikloheksana (Contoh 4.10). Konformer e,e bebas interaksi 1,3-diaksial; konformer a,a menempatkan kedua metil berhadapan di sisi yang sama, sehingga hampir tidak ada.](fig/dimetil.png){width=92%}
+
 ::: {.contoh}
 **Contoh 4.11 · Dua substituen yang berbeda ukuran**
 
@@ -175,6 +181,8 @@ Dua cincin sikloheksana dapat menyatu dengan berbagi satu ikatan, membentuk **de
 Bentuknya sangat berbeda. Pada **trans-dekalin**, cincin kedua menempel pada dua ikatan **ekuatorial** dari cincin pertama. Hasilnya molekul yang hampir datar, memanjang, dan kaku. Trans-dekalin **tidak dapat membalik kursi**, karena pembalikan akan memaksa kedua ikatan penghubung menjadi aksial, dan dua ikatan aksial yang berlawanan arah (satu ke atas, satu ke bawah) tidak dapat menjangkau cincin kedua. Pada **cis-dekalin**, cincin kedua menempel pada satu ikatan aksial dan satu ekuatorial. Molekulnya berbentuk tertekuk seperti huruf L, dan masih dapat membalik kursi.
 
 Trans-dekalin sekitar 11 kJ mol⁻¹ lebih stabil daripada cis-dekalin. Selisih ini dapat dihitung dengan harga interaksi: cis-dekalin mempunyai tiga interaksi gauche tambahan di bagian dalam lekukannya, $3 \times 3{,}8 = 11{,}4$ kJ mol⁻¹, yang tidak ada pada trans-dekalin.
+
+![Gambar 4.15 *trans*- dan *cis*-dekalin serta kerangka steroid. Pada *trans*-dekalin kedua H jembatan berseberangan dan cincinnya kaku (tidak dapat membalik); pada *cis*-dekalin keduanya sepihak. Steroid tersusun dari tiga cincin enam dan satu cincin lima yang menyatu secara *trans*.](fig/dekalin.png){width=94%}
 
 ### Steroid
 
@@ -221,6 +229,8 @@ Untuk bahan bakar, yang penting biasanya energi per **gram**, bukan per mol, kar
 | oktana, C₈H₁₈ | 5470 | 114,2 | 47,9 |
 | etanol, C₂H₅OH | 1367 | 46,1 | 29,7 |
 | glukosa, C₆H₁₂O₆ | 2803 | 180,2 | 15,6 |
+
+![Gambar 4.16 Kalor pembakaran per gram beberapa bahan bakar. Alkana menyimpan energi paling banyak per gram di antara senyawa karbon; senyawa yang sudah mengandung oksigen memberi energi lebih sedikit.](fig/bakar.png){width=76%}
 
 Mengapa etanol dan glukosa memberi energi per gram jauh lebih kecil daripada alkana? Karena keduanya sudah mengandung oksigen. Sebagian karbonnya sudah "setengah terbakar", sehingga energi yang tersisa untuk dilepaskan lebih sedikit. Alkana adalah bentuk karbon yang paling tereduksi, sehingga menyimpan energi kimia paling banyak per gram. Itulah sebabnya tubuh menyimpan energi jangka panjang sebagai lemak, yang rantai panjangnya mirip alkana, dan bukan sebagai gula.
 

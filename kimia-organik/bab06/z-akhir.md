@@ -149,7 +149,7 @@ Pakai tabel BDE di subbab 6.6; tambahan: CH₃CH₂–Cl 352, (CH₃)₃C–Br 2
 
 **28.** Mengapa karbokation tidak boleh muncul dalam mekanisme yang berlangsung dalam NaOH pekat?
 
-**29.** [P] Etil asetat dihidrolisis dalam asam encer (H₃O⁺) menjadi asam asetat dan etanol. Usulkan mekanisme dengan pola-pola dasar, dan bandingkan dengan mekanisme dalam basa (Contoh 6.5).
+**29.** [P] Etil asetat dihidrolisis dalam asam encer (H₃O⁺) menjadi asam asetat dan etanol. Usulkan mekanisme dengan pola-pola dasar, dan bandingkan dengan mekanisme dalam basa (Contoh 6.6).
 
 **30.** Mengapa langkah terakhir hidrolisis ester dalam basa membuat reaksi tidak dapat berbalik?
 

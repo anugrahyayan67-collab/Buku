@@ -10,6 +10,8 @@ Bila setiap karbon ujung membawa dua gugus yang **berbeda**, misalnya pada penta
 
 Mengapa alena kiral walaupun tidak mempunyai pusat kiral? Bayangkan sebuah baling-baling dengan dua bilah yang saling tegak lurus, satu di depan dan satu di belakang, dan setiap bilah mempunyai ujung yang berbeda warna. Baling-baling seperti itu dapat dipilin ke kanan atau ke kiri, seperti sekrup, dan kedua pilinan adalah bayangan cermin yang tidak dapat ditumpangkan.
 
+![Gambar 5.11 Sepasang enansiomer 1,3-dikloropropadiena. Ikatan π kedua ikatan rangkap saling tegak lurus, sehingga gugus di ujung kiri berada di bidang kertas sedangkan gugus di ujung kanan berada di bidang tegak lurus. Molekul kiral meskipun tidak mempunyai pusat kiral.](fig/alena.png){width=86%}
+
 ### Biaril dan atropisomer
 
 Dua cincin benzena yang tersambung oleh satu ikatan tunggal (bifenil) biasanya berputar bebas di sekitar ikatan itu. Bila posisi orto kedua cincin diisi gugus yang besar, putaran terhalang, karena gugus-gugus itu bertabrakan ketika kedua cincin melewati bidang yang sama. Kedua cincin terpaksa berdiri miring satu terhadap yang lain. Bila setiap cincin membawa gugus orto yang berbeda, bentuk miring ke kiri dan miring ke kanan adalah enansiomer. Stereoisomer yang muncul karena putaran ikatan tunggal terhalang disebut **atropisomer** (dari bahasa Yunani "tidak berputar").
@@ -46,6 +48,8 @@ Sistem **E/Z** memecahkan kerancuan ini dengan aturan CIP yang sama seperti untu
 
 Cara mengingat: **Z** = "zama sisi". Untuk alkena dengan satu H di setiap karbon, Z biasanya sama dengan cis dan E sama dengan trans, tetapi tidak selalu. Sistem E/Z selalu pasti; sistem cis/trans hanya untuk kasus sederhana.
 
+![Gambar 5.12 Penamaan *E*/*Z*. Pada setiap karbon ikatan rangkap, tentukan gugus berprioritas lebih tinggi menurut aturan CIP; *Z* bila keduanya sepihak, *E* bila berseberangan.](fig/EZ.png){width=96%}
+
 ::: {.contoh}
 **Contoh 5.12 · Menamai E/Z**
 
@@ -70,6 +74,16 @@ Ketika minyak nabati dihidrogenasi sebagian untuk membuat margarin, sebagian ika
 **Kuis cepat 5.11** Tentukan E atau Z untuk ClCH=CHBr dengan Cl dan Br di sisi yang berlawanan. Apakah ini cis atau trans?
 :::
 
+::: {.contoh}
+**Contoh 5.13 · Ketika cis tidak sama dengan Z**
+
+2-Bromobut-2-ena, CH₃CBr=CHCH₃, mempunyai dua gugus metil. Pada salah satu isomernya kedua metil berada di sisi yang sama dari ikatan rangkap. Apakah isomer ini *cis* atau *trans*, dan apakah *E* atau *Z*?
+
+**Penyelesaian.** Menurut letak kedua gugus metil, isomer ini disebut *cis* (kedua metil sepihak). Untuk *E*/*Z*, tentukan prioritas di setiap karbon. Pada C2: Br (nomor atom 35) > CH₃. Pada C3: CH₃ > H. Gugus berprioritas tinggi adalah Br di C2 dan CH₃ di C3. Karena CH₃ di C2 sepihak dengan CH₃ di C3, Br di C2 berseberangan dengan CH₃ di C3. Jadi isomer ini **(*E*)-2-bromobut-2-ena**, meskipun "cis" menurut kedua metilnya.
+
+**Memahami hasil.** Istilah *cis*/*trans* hanya jelas bila setiap karbon ikatan rangkap membawa satu H dan satu gugus lain yang sama di kedua sisi. Sistem *E*/*Z* selalu bekerja karena memakai aturan prioritas CIP, bukan kemiripan gugus. Bila ragu, selalu pakai *E*/*Z*.
+:::
+
 ## 5.12 Resolusi enansiomer
 
 Bila molekul kiral dibuat di laboratorium dari bahan akiral, hasilnya hampir selalu campuran rasemik (subbab 5.5). Untuk obat, kita sering membutuhkan satu enansiomer saja. Bagaimana memisahkannya, padahal kedua enansiomer mempunyai titik didih, kelarutan, dan sifat kromatografi yang sama? Pemisahan enansiomer disebut **resolusi**.
@@ -88,6 +102,8 @@ Kedua garam ini **bukan** enansiomer, karena hanya satu bagian yang terbalik (as
 
 Cara ini, yang ditemukan Louis Pasteur pada 1853, sampai sekarang dipakai di industri. Pereaksi peresolusi yang umum adalah bahan alam kiral yang murah: alkaloid seperti brusina dan kuinina untuk asam, dan asam tartarat atau asam kamforsulfonat untuk basa.
 
+![Gambar 5.13 Resolusi lewat garam diastereomer. Asam rasemik direaksikan dengan amina kiral murni; kedua garam yang terbentuk adalah diastereomer dengan kelarutan berbeda, sehingga dapat dipisahkan dengan kristalisasi. Pengasaman membebaskan masing-masing enansiomer asam.](fig/resolusi.png){width=96%}
+
 ### Kromatografi kiral dan cara lain
 
 Cara modern yang sangat umum adalah **kromatografi kiral**: kolom kromatografi diisi bahan yang permukaannya membawa molekul kiral. Kedua enansiomer membentuk kompleks sementara yang bersifat diastereomer dengan permukaan itu, sehingga melekat dengan kekuatan yang sedikit berbeda dan keluar dari kolom pada waktu yang berbeda. Cara ini dipakai untuk mengukur ee dan untuk memisahkan enansiomer dalam jumlah kecil sampai sedang.
@@ -95,7 +111,7 @@ Cara modern yang sangat umum adalah **kromatografi kiral**: kolom kromatografi d
 Cara lain yang semakin penting adalah **resolusi enzimatis**: enzim, yang kiral, hanya bereaksi dengan satu enansiomer, sehingga enansiomer itu berubah menjadi zat lain dan dapat dipisahkan. Cara yang paling efisien adalah tidak membuat campuran rasemik sama sekali, yaitu **sintesis asimetris** dengan katalis kiral, yang dibahas dalam kimia organik lanjut.
 
 ::: {.contoh}
-**Contoh 5.13 · Mengapa garam diastereomer dapat dipisahkan**
+**Contoh 5.14 · Mengapa garam diastereomer dapat dipisahkan**
 
 Asam (±)-mandelat diresolusi dengan (R)-1-feniletilamina. (a) Tuliskan kedua garam yang terbentuk dan hubungannya. (b) Garam (R,R) kurang larut dalam etanol dan mengkristal. Bagaimana memperoleh (R)-asam mandelat murni? (c) Mengapa resolusi tidak akan berhasil bila amina yang dipakai rasemik?
 
@@ -127,8 +143,10 @@ Mengapa reseptor kiral dapat membedakan enansiomer? Bayangkan sebuah molekul den
 * **Talidomida**: obat penenang yang diresepkan untuk ibu hamil pada akhir 1950-an dijual sebagai campuran rasemik. Salah satu enansiomernya dikaitkan dengan cacat lahir yang parah pada ribuan bayi. Kasus ini mengubah aturan obat di seluruh dunia: sekarang setiap enansiomer obat kiral harus diuji secara terpisah. Yang membuat talidomida lebih rumit, kedua enansiomernya saling berubah di dalam tubuh, sehingga memberikan satu enansiomer murni pun tidak menyelesaikan masalah.
 * **Levodopa**: obat penyakit Parkinson diberikan sebagai L-DOPA (S) murni, karena hanya bentuk itu yang diubah enzim menjadi dopamin di otak.
 
+![Gambar 5.14 Enansiomer dalam kehidupan sehari-hari: dua enansiomer karvon berbau berbeda, hanya (*S*)-ibuprofen yang aktif, dan L-DOPA dipakai sebagai satu enansiomer murni.](fig/obat.png){width=96%}
+
 ::: {.contoh}
-**Contoh 5.14 · Satu enansiomer atau campuran?**
+**Contoh 5.15 · Satu enansiomer atau campuran?**
 
 Sebuah obat rasemik mempunyai dosis 400 mg, dan hanya enansiomer S yang aktif. (a) Berapa mg zat aktif dalam satu dosis? (b) Bila produsen beralih ke enansiomer S murni (ee 99%), berapa dosis yang memberi jumlah zat aktif yang sama? (c) Sebutkan dua keuntungan dan satu tantangan peralihan ini.
 

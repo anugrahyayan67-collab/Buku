@@ -16,6 +16,8 @@ Aturan umumnya mudah diingat: **enansiomer membalik semua pusat kiral; diastereo
 
 Perbedaan ini mempunyai akibat praktis yang sangat besar. Enansiomer mempunyai sifat fisika yang identik (kecuali arah putar cahaya terpolarisasi), karena setiap jarak dan sudut di antara atom-atom yang tidak terikat sama persis pada kedua bayangan cermin. Diastereomer **tidak** demikian. Pada diastereomer, jarak antara gugus-gugus berbeda, sehingga gaya antarmolekul, titik didih, titik leleh, kelarutan, dan bahkan spektrum NMR-nya berbeda. Diastereomer dapat dipisahkan dengan distilasi, kristalisasi, atau kromatografi biasa. Sifat inilah yang dipakai di subbab 5.12 untuk memisahkan enansiomer.
 
+![Gambar 5.6 Empat stereoisomer 2-bromo-3-klorobutana. Pasangan yang berbeda pada kedua pusat adalah enansiomer; pasangan yang berbeda pada satu pusat saja adalah diastereomer.](fig/empat.png){width=80%}
+
 ::: {.contoh}
 **Contoh 5.7 · Efedrina dan pseudoefedrina**
 
@@ -34,13 +36,15 @@ Efedrina dan pseudoefedrina adalah obat pelega hidung dengan rumus C₆H₅CH(OH
 **Kuis cepat 5.6** Berapa stereoisomer yang mungkin untuk 2,3-dibromopentana? Apa hubungan antara (2R,3R) dan (2S,3R)?
 :::
 
+![Gambar 5.7 Efedrina dan pseudoefedrina (Contoh 5.7) berbeda konfigurasi hanya pada C1, sehingga keduanya diastereomer dengan titik leleh yang sangat berbeda.](fig/efedrina.png){width=82%}
+
 ## 5.7 Senyawa meso
 
 Ada kasus ketika rumus 2ⁿ memberi jumlah yang terlalu besar. Lihat asam tartarat, HOOC–CH(OH)–CH(OH)–COOH, zat yang mengendap sebagai kristal di dasar tong anggur. Asam tartarat mempunyai dua pusat kiral, C2 dan C3, sehingga rumus memberi empat stereoisomer. Kenyataannya hanya ada tiga.
 
 Mengapa? Karena kedua pusat kiral mengikat gugus-gugus yang sama: H, OH, COOH, dan sisa molekul yang identik. Akibatnya (2R,3S) dan (2S,3R) ternyata **molekul yang sama**. Bila (2R,3S)-asam tartarat digambar dalam konformasi tindih yang tepat, terlihat ada bidang cermin yang membelah molekul di tengah ikatan C2–C3: setengah atas adalah bayangan cermin setengah bawah. Molekul yang mempunyai bidang cermin internal adalah bayangan cerminnya sendiri, sehingga **akiral**, walaupun mengandung dua pusat kiral. Molekul seperti ini disebut **senyawa meso**.
 
-![Gambar 5.3 Tiga stereoisomer asam tartarat. (R,R) dan (S,S) adalah sepasang enansiomer, kiral dan aktif optik. Bentuk meso (R,S) mempunyai bidang cermin internal (garis putus-putus), sehingga akiral dan tidak aktif optik. Bentuk meso adalah diastereomer dari kedua bentuk lainnya.](fig/tartarat.png){width=92%}
+![Gambar 5.8 Tiga stereoisomer asam tartarat. (R,R) dan (S,S) adalah sepasang enansiomer, kiral dan aktif optik. Bentuk meso (R,S) mempunyai bidang cermin internal (garis putus-putus), sehingga akiral dan tidak aktif optik. Bentuk meso adalah diastereomer dari kedua bentuk lainnya.](fig/tartarat.png){width=92%}
 
 Jadi asam tartarat mempunyai tiga stereoisomer: sepasang enansiomer (R,R) dan (S,S), yang aktif optik, dan satu bentuk meso, yang tidak aktif optik. Bentuk meso adalah diastereomer dari (R,R) dan dari (S,S), sehingga sifat fisikanya berbeda: (R,R) dan (S,S) meleleh pada 170 °C, bentuk meso pada 146 °C.
 
@@ -88,7 +92,7 @@ Dalam **proyeksi Fischer**, setiap pusat kiral digambar sebagai titik potong dua
 
 Cara mengingatnya: proyeksi Fischer seperti melihat seseorang yang **membuka kedua tangannya untuk memeluk** kamu. Kedua tangan (mendatar) mengarah ke depan, kepala dan kaki (tegak) sedikit menjauh ke belakang.
 
-![Gambar 5.4 Proyeksi Fischer (R)-gliseraldehida dan arti tiga dimensinya. Garis mendatar mengarah ke depan (baji tebal); garis tegak mengarah ke belakang (baji putus-putus).](fig/fischer.png){width=72%}
+![Gambar 5.9 Proyeksi Fischer (R)-gliseraldehida dan arti tiga dimensinya. Garis mendatar mengarah ke depan (baji tebal); garis tegak mengarah ke belakang (baji putus-putus).](fig/fischer.png){width=72%}
 
 ### Operasi yang diizinkan dan dilarang
 
@@ -142,6 +146,8 @@ Jadi 1,2-dimetilsikloheksana mempunyai tiga stereoisomer: satu meso (cis) dan se
 ### Kapan cincin tersubstitusi kiral?
 
 Polanya dapat dirangkum: **sikloalkana dengan dua substituen yang sama** pada posisi 1,2 atau 1,3 mempunyai bentuk cis yang meso dan bentuk trans yang kiral. Pada posisi 1,4 sikloheksana, kedua karbon bersubstituen **bukan** pusat kiral (kedua jalur cincin sama), dan baik cis maupun trans akiral; keduanya hanya diastereomer. Bila kedua substituen berbeda, misalnya 1-bromo-2-klorosikloheksana, tidak ada bentuk meso, dan ada empat stereoisomer (dua pasang enansiomer).
+
+![Gambar 5.10 Stereoisomer dimetilsikloheksana. *cis*-1,2 dan *cis*-1,3 mempunyai bidang cermin dalam (meso); *trans*-1,2 dan *trans*-1,3 kiral; kedua isomer 1,4 akiral karena bidang yang melewati C1 dan C4.](fig/dimetil.png){width=90%}
 
 ::: {.contoh}
 **Contoh 5.10 · Stereoisomer dimetilsikloheksana**

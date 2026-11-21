@@ -24,6 +24,8 @@ Basa menerima proton dengan pasangan elektron bebasnya. Jadi kebasaan bergantung
 
 Tabel ini memuat semua faktor yang sudah kita pelajari. Amina alkil adalah basa terkuat yang biasa dijumpai, karena pasangan bebasnya terlokalisasi di orbital sp³ dan gugus alkil sedikit memberi elektron. Piridina lebih lemah karena nitrogennya sp² (faktor orbital). Anilina lebih lemah lagi karena pasangan bebasnya terdelokalisasi ke cincin benzena (faktor resonansi, pola 1). Amida hampir tidak basa sama sekali, karena pasangan bebasnya terdelokalisasi ke oksigen karbonil yang elektronegatif. Pirola paling lemah, karena pasangan bebas nitrogennya merupakan bagian dari enam elektron π aromatik; memprotonasi nitrogen akan merusak aromatisitas (Bab 10).
 
+![Gambar 3.9 Kebasaan amina dan heterosiklik nitrogen, dinyatakan sebagai p*K*ₐ asam konjugatnya (p*K*ₐH). Delokalisasi pasangan bebas (anilina, amida, pirola) dan hibridisasi sp² (piridina) menurunkan kebasaan; resonansi pada asam konjugat (guanidina, imidazola) menaikkannya.](fig/amina.png){width=86%}
+
 ::: {.contoh}
 **Contoh 3.14 · Sikloheksilamina dan anilina**
 
@@ -122,6 +124,8 @@ Asam Lewis yang penting dalam kimia organik biasanya termasuk salah satu jenis b
 
 Jenis terakhir menunjukkan mengapa gagasan Lewis begitu penting. Di Bab 6 kita akan memberi nama baru pada asam dan basa Lewis yang bereaksi dengan karbon: basa Lewis yang menyerang karbon disebut **nukleofil**, dan asam Lewis yang diserang disebut **elektrofil**. Hampir seluruh kimia organik polar adalah reaksi antara nukleofil dan elektrofil, yaitu reaksi asam–basa Lewis.
 
+![Gambar 3.10 Reaksi asam–basa Lewis. Amonia memberikan pasangan elektron bebasnya kepada boron dalam BF₃, yang hanya mempunyai enam elektron valensi, membentuk ikatan koordinasi N→B. Tidak ada proton yang berpindah.](fig/lewis.png){width=94%}
+
 ::: {.contoh}
 **Contoh 3.17 · Panah lengkung untuk reaksi Lewis**
 
@@ -168,7 +172,7 @@ $$
 f_{\text{A}^-} = \frac{[\text{A}^-]}{[\text{HA}] + [\text{A}^-]} = \frac{1}{1 + 10^{\,\text{p}K_\text{a} - \text{pH}}} \qquad \text{(3.6)}
 $$
 
-![Gambar 3.2 Bagian asam yang terionisasi sebagai fungsi pH untuk asam asetat (pKa 4,76), fenol (10,0), dan ion metilamonium (10,6). Pada pH = pKa, tepat setengah terionisasi. Garis tegak menandai pH lambung (1,5), pH darah (7,4), dan pH larutan NaHCO₃ (8,3).](fig/fraksi.png){width=86%}
+![Gambar 3.11 Bagian asam yang terionisasi sebagai fungsi pH untuk asam asetat (pKa 4,76), fenol (10,0), dan ion metilamonium (10,6). Pada pH = pKa, tepat setengah terionisasi. Garis tegak menandai pH lambung (1,5), pH darah (7,4), dan pH larutan NaHCO₃ (8,3).](fig/fraksi.png){width=86%}
 
 ::: {.contoh}
 **Contoh 3.18 · Aspirin di lambung dan di darah**
@@ -196,7 +200,7 @@ Bentuk netral dapat menembus membran, karena bagian dalam membran adalah lapisan
 
 Gagasan yang sama dipakai di laboratorium untuk memisahkan campuran. Molekul organik netral biasanya lebih larut dalam pelarut organik (eter, diklorometana) daripada dalam air. Molekul organik yang bermuatan (ion karboksilat, ion fenoksida, ion amonium) jauh lebih larut dalam air. Dengan mengubah pH lapisan air, kita dapat memindahkan satu komponen campuran dari lapisan organik ke lapisan air, sementara komponen lainnya tetap di lapisan organik.
 
-![Gambar 3.3 Skema ekstraksi asam–basa untuk memisahkan asam benzoat, fenol, anilina, dan naftalena yang terlarut dalam eter. Setiap langkah mengubah satu komponen menjadi ion yang pindah ke lapisan air; komponen itu diperoleh kembali dengan mengubah pH lapisan air.](fig/ekstraksi.png){width=96%}
+![Gambar 3.12 Skema ekstraksi asam–basa untuk memisahkan asam benzoat, fenol, anilina, dan naftalena yang terlarut dalam eter. Setiap langkah mengubah satu komponen menjadi ion yang pindah ke lapisan air; komponen itu diperoleh kembali dengan mengubah pH lapisan air.](fig/ekstraksi.png){width=96%}
 
 ::: {.contoh}
 **Contoh 3.19 · Merancang ekstraksi empat komponen**

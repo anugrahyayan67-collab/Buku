@@ -42,7 +42,7 @@ Usulkan mekanisme 2-metilpropan-2-ol + HCl → 2-kloro-2-metilpropana + H₂O. |
 Usulkan mekanisme hidrasi 2-metilpropena dalam H₂SO₄ encer menjadi 2-metilpropan-2-ol. ||| π menyerang H⁺ (karbokation tersier); H₂O menyerang; transfer proton ke H₂O
 Mengapa OH⁻ tidak boleh muncul dalam mekanisme yang berlangsung dalam H₂SO₄ pekat? ||| konsentrasi OH⁻ sangat kecil dalam asam kuat
 Mengapa karbokation tidak boleh muncul dalam mekanisme yang berlangsung dalam NaOH pekat? ||| karbokation langsung bereaksi; kondisi basa menghasilkan intermediet netral/negatif
-@mekan [P] Etil asetat dihidrolisis dalam asam encer (H₃O⁺) menjadi asam asetat dan etanol. Usulkan mekanisme dengan pola-pola dasar, dan bandingkan dengan mekanisme dalam basa (Contoh 6.5). ||| protonasi O karbonil; H₂O menyerang C; transfer proton; lepas etanol; deprotonasi
+@mekan [P] Etil asetat dihidrolisis dalam asam encer (H₃O⁺) menjadi asam asetat dan etanol. Usulkan mekanisme dengan pola-pola dasar, dan bandingkan dengan mekanisme dalam basa (Contoh 6.6). ||| protonasi O karbonil; H₂O menyerang C; transfer proton; lepas etanol; deprotonasi
 Mengapa langkah terakhir hidrolisis ester dalam basa membuat reaksi tidak dapat berbalik? ||| transfer proton asam asetat ke etoksida, K ± 10¹¹
 
 ## Subbab 6.6: Termodinamika reaksi: ΔH°, ΔS°, ΔG°, dan energi disosiasi ikatan

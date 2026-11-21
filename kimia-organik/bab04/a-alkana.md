@@ -56,6 +56,8 @@ Alkana adalah hidrokarbon yang hanya mengandung ikatan tunggal. Sumber utamanya 
 
 Mengapa minyak bumi dapat dipisahkan dengan cara sesederhana ini? Karena titik didih alkana hampir sepenuhnya ditentukan oleh jumlah karbonnya. Alkana tidak polar dan tidak mempunyai ikatan hidrogen, sehingga satu-satunya gaya antarmolekulnya adalah gaya dispersi London (subbab 1.9). Gaya dispersi bertambah dengan ukuran molekul, sehingga titik didih naik teratur dengan panjang rantai, sekitar 20–30 derajat untuk setiap CH₂ tambahan pada alkana kecil.
 
+![Gambar 4.1 Titik didih dan titik leleh alkana rantai lurus C₁–C₁₀. Titik didih naik teratur karena gaya dispersi bertambah dengan panjang rantai; titik leleh naik secara bergerigi karena rantai dengan jumlah karbon genap terkemas lebih rapi dalam kristal. Alkana C₁–C₄ berupa gas pada suhu kamar, C₅–C₁₇ cair.](fig/sifat.png){width=80%}
+
 ### Sifat fisika yang lain
 
 Tiga sifat fisika alkana lainnya dapat dijelaskan dengan gagasan yang sama:
@@ -67,6 +69,8 @@ Tiga sifat fisika alkana lainnya dapat dijelaskan dengan gagasan yang sama:
 ### Pengaruh percabangan
 
 Di subbab 1.9 kita melihat bahwa percabangan menurunkan titik didih: pentana (36 °C), 2-metilbutana (28 °C), 2,2-dimetilpropana (9,5 °C). Molekul yang lebih bulat mempunyai luas permukaan kontak yang lebih kecil, sehingga gaya dispersinya lebih lemah. Titik leleh tidak selalu mengikuti pola yang sama. 2,2-Dimetilpropana justru meleleh pada −16 °C, jauh di atas pentana (−130 °C). Molekul yang sangat simetris dapat tersusun rapi dalam kisi kristal, sehingga lebih sulit dilelehkan. Titik leleh bergantung pada seberapa baik molekul **tersusun** dalam padatan, sedangkan titik didih bergantung pada seberapa kuat molekul **saling menempel** dalam cairan.
+
+![Gambar 4.2 Tiga isomer C₅H₁₂. Percabangan membuat molekul lebih bulat dan memperkecil luas permukaan yang dapat bersentuhan dengan molekul tetangga, sehingga gaya dispersi melemah dan titik didih turun.](fig/cabang.png){width=86%}
 
 ::: {.contoh}
 **Contoh 4.1 · Membandingkan titik didih dan titik leleh**
@@ -96,7 +100,9 @@ Untuk membandingkan konformasi, kita perlu cara menggambar yang memperlihatkan l
 
 **Proyeksi Newman** menggambar molekul dengan memandang **lurus sepanjang ikatan C–C**. Karbon depan digambar sebagai titik, dengan tiga ikatan yang bertemu di pusat. Karbon belakang tertutup oleh karbon depan, sehingga digambar sebagai lingkaran, dan ketiga ikatannya muncul dari pinggir lingkaran. Proyeksi Newman sangat berguna karena sudut di antara ikatan depan dan ikatan belakang langsung terlihat. Sudut ini disebut **sudut torsi** atau **sudut dihedral**.
 
-![Gambar 4.1 Proyeksi Newman etana. Kiri: konformasi goyang (staggered), sudut torsi H–C–C–H 60°; setiap ikatan belakang berada di antara dua ikatan depan. Kanan: konformasi tindih (eclipsed), sudut torsi 0°; ikatan belakang digambar sedikit bergeser supaya terlihat.](fig/newman.png){width=80%}
+![Gambar 4.3 Proyeksi Newman etana. Kiri: konformasi goyang (staggered), sudut torsi H–C–C–H 60°; setiap ikatan belakang berada di antara dua ikatan depan. Kanan: konformasi tindih (eclipsed), sudut torsi 0°; ikatan belakang digambar sedikit bergeser supaya terlihat.](fig/newman.png){width=80%}
+
+![Gambar 4.4 Proyeksi kuda-kuda etana. Ikatan C–C digambar miring sehingga kedua karbon dan keenam ikatan C–H terlihat dari samping. Kiri: konformasi goyang; kanan: konformasi tindih (H belakang digeser sedikit agar terlihat).](fig/kuda.png){width=72%}
 
 ### Goyang dan tindih
 
@@ -161,7 +167,9 @@ Butana memberi gambaran yang lebih kaya. Pandang butana sepanjang ikatan C2–C3
 
 Setelah itu urutannya berulang dalam arah sebaliknya: gauche lagi (300°), tindih H/CH₃ lagi (240°), dan kembali ke anti.
 
-![Gambar 4.2 Energi konformasi terhadap sudut torsi. Atas: etana, tiga puncak setara (12 kJ mol⁻¹). Bawah: butana sepanjang ikatan C2–C3, dengan anti (0) di 180°, dua gauche (3,8), dua tindih H/CH₃ (16), dan satu tindih CH₃/CH₃ (19 kJ mol⁻¹) di 0°.](fig/putar.png){width=82%}
+![Gambar 4.5 Energi konformasi terhadap sudut torsi. Atas: etana, tiga puncak setara (12 kJ mol⁻¹). Bawah: butana sepanjang ikatan C2–C3, dengan anti (0) di 180°, dua gauche (3,8), dua tindih H/CH₃ (16), dan satu tindih CH₃/CH₃ (19 kJ mol⁻¹) di 0°.](fig/putar.png){width=82%}
+
+![Gambar 4.6 Proyeksi Newman empat konformasi butana sepanjang ikatan C2–C3, dengan energi relatifnya (kJ mol⁻¹). Gugus metil depan berwarna biru tua, gugus belakang jingga.](fig/newmanbutana.png){width=96%}
 
 ::: {.contoh}
 **Contoh 4.3 · Berapa persen butana dalam bentuk anti?**

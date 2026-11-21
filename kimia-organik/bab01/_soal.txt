@@ -33,7 +33,7 @@ Bandingkan muatan formal dan bilangan oksidasi karbon dalam CH₃OH. ||| muatan 
 
 Tulis rumus kondensasi untuk 2-metilbutana dan pentan-2-ol. ||| CH₃CH(CH₃)CH₂CH₃; CH₃CH(OH)CH₂CH₂CH₃
 Berapa atom hidrogen pada setiap karbon dalam rumus garis sikloheksana? ||| dua (setiap karbon CH₂)
-@garis [P] Tentukan rumus molekul isopentil asetat dan heksan-1-ol dari rumus garisnya (Gambar 1.1). ||| C₇H₁₄O₂; C₆H₁₄O
+@garis [P] Tentukan rumus molekul isopentil asetat dan heksan-1-ol dari rumus garisnya (Gambar 1.4). ||| C₇H₁₄O₂; C₆H₁₄O
 Hitung derajat ketidakjenuhan: (a) C₈H₁₀; (b) C₅H₈; (c) C₆H₁₂O; (d) C₄H₉N. ||| (a) 4; (b) 2; (c) 1; (d) 1
 Hitung derajat ketidakjenuhan bromobenzena (C₆H₅Br) dan sebuah senyawa C₇H₇NO₂. ||| 4; 5
 Kolesterol berumus C₂₇H₄₆O dan mempunyai satu ikatan C=C. Berapa cincin yang dimilikinya? ||| derajat 5; jadi 4 cincin

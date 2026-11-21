@@ -98,7 +98,7 @@ Hitung persentase 1-halopropana dan 2-halopropana pada klorinasi dan brominasi r
 
 *Brominasi:* primer $6 \times 1 = 6$; sekunder $2 \times 82 = 164$. Jumlah 170. 1-Bromopropana $6/170 = 3{,}5\%$; 2-bromopropana $96{,}5\%$.
 
-**Memahami hasil.** Klorinasi memberi campuran yang hampir 1:1, sehingga tidak berguna untuk membuat satu produk. Brominasi memberi hampir hanya satu produk. Contoh 6.b4 menjelaskan sebabnya dengan postulat Hammond: langkah propagasi brominasi sangat endoterm, sehingga keadaan transisinya mirip radikal dan "merasakan" perbedaan kestabilan radikal sekunder dan primer sepenuhnya.
+**Memahami hasil.** Klorinasi memberi campuran yang hampir 1:1, sehingga tidak berguna untuk membuat satu produk. Brominasi memberi hampir hanya satu produk. Contoh 6.11 menjelaskan sebabnya dengan postulat Hammond: langkah propagasi brominasi sangat endoterm, sehingga keadaan transisinya mirip radikal dan "merasakan" perbedaan kestabilan radikal sekunder dan primer sepenuhnya.
 :::
 
 ::: {.contoh}

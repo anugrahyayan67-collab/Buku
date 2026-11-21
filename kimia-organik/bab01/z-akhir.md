@@ -129,7 +129,7 @@ Keelektronegatifan Pauling: H 2,20; C 2,55; N 3,04; O 3,44; F 3,98; Cl 3,16; Br 
 
 **22.** Berapa atom hidrogen pada setiap karbon dalam rumus garis sikloheksana?
 
-**23.** [P] Tentukan rumus molekul isopentil asetat dan heksan-1-ol dari rumus garisnya (Gambar 1.1).
+**23.** [P] Tentukan rumus molekul isopentil asetat dan heksan-1-ol dari rumus garisnya (Gambar 1.4).
 
 **24.** Hitung derajat ketidakjenuhan: (a) C₈H₁₀; (b) C₅H₈; (c) C₆H₁₂O; (d) C₄H₉N.
 

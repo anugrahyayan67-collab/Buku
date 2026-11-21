@@ -39,6 +39,8 @@ Dua alkena yang sering muncul mempunyai nama gugus khusus: CH₂=CH– disebut *
 **Kuis cepat 2.5** Gambar struktur but-1-ena, but-2-una, dan 3-metilbut-1-ena. Mengapa nama "2-metilbut-3-ena" salah?
 :::
 
+![Gambar 2.9 Penomoran alkena dan alkuna (Contoh 2.8). Rantai dinomori dari ujung yang memberi nomor terkecil pada ikatan rangkap, bukan pada cabang.](fig/alkena.png){width=92%}
+
 ## 2.6 Senyawa dengan gugus fungsi: prioritas dan akhiran
 
 Sekarang kita sampai pada senyawa yang mengandung gugus fungsi selain ikatan rangkap. Prinsipnya tetap sama: akar menyatakan jumlah karbon rantai induk, akhiran menyatakan gugus fungsi utama, dan awalan menyatakan semua hal lain. Masalah baru muncul ketika satu molekul mengandung beberapa gugus fungsi. Nama hanya mempunyai satu akhiran. Gugus mana yang mendapat akhiran?
@@ -59,6 +61,8 @@ IUPAC menyusun gugus fungsi menurut **urutan prioritas**. Gugus dengan prioritas
 | 8 | amina | -amina | amino- |
 | — | alkena, alkuna | -ena, -una | (dalam akar) |
 | hanya awalan | eter, halogen, nitro | — | alkoksi-, fluoro-, kloro-, bromo-, iodo-, nitro- |
+
+![Gambar 2.10 Urutan prioritas gugus fungsi dalam tata nama IUPAC. Gugus dengan prioritas tertinggi menjadi gugus utama yang menentukan akhiran nama; gugus lain ditulis sebagai awalan.](fig/prioritas.png){width=78%}
 
 Baris terakhir penting. Halogen, gugus nitro, dan gugus alkoksi (eter) **tidak pernah** mendapat akhiran. Mereka selalu ditulis sebagai awalan, sama seperti cabang alkil, dan diurutkan menurut abjad bersama cabang alkil. Itulah sebabnya CH₃CH₂Br bernama bromoetana dan CH₃OCH₂CH₃ bernama metoksietana.
 
@@ -90,7 +94,7 @@ Namai (a) CH₃CH=CHCH(OH)CH₃; (b) CH₃COCH₂CH(OH)CH₃; (c) ClCH₂CH₂CH
 **Memahami hasil.** Dalam setiap nama, urutannya selalu: awalan (menurut abjad) + akar + ikatan rangkap + akhiran gugus utama. Bila kamu membaca nama dari kiri ke kanan, kamu mendapat daftar lengkap isi molekul.
 :::
 
-![Gambar 2.2 Beberapa senyawa dengan gugus fungsi dan nama IUPAC-nya. Gugus utama, yang menentukan akhiran nama, diberi warna; gugus lain disebut sebagai awalan.](fig/contoh.png){width=95%}
+![Gambar 2.11 Beberapa senyawa dengan gugus fungsi dan nama IUPAC-nya. Gugus utama, yang menentukan akhiran nama, diberi warna; gugus lain disebut sebagai awalan.](fig/contoh.png){width=95%}
 
 ::: {.contoh}
 **Contoh 2.10 · Senyawa dengan tiga gugus fungsi**
@@ -109,6 +113,16 @@ Namai HOCH₂CH₂CH(NH₂)CHO.
 Haloalkana dinamai sebagai alkana dengan awalan halogen: fluoro-, kloro-, bromo-, iodo-. Halogen diperlakukan persis seperti cabang alkil, diurutkan menurut abjad bersama cabang lainnya, dan mendapat nomor menurut aturan nomor terkecil yang sama. Contohnya CH₃CHBrCH(CH₃)₂ bernama 2-bromo-3-metilbutana. Penomoran dari kiri memberi {2, 3}; dari kanan juga {2, 3}; abjad memberi bromo nomor 2.
 
 Eter dinamai dengan menganggap satu bagian sebagai alkana induk (bagian yang lebih panjang) dan bagian lainnya, bersama oksigennya, sebagai awalan **alkoksi**: metoksi (CH₃O–), etoksi (CH₃CH₂O–), propoksi, isopropoksi. Jadi CH₃OCH₂CH₂CH₃ adalah 1-metoksipropana, dan (CH₃)₃COCH₃ adalah 2-metoksi-2-metilpropana, zat aditif bensin yang dikenal dengan singkatan MTBE. Eter siklik mempunyai nama khusus: oksirana (cincin tiga, disebut juga epoksida, Bab 9) dan oksolana, yang lebih dikenal sebagai tetrahidrofuran (THF), pelarut yang sangat banyak dipakai di laboratorium organik.
+
+::: {.contoh}
+**Contoh 2.11 · Menamai haloalkana dan eter**
+
+Namai (a) CH₃CHClCH₂CH(CH₃)CH₃; (b) BrCH₂CH₂CH₂OCH₂CH₃; (c) (CH₃)₂CHOCH₃.
+
+**Penyelesaian.** (a) Rantai lima karbon. Cabang: kloro dan metil. Dari kiri, kloro di C2 dan metil di C4: {2, 4}. Dari kanan, metil di C2 dan kloro di C4: {2, 4}. Himpunannya sama, sehingga abjad memutuskan: kloro (k) mendahului metil (m) dan mendapat nomor terkecil. Nama: **2-kloro-4-metilpentana**. (b) Bagian yang lebih panjang adalah rantai tiga karbon yang membawa Br; bagian etil bersama oksigennya menjadi awalan etoksi. Nomor dari ujung yang memberi nomor terkecil pada cabang: bromo dan etoksi di C1 dan C3. Abjad: bromo (b) sebelum etoksi (e), sehingga bromo di C1. Nama: **1-bromo-3-etoksipropana**. (c) Bagian terpanjang adalah isopropil (tiga karbon); metil bersama oksigen menjadi metoksi. Nama: **2-metoksipropana** (nama umum: isopropil metil eter).
+
+**Memahami hasil.** Halogen dan gugus alkoksi tidak pernah menjadi akhiran; keduanya diperlakukan persis seperti cabang alkil. Karena itu aturan "himpunan nomor terkecil dulu, baru abjad" berlaku sama.
+:::
 
 ### Alkohol dengan lebih dari satu gugus –OH
 
@@ -147,7 +161,7 @@ Bila gugus utama terikat pada cincin, ada dua kemungkinan. Bila atom gugus fungs
 Bila karbon gugus fungsi berada **di luar** cincin, seperti –CHO atau –COOH yang menempel pada cincin, karbon itu tidak dapat menjadi bagian dari nama cincin. Untuk kasus ini IUPAC memakai akhiran khusus: **-karbaldehida** untuk –CHO dan **asam …-karboksilat** untuk –COOH. Contohnya C₆H₁₁CHO adalah sikloheksanakarbaldehida, dan C₆H₁₁COOH adalah asam sikloheksanakarboksilat.
 
 ::: {.contoh}
-**Contoh 2.11 · Amina, ester, dan amida**
+**Contoh 2.12 · Amina, ester, dan amida**
 
 Namai (a) (CH₃CH₂)₂NH; (b) CH₃CH₂COOCH(CH₃)₂; (c) HCON(CH₃)₂; (d) 3-metilsikloheksanon (gambar dan periksa namanya).
 
@@ -195,6 +209,16 @@ Ada pola dalam nama umum yang membantu mengingatnya. Akar "form-" berarti satu k
 
 Nama umum juga dipakai untuk gugus fungsi dengan cara lain, yaitu **nama gugus + golongan**. Dalam sistem ini CH₃CH₂OH disebut etil alkohol, CH₃CH₂Cl etil klorida, dan CH₃COCH₂CH₃ etil metil keton (gugus diurutkan menurut abjad). Cara ini praktis untuk molekul kecil, tetapi tidak dapat diperluas ke molekul yang rumit.
 
+::: {.contoh}
+**Contoh 2.13 · Dari nama umum ke nama IUPAC**
+
+Tuliskan struktur dan nama IUPAC untuk (a) isobutil alkohol; (b) etil metil keton; (c) metil propionat; (d) *sec*-butil bromida.
+
+**Penyelesaian.** (a) Gugus isobutil, (CH₃)₂CHCH₂–, dengan –OH: (CH₃)₂CHCH₂OH. Rantai terpanjang yang memuat C–OH: tiga karbon, metil di C2. Nama: **2-metilpropan-1-ol**. (b) Keton dengan gugus etil dan metil: CH₃COCH₂CH₃. Nama: **butan-2-on** (atau butanon). (c) Ester dari asam propionat (CH₃CH₂COOH, asam propanoat) dan metanol: CH₃CH₂COOCH₃. Nama: **metil propanoat**. (d) Gugus *sec*-butil, CH₃CH₂CH(CH₃)–, dengan Br: CH₃CH₂CHBrCH₃. Nama: **2-bromobutana**.
+
+**Memahami hasil.** Nama gugus + golongan (isobutil alkohol, *sec*-butil bromida) masih sering dipakai di katalog bahan kimia. Kunci menerjemahkannya adalah mengenali gugus alkil umum (Gambar 2.3): isopropil, isobutil, *sec*-butil, dan *tert*-butil.
+:::
+
 ::: {.terapan}
 **Nama dagang, nama generik, dan nama IUPAC**
 
@@ -224,6 +248,8 @@ Benzena dengan satu substituen dinamai dengan menambahkan awalan pada kata "benz
 | stirena | C₆H₅CH=CH₂ | etenilbenzena |
 | asetofenon | C₆H₅COCH₃ | 1-feniletanon |
 
+![Gambar 2.12 Turunan benzena bersubstituen tunggal yang mempunyai nama umum yang diterima IUPAC.](fig/benzena.png){width=88%}
+
 Bila cincin benzena sendiri menjadi cabang pada molekul lain, gugus C₆H₅– disebut **fenil** (disingkat Ph), dan gugus C₆H₅CH₂– disebut **benzil**. Jangan keliru: benzil mempunyai satu karbon tambahan di antara cincin dan titik tempelnya.
 
 ### Dua substituen: orto, meta, para
@@ -236,12 +262,14 @@ Pada benzena dengan dua substituen, ada tiga kemungkinan letak relatif: bersebel
 
 Jadi 1,2-dimetilbenzena disebut juga *o*-xilena, dan 1,4-diklorobenzena disebut *p*-diklorobenzena (kamper yang dipakai di lemari pakaian). Bila salah satu substituen mempunyai nama khusus bersama cincin (toluena, fenol, anilina, asam benzoat), nama khusus itu menjadi induk dan substituen itu otomatis di posisi 1: *p*-nitrofenol, *m*-kloroanilina.
 
+![Gambar 2.13 Letak relatif dua substituen pada cincin benzena: *orto* (1,2), *meta* (1,3), dan *para* (1,4).](fig/omp.png){width=94%}
+
 ### Tiga substituen atau lebih
 
 Untuk tiga substituen atau lebih, istilah orto, meta, dan para tidak cukup, sehingga dipakai angka. Cincin dinomori sehingga substituen mendapat nomor sekecil mungkin. Bila ada nama induk khusus (fenol, anilina, asam benzoat), gugusnya menjadi C1. Contohnya 2,4,6-trinitrotoluena (TNT): metil di C1, tiga nitro di C2, C4, dan C6.
 
 ::: {.contoh}
-**Contoh 2.12 · Menamai turunan benzena**
+**Contoh 2.14 · Menamai turunan benzena**
 
 Namai (a) benzena dengan –Br dan –Cl di posisi 1,3; (b) fenol dengan –NO₂ di posisi 4; (c) benzena dengan dua –CH₃ di posisi 1,2 dan satu –Br di posisi 4; (d) C₆H₅CH₂OH.
 
@@ -278,7 +306,7 @@ Menamai struktur hanyalah separuh keterampilan. Separuh lainnya adalah membaca n
 Langkah 6 sering dilewatkan, padahal langkah itu menangkap nama yang tidak sesuai aturan. Nama "2-etilbutana" dapat digambar tanpa masalah, tetapi ketika strukturnya dinamai kembali, hasilnya 3-metilpentana (Contoh 2.4). Nama yang salah tetap dapat menunjuk sebuah struktur, tetapi bukan dengan nama resminya.
 
 ::: {.contoh}
-**Contoh 2.13 · Menggambar dari nama**
+**Contoh 2.15 · Menggambar dari nama**
 
 Gambar struktur 4-etil-2,2-dimetilheks-5-en-3-on dan tentukan rumus molekulnya.
 

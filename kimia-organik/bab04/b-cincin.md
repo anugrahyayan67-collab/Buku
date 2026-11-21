@@ -22,9 +22,9 @@ dengan $\Delta H_\text{c}$ besaran kalor pembakaran (positif, dalam kJ mol⁻¹)
 | sikloheksana | 6 | 3952 | 658,7 | 0 |
 | sikloheptana | 7 | 4637 | 662,4 | 27 |
 
-![Gambar 4.3 Tegangan cincin sikloalkana menurut ukuran cincin. Cincin tiga dan empat sangat tegang; cincin enam bebas tegangan; cincin sedang (8–11) kembali sedikit tegang karena atom hidrogen di dalam cincin saling berdesakan.](fig/tegangan.png){width=74%}
+![Gambar 4.7 Tegangan cincin sikloalkana menurut ukuran cincin. Cincin tiga dan empat sangat tegang; cincin enam bebas tegangan; cincin sedang (8–11) kembali sedikit tegang karena atom hidrogen di dalam cincin saling berdesakan.](fig/tegangan.png){width=74%}
 
-Tabel dan Gambar 4.3 menunjukkan dua hal. Pertama, siklopropana dan siklobutana memang sangat tegang, seperti ramalan Baeyer. Kedua, sikloheksana **sama sekali tidak tegang**, bertentangan dengan ramalan Baeyer bahwa cincin enam datar bersudut 120°. Pertentangan ini hanya dapat dijelaskan bila sikloheksana **tidak datar**. Subbab 4.6 menunjukkan bentuk yang sebenarnya.
+Tabel dan Gambar 4.7 menunjukkan dua hal. Pertama, siklopropana dan siklobutana memang sangat tegang, seperti ramalan Baeyer. Kedua, sikloheksana **sama sekali tidak tegang**, bertentangan dengan ramalan Baeyer bahwa cincin enam datar bersudut 120°. Pertentangan ini hanya dapat dijelaskan bila sikloheksana **tidak datar**. Subbab 4.6 menunjukkan bentuk yang sebenarnya.
 
 ::: {.contoh}
 **Contoh 4.4 · Tegangan siklobutana dari kalor pembakaran**
@@ -66,6 +66,8 @@ Bila siklobutana datar, sudutnya 90° dan delapan ikatan C–H bertindih. Siklob
 
 ### Siklopentana: amplop
 
+![Gambar 4.8 Bentuk cincin kecil. Siklopropana harus datar: orbitalnya bertumpang tindih di luar garis antarinti (ikatan "pisang") dan semua C–H bertindih. Siklobutana melipat sekitar 25° dan siklopentana membentuk amplop untuk mengurangi tegangan torsi.](fig/cincinkecil.png){width=94%}
+
 Segi lima datar mempunyai sudut 108°, sangat dekat dengan 109,5°. Kalau datar, siklopentana hampir tidak mempunyai tegangan sudut, tetapi sepuluh ikatan C–H-nya akan bertindih, menimbulkan tegangan torsi sekitar 40 kJ mol⁻¹. Siklopentana mengurangi tegangan torsi itu dengan mengangkat satu karbon keluar dari bidang empat karbon lainnya, membentuk bentuk **amplop** (seperti amplop yang tutupnya setengah terbuka). Tegangan yang tersisa sekitar 27 kJ mol⁻¹. Karbon yang terangkat terus berganti-ganti, sehingga lipatan itu "berjalan" mengelilingi cincin dengan sangat cepat.
 
 ::: {.contoh}
@@ -95,7 +97,7 @@ Bayangkan enam karbon sikloheksana bergantian naik dan turun: karbon 1, 3, dan 5
 
 Tanpa tegangan sudut, tanpa tegangan torsi, dan tanpa atom yang berdesakan, sikloheksana kursi benar-benar bebas tegangan. Inilah sebabnya cincin enam begitu umum di alam: gula, steroid, terpena, dan banyak obat dibangun dari cincin enam.
 
-![Gambar 4.4 Sikloheksana kursi. Kiri: enam ikatan aksial (biru), sejajar dengan sumbu tegak cincin, bergantian ke atas dan ke bawah. Kanan: enam ikatan ekuatorial (jingga), mengarah ke samping, sedikit ke atas atau ke bawah. Setiap karbon mempunyai satu ikatan aksial dan satu ikatan ekuatorial.](fig/kursi.png){width=90%}
+![Gambar 4.9 Sikloheksana kursi. Kiri: enam ikatan aksial (biru), sejajar dengan sumbu tegak cincin, bergantian ke atas dan ke bawah. Kanan: enam ikatan ekuatorial (jingga), mengarah ke samping, sedikit ke atas atau ke bawah. Setiap karbon mempunyai satu ikatan aksial dan satu ikatan ekuatorial.](fig/kursi.png){width=90%}
 
 ### Bentuk perahu dan putar-perahu
 
@@ -103,11 +105,13 @@ Sikloheksana juga dapat melipat menjadi bentuk **perahu**, dengan karbon 1 dan 4
 
 Bentuk perahu dapat sedikit memuntir diri untuk mengurangi kedua masalah itu, menjadi bentuk **putar-perahu** (*twist-boat*) yang sekitar 23 kJ mol⁻¹ di atas kursi. Bentuk putar-perahu adalah lembah energi yang dangkal, sedangkan perahu adalah puncak kecil di antara dua putar-perahu.
 
+![Gambar 4.10 Kursi dan perahu. Pada kursi semua ikatan pada karbon bertetangga goyang. Pada perahu, empat pasang ikatan di sisi bertindih dan dua H "tiang bendera" di ujung saling berdesakan, sehingga perahu sekitar 29 kJ mol⁻¹ kurang stabil.](fig/perahu.png){width=88%}
+
 ### Pembalikan kursi
 
 Sikloheksana dapat berubah dari satu bentuk kursi ke bentuk kursi lainnya. Satu ujung kursi yang terangkat turun, dan ujung yang turun terangkat. Perubahan ini disebut **pembalikan kursi** (*ring flip*). Jalannya melewati bentuk setengah-kursi (puncak energi, sekitar 45 kJ mol⁻¹ di atas kursi), lalu putar-perahu, lalu setengah-kursi lagi, dan akhirnya kursi yang baru.
 
-![Gambar 4.5 Diagram energi pembalikan kursi sikloheksana. Kursi (0) → setengah-kursi (45) → putar-perahu (23) → perahu (29, puncak kecil) → putar-perahu → setengah-kursi → kursi yang terbalik. Satuan kJ mol⁻¹.](fig/balik.png){width=82%}
+![Gambar 4.11 Diagram energi pembalikan kursi sikloheksana. Kursi (0) → setengah-kursi (45) → putar-perahu (23) → perahu (29, puncak kecil) → putar-perahu → setengah-kursi → kursi yang terbalik. Satuan kJ mol⁻¹.](fig/balik.png){width=82%}
 
 Penghalang 45 kJ mol⁻¹ lebih tinggi daripada penghalang putaran etana, tetapi masih kecil dibanding energi termal. Pada suhu kamar, setiap molekul sikloheksana membalik sekitar 10⁵ kali per detik. Pembalikan kursi itu penting karena mengubah arah setiap ikatan, seperti yang dijelaskan di subbab berikutnya.
 

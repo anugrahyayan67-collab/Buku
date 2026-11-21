@@ -84,6 +84,8 @@ Dengan aturan itu, konfigurasi elektron unsur-unsur periode kedua yang paling pe
 
 Elektron 1s berada sangat dekat dengan inti dan tidak ikut berikatan. Yang ikut berikatan hanyalah elektron di kulit terluar, kulit kedua, yang disebut **elektron valensi**. Jumlahnya sama dengan angka satuan nomor golongan dalam tabel periodik: karbon di golongan 14 mempunyai 4 elektron valensi, oksigen di golongan 16 mempunyai 6. Hidrogen mempunyai satu elektron valensi, 1s¹. Angka-angka ini adalah titik awal setiap struktur Lewis.
 
+![Gambar 1.1 Kiri: diagram energi orbital karbon dalam keadaan dasar, 1s² 2s² 2p²; dua elektron 2p menempati orbital p yang berbeda dengan spin sejajar (aturan Hund). Kanan: bentuk orbital s (bola) dan tiga orbital p (halter) yang saling tegak lurus.](fig/orbital.png){width=94%}
+
 ### Menggambar struktur Lewis langkah demi langkah
 
 **Struktur Lewis** menunjukkan semua elektron valensi dalam molekul. Pasangan elektron ikatan digambar sebagai garis, sedangkan pasangan elektron yang tidak dipakai berikatan, yang disebut **pasangan elektron bebas**, digambar sebagai dua titik. Untuk molekul kecil, struktur Lewis dapat disusun dengan langkah-langkah berikut.
@@ -111,6 +113,8 @@ Gambar struktur Lewis metanol (CH₃OH) dan metanal (H₂CO).
 
 **Memahami hasil.** Kedua molekul mengandung karbon, oksigen, dan hidrogen, tetapi metanal mempunyai ikatan rangkap C=O. Perbedaan ini menentukan sifatnya: ikatan C=O pada metanal adalah tempat reaksi adisi yang akan kita pelajari di Bab 11, sedangkan metanol bereaksi lewat gugus –OH.
 :::
+
+![Gambar 1.2 Struktur Lewis metanol dan metanal. Setiap garis adalah satu pasangan elektron ikatan; titik-titik pada oksigen adalah pasangan elektron bebas. Pada metanal, satu pasangan bebas oksigen menjadi ikatan rangkap C=O agar karbon mencapai oktet.](fig/lewis.png){width=84%}
 
 ### Pola ikatan yang netral
 
@@ -176,6 +180,8 @@ Muatan formal membagi elektron ikatan **sama rata**. Bilangan oksidasi memberika
 **Kuis cepat 1.3** Tentukan muatan formal atom yang ditandai: (a) N dalam CH₃NH₃⁺; (b) O dalam (CH₃)₂OH⁺; (c) C dalam (CH₃)₃C⁺.
 :::
 
+![Gambar 1.3 Pola ikatan dan muatan formal karbon, nitrogen, dan oksigen. Kolom tengah adalah pola netral (C empat ikatan, N tiga ikatan dan satu pasangan bebas, O dua ikatan dan dua pasangan bebas). Satu ikatan lebih banyak memberi muatan +1 (kecuali karbokation, yang kekurangan satu ikatan dan tidak mempunyai pasangan bebas); satu ikatan lebih sedikit dengan pasangan bebas tambahan memberi muatan −1. pb = pasangan bebas.](fig/muatan.png){width=90%}
+
 ## 1.4 Menggambar molekul organik: rumus garis
 
 Struktur Lewis lengkap sangat jelas, tetapi cepat menjadi tidak praktis. Kolesterol mempunyai 27 atom karbon dan 46 atom hidrogen. Menggambar 46 garis C–H setiap kali kita membicarakan kolesterol akan menghabiskan waktu dan membuat gambar sulit dibaca, karena bagian yang penting tertutup oleh atom hidrogen. Kimiawan organik karena itu memakai beberapa cara menggambar yang lebih ringkas. Masing-masing cocok untuk keperluan yang berbeda.
@@ -196,12 +202,12 @@ Untuk molekul yang lebih besar, **rumus garis** (rumus kerangka) adalah cara yan
 
 Aturan kedua adalah kunci untuk membaca rumus garis. Sebuah sudut yang hanya disentuh dua garis adalah karbon CH₂, karena dua ikatan lainnya pasti ke hidrogen. Ujung garis yang disentuh satu garis adalah CH₃. Titik cabang tempat tiga garis bertemu adalah CH, dan titik tempat empat garis bertemu adalah karbon tanpa hidrogen. Dengan berlatih, kamu akan membaca jumlah hidrogen ini secara otomatis, seperti membaca huruf.
 
-![Gambar 1.1 Satu molekul, tiga cara menggambar. Dari kiri: rumus garis heksan-1-ol, isopentil asetat (zat beraroma pisang), dan sikloheksena. Setiap sudut dan ujung garis adalah atom karbon; atom hidrogen pada karbon tidak digambar; atom lain (O) selalu ditulis.](fig/garis.png){width=90%}
+![Gambar 1.4 Satu molekul, tiga cara menggambar. Dari kiri: rumus garis heksan-1-ol, isopentil asetat (zat beraroma pisang), dan sikloheksena. Setiap sudut dan ujung garis adalah atom karbon; atom hidrogen pada karbon tidak digambar; atom lain (O) selalu ditulis.](fig/garis.png){width=90%}
 
 ::: {.contoh}
 **Contoh 1.3 · Membaca rumus garis**
 
-Isopentil asetat (Gambar 1.1, tengah) memberi aroma khas pisang. Rumus kondensasinya CH₃COOCH₂CH₂CH(CH₃)₂. Tentukan rumus molekulnya dan jumlah hidrogen pada setiap karbon.
+Isopentil asetat (Gambar 1.4, tengah) memberi aroma khas pisang. Rumus kondensasinya CH₃COOCH₂CH₂CH(CH₃)₂. Tentukan rumus molekulnya dan jumlah hidrogen pada setiap karbon.
 
 **Rencana.** Hitung atom karbon dari sudut dan ujung garis, lalu tentukan hidrogen setiap karbon dengan aturan "empat dikurangi jumlah ikatan".
 
@@ -259,6 +265,8 @@ Tentukan jumlah pasangan bebas pada setiap atom bukan karbon dalam (a) ion aseta
 Rumus garis menggambar molekul di atas bidang kertas, padahal molekul berbentuk tiga dimensi. Untuk menunjukkan arah ikatan di ruang, kimiawan memakai dua lambang tambahan. **Baji tebal** menunjukkan ikatan yang mengarah ke luar kertas, mendekati pembaca. **Baji putus-putus** (atau garis putus-putus) menunjukkan ikatan yang mengarah ke belakang kertas, menjauhi pembaca. Garis biasa menunjukkan ikatan yang terletak di bidang kertas.
 
 Dengan ketiga lambang ini, atom karbon yang membentuk empat ikatan biasanya digambar dengan dua ikatan di bidang kertas, satu baji tebal, dan satu baji putus-putus. Gambar seperti ini akan sangat penting di Bab 5, karena dua molekul yang hanya berbeda dalam arah satu baji dapat menjadi dua senyawa yang berbeda, misalnya satu obat yang menyembuhkan dan pasangannya yang tidak berkhasiat.
+
+![Gambar 1.5 Lambang tiga dimensi. Garis biasa: ikatan di bidang kertas; baji tebal: ikatan yang mengarah ke pembaca; garis putus-putus: ikatan yang menjauhi pembaca. Kiri: metana; tengah: bromoklorofluorometana, molekul kiral yang dibahas di Bab 5.](fig/baji.png){width=88%}
 
 ::: {.kuis}
 **Kuis cepat 1.4** Sebuah senyawa mempunyai rumus C₄H₈O dan tidak mempunyai cincin. Berapa derajat ketidakjenuhannya? Gambarkan dua struktur yang mungkin, satu dengan C=O dan satu dengan C=C.

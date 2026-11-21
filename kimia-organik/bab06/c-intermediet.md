@@ -22,7 +22,7 @@ Mengapa gugus alkil menstabilkan karbokation? Ada dua penjelasan yang saling mel
 
 **Hiperkonjugasi.** Penjelasan yang lebih penting melibatkan orbital. Ikatan C–H (atau C–C) pada karbon **tetangga** karbokation dapat berputar sehingga sejajar dengan orbital p kosong. Dalam posisi itu, elektron ikatan σ C–H dapat sebagian "bocor" ke orbital p kosong, menyebarkan muatan positif ke atom-atom tetangga. Interaksi antara ikatan σ yang terisi dan orbital kosong di sebelahnya ini disebut **hiperkonjugasi**. Kita sudah menjumpai bentuk lain dari interaksi yang sama ketika membahas konformasi goyang etana (subbab 4.2). Makin banyak ikatan C–H dan C–C di sebelah karbon bermuatan, makin banyak hiperkonjugasi yang mungkin. Karbokation tersier mempunyai sembilan ikatan C–H tetangga (pada tiga gugus metil), karbokation metil tidak mempunyai satu pun.
 
-![Gambar 6.3 Hiperkonjugasi pada karbokation. Kiri: ikatan C–H tetangga yang sejajar dengan orbital p kosong menyumbangkan sebagian kerapatan elektronnya. Kanan: urutan kestabilan karbokation; makin banyak gugus alkil (dan ikatan C–H tetangga), makin stabil.](fig/kation.png){width=90%}
+![Gambar 6.8 Hiperkonjugasi pada karbokation. Kiri: ikatan C–H tetangga yang sejajar dengan orbital p kosong menyumbangkan sebagian kerapatan elektronnya. Kanan: urutan kestabilan karbokation; makin banyak gugus alkil (dan ikatan C–H tetangga), makin stabil.](fig/kation.png){width=90%}
 
 ### Resonansi: karbokation alilik dan benzilik
 
@@ -38,7 +38,7 @@ Karena perbedaan kestabilannya besar, sebuah karbokation sekunder yang bersebela
 Penataan ulang hanya terjadi bila menghasilkan karbokation yang **lebih stabil** atau sama stabil. Kata "1,2" berarti gugus berpindah dari satu karbon ke karbon tepat di sebelahnya.
 
 ::: {.contoh}
-**Contoh 6.10 · Meramalkan penataan ulang**
+**Contoh 6.12 · Meramalkan penataan ulang**
 
 3-Metilbutan-2-ol dipanaskan dengan HBr dan menghasilkan 2-bromo-2-metilbutana sebagai produk utama, bukan 2-bromo-3-metilbutana. Jelaskan dengan mekanisme.
 
@@ -83,8 +83,10 @@ $$
 
 Data energi disosiasi ikatan menunjukkan urutan ini secara langsung. Memutus ikatan C–H secara homolitik menghasilkan radikal; makin stabil radikalnya, makin sedikit energi yang diperlukan. BDE C–H turun dari 439 kJ mol⁻¹ (metil) ke 421 (primer), 413 (sekunder), dan 400 (tersier). Perbedaan 39 kJ mol⁻¹ antara C–H metil dan C–H tersier adalah ukuran kestabilan tambahan radikal tersier, yang terutama berasal dari hiperkonjugasi.
 
+![Gambar 6.9 Geometri tiga intermediet karbon. Karbokation datar (sp²) dengan orbital p kosong; radikal hampir datar dengan satu elektron di orbital p; karbanion piramidal (sp³) dengan pasangan bebas.](fig/geometri.png){width=90%}
+
 ::: {.contoh}
-**Contoh 6.11 · Membandingkan tiga intermediet**
+**Contoh 6.13 · Membandingkan tiga intermediet**
 
 Untuk setiap pasangan, mana yang lebih stabil? (a) (CH₃)₃C⁺ atau CH₃CH₂⁺; (b) (CH₃)₃C⁻ atau CH₃CH₂⁻; (c) (CH₃)₃C· atau CH₃CH₂·; (d) CH₂=CHCH₂· atau (CH₃)₂CH·.
 
@@ -122,16 +124,18 @@ $$
 \cdot\text{CH}_3 + \text{Cl}_2 \longrightarrow \text{CH}_3\text{Cl} + \text{Cl}\cdot \qquad \Delta H^\circ = -108\ \text{kJ mol}^{-1}
 $$
 
-Radikal klorin yang dipakai di langkah pertama dihasilkan kembali di langkah kedua. Kedua langkah membentuk sebuah lingkaran yang terus berputar, seperti rantai yang terus memanjang. Jumlah kedua ΔH° propagasi, −101 kJ mol⁻¹, sama dengan ΔH° reaksi keseluruhan (Contoh 6.6).
+Radikal klorin yang dipakai di langkah pertama dihasilkan kembali di langkah kedua. Kedua langkah membentuk sebuah lingkaran yang terus berputar, seperti rantai yang terus memanjang. Jumlah kedua ΔH° propagasi, −101 kJ mol⁻¹, sama dengan ΔH° reaksi keseluruhan (Contoh 6.7).
 
 **Terminasi.** Rantai berhenti bila dua radikal bertemu dan bergabung: Cl· + Cl· → Cl₂, ·CH₃ + Cl· → CH₃Cl, atau ·CH₃ + ·CH₃ → CH₃CH₃. Karena konsentrasi radikal sangat kecil, pertemuan seperti ini jarang, sehingga setiap rantai berputar ribuan kali sebelum berhenti. Terbentuknya sedikit etana dalam klorinasi metana adalah bukti percobaan bahwa radikal metil memang ada.
+
+![Gambar 6.10 Siklus propagasi klorinasi metana. Radikal klorin mengambil H dari metana; radikal metil yang terbentuk mengambil Cl dari Cl₂ dan menghasilkan kembali radikal klorin. Satu radikal dari tahap inisiasi dapat memutar siklus ini ribuan kali sebelum terminasi.](fig/rantai.png){width=80%}
 
 ### Mengapa iodinasi tidak berjalan dan fluorinasi berbahaya
 
 Analisis energi propagasi menjelaskan perbedaan keempat halogen. Untuk iodin, langkah propagasi pertama (I· + CH₄ → HI + ·CH₃) sangat endoterm (+141 kJ mol⁻¹), sehingga rantai tidak dapat berputar. Untuk fluorin, kedua langkah propagasi sangat eksoterm (−131 dan −301 kJ mol⁻¹), sehingga reaksi melepaskan kalor begitu cepat dan dapat meledak. Klorin dan bromin berada di tengah dan dapat dikendalikan. Bab 7 membahas pemakaian klorinasi dan brominasi radikal dalam sintesis.
 
 ::: {.contoh}
-**Contoh 6.12 · Propagasi brominasi metana**
+**Contoh 6.14 · Propagasi brominasi metana**
 
 Hitung ΔH° kedua langkah propagasi brominasi metana dari tabel BDE di subbab 6.6. Langkah mana yang lebih lambat?
 
@@ -139,9 +143,9 @@ Hitung ΔH° kedua langkah propagasi brominasi metana dari tabel BDE di subbab 6
 
 *Langkah 2:* ·CH₃ + Br₂ → CH₃Br + Br·. Putus Br–Br (192), bentuk CH₃–Br (294): ΔH° = −102 kJ mol⁻¹.
 
-Jumlah: −29 kJ mol⁻¹, sesuai Contoh 6.6. Langkah 1 sangat endoterm, sehingga energi aktivasinya paling sedikit 73 kJ mol⁻¹ dan langkah ini menjadi langkah lambat.
+Jumlah: −29 kJ mol⁻¹, sesuai Contoh 6.7. Langkah 1 sangat endoterm, sehingga energi aktivasinya paling sedikit 73 kJ mol⁻¹ dan langkah ini menjadi langkah lambat.
 
-**Memahami hasil.** Langkah pertama yang lambat dan endoterm inilah yang membuat brominasi selektif (Contoh 6.9). Kimiawan memanfaatkan selektivitas itu untuk memasang bromin hanya pada karbon tersier, alilik, atau benzilik.
+**Memahami hasil.** Langkah pertama yang lambat dan endoterm inilah yang membuat brominasi selektif (Contoh 6.11). Kimiawan memanfaatkan selektivitas itu untuk memasang bromin hanya pada karbon tersier, alilik, atau benzilik.
 :::
 
 ::: {.terapan}
@@ -163,10 +167,10 @@ Kadang sebuah pereaksi dapat menghasilkan dua produk yang berbeda melalui dua ja
 
 Kedua jenis produk tidak selalu sama. Produk yang paling cepat terbentuk tidak harus produk yang paling stabil.
 
-![Gambar 6.4 Kendali kinetik dan termodinamik. Dari intermediet yang sama, produk K terbentuk lewat penghalang lebih rendah (lebih cepat), sedangkan produk T lebih stabil. Pada suhu rendah, K dominan; pada suhu tinggi, K dapat berbalik dan sistem mencapai kesetimbangan yang didominasi T.](fig/kendali.png){width=80%}
+![Gambar 6.11 Kendali kinetik dan termodinamik. Dari intermediet yang sama, produk K terbentuk lewat penghalang lebih rendah (lebih cepat), sedangkan produk T lebih stabil. Pada suhu rendah, K dominan; pada suhu tinggi, K dapat berbalik dan sistem mencapai kesetimbangan yang didominasi T.](fig/kendali.png){width=80%}
 
 ::: {.contoh}
-**Contoh 6.13 · Adisi HBr pada buta-1,3-diena**
+**Contoh 6.15 · Adisi HBr pada buta-1,3-diena**
 
 HBr bereaksi dengan buta-1,3-diena menghasilkan dua produk: 3-bromobut-1-ena (adisi 1,2) dan 1-bromobut-2-ena (adisi 1,4). Pada 0 °C perbandingannya sekitar 71:29; pada 40 °C sekitar 15:85. (a) Jelaskan dengan intermediet. (b) Produk mana yang merupakan produk kinetik dan mana produk termodinamik?
 

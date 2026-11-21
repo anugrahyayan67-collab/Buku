@@ -97,6 +97,8 @@ Mencari pusat kiral adalah keterampilan yang sangat sering dipakai. Untuk setiap
 
 Pusat kiral adalah cara cepat, tetapi definisi yang sebenarnya adalah tentang simetri: **sebuah molekul akiral bila mempunyai bidang cermin internal (bidang simetri) atau pusat inversi**. Molekul yang tidak mempunyai keduanya kiral. Untuk molekul dengan satu pusat kiral, kedua cara selalu memberi jawaban yang sama. Untuk molekul dengan dua pusat kiral atau lebih, hanya cara simetri yang selalu benar. Subbab 5.7 menunjukkan molekul yang mempunyai pusat kiral tetapi akiral.
 
+![Gambar 5.3 Pusat kiral (titik jingga) dalam empat molekul Contoh 5.2. Karbon pusat kiral terikat pada empat gugus yang berbeda; pada 3-bromopentana karbon pembawa Br terikat pada dua gugus etil yang sama, sehingga tidak kiral.](fig/pusatkiral.png){width=96%}
+
 ::: {.contoh}
 **Contoh 5.2 · Mencari pusat kiral**
 
@@ -174,6 +176,8 @@ Langkah 2 sering menjadi kesulitan, karena gambar di kertas tidak selalu menempa
 
 Ada satu hal penting tentang huruf R dan S. Huruf itu hanya menyatakan susunan di ruang menurut aturan CIP. Huruf itu **tidak** menyatakan arah putar cahaya terpolarisasi (subbab 5.5), dan tidak selalu berubah ketika sebuah reaksi terjadi. Bila sebuah reaksi mengganti gugus tanpa menyentuh pusat kiral, huruf R dapat berubah menjadi S hanya karena prioritas gugus berubah.
 
+![Gambar 5.4 Menentukan konfigurasi. Kiri: prioritas CIP pada (*R*)-butan-2-ol, dengan H (prioritas 4) di belakang bidang. Kanan: aturan setir; bila gugus prioritas 4 menjauhi pembaca, arah 1 → 2 → 3 searah jarum jam berarti *R*, berlawanan arah berarti *S*.](fig/cip.png){width=94%}
+
 ::: {.contoh}
 **Contoh 5.4 · Menentukan R/S dari gambar baji**
 
@@ -213,6 +217,8 @@ Cahaya biasa adalah gelombang elektromagnetik yang medan listriknya bergetar ke 
 Zat yang memutar bidang cahaya terpolarisasi disebut **aktif optik**. Zat yang memutar ke kanan (searah jarum jam, dilihat oleh pengamat yang menghadap sumber cahaya) disebut **dekstrorotatori** dan diberi tanda (+). Zat yang memutar ke kiri disebut **levorotatori** dan diberi tanda (−).
 
 Mengapa hanya zat kiral yang aktif optik? Cahaya terpolarisasi bidang dapat dipandang sebagai gabungan dua gelombang yang berputar seperti sekrup, satu ke kiri dan satu ke kanan. Dalam medium akiral, kedua gelombang merambat sama cepat. Dalam medium kiral, salah satu gelombang "pas" dengan molekul dan merambat sedikit lebih lambat, seperti sekrup kanan yang lebih mudah masuk ke mur kanan. Akibatnya bidang gabungannya berputar. Enansiomer memutar dengan besar yang sama dan arah yang berlawanan.
+
+![Gambar 5.5 Skema polarimeter. Cahaya terpolarisasi bidang melewati larutan sampel kiral; bidang polarisasinya diputar sebesar α, yang diukur dengan memutar analisator sampai cahaya terang kembali.](fig/polarimeter.png){width=96%}
 
 ### Rotasi jenis
 

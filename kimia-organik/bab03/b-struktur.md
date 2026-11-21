@@ -29,6 +29,8 @@ Jawabannya adalah **ukuran atom**. Turun dalam satu golongan, atom bertambah bes
 
 Kecenderungan ukuran yang sama berlaku untuk oksigen dan belerang. Etanatiol (CH₃CH₂SH, pKa 10,6) sekitar seratus ribu kali lebih asam daripada etanol (pKa 16), walaupun belerang kurang elektronegatif daripada oksigen. Belerang lebih besar, sehingga ion tiolat menampung muatan negatif dengan lebih baik.
 
+![Gambar 3.4 Faktor atom. Kiri: dalam satu periode, keasaman naik dengan keelektronegatifan atom pembawa muatan (C < N < O < F). Kanan: dalam satu golongan, keasaman naik dengan ukuran atom (F < Cl < Br < I), karena muatan tersebar dalam volume yang lebih besar.](fig/atom.png){width=94%}
+
 ::: {.contoh}
 **Contoh 3.8 · Membandingkan keasaman dengan faktor atom**
 
@@ -58,6 +60,10 @@ Akibatnya terukur dengan jelas: pKa asam asetat 4,76, etanol 16. Resonansi menyu
 Resonansi tidak selalu menyebarkan muatan ke atom yang sama baiknya. Bandingkan fenol (C₆H₅OH, pKa 10,0) dengan sikloheksanol (C₆H₁₁OH, pKa sekitar 18). Ion fenoksida mempunyai muatan negatif pada oksigen yang terikat langsung pada cincin benzena. Pasangan bebas oksigen dapat masuk ke cincin, sehingga muatan negatif tersebar ke tiga karbon cincin: dua karbon orto dan satu karbon para. Ion fenoksida karena itu mempunyai empat struktur penyumbang: satu dengan muatan pada oksigen dan tiga dengan muatan pada karbon. Ion sikloheksoksida tidak mempunyai resonansi sama sekali.
 
 Mengapa fenol tidak sekuat asam asetat, padahal ion fenoksida mempunyai lebih banyak struktur penyumbang? Karena pada ion fenoksida, tiga dari empat struktur penyumbang menempatkan muatan negatif pada **karbon**, atom yang kurang elektronegatif dan kurang suka membawa muatan negatif. Pada ion asetat, kedua struktur penyumbang menempatkan muatan pada **oksigen**. Jumlah struktur penyumbang penting, tetapi kualitasnya juga penting. Di sini terlihat bagaimana faktor atom dan faktor resonansi bekerja bersama.
+
+![Gambar 3.5 Faktor resonansi. Pada ion etoksida muatan negatif terkurung pada satu oksigen; pada ion fenoksida muatan tersebar ke oksigen dan tiga karbon cincin; pada ion asetat muatan terbagi rata pada dua oksigen yang elektronegatif. Makin baik penyebaran muatan, makin kuat asamnya.](fig/delokal.png){width=94%}
+
+![Gambar 3.6 Struktur penyumbang ion fenoksida. Muatan negatif berpindah dari oksigen ke karbon *orto* dan *para*; karena karbon kurang elektronegatif daripada oksigen, penyebaran ini kurang efektif dibandingkan pada ion asetat.](fig/fenoksida.png){width=94%}
 
 ::: {.contoh}
 **Contoh 3.9 · Fenol dan p-nitrofenol**
@@ -102,6 +108,8 @@ Klorin di C2, langsung bersebelahan dengan karbon karboksil, menurunkan pKa hamp
 
 Gugus yang menarik elektron lewat ikatan σ disebut **gugus penarik elektron induktif**: halogen, –OH, –OR, –NO₂, –C≡N, –C=O, dan gugus yang bermuatan positif seperti –NH₃⁺. Gugus-gugus ini menstabilkan anion dan memperkuat asam. Gugus alkil bekerja sebaliknya, sebagai **pemberi elektron** lemah. Itulah sebabnya asam propanoat (pKa 4,87) sedikit lebih lemah daripada asam asetat (4,76), dan asam format (3,75, tanpa gugus alkil sama sekali) lebih kuat daripada keduanya.
 
+![Gambar 3.7 Faktor induktif. Kiri: makin banyak atom halogen pada karbon α, makin asam asam asetat tersubstitusi. Kanan: pengaruh satu atom Cl melemah dengan cepat bila letaknya makin jauh dari gugus COOH.](fig/induktif.png){width=94%}
+
 ::: {.contoh}
 **Contoh 3.10 · Fluorin atau klorin?**
 
@@ -127,6 +135,8 @@ Perbedaannya terletak pada **orbital** yang menampung pasangan elektron bebas ba
 ::: {.inti}
 **Faktor orbital.** Pasangan elektron bebas lebih stabil dalam orbital dengan karakter s lebih besar: sp > sp² > sp³. Karena itu keasaman C–H naik dari alkana (pKa ± 50) ke alkena (± 44) ke alkuna terminal (± 25).
 :::
+
+![Gambar 3.8 Faktor orbital. Makin besar karakter s orbital yang menampung pasangan bebas basa konjugat, makin dekat elektron ke inti dan makin stabil anionnya: p*K*ₐ turun dari etana (sp³) ke etena (sp²) ke etuna (sp).](fig/orbital.png){width=74%}
 
 Faktor yang sama berlaku untuk nitrogen dan oksigen, dan akan kita pakai lagi untuk basa. Nitrogen nitril (sp) memegang pasangan bebasnya lebih erat daripada nitrogen piridina (sp²), dan nitrogen piridina lebih erat daripada nitrogen amina (sp³). Akibatnya kebasaannya turun dari amina ke piridina ke nitril (subbab 3.10).
 

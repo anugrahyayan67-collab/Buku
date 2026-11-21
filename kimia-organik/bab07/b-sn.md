@@ -161,7 +161,7 @@ Menambah nukleofil tidak mempercepat reaksi. Ini hanya dapat berarti bahwa nukle
 
 ### Tiga langkah
 
-Mekanisme SN1 untuk hidrolisis 2-bromo-2-metilpropana sudah kita susun di Contoh 6.a3:
+Mekanisme SN1 untuk hidrolisis 2-bromo-2-metilpropana sudah kita susun di Contoh 6.4:
 
 1. **Lepasnya gugus pergi** (lambat, penentu laju): ikatan C–Br putus heterolitik, menghasilkan karbokation *tert*-butil dan Br⁻.
 2. **Serangan nukleofil** (cepat): air menyerang karbokation, menghasilkan ion alkiloksonium.

@@ -69,6 +69,8 @@ Ada satu gugus yang muncul berkali-kali di tabel itu: **gugus karbonil**, C=O. A
 Rumus molekul tidak cukup untuk menentukan gugus fungsi. C₃H₈O dapat berupa propan-1-ol, propan-2-ol (keduanya alkohol), atau metoksietana (eter). C₃H₆O dapat berupa propanal (aldehida), propanon (keton), prop-2-en-1-ol (alkohol dengan C=C), atau oksetana (eter siklik). Selalu periksa **sambungan** atom: oksigen yang terikat pada H adalah alkohol; oksigen yang terjepit di antara dua karbon tanpa C=O adalah eter.
 :::
 
+![Gambar 2.1 Lima belas gugus fungsi utama dengan contoh paling sederhana masing-masing. Bagian yang diberi warna adalah gugus fungsi: bagian molekul yang menentukan reaksi dan sifat khas golongannya.](fig/gugus.png){width=96%}
+
 ::: {.contoh}
 **Contoh 2.1 · Mengenali gugus fungsi dalam obat**
 
@@ -82,6 +84,8 @@ Parasetamol mempunyai rumus HO–C₆H₄–NH–CO–CH₃, dengan gugus OH dan
 ::: {.kuis}
 **Kuis cepat 2.1** Sebutkan gugus fungsi dalam (a) CH₃CH₂COOCH₃; (b) CH₃CH(NH₂)COOH (alanina); (c) CH₂=CHCHO.
 :::
+
+![Gambar 2.2 Gugus fungsi dalam parasetamol (Contoh 2.1): amida (jingga), cincin benzena atau arena (hijau), dan gugus –OH fenol (biru).](fig/parasetamol.png){width=72%}
 
 ## 2.2 Rantai karbon dan gugus alkil
 
@@ -114,9 +118,9 @@ Mulai dari propana, hidrogen dapat diambil dari lebih dari satu jenis karbon, se
 
 Penggolongan ini bukan sekadar istilah. Kita akan melihat di Bab 6 dan 7 bahwa karbokation tersier jauh lebih stabil daripada karbokation primer, sehingga alkil halida tersier bereaksi dengan mekanisme yang sama sekali berbeda dari alkil halida primer. Istilah yang sama juga dipakai untuk hidrogen (hidrogen primer terikat pada karbon primer), untuk alkohol, dan untuk alkil halida.
 
-![Gambar 2.1 Gugus alkil tiga dan empat karbon. Garis bergelombang menandai tempat gugus itu menempel pada bagian molekul yang lain. Nama di bawah setiap gambar adalah nama umum yang diterima IUPAC; nama sistematiknya dalam kurung.](fig/alkil.png){width=92%}
+![Gambar 2.3 Gugus alkil tiga dan empat karbon. Garis bergelombang menandai tempat gugus itu menempel pada bagian molekul yang lain. Nama di bawah setiap gambar adalah nama umum yang diterima IUPAC; nama sistematiknya dalam kurung.](fig/alkil.png){width=92%}
 
-Gugus alkil yang paling sering dijumpai adalah gugus tiga dan empat karbon pada Gambar 2.1. Nama-nama umumnya perlu dihafal, karena dipakai di mana-mana, juga dalam nama IUPAC:
+Gugus alkil yang paling sering dijumpai adalah gugus tiga dan empat karbon pada Gambar 2.3. Nama-nama umumnya perlu dihafal, karena dipakai di mana-mana, juga dalam nama IUPAC:
 
 * **Propil** (CH₃CH₂CH₂–): menempel lewat karbon ujung (primer).
 * **Isopropil** ((CH₃)₂CH–): menempel lewat karbon tengah (sekunder). Awalan "iso" menunjukkan percabangan dua metil di ujung yang jauh dari titik tempel.
@@ -142,6 +146,8 @@ Jumlahnya: 5 karbon primer, 1 sekunder, 1 tersier, 1 kuaterner, total 8 karbon, 
 ::: {.kuis}
 **Kuis cepat 2.2** Gambar gugus isopropil dan *tert*-butil. Berapa atom hidrogen primer, sekunder, dan tersier dalam 2-metilbutana?
 :::
+
+![Gambar 2.4 Penggolongan atom karbon dalam 2,2,4-trimetilpentana (Contoh 2.2). Angka pada setiap karbon adalah jumlah atom karbon tetangganya: 1 primer, 2 sekunder, 3 tersier, 4 kuaterner.](fig/karbon.png){width=66%}
 
 ## 2.3 Tata nama alkana
 
@@ -180,6 +186,8 @@ Namai senyawa CH₃CH₂CH(CH₃)CH₂CH(CH₂CH₃)CH₂CH₃.
 
 **Memahami hasil.** Aturan abjad hanya dipakai bila penomoran dari kedua ujung memberi himpunan nomor yang sama, dalam contoh ini {3, 5}. Kasus seperti itu jarang, tetapi menunjukkan bahwa setiap aturan IUPAC dirancang supaya setiap struktur mendapat **tepat satu** nama.
 :::
+
+![Gambar 2.5 Dua kemungkinan penomoran rantai induk untuk senyawa Contoh 2.3. Kedua arah memberi cabang di karbon 3 dan 5, sehingga penentu terakhir adalah urutan abjad: etil (e) mendahului metil (m) dan mendapat nomor terkecil.](fig/induk.png){width=90%}
 
 ::: {.contoh}
 **Contoh 2.4 · Memeriksa nama yang salah**
@@ -224,6 +232,8 @@ Cara yang sama berlaku untuk senyawa dengan gugus fungsi. Untuk C₄H₉Cl, mula
 **Kuis cepat 2.3** Namai (CH₃)₂CHCH₂C(CH₃)₂CH₂CH₃. Pastikan kamu mencari rantai terpanjang dan memberi nomor terkecil pada cabang.
 :::
 
+![Gambar 2.6 Kelima isomer C₆H₁₄ (Contoh 2.5) dalam rumus garis beserta nama IUPAC-nya.](fig/isomer.png){width=96%}
+
 ## 2.4 Sikloalkana
 
 Rantai karbon dapat menutup menjadi cincin. Alkana yang berbentuk cincin disebut **sikloalkana**, dan rumus umumnya CₙH₂ₙ: dua hidrogen lebih sedikit daripada alkana rantai terbuka, karena dua ujung rantai bersambung. Menurut subbab 1.4, satu cincin berarti satu derajat ketidakjenuhan. Sikloalkana sangat umum di alam. Steroid seperti kolesterol mempunyai empat cincin yang menyatu, dan banyak senyawa wangi seperti mentol mempunyai cincin enam karbon.
@@ -233,6 +243,8 @@ Penamaannya mengikuti aturan alkana dengan tiga tambahan:
 1. **Cincin diberi awalan siklo-**: siklopropana, siklobutana, siklopentana, sikloheksana.
 2. **Cincin menjadi induk.** Bila sebuah rantai alkil menempel pada cincin, cincin dijadikan induk dan rantai menjadi cabang: metilsikloheksana, pentilsiklopropana. Ini aturan IUPAC 2013. Buku-buku yang lebih lama menjadikan rantai sebagai induk bila rantai itu lebih panjang daripada cincin, sehingga kamu juga dapat menjumpai nama seperti 1-siklopropilpentana untuk senyawa yang sama.
 3. **Penomoran cincin** dimulai dari salah satu karbon bercabang dan berjalan ke arah yang memberi nomor terkecil pada cabang berikutnya. Bila hanya ada satu cabang, nomor 1 tidak perlu ditulis: metilsikloheksana, bukan 1-metilsikloheksana.
+
+![Gambar 2.7 Sikloalkana tiga sampai enam karbon dan dua sikloalkana tersubstitusi. Senyawa terakhir adalah jawaban Contoh 2.6.](fig/siklo.png){width=84%}
 
 ::: {.contoh}
 **Contoh 2.6 · Menamai sikloalkana tersubstitusi**
@@ -259,6 +271,8 @@ $$
 dengan *a*, *b*, dan *c* jumlah karbon di setiap jalur, **tidak termasuk** kedua atom jembatan. Angka ditulis dari yang terbesar dan dipisahkan dengan titik. Nama alkana di akhir menyatakan jumlah **semua** karbon, termasuk atom jembatan: $a + b + c + 2$.
 
 Penomoran dimulai dari salah satu atom jembatan (C1), berjalan lewat jalur terpanjang ke atom jembatan kedua, lalu kembali lewat jalur kedua terpanjang, dan terakhir jalur terpendek.
+
+![Gambar 2.8 Senyawa bisiklik. Atom jembatan (jingga) adalah dua karbon yang dimiliki bersama oleh kedua cincin. Angka dalam kurung siku adalah jumlah karbon di setiap jalur yang menghubungkan kedua atom jembatan, dari yang terpanjang.](fig/bisiklik.png){width=86%}
 
 ::: {.contoh}
 **Contoh 2.7 · Norbornana dan dekalin**
