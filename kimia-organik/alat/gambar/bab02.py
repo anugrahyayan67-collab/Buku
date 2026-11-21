@@ -103,7 +103,7 @@ plt.tight_layout(); f.savefig(f'{F}/induk.png', bbox_inches='tight'); plt.close(
 
 # 7. lima isomer C6H14
 I = [('CCCCCC', 'heksana'), ('CC(C)CCC', '2-metilpentana'), ('CCC(C)CC', '3-metilpentana'), ('CC(C)(C)CC', '2,2-dimetilbutana'), ('CC(C)C(C)C', '2,3-dimetilbutana')]
-grid([(gbrn(s, w=420, h=280, bl=42), t) for s, t in I], 'isomer.png', 5, (7.6, 1.9), fs_t=8.5)
+grid([(gbrn(s, w=420, h=280, bl=62), t) for s, t in I], 'isomer.png', 5, (7.6, 1.9), fs_t=8.5)
 
 # 8. sikloalkana
 I = [('C1CC1', 'siklopropana'), ('C1CCC1', 'siklobutana'), ('C1CCCC1', 'siklopentana'), ('C1CCCCC1', 'sikloheksana'),

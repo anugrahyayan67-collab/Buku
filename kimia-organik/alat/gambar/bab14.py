@@ -35,7 +35,7 @@ for x0, x1 in zip(xs[:-1], xs[1:]): ax.add_patch(Rectangle((x0, 0), x1 - x0, 1, 
 for a, b, t, c in reg:
     if t: ax.text((a + b) / 2, 0.5, t, ha='center', va='center', fontsize=8.5, color=TUA)
 ax.text(-6.25, 1.15, 'tampak', ha='center', fontsize=8, color=TUA)
-for x, t, c in [(-6.7, 'UV–Vis:\nelektron π → π*', '#6a51a3'), (-5.1, 'IR: getaran ikatan\n(4000–400 cm$^{-1}$)', JT), (0.5, 'NMR: spin inti', BIRU)]:
+for x, t, c in [(-7.0, 'UV–Vis:\nelektron π → π*', '#6a51a3'), (-4.6, 'IR: getaran ikatan\n(4000–400 cm$^{-1}$)', JT), (0.5, 'NMR: spin inti', BIRU)]:
     ax.annotate(t, (x, 0), (x, -0.75), ha='center', va='center', fontsize=8.2, color=c, arrowprops=dict(arrowstyle='-|>', color=c, lw=1))
 ax.set_xlim(-12, 1.5); ax.set_ylim(-1.3, 1.4); ax.set_yticks([]); ax.spines['left'].set_visible(False)
 ax.set_xticks([-10, -8, -6, -4, -2, 0]); ax.set_xticklabels(['10$^{-10}$', '10$^{-8}$', '10$^{-6}$', '10$^{-4}$', '10$^{-2}$', '1']); ax.set_xlabel('panjang gelombang (m)   ←  energi foton makin besar')
@@ -101,17 +101,15 @@ tiga('ir3', [(CH3 + [(1715, 1.5, 12), (1360, 0.5, 8)], 'heksan-2-on', [(1715, 'C
 
 # 7. skema MS
 f, ax = kanv(7.2, 2.6, (0, 28), (0, 10))
-ax.add_patch(FancyBboxPatch((0.5, 3.0), 5.0, 4.0, boxstyle='round,pad=0.2', fc='#eef5fb', ec=BIRU)); T(ax, 3.0, 6.0, 'sumber ion', fs=9, c=BIRU, fontweight='bold')
-T(ax, 3.0, 4.6, 'M + e$^-$ → M$^{+\\cdot}$ + 2e$^-$', fs=7.2); T(ax, 3.0, 3.6, '(70 eV)', fs=8)
-ax.annotate('', (8.2, 5.0), (5.9, 5.0), arrowprops=dict(arrowstyle='-|>', color=TUA, lw=1.4)); T(ax, 7.0, 5.6, 'percepat', fs=8)
-th = np.linspace(np.pi / 2, 0, 100)
-for r, c, lab in [(5.0, MERAH, 'ringan'), (6.5, HJ, 'sedang'), (8.0, BIRU, 'berat')]:
-    xs, ys = 8.4 + r * np.cos(th + np.pi), 5.0 - r + r * np.sin(th + np.pi / 2) * 0 + 0
-    x = 8.4 + r * np.sin(np.linspace(0, np.pi / 2, 80)); y = 5.0 - r + r * np.cos(np.linspace(0, np.pi / 2, 80))
-    ax.plot(x, y, color=c, lw=1.6); ax.text(x[-1] + 0.3, y[-1], lab, fontsize=7.5, color=c, va='center')
-ax.add_patch(Rectangle((8.4, -0.2), 4.0, 5.6, fc='#f2f2f2', ec='#999999', zorder=0)); T(ax, 10.4, 6.2, 'medan magnet', fs=8.5, c='#555555')
-T(ax, 14.2, -2.9, '→ detektor', fs=8.5)
-ax.set_ylim(-3.2, 8.0)
+ax.add_patch(FancyBboxPatch((0.3, 3.0), 5.8, 4.0, boxstyle='round,pad=0.2', fc='#eef5fb', ec=BIRU)); T(ax, 3.2, 6.1, 'sumber ion', fs=9, c=BIRU, fontweight='bold')
+T(ax, 3.2, 4.8, 'M + e$^-$ → M$^{+\\cdot}$ + 2e$^-$', fs=6.6); T(ax, 3.2, 3.7, '(elektron 70 eV)', fs=7.6)
+ax.annotate('', (8.3, 5.0), (6.8, 5.0), arrowprops=dict(arrowstyle='-|>', color=TUA, lw=1.4)); T(ax, 7.5, 5.9, 'percepat', fs=7.5)
+ax.add_patch(Rectangle((8.4, -3.0), 9.2, 8.6, fc='#f2f2f2', ec='#999999', zorder=0)); T(ax, 13.0, 6.3, 'medan magnet', fs=8.5, c='#555555')
+for r, c, lab in [(3.4, MERAH, 'ringan'), (5.5, HJ, 'sedang'), (7.6, BIRU, 'berat')]:
+    t_ = np.linspace(0, np.pi / 2, 80); x = 8.4 + r * np.sin(t_); y = 5.0 - r + r * np.cos(t_); k_ = y > -2.6
+    ax.plot(x[k_], y[k_], color=c, lw=1.6); ax.text(x[k_][-1] - (1.6 if lab == 'berat' else 0), y[k_][-1] - (0.45 if lab != 'berat' else -0.3), lab, fontsize=7.5, color=c, ha='center', va='top', bbox=dict(fc='#f2f2f2', ec='none', pad=0.5))
+ax.plot([15.2, 17.4], [-2.75, -2.75], color=TUA, lw=3, solid_capstyle='butt'); T(ax, 16.3, -4.0, 'detektor', fs=8)
+ax.set_ylim(-5.6, 7.6)
 # contoh spektrum kecil
 axi = f.add_axes([0.66, 0.18, 0.32, 0.65]);
 for m, h in [(15, 10), (43, 100), (58, 64)]: axi.bar(m, h, width=1.2, color=TUA)

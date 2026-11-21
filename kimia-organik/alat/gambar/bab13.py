@@ -34,25 +34,33 @@ def gb(ax, smi, x0, x1, y0, y1, **k):
     k['w'], k['h'] = ukuran_px(ax, x0, x1, y0, y1); k['fs'] = min(k.get('fs', 25), 25); k.setdefault('bl', 40)
     pasang(ax, rd(smi, **k), x0, x1, y0, y1, zorder=2, maks=1.0)
 
-# 1. inversi nitrogen
-f, ax = kanv(7.0, 2.4, (0, 24), (0, 8.2))
-def piramida(cx, cy, arah, label=None):
-    gug = [('R₁', -1.5, -1.0, HJ), ('R₂', 1.5, -1.0, BIRU), ('R₃', 0.55, -1.6, JT)]
-    for t, dx, dy, c in gug:
-        ax.plot([cx, cx + dx * 0.75], [cy, cy + arah * dy * 0.75 - (0.3 if arah > 0 else -0.3)], color=TUA, lw=1.8)
-        T(ax, cx + dx, cy + arah * dy - (0.45 if arah > 0 else -0.45), t, c=c, fs=10)
-    ax.add_patch(Ellipse((cx, cy + arah * 1.05), 0.75, 1.3, fc=MUDA, ec=BIRU, lw=1, alpha=0.8)); T(ax, cx, cy, 'N', fs=13)
-piramida(3.5, 4.4, 1)
-reaksi(ax, 6.2, 8.8, 4.2, dua=True)
-cx, cy = 12.0, 4.2
-for t, dx, c in [('R₁', -2.0, HJ), ('R₂', 1.6, BIRU), ('R₃', 0.4, JT)]:
-    ax.plot([cx, cx + dx * 0.8], [cy, cy - (0.0 if t != 'R₃' else 0.9)], color=TUA, lw=1.8)
-ax.add_patch(Ellipse((cx, cy + 0.9), 0.55, 1.0, fc=MUDA, ec=BIRU, lw=1, alpha=0.8)); ax.add_patch(Ellipse((cx, cy - 0.9 - 0.4), 0.55, 1.0, fc=MUDA, ec=BIRU, lw=1, alpha=0.5))
-T(ax, cx, cy, 'N', fs=13); T(ax, cx - 2.3, cy - 0.45, 'R₁', c=HJ, fs=10); T(ax, cx + 1.9, cy - 0.45, 'R₂', c=BIRU, fs=10)
-T(ax, cx, 7.6, 'keadaan transisi datar (sp²)', fs=8.5, c=TUA)
-reaksi(ax, 15.2, 17.8, 4.2, dua=True)
-piramida(20.5, 4.0, -1)
-T(ax, 12.0, 0.4, 'penghalang ± 25 kJ mol$^{-1}$: miliaran kali per detik', fs=8.5, c=HJ)
+# 1. inversi nitrogen (render 3D, model gugus disatukan)
+import sys as _sy; _sy.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'r3d'))
+from r3d import render, pas, tampil
+TMP = os.path.join(F, '_r3d'); os.makedirs(TMP, exist_ok=True)
+def lob(d, L, w, c, o=(0, 0, 0), a=1.0, k=0.7): return {'d': list(map(float, d)), 'L': L, 'w': w, 'c': c, 'o': list(map(float, o)), 'a': a, 'k': k}
+GR = [('R$_1$', 0x1a8a6a, 150), ('R$_2$', 0x8a63c9, 30), ('R$_3$', 0xd9874a, 270)]
+def amina(arah):  # arah +1: pasangan bebas ke atas; 0: datar (TS); -1: ke bawah
+    zc = -arah * 0.36; at = [{'p': [0, 0, 0], 'r': 0.32, 'c': 0x3f72d6}]; bd = []; lab = []
+    for nm, c_, ang in GR:
+        t = np.radians(ang); v = np.array([np.cos(t) * np.sqrt(1 - zc ** 2), np.sin(t) * np.sqrt(1 - zc ** 2), zc]) * 1.5
+        at.append({'p': list(map(float, v)), 'r': 0.36, 'c': c_}); bd.append({'p': [0, 0, 0], 'q': list(map(float, v)), 'r': 0.085, 'c': 0xb9bfc7}); lab.append(v * 1.55 + [0, 0, -0.12])
+    if arah: lobes = [lob((0, 0, arah), 1.1, 0.42, 0x7fb4ec, (0, 0, 0.28 * arah), k=0.75)]
+    else: lobes = [lob((0, 0, 1), 0.95, 0.34, 0x7fb4ec, a=0.75), lob((0, 0, -1), 0.95, 0.34, 0x7fb4ec, a=0.75)]
+    sp = {'atoms': at, 'bonds': bd, 'lobes': lobes, 'w': 600, 'h': 640, 'camdir': [0.1, -1, 0.42 if arah >= 0 else -0.42], 'up': [0, 0, 1], 'labels': [list(map(float, l)) for l in lab] + [[0, 0, 0]]}
+    return pas(sp, 0.45)
+J = [(amina(1), f'{TMP}/inv_a.png'), (amina(0), f'{TMP}/inv_ts.png'), (amina(-1), f'{TMP}/inv_b.png')]
+PR = render(J)
+f = plt.figure(figsize=(7.4, 3.0), dpi=220)
+for k, (fn, x0) in enumerate([(J[0][1], 0.0), (J[1][1], 0.37), (J[2][1], 0.74)]):
+    a = f.add_axes([x0, 0.16, 0.26, 0.74]); a.axis('off'); tampil(a, fn); q = PR[fn]
+    for (nm, c_, _), p_ in zip(GR, q[:3]): a.text(*p_, nm, ha='center', va='center', fontsize=9.5, color='#%06x' % c_, fontweight='bold')
+from matplotlib.patches import FancyArrowPatch as _FAP
+for x in (0.285, 0.655):
+    f.add_artist(_FAP((x, 0.565), (x + 0.065, 0.565), transform=f.transFigure, arrowstyle='-|>', mutation_scale=9, color=TUA, lw=1.1))
+    f.add_artist(_FAP((x + 0.065, 0.515), (x, 0.515), transform=f.transFigure, arrowstyle='-|>', mutation_scale=9, color=TUA, lw=1.1))
+f.text(0.5, 0.95, 'keadaan transisi datar (sp²), pasangan bebas di orbital p', ha='center', fontsize=8.6, color=TUA)
+f.text(0.5, 0.03, 'penghalang ± 25 kJ mol$^{-1}$: miliaran kali per detik', ha='center', fontsize=8.8, color=HJ)
 f.savefig(f'{F}/inversi.png', bbox_inches='tight'); plt.close(f)
 
 # 2. pKaH

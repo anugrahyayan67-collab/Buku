@@ -2,7 +2,7 @@
 import numpy as np
 from PIL import Image
 
-def rapat(img, maks=1.7, pad=8):
+def rapat(img, maks=1.3, pad=8):
     """Potong tepi kosong; bila molekul kecil, sisakan kanvas minimal (ukuran asli / maks) agar tidak membengkak."""
     a = np.asarray(img.convert('RGBA')).astype(int); bg = a[1, 1]
     m = (np.abs(a - bg).sum(2) > 24) & (a[..., 3] > 10) if bg[3] > 10 else a[..., 3] > 10
