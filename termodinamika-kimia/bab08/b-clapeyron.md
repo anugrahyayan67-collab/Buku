@@ -122,7 +122,7 @@ $$
 
 Bentuk (8.6) memberi cara mengukur entalpi penguapan tanpa kalorimeter: ukur tekanan uap pada beberapa suhu, gambarkan ln *p* terhadap 1/*T*, dan hasilnya garis lurus dengan kemiringan $-\Delta_\text{vap}H/R$.
 
-![Gambar 8.1 Plot Clausius–Clapeyron untuk air, dari tekanan uap terukur pada 20, 40, 60, 80, dan 100 °C. Titik-titik jatuh hampir tepat pada satu garis lurus. Kemiringannya, −5155 K, sama dengan $-\Delta_\text{vap}H/R$.](fig/cc.png){width=68%}
+![Gambar 8.2 Plot Clausius–Clapeyron untuk air, dari tekanan uap terukur pada 20, 40, 60, 80, dan 100 °C. Titik-titik jatuh hampir tepat pada satu garis lurus. Kemiringannya, −5155 K, sama dengan $-\Delta_\text{vap}H/R$.](fig/cc.png){width=68%}
 
 ::: {.contoh}
 **Contoh 8.9 · Entalpi penguapan air dari tekanan uapnya**
@@ -136,12 +136,12 @@ Tekanan uap air pada 20, 40, 60, 80, dan 100 °C berturut-turut 2,339; 7,384; 19
 | 1000/*T* (K⁻¹) | 3,411 | 3,193 | 3,002 | 2,832 | 2,680 |
 | ln(*p*/kPa) | 0,850 | 1,999 | 2,993 | 3,859 | 4,618 |
 
-Garis lurus terbaik melalui titik-titik ini (Gambar 8.1) mempunyai kemiringan −5155 K. Maka
+Garis lurus terbaik melalui titik-titik ini (Gambar 8.2) mempunyai kemiringan −5155 K. Maka
 $$
 \Delta_\text{vap}H = -R \times \text{kemiringan} = (8{,}314)(5155)\ \text{J mol}^{-1} = 42{,}9\ \text{kJ mol}^{-1} .
 $$
 
-**Memahami hasil.** Nilai ini adalah entalpi penguapan rata-rata dalam rentang 20–100 °C. Nilai kalorimetrinya 44,0 kJ mol⁻¹ pada 25 °C dan 40,7 kJ mol⁻¹ pada 100 °C; nilai kita jatuh di antaranya, di sekitar nilai pada 60 °C. Δ*H* penguapan berkurang perlahan ketika suhu naik, karena molekul-molekul cairan makin renggang, dan pada titik kritis ia menjadi nol. Garis pada Gambar 8.1 sebenarnya sedikit melengkung, tetapi kelengkungan itu terlalu kecil untuk terlihat.
+**Memahami hasil.** Nilai ini adalah entalpi penguapan rata-rata dalam rentang 20–100 °C. Nilai kalorimetrinya 44,0 kJ mol⁻¹ pada 25 °C dan 40,7 kJ mol⁻¹ pada 100 °C; nilai kita jatuh di antaranya, di sekitar nilai pada 60 °C. Δ*H* penguapan berkurang perlahan ketika suhu naik, karena molekul-molekul cairan makin renggang, dan pada titik kritis ia menjadi nol. Garis pada Gambar 8.2 sebenarnya sedikit melengkung, tetapi kelengkungan itu terlalu kecil untuk terlihat.
 :::
 
 Bentuk (8.5) menjawab pertanyaan pembuka bab ini tentang titik didih di gunung. Titik didih adalah suhu tempat tekanan uap cairan sama dengan tekanan di sekitarnya. Bila tekanan luar turun, tekanan uap yang diperlukan untuk mendidih juga turun, dan itu dicapai pada suhu yang lebih rendah.
@@ -227,6 +227,10 @@ $$
 ::: {.awas}
 **Kapan Clausius–Clapeyron tidak boleh dipakai.** Persamaan (8.4) memakai dua anggapan yang hanya berlaku bila salah satu fasa adalah gas: volume fasa terkondensasi diabaikan dan uap dianggap ideal. Untuk garis padat–cair, kedua anggapan itu salah total, dan yang harus dipakai adalah persamaan Clapeyron (8.3). Di dekat titik kritis, uap tidak lagi ideal dan volume cairan tidak lagi kecil, sehingga Clausius–Clapeyron pun gagal di sana.
 :::
+
+Bentuk eksponensial persamaan Clausius–Clapeyron terlihat jelas bila tekanan uap beberapa cairan digambar terhadap suhu (Gambar 8.3). Setiap kurva naik makin curam, dan titik didih normal adalah suhu tempat kurva memotong 1 atm. Cairan yang gaya antarmolekulnya lemah (eter) mempunyai tekanan uap tinggi dan titik didih rendah; air, dengan ikatan hidrogen yang kuat, berada paling kanan.
+
+![Gambar 8.3 Tekanan uap empat cairan terhadap suhu, dihitung dengan persamaan Clausius–Clapeyron dari titik didih normal dan entalpi penguapannya. Titik menandai titik didih normal.](fig/uap.png){width=76%}
 
 ::: {.kuis}
 **Kuis cepat 8.4** Dua cairan mempunyai titik didih normal yang sama, tetapi Δ*H* penguapan cairan A dua kali cairan B. Pada suhu 30 °C di bawah titik didihnya, cairan mana yang tekanan uapnya lebih tinggi?

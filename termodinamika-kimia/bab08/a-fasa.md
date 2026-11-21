@@ -91,6 +91,10 @@ Untuk timah putih → timah abu-abu, $\Delta_\text{trs}H = -2{,}09$ kJ mol⁻¹ 
 **Memahami hasil.** Timah abu-abu mempunyai entalpi lebih rendah (ikatannya lebih kuat, mirip intan) tetapi entropi juga lebih rendah. Ini persaingan yang sama seperti antara es dan air: pada suhu rendah entalpi menang, pada suhu tinggi entropi menang. Bedanya, di sini kedua fasa padat dan selisih energinya sangat kecil, sehingga perubahannya berjalan sangat lambat.
 :::
 
+Gambar 8.1 meringkas gagasan ini untuk satu zat. Potensial kimia setiap fasa turun ketika suhu naik, dengan kemiringan −$S_\text{m}$, sehingga garis gas paling curam, lalu cair, lalu padat. Pada setiap suhu, fasa yang stabil adalah fasa dengan garis **paling bawah**. Titik potong garis padat dan cair adalah titik leleh; titik potong garis cair dan gas adalah titik didih. Bila tekanan dinaikkan, garis gas naik paling banyak (subbab 7.8), sehingga titik potongnya dengan garis cair bergeser ke kanan: titik didih naik bersama tekanan.
+
+![Gambar 8.1 Potensial kimia padat, cair, dan gas terhadap suhu pada tekanan tetap (skematis). Fasa yang stabil adalah yang potensial kimianya paling rendah. Garis putus-putus: potensial kimia gas pada tekanan lebih tinggi, yang memotong garis cair pada suhu lebih tinggi, $T_\text{b}'$.](fig/muT.png){width=78%}
+
 ::: {.kuis}
 **Kuis cepat 8.1** Bila air dingin-lewat pada −10 °C tiba-tiba membeku di dalam wadah yang terisolasi, apakah suhunya tetap −10 °C? Ke mana kalor peleburan yang dilepaskan?
 :::
