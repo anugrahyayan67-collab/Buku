@@ -4,7 +4,7 @@ Sebatang seng dicelupkan ke dalam larutan tembaga sulfat. Dalam beberapa menit, 
 
 Bagi termodinamika, sel elektrokimia lebih dari sekadar sumber listrik. Ia adalah **alat ukur energi Gibbs yang paling teliti**. Di Bab 7 kita melihat bahwa kerja bukan-ekspansi maksimum yang dapat diperoleh dari suatu reaksi sama dengan $-\Delta_\text{r}G$. Dalam sel, kerja itu adalah kerja listrik, dan kerja listrik maksimum dapat diukur langsung dengan voltmeter: tegangan sel ketika hampir tidak ada arus mengalir. Voltmeter yang baik membaca sampai sepersejuta volt, setara dengan mengukur $\Delta_\text{r}G$ sampai sepersepuluh joule per mol, jauh lebih teliti daripada kalorimeter mana pun.
 
-Bab terakhir ini menggabungkan seluruh alat yang telah kita bangun. Dari $\Delta_\text{r}G = -nFE$ dan $\Delta_\text{r}G = \Delta_\text{r}G^\circ + RT\ln Q$ (Bab 12) kita akan memperoleh **persamaan Nernst**. Dari $\Delta_\text{r}G^\circ = -RT\ln K$, hubungan antara potensial sel standar dan tetapan kesetimbangan. Dari $(\partial G/\partial T)_p = -S$ (Bab 7), cara mengukur entropi dan entalpi reaksi dari tegangan sel pada beberapa suhu. Dan dari semuanya, pemahaman tentang elektrode pH, potensial membran saraf, baterai, sel bahan bakar, dan korosi.
+Bab ini menggabungkan seluruh alat yang telah kita bangun. Dari $\Delta_\text{r}G = -nFE$ dan $\Delta_\text{r}G = \Delta_\text{r}G^\circ + RT\ln Q$ (Bab 12) kita akan memperoleh **persamaan Nernst**. Dari $\Delta_\text{r}G^\circ = -RT\ln K$, hubungan antara potensial sel standar dan tetapan kesetimbangan. Dari $(\partial G/\partial T)_p = -S$ (Bab 7), cara mengukur entropi dan entalpi reaksi dari tegangan sel pada beberapa suhu. Dan dari semuanya, pemahaman tentang elektrode pH, potensial membran saraf, baterai, sel bahan bakar, dan korosi.
 
 ::: {.strategi}
 **Pertanyaan pembuka**
@@ -144,6 +144,10 @@ Tabel 13.1 Potensial elektrode standar (reduksi) pada 25 °C.
 | $\text{PbO}_2 + 4\text{H}^+ + \text{SO}_4^{2-} + 2\text{e}^- \rightarrow \text{PbSO}_4 + 2\text{H}_2\text{O}$ | +1,691 |
 
 Tabel ini adalah deret volta Kimia Dasar yang diberi angka. Zat di bagian atas kiri (Li⁺, Na⁺) sangat sukar direduksi, sehingga bentuk tereduksinya (Li, Na) adalah **pereduksi** kuat. Zat di bagian bawah kiri (MnO₄⁻, PbO₂, Cl₂) mudah direduksi: **pengoksidasi** kuat. Bila dua setengah sel digabung, yang *E*°-nya lebih positif menjadi katode.
+
+Gambar 13.2 menyusun tabel yang sama sebagai tangga. Potensial sel standar dari dua pasangan mana pun adalah jarak tegak di antara kedua anak tangga, dengan pasangan yang lebih tinggi sebagai katode. Tangga ini juga memperlihatkan betapa jauhnya litium dan natrium dari pasangan lain: lebih dari 2 V di bawah hidrogen, alasan logam-logam ini bereaksi hebat dengan air dan alasan litium dipilih untuk baterai bertegangan tinggi (subbab 13.8).
+
+![Gambar 13.2 Tangga potensial elektrode standar dari Tabel 13.1. Makin tinggi letak pasangan, makin kuat bentuk teroksidasinya sebagai pengoksidasi; makin rendah, makin kuat bentuk tereduksinya sebagai pereduksi. Potensial sel adalah jarak antara dua anak tangga, misalnya 1,102 V untuk sel Daniell.](fig/tangga.png){width=86%}
 
 ::: {.contoh}
 **Contoh 13.3 · Logam mana yang larut dalam asam?**

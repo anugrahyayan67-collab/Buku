@@ -26,30 +26,59 @@
 
 # Pertanyaan
 
+## Subbab 12.1: Muatan listrik
+
 1. Menggosok balon pada rambut memberi balon muatan negatif. Apa yang terjadi pada rambut, dan hukum apa yang menjaminnya?
 2. Mengapa benda bermuatan dapat menarik benda netral, tetapi tidak pernah menolaknya?
 3. Mengapa percobaan listrik statis lebih mudah berhasil pada hari yang kering?
+
+## Subbab 12.2: Hukum Coulomb
+
 4. Gaya listrik jauh lebih kuat daripada gravitasi. Mengapa gerak planet ditentukan gravitasi, bukan gaya listrik?
+
+## Subbab 12.3: Medan listrik
+
 5. Mengapa garis medan listrik tidak pernah berpotongan?
 6. Apakah muatan yang dilepas dalam medan listrik selalu bergerak mengikuti garis medan? Jelaskan.
 7. Mengapa medan dipol melemah lebih cepat dengan jarak daripada medan muatan tunggal?
 8. Molekul CO₂ memiliki dua ikatan polar tetapi tidak bermomen dipol. Jelaskan.
+
+## Subbab 12.5: Hukum Gauss
+
 9. Mengapa medan listrik di dalam konduktor yang setimbang harus nol?
 10. Mengapa penangkal petir dibuat runcing?
 11. Jelaskan dengan hukum Gauss mengapa elektron valensi natrium hanya merasakan muatan inti efektif mendekati +1, bukan +11.
+
+## Subbab 12.6: Energi potensial dan potensial listrik
+
 12. Dapatkah potensial di suatu titik nol sedangkan medannya tidak nol? Dan sebaliknya? Beri contoh.
 13. Mengapa burung yang hinggap pada kabel tegangan tinggi tidak tersengat?
 14. Mengapa elektronvolt merupakan satuan energi yang cocok untuk atom dan molekul?
 15. Memindahkan elektron dari Na ke Cl memerlukan energi. Lalu mengapa NaCl terbentuk?
+
+## Subbab 12.7: Kapasitor
+
 16. Mengapa kapasitansi tidak bergantung pada muatan yang disimpan?
 17. Dari mana asal energi tambahan ketika pelat kapasitor terisolasi ditarik menjauh?
+
+## Subbab 12.8: Dielektrik
+
 18. Mengapa tetapan dielektrik air jauh lebih besar daripada heksana?
 19. Jelaskan dengan hukum Coulomb mengapa garam larut dalam air tetapi tidak dalam bensin.
 20. Mengapa titik lebur MgO jauh lebih tinggi daripada NaCl, padahal susunan kristalnya sama?
 21. Mengapa tegangan membran sel dapat berubah cepat tanpa mengubah konsentrasi ion di dalam sel secara berarti?
+
+## Subbab 12.9: Listrik dalam molekul dan kristal
+
 22. Urutkan dari yang terkuat: ikatan hidrogen, interaksi ion–ion, gaya dispersi London antara dua atom argon, interaksi ion–dipol. Bagaimana kebergantungannya pada jarak?
+
+## Subbab 12.10: Medan dari muatan yang tersebar
+
 23. Mengapa medan di pusat cincin bermuatan nol, padahal seluruh muatannya berada di dekat titik itu?
 24. Bagaimana menghitung medan cakram luas dengan menjumlahkan cincin memberi hasil yang sama dengan hukum Gauss?
+
+## Subbab 12.11: Elektrostatika larutan: perisai ion
+
 25. Mengapa gaya elektrostatik antara dua gugus bermuatan pada protein di dalam tubuh hampir tidak terasa pada jarak lebih dari satu nanometer?
 26. Mengapa ion bermuatan ganda menyumbang empat kali lebih banyak pada kekuatan ion?
 27. Mengapa lempung yang terbawa sungai mengendap di muara ketika bertemu air laut?

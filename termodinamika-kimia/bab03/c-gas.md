@@ -32,6 +32,22 @@ Dua mol N₂, yang dianggap gas ideal, dimampatkan pada 300 K dari 1,00 bar ke 1
 **Memahami hasil.** Pemampatan sekaligus memerlukan kerja hampir empat kali lebih besar daripada pemampatan reversibel, dan semua kelebihan itu keluar sebagai kalor ke lingkungan. Inilah sisi lain dari subbab 3.3: untuk ekspansi, proses reversibel **memberikan** kerja terbesar; untuk pemampatan, ia **memerlukan** kerja terkecil. Kompresor industri dirancang mendekati proses bertahap dengan pendinginan di antara tahap justru untuk menghemat kerja ini.
 :::
 
+::: {.contoh}
+**Contoh 3.10 · Memampatkan dalam satu, dua, dan tak terhingga tahap**
+
+Sebanyak 2,00 mol gas ideal pada 300 K dimampatkan secara isotermal dari 50,0 L ke 10,0 L. Hitung kerja yang harus diberikan bila pemampatan dilakukan (a) secara reversibel, (b) dalam satu tahap dengan tekanan luar tetap sama dengan tekanan akhir, (c) dalam dua tahap, mula-mula ke 25,0 L dengan tekanan luar sama dengan tekanan gas pada 25,0 L, lalu ke 10,0 L.
+
+**Gambaran fisis.** Pada pemampatan, piston harus didorong dengan tekanan yang **paling sedikit** sama dengan tekanan gas di akhir setiap tahap. Makin sedikit tahap, makin besar tekanan yang harus dipakai sejak awal, dan makin banyak kerja yang "terbuang".
+
+**Penyelesaian.** (a) Dari (3.10), $w = -nRT\ln(V_2/V_1) = -(2{,}00)(8{,}314)(300)\ln(10{,}0/50{,}0) = +8{,}03$ kJ.
+
+(b) Tekanan akhir $p_2 = nRT/V_2 = (2{,}00)(8{,}314)(300)/(0{,}0100\ \text{m}^3) = 4{,}99$ bar, sehingga $w = -p_2(V_2 - V_1) = -(4{,}99 \times 10^5\ \text{Pa})(-0{,}0400\ \text{m}^3) = +19{,}95$ kJ.
+
+(c) Tekanan gas pada 25,0 L adalah 2,00 bar. Tahap pertama: $w_1 = -(2{,}00 \times 10^5)(-0{,}0250) = +4{,}99$ kJ. Tahap kedua: $w_2 = -(4{,}99 \times 10^5)(-0{,}0150) = +7{,}48$ kJ. Totalnya +12,47 kJ.
+
+**Memahami hasil.** Pemampatan satu tahap memerlukan kerja dua setengah kali kerja reversibel, dan dua tahap sudah memangkas kelebihan itu lebih dari separuh. Dengan makin banyak tahap, kerjanya terus turun dan mendekati 8,03 kJ, tetapi tidak pernah lebih kecil. Pada pemuaian, urutannya terbalik: proses reversibel memberi kerja **paling banyak**. Kedua pernyataan itu adalah satu gagasan: proses reversibel adalah batas efisiensi, dan kerja yang hilang di proses nyata menjadi kalor yang harus dibuang (Bab 5 menyebut ukurannya entropi).
+:::
+
 ::: {.kuis}
 **Kuis cepat 3.7** Pada proses isotermal reversibel gas ideal, kalor masuk tetapi suhu tidak naik. Ke mana perginya kalor itu?
 :::
@@ -67,12 +83,12 @@ $$
 **Adiabat reversibel gas ideal.** Untuk gas monoatomik $\gamma = 5/3$; untuk gas diatomik pada suhu kamar $\gamma = 7/5$.
 :::
 
-Karena $\gamma > 1$, adiabat pada diagram *p*–*V* lebih curam daripada isoterm (Gambar 3.3). Pada ekspansi isotermal, kalor yang masuk menjaga suhu tetap, sehingga tekanan turun hanya karena volume bertambah. Pada ekspansi adiabatik, suhu juga turun, sehingga tekanan turun lebih cepat.
+Karena $\gamma > 1$, adiabat pada diagram *p*–*V* lebih curam daripada isoterm (Gambar 3.6). Pada ekspansi isotermal, kalor yang masuk menjaga suhu tetap, sehingga tekanan turun hanya karena volume bertambah. Pada ekspansi adiabatik, suhu juga turun, sehingga tekanan turun lebih cepat.
 
-![Gambar 3.3 Isoterm dan adiabat reversibel gas ideal yang berawal dari keadaan yang sama. Adiabat lebih curam karena suhu gas turun selama ekspansi; makin besar γ, makin curam adiabatnya.](fig/adiabat.png){width=66%}
+![Gambar 3.6 Isoterm dan adiabat reversibel gas ideal yang berawal dari keadaan yang sama. Adiabat lebih curam karena suhu gas turun selama ekspansi; makin besar γ, makin curam adiabatnya.](fig/adiabat.png){width=66%}
 
 ::: {.contoh}
-**Contoh 3.10 · Pompa sepeda**
+**Contoh 3.11 · Pompa sepeda**
 
 Udara ($\gamma = 1{,}40$) pada 25 °C dan 1,00 bar dimampatkan dengan cepat di dalam pompa sepeda sampai 4,00 bar. Taksir suhu udara di akhir pemampatan bila prosesnya dianggap adiabatik reversibel.
 
@@ -85,7 +101,7 @@ $$
 :::
 
 ::: {.contoh}
-**Contoh 3.11 · Mesin diesel menyalakan bahan bakar tanpa busi**
+**Contoh 3.12 · Mesin diesel menyalakan bahan bakar tanpa busi**
 
 Mesin diesel memampatkan udara dengan perbandingan volume 18 : 1 sebelum menyemprotkan solar. Taksir suhu udara pada akhir pemampatan bila suhu awalnya 300 K, dengan $\gamma = 1{,}40$.
 
@@ -95,7 +111,7 @@ Mesin diesel memampatkan udara dengan perbandingan volume 18 : 1 sebelum menyemp
 :::
 
 ::: {.contoh}
-**Contoh 3.12 · Argon yang mendingin**
+**Contoh 3.13 · Argon yang mendingin**
 
 Satu mol argon ($C_{V,\text{m}} = \tfrac32R$) pada 300 K dan 10,0 bar memuai secara adiabatik reversibel sampai 1,00 bar. Hitung suhu akhir dan kerja yang dilakukan.
 
@@ -141,10 +157,12 @@ Tabel 3.1 Kapasitas kalor molar pada volume tetap beberapa gas.
 
 Untuk gas monoatomik dan N₂, ramalan ekuipartisi tepat sekali, **asalkan getaran diabaikan**. Bila getaran ikut dihitung, N₂ seharusnya mempunyai $\tfrac72R = 29{,}1$ J K⁻¹ mol⁻¹, jauh di atas nilai terukur. Mengapa getaran tidak ikut menyerap energi?
 
+![Gambar 3.7 Kapasitas kalor molar hidrogen terhadap suhu (skematis). Pada suhu sangat rendah hanya translasi yang aktif ($\tfrac32 R$). Rotasi "bangun" di sekitar 100 K, sehingga pada suhu kamar $C_{V,\text{m}} \approx \tfrac52 R$. Getaran baru menyumbang di atas sekitar 1000 K.](fig/cv.png){width=78%}
+
 Jawabannya datang dari mekanika kuantum (*Kimia Kuantum* Bab 5). Energi getaran terkuantisasi: molekul hanya dapat menyerap energi getaran dalam paket sebesar *hν*. Bila *kT* jauh lebih kecil daripada *hν*, hampir tidak ada tumbukan yang cukup kuat untuk mengeksitasi getaran, dan mode itu praktis "membeku". Untuk N₂, *hν/k* sekitar 3400 K, sebelas kali suhu kamar. Untuk Cl₂, yang ikatannya lebih lemah dan atomnya lebih berat, *hν/k* hanya sekitar 800 K, sehingga getarannya sudah sebagian aktif pada suhu kamar. Untuk CO₂, dua mode tekuknya yang berfrekuensi rendah juga sebagian aktif. Inilah sebabnya Cl₂ dan CO₂ mempunyai kapasitas kalor di atas ramalan ekuipartisi tanpa getaran.
 
 ::: {.contoh}
-**Contoh 3.13 · Getaran klorin yang setengah bangun**
+**Contoh 3.14 · Getaran klorin yang setengah bangun**
 
 Bilangan gelombang getaran Cl₂ adalah 560 cm⁻¹. Model kuantum (Einstein) memberi sumbangan getaran pada kapasitas kalor
 $$
@@ -162,7 +180,7 @@ Totalnya $20{,}79 + 4{,}68 = 25{,}5$ J K⁻¹ mol⁻¹, hampir tepat nilai teruk
 :::
 
 ::: {.contoh}
-**Contoh 3.14 · Menghitung γ dari ekuipartisi**
+**Contoh 3.15 · Menghitung γ dari ekuipartisi**
 
 Hitung $\gamma = C_{p,\text{m}}/C_{V,\text{m}}$ untuk gas monoatomik, diatomik (tanpa getaran), dan tak linear (tanpa getaran), dengan $C_{p,\text{m}} = C_{V,\text{m}} + R$.
 

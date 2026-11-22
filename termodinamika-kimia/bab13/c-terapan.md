@@ -11,12 +11,12 @@ $$
 
 Ini cara yang sangat elegan: tiga besaran termodinamika utama sebuah reaksi, $\Delta_\text{r}G$, $\Delta_\text{r}S$, dan $\Delta_\text{r}H$, diperoleh dari voltmeter dan termometer saja, tanpa kalorimeter. Dan karena tegangan dapat diukur sangat teliti, hasilnya sering lebih baik daripada pengukuran kalorimetri langsung.
 
-![Gambar 13.3 Potensial standar sel Pt|H₂|HCl|AgCl|Ag terhadap suhu (titik: pengukuran klasik Bates dan Bower; kurva: polinom kuadrat). Garis putus-putus adalah garis singgung di 25 °C, yang kemiringannya memberi $\Delta_\text{r}S^\circ$.](fig/ET.png){width=70%}
+![Gambar 13.6 Potensial standar sel Pt|H₂|HCl|AgCl|Ag terhadap suhu (titik: pengukuran klasik Bates dan Bower; kurva: polinom kuadrat). Garis putus-putus adalah garis singgung di 25 °C, yang kemiringannya memberi $\Delta_\text{r}S^\circ$.](fig/ET.png){width=70%}
 
 ::: {.contoh}
 **Contoh 13.11 · Termodinamika lengkap dari satu sel**
 
-Untuk sel Pt|H₂|HCl|AgCl|Ag (reaksi $\tfrac12\text{H}_2 + \text{AgCl} \rightarrow \text{Ag} + \text{H}^+ + \text{Cl}^-$, *n* = 1), $E^\circ = 0{,}2224$ V dan $dE^\circ/dT = -0{,}637$ mV K⁻¹ pada 25 °C (Gambar 13.3). Hitung $\Delta_\text{r}G^\circ$, $\Delta_\text{r}S^\circ$, dan $\Delta_\text{r}H^\circ$, lalu bandingkan dengan tabel: $\Delta_\text{f}H^\circ$ AgCl(s) = −127,07 dan HCl(aq) = −167,16 kJ mol⁻¹.
+Untuk sel Pt|H₂|HCl|AgCl|Ag (reaksi $\tfrac12\text{H}_2 + \text{AgCl} \rightarrow \text{Ag} + \text{H}^+ + \text{Cl}^-$, *n* = 1), $E^\circ = 0{,}2224$ V dan $dE^\circ/dT = -0{,}637$ mV K⁻¹ pada 25 °C (Gambar 13.6). Hitung $\Delta_\text{r}G^\circ$, $\Delta_\text{r}S^\circ$, dan $\Delta_\text{r}H^\circ$, lalu bandingkan dengan tabel: $\Delta_\text{f}H^\circ$ AgCl(s) = −127,07 dan HCl(aq) = −167,16 kJ mol⁻¹.
 
 **Penyelesaian.**
 $$
@@ -102,8 +102,10 @@ Pada 25 °C, sebuah pH meter menunjukkan 0,4120 V dalam penyangga pH 7,00. Dalam
 
 **Penyelesaian.** Dari (13.8), selisih tegangan $0{,}5890 - 0{,}4120 = 0{,}1770$ V. Karena *E* naik ketika pH turun: $\Delta\text{pH} = -0{,}1770/0{,}059\,16 = -2{,}99$. pH sampel = 7,00 − 2,99 = 4,01.
 
-**Memahami hasil.** Satu satuan pH setara 59 mV. Untuk mengukur pH sampai 0,01, tegangan harus diukur sampai 0,6 mV, dan suhu harus diperhatikan, karena kemiringan $RT\ln10/F$ berubah 0,2 mV per derajat per satuan pH. pH meter yang baik menyertakan sensor suhu untuk mengoreksinya secara otomatis.
+**Memahami hasil.** Satu satuan pH setara 59 mV. Untuk mengukur pH sampai 0,01, tegangan harus diukur sampai 0,6 mV, dan suhu harus diperhatikan, karena kemiringan $RT\ln10/F$ berubah 0,2 mV per derajat per satuan pH. pH meter yang baik menyertakan sensor suhu untuk mengoreksinya secara otomatis (Gambar 13.7).
 :::
+
+![Gambar 13.7 Garis kalibrasi pH meter: potensial sel elektrode kaca terhadap pH, dengan titik kalibrasi pH 7,00 pada 0,4120 V. Kemiringan $RT\ln10/F$ bergantung pada suhu, sehingga garis 25 °C dan 40 °C berpotongan di titik kalibrasi tetapi menyimpang makin jauh darinya.](fig/phmeter.png){width=80%}
 
 ::: {.kuis}
 **Kuis cepat 13.7** Mengapa pH meter yang dikalibrasi pada 25 °C memberi pembacaan yang salah bila sampelnya pada 40 °C, walaupun tetapannya tidak berubah?
@@ -147,10 +149,74 @@ Baterai adalah sel elektrokimia yang dikemas. Termodinamika menentukan dua angka
 **Kuis cepat 13.8** Mengapa lapisan timah pada kaleng melindungi besi selama utuh, tetapi mempercepat karat bila tergores, sedangkan lapisan seng tidak?
 :::
 
-## Penutup: satu fungsi, banyak wajah
+## 13.9 Diagram Pourbaix dan korosi
 
-Kita memulai buku ini dengan molekul gas yang bergerak acak di dalam wadah, dan mengakhirinya dengan sinyal di sel saraf dan baterai di telepon genggam. Di antara keduanya, hampir setiap gejala yang kita bahas dapat ditelusuri ke satu besaran: energi Gibbs, dan turunannya, potensial kimia.
+Jembatan besi, kerangka kapal, dan pipa air semuanya berkarat, tetapi tidak dengan laju yang sama. Besi di air laut berkarat jauh lebih cepat daripada di air sungai; besi di dalam beton yang basa hampir tidak berkarat; dan besi yang disambungkan ke sepotong seng bertahan bertahun-tahun di laut. Semua pengamatan itu dapat dibaca dari satu peta yang menggabungkan persamaan Nernst dengan kesetimbangan asam–basa dan kelarutan: **diagram Pourbaix**, atau diagram potensial–pH.
 
-Hukum pertama memberi kita neraca energi: kalor dan kerja tidak hilang. Hukum kedua memberi arah: entropi alam semesta tidak berkurang. Energi Gibbs menggabungkan keduanya menjadi satu kriteria yang hanya memerlukan sifat sistem, dan potensial kimia memecahnya menjadi sumbangan setiap zat. Dari sana muncul semuanya: titik didih yang turun di gunung, es yang mencair ketika ditekan, garam yang menurunkan titik beku, osmosis yang memecah sel darah, distilasi yang memisahkan minyak bumi, kesetimbangan yang memberi makan dunia, dan tegangan sel yang mengukur semuanya dengan sebuah voltmeter.
+### Membangun peta
 
-Termodinamika mempunyai satu keterbatasan yang sudah kita temui berulang kali: ia mengatakan ke mana proses **dapat** berjalan, tetapi tidak seberapa cepat. Intan seharusnya berubah menjadi grafit, benzena seharusnya terurai, dan kayu di udara seharusnya terbakar; semuanya tidak terjadi karena **laju**. Pertanyaan tentang laju, tentang mengapa reaksi memerlukan energi aktivasi dan bagaimana katalis bekerja, adalah pokok buku berikutnya dalam seri ini: *Kimia Fisika 2: Kinetika Kimia*.
+Gambar 13.4 sudah memperlihatkan contoh paling sederhana: jendela kestabilan air, dibatasi dua garis miring $E = 1{,}229 - 0{,}059\,16\,\text{pH}$ (O₂/H₂O) dan $E = -0{,}059\,16\,\text{pH}$ (H₂O/H₂). Untuk suatu logam, kita menambahkan garis untuk setiap kesetimbangan antara spesiesnya. Ada tiga jenis garis:
+
+* **Garis mendatar**: reaksi redoks tanpa H⁺ atau OH⁻, misalnya $\text{Fe}^{2+} + 2e^- \rightleftharpoons \text{Fe}$. Potensialnya tidak bergantung pada pH.
+* **Garis tegak**: reaksi asam–basa atau pengendapan tanpa elektron, misalnya $\text{Fe}^{3+} + 3\text{OH}^- \rightleftharpoons \text{Fe(OH)}_3$. Batasnya hanya bergantung pada pH.
+* **Garis miring**: reaksi yang melibatkan elektron dan H⁺ sekaligus, misalnya $\text{Fe(OH)}_3 + 3\text{H}^+ + e^- \rightleftharpoons \text{Fe}^{2+} + 3\text{H}_2\text{O}$. Menurut persamaan Nernst, kemiringannya $-0{,}059\,16\,m/n$ V per satuan pH, dengan *m* jumlah H⁺ dan *n* jumlah elektron.
+
+Untuk ion terlarut kita harus memilih satu aktivitas sebagai batas. Ahli korosi biasanya memakai 10⁻⁶: di bawah kadar itu, logam dianggap "tidak berkarat" untuk keperluan praktis.
+
+::: {.contoh}
+**Contoh 13.18 · Tiga garis batas untuk besi**
+
+Pakai $E^\circ(\text{Fe}^{2+}/\text{Fe}) = -0{,}447$ V, $E^\circ(\text{Fe}^{3+}/\text{Fe}^{2+}) = +0{,}771$ V, $K_\text{sp}(\text{Fe(OH)}_3) = 2{,}79 \times 10^{-39}$, $K_\text{sp}(\text{Fe(OH)}_2) = 4{,}87 \times 10^{-17}$, dan aktivitas ion terlarut 10⁻⁶. Hitung (a) potensial batas Fe/Fe²⁺, (b) pH tempat Fe(OH)₃ mulai mengendap dari Fe³⁺, (c) pH tempat Fe(OH)₂ mulai mengendap dari Fe²⁺.
+
+**Penyelesaian.** (a) Dari persamaan Nernst untuk $\text{Fe}^{2+} + 2e^- \to \text{Fe}$,
+$$
+E = -0{,}447 + \frac{0{,}059\,16}{2}\log(10^{-6}) = -0{,}624\ \text{V} .
+$$
+(b) Pengendapan dimulai bila $[\text{OH}^-]^3 = K_\text{sp}/[\text{Fe}^{3+}] = 2{,}79 \times 10^{-33}$, yaitu $[\text{OH}^-] = 1{,}41 \times 10^{-11}$, pOH = 10,85, **pH = 3,15**.
+
+(c) $[\text{OH}^-]^2 = 4{,}87 \times 10^{-17}/10^{-6}$, sehingga $[\text{OH}^-] = 6{,}98 \times 10^{-6}$ dan **pH = 8,84**.
+
+**Memahami hasil.** Fe(OH)₃ sudah mengendap pada larutan yang cukup asam (pH 3), karena *K*$_\text{sp}$-nya luar biasa kecil, sedangkan Fe(OH)₂ baru mengendap pada larutan basa. Garis miring Fe(OH)₃/Fe²⁺ menghubungkan kedua batas itu dengan kemiringan $-3(0{,}059\,16) = -0{,}177$ V per pH, karena reaksinya memakai tiga H⁺ untuk satu elektron.
+:::
+
+Bila semua garis digambar, peta besi terbagi menjadi tiga jenis daerah (Gambar 13.8):
+
+* **kekebalan**: di bawah −0,62 V, besi logam adalah bentuk yang stabil, dan besi tidak dapat berkarat;
+* **korosi**: daerah Fe²⁺ dan Fe³⁺ terlarut, tempat besi larut terus-menerus;
+* **pasivasi**: daerah Fe(OH)₃ (yang mengering menjadi Fe₂O₃) dan Fe(OH)₂. Di sini besi tetap teroksidasi, tetapi hasilnya padatan yang dapat menutup permukaan.
+
+![Gambar 13.8 Diagram Pourbaix besi yang disederhanakan pada 25 °C, dengan aktivitas ion terlarut 10⁻⁶ (hanya Fe, Fe²⁺, Fe³⁺, Fe(OH)₂, dan Fe(OH)₃). Garis putus-putus adalah batas kestabilan air (Gambar 13.4). Titik pada pH 7 menandai potensial O₂/H₂O di air netral yang jenuh udara.](fig/pourbaix.png){width=82%}
+
+### Membaca peta: mengapa besi berkarat, dan bagaimana mencegahnya
+
+Di air netral yang jenuh udara, oksigen dapat menarik potensial permukaan logam sampai mendekati garis O₂/H₂O, sekitar +0,8 V pada pH 7 (titik pada Gambar 13.8). Seluruh rentang antara −0,62 V dan +0,8 V berada di atas daerah kekebalan, sehingga besi **pasti** teroksidasi; termodinamika tidak memberi jalan keluar. Yang menentukan nasibnya adalah hasil oksidasinya. Pada pH 7, garis Fe(OH)₃/Fe²⁺ melintas di sekitar +0,1 V, sehingga besi yang potensialnya di bawah nilai itu larut sebagai Fe²⁺ dan baru mengendap sebagai karat setelah teroksidasi lebih lanjut di larutan. Karat yang terbentuk jauh dari logam itu berpori dan tidak melindungi.
+
+Diagram ini langsung memberi tiga strategi perlindungan:
+
+1. **Menaikkan pH.** Beton mempunyai pH sekitar 12,5. Pada pH itu besi berada di daerah pasivasi pada hampir semua potensial yang mungkin, sehingga tulangan baja di dalam beton tetap utuh. Bila beton terkarbonasi oleh CO₂ udara dan pH-nya turun di bawah sekitar 9, tulangan mulai berkarat.
+2. **Menurunkan potensial (proteksi katodik).** Bila besi disambungkan ke logam yang lebih aktif, misalnya seng ($E^\circ = -0{,}762$ V) atau magnesium, logam itu yang teroksidasi dan memasok elektron ke besi, sehingga potensial besi ditarik ke daerah kekebalan. Seng "dikorbankan" dan harus diganti berkala. Lambung kapal dan pipa bawah tanah dilindungi dengan cara ini, juga dengan arus listrik dari luar.
+3. **Menaikkan potensial ke daerah pasif.** Pada baja tahan karat, kromium membentuk lapisan Cr₂O₃ yang sangat rapat dan pasif dalam rentang potensial dan pH yang jauh lebih lebar daripada besi.
+
+::: {.contoh}
+**Contoh 13.19 · Proteksi katodik dengan seng**
+
+Lambung kapal besi di air laut (pH ≈ 8) disambungkan ke balok seng. (a) Dengan [Zn²⁺] = 10⁻⁶, berapa potensial Zn²⁺/Zn? (b) Apakah potensial itu cukup rendah untuk membawa besi ke daerah kekebalan? (c) Berapa massa seng yang habis per tahun bila arus perlindungan rata-rata 2,0 A?
+
+**Penyelesaian.** (a) $E = -0{,}762 + (0{,}059\,16/2)\log(10^{-6}) = -0{,}939$ V.
+
+(b) Batas kekebalan besi adalah −0,624 V (Contoh 13.18). Potensial seng 0,32 V lebih negatif, sehingga besi yang tersambung baik ke seng berada di daerah kekebalan.
+
+(c) Muatan per tahun $Q = (2{,}0\ \text{A})(3{,}156 \times 10^7\ \text{s}) = 6{,}31 \times 10^7$ C. Seng melepas dua elektron per atom, sehingga $n = Q/2F = 327$ mol, dan massanya $(327)(65{,}38) = 21$ kg.
+
+**Memahami hasil.** Termodinamika menjamin perlindungan selama seng masih ada dan tersambung baik; laju habisnya seng ditentukan oleh arus, yaitu oleh kinetika reaksi di permukaan dan luas lambung yang harus dilindungi. Pada potensial serendah −0,94 V, air pun dapat tereduksi menjadi H₂ (garis bawah Gambar 13.8 terletak di sekitar −0,47 V pada pH 8), sehingga sebagian arus terbuang untuk membentuk gas hidrogen. Perlindungan yang berlebihan juga merugikan, karena hidrogen dapat masuk ke baja dan membuatnya getas.
+:::
+
+::: {.kuis}
+**Kuis cepat 13.9** Menurut Gambar 13.8, apakah besi lebih tahan karat di air pH 3 yang jenuh udara atau di air pH 11 yang jenuh udara? Jelaskan dengan daerah pada diagram.
+:::
+
+### Menuju bab berikutnya
+
+Dengan bab ini, bangunan termodinamika klasik selesai. Hukum pertama dan kedua, energi Gibbs, dan potensial kimia telah membawa kita dari gas ideal sampai baterai dan korosi, dan semuanya dapat diukur: kalor dengan kalorimeter, tekanan dengan manometer, energi Gibbs dengan voltmeter. Tetapi ada satu pertanyaan yang tidak pernah dijawab oleh termodinamika klasik: **dari mana** angka-angka dalam tabel itu berasal? Mengapa entropi argon 154,84 J K⁻¹ mol⁻¹ dan bukan angka lain? Mengapa kapasitas kalor klorin lebih besar daripada nitrogen?
+
+Bab berikutnya menjawabnya dengan turun ke tingkat molekul. **Termodinamika statistik** menghitung energi dalam, entropi, energi Gibbs, dan tetapan kesetimbangan dari tingkat-tingkat energi molekul yang dibaca dari spektrum. Alat utamanya hanya satu: sebaran Boltzmann, $e^{-\varepsilon/kT}$, dan fungsi partisi yang merangkumnya.

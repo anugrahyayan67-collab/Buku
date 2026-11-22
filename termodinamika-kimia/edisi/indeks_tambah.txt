@@ -249,3 +249,51 @@ tegangan termonetral
 overpotensial
 korosi
 anode korban
+termodinamika statistik
+keadaan mikro
+bobot konfigurasi
+asas peluang a priori sama
+pendekatan Stirling
+sebaran Boltzmann
+faktor Boltzmann
+pengali Lagrange
+fungsi partisi
+fungsi partisi kanonik
+panjang gelombang termal
+suhu rotasi karakteristik
+suhu getaran karakteristik
+bilangan simetri
+fungsi Einstein
+padatan Einstein
+hukum Dulong–Petit
+rumus Sackur–Tetrode
+entropi residu
+paradoks Gibbs
+efek isotop
+rumus barometrik
+tinggi skala
+anomali Schottky
+tegangan permukaan
+entalpi permukaan
+persamaan Young–Laplace
+persamaan Young
+sudut kontak
+kerja adhesi
+kenaikan kapiler
+persamaan Kelvin
+kondensasi kapiler
+pematangan Ostwald
+nukleasi homogen
+nukleasi heterogen
+jari-jari kritis
+kelebihan permukaan
+persamaan adsorpsi Gibbs
+surfaktan
+misel
+konsentrasi misel kritis
+efek hidrofobik
+fisisorpsi
+kemisorpsi
+isoterm Langmuir
+isoterm BET
+luas permukaan spesifik

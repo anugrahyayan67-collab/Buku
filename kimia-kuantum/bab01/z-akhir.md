@@ -30,26 +30,55 @@
 
 # Pertanyaan
 
+## Subbab 1.1: Kimia kuantum dan cakupannya
+
 1. Sebutkan lima pengamatan yang tidak dapat dijelaskan fisika klasik, dan untuk masing-masing, gagasan kuantum yang menjelaskannya.
+
+## Subbab 1.2: Krisis fisika klasik
+
 2. Mengapa asas ekuipartisi meramalkan kapasitas kalor yang tidak bergantung pada suhu? Bagian mana dari asas itu yang gagal?
+
+## Subbab 1.3: Radiasi benda hitam: Rayleigh–Jeans dan penurunan rumus Planck
+
 3. Dalam penurunan rumus Rayleigh–Jeans, mengapa kerapatan mode sebanding dengan $\nu^2$? Mengapa hal itu menimbulkan bencana ultraviolet?
 4. Kuantisasi Planck tidak mengubah banyaknya mode dalam rongga. Lalu bagaimana ia menghilangkan bencana ultraviolet?
 5. Mengapa tetapan Planck lenyap dari rumus Planck pada limit frekuensi rendah? Apa makna fisisnya?
 6. Kapasitas kalor intan pada suhu kamar jauh di bawah $3R$, sedangkan timbal hampir tepat $3R$. Jelaskan dengan model Einstein.
 7. Mengapa gas N₂ pada suhu kamar mempunyai $C_{V,m} \approx \tfrac52R$, sedangkan I₂ mendekati $\tfrac72R$?
+
+## Subbab 1.4: Efek fotolistrik dan foton
+
 8. Mengapa cahaya merah yang sangat terang tidak dapat melepaskan elektron dari seng, sedangkan ultraviolet yang redup dapat?
 9. Fungsi kerja natrium (2,75 eV) jauh lebih kecil daripada energi ionisasi atom natrium (5,14 eV). Mengapa?
 10. Apa yang dapat dipelajari dari spektrum fotoelektron sebuah molekul? Mengapa sebagian pitanya memperlihatkan deret puncak yang rapat?
+
+## Subbab 1.5: Efek Compton
+
 11. Mengapa efek Compton mudah diamati dengan sinar-X tetapi tidak dengan cahaya tampak? Mengapa sebagian sinar-X terhambur tanpa pergeseran?
+
+## Subbab 1.6: Spektrum atom dan model Bohr
+
 12. Bagaimana model Bohr menjelaskan rumus Rydberg? Sebutkan tiga kegagalan model itu.
 13. Mengapa garis spektrum deuterium sedikit bergeser dari garis hidrogen? Ke arah mana?
 14. Bagaimana hukum Moseley mengubah cara unsur disusun dalam tabel periodik?
+
+## Subbab 1.7: Hipotesis de Broglie dan difraksi elektron
+
 15. Bagaimana hipotesis de Broglie memberi makna pada syarat kuantisasi momentum sudut Bohr?
 16. Mengapa difraksi neutron lebih baik daripada difraksi sinar-X untuk menentukan kedudukan atom hidrogen?
+
+## Subbab 1.8: Percobaan celah ganda dan dualisme
+
 17. Dalam percobaan celah ganda dengan elektron satu per satu, apa yang "berinterferensi"? Mengapa membuka celah kedua dapat mengurangi peluang elektron sampai ke suatu titik?
 18. Apa beda menjumlahkan amplitudo dan menjumlahkan peluang? Kapan masing-masing dilakukan?
+
+## Subbab 1.9: Asas ketidakpastian
+
 19. Jelaskan dengan asas ketidakpastian mengapa elektron dalam atom tidak jatuh ke inti dan mengapa molekul tetap bergetar pada nol mutlak.
 20. Mengapa keadaan tereksitasi yang berumur sangat pendek memberikan pita spektrum yang lebar?
+
+## Subbab 1.10: Skala energi dalam kimia: eV, cm⁻¹, kJ/mol, hartree
+
 21. Mengapa satuan cm⁻¹ disukai spektroskopiwan, kJ/mol oleh termokimiawan, dan hartree oleh kimiawan teori? Apa hubungan eV dengan tetapan Faraday?
 22. Mengapa NMR jauh kurang peka daripada spektroskopi UV-Vis, padahal keduanya mengukur serapan?
 

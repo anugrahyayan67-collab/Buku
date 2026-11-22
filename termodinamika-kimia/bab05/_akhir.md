@@ -18,22 +18,50 @@
 
 # Pertanyaan
 
+## Subbab 5.1: Proses spontan dan arah perubahan
+
 1. Mengapa hukum pertama tidak dapat menentukan arah suatu proses?
 2. Berikan tiga contoh proses spontan dan jelaskan masing-masing sebagai penyebaran materi atau energi.
+
+## Subbab 5.2: Mesin kalor dan pernyataan hukum kedua
+
 3. Mengapa setiap mesin kalor harus membuang sebagian kalor ke penampung yang lebih dingin?
 4. Jelaskan dengan kata-katamu sendiri kesetaraan pernyataan Kelvin dan Clausius.
-5. Mengapa siklus Carnot harus terdiri atas dua isoterm dan dua adiabat?
-6. Mengapa efisiensi Carnot tidak bergantung pada zat kerja mesin?
-7. Mengapa pembangkit listrik berusaha memakai uap sepanas mungkin?
-8. Mengapa koefisien kinerja pompa kalor dapat lebih besar dari 1 tanpa melanggar hukum pertama?
-9. Apa yang membuat $q_\text{rev}/T$ menjadi fungsi keadaan, padahal $q_\text{rev}$ sendiri bukan?
-10. Mengapa Δ*S* sistem dihitung sepanjang jalan reversibel walaupun prosesnya tak reversibel?
-11. Mengapa penguapan mempunyai perubahan entropi jauh lebih besar daripada peleburan?
-12. Apa arti "entropi diciptakan" dalam proses tak reversibel?
-13. Jelaskan mengapa kompres dingin bekerja walaupun prosesnya endoterm.
-14. Apa yang dihitung oleh *W* dalam rumus Boltzmann?
-15. Mengapa hukum kedua, walaupun bersifat statistik, tidak pernah dilanggar dalam sistem makroskopik?
-16. Apa asal entropi residu CO dan es?
+5. Mengapa kalor tidak dapat diubah seluruhnya menjadi kerja dalam siklus, padahal kerja dapat diubah seluruhnya menjadi kalor (misalnya oleh gesekan)?
+
+## Subbab 5.3: Siklus Carnot tahap demi tahap
+
+6. Mengapa siklus Carnot harus terdiri atas dua isoterm dan dua adiabat?
+
+## Subbab 5.4: Efisiensi mesin Carnot
+
+7. Mengapa efisiensi Carnot tidak bergantung pada zat kerja mesin?
+8. Mengapa pembangkit listrik berusaha memakai uap sepanas mungkin?
+9. Efisiensi Carnot tidak bergantung pada zat kerja. Mengapa hal ini mengejutkan, dan apa yang dibuktikannya tentang skala suhu?
+
+## Subbab 5.5: Mesin pendingin dan pompa kalor
+
+10. Mengapa koefisien kinerja pompa kalor dapat lebih besar dari 1 tanpa melanggar hukum pertama?
+
+## Subbab 5.6: Entropi sebagai fungsi keadaan
+
+11. Apa yang membuat $q_\text{rev}/T$ menjadi fungsi keadaan, padahal $q_\text{rev}$ sendiri bukan?
+12. Mengapa Δ*S* sistem dihitung sepanjang jalan reversibel walaupun prosesnya tak reversibel?
+13. Mengapa penguapan mempunyai perubahan entropi jauh lebih besar daripada peleburan?
+14. Mengapa Δ*S* harus dihitung dengan kalor reversibel walaupun proses yang sebenarnya tak reversibel?
+
+## Subbab 5.7: Ketaksamaan Clausius
+
+15. Apa arti "entropi diciptakan" dalam proses tak reversibel?
+16. Jelaskan mengapa kompres dingin bekerja walaupun prosesnya endoterm.
+17. Jelaskan mengapa hukum kedua sering dikatakan menetapkan "arah waktu".
+
+## Subbab 5.8: Entropi dan peluang: rumus Boltzmann
+
+18. Apa yang dihitung oleh *W* dalam rumus Boltzmann?
+19. Mengapa hukum kedua, walaupun bersifat statistik, tidak pernah dilanggar dalam sistem makroskopik?
+20. Apa asal entropi residu CO dan es?
+21. Hukum kedua menurut Boltzmann bersifat statistik. Mengapa kita tidak pernah melihat pelanggarannya dalam sistem makroskopik?
 
 # Soal
 
@@ -67,6 +95,14 @@ S_\text{residu} = k\ln\left(\tfrac32\right)^{N_\text{A}} = R\ln\tfrac32 = (8{,}3
 $$
 
 *Cara berpikir:* setiap atom O dikelilingi empat atom H, dua dekat (ikatan kovalen) dan dua jauh (ikatan hidrogen). Ada $\binom42 = 6$ cara memilih dua H yang dekat, tetapi setiap ikatan O···H–O juga harus konsisten dengan tetangganya, yang secara rata-rata memotong pilihan itu menjadi 3/2 per molekul. Kecocokan dengan pengukuran kalorimetri (3,4 J K⁻¹ mol⁻¹) membuktikan bahwa susunan proton dalam es memang acak.
+
+**Soal {{campurair}}.** Kedua bagian air bermassa sama, jadi suhu akhirnya rata-rata, 50 °C = 323,15 K. Proses nyata ini tak reversibel, tetapi entropi adalah fungsi keadaan, sehingga kita boleh menghitung Δ*S* setiap bagian sepanjang pemanasan atau pendinginan reversibel antara keadaan yang sama:
+$$
+\Delta S = mc\ln\frac{T_\text{akhir}}{T_\text{awal}} .
+$$
+Air panas: $(100)(4{,}184)\ln(323{,}15/353{,}15) = -37{,}13$ J K⁻¹. Air dingin: $(100)(4{,}184)\ln(323{,}15/293{,}15) = +40{,}75$ J K⁻¹. Totalnya +3,62 J K⁻¹. Wadah terisolasi, jadi entropi lingkungan tidak berubah.
+
+*Cara berpikir:* air dingin menerima kalor yang sama besar dengan yang dilepas air panas, tetapi pada suhu yang lebih rendah. Karena kenaikan entropi sebanding dengan $dq/T$, joule yang sama "bernilai" lebih banyak entropi bagi benda dingin. Itulah sebabnya pencampuran ini selalu menaikkan entropi total, dan kebalikannya, air hangat memisah sendiri menjadi bagian panas dan dingin, tidak pernah terjadi. Pola "hitung Δ*S* lewat jalur reversibel pengganti" dipakai lagi di Bab 6 untuk perubahan fasa dan reaksi.
 
 # Bacaan lanjut
 

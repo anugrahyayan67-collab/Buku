@@ -1,51 +1,53 @@
 ## Subbab 8.1: Fasa, transisi fasa, dan kestabilan
 
-> Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹; untuk air $\Delta_\text{fus}H = 6{,}01$ kJ mol⁻¹, $\Delta_\text{vap}H = 40{,}66$ kJ mol⁻¹ pada 100 °C dan 45,05 kJ mol⁻¹ pada 0 °C, titik tripel 273,16 K dan 611,657 Pa. Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab.
-
-**Dasar**
+> Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹; untuk air $\Delta_\text{fus}H = 6{,}01$ kJ mol⁻¹, $\Delta_\text{vap}H = 40{,}66$ kJ mol⁻¹ pada 100 °C dan 45,05 kJ mol⁻¹ pada 0 °C, titik tripel 273,16 K dan 611,657 Pa. Soal bertanda **[P]** dibahas di akhir bab.
 
 Berapa banyak fasa dalam (a) larutan garam jenuh dengan endapan garam di dasarnya; (b) campuran es biasa dan es kering di dalam kotak pendingin (abaikan udara)? ||| (a) 2; (b) 2
 Hitung Δ*G* pembekuan air dingin-lewat pada −20 °C. ||| −440 J mol⁻¹
 Apa yang dimaksud keadaan metastabil? Berikan dua contoh. ||| μ lebih tinggi daripada fasa stabil, tetapi perubahannya terhambat; air dingin-lewat, intan
 
-**Menengah**
-
 Dengan data Contoh 8.3, hitung Δ*G* timah putih → timah abu-abu pada 0 °C. ||| −96 J mol⁻¹
 Mengapa air dingin-lewat langsung membeku bila ditambahkan sebutir kristal es? ||| kristal itu menjadi inti, sehingga penghalang pembentukan inti hilang
 
-## Subbab 8.2: Syarat kesetimbangan fasa
 
-**Dasar**
+Dari Gambar 8.1, jelaskan mengapa titik didih naik bila tekanan dinaikkan, sedangkan titik leleh hampir tidak berubah. ||| μ gas naik banyak dengan tekanan (*V*$_\text{m}$ besar); μ padat dan cair hampir tetap
+Mengapa garis μ gas lebih curam daripada garis μ cair pada diagram μ–*T*? ||| kemiringan −*S*$_\text{m}$; entropi gas lebih besar
+Apa yang terjadi pada titik leleh bila garis μ padat dan cair hampir sejajar? ||| titik potongnya sangat peka terhadap perubahan kecil; tekanan atau pengotor menggeser titik leleh banyak
+
+## Subbab 8.2: Syarat kesetimbangan fasa
 
 Tuliskan syarat kesetimbangan antara es dan air cair. ||| $\mu(\text{es}) = \mu(\text{air})$ pada *T* dan *p* yang sama
 Pada 25 °C, hitung $\mu(g) - \mu(l)$ air bila tekanan uapnya 0,0200 bar ($\Delta_\text{vap}G^\circ = 8{,}55$ kJ mol⁻¹). Apakah air menguap? ||| −1,15 kJ mol⁻¹; ya
 
-**Menengah**
-
 Udara pada 25 °C mempunyai kelembapan relatif 50%, artinya tekanan parsial uap air setengah tekanan uap jenuhnya. Hitung $\mu(g) - \mu(l)$. ||| −1,72 kJ mol⁻¹
 Mengapa persamaan $\mu(\alpha) = \mu(\beta)$ menghasilkan garis, bukan titik atau daerah, pada bidang *p*–*T*? ||| satu persamaan dengan dua variabel
 
-## Subbab 8.3: Persamaan Clapeyron
 
-**Dasar**
+Mengapa dua fasa yang potensial kimianya berbeda tidak dapat setimbang? ||| materi berpindah dari fasa μ tinggi ke μ rendah sambil menurunkan *G* total
+Tunjukkan bahwa perpindahan *dn* mol dari fasa α ke β mengubah *G* sebesar $(\mu_\beta - \mu_\alpha)\,dn$. ||| *dG* = μ$_\beta$ *dn* − μ$_\alpha$ *dn*
+
+## Subbab 8.3: Persamaan Clapeyron
 
 Raksa meleleh pada 234,3 K dengan $\Delta_\text{fus}H = 2{,}29$ kJ mol⁻¹ dan $\Delta_\text{fus}V = +0{,}517$ cm³ mol⁻¹. Hitung kemiringan garis padat–cairnya. ||| +189 bar K⁻¹
 Berapa tekanan yang diperlukan untuk menurunkan titik leleh es menjadi −2 °C? ||| sekitar 270 bar
 Pada hari bertekanan udara 1,050 bar, berapa titik didih air? ||| 101,0 °C
 
-**Menengah**
-
 @es [P] Di dasar gletser setebal 1,00 km, es ditekan oleh berat es di atasnya (rapatan 917 kg m⁻³). Hitung tekanan tambahan itu dan penurunan titik leleh es di sana. ||| 90 bar; 0,67 K
 Mengapa garis padat–cair jauh lebih curam daripada garis cair–gas? ||| $\Delta_\text{fus}V$ sangat kecil dibandingkan $\Delta_\text{vap}V$
 Galium cair lebih rapat daripada padatannya. Apakah titik leleh galium naik atau turun bila tekanan dinaikkan? ||| turun
 
-**Tantangan ★**
+Untuk grafit → intan, $\Delta_\text{trs}S = -3{,}36$ J K⁻¹ mol⁻¹ dan $\Delta_\text{trs}V = -1{,}90$ cm³ mol⁻¹. (a) Hitung kemiringan garis grafit–intan dengan bentuk $\Delta S/\Delta V$. (b) Garis itu melewati 15 kbar pada 298 K. Taksir tekanan kesetimbangan pada 1500 K. ||| (a) +17,7 bar K⁻¹; (b) ≈ 36 kbar
 
-★ Untuk grafit → intan, $\Delta_\text{trs}S = -3{,}36$ J K⁻¹ mol⁻¹ dan $\Delta_\text{trs}V = -1{,}90$ cm³ mol⁻¹. (a) Hitung kemiringan garis grafit–intan dengan bentuk $\Delta S/\Delta V$. (b) Garis itu melewati 15 kbar pada 298 K. Taksir tekanan kesetimbangan pada 1500 K. ||| (a) +17,7 bar K⁻¹; (b) ≈ 36 kbar
+
+Hitung $dp/dT$ garis padat–cair benzena pada 5,5 °C (Δ$_\text{fus}$*H* = 10,59 kJ mol⁻¹; Δ$_\text{fus}$*V* = +10,3 cm³ mol⁻¹). ||| +37 bar K⁻¹
+Berapa tekanan yang diperlukan untuk menurunkan titik leleh es sebesar 1,0 °C? ||| ≈ 135 bar
+Mengapa garis padat–cair hampir tegak pada diagram fasa, sedangkan garis cair–gas landai? ||| Δ$_\text{fus}$*V* sangat kecil; Δ$_\text{vap}$*V* besar
+
+
+Garis padat–cair suatu zat mempunyai kemiringan +40 bar K⁻¹ dan Δ$_\text{fus}$*V* = +5,0 cm³ mol⁻¹ pada 300 K. Hitung Δ$_\text{fus}$*H*. ||| 6,0 kJ mol⁻¹
+Mengapa es di dasar gletser dapat mencair walaupun suhunya sedikit di bawah 0 °C? ||| tekanan berat es di atasnya menurunkan titik leleh
 
 ## Subbab 8.4: Persamaan Clausius–Clapeyron
-
-**Dasar**
 
 Etanol mendidih pada 351,4 K dengan $\Delta_\text{vap}H = 38{,}6$ kJ mol⁻¹. Taksir tekanan uapnya pada 25 °C. ||| 9,6 kPa (terukur 7,9 kPa)
 Raksa mendidih pada 629,9 K dengan $\Delta_\text{vap}H = 59{,}1$ kJ mol⁻¹. Taksir tekanan uapnya pada 25 °C. ||| 0,36 Pa
@@ -53,65 +55,80 @@ Tekanan uap iodin pada 25 °C adalah 0,0413 kPa dan $\Delta_\text{sub}H = 62{,}4
 Tekanan uap dietil eter 58,9 kPa pada 20 °C dan titik didih normalnya 34,6 °C. Hitung $\Delta_\text{vap}H$. ||| 27,9 kJ mol⁻¹
 Hitung titik didih air di puncak Everest, tempat tekanan udara sekitar 0,34 bar. ||| 71 °C
 
-**Menengah**
-
-@cc [P] Pakai garis pada Gambar 8.1 untuk menaksir tekanan uap air pada 50 °C. ||| 12,2 kPa (terukur 12,35 kPa)
+@cc [P] Pakai garis pada Gambar 8.3 untuk menaksir tekanan uap air pada 50 °C. ||| 12,2 kPa (terukur 12,35 kPa)
 Hitung tekanan uap es kering pada −90 °C (data Contoh 8.13). ||| 0,37 bar
 Dalam alat pengering beku, es dijaga pada −30 °C. Berapa tekanan ruang paling tinggi agar es tetap menyublim? ||| 38 Pa
 Taksir tekanan uap toluena pada 25 °C dari titik didihnya, 383,8 K, dengan aturan Trouton. ||| 5,4 kPa (terukur 3,8 kPa)
 Mengapa tekanan uap air dingin-lewat lebih tinggi daripada tekanan uap es pada suhu yang sama? ||| μ air dingin-lewat lebih tinggi
 
-**Tantangan ★**
+@cpint Bila $\Delta_\text{vap}H = a + bT$, dengan *a* dan *b* tetapan, integralkan (8.4) untuk memperoleh ln *p* sebagai fungsi *T*. ||| $\ln p = -a/RT + (b/R)\ln T + C$
+@uap25 [P] Pakai hasil Soal {{cpint}} untuk air, dengan $b = \Delta C_p = -41{,}7$ J K⁻¹ mol⁻¹ (Contoh 4.17) dan *a* dipilih sehingga $\Delta_\text{vap}H = 40{,}66$ kJ mol⁻¹ pada 373,15 K. Hitung tekanan uap air pada 25 °C dari titik didih normalnya, lalu bandingkan dengan hasil bila Δ*H* dianggap tetap dan dengan nilai terukur 3,17 kPa. ||| 3,27 kPa (Δ*H* tetap: 3,75 kPa)
 
-@cpint ★ Bila $\Delta_\text{vap}H = a + bT$, dengan *a* dan *b* tetapan, integralkan (8.4) untuk memperoleh ln *p* sebagai fungsi *T*. ||| $\ln p = -a/RT + (b/R)\ln T + C$
-@uap25 [P] ★ Pakai hasil Soal {{cpint}} untuk air, dengan $b = \Delta C_p = -41{,}7$ J K⁻¹ mol⁻¹ (Contoh 4.17) dan *a* dipilih sehingga $\Delta_\text{vap}H = 40{,}66$ kJ mol⁻¹ pada 373,15 K. Hitung tekanan uap air pada 25 °C dari titik didih normalnya, lalu bandingkan dengan hasil bila Δ*H* dianggap tetap dan dengan nilai terukur 3,17 kPa. ||| 3,27 kPa (Δ*H* tetap: 3,75 kPa)
+
+Dari Gambar 8.4, perkirakan titik didih etanol pada 50 kPa. ||| ≈ 60 °C
+Tekanan uap air 3,17 kPa pada 25 °C dan 101,3 kPa pada 100 °C. Hitung Δ$_\text{vap}$*H* rata-ratanya. ||| 42,7 kJ mol⁻¹
+Hitung tekanan uap dietil eter pada 20 °C dari titik didih 34,6 °C dan Δ$_\text{vap}$*H* = 26,5 kJ mol⁻¹. ||| 61 kPa
+Mengapa bensin cepat menguap pada hari panas, tetapi oli mesin hampir tidak? ||| tekanan uap bergantung eksponensial pada Δ$_\text{vap}$*H*/*RT*; oli molekul besar, Δ$_\text{vap}$*H* besar
+
+
+Pada ketinggian berapa air mendidih pada 90 °C, bila tekanan udara turun sekitar 12% per kilometer (Δ$_\text{vap}$*H* = 40,7 kJ mol⁻¹)? ||| ≈ 71 kPa; ≈ 2,8 km
+Toluena mendidih pada 110,6 °C dengan Δ$_\text{vap}$*H* = 33,2 kJ mol⁻¹. Hitung tekanan uapnya pada 25 °C. ||| 5,1 kPa (terukur 3,8 kPa; Δ$_\text{vap}$*H* naik pada suhu rendah)
 
 ## Subbab 8.5: Diagram fasa air
 
-**Dasar**
-
 Fasa apa yang stabil untuk air pada (a) 50 °C dan 0,05 bar; (b) −10 °C dan 1 bar; (c) 200 °C dan 100 bar? ||| (a) gas; (b) padat; (c) cair
 Mengapa es mengapung, dan apa akibatnya bagi kehidupan di danau? ||| es kurang rapat; danau membeku dari atas
-
-**Menengah**
 
 Berapa titik didih air murni di suatu tempat di Mars yang tekanannya 1000 Pa? ||| sekitar 7 °C
 Dengan anggapan garis padat–cair lurus, berapa tekanan yang diperlukan untuk mencairkan es pada −10 °C? Mengapa nilai sebenarnya berbeda? ||| ≈ 1350 bar; garisnya melengkung
 Mengapa salju dapat hilang tanpa mencair pada hari dingin yang kering? ||| tekanan parsial uap air di udara di bawah tekanan uap es: es menyublim
 
-## Subbab 8.6: Diagram fasa CO₂
 
-**Dasar**
+Mengapa es dapat menyublim langsung di lemari pembeku tanpa melewati fasa cair? ||| tekanan parsial uap air di dalamnya di bawah 611 Pa
+Pada tekanan berapa air mendidih pada 70 °C (Δ$_\text{vap}$*H* = 42 kJ mol⁻¹)? ||| ≈ 31 kPa
+Mengapa pengeringan beku (*freeze drying*) dilakukan di bawah tekanan titik tripel air? ||| es menyublim langsung tanpa mencair, sehingga struktur bahan terjaga
+
+## Subbab 8.6: Diagram fasa CO₂
 
 Mengapa es kering tidak meleleh pada tekanan udara biasa? ||| titik tripelnya 5,18 bar, di atas 1 atm
 Fasa apa yang stabil untuk CO₂ pada −60 °C dan 10 bar? ||| padat (tekanan uap padatnya sekitar 4,1 bar)
 
-**Menengah**
-
 Manometer tabung CO₂ pada 25 °C menunjukkan 64 bar. Setelah separuh isinya dipakai, berapa yang ditunjukkan? Mengapa? ||| tetap 64 bar; selama masih ada cairan, tekanan sama dengan tekanan uap
 Pakai $\Delta_\text{vap}H = 16{,}6$ kJ mol⁻¹ dan titik tripel CO₂ untuk menaksir suhu tempat tekanan uap CO₂ cair 20 bar. ||| 254 K (−19 °C)
 
-## Subbab 8.7: Titik tripel dan titik kritis
 
-**Dasar**
+Mengapa CO₂ cair tidak pernah ada pada tekanan 1 atm? ||| titik tripel 5,18 bar di atas 1 atm
+Tabung pemadam CO₂ pada 25 °C bertekanan sekitar 64 bar. Fasa apa yang ada di dalamnya? ||| cair dan gas setimbang (di bawah suhu kritis 31 °C)
+
+## Subbab 8.7: Titik tripel dan titik kritis
 
 Apa yang terjadi pada meniskus antara cairan dan uap ketika titik kritis dicapai? Mengapa? ||| lenyap; rapatan kedua fasa menjadi sama
 Mengapa titik tripel dipakai untuk menera termometer? ||| suhunya tertentu dan tidak dapat digeser
-
-**Menengah**
 
 Hitung suhu kritis N₂ dari tetapan van der Waals $a = 1{,}370$ L² bar mol⁻² dan $b = 0{,}0387$ L mol⁻¹. ||| 126 K (terukur 126,2 K)
 Di titik tripel CO₂, berapa perbandingan kemiringan garis padat–gas terhadap garis cair–gas? ||| 1,57
 Jelaskan cara mengubah air cair menjadi uap tanpa pernah melihatnya mendidih. ||| memutari titik kritis
 
-## Subbab 8.8: Aturan fasa Gibbs untuk satu komponen
 
-**Dasar**
+Mengapa gas di atas suhu kritisnya tidak dapat dicairkan dengan menaikkan tekanan? ||| tidak ada lagi perbedaan cair–gas; fluida hanya makin rapat secara kontinu
+Apa yang terjadi pada meniskus antara cairan dan uap ketika tabung tertutup dipanaskan melewati titik kritis? ||| meniskus memudar dan lenyap; rapatan kedua fasa sama
+
+## Subbab 8.8: Aturan fasa Gibbs untuk satu komponen
 
 Berapa derajat kebebasan untuk es dan air yang setimbang? Bila tekanan ditetapkan 1 atm, berapa yang tersisa? ||| 1; 0
 Berapa derajat kebebasan terbesar untuk sistem satu komponen? ||| 2
 
-**Menengah**
-
 @fasa [P] Dapatkah keempat fasa belerang (rombik, monoklin, cair, gas) setimbang bersama? Berapa titik tripel yang mungkin? ||| tidak; paling banyak empat
 Suatu zat mempunyai lima fasa. Berapa banyak titik tripel yang mungkin secara kombinatorik? ||| 10
+
+Berapa derajat kebebasan untuk (a) air cair saja, (b) air mendidih, (c) titik tripel? ||| 2; 1; 0
+Berapa jumlah fasa paling banyak yang dapat setimbang untuk zat murni, dan mengapa? ||| tiga; *F* = 3 − *P* ≥ 0
+
+## Subbab 8.9: Klasifikasi transisi fasa
+
+Golongkan menurut Ehrenfest: pelelehan es, penguapan air, transisi feromagnetik besi pada titik Curie, dan grafit → intan. ||| orde pertama; orde pertama; λ (orde kedua); orde pertama
+Mengapa kapasitas kalor tak hingga pada suhu transisi orde pertama? ||| kalor masuk tanpa menaikkan suhu sampai seluruh zat berubah fasa
+Pada transisi orde kedua, besaran mana yang melompat: *V*, *S*, $C_p$, α, κ$_T$? ||| $C_p$, α, κ$_T$
+Mengapa persamaan Clapeyron tidak dapat dipakai untuk transisi orde kedua? ||| Δ*S* dan Δ*V* sama-sama nol: 0/0
+@lambda [P] Kuningan β (CuZn) teratur di bawah sekitar 740 K dan tak teratur di atasnya. Jelaskan dari sudut atom mengapa transisi ini tidak mempunyai kalor laten tetapi kapasitas kalornya memuncak tepat di bawah 740 K. Berapa kenaikan entropi maksimum bila susunan menjadi acak sempurna? ||| keteraturan hilang bertahap; $R\ln2$ = 5,76 J K⁻¹ per mol atom
+

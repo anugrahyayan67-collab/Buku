@@ -25,26 +25,55 @@
 
 # Pertanyaan
 
+## Subbab 10.1: Unsur dan operasi simetri
+
 1. Mengapa komutasi operator simetri dengan Hamiltonian menghasilkan label untuk keadaan stasioner? Apa hubungannya dengan paritas?
 2. Apa perbedaan unsur simetri dan operasi simetri? Beri contoh satu unsur yang menghasilkan beberapa operasi.
 3. Mengapa sumbu $S_4$ dapat ada tanpa $C_4$ dan $\sigma_h$, sedangkan sumbu $S_3$ tidak?
+
+## Subbab 10.2: Grup titik dan cara menentukannya
+
 4. Mengapa grup titik harus ditentukan dari geometri tiga dimensi, bukan dari rumus struktur?
 5. Bagaimana simetri menentukan apakah sebuah molekul polar? Mengapa simetri tidak dapat meramalkan besar dipolnya?
+
+## Subbab 10.3: Tabel perkalian grup
+
 6. Apa makna fisis kelas? Mengapa $C_3$ dan $C_3^2$ sekelas dalam $C_{3v}$ tetapi tidak dalam $C_3$?
+
+## Subbab 10.5: Karakter dan tabel karakter
+
 7. Mengapa karakter, bukan matriks, yang dipakai untuk mencirikan representasi?
 8. Jelaskan hubungan antara dimensi irrep dan degenerasi tingkat energi. Mengapa molekul $C_{2v}$ tidak mempunyai degenerasi yang dipaksakan simetri?
 9. Mengapa banyaknya irrep sama dengan banyaknya kelas? (Jawab secara kualitatif.)
+
+## Subbab 10.6: Representasi tak tereduksi dan rumus reduksi
+
 10. Bagaimana rumus reduksi diturunkan dari ortogonalitas karakter?
 11. Jelaskan teorema integral lenyap dengan bahasa sendiri. Apa hubungannya dengan "integral fungsi ganjil adalah nol"?
 12. Mengapa teori grup dapat mengatakan bahwa sebuah integral pasti nol, tetapi tidak dapat mengatakan bahwa integral itu besar?
+
+## Subbab 10.7: Kombinasi linear teradaptasi simetri (SALC)
+
 13. Bagaimana operator proyeksi "menyaring" bagian fungsi yang bersimetri tertentu?
 14. Mengapa SALC ligan selalu meniru bentuk orbital atom pusat yang bersimetri sama?
+
+## Subbab 10.8: Orbital molekul berdasar simetri
+
 15. Mengapa dua "pasangan elektron bebas" air tampak sebagai dua pita berbeda di spektrum fotoelektron, padahal digambar setara dalam model hibrida?
 16. Bagaimana simetri $C_N$ mengubah masalah Hückel cincin menjadi rumus tertutup? Apa hubungannya dengan partikel pada cincin (subbab 6.3)?
+
+## Subbab 10.9: Mode getaran, aktivitas IR dan Raman
+
 17. Mengapa hanya atom yang tidak berpindah yang menyumbang pada karakter $\Gamma_{3N}$?
 18. Mengapa molekul sentrosimetris mematuhi aturan saling meniadakan IR–Raman?
+
+## Subbab 10.10: Aturan seleksi elektronik
+
 19. Bagaimana kopling vibronik membuat transisi yang terlarang simetri tetap teramati? Mengapa intensitasnya kecil?
 20. Mengapa kompleks tetrahedral biasanya berwarna lebih pekat daripada kompleks oktahedral?
+
+## Subbab 10.11: Kiralitas dan aktivitas optik
+
 21. Mengapa syarat kiralitas adalah tidak adanya sumbu $S_n$, bukan tidak adanya bidang cermin saja?
 22. Bagaimana teka-teki pembuka bab (empat pita IR C₆₀) terjawab oleh teori bab ini?
 

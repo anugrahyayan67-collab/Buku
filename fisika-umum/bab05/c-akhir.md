@@ -46,27 +46,59 @@
 
 # Pertanyaan
 
+## Subbab 5.1: Momentum linear
+
 1. Mungkinkah sebuah sistem memiliki energi kinetik tetapi momentum totalnya nol? Mungkinkah sebaliknya?
+
+## Subbab 5.2: Impuls
+
 2. Mengapa menangkap bola keras terasa kurang sakit jika tangan ditarik ke belakang saat menangkap?
 3. Sebuah truk dan sebuah mobil kecil bertabrakan berhadapan. Kendaraan mana yang menerima gaya lebih besar? Impuls lebih besar? Perubahan kecepatan lebih besar?
 4. Mengapa lebih aman jatuh di pasir daripada di beton, padahal perubahan momentumnya sama?
+
+## Subbab 5.3: Kekekalan momentum
+
 5. Seekor burung terkurung di dalam kotak tertutup yang diletakkan di atas timbangan. Apakah bacaan timbangan berubah ketika burung terbang melayang di dalam kotak?
 6. Kamu berdiri di atas es yang benar-benar licin. Bagaimana kamu dapat mencapai tepi?
-7. Pada tumbukan tak lenting sama sekali, mungkinkah **seluruh** energi kinetik hilang? Dalam keadaan apa?
-8. Mengapa bandul balistik tidak dapat dianalisis dengan kekekalan energi dari awal sampai akhir?
-9. Bola yang memantul lenting dari lantai berbalik arah, jadi momentumnya berubah. Apakah kekekalan momentum dilanggar?
-10. Pada tumbukan lenting lurus dengan sasaran diam, kapan penumbuk berhenti total? Kapan ia terpental balik? Kapan ia terus maju?
-11. Mengapa moderator neutron dibuat dari unsur ringan, sedangkan perisai sinar gama dibuat dari unsur berat?
-12. Seorang pelompat tinggi melewati mistar dengan badan melengkung. Bagaimana mungkin pusat massanya lewat di bawah mistar?
-13. Sebuah peluru meriam meledak di udara. Apa yang terjadi pada lintasan pusat massa kepingnya? Sampai kapan pernyataan itu berlaku?
-14. Roket dapat dipercepat di ruang hampa, tempat tidak ada udara untuk didorong. Jelaskan.
-15. Mengapa menembakkan molekul berat ke atom ringan yang diam tidak efisien untuk memicu reaksi kimia?
-16. Tumbukan molekul gas dengan dinding wadah bersifat lenting. Apa yang akan terjadi pada gas itu seandainya tumbukannya tak lenting?
-17. Dalam percobaan Rutherford, mengapa elektron-elektron dalam atom emas tidak dapat membalikkan arah partikel alfa?
-18. Dua benda bertumbukan. Apakah impuls pada keduanya selalu sama besar? Apakah perubahan energi kinetik keduanya selalu sama besar?
+7. Dua benda bertumbukan. Apakah impuls pada keduanya selalu sama besar? Apakah perubahan energi kinetik keduanya selalu sama besar?
+
+## Subbab 5.4: Tumbukan tak lenting
+
+8. Pada tumbukan tak lenting sama sekali, mungkinkah **seluruh** energi kinetik hilang? Dalam keadaan apa?
+9. Mengapa bandul balistik tidak dapat dianalisis dengan kekekalan energi dari awal sampai akhir?
+
+## Subbab 5.5: Tumbukan lenting
+
+10. Bola yang memantul lenting dari lantai berbalik arah, jadi momentumnya berubah. Apakah kekekalan momentum dilanggar?
+11. Pada tumbukan lenting lurus dengan sasaran diam, kapan penumbuk berhenti total? Kapan ia terpental balik? Kapan ia terus maju?
+12. Mengapa moderator neutron dibuat dari unsur ringan, sedangkan perisai sinar gama dibuat dari unsur berat?
+
+## Subbab 5.7: Pusat massa
+
+13. Seorang pelompat tinggi melewati mistar dengan badan melengkung. Bagaimana mungkin pusat massanya lewat di bawah mistar?
+14. Sebuah peluru meriam meledak di udara. Apa yang terjadi pada lintasan pusat massa kepingnya? Sampai kapan pernyataan itu berlaku?
+
+## Subbab 5.8: Sistem yang massanya berubah: roket
+
+15. Roket dapat dipercepat di ruang hampa, tempat tidak ada udara untuk didorong. Jelaskan.
+
+## Subbab 5.9: Momentum di skala atom
+
+16. Mengapa menembakkan molekul berat ke atom ringan yang diam tidak efisien untuk memicu reaksi kimia?
+17. Tumbukan molekul gas dengan dinding wadah bersifat lenting. Apa yang akan terjadi pada gas itu seandainya tumbukannya tak lenting?
+18. Dalam percobaan Rutherford, mengapa elektron-elektron dalam atom emas tidak dapat membalikkan arah partikel alfa?
+
+## Subbab 5.10: Gerak rotasi
+
 19. Mengapa semua titik pada roda yang berputar memiliki kecepatan sudut yang sama tetapi kelajuan yang berbeda?
 20. Dua silinder bermassa dan berjari-jari sama, satu pejal dan satu berongga, dilepas bersamaan di bidang miring. Mana yang tiba lebih dulu? Mengapa?
+
+## Subbab 5.11: Torsi, dinamika rotasi, dan kesetimbangan
+
 21. Mengapa pemain akrobat di atas tali membawa tongkat panjang?
+
+## Subbab 5.12: Momentum sudut
+
 22. Penari es menarik lengannya dan berputar lebih cepat. Momentum sudutnya kekal; apakah energi kinetiknya juga kekal? Jelaskan.
 23. Mengapa spektrum rotasi berupa deretan garis yang berjarak sama?
 24. Mengapa molekul N₂ dan O₂ tidak memiliki spektrum rotasi murni, padahal keduanya berputar?

@@ -17,9 +17,9 @@ $$
 \ln\frac{K_2}{K_1} = -\frac{\Delta_\text{r}H^\circ}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right) . \qquad \text{(12.6)}
 $$
 
-Bentuknya identik dengan persamaan Clausius–Clapeyron (8.5), dan itu bukan kebetulan: penguapan adalah "reaksi" $\text{A}(l) \rightleftharpoons \text{A}(g)$ dengan $K = p/p^\circ$, sehingga Clausius–Clapeyron adalah kasus khusus van 't Hoff. Seperti pada Bab 8, plot ln *K* terhadap 1/*T* memberi garis (hampir) lurus dengan kemiringan $-\Delta_\text{r}H^\circ/R$ (Gambar 12.2). Cara inilah yang paling sering dipakai untuk mengukur entalpi reaksi yang sukar diukur dengan kalorimeter.
+Bentuknya identik dengan persamaan Clausius–Clapeyron (8.5), dan itu bukan kebetulan: penguapan adalah "reaksi" $\text{A}(l) \rightleftharpoons \text{A}(g)$ dengan $K = p/p^\circ$, sehingga Clausius–Clapeyron adalah kasus khusus van 't Hoff. Seperti pada Bab 8, plot ln *K* terhadap 1/*T* memberi garis (hampir) lurus dengan kemiringan $-\Delta_\text{r}H^\circ/R$ (Gambar 12.4). Cara inilah yang paling sering dipakai untuk mengukur entalpi reaksi yang sukar diukur dengan kalorimeter.
 
-![Gambar 12.2 Plot van 't Hoff untuk sintesis amonia (eksoterm, kemiringan positif) dan penguraian N₂O₄ (endoterm, kemiringan negatif), dihitung dari data tabel. Kurva amonia sedikit melengkung karena $\Delta_\text{r}H^\circ$-nya berubah dengan suhu.](fig/vanthoff.png){width=72%}
+![Gambar 12.4 Plot van 't Hoff untuk sintesis amonia (eksoterm, kemiringan positif) dan penguraian N₂O₄ (endoterm, kemiringan negatif), dihitung dari data tabel. Kurva amonia sedikit melengkung karena $\Delta_\text{r}H^\circ$-nya berubah dengan suhu.](fig/vanthoff.png){width=72%}
 
 ::: {.contoh}
 **Contoh 12.11 · N₂O₄ pada hari panas**
@@ -54,7 +54,7 @@ Di Contoh 7.14, $\Delta_\text{r}G^\circ(500\ \text{K}) = +7{,}3$ kJ mol⁻¹, se
 $$
 \ln\frac{K_2}{K_1} = -\frac{\Delta_\text{r}H^\circ(T_1) - T_1\Delta_\text{r}C_p^\circ}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right) + \frac{\Delta_\text{r}C_p^\circ}{R}\ln\frac{T_2}{T_1} .
 $$
-Untuk sintesis amonia, $\Delta_\text{r}C_p^\circ = 2(35{,}06) - 29{,}13 - 3(28{,}82) = -45{,}5$ J K⁻¹ mol⁻¹. Dengan koreksi ini, *K* pada 723 K adalah $3{,}6 \times 10^{-5}$, sedangkan tanpa koreksi $1{,}9 \times 10^{-4}$, lima kali lebih besar. Nilai yang dikoreksi dekat dengan hasil pengukuran. Gambar 12.2 dan 12.3 memakai rumus yang dikoreksi.
+Untuk sintesis amonia, $\Delta_\text{r}C_p^\circ = 2(35{,}06) - 29{,}13 - 3(28{,}82) = -45{,}5$ J K⁻¹ mol⁻¹. Dengan koreksi ini, *K* pada 723 K adalah $3{,}6 \times 10^{-5}$, sedangkan tanpa koreksi $1{,}9 \times 10^{-4}$, lima kali lebih besar. Nilai yang dikoreksi dekat dengan hasil pengukuran. Gambar 12.4 dan 12.5 memakai rumus yang dikoreksi.
 :::
 
 ::: {.contoh}
@@ -112,9 +112,9 @@ $$
 
 ### Proses Haber–Bosch
 
-Kini kita dapat menjawab pertanyaan pembuka bab. Sintesis amonia eksoterm ($\Delta_\text{r}H^\circ = -92$ kJ mol⁻¹) dan mengurangi jumlah mol gas (Δν = −2). Termodinamika menghendaki suhu rendah dan tekanan tinggi. Gambar 12.3 memperlihatkan fraksi mol amonia pada kesetimbangan untuk campuran N₂ dan H₂ dengan perbandingan 1 : 3.
+Kini kita dapat menjawab pertanyaan pembuka bab. Sintesis amonia eksoterm ($\Delta_\text{r}H^\circ = -92$ kJ mol⁻¹) dan mengurangi jumlah mol gas (Δν = −2). Termodinamika menghendaki suhu rendah dan tekanan tinggi. Gambar 12.5 memperlihatkan fraksi mol amonia pada kesetimbangan untuk campuran N₂ dan H₂ dengan perbandingan 1 : 3.
 
-![Gambar 12.3 Fraksi mol amonia pada kesetimbangan dari campuran N₂ : H₂ = 1 : 3, dihitung dengan anggapan gas ideal dan *K* yang dikoreksi untuk kapasitas kalor. Hasil naik dengan tekanan dan turun dengan suhu. Pita jingga: rentang suhu pabrik, yang dipaksakan oleh laju reaksi, bukan oleh kesetimbangan.](fig/haber.png){width=72%}
+![Gambar 12.5 Fraksi mol amonia pada kesetimbangan dari campuran N₂ : H₂ = 1 : 3, dihitung dengan anggapan gas ideal dan *K* yang dikoreksi untuk kapasitas kalor. Hasil naik dengan tekanan dan turun dengan suhu. Pita jingga: rentang suhu pabrik, yang dipaksakan oleh laju reaksi, bukan oleh kesetimbangan.](fig/haber.png){width=72%}
 
 ::: {.contoh}
 **Contoh 12.15 · Hasil amonia di pabrik**
@@ -127,7 +127,7 @@ K = \frac{(2\xi)^2(4 - 2\xi)^2}{(1 - \xi)\cdot27(1 - \xi)^3}\left(\frac{p^\circ}
 $$
 Dengan *p* = 300 bar dan mencoba nilai: ξ = 0,454, sehingga $x_{\text{NH}_3} = 0{,}908/3{,}092 = 0{,}29$.
 
-**Memahami hasil.** Gambar 12.3 menunjukkan bahwa pada 300 °C dan tekanan yang sama hasilnya hampir 70%, tetapi pada suhu itu katalis besi bekerja terlalu lambat. Pabrik memilih 400–500 °C sebagai kompromi antara laju dan hasil, lalu mengambil amonia dengan mendinginkan gas keluar (amonia mencair, N₂ dan H₂ tidak) dan mengembalikan gas sisa ke reaktor. Dengan daur ulang, hampir semua N₂ dan H₂ akhirnya menjadi amonia, walaupun setiap lintasan hanya mengubah sebagian kecil. Pengukuran nyata pada 450 °C dan 300 bar memberi sekitar 35% amonia, lebih tinggi daripada perhitungan gas ideal. Contoh berikut menunjukkan dari mana selisih itu datang.
+**Memahami hasil.** Gambar 12.5 menunjukkan bahwa pada 300 °C dan tekanan yang sama hasilnya hampir 70%, tetapi pada suhu itu katalis besi bekerja terlalu lambat. Pabrik memilih 400–500 °C sebagai kompromi antara laju dan hasil, lalu mengambil amonia dengan mendinginkan gas keluar (amonia mencair, N₂ dan H₂ tidak) dan mengembalikan gas sisa ke reaktor. Dengan daur ulang, hampir semua N₂ dan H₂ akhirnya menjadi amonia, walaupun setiap lintasan hanya mengubah sebagian kecil. Pengukuran nyata pada 450 °C dan 300 bar memberi sekitar 35% amonia, lebih tinggi daripada perhitungan gas ideal. Contoh berikut menunjukkan dari mana selisih itu datang.
 :::
 
 ::: {.contoh}
@@ -196,12 +196,85 @@ $$
 
 Pasangan reaksi yang dibahas di Bab 7, seperti pembentukan glutamin, kini dapat dinyatakan dengan *K*. Fosforilasi glukosa, $\text{glukosa} + \text{P}_\text{i} \rightarrow \text{glukosa-6-fosfat}$, mempunyai $\Delta_\text{r}G^{\circ\prime} = +13{,}8$ kJ mol⁻¹ dan $K' = 0{,}0038$: praktis tidak berjalan. Dipasangkan dengan hidrolisis ATP oleh enzim heksokinase, reaksi bersihnya mempunyai $\Delta_\text{r}G^{\circ\prime} = -16{,}7$ kJ mol⁻¹ dan $K' = 840$ pada 25 °C. Memasangkan dengan ATP mengalikan tetapan kesetimbangan dengan sekitar $2 \times 10^5$, sebuah "pengungkit" yang dipakai sel untuk ribuan reaksi.
 
+![Gambar 12.6 Pasangan reaksi dalam sel: fosforilasi glukosa yang tidak menguntungkan (kiri) didorong oleh hidrolisis ATP (tengah). Energi Gibbs standar biokimia kedua reaksi dijumlahkan, sehingga tetapan kesetimbangannya dikalikan (kanan).](fig/atp.png){width=84%}
+
 ::: {.kuis}
 **Kuis cepat 12.8** Mengapa $\Delta_\text{r}G^{\circ\prime}$ untuk reaksi yang tidak melibatkan H⁺ sama dengan $\Delta_\text{r}G^\circ$?
+:::
+
+## 12.9 Kesetimbangan dalam larutan
+
+Sebagian besar kesetimbangan yang dikenal mahasiswa dari kimia dasar terjadi di dalam air: ionisasi asam lemah, kelarutan garam, ionisasi air sendiri. Tabel *K*$_\text{a}$ dan *K*$_\text{sp}$ di buku kimia dasar tampak seperti daftar angka yang harus dihafal. Termodinamika memperlihatkan bahwa angka-angka itu tidak berdiri sendiri: semuanya dapat dihitung dari tabel energi Gibbs pembentukan yang sama dengan yang kita pakai untuk reaksi gas, asalkan kita punya nilai Δ$_\text{f}$*G*° untuk **ion** dalam air.
+
+### Energi Gibbs pembentukan ion
+
+Ion tidak pernah dapat dibuat sendirian; larutan selalu netral. Karena itu, nilai Δ$_\text{f}$*G*° satu ion tidak dapat diukur langsung. Jalan keluarnya adalah konvensi: Δ$_\text{f}$*G*°, Δ$_\text{f}$*H*°, dan *S*° untuk H⁺(aq) ditetapkan **nol** pada semua suhu. Dengan acuan ini, nilai ion lain diperoleh dari reaksi yang dapat diukur. Misalnya, dari pembentukan HCl(aq) yang terukur dan acuan H⁺ = 0, kita memperoleh Δ$_\text{f}$*G*°(Cl⁻, aq) = −131,23 kJ mol⁻¹. Selama setiap reaksi yang kita hitung seimbang muatannya, konvensi ini tidak memengaruhi hasil, sama seperti pilihan unsur sebagai acuan nol untuk Δ$_\text{f}$*H*° di subbab 4.7.
+
+| Zat | Δ$_\text{f}$*G*° (kJ mol⁻¹) | Zat | Δ$_\text{f}$*G*° (kJ mol⁻¹) |
+|---|---|---|---|
+| H⁺(aq) | 0 (konvensi) | Ag⁺(aq) | +77,11 |
+| OH⁻(aq) | −157,24 | Cl⁻(aq) | −131,23 |
+| H₂O(l) | −237,13 | AgCl(s) | −109,79 |
+| CH₃COOH(aq) | −396,46 | NH₄⁺(aq) | −79,31 |
+| CH₃COO⁻(aq) | −369,31 | NH₃(aq) | −26,50 |
+
+Tabel 12.2 Energi Gibbs pembentukan standar beberapa spesies dalam air pada 25 °C (keadaan standar 1 mol kg⁻¹).
+
+### *K*$_\text{a}$ dan *K*$_\text{sp}$ dari tabel
+
+Dengan tabel itu, setiap tetapan kesetimbangan dalam larutan dihitung dengan dua langkah yang sudah kita kenal: hitung Δ$_\text{r}$*G*° dari Δ$_\text{f}$*G*° hasil dikurangi pereaksi, lalu pakai *K* = exp(−Δ$_\text{r}$*G*°/*RT*) dari (12.5). Karena aktivitas ion dalam larutan encer sama dengan molalitasnya (subbab 10.7), *K* itu adalah *K*$_\text{a}$ atau *K*$_\text{sp}$ yang dikenal, dinyatakan dalam molalitas.
+
+::: {.contoh}
+**Contoh 12.19 · *K*$_\text{sp}$ AgCl dan *K*$_\text{a}$ asam asetat dari energi Gibbs**
+
+Dari Tabel 12.2, hitung (a) *K*$_\text{sp}$ AgCl pada 25 °C, (b) *K*$_\text{a}$ dan p*K*$_\text{a}$ asam asetat, (c) p*K*$_\text{a}$ ion amonium.
+
+**Penyelesaian.** (a) Untuk $\text{AgCl}(s) \rightleftharpoons \text{Ag}^+(aq) + \text{Cl}^-(aq)$,
+$$
+\Delta_\text{r}G^\circ = 77{,}11 + (-131{,}23) - (-109{,}79) = +55{,}67\ \text{kJ mol}^{-1} ,
+$$
+$$
+K_\text{sp} = \exp\left(-\frac{55\,670}{(8{,}314)(298{,}15)}\right) = 1{,}76 \times 10^{-10} .
+$$
+(b) Untuk $\text{CH}_3\text{COOH}(aq) \rightleftharpoons \text{H}^+(aq) + \text{CH}_3\text{COO}^-(aq)$, $\Delta_\text{r}G^\circ = 0 + (-369{,}31) - (-396{,}46) = +27{,}15$ kJ mol⁻¹, sehingga $K_\text{a} = 1{,}75 \times 10^{-5}$ dan p*K*$_\text{a}$ = 4,76.
+
+(c) Untuk $\text{NH}_4^+ \rightleftharpoons \text{H}^+ + \text{NH}_3$, Δ$_\text{r}$*G*° = −26,50 − (−79,31) = +52,81 kJ mol⁻¹, dan p*K*$_\text{a}$ = Δ$_\text{r}$*G*°/(*RT* ln 10) = 9,25.
+
+**Memahami hasil.** Ketiga nilai sama dengan tabel kimia dasar, padahal kita hanya memakai energi Gibbs. Rumus p*K*$_\text{a}$ = Δ$_\text{r}$*G*°/(5,708 kJ mol⁻¹) pada 25 °C memberi alat ingat yang berguna: setiap 5,7 kJ mol⁻¹ energi Gibbs standar ionisasi menaikkan p*K*$_\text{a}$ satu satuan. Selisih p*K*$_\text{a}$ asam asetat dan ion amonium (4,5 satuan) berarti selisih energi Gibbs ionisasi sekitar 26 kJ mol⁻¹, kira-kira sebesar satu ikatan hidrogen yang kuat.
+:::
+
+Begitu p*K*$_\text{a}$ diketahui, bentuk mana yang dominan pada pH tertentu langsung terbaca. Dari $K_\text{a} = [\text{H}^+][\text{A}^-]/[\text{HA}]$, perbandingan $[\text{A}^-]/[\text{HA}] = 10^{\text{pH} - \text{p}K_\text{a}}$: pada pH = p*K*$_\text{a}$ kedua bentuk sama banyak, dan setiap satuan pH menggeser perbandingannya sepuluh kali (Gambar 12.7). Di sekitar p*K*$_\text{a}$, campuran asam dan basa konjugatnya melawan perubahan pH; inilah larutan penyangga. Pada pH darah 7,4, asam asetat hampir seluruhnya berupa ion asetat, sedangkan amonia hampir seluruhnya berupa ion amonium, sebuah fakta yang penting bagi cara tubuh membuang nitrogen lewat ginjal.
+
+![Gambar 12.7 Fraksi bentuk asam (garis penuh) dan basa konjugat (garis putus) asam asetat dan ion amonium terhadap pH pada 25 °C, dihitung dari p*K*$_\text{a}$ Contoh 12.19. Kedua bentuk sama banyak pada pH = p*K*$_\text{a}$.](fig/spesiasi.png){width=80%}
+
+### Ionisasi air dan suhu
+
+Reaksi $\text{H}_2\text{O}(l) \rightleftharpoons \text{H}^+(aq) + \text{OH}^-(aq)$ mempunyai Δ$_\text{r}$*G*° = −157,24 − (−237,13) = +79,89 kJ mol⁻¹, sehingga *K*$_\text{w}$ = 1,01 × 10⁻¹⁴ pada 25 °C, yaitu p*K*$_\text{w}$ = 14,00. Reaksi ini sangat endoterm (Δ$_\text{r}$*H*° = +55,8 kJ mol⁻¹), karena ikatan O–H harus diputus dan ion yang terbentuk harus disusun ulang oleh air di sekitarnya. Menurut van 't Hoff (subbab 12.6), *K*$_\text{w}$ naik tajam dengan suhu (Gambar 12.8).
+
+![Gambar 12.8 p*K*$_\text{w}$ air terhadap suhu, dihitung dengan persamaan van 't Hoff dari nilai pada 25 °C dengan Δ$_\text{r}$*H*° tetap, dibandingkan dengan nilai terukur. Garis putus: pH larutan netral, p*K*$_\text{w}$/2.](fig/kw.png){width=76%}
+
+Akibat yang sering mengejutkan: **pH larutan netral bukan selalu 7**. Netral berarti [H⁺] = [OH⁻], sehingga pH netral = p*K*$_\text{w}$/2. Pada 37 °C, suhu tubuh, p*K*$_\text{w}$ ≈ 13,6, sehingga pH netral sekitar 6,8. Darah dengan pH 7,4 lebih basa daripada netral sebanyak 0,6 satuan, bukan 0,4. Pada 100 °C, air murni mempunyai pH sekitar 6,1 tetapi tetap netral.
+
+::: {.contoh}
+**Contoh 12.20 · pH air murni pada beberapa suhu**
+
+Dari p*K*$_\text{w}$ = 14,00 pada 25 °C dan Δ$_\text{r}$*H*° = 55,84 kJ mol⁻¹, hitung pH air murni pada 0 °C, 37 °C, dan 100 °C. Nilai terukur p*K*$_\text{w}$ pada 0 °C dan 100 °C adalah 14,94 dan 12,26.
+
+**Penyelesaian.** Dari van 't Hoff dalam bentuk logaritma basis 10,
+$$
+\text{p}K_\text{w}(T) = 14{,}00 + \frac{\Delta_\text{r}H^\circ}{R\ln 10}\left(\frac{1}{T} - \frac{1}{298{,}15\ \text{K}}\right) .
+$$
+Pada 0 °C: p*K*$_\text{w}$ = 14,89, pH = 7,45. Pada 37 °C: p*K*$_\text{w}$ = 13,62, pH = 6,81. Pada 100 °C: p*K*$_\text{w}$ = 12,03, pH = 6,02.
+
+**Memahami hasil.** Pada 0 °C hitungan meleset hanya 0,05 satuan, tetapi pada 100 °C sudah 0,23 satuan. Penyebabnya adalah anggapan Δ$_\text{r}$*H*° tetap: reaksi ini mempunyai Δ$_\text{r}$*C*$_p$° yang besar dan negatif (sekitar −200 J K⁻¹ mol⁻¹), sehingga Δ$_\text{r}$*H*° mengecil pada suhu tinggi. Untuk rentang suhu yang lebar, koreksi Kirchhoff (subbab 4.9) harus dimasukkan ke dalam van 't Hoff, seperti pada soal van 't Hoff dengan Δ*C*$_p$ di akhir bab. Bagi biokimia, pesan pentingnya adalah bahwa pH buffer harus disebut **bersama suhunya**.
+:::
+
+::: {.kuis}
+**Kuis cepat 12.9** Larutan pada 50 °C mempunyai pH 6,8. Apakah larutan itu asam, netral, atau basa? (p*K*$_\text{w}$ = 13,26 pada 50 °C.)
 :::
 
 ### Menuju bab berikutnya
 
 Bab ini mengubah seluruh termodinamika yang kita bangun menjadi alat peramal kesetimbangan. Dari tabel $\Delta_\text{f}G^\circ$, kita menghitung *K*; dari $\Delta_\text{r}H^\circ$, kita meramalkan bagaimana *K* berubah dengan suhu; dari Δν, bagaimana komposisi berubah dengan tekanan. Asas Le Chatelier, yang di Kimia Dasar dihafal, kini muncul sebagai akibat, lengkap dengan batasnya.
 
-Bab terakhir membawa gagasan yang sama ke sistem yang paling langsung mengukur energi Gibbs: **sel elektrokimia**. Di Bab 7 kita melihat bahwa $-\Delta_\text{r}G$ adalah kerja listrik maksimum, $\Delta_\text{r}G = -nFE$. Menggabungkannya dengan (12.2) akan menghasilkan persamaan Nernst, yang menghubungkan tegangan sel dengan komposisi, dan dengan (12.3), hubungan antara potensial sel standar dan tetapan kesetimbangan. Voltmeter ternyata adalah alat paling teliti untuk mengukur energi Gibbs reaksi.
+Bab berikutnya membawa gagasan yang sama ke sistem yang paling langsung mengukur energi Gibbs: **sel elektrokimia**. Di Bab 7 kita melihat bahwa $-\Delta_\text{r}G$ adalah kerja listrik maksimum, $\Delta_\text{r}G = -nFE$. Menggabungkannya dengan (12.2) akan menghasilkan persamaan Nernst, yang menghubungkan tegangan sel dengan komposisi, dan dengan (12.3), hubungan antara potensial sel standar dan tetapan kesetimbangan. Voltmeter ternyata adalah alat paling teliti untuk mengukur energi Gibbs reaksi.

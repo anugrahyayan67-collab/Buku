@@ -25,25 +25,57 @@
 
 # Pertanyaan
 
+## Subbab 5.1: Osilator klasik
+
 1. Mengapa hampir setiap potensial di dekat minimumnya dapat didekati dengan parabola? Kapan pendekatan ini gagal?
 2. Apa arti fisis massa tereduksi? Mengapa untuk HI ia hampir sama dengan massa atom H?
+
+## Subbab 5.3: Penyelesaian deret dan polinom Hermite
+
 3. Mengapa syarat kenormalan menghasilkan kuantisasi energi osilator? Bandingkan dengan syarat batas pada partikel dalam kotak.
+
+## Subbab 5.4: Tingkat energi dan energi titik nol
+
 4. Mengapa tingkat energi osilator berjarak sama, sedangkan tingkat kotak makin renggang dan tingkat atom hidrogen makin rapat?
 5. Mengapa energi titik nol tidak dapat dihilangkan dengan pendinginan? Hubungkan dengan asas ketidakpastian.
 6. Mengapa $D_0$ dan bukan $D_e$ yang diukur dalam percobaan termokimia?
+
+## Subbab 5.5: Fungsi gelombang: kuantum vs klasik
+
 7. Di mana partikel kuantum paling mungkin ditemukan pada keadaan dasar, dan di mana partikel klasik? Mengapa berbeda?
 8. Apa arti penembusan ke daerah terlarang secara klasik? Apakah energi kinetik di sana negatif?
+
+## Subbab 5.6: Operator tangga
+
 9. Mengapa metode operator tangga tidak memerlukan penyelesaian persamaan diferensial? Apa yang memastikan tangga berhenti di bawah?
+
+## Subbab 5.7: Getaran molekul diatom dan massa tereduksi
+
 10. Mengapa frekuensi getaran ditentukan oleh perbandingan $k/\mu$, dan bagaimana ini menjelaskan pita ulur X–H yang tinggi?
+
+## Subbab 5.8: Aturan seleksi inframerah
+
 11. Mengapa molekul diatom homonuklir tidak aktif IR, tetapi aktif Raman?
 12. Mengapa spektrum IR gas HCl berupa deretan garis, bukan satu garis? Mengapa pusat pita kosong?
 13. Bagaimana anharmonisitas tampak dalam spektrum IR? Sebutkan dua akibatnya.
+
+## Subbab 5.9: Anharmonisitas dan potensial Morse
+
 14. Mengapa ekstrapolasi Birge–Sponer cenderung melebih-lebihkan energi disosiasi?
+
+## Subbab 5.10: Efek isotop
+
 15. Apa peran aproksimasi Born–Oppenheimer dalam efek isotop? Apa yang sama dan apa yang berbeda pada H₂ dan D₂?
 16. Mengapa efek isotop kinetik menurun bila suhu naik?
 17. Mengapa obat terdeuterasi dapat bertahan lebih lama dalam tubuh?
+
+## Subbab 5.11: Mode normal molekul poliatom
+
 18. Apa itu mode normal, dan mengapa konsep ini mengubah masalah banyak atom menjadi kumpulan osilator terpisah?
 19. Mengapa molekul besar menunjukkan frekuensi gugus yang khas, padahal mode normalnya melibatkan semua atom?
+
+## Subbab 5.12: Penyelesaian numerik: metode Numerov
+
 20. Apa keunggulan metode Numerov dibandingkan beda hingga biasa? Bagaimana metode tembak menemukan nilai eigen?
 21. Bagaimana teka-teki pembuka bab (perbedaan H₂O dan D₂O) terjawab oleh teori bab ini?
 
@@ -390,7 +422,7 @@ Gunakan tetapan di Bab 1 dan massa isotop $m(^1\text{H}) = 1{,}00783$ u, $m(^2\t
 | 31 | 1474 K | 82 | $\Delta E_0 = 13{,}5$ cm⁻¹; $K \approx 3{,}75$ |
 | 32 | 118 cm⁻¹ = 1,41 kJ/mol | 83 | 4,591 eV |
 | 33 | 4,434 eV | 84 | 1,06 |
-| 34 | $0{,}563R = 4{,}68$ J K⁻¹ mol⁻¹ | 85 | penerobosan sangat peka massa; lihat Contoh 3.39 |
+| 34 | $0{,}563R = 4{,}68$ J K⁻¹ mol⁻¹ | 85 | penerobosan sangat peka massa; lihat Contoh 3.43 |
 | 35 | $\pm1$; $\pm\sqrt3$; $\pm\sqrt5$ | 86 | 4; 3; 12; 9; 48 |
 | 36 | $\xi = \pm1$ | 87 | 2508 cm⁻¹ = 30,0 kJ/mol |
 | 37 | $\text{erf}(0{,}5) = 0{,}520$ | 88 | $2N - 4$; CO₂: 2 |

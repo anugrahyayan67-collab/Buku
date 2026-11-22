@@ -89,6 +89,10 @@ Ulangi Contoh 12.6 pada tekanan total 0,100 bar dan 10,0 bar.
 **Memahami hasil.** Menurunkan tekanan sepuluh kali melipattigakan penguraian; menaikkannya sepuluh kali memotongnya menjadi sepertiga. Pada tekanan sangat rendah, α → 1: setiap reaksi yang menambah jumlah molekul gas akhirnya berjalan hampir tuntas bila gasnya cukup diencerkan, karena entropi pencampuran menjadi makin menguntungkan. Ini juga menjelaskan mengapa molekul-molekul di ruang antarbintang, pada tekanan yang sangat kecil, cenderung terurai menjadi atom dan radikal.
 :::
 
+Gambar 12.3 memperluas tabel itu ke rentang tekanan yang lebar. Derajat penguraian berubah paling cepat ketika $4p/p^\circ$ sebanding dengan *K*, yaitu di sekitar 0,04 bar; jauh di bawahnya N₂O₄ hampir seluruhnya terurai, dan jauh di atasnya α turun sebanding dengan $p^{-1/2}$.
+
+![Gambar 12.3 Derajat penguraian N₂O₄ dan fraksi mol NO₂ pada kesetimbangan terhadap tekanan total pada 25 °C (*K* = 0,148). Titik-titik adalah hasil Contoh 12.9.](fig/tekanan.png){width=80%}
+
 Bagaimana bila gas lembam, seperti argon atau nitrogen yang tidak ikut bereaksi, ditambahkan? Jawabannya bergantung pada caranya.
 
 **Pada volume tetap**, menambahkan gas lembam menaikkan tekanan total, tetapi tidak mengubah tekanan parsial gas-gas yang bereaksi (setiap tekanan parsial $n_\text{J}RT/V$ tidak berubah). *Q* tidak berubah, sehingga kesetimbangan tidak bergeser.

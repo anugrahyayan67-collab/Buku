@@ -19,21 +19,52 @@
 
 # Pertanyaan
 
+## Subbab 2.1: Penyimpangan dari gas ideal: faktor kompresi
+
 1. Apa arti fisis $Z < 1$ dan $Z > 1$? Berikan satu contoh gas dan kondisi untuk masing-masing.
-2. Mengapa gaya dispersi London ada di antara semua molekul, bahkan atom gas mulia?
-3. Mengapa tolakan pada potensial Lennard-Jones naik jauh lebih curam daripada penurunan tarikan?
-4. Jelaskan dengan gambaran molekul asal koreksi $-a/V_\text{m}^2$ dan mengapa ia sebanding dengan kuadrat konsentrasi.
-5. Mengapa *b* dalam persamaan van der Waals kira-kira empat kali volume sebenarnya molekul dalam satu mol, bukan sama dengan volume itu?
-6. Apa yang terjadi pada perbedaan antara cairan dan gas ketika suhu mendekati suhu kritis?
-7. Mengapa bagian lengkungan isoterm van der Waals tempat tekanan naik bila volume bertambah tidak mungkin teramati?
-8. Mengapa CO₂ dapat disimpan sebagai cairan dalam tabung pada suhu kamar, tetapi N₂ tidak?
-9. Apa isi hukum keadaan sehubungan, dan mengapa ia berlaku lebih baik untuk Ar daripada untuk H₂O?
-10. Mengapa koefisien virial kedua berubah tanda pada suhu Boyle?
-11. Bagaimana persamaan virial dapat diturunkan dari persamaan van der Waals, dan apa keterbatasan hasilnya?
-12. Mengapa gas ideal tidak mengalami efek Joule–Thomson?
-13. Mengapa helium harus didinginkan lebih dulu sebelum dapat dicairkan dengan proses Linde?
-14. Apa yang membuat fluida superkritis menjadi pelarut yang dapat "disetel"?
-15. Jelaskan seluruh jawaban teka-teki pembuka bab ini: mengapa tabung CO₂ berisi cairan, tabung O₂ berisi gas, dan mulut tabung pemadam CO₂ membeku saat disemprotkan.
+2. Apakah *Z* < 1 berarti molekul gas lebih kecil daripada yang dibayangkan? Jelaskan arti fisis *Z* < 1 dan *Z* > 1.
+
+## Subbab 2.2: Gaya antarmolekul dan potensial Lennard-Jones
+
+3. Mengapa gaya dispersi London ada di antara semua molekul, bahkan atom gas mulia?
+4. Mengapa tolakan pada potensial Lennard-Jones naik jauh lebih curam daripada penurunan tarikan?
+
+## Subbab 2.3: Persamaan van der Waals
+
+5. Jelaskan dengan gambaran molekul asal koreksi $-a/V_\text{m}^2$ dan mengapa ia sebanding dengan kuadrat konsentrasi.
+6. Mengapa *b* dalam persamaan van der Waals kira-kira empat kali volume sebenarnya molekul dalam satu mol, bukan sama dengan volume itu?
+7. Mengapa koreksi tarikan van der Waals berbentuk $a(n/V)^2$, yaitu sebanding dengan kuadrat konsentrasi, bukan dengan konsentrasi biasa?
+
+## Subbab 2.4: Isoterm gas nyata dan pencairan gas
+
+8. Mengapa bagian lengkungan isoterm van der Waals tempat tekanan naik bila volume bertambah tidak mungkin teramati?
+
+## Subbab 2.5: Titik kritis dan tetapan kritis
+
+9. Apa yang terjadi pada perbedaan antara cairan dan gas ketika suhu mendekati suhu kritis?
+10. Mengapa CO₂ dapat disimpan sebagai cairan dalam tabung pada suhu kamar, tetapi N₂ tidak?
+
+## Subbab 2.6: Hukum keadaan sehubungan
+
+11. Apa isi hukum keadaan sehubungan, dan mengapa ia berlaku lebih baik untuk Ar daripada untuk H₂O?
+12. Apa yang "sama" dari dua gas yang berada dalam keadaan sehubungan, dan mengapa kesamaan itu masuk akal dari bentuk potensial antarmolekulnya?
+
+## Subbab 2.7: Persamaan virial dan suhu Boyle
+
+13. Mengapa koefisien virial kedua berubah tanda pada suhu Boyle?
+14. Bagaimana persamaan virial dapat diturunkan dari persamaan van der Waals, dan apa keterbatasan hasilnya?
+
+## Subbab 2.9: Efek Joule–Thomson dan pencairan gas
+
+15. Mengapa gas ideal tidak mengalami efek Joule–Thomson?
+16. Mengapa helium harus didinginkan lebih dulu sebelum dapat dicairkan dengan proses Linde?
+17. Pemuaian bebas ke ruang hampa dan pemuaian melalui katup sama-sama tanpa kalor. Apa beda keduanya, dan mengapa gas ideal tidak berubah suhu pada keduanya?
+
+## Subbab 2.10: Fluida superkritis
+
+18. Apa yang membuat fluida superkritis menjadi pelarut yang dapat "disetel"?
+19. Jelaskan seluruh jawaban teka-teki pembuka bab ini: mengapa tabung CO₂ berisi cairan, tabung O₂ berisi gas, dan mulut tabung pemadam CO₂ membeku saat disemprotkan.
+20. Bagaimana mungkin berpindah dari gas ke cair tanpa pernah melihat pendidihan atau pengembunan? Gambarkan jalurnya pada diagram fasa.
 
 # Soal
 
@@ -91,6 +122,10 @@ $$
 $$
 
 *Cara berpikir:* tanda negatif berarti gas mendingin, dari 298 K menjadi sekitar 256 K. Taksiran ini kasar karena $\mu_\text{JT}$ berubah selama pemuaian, tetapi cukup untuk menunjukkan mengapa pemuaian gas bertekanan tinggi menjadi dasar mesin pencair udara.
+
+**Soal {{super}}.** (1) *Daya larut dapat disetel.* Sedikit di atas titik kritis, massa jenis CO₂ superkritis berubah besar dengan perubahan kecil tekanan (bandingkan Contoh 2.15 dan Gambar 2.7). Daya larut zat terlarut naik bersama massa jenis pelarut, sehingga operator dapat memilih tekanan yang melarutkan kafein tetapi hampir tidak melarutkan senyawa aroma. (2) *Pemisahan mudah.* Setelah ekstraksi, tekanan diturunkan; CO₂ kembali menjadi gas, dan kafein mengendap tanpa sisa pelarut. Pelarut organik harus diuapkan dan selalu meninggalkan jejak. (3) *Aman dan lembut.* Suhu kritis CO₂ hanya 31 °C, sehingga ekstraksi berlangsung pada suhu yang tidak merusak biji kopi; CO₂ tidak beracun, tidak mudah terbakar, dan murah.
+
+*Cara berpikir:* pertanyaan "mengapa memakai pelarut X" dijawab dengan membandingkan **sifat yang dapat diatur** dan **biaya memisahkan pelarut** setelahnya. Fluida superkritis istimewa karena satu variabel, tekanan, mengatur daya larut secara kontinu. Gagasan yang sama muncul lagi di Bab 10 dan 11: sifat larutan bergantung pada interaksi zat terlarut dengan pelarut, dan interaksi itu bergantung pada kerapatan pelarut.
 
 # Bacaan lanjut
 

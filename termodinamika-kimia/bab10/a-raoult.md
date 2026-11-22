@@ -60,6 +60,10 @@ $$
 
 Rumus-rumus ini identik dengan gas ideal, tetapi alasannya berbeda. Pada gas ideal, $\Delta_\text{mix}H = 0$ karena tidak ada interaksi sama sekali. Pada larutan ideal, interaksinya ada dan kuat, tetapi **sama** untuk semua pasangan molekul, sehingga mengganti tetangga tidak mengubah energi.
 
+Gambar 10.1 (kiri) memperlihatkan fungsi-fungsi ini per mol dalam satuan *RT*. Energi Gibbs pencampuran selalu negatif dan paling negatif pada campuran setara, $-RT\ln2 = -1{,}72$ kJ mol⁻¹ pada 25 °C; kurvanya sangat curam di dekat zat murni, sehingga sedikit saja zat lain selalu larut. Bila pencampuran juga menyerap kalor (panel kanan, dengan $\Delta_\text{mix}H$ model larutan reguler yang akan dibahas di subbab 10.7), kurva itu terangkat di tengah, dan untuk β > 2 ia mempunyai dua minimum: campuran memisah menjadi dua lapisan (subbab 11.5).
+
+![Gambar 10.1 Kiri: energi Gibbs, entropi (sebagai $T\Delta_\text{mix}S$), dan entalpi pencampuran per mol larutan ideal, dalam satuan *RT*. Kanan: energi Gibbs pencampuran bila $\Delta_\text{mix}H = \beta RTx_\text{A}x_\text{B}$. Untuk β > 2 kurvanya mempunyai dua minimum, tanda campuran memisah menjadi dua lapisan.](fig/campur.png){width=94%}
+
 ::: {.contoh}
 **Contoh 10.1 · Mencampur benzena dan toluena**
 
@@ -111,9 +115,9 @@ $$
 p = p_\text{A} + p_\text{B} = x_\text{A}p_\text{A}^* + x_\text{B}p_\text{B}^* = p_\text{B}^* + (p_\text{A}^* - p_\text{B}^*)x_\text{A} , \qquad \text{(10.5)}
 $$
 
-garis lurus dari $p_\text{B}^*$ ke $p_\text{A}^*$. Gambar 10.1 memperlihatkannya untuk benzena dan toluena.
+garis lurus dari $p_\text{B}^*$ ke $p_\text{A}^*$. Gambar 10.2 memperlihatkannya untuk benzena dan toluena.
 
-![Gambar 10.1 Tekanan uap campuran benzena–toluena pada 25 °C menurut hukum Raoult. Tekanan parsial setiap komponen (garis putus-putus) sebanding dengan fraksi molnya; tekanan total (garis tebal) adalah jumlahnya.](fig/raoult.png){width=72%}
+![Gambar 10.2 Tekanan uap campuran benzena–toluena pada 25 °C menurut hukum Raoult. Tekanan parsial setiap komponen (garis putus-putus) sebanding dengan fraksi molnya; tekanan total (garis tebal) adalah jumlahnya.](fig/raoult.png){width=72%}
 
 ::: {.contoh}
 **Contoh 10.2 · Uap di atas campuran benzena–toluena**
@@ -167,9 +171,9 @@ $$
 
 Mengapa tetapannya berbeda? Dalam larutan encer, setiap molekul B dikelilingi hampir seluruhnya oleh molekul pelarut A, bukan oleh molekul B lain. Kecenderungannya untuk lepas ke uap ditentukan oleh interaksi B–A, yang dapat jauh lebih lemah atau lebih kuat daripada interaksi B–B di dalam B murni. Selama larutan cukup encer, lingkungan setiap molekul B tetap sama, yaitu "lautan A", sehingga tekanan uapnya tetap sebanding dengan $x_\text{B}$, tetapi dengan tetapan $K_\text{B}$ yang mencerminkan lingkungan itu.
 
-Sementara itu, pelarut dalam larutan encer hampir murni: setiap molekul A dikelilingi oleh molekul A lain, kecuali sebagian kecil yang bertetangga dengan B. Pelarut karenanya mengikuti hukum Raoult. Larutan yang zat terlarutnya mengikuti hukum Henry dan pelarutnya mengikuti hukum Raoult disebut **larutan encer ideal**. Gambar 10.2 memperlihatkan kedua batas itu pada satu larutan nyata.
+Sementara itu, pelarut dalam larutan encer hampir murni: setiap molekul A dikelilingi oleh molekul A lain, kecuali sebagian kecil yang bertetangga dengan B. Pelarut karenanya mengikuti hukum Raoult. Larutan yang zat terlarutnya mengikuti hukum Henry dan pelarutnya mengikuti hukum Raoult disebut **larutan encer ideal**. Gambar 10.3 memperlihatkan kedua batas itu pada satu larutan nyata.
 
-![Gambar 10.2 Tekanan uap B dalam larutan nyata yang menyimpang positif dari hukum Raoult (skematis). Ketika B hampir murni ($x_\text{B} \to 1$), kurva menyinggung garis Raoult. Ketika B sangat encer ($x_\text{B} \to 0$), kurva menyinggung garis Henry dengan kemiringan $K_\text{B}$.](fig/henry.png){width=72%}
+![Gambar 10.3 Tekanan uap B dalam larutan nyata yang menyimpang positif dari hukum Raoult (skematis). Ketika B hampir murni ($x_\text{B} \to 1$), kurva menyinggung garis Raoult. Ketika B sangat encer ($x_\text{B} \to 0$), kurva menyinggung garis Henry dengan kemiringan $K_\text{B}$.](fig/henry.png){width=72%}
 
 ::: {.contoh}
 **Contoh 10.4 · Oksigen untuk ikan**

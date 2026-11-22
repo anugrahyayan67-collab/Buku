@@ -251,3 +251,30 @@ for i, (x, h) in enumerate([(5.0, 2.6), (6.1, 3.2), (7.2, 3.8)]):
     ax.add_patch(Rectangle((x + 0.25, 0.7 + h), 0.3, 0.15, color=NI))
     for j in range(int(h / 0.45)): ax.add_patch(Rectangle((x + 0.15, 0.9 + j * 0.45), 0.5, 0.22, color='white', alpha=0.35, lw=0))
 simpan(13, f, 'Sel Daniell mengubah energi Gibbs reaksi seng–tembaga menjadi listrik; baterai modern mengemas prinsip yang sama dengan energi spesifik makin besar.')
+
+# 14 tangga tingkat energi dengan populasi Boltzmann pada tiga suhu
+f, ax = kanvas(); rng = np.random.default_rng(14)
+for k, (x0, b) in enumerate([(0.5, 1.6), (2.9, 0.75), (5.3, 0.3)]):
+    p = np.exp(-b * np.arange(8)); p = p / p.sum(); n = np.round(p * 26).astype(int)
+    for j in range(8):
+        y = 0.7 + j * 0.5
+        ax.plot([x0, x0 + 2.0], [y, y], color=NI, lw=1.8, zorder=2)
+        for m in range(min(n[j], 10)): bola(ax, x0 + 0.15 + m * 0.19, y + 0.11, 0.085, [NI, UN, SI][k], z=4)
+    ax.plot(x0 + 2.1 + 0.6 * p / p.max() * np.exp(0), 0.7 + np.arange(8) * 0.5, color=EM, lw=0)
+yy = np.linspace(0, 3.5, 200)
+for k, (x0, b) in enumerate([(0.5, 1.6), (2.9, 0.75), (5.3, 0.3)]):
+    ax.plot(x0 + 1.95 * np.exp(-b * yy / 0.5) + 0.05, 0.7 + yy, color=EM, lw=2.2, alpha=0.8, zorder=3)
+ax.add_patch(Rectangle((0.5, 0.35), 6.8, 0.08, color=AB, lw=0))
+simpan(14, f, 'Molekul tersebar di antara tingkat-tingkat energi menurut faktor Boltzmann; ketika suhu naik, populasi merambat ke tingkat yang lebih tinggi.')
+
+# 15 tetes, gelembung, dan pipa kapiler
+f, ax = kanvas(); rng = np.random.default_rng(15)
+for x, y, r in [(1.0, 3.6, 0.55), (2.1, 4.3, 0.3), (2.7, 3.4, 0.18), (1.7, 2.6, 0.4)]: bola(ax, x, y, r, SI, z=3)
+ax.add_patch(Rectangle((3.6, 0.6), 4.3, 1.3, color='#bfe0f2', alpha=0.7, lw=0, zorder=1))
+for x0, h, w in [(4.2, 2.6, 0.18), (5.0, 1.6, 0.3), (5.9, 0.9, 0.5)]:
+    ax.add_patch(Rectangle((x0, 1.0), w, 3.6, fc='white', ec=NI, lw=1.6, alpha=0.9, zorder=2))
+    ax.add_patch(Rectangle((x0 + 0.02, 1.0), w - 0.04, 0.9 + h, color='#8cc0e8', alpha=0.85, lw=0, zorder=3))
+for _ in range(14):
+    x, y = rng.uniform(6.8, 7.7), rng.uniform(2.2, 4.6); bola(ax, x, y, rng.uniform(0.05, 0.14), UN if rng.random() < 0.5 else EM, z=4)
+ax.plot([0.4, 3.3], [1.6, 1.6], color=AB, lw=1.2)
+simpan(15, f, 'Tetes membulat, air naik di pipa sempit, dan gelembung kecil bertekanan lebih tinggi: semuanya akibat energi permukaan.')

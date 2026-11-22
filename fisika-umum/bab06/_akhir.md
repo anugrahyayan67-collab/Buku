@@ -30,27 +30,53 @@
 
 # Pertanyaan
 
+## Subbab 6.1: Zat alir, massa jenis, dan tekanan
+
 1. Mengapa pisau yang tajam memotong lebih baik daripada pisau tumpul, dengan gaya yang sama?
-2. Tekanan atmosfer menekan tubuhmu dengan gaya puluhan ribu newton. Mengapa kamu tidak remuk?
-3. Dua bendungan sama tinggi dan sama lebar. Yang satu menahan danau besar, yang lain menahan kolam kecil dengan kedalaman sama. Mana yang harus lebih kuat?
-4. Mengapa botol infus harus digantung lebih tinggi daripada pasien?
-5. Mengapa tekanan darah diukur di lengan atas?
-6. Jelaskan mengapa pompa hisap tidak dapat menaikkan air lebih dari kira-kira 10 m.
-7. Mengapa gelembung udara dalam selang rem berbahaya?
-8. Apakah gaya apung pada sebuah kapal selam berubah ketika ia menyelam lebih dalam? Anggap volumenya dan massa jenis air tetap.
-9. Sebuah balok kayu terapung dalam ember air di dalam lift. Ketika lift dipercepat ke atas, apakah balok itu terbenam lebih dalam, kurang dalam, atau tetap?
-10. Es batu terapung dalam segelas air, dan di dalam es itu terperangkap sebutir kerikil. Ketika es mencair, apakah permukaan air naik, turun, atau tetap? Bagaimana jika yang terperangkap adalah gelembung udara?
-11. Mengapa balon helium yang dilepas akhirnya berhenti naik?
-12. Mengapa lebih mudah terapung di Laut Mati daripada di kolam renang?
-13. Sebuah kapal berlayar dari laut masuk ke sungai. Apakah gaya apung padanya berubah? Apakah kedalaman benamnya berubah?
-14. Mengapa tetes air yang kecil berbentuk hampir bulat sempurna, sedangkan genangan air yang besar pipih?
-15. Mengapa air sabun membersihkan lebih baik daripada air biasa?
-16. Mengapa uap air murni sulit mengembun tanpa butir debu, dan zat cair murni dapat lewat didih?
-17. Mengapa volume pada buret dibaca di dasar meniskus, dan mengapa buret harus bersih dari lemak?
-18. Mengapa sel darah merah pecah jika dimasukkan ke air murni?
-19. Massa 1 kg kapas dan 1 kg besi ditimbang di udara dengan neraca yang sama. Benda mana yang massa sebenarnya lebih besar?
-20. Mengapa makanan lebih lama matang di pegunungan, dan bagaimana panci bertekanan mengatasinya?
-21. Mengapa rem hidraulik memakai minyak, dan mengapa gelembung udara di dalamnya berbahaya?
+
+## Subbab 6.2: Tekanan dalam zat cair diam
+
+2. Dua bendungan sama tinggi dan sama lebar. Yang satu menahan danau besar, yang lain menahan kolam kecil dengan kedalaman sama. Mana yang harus lebih kuat?
+3. Mengapa botol infus harus digantung lebih tinggi daripada pasien?
+
+## Subbab 6.3: Mengukur tekanan
+
+4. Mengapa tekanan darah diukur di lengan atas?
+
+## Subbab 6.4: Hukum Pascal dan hidraulik
+
+5. Mengapa gelembung udara dalam selang rem berbahaya?
+
+## Subbab 6.5: Atmosfer
+
+6. Tekanan atmosfer menekan tubuhmu dengan gaya puluhan ribu newton. Mengapa kamu tidak remuk?
+7. Jelaskan mengapa pompa hisap tidak dapat menaikkan air lebih dari kira-kira 10 m.
+8. Mengapa makanan lebih lama matang di pegunungan, dan bagaimana panci bertekanan mengatasinya?
+
+## Subbab 6.6: Hukum Archimedes
+
+9. Apakah gaya apung pada sebuah kapal selam berubah ketika ia menyelam lebih dalam? Anggap volumenya dan massa jenis air tetap.
+10. Sebuah balok kayu terapung dalam ember air di dalam lift. Ketika lift dipercepat ke atas, apakah balok itu terbenam lebih dalam, kurang dalam, atau tetap?
+11. Es batu terapung dalam segelas air, dan di dalam es itu terperangkap sebutir kerikil. Ketika es mencair, apakah permukaan air naik, turun, atau tetap? Bagaimana jika yang terperangkap adalah gelembung udara?
+12. Mengapa balon helium yang dilepas akhirnya berhenti naik?
+13. Mengapa lebih mudah terapung di Laut Mati daripada di kolam renang?
+14. Sebuah kapal berlayar dari laut masuk ke sungai. Apakah gaya apung padanya berubah? Apakah kedalaman benamnya berubah?
+15. Massa 1 kg kapas dan 1 kg besi ditimbang di udara dengan neraca yang sama. Benda mana yang massa sebenarnya lebih besar?
+
+## Subbab 6.7: Tegangan permukaan
+
+16. Mengapa tetes air yang kecil berbentuk hampir bulat sempurna, sedangkan genangan air yang besar pipih?
+17. Mengapa air sabun membersihkan lebih baik daripada air biasa?
+18. Mengapa uap air murni sulit mengembun tanpa butir debu, dan zat cair murni dapat lewat didih?
+19. Mengapa volume pada buret dibaca di dasar meniskus, dan mengapa buret harus bersih dari lemak?
+
+## Subbab 6.10: Kemampatan dan modulus limbak
+
+20. Mengapa rem hidraulik memakai minyak, dan mengapa gelembung udara di dalamnya berbahaya?
+
+## Subbab 6.11: Tekanan osmotik
+
+21. Mengapa sel darah merah pecah jika dimasukkan ke air murni?
 22. Mengapa rumus tekanan osmotik $\Pi = cRT$ sama bentuknya dengan persamaan gas ideal?
 23. Mengapa buah stroberi yang ditaburi gula menjadi berair?
 24. Mengapa ikan air tawar mati jika dimasukkan ke air laut?

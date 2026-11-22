@@ -145,3 +145,29 @@ table { break-inside: auto; page-break-inside: auto; }
 thead { display: table-header-group; }
 tr { break-inside: avoid; page-break-inside: avoid; }
 h2, h3 { break-after: avoid; page-break-after: avoid; }
+/* tabel: garis dan baris selang-seling mengikuti palet buku; keterangan tabel menempel pada tabelnya */
+td { border-bottom: .3px solid var(--garis); }
+tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--muda) 60%, #fff); }
+p:has(+ table) { break-after: avoid; page-break-after: avoid; text-indent: 0 !important; }
+/* Pertanyaan dan Soal akhir bab: dua kolom (turun di kiri, lalu lanjut di kanan) */
+.soal2 { column-count: 2; column-gap: 8mm; column-rule: .3px solid var(--garis); }
+.soal2 > blockquote:first-child { column-span: all; margin-bottom: 3mm; }
+.soal2 h2.kecil { break-after: avoid; break-inside: avoid; font-size: 9.6pt; letter-spacing: .6px; line-height: 1.3; margin: 3.5mm 0 1.5mm; }
+.soal2 h2.kecil:first-child, .soal2 > blockquote + h2.kecil { margin-top: 0; }
+.soal2 p, .soal2 li { break-inside: avoid; }
+.soal2.tanya ol { margin: 0 0 1mm 0; padding-left: 6mm; }
+.soal2.tanya li { margin-bottom: .8mm; line-height: 1.38; }
+.soal2.tanya li::marker { font-family: Caladea, serif; font-weight: 700; color: var(--ink); }
+.soal2 .katex-display, .soal2 math[display="block"] { overflow-x: hidden; }
+.soal2, .soal2 p, .soal2 li { text-align: left; hyphens: auto; }
+.soal2 p.tk { break-after: avoid; page-break-after: avoid; }
+
+/* Nomor Pertanyaan dan Soal rata: nomor rata kanan dalam kotak tetap, teks semua mulai di garis yang sama */
+.soal2 p.si { padding-left: 7.5mm; text-indent: -7.5mm !important; }
+.soal2 p.si > strong:first-child { display: inline-block; box-sizing: border-box; width: 7.5mm; min-width: 0; padding-right: 1.8mm; text-align: right; text-indent: 0; font-family: Caladea, serif; font-size: 10pt; color: var(--ink); }
+.soal2 p.si ~ :not(h2):not(.si):not(blockquote) { margin-left: 7.5mm; }
+.soal2.tanya ol { padding-left: 7.5mm; }
+.soal2.tanya li { padding-left: .2mm; }
+
+/* Pertanyaan dan Soal rata kanan-kiri */
+.soal2, .soal2 p, .soal2 li { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }

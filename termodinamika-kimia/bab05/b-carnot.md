@@ -2,14 +2,14 @@
 
 Pada 1824, insinyur muda Prancis Sadi Carnot mengajukan pertanyaan yang tepat: mesin kalor macam apa yang paling efisien? Jawabannya mengejutkan dalam kesederhanaannya. Mesin terbaik adalah mesin yang **seluruhnya reversibel**, karena di subbab 3.3 kita sudah melihat bahwa proses reversibel memberikan kerja terbesar. Carnot merancang siklus reversibel paling sederhana yang bekerja di antara dua suhu, dan siklus itu kini menyandang namanya.
 
-Siklus Carnot terdiri atas empat tahap reversibel (Gambar 5.1):
+Siklus Carnot terdiri atas empat tahap reversibel (Gambar 5.2):
 
 1. **Ekspansi isotermal pada $T_\text{h}$** (A → B). Gas bersentuhan dengan sumber panas, memuai perlahan, dan menyerap kalor $q_\text{h}$.
 2. **Ekspansi adiabatik** (B → C). Gas diisolasi dan terus memuai; karena tidak menerima kalor, suhunya turun dari $T_\text{h}$ ke $T_\text{c}$.
 3. **Kompresi isotermal pada $T_\text{c}$** (C → D). Gas bersentuhan dengan penampung dingin, dimampatkan perlahan, dan melepaskan kalor $q_\text{c}$.
 4. **Kompresi adiabatik** (D → A). Gas diisolasi lagi dan dimampatkan sampai suhunya naik kembali ke $T_\text{h}$.
 
-![Gambar 5.1 Siklus Carnot untuk 1 mol gas ideal monoatomik antara 500 K dan 300 K. Luas daerah yang dikurung siklus sama dengan kerja bersih yang dilakukan gas dalam satu siklus.](fig/carnot.png){width=74%}
+![Gambar 5.2 Siklus Carnot untuk 1 mol gas ideal monoatomik antara 500 K dan 300 K. Luas daerah yang dikurung siklus sama dengan kerja bersih yang dilakukan gas dalam satu siklus.](fig/carnot.png){width=74%}
 
 Mengapa siklus ini harus terdiri atas dua isoterm dan dua adiabat? Karena hanya dua jenis proses itu yang reversibel ketika mesin bekerja di antara dua suhu saja. Pertukaran kalor hanya reversibel bila suhu gas sama dengan suhu sumber, jadi harus terjadi secara isotermal. Peralihan dari satu suhu ke suhu lain harus terjadi tanpa pertukaran kalor sama sekali, jadi harus adiabatik.
 
@@ -125,6 +125,10 @@ $$
 **Lebih dalam: skala suhu termodinamika.** Persamaan (5.2) memberi cara mendefinisikan suhu yang sama sekali tidak bergantung pada zat termometrik. Jalankan mesin Carnot antara benda yang suhunya hendak diukur dan sel titik tripel air; perbandingan kalor yang dipertukarkan sama dengan perbandingan suhunya: $T = 273{,}16\ \text{K} \times |q|/|q_3|$. Karena efisiensi Carnot berlaku untuk semua zat kerja, skala ini universal. Bila zat kerjanya gas ideal, perhitungan subbab 5.4 menunjukkan bahwa skala ini identik dengan skala termometer gas ideal (persamaan 1.1). Inilah alasan kelvin disebut satuan suhu **termodinamika**, dan alasan nol mutlak tidak dapat dicapai: mesin Carnot yang membuang kalor ke 0 K akan berefisiensi 100%, melanggar pernyataan Kelvin.
 :::
 
+Gambar 5.3 memperlihatkan apa arti (5.4) dalam praktik. Efisiensi Carnot naik cepat ketika suhu sumber panas naik dari suhu kamar, lalu mendatar. Mesin uap yang bekerja dengan air mendidih pada 100 °C paling banter mengubah seperlima kalornya menjadi kerja. Turbin uap modern (sekitar 550 °C) dan turbin gas (di atas 1100 °C) jauh lebih baik, dan itulah sebabnya pembangkit listrik terus berusaha menaikkan suhu kerjanya. Batasnya adalah bahan: baja dan sudu turbin harus tahan suhu itu. Menurunkan $T_\text{c}$ juga menolong, tetapi kita tidak dapat memilih suhu lingkungan.
+
+![Gambar 5.3 Efisiensi Carnot $1 - T_\text{c}/T_\text{h}$ terhadap suhu reservoir panas untuk tiga suhu reservoir dingin. Titik hijau menandai batas teoretis tiga jenis mesin dengan $T_\text{c}$ = 300 K; mesin nyata mencapai sekitar 60–70% dari batas ini.](fig/efisiensi.png){width=78%}
+
 ::: {.kuis}
 **Kuis cepat 5.4** Mana yang lebih efektif menaikkan efisiensi Carnot: menaikkan $T_\text{h}$ sebesar 10 K atau menurunkan $T_\text{c}$ sebesar 10 K? (Petunjuk: bandingkan untuk $T_\text{h} = 600$ K dan $T_\text{c} = 300$ K.)
 :::
@@ -168,6 +172,10 @@ Sebuah ruangan memerlukan 10 kWh kalor per hari. Bandingkan listrik yang diperlu
 
 **Memahami hasil.** Pompa kalor menghemat hampir tiga perempat listrik, karena ia tidak **membuat** kalor dari listrik, melainkan **memindahkan** kalor yang sudah ada di udara luar. Pemanas listrik, sebaliknya, memakai energi berkualitas tinggi (listrik, yang dapat diubah seluruhnya menjadi kerja) untuk menghasilkan energi berkualitas rendah (kalor pada suhu kamar). Dari sudut hukum kedua, itu pemborosan: eksergi listrik dibuang begitu saja.
 :::
+
+Kedua koefisien kinerja membesar tanpa batas ketika beda suhu mengecil (Gambar 5.4). Inilah alasan praktis mengapa pompa kalor paling hemat di daerah beriklim sedang dan lemari es bekerja lebih ringan bila tidak diletakkan di dekat kompor: setiap kelvin beda suhu yang dihemat menurunkan kerja yang diperlukan.
+
+![Gambar 5.4 Koefisien kinerja maksimum (Carnot) mesin pendingin dan pompa kalor terhadap beda suhu antara kedua reservoir. Makin kecil beda suhu, makin sedikit kerja yang diperlukan untuk memindahkan satu joule kalor.](fig/cop.png){width=76%}
 
 ::: {.kuis}
 **Kuis cepat 5.5** Dapatkah dapur didinginkan dengan membiarkan pintu kulkas terbuka? Jelaskan dengan hukum pertama.

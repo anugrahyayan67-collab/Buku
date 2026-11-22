@@ -13,8 +13,11 @@ Repo ini berisi naskah buku sains berbahasa Indonesia untuk mahasiswa kimia, dib
 - Hasil PDF dikirim ke penyusun lewat SendUserFile. PDF hasil akhir disimpan di folder `pdf/` (salin dari fisika-umum/ dan kimia-kuantum/ setelah cetak ulang); PDF lain tidak di-commit.
 - Jangan memasukkan data pribadi penyusun selain nama (tanpa tanggal lahir, tanpa surel) ke berkas mana pun.
 
+## Awal setiap sesi
+Jalankan `python3 status.py`, lalu baca `PROMPT-AKUN-LAIN.md` (prompt induk: konteks, daftar pekerjaan berikutnya, cara mengambil keputusan, alat, plugin). Bila penyusun hanya bilang "lanjut" atau tidak memberi perintah khusus, kerjakan butir ☐ pertama di bagian 3 berkas itu sampai tuntas, centang, commit, lalu lanjut.
+
 ## Panduan susunan dan desain
-Semua buku mengikuti `PANDUAN-BUKU.md` (susunan bab, kotak, aturan penulisan, desain, alat cetak, langkah memulai buku baru).
+Semua buku mengikuti `PANDUAN-BUKU.md` (susunan bab, kotak, aturan penulisan, desain, alat cetak, langkah memulai buku baru) dan `PROMPT-BUKU.md` (standar kelengkapan dan gaya penjelasan yang diinginkan penyusun; wajib dibaca sebelum menulis atau merevisi).
 
 ## Model
 Lihat `PEMETAAN-MODEL.md`. Ringkas: **isi ditulis dengan Opus 5.5 (effort high, xhigh untuk bab tersulit); pekerjaan mesin dengan Sonnet 5.5.** Fable dan Haiku tidak dipakai.

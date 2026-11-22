@@ -91,6 +91,10 @@ Untuk timah putih → timah abu-abu, $\Delta_\text{trs}H = -2{,}09$ kJ mol⁻¹ 
 **Memahami hasil.** Timah abu-abu mempunyai entalpi lebih rendah (ikatannya lebih kuat, mirip intan) tetapi entropi juga lebih rendah. Ini persaingan yang sama seperti antara es dan air: pada suhu rendah entalpi menang, pada suhu tinggi entropi menang. Bedanya, di sini kedua fasa padat dan selisih energinya sangat kecil, sehingga perubahannya berjalan sangat lambat.
 :::
 
+Gambar 8.1 meringkas gagasan ini untuk satu zat. Potensial kimia setiap fasa turun ketika suhu naik, dengan kemiringan −$S_\text{m}$, sehingga garis gas paling curam, lalu cair, lalu padat. Pada setiap suhu, fasa yang stabil adalah fasa dengan garis **paling bawah**. Titik potong garis padat dan cair adalah titik leleh; titik potong garis cair dan gas adalah titik didih. Bila tekanan dinaikkan, garis gas naik paling banyak (subbab 7.8), sehingga titik potongnya dengan garis cair bergeser ke kanan: titik didih naik bersama tekanan.
+
+![Gambar 8.1 Potensial kimia padat, cair, dan gas terhadap suhu pada tekanan tetap (skematis). Fasa yang stabil adalah yang potensial kimianya paling rendah. Garis putus-putus: potensial kimia gas pada tekanan lebih tinggi, yang memotong garis cair pada suhu lebih tinggi, $T_\text{b}'$.](fig/muT.png){width=78%}
+
 ::: {.kuis}
 **Kuis cepat 8.1** Bila air dingin-lewat pada −10 °C tiba-tiba membeku di dalam wadah yang terisolasi, apakah suhunya tetap −10 °C? Ke mana kalor peleburan yang dilepaskan?
 :::
@@ -117,6 +121,10 @@ $$
 Untuk zat murni, energi Gibbs molar adalah **potensial kimia** zat itu, diberi lambang μ. Nama ini menangkap peran fisisnya: seperti air yang mengalir dari tempat tinggi ke tempat rendah, zat "mengalir" dari fasa dengan μ tinggi ke fasa dengan μ rendah, dan berhenti ketika μ di kedua fasa sama. Di Bab 9, potensial kimia akan diperluas ke campuran, tempat ia menjadi lebih penting lagi. Untuk bab ini cukup kita ingat bahwa $\mu = G_\text{m}$.
 
 Persamaan (8.2) adalah satu persamaan dengan dua variabel, *T* dan *p*. Persamaan seperti itu biasanya mempunyai penyelesaian berupa **garis** pada bidang *p*–*T*: untuk setiap tekanan ada satu suhu tempat kedua fasa setimbang. Inilah alasan titik didih bergantung pada tekanan. Garis-garis itu disebut **garis batas fasa**, dan gambar yang memuat semuanya disebut **diagram fasa**. Pada setiap titik di luar garis, hanya satu fasa yang stabil; pada setiap titik di atas garis, dua fasa setimbang.
+
+Karena energi Gibbs molar setiap fasa bergantung pada tekanan dengan kemiringan $V_\text{m}$ (subbab 7.8), tekanan dapat membalik urutan kestabilan dua fasa. Gambar 8.2 memperlihatkan es dan air pada −1 °C. Pada 1 bar, potensial kimia air 22 J mol⁻¹ lebih tinggi daripada es, sehingga es yang stabil. Tetapi es mempunyai volume molar lebih besar, sehingga potensial kimianya naik lebih cepat ketika ditekan, dan di atas sekitar 136 bar air menjadi fasa yang stabil: es mencair karena ditekan. Angka ini sesuai dengan kemiringan garis padat–cair air, sekitar −135 bar per kelvin, yang akan kita hitung dengan persamaan Clapeyron di subbab 8.3.
+
+![Gambar 8.2 Selisih potensial kimia air dan es pada −1 °C terhadap tekanan. Kemiringannya adalah selisih volume molar, −1,63 cm³ mol⁻¹. Di bawah 136 bar es stabil; di atasnya air stabil.](fig/mup.png){width=80%}
 
 ::: {.contoh}
 **Contoh 8.4 · Air atau uap pada 25 °C**

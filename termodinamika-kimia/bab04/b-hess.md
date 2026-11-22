@@ -143,6 +143,10 @@ Tabel 4.1 Entalpi pembentukan standar pada 298,15 K.
 
 Tanda $\Delta_\text{f}H^\circ$ memberi informasi kimia yang berharga. Zat dengan $\Delta_\text{f}H^\circ$ sangat negatif, seperti Al₂O₃ dan CO₂, berada jauh "di bawah" unsur-unsurnya dalam tangga entalpi; membentuknya melepaskan banyak kalor. Zat dengan $\Delta_\text{f}H^\circ$ positif, seperti asetilena dan NO, berada "di atas" unsur-unsurnya; zat semacam ini menyimpan energi dan cenderung melepaskannya, kadang dengan ledakan.
 
+Gambar 4.3 memperlihatkan arti (4.7) sebagai tangga entalpi. Unsur dalam keadaan acuan menjadi "permukaan laut" yang tingginya nol. Pereaksi dan hasil masing-masing berada pada ketinggian yang sama dengan jumlah entalpi pembentukannya. Entalpi reaksi hanyalah beda tinggi antara kedua tingkat itu: kita seolah-olah menguraikan pereaksi menjadi unsur, lalu menyusun hasil dari unsur yang sama.
+
+![Gambar 4.3 Entalpi reaksi dari entalpi pembentukan, dengan pembakaran etanol sebagai contoh. Semua tingkat diukur dari unsur dalam keadaan acuan; Δ$_\text{r}$H° adalah beda tinggi antara tingkat hasil dan tingkat pereaksi (Contoh 4.11).](fig/formasi.png){width=82%}
+
 ::: {.contoh}
 **Contoh 4.11 · Pembakaran etanol**
 

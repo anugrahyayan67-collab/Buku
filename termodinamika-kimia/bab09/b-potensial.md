@@ -83,6 +83,10 @@ $$
 **Memahami hasil.** Tekanan ini disebut **tekanan osmotik** air laut; nilai terukurnya sekitar 27 bar. Selisih potensial kimia yang tampak kecil, kurang dari 50 J mol⁻¹, memerlukan tekanan setara dengan kolom air setinggi 260 m untuk dilawan. Pabrik desalinasi **osmosis balik** memberikan tekanan lebih besar lagi, 55–80 bar, supaya air mengalir dari air laut **ke** sisi air tawar, melawan arah alaminya.
 :::
 
+Gambar 9.3 memperlihatkan bentuk hubungan $\mu_\text{A} = \mu_\text{A}^* + RT\ln x_\text{A}$ untuk campuran ideal. Potensial kimia zat selalu lebih rendah di dalam campuran daripada dalam keadaan murni, karena ln *x* negatif untuk *x* < 1. Penurunannya kecil selama A masih dominan, tetapi menjadi sangat besar ketika A encer: pada $x_\text{A}$ = 0,01, μ sudah 11,4 kJ mol⁻¹ di bawah nilai murninya pada 25 °C. Itulah sebabnya pemurnian tahap terakhir selalu paling sulit: mengeluarkan sisa kotoran yang tinggal sedikit berarti melawan potensial kimia yang sangat rendah.
+
+![Gambar 9.3 Potensial kimia komponen A dalam campuran ideal, relatif terhadap zat murni, pada dua suhu. Kurva turun perlahan dekat $x_\text{A}$ = 1 dan menukik tajam ketika A sangat encer; pada suhu lebih tinggi penurunannya lebih besar karena sebanding dengan *RT*.](fig/mux.png){width=76%}
+
 ::: {.kuis}
 **Kuis cepat 9.3** Dalam campuran gas, oksigen mempunyai potensial kimia lebih tinggi di tabung A daripada di tabung B, sedangkan nitrogen sebaliknya. Bila kedua tabung dihubungkan, bagaimana arah aliran masing-masing gas?
 :::

@@ -25,25 +25,63 @@
 
 # Pertanyaan
 
+## Subbab 9.1: Percobaan Stern–Gerlach dan spin
+
 1. Mengapa berkas perak dalam percobaan Stern–Gerlach terpecah menjadi dua, dan mengapa hasil ini tidak dapat dijelaskan dengan momentum sudut orbital?
 2. Dalam arti apa spin adalah momentum sudut, dan dalam arti apa ia sama sekali tidak seperti benda yang berputar?
+
+## Subbab 9.2: Operator spin dan matriks Pauli
+
 3. Mengapa spin $\tfrac12$ yang diputar 360° berubah tanda, dan apa hubungannya dengan bilangan kuantum setengah bulat?
+
+## Subbab 9.3: Partikel identik dan teorema spin–statistik
+
 4. Mengapa dua elektron "lebih identik" daripada dua kelereng yang dibuat persis sama?
 5. Bagaimana antisimetri membuat elektron berspin sama saling menghindar, tanpa gaya tambahan apa pun?
+
+## Subbab 9.4: Atom helium dan fungsi spin
+
 6. Hamiltonian helium tidak memuat spin. Mengapa energi keadaan tereksitasinya tetap bergantung pada spin total?
+
+## Subbab 9.5: Asas larangan Pauli
+
 7. Bagaimana asas Pauli menjelaskan bahwa materi menempati ruang dan tidak runtuh ketika ditekan?
+
+## Subbab 9.6: Determinan Slater
+
 8. Apa keuntungan determinan Slater dibandingkan menuliskan fungsi antisimetris secara manual?
 9. Mengapa orbital-orbital terisi dalam satu determinan tidak unik, dan apa akibatnya bagi perdebatan "orbital terlokalisasi vs terdelokalisasi"?
+
+## Subbab 9.7: Atom litium
+
 10. Mengapa elektron ketiga litium menempati 2s, bukan 2p, padahal dalam hidrogen keduanya sama energinya?
+
+## Subbab 9.8: Metode Hartree–Fock untuk atom
+
 11. Apa makna fisika energi orbital Hartree–Fock, dan mengapa energi total atom bukan jumlah energi orbitalnya?
 12. Kapan teorema Koopmans memberi energi ionisasi yang baik, dan kapan buruk? Mengapa?
+
+## Subbab 9.9: Orbital dan tabel periodik
+
 13. Mengapa 4s terisi sebelum 3d pada kalium, tetapi elektron 4s yang lebih dulu lepas ketika besi diionisasi?
 14. Mengapa energi ionisasi turun dari nitrogen ke oksigen, padahal muatan inti efektif naik?
+
+## Subbab 9.10: Korelasi elektron
+
 15. Apa itu energi korelasi, dan mengapa ia penting bagi kimia walaupun kurang dari 1% energi total?
 16. Apa perbedaan korelasi dinamis dan korelasi statis? Berikan satu contoh kimia untuk masing-masing.
+
+## Subbab 9.12: Lambang suku dan aturan Hund
+
 17. Mengapa asas Pauli membuang sebagian suku pada konfigurasi elektron ekuivalen seperti $p^2$?
 18. Apa asal fisika aturan Hund pertama, dan mengapa penjelasan "elektron sejajar saling tolak lebih lemah" tidak sepenuhnya tepat?
+
+## Subbab 9.13: Kopling spin–orbit dan struktur halus
+
 19. Mengapa kopling spin–orbit naik tajam dengan nomor atom, dan apa akibatnya bagi kimia unsur-unsur berat?
+
+## Subbab 9.14: Aturan Condon–Slater
+
 20. Bagaimana aturan Condon–Slater dan teorema Brillouin menjelaskan bahwa korelasi elektron didominasi eksitasi ganda?
 21. Bagaimana teka-teki pembuka bab (neon yang lembam dan natrium yang reaktif; periode 2, 8, 8, 18, 18, 32) terjawab?
 

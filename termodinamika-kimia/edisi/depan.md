@@ -36,9 +36,9 @@ Setiap bab dibuka dengan tiga kotak bergaya sama: **Pertanyaan pembuka** (teka-t
 | **Awas** | Kesalahan atau salah paham yang sering terjadi. |
 | **Kuis cepat** | Pertanyaan singkat di akhir subbab untuk memeriksa pemahaman; jawabannya ada di bagian Ringkasan. |
 
-## Tingkat soal
+## Soal
 
-Soal di akhir bab disusun bertingkat: soal dasar untuk melatih rumus, soal menengah yang menggabungkan beberapa gagasan, dan soal tantangan bertanda ★. Soal bertanda **[P]** dibahas lengkap di bagian Pembahasan.
+Soal di akhir bab dikelompokkan per subbab, dari yang melatih satu rumus sampai yang menggabungkan beberapa gagasan. Soal bertanda **[P]** dibahas lengkap di bagian Pembahasan, termasuk cara berpikirnya.
 
 ## Cara belajar yang dianjurkan
 

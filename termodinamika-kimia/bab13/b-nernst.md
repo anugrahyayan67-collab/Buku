@@ -26,15 +26,19 @@ $$
 **Memahami hasil.** Setelah 99% ion tembaga habis, tegangan hanya turun 5%. Tegangan baru jatuh berarti ketika [Cu²⁺] mencapai sekitar 10⁻¹⁰ mol L⁻¹ atau kurang; tetapi pada saat itu sel praktis sudah kosong. Tegangan yang hampir tetap ini adalah ciri khas semua sel elektrokimia, dan alasan mengapa indikator baterai yang hanya membaca tegangan tidak dapat menaksir sisa isi dengan teliti.
 :::
 
+Gambar 13.3 memperlihatkan seluruh riwayat pengosongan sel Daniell yang dimulai dari [Zn²⁺] = [Cu²⁺] = 1 mol L⁻¹. Karena *E* bergantung pada **logaritma** *Q*, tegangan hampir datar selama sebagian besar umur sel: setelah separuh Cu²⁺ bereaksi tegangan baru turun 14 mV, setelah 99 persen turun 68 mV. Penurunan tajam hanya terjadi pada persen-persen terakhir, ketika [Cu²⁺] mendekati nol dan logaritmanya menuju minus tak hingga.
+
+![Gambar 13.3 Potensial sel Daniell selama pengosongan, dihitung dengan persamaan Nernst. Tegangan hampir tetap sampai pereaksi hampir habis, lalu jatuh tajam.](fig/pengosongan.png){width=80%}
+
 Persamaan Nernst juga berlaku untuk setiap setengah sel terhadap SHE. Untuk setengah reaksi $\text{Ox} + n\text{e}^- \rightarrow \text{Red}$:
 
 $$
 E = E^\circ - \frac{RT}{nF}\ln\frac{a_\text{Red}}{a_\text{Ox}} . \qquad \text{(13.4)}
 $$
 
-Bentuk ini paling berguna untuk setengah reaksi yang melibatkan H⁺, karena potensialnya bergantung pada pH. Untuk elektrode hidrogen pada tekanan H₂ 1 bar, $E = -(RT/F)\ln(1/a_{\text{H}^+}) = -0{,}059\,16\ \text{pH}$. Untuk elektrode oksigen, $E = 1{,}229 - 0{,}059\,16\ \text{pH}$. Kedua garis sejajar dan berjarak 1,229 V pada setiap pH. Gambar 13.2 memperlihatkan maknanya.
+Bentuk ini paling berguna untuk setengah reaksi yang melibatkan H⁺, karena potensialnya bergantung pada pH. Untuk elektrode hidrogen pada tekanan H₂ 1 bar, $E = -(RT/F)\ln(1/a_{\text{H}^+}) = -0{,}059\,16\ \text{pH}$. Untuk elektrode oksigen, $E = 1{,}229 - 0{,}059\,16\ \text{pH}$. Kedua garis sejajar dan berjarak 1,229 V pada setiap pH. Gambar 13.4 memperlihatkan maknanya.
 
-![Gambar 13.2 Jendela kestabilan air pada 25 °C dan tekanan gas 1 bar. Di atas garis atas, air dioksidasi menjadi O₂; di bawah garis bawah, air direduksi menjadi H₂. Pengoksidasi yang potensialnya di atas jendela atau pereduksi yang potensialnya di bawahnya secara termodinamika tidak stabil dalam air.](fig/airstabil.png){width=72%}
+![Gambar 13.4 Jendela kestabilan air pada 25 °C dan tekanan gas 1 bar. Di atas garis atas, air dioksidasi menjadi O₂; di bawah garis bawah, air direduksi menjadi H₂. Pengoksidasi yang potensialnya di atas jendela atau pereduksi yang potensialnya di bawahnya secara termodinamika tidak stabil dalam air.](fig/airstabil.png){width=72%}
 
 ::: {.contoh}
 **Contoh 13.6 · Permanganat pada pH berbeda**
@@ -75,7 +79,7 @@ Hubungan ini juga dapat dibalik untuk **mengukur**. Menyusun ulang persamaan Ner
 :::
 
 ::: {.kuis}
-**Kuis cepat 13.4** Logam natrium (*E*° = −2,714 V) bereaksi hebat dengan air. Pakai Gambar 13.2 untuk menjelaskan mengapa.
+**Kuis cepat 13.4** Logam natrium (*E*° = −2,714 V) bereaksi hebat dengan air. Pakai Gambar 13.4 untuk menjelaskan mengapa.
 :::
 
 ## 13.5 Potensial standar dan tetapan kesetimbangan
@@ -123,8 +127,10 @@ Dalam titrasi Fe²⁺ dengan Ce⁴⁺ dalam asam sulfat, $E^\circ(\text{Ce}^{4+}
 
 **Penyelesaian.** $E^\circ = 1{,}61 - 0{,}771 = 0{,}839$ V, *n* = 1. $\log K = 0{,}839/0{,}059\,16 = 14{,}2$, sehingga $K = 1{,}5 \times 10^{14}$.
 
-**Memahami hasil.** Pada titik ekivalen, perbandingan [Fe²⁺]/[Fe³⁺] sekitar $1/\sqrt{K} \approx 10^{-7}$: reaksi tuntas sampai sepersepuluh juta. Potensial larutan melompat hampir 0,8 V di sekitar titik ekivalen, karena yang menentukan potensial berpindah dari pasangan besi ke pasangan cerium. Lompatan inilah yang dideteksi oleh indikator redoks atau elektrode platina. Reaksi titrasi yang baik memerlukan selisih *E*° paling sedikit sekitar 0,3–0,4 V.
+**Memahami hasil.** Pada titik ekivalen, perbandingan [Fe²⁺]/[Fe³⁺] sekitar $1/\sqrt{K} \approx 10^{-7}$: reaksi tuntas sampai sepersepuluh juta. Potensial larutan melompat hampir 0,8 V di sekitar titik ekivalen (Gambar 13.5), karena yang menentukan potensial berpindah dari pasangan besi ke pasangan cerium. Lompatan inilah yang dideteksi oleh indikator redoks atau elektrode platina. Reaksi titrasi yang baik memerlukan selisih *E*° paling sedikit sekitar 0,3–0,4 V.
 :::
+
+![Gambar 13.5 Kurva titrasi Fe²⁺ dengan Ce⁴⁺, dihitung dengan persamaan Nernst. Sebelum titik ekivalen, potensial ditentukan oleh pasangan Fe³⁺/Fe²⁺; sesudahnya oleh Ce⁴⁺/Ce³⁺. Di titik ekivalen, potensial adalah rata-rata kedua *E*°, 1,19 V, dan antara 99,9 dan 100,1 persen potensial melompat dari 0,95 V ke 1,43 V.](fig/titrasi.png){width=80%}
 
 ::: {.kuis}
 **Kuis cepat 13.5** Suatu reaksi sel mempunyai *E*° = 0 V. Berapa tetapan kesetimbangannya? Apakah sel ini dapat menghasilkan listrik?

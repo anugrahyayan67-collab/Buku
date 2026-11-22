@@ -31,31 +31,66 @@
 
 # Pertanyaan
 
+## Subbab 9.1: Apa itu gelombang
+
 1. Gelombang memindahkan energi tanpa memindahkan zat. Berikan satu bukti sederhana untuk pernyataan itu.
 2. Mengapa bunyi tidak dapat merambat di ruang hampa, sedangkan cahaya dapat?
 3. Mengapa gelombang transversal tidak dapat merambat di dalam zat cair, dan bagaimana fakta itu dipakai untuk menyimpulkan bahwa inti luar Bumi cair?
+
+## Subbab 9.2: Fungsi gelombang
+
 4. Jika kamu menggetarkan ujung tali dua kali lebih cepat, apakah gelombangnya merambat lebih cepat?
 5. Bedakan laju gelombang dari kelajuan partikel zat perantara. Mana yang bergantung pada amplitudo?
+
+## Subbab 9.3: Laju gelombang
+
 6. Mengapa bunyi merambat lebih cepat di baja daripada di udara, padahal baja jauh lebih rapat?
 7. Mengapa laju bunyi dalam gas tidak bergantung pada tekanan?
 8. Jelaskan mengapa suara seseorang berubah setelah menghirup helium. Apakah pita suaranya bergetar lebih cepat?
+
+## Subbab 9.5: Bunyi: kenyaringan dan desibel
+
 9. Mengapa dua mesin yang masing-masing 80 dB tidak menghasilkan 160 dB?
 10. Mengapa skala desibel memakai logaritma?
+
+## Subbab 9.6: Efek Doppler
+
 11. Mengapa efek Doppler untuk bunyi berbeda antara "sumber mendekat" dan "pengamat mendekat" dengan kelajuan sama, sedangkan untuk cahaya tidak?
 12. Bagaimana pergeseran merah cahaya galaksi menunjukkan bahwa alam semesta memuai?
 13. Mengapa garis spektrum gas panas lebih lebar daripada garis spektrum gas dingin?
+
+## Subbab 9.7: Superposisi dan interferensi
+
 14. Dua gelombang berinterferensi destruktif di satu titik. Apakah energi musnah?
+
+## Subbab 9.8: Gelombang berdiri pada tali
+
 15. Mengapa sebuah senar hanya dapat bergetar dengan frekuensi-frekuensi tertentu?
 16. Mengapa piano dan seruling yang memainkan nada yang sama terdengar berbeda?
+
+## Subbab 9.9: Gelombang berdiri dalam kolom udara
+
 17. Mengapa pipa tertutup hanya memiliki harmonik ganjil?
 18. Mengapa alat tiup bertambah tinggi nadanya ketika hangat, sedangkan alat gesek bertambah rendah?
+
+## Subbab 9.10: Dari senar ke atom
+
 19. Apa persamaan antara ragam getar senar gitar dan tingkat energi elektron dalam molekul?
 20. Mengapa zat warna organik biasanya berupa molekul dengan rantai ikatan rangkap selang-seling yang panjang?
 21. Mengapa USG memakai frekuensi megahertz dan bukan bunyi yang terdengar?
+
+## Subbab 9.11: Pemantulan dan pembiasan
+
 22. Ketika cahaya masuk dari udara ke air, besaran apa yang berubah dan apa yang tetap: laju, frekuensi, panjang gelombang?
 23. Mengapa intan berkilau jauh lebih terang daripada kaca yang dipotong dengan bentuk sama?
+
+## Subbab 9.12: Interferensi dan difraksi cahaya
+
 24. Mengapa kisi difraksi menghasilkan garis spektrum yang jauh lebih tajam daripada celah ganda?
 25. Mengapa mikroskop cahaya tidak dapat memperlihatkan bentuk molekul protein, betapa pun sempurna lensanya?
+
+## Subbab 9.13: Polarisasi
+
 26. Bagaimana polarisasi cahaya membuktikan bahwa cahaya adalah gelombang transversal?
 27. Mengapa campuran rasemik tidak memutar bidang polarisasi cahaya?
 

@@ -55,6 +55,10 @@ $$
 **Hukum pertama termodinamika.** Perubahan energi dalam sistem sama dengan kalor yang diterimanya ditambah kerja yang dilakukan padanya. Untuk sistem terisolasi, $q = w = 0$, sehingga $\Delta U = 0$: energi dalam sistem terisolasi tetap.
 :::
 
+Tanda dalam (3.7) mudah tertukar, karena buku fisika lama memakai konvensi lain (kerja yang dilakukan **oleh** sistem bertanda positif). Gambar 3.4 merangkum konvensi IUPAC yang dipakai di seluruh buku ini dengan satu aturan: lihat dari sudut sistem. Energi yang masuk, sebagai kalor atau kerja, menambah *U* dan bertanda positif; energi yang keluar bertanda negatif.
+
+![Gambar 3.4 Konvensi tanda IUPAC. Kalor yang diterima sistem dan kerja yang dilakukan lingkungan **pada** sistem (pemampatan) bertanda positif; kalor yang dilepas dan kerja yang dilakukan sistem (pemuaian) bertanda negatif.](fig/tanda.png){width=82%}
+
 Bagaimana kita tahu hukum ini benar? Tidak ada penurunan matematisnya; hukum pertama adalah ringkasan dari pengalaman yang tidak pernah dilanggar. Bukti yang paling meyakinkan datang dari percobaan James Joule pada 1840-an. Joule menjatuhkan beban yang memutar kincir di dalam air yang terisolasi. Kincir mengaduk air, dan air menjadi hangat, persis seperti bila air itu dipanaskan dengan api. Kerja mekanis dan kalor menghasilkan efek yang sama, dan jumlah kerja yang diperlukan untuk menaikkan suhu satu gram air satu derajat selalu sama. Kalor bukan zat khusus, seperti yang diyakini sebelumnya, melainkan energi.
 
 Akibat hukum pertama yang paling terkenal adalah mustahilnya **mesin abadi jenis pertama**: mesin yang terus bekerja tanpa diberi energi. Mesin semacam itu akan menghasilkan *w* negatif terus-menerus sambil kembali ke keadaan awalnya (Δ*U* = 0) tanpa menerima kalor, dan itu melanggar (3.7).
@@ -115,6 +119,10 @@ karena kedua ruas sama dengan turunan kedua campuran $\partial^2 f/\partial x\,\
 :::
 
 Contoh berikut memperlihatkan perbedaan itu dengan angka.
+
+Gambar 3.5 memperlihatkan gagasan ini pada bidang *p*–*V*. Ketiga jalur menghubungkan keadaan 1 dan 2 yang sama untuk satu mol gas ideal. Kerja yang dilakukan gas sama dengan luas di bawah jalurnya, dan luas itu jelas berbeda: paling kecil untuk jalur A, paling besar untuk jalur B. Karena kedua keadaan ujungnya bersuhu sama (300 K), Δ*U* = 0 untuk ketiga jalur, sehingga *q* = −*w* juga berbeda untuk setiap jalur. Yang tetap hanya fungsi keadaan.
+
+![Gambar 3.5 Tiga jalur dari keadaan 1 ke keadaan 2 untuk satu mol gas ideal (keduanya pada 300 K). Kerja gas sama dengan luas di bawah jalur (arsiran untuk jalur A), sehingga berbeda untuk setiap jalur; Δ*U* sama untuk ketiganya.](fig/jalur.png){width=74%}
 
 ::: {.contoh}
 **Contoh 3.8 · Dua jalan, satu Δ*U***

@@ -1,157 +1,155 @@
 ## Subbab 1.1: Sistem, lingkungan, dan variabel keadaan
 
-> Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹ $= 0{,}082\,06$ L atm K⁻¹ mol⁻¹, $k = 1{,}381 \times 10^{-23}$ J K⁻¹, $g = 9{,}807$ m s⁻², 1 atm = 101,325 kPa = 760 mmHg. Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab.
-
-**Dasar**
+> Pakai $R = 8{,}314$ J K⁻¹ mol⁻¹ $= 0{,}082\,06$ L atm K⁻¹ mol⁻¹, $k = 1{,}381 \times 10^{-23}$ J K⁻¹, $g = 9{,}807$ m s⁻², 1 atm = 101,325 kPa = 760 mmHg. Soal bertanda **[P]** dibahas di akhir bab.
 
 Air panas di dalam termos yang tertutup rapat dan berdinding hampa sempurna termasuk sistem apa? ||| terisolasi
 Manakah besaran intensif: tekanan, volume, energi dalam, massa jenis, fraksi mol, jumlah zat? ||| tekanan, massa jenis, fraksi mol
 Massa jenis air cair pada 25 °C adalah 0,997 g cm⁻³. Berapa volume molarnya? ||| 18,07 cm³ mol⁻¹
 
-**Menengah**
-
 Jelaskan mengapa konsentrasi molar (mol L⁻¹) adalah besaran intensif walaupun dihitung dari dua besaran ekstensif. ||| hasil bagi dua besaran ekstensif tidak bergantung ukuran sampel
 Sebuah sel bahan bakar menerima H₂ dan O₂ dari tabung, mengeluarkan uap air, dan menghasilkan listrik. Termasuk sistem apa, dan apa saja yang melintasi batasnya? ||| terbuka; materi (H₂, O₂, H₂O), energi (listrik, kalor)
 
-## Subbab 1.2: Kesetimbangan termal, hukum ke-nol, dan suhu
 
-**Dasar**
+Berapa mol air terdapat dalam 1,00 m³ air cair (ρ = 0,997 g cm⁻³)? Apakah jumlah zat besaran intensif atau ekstensif? ||| $5{,}53 \times 10^4$ mol; ekstensif
+Sebutkan dua variabel keadaan yang cukup untuk menentukan keadaan 1 mol gas murni, dan jelaskan mengapa variabel ketiga tidak bebas. ||| misalnya *p* dan *T*; *V* ditentukan oleh persamaan keadaan
+Kopi panas dalam cangkir terbuka: sistem apa, dan apa yang melintasi batasnya? ||| terbuka; uap air (materi) dan kalor
+
+## Subbab 1.2: Kesetimbangan termal, hukum ke-nol, dan suhu
 
 Nyatakan 37,0 °C dalam kelvin dan 77 K dalam derajat Celsius. ||| 310,15 K; −196 °C
 Termometer gas bervolume tetap menunjukkan 6,69 kPa pada titik tripel air dan 9,02 kPa di dalam suatu cairan. Berapa suhu cairan itu? ||| 368,3 K (95,1 °C)
 Termometer gas yang sama menunjukkan $p_3$ pada titik tripel air. Berapa tekanannya pada 0 °C, dinyatakan sebagai pecahan $p_3$? ||| 0,999 96 $p_3$
 
-**Menengah**
-
 Suhu naik dari 20 °C menjadi 30 °C. Berapa persen kenaikan suhu termodinamikanya? ||| 3,4%
 Dua benda A dan C tidak pernah bersentuhan, tetapi termometer yang sama menunjukkan bacaan yang sama pada keduanya. Hukum apa yang menjamin bahwa A dan C akan setimbang termal bila disentuhkan? ||| hukum ke-nol
 
-**Tantangan ★**
+Mengapa dua termometer gas yang diisi gas berbeda (misalnya He dan CO₂) dapat memberi bacaan yang sedikit berbeda untuk benda yang sama, dan bagaimana perbedaan itu dihilangkan? ||| gas belum ideal; ukur pada beberapa $p_3$ lalu ekstrapolasi ke $p_3 \to 0$
 
-★ Mengapa dua termometer gas yang diisi gas berbeda (misalnya He dan CO₂) dapat memberi bacaan yang sedikit berbeda untuk benda yang sama, dan bagaimana perbedaan itu dihilangkan? ||| gas belum ideal; ukur pada beberapa $p_3$ lalu ekstrapolasi ke $p_3 \to 0$
+
+Pada suhu berapa skala Celsius dan Fahrenheit menunjukkan angka yang sama? Nyatakan juga 310,15 K dalam °F. ||| −40; 98,6 °F
+Termometer gas bervolume tetap menunjukkan 0,0500 bar di titik tripel air dan 0,0683 bar di dalam air mendidih. Berapa suhu air mendidih menurut termometer ini? ||| 373,1 K
+Mengapa skala kelvin tidak memakai tanda derajat, dan mengapa selisih 1 K sama dengan selisih 1 °C? ||| kelvin satuan SI mutlak; kedua skala hanya bergeser 273,15
 
 ## Subbab 1.3: Tekanan dan cara mengukurnya
-
-**Dasar**
 
 Nyatakan 1,00 atm dalam kPa, bar, dan torr. ||| 101,3 kPa; 1,013 bar; 760 torr
 Barometer menunjukkan 755 mmHg. Berapa tekanannya dalam kPa? ||| 100,7 kPa
 Berapa tinggi kolom etanol ($\rho = 789$ kg m⁻³) yang ditopang tekanan 1,00 atm? ||| 13,1 m
 
-**Menengah**
-
 @mano [P] Gas di dalam labu disambungkan ke manometer raksa ujung terbuka. Raksa di kaki yang tersambung ke labu 42 mm **lebih tinggi** daripada di kaki terbuka. Barometer menunjukkan 762 mmHg. Berapa tekanan gas dalam mmHg dan kPa? ||| 720 mmHg; 96,0 kPa
 Berapa tekanan total yang dialami penyelam pada kedalaman 50 m di laut ($\rho = 1025$ kg m⁻³)? ||| $6{,}04 \times 10^5$ Pa (5,96 atm)
 
-**Tantangan ★**
+Berapa gaya total udara pada satu sisi kaca jendela seluas 1,00 m² pada tekanan 1,00 atm? Mengapa kaca itu tidak pecah? ||| $1{,}01 \times 10^5$ N; udara menekan sama besar dari kedua sisi
 
-★ Berapa gaya total udara pada satu sisi kaca jendela seluas 1,00 m² pada tekanan 1,00 atm? Mengapa kaca itu tidak pecah? ||| $1{,}01 \times 10^5$ N; udara menekan sama besar dari kedua sisi
+
+Berapa tinggi kolom air (ρ = 997 kg m⁻³) yang setara dengan 1,00 atm? Mengapa barometer air tidak praktis? ||| 10,4 m; terlalu tinggi
+Ban sepeda dipompa sampai pengukur menunjukkan 32 psi (1 psi = 6,895 kPa). Berapa tekanan mutlak di dalam ban dalam kPa? ||| 322 kPa (terbaca 221 kPa + 101 kPa)
+Manometer berisi minyak (ρ = 850 kg m⁻³) menunjukkan selisih tinggi 18,0 cm. Berapa selisih tekanannya dalam Pa dan dalam mmHg? ||| 1500 Pa; 11,3 mmHg
 
 ## Subbab 1.4: Hukum-hukum gas: Boyle, Charles, Avogadro
-
-**Dasar**
 
 Udara 500 mL pada 1,0 atm dimampatkan pada suhu tetap sampai 3,0 atm. Berapa volumenya? ||| 167 mL
 Gas 2,00 L pada 27 °C dipanaskan pada tekanan tetap sampai 127 °C. Berapa volumenya? ||| 2,67 L
 Kaleng semprot bertekanan 2,0 atm pada 25 °C terlempar ke api unggun dan mencapai 400 °C. Berapa tekanannya bila volume tetap? ||| 4,5 atm
 
-**Menengah**
-
 Berapa liter O₂ yang diperlukan untuk membakar sempurna 5,0 L CH₄, dan berapa liter CO₂ yang dihasilkan, semuanya pada suhu dan tekanan yang sama? ||| 10,0 L O₂; 5,0 L CO₂
 Gelembung udara naik dari dasar danau sedalam 20 m ke permukaan pada suhu tetap. Berapa kali volumenya bertambah? ||| ≈ 2,9 kali
 
-## Subbab 1.5: Persamaan gas ideal dan pemakaiannya
 
-**Dasar**
+Ban mobil diisi sampai pengukur menunjukkan 2,20 bar pada 15 °C. Setelah perjalanan jauh suhunya 45 °C. Berapa bacaan pengukur sekarang bila volumenya tetap? (Tekanan udara 1,013 bar.) ||| 2,53 bar (tekanan mutlak naik dari 3,21 ke 3,55 bar)
+Balon cuaca berisi 3,00 L gas pada 1,00 atm dan 25 °C naik ke ketinggian dengan tekanan 0,500 atm dan suhu −20 °C. Berapa volumenya? ||| 5,09 L
+Mengapa hukum Charles hanya berlaku bila suhu dinyatakan dalam kelvin, tidak dalam °C? ||| $V \propto T$ hanya bila nol skala suhu adalah nol mutlak
+
+## Subbab 1.5: Persamaan gas ideal dan pemakaiannya
 
 Berapa mol CO₂ yang ada dalam 5,00 L pada 1,00 bar dan 25 °C? ||| 0,202 mol
 Berapa volume 1,00 mol gas ideal pada 100 °C dan 1,00 atm? ||| 30,6 L
 Hitung massa jenis CO₂ pada SATP. ||| 1,78 g L⁻¹
 
-**Menengah**
-
 @mol [P] Sebanyak 0,456 g suatu gas menempati 250 mL pada 25 °C dan 98,0 kPa. Berapa massa molarnya, dan gas apa yang mungkin? ||| 46,1 g mol⁻¹; misalnya NO₂
 Pita magnesium 0,243 g direaksikan dengan HCl berlebih. Berapa volume H₂ yang dihasilkan pada 25 °C dan 1,00 atm? ||| 0,245 L
 Tabung helium 50,0 L bertekanan 150 atm dipakai mengisi balon 5,00 L sampai 1,00 atm pada suhu tetap. Berapa balon yang dapat diisi? ||| 1490 (tabung tetap berisi 1 atm)
 
-**Tantangan ★**
+Udara ($M = 28{,}97$ g mol⁻¹) pada 1,00 atm. Hitung massa jenisnya pada 25 °C dan 100 °C, lalu gaya angkat (dalam kg) per m³ udara panas 100 °C dalam balon udara panas. ||| 1,184 dan 0,946 kg m⁻³; 0,238 kg per m³
 
-★ Udara ($M = 28{,}97$ g mol⁻¹) pada 1,00 atm. Hitung massa jenisnya pada 25 °C dan 100 °C, lalu gaya angkat (dalam kg) per m³ udara panas 100 °C dalam balon udara panas. ||| 1,184 dan 0,946 kg m⁻³; 0,238 kg per m³
+
+Hitung volume molar gas ideal pada 0 °C dan 1 bar, lalu pada 0 °C dan 1 atm. ||| 22,71 L mol⁻¹; 22,41 L mol⁻¹
+Ruang kuliah berukuran 4,0 m × 5,0 m × 3,0 m berisi udara pada 1,00 atm dan 25 °C. Berapa mol dan berapa kilogram udara di dalamnya ($M$ = 28,97 g mol⁻¹)? ||| 2450 mol; 71 kg
+Suatu gas mempunyai massa jenis 1,25 g L⁻¹ pada 0 °C dan 1,00 atm. Berapa massa molarnya, dan gas apa yang mungkin? ||| 28,0 g mol⁻¹; N₂ atau CO
+@airbag [P] Kantong udara mobil mengembang karena reaksi $2\,\text{NaN}_3(s) \to 2\,\text{Na}(s) + 3\,\text{N}_2(g)$. Berapa gram NaN₃ yang diperlukan untuk mengisi kantong 60,0 L sampai 1,15 atm pada 25 °C? ||| 2,82 mol N₂; 122 g NaN₃
 
 ## Subbab 1.6: Campuran gas: hukum Dalton dan fraksi mol
-
-**Dasar**
 
 Wadah 10,0 L pada 25 °C berisi 4,00 g He dan 4,00 g H₂. Hitung tekanan parsial masing-masing dan tekanan total. ||| He 248 kPa; H₂ 492 kPa; total 740 kPa
 Dalam campuran bertekanan total 1,50 atm, tekanan parsial O₂ 0,30 atm. Berapa fraksi mol O₂? ||| 0,20
 Wadah berisi 2,0 g H₂ dan 32 g O₂ dengan tekanan total 3,0 atm. Berapa tekanan parsial masing-masing? ||| masing-masing 1,5 atm
 
-**Menengah**
-
 Hidrogen ditampung di atas air pada 20 °C (tekanan uap air 17,54 mmHg). Volumenya 180 mL dan tekanan total 750 mmHg. Berapa mol H₂? ||| $7{,}21 \times 10^{-3}$ mol
 @campur [P] Labu 1,00 L berisi N₂ pada 2,00 atm dihubungkan dengan labu 3,00 L berisi O₂ pada 1,00 atm, pada suhu tetap. Berapa tekanan total dan fraksi mol O₂ setelah bercampur? ||| 1,25 atm; $x(\text{O}_2) = 0{,}60$
 
-## Subbab 1.7: Teori kinetik: dari tumbukan molekul ke tekanan
 
-**Dasar**
+Udara kering terdiri atas N₂ 78,08%, O₂ 20,95%, Ar 0,93%, dan CO₂ 0,04% (fraksi mol). Hitung massa molar rata-ratanya. ||| 28,97 g mol⁻¹
+Di ketinggian 5500 m tekanan udara sekitar 0,50 atm. Berapa tekanan parsial O₂, dan mengapa pendaki merasa sesak napas? ||| 0,105 atm (10,6 kPa); separuh nilai di permukaan laut
+Penyelam dalam memakai campuran helium–oksigen. Bila tekanan total di kedalaman 10 atm dan tekanan parsial O₂ harus 0,21 atm, berapa fraksi mol O₂ campuran itu? ||| 0,021
+Campuran 50% massa He dan 50% massa O₂. Berapa fraksi mol He? ||| 0,889
+
+## Subbab 1.7: Teori kinetik: dari tumbukan molekul ke tekanan
 
 Hitung $v_\text{rms}$ CO₂ pada 25 °C. ||| 411 m s⁻¹
 Berapa energi kinetik translasi rata-rata satu molekul pada 25 °C? ||| $6{,}17 \times 10^{-21}$ J
 Pada suhu berapa $v_\text{rms}$ O₂ sama dengan 1000 m s⁻¹? ||| 1283 K
 
-**Menengah**
-
 Berapa perbandingan $v_\text{rms}$ H₂ terhadap I₂ (*M* = 253,8 g mol⁻¹) pada suhu yang sama? ||| 11,2
 Suhu gas dinaikkan dari 300 K ke 1200 K. Berapa kali $v_\text{rms}$ dan energi kinetik rata-rata bertambah? ||| $v_\text{rms}$ 2 kali; energi 4 kali
 
-**Tantangan ★**
+Tunjukkan dari (1.14) bahwa tekanan gas ideal sama dengan dua pertiga rapat energi kinetik translasinya, lalu hitung energi kinetik translasi total 1,00 L udara pada 1,00 atm. ||| $p = \tfrac23E_\text{k}/V$; 152 J
 
-★ Tunjukkan dari (1.14) bahwa tekanan gas ideal sama dengan dua pertiga rapat energi kinetik translasinya, lalu hitung energi kinetik translasi total 1,00 L udara pada 1,00 atm. ||| $p = \tfrac23E_\text{k}/V$; 152 J
+
+Berapa energi kinetik translasi total 1,00 mol gas ideal pada 300 K? Apakah jawabannya bergantung pada jenis gas? ||| 3,74 kJ; tidak
+Pemisahan isotop uranium memanfaatkan gas UF₆. Berapa perbandingan $v_\text{rms}$ ²³⁵UF₆ terhadap ²³⁸UF₆? ||| 1,0043
+Hitung $v_\text{rms}$ H₂ pada 20 K, suhu hidrogen cair. ||| 497 m s⁻¹
 
 ## Subbab 1.8: Kelajuan molekul dan sebaran Maxwell–Boltzmann
-
-**Dasar**
 
 Hitung $v_\text{mp}$, $\bar v$, dan $v_\text{rms}$ untuk He pada 25 °C. ||| 1113; 1256; 1363 m s⁻¹
 Tanpa menghitung, urutkan $v_\text{mp}$, $\bar v$, $v_\text{rms}$ dari yang terkecil. ||| $v_\text{mp} < \bar v < v_\text{rms}$
 
-**Menengah**
-
 Pada suhu berapa kelajuan paling mungkin N₂ sama dengan kelajuan paling mungkin He pada 300 K? ||| 2100 K
 Tunjukkan bahwa $\bar v/v_\text{mp}$ sama untuk semua gas pada semua suhu, dan hitung nilainya. ||| $\sqrt{4/\pi} = 1{,}128$
 
-**Tantangan ★**
+@py [P] (Python) Integralkan (1.17) secara numerik untuk O₂ pada 300 K dan periksa bahwa luasnya 1, lalu hitung $\bar v$, $v_\text{rms}$, dan pecahan molekul yang lebih cepat dari 1000 m s⁻¹. ||| luas 1,000; 446 dan 484 m s⁻¹; 0,50%
 
-@py [P] ★ (Python) Integralkan (1.17) secara numerik untuk O₂ pada 300 K dan periksa bahwa luasnya 1, lalu hitung $\bar v$, $v_\text{rms}$, dan pecahan molekul yang lebih cepat dari 1000 m s⁻¹. ||| luas 1,000; 446 dan 484 m s⁻¹; 0,50%
+
+Kelajuan lepas dari Bumi 11,2 km s⁻¹. Bandingkan dengan $v_\text{mp}$ H₂ di atmosfer atas (≈ 1000 K), lalu jelaskan mengapa Bumi kehilangan hidrogen tetapi tidak nitrogen. ||| 2,87 km s⁻¹; ekor sebaran H₂ jauh lebih panjang ke kelajuan tinggi
+Hitung $v_\text{mp}$, $\bar v$, dan $v_\text{rms}$ untuk Cl₂ (*M* = 70,9 g mol⁻¹) pada 25 °C. ||| 264; 298; 324 m s⁻¹
+Dengan integrasi numerik sebaran Maxwell–Boltzmann, hitung fraksi molekul N₂ yang lebih cepat dari 1000 m s⁻¹ pada 298 K dan pada 1000 K. ||| 0,010; 0,34
 
 ## Subbab 1.9: Efusi dan difusi: hukum Graham
-
-**Dasar**
 
 Berapa perbandingan laju efusi He terhadap CH₄? ||| 2,00
 Sejumlah N₂ berefusi dalam 100 s. Berapa lama O₂ dengan jumlah yang sama berefusi melalui lubang yang sama pada kondisi yang sama? ||| 107 s
 
-**Menengah**
-
 @nh3 [P] Kapas berisi NH₃ dan HCl diletakkan bersamaan di kedua ujung tabung sepanjang 1,00 m. Menurut hukum Graham, pada jarak berapa dari ujung NH₃ cincin NH₄Cl terbentuk? ||| 0,59 m
 Suatu gas memerlukan waktu 1,50 kali waktu N₂ untuk berefusi dalam jumlah yang sama. Berapa massa molarnya? ||| 63,0 g mol⁻¹
 
-**Tantangan ★**
+Berapa faktor pemisahan ideal satu tahap efusi untuk campuran D₂ dan H₂? Bandingkan dengan UF₆ (Contoh 1.15) dan jelaskan mengapa isotop hidrogen jauh lebih mudah dipisahkan. ||| 1,414; perbedaan massa relatif besar
 
-★ Berapa faktor pemisahan ideal satu tahap efusi untuk campuran D₂ dan H₂? Bandingkan dengan UF₆ (Contoh 1.15) dan jelaskan mengapa isotop hidrogen jauh lebih mudah dipisahkan. ||| 1,414; perbedaan massa relatif besar
+
+Volume yang sama gas X berefusi dalam 1,00 menit, sedangkan O₂ dalam 2,40 menit pada kondisi yang sama. Berapa massa molar X? ||| 5,56 g mol⁻¹
+Kapas yang dibasahi NH₃ dan HCl pekat diletakkan di kedua ujung tabung 100 cm. Pada jarak berapa dari ujung NH₃ cincin putih NH₄Cl terbentuk menurut hukum Graham? ||| 59 cm (dalam praktik sedikit kurang)
+Berapa faktor pemisahan satu tahap efusi ²³⁵UF₆/²³⁸UF₆, dan kira-kira berapa tahap diperlukan untuk menaikkan perbandingan isotop sebesar faktor 5? ||| 1,0043; ln 5/ln 1,0043 ≈ 375 tahap
 
 ## Subbab 1.10: Tumbukan antarmolekul dan jalan bebas rata-rata
-
-**Dasar**
 
 Jalan bebas rata-rata N₂ pada 1 atm dan 25 °C adalah 67 nm. Berapa nilainya pada 0,10 atm dan suhu sama? ||| 670 nm
 Bila tekanan dilipatduakan pada suhu tetap, berapa kali frekuensi tumbukan berubah? ||| 2 kali
 
-**Menengah**
-
 Hitung jalan bebas rata-rata Ar ($\sigma = 0{,}36$ nm²) pada 25 °C dan 1,00 bar. ||| 81 nm
 Pada tekanan berapa jalan bebas rata-rata N₂ pada 25 °C sama dengan 1,0 cm? ||| 0,68 Pa ($5{,}1 \times 10^{-3}$ torr)
 
-**Tantangan ★**
+Dengan $D = 1{,}06 \times 10^{-5}$ m² s⁻¹, berapa lama rata-rata molekul N₂ berdifusi sejauh 1,0 cm, dan sejauh 5,0 m? ||| 4,7 s; ≈ $1{,}2 \times 10^6$ s (2 minggu)
 
-★ Dengan $D = 1{,}06 \times 10^{-5}$ m² s⁻¹, berapa lama rata-rata molekul N₂ berdifusi sejauh 1,0 cm, dan sejauh 5,0 m? ||| 4,7 s; ≈ $1{,}2 \times 10^6$ s (2 minggu)
+Hitung jalan bebas rata-rata N₂ (*d* = 0,37 nm) pada 25 °C dan 1,00 atm, lalu nyatakan sebagai kelipatan diameter molekulnya. ||| 67 nm; ≈ 180 kali *d*
+Hitung frekuensi tumbukan satu molekul N₂ pada 25 °C dan 1,00 atm, dan selang waktu rata-rata antartumbukan. ||| $7{,}1 \times 10^9$ s⁻¹; 0,14 ns
+Pada tekanan berapa jalan bebas rata-rata N₂ pada 25 °C mencapai 10 cm, ukuran ruang hampa sebuah alat? ||| 0,068 Pa ($5{,}1 \times 10^{-4}$ torr)
+

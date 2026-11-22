@@ -25,20 +25,46 @@
 
 # Pertanyaan
 
+## Subbab 13.1: Arus listrik
+
 1. Jika elektron hanyut begitu lambat, mengapa lampu menyala seketika ketika sakelar ditekan?
 2. Arus dalam kawat logam dibawa elektron; dalam larutan garam dibawa apa? Ke arah mana masing-masing bergerak?
+
+## Subbab 13.2: Hambatan dan hukum Ohm
+
 3. Mengapa hambatan logam naik ketika dipanaskan, sedangkan hambatan larutan elektrolit turun?
 4. Apakah hukum Ohm berlaku untuk semua komponen? Apa bedanya dengan definisi hambatan?
 5. Mengapa lampu pijar paling sering putus tepat ketika dinyalakan?
+
+## Subbab 13.3: Energi dan daya listrik
+
 6. Mengapa energi listrik dikirim jarak jauh dengan tegangan sangat tinggi?
 7. Burung bertengger pada kabel tegangan tinggi tanpa cedera. Mengapa?
+
+## Subbab 13.4: Ggl dan hambatan dalam
+
 8. Apa beda ggl dengan tegangan jepit? Kapan keduanya sama?
+
+## Subbab 13.5: Rangkaian seri dan paralel
+
 9. Mengapa alat-alat listrik di rumah dipasang paralel, bukan seri?
-10. Mengapa amperemeter harus berhambatan kecil dan voltmeter berhambatan besar?
-11. Apa keunggulan metode nol (jembatan Wheatstone, potensiometer) dibandingkan pembacaan langsung?
-12. Mengapa potensial sel elektrokimia harus diukur tanpa menarik arus?
-13. Hukum Kirchhoff sering disebut dua hukum kekekalan. Kekekalan apa saja?
+
+## Subbab 13.6: Hukum Kirchhoff
+
+10. Hukum Kirchhoff sering disebut dua hukum kekekalan. Kekekalan apa saja?
+
+## Subbab 13.7: Alat ukur listrik
+
+11. Mengapa amperemeter harus berhambatan kecil dan voltmeter berhambatan besar?
+12. Apa keunggulan metode nol (jembatan Wheatstone, potensiometer) dibandingkan pembacaan langsung?
+13. Mengapa potensial sel elektrokimia harus diukur tanpa menarik arus?
+
+## Subbab 13.8: Rangkaian RC
+
 14. Ketika kapasitor diisi melalui hambatan, setengah energi dari baterai hilang sebagai kalor, berapa pun hambatannya. Jelaskan secara kualitatif.
+
+## Subbab 13.9: Listrik dan kimia
+
 15. Mengapa ion Li⁺, yang paling kecil, bergerak paling lambat dalam air?
 16. Mengapa konduktivitas molar H⁺ jauh lebih besar daripada ion-ion lain?
 17. Mengapa konduktivitas sel diukur dengan arus bolak-balik?
@@ -46,10 +72,16 @@
 19. Mengapa tegangan semua sel kimia berkisar antara satu dan beberapa volt?
 20. Apa yang sebenarnya "habis" pada baterai yang mati?
 21. Mengapa baterai menyimpan energi jauh lebih sedikit tiap kilogram daripada bensin?
+
+## Subbab 13.10: Semikonduktor
+
 22. Mengapa kaca tidak menghantar listrik, sedangkan tembaga menghantar dengan sangat baik? Jelaskan dengan pita energi.
 23. Mengapa sedikit sekali atom fosfor dapat mengubah hantaran silikon jutaan kali?
 24. Mengapa warna LED ditentukan oleh bahan semikonduktornya?
 25. Mengapa sel surya silikon tidak dapat memanfaatkan cahaya inframerah berpanjang gelombang lebih dari 1,1 μm?
+
+## Subbab 13.11: Sel elektrokimia yang bekerja
+
 26. Mengapa elektrolisis air memerlukan tegangan jauh di atas 1,23 V? Bagaimana katalis membantu?
 27. Bagaimana seng melindungi besi dari karat?
 

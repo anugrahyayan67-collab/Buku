@@ -1,0 +1,131 @@
+## Subbab 10.1: Benzena: struktur dan kestabilan
+
+> Kalor hidrogenasi (−ΔH°, kJ mol⁻¹): sikloheksena 120, sikloheksa-1,3-diena 232, benzena 208. Laju nitrasi relatif: fenol 1000, toluena 25, benzena 1, klorobenzena 0,033, etil benzoat 0,0037, nitrobenzena 6 × 10⁻⁸. Soal bertanda **[P]** dibahas di akhir bab.
+
+Berapa isomer dibromobenzena dan tribromobenzena yang ada? Tulis namanya. ||| 3 (1,2-; 1,3-; 1,4-); 3 (1,2,3-; 1,2,4-; 1,3,5-)
+Mengapa struktur Kekulé meramalkan dua isomer 1,2-dibromobenzena, dan bagaimana gambaran hibrida resonansi mengatasinya? ||| ikatan C1–C2 tunggal atau rangkap; pada hibrida semua ikatan sama (1,5)
+Panjang ikatan C–C benzena 139 pm. Bandingkan dengan C–C (154) dan C=C (134). Apa artinya? ||| di antara keduanya; setiap ikatan berorde sekitar 1,5
+@reso [P] Pakai kalor hidrogenasi untuk menghitung energi resonansi benzena dan ΔH° hidrogenasi benzena menjadi sikloheksena (+ 2H₂ sekaligus). Apa kesimpulan tentang kemudahan menghentikan hidrogenasi benzena pada sikloheksena? ||| 152 kJ mol⁻¹; benzena → sikloheksena: −88 kJ mol⁻¹ total, tetapi langkah pertama (+24) endoterm; zat antara lebih reaktif, sehingga tidak dapat ditangkap
+Gambarkan susunan enam orbital molekul π benzena dan isiannya. Mengapa susunan ini stabil? ||| 1 + 2 ikatan terisi penuh (6 e), 2 + 1 antiikatan kosong; kulit tertutup
+Energi resonansi naftalena sekitar 255 kJ mol⁻¹. Bandingkan per cincin dengan benzena. ||| sekitar 128 per cincin < 152; naftalena sedikit lebih reaktif
+Mengapa benzena tidak bereaksi dengan air bromin, sedangkan sikloheksena bereaksi? ||| adisi merusak aromatisitas (kehilangan ±150 kJ mol⁻¹)
+
+Mengapa senyawa seperti benzena disebut "aromatik", dan apa arti istilah itu sekarang? ||| dulu karena banyak turunannya berbau harum; sekarang berarti kestabilan khusus sistem π siklik 4n + 2
+
+## Subbab 10.2: Aromatisitas dan aturan Hückel
+
+Tuliskan empat syarat senyawa aromatik. ||| cincin, datar, setiap atom cincin berorbital p (konjugasi penuh), 4n + 2 elektron π
+Golongkan aromatik, antiaromatik, atau nonaromatik: (a) siklobutadiena; (b) sikloheptatriena; (c) [10]anulena datar (bila dapat datar); (d) siklooktatetraena; (e) [14]anulena. ||| (a) antiaromatik; (b) nonaromatik (C sp³); (c) aromatik (10 e π); (d) nonaromatik (bak mandi); (e) aromatik
+@frost [P] Gambar lingkaran Frost untuk siklooktatetraena datar dan isi elektronnya. Jelaskan mengapa molekul ini melipat. ||| 1 + 2 + 2 + 2 + 1 tingkat; 8 e: dua elektron tak berpasangan di orbital nonikatan; melipat untuk memutus konjugasi (nonaromatik lebih baik daripada antiaromatik)
+Berapa elektron π pada antrasena dan fenantrena? Apakah memenuhi 4n + 2? ||| 14; ya (n = 3)
+Mengapa siklobutadiena tidak dapat menghindari antiaromatisitas seperti siklooktatetraena? ||| cincin empat terlalu kaku untuk melipat
+Mengapa [10]anulena sebenarnya tidak aromatik walaupun mempunyai 10 elektron π? ||| H di dalam cincin saling berdesakan sehingga cincin tidak dapat datar
+Mengapa grafit dapat dianggap "benzena tak terhingga"? ||| lembaran cincin enam terfusi dengan elektron π terdelokalisasi
+
+## Subbab 10.3: Ion dan heterosiklik aromatik
+
+@ion [P] Jelaskan mengapa siklopentadiena (pKa 16) jauh lebih asam daripada propena (pKa sekitar 43) dan sikloheptatriena (pKa sekitar 36). ||| anion siklopentadienil aromatik (6 e π); anion sikloheptatrienil antiaromatik (8 e π); anion alil hanya distabilkan resonansi biasa
+Tentukan aromatik atau antiaromatik: (a) kation siklopentadienil; (b) anion sikloheptatrienil; (c) kation siklopropenil; (d) dianion siklooktatetraena. ||| (a) antiaromatik (4); (b) antiaromatik (8); (c) aromatik (2); (d) aromatik (10)
+Untuk piridina dan pirola, tentukan orbital pasangan bebas nitrogen dan apakah termasuk sistem π. ||| piridina: sp², tidak termasuk; pirola: p, termasuk
+@basa [P] Urutkan kebasaan dan jelaskan: piridina (pKaH 5,2), pirola (−3,8), imidazola (7,0), piperidina (11,1). ||| piperidina > imidazola > piridina > pirola; N sp³ > N sp² dengan kation terstabilkan > N sp² > pasangan bebas dalam sistem aromatik
+Pada furan, berapa pasangan bebas oksigen yang termasuk sistem π? ||| satu (satu lagi di orbital sp²)
+Di mana pirola diprotonasi dalam asam kuat, dan mengapa? ||| di C2 (karbon), karena protonasi N merusak aromatisitas
+Sebutkan heterosiklik aromatik dalam DNA dan dalam hemoglobin. ||| pirimidina dan purina; porfirin (empat pirola)
+Mengapa histidina cocok sebagai katalis asam–basa dalam enzim? ||| cincin imidazola pKaH sekitar 7, dekat pH tubuh
+
+Tulis struktur resonansi anion siklopentadienil. ||| lima struktur, muatan negatif pada setiap karbon secara bergantian
+
+## Subbab 10.4: Reaksi pada posisi benzilik
+
+Tulis produk dengan KMnO₄ panas: (a) etilbenzena; (b) 1,3-dimetilbenzena; (c) *tert*-butilbenzena; (d) 4-isopropiltoluena. ||| (a) asam benzoat; (b) asam benzena-1,3-dikarboksilat; (c) tidak bereaksi; (d) asam tereftalat
+Tulis produk propilbenzena + NBS, cahaya. Mengapa Br masuk di C1 rantai? ||| (1-bromopropil)benzena; radikal benzilik distabilkan resonansi
+@benz [P] Sebuah hidrokarbon C₁₀H₁₄ dengan KMnO₄ panas memberi asam benzoat. Dengan NBS dan cahaya, produk utamanya mempunyai Br pada karbon tersier. Usulkan strukturnya. ||| butan-2-ilbenzena (sec-butilbenzena)
+Mengapa benzil bromida bereaksi cepat lewat SN1 dan SN2? ||| kation benzilik distabilkan resonansi; keadaan transisi SN2 distabilkan tumpang tindih dengan cincin
+Mengapa benzil eter dapat dilepas dengan H₂/Pd tetapi metil eter tidak? ||| ikatan C–O benzilik putus pada hidrogenolisis
+Rancang sintesis asam tereftalat dari p-xilena. ||| KMnO₄ panas (industri: O₂, katalis Co)
+Tulis produk asetofenon + H₂, Pd/C (berlebih). ||| etilbenzena
+
+## Subbab 10.5: Substitusi elektrofilik aromatik: mekanisme umum
+
+Tulis mekanisme umum SEAr dua langkah dengan E⁺. ||| π menyerang E⁺ → ion arenium (lambat); basa mengambil H⁺ → ArE (cepat)
+Gambarkan ketiga struktur resonansi ion arenium dari serangan Cl⁺ pada benzena. ||| muatan + di C orto (dua) dan para terhadap C sp³
+@isotop [P] Benzena dan heksadeuteriobenzena dinitrasi dengan laju sama. Apa yang dibuktikan? ||| pemutusan C–H bukan langkah penentu laju; mekanisme dua langkah dengan ion arenium
+Mengapa ion arenium melepas H⁺ dan tidak menerima nukleofil? ||| lepas H⁺ memulihkan aromatisitas; adisi memberi produk nonaromatik berenergi tinggi
+Mengapa benzena memerlukan elektrofil yang jauh lebih kuat daripada alkena? ||| serangan elektrofil merusak aromatisitas sementara, energi aktivasi tinggi
+
+Bagaimana keberadaan ion arenium dibuktikan secara langsung? ||| diamati dengan NMR dalam larutan super asam pada suhu rendah (Olah)
+
+## Subbab 10.6: Halogenasi, nitrasi, dan sulfonasi
+
+Tulis pembentukan elektrofil untuk (a) klorinasi dengan Cl₂/FeCl₃; (b) nitrasi; (c) sulfonasi. ||| (a) Cl–Cl⁺–FeCl₃⁻; (b) HNO₃ + H₂SO₄ → NO₂⁺ + H₂O + HSO₄⁻; (c) SO₃ atau HSO₃⁺
+Mengapa iodinasi memerlukan oksidator? ||| I₂ terlalu lemah; oksidator membentuk spesies I⁺
+Tulis produk benzena dengan (1) HNO₃, H₂SO₄; (2) Fe, HCl; (3) NaOH. ||| nitrobenzena; ion anilinium; anilina
+@sulf [P] Jelaskan mengapa sulfonasi reversibel dan bagaimana sifat ini dipakai untuk membuat 2-bromotoluena. ||| kesetimbangan: asam pekat → sulfonasi; asam encer panas → desulfonasi; –SO₃H menutup posisi para, Br masuk orto, –SO₃H dilepas
+Mengapa garam dapur di Indonesia wajib beriodium? ||| tiroid memerlukan iodin untuk iodinasi tirosina (tiroksina); mencegah gondok
+Tulis struktur TNT dan jelaskan mengapa nitrasi ketiga memerlukan kondisi paling keras. ||| 2,4,6-trinitrotoluena; setiap gugus nitro menonaktifkan cincin
+Mengapa asam benzenasulfonat asam kuat? ||| basa konjugat sulfonat distabilkan resonansi ke tiga oksigen
+
+Tulis produk bromobenzena dengan (1) HNO₃, H₂SO₄; (2) Fe, HCl, lalu NaOH. ||| 4-bromoanilina (utama) dan 2-bromoanilina
+
+## Subbab 10.7: Alkilasi dan asilasi Friedel–Crafts
+
+Tulis produk: (a) benzena + 2-kloropropana, AlCl₃; (b) benzena + 1-kloro-2-metilpropana, AlCl₃; (c) benzena + benzoil klorida, AlCl₃. ||| (a) isopropilbenzena; (b) tert-butilbenzena (penataan ulang); (c) benzofenon
+Sebutkan empat keterbatasan alkilasi Friedel–Crafts. ||| penataan ulang; polialkilasi; cincin tidak aktif dan amina gagal; halida aril/vinil tidak dapat dipakai
+@fc [P] Rancang sintesis pentilbenzena dari benzena. Mengapa alkilasi langsung dengan 1-kloropentana tidak dipakai? ||| pentanoil klorida, AlCl₃; lalu Zn(Hg), HCl atau H₂NNH₂, KOH (atau H₂, Pd/C); alkilasi menata ulang (pentan-2-il, pentan-3-il)
+Mengapa asilasi tidak memberi produk poliasilasi? ||| gugus asil menonaktifkan cincin
+Mengapa AlCl₃ diperlukan dalam jumlah stoikiometrik pada asilasi? ||| keton produk mengikat AlCl₃
+Tulis struktur ion asilium dan struktur resonansinya. ||| R–C⁺=O ↔ R–C≡O⁺
+Mengapa anilina tidak dapat dialkilasi dengan Friedel–Crafts? ||| N mengikat AlCl₃, menjadi gugus bermuatan positif yang menonaktifkan
+Tulis produk benzena + propena, H₃PO₄ (asam). ||| kumena (isopropilbenzena)
+
+Rancang sintesis difenilmetana dari benzena. Mengapa di sini alkilasi Friedel–Crafts aman? ||| benzil klorida, AlCl₃, benzena berlebih; kation benzilik tidak menata ulang
+
+## Subbab 10.8: Substituen pengaktif dan penonaktif
+
+Golongkan sebagai pengaktif atau penonaktif: –OCH₃, –CN, –CH₂CH₃, –Br, –COOH, –NHCOCH₃, –N(CH₃)₃⁺, –CF₃. ||| pengaktif: –OCH₃, –CH₂CH₃, –NHCOCH₃; penonaktif: –CN, –Br, –COOH, –N(CH₃)₃⁺, –CF₃
+Urutkan laju nitrasi: benzena, anilina (dalam bentuk asetanilida), nitrobenzena, klorobenzena, toluena. ||| asetanilida > toluena > benzena > klorobenzena > nitrobenzena
+@hal [P] Mengapa –OH pengaktif kuat sedangkan –Cl penonaktif, padahal keduanya mempunyai pasangan bebas dan lebih elektronegatif daripada karbon? ||| O 2p tumpang tindih baik dengan C 2p (resonansi menang); Cl 3p tumpang tindih buruk (induktif menang)
+Mengapa –CF₃ penonaktif kuat walaupun tidak mempunyai ikatan π? ||| tiga F menarik elektron lewat efek induktif yang kuat
+Bagaimana mengendalikan brominasi anilina agar hanya satu Br yang masuk? ||| asetilasi menjadi asetanilida, brominasi (para), hidrolisis
+Hitung perbandingan laju nitrasi toluena dan nitrobenzena. ||| 25/(6 × 10⁻⁸) ≈ 4 × 10⁸
+
+## Subbab 10.9: Pengarah orto/para dan meta
+
+Tulis produk utama mononitrasi: (a) fenol; (b) asetofenon; (c) fluorobenzena; (d) benzonitril; (e) bifenil. ||| (a) 2- dan 4-nitrofenol; (b) 3-nitroasetofenon; (c) 4-fluoronitrobenzena (utama); (d) 3-nitrobenzonitril; (e) 4-nitrobifenil (dan 2-)
+@toluena [P] Gambarkan ion arenium untuk serangan orto, meta, dan para NO₂⁺ pada toluena, dan jelaskan distribusi 63 : 3 : 34. ||| o dan p mempunyai struktur C⁺ tersier di C pembawa metil; meta tidak
+Mengapa nitrobenzena memberi 91% produk meta? Gunakan struktur resonansi. ||| o/p menempatkan + di C yang terikat pada N⁺; meta menghindarinya
+Mengapa tert-butilbenzena memberi lebih banyak produk para daripada toluena? ||| gugus besar menghalangi posisi orto
+Pada pH sangat asam, nitrasi anilina memberi banyak produk meta. Jelaskan. ||| anilina terprotonasi menjadi –NH₃⁺, penonaktif pengarah meta
+Mengapa semua pengarah meta juga penonaktif? ||| posisi meta hanya "paling sedikit dirugikan"; semua posisi diperlambat
+Bandingkan klorinasi anisol dan klorobenzena: laju dan pengarah. ||| anisol jauh lebih cepat (o/p); klorobenzena lebih lambat daripada benzena (o/p)
+
+## Subbab 10.10: Benzena dengan beberapa substituen
+
+Ramalkan produk utama mononitrasi: (a) 4-bromotoluena; (b) 4-nitrofenol; (c) 1,4-dimetoksibenzena; (d) 2-metilanisol. ||| (a) 4-bromo-2-nitrotoluena (orto terhadap CH₃); (b) 2,4-dinitrofenol; (c) 1,4-dimetoksi-2-nitrobenzena; (d) 2-metil-4-nitroanisol
+@dua [P] Ramalkan produk brominasi 4-metilfenol dan asam 4-metilbenzoat. Jelaskan dengan aturan. ||| 2-bromo-4-metilfenol (OH menang); asam 3-bromo-4-metilbenzoat (searah)
+Mengapa m-xilena tersubstitusi di C4 dan bukan di C2? ||| C2 di antara dua metil, terhalang
+Tulis produk utama klorinasi 4-nitroanisol. ||| 2-kloro-4-nitroanisol
+Tulis produk sulfonasi naftalena pada suhu rendah dan tinggi. ||| asam naftalena-1-sulfonat (kinetik); naftalena-2-sulfonat (termodinamik)
+Mengapa 1,3,5-trimetilbenzena bereaksi jauh lebih cepat daripada toluena? ||| tiga pengaktif, semuanya mengarahkan ke posisi yang sama
+
+## Subbab 10.11: Substitusi nukleofilik aromatik dan benzuna
+
+Tulis produk: (a) 1-kloro-2,4-dinitrobenzena + NaOH, panas; (b) 1-fluoro-4-nitrobenzena + piperidina; (c) 4-nitroklorobenzena + NaOCH₃. ||| (a) 2,4-dinitrofenol; (b) 1-(4-nitrofenil)piperidina; (c) 4-nitroanisol
+@snar [P] Mengapa urutan gugus pergi SNAr adalah F > Cl ≈ Br > I, berlawanan dengan SN2? ||| langkah lambat adalah adisi; F paling elektronegatif membuat C paling δ+ dan menstabilkan kompleks Meisenheimer; pemutusan C–F terjadi di langkah cepat
+Mengapa 1-kloro-3-nitrobenzena jauh lebih lambat dalam SNAr daripada 1-kloro-4-nitrobenzena? ||| muatan Meisenheimer tidak dapat sampai ke gugus nitro di posisi meta
+@benzuna [P] 2-Bromoanisol + NaNH₂ dalam NH₃ hanya memberi 3-metoksianilina. Jelaskan dengan benzuna. ||| benzuna 3-metoksi; NH₂⁻ menyerang C yang jauh dari OCH₃ sehingga anion berada dekat O (distabilkan induktif)
+Mengapa aril halida tidak mengalami SN1 atau SN2? ||| SN2: sisi belakang di dalam cincin; SN1: kation fenil sangat tidak stabil
+Bagaimana keberadaan benzuna dibuktikan? ||| pelabelan ¹⁴C (50:50) dan penangkapan dengan furan (Diels–Alder)
+Untuk apa Sanger memakai 1-fluoro-2,4-dinitrobenzena? ||| menandai asam amino ujung –NH₂ pada protein (insulin)
+
+Tulis produk 4-klorotoluena + NaNH₂ dalam NH₃ cair. ||| campuran 3-metilanilina dan 4-metilanilina (lewat benzuna)
+
+## Subbab 10.12: Sintesis senyawa aromatik bertahap
+
+Rancang sintesis dari benzena: (a) 3-bromoanilina; (b) 4-bromoanilina; (c) asam 3-bromobenzenasulfonat. ||| (a) nitrasi, brominasi, reduksi; (b) brominasi, nitrasi (pisahkan para), reduksi; (c) sulfonasi, brominasi
+Rancang sintesis dari toluena: (a) asam 3-bromobenzoat; (b) asam 4-bromobenzoat. ||| (a) KMnO₄ lalu Br₂/FeBr₃; (b) Br₂/FeBr₃ (pisahkan para) lalu KMnO₄
+@sint [P] Rancang sintesis 1-(3-nitrofenil)propan-1-on dari benzena. Mengapa isomer para-nya tidak dapat dibuat dengan asilasi nitrobenzena? ||| propanoil klorida, AlCl₃; lalu HNO₃, H₂SO₄ (meta); Friedel–Crafts gagal pada nitrobenzena yang tidak aktif
+Mengapa sintesis m-nitrotoluena dari benzena tidak dapat dilakukan dengan nitrasi toluena? ||| metil pengarah o/p; perlu jalur lain (misalnya lewat gugus asetil atau amina)
+Rancang sintesis asam 4-propilbenzenasulfonat dari benzena. ||| propanoil klorida, AlCl₃; Zn(Hg), HCl → propilbenzena; SO₃, H₂SO₄ (para)
+Rancang sintesis 2,4,6-tribromoanilina dari benzena. ||| nitrasi, reduksi, Br₂ (air) berlebih
+Rancang sintesis 4-bromo-2-nitrotoluena dari toluena. ||| brominasi (pisahkan para) lalu nitrasi (orto terhadap CH₃)

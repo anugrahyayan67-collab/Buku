@@ -51,6 +51,12 @@ $$
 **Kuis cepat 1.4** Gelembung udara naik dari dasar danau sedalam 20 m ke permukaan. Kira-kira berapa kali volumenya bertambah bila suhunya tidak berubah? (Petunjuk: setiap 10,3 m air setara dengan 1 atm.)
 :::
 
+Kedua hukum pertama paling mudah dikenali dari grafiknya. Pada Gambar 1.2, isoterm Boyle berbentuk hiperbola pada bidang *p*–*V*; bila tekanan digambar terhadap 1/*V*, hiperbola itu berubah menjadi garis lurus melalui titik asal, dan kemiringannya sebanding dengan suhu. Cara "meluruskan" grafik ini dipakai di seluruh kimia fisika, karena garis lurus jauh lebih mudah diuji daripada lengkungan. Gambar 1.3 memperlihatkan percobaan Charles: setiap jumlah gas memberi garis lurus yang berbeda kemiringannya, tetapi semua garis itu, bila diperpanjang, bertemu di satu titik, −273,15 °C.
+
+![Gambar 1.2 Isoterm Boyle untuk satu mol gas ideal pada tiga suhu. Kiri: *p* terhadap *V* berupa hiperbola. Kanan: *p* terhadap 1/*V* berupa garis lurus melalui titik asal dengan kemiringan *nRT*.](fig/boyle.png){width=92%}
+
+![Gambar 1.3 Volume gas pada 1 bar terhadap suhu Celsius untuk tiga jumlah gas. Data hanya dapat diukur selama gas belum mencair (garis padat); perpanjangannya (garis putus) bertemu di −273,15 °C, yaitu 0 K, apa pun jumlah dan jenis gasnya.](fig/charles.png){width=80%}
+
 ## 1.5 Persamaan gas ideal dan pemakaiannya
 
 Ketiga hukum di atas berbicara tentang gas yang sama dari tiga arah. Boyle mengatakan $V \propto 1/p$, Charles mengatakan $V \propto T$, dan Avogadro mengatakan $V \propto n$. Satu-satunya cara agar ketiganya benar sekaligus adalah $V \propto nT/p$. Menamai tetapan kesebandingannya *R*, kita memperoleh

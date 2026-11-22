@@ -190,6 +190,10 @@ Batasnya adalah suhu tempat Δ*G* = 0: $T = \Delta H/\Delta S = 25{,}7/0{,}1087 
 **Memahami hasil.** Pelarutan ini **menyerap** kalor dan tetap berlangsung sendiri, karena ion-ion yang tersebar di dalam air mempunyai entropi jauh lebih besar daripada kisi kristal yang teratur. Energi untuk mendinginkan kantong "dibayar" oleh entropi. Contoh ini menghapus anggapan lama bahwa proses spontan harus melepaskan kalor; yang menentukan adalah tanda Δ*G*, bukan tanda Δ*H*.
 :::
 
+Karena Δ*G* = Δ*H* − *T*Δ*S*, tanda Δ*H* dan Δ*S* saja sudah memberi tahu kita banyak hal tentang suatu proses (Gambar 7.2). Bila kedua tanda "bekerja sama" (Δ*H* < 0 dan Δ*S* > 0), proses spontan pada suhu berapa pun; bila keduanya melawan, proses tidak pernah spontan. Dua kemungkinan sisanya adalah yang paling menarik secara kimia: di sana suhu menentukan pemenang, dan ada suhu peralihan $T = \Delta H/\Delta S$ tempat Δ*G* berganti tanda.
+
+![Gambar 7.2 Empat kemungkinan tanda Δ*H* dan Δ*S*. Pada kuadran kanan bawah proses selalu spontan, pada kuadran kiri atas tidak pernah; pada dua kuadran lainnya suhu menentukan arah, dengan suhu peralihan Δ*H*/Δ*S*.](fig/kuadran.png){width=74%}
+
 ::: {.kuis}
 **Kuis cepat 7.3** Pada titik didih normal air, berapa Δ*G* penguapan? Mengapa?
 :::
@@ -220,6 +224,8 @@ Untuk $\text{H}_2(g) + \tfrac12\text{O}_2(g) \to \text{H}_2\text{O}(l)$ pada 298
 
 **Memahami hasil.** Teka-teki pembuka terjawab. Sisa 48,7 kJ adalah $-T\Delta S = -(298)(-0{,}163)$ kJ: reaksi ini mengubah satu setengah mol gas menjadi cairan, menurunkan entropi sistem, dan penurunan itu **harus** diimbangi dengan membuang kalor ke lingkungan. Tidak ada sel bahan bakar yang dapat menghindarinya. Meski demikian, batas 83% jauh di atas efisiensi Carnot mesin kalor yang membakar hidrogen yang sama (sekitar 40–60%), karena sel bahan bakar tidak melewati tahap "kalor": ia mengubah energi kimia langsung menjadi kerja. Tegangan 1,23 V adalah tegangan teoretis setiap sel bahan bakar hidrogen–oksigen; sel nyata menghasilkan 0,6–0,8 V karena ketakreversibelan.
 :::
+
+![Gambar 7.3 Neraca energi pembentukan satu mol air cair dari hidrogen dan oksigen pada 298 K. Dari 285,83 kJ entalpi yang dilepaskan, paling banyak 237,13 kJ dapat menjadi kerja listrik; sisanya, $-T\Delta_\text{r}S^\circ$ = 48,7 kJ, harus keluar sebagai kalor karena entropi sistem berkurang.](fig/neraca.png){width=78%}
 
 ::: {.contoh}
 **Contoh 7.8 · Kerja dari glukosa**

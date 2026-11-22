@@ -19,29 +19,64 @@
 | Zeeman normal | $E_Z = m_\ell\mu_BB$; triplet berjarak $\mu_BB$ | 7.12 |
 | Numerov radial | $g = 2(V - E) + \ell(\ell+1)/r^2$; mulai dari $u = r^{\ell+1}$ | 7.13 |
 
-**Jawaban kuis cepat.** **7.1** $-Z/r = -1$ hartree; karena hanya bergantung pada jarak dari inti, sehingga gayanya selalu menuju pusat. **7.2** Karena $\hat L^2$ yang muncul di persamaan radial hanya bergantung pada $\ell$; 16. **7.3** Derajat 1 ($n - \ell - 1$); hanya $\ell = 0$, karena $\ell \le n - 1$. **7.4** 16; 1,51 eV. **7.5** Dua simpul radial dan dua sudut; nol di inti berasal dari faktor $r^\ell$ yang ada pada setiap orbital dengan $\ell > 0$, bukan dari akar polinom radial. **7.6** 9 bohr; 4s, karena mempunyai lobus-lobus dalam di dekat inti. **7.7** Bukan; ya, dengan nilai eigen nol (Contoh 6.23); karena keduanya kombinasi linear fungsi-fungsi yang berdegenerasi. **7.8** Empat; dua kerucut, pada 54,7° dan 125,3°. **7.9** $\langle T\rangle = 1{,}51$ eV, $\langle V\rangle = -3{,}02$ eV; karena $\langle V\rangle = -Z\langle 1/r\rangle = 2E_n$ hanya bergantung pada $n$. **7.10** $a_0/3 = 17{,}6$ pm; $-13{,}6$ eV. **7.11** Dari keadaan 3p, yang dapat meluruh ke 1s dengan $\Delta\ell = -1$. **7.12** Tidak; ia campuran $m = +1$ dan $m = -1$ yang kini berenergi berbeda; karena $\ell = 0$ hanya mempunyai $m = 0$. **7.13** Karena $u \propto r^{\ell+1}$ adalah perilaku penyelesaian yang dapat diterima di dekat inti, sedangkan $u = 1$ membuat $R = 1/r$ tak hingga; karena elektron 3d hampir tidak menembus teras 1s², sehingga merasakan muatan efektif $+1$ seperti di hidrogen.
+**Jawaban kuis cepat.** **7.1** $-Z/r = -1$ hartree; karena hanya bergantung pada jarak dari inti, sehingga gayanya selalu menuju pusat. **7.2** Karena $\hat L^2$ yang muncul di persamaan radial hanya bergantung pada $\ell$; 16. **7.3** Derajat 1 ($n - \ell - 1$); hanya $\ell = 0$, karena $\ell \le n - 1$. **7.4** 16; 1,51 eV. **7.5** Dua simpul radial dan dua sudut; nol di inti berasal dari faktor $r^\ell$ yang ada pada setiap orbital dengan $\ell > 0$, bukan dari akar polinom radial. **7.6** 9 bohr; 4s, karena mempunyai lobus-lobus dalam di dekat inti. **7.7** Bukan; ya, dengan nilai eigen nol (Contoh 6.25); karena keduanya kombinasi linear fungsi-fungsi yang berdegenerasi. **7.8** Empat; dua kerucut, pada 54,7° dan 125,3°. **7.9** $\langle T\rangle = 1{,}51$ eV, $\langle V\rangle = -3{,}02$ eV; karena $\langle V\rangle = -Z\langle 1/r\rangle = 2E_n$ hanya bergantung pada $n$. **7.10** $a_0/3 = 17{,}6$ pm; $-13{,}6$ eV. **7.11** Dari keadaan 3p, yang dapat meluruh ke 1s dengan $\Delta\ell = -1$. **7.12** Tidak; ia campuran $m = +1$ dan $m = -1$ yang kini berenergi berbeda; karena $\ell = 0$ hanya mempunyai $m = 0$. **7.13** Karena $u \propto r^{\ell+1}$ adalah perilaku penyelesaian yang dapat diterima di dekat inti, sedangkan $u = 1$ membuat $R = 1/r$ tak hingga; karena elektron 3d hampir tidak menembus teras 1s², sehingga merasakan muatan efektif $+1$ seperti di hidrogen.
 
 # Pertanyaan
 
+## Subbab 7.1: Masalah gaya sentral
+
 1. Mengapa massa tereduksi, bukan massa elektron, yang muncul dalam energi atom hidrogen? Seberapa besar perbedaannya?
+
+## Subbab 7.3: Persamaan radial dan penyelesaiannya
+
 2. Apa keuntungan satuan atom? Apa yang harus diingat ketika membandingkan hasil dengan percobaan?
 3. Mengapa elektron tidak jatuh ke inti menurut mekanika kuantum?
 4. Bagaimana syarat kenormalan menghasilkan bilangan kuantum $n$? Bandingkan dengan osilator harmonik.
+
+## Subbab 7.4: Tingkat energi dan degenerasi
+
 5. Mengapa $\ell$ dibatasi oleh $n - 1$?
 6. Mengapa energi atom hidrogen tidak bergantung pada $\ell$, padahal persamaan radialnya bergantung? Apa yang merusak degenerasi ini dalam atom lain?
+
+## Subbab 7.5: Fungsi radial dan simpul
+
 7. Apa beda simpul radial dan simpul sudut? Mengapa jumlah totalnya $n - 1$?
 8. Mengapa hanya orbital s yang mempunyai rapat elektron tidak nol di inti? Sebutkan dua akibatnya yang dapat diukur.
+
+## Subbab 7.6: Fungsi distribusi radial
+
 9. Mengapa fungsi distribusi radial 1s nol di inti, padahal $|\psi|^2$ terbesar di sana?
 10. Apa arti penembusan, dan bagaimana ia menjelaskan urutan energi s < p < d dalam atom berelektron banyak?
+
+## Subbab 7.7: Orbital kompleks dan orbital riil
+
 11. Kapan orbital kompleks lebih berguna daripada orbital riil, dan sebaliknya?
+
+## Subbab 7.8: Bentuk orbital s, p, d, f
+
 12. Mengapa tanda fungsi gelombang penting, padahal yang terukur adalah $|\psi|^2$?
 13. Mengapa ada lima orbital d dan tujuh orbital f?
+
+## Subbab 7.9: Nilai harap dan teorema virial
+
 14. Apa isi teorema virial untuk atom hidrogen? Apa artinya bagi energi kinetik elektron ketika ikatan kimia terbentuk?
+
+## Subbab 7.10: Atom mirip hidrogen
+
 15. Mengapa hukum Moseley memastikan bahwa tabel periodik harus diurutkan menurut nomor atom?
 16. Mengapa unsur berat memerlukan kimia kuantum relativistik?
+
+## Subbab 7.11: Spektrum hidrogen dan aturan seleksi
+
 17. Jelaskan aturan seleksi $\Delta\ell = \pm1$ dengan dua cara: momentum sudut foton dan paritas.
 18. Mengapa keadaan 2s hidrogen metastabil? Apa analognya dalam kimia molekul?
+
+## Subbab 7.12: Efek Zeeman
+
 19. Mengapa efek Zeeman normal selalu memberi tepat tiga garis?
+
+## Subbab 7.13: Penyelesaian numerik persamaan radial
+
 20. Apa yang dapat dilakukan metode numerik yang tidak dapat dilakukan penyelesaian eksak? Berikan dua contoh dari bab ini.
 21. Bagaimana teka-teki pembuka bab (2s dan 2p berenergi sama pada H, tetapi tidak pada Li) terjawab?
 

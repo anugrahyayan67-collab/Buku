@@ -199,8 +199,28 @@ Persamaan (2.8) menyatakan **hukum keadaan sehubungan**: gas-gas yang berada pad
 
 Ada satu ujian sederhana. Pada titik kritis, faktor kompresi $Z_\text{c} = p_\text{c}V_\text{c}/RT_\text{c}$. Persamaan van der Waals meramalkan $Z_\text{c} = 3/8 = 0{,}375$ untuk semua gas. Nilai terukur kebanyakan gas memang hampir sama satu sama lain, sekitar 0,27–0,29, yang mendukung hukum keadaan sehubungan, tetapi lebih kecil daripada ramalan van der Waals.
 
+Hukum keadaan sehubungan paling berguna dalam bentuk grafik. Bila *Z* digambar terhadap $p_r$ untuk beberapa nilai $T_r$, kita memperoleh **diagram faktor kompresi umum** (Gambar 2.4): satu lembar grafik yang berlaku, secara pendekatan, untuk semua gas. Gambar ini dihitung dari persamaan van der Waals tereduksi; diagram yang dipakai di industri dibuat dari data terukur banyak gas, tetapi bentuknya sama. Tiga hal tampak sekaligus. Dekat suhu kritis ($T_r \approx 1$), *Z* turun tajam karena tarikan mendominasi. Pada $T_r$ yang tinggi, kurvanya hampir datar di sekitar 1. Pada tekanan sangat tinggi semua kurva naik di atas 1, karena volume molekul sendiri mulai menentukan.
+
+![Gambar 2.4 Diagram faktor kompresi umum menurut persamaan van der Waals tereduksi. Setiap kurva berlaku untuk semua gas pada suhu tereduksi yang sama. Di dekat titik kritis ($T_r$ = 1) penyimpangan paling besar; makin tinggi $T_r$, makin dekat gas ke perilaku ideal.](fig/zumum.png){width=80%}
+
 ::: {.contoh}
-**Contoh 2.7 · Dua gas dalam keadaan yang "sama"**
+**Contoh 2.7 · Metana di tabung bertekanan, dibaca dari diagram umum**
+
+Tabung 50,0 L berisi metana ($T_\text{c}$ = 190,6 K, $p_\text{c}$ = 46,0 bar) pada 92,0 bar dan 250 K. Berapa kilogram metana di dalamnya menurut persamaan gas ideal dan menurut diagram faktor kompresi umum?
+
+**Rencana.** Hitung variabel tereduksi, baca *Z*, lalu pakai $n = pV/ZRT$.
+
+**Penyelesaian.** $T_r = 250/190{,}6 = 1{,}31$ dan $p_r = 92{,}0/46{,}0 = 2{,}00$. Kurva van der Waals pada keadaan itu memberi $Z = 0{,}66$. Menurut gas ideal,
+$$
+n_\text{ideal} = \frac{pV}{RT} = \frac{(92{,}0\ \text{bar})(50{,}0\ \text{L})}{(0{,}083\,14\ \text{L bar K}^{-1}\,\text{mol}^{-1})(250\ \text{K})} = 221\ \text{mol} \quad (3{,}55\ \text{kg}),
+$$
+sedangkan gas nyata memuat $n = n_\text{ideal}/Z = 333$ mol, yaitu 5,35 kg.
+
+**Memahami hasil.** Pada keadaan ini tarikan antarmolekul begitu penting sehingga tabung memuat setengah lagi lebih banyak gas daripada ramalan gas ideal. Perusahaan gas yang menghitung isi tabung dengan *pV* = *nRT* akan salah besar. Nilai *Z* dari van der Waals hanya pendekatan; untuk pekerjaan teknik, *Z* dibaca dari diagram berdasarkan data terukur atau dihitung dengan persamaan Peng–Robinson (subbab 2.8). Pendekatannya tetap sama: dua angka tereduksi sudah cukup.
+:::
+
+::: {.contoh}
+**Contoh 2.8 · Dua gas dalam keadaan yang "sama"**
 
 (a) Pada suhu dan tekanan berapa N₂ dan CO₂ masing-masing berada pada $T_\text{r} = 2{,}0$ dan $p_\text{r} = 2{,}0$? (b) Hitung *Z* keduanya dari persamaan (2.8).
 

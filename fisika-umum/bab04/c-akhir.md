@@ -41,24 +41,45 @@
 
 # Pertanyaan
 
-Pertanyaan berikut menguji pemahaman, bukan hitungan. Jawablah dengan satu atau dua kalimat beserta alasannya.
+## Subbab 4.1: Usaha oleh gaya konstan
 
 1. Kamu menahan barbel diam di atas kepala selama satu menit. Berapa usahamu pada barbel? Mengapa kamu tetap lelah?
 2. Dapatkah gesekan statis melakukan usaha positif pada sebuah benda? Berikan contohnya.
 3. Gaya normal sering disebut "tidak melakukan usaha". Berikan satu keadaan ketika gaya normal melakukan usaha.
 4. Sebuah benda bergerak melingkar beraturan. Gaya totalnya tidak nol, tetapi energi kinetiknya tetap. Apakah ini bertentangan dengan teorema usaha–energi?
+
+## Subbab 4.3: Energi kinetik dan teorema usaha–energi
+
 5. Dapatkah energi kinetik bernilai negatif? Dapatkah energi potensial? Dapatkah energi mekanik total?
-6. Dua orang mengukur energi potensial gravitasi benda yang sama dan memperoleh angka berbeda. Dapatkah keduanya benar? Besaran apa yang pasti mereka sepakati?
-7. Sebuah bola dijatuhkan dan sebuah bola lain yang sama meluncur di bidang miring licin dari ketinggian yang sama. Mengapa kelajuan akhirnya sama padahal waktu tempuhnya berbeda?
-8. Mengapa jarak pengereman menjadi empat kali, bukan dua kali, ketika kelajuan mobil dilipatduakan?
-9. Sebuah pegas ditekan lalu dilarutkan dalam asam. Ke mana perginya energi potensial pegasnya?
-10. Mengapa jalan di pegunungan dibuat berkelok-kelok dan tidak lurus menanjak? Apakah usaha melawan gravitasi menjadi lebih kecil?
-11. Kereta halilintar tidak pernah dapat mencapai puncak kedua yang lebih tinggi daripada puncak pertamanya. Mengapa? Apa yang diperlukan agar bisa?
-12. Jelaskan mengapa gesekan kinetis tidak dapat diberi energi potensial.
-13. Pada diagram energi, bagaimana kamu mengenali tempat gaya paling besar? Tempat kelajuan paling besar?
-14. Sebuah kelereng diam di dasar mangkuk dan kelereng lain diam di puncak mangkuk yang dibalik. Keduanya setimbang. Apa bedanya, dan bagaimana perbedaan itu tampak pada kurva $U(x)$?
-15. Mengapa energi ikatan dinyatakan sebagai bilangan positif padahal energi potensial molekul di dasar lembah bernilai negatif?
-16. Tagihan listrik memakai kWh. Mengapa bukan kW?
+6. Mengapa jarak pengereman menjadi empat kali, bukan dua kali, ketika kelajuan mobil dilipatduakan?
+
+## Subbab 4.4: Daya
+
+7. Tagihan listrik memakai kWh. Mengapa bukan kW?
+
+## Subbab 4.5: Gaya konservatif dan energi potensial
+
+8. Dua orang mengukur energi potensial gravitasi benda yang sama dan memperoleh angka berbeda. Dapatkah keduanya benar? Besaran apa yang pasti mereka sepakati?
+9. Jelaskan mengapa gesekan kinetis tidak dapat diberi energi potensial.
+
+## Subbab 4.6: Kekekalan energi mekanik
+
+10. Sebuah bola dijatuhkan dan sebuah bola lain yang sama meluncur di bidang miring licin dari ketinggian yang sama. Mengapa kelajuan akhirnya sama padahal waktu tempuhnya berbeda?
+
+## Subbab 4.7: Gesekan, gaya luar, dan neraca energi
+
+11. Sebuah pegas ditekan lalu dilarutkan dalam asam. Ke mana perginya energi potensial pegasnya?
+12. Mengapa jalan di pegunungan dibuat berkelok-kelok dan tidak lurus menanjak? Apakah usaha melawan gravitasi menjadi lebih kecil?
+
+## Subbab 4.8: Diagram energi, gaya, dan kesetimbangan
+
+13. Kereta halilintar tidak pernah dapat mencapai puncak kedua yang lebih tinggi daripada puncak pertamanya. Mengapa? Apa yang diperlukan agar bisa?
+14. Pada diagram energi, bagaimana kamu mengenali tempat gaya paling besar? Tempat kelajuan paling besar?
+15. Sebuah kelereng diam di dasar mangkuk dan kelereng lain diam di puncak mangkuk yang dibalik. Keduanya setimbang. Apa bedanya, dan bagaimana perbedaan itu tampak pada kurva $U(x)$?
+
+## Subbab 4.9: Energi potensial gravitasi jarak jauh dan laju lepas
+
+16. Mengapa energi ikatan dinyatakan sebagai bilangan positif padahal energi potensial molekul di dasar lembah bernilai negatif?
 
 # Soal
 

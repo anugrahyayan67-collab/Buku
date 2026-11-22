@@ -17,6 +17,10 @@ $$
 \mu_\text{A} - \mu_\text{A}^* = RT\ln(1 - x_\text{B}) \approx -RT\,x_\text{B} . \qquad \text{(10.10)}
 $$
 
+Gambar 10.4 merangkum akibat penurunan ini pada diagram fasa air. Kurva tekanan uap larutan terletak di bawah kurva air murni pada setiap suhu (Δ*p*). Karena itu larutan baru mencapai 1 atm pada suhu yang lebih tinggi (kenaikan titik didih), dan kurvanya memotong kurva sublimasi es pada suhu yang lebih rendah (penurunan titik beku). Ketiga sifat koligatif pertama ternyata adalah satu gejala yang dilihat dari tiga sisi. Penurunan titik beku lebih besar daripada kenaikan titik didih karena kurva sublimasi es dan kurva penguapan cairan berpotongan dengan sudut kecil, sehingga pergeseran kecil pada kurva cairan menggeser titik potongnya jauh.
+
+![Gambar 10.4 Diagram fasa air di sekitar titik tripel dan titik didih (skala tekanan logaritmik), dengan kurva tekanan uap larutan berfraksi mol air 0,90 (dibesar-besarkan agar terlihat). Penurunan tekanan uap Δ*p* menggeser titik didih naik dan titik beku turun.](fig/koligatif.png){width=84%}
+
 ::: {.contoh}
 **Contoh 10.6 · Air gula dan air laut**
 
@@ -50,9 +54,9 @@ $$
 
 ## 10.5 Kenaikan titik didih dan penurunan titik beku
 
-Gambar 10.3 memperlihatkan akibat penurunan potensial kimia pelarut dalam satu pandangan. Garis-garis pada gambar itu adalah potensial kimia pelarut dalam fasa padat, cair, dan gas terhadap suhu, seperti Gambar 7.1. Zat terlarut tidak larut dalam padatan (yang membeku adalah pelarut murni) dan tidak menguap, sehingga hanya garis cairan yang turun, sebesar $RT\ln x_\text{A}$. Akibatnya, titik potong cairan dengan gas bergeser ke kanan (titik didih naik), dan titik potong cairan dengan padatan bergeser ke kiri (titik beku turun).
+Gambar 10.5 memperlihatkan akibat penurunan potensial kimia pelarut dalam satu pandangan. Garis-garis pada gambar itu adalah potensial kimia pelarut dalam fasa padat, cair, dan gas terhadap suhu, seperti Gambar 7.1. Zat terlarut tidak larut dalam padatan (yang membeku adalah pelarut murni) dan tidak menguap, sehingga hanya garis cairan yang turun, sebesar $RT\ln x_\text{A}$. Akibatnya, titik potong cairan dengan gas bergeser ke kanan (titik didih naik), dan titik potong cairan dengan padatan bergeser ke kiri (titik beku turun).
 
-![Gambar 10.3 Potensial kimia pelarut terhadap suhu (skematis). Zat terlarut menurunkan potensial kimia cairan (garis putus-putus) tetapi tidak mengubah padatan dan gas. Titik potong dengan gas bergeser ke suhu lebih tinggi (kenaikan titik didih) dan titik potong dengan padatan bergeser ke suhu lebih rendah (penurunan titik beku). Kemiringan garis padat lebih kecil daripada gas, sehingga pergeseran titik beku lebih besar.](fig/muT.png){width=72%}
+![Gambar 10.5 Potensial kimia pelarut terhadap suhu (skematis). Zat terlarut menurunkan potensial kimia cairan (garis putus-putus) tetapi tidak mengubah padatan dan gas. Titik potong dengan gas bergeser ke suhu lebih tinggi (kenaikan titik didih) dan titik potong dengan padatan bergeser ke suhu lebih rendah (penurunan titik beku). Kemiringan garis padat lebih kecil daripada gas, sehingga pergeseran titik beku lebih besar.](fig/muT.png){width=72%}
 
 Gambar itu juga menjelaskan mengapa penurunan titik beku lebih besar daripada kenaikan titik didih. Garis padat hampir sejajar dengan garis cair (selisih entropinya kecil), sehingga penurunan kecil pada garis cair menggeser titik potongnya jauh. Garis gas jauh lebih curam, sehingga titik potongnya bergeser sedikit.
 
@@ -93,7 +97,7 @@ $$
 K_\text{f} = \frac{(8{,}314)(273{,}15)^2(0{,}018\,015)}{6010} = 1{,}86\ \text{K kg mol}^{-1} , \qquad K_\text{b} = \frac{(8{,}314)(373{,}15)^2(0{,}018\,015)}{40\,660} = 0{,}513\ \text{K kg mol}^{-1} .
 $$
 
-**Memahami hasil.** Kedua nilai sama dengan yang tercantum di tabel Kimia Dasar, yang kini kita ketahui asal-usulnya. $K_\text{f}$ air tiga setengah kali $K_\text{b}$-nya, karena $\Delta_\text{fus}H$ jauh lebih kecil daripada $\Delta_\text{vap}H$, walaupun $T_\text{f}^{*2}$ juga lebih kecil. Angka ini memberi besaran pada penjelasan grafis Gambar 10.3.
+**Memahami hasil.** Kedua nilai sama dengan yang tercantum di tabel Kimia Dasar, yang kini kita ketahui asal-usulnya. $K_\text{f}$ air tiga setengah kali $K_\text{b}$-nya, karena $\Delta_\text{fus}H$ jauh lebih kecil daripada $\Delta_\text{vap}H$, walaupun $T_\text{f}^{*2}$ juga lebih kecil. Angka ini memberi besaran pada penjelasan grafis Gambar 10.5.
 :::
 
 Tabel 10.1 mengumpulkan tetapan beberapa pelarut. Pelarut dengan titik leleh tinggi dan entalpi peleburan kecil mempunyai $K_\text{f}$ besar. Kamper adalah contoh ekstrem: penurunan titik bekunya dua puluh kali lebih besar daripada air untuk molalitas yang sama, sehingga ia dipakai untuk menentukan massa molar dengan alat sederhana (**metode Rast**).
@@ -162,6 +166,10 @@ $$
 :::
 
 Kemiripan dengan gas ideal ini menakjubkan, dan van 't Hoff memperoleh Hadiah Nobel Kimia yang pertama (1901) sebagian karena menemukannya. Tetapi kemiripan itu tidak berarti molekul zat terlarut menumbuk membran seperti molekul gas. Tekanan osmotik adalah akibat potensial kimia pelarut, bukan tumbukan zat terlarut; kedua rumus sama bentuknya karena keduanya berasal dari entropi partikel yang tersebar bebas dan tidak saling berinteraksi.
+
+Gambar 10.6 menunjukkan cara tekanan osmotik diukur. Pelarut mengalir melewati membran sampai kolom larutan cukup tinggi; tekanan hidrostatik ρ*gh* di dasar kolom itulah tekanan osmotik. Karena Π yang kecil sekalipun menghasilkan kolom yang tinggi (1 kPa setara dengan sekitar 10 cm air), osmometri adalah cara paling peka untuk menentukan massa molar polimer dan protein.
+
+![Gambar 10.6 Osmometer skematis. Pelarut mengalir dari kiri ke kanan melewati membran semipermeabel sampai tekanan hidrostatik kolom larutan setinggi *h* menghentikannya; pada kesetimbangan Π = ρ*gh*.](fig/osmometer.png){width=70%}
 
 ::: {.contoh}
 **Contoh 10.12 · Air laut dan cairan infus**

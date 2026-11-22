@@ -29,6 +29,8 @@ Setelah mempelajari bab ini, kamu mampu:
 5. Menurunkan dan memakai persamaan Gibbs–Duhem.
 6. Menghitung potensial kimia dan energi Gibbs pencampuran gas ideal.
 7. Menjelaskan fugasitas dan koefisien fugasitas serta menghitungnya dari persamaan keadaan.
+8. Memakai entalpi molar parsial untuk membedakan entalpi pelarutan diferensial dan integral.
+9. Memakai potensial gravitokimia dan potensial elektrokimia untuk sedimentasi dan transpor ion melewati membran.
 :::
 
 ::: {.mat}

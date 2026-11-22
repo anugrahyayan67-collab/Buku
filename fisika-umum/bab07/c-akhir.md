@@ -41,8 +41,13 @@
 
 # Pertanyaan
 
+## Subbab 7.2: Persamaan kontinuitas
+
 1. Mengapa air sungai mengalir lebih deras di bagian yang sempit?
 2. Darah mengalir jauh lebih lambat di kapiler daripada di aorta, padahal kapiler jauh lebih sempit. Apakah ini melanggar persamaan kontinuitas?
+
+## Subbab 7.4: Penerapan persamaan Bernoulli
+
 3. Pancaran air dari keran menyempit ketika jatuh. Mengapa?
 4. Dalam pipa mendatar yang menyempit, tekanan di bagian sempit lebih rendah. Jelaskan dengan hukum Newton, tanpa menyebut Bernoulli.
 5. Mengapa tirai kamar mandi tertarik ke dalam ketika pancuran dinyalakan?
@@ -51,18 +56,39 @@
 8. Mengapa pompa isap air tidak dapat menghasilkan tekanan di bawah beberapa kilopascal, dan mengapa bekerja lebih baik dengan air dingin?
 9. Mengapa kelajuan zat cair yang keluar dari lubang tangki tidak bergantung pada massa jenis zat cairnya?
 10. Sifon dapat mengalirkan air naik melewati bibir wadah. Apa yang mendorong air naik?
+
+## Subbab 7.5: Kekentalan dan hukum Poiseuille
+
 11. Mengapa madu lebih mudah dituang setelah dihangatkan?
 12. Menurut hukum Poiseuille, mana yang lebih memengaruhi debit: melipatduakan selisih tekanan atau menambah jari-jari 20%?
 13. Mengapa persamaan Bernoulli tidak dapat dipakai untuk aliran darah di kapiler?
+
+## Subbab 7.6: Laminar atau turbulen: bilangan Reynolds
+
 14. Mengapa bunyi terdengar lewat stetoskop ketika manset tensimeter dikendurkan perlahan?
+
+## Subbab 7.7: Benda yang bergerak dalam fluida kental
+
 15. Mengapa butir hujan jatuh, sedangkan tetes awan tampak melayang?
-16. Mengapa endapan yang halus sulit disaring dan lama mengendap, dan apa gunanya "mematangkan" endapan?
+
+## Subbab 7.8: Energi dan daya dalam aliran
+
+16. Mengapa turbin angin tidak mungkin mengambil seluruh energi kinetik angin?
+
+## Subbab 7.9: Difusi
+
 17. Jelaskan mengapa sebuah sel dapat mengandalkan difusi, sedangkan seekor ikan memerlukan sistem peredaran darah.
 18. Mengapa mengaduk mempercepat pelarutan gula, padahal tidak mengubah koefisien difusinya?
-19. Mengapa turbin angin tidak mungkin mengambil seluruh energi kinetik angin?
-20. Dalam kromatografi cair kinerja tinggi (HPLC), kolomnya diisi butir yang sangat halus. Mengapa diperlukan pompa bertekanan sangat tinggi?
+19. Dalam kromatografi cair kinerja tinggi (HPLC), kolomnya diisi butir yang sangat halus. Mengapa diperlukan pompa bertekanan sangat tinggi?
+
+## Subbab 7.10: Sedimentasi dan sentrifugasi
+
+20. Mengapa endapan yang halus sulit disaring dan lama mengendap, dan apa gunanya "mematangkan" endapan?
 21. Mengapa protein tidak mengendap dalam tabung yang dibiarkan berdiri, tetapi mengendap dalam ultrasentrifus?
 22. Mengapa laju endap darah naik ketika sel-sel darah merah saling menempel?
+
+## Subbab 7.11: Gaya hambat dan gaya angkat: sudut pandang momentum
+
 23. Mengapa daya yang diperlukan untuk melawan hambatan udara sebanding dengan pangkat tiga kelajuan?
 24. Penjelasan gaya angkat sayap dengan persamaan Bernoulli dan dengan hukum ketiga Newton sering dianggap bertentangan. Apakah memang bertentangan?
 25. Mengapa helikopter dengan rotor besar lebih hemat energi daripada helikopter seberat itu dengan rotor kecil?

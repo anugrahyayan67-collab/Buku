@@ -31,31 +31,60 @@
 
 # Pertanyaan
 
+## Subbab 11.1: Sistem, keadaan, dan proses
+
 1. Apa beda fungsi keadaan dengan besaran yang bergantung pada jalur? Beri dua contoh masing-masing.
 2. Mengapa tidak bermakna mengatakan "gas ini mengandung 500 J kalor"?
+
+## Subbab 11.4: Empat proses penting
+
 3. Gas dimampatkan sangat cepat lalu dibiarkan. Jelaskan apa yang terjadi pada suhunya, mula-mula dan kemudian.
 4. Mengapa kurva adiabatik lebih curam daripada kurva isotermal pada diagram $pV$?
 5. Mengapa $C_p$ lebih besar daripada $C_V$? Mengapa selisihnya hampir nol untuk zat padat?
 6. Ketika botol minuman bersoda dibuka, muncul kabut tipis di lehernya. Jelaskan.
+
+## Subbab 11.5: Entalpi dan termokimia
+
 7. Mengapa kalor reaksi yang diukur dalam kalorimeter bom tidak selalu sama dengan $\Delta H$?
 8. Hukum Hess sering disebut akibat langsung hukum pertama. Jelaskan.
 9. Mengapa entalpi pembentukan unsur dalam bentuk paling mantapnya diberi nilai nol? Apakah itu berarti unsur tidak berenergi?
+
+## Subbab 11.6: Mesin kalor dan hukum kedua
+
 10. Dapatkah sebuah kapal berlayar hanya dengan mengambil kalor dari air laut? Hukum mana yang dilanggar?
 11. Mengapa pembangkit listrik selalu memerlukan air pendingin atau menara pendingin?
+
+## Subbab 11.7: Siklus Carnot, mesin pendingin, dan pompa kalor
+
 12. Mengapa menaikkan suhu uap menaikkan efisiensi pembangkit listrik?
 13. Pompa kalor memberi kalor lebih banyak daripada listrik yang dipakainya. Mengapa itu tidak melanggar kekekalan energi?
+
+## Subbab 11.8: Entropi
+
 14. Entropi air turun ketika membeku. Bagaimana hal itu sejalan dengan hukum kedua?
 15. Makhluk hidup adalah sistem yang sangat teratur. Apakah kehidupan melanggar hukum kedua?
 16. Mengapa rumus $\Delta S = Q/T$ tidak boleh dipakai langsung untuk pemuaian bebas?
+
+## Subbab 11.9: Entropi dan peluang
+
 17. Jelaskan dengan gambaran molekul mengapa gas tidak pernah berkumpul sendiri di satu sudut ruangan.
 18. Dua gas ideal bercampur tanpa melepas atau menyerap kalor. Apa yang menggerakkan pencampuran itu?
+
+## Subbab 11.10: Energi bebas Gibbs dan kespontanan
+
 19. Reaksi endoterm dapat berlangsung spontan. Bagaimana mungkin?
 20. Apa beda "spontan" dengan "cepat"? Berikan satu contoh reaksi yang spontan tetapi sangat lambat.
 21. Mengapa sel bahan bakar tidak dibatasi efisiensi Carnot?
 22. Mengapa entropi penguapan hampir sama untuk banyak zat cair (aturan Trouton), dan mengapa air menyimpang?
+
+## Subbab 11.11: Kesetimbangan fasa
+
 23. Mengapa garis lebur air pada diagram fasa miring ke kiri, sedangkan pada kebanyakan zat miring ke kanan?
 24. Mengapa air mendidih pada suhu lebih rendah di pegunungan? Mengapa itu menyulitkan memasak?
 25. Mengapa persamaan Clausius–Clapeyron, persamaan Arrhenius, dan persamaan van 't Hoff memiliki bentuk yang sama?
+
+## Subbab 11.12: Energi bebas, konsentrasi, dan kesetimbangan
+
 26. Apa beda $\Delta G$ dan $\Delta G^\circ$? Mana yang menentukan arah reaksi dalam sel hidup?
 27. Mengapa garam yang ditaburkan di jalan bersalju mencairkan es?
 

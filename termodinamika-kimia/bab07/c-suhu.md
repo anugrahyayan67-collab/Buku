@@ -39,6 +39,10 @@ sehingga $\Delta_\text{r}G^\circ(500\ \text{K}) = +7{,}3$ kJ mol⁻¹.
 **Memahami hasil.** Pada suhu kamar sintesis amonia standar spontan, tetapi pada 500 K tidak lagi: Δ*G*° berganti tanda di sekitar 464 K (Bab 6, Soal 45). Hasil yang sama diperoleh dari $\Delta H - T\Delta S = -92{,}22 - (500)(-0{,}1988) = +7{,}2$ kJ mol⁻¹, dalam batas pembulatan. Reaksi eksoterm yang mengurangi jumlah gas selalu menjadi kurang menguntungkan pada suhu tinggi, dan Haber harus berkompromi antara laju (memerlukan suhu tinggi) dan hasil (memerlukan suhu rendah).
 :::
 
+Gambar 7.5 menampilkan hasil ini untuk seluruh rentang suhu. Karena $\Delta_\text{r}H^\circ$ dan $\Delta_\text{r}S^\circ$ hampir tetap, $\Delta_\text{r}G^\circ$ berubah hampir lurus dengan *T*, dengan kemiringan $-\Delta_\text{r}S^\circ$. Untuk reaksi yang mengurangi jumlah mol gas, $\Delta_\text{r}S^\circ < 0$, sehingga garisnya naik dan suatu saat melewati nol.
+
+![Gambar 7.5 Energi Gibbs standar sintesis amonia terhadap suhu, dengan $\Delta_\text{r}H^\circ$ dan $\Delta_\text{r}S^\circ$ dianggap tetap. Garis memotong nol di 464 K; kemiringannya adalah $-\Delta_\text{r}S^\circ$ = +0,199 kJ K⁻¹ mol⁻¹. Kotak: nilai pada 298 K dan 500 K (Contoh 7.14).](fig/GTamonia.png){width=80%}
+
 ::: {.kuis}
 **Kuis cepat 7.7** Untuk reaksi endoterm, apakah Δ*G*/*T* bertambah atau berkurang bila suhu dinaikkan?
 :::
@@ -97,6 +101,8 @@ $$
 **Memahami hasil.** Sekitar lima belas ribu atmosfer. Intan sintetis industri dibuat pada tekanan sekitar 50–60 kbar dan suhu 1500–2000 °C, jauh di atas batas termodinamika ini, karena pada suhu kamar perubahan grafit menjadi intan sangat lambat; suhu tinggi diperlukan untuk lajunya, dan suhu tinggi menggeser tekanan kesetimbangan ke atas. Di dalam Bumi, intan alam terbentuk pada kedalaman lebih dari 150 km, tempat tekanan dan suhu seperti itu terjadi secara alami.
 :::
 
+![Gambar 7.6 Energi Gibbs molar grafit dan intan terhadap tekanan pada 298 K. Kemiringan setiap garis adalah volume molarnya. Garis intan mulai 2,90 kJ mol⁻¹ lebih tinggi tetapi naik lebih lambat, dan kedua garis berpotongan di sekitar 15 kbar (Contoh 7.16).](fig/intan.png){width=80%}
+
 ::: {.contoh}
 **Contoh 7.17 · Tekanan uap air dari tabel energi Gibbs**
 
@@ -109,6 +115,10 @@ $$
 
 **Memahami hasil.** Hasilnya 3,17 kPa, tepat tekanan uap air pada 25 °C yang tercantum di tabel. $\Delta_\text{vap}G^\circ$ positif **tidak** berarti air tidak menguap; artinya air tidak menguap menjadi uap **bertekanan 1 bar**. Selama tekanan parsial uap di udara di bawah 3,17 kPa, Δ*G* penguapan negatif dan air di gelas terbuka terus menguap. Bab 8 dan Bab 12 mengembangkan gagasan ini: kesetimbangan tercapai ketika suku $RT\ln p$ tepat menghapus $\Delta G^\circ$.
 :::
+
+Gambar 7.7 membandingkan kedua hasil ini. Untuk gas, energi Gibbs naik tajam ketika tekanan naik dari nilai kecil dan terus naik secara logaritmik; menurunkan tekanan gas sepuluh kali menurunkan $G_\text{m}$-nya sebesar *RT* ln 10 = 5,7 kJ mol⁻¹ pada 25 °C. Untuk cairan, garisnya hampir datar: menaikkan tekanan air dari 1 bar ke 10 bar hanya menaikkan $G_\text{m}$-nya sekitar 16 J mol⁻¹. Itulah sebabnya dalam perhitungan kesetimbangan, tekanan hampir selalu boleh diabaikan untuk zat padat dan cair, tetapi tidak pernah untuk gas.
+
+![Gambar 7.7 Perubahan energi Gibbs molar terhadap tekanan pada 298 K, relatif terhadap nilainya pada 1 bar. Gas ideal mengikuti *RT* ln(*p*/*p*°); air cair mengikuti $V_\text{m}(p - p^\circ)$, yang pada skala ini hampir tidak terlihat berubah.](fig/Gp.png){width=76%}
 
 ::: {.kuis}
 **Kuis cepat 7.8** Es kurang rapat daripada air cair. Bila tekanan dinaikkan pada 0 °C, fasa mana yang *G*-nya naik lebih banyak? Apa akibatnya bagi titik leleh es?
@@ -172,6 +182,12 @@ Untuk metana, $\Delta_\text{f}H^\circ = -74{,}81$ kJ mol⁻¹; entropi standar C
 (b) $T = 74{,}81/0{,}080\,84 = 925$ K.
 
 **Memahami hasil.** Pada suhu kamar metana stabil ($\Delta_\text{f}G^\circ = -50{,}7$ kJ mol⁻¹), tetapi di atas sekitar 650 °C ia cenderung terurai menjadi karbon dan hidrogen, karena tiga molekul gas lebih kacau daripada satu molekul gas dan padatan. Kecenderungan ini dimanfaatkan dalam **pirolisis metana**, cara membuat hidrogen tanpa melepaskan CO₂: karbonnya tertinggal sebagai padatan. Stabilitas termodinamika bukan sifat tetap suatu senyawa; ia selalu "pada suhu berapa".
+:::
+
+::: {.terapan}
+**Diagram Ellingham: mengapa kokas dapat melebur bijih besi.** Dalam metalurgi, Δ*G*° pembentukan oksida digambar terhadap suhu untuk satu mol O₂ (Gambar 7.8). Karena $\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ$ dan keduanya hampir tidak bergantung suhu, setiap reaksi menjadi garis lurus dengan kemiringan −Δ*S*°. Oksida logam padat mempunyai Δ*S*° negatif (gas O₂ hilang), sehingga garisnya naik. Pembentukan CO justru menghasilkan gas (2 mol CO dari 1 mol O₂), sehingga garisnya **turun**. Di atas titik potong kedua garis, karbon mengikat oksigen lebih kuat daripada besi, dan reaksi $\text{FeO} + \text{C} \to \text{Fe} + \text{CO}$ menjadi spontan. Aluminium oksida berada jauh di bawah semua garis karbon dalam rentang suhu tanur, sehingga aluminium tidak dapat dibuat dengan kokas dan harus dielektrolisis (proses Hall–Héroult).
+
+![Gambar 7.8 Diagram Ellingham sederhana, dihitung dari Δ*H*° dan *S*° pada 298 K yang dianggap tetap. Garis 2C + O₂ → 2CO turun karena reaksi menghasilkan gas; di atas sekitar 1000 K garis itu berada di bawah garis FeO, sehingga karbon dapat mereduksi bijih besi.](fig/ellingham.png){width=82%}
 :::
 
 ::: {.kuis}
