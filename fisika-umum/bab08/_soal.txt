@@ -1,0 +1,140 @@
+## Subbab 8.1: Gerak periodik
+
+Sebuah getaran memiliki periode 0,25 s. Berapa frekuensi dan frekuensi sudutnya? ||| 4,0 Hz; 25 rad/s
+Jantung berdetak 75 kali per menit. Berapa frekuensi dan periodenya? ||| 1,25 Hz; 0,80 s
+Posisi sebuah benda adalah $x = 0{,}050\cos(8\pi t)$ (m, dengan $t$ dalam sekon). Tentukan amplitudo, frekuensi, dan periodenya. ||| 0,050 m; 4,0 Hz; 0,25 s
+Sayap seekor lebah bergetar 230 Hz. Berapa periodenya, dan berapa getaran dalam satu menit? ||| 4,3 ms; 13 800
+Atom dalam zat padat bergetar dengan frekuensi sekitar $1{,}0 \times 10^{13}$ Hz. Berapa periodenya? ||| $1{,}0 \times 10^{-13}$ s
+Berapa frekuensi sudut listrik berfrekuensi 50 Hz? ||| 314 rad/s
+
+## Subbab 8.2 dan 8.3: Gerak harmonik sederhana
+
+Balok 0,40 kg terhubung ke pegas dengan $k = 160$ N/m. Tentukan frekuensi sudut, periode, dan frekuensinya. ||| 20 rad/s; 0,31 s; 3,2 Hz
+Beban 0,50 kg pada sebuah pegas bergetar dengan periode 0,40 s. Berapa konstanta pegasnya? ||| 123 N/m
+Pegas dengan $k = 300$ N/m harus bergetar 2,5 Hz. Berapa massa yang harus dipasang? ||| 1,2 kg
+Massa pada sebuah osilator pegas dijadikan empat kali. Menjadi berapa kali periodenya? ||| 2 kali
+Sebuah osilator memiliki amplitudo 0,080 m dan frekuensi sudut 15 rad/s. Berapa kelajuan dan percepatan terbesarnya? ||| 1,2 m/s; 18 m/s²
+Posisi sebuah benda adalah $x = 0{,}12\cos(5{,}0t)$ (SI). Tentukan posisi, kecepatan, dan percepatannya pada $t = 0{,}20$ s. ||| 0,065 m; −0,50 m/s; −1,6 m/s²
+@awal **[P]** Osilator dengan $\omega = 10$ rad/s berada di $x_0 = 0{,}040$ m dengan kecepatan $v_0 = +0{,}60$ m/s pada $t = 0$. Tentukan amplitudo dan tetapan fasenya, dengan $x = A\cos(\omega t + \phi)$. ||| 0,072 m; −0,98 rad
+Sebuah osilator berperiode 1,2 s. Berapa lama ia bergerak dari titik setimbang ke setengah amplitudonya? ||| 0,10 s
+Untuk osilator pada soal sebelumnya, berapa lama ia bergerak dari $x = A$ ke $x = A/2$? ||| 0,20 s
+Beban 2,0 kg yang digantungkan pada pegas meregangkannya 9,8 cm. Berapa konstanta pegasnya dan periode getarannya? ||| 200 N/m; 0,63 s
+Sebuah beban yang digantungkan pada pegas meregangkannya 4,0 cm saat setimbang. Berapa periode getarannya? ||| 0,40 s
+Badan sebuah mobil 1200 kg turun 3,0 cm ketika empat orang bermassa total 300 kg naik. Berapa konstanta pegas totalnya dan frekuensi goyangan mobil bermuatan itu? ||| $9{,}8 \times 10^4$ N/m; 1,3 Hz
+Balok 1,0 kg dihubungkan ke dua pegas, 100 N/m dan 150 N/m. Berapa periodenya jika pegas dipasang (a) paralel; (b) seri? ||| (a) 0,40 s; (b) 0,81 s
+Percepatan terbesar sebuah osilator 12 m/s². Berapa percepatannya ketika simpangannya sepertiga amplitudo? ||| 4,0 m/s²
+Sebuah osilator mulai dari titik setimbang pada $t = 0$. Setelah berapa bagian periode kelajuannya pertama kali menjadi setengah kelajuan terbesar? ||| $T/6$
+Kursi pengukur massa di stasiun antariksa (massa 12,0 kg) bergetar dengan periode 0,90 s ketika kosong dan 2,10 s ketika diduduki seorang astronaut. Berapa massa astronaut itu? ||| 53 kg
+Sebuah benda bergetar harmonik dengan periode 0,90 s. Berapa lama ia bergerak dari $x = +A$ ke $x = -A/2$ untuk pertama kalinya? ||| 0,30 s
+
+Beban 0,25 kg pada pegas ($k = 60$ N/m) bergetar. Berapa periodenya, dan berapa periodenya jika bebannya ditambah 0,20 kg? ||| 0,41 s; 0,54 s
+Pelampung naik-turun mengikuti ombak dengan periode 6,0 s dan amplitudo 0,80 m. Berapa percepatan terbesarnya? ||| 0,88 m/s²
+Membran pengeras suara bergetar dengan amplitudo 0,50 mm pada 200 Hz. Berapa percepatan terbesarnya? ||| 790 m/s²
+
+## Subbab 8.4: Energi gerak harmonik
+
+@en Osilator dengan $k = 250$ N/m bergetar dengan amplitudo 0,060 m. Berapa energi totalnya? ||| 0,45 J
+Jika massa osilator pada Soal {{en}} adalah 0,20 kg, berapa kelajuan terbesarnya? ||| 2,1 m/s
+Berapa kelajuan osilator itu ketika simpangannya 0,030 m? ||| 1,8 m/s
+Pada simpangan berapa energi kinetiknya sama dengan energi potensialnya? ||| 0,042 m
+Berapa persen energi osilator berupa energi kinetik ketika simpangannya setengah amplitudo? ||| 75%
+Amplitudo sebuah osilator dilipatduakan. Menjadi berapa kali energi dan kelajuan terbesarnya? ||| 4 kali; 2 kali
+Balok 0,50 kg meluncur 3,0 m/s di lantai licin, lalu terkait pada pegas mendatar dengan $k = 450$ N/m. Berapa amplitudo dan periode getarannya? ||| 0,10 m; 0,21 s
+Osilator bermassa 0,30 kg memiliki kelajuan terbesar 1,5 m/s dan amplitudo 0,050 m. Berapa energinya dan konstanta pegasnya? ||| 0,34 J; 270 N/m
+Pada simpangan berapa (dinyatakan dengan $A$) kelajuan osilator setengah kelajuan terbesarnya? ||| $0{,}87A$
+@peluru **[P]** Peluru 10 g dengan kelajuan 300 m/s menancap di balok 0,99 kg yang diam di lantai licin dan terhubung ke pegas dengan $k = 400$ N/m. Berapa amplitudo dan periode getaran yang terjadi? ||| 0,15 m; 0,31 s
+
+Balok 0,60 kg pada pegas ($k = 120$ N/m) bergetar di lantai licin dengan kelajuan terbesar 1,0 m/s. Lempung 0,40 kg dijatuhkan tegak dan menempel pada balok tepat saat balok melewati titik setimbang. Berapa kelajuan terbesar dan amplitudo yang baru? ||| 0,60 m/s; 5,5 cm
+
+## Subbab 8.5 dan 8.6: Bandul
+
+Berapa periode bandul sederhana sepanjang 0,50 m? ||| 1,4 s
+Berapa panjang bandul yang periodenya 2,0 s? ||| 0,99 m
+Bandul sepanjang 1,50 m memiliki periode 2,46 s. Berapa nilai $g$ di tempat itu? ||| 9,79 m/s²
+Berapa periode bandul 1,0 m di Bulan ($g = 1{,}62\ \text{m/s}^2$)? ||| 4,9 s
+Panjang bandul dijadikan empat kali. Menjadi berapa kali periodenya? ||| 2 kali
+@jam **[P]** Sebuah jam bandul terlambat 1,0 menit tiap hari. Berapa persen panjang bandulnya harus diubah, dan ke arah mana? ||| diperpendek 0,14%
+Bandul sepanjang 1,0 m berada di lift yang dipercepat ke atas 2,0 m/s². Berapa periodenya? ||| 1,8 s
+Bandul sepanjang 1,0 m digantung di mobil yang dipercepat mendatar 3,0 m/s². Berapa periode ayunan kecilnya? ||| 1,96 s
+Bandul sepanjang 1,2 m berayun dengan amplitudo sudut 8,0°. Berapa kelajuan terbesar bebannya? ||| 0,48 m/s
+Berapa persen periode bandul bertambah, dibandingkan rumus sudut kecil, pada amplitudo 20°? ||| 0,76%
+Batang serbasama sepanjang 0,60 m digantung pada ujungnya. Berapa periode ayunannya? ||| 1,3 s
+Cincin tipis berjari-jari 0,15 m digantung pada sebuah paku di tepinya. Berapa periode ayunannya? ||| 1,1 s
+Kaki sepanjang 0,90 m dimodelkan sebagai batang serbasama yang berayun dari pangkalnya. Berapa periode alaminya? ||| 1,6 s
+
+Batang bandul sebuah jam terbuat dari baja, yang panjangnya bertambah $12 \times 10^{-6}$ bagian tiap kelvin. Jam itu tepat pada 15 °C. Berapa sekon per hari kesalahannya pada 30 °C? ||| terlambat 7,8 s
+
+## Subbab 8.7: Getaran molekul
+
+Gunakan $1\ \text{u} = 1{,}6605 \times 10^{-27}$ kg, $c = 2{,}998 \times 10^{10}$ cm/s, $h = 6{,}626 \times 10^{-34}$ J·s, dan $k_B = 1{,}381 \times 10^{-23}$ J/K.
+
+Molekul H₂ memiliki konstanta gaya 575 N/m dan massa tereduksi 0,504 u. Berapa bilangan gelombang getarannya? ||| 4400 cm⁻¹
+H⁷⁹Br menyerap pada 2649 cm⁻¹ ($\mu = 0{,}995$ u). Berapa konstanta gaya ikatannya? ||| 411 N/m
+H₂ bergetar pada 4401 cm⁻¹. Berapa bilangan gelombang getaran D₂? (Massa D dua kali massa H, dengan pendekatan yang baik.) ||| 3110 cm⁻¹
+¹²C¹⁶O bergetar pada 2170 cm⁻¹. Berapa bilangan gelombang ¹³C¹⁶O? (Massa: ¹²C 12,000 u; ¹³C 13,003 u; ¹⁶O 15,995 u.) ||| 2122 cm⁻¹
+Berapa energi satu kuantum getaran pada 1600 cm⁻¹, dalam J, eV, dan kJ/mol? ||| $3{,}18 \times 10^{-20}$ J; 0,198 eV; 19,1 kJ/mol
+Berapa frekuensi dan periode getaran pada 3000 cm⁻¹? ||| $8{,}99 \times 10^{13}$ Hz; $1{,}11 \times 10^{-14}$ s
+Berapa panjang gelombang cahaya inframerah pada 2349 cm⁻¹? ||| 4,26 μm
+Cl₂ bergetar pada 560 cm⁻¹. Berapa perbandingan banyaknya molekul di tingkat getaran pertama terhadap tingkat dasar pada 298 K? ||| 0,067
+Perkirakan amplitudo getaran titik nol CO ($k = 1902$ N/m, $\tilde\nu = 2170$ cm⁻¹), dengan menyamakan $\tfrac12kA^2$ dan $\tfrac12hf$. ||| $4{,}8 \times 10^{-12}$ m
+Potensial Morse HCl memiliki $D = 4{,}62$ eV dan $a = 18{,}7\ \text{nm}^{-1}$, sehingga $k = 2Da^2 = 518$ N/m. Berapa bilangan gelombang yang diramalkannya ($\mu = 0{,}980$ u)? ||| 2995 cm⁻¹
+@cd **[P]** Getaran ulur C–H berada di sekitar 2900 cm⁻¹. Dengan menganggap C–H sebagai osilator dwiatom, di mana getaran ulur C–D? (Massa: C 12,00 u; H 1,008 u; D 2,014 u.) ||| 2130 cm⁻¹
+Konstanta gaya ikatan C≡N sekitar 1770 N/m. Dengan $\mu = 6{,}46$ u, perkirakan bilangan gelombangnya. ||| 2160 cm⁻¹
+
+Getaran ulur C–O berada di sekitar 1100 cm⁻¹. (a) Berapa suhu karakteristik getarannya, $hc\tilde\nu/k_B$? (b) Dengan $\mu = 6{,}00$ u, berapa konstanta gayanya? ||| (a) 1580 K; (b) 428 N/m
+Ikatan hidrogen menggeser pita N–H dari 3600 cm⁻¹ ke 3300 cm⁻¹. Berapa persen konstanta gayanya berkurang? ||| 16%
+
+## Subbab 8.8: Osilasi teredam
+
+@red Osilator dengan $m = 0{,}20$ kg dan $k = 80$ N/m mengalami redaman $b = 0{,}10$ kg/s. Tentukan $\omega_0$, $\gamma$, dan faktor kualitasnya. ||| 20 rad/s; 0,25 s⁻¹; 40
+Berapa bagian amplitudo osilator pada Soal {{red}} yang tersisa setelah 10 s? ||| 8,2%
+Berapa lama sampai amplitudo osilator itu tinggal setengah? ||| 2,8 s
+Berapa lama sampai energinya tinggal setengah? ||| 1,4 s
+Berapa tetapan redaman kritis untuk osilator itu? ||| 8,0 kg/s
+Jika redamannya 4,0 kg/s, berapa frekuensi sudut getarannya? ||| 17 rad/s
+Amplitudo sebuah osilator turun menjadi $1/e$ nilai awalnya setelah 30 getaran. Berapa faktor kualitasnya? ||| 94
+Amplitudo sebuah bandul turun dari 10° menjadi 5,0° dalam 50 s. Berapa lama lagi sampai amplitudonya 1,0°, dihitung dari awal? ||| 166 s
+Bagian mobil bermassa 1000 kg ditopang pegas $4{,}0 \times 10^4$ N/m. Berapa tetapan redaman agar redamannya kritis? ||| $1{,}3 \times 10^4$ kg/s
+Sebuah osilator memiliki $Q = 200$. Berapa persen energinya hilang tiap siklus? ||| 3,1%
+
+## Subbab 8.9: Osilasi paksa dan resonansi
+
+Berapa frekuensi resonansi osilator dengan $m = 2{,}0$ kg dan $k = 800$ N/m? ||| 3,2 Hz
+Suspensi sebuah mobil memiliki frekuensi alami 1,3 Hz. Mobil melintasi deretan gundukan berjarak 12 m. Pada kelajuan berapa goyangannya paling besar? ||| 16 m/s
+Sebuah resonator memiliki frekuensi alami 500 Hz dan $Q = 100$. Berapa lebar puncak resonansinya? ||| 5,0 Hz
+Puncak resonansi sebuah senar berada pada 262 Hz dengan lebar 2,0 Hz. Berapa faktor kualitasnya? ||| 131
+Sebuah gelas kristal berdering pada 800 Hz, dan amplitudo deringnya turun menjadi $1/e$ dalam 1,5 s. Berapa faktor kualitasnya? ||| $3{,}8 \times 10^3$
+Gaya tetap sebesar $F_0$ menyimpangkan sebuah osilator 1,0 mm. Jika gaya itu dikerjakan secara berkala pada frekuensi resonansi dan $Q = 25$, berapa amplitudonya? ||| 25 mm
+Berapa periode gelombang mikro 2,45 GHz? ||| $4{,}08 \times 10^{-10}$ s
+
+Osilator dengan $Q = 30$ didorong pada (a) 0,80 kali dan (b) 2,0 kali frekuensi alaminya. Berapa amplitudonya, sebagai kelipatan simpangan statis $F_0/k$? ||| (a) 2,8; (b) 0,33
+Sebuah garis serapan inframerah memiliki lebar 5,0 cm⁻¹. Jika pelebarannya disebabkan redaman, berapa umur getarannya? ||| $1{,}1 \times 10^{-12}$ s
+
+## Subbab 8.10: Molekul beratom banyak
+
+Berapa ragam getaran yang dimiliki (a) H₂O; (b) CO₂; (c) CH₄; (d) etena, C₂H₄? ||| (a) 3; (b) 4; (c) 9; (d) 12
+Nyatakan pita serapan CO₂ pada 667 cm⁻¹ sebagai panjang gelombang (μm) dan frekuensi (Hz). ||| 15,0 μm; $2{,}00 \times 10^{13}$ Hz
+Mana di antara molekul berikut yang getaran ulurnya menyerap inframerah: N₂, HF, O₂, CO, Cl₂, NO? ||| HF, CO, dan NO
+
+Berapa ragam getaran yang dimiliki (a) amonia, NH₃; (b) asetilena, C₂H₂ (lurus); (c) benzena, C₆H₆? ||| (a) 6; (b) 7; (c) 30
+Metana menyerap inframerah pada 1306 cm⁻¹ dan uap air pada 3756 cm⁻¹. Berapa panjang gelombangnya, dan mana yang berada dalam rentang pancaran Bumi (5 sampai 50 μm)? ||| 7,66 μm dan 2,66 μm; pita metana
+
+## Soal gabungan
+
+Kubus kayu berusuk 10 cm bermassa jenis $800\ \text{kg/m}^3$ terapung di air. Kubus ditekan sedikit lalu dilepas. Gaya pemulihnya adalah perubahan gaya apung, $\rho_\text{air}gA\,y$. Berapa periode naik-turunnya? ||| 0,57 s
+Zat cair dalam tabung U memiliki panjang kolom total 0,60 m. Jika permukaannya disimpangkan, zat cair berayun dengan $T = 2\pi\sqrt{L/(2g)}$. Berapa periodenya? ||| 1,1 s
+Seandainya ada terowongan lurus menembus pusat Bumi, benda yang dijatuhkan ke dalamnya akan bergerak harmonik dengan $T = 2\pi\sqrt{R/g}$. Berapa periodenya? ($R = 6{,}37 \times 10^6$ m.) ||| 84 menit
+@lepas **[P]** Sebuah balok diletakkan di atas piston yang bergetar tegak dengan amplitudo 5,0 cm. Pada frekuensi berapa balok mulai terlepas dari piston? ||| 2,2 Hz
+Balok kecil diletakkan di atas balok besar yang bergetar mendatar pada pegas ($k = 100$ N/m; massa total 2,0 kg). Koefisien gesek statis antara kedua balok 0,50. Berapa amplitudo terbesar agar balok kecil tidak tergelincir? ||| 9,8 cm
+
+## Subbab 8.11: Osilasi kecil di sekitar kesetimbangan
+@kub Energi potensial sebuah partikel 0,10 kg adalah $U = 5x^2 - 2x^3$ (J, dengan $x$ dalam meter). Tentukan titik kesetimbangan mantapnya dan frekuensi osilasi kecil di sekitarnya. ||| $x = 0$; 1,6 Hz
+Kotak kayu berpenampang 0,50 m × 0,50 m bermassa 60 kg terapung tegak di air tawar. Berapa periode naik turunnya? ||| 0,98 s
+Berapa periode ayunan zat cair dalam pipa U dengan panjang kolom total 40 cm? ||| 0,90 s
+Manik-manik kecil meluncur tanpa gesekan di dasar mangkuk setengah bola berjari-jari 20 cm. Berapa periode ayunan kecilnya? ||| 0,90 s
+Untuk N₂, $D_e = 9{,}9$ eV dan $a = 2{,}69 \times 10^{10}$ m⁻¹ (potensial Morse). Hitung konstanta gaya dan bilangan gelombang getarannya (massa tereduksi 7,00 u). ||| 2300 N/m; 2360 cm⁻¹
+Hitung kelengkungan potensial Lennard-Jones di minimumnya untuk kripton ($\varepsilon = 0{,}0141$ eV; $\sigma = 0{,}365$ nm). ||| 0,97 N/m
+## Subbab 8.12: Superposisi dan analisis Fourier
+Pada frekuensi berapa saja tiga komponen sinus pertama gelombang kotak 500 Hz? ||| 500, 1500, 2500 Hz
+Berapa jauh cermin interferometer FT-IR harus bergerak untuk resolusi 0,125 cm⁻¹? ||| 4 cm
+Sinyal NMR meluruh dengan tetapan waktu 2,0 s. Taksir lebar garisnya. ||| 0,16 Hz

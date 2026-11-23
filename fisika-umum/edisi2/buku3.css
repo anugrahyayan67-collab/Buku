@@ -1,0 +1,115 @@
+/* ===== Edisi 4: gaya isi selaras sampul (biru malam, biru langit, jingga) ===== */
+:root { --ink:#141a24; --tua:#0e2748; --malam:#081a31; --biru:#1b75bc; --langit:#7fc0f0; --muda:#edf5fc; --garis:#b9d6ef;
+        --jingga:#d9762f; --jingga-t:#f0a060; --krem:#fdf4ea; --gelap:#0e2748; --hangat:#c0601f; }
+body { margin: 0; }
+/* --- judul subbab: nomor jingga besar, judul biru malam --- */
+h2.sub { background: none; color: var(--tua); text-transform: none; letter-spacing: -.1px; font-size: 15pt; font-weight: 800;
+         padding: 0 0 2mm 0; border-radius: 0; border-bottom: .5mm solid var(--tua); margin: 11mm 0 4mm; line-height: 1.2; }
+h2.sub .nsub { display: inline-block; color: var(--jingga); font-weight: 900; margin-right: 3mm; min-width: 13mm; }
+h2.kecil { color: var(--tua); font-size: 10.5pt; text-transform: uppercase; letter-spacing: 1px; border-bottom: .3mm solid var(--garis); padding-bottom: 1mm; }
+h3 { color: var(--tua); font-size: 11pt; font-weight: 800; }
+h3::before { content: ""; display: inline-block; width: 2.2mm; height: 2.2mm; background: var(--jingga-t); margin-right: 2.2mm; transform: translateY(-.3mm); }
+h4 { color: var(--biru); }
+/* --- judul bagian akhir bab (Ringkasan, Pertanyaan, Soal, Jawaban) --- */
+h1.pita1 { background: var(--tua); color: #fff; border: none; border-radius: 2mm; padding: 3.2mm 6mm;
+           font-size: 14pt; letter-spacing: .6px; text-transform: uppercase; }
+/* --- tujuan --- */
+div.tujuan { background: var(--muda); color: var(--ink); border: .3mm solid var(--garis); border-top: 1.6mm solid var(--tua); border-radius: 2mm; padding: 4.5mm 7mm; }
+div.tujuan > p:first-child > strong:first-child { color: var(--tua); letter-spacing: 2px; }
+div.tujuan li::marker { color: var(--biru); }
+/* --- contoh soal: kartu dengan label --- */
+div.contoh { border: none; border-top: .7mm solid var(--tua); background: linear-gradient(var(--muda), var(--muda)) top/100% 9.5mm no-repeat;
+             padding: 0 1mm 3.5mm 1mm; margin: 7mm 0; border-bottom: .3mm solid var(--garis); }
+div.contoh > p:first-child { margin: 0 0 3mm 0; padding: 2.3mm 2mm; }
+div.contoh > p:first-child > strong:first-child { border: none; padding: 0; font-size: 10.4pt; color: var(--tua); }
+div.contoh > p:first-child > strong:first-child .cno { color: var(--jingga); font-weight: 900; letter-spacing: .3px; margin-right: 1.5mm; }
+strong.lk { color: var(--biru); text-transform: uppercase; font-size: 8.4pt; letter-spacing: 1px; font-weight: 800; }
+strong.lk.periksa { color: var(--jingga); }
+/* --- kuis cepat --- */
+div.kuis { background: var(--muda); border: none; border-radius: 2mm; position: relative; padding: 3.5mm 5mm 3.5mm 15mm; }
+div.kuis::before { content: "?"; position: absolute; left: 4mm; top: 3.2mm; width: 7mm; height: 7mm; border-radius: 1.6mm; background: var(--tua);
+                   color: #fff; font: 900 11pt/7mm Inter, sans-serif; text-align: center; }
+div.kuis > p:first-child > strong:first-child { color: var(--tua); }
+/* --- inti (hasil penting): pita biru malam --- */
+div.inti { background: #e6f0fa; color: var(--ink); border: .3mm solid var(--garis); border-left: 1.6mm solid var(--tua); border-radius: 2mm; margin: 4mm 6mm; padding: 3mm 6mm; }
+div.inti strong { color: var(--tua); }
+div.inti math menclose { border-color: var(--biru); background: #fff; }
+/* --- persamaan berbingkai --- */
+math menclose { border: .9px solid var(--biru); background: var(--muda); }
+/* --- kotak lain --- */
+div.awas { border: none; border-left: 1.6mm solid var(--hangat); border-radius: 0; background: #fbefe6; }
+div.strategi { background: #fff; border: .3mm solid var(--garis); border-top: 1.4mm solid var(--biru); }
+div.mat { background: #f6f9fc; border: .3mm solid var(--garis); border-left: 1.4mm solid var(--tua); }
+div.terapan { background: var(--krem); border-left: 1.6mm solid var(--jingga-t); }
+div.terapan > p:first-child > strong:first-child { color: var(--hangat); }
+div.dalam { background: #f3f8fd; border: .3mm solid var(--garis); border-top: 1.4mm solid var(--tua); border-radius: 0; }
+div.dalam > p:first-child > strong:first-child { color: var(--tua); }
+/* --- tabel --- */
+table { border-top: none; border-bottom: .6mm solid var(--tua); }
+th { background: var(--tua); color: #fff; border-bottom: none; font-weight: 700; letter-spacing: .2px; }
+tbody tr:nth-child(even) td { background: #f5f9fd; }
+td { border-bottom: .3px solid #d4e3f1; }
+/* --- gambar --- */
+figcaption .gb { color: var(--jingga); font-weight: 800; }
+figure img { border-radius: .5mm; }
+li::marker { color: var(--jingga); }
+/* --- lampiran & judul bab gaya lama (lampiran) --- */
+h1.bab .kata { background: var(--tua); }
+h1.bab .no { background: var(--biru); color: #fff; }
+h1.bab .judul { color: var(--tua); }
+h1.depan, .toc h1, .indeks h1 { color: var(--tua); border-bottom: .8mm solid var(--tua); }
+h1.depan::after, .toc h1::after, .indeks h1::after { content: ""; display: block; width: 22mm; height: .8mm; background: var(--jingga-t); margin-top: -.8mm; transform: translateY(3.8mm); }
+.depan-isi h2 { color: var(--tua); }
+/* --- daftar isi & indeks --- */
+.toc .bab .no { background: var(--tua); color: #fff; border-radius: 1.5mm; }
+.toc .sub .t b { color: var(--jingga); }
+.toc .bagianbuku { color: var(--jingga); border-bottom-color: var(--garis); }
+.indeks .kol .huruf { background: var(--tua); color: #fff; border-radius: 1.2mm; }
+/* --- halaman judul --- */
+.judul-hal .atas { border-left-color: var(--tua); }
+.judul-hal .j { color: var(--tua); font-weight: 900; }
+.judul-hal .s { color: var(--biru); }
+.judul-hal .e { background: var(--tua); color: #fff; border-radius: 1.2mm; }
+
+/* --- isi ringkas (edisi 4) --- */
+.ringkas2 { font-family: Inter, sans-serif; margin-top: 2mm; }
+.ringkas2 .bg { display: flex; align-items: baseline; gap: 4mm; background: var(--tua); color: #fff; border-radius: 2.5mm; padding: 2.6mm 5mm; margin: 4.5mm 0 1mm; break-after: avoid; }
+.ringkas2 .bg .bn { font-size: 8pt; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; color: var(--langit); min-width: 27mm; }
+.ringkas2 .bg .bt { flex: 1; font-size: 11pt; font-weight: 700; }
+.ringkas2 .bg .bk { font-size: 8.5pt; color: var(--langit); font-weight: 600; }
+.ringkas2 .rr { display: flex; align-items: center; gap: 4mm; padding: 1mm 2mm 1mm 3mm; border-bottom: .3mm solid #dbe8f4; }
+.ringkas2 .rr .no { flex: 0 0 7.4mm; height: 7.4mm; line-height: 7.4mm; border-radius: 2mm; background: #e3eef9; color: var(--tua); text-align: center; font-weight: 800; font-size: 11pt; }
+.ringkas2 .rr .t { flex: 1; font-size: 12pt; font-weight: 700; color: var(--tua); line-height: 1.15; }
+.ringkas2 .rr .t small { display: block; font-size: 7.8pt; font-weight: 500; color: #6f8197; margin-top: .6mm; letter-spacing: .3px; }
+.ringkas2 .rr .p { flex: 0 0 auto; min-width: 14mm; text-align: right; font-size: 11.5pt; font-weight: 800; color: var(--biru); }
+.ringkas2 .rr:last-child { border-bottom: none; }
+.toc .bagianbuku { color: var(--tua); border-bottom: .4mm solid var(--tua); }
+.toc .r .d { border-bottom-color: #c3d4e4; }
+.toc .r .p { color: var(--tua); }
+.ringkas2 .rr .no:empty { background: none; }
+.toc.halaman h1, .toc h1 { margin-bottom: 5mm; }
+
+/* isi ringkas = gaya daftar isi */
+.ringkas3 .bab { margin-top: 2.8mm; font-size: 12.5pt; }
+.ringkas3 .bab .r { margin: 0; }
+.ringkas3 .bagianbuku { margin-top: 7mm; margin-bottom: 1mm; break-after: avoid; }
+.toc .bab .no:empty { background: none; }
+.ringkas3 .bab { font-weight: 500; color: var(--ink); }
+.ringkas3 .bab .r .p { font-weight: 500; color: var(--tua); }
+.ringkas3 .bab .no { font-weight: 700; font-size: 10.5pt; min-width: 8mm; padding: .2mm 1.2mm; margin-right: 4mm; }
+.ringkas3 .bagianbuku { font-weight: 700; }
+/* ===== kepadatan gaya buku teks internasional ===== */
+body { font-size: 10pt; line-height: 1.4; }
+body > p { margin: 0; }
+body > p + p { text-indent: 1.5em; }
+div.contoh p, div.kuis p, div.tujuan p, div.awas p, div.strategi p, div.mat p, div.terapan p, div.dalam p, div.inti p { margin-bottom: .45em; }
+div.tujuan,div.contoh,div.kuis,div.awas,div.strategi,div.mat,div.terapan,div.coba,div.inti,div.dalam { font-size: 9.5pt; line-height: 1.38; }
+ol, ul { margin: .3em 0 .5em 0; } li { margin-bottom: .15em; }
+math[display="block"] { margin: 2.2mm 0; }
+figure { margin: 4mm auto; }
+h2.sub { margin: 9mm 0 3mm; }
+h3 { margin: 4.5mm 0 1.5mm; }
+body > p:has(> math[display="block"]) + p { text-indent: 0; }
+.judul-hal .pen { font-size: 12pt; font-weight: 700; color: var(--tua); letter-spacing: 1.5px; text-transform: uppercase; margin-top: 10mm; }
+a.tl { color: inherit; text-decoration: none; }
+.toc a.tl { display: block; }

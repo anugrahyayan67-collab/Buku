@@ -1,0 +1,125 @@
+## Subbab 15.1: Asas NMR
+
+> Tetapan: *h* = 6,626 × 10⁻³⁴ J s; *N*ₐ = 6,022 × 10²³ mol⁻¹; *R* = 8,314 J mol⁻¹ K⁻¹. Rasio giromagnetik: ¹H 2,675 × 10⁸; ¹³C 6,728 × 10⁷; ¹⁹F 2,518 × 10⁸ rad s⁻¹ T⁻¹. Geseran kimia dan tetapan kopling dalam soal adalah nilai khas; nilai terukur dapat berbeda sedikit menurut pelarut. Soal bertanda **[P]** dibahas di akhir bab.
+
+Hitung frekuensi resonansi ¹H dalam magnet (a) 2,35 T; (b) 4,70 T; (c) 18,8 T. ||| (a) 100 MHz; (b) 200 MHz; (c) 800 MHz
+Berapa kuat medan yang diperlukan agar proton beresonansi pada 500 MHz? ||| 11,74 T
+Pada spektrometer 400 MHz (9,40 T), pada frekuensi berapa ¹³C dan ¹⁹F beresonansi? ||| ¹³C 100,7 MHz; ¹⁹F 376,7 MHz
+@boltz [P] Hitung Δ*E* (J mol⁻¹) untuk proton pada 300 MHz dan kelebihan populasi keadaan α per sejuta proton pada 298 K dan pada 77 K. Apa artinya bagi kepekaan? ||| 0,120 J mol⁻¹; ±24 per sejuta (298 K) dan ±93 per sejuta (77 K); pendinginan dan medan kuat menaikkan kepekaan
+Berapa kali energi foton IR pada 1715 cm⁻¹ lebih besar daripada energi foton NMR 400 MHz? ||| sekitar 1,3 × 10⁵ kali
+Manakah inti berikut yang memberi sinyal NMR: ¹H, ²H, ¹²C, ¹³C, ¹⁴N, ¹⁶O, ¹⁹F, ³¹P? Jelaskan aturannya. ||| semua kecuali ¹²C dan ¹⁶O (jumlah proton dan neutron sama-sama genap, *I* = 0)
+Mengapa spektrometer NMR modern memakai magnet superkonduktor yang didinginkan dengan helium cair? ||| medan sangat kuat (9–23 T) dan sangat stabil hanya dapat dicapai dengan kumparan superkonduktor
+Jelaskan perbedaan cara kerja spektrometer gelombang kontinu dan FT-NMR. Mengapa FT-NMR jauh lebih cepat? ||| FT membangkitkan semua inti sekaligus dengan satu pulsa dan merekam FID dalam beberapa detik, lalu banyak FID dijumlahkan
+Mengapa sinyal kecil pada δ 7,26 sering tampak dalam spektrum yang diukur dalam CDCl₃? ||| sisa CHCl₃ dalam pelarut terdeuterasi
+Mengapa NMR memerlukan beberapa miligram sampel, sedangkan MS cukup dengan nanogram? ||| kelebihan populasi spin sangat kecil (puluhan per sejuta), sehingga sinyal lemah
+
+## Subbab 15.2: Geseran kimia ¹H
+
+Hitung δ untuk sinyal yang berada (a) 2190 Hz dari TMS pada 300 MHz; (b) 1456 Hz dari TMS pada 400 MHz. ||| (a) 7,30; (b) 3,64
+Proton aldehida berada pada δ 9,80. Berapa hertz jaraknya dari TMS pada spektrometer 500 MHz? ||| 4900 Hz
+Pada 400 MHz, dua sinyal berjarak 0,10 ppm. Berapa hertz jaraknya pada 400 MHz dan pada 800 MHz? ||| 40 Hz dan 80 Hz
+Urutkan geseran kimia proton CH₃ dari kecil ke besar: CH₃–Si(CH₃)₃, CH₃–CH₃, CH₃–NH₂, CH₃–OH, CH₃–F. ||| TMS (0) < etana (0,9) < metilamina (2,4) < metanol (3,4) < CH₃F (4,3)
+Urutkan geseran kimia: CH₃Cl, CH₂Cl₂, CHCl₃. Jelaskan. ||| 3,05 < 5,30 < 7,26; efek keelektronegatifan menjumlah
+Dalam 1-kloropropana, ramalkan urutan δ ketiga jenis proton dan jelaskan mengapa efek Cl melemah dengan jarak. ||| CH₂Cl (3,5) > CH₂ (1,8) > CH₃ (1,0); efek induktif berkurang setiap ikatan
+@aniso [P] Proton etena muncul pada δ 5,3, sedangkan proton etuna pada δ 1,9, padahal karbon sp lebih elektronegatif daripada karbon sp². Jelaskan dengan anisotropi magnet. ||| sirkulasi elektron π silindris memerisai daerah di sepanjang sumbu alkuna, tempat H berada; pada alkena H berada di daerah terawaperisai
+Mengapa geseran kimia proton aromatik dipakai sebagai bukti aromatisitas? Apa yang diharapkan untuk proton di dalam cincin [18]anulena? ||| arus cincin hanya ada pada sistem aromatik; proton di dalam cincin terperisai kuat (δ negatif, ±−3)
+Ramalkan δ (perkiraan) setiap jenis proton dalam (a) aseton; (b) dietil eter; (c) toluena; (d) asetaldehida. ||| (a) 2,2; (b) 3,5 dan 1,2; (c) 2,3 dan 7,2; (d) 9,8 dan 2,2
+Ramalkan geseran kimia CH₂ dalam (a) C₆H₅CH₂Cl; (b) CH₃CH₂OCH₃; (c) CH₃C(=O)OCH₂CH₃; (d) C₆H₅CH₂C(=O)CH₃. ||| (a) ±4,6; (b) ±3,4; (c) ±4,1; (d) ±3,7
+Mengapa proton COOH asam karboksilat muncul sangat jauh di medan bawah (δ 10–13)? ||| O–H terikat pada O dekat C=O dan terlibat ikatan hidrogen kuat dalam dimer
+Jelaskan arti istilah "medan bawah" dan "terawaperisai". Di sisi mana spektrum proton itu muncul? ||| proton dengan kerapatan elektron rendah, beresonansi pada frekuensi lebih tinggi; sisi kiri (δ besar)
+
+## Subbab 15.3: Kesetaraan proton dan jumlah sinyal
+
+Berapa sinyal ¹H NMR untuk: (a) propana; (b) 2,2-dimetilpropana; (c) 2-metilbutana; (d) pentan-3-on? ||| (a) 2; (b) 1; (c) 4; (d) 2
+Berapa sinyal ¹H NMR untuk: (a) metil asetat; (b) asam propanoat; (c) 1,2-dikloroetana; (d) 1,1,2-trikloroetana? ||| (a) 2; (b) 3; (c) 1; (d) 2
+Berapa sinyal ¹H NMR (kelompokkan proton cincin menurut posisi) untuk: (a) toluena; (b) *p*-diklorobenzena; (c) *o*-diklorobenzena; (d) *m*-diklorobenzena? ||| (a) 4 (CH₃, *o*, *m*, *p*); (b) 1; (c) 2; (d) 3
+Berapa sinyal untuk (a) (*E*)-1-kloropropena; (b) 2-metilpropena; (c) kloroetena; (d) siklopentana? ||| (a) 3; (b) 2; (c) 3; (d) 1
+@topik [P] Tentukan apakah kedua proton CH₂ dalam senyawa berikut homotopik, enantiotopik, atau diastereotopik: (a) CH₂Cl₂; (b) CH₃CH₂Br; (c) CH₂ pada C3 dalam (*S*)-2-butanol; (d) =CH₂ pada 2-metilpropena. ||| (a) homotopik; (b) enantiotopik; (c) diastereotopik; (d) homotopik
+Mengapa ketiga proton gugus metil selalu setara, padahal dalam setiap konformasi sesaat posisinya berbeda? ||| rotasi C–C sangat cepat dibandingkan skala waktu NMR, sehingga lingkungan dirata-ratakan
+Isomer C₅H₁₂ mana yang memberi (a) satu sinyal; (b) tiga sinyal; (c) empat sinyal? ||| (a) 2,2-dimetilpropana; (b) pentana; (c) 2-metilbutana
+Usulkan dua struktur C₄H₈Cl₂ yang masing-masing hanya memberi dua sinyal ¹H. ||| 1,2-dikloro-2-metilpropana (CH₂Cl dan 2 CH₃); 1,4-diklorobutana (CH₂Cl dan CH₂)
+Mengapa kloroetena memberi tiga sinyal, sedangkan 1,1-dikloroetena hanya satu? ||| pada kloroetena kedua H =CH₂ berbeda (*cis*/*trans* terhadap Cl); pada 1,1-dikloroetena keduanya setara
+Berapa sinyal ¹H yang diharapkan untuk aseton, dietil keton, dan metil isopropil keton? ||| 1; 2; 3
+
+## Subbab 15.4: Integrasi
+
+Senyawa C₅H₁₂O tanpa pita O–H memberi dua singlet: δ 3,21 (tangga 21 mm) dan 1,19 (tangga 63 mm). Tentukan jumlah proton setiap sinyal dan strukturnya. ||| 3H dan 9H; *tert*-butil metil eter
+Senyawa C₄H₈O₂ memberi tiga sinyal dengan integrasi 1,00 : 1,49 : 1,51. Berapa proton setiap sinyal? ||| 2H : 3H : 3H
+@qnmr [P] Untuk menetapkan kemurnian aspirin (C₉H₈O₄, *M* = 180,16), 10,0 mg sampel dicampur dengan 5,00 mg asam maleat murni (*M* = 116,07; singlet 2H pada δ 6,3) dalam DMSO-*d*₆. Integrasi singlet CH₃ aspirin (3H, δ 2,2) = 3,00; integrasi singlet asam maleat = 1,60. Hitung kemurnian aspirin. ||| 97,0%
+Campuran benzena dan toluena memberi integrasi daerah aromatik 10,0 dan singlet CH₃ toluena (δ 2,35) 3,0. Hitung perbandingan mol benzena : toluena. ||| 0,83 : 1 (5 : 6)
+Mengapa integrasi memberi perbandingan dan bukan jumlah mutlak proton? ||| luas sinyal sebanding dengan jumlah proton dikalikan faktor alat yang sama untuk semua sinyal
+Mengapa spektrum ¹³C rutin tidak diintegrasi? ||| pemulihan (relaksasi) dan penguatan NOE berbeda untuk setiap karbon
+Senyawa C₈H₁₈ hanya memberi satu sinyal. Tentukan strukturnya. ||| 2,2,3,3-tetrametilbutana
+Senyawa C₉H₁₂ memberi δ 6,78 (s, 3H) dan 2,26 (s, 9H). Tentukan strukturnya. ||| 1,3,5-trimetilbenzena (mesitilena)
+
+## Subbab 15.5: Pemecahan spin–spin dan aturan *n* + 1
+
+Ramalkan pola pemecahan setiap sinyal dalam (a) bromoetana; (b) 1,1,2-tribromoetana; (c) 2-bromopropana; (d) 1-bromo-2-metilpropana. ||| (a) q 2H, t 3H; (b) t 1H (CHBr₂), d 2H (CH₂Br); (c) sept 1H, d 6H; (d) d 2H, m (nonet) 1H, d 6H
+Ramalkan pola pemecahan dalam (a) dietil eter; (b) metil propil eter; (c) etil propanoat. ||| (a) q 4H, t 6H; (b) s 3H, t 2H, sekstet 2H, t 3H; (c) q 2H (OCH₂), q 2H (COCH₂), t 3H, t 3H
+@pascal [P] Jelaskan dengan menghitung kombinasi spin mengapa proton dengan empat tetangga setara memberi kuintet 1 : 4 : 6 : 4 : 1. ||| 2⁴ = 16 kombinasi; jumlah β = 0, 1, 2, 3, 4 masing-masing 1, 4, 6, 4, 1 cara
+Mengapa CH₃ asetil dan CH₂ etil dalam etil asetat tidak saling memecah? ||| terpisah lebih dari tiga ikatan oleh C=O dan O
+Mengapa etana, benzena, dan 1,2-dikloroetana masing-masing memberi singlet? ||| semua proton setara; proton setara tidak saling memecah
+Sebuah spektrum menunjukkan triplet 3H pada δ 1,2 dan kuartet 2H pada δ 2,5 dengan jarak garis yang sama. Potongan apa yang ditunjukkannya? ||| gugus etil yang terikat pada C=O atau cincin aromatik (CH₃CH₂–C=O atau Ar–CH₂CH₃)
+Tunjukkan potongan yang dikenali dari: (a) doblet 6H + septet 1H; (b) singlet 9H; (c) singlet 3H pada δ 3,7; (d) singlet 3H pada δ 2,1. ||| (a) isopropil; (b) *tert*-butil; (c) OCH₃ (ester/eter); (d) CH₃C=O
+@susun [P] Senyawa C₄H₉Br memberi δ 3,30 (d, 2H), 1,96 (m, 1H), 1,02 (d, 6H). Tentukan strukturnya dan jelaskan setiap sinyal. ||| 1-bromo-2-metilpropana
+Senyawa C₃H₆Cl₂ memberi δ 3,70 (t, 4H) dan 2,20 (kuintet, 2H). Tentukan strukturnya. ||| 1,3-dikloropropana
+Senyawa C₃H₆Cl₂ lain memberi singlet 6H saja. Tentukan strukturnya. ||| 2,2-dikloropropana
+Senyawa C₄H₈O memberi δ 2,44 (q, 2H), 2,14 (s, 3H), 1,06 (t, 3H); IR 1715 cm⁻¹. Tentukan strukturnya. ||| butan-2-on
+Senyawa C₂H₄Cl₂ memberi doblet 3H dan kuartet 1H. Tentukan strukturnya dan ramalkan δ. ||| 1,1-dikloroetana; d 2,1, q 5,9
+
+## Subbab 15.6: Tetapan kopling dan pola rumit
+
+Mengapa *J* dilaporkan dalam Hz, sedangkan δ dalam ppm? ||| *J* tidak bergantung pada medan; selisih frekuensi geseran kimia sebanding dengan medan
+Kopling 7,0 Hz sama dengan berapa ppm pada 300 MHz dan pada 600 MHz? ||| 0,023 ppm dan 0,012 ppm
+Dua sinyal yang saling memecah (*J* = 8 Hz) berjarak 0,05 ppm. Hitung Δν/*J* pada 400 MHz dan 800 MHz. Pada medan mana spektrum lebih mendekati orde pertama? ||| 2,5 dan 5,0; 800 MHz
+@ddgaris [P] Sebuah proton vinil pada δ 6,95 (400 MHz) memberi doblet dari doblet dengan *J* = 15,8 Hz dan 7,0 Hz. Hitung posisi keempat garis dalam Hz dari TMS dan gambarkan diagram pohonnya. ||| 2791,4; 2784,4; 2775,6; 2768,6 Hz
+Bagaimana *J* membedakan asam (*E*)- dan (*Z*)-but-2-enoat? ||| *J* proton vinil ±15–16 Hz (*E*) dan ±11–12 Hz (*Z*)
+Jelaskan persamaan Karplus secara kualitatif. Mengapa *J* aksial–aksial pada sikloheksana besar? ||| *J* besar pada sudut dihedral 0° dan 180°, kecil pada 90°; aksial–aksial 180°
+Pola apa yang diharapkan untuk proton yang bertetangga dengan dua H setara (*J* = 7 Hz) dan satu H lain (*J* = 2 Hz)? ||| triplet dari doblet (6 garis)
+Mengapa sinyal CH₂ tengah dalam 1-bromopropana tampak sebagai sekstet, padahal tetangganya dua kelompok yang berbeda? ||| kedua *J* hampir sama (±7 Hz) sehingga semua lima tetangga berperilaku setara
+Ramalkan pola daerah aromatik untuk (a) 4-metoksitoluena; (b) etil benzoat. ||| (a) dua doblet 2H (*para*); (b) 2H (d, *orto*, medan bawah), 1H (t, *para*), 2H (t, *meta*)
+Mengapa proton *orto* asetofenon (δ 7,96) lebih terawaperisai daripada proton *orto* anisol (δ 6,9)? ||| C=O menarik elektron dan anisotropinya mengawaperisai proton *orto*; OCH₃ mendorong elektron ke *orto*
+Sebuah proton aldehida muncul sebagai triplet (*J* = 1,8 Hz). Apa artinya bagi struktur? ||| CHO terikat pada CH₂ (R–CH₂–CHO)
+Senyawa C₃H₅Cl memberi tiga sinyal vinil dan satu doblet 2H pada δ 4,1. Tentukan strukturnya dan ramalkan pola sinyal vinil. ||| 3-kloropropena (alil klorida); =CH– ddt, =CH₂ dua dd (masing-masing dengan kopling alilik kecil)
+
+## Subbab 15.7: Proton OH dan NH
+
+Mengapa proton OH etanol dalam CDCl₃ biasa tidak memecah CH₂ dan tidak dipecah olehnya? ||| pertukaran proton cepat merata-ratakan keadaan spin
+@dmso [P] Dalam DMSO-*d*₆ kering, sinyal OH tiga alkohol C₄H₁₀O tampak sebagai (a) triplet; (b) doblet; (c) singlet. Usulkan struktur masing-masing. ||| (a) butan-1-ol atau 2-metilpropan-1-ol; (b) butan-2-ol; (c) 2-metilpropan-2-ol
+Bagaimana uji D₂O membantu menentukan sinyal OH dalam spektrum? ||| OH bertukar dengan D, sinyal hilang, muncul HOD ±4,7
+Mengapa geseran kimia OH alkohol bergantung pada konsentrasi? ||| ikatan hidrogen bertambah dengan konsentrasi, menggeser ke medan bawah
+Mengapa proton NH amida sering sangat lebar? ||| pertukaran lambat dan efek kuadrupol ¹⁴N
+Asam asetat memberi δ 11,4 (s, 1H) dan 2,10 (s, 3H). Apa yang berubah setelah dikocok dengan D₂O? ||| singlet 11,4 hilang; muncul HOD
+Senyawa C₂H₇N memberi δ 2,74 (q, 2H), 1,11 (t, 3H), dan 1,0 (s lebar, 2H, hilang dengan D₂O). Tentukan strukturnya. ||| etilamina
+Isomer C₂H₇N lain memberi singlet 6H dan singlet lebar 1H. Tentukan strukturnya. ||| dimetilamina
+Mengapa fenol memberi sinyal OH pada δ 4–8, lebih ke kiri daripada alkohol? ||| O–H fenol lebih asam, ikatan hidrogen lebih kuat, dan pengaruh cincin
+
+## Subbab 15.8: NMR ¹³C dan DEPT
+
+Mengapa sinyal ¹³C sekitar 6000 kali lebih lemah daripada ¹H? ||| kelimpahan 1,1% dan γ seperempat (kepekaan sebanding γ³)
+Mengapa kopling ¹³C–¹³C tidak terlihat dalam spektrum ¹³C biasa? ||| peluang dua ¹³C bersebelahan sekitar 1 dalam 8000
+Apa fungsi pemisahan proton pita lebar? ||| menghapus kopling ¹³C–¹H sehingga setiap karbon memberi satu garis
+Berapa sinyal ¹³C untuk: (a) pentana; (b) 2-metilbutana; (c) 2,2-dimetilpropana; (d) sikloheksanon? ||| (a) 3; (b) 4; (c) 2; (d) 4
+Berapa sinyal ¹³C untuk: (a) toluena; (b) *p*-xilena; (c) *o*-xilena; (d) *m*-xilena? ||| (a) 5; (b) 3; (c) 4; (d) 5
+Ramalkan δ ¹³C (perkiraan) untuk setiap karbon dalam etanol, asetaldehida, dan asam asetat. ||| etanol 18, 58; asetaldehida 31, 200; asam asetat 21, 177
+@dept [P] Senyawa C₅H₁₀O (IR 1715 cm⁻¹) memberi tiga garis ¹³C: 211,8 (tidak muncul di DEPT), 35,5 (negatif di DEPT-135), dan 7,9 (positif di DEPT-135, tidak muncul di DEPT-90). Tentukan strukturnya dan jelaskan mengapa hanya tiga garis. ||| pentan-3-on
+Senyawa C₄H₁₀O memberi empat garis ¹³C: 69,3 (muncul di DEPT-90), 32,0 (negatif di DEPT-135), 22,8 dan 10,0 (positif di DEPT-135). Tentukan strukturnya. ||| butan-2-ol
+Bagaimana ¹³C membedakan aldehida dari keton, dan keton dari ester? ||| aldehida 190–205 (CH di DEPT), keton 200–220 (kuarterner), ester 160–185
+Mengapa garis karbon kuarterner biasanya paling kecil? ||| tidak mendapat penguatan NOE dan pulih lambat
+Senyawa C₅H₁₂ memberi dua garis ¹³C. Tentukan strukturnya dan ramalkan hasil DEPT-135. ||| 2,2-dimetilpropana; CH₃ positif, C kuarterner tidak muncul
+
+## Subbab 15.9: Strategi menentukan struktur dari IR, MS, dan NMR
+
+Senyawa C₃H₆O memberi satu singlet ¹H dan dua garis ¹³C (206, 31). Tentukan strukturnya. ||| aseton
+Senyawa C₃H₆O memberi δ 9,79 (t, 1H), 2,46 (qd, 2H), 1,13 (t, 3H). Tentukan strukturnya. ||| propanal
+@kaca [P] Senyawa C₉H₁₀O₂: IR 1685 cm⁻¹ dan tidak ada O–H; ¹H δ 7,93 (d, 2H), 6,93 (d, 2H), 3,87 (s, 3H), 2,55 (s, 3H). Tentukan strukturnya dan jelaskan setiap sinyal. ||| 4-metoksiasetofenon
+Senyawa C₉H₁₂ memberi δ 7,2–7,3 (m, 5H), 2,90 (sept, 1H), 1,25 (d, 6H). Tentukan strukturnya. ||| isopropilbenzena (kumena)
+Senyawa C₄H₈O₂ memberi IR 1740 cm⁻¹; ¹H δ 8,05 (s, 1H), 4,18 (t, 2H), 1,70 (sekstet, 2H), 0,96 (t, 3H). Tentukan strukturnya. ||| propil format
+Senyawa C₅H₁₀O₂: IR pita lebar 2500–3300 dan 1700 cm⁻¹; ¹H δ 11,9 (s lebar, 1H) dan 1,24 (s, 9H). Tentukan strukturnya. ||| asam 2,2-dimetilpropanoat (asam pivalat)
+Senyawa C₄H₁₀O: IR tanpa O–H, pita 1120; ¹H δ 3,39 (q, 4H), 1,19 (t, 6H). Tentukan strukturnya. ||| dietil eter
+Senyawa C₈H₁₀O: IR pita lebar 3350; ¹H δ 7,2–7,35 (m, 5H), 4,85 (q, 1H), 2,0 (s lebar, 1H), 1,48 (d, 3H). Tentukan strukturnya. ||| 1-feniletanol
+@gabung [P] Senyawa: MS ion molekul 136 (kuat), 105 (dasar), 77; IR 1720 dan 1275 cm⁻¹; ¹H δ 8,03 (d, 2H), 7,55 (t, 1H), 7,43 (t, 2H), 3,91 (s, 3H); ¹³C 167,1; 132,9; 130,2; 129,6; 128,4; 52,1. Tentukan strukturnya dan cocokkan setiap data. ||| metil benzoat
+Senyawa C₃H₇Br memberi δ 4,21 (sept, 1H) dan 1,71 (d, 6H). Isomernya memberi tiga sinyal. Tentukan keduanya dan ramalkan spektrum isomer kedua. ||| 2-bromopropana; 1-bromopropana: t 3,39 (2H), sekstet 1,89 (2H), t 1,03 (3H)
+Senyawa C₄H₇N: IR 2250 cm⁻¹; ¹H δ 2,34 (t, 2H), 1,71 (sekstet, 2H), 1,08 (t, 3H). Tentukan strukturnya. ||| butananitril
+Senyawa C₇H₈O: IR pita lebar 3300; ¹H δ 7,3 (m, 5H), 4,65 (s, 2H), 2,2 (s lebar, 1H, hilang dengan D₂O). Isomernya memberi singlet 3H pada 3,80 dan tanpa pita O–H. Tentukan kedua struktur. ||| benzil alkohol; anisol
+Senyawa C₆H₁₂O₂: IR 1740; ¹H δ 4,08 (t, 2H), 2,04 (s, 3H), 1,6 (m, 2H), 1,4 (m, 2H), 0,93 (t, 3H). Tentukan strukturnya. ||| butil asetat

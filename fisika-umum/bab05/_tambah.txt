@@ -1,0 +1,61 @@
+@@RINGKASAN
+| Besaran sudut | $v = r\omega$, $\ a_t = r\alpha$, $\ a_c = \omega^2r$; 1 putaran = $2\pi$ rad | 5.10 |
+| Momen inersia | $I = \sum m_ir_i^2$; molekul diatomik $I = \mu r^2$ | 5.10 |
+| Energi kinetik rotasi | $K = \tfrac12I\omega^2$; menggelinding: $\tfrac12Mv^2 + \tfrac12I\omega^2$ | 5.10 |
+| Torsi | $\tau = rF\sin\phi$; $\ \sum\tau = I\alpha$ | 5.11 |
+| Kesetimbangan benda tegar | $\sum\vec F = 0$ dan $\sum\tau = 0$ | 5.11 |
+| Momentum sudut | $L = I\omega$; $\ \sum\tau = dL/dt$; kekal jika torsi luar nol | 5.12 |
+| Rotasi molekul | $E_J = J(J+1)\hbar^2/2I$; garis spektrum berjarak $2B$ | 5.12 |
+@@KUIS
+**5.10** Kecepatan sudutnya sama; titik yang 10 cm bergerak dua kali lebih cepat. **5.11** Agar lengan gaya sebesar mungkin: torsi yang sama memerlukan gaya yang lebih kecil. **5.12** H₂, karena momen inersianya jauh lebih kecil (atom hidrogen ringan dan ikatannya pendek), sehingga $B$ jauh lebih besar. Tetapi H₂ tidak memiliki momen dipol, sehingga tidak menyerap gelombang mikro sama sekali; HCl menyerap.
+@@PERTANYAAN
+Mengapa semua titik pada roda yang berputar memiliki kecepatan sudut yang sama tetapi kelajuan yang berbeda?
+Dua silinder bermassa dan berjari-jari sama, satu pejal dan satu berongga, dilepas bersamaan di bidang miring. Mana yang tiba lebih dulu? Mengapa?
+Mengapa pemain akrobat di atas tali membawa tongkat panjang?
+Penari es menarik lengannya dan berputar lebih cepat. Momentum sudutnya kekal; apakah energi kinetiknya juga kekal? Jelaskan.
+Mengapa spektrum rotasi berupa deretan garis yang berjarak sama?
+Mengapa molekul N₂ dan O₂ tidak memiliki spektrum rotasi murni, padahal keduanya berputar?
+@@SOAL
+## Subbab 5.10: Gerak rotasi
+Cakram keras komputer berputar 7200 rpm. Berapa kecepatan sudutnya dan kelajuan titik pada jarak 4,5 cm dari sumbu? ||| 754 rad/s; 34 m/s
+Berapa kecepatan sudut jarum menit dan jarum detik jam? ||| $1{,}75 \times 10^{-3}$ rad/s; 0,105 rad/s
+Bumi berputar sekali tiap 86 164 s. Berapa kecepatan sudutnya, dan kelajuan titik di khatulistiwa ($R = 6{,}37 \times 10^6$ m)? ||| $7{,}29 \times 10^{-5}$ rad/s; 465 m/s
+Tabung sentrifus berjarak 8,0 cm dari sumbu dan berputar 10 000 rpm. Berapa kali $g$ percepatan sentripetalnya? ||| 8950 kali
+Batang homogen 1,2 m bermassa 3,0 kg. Berapa momen inersianya terhadap sumbu melalui pusat dan melalui ujung? ||| 0,36 kg·m²; 1,44 kg·m²
+Bola pejal 0,50 kg berjari-jari 11 cm berputar 3,0 putaran per detik. Berapa momen inersia dan energi kinetik rotasinya? ||| $2{,}4 \times 10^{-3}$ kg·m²; 0,43 J
+Roda tipis berbentuk cincin bermassa 2,0 kg menggelinding dengan kelajuan 5,0 m/s. Berapa energi kinetik totalnya? ||| 50 J
+Bola pejal menggelinding dari diam menuruni lereng setinggi 2,0 m. Berapa kelajuannya di dasar? ||| 5,3 m/s
+## Subbab 5.11: Torsi, dinamika rotasi, dan kesetimbangan
+Gaya 150 N mendorong pintu tegak lurus pada jarak 0,80 m dari engsel. Berapa torsinya? ||| 120 N·m
+Anak bermassa 25 kg duduk 1,5 m dari poros jungkat-jungkit. Di mana anak 30 kg harus duduk di sisi lain agar seimbang? ||| 1,25 m dari poros
+Roda bermomen inersia 0,80 kg·m² mula-mula diam, lalu diberi torsi tetap 4,0 N·m selama 5,0 s. Berapa percepatan sudut dan kecepatan sudut akhirnya? ||| 5,0 rad/s²; 25 rad/s
+Gaya 20 N menarik tali yang dililitkan pada cakram pejal 10 kg berjari-jari 0,20 m. Berapa percepatan sudutnya? ||| 20 rad/s²
+Beban 1,0 kg tergantung pada tali yang melilit katrol silinder pejal 2,0 kg. Berapa percepatan beban? ||| 4,9 m/s²
+@tangga Tangga homogen 5,0 m bermassa 15 kg bersandar pada dinding licin dengan sudut 60° terhadap lantai. Berapa gaya dinding pada tangga dan koefisien gesek statis terkecil lantai agar tangga tidak tergelincir? ||| 42 N; 0,29
+## Subbab 5.12: Momentum sudut
+Berapa momentum sudut rotasi Bumi ($I = 8{,}01 \times 10^{37}$ kg·m²)? ||| $5{,}8 \times 10^{33}$ kg·m²/s
+Seseorang di kursi putar berputar 2,0 putaran per detik dengan momen inersia 3,0 kg·m², lalu merentangkan lengan sehingga momen inersianya 5,0 kg·m². Berapa kecepatan putarnya? ||| 1,2 putaran per detik
+Molekul HCl memiliki panjang ikatan 127,5 pm. Hitung tetapan rotasinya (cm⁻¹) dan frekuensi garis $J = 0 \to 1$. ||| 10,6 cm⁻¹; 635 GHz
+Berapa kali tetapan rotasi DCl dibandingkan HCl? (Panjang ikatan sama; massa D = 2,014 u.) ||| 0,51 kali
+Hitung tetapan rotasi N₂ (14,003 u; panjang ikatan 109,8 pm). ||| 2,0 cm⁻¹
+Berapa energi rotasi molekul CO pada tingkat $J = 1$ dan $J = 10$, dalam eV? ($B = 3{,}84 \times 10^{-23}$ J) ||| $4{,}8 \times 10^{-4}$ eV; 0,026 eV
+@nacl Molekul NaCl berfasa gas memiliki panjang ikatan 236 pm. Hitung massa tereduksi dan tetapan rotasinya dalam cm⁻¹. ||| 13,9 u; 0,22 cm⁻¹
+Di mana letak garis $J = 3 \to 4$ dalam spektrum rotasi HCl ($B = 10{,}58$ cm⁻¹)? ||| 84,6 cm⁻¹
+@@PEMBAHASAN
+**Soal {{tangga}}.** Gaya pada tangga: berat 147 N di tengahnya, gaya normal lantai $N$ dan gesekan $f$ di kaki tangga, dan gaya mendatar dinding $N_d$ di puncaknya (dinding licin, jadi tanpa gesekan). Pilih titik putar di kaki tangga, sehingga $N$ dan $f$ hilang dari persamaan torsi. Lengan berat terhadap kaki tangga $2{,}5\cos 60°$; lengan $N_d$ adalah tinggi puncak, $5{,}0\sin 60°$:
+
+$$
+N_d(5{,}0\sin 60°) = (147)(2{,}5\cos 60°) \quad\Longrightarrow\quad N_d = \frac{183{,}8}{4{,}33} = 42\ \text{N}.
+$$
+
+Dari $\sum F_x = 0$: $f = N_d = 42$ N. Dari $\sum F_y = 0$: $N = 147$ N. Jadi $\mu_s \ge \dfrac{42}{147} = 0{,}29$.
+
+*Cara berpikir:* tanpa syarat torsi, soal ini tidak dapat diselesaikan: ada tiga gaya yang tidak diketahui, dan hukum Newton untuk gerak lurus hanya memberi dua persamaan. Syarat torsi memberi persamaan ketiga. Makin landai tangga, makin besar gesekan yang diperlukan; itu sebabnya tangga yang terlalu miring tergelincir.
+
+**Soal {{nacl}}.** $\mu = \dfrac{(22{,}99)(34{,}97)}{57{,}96} = 13{,}87$ u $= 2{,}303 \times 10^{-26}$ kg. $I = \mu r^2 = 1{,}283 \times 10^{-45}$ kg·m².
+
+$$
+B = \frac{\hbar^2}{2I} = 4{,}33 \times 10^{-24}\ \text{J}, \qquad \frac{B}{hc} = 0{,}22\ \text{cm}^{-1}.
+$$
+
+*Cara berpikir:* atom berat dan ikatan panjang membuat momen inersia besar, sehingga tingkat rotasinya sangat rapat: garis $J = 0 \to 1$ ada di 13 GHz. Tetapan rotasi molekul berkisar dari 61 cm⁻¹ (H₂) sampai di bawah 0,1 cm⁻¹ untuk molekul besar.

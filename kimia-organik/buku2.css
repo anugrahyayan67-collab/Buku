@@ -1,0 +1,35 @@
+/* tambahan khusus edisi 2 (buku utuh) */
+h1.depan { font-size: 24pt; font-weight: 800; color: var(--tua); border-bottom: 3px solid var(--biru); padding: 8mm 0 3mm 0; margin-bottom: 9mm; text-transform: uppercase; letter-spacing: .5px; }
+.depan-isi h2 { font-size: 13pt; color: var(--biru); margin-top: 7mm; }
+/* daftar isi */
+.toc h1, .indeks h1 { font-size: 24pt; font-weight: 800; color: var(--tua); border-bottom: 3px solid var(--biru); padding: 8mm 0 3mm 0; margin-bottom: 8mm; text-transform: uppercase; }
+.toc { font-family: "Inter","Liberation Sans",sans-serif; font-size: 9.6pt; }
+.toc .r { display:flex; align-items:baseline; margin: 1.1mm 0; }
+.toc .r .t { flex: 0 1 auto; padding-right: 2mm; }
+.toc .r .d { flex: 1 1 auto; border-bottom: 1px dotted #9aa; margin: 0 1.5mm; transform: translateY(-1mm); }
+.toc .r .p { flex: 0 0 auto; font-weight: 600; min-width: 8mm; text-align:right; }
+.toc .bab { margin-top: 5mm; font-size: 11.6pt; font-weight: 800; color: var(--tua); break-after: avoid; }
+.toc .bab .no { display:inline-block; background: var(--biru); color:#fff; border-radius: 1.5mm; min-width: 9mm; text-align:center; margin-right: 3mm; padding: .3mm 1.5mm; }
+.toc .sub { padding-left: 12mm; }
+.toc .sub .t b { color: var(--biru); font-weight: 700; display:inline-block; min-width: 10mm; }
+.toc .akhir { padding-left: 12mm; color: #666; font-style: italic; }
+.toc .ringkas .r { margin: 2.6mm 0; font-size: 11.5pt; font-weight: 700; color: var(--tua); }
+.toc .ringkas .r .no { display:inline-block; background: var(--biru); color:#fff; border-radius: 1.5mm; min-width: 9mm; text-align:center; margin-right: 3mm; }
+.toc .bagianbuku { margin-top: 7mm; font-size: 8.5pt; letter-spacing: 2px; color: var(--hangat); font-weight: 800; text-transform: uppercase; border-bottom: 1px solid #e3c7b4; padding-bottom: 1mm; }
+/* indeks */
+.indeks .kol { column-count: 2; column-gap: 9mm; font-family: "Inter","Liberation Sans",sans-serif; font-size: 8.6pt; line-height: 1.38; text-align:left; }
+.indeks .kol p { margin: 0 0 .5mm 0; break-inside: avoid; padding-left: 4mm; text-indent: -4mm; }
+.indeks .kol .huruf { font-size: 13pt; font-weight: 800; color: #fff; background: var(--biru); display:inline-block; padding: 0 2.5mm; border-radius: 1.2mm; margin: 4mm 0 1.5mm 0; text-indent: 0; }
+.indeks .kol b { color: var(--tua); font-weight: 600; }
+.indeks .catatan { font-size: 9pt; color:#555; margin-bottom: 5mm; }
+/* halaman judul */
+.judul-hal { height: 250mm; display:flex; flex-direction:column; justify-content:space-between; font-family:"Inter",sans-serif; }
+.judul-hal .atas { border-left: 3mm solid var(--biru); padding-left: 10mm; margin-top: 25mm; }
+.judul-hal .j { font-size: 46pt; font-weight: 800; color: var(--tua); letter-spacing: -1px; line-height: 1; }
+.judul-hal .s { font-size: 15pt; color: var(--biru); font-weight: 600; margin-top: 6mm; }
+.judul-hal .e { display:inline-block; margin-top: 12mm; background: var(--hangat); color:#fff; font-weight: 800; letter-spacing: 3px; font-size: 10pt; padding: 1.5mm 4mm; border-radius: 1mm; }
+.judul-hal .bawah { border-top: 1px solid var(--garis); }
+.ket { font-family:"Inter",sans-serif; font-size: 8.6pt; color:#444; height: 250mm; display:flex; flex-direction:column; justify-content:flex-end; text-align:left; line-height: 1.6; }
+.ket b { color: var(--tua); }
+.kosong { height: 1px; }
+.halaman { break-after: page; }

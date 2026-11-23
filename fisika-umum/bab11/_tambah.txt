@@ -1,0 +1,39 @@
+@@RINGKASAN
+| Persamaan Clapeyron | $dp/dT = \Delta H/(T\,\Delta V)$ | 11.11 |
+| Clausius–Clapeyron | $\ln(p_2/p_1) = -(\Delta H_\text{uap}/R)(1/T_2 - 1/T_1)$ | 11.11 |
+| Energi bebas dan konsentrasi | $\Delta G = \Delta G^\circ + RT\ln Q$; $\ \mu = \mu^\circ + RT\ln(c/c^\circ)$ | 11.12 |
+| Persamaan van 't Hoff | $\ln(K_2/K_1) = -(\Delta H^\circ/R)(1/T_2 - 1/T_1)$ | 11.12 |
+| Sifat koligatif | $K_b = RT_b^2M_A/\Delta H_\text{uap}$, $\ K_f = RT_f^2M_A/\Delta H_\text{lebur}$; Raoult $p = x_Ap^*$ | 11.12 |
+@@KUIS
+**11.11** Titik tripel CO₂ berada pada 5,11 atm. Di bawah tekanan itu, CO₂ cair tidak mantap pada suhu berapa pun; padatnya langsung menyublim. **11.12** Mungkin, jika $Q$ jauh lebih kecil daripada $K$, misalnya ketika hasil reaksi terus diambil dari campuran, sehingga $\Delta G = \Delta G^\circ + RT\ln Q$ tetap negatif.
+@@PERTANYAAN
+Mengapa garis lebur air pada diagram fasa miring ke kiri, sedangkan pada kebanyakan zat miring ke kanan?
+Mengapa air mendidih pada suhu lebih rendah di pegunungan? Mengapa itu menyulitkan memasak?
+Mengapa persamaan Clausius–Clapeyron, persamaan Arrhenius, dan persamaan van 't Hoff memiliki bentuk yang sama?
+Apa beda $\Delta G$ dan $\Delta G^\circ$? Mana yang menentukan arah reaksi dalam sel hidup?
+Mengapa garam yang ditaburkan di jalan bersalju mencairkan es?
+@@SOAL
+## Subbab 11.11: Kesetimbangan fasa
+Dengan $\Delta H_\text{uap} = 40{,}7$ kJ/mol, hitung tekanan uap air pada 80 °C. ||| 48 kPa
+Tekanan udara di Bandung sekitar 92 kPa. Pada suhu berapa air mendidih di sana? ||| 97 °C
+Pada suhu berapa air mendidih dalam panci presto bertekanan mutlak 1,5 atm? ||| 112 °C
+Tekanan uap benzena 10,0 kPa pada 20 °C dan 24,4 kPa pada 40 °C. Berapa kalor uapnya? ||| 34 kJ/mol
+@aseton Aseton mendidih pada 56 °C dengan $\Delta H_\text{uap} = 29{,}1$ kJ/mol. Taksir tekanan uapnya pada 20 °C. ||| 27 kPa
+Berapa penurunan titik lebur es pada tekanan 1000 atm? ||| 7,5 K
+Titik tripel CO₂ pada 216,6 K dan 518 kPa, dengan $\Delta H_\text{sublimasi} = 26{,}1$ kJ/mol. Taksir suhu sublimasi es kering pada 1 atm. ||| 195 K (−78 °C)
+## Subbab 11.12: Energi bebas, konsentrasi, dan kesetimbangan
+Hitung $K_f$ benzena ($T_f = 278{,}7$ K; $\Delta H_\text{lebur} = 9{,}87$ kJ/mol; 78,11 g/mol). ||| 5,1 K·kg/mol
+Hitung $K_b$ etanol ($T_b = 351{,}4$ K; $\Delta H_\text{uap} = 38{,}6$ kJ/mol; 46,07 g/mol). ||| 1,2 K·kg/mol
+Suatu reaksi memiliki $\Delta G^\circ = -20$ kJ/mol. Berapa $\Delta G$ pada 298 K jika $Q = 100$? ||| −8,6 kJ/mol
+Tetapan kesetimbangan reaksi endoterm ($\Delta H^\circ = +40$ kJ/mol) adalah $1{,}0 \times 10^3$ pada 298 K. Berapa nilainya pada 350 K? ||| $1{,}1 \times 10^4$
+Tetapan kesetimbangan suatu reaksi menjadi dua kali ketika suhu naik dari 300 K ke 310 K. Berapa $\Delta H^\circ$-nya? ||| +54 kJ/mol
+Sebanyak 0,50 mol glukosa dilarutkan dalam 500 g air pada 25 °C (tekanan uap air murni 3,17 kPa). Berapa tekanan uap larutan? ||| 3,11 kPa
+Untuk reaksi dengan $\Delta G^\circ = +10$ kJ/mol pada 298 K, pada nilai $Q$ berapa $\Delta G$ menjadi nol? ||| 0,018
+@@PEMBAHASAN
+**Soal {{aseton}}.** Titik didih normal berarti tekanan uap 101,3 kPa pada 329,2 K. Dari (11.n2):
+
+$$
+p = (101{,}3\ \text{kPa})\exp\left[-\frac{29\,100}{8{,}314}\left(\frac1{293{,}15} - \frac1{329{,}15}\right)\right] = (101{,}3)e^{-1{,}306} = 27\ \text{kPa}.
+$$
+
+*Cara berpikir:* titik didih normal adalah satu titik data yang selalu tersedia pada garis tekanan uap. Nilai terukur pada 20 °C sekitar 24,6 kPa; selisihnya karena $\Delta H_\text{uap}$ sedikit lebih besar pada suhu rendah. Tekanan uap aseton yang tinggi, seperempat atmosfer pada suhu kamar, menjelaskan mengapa ia menguap begitu cepat dan baunya begitu kuat.

@@ -1,0 +1,263 @@
+## Subbab 7.1: Masalah gaya sentral
+
+> Gunakan satuan atom kecuali dinyatakan lain ($a_0 = 52{,}918$ pm, $E_h = 27{,}211$ eV $= 2625{,}5$ kJ/mol). Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab.
+
+**Dasar**
+
+Berapa energi potensial elektron pada jarak 0,5 bohr dari proton, dalam hartree dan eV? ||| $-2\ E_h = -54{,}4$ eV
+Nyatakan 1 hartree dalam kJ/mol dan cm⁻¹. ||| 2625,5 kJ/mol; 219 475 cm⁻¹
+Nyatakan $E = -0{,}125\ E_h$ dalam eV dan kJ/mol. ||| $-3{,}40$ eV; $-328$ kJ/mol
+
+**Menengah**
+
+Hitung perbandingan tarikan gravitasi dan tarikan Coulomb antara proton dan elektron. ||| $4{,}4 \times 10^{-40}$
+Satuan waktu atom adalah $\hbar/E_h = 2{,}419 \times 10^{-17}$ s. Berapa periode "orbit" 1s, $2\pi$ satuan waktu, dalam attodetik? ||| 152 as
+@taksir [P] Dengan $E(r) \approx 1/2r^2 - Z/r$, taksir jari-jari dan energi keadaan dasar ion mirip hidrogen bermuatan $Z$. ||| $r = 1/Z$; $E = -Z^2/2$
+
+Hitung energi ionisasi (eV) dan jari-jari Bohr (pm) atom "muonium", yaitu elektron yang mengorbit muon positif ($m_\mu = 206{,}77\,m_e$). ||| 13,54 eV; 53,17 pm
+
+**Tantangan ★**
+
+★ Mengapa taksiran asas ketidakpastian di atas memberi hasil eksak untuk hidrogen? Apakah itu juga terjadi untuk osilator harmonik dengan $E(x) = 1/2x^2 + x^2/2$? ||| kebetulan faktor numerik; osilator: $x = 1$, $E = 1$ (eksak $\tfrac12$), tidak eksak
+
+## Subbab 7.2: Pemisahan variabel
+
+**Dasar**
+
+Tunjukkan bahwa dengan $u = rR$, $\tfrac{1}{r^2}\tfrac{d}{dr}\left(r^2\tfrac{dR}{dr}\right) = \tfrac1r\tfrac{d^2u}{dr^2}$. ||| langsung
+Berapa banyak orbital (tanpa spin) dengan $n = 5$? ||| 25
+Apakah $\psi = e^{-r} + (2 - r)e^{-r/2}$ keadaan stasioner? ||| tidak; campuran dua energi berbeda
+
+**Menengah**
+
+Periksa bahwa $\psi = (2 - r)e^{-r/2}$ memenuhi (7.3) dengan $Z = 1$ dan tentukan $E$. ||| $E = -\tfrac18$
+Tentukan minimum potensial efektif untuk $\ell = 1$, $Z = 1$. ||| $r = 2$; $V_\text{ef} = -\tfrac14$
+Tunjukkan bahwa penyelesaian $u \propto r^{-\ell}$ untuk $\ell = 1$ tidak dapat dinormalisasi di dekat inti. ||| $\int u^2dr = \int r^{-2}dr$ divergen di 0
+
+Berapa banyak keadaan ruang (tanpa spin) dengan $n = 5$? Berapa di antaranya yang mempunyai $\ell = 3$? ||| 25; 7
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa minimum $V_\text{ef}$ untuk $\ell$ umum terletak di $r = \ell(\ell + 1)/Z$ dengan nilai $-Z^2/2\ell(\ell + 1)$, dan bahwa tingkat terendah $E_{\ell+1}$ selalu di atasnya. ||| $-Z^2/2(\ell+1)^2 > -Z^2/2\ell(\ell+1)$
+
+## Subbab 7.3: Persamaan radial dan penyelesaiannya
+
+**Dasar**
+
+Berapa derajat polinom $f$ untuk 4d dan 5f? ||| 1; 1
+Untuk $Z = 2$ dan $n = 4$, berapa $\kappa$ dan $E$? ||| $\kappa = \tfrac12$; $E = -\tfrac18$
+Tuliskan $u$ (tanpa normalisasi) untuk 3d dari (7.7). ||| $u = r^3e^{-r/3}$
+
+**Menengah**
+
+@rek3s [P] Dengan rekursi (7.9), bangun $f$ untuk $n = 3$, $\ell = 0$, dan tunjukkan bahwa $R_{30} \propto (27 - 18r + 2r^2)e^{-r/3}$. ||| $f = 1 - \tfrac23r + \tfrac{2}{27}r^2$
+Apakah ada keadaan terikat hidrogen dengan $E = -0{,}3$ hartree? ||| tidak: $n = 1/\kappa = 1{,}29$ bukan bulat
+Tunjukkan bahwa untuk $k$ besar, $a_{k+1}/a_k \to 2\kappa/k$ sama dengan perbandingan koefisien deret $e^{2\kappa r}$. ||| $(2\kappa)^{k+1}/(k+1)! \div (2\kappa)^k/k!$
+
+Normalkan $R_{21} = N\,r\,e^{-r/2}$ (satuan bohr). ||| $N = 1/(2\sqrt6)$
+
+**Tantangan ★**
+
+★ Periksa (7.8) untuk 1s ($\ell = 0$, $\kappa = 1$, $f = 1$) dan tunjukkan bahwa ia memaksa $Z = 1$. ||| $2[Z - 1] = 0$
+
+## Subbab 7.4: Tingkat energi dan degenerasi
+
+**Dasar**
+
+Hitung $E_n$ hidrogen (eV, dengan massa tereduksi) untuk $n = 1$ sampai 4. ||| $-13{,}598$; $-3{,}400$; $-1{,}511$; $-0{,}850$
+Berapa panjang gelombang batas deret Balmer dan Lyman (vakum)? ||| 364,7 nm; 91,18 nm
+Berapa degenerasi tingkat $n = 5$ bila spin diperhitungkan? ||| 50
+
+**Menengah**
+
+Hitung panjang gelombang Brackett-α ($5 \to 4$). ||| 4052 nm
+Berapa selisih energi ionisasi D dan H (meV)? ||| 3,7 meV
+Pada $n$ berapa transisi $n \to n - 1$ hidrogen jatuh di 10 GHz? ||| $n \approx 87$
+
+Hitung panjang gelombang (vakum) garis Lyman α ($2 \to 1$) untuk H dan D. Berapa selisihnya? ||| 121,568 nm; 121,535 nm; 0,033 nm
+Tritium mempunyai inti bermassa $5496{,}9\,m_e$. Hitung konstanta Rydberg-nya dan panjang gelombang H$_\alpha$-nya (vakum). ||| 109 717,4 cm⁻¹; 656,231 nm
+
+**Tantangan ★**
+
+★ Hitung frekuensi transisi 1s → 2s (diukur dengan spektroskopi dua foton) menurut (7.11). Nilai terukur 2466,061 THz; dari mana selisihnya? ||| 2466,04 THz; struktur halus dan pergeseran Lamb
+
+## Subbab 7.5: Fungsi radial dan simpul
+
+**Dasar**
+
+Berapa simpul radial dan sudut orbital 4d? ||| 1; 2
+Di mana simpul radial 3p (bohr dan pm)? ||| 6 bohr = 317,5 pm
+Di mana simpul radial 2s He⁺? ||| 1 bohr
+
+**Menengah**
+
+Hitung $|\psi_{2s}(0)|^2/|\psi_{1s}(0)|^2$ untuk hidrogen. ||| $\tfrac18$
+Hitung $|\psi_{1s}(0)|^2$ He⁺ dibandingkan H. ||| 8 kali
+Periksa normalisasi $R_{10} = 2e^{-r}$. ||| $4\int r^2e^{-2r}dr = 1$
+
+**Tantangan ★**
+
+★ Fungsi radial 4s sebanding dengan $L_3^1(r/2)$. Tentukan ketiga simpul radialnya secara numerik. ||| 1,87; 6,61; 15,52 bohr
+
+## Subbab 7.6: Fungsi distribusi radial
+
+**Dasar**
+
+Berapa $r_\text{mp}$ untuk 3d dan 4f hidrogen? ||| 9 bohr (476 pm); 16 bohr
+Berapa $r_\text{mp}$ 1s He⁺? ||| 0,5 bohr
+Tunjukkan bahwa $P(r) = 4r^2e^{-2r}$ maksimum di $r = 1$. ||| $dP/dr = 0$
+
+**Menengah**
+
+Berapa peluang elektron 1s berada di dalam $r < 2$ bohr? Di luar $r > 3$ bohr? ||| 0,762; 0,062
+Berapa peluang elektron 2p berada di dalam $r_\text{mp} = 4$ bohr? ||| 0,371
+@mp3s [P] Tentukan jari-jari paling mungkin (puncak terbesar) 3s hidrogen. ||| 13,07 bohr
+
+Hitung peluang elektron 1s berada di luar $3a_0$. ||| 0,062
+Hitung peluang elektron 2p berada di dalam $a_0$, dengan $P(r < r_0) = 1 - e^{-x}(1 + x + x^2/2 + x^3/6 + x^4/24)$ dan $x = r_0/a_0$. ||| 0,0037
+
+**Tantangan ★**
+
+★ Mengapa $\langle r\rangle$ lebih besar daripada $r_\text{mp}$ untuk 1s? Apakah hal ini berlaku untuk setiap orbital? ||| ekor eksponensial panjang; ya untuk orbital tanpa simpul ($\langle r\rangle = n(n + \tfrac12)$ vs $n^2$)
+
+## Subbab 7.7: Orbital kompleks dan orbital riil
+
+**Dasar**
+
+Tuliskan $\psi_{2\text{p}_y}$ dalam koordinat Kartesius. ||| $\tfrac{1}{4\sqrt{2\pi}}\,y\,e^{-r/2}$
+Berapa $\langle L_z^2\rangle$ untuk elektron di $d_{xy}$? ||| $4\hbar^2$
+Apakah $d_{z^2}$ fungsi eigen $\hat L_z$? ||| ya, $m = 0$
+
+**Menengah**
+
+Nyatakan $p_{+1}$ dengan $p_x$ dan $p_y$. ||| $-(p_x + ip_y)/\sqrt2$
+Elektron dalam keadaan $(2\text{p}_x + 2\text{p}_z)/\sqrt2$. Berapa peluang hasil $L_z = +\hbar$, 0, dan $-\hbar$? ||| $\tfrac14$; $\tfrac12$; $\tfrac14$
+Tunjukkan bahwa $2\text{p}_x$ dan $2\text{p}_y$ ortogonal. ||| integral $\cos\phi\sin\phi$ atas $[0, 2\pi]$ nol
+
+Tunjukkan bahwa $d_{xy} \propto \sin^2\theta\sin2\phi$ adalah kombinasi $Y_2^{2}$ dan $Y_2^{-2}$. Kombinasi apa yang memberi $d_{x^2-y^2}$? ||| $d_{xy} \propto i(Y_2^{-2} - Y_2^{2})$; $d_{x^2-y^2} \propto Y_2^{2} + Y_2^{-2}$
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa $|p_{+1}|^2 + |p_{-1}|^2 = |p_x|^2 + |p_y|^2$. Apa makna fisisnya? ||| transformasi uniter mempertahankan rapat total
+
+## Subbab 7.8: Bentuk orbital s, p, d, f
+
+**Dasar**
+
+Di mana bidang simpul $d_{x^2-y^2}$? ||| bidang $x = y$ dan $x = -y$
+Berapa banyak bidang simpul $f_{xyz}$, dan bidang apa saja? ||| 3: $xy$, $xz$, $yz$
+Berapa banyak simpul total 5f? ||| 4 (1 radial, 3 sudut)
+
+**Menengah**
+
+Manakah yang tumpang tindihnya dengan orbital s pada sumbu $z$ dapat tidak nol: $p_z$, $d_{z^2}$, $d_{xy}$, $f_{z^3}$? ||| $p_z$, $d_{z^2}$, $f_{z^3}$
+Polinom kubik dalam $x$, $y$, $z$ ada 10. Mengapa hanya ada 7 orbital f? ||| 3 kombinasi ($r^2x$, $r^2y$, $r^2z$) adalah fungsi jenis p
+Tunjukkan bahwa $d_{xy}$ adalah $d_{x^2-y^2}$ yang diputar 45° terhadap sumbu $z$. ||| $\cos2(\phi - 45°) = \sin2\phi$
+
+Pada sudut $\theta$ berapa bagian sudut orbital $f_{z^3} \propto 5\cos^3\theta - 3\cos\theta$ bernilai nol? ||| 39,2°; 90°; 140,8°
+
+**Tantangan ★**
+
+★ Pada bidang $xz$, sepanjang garis $\theta = 54{,}7°$, berapa nilai $d_{z^2}$? Apa nilainya sepanjang garis yang sama untuk $d_{xz}$? ||| 0 (simpul); tidak nol (maksimum sudutnya di 45°)
+
+## Subbab 7.9: Nilai harap dan teorema virial
+
+**Dasar**
+
+Hitung $\langle r\rangle$ untuk 3s dan 3p. ||| 13,5; 12,5 bohr
+Hitung $\langle T\rangle$ dan $\langle V\rangle$ untuk $n = 3$ (eV). ||| 1,51; $-3{,}02$ eV
+Hitung $\langle r\rangle$ 1s He⁺. ||| 0,75 bohr = 39,7 pm
+
+**Menengah**
+
+Hitung $\langle 1/r\rangle$ untuk 1s langsung dari $R_{10}$. ||| $4\int re^{-2r}dr = 1$
+Hitung $\langle r^2\rangle$ dan $\Delta r$ untuk 2p. ||| 30; 2,24 bohr
+@virial [P] Hitung $\langle 1/r^2\rangle$ untuk 1s langsung dan bandingkan dengan (7.17). Dari $\langle p^2\rangle = 2\langle T\rangle$, berapa kecepatan rms elektron 1s (m/s)? ||| 2; $2{,}19 \times 10^6$ m/s
+
+Hitung $\langle r\rangle$ dan $\Delta r$ untuk orbital 4f. Bandingkan $\langle r\rangle$ dengan 4s. ||| 18; 6,0; 4s: 24
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa $\langle r\rangle = n(n + \tfrac12)$ untuk orbital tanpa simpul radial ($\ell = n - 1$), sedangkan $r_\text{mp} = n^2$. ||| dari (7.17) dan (7.15)
+
+## Subbab 7.10: Atom mirip hidrogen
+
+**Dasar**
+
+Berapa energi tingkat $n = 1$ dan $n = 2$ He⁺ (eV)? ||| $-54{,}4$; $-13{,}6$
+Berapa $r_\text{mp}$ 1s Li²⁺ (pm)? ||| 17,6 pm
+Berapa energi ionisasi Be³⁺? ||| 217,7 eV
+
+**Menengah**
+
+Perkirakan energi Kα nikel ($Z = 28$). Nilai terukur 7,48 keV. ||| 7,44 keV
+Garis Kα suatu unsur di 5,41 keV. Unsur apa? ||| $Z = 24$, kromium
+Hitung panjang gelombang He⁺ $3 \to 2$. ||| 164,1 nm
+
+Berapa energi ionisasi Li²⁺ (eV), termasuk koreksi massa tereduksi ($M = 12\,786\,m_e$)? ||| 122,44 eV
+Hitung jari-jari orbit (μm) dan energi ikat (meV) atom Rydberg hidrogen dengan $n = 50$. ||| 0,132 μm; 5,44 meV
+
+**Tantangan ★**
+
+★ Tingkat $n = 2$ He⁺ berenergi sama dengan 1s H. Apa akibatnya bagi tumbukan He²⁺ dengan atom H? ||| perpindahan elektron resonan H(1s) → He⁺($n = 2$) sangat efisien
+
+## Subbab 7.11: Spektrum hidrogen dan aturan seleksi
+
+**Dasar**
+
+Ke keadaan mana saja elektron 4d boleh meluruh dengan satu foton? ||| 2p, 3p (dan 4p, tetapi berenergi sama)
+Pada suhu kamar, deret mana yang tampak dalam spektrum serapan gas hidrogen atomik? ||| Lyman (dari 1s)
+Mengapa transisi 3s → 1s terlarang? ||| $\Delta\ell = 0$
+
+**Menengah**
+
+@radial [P] Hitung $\int_0^\infty R_{10}R_{21}r^3dr$ dan dari situ $\langle 1s|z|2p_0\rangle$. ||| 1,290; $0{,}745\,a_0$
+Keadaan 3p hidup 5,4 ns. Berapa lebar alami garis yang dipancarkannya (MHz)? ||| 29 MHz
+Dengan unsur matriks dipol yang sama, berapa kali lebih lambat transisi di 600 nm dibandingkan di 121,6 nm? ||| $(600/121{,}6)^3 = 120$
+
+Hitung batas deret Paschen dan panjang gelombang garis Brackett α ($5 \to 4$). ||| 820,6 nm; 4,05 μm
+
+**Tantangan ★**
+
+★ Mengapa keadaan 2s praktis tidak meluruh ke 2p, meskipun $\Delta\ell = 1$ diizinkan? ||| $\omega$ sangat kecil (1 GHz); $A \propto \omega^3$ sekitar $10^{-9}$ s⁻¹
+
+## Subbab 7.12: Efek Zeeman
+
+**Dasar**
+
+Berapa $\mu_BB$ dalam cm⁻¹ untuk $B = 0{,}50$ T? ||| 0,233 cm⁻¹
+Berapa frekuensi Larmor orbital dalam 1,5 T? ||| 21,0 GHz
+Tingkat 4f terpecah menjadi berapa tingkat dalam medan magnet (tanpa spin)? ||| 7
+
+**Menengah**
+
+Hitung pemecahan panjang gelombang Lyman-α (121,57 nm) dalam medan 5,0 T. ||| 0,0035 nm
+Bagaimana polarisasi garis $\Delta m = 0$ bila diamati tegak lurus medan? ||| linear, sejajar medan
+Mengapa garis D natrium tidak menunjukkan triplet Zeeman normal? ||| spin elektron (efek Zeeman anomal)
+
+Berapa medan magnet yang diperlukan agar pemecahan Zeeman normal sama dengan $k_BT$ pada 4 K? ||| 5,95 T
+Spektrometer ESR pita X bekerja pada 9,5 GHz. Berapa medan resonansi untuk elektron bebas ($g = 2{,}0023$, $\Delta E = g\mu_BB$)? ||| 0,339 T
+
+**Tantangan ★**
+
+★ Dalam medan 10 T dan suhu 4 K, hitung perbandingan populasi tingkat $m = +1$ terhadap $m = 0$ suatu tingkat p. ||| 0,19
+
+## Subbab 7.13: Penyelesaian numerik persamaan radial
+
+**Dasar**
+
+Bagaimana program subbab 7.13 diubah untuk He⁺? Berapa $E_{1s}$ yang seharusnya keluar? ||| `V = -2 / r`; $-2$ hartree
+Mengapa integrasi dimulai dengan $u = r^{\ell+1}$? ||| perilaku penyelesaian yang dapat diterima di dekat inti
+Bila $h$ dibuat dua kali lebih besar (0,016), berapa kira-kira galat 1s? ||| $\approx 1 \times 10^{-3}$ hartree
+
+**Menengah**
+
+Hidrogen dikurung dalam bola berjari-jari 6 bohr. Berapa energi keadaan p terendah? (Petunjuk: simpul 3p.) ||| $-\tfrac1{18} = -0{,}0556$ hartree
+Apa keuntungan kisi logaritmik $r = e^x$ untuk persamaan radial? ||| rapat di dekat inti, renggang di luar
+Dalam model litium, apa yang terjadi pada energi 2s bila $\alpha$ diperbesar? ||| naik (penyaringan lebih efektif, menuju hidrogen)
+
+(Python) Ubah program Contoh 7.58 untuk mencari energi 2s ($E$ antara $-0{,}2$ dan $-0{,}1$). ||| $-0{,}125$ hartree
+
+**Tantangan ★**
+
+@yukawa [P] ★ Dalam plasma, potensial proton disaring: $V = -e^{-r/\lambda}/r$ (potensial Debye–Yukawa). Hitung energi 1s untuk $\lambda = 100$, 10, 5, 2, dan 1 bohr. ||| $-0{,}490$; $-0{,}407$; $-0{,}327$; $-0{,}148$; $-0{,}010$

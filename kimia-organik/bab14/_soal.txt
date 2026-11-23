@@ -1,0 +1,114 @@
+## Subbab 14.1: Spektroskopi dan spektrum elektromagnetik
+
+> Tetapan: *h* = 6,626 × 10⁻³⁴ J s; *c* = 2,998 × 10⁸ m s⁻¹; *N*ₐ = 6,022 × 10²³ mol⁻¹. Massa eksak: ¹H 1,00783; ¹²C 12,00000; ¹⁴N 14,00307; ¹⁶O 15,99491. Kelimpahan: ¹³C 1,1%; ³⁵Cl : ³⁷Cl = 75,76 : 24,24; ⁷⁹Br : ⁸¹Br = 50,69 : 49,31. Soal bertanda **[P]** dibahas di akhir bab.
+
+Ubah ke panjang gelombang (μm): (a) 1715 cm⁻¹; (b) 3300 cm⁻¹; (c) 650 cm⁻¹. ||| (a) 5,83 μm; (b) 3,03 μm; (c) 15,4 μm
+@energi [P] Hitung energi per mol foton IR pada 3000 cm⁻¹ dan foton UV pada 250 nm. Mengapa UV dapat merusak DNA sedangkan IR tidak? ||| 35,9 dan 479 kJ mol⁻¹; UV sebanding dengan energi ikatan, IR jauh di bawahnya
+Urutkan energi: foton radio NMR, foton IR, foton tampak, foton UV. ||| UV > tampak > IR > radio
+Perubahan apa dalam molekul yang disebabkan oleh penyerapan IR, UV–Vis, dan gelombang radio dalam medan magnet? ||| getaran; elektron (π → π*); spin inti
+Mengapa pita IR digambar sebagai lembah ke bawah? ||| sumbu tegak % transmitansi; serapan mengurangi transmitansi
+Mengapa spektroskopi IR tidak merusak sampel? ||| energi foton jauh lebih kecil daripada energi ikatan
+
+Hitung bilangan gelombang foton dengan energi 20 kJ mol⁻¹. ||| ±1670 cm⁻¹
+Mengapa CO₂ dan H₂O disebut gas rumah kaca? ||| menyerap IR yang dipancarkan bumi karena getarannya mengubah momen dipol
+
+## Subbab 14.2: Getaran molekul dan pita IR
+
+@hooke [P] Hitung bilangan gelombang regang C–H (k = 500 N m⁻¹) dan C–D. Mengapa deuterasi dipakai untuk mengenali pita? ||| ≈ 3021 dan 2218 cm⁻¹; rasio ≈ 1,36; pita yang bergeser berasal dari ikatan dengan H
+Urutkan bilangan gelombang regang: C–C, C=C, C≡C. Jelaskan. ||| C≡C > C=C > C–C; tetapan gaya makin besar
+Urutkan: C–H, O–H, C–O. Jelaskan dengan massa dan kekuatan. ||| O–H > C–H > C–O; ikatan dengan H ringan; C–O lebih berat
+Berapa jumlah getaran dasar untuk H₂O, CO₂, dan benzena? ||| 3; 4; 30
+Mengapa N₂ dan O₂ tidak menyerap IR, sedangkan CO₂ menyerap? ||| getaran N₂/O₂ tidak mengubah momen dipol; regang asimetris dan tekuk CO₂ mengubahnya
+Mengapa pita C=C pada trans-heks-3-ena sangat lemah? ||| regangan hampir tidak mengubah momen dipol (simetris)
+Mengapa tekukan muncul pada bilangan gelombang lebih rendah daripada regangan? ||| mengubah sudut lebih mudah daripada mengubah panjang ikatan (k lebih kecil)
+
+Hitung bilangan gelombang C≡N (k = 1800 N m⁻¹). ||| ±2170 cm⁻¹ (teramati ±2250)
+Mengapa O–D muncul sekitar 2600 cm⁻¹, bukan 3600? ||| massa tereduksi lebih besar; ν̃ turun sekitar 1/√2
+
+## Subbab 14.3: Daerah gugus fungsi
+
+Di mana pita khas: (a) O–H alkohol; (b) O–H asam karboksilat; (c) N–H amina primer; (d) ≡C–H; (e) C≡N; (f) C=O keton; (g) C–O eter? ||| (a) 3200–3550 lebar; (b) 2500–3300 sangat lebar; (c) 3300–3500, dua pita; (d) ±3300; (e) ±2250; (f) ±1715; (g) 1000–1300
+@lebar [P] Mengapa pita O–H alkohol lebar dalam cairan tetapi tajam dalam larutan encer CCl₄? ||| ikatan hidrogen dengan kekuatan beragam memberi banyak frekuensi; dalam larutan encer O–H bebas (±3620) tajam
+Mengapa garis 3000 cm⁻¹ berguna? ||| C–H di atas 3000: sp² atau sp; di bawah: sp³
+Mengapa amina primer memberi dua pita N–H, sekunder satu, tersier tidak ada? ||| –NH₂: regang simetris dan asimetris; –NH–: satu; tanpa N–H
+@co [P] Jelaskan mengapa C=O amida (±1650) lebih rendah daripada keton (1715), dan klorida asam (±1800) lebih tinggi. ||| resonansi N membuat C=O lebih tunggal; Cl menarik elektron induktif, C=O lebih rangkap
+Mengapa siklobutanon menyerap C=O pada ±1780 cm⁻¹? ||| tegangan cincin menaikkan bilangan gelombang C=O
+Mengapa pita C=O asetofenon (1685) lebih rendah daripada aseton (1715)? ||| konjugasi dengan cincin melemahkan C=O
+Pita apa yang membedakan aldehida dari keton? ||| dua pita C–H aldehida ±2720 dan ±2820 cm⁻¹
+Mengapa but-2-una hampir tidak menunjukkan pita C≡C? ||| simetris, regangan tidak mengubah momen dipol
+Mengapa anhidrida memberi dua pita C=O? ||| dua C=O bergetar sefase (simetris) dan berlawanan fase (asimetris)
+
+Senyawa C₇H₆O memberi C=O 1700, pita 2720 dan 2820, dan pita aromatik. Struktur? ||| benzaldehida
+Di mana pita C=O metil benzoat, dan mengapa lebih rendah daripada etil asetat? ||| ±1725; konjugasi dengan cincin
+
+## Subbab 14.4: Membaca spektrum IR
+
+Sebuah senyawa C₅H₁₀O: pita kuat 1715, tidak ada pita di 2700–2850 selain C–H biasa, C–H hanya di bawah 3000. Golongan apa? Sebutkan tiga isomer. ||| keton; pentan-2-on, pentan-3-on, 3-metilbutan-2-on
+@ir [P] Senyawa C₄H₈O memberi pita lebar 3350, C=C 1645, dan C–H di atas dan di bawah 3000 cm⁻¹, tanpa C=O. Usulkan struktur. ||| alkohol tak jenuh, misalnya but-3-en-1-ol atau but-3-en-2-ol
+Bagaimana IR membedakan heksan-1-ol, heksanal, dan asam heksanoat? ||| O–H lebar tanpa C=O; C=O 1725 + C–H aldehida; O–H sangat lebar + C=O 1710
+Senyawa C₃H₅N memberi pita tajam 2250 cm⁻¹. Struktur? ||| propananitril, CH₃CH₂CN
+Senyawa C₈H₈ memberi C–H di atas 3000, pita 1630, 1600, 1490, dan pita kuat 990, 910, 770, 700 cm⁻¹. Struktur? ||| stirena (fenil-etena)
+Bagaimana memantau oksidasi sikloheksanol menjadi sikloheksanon dengan IR? ||| pita O–H 3350 hilang, pita C=O 1715 muncul
+Bagaimana memantau reduksi benzonitril dengan LiAlH₄ menjadi benzilamina? ||| pita C≡N 2230 hilang, dua pita N–H muncul
+Mengapa daerah sidik jari jarang dipakai untuk menafsirkan struktur dari nol? ||| pita bercampur dan rumit; berguna untuk mencocokkan dengan rujukan
+
+Senyawa C₄H₁₁N memberi dua pita tajam 3380 dan 3300 cm⁻¹. Apa yang dapat disimpulkan? ||| amina primer
+Bagaimana IR membedakan prop-2-en-1-ol dari propanal? ||| O–H lebar dan C=C vs C=O dan C–H aldehida
+
+## Subbab 14.5: Spektrometer massa: ionisasi dan ion molekul
+
+Apa yang terbentuk ketika molekul ditembak elektron 70 eV? ||| kation radikal M⁺· (ion molekul) dan fragmen
+Apa beda ion molekul dan puncak dasar? ||| ion molekul: massa M; puncak dasar: puncak tertinggi (relatif 100)
+Elektron mana yang paling mudah dilepas dari aseton? ||| pasangan bebas oksigen
+Mengapa ion molekul alkohol tersier sangat lemah? ||| cepat pecah (pemutusan α dan kehilangan air) menjadi kation stabil
+Mengapa ionisasi semprotan listrik (ESI) dipakai untuk protein? ||| ionisasi lembut, memberi [M+H]⁺ tanpa banyak fragmentasi
+Bagaimana penganalisis waktu terbang memisahkan ion? ||| ion ringan tiba lebih dulu
+
+## Subbab 14.6: Pola isotop: Cl, Br, puncak M+1, dan aturan nitrogen
+
+Ramalkan pola ion molekul: (a) CH₃Cl; (b) CH₃Br; (c) CH₂Br₂; (d) CHCl₃. ||| (a) 50/52, 3 : 1; (b) 94/96, 1 : 1; (c) 172/174/176, 1 : 2 : 1; (d) 118/120/122/124, ±100 : 96 : 31 : 3
+@isotop [P] Hitung perbandingan M : M+2 : M+4 untuk CH₂BrCl. ||| ±77 : 100 : 24
+Sebuah senyawa memberi M = 135 (ganjil). Apa yang dapat disimpulkan? ||| jumlah N ganjil
+Perbandingan M+1/M sebuah hidrokarbon 7,7%. Berapa karbon? ||| ±7 karbon
+Mengapa piridina (C₅H₅N) mempunyai M = 79? ||| satu N: massa ganjil (aturan nitrogen)
+Sebuah ion molekul 78 dan 80 dengan perbandingan 3 : 1 dan puncak dasar 43. Usulkan struktur. ||| 2-kloropropana atau 1-kloropropana (C₃H₇Cl); 43 = C₃H₇⁺
+Mengapa senyawa belerang memberi puncak M+2 sekitar 4–5%? ||| ³⁴S berlimpah 4,4%
+
+Hitung pola M : M+2 : M+4 : M+6 untuk CHBr₃. ||| ±34 : 100 : 97 : 32 (≈ 1 : 3 : 3 : 1)
+Apa arti puncak M+2 kecil (±4%) tanpa Cl atau Br? ||| kemungkinan mengandung belerang
+
+## Subbab 14.7: Fragmentasi khas
+
+Ramalkan puncak dasar: (a) 2-metilpropana; (b) toluena; (c) propan-1-amina; (d) aseton; (e) 2-metilpropan-2-ol. ||| (a) 43; (b) 91; (c) 30; (d) 43; (e) 59
+@frag [P] Mengapa puncak dasar toluena pada 91, bukan 92 (M)? Jelaskan dengan aromatisitas. ||| ion benzil menata ulang menjadi ion tropilium aromatik C₇H₇⁺ yang sangat stabil
+@mcl [P] Tulis mekanisme penataan ulang McLafferty heksan-2-on dan jelaskan mengapa puncaknya bermassa genap. ||| O⁺· mengambil H γ lewat cincin enam; Cα–Cβ putus; propena lepas; ion enol 58 adalah kation radikal (tanpa N → genap)
+Ramalkan dua pemutusan α butan-2-ol dan massa ionnya. ||| kehilangan C₂H₅ → 45; kehilangan CH₃ → 59
+Mengapa alkana rantai lurus memberi deretan puncak berselisih 14? ||| pemutusan C–C di berbagai tempat; selisih satu CH₂
+Bagaimana MS membedakan pentan-2-on dan pentan-3-on? ||| puncak dasar 43 (dan 58 McLafferty) lawan 57
+Ramalkan fragmen utama dietil eter (M = 74). ||| pemutusan α: CH₂=O⁺–C₂H₅ (59); juga 31, 29
+Ramalkan puncak McLafferty asam butanoat. ||| 60
+Mengapa ion molekul benzena sangat kuat? ||| cincin aromatik menstabilkan kation radikal
+Mengapa amina rantai panjang sering memberi puncak dasar 30? ||| pemutusan α memberi iminium CH₂=NH₂⁺
+
+Ramalkan puncak dasar 2,2-dimetilpropana dan jelaskan. ||| 57, kation tert-butil
+Mengapa ion fragmen yang terdeteksi selalu kation, bukan radikal? ||| hanya spesies bermuatan yang dipercepat dan dibelokkan
+
+## Subbab 14.8: Massa eksak dan rumus molekul
+
+Hitung massa eksak: (a) C₇H₈; (b) C₆H₄O; (c) C₅H₈O. ||| (a) 92,0626; (b) 92,0262; (c) 84,0575
+@eksak [P] Ion molekul pada m/z 72,0575. Pilih di antara C₃H₄O₂, C₄H₈O, dan C₅H₁₂, lalu hitung derajat ketidakjenuhan dan usulkan tiga isomer. ||| C₄H₈O; DoU 1; butanal, butanon, but-3-en-1-ol (atau THF)
+Mengapa massa eksak C₂H₄ (28,0313) lebih besar daripada CO (27,9949)? ||| H sedikit di atas 1; O sedikit di bawah 16
+Berapa ketelitian yang diperlukan untuk membedakan N₂ dan CO? ||| selisih 0,0112 u, sekitar 400 ppm
+Ion molekul 58,0419. Rumus? Derajat ketidakjenuhan? ||| C₃H₆O; 1
+Sebuah senyawa C, H, N memberi M = 59,0735. Usulkan rumus. ||| C₃H₉N (59,0735)
+
+## Subbab 14.9: Menggabungkan IR dan MS
+
+@gabung [P] Senyawa: MS 120 (kuat), 105 (dasar), 77; massa eksak 120,0575; IR 1685 cm⁻¹ dan pita aromatik. Tentukan struktur dan jelaskan setiap data. ||| asetofenon
+Senyawa: MS 136/138 (1 : 1), 57 (dasar); IR hanya C–H sp³. Tentukan. ||| C₄H₉Br; 57 = C₄H₉⁺ tert-butil: 2-bromo-2-metilpropana
+Senyawa: MS 88, 70 (M − 18), 45 (dasar); IR lebar 3350. C₅H₁₂O. Usulkan. ||| pentan-2-ol (α: CH₃CH=OH⁺ 45)
+Senyawa: MS 101 (ganjil), 86 (dasar), 58; IR tanpa N–H dan tanpa C=O. Usulkan. ||| amina tersier C₆H₁₅N, misalnya trietilamina (86 = M − CH₃, pemutusan α)
+Senyawa C₉H₁₀O: IR 1690; MS 134, 105 (dasar), 77. Usulkan. ||| propiofenon (1-fenilpropan-1-on)
+Senyawa C₄H₈O₂: IR 1740, 1240; MS 43 dasar. Usulkan. ||| etil asetat
+Senyawa: MS 106, 91 (dasar); IR C–H aromatik dan sp³, tanpa gugus fungsi lain. C₈H₁₀. Usulkan. ||| etilbenzena (atau xilena; 91 lebih khas untuk etilbenzena)
+Mengapa IR dan MS saling melengkapi? ||| MS: massa, rumus, halogen, N, fragmen; IR: gugus fungsi

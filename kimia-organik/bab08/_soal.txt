@@ -1,0 +1,144 @@
+## Subbab 8.1: Struktur, tata nama, dan kestabilan alkena
+
+> Kalor hidrogenasi (−ΔH°, kJ mol⁻¹): etena 137, propena 126, but-1-ena 127, cis-but-2-ena 120, 2-metilpropena 119, trans-but-2-ena 116, 2-metilbut-2-ena 113, 2,3-dimetilbut-2-ena 111. Soal bertanda **[P]** dibahas di akhir bab.
+
+Hitung derajat ketidakjenuhan: (a) C₆H₁₀; (b) C₈H₈; (c) C₅H₈Br₂; (d) C₄H₉N. ||| (a) 2; (b) 5; (c) 1; (d) 1
+Beri nama IUPAC lengkap (dengan E/Z bila perlu): (a) CH₃CH=C(CH₃)CH₂CH₃ dengan kedua metil di sisi yang sama; (b) CH₂=CHCH(CH₃)CH=CH₂; (c) (CH₃)₂C=CHCH₂C≡CH. ||| (a) (E)-3-metilpent-2-ena; (b) 3-metilpenta-1,4-diena; (c) 5-metilheks-4-en-1-una
+Urutkan kestabilan: heks-1-ena, (E)-heks-2-ena, (Z)-heks-2-ena, 2-metilpent-2-ena, 2,3-dimetilbut-2-ena. ||| 2,3-dimetilbut-2-ena > 2-metilpent-2-ena > (E)-heks-2-ena > (Z)-heks-2-ena > heks-1-ena
+Mengapa kalor hidrogenasi dapat dipakai untuk membandingkan kestabilan cis- dan trans-but-2-ena, tetapi tidak untuk membandingkan but-1-ena dengan 2-metilpropena secara langsung? ||| cis dan trans memberi produk sama (butana); but-1-ena memberi butana, 2-metilpropena memberi 2-metilpropana (energi berbeda)
+@kstab [P] Pakai kalor hidrogenasi untuk menghitung perbandingan kesetimbangan but-1-ena : trans-but-2-ena pada 25 °C (anggap ΔS° ≈ 0). Mengapa isomerisasi ini tetap tidak terjadi bila but-1-ena hanya disimpan dalam botol? ||| 1 : 85 (K ≈ 85, trans disukai); energi aktivasi tinggi, perlu katalis
+Jelaskan dua alasan gugus alkil menstabilkan ikatan rangkap. ||| hiperkonjugasi C–H dengan orbital π; ikatan sp²–sp³ lebih kuat daripada sp³–sp³
+Mengapa trans-sikloheksena tidak dapat diisolasi, sedangkan trans-siklodekena dapat? ||| rantai enam karbon terlalu pendek untuk menjangkau kedua sisi ikatan rangkap trans; cincin besar cukup lentur
+Ikatan rangkap pada 2-metilbut-2-ena dan pada 2,3-dimetilbut-2-ena sama-sama berada di tengah molekul. Mengapa yang kedua lebih stabil 2 kJ mol⁻¹? ||| tetrasubstitusi lawan trisubstitusi: satu gugus alkil lebih banyak pada C=C
+
+## Subbab 8.2: Membuat alkena: reaksi eliminasi
+
+Tulis produk utama: (a) 2-bromo-2-metilbutana + NaOEt, panas; (b) 2-bromo-2-metilbutana + KOC(CH₃)₃; (c) 1-bromobutana + KOC(CH₃)₃. ||| (a) 2-metilbut-2-ena; (b) 2-metilbut-1-ena; (c) but-1-ena
+Tulis produk utama dehidrasi dengan H₂SO₄ panas: (a) butan-2-ol; (b) 2-metilsikloheksanol; (c) pentan-3-ol. ||| (a) (E)-but-2-ena; (b) 1-metilsikloheksena; (c) (E)-pent-2-ena
+Urutkan kemudahan dehidrasi dan jelaskan: 2-metilpropan-2-ol, propan-2-ol, propan-1-ol. ||| tersier > sekunder > primer; kestabilan karbokation (langkah penentu laju)
+@dehid [P] 3-Metilbutan-2-ol dipanaskan dengan H₂SO₄ dan memberi 2-metilbut-2-ena sebagai produk utama. Tulis mekanismenya lengkap dan jelaskan mengapa 3-metilbut-1-ena hanya sedikit. ||| protonasi, lepas air (C⁺ sekunder), geseran hidrida (C⁺ tersier), lepas H⁺ (Zaitsev, trisubstitusi)
+Untuk hidrasi etena (gas), ΔH° = −45,4 kJ mol⁻¹ dan ΔS° = −125,4 J K⁻¹ mol⁻¹. Hitung ΔG° pada 150 °C. Ke arah mana kesetimbangan condong? ||| ΔG° = +7,6 kJ mol⁻¹; ke arah dehidrasi (etena + air)
+Mengapa alkena hasil dehidrasi didistilasi keluar dari campuran reaksi segera setelah terbentuk? ||| menggeser kesetimbangan ke kanan (Le Chatelier) dan mencegah adisi kembali atau polimerisasi
+Mengapa alkohol primer tidak terdehidrasi lewat E1? ||| karbokation primer terlalu tidak stabil; reaksi lewat jalur seperti E2 dari alkohol terprotonasi
+Usulkan cara membuat metilenasikloheksana (bukan 1-metilsikloheksena) dari bahan berkarbon tujuh. ||| (bromometil)sikloheksana + KOC(CH₃)₃; atau 1-bromo-1-metilsikloheksana + KOC(CH₃)₃ (Hofmann)
+
+## Subbab 8.3: Adisi elektrofilik HX: aturan Markovnikov dan karbokation
+
+Tulis produk utama: (a) propena + HI; (b) 2-metilbut-2-ena + HCl; (c) metilenasiklopentana + HBr; (d) 1-fenilpropena + HBr. ||| (a) 2-iodopropana; (b) 2-kloro-2-metilbutana; (c) 1-bromo-1-metilsiklopentana; (d) 1-bromo-1-fenilpropana
+Mengapa laju adisi HX naik dari HCl ke HI? ||| langkah lambat adalah protonasi; HI asam paling kuat
+@markov [P] Gambar diagram energi lengkap (dua langkah) adisi HBr pada propena. Tunjukkan mengapa 2-bromopropana yang terbentuk, memakai postulat Hammond. ||| keadaan transisi langkah 1 mirip karbokation; karbokation sekunder lebih stabil sehingga keadaan transisinya lebih rendah
+Adisi HBr pada (E)-pent-2-ena memberi dua produk. Sebutkan dan jelaskan mengapa perbandingannya mendekati 1 : 1. ||| 2-bromopentana dan 3-bromopentana; kedua karbokation sekunder, hampir sama stabil
+Apakah produk adisi HCl pada but-1-ena aktif optik? Jelaskan. ||| tidak; karbokation datar diserang dari dua sisi sama mungkin, rasemat
+Alkena mana yang paling cepat bereaksi dengan HBr: etena, propena, atau 2-metilpropena? Mengapa? ||| 2-metilpropena; karbokation tersier, keadaan transisi terendah
+Alkena apa (C₅H₁₀) yang dengan HCl memberi 2-kloro-2-metilbutana sebagai produk utama? Sebutkan semua kemungkinan. ||| 2-metilbut-1-ena dan 2-metilbut-2-ena (juga 3-metilbut-1-ena lewat penataan ulang)
+
+## Subbab 8.4: Penataan ulang dalam adisi
+
+Tulis mekanisme dan produk utama 3-metilbut-1-ena + HBr. ||| geseran hidrida; 2-bromo-2-metilbutana (plus 2-bromo-3-metilbutana)
+@vinil [P] Vinilsikloheksana bereaksi dengan HCl. Tulis mekanisme yang menjelaskan terbentuknya 1-kloro-1-etilsikloheksana. ||| H⁺ ke CH₂, C⁺ sekunder di samping cincin, geseran hidrida dari C cincin, C⁺ tersier, Cl⁻ menyerang
+3,3-Dimetilbut-1-ena + HI. Tulis produk utama dan produk tanpa penataan ulang. ||| 2-iodo-2,3-dimetilbutana (utama); 3-iodo-2,2-dimetilbutana
+Mengapa propena + HBr tidak pernah menghasilkan produk penataan ulang? ||| karbokation isopropil tidak bersebelahan dengan karbon yang dapat memberi C⁺ lebih stabil
+Isopropenilsiklobutana + HBr menghasilkan 1-bromo-2,2-dimetilsiklopentana. Jelaskan perluasan cincin ini. ||| C⁺ tersier di samping cincin empat; satu ikatan C–C cincin bergeser, cincin menjadi lima (tegangan berkurang), C⁺ sekunder di cincin lalu diserang Br⁻
+Sebutkan tiga tanda bahwa sebuah reaksi mungkin melibatkan penataan ulang karbokation. ||| kerangka karbon produk berbeda; reaksi lewat C⁺; ada C lebih tersubstitusi di sebelah C⁺
+
+## Subbab 8.5: Hidrasi: katalis asam dan oksimerkurasi–demerkurasi
+
+Tulis produk hidrasi katalis asam: (a) 2-metilpropena; (b) 1-metilsiklopentena; (c) 3-metilbut-1-ena. ||| (a) 2-metilpropan-2-ol; (b) 1-metilsiklopentanol; (c) 2-metilbutan-2-ol (penataan ulang)
+Tulis produk oksimerkurasi–demerkurasi: (a) 3-metilbut-1-ena; (b) heks-1-ena; (c) 1-metilsikloheksena. ||| (a) 3-metilbutan-2-ol; (b) heksan-2-ol; (c) 1-metilsikloheksanol
+@oksim [P] Jelaskan mengapa oksimerkurasi tidak mengalami penataan ulang, tetapi tetap Markovnikov. ||| ion merkurinium berjembatan, tanpa C⁺ bebas; C lebih tersubstitusi memikul δ+ lebih besar sehingga diserang air
+Tulis mekanisme hidrasi katalis asam 2-metilpropena, lengkap dengan semua transfer proton. ||| protonasi C=C → C⁺ tersier; H₂O menyerang; deprotonasi ion oksonium
+Apa produk 1-metilsikloheksena + Hg(OAc)₂ dalam metanol, lalu NaBH₄? ||| 1-metoksi-1-metilsikloheksana
+Prinsip reversibilitas mikroskopik menyatakan apa? Pakai untuk menulis mekanisme dehidrasi 2-metilpropan-2-ol. ||| jalur maju dan balik sama; protonasi OH, lepas air (C⁺), lepas H⁺
+
+## Subbab 8.6: Hidroborasi–oksidasi: anti-Markovnikov dan adisi syn
+
+Tulis produk hidroborasi–oksidasi: (a) 2-metilpropena; (b) 2-metilbut-2-ena; (c) metilenasiklopentana; (d) 3,3-dimetilbut-1-ena. ||| (a) 2-metilpropan-1-ol; (b) 3-metilbutan-2-ol; (c) siklopentilmetanol; (d) 3,3-dimetilbutan-1-ol
+Berikan dua alasan boron masuk ke karbon yang kurang tersubstitusi. ||| sterik (B lebih besar); δ+ dalam keadaan transisi lebih stabil di C yang lebih tersubstitusi
+@hb [P] 1-Metilsikloheksena diberi BD₃ (deuterium), lalu H₂O₂, NaOH. Tulis produk dengan stereokimia lengkap. ||| 2-deuterio-2-metilsikloheksan-1-ol: D cis terhadap OH, CH₃ trans terhadap OH; rasemat
+Mengapa oksidasi trialkilboran dengan H₂O₂ terjadi dengan retensi konfigurasi? ||| gugus alkil berpindah dari B ke O bersama pasangan elektronnya tanpa melepas karbon; O menempati posisi B
+Berapa mol alkena yang dapat bereaksi dengan 1 mol BH₃? ||| 3 mol (tiga ikatan B–H)
+Pilih pereaksi untuk mengubah 1-metilsikloheksena menjadi (a) 1-metilsikloheksanol; (b) trans-2-metilsikloheksanol. ||| (a) H₂O/H₂SO₄ atau Hg(OAc)₂/NaBH₄; (b) BH₃·THF lalu H₂O₂, NaOH
+Mengapa BH₃ murni tidak dipakai, melainkan BH₃·THF? ||| BH₃ berupa diboran, gas beracun yang menyala sendiri; THF menstabilkan boron yang kekurangan elektron
+
+## Subbab 8.7: Adisi halogen dan halohidrin: ion halonium dan adisi anti
+
+Tulis produk dengan stereokimia: (a) sikloheksena + Br₂; (b) (E)-pent-2-ena + Cl₂; (c) 1-metilsiklopentena + Br₂. ||| (a) trans-1,2-dibromosikloheksana (rasemat); (b) (2R,3S)+(2S,3R)-2,3-dikloropentana (rasemat); (c) trans-1,2-dibromo-1-metilsiklopentana (rasemat)
+Mengapa adisi bromin pada sikloheksena tidak menghasilkan isomer cis? ||| ion bromonium menutup satu sisi; Br⁻ menyerang dari belakang
+@meso [P] Tunjukkan dengan gambar ruang bahwa cis-but-2-ena + Br₂ menghasilkan campuran rasemat, bukan meso. ||| anti pada cis: (2R,3R) dan (2S,3S); tanpa bidang simetri
+Tulis produk propena + Cl₂ dalam air. Mengapa –OH berada di C2? ||| 1-kloropropan-2-ol; C2 memikul δ+ lebih besar pada ion kloronium
+Bromin dalam metanol bereaksi dengan sikloheksena. Apa produk utamanya? ||| trans-1-bromo-2-metoksisikloheksana
+Dua senyawa C₆H₁₂: satu menghilangkan warna bromin, satu tidak. Berikan contoh strukturnya. ||| heks-1-ena (bereaksi); sikloheksana (tidak)
+Sebuah bromohidrin dari sikloheksena diberi NaOH. Apa produknya, dan mengapa susunan anti diperlukan? ||| epoksida sikloheksena; O⁻ menyerang C–Br dari belakang (SN2 intramolekul)
+Bila Br₂ ditambahkan pada etena dalam larutan yang mengandung NaCl, diperoleh juga 1-bromo-2-kloroetana. Apa yang dibuktikan oleh hasil ini? ||| ada intermediet (ion bromonium) yang dapat diserang nukleofil lain; reaksi tidak serempak
+
+## Subbab 8.8: Hidrogenasi katalitik
+
+Tulis produk dengan stereokimia: (a) 1,2-dimetilsiklopentena + H₂, Pt; (b) 1,4-dimetilsikloheksena + H₂, Pd/C. ||| (a) cis-1,2-dimetilsiklopentana (meso); (b) campuran cis- dan trans-1,4-dimetilsikloheksana
+Sebuah senyawa C₆H₁₀ menyerap 1 mol H₂ menjadi C₆H₁₂ yang tidak bereaksi lagi. Berikan dua struktur yang mungkin. ||| sikloheksena; metilensiklopentana (atau 1-metilsiklopentena, dll.)
+Mengapa campuran alkena dan H₂ dapat disimpan tanpa bereaksi walaupun hidrogenasi sangat eksoterm? ||| energi aktivasi tinggi (H–H 436 kJ mol⁻¹); perlu katalis
+@trans [P] Jelaskan bagaimana hidrogenasi parsial minyak nabati dapat menghasilkan lemak trans, walaupun hidrogenasi adalah adisi syn. ||| adsorpsi, tambah satu H, lepas H lain, alkena lepas lagi; ikatan rangkap berpindah atau berubah menjadi trans yang lebih stabil
+Tulis produk sikloheks-2-en-1-on + H₂, Pd/C (1 ekuivalen). ||| sikloheksanon
+Berapa liter H₂ (25 °C, 1 atm, 24,47 L mol⁻¹) yang diserap 10,0 g limonena (C₁₀H₁₆) pada hidrogenasi penuh? ||| 0,147 mol H₂; 3,59 L
+α-Pinena dihidrogenasi dan H masuk hanya dari sisi yang jauh dari jembatan dimetil. Prinsip apa yang menjelaskannya? ||| alkena menempel pada katalis dengan sisi yang kurang terhalang
+
+## Subbab 8.9: Epoksidasi dan dihidroksilasi
+
+Tulis produk dengan stereokimia: (a) (Z)-but-2-ena + mCPBA; (b) (E)-but-2-ena + mCPBA; (c) siklopentena + OsO₄, NMO. ||| (a) cis-2,3-dimetiloksirana (meso); (b) trans-2,3-dimetiloksirana (rasemat); (c) cis-siklopentana-1,2-diol (meso)
+@diol [P] Rancang cara mengubah (E)-but-2-ena menjadi (a) meso-butana-2,3-diol; (b) rasemat butana-2,3-diol. ||| (a) mCPBA lalu H₃O⁺ (anti pada trans); (b) OsO₄, NMO (syn pada trans)
+Limonena + 1 ekuivalen mCPBA. Ikatan rangkap mana yang bereaksi lebih dulu? ||| ikatan rangkap dalam cincin (trisubstitusi), lebih kaya elektron daripada isopropenil (disubstitusi)
+Mengapa OsO₄ dipakai dalam jumlah katalitik bersama NMO? ||| OsO₄ mahal dan sangat beracun; NMO mengoksidasi kembali osmium
+Tulis produk sikloheksena + KMnO₄ dingin, encer, basa. Apa yang teramati? ||| cis-sikloheksana-1,2-diol; warna ungu hilang, endapan cokelat MnO₂
+Mengapa epoksida mudah dibuka oleh air dalam asam, padahal eter biasa tidak? ||| tegangan cincin tiga (sekitar 110 kJ mol⁻¹) dilepas saat cincin terbuka
+
+## Subbab 8.10: Pemutusan oksidatif: ozonolisis
+
+Tulis produk ozonolisis (O₃; (CH₃)₂S): (a) (E)-pent-2-ena; (b) 1-metilsikloheksena; (c) 2,3-dimetilbut-2-ena; (d) penta-1,4-diena. ||| (a) etanal + propanal; (b) 6-oksoheptanal; (c) 2 aseton; (d) 2 HCHO + propanadial
+@ozon [P] Sebuah hidrokarbon C₈H₁₄ menyerap 1 mol H₂ pada hidrogenasi. Ozonolisisnya memberi satu senyawa saja, oktana-2,7-dion. Tentukan strukturnya. ||| 1,2-dimetilsikloheksena
+Alkena C₇H₁₄ memberi butan-2-on dan propanal pada ozonolisis. Tulis strukturnya. Dapatkah ozonolisis membedakan isomer E dan Z-nya? ||| 3-metilheks-3-ena; tidak
+Tulis produk 2-metilbut-2-ena dengan KMnO₄ panas dalam asam. ||| aseton + asam asetat
+Sebuah alkena memberi CO₂ dan asam 2-metilpropanoat pada oksidasi dengan KMnO₄ panas. Apa strukturnya? ||| 3-metilbut-1-ena
+Mengapa ozonida tidak diisolasi? ||| tidak stabil dan dapat meledak (ikatan O–O lemah)
+Tulis produk ozonolisis siklopentena dengan pengolahan H₂O₂. ||| asam pentanadioat (asam glutarat)
+
+## Subbab 8.11: Adisi radikal HBr dan polimerisasi
+
+Tulis produk: (a) 2-metilbut-2-ena + HBr; (b) 2-metilbut-2-ena + HBr, ROOR; (c) 1-metilsikloheksena + HBr, ROOR. ||| (a) 2-bromo-2-metilbutana; (b) 2-bromo-3-metilbutana; (c) 1-bromo-2-metilsikloheksana (cis dan trans)
+Tulis langkah inisiasi dan dua langkah propagasi adisi radikal HBr pada propena. ||| ROOR → 2RO·; RO· + HBr → ROH + Br·; Br· + CH₂=CHCH₃ → BrCH₂ĊHCH₃; BrCH₂ĊHCH₃ + HBr → BrCH₂CH₂CH₃ + Br·
+@rad [P] Pakai energi ikatan untuk menjelaskan mengapa HCl tidak beradisi secara radikal pada alkena, walaupun ada peroksida. ||| propagasi 2 (C· + HCl) endoterm +19 kJ mol⁻¹ karena H–Cl kuat; rantai lambat dan terputus
+Mengapa "anti-Markovnikov" pada adisi radikal bukan pelanggaran prinsip kestabilan intermediet? ||| Br· masuk lebih dulu dan memilih C yang memberi radikal lebih stabil
+Gambar tiga satuan berulang PVC dan polistirena. ||| –CH₂–CHCl–CH₂–CHCl–CH₂–CHCl–; –CH₂–CH(C₆H₅)– ×3
+PVC dengan massa molar 125 000 g mol⁻¹. Hitung derajat polimerisasinya. ||| 2000
+Mengapa isobutilena mudah dipolimerisasi secara kationik, tetapi etena tidak? ||| isobutilena membentuk C⁺ tersier; etena hanya C⁺ primer
+Mengapa LDPE lebih lunak daripada HDPE? ||| LDPE bercabang, rantai tidak tersusun rapat
+
+## Subbab 8.12: Alkuna: struktur, keasaman, dan ion asetilida
+
+Urutkan keasaman dan jelaskan: etana, etena, etuna, amonia, air. ||| air > etuna > amonia > etena > etana
+Hitung K untuk reaksi ion asetilida dengan air. Apa artinya bagi penanganan natrium asetilida? ||| K = 2 × 10⁹; asetilida terprotonasi tuntas oleh air, harus dijaga kering
+Basa mana yang dapat mendeprotonasi propuna secara tuntas: NaOH, NaOCH₃, NaNH₂, NaH, CH₃Li? ||| NaNH₂, NaH, CH₃Li
+@alk [P] Rancang sintesis dek-5-una dari etuna dan alkil halida. Mengapa alkilasi harus bertahap? ||| HC≡CH + NaNH₂, lalu 1-bromobutana; ulangi; dua kali alkilasi dengan halida primer
+Mengapa natrium asetilida + 2-bromopropana tidak memberi 4-metilpent-2-una? ||| asetilida bertindak sebagai basa, E2 memberi propena
+Tulis langkah membuat pent-1-una dari pent-1-ena. Berapa ekuivalen NaNH₂ yang diperlukan? ||| Br₂ lalu 3 NaNH₂, lalu H₂O; tiga ekuivalen
+Tentukan hibridisasi dan atom-atom segaris dalam pent-2-una. ||| C2 dan C3 sp; C1, C2, C3, C4 segaris
+
+## Subbab 8.13: Reaksi alkuna: hidrogenasi, hidrasi, dan halogenasi
+
+Tulis produk pent-2-una dengan: (a) H₂ berlebih, Pd/C; (b) H₂, Lindlar; (c) Li, NH₃. ||| (a) pentana; (b) (Z)-pent-2-ena; (c) (E)-pent-2-ena
+@na [P] Tulis mekanisme reduksi heks-3-una dengan Na dalam NH₃ cair, dan jelaskan mengapa produknya trans. ||| e⁻ → anion radikal; H⁺ dari NH₃ → radikal vinil (trans lebih stabil); e⁻ → anion vinil; H⁺ → (E)-heks-3-ena
+Tulis produk hidrasi (H₂O, H₂SO₄, HgSO₄): (a) propuna; (b) etuna; (c) heks-3-una; (d) heks-2-una. ||| (a) aseton; (b) etanal; (c) heksan-3-on; (d) heksan-2-on + heksan-3-on
+Tulis bentuk enol dari butan-2-on. Mengapa bentuk keto jauh lebih disukai? ||| but-2-en-2-ol atau but-1-en-2-ol; ikatan C=O lebih kuat daripada C=C
+Mengapa hidroborasi alkuna memakai disiamilboran atau 9-BBN, bukan BH₃? ||| hanya satu B–H, adisi berhenti setelah sekali; besar sehingga memperkuat pilihan C ujung
+Tulis produk propuna + 2 HBr. ||| 2,2-dibromopropana
+Tulis produk but-2-una + 1 ekuivalen Br₂. ||| (E)-2,3-dibromobut-2-ena
+Ozonolisis sebuah alkuna C₆H₁₀ memberi asam asetat dan asam butanoat. Apa strukturnya? ||| heks-2-una
+
+## Subbab 8.14: Merancang sintesis dengan alkena dan alkuna
+
+Rancang sintesis butan-2-on dari etuna dan bahan lain. ||| NaNH₂, CH₃CH₂Br → but-1-una; H₂O, H₂SO₄, HgSO₄
+Rancang sintesis (E)-okt-4-ena dari etuna. ||| dua kali alkilasi dengan 1-bromopropana; Na/NH₃
+@sint [P] Rancang sintesis 2-metilpentan-1-ol dari 2-metilpentan-2-ol. ||| H₂SO₄ panas → 2-metilpent-2-ena (utama) dan 2-metilpent-1-ena; lebih baik: HBr → 2-bromo-2-metilpentana, KOC(CH₃)₃ → 2-metilpent-1-ena; BH₃ lalu H₂O₂, NaOH
+Rancang sintesis heksanal dari etuna. ||| NaNH₂, 1-bromobutana → heks-1-una; 9-BBN lalu H₂O₂, NaOH
+Rancang sintesis 1,2-dibromopropana dari 1-bromopropana. ||| KOC(CH₃)₃ (E2) → propena; Br₂
+Rancang sintesis trans-sikloheksana-1,2-diol dari sikloheksanol. ||| H₂SO₄ panas → sikloheksena; mCPBA; H₃O⁺
+Rancang sintesis meso-heksana-3,4-diol dari (E)-heks-3-ena dan, terpisah, dari heks-3-una. ||| (E): mCPBA lalu H₃O⁺; heks-3-una: Lindlar lalu OsO₄, NMO
+Rancang sintesis 2-bromobutana dan 1-bromobutana dari but-1-una. ||| H₂, Lindlar → but-1-ena; HBr → 2-bromobutana; HBr, ROOR → 1-bromobutana

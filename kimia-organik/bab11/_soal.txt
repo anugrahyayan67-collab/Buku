@@ -1,0 +1,129 @@
+## Subbab 11.1: Gugus karbonil: struktur, tata nama, dan sifat
+
+> *K*~hid~: heksafluoroaseton 1,2 × 10⁶; kloral 2,8 × 10⁴; formaldehida 2,3 × 10³; asetaldehida 1,06; aseton 1,4 × 10⁻³. pKa aseton 19. Soal bertanda **[P]** dibahas di akhir bab.
+
+Beri nama IUPAC: (a) (CH₃)₂CHCH₂CHO; (b) CH₃CH₂COCH(CH₃)₂; (c) C₆H₅CH₂CHO; (d) 3-oksobutanal sebagai OHC–CH₂–COCH₃. ||| (a) 3-metilbutanal; (b) 2-metilpentan-3-on; (c) 2-feniletanal; (d) 3-oksobutanal
+Gambar struktur: (a) 4-metilpentan-2-on; (b) sikloheks-2-en-1-on; (c) 3-fenilpropenal (sinamaldehida, E). ||| (a) CH₃COCH₂CH(CH₃)₂; (b) cincin enam dengan C=O di C1 dan C=C di C2–C3; (c) C₆H₅CH=CHCHO (E)
+Mengapa karbon karbonil elektrofil, sedangkan karbon alkena nukleofil? ||| O menarik elektron π sehingga C δ+; pada C=C elektron π tersebar merata dan mudah dijangkau
+Urutkan titik didih: butanal, butan-1-ol, pentana, butan-2-on, asam propanoat. ||| asam propanoat (141) > butan-1-ol (117) > butan-2-on (80) > butanal (75) > pentana (36)
+Mengapa aseton bercampur dengan air dalam segala perbandingan, padahal tidak mempunyai H pada oksigen? ||| O karbonil menerima ikatan hidrogen dari air; molekul kecil
+Ke arah mana nukleofil mendekati karbon karbonil, dan mengapa? ||| dari atas/bawah bidang, ±107° terhadap C=O, ke arah orbital π* kosong
+
+Sebutkan tiga aldehida atau keton alami dan sumbernya. ||| vanilin (vanili), sinamaldehida (kayu manis), karvon (mint/jintan), sitral (serai), kamfer
+
+## Subbab 11.2: Membuat aldehida dan keton
+
+Tulis produk: (a) heksan-2-ol + Na₂Cr₂O₇, H₂SO₄; (b) 2-metilpropan-1-ol + PCC; (c) 2-metilbut-2-ena + O₃, lalu (CH₃)₂S; (d) heks-1-una + H₂O, H₂SO₄, HgSO₄. ||| (a) heksan-2-on; (b) 2-metilpropanal; (c) aseton + asetaldehida; (d) heksan-2-on
+@buat [P] Rancang tiga cara membuat butanon (butan-2-on) dari bahan yang berbeda. ||| oksidasi butan-2-ol; hidrasi but-1-una (HgSO₄); CH₃COCl + (CH₃CH₂)₂CuLi (juga ozonolisis 3-metilpent-2-ena memberi butanon + asetaldehida)
+Mengapa kuprat Gilman berhenti pada keton, sedangkan pereaksi Grignard tidak? ||| kuprat kurang reaktif, tidak menyerang keton; Grignard menyerang keton lagi
+Mengapa reduksi ester dengan DIBAL-H harus pada −78 °C untuk mendapatkan aldehida? ||| zat antara tetrahedral stabil pada suhu rendah sampai air ditambahkan; hidrida kedua tidak sempat masuk
+Tulis produk benzena + CH₃COCl, AlCl₃. ||| asetofenon
+Tulis produk propanenitril + C₆H₅MgBr, lalu H₃O⁺. ||| 1-fenilpropan-1-on
+
+Tulis produk ozonolisis 1-metilsikloheksena (O₃; (CH₃)₂S). ||| 6-oksoheptanal
+
+## Subbab 11.3: Adisi nukleofilik: mekanisme dalam asam dan basa
+
+Tulis mekanisme umum adisi nukleofilik dalam basa dan dalam asam. ||| basa: Nu⁻ menyerang C → alkoksida → protonasi; asam: protonasi O → Nu menyerang → lepas H⁺
+@reakt [P] Jelaskan dua alasan aldehida lebih reaktif daripada keton dalam adisi nukleofilik. ||| sterik (satu gugus R, produk tetrahedral kurang berdesakan); elektronik (lebih sedikit gugus alkil pendorong elektron)
+Urutkan kereaktifan: benzaldehida, 4-nitrobenzaldehida, 4-metoksibenzaldehida. ||| 4-nitro > benzaldehida > 4-metoksi
+Mengapa adisi hidrida dan Grignard tidak reversibel, sedangkan adisi air dan sianida reversibel? ||| H⁻ dan R⁻ basa sangat kuat, gugus pergi buruk; H₂O dan CN⁻ basa lemah, dapat lepas
+Butan-2-on + NaBH₄ memberi produk rasemat. Mengapa? ||| C=O datar diserang dari dua sisi sama mungkin
+Mengapa asam mengkatalisis adisi nukleofil lemah? ||| protonasi O membuat C karbonil jauh lebih elektrofilik (R₂C=OH⁺)
+
+## Subbab 11.4: Hidrat dan sianohidrin
+
+Berapa persen asetaldehida terhidrasi dalam air? ||| 51%
+Hitung ΔG° hidrasi formaldehida dan aseton pada 25 °C. ||| −19 dan +16 kJ mol⁻¹
+@hid [P] Mengapa heksafluoroaseton hampir seluruhnya berupa hidrat, sedangkan aseton hampir tidak? ||| enam F menarik elektron (C=O sangat elektrofilik, karbonil tidak stabil); CH₃ mendorong elektron dan berdesakan pada hidrat
+Tulis mekanisme pembentukan sianohidrin aseton dengan KCN katalitik. ||| CN⁻ menyerang C → alkoksida mengambil H dari HCN → sianohidrin + CN⁻
+Tulis produk sianohidrin benzaldehida dengan (a) H₃O⁺ panas; (b) LiAlH₄ lalu H₂O. ||| (a) asam mandelat, C₆H₅CH(OH)COOH; (b) 2-amino-1-feniletanol
+Mengapa singkong pahit harus diolah sebelum dimakan? ||| linamarin melepas sianohidrin aseton yang terurai menjadi aseton + HCN; pengolahan menguapkan HCN
+Mengapa hidrat tidak dapat diisolasi dengan menguapkan air? ||| kesetimbangan bergeser kembali ke karbonil saat air hilang
+
+Kloral hidrat dapat diisolasi sebagai padatan. Mengapa hidrat ini stabil, sedangkan hidrat asetaldehida tidak? ||| tiga Cl menarik elektron, K_hid sangat besar (2,8 × 10⁴)
+
+## Subbab 11.5: Asetal dan gugus pelindung
+
+Tulis mekanisme lengkap pembentukan asetal dari propanal dan metanol berlebih dalam asam. ||| tujuh langkah: protonasi, adisi, deprotonasi (hemiasetal), protonasi OH, lepas air (oksokarbenium), adisi CH₃OH, deprotonasi
+@asetal [P] Mengapa asetal stabil dalam basa tetapi terhidrolisis dalam asam encer? ||| dalam basa tidak ada gugus pergi baik (RO⁻); dalam asam –OR terprotonasi, lepas sebagai ROH membentuk oksokarbenium
+Bagaimana menggeser kesetimbangan ke arah asetal? Ke arah karbonil? ||| alkohol berlebih dan buang air (Dean–Stark); air berlebih dan asam encer
+Mengapa asetal siklik dari etilena glikol lebih mudah terbentuk? ||| reaksi kedua intramolekul; tidak kehilangan entropi penggabungan molekul
+@lindung [P] Rancang sintesis 5-hidroksi-5-metilheksanal dari metil 5-oksopentanoat. ||| lindungi aldehida (etilena glikol, H⁺); 2 CH₃MgBr; H₃O⁺ encer
+Jelaskan mengapa glukosa membentuk cincin beranggota enam dan ada dua anomer. ||| O5–H menyerang C1 (hemiasetal siklik stabil); C1 menjadi pusat kiral baru: α dan β
+Apa itu glikosida? Mengapa pati dapat dicerna dalam lambung yang asam? ||| asetal gula; asetal terhidrolisis dalam asam (dan oleh enzim)
+Tulis produk hidrolisis 1,1-dietoksietana dengan H₃O⁺. ||| asetaldehida + 2 etanol
+
+Tulis produk sikloheksanon + metanol berlebih, H⁺ (kering), lalu produk itu + H₃O⁺. ||| 1,1-dimetoksisikloheksana; kembali menjadi sikloheksanon + 2 CH₃OH
+
+## Subbab 11.6: Imina, enamina, dan turunan amina
+
+Tulis produk: (a) aseton + CH₃NH₂; (b) aseton + (CH₃)₂NH; (c) aseton + NH₂OH; (d) aseton + 2,4-dinitrofenilhidrazina. ||| (a) imina (CH₃)₂C=NCH₃; (b) enamina CH₂=C(CH₃)N(CH₃)₂; (c) oksim; (d) 2,4-DNP-hidrazon (endapan jingga)
+@pH [P] Jelaskan mengapa laju pembentukan imina maksimum pada pH sekitar 4–5. ||| dehidrasi perlu asam; amina harus bebas (tidak terprotonasi); kompromi
+Tulis mekanisme pembentukan imina dari benzaldehida dan metilamina. ||| adisi N → karbinolamina → protonasi OH → lepas air (iminium) → lepas H⁺
+Mengapa amina sekunder memberi enamina, bukan imina? ||| ion iminium tidak mempunyai H pada N; H lepas dari karbon α
+Tulis produk hidrolisis enamina 1-(sikloheks-1-en-1-il)pirolidina dengan H₃O⁺. ||| sikloheksanon + pirolidina
+Bagaimana retinal terikat pada opsin? ||| imina terprotonasi dengan –NH₂ lisina
+Mengapa turunan 2,4-DNP dulu dipakai untuk mengidentifikasi keton cair? ||| padatan kristal dengan titik leleh khas
+
+## Subbab 11.7: Reduksi: menjadi alkohol atau menjadi CH₂
+
+Tulis produk: (a) 4-oksopentanal + NaBH₄ (berlebih); (b) etil 3-oksobutanoat + NaBH₄; (c) etil 3-oksobutanoat + LiAlH₄. ||| (a) pentana-1,4-diol; (b) etil 3-hidroksibutanoat; (c) butana-1,3-diol
+@stereo [P] Jelaskan mengapa NaBH₄ memberi terutama trans-4-tert-butilsikloheksanol, sedangkan L-Selectride memberi isomer cis. ||| hidrida kecil menyerang aksial (OH ekuatorial, trans); hidrida besar terhalang H aksial C3/C5, menyerang ekuatorial (OH aksial, cis)
+Pilih antara Wolff–Kishner dan Clemmensen: (a) 4-asetilbenzoat metil → metil 4-etilbenzoat; (b) keton yang mengandung asetal → alkana. ||| (a) Clemmensen (ester tidak tahan KOH panas); (b) Wolff–Kishner (asetal tidak tahan asam)
+Apa gaya pendorong reduksi Wolff–Kishner? ||| lepasnya N₂ yang sangat stabil
+Berapa gram NaBH₄ minimal untuk mereduksi 10,0 g butan-2-on (72,11 g mol⁻¹)? ||| 1,31 g
+Tulis produk sikloheksanon + H₂, Ni, tekanan. ||| sikloheksanol
+
+Mengapa reduksi keton aril (asetofenon) dengan H₂/Pd dapat sampai ke etilbenzena, tetapi reduksi sikloheksanon tidak sampai ke sikloheksana? ||| C–O pada posisi benzilik mudah diputus (hidrogenolisis)
+
+## Subbab 11.8: Pereaksi Grignard dan organolitium
+
+Tulis produk (dengan H₃O⁺ di akhir): (a) HCHO + C₆H₅MgBr; (b) propanal + CH₃MgI; (c) sikloheksanon + CH₃CH₂Li; (d) etil benzoat + 2 CH₃MgBr. ||| (a) benzil alkohol; (b) butan-2-ol; (c) 1-etilsikloheksanol; (d) 2-fenilpropan-2-ol
+@grig [P] Usulkan semua kombinasi Grignard + karbonil untuk membuat 2-fenilbutan-2-ol. ||| C₆H₅MgBr + butanon; CH₃MgBr + 1-fenilpropan-1-on; CH₃CH₂MgBr + asetofenon
+Mengapa di-tert-butil keton dengan tert-butilmagnesium bromida hampir tidak memberi produk adisi? ||| sangat terhalang; Grignard bertindak sebagai basa atau pereduksi
+Tulis produk butanon + natrium asetilida, lalu H₃O⁺. ||| 3-metilpent-1-in-3-ol
+Mengapa pereaksi Grignard tidak dapat dibuat dari 4-bromobenzaldehida? ||| pereaksi akan menyerang gugus aldehida molekul lain
+Rancang sintesis 1-fenilpropan-1-on dari benzaldehida (dua langkah). ||| CH₃CH₂MgBr, H₃O⁺; lalu PCC atau Jones
+
+## Subbab 11.9: Reaksi Wittig
+
+Tulis produk: (a) sikloheksanon + Ph₃P=CHCH₃; (b) benzaldehida + Ph₃P=CHCOOCH₃; (c) aseton + Ph₃P=CH₂. ||| (a) etilidenasikloheksana; (b) metil sinamat (terutama E); (c) 2-metilpropena
+Tulis langkah membuat ilida dari 1-bromobutana. ||| Ph₃P (SN2) → garam fosfonium; BuLi → Ph₃P=CHCH₂CH₂CH₃
+@wit [P] Rancang sintesis 2-metilheks-2-ena dengan reaksi Wittig, dan jelaskan mengapa dehidrasi 2-metilheksan-2-ol bukan cara yang baik. ||| aseton + Ph₃P=CHCH₂CH₂CH₃ (atau butanal + Ph₃P=C(CH₃)₂); dehidrasi memberi campuran 2-metilheks-1-ena dan -2-ena
+Apa gaya pendorong reaksi Wittig? ||| terbentuknya ikatan P=O yang sangat kuat
+Mengapa ilida distabilkan (Ph₃P=CHCOOR) dapat dibuat dengan basa yang lebih lemah? ||| karbanion distabilkan resonansi dengan C=O, H lebih asam
+Tunjukkan dua cara Wittig membuat stilbena (1,2-difeniletena). ||| benzaldehida + Ph₃P=CHC₆H₅ (dua cara sama karena simetris); campuran E/Z
+
+Mengapa reaksi Wittig dan reaksi Grignard sama-sama dianggap reaksi pembentuk ikatan C–C? ||| keduanya menyambung karbon nukleofil (ilida atau R⁻) ke karbon karbonil
+
+## Subbab 11.10: Oksidasi Baeyer–Villiger
+
+Tulis produk mCPBA: (a) siklobutanon; (b) 2-metilsikloheksanon; (c) pinakolon (3,3-dimetilbutan-2-on). ||| (a) γ-butirolakton; (b) 7-metiloksepan-2-on (O di sisi C tersubstitusi); (c) tert-butil asetat
+@bv [P] Tulis mekanisme Baeyer–Villiger asetofenon dan jelaskan mengapa fenil, bukan metil, yang bermigrasi. ||| adisi peroksiasam (Criegee); fenil lebih mampu menampung δ+ pada keadaan transisi migrasi; fenil asetat
+Mengapa gugus kiral yang bermigrasi mempertahankan konfigurasinya? ||| berpindah bersama pasangan elektronnya tanpa terlepas (intramolekul)
+Urutkan kemampuan bermigrasi: metil, fenil, tert-butil, etil, H. ||| H > tert-butil > fenil > etil > metil
+Tulis produk hidrolisis ε-kaprolakton dengan NaOH lalu H₃O⁺. ||| asam 6-hidroksiheksanoat
+
+## Subbab 11.11: Keto–enol dan halogenasi α
+
+Tandai H α dan hitung jumlahnya: (a) butanon; (b) 2,2-dimetilsikloheksanon; (c) benzaldehida; (d) 2,2,4,4-tetrametilpentan-3-on. ||| (a) 5; (b) 2; (c) 0; (d) 0
+Tulis struktur resonansi ion enolat dari asetaldehida. ||| ⁻CH₂–CHO ↔ CH₂=CH–O⁻
+@enol [P] Mengapa pentana-2,4-dion sekitar 80% berupa enol, sedangkan aseton hampir tidak? ||| enol 1,3-dikarbonil terkonjugasi dan berikatan hidrogen intramolekul (cincin enam)
+(S)-2-Metilsikloheksanon dalam basa kehilangan aktivitas optiknya. Jelaskan. ||| enolat membuat C2 datar; protonasi dari kedua sisi
+@halo [P] Mengapa laju brominasi aseton dalam asam tidak bergantung pada [Br₂]? ||| langkah lambat adalah pembentukan enol; enol segera bereaksi dengan Br₂
+Senyawa mana yang memberi uji iodoform positif: etanol, metanol, propan-2-ol, pentan-3-on, asetofenon, butanal? ||| etanol, propan-2-ol, asetofenon
+Tulis produk 3,3-dimetilbutan-2-on + Br₂ berlebih, NaOH, lalu H₃O⁺. ||| asam 2,2-dimetilpropanoat + CHBr₃
+Mengapa halogenasi dalam basa tidak berhenti pada monohalogenasi? ||| halogen menaikkan keasaman H α yang tersisa
+
+Tulis produk sikloheksanon dalam D₂O dengan sedikit NaOD (dibiarkan lama). ||| 2,2,6,6-tetradeuteriosikloheksanon
+
+## Subbab 11.12: Merancang sintesis dengan karbonil
+
+Rancang sintesis 3-fenilpentan-3-ol dari benzena dan bahan berkarbon tiga atau kurang. ||| benzena + CH₃CH₂COCl/AlCl₃ → propiofenon; CH₃CH₂MgBr, H₃O⁺
+Rancang sintesis 1-metilsikloheksena dan metilenasikloheksana dari sikloheksanon. ||| CH₃MgBr, H₃O⁺, lalu H₂SO₄ panas; Ph₃P=CH₂
+@sint [P] Rancang sintesis 2-metilpentan-2-ol dari propanal dan aseton. ||| NaBH₄ → propan-1-ol; PBr₃ → 1-bromopropana; Mg, eter; aseton, lalu H₃O⁺
+Rancang sintesis heptan-4-on dari butanal dan 1-bromopropana. ||| 1-bromopropana + Mg → CH₃CH₂CH₂MgBr; + butanal, H₃O⁺ → heptan-4-ol; PCC atau Jones
+Rancang sintesis 1-fenilbut-1-ena dari benzaldehida. ||| Ph₃P=CHCH₂CH₃ (dari 1-bromopropana)
+Rancang sintesis propilbenzena dari benzaldehida (tiga langkah). ||| CH₃CH₂MgBr, H₃O⁺; PCC; Clemmensen (atau H₂SO₄ panas lalu H₂/Pd)
+Rancang sintesis 1-sikloheksilpropan-1-on dari sikloheksanakarbaldehida. ||| CH₃CH₂MgBr, H₃O⁺; lalu PCC atau Jones

@@ -1,0 +1,178 @@
+## Subbab 5.1: Momentum linear
+
+Berapa momentum mobil 1500 kg yang melaju 20 m/s? ||| $3{,}0 \times 10^4$ kg·m/s
+Pelari 70 kg berlari 9,0 m/s. (a) Berapa momentumnya? (b) Berapa kelajuan mobil 1000 kg yang momentumnya sama? ||| (a) 630 kg·m/s; (b) 0,63 m/s
+Benda 3,0 kg memiliki momentum 12 kg·m/s. Berapa energi kinetiknya? ||| 24 J
+Benda 2,0 kg memiliki energi kinetik 100 J. Berapa momentumnya? ||| 20 kg·m/s
+Dua benda, 1,0 kg dan 4,0 kg, memiliki energi kinetik yang sama. Berapa perbandingan momentumnya? ||| 1 : 2
+Bola 0,20 kg bergerak 15 m/s ke kanan, lalu setelah dipukul bergerak 10 m/s ke kiri. Berapa perubahan momentumnya? ||| 5,0 kg·m/s ke kiri
+Benda 2,0 kg memiliki kecepatan $\vec v = (3{,}0\,\hat\imath - 4{,}0\,\hat\jmath)$ m/s. Tentukan vektor momentum dan besarnya. ||| $(6{,}0\,\hat\imath - 8{,}0\,\hat\jmath)$ kg·m/s; 10 kg·m/s
+Air menyembur dari selang dengan laju 3,0 kg/s dan kelajuan 20 m/s, mengenai dinding secara tegak lurus lalu mengalir turun. Berapa gaya air pada dinding? ||| 60 N
+Berapa momentum elektron (massa $9{,}11 \times 10^{-31}$ kg) yang energi kinetiknya 100 eV? (1 eV = $1{,}602 \times 10^{-19}$ J.) ||| $5{,}4 \times 10^{-24}$ kg·m/s
+Momentum sebuah benda berubah menurut $p = 4{,}0t^2 + 2{,}0t$ (kg·m/s, dengan $t$ dalam sekon). Berapa gaya total padanya pada $t = 3{,}0$ s? ||| 26 N
+
+## Subbab 5.2: Impuls
+
+Gaya tetap 50 N bekerja selama 0,20 s. Berapa impulsnya? ||| 10 N·s
+Bola 0,15 kg yang diam dipukul sehingga melaju 30 m/s. Waktu sentuhnya 2,0 ms. Berapa gaya rata-ratanya? ||| $2{,}3 \times 10^3$ N
+Mobil 1200 kg diperlambat dari 25 m/s sampai berhenti dalam 5,0 s. Berapa gaya rata-rata pengeremannya? ||| 6000 N, berlawanan arah gerak
+@trap Gaya pada bola tenis 0,060 kg yang mula-mula diam naik linear dari nol ke 800 N dalam 1,0 ms, tetap 800 N selama 2,0 ms, lalu turun linear ke nol dalam 1,0 ms. Berapa impulsnya dan berapa kelajuan akhir bola? ||| 2,4 N·s; 40 m/s
+Kepala palu 1,0 kg dengan kelajuan 5,0 m/s memukul paku dan berhenti dalam 4,0 ms tanpa memantul. Berapa gaya rata-rata pada paku? ||| $1{,}3 \times 10^3$ N
+Bola 0,30 kg dijatuhkan dari 1,8 m dan memantul sampai 1,25 m. Waktu sentuh dengan lantai 10 ms. Berapa gaya rata-rata lantai pada bola? ||| 330 N
+Penumpang 80 kg di mobil yang melaju 20 m/s dihentikan (a) oleh kantong udara dalam 0,25 s; (b) oleh kemudi dalam 5,0 ms. Berapa gaya rata-rata padanya pada tiap keadaan? ||| (a) $6{,}4 \times 10^3$ N; (b) $3{,}2 \times 10^5$ N
+Bola bisbol 0,145 kg datang 35 m/s dan dipukul balik lurus dengan kelajuan 45 m/s. Waktu sentuhnya 1,5 ms. Berapa gaya rata-rata pemukul? ||| $7{,}7 \times 10^3$ N
+Pesenam 55 kg mendarat dengan kelajuan 4,0 m/s ke bawah dan berhenti dalam 0,40 s. Berapa gaya rata-rata lantai padanya? ||| $1{,}1 \times 10^3$ N
+Bola 0,40 kg dengan kelajuan 12 m/s menumbuk dinding pada sudut 30° terhadap garis normal dan memantul dengan kelajuan serta sudut yang sama. Berapa besar perubahan momentumnya? ||| 8,3 kg·m/s
+Cakram hoki 0,16 kg bergerak 20 m/s ke timur, lalu setelah dipukul bergerak 20 m/s ke utara. Tentukan besar dan arah impuls yang diterimanya. ||| 4,5 N·s ke barat laut
+Gaya $F = 6{,}0t$ (N, dengan $t$ dalam sekon) bekerja pada benda 3,0 kg yang mula-mula diam, dari $t = 0$ sampai $t = 4{,}0$ s. Berapa impulsnya dan kelajuan akhir benda? ||| 48 N·s; 16 m/s
+Senapan mesin menembakkan 10 peluru per sekon. Tiap peluru bermassa 20 g dan melesat 500 m/s. Berapa gaya rata-rata yang harus ditahan penembak? ||| 100 N
+@tramp **[P]** Atlet 60 kg jatuh dari ketinggian 3,0 m ke trampolin dan terpental kembali sampai ketinggian yang sama. Ia menyentuh trampolin selama 0,50 s. Berapa gaya rata-rata trampolin padanya? ||| $2{,}4 \times 10^3$ N
+
+Gaya pada bola 0,16 kg yang mula-mula diam berbentuk setengah gelombang sinus dengan gaya puncak 900 N dan waktu sentuh 4,0 ms. Berapa impulsnya dan kelajuan akhir bola? ||| 2,3 N·s; 14 m/s
+Mobil yang melaju 20 m/s menabrak penghalang, dan bagian depannya ringsek 0,80 m sebelum kabin berhenti. Berapa gaya rata-rata pada penumpang 60 kg yang memakai sabuk pengaman? ||| $1{,}5 \times 10^4$ N
+
+## Subbab 5.3: Kekekalan momentum
+
+Meriam 800 kg menembakkan peluru 10 kg dengan kelajuan 300 m/s. Berapa kelajuan rekoil meriam? ||| 3,8 m/s
+Astronaut 90 kg yang melayang diam melempar perkakas 2,0 kg dengan kelajuan 6,0 m/s. Berapa kelajuan astronaut sesudahnya? ||| 0,13 m/s
+Dua kereta, 1,0 kg dan 3,0 kg, diam di rel licin dengan pegas tertekan di antaranya. Setelah pegas dilepas, kereta 1,0 kg bergerak 6,0 m/s. (a) Berapa kelajuan kereta 3,0 kg? (b) Berapa energi yang semula tersimpan di pegas? ||| (a) 2,0 m/s; (b) 24 J
+Anak 40 kg melompat mendatar dengan kelajuan 3,0 m/s dari perahu 80 kg yang diam. Berapa kelajuan perahu? ||| 1,5 m/s
+Seseorang bermassa 75 kg berjalan 4,0 m (diukur terhadap rakit) di atas rakit 225 kg yang mengapung diam. Berapa jauh rakit bergeser? ||| 1,0 m
+Benda 5,0 kg yang diam meledak menjadi dua keping. Keping 2,0 kg melesat 15 m/s. (a) Berapa kelajuan keping lain? (b) Berapa energi yang dilepas ledakan? ||| (a) 10 m/s; (b) 375 J
+Benda 4,0 kg yang diam meledak menjadi tiga keping. Dua keping, masing-masing 1,0 kg, melesat 12 m/s ke arah $+x$ dan $+y$. Tentukan kelajuan dan arah keping ketiga. ||| 8,5 m/s, pada 225° dari sumbu $+x$
+Inti radium-226 yang diam meluruh menjadi radon-222 dan partikel alfa (4,0 u) berenergi kinetik 4,78 MeV. Berapa energi kinetik inti radon? ||| 0,086 MeV
+Gerbong 8000 kg meluncur 3,0 m/s. Batu 2000 kg dijatuhkan tegak ke dalamnya. Berapa kelajuan gerbong sesudahnya? ||| 2,4 m/s
+Ikan 4,0 kg berenang 1,5 m/s dan menelan ikan 1,0 kg. Berapa kelajuannya sesudahnya jika ikan kecil itu (a) mula-mula diam; (b) berenang 2,0 m/s ke arahnya? ||| (a) 1,2 m/s; (b) 0,80 m/s
+Anak 50 kg berdiri diam di atas papan luncur 2,0 kg dan menangkap bola 5,0 kg yang datang mendatar 4,0 m/s. (a) Berapa kelajuannya sesudah menangkap? (b) Ia lalu melempar bola itu kembali ke arah datangnya dengan kelajuan 4,0 m/s terhadap tanah. Berapa kelajuannya sekarang? ||| (a) 0,35 m/s; (b) 0,77 m/s
+Senapan 3,0 kg menembakkan peluru 15 g yang energi kinetiknya 2000 J. Berapa kelajuan peluru, kelajuan rekoil senapan, dan energi kinetik senapan? ||| 516 m/s; 2,6 m/s; 10 J
+Roket dua tingkat bergerak 2000 m/s. Pegas memisahkan tingkat bawah (1200 kg) dari tingkat atas (800 kg) dengan kelajuan relatif 10 m/s. Berapa kelajuan tiap tingkat sesudahnya? ||| 1996 m/s dan 2006 m/s
+Anjing 10 kg berjalan 2,4 m (diukur terhadap perahu) menuju tepian di atas perahu 30 kg yang mengapung diam. Berapa jauh anjing itu mendekat ke tepian? ||| 1,8 m
+
+Meriam 1000 kg di rel mendatar licin menembakkan peluru 20 kg dengan kelajuan 250 m/s pada sudut 35° di atas mendatar. Berapa kelajuan rekoil meriam? ||| 4,1 m/s
+Dua orang, masing-masing 60 kg, berdiri di gerobak 120 kg yang diam di rel licin. Mereka melompat ke belakang dengan kelajuan 3,0 m/s relatif terhadap gerobak. Berapa kelajuan akhir gerobak jika mereka melompat (a) bersamaan; (b) satu per satu? ||| (a) 1,5 m/s; (b) 1,75 m/s
+
+## Subbab 5.4: Tumbukan tak lenting
+
+@lekat Balok 2,0 kg dengan kelajuan 6,0 m/s menumbuk dan menempel pada balok 4,0 kg yang diam. Berapa kelajuan akhirnya dan berapa energi kinetik yang hilang? ||| 2,0 m/s; 24 J
+Gerbong 12 000 kg yang bergerak 4,0 m/s menyusul dan tersambung dengan gerbong 8000 kg yang bergerak 1,0 m/s searah. Berapa kelajuan akhirnya dan energi kinetik yang hilang? ||| 2,8 m/s; $2{,}2 \times 10^4$ J
+Mobil 1000 kg melaju 25 m/s ke timur dan mobil 1500 kg melaju 20 m/s ke barat. Keduanya bertabrakan berhadapan dan menyatu. Tentukan kecepatan akhirnya dan energi kinetik yang hilang. ||| 2,0 m/s ke barat; $6{,}1 \times 10^5$ J
+Peluru 10 g menancap di balok bandul balistik 1,5 kg, yang lalu berayun naik 12 cm. Berapa kelajuan peluru? ||| 232 m/s
+Peluru 8,0 g dengan kelajuan 350 m/s menancap di balok bandul balistik 2,0 kg. Seberapa tinggi balok berayun? ||| 9,9 cm
+Gumpalan lempung 0,30 kg dengan kelajuan 8,0 m/s menempel pada balok 1,2 kg yang diam di lantai kasar ($\mu_k = 0{,}25$). Berapa jauh keduanya meluncur sebelum berhenti? ||| 0,52 m
+Peluru 12 g dengan kelajuan 500 m/s menembus balok 2,0 kg yang diam di meja licin dan keluar dengan 200 m/s. Berapa kelajuan balok dan energi kinetik yang hilang? ||| 1,8 m/s; $1{,}26 \times 10^3$ J
+Sebuah benda menumbuk benda diam yang massanya sama, dan keduanya menyatu. Berapa bagian energi kinetik yang hilang? ||| 50%
+Pemain rugbi 90 kg yang berlari 6,0 m/s ke timur ditubruk dan dipeluk pemain 110 kg yang berlari 4,0 m/s ke barat. Tentukan kecepatan keduanya sesaat sesudahnya. ||| 0,50 m/s ke timur
+Peluru 20 g dengan kelajuan 300 m/s menancap di balok 0,98 kg yang diam di meja licin dan terhubung ke pegas mendatar ($k = 400$ N/m). Berapa penekanan terbesar pegas? ||| 0,30 m
+Dua gumpalan lempung, masing-masing 0,50 kg, bergerak saling mendekat dengan kelajuan 3,0 m/s dan menempel. Berapa kelajuan akhirnya dan energi kinetik yang hilang? ||| 0; 4,5 J
+
+## Subbab 5.5: Tumbukan lenting
+
+> Semua tumbukan di bagian ini lurus (satu dimensi).
+
+Bola 3,0 kg dengan kelajuan 5,0 m/s menumbuk lenting bola 2,0 kg yang diam. Tentukan kecepatan keduanya sesudahnya. ||| 1,0 m/s dan 6,0 m/s
+Bola 1,0 kg dengan kelajuan 6,0 m/s menumbuk lenting bola 3,0 kg yang diam. Tentukan kecepatan keduanya sesudahnya. ||| −3,0 m/s dan +3,0 m/s
+Dua bola bermassa sama bergerak dengan kecepatan $+4{,}0$ m/s dan $-2{,}0$ m/s, lalu bertumbukan lenting. Tentukan kecepatan keduanya sesudahnya. ||| −2,0 m/s dan +4,0 m/s
+Bola 2,0 kg dengan kecepatan $+3{,}0$ m/s dan bola 4,0 kg dengan kecepatan $-1{,}5$ m/s bertumbukan lenting. Tentukan kecepatan keduanya sesudahnya. ||| −3,0 m/s dan +1,5 m/s
+Berapa bagian energi kinetik neutron yang berpindah pada satu tumbukan lenting lurus dengan inti (a) deuterium (2 u); (b) helium-4 (4 u)? ||| (a) 89%; (b) 64%
+Berapa tumbukan lenting lurus dengan inti karbon-12 yang diperlukan agar energi kinetik neutron turun menjadi 1% nilai awalnya? ||| 14
+Kepala stik golf 0,20 kg dengan kelajuan 45 m/s menumbuk lenting bola 0,045 kg yang diam. Berapa kelajuan bola? ||| 73 m/s
+Bola dijatuhkan dari 2,0 m ke lantai dengan koefisien restitusi 0,70. Berapa tinggi pantulan pertama dan kedua? ||| 0,98 m; 0,48 m
+Bola dijatuhkan dari 1,5 m dan memantul sampai 0,96 m. Berapa koefisien restitusinya? ||| 0,80
+Balok 4,0 kg dengan kelajuan 5,0 m/s menumbuk balok 6,0 kg yang diam, dengan koefisien restitusi 0,60. Tentukan kecepatan akhir keduanya dan energi kinetik yang hilang. ||| 0,20 m/s dan 3,2 m/s; 19 J
+Bola tenis diletakkan di atas bola basket dan keduanya dijatuhkan bersama dari 1,5 m. Dengan anggapan ideal (semua tumbukan lenting, massa bola tenis dapat diabaikan), sampai ketinggian berapa bola tenis memantul? ||| 13,5 m
+Proton menumbuk lenting sebuah inti yang diam dan terpental balik lurus dengan 60% kelajuan awalnya. Berapa massa inti itu dibandingkan massa proton? ||| 4 kali (helium-4)
+@truk **[P]** Bola dengan kelajuan 20 m/s menumbuk lenting bagian depan truk yang melaju 15 m/s ke arah bola. Massa truk jauh lebih besar. Berapa kelajuan bola sesudahnya? ||| 50 m/s
+Bola bandul 0,10 kg dilepas dari ketinggian 0,20 m dan di titik terendah menumbuk lenting bola bandul 0,30 kg yang diam. Sampai ketinggian berapa masing-masing bola naik sesudahnya? ||| 5,0 cm dan 5,0 cm (ke arah berlawanan)
+
+Tiga bola berada segaris: 6,0 kg, 3,0 kg, dan 1,0 kg. Bola 6,0 kg bergerak 2,0 m/s menuju bola 3,0 kg yang diam, yang lalu menumbuk bola 1,0 kg yang diam. Semua tumbukan lenting. Berapa kelajuan bola 1,0 kg? ||| 4,0 m/s
+Sebuah partikel tak dikenal menumbuk lenting dan lurus inti hidrogen (1,0 u) dan inti helium (4,0 u) yang diam. Kelajuan rekoil hidrogen 2,5 kali kelajuan rekoil helium. Berapa massa partikel itu? ||| 1,0 u
+
+## Subbab 5.6: Tumbukan dua dimensi
+
+Mobil 1200 kg yang melaju 15 m/s ke timur dan mobil 1800 kg yang melaju 10 m/s ke utara bertabrakan dan menyatu. Tentukan kelajuan dan arah rongsokannya. ||| 8,5 m/s, 45° di utara dari timur
+Mobil 1000 kg yang melaju ke timur dan mobil 1500 kg yang melaju ke utara bertabrakan dan menyatu. Rongsokannya bergerak 12 m/s pada arah 30° di utara dari timur. Berapa kelajuan tiap mobil sebelum tabrakan? ||| 26 m/s (timur); 10 m/s (utara)
+Bola biliar dengan kelajuan 4,0 m/s menumbuk lenting bola lain yang diam dan bermassa sama. Bola pertama lalu bergerak pada sudut 25° dari arah semula. Tentukan arah bola kedua dan kelajuan keduanya. ||| 65° di sisi lain; 3,6 m/s dan 1,7 m/s
+Cakram 0,50 kg dengan kelajuan 4,0 m/s menumbuk cakram lain 0,50 kg yang diam. Sesudahnya, cakram pertama bergerak 2,0 m/s pada sudut 60° dari arah semula. Tentukan kecepatan cakram kedua. Apakah tumbukannya lenting? ||| 3,5 m/s pada 30° di sisi lain; ya
+Benda 10 kg yang bergerak 5,0 m/s pada arah $+x$ meledak menjadi dua keping. Keping 6,0 kg melesat 8,0 m/s pada 30° di atas sumbu $x$. Tentukan kecepatan keping 4,0 kg. ||| 6,4 m/s pada 71° di bawah sumbu $x$
+@jejak **[P]** Dua mobil bermassa sama, satu melaju ke timur dan satu ke utara dengan kelajuan yang sama, bertabrakan dan menyatu. Rongsokannya meluncur 12 m di jalan dengan $\mu_k = 0{,}60$ sebelum berhenti. Berapa kelajuan tiap mobil sebelum tabrakan? ||| 17 m/s
+Gumpalan lempung 0,20 kg bergerak 3,0 m/s pada arah $+x$ dan gumpalan 0,30 kg bergerak 2,0 m/s pada arah $-y$. Keduanya bertumbukan dan menempel. Tentukan kecepatan akhirnya. ||| 1,7 m/s pada 45° di bawah sumbu $x$
+Cakram hoki 0,16 kg dengan kelajuan 30 m/s dibelokkan 20° tanpa berubah kelajuannya. Berapa besar impuls yang diterimanya? ||| 1,7 N·s
+
+Bola menumbuk lantai licin pada sudut 30° terhadap garis normal dengan koefisien restitusi 0,60. Pada sudut berapa terhadap garis normal bola memantul? ||| 44°
+
+## Subbab 5.7: Pusat massa
+
+Benda 3,0 kg berada di $x = 1{,}0$ m dan benda 5,0 kg di $x = 5{,}0$ m. Di mana pusat massanya? ||| $x = 3{,}5$ m
+Massa Matahari 333 000 kali massa Bumi, dan jarak keduanya $1{,}496 \times 10^{11}$ m. Seberapa jauh pusat massa sistem Matahari–Bumi dari pusat Matahari? ||| 449 km
+Tiga partikel: 2,0 kg di $(0, 0)$, 3,0 kg di $(4{,}0;\ 0)$ m, dan 5,0 kg di $(4{,}0;\ 6{,}0)$ m. Tentukan pusat massanya. ||| (3,2; 3,0) m
+Panjang ikatan H–F adalah 0,0917 nm. Massa H 1,008 u dan F 19,00 u. Seberapa jauh pusat massa molekul dari inti fluorin? ||| 0,0046 nm
+Panjang ikatan H–Cl adalah 0,1275 nm. Massa H 1,008 u dan Cl 35,45 u. Seberapa jauh pusat massa molekul dari inti klorin? ||| 0,0035 nm
+Dari pelat persegi serbasama bersisi 6,0 cm (pojok kiri bawah di titik asal), dipotong persegi bersisi 3,0 cm di pojok kanan atas. Tentukan pusat massa pelat yang tersisa. ||| (2,5; 2,5) cm
+Massa per satuan panjang sebuah batang sepanjang 1,2 m bertambah sebanding dengan jarak dari ujung kirinya. Di mana pusat massanya? (Petunjuk: hasilnya $\tfrac23$ panjang batang dari ujung yang ringan.) ||| 0,80 m dari ujung kiri
+@pecah **[P]** Sebuah proyektil, jika utuh, akan jatuh 400 m dari tempat peluncuran. Di titik tertinggi ia meledak menjadi dua keping dengan perbandingan massa 1 : 3. Keping ringan terlempar balik dan jatuh tepat di tempat peluncuran. Di mana keping berat jatuh? ||| 533 m dari tempat peluncuran
+Dua peseluncur es, 60 kg dan 90 kg, berdiri diam terpisah 10 m dan saling menarik dengan tali. Di mana mereka bertemu, diukur dari posisi awal peseluncur 60 kg? ||| 6,0 m
+Benda 2,0 kg bergerak $+6{,}0$ m/s. Berapa kecepatan pusat massa sistem jika benda kedua, 4,0 kg, (a) bergerak $-3{,}0$ m/s; (b) diam? ||| (a) 0; (b) 2,0 m/s
+Benda 2,0 kg dengan kelajuan 6,0 m/s menumbuk benda 4,0 kg yang diam. Berapa energi kinetik yang tersedia untuk diubah menjadi bentuk lain? Bandingkan dengan Soal {{lekat}}. ||| 24 J; sama dengan energi yang hilang pada tumbukan menyatu
+Hitung massa tereduksi molekul CO (C 12,00 u; O 15,99 u) dan HF (H 1,008 u; F 19,00 u). ||| 6,86 u; 0,957 u
+Sebuah reaksi antara atom D (2,0 u) dan molekul HI (128 u) memerlukan energi tumbukan 1,2 eV. Berapa energi kinetik paling kecil jika (a) D ditembakkan ke HI yang diam; (b) HI ditembakkan ke D yang diam? ||| (a) 1,22 eV; (b) 78 eV
+
+Balok 3,0 kg dengan kecepatan $+4{,}0$ m/s dan balok 6,0 kg dengan kecepatan $-2{,}0$ m/s bertumbukan dan menyatu. Hitung energi kinetik yang hilang dengan massa tereduksi dan kelajuan relatif. ||| 36 J
+Balok 1,0 kg dan 2,0 kg dihubungkan pegas ($k = 600$ N/m) dan diam di lantai licin. Balok 1,0 kg dipukul sehingga tiba-tiba bergerak 3,0 m/s menuju balok lain. Berapa kecepatan pusat massa dan penekanan terbesar pegas? ||| 1,0 m/s; 0,10 m
+
+## Subbab 5.8: Roket dan sistem bermassa berubah
+
+Roket 10 000 kg menyemburkan gas 50 kg/s dengan kelajuan 3000 m/s. Berapa gaya dorongnya dan percepatan awalnya saat lepas landas tegak? ||| $1{,}5 \times 10^5$ N; $5{,}2\ \text{m/s}^2$
+Roket di ruang bebas memiliki $v_e = 2800$ m/s dan perbandingan massa 4. Berapa pertambahan kelajuannya? ||| 3,9 km/s
+Berapa perbandingan massa yang diperlukan roket satu tingkat dengan $v_e = 3{,}2$ km/s untuk memperoleh $\Delta v = 9{,}0$ km/s? Berapa bagian massa awalnya yang berupa bahan bakar? ||| 17; 94%
+Roket dua tingkat memiliki perbandingan massa 3,5 untuk tiap tingkat dan $v_e = 3000$ m/s. Berapa pertambahan kelajuan totalnya? ||| 7,5 km/s
+Selang menyemburkan 15 kg air per sekon dengan kelajuan 25 m/s. Berapa gaya reaksi pada selang? ||| 375 N
+Pasir jatuh tegak ke ban berjalan dengan laju 8,0 kg/s. Ban bergerak 1,5 m/s. Berapa gaya untuk menjaga kelajuan ban, daya yang diperlukan, dan laju pertambahan energi kinetik pasir? ||| 12 N; 18 W; 9,0 W
+Gerobak 20 kg meluncur tanpa gesekan dengan kelajuan 3,0 m/s di bawah hujan yang jatuh tegak. Berapa kelajuannya setelah terkumpul 10 kg air? ||| 2,0 m/s
+Helikopter 1200 kg melayang diam dengan mendorong udara ke bawah dengan kelajuan 25 m/s. Berapa massa udara yang harus didorongnya tiap sekon? ||| 470 kg/s
+
+Mesin ion memiliki $v_e = 25$ km/s. Berapa bagian massa awal yang harus berupa bahan bakar untuk memperoleh $\Delta v = 4{,}0$ km/s? ||| 15%
+Rantai sepanjang 1,5 m bermassa 3,0 kg dipegang tegak dengan ujung bawahnya menyentuh timbangan, lalu dilepas. Berapa gaya yang ditunjukkan timbangan tepat ketika mata rantai terakhir mendarat? ||| 88 N
+
+## Subbab 5.9: Momentum di skala atom
+
+Sebuah gas memiliki massa jenis $1{,}25\ \text{kg/m}^3$ dan $v_\text{rms} = 490$ m/s. Berapa tekanannya? ||| $1{,}0 \times 10^5$ Pa
+Butiran es 2,0 g jatuh tegak 15 m/s, sebanyak 500 butir per sekon pada tiap meter persegi atap. Berapa tekanan rata-ratanya jika butiran (a) berhenti; (b) memantul lenting? ||| (a) 15 Pa; (b) 30 Pa
+Partikel alfa (4,0 u) menumbuk lenting dan lurus inti karbon-12 yang diam. Berapa bagian energi kinetik yang tetap dibawa partikel alfa? ||| 25%
+Molekul N₂ (massa $4{,}65 \times 10^{-26}$ kg) dengan kelajuan 500 m/s menumbuk dinding secara tegak lurus dan memantul lenting. Berapa impuls yang diterima dinding? ||| $4{,}65 \times 10^{-23}$ N·s
+
+Berapa perbandingan laju efusi gas helium (4,0 g/mol) dan nitrogen (28 g/mol)? ||| 2,6
+Dalam spektrometer waktu-terbang, ion bermuatan tunggal bermassa 50 u dengan energi kinetik 1500 eV menempuh lintasan 0,80 m. Berapa waktu terbangnya? ($1\ \text{u} = 1{,}6605 \times 10^{-27}$ kg.) ||| 10,5 μs
+Atom rubidium-87 (86,9 u) menyerap foton berpanjang gelombang 780 nm. Berapa perubahan kelajuannya? ($h = 6{,}626 \times 10^{-34}$ J·s; momentum foton $h/\lambda$.) ||| 5,9 mm/s
+
+## Soal gabungan
+
+@putar **[P]** Peluru 10 g ditembakkan mendatar ke balok 1,0 kg yang tergantung pada tali 0,50 m, dan menancap. Berapa kelajuan peluru paling kecil agar balok dapat berputar satu lingkaran tegak penuh? ||| 500 m/s
+Balok bermassa $m$ dilepas dari diam di lereng licin setinggi 1,8 m. Di lantai licin di kaki lereng ia menumbuk dan menempel pada balok bermassa $2m$ yang diam. Keduanya lalu menaiki lereng licin lain. Sampai ketinggian berapa mereka naik? ||| 0,20 m
+@pegas **[P]** Balok 1,0 kg dengan kelajuan 4,0 m/s di lantai licin menumbuk balok 3,0 kg yang diam. Di depan balok kedua terpasang pegas ringan ($k = 1200$ N/m) yang menjadi penyangga tumbukan. (a) Berapa penekanan terbesar pegas? (b) Berapa kecepatan kedua balok setelah berpisah? ||| (a) 0,10 m; (b) −2,0 m/s dan +2,0 m/s
+Peluru 15 g dengan kelajuan 400 m/s menancap di balok 1,485 kg yang diam di tepi meja licin setinggi 0,80 m. Seberapa jauh dari kaki meja balok itu jatuh? ||| 1,6 m
+
+## Subbab 5.10: Gerak rotasi
+Cakram keras komputer berputar 7200 rpm. Berapa kecepatan sudutnya dan kelajuan titik pada jarak 4,5 cm dari sumbu? ||| 754 rad/s; 34 m/s
+Berapa kecepatan sudut jarum menit dan jarum detik jam? ||| $1{,}75 \times 10^{-3}$ rad/s; 0,105 rad/s
+Bumi berputar sekali tiap 86 164 s. Berapa kecepatan sudutnya, dan kelajuan titik di khatulistiwa ($R = 6{,}37 \times 10^6$ m)? ||| $7{,}29 \times 10^{-5}$ rad/s; 465 m/s
+Tabung sentrifus berjarak 8,0 cm dari sumbu dan berputar 10 000 rpm. Berapa kali $g$ percepatan sentripetalnya? ||| 8950 kali
+Batang homogen 1,2 m bermassa 3,0 kg. Berapa momen inersianya terhadap sumbu melalui pusat dan melalui ujung? ||| 0,36 kg·m²; 1,44 kg·m²
+Bola pejal 0,50 kg berjari-jari 11 cm berputar 3,0 putaran per detik. Berapa momen inersia dan energi kinetik rotasinya? ||| $2{,}4 \times 10^{-3}$ kg·m²; 0,43 J
+Roda tipis berbentuk cincin bermassa 2,0 kg menggelinding dengan kelajuan 5,0 m/s. Berapa energi kinetik totalnya? ||| 50 J
+Bola pejal menggelinding dari diam menuruni lereng setinggi 2,0 m. Berapa kelajuannya di dasar? ||| 5,3 m/s
+## Subbab 5.11: Torsi, dinamika rotasi, dan kesetimbangan
+Gaya 150 N mendorong pintu tegak lurus pada jarak 0,80 m dari engsel. Berapa torsinya? ||| 120 N·m
+Anak bermassa 25 kg duduk 1,5 m dari poros jungkat-jungkit. Di mana anak 30 kg harus duduk di sisi lain agar seimbang? ||| 1,25 m dari poros
+Roda bermomen inersia 0,80 kg·m² mula-mula diam, lalu diberi torsi tetap 4,0 N·m selama 5,0 s. Berapa percepatan sudut dan kecepatan sudut akhirnya? ||| 5,0 rad/s²; 25 rad/s
+Gaya 20 N menarik tali yang dililitkan pada cakram pejal 10 kg berjari-jari 0,20 m. Berapa percepatan sudutnya? ||| 20 rad/s²
+Beban 1,0 kg tergantung pada tali yang melilit katrol silinder pejal 2,0 kg. Berapa percepatan beban? ||| 4,9 m/s²
+@tangga Tangga homogen 5,0 m bermassa 15 kg bersandar pada dinding licin dengan sudut 60° terhadap lantai. Berapa gaya dinding pada tangga dan koefisien gesek statis terkecil lantai agar tangga tidak tergelincir? ||| 42 N; 0,29
+## Subbab 5.12: Momentum sudut
+Berapa momentum sudut rotasi Bumi ($I = 8{,}01 \times 10^{37}$ kg·m²)? ||| $5{,}8 \times 10^{33}$ kg·m²/s
+Seseorang di kursi putar berputar 2,0 putaran per detik dengan momen inersia 3,0 kg·m², lalu merentangkan lengan sehingga momen inersianya 5,0 kg·m². Berapa kecepatan putarnya? ||| 1,2 putaran per detik
+Molekul HCl memiliki panjang ikatan 127,5 pm. Hitung tetapan rotasinya (cm⁻¹) dan frekuensi garis $J = 0 \to 1$. ||| 10,6 cm⁻¹; 635 GHz
+Berapa kali tetapan rotasi DCl dibandingkan HCl? (Panjang ikatan sama; massa D = 2,014 u.) ||| 0,51 kali
+Hitung tetapan rotasi N₂ (14,003 u; panjang ikatan 109,8 pm). ||| 2,0 cm⁻¹
+Berapa energi rotasi molekul CO pada tingkat $J = 1$ dan $J = 10$, dalam eV? ($B = 3{,}84 \times 10^{-23}$ J) ||| $4{,}8 \times 10^{-4}$ eV; 0,026 eV
+@nacl Molekul NaCl berfasa gas memiliki panjang ikatan 236 pm. Hitung massa tereduksi dan tetapan rotasinya dalam cm⁻¹. ||| 13,9 u; 0,22 cm⁻¹
+Di mana letak garis $J = 3 \to 4$ dalam spektrum rotasi HCl ($B = 10{,}58$ cm⁻¹)? ||| 84,6 cm⁻¹

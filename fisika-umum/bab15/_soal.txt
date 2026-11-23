@@ -1,0 +1,120 @@
+## Subbab 15.2: Dilatasi waktu dan kontraksi panjang
+
+> Gunakan $c = 2{,}998 \times 10^8$ m/s, $h = 6{,}626 \times 10^{-34}$ J·s $= 4{,}136 \times 10^{-15}$ eV·s, $hc = 1240$ eV·nm, $\hbar = 1{,}055 \times 10^{-34}$ J·s, $m_ec^2 = 0{,}511$ MeV, $m_pc^2 = 938{,}3$ MeV, 1 u $= 931{,}5$ MeV/$c^2$, $R_H = 1{,}097 \times 10^7$ m⁻¹, $a_0 = 0{,}0529$ nm, dan energi satu mol foton $1{,}196 \times 10^5/\lambda$ kJ/mol ($\lambda$ dalam nm).
+
+Hitung $\gamma$ untuk $v = 0{,}30c$; $0{,}95c$; dan $0{,}9999c$. ||| 1,048; 3,20; 70,7
+Pada kelajuan berapa $\gamma = 2$? $\gamma = 10$? ||| $0{,}866c$; $0{,}995c$
+Pion bermuatan berumur rata-rata 26 ns ketika diam. Jika melaju $0{,}99c$, berapa umurnya menurut laboratorium dan berapa jauh ia bergerak? ||| 184 ns; 55 m
+Pesawat menuju bintang berjarak 4,2 tahun cahaya dengan $0{,}95c$. Berapa lama perjalanan menurut Bumi dan menurut awak? ||| 4,4 tahun; 1,4 tahun
+Batang 2,0 m melaju $0{,}80c$ searah panjangnya. Berapa panjang terukurnya? ||| 1,2 m
+Pada kelajuan berapa panjang benda menyusut menjadi setengahnya? Menyusut 1%? ||| $0{,}866c$; $0{,}14c$
+Peluru ditembakkan $0{,}50c$ ke depan dari pesawat yang melaju $0{,}80c$. Berapa kelajuannya terhadap Bumi? Ulangi untuk $0{,}90c$ dan $0{,}90c$. ||| $0{,}929c$; $0{,}994c$
+Astronaut pergi selama satu tahun (menurut jamnya) dengan $0{,}60c$. Berapa lama waktu berlalu di Bumi? ||| 1,25 tahun
+@iss Stasiun antariksa mengorbit 7,66 km/s. Berapa mikrodetik jam astronaut tertinggal setelah enam bulan (182,5 hari) karena dilatasi waktu? ||| 5100 μs
+Muon melaju $0{,}9995c$. Berapa $\gamma$ dan umurnya menurut pengamat diam (umur wajar 2,2 μs)? ||| 31,6; 70 μs
+
+## Subbab 15.3: Massa dan energi
+
+Berapa energi diam proton dalam joule, dan energi diam 1,0 kg zat? ||| $1{,}50 \times 10^{-10}$ J; $9{,}0 \times 10^{16}$ J
+Elektron melaju $0{,}80c$. Berapa energi kinetiknya (keV) dan momentumnya (MeV/$c$)? ||| 341 keV; 0,68 MeV/$c$
+Elektron berenergi kinetik 500 keV. Berapa $\gamma$ dan kelajuannya? ||| 1,98; $0{,}863c$
+Proton berenergi kinetik sama dengan energi diamnya. Berapa kelajuannya? ||| $0{,}866c$
+Proton di pemercepat LHC berenergi 6,5 TeV. Berapa $\gamma$-nya? ||| 6900
+Berapa usaha (keV) untuk mempercepat elektron dari diam ke $0{,}50c$, dan dari $0{,}50c$ ke $0{,}90c$? ||| 79 keV; 582 keV
+Massa deuteron 2,013553 u. Hitung defek massa dan energi ikatnya. ||| 0,002388 u; 2,22 MeV
+@besi Massa inti ⁵⁶Fe adalah 55,920675 u (26 proton, 30 neutron). Hitung energi ikat total dan tiap nukleon. ||| 492 MeV; 8,79 MeV
+Pembelahan satu inti ²³⁵U melepas sekitar 200 MeV. Berapa energi tiap kilogram uranium? ||| $8{,}2 \times 10^{13}$ J/kg
+Pembangkit nuklir 1000 MW listrik (efisiensi 33%) bekerja setahun ($3{,}16 \times 10^7$ s). Berapa massa yang berubah menjadi energi? ||| 1,06 kg
+Pembakaran 1 mol metana dengan 2 mol O₂ (total 80 g) melepas 890 kJ. Berapa massa yang hilang, dan berapa bagiannya? ||| $9{,}9 \times 10^{-12}$ kg; $1{,}2 \times 10^{-10}$
+Elektron dan positron diam saling memusnahkan menjadi dua foton. Berapa energi dan panjang gelombang tiap foton? ||| 511 keV; 2,43 pm
+Pada $v = 0{,}10c$, berapa perbandingan energi kinetik relativistik terhadap $\tfrac12mv^2$? ||| 1,008
+
+## Subbab 15.4: Benda hitam dan kuantum Planck
+
+Tentukan panjang gelombang puncak pancaran benda bersuhu 310 K, 1000 K, 3000 K, dan 10 000 K. ||| 9,3 μm; 2,9 μm; 966 nm; 290 nm
+Spektrum bintang berpuncak pada 480 nm; spektrum pancaran Bumi berpuncak pada 10 μm. Berapa suhu masing-masing? ||| 6040 K; 290 K
+Hitung kuantum energi osilator berfrekuensi $1{,}0 \times 10^{13}$ Hz dan bandingkan dengan $k_BT$ pada 300 K (0,0259 eV). ||| 0,041 eV; 1,6 kali
+Beban pada pegas bergetar 5,0 Hz dengan energi 0,020 J. Berapa bilangan kuantumnya? ||| $6 \times 10^{30}$
+Suhu sebuah benda hitam naik dari 3000 K ke 6000 K. Berapa kali daya pancarnya, dan bagaimana $\lambda_\text{maks}$ berubah? ||| 16 kali; menjadi setengah
+Bintang berjari-jari $7{,}0 \times 10^8$ m bersuhu permukaan 10 000 K. Berapa daya pancarnya ($\sigma = 5{,}67 \times 10^{-8}$ W/(m²·K⁴))? ||| $3{,}5 \times 10^{27}$ W
+
+## Subbab 15.5: Efek fotolistrik
+
+Hitung energi foton (eV) untuk 450 nm, 650 nm, 10 μm, dan 0,10 nm. ||| 2,76; 1,91; 0,124; $1{,}24 \times 10^4$ eV
+Berapa panjang gelombang foton berenergi 3,0 eV dan 13,6 eV? ||| 413 nm; 91 nm
+Cahaya 500 nm jatuh pada sesium ($\phi = 2{,}14$ eV). Berapa energi kinetik maksimum elektron, dan berapa panjang gelombang ambangnya? ||| 0,34 eV; 579 nm
+Cahaya 250 nm jatuh pada seng ($\phi = 4{,}33$ eV). Tentukan $K_\text{maks}$, potensial henti, dan kelajuan elektron tercepat. ||| 0,63 eV; 0,63 V; $4{,}7 \times 10^5$ m/s
+Potensial henti suatu logam 1,2 V untuk cahaya 300 nm. Berapa fungsi kerjanya? ||| 2,93 eV
+Berapa panjang gelombang ambang tembaga ($\phi = 4{,}65$ eV)? Dapatkah cahaya tampak melepaskan elektronnya? ||| 267 nm; tidak
+Lampu memancarkan 5,0 W cahaya 550 nm. Berapa foton tiap detik? ||| $1{,}4 \times 10^{19}$
+@planck Pada suatu logam, potensial henti 0,60 V untuk cahaya 500 nm dan 1,43 V untuk 375 nm. Tentukan $h$ (dalam eV·s) dan fungsi kerjanya. ||| $4{,}15 \times 10^{-15}$ eV·s; 1,88 eV
+Cahaya 200 nm jatuh pada aluminium ($\phi = 4{,}08$ eV). Berapa $K_\text{maks}$ dalam eV dan joule? ||| 2,12 eV; $3{,}4 \times 10^{-19}$ J
+Laser hijau 532 nm berdaya 1,0 mW. Berapa foton tiap detik? ||| $2{,}7 \times 10^{15}$
+
+## Subbab 15.6: Foton dan materi
+
+Berapa momentum foton 600 nm dan foton sinar-X 0,10 nm? ||| $1{,}1 \times 10^{-27}$; $6{,}6 \times 10^{-24}$ kg·m/s
+Berapa panjang gelombang terpendek dari tabung sinar-X bertegangan 50 kV dan 100 kV? ||| 24,8 pm; 12,4 pm
+Sinar-X 0,154 nm dipantulkan bidang-bidang kristal LiF berjarak 0,201 nm. Pada sudut berapa pantulan orde pertama dan kedua? ||| 22,5°; 50,0°
+Pantulan Bragg orde pertama sinar-X 0,154 nm teramati pada 22,5°. Berapa jarak antarbidangnya? ||| 0,201 nm
+Berapa energi satu mol foton 450 nm dan 600 nm? ||| 266 kJ/mol; 199 kJ/mol
+Berapa panjang gelombang terpanjang yang dapat memutus ikatan O=O (498 kJ/mol), C–H (413), dan N≡N (945)? ||| 240 nm; 290 nm; 127 nm
+Hitung pergeseran Compton pada sudut hambur 60° dan 180°. ||| 1,21 pm; 4,85 pm
+Laser 2,0 W berpanjang gelombang 532 nm menyinari cuplikan 10 menit. Berapa mol foton yang dipancarkannya? ||| $5{,}3 \times 10^{-3}$ mol
+Penguraian ozon, O₃ → O₂ + O, memerlukan 105 kJ/mol. Berapa panjang gelombang terpanjang yang cukup? Mengapa ozon tetap menyerap terutama ultraviolet? ||| 1140 nm; serapan ditentukan tingkat energi elektroniknya, bukan hanya energi ikatan
+Cahaya Matahari (1361 W/m²) jatuh tegak lurus pada layar pemantul sempurna seluas 100 m². Berapa gayanya? ||| $9{,}1 \times 10^{-4}$ N
+@kuantum Sebanyak 0,0020 mol zat bereaksi ketika larutannya menyerap 3,0 kJ cahaya 366 nm. Berapa hasil kuantumnya? ||| 0,22
+Molekul penglihatan (retinal) menyerap foton 500 nm. Berapa energinya dalam kJ/mol? ||| 239 kJ/mol
+
+## Subbab 15.7: Spektrum atom dan model Bohr
+
+Hitung panjang gelombang dua garis pertama deret Paschen. ||| 1875 nm; 1282 nm
+Hitung panjang gelombang peralihan $3 \to 1$ dan batas deret Lyman. ||| 102,6 nm; 91,2 nm
+Berapa energi foton yang dipancarkan pada peralihan $5 \to 2$? ||| 2,86 eV
+Berapa jari-jari orbit Bohr $n = 3$ dan $n = 5$? ||| 0,476 nm; 1,32 nm
+Berapa energi untuk mengionkan atom hidrogen dari $n = 3$, dan panjang gelombang foton yang sanggup melakukannya? ||| 1,51 eV; 821 nm
+Berapa energi ionisasi Li²⁺, dan panjang gelombang peralihan $2 \to 1$-nya? ||| 122,4 eV; 13,5 nm
+Hitung panjang gelombang peralihan $2 \to 1$ dan $3 \to 2$ pada He⁺. ||| 30,4 nm; 164 nm
+Atom hidrogen dalam keadaan dasar menyerap foton 12,75 eV. Ke tingkat mana ia tereksitasi? ||| $n = 4$
+@zef Energi ionisasi kalium 4,34 eV (elektron valensi di $n = 4$) dan litium 5,39 eV ($n = 2$). Taksir $Z_\text{ef}$ masing-masing. ||| 2,26; 1,26
+Taksir energi dan panjang gelombang garis $K_\alpha$ molibdenum ($Z = 42$) dan besi ($Z = 26$). ||| 17,1 keV, 72 pm; 6,4 keV, 0,19 nm
+Foton 15,0 eV mengionkan atom hidrogen dalam keadaan dasar. Berapa energi kinetik elektron yang lepas? ||| 1,4 eV
+Hitung $N_2/N_1$ untuk hidrogen pada 10 000 K. ||| $2{,}9 \times 10^{-5}$
+Berapa banyak garis spektrum yang dapat dipancarkan atom hidrogen yang dieksitasi ke $n = 5$? ||| 10
+Berapa kali elektron mengelilingi inti tiap detik pada orbit Bohr pertama ($v = 2{,}19 \times 10^6$ m/s)? ||| $6{,}6 \times 10^{15}$
+
+## Subbab 15.8: Gelombang materi dan ketidakpastian
+
+Hitung panjang gelombang de Broglie elektron yang dipercepat melalui 50 V dan melalui 10 kV (tak relativistik). ||| 0,173 nm; 12,3 pm
+Hitung panjang gelombang proton berkelajuan $1{,}0 \times 10^6$ m/s dan atom helium ($6{,}65 \times 10^{-27}$ kg) berkelajuan 1360 m/s. ||| 0,40 pm; 0,073 nm
+Berapa tegangan pemercepat agar panjang gelombang elektron 0,10 nm? ||| 150 V
+Berapa panjang gelombang neutron ($1{,}675 \times 10^{-27}$ kg) yang setimbang termal pada 77 K? ||| 0,29 nm
+Molekul C₆₀ (720 u) berkelajuan 220 m/s menunjukkan interferensi. Berapa panjang gelombangnya? ||| 2,5 pm
+Elektron terkurung dalam daerah 1,0 nm. Berapa ketidakpastian terkecil momentum dan kelajuannya? ||| $5{,}3 \times 10^{-26}$ kg·m/s; $5{,}8 \times 10^4$ m/s
+Proton terkurung dalam inti selebar 5,0 fm. Taksir energi kinetiknya dari asas ketidakpastian. ||| 0,2 MeV
+Keadaan tereksitasi berumur 1,0 ps. Berapa ketidakpastian energinya dan lebar frekuensi garisnya? ||| $3{,}3 \times 10^{-4}$ eV; 80 GHz
+Bola 0,10 kg diketahui letaknya sampai 1,0 μm. Berapa ketidakpastian terkecil kelajuannya? ||| $5 \times 10^{-28}$ m/s
+Hitung panjang gelombang elektron 200 keV dengan rumus relativistik. ||| 2,5 pm
+
+## Subbab 15.9: Bilangan kuantum dan orbital
+
+Berapa orbital dan berapa elektron paling banyak pada kulit $n = 4$? ||| 16; 32
+Sebutkan semua nilai $\ell$ dan $m_\ell$ yang mungkin untuk $n = 2$. ||| $\ell = 0$: $m_\ell = 0$; $\ell = 1$: $m_\ell = -1, 0, +1$
+Mana yang tidak mungkin: 2d, 3p, 4f, 1p? ||| 2d dan 1p
+Berapa elektron paling banyak dalam subkulit 4f? ||| 14
+
+## Subbab 15.10: Persamaan Schrödinger: partikel dalam kotak dan penerobosan
+@kotak Sebuah elektron terkurung dalam kotak satu dimensi selebar 0,30 nm. Berapa energi keadaan dasarnya (dalam eV), dan berapa panjang gelombang foton yang diserap pada transisi $n = 1 \to 2$? ||| 4,18 eV; 99 nm
+Dengan model elektron bebas, perkirakan panjang gelombang serapan heksatriena (6 elektron π, $L = 6 \times 0{,}139$ nm). Hasil terukur 258 nm. ||| 328 nm
+Elektron berenergi 2,0 eV di bawah puncak penghalang. Berapa peluang penerobosannya bila tebal penghalang 1,0 nm dan 0,50 nm? ||| $5 \times 10^{-7}$; $7 \times 10^{-4}$
+Jika massa partikel dalam kotak dijadikan dua kali dan panjang kotak dijadikan setengahnya, energi keadaan dasarnya menjadi berapa kali? ||| 2 kali
+## Subbab 15.11: Ikatan kimia sebagai gejala kuantum
+Molekul Li₂ diikat oleh dua elektron 2s yang menempati orbital ikatan (elektron 1s tidak ikut serta). Berapa orde ikatannya? Bagaimana dengan Be₂, yang memiliki empat elektron 2s? ||| 1; 0 (tidak terikat)
+Getaran HCl berbilangan gelombang 2886 cm⁻¹. Berapa energi titik nolnya dalam eV dan kJ/mol? ||| 0,179 eV; 17,3 kJ/mol
+Menurut model sederhana efek isotop kinetik di subbab 15.11 (selisih 800 cm⁻¹), berapa $k_\text{H}/k_\text{D}$ pada 373 K? ||| 4,7
+## Subbab 15.12: Inti atom dan radioaktivitas
+Berapa jari-jari inti ⁵⁶Fe? ||| 4,6 fm
+Iodin-131 ($t_{1/2} = 8{,}02$ hari) dikirim dengan aktivitas 100 MBq. Berapa aktivitasnya 30 hari kemudian? ||| 7,5 MBq
+Tulang purba memiliki aktivitas ¹⁴C seperdelapan aktivitas tulang segar. Berapa umurnya? ||| 17 200 tahun
+@radium Radium-226 memiliki waktu paruh 1600 tahun. Berapa aktivitas 1,0 g radium? ||| $3{,}7 \times 10^{10}$ Bq
+Isotop fosfor-32 untuk penandaan DNA memiliki waktu paruh 14,3 hari. Berapa tetapan peluruhannya, dan berapa persen yang tersisa setelah 60 hari? ||| 0,0485 per hari; 5,5%
