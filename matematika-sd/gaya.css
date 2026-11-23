@@ -1,0 +1,89 @@
+/* Pintar Matematika Dasar — gaya rangkuman anak SD */
+:root {
+  --tua: #12406a;      /* biru tua */
+  --utama: #1f7fc4;    /* biru */
+  --muda: #e8f3fc;     /* latar biru muda */
+  --hijau: #1a8a6a;
+  --hijau-muda: #e6f6ef;
+  --jingga: #e07b22;
+  --jingga-muda: #fff3e6;
+  --merah: #c0392b;
+  --merah-muda: #fdeeec;
+  --ungu: #6a4fb3;
+  --ungu-muda: #f1edfb;
+  --garis: #c9dcec;
+  --teks: #1b2430;
+}
+@page { size: A4; margin: 16mm 17mm 18mm 17mm; }
+html { font-family: "Inter", "Liberation Sans", sans-serif; font-size: 11.6pt; color: var(--teks); }
+body { margin: 0; line-height: 1.5; }
+p { margin: 0 0 2.2mm 0; }
+strong { color: var(--tua); }
+
+/* Judul bab */
+section.bab { break-before: page; }
+.babkepala { display: flex; align-items: center; gap: 5mm; margin: 0 0 5mm 0;
+  padding: 4mm 5mm; border-radius: 4mm; background: var(--tua); color: #fff; }
+.babkepala .no { font-size: 30pt; font-weight: 900; line-height: 1; background: #fff; color: var(--tua);
+  border-radius: 3mm; min-width: 15mm; text-align: center; padding: 2mm 2mm; }
+.babkepala .judul { font-size: 19pt; font-weight: 800; line-height: 1.15; }
+.babkepala .kecil { display:block; font-size: 8.5pt; font-weight: 700; letter-spacing: 2.5px; opacity: .85; margin-bottom: 1mm; }
+h1 { display: none; }
+h2 { font-size: 13.5pt; font-weight: 800; color: var(--utama); margin: 5.5mm 0 2mm 0;
+  padding-bottom: 1mm; border-bottom: 1.5px solid var(--garis); break-after: avoid; }
+h3 { font-size: 11.6pt; font-weight: 800; color: var(--tua); margin: 3.5mm 0 1.5mm 0; break-after: avoid; }
+ul, ol { margin: 0 0 2.5mm 0; padding-left: 7mm; }
+li { margin: 0.6mm 0; }
+
+/* Kotak */
+div.ingat, div.contoh, div.awas, div.latihan, div.tips {
+  border-radius: 3mm; padding: 3mm 4.5mm 1.5mm 4.5mm; margin: 3.5mm 0; break-inside: avoid; }
+div.ingat  { background: var(--hijau-muda); border: 2px solid var(--hijau); }
+div.contoh { background: var(--muda); border-left: 5px solid var(--utama); }
+div.awas   { background: var(--merah-muda); border-left: 5px solid var(--merah); }
+div.tips   { background: var(--jingga-muda); border-left: 5px solid var(--jingga); }
+div.latihan{ background: #fff; border: 2px dashed var(--ungu); }
+div.ingat > p:first-child strong { color: var(--hijau); }
+div.awas > p:first-child strong { color: var(--merah); }
+div.tips > p:first-child strong { color: var(--jingga); }
+div.latihan > p:first-child strong { color: var(--ungu); }
+div.contoh > p:first-child strong { color: var(--utama); }
+div.latihan ol li { margin: 1.4mm 0; }
+
+/* Tabel */
+table { border-collapse: collapse; margin: 2.5mm auto 3.5mm auto; break-inside: avoid; }
+th { background: var(--tua); color: #fff; font-weight: 700; padding: 1.4mm 3mm; font-size: 10.5pt; }
+td { border: 1px solid var(--garis); padding: 1.2mm 3mm; text-align: center; font-size: 10.8pt; }
+tr:nth-child(even) td { background: #f5f9fd; }
+
+/* Hitung bersusun */
+pre, code { font-family: "JetBrains Mono", "Liberation Mono", monospace; }
+pre { background: #fbfcfe; border: 1px solid var(--garis); border-radius: 2mm; padding: 2.5mm 5mm;
+  font-size: 11.5pt; line-height: 1.35; display: inline-block; margin: 1mm 0 3mm 0; }
+.susun { display: flex; gap: 8mm; flex-wrap: wrap; align-items: flex-start; }
+
+/* Gambar SVG */
+.gbr { text-align: center; margin: 3mm 0; break-inside: avoid; }
+.gbr svg { max-width: 100%; }
+.gbr .ket { font-size: 9.5pt; color: #4a5566; margin-top: 1mm; }
+.gbrbaris { display: flex; justify-content: center; gap: 6mm; flex-wrap: wrap; text-align: center; font-size: 9.5pt; }
+.gbrbaris > div { width: 30%; }
+
+/* Matematika */
+math { font-size: 1.08em; }
+.besar { font-size: 15pt; font-weight: 800; text-align: center; color: var(--tua); margin: 2mm 0 3mm 0; }
+
+/* Daftar isi */
+.toc h2 { border: 0; font-size: 20pt; color: var(--tua); }
+.toc .baris { display: flex; align-items: baseline; font-size: 12.5pt; margin: 3.2mm 0; }
+.toc .baris .n { background: var(--tua); color: #fff; font-weight: 800; border-radius: 1.6mm; min-width: 9mm;
+  text-align: center; margin-right: 4mm; padding: .3mm 0; }
+.toc .baris .t { font-weight: 700; }
+.toc .baris .d { flex: 1; border-bottom: 1.5px dotted #9fb3c8; margin: 0 2mm; transform: translateY(-1mm); }
+.toc .baris .h { font-weight: 800; color: var(--utama); }
+.toc .catatan { margin-top: 10mm; padding: 4mm 5mm; background: var(--muda); border-radius: 3mm; font-size: 11pt; }
+.kunci h2 { break-before: auto; }
+.kunci ol { columns: 2; column-gap: 10mm; }
+.gbrgrid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm 2mm; text-align: center;
+  font-size: 10pt; color: var(--tua); margin: 3mm 0 4mm 0; break-inside: avoid; }
+.gbrgrid svg { width: 36mm; height: auto; }

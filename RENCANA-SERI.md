@@ -30,6 +30,8 @@ Status: ☑ selesai · ◐ rancangan ada · ☐ belum
 | 18 | Kimia Komputasi dan AI untuk Kimia | Kimia Komputasi; Penemuan Kimia Berbasis AI | 4, 7 | akhir 2027 | ☐ |
 | 19 | Metodologi Penelitian Kimia | Metodologi Penelitian | 4 | akhir 2027 | ☐ |
 
+Di luar seri kuliah: **Pintar Matematika Dasar** (rangkuman matematika SD kelas 3–6 untuk adik penyusun, 8 bab, ± 30 halaman) ☑ `matematika-sd/`.
+
 Opsional bila sempat: Biologi Umum (sem 1), Kimia Lingkungan dan Analisis Elektrokimia (sem 5), Penentuan Struktur Molekul (pilihan sem 5).
 
 ## Daftar isi rancangan
