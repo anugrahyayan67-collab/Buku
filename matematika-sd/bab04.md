@@ -80,7 +80,7 @@ Jadi 735 : 6 = **122 sisa 3**. Cek: 6 × 122 + 3 = 732 + 3 = 735 ✓.
 :::
 
 ::: latihan
-**Latihan Bab 4**
+**Latihan Bab 4** · [lihat kunci jawaban →](#kunci4)
 
 1. 56 : 8 = …
 2. 63 : 7 = …

@@ -1,6 +1,8 @@
 Kerjakan dulu semua latihan di kertas, baru cocokkan di sini. Kalau jawabanmu berbeda, cari letak salahnya. Itu cara belajar yang paling cepat.
 
-## Bab 1 · Bilangan dan Nilai Tempat
+## Bab 1 · Bilangan dan Nilai Tempat {#kunci1}
+
+[← kembali ke Bab 1](#bab1)
 
 1. 9.000 + 50 + 4 (puluhannya 5, ratusannya 0)
 2. 30.000 (angka 3 di tempat puluh ribuan)
@@ -11,7 +13,9 @@ Kerjakan dulu semua latihan di kertas, baru cocokkan di sini. Kalau jawabanmu be
 7. 5.000 (angka ratusan 4, dibulatkan ke bawah)
 8. 7.410 (angka terbesar di depan, 0 di belakang)
 
-## Bab 2 · Penjumlahan dan Pengurangan
+## Bab 2 · Penjumlahan dan Pengurangan {#kunci2}
+
+[← kembali ke Bab 2](#bab2)
 
 1. 6.133
 2. 50.403
@@ -22,7 +26,9 @@ Kerjakan dulu semua latihan di kertas, baru cocokkan di sini. Kalau jawabanmu be
 7. 3.450 + 1.275 − 680 = 4.045 buku
 8. □ = 7.000 − 4.528 = 2.472
 
-## Bab 3 · Perkalian
+## Bab 3 · Perkalian {#kunci3}
+
+[← kembali ke Bab 3](#bab3)
 
 1. 5 + 5 + 5 + 5 = 20
 2. 56
@@ -33,7 +39,9 @@ Kerjakan dulu semua latihan di kertas, baru cocokkan di sini. Kalau jawabanmu be
 7. 1.440 (45 × 2 = 90; 45 × 30 = 1.350; 90 + 1.350)
 8. 24 × 15 = 360 pensil
 
-## Bab 4 · Pembagian
+## Bab 4 · Pembagian {#kunci4}
+
+[← kembali ke Bab 4](#bab4)
 
 1. 7
 2. 9
@@ -44,7 +52,9 @@ Kerjakan dulu semua latihan di kertas, baru cocokkan di sini. Kalau jawabanmu be
 7. 206 (perhatikan angka 0 di tengah)
 8. 150 : 40 = 3 sisa 30. Sisa 30 siswa tetap butuh bus, jadi **4 bus**.
 
-## Bab 5 · Pecahan
+## Bab 5 · Pecahan {#kunci5}
+
+[← kembali ke Bab 5](#bab5)
 
 1. Dimakan 3/8, tersisa 5/8
 2. 3/4 (atas dan bawah dibagi 5)
@@ -55,7 +65,9 @@ Kerjakan dulu semua latihan di kertas, baru cocokkan di sini. Kalau jawabanmu be
 7. 30 : 5 = 6, lalu 2 × 6 = 12 buku
 8. 3/5 = 6/10 = 0,6 = 60%
 
-## Bab 6 · Aljabar Dasar
+## Bab 6 · Aljabar Dasar {#kunci6}
+
+[← kembali ke Bab 6](#bab6)
 
 1. □ = 75 − 38 = 37
 2. □ = 56 + 24 = 80
@@ -66,7 +78,9 @@ Kerjakan dulu semua latihan di kertas, baru cocokkan di sini. Kalau jawabanmu be
 7. 32 × 7 = 224
 8. 29, 35 (tambah 6) dan 48, 96 (kali 2)
 
-## Bab 7 · Bangun Datar
+## Bab 7 · Bangun Datar {#kunci7}
+
+[← kembali ke Bab 7](#bab7)
 
 1. Persegi dan persegi panjang
 2. Trapesium
@@ -77,7 +91,9 @@ Kerjakan dulu semua latihan di kertas, baru cocokkan di sini. Kalau jawabanmu be
 7. Benar. Persegi punya 4 sudut siku-siku dan sisi berhadapan sama panjang, jadi memenuhi ciri persegi panjang.
 8. Jawaban bebas, misalnya jam dinding (lingkaran), pintu (persegi panjang), penggaris segitiga (segitiga).
 
-## Bab 8 · Keliling dan Luas
+## Bab 8 · Keliling dan Luas {#kunci8}
+
+[← kembali ke Bab 8](#bab8)
 
 1. Keliling 36 cm, luas 81 cm²
 2. Keliling 42 cm, luas 90 cm²

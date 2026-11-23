@@ -112,7 +112,7 @@ Kita pecah 24 menjadi 4 dan 20 (penyebaran).
 :::
 
 ::: latihan
-**Latihan Bab 3**
+**Latihan Bab 3** · [lihat kunci jawaban →](#kunci3)
 
 1. Tulis 5 × 4 sebagai penjumlahan berulang, lalu hitung hasilnya.
 2. 7 × 8 = …

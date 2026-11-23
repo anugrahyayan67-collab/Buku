@@ -75,7 +75,7 @@ Tempat ratusan berisi 7. Angka di kanannya (puluhan) adalah 6, dan 6 ≥ 5, jadi
 :::
 
 ::: latihan
-**Latihan Bab 1**
+**Latihan Bab 1** · [lihat kunci jawaban →](#kunci1)
 
 1. Tulis bentuk panjang dari 9.054.
 2. Berapa nilai angka 3 pada 230.418?

@@ -96,7 +96,7 @@ Pola adalah aturan yang **berulang**. Untuk melanjutkan pola, cari aturannya den
 </svg><div class="ket">Bilangan persegi: banyak kotak pada persegi yang sisinya 1, 2, 3, 4, …</div></div>
 
 ::: latihan
-**Latihan Bab 6**
+**Latihan Bab 6** · [lihat kunci jawaban →](#kunci6)
 
 1. □ + 38 = 75
 2. □ − 24 = 56

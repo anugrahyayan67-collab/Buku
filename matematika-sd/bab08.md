@@ -111,7 +111,7 @@ Luas = $\frac{22}{7}$ × 7 × 7 = 22 × 7 = **154 cm²**.
 :::
 
 ::: latihan
-**Latihan Bab 8**
+**Latihan Bab 8** · [lihat kunci jawaban →](#kunci8)
 
 1. Hitung keliling dan luas persegi dengan sisi 9 cm.
 2. Hitung keliling dan luas persegi panjang 15 cm × 6 cm.

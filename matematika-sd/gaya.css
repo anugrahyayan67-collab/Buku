@@ -87,3 +87,6 @@ math { font-size: 1.08em; }
 .gbrgrid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm 2mm; text-align: center;
   font-size: 10pt; color: var(--tua); margin: 3mm 0 4mm 0; break-inside: avoid; }
 .gbrgrid svg { width: 36mm; height: auto; }
+a { color: inherit; text-decoration: none; }
+a.baris { color: inherit; }
+div.latihan > p:first-child a, .kunci p a { color: var(--utama); font-weight: 700; font-size: 10pt; }

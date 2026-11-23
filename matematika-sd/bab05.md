@@ -64,7 +64,7 @@ Pecahan berpenyebut 10 atau 100 bisa ditulis dengan **koma**: $\frac{3}{10} = 0{
 | Persen | 50% | 25% | 75% | 20% | 10% |
 
 ::: latihan
-**Latihan Bab 5**
+**Latihan Bab 5** · [lihat kunci jawaban →](#kunci5)
 
 1. Sebuah pizza dipotong 8 bagian sama besar, dimakan 3 potong. Pecahan berapa yang dimakan? Pecahan berapa yang tersisa?
 2. Sederhanakan $\frac{15}{20}$.

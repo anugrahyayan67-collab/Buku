@@ -57,12 +57,12 @@ def daftar_isi(babs, hal):
     baris = []
     for no, judul, _ in babs:
         h = hal.get(no, "")
-        baris.append(f'<div class="baris"><span class="n">{no}</span><span class="t">{html.escape(judul)}</span>'
-                     f'<span class="d"></span><span class="h">{h}</span></div>')
+        baris.append(f'<a class="baris" href="#bab{no}"><span class="n">{no}</span><span class="t">{html.escape(judul)}</span>'
+                     f'<span class="d"></span><span class="h">{h}</span></a>')
 
     hk = hal.get("kunci", "")
-    baris.append(f'<div class="baris"><span class="n">✓</span><span class="t">Kunci Jawaban</span>'
-                 f'<span class="d"></span><span class="h">{hk}</span></div>')
+    baris.append(f'<a class="baris" href="#kunci"><span class="n">✓</span><span class="t">Kunci Jawaban</span>'
+                 f'<span class="d"></span><span class="h">{hk}</span></a>')
     catatan = ('<div class="catatan"><b>Cara memakai buku ini.</b> Baca berurutan dari Bab 1, karena setiap bab '
                'memakai bab sebelumnya. Baca penjelasannya, coba contoh sendiri dulu sebelum melihat caranya, '
                'lalu kerjakan latihan di kertas. Cocokkan jawabanmu dengan kunci di akhir buku. Kalau salah, '
@@ -134,7 +134,7 @@ def cari_halaman(pdf, babs):
 def main():
     babs = [bab(p) for p in sorted(D.glob("bab*.md"))]
     kunci = pandoc((D / "kunci.md").read_text(encoding="utf-8"))
-    kunci = (f'<section class="bab kunci"><div class="babkepala"><div class="no">✓</div><div class="judul">'
+    kunci = (f'<section class="bab kunci" id="kunci"><div class="babkepala"><div class="no">✓</div><div class="judul">'
              f'<span class="kecil">KUNCI JAWABAN</span>Jawaban Semua Latihan</div></div>{kunci}</section>')
     hal = {}
     for putaran in range(2):
@@ -146,9 +146,8 @@ def main():
         hal = baru
     s = sampul()
     w = PdfWriter()
-    for f in (s, isi):
-        for pg in PdfReader(str(f)).pages:
-            w.add_page(pg)
+    w.append(str(s))
+    w.append(str(isi), import_outline=False)
     w.add_metadata({"/Title": f"{JUDUL}: {SUB}", "/Author": PENYUSUN})
     # penanda bab
     for no, judul, _ in babs:

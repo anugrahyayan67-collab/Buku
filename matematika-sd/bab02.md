@@ -90,7 +90,7 @@ Sifat pengelompokan berguna untuk **hitung cepat**: carilah pasangan yang jumlah
 :::
 
 ::: latihan
-**Latihan Bab 2**
+**Latihan Bab 2** · [lihat kunci jawaban →](#kunci2)
 
 1. 3.658 + 2.475 = …
 2. 40.506 + 9.897 = …

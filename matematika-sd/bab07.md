@@ -51,7 +51,7 @@ Jumlah sudut segitiga 180°. Sudut ketiga = 180° − 50° − 70° = **60°**.
 :::
 
 ::: latihan
-**Latihan Bab 7**
+**Latihan Bab 7** · [lihat kunci jawaban →](#kunci7)
 
 1. Sebutkan dua bangun datar yang keempat sudutnya siku-siku.
 2. Bangun apa yang hanya punya satu pasang sisi sejajar?
