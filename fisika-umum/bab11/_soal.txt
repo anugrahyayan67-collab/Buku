@@ -1,0 +1,137 @@
+## Subbab 11.1 dan 11.2: Keadaan, proses, dan usaha
+
+> Gunakan $R = 8{,}314$ J/(mol·K). Untuk gas ideal: monoatomik $C_V = \tfrac32R$, $\gamma = 1{,}67$; diatomik (termasuk udara) $C_V = \tfrac52R$, $\gamma = 1{,}40$. Entalpi pembentukan ada pada tabel subbab 11.5.
+
+Sebanyak 0,50 mol gas ideal bertekanan 200 kPa menempati 5,0 L. Berapa suhunya? ||| 241 K
+Gas memuai dari 1,5 L menjadi 4,0 L pada tekanan tetap 250 kPa. Berapa usahanya? ||| 625 J
+Dua mol gas ideal memuai isotermal reversibel pada 350 K dari 5,0 L menjadi 15 L. Berapa usahanya? ||| 6,39 kJ
+Sebanyak 0,50 mol gas ideal pada 298 K dimampatkan isotermal dari 100 kPa menjadi 500 kPa. Berapa usaha yang dilakukan gas? ||| −1,99 kJ
+Gas menjalani siklus segitiga searah jarum jam dengan titik sudut (1,0 L; 100 kPa), (4,0 L; 400 kPa), dan (4,0 L; 100 kPa). Berapa usaha bersih tiap siklus? ||| 450 J
+Nyatakan 2,5 L·atm dalam joule. ||| 253 J
+Penguraian CaCO₃ pada 1100 K menghasilkan 2,0 mol CO₂ pada tekanan tetap. Berapa usaha yang dilakukan terhadap atmosfer? ||| 18,3 kJ
+Pada reaksi N₂(g) + 3 H₂(g) → 2 NH₃(g) pada 298 K dan tekanan tetap, berapa usaha yang dilakukan sistem tiap mol N₂? ||| −4,96 kJ
+Tekanan gas turun secara linear dari 300 kPa ke 100 kPa sementara volumenya naik dari 2,0 L ke 6,0 L. Berapa usahanya? ||| 800 J
+Satu mol etanol menguap pada titik didihnya, 351 K ($\Delta H_\text{uap} = 38{,}6$ kJ/mol). Berapa usaha terhadap atmosfer, dan berapa $\Delta U$-nya? ||| 2,92 kJ; 35,7 kJ
+
+## Subbab 11.3: Hukum pertama
+
+Gas menyerap kalor 900 J dan melakukan usaha 350 J. Berapa $\Delta U$? ||| +550 J
+Gas dimampatkan dengan usaha 400 J dan energi dalamnya naik 150 J. Berapa kalornya, dan ke mana arahnya? ||| 250 J keluar
+Gas monoatomik memuai pada 200 kPa dari 2,0 L menjadi 6,0 L. Hitung $W$, $\Delta U$, dan $Q$. ||| 800 J; 1200 J; 2000 J
+Gas diatomik dalam wadah kaku 3,0 L dipanaskan sehingga tekanannya naik dari 100 kPa ke 400 kPa. Berapa $\Delta U$? ||| 2,25 kJ
+Suhu 1,5 mol nitrogen naik 40 K. Berapa $\Delta U$-nya? Apakah jawabanmu bergantung pada prosesnya? ||| 1,25 kJ; tidak
+Dalam satu siklus, mesin menyerap 1200 J dan menghasilkan usaha 300 J. Berapa kalor yang dibuang? ||| 900 J
+Dua mol air menguap pada 100 °C dan 1 atm ($\Delta H_\text{uap} = 40{,}66$ kJ/mol). Hitung $Q$, $W$, dan $\Delta U$. ||| 81,3 kJ; 6,2 kJ; 75,1 kJ
+Seseorang melakukan usaha 300 kJ dan energi dalam tubuhnya berkurang 1500 kJ. Berapa kalor yang dilepasnya, dan berapa efisiensinya? ||| 1200 kJ; 20%
+
+## Subbab 11.4: Empat proses
+
+Dua mol helium dipanaskan pada tekanan tetap sehingga suhunya naik 80 K. Hitung $Q$, $W$, dan $\Delta U$. ||| 3,33 kJ; 1,33 kJ; 2,00 kJ
+Kalor 500 J diberikan kepada 0,25 mol nitrogen dalam wadah kaku. Berapa kenaikan suhunya? ||| 96 K
+Tiga mol gas ideal pada 400 K memuai isotermal sampai volumenya tiga kali. Berapa kalor yang diserapnya? ||| 11,0 kJ
+Helium 300 K dimampatkan adiabatik sampai volumenya seperdelapan. Berapa suhu akhirnya, dan berapa kali tekanannya naik? ||| 1200 K; 32 kali
+Udara 400 K memuai adiabatik sampai volumenya tiga kali. Berapa suhunya? ||| 258 K
+Mesin diesel berperbandingan pemampatan 20 mengisap udara 320 K. Berapa suhu pada akhir pemampatan? ||| 1060 K
+Udara 293 K dimampatkan adiabatik dari 1,0 atm ke 10 atm. Berapa suhunya? ||| 566 K
+Dua mol helium memuai adiabatik dan suhunya turun dari 500 K ke 300 K. Berapa usahanya? ||| 4,99 kJ
+@argon Argon bervolume 2,0 L dan bertekanan 300 kPa memuai adiabatik reversibel menjadi 6,0 L. Berapa tekanan akhirnya dan berapa usahanya? ||| 48 kPa; 467 J
+Suatu gas dimampatkan adiabatik menjadi setengah volumenya, dan suhunya naik dari 300 K ke 396 K. Berapa $\gamma$-nya? Jenis molekul apa? ||| 1,40; diatomik
+Udara dalam ban (300 kPa; 293 K) menyembur keluar ke tekanan 100 kPa secara adiabatik. Berapa suhu udara yang menyembur? ||| 214 K
+Satu mol O₂ dipanaskan pada tekanan tetap dari 300 K ke 450 K. Hitung $Q$ dan $W$. ||| 4,37 kJ; 1,25 kJ
+
+## Subbab 11.5: Entalpi dan termokimia
+
+Untuk 2 H₂(g) + O₂(g) → 2 H₂O(l), $\Delta H = -571{,}6$ kJ pada 298 K. Berapa $\Delta U$? ||| −564,2 kJ
+Pembakaran etanol cair menjadi CO₂(g) dan H₂O(l) memiliki $\Delta H = -1367$ kJ/mol. Berapa $\Delta U$? ||| −1365 kJ/mol
+@bom Kalorimeter bom berkapasitas kalor 10,0 kJ/K. Pembakaran 1,20 g naftalena (128,2 g/mol) menaikkan suhunya 4,82 K. Berapa $\Delta U$ pembakaran per mol? ||| −5150 kJ/mol
+Hitung $\Delta H^\circ$ pembakaran etanol cair dari entalpi pembentukan. ||| −1367 kJ/mol
+Hitung $\Delta H^\circ$ pembakaran glukosa dari entalpi pembentukan. ||| −2803 kJ/mol
+Hitung $\Delta H^\circ$ penguraian CaCO₃ menjadi CaO dan CO₂. ||| +178,3 kJ/mol
+Hitung $\Delta H^\circ$ penguapan air pada 298 K dari entalpi pembentukan. ||| +44,0 kJ/mol
+Hitung $\Delta H^\circ$ untuk CO(g) + H₂O(g) → CO₂(g) + H₂(g). ||| −41,2 kJ
+Hitung $\Delta H^\circ$ fermentasi: C₆H₁₂O₆(s) → 2 C₂H₅OH(l) + 2 CO₂(g). ||| −69 kJ/mol
+Satu kilogram propana (44,1 g/mol; −2220 kJ/mol) dibakar. Berapa kalor yang dilepas, dan berapa kilogram air yang dapat dipanaskan dari 20 °C ke 100 °C? ||| 50,3 MJ; 150 kg
+Berapa kalor pembakaran 1,0 m³ metana pada 25 °C dan 1 bar? ||| 35,9 MJ
+
+## Subbab 11.6: Mesin kalor dan hukum kedua
+
+Mesin menyerap 3000 J dan membuang 2100 J tiap siklus. Berapa efisiensinya? ||| 30%
+Mesin berefisiensi 30% menghasilkan usaha 600 J tiap siklus. Berapa kalor yang diserap dan yang dibuang? ||| 2000 J; 1400 J
+Pembangkit listrik tenaga nuklir menghasilkan 900 MW listrik dengan efisiensi 33%. Berapa laju kalor buangannya? ||| 1830 MW
+Seorang penemu menyatakan mesinnya menghasilkan usaha 800 J dari kalor 1000 J, bekerja di antara 600 K dan 300 K. Dapatkah dipercaya? ||| Tidak; batas Carnot 50%
+
+## Subbab 11.7: Carnot, pendingin, dan pompa kalor
+
+Berapa efisiensi Carnot mesin yang bekerja di antara 100 °C dan 20 °C? ||| 21%
+Berapa efisiensi Carnot di antara 1500 K dan 300 K? ||| 80%
+Mesin Carnot membuang kalor pada 300 K. Berapa suhu tandon panas agar efisiensinya 50%? ||| 600 K
+Pembangkit panas bumi memakai uap 180 °C dan membuang kalor pada 40 °C. Berapa efisiensi terbesarnya? ||| 31%
+Hitung efisiensi siklus Otto ideal untuk perbandingan pemampatan 8, 10, dan 12. ||| 56%; 60%; 63%
+Berapa COP terbesar lemari es yang menjaga 4 °C di ruangan 30 °C? ||| 10,7
+Lemari es dengan COP 3,0 mengambil kalor 900 kJ dari dalamnya. Berapa usahanya dan berapa kalor yang dibuang? ||| 300 kJ; 1200 kJ
+Berapa COP terbesar pompa kalor yang memanaskan rumah 22 °C dari udara luar 0 °C? ||| 13,4
+AC berkapasitas pendinginan 2,6 kW memiliki COP 2,9. Berapa daya listriknya? ||| 0,90 kW
+Berapa usaha untuk membuat 1,0 kg es 0 °C dari air 20 °C dengan mesin pendingin ber-COP 2,5? ||| 167 kJ
+Satu mol gas menjalani siklus Carnot di antara 600 K dan 300 K; volumenya menjadi tiga kali pada pemuaian isotermal. Hitung $Q_h$ dan $W$. ||| 5,48 kJ; 2,74 kJ
+Berapa usaha paling sedikit untuk memindahkan 1,0 J kalor dari helium cair 4,2 K ke ruangan 300 K? ||| 70 J
+
+## Subbab 11.8: Entropi
+
+Berapa perubahan entropi 50 g es yang melebur pada 0 °C? ||| 61 J/K
+Berapa entropi penguapan etanol (38,6 kJ/mol) pada titik didihnya, 351,4 K? ||| 110 J/(mol·K)
+Suatu zat cair mendidih pada 350 K. Taksir kalor uapnya dengan aturan Trouton (88 J/(mol·K)). ||| 31 kJ/mol
+Berapa perubahan entropi 500 g tembaga yang dipanaskan dari 20 °C ke 200 °C? ||| 92 J/K
+Dua mol gas ideal memuai isotermal sampai volumenya lima kali. Berapa $\Delta S$? ||| 26,8 J/K
+Satu mol gas ideal dimampatkan isotermal dari 1 atm ke 10 atm. Berapa $\Delta S$? ||| −19,1 J/K
+Kalor 500 J mengalir dari benda 350 K ke benda 290 K. Berapa perubahan entropi total? ||| +0,30 J/K
+@besi Besi 200 g bersuhu 300 °C dijatuhkan ke danau bersuhu 15 °C. Hitung perubahan entropi besi, danau, dan totalnya. ||| −61,8 J/K; +88,8 J/K; +27,1 J/K
+Sebanyak 200 g air 90 °C dicampur dengan 300 g air 10 °C dalam wadah tersekat. Berapa suhu akhir dan perubahan entropi total? ||| 42 °C; +15,8 J/K
+Es 100 g melebur pada 0 °C di ruangan 25 °C. Hitung perubahan entropi es, ruangan, dan totalnya. ||| +122 J/K; −112 J/K; +10 J/K
+@mesin Mesin menyerap 1500 J dari tandon 550 K dan membuang 1100 J ke tandon 300 K. Berapa entropi yang dihasilkan tiap siklus, dan berapa usaha yang hilang dibandingkan mesin Carnot? ||| 0,94 J/K; 282 J
+Satu mol N₂ dipanaskan dari 300 K ke 600 K. Berapa $\Delta S$ pada volume tetap dan pada tekanan tetap? ||| 14,4 J/K; 20,2 J/K
+Sebanyak 0,50 mol gas memuai bebas ke volume sepuluh kali. Berapa $\Delta S$ gas? ||| 9,6 J/K
+
+## Subbab 11.9: Entropi dan peluang
+
+Enam molekul berada dalam wadah berparuh dua. Berapa banyak cara mewujudkan pembagian tiga–tiga, dan berapa peluangnya? ||| 20; 0,31
+Berapa peluang 20 molekul semuanya berada di paruh kiri? ||| $9{,}5 \times 10^{-7}$
+Banyaknya keadaan mikro suatu sistem menjadi dua kali. Berapa kenaikan entropinya? ||| $9{,}6 \times 10^{-24}$ J/K
+Sepuluh koin dilempar. Berapa banyak cara mendapat tepat lima gambar, dan berapa peluangnya? ||| 252; 0,25
+Hitung entropi pencampuran 3,0 mol He dengan 1,0 mol Ar. ||| 18,7 J/K
+Berapa usaha paling sedikit untuk memisahkan 1 mol udara menjadi N₂ dan O₂ murni pada 298 K ($\Delta S_\text{campur} = 4{,}27$ J/K)? ||| 1,27 kJ
+Molekul N₂O dalam kristal dapat terpasang dengan dua arah; molekul CH₃D dengan empat arah. Berapa entropi sisa tiap mol untuk masing-masing? ||| 5,8; 11,5 J/(mol·K)
+Entropi molar standar: N₂ 191,6; H₂ 130,7; NH₃ 192,5 J/(mol·K). Hitung $\Delta S^\circ$ untuk N₂ + 3 H₂ → 2 NH₃. ||| −198,7 J/K
+
+## Subbab 11.10: Energi bebas Gibbs
+
+Untuk penguapan air, $\Delta H = 40{,}66$ kJ/mol dan $\Delta S = 109{,}0$ J/(mol·K). Hitung $\Delta G$ pada 90 °C, 100 °C, dan 110 °C. ||| +1,08; 0; −1,10 kJ/mol
+Dari $\Delta H_\text{uap} = 38{,}6$ kJ/mol dan $\Delta S_\text{uap} = 109{,}8$ J/(mol·K), tentukan titik didih etanol. ||| 352 K
+Suatu reaksi memiliki $\Delta H = -120$ kJ dan $\Delta S = -150$ J/K. Hitung $\Delta G$ pada 298 K, dan suhu tempat reaksi berhenti spontan. ||| −75 kJ; 800 K
+Suatu reaksi memiliki $\Delta H = +50$ kJ dan $\Delta S = +120$ J/K. Di atas suhu berapa reaksi spontan? ||| 417 K
+Hitung $K$ pada 298 K untuk reaksi dengan $\Delta G^\circ = -20$ kJ/mol dan untuk reaksi dengan $\Delta G^\circ = +10$ kJ/mol. ||| $3{,}2 \times 10^3$; 0,018
+Tetapan ionisasi asam asetat $1{,}8 \times 10^{-5}$ pada 298 K. Berapa $\Delta G^\circ$ ionisasinya? ||| +27,1 kJ/mol
+Dari $K_w = 1{,}0 \times 10^{-14}$, hitung $\Delta G^\circ$ swaionisasi air pada 298 K. ||| +79,9 kJ/mol
+Untuk pembakaran metana, $\Delta H^\circ = -890{,}3$ kJ dan $\Delta G^\circ = -817{,}9$ kJ. Berapa efisiensi terbesar sel bahan bakar metana? ||| 92%
+@n2o4 Untuk 2 NO₂(g) → N₂O₄(g), $\Delta H^\circ = -57{,}2$ kJ dan $\Delta S^\circ = -175{,}8$ J/K. Hitung $\Delta G^\circ$ dan $K$ pada 298 K, dan suhu saat $\Delta G^\circ = 0$. ||| −4,8 kJ; 7,0; 325 K
+Hidrolisis ATP memiliki $\Delta G^\circ = -30{,}5$ kJ/mol. Berapa $K$-nya pada 310 K? ||| $1{,}4 \times 10^5$
+Untuk grafit → intan, $\Delta G^\circ = +2{,}9$ kJ/mol pada 298 K. Mana yang mantap? Mengapa intan tidak berubah menjadi grafit? ||| Grafit; energi aktivasinya sangat besar
+Timah putih berubah menjadi timah abu-abu dengan $\Delta H = -2{,}1$ kJ/mol dan $\Delta S = -7{,}4$ J/(mol·K). Di bawah suhu berapa timah abu-abu mantap? ||| 284 K (11 °C)
+@uapair Untuk H₂O(l) → H₂O(g) pada 298 K, $\Delta H^\circ = 44{,}0$ kJ/mol dan $\Delta S^\circ = 118{,}9$ J/(mol·K). Hitung $\Delta G^\circ$ dan tekanan uap air pada suhu itu. ||| +8,55 kJ/mol; 0,032 bar
+Dengan data sintesis amonia pada Contoh 11.45, hitung $\Delta G^\circ$ dan $K$ pada 500 K. ||| +7,2 kJ; 0,18
+
+## Subbab 11.11: Kesetimbangan fasa
+Dengan $\Delta H_\text{uap} = 40{,}7$ kJ/mol, hitung tekanan uap air pada 80 °C. ||| 48 kPa
+Tekanan udara di Bandung sekitar 92 kPa. Pada suhu berapa air mendidih di sana? ||| 97 °C
+Pada suhu berapa air mendidih dalam panci presto bertekanan mutlak 1,5 atm? ||| 112 °C
+Tekanan uap benzena 10,0 kPa pada 20 °C dan 24,4 kPa pada 40 °C. Berapa kalor uapnya? ||| 34 kJ/mol
+@aseton Aseton mendidih pada 56 °C dengan $\Delta H_\text{uap} = 29{,}1$ kJ/mol. Taksir tekanan uapnya pada 20 °C. ||| 27 kPa
+Berapa penurunan titik lebur es pada tekanan 1000 atm? ||| 7,5 K
+Titik tripel CO₂ pada 216,6 K dan 518 kPa, dengan $\Delta H_\text{sublimasi} = 26{,}1$ kJ/mol. Taksir suhu sublimasi es kering pada 1 atm. ||| 195 K (−78 °C)
+## Subbab 11.12: Energi bebas, konsentrasi, dan kesetimbangan
+Hitung $K_f$ benzena ($T_f = 278{,}7$ K; $\Delta H_\text{lebur} = 9{,}87$ kJ/mol; 78,11 g/mol). ||| 5,1 K·kg/mol
+Hitung $K_b$ etanol ($T_b = 351{,}4$ K; $\Delta H_\text{uap} = 38{,}6$ kJ/mol; 46,07 g/mol). ||| 1,2 K·kg/mol
+Suatu reaksi memiliki $\Delta G^\circ = -20$ kJ/mol. Berapa $\Delta G$ pada 298 K jika $Q = 100$? ||| −8,6 kJ/mol
+Tetapan kesetimbangan reaksi endoterm ($\Delta H^\circ = +40$ kJ/mol) adalah $1{,}0 \times 10^3$ pada 298 K. Berapa nilainya pada 350 K? ||| $1{,}1 \times 10^4$
+Tetapan kesetimbangan suatu reaksi menjadi dua kali ketika suhu naik dari 300 K ke 310 K. Berapa $\Delta H^\circ$-nya? ||| +54 kJ/mol
+Sebanyak 0,50 mol glukosa dilarutkan dalam 500 g air pada 25 °C (tekanan uap air murni 3,17 kPa). Berapa tekanan uap larutan? ||| 3,11 kPa
+Untuk reaksi dengan $\Delta G^\circ = +10$ kJ/mol pada 298 K, pada nilai $Q$ berapa $\Delta G$ menjadi nol? ||| 0,018

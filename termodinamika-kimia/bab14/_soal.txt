@@ -1,0 +1,110 @@
+## Subbab 14.1: Keadaan mikro dan konfigurasi dominan
+
+> Pakai $k = 1{,}380\,649 \times 10^{-23}$ J K⁻¹, $h = 6{,}626 \times 10^{-34}$ J s, $hc/k = 1{,}4388$ cm K, $R = 8{,}3145$ J K⁻¹ mol⁻¹, $N_\text{A} = 6{,}022 \times 10^{23}$ mol⁻¹, dan $1\ \text{u} = 1{,}6605 \times 10^{-27}$ kg. Tekanan standar 1 bar. Data molekul ada di Tabel 14.1 dan di dalam teks. Soal bertanda **[P]** dibahas di akhir bab.
+
+Hitung bobot konfigurasi enam molekul dengan $n_0 = 3$, $n_1 = 2$, $n_2 = 1$. ||| 60
+Pada Gambar 14.1 (kiri), tiga kuantum dibagi di antara tiga molekul. Periksa bahwa bobot ketiga konfigurasi adalah 3, 6, dan 1, dan bahwa jumlahnya sama dengan banyaknya cara meletakkan 3 kuantum ke dalam 3 molekul. ||| 3 + 6 + 1 = 10 = C(5, 2)
+@mikro [P] Lima kuantum energi dibagi di antara tiga molekul (A, B, C), masing-masing bertingkat $0, \varepsilon, 2\varepsilon, \ldots$ Daftarkan semua konfigurasi beserta bobotnya, dan tentukan konfigurasi yang paling mungkin. ||| (5,0,0) 3; (4,1,0) 6; (3,2,0) 6; (3,1,1) 3; (2,2,1) 3; total 21; paling mungkin (4,1,0) dan (3,2,0)
+Untuk 20 koin, hitung banyaknya cara memperoleh 10 kepala, perbandingannya terhadap 15 kepala, dan peluang memperoleh tepat 10 kepala. ||| 184 756; 11,9; 0,176
+Bandingkan $\ln 10!$ dengan pendekatan Stirling $N\ln N - N$ dan dengan bentuk yang lebih teliti $N\ln N - N + \tfrac12\ln(2\pi N)$. ||| 15,104; 13,026; 15,096
+Hitung entropi pencampuran bila 1 mol atom A dan 3 mol atom B disusun acak di atas kisi. ||| 18,70 J K⁻¹
+Berapa peluang semua molekul gas berada di separuh kiri wadah bila jumlahnya 10, 100, dan satu mol? ||| 9,8 × 10⁻⁴; 7,9 × 10⁻³¹; $10^{-1{,}8 \times 10^{23}}$
+Dalam satu sistem, fraksi molekul di tiga tingkat adalah 0,5; 0,3; dan 0,2. Hitung $-\sum p_i\ln p_i$ dan entropi per mol yang bersesuaian. ||| 1,030; 8,56 J K⁻¹ mol⁻¹
+Kristal satu mol molekul yang masing-masing dapat menghadap ke salah satu dari dua arah secara acak mempunyai berapa entropi tambahan? ||| $R\ln2 = 5{,}76$ J K⁻¹ mol⁻¹
+
+## Subbab 14.2: Sebaran Boltzmann
+
+Nyatakan *kT* dalam cm⁻¹ pada 77 K dan 1000 K. ||| 53,5 cm⁻¹; 695 cm⁻¹
+Hitung perbandingan populasi dua tingkat tanpa degenerasi yang berjarak 500 cm⁻¹ pada 298,15 K dan 1000 K. ||| 0,0896; 0,487
+Pada suhu berapa populasi tingkat atas tinggal separuh populasi tingkat bawah, bila keduanya tanpa degenerasi dan berjarak 1000 cm⁻¹? ||| 2076 K
+Tiga tingkat tanpa degenerasi berenergi 0, 200, dan 400 cm⁻¹. Hitung fraksi molekul di setiap tingkat pada 298,15 K. ||| 0,655; 0,250; 0,095
+Atom hidrogen di permukaan Matahari (5800 K): hitung perbandingan banyaknya atom di tingkat *n* = 2 (degenerasi 8) terhadap *n* = 1 (degenerasi 2), yang berjarak 82 259 cm⁻¹. ||| 5,5 × 10⁻⁹
+@butana [P] Konformasi *gauche* butana 3,8 kJ mol⁻¹ lebih tinggi daripada konformasi *anti*, dan ada dua konformasi *gauche* (kiri dan kanan). Hitung fraksi butana dalam konformasi *anti* pada 298,15 K dan 400 K. ||| 0,698; 0,611
+Konformasi metilsikloheksana dengan gugus metil aksial 7,3 kJ mol⁻¹ lebih tinggi daripada ekuatorial. Hitung fraksi aksial pada 298,15 K. ||| 0,050
+Laser bekerja dengan populasi terbalik. Bila populasi tingkat atas dua kali tingkat bawah (keduanya tanpa degenerasi, berjarak 1000 cm⁻¹), berapa "suhu" yang harus dimasukkan ke rumus Boltzmann? Apa artinya? ||| −2076 K; populasi terbalik bukan keadaan kesetimbangan termal
+Mengapa tingkat dasar selalu paling padat pada kesetimbangan, tetapi tingkat *J* = 0 HCl bukan tingkat rotasi yang paling padat? ||| degenerasi 2*J* + 1 naik dengan *J*; yang selalu paling padat adalah **keadaan** dasar, bukan tingkat
+
+## Subbab 14.3: Fungsi partisi molekul
+
+Hitung fungsi partisi molekul yang mempunyai tiga keadaan berenergi 0, 100, dan 300 cm⁻¹ pada 298,15 K. ||| 1,852
+Sistem dua tingkat mempunyai $\varepsilon/k = 200$ K. Hitung *q* dan $\langle\varepsilon\rangle/k$ pada 100 K dan 300 K. ||| 1,135 dan 23,8 K; 1,513 dan 67,8 K
+@schottky [P] Turunkan kapasitas kalor sistem dua tingkat (energi 0 dan ε, tanpa degenerasi) dari persamaan (14.9). Tunjukkan bahwa ia memuncak pada $kT \approx 0{,}42\varepsilon$ dengan nilai $0{,}44k$ per molekul, dan taksir suhu puncak serta nilai maksimum per mol untuk NO (Contoh 14.6). ||| $C/k = x^2e^x/(1+e^x)^2$, $x = \varepsilon/kT$; NO: sekitar 73 K, 3,65 J K⁻¹ mol⁻¹
+Untuk osilator harmonik pada $kT = \varepsilon$, hitung *q* dan energi rata-rata (diukur dari tingkat dasar). ||| 1,582; 0,582ε
+Atom oksigen mempunyai tingkat dasar ³P yang terbelah menjadi *J* = 2 (degenerasi 5, energi 0), *J* = 1 (degenerasi 3, 158,3 cm⁻¹), dan *J* = 0 (degenerasi 1, 227 cm⁻¹). Hitung $q^\text{E}$ dan fraksi atom di *J* = 2 pada 298,15 K dan 1000 K. ||| 6,73 dan 0,743; 8,11 dan 0,616
+@gibbs [P] Dua wadah bervolume sama masing-masing berisi 1 mol argon pada suhu dan tekanan yang sama. Sekat di antaranya diangkat. Hitung perubahan entropi bila (a) $Q = q^N$ dipakai (tanpa *N*!), dan (b) $Q = q^N/N!$ dipakai. Mana yang benar? ||| (a) 11,53 J K⁻¹ (salah, paradoks Gibbs); (b) 0
+Molekul mempunyai tingkat dasar tanpa degenerasi dan satu tingkat tereksitasi berdegenerasi 3. Berapa energi rata-rata pada suhu sangat tinggi, dinyatakan dalam selisih energi ε? ||| $\tfrac34\varepsilon$
+Bila semua energi dinaikkan sebesar tetapan *c*, bagaimana *q* dan populasi berubah? ||| *q* dikali $e^{-c/kT}$; populasi tidak berubah
+Tuliskan *Q* untuk tiga sistem dua tingkat yang terbedakan, lalu jabarkan dan tafsirkan setiap sukunya. ||| $(1 + x)^3 = 1 + 3x + 3x^2 + x^3$, $x = e^{-\varepsilon/kT}$; koefisien = banyaknya keadaan mikro dengan 0, 1, 2, 3 tereksitasi
+
+## Subbab 14.4: Fungsi partisi translasi
+
+Hitung panjang gelombang termal H₂ dan Xe pada 298,15 K. ||| 71,2 pm; 8,82 pm
+Hitung Λ untuk N₂ pada 77 K. ||| 37,6 pm
+Hitung $q^\text{T}$ untuk N₂ di dalam wadah 1,00 L pada 298,15 K. ||| 1,43 × 10²⁹
+@elektron [P] Hitung panjang gelombang termal elektron pada 298 K dan bandingkan dengan jarak antaratom tembaga (kerapatan 8,96 g cm⁻³, *M* = 63,55 g mol⁻¹), dengan anggapan setiap atom melepas satu elektron. Apakah elektron di dalam logam dapat diperlakukan sebagai gas klasik? ||| Λ = 4,32 nm; jarak 0,228 nm; Λ 19 kali lebih besar; tidak
+Pada suhu berapa panjang gelombang termal helium pada 1 bar sama dengan jarak rata-rata antaratomnya, $(kT/p)^{1/3}$? (Anggap tetap gas.) ||| 1,9 K
+Berapa kali $q^\text{T}/N$ argon pada 1 bar bertambah bila suhu dinaikkan dari 298,15 K ke 1000 K? ||| 20,6
+Hitung energi tingkat translasi terendah N₂ di dalam kubus bersisi 1 cm, dinyatakan dalam kelvin. ||| 2,6 × 10⁻¹⁵ K
+Berapa perbandingan $q^\text{T}$ kripton terhadap argon pada suhu dan volume yang sama? ||| 3,04
+Mengapa rumus (14.12) tidak bergantung pada bentuk wadah, hanya pada volumenya? ||| karena tingkat-tingkatnya sangat rapat sehingga jumlah menjadi integral; hanya banyaknya keadaan per volume yang penting
+
+## Subbab 14.5: Fungsi partisi rotasi, getaran, dan elektronik
+
+Hitung $\theta_\text{R}$ dan $q^\text{R}$ CO (*B* = 1,931 cm⁻¹) pada 298,15 K. ||| 2,778 K; 107,3
+Hitung $q^\text{R}$ O₂ pada 1000 K. ||| 240
+Tingkat rotasi mana yang paling padat untuk N₂ pada 298,15 K? ||| *J* = 7 ($J_\text{maks}$ = 6,7)
+Hitung $q^\text{R}$ NH₃ pada 298,15 K, dengan *A* = *B* = 9,444 cm⁻¹, *C* = 6,196 cm⁻¹, dan σ = 3. ||| 75,0
+Hitung $q^\text{V}$ Br₂ ($\tilde\nu$ = 325,3 cm⁻¹) pada 298,15 K dan fraksi molekul di tingkat *v* = 0. ||| 1,263; 0,792
+Hitung fraksi molekul O₂ di tingkat getaran *v* = 1 atau lebih pada 298,15 K, 1000 K, dan 2000 K. ||| 4,9 × 10⁻⁴; 0,103; 0,321
+Hitung $q^\text{V}$ CO₂ pada 298,15 K dari keempat modenya: 1333, 667 (dua mode), dan 2349 cm⁻¹. ||| 1,087
+Mengapa bilangan simetri CO₂ (O=C=O) adalah 2, sedangkan N₂O (N=N=O) adalah 1? ||| CO₂ simetris terhadap putaran 180°; N₂O tidak
+Pada suhu berapa *J* = 5 menjadi tingkat rotasi paling padat untuk HCl? ||| 922 K
+Dalam spektrum CO dari awan antarbintang, garis yang berasal dari *J* = 6 paling kuat. Taksir suhu gas. ||| 235 K
+
+## Subbab 14.6: Energi dalam dan kapasitas kalor
+
+Hitung $U_\text{m} - U_\text{m}(0)$ argon dan nitrogen pada 298,15 K. ||| 3,72 kJ mol⁻¹; 6,20 kJ mol⁻¹
+Hitung $C_{V,\text{m}}$ HCl pada 298,15 K dan 2000 K. ||| 20,79; 26,52 J K⁻¹ mol⁻¹
+@br2 [P] Hitung $C_{p,\text{m}}$ Br₂(g) pada 298,15 K dan bandingkan dengan nilai terukur 36,0 J K⁻¹ mol⁻¹. Berapa persen nilai klasik yang disumbangkan getaran? ||| 35,90 J K⁻¹ mol⁻¹; 82 persen
+Hitung sumbangan getaran pada $C_{V,\text{m}}$ I₂ pada 298,15 K dan 600 K. ||| 7,61; 8,13 J K⁻¹ mol⁻¹
+Hitung $C_{V,\text{m}}$ timbal ($\theta_\text{E}$ = 70 K) pada 298 K, dan intan ($\theta_\text{E}$ = 1320 K) pada 1000 K. ||| 24,8; 21,6 J K⁻¹ mol⁻¹
+@einsteinT [P] Pada suhu berapa kapasitas kalor tembaga ($\theta_\text{E}$ = 240 K) menurut model Einstein tinggal separuh nilai Dulong–Petit? ||| 80 K
+Hitung $C_{p,\text{m}}$ H₂O(g) pada 1000 K dari ketiga mode getarannya (3657, 1595, 3756 cm⁻¹). Nilai terukur 41,3 J K⁻¹ mol⁻¹. ||| 41,0 J K⁻¹ mol⁻¹
+Hitung energi getaran molar Cl₂ pada 298,15 K (di atas energi titik nol). ||| 482 J mol⁻¹
+Mengapa $C_{V,\text{m}}$ helium tetap $\tfrac32 R$ dari 10 K sampai ribuan kelvin? ||| hanya translasi; tingkat elektronik tereksitasi sangat tinggi
+
+## Subbab 14.7: Entropi statistik
+
+Hitung entropi molar standar kripton dan xenon pada 298,15 K. Nilai tabel: 164,08 dan 169,68 J K⁻¹ mol⁻¹. ||| 164,09; 169,68 J K⁻¹ mol⁻¹
+Hitung entropi molar argon pada 500 K dan 1 bar dengan Sackur–Tetrode, dan periksa bahwa kenaikannya dari 298,15 K sama dengan $C_{p,\text{m}}\ln(T_2/T_1)$. ||| 165,59 J K⁻¹ mol⁻¹; kenaikan 10,75
+Hitung entropi molar argon pada 298,15 K dan 1 kPa. ||| 193,14 J K⁻¹ mol⁻¹
+Hitung $S^\circ_\text{m}$ HCl pada 298,15 K (translasi dan rotasi; getaran diabaikan). ||| 186,75 J K⁻¹ mol⁻¹
+Hitung $S^\circ_\text{m}$ Cl₂ pada 298,15 K, termasuk getaran. Nilai tabel 223,08 J K⁻¹ mol⁻¹. ||| 222,82 J K⁻¹ mol⁻¹
+@es [P] Turunkan entropi residu es menurut Pauling. Setiap atom O dikelilingi empat ikatan hidrogen; pada setiap ikatan, H dekat ke salah satu dari dua O. Dari $2^4 = 16$ susunan di sekitar satu O, hanya 6 yang membentuk molekul H₂O. ||| $W = 2^{2N}(6/16)^N = (3/2)^N$; $S = R\ln\tfrac32 = 3{,}37$ J K⁻¹ mol⁻¹
+Berapa entropi residu yang diharapkan untuk N₂O padat, dan untuk CH₃D padat (setiap molekul dapat menghadap ke empat arah yang setara)? ||| 5,76; 11,53 J K⁻¹ mol⁻¹
+Hitung entropi molar standar neon pada 298,15 K. ||| 146,33 J K⁻¹ mol⁻¹
+Mengapa entropi rotasi CO lebih besar daripada N₂ sebesar $R\ln2$? ||| σ = 1 untuk CO dan 2 untuk N₂; *q*$^\text{R}$ CO dua kali lipat
+
+## Subbab 14.8: Energi Gibbs dan tetapan kesetimbangan
+
+Hitung $G^\circ_\text{m} - G_\text{m}(0)$ helium pada 298,15 K. ||| −31,4 kJ mol⁻¹
+Hitung $G^\circ_\text{m} - G_\text{m}(0)$ argon pada 1000 K. ||| −159,2 kJ mol⁻¹
+@na2 [P] Uap natrium mengandung sedikit molekul Na₂. Hitung *K* untuk $\text{Na}_2(g) \rightleftharpoons 2\text{Na}(g)$ pada 1000 K. Data: $D_0$ = 0,720 eV (69,5 kJ mol⁻¹), *B* = 0,1547 cm⁻¹, $\tilde\nu$ = 159,1 cm⁻¹; atom Na mempunyai $g_0 = 2$. Berapa fraksi partikel yang berupa Na₂ bila tekanan total 0,010 bar? ||| *K* = 2,74; 0,36 persen
+Hitung *K* untuk H₂ + D₂ ⇌ 2HD pada 1000 K. ||| 3,92
+Mengapa *K* untuk ³⁵Cl₂ + ³⁷Cl₂ ⇌ 2 ³⁵Cl³⁷Cl hampir tepat 4 pada suhu kamar, sedangkan untuk H₂ + D₂ ⇌ 2HD hanya 3,25? ||| beda massa isotop Cl sangat kecil, sehingga beda energi titik nol dan *B* dapat diabaikan; yang tersisa hanya faktor simetri 4
+Hitung derajat disosiasi I₂ pada 1000 K bila tekanan awal I₂ adalah 0,10 bar (volume tetap). ||| 0,086
+Zat A (keadaan dasar tanpa degenerasi) dan zat B (keadaan dasar berdegenerasi 3, 2,0 kJ mol⁻¹ lebih tinggi) berada dalam kesetimbangan; tingkat lain dapat diabaikan. Hitung *K* = [B]/[A] pada 298,15 K dan suhu ketika *K* = 1. ||| 1,34; 219 K
+Dalam persamaan (14.24), di mana letak "entalpi" dan "entropi" reaksi? ||| eksponen $-\Delta_\text{r}E_0/RT$ memuat sisi energi; perbandingan fungsi partisi memuat sisi entropi (banyaknya keadaan)
+Mengapa energi titik nol harus disertakan dalam $\Delta_\text{r}E_0$? ||| energi diukur dari tingkat dasar setiap molekul; tingkat dasar itu sudah memuat energi titik nol yang berbeda antar-zat
+
+## Subbab 14.9: Faktor Boltzmann dalam kimia
+
+@barometrik [P] Turunkan rumus barometrik (14.25) dari keseimbangan gaya pada lapisan udara tipis setebal *dh*, dengan anggapan udara gas ideal pada suhu tetap. ||| $dp = -\rho g\,dh$, $\rho = pM/RT$, sehingga $p = p_0e^{-Mgh/RT}$
+Taksir tekanan udara pada ketinggian 5 km (isotermal 288 K, 101,3 kPa di permukaan laut). ||| 56,0 kPa
+Hitung tinggi skala O₂ dan N₂ pada 250 K. ||| 6,62 km; 7,56 km
+Hitung selisih populasi relatif elektron tak berpasangan dalam spektrometer ESR 9,5 GHz pada 298 K. Bandingkan dengan NMR 400 MHz. ||| 7,6 × 10⁻⁴; sekitar 24 kali lebih besar
+Berapa energi aktivasi yang membuat laju reaksi naik tiga kali dari 25 °C ke 35 °C? ||| 83,9 kJ mol⁻¹
+Hitung fraksi $e^{-E_\text{a}/RT}$ untuk $E_\text{a}$ = 100 kJ mol⁻¹ pada 500 K, dan bandingkan dengan nilai pada 298 K. ||| 3,6 × 10⁻¹¹; sekitar 10⁷ kali lebih besar
+Hitung fraksi HCl di tingkat getaran *v* = 1 pada 298,15 K. Mengapa spektrum inframerah HCl pada suhu kamar tidak memperlihatkan pita panas? ||| 5,4 × 10⁻⁷; hampir tidak ada molekul di *v* = 1
+Mengapa rumus barometrik gagal memerikan perbandingan O₂ terhadap N₂ di troposfer, padahal tinggi skala keduanya berbeda? ||| troposfer diaduk oleh angin dan konveksi jauh lebih cepat daripada pemisahan oleh difusi
+Mengapa sampel NMR yang lebih dingin memberi sinyal yang lebih kuat? ||| selisih populasi sebanding dengan 1/*T*

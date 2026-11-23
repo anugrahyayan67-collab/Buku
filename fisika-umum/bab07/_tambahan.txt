@@ -1,0 +1,210 @@
+@@ a-bernoulli.md | ## 7.3 Persamaan Bernoulli
+::: {.contoh}
+**Contoh 7.ya · Percabangan yang tidak sama**
+
+Air mengalir 2,0 m/s dalam pipa berdiameter 4,0 cm, yang lalu bercabang menjadi pipa berdiameter 3,0 cm dan pipa berdiameter 2,0 cm. Di cabang 3,0 cm air mengalir 1,5 m/s. Berapa kelajuan air di cabang 2,0 cm?
+
+**Kerjakan.** Debit masuk: $Q = \pi(0{,}020)^2(2{,}0) = 2{,}51 \times 10^{-3}\ \text{m}^3/\text{s}$. Debit cabang pertama: $Q_1 = \pi(0{,}015)^2(1{,}5) = 1{,}06 \times 10^{-3}\ \text{m}^3/\text{s}$.
+
+$$
+Q_2 = Q - Q_1 = 1{,}45 \times 10^{-3}\ \text{m}^3/\text{s}, \qquad v_2 = \frac{1{,}45 \times 10^{-3}}{\pi(0{,}010)^2} = 4{,}6\ \text{m/s}.
+$$
+
+**Periksa.** Yang dijumlahkan di percabangan adalah **debit**, bukan kelajuan. Kelajuan di tiap cabang boleh lebih besar atau lebih kecil daripada di pipa induk, bergantung pada luasnya.
+:::
+
+::: {.contoh}
+**Contoh 7.yb · Gas yang dimampatkan**
+
+Udara masuk ke sebuah kompresor dengan massa jenis $1{,}2\ \text{kg/m}^3$ dan kelajuan 10 m/s melalui saluran seluas 0,050 m². Udara keluar dengan massa jenis $3{,}6\ \text{kg/m}^3$ melalui pipa seluas 0,010 m². Berapa kelajuan keluarnya?
+
+**Kerjakan.** Untuk gas, yang kekal adalah laju aliran massa: $\rho_1A_1v_1 = \rho_2A_2v_2$.
+
+$$
+v_2 = \frac{(1{,}2)(0{,}050)(10)}{(3{,}6)(0{,}010)} = 17\ \text{m/s}.
+$$
+
+**Periksa.** Jika udara dianggap tak termampatkan, hasilnya 50 m/s, tiga kali terlalu besar. Persamaan $A_1v_1 = A_2v_2$ hanya boleh dipakai untuk gas jika massa jenisnya hampir tidak berubah, yaitu pada kelajuan jauh di bawah laju bunyi dan tanpa pemampatan.
+:::
+
+@@ a-bernoulli.md | ## 7.4 Penerapan persamaan Bernoulli
+### Tinggi tekan
+
+Jika tiap suku persamaan Bernoulli dibagi $\rho g$, semuanya bersatuan **meter**:
+
+$$
+\frac{p}{\rho g} + \frac{v^2}{2g} + y = \text{tetap}. \qquad \text{(7.ya)}
+$$
+
+Para insinyur menyebut ketiganya **tinggi tekan** (*head*): tinggi tekan tekanan, tinggi tekan kecepatan, dan tinggi tekan elevasi. Cara pandang ini praktis: tekanan terukur 100 kPa setara dengan kolom air 10,2 m, jadi pompa yang "bertinggi tekan 30 m" dapat menaikkan air setinggi 30 m atau menghasilkan tekanan 294 kPa.
+
+::: {.contoh}
+**Contoh 7.yc · Air mancur**
+
+Pipa berdiameter 5,0 cm di permukaan tanah memasok air mancur dengan tekanan terukur 150 kPa. Ujung semprotnya, 0,50 m di atas pipa, berdiameter 1,5 cm dan mengarah tegak ke atas. Dalam keadaan ideal, (a) berapa kelajuan air keluar; (b) seberapa tinggi air memancar di atas ujung semprot; (c) berapa debitnya?
+
+**Kerjakan.**
+
+(a) Kontinuitas: $v_1 = v_2(1{,}5/5{,}0)^2 = 0{,}090v_2$. Bernoulli antara pipa (titik 1) dan pancaran di ujung semprot (titik 2, tekanan terukur nol):
+
+$$
+p_1 + \tfrac12\rho v_1^2 = \tfrac12\rho v_2^2 + \rho g(0{,}50) \quad\Longrightarrow\quad v_2^2(1 - 0{,}0081) = \frac{2(150\,000 - 4900)}{1000} = 290 .
+$$
+
+$v_2 = 17$ m/s.
+
+(b) $h = \dfrac{v_2^2}{2g} = \dfrac{292}{19{,}6} = 15$ m.
+
+(c) $Q = \pi(0{,}0075)^2(17{,}1) = 3{,}0 \times 10^{-3}\ \text{m}^3/\text{s}$.
+
+**Periksa.** Dengan tinggi tekan: tekanan 150 kPa setara dengan 15,3 m air. Dikurangi 0,5 m untuk naik ke ujung semprot, tersisa hampir 15 m, sama dengan hasil (b). Kelajuan di pipa hanya 1,5 m/s dan hampir tidak berpengaruh. Air mancur sungguhan lebih rendah, karena gesekan di pipa dan hambatan udara.
+:::
+
+@@ a-bernoulli.md | AKHIR
+### Tekanan angin pada permukaan
+
+::: {.contoh}
+**Contoh 7.yd · Gaya angin pada dinding**
+
+Angin 40 m/s (144 km/jam) menerpa tegak lurus sebuah papan reklame berukuran 3,0 m × 10 m. Perkirakan gaya angin padanya.
+
+**Kerjakan.** Di muka papan, udara hampir berhenti, jadi tekanannya naik sebesar tekanan dinamis:
+
+$$
+\Delta p = \tfrac12\rho v^2 = \tfrac12(1{,}2)(40)^2 = 960\ \text{Pa}, \qquad F \approx (960)(30) = 2{,}9 \times 10^4\ \text{N}.
+$$
+
+**Periksa.** Gayanya setara dengan berat hampir 3 ton. Gaya sebenarnya sedikit lebih besar, karena di belakang papan terbentuk daerah bertekanan rendah yang ikut menarik. Perancang bangunan memakai rumus yang sama dengan faktor koreksi bentuk. Karena gaya sebanding dengan $v^2$, angin 20 m/s hanya memberi seperempatnya.
+:::
+
+@@ b-kental.md | ## 7.6 
+### Pipa bersambung dan media berpori
+
+::: {.contoh}
+**Contoh 7.ye · Bagian sempit menentukan segalanya**
+
+Air mengalir melalui dua pipa yang disambung seri: pipa pertama berjari-jari 2,0 mm sepanjang 1,0 m, dan pipa kedua berjari-jari 1,0 mm sepanjang 0,20 m. Selisih tekanan totalnya 1000 Pa. (a) Berapa debitnya? (b) Berapa bagian penurunan tekanan yang terjadi di pipa sempit?
+
+**Kerjakan.** Hambatan aliran, $R = 8\eta L/(\pi r^4)$:
+
+$$
+R_1 = \frac{8(1{,}0 \times 10^{-3})(1{,}0)}{\pi(2{,}0 \times 10^{-3})^4} = 1{,}6 \times 10^8, \qquad R_2 = \frac{8(1{,}0 \times 10^{-3})(0{,}20)}{\pi(1{,}0 \times 10^{-3})^4} = 5{,}1 \times 10^8\ \text{Pa·s/m}^3 .
+$$
+
+(a) $Q = \dfrac{\Delta p}{R_1 + R_2} = \dfrac{1000}{6{,}7 \times 10^8} = 1{,}5 \times 10^{-6}\ \text{m}^3/\text{s}$.
+
+(b) $\dfrac{R_2}{R_1 + R_2} = 0{,}76$. Penurunan tekanan di pipa sempit: 760 Pa.
+
+**Periksa.** Pipa sempit hanya seperlima panjang pipa lebar, tetapi menanggung tiga perempat penurunan tekanan. Dalam rangkaian seri, bagian tersempit hampir selalu menentukan aliran. Itu sebabnya satu penyempitan pendek di pembuluh darah atau satu sambungan yang tersumbat sudah cukup untuk mencekik aliran seluruh sistem.
+:::
+
+::: {.contoh}
+**Contoh 7.yf · Mengapa HPLC memerlukan tekanan sangat tinggi**
+
+Kolom kromatografi berisi butir-butir halus, dan zat cair mengalir melalui celah-celah di antaranya, yang ukurannya sebanding dengan ukuran butir. Sebuah kolom berisi butir 10 μm memerlukan tekanan 20 bar untuk debit tertentu. Berapa tekanan yang diperlukan untuk debit yang sama jika butirnya diganti dengan ukuran 2 μm?
+
+**Rencanakan.** Modelkan kolom sebagai banyak saluran sejajar berjari-jari $r$, sebanding dengan ukuran butir. Pada luas penampang kolom yang sama, banyaknya saluran sebanding dengan $1/r^2$. Debit tiap saluran sebanding dengan $r^4\Delta p$.
+
+**Kerjakan.** Debit total $\propto \dfrac{1}{r^2} \times r^4\,\Delta p = r^2\,\Delta p$. Untuk debit yang sama, $\Delta p \propto 1/r^2$:
+
+$$
+\Delta p = 20\ \text{bar} \times \Big(\frac{10}{2}\Big)^2 = 500\ \text{bar}.
+$$
+
+**Periksa.** Butir lima kali lebih halus memerlukan tekanan dua puluh lima kali lebih besar. Butir halus memisahkan campuran jauh lebih baik, karena molekul lebih cepat berdifusi keluar-masuk butir (subbab 7.9), tetapi harganya adalah tekanan ratusan atmosfer. Itulah asal nama lama HPLC, *high-pressure liquid chromatography*. Kromatografi kolom biasa di praktikum memakai butir kasar dan cukup dialiri dengan gravitasi.
+:::
+
+@@ b-kental.md | ## 7.7 
+::: {.contoh}
+**Contoh 7.yg · Bernapas dan batuk**
+
+Batang tenggorok berdiameter sekitar 1,8 cm. Hitung bilangan Reynolds aliran udara di dalamnya (a) saat bernapas tenang, 1,0 m/s; (b) saat batuk, 30 m/s. ($\rho = 1{,}2\ \text{kg/m}^3$, $\eta = 1{,}8 \times 10^{-5}$ Pa·s.)
+
+**Kerjakan.**
+
+(a) $\text{Re} = \dfrac{(1{,}2)(1{,}0)(0{,}018)}{1{,}8 \times 10^{-5}} = 1200$: laminar.
+
+(b) $\text{Re} = \dfrac{(1{,}2)(30)(0{,}018)}{1{,}8 \times 10^{-5}} = 3{,}6 \times 10^4$: turbulen.
+
+**Periksa.** Napas tenang tidak bersuara karena alirannya laminar. Batuk sengaja dibuat turbulen: pusaran-pusaran udara merontokkan lendir dari dinding saluran napas. Bunyi mengi pada penderita asma adalah turbulensi di saluran yang menyempit.
+:::
+
+@@ b-kental.md | ## 7.8 
+::: {.contoh}
+**Contoh 7.yh · Sampai ukuran berapa hukum Stokes berlaku?**
+
+Sampai jari-jari berapa hukum Stokes masih berlaku (Re = 1) untuk tetes air yang jatuh di udara? ($\rho_\text{udara} = 1{,}2\ \text{kg/m}^3$, $\eta = 1{,}8 \times 10^{-5}$ Pa·s.)
+
+**Kerjakan.** Masukkan $v_t = \dfrac{2r^2\rho g}{9\eta}$ ke $\text{Re} = \dfrac{\rho_\text{udara}v_t(2r)}{\eta}$:
+
+$$
+\text{Re} = \frac{4r^3\rho\,\rho_\text{udara}\,g}{9\eta^2} = 1 \quad\Longrightarrow\quad r = \left[\frac{9(1{,}8 \times 10^{-5})^2}{4(1000)(1{,}2)(9{,}80)}\right]^{1/3} = 4{,}0 \times 10^{-5}\ \text{m}.
+$$
+
+**Periksa.** Batasnya sekitar 40 μm. Tetes awan (10 μm) berada di rezim Stokes; gerimis (100 μm) dan hujan (1 mm) tidak. Karena Re sebanding dengan $r^3$, peralihannya tajam: tetes dua kali lebih besar memiliki Re delapan kali lebih besar.
+:::
+
+@@ b-kental.md | ## 7.9 
+::: {.contoh}
+**Contoh 7.yi · Memompa minyak melalui pipa panjang**
+
+Minyak ($\eta = 0{,}10$ Pa·s, $\rho = 900\ \text{kg/m}^3$) dipompa 0,010 m³/s melalui pipa mendatar berjari-jari 5,0 cm sepanjang 1,0 km. (a) Berapa selisih tekanan yang diperlukan? (b) Berapa daya pompanya? (c) Apakah alirannya laminar?
+
+**Kerjakan.**
+
+(a) $\Delta p = \dfrac{8\eta LQ}{\pi r^4} = \dfrac{8(0{,}10)(1000)(0{,}010)}{\pi(0{,}050)^4} = 4{,}1 \times 10^5$ Pa, sekitar 4 atm.
+
+(b) $P = \Delta p\,Q = (4{,}1 \times 10^5)(0{,}010) = 4{,}1 \times 10^3$ W.
+
+(c) $v = \dfrac{Q}{\pi r^2} = 1{,}27$ m/s. $\text{Re} = \dfrac{(900)(1{,}27)(0{,}10)}{0{,}10} = 1{,}1 \times 10^3$: laminar, jadi hukum Poiseuille sah.
+
+**Periksa.** Seluruh daya 4,1 kW berubah menjadi panas di dalam minyak. Minyak mentah yang kental sering **dipanaskan** sebelum dipompa: kekentalannya turun tajam, dan daya pompa turun sebanding. Tetapi jika kekentalan turun terlalu jauh, Re melewati 2000, aliran menjadi turbulen, dan kerugiannya naik lagi.
+:::
+
+@@ b-kental.md | AKHIR
+::: {.contoh}
+**Contoh 7.yj · Pertukaran gas di paru-paru**
+
+Dinding antara udara di alveolus dan darah di kapiler tebalnya sekitar 0,50 μm. Koefisien difusi oksigen di jaringan sekitar $1{,}0 \times 10^{-9}\ \text{m}^2/\text{s}$. (a) Berapa lama oksigen melintasinya? (b) Darah berada di kapiler paru sekitar 0,75 s. Cukupkah waktunya?
+
+**Kerjakan.**
+
+(a) $t = \dfrac{x^2}{2D} = \dfrac{(5{,}0 \times 10^{-7})^2}{2(1{,}0 \times 10^{-9})} = 1{,}3 \times 10^{-4}$ s.
+
+(b) Waktu difusi ribuan kali lebih singkat daripada waktu yang tersedia. Cukup, dengan cadangan besar.
+
+**Periksa.** Dinding setipis itu membuat pertukaran gas hampir seketika. Pada radang paru atau penumpukan cairan, dinding menebal. Karena waktu difusi sebanding dengan **kuadrat** tebal, dinding sepuluh kali lebih tebal berarti difusi seratus kali lebih lambat, dan cadangan itu cepat habis.
+:::
+
+::: {.contoh}
+**Contoh 7.yk · Apakah bau menyebar dengan difusi?**
+
+Sebotol parfum dibuka di sudut ruangan. Berapa lama molekulnya berdifusi sejauh 5,0 m melalui udara yang benar-benar tenang? ($D = 2{,}0 \times 10^{-5}\ \text{m}^2/\text{s}$.)
+
+**Kerjakan.**
+
+$$
+t = \frac{(5{,}0)^2}{2(2{,}0 \times 10^{-5})} = 6{,}3 \times 10^5\ \text{s} \approx 7\ \text{hari}.
+$$
+
+**Periksa.** Padahal baunya tercium dalam beberapa detik. Yang membawanya bukan difusi, melainkan **aliran** udara: arus konveksi kecil yang selalu ada di ruangan. Untuk jarak makroskopik, aliran selalu mengalahkan difusi, bahkan dalam gas. Difusi baru mengambil alih pada langkah terakhir, di lapisan tipis dekat permukaan.
+:::
+
+@@ _soal.txt | ## Subbab 7.3 dan 7.4
+Air mengalir 1,2 m/s dalam pipa berdiameter 5,0 cm, yang bercabang menjadi pipa berdiameter 3,0 cm dan 4,0 cm. Di cabang 3,0 cm air mengalir 2,0 m/s. Berapa kelajuannya di cabang 4,0 cm? ||| 0,75 m/s
+
+@@ _soal.txt | ## Subbab 7.5
+Pipa lebar di permukaan tanah memasok air mancur dengan tekanan terukur 250 kPa. Ujung semprotnya 1,0 m di atas pipa, dengan diameter seperempat diameter pipa, mengarah ke atas. Dalam keadaan ideal, berapa kelajuan air keluar dan tinggi pancarannya di atas ujung semprot? ||| 22 m/s; 25 m
+
+@@ _soal.txt | ## Subbab 7.6
+Air mengalir melalui dua pipa seri: jari-jari 1,5 mm sepanjang 0,50 m, lalu jari-jari 0,50 mm sepanjang 0,10 m. Selisih tekanan totalnya 2000 Pa. Berapa debitnya, dan berapa bagian penurunan tekanan yang terjadi di pipa sempit? ||| $4{,}6 \times 10^{-7}$ m³/s; 94%
+Kolom kromatografi berisi butir 10 μm memerlukan tekanan 15 bar. Berapa tekanan untuk debit yang sama jika butirnya 5 μm? ||| 60 bar
+
+@@ _soal.txt | ## Subbab 7.8
+Sampai jari-jari berapa hukum Stokes berlaku (Re = 1) untuk butir pasir ($2600\ \text{kg/m}^3$) yang mengendap dalam air? Anggap $\rho - \rho_f \approx 2600\ \text{kg/m}^3$ untuk taksiran kasar. ||| sekitar 45 μm
+
+@@ _soal.txt | ## Subbab 7.9
+Minyak ($\eta = 0{,}050$ Pa·s) dipompa 5,0 L/s melalui pipa mendatar berjari-jari 4,0 cm sepanjang 500 m. Berapa selisih tekanan dan daya pompa yang diperlukan? ||| $1{,}2 \times 10^5$ Pa; 0,62 kW
+
+@@ _soal.txt | ## Soal gabungan
+Dinding sebuah sel setebal 1,0 μm. Berapa lama molekul kecil ($D = 1{,}0 \times 10^{-9}\ \text{m}^2/\text{s}$) melintasinya? Berapa kali lebih lama jika tebalnya 5,0 μm? ||| $5{,}0 \times 10^{-4}$ s; 25 kali

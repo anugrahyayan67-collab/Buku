@@ -1,0 +1,847 @@
+@@A
+### Usaha gravitasi pada lintasan apa pun
+
+Contoh 4.4 memberi petunjuk penting: usaha gravitasi pada peti hanya bergantung pada kenaikan ketinggiannya. Ini berlaku umum. Berat selalu berarah tegak ke bawah, jadi dalam bentuk komponen $\vec F_g = -mg\,\hat\jmath$. Untuk perpindahan apa pun $\vec d = \Delta x\,\hat\imath + \Delta y\,\hat\jmath$,
+
+$$
+W_g = \vec F_g\cdot\vec d = -mg\,\Delta y . \qquad \text{(4.ea)}
+$$
+
+Komponen mendatar perpindahan tidak muncul sama sekali. Lintasan berkelok, bertangga, atau melingkar dapat dipecah menjadi banyak perpindahan kecil, dan untuk tiap potongan berlaku rumus yang sama. Jumlahnya tetap $-mg$ kali kenaikan ketinggian total.
+
+::: {.contoh}
+**Contoh 4.a1 · Mendaki gunung**
+
+Seorang pendaki 70 kg dengan ransel 15 kg mendaki dari pos awal ke puncak yang 1200 m lebih tinggi, melalui jalur berkelok sepanjang 9,0 km. (a) Berapa usaha gravitasi pada pendaki dan ranselnya? (b) Jika tubuh mengubah 25% energi makanan menjadi usaha mekanik, berapa energi makanan (dalam kkal) yang diperlukan hanya untuk melawan gravitasi?
+
+**Kerjakan.**
+
+(a) $W_g = -mg\,\Delta y = -(85)(9{,}80)(1200) = -1{,}0 \times 10^6$ J. Panjang jalur 9,0 km tidak dipakai.
+
+(b) Pendaki harus menyediakan usaha $+1{,}0 \times 10^6$ J, yaitu $10^6/4184 = 239$ kkal. Dengan efisiensi 25%, energi makanan yang diperlukan $239/0{,}25 = 960$ kkal.
+
+**Periksa.** Jalur berkelok tidak mengurangi usaha melawan gravitasi. Yang berkurang adalah **gaya** yang diperlukan pada tiap langkah, karena usaha yang sama disebar pada jarak yang lebih panjang. Itu juga alasan jalan pegunungan dibuat berkelok dan bidang miring dipakai untuk menaikkan barang ke truk.
+:::
+
+### Usaha oleh tegangan tali dan gaya penopang
+
+Tegangan tali dapat melakukan usaha positif, negatif, atau nol, bergantung pada arah gerak benda.
+
+::: {.contoh}
+**Contoh 4.a2 · Lift yang turun**
+
+Kabin lift 900 kg turun sejauh 12 m. Hitung usaha kabel, usaha gravitasi, dan usaha total jika kabin (a) turun dengan kelajuan tetap; (b) turun dengan percepatan $1{,}5\ \text{m/s}^2$ ke bawah.
+
+**Kerjakan.** Perpindahan ke bawah, jadi gravitasi melakukan usaha positif dan kabel (yang menarik ke atas) melakukan usaha negatif.
+
+(a) $T = mg = 8820$ N. $W_T = -(8820)(12) = -1{,}06 \times 10^5$ J dan $W_g = +1{,}06 \times 10^5$ J. Usaha total nol.
+
+(b) Hukum kedua, dengan arah ke bawah positif: $mg - T = ma$, sehingga $T = m(g - a) = 900(8{,}30) = 7470$ N.
+
+$W_T = -(7470)(12) = -8{,}96 \times 10^4$ J, $W_g = +1{,}06 \times 10^5$ J, dan $W_\text{total} = +1{,}62 \times 10^4$ J.
+
+**Periksa.** Pada (b), usaha total harus sama dengan $(ma)d = (900)(1{,}5)(12) = 1{,}62 \times 10^4$ J. Cocok. Pada kedua keadaan kabel **mengambil** energi dari kabin. Tanpa kabel, seluruh usaha gravitasi akan menjadi energi gerak.
+:::
+
+::: {.contoh}
+**Contoh 4.a3 · Dua tali penarik perahu**
+
+Sebuah perahu ditarik menyusuri kanal oleh dua orang di kedua tepi. Masing-masing menarik dengan gaya 300 N, dan tiap tali membentuk sudut 25° terhadap arah kanal. Gaya hambat air 500 N. Hitung usaha tiap penarik, usaha hambatan air, dan usaha total ketika perahu maju 50 m.
+
+**Kerjakan.**
+
+Tiap penarik: $W = (300)(50)\cos 25° = 1{,}36 \times 10^4$ J. Berdua: $2{,}72 \times 10^4$ J.
+
+Hambatan air: $W = -(500)(50) = -2{,}50 \times 10^4$ J.
+
+Total: $W_\text{total} = 2{,}72 \times 10^4 - 2{,}50 \times 10^4 = 2{,}2 \times 10^3$ J.
+
+**Periksa.** Komponen gaya tarik yang melintang kanal ($300\sin 25° = 127$ N dari tiap sisi) saling meniadakan dan tidak melakukan usaha, karena perahu tidak berpindah ke samping. Hampir 10% tarikan tiap orang "terbuang" menjadi gaya yang tidak memindahkan energi.
+:::
+
+### Usaha bergantung pada kerangka acuan
+
+Perpindahan bergantung pada siapa yang mengukur, jadi usaha juga demikian. Seorang penumpang kereta mendorong kopernya 2 m ke depan di lorong gerbong. Menurut penumpang lain, perpindahan koper 2 m. Menurut orang di peron, koper berpindah jauh lebih besar karena kereta juga melaju. Kedua pengamat memperoleh usaha yang berbeda dan perubahan energi kinetik yang berbeda, tetapi **keduanya menemukan bahwa teorema usaha–energi berlaku** di kerangka masing-masing (subbab 4.3). Aturan praktisnya: pilih satu kerangka inersia, lalu ukur semua perpindahan dan kecepatan di kerangka itu.
+
+@@B
+### Usaha pada lintasan melengkung
+
+Jika lintasannya melengkung, arah perpindahan berubah terus. Pecah lintasan menjadi potongan sangat pendek $d\vec s$. Pada tiap potongan, hanya komponen gaya yang **menyinggung lintasan**, $F_\parallel$, yang melakukan usaha:
+
+$$
+W = \int \vec F\cdot d\vec s = \int F_\parallel\,ds . \qquad \text{(4.eb)}
+$$
+
+Komponen gaya yang tegak lurus lintasan hanya membelokkan benda dan tidak memindahkan energi. Inilah alasan umum mengapa gaya ke pusat pada gerak melingkar tidak melakukan usaha.
+
+::: {.contoh}
+**Contoh 4.b1 · Menarik bandul perlahan-lahan**
+
+Beban bandul 2,0 kg tergantung pada tali 1,5 m. Beban ditarik sangat perlahan dengan gaya **mendatar** sampai tali membentuk sudut 35° terhadap garis tegak. (a) Berapa gaya mendatar yang diperlukan di posisi akhir? (b) Berapa usaha gaya itu selama proses?
+
+**Modelkan.** "Sangat perlahan" berarti beban selalu hampir setimbang. Gaya mendatar yang diperlukan berubah terhadap sudut, jadi $W = Fd$ tidak dapat dipakai langsung.
+
+**Kerjakan.**
+
+(a) Setimbang di sudut $\theta$: $T\cos\theta = mg$ dan $T\sin\theta = F$, sehingga $F = mg\tan\theta$. Di 35°: $F = (19{,}6)(0{,}700) = 13{,}7$ N. Di awal ($\theta = 0$) gaya itu nol.
+
+(b) Cara panjang: potongan lintasan $ds = L\,d\theta$, dan komponen $F$ yang menyinggung lintasan adalah $F\cos\theta$:
+
+$$
+W = \int_0^{\theta} (mg\tan\theta')\cos\theta'\,L\,d\theta' = mgL\int_0^{\theta}\sin\theta'\,d\theta' = mgL(1 - \cos\theta).
+$$
+
+$W = (2{,}0)(9{,}80)(1{,}5)(1 - 0{,}819) = 5{,}3$ J.
+
+Cara pendek: energi kinetik tidak berubah dan tegangan tali tidak melakukan usaha, jadi usaha tangan sama dengan negatif usaha gravitasi: $W = mg\,\Delta y = mgL(1 - \cos\theta)$. Hasilnya sama.
+
+**Periksa.** Jika kita keliru memakai "gaya akhir kali jarak mendatar", hasilnya $(13{,}7)(1{,}5\sin 35°) = 11{,}8$ J, lebih dari dua kali jawaban yang benar. Gaya itu tidak sebesar 13,7 N di sepanjang jalan.
+:::
+
+### Pegas gabungan
+
+Dua pegas dapat digabung dengan dua cara, dan gabungannya berperilaku seperti satu pegas dengan konstanta efektif.
+
+**Paralel** (berdampingan, simpangannya sama). Gaya totalnya $F = k_1x + k_2x$, sehingga
+
+$$
+k_\text{paralel} = k_1 + k_2 .
+$$
+
+**Seri** (bersambung ujung ke ujung, gayanya sama). Simpangan total $x = F/k_1 + F/k_2$, sehingga
+
+$$
+\frac{1}{k_\text{seri}} = \frac{1}{k_1} + \frac{1}{k_2} \qquad\text{atau}\qquad k_\text{seri} = \frac{k_1k_2}{k_1 + k_2}.
+$$
+
+Pegas paralel lebih kaku daripada masing-masing pegas. Pegas seri lebih lunak daripada pegas yang paling lunak. Aturan ini kebalikan dari aturan hambatan listrik (Bab 13) dan sama dengan aturan kapasitor (Bab 12).
+
+::: {.contoh}
+**Contoh 4.b2 · Energi pada pegas gabungan**
+
+Dua pegas, $k_1 = 300$ N/m dan $k_2 = 600$ N/m, ditarik dengan gaya 30 N. Hitung konstanta efektif dan energi yang tersimpan jika keduanya dipasang (a) paralel, (b) seri.
+
+**Kerjakan.** Dengan gaya yang diketahui, $x = F/k$ dan energi $\tfrac12kx^2 = F^2/(2k)$.
+
+(a) $k = 900$ N/m. Energi $= \dfrac{30^2}{2(900)} = 0{,}50$ J.
+
+(b) $k = \dfrac{(300)(600)}{900} = 200$ N/m. Energi $= \dfrac{30^2}{2(200)} = 2{,}25$ J.
+
+**Periksa.** Dengan **gaya yang sama**, susunan yang lebih lunak menyimpan energi lebih banyak, karena meregang lebih jauh. Dengan **regangan yang sama**, kesimpulannya terbalik: susunan yang lebih kaku menyimpan lebih banyak. Selalu periksa besaran mana yang dijaga tetap.
+:::
+
+### Di luar hukum Hooke
+
+Hukum Hooke adalah pendekatan untuk simpangan kecil. Karet gelang, tali bungee, dan ikatan kimia yang diregangkan jauh tidak lagi mengikuti $F = kx$. Rumus $\tfrac12kx^2$ tidak berlaku lagi, tetapi rumus umum (4.4) tetap berlaku.
+
+::: {.contoh}
+**Contoh 4.b3 · Tali karet yang tidak linear**
+
+Gaya untuk meregangkan sebuah tali karet sejauh $x$ adalah $F = 50x + 200x^3$ (N, dengan $x$ dalam meter). Berapa usaha untuk meregangkannya dari 0 sampai 0,20 m? Bandingkan dengan pegas Hooke berkonstanta 50 N/m.
+
+**Kerjakan.**
+
+$$
+W = \int_0^{0{,}20}(50x + 200x^3)\,dx = \Big[25x^2 + 50x^4\Big]_0^{0{,}20} = 25(0{,}040) + 50(0{,}0016) = 1{,}0 + 0{,}08 = 1{,}08\ \text{J}.
+$$
+
+Pegas Hooke saja: 1,0 J.
+
+**Periksa.** Suku pangkat tiga hanya menambah 8% pada regangan 20 cm. Pada regangan 5 cm, tambahannya hanya 0,5%. Itulah arti "hukum Hooke berlaku untuk simpangan kecil": suku-suku pangkat tinggi baru terasa ketika simpangannya besar. Gagasan yang sama muncul lagi untuk ikatan kimia di subbab 4.8.
+:::
+
+@@C
+### Sistem beberapa benda
+
+Teorema usaha–energi dapat diterapkan pada **satu benda** atau pada **sistem** beberapa benda. Untuk sistem, energi kinetiknya adalah jumlah energi kinetik semua anggotanya, dan usahanya adalah jumlah usaha semua gaya pada semua anggota. Gaya dalam (antara anggota sistem) sering kali saling meniadakan usahanya, misalnya tegangan tali ideal yang menghubungkan dua balok.
+
+::: {.contoh}
+**Contoh 4.c1 · Dua balok yang terhubung**
+
+Balok 4,0 kg di meja licin dihubungkan lewat katrol ke beban gantung 1,0 kg. Sistem dilepas dari diam. Berapa kelajuan keduanya setelah beban turun 0,50 m?
+
+**Kerjakan.** Ambil kedua benda sebagai sistem. Tegangan tali melakukan $+Td$ pada balok dan $-Td$ pada beban, jumlahnya nol. Gaya normal dan berat balok tegak lurus geraknya. Hanya gravitasi pada beban gantung yang melakukan usaha:
+
+$$
+m_2gd = \tfrac12(m_1 + m_2)v^2 \quad\Longrightarrow\quad v = \sqrt{\frac{2(1{,}0)(9{,}80)(0{,}50)}{5{,}0}} = 1{,}4\ \text{m/s}.
+$$
+
+**Periksa.** Di Bab 3 percepatan sistem ini $1{,}96\ \text{m/s}^2$, dan $v = \sqrt{2(1{,}96)(0{,}50)} = 1{,}4$ m/s. Sama. Perhatikan bahwa usaha gravitasi 4,9 J itu harus menggerakkan **kedua** benda, bukan hanya beban yang jatuh.
+:::
+
+### Gaya rata-rata saat berhenti mendadak
+
+Teorema usaha–energi menjelaskan mengapa jarak berhenti menentukan besar gaya. Benda dengan energi kinetik $K$ yang dihentikan dalam jarak $d$ mengalami gaya rata-rata $F = K/d$. Makin pendek jaraknya, makin besar gayanya. Sabuk pengaman, kantong udara, helm, dan zona remuk pada mobil semuanya bekerja dengan **memperpanjang jarak berhenti**.
+
+::: {.contoh}
+**Contoh 4.c2 · Mendarat dengan lutut ditekuk**
+
+Seseorang bermassa 70 kg melompat turun dari ketinggian 1,0 m. Hitung gaya rata-rata lantai pada kakinya jika saat mendarat pusat massanya masih turun sejauh (a) 0,40 m karena lutut ditekuk; (b) 2,0 cm karena kaki dibiarkan kaku.
+
+**Modelkan.** Dari awal lompatan sampai berhenti, pusat massa turun $h + d$. Energi kinetik awal dan akhir nol. Gravitasi bekerja sepanjang $h + d$, dan lantai hanya sepanjang $d$.
+
+**Kerjakan.**
+
+$$
+mg(h + d) - Fd = 0 \quad\Longrightarrow\quad F = mg\,\frac{h + d}{d}.
+$$
+
+(a) $F = (686)\dfrac{1{,}40}{0{,}40} = 2{,}4 \times 10^3$ N, sekitar 3,5 kali berat badan.
+
+(b) $F = (686)\dfrac{1{,}02}{0{,}020} = 3{,}5 \times 10^4$ N, sekitar 51 kali berat badan.
+
+**Periksa.** Gaya pada (b) cukup untuk mematahkan tulang. Jarak berhenti yang 20 kali lebih pendek menghasilkan gaya sekitar 15 kali lebih besar. Di sini lantai tidak berpindah, jadi secara ketat "usaha lantai" adalah cara pembukuan untuk energi yang diserap otot dan sendi (lihat subbab 4.7 tentang gaya dalam).
+:::
+
+::: {.contoh}
+**Contoh 4.c3 · Jarak berhenti total sebuah mobil**
+
+Pengemudi memerlukan waktu reaksi 1,0 s sebelum menginjak rem. Setelah itu mobil diperlambat $7{,}0\ \text{m/s}^2$. Hitung jarak berhenti total pada kelajuan (a) 50 km/jam, (b) 100 km/jam.
+
+**Kerjakan.** Jarak total = jarak selama reaksi + jarak pengereman $= vt_r + \dfrac{v^2}{2a}$.
+
+(a) $v = 13{,}9$ m/s: $13{,}9 + \dfrac{193}{14} = 13{,}9 + 13{,}8 = 28$ m.
+
+(b) $v = 27{,}8$ m/s: $27{,}8 + \dfrac{772}{14} = 27{,}8 + 55{,}1 = 83$ m.
+
+**Periksa.** Jarak reaksi sebanding dengan $v$, sedangkan jarak pengereman sebanding dengan $v^2$ karena berasal dari energi kinetik. Pada kelajuan rendah keduanya seimbang. Pada kelajuan tinggi, suku energi kinetik mendominasi: kelajuan dua kali membuat jarak total tiga kali.
+:::
+
+@@D
+### Gerak dengan daya tetap
+
+Mesin lebih tepat dimodelkan sebagai pemberi **daya** yang hampir tetap daripada pemberi gaya tetap. Jika daya $P$ tetap dan benda mulai dari diam, usaha sampai waktu $t$ adalah $Pt$, sehingga
+
+$$
+\tfrac12mv^2 = Pt \quad\Longrightarrow\quad v = \sqrt{\frac{2Pt}{m}} . \qquad \text{(4.ed)}
+$$
+
+Kelajuan tumbuh seperti $\sqrt t$, bukan sebanding dengan $t$. Gaya dorongnya $F = P/v$ mengecil ketika kelajuan bertambah, jadi percepatan terbesar terjadi di awal.
+
+::: {.contoh}
+**Contoh 4.d1 · Mobil dengan daya tetap**
+
+Mesin sebuah mobil 1200 kg memberi daya tetap 60 kW ke roda. Abaikan hambatan. (a) Berapa waktu untuk mencapai 100 km/jam dari diam? (b) Berapa percepatannya pada kelajuan 10 m/s dan 25 m/s?
+
+**Kerjakan.**
+
+(a) $v = 27{,}8$ m/s. $t = \dfrac{mv^2}{2P} = \dfrac{(1200)(27{,}8)^2}{2(60\,000)} = 7{,}7$ s.
+
+(b) $a = \dfrac{F}{m} = \dfrac{P}{mv}$. Pada 10 m/s: $\dfrac{60\,000}{(1200)(10)} = 5{,}0\ \text{m/s}^2$. Pada 25 m/s: $2{,}0\ \text{m/s}^2$.
+
+**Periksa.** Percepatan turun ketika kelajuan naik, sesuai pengalaman: mobil terasa "menendang" pada kelajuan rendah dan melemah pada kelajuan tinggi. Rumus ini memberi percepatan tak hingga pada $v = 0$, yang tentu tidak nyata. Pada kelajuan sangat rendah, pembatasnya adalah gesekan ban dengan jalan, bukan daya mesin.
+:::
+
+### Hambatan udara: daya sebanding dengan pangkat tiga kelajuan
+
+Pada kelajuan jalan raya, gaya hambat udara pada kendaraan sebanding dengan kuadrat kelajuan (subbab 3.13): $D = \tfrac12\rho C_dAv^2$. Daya untuk melawannya adalah
+
+$$
+P = Dv = \tfrac12\rho C_dA\,v^3 . \qquad \text{(4.ee)}
+$$
+
+::: {.contoh}
+**Contoh 4.d2 · Harga dari melaju lebih cepat**
+
+Untuk sebuah mobil, $C_dA = 0{,}60\ \text{m}^2$ dan massa jenis udara $1{,}2\ \text{kg/m}^3$. Hitung gaya hambat udara dan daya untuk melawannya pada (a) 25 m/s (90 km/jam), (b) 35 m/s (126 km/jam).
+
+**Kerjakan.**
+
+(a) $D = \tfrac12(1{,}2)(0{,}60)(25)^2 = 225$ N dan $P = (225)(25) = 5{,}6$ kW.
+
+(b) $D = \tfrac12(1{,}2)(0{,}60)(35)^2 = 441$ N dan $P = (441)(35) = 15{,}4$ kW.
+
+**Periksa.** Kelajuan naik 40%, tetapi daya naik $1{,}4^3 = 2{,}7$ kali. Energi **per kilometer** sama dengan gaya hambat, jadi naik $1{,}4^2 = 1{,}96$ kali. Itu sebabnya konsumsi bahan bakar per kilometer membengkak di jalan tol, dan sebabnya pesepeda balap sangat peduli pada posisi badan.
+:::
+
+### Efisiensi
+
+Tidak ada mesin yang mengubah seluruh energi masukannya menjadi usaha yang berguna. **Efisiensi** adalah perbandingan keduanya:
+
+$$
+\eta = \frac{\text{energi (atau daya) keluaran yang berguna}}{\text{energi (atau daya) masukan}} . \qquad \text{(4.ef)}
+$$
+
+| Alat | Efisiensi (kira-kira) |
+|---|---|
+| Motor listrik besar | 90–95% |
+| Otot manusia | 20–25% |
+| Mesin bensin | 25–30% |
+| Mesin diesel | 35–45% |
+| Lampu pijar (energi menjadi cahaya) | 5% |
+| Lampu LED | 30–40% |
+
+Sisa energinya hampir selalu menjadi energi termal. Mengapa mesin kalor tidak mungkin 100% efisien adalah pokok Bab 11.
+
+::: {.contoh}
+**Contoh 4.d3 · Efisiensi motor derek**
+
+Motor listrik sebuah derek mengangkat beban 200 kg setinggi 15 m dalam 25 s dengan kelajuan tetap, sambil memakai daya listrik 1,5 kW. Berapa efisiensinya?
+
+**Kerjakan.** Daya keluaran: $P = \dfrac{mgh}{t} = \dfrac{(200)(9{,}80)(15)}{25} = 1176$ W. Efisiensi: $\eta = \dfrac{1176}{1500} = 0{,}78$, atau 78%.
+
+**Periksa.** Dari 1500 W yang masuk, 324 W menjadi panas di motor, roda gigi, dan kabel.
+:::
+
+::: {.contoh}
+**Contoh 4.d4 · Konsumsi bahan bakar**
+
+Sebuah mobil memerlukan 18 kW di roda untuk melaju tetap 30 m/s. Efisiensi keseluruhan dari bahan bakar ke roda 25%. Bensin menyimpan energi kimia 34 MJ per liter. Berapa kilometer yang ditempuh dengan satu liter bensin?
+
+**Kerjakan.** Daya dari bahan bakar: $18/0{,}25 = 72$ kW. Energi bahan bakar per meter: $\dfrac{72\,000\ \text{J/s}}{30\ \text{m/s}} = 2400$ J/m, atau 2,4 MJ/km.
+
+$$
+\text{jarak per liter} = \frac{34\ \text{MJ}}{2{,}4\ \text{MJ/km}} = 14\ \text{km}.
+$$
+
+**Periksa.** Angka 14 km per liter cocok dengan mobil sungguhan, dan itu diperoleh hanya dari daya, kelajuan, dan efisiensi. Dari tiap liter bensin, tiga perempatnya menjadi panas di radiator dan knalpot.
+:::
+
+::: {.contoh}
+**Contoh 4.d5 · Daya jantung**
+
+Jantung orang dewasa yang beristirahat memompa sekitar 5,0 liter darah per menit melawan tekanan rata-rata 13,3 kPa (100 mmHg). Berapa daya mekanik jantung?
+
+**Rencanakan.** Usaha untuk mendorong zat cair bertekanan $p$ melalui pipa berpenampang $A$ sejauh $d$ adalah $W = Fd = (pA)d = pV$, dengan $V$ volume yang dipindahkan. Jadi daya = tekanan × debit.
+
+**Kerjakan.** Debit: $\dfrac{5{,}0 \times 10^{-3}\ \text{m}^3}{60\ \text{s}} = 8{,}3 \times 10^{-5}\ \text{m}^3/\text{s}$.
+
+$$
+P = (1{,}33 \times 10^4)(8{,}3 \times 10^{-5}) = 1{,}1\ \text{W}.
+$$
+
+**Periksa.** Hanya sekitar satu watt, tetapi tanpa henti. Dalam sehari itu 96 kJ, setara dengan mengangkat orang 70 kg setinggi 140 m. Hubungan $W = pV$ akan muncul lagi sebagai usaha gas di Bab 11.
+:::
+
+@@E
+### Mencari energi potensial dari gaya
+
+Definisi (4.12) dapat ditulis sebagai rumus untuk menghitung $U$ dari gaya konservatif yang diketahui:
+
+$$
+U(x) - U(x_0) = -\int_{x_0}^{x} F_x\,dx' . \qquad \text{(4.eg)}
+$$
+
+Titik $x_0$ adalah titik acuan tempat kita menetapkan nilai $U$, biasanya nol.
+
+::: {.contoh}
+**Contoh 4.e1 · Energi potensial pegas yang tidak linear**
+
+Sebuah pegas mengerjakan gaya $F_x = -100x - 2000x^3$ (N, dengan $x$ dalam meter). (a) Tentukan energi potensialnya dengan $U(0) = 0$. (b) Berapa energi yang tersimpan pada $x = 0{,}10$ m?
+
+**Kerjakan.**
+
+(a) $U(x) = -\displaystyle\int_0^x(-100x' - 2000x'^3)\,dx' = 50x^2 + 500x^4$.
+
+(b) $U(0{,}10) = 50(0{,}010) + 500(0{,}00010) = 0{,}50 + 0{,}05 = 0{,}55$ J.
+
+**Periksa.** Turunkan kembali: $-dU/dx = -100x - 2000x^3$. Kembali ke gaya semula, sesuai hubungan yang dibahas di subbab 4.8.
+:::
+
+### Beban yang tergantung pada pegas tegak
+
+Beban bermassa $m$ tergantung pada pegas tegak memiliki dua energi potensial sekaligus, pegas dan gravitasi. Ada penyederhanaan yang sangat berguna. Misalkan $y$ adalah simpangan beban dari **posisi setimbangnya** (tempat $kx_0 = mg$). Maka jumlah kedua energi potensial itu adalah
+
+$$
+U_s + U_g = \tfrac12ky^2 + \text{tetapan}. \qquad \text{(4.eh)}
+$$
+
+Jadi beban yang tergantung berperilaku persis seperti beban pada pegas mendatar tanpa gravitasi, asalkan simpangan diukur dari posisi setimbang. Gravitasi hanya menggeser posisi setimbang. Contoh 4.8 sudah memperlihatkannya dengan angka.
+
+::: {.mat}
+**Matematika · Bukti persamaan (4.eh)**
+
+Ukur regangan pegas dari panjang alaminya, $x = x_0 + y$, dengan arah ke bawah positif. Maka
+
+$$
+U_s + U_g = \tfrac12k(x_0 + y)^2 - mg(x_0 + y) = \tfrac12ky^2 + (kx_0 - mg)\,y + \big(\tfrac12kx_0^2 - mgx_0\big).
+$$
+
+Suku tengah lenyap karena $kx_0 = mg$, dan suku terakhir tetapan.
+:::
+
+@@F
+### Kelajuan dari energi, gaya dari Newton
+
+Empat contoh berikut memakai pola yang sama dengan Contoh 4.18 dan 4.19, pada keadaan yang berbeda-beda.
+
+![Gambar 4.g1 Di dasar lembah, gaya normal harus lebih besar daripada berat. Di puncak bukit, gaya normal lebih kecil daripada berat dan dapat menjadi nol.](fig/bukit.png){width=78%}
+
+::: {.contoh}
+**Contoh 4.f1 · Lembah dan bukit pada lintasan halilintar**
+
+Kereta halilintar mulai dari diam di ketinggian 25 m pada lintasan licin (Gambar 4.g1). (a) Lintasan turun ke lembah di ketinggian nol dengan jari-jari kelengkungan 15 m. Berapa gaya normal pada penumpang 60 kg di dasar lembah? (b) Setelah itu ada bukit setinggi 12 m dengan jari-jari kelengkungan 20 m. Apa yang terjadi di puncaknya? (c) Berapa tinggi bukit paling rendah agar kereta tetap menempel?
+
+**Kerjakan.**
+
+(a) $v^2 = 2g(25) = 490\ \text{m}^2/\text{s}^2$. Di dasar lembah pusat kelengkungan ada di atas: $n - mg = mv^2/R$.
+
+$$
+n = m\Big(g + \frac{v^2}{R}\Big) = 60(9{,}80 + 32{,}7) = 2{,}5 \times 10^3\ \text{N}.
+$$
+
+Itu 4,3 kali berat penumpang.
+
+(b) Di puncak bukit, $v^2 = 2g(25 - 12) = 255\ \text{m}^2/\text{s}^2$. Pusat kelengkungan ada di bawah: $mg - n = mv^2/R$, sehingga
+
+$$
+n = m\Big(g - \frac{v^2}{R}\Big) = 60(9{,}80 - 12{,}7) < 0 .
+$$
+
+Gaya normal tidak dapat negatif. Artinya kereta sudah **lepas dari lintasan** sebelum sampai di puncak.
+
+(c) Syaratnya $v^2 \le gR = 196\ \text{m}^2/\text{s}^2$, yaitu $2g(25 - h) \le 196$, sehingga $h \ge 15$ m.
+
+**Periksa.** Bukit yang lebih tinggi justru lebih aman, karena kereta tiba di puncaknya lebih lambat. Pilihan lain bagi perancang adalah memperbesar jari-jari kelengkungan bukit menjadi paling sedikit $255/9{,}80 = 26$ m, atau memasang roda penahan di bawah rel, seperti pada wahana sungguhan.
+:::
+
+![Gambar 4.g2 Bandul yang talinya tersangkut paku. Setelah tersangkut, beban berputar pada lingkaran berjari-jari $r = L - d$ mengelilingi paku.](fig/paku.png){width=46%}
+
+::: {.contoh}
+**Contoh 4.f2 · Bandul dan paku**
+
+Beban bandul dengan tali sepanjang $L = 1{,}0$ m dilepas dari posisi tali mendatar. Tepat di bawah titik gantung, pada jarak $d$, terdapat paku (Gambar 4.g2). Berapa $d$ paling kecil agar beban dapat berputar satu lingkaran penuh mengelilingi paku?
+
+**Rencanakan.** Setelah tali tersangkut, beban bergerak pada lingkaran berjari-jari $r = L - d$. Syarat lingkaran penuh dengan tali sama dengan syarat pada Contoh 4.19: di puncak lingkaran, $v^2 \ge gr$.
+
+**Kerjakan.** Ambil $y = 0$ di titik terendah. Ketinggian awal beban $L$, dan puncak lingkaran kecil berada di ketinggian $2r$:
+
+$$
+mgL = \tfrac12mv^2 + mg(2r) \ge \tfrac12mgr + 2mgr = \tfrac52mgr .
+$$
+
+Jadi $r \le \tfrac25L$, atau $d = L - r \ge \tfrac35L = 0{,}60$ m.
+
+**Periksa.** Hasil $h = \tfrac52r$ muncul lagi, karena fisikanya sama dengan lingkaran halilintar. Jika pakunya lebih tinggi dari 0,60 m di bawah titik gantung, tali akan kendur sebelum beban mencapai puncak, dan beban jatuh sebagai peluru.
+:::
+
+::: {.contoh}
+**Contoh 4.f3 · Lompat ski: energi lalu gerak peluru**
+
+Peski meluncur dari diam menuruni lereng licin. Ujung lereng mendatar, 25 m lebih rendah daripada titik awal dan 5,0 m di atas bidang pendaratan yang datar. Berapa jauh peski mendarat dari kaki ujung lereng, diukur mendatar?
+
+**Kerjakan.** *Tahap 1, energi.* Kelajuan di ujung lereng: $v = \sqrt{2g(25)} = 22{,}1$ m/s, mendatar.
+
+*Tahap 2, gerak peluru* (subbab 2.12). Waktu jatuh 5,0 m: $t = \sqrt{2(5{,}0)/9{,}80} = 1{,}01$ s. Jarak mendatar: $x = (22{,}1)(1{,}01) = 22$ m.
+
+**Periksa.** Energi memberi kelajuan di ujung lereng tanpa perlu tahu bentuk lerengnya. Tetapi energi tidak dapat memberi **jarak** pendaratan, karena itu menyangkut waktu dan arah. Di situ kinematika mengambil alih.
+:::
+
+::: {.contoh}
+**Contoh 4.f4 · Pegas tegak sebagai pelontar**
+
+Bola 0,25 kg diletakkan di atas pegas tegak ($k = 800$ N/m) yang ditekan 0,10 m, lalu dilepas. (a) Berapa kelajuan bola saat meninggalkan pegas? (b) Berapa tinggi terbesar bola di atas posisi awalnya?
+
+**Kerjakan.** Ambil $y = 0$ di posisi awal. Energi awal: $\tfrac12kx^2 = \tfrac12(800)(0{,}10)^2 = 4{,}0$ J.
+
+(a) Bola meninggalkan pegas ketika pegas kembali ke panjang alaminya, 0,10 m di atas posisi awal:
+
+$$
+4{,}0 = \tfrac12mv^2 + mg(0{,}10) \quad\Longrightarrow\quad v = \sqrt{\frac{2(4{,}0 - 0{,}245)}{0{,}25}} = 5{,}5\ \text{m/s}.
+$$
+
+(b) Di titik tertinggi seluruh energi berupa energi potensial gravitasi: $h = \dfrac{4{,}0}{(0{,}25)(9{,}80)} = 1{,}6$ m.
+
+**Periksa.** Pada (b) keadaan antara (saat lepas dari pegas) dilompati. Itu sah, karena energi mekanik kekal di sepanjang jalan.
+:::
+
+### Tegangan tali bandul di titik terendah
+
+Untuk bandul yang dilepas dari sudut $\theta_0$, gabungkan $v^2 = 2gL(1 - \cos\theta_0)$ dengan $T - mg = mv^2/L$:
+
+$$
+T_\text{bawah} = mg(3 - 2\cos\theta_0). \qquad \text{(4.ei)}
+$$
+
+Hasil ini tidak bergantung pada panjang tali. Dilepas dari 60°, tegangannya $2mg$. Dilepas dari posisi mendatar (90°), tegangannya $3mg$. Tali ayunan harus dirancang menahan jauh lebih besar daripada berat penggunanya.
+
+@@G
+### Ke mana energi termal itu pergi: kenaikan suhu
+
+Energi termal yang timbul karena gesekan menaikkan suhu benda. Untuk benda bermassa $m$ dengan **kalor jenis** $c$, energi $Q$ menaikkan suhu sebesar
+
+$$
+\Delta T = \frac{Q}{mc} . \qquad \text{(4.ej)}
+$$
+
+Hubungan ini dibahas lengkap di Bab 10. Di sini kita memakainya untuk melihat bahwa energi mekanik yang "hilang" benar-benar dapat dilacak.
+
+::: {.contoh}
+**Contoh 4.g1 · Rem yang memanas**
+
+Mobil 1200 kg direm dari 25 m/s sampai berhenti. Hampir seluruh energi kinetiknya menjadi energi termal di empat cakram rem dari besi, masing-masing 6,0 kg. Kalor jenis besi 450 J/(kg·K). Berapa kenaikan suhu cakram?
+
+**Kerjakan.** $K = \tfrac12(1200)(25)^2 = 3{,}75 \times 10^5$ J.
+
+$$
+\Delta T = \frac{3{,}75 \times 10^5}{(24)(450)} = 35\ \text{K}.
+$$
+
+**Periksa.** Satu kali pengereman keras menaikkan suhu cakram 35 °C. Menuruni jalan pegunungan sambil terus mengerem dapat memanaskan cakram ratusan derajat sampai rem kehilangan dayanya. Itu sebabnya pengemudi dianjurkan memakai gigi rendah: mesin ikut menyerap energi.
+:::
+
+::: {.contoh}
+**Contoh 4.g2 · Air terjun dan percobaan Joule**
+
+Air jatuh dari ketinggian 50 m. Jika seluruh energi potensialnya menjadi energi termal air itu sendiri, berapa kenaikan suhunya? Kalor jenis air 4186 J/(kg·K).
+
+**Kerjakan.** Untuk air bermassa $m$: $mgh = mc\,\Delta T$, sehingga
+
+$$
+\Delta T = \frac{gh}{c} = \frac{(9{,}80)(50)}{4186} = 0{,}12\ \text{K}.
+$$
+
+**Periksa.** Hanya sepersepuluh derajat. Pada tahun 1847 James Joule, saat berbulan madu di Pegunungan Alpen, mencoba mengukur selisih suhu sekecil ini di sebuah air terjun. Percobaan-percobaan Joule itulah yang meyakinkan dunia bahwa kalor adalah bentuk energi, dan namanya diabadikan sebagai satuan energi. Hasil ini juga menunjukkan betapa besar energi yang diperlukan untuk memanaskan air dibandingkan energi mekanik sehari-hari.
+:::
+
+### Gaya dalam dan energi kimia
+
+Ketika kamu melompat tegak, apa yang memberi energi kinetik kepada tubuhmu? Bukan lantai. Gaya lantai memang mendorongmu ke atas, tetapi titik tangkap gaya itu (telapak kaki) **tidak berpindah** selama kamu menekan lantai, sehingga usahanya nol. Energinya berasal dari dalam: energi kimia di otot berubah menjadi energi kinetik dan energi potensial tubuh.
+
+Hal yang sama berlaku untuk mobil. Gesekan statis jalan pada ban adalah gaya luar yang mempercepat mobil, tetapi titik sentuh ban tidak bergeser terhadap jalan. Energinya berasal dari bahan bakar. Neraca energi untuk sistem seperti ini perlu satu suku lagi:
+
+$$
+\Delta K + \Delta U + \Delta E_\text{term} + \Delta E_\text{kimia} = W_\text{luar}. \qquad \text{(4.ek)}
+$$
+
+Dengan $\Delta E_\text{kimia}$ negatif ketika bahan bakar atau cadangan tubuh terpakai. Pelajarannya: **gaya** yang mempercepat sebuah sistem dan **sumber energinya** adalah dua hal yang berbeda.
+
+::: {.contoh}
+**Contoh 4.g3 · Lompat tegak**
+
+Seorang atlet 60 kg berjongkok, lalu melompat. Selama mendorong lantai, pusat massanya naik 0,30 m. Setelah kakinya lepas dari lantai, pusat massanya naik 0,50 m lagi. (a) Berapa energi kimia paling sedikit yang dipakai ototnya? (b) Berapa gaya rata-rata kakinya pada lantai selama mendorong?
+
+**Kerjakan.**
+
+(a) Dari jongkok sampai titik tertinggi, pusat massa naik 0,80 m, dan kelajuan di awal dan akhir nol. Energi mekanik yang harus disediakan otot: $mg(0{,}80) = (588)(0{,}80) = 470$ J.
+
+(b) Kelajuan saat lepas landas memenuhi $\tfrac12mv^2 = mg(0{,}50) = 294$ J. Selama mendorong sejauh $d = 0{,}30$ m, gaya total ke atas adalah $F - mg$:
+
+$$
+(F - mg)d = 294 \quad\Longrightarrow\quad F = 588 + \frac{294}{0{,}30} = 1{,}6 \times 10^3\ \text{N}.
+$$
+
+**Periksa.** Gaya itu 2,7 kali berat badan. Karena efisiensi otot sekitar 25%, energi kimia yang sebenarnya terpakai mendekati 1900 J, dan tiga perempatnya menjadi panas. Itu sebabnya kamu merasa hangat setelah melompat-lompat.
+:::
+
+::: {.contoh}
+**Contoh 4.g4 · Mengukur gesekan pada wahana sungguhan**
+
+Kereta halilintar 500 kg dilepas dari diam di ketinggian 30 m. Kelajuannya di puncak lingkaran tegak (ketinggian 16 m) terukur 14 m/s. Berapa energi yang telah berubah menjadi energi termal? Berapa kelajuannya di titik itu seandainya tidak ada gesekan?
+
+**Kerjakan.**
+
+$$
+\Delta E_\text{term} = mg(30 - 16) - \tfrac12mv^2 = (500)(9{,}80)(14) - \tfrac12(500)(14)^2 = 68\,600 - 49\,000 = 2{,}0 \times 10^4\ \text{J}.
+$$
+
+Tanpa gesekan: $v = \sqrt{2g(14)} = 16{,}6$ m/s (Contoh 4.19).
+
+**Periksa.** Sekitar 29% energi yang tersedia hilang. Kelajuan 14 m/s masih di atas batas $\sqrt{gR} = 8{,}9$ m/s untuk $R = 8{,}0$ m, jadi kereta tetap menempel. Perancang harus memastikan hal itu tetap benar pada hari hujan, ketika gesekan berubah.
+:::
+
+@@H
+### Getaran kecil di dasar lembah
+
+Di dekat titik minimumnya, hampir setiap kurva energi potensial mirip parabola. Jika $x_0$ titik minimum dan $s = x - x_0$ simpangan kecil dari sana, maka
+
+$$
+U(x) \approx U(x_0) + \tfrac12k_\text{ef}\,s^2, \qquad\text{dengan}\qquad k_\text{ef} = \frac{d^2U}{dx^2}\bigg|_{x_0}. \qquad \text{(4.el)}
+$$
+
+Turunan kedua, yaitu **kelengkungan** dasar lembah, berperan sebagai konstanta pegas. Lembah yang sempit dan tajam berarti pegas yang kaku; lembah yang lebar berarti pegas yang lunak. Inilah alasan mendasar mengapa hukum Hooke muncul di mana-mana: semua sistem yang stabil berperilaku seperti pegas untuk simpangan kecil.
+
+::: {.contoh}
+**Contoh 4.h1 · Konstanta pegas dari kurva energi**
+
+(a) Tentukan $k_\text{ef}$ di lembah $x = 2{,}0$ m untuk $U = x^4 - 8x^2$ pada Contoh 4.27. (b) Untuk potensial Lennard-Jones, turunan kedua di $r_0$ adalah $k_\text{ef} = 57{,}1\,\varepsilon/\sigma^2$. Hitung nilainya untuk argon.
+
+**Kerjakan.**
+
+(a) $\dfrac{d^2U}{dx^2} = 12x^2 - 16$. Di $x = 2{,}0$ m: $k_\text{ef} = 48 - 16 = 32$ N/m.
+
+(b) $k_\text{ef} = \dfrac{57{,}1(1{,}65 \times 10^{-21})}{(0{,}340 \times 10^{-9})^2} = 0{,}82$ N/m.
+
+**Periksa.** Di puncak bukit $x = 0$, turunan keduanya $-16$ N/m. Tanda negatif menandai kesetimbangan takstabil. "Pegas" antara dua atom argon ternyata sangat lunak, kurang dari 1 N/m. Bandingkan dengan ikatan kovalen pada contoh berikut.
+:::
+
+### Potensial Morse untuk ikatan kovalen
+
+![Gambar 4.g3 Potensial Morse (garis tebal) dan pendekatan parabola di dasarnya (garis putus-putus). Parabola terus naik tanpa batas, sedangkan kurva Morse mendatar pada energi disosiasi $D$.](fig/morse.png){width=64%}
+
+Untuk ikatan kovalen dalam molekul dwiatom, model yang lebih cocok adalah **potensial Morse**:
+
+$$
+U(r) = D\big(1 - e^{-a(r - r_0)}\big)^2 . \qquad \text{(4.em)}
+$$
+
+Di sini $U = 0$ di dasar lembah ($r = r_0$), dan $U \to D$ ketika atom-atom terpisah jauh. Jadi $D$ adalah **energi disosiasi** diukur dari dasar lembah, dan $a$ mengatur lebar lembah. Kelengkungan di dasarnya memberi
+
+$$
+k_\text{ef} = 2Da^2 .
+$$
+
+Gambar 4.g3 memperlihatkan perbedaan pentingnya dari pegas ideal. Pegas ideal tidak pernah putus. Ikatan sungguhan putus jika diberi energi sebesar $D$.
+
+::: {.contoh}
+**Contoh 4.h2 · Ikatan H–Cl sebagai pegas**
+
+Untuk HCl, $D = 4{,}62$ eV dan $a = 18{,}7\ \text{nm}^{-1}$. (a) Berapa konstanta pegas ikatan itu? (b) Berapa energi untuk meregangkan ikatan sejauh 0,010 nm dari jarak setimbangnya, menurut pendekatan pegas dan menurut potensial Morse?
+
+**Kerjakan.**
+
+(a) $D = (4{,}62)(1{,}602 \times 10^{-19}) = 7{,}40 \times 10^{-19}$ J dan $a = 1{,}87 \times 10^{10}\ \text{m}^{-1}$.
+
+$$
+k_\text{ef} = 2(7{,}40 \times 10^{-19})(1{,}87 \times 10^{10})^2 = 518\ \text{N/m}.
+$$
+
+(b) Pendekatan pegas: $\tfrac12k_\text{ef}s^2 = \tfrac12(518)(1{,}0 \times 10^{-11})^2 = 2{,}59 \times 10^{-20}$ J $= 0{,}16$ eV.
+
+Morse: $a s = (18{,}7)(0{,}010) = 0{,}187$, sehingga $U = 4{,}62(1 - e^{-0{,}187})^2 = 4{,}62(0{,}1706)^2 = 0{,}13$ eV.
+
+**Periksa.** Ikatan H–Cl sekitar 600 kali lebih kaku daripada "pegas" antara dua atom argon, dan sekaku pegas pada suspensi sepeda. Padahal ia hanya menghubungkan dua atom. Pada regangan 0,010 nm (sekitar 8% panjang ikatan), pendekatan pegas sudah meleset 20%. Perbedaan antara kurva sebenarnya dan parabola inilah yang disebut **ketakharmonikan**, dan pengaruhnya terlihat pada spektrum inframerah molekul.
+:::
+
+### Profil energi reaksi
+
+![Gambar 4.g4 Profil energi sebuah reaksi eksoterm. Puncaknya adalah keadaan transisi, sebuah kesetimbangan takstabil.](fig/profil.png){width=62%}
+
+Diagram energi yang paling sering kamu gambar di kimia adalah **profil energi reaksi** (Gambar 4.g4). Sumbu mendatarnya, "koordinat reaksi", mengukur seberapa jauh susunan atom telah berubah dari pereaksi menuju produk. Semua gagasan di subbab ini terpakai:
+
+- Pereaksi dan produk berada di **lembah**: kesetimbangan stabil.
+- Puncak di antaranya adalah **keadaan transisi**: kesetimbangan takstabil. Dari sana sistem dapat menggelinding ke lembah mana pun.
+- Tinggi puncak di atas lembah pereaksi adalah **energi aktivasi** $E_a$. Hanya tumbukan dengan energi paling sedikit sebesar itu yang dapat menghasilkan reaksi.
+- Selisih tinggi kedua lembah adalah perubahan energi reaksi, yang pada tekanan tetap hampir sama dengan $\Delta H$.
+
+Dari gambar itu langsung terbaca hubungan
+
+$$
+E_a(\text{balik}) = E_a(\text{maju}) - \Delta H . \qquad \text{(4.en)}
+$$
+
+::: {.contoh}
+**Contoh 4.h3 · Energi aktivasi reaksi balik**
+
+Sebuah reaksi memiliki energi aktivasi 180 kJ/mol dan $\Delta H = -120$ kJ/mol. (a) Berapa energi aktivasi reaksi baliknya? (b) Nyatakan kedua energi aktivasi itu dalam eV per molekul.
+
+**Kerjakan.**
+
+(a) $E_a(\text{balik}) = 180 - (-120) = 300$ kJ/mol.
+
+(b) Dengan 1 eV per partikel = 96,5 kJ/mol: $180/96{,}5 = 1{,}87$ eV dan $300/96{,}5 = 3{,}11$ eV.
+
+**Periksa.** Reaksi eksoterm selalu memiliki penghalang lebih rendah pada arah maju daripada arah balik. Katalis menurunkan puncaknya untuk kedua arah sekaligus, tetapi tidak mengubah tinggi kedua lembah. Karena itu katalis mempercepat reaksi tanpa mengubah $\Delta H$ atau letak kesetimbangan.
+:::
+
+## 4.9 Energi potensial gravitasi jarak jauh dan laju lepas
+
+Rumus $U_g = mgy$ menganggap gaya gravitasi tetap. Itu benar hanya di dekat permukaan Bumi. Untuk roket, satelit, dan molekul gas yang lepas dari atmosfer, kita memerlukan rumus yang lebih umum. Subbab ini juga menjadi latihan yang bagus untuk seluruh perangkat energi yang sudah dibangun.
+
+### Hukum gravitasi Newton
+
+Dua benda bermassa $M$ dan $m$ yang pusatnya berjarak $r$ saling menarik dengan gaya
+
+$$
+F = \frac{GMm}{r^2}, \qquad G = 6{,}674 \times 10^{-11}\ \text{N·m}^2/\text{kg}^2 . \qquad \text{(4.eo)}
+$$
+
+Gaya ini melemah dengan kuadrat jarak. Di permukaan Bumi ($r = R$) gaya ini adalah berat $mg$, sehingga $g = GM/R^2$. Untuk Bumi, $M = 5{,}97 \times 10^{24}$ kg dan $R = 6{,}37 \times 10^6$ m, dan hasil kali $GM = 3{,}986 \times 10^{14}\ \text{m}^3/\text{s}^2$ akan sering dipakai.
+
+### Energi potensialnya
+
+![Gambar 4.g5 Energi potensial gravitasi benda di luar Bumi. Nilainya negatif dan naik menuju nol di jarak tak hingga. Di dekat permukaan, kurva hampir lurus dengan kemiringan $mg$.](fig/gravu.png){width=62%}
+
+Gaya gravitasi konservatif. Terapkan (4.eg) dengan titik acuan di jarak tak hingga, tempat kedua benda tidak lagi saling memengaruhi:
+
+$$
+\boxed{U(r) = -\frac{GMm}{r}} \qquad \text{(4.ep)}
+$$
+
+::: {.mat}
+**Matematika · Penurunan (4.ep)**
+
+Gaya pada $m$ berarah ke pusat, $F_r = -GMm/r^2$. Dengan $U(\infty) = 0$:
+
+$$
+U(r) = -\int_\infty^r\Big(-\frac{GMm}{r'^2}\Big)dr' = GMm\Big[-\frac{1}{r'}\Big]_\infty^r = -\frac{GMm}{r}.
+$$
+
+Dipakai $\int r^{-2}\,dr = -r^{-1}$, yaitu aturan pangkat dengan $n = -2$.
+:::
+
+**Mengapa negatif?** Karena acuannya di tak hingga dan gravitasi bersifat menarik. Benda yang terikat pada Bumi berada "di dalam sumur", dan diperlukan energi positif untuk mengeluarkannya. Nilai negatif energi potensial adalah ciri semua sistem terikat, termasuk elektron dalam atom (Bab 15) dan dua atom dalam molekul (Gambar 4.11).
+
+**Apakah ini bertentangan dengan $mgy$?** Tidak. Untuk kenaikan kecil $y$ di atas permukaan,
+
+$$
+\Delta U = -\frac{GMm}{R + y} + \frac{GMm}{R} = \frac{GMm\,y}{R(R + y)} \approx \frac{GM}{R^2}\,my = mgy .
+$$
+
+Rumus $mgy$ adalah pendekatan dari rumus umum, berlaku selama $y$ jauh lebih kecil daripada $R$.
+
+### Laju lepas
+
+Berapa kelajuan paling kecil agar benda yang dilontarkan dari permukaan tidak pernah kembali? Benda itu harus dapat mencapai jarak tak hingga, tempat $U = 0$, dengan energi kinetik paling sedikit nol. Kekekalan energi:
+
+$$
+\tfrac12mv_\text{lepas}^2 - \frac{GMm}{R} = 0 \quad\Longrightarrow\quad \boxed{v_\text{lepas} = \sqrt{\frac{2GM}{R}}} \qquad \text{(4.eq)}
+$$
+
+Laju lepas tidak bergantung pada massa benda maupun arah lontaran (asalkan tidak menabrak planet).
+
+::: {.contoh}
+**Contoh 4.i1 · Laju lepas Bumi dan Bulan**
+
+Hitung laju lepas dari permukaan (a) Bumi; (b) Bulan ($M = 7{,}35 \times 10^{22}$ kg, $R = 1{,}74 \times 10^6$ m).
+
+**Kerjakan.**
+
+(a) $v = \sqrt{\dfrac{2(3{,}986 \times 10^{14})}{6{,}37 \times 10^6}} = 1{,}12 \times 10^4$ m/s $= 11{,}2$ km/s.
+
+(b) $v = \sqrt{\dfrac{2(6{,}674 \times 10^{-11})(7{,}35 \times 10^{22})}{1{,}74 \times 10^6}} = 2{,}38$ km/s.
+
+**Periksa.** Laju lepas Bumi sekitar 40 000 km/jam. Energi kinetik per kilogram pada laju itu adalah $\tfrac12v^2 = 63$ MJ/kg, lebih besar daripada energi kimia per kilogram bahan bakar roket mana pun. Itu sebabnya roket harus bertingkat dan sebagian besar massanya berupa bahan bakar.
+:::
+
+::: {.contoh}
+**Contoh 4.i2 · Seberapa tinggi sebenarnya?**
+
+Sebuah proyektil ditembakkan tegak ke atas dari permukaan Bumi dengan kelajuan 8,0 km/s. Abaikan hambatan udara dan rotasi Bumi. Berapa ketinggian terbesarnya? Bandingkan dengan hasil rumus $mgy$.
+
+**Kerjakan.** Kekekalan energi antara permukaan dan titik tertinggi (jarak $r$ dari pusat Bumi, kelajuan nol):
+
+$$
+\tfrac12v^2 - \frac{GM}{R} = -\frac{GM}{r}.
+$$
+
+$\tfrac12v^2 = 3{,}20 \times 10^7\ \text{J/kg}$ dan $GM/R = 6{,}26 \times 10^7\ \text{J/kg}$, sehingga $GM/r = 3{,}06 \times 10^7\ \text{J/kg}$ dan
+
+$$
+r = \frac{3{,}986 \times 10^{14}}{3{,}06 \times 10^7} = 1{,}30 \times 10^7\ \text{m}, \qquad h = r - R = 6{,}7 \times 10^6\ \text{m} = 6700\ \text{km}.
+$$
+
+Rumus $mgy$ memberi $h = v^2/(2g) = 3300$ km.
+
+**Periksa.** Rumus sederhana meleset dua kali lipat. Gravitasi melemah di ketinggian, jadi proyektil naik jauh lebih tinggi daripada perkiraan dengan $g$ tetap. Untuk ketinggian yang sebanding dengan jari-jari Bumi, hanya $-GMm/r$ yang benar.
+:::
+
+::: {.contoh}
+**Contoh 4.i3 · Energi untuk menempatkan satelit**
+
+Satelit 1000 kg ditempatkan pada orbit lingkaran 400 km di atas permukaan Bumi. (a) Berapa kelajuan orbitnya? (b) Berapa energi mekanik totalnya di orbit? (c) Berapa energi paling sedikit yang harus diberikan kepadanya dari keadaan diam di permukaan?
+
+**Kerjakan.** $r = 6{,}37 \times 10^6 + 0{,}40 \times 10^6 = 6{,}77 \times 10^6$ m.
+
+(a) Gravitasi menyediakan gaya ke pusat: $\dfrac{GMm}{r^2} = \dfrac{mv^2}{r}$, sehingga $v = \sqrt{GM/r} = 7{,}67$ km/s.
+
+(b) Dari (a), $K = \tfrac12mv^2 = \dfrac{GMm}{2r}$. Maka
+
+$$
+E = K + U = \frac{GMm}{2r} - \frac{GMm}{r} = -\frac{GMm}{2r} = -2{,}94 \times 10^{10}\ \text{J}.
+$$
+
+(c) Di permukaan, $E_0 = -GMm/R = -6{,}26 \times 10^{10}$ J. Energi yang diperlukan: $-2{,}94 \times 10^{10} - (-6{,}26 \times 10^{10}) = 3{,}3 \times 10^{10}$ J.
+
+**Periksa.** Energi itu setara dengan 9200 kWh. Sebagian besar dipakai untuk memberi **kelajuan** orbit, bukan ketinggian: menaikkan 1000 kg setinggi 400 km hanya perlu sekitar $0{,}37 \times 10^{10}$ J. Hasil $E = -GMm/(2r)$ berlaku untuk semua orbit lingkaran: energi totalnya negatif, tanda bahwa satelit terikat.
+:::
+
+::: {.terapan}
+**Kaitan kimia · Mengapa atmosfer Bumi hampir tidak mengandung hidrogen**
+
+Molekul gas bergerak acak dengan kelajuan khas $v_\text{rms} = \sqrt{3k_BT/m}$ (Bab 10). Pada 300 K:
+
+| Gas | Massa molar | $v_\text{rms}$ pada 300 K |
+|---|---|---|
+| H₂ | 2 g/mol | 1,9 km/s |
+| He | 4 g/mol | 1,4 km/s |
+| N₂ | 28 g/mol | 0,52 km/s |
+| O₂ | 32 g/mol | 0,48 km/s |
+
+Semua lebih kecil daripada laju lepas 11,2 km/s. Tetapi kelajuan molekul tersebar: selalu ada sebagian kecil molekul yang jauh lebih cepat daripada rata-rata. Patokan kasarnya, sebuah planet kehilangan suatu gas dalam waktu geologis jika $v_\text{rms}$ gas itu melebihi kira-kira seperenam laju lepas, yaitu 1,9 km/s untuk Bumi. Hidrogen dan helium berada tepat di batas itu dan perlahan bocor ke angkasa. Nitrogen dan oksigen aman. Bulan, dengan laju lepas hanya 2,4 km/s, tidak dapat menahan gas apa pun, dan Jupiter yang masif menahan hidrogennya sampai sekarang.
+:::
+
+::: {.kuis}
+**Kuis cepat 4.9**
+
+Dua benda dilepas dari diam, satu di ketinggian $R$ di atas permukaan Bumi dan satu lagi dari jarak yang sangat jauh. Abaikan udara. Apakah kelajuan benda kedua saat tiba di permukaan jauh lebih besar daripada benda pertama? Berapa kelajuan terbesar yang mungkin?
+:::
+
+## 4.10 Gambaran besar: bentuk-bentuk energi
+
+Bab ini dimulai dengan dua bentuk energi mekanik. Sepanjang jalan, daftarnya bertambah. Sekarang kita rangkum.
+
+| Bentuk energi | Tersimpan sebagai | Dibahas di |
+|---|---|---|
+| Kinetik | gerak benda | subbab 4.3 |
+| Potensial gravitasi | posisi dalam medan gravitasi | subbab 4.5 dan 4.9 |
+| Potensial elastis | perubahan bentuk pegas atau bahan | subbab 4.5 |
+| Termal | gerak acak atom dan molekul | subbab 4.7, Bab 10 |
+| Kimia | susunan elektron dalam ikatan | subbab 4.8, Bab 15 |
+| Listrik | posisi muatan dalam medan listrik | Bab 12 |
+| Cahaya (radiasi) | gelombang elektromagnetik, foton | Bab 15 |
+| Inti | susunan proton dan neutron dalam inti | Bab 15 |
+
+Pada tingkat atom, daftar ini menyusut. Energi termal adalah energi kinetik dan potensial atom-atom. Energi kimia adalah energi kinetik elektron ditambah energi potensial listrik antara elektron dan inti. Sebagian besar "bentuk energi" yang berbeda di skala sehari-hari ternyata energi kinetik dan energi potensial di skala yang lebih kecil.
+
+### Kerapatan energi
+
+| Penyimpan energi | Energi per kilogram |
+|---|---|
+| Air di bendungan setinggi 100 m | 0,001 MJ |
+| Pegas baja yang ditekan | 0,0003 MJ |
+| Baterai litium-ion | 0,9 MJ |
+| Bahan peledak TNT | 4,6 MJ |
+| Karbohidrat | 17 MJ |
+| Lemak | 37 MJ |
+| Bensin | 44 MJ |
+| Hidrogen (dibakar) | 142 MJ |
+| Uranium-235 (fisi) | $8 \times 10^7$ MJ |
+
+Energi kimia ribuan kali lebih rapat daripada energi mekanik, dan energi inti jutaan kali lebih rapat daripada energi kimia. Urutan ini mencerminkan kekuatan gaya yang terlibat: gravitasi, gaya listrik antara elektron dan inti, lalu gaya inti.
+
+::: {.contoh}
+**Contoh 4.j1 · Baterai ponsel dan anak tangga**
+
+Baterai sebuah ponsel menyimpan 15 Wh. Jika seluruh energi itu dapat dipakai untuk mengangkat seseorang bermassa 70 kg, seberapa tinggi ia terangkat?
+
+**Kerjakan.** $15\ \text{Wh} = (15)(3600) = 5{,}4 \times 10^4$ J.
+
+$$
+h = \frac{5{,}4 \times 10^4}{(70)(9{,}80)} = 79\ \text{m}.
+$$
+
+**Periksa.** Baterai seberat 50 gram menyimpan energi yang cukup untuk mengangkat orang dewasa setinggi gedung 25 lantai. Energi potensial gravitasi sehari-hari memang sangat kecil dibandingkan energi kimia.
+:::
+
+### Massa adalah energi
+
+Einstein menunjukkan pada tahun 1905 bahwa massa sendiri adalah bentuk energi (Bab 15):
+
+$$
+E_0 = mc^2, \qquad c = 3{,}00 \times 10^8\ \text{m/s}. \qquad \text{(4.er)}
+$$
+
+Setiap kali sebuah sistem melepas energi $\Delta E$, massanya berkurang sebesar $\Delta E/c^2$. Karena $c^2$ sangat besar, perubahan massa ini tidak terukur dalam reaksi kimia, tetapi nyata dan terukur dalam reaksi inti.
+
+::: {.contoh}
+**Contoh 4.j2 · Apakah massa kekal dalam reaksi kimia?**
+
+Pembakaran 1 mol hidrogen (2,0 g H₂ dengan 16,0 g O₂) melepas 286 kJ. Berapa massa yang hilang? Bandingkan dengan massa pereaksi.
+
+**Kerjakan.**
+
+$$
+\Delta m = \frac{\Delta E}{c^2} = \frac{2{,}86 \times 10^5}{(3{,}00 \times 10^8)^2} = 3{,}2 \times 10^{-12}\ \text{kg}.
+$$
+
+Dibandingkan 18 g pereaksi, itu $1{,}8 \times 10^{-10}$, atau kurang dari dua bagian per sepuluh miliar.
+
+**Periksa.** Neraca analitik terbaik membaca sampai sekitar satu bagian per sepuluh juta. Jadi hukum kekekalan massa Lavoisier tetap benar untuk semua keperluan kimia, walaupun secara prinsip hanya pendekatan. Dalam reaksi inti, energi yang dilepas per kilogram jutaan kali lebih besar, dan selisih massanya mudah diukur.
+:::
+
+::: {.kuis}
+**Kuis cepat 4.10**
+
+Sebuah pegas ditekan dan diikat, lalu ditimbang dengan neraca yang ketelitiannya tak terbatas. Apakah massanya berbeda dari pegas yang sama dalam keadaan kendur?
+:::

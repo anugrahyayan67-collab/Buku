@@ -1,0 +1,228 @@
+## Subbab 3.1: Persamaan gelombang klasik
+
+> Gunakan tetapan di Bab 1 ($h$, $\hbar$, $m_e$, $m_p$, $c$, $e$, $k$, 1 u). Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab.
+
+**Dasar**
+
+Tali dengan tegangan 100 N dan kerapatan massa $5{,}0 \times 10^{-3}$ kg/m. Hitung laju gelombangnya dan frekuensi dasar jika panjangnya 0,50 m. ||| 141 m/s; 141 Hz
+Tunjukkan bahwa $u = \sin(kx)\cos(kvt)$ memenuhi persamaan gelombang (3.1). ||| kedua ruas $= -k^2u$
+
+**Menengah**
+
+Tunjukkan bahwa sembarang fungsi $f(x - vt)$ memenuhi (3.1). Apa makna fisisnya? ||| $u_{xx} = f''$, $u_{tt} = v^2f''$; gelombang merambat tanpa berubah bentuk
+Tali $L = 1$, $v = 1$ dilepas dari diam dengan bentuk $u(x, 0) = 0{,}3\sin 2\pi x$. Tuliskan $u(x, t)$ dan tentukan di mana simpulnya. ||| $0{,}3\sin 2\pi x\cos 2\pi t$; $x = 0$; 0,5; 1
+
+**Tantangan ★**
+
+★ Turunkan persamaan gelombang untuk tali yang juga ditarik ke posisi setimbang oleh pegas tersebar (gaya $-\kappa u$ tiap satuan panjang). Tunjukkan bahwa hubungan dispersinya $\omega^2 = v^2k^2 + \kappa/\mu$, mirip partikel bermassa. ||| $u_{tt} = v^2u_{xx} - (\kappa/\mu)u$
+
+## Subbab 3.2: Persamaan Schrödinger bergantung waktu
+
+**Dasar**
+
+Untuk elektron dengan panjang gelombang de Broglie 0,20 nm, hitung energinya (eV), kecepatan grup, dan kecepatan fase. ||| 37,6 eV; $3{,}64 \times 10^6$ m/s; $1{,}82 \times 10^6$ m/s
+Neutron termal mempunyai panjang gelombang 0,18 nm. Hitung energinya (eV) dan kecepatannya. ||| 0,025 eV; 2200 m/s
+Hitung bilangan gelombang $k$ dan panjang gelombang elektron berenergi kinetik 10 eV. ||| $1{,}62 \times 10^{10}$ m⁻¹; 0,388 nm
+Tunjukkan bahwa $\hat p = -i\hbar\,d/dx$ yang bekerja pada $e^{ikx}$ memberikan $\hbar k$, dan pada $e^{-ikx}$ memberikan $-\hbar k$. ||| $\hat pe^{\pm ikx} = \pm\hbar ke^{\pm ikx}$
+
+**Menengah**
+
+Mengapa $\Psi = A\cos(kx - \omega t)$ (riil) tidak memenuhi persamaan Schrödinger partikel bebas untuk $\omega = \hbar k^2/2m$? ||| ruas kiri menghasilkan $\sin$, ruas kanan $\cos$
+Apakah $\Psi = Ae^{i(kx + \omega t)}$ dengan $\omega > 0$ memenuhi (3.3) dengan $V = 0$? Jika tidak, ubah apa? ||| tidak; harus $e^{-i\omega t}$ (energi positif)
+
+**Tantangan ★**
+
+★ Hubungan energi relativistik $E^2 = p^2c^2 + m^2c^4$ dengan $E = \hbar\omega$, $p = \hbar k$ memberikan $\omega(k)$. Hitung $v_\text{fase}v_\text{grup}$. ||| $c^2$
+
+## Subbab 3.3: Tafsir Born dan normalisasi
+
+**Dasar**
+
+Normalkan $\psi = Axe^{-x/a}$ untuk $x \ge 0$ (nol untuk $x < 0$). ||| $A = 2/a^{3/2}$
+Untuk fungsi soal sebelumnya, hitung peluang $x < a$, nilai $x$ yang paling mungkin, dan $\langle x\rangle$. ||| 0,323; $a$; $1{,}5a$
+Normalkan fungsi segitiga $\psi = A(1 - |x|/a)$ untuk $|x| \le a$ dan hitung peluang $|x| < a/2$. ||| $A = \sqrt{3/2a}$; 0,875
+
+**Menengah**
+
+Berkas elektron dinyatakan dengan $\psi = Ae^{ikx}$, $|A|^2 = 1{,}0 \times 10^6$ m⁻¹ dan $k = 1{,}0 \times 10^{10}$ m⁻¹. Hitung arus peluang (elektron tiap detik). ||| $1{,}16 \times 10^{12}$ s⁻¹
+Tunjukkan bahwa arus peluang untuk $\psi = f(x)e^{i\theta}$ dengan $f$ riil dan $\theta$ tetap adalah nol. ||| $\psi^*\psi' = ff'$ riil
+@kontinu [P] Tunjukkan bahwa jika $\Psi$ ternormalisasi pada $t = 0$, ia tetap ternormalisasi untuk semua $t$, dengan menghitung $\tfrac{d}{dt}\int|\Psi|^2dx$ memakai persamaan Schrödinger dan integral parsial. ||| turunannya $= -[j]_{-\infty}^\infty = 0$
+
+**Tantangan ★**
+
+★ Jika $V$ mempunyai bagian khayal tetap, $V = V_r - i\Gamma/2$, tunjukkan bahwa $\int|\Psi|^2dx$ meluruh sebagai $e^{-\Gamma t/\hbar}$. Apa tafsiran fisisnya? ||| penyerapan atau peluruhan partikel; umur $\hbar/\Gamma$
+
+## Subbab 3.4: Persamaan tak bergantung waktu dan keadaan stasioner
+
+**Dasar**
+
+Tunjukkan bahwa $|\psi(x)e^{-iEt/\hbar}|^2 = |\psi(x)|^2$. ||| $|e^{-iEt/\hbar}| = 1$
+Partikel dalam kotak disiapkan sebagai $(\psi_1 + \psi_2)/\sqrt2$. Berapa energi rata-ratanya dalam satuan $E_1$? ||| 2,5
+Berapa frekuensi ayunan rapat peluang superposisi $\psi_1$ dan $\psi_2$ elektron dalam kotak 1,00 nm? ||| $2{,}73 \times 10^{14}$ Hz
+Manakah fungsi eigen $d^2/dx^2$: $\sin 2x$, $e^{-3x}$, $x^3$, $\cosh x$? Berapa nilai eigennya? ||| $\sin 2x$ ($-4$), $e^{-3x}$ ($9$), $\cosh x$ ($1$); $x^3$ bukan
+
+**Menengah**
+
+Elektron dalam kotak 1,00 nm dalam superposisi $\psi_1$ dan $\psi_3$. Berapa periode ayunan rapat peluangnya? Apakah pusat peluangnya bergeser kiri-kanan? ||| 1,37 fs; tidak (keduanya genap terhadap tengah)
+Keadaan $\Psi = \tfrac{1}{\sqrt3}\psi_1 + \sqrt{\tfrac23}\,e^{i\pi/4}\psi_2$. Hitung peluang setiap hasil pengukuran energi dan $\langle E\rangle$ dalam $E_1$. ||| 1/3 dan 2/3; 3
+
+Berapa waktu kebangkitan kuantum $T_\text{kb} = h/E_1$ untuk elektron dalam kotak 2,0 nm? ||| 44,0 fs (sebanding $L^2$)
+Hitung $E_1$ dan waktu kebangkitan untuk proton dalam kotak 0,100 nm. Mengapa jauh lebih lama daripada elektron dalam kotak 1,00 nm? ||| 20,5 meV; 202 fs; $T_\text{kb} = 8mL^2/h$ sebanding massa
+
+**Tantangan ★**
+
+@xt [P] ★ Untuk $\Psi = \tfrac{1}{\sqrt2}(\psi_1e^{-iE_1t/\hbar} + \psi_2e^{-iE_2t/\hbar})$ dalam kotak $[0, L]$, tunjukkan bahwa $\langle x\rangle(t) = \tfrac L2 - \tfrac{16L}{9\pi^2}\cos\left[(E_2 - E_1)t/\hbar\right]$. ||| suku silang $\langle 1|x|2\rangle = -16L/9\pi^2$
+
+## Subbab 3.5: Partikel bebas dan paket gelombang
+
+**Dasar**
+
+Mengapa energi partikel bebas tidak terkuantisasi? ||| tidak ada syarat batas yang membatasi $k$
+Paket elektron selebar 1,0 nm. Hitung lebarnya setelah 1 fs dan 100 fs. ||| 1,00 nm; 5,9 nm
+
+**Menengah**
+
+Hitung ketidakpastian kecepatan awal $\Delta v = \hbar/2m\sigma_0$ untuk elektron dengan $\sigma_0 = 1{,}0$ nm dan proton dengan $\sigma_0 = 0{,}10$ nm. ||| $5{,}8 \times 10^4$ m/s; 315 m/s
+Proton dengan $\sigma_0 = 0{,}10$ nm: berapa lebar paketnya setelah 1,0 ps? ||| 0,33 nm
+Pada waktu berapa lebar paket menjadi $\sqrt2\,\sigma_0$? Hitung untuk elektron dengan $\sigma_0 = 0{,}10$ nm. ||| $t = 2m\sigma_0^2/\hbar = 0{,}17$ fs
+
+Berapa waktu lipat dua paket Gauss atom He dengan $\sigma_0 = 0{,}050$ nm? ||| 0,55 ps
+Elektron 100 eV dengan $\sigma_0 = 0{,}50$ µm menempuh 1,0 m dalam kolom mikroskop elektron. Berapa waktu tempuh dan lebar akhir paketnya? ||| 169 ns; 19,5 µm
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa untuk $t \gg 2m\sigma_0^2/\hbar$, lebar paket hampir tidak bergantung pada $\sigma_0$ jika dinyatakan sebagai fungsi momentum awal yang tidak tentu: $\sigma(t) \approx \Delta p\,t/m$. ||| dari (3.12) dengan $\Delta p = \hbar/2\sigma_0$
+
+## Subbab 3.6: Partikel dalam kotak satu dimensi
+
+**Dasar**
+
+Hitung $E_1$ (eV) dan panjang gelombang transisi $1 \to 2$ untuk elektron dalam kotak 0,30 nm dan 2,0 nm. ||| 4,18 eV, 98,9 nm; 0,094 eV, 4396 nm
+Berapa panjang kotak agar elektron menyerap pada 500 nm untuk transisi $1 \to 2$? ||| 0,674 nm
+Hitung $E_2 - E_1$ dalam kJ/mol untuk elektron dalam kotak 0,50 nm. ||| 435 kJ/mol
+Perbandingan panjang gelombang transisi $1 \to 2$ terhadap $2 \to 3$? ||| 5/3
+Hitung $E_1/kT$ (298 K) untuk Ar dalam kotak 1 nm dan H₂ dalam sangkar 0,30 nm. Nyatakan yang kedua juga dalam cm⁻¹. ||| $2{,}0 \times 10^{-4}$; 0,044; 9,2 cm⁻¹
+
+**Menengah**
+
+Untuk elektron dalam kotak 1,00 nm, mulai bilangan kuantum berapa $E_n$ melampaui 13,6 eV? ||| $n = 7$
+Partikel bermassa berapa (dalam $m_e$) yang mempunyai $E_1 = 1{,}0$ eV dalam kotak 0,20 nm? ||| 9,4 $m_e$
+Elektron dalam kotak 1,00 nm menyerap foton dan berpindah dari $n = 1$ ke $n = 4$. Berapa panjang gelombang foton itu? Apakah transisi ini diizinkan? ||| 220 nm; ya ($1 + 4$ ganjil)
+Tunjukkan bahwa selisih energi tingkat bertetangga $E_{n+1} - E_n$ dibagi $E_n$ menuju nol untuk $n$ besar. Apa artinya? ||| $(2n + 1)/n^2 \to 0$; tingkat tampak malar (korespondensi)
+@isotopkotak [P] Proton dan deuteron masing-masing terkurung dalam kotak 0,050 nm (gerak dalam ikatan hidrogen pendek). Hitung $E_1$ masing-masing dan selisihnya dalam kJ/mol. ||| 0,082 eV; 0,041 eV; 3,95 kJ/mol
+
+**Tantangan ★**
+
+★ Partikel dalam kotak $[0, L]$ pada keadaan dasar. Dinding kanan tiba-tiba dipindah ke $2L$. Berapa peluang partikel ditemukan pada keadaan dasar kotak baru? ||| $(4\sqrt2/3\pi)^2 = 32/9\pi^2 = 0{,}36$
+★ Turunkan $\langle m|x|n\rangle = -8Lmn/[\pi^2(m^2 - n^2)^2]$ untuk $m + n$ ganjil. ||| integral $\int_0^L x\sin(m\pi x/L)\sin(n\pi x/L)\,dx$ dengan identitas hasil kali dan integral parsial
+
+## Subbab 3.7: Sifat fungsi gelombang
+
+**Dasar**
+
+Berapa banyak simpul $\psi_4$, dan di mana letaknya? ||| 3; $L/4$, $L/2$, $3L/4$
+Hitung $\langle x^2\rangle$ untuk $n = 1$ dalam kotak 1,00 nm. ||| 0,283 nm²
+Berapa peluang partikel berada di separuh kiri kotak untuk $n = 1$, 2, 3? Mengapa sama? ||| 1/2 semuanya; simetri $|\psi_n|^2$ terhadap tengah
+
+**Menengah**
+
+Hitung peluang partikel berada di separuh tengah kotak ($L/4 < x < 3L/4$) untuk $n = 1$ dan $n = 2$. ||| 0,818; 0,500
+Hitung $\Delta x\,\Delta p$ untuk $n = 3$ dalam satuan $\hbar$. ||| 2,63
+Tunjukkan bahwa $\langle p\rangle = 0$ untuk setiap fungsi gelombang riil yang nol di kedua ujung. ||| $\int\psi\psi'dx = [\psi^2/2] = 0$
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa untuk $n \to \infty$, $\langle x^2\rangle$ partikel dalam kotak mendekati nilai klasik $L^2/3$. ||| $1/2n^2\pi^2 \to 0$
+
+## Subbab 3.8: Model elektron bebas
+
+**Dasar**
+
+Dengan $L = N \times 140$ pm, ramalkan $\lambda_\text{maks}$ oktatetraena ($N = 8$) dan dekapentaena ($N = 10$). Nilai teramati 290 dan 334 nm. ||| 460 nm; 587 nm (makin melenceng)
+Ramalkan $\lambda$ sianin dengan $k = 6$ dan $k = 7$ (rumus Contoh 3.30). ||| 959 nm; 1086 nm
+Mengapa etilena tidak berwarna menurut model elektron bebas? ||| kotak pendek, celah HOMO–LUMO besar; serapan di UV
+
+**Menengah**
+
+Dari serapan teramati 734 nm untuk sianin $k = 5$ ($N = 14$), hitung panjang kotak efektif. ||| 1,83 nm
+β-Karotena (22 elektron π) menyerap pada 451 nm. Berapa panjang kotak yang diperlukan agar model elektron bebas memberi nilai ini? Bandingkan dengan panjang rantai nyata (~3 nm). ||| 1,77 nm; jauh lebih pendek, tanda kegagalan model
+@qd [P] Dengan model Brus Contoh 3.31, hitung panjang gelombang pancaran titik kuantum CdSe berjari-jari 2,5 nm dan 4,0 nm. ||| 554 nm; 648 nm
+Dalam model elektron bebas, berapa kali energi transisi HOMO → LUMO berubah jika $N$ dan $L$ sama-sama dilipatduakan? ||| kira-kira setengahnya
+
+**Tantangan ★**
+
+★ Tunjukkan bahwa untuk $N$ besar dengan $L = Nl$, model elektron bebas meramalkan $\lambda \approx 8mcl^2N/h$, sehingga celah energi menuju nol. Apa yang terjadi pada poliena nyata? ||| celah tetap ~2 eV karena pergantian panjang ikatan
+
+## Subbab 3.9: Sumur potensial terhingga
+
+**Dasar**
+
+Hitung $z_0$ dan banyaknya keadaan terikat elektron dalam sumur $V_0 = 10$ eV selebar 1,0 nm. ||| 8,10; 6 keadaan
+Berapa banyak keadaan terikat jika $z_0 = 0{,}5$? Jika $z_0 = 3{,}2$? ||| 1; 3
+Berapa $z_0$ dan banyaknya keadaan terikat untuk elektron dalam sumur 2,0 eV selebar 0,50 nm? Penyelesaian numerik memberi energinya; berapa kira-kira? ||| 1,81; 2 keadaan (0,60 dan 1,92 eV)
+
+**Menengah**
+
+Neutron dalam inti dimodelkan sebagai sumur satu dimensi $V_0 = 50$ MeV selebar 4 fm. Hitung $z_0$ dan banyaknya keadaan terikat. ||| 3,11; 2
+Untuk sumur selebar 1,0 nm, berapa kedalaman minimum agar elektron mempunyai keadaan terikat kedua? ||| 0,376 eV ($z_0 = \pi/2$)
+Mengapa energi keadaan terikat sumur terhingga selalu lebih rendah daripada sumur tak hingga dengan lebar yang sama? ||| penembusan memperpanjang panjang gelombang efektif
+
+Sumur 0,50 eV selebar 2,0 nm: berapa $z_0$ dan banyaknya keadaan terikat elektron? ||| 3,62; 3 keadaan
+Lebar sebuah sumur dilipatduakan dan kedalamannya dibagi empat. Apa yang terjadi pada $z_0$, banyaknya keadaan terikat, dan energi tingkat-tingkatnya? ||| $z_0$ dan banyaknya keadaan tetap; semua energi menjadi seperempatnya
+
+**Tantangan ★**
+
+@sumurpy [P] ★ (Python) Selesaikan (3.18) secara numerik dengan `scipy.optimize.brentq` untuk elektron dalam sumur $V_0 = 10$ eV selebar 1,0 nm, dan bandingkan keenam energinya dengan sumur tak hingga 1,0 nm. ||| 0,298; 1,19; 2,65; 4,66; 7,14; 9,77 eV lawan 0,376; 1,50; 3,38; 6,02; 9,40; 13,5 eV
+
+## Subbab 3.10: Tangga potensial dan pantulan
+
+**Dasar**
+
+Hitung $R$ untuk elektron yang menumbuk tangga 5,0 eV dengan energi 10 eV, 6,0 eV, dan 5,1 eV. ||| 0,029; 0,18; 0,57
+Hitung $R$ untuk elektron 3,0 eV yang turun dari daerah $V = 2{,}0$ eV ke $V = 0$. ||| 0,072
+
+**Menengah**
+
+Elektron 2,0 eV menumbuk tangga 6,0 eV. Hitung panjang penembusannya. ||| 0,098 nm
+Pada $E/V_0$ berapa pantulan dari tangga naik tinggal 1%? ||| 3,0
+Tunjukkan bahwa (3.19) tidak berubah jika $k_1$ dan $k_2$ dipertukarkan. Apa makna fisisnya? ||| pantulan sama untuk tangga naik dan turun
+
+**Tantangan ★**
+
+★ Untuk $E < V_0$, tunjukkan bahwa $r = (k - i\kappa)/(k + i\kappa)$ sehingga $|r| = 1$, dan hitung beda fase pantulan untuk $E = V_0/2$. ||| fase $-\pi/2$
+
+## Subbab 3.11: Penerobosan
+
+**Dasar**
+
+Hitung $T$ untuk elektron 2,0 eV melalui penghalang 4,0 eV selebar 0,20 nm dan 0,40 nm. ||| 0,198; 0,012
+Untuk elektron 1,0 eV dan penghalang 5,0 eV, berapa kali $T$ berkurang bila lebar penghalang naik dari 0,50 nm ke 1,0 nm? ||| $3{,}5 \times 10^{-5}$ kali (berkurang 28 000 kali)
+Hitung $T$ untuk proton dan deuteron dengan $E = 0{,}10$ eV melalui penghalang 0,30 eV selebar 0,050 nm. ||| $1{,}9 \times 10^{-4}$; $3{,}3 \times 10^{-6}$
+
+**Menengah**
+
+Berapa lebar penghalang 5,0 eV agar elektron 1,0 eV menerobos dengan peluang $10^{-6}$? ||| 0,72 nm
+@laju [P] Atom H dalam sumur menumbuk penghalang $10^{13}$ kali tiap detik. Dengan $T$ untuk $E = 0{,}20$ eV, $V_0 = 0{,}50$ eV, $a = 0{,}050$ nm, hitung laju penerobosan dan waktu paruhnya. ||| $2{,}3 \times 10^8$ s⁻¹; 3,0 ns
+Mengapa penerobosan lebih bergantung pada lebar penghalang daripada pada tingginya? ||| $T \sim e^{-2a\sqrt{2m(V_0 - E)}/\hbar}$: linear dalam $a$, akar dalam $V_0 - E$
+
+**Tantangan ★**
+
+★ Dengan pendekatan WKB, hitung $T$ untuk elektron berenergi $E$ yang menerobos penghalang segitiga $V = V_0 - Fx$ (medan listrik $F$ di permukaan logam, emisi medan). Tunjukkan bahwa $\ln T \propto -1/F$. ||| $T \approx \exp[-4\sqrt{2m}(V_0 - E)^{3/2}/3\hbar F]$
+
+## Subbab 3.12: Penerobosan dalam kimia
+
+**Dasar**
+
+Untuk STM dengan fungsi kerja 4,0 eV, berapa kali arus berubah tiap 0,10 nm? ||| 7,8
+Dengan $\beta = 1{,}4$ Å⁻¹, berapa fraksi laju transfer elektron yang tersisa bila jarak bertambah 5 Å? ||| $9 \times 10^{-4}$
+Hitung periode inversi NH₃ dan ND₃. ||| 42 ps; 0,63 ns
+
+**Menengah**
+
+Efek isotop "klasik" maksimum untuk pemutusan C–H (3000 cm⁻¹) diperkirakan dari selisih energi titik nol C–H dan C–D ($\tilde\nu_\text{D} = \tilde\nu_\text{H}/1{,}36$): $k_\text{H}/k_\text{D} \approx e^{\Delta E_0/kT}$. Hitung pada 298 K. ||| 6,8
+Sebuah reaksi transfer H menunjukkan $k_\text{H}/k_\text{D} = 50$ pada 298 K dan hampir tidak bergantung suhu. Apa kesimpulannya? ||| penerobosan dominan
+Mengapa pemisahan inversi PH₃ dan AsH₃ jauh lebih kecil daripada NH₃ (praktis tak teramati)? ||| penghalang jauh lebih tinggi (~130 dan ~170 kJ/mol) dan lebih lebar
+
+**Tantangan ★**
+
+★ Model dua keadaan: $\hat H = \begin{pmatrix}E_0 & -\Delta/2\\ -\Delta/2 & E_0\end{pmatrix}$ dalam basis $\{|\text{A}\rangle, |\text{B}\rangle\}$. Mulai dari $|\text{A}\rangle$ pada $t = 0$, tunjukkan bahwa peluang berada di $|\text{B}\rangle$ adalah $\sin^2(\Delta t/2\hbar)$. ||| uraikan atas $\psi_\pm$, beri faktor fase, proyeksikan

@@ -1,0 +1,202 @@
+@@ a-arus.md | ## 13.3 
+### Gambaran mikroskopik hambatan
+
+Mengapa arus sebanding dengan tegangan? Di antara dua tumbukan, elektron dipercepat medan dengan $a = eE/m$. Tumbukan mengacak arahnya kembali, sehingga kecepatan searah yang sempat terkumpul hanya sebesar $a\tau$, dengan $\tau$ **waktu rata-rata antartumbukan**. Jadi $v_d = eE\tau/m$, sebanding dengan medan. Dengan $J = nev_d$ dan $E = \rho J$:
+
+$$
+\rho = \frac{m}{ne^2\tau} . \qquad \text{(13.t1)}
+$$
+
+Inilah **model Drude**. Hambat jenis kecil jika pembawanya banyak ($n$ besar) dan jarang bertumbukan ($\tau$ panjang). Memanaskan logam memperpendek $\tau$; memanaskan semikonduktor memperbesar $n$. Dua kecenderungan yang berlawanan itu berasal dari satu rumus.
+
+::: {.contoh}
+**Contoh 13.y1 · Waktu antartumbukan dalam tembaga**
+
+(a) Berapa waktu rata-rata antartumbukan elektron dalam tembaga pada 20 °C? (b) Elektron penghantar tembaga bergerak acak dengan kelajuan $1{,}57 \times 10^6$ m/s. Berapa jarak rata-rata antartumbukannya, dan berapa kali jarak antaratom (0,26 nm)?
+
+**Kerjakan.**
+
+(a) $\tau = \dfrac{m}{ne^2\rho} = \dfrac{9{,}109 \times 10^{-31}}{(8{,}47 \times 10^{28})(1{,}602 \times 10^{-19})^2(1{,}68 \times 10^{-8})} = 2{,}5 \times 10^{-14}$ s.
+
+(b) $\ell = v\tau = (1{,}57 \times 10^6)(2{,}5 \times 10^{-14}) = 3{,}9 \times 10^{-8}$ m $= 39$ nm, sekitar 150 jarak antaratom.
+
+**Periksa.** Elektron melewati seratus lima puluh atom tanpa menabrak. Menurut fisika klasik itu mustahil: ion-ion kisi memenuhi ruang. Penjelasannya kuantum (Bab 15): elektron adalah gelombang, dan gelombang merambat tanpa hamburan melalui kisi yang teratur sempurna. Yang menghamburkannya hanya **ketidakteraturan**: getaran termal dan atom asing. Itu sebabnya paduan logam selalu menghantar lebih buruk daripada logam murninya.
+:::
+
+@@ a-arus.md | ## 13.4 
+### Listrik dan tubuh
+
+Yang mencederai adalah **arus** yang melewati tubuh, bukan tegangannya sendiri. Tegangan hanya menentukan berapa arus yang mengalir melalui hambatan tubuh.
+
+| Arus melalui tubuh (50 Hz) | Akibat |
+|---|---|
+| 1 mA | mulai terasa |
+| 5 mA | menyakitkan |
+| 10–20 mA | otot kejang, tidak dapat melepas pegangan |
+| 50–100 mA | gangguan napas; getar bilik jantung dapat terjadi |
+| > 200 mA | luka bakar berat; jantung berhenti |
+
+::: {.contoh}
+**Contoh 13.y2 · Tangan kering dan tangan basah**
+
+Hambatan tubuh antara kedua tangan sekitar 100 kΩ jika kulit kering, tetapi hanya sekitar 1,5 kΩ jika kulit basah. Berapa arus yang mengalir jika seseorang menyentuh tegangan 220 V dalam kedua keadaan itu?
+
+**Kerjakan.**
+
+Kering: $I = \dfrac{220}{100\,000} = 2{,}2$ mA. Basah: $I = \dfrac{220}{1500} = 150$ mA.
+
+**Periksa.** Tegangan yang sama: sekadar mengejutkan dalam keadaan pertama, mematikan dalam keadaan kedua. Hampir seluruh hambatan tubuh berada di lapisan kulit kering yang tipis; bagian dalam tubuh adalah larutan elektrolit yang menghantar dengan baik. Karena itu alat listrik tidak boleh disentuh dengan tangan basah, dan stopkontak di kamar mandi dilindungi pemutus arus bocor yang bekerja pada 30 mA.
+:::
+
+::: {.contoh}
+**Contoh 13.y3 · Kabel sambungan yang terlalu tipis**
+
+Pemanas 2200 W, 220 V dihubungkan dengan kabel sambungan sepanjang 20 m dari kawat tembaga berpenampang 0,75 mm². (a) Berapa hambatan kabel (arus menempuh dua kawat)? (b) Berapa penurunan tegangan dan daya yang hilang di kabel pada arus 10 A?
+
+**Kerjakan.**
+
+(a) Panjang kawat 40 m: $R = \dfrac{(1{,}68 \times 10^{-8})(40)}{0{,}75 \times 10^{-6}} = 0{,}90$ Ω.
+
+(b) $V = (10)(0{,}90) = 9{,}0$ V. $P = (10)^2(0{,}90) = 90$ W.
+
+**Periksa.** Sembilan puluh watt memanaskan kabel sepanjang 20 m, cukup untuk membuatnya hangat; jika kabel itu masih tergulung, kalornya terperangkap dan penyekatnya dapat meleleh. Kabel sambungan untuk alat berdaya besar harus tebal dan diurai seluruhnya.
+:::
+
+@@ a-arus.md | AKHIR
+::: {.contoh}
+**Contoh 13.y4 · Menyusun paket baterai**
+
+Sel litium-ion 3,7 V berkapasitas 3,0 A·h dan berhambatan dalam 0,050 Ω. Delapan sel disusun menjadi dua untai paralel, masing-masing empat sel seri. Tentukan ggl, kapasitas, energi, dan hambatan dalam paket itu.
+
+**Kerjakan.**
+
+Empat sel seri: ggl $4 \times 3{,}7 = 14{,}8$ V; hambatan dalam $4 \times 0{,}050 = 0{,}20$ Ω; kapasitas tetap 3,0 A·h (muatan yang sama melewati semua sel).
+
+Dua untai paralel: ggl tetap 14,8 V; hambatan dalam $0{,}20/2 = 0{,}10$ Ω; kapasitas $2 \times 3{,}0 = 6{,}0$ A·h.
+
+Energi: $(14{,}8)(6{,}0) = 89$ W·h.
+
+**Periksa.** Energi total sama dengan delapan kali energi satu sel, $8 \times 11{,}1 = 89$ W·h, bagaimanapun susunannya. Seri menaikkan tegangan; paralel menaikkan kapasitas dan kemampuan arus. Paket baterai mobil listrik memuat ribuan sel yang disusun dengan asas ini.
+:::
+
+::: {.contoh}
+**Contoh 13.y5 · Rangkaian tiga tingkat**
+
+Hambatan $R_1 = 2{,}0$ Ω diseri dengan gabungan paralel dua cabang: cabang pertama $R_2 = 6{,}0$ Ω; cabang kedua $R_3 = 2{,}0$ Ω dan $R_4 = 4{,}0$ Ω yang diseri. Rangkaian diberi 12 V. Tentukan tegangan pada $R_4$.
+
+**Kerjakan.** Cabang kedua: $2{,}0 + 4{,}0 = 6{,}0$ Ω. Paralel dengan 6,0 Ω: 3,0 Ω. Total: $2{,}0 + 3{,}0 = 5{,}0$ Ω. Arus total: $\dfrac{12}{5{,}0} = 2{,}4$ A.
+
+Tegangan pada gabungan paralel: $(2{,}4)(3{,}0) = 7{,}2$ V. Arus cabang kedua: $\dfrac{7{,}2}{6{,}0} = 1{,}2$ A. Tegangan pada $R_4$: $(1{,}2)(4{,}0) = 4{,}8$ V.
+
+**Periksa.** Sederhanakan dari dalam ke luar, lalu kembali dari luar ke dalam. Tegangan pada $R_1$ adalah 4,8 V; $4{,}8 + 7{,}2 = 12$ V.
+:::
+
+@@ b-rangkaian.md | ## 13.7 
+::: {.contoh}
+**Contoh 13.y6 · Memancing aki yang lemah**
+
+Aki lemah (ggl 11,0 V; hambatan dalam 0,50 Ω) dibantu aki sehat (12,6 V; 0,040 Ω) yang dipasang paralel dengan kabel pancing. Keduanya melayani motor starter berhambatan 0,10 Ω. Berapa arus starter, dan berapa sumbangan tiap aki?
+
+**Kerjakan.** Misalkan tegangan pada starter $V$. Hukum titik cabang: arus dari kedua aki sama dengan arus starter:
+
+$$
+\frac{11{,}0 - V}{0{,}50} + \frac{12{,}6 - V}{0{,}040} = \frac{V}{0{,}10} \quad\Longrightarrow\quad 22 + 315 = V(2{,}0 + 25 + 10) \quad\Longrightarrow\quad V = 9{,}1\ \text{V}.
+$$
+
+Arus starter: $\dfrac{9{,}1}{0{,}10} = 91$ A. Dari aki sehat: $\dfrac{12{,}6 - 9{,}1}{0{,}040} = 87$ A. Dari aki lemah: $\dfrac{11{,}0 - 9{,}1}{0{,}50} = 3{,}8$ A.
+
+**Periksa.** $87 + 3{,}8 = 91$ A. Aki sehat memikul hampir seluruh beban, karena hambatan dalamnya jauh lebih kecil. Sendirian, aki lemah hanya memberi $\dfrac{11{,}0}{0{,}60} = 18$ A, tidak cukup untuk memutar mesin. Cara "tegangan titik cabang" seperti ini sering lebih cepat daripada menulis persamaan simpal.
+:::
+
+@@ b-rangkaian.md | ## 13.9 
+::: {.contoh}
+**Contoh 13.y7 · Lampu kedip**
+
+Lampu neon menyala tiba-tiba ketika tegangannya mencapai 80 V, lalu mengosongkan kapasitor yang terpasang paralel dengannya hampir seketika. Kapasitor 0,50 μF itu diisi dari sumber 120 V melalui hambatan 1,0 MΩ. Berapa selang waktu antarkedipan?
+
+**Kerjakan.** $\tau = (1{,}0 \times 10^6)(0{,}50 \times 10^{-6}) = 0{,}50$ s. Kapasitor terisi dari nol sampai 80 V:
+
+$$
+80 = 120(1 - e^{-t/\tau}) \quad\Longrightarrow\quad t = \tau\ln\frac{120}{120 - 80} = (0{,}50)\ln 3 = 0{,}55\ \text{s}.
+$$
+
+**Periksa.** Rangkaian RC adalah jam yang paling sederhana. Pewaktu elektronik, lampu sein, dan alat pacu jantung memakai asas yang sama: kapasitor terisi perlahan sampai ambang, lalu dikosongkan. Sel saraf pun "menembak" dengan cara serupa.
+:::
+
+@@ b-rangkaian.md | AKHIR
+::: {.contoh}
+**Contoh 13.y8 · Dari mobilitas ke konduktivitas, dan bilangan angkut**
+
+(a) Mobilitas ion Na⁺ dalam air $5{,}19 \times 10^{-8}\ \text{m}^2/(\text{V·s})$. Konduktivitas molar ion adalah $\lambda = zF\mu$. Hitung $\lambda(\text{Na}^+)$. (b) Berapa bagian arus yang dibawa kation dalam larutan NaCl encer, dan dalam larutan HCl encer?
+
+**Kerjakan.**
+
+(a) $\lambda = (1)(96\,485)(5{,}19 \times 10^{-8}) = 5{,}01 \times 10^{-3}$ S·m²/mol $= 50{,}1$ S·cm²/mol.
+
+(b) Bagian arus yang dibawa suatu ion disebut **bilangan angkut**: $t_+ = \dfrac{\lambda_+}{\lambda_+ + \lambda_-}$.
+
+NaCl: $\dfrac{50{,}1}{50{,}1 + 76{,}3} = 0{,}40$. HCl: $\dfrac{349{,}8}{349{,}8 + 76{,}3} = 0{,}82$.
+
+**Periksa.** Hasil (a) sama dengan nilai tabel: konduktivitas ion tidak lain adalah mobilitasnya yang dikalikan muatan satu mol. Pada (b), dalam larutan NaCl ion klorida membawa lebih dari separuh arus; dalam HCl, proton membawa hampir semuanya. Jembatan garam diisi KCl karena bilangan angkut K⁺ dan Cl⁻ hampir sama (0,49 dan 0,51), sehingga tidak timbul tegangan tambahan di sambungan cairan.
+:::
+
+::: {.contoh}
+**Contoh 13.y9 · Kelarutan garam sukar larut dari hantarannya**
+
+Larutan jenuh AgCl pada 25 °C memiliki konduktivitas $1{,}86 \times 10^{-4}$ S/m (setelah dikurangi sumbangan air). Konduktivitas ion: Ag⁺ 61,9 dan Cl⁻ 76,3 S·cm²/mol. Hitung kelarutan dan $K_{sp}$ AgCl.
+
+**Kerjakan.** $\Lambda_m^\circ = 61{,}9 + 76{,}3 = 138{,}2$ S·cm²/mol $= 0{,}01382$ S·m²/mol. Larutannya sangat encer, jadi $\Lambda_m \approx \Lambda_m^\circ$:
+
+$$
+c = \frac{\kappa}{\Lambda_m^\circ} = \frac{1{,}86 \times 10^{-4}}{0{,}01382} = 0{,}0135\ \text{mol/m}^3 = 1{,}35 \times 10^{-5}\ \text{mol/L}.
+$$
+
+$K_{sp} = c^2 = 1{,}8 \times 10^{-10}$.
+
+**Periksa.** Kelarutan itu setara 1,9 mg per liter, terlalu kecil untuk ditimbang dengan teliti, tetapi mudah diukur sebagai hambatan. Banyak nilai $K_{sp}$ pada tabel diperoleh dengan cara ini.
+:::
+
+::: {.contoh}
+**Contoh 13.y10 · Sel bahan bakar pada mobil**
+
+Tumpukan sel bahan bakar hidrogen menghasilkan daya 100 kW dengan tegangan kerja 0,70 V tiap sel. (a) Berapa gram hidrogen yang dipakai tiap detik? (b) Berapa efisiensinya terhadap $\Delta H$ pembakaran (286 kJ/mol)?
+
+**Kerjakan.**
+
+(a) Tiap mol H₂ mengalirkan $2F$ coulomb melalui 0,70 V, jadi memberi energi listrik $(2)(96\,485)(0{,}70) = 135$ kJ. Laju pemakaian: $\dfrac{100\ \text{kJ/s}}{135\ \text{kJ/mol}} = 0{,}74$ mol/s $= 1{,}5$ g/s.
+
+(b) $\dfrac{135}{286} = 47\%$.
+
+**Periksa.** Batas termodinamikanya 83% (subbab 11.10), tercapai pada tegangan 1,23 V. Ketika arus besar ditarik, tegangan sel turun ke 0,70 V; selisihnya menjadi kalor. Perbandingan tegangan kerja terhadap tegangan ideal, $0{,}70/1{,}23 = 57\%$, langsung menunjukkan berapa bagian energi bebas yang benar-benar terpanen.
+:::
+
+@@ _soal.txt | ## Subbab 13.3
+Hitung waktu rata-rata antartumbukan elektron dalam perak ($n = 5{,}86 \times 10^{28}$ m⁻³) pada 20 °C. ||| $3{,}8 \times 10^{-14}$ s
+
+@@ _soal.txt | ## Subbab 13.4
+Hambatan tubuh seseorang yang basah 1,5 kΩ. Berapa arus yang melewatinya pada 220 V dan pada 12 V? ||| 147 mA; 8 mA
+Pemanas air 3,0 kW dinyalakan 10 menit. Berapa energi listriknya (kW·h), dan berapa kenaikan suhu 20 L air? ||| 0,50 kW·h; 21,5 K
+Hambatan 100 Ω hanya tahan daya 0,25 W. Berapa tegangan dan arus terbesar yang boleh diberikan? ||| 5,0 V; 50 mA
+Kabel tembaga sepanjang 15 m (dua kawat, masing-masing 15 m) berpenampang 1,5 mm² dialiri 16 A. Berapa penurunan tegangannya? ||| 5,4 V
+
+@@ _soal.txt | ## Subbab 13.6
+Enam sel 2,0 V berhambatan dalam 0,010 Ω diseri. Berapa ggl dan hambatan dalam gabungannya? ||| 12 V; 0,060 Ω
+Tiga sel 1,5 V berhambatan dalam 0,30 Ω diparalel. Berapa ggl dan hambatan dalam gabungannya? ||| 1,5 V; 0,10 Ω
+Sepuluh sel 3,7 V, 2,5 A·h disusun menjadi dua untai paralel berisi lima sel seri. Berapa tegangan, kapasitas, dan energinya? ||| 18,5 V; 5,0 A·h; 92,5 W·h
+
+@@ _soal.txt | ## Subbab 13.7
+Aki 12,0 V (hambatan dalam 0,050 Ω) dan aki 12,6 V (0,020 Ω) diparalel melayani beban 0,20 Ω. Berapa tegangan beban dan arus dari tiap aki? ||| 11,6 V; 8 A; 50 A
+
+@@ _soal.txt | ## Subbab 13.9
+Lampu neon menyala pada 60 V. Kapasitor 1,0 μF diisi dari 100 V melalui 2,0 MΩ. Berapa selang antarkedipan? ||| 1,8 s
+Kapasitor 2200 μF bertegangan 16 V dikosongkan melalui 1,0 kΩ. Berapa tetapan waktu, arus awal, dan energi mula-mulanya? ||| 2,2 s; 16 mA; 0,28 J
+
+@@ _soal.txt | AKHIR
+Hitung bilangan angkut K⁺ dalam larutan KCl encer dan H⁺ dalam larutan HCl encer. ||| 0,49; 0,82
+Hitung mobilitas ion K⁺ dari konduktivitas molarnya. ||| $7{,}62 \times 10^{-8}$ m²/(V·s)
+Larutan jenuh BaSO₄ memiliki konduktivitas $3{,}0 \times 10^{-4}$ S/m (setelah dikoreksi air), dan $\Lambda_m^\circ(\text{BaSO}_4) = 287$ S·cm²/mol. Hitung kelarutan dan $K_{sp}$. ||| $1{,}0 \times 10^{-5}$ mol/L; $1{,}1 \times 10^{-10}$
+Sel bahan bakar hidrogen bekerja pada 0,70 V dan 200 A. Berapa dayanya, dan berapa gram H₂ yang dipakai tiap jam? ||| 140 W; 7,5 g
+Arus 2,00 A selama 1,00 jam seharusnya mengendapkan 2,37 g tembaga; ternyata diperoleh 2,25 g. Berapa efisiensi arusnya? ||| 95%
+Berapa muatan dan energi (pada 7,0 V) untuk menghasilkan 1,0 kg natrium (22,99 g/mol) dari NaCl leleh? ||| $4{,}2 \times 10^6$ C; 8,2 kW·h
+Perak 2,0 g disepuhkan merata pada permukaan 100 cm² (massa jenis perak 10,5 g/cm³). Berapa tebal lapisannya? ||| 19 μm
+Berapa perubahan tegangan elektrode tiap perubahan sepuluh kali konsentrasi ion bermuatan tunggal pada 37 °C? ||| 61,5 mV

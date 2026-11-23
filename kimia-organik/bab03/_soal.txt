@@ -1,0 +1,133 @@
+## Subbab 3.1: Asam dan basa Brønsted–Lowry
+
+> Pakai pKa dari Lampiran A atau dari teks bila tidak disebutkan. Pada 25 °C, 2,303*RT* = 5,71 kJ mol⁻¹. Soal bertanda **[P]** dibahas di akhir bab.
+
+Tentukan asam, basa, asam konjugat, dan basa konjugat: CH₃NH₂ + H₂O ⇌ CH₃NH₃⁺ + OH⁻. ||| asam H₂O; basa CH₃NH₂; asam konjugat CH₃NH₃⁺; basa konjugat OH⁻
+Tulis basa konjugat dari: CH₃OH, CH₃NH₃⁺, HC≡CH, CH₃COOH, H₂SO₄. ||| CH₃O⁻, CH₃NH₂, HC≡C⁻, CH₃COO⁻, HSO₄⁻
+Tulis asam konjugat dari: CH₃O⁻, NH₃, CH₃COCH₃, (CH₃)₂O, C₅H₅N. ||| CH₃OH, NH₄⁺, CH₃C(OH⁺)CH₃, (CH₃)₂OH⁺, C₅H₅NH⁺
+Gambar panah lengkung untuk reaksi etanol dengan natrium amida. ||| pasangan bebas N⁻ ke H; ikatan O–H ke O
+Gambar panah lengkung untuk protonasi dietil eter oleh HBr. Tunjukkan muatan formal oksigen dalam produk. ||| pasangan bebas O ke H; ikatan H–Br ke Br; O +1
+Apa yang salah dengan gambar panah yang berpangkal pada H⁺ dan berujung pada pasangan bebas basa? ||| panah harus berpangkal pada elektron (pasangan bebas atau ikatan), bukan pada H⁺
+Mengapa air dapat bertindak sebagai asam maupun basa? Berikan satu reaksi untuk masing-masing. ||| amfoter; H₂O + NH₃ (asam); H₂O + HCl (basa)
+@konj [P] Pada reaksi CH₃COOH + CH₃NH₂ ⇌ CH₃COO⁻ + CH₃NH₃⁺, tentukan pasangan konjugat, gambar panah lengkungnya, dan tentukan arah kesetimbangannya. ||| pasangan CH₃COOH/CH₃COO⁻ dan CH₃NH₃⁺/CH₃NH₂; ke kanan, Keq 10⁵·⁸⁴ = 6,9 × 10⁵
+
+## Subbab 3.2: Ka, pKa, dan skala kekuatan asam
+
+Hitung pKa dari Ka: (a) 6,3 × 10⁻⁵ (asam benzoat); (b) 1,8 × 10⁻⁴ (asam format); (c) 4,9 × 10⁻¹⁰ (HCN). ||| (a) 4,20; (b) 3,74; (c) 9,31
+Hitung Ka dari pKa: (a) 3,75; (b) 9,95; (c) 0,23. ||| (a) 1,8 × 10⁻⁴; (b) 1,1 × 10⁻¹⁰; (c) 0,59
+Berapa kali lebih kuat asam trifluoroasetat (pKa 0,23) daripada asam asetat (4,76)? ||| 3,4 × 10⁴ kali
+Urutkan dari asam terkuat: HCN (9,2), H₂O (15,7), HF (3,2), CH₃COOH (4,76), NH₄⁺ (9,25). ||| HF > CH₃COOH > HCN ≈ NH₄⁺ > H₂O
+Dua asam mempunyai Ka 10⁻⁴ dan 10⁻⁹. Berapa selisih pKa-nya, dan berapa kali lebih kuat asam pertama? ||| 5; 10⁵ kali
+Asam X mempunyai pKa 2, asam Y pKa −2. Asam mana yang terionisasi sempurna dalam air? Mengapa? ||| Y; lebih kuat daripada H₃O⁺ (pKa −1,7)
+Jelaskan dengan kata-katamu sendiri mengapa pKa dan pH tidak sama. ||| pKa sifat molekul; pH sifat larutan
+
+## Subbab 3.3: Arah kesetimbangan asam–basa
+
+Tentukan arah dan Keq: HCOOH + HCO₃⁻ ⇌ HCOO⁻ + H₂CO₃. ||| ke kanan; 4,0 × 10²
+Tentukan arah dan Keq: CH₃COOH + F⁻ ⇌ CH₃COO⁻ + HF. ||| ke kiri; 2,8 × 10⁻²
+Tentukan arah dan Keq: C₆H₅OH + NH₃ ⇌ C₆H₅O⁻ + NH₄⁺. ||| ke kiri; 0,18
+Apakah NaH dapat mendeprotonasi etanol? Hitung Keq (pKa H₂ 35). ||| ya; 10¹⁹
+Apakah natrium etoksida dapat mendeprotonasi aseton (pKa 19) secara sempurna? Bagaimana dengan LDA (pKa asam konjugat 36)? ||| tidak, Keq 10⁻³; LDA ya, Keq 10¹⁷
+Apakah larutan NaOH dapat mengubah ion metilamonium menjadi metilamina? Hitung Keq. ||| ya; 1,3 × 10⁵
+@arah [P] Ion anilinium (pKa 4,6) dikocok dengan larutan NaHCO₃. Hitung Keq reaksi C₆H₅NH₃⁺ + HCO₃⁻ ⇌ C₆H₅NH₂ + H₂CO₃ dan jelaskan apa yang terjadi pada anilinium. ||| 56; berpihak ke kanan, anilina netral terbentuk
+Pilih basa terlemah dari daftar NaHCO₃, NaOH, NaOCH₂CH₃, NaNH₂, BuLi yang masih cukup untuk mendeprotonasi sempurna: (a) asam benzoat; (b) fenol; (c) etuna; (d) etanol. ||| (a) NaHCO₃; (b) NaOH; (c) NaNH₂; (d) NaNH₂ (atau NaH)
+Mengapa asam asetat tidak bereaksi berarti dengan ion klorida? ||| HCl jauh lebih kuat; Keq 10⁻¹¹·⁸
+Tunjukkan bahwa Keq reaksi HA + B⁻ ⇌ A⁻ + HB sama dengan Ka(HA)/Ka(HB). ||| gabungkan ionisasi HA dan kebalikan ionisasi HB
+
+## Subbab 3.4: Termodinamika asam–basa
+
+Hitung ΔG° ionisasi pada 25 °C untuk asam benzoat (pKa 4,20) dan HCl (pKa −7). ||| 24,0 kJ mol⁻¹; −40,0 kJ mol⁻¹
+Dua asam berbeda pKa 10 satuan. Berapa selisih ΔG° ionisasinya? ||| 57,1 kJ mol⁻¹
+ΔG° ionisasi sebuah asam pada 25 °C adalah 40,0 kJ mol⁻¹. Berapa pKa-nya? ||| 7,01
+@termo [P] ΔH° ionisasi fenol pada 25 °C sekitar +23,6 kJ mol⁻¹ dan pKa-nya 10,0. Hitung ΔG° dan ΔS°, lalu bandingkan dengan asam asetat (Contoh 3.7). Faktor apa yang lebih menghambat ionisasi fenol? ||| ΔG° 57,1; ΔS° −112 J K⁻¹ mol⁻¹; entalpi dan entropi sama-sama menghambat
+Mengapa ionisasi asam menjadi ion di dalam air biasanya disertai penurunan entropi? ||| molekul air tertata di sekitar ion (solvasi)
+Apa hubungan antara kestabilan basa konjugat dan ΔG° ionisasi? ||| basa konjugat lebih stabil → ΔG° lebih kecil → pKa lebih kecil
+
+## Subbab 3.5: Atom pembawa muatan
+
+Urutkan keasaman: CH₄, NH₃, H₂O, HF. Jelaskan. ||| CH₄ < NH₃ < H₂O < HF; keelektronegatifan dalam satu periode
+Urutkan keasaman: HF, HCl, HBr, HI. Jelaskan. ||| HF < HCl < HBr < HI; ukuran atom dalam satu golongan
+Mana yang lebih asam: CH₃OH atau CH₃SH? CH₃NH₂ atau CH₃OH? ||| CH₃SH; CH₃OH
+Mana yang lebih basa: CH₃O⁻ atau CH₃S⁻? F⁻ atau I⁻? ||| CH₃O⁻; F⁻
+@atom [P] H₂Se (pKa 3,9) lebih asam daripada H₂S (7,0) dan H₂O (15,7). Jelaskan urutan ini, dan ramalkan kedudukan H₂Te. ||| ukuran atom naik ke bawah golongan; H₂Te paling asam
+Mengapa ikatan H–I lebih lemah daripada ikatan H–F? ||| orbital I besar, tumpang tindih dengan 1s H buruk; ikatan panjang
+
+## Subbab 3.6: Resonansi
+
+Gambar struktur penyumbang ion fenoksida dan tunjukkan karbon mana yang membawa muatan. ||| O dan tiga C (dua orto, satu para)
+Mengapa fenol (pKa 10,0) jauh lebih asam daripada sikloheksanol (± 18)? ||| ion fenoksida distabilkan resonansi ke cincin
+Mengapa asam asetat lebih asam daripada fenol? ||| muatan asetat pada dua O; fenoksida sebagian pada C
+Urutkan keasaman: *p*-nitrofenol, *m*-nitrofenol, fenol. ||| para > meta > fenol
+@reso [P] Asetilaseton, CH₃COCH₂COCH₃, mempunyai pKa 9, jauh lebih asam daripada aseton (19). Gambar struktur penyumbang basa konjugatnya dan jelaskan. ||| muatan tersebar ke dua O dan C pusat (tiga penyumbang)
+Mengapa proton CH₃ pada aseton jauh lebih asam (pKa 19) daripada proton pada propana (± 50)? ||| enolat distabilkan resonansi ke oksigen
+Mengapa asam metanasulfonat, CH₃SO₃H, adalah asam kuat? ||| muatan tersebar ke tiga O
+Gambar struktur penyumbang ion amidinium, CH₃C(NH₂)₂⁺, dan jelaskan mengapa amidina adalah basa kuat. ||| muatan positif tersebar pada dua N (setara)
+
+## Subbab 3.7: Efek induktif
+
+Urutkan keasaman: CH₃COOH, ClCH₂COOH, Cl₂CHCOOH, Cl₃CCOOH. ||| Cl₃CCOOH > Cl₂CHCOOH > ClCH₂COOH > CH₃COOH
+Urutkan keasaman: asam 2-, 3-, dan 4-klorobutanoat. Jelaskan. ||| 2- > 3- > 4-; efek induktif melemah dengan jarak
+Mana yang lebih asam: CF₃CH₂OH atau CH₃CH₂OH? Mengapa? ||| CF₃CH₂OH; tiga F menarik elektron
+Mengapa asam format (pKa 3,75) lebih asam daripada asam asetat (4,76)? ||| gugus metil pemberi elektron melemahkan asam asetat
+Urutkan keasaman: FCH₂COOH, ClCH₂COOH, BrCH₂COOH, ICH₂COOH. ||| F > Cl > Br > I (2,59; 2,86; 2,90; 3,18)
+@induk [P] Asam 2-aminoasetat (glisina) dalam bentuk kation, H₃N⁺CH₂COOH, mempunyai pKa 2,3 untuk gugus COOH. Mengapa jauh lebih asam daripada asam asetat? ||| gugus –NH₃⁺ menarik elektron kuat secara induktif
+Gugus mana yang merupakan penarik elektron induktif: –CH₃, –OCH₃, –NO₂, –CN, –CH₂CH₃, –F? ||| –OCH₃, –NO₂, –CN, –F
+
+## Subbab 3.8: Orbital dan hibridisasi
+
+Urutkan keasaman C–H: etana, etena, etuna. Jelaskan dengan karakter s. ||| etana < etena < etuna; karakter s 25, 33, 50%
+Mana yang lebih basa: CH₃CH₂⁻, CH₂=CH⁻, atau HC≡C⁻? ||| CH₃CH₂⁻ (pasangan bebas sp³ paling tidak stabil)
+Urutkan kebasaan nitrogen: CH₃C≡N, C₅H₅N (piridina), CH₃NH₂. ||| CH₃NH₂ > piridina > asetonitril
+Apakah NaNH₂ dapat mendeprotonasi etena? Hitung Keq. ||| tidak; 10⁻⁶
+@orb [P] Menurut faktor atom, NH₃ seharusnya lebih asam daripada HC≡CH. Kenyataannya pKa NH₃ 38 dan HC≡CH 25. Jelaskan. ||| faktor orbital (C sp lawan N sp³) mengalahkan faktor atom
+
+## Subbab 3.9: Memakai keempat faktor bersama-sama
+
+Tentukan proton paling asam dalam: (a) HOCH₂CH₂COOH; (b) HC≡CCH₂OH; (c) CH₃COCH₂CH₃. ||| (a) COOH; (b) OH; (c) CH₂ atau CH₃ α (keduanya ± 19–20), bukan C–H lain
+Urutkan keasaman: CH₃CH₂OH, CH₃COOH, C₆H₅OH, H₂O, CH₃CH₂SH. ||| CH₃COOH > C₆H₅OH > CH₃CH₂SH > H₂O > CH₃CH₂OH
+Urutkan kebasaan: CH₃O⁻, CH₃COO⁻, C₆H₅O⁻, CH₃NH⁻. ||| CH₃NH⁻ > CH₃O⁻ > C₆H₅O⁻ > CH₃COO⁻
+Proton mana yang lebih asam dalam *p*-hidroksibenzaldehida: O–H atau C–H aldehida? Jelaskan. ||| O–H (anion pada O, distabilkan resonansi ke C=O di para)
+@semua [P] Urutkan dari asam terkuat dan sebutkan faktor penentunya: CH₃CH₂OH, ClCH₂CH₂OH, CH₃COOH, CH₃CH₂NH₂ (sebagai asam, N–H), HC≡CH. ||| CH₃COOH > ClCH₂CH₂OH > CH₃CH₂OH > HC≡CH > CH₃CH₂NH₂
+Asam askorbat (vitamin C) mempunyai pKa 4,1 walaupun tidak mempunyai gugus COOH. Gugus O–H-nya terikat pada karbon C=C yang terkonjugasi dengan C=O. Jelaskan keasamannya. ||| basa konjugat distabilkan resonansi ke O karbonil (seperti karboksilat yang diperpanjang)
+
+## Subbab 3.10: Kebasaan amina dan heterosiklik nitrogen
+
+Urutkan kebasaan: NH₃, CH₃NH₂, C₆H₅NH₂, CH₃CONH₂. ||| CH₃NH₂ > NH₃ > C₆H₅NH₂ > CH₃CONH₂
+Mengapa piridina (pKaH 5,2) kurang basa daripada piperidina (cincin jenuh, pKaH 11,1)? ||| N piridina sp², N piperidina sp³
+Mengapa pirola hampir tidak basa? ||| pasangan bebas N bagian dari sistem aromatik; protonasi merusak aromatisitas
+Berapa kali lebih basa etilamina (pKaH 10,7) daripada asetamida (± −0,5)? ||| ± 1,6 × 10¹¹ kali
+Pada imidazola, nitrogen mana yang diprotonasi: N–H atau N=C? Jelaskan. ||| N=C (pasangan bebas sp² di bidang cincin, tidak ikut aromatisitas)
+@basa [P] Guanidina (pKaH 13,6) adalah salah satu basa netral terkuat. Gambar asam konjugatnya (ion guanidinium) dan jelaskan dengan resonansi. ||| tiga struktur penyumbang setara; muatan positif tersebar pada tiga N
+Mengapa *p*-nitroanilina (pKaH 1,0) jauh kurang basa daripada anilina (4,6)? ||| pasangan bebas N terdelokalisasi lebih jauh ke gugus nitro
+Mengapa alkaloid dapat diekstrak dari tumbuhan dengan asam encer? ||| alkaloid basa membentuk garam yang larut dalam air
+
+## Subbab 3.11: Pelarut, efek leveling, dan basa kuat organik
+
+Jelaskan mengapa HCl, HBr, dan HI tampak sama kuat dalam air. ||| efek leveling; semuanya menjadi H₃O⁺
+Apa asam terkuat dan basa terkuat yang dapat ada dalam air? ||| H₃O⁺; OH⁻
+Apa yang terjadi bila NaNH₂ dimasukkan ke dalam air? Hitung Keq. ||| NH₂⁻ + H₂O → NH₃ + OH⁻; 10²²
+Mengapa reaksi dengan butillitium harus dilakukan dalam eter atau THF kering, bukan dalam metanol atau air? ||| BuLi bereaksi dengan pelarut yang lebih asam
+@level [P] Dalam amonia cair (pKa NH₃ 38), apakah ion amida dapat dipakai sebagai basa terkuat? Asam terkuat apa yang dapat ada dalam amonia cair? Apakah asam asetat dan HCl tampak sama kuat dalam amonia cair? ||| ya, NH₂⁻ basa terkuat; NH₄⁺ asam terkuat; ya, keduanya diratakan menjadi NH₄⁺
+Mengapa natrium hidrida tidak dapat bereaksi balik setelah mendeprotonasi alkohol? ||| H₂ keluar sebagai gas
+Pilih basa yang sesuai untuk mendeprotonasi aseton secara sempurna: NaOH, NaOEt, atau LDA? ||| LDA
+
+## Subbab 3.12: Asam dan basa Lewis
+
+Tentukan asam Lewis dan basa Lewis: (a) BF₃ + NH₃; (b) Zn²⁺ + 4 NH₃; (c) CH₃⁺ + Cl⁻. ||| (a) BF₃, NH₃; (b) Zn²⁺, NH₃; (c) CH₃⁺, Cl⁻
+Gambar panah lengkung untuk reaksi AlCl₃ dengan Cl⁻ dan tentukan muatan formal Al dalam AlCl₄⁻. ||| pasangan bebas Cl⁻ ke Al; Al −1
+Mengapa BF₃ adalah asam Lewis, padahal tidak mempunyai proton? ||| B hanya enam elektron, orbital p kosong
+Apakah setiap basa Brønsted juga basa Lewis? Apakah setiap asam Lewis juga asam Brønsted? ||| ya; tidak
+@lewis [P] Gambar mekanisme reaksi karbokation *tert*-butil dengan air, lalu langkah transfer proton ke molekul air kedua. Pada setiap langkah, sebutkan asam dan basa (Lewis atau Brønsted). ||| langkah 1: H₂O basa Lewis, C⁺ asam Lewis; langkah 2: (CH₃)₃COH₂⁺ asam Brønsted, H₂O basa Brønsted
+Mengapa Mg²⁺ dalam pereaksi Grignard dapat mengaktifkan gugus karbonil? ||| Mg²⁺ asam Lewis mengikat O karbonil, memperbesar δ+ pada C
+
+## Subbab 3.13: pH, pKa, dan persamaan Henderson–Hasselbalch
+
+Berapa bagian asam benzoat (pKa 4,20) yang terionisasi pada pH 2,2, 4,2, dan 6,2? ||| 0,0099; 0,50; 0,99
+Hitung pH larutan yang mengandung 0,10 M NH₄Cl dan 0,20 M NH₃. ||| 9,55
+Berapa perbandingan [asetat]/[asam asetat] yang diperlukan untuk penyangga pH 5,00? ||| 1,74
+Ibuprofen (pKa 4,9): berapa bagian yang terionisasi di lambung (pH 1,5) dan di darah (pH 7,4)? ||| 4,0 × 10⁻⁴; 0,997
+Morfin adalah basa dengan pKaH 8,2. Berapa bagian morfin yang terprotonasi dalam darah (pH 7,4)? ||| 0,86
+@hh [P] Anestesi lokal prokaina adalah amina dengan pKaH 9,0. Hanya bentuk netralnya yang dapat menembus selubung saraf. (a) Berapa bagian bentuk netral pada pH 7,4? (b) Jaringan yang meradang bersifat lebih asam (pH 6,4). Berapa bagian netral di sana, dan mengapa anestesi lokal kurang manjur pada jaringan yang meradang? ||| (a) 0,025; (b) 0,0025; bentuk netral sepuluh kali lebih sedikit
+Rancang pemisahan campuran asam 4-klorobenzoat, 4-kloroanilina, dan klorobenzena dalam eter. ||| HCl memindahkan amina; NaOH atau NaHCO₃ memindahkan asam; klorobenzena tinggal
+Mengapa urutan NaHCO₃ lalu NaOH tidak boleh dibalik dalam ekstraksi asam karboksilat dan fenol? ||| NaOH mengionkan keduanya sekaligus
+Pada pH berapa asam asetat tepat 90% terionisasi? ||| 5,71

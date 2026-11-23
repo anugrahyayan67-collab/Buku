@@ -1,0 +1,79 @@
+radiasi benda hitam
+efek fotolistrik
+efek Compton
+model Bohr
+panjang gelombang de Broglie
+asas ketidakpastian
+persamaan Schrödinger
+fungsi gelombang
+partikel dalam kotak
+penerobosan
+operator Hermitian
+nilai harap
+komutator
+degenerasi
+osilator harmonik
+polinom Hermite
+energi titik nol
+potensial Morse
+massa tereduksi
+rotor tegar
+harmonik bola
+momentum sudut
+atom hidrogen
+orbital
+fungsi distribusi radial
+teorema virial
+efek Zeeman
+metode variasi
+persamaan sekuler
+teori perturbasi
+efek Stark
+aturan seleksi
+spin
+asas Pauli
+determinan Slater
+metode Hartree–Fock
+lambang suku
+aturan Hund
+kopling spin–orbit
+teori grup
+grup titik
+tabel karakter
+pendekatan Born–Oppenheimer
+orbital molekul
+LCAO
+orde ikatan
+teori ikatan valensi
+interaksi konfigurasi
+teorema Hellmann–Feynman
+hibridisasi
+aturan Bent
+VSEPR
+resonansi
+metode Hückel
+aromatisitas
+aturan Woodward–Hoffmann
+teori medan kristal
+teori medan ligan
+efek Jahn–Teller
+deret spektrokimia
+diagram Tanabe–Sugano
+aturan 18 elektron
+koefisien Einstein
+hukum Beer–Lambert
+spektroskopi Raman
+asas Franck–Condon
+fluoresensi
+fosforesensi
+spektroskopi fotoelektron
+geseran kimia
+kopling spin–spin
+relaksasi
+persamaan Roothaan
+himpunan basis
+teorema Koopmans
+energi korelasi
+teori perturbasi Møller–Plesset
+coupled-cluster
+teori fungsional kerapatan

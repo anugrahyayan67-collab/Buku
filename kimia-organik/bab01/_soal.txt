@@ -1,0 +1,107 @@
+## Subbab 1.1: Apa itu kimia organik
+
+> Keelektronegatifan Pauling: H 2,20; C 2,55; N 3,04; O 3,44; F 3,98; Cl 3,16; Br 2,96; I 2,66; Li 0,98; Mg 1,31. 1 D = 3,336 × 10⁻³⁰ C m; *e* = 1,602 × 10⁻¹⁹ C. Soal bertanda **[P]** dibahas di akhir bab.
+
+Manakah yang biasanya digolongkan sebagai senyawa organik: CH₄, CO₂, CH₃OH, Na₂CO₃, C₆H₁₂O₆, KCN, CH₃COONa? ||| CH₄, CH₃OH, C₆H₁₂O₆, CH₃COONa
+Mengapa rantai silikon panjang jauh lebih jarang dijumpai daripada rantai karbon panjang? ||| ikatan Si–Si lemah dan mudah diputus, terutama oleh oksigen
+Apa yang dimaksud gugus fungsi, dan mengapa gagasan ini membuat kimia organik dapat dipelajari tanpa menghafal setiap senyawa? ||| bagian molekul yang menentukan reaksinya; gugus yang sama bereaksi serupa dalam molekul berbeda
+
+## Subbab 1.2: Ikatan kovalen dan struktur Lewis
+
+Hitung jumlah elektron valensi untuk: (a) C₂H₆; (b) CH₃NH₂; (c) HCN; (d) CH₃COO⁻. ||| (a) 14; (b) 14; (c) 10; (d) 24
+Gambar struktur Lewis untuk metilamina (CH₃NH₂) dan tunjukkan semua pasangan elektron bebas. ||| H₃C–NH₂, satu pasangan bebas pada N
+Gambar struktur Lewis hidrogen sianida (HCN). Berapa pasangan bebas yang ada pada nitrogen? ||| H–C≡N:, satu pasangan bebas pada N
+Gambar struktur Lewis etena (C₂H₄) dan etuna (C₂H₂). ||| H₂C=CH₂; HC≡CH
+@lewis [P] Gambar struktur Lewis asam asetat, CH₃COOH, dan dimetil eter, CH₃OCH₃. Tunjukkan bahwa pola netral (C empat ikatan, O dua ikatan dan dua pasangan bebas) terpenuhi pada setiap atom. ||| CH₃–C(=O)–O–H; CH₃–O–CH₃; setiap O dua ikatan dan dua pasangan bebas
+Apa yang salah dengan struktur H–O=C–H untuk metanol? ||| rumusnya CH₂O, bukan CH₄O; O membentuk tiga ikatan dan C hanya tiga ikatan
+Mengapa hidrogen tidak pernah membentuk dua ikatan kovalen dalam molekul organik biasa? ||| kulit 1s hanya memuat dua elektron
+Tulis konfigurasi elektron C, N, O, dan Cl, lalu tentukan jumlah elektron valensi masing-masing. ||| C 1s² 2s² 2p², 4; N 1s² 2s² 2p³, 5; O 1s² 2s² 2p⁴, 6; Cl 1s² 2s² 2p⁶ 3s² 3p⁵, 7
+Berapa elektron tak berpasangan pada atom karbon keadaan dasar menurut aturan Hund? Mengapa karbon tetap membentuk empat ikatan? ||| 2; hibridisasi (subbab 1.5) memberi empat orbital setengah terisi
+
+## Subbab 1.3: Muatan formal
+
+Tentukan muatan formal setiap atom bukan hidrogen dalam (a) H₃O⁺; (b) NH₂⁻; (c) CH₃⁺; (d) CH₃⁻. ||| (a) O +1; (b) N −1; (c) C +1; (d) C −1
+@fc [P] Tentukan muatan formal setiap atom N dan O dalam ion nitrat, NO₃⁻ (satu N=O dan dua N–O). Periksa bahwa jumlahnya sama dengan muatan ion. ||| N +1; O(rangkap) 0; tiap O(tunggal) −1; jumlah −1
+Ion tetrametilamonium, (CH₃)₄N⁺, tidak mempunyai atom H pada nitrogen. Di atom mana muatan formal +1 berada? ||| N
+Dalam ion karbonat, CO₃²⁻, gambar satu struktur Lewis dan tentukan muatan formal setiap atom. ||| C 0; satu O 0 (rangkap); dua O −1
+Tentukan muatan formal karbon dalam karbon monoksida, :C≡O:. ||| C −1, O +1
+Radikal metil, ·CH₃, mempunyai berapa elektron di sekitar karbon? Berapa muatan formalnya? ||| 7 elektron; 0
+Jelaskan mengapa karbokation sangat reaktif terhadap spesi yang kaya elektron. ||| karbon hanya dikelilingi enam elektron, belum oktet
+Bandingkan muatan formal dan bilangan oksidasi karbon dalam CH₃OH. ||| muatan formal 0; bilangan oksidasi −2
+
+## Subbab 1.4: Menggambar molekul organik: rumus garis
+
+Tulis rumus kondensasi untuk 2-metilbutana dan pentan-2-ol. ||| CH₃CH(CH₃)CH₂CH₃; CH₃CH(OH)CH₂CH₂CH₃
+Berapa atom hidrogen pada setiap karbon dalam rumus garis sikloheksana? ||| dua (setiap karbon CH₂)
+@garis [P] Tentukan rumus molekul isopentil asetat dan heksan-1-ol dari rumus garisnya (Gambar 1.4). ||| C₇H₁₄O₂; C₆H₁₄O
+Hitung derajat ketidakjenuhan: (a) C₈H₁₀; (b) C₅H₈; (c) C₆H₁₂O; (d) C₄H₉N. ||| (a) 4; (b) 2; (c) 1; (d) 1
+Hitung derajat ketidakjenuhan bromobenzena (C₆H₅Br) dan sebuah senyawa C₇H₇NO₂. ||| 4; 5
+Kolesterol berumus C₂₇H₄₆O dan mempunyai satu ikatan C=C. Berapa cincin yang dimilikinya? ||| derajat 5; jadi 4 cincin
+Retinol (vitamin A), C₂₀H₃₀O, mempunyai satu cincin. Berapa ikatan C=C-nya? ||| derajat 6; jadi 5 ikatan C=C
+Gambarkan tiga isomer C₄H₁₀O yang berbeda dalam rumus garis. ||| misalnya butan-1-ol, butan-2-ol, dietil eter (juga 2-metilpropan-1-ol, 2-metilpropan-2-ol, metil propil eter, isopropil metil eter)
+Apa arti baji tebal dan baji putus-putus dalam gambar struktur? ||| ikatan ke arah pembaca; ikatan menjauhi pembaca
+Tentukan jumlah pasangan bebas pada setiap O dan N dalam rumus garis asam asetat, metilamina, dan ion metilamonium. ||| asam asetat: tiap O 2; metilamina N 1; metilamonium N 0
+Atom nitrogen dalam sebuah rumus garis membentuk dua ikatan dan bermuatan −1. Berapa pasangan bebasnya? ||| 2
+Atom oksigen dalam rumus garis membentuk tiga ikatan tanpa tanda muatan. Apa yang salah? ||| O dengan tiga ikatan harus bermuatan +1 (satu pasangan bebas)
+
+## Subbab 1.5: Hibridisasi dan bentuk molekul
+
+Tentukan hibridisasi setiap atom karbon dalam propanal, CH₃CH₂CHO. ||| sp³, sp³, sp²
+Tentukan hibridisasi dan geometri atom nitrogen dalam (a) amonia; (b) piridina; (c) asetonitril. ||| (a) sp³, piramida; (b) sp², datar; (c) sp, linear
+@hib [P] Tentukan hibridisasi setiap atom karbon dan sudut ikatan perkiraannya dalam but-1-en-3-una, CH₂=CH–C≡CH. Atom-atom mana yang terletak pada satu garis lurus? ||| C1, C2 sp² (120°); C3, C4 sp (180°); C2–C3–C4–H segaris
+Mengapa sudut H–O–H dalam air (104,5°) lebih kecil daripada 109,5°? ||| pasangan bebas menolak lebih kuat dan mendesak ikatan
+Berapa persen karakter s orbital hibrida sp³, sp², dan sp? ||| 25%; 33%; 50%
+Mengapa ikatan C–H pada etuna lebih pendek daripada pada etana? ||| karakter s lebih besar, elektron lebih dekat ke inti
+Hitung sudut tetrahedral dari $\cos\theta = -1/3$. ||| 109,47°
+Apakah semua atom dalam aseton terletak pada satu bidang? Jelaskan. ||| tidak; karbon CH₃ tetrahedral, sebagian H keluar bidang
+
+## Subbab 1.6: Ikatan σ dan π
+
+Hitung jumlah ikatan σ dan π dalam (a) etena; (b) etuna; (c) aseton; (d) benzena. ||| (a) 5σ, 1π; (b) 3σ, 2π; (c) 9σ, 1π; (d) 12σ, 3π
+Hitung jumlah ikatan σ dan π dalam asam akrilat, CH₂=CHCOOH. ||| 8σ, 2π
+@pi [P] Pakai energi ikatan C–C (347), C=C (614), dan C≡C (839 kJ mol⁻¹) untuk memperkirakan energi ikatan π pertama dan kedua. Mengapa keduanya lebih kecil daripada ikatan σ? ||| π pertama 267; π kedua 225 kJ mol⁻¹; tumpang tindih sisi ke sisi kurang efektif
+Mengapa cis-but-2-ena tidak berubah menjadi trans-but-2-ena pada suhu kamar? ||| memutar C=C memutus ikatan π (± 260 kJ mol⁻¹)
+Mengapa gugus metil dalam etana dapat berputar bebas? ||| ikatan σ simetris terhadap sumbu; penghalang hanya ± 12 kJ mol⁻¹
+Pada alkena, ikatan mana yang putus lebih dulu ketika bereaksi dengan pereaksi seperti Br₂: σ atau π? Mengapa? ||| π; lebih lemah dan elektronnya lebih mudah dijangkau
+Dari orbital apa saja ikatan σ C–H dalam etena terbentuk? ||| sp² karbon dan 1s hidrogen
+Gambar diagram orbital molekul untuk He₂⁺ dan hitung orde ikatannya. ||| σ² σ*¹; 0,5
+@om [P] Pakai teori orbital molekul untuk menjelaskan mengapa H₂ stabil, He₂ tidak ada, dan mengapa eksitasi satu elektron dari π ke π* pada etena memungkinkan putaran di sekitar ikatan C=C. ||| H₂ orde 1; He₂ orde 0; π¹π*¹ memberi orde ikatan π nol
+Apa itu HOMO dan LUMO pada etena? Ke orbital mana elektron dari pereaksi kaya elektron akan masuk? ||| HOMO π, LUMO π*; ke LUMO (π*)
+Mengapa orbital antiikatan mempunyai energi lebih tinggi daripada orbital atom asalnya? ||| ada simpul di antara inti; rapat elektron di antara inti rendah
+
+## Subbab 1.7: Kepolaran ikatan dan momen dipol
+
+Tunjukkan arah δ+ dan δ− pada ikatan: C–O, C–N, C–Cl, C–Mg, O–H. ||| C δ+ pada C–O, C–N, C–Cl; C δ− pada C–Mg; H δ+ pada O–H
+Urutkan ikatan berdasarkan kepolarannya: C–F, C–Cl, C–Br, C–I. ||| C–F > C–Cl > C–Br > C–I
+@dip [P] Momen dipol HCl 1,08 D dan panjang ikatannya 127 pm. Hitung muatan parsial *q*/*e*, dan bandingkan dengan momen dipol bila ikatan itu ionik penuh. ||| 0,18; ionik penuh 6,1 D
+Momen dipol fluorometana 1,85 D dan panjang ikatan C–F 139 pm. Hitung *q*/*e*. ||| 0,28
+Ramalkan apakah molekul berikut polar: BF₃, NH₃, CO₂, H₂O, CH₃OH, CCl₄. ||| polar: NH₃, H₂O, CH₃OH; tidak polar: BF₃, CO₂, CCl₄
+Mengapa cis-1,2-dikloroetena polar, sedangkan trans-1,2-dikloroetena tidak? ||| pada trans kedua dipol C–Cl berlawanan arah dan saling meniadakan
+Mengapa karbon dalam CH₃MgBr bersifat nukleofilik, sedangkan karbon dalam CH₃Br bersifat elektrofilik? ||| Mg kurang elektronegatif daripada C (C δ−); Br lebih elektronegatif (C δ+)
+
+## Subbab 1.8: Resonansi dan panah lengkung
+
+Gambar dua struktur penyumbang ion format, HCOO⁻. ||| H–C(=O)–O⁻ ↔ H–C(–O⁻)=O
+Gambar struktur penyumbang ion nitrit NO₂⁻ dan tunjukkan panah lengkungnya. ||| O=N–O⁻ ↔ ⁻O–N=O
+Manakah pasangan berikut yang merupakan struktur resonansi, dan mana yang isomer? (a) CH₃CH=O dan CH₂=CHOH; (b) CH₂=CH–CH₂⁺ dan ⁺CH₂–CH=CH₂. ||| (a) isomer (H berpindah); (b) resonansi
+@res [P] Gambar struktur penyumbang untuk amida, CH₃CONH₂, dengan memindahkan pasangan bebas nitrogen. Jelaskan mengapa ikatan C–N amida lebih pendek daripada ikatan C–N biasa dan sukar diputar. ||| CH₃C(=O)NH₂ ↔ CH₃C(–O⁻)=NH₂⁺; ikatan C–N bersifat rangkap sebagian
+Mengapa asam asetat jauh lebih asam daripada etanol? ||| muatan negatif ion asetat tersebar di dua O oleh resonansi
+Gambar tiga struktur penyumbang ion karbonat. ||| ikatan rangkap pada masing-masing dari tiga O
+Mengapa panah lengkung tidak boleh berpangkal pada muatan positif? ||| panah menunjukkan gerak pasangan elektron; muatan positif tidak membawa elektron
+Pada struktur penyumbang H₂C⁺–O⁻ untuk metanal, aturan mana yang membuatnya kurang penting daripada H₂C=O? ||| karbon tidak oktet dan ada pemisahan muatan
+Sebutkan pola resonansi yang berlaku dan gambar struktur penyumbang: (a) CH₂=CH–CH₂⁻; (b) CH₃–O–CH₂⁺; (c) benzena. ||| (a) pola 1, ⁻CH₂–CH=CH₂; (b) pola 2, CH₃–O⁺=CH₂; (c) pola 5, ikatan π bergeser mengelilingi cincin
+Gambar struktur penyumbang ion enolat dari aseton, CH₃C(O⁻)=CH₂. Pada atom mana muatan negatif tersebar? ||| CH₃C(=O)CH₂⁻; O dan C
+Tentukan apakah pasangan bebas terlokalisasi atau terdelokalisasi: (a) N pada etilamina; (b) O pada fenol; (c) N pada pirola (cincin lima aromatik dengan N–H). ||| (a) terlokalisasi; (b) terdelokalisasi; (c) terdelokalisasi
+@lokal [P] Tentukan hibridisasi atom N dalam asetamida dan dalam etilamina. Jelaskan mengapa hitungan kelompok elektron memberi jawaban yang berbeda untuk asetamida. ||| asetamida sp² (pasangan bebas terdelokalisasi, di orbital p); etilamina sp³
+
+## Subbab 1.9: Gaya antarmolekul dan sifat fisika
+
+Sebutkan gaya antarmolekul terkuat untuk: (a) heksana; (b) aseton; (c) metilamina; (d) asam asetat. ||| (a) dispersi; (b) dipol–dipol; (c) ikatan hidrogen; (d) ikatan hidrogen
+Urutkan titik didihnya: propana, etanol, dimetil eter, asetaldehida. ||| propana < dimetil eter < asetaldehida < etanol
+Mengapa 2,2-dimetilpropana mendidih jauh lebih rendah daripada pentana? ||| bentuk bulat, luas kontak kecil, gaya dispersi lemah
+Manakah yang dapat menjadi donor ikatan hidrogen: CH₃OH, CH₃OCH₃, CH₃NH₂, (CH₃)₃N, CH₃F? ||| CH₃OH dan CH₃NH₂
+Mengapa trimetilamina larut dalam air walaupun tidak mempunyai ikatan N–H? ||| pasangan bebas N menjadi akseptor ikatan hidrogen dari air
+@larut [P] Metanol bercampur dengan air dalam perbandingan berapa pun, butan-1-ol larut sekitar 7 g per 100 mL, dan heksan-1-ol kurang dari 1 g per 100 mL. Jelaskan kecenderungan ini. ||| rantai hidrofobik makin panjang menutupi pengaruh satu gugus –OH
+Mengapa asam asetat dalam fasa gas sering berupa dimer? ||| dua ikatan hidrogen O–H···O=C membentuk cincin
+Mengapa minyak goreng tidak larut dalam air, tetapi larut dalam heksana? ||| keduanya tidak polar; yang serupa melarutkan yang serupa
+Jelaskan cara kerja sabun dengan istilah hidrofilik dan hidrofobik. ||| ekor hidrofobik melarutkan minyak di dalam misel; kepala hidrofilik menghadap air

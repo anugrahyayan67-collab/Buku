@@ -1,0 +1,33 @@
+@@RINGKASAN
+| Osilasi kecil sembarang | $k_\text{ef} = d^2U/dx^2$ di titik setimbang; $\ \omega = \sqrt{k_\text{ef}/m}$ | 8.11 |
+| Potensial Morse | $U = D_e[1 - e^{-a(r - r_e)}]^2$; $\ k = 2D_ea^2$ | 8.11 |
+| Teorema Fourier | getaran periodik = jumlah sinus berfrekuensi $f, 2f, 3f, \dots$ | 8.12 |
+| Waktu dan lebar spektrum | sinyal yang meluruh dengan $\tau$: $\Delta f \approx 1/(\pi\tau)$ | 8.12 |
+@@KUIS
+**8.9** Lembah A. Lembah dua kali lebih sempit dengan kedalaman sama memiliki kelengkungan empat kali, jadi frekuensinya dua kali. **8.10** 200, 400, 600, 800 Hz, dan seterusnya: kelipatan bulat nada dasar.
+@@PERTANYAAN
+Mengapa hampir semua sistem yang diganggu sedikit dari kesetimbangan mantap bergetar secara harmonik?
+Apa hubungan antara bentuk lembah energi potensial dan frekuensi getaran?
+Mengapa potensial Morse lebih realistis daripada parabola untuk ikatan kimia? Sebutkan dua hal yang ditangkap Morse tetapi tidak oleh parabola.
+Mengapa nada yang sama dari gitar dan seruling terdengar berbeda?
+Apa keuntungan spektrometer FT-IR dibandingkan spektrometer yang memakai kisi difraksi?
+@@SOAL
+## Subbab 8.11: Osilasi kecil di sekitar kesetimbangan
+@kub Energi potensial sebuah partikel 0,10 kg adalah $U = 5x^2 - 2x^3$ (J, dengan $x$ dalam meter). Tentukan titik kesetimbangan mantapnya dan frekuensi osilasi kecil di sekitarnya. ||| $x = 0$; 1,6 Hz
+Kotak kayu berpenampang 0,50 m × 0,50 m bermassa 60 kg terapung tegak di air tawar. Berapa periode naik turunnya? ||| 0,98 s
+Berapa periode ayunan zat cair dalam pipa U dengan panjang kolom total 40 cm? ||| 0,90 s
+Manik-manik kecil meluncur tanpa gesekan di dasar mangkuk setengah bola berjari-jari 20 cm. Berapa periode ayunan kecilnya? ||| 0,90 s
+Untuk N₂, $D_e = 9{,}9$ eV dan $a = 2{,}69 \times 10^{10}$ m⁻¹ (potensial Morse). Hitung konstanta gaya dan bilangan gelombang getarannya (massa tereduksi 7,00 u). ||| 2300 N/m; 2360 cm⁻¹
+Hitung kelengkungan potensial Lennard-Jones di minimumnya untuk kripton ($\varepsilon = 0{,}0141$ eV; $\sigma = 0{,}365$ nm). ||| 0,97 N/m
+## Subbab 8.12: Superposisi dan analisis Fourier
+Pada frekuensi berapa saja tiga komponen sinus pertama gelombang kotak 500 Hz? ||| 500, 1500, 2500 Hz
+Berapa jauh cermin interferometer FT-IR harus bergerak untuk resolusi 0,125 cm⁻¹? ||| 4 cm
+Sinyal NMR meluruh dengan tetapan waktu 2,0 s. Taksir lebar garisnya. ||| 0,16 Hz
+@@PEMBAHASAN
+**Soal {{kub}}.** Gaya: $F = -dU/dx = -10x + 6x^2$. Kesetimbangan di $F = 0$: $x = 0$ atau $x = 10/6 = 1{,}67$ m. Kelengkungan: $U'' = 10 - 12x$, bernilai $+10$ N/m di $x = 0$ (minimum, mantap) dan $-10$ N/m di $x = 1{,}67$ m (maksimum, labil).
+
+$$
+f = \frac{1}{2\pi}\sqrt{\frac{k_\text{ef}}{m}} = \frac{1}{2\pi}\sqrt{\frac{10}{0{,}10}} = 1{,}6\ \text{Hz}.
+$$
+
+*Cara berpikir:* suku $-2x^3$ tidak memengaruhi osilasi **kecil**, karena di dekat $x = 0$ ia jauh lebih kecil daripada $5x^2$. Tetapi suku itu membuat lembahnya miring: partikel yang diberi energi lebih dari $U(1{,}67) = 4{,}6$ J akan melewati puncak dan lepas. Ikatan kimia berperilaku serupa: harmonik untuk getaran kecil, putus jika energinya cukup.

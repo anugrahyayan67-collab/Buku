@@ -1,0 +1,137 @@
+## Subbab 7.1: Alkil halida: struktur dan sifat
+
+> Reaktivitas relatif per H dalam halogenasi radikal: Cl (25 °C) 1° : 2° : 3° = 1 : 3,6 : 5,0; Br (125 °C) 1 : 82 : 1600. Soal bertanda **[P]** dibahas di akhir bab.
+
+Golongkan: (a) 1-bromo-2-metilpropana; (b) 2-kloro-2-metilbutana; (c) iodosikloheksana; (d) klorobenzena; (e) 3-bromopropena. ||| (a) primer; (b) tersier; (c) sekunder; (d) aril; (e) primer alilik
+Urutkan kereaktifan R–X dalam substitusi: R–F, R–Cl, R–Br, R–I. Jelaskan. ||| R–I > R–Br > R–Cl ≫ R–F; ikatan makin lemah dan X⁻ makin stabil
+Mengapa diklorometana berada di lapisan bawah corong pisah, sedangkan dietil eter di lapisan atas? ||| massa jenis CH₂Cl₂ (1,33) > air > eter
+Mengapa ikatan C–F sering dipakai dalam obat? ||| sangat kuat dan hampir tidak bereaksi
+Mengapa titik didih bromoetana (38 °C) jauh di atas etana (−89 °C)? ||| Br menambah massa, gaya dispersi, dan dipol–dipol
+
+## Subbab 7.2: Halogenasi radikal alkana: reaksi berantai dan selektivitas
+
+Hitung persentase 1-, 2-, dan 3-kloropentana pada klorinasi radikal pentana. ||| 22%; 52%; 26%
+Hitung persentase produk brominasi radikal pentana. ||| 1-bromo 1%; 2-bromo 66%; 3-bromo 33%
+Hitung persentase produk klorinasi dan brominasi 2,3-dimetilbutana. ||| Cl: 1-kloro 55%, 2-kloro 45%; Br: 2-bromo 99,6%
+@radsel [P] Klorinasi radikal metilsikloheksana dapat memberi lima produk monoklorin (abaikan stereoisomer). Sebutkan dan hitung persentasenya. Mengapa reaksi ini tidak berguna untuk sintesis? ||| (klorometil)sikloheksana 7%; 1-kloro-1-metil 11%; 1-kloro-2-metil 33%; 1-kloro-3-metil 33%; 1-kloro-4-metil 16%; campuran sulit dipisahkan
+Alkana C₅H₁₂ mana yang memberi hanya satu produk monoklorin? ||| 2,2-dimetilpropana
+Tulis mekanisme brominasi radikal 2-metilpropana (inisiasi, dua propagasi, satu terminasi). ||| Br₂ → 2Br·; Br· + (CH₃)₃CH → HBr + (CH₃)₃C·; (CH₃)₃C· + Br₂ → (CH₃)₃CBr + Br·; terminasi 2Br· → Br₂
+Mengapa jumlah atom H harus diperhitungkan, bukan hanya reaktivitas per H? ||| peluang tumbukan sebanding dengan jumlah H
+Berapa selisih energi aktivasi yang setara dengan selektivitas 82:1 pada 125 °C? ||| 14,6 kJ mol⁻¹
+
+## Subbab 7.3: Brominasi alilik dan benzilik dengan NBS
+
+Ramalkan produk NBS (cahaya) dengan: (a) siklopentena; (b) etilbenzena; (c) propena. ||| (a) 3-bromosiklopentena; (b) (1-bromoetil)benzena; (c) 3-bromopropena
+Mengapa NBS menjaga konsentrasi Br₂ tetap rendah? ||| bereaksi dengan HBr yang terbentuk menghasilkan Br₂ sedikit demi sedikit
+Mengapa C–H aromatik pada toluena tidak dibrominasi oleh NBS? ||| C–H aril kuat; radikal aril tidak distabilkan resonansi
+@nbs [P] Pent-1-ena bereaksi dengan NBS. Gambar struktur penyumbang radikal alilik dan semua produk yang mungkin. Mana yang diharapkan paling banyak? ||| 3-bromopent-1-ena dan 1-bromopent-2-ena (E dan Z); 1-bromopent-2-ena (C=C lebih tersubstitusi)
+Mengapa BDE C–H alilik (± 370 kJ mol⁻¹) jauh lebih kecil daripada C–H tersier (400 kJ mol⁻¹)? ||| radikal alilik distabilkan resonansi
+
+## Subbab 7.4: Substitusi nukleofilik: gambaran umum
+
+Tulis produk 1-bromopropana dengan: NaOH, NaOCH₃, NaCN, NaN₃, NaSH, NaI. ||| propan-1-ol; 1-metoksipropana; butananitril; 1-azidopropana; propana-1-tiol; 1-iodopropana
+Nukleofil apa yang diperlukan untuk membuat dietil eter dari bromoetana? ||| CH₃CH₂O⁻ (natrium etoksida)
+Apa beda hukum laju SN1 dan SN2? ||| SN1: k[RX]; SN2: k[RX][Nu]
+Rancang sintesis pentananitril dari bahan berkarbon empat. ||| 1-bromobutana + NaCN
+
+## Subbab 7.5: Mekanisme SN2: kinetika dan stereokimia
+
+Bila [RX] dikalikan tiga dan [Nu⁻] dikalikan dua dalam reaksi SN2, berapa kali laju berubah? ||| 6 kali
+Gambar produk (S)-2-bromopentana dengan NaSCH₃ dan tentukan konfigurasinya. ||| (R)-2-(metiltio)pentana
+Mengapa nukleofil SN2 menyerang dari belakang? ||| cuping besar σ* C–LG di belakang; tolakan gugus pergi di depan
+@inv [P] trans-1-Kloro-3-metilsikloheksana bereaksi dengan NaI dalam aseton. Apa produknya? Bila bahan awalnya (1R,3R), tentukan konfigurasi produk. ||| cis-1-iodo-3-metilsikloheksana; (1S,3R)
+Apakah inversi Walden selalu mengubah R menjadi S? Jelaskan. ||| tidak; bergantung pada urutan prioritas gugus baru
+Gambar keadaan transisi SN2 untuk CH₃Br + CN⁻. ||| NC···C···Br segaris; tiga H dalam satu bidang
+(R)-2-Iodobutana dalam aseton dengan NaI yang mengandung ¹³¹I radioaktif kehilangan aktivitas optiknya dua kali lebih cepat daripada laju masuknya iodin radioaktif. Jelaskan. ||| setiap SN2 membalik konfigurasi; satu inversi menghapus rotasi dua molekul (R dan S saling meniadakan)
+
+## Subbab 7.6: Faktor yang mempengaruhi SN2
+
+Urutkan laju SN2: 1-bromo-2,2-dimetilpropana, 1-bromobutana, 2-bromobutana, bromometana. ||| bromometana > 1-bromobutana > 2-bromobutana > 1-bromo-2,2-dimetilpropana
+Urutkan nukleofilisitas dalam metanol: F⁻, Cl⁻, Br⁻, I⁻. Bagaimana urutannya dalam DMSO? ||| metanol: I⁻ > Br⁻ > Cl⁻ > F⁻; DMSO: F⁻ > Cl⁻ > Br⁻ > I⁻ (mengikuti kebasaan)
+Mana nukleofil yang lebih kuat: (a) OH⁻ atau H₂O; (b) CH₃S⁻ atau CH₃O⁻ (dalam metanol); (c) NH₃ atau NH₂⁻? ||| (a) OH⁻; (b) CH₃S⁻; (c) NH₂⁻
+Sebutkan tiga pelarut aprotik polar dan jelaskan mengapa mempercepat SN2. ||| DMSO, DMF, asetonitril (aseton); tidak mensolvasi anion
+@pelarut [P] Laju relatif N₃⁻ + 1-bromobutana: metanol 1, air 7, DMSO 1300, DMF 2800, asetonitril 5000. Jelaskan mengapa pelarut aprotik polar jauh lebih cepat walaupun air lebih polar daripada metanol. ||| pelarut protik membungkus N₃⁻ dengan ikatan hidrogen; aprotik membiarkannya telanjang
+Mengapa *tert*-butoksida adalah basa kuat tetapi nukleofil buruk? ||| besar, sulit menjangkau karbon dari belakang
+Mengapa neopentil bromida hampir tidak bereaksi SN2 walaupun primer? ||| gugus tert-butil di karbon β menghalangi
+Urutkan kemampuan gugus pergi: TsO⁻, OH⁻, Cl⁻, I⁻, H₂O. ||| TsO⁻ ≈ I⁻ > Cl⁻ ≈ H₂O ≫ OH⁻
+
+## Subbab 7.7: Mekanisme SN1: kinetika, karbokation, dan rasemisasi
+
+Bila [RX] digandakan dan [Nu] dijadikan separuh dalam reaksi SN1, apa yang terjadi pada laju? ||| laju dua kali
+Tulis mekanisme lengkap solvolisis 2-bromo-2-metilpropana dalam metanol. ||| lepas Br⁻; CH₃OH menyerang C⁺; transfer proton
+Mengapa SN1 pada pusat kiral memberi rasemisasi? ||| karbokation datar diserang dari dua sisi
+@ras [P] (S)-3-Bromo-3-metilheksana mengalami hidrolisis SN1 dan menghasilkan 60% (R)-alkohol dan 40% (S)-alkohol. Jelaskan mengapa tidak 50:50, dan hitung ee produk. ||| pasangan ion menghalangi sisi depan; ee 20% (R)
+Apa yang dimaksud solvolisis? ||| pelarut bertindak sebagai nukleofil
+Gambar diagram energi SN1 dan tandai langkah penentu laju. ||| langkah pembentukan karbokation tertinggi
+
+## Subbab 7.8: Faktor SN1 dan penataan ulang
+
+Urutkan laju SN1: bromometana, 2-bromo-2-metilpropana, 2-bromopropana, benzil bromida. ||| 2-bromo-2-metilpropana ≈ benzil bromida > 2-bromopropana > bromometana
+Mengapa pelarut protik polar mempercepat SN1? ||| menstabilkan kation dan anion yang terbentuk
+Mengapa konsentrasi nukleofil tidak mempengaruhi laju SN1? ||| tidak terlibat dalam langkah lambat
+@tata [P] 1-Bromo-2,2-dimetilpropana dipanaskan lama dalam etanol dan menghasilkan 2-etoksi-2-metilbutana. Usulkan mekanisme. ||| ionisasi lambat (dibantu geseran metil serempak) menjadi C⁺ tersier; etanol menyerang; transfer proton
+Ramalkan produk SN1 utama 3-bromo-2-metilbutana dalam air. ||| 2-metilbutan-2-ol (setelah geseran hidrida)
+Mengapa 3-klorobut-1-ena dalam etanol memberi dua eter? ||| karbokation alilik diserang di C1 dan C3
+Mengapa benzil klorida bereaksi cepat baik lewat SN1 maupun SN2? ||| karbokation benzilik stabil; karbon primer terbuka
+
+## Subbab 7.9: Eliminasi E2: kinetika, aturan Zaitsev, dan basa besar
+
+Tulis mekanisme E2 2-bromopropana dengan NaOEt. ||| basa menarik H β; C–H menjadi π; Br⁻ lepas; propena
+Tuliskan semua alkena dari E2 2-bromo-2-metilbutana dan tentukan produk Zaitsev dan Hofmann. ||| 2-metilbut-2-ena (Zaitsev); 2-metilbut-1-ena (Hofmann)
+Ramalkan alkena utama dari 2-bromo-3-metilbutana dengan (a) NaOCH₃; (b) KOC(CH₃)₃. ||| (a) 2-metilbut-2-ena; (b) 3-metilbut-1-ena
+@zait [P] Mengapa produk Zaitsev lebih disukai dengan basa kecil? Hubungkan dengan kestabilan alkena dan keadaan transisi E2. ||| keadaan transisi E2 bersifat setengah ikatan rangkap; alkena lebih tersubstitusi lebih stabil
+Mengapa 1-bromo-2-metilpropana dengan KOC(CH₃)₃ memberi 2-metilpropena, bukan eter? ||| basa besar tidak menyerang C α; mengambil H β
+Apa hukum laju E2? ||| k[RX][basa]
+
+## Subbab 7.10: Stereokimia E2: anti-periplanar
+
+Apa yang dimaksud anti-periplanar? ||| H dan gugus pergi sebidang dengan sudut torsi 180°
+Mengapa E2 bersifat stereospesifik? ||| geometri alkena ditentukan konformasi anti-periplanar
+Pada sikloheksana, posisi apa yang harus ditempati gugus pergi untuk E2? ||| aksial (dengan H β aksial)
+@e2sik [P] cis-1-Kloro-2-metilsikloheksana dan trans-1-kloro-2-metilsikloheksana direaksikan dengan NaOEt. Ramalkan alkena utama dari masing-masing. Mengapa isomer trans tidak memberi produk Zaitsev? ||| cis: 1-metilsikloheksena (Zaitsev); trans: 3-metilsikloheksena; pada trans, bila Cl aksial maka CH₃ juga aksial sehingga H di C2 ekuatorial
+Mengapa neomentil klorida bereaksi E2 jauh lebih cepat daripada mentil klorida? ||| Cl aksial dalam kursi stabil dengan dua H β aksial
+Ramalkan alkena dari (1S,2S)-1-bromo-1,2-difenilpropana dengan E2. ||| (Z)-1,2-difenilprop-1-ena
+Mengapa trans-1-bromo-4-*tert*-butilsikloheksana bereaksi E2 sangat lambat? ||| Br terkunci ekuatorial
+
+## Subbab 7.11: Eliminasi E1
+
+Tulis mekanisme E1 2-kloro-2-metilpropana dalam etanol panas. ||| lepas Cl⁻; etanol menarik H β; 2-metilpropena
+Apa persamaan langkah pertama SN1 dan E1? ||| sama: pembentukan karbokation
+Mengapa suhu tinggi mendukung E1 dibandingkan SN1? ||| eliminasi mempunyai ΔS° lebih positif
+@e1 [P] 3,3-Dimetilbutan-2-ol dipanaskan dalam asam fosfat dan menghasilkan 2,3-dimetilbut-2-ena sebagai produk utama. Jelaskan dengan E1 dan penataan ulang. ||| protonasi, lepas air, C⁺ sekunder, geseran metil, C⁺ tersier, lepas H⁺ (Zaitsev)
+Apakah E1 memerlukan geometri anti-periplanar? Mengapa? ||| tidak; karbokation datar
+Mengapa E1 dan SN1 sulit dipisahkan? ||| berbagi intermediet karbokation
+
+## Subbab 7.12: Substitusi atau eliminasi: peta keputusan
+
+Ramalkan mekanisme dan produk utama: (a) CH₃CH₂CH₂Br + NaCN, DMSO; (b) (CH₃)₃CBr + NaOH, etanol, panas; (c) (CH₃)₂CHBr + CH₃COONa, DMF; (d) (CH₃)₃CCl + H₂O, 25 °C. ||| (a) SN2, butananitril; (b) E2, 2-metilpropena; (c) SN2, isopropil asetat; (d) SN1, 2-metilpropan-2-ol (E1 minor)
+Ramalkan mekanisme dan produk: (a) bromosikloheksana + NaOCH₃, CH₃OH, panas; (b) bromosikloheksana + NaSCH₃, DMF; (c) 1-bromobutana + KOC(CH₃)₃. ||| (a) E2, sikloheksena; (b) SN2, metil sikloheksil sulfida; (c) E2, but-1-ena
+@peta [P] Rancang kondisi untuk mengubah 2-bromobutana menjadi (a) butan-2-ol dengan inversi bersih; (b) but-2-ena; (c) but-1-ena. ||| (a) SN2 dengan nukleofil oksigen lunak, misalnya CH₃COO⁻ dalam DMF lalu hidrolisis ester; (b) NaOEt, panas; (c) KOC(CH₃)₃
+Mengapa substrat metil tidak pernah mengalami eliminasi? ||| tidak ada H β
+Mengapa substrat sekunder disebut "daerah abu-abu"? ||| keempat mekanisme mungkin, bergantung pereaksi dan pelarut
+Bila kamu menginginkan substitusi dari substrat tersier, kondisi apa yang paling baik? ||| nukleofil lemah, pelarut protik, suhu rendah (SN1)
+
+## Subbab 7.13: Gugus pergi yang dibuat: tosilat dan mesilat
+
+Mengapa –OH harus diubah sebelum substitusi? ||| OH⁻ gugus pergi buruk (basa kuat)
+Tulis pembuatan tosilat dari etanol. Atom mana yang diserang oksigen alkohol? ||| CH₃CH₂OH + TsCl, piridina → CH₃CH₂OTs; atom S
+@tos [P] (R)-Oktan-2-ol diubah menjadi produk melalui dua jalur: (A) TsCl, piridina, lalu NaBr dalam DMF; (B) HBr pekat. Bandingkan stereokimia produk kedua jalur. ||| A: (S)-2-bromooktana (inversi bersih); B: sebagian rasemisasi lewat karbokation (SN1) dengan kemungkinan penataan ulang
+Mengapa piridina dipakai dalam pembuatan tosilat? ||| menetralkan HCl
+Apa produk (S)-butan-2-il mesilat dengan NaN₃? ||| (R)-2-azidobutana
+
+## Subbab 7.14: Organologam dari alkil halida: Grignard, organolitium, dan kuprat Gilman
+
+Tulis pembuatan pereaksi Grignard dari bromobenzena. Mengapa pelarut harus kering? ||| C₆H₅Br + Mg → C₆H₅MgBr dalam eter; air menghancurkannya
+Apa produk CH₃CH₂CH₂MgBr + D₂O? ||| CH₃CH₂CH₂D
+Mengapa pereaksi Grignard tidak dapat dibuat dari 4-bromobutan-1-ol atau 3-bromopropanoat? ||| ada H asam (O–H) yang menghancurkannya
+@gilman [P] Rancang sintesis 2-metilpentana memakai kopling Gilman dari alkil halida berkarbon tiga atau kurang. Mana yang sebaiknya menjadi kuprat dan mana yang menjadi alkil halida? ||| litium diisopropilkuprat, [(CH₃)₂CH]₂CuLi, + 1-bromopropana; gugus bercabang di kuprat, alkil halida primer
+Tulis pembuatan litium dimetilkuprat dan reaksinya dengan 1-iodopentana. ||| 2 CH₃Li + CuI → (CH₃)₂CuLi; + C₅H₁₁I → heksana
+Mengapa karbon pada R–MgX bersifat nukleofilik? ||| Mg kurang elektronegatif; C δ−
+
+## Subbab 7.15: Alkil halida di lingkungan dan dalam biologi
+
+Tulis dua langkah propagasi penghancuran ozon oleh radikal klorin. ||| Cl· + O₃ → ClO· + O₂; ClO· + O → Cl· + O₂
+Mengapa HFC tidak merusak ozon? ||| tidak mengandung klorin
+Jelaskan mengapa SAM adalah pereaksi metilasi yang aman bagi sel. ||| hanya bereaksi bila diarahkan enzim; gugus pergi netral
+@sam [P] Gambar mekanisme metilasi norepinefrina (pada nitrogen amina) oleh SAM. Mekanisme apa ini, dan mengapa karbon metil SAM adalah elektrofil yang baik? ||| SN2; karbon metil tidak terhalang, gugus pergi sulfonium menjadi sulfida netral
+Mengapa alkil halida kecil seperti CH₃I berbahaya? ||| elektrofil SN2 kuat, mengalkilasi DNA

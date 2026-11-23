@@ -1,0 +1,290 @@
+## Subbab 17.1: Peta metode
+
+> Satuan atom dipakai kecuali disebut lain; 1 $E_h$ = 2625,50 kJ/mol = 627,51 kkal/mol = 27,2114 eV = 219 474,6 cm⁻¹; 1 $ea_0$ = 2,5417 D. Program pendamping bab ini (folder kode) dapat dipakai untuk soal bertanda "program". Soal dikelompokkan menurut tingkat: **dasar**, **menengah**, dan **tantangan ★**. Soal bertanda **[P]** dibahas di akhir bab.
+
+**Dasar**
+
+Jelaskan arti notasi "MP2/6-31G*//HF/6-31G*". ||| energi MP2/6-31G* pada geometri yang dioptimasi dengan HF/6-31G*
+Berapa kali lebih lama perhitungan CCSD ($N^6$) bila molekulnya tiga kali lebih besar? ||| $3^6 = 729$ kali
+Nyatakan 1 kkal/mol dalam m$E_h$ dan kJ/mol. ||| 1,594 m$E_h$; 4,184 kJ/mol
+
+**Menengah**
+
+Hitung banyaknya determinan CI penuh untuk CH₄ (9 orbital STO-3G, 5α5β) dan N₂ (10 orbital, 7α7β). ||| 15 876; 14 400
+
+**Tantangan ★**
+
+★ Bila kecepatan komputer berlipat dua setiap dua tahun, berapa tahun diperlukan agar CCSD(T) dapat menangani molekul dua kali lebih besar dalam waktu yang sama? ||| $2^7 = 128$, tujuh kali lipat dua: 14 tahun
+
+## Subbab 17.2: Hartree–Fock untuk molekul
+
+**Dasar**
+
+Tuliskan energi HF atom Li ($1s^2 2s$) dengan integral $h$, $J$, dan $K$. ||| $2h_{1s} + h_{2s} + J_{1s1s} + 2J_{1s2s} - K_{1s2s}$
+Batas HF He memberi $\varepsilon_{1s} = -0{,}91796$ dan $E = -2{,}86168\ E_h$. Tentukan $h$ dan $J$ orbital 1s. ||| $h = -1{,}94372$; $J = 1{,}02576\ E_h$
+Berapa nilai tepat $\langle\hat S^2\rangle$ untuk doblet, triplet, dan kuartet? ||| 0,75; 2,00; 3,75
+
+**Menengah**
+
+Tunjukkan bahwa $K_{ij} = 0$ bila $\chi_i$ dan $\chi_j$ berspin berlawanan. ||| integral spin $\langle\alpha|\beta\rangle = 0$ muncul dua kali
+
+**Tantangan ★**
+
+@ekt ★ [P] Turunkan ungkapan energi kulit tertutup (17.4) dari (17.3) dengan mengintegrasikan atas spin. ||| lihat pembahasan
+
+## Subbab 17.3: Persamaan Roothaan dan prosedur SCF
+
+**Dasar**
+
+Hitung banyaknya integral dua elektron berbeda untuk 13 fungsi basis. ||| 4186
+H₂O dengan 6-31G* (19 fungsi): berapa orbital molekul, berapa terisi, berapa virtual? ||| 19; 5; 14
+Tunjukkan bahwa $\mathbf X = \mathbf S^{-1/2}$ memenuhi $\mathbf X^\dagger\mathbf S\mathbf X = \mathbf 1$ untuk $\mathbf S$ simetris positif. ||| $\mathbf S^{-1/2}\mathbf S\mathbf S^{-1/2} = \mathbf 1$
+
+**Menengah**
+
+(Program) Dengan program SCF di subbab 17.3, hitung energi H₂ dan energi orbital pada $R = 1{,}0$; 1,4; dan 2,0 bohr. Di jarak mana energinya terendah? ||| $-1{,}0660$; $-1{,}1167$; $-1{,}0492\ E_h$; $\varepsilon_1 = -0{,}676$; $-0{,}578$; $-0{,}466$; terendah di sekitar 1,4
+
+**Tantangan ★**
+
+@eel ★ [P] Dengan (17.8) dan uraian LCAO, turunkan ungkapan energi (17.14). ||| lihat pembahasan
+
+## Subbab 17.4: Teorema Koopmans dan energi ionisasi
+
+**Dasar**
+
+He/STO-3G memberi $\varepsilon_{1s} = -0{,}8760\ E_h$. Taksir energi ionisasinya dan bandingkan dengan 24,59 eV. ||| 23,84 eV; terlalu kecil 0,75 eV karena basis minimal
+NH₃/HF/6-31G* memberi $\varepsilon_\text{HOMO} = -0{,}4212\ E_h$. Taksir EI vertikal dan bandingkan dengan 10,85 eV. ||| 11,46 eV; +0,6 eV
+CH₄/HF/6-31G* memberi $-\varepsilon$ = 14,84 eV ($t_2$) dan 25,67 eV ($a_1$); percobaan sekitar 14,4 dan 23,0 eV. Hitung galatnya. ||| +0,4 dan +2,7 eV
+
+**Menengah**
+
+Untuk H₂O/6-31G**, Koopmans 13,53 eV, ΔSCF 10,82 eV, percobaan 12,62 eV. Taksir energi relaksasi dan selisih korelasi. ||| relaksasi 2,71 eV; korelasi 1,80 eV
+
+**Tantangan ★**
+
+★ LUMO H₂O/6-31G** berenergi $+0{,}2121\ E_h$. Apa ramalan Koopmans untuk afinitas elektron, dan mengapa tidak dapat dipercaya? ||| $-5{,}77$ eV (anion tak terikat); relaksasi dan korelasi searah, energi virtual bergantung basis
+
+## Subbab 17.5: Fungsi basis
+
+**Dasar**
+
+Hitung banyaknya fungsi basis NH₃ dengan 6-31G** dan etanol dengan cc-pVDZ. ||| 30; 72
+Jelaskan setiap bagian notasi 6-311++G(2d,p). ||| inti 6 primitif; valensi triple-zeta (3,1,1); difus pada atom berat dan H; dua set d pada atom berat, satu set p pada H
+Berapa fungsi Gauss primitif dalam basis STO-3G untuk atom oksigen? ||| $5 \times 3 = 15$
+
+**Menengah**
+
+Ekstrapolasikan energi korelasi MP2 H₂O dari cc-pVDZ ($-0{,}2016$) dan cc-pVTZ ($-0{,}2613\ E_h$) dengan (17.23), lalu bandingkan dengan ekstrapolasi TQ ($-0{,}2956$). ||| $-0{,}2864\ E_h$; meleset 9,2 m$E_h$
+Untuk dimer air/6-31G: $E_{AB} = -151{,}979701$; $E_A(AB) = -75{,}984441$; $E_B(AB) = -75{,}985129$; $E_A = E_B = -75{,}983997\ E_h$. Hitung energi interaksi dengan dan tanpa counterpoise. ||| $-6{,}36$ dan $-7{,}35$ kkal/mol
+
+**Tantangan ★**
+
+@gauss1 ★ [P] Untuk atom H dengan fungsi uji $e^{-\alpha r^2}$, tunjukkan $E(\alpha) = \tfrac32\alpha - 2\sqrt{2\alpha/\pi}$ dan tentukan $\alpha$ optimum dan energinya. ||| $\alpha = 8/9\pi$; $E = -4/3\pi = -0{,}4244\ E_h$
+
+## Subbab 17.6: SCF untuk H₂O
+
+**Dasar**
+
+Berapa orbital molekul bersimetri $a_1$, $b_1$, dan $b_2$ dalam H₂O/STO-3G? ||| 4; 1; 2
+Tuliskan konfigurasi elektron keadaan dasar H₂O. ||| $(1a_1)^2(2a_1)^2(1b_2)^2(3a_1)^2(1b_1)^2$
+H₂O/6-31G* memberi $T = 75{,}8215$ dan $E = -76{,}0105\ E_h$. Hitung $-V/T$. ||| 2,0025
+
+**Menengah**
+
+Dengan koefisien orbital $1b_2$ (subbab 17.6) dan $S(\text{2p}_y, \text{H}) = \pm0{,}3111$, hitung populasi Mulliken oksigen dalam orbital ini. ||| 0,536 per elektron; 1,07 untuk dua elektron
+
+**Tantangan ★**
+
+★ Dari $\varepsilon_\text{HOMO} = -0{,}4971$ dan $\varepsilon_\text{LUMO} = +0{,}2121\ E_h$ (6-31G**), hitung kekerasan kimia $\eta = \tfrac12(\varepsilon_\text{LUMO} - \varepsilon_\text{HOMO})$ dan potensial kimia $\mu = \tfrac12(\varepsilon_\text{HOMO} + \varepsilon_\text{LUMO})$ dalam eV. ||| $\eta = 9{,}65$ eV; $\mu = -3{,}88$ eV
+
+## Subbab 17.7: Analisis populasi dan potensial elektrostatik
+
+**Dasar**
+
+Untuk HeH⁺, $(\mathbf P\mathbf S)_{\text{He}} = 1{,}7275$. Hitung muatan Mulliken kedua atom. ||| He +0,27; H +0,73
+Nyatakan momen dipol 0,7265 $ea_0$ dalam debye. ||| 1,85 D
+Mengapa muatan Löwdin biasanya lebih kecil daripada muatan Mulliken untuk ikatan polar? ||| ortogonalisasi menyebar rapat tumpang tindih lebih merata
+
+**Menengah**
+
+Hitung momen dipol NH₃ model muatan titik dengan $q_\text{H} = +0{,}331$, $r = 1{,}012$ Å, $\angle\text{HNH} = 106{,}67°$. Bandingkan dengan 1,95 D (HF/6-31G*). ||| $z_\text{H} = 0{,}721$ bohr; 1,82 D
+
+**Tantangan ★**
+
+@dipol ★ [P] Tunjukkan bahwa momen dipol molekul netral tidak bergantung pada pilihan titik asal, sedangkan momen dipol ion bergantung. ||| $\boldsymbol\mu' = \boldsymbol\mu - Q\mathbf a$
+
+## Subbab 17.8: OM terlokalisasi
+
+**Dasar**
+
+Untuk dua orbital ortonormal $\psi_1$, $\psi_2$ dan rotasi dengan sudut $\theta$ sembarang, tunjukkan bahwa $|\psi_1'|^2 + |\psi_2'|^2 = |\psi_1|^2 + |\psi_2|^2$. ||| suku silang meniadakan diri
+Besaran teramati apa yang berubah bila orbital kanonik diganti orbital terlokalisasi? ||| tidak ada
+Berapa orbital terlokalisasi inti, ikatan, dan pasangan bebas yang diharapkan untuk CH₃OH? ||| 2 inti, 5 ikatan, 2 pasangan bebas (9 = 18/2)
+
+**Menengah**
+
+Dari energi kanonik CH₄ ($a_1$: $-0{,}910$; $t_2$: $-0{,}519\ E_h$), hitung unsur diagonal dan unsur kopling matriks Fock dalam basis empat LMO setara. ||| diagonal $-0{,}617$; kopling $-0{,}098\ E_h$
+
+**Tantangan ★**
+
+★ Dengan $\psi_\pm = (\psi_{3a_1} \pm \psi_{1b_1})/\sqrt2$ sebagai pendekatan pasangan bebas H₂O/STO-3G ($\varepsilon_{3a_1} = -0{,}4530$; $\varepsilon_{1b_1} = -0{,}3912$), hitung unsur diagonal dan kopling matriks Fock keduanya. ||| diagonal $-0{,}4221$; kopling $-0{,}0309\ E_h$
+
+## Subbab 17.9: Optimasi geometri dan frekuensi getaran
+
+**Dasar**
+
+Tunjukkan bahwa langkah Newton dari titik mana pun mencapai minimum $E = \tfrac12k(x - x_0)^2$ dalam satu langkah. ||| $\Delta x = -k(x - x_0)/k$
+Berapa banyak mode getaran C₆H₆, CO₂, dan HCN? ||| 30; 4; 4
+Frekuensi C=O formaldehida HF/6-31G* sekitar 2028 cm⁻¹. Kalikan dengan faktor 0,8953 dan bandingkan dengan 1746 cm⁻¹. ||| 1816 cm⁻¹; masih 70 cm⁻¹ terlalu tinggi
+
+**Menengah**
+
+Hitung ZPE H₂O dari frekuensi HF/6-31G* (1826, 4071, 4190 cm⁻¹) dengan dan tanpa faktor skala ZPE 0,9135. ||| 60,3 dan 55,1 kJ/mol
+
+**Tantangan ★**
+
+@kH2 ★ [P] Dari $d^2E/dR^2 = 0{,}5729\ E_h$/bohr² (H₂, HF/STO-3G), hitung tetapan gaya dalam N/m dan frekuensi harmonik; bandingkan dengan nilai percobaan 575 N/m dan 4401 cm⁻¹. ||| 892 N/m; 5481 cm⁻¹
+
+## Subbab 17.10: Energi korelasi dan interaksi konfigurasi
+
+**Dasar**
+
+Hitung energi korelasi He dari $E_\text{HF}^\text{batas} = -2{,}86168$ dan $E_\text{tepat} = -2{,}90372\ E_h$, dalam kJ/mol. ||| $-0{,}04204\ E_h = -110{,}4$ kJ/mol
+Hitung banyaknya determinan CISD (Ms = 0) untuk H₂O/STO-3G (5 orbital terisi, 2 virtual). ||| $1 + 20 + 120 = 141$
+Hitung koreksi Davidson untuk $c_0 = 0{,}95$ dan $E^\text{kor}_\text{CISD} = -0{,}250\ E_h$. ||| $-0{,}0244\ E_h$
+
+**Menengah**
+
+Mengapa pecahan energi korelasi yang dipulihkan CISD menurun bila banyaknya molekul yang tidak berinteraksi bertambah? ||| kuadrupel tak terhubung dibuang
+
+**Tantangan ★**
+
+@cilim ★ [P] Untuk H₂ dalam basis minimal pada $R \to \infty$, tunjukkan bahwa $H_{00} = H_{DD}$, bahwa $c_D = -c_0$, dan bahwa CI penuh memberi tepat $2E(\text{H})$, sedangkan RHF terlalu tinggi $\tfrac12(aa|aa)$. ||| lihat pembahasan
+
+## Subbab 17.11: Teori perturbasi Møller–Plesset
+
+**Dasar**
+
+Untuk H₂/STO-3G pada $R = 2{,}0$ bohr: $\varepsilon_1 = -0{,}4665$, $\varepsilon_2 = 0{,}4209$, $K_{12} = 0{,}2005\ E_h$. Hitung $E^{(2)}$ dan bandingkan dengan korelasi FCI ($-0{,}0393\ E_h$). ||| $-0{,}0227\ E_h$; 58%
+Mengapa $E^{(2)}$ selalu negatif untuk keadaan dasar? ||| pembilang positif, penyebut negatif
+Hitung SCS-MP2 untuk H₂O/STO-3G dengan $E_\text{os} = -0{,}033468$ dan $E_\text{ss} = -0{,}002025\ E_h$. ||| $-0{,}04084\ E_h$
+
+**Menengah**
+
+Berapa kali lebih lama MP2 dan CCSD bila banyaknya fungsi basis dilipatduakan? ||| 32 dan 64 kali
+
+**Tantangan ★**
+
+@mp01 ★ [P] Tunjukkan bahwa $E^{(0)} + E^{(1)} = E_\text{HF}$ dalam pembagian Møller–Plesset. ||| lihat pembahasan
+
+## Subbab 17.12: Metode coupled-cluster dan metode komposit
+
+**Dasar**
+
+Uraikan $e^{\hat T}$ dengan $\hat T = \hat T_1 + \hat T_2$ sampai orde tiga dan tunjukkan suku-suku yang menghasilkan eksitasi rangkap tiga. ||| $\hat T_1\hat T_2$ dan $\tfrac16\hat T_1^3$
+Berapa kali lebih lama CCSD(T) bila molekul 1,5 kali lebih besar? ||| 17 kali
+Apa yang ditunjukkan diagnostik T1 yang besar (> 0,02)? ||| korelasi statik; satu determinan tidak memadai
+
+**Menengah**
+
+Taksir CCSD/6-31G* untuk H₂O dari CCSD/6-31G ($-0{,}135322$), MP2/6-31G ($-0{,}128796$), dan MP2/6-31G* ($-0{,}188472\ E_h$), lalu bandingkan dengan nilai sebenarnya $-0{,}197266\ E_h$. ||| $-0{,}194998$; galat 2,3 m$E_h$
+
+**Tantangan ★**
+
+★ Model $N$ molekul H₂ tak berinteraksi dalam basis minimal: CISD mencampur keadaan dasar dengan $N$ eksitasi ganda (masing-masing $\Delta = 1{,}5773$ di atas, kopling $K = 0{,}18126\ E_h$), sehingga $E^\text{kor}_\text{CISD} = \tfrac12[\Delta - \sqrt{\Delta^2 + 4NK^2}]$. Hitung pecahan korelasi tepat yang dipulihkan untuk $N = 2$, 10, dan 100. ||| 98,8%; 90,6%; 57,8%
+
+## Subbab 17.13: Teori fungsional kerapatan
+
+**Dasar**
+
+Hitung $C_F$ dan $C_x$. ||| 2,8712; 0,7386
+Energi kinetik Thomas–Fermi atom H 0,289 $E_h$. Berapa untuk ion mirip hidrogen He⁺, dan berapa nilai tepatnya? ||| $Z^2 \times 0{,}289 = 1{,}157$; tepat 2,0
+Rumus Dirac tak terpolarisasi memberi $-0{,}2127\ E_h$ untuk kerapatan atom H. Berapa bila spin terpolarisasi penuh (faktor $2^{1/3}$)? ||| $-0{,}268\ E_h$ (tepat $-0{,}3125$)
+
+**Menengah**
+
+Untuk He/LDA: $\sum\varepsilon_i = -1{,}14052$, $J = 1{,}99586$, $E_{xc} = -0{,}97282$, $E = -2{,}83445\ E_h$. Hitung $\int v_{xc}\rho\,d\mathbf r$ dari (17.49). ||| $-1{,}2748\ E_h$
+
+**Tantangan ★**
+
+@xc1 ★ [P] Tunjukkan bahwa untuk sistem satu elektron fungsional tepat harus memenuhi $E_{xc}[\rho] = -J[\rho]$. ||| lihat pembahasan
+
+## Subbab 17.14: Fungsional LDA, GGA, hibrida
+
+**Dasar**
+
+Hitung $F_x^\text{PBE}$ pada $s = 1{,}5$. ||| 1,306
+Berapa persen pertukaran HF dalam B3LYP, PBE0, dan B2PLYP? ||| 20%; 25%; 53%
+Anak tangga Yakub mana yang memakai rapat energi kinetik $\tau$? ||| meta-GGA
+
+**Menengah**
+
+Untuk CAM-B3LYP ($\omega = 0{,}33$ bohr⁻¹), berapa $\operatorname{erf}(\omega r_{12})$ pada $r_{12} = 2$ bohr? ||| 0,649
+
+**Tantangan ★**
+
+★ (Program) Hitung energi pertukaran PBE atom H dari kerapatan tepat, memakai penskalaan spin $E_x[\rho_\uparrow, 0] = \tfrac12E_x[2\rho_\uparrow]$. Bandingkan dengan LSDA ($-0{,}268$) dan nilai tepat ($-0{,}3125\ E_h$). ||| $-0{,}306\ E_h$
+
+## Subbab 17.15: Interaksi nonkovalen dan efek relativistik
+
+**Dasar**
+
+Hitung energi Born untuk Mg²⁺ ($a = 1{,}45$ Å, $\varepsilon_r = 78{,}4$). ||| $-1892$ kJ/mol
+Selisih energi bebas deprotonasi dua asam 17 kJ/mol. Berapa selisih pKa-nya pada 298 K? ||| 2,98
+Taksir $v/c$ dan penyusutan 1s untuk Pt ($Z = 78$) dan Pb (82). ||| 0,569 dan 17,8%; 0,598 dan 19,9%
+
+**Menengah**
+
+Dengan (17.54), hitung $C_6$ Ne–Ne ($\alpha = 2{,}67$, $I = 21{,}565$ eV) dan bandingkan dengan nilai teliti 6,38. ||| 4,24 satuan atom; 34% terlalu kecil
+
+**Tantangan ★**
+
+@born ★ [P] Turunkan persamaan Born (17.56) dari kerja pengisian bola bermuatan dalam vakum dan dalam dielektrik. ||| lihat pembahasan
+
+## Subbab 17.16: Reaksi kimia dan keadaan transisi
+
+**Dasar**
+
+Berapa perbandingan laju dua reaksi yang penghalangnya berbeda 5 kJ/mol pada 298 K? ||| 7,5
+Titik stasioner mempunyai nilai eigen Hessian (setelah proyeksi) 0,32; 0,15; $-0{,}04$. Apa jenisnya? ||| titik pelana orde pertama (keadaan transisi)
+Hitung $\kappa_\text{W}$ untuk 800i cm⁻¹ pada 298 K. ||| 1,62
+
+**Menengah**
+
+Berapa $\Delta G^\ddagger$ untuk reaksi orde pertama dengan waktu paruh 1 jam pada 298 K? ||| 94,2 kJ/mol
+
+**Tantangan ★**
+
+@rasio ★ [P] Dua jalur bersaing dari reaktan yang sama berbeda $\Delta\Delta G^\ddagger = 6$ kJ/mol. Hitung perbandingan produk kinetik pada 298 K dan 348 K, dan jelaskan mengapa hanya selisih penghalang yang diperlukan. ||| 11,3 dan 7,9
+
+## Subbab 17.17: Metode semiempiris dan mekanika molekul
+
+**Dasar**
+
+Hitung energi torsi etana pada $\phi = 45°$ dengan $V_3 = 12$ kJ/mol. ||| 1,76 kJ/mol
+Hitung energi Lennard-Jones pada $r = \sigma$ dan $r = 2\sigma$ (dalam $\varepsilon$). ||| 0; $-0{,}0615\varepsilon$
+Bandingkan banyaknya integral dua elektron HF/STO-3G (16 fungsi) dan integral NDDO valensi untuk etana. ||| 9316; 351
+
+**Menengah**
+
+Ikatan C–H AMBER: $k_r = 340$ kkal mol⁻¹ Å⁻². Berapa energi untuk meregangkan 0,02 Å? ||| 0,136 kkal/mol
+
+**Tantangan ★**
+
+★ Ikatan C=O AMBER mempunyai $k_r = 570$ kkal mol⁻¹ Å⁻² (bentuk tanpa $\tfrac12$). Hitung tetapan gaya fisika dalam N/m dan frekuensi harmonik dua benda C=O; bandingkan dengan pita keton 1715 cm⁻¹. ||| 792 N/m; 1400 cm⁻¹; medan gaya tidak dirancang untuk frekuensi
+
+## Subbab 17.18: Program kimia kuantum dan alur kerja
+
+**Dasar**
+
+Nyatakan 0,0100 $E_h$ dalam kJ/mol, kkal/mol, eV, dan cm⁻¹. ||| 26,25; 6,275; 0,2721; 2195
+Berapa multiplisitas keadaan dasar O₂, NO, CH₂, dan benzena? ||| 3; 2; 3; 1
+Berapa koreksi keadaan standar (1 atm → 1 M) untuk dimerisasi 2A → A₂ pada 298 K? ||| $-7{,}93$ kJ/mol
+
+**Menengah**
+
+Tiga konformer berenergi bebas relatif 0, 2, dan 5 kJ/mol. Hitung populasinya pada 298 K. ||| 63,3%; 28,3%; 8,4%
+
+**Tantangan ★**
+
+★ HF/6-31G* memberi $E(\text{H}_2\text{O}) = -76{,}010747$ dan $E(\text{H}_3\text{O}^+) = -76{,}289204\ E_h$ (geometri HF). Hitung afinitas proton elektronik, lalu taksir afinitas proton 298 K dengan koreksi ZPE sekitar $-30$ kJ/mol dan $\tfrac52RT$. Bandingkan dengan 691 kJ/mol. ||| 731,1 kJ/mol; sekitar 707 kJ/mol; terlalu besar sekitar 16 kJ/mol
