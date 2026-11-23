@@ -63,11 +63,37 @@ Kerjakan dulu semua latihan di kertas, baru cocokkan di sini. Kalau jawabanmu be
 5. 5/7
 6. 3/12 + 8/12 = 11/12
 7. 30 : 5 = 6, lalu 2 × 6 = 12 buku
-8. 3/5 = 6/10 = 0,6 = 60%
+8. Senilai, karena 2/5 = (2 × 3)/(5 × 3) = 6/15
 
-## Bab 6 · Aljabar Dasar {#kunci6}
+## Bab 6 · Bilangan Desimal dan Persen {#kunci6}
 
 [← kembali ke Bab 6](#bab6)
+
+1. 0,7 dan 0,23
+2. 4 perseratus = 0,04
+3. 0,06; 0,55; 0,6; 0,605 (tulis semua dengan 3 angka di belakang koma: 0,060; 0,550; 0,600; 0,605)
+4. 7,55
+5. 10,00 − 3,46 = 6,54
+6. 25 × 4 = 100, dua angka di belakang koma → 1,00 = 1
+7. 3/5 = 6/10 = 0,6 = 60%
+8. 25 : 100 × 80 = 20 soal
+
+## Bab 7 · Pola Bilangan {#kunci7}
+
+[← kembali ke Bab 7](#bab7)
+
+1. 26, 31 (+5)
+2. 54, 45 (−9)
+3. 162, 486 (×3)
+4. 16, 22 (selisihnya +1, +2, +3, +4, lalu +5, +6)
+5. 21, 34 (8 + 13 = 21, 13 + 21 = 34)
+6. 5 + 14 × 4 = 5 + 56 = 61
+7. 38 : 4 = 9 sisa 2 → bendera kedua: **putih**
+8. 36 (enam bilangan ganjil pertama → 6 × 6)
+
+## Bab 8 · Aljabar Dasar {#kunci8}
+
+[← kembali ke Bab 8](#bab8)
 
 1. □ = 75 − 38 = 37
 2. □ = 56 + 24 = 80
@@ -76,11 +102,24 @@ Kerjakan dulu semua latihan di kertas, baru cocokkan di sini. Kalau jawabanmu be
 5. 4 × □ = 30 + 6 = 36, maka □ = 36 : 4 = 9
 6. 36 − 20 + 2 = 18
 7. 32 × 7 = 224
-8. 29, 35 (tambah 6) dan 48, 96 (kali 2)
+8. □ + 3 × □ = 4 × □ = 48, jadi □ = 12. Rina 12 tahun (ayah 36 tahun). Cek: 12 + 36 = 48 ✓
 
-## Bab 7 · Bangun Datar {#kunci7}
+## Bab 9 · Dasar Logika {#kunci9}
 
-[← kembali ke Bab 7](#bab7)
+[← kembali ke Bab 9](#bab9)
+
+1. (a) pernyataan benar; (b) bukan pernyataan (perintah); (c) pernyataan salah
+2. Salah, karena bagian kedua salah (12 tidak habis dibagi 5)
+3. Benar, karena paling sedikit satu bagian benar (12 genap)
+4. Belum tentu. Siswa kelas lain juga bisa memakai seragam.
+5. Lampu **tidak** menyala.
+6. Misalnya 6: habis dibagi 2, tetapi 6 : 4 = 1 sisa 2 (2 dan 10 juga bisa)
+7. Genap, karena ganjil + ganjil = genap (memang 137 + 259 = 396)
+8. Urutan dari paling tua: Gita, Eka, Fani, Hana. Paling tua **Gita**, paling muda **Hana**.
+
+## Bab 10 · Bangun Datar {#kunci10}
+
+[← kembali ke Bab 10](#bab10)
 
 1. Persegi dan persegi panjang
 2. Trapesium
@@ -91,9 +130,9 @@ Kerjakan dulu semua latihan di kertas, baru cocokkan di sini. Kalau jawabanmu be
 7. Benar. Persegi punya 4 sudut siku-siku dan sisi berhadapan sama panjang, jadi memenuhi ciri persegi panjang.
 8. Jawaban bebas, misalnya jam dinding (lingkaran), pintu (persegi panjang), penggaris segitiga (segitiga).
 
-## Bab 8 · Keliling dan Luas {#kunci8}
+## Bab 11 · Keliling dan Luas {#kunci11}
 
-[← kembali ke Bab 8](#bab8)
+[← kembali ke Bab 11](#bab11)
 
 1. Keliling 36 cm, luas 81 cm²
 2. Keliling 42 cm, luas 90 cm²

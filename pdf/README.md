@@ -11,4 +11,4 @@ Edisi Pertama empat buku karya Septian Anugrah Dwi Putra.
 | `Kimia-Fisika-1-Edisi-1-cetak.pdf` | Kimia Fisika 1: Termodinamika Kimia, versi cetak bolak-balik A4 (masih revisi 1.1; dicetak ulang setelah revisi 1.2 selesai) |
 
 Versi cetak: setiap bab mulai di halaman kanan; sampul depan dan belakang adalah halaman pertama dan terakhir.
-| `Matematika-SD-Rangkuman.pdf` | Pintar Matematika Dasar: rangkuman untuk anak SD (8 bab, 30 halaman) |
+| `Matematika-SD-Rangkuman.pdf` | Pintar Matematika Dasar: rangkuman untuk anak SD (11 bab, 39 halaman) |

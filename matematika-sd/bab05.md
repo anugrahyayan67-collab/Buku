@@ -54,14 +54,7 @@ $\frac{3}{4}$ dari 20 kelereng: bagi dulu 20 menjadi 4 bagian sama (20 : 4 = 5),
 **Ingat!** Pecahan dari sebuah bilangan: **bagi dengan penyebut, lalu kali dengan pembilang.**
 :::
 
-## Desimal dan persen
-
-Pecahan berpenyebut 10 atau 100 bisa ditulis dengan **koma**: $\frac{3}{10} = 0{,}3$ dan $\frac{25}{100} = 0{,}25$. **Persen** (%) berarti *per seratus*: 25% = $\frac{25}{100}$ = $\frac{1}{4}$.
-
-| Pecahan | 1/2 | 1/4 | 3/4 | 1/5 | 1/10 |
-|:-:|:-:|:-:|:-:|:-:|:-:|
-| Desimal | 0,5 | 0,25 | 0,75 | 0,2 | 0,1 |
-| Persen | 50% | 25% | 75% | 20% | 10% |
+Pecahan berpenyebut 10 dan 100 punya cara tulis lain yang memakai **koma**, yaitu bilangan desimal. Itu dibahas di Bab 6.
 
 ::: latihan
 **Latihan Bab 5** · [lihat kunci jawaban →](#kunci5)
@@ -73,5 +66,5 @@ Pecahan berpenyebut 10 atau 100 bisa ditulis dengan **koma**: $\frac{3}{10} = 0{
 5. $\frac{2}{7} + \frac{3}{7} = …$
 6. $\frac{1}{4} + \frac{2}{3} = …$
 7. $\frac{2}{5}$ dari 30 buku adalah … buku.
-8. Ubah $\frac{3}{5}$ menjadi desimal dan persen.
+8. Apakah $\frac{2}{5}$ dan $\frac{6}{15}$ senilai? Jelaskan.
 :::

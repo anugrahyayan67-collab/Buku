@@ -110,7 +110,7 @@ def sampul():
         <text x="121" y="96" font-size="13">□ = ?</text>
       </g>
       <g font-family="Inter,sans-serif" font-size="4.6" fill="#cfe6fb" text-anchor="middle" font-weight="700">
-        <text x="84" y="124">bilangan · perkalian · pembagian · pecahan · aljabar · bangun datar</text>
+        <text x="84" y="124">bilangan · kali · bagi · pecahan · desimal · pola · aljabar · logika · bangun datar</text>
       </g></svg>"""
     body = (f'<div class="s"><div class="pita"></div><div class="atas">RANGKUMAN MATEMATIKA</div>'
             f'<div class="j">PINTAR<br><span>MATEMATIKA</span><br>DASAR</div>'

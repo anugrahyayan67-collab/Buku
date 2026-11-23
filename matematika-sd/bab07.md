@@ -1,64 +1,104 @@
-# Bab 7 · Bangun Datar
+# Bab 7 · Pola Bilangan
 
-**Bangun datar** adalah bentuk rata yang bisa digambar di atas kertas: permukaan meja, ubin, layang-layang, uang logam. Bangun datar dikenali dari **sisinya** (garis tepinya) dan **sudutnya** (pojok tempat dua sisi bertemu).
+Matematika sering disebut *ilmu tentang pola*. **Pola** adalah aturan yang terus berulang. Kalau kamu menemukan aturannya, kamu bisa menebak apa yang datang berikutnya, bahkan yang ke-100, tanpa menulis semuanya. Inilah latihan logika yang paling dasar: **mengamati, menemukan aturan, lalu menguji aturan itu.**
 
-## Sudut siku-siku dan sisi sejajar
+## Langkah menemukan pola
 
-Dua kata ini akan sering dipakai, jadi pahami dulu.
+::: tips
+**Tiga langkah.**
 
-- **Sudut siku-siku** besarnya 90°, seperti pojok buku atau pojok ubin. Di gambar ditandai dengan kotak kecil di pojoknya.
-- **Sisi sejajar** adalah dua sisi yang arahnya sama dan tidak akan pernah bertemu walaupun diperpanjang, seperti dua rel kereta api.
-
-Sudut yang lebih kecil dari siku-siku disebut **sudut lancip**, yang lebih besar disebut **sudut tumpul**.
-
-## Mengenal bangun datar
-
-<div class="gbrgrid"><div><svg width="150" height="105" viewBox="0 0 150 105"><rect x="30" y="8" width="90" height="90" fill="#cfe6fb" stroke="#12406a" stroke-width="2.2" stroke-linejoin="round"/><polyline points="30,18 40,18 40,8" fill="none" stroke="#c0392b" stroke-width="1.6"/></svg><br><b>Persegi</b></div><div><svg width="150" height="105" viewBox="0 0 150 105"><rect x="8" y="20" width="134" height="72" fill="#d6f2e6" stroke="#12406a" stroke-width="2.2" stroke-linejoin="round"/><polyline points="8,30 18,30 18,20" fill="none" stroke="#c0392b" stroke-width="1.6"/></svg><br><b>Persegi panjang</b></div><div><svg width="150" height="105" viewBox="0 0 150 105"><polygon points="10,98 75,8 140,98" fill="#ffe1c2" stroke="#12406a" stroke-width="2.2" stroke-linejoin="round"/><line x1="75" y1="8" x2="75" y2="98" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="4 3"/><text x="80" y="66" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#c0392b">tinggi</text></svg><br><b>Segitiga</b></div><div><svg width="150" height="105" viewBox="0 0 150 105"><polygon points="8,95 38,12 142,12 112,95" fill="#e6defa" stroke="#12406a" stroke-width="2.2" stroke-linejoin="round"/></svg><br><b>Jajargenjang</b></div><div><svg width="150" height="105" viewBox="0 0 150 105"><polygon points="8,95 45,12 105,12 142,95" fill="#fde0dc" stroke="#12406a" stroke-width="2.2" stroke-linejoin="round"/></svg><br><b>Trapesium</b></div><div><svg width="150" height="105" viewBox="0 0 150 105"><polygon points="75,4 128,52 75,100 22,52" fill="#cfe6fb" stroke="#12406a" stroke-width="2.2" stroke-linejoin="round"/><g stroke="#12406a" stroke-width="1.3" stroke-dasharray="4 3"><line x1="75" y1="4" x2="75" y2="100"/><line x1="22" y1="52" x2="128" y2="52"/></g></svg><br><b>Belah ketupat</b></div><div><svg width="150" height="105" viewBox="0 0 150 105"><polygon points="75,4 115,34 75,100 35,34" fill="#ffe1c2" stroke="#12406a" stroke-width="2.2" stroke-linejoin="round"/><g stroke="#12406a" stroke-width="1.3" stroke-dasharray="4 3"><line x1="75" y1="4" x2="75" y2="100"/><line x1="35" y1="34" x2="115" y2="34"/></g></svg><br><b>Layang-layang</b></div><div><svg width="150" height="105" viewBox="0 0 150 105"><circle cx="75" cy="52" r="46" fill="#d6f2e6" stroke="#12406a" stroke-width="2.2" stroke-linejoin="round"/><circle cx="75" cy="52" r="3" fill="#12406a"/><line x1="75" y1="52" x2="121" y2="52" stroke="#12406a" stroke-width="1.5" stroke-dasharray="4 3"/><text x="94" y="47" font-family="Inter,sans-serif" font-size="12" font-weight="700" fill="#b5541c">r</text></svg><br><b>Lingkaran</b></div></div>
-
-| Bangun | Ciri utama |
-|---|---|
-| **Persegi** | 4 sisi **sama panjang**, 4 sudut siku-siku. |
-| **Persegi panjang** | 2 pasang sisi berhadapan sama panjang dan sejajar, 4 sudut siku-siku. |
-| **Segitiga** | 3 sisi, 3 sudut. Jumlah ketiga sudutnya selalu 180°. |
-| **Jajargenjang** | 2 pasang sisi berhadapan sejajar dan sama panjang, tetapi **miring** (tidak ada sudut siku-siku). |
-| **Trapesium** | Hanya **satu pasang** sisi yang sejajar. |
-| **Belah ketupat** | 4 sisi sama panjang, miring; kedua diagonalnya berpotongan tegak lurus. |
-| **Layang-layang** | 2 pasang sisi **berdekatan** sama panjang; diagonalnya tegak lurus. |
-| **Lingkaran** | Semua titik tepinya berjarak sama dari **titik pusat**. Jarak itu disebut **jari-jari** (*r*); garis tengah (*d*) = 2 × jari-jari. |
-
-::: ingat
-**Ingat!** Persegi adalah persegi panjang yang istimewa (keempat sisinya kebetulan sama panjang). Persegi juga belah ketupat yang istimewa (sudutnya kebetulan siku-siku). Jadi satu bangun bisa punya lebih dari satu nama.
+1. **Amati** beberapa suku pertama.
+2. **Cari aturannya.** Hitung selisih dua bilangan berdekatan. Kalau selisihnya tidak tetap, coba perbandingannya (dikali berapa?).
+3. **Uji** aturan itu pada semua suku yang ada. Aturan yang benar harus cocok untuk semuanya, bukan cuma dua suku pertama.
 :::
 
-## Jenis-jenis segitiga
-
-Segitiga bisa dikelompokkan menurut **sisinya**:
-
-- **sama sisi**: ketiga sisi sama panjang (semua sudutnya 60°);
-- **sama kaki**: dua sisi sama panjang;
-- **sembarang**: ketiga sisi berbeda.
-
-Atau menurut **sudutnya**: **siku-siku** (ada sudut 90°), **lancip** (semua sudut lancip), **tumpul** (ada satu sudut tumpul).
+## Pola tambah dan pola kurang
 
 ::: contoh
-**Contoh 1.** Dua sudut sebuah segitiga besarnya 50° dan 70°. Berapa sudut ketiga?
+**Contoh 1.**
 
-Jumlah sudut segitiga 180°. Sudut ketiga = 180° − 50° − 70° = **60°**.
+- 4, 7, 10, 13, … selisihnya selalu **+3**. Berikutnya **16, 19**.
+- 50, 44, 38, 32, … selisihnya **−6**. Berikutnya **26, 20**.
 :::
 
+## Pola kali dan pola bagi
+
+::: contoh
+**Contoh 2.**
+
+- 3, 6, 12, 24, … selisihnya 3, 6, 12 (tidak tetap). Cek perbandingannya: setiap suku **×2**. Berikutnya **48, 96**.
+- 800, 400, 200, 100, … setiap suku **:2**. Berikutnya **50, 25**.
+:::
+
+## Pola yang selisihnya ikut berpola
+
+Kadang selisihnya sendiri yang berpola.
+
+::: contoh
+**Contoh 3.** 2, 3, 5, 8, 12, …
+
+Selisihnya +1, +2, +3, +4, jadi selisih berikutnya +5. Suku berikutnya 12 + 5 = **17**, lalu 17 + 6 = **23**.
+:::
+
+## Bilangan istimewa yang berpola
+
+<div class="gbr"><svg width="560" height="120" viewBox="0 0 560 120" font-family="Inter,sans-serif" font-size="12" font-weight="700">
+<g fill="#e07b22"><circle cx="30" cy="80" r="7"/>
+<circle cx="80" cy="80" r="7"/><circle cx="96" cy="80" r="7"/><circle cx="88" cy="66" r="7"/>
+<circle cx="140" cy="80" r="7"/><circle cx="156" cy="80" r="7"/><circle cx="172" cy="80" r="7"/><circle cx="148" cy="66" r="7"/><circle cx="164" cy="66" r="7"/><circle cx="156" cy="52" r="7"/>
+<circle cx="215" cy="80" r="7"/><circle cx="231" cy="80" r="7"/><circle cx="247" cy="80" r="7"/><circle cx="263" cy="80" r="7"/><circle cx="223" cy="66" r="7"/><circle cx="239" cy="66" r="7"/><circle cx="255" cy="66" r="7"/><circle cx="231" cy="52" r="7"/><circle cx="247" cy="52" r="7"/><circle cx="239" cy="38" r="7"/></g>
+<g fill="#12406a" text-anchor="middle"><text x="30" y="108">1</text><text x="88" y="108">3</text><text x="156" y="108">6</text><text x="239" y="108">10</text><text x="290" y="84">…</text></g>
+<text x="150" y="18" text-anchor="middle" fill="#b5541c">bilangan segitiga</text>
+<g fill="#1f7fc4"><rect x="340" y="74" width="12" height="12" rx="2"/>
+<rect x="380" y="60" width="12" height="12" rx="2"/><rect x="394" y="60" width="12" height="12" rx="2"/><rect x="380" y="74" width="12" height="12" rx="2"/><rect x="394" y="74" width="12" height="12" rx="2"/>
+<rect x="434" y="46" width="12" height="12" rx="2"/><rect x="448" y="46" width="12" height="12" rx="2"/><rect x="462" y="46" width="12" height="12" rx="2"/><rect x="434" y="60" width="12" height="12" rx="2"/><rect x="448" y="60" width="12" height="12" rx="2"/><rect x="462" y="60" width="12" height="12" rx="2"/><rect x="434" y="74" width="12" height="12" rx="2"/><rect x="448" y="74" width="12" height="12" rx="2"/><rect x="462" y="74" width="12" height="12" rx="2"/></g>
+<g fill="#12406a" text-anchor="middle"><text x="346" y="108">1</text><text x="393" y="108">4</text><text x="454" y="108">9</text><text x="505" y="84">…</text></g>
+<text x="420" y="18" text-anchor="middle" fill="#1f7fc4">bilangan persegi</text>
+</svg></div>
+
+| Nama | Pola | Aturan |
+|---|---|---|
+| Bilangan genap | 2, 4, 6, 8, 10, … | +2; bisa dibagi 2 |
+| Bilangan ganjil | 1, 3, 5, 7, 9, … | +2; dibagi 2 bersisa 1 |
+| Bilangan persegi | 1, 4, 9, 16, 25, … | 1×1, 2×2, 3×3, 4×4, … |
+| Bilangan segitiga | 1, 3, 6, 10, 15, … | +2, +3, +4, +5, … |
+| Fibonacci | 1, 1, 2, 3, 5, 8, 13, … | setiap suku = jumlah dua suku sebelumnya |
+
+::: tips
+**Fakta menarik.** Jumlah bilangan ganjil berurutan dari 1 selalu bilangan persegi: 1 + 3 = 4, 1 + 3 + 5 = 9, 1 + 3 + 5 + 7 = 16. Coba lihat gambar bilangan persegi: setiap persegi baru dibuat dengan menambah satu "siku" berisi 3, lalu 5, lalu 7 kotak.
+:::
+
+## Mencari suku jauh tanpa menulis semuanya
+
+Pola tambah 4, 7, 10, 13, … (beda 3). Berapa suku ke-20? Kita tidak perlu menulis 20 bilangan. Dari suku ke-1 ke suku ke-20 ada **19 langkah**, setiap langkah +3:
+
+$$\text{suku ke-20} = 4 + 19 \times 3 = 4 + 57 = 61$$
+
+::: ingat
+**Ingat!** Untuk pola tambah: **suku ke-n = suku pertama + (n − 1) × beda.** Kurangi 1 karena suku pertama belum melangkah.
+:::
+
+## Pola berulang dan sisa pembagian
+
+Manik-manik disusun berulang: **merah, kuning, biru, merah, kuning, biru, …** Warna manik ke-50 apa?
+
+Polanya berulang setiap **3** manik. Bagi 50 dengan 3: 50 : 3 = 16 sisa **2** (Bab 4). Artinya 16 putaran penuh, lalu maju 2 lagi: merah (1), kuning (2). Jadi manik ke-50 berwarna **kuning**.
+
+<div class="gbr"><svg width="360" height="40" viewBox="0 0 360 40"><g stroke="#12406a" stroke-width="1.5"><circle cx="20" cy="20" r="13" fill="#e74c3c"/><circle cx="55" cy="20" r="13" fill="#f4c430"/><circle cx="90" cy="20" r="13" fill="#1f7fc4"/><circle cx="125" cy="20" r="13" fill="#e74c3c"/><circle cx="160" cy="20" r="13" fill="#f4c430"/><circle cx="195" cy="20" r="13" fill="#1f7fc4"/><circle cx="230" cy="20" r="13" fill="#e74c3c"/><circle cx="265" cy="20" r="13" fill="#f4c430"/><circle cx="300" cy="20" r="13" fill="#1f7fc4"/></g><text x="335" y="26" font-family="Inter,sans-serif" font-size="16" font-weight="700" fill="#12406a">…</text></svg></div>
+
 ::: awas
-**Hati-hati!** **Tinggi** bangun bukan sisi miringnya. Tinggi selalu diukur **tegak lurus** (membentuk sudut siku-siku) dari alas ke puncak, seperti garis putus-putus pada segitiga di gambar. Pada jajargenjang dan trapesium, tinggi juga garis tegak, bukan sisi miringnya.
+**Hati-hati!** Kalau sisanya **0**, berarti tepat di akhir putaran, yaitu warna **terakhir** (biru), bukan warna pertama. Manik ke-30: 30 : 3 = 10 sisa 0 → biru.
 :::
 
 ::: latihan
 **Latihan Bab 7** · [lihat kunci jawaban →](#kunci7)
 
-1. Sebutkan dua bangun datar yang keempat sudutnya siku-siku.
-2. Bangun apa yang hanya punya satu pasang sisi sejajar?
-3. Apa beda persegi dan belah ketupat?
-4. Sebuah segitiga punya sudut 90° dan 35°. Berapa sudut ketiganya? Segitiga jenis apa ini menurut sudutnya?
-5. Segitiga dengan sisi 5 cm, 5 cm, dan 8 cm termasuk segitiga apa menurut sisinya?
-6. Jari-jari sebuah lingkaran 7 cm. Berapa panjang garis tengahnya?
-7. Benar atau salah: "Setiap persegi adalah persegi panjang." Jelaskan.
-8. Sebutkan satu benda di rumahmu yang berbentuk lingkaran, satu yang persegi panjang, dan satu yang segitiga.
+1. Lanjutkan dua suku: 6, 11, 16, 21, …
+2. Lanjutkan dua suku: 90, 81, 72, 63, …
+3. Lanjutkan dua suku: 2, 6, 18, 54, …
+4. Lanjutkan dua suku: 1, 2, 4, 7, 11, …
+5. Lanjutkan dua suku Fibonacci: 1, 1, 2, 3, 5, 8, 13, …
+6. Berapa suku ke-15 dari pola 5, 9, 13, 17, …?
+7. Bendera disusun berulang: merah, putih, hijau, kuning. Bendera ke-38 berwarna apa?
+8. Berapa 1 + 3 + 5 + 7 + 9 + 11? (Petunjuk: lihat fakta menarik.)
 :::
