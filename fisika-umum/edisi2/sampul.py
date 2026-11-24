@@ -42,10 +42,10 @@ open(f'{K}/sampul.html', 'w').write(f'''<!doctype html><html><head><meta charset
 .bar{{position:absolute;left:0;top:0;bottom:0;width:9mm;background:#0e2748}}
 .ed{{position:absolute;top:24mm;left:22mm;font-size:9pt;letter-spacing:6px;font-weight:800;color:#c0601f}}
 .pen{{position:absolute;top:24mm;right:18mm;font-size:9pt;font-weight:800;letter-spacing:6px;color:#0e2748}}
-.jd{{position:absolute;top:34mm;left:20mm;font-size:84pt;font-weight:900;line-height:.88;letter-spacing:-1px;color:#0e2748}}
+.jd{{position:absolute;top:36mm;left:20mm;font-size:54pt;font-weight:900;line-height:.88;letter-spacing:-1px;color:#0e2748}}
 .jd span{{color:#1b75bc}}
-.sb{{position:absolute;top:92mm;left:22mm;width:130mm;font-size:13pt;line-height:1.45;color:#4a5668;border-top:.6mm solid #f0a060;padding-top:4mm}}
-.panel{{position:absolute;left:22mm;right:18mm;top:118mm;bottom:22mm;background:radial-gradient(ellipse at 50% 60%,#163e6e 0%,#0e2748 45%,#081a31 80%,#06142a 100%)}}
+.sb{{position:absolute;top:77mm;left:22mm;width:130mm;font-size:13pt;line-height:1.45;color:#4a5668;border-top:.6mm solid #f0a060;padding-top:4mm}}
+.panel{{position:absolute;left:22mm;right:18mm;top:98mm;bottom:22mm;background:radial-gradient(ellipse at 50% 60%,#163e6e 0%,#0e2748 45%,#081a31 80%,#06142a 100%)}}
 .panel img{{position:absolute;left:4%;top:5%;width:92%;height:90%;object-fit:contain}}
 .ln{{position:absolute;bottom:22mm;left:22mm;width:40mm;height:.7mm;background:#f0a060}}
 .pers{{position:absolute;right:6mm;bottom:4mm;font-family:Caladea,serif;font-style:italic;font-size:13pt;color:rgba(221,214,250,.85)}}
