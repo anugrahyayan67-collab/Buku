@@ -80,7 +80,7 @@ Daftar pekerjaan yang belum selesai, **berurutan**. Bila tidak ada perintah khus
 2. ☐ **Kimia Fisika 1: soal Bab 3, 6, 7, 8 dilengkapi sampai ± 80** (pakai `alat/tebal.py`).
 3. ☐ **Kimia Fisika 1: baca ulang kejelasan Bab 1–15**, satu bab per putaran; catat temuan dan perbaikan di `termodinamika-kimia/REVISI.md`.
 4. ☐ **Kimia Fisika 1: cetak akhir** digital dan `--cetak`, salin ke `pdf/`, perbarui `pdf/README.md`, kirim PDF.
-5. ◐ **Kimia Organik 1**: versi digital dan cetak sudah di `pdf/` (21-11-2026); belum: ganti ilustrasi sampul dengan motif organik (lihat `DESAIN-BUKU.md` bagian 12), lalu baca ulang kejelasan Bab 1–16.
+5. ◐ **Kimia Organik 1**: versi digital dan cetak sudah di `pdf/` (21-11-2026); ilustrasi sampul diganti motif organik (☑ 24-11-2026: parasetamol + panah lengkung, halaman sampul di kedua PDF ditukar tanpa cetak ulang); belum: baca ulang kejelasan Bab 1–16.
 6. ☐ **Persiapan TEP** (`persiapan-tep/`): Bab 1–4 dulu, ikuti `persiapan-tep/PEDOMAN.md`; siapkan alat cetak dengan pola `kimia-organik/edisi/`.
 7. ☐ **Matematika untuk Kimia**, lalu buku berikutnya di `RENCANA-SERI.md` (rancangan dulu, lalu bab demi bab).
 
