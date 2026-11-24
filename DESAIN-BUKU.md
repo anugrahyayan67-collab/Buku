@@ -1,4 +1,4 @@
-# Spesifikasi desain buku seri (gaya terakhir: Kimia Organik 1 dan Kimia Fisika 1)
+# Spesifikasi desain buku seri (berlaku untuk keempat buku: Fisika Umum, Kimia Kuantum, Kimia Fisika 1, Kimia Organik 1; diseragamkan 24-11-2026)
 
 Dokumen ini mencatat **semua ukuran, huruf, warna, dan tata letak** yang dipakai buku seri, diambil dari berkas yang benar-benar dipakai untuk mencetak. Siapa pun (manusia atau AI) yang meneruskan atau membuat buku baru dalam seri ini cukup mengikuti dokumen ini supaya hasilnya serupa.
 
