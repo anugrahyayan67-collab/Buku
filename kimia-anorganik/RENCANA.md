@@ -79,7 +79,7 @@ Catatan Bab 2 (25-11-2026): 13 subbab (termasuk gaya-gaya kimia dan ikatan hidro
 ### ☑ Bab 9 Oksidasi dan Reduksi
 9.1 Bilangan oksidasi, setengah reaksi, dan penyetaraan reaksi redoks · 9.2 Sel galvani, potensial elektrode, dan deret elektrokimia · 9.3 Persamaan Nernst: pengaruh konsentrasi, pH, dan kompleksasi · 9.4 Kestabilan dalam air: jendela kestabilan dan overpotensial · 9.5 Diagram Latimer · 9.6 Disproporsionasi dan komproporsionasi · 9.7 Diagram Frost · 9.8 Diagram Pourbaix · 9.9 Diagram Ellingham dan ekstraksi logam · 9.10 Redoks di alam: korosi, lingkungan, dan biologi
 
-### ☐ Bab 10 Kimia dalam Pelarut Tak Berair
+### ☑ Bab 10 Kimia dalam Pelarut Tak Berair
 10.1 Proses pelarutan: energi kisi, hidrasi dan solvasi ion · 10.2 Sifat pelarut: tetapan dielektrik, bilangan donor dan akseptor · 10.3 Reaksi dalam air: autoionisasi, hidrolisis, pengendapan · 10.4 Konsep sistem pelarut dan autoionisasi pelarut non-air · 10.5 Amonia cair dan elektron tersolvasi · 10.6 Hidrogen fluorida cair dan asam sulfat · 10.7 Pelarut aprotik: BrF₃ dan N₂O₄ · 10.8 Lelehan garam dan cairan ionik · 10.9 Fluida superkritis
 
 ## Bagian IV · Pengantar Kompleks, Unsur, dan Inti

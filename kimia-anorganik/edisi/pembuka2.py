@@ -214,3 +214,23 @@ ax.text(2.2, 3.55, 'besi galvanis', ha='center', fontsize=12, fontweight='bold',
 ax.text(W / 2, 4.65, 'siapa yang teroksidasi?', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
 simpan(9, f, 'Goresan pada lapisan pelindung. Seng, yang lebih mudah teroksidasi, melindungi besi; timah, yang lebih sukar teroksidasi, justru membuat besi di goresan berkarat lebih cepat.')
 print('ok9')
+
+# Bab 10: natrium dalam air lawan dalam amonia cair
+f, ax = kanvas()
+for x0, isi, wl, teks, judul in [(1.0, '#cfe6f7', False, 'Na + H₂O → NaOH + ½H₂', 'air'), (5.0, '#1d3f9a', True, 'Na → Na⁺ + e⁻(am)', 'amonia cair, −33 °C')]:
+    ax.add_patch(plt.Polygon([[x0, 3.6], [x0 + .25, 1.0], [x0 + 2.75, 1.0], [x0 + 3.0, 3.6]], fc='none', ec=TUA, lw=1.6))
+    ax.add_patch(plt.Polygon([[x0 + .05, 3.0], [x0 + .25, 1.0], [x0 + 2.75, 1.0], [x0 + 2.95, 3.0]], fc=isi, ec='none', alpha=.85))
+    ax.text(x0 + 1.5, 4.0, judul, ha='center', fontsize=12, fontweight='bold', color=TUA, family='Liberation Sans')
+    ax.text(x0 + 1.5, .55, teks, ha='center', fontsize=10.5, color=TUA, family='Liberation Sans')
+    if not wl:
+        ax.add_patch(plt.Circle((x0 + 1.5, 3.02), .16, fc='#c8c8c8', ec=TUA))
+        for k in range(9):
+            ax.add_patch(plt.Circle((x0 + .8 + .18 * k, 3.25 + .25 * np.sin(k * 1.7) ** 2), .05 + .02 * (k % 3), fc='white', ec=AB, lw=.8))
+        ax.text(x0 + 2.4, 3.3, 'H₂', fontsize=10, color=UT, family='Liberation Sans')
+    else:
+        for k in range(14):
+            xx, yy = x0 + .6 + 1.8 * ((k * .37) % 1), 1.3 + 1.5 * ((k * .61) % 1)
+            ax.add_patch(plt.Circle((xx, yy), .13, fc='none', ec='#9fc4ff', lw=1, ls='--')); ax.text(xx, yy, 'e⁻', ha='center', va='center', fontsize=6.5, color='white', family='Liberation Sans')
+ax.text(W / 2, 4.65, 'pelarut menentukan kimianya', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
+simpan(10, f, 'Natrium bereaksi hebat dengan air, tetapi larut dengan tenang dalam amonia cair menghasilkan larutan biru berisi elektron tersolvasi.')
+print('ok10')

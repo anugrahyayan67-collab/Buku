@@ -308,3 +308,31 @@ proteksi katodik
 rantai pernapasan
 elektrode Ag/AgCl
 air raja
+solvasi
+model Born
+pasangan ion
+jarak Bjerrum
+bilangan donor
+bilangan akseptor
+pelarut protik
+pelarut aprotik
+konsep sistem pelarut
+autoionisasi
+amonia cair
+elektron tersolvasi
+reduksi Birch
+alkalida
+elektrida
+hidrogen fluorida cair
+ion bifluorida
+krioskopi
+ion nitronium
+bromin trifluorida
+dinitrogen tetroksida
+ion nitrosil
+lelehan garam
+campuran eutektik
+cairan ionik
+pelarut eutektik dalam
+fluida superkritis
+titik kritis

@@ -1,0 +1,99 @@
+## Subbab 10.1: Proses pelarutan: energi kisi, hidrasi, dan solvasi ion
+
+> *N*~A~*e*²/(4πε₀) = 1,389 × 10⁵ kJ mol⁻¹ pm; *RT* = 2,48 kJ mol⁻¹ pada 298 K. Model Born: jari-jari efektif kation *r*~ion~ + 85 pm, anion *r*~ion~ + 10 pm. Soal bertanda **[P]** dibahas di akhir bab.
+
+Hitung Δ~solv~*G* Born untuk Cs⁺ (*r*~ion~ = 167 pm) dalam air. Nilai eksperimen sekitar −250 kJ mol⁻¹. ||| −272 kJ mol⁻¹
+Hitung Δ~solv~*G* Born untuk F⁻ (*r*~ion~ = 133 pm) dalam air. Nilai eksperimen sekitar −465 kJ mol⁻¹. ||| −479 kJ mol⁻¹
+@transfer [P] Dengan model Born, hitung energi Gibbs yang diperlukan untuk memindahkan satu mol Na⁺ (*r* efektif 187 pm) dari air (ε~r~ = 78,4) ke heksana (1,9). Apa artinya bagi kelarutan garam dalam heksana? ||| +191 kJ mol⁻¹; garam praktis tidak larut
+Hitung energi tarik pasangan ion Mg²⁺···O²⁻ yang bersentuhan (*d* = 212 pm) di dalam air. Bandingkan dengan *RT*. ||| 33 kJ mol⁻¹ ≈ 13 *RT*: pasangan ion kuat
+Berapa tetapan dielektrik minimum agar energi pasangan Na⁺Cl⁻ (493 kJ mol⁻¹ dalam vakum) tidak lebih dari 4*RT*? ||| ε~r~ ≈ 50
+Hitung jarak Bjerrum *q* untuk ion bermuatan tunggal dalam asetonitril (ε~r~ = 37,5) pada 298 K, bila dalam air *q* = 357 pm. ||| 746 pm
+Mengapa Li₂CO₃ dan Ca(OH)₂ kurang larut dalam air panas daripada dalam air dingin? ||| pelarutan eksoterm/entropi hidrasi sangat negatif; −*T*Δ*S* makin positif
+Mengapa model Born meramalkan solvasi yang hampir sama dalam air, metanol, dan DMSO? ||| faktor (1 − 1/ε~r~) hampir 1 untuk ε~r~ > 20
+
+## Subbab 10.2: Sifat pelarut: tetapan dielektrik, bilangan donor, dan akseptor
+
+Golongkan sebagai protik atau aprotik: metanol, DMSO, HF, asetonitril, NH₃, BrF₃, THF, H₂SO₄. ||| protik: metanol, HF, NH₃, H₂SO₄; aprotik: DMSO, MeCN, BrF₃, THF
+Nyatakan bilangan donor piridina (33,1) dan THF (20,0) dalam kJ mol⁻¹. Apa arti fisisnya? ||| 138 dan 84 kJ mol⁻¹; −Δ*H* pembentukan aduk dengan SbCl₅
+@dmso [P] Reaksi KF dengan alkil klorida hampir tidak berjalan dalam metanol tetapi cepat dalam DMSO. Jelaskan dengan bilangan donor dan akseptor. ||| DMSO menyolvasi K⁺ (DN besar) tetapi tidak F⁻ (AN kecil): F⁻ telanjang dan reaktif
+Pelarut mana yang paling baik menyolvasi anion klorida: air, DMSO, atau THF? Mengapa? ||| air (AN 54,8, ikatan hidrogen)
+Mengapa air dapat melarutkan NaCl dengan baik tetapi DMSO hampir tidak, padahal ε~r~ DMSO cukup besar? ||| DMSO tidak menyolvasi Cl⁻
+Mengapa asetonitril, bukan air, dipakai untuk mengukur potensial reduksi senyawa yang sangat mudah direduksi? ||| jendela elektrokimia lebar; air tereduksi pada sekitar 0 sampai −0,8 V
+Urutkan menurut kekuatan sebagai basa Lewis (DN): asetonitril, air, DMSO, piridina. ||| MeCN < air < DMSO < piridina
+Pelarut apa yang cocok untuk menyimpan kation yang sangat elektrofilik, dan mengapa pelarut ber-DN tinggi tidak cocok? ||| DN rendah (CH₂Cl₂, arena terhalogenasi); pelarut ber-DN tinggi membentuk aduk
+
+## Subbab 10.3: Reaksi dalam air: autoionisasi, hidrolisis, dan pengendapan
+
+Hitung pH air murni pada 50 °C (p*K*~w~ = 13,26). Apakah air itu asam? ||| 6,63; tidak, netral
+Hitung [H₃O⁺] dalam air murni pada 100 °C (p*K*~w~ = 12,26). ||| 7,4 × 10⁻⁷ mol L⁻¹
+@kw60 [P] Dengan Δ*H*° = 55,8 kJ mol⁻¹ dan *K*~w~ = 1,0 × 10⁻¹⁴ pada 25 °C, ramalkan *K*~w~ dan pH netral pada 60 °C. Nilai terukur p*K*~w~ = 13,02. ||| *K*~w~ = 1,06 × 10⁻¹³; p*K*~w~ 12,97; pH netral 6,49
+Tuliskan persamaan hidrolisis BCl₃, PCl₅ (sempurna), dan SF₄. ||| B(OH)₃ + 3HCl; H₃PO₄ + 5HCl; SO₂ + 4HF
+Tuliskan persamaan hidrolisis NCl₃. Mengapa produknya bukan HNO₂ dan HCl? ||| NCl₃ + 3H₂O → NH₃ + 3HOCl; serangan pada Cl
+Mengapa SF₆ dan CCl₄ tidak bereaksi dengan air walaupun reaksinya sangat eksergonik? ||| kinetik: atom pusat terlindung, tanpa orbital kosong rendah
+Hitung kelarutan CaF₂ (*K*~sp~ = 3,5 × 10⁻¹¹) dalam air dan dalam NaF 0,010 mol L⁻¹. ||| 2,1 × 10⁻⁴; 3,5 × 10⁻⁷ mol L⁻¹
+@baso4 [P] Larutan mengandung Ba²⁺ dan Sr²⁺ masing-masing 0,010 mol L⁻¹. Na₂SO₄ ditambahkan perlahan (*K*~sp~ BaSO₄ 1,1 × 10⁻¹⁰, SrSO₄ 3,4 × 10⁻⁷). Berapa persen Ba²⁺ yang masih tersisa ketika SrSO₄ mulai mengendap? ||| [Ba²⁺] = 3,2 × 10⁻⁶ mol L⁻¹; 0,032 %
+Pada pH berapa Mg(OH)₂ (*K*~sp~ = 5,6 × 10⁻¹²) mulai mengendap dari larutan Mg²⁺ 0,010 mol L⁻¹? ||| pH 9,37
+
+## Subbab 10.4: Konsep sistem pelarut dan autoionisasi pelarut non-air
+
+Tuliskan autoionisasi etanol, asam asetat murni, dan IF₅ (perpindahan F⁻). ||| 2EtOH ⇌ EtOH₂⁺ + EtO⁻; 2CH₃COOH ⇌ CH₃COOH₂⁺ + CH₃COO⁻; 2IF₅ ⇌ IF₄⁺ + IF₆⁻
+Golongkan dalam amonia cair: NH₄NO₃, KNH₂, CH₃COOH, NaCl. ||| asam, basa, asam kuat, netral
+Tuliskan reaksi netralisasi NH₄Cl dengan KNH₂ dalam amonia cair. ||| NH₄Cl + KNH₂ → KCl + 2NH₃
+Tunjukkan sifat amfoter Zn(NH₂)₂ dalam amonia cair dengan dua persamaan. ||| + 2NH₄⁺ → Zn²⁺ + 4NH₃; + 2NH₂⁻ → [Zn(NH₂)₄]²⁻
+@level [P] Dalam air, HCl dan HClO₄ sama-sama asam kuat. Pelarut apa yang dapat membedakan kekuatan keduanya, dan mengapa amonia cair justru tidak dapat? ||| pelarut yang kurang basa (asam asetat, H₂SO₄, HF); NH₃ lebih basa daripada air sehingga melevelkan lebih banyak
+Dengan *K* ≈ 10⁻²⁷ untuk 2NH₃ ⇌ NH₄⁺ + NH₂⁻, perkirakan [NH₄⁺] dalam amonia murni (anggap *K* dalam mol² L⁻²). ||| 3 × 10⁻¹⁴ mol L⁻¹
+Apa keterbatasan konsep sistem pelarut dibandingkan teori Lewis? ||| terikat pada satu pelarut; tidak mencakup reaksi tanpa ion pelarut
+
+## Subbab 10.5: Amonia cair dan elektron tersolvasi
+
+Hitung energi (eV dan kJ mol⁻¹) yang sesuai dengan puncak serapan elektron tersolvasi pada 1550 nm. ||| 0,80 eV; 77 kJ mol⁻¹
+Tuliskan persamaan pelarutan kalsium dalam amonia cair. Apakah warnanya sama dengan larutan natrium? ||| Ca → Ca²⁺(am) + 2e⁻(am); ya, biru
+Tuliskan pembuatan NaNH₂ dalam amonia, dan reaksinya bila terkena air. ||| Na + NH₃ → NaNH₂ + ½H₂; NaNH₂ + H₂O → NaOH + NH₃
+@bola [P] Model elektron dalam bola berdinding tak hingga berjari-jari *R*: *E*~1s~ = (ℏ²/2*m*)(π/*R*)², *E*~1p~ = (ℏ²/2*m*)(4,493/*R*)², dengan ℏ²/2*m* = 3,81 eV Å². Berapa *R* agar transisi 1s → 1p = 0,80 eV? Bandingkan dengan rongga sekitar 300 pm dan jelaskan perbedaannya. ||| *R* ≈ 7,0 Å = 700 pm; elektron menembus melewati kulit pelarut (dinding tidak tak hingga)
+Mengapa larutan natrium dalam amonia yang encer bersifat paramagnetik, sedangkan yang pekat sedikit paramagnetik? ||| elektron tunggal; pada konsentrasi tinggi berpasangan
+Mengapa reduksi Birch tidak dapat dilakukan dalam air? ||| e⁻ mereduksi air menjadi H₂
+Apa itu alkalida? Mengapa kriptan diperlukan untuk membuatnya? ||| garam dengan anion M⁻; kriptan mencegah e⁻ kembali ke M⁺
+Apa perbedaan alkalida dan elektrida? ||| anion M⁻ lawan elektron terperangkap di rongga
+
+## Subbab 10.6: Hidrogen fluorida cair dan asam sulfat
+
+Tuliskan autoionisasi HF. Mengapa KF berperilaku sebagai basa dalam HF? ||| 3HF ⇌ H₂F⁺ + HF₂⁻; menaikkan HF₂⁻
+Golongkan dalam HF cair: H₂O, SbF₅, CH₃COOH, NaF. ||| basa, asam, basa, basa
+Tuliskan reaksi asam nitrat dengan HF cair. ||| HNO₃ + 2HF → H₂NO₃⁺ + HF₂⁻
+@krio2 [P] Larutan asam asetat 0,040 mol kg⁻¹ dalam H₂SO₄ menurunkan titik beku 0,490 K (*K*~f~ = 6,12 K kg mol⁻¹). Hitung *i* dan tuliskan reaksinya. Berapa penurunan titik beku bila zat itu tidak bereaksi? ||| *i* = 2,0; CH₃COOH + H₂SO₄ → CH₃C(OH)₂⁺ + HSO₄⁻; 0,245 K
+Air 0,050 mol kg⁻¹ dilarutkan dalam H₂SO₄. Tuliskan reaksinya dan hitung Δ*T*~f~. ||| H₂O + H₂SO₄ → H₃O⁺ + HSO₄⁻; *i* = 2; 0,61 K
+Bila KHSO₄ 0,10 mol kg⁻¹ dilarutkan dalam H₂SO₄ murni (*K* = 2,7 × 10⁻⁴), berapa [H₃SO₄⁺]? ||| 2,7 × 10⁻³ mol kg⁻¹ (efek ion senama)
+Mengapa asam sulfat murni menghantarkan listrik dengan baik walaupun sangat kental? ||| autoprotolisis besar + lompatan proton
+Mengapa HF cair tidak boleh disimpan dalam botol kaca? ||| SiO₂ + 4HF → SiF₄ + 2H₂O
+
+## Subbab 10.7: Pelarut aprotik: BrF₃ dan N₂O₄
+
+Tentukan bentuk BrF₂⁺ dan BrF₄⁻ dengan VSEPR. ||| BrF₂⁺: AX₂E₂, bentuk V; BrF₄⁻: AX₄E₂, bujur sangkar
+Golongkan dalam BrF₃ dan tuliskan reaksinya: NaF, SnF₄. ||| NaF basa → Na⁺ + BrF₄⁻; SnF₄ asam → 2BrF₂⁺ + SnF₆²⁻
+@emas [P] Emas larut dalam BrF₃ membentuk [BrF₂][AuF₄]. Setarakan reaksinya, tentukan bilangan oksidasi Au, dan jelaskan mengapa emas yang tidak larut dalam asam biasa larut di sini. ||| 2Au + 4BrF₃ → 2[BrF₂][AuF₄] + Br₂; Au +3; BrF₃ oksidator fluorinasi kuat + AuF₄⁻ stabil
+Tuliskan reaksi seng dengan N₂O₄ cair. Unsur apa yang dioksidasi dan direduksi? ||| Zn + 2N₂O₄ → Zn(NO₃)₂ + 2NO; Zn oksidasi, N (+4 → +2) reduksi
+@nitrat [P] Mengapa Cu(NO₃)₂ anhidrat tidak dapat dibuat dengan memanaskan Cu(NO₃)₂·3H₂O, dan bagaimana ia dibuat? ||| hidrat terhidrolisis menjadi nitrat basa/oksida; lewat Cu + N₂O₄ → [NO][Cu(NO₃)₃], lalu dipanaskan
+Tuliskan reaksi netralisasi NOCl dengan AgNO₃ dalam N₂O₄. ||| NOCl + AgNO₃ → AgCl + N₂O₄
+Golongkan dalam IF₅ (2IF₅ ⇌ IF₄⁺ + IF₆⁻): KF dan SbF₅. ||| KF basa; SbF₅ asam
+Mengapa N₂O₄ cair (ε~r~ = 2,4) dapat dipakai sebagai pelarut reaksi walaupun hampir tidak terionisasi? ||| ionisasi kecil cukup; reaksi melalui NO⁺/NO₃⁻ dan reaktif terhadap logam
+
+## Subbab 10.8: Lelehan garam dan cairan ionik
+
+Hitung |*U*| Kapustinskii untuk [EMIM][BF₄] dengan *r*₊ + *r*₋ ≈ 532 pm, dan bandingkan dengan NaCl (746 kJ mol⁻¹). ||| 423 kJ mol⁻¹; 57 %
+@hall [P] Berapa muatan (dalam C dan A h) dan energi listrik minimum (kWh) untuk menghasilkan 1,00 kg aluminium dengan elektrolisis pada tegangan sel 4,2 V? ||| 1,07 × 10⁷ C; 2980 A h; 12,5 kWh
+Berapa kilogram natrium yang dihasilkan sel Downs untuk setiap 1000 A h muatan? ||| 0,858 kg
+Golongkan menurut Lux–Flood: CaO, SiO₂, Na₂O, P₄O₁₀. ||| basa, asam, basa, asam
+Mengapa cairan ionik dengan kation simetris [MMIM]⁺ mempunyai titik leleh lebih tinggi daripada [BMIM]⁺? ||| kristal lebih mudah tersusun; Δ~leleh~*H* naik, Δ~leleh~*S* turun
+Berapa persen massa kolin klorida (*M* = 139,62) dalam pelarut eutektik dalam kolin klorida–urea 1 : 2 (*M* urea = 60,06)? ||| 53,8 %
+Mengapa aluminium dapat dielektrodeposisi dari cairan ionik tetapi tidak dari air? ||| jendela elektrokimia lebar; air tereduksi lebih dulu
+Mengapa cairan ionik dengan anion PF₆⁻ kurang disukai untuk penggunaan jangka panjang? ||| PF₆⁻ terhidrolisis menghasilkan HF
+
+## Subbab 10.9: Fluida superkritis
+
+Hitung massa jenis gas ideal CO₂ pada 35 °C dan 80 bar. Massa jenis nyata sekitar 0,42 g mL⁻¹. ||| 0,137 g mL⁻¹; nyata ≈ 3 kali
+Dari Gambar 10.7, tentukan fasa CO₂ pada (a) 25 °C, 70 bar; (b) 40 °C, 100 bar; (c) −90 °C, 1 bar; (d) 0 °C, 2 bar. ||| cair; superkritis; padat; gas
+Mengapa CO₂ cair tidak dapat ada pada tekanan 1 atm? ||| titik tripel pada 5,2 bar
+@kafein [P] Jelaskan dua keunggulan CO₂ superkritis dibandingkan diklorometana untuk dekafeinasi kopi, dan bagaimana kafein dipisahkan dari CO₂. ||| tidak beracun, tanpa sisa, daya larut diatur tekanan; turunkan tekanan atau cuci dengan air/karbon aktif
+Mengapa air superkritis melarutkan minyak tetapi mengendapkan garam? ||| ε~r~ turun ke 2–10, ikatan hidrogen putus
+Apa yang dimaksud titik kritis? Mengapa di atasnya gas tidak dapat dicairkan? ||| batas di atasnya fasa cair dan gas tidak dapat dibedakan
+Mengapa daya larut fluida superkritis paling peka terhadap tekanan di dekat titik kritis? ||| kompresibilitas besar: massa jenis berubah tajam
