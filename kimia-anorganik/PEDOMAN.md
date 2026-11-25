@@ -27,3 +27,15 @@ Gaya Edisi seri (`edisi/`), palet sendiri **tembaga** (kesan logam dan mineral; 
 
 ## Urutan kerja
 Bab 1 → 13 berurutan (Bab 3–4 memakai Bab 2; Bab 6 memakai Bab 5; Bab 9 memakai Bab 8). Satu sesi satu bab.
+
+## Standar mutu yang diminta penyusun (25-11-2026)
+"Jadikan bukuku yang terbaik": lengkap tanpa celah, sangat jelas ketika dibaca, banyak kalimat penjelas yang mengarahkan pikiran dan membantu membayangkan. Setiap bab diperiksa dengan daftar ini sebelum dinyatakan ☑:
+
+1. **Kelengkapan.** Cocokkan daftar subbab dengan bab yang sama di Housecroft & Sharpe, Weller dkk., Miessler–Fischer–Tarr, dan Huheey (tabel acuan di `RENCANA.md`), serta materi RPS. Setiap topik yang muncul di sedikitnya dua buku acuan harus ada.
+2. **Kalimat penjelas.** Setiap rumus didahului alasan dan diikuti arti tiap lambang; setiap langkah hitung diberi kalimat "mengapa"; setiap paragraf menjawab satu pertanyaan dan memancing pertanyaan berikutnya. Tidak ada loncatan: baca ulang setiap penurunan dengan pertanyaan "dari mana baris ini?".
+3. **Gambaran sebelum rumus.** Setiap konsep diberi gambaran yang bisa dibayangkan (perumpamaan, gambar, data nyata) sebelum didefinisikan.
+4. **Data dulu, model kemudian, lalu batas model** (kotak *Awas*).
+5. **Contoh beragam** (hitungan, pengurutan, penjelasan data, merancang), masing-masing dengan *Memahami hasil* yang menjelaskan arti, bukan mengulang jawaban.
+6. **Semua angka dihitung dengan Python** (`alat/hitung_babNN.py`, `alat/hitung_soalNN.py`) dan dicek ulang.
+7. **Gambar diperiksa visual** (tidak ada label bertumpuk, glif kotak, teks terpotong).
+8. **Baca ulang satu kali penuh sebagai mahasiswa** sebelum commit: tandai kalimat yang membuat ragu, lalu tambahkan kalimat penjelas.
