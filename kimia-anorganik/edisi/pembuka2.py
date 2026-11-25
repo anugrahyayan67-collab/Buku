@@ -5,8 +5,8 @@ import os, numpy as np, matplotlib
 matplotlib.use('Agg'); import matplotlib.pyplot as plt
 from matplotlib.patches import Circle
 E = os.path.dirname(os.path.abspath(__file__)); K = f'{E}/_kerja/pembuka'; os.makedirs(K, exist_ok=True)
-TUA, UT, MU, EM, AB = '#0f3b40', '#1f8a8a', '#a8dede', '#e9a86b', '#8a9a9a'
-WARNA = {'C': '#3b4a4b', 'H': '#f4f6f6', 'O': '#d2553b', 'N': '#3b6fb6'}
+TUA, UT, MU, EM, AB = '#2b2f36', '#55626f', '#c9d3dc', '#e0a800', '#8f969e'
+WARNA = {'C': '#3b4048', 'H': '#f5f6f7', 'O': '#d2553b', 'N': '#3b6fb6'}
 JARI = {'C': 0.30, 'H': 0.19, 'O': 0.30, 'N': 0.30}
 W, H = 8.27, 5.0
 def kanvas():
@@ -30,7 +30,7 @@ SIM = 'H He Li Be B C N O F Ne Na Mg Al Si P S Cl Ar K Ca Sc Ti V Cr Mn Fe Co Ni
 f, ax = kanvas()
 x0, x1, y0, y1 = 0.7, 7.9, 0.75, 4.2
 X = [x0 + (x1 - x0) * i / 35 for i in range(36)]; Y = [y0 + (y1 - y0) * v / 25 for v in IE]
-for xa, xb, c in [(X[2] - .1, X[9] + .1, '#e3f3f3'), (X[18] - .1, X[35] + .1, '#e3f3f3')]:
+for xa, xb, c in [(X[2] - .1, X[9] + .1, '#eceff2'), (X[18] - .1, X[35] + .1, '#eceff2')]:
     ax.add_patch(plt.Rectangle((xa, y0 - .05), xb - xa, y1 - y0 + .1, fc=c, ec='none', zorder=0))
 ax.plot(X, Y, color=UT, lw=2.2, zorder=2)
 for i, (x, y) in enumerate(zip(X, Y)):

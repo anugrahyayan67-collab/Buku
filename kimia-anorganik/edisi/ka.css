@@ -1,7 +1,7 @@
-/* Palet Kimia Anorganik 1: toska tua, toska, toska muda, tembaga */
-:root { --tua:#0f3b40; --gelap:#0f3b40; --biru:#1f8a8a; --langit:#a8dede; --muda:#eef8f8; --garis:#c6e4e4;
-        --jingga:#b4612a; --jingga-t:#e9a86b; --hangat:#b5541c; }
-section.pembuka { background: radial-gradient(ellipse at 50% 70%, #1d5a60 0%, #14444a 40%, #0b2b2f 78%, #071d20 100%); }
+/* Palet Kimia Anorganik 1: arang, abu baja, abu muda, kuning belerang */
+:root { --tua:#2b2f36; --gelap:#2b2f36; --biru:#55626f; --langit:#c9d3dc; --muda:#f1f3f5; --garis:#d6dce2;
+        --jingga:#b8860b; --jingga-t:#e0a800; --hangat:#b5541c; }
+section.pembuka { background: radial-gradient(ellipse at 50% 70%, #4a525c 0%, #353b43 40%, #22262c 78%, #181b20 100%); }
 section.pembuka .nb { color: var(--langit); }
 /* Judul seragam: gaya ringan seperti subbab 3.4 (huruf besar di awal, tebal sedang) */
 h2.sub { font-size: 14.5pt; font-weight: 700; color: var(--tua); letter-spacing: -.1px; text-transform: none;
@@ -73,11 +73,11 @@ h1.bab .judul { display: block; font-size: 21pt; font-weight: 800; color: var(--
 h1.bab .pita { justify-content: flex-start; }
 h1.bab .kata { flex: 0 0 auto; text-align: left; }
 /* ===== halaman pembuka bab gaya terang ===== */
-section.pembuka { background: linear-gradient(180deg, #dff1f1 0%, #f3fafa 48%, #ffffff 48.2%); color: var(--tua); }
+section.pembuka { background: linear-gradient(180deg, #e8ecf0 0%, #f6f7f9 48%, #ffffff 48.2%); color: var(--tua); }
 section.pembuka::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 7mm; background: var(--tua); }
 section.pembuka img.orb { top: 20mm; bottom: auto; left: 10mm; width: 195mm; height: 118mm; }
 section.pembuka .bag { top: 11mm; left: 20mm; color: var(--biru); }
-section.pembuka .cap { top: 139mm; bottom: auto; left: 20mm; right: 20mm; text-align: right; color: #5d7c7f; font-weight: 400; font-size: 8.5pt; }
+section.pembuka .cap { top: 139mm; bottom: auto; left: 20mm; right: 20mm; text-align: right; color: #6b737c; font-weight: 400; font-size: 8.5pt; }
 section.pembuka .kb { top: 158mm; left: 20mm; color: var(--jingga); }
 section.pembuka .nb { top: 163mm; left: 17mm; font-size: 80pt; letter-spacing: -3px; color: var(--biru); }
 section.pembuka h1 { top: 168mm; left: 62mm; right: 18mm; width: auto; max-width: none; font-size: 24pt; text-transform: none; color: var(--tua);
@@ -85,12 +85,12 @@ section.pembuka h1 { top: 168mm; left: 62mm; right: 18mm; width: auto; max-width
 section.pembuka h1 a.tl { color: var(--tua); }
 section.pembuka .outline { position: absolute; top: 200mm; left: 20mm; right: 18mm; }
 section.pembuka .oh { font-family: Inter, sans-serif; font-weight: 700; font-size: 10.5pt; color: #fff; background: var(--tua); padding: 1.4mm 4mm; margin-bottom: 3mm; }
-section.pembuka .outline ul { list-style: none; margin: 0; padding: 0 0 0 1mm; columns: 2; column-gap: 9mm; font-family: Inter, sans-serif; font-size: 9pt; line-height: 1.35; color: #22383a; }
+section.pembuka .outline ul { list-style: none; margin: 0; padding: 0 0 0 1mm; columns: 2; column-gap: 9mm; font-family: Inter, sans-serif; font-size: 9pt; line-height: 1.35; color: #2c3136; }
 section.pembuka .outline li { break-inside: avoid; margin: 0 0 1.4mm 0; padding-left: 9mm; text-indent: -9mm; }
 section.pembuka .outline li b { display: inline-block; width: 9mm; text-indent: 0; color: var(--biru); }
 /* revisi pembuka: panel gambar lebih kecil, nomor nila tua, judul kapital */
 section.pembuka { background: #fff; }
-section.pembuka::after { content: ""; position: absolute; left: 20mm; right: 18mm; top: 22mm; height: 98mm; background: linear-gradient(180deg, #e3f3f3, #f6fbfb); z-index: 0; }
+section.pembuka::after { content: ""; position: absolute; left: 20mm; right: 18mm; top: 22mm; height: 98mm; background: linear-gradient(180deg, #eceff2, #f8f9fa); z-index: 0; }
 section.pembuka img.orb { z-index: 1; top: 26mm; left: 26mm; width: 160mm; height: 90mm; }
 section.pembuka .cap { top: 122mm; right: 18mm; }
 section.pembuka .kb { top: 140mm; }
@@ -101,7 +101,7 @@ section.pembuka .outline { top: 182mm; }
    Semua kotak: bingkai tipis, garis aksen kiri 1,6 mm, sudut kanan membulat, judul Inter tebal sewarna aksen.
    Tiga kotak pembuka bab (Pertanyaan pembuka, Tujuan belajar, Prasyarat) memakai gaya yang sama persis. */
 div.strategi, div.tujuan, div.mat, div.inti, div.dalam, div.terapan, div.awas {
-  background: #f4fafa; color: var(--ink); border: .3mm solid var(--garis); border-left: 1.6mm solid var(--tua);
+  background: #f7f8f9; color: var(--ink); border: .3mm solid var(--garis); border-left: 1.6mm solid var(--tua);
   border-radius: 0 2mm 2mm 0; padding: 3.4mm 5.5mm 3mm 5.5mm; margin: 4.5mm 0; box-shadow: none; }
 div.strategi > p:first-child > strong:first-child, div.tujuan > p:first-child > strong:first-child,
 div.mat > p:first-child > strong:first-child, div.dalam > p:first-child > strong:first-child,
