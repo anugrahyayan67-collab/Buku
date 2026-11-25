@@ -5,7 +5,7 @@ import os, numpy as np, matplotlib
 matplotlib.use('Agg'); import matplotlib.pyplot as plt
 from matplotlib.patches import Circle
 E = os.path.dirname(os.path.abspath(__file__)); K = f'{E}/_kerja/pembuka'; os.makedirs(K, exist_ok=True)
-TUA, UT, MU, EM, AB = '#4a2511', '#c2611f', '#f6c79b', '#6f93e0', '#8f969e'
+TUA, UT, MU, EM, AB = '#4a2511', '#c2611f', '#f6c79b', '#e9b949', '#8a9a90'
 WARNA = {'C': '#3b4048', 'H': '#f5f6f7', 'O': '#d2553b', 'N': '#3b6fb6'}
 JARI = {'C': 0.30, 'H': 0.19, 'O': 0.30, 'N': 0.30}
 W, H = 8.27, 5.0

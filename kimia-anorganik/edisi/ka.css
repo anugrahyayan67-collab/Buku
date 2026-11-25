@@ -1,6 +1,6 @@
-/* Palet Kimia Anorganik 1: cokelat tua, tembaga, krem tembaga, biru kobalt */
+/* Palet Kimia Anorganik 1: cokelat tua, tembaga, krem tembaga, aksen emas (sama dengan seri) */
 :root { --tua:#4a2511; --gelap:#4a2511; --biru:#c2611f; --langit:#f6c79b; --muda:#fdf3ea; --garis:#f1d6bf;
-        --jingga:#2f5fb5; --jingga-t:#6f93e0; --hangat:#b5541c; }
+        --jingga:#b9801a; --jingga-t:#e9b949; --hangat:#b5541c; }
 section.pembuka { background: radial-gradient(ellipse at 50% 70%, #7a3d17 0%, #5c2d10 40%, #3a1c0a 78%, #2a1406 100%); }
 section.pembuka .nb { color: var(--langit); }
 /* Judul seragam: gaya ringan seperti subbab 3.4 (huruf besar di awal, tebal sedang) */

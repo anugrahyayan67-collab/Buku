@@ -17,7 +17,7 @@ def latar(nama, cx, cy, sk, redup=1.0, w=8.27, h=11.69):
     ax.imshow(CM(np.clip(d / d.max(), 0, 1) ** 0.6) * [1, 1, 1, redup], extent=[0, w, 0, h], interpolation='bicubic')
     t = np.linspace(0, 2 * np.pi, 7) + np.pi / 6
     for rr, al in [(2.2, .35), (3.4, .18)]:
-        for k2, a2 in [(6, .05), (2.5, .2), (1, 1)]: ax.plot(cx + rr * np.cos(t), cy + rr * np.sin(t), color='#6f93e0', lw=0.8 * k2, alpha=al * a2 * redup)
+        for k2, a2 in [(6, .05), (2.5, .2), (1, 1)]: ax.plot(cx + rr * np.cos(t), cy + rr * np.sin(t), color='#e9b949', lw=0.8 * k2, alpha=al * a2 * redup)
     ax.set_xlim(0, w); ax.set_ylim(0, h); f.savefig(f'{K}/{nama}', transparent=True); plt.close(f)
 # Ilustrasi panel: kisi garam batu NaCl bercahaya (Na+ biru kobalt kecil, Cl- tembaga besar) dalam proyeksi miring,
 # dengan sel satuan yang disorot dan butir cahaya di latar.
@@ -46,11 +46,11 @@ for (u, v) in [((0, 0, 0), (1, 0, 0)), ((0, 0, 0), (0, 1, 0)), ((0, 0, 0), (0, 0
                ((1, 0, 1), (1, 0, 0)), ((1, 0, 1), (0, 0, 1)), ((1, 0, 1), (1, 1, 1)), ((0, 1, 1), (0, 1, 0)), ((0, 1, 1), (0, 0, 1)), ((0, 1, 1), (1, 1, 1))]:
     p1 = proj(*(c0 + q for q in u)); p2 = proj(*(c0 + q for q in v))
     for k2, a2 in [(7, .06), (3, .16), (1.2, .9)]:
-        ax.plot([p1[0], p2[0]], [p1[1], p2[1]], color='#6f93e0', lw=k2, alpha=a2, zorder=2, solid_capstyle='round')
+        ax.plot([p1[0], p2[0]], [p1[1], p2[1]], color='#e9b949', lw=k2, alpha=a2, zorder=2, solid_capstyle='round')
 # ion, urut dari belakang ke depan
 for (x, y, z, s) in sorted(T, key=lambda t: -proj(t[0], t[1], t[2])[2]):
     X, Y, D = proj(x, y, z); dep = 0.75 + 0.25 * (1 - (D + 3) / 6)
-    if s == 0: r, c, g = 0.42, '#c2611f', '#6f93e0'   # Cl- besar
+    if s == 0: r, c, g = 0.42, '#c2611f', '#f6c79b'   # Cl- besar
     else: r, c, g = 0.22, '#5b86e5', '#a9c1f5'        # Na+ kecil (biru kobalt)
     for k2, a2 in [(3.2, .05), (2.0, .10), (1.35, .18)]:
         ax.add_patch(plt.Circle((X, Y), r * k2 * dep, color=g, alpha=a2, lw=0, zorder=3))
@@ -67,20 +67,20 @@ open(f'{K}/sampul.html', 'w').write(f'''<!doctype html><html><head><meta charset
 @page{{size:A4;margin:0}} body{{margin:0;font-family:Inter,sans-serif}}
 .pg{{width:210mm;height:297mm;position:relative;overflow:hidden;break-after:page;color:#4a2511;background:#fffaf5}}
 .bar{{position:absolute;left:0;top:0;bottom:0;width:9mm;background:#4a2511}}
-.ed{{position:absolute;top:24mm;left:22mm;font-size:9pt;letter-spacing:6px;font-weight:800;color:#2f5fb5}}
+.ed{{position:absolute;top:24mm;left:22mm;font-size:9pt;letter-spacing:6px;font-weight:800;color:#b9801a}}
 .pen{{position:absolute;top:24mm;right:18mm;font-size:9pt;font-weight:800;letter-spacing:6px;color:#4a2511}}
 .jd{{position:absolute;top:36mm;left:20mm;font-size:54pt;font-weight:900;line-height:.88;letter-spacing:-1px;color:#4a2511}}
 .jd span{{color:#c2611f}}
-.sb{{position:absolute;top:77mm;left:22mm;width:130mm;font-size:13pt;line-height:1.45;color:#6b4a35;border-top:.6mm solid #c2611f;padding-top:4mm}}
+.sb{{position:absolute;top:77mm;left:22mm;width:130mm;font-size:13pt;line-height:1.45;color:#6b4a35;border-top:.6mm solid #d79a2b;padding-top:4mm}}
 .panel{{position:absolute;left:22mm;right:18mm;top:98mm;bottom:22mm;background:radial-gradient(ellipse at 50% 60%,#7a3d17 0%,#5c2d10 55%,#3a1c0a 100%)}}
 .panel img{{position:absolute;left:4%;top:5%;width:92%;height:90%;object-fit:contain}}
-.ln{{position:absolute;bottom:22mm;left:22mm;width:40mm;height:.7mm;background:#c2611f}}
+.ln{{position:absolute;bottom:22mm;left:22mm;width:40mm;height:.7mm;background:#d79a2b}}
 .pers{{position:absolute;right:6mm;bottom:4mm;font-family:Caladea,serif;font-style:italic;font-size:13pt;color:rgba(250,222,210,.85)}}
 .blk .isi{{position:absolute;top:24mm;left:22mm;right:20mm}}
 .blk h2{{font-size:18pt;font-weight:900;margin:0 0 6mm 0;text-transform:uppercase;letter-spacing:1.5px;line-height:1.2;color:#4a2511}} .blk h2 span{{color:#c2611f}}
 .blk p{{font-size:10.5pt;line-height:1.6;color:#3a2a1f;margin:0 0 3.5mm 0;font-family:Caladea,serif}}
 .blk ul{{list-style:none;padding:0;margin:8mm 0 0 0;columns:2;column-gap:10mm;font-size:9.2pt;border-top:.5mm solid #4a2511;padding-top:5mm;color:#3a2a1f}}
-.blk li{{margin:0 0 2.2mm 0;padding-left:8mm;text-indent:-8mm;break-inside:avoid}} .blk li b{{display:inline-block;width:8mm;text-indent:0;color:#2f5fb5}}
+.blk li{{margin:0 0 2.2mm 0;padding-left:8mm;text-indent:-8mm;break-inside:avoid}} .blk li b{{display:inline-block;width:8mm;text-indent:0;color:#b9801a}}
 .tp{{position:absolute;left:22mm;right:20mm;bottom:22mm;background:#fcefe3;padding:5mm 6mm;font-family:Caladea,serif;font-size:10pt;line-height:1.55;color:#3a2a1f}}
 .tp b{{font-family:Inter,sans-serif;font-size:8.5pt;letter-spacing:2px;color:#c2611f;display:block;margin-bottom:1.5mm}}
 </style></head><body>

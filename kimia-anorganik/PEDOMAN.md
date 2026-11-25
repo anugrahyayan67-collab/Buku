@@ -23,7 +23,7 @@ Mahasiswa semester 2 yang sudah mengikuti Kimia Dasar, Fisika Umum, dan Kimia Ku
 matplotlib (dan RDKit bila perlu), palet gambar seri (`CLAUDE.md`). Struktur kristal dan molekul tiga dimensi dengan proyeksi sederhana di matplotlib. Skrip di `alat/gambar/babNN.py`, PNG di `babNN/fig/`.
 
 ## Desain
-Gaya Edisi seri (`edisi/`), palet sendiri **tembaga–biru kobalt** (kesan logam dan mineral; dipilih penyusun 25-11-2026): tua `#4a2511`, utama `#c2611f`, muda `#f6c79b`, aksen biru kobalt `#2f5fb5` (terang `#6f93e0`).py`.
+Gaya Edisi seri (`edisi/`), palet sendiri **tembaga** (kesan logam dan mineral; dipilih penyusun 25-11-2026): tua `#4a2511`, utama `#c2611f`, muda `#f6c79b`; aksen **emas** `#b9801a` / `#e9b949` sama dengan buku lain agar seragam. Biru kobalt `#5b86e5` hanya di ilustrasi sampul (ion Na⁺).py`.
 
 ## Urutan kerja
 Bab 1 → 13 berurutan (Bab 3–4 memakai Bab 2; Bab 6 memakai Bab 5; Bab 9 memakai Bab 8). Satu sesi satu bab.
