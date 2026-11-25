@@ -8,14 +8,14 @@ Keelektronegatifan tidak dapat diukur langsung seperti energi ionisasi. Karena i
 
 Linus Pauling (1932) memperhatikan bahwa ikatan antara dua atom yang berbeda, A–B, hampir selalu **lebih kuat** daripada rata-rata ikatan A–A dan B–B. Misalnya, energi ikatan H–H 436 kJ mol⁻¹, Cl–Cl 243 kJ mol⁻¹, dan rata-rata geometriknya $\sqrt{436 \times 243} = 325{,}5$ kJ mol⁻¹. Ikatan H–Cl ternyata 432 kJ mol⁻¹, lebih kuat 106 kJ mol⁻¹. Pauling menafsirkan kelebihan ini sebagai sumbangan **ionik**: karena klorin menarik elektron lebih kuat, ikatan H–Cl mempunyai sedikit sifat H^δ+^–Cl^δ−^, dan tarikan elektrostatik itu menambah kekuatan ikatan. Makin besar selisih kemampuan menarik elektron, makin besar kelebihan energinya. Pauling merumuskan
 
-$$|\chi_\text{A} - \chi_\text{B}| = 0{,}102\sqrt{\Delta}, \qquad \Delta = D(\text{A–B}) - \sqrt{D(\text{A–A})\,D(\text{B–B})} \qquad \text{(1.4)}$$
+$$|\chi_\text{A} - \chi_\text{B}| = 0{,}102\sqrt{\Delta}, \qquad \Delta = D(\text{A–B}) - \sqrt{D(\text{A–A})\,D(\text{B–B})} \qquad \text{(1.5)}$$
 
 dengan semua energi ikatan dalam kJ mol⁻¹. Persamaan ini hanya memberi **selisih**, sehingga satu titik acuan harus ditetapkan. Pada skala modern, fluorin diberi nilai 3,98.
 
 ::: {.contoh}
 **Contoh 1.11 · Selisih keelektronegatifan H dan F**
 
-Energi ikatan: H–H 436, F–F 159, H–F 570 kJ mol⁻¹. Hitung |χ_F − χ_H| dengan persamaan (1.4), lalu bandingkan dengan tabel (F 3,98; H 2,20).
+Energi ikatan: H–H 436, F–F 159, H–F 570 kJ mol⁻¹. Hitung |χ_F − χ_H| dengan persamaan (1.5), lalu bandingkan dengan tabel (F 3,98; H 2,20).
 
 **Penyelesaian.** Rata-rata geometrik: $\sqrt{436 \times 159} = 263{,}3$ kJ mol⁻¹. Kelebihan energi: $\Delta = 570 - 263{,}3 = 306{,}7$ kJ mol⁻¹. Maka
 
@@ -30,7 +30,7 @@ Tabel memberi $3{,}98 - 2{,}20 = 1{,}78$.
 
 Robert Mulliken (1934) mengusulkan definisi yang lebih langsung. Atom yang sulit melepas elektron (*I* besar) **dan** senang menerima elektron (*A* besar) pasti menarik elektron ikatan dengan kuat. Maka keelektronegatifan sebanding dengan rata-rata keduanya:
 
-$$\chi_\text{M} = \tfrac{1}{2}(I + A) \qquad \text{(1.5)}$$
+$$\chi_\text{M} = \tfrac{1}{2}(I + A) \qquad \text{(1.6)}$$
 
 dalam eV. Nilai Mulliken dapat diubah ke skala Pauling dengan hubungan empiris $\chi_\text{P} \approx 0{,}187(I + A) + 0{,}17$. Untuk klorin, $I + A = 12{,}968 + 3{,}613 = 16{,}581$ eV, sehingga $\chi_\text{M} = 8{,}29$ eV dan $\chi_\text{P} \approx 3{,}27$, dekat dengan nilai Pauling 3,16. Kelebihan skala Mulliken: memakai besaran yang terukur dengan sangat tepat dan mempunyai arti fisis yang jelas. Kekurangannya: afinitas elektron belum diketahui untuk banyak unsur, dan atom dalam ikatan tidak persis sama dengan atom bebas.
 
@@ -38,7 +38,7 @@ dalam eV. Nilai Mulliken dapat diubah ke skala Pauling dengan hubungan empiris $
 
 Allred dan Rochow (1958) mengambil pendekatan yang paling dekat dengan gagasan bab ini. Elektron ikatan berada kira-kira di "permukaan" atom, pada jarak jari-jari kovalen *r*. Gaya tarik yang dirasakannya sebanding dengan $Z_\text{ef}/r^2$ (hukum Coulomb). Setelah diskalakan agar cocok dengan nilai Pauling:
 
-$$\chi_\text{AR} = 0{,}744 + \frac{3590\, Z_\text{ef}}{r^2} \qquad \text{(1.6)}$$
+$$\chi_\text{AR} = 0{,}744 + \frac{3590\, Z_\text{ef}}{r^2} \qquad \text{(1.7)}$$
 
 dengan *r* dalam pm. *Z*ₑf dihitung dengan aturan Slater, dengan **semua** elektron valensi atom ikut melindungi (karena elektron ikatan yang ditinjau berasal dari luar, misalnya dari atom pasangannya).
 
@@ -73,7 +73,7 @@ Gambar 1.9 menunjukkan bahwa ketiga skala memberi urutan yang hampir sama, dan i
 :::
 
 ::: {.kuis}
-**Kuis cepat 1.11** Mengapa keelektronegatifan naik sepanjang periode dan turun ke bawah golongan? Jawab dengan persamaan (1.6). Mengapa skala Pauling memerlukan satu nilai acuan?
+**Kuis cepat 1.11** Mengapa keelektronegatifan naik sepanjang periode dan turun ke bawah golongan? Jawab dengan persamaan (1.7). Mengapa skala Pauling memerlukan satu nilai acuan?
 :::
 
 ## 1.12 Polarisabilitas dan aturan Fajans

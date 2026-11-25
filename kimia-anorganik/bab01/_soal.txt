@@ -27,8 +27,8 @@ Mengapa orbital 2s dan 2p atom hidrogen terdegenerasi, sedangkan pada atom litiu
 
 ## Subbab 1.4: Atom berelektron banyak: perisai dan penetrasi
 
-@kalium [P] Garis 4s → 4p kalium ada pada 766,5 nm dan energi ionisasinya 4,341 eV. Hitung *Z*ₑf untuk elektron 4s dan 4p dengan persamaan (1.3). ||| 4s 2,26; 4p 1,79
-Energi ionisasi Rb 4,177 eV dan Cs 3,894 eV. Hitung *Z*ₑf elektron 5s dan 6s dengan persamaan (1.3). Apa yang kamu perhatikan dibandingkan Na (1,84)? ||| Rb 2,77; Cs 3,21; Z_ef naik ke bawah golongan, tetapi n juga naik sehingga energi ionisasi tetap turun
+@kalium [P] Garis 4s → 4p kalium ada pada 766,5 nm dan energi ionisasinya 4,341 eV. Hitung *Z*ₑf untuk elektron 4s dan 4p dengan persamaan (1.4). ||| 4s 2,26; 4p 1,79
+Energi ionisasi Rb 4,177 eV dan Cs 3,894 eV. Hitung *Z*ₑf elektron 5s dan 6s dengan persamaan (1.4). Apa yang kamu perhatikan dibandingkan Na (1,84)? ||| Rb 2,77; Cs 3,21; Z_ef naik ke bawah golongan, tetapi n juga naik sehingga energi ionisasi tetap turun
 Mengapa *Z*ₑf untuk elektron 3d natrium hampir tepat 1,00? ||| orbital 3d hampir tidak menembus kulit [Ne], sehingga perisainya hampir sempurna
 Jelaskan dengan fungsi sebaran radial mengapa elektron 2s menembus lebih banyak daripada 2p. ||| 2s mempunyai puncak kecil di dekat inti (satu simpul radial), 2p tidak
 Urutkan energi orbital 4s, 4p, 4d, 4f dalam atom berelektron banyak dan jelaskan. ||| 4s < 4p < 4d < 4f; penetrasi berkurang dengan l
@@ -99,8 +99,8 @@ Mengapa emas mempunyai afinitas elektron yang besar (2,31 eV) untuk ukuran sebua
 
 ## Subbab 1.11: Keelektronegatifan
 
-@pauling [P] Energi ikatan H–H 436, Br–Br 193, H–Br 366 kJ mol⁻¹. Hitung |χ_Br − χ_H| dengan persamaan (1.4) dan bandingkan dengan tabel (2,96 − 2,20). ||| 0,89; tabel 0,76
-Energi ikatan H–I 298 dan I–I 151 kJ mol⁻¹. Hitung |χ_I − χ_H| dengan persamaan (1.4). ||| 0,66 (tabel 0,46)
+@pauling [P] Energi ikatan H–H 436, Br–Br 193, H–Br 366 kJ mol⁻¹. Hitung |χ_Br − χ_H| dengan persamaan (1.5) dan bandingkan dengan tabel (2,96 − 2,20). ||| 0,89; tabel 0,76
+Energi ikatan H–I 298 dan I–I 151 kJ mol⁻¹. Hitung |χ_I − χ_H| dengan persamaan (1.5). ||| 0,66 (tabel 0,46)
 Hitung keelektronegatifan Mulliken brom (*I* = 11,814 eV, *A* = 3,364 eV) dan ubah ke skala Pauling. ||| χ_M = 7,59 eV; χ_P ≈ 3,01
 Hitung χ_AR untuk oksigen (*r* = 73 pm) dan silikon (*r* = 117 pm). ||| O 3,57; Si 1,74
 Hitung persen sifat ionik ikatan K–Cl dan Li–I menurut Pauling. ||| KCl 75 %; LiI 51 %

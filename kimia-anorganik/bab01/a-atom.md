@@ -125,6 +125,14 @@ $$E_n = -\frac{Z^2}{n^2}\,R, \qquad R = 13{,}606\ \text{eV} \qquad \text{(1.1)}$
 
 *R* adalah energi Rydberg, sama dengan energi ionisasi atom hidrogen dalam keadaan dasar. Karena energi hanya bergantung pada *n*, orbital 2s dan 2p atom hidrogen mempunyai energi yang persis sama. Keadaan seperti ini disebut **terdegenerasi**. Kita akan melihat sebentar lagi bahwa degenerasi ini **hilang** begitu atom mempunyai lebih dari satu elektron, dan hilangnya degenerasi itulah yang membentuk tabel periodik.
 
+### Bukti dari spektrum hidrogen
+
+Persamaan (1.1) bukan sekadar hasil teori. Ketika gas hidrogen dialiri listrik, atom-atomnya tereksitasi lalu memancarkan cahaya pada panjang gelombang tertentu saja, bukan spektrum yang malar. Setiap garis berasal dari loncatan elektron dari tingkat *n*₂ ke tingkat yang lebih rendah *n*₁, dengan energi foton sama dengan selisih kedua tingkat:
+
+$$E_\text{foton} = R\left(\frac{1}{n_1^2} - \frac{1}{n_2^2}\right) \qquad \text{(1.2)}$$
+
+Loncatan yang berakhir di *n*₁ = 2 menghasilkan **deret Balmer** yang tampak oleh mata: garis merah 656 nm (3 → 2), biru-hijau 486 nm (4 → 2), dan ungu 434 nm (5 → 2). Loncatan ke *n*₁ = 1 menghasilkan **deret Lyman** di ultraungu. Kecocokan sempurna antara garis-garis terukur dan persamaan ini adalah salah satu bukti terkuat bahwa energi elektron dalam atom benar-benar terkuantisasi. Penurunan lengkapnya ada di subbab 7.11 *Kimia Kuantum*.
+
 ### Simpul
 
 Fungsi gelombang mempunyai daerah tempat nilainya nol, yang disebut **simpul**. Ada dua jenis:
@@ -173,7 +181,7 @@ Atom litium mempunyai tiga elektron: dua di orbital 1s dan satu di orbital kulit
 
 Bayangkan elektron terluar litium melihat ke arah inti. Inti bermuatan +3, tetapi di antara inti dan elektron itu terdapat dua elektron 1s yang bermuatan negatif. Kedua elektron 1s itu "menghalangi" sebagian tarikan inti. Efek ini disebut **perisai** (*shielding* atau *screening*). Elektron terluar seakan-akan hanya merasakan muatan inti yang lebih kecil, yang disebut **muatan inti efektif**:
 
-$$Z_\text{ef} = Z - S \qquad \text{(1.2)}$$
+$$Z_\text{ef} = Z - S \qquad \text{(1.3)}$$
 
 *S* adalah **tetapan perisai**, yang menyatakan berapa besar muatan inti yang tertutupi oleh elektron-elektron lain. Kalau perisai sempurna, dua elektron 1s menutupi tepat dua satuan muatan, sehingga elektron terluar litium merasakan *Z*ₑf = 3 − 2 = 1, persis seperti elektron pada atom hidrogen.
 
@@ -199,14 +207,14 @@ $$E_\text{foton} = \frac{hc}{\lambda} = \frac{1239{,}84\ \text{eV nm}}{670{,}8\ 
 
 Jadi elektron di orbital 2p terikat dengan energi 5,392 − 1,848 = 3,544 eV, lebih lemah daripada di 2s. Kita dapat mengubah energi ikat ini menjadi muatan inti efektif dengan membalik persamaan (1.1): sebuah elektron dengan energi ikat *I* di kulit *n* "terasa seperti" elektron pada atom hidrogenik dengan muatan
 
-$$Z_\text{ef} = n\sqrt{\frac{I}{R}} \qquad \text{(1.3)}$$
+$$Z_\text{ef} = n\sqrt{\frac{I}{R}} \qquad \text{(1.4)}$$
 
 ::: {.contoh}
 **Contoh 1.3 · Muatan inti efektif dari spektrum litium dan natrium**
 
 Hitung *Z*ₑf untuk elektron 2s dan 2p litium, serta 3s, 3p, dan 3d natrium. Data: energi ionisasi Na 5,139 eV; garis kuning Na 589,0 nm (3s → 3p); tingkat 3d natrium terletak 29 172,8 cm⁻¹ di atas keadaan dasar.
 
-**Penyelesaian.** *Litium.* Dengan persamaan (1.3): 2s, $2\sqrt{5{,}392/13{,}606} = 1{,}26$; 2p, $2\sqrt{3{,}544/13{,}606} = 1{,}02$.
+**Penyelesaian.** *Litium.* Dengan persamaan (1.4): 2s, $2\sqrt{5{,}392/13{,}606} = 1{,}26$; 2p, $2\sqrt{3{,}544/13{,}606} = 1{,}02$.
 
 *Natrium.* Energi foton 589,0 nm adalah $1239{,}84/589{,}0 = 2{,}105$ eV, sehingga energi ikat 3p adalah $5{,}139 - 2{,}105 = 3{,}035$ eV. Tingkat 3d berada $29\,172{,}8 / 8065{,}54 = 3{,}617$ eV di atas keadaan dasar, sehingga energi ikatnya $5{,}139 - 3{,}617 = 1{,}522$ eV. Maka
 
@@ -268,7 +276,7 @@ $$S = 6(0{,}35) + 8(0{,}85) + 2(1{,}00) = 2{,}10 + 6{,}80 + 2{,}00 = 10{,}90, \q
 
 Gambar 1.2 memperlihatkan *Z*ₑf elektron terluar untuk 18 unsur pertama. Dua pola langsung terlihat.
 
-![Gambar 1.2 Muatan inti efektif elektron terluar untuk unsur H sampai Ar. Lingkaran: aturan Slater. Kotak: nilai yang menghasilkan energi ionisasi terukur menurut persamaan (1.3). Keduanya naik sepanjang periode dan turun tajam di awal periode baru (Li, Na), walaupun besarnya berbeda.](fig/a_zeff.png){width=84%}
+![Gambar 1.2 Muatan inti efektif elektron terluar untuk unsur H sampai Ar. Lingkaran: aturan Slater. Kotak: nilai yang menghasilkan energi ionisasi terukur menurut persamaan (1.4). Keduanya naik sepanjang periode dan turun tajam di awal periode baru (Li, Na), walaupun besarnya berbeda.](fig/a_zeff.png){width=84%}
 
 * **Sepanjang periode, *Z*ₑf naik.** Dari litium ke neon, setiap langkah menambah satu proton dan satu elektron di kelompok yang sama. Proton itu menambah muatan inti satu satuan penuh, tetapi elektron baru hanya melindungi 0,35. Jadi *Z*ₑf naik sekitar 0,65 setiap langkah.
 * **Di awal periode baru, *Z*ₑf turun tajam.** Elektron pertama di kulit baru (Li, Na) dilindungi oleh seluruh kulit yang sudah penuh di bawahnya.

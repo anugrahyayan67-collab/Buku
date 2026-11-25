@@ -133,9 +133,9 @@ Data: *R* = 13,606 eV; 1 eV = 96,485 kJ mol⁻¹; *hc* = 1239,84 eV nm; 1 eV = 8
 
 ## Subbab 1.4: Atom berelektron banyak: perisai dan penetrasi
 
-**17.** [P] Garis 4s → 4p kalium ada pada 766,5 nm dan energi ionisasinya 4,341 eV. Hitung *Z*ₑf untuk elektron 4s dan 4p dengan persamaan (1.3).
+**17.** [P] Garis 4s → 4p kalium ada pada 766,5 nm dan energi ionisasinya 4,341 eV. Hitung *Z*ₑf untuk elektron 4s dan 4p dengan persamaan (1.4).
 
-**18.** Energi ionisasi Rb 4,177 eV dan Cs 3,894 eV. Hitung *Z*ₑf elektron 5s dan 6s dengan persamaan (1.3). Apa yang kamu perhatikan dibandingkan Na (1,84)?
+**18.** Energi ionisasi Rb 4,177 eV dan Cs 3,894 eV. Hitung *Z*ₑf elektron 5s dan 6s dengan persamaan (1.4). Apa yang kamu perhatikan dibandingkan Na (1,84)?
 
 **19.** Mengapa *Z*ₑf untuk elektron 3d natrium hampir tepat 1,00?
 
@@ -249,9 +249,9 @@ Data: *R* = 13,606 eV; 1 eV = 96,485 kJ mol⁻¹; *hc* = 1239,84 eV nm; 1 eV = 8
 
 ## Subbab 1.11: Keelektronegatifan
 
-**68.** [P] Energi ikatan H–H 436, Br–Br 193, H–Br 366 kJ mol⁻¹. Hitung |χ_Br − χ_H| dengan persamaan (1.4) dan bandingkan dengan tabel (2,96 − 2,20).
+**68.** [P] Energi ikatan H–H 436, Br–Br 193, H–Br 366 kJ mol⁻¹. Hitung |χ_Br − χ_H| dengan persamaan (1.5) dan bandingkan dengan tabel (2,96 − 2,20).
 
-**69.** Energi ikatan H–I 298 dan I–I 151 kJ mol⁻¹. Hitung |χ_I − χ_H| dengan persamaan (1.4).
+**69.** Energi ikatan H–I 298 dan I–I 151 kJ mol⁻¹. Hitung |χ_I − χ_H| dengan persamaan (1.5).
 
 **70.** Hitung keelektronegatifan Mulliken brom (*I* = 11,814 eV, *A* = 3,364 eV) dan ubah ke skala Pauling.
 
@@ -372,7 +372,7 @@ Data: *R* = 13,606 eV; 1 eV = 96,485 kJ mol⁻¹; *hc* = 1239,84 eV nm; 1 eV = 8
 
 # Pembahasan soal terpilih
 
-**Soal 17.** Energi foton 766,5 nm adalah $1239{,}84/766{,}5 = 1{,}6175$ eV. Elektron 4s terikat dengan energi 4,341 eV, sehingga elektron 4p terikat dengan $4{,}341 - 1{,}6175 = 2{,}723$ eV. Dengan persamaan (1.3) dan *n* = 4:
+**Soal 17.** Energi foton 766,5 nm adalah $1239{,}84/766{,}5 = 1{,}6175$ eV. Elektron 4s terikat dengan energi 4,341 eV, sehingga elektron 4p terikat dengan $4{,}341 - 1{,}6175 = 2{,}723$ eV. Dengan persamaan (1.4) dan *n* = 4:
 
 $$Z_\text{ef}(4\text{s}) = 4\sqrt{\frac{4{,}341}{13{,}606}} = 2{,}26, \qquad Z_\text{ef}(4\text{p}) = 4\sqrt{\frac{2{,}723}{13{,}606}} = 1{,}79$$
 

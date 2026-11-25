@@ -104,6 +104,10 @@ VSEPR sangat berhasil untuk senyawa unsur blok p, tetapi ada tiga golongan senya
 * **Molekul ionik logam berat dalam fase gas.** VSEPR meramalkan semua dihalida golongan 2 linear (dua daerah). BeF₂ dan MgF₂ memang linear, tetapi CaF₂, SrF₂, dan BaF₂ dalam fase gas **bengkok**, dengan sudut sekitar 140°, 108°, dan 100°. Kation yang besar mempunyai kulit (n − 1)d yang dapat terpolarisasi oleh ion fluorida, dan polarisasi itulah yang membengkokkan molekul.
 * **Kompleks logam transisi.** Bentuk kompleks ditentukan terutama oleh elektron d dan interaksinya dengan ligan, bukan oleh tolakan pasangan elektron. [Ni(CN)₄]²⁻ berbentuk segi empat datar, sedangkan [NiCl₄]²⁻ tetrahedron, walaupun keduanya mempunyai empat ligan. Penjelasannya memerlukan teori medan kristal (Bab 11).
 
+### Model kemasan rapat ligan
+
+Ronald Gillespie sendiri, salah satu pencipta VSEPR, kemudian mengusulkan cara pandang pelengkap yang disebut **model kemasan rapat ligan** (*ligand close packing*, LCP). Pada molekul dengan atom pusat kecil dan ligan besar yang elektronegatif, seperti BF₃, CF₄, dan BeF₂ dalam kristal, yang menentukan bentuk bukan terutama tolakan pasangan elektron, melainkan **ligan-ligan yang saling bersentuhan** di sekitar atom pusat, seperti bola-bola yang dikemas rapat. Ukuran setiap ligan dinyatakan dengan **jari-jari ligan** yang hampir tetap dari satu senyawa ke senyawa lain. Contohnya, jarak F···F antar-ligan dalam banyak fluorida boron dan karbon hampir selalu sekitar 250 pm, walaupun panjang ikatan B–F dan C–F berbeda-beda. Model ini menjelaskan mengapa sudut ikatan berubah ketika ligan lain ditambahkan ke atom pusat yang sama: jarak antar-ligan tetap, sedangkan panjang ikatan menyesuaikan. VSEPR dan LCP tidak saling bertentangan. VSEPR lebih cocok bila pasangan bebas berperan besar, LCP lebih cocok bila atom pusat kecil dikelilingi ligan yang besar.
+
 ::: {.contoh}
 **Contoh 2.8 · Dua ion dengan tujuh daerah elektron**
 

@@ -99,7 +99,7 @@
 
 # Pembahasan soal terpilih
 
-**Soal {{kalium}}.** Energi foton 766,5 nm adalah $1239{,}84/766{,}5 = 1{,}6175$ eV. Elektron 4s terikat dengan energi 4,341 eV, sehingga elektron 4p terikat dengan $4{,}341 - 1{,}6175 = 2{,}723$ eV. Dengan persamaan (1.3) dan *n* = 4:
+**Soal {{kalium}}.** Energi foton 766,5 nm adalah $1239{,}84/766{,}5 = 1{,}6175$ eV. Elektron 4s terikat dengan energi 4,341 eV, sehingga elektron 4p terikat dengan $4{,}341 - 1{,}6175 = 2{,}723$ eV. Dengan persamaan (1.4) dan *n* = 4:
 
 $$Z_\text{ef}(4\text{s}) = 4\sqrt{\frac{4{,}341}{13{,}606}} = 2{,}26, \qquad Z_\text{ef}(4\text{p}) = 4\sqrt{\frac{2{,}723}{13{,}606}} = 1{,}79$$
 
