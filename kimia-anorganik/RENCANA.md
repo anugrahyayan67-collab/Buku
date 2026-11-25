@@ -87,7 +87,7 @@ Catatan Bab 2 (25-11-2026): 13 subbab (termasuk gaya-gaya kimia dan ikatan hidro
 ### ☑ Bab 11 Pengantar Senyawa Koordinasi
 11.1 Werner dan lahirnya kimia koordinasi · 11.2 Ligan: donor, gigi, dan kelat · 11.3 Tata nama IUPAC · 11.4 Bilangan koordinasi dan geometri · 11.5 Isomer: struktural dan stereo · 11.6 Teori ikatan valensi untuk kompleks · 11.7 Teori medan kristal: pemisahan oktahedral dan tetrahedral · 11.8 Spin tinggi, spin rendah, dan energi stabilisasi medan kristal · 11.9 Aturan 18 elektron · 11.10 Kestabilan kompleks dan efek kelat
 
-### ☐ Bab 12 Hidrogen dan Gas Mulia
+### ☑ Bab 12 Hidrogen dan Gas Mulia
 12.1 Hidrogen: isotop dan sifat H₂ · 12.2 Produksi dan pemakaian hidrogen · 12.3 Hidrida ionik, kovalen, dan logam · 12.4 Ikatan hidrogen dan akibatnya · 12.5 Air dan es · 12.6 Gas mulia: sifat dan keberadaan · 12.7 Senyawa xenon: fluorida, oksida, dan bentuknya · 12.8 Penerapan gas mulia
 
 ### ☐ Bab 13 Kimia Inti dan Radiokimia

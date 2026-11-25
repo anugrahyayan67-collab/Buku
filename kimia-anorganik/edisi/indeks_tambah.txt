@@ -365,3 +365,33 @@ efek makrosiklik
 kompleks inert
 kompleks labil
 EDTA
+deuterium
+tritium
+efek isotop
+efek isotop kinetik
+energi titik nol
+orto-hidrogen
+para-hidrogen
+reformasi uap metana
+reaksi geser air–gas
+hidrida ionik
+hidrida kovalen
+hidrida logam
+ikatan dihidrogen
+klatrat hidrat
+hidrat metana
+es Ih
+aturan es
+entropi sisa
+mekanisme Grotthuss
+gas mulia
+argon
+helium
+superfluida
+xenon difluorida
+xenon tetrafluorida
+xenon heksafluorida
+xenon trioksida
+perxenat
+kripton difluorida
+radon

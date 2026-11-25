@@ -1,0 +1,101 @@
+## Subbab 12.1: Hidrogen: isotop dan sifat H₂
+
+> 1 cm⁻¹ = 0,011963 kJ mol⁻¹; *F* = 96 485 C mol⁻¹; *R* = 8,314 J K⁻¹ mol⁻¹; volume molar gas STP 22,414 L mol⁻¹. Soal bertanda **[P]** dibahas di akhir bab.
+
+Sebutkan dua alasan hidrogen dapat diletakkan di atas golongan 1 dan dua alasan di atas golongan 17. ||| satu elektron valensi, membentuk H⁺; diatomik, membentuk H⁻
+Mengapa H⁺ tidak pernah ada sebagai ion bebas dalam larutan? ||| energi ionisasi besar dan ukuran sangat kecil; langsung terikat pada pasangan elektron (H₃O⁺)
+Hitung energi titik nol HD (ω = 3813 cm⁻¹). Urutkan H₂, HD, D₂ menurut energi disosiasi *D*₀. ||| 22,8 kJ mol⁻¹; H₂ < HD < D₂
+@kie [P] Perkirakan *k*~H~/*k*~D~ pada 25 °C untuk reaksi yang memutus ikatan O–H (3600 cm⁻¹), bila seluruh selisih energi titik nol hilang di keadaan transisi. ||| ≈ 13
+Berapa persen tritium yang tersisa setelah 24,6 tahun? ||| 25 %
+Mengapa efek isotop jauh lebih besar untuk H/D daripada ¹²C/¹³C? ||| rasio massa 2 lawan 1,08
+Pada 77 K (nitrogen cair), berapa persen para-H₂ dalam kesetimbangan (Gambar 12.1)? Mengapa hidrogen yang didinginkan cepat tetap 25 % para? ||| ≈ 52 %; konversi orto–para sangat lambat tanpa katalis
+Hitung energi yang dilepas per mol pada konversi *J* = 1 → 0 untuk D₂ (*B* = 30,44 cm⁻¹). ||| 0,73 kJ mol⁻¹
+
+
+## Subbab 12.2: Produksi dan pemakaian hidrogen
+
+Tuliskan reaksi reformasi uap metana dan reaksi geser air–gas, lalu jumlahkan. ||| CH₄ + 2H₂O → CO₂ + 4H₂
+Berapa kg CO₂ yang dihasilkan per kg H₂ menurut stoikiometri reaksi gabungan reformasi uap? ||| 5,46 kg
+@elektro [P] Sebuah elektroliser bekerja pada 1,80 V dengan efisiensi arus 100 %. Hitung energi listrik per kg H₂ dan efisiensinya terhadap nilai kalor atas (39,4 kWh kg⁻¹). ||| 47,9 kWh kg⁻¹; 82 %
+Mengapa elektroliser nyata memerlukan tegangan jauh di atas 1,23 V? ||| overpotensial, terutama O₂; hambatan; 1,48 V termonetral
+Berapa liter volume tangki untuk menyimpan 5 kg H₂ pada 700 bar (40,2 kg m⁻³) dan sebagai cairan (70,8 kg m⁻³)? ||| 124 L; 71 L
+Sebutkan tiga pemakaian utama hidrogen sebagai bahan kimia. ||| kilang (hidrodesulfurisasi, hydrocracking), amonia, metanol
+Mengapa hidrogen disebut pembawa energi, bukan sumber energi? ||| tidak ada H₂ bebas; energi yang dikeluarkan ≤ yang dimasukkan
+
+
+Tuliskan reaksi sintesis metanol dan amonia dari hidrogen. ||| CO + 2H₂ → CH₃OH; N₂ + 3H₂ ⇌ 2NH₃
+
+## Subbab 12.3: Hidrida ionik, kovalen, dan logam
+
+Tuliskan reaksi CaH₂ dengan air. Berapa gram air yang dapat diikat 1,00 g CaH₂? ||| CaH₂ + 2H₂O → Ca(OH)₂ + 2H₂; 0,856 g
+Bagaimana elektrolisis lelehan LiH membuktikan adanya ion H⁻? ||| H₂ terbentuk di anode
+Golongkan B₂H₆, CH₄, NH₃, dan HF sebagai hidrida kekurangan elektron, tepat elektron, atau kaya elektron. ||| kekurangan; tepat; kaya; kaya
+@stabil [P] Jelaskan mengapa SnH₄ (Δ~f~*H*° = +163 kJ mol⁻¹) terurai bila dipanaskan sedikit, sedangkan CH₄ (−75) stabil. Bagaimana SnH₄ dapat dibuat? ||| ikatan Sn–H lemah (tumpang tindih buruk); dari SnCl₄ + LiAlH₄
+Ramalkan polaritas H dalam SiH₄ dan dalam H₂S. Mana yang bereaksi dengan basa melepaskan H₂? ||| SiH₄ hidridik (bereaksi), H₂S protik
+Hitung persen massa hidrogen dalam NaBH₄ dan NH₃BH₃. ||| 10,7 %; 19,6 %
+Berapa mL H₂ (STP) diserap 1,00 cm³ Pd bila komposisinya PdH~0,6~? ||| 759 mL
+Mengapa membran paladium hanya meloloskan hidrogen? ||| H₂ terdisosiasi menjadi atom H yang berdifusi di kisi
+
+Hitung energi kisi LiH dengan persamaan Kapustinskii (*r*~Li+~ = 76, *r*~H−~ = 140 pm). ||| ≈ 936 kJ mol⁻¹ (Born–Haber ≈ 920)
+Tuliskan reaksi LiAlH₄ dengan air. ||| LiAlH₄ + 4H₂O → LiOH + Al(OH)₃ + 4H₂
+
+## Subbab 12.4: Ikatan hidrogen dan akibatnya
+
+Urutkan menurut bilangan gelombang regang O–H: uap air, air cair, es. ||| es (3200) < cair (3400) < uap (3700)
+Jelaskan mengapa NH₃BH₃ padat pada suhu kamar sedangkan etana gas. ||| ikatan dihidrogen N–H···H–B
+@hidrat2 [P] Klatrat CO₂ hidrat mempunyai rumus ideal CO₂·5,75H₂O dan massa jenis sekitar 1,1 g cm⁻³. Berapa kg CO₂ tersimpan per m³ hidrat? Mengapa hidrat CO₂ diusulkan untuk menyimpan CO₂ di dasar laut? ||| ≈ 328 kg; stabil pada tekanan tinggi dan suhu rendah, lebih rapat dari air laut
+Golongkan sebagai ikatan hidrogen kuat, sedang, atau lemah: [F–H–F]⁻, O–H···O dalam air, C–H···O. ||| kuat; sedang; lemah
+Mengapa pergeseran kimia ¹H NMR proton O–H berubah dengan konsentrasi alkohol dalam CDCl₃? ||| ikatan hidrogen antarmolekul makin banyak pada konsentrasi tinggi → medan rendah
+
+
+## Subbab 12.5: Air dan es
+
+Hitung volume molar es (0,9167 g cm⁻³) dan air (0,9998 g cm⁻³) pada 0 °C. ||| 19,65 dan 18,02 cm³ mol⁻¹
+Berapa tekanan diperlukan untuk menurunkan titik leleh es 2 °C? ||| ≈ 270 bar
+Mengapa es mempunyai entropi sisa? Berapa nilainya menurut Pauling? ||| H tidak teratur; *R* ln 1,5 = 3,37 J K⁻¹ mol⁻¹
+@d2o [P] Massa jenis maksimum D₂O terjadi pada 11,2 °C, bukan 4 °C. Usulkan penjelasan dengan kekuatan ikatan hidrogen. ||| ikatan D lebih kuat (ZPE lebih rendah), jaringan terbuka bertahan sampai suhu lebih tinggi
+Mengapa konduktivitas molar H⁺ sekitar tujuh kali Na⁺? ||| mekanisme Grotthuss (lompatan proton)
+Mengapa air memuai sekitar 9 % ketika membeku? ||| kisi tetrahedral terbuka (KB 4)
+Sebutkan dua akibat anomali massa jenis air bagi kehidupan atau lingkungan. ||| danau membeku dari atas; pelapukan batuan oleh es
+
+Mengapa air laut membeku di bawah 0 °C dan tidak mempunyai massa jenis maksimum di atas titik bekunya? ||| zat terlarut menurunkan titik beku dan menggeser maksimum ρ ke bawahnya
+
+## Subbab 12.6: Gas mulia: sifat dan keberadaan
+
+Dengan data Rayleigh, berapa fraksi argon bila massa jenis "nitrogen udara" 1,2565 g L⁻¹? ||| 1,13 %
+Mengapa helium tidak terkumpul di atmosfer tetapi terkumpul di ladang gas alam? ||| lolos ke angkasa; dihasilkan peluruhan α dan terperangkap batuan
+Hitung massa xenon dalam 1 m³ udara (STP; 0,087 ppm). Mengapa xenon mahal? ||| 0,51 mg; sangat sedikit, harus didistilasi dari udara cair
+Mengapa argon jauh lebih melimpah daripada neon di atmosfer? ||| ⁴⁰Ar dari peluruhan ⁴⁰K
+Mengapa helium tidak memadat pada 1 atm walaupun didinginkan sampai mendekati 0 K? ||| energi titik nol > tarikan dispersi
+Urutkan menurut kelarutan dalam air: He, Ar, Xe. Jelaskan. ||| He < Ar < Xe; polarisabilitas naik
+
+
+Berapa gram argon terdapat dalam 1,00 m³ udara (STP; 0,934 %)? ||| 16,6 g
+
+## Subbab 12.7: Senyawa xenon: fluorida, oksida, dan bentuknya
+
+@bartlett [P] Jelaskan penalaran Bartlett dari O₂⁺[PtF₆]⁻ ke senyawa xenon. Mengapa ia tidak mencoba kripton atau argon? ||| IE O₂ ≈ IE Xe dan ukuran mirip; IE Kr dan Ar jauh lebih besar
+Tentukan bentuk VSEPR: XeF₂, XeF₄, XeO₄, XeOF₂, [XeF₅]⁺. ||| linear; bujur sangkar; tetrahedral; bentuk T; piramida bujur sangkar
+Perkirakan Δ*H* pembentukan XeF₄ dari energi ikatan (Xe–F 131, F–F 158,7 kJ mol⁻¹). ||| −207 kJ mol⁻¹
+Tuliskan reaksi hidrolisis XeF₆ sempurna dan sebagian (menjadi XeOF₄). ||| XeF₆ + 3H₂O → XeO₃ + 6HF; XeF₆ + H₂O → XeOF₄ + 2HF
+Tentukan bilangan oksidasi Xe dalam XeO₃, [XeO₆]⁴⁻, [XeF]⁺, dan Cs[XeF₇]. ||| +6; +8; +2; +6
+Mengapa KrF₂ adalah agen fluorinasi yang lebih kuat daripada XeF₂? ||| KrF₂ tidak stabil (Δ~f~*H*° positif), ikatan Kr–F lemah
+@3c4e [P] Jelaskan ikatan dalam XeF₂ dengan model tiga pusat empat elektron. Berapa orde ikatan setiap Xe–F? ||| orbital ikatan + nonikatan terisi; orde ½
+Golongkan XeF₂ sebagai asam atau basa Lewis dalam reaksi dengan SbF₅. ||| basa (donor F⁻): [XeF]⁺[SbF₆]⁻
+
+
+
+Tuliskan reaksi XeF₂ dengan air (menghasilkan Xe, O₂, dan HF). ||| 2XeF₂ + 2H₂O → 2Xe + O₂ + 4HF
+
+## Subbab 12.8: Penerapan gas mulia
+
+Mengapa argon, bukan helium, dipakai untuk mengisi bola lampu pijar? ||| murah, berat (memperlambat penguapan W), konduktivitas kalor rendah
+Berapa persen radon-222 yang tersisa setelah 7 hari (*t*~½~ = 3,82 hari)? ||| 28 %
+@radon [P] Mengapa radon berbahaya walaupun ia gas mulia yang tidak bereaksi, dan mengapa bahayanya terbesar di ruang bawah tanah? ||| peluruhan α dan anak radioaktif padat di paru-paru; gas berat dari tanah terkumpul di ruang tertutup rendah
+Mengapa helium dipakai dalam campuran napas penyelam laut dalam? ||| kurang larut dalam darah, tidak narkotik
+Mengapa xenon cocok sebagai propelan pendorong ion? ||| massa besar, mudah diionisasi, inert, dapat disimpan rapat
+Sebutkan dua sifat xenon yang membuatnya obat bius yang baik, dan satu kelemahannya. ||| cepat bekerja, tidak dimetabolisme, aman bagi jantung; mahal
+Mengapa laser He–Ne memakai campuran helium dan neon, bukan neon saja? ||| He tereksitasi oleh lucutan lalu memindahkan energinya ke Ne melalui tumbukan
+
+
+Hitung daya angkat 1,00 m³ helium dan 1,00 m³ hidrogen di udara pada 1 atm dan 25 °C (*M* udara 28,96 g mol⁻¹). Mengapa helium tetap dipilih? ||| He 1,02 kg; H₂ 1,10 kg; He tidak terbakar

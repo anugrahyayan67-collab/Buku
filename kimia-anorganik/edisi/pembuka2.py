@@ -254,3 +254,22 @@ for i, (w, nm) in enumerate([('#e9a21b', 'kuning'), ('#8b2c6e', 'ungu merah'), (
 ax.text(W / 2, 4.65, 'satu logam, banyak warna', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
 simpan(11, f, 'Ion kompleks oktahedral trans-[Co(NH₃)₄Cl₂]⁺ dan warna empat senyawa kobalt(III)–amonia yang dijelaskan oleh teori Werner.')
 print('ok11')
+
+# Bab 12: hidrogen di dalam kisi paladium dan kristal XeF2
+f, ax = kanvas()
+for i in range(5):
+    for j in range(4):
+        x, y = 1.0 + i * .75, .9 + j * .75
+        ax.add_patch(plt.Circle((x, y), .27, fc='#c9cdd2', ec=TUA, lw=1.1))
+        if i < 4 and j < 3 and (i + j) % 2 == 0: ax.add_patch(plt.Circle((x + .375, y + .375), .1, fc='white', ec=UT, lw=1.3, zorder=3))
+ax.text(2.5, .25, 'H di rongga kisi paladium', ha='center', fontsize=10.5, color=TUA, family='Liberation Sans')
+cx, cy = 6.4, 2.2
+ax.plot([cx, cx], [cy - 1.2, cy + 1.2], color=AB, lw=4)
+for dy in (-1.2, 1.2): ax.add_patch(plt.Circle((cx, cy + dy), .3, fc='#9fd8a8', ec=TUA, lw=1.2, zorder=4)); ax.text(cx, cy + dy, 'F', ha='center', va='center', fontsize=11, family='Liberation Sans', zorder=5)
+for a in (0, 120, 240):
+    r = np.radians(a); ax.add_patch(matplotlib.patches.Ellipse((cx + .55 * np.cos(r), cy + .25 * np.sin(r)), .6, .3, angle=a if a == 0 else a, fc=EM, alpha=.45, ec='none'))
+ax.add_patch(plt.Circle((cx, cy), .36, fc='#5b86e5', ec=TUA, lw=1.4, zorder=5)); ax.text(cx, cy, 'Xe', ha='center', va='center', color='white', fontsize=12, fontweight='bold', zorder=6, family='Liberation Sans')
+ax.text(cx, .25, 'XeF₂: gas mulia yang bereaksi', ha='center', fontsize=10.5, color=TUA, family='Liberation Sans')
+ax.text(W / 2, 4.65, 'unsur pertama dan golongan terakhir', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
+simpan(12, f, 'Kiri: atom hidrogen menempati rongga di antara atom paladium. Kanan: XeF₂ yang linear dengan tiga pasangan bebas di sekitar xenon.')
+print('ok12')
