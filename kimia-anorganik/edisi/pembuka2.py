@@ -102,3 +102,29 @@ ax.text(6.1, .35, 'trans: satu pita Pt–Cl', ha='center', fontsize=11, color=TU
 ax.text(W / 2, 4.65, 'rumus sama, simetri berbeda', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
 simpan(3, f, 'Cisplatin (kiri) dan transplatin (kanan) mempunyai rumus yang sama. Simetrinya yang berbeda meramalkan dua pita regangan Pt–Cl di inframerah untuk isomer cis dan hanya satu untuk isomer trans.')
 print('ok3')
+
+# Bab 4: oksigen cair menempel di antara kutub magnet + dua elektron π* sejajar
+from matplotlib.patches import Rectangle, FancyBboxPatch
+f, ax = kanvas()
+for x0, c, t in [(1.0, '#c9503c', 'U'), (3.3, '#3b6fb6', 'S')]:
+    ax.add_patch(FancyBboxPatch((x0, 1.0), 1.2, 2.6, boxstyle='round,pad=0.02,rounding_size=0.12', fc=c, ec=TUA, lw=1.2))
+    ax.text(x0 + .6, 3.2, t, ha='center', va='center', fontsize=16, fontweight='bold', color='white', family='Liberation Sans')
+# jembatan oksigen cair (biru pucat) di celah
+xs = np.linspace(2.2, 3.3, 50); top = 2.35 + .06 * np.sin(np.linspace(0, 3 * np.pi, 50)); bot = 1.85 - .05 * np.cos(np.linspace(0, 2 * np.pi, 50))
+ax.fill_between(xs, bot, top, color='#a9cdf0', ec='#6a9fd0', lw=1, zorder=3)
+for k in range(5): ax.add_patch(Circle((2.35 + .22 * k, 1.75 - .25 * (k % 2) - .15), .05, fc='#a9cdf0', ec='#6a9fd0', zorder=3))
+ax.text(2.75, .55, 'O₂ cair tertahan magnet', ha='center', fontsize=11, color=TUA, family='Liberation Sans')
+# diagram pi*
+for xc in (5.9, 7.0):
+    ax.plot([xc - .35, xc + .35], [3.0, 3.0], color=TUA, lw=2.5)
+    ax.annotate('', (xc, 3.45), (xc, 2.65), arrowprops=dict(arrowstyle='-|>', color=UT, lw=2, mutation_scale=16))
+for xc in (5.9, 7.0):
+    ax.plot([xc - .35, xc + .35], [1.6, 1.6], color=TUA, lw=2.5)
+    for d, (a, b) in zip((-.09, .09), ((1.25, 2.0), (1.95, 1.2))):
+        ax.annotate('', (xc + d, b), (xc + d, a), arrowprops=dict(arrowstyle='-|>', color=AB, lw=1.6, mutation_scale=12))
+ax.text(7.55, 3.0, 'π*', va='center', fontsize=14, color=TUA, family='Liberation Sans')
+ax.text(7.55, 1.6, 'π', va='center', fontsize=14, color=TUA, family='Liberation Sans')
+ax.text(6.45, .55, 'dua elektron sejajar', ha='center', fontsize=11, color=TUA, family='Liberation Sans')
+ax.text(W / 2, 4.65, 'elektron yang tidak berpasangan', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
+simpan(4, f, 'Oksigen cair menggantung di antara kutub magnet karena dua elektron terakhirnya menempati dua orbital π* yang setara dengan spin sejajar, sesuatu yang tidak dapat ditunjukkan struktur Lewis.')
+print('ok4')

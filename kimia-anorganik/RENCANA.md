@@ -59,7 +59,7 @@ Catatan Bab 2 (25-11-2026): 13 subbab (termasuk gaya-gaya kimia dan ikatan hidro
 ### ☑ Bab 3 Simetri Molekul dan Teori Grup
 3.1 Unsur dan operasi simetri · 3.2 Grup titik dan diagram alir penentuannya · 3.3 Akibat langsung simetri: kiralitas dan kepolaran · 3.4 Matriks dan representasi · 3.5 Tabel karakter: membaca dan memakai · 3.6 Representasi tereduksi dan rumus reduksi · 3.7 Getaran molekul: aktif IR dan Raman · 3.8 Kombinasi linear teradaptasi simetri (SALC) dan operator proyeksi · 3.9 Simetri orbital atom dan pemilihan orbital yang boleh bergabung
 
-### ☐ Bab 4 Orbital Molekul dalam Kimia Anorganik
+### ☑ Bab 4 Orbital Molekul dalam Kimia Anorganik
 4.1 LCAO dan aturan penggabungan orbital · 4.2 Diatomik homonuklir periode 2: pencampuran s–p · 4.3 Diatomik heteronuklir: CO, NO, HF, CN⁻ · 4.4 Spektroskopi fotoelektron sebagai bukti · 4.5 Molekul linear tiga atom: BeH₂, CO₂ · 4.6 Molekul bengkok dan piramida dengan SALC: H₂O, NH₃ · 4.7 Molekul tetrahedral dan oktahedral: CH₄, SF₆ · 4.8 Ikatan tiga pusat: diborana (3c-2e) dan XeF₂, I₃⁻ (3c-4e) · 4.9 Diagram Walsh: mengapa H₂O bengkok · 4.10 HOMO, LUMO, dan reaktivitas anorganik
 
 ### ☐ Bab 5 Padatan Ionik dan Struktur Kristal

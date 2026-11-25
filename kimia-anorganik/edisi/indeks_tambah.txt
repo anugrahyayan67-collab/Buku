@@ -106,3 +106,25 @@ operator proyeksi
 orbital gugus ligan
 aturan tumpang tindih
 degenerasi
+orbital molekul
+LCAO
+orbital ikatan
+orbital antiikatan
+orbital tak berikatan
+ikatan δ
+pencampuran s–p
+paramagnetik
+diamagnetik
+superoksida
+peroksida
+spektroskopi fotoelektron
+teorema Koopmans
+struktur getaran
+ikatan tiga pusat dua elektron
+diborana
+diagram Walsh
+HOMO
+LUMO
+orbital perbatasan
+donasi balik π
+kompleks transfer muatan
