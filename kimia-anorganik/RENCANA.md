@@ -4,6 +4,17 @@ Buku pegangan mata kuliah **Teori Dasar Anorganik** (S1 Kimia Unesa, semester 2)
 
 **Acuan cakupan.** Housecroft & Sharpe, *Inorganic Chemistry* (Bab 1–9: dasar, inti, ikatan, simetri, MO, padatan, asam–basa, pelarut, redoks; Bab 10 hidrogen; Bab 18 gas mulia); Miessler, Fischer & Tarr, *Inorganic Chemistry* (Bab 1–8: atom, simetri, MO, padatan, asam–basa, redoks; Bab 9–10 pengantar koordinasi); Weller dkk. (Shriver & Atkins), *Inorganic Chemistry* (Bagian 1: atom, ikatan, simetri, padatan, asam–basa, redoks, metode). Buku acuan hanya dipakai untuk memastikan cakupan.
 
+**Buku acuan internasional dan apa yang diambil dari masing-masing** (hanya cakupan dan cara penyajian; teks dan soal tetap ditulis sendiri):
+
+| Buku | Kekuatan | Dipakai untuk |
+|---|---|---|
+| Housecroft & Sharpe, *Inorganic Chemistry*, ed. 5 (Pearson 2018, ± 1 300 hlm; ed. 6 terbit 2025) | buku pengantar paling lengkap; contoh bekerja disusul latihan mandiri di setiap subbab; gambar struktur sangat banyak | urutan bab, kedalaman per topik, pola "contoh lalu latihan" (kuis cepat) |
+| Weller, Rourke, Armstrong, Lancaster, Overton (penerus Shriver & Atkins), *Inorganic Chemistry*, ed. 8 (Oxford 2025, ± 1 060 hlm) | penjelasan konsep yang jernih, penerapan modern (material, katalis, energi, obat), soal *Exercises* dan *Tutorial problems* dari literatur | contoh terapan, soal penalaran berbasis data |
+| Miessler, Fischer & Tarr, *Inorganic Chemistry*, ed. 5 (Pearson 2014) | teori grup, orbital molekul, dan diagram MO poliatom paling rinci; soal akhir bab banyak diambil dari artikel riset | Bab 3–4 dan 11 (SALC, diagram Walsh, medan kristal) |
+| Huheey, Keiter & Keiter, *Inorganic Chemistry: Principles of Structure and Reactivity*, ed. 4 (HarperCollins 1993) | klasik untuk sifat periodik, keelektronegatifan, energetika padatan, dan asam–basa; soal konseptual yang tajam | Bab 1, 6, 8 (skala keelektronegatifan, Kapustinskii, HSAB, Drago) |
+| Greenwood & Earnshaw, *Chemistry of the Elements*, ed. 2 (Butterworth–Heinemann 1997) | rujukan deskriptif paling lengkap untuk setiap unsur | data dan fakta unsur (Bab 12–13; juga buku *Kimia Unsur*) |
+| Cotton, Wilkinson, Murillo & Bochmann, *Advanced Inorganic Chemistry*, ed. 6 (Wiley 1999) | rujukan lanjut, terutama kimia koordinasi dan logam transisi | pemeriksaan isi Bab 11 |
+
 **Pembagian dengan buku lain dalam seri.**
 - *Kimia Kuantum*: atom hidrogen, Schrödinger, LCAO, dan teori grup sudah diturunkan di sana (Bab 6–7, 11–13, simetri). Buku ini memakainya untuk **kimia anorganik**: tidak mengulang penurunan, tetapi menerapkan (aturan Slater, diagram MO poliatom dengan SALC, diagram Walsh, teori pita).
 - *Termodinamika Kimia*: ΔG°, potensial sel, dan Nernst diturunkan di sana (Bab 12–13). Buku ini memakainya untuk siklus Born–Haber, diagram Latimer/Frost/Pourbaix, dan diagram Ellingham.
@@ -15,9 +26,11 @@ Buku pegangan mata kuliah **Teori Dasar Anorganik** (S1 Kimia Unesa, semester 2)
 
 Status: ☐ belum · ◐ sedang · ☑ selesai
 
+Catatan Bab 1 (25-11-2026): 14 subbab, 15 contoh, 10 gambar, 96 soal, 22 pertanyaan, 9 pembahasan, ± 40 halaman; angka di `alat/hitung_bab01.py` dan `alat/hitung_soal01.py`. Lampiran A (data sifat atom H–Kr) dibuat bersama Bab 1.
+
 ## Bagian I · Atom
 
-### ☐ Bab 1 Struktur Atom dan Sifat Periodik
+### ☑ Bab 1 Struktur Atom dan Sifat Periodik
 1.1 Kimia anorganik: cakupan dan cara berpikirnya · 1.2 Asal unsur dan kelimpahannya · 1.3 Orbital atom hidrogenik (ringkasan dari *Kimia Kuantum*): bilangan kuantum, bentuk, simpul · 1.4 Atom berelektron banyak: perisai dan penetrasi · 1.5 Aturan Slater dan muatan inti efektif · 1.6 Konfigurasi elektron: Aufbau, Hund, dan pengecualian blok d dan f · 1.7 Tabel periodik: blok, golongan, periode · 1.8 Jari-jari atom dan ion; kontraksi lantanida · 1.9 Energi ionisasi · 1.10 Afinitas elektron · 1.11 Keelektronegatifan: Pauling, Mulliken, Allred–Rochow · 1.12 Polarisabilitas dan aturan Fajans · 1.13 Efek relativistik dan efek pasangan inert · 1.14 Anomali periode 2 dan hubungan diagonal
 
 ## Bagian II · Ikatan dan Struktur

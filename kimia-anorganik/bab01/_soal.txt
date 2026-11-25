@@ -1,0 +1,139 @@
+## Subbab 1.1: Kimia anorganik: cakupan dan cara berpikirnya
+
+> Data: *R* = 13,606 eV; 1 eV = 96,485 kJ mol⁻¹; *hc* = 1239,84 eV nm; 1 eV = 8065,54 cm⁻¹. Energi ionisasi, afinitas elektron, dan keelektronegatifan Pauling diambil dari tabel dan gambar di bab ini. Soal bertanda **[P]** dibahas di akhir bab.
+
+Manakah yang biasanya dibahas dalam kimia anorganik: CO₂, CH₃OH, CaCO₃, Fe(CO)₅, C₆H₆, KCN, SiC? ||| CO₂, CaCO₃, Fe(CO)₅, KCN, SiC
+Sebutkan tiga unsur logam di dalam ponsel dan fungsinya masing-masing. ||| misalnya Li dan Co di baterai, In di layar sentuh, Nd di pengeras suara, Au di kontak listrik
+Mengapa kimia anorganik tidak harus dipelajari sebagai hafalan, walaupun unsurnya banyak? ||| sifat unsur dijelaskan oleh sedikit gagasan: pegangan inti pada elektron, pembagian elektron dalam ikatan, susunan ion, perpindahan proton dan elektron
+
+## Subbab 1.2: Asal unsur dan kelimpahannya
+
+Hitung persen jumlah atom silikon di kerak Bumi dengan data Tabel 1.1 (hanya delapan unsur dihitung). ||| 21,6 %
+Sekitar 74 % massa materi biasa di alam semesta adalah hidrogen dan 24 % helium. Berapa perbandingan jumlah atom H terhadap He? ||| sekitar 12 : 1
+Mengapa hidrogen dan helium jauh lebih jarang di kerak Bumi daripada di alam semesta? ||| ringan dan mudah lepas ke angkasa saat Bumi terbentuk; He tidak membentuk senyawa
+Mengapa penggabungan inti di bintang berhenti di besi? ||| inti di sekitar ⁵⁶Fe mempunyai energi ikat per nukleon terbesar; penggabungan lebih lanjut menyerap energi
+Unsur apa yang dibuat oleh proses s dan proses r? Di mana masing-masing terjadi? ||| unsur lebih berat daripada besi lewat penangkapan neutron; s di bintang raksasa tua, r di ledakan seperti tabrakan bintang neutron
+Mengapa besi dan nikel berlimpah di Bumi secara keseluruhan tetapi tidak menempati urutan teratas di kerak? ||| sebagian besar tenggelam ke inti Bumi
+
+## Subbab 1.3: Orbital atom hidrogenik
+
+Hitung energi ionisasi ion Li²⁺ dalam keadaan dasar. ||| 122,5 eV
+Hitung panjang gelombang foton yang dipancarkan atom hidrogen ketika elektron turun dari *n* = 3 ke *n* = 2. ||| 656,1 nm (garis merah Hα)
+Hitung energi dan panjang gelombang foton untuk loncatan *n* = 2 → 1 pada He⁺. ||| 40,8 eV; 30,4 nm (ultraungu jauh)
+Tentukan jumlah simpul radial dan sudut orbital 4p, 5d, 6s, dan 5f. ||| 4p: 2 dan 1; 5d: 2 dan 2; 6s: 5 dan 0; 5f: 1 dan 3
+Berapa jumlah orbital dengan *n* = 4? Berapa elektron paling banyak di kulit *n* = 3? ||| 16 orbital; 18 elektron
+Sebutkan semua kombinasi (*n*, *l*, *m*ₗ) untuk orbital 3d. ||| (3, 2, −2), (3, 2, −1), (3, 2, 0), (3, 2, 1), (3, 2, 2)
+Mengapa orbital 2s dan 2p atom hidrogen terdegenerasi, sedangkan pada atom litium tidak? ||| pada H energi hanya bergantung pada n; pada Li elektron 1s memberi perisai yang berbeda untuk 2s (menembus) dan 2p
+
+## Subbab 1.4: Atom berelektron banyak: perisai dan penetrasi
+
+@kalium [P] Garis 4s → 4p kalium ada pada 766,5 nm dan energi ionisasinya 4,341 eV. Hitung *Z*ₑf untuk elektron 4s dan 4p dengan persamaan (1.3). ||| 4s 2,26; 4p 1,79
+Energi ionisasi Rb 4,177 eV dan Cs 3,894 eV. Hitung *Z*ₑf elektron 5s dan 6s dengan persamaan (1.3). Apa yang kamu perhatikan dibandingkan Na (1,84)? ||| Rb 2,77; Cs 3,21; Z_ef naik ke bawah golongan, tetapi n juga naik sehingga energi ionisasi tetap turun
+Mengapa *Z*ₑf untuk elektron 3d natrium hampir tepat 1,00? ||| orbital 3d hampir tidak menembus kulit [Ne], sehingga perisainya hampir sempurna
+Jelaskan dengan fungsi sebaran radial mengapa elektron 2s menembus lebih banyak daripada 2p. ||| 2s mempunyai puncak kecil di dekat inti (satu simpul radial), 2p tidak
+Urutkan energi orbital 4s, 4p, 4d, 4f dalam atom berelektron banyak dan jelaskan. ||| 4s < 4p < 4d < 4f; penetrasi berkurang dengan l
+Mengapa elektron di kulit yang sama hanya saling melindungi sedikit? ||| rata-rata berada pada jarak yang sama dari inti, sehingga tidak sering berada di antara inti dan elektron lain
+
+## Subbab 1.5: Aturan Slater dan muatan inti efektif
+
+Hitung *Z*ₑf Slater untuk elektron 2p oksigen dan 3s magnesium. ||| O 4,55; Mg 2,85
+Hitung *Z*ₑf Slater untuk elektron 4p brom. ||| 7,60
+@titan [P] Hitung *Z*ₑf Slater untuk elektron 4s dan 3d titanium, [Ar] 3d² 4s². Apa artinya bagi ion Ti²⁺? ||| 4s 3,15; 3d 3,65; elektron 4s lepas lebih dahulu, Ti²⁺ = [Ar] 3d²
+Hitung *Z*ₑf Slater untuk elektron 4s kalsium dan bandingkan dengan kalium (2,20). ||| 2,85
+Hitung *Z*ₑf Slater untuk elektron 4s dan 3d tembaga, [Ar] 3d¹⁰ 4s¹. ||| 4s 3,70; 3d 7,85
+Berapa kenaikan *Z*ₑf Slater setiap langkah dari C ke Ne? Mengapa? ||| 0,65; proton baru menambah 1, elektron baru hanya melindungi 0,35
+Mengapa aturan Slater memberi 0,85 untuk elektron di kulit *n* − 1 tetapi 1,00 untuk kulit yang lebih dalam? ||| elektron luar s dan p masih sedikit menembus kulit n − 1, tetapi hampir tidak menembus kulit yang lebih dalam
+Sebutkan dua keterbatasan aturan Slater. ||| tidak membedakan s dan p dalam satu kelompok; kasar untuk unsur berat dan tidak memperhitungkan efek relativistik
+
+## Subbab 1.6: Konfigurasi elektron
+
+Tuliskan konfigurasi elektron V, Ni²⁺, Mo, dan Cr³⁺. ||| V [Ar] 3d³ 4s²; Ni²⁺ [Ar] 3d⁸; Mo [Kr] 4d⁵ 5s¹; Cr³⁺ [Ar] 3d³
+Berapa elektron tak berpasangan pada Mn²⁺, Co³⁺ (spin tinggi), Zn²⁺, dan Ag⁺? ||| 5; 4; 0; 0
+@konfig [P] Seorang mahasiswa menulis Fe²⁺ = [Ar] 3d⁴ 4s². Jelaskan kesalahannya dan tuliskan konfigurasi yang benar. ||| elektron 4s lepas lebih dahulu; Fe²⁺ = [Ar] 3d⁶
+Tuliskan konfigurasi elektron Cu, Cu⁺, dan Cu²⁺. Mana yang tidak berwarna dalam larutan? ||| [Ar] 3d¹⁰ 4s¹; [Ar] 3d¹⁰; [Ar] 3d⁹; Cu⁺ (d¹⁰)
+Tuliskan konfigurasi elektron Eu²⁺ dan Gd³⁺ (Eu = [Xe] 4f⁷ 6s², Gd = [Xe] 4f⁷ 5d¹ 6s²). Apa kesamaannya? ||| keduanya [Xe] 4f⁷, kulit f setengah penuh
+Unsur manakah yang mempunyai konfigurasi [Kr] 4d¹⁰ 5s² 5p³? ||| antimon, Sb
+Mengapa aturan Hund menempatkan elektron di orbital yang berbeda dengan spin sejajar? ||| tolakan lebih kecil di orbital berbeda dan energi pertukaran untuk spin sejajar
+Ramalkan konfigurasi Pd menurut aturan *n* + *l* dan bandingkan dengan konfigurasi terukur [Kr] 4d¹⁰. ||| ramalan [Kr] 4d⁸ 5s²; 4d dan 5s sangat dekat sehingga kulit d penuh dipilih
+
+## Subbab 1.7: Tabel periodik: blok, golongan, periode
+
+Tentukan blok, periode, dan golongan unsur [Kr] 4d⁵ 5s¹, [Xe] 4f¹⁴ 5d¹⁰ 6s² 6p², dan [Ar] 3d¹⁰ 4s². ||| d, 5, 6 (Mo); p, 6, 14 (Pb); d, 4, 12 (Zn)
+Mengapa periode 4 berisi 18 unsur? ||| mengisi 4s (2), 3d (10), 4p (6)
+Mengapa periode 6 berisi 32 unsur? ||| mengisi 6s (2), 4f (14), 5d (10), 6p (6)
+Mengapa hidrogen dapat dianggap mirip logam alkali, halogen, dan karbon sekaligus? ||| satu elektron (alkali), dapat membentuk H⁻ (halogen), keelektronegatifan dan kulit setengah penuh mirip C
+Unsur nomor 118 (oganeson) ditempatkan di golongan berapa? Tuliskan konfigurasi elektron terluarnya. ||| golongan 18; 7s² 7p⁶
+Golongan 1 dan golongan 11 sama-sama mempunyai satu elektron s terluar. Apa perbedaan susunan elektron di bawahnya? ||| golongan 1: kulit gas mulia; golongan 11: kulit d¹⁰ penuh (dan 4f¹⁴ untuk Au)
+
+## Subbab 1.8: Jari-jari atom dan ion
+
+Urutkan dari yang terkecil: Na, Mg, Al, K. ||| Al < Mg < Na < K
+Urutkan dari yang terkecil: Cl⁻, K⁺, S²⁻, Ca²⁺. ||| Ca²⁺ < K⁺ < Cl⁻ < S²⁻
+Mana yang lebih besar: Fe²⁺ (spin tinggi) atau Fe³⁺? Jelaskan. ||| Fe²⁺; elektron lebih banyak dengan muatan inti sama
+Mengapa jari-jari kovalen klorin (102 pm) berbeda dari jari-jari ion Cl⁻ (181 pm)? ||| definisi berbeda dan Cl⁻ mempunyai elektron tambahan yang memperbesar awan elektron
+@kontraksi [P] Jari-jari logam: Ti 147, Zr 160, Hf 159 pm; Sc 162, Y 180, La 187 pm. Jelaskan mengapa kenaikan dari periode 5 ke 6 hilang pada golongan 4 tetapi tidak pada golongan 3. ||| La datang sebelum pengisian 4f; Hf datang setelah 14 elektron 4f yang buruk sebagai perisai (kontraksi lantanida)
+Mengapa jari-jari ion bergantung pada bilangan koordinasi? ||| ion dengan lebih banyak tetangga tampak sedikit lebih besar karena jarak kation–anion bertambah
+Mengapa pengecilan jari-jari di sepanjang deret logam transisi lebih landai daripada di blok p? ||| elektron ditambahkan ke (n − 1)d di dalam, yang melindungi elektron ns terluar cukup baik
+Hitung rasio jari-jari Na⁺/F⁻ dari data Gambar 1.5. ||| 0,77
+
+## Subbab 1.9: Energi ionisasi
+
+Ubah energi ionisasi pertama natrium (5,139 eV) dan neon (21,565 eV) menjadi kJ mol⁻¹. ||| 496 dan 2081 kJ mol⁻¹
+Energi ionisasi berurutan unsur X: 590; 1 145; 4 912 kJ mol⁻¹. Tentukan golongan X. ||| golongan 2 (lompatan I₃/I₂ = 4,3); X = Ca
+Mengapa energi ionisasi pertama oksigen lebih kecil daripada nitrogen? ||| elektron 2p keempat oksigen berpasangan di satu orbital: tolakan besar dan kehilangan energi pertukaran
+Mengapa energi ionisasi pertama aluminium lebih kecil daripada magnesium? ||| elektron Al dilepas dari 3p yang kurang menembus daripada 3s Mg
+Mengapa *I*₂ natrium (47,3 eV) jauh lebih besar daripada *I*₂ magnesium (15,0 eV)? ||| elektron kedua Na diambil dari kulit [Ne]; elektron kedua Mg masih elektron valensi 3s
+@nacl [P] Hitung energi untuk membentuk Cs⁺(g) dan Cl⁻(g) dari atom-atom gas Cs dan Cl. Apa artinya bagi pembentukan CsCl padat? ||| +27 kJ mol⁻¹; tetap positif, sehingga CsCl stabil karena energi kisi
+Mengapa energi ionisasi pertama unsur Sc sampai Zn hampir sama? ||| elektron yang lepas selalu 4s dan Z_ef-nya naik pelan karena elektron 3d melindungi cukup baik
+Ramalkan mana yang lebih besar: *I*₁ dari Mg atau Ca? Dari Cl atau Br? ||| Mg; Cl
+
+## Subbab 1.10: Afinitas elektron
+
+Tuliskan persamaan reaksi yang menyatakan afinitas elektron pertama belerang dan afinitas elektron kedua oksigen. ||| S(g) + e⁻ → S⁻(g); O⁻(g) + e⁻ → O²⁻(g)
+Mengapa afinitas elektron kedua selalu menyerap energi? ||| elektron kedua ditolak oleh muatan negatif anion
+Mengapa berilium dan magnesium tidak membentuk anion stabil? ||| elektron tambahan harus masuk orbital np yang kurang menembus dan terlindung baik
+Mengapa afinitas elektron karbon (1,26 eV) jauh lebih besar daripada nitrogen (hampir nol)? ||| C⁻ menjadi 2p³ setengah penuh; N⁻ harus memasangkan elektron
+Afinitas elektron O 141 kJ mol⁻¹ dan S 200 kJ mol⁻¹. Jelaskan mengapa unsur yang lebih kecil justru mempunyai afinitas lebih kecil. ||| atom O kecil sehingga tolakan elektron tambahan besar
+Sebuah buku menuliskan "afinitas elektron Cl = −349 kJ mol⁻¹". Jelaskan arti tanda minus itu dan konversikan ke konvensi IUPAC. ||| yang ditulis adalah ΔH; A = +349 kJ mol⁻¹ (energi dilepaskan)
+Mengapa emas mempunyai afinitas elektron yang besar (2,31 eV) untuk ukuran sebuah logam? ||| orbital 6s rendah karena perisai 4f/5d buruk dan efek relativistik, sehingga dapat menerima satu elektron
+
+## Subbab 1.11: Keelektronegatifan
+
+@pauling [P] Energi ikatan H–H 436, Br–Br 193, H–Br 366 kJ mol⁻¹. Hitung |χ_Br − χ_H| dengan persamaan (1.4) dan bandingkan dengan tabel (2,96 − 2,20). ||| 0,89; tabel 0,76
+Energi ikatan H–I 298 dan I–I 151 kJ mol⁻¹. Hitung |χ_I − χ_H| dengan persamaan (1.4). ||| 0,66 (tabel 0,46)
+Hitung keelektronegatifan Mulliken brom (*I* = 11,814 eV, *A* = 3,364 eV) dan ubah ke skala Pauling. ||| χ_M = 7,59 eV; χ_P ≈ 3,01
+Hitung χ_AR untuk oksigen (*r* = 73 pm) dan silikon (*r* = 117 pm). ||| O 3,57; Si 1,74
+Hitung persen sifat ionik ikatan K–Cl dan Li–I menurut Pauling. ||| KCl 75 %; LiI 51 %
+Mengapa keelektronegatifan turun ke bawah golongan walaupun *Z*ₑf Slater sedikit naik? ||| r naik lebih cepat, dan gaya berbanding dengan Z_ef/r²
+Mengapa HF berupa gas molekuler walaupun Δχ = 1,78? ||| tidak ada batas tajam ionik–kovalen; H dan F tetap berbagi pasangan elektron (kovalen polar) dalam molekul HF
+Susun ikatan berikut menurut kepolaran yang bertambah: C–H, N–H, O–H, F–H, Si–H. ||| Si–H (0,30) < C–H (0,35) < N–H (0,84) < O–H (1,24) < F–H (1,78); pada Si–H, H yang bermuatan δ−
+
+## Subbab 1.12: Polarisabilitas dan aturan Fajans
+
+Urutkan sifat kovalen: LiF, LiI, NaI, CsF. ||| CsF < LiF < NaI < LiI
+Mengapa AlCl₃ menyublim pada 180 °C, sedangkan NaCl meleleh pada 801 °C? ||| Al³⁺ kecil bermuatan 3 sangat mempolarisasi Cl⁻ sehingga ikatannya kovalen dan terbentuk molekul Al₂Cl₆
+Hitung *z*/*r*² (dalam 10⁻⁴ pm⁻²) untuk Fe²⁺ (78 pm) dan Fe³⁺ (64,5 pm). Mana yang membentuk klorida lebih kovalen? ||| Fe²⁺ 3,29; Fe³⁺ 7,21; FeCl₃
+@agx [P] Jelaskan mengapa AgCl sukar larut dalam air sedangkan NaCl larut baik, padahal Ag⁺ (115 pm) dan Na⁺ (102 pm) berukuran mirip. ||| Ag⁺ (d¹⁰) mempolarisasi lebih kuat; ikatan Ag–Cl lebih kovalen
+Mengapa PbCl₄ tidak stabil dan mudah terurai menjadi PbCl₂ + Cl₂, sedangkan SnCl₄ stabil? ||| efek pasangan inert Pb dan polarisasi kuat oleh Pb(IV)
+Mengapa BeCl₂ padat berbentuk rantai polimer dengan jembatan Cl? ||| Be²⁺ sangat mempolarisasi; ikatan kovalen dan Be menerima pasangan elektron dari Cl tetangga
+Mengapa sulfida logam umumnya lebih berwarna dan kurang larut daripada oksidanya? ||| S²⁻ lebih besar dan lebih mudah dipolarisasi; transfer muatan lebih mudah
+
+## Subbab 1.13: Efek relativistik dan efek pasangan inert
+
+Hitung *v*/*c* dan γ untuk elektron 1s perak (*Z* = 47) dan cesium (*Z* = 55). ||| Ag 0,34 dan 1,065; Cs 0,40 dan 1,092
+Mengapa perak berwarna putih sedangkan emas kuning? ||| celah d–s perak ±3,7 eV (ultraungu), emas ±2,4 eV (menyerap biru)
+Mengapa raksa cair pada suhu kamar? ||| pasangan 6s² terikat erat (relativistik) sehingga ikatan logam Hg–Hg lemah
+Tuliskan bilangan oksidasi paling stabil untuk Tl, Pb, dan Bi, dan jelaskan dengan efek pasangan inert. ||| +1, +2, +3; pasangan 6s² tidak dilepas
+@inert [P] Gambar 1.10 menunjukkan *I*₂ + *I*₃ untuk Ga lebih besar daripada Al. Jelaskan dengan aturan perisai. ||| Ga datang setelah kulit 3d¹⁰ yang buruk sebagai perisai, sehingga elektron 4s merasakan Z_ef lebih besar
+PbO₂ adalah oksidator kuat, sedangkan SnO₂ tidak. Jelaskan. ||| Pb(IV) tidak stabil (pasangan inert), mudah direduksi ke Pb(II)
+Mengapa emas dapat membentuk ion Au⁻ dalam CsAu, tetapi tembaga tidak membentuk Cu⁻ yang serupa? ||| efek relativistik pada 6s emas jauh lebih besar; orbital 6s turun cukup rendah
+
+## Subbab 1.14: Anomali periode 2 dan hubungan diagonal
+
+Energi ikatan: O=O 498, O–O 146, S=S 425, S–S 266 kJ mol⁻¹. Jelaskan mengapa oksigen berupa O₂ sedangkan belerang berupa cincin S₈. ||| O: 498 > 2×146 = 292, rangkap menang; S: 2×266 = 532 > 425, ikatan tunggal menang
+Mengapa nitrogen tidak membentuk NCl₅, sedangkan fosfor membentuk PCl₅? ||| atom N terlalu kecil untuk dikelilingi lima atom Cl
+Mengapa ikatan F–F lebih lemah daripada Cl–Cl? ||| ikatan F–F pendek sehingga pasangan bebas kedua atom saling menolak kuat
+Sebutkan dua kemiripan litium dengan magnesium. ||| membentuk nitrida langsung dengan N₂; karbonat terurai bila dipanaskan; fluorida/karbonat sukar larut
+@diagonal [P] Jelaskan hubungan diagonal Be–Al dengan keelektronegatifan dan daya mempolarisasi ion (Be²⁺ 27 pm, KB4; Al³⁺ 53,5 pm, KB6). ||| χ hampir sama (1,57 dan 1,61); z/r² keduanya sangat besar sehingga senyawa keduanya kovalen dan hidroksidanya amfoter
+Mengapa CO₂ berupa gas sedangkan SiO₂ berupa padatan jaringan? ||| C=O kuat (799 > 716); Si–O tunggal lebih menguntungkan (904 > ±640)
+Mengapa penjelasan "orbital d kosong" untuk PCl₅ dan SF₆ kini dianggap kurang tepat? ||| perhitungan modern menunjukkan orbital d hampir tidak berperan; penjelasannya ukuran atom dan ikatan 3c-4e
