@@ -336,3 +336,32 @@ cairan ionik
 pelarut eutektik dalam
 fluida superkritis
 titik kritis
+senyawa koordinasi
+teori koordinasi Werner
+bilangan koordinasi
+ligan
+ligan kelat
+ligan ambidentat
+ligan makrosiklik
+isomer geometri
+isomer optik
+isomer ikatan
+isomer ionisasi
+sisplatin
+teori ikatan valensi
+teori medan kristal
+deret spektrokimia
+spin tinggi
+spin rendah
+energi penstabilan medan kristal
+energi pemasangan
+momen magnet spin saja
+distorsi Jahn–Teller
+aturan 18 elektron
+tetapan kestabilan
+deret Irving–Williams
+efek kelat
+efek makrosiklik
+kompleks inert
+kompleks labil
+EDTA

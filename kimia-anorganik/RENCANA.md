@@ -84,7 +84,7 @@ Catatan Bab 2 (25-11-2026): 13 subbab (termasuk gaya-gaya kimia dan ikatan hidro
 
 ## Bagian IV · Pengantar Kompleks, Unsur, dan Inti
 
-### ☐ Bab 11 Pengantar Senyawa Koordinasi
+### ☑ Bab 11 Pengantar Senyawa Koordinasi
 11.1 Werner dan lahirnya kimia koordinasi · 11.2 Ligan: donor, gigi, dan kelat · 11.3 Tata nama IUPAC · 11.4 Bilangan koordinasi dan geometri · 11.5 Isomer: struktural dan stereo · 11.6 Teori ikatan valensi untuk kompleks · 11.7 Teori medan kristal: pemisahan oktahedral dan tetrahedral · 11.8 Spin tinggi, spin rendah, dan energi stabilisasi medan kristal · 11.9 Aturan 18 elektron · 11.10 Kestabilan kompleks dan efek kelat
 
 ### ☐ Bab 12 Hidrogen dan Gas Mulia

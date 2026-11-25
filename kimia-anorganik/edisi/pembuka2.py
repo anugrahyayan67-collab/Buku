@@ -234,3 +234,23 @@ for x0, isi, wl, teks, judul in [(1.0, '#cfe6f7', False, 'Na + H₂O → NaOH + 
 ax.text(W / 2, 4.65, 'pelarut menentukan kimianya', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
 simpan(10, f, 'Natrium bereaksi hebat dengan air, tetapi larut dengan tenang dalam amonia cair menghasilkan larutan biru berisi elektron tersolvasi.')
 print('ok10')
+
+# Bab 11: oktahedron Werner dan empat warna kompleks kobalt
+f, ax = kanvas()
+th, ph = np.radians(30), np.radians(25)
+def pj(v):
+    x, y, z = v; x1 = x * np.cos(th) - y * np.sin(th); y1 = x * np.sin(th) + y * np.cos(th); return (x1, z * np.cos(ph) - y1 * np.sin(ph)), y1 * np.cos(ph) + z * np.sin(ph)
+cx, cy, s = 2.4, 2.45, 1.35
+L = [(1, 0, 0), (-1, 0, 0), (0, 1, 0), (0, -1, 0), (0, 0, 1), (0, 0, -1)]
+it = sorted([(pj(v)[1], pj(v)[0], k) for k, v in enumerate(L)])
+for d, (x, y), k in it: ax.plot([cx, cx + s * x], [cy, cy + s * y], color=AB, lw=3, zorder=2 + d)
+ax.add_patch(plt.Circle((cx, cy), .32, fc=UT, ec=TUA, lw=1.5, zorder=5)); ax.text(cx, cy, 'Co', ha='center', va='center', color='white', fontsize=12, fontweight='bold', zorder=6, family='Liberation Sans')
+for d, (x, y), k in it:
+    c = '#3fae5a' if k in (4, 5) else '#9fc4ff'; t = 'Cl' if k in (4, 5) else 'NH₃'
+    ax.add_patch(plt.Circle((cx + s * x, cy + s * y), .27, fc=c, ec=TUA, zorder=5 + 2 * d)); ax.text(cx + s * x, cy + s * y, t, ha='center', va='center', fontsize=8, zorder=5.1 + 2 * d, color=TUA, family='Liberation Sans')
+for i, (w, nm) in enumerate([('#e9a21b', 'kuning'), ('#8b2c6e', 'ungu merah'), ('#2e8b3a', 'hijau'), ('#6a3f9e', 'ungu')]):
+    x0 = 4.9 + (i % 2) * 1.55; y0 = 2.75 - (i // 2) * 1.55
+    ax.add_patch(plt.Rectangle((x0, y0), 1.25, 1.2, fc=w, ec=TUA, lw=1.2)); ax.text(x0 + .62, y0 - .2, nm, ha='center', fontsize=9, color=TUA, family='Liberation Sans')
+ax.text(W / 2, 4.65, 'satu logam, banyak warna', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
+simpan(11, f, 'Ion kompleks oktahedral trans-[Co(NH₃)₄Cl₂]⁺ dan warna empat senyawa kobalt(III)–amonia yang dijelaskan oleh teori Werner.')
+print('ok11')
