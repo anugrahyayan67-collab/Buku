@@ -74,3 +74,31 @@ ax.text(6.1, .6, 'XeF₄: enam pasangan → segi empat datar', ha='center', font
 ax.text(W / 2, 4.65, 'empat ikatan, dua bentuk', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
 simpan(2, f, 'Metana dan xenon tetrafluorida sama-sama mempunyai empat ikatan, tetapi xenon juga mempunyai dua pasangan elektron bebas (elips) yang ikut menentukan bentuk.')
 print('ok2')
+
+# Bab 3: cis- dan trans-[PtCl2(NH3)2] dengan pita IR Pt–Cl (dua lawan satu)
+f, ax = kanvas()
+def platin(cx, cy, cl, s=.95):
+    arah = [(1, 0), (0, 1), (-1, 0), (0, -1)]
+    for k, (ux, uy) in enumerate(arah):
+        X, Y = cx + s * ux, cy + s * uy
+        ax.plot([cx, X], [cy, Y], color=AB, lw=5, solid_capstyle='round', zorder=1)
+        if k in cl:
+            ax.add_patch(Circle((X, Y), .3, fc='#3f9a6b', ec=TUA, lw=1, zorder=3))
+            ax.text(X, Y, 'Cl', ha='center', va='center', fontsize=10, fontweight='bold', color='white', zorder=4, family='Liberation Sans')
+        else:
+            ax.add_patch(Circle((X, Y), .27, fc=WARNA['N'], ec=TUA, lw=1, zorder=3))
+            ax.text(X, Y, 'NH₃', ha='center', va='center', fontsize=7.5, fontweight='bold', color='white', zorder=4, family='Liberation Sans')
+    ax.add_patch(Circle((cx, cy), .36, fc=UT, ec=TUA, lw=1.2, zorder=4.5))
+    ax.text(cx, cy, 'Pt', ha='center', va='center', fontsize=12, fontweight='bold', color='white', zorder=6, family='Liberation Sans')
+def pita(cx, y0, pus):
+    x = np.linspace(-1.3, 1.3, 400); T = np.ones_like(x)
+    for p in pus: T -= .8 * np.exp(-((x - p) / .07) ** 2)
+    ax.plot(cx + x, y0 + .7 * T, color=UT, lw=2)
+    ax.plot([cx - 1.3, cx + 1.3], [y0 - .05, y0 - .05], color=TUA, lw=.8)
+platin(2.2, 2.85, (0, 1)); platin(6.1, 2.85, (0, 2))
+pita(2.2, .75, (-.22, .22)); pita(6.1, .75, (0,))
+ax.text(2.2, .35, 'cis: dua pita Pt–Cl', ha='center', fontsize=11, color=TUA, family='Liberation Sans')
+ax.text(6.1, .35, 'trans: satu pita Pt–Cl', ha='center', fontsize=11, color=TUA, family='Liberation Sans')
+ax.text(W / 2, 4.65, 'rumus sama, simetri berbeda', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
+simpan(3, f, 'Cisplatin (kiri) dan transplatin (kanan) mempunyai rumus yang sama. Simetrinya yang berbeda meramalkan dua pita regangan Pt–Cl di inframerah untuk isomer cis dan hanya satu untuk isomer trans.')
+print('ok3')

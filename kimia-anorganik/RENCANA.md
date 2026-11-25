@@ -56,7 +56,7 @@ Catatan Bab 2 (25-11-2026): 13 subbab (termasuk gaya-gaya kimia dan ikatan hidro
 ### ☑ Bab 2 Ikatan Kovalen dan Bentuk Molekul
 2.1 Struktur Lewis dan muatan formal · 2.2 Resonansi dan bilangan oksidasi · 2.3 Melebihi oktet: senyawa hipervalen dan elektron kurang · 2.4 VSEPR: dasar dan geometri dasar · 2.5 VSEPR: pasangan bebas, ikatan rangkap, dan keelektronegatifan · 2.6 Kegagalan VSEPR (ion berat, kompleks) · 2.7 Teori ikatan valensi dan hibridisasi · 2.8 Aturan Bent dan karakter s · 2.9 Kepolaran dan momen dipol · 2.10 Panjang, kekuatan, dan entalpi ikatan · 2.11 Spesies isoelektronik dan isolobal sederhana · 2.12 Gaya-gaya kimia antarmolekul: ion–dipol, dipol–dipol, gaya van der Waals (dispersi London) · 2.13 Ikatan hidrogen dan akibatnya pada sifat zat
 
-### ☐ Bab 3 Simetri Molekul dan Teori Grup
+### ☑ Bab 3 Simetri Molekul dan Teori Grup
 3.1 Unsur dan operasi simetri · 3.2 Grup titik dan diagram alir penentuannya · 3.3 Akibat langsung simetri: kiralitas dan kepolaran · 3.4 Matriks dan representasi · 3.5 Tabel karakter: membaca dan memakai · 3.6 Representasi tereduksi dan rumus reduksi · 3.7 Getaran molekul: aktif IR dan Raman · 3.8 Kombinasi linear teradaptasi simetri (SALC) dan operator proyeksi · 3.9 Simetri orbital atom dan pemilihan orbital yang boleh bergabung
 
 ### ☐ Bab 4 Orbital Molekul dalam Kimia Anorganik

@@ -75,3 +75,34 @@ gaya ion–dipol
 ikatan hidrogen
 entalpi hidrasi
 ligan ambidentat
+unsur simetri
+operasi simetri
+sumbu putar
+sumbu utama
+bidang cermin
+pusat inversi
+sumbu putar tak wajar
+grup titik
+orde grup
+diagram alir
+kiralitas
+tabel perkalian
+representasi
+karakter
+representasi tak tereduksi
+representasi tereduksi
+kelas
+tabel karakter
+lambang Mulliken
+irep simetris total
+fungsi basis
+rumus reduksi
+mode normal
+aturan seleksi
+aturan larangan bersama
+cisplatin
+SALC
+operator proyeksi
+orbital gugus ligan
+aturan tumpang tindih
+degenerasi

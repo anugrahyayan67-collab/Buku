@@ -17,7 +17,7 @@ Status: ☑ selesai · ◐ rancangan ada · ☐ belum
 | 5 | Matematika untuk Kimia | Matematika Dasar | 1 | sekarang–Desember | ☐ |
 | 6 | Kimia Fisika 1: Termodinamika Kimia | Termodinamika Kimia | 2 | sekarang, bab demi bab | ◐ `termodinamika-kimia/` (Edisi 1.2: 15 bab selesai, tinggal baca ulang dan cetak akhir; PDF di `pdf/`) |
 | 7 | Kimia Organik 1: Senyawa Monofungsi | Senyawa Organik Monofungsi | 2 | sekarang, bab demi bab | ☑ `kimia-organik/` (Bab 1–16 selesai; PDF digital di `pdf/`) |
-| 8 | Kimia Anorganik 1: Teori Dasar | Teori Dasar Anorganik | 2 | Des–Jan | ◐ `kimia-anorganik/` (rancangan 13 bab; Bab 1–2 selesai) |
+| 8 | Kimia Anorganik 1: Teori Dasar | Teori Dasar Anorganik | 2 | Des–Jan | ◐ `kimia-anorganik/` (rancangan 13 bab; Bab 1–3 selesai) |
 | 9 | Kimia Analitik 1: Dasar Analisis dan Pemisahan | Dasar-dasar Kimia Analisis; Dasar-dasar Pemisahan Kimia | 2–3 | Des–Jan | ☐ |
 | 10 | Kimia Fisika 2: Kinetika Kimia | Kinetika Kimia | 3 | libur tengah 2027 | ☐ |
 | 11 | Kimia Organik 2: Senyawa Polifungsi | Senyawa Organik Polifungsi | 3 | libur tengah 2027 | ☐ |

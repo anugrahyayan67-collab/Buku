@@ -182,3 +182,4 @@ div.strategi > p:first-child > strong:first-child, div.tujuan > p:first-child > 
 div.mat > p:first-child > strong:first-child, div.mat:not(div.tujuan + div.mat) > p:first-child > strong:first-child,
 div.dalam > p:first-child > strong:first-child, div.terapan > p:first-child > strong:first-child,
 div.awas > p:first-child > strong:first-child, div.inti strong, div.kuis > p:first-child > strong:first-child { color: var(--tua); }
+math mo[stretchy="true"], math mo[fence="true"] { font-family: "STIX Math", serif; }
