@@ -82,7 +82,7 @@ Daftar pekerjaan yang belum selesai, **berurutan**. Bila tidak ada perintah khus
 4. ☐ **Kimia Fisika 1: cetak akhir** digital dan `--cetak`, salin ke `pdf/`, perbarui `pdf/README.md`, kirim PDF.
 5. ◐ **Kimia Organik 1**: versi digital dan cetak sudah di `pdf/` (21-11-2026); ilustrasi sampul diganti motif organik (☑ 24-11-2026: parasetamol + panah lengkung, halaman sampul di kedua PDF ditukar tanpa cetak ulang); belum: baca ulang kejelasan Bab 1–16.
 6. ☐ **Persiapan TEP** (`persiapan-tep/`): Bab 1–4 dulu, ikuti `persiapan-tep/PEDOMAN.md`; siapkan alat cetak dengan pola `kimia-organik/edisi/`.
-7. ◐ **Kimia Anorganik 1: Teori Dasar** (`kimia-anorganik/`, dimulai 25-11-2026 atas permintaan penyusun): Bab 1–7 ☑ (Bab 3 menambah Lampiran B tabel karakter dan mesin `alat/grup.py`; Bab 4 memakai PySCF di `alat/hitung_bab04.py`, `pip install pyscf`); lanjutkan Bab 8–13 berurutan menurut `kimia-anorganik/RENCANA.md` dan `PEDOMAN.md`, satu bab per sesi. Tambah gambar pembuka bab di `edisi/pembuka2.py` dan istilah di `edisi/indeks_tambah.txt` setiap bab.
+7. ◐ **Kimia Anorganik 1: Teori Dasar** (`kimia-anorganik/`, dimulai 25-11-2026 atas permintaan penyusun): Bab 1–8 ☑ (Bab 3 menambah Lampiran B tabel karakter dan mesin `alat/grup.py`; Bab 4 memakai PySCF di `alat/hitung_bab04.py`, `pip install pyscf`); lanjutkan Bab 9–13 berurutan menurut `kimia-anorganik/RENCANA.md` dan `PEDOMAN.md`, satu bab per sesi. Tambah gambar pembuka bab di `edisi/pembuka2.py` dan istilah di `edisi/indeks_tambah.txt` setiap bab.
 8. ☐ **Matematika untuk Kimia**, lalu buku berikutnya di `RENCANA-SERI.md` (rancangan dulu, lalu bab demi bab).
 
 Aturan memutuskan sendiri:

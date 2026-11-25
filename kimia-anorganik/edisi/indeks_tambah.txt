@@ -241,3 +241,39 @@ efek Meissner
 pasangan Cooper
 YBCO
 oksida konduktor transparan
+energi Gibbs
+tetapan kesetimbangan
+asam Arrhenius
+asam Brønsted–Lowry
+pasangan konjugat
+asam Lux–Flood
+konsep sistem pelarut
+asam Lewis
+basa Lewis
+aduk
+amfiprotik
+asam biner
+asam okso
+aturan Pauling
+asam aqua
+hidrolisis kation
+olasi
+oksida asam
+oksida basa
+oksida amfoter
+pelevelan
+pelarut pembeda
+pasangan Lewis frustrasi
+regangan F
+HSAB
+kekerasan absolut
+litofil
+kalkofil
+parameter Drago–Wayland
+superasam
+fungsi keasaman Hammett
+asam ajaib
+superbasa
+zeolit
+selektivitas bentuk
+aturan Löwenstein

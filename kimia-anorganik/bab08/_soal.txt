@@ -1,0 +1,135 @@
+## Subbab 8.1: Prinsip dasar reaksi kimia: gaya dorong dan kesetimbangan
+
+> *R* = 8,314 J K⁻¹ mol⁻¹; *K*~w~ = 1,0 × 10⁻¹⁴ pada 25 °C; p*K*~a~ dari Tabel 8.2 dan 8.3. Soal bertanda **[P]** dibahas di akhir bab.
+
+Hitung *K* pada 298 K untuk reaksi dengan Δ*G*° = −10 dan +10 kJ mol⁻¹. ||| 56,5; 0,0177
+Dalam kondisi apa reaksi eksoterm dapat tidak spontan? Berikan contoh dari bab ini. ||| bila ΔS negatif dan T tinggi; NH₄Cl terurai di atas 618 K
+@dgka [P] Hitung Δ*G*° disosiasi asam asetat (p*K*~a~ = 4,76) dan HCl (p*K*~a~ ≈ −6) pada 298 K. Apa arti tanda masing-masing? ||| +27,2 kJ mol⁻¹ (K < 1, sebagian kecil terdisosiasi); ≈ −34 kJ mol⁻¹ (disosiasi sempurna)
+Mengapa setiap 5,71 kJ mol⁻¹ dalam Δ*G*° setara dengan satu satuan p*K* pada 298 K? ||| ΔG° = 2,303 RT pK = 5,71 pK kJ mol⁻¹
+Mengapa NH₄Cl yang dipanaskan dalam tabung reaksi tampak menyublim? ||| terurai menjadi NH₃ + HCl di bagian panas, terbentuk kembali di bagian dingin
+Untuk reaksi dengan Δ*H*° < 0 dan Δ*S*° > 0, apakah ada suhu yang membuatnya tidak spontan? ||| tidak; selalu spontan
+
+## Subbab 8.2: Teori-teori asam–basa
+
+Tentukan asam dan basa menurut Brønsted–Lowry, dan pasangan konjugatnya: (a) HSO₄⁻ + CO₃²⁻ ⇌ SO₄²⁻ + HCO₃⁻; (b) NH₃ + H₂O ⇌ NH₄⁺ + OH⁻. ||| (a) HSO₄⁻ asam, CO₃²⁻ basa; pasangan HSO₄⁻/SO₄²⁻, HCO₃⁻/CO₃²⁻; (b) H₂O asam, NH₃ basa
+Mengapa NH₃ tidak dapat dijelaskan sebagai basa oleh teori Arrhenius secara langsung? ||| tidak mengandung OH⁻; menghasilkan OH⁻ hanya dengan menerima proton dari air
+Tunjukkan bahwa CaO + SiO₂ → CaSiO₃ adalah reaksi asam–basa Lux–Flood. Mana asam dan mana basa? ||| CaO donor O²⁻ (basa), SiO₂ akseptor O²⁻ (asam)
+Dalam amonia cair, NH₄Cl adalah asam dan NaNH₂ basa. Jelaskan dengan konsep sistem pelarut. ||| 2NH₃ ⇌ NH₄⁺ + NH₂⁻; NH₄⁺ kation pelarut, NH₂⁻ anion pelarut
+@lewisbr [P] Jelaskan mengapa setiap basa Brønsted adalah basa Lewis, tetapi tidak setiap asam Lewis adalah asam Brønsted. Berikan dua contoh asam Lewis yang bukan asam Brønsted. ||| basa Brønsted memberikan pasangan elektron kepada H⁺; asam Lewis cukup mempunyai orbital kosong: BF₃, AlCl₃, Ag⁺
+Mengapa definisi Usanovich jarang dipakai? ||| terlalu umum, mencakup redoks; kehilangan daya pembeda
+Golongkan reaksi SO₂ + (CH₃)₃N → (CH₃)₃N·SO₂ menurut definisi yang sesuai. ||| Lewis: S menerima pasangan elektron N
+
+## Subbab 8.3: Brønsted–Lowry: *K*~a~ dan p*K*~a~ dalam air
+
+Hitung pH larutan 0,050 mol L⁻¹ HNO₂ (p*K*~a~ = 3,25). ||| 2,30
+Hitung pH larutan 0,10 mol L⁻¹ NH₃ (p*K*~a~ NH₄⁺ = 9,25). ||| 11,12
+Hitung pH larutan 0,10 mol L⁻¹ asam borat (p*K*~a~ = 9,24). ||| 5,12
+Urutkan kekuatan basa konjugat: F⁻, Cl⁻, NO₂⁻, HSO₄⁻, OH⁻. ||| Cl⁻ < HSO₄⁻ < F⁻ < NO₂⁻ < OH⁻ (kebalikan urutan kekuatan asam konjugat)
+Mengapa air disebut amfiprotik? Berikan dua zat lain yang amfiprotik. ||| dapat memberi dan menerima proton; HCO₃⁻, HSO₄⁻, NH₃
+Untuk pasangan konjugat HA/A⁻, buktikan *K*~a~*K*~b~ = *K*~w~. ||| kalikan kedua tetapan; [HA] dan [A⁻] saling hilang
+Mengapa p*K*~a~ HCl dan HClO₄ dalam Tabel 8.2 hanya berupa taksiran? ||| terionisasi sempurna dalam air (dilevelkan); diukur tidak langsung
+
+## Subbab 8.4: Asam biner: tren golongan dan periode
+
+Urutkan keasaman CH₄, NH₃, H₂O, HF, dan jelaskan. ||| CH₄ < NH₃ < H₂O < HF; keelektronegatifan X naik dalam periode
+Urutkan keasaman H₂O, H₂S, H₂Se, H₂Te, dan jelaskan. ||| H₂O < H₂S < H₂Se < H₂Te; ikatan H–X melemah, anion besar
+@hf [P] Jelaskan mengapa HF asam lemah sedangkan HCl asam kuat. Sebutkan tiga faktor. ||| ikatan H–F sangat kuat (570); hidrasi F⁻ menata air (ΔS negatif); pembentukan HF₂⁻
+Mengapa PH₃ jauh kurang asam daripada H₂S? ||| P kurang elektronegatif; dalam periode yang sama keelektronegatifan dominan
+Manakah yang lebih asam, H₂S atau HCl? H₂O atau H₂S? Jelaskan dengan tren yang berbeda untuk setiap pasangan. ||| HCl (periode); H₂S (golongan)
+Ion HS⁻ adalah basa yang lebih lemah daripada OH⁻. Jelaskan. ||| H₂S asam lebih kuat daripada H₂O, sehingga basa konjugatnya lebih lemah
+
+## Subbab 8.5: Asam okso: aturan Pauling
+
+Tuliskan aturan Pauling dan ramalkan p*K*~a1~ untuk HClO₄, H₂SO₄, H₃PO₄, HOCl. ||| −7; −2; 3; 8
+Ramalkan ketiga p*K*~a~ H₃AsO₄. Nilai terukur: 2,26; 6,76; 11,29. ||| 3, 8, 13
+@h3po3 [P] p*K*~a1~ H₃PO₃ adalah 1,3 dan asam ini hanya diprotik. Tentukan strukturnya dengan aturan Pauling. Lakukan hal yang sama untuk H₃PO₂ (p*K*~a~ 1,2, monoprotik). ||| HPO(OH)₂ dan H₂PO(OH); satu atau dua H pada P tidak asam
+@h2co3 [P] Mengapa p*K*~a1~ H₂CO₃ yang biasa ditulis (6,35) jauh dari ramalan Pauling (3)? ||| hanya ≈ 0,2 % CO₂ terlarut berupa H₂CO₃; p*K*a sebenarnya ≈ 3,6
+Mengapa asam borat bukan asam Brønsted biasa? Tuliskan persamaan reaksinya dengan air. ||| asam Lewis: B(OH)₃ + 2H₂O ⇌ B(OH)₄⁻ + H₃O⁺
+Urutkan keasaman HOCl, HOBr, HOI dan jelaskan. ||| HOCl > HOBr > HOI; keelektronegatifan atom pusat turun
+Mengapa keasaman deret HOCl, HClO₂, HClO₃, HClO₄ naik begitu tajam? ||| tiap O okso menarik elektron dan menyebarkan muatan basa konjugat lewat resonansi
+Ramalkan p*K*~a~ asam periodat H₅IO₆ dan asam silikat Si(OH)₄. ||| 3 (terukur 3,3); 8 (terukur 9,8)
+
+## Subbab 8.6: Asam aqua dan hidrolisis kation
+
+Tuliskan persamaan hidrolisis [Al(H₂O)₆]³⁺. ||| [Al(H₂O)₆]³⁺ + H₂O ⇌ [Al(OH)(H₂O)₅]²⁺ + H₃O⁺
+Hitung pH larutan 0,010 mol L⁻¹ Fe(NO₃)₃ (p*K*~a~ = 2,2). ||| 2,27
+@cu [P] Cu²⁺ (73 pm) dan Mg²⁺ (72 pm) berukuran sama dan bermuatan sama, tetapi p*K*~a~ ion aquanya 7,5 dan 11,4. Jelaskan. ||| Cu²⁺ ion d⁹, daya polarisasi besar; ikatan Cu–O lebih kovalen; basa konjugat lebih stabil
+Urutkan keasaman ion aqua Na⁺, Mg²⁺, Al³⁺ dan jelaskan dengan *z*²/*r*. ||| Na⁺ < Mg²⁺ < Al³⁺
+Mengapa tawas dipakai untuk menjernihkan air? ||| hidrolisis Al³⁺ membentuk Al(OH)₃ bergelatin yang menangkap kotoran
+Mengapa kromium(VI) dalam air berbentuk CrO₄²⁻, bukan [Cr(H₂O)₆]⁶⁺? ||| rapat muatan sangat besar; semua proton air lepas menjadi oksoanion
+Apa yang dimaksud dengan olasi? ||| ion hidrokso saling menjembatani lewat OH membentuk polimer, akhirnya endapan
+Mengapa larutan garam besi(III) disimpan dalam suasana asam? ||| mencegah hidrolisis lanjut dan pengendapan oksida hidrat
+
+## Subbab 8.7: Oksida asam, basa, dan amfoter
+
+Golongkan oksida berikut sebagai asam, basa, atau amfoter: Na₂O, MgO, Al₂O₃, SiO₂, P₄O₁₀, SO₃, Cl₂O₇. ||| basa, basa, amfoter, asam (lemah), asam, asam, asam
+Tuliskan persamaan reaksi Al(OH)₃ dengan HCl dan dengan NaOH. ||| Al(OH)₃ + 3HCl → AlCl₃ + 3H₂O; Al(OH)₃ + NaOH → Na[Al(OH)₄]
+@cr [P] Jelaskan mengapa CrO basa, Cr₂O₃ amfoter, dan CrO₃ asam. ||| bilangan oksidasi naik, rapat muatan naik, ikatan lebih kovalen
+Mengapa oksida nonlogam umumnya asam? ||| ikatan kovalen; atom pusat elektronegatif menarik elektron dari O–H dalam asam okso
+Jelaskan pembentukan hujan asam dengan reaksi oksida. ||| SO₂ → SO₃ + H₂O → H₂SO₄; NO₂ + air → HNO₃
+Mengapa BeO amfoter sedangkan oksida alkali tanah lain basa? ||| Be²⁺ sangat kecil, rapat muatan besar, ikatan kovalen
+
+## Subbab 8.8: Efek pelarut: pelevelan dan pembedaan
+
+Apa asam terkuat dan basa terkuat yang dapat ada dalam air? ||| H₃O⁺ dan OH⁻
+@level [P] Jelaskan mengapa HCl dan HClO₄ tampak sama kuat dalam air tetapi berbeda dalam asam asetat. ||| air basa cukup kuat untuk memprotonasi keduanya sempurna; asam asetat basa lemah, keduanya hanya terionisasi sebagian
+Mengapa asam asetat menjadi asam kuat dalam amonia cair? ||| NH₃ basa jauh lebih kuat daripada H₂O
+Tuliskan reaksi NaH dan Na₂O dengan air. Mengapa keduanya tidak dapat ada dalam air? ||| NaH + H₂O → NaOH + H₂; Na₂O + H₂O → 2NaOH; H⁻ dan O²⁻ basa lebih kuat daripada OH⁻
+Mengapa trimetilamina lebih lemah sebagai basa dalam air daripada dimetilamina, padahal di fase gas lebih kuat? ||| Me₃NH⁺ hanya satu H untuk ikatan hidrogen dengan air; kurang distabilkan pelarut
+Pelarut apa yang cocok untuk membedakan kekuatan basa-basa yang sangat kuat? ||| pelarut yang sangat lemah sebagai asam: amonia cair, DMSO, THF
+
+## Subbab 8.9: Asam dan basa Lewis
+
+Tentukan asam dan basa Lewis: (a) Fe³⁺ + 6H₂O; (b) BF₃ + F⁻; (c) CO₂ + OH⁻; (d) Ni + 4CO. ||| asam: Fe³⁺, BF₃, CO₂, Ni; basa: H₂O, F⁻, OH⁻, CO
+Mengapa CO₂ dapat bertindak sebagai asam Lewis? ||| C menerima pasangan elektron ke orbital π*; OH⁻ menyerang C
+Jelaskan reaksi asam–basa Lewis dengan HOMO dan LUMO. ||| HOMO basa (pasangan bebas) memberi elektron ke LUMO asam (orbital kosong)
+Apa yang dimaksud dengan pasangan Lewis frustrasi? ||| asam dan basa kuat yang tidak dapat bergabung karena rintangan ruang; dapat memecah H₂
+@ruang [P] (CH₃)₃N adalah basa yang lebih kuat daripada NH₃ terhadap BF₃, tetapi aduknya dengan B(CH₃)₃ lebih lemah daripada aduk NH₃–B(CH₃)₃. Jelaskan. ||| gugus metil pada kedua pihak bertabrakan (rintangan ruang F-strain)
+Mengapa I₂ bertindak sebagai asam Lewis? Orbital apa yang menerima elektron? ||| LUMO σ* I–I rendah
+
+## Subbab 8.10: Asam Lewis golongan 13 dan 14
+
+@bx3 [P] Jelaskan mengapa keasaman Lewis BX₃ naik dari BF₃ ke BBr₃, berlawanan dengan keelektronegatifan. ||| donasi π p(X) → p(B) paling besar untuk F; hilang saat aduk terbentuk
+Mengapa AlCl₃ membentuk dimer Al₂Cl₆? ||| Al kekurangan elektron; pasangan bebas Cl jembatan memuaskan keasaman Lewis
+Tuliskan peran AlCl₃ dalam reaksi Friedel–Crafts. ||| RCl + AlCl₃ → R⁺ + AlCl₄⁻
+Mengapa SiCl₄ terhidrolisis cepat, sedangkan CCl₄ tidak bereaksi dengan air? ||| Si dapat menerima air membentuk zat antara KB 5; C tidak; perbedaan kinetika
+Tuliskan reaksi SiF₄ dengan HF berlebih. ||| SiF₄ + 2HF → H₂SiF₆ (SiF₆²⁻)
+Mengapa SnCl₄ asam Lewis yang lebih kuat daripada SiCl₄? ||| Sn lebih besar, mudah menampung ligan tambahan
+
+## Subbab 8.11: Asam dan basa keras dan lunak (HSAB)
+
+Golongkan sebagai keras, lunak, atau perbatasan: Li⁺, Ag⁺, Fe³⁺, Fe²⁺, Hg²⁺, F⁻, I⁻, SH⁻, NH₃, CO, piridina. ||| keras: Li⁺, Fe³⁺, F⁻, NH₃; lunak: Ag⁺, Hg²⁺, I⁻, SH⁻, CO; perbatasan: Fe²⁺, piridina
+Hitung kekerasan absolut K⁺ (*I*₁ 4,341, *I*₂ 31,63 eV) dan Cu⁺ (*I*₁ 7,726, *I*₂ 20,292 eV). ||| 13,6 eV; 6,3 eV
+Hitung kekerasan absolut Cl⁻ (*I*(Cl) 12,968, *A*(Cl) 3,613 eV) dan Br⁻ (*I* 11,814, *A* 3,364 eV). ||| 4,7; 4,2 eV
+@mineral [P] Jelaskan dengan HSAB mengapa Al, Mg, Ca ditemukan sebagai oksida/silikat/karbonat, sedangkan Hg, Pb, Cu sebagai sulfida. ||| asam keras + basa keras O²⁻; asam lunak + basa lunak S²⁻
+@racun [P] Mengapa Hg²⁺ dan Cd²⁺ sangat beracun, sedangkan Ca²⁺ dan Mg²⁺ tidak? Bagaimana penawarnya bekerja? ||| asam lunak terikat kuat pada –SH protein; penawar tiol (BAL) mengikat lebih kuat dan membawa keluar
+Ramalkan arah kesetimbangan: LiI + CsF ⇌ LiF + CsI. ||| ke kanan (Li⁺ keras + F⁻ keras; Cs⁺ lunak + I⁻ lunak)
+Pada kompleks tiosianat, atom mana yang terikat pada Pt²⁺ dan mana pada Fe³⁺? ||| S pada Pt²⁺ (lunak); N pada Fe³⁺ (keras)
+Mengapa prinsip HSAB tidak dapat dipakai untuk mengurutkan kekuatan asam? ||| HSAB hanya menyatakan preferensi; kekuatan intrinsik terpisah
+
+## Subbab 8.12: Parameter Drago–Wayland
+
+Hitung −Δ*H* untuk aduk BF₃–NH₃ dan BF₃–(CH₃)₃N dengan Tabel 8.4. ||| 79,7; 111,6 kJ mol⁻¹
+Hitung −Δ*H* untuk fenol–NH₃ dan fenol–(CH₃)₃N. ||| 31,0; 36,0 kJ mol⁻¹
+@drago [P] Bandingkan perbandingan kekuatan (CH₃)₃N/NH₃ terhadap I₂ dan terhadap fenol. Jelaskan perbedaannya dengan *E* dan *C*. ||| I₂: 51,7/20,2 = 2,6; fenol: 36,0/31,0 = 1,16; Me₃N C_B besar, I₂ relatif kovalen
+Apa arti fisis *E* dan *C* dalam persamaan Drago–Wayland? ||| E: kecenderungan interaksi elektrostatik; C: kecenderungan kovalen
+Mengapa persamaan Drago–Wayland hanya berlaku dalam pelarut yang tidak berinteraksi? ||| pelarut polar ikut berinteraksi dengan asam dan basa; entalpi solvasi mengacaukan
+Asam mana dalam Tabel 8.4 yang paling "keras"? ||| fenol (E_A/C_A terbesar ≈ 9,8)
+
+## Subbab 8.13: Superasam dan superbasa
+
+Apa definisi superasam menurut Gillespie? ||| lebih kuat daripada H₂SO₄ 100 % (H₀ < −12)
+Mengapa pH tidak dapat dipakai untuk asam pekat, dan apa penggantinya? ||| pH memerlukan larutan encer dalam air; fungsi keasaman Hammett H₀
+@sbf5 [P] Jelaskan peran SbF₅ dalam superasam HF–SbF₅. Tuliskan persamaan reaksinya. ||| menangkap F⁻: 2HF + SbF₅ → H₂F⁺ + SbF₆⁻; basa konjugat sangat lemah
+Apa yang terjadi bila metana dilarutkan dalam asam ajaib? ||| terprotonasi menjadi CH₅⁺, lalu kehilangan H₂ menjadi CH₃⁺ dan oligomer
+Sebutkan tiga superbasa dan pelarut tempat memakainya. ||| NaNH₂ (NH₃ cair), LDA (THF), butillitium (heksana)
+Mengapa butillitium harus disimpan dan dipakai tanpa udara dan air? ||| basa sangat kuat (pKa butana ≈ 50) bereaksi hebat dengan air dan O₂
+
+## Subbab 8.14: Asam padat: zeolit dan katalis
+
+Jelaskan asal situs asam Brønsted dalam zeolit. ||| Al³⁺ mengganti Si⁴⁺ → muatan −1 kerangka diimbangi H⁺ pada O jembatan Si–O(H)–Al
+Hitung jumlah situs asam per 100 atom T pada zeolit dengan Si/Al = 30. ||| 3,2
+Apa yang dimaksud dengan selektivitas bentuk? Berikan contoh. ||| hanya molekul yang muat di saluran yang bereaksi; ZSM-5 memilih p-xilena
+Apa aturan Löwenstein? ||| tidak ada ikatan Al–O–Al dalam kerangka
+@padat [P] Sebutkan tiga keunggulan asam padat dibandingkan asam cair seperti H₂SO₄ dan HF dalam industri. ||| mudah dipisahkan dan diregenerasi, tidak korosif/lebih aman, selektivitas bentuk
+Selain katalis, sebutkan dua kegunaan zeolit. ||| penukar ion dalam deterjen; penyaring molekul pengering

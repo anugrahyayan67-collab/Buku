@@ -178,3 +178,22 @@ for i, (nm, kel, s, _, _) in enumerate(dat):
 ax.text(W / 2, 4.65, 'satu teori, tiga perilaku', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
 simpan(7, f, 'Tembaga, silikon, dan intan berbeda konduktivitas sampai 10²⁰ kali karena letak tingkat Fermi terhadap pita-pita energinya: di dalam pita, di dalam celah kecil, atau di dalam celah besar.')
 print('ok7')
+
+# Bab 8: tangga kekuatan asam (H0 / pKa)
+f, ax = kanvas()
+skala = [('HF–SbF₅', -21), ('HSO₃F–SbF₅', -19), ('HSO₃F', -15.1), ('H₂SO₄ 100 %', -12), ('H$_3$O$^+$', -1.7), ('HF', 3.2), ('CH₃COOH', 4.8), ('NH$_4^+$', 9.3), ('H₂O', 15.7)]
+x0, x1 = .9, 7.5
+def X(v): return x0 + (v + 23) / (17 + 23) * (x1 - x0)
+ax.add_patch(plt.Rectangle((X(-1.7), 1.55), X(15.7) - X(-1.7), .5, fc='#f6c79b', ec=TUA)); ax.text((X(-1.7) + X(15.7)) / 2, 1.8, 'jendela air', ha='center', va='center', fontsize=10, color=TUA, family='Liberation Sans')
+ax.add_patch(plt.Rectangle((X(-23), 1.55), X(-12) - X(-23), .5, fc=UT, ec=TUA)); ax.text((X(-23) + X(-12)) / 2, 1.8, 'superasam', ha='center', va='center', fontsize=10, color='white', family='Liberation Sans')
+ax.plot([x0, x1], [1.3, 1.3], color=TUA, lw=1.5)
+for k, (nm, v) in enumerate(skala):
+    ax.plot([X(v), X(v)], [1.22, 1.38], color=TUA, lw=1.2)
+    ax.text(X(v), 2.35 + .38 * (k % 3), nm, ha='center', fontsize=9, color=TUA, family='Liberation Sans', rotation=0)
+    ax.plot([X(v), X(v)], [2.1, 2.3 + .38 * (k % 3)], color=AB, lw=.6)
+for v in (-20, -10, 0, 10):
+    ax.text(X(v), .95, f'{v}'.replace('-', '−'), ha='center', fontsize=9, color=TUA, family='Liberation Sans')
+ax.text((x0 + x1) / 2, .55, '← lebih asam          H₀ atau pKa          lebih basa →', ha='center', fontsize=10, color=TUA, family='Liberation Sans')
+ax.text(W / 2, 4.65, 'tangga keasaman', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
+simpan(8, f, 'Keasaman beberapa zat dalam satu skala. Air hanya dapat memperlihatkan keasaman di dalam jendelanya; superasam jauh lebih kuat daripada asam sulfat murni.')
+print('ok8')

@@ -73,7 +73,7 @@ Catatan Bab 2 (25-11-2026): 13 subbab (termasuk gaya-gaya kimia dan ikatan hidro
 
 ## Bagian III · Reaksi dalam Larutan
 
-### ☐ Bab 8 Asam dan Basa
+### ☑ Bab 8 Asam dan Basa
 8.1 Prinsip dasar reaksi kimia: gaya dorong ΔG, ΔH, ΔS, dan pengaruh suhu (rujuk *Termodinamika Kimia*) · 8.2 Teori asam–basa: Arrhenius, Brønsted–Lowry, Lux–Flood, sistem pelarut, Lewis, Usanovich · 8.3 Brønsted–Lowry, Ka, dan pKa dalam air · 8.4 Asam biner: tren golongan dan periode · 8.5 Asam okso: aturan Pauling · 8.6 Asam aqua dan hidrolisis kation · 8.7 Oksida asam, basa, amfoter · 8.8 Efek pelarut: leveling dan pembeda · 8.9 Asam dan basa Lewis · 8.10 Asam Lewis golongan 13 dan 14 · 8.11 Asam–basa keras dan lunak (HSAB) · 8.12 Parameter Drago–Wayland (E dan C) · 8.13 Superasam dan superbasa · 8.14 Asam padat: zeolit dan katalis
 
 ### ☐ Bab 9 Oksidasi dan Reduksi
