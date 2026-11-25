@@ -161,3 +161,20 @@ ax.text(6.3, 3.3, '(batang\nterpotong)', ha='center', fontsize=8.5, color=TUA, f
 ax.text(W / 2, 4.65, 'mengapa MgCl₂?', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
 simpan(6, f, 'Entalpi pembentukan hasil perhitungan untuk tiga klorida magnesium. Kenaikan energi kisi membayar energi ionisasi kedua, tetapi tidak dapat membayar energi ionisasi ketiga.')
 print('ok6')
+
+# Bab 7: tembaga, silikon, intan sebagai pita
+f, ax = kanvas()
+dat = [('Cu', 'logam', 10**5.78, (0.6, 3.7), (0.6, 2.4)), ('Si', 'semikonduktor', 3e-6, None, None), ('intan', 'isolator', 1e-14, None, None)]
+for i, (nm, kel, s, _, _) in enumerate(dat):
+    x = 1.0 + 2.4 * i
+    if nm == 'Cu':
+        ax.add_patch(plt.Rectangle((x, .9), 1.3, 3.0, fc='white', ec=TUA, lw=1.4)); ax.add_patch(plt.Rectangle((x, .9), 1.3, 1.7, fc=UT, ec=TUA, lw=1.4))
+    else:
+        gap = .7 if nm == 'Si' else 1.9; top = .9 + (3.0 - gap) / 2
+        ax.add_patch(plt.Rectangle((x, .9), 1.3, top - .9, fc=UT, ec=TUA, lw=1.4)); ax.add_patch(plt.Rectangle((x, top + gap), 1.3, 3.9 - top - gap, fc='white', ec=TUA, lw=1.4))
+        ax.annotate('', (x + 1.45, top + gap), (x + 1.45, top), arrowprops=dict(arrowstyle='<->', color=EM, lw=1.4))
+        ax.text(x + 1.52, top + gap / 2, '1,1 eV' if nm == 'Si' else '5,5 eV', fontsize=9, color=TUA, va='center', family='Liberation Sans')
+    ax.text(x + .65, .55, f'{nm}: {kel}', ha='center', fontsize=11, fontweight='bold', color=TUA, family='Liberation Sans')
+ax.text(W / 2, 4.65, 'satu teori, tiga perilaku', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
+simpan(7, f, 'Tembaga, silikon, dan intan berbeda konduktivitas sampai 10²⁰ kali karena letak tingkat Fermi terhadap pita-pita energinya: di dalam pita, di dalam celah kecil, atau di dalam celah besar.')
+print('ok7')

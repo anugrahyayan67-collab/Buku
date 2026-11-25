@@ -196,3 +196,48 @@ karbonat
 ozonida
 proses Brin
 karakter kovalen
+ikatan logam
+hukum Wiedemann–Franz
+paduan
+larutan padat substitusi
+larutan padat interstisi
+aturan Hume-Rothery
+senyawa antarlogam
+senyawa elektron
+konsentrasi elektron
+baja
+teori pita
+pita valensi
+pita konduksi
+celah pita
+lebar pita
+kerapatan keadaan
+energi Fermi
+tingkat Fermi
+fungsi Fermi–Dirac
+model elektron bebas
+semikonduktor
+semilogam
+isolator
+lubang
+pembawa intrinsik
+doping
+donor
+akseptor
+semikonduktor tipe n
+semikonduktor tipe p
+hukum aksi massa
+sambungan p–n
+daerah deplesi
+dioda
+LED
+sel surya
+celah langsung
+celah tak langsung
+titik kuantum
+superkonduktivitas
+suhu kritis
+efek Meissner
+pasangan Cooper
+YBCO
+oksida konduktor transparan
