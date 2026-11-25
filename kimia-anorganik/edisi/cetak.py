@@ -250,7 +250,7 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.units import mm
 from reportlab.lib.colors import HexColor
 cv = canvas.Canvas(f'{K}/lapis.pdf', pagesize=(595.28, 841.89))
-BIRU, TUA, GARIS = HexColor('#55626f'), HexColor('#2b2f36'), HexColor('#d6dce2')
+BIRU, TUA, GARIS = HexColor('#c2611f'), HexColor('#4a2511'), HexColor('#f1d6bf')
 def badge(x, y, t, kanan):
     wd = max(cv.stringWidth(t, 'Helvetica-Bold', 8.5) + 4 * mm, 7 * mm)
     x0 = x - wd if kanan else x

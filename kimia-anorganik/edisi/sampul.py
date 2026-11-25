@@ -17,9 +17,9 @@ def latar(nama, cx, cy, sk, redup=1.0, w=8.27, h=11.69):
     ax.imshow(CM(np.clip(d / d.max(), 0, 1) ** 0.6) * [1, 1, 1, redup], extent=[0, w, 0, h], interpolation='bicubic')
     t = np.linspace(0, 2 * np.pi, 7) + np.pi / 6
     for rr, al in [(2.2, .35), (3.4, .18)]:
-        for k2, a2 in [(6, .05), (2.5, .2), (1, 1)]: ax.plot(cx + rr * np.cos(t), cy + rr * np.sin(t), color='#e0a800', lw=0.8 * k2, alpha=al * a2 * redup)
+        for k2, a2 in [(6, .05), (2.5, .2), (1, 1)]: ax.plot(cx + rr * np.cos(t), cy + rr * np.sin(t), color='#6f93e0', lw=0.8 * k2, alpha=al * a2 * redup)
     ax.set_xlim(0, w); ax.set_ylim(0, h); f.savefig(f'{K}/{nama}', transparent=True); plt.close(f)
-# Ilustrasi panel: kisi garam batu NaCl bercahaya (Na+ perak kecil, Cl- kuning besar) dalam proyeksi miring,
+# Ilustrasi panel: kisi garam batu NaCl bercahaya (Na+ biru kobalt kecil, Cl- tembaga besar) dalam proyeksi miring,
 # dengan sel satuan yang disorot dan butir cahaya di latar.
 f = plt.figure(figsize=(6.7, 6.2), dpi=220); ax = f.add_axes([0, 0, 1, 1]); ax.axis('off')
 ax.set_xlim(-4.8, 4.8); ax.set_ylim(-4.45, 4.45); ax.set_aspect('equal')
@@ -39,19 +39,19 @@ for (x, y, z, s) in T:
         if (x + dx) <= N / 2 and (y + dy) <= N / 2 and (z + dz) <= N / 2:
             p1, p2 = proj(x, y, z), proj(x + dx, y + dy, z + dz)
             for k2, a2 in [(4, .05), (1.6, .14), (.7, .45)]:
-                ax.plot([p1[0], p2[0]], [p1[1], p2[1]], color='#c9d3dc', lw=k2, alpha=a2, zorder=1)
+                ax.plot([p1[0], p2[0]], [p1[1], p2[1]], color='#f6c79b', lw=k2, alpha=a2, zorder=1)
 # sel satuan disorot (kubus tengah)
 c0 = -0.5
 for (u, v) in [((0, 0, 0), (1, 0, 0)), ((0, 0, 0), (0, 1, 0)), ((0, 0, 0), (0, 0, 1)), ((1, 1, 0), (1, 0, 0)), ((1, 1, 0), (0, 1, 0)), ((1, 1, 0), (1, 1, 1)),
                ((1, 0, 1), (1, 0, 0)), ((1, 0, 1), (0, 0, 1)), ((1, 0, 1), (1, 1, 1)), ((0, 1, 1), (0, 1, 0)), ((0, 1, 1), (0, 0, 1)), ((0, 1, 1), (1, 1, 1))]:
     p1 = proj(*(c0 + q for q in u)); p2 = proj(*(c0 + q for q in v))
     for k2, a2 in [(7, .06), (3, .16), (1.2, .9)]:
-        ax.plot([p1[0], p2[0]], [p1[1], p2[1]], color='#e0a800', lw=k2, alpha=a2, zorder=2, solid_capstyle='round')
+        ax.plot([p1[0], p2[0]], [p1[1], p2[1]], color='#6f93e0', lw=k2, alpha=a2, zorder=2, solid_capstyle='round')
 # ion, urut dari belakang ke depan
 for (x, y, z, s) in sorted(T, key=lambda t: -proj(t[0], t[1], t[2])[2]):
     X, Y, D = proj(x, y, z); dep = 0.75 + 0.25 * (1 - (D + 3) / 6)
-    if s == 0: r, c, g = 0.42, '#d29a00', '#e0a800'   # Cl- besar
-    else: r, c, g = 0.22, '#dfe5ea', '#ffffff'        # Na+ kecil (perak)
+    if s == 0: r, c, g = 0.42, '#c2611f', '#6f93e0'   # Cl- besar
+    else: r, c, g = 0.22, '#5b86e5', '#a9c1f5'        # Na+ kecil (biru kobalt)
     for k2, a2 in [(3.2, .05), (2.0, .10), (1.35, .18)]:
         ax.add_patch(plt.Circle((X, Y), r * k2 * dep, color=g, alpha=a2, lw=0, zorder=3))
     ax.add_patch(plt.Circle((X, Y), r * dep, color=c, zorder=4, ec=g, lw=0.8))
@@ -60,29 +60,29 @@ rng = np.random.default_rng(7)
 for _ in range(50):
     x, y = rng.uniform(-4.6, 4.6), rng.uniform(-4.3, 4.3); r = rng.uniform(4, 14)
     if abs(x) < 3.6 and abs(y) < 3.4: continue
-    for k, a2 in [(8, .03), (3, .1), (1, .5)]: ax.scatter(x, y, s=r * k, color='#e6eaee', alpha=a2, lw=0)
+    for k, a2 in [(8, .03), (3, .1), (1, .5)]: ax.scatter(x, y, s=r * k, color='#fbe7d6', alpha=a2, lw=0)
 f.savefig(f'{K}/sampul-latar.png', transparent=True); plt.close(f)
 daftar = ''.join(f'<li><b>{n}</b>{t}</li>' for n, t in JUDUL)
 open(f'{K}/sampul.html', 'w').write(f'''<!doctype html><html><head><meta charset="utf-8"><style>
 @page{{size:A4;margin:0}} body{{margin:0;font-family:Inter,sans-serif}}
-.pg{{width:210mm;height:297mm;position:relative;overflow:hidden;break-after:page;color:#2b2f36;background:#f8f9fa}}
-.bar{{position:absolute;left:0;top:0;bottom:0;width:9mm;background:#2b2f36}}
-.ed{{position:absolute;top:24mm;left:22mm;font-size:9pt;letter-spacing:6px;font-weight:800;color:#b8860b}}
-.pen{{position:absolute;top:24mm;right:18mm;font-size:9pt;font-weight:800;letter-spacing:6px;color:#2b2f36}}
-.jd{{position:absolute;top:36mm;left:20mm;font-size:54pt;font-weight:900;line-height:.88;letter-spacing:-1px;color:#2b2f36}}
-.jd span{{color:#55626f}}
-.sb{{position:absolute;top:77mm;left:22mm;width:130mm;font-size:13pt;line-height:1.45;color:#4c545c;border-top:.6mm solid #d29a00;padding-top:4mm}}
-.panel{{position:absolute;left:22mm;right:18mm;top:98mm;bottom:22mm;background:radial-gradient(ellipse at 50% 60%,#4a525c 0%,#353b43 55%,#22262c 100%)}}
+.pg{{width:210mm;height:297mm;position:relative;overflow:hidden;break-after:page;color:#4a2511;background:#fffaf5}}
+.bar{{position:absolute;left:0;top:0;bottom:0;width:9mm;background:#4a2511}}
+.ed{{position:absolute;top:24mm;left:22mm;font-size:9pt;letter-spacing:6px;font-weight:800;color:#2f5fb5}}
+.pen{{position:absolute;top:24mm;right:18mm;font-size:9pt;font-weight:800;letter-spacing:6px;color:#4a2511}}
+.jd{{position:absolute;top:36mm;left:20mm;font-size:54pt;font-weight:900;line-height:.88;letter-spacing:-1px;color:#4a2511}}
+.jd span{{color:#c2611f}}
+.sb{{position:absolute;top:77mm;left:22mm;width:130mm;font-size:13pt;line-height:1.45;color:#6b4a35;border-top:.6mm solid #c2611f;padding-top:4mm}}
+.panel{{position:absolute;left:22mm;right:18mm;top:98mm;bottom:22mm;background:radial-gradient(ellipse at 50% 60%,#7a3d17 0%,#5c2d10 55%,#3a1c0a 100%)}}
 .panel img{{position:absolute;left:4%;top:5%;width:92%;height:90%;object-fit:contain}}
-.ln{{position:absolute;bottom:22mm;left:22mm;width:40mm;height:.7mm;background:#d29a00}}
+.ln{{position:absolute;bottom:22mm;left:22mm;width:40mm;height:.7mm;background:#c2611f}}
 .pers{{position:absolute;right:6mm;bottom:4mm;font-family:Caladea,serif;font-style:italic;font-size:13pt;color:rgba(250,222,210,.85)}}
 .blk .isi{{position:absolute;top:24mm;left:22mm;right:20mm}}
-.blk h2{{font-size:18pt;font-weight:900;margin:0 0 6mm 0;text-transform:uppercase;letter-spacing:1.5px;line-height:1.2;color:#2b2f36}} .blk h2 span{{color:#55626f}}
-.blk p{{font-size:10.5pt;line-height:1.6;color:#2c3136;margin:0 0 3.5mm 0;font-family:Caladea,serif}}
-.blk ul{{list-style:none;padding:0;margin:8mm 0 0 0;columns:2;column-gap:10mm;font-size:9.2pt;border-top:.5mm solid #2b2f36;padding-top:5mm;color:#2c3136}}
-.blk li{{margin:0 0 2.2mm 0;padding-left:8mm;text-indent:-8mm;break-inside:avoid}} .blk li b{{display:inline-block;width:8mm;text-indent:0;color:#b8860b}}
-.tp{{position:absolute;left:22mm;right:20mm;bottom:22mm;background:#eceff2;padding:5mm 6mm;font-family:Caladea,serif;font-size:10pt;line-height:1.55;color:#2c3136}}
-.tp b{{font-family:Inter,sans-serif;font-size:8.5pt;letter-spacing:2px;color:#55626f;display:block;margin-bottom:1.5mm}}
+.blk h2{{font-size:18pt;font-weight:900;margin:0 0 6mm 0;text-transform:uppercase;letter-spacing:1.5px;line-height:1.2;color:#4a2511}} .blk h2 span{{color:#c2611f}}
+.blk p{{font-size:10.5pt;line-height:1.6;color:#3a2a1f;margin:0 0 3.5mm 0;font-family:Caladea,serif}}
+.blk ul{{list-style:none;padding:0;margin:8mm 0 0 0;columns:2;column-gap:10mm;font-size:9.2pt;border-top:.5mm solid #4a2511;padding-top:5mm;color:#3a2a1f}}
+.blk li{{margin:0 0 2.2mm 0;padding-left:8mm;text-indent:-8mm;break-inside:avoid}} .blk li b{{display:inline-block;width:8mm;text-indent:0;color:#2f5fb5}}
+.tp{{position:absolute;left:22mm;right:20mm;bottom:22mm;background:#fcefe3;padding:5mm 6mm;font-family:Caladea,serif;font-size:10pt;line-height:1.55;color:#3a2a1f}}
+.tp b{{font-family:Inter,sans-serif;font-size:8.5pt;letter-spacing:2px;color:#c2611f;display:block;margin-bottom:1.5mm}}
 </style></head><body>
 <div class="pg"><div class="bar"></div><div class="ed">EDISI PERTAMA</div><div class="pen">SEPTIAN ANUGRAH DWI PUTRA</div>
 <div class="jd">KIMIA<br><span>ANORGANIK 1</span></div>
@@ -93,5 +93,5 @@ open(f'{K}/sampul.html', 'w').write(f'''<!doctype html><html><head><meta charset
 <p>Setiap tren dibuka dengan data nyata, lalu dijelaskan dengan model yang paling sederhana, dan setiap model ditunjukkan juga kapan gagal. Contoh diambil dari mineral, industri, material, lingkungan, dan tubuh manusia.</p>
 <p>Setiap bab ditutup dengan ringkasan, pertanyaan konsep, soal beserta jawabannya, pembahasan soal terpilih, dan bacaan lanjut. Buku ini adalah lanjutan dari <i>Kimia Kuantum</i> dan <i>Termodinamika Kimia</i>.</p>
 <ul>{daftar}</ul></div>
-<div class="tp"><b>TENTANG PENYUSUN</b><b style="color:#2b2f36;letter-spacing:.5px;font-size:11pt">Septian Anugrah Dwi Putra</b>Mahasiswa S1 Kimia, Universitas Negeri Surabaya. Penyusun <i>Fisika Umum</i>, <i>Kimia Kuantum</i>, <i>Kimia Fisika 1</i>, dan <i>Kimia Organik 1</i>; buku ini disusun untuk mata kuliah Teori Dasar Anorganik.</div></div>
+<div class="tp"><b>TENTANG PENYUSUN</b><b style="color:#4a2511;letter-spacing:.5px;font-size:11pt">Septian Anugrah Dwi Putra</b>Mahasiswa S1 Kimia, Universitas Negeri Surabaya. Penyusun <i>Fisika Umum</i>, <i>Kimia Kuantum</i>, <i>Kimia Fisika 1</i>, dan <i>Kimia Organik 1</i>; buku ini disusun untuk mata kuliah Teori Dasar Anorganik.</div></div>
 </body></html>''')
