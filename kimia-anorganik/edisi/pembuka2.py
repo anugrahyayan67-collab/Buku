@@ -145,3 +145,19 @@ tumpuk(1.3, 'ABAB', 'hcp: ABAB…'); tumpuk(5.2, 'ABCA', 'ccp: ABCABC…')
 ax.text(W / 2, 4.65, 'menumpuk bola serapat mungkin', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
 simpan(5, f, 'Dua cara menumpuk lapisan bola serapat mungkin. Pada hcp lapisan ketiga kembali ke posisi A; pada ccp lapisan ketiga menempati posisi baru C. Keduanya mengisi 74 % ruang.')
 print('ok5')
+
+# Bab 6: tangga energi Mg -> MgCl, MgCl2, MgCl3 (Kapustinskii)
+f, ax = kanvas()
+nama = ['MgCl', 'MgCl₂', 'MgCl₃']; dH = [-88, -581, 4257]
+y0 = 2.5; sk = 1 / 560
+ax.plot([.8, 7.6], [y0, y0], color=AB, lw=1, ls='--'); ax.text(.85, y0 + .08, 'unsur: Mg + Cl₂', fontsize=10, color=TUA, family='Liberation Sans')
+for i, (nm, v) in enumerate(zip(nama, dH)):
+    x = 1.9 + 2.2 * i; h = max(min(v * sk, 1.6), -1.6)
+    c = MU if v > 0 else (UT if v < -300 else '#f6c79b')
+    ax.add_patch(plt.Rectangle((x - .45, y0), .9, h, fc=c, ec=TUA, lw=1.2))
+    ax.text(x, y0 + h + (.12 if v > 0 else -.32), f'{v:+d} kJ/mol'.replace('-', '−'), ha='center', fontsize=10, color=TUA, family='Liberation Sans')
+    ax.text(x, .75, nm, ha='center', fontsize=13, fontweight='bold', color=TUA, family='Liberation Sans')
+ax.text(6.3, 3.3, '(batang\nterpotong)', ha='center', fontsize=8.5, color=TUA, family='Liberation Sans')
+ax.text(W / 2, 4.65, 'mengapa MgCl₂?', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
+simpan(6, f, 'Entalpi pembentukan hasil perhitungan untuk tiga klorida magnesium. Kenaikan energi kisi membayar energi ionisasi kedua, tetapi tidak dapat membayar energi ionisasi ketiga.')
+print('ok6')

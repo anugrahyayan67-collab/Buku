@@ -1,0 +1,97 @@
+## Subbab 6.1: Energi kisi: definisi dan arti fisisnya
+
+> *N*~A~*e*²/(4πε₀) = 1,389 × 10⁵ kJ mol⁻¹ pm; tetapan Madelung dari Tabel 6.1; eksponen Born dari Tabel 6.2; jari-jari ion Shannon dari Lampiran A; entalpi hidrasi dari Tabel 6.3. Entalpi kisi ditulis positif (arah pemecahan). Soal bertanda **[P]** dibahas di akhir bab.
+
+Tuliskan persamaan reaksi yang perubahan entalpinya adalah entalpi kisi MgO dan Na₂O (arah pemecahan). ||| MgO(s) → Mg²⁺(g) + O²⁻(g); Na₂O(s) → 2Na⁺(g) + O²⁻(g)
+Apa perbedaan energi kisi dan entalpi kisi? Seberapa besar perbedaannya untuk MX pada 298 K? ||| entalpi memuat kerja pV gas; 2RT ≈ 5 kJ mol⁻¹
+Mengapa entalpi kisi MgO hampir lima kali NaCl, padahal jarak antarionnya hanya 25 % lebih pendek? ||| |z₊z₋| = 4 lawan 1, ditambah jarak lebih pendek (282/211 = 1,34)
+Mengapa senyawa ionik keras tetapi rapuh? ||| ikatan kuat ke segala arah; pergeseran satu lapis mendekatkan ion sejenis dan menimbulkan tolakan
+Urutkan titik leleh NaF, NaCl, MgO, dan CaO dan jelaskan dengan energi kisi. ||| NaCl (801) < NaF (993) < CaO (2613) < MgO (2852)
+
+## Subbab 6.2: Model elektrostatik: tetapan Madelung
+
+Hitung energi Coulomb satu pasangan Na⁺–Cl⁻ pada jarak 282 pm, dalam J dan dalam kJ mol⁻¹. ||| −8,18 × 10⁻¹⁹ J; −493 kJ mol⁻¹
+Tuliskan lima suku pertama deret Madelung untuk NaCl. Mengapa deret ini tidak dapat dijumlahkan kulit demi kulit? ||| 6 − 12/√2 + 8/√3 − 6/2 + 24/√5; jumlah tetangga per kulit naik ∝ r², setiap kulit bermuatan bersih besar
+@evjen [P] Hitung tetapan Madelung NaCl dengan kubus Evjen terkecil (*N* = 1). Mengapa ion-ion di permukaan diberi bobot pecahan? ||| 3,000 − 2,121 + 0,577 = 1,456; agar kubus netral
+@rantai [P] Turunkan tetapan Madelung rantai satu dimensi ion bergantian (+ − + − …) dengan jarak *r*. ||| 2(1 − ½ + ⅓ − …) = 2 ln 2 = 1,386
+Mengapa tetapan Madelung struktur CsCl (1,763) hanya sedikit lebih besar daripada NaCl (1,748), walaupun KB-nya 8 lawan 6? ||| tetangga lebih banyak tetapi lebih jauh, dan ion sejenis juga lebih dekat; efek saling mengimbangi
+Hitung *A*/*ν* untuk NaCl, CsCl, CaF₂, dan Al₂O₃. Apa yang dapat disimpulkan? ||| 0,874; 0,881; 0,840; 0,834; hampir tetap (dasar Kapustinskii)
+Apakah tetapan Madelung bergantung pada jenis ion? Jelaskan. ||| tidak, hanya pada geometri (struktur)
+Bila NaCl mengadopsi struktur CsCl dengan *r*₀ yang sama, berapa persen energi elektrostatiknya berubah? ||| naik 0,9 % (1,7627/1,7476)
+
+## Subbab 6.3: Persamaan Born–Landé dan Born–Mayer
+
+Turunkan persamaan Born–Landé dari *U*(*r*) = −*C*/*r* + *B*/*r*^*n*^ dengan syarat d*U*/d*r* = 0 pada *r*₀. ||| B = C r₀^(n−1)/n; U(r₀) = −(C/r₀)(1 − 1/n)
+Hitung entalpi kisi LiF dengan Born–Landé (*r*₀ = 201,4 pm, *n* = 6). Bandingkan dengan siklus (1049 kJ mol⁻¹). ||| 1005 kJ mol⁻¹; 4 % lebih kecil
+Hitung entalpi kisi KCl dengan Born–Landé (*r*₀ = 314,6 pm). ||| n = 9; 686 kJ mol⁻¹
+@cscl [P] Hitung entalpi kisi CsCl dengan Born–Landé (*r*₀ = 357,1 pm, *n* = 10,5). Lalu hitung nilainya bila CsCl berstruktur NaCl dengan *r*₀ yang sama. Apa artinya bagi pilihan struktur? ||| 620 dan 615 kJ mol⁻¹; selisih < 1 %, pilihan struktur mudah dibalik faktor kecil
+Apa arti fisis eksponen Born? Bagaimana menentukannya? ||| kekerasan awan elektron (seberapa curam tolakan); dari kemampatan kristal
+Mengapa tolakan hanya mengurangi energi kisi sekitar 10–15 %? ||| faktor (1 − 1/n) dengan n 5–12
+Apa keunggulan persamaan Born–Mayer dibandingkan Born–Landé? ||| bentuk eksponensial lebih sesuai teori kuantum; ρ hampir tetap (34,5 pm), tidak perlu n per ion
+Hitung entalpi kisi ZnS (sfalerit, *r*₀ = 234,1 pm, *n* = 9) dengan Born–Landé. Nilai siklus 3619 kJ mol⁻¹. Berapa persen selisihnya? ||| 3457 kJ mol⁻¹; 4,5 %
+
+## Subbab 6.4: Persamaan Kapustinskii
+
+Hitung entalpi kisi KF dan KBr dengan persamaan Kapustinskii (K⁺ 138, F⁻ 133, Br⁻ 196 pm). ||| 774; 646 kJ mol⁻¹
+Hitung entalpi kisi CaO dan Li₂O dengan persamaan Kapustinskii (Ca²⁺ 100, Li⁺ 76, O²⁻ 140 pm). ||| 3432; 2807 kJ mol⁻¹
+@al2o3 [P] Hitung entalpi kisi Al₂O₃ dengan persamaan Kapustinskii (Al³⁺ 53,5 pm). Mengapa nilainya begitu besar? Bandingkan dengan nilai termokimia sekitar 15 900 kJ mol⁻¹. ||| 15 300 kJ mol⁻¹; ν = 5, |z₊z₋| = 6, ion kecil; selisih 4 %
+Urutkan entalpi kisi NaF, NaCl, MgF₂, dan Na₂O dan periksa dengan Kapustinskii. ||| MgF₂ 2927 > Na₂O 2556 > NaF 873 > NaCl 746
+Bagaimana jari-jari termokimia ion poliatomik ditentukan? ||| dari entalpi kisi termokimia garam yang diketahui, persamaan Kapustinskii dipecahkan untuk r
+Mengapa persamaan Kapustinskii berguna untuk senyawa yang strukturnya belum diketahui? ||| tidak memerlukan tetapan Madelung; A/ν hampir tetap
+Hitung entalpi kisi CaCl₂ dengan Kapustinskii (Ca²⁺ 100, Cl⁻ 181 pm). Nilai siklus 2258 kJ mol⁻¹. ||| 2252 kJ mol⁻¹
+
+## Subbab 6.5: Siklus Born–Haber
+
+Susun siklus Born–Haber untuk LiF dan hitung entalpi kisinya: Δ~sub~*H*(Li) = 159,4; *I*₁ = 520,2; ½*D*(F–F) = 79,4; Δ~eg~*H*(F) = −328,2; Δ~f~*H*°(LiF) = −616,0 kJ mol⁻¹. ||| 1047 kJ mol⁻¹
+@kbr [P] Hitung entalpi kisi KBr. Brom berwujud cair, sehingga diperlukan ½Δ~uap~*H*(Br₂) = 15,4 dan ½*D*(Br–Br) = 96,4. Data lain: Δ~sub~*H*(K) = 89,0; *I*₁ = 418,8; Δ~eg~*H*(Br) = −324,6; Δ~f~*H*°(KBr) = −393,8 kJ mol⁻¹. ||| 688,9 kJ mol⁻¹
+Natrium hidrida NaH berstruktur garam batu. Hitung entalpi kisinya: Δ~f~*H*° = −56,3; ½*D*(H–H) = 218,0; Δ~eg~*H*(H) = −72,8; data Na seperti NaCl. ||| 805 kJ mol⁻¹
+Dalam siklus Born–Haber NaCl, langkah mana yang memerlukan energi dan mana yang melepaskannya? Langkah mana yang terbesar? ||| sublimasi, disosiasi, ionisasi naik; afinitas elektron dan kisi turun; pembentukan kisi terbesar
+@o2min [P] Hitung perubahan entalpi O(g) + 2e⁻ → O²⁻(g) dari siklus CaO: Δ~sub~*H*(Ca) = 177,8; *I*₁ + *I*₂ = 1735,2; ½*D*(O=O) = 249,2; Δ~f~*H*°(CaO) = −635,1; entalpi kisi 3414 kJ mol⁻¹. Bandingkan dengan hasil dari MgO. ||| +617 kJ mol⁻¹; dekat dengan +609 dari MgO
+Mengapa ion O²⁻ hanya ada di dalam kisi, tidak sebagai ion gas? ||| penangkapan elektron kedua sangat endoterm (≈ +750); hanya kisi yang menstabilkannya
+Bila Δ~f~*H*°, energi atom, dan entalpi kisi diketahui, besaran apa lagi yang dapat dihitung dengan siklus? ||| afinitas elektron (terutama yang tak terukur), atau Δ_f H senyawa baru
+Mengapa entalpi pembentukan KCl lebih negatif daripada NaCl, padahal entalpi kisinya lebih kecil? ||| sublimasi dan ionisasi K lebih kecil (89 + 419 lawan 108 + 496) mengimbangi energi kisi yang lebih kecil
+
+## Subbab 6.6: Menguji senyawa hipotetis: NeCl, MgCl, dan CaCl
+
+@nacl2 [P] Taksir Δ~f~*H*° NaCl₂ dengan *I*₂(Na) = 4562 kJ mol⁻¹ dan energi kisi seperti MgCl₂ (2463 kJ mol⁻¹). ||| ≈ +2250 kJ mol⁻¹; elektron kedua dari kulit 2p penuh
+Taksir Δ~f~*H*° ArCl dengan *I*₁(Ar) = 1520,6 kJ mol⁻¹ dan anggap Ar⁺ seukuran Na⁺. ||| ≈ +547 kJ mol⁻¹, tidak stabil
+Mengapa MgCl tidak ada, walaupun Δ~f~*H*°-nya negatif? ||| terdisproporsionasi menjadi Mg + MgCl₂, ΔH ≈ −465 kJ
+Mengapa energi ionisasi kedua Mg (1451 kJ mol⁻¹) dapat "dibayar", tetapi energi ionisasi ketiga (7733 kJ mol⁻¹) tidak? ||| kenaikan energi kisi MgCl → MgCl₂ ≈ 1700 kJ; MgCl₂ → MgCl₃ ≈ 2700 kJ, jauh lebih kecil dari 7733
+Jelaskan penalaran Bartlett yang mengarah ke senyawa xenon pertama. ||| EI O₂ ≈ EI Xe dan ukuran serupa; energi kisi serupa; bila O₂PtF₆ stabil, XePtF₆ juga
+Mengapa aluminium membentuk AlF₃, bukan AlF atau AlF₂? ||| kenaikan energi kisi dengan muatan 3+ cukup membayar I₃; I₄ (kulit dalam) tidak
+@cucl2 [P] Tembaga membentuk CuCl dan CuCl₂. Mengapa kedua senyawa stabil untuk tembaga, padahal natrium hanya membentuk NaCl? ||| I₂(Cu) = 1958 kJ mol⁻¹ (elektron 3d) jauh lebih kecil daripada I₂(Na) = 4562 (kulit 2p); kenaikan energi kisi cukup untuk Cu
+Dalam menilai senyawa hipotetis, mengapa memeriksa Δ~f~*H*° saja tidak cukup? ||| perlu periksa disproporsionasi dan reaksi lain ke senyawa yang lebih stabil; juga entropi
+
+## Subbab 6.7: Kelarutan garam: energi kisi lawan entalpi hidrasi
+
+Tuliskan siklus pelarutan MX dan persamaan entalpi pelarutannya. ||| MX(s) → M⁺(g) + X⁻(g) → M⁺(aq) + X⁻(aq); Δ_lar H = Δ_kisi H + ΣΔ_hid H
+Hitung Δ~lar~*H* LiCl (entalpi kisi 864), NaF (930), dan NaI (705 kJ mol⁻¹). Nilai terukur: −37,0; +0,9; −7,5 kJ mol⁻¹. ||| −16; +22; +16 kJ mol⁻¹; tanda benar untuk LiCl, meleset untuk NaI
+@mgcl2 [P] Hitung Δ~lar~*H* MgCl₂ (entalpi kisi 2526 kJ mol⁻¹). Mengapa pelarutan MgCl₂ anhidrat sangat eksoterm (terukur −155 kJ mol⁻¹)? ||| 2526 − 1921 − 722 = −117; hidrasi Mg²⁺ kecil bermuatan 2 sangat besar
+Mengapa Δ~lar~*H* sulit diramalkan dengan tepat? ||| selisih kecil dua bilangan besar yang masing-masing tidak pasti
+Mengapa NaCl larut walaupun pelarutannya sedikit endoterm? ||| ΔS positif besar, ΔG negatif
+Ramalkan dengan aturan ukuran: mana yang lebih larut, LiF atau LiI; MgSO₄ atau BaSO₄; Mg(OH)₂ atau Ba(OH)₂? ||| LiI; MgSO₄; Ba(OH)₂
+@ukuran [P] Jelaskan aturan ukuran kelarutan dengan bentuk persamaan energi kisi (∝ 1/(*r*₊ + *r*₋)) dan entalpi hidrasi (∝ 1/*r*₊ + 1/*r*₋). ||| bila satu ion kecil, hidrasinya besar tetapi kisi dibatasi ion besar; bila sama-sama kecil, kisi menang
+Mengapa BaSO₄ aman untuk foto rontgen, sedangkan BaCO₃ beracun? ||| BaSO₄ sangat sukar larut bahkan dalam asam; BaCO₃ larut dalam HCl lambung melepas Ba²⁺
+Mengapa entalpi hidrasi Al³⁺ (−4665 kJ mol⁻¹) jauh lebih besar daripada Na⁺? ||| ∝ z²/r: muatan 3, ion kecil
+
+## Subbab 6.8: Kestabilan termal karbonat dan peroksida
+
+Hitung suhu penguraian CaCO₃ pada *p*(CO₂) = 1 bar dari Δ~r~*H*° = 178,3 kJ mol⁻¹ dan Δ~r~*S*° = 160,7 J K⁻¹ mol⁻¹. ||| 836 °C
+@udara [P] Di udara, *p*(CO₂) hanya sekitar 4 × 10⁻⁴ bar. Pada suhu berapa CaCO₃ mulai terurai di udara terbuka? (Δ*G* = Δ*G*° + *RT* ln *p*.) ||| T = ΔH/(ΔS − R ln p) = 790 K ≈ 517 °C
+Mengapa Δ~r~*S*° hampir sama untuk penguraian semua karbonat golongan 2? ||| hampir seluruhnya dari satu mol CO₂ gas
+Urutkan kestabilan termal MgCO₃, CaCO₃, SrCO₃, dan BaCO₃ dan jelaskan dengan energi kisi. ||| Mg < Ca < Sr < Ba; kenaikan energi kisi karbonat → oksida makin kecil untuk kation besar
+Jelaskan tren yang sama dengan aturan Fajans. ||| kation kecil mempolarisasi CO₃²⁻, melemahkan C–O
+Mengapa litium terbakar menjadi Li₂O, natrium menjadi Na₂O₂, dan kalium menjadi KO₂? ||| anion besar distabilkan kation besar
+@nitrat [P] Tuliskan persamaan penguraian termal LiNO₃ dan NaNO₃. Jelaskan perbedaannya. ||| 4LiNO₃ → 2Li₂O + 4NO₂ + O₂; 2NaNO₃ → 2NaNO₂ + O₂; Li⁺ kecil menstabilkan O²⁻
+Mengapa ozonida (MO₃) hanya dikenal untuk K, Rb, dan Cs? ||| O₃⁻ anion besar, perlu kation besar
+Jelaskan proses Brin untuk memisahkan oksigen dari udara. ||| 2BaO + O₂ ⇄ 2BaO₂ (≈ 500 °C maju, ≈ 800 °C balik)
+
+## Subbab 6.9: Karakter kovalen dan selisih energi kisi hitung–ukur
+
+Mengapa model ionik sederhana selalu sedikit terlalu kecil untuk halida alkali? ||| mengabaikan gaya dispersi (2–5 %)
+@agi [P] Hitung selisih relatif entalpi kisi Born–Landé dan siklus untuk AgF (871 lawan 974) dan AgI (735 lawan 892). Jelaskan trennya. ||| 11 % dan 18 %; I⁻ lebih mudah terpolarisasi, karakter kovalen naik
+Hitung entalpi kisi CuBr (sfalerit, *r*₀ = 246,4 pm, *n* = 9,5) dengan Born–Landé dan bandingkan dengan siklus (979 kJ mol⁻¹). ||| 826; selisih 16 %
+Hubungkan karakter kovalen perak halida dengan kelarutan dan warnanya. ||| makin kovalen (F → I) makin sukar larut dan makin kuning
+Kation apa saja yang cenderung menghasilkan karakter kovalen besar? Mengapa? ||| kation bukan konfigurasi gas mulia (d¹⁰: Ag⁺, Cu⁺, Zn²⁺, Hg²⁺) dan kation kecil bermuatan tinggi; daya polarisasi besar
+Mengapa AgF lebih mudah larut daripada AgCl, padahal F⁻ lebih kecil? ||| AgF paling ionik; entalpi hidrasi F⁻ besar; tidak ada kestabilan kovalen tambahan
+Jelaskan mengapa selisih energi kisi hitung–ukur dapat dianggap "ukuran karakter kovalen". ||| siklus tidak mengandaikan jenis ikatan; model ionik mengandaikan ion murni; selisih = energi yang tidak dijelaskan model ionik

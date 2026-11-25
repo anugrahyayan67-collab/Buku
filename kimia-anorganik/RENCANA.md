@@ -65,7 +65,7 @@ Catatan Bab 2 (25-11-2026): 13 subbab (termasuk gaya-gaya kimia dan ikatan hidro
 ### ☑ Bab 5 Padatan Ionik dan Struktur Kristal
 5.1 Kemasan rapat bola: hcp dan ccp · 5.2 Rongga tetrahedral dan oktahedral · 5.3 Sel satuan, kisi Bravais, dan menghitung isi sel · 5.4 Struktur prototipe AX: NaCl, CsCl, sfalerit, wurtzit, NiAs · 5.5 Struktur prototipe AX₂ dan A₂X: fluorit, antifluorit, rutil, CdI₂ · 5.6 Oksida campuran: perovskit dan spinel · 5.7 Jari-jari ion dan aturan rasio jari-jari (serta batasnya) · 5.8 Difraksi sinar-X dan hukum Bragg · 5.9 Cacat kristal: Schottky, Frenkel, nonstoikiometri · 5.10 Polimorfisme dan transisi fasa padat · 5.11 Padatan kristal dan amorf; kaca · 5.12 Padatan kovalen jaringan: intan, grafit, dan alotrop karbon lain
 
-### ☐ Bab 6 Energetika Padatan Ionik
+### ☑ Bab 6 Energetika Padatan Ionik
 6.1 Energi kisi: definisi dan arti fisisnya · 6.2 Model elektrostatik: tetapan Madelung · 6.3 Persamaan Born–Landé dan Born–Mayer · 6.4 Persamaan Kapustinskii · 6.5 Siklus Born–Haber · 6.6 Menguji senyawa hipotetis: NeCl, MgCl, CaCl · 6.7 Kelarutan garam: energi kisi lawan entalpi hidrasi · 6.8 Kestabilan termal karbonat dan peroksida · 6.9 Karakter kovalen dan selisih energi kisi hitung–ukur
 
 ### ☐ Bab 7 Logam, Semikonduktor, dan Teori Pita

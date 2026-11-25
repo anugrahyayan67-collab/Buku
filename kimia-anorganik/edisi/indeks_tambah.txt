@@ -175,3 +175,24 @@ intan
 grafit
 fulerena
 grafena
+energi kisi
+entalpi kisi
+tetapan Madelung
+metode Evjen
+persamaan Born–Landé
+eksponen Born
+persamaan Born–Mayer
+persamaan Kapustinskii
+jari-jari termokimia
+siklus Born–Haber
+hukum Hess
+afinitas elektron kedua
+senyawa hipotetis
+disproporsionasi
+entalpi pelarutan
+aturan ukuran kelarutan
+kestabilan termal
+karbonat
+ozonida
+proses Brin
+karakter kovalen
