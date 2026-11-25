@@ -62,7 +62,7 @@ Catatan Bab 2 (25-11-2026): 13 subbab (termasuk gaya-gaya kimia dan ikatan hidro
 ### ☑ Bab 4 Orbital Molekul dalam Kimia Anorganik
 4.1 LCAO dan aturan penggabungan orbital · 4.2 Diatomik homonuklir periode 2: pencampuran s–p · 4.3 Diatomik heteronuklir: CO, NO, HF, CN⁻ · 4.4 Spektroskopi fotoelektron sebagai bukti · 4.5 Molekul linear tiga atom: BeH₂, CO₂ · 4.6 Molekul bengkok dan piramida dengan SALC: H₂O, NH₃ · 4.7 Molekul tetrahedral dan oktahedral: CH₄, SF₆ · 4.8 Ikatan tiga pusat: diborana (3c-2e) dan XeF₂, I₃⁻ (3c-4e) · 4.9 Diagram Walsh: mengapa H₂O bengkok · 4.10 HOMO, LUMO, dan reaktivitas anorganik
 
-### ☐ Bab 5 Padatan Ionik dan Struktur Kristal
+### ☑ Bab 5 Padatan Ionik dan Struktur Kristal
 5.1 Kemasan rapat bola: hcp dan ccp · 5.2 Rongga tetrahedral dan oktahedral · 5.3 Sel satuan, kisi Bravais, dan menghitung isi sel · 5.4 Struktur prototipe AX: NaCl, CsCl, sfalerit, wurtzit, NiAs · 5.5 Struktur prototipe AX₂ dan A₂X: fluorit, antifluorit, rutil, CdI₂ · 5.6 Oksida campuran: perovskit dan spinel · 5.7 Jari-jari ion dan aturan rasio jari-jari (serta batasnya) · 5.8 Difraksi sinar-X dan hukum Bragg · 5.9 Cacat kristal: Schottky, Frenkel, nonstoikiometri · 5.10 Polimorfisme dan transisi fasa padat · 5.11 Padatan kristal dan amorf; kaca · 5.12 Padatan kovalen jaringan: intan, grafit, dan alotrop karbon lain
 
 ### ☐ Bab 6 Energetika Padatan Ionik

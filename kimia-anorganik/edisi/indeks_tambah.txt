@@ -128,3 +128,50 @@ LUMO
 orbital perbatasan
 donasi balik π
 kompleks transfer muatan
+kemasan rapat heksagonal
+kemasan rapat kubus
+efisiensi kemasan
+rongga tetrahedral
+rongga oktahedral
+sel satuan
+parameter kisi
+sistem kristal
+kisi Bravais
+struktur prototipe
+struktur garam batu
+struktur sesium klorida
+sfalerit
+wurtzit
+nikel arsenida
+fluorit
+antifluorit
+rutil
+kadmium iodida
+interkalasi
+perovskit
+faktor toleransi
+feroelektrik
+spinel
+spinel terbalik
+ferimagnetik
+aturan rasio jari-jari
+difraksi sinar-X
+hukum Bragg
+indeks Miller
+aturan kepunahan
+cacat Schottky
+cacat Frenkel
+pusat F
+nonstoikiometri
+wustit
+zirkonia stabil itrium
+polimorfisme
+alotropi
+padatan amorf
+transisi kaca
+jaringan acak kontinu
+oksigen tak menjembatani
+intan
+grafit
+fulerena
+grafena

@@ -1,0 +1,139 @@
+## Subbab 5.1: Kemasan rapat bola: hcp dan ccp
+
+> *N*~A~ = 6,022 × 10²³ mol⁻¹; Cu Kα λ = 154,06 pm; jari-jari ion dari Lampiran A (Tabel A.2). Soal bertanda **[P]** dibahas di akhir bab.
+
+Berapa bilangan koordinasi atom dalam hcp, ccp, bcc, dan kubus sederhana? ||| 12, 12, 8, 6
+Apa perbedaan urutan lapisan hcp dan ccp? Pada lapisan ke berapa posisi atom kembali sama dengan lapisan pertama untuk masing-masing? ||| ABAB (lapisan ke-3), ABCABC (lapisan ke-4)
+@bcc [P] Turunkan efisiensi kemasan struktur bcc dan bandingkan dengan ccp. ||| 4r = √3 a; 2 × (4/3)πr³ / a³ = √3π/8 = 0,680
+Hitung efisiensi kemasan kubus sederhana. ||| π/6 = 0,524
+Mengapa hcp dan ccp mempunyai efisiensi kemasan yang persis sama? ||| keduanya tumpukan lapisan heksagonal rapat yang sama; hanya urutan lapisan ketiga berbeda
+Mengapa struktur intan, dengan efisiensi hanya 34 %, tetap stabil? ||| ikatan kovalen terarah (tetrahedral), bukan bola yang bersentuhan
+Polonium adalah satu-satunya unsur berstruktur kubus sederhana, dengan *a* = 335,9 pm. Hitung massa jenisnya (*M* = 209 g mol⁻¹). ||| 9,16 g cm⁻³
+Besi berubah dari bcc ke ccp pada 912 °C. Apakah volume sebongkah besi bertambah atau berkurang? Jelaskan. ||| berkurang; ccp lebih rapat (74 % lawan 68 %)
+
+## Subbab 5.2: Rongga tetrahedral dan oktahedral
+
+Dalam kemasan rapat dengan 100 bola, berapa rongga oktahedral dan tetrahedral? ||| 100; 200
+@tetra [P] Turunkan rasio *r*₊/*r*₋ = 0,225 untuk rongga tetrahedral. ||| tetrahedron di dalam kubus bersisi s; anion di sudut berselang, 2r₋ = s√2; pusat ke sudut = s√3/2 = r₋ + r₊ → r₊/r₋ = √(3/2) − 1
+Turunkan rasio *r*₊/*r*₋ untuk rongga kubus (0,732). ||| diagonal ruang 2r₋√3 = 2r₋ + 2r₊
+Tentukan rumus senyawa bila anion ccp dan kation mengisi (a) setengah rongga oktahedral, (b) seperempat rongga tetrahedral. ||| (a) MX₂; (b) MX₂
+Anion O²⁻ membentuk hcp dan Al³⁺ mengisi sebagian rongga oktahedral dalam korundum. Berapa bagian rongga yang terisi? ||| ⅔
+Mengapa kation biasanya menempati rongga, sedangkan anion membentuk kemasan rapat? ||| anion umumnya lebih besar
+Dalam CdI₂ (anion hcp), Cd²⁺ mengisi berapa bagian rongga oktahedral? ||| setengah (semua rongga di setiap lapisan kedua)
+@korundum [P] Dalam Li₂O, anion O²⁻ membentuk ccp. Tentukan rongga mana yang diisi Li⁺ dan berapa bagiannya. Tentukan bilangan koordinasi Li⁺ dan O²⁻. ||| semua rongga tetrahedral; Li KB 4, O KB 8 (antifluorit)
+
+## Subbab 5.3: Sel satuan, kisi Bravais, dan menghitung isi sel
+
+Berapa atom dimiliki satu sel bila atom berada di (a) semua sudut dan pusat badan, (b) semua sudut dan semua pusat muka, (c) semua sudut dan tengah semua rusuk? ||| 2; 4; 4
+Sebutkan tujuh sistem kristal dan syarat parameter kisi kubus, tetragonal, dan heksagonal. ||| kubus, tetragonal, ortorombik, heksagonal, trigonal, monoklin, triklin; a=b=c 90°; a=b≠c 90°; a=b≠c, γ=120°
+Mengapa hanya ada 14 kisi Bravais, bukan 7 × 4 = 28? ||| sebagian pemusatan menghasilkan kisi yang sama dengan kisi lain atau merusak simetri sistem
+Kromium (bcc) mempunyai *a* = 288,5 pm. Hitung massa jenisnya (*M* = 52,00 g mol⁻¹). ||| 7,19 g cm⁻³
+Emas (ccp) mempunyai *a* = 407,8 pm. Hitung jari-jari atom dan massa jenisnya. ||| 144,2 pm; 19,29 g cm⁻³
+@zkcl [P] KCl mempunyai massa jenis 1,988 g cm⁻³ dan sel kubus dengan *a* = 629,2 pm. Tentukan *Z* dan simpulkan struktur yang mungkin. ||| Z = 4,00; struktur garam batu (fcc, 4 satuan)
+Sebuah logam kubus mempunyai *a* = 404,95 pm, massa jenis 2,70 g cm⁻³, dan *M* = 26,98 g mol⁻¹. Tentukan *Z* dan jenis kisinya. ||| Z = 4: fcc (aluminium)
+Berapa atom karbon per cm³ dalam intan (*a* = 356,7 pm, *Z* = 8)? ||| 1,76 × 10²³
+@avogadro [P] Jelaskan bagaimana bilangan Avogadro dapat ditentukan dari kristal silikon murni. Besaran apa saja yang harus diukur? ||| N_A = Z M / (ρ a³); ukur a (difraksi), ρ (massa dan volume bola), M (komposisi isotop), Z = 8
+
+## Subbab 5.4: Struktur prototipe AX: NaCl, CsCl, sfalerit, wurtzit, dan NiAs
+
+Untuk struktur NaCl, CsCl, dan sfalerit, sebutkan bilangan koordinasi kation dan anion serta jumlah satuan rumus per sel. ||| 6:6, Z = 4; 8:8, Z = 1; 4:4, Z = 4
+Dalam CsCl, jarak Cs–Cl terdekat 357,1 pm. Hitung *a*. ||| a = 2d/√3 = 412,3 pm
+CsBr berstruktur CsCl dengan *a* = 428,6 pm. Hitung massa jenisnya. ||| 4,49 g cm⁻³
+Hitung jarak Mg–O dalam MgO (garam batu, *a* = 421,2 pm). ||| 210,6 pm
+Apa perbedaan sfalerit dan wurtzit dalam bahasa kemasan rapat? ||| anion ccp lawan hcp; keduanya Zn di setengah rongga tetrahedral
+@nias [P] Mengapa senyawa bertipe NiAs bersifat seperti logam, sedangkan senyawa bertipe NaCl biasanya isolator? ||| rongga oktahedral hcp bertumpuk dan berbagi muka; kontak logam–logam pendek sepanjang c
+Mengapa CsCl tidak dapat disebut bcc? ||| Cs dan Cl tidak setara; kisi P dengan basis dua ion
+Berapa tetangga terdekat dan tetangga terdekat kedua sebuah Na⁺ dalam NaCl? Jenis ion apa masing-masing? ||| 6 Cl⁻ pada a/2; 12 Na⁺ pada a/√2
+GaN dipakai dalam LED biru dan berstruktur wurtzit. Berapa bilangan koordinasi Ga dan N? ||| 4 dan 4
+Mengapa GaAs dan ZnSe isoelektronik dengan germanium dan berstruktur mirip intan? ||| rata-rata 4 elektron valensi per atom; ikatan sp³ tetrahedral
+
+## Subbab 5.5: Struktur prototipe AX₂ dan A₂X: fluorit, antifluorit, rutil, dan CdI₂
+
+Dalam fluorit, berapa bilangan koordinasi Ca²⁺ dan F⁻? Tunjukkan bahwa hasil ini sesuai stoikiometri. ||| 8 dan 4; 8 × 1 = 4 × 2
+UO₂ berstruktur fluorit dengan *a* = 547,0 pm. Hitung massa jenisnya. ||| 10,96 g cm⁻³
+Bandingkan struktur fluorit dan antifluorit. Berikan satu contoh masing-masing. ||| fluorit: kation ccp, anion di semua rongga Td (CaF₂); antifluorit: anion ccp, kation di semua rongga Td (Li₂O)
+@rutil [P] Dalam rutil, bilangan koordinasi Ti 6 dan O 3. Tunjukkan bahwa ini konsisten dengan rumus TiO₂ dan jelaskan mengapa TiO₂ tidak berstruktur fluorit. ||| 1 × 6 = 2 × 3; r(Ti⁴⁺)/r(O²⁻) = 0,43 → KB 6, terlalu kecil untuk KB 8
+Hitung massa jenis rutil (tetragonal, *a* = 459,4 pm, *c* = 295,9 pm, *Z* = 2). ||| 4,25 g cm⁻³
+Mengapa struktur CdI₂ mudah dibelah? ||| lapisan I–Cd–I diikat van der Waals antarlapisan iodida
+Mengapa struktur berlapis CdI₂ menandakan ikatan yang sebagian kovalen? ||| lapisan anion bertumpuk tanpa kation memerlukan anion terpolarisasi/ikatan kovalen
+Sebutkan dua contoh senyawa bertipe rutil dan dua bertipe CdI₂. ||| SnO₂, MnO₂, MgF₂; CdI₂, TiS₂, Mg(OH)₂
+
+## Subbab 5.6: Oksida campuran: perovskit dan spinel
+
+Dalam perovskit SrTiO₃, berapa bilangan koordinasi Sr dan Ti terhadap O? ||| 12; 6
+Tunjukkan bahwa sel satuan SrTiO₃ (Sr di sudut, Ti di pusat, O di pusat muka) memuat satu satuan rumus. ||| Sr 8 × ⅛ = 1; Ti 1; O 6 × ½ = 3
+SrTiO₃ (*a* = 390,5 pm). Hitung massa jenisnya. ||| 5,12 g cm⁻³
+@tol [P] Turunkan syarat *r*~A~ + *r*~O~ = √2 (*r*~B~ + *r*~O~) untuk perovskit kubus ideal. ||| A–O sepanjang setengah diagonal muka = a/√2; B–O setengah rusuk = a/2
+Hitung faktor toleransi PbTiO₃ (Pb²⁺ KB 12 = 149 pm). Ramalkan sifatnya. ||| 1,02; Ti dapat bergeser, feroelektrik
+Hitung faktor toleransi perovskit halida CH₃NH₃PbI₃ dengan *r*~A~ = 217 pm, *r*(Pb²⁺) = 119 pm, *r*(I⁻) = 220 pm. ||| 0,91; dalam rentang perovskit
+Dalam spinel normal AB₂O₄, rongga apa yang ditempati A dan B, dan berapa bagian? ||| A ⅛ rongga Td; B ½ rongga Oh
+@fe3o4 [P] Magnetit Fe₃O₄ adalah spinel terbalik. Tuliskan rumusnya dengan kurung siku dan tentukan bilangan oksidasi besi di setiap jenis rongga. ||| Fe³⁺[Fe²⁺Fe³⁺]O₄; Td: Fe³⁺; Oh: Fe²⁺ dan Fe³⁺
+Mengapa magnetit bersifat ferimagnetik? ||| spin Fe³⁺ Td dan Fe³⁺ Oh berlawanan dan saling meniadakan; momen bersih dari Fe²⁺
+Mengapa BaTiO₃ dapat dipakai sebagai kapasitor berkapasitas besar? ||| feroelektrik, tetapan dielektrik sangat besar
+
+## Subbab 5.7: Jari-jari ion dan aturan rasio jari-jari, serta batasnya
+
+Mengapa jari-jari ion bergantung pada bilangan koordinasi? ||| makin banyak tetangga, makin besar tolakan antaranion, jarak membesar
+Dengan jari-jari Shannon, hitung *r*₊/*r*₋ untuk NaCl, KCl, dan CsCl (Cs⁺ KB 8 = 174 pm). Ramalkan dan bandingkan dengan struktur nyata. ||| 0,56 (KB 6 ✓); 0,76 (KB 8 ✗, nyata KB 6); 0,96 (KB 8 ✓)
+@agi [P] AgI mempunyai rasio jari-jari 0,52 tetapi berstruktur wurtzit (KB 4). Jelaskan penyimpangan ini. ||| ikatan kovalen besar (Ag⁺ mempolarisasi, I⁻ mudah terpolarisasi); kovalen menyukai koordinasi tetrahedral
+Ramalkan bilangan koordinasi kation pada SiO₂ (Si⁴⁺ KB 4 = 26 pm) dan TiO₂ (Ti⁴⁺ = 60,5 pm). ||| 0,19 → ramalan KB 3 (nyata 4); 0,43 → KB 6 (nyata 6)
+Mengapa RbCl berubah ke struktur CsCl di bawah tekanan? ||| tekanan menekan anion lebih kuat, rasio efektif naik; struktur lebih rapat dengan KB lebih tinggi
+Sebutkan empat alasan mengapa aturan rasio jari-jari sering gagal. ||| ion bukan bola keras; selisih energi kecil; ikatan kovalen; jari-jari tidak pasti
+@cucl [P] CuCl (Cu⁺ 77 pm, KB 6) mempunyai rasio jari-jari mirip NaCl, tetapi berstruktur sfalerit. Bandingkan Cu⁺ dan Na⁺ dengan aturan Fajans. ||| Cu⁺ d¹⁰, perisai buruk, daya polarisasi besar → kovalen, KB 4
+Mengapa dalam satu golongan halida alkali, rasio jari-jari MX makin dekat ke 1 untuk logam yang lebih berat? ||| kation membesar, mendekati ukuran anion
+
+## Subbab 5.8: Difraksi sinar-X dan hukum Bragg
+
+Turunkan hukum Bragg dari selisih jalan dua sinar yang dipantulkan dua bidang berdekatan. ||| selisih jalan 2d sin θ = nλ
+Hitung 2θ untuk pantulan (111), (200), dan (220) tembaga (fcc, *a* = 361,5 pm) dengan Cu Kα. ||| 43,32°; 50,45°; 74,13°
+Mengapa sinar-X, bukan cahaya tampak, dipakai untuk menentukan struktur kristal? ||| λ sebanding dengan jarak antaratom (≈ 100 pm)
+Tuliskan aturan kepunahan untuk kisi kubus P, I, dan F. Tiga puncak pertama masing-masing? ||| P semua (100, 110, 111); I h+k+l genap (110, 200, 211); F semua genap/ganjil (111, 200, 220)
+@indeks [P] Pola serbuk sebuah logam kubus (Cu Kα) menunjukkan puncak pada 2θ = 38,47°; 44,72°; 65,10°; 78,23°. Tentukan jenis kisi, indeks puncak, dan *a*. ||| sin²θ berbanding 3:4:8:11 → fcc (111, 200, 220, 311); a = 405,0 pm (aluminium)
+Tungsten berstruktur bcc (*a* = 316,5 pm). Hitung 2θ untuk tiga puncak pertama dengan Cu Kα. ||| 110: 40,27°; 200: 58,26°; 211: 73,19°
+Mengapa puncak (111) KCl tidak tampak, padahal kisinya fcc? ||| K⁺ dan Cl⁻ isoelektronik (18 e); intensitas ganjil ∝ (f_Cl − f_K)² = 0
+Mengapa atom hidrogen sulit ditemukan dengan difraksi sinar-X, dan bagaimana mengatasinya? ||| sinar-X dihamburkan elektron, H hanya 1 elektron; difraksi neutron
+Dengan sumber Mo Kα (λ = 71,07 pm), pada 2θ berapa puncak (200) NaCl muncul? ||| 14,48°
+
+## Subbab 5.9: Cacat kristal: Schottky, Frenkel, dan nonstoikiometri
+
+Mengapa kristal sempurna tidak mungkin ada di atas 0 K? ||| entropi konfigurasi membuat ΔG pembentukan sedikit cacat negatif
+Bedakan cacat Schottky dan Frenkel; beri satu contoh senyawa masing-masing. ||| Schottky: pasangan kekosongan (NaCl); Frenkel: ion ke celah antarkisi (AgCl)
+@schottky [P] Energi pembentukan pasangan Schottky dalam KCl sekitar 2,6 eV. Hitung fraksi kekosongan pada 900 K. Bandingkan dengan NaCl pada suhu yang sama (Δ*H* ≈ 2,3 eV). ||| KCl 5 × 10⁻⁸; NaCl 4 × 10⁻⁷ (≈ 7 kali lebih banyak)
+Mengapa CaF₂ cenderung membentuk cacat Frenkel anion, bukan kation? ||| rongga kubus kosong besar dapat menampung F⁻; Ca²⁺ besar dan bermuatan tinggi
+Apa itu pusat F, dan mengapa NaCl yang dipanaskan dalam uap Na berwarna kuning? ||| elektron terperangkap di kekosongan anion, menyerap cahaya tampak
+Untuk Fe₀,₉₀O, hitung jumlah Fe²⁺ dan Fe³⁺ per satuan rumus. ||| Fe²⁺ 0,70; Fe³⁺ 0,20
+@ysz [P] Berapa persen tempat oksida yang kosong dalam ZrO₂ yang mengandung 10 % mol CaO? (Setiap Ca²⁺ yang menggantikan Zr⁴⁺ menciptakan satu kekosongan O²⁻.) ||| kation 1; O = 0,9 × 2 + 0,1 = 1,9 dari 2; kosong 5 %
+Mengapa kristal NaCl yang mengandung sedikit CaCl₂ menghantarkan listrik lebih baik? ||| setiap Ca²⁺ menggantikan Na⁺ menciptakan satu kekosongan Na⁺ (cacat ekstrinsik)
+Mengapa ZnO menjadi kuning ketika dipanaskan? ||| kehilangan O, Zn₁₊ₓO; elektron bebas menyerap cahaya biru
+
+## Subbab 5.10: Polimorfisme dan transisi fasa padat
+
+Bedakan transisi fasa perpindahan dan rekonstruktif. Mana yang lebih cepat? ||| perpindahan: geser kecil tanpa memutus ikatan (cepat); rekonstruktif: putus–bentuk ikatan (lambat)
+Mengapa tekanan tinggi cenderung menaikkan bilangan koordinasi? ||| struktur KB tinggi lebih rapat; tekanan menyukai volume kecil
+@sio2 [P] Kuarsa (2,65 g cm⁻³) dan stishovit (4,29 g cm⁻³). Hitung perubahan volume molar SiO₂ (60,08 g mol⁻¹) dan jelaskan mengapa stishovit terbentuk pada tekanan tinggi. ||| 22,67 → 14,00 cm³ mol⁻¹; turun 8,67 cm³ mol⁻¹ (38 %)
+Mengapa timah abu-abu berbahaya bagi benda timah di daerah dingin? ||| volume naik 26 %, benda hancur menjadi serbuk
+Mengapa intan dapat bertahan pada suhu kamar walaupun grafit lebih stabil? ||| transisi rekonstruktif sangat lambat (energi aktivasi tinggi)
+Sebutkan tiga polimorf TiO₂. Mana yang dipakai sebagai fotokatalis? ||| rutil, anatas, brookit; anatas
+Kalsit dan aragonit sama-sama CaCO₃. Pada kondisi permukaan, mana yang stabil? ||| kalsit (aragonit metastabil)
+
+## Subbab 5.11: Padatan kristal dan amorf; kaca
+
+Sebutkan tiga perbedaan sifat yang dapat diamati antara kuarsa kristal dan kaca silika. ||| titik leleh tajam lawan melunak; difraksi puncak lawan halo; pecahan bidang belah lawan konkoid
+Apa yang dimaksud dengan keteraturan jarak dekat dan jarak jauh? ||| susunan tetangga terdekat teratur; pola berulang di seluruh kristal
+@nbo [P] Hitung jumlah oksigen tak menjembatani per atom Si dalam Na₂O·SiO₂ (natrium metasilikat) dan dalam Na₂O·2SiO₂. Jelaskan pengaruhnya pada kekentalan lelehan. ||| 2 dan 1; makin banyak NBO, jaringan makin terputus, kekentalan turun
+Sebutkan tiga oksida pembentuk jaringan dan dua pengubah jaringan. ||| SiO₂, B₂O₃, P₂O₅; Na₂O, CaO
+Mengapa CaO ditambahkan ke kaca soda? ||| agar tidak larut dalam air (kaca air)
+Mengapa kaca borosilikat dipakai untuk alat laboratorium? ||| koefisien muai kecil, tahan kejutan panas
+Bagaimana pola difraksi sinar-X membedakan kristal dan kaca? ||| kristal: puncak tajam; kaca: pita lebar
+
+## Subbab 5.12: Padatan kovalen jaringan: intan, grafit, dan alotrop karbon lain
+
+Hitung panjang ikatan C–C dalam intan (*a* = 356,7 pm) dari geometri sel. ||| a√3/4 = 154,5 pm
+Hitung panjang ikatan Si–Si dan massa jenis silikon (*a* = 543,1 pm). ||| 235,2 pm; 2,33 g cm⁻³
+@grafit [P] Jelaskan dengan struktur mengapa grafit menghantarkan listrik dan bersifat licin, sedangkan intan isolator dan sangat keras. ||| grafit: elektron π terdelokalisasi dalam lapisan, lapisan diikat van der Waals; intan: semua elektron dalam ikatan σ, jaringan 3D
+Mengapa ikatan C–C dalam grafit (142 pm) lebih pendek daripada dalam intan (154 pm)? ||| ikatan σ sp² + ikatan π tersebar, orde ≈ 1⅓
+@tekanan [P] Taksir tekanan minimum agar intan stabil pada 25 °C (Δ*G*°~f~ intan = 2,90 kJ mol⁻¹, ρ grafit 2,262, intan 3,515 g cm⁻³). ||| ΔV = −1,893 cm³ mol⁻¹; p ≈ 1,5 GPa
+Mengapa h-BN putih dan isolator, walaupun strukturnya mirip grafit? ||| perbedaan keelektronegatifan B–N melokalisasi elektron π pada N; celah besar
+Bandingkan C₆₀ dan intan: mana padatan molekuler dan mana padatan jaringan? Apa akibatnya pada kekerasan? ||| C₆₀ molekuler (van der Waals), lunak; intan jaringan, keras
+Mengapa intan penghantar panas yang sangat baik walaupun isolator listrik? ||| panas dihantarkan getaran kisi (fonon) yang merambat cepat di jaringan kaku
+Litium disisipkan di antara lapisan grafit sampai komposisi LiC₆. Berapa kapasitas muatan teoretisnya dalam mA h g⁻¹ (per gram karbon)? ||| 1 e per 6 C: 96485/(6 × 12,011) C g⁻¹ = 1339 C g⁻¹ = 372 mA h g⁻¹

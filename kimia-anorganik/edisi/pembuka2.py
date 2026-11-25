@@ -128,3 +128,20 @@ ax.text(6.45, .55, 'dua elektron sejajar', ha='center', fontsize=11, color=TUA, 
 ax.text(W / 2, 4.65, 'elektron yang tidak berpasangan', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
 simpan(4, f, 'Oksigen cair menggantung di antara kutub magnet karena dua elektron terakhirnya menempati dua orbital π* yang setara dengan spin sejajar, sesuatu yang tidak dapat ditunjukkan struktur Lewis.')
 print('ok4')
+
+# Bab 5: dua cara menumpuk bola (tampak samping lapisan A, B, C)
+f, ax = kanvas()
+def tumpuk(x0, urut, judul):
+    off = {'A': 0, 'B': .5, 'C': 1.0}; warna = {'A': '#f6c79b', 'B': UT, 'C': EM}
+    for k, L in enumerate(urut):
+        y = 1.45 + k * .52
+        for i in range(4):
+            x = x0 + i * .6 + off[L] * .6 / 1.5
+            ax.add_patch(Circle((x, y), .29, fc=warna[L], ec=TUA, lw=1, zorder=2 + k))
+            ax.add_patch(Circle((x - .09, y + .09), .09, fc='white', ec='none', alpha=.4, zorder=2.1 + k))
+        ax.text(x0 - .55, y, L, ha='center', va='center', fontsize=13, fontweight='bold', color=TUA, family='Liberation Sans')
+    ax.text(x0 + 1.1, .7, judul, ha='center', fontsize=11, color=TUA, family='Liberation Sans')
+tumpuk(1.3, 'ABAB', 'hcp: ABAB…'); tumpuk(5.2, 'ABCA', 'ccp: ABCABC…')
+ax.text(W / 2, 4.65, 'menumpuk bola serapat mungkin', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
+simpan(5, f, 'Dua cara menumpuk lapisan bola serapat mungkin. Pada hcp lapisan ketiga kembali ke posisi A; pada ccp lapisan ketiga menempati posisi baru C. Keduanya mengisi 74 % ruang.')
+print('ok5')
