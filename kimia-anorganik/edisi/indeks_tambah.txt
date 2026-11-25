@@ -43,3 +43,35 @@ tabel periodik
 tetapan perisai
 ion auride
 atom hidrogenik
+struktur Lewis
+muatan formal
+resonansi
+hibrida resonansi
+bilangan oksidasi
+senyawa hipervalen
+kekurangan elektron
+ikatan tiga pusat empat elektron
+VSEPR
+daerah elektron
+pasangan bebas
+bipiramida segitiga
+oktahedron
+tetrahedron
+teori ikatan valensi
+ikatan sigma
+ikatan pi
+hibridisasi
+karakter s
+aturan Bent
+momen dipol
+debye
+energi ikatan
+orde ikatan
+isoelektronik
+analogi isolobal
+gaya dispersi London
+gaya dipol–dipol
+gaya ion–dipol
+ikatan hidrogen
+entalpi hidrasi
+ligan ambidentat

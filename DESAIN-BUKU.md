@@ -67,6 +67,8 @@ Kimia Kuantum memakai palet ungu (`#1e1548`, `#4a3ab0`, `#5ce1e6`, emas `#f2c25b
 
 ## 5. Kotak
 
+**Sejak 25-11-2026 (permintaan penyusun): semua kotak memakai satu kombinasi warna**: garis kiri warna tua, latar terang (warna muda 60 % dicampur putih), judul warna tua. Tabel di bawah mencatat warna lama sebelum penyeragaman; aturan baru ada di bagian akhir setiap `<palet>.css`.
+
 Semua kotak memakai satu sistem: **bingkai tipis 0,3 mm warna garis, garis aksen kiri 1,6 mm, sudut kanan membulat 2 mm**, padding 3,4 mm (atas) 5,5 mm (kanan) 3 mm (bawah) 5,5 mm (kiri), jarak 4,5 mm atas-bawah. Judul kotak (kata tebal pertama, misalnya **Tujuan belajar**) Inter 9,8 pt tebal 700. Kotak tidak boleh terpotong ke halaman berikut (kecuali kotak contoh yang panjang).
 
 | Kotak (Markdown) | Latar | Garis kiri | Warna judul | Isi |

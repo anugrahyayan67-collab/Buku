@@ -1,0 +1,123 @@
+## Subbab 2.1: Struktur Lewis dan muatan formal
+
+> Data: keelektronegatifan Pauling dan energi ikatan diambil dari Lampiran A dan Tabel 2.1; 1 D = 3,336 × 10⁻³⁰ C m; *e* = 1,602 × 10⁻¹⁹ C. Soal bertanda **[P]** dibahas di akhir bab.
+
+Hitung jumlah elektron valensi dalam SO₄²⁻, NH₄⁺, XeO₃, dan ICl₂⁻. ||| 32; 8; 26; 22
+Susun struktur Lewis HCN, COCl₂, dan H₂O₂. ||| H–C≡N:; O=CCl₂ dengan pasangan bebas pada O dan Cl; H–O–O–H dengan dua pasangan bebas pada setiap O
+@mf [P] Susun dua struktur Lewis untuk ion sulfat: (A) empat ikatan tunggal S–O, (B) dua S=O dan dua S–O. Tentukan muatan formal setiap atom dan bandingkan. ||| A: S +2, setiap O −1; B: S 0, O rangkap 0, O tunggal −1
+Tentukan muatan formal setiap atom dalam CO (:C≡O:). Mengapa hasilnya tampak bertentangan dengan keelektronegatifan? ||| C −1, O +1; muatan formal tidak memperhitungkan keelektronegatifan
+Tentukan muatan formal setiap atom dalam NO₂⁺ dan NO₂⁻. ||| NO₂⁺: O=N=O, N +1, O 0; NO₂⁻: N 0, O rangkap 0, O tunggal −1
+Mengapa atom pusat dalam oksoanion hampir selalu atom yang kurang elektronegatif? ||| atom elektronegatif lebih baik membawa muatan negatif di ujung, dan atom kurang elektronegatif membentuk lebih banyak ikatan
+Gambar struktur Lewis dinitrogen oksida, N₂O, dengan kerangka N–N–O. Mengapa kerangka N–O–N tidak dipilih? ||| N=N=O ↔ N≡N–O; N–O–N memberi muatan formal besar pada O
+
+## Subbab 2.2: Resonansi dan bilangan oksidasi
+
+Gambar struktur resonansi ion nitrit, NO₂⁻, dan tentukan orde ikatan rata-rata N–O. ||| dua struktur setara; orde 1,5
+Gambar struktur resonansi ozon, O₃. Mengapa kedua ikatan O–O sama panjang? ||| O=O–O ↔ O–O=O; hibrida dengan orde 1,5 untuk kedua ikatan
+@scn [P] Ion sianat (OCN⁻) dan ion fulminat (CNO⁻) mempunyai rumus sama tetapi kerangka berbeda. Tentukan muatan formal pada struktur terbaik masing-masing dan jelaskan mengapa fulminat jauh kurang stabil. ||| sianat O=C=N⁻: O 0, C 0, N −1; fulminat C=N=O: C −2, N +1, O 0 (atau C≡N–O: C −1, N +1, O −1); fulminat bermuatan formal besar dan terpisah
+Tentukan bilangan oksidasi atom yang digarisbawahi: Cr dalam Cr₂O₇²⁻, Mn dalam MnO₄⁻, O dalam KO₂, H dalam CaH₂, Cl dalam ClO₂. ||| +6; +7; −½; −1; +4
+Tentukan bilangan oksidasi rata-rata S dalam S₄O₆²⁻ dan N dalam HN₃. ||| +2,5; −⅓
+Apa perbedaan anggapan dasar antara muatan formal dan bilangan oksidasi? ||| muatan formal: elektron ikatan dibagi sama; bilangan oksidasi: elektron ikatan diberikan ke atom lebih elektronegatif
+Tentukan muatan formal dan bilangan oksidasi N dalam NH₄⁺. ||| muatan formal +1; bilangan oksidasi −3
+Mengapa Fe₃O₄ mempunyai bilangan oksidasi rata-rata pecahan? Ion apa saja yang ada di dalamnya? ||| rata-rata dari satu Fe²⁺ dan dua Fe³⁺: 8/3
+
+## Subbab 2.3: Melebihi oktet: senyawa hipervalen dan kekurangan elektron
+
+Hitung jumlah elektron di sekitar atom pusat dalam PF₅, IF₇, SF₄, dan BeCl₂ (gas). ||| 10; 14; 10; 4
+Mengapa NF₅ tidak ada, sedangkan PF₅ ada? ||| N terlalu kecil untuk dikelilingi lima F
+Mengapa BF₃ bereaksi cepat dengan NH₃? Tuliskan struktur hasilnya. ||| B kekurangan elektron (asam Lewis), N mempunyai pasangan bebas; F₃B–NH₃
+Mengapa hipervalensi hampir selalu melibatkan atom ujung F, O, atau Cl? ||| muatan negatif dari ikatan banyak pusat terkumpul di atom ujung yang elektronegatif
+@hiperdal [P] Seorang mahasiswa menulis bahwa SF₆ stabil karena belerang memakai hibrida sp³d². Jelaskan mengapa penjelasan ini kini dianggap kurang tepat dan berikan penjelasan yang lebih baik. ||| orbital 3d terlalu tinggi dan menyebar, sumbangannya sangat kecil; penjelasan: ukuran S dan ikatan polar banyak pusat dengan muatan pada F
+Mengapa AlCl₃ dalam fase gas pada suhu sedang berupa dimer Al₂Cl₆? ||| Al kekurangan elektron; jembatan Cl menyumbang pasangan bebas sehingga setiap Al oktet
+
+## Subbab 2.4: VSEPR: dasar dan geometri dasar
+
+Ramalkan susunan daerah elektron dan bentuk BeCl₂ (gas), SO₃, SiCl₄, dan SbCl₅. ||| linear; segitiga datar; tetrahedron; bipiramida segitiga
+Berapa daerah elektron di sekitar C dalam CO₂? Mengapa ikatan rangkap dihitung satu daerah? ||| 2; ikatan rangkap menempati satu arah dari atom pusat
+Mengapa posisi aksial dan ekuatorial pada bipiramida segitiga tidak setara? ||| aksial mempunyai tiga tetangga pada 90°, ekuatorial hanya dua
+Ramalkan bentuk ion [PCl₄]⁺ dan [PCl₆]⁻ (keduanya ada dalam PCl₅ padat). ||| tetrahedron; oktahedron
+Tuliskan notasi AXₘEₙ untuk IF₇, SF₆, dan NH₃. ||| AX₇; AX₆; AX₃E
+
+## Subbab 2.5: VSEPR: pasangan bebas, ikatan rangkap, dan keelektronegatifan
+
+Ramalkan bentuk SO₂, SnCl₂ (gas), XeO₃, dan ICl₄⁻. ||| bengkok; bengkok; piramida segitiga; segi empat datar
+Ramalkan bentuk BrF₃, TeCl₄, IF₅, dan XeF₂. ||| bentuk T; jungkat-jungkit; piramida alas persegi; linear
+@sf4 [P] Jelaskan mengapa sudut F(aksial)–S–F(aksial) dalam SF₄ adalah 173°, bukan 180°, dan mengapa sudut F(ekuatorial)–S–F(ekuatorial) 102°, bukan 120°. ||| pasangan bebas ekuatorial menolak kuat dan mendorong semua ikatan menjauh darinya
+Urutkan sudut ikatan: CH₄, NH₃, H₂O. Jelaskan. ||| CH₄ 109,5° > NH₃ 106,7° > H₂O 104,5°; tolakan pasangan bebas
+Urutkan sudut ikatan: NH₃, NF₃, NCl₃ (107,1°). Apa yang tidak dapat dijelaskan oleh aturan keelektronegatifan sederhana? ||| NH₃ ≈ NCl₃ > NF₃; NCl₃ besar padahal Cl lebih elektronegatif dari H: ukuran Cl (tolakan sterik) ikut berperan
+Dalam fosgen COCl₂, sudut Cl–C–Cl 111,8°. Mengapa lebih kecil daripada 120°? ||| ikatan rangkap C=O lebih gemuk dan menolak lebih kuat
+Mengapa dua pasangan bebas XeF₄ berseberangan? ||| menghindari tolakan bebas–bebas pada 90°
+Ramalkan bentuk ion I₃⁺ dan bandingkan dengan I₃⁻. ||| I₃⁺: AX₂E₂ bengkok; I₃⁻: linear
+
+## Subbab 2.6: Kegagalan VSEPR
+
+Mengapa [TeCl₆]²⁻ berupa oktahedron sempurna walaupun mempunyai pasangan bebas? ||| pasangan bebas di orbital 5s yang bulat, tidak aktif secara stereokimia
+Mengapa BaF₂ dalam fase gas bengkok, padahal VSEPR meramalkan linear? ||| kulit (n−1) Ba⁺ dapat terpolarisasi; polarisasi membengkokkan molekul
+Mengapa VSEPR tidak dipakai untuk meramalkan bentuk kompleks logam transisi? ||| bentuk ditentukan elektron d dan medan ligan, bukan tolakan pasangan
+XeF₆ adalah oktahedron terdistorsi, [IF₆]⁻ juga terdistorsi, tetapi [BrF₆]⁻ oktahedron sempurna. Usulkan alasannya. ||| Br kecil dikelilingi enam F tidak menyisakan ruang; pasangan bebas tetap di orbital s
+
+## Subbab 2.7: Teori ikatan valensi dan hibridisasi
+
+Tentukan hibridisasi atom pusat dalam BeCl₂, BF₃, CH₄, NH₄⁺, dan CO₃²⁻. ||| sp; sp²; sp³; sp³; sp²
+Berapa ikatan σ dan π dalam N₂, CO₂, HCN, dan C₂H₄? ||| N₂ 1σ 2π; CO₂ 2σ 2π; HCN 2σ 2π; C₂H₄ 5σ 1π
+@karakter [P] Sudut H–N–H dalam NH₃ adalah 106,7°. Hitung karakter s setiap orbital ikatan N–H dengan persamaan (2.2) dan karakter s pasangan bebas. ||| ikatan 22,3 % masing-masing; pasangan bebas 33,0 %
+Hitung sudut antara dua hibrida setara dengan karakter s 33,3 % dan 25 %. ||| 120°; 109,5°
+Mengapa ikatan π tidak dapat berputar, sedangkan ikatan σ dapat? ||| putaran merusak tumpang tindih sisi ke sisi orbital p
+Mengapa hibridisasi disebut "gambaran", bukan "penyebab" bentuk molekul? ||| bentuk ditentukan energi total; hibrida dipilih agar cocok dengan bentuk yang sudah diketahui
+
+## Subbab 2.8: Aturan Bent dan karakter s
+
+Nyatakan aturan Bent dengan kata-katamu sendiri. ||| karakter s atom pusat diarahkan ke substituen elektropositif dan pasangan bebas; substituen elektronegatif mendapat karakter p
+Hitung karakter s orbital ikatan dalam H₂S (92,1°) dan PH₃ (93,3°). Apa artinya? ||| 3,5 % dan 5,4 %; ikatan hampir murni p, pasangan bebas hampir murni s
+Pada PCl₃F₂, atom F menempati posisi aksial. Jelaskan dengan aturan Bent. ||| orbital aksial mempunyai karakter p lebih besar dan diarahkan ke F yang lebih elektronegatif
+@bent [P] Hitung karakter s orbital ikatan dalam NF₃ (102,2°) dan bandingkan dengan NH₃ (106,7°). Apakah sesuai dengan aturan Bent? ||| NF₃ 17,4 %, NH₃ 22,3 %; sesuai: ke F lebih banyak karakter p
+Dalam CH₃F, apakah sudut H–C–H lebih besar atau lebih kecil daripada 109,5°? ||| lebih besar (karakter s diarahkan ke H)
+Mengapa sudut H–E–H turun tajam dari periode 2 ke periode 3 pada golongan 15 dan 16? ||| selisih energi ns–np membesar dan tumpang tindih tidak banyak bertambah, sehingga s tidak dicampur
+
+## Subbab 2.9: Kepolaran dan momen dipol
+
+Hitung muatan parsial *q*/*e* untuk HBr (0,827 D; 141,4 pm) dan HI (0,448 D; 160,9 pm). ||| 0,122; 0,058
+Berapa momen dipol dua muatan +*e* dan −*e* yang terpisah 100 pm, dalam debye? ||| 4,80 D
+@nacl [P] Panjang ikatan NaCl dalam fase gas 236 pm dan momen dipolnya 9,0 D. Hitung momen dipol bila ikatan ionik penuh, dan persen sifat ioniknya. ||| 11,3 D; ±79 %
+Tentukan molekul yang polar: BF₃, NF₃, CCl₄, CHCl₃, XeF₄, SF₄, PCl₅, SO₂. ||| polar: NF₃, CHCl₃, SF₄, SO₂
+Mengapa momen dipol NH₃ (1,47 D) jauh lebih besar daripada NF₃ (0,23 D)? ||| dipol ikatan N–H searah pasangan bebas, dipol N–F berlawanan
+Mana yang polar: cis- atau trans-[PtCl₂(NH₃)₂]? ||| cis
+Momen dipol CO hanya 0,11 D, dengan ujung negatif di C. Jelaskan dengan muatan formal dan keelektronegatifan. ||| keelektronegatifan menarik elektron ke O, muatan formal −1 pada C; keduanya hampir saling meniadakan
+
+## Subbab 2.10: Panjang, kekuatan, dan entalpi ikatan
+
+Taksir Δ*H* untuk H₂(g) + F₂(g) → 2 HF(g) dan H₂(g) + Cl₂(g) → 2 HCl(g). ||| −545 kJ; −185 kJ
+Taksir Δ*H* untuk C₂H₄(g) + H₂(g) → C₂H₆(g). Data terukur −137 kJ. ||| −123 kJ
+@entalpi [P] Taksir Δ*H* untuk N₂H₄(g) + O₂(g) → N₂(g) + 2 H₂O(g) (data −534 kJ). Mengapa hidrazina dipakai sebagai bahan bakar roket? ||| −575 kJ; ikatan N≡N yang sangat kuat terbentuk, banyak energi dilepas per massa
+Taksir Δ*H* untuk 2 H₂(g) + O₂(g) → 2 H₂O(g). ||| −482 kJ (data −484)
+Taksir Δ*H* untuk H₂O₂(g) → H₂O(g) + ½ O₂(g). ||| −103 kJ
+Mengapa energi ikatan C=C kurang dari dua kali C–C, sedangkan N=N lebih dari dua kali N–N? ||| ikatan π C lebih lemah dari σ; ikatan tunggal N–N sangat lemah karena tolakan pasangan bebas
+Urutkan panjang ikatan C–O dalam CO, CO₂, dan CH₃OH. ||| CO (113) < CO₂ (116) < CH₃OH (143 pm)
+Mengapa taksiran dari energi ikatan rata-rata tidak tepat? ||| energi ikatan bergantung pada lingkungan; nilai rata-rata dari banyak senyawa
+
+## Subbab 2.11: Spesies isoelektronik dan isolobal sederhana
+
+Sebutkan spesies yang isoelektronik dengan N₂ dan dengan CO₂. ||| CO, CN⁻, NO⁺, C₂²⁻; N₂O, NO₂⁺, N₃⁻, OCN⁻
+Ramalkan bentuk ion NO₂⁺ dan BH₄⁻ dengan prinsip isoelektronik. ||| linear (seperti CO₂); tetrahedron (seperti CH₄)
+Borazina isoelektronik dengan benzena. Mengapa reaktivitasnya berbeda? ||| ikatan B–N polar; B menerima nukleofil, N menerima proton
+Mengapa CO terikat ke logam melalui karbon? ||| pasangan bebas C lebih tinggi energinya dan C bermuatan formal −1 (HOMO terpusat pada C)
+Apa maksud analogi isolobal? Berikan satu contoh. ||| fragmen dengan orbital terluar serupa jumlah, bentuk, dan isi; CH₃ dan Mn(CO)₅
+
+## Subbab 2.12: Gaya-gaya kimia antarmolekul
+
+Urutkan titik didih: Ne, Ar, Kr, Xe. Jelaskan. ||| Ne < Ar < Kr < Xe; polarisabilitas dan gaya dispersi naik
+Gaya antarmolekul apa yang paling penting dalam: Br₂, HCl, NaCl dalam air, CH₃OH? ||| dispersi; dipol–dipol dan dispersi; ion–dipol; ikatan hidrogen
+Mengapa gaya dispersi bekerja di antara semua molekul? ||| semua awan elektron dapat membentuk dipol sesaat
+@disp [P] Butana (C₄H₁₀, 58 g mol⁻¹) mendidih pada −0,5 °C, aseton (C₃H₆O, 58 g mol⁻¹) pada 56 °C. Jelaskan perbedaan ini. ||| massa sama, dispersi mirip; aseton polar (dipol–dipol tambahan)
+Mengapa energi interaksi dipol–dipol yang dirata-ratakan secara termal berkurang lebih cepat dengan jarak daripada interaksi ion–dipol? ||| arah acak mengurangi tarikan; rata-rata termal ∝ 1/r⁶ dibanding 1/r²
+Mengapa I₂ padat pada suhu kamar walaupun nonpolar? ||| awan elektron besar sangat terpolarisasi, gaya dispersi kuat
+
+## Subbab 2.13: Ikatan hidrogen dan akibatnya
+
+Mengapa titik didih HF (19,5 °C) jauh lebih tinggi daripada HCl (−85,1 °C)? ||| ikatan hidrogen F–H···F kuat; Cl besar sehingga ikatan hidrogen lemah
+@hb [P] Dengan ekstrapolasi linear titik didih PH₃ (−87,7 °C), AsH₃ (−62,5 °C), dan SbH₃ (−17,0 °C), taksir titik didih NH₃ tanpa ikatan hidrogen. Bandingkan dengan nilai terukur (−33,3 °C). ||| sekitar −126 °C; ikatan hidrogen menaikkan ±93 derajat
+Mengapa air membentuk lebih banyak ikatan hidrogen per molekul daripada HF dan NH₃? ||| air mempunyai dua H dan dua pasangan bebas: empat ikatan hidrogen
+Mengapa es lebih ringan daripada air cair? ||| kisi tetrahedron ikatan hidrogen terbuka; saat mencair sebagian putus dan molekul merapat
+Ion [F–H–F]⁻ mempunyai ikatan hidrogen terkuat. Apa yang khas pada letak protonnya? ||| proton tepat di tengah, kedua jarak H–F sama
+Mengapa metana tidak membentuk ikatan hidrogen? ||| ikatan C–H hampir tidak polar
+Mengapa amonia sangat larut dalam air? ||| membentuk ikatan hidrogen dengan air

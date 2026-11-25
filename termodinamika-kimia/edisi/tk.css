@@ -171,3 +171,14 @@ p:has(+ table) { break-after: avoid; page-break-after: avoid; text-indent: 0 !im
 
 /* Pertanyaan dan Soal rata kanan-kiri */
 .soal2, .soal2 p, .soal2 li { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+
+/* ===== Satu kombinasi warna untuk SEMUA kotak (permintaan penyusun, 25-11-2026) =====
+   Garis kiri warna tua, latar terang, judul warna tua; sama di semua buku seri. */
+div.strategi, div.tujuan, div.mat, div.inti, div.dalam, div.terapan, div.awas, div.kuis,
+div.mat:not(div.tujuan + div.mat) {
+  background: color-mix(in srgb, var(--muda) 60%, #fff); border: .3mm solid var(--garis);
+  border-left: 1.6mm solid var(--tua); border-radius: 0 2mm 2mm 0; }
+div.strategi > p:first-child > strong:first-child, div.tujuan > p:first-child > strong:first-child,
+div.mat > p:first-child > strong:first-child, div.mat:not(div.tujuan + div.mat) > p:first-child > strong:first-child,
+div.dalam > p:first-child > strong:first-child, div.terapan > p:first-child > strong:first-child,
+div.awas > p:first-child > strong:first-child, div.inti strong, div.kuis > p:first-child > strong:first-child { color: var(--tua); }

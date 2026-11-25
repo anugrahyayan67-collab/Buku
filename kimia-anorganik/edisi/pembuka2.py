@@ -47,3 +47,30 @@ ax.text((x0 + x1) / 2, y0 - .5, 'nomor atom Z', ha='center', fontsize=9.5, color
 ax.text(W / 2, 4.65, 'pola yang berulang', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
 simpan(1, f, 'Energi ionisasi pertama unsur hidrogen sampai kripton: puncak di gas mulia, lembah di logam alkali, berulang setiap periode.')
 print('ok1')
+
+# Bab 2: CH4 tetrahedron lawan XeF4 segi empat datar (empat ikatan, bentuk berbeda)
+from matplotlib.patches import Ellipse
+def proj(v, th=np.deg2rad(28), ph=np.deg2rad(18)):
+    x, y, z = v; X = x*np.cos(th) - y*np.sin(th); Y = (x*np.sin(th) + y*np.cos(th))*np.sin(ph) + z*np.cos(ph)
+    d = (x*np.sin(th) + y*np.cos(th))*np.cos(ph) - z*np.sin(ph); return X, Y, d
+def gambar(ax, cx, cy, arah, pb, warna_pusat, warna_ujung, label_pusat, s=1.15):
+    items = sorted([(proj(v)[2], i, proj(v)) for i, v in enumerate(arah)], reverse=True)
+    for d, i, (X, Y, _) in items:
+        if i in pb:
+            ang = np.degrees(np.arctan2(Y, X))
+            ax.add_patch(Ellipse((cx + .55*s*X, cy + .55*s*Y), .8*s, .45*s, angle=ang, fc=MU, ec=UT, lw=1.2, alpha=.85, zorder=2 if d > 0 else 4))
+        else:
+            ax.plot([cx, cx + s*X], [cy, cy + s*Y], color=AB, lw=5, zorder=2 if d > 0 else 4, solid_capstyle='round')
+            ax.add_patch(Circle((cx + s*X, cy + s*Y), .24*s, fc=warna_ujung, ec=TUA, lw=1, zorder=3 if d > 0 else 5))
+    ax.add_patch(Circle((cx, cy), .36*s, fc=warna_pusat, ec=TUA, lw=1.2, zorder=4.5))
+    ax.text(cx, cy, label_pusat, ha='center', va='center', fontsize=12, fontweight='bold', color='white', zorder=6, family='Liberation Sans')
+f, ax = kanvas()
+TET = [(0, 0, 1), (.943, 0, -.333), (-.471, .816, -.333), (-.471, -.816, -.333)]
+OKT = [(0, 0, 1), (0, 0, -1), (1, 0, 0), (-1, 0, 0), (0, 1, 0), (0, -1, 0)]
+gambar(ax, 2.2, 2.35, TET, (), '#3b4048', '#f4f6f6', 'C')
+gambar(ax, 6.1, 2.35, OKT, (0, 1), UT, EM, 'Xe')
+ax.text(2.2, .6, 'CH₄: empat pasangan → tetrahedron', ha='center', fontsize=11, color=TUA, family='Liberation Sans')
+ax.text(6.1, .6, 'XeF₄: enam pasangan → segi empat datar', ha='center', fontsize=11, color=TUA, family='Liberation Sans')
+ax.text(W / 2, 4.65, 'empat ikatan, dua bentuk', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
+simpan(2, f, 'Metana dan xenon tetrafluorida sama-sama mempunyai empat ikatan, tetapi xenon juga mempunyai dua pasangan elektron bebas (elips) yang ikut menentukan bentuk.')
+print('ok2')
