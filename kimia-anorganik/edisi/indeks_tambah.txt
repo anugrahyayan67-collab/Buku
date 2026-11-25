@@ -277,3 +277,34 @@ superbasa
 zeolit
 selektivitas bentuk
 aturan Löwenstein
+oksidasi
+reduksi
+oksidator
+reduktor
+setengah reaksi
+penyetaraan redoks
+sel galvani
+sel Daniell
+anode
+katode
+jembatan garam
+tetapan Faraday
+elektrode hidrogen standar
+potensial elektrode standar
+deret elektrokimia
+persamaan Nernst
+jendela kestabilan air
+overpotensial
+diagram Latimer
+komproporsionasi
+diagram Frost
+diagram Pourbaix
+diagram Ellingham
+reaksi termit
+proses Hall–Héroult
+korosi
+anode korban
+proteksi katodik
+rantai pernapasan
+elektrode Ag/AgCl
+air raja

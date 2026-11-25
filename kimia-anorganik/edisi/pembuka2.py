@@ -197,3 +197,20 @@ ax.text((x0 + x1) / 2, .55, '← lebih asam          H₀ atau pKa          lebi
 ax.text(W / 2, 4.65, 'tangga keasaman', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
 simpan(8, f, 'Keasaman beberapa zat dalam satu skala. Air hanya dapat memperlihatkan keasaman di dalam jendelanya; superasam jauh lebih kuat daripada asam sulfat murni.')
 print('ok8')
+
+# Bab 9: besi galvanis lawan kaleng timah dengan goresan
+f, ax = kanvas()
+for x0, lap, cl, teks, rus in [(.6, 'Zn', '#b0b8c0', 'seng berkorban: besi aman', False), (4.5, 'Sn', '#d8dde2', 'besi di goresan berkarat', True)]:
+    ax.add_patch(plt.Rectangle((x0, 1.2), 3.2, 1.0, fc='#6b6f75', ec=TUA, lw=1.2)); ax.text(x0 + 1.6, 1.6, 'besi', ha='center', va='center', color='white', fontsize=11, family='Liberation Sans')
+    ax.add_patch(plt.Rectangle((x0, 2.2), 1.35, .35, fc=cl, ec=TUA)); ax.add_patch(plt.Rectangle((x0 + 1.85, 2.2), 1.35, .35, fc=cl, ec=TUA))
+    ax.text(x0 + .67, 2.37, lap, ha='center', va='center', fontsize=10, color=TUA, family='Liberation Sans'); ax.text(x0 + 2.52, 2.37, lap, ha='center', va='center', fontsize=10, color=TUA, family='Liberation Sans')
+    ax.add_patch(plt.Rectangle((x0, 2.55), 3.2, .6, fc='#cfe6f7', ec='none', alpha=.8)); ax.text(x0 + 3.1, 2.95, 'air + O₂', ha='right', fontsize=8.5, color=TUA, family='Liberation Sans')
+    if rus:
+        ax.add_patch(plt.Polygon([[x0 + 1.35, 2.2], [x0 + 1.85, 2.2], [x0 + 1.75, 1.85], [x0 + 1.45, 1.85]], fc=UT, ec=TUA)); ax.annotate('', (x0 + 1.6, 2.9), (x0 + 1.6, 2.25), arrowprops=dict(arrowstyle='-|>', color=UT))
+    else:
+        for xx in (x0 + .9, x0 + 2.3): ax.annotate('', (xx, 2.9), (xx, 2.58), arrowprops=dict(arrowstyle='-|>', color=EM))
+    ax.text(x0 + 1.6, .75, teks, ha='center', fontsize=10.5, color=TUA, family='Liberation Sans')
+ax.text(2.2, 3.55, 'besi galvanis', ha='center', fontsize=12, fontweight='bold', color=TUA, family='Liberation Sans'); ax.text(6.1, 3.55, 'kaleng timah', ha='center', fontsize=12, fontweight='bold', color=TUA, family='Liberation Sans')
+ax.text(W / 2, 4.65, 'siapa yang teroksidasi?', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
+simpan(9, f, 'Goresan pada lapisan pelindung. Seng, yang lebih mudah teroksidasi, melindungi besi; timah, yang lebih sukar teroksidasi, justru membuat besi di goresan berkarat lebih cepat.')
+print('ok9')
