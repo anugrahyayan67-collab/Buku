@@ -273,3 +273,24 @@ ax.text(cx, .25, 'XeF₂: gas mulia yang bereaksi', ha='center', fontsize=10.5, 
 ax.text(W / 2, 4.65, 'unsur pertama dan golongan terakhir', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
 simpan(12, f, 'Kiri: atom hidrogen menempati rongga di antara atom paladium. Kanan: XeF₂ yang linear dengan tiga pasangan bebas di sekitar xenon.')
 print('ok12')
+
+# Bab 13: inti yang memancarkan partikel alfa, dan kurva energi ikat
+f, ax = kanvas()
+rng = np.random.default_rng(7); cx, cy = 2.2, 2.3
+pts = []
+while len(pts) < 46:
+    p = rng.normal(0, .48, 2)
+    if np.hypot(*p) < .95 and all(np.hypot(*(p - q)) > .17 for q in pts): pts.append(p)
+for i, p in enumerate(sorted(pts, key=lambda q: q[1])):
+    ax.add_patch(plt.Circle((cx + p[0], cy + p[1]), .12, fc=UT if i % 2 else '#9fb3c8', ec=TUA, lw=.7))
+ax_ = 4.0; ay = 3.2
+for k, (dx, dy) in enumerate([(-.09, -.09), (.09, .09), (-.09, .09), (.09, -.09)]): ax.add_patch(plt.Circle((ax_ + dx, ay + dy), .1, fc=UT if k < 2 else '#9fb3c8', ec=TUA, lw=.7))
+ax.annotate('', (ax_ - .25, ay - .15), (cx + .9, cy + .5), arrowprops=dict(arrowstyle='<-', color=EM, lw=2))
+ax.text(ax_ + .25, ay + .1, 'α', fontsize=14, color=TUA, family='Liberation Sans')
+A = np.linspace(4, 240, 200); Z0 = (A / 2) / (1 + 0.0077 * A ** (2 / 3)); B = (15.75 * A - 17.8 * A ** (2 / 3) - 0.711 * Z0 * (Z0 - 1) / A ** (1 / 3) - 23.7 * (A - 2 * Z0) ** 2 / A) / A
+X = 5.0 + A / 240 * 2.9; Y = 1.0 + (B - 5) / 4 * 2.4; ax.plot(X, Y, color=UT, lw=2.5)
+ax.plot([5.0, 5.0, 7.95], [3.6, 1.0, 1.0], color=AB, lw=1); ax.text(6.45, .62, 'nomor massa', ha='center', fontsize=9, color=TUA, family='Liberation Sans'); ax.text(4.85, 2.3, 'B/A', rotation=90, ha='center', fontsize=9, color=TUA, family='Liberation Sans')
+ax.text(5.0 + 56 / 240 * 2.9, 3.5, 'Fe', ha='center', fontsize=10, color=TUA, family='Liberation Sans')
+ax.text(W / 2, 4.65, 'energi dari dalam inti', ha='center', color=TUA, fontsize=14, fontweight='bold', family='Liberation Sans')
+simpan(13, f, 'Kiri: inti berat memancarkan partikel alfa. Kanan: energi ikat per nukleon, yang mencapai puncak di sekitar besi.')
+print('ok13')

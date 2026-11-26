@@ -90,7 +90,7 @@ Catatan Bab 2 (25-11-2026): 13 subbab (termasuk gaya-gaya kimia dan ikatan hidro
 ### ☑ Bab 12 Hidrogen dan Gas Mulia
 12.1 Hidrogen: isotop dan sifat H₂ · 12.2 Produksi dan pemakaian hidrogen · 12.3 Hidrida ionik, kovalen, dan logam · 12.4 Ikatan hidrogen dan akibatnya · 12.5 Air dan es · 12.6 Gas mulia: sifat dan keberadaan · 12.7 Senyawa xenon: fluorida, oksida, dan bentuknya · 12.8 Penerapan gas mulia
 
-### ☐ Bab 13 Kimia Inti dan Radiokimia
+### ☑ Bab 13 Kimia Inti dan Radiokimia
 13.1 Inti: nukleon, isotop, dan pita kestabilan · 13.2 Energi ikat inti dan defek massa · 13.3 Peluruhan α, β, γ, dan penangkapan elektron · 13.4 Kinetika peluruhan dan waktu paruh · 13.5 Reaksi inti, fisi, dan fusi · 13.6 Nukleosintesis bintang · 13.7 Radioisotop dalam kedokteran, penanggalan, dan analisis · 13.8 Keselamatan radiasi
 
 ## Lampiran
