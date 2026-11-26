@@ -8,6 +8,7 @@ Dalam kondisi apa reaksi eksoterm dapat tidak spontan? Berikan contoh dari bab i
 Mengapa setiap 5,71 kJ mol⁻¹ dalam Δ*G*° setara dengan satu satuan p*K* pada 298 K? ||| ΔG° = 2,303 RT pK = 5,71 pK kJ mol⁻¹
 Mengapa NH₄Cl yang dipanaskan dalam tabung reaksi tampak menyublim? ||| terurai menjadi NH₃ + HCl di bagian panas, terbentuk kembali di bagian dingin
 Untuk reaksi dengan Δ*H*° < 0 dan Δ*S*° > 0, apakah ada suhu yang membuatnya tidak spontan? ||| tidak; selalu spontan
+Suatu reaksi mempunyai Δ*H*° = −50,0 kJ mol⁻¹ dan Δ*S*° = −100 J K⁻¹ mol⁻¹. Hitung *K* pada 298 K dan 500 K. ||| 3,4 × 10³; 1,0
 
 ## Subbab 8.2: Teori-teori asam–basa
 
@@ -28,6 +29,9 @@ Urutkan kekuatan basa konjugat: F⁻, Cl⁻, NO₂⁻, HSO₄⁻, OH⁻. ||| Cl�
 Mengapa air disebut amfiprotik? Berikan dua zat lain yang amfiprotik. ||| dapat memberi dan menerima proton; HCO₃⁻, HSO₄⁻, NH₃
 Untuk pasangan konjugat HA/A⁻, buktikan *K*~a~*K*~b~ = *K*~w~. ||| kalikan kedua tetapan; [HA] dan [A⁻] saling hilang
 Mengapa p*K*~a~ HCl dan HClO₄ dalam Tabel 8.2 hanya berupa taksiran? ||| terionisasi sempurna dalam air (dilevelkan); diukur tidak langsung
+Dengan afinitas proton (H₂O 691,0; PH₃ 785,0 kJ mol⁻¹), hitung Δ*H* untuk H₃O⁺(g) + PH₃(g) → H₂O(g) + PH₄⁺(g). Mengapa PH₃ dalam air hampir tidak bersifat basa? ||| −94 kJ mol⁻¹; PH₄⁺ besar dan tersolvasi lemah
+Berapa fraksi PO₄³⁻ dan HPO₄²⁻ pada pH 13,0 (p*K*~a~ 2,15; 7,20; 12,35)? ||| 0,82 dan 0,18
+Penyangga asetat 0,10/0,10 mol L⁻¹ (p*K*~a~ 4,76) ditambah NaOH 0,010 mol L⁻¹. Berapa pH-nya? ||| 4,85
 
 ## Subbab 8.4: Asam biner: tren golongan dan periode
 
@@ -37,6 +41,7 @@ Urutkan keasaman H₂O, H₂S, H₂Se, H₂Te, dan jelaskan. ||| H₂O < H₂S <
 Mengapa PH₃ jauh kurang asam daripada H₂S? ||| P kurang elektronegatif; dalam periode yang sama keelektronegatifan dominan
 Manakah yang lebih asam, H₂S atau HCl? H₂O atau H₂S? Jelaskan dengan tren yang berbeda untuk setiap pasangan. ||| HCl (periode); H₂S (golongan)
 Ion HS⁻ adalah basa yang lebih lemah daripada OH⁻. Jelaskan. ||| H₂S asam lebih kuat daripada H₂O, sehingga basa konjugatnya lebih lemah
+@sikluspka [P] Dari Δ*G*° (+18,1 kJ mol⁻¹) dan Δ*H*° siklus (+7 kJ mol⁻¹) disosiasi HF, hitung Δ*S*° dan jelaskan tandanya. ||| −37 J K⁻¹ mol⁻¹; F⁻ kecil menata air
 
 ## Subbab 8.5: Asam okso: aturan Pauling
 
@@ -59,6 +64,7 @@ Mengapa tawas dipakai untuk menjernihkan air? ||| hidrolisis Al³⁺ membentuk A
 Mengapa kromium(VI) dalam air berbentuk CrO₄²⁻, bukan [Cr(H₂O)₆]⁶⁺? ||| rapat muatan sangat besar; semua proton air lepas menjadi oksoanion
 Apa yang dimaksud dengan olasi? ||| ion hidrokso saling menjembatani lewat OH membentuk polimer, akhirnya endapan
 Mengapa larutan garam besi(III) disimpan dalam suasana asam? ||| mencegah hidrolisis lanjut dan pengendapan oksida hidrat
+Pada pH berapa Al(OH)₃ (*K*~sp~ = 1,3 × 10⁻³³) mulai mengendap dari larutan Al³⁺ 0,010 mol L⁻¹? ||| pH 3,7
 
 ## Subbab 8.7: Oksida asam, basa, dan amfoter
 
@@ -68,6 +74,7 @@ Tuliskan persamaan reaksi Al(OH)₃ dengan HCl dan dengan NaOH. ||| Al(OH)₃ + 
 Mengapa oksida nonlogam umumnya asam? ||| ikatan kovalen; atom pusat elektronegatif menarik elektron dari O–H dalam asam okso
 Jelaskan pembentukan hujan asam dengan reaksi oksida. ||| SO₂ → SO₃ + H₂O → H₂SO₄; NO₂ + air → HNO₃
 Mengapa BeO amfoter sedangkan oksida alkali tanah lain basa? ||| Be²⁺ sangat kecil, rapat muatan besar, ikatan kovalen
+Berapa pH air hujan murni bila CO₂ atmosfer naik menjadi 560 ppm (*K*~H~ = 0,033 mol L⁻¹ atm⁻¹, p*K*~a1~ = 6,35)? ||| 5,54
 
 ## Subbab 8.8: Efek pelarut: pelevelan dan pembedaan
 
@@ -77,6 +84,7 @@ Mengapa asam asetat menjadi asam kuat dalam amonia cair? ||| NH₃ basa jauh leb
 Tuliskan reaksi NaH dan Na₂O dengan air. Mengapa keduanya tidak dapat ada dalam air? ||| NaH + H₂O → NaOH + H₂; Na₂O + H₂O → 2NaOH; H⁻ dan O²⁻ basa lebih kuat daripada OH⁻
 Mengapa trimetilamina lebih lemah sebagai basa dalam air daripada dimetilamina, padahal di fase gas lebih kuat? ||| Me₃NH⁺ hanya satu H untuk ikatan hidrogen dengan air; kurang distabilkan pelarut
 Pelarut apa yang cocok untuk membedakan kekuatan basa-basa yang sangat kuat? ||| pelarut yang sangat lemah sebagai asam: amonia cair, DMSO, THF
+Nyatakan selisih p*K*~a~ fenol dalam DMSO dan air (18,0 dan 9,99) dalam kJ mol⁻¹. Apa penyebab utamanya? ||| ≈ 46 kJ mol⁻¹; fenolat tidak distabilkan ikatan hidrogen
 
 ## Subbab 8.9: Asam dan basa Lewis
 
@@ -106,15 +114,16 @@ Hitung kekerasan absolut Cl⁻ (*I*(Cl) 12,968, *A*(Cl) 3,613 eV) dan Br⁻ (*I*
 Ramalkan arah kesetimbangan: LiI + CsF ⇌ LiF + CsI. ||| ke kanan (Li⁺ keras + F⁻ keras; Cs⁺ lunak + I⁻ lunak)
 Pada kompleks tiosianat, atom mana yang terikat pada Pt²⁺ dan mana pada Fe³⁺? ||| S pada Pt²⁺ (lunak); N pada Fe³⁺ (keras)
 Mengapa prinsip HSAB tidak dapat dipakai untuk mengurutkan kekuatan asam? ||| HSAB hanya menyatakan preferensi; kekuatan intrinsik terpisah
+Jelaskan dengan persamaan Klopman mengapa Hg²⁺ terikat lebih kuat pada I⁻ daripada F⁻, sedangkan Al³⁺ sebaliknya. ||| Hg²⁺–I⁻ terkendali orbital; Al³⁺–F⁻ terkendali muatan
 
 ## Subbab 8.12: Parameter Drago–Wayland
 
-Hitung −Δ*H* untuk aduk BF₃–NH₃ dan BF₃–(CH₃)₃N dengan Tabel 8.4. ||| 79,7; 111,6 kJ mol⁻¹
+Hitung −Δ*H* untuk aduk BF₃–NH₃ dan BF₃–(CH₃)₃N dengan Tabel 8.5. ||| 79,7; 111,6 kJ mol⁻¹
 Hitung −Δ*H* untuk fenol–NH₃ dan fenol–(CH₃)₃N. ||| 31,0; 36,0 kJ mol⁻¹
 @drago [P] Bandingkan perbandingan kekuatan (CH₃)₃N/NH₃ terhadap I₂ dan terhadap fenol. Jelaskan perbedaannya dengan *E* dan *C*. ||| I₂: 51,7/20,2 = 2,6; fenol: 36,0/31,0 = 1,16; Me₃N C_B besar, I₂ relatif kovalen
 Apa arti fisis *E* dan *C* dalam persamaan Drago–Wayland? ||| E: kecenderungan interaksi elektrostatik; C: kecenderungan kovalen
 Mengapa persamaan Drago–Wayland hanya berlaku dalam pelarut yang tidak berinteraksi? ||| pelarut polar ikut berinteraksi dengan asam dan basa; entalpi solvasi mengacaukan
-Asam mana dalam Tabel 8.4 yang paling "keras"? ||| fenol (E_A/C_A terbesar ≈ 9,8)
+Asam mana dalam Tabel 8.5 yang paling "keras"? ||| fenol (E_A/C_A terbesar ≈ 9,8)
 
 ## Subbab 8.13: Superasam dan superbasa
 
@@ -124,6 +133,7 @@ Mengapa pH tidak dapat dipakai untuk asam pekat, dan apa penggantinya? ||| pH me
 Apa yang terjadi bila metana dilarutkan dalam asam ajaib? ||| terprotonasi menjadi CH₅⁺, lalu kehilangan H₂ menjadi CH₃⁺ dan oligomer
 Sebutkan tiga superbasa dan pelarut tempat memakainya. ||| NaNH₂ (NH₃ cair), LDA (THF), butillitium (heksana)
 Mengapa butillitium harus disimpan dan dipakai tanpa udara dan air? ||| basa sangat kuat (pKa butana ≈ 50) bereaksi hebat dengan air dan O₂
+Indikator dengan p*K*~BH⁺~ = −8,0 menunjukkan [BH⁺]/[B] = 0,10 dalam suatu asam. Hitung *H*~0~. ||| −7,0
 
 ## Subbab 8.14: Asam padat: zeolit dan katalis
 
@@ -133,3 +143,5 @@ Apa yang dimaksud dengan selektivitas bentuk? Berikan contoh. ||| hanya molekul 
 Apa aturan Löwenstein? ||| tidak ada ikatan Al–O–Al dalam kerangka
 @padat [P] Sebutkan tiga keunggulan asam padat dibandingkan asam cair seperti H₂SO₄ dan HF dalam industri. ||| mudah dipisahkan dan diregenerasi, tidak korosif/lebih aman, selektivitas bentuk
 Selain katalis, sebutkan dua kegunaan zeolit. ||| penukar ion dalam deterjen; penyaring molekul pengering
+
+Hitung jumlah situs asam (mmol g⁻¹) zeolit H-ZSM-5 dengan Si/Al = 40. ||| 0,41 mmol g⁻¹

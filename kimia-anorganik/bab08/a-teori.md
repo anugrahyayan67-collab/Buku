@@ -62,6 +62,18 @@ Bila botol amonia pekat dan botol asam klorida pekat dibuka berdekatan, terbentu
 **Memahami hasil.** Reaksi ini adalah reaksi asam–basa: HCl memberikan proton kepada NH₃. Ia sangat eksoterm, tetapi entropinya turun tajam karena dua molekul gas menjadi satu padatan. Pada suhu kamar entalpi menang; di atas 618 K entropi menang, dan NH₄Cl menyublim sambil terurai. Inilah sebabnya NH₄Cl yang dipanaskan dalam tabung reaksi tampak "menyublim": ia terurai di bagian bawah yang panas dan terbentuk kembali di bagian atas yang dingin. Pembahasan lengkap energi Gibbs ada di buku *Termodinamika Kimia*.
 :::
 
+### Termodinamika lawan kinetika
+
+Δ*G*° menjawab pertanyaan **apakah** suatu reaksi dapat berjalan dan sejauh mana, tetapi tidak **seberapa cepat**. Banyak reaksi yang sangat menguntungkan berlangsung amat lambat karena harus melewati keadaan transisi berenergi tinggi: campuran H₂ dan O₂ dapat disimpan bertahun-tahun, dan CCl₄ tidak bereaksi dengan air walaupun Δ*G*° hidrolisisnya sekitar −380 kJ mol⁻¹ (subbab 10.3). Reaksi asam–basa Brønsted adalah pengecualian yang menyenangkan: perpindahan proton antara atom O dan N biasanya adalah salah satu reaksi tercepat dalam kimia, dengan tetapan laju mendekati batas difusi (sekitar 10¹⁰ L mol⁻¹ s⁻¹). Karena itu, untuk kesetimbangan asam–basa dalam larutan, kita hampir selalu boleh menganggap kesetimbangan tercapai seketika, dan termodinamika saja sudah cukup untuk meramalkan hasilnya. Untuk asam dan basa Lewis yang melibatkan pemutusan ikatan logam–ligan, hal ini tidak selalu benar (Bab 11).
+
+### Pengaruh suhu pada tetapan kesetimbangan
+
+Karena Δ*G*° = Δ*H*° − *T*Δ*S*° dan Δ*G*° = −*RT* ln *K*, kedua persamaan dapat digabung:
+
+$$\ln K = -\frac{\Delta H^\circ}{RT} + \frac{\Delta S^\circ}{R} \qquad \text{(8.3)}$$
+
+Grafik ln *K* terhadap 1/*T* berupa garis lurus dengan kemiringan −Δ*H*°/*R* (persamaan van 't Hoff). Reaksi eksoterm mempunyai *K* yang **mengecil** bila suhu naik, sedangkan reaksi endoterm mempunyai *K* yang **membesar**. Inilah bentuk kuantitatif prinsip Le Chatelier. Contoh 8.1 memperlihatkan kasus ekstrem: pembentukan NH₄Cl sangat eksoterm, sehingga *K*-nya turun dari sekitar 10¹⁶ pada suhu kamar menjadi kurang dari 1 di atas 618 K. Autoionisasi air, sebaliknya, endoterm (sekitar 56 kJ mol⁻¹), sehingga *K*~w~ naik hampir 500 kali dari 0 °C ke 100 °C (subbab 10.3).
+
 ::: {.kuis}
 **Kuis cepat 8.1** Sebuah asam mempunyai p*K*~a~ = 4,76. Berapa Δ*G*° untuk disosiasinya pada 298 K? Apa arti tanda positifnya?
 :::
@@ -92,6 +104,24 @@ Johannes Brønsted dan Thomas Lowry, secara terpisah pada 1923, mendefinisikan a
 $$\text{HA} + \text{B} \rightleftharpoons \text{A}^- + \text{HB}^+$$
 
 Asam HA dan basa A⁻ yang berbeda satu proton disebut **pasangan konjugat**. Makin kuat suatu asam, makin lemah basa konjugatnya. Definisi ini berlaku dalam pelarut apa pun dan bahkan dalam fase gas, dan menjadi definisi utama untuk kimia larutan (subbab 8.3–8.8).
+
+### Afinitas proton: kebasaan tanpa pelarut
+
+Definisi Brønsted dapat diterapkan langsung pada molekul terisolasi di fase gas, dan di sanalah kebasaan "murni" suatu molekul dapat diukur tanpa gangguan pelarut. **Afinitas proton** (PA) suatu basa B adalah −Δ*H* untuk reaksi B(g) + H⁺(g) → BH⁺(g). Nilainya diukur dengan spektrometri massa, dari kesetimbangan perpindahan proton antara dua basa di dalam sel gas.
+
+![Gambar 8.2 Afinitas proton fase gas beberapa basa (data NIST). Makin besar nilainya, makin kuat basa itu menahan proton.](fig/a_pa.png){width=70%}
+
+Gambar 8.2 memperlihatkan dua hal. Pertama, besarnya: 600–950 kJ mol⁻¹, jauh lebih besar daripada energi ikatan kimia biasa, karena proton telanjang adalah partikel bermuatan yang sangat kecil dan menarik awan elektron dengan sangat kuat. Kedua, urutannya: H₂O (691) < NH₃ (854) < trimetilamina (949), sesuai dengan anggapan bahwa N kurang elektronegatif daripada O sehingga pasangan bebasnya lebih mudah diberikan, dan gugus metil mendorong elektron ke atom N.
+
+::: {.contoh}
+**Contoh 8.2 · Perpindahan proton di fase gas**
+
+Hitung Δ*H* untuk reaksi H₃O⁺(g) + NH₃(g) → H₂O(g) + NH₄⁺(g) dari afinitas proton (H₂O 691,0; NH₃ 853,6 kJ mol⁻¹). Bandingkan dengan reaksi yang sama dalam air, yang Δ*G*°-nya sekitar −63 kJ mol⁻¹ (dari p*K*~a~ H₃O⁺ ≈ −1,74 dan NH₄⁺ 9,25).
+
+**Penyelesaian.** Reaksi itu sama dengan melepas proton dari H₃O⁺ (+691,0) lalu memberikannya kepada NH₃ (−853,6): Δ*H* = 691,0 − 853,6 = **−162,6 kJ mol⁻¹**. Dalam air: Δ*G*° = −5,71 × (9,25 + 1,74) = **−62,7 kJ mol⁻¹**.
+
+**Memahami hasil.** Di fase gas, NH₃ merebut proton dari air dengan energi lebih dari 160 kJ mol⁻¹; dalam larutan, keuntungan itu tinggal sekitar sepertiganya. Air "menyamakan" kebasaan, karena ia menyolvasi ion H₃O⁺ yang kecil jauh lebih kuat daripada NH₄⁺ yang lebih besar. Kesimpulan umumnya akan muncul berulang kali di bab ini: kekuatan asam dan basa dalam larutan adalah hasil persaingan antara sifat molekul itu sendiri (yang terlihat di fase gas) dan solvasi ion-ion yang terbentuk.
+:::
 
 ### Lux–Flood: asam dan basa oksida
 
@@ -146,7 +176,7 @@ Tabel 8.2 p*K*~a~ beberapa asam anorganik dalam air pada 25 °C (nilai untuk asa
 | H₃PO₄ (p*K*~a1~) | 2,15 | H₂O | 15,74 |
 
 ::: {.contoh}
-**Contoh 8.2 · Seberapa terdisosiasi?**
+**Contoh 8.3 · Seberapa terdisosiasi?**
 
 Hitung pH dan persen disosiasi larutan 0,10 mol L⁻¹ HF (p*K*~a~ = 3,17) dan HOCl (p*K*~a~ = 7,53).
 
@@ -156,6 +186,36 @@ Hitung pH dan persen disosiasi larutan 0,10 mol L⁻¹ HF (p*K*~a~ = 3,17) dan H
 * HOCl: *K*~a~ = 3,0 × 10⁻⁸; *x* = 5,4 × 10⁻⁵ mol L⁻¹; pH = **4,27**; disosiasi **0,05 %**.
 
 **Memahami hasil.** Selisih empat satuan p*K*~a~ (sekitar 25 kJ mol⁻¹ dalam Δ*G*°) membuat disosiasi berbeda lebih dari seratus kali. Asam "lemah" seperti HF sebenarnya cukup berbahaya: ia masih menghasilkan pH 2 pada 0,1 mol L⁻¹, dan molekul HF yang tidak terdisosiasi justru mudah menembus kulit dan menyerang kalsium tulang. Subbab-subbab berikutnya menjelaskan **mengapa** p*K*~a~ setiap asam bernilai demikian.
+:::
+
+### Asam poliprotik dan spesiasi
+
+Asam yang dapat melepas lebih dari satu proton disebut **poliprotik**. Asam fosfat melepas tiga proton secara bertahap:
+
+$$\text{H}_3\text{PO}_4 \overset{2{,}15}{\rightleftharpoons} \text{H}_2\text{PO}_4^- \overset{7{,}20}{\rightleftharpoons} \text{HPO}_4^{2-} \overset{12{,}35}{\rightleftharpoons} \text{PO}_4^{3-}$$
+
+(angka di atas panah adalah p*K*~a~ setiap tahap). Pada pH tertentu, perbandingan dua spesies yang berdampingan mengikuti langsung dari definisi *K*~a~:
+
+$$\text{pH} = \text{p}K_\text{a} + \log\frac{[\text{A}^-]}{[\text{HA}]} \qquad \text{(8.4)}$$
+
+Persamaan (8.4), persamaan Henderson–Hasselbalch, memberi aturan sederhana: bila pH = p*K*~a~, kedua spesies sama banyak; setiap satuan pH di atas p*K*~a~ menaikkan perbandingan [A⁻]/[HA] sepuluh kali. Karena p*K*~a~ asam fosfat berjarak sekitar 5 satuan (aturan Pauling kedua, subbab 8.5), pada pH berapa pun praktis hanya **dua** spesies yang hadir dalam jumlah berarti.
+
+![Gambar 8.3 Fraksi spesies asam fosfat terhadap pH. Setiap perpotongan dua kurva terjadi pada pH = p*K*~a~. Pada pH darah (7,4), fosfat hadir sebagai campuran H₂PO₄⁻ dan HPO₄²⁻.](fig/a_spesiasi.png){width=84%}
+
+::: {.contoh}
+**Contoh 8.4 · Fosfat dalam darah dan larutan penyangga**
+
+(a) Hitung perbandingan [HPO₄²⁻]/[H₂PO₄⁻] dan fraksi masing-masing pada pH 7,40. (b) Larutan penyangga dibuat dari asam asetat 0,10 mol L⁻¹ dan natrium asetat 0,10 mol L⁻¹ (p*K*~a~ 4,76). Berapa pH-nya setelah ditambah HCl sebanyak 0,010 mol L⁻¹? Bandingkan dengan menambahkan HCl yang sama ke dalam air murni.
+
+**Penyelesaian.** (a) log([HPO₄²⁻]/[H₂PO₄⁻]) = 7,40 − 7,20 = 0,20; perbandingannya **1,58**. Fraksinya 1,58/2,58 = **61 %** HPO₄²⁻ dan **39 %** H₂PO₄⁻ (spesies lain kurang dari 0,1 %).
+
+(b) Awalnya pH = 4,76. HCl mengubah 0,010 mol L⁻¹ asetat menjadi asam asetat: [A⁻] = 0,090, [HA] = 0,110. pH = 4,76 + log(0,090/0,110) = **4,67**, turun hanya 0,09 satuan. Dalam air murni, HCl 0,010 mol L⁻¹ memberi pH **2,00**, turun 5 satuan.
+
+**Memahami hasil.** Larutan **penyangga** bekerja karena ia mengandung asam dan basa konjugat dalam jumlah sebanding: proton yang ditambahkan ditangkap oleh A⁻, dan OH⁻ yang ditambahkan dinetralkan oleh HA. Kapasitasnya paling besar ketika pH = p*K*~a~. Pasangan H₂PO₄⁻/HPO₄²⁻ (p*K*~a~ 7,20) adalah salah satu penyangga intrasel yang penting, dan pasangan CO₂/HCO₃⁻ menjaga pH darah. Prinsip yang sama berlaku untuk asam aqua (subbab 8.6): ion [Al(H₂O)₆]³⁺ dan [Al(OH)(H₂O)₅]²⁺ juga merupakan pasangan konjugat.
+:::
+
+::: {.awas}
+**Awas: p*K*~a~ H₃O⁺ dan H₂O.** Banyak buku mencantumkan p*K*~a~ H₃O⁺ = −1,74 dan p*K*~a~ H₂O = 15,74, yang diperoleh dengan memasukkan [H₂O] = 55,5 mol L⁻¹ ke dalam rumus *K*~a~. Secara termodinamika ketat, air sebagai pelarut mempunyai aktivitas 1, sehingga p*K*~a~ H₃O⁺ = 0 dan p*K*~a~ H₂O = 14,00. Kedua konvensi muncul dalam literatur; yang penting adalah tidak mencampurnya dalam satu perhitungan. Buku ini memakai −1,74 dan 15,74 hanya untuk membandingkan air dengan asam lain dalam satu skala (Tabel 8.2 dan Gambar 8.8), dan memakai *K*~w~ = 1,0 × 10⁻¹⁴ untuk semua perhitungan pH.
 :::
 
 ::: {.kuis}

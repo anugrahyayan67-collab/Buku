@@ -32,3 +32,30 @@ B = {'NH3': (1.36, 3.46), 'piridina': (1.17, 6.40), 'Me3N': (0.808, 11.54), 'Et2
 for a, (EA, CA) in A.items():
     print(a, {b: round(EA * EB + CA * CB, 2) for b, (EB, CB) in B.items()})
 print('kkal->kJ 4.184; I2-piridina', round((1.17 + 6.40) * 4.184, 1), 'kJ')
+
+# === pendalaman (revisi 2) ===
+import math
+F=5.708
+print('== siklus HX(aq) -> H+(aq) + X-(aq), entalpi (kJ/mol)')
+dat={'HF':(48,570,328,504,3.17),'HCl':(18,432,349,361,-6),'HBr':(21,366,325,330,-9),'HI':(23,298,295,285,-10)}
+for k,(dh,D,EA,hx,pka) in dat.items():
+    H=dh+D+1312-EA-1091-hx; G=F*pka
+    print(k,'dehid',dh,'D',D,'IE 1312','-EA',-EA,'hidH+ -1091','hidX',-hx,'=> dH',H,' dG(pKa)',round(G,1),' -TdS',round(G-H,1))
+print('== spesiasi H3PO4 pada pH 7,4')
+pk=[2.15,7.20,12.35]
+def frac(pH):
+    h=10**-pH; K=[10**-p for p in pk]
+    t=[h**3,h**2*K[0],h*K[0]*K[1],K[0]*K[1]*K[2]]; s=sum(t); return [x/s for x in t]
+for pH in (2.15,4.7,7.2,7.4,9.8,12.35): print(pH,[round(x,4) for x in frac(pH)])
+print('rasio HPO4/H2PO4 pH 7,4',10**(7.4-7.2))
+print('== pH air hujan murni (CO2 420 ppm)')
+KH=0.033; p=420e-6; Ka1=10**-6.35; h=math.sqrt(KH*p*Ka1); print('[H+]',h,'pH',-math.log10(h))
+print('== pengendapan selektif Fe(OH)3/Mg(OH)2, 0,010 M')
+for nm,ksp,n in [('Fe(OH)3',2.8e-39,3),('Mg(OH)2',5.6e-12,2)]:
+    oh=(ksp/0.010)**(1/n); print(nm,'pH mulai',14+math.log10(oh)); oh2=(ksp/1e-5)**(1/n); print('  pH 99,9 % mengendap',14+math.log10(oh2))
+print('== Hammett: indikator pK -10,1, rasio BH+/B = 10 ->',-10.1-1)
+print('== zeolit ZSM-5 Si/Al 15: situs mmol/g',1/16/ (60.08*15/16+ (26.98+2*16+1.008)/16 )*1000)
+print('ZSM-5 sel satuan 96 T: Al per sel', 96/16)
+print('== buffer asetat 0,10/0,10 + 0,010 HCl')
+pKa=4.76; print('pH',pKa+math.log10(0.09/0.11))
+print('== pKa H3O+: -log(55,5)',-math.log10(55.5))

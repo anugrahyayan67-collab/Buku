@@ -18,6 +18,16 @@ Basa Lewis yang penting: anion (F⁻, Cl⁻, OH⁻, CN⁻), molekul dengan pasan
 
 Ukuran kekuatan asam Lewis tidak dapat berupa satu bilangan seperti p*K*~a~, karena urutan kekuatan bergantung pada asam atau basa pasangannya. Ini adalah pokok bahasan subbab 8.11 dan 8.12.
 
+### Mengukur keasaman Lewis
+
+Karena tidak ada skala tunggal seperti p*K*~a~, kimiawan memakai beberapa ukuran yang masing-masing mengacu pada satu basa baku:
+
+* **Afinitas ion fluorida** (FIA): −Δ*H* untuk reaksi A(g) + F⁻(g) → AF⁻(g), biasanya dihitung secara kuantum. Asam Lewis yang FIA-nya lebih besar daripada SbF₅ disebut **asam Lewis super**.
+* **Metode Gutmann–Beckett**: pergeseran ³¹P NMR trietilfosfina oksida Et₃PO ketika berikatan dengan asam Lewis, analog bilangan akseptor pelarut (subbab 10.2).
+* **Entalpi aduk** dengan beberapa basa sekaligus, yang menjadi dasar parameter Drago–Wayland (subbab 8.12).
+
+Ketiganya memberi urutan yang serupa untuk asam yang mirip, tetapi dapat berbeda untuk asam yang sangat berbeda jenisnya, karena masing-masing mengukur kekuatan terhadap satu basa tertentu.
+
 ::: {.awas}
 **Awas: rintangan ruang.** Basa yang secara elektronik kuat dapat menjadi lemah bila gugus besar menghalangi akses ke pasangan elektronnya. Trimetilamina membentuk aduk yang stabil dengan BF₃, tetapi aduknya dengan B(CH₃)₃ jauh lebih lemah daripada yang diharapkan karena gugus metil pada kedua pihak saling bertabrakan. Bila rintangan sangat besar, asam dan basa tidak dapat bergabung sama sekali walaupun keduanya kuat; pasangan seperti ini disebut **pasangan Lewis frustrasi** dan dapat memecah molekul H₂ di antara keduanya, sebuah cara baru untuk mengaktifkan hidrogen tanpa logam.
 :::
@@ -68,18 +78,22 @@ Asam dan basa dibagi menjadi dua golongan:
 
 Interaksi keras–keras terutama bersifat **elektrostatik** (ionik): ion kecil bermuatan tinggi saling tarik kuat. Interaksi lunak–lunak terutama bersifat **kovalen**: orbital yang besar dan berenergi dekat bertumpang tindih dengan baik. Dalam bahasa orbital perbatasan: spesies keras mempunyai celah HOMO–LUMO yang besar; spesies lunak mempunyai celah kecil.
 
+### Penjelasan orbital: persamaan Klopman
+
+Gilles Klopman (1968) memberi dasar teori untuk HSAB dengan memecah energi interaksi asam–basa menjadi dua bagian: suku **muatan** (tarikan Coulomb antara muatan asam dan basa) dan suku **orbital** (penurunan energi karena HOMO basa bertumpang tindih dengan LUMO asam, yang besar bila kedua orbital berenergi dekat). Pada spesies keras, HOMO basa sangat rendah dan LUMO asam sangat tinggi, sehingga suku orbital kecil dan interaksi didominasi muatan: **terkendali muatan**. Pada spesies lunak, HOMO basa tinggi dan LUMO asam rendah, sehingga keduanya berdekatan dan suku orbital mendominasi: **terkendali orbital**. Asam keras dan basa keras bergabung karena muatan; asam lunak dan basa lunak bergabung karena orbital. Pasangan campuran tidak mendapat keuntungan penuh dari keduanya.
+
 ### Kekerasan absolut
 
 Pearson dan Robert Parr (1983) memberi ukuran kuantitatif: **kekerasan absolut**, setengah selisih energi ionisasi dan afinitas elektron:
 
-$$\eta = \frac{I - A}{2} \qquad \text{(8.3)}$$
+$$\eta = \frac{I - A}{2} \qquad \text{(8.5)}$$
 
 Untuk kation M^*z*+^, *I* adalah energi ionisasi berikutnya dan *A* adalah energi ionisasi yang membentuk ion itu. Untuk anion X⁻, dipakai *I* dan *A* atom X netral. Spesies dengan η besar sukar menerima maupun melepas elektron: keras.
 
-![Gambar 8.6 Kekerasan absolut η beberapa kation dan anion, dihitung dari energi ionisasi dan afinitas elektron. Biru: keras; jingga: lunak.](fig/c_keras.png){width=94%}
+![Gambar 8.9 Kekerasan absolut η beberapa kation dan anion, dihitung dari energi ionisasi dan afinitas elektron. Biru: keras; jingga: lunak.](fig/c_keras.png){width=94%}
 
 ::: {.contoh}
-**Contoh 8.5 · Menghitung kekerasan**
+**Contoh 8.10 · Menghitung kekerasan**
 
 Hitung η untuk Na⁺, Ag⁺, Al³⁺, dan Hg²⁺, serta F⁻ dan I⁻. Data (eV): Na *I*₁ 5,139, *I*₂ 47,286; Ag *I*₁ 7,576, *I*₂ 21,48; Al *I*₃ 28,448, *I*₄ 119,99; Hg *I*₂ 18,757, *I*₃ 34,2; F *I* 17,423, *A* 3,401; I *I* 10,451, *A* 3,059.
 
@@ -93,6 +107,16 @@ Hitung η untuk Na⁺, Ag⁺, Al³⁺, dan Hg²⁺, serta F⁻ dan I⁻. Data (e
 * I⁻: (10,451 − 3,059)/2 = **3,7 eV**
 
 **Memahami hasil.** Na⁺ dan Ag⁺ mempunyai muatan sama dan ukuran mirip, tetapi Ag⁺ tiga kali lebih lunak. Penyebabnya terlihat dari data: elektron 4d Ag⁺ relatif mudah dilepas (*I*₂ hanya 21 eV), sedangkan Na⁺ harus kehilangan elektron dari kulit 2p yang penuh (*I*₂ 47 eV). Kekerasan mengukur seberapa "kaku" awan elektron sebuah spesies.
+:::
+
+::: {.contoh}
+**Contoh 8.11 · Kelarutan perak halida**
+
+Dengan *K*~sp~ AgCl 1,8 × 10⁻¹⁰, AgBr 5,0 × 10⁻¹³, dan AgI 8,5 × 10⁻¹⁷, hitung kelarutan masing-masing dalam mg L⁻¹. AgF sangat mudah larut (lebih dari 100 g per 100 mL air). Jelaskan polanya dengan HSAB dan dengan energetika kisi.
+
+**Penyelesaian.** *s* = √*K*~sp~: AgCl 1,34 × 10⁻⁵ mol L⁻¹ = **1,9 mg L⁻¹**; AgBr 7,1 × 10⁻⁷ mol L⁻¹ = **0,13 mg L⁻¹**; AgI 9,2 × 10⁻⁹ mol L⁻¹ = **0,0022 mg L⁻¹**.
+
+**Memahami hasil.** Dari F⁻ ke I⁻, kelarutan turun dari lebih dari 10⁶ mg L⁻¹ menjadi sekitar 0,002 mg L⁻¹, faktor hampir satu miliar. Untuk garam natrium, urutannya justru berlawanan (NaF paling sukar larut di antara natrium halida). HSAB menjelaskan perbedaannya: Ag⁺ asam lunak, sehingga ikatan Ag–X makin kovalen dan kuat dari F ke I, sedangkan Na⁺ asam keras lebih menyukai F⁻. Dalam bahasa Bab 6, energi kisi AgI jauh lebih besar daripada yang diramalkan model ionik (subbab 6.9), dan kelebihan kovalen itu tidak dapat diimbangi hidrasi ion yang besar. Perbedaan kelarutan inilah yang dipakai dalam fotografi klasik (AgBr peka cahaya, dilarutkan oleh tiosulfat yang lunak) dan dalam titrasi argentometri.
 :::
 
 ### Penerapan HSAB
@@ -114,11 +138,11 @@ Hitung η untuk Na⁺, Ag⁺, Al³⁺, dan Hg²⁺, serta F⁻ dan I⁻. Data (e
 
 Russell Drago dan Bradford Wayland (1965) mengusulkan bahwa entalpi pembentukan aduk asam–basa Lewis dalam pelarut yang tidak berinteraksi dapat dipecah menjadi bagian elektrostatik dan bagian kovalen:
 
-$$-\Delta H = E_\text{A}E_\text{B} + C_\text{A}C_\text{B} \qquad \text{(8.4)}$$
+$$-\Delta H = E_\text{A}E_\text{B} + C_\text{A}C_\text{B} \qquad \text{(8.6)}$$
 
 Setiap asam mempunyai dua bilangan, *E*~A~ (kecenderungan elektrostatik) dan *C*~A~ (kecenderungan kovalen), dan setiap basa juga dua, *E*~B~ dan *C*~B~. Dengan beberapa puluh parameter, persamaan ini meramalkan ratusan entalpi aduk dalam sekitar 1 kJ mol⁻¹.
 
-Tabel 8.4 Parameter Drago–Wayland (dalam (kkal mol⁻¹)^1/2^; I₂ dipakai sebagai acuan dengan *E*~A~ = *C*~A~ = 1).
+Tabel 8.5 Parameter Drago–Wayland (dalam (kkal mol⁻¹)^1/2^; I₂ dipakai sebagai acuan dengan *E*~A~ = *C*~A~ = 1).
 
 | Asam | *E*~A~ | *C*~A~ | Basa | *E*~B~ | *C*~B~ |
 |---|---|---|---|---|---|
@@ -129,14 +153,14 @@ Tabel 8.4 Parameter Drago–Wayland (dalam (kkal mol⁻¹)^1/2^; I₂ dipakai se
 | | | | DMSO | 1,34 | 2,85 |
 | | | | aseton | 0,987 | 2,33 |
 
-Nilai dalam Tabel 8.4 berasal dari himpunan parameter asli Drago dan rekan (acuan I₂: *E*~A~ = *C*~A~ = 1), yang juga dipakai dalam buku Huheey. Drago kemudian memperbarui seluruh himpunan dengan acuan berbeda (model ECW, I₂: *E*~A~ = 0,50 dan *C*~A~ = 2,0). Kedua himpunan memberi entalpi yang hampir sama, tetapi angka dari himpunan yang berbeda **tidak boleh dicampur** dalam satu perhitungan.
+Nilai dalam Tabel 8.5 berasal dari himpunan parameter asli Drago dan rekan (acuan I₂: *E*~A~ = *C*~A~ = 1), yang juga dipakai dalam buku Huheey. Drago kemudian memperbarui seluruh himpunan dengan acuan berbeda (model ECW, I₂: *E*~A~ = 0,50 dan *C*~A~ = 2,0). Kedua himpunan memberi entalpi yang hampir sama, tetapi angka dari himpunan yang berbeda **tidak boleh dicampur** dalam satu perhitungan.
 
 ::: {.contoh}
-**Contoh 8.6 · Urutan basa bergantung asamnya**
+**Contoh 8.12 · Urutan basa bergantung asamnya**
 
 Hitung −Δ*H* untuk aduk I₂ dan fenol dengan dietil eter dan DMSO. Bandingkan urutannya. Untuk I₂–piridina, entalpi terukur sekitar 33 kJ mol⁻¹.
 
-**Penyelesaian.** Dengan persamaan (8.4), dalam kkal mol⁻¹ lalu dikalikan 4,184:
+**Penyelesaian.** Dengan persamaan (8.6), dalam kkal mol⁻¹ lalu dikalikan 4,184:
 
 * I₂–eter: 1,00 × 0,963 + 1,00 × 3,25 = 4,21 kkal = **17,6 kJ mol⁻¹**
 * I₂–DMSO: 1,34 + 2,85 = 4,19 kkal = **17,5 kJ mol⁻¹**
@@ -144,13 +168,13 @@ Hitung −Δ*H* untuk aduk I₂ dan fenol dengan dietil eter dan DMSO. Bandingka
 * fenol–DMSO: 4,33 × 1,34 + 0,442 × 2,85 = 7,06 kkal = **29,5 kJ mol⁻¹**
 * I₂–piridina: 1,17 + 6,40 = 7,57 kkal = **31,7 kJ mol⁻¹**
 
-**Memahami hasil.** Terhadap I₂, eter dan DMSO hampir sama kuat. Terhadap fenol, DMSO jauh lebih kuat. Fenol adalah asam dengan *E*~A~ besar (donor ikatan hidrogen, interaksi terutama elektrostatik), sehingga lebih menyukai DMSO yang mempunyai *E*~B~ lebih besar (oksigen S=O yang sangat polar). I₂ mempunyai *C*~A~ relatif besar (interaksi kovalen dengan orbital σ\*), sehingga perbedaan *E*~B~ kurang berpengaruh. Pola yang sama terlihat untuk semua basa (Gambar 8.7): basa dengan *C*~B~ besar seperti (CH₃)₃N jauh lebih kuat terhadap I₂ daripada terhadap fenol. Inilah versi kuantitatif HSAB: tidak ada skala kekuatan basa yang tunggal.
+**Memahami hasil.** Terhadap I₂, eter dan DMSO hampir sama kuat. Terhadap fenol, DMSO jauh lebih kuat. Fenol adalah asam dengan *E*~A~ besar (donor ikatan hidrogen, interaksi terutama elektrostatik), sehingga lebih menyukai DMSO yang mempunyai *E*~B~ lebih besar (oksigen S=O yang sangat polar). I₂ mempunyai *C*~A~ relatif besar (interaksi kovalen dengan orbital σ\*), sehingga perbedaan *E*~B~ kurang berpengaruh. Pola yang sama terlihat untuk semua basa (Gambar 8.10): basa dengan *C*~B~ besar seperti (CH₃)₃N jauh lebih kuat terhadap I₂ daripada terhadap fenol. Inilah versi kuantitatif HSAB: tidak ada skala kekuatan basa yang tunggal.
 :::
 
-![Gambar 8.7 Entalpi aduk yang diramalkan persamaan Drago–Wayland untuk lima basa dengan I₂ (jingga) dan fenol (biru). Urutan kekuatan basa berbeda untuk kedua asam.](fig/c_drago.png){width=76%}
+![Gambar 8.10 Entalpi aduk yang diramalkan persamaan Drago–Wayland untuk lima basa dengan I₂ (jingga) dan fenol (biru). Urutan kekuatan basa berbeda untuk kedua asam.](fig/c_drago.png){width=76%}
 
 ::: {.kuis}
-**Kuis cepat 8.12** Hitung −Δ*H* untuk BF₃–NH₃ dan BF₃–(CH₃)₃N dengan Tabel 8.4. Basa mana yang lebih kuat terhadap BF₃?
+**Kuis cepat 8.12** Hitung −Δ*H* untuk BF₃–NH₃ dan BF₃–(CH₃)₃N dengan Tabel 8.5. Basa mana yang lebih kuat terhadap BF₃?
 :::
 
 ## 8.13 Superasam dan superbasa
@@ -159,11 +183,11 @@ Hitung −Δ*H* untuk aduk I₂ dan fenol dengan dietil eter dan DMSO. Bandingka
 
 Ronald Gillespie mendefinisikan **superasam** sebagai asam yang lebih kuat daripada asam sulfat 100 %. Kekuatan asam sepekat ini tidak dapat diukur dengan pH, karena tidak ada air. Louis Hammett (1932) memakai **fungsi keasaman Hammett**, *H*~0~, yang diukur dengan basa indikator lemah B:
 
-$$H_0 = \text{p}K_\text{BH^+} - \log\frac{[\text{BH}^+]}{[\text{B}]} \qquad \text{(8.5)}$$
+$$H_0 = \text{p}K_\text{BH^+} - \log\frac{[\text{BH}^+]}{[\text{B}]} \qquad \text{(8.7)}$$
 
 Dalam larutan encer, *H*~0~ sama dengan pH. Untuk asam pekat, *H*~0~ menjadi negatif: makin negatif, makin kuat.
 
-Tabel 8.5 Fungsi keasaman Hammett beberapa asam pekat.
+Tabel 8.6 Fungsi keasaman Hammett beberapa asam pekat.
 
 | Asam | *H*~0~ |
 |---|---|
@@ -172,6 +196,16 @@ Tabel 8.5 Fungsi keasaman Hammett beberapa asam pekat.
 | HSO₃F | −15,1 |
 | HSO₃F + SbF₅ ("asam ajaib") | sampai sekitar −19 |
 | HF + SbF₅ (asam fluoroantimonat) | sampai sekitar −21 atau lebih rendah |
+
+::: {.contoh}
+**Contoh 8.13 · Mengukur *H*~0~ dengan indikator**
+
+Indikator 2,4,6-trinitroanilina mempunyai p*K*~BH⁺~ sekitar −10,1. Dalam suatu campuran asam, spektrum UV–tampak menunjukkan perbandingan [BH⁺]/[B] = 10. (a) Hitung *H*~0~. (b) Berapa kali lebih asam campuran ini dibanding larutan dengan *H*~0~ = 0?
+
+**Penyelesaian.** (a) *H*~0~ = −10,1 − log 10 = **−11,1**. (b) Skala *H*~0~ logaritmik seperti pH: 10^11,1^ ≈ **1,3 × 10¹¹ kali**.
+
+**Memahami hasil.** Untuk mengukur keasaman di luar jangkauan pH, dipakai serangkaian indikator yang makin lemah kebasaannya, masing-masing berguna dalam rentang sekitar 2 satuan di sekitar p*K*~BH⁺~-nya. Dengan rangkaian nitroanilina dan nitrobenzena, Hammett dan para penerusnya menyusun skala keasaman sampai *H*~0~ sekitar −27. Asam sulfat 100 % (*H*~0~ = −12,0) sekitar 10¹² kali lebih asam daripada larutan asam encer pH 0; asam fluoroantimonat sekitar sepuluh miliar kali lebih asam lagi.
+:::
 
 Superasam bekerja dengan menggabungkan asam Brønsted kuat dengan asam Lewis sangat kuat (SbF₅). Asam Lewis menarik basa konjugat dari asam Brønsted, sehingga proton "tidak mempunyai tempat pulang":
 
@@ -193,13 +227,23 @@ Asam cair seperti H₂SO₄ dan HF dulu dipakai sebagai katalis dalam pengolahan
 
 Zeolit adalah aluminosilikat kristal yang kerangkanya tersusun dari tetrahedron SiO₄ dan AlO₄ yang berbagi sudut, membentuk saluran dan rongga berukuran molekul (sekitar 0,3–1 nm). Setiap Si⁴⁺ yang diganti Al³⁺ menciptakan muatan −1 pada kerangka. Muatan ini diimbangi oleh kation (Na⁺ pada zeolit alam). Bila kation itu diganti H⁺, proton terikat pada oksigen yang menjembatani Si dan Al, membentuk situs **asam Brønsted** yang sangat kuat:
 
-![Gambar 8.8 Situs asam Brønsted dalam zeolit. Penggantian Si oleh Al membuat kerangka bermuatan negatif, dan proton pada oksigen jembatan Si–O(H)–Al menjadi sangat asam.](fig/c_zeolit.png){width=80%}
+![Gambar 8.11 Situs asam Brønsted dalam zeolit. Penggantian Si oleh Al membuat kerangka bermuatan negatif, dan proton pada oksigen jembatan Si–O(H)–Al menjadi sangat asam.](fig/c_zeolit.png){width=80%}
 
 Ada beberapa sifat yang membuat zeolit sangat berharga:
 
 * **Keasaman kuat dan dapat diatur** dengan perbandingan Si/Al. Al terlalu banyak mengurangi kekuatan tiap situs; aturan Löwenstein melarang dua Al bertetangga langsung (Al–O–Al).
 * **Selektivitas bentuk**: hanya molekul yang muat di saluran yang dapat masuk ke situs asam, dan hanya produk yang muat yang dapat keluar. Zeolit ZSM-5 mengubah metanol menjadi bensin dengan hidrokarbon berukuran tertentu, dan memilih *p*-xilena di antara isomer xilena.
 * **Tahan suhu tinggi dan dapat diregenerasi**.
+
+::: {.contoh}
+**Contoh 8.14 · Berapa banyak situs asam?**
+
+Zeolit H-ZSM-5 mempunyai 96 atom T (Si + Al) per sel satuan. Untuk perbandingan Si/Al = 15, hitung (a) jumlah Al, dan karena itu situs asam, per sel satuan; (b) jumlah situs asam per gram (mmol g⁻¹), dengan menganggap setiap atom T membawa dua atom O.
+
+**Penyelesaian.** (a) Si/Al = 15 berarti 1 Al per 16 atom T: 96/16 = **6 situs** per sel satuan. (b) Per 16 atom T ada 15 satuan SiO₂ (60,08 g mol⁻¹) dan satu satuan HAlO₂ (59,99 g mol⁻¹): massa = 15 × 60,08 + 59,99 = 961,2 g per mol situs. Jadi **1,04 mmol g⁻¹**.
+
+**Memahami hasil.** Satu gram zeolit membawa sekitar satu milimol proton yang sangat asam, sebanding dengan kapasitas resin penukar ion. Dengan menaikkan Si/Al (misalnya dengan dealuminasi memakai uap), jumlah situs berkurang tetapi kekuatan setiap situs bertambah, karena situs-situs itu makin terisolasi satu sama lain. Pengaturan Si/Al inilah yang memungkinkan perancang katalis menyetel zeolit untuk reaksi tertentu.
+:::
 
 Katalis perengkahan katalitik fluida (FCC), yang memecah fraksi minyak berat menjadi bensin di hampir setiap kilang minyak dunia, adalah zeolit Y. Selain zeolit, asam padat lain meliputi lempung yang diaktivasi asam, zirkonia tersulfatasi, dan resin penukar ion asam sulfonat. Zeolit juga dipakai sebagai penukar ion dalam deterjen (menggantikan fosfat untuk melunakkan air) dan sebagai penyaring molekul untuk mengeringkan pelarut.
 

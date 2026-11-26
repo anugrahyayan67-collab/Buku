@@ -2,17 +2,17 @@
 
 | Gagasan | Isi pokok | Subbab |
 |---|---|---|
-| Gaya dorong reaksi | Δ*G* = Δ*H* − *T*Δ*S*; Δ*G*° = −*RT* ln *K*; 5,71 kJ mol⁻¹ per satuan p*K* pada 298 K | 8.1 |
+| Gaya dorong reaksi | Δ*G* = Δ*H* − *T*Δ*S*; Δ*G*° = −*RT* ln *K*; 5,71 kJ mol⁻¹ per satuan p*K* pada 298 K; van 't Hoff: ln *K* terhadap 1/*T* bermiring −Δ*H*°/*R*; transfer proton sangat cepat | 8.1 |
 | Definisi asam–basa | Arrhenius (H⁺/OH⁻ dalam air), Brønsted–Lowry (donor/akseptor proton), Lux–Flood (akseptor/donor O²⁻), sistem pelarut, Lewis (akseptor/donor pasangan elektron), Usanovich | 8.2 |
-| *K*~a~ dan p*K*~a~ | p*K*~a~ + p*K*~b~ = 14; makin kuat asam, makin lemah basa konjugat | 8.3 |
-| Asam biner | dalam periode: keelektronegatifan X; dalam golongan: kekuatan ikatan H–X (HF lemah, HI kuat) | 8.4 |
+| *K*~a~ dan p*K*~a~ | p*K*~a~ + p*K*~b~ = 14; afinitas proton fase gas (NH₃ 854, H₂O 691 kJ mol⁻¹); asam poliprotik, spesiasi, Henderson–Hasselbalch, penyangga | 8.2–8.3 |
+| Asam biner | dalam periode: keelektronegatifan X; dalam golongan: kekuatan ikatan H–X (HF lemah, HI kuat); siklus termodinamika: ikatan H–X dan hidrasi X⁻ hampir saling meniadakan, entropi F⁻ menentukan | 8.4 |
 | Asam okso | aturan Pauling: p*K*~a1~ ≈ 8 − 5*p*; tiap disosiasi berikutnya +5; dipakai menentukan struktur H₃PO₃ | 8.5 |
-| Asam aqua | [M(H₂O)~*n*~]^*z*+^ melepas H⁺; keasaman naik dengan *z*²/*r* dan karakter kovalen; aqua → hidrokso → okso | 8.6 |
+| Asam aqua | [M(H₂O)~*n*~]^*z*+^ melepas H⁺; keasaman naik dengan *z*²/*r* dan karakter kovalen; aqua → hidrokso → okso; olasi, oksolasi, polioksometalat; pengendapan hidroksida selektif | 8.6 |
 | Oksida | basa (logam, bilangan oksidasi rendah), asam (nonlogam, bilangan oksidasi tinggi), amfoter (Be, Al, Zn, Sn, Pb, Cr₂O₃) | 8.7 |
-| Efek pelarut | pelevelan: asam terkuat dalam air H₃O⁺, basa terkuat OH⁻; pelarut pembeda (asam asetat, NH₃ cair) | 8.8 |
+| Efek pelarut | pelevelan: asam terkuat dalam air H₃O⁺, basa terkuat OH⁻; pelarut pembeda (asam asetat, NH₃ cair); p*K*~a~ dalam DMSO jauh lebih besar untuk anion kecil | 8.8 |
 | Asam–basa Lewis | HOMO basa → LUMO asam; kation logam, BX₃, SiF₄, CO₂, I₂; rintangan ruang | 8.9 |
 | Golongan 13 dan 14 | BF₃ < BCl₃ < BBr₃ (donasi π); AlCl₃ dimer dan katalis; SiF₄, SnCl₄ menerima ligan | 8.10 |
-| HSAB | keras suka keras, lunak suka lunak; η = (*I* − *A*)/2; mineral, racun logam berat, isomer ikatan | 8.11 |
+| HSAB | keras suka keras, lunak suka lunak; η = (*I* − *A*)/2; persamaan Klopman (muatan lawan orbital); kelarutan perak halida; mineral, racun logam berat | 8.11 |
 | Drago–Wayland | −Δ*H* = *E*~A~*E*~B~ + *C*~A~*C*~B~; urutan basa bergantung asam | 8.12 |
 | Superasam/superbasa | *H*~0~ < −12; HF–SbF₅, HSO₃F–SbF₅; NaNH₂, LDA, BuLi | 8.13 |
 | Asam padat | zeolit: Si–O(H)–Al; Si/Al, selektivitas bentuk, FCC, ZSM-5 | 8.14 |
@@ -160,6 +160,10 @@
 **Soal {{padat}}.** (1) Asam padat mudah dipisahkan dari produk (cukup disaring atau dipakai dalam reaktor unggun tetap) dan dapat diregenerasi dengan pemanasan; asam cair harus dinetralkan, menghasilkan limbah garam. (2) Asam padat jauh lebih aman: HF dan H₂SO₄ pekat sangat korosif dan beracun. (3) Zeolit memberikan selektivitas bentuk yang tidak mungkin dicapai dalam larutan.
 
 *Cara berpikir:* peralihan dari asam cair ke asam padat adalah salah satu contoh terbesar "kimia hijau" dalam industri. Kimia anorganik zat padat (Bab 5) dan kimia asam–basa (bab ini) bertemu di sini.
+
+**Soal {{sikluspka}}.** Δ*G*° = Δ*H*° − *T*Δ*S*°, sehingga *T*Δ*S*° = 7 − 18,1 = −11,1 kJ mol⁻¹ dan Δ*S*° = −11 100/298,15 = **−37 J K⁻¹ mol⁻¹**. Entropi turun karena dua ion terbentuk dari satu molekul netral, dan ion F⁻ yang kecil dengan medan listrik kuat menata banyak molekul air di sekitarnya (demikian pula H₃O⁺). Untuk HI, suku yang sama justru menguntungkan, karena I⁻ yang besar hampir tidak menata air.
+
+*Cara berpikir:* kekuatan asam dalam air tidak dapat dijelaskan dari energi ikatan saja. Siklus termodinamika memisahkan sumbangan ikatan, atom bebas, dan pelarut, dan suku entropi pelarut sering menjadi penentu ketika suku-suku entalpi hampir seimbang.
 
 # Bacaan lanjut
 

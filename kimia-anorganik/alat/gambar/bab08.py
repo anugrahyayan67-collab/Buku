@@ -100,3 +100,32 @@ ax.plot([3, 3], [.2, .62], color=ABU, lw=2); ax.add_patch(Circle((3, .78), .16, 
 ax.text(3, 1.35, 'situs asam Brønsted Si–O(H)–Al', ha='center', fontsize=9, color=JGT); ax.text(4, -1.6, 'Al menggantikan Si: kerangka bermuatan −1, diimbangi H$^+$', ha='center', fontsize=8.5, color=TUA)
 ax.set_xlim(-.8, 6.8); ax.set_ylim(-1.9, 1.6)
 simpan(f, 'c_zeolit')
+# === pendalaman (revisi 2) ===
+# spesiasi asam fosfat
+pk = [2.15, 7.20, 12.35]; pH = np.linspace(0, 14, 400); h = 10 ** -pH; K = [10 ** -p for p in pk]
+t = np.array([h ** 3, h ** 2 * K[0], h * K[0] * K[1], K[0] * K[1] * K[2] * np.ones_like(h)]); t = t / t.sum(0)
+f, ax = plt.subplots(figsize=(6.2, 3.0))
+for y, lab, c in zip(t, ['H$_3$PO$_4$', 'H$_2$PO$_4^-$', 'HPO$_4^{2-}$', 'PO$_4^{3-}$'], [JGT, JG, BIRU, HIJ]): ax.plot(pH, y, color=c, lw=2, label=lab)
+for p in pk: ax.axvline(p, color=ABU, ls=':', lw=.8)
+ax.axvspan(7.35, 7.45, color='#d2553b', alpha=.25); ax.text(7.6, .06, 'darah pH 7,4', fontsize=7.5, color='#d2553b')
+ax.set_xlabel('pH'); ax.set_ylabel('fraksi'); ax.legend(fontsize=8, loc='center left', bbox_to_anchor=(1.01, .5)); ax.set_xlim(0, 14); koma(ax)
+simpan(f, 'a_spesiasi')
+# siklus termodinamika HX: batang kontribusi entalpi
+lab = ['HF', 'HCl', 'HBr', 'HI']; dat = {'HF': (48, 570, 328, 504), 'HCl': (18, 432, 349, 361), 'HBr': (21, 366, 325, 330), 'HI': (23, 298, 295, 285)}
+pka = [3.17, -6, -9, -10]
+f, (a1, a2) = plt.subplots(1, 2, figsize=(7.4, 2.9))
+x = np.arange(4); Dk = [dat[k][1] for k in lab]; hx = [-dat[k][3] for k in lab]
+a1.bar(x - .2, Dk, .4, color=JGT, label='putus ikatan H–X'); a1.bar(x + .2, hx, .4, color=BIRU, label='hidrasi X$^-$')
+a1.axhline(0, color=TUA, lw=.8); a1.set_xticks(x); a1.set_xticklabels(lab); a1.set_ylabel('kJ mol$^{-1}$'); a1.legend(fontsize=7.5, loc='upper right'); koma(a1, 'y')
+a1.set_title('dua suku yang paling berubah', fontsize=8.8, color=TUA)
+dH = [7, -39, -47, -38]; dG = [5.708 * p for p in pka]
+a2.bar(x - .2, dH, .4, color=ABU, label='Δ$H$° siklus'); a2.bar(x + .2, dG, .4, color=HIJ, label='Δ$G$° dari p$K_a$')
+a2.axhline(0, color=TUA, lw=.8); a2.set_xticks(x); a2.set_xticklabels(lab); a2.legend(fontsize=7.5, loc='lower left'); koma(a2, 'y')
+a2.set_title('disosiasi dalam air', fontsize=8.8, color=TUA)
+simpan(f, 'b_siklus')
+# afinitas proton fase gas
+sp = ['CH$_4$', 'H$_2$O', 'H$_2$S', 'PH$_3$', 'NH$_3$', 'piridina', 'Me$_3$N']; pa = [543.5, 691.0, 705.0, 785.0, 853.6, 930.0, 948.9]
+f, ax = plt.subplots(figsize=(5.8, 2.7)); ax.barh(range(len(sp)), pa, color=BIRU, edgecolor=TUA)
+for i, v in enumerate(pa): ax.text(v + 8, i, f'{v:.0f}', va='center', fontsize=7.5)
+ax.set_yticks(range(len(sp))); ax.set_yticklabels(sp); ax.set_xlim(0, 1080); ax.set_xlabel('afinitas proton fase gas (kJ mol$^{-1}$)'); koma(ax, 'x')
+simpan(f, 'a_pa')
