@@ -51,3 +51,20 @@ json.dump(ell, open('/home/user/Buku/kimia-anorganik/bab09/_ellingham.json', 'w'
 dE = 0.816 - (-0.320); print('NADH->O2 dE', round(dE, 3), 'dG', round(-2 * F * dE / 1000, 1), 'kJ; ATP ~ 30,5 kJ ->', round(2 * F * dE / 1000 / 30.5, 1))
 print('korosi Fe pH7 E', round(0.816 - (-0.447), 3))
 print('Zn/Fe galvanis E', round(-0.447 - (-0.762), 3))
+
+# === pendalaman (revisi 2) ===
+import math
+F=96485; R=8.314; T=298.15
+print('E° Daniell dari ΔfG ion: Zn2+ -147.1, Cu2+ +65.5 ->',(65.5+147.1)*1000/(2*F))
+print('titrasi: 25,00 mL Fe2+ butuh 18,40 mL KMnO4 0,02000 M: mol Fe',5*0.01840*0.02,'M',5*0.01840*0.02/0.025,'mg Fe',5*0.01840*0.02*55.845*1000)
+print('sel konsentrasi Cu 0,001 | 1,0 M: E',0.05916/2*math.log10(1/0.001))
+print('elektrolisis Cu 2,00 A 1 jam: g',2*3600/(2*F)*63.546)
+print('K Cu+ disproporsionasi',10**((0.521-0.153)/0.05916))
+print('LiCoO2 kapasitas teoretis penuh mAh/g',F/(97.87*3.6),'setengah',F/(97.87*3.6)/2)
+print('grafit LiC6 mAh/g',F/(6*12.011*3.6))
+print('energi sel LiCoO2/grafit 3,7 V x 140 mAh/g (katode saja) Wh/kg',3.7*140)
+print('sel bahan bakar: dG/dH',237.13/285.83,' E',237.13e3/(2*F))
+print('aki timbal 2,05 V: Wh per kg reaktan (Pb+PbO2+2H2SO4 = 642.6 g per 2e)',2.05*2*F/3600/0.6426)
+print('Ellingham Cr2O3 per mol O2 ΔG298 ~ -705 vs Al -1054.8: termit Cr ΔG',-1054.8+705)
+print('MnO4- pH 7 E',1.507-0.05916*8/5*7)
+print('SCE ke SHE: E(Cu) vs SCE',0.337-0.241)

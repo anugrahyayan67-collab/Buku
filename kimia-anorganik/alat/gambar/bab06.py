@@ -79,3 +79,13 @@ a2.plot(rM, dU, 'o-', color=BIRU); [a2.text(r_ + 3, u_ + 3, l, fontsize=9) for r
 a2.set_xlim(65, 150); a2.set_xlabel('jari-jari M$^{2+}$ (pm)'); a2.set_ylabel('$|U$(MO)$| − |U$(MCO$_3$)$|$ (kJ mol$^{-1}$)'); koma(a2)
 f.subplots_adjust(wspace=.4)
 simpan(f, 'c_karbonat')
+# === pendalaman (revisi 2): energi kisi dan titik leleh ===
+d1 = [('NaF', 873, 993), ('NaCl', 746, 801), ('NaBr', 714, 747), ('NaI', 667, 661)]
+d2 = [('MgO', 3799, 2852), ('CaO', 3432, 2613), ('SrO', 3230, 2531), ('BaO', 3059, 1923)]
+f, (a1, a2) = plt.subplots(1, 2, figsize=(7.2, 2.9))
+for ax, d, c, t in [(a1, d1, BIRU, 'natrium halida (1+, 1−)'), (a2, d2, JGT, 'oksida golongan 2 (2+, 2−)')]:
+    ax.plot([x[1] for x in d], [x[2] for x in d], 'o-', color=c)
+    for n_, u, m in d: ax.text(u + (0 if n_ != 'BaO' else 40), m + (25 if ax is a1 else 45), n_, fontsize=8, ha='center' if n_ != 'BaO' else 'left')
+    ax.set_xlabel('|U| Kapustinskii (kJ mol$^{-1}$)'); ax.set_title(t, fontsize=8.8, color=TUA); koma(ax)
+a1.set_ylabel('titik leleh (°C)'); a1.set_ylim(620, 1060); a2.set_ylim(1800, 3000)
+simpan(f, 'c_leleh')

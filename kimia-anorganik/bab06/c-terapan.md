@@ -20,10 +20,10 @@ Tabel 6.3 Entalpi hidrasi ion (kJ mol⁻¹, 298 K).
 
 Entalpi hidrasi makin negatif untuk ion yang **kecil** dan **bermuatan tinggi**, karena medan listrik di permukaannya lebih kuat dan molekul air dapat mendekat lebih rapat. Secara kasar, Δ~hid~*H* sebanding dengan *z*²/*r*.
 
-![Gambar 6.5 Entalpi kisi (jingga, harus dibayar) dan jumlah entalpi hidrasi kedua ion (biru, diperoleh kembali) untuk lima garam. Keduanya berukuran ratusan kJ mol⁻¹, tetapi entalpi pelarutan terukur (angka di atas) hanya beberapa puluh kJ mol⁻¹.](fig/c_larut.png){width=82%}
+![Gambar 6.6 Entalpi kisi (jingga, harus dibayar) dan jumlah entalpi hidrasi kedua ion (biru, diperoleh kembali) untuk lima garam. Keduanya berukuran ratusan kJ mol⁻¹, tetapi entalpi pelarutan terukur (angka di atas) hanya beberapa puluh kJ mol⁻¹.](fig/c_larut.png){width=82%}
 
 ::: {.contoh}
-**Contoh 6.6 · Entalpi pelarutan dari dua bilangan besar**
+**Contoh 6.7 · Entalpi pelarutan dari dua bilangan besar**
 
 Hitung Δ~lar~*H* untuk NaCl, KCl, LiF, CsF, dan AgCl dengan persamaan (6.7). Entalpi kisi (siklus Born–Haber): NaCl 787, KCl 717, LiF 1049, CsF 744, AgCl 918 kJ mol⁻¹. Entalpi hidrasi dari Tabel 6.3 (Ag⁺: −464). Bandingkan dengan nilai terukur: +3,9; +17,2; +4,9; −36,9; +65,5 kJ mol⁻¹.
 
@@ -76,7 +76,7 @@ $$\text{CaCO}_3(\text{s}) \rightarrow \text{CaO}(\text{s}) + \text{CO}_2(\text{g
 Karbonat logam golongan 2 lainnya mengalami reaksi yang sama, tetapi pada suhu yang sangat berbeda.
 
 ::: {.contoh}
-**Contoh 6.7 · Suhu penguraian karbonat golongan 2**
+**Contoh 6.8 · Suhu penguraian karbonat golongan 2**
 
 Hitung suhu ketika tekanan kesetimbangan CO₂ di atas MCO₃ mencapai 1 bar, untuk M = Mg, Ca, Sr, Ba. Data (Δ~f~*H*° dalam kJ mol⁻¹, *S*° dalam J K⁻¹ mol⁻¹):
 
@@ -109,7 +109,7 @@ Jawabannya ada pada energi kisi. Ketika MCO₃ terurai, anion besar CO₃²⁻ (
 * Bila kation **kecil** (Mg²⁺, 72 pm), jumlah jari-jari berubah dari 250 menjadi 212 pm, perubahan relatif besar (15 %), dan energi kisi naik banyak.
 * Bila kation **besar** (Ba²⁺, 135 pm), jumlah jari-jari berubah dari 313 menjadi 275 pm, perubahan relatif lebih kecil (12 %), dan kenaikan energi kisi lebih kecil.
 
-![Gambar 6.6 Kiri: suhu penguraian karbonat golongan 2 (hitung, *p*(CO₂) = 1 bar) naik dengan jari-jari kation. Kanan: kenaikan energi kisi ketika karbonat berubah menjadi oksida (persamaan Kapustinskii), makin kecil untuk kation yang lebih besar.](fig/c_karbonat.png){width=90%}
+![Gambar 6.7 Kiri: suhu penguraian karbonat golongan 2 (hitung, *p*(CO₂) = 1 bar) naik dengan jari-jari kation. Kanan: kenaikan energi kisi ketika karbonat berubah menjadi oksida (persamaan Kapustinskii), makin kecil untuk kation yang lebih besar.](fig/c_karbonat.png){width=90%}
 
 Persamaan Kapustinskii memberi kenaikan energi kisi sebesar 482 kJ mol⁻¹ untuk Mg dan hanya 325 kJ mol⁻¹ untuk Ba. Kenaikan energi kisi ini "membantu" penguraian: makin besar, makin mudah karbonat terurai. Pandangan lain yang setara memakai aturan Fajans (subbab 1.12): kation kecil bermuatan tinggi mempolarisasi anion karbonat, menarik kerapatan elektron ke arah salah satu oksigen, dan melemahkan ikatan C–O, sehingga CO₂ lebih mudah lepas.
 
@@ -132,15 +132,15 @@ Prinsip ini menjelaskan banyak pengamatan dalam kimia unsur golongan utama:
 
 Kita sekarang mempunyai dua cara untuk mendapatkan energi kisi: **model ionik** (Born–Landé, Born–Mayer, Kapustinskii), yang menganggap ion sebagai bola bermuatan murni, dan **siklus Born–Haber**, yang tidak membuat anggapan apa pun tentang jenis ikatan karena seluruhnya dari data termokimia. Bila keduanya cocok, senyawa itu memang ionik. Bila tidak cocok, selisihnya mengukur seberapa jauh senyawa itu menyimpang dari model ionik.
 
-![Gambar 6.7 Entalpi kisi dari persamaan Born–Landé (model ionik murni) dan dari siklus Born–Haber. Persentase di atas batang adalah selisih relatif. Halida alkali cocok dalam 3–6 %, sedangkan halida perak menyimpang 11–18 %, makin besar dari F ke I.](fig/b_banding.png){width=86%}
+![Gambar 6.8 Entalpi kisi dari persamaan Born–Landé (model ionik murni) dan dari siklus Born–Haber. Persentase di atas batang adalah selisih relatif. Halida alkali cocok dalam 3–6 %, sedangkan halida perak menyimpang 11–18 %, makin besar dari F ke I.](fig/b_banding.png){width=86%}
 
-Dua pola terlihat pada Gambar 6.7:
+Dua pola terlihat pada Gambar 6.8:
 
 1. **Halida alkali**: model ionik selalu sedikit terlalu kecil, sekitar 3–6 %. Selisih ini sistematis, terutama karena model sederhana mengabaikan gaya dispersi antara ion (yang menambah sekitar 2–5 % energi kisi, terbesar untuk ion besar seperti Cs⁺ dan I⁻). Model yang lebih lengkap, dengan suku dispersi dan energi titik nol, cocok dalam 1–2 %.
 2. **Halida perak**: selisihnya jauh lebih besar dan **naik** dari AgF (11 %) ke AgI (18 %). Ini bukan galat model, melainkan tanda energi tambahan yang tidak dimuat model ionik sama sekali: **ikatan kovalen**.
 
 ::: {.contoh}
-**Contoh 6.8 · Mengukur karakter kovalen perak halida**
+**Contoh 6.9 · Mengukur karakter kovalen perak halida**
 
 Hitung entalpi kisi AgCl dengan persamaan Born–Landé (garam batu, *r*₀ = 277,5 pm, *n* = 9,5) dan bandingkan dengan siklus Born–Haber (918 kJ mol⁻¹). Bandingkan dengan NaCl, yang ukuran kationnya hampir sama (Ag⁺ 115 pm, Na⁺ 102 pm).
 

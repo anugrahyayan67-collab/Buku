@@ -208,6 +208,18 @@ Persamaan Kapustinskii juga menunjukkan dengan jelas apa yang menentukan besarny
 Energi kisi sebanding dengan **hasil kali muatan** ion dan **jumlah ion** dalam satuan rumus, dan berbanding terbalik dengan **jumlah jari-jari** ion. Ion kecil bermuatan tinggi menghasilkan kisi yang paling stabil.
 :::
 
+### Energi kisi dan sifat fisis
+
+Energi kisi yang besar berarti ion-ion terikat kuat di tempatnya. Akibatnya terlihat pada sifat fisis yang paling sederhana: titik leleh, kekerasan, dan ketahanan terhadap pelarut.
+
+![Gambar 6.3 Titik leleh terhadap energi kisi Kapustinskii untuk natrium halida (kiri) dan oksida golongan 2 (kanan). Di dalam setiap deret, titik leleh naik bersama energi kisi; oksida bermuatan 2+/2− meleleh jauh lebih tinggi daripada halida 1+/1−.](fig/c_leleh.png){width=88%}
+
+Dalam setiap deret senyawa sejenis, titik leleh naik bersama energi kisi (Gambar 6.3): NaI (661 °C) < NaBr < NaCl < NaF (993 °C), dan BaO (1923 °C) < SrO < CaO < MgO (2852 °C). Lompatan dari halida ke oksida, dari sekitar 800 °C ke lebih dari 2500 °C, mencerminkan faktor muatan empat kali lipat dalam persamaan (6.5). Itulah sebabnya MgO dan CaO dipakai sebagai bata tahan api untuk melapisi tanur baja, dan sebabnya Al₂O₃ (energi kisi lebih dari 15 000 kJ mol⁻¹) begitu keras sehingga dipakai sebagai amplas dan, dalam bentuk kristal tunggalnya, sebagai safir dan rubi.
+
+::: {.awas}
+**Awas: titik leleh bukan ukuran energi kisi.** Pelelehan tidak memisahkan ion menjadi gas; ia hanya merusak keteraturan jarak jauh, sedangkan ion-ion dalam lelehan tetap dikelilingi ion berlawanan. Entalpi peleburan NaCl hanya 28 kJ mol⁻¹, sekitar 4 % energi kisinya. Karena itu korelasi pada Gambar 6.3 hanya berlaku di dalam deret yang strukturnya sama. Untuk senyawa dengan struktur berbeda atau ikatan yang cukup kovalen, titik leleh dapat menyimpang jauh: AlCl₃ yang secara formal "3+/1−" menyublim pada 180 °C, karena padatannya berlapis dan uapnya terdiri atas molekul Al₂Cl₆.
+:::
+
 ::: {.kuis}
 **Kuis cepat 6.4** Urutkan entalpi kisi tanpa menghitung, lalu periksa dengan persamaan Kapustinskii: NaF, NaCl, MgF₂, Na₂O.
 :::

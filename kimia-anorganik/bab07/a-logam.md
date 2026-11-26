@@ -50,6 +50,16 @@ Sekitar tiga perempat unsur adalah logam. Logam mempunyai sifat-sifat yang langs
 
 Keempat sifat ini dapat dijelaskan dengan gambaran sederhana: logam adalah kisi kation yang terendam dalam "lautan" elektron valensi yang bebas bergerak ke seluruh kristal. Elektron bebas menghantarkan listrik dan panas; elektron bebas pula yang menyerap lalu memancarkan kembali cahaya pada semua panjang gelombang tampak, sehingga logam berkilau. Karena ikatan logam tidak terarah, lapisan-lapisan atom dapat bergeser satu terhadap yang lain tanpa memutus ikatan: logam dapat ditempa. Bandingkan dengan kristal ionik (Bab 6), yang pecah ketika lapisan bergeser karena ion sejenis menjadi bertetangga.
 
+::: {.contoh}
+**Contoh 7.1 · Hukum Wiedemann–Franz untuk tembaga**
+
+Hukum Wiedemann–Franz menyatakan κ/σ*T* = *L*, dengan *L* = 2,44 × 10⁻⁸ W Ω K⁻² (bilangan Lorenz), κ konduktivitas panas, dan σ konduktivitas listrik. Konduktivitas listrik tembaga pada 300 K adalah 5,96 × 10⁷ S m⁻¹. Ramalkan konduktivitas panasnya dan bandingkan dengan nilai terukur 401 W m⁻¹ K⁻¹.
+
+**Penyelesaian.** κ = *L*σ*T* = 2,44 × 10⁻⁸ × 5,96 × 10⁷ × 300 = **436 W m⁻¹ K⁻¹**, sekitar 9 % di atas nilai terukur.
+
+**Memahami hasil.** Kesesuaian sebaik ini hanya mungkin bila panas dan listrik dibawa oleh partikel yang sama: elektron bebas. Bilangan Lorenz bahkan dapat diturunkan dari teori kuantum elektron dalam logam, (π²/3)(*k*/*e*)², tanpa satu pun parameter empiris. Isolator yang baik dapat juga menghantarkan panas dengan sangat baik (intan, sekitar 2000 W m⁻¹ K⁻¹), tetapi lewat getaran kisi, bukan elektron; karena itu intan dan logam tidak mengikuti hukum yang sama.
+:::
+
 ### Struktur logam
 
 Sebagian besar logam mengadopsi salah satu dari tiga struktur yang dibahas di Bab 5: ccp (Cu, Ag, Au, Al, Ni, Pt, Pb), hcp (Mg, Zn, Ti, Co, Cd), atau bcc (logam alkali, Fe, Cr, Mo, W, V). Ketiganya berbeda energi hanya sedikit, sehingga struktur yang dipilih bergantung pada detail jumlah elektron d dan s, dan banyak logam berubah struktur dengan suhu atau tekanan. Logam yang paling mudah ditempa (Au, Ag, Cu, Al, Pt) hampir semuanya ccp, karena ccp mempunyai empat arah bidang kemasan rapat yang dapat bergeser, sedangkan hcp hanya satu.
@@ -104,7 +114,7 @@ Bila kedua logam berbeda cukup jauh dalam ukuran atau keelektronegatifan, yang t
 Hume-Rothery juga menemukan bahwa pada paduan tembaga, perak, dan emas dengan logam bervalensi lebih tinggi, struktur yang terbentuk ditentukan oleh **konsentrasi elektron** *e*/*a*, yaitu jumlah elektron valensi rata-rata per atom, bukan oleh unsur-unsurnya. Struktur bcc (fasa β) muncul pada *e*/*a* = 3/2, fasa γ yang rumit pada 21/13, dan fasa ε (hcp) pada 7/4. Paduan seperti ini disebut **senyawa elektron**.
 
 ::: {.contoh}
-**Contoh 7.1 · Konsentrasi elektron pada kuningan dan perunggu**
+**Contoh 7.2 · Konsentrasi elektron pada kuningan dan perunggu**
 
 Hitung *e*/*a* untuk CuZn, Cu₅Zn₈, CuZn₃, Cu₅Sn, Cu₃₁Sn₈, dan Cu₃Sn, dengan elektron valensi Cu = 1, Zn = 2, Sn = 4. Kelompokkan menurut fasa Hume-Rothery.
 

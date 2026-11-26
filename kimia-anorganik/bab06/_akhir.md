@@ -6,8 +6,8 @@
 | Tetapan Madelung | *A* bergantung hanya pada geometri; NaCl 1,74756, CsCl 1,76267, ZnS 1,63806, CaF₂ 2,51939; dijumlahkan dengan kubus netral (Evjen) | 6.2 |
 | Born–Landé | *U* = −*N*~A~*A*\|*z*₊*z*₋\|*e*²/(4πε₀*r*₀) × (1 − 1/*n*); *n* = 5 (He) … 12 (Xe) | 6.3 |
 | Born–Mayer | faktor (1 − ρ/*r*₀), ρ = 34,5 pm | 6.3 |
-| Kapustinskii | *U* = −1,2025 × 10⁵ ν\|*z*₊*z*₋\|/(*r*₊ + *r*₋) × (1 − 34,5/(*r*₊ + *r*₋)); tanpa struktur; *U* ∝ muatan × jumlah ion / jumlah jari-jari | 6.4 |
-| Born–Haber | Δ~f~*H*° = Δ~sub~*H* + ½*D* + *I* + Δ~eg~*H* − Δ~kisi~*H*; NaCl 788 kJ mol⁻¹; energi kisi adalah gaya pendorong | 6.5 |
+| Kapustinskii | *U* = −1,2025 × 10⁵ ν\|*z*₊*z*₋\|/(*r*₊ + *r*₋) × (1 − 34,5/(*r*₊ + *r*₋)); tanpa struktur; *U* ∝ muatan × jumlah ion / jumlah jari-jari; titik leleh naik bersama *U* dalam satu deret (NaI < … < NaF; BaO < … < MgO) | 6.4 |
+| Born–Haber | Δ~f~*H*° = Δ~sub~*H* + ½*D* + *I* + Δ~eg~*H* − Δ~kisi~*H*; NaCl 788 kJ mol⁻¹; energi kisi adalah gaya pendorong; NH₄Cl 718 ≈ KCl 717 kJ mol⁻¹ (NH₄⁺ seukuran K⁺) | 6.5 |
 | Anion bermuatan tinggi | O → O²⁻ memerlukan ≈ +610 kJ mol⁻¹; O²⁻ hanya ada di kisi | 6.5 |
 | Senyawa hipotetis | MgCl terdisproporsionasi; MgCl₃ +4257 kJ mol⁻¹; NeCl +1108; penalaran Bartlett untuk XePtF₆ | 6.6 |
 | Kelarutan | Δ~lar~*H* = Δ~kisi~*H* + ΣΔ~hid~*H*; selisih kecil dua bilangan besar; ion berbeda ukuran mudah larut | 6.7 |
@@ -124,6 +124,10 @@
 **Soal {{agi}}.** AgF: (974 − 871)/974 = **11 %**. AgI: (892 − 735)/892 = **18 %**. Dari F⁻ ke I⁻, polarisabilitas anion naik tajam. Ag⁺ mempolarisasi anion yang mudah terpolarisasi dengan lebih efektif, sehingga ikatan makin kovalen dan memberi kestabilan tambahan yang makin besar, yang tidak dimuat model ionik.
 
 *Cara berpikir:* selisih energi kisi hitung–ukur, kelarutan (AgF larut, AgI sangat sukar larut), warna (putih ke kuning), dan struktur (AgI berubah ke wurtzit) adalah empat pengamatan berbeda yang semuanya menunjuk ke kesimpulan yang sama: karakter kovalen naik dari AgF ke AgI.
+
+**Soal {{nh4}}.** Δ~f~*H*°(NH₄⁺, g) = −45,9 + 1536,2 − 853,6 = **+636,7 kJ mol⁻¹**. Entalpi kisi NH₄Br = 636,7 + (−219,1) − (−270,8) = **688 kJ mol⁻¹**, hampir sama dengan KBr (691).
+
+*Cara berpikir:* siklus Born–Haber tidak terbatas pada ion monoatomik. Asalkan entalpi pembentukan ion gas diketahui (di sini lewat afinitas proton), entalpi kisi garam ion poliatomik dapat dihitung, lalu dipakai untuk menaksir "ukuran" ion itu. Kemiripan dengan garam kalium menjelaskan mengapa garam amonium dan kalium sering membentuk kristal yang isomorf.
 
 # Bacaan lanjut
 

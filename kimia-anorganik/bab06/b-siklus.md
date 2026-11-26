@@ -16,7 +16,7 @@ atau lewat lima langkah:
 4. **Penangkapan elektron** oleh klorin: Cl(g) + e⁻ → Cl⁻(g), Δ~eg~*H* = −348,6 kJ mol⁻¹ (afinitas elektron 348,6 kJ mol⁻¹).
 5. **Pembentukan kisi**: Na⁺(g) + Cl⁻(g) → NaCl(s), −Δ~kisi~*H*.
 
-![Gambar 6.3 Siklus Born–Haber untuk NaCl. Tiga langkah pertama (biru) memerlukan energi; penangkapan elektron oleh Cl dan pembentukan kisi (jingga) melepaskan energi. Jumlah semua langkah sama dengan entalpi pembentukan (hijau).](fig/b_bornhaber.png){width=82%}
+![Gambar 6.4 Siklus Born–Haber untuk NaCl. Tiga langkah pertama (biru) memerlukan energi; penangkapan elektron oleh Cl dan pembentukan kisi (jingga) melepaskan energi. Jumlah semua langkah sama dengan entalpi pembentukan (hijau).](fig/b_bornhaber.png){width=82%}
 
 Kedua jalan harus memberi perubahan entalpi yang sama:
 
@@ -57,6 +57,16 @@ Karena penangkapan elektron pertama melepaskan 141 kJ mol⁻¹, penangkapan elek
 **Kuis cepat 6.5** Hitung entalpi kisi KCl dari data: Δ~sub~*H*(K) = 89,0; *I*₁(K) = 418,8; ½*D*(Cl–Cl) = 121,7; Δ~eg~*H*(Cl) = −348,6; Δ~f~*H*°(KCl) = −436,5 kJ mol⁻¹. Mengapa entalpi kisi KCl lebih kecil daripada NaCl, padahal Δ~f~*H*° KCl lebih negatif?
 :::
 
+::: {.contoh}
+**Contoh 6.5 · Ion amonium yang menyamar sebagai kalium**
+
+Energi pembentukan ion NH₄⁺ gas dapat dihitung dari afinitas proton amonia (853,6 kJ mol⁻¹, subbab 8.2): Δ~f~*H*°(NH₄⁺, g) = Δ~f~*H*°(NH₃, g) + Δ~f~*H*°(H⁺, g) − PA, dengan Δ~f~*H*°(NH₃, g) = −45,9 dan Δ~f~*H*°(H⁺, g) = 1536,2 kJ mol⁻¹. Dengan Δ~f~*H*°(Cl⁻, g) = −233,1 dan Δ~f~*H*°(NH₄Cl, s) = −314,4 kJ mol⁻¹, hitung entalpi kisi NH₄Cl dan bandingkan dengan KCl (717 kJ mol⁻¹) dan RbCl (sekitar 692 kJ mol⁻¹).
+
+**Penyelesaian.** Δ~f~*H*°(NH₄⁺, g) = −45,9 + 1536,2 − 853,6 = **+636,7 kJ mol⁻¹**. Entalpi kisi = Δ~f~*H*°(NH₄⁺, g) + Δ~f~*H*°(Cl⁻, g) − Δ~f~*H*°(NH₄Cl, s) = 636,7 − 233,1 + 314,4 = **718 kJ mol⁻¹**.
+
+**Memahami hasil.** Entalpi kisi NH₄Cl hampir tepat sama dengan KCl. Persamaan Kapustinskii menyatakan bahwa energi kisi garam 1+/1− dengan anion sama hanya ditentukan oleh jari-jari kation; jadi ion NH₄⁺ berukuran hampir sama dengan K⁺ (sekitar 140–150 pm), walaupun ia ion poliatomik. Kimia mengonfirmasi hal ini: garam amonium sering **isomorf** dengan garam kalium dan rubidium (NH₄ClO₄ dan KClO₄, tawas amonium dan tawas kalium), dan kelarutannya mirip. Inilah contoh nyata "jari-jari termokimia" ion poliatomik yang disebut di subbab 6.4.
+:::
+
 ## 6.6 Menguji senyawa hipotetis: NeCl, MgCl, dan CaCl
 
 Kini kita dapat menjawab teka-teki pembuka. Siklus Born–Haber dapat dijalankan **ke arah sebaliknya**: bila energi kisi diperkirakan dengan persamaan Kapustinskii, entalpi pembentukan senyawa yang belum pernah dibuat dapat dihitung. Bila hasilnya sangat positif, senyawa itu tidak akan terbentuk.
@@ -72,7 +82,7 @@ Kini kita dapat menjawab teka-teki pembuka. Siklus Born–Haber dapat dijalankan
 :::
 
 ::: {.contoh}
-**Contoh 6.5 · Mengapa MgCl₂, bukan MgCl atau MgCl₃?**
+**Contoh 6.6 · Mengapa MgCl₂, bukan MgCl atau MgCl₃?**
 
 Hitung Δ~f~*H*° untuk MgCl, MgCl₂, dan MgCl₃ dengan persamaan Kapustinskii. Anggap Mg⁺ seukuran Na⁺ (102 pm), Mg²⁺ 72 pm, Mg³⁺ 60 pm, Cl⁻ 181 pm. Data Mg: Δ~sub~*H* = 147,1; *I*₁ = 737,7; *I*₂ = 1450,7; *I*₃ = 7732,7 kJ mol⁻¹. Cl: ½*D* = 121,7; Δ~eg~*H* = −348,6 kJ mol⁻¹. Lalu periksa apakah MgCl stabil terhadap 2MgCl(s) → Mg(s) + MgCl₂(s), dengan Δ~f~*H*°(MgCl₂) terukur −641,3 kJ mol⁻¹.
 
@@ -90,7 +100,7 @@ Entalpi pembentukan, Δ~f~*H*° = Δ~sub~*H* + Σ*I* + *m*(½*D* + Δ~eg~*H*) + 
 
 Disproporsionasi: Δ*H* = −641,3 − 2(−88) = **−465 kJ** per 2 mol MgCl.
 
-![Gambar 6.4 Entalpi pembentukan MgCl, MgCl₂, dan MgCl₃ hasil perhitungan dengan persamaan Kapustinskii. Hanya MgCl₂ yang cukup stabil; MgCl₃ sangat tidak mungkin karena energi ionisasi ketiga magnesium memerlukan pembongkaran kulit dalam.](fig/c_hipotetis.png){width=64%}
+![Gambar 6.5 Entalpi pembentukan MgCl, MgCl₂, dan MgCl₃ hasil perhitungan dengan persamaan Kapustinskii. Hanya MgCl₂ yang cukup stabil; MgCl₃ sangat tidak mungkin karena energi ionisasi ketiga magnesium memerlukan pembongkaran kulit dalam.](fig/c_hipotetis.png){width=64%}
 
 **Memahami hasil.** MgCl sebenarnya stabil terhadap unsur-unsurnya (Δ~f~*H*° negatif), tetapi MgCl₂ **jauh** lebih stabil. Energi ionisasi kedua yang besar (1451 kJ mol⁻¹) dibayar lunas oleh kenaikan energi kisi: dari 746 menjadi 2463 kJ mol⁻¹, karena muatan kation berlipat dua, ukurannya mengecil, dan jumlah ion bertambah. Sebaliknya, energi ionisasi ketiga (7733 kJ mol⁻¹) memerlukan pengambilan elektron dari kulit 2p yang penuh dan dekat inti, dan tidak ada kenaikan energi kisi yang dapat membayarnya. Inilah penjelasan energetika untuk "valensi" magnesium. Perhitungan Kapustinskii untuk MgCl₂ meleset 60 kJ mol⁻¹ (9 %), tetapi kesimpulannya tidak terpengaruh, karena selisih antarpilihan berukuran ratusan sampai ribuan kJ.
 :::

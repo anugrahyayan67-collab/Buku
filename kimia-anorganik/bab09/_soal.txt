@@ -9,6 +9,7 @@ Setarakan dalam basa: Cr(OH)₄⁻ + H₂O₂ → CrO₄²⁻ + H₂O. ||| 2Cr(O
 @tio [P] Setarakan reaksi iodometri: I₂ + S₂O₃²⁻ → I⁻ + S₄O₆²⁻. Mengapa tiosulfat disebut berubah bilangan oksidasinya "setengah"? ||| I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻; S rata-rata +2 → +2,5
 Mengapa H₂O₂ dapat bertindak sebagai oksidator maupun reduktor? ||| O bilangan oksidasi −1, di antara 0 (O₂) dan −2 (H₂O)
 Setarakan dalam asam: MnO₄⁻ + C₂O₄²⁻ → Mn²⁺ + CO₂. ||| 2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O
+Sebanyak 20,00 mL larutan K₂Cr₂O₇ 0,01667 mol L⁻¹ tepat bereaksi dengan Fe²⁺ dalam asam. Tuliskan reaksinya dan hitung mol Fe²⁺. ||| Cr₂O₇²⁻ + 6Fe²⁺ + 14H⁺ → 2Cr³⁺ + 6Fe³⁺ + 7H₂O; 2,000 × 10⁻³ mol
 
 ## Subbab 9.2: Sel galvani, potensial elektrode, dan deret elektrokimia
 
@@ -20,6 +21,8 @@ Mengapa potensial elektrode hidrogen ditetapkan nol? ||| konvensi; hanya beda po
 Sebutkan tiga oksidator dan tiga reduktor terkuat dalam Tabel 9.1. ||| F₂, Co³⁺, H₂O₂; Li, Na, Mg
 @aki [P] Aki timbal memakai reaksi Pb + PbO₂ + 2H₂SO₄ → 2PbSO₄ + 2H₂O dengan *E*°~sel~ = 2,05 V. Berapa Δ*G*° per mol Pb dan berapa sel yang dirangkai untuk aki 12 V? ||| −396 kJ mol⁻¹ (n = 2); 6 sel
 Hitung *E*° dan *K* untuk Zn + 2Ag⁺ → Zn²⁺ + 2Ag. ||| 1,562 V; 6 × 10⁵²
+Dengan Δ~f~*G*° Ag⁺(aq) = +77,1 kJ mol⁻¹, hitung *E*°(Ag⁺/Ag). ||| +0,799 V
+Sebuah elektrode diukur −0,450 V terhadap SCE. Berapa potensialnya terhadap SHE? ||| −0,209 V
 
 ## Subbab 9.3: Persamaan Nernst: pengaruh konsentrasi, pH, dan kompleksasi
 
@@ -31,6 +34,8 @@ Hitung *E*° untuk [Cu(NH₃)₄]²⁺/Cu (β₄ = 1,1 × 10¹³). ||| −0,046 
 Mengapa emas larut dalam air raja tetapi tidak dalam HNO₃ saja? ||| Cl⁻ membentuk [AuCl₄]⁻, menurunkan E(Au³⁺/Au) sampai terjangkau HNO₃
 Hitung *E*~sel~ Daniell bila [Zn²⁺] = 1,0 dan [Cu²⁺] = 0,010 mol L⁻¹. ||| 1,043 V
 Mengapa [Fe(CN)₆]³⁻ oksidator yang lebih lemah daripada Fe³⁺(aq)? ||| CN⁻ mengikat Fe³⁺ jauh lebih kuat daripada Fe²⁺; E turun ke 0,36 V
+Hitung potensial istirahat membran (37 °C) bila [K⁺] di dalam sel 30 kali di luar. ||| ≈ −91 mV
+Berapa mV perubahan potensial elektrode kaca bila pH berubah 2 satuan pada 25 °C? ||| 118 mV
 
 ## Subbab 9.4: Kestabilan dalam air: jendela kestabilan dan overpotensial
 
@@ -41,6 +46,7 @@ Mengapa natrium logam dibuat dari lelehan NaCl, bukan larutan air? ||| Na⁺/Na 
 Apa yang dimaksud dengan overpotensial? Mengapa ia penting dalam produksi hidrogen dari air? ||| potensial tambahan untuk laju berarti; elektrokatalis diperlukan untuk mengurangi pemborosan energi
 Mengapa larutan Co³⁺ dalam air tidak dapat disimpan lama? ||| E° 1,92 V > 1,23 V: mengoksidasi air menjadi O₂
 Mengapa seng dapat diendapkan secara elektrolisis dari larutan asam? ||| overpotensial H₂ pada seng besar (≈ 0,7 V)
+Berapa gram perak terendapkan oleh arus 0,500 A selama 30,0 menit? ||| 1,01 g
 
 ## Subbab 9.5: Diagram Latimer
 
@@ -84,10 +90,11 @@ Apa kegunaan diagram Pourbaix bagi ahli lingkungan? ||| meramalkan bentuk unsur 
 Mengapa garis oksidasi logam pada diagram Ellingham umumnya naik dengan suhu? ||| ΔS° negatif (O₂ gas dikonsumsi)
 Mengapa garis 2C + O₂ → 2CO turun dengan suhu? ||| 1 mol gas → 2 mol gas, ΔS° positif
 @termit [P] Dengan diagram Ellingham, jelaskan reaksi termit 2Al + Fe₂O₃ → Al₂O₃ + 2Fe. Hitung Δ*G*° per mol O₂ yang dipindahkan pada 298 K (Al₂O₃: −1054,8; Fe₂O₃ per mol O₂: −494,9 kJ). ||| garis Al₂O₃ jauh di bawah Fe₂O₃; ΔG° ≈ −560 kJ per mol O₂
-Hitung suhu ketika C/CO memotong garis FeO (Δ*H*°, Δ*S*° di Contoh 9.8). ||| 1019 K
+Hitung suhu ketika C/CO memotong garis FeO (Δ*H*°, Δ*S*° di Contoh 9.12). ||| 1019 K
 Pada suhu berapa Ag₂O terurai menjadi Ag dan O₂ (Δ*H*° = −62,2 kJ, Δ*S*° = −132,8 J K⁻¹ per mol O₂)? ||| 468 K
 Mengapa aluminium diproduksi dengan elektrolisis, bukan reduksi karbon? ||| C/CO memotong Al₂O₃ di atas 2300 K; terlalu tinggi, terbentuk karbida
 Mengapa daur ulang aluminium sangat hemat energi? ||| melelehkan ≈ 5 % energi produksi elektrolisis
+Mengapa titanium diproduksi dengan proses Kroll dan tidak dengan reduksi karbon? ||| TiO₂ sangat stabil; Ti membentuk karbida/nitrida; lewat TiCl₄ + Mg
 
 ## Subbab 9.10: Redoks di alam: korosi, lingkungan, dan biologi
 
@@ -97,3 +104,6 @@ Mengapa garam jalan mempercepat korosi mobil? ||| menaikkan konduktivitas air; C
 Hitung Δ*G*°' untuk pemindahan dua elektron dari NADH ke FAD (*E*°' −0,32 dan −0,22 V). ||| −19,3 kJ mol⁻¹
 Mengapa rantai pernapasan memindahkan elektron bertahap, bukan sekaligus? ||| energi dilepas dalam paket kecil yang dapat ditangkap (pompa proton → ATP), mengurangi panas terbuang
 Sebutkan urutan oksidator yang dipakai mikroorganisme setelah O₂ habis. ||| nitrat, Mn(IV), Fe(III), sulfat, CO₂
+
+Hitung kapasitas spesifik teoretis LiFePO₄ (*M* = 157,76 g mol⁻¹, satu Li per satuan rumus). ||| 170 mA h g⁻¹
+@sbb [P] Mengapa efisiensi maksimum sel bahan bakar hidrogen (83 %) tidak dibatasi efisiensi Carnot, sedangkan pembangkit listrik termal dibatasi? ||| sel mengubah ΔG langsung menjadi kerja listrik; mesin panas mengubah kalor

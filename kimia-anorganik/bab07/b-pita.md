@@ -23,6 +23,14 @@ Setiap jenis orbital atom menghasilkan pitanya sendiri. Pada logam, orbital s da
 
 Bila dua pita cukup lebar, keduanya dapat **bertumpang tindih**. Inilah sebabnya magnesium dan berilium adalah logam. Magnesium mempunyai konfigurasi 3s², sehingga pita 3s-nya (dua elektron per orbital) seharusnya penuh, dan padatan seharusnya isolator. Namun pita 3s dan 3p bertumpang tindih, sehingga elektron sebagian mengisi pita 3p, dan kedua pita sama-sama terisi sebagian.
 
+### Distorsi Peierls: mengapa rantai logam satu dimensi jarang ada
+
+Rantai atom H dengan satu elektron per atom seharusnya menjadi logam: pita s-nya terisi setengah. Namun rantai seperti itu tidak stabil. Rudolf Peierls menunjukkan bahwa rantai satu dimensi yang pitanya terisi sebagian selalu dapat menurunkan energinya dengan **mendistorsi** diri: atom-atom berpasangan menjadi ikatan pendek dan panjang yang berselang-seling. Dengan dua integral resonansi berbeda, β₁ untuk ikatan pendek dan β₂ untuk ikatan panjang, pita terbelah menjadi dua, dengan celah 2|β₁ − β₂| tepat di tingkat Fermi.
+
+![Gambar 7.3 Kiri: rantai seragam dengan satu elektron per atom, pita terisi setengah (logam). Kanan: ikatan berselang pendek–panjang membelah pita; orbital terisi turun energinya dan muncul celah di tingkat Fermi (isolator atau semikonduktor).](fig/b_peierls.png){width=80%}
+
+Elektron yang semuanya berada di pita bawah mendapat penurunan energi, sedangkan pita atas yang naik kosong. Inilah sebabnya rantai H yang panjang tidak ada: ia "mendistorsi" sampai ekstrem, menjadi molekul-molekul H₂ yang terpisah. Contoh yang lebih menarik adalah **poliasetilena**, (CH)~*n*~: setiap atom C menyumbang satu elektron π, sehingga sistem π-nya seharusnya logam, tetapi ikatan rangkap dan tunggal yang berselang-seling membuatnya semikonduktor dengan celah sekitar 1,5 eV. Alan Heeger, Alan MacDiarmid, dan Hideki Shirakawa menemukan (1977) bahwa poliasetilena yang didoping iodin (yang menarik elektron dari pita π) menghantarkan listrik hampir seperti logam, penemuan yang membuka bidang polimer konduktif (Hadiah Nobel Kimia 2000). Dalam tiga dimensi, distorsi seperti ini biasanya tidak menguntungkan, karena tidak mungkin membuka celah di seluruh permukaan Fermi sekaligus; itulah sebabnya logam tiga dimensi stabil.
+
 ::: {.kuis}
 **Kuis cepat 7.3** Satu mol litium membentuk satu pita 2s dengan 6 × 10²³ orbital. Berapa elektron yang mengisi pita itu, dan berapa bagian pita yang terisi?
 :::
@@ -38,7 +46,7 @@ $$E_\text{F} = \frac{\hbar^2}{2m_\text{e}}\left(3\pi^2 n\right)^{2/3} \qquad \te
 dengan *n* jumlah elektron bebas per satuan volume.
 
 ::: {.contoh}
-**Contoh 7.2 · Energi Fermi tembaga dan natrium**
+**Contoh 7.3 · Energi Fermi tembaga dan natrium**
 
 Hitung energi Fermi tembaga (ccp, *a* = 361,5 pm, satu elektron valensi per atom) dan natrium (bcc, *a* = 429,1 pm, satu elektron per atom). Bandingkan dengan energi termal *kT* pada 300 K.
 
@@ -51,6 +59,16 @@ Natrium: 2 atom per sel, *n* = 2,53 × 10²⁸ m⁻³, *E*~F~ = **3,1 eV**. Pada
 **Memahami hasil.** Energi Fermi beberapa eV, sekitar 270 kali *kT* pada suhu kamar. Elektron teratas dalam tembaga bergerak dengan kelajuan 1,6 × 10⁶ m s⁻¹, bahkan pada 0 K, karena larangan Pauli memaksa elektron-elektron menempati orbital dengan energi kinetik makin tinggi. Model ini sangat sederhana, mengabaikan inti dan tolakan antarelektron, tetapi untuk logam alkali dan logam mulia hasilnya cocok dengan pengukuran dalam beberapa puluh persen.
 :::
 
+::: {.contoh}
+**Contoh 7.4 · Seberapa jauh elektron bergerak sebelum terhambur?**
+
+Dalam model Drude, konduktivitas logam adalah σ = *ne*²τ/*m*~e~, dengan τ waktu rata-rata antara dua hamburan. Untuk tembaga (σ = 5,96 × 10⁷ S m⁻¹, *n* = 8,47 × 10²⁸ m⁻³, *E*~F~ = 7,0 eV), hitung τ dan **lintasan bebas rata-rata** ℓ = *v*~F~τ, dengan *v*~F~ kelajuan elektron di tingkat Fermi.
+
+**Penyelesaian.** τ = σ*m*~e~/(*ne*²) = 5,96 × 10⁷ × 9,109 × 10⁻³¹/(8,47 × 10²⁸ × (1,602 × 10⁻¹⁹)²) = **2,5 × 10⁻¹⁴ s**. *v*~F~ = √(2*E*~F~/*m*~e~) = 1,57 × 10⁶ m s⁻¹. ℓ = 1,57 × 10⁶ × 2,5 × 10⁻¹⁴ = **3,9 × 10⁻⁸ m = 39 nm**.
+
+**Memahami hasil.** Sebuah elektron dalam tembaga melewati sekitar 150 atom sebelum terhambur. Bila elektron adalah partikel klasik yang menabrak setiap ion, lintasan bebasnya hanya sekitar jarak antaratom. Mekanika kuantum menjelaskan perbedaannya: elektron adalah gelombang, dan gelombang dalam kisi yang **sempurna** dan periodik tidak terhambur sama sekali. Hamburan hanya terjadi oleh ketidaksempurnaan: getaran termal kisi (yang membuat hambatan naik dengan suhu), atom pengotor, dan cacat (subbab 5.9). Itulah sebabnya hambatan tembaga yang sangat murni pada suhu helium cair bisa ribuan kali lebih kecil daripada pada suhu kamar, dan sebabnya kawat tembaga untuk listrik harus sangat murni (subbab 9.4).
+:::
+
 ### Fungsi Fermi–Dirac
 
 Pada suhu di atas 0 K, sebagian elektron di dekat *E*~F~ tereksitasi ke orbital di atasnya. Peluang sebuah orbital berenergi *E* terisi diberikan oleh **fungsi Fermi–Dirac**:
@@ -59,9 +77,9 @@ $$f(E) = \frac{1}{e^{(E - E_\text{F})/kT} + 1} \qquad \text{(7.3)}$$
 
 Pada *E* = *E*~F~, peluangnya tepat ½. Jauh di bawah *E*~F~, hampir 1; jauh di atas, hampir 0. Lebar daerah peralihan hanya beberapa *kT*.
 
-![Gambar 7.3 Kiri: kerapatan keadaan elektron bebas (sebanding √*E*), terisi sampai tingkat Fermi. Kanan: fungsi Fermi–Dirac pada beberapa suhu. Pada suhu kamar, hanya elektron dalam beberapa *kT* di sekitar *E*~F~ yang dapat berpindah ke orbital kosong.](fig/b_dos.png){width=96%}
+![Gambar 7.4 Kiri: kerapatan keadaan elektron bebas (sebanding √*E*), terisi sampai tingkat Fermi. Kanan: fungsi Fermi–Dirac pada beberapa suhu. Pada suhu kamar, hanya elektron dalam beberapa *kT* di sekitar *E*~F~ yang dapat berpindah ke orbital kosong.](fig/b_dos.png){width=96%}
 
-Gambar 7.3 menjelaskan teka-teki lama. Menurut fisika klasik, setiap elektron bebas seharusnya menyerap panas seperti atom gas (³⁄₂*k* per elektron), sehingga logam seharusnya mempunyai kapasitas panas jauh lebih besar daripada isolator. Kenyataannya tidak. Hanya elektron yang berada dalam beberapa *kT* dari *E*~F~ yang dapat naik ke orbital kosong; elektron yang lebih dalam tidak mempunyai tempat kosong di dekatnya untuk dituju. Pada suhu kamar, kurang dari 1 % elektron valensi yang "aktif" (kira-kira *kT*/*E*~F~). Prinsip yang sama berlaku untuk konduksi: **hanya elektron di dekat tingkat Fermi yang dapat menghantarkan listrik**, karena hanya mereka yang dapat dipercepat ke orbital kosong dengan energi sedikit lebih tinggi.
+Gambar 7.4 menjelaskan teka-teki lama. Menurut fisika klasik, setiap elektron bebas seharusnya menyerap panas seperti atom gas (³⁄₂*k* per elektron), sehingga logam seharusnya mempunyai kapasitas panas jauh lebih besar daripada isolator. Kenyataannya tidak. Hanya elektron yang berada dalam beberapa *kT* dari *E*~F~ yang dapat naik ke orbital kosong; elektron yang lebih dalam tidak mempunyai tempat kosong di dekatnya untuk dituju. Pada suhu kamar, kurang dari 1 % elektron valensi yang "aktif" (kira-kira *kT*/*E*~F~). Prinsip yang sama berlaku untuk konduksi: **hanya elektron di dekat tingkat Fermi yang dapat menghantarkan listrik**, karena hanya mereka yang dapat dipercepat ke orbital kosong dengan energi sedikit lebih tinggi.
 
 ::: {.kuis}
 **Kuis cepat 7.4** Pada 300 K, berapa peluang sebuah orbital yang 0,1 eV di atas *E*~F~ terisi? Dan orbital 0,5 eV di atas *E*~F~?
@@ -71,7 +89,7 @@ Gambar 7.3 menjelaskan teka-teki lama. Menurut fisika klasik, setiap elektron be
 
 Sekarang kita dapat menggolongkan padatan menurut struktur pitanya. Yang menentukan adalah apa yang ada di sekitar tingkat Fermi.
 
-![Gambar 7.4 Empat jenis struktur pita (jingga: terisi). Logam: tingkat Fermi berada di tengah pita yang terisi sebagian. Semilogam: dua pita hampir bersentuhan atau sedikit bertumpang tindih. Semikonduktor: pita penuh dan pita kosong dipisahkan celah kecil. Isolator: celah besar.](fig/b_kelas.png){width=96%}
+![Gambar 7.5 Empat jenis struktur pita (jingga: terisi). Logam: tingkat Fermi berada di tengah pita yang terisi sebagian. Semilogam: dua pita hampir bersentuhan atau sedikit bertumpang tindih. Semikonduktor: pita penuh dan pita kosong dipisahkan celah kecil. Isolator: celah besar.](fig/b_kelas.png){width=96%}
 
 * **Logam**: tingkat Fermi berada **di dalam pita** yang terisi sebagian. Ada banyak orbital kosong tepat di atas orbital terisi teratas, sehingga medan listrik sekecil apa pun dapat menggerakkan elektron.
 * **Isolator**: pita teratas yang terisi (disebut **pita valensi**) penuh, dan pita kosong berikutnya (**pita konduksi**) terpisah oleh **celah pita** *E*~g~ yang besar (lebih dari sekitar 3–4 eV). Elektron tidak dapat bergerak, karena tidak ada orbital kosong di dekatnya. Intan (*E*~g~ = 5,5 eV) dan NaCl (sekitar 9 eV) adalah isolator.
@@ -94,7 +112,7 @@ $$n_\text{i} = \sqrt{N_\text{c}N_\text{v}}\ \exp\!\left(-\frac{E_\text{g}}{2kT}\
 $$\sigma = n e \mu_\text{e} + p e \mu_\text{h} \qquad \text{(7.5)}$$
 
 ::: {.contoh}
-**Contoh 7.3 · Pembawa intrinsik dalam Si, Ge, GaAs, dan intan**
+**Contoh 7.5 · Pembawa intrinsik dalam Si, Ge, GaAs, dan intan**
 
 Hitung *n*~i~ pada 300 K. Data (*E*~g~ dalam eV; *N*~c~, *N*~v~ dalam cm⁻³): Si 1,12, 2,8 × 10¹⁹, 1,04 × 10¹⁹; Ge 0,66, 1,04 × 10¹⁹, 6,0 × 10¹⁸; GaAs 1,42, 4,7 × 10¹⁷, 7,0 × 10¹⁸; intan 5,47, ≈ 10¹⁹, ≈ 10¹⁹. Lalu hitung konduktivitas silikon murni dengan μ~e~ = 1400 dan μ~h~ = 450 cm² V⁻¹ s⁻¹.
 
@@ -102,7 +120,17 @@ Hitung *n*~i~ pada 300 K. Data (*E*~g~ dalam eV; *N*~c~, *N*~v~ dalam cm⁻³): 
 
 Konduktivitas Si murni dengan *n*~i~ = 1 × 10¹⁰ cm⁻³: σ = 10¹⁰ × 1,602 × 10⁻¹⁹ × (1400 + 450) = **3 × 10⁻⁶ S cm⁻¹**, sekitar 10¹¹ kali lebih kecil daripada tembaga (6 × 10⁵ S cm⁻¹).
 
-**Memahami hasil.** Silikon mempunyai 5 × 10²² atom per cm³, tetapi pada suhu kamar hanya satu dari sekitar 10¹² elektron valensinya yang berada di pita konduksi. Celah pita masuk ke dalam eksponen, sehingga perbedaan celah yang kecil menghasilkan perbedaan jumlah pembawa yang sangat besar: Ge (celah 0,66 eV) mempunyai sekitar 3000 kali lebih banyak pembawa daripada Si, dan intan praktis tidak mempunyai satu pun. Pembawa intrinsik juga naik sangat cepat dengan suhu (Gambar 7.5 kanan): silikon pada 400 K mempunyai sekitar 350 kali lebih banyak pembawa daripada pada 300 K. Inilah sebabnya perangkat elektronik harus didinginkan, dan mengapa GaAs dan SiC (celah lebih besar) dipakai untuk elektronika suhu tinggi.
+**Memahami hasil.** Silikon mempunyai 5 × 10²² atom per cm³, tetapi pada suhu kamar hanya satu dari sekitar 10¹² elektron valensinya yang berada di pita konduksi. Celah pita masuk ke dalam eksponen, sehingga perbedaan celah yang kecil menghasilkan perbedaan jumlah pembawa yang sangat besar: Ge (celah 0,66 eV) mempunyai sekitar 3000 kali lebih banyak pembawa daripada Si, dan intan praktis tidak mempunyai satu pun. Pembawa intrinsik juga naik sangat cepat dengan suhu (Gambar 7.6 kanan): silikon pada 400 K mempunyai sekitar 350 kali lebih banyak pembawa daripada pada 300 K. Inilah sebabnya perangkat elektronik harus didinginkan, dan mengapa GaAs dan SiC (celah lebih besar) dipakai untuk elektronika suhu tinggi.
+:::
+
+::: {.contoh}
+**Contoh 7.6 · Pemanasan kecil, perubahan besar**
+
+Dengan persamaan (7.4), dan dengan memperhitungkan bahwa *N*~c~*N*~v~ sebanding dengan *T*³, hitung berapa kali *n*~i~ silikon (*E*~g~ = 1,12 eV) bertambah bila suhu naik dari 300 K ke 350 K.
+
+**Penyelesaian.** *n*~i~(350)/*n*~i~(300) = (350/300)^3/2^ × exp[−(1,12/2*k*)(1/350 − 1/300)]. Dengan *k* = 8,617 × 10⁻⁵ eV K⁻¹: faktor pertama 1,26; eksponen = (1,12/1,723 × 10⁻⁴) × 4,76 × 10⁻⁴ = 3,10, sehingga faktor kedua 22,1. Hasilnya **sekitar 28 kali**.
+
+**Memahami hasil.** Pemanasan 50 derajat menaikkan jumlah pembawa intrinsik hampir tiga puluh kali. Pada logam, pemanasan yang sama **menaikkan** hambatan sekitar 20 %. Perbedaan arah dan besar ini adalah cara paling sederhana membedakan semikonduktor dari logam di laboratorium, dan dasar **termistor**: sensor suhu dari oksida semikonduktor yang hambatannya turun tajam ketika dipanaskan.
 :::
 
 ### Tren celah pita dalam tabel periodik

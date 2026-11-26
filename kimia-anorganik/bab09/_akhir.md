@@ -2,17 +2,17 @@
 
 | Gagasan | Isi pokok | Subbab |
 |---|---|---|
-| Setengah reaksi | oksidasi melepas elektron, reduksi menerima; setarakan O dengan H₂O, H dengan H⁺, muatan dengan e⁻; untuk basa tambahkan OH⁻ | 9.1 |
+| Setengah reaksi | oksidasi melepas elektron, reduksi menerima; setarakan O dengan H₂O, H dengan H⁺, muatan dengan e⁻; untuk basa tambahkan OH⁻; titrasi redoks (permanganometri) | 9.1 |
 | Sel galvani | anode (oksidasi), katode (reduksi); Δ*G* = −*nFE*; *E*°~sel~ = *E*°~katode~ − *E*°~anode~ | 9.2 |
-| Deret elektrokimia | SHE = 0; oksidator kuat di atas (F₂, MnO₄⁻), reduktor kuat di bawah (Li, Na); 0,0592 V per elektron = faktor 10 dalam *K* | 9.2 |
-| Persamaan Nernst | *E* = *E*° − (0,0592/*n*) log *Q*; pH: −0,0592(*m*/*n*) per satuan pH; endapan/kompleks menggeser *E* | 9.3 |
-| Jendela air | *E* antara −0,0592 pH dan 1,229 − 0,0592 pH; overpotensial melebarkan jendela kinetik | 9.4 |
+| Deret elektrokimia | SHE = 0; oksidator kuat di atas (F₂, MnO₄⁻), reduktor kuat di bawah (Li, Na); 0,0592 V per elektron = faktor 10 dalam *K*; *E*° dari Δ~f~*G*°; elektrode acuan Ag/AgCl 0,197 V, SCE 0,241 V | 9.2 |
+| Persamaan Nernst | *E* = *E*° − (0,0592/*n*) log *Q*; pH: −0,0592(*m*/*n*) per satuan pH; endapan/kompleks menggeser *E*; sel konsentrasi, potensial membran | 9.3 |
+| Jendela air | *E* antara −0,0592 pH dan 1,229 − 0,0592 pH; overpotensial melebarkan jendela kinetik; hukum Faraday *n* = *It*/(*zF*), pemurnian tembaga | 9.4 |
 | Diagram Latimer | potensial berurutan; *E*° gabungan = Σ*n*~*i*~*E*°~*i*~/Σ*n*~*i*~ | 9.5 |
 | Disproporsionasi | spesies tidak stabil bila *E*° kanan > *E*° kiri (Cu⁺, Mn³⁺, MnO₄²⁻); komproporsionasi kebalikannya | 9.6 |
 | Diagram Frost | *NE*° terhadap *N*; titik terendah paling stabil; kemiringan = potensial; di atas garis → disproporsionasi | 9.7 |
 | Diagram Pourbaix | *E*–pH; garis mendatar, tegak, miring; Fe: Fe²⁺, Fe³⁺, Fe(OH)₂, Fe(OH)₃ (karat) | 9.8 |
-| Diagram Ellingham | Δ*G*° per mol O₂ terhadap *T*; C/CO turun dengan suhu; karbon mereduksi FeO di atas ≈ 1000 K; Al dan Mg dengan elektrolisis | 9.9 |
-| Redoks di alam | korosi sel galvani; anode korban (Zn, Mg); rantai pernapasan NADH → O₂, Δ*G*°' = −219 kJ mol⁻¹ | 9.10 |
+| Diagram Ellingham | Δ*G*° per mol O₂ terhadap *T*; C/CO turun dengan suhu; karbon mereduksi FeO di atas ≈ 1000 K; Al dan Mg dengan elektrolisis; termit, proses Kroll (Ti) | 9.9 |
+| Redoks di alam | korosi sel galvani; anode korban (Zn, Mg); rantai pernapasan NADH → O₂, Δ*G*°' = −219 kJ mol⁻¹; aki timbal, litium-ion (372 mA h g⁻¹ grafit), sel bahan bakar (Δ*G*/Δ*H* = 0,83) | 9.10 |
 
 **Jawaban kuis cepat.** **9.1** 5H₂O₂ + 2MnO₄⁻ + 6H⁺ → 5O₂ + 2Mn²⁺ + 8H₂O. Oksidator MnO₄⁻; reduktor H₂O₂ (O dari −1 menjadi 0). **9.2** Fe³⁺/I⁻: *E*° = 0,771 − 0,536 = +0,235 V, dapat. Fe³⁺/Br⁻: 0,771 − 1,087 = −0,316 V, tidak dapat. **9.3** *E* = 1,102 − (0,0592/2) log(1,0/0,010) = 1,043 V. **9.4** Co³⁺ (1,92 V) di atas garis O₂/H₂O (1,23 V pada pH 0), sehingga mengoksidasi air: tidak stabil. Cr²⁺ (−0,41 V) di bawah garis H⁺/H₂ pada pH 0 (0 V): secara termodinamika mereduksi air dan melepaskan H₂ (walaupun lambat). Pada pH 7, garis H⁺/H₂ turun ke −0,41 V, hampir tepat sama, sehingga Cr²⁺ hampir stabil terhadap air; namun ia cepat dioksidasi oleh O₂ udara. **9.5** (0,771 + 2 × (−0,447))/3 = −0,041 V. **9.6** Ya: potensial kanan (1,36) lebih besar daripada kiri (0,42), *E*° = 0,94 V. Cl₂ + 2OH⁻ → Cl⁻ + ClO⁻ + H₂O; mengalirkan Cl₂ ke larutan NaOH dingin menghasilkan larutan natrium hipoklorit (pemutih). **9.7** W dan Y berkomproporsionasi membentuk X, karena X lebih stabil (lebih rendah) daripada campuran W dan Y. **9.8** (a) Fe³⁺; (b) Fe²⁺; (c) Fe(OH)₂. **9.9** Garis Cu₂O berada tinggi di diagram Ellingham dan dipotong garis C/CO pada suhu sangat rendah (sekitar 350 K), sehingga karbon mereduksi oksida tembaga pada suhu api biasa. **9.10** Air laut mengandung banyak ion yang menaikkan konduktivitas, dan Cl⁻ merusak lapisan oksida pelindung. Seng dan magnesium lebih mudah teroksidasi daripada besi (potensial lebih negatif), sehingga menjadi anode korban; tembaga justru lebih positif dan akan menjadikan besi anode, mempercepat korosi.
 
@@ -121,6 +121,10 @@
 **Soal {{galvanis}}.** Zn/Fe: *E*°(Fe²⁺/Fe) − *E*°(Zn²⁺/Zn) = −0,447 + 0,762 = **0,315 V**; seng menjadi anode dan teroksidasi, besi menjadi katode dan terlindungi. Fe/Sn: *E*°(Sn²⁺/Sn) − *E*°(Fe²⁺/Fe) = −0,138 + 0,447 = **0,309 V**; besi menjadi anode dan teroksidasi, terkonsentrasi di goresan kecil yang dikelilingi katode timah yang luas, sehingga berkarat cepat.
 
 *Cara berpikir:* logam pelindung harus lebih mudah teroksidasi daripada logam yang dilindunginya agar berfungsi sebagai anode korban. Timah tetap dipakai pada kaleng makanan karena tidak beracun dan tahan terhadap asam buah, selama lapisannya utuh.
+
+**Soal {{sbb}}.** Mesin panas mengubah **kalor** menjadi kerja, dan hukum kedua termodinamika membatasi fraksi kalor yang dapat diubah: η~Carnot~ = 1 − *T*~dingin~/*T*~panas~, sekitar 40–60 % untuk pembangkit modern. Sel bahan bakar tidak melewati tahap kalor; ia mengubah energi Gibbs reaksi langsung menjadi kerja listrik, *w*~maks~ = −Δ*G* = *nFE*. Batasnya Δ*G*/Δ*H* = 237,1/285,8 = 0,83, karena bagian *T*Δ*S* dari entalpi reaksi (Δ*S* negatif ketika gas menjadi cairan) harus dilepas sebagai kalor.
+
+*Cara berpikir:* perbedaan antara Δ*G* dan Δ*H* bukan sekadar notasi. Δ*H* adalah energi total yang dilepas reaksi; Δ*G* adalah bagian yang dapat diubah menjadi kerja. Sel elektrokimia adalah alat yang paling langsung untuk memanen Δ*G*.
 
 # Bacaan lanjut
 

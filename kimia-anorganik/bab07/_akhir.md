@@ -6,8 +6,8 @@
 | Paduan | substitusi (Hume-Rothery: jari-jari < 15 %, struktur, keelektronegatifan, valensi sama); interstisi (baja, Pd–H); antarlogam (Nd₂Fe₁₄B, LaNi₅, Nb₃Sn) | 7.2 |
 | Senyawa elektron | struktur ditentukan *e*/*a*: β 3/2, γ 21/13, ε 7/4 | 7.2 |
 | Pita | *N* orbital → *N* tingkat; rantai: *E* = α + 2β cos(*k*π/(*N*+1)); lebar pita 4\|β\| ditentukan tumpang tindih | 7.3 |
-| Pita s, p, d, f | s, p lebar; d sempit; 4f hampir terlokalisasi; tumpang tindih pita membuat Be, Mg logam | 7.3 |
-| Tingkat Fermi | *E*~F~ = (ħ²/2*m*)(3π²*n*)^2/3^; Cu 7,0 eV; Fermi–Dirac *f* = 1/(e^(*E*−*E*~F~)/*kT*^ + 1) | 7.4 |
+| Pita s, p, d, f | s, p lebar; d sempit; 4f hampir terlokalisasi; tumpang tindih pita membuat Be, Mg logam; distorsi Peierls membuka celah pada rantai 1D (poliasetilena) | 7.3 |
+| Tingkat Fermi | *E*~F~ = (ħ²/2*m*)(3π²*n*)^2/3^; Cu 7,0 eV; Fermi–Dirac *f* = 1/(e^(*E*−*E*~F~)/*kT*^ + 1); Drude σ = *ne*²τ/*m*, lintasan bebas Cu ≈ 39 nm | 7.4 |
 | Kelas padatan | logam (*E*~F~ dalam pita), semilogam, semikonduktor (celah 0,1–3 eV), isolator (> 3–4 eV) | 7.5 |
 | Pembawa intrinsik | *n*~i~ = √(*N*~c~*N*~v~) exp(−*E*~g~/2*kT*); Si ≈ 10¹⁰ cm⁻³; σ = *neμ*~e~ + *peμ*~h~ | 7.5 |
 | Tren celah | turun ke bawah golongan (C > Si > Ge > Sn); naik dengan ionisitas (Ge < GaAs < ZnSe < CuBr) | 7.5 |
@@ -114,6 +114,10 @@
 **Soal {{ybco}}.** Tiga sel perovskit ABO₃ yang ditumpuk memberi A₃B₃O₉. Pada YBa₂Cu₃O₇, A = Ba, Y, Ba (tiga kation besar) dan B = tiga Cu, sehingga strukturnya kehilangan **2 dari 9 oksigen**. Oksigen yang hilang membuat sebagian atom Cu berkoordinasi segi empat datar dan membentuk rantai Cu–O, sedangkan sisanya membentuk bidang-bidang CuO₂ yang menjadi tempat superkonduktivitas.
 
 *Cara berpikir:* banyak bahan fungsional dibangun dari perovskit dengan modifikasi: kekosongan oksigen (YBCO, konduktor ion), pemiringan oktahedron, atau penggantian ion A dan B. Struktur prototipe dari Bab 5 menjadi "bahasa" untuk mendeskripsikan bahan-bahan baru.
+
+**Soal {{peierls}}.** Setiap atom C dalam poliasetilena menyumbang satu elektron π, sehingga pita π terisi setengah dan rantai seragam seharusnya logam. Distorsi Peierls membuat ikatan C–C berselang pendek (rangkap) dan panjang (tunggal), membelah pita π menjadi pita terisi dan pita kosong dengan celah sekitar 1,5 eV: semikonduktor. Doping dengan I₂ (yang tereduksi menjadi I₃⁻) menarik elektron dari pita π yang terisi, meninggalkan lubang yang dapat bergerak sepanjang rantai; konduktivitas naik jutaan kali.
+
+*Cara berpikir:* doping pada polimer konduktif sama dengan doping tipe p pada silikon (subbab 7.6), hanya saja "akseptor"-nya adalah molekul yang menempel pada rantai, bukan atom yang menggantikan atom kisi. Prinsip yang sama dipakai dalam layar OLED dan sel surya organik.
 
 # Bacaan lanjut
 

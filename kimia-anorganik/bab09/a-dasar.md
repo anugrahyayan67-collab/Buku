@@ -91,6 +91,18 @@ $$2\text{MnO}_4^- + 3\text{SO}_3^{2-} + \text{H}_2\text{O} \rightarrow 2\text{Mn
 **Memahami hasil.** Reaksi (a) adalah dasar titrasi permanganometri: larutan ungu MnO₄⁻ menjadi tak berwarna ketika direduksi, sehingga berfungsi sebagai indikatornya sendiri. Perhatikan bahwa permanganat menerima lima elektron dalam asam tetapi hanya tiga dalam basa, dan produknya berbeda (Mn²⁺ lawan MnO₂). Pengaruh pH pada redoks akan dijelaskan dengan persamaan Nernst (subbab 9.3) dan diagram Frost (subbab 9.7).
 :::
 
+::: {.contoh}
+**Contoh 9.2 · Menentukan kadar besi dengan permanganometri**
+
+Sebanyak 25,00 mL larutan Fe²⁺ dalam asam sulfat dititrasi dengan KMnO₄ 0,02000 mol L⁻¹. Warna ungu pertama yang menetap muncul setelah 18,40 mL. Hitung konsentrasi Fe²⁺ dan massa besi dalam sampel.
+
+**Rencana.** Pakai stoikiometri reaksi yang sudah disetarakan pada Contoh 9.1: MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O.
+
+**Penyelesaian.** Mol MnO₄⁻ = 0,01840 L × 0,02000 mol L⁻¹ = 3,680 × 10⁻⁴ mol. Mol Fe²⁺ = 5 × 3,680 × 10⁻⁴ = 1,840 × 10⁻³ mol. Konsentrasi = 1,840 × 10⁻³/0,02500 = **0,0736 mol L⁻¹**. Massa besi = 1,840 × 10⁻³ × 55,845 g mol⁻¹ = **102,8 mg**.
+
+**Memahami hasil.** Faktor 5 berasal langsung dari jumlah elektron: satu MnO₄⁻ menerima lima elektron (Mn +7 → +2), sedangkan setiap Fe²⁺ hanya memberikan satu. Permanganat menjadi titran yang sekaligus indikator karena ionnya berwarna ungu pekat sedangkan Mn²⁺ hampir tidak berwarna. Penyetaraan redoks yang benar adalah syarat mutlak setiap analisis volumetri redoks: kesalahan satu koefisien berarti kesalahan lima kali lipat dalam hasil.
+:::
+
 ::: {.kuis}
 **Kuis cepat 9.1** Setarakan dalam suasana asam: H₂O₂ + MnO₄⁻ → O₂ + Mn²⁺. Mana oksidator dan mana reduktor?
 :::
@@ -137,7 +149,7 @@ Tabel 9.1 Potensial elektrode standar beberapa pasangan redoks pada 25 °C (V te
 Tabel ini disebut **deret elektrokimia**. Di bagian atas: oksidator kuat (F₂, MnO₄⁻) yang mudah menerima elektron. Di bagian bawah: reduktor kuat (Li, Na) yang mudah memberikan elektron. Pasangan yang lebih atas dapat mengoksidasi bentuk tereduksi pasangan yang lebih bawah.
 
 ::: {.contoh}
-**Contoh 9.2 · Sel Daniell**
+**Contoh 9.3 · Sel Daniell**
 
 Hitung *E*°~sel~, Δ*G*°, dan *K* untuk Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s).
 
@@ -145,6 +157,29 @@ Hitung *E*°~sel~, Δ*G*°, dan *K* untuk Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + 
 
 **Memahami hasil.** Beda potensial 1,1 V terdengar kecil, tetapi untuk dua elektron setara dengan 213 kJ mol⁻¹ dan tetapan kesetimbangan 10³⁷: reaksi berjalan sempurna. Setiap 0,0592 V dalam *E*° setara dengan faktor 10 dalam *K* per elektron. Karena itu beda potensial yang hanya beberapa persepuluh volt sudah cukup untuk membuat reaksi berjalan praktis tuntas.
 :::
+
+### Potensial dari data termodinamika
+
+Persamaan (9.1) dapat dibaca terbalik: bila energi Gibbs pembentukan semua zat diketahui, potensial elektrode dapat **dihitung** tanpa membangun sel. Ini penting untuk pasangan yang tidak dapat diukur langsung, misalnya karena salah satu zat bereaksi dengan air (Na⁺/Na, F₂/F⁻) atau karena elektrodenya tidak reversibel.
+
+::: {.contoh}
+**Contoh 9.4 · Potensial sel Daniell dari energi Gibbs pembentukan**
+
+Energi Gibbs pembentukan standar (kJ mol⁻¹): Zn²⁺(aq) −147,1; Cu²⁺(aq) +65,5; Zn(s) dan Cu(s) 0. Hitung *E*° sel Daniell dan bandingkan dengan Contoh 9.3.
+
+**Penyelesaian.** Δ*G*° = Δ~f~*G*°(Zn²⁺) − Δ~f~*G*°(Cu²⁺) = −147,1 − 65,5 = −212,6 kJ mol⁻¹. *E*° = −Δ*G*°/(*nF*) = 212 600/(2 × 96 485) = **1,102 V**, sama dengan hasil dari tabel potensial.
+
+**Memahami hasil.** Tabel potensial elektrode dan tabel energi Gibbs pembentukan ion sebenarnya adalah dua cara menuliskan informasi yang sama. Δ~f~*G*° ion dalam air ditetapkan dengan konvensi Δ~f~*G*°(H⁺, aq) = 0, sama persis dengan konvensi *E*°(SHE) = 0. Siklus Born–Haber (Bab 6) dan potensial elektrode karena itu dapat saling memeriksa: misalnya, potensial Li⁺/Li yang sangat negatif dapat diurai menjadi energi atomisasi Li, energi ionisasi, dan entalpi hidrasi Li⁺ yang sangat besar (soal akhir bab).
+:::
+
+### Elektrode acuan dan pengukuran pH
+
+SHE sulit dipakai sehari-hari: memerlukan gas hidrogen dan platina yang bersih. Dalam praktik dipakai **elektrode acuan sekunder** yang potensialnya terhadap SHE diketahui teliti:
+
+* **Elektrode perak–perak klorida**: kawat Ag berlapis AgCl dalam larutan KCl jenuh, *E* = +0,197 V.
+* **Elektrode kalomel jenuh** (SCE): Hg/Hg₂Cl₂ dalam KCl jenuh, *E* = +0,241 V.
+
+Potensial yang dilaporkan terhadap SCE dapat diubah ke skala SHE dengan menambahkan 0,241 V. **Elektrode kaca** pengukur pH bekerja dengan prinsip yang sama: membran kaca tipis menghasilkan beda potensial yang bergantung pada aktivitas H⁺ di kedua sisinya, dan pada 25 °C berubah 59,2 mV untuk setiap satuan pH (subbab 9.3). pH meter pada dasarnya adalah voltmeter berimpedans sangat tinggi yang dikalibrasi dengan larutan penyangga.
 
 ::: {.awas}
 **Awas: potensial tidak dikalikan dengan koefisien.** Untuk menjumlahkan setengah reaksi menjadi reaksi sel, setengah reaksi boleh dikalikan dengan bilangan apa pun agar elektronnya sama, tetapi *E*° **tidak** ikut dikalikan. *E*° adalah sifat intensif (seperti suhu), sedangkan Δ*G*° ekstensif. Namun bila dua setengah reaksi dijumlahkan menjadi **setengah reaksi baru** (bukan reaksi sel), potensialnya harus dihitung lewat Δ*G*° (subbab 9.5).
@@ -181,7 +216,7 @@ Pada pH 7: +0,815 V dan −0,414 V. Nilai-nilai pada pH 7 ini, ditandai *E*°', 
 Bila salah satu bentuk pasangan redoks diikat menjadi endapan atau kompleks yang stabil, konsentrasinya yang bebas turun drastis, dan potensialnya bergeser. Bentuk yang **distabilkan** menjadi lebih sukar diubah.
 
 ::: {.contoh}
-**Contoh 9.3 · Perak dalam amonia dan klorida**
+**Contoh 9.5 · Perak dalam amonia dan klorida**
 
 Hitung *E*° untuk (a) AgCl(s) + e⁻ → Ag(s) + Cl⁻ (*K*~sp~ AgCl = 1,77 × 10⁻¹⁰), (b) [Ag(NH₃)₂]⁺ + e⁻ → Ag + 2NH₃ (β₂ = 1,7 × 10⁷), dari *E*°(Ag⁺/Ag) = 0,7996 V.
 
@@ -196,6 +231,16 @@ Pengaruh kompleksasi juga bekerja sebaliknya: bila bentuk **teroksidasi** dikomp
 
 ::: {.kuis}
 **Kuis cepat 9.3** Hitung gaya gerak listrik sel Daniell bila [Zn²⁺] = 1,0 mol L⁻¹ dan [Cu²⁺] = 0,010 mol L⁻¹.
+:::
+
+::: {.contoh}
+**Contoh 9.6 · Sel konsentrasi**
+
+Dua elektrode tembaga dicelupkan ke dalam larutan CuSO₄ 0,0010 mol L⁻¹ dan 1,0 mol L⁻¹, dihubungkan dengan jembatan garam. Elektrode mana yang menjadi katode, dan berapa gaya gerak listriknya pada 25 °C?
+
+**Penyelesaian.** Kedua setengah sel mempunyai *E*° yang sama, sehingga *E*°~sel~ = 0. Reaksi spontan cenderung menyamakan konsentrasi: Cu²⁺ tereduksi di larutan pekat (katode) dan Cu teroksidasi di larutan encer (anode). Reaksi sel: Cu²⁺(1,0) → Cu²⁺(0,0010). *E* = 0 − (0,0592/2) log(0,0010/1,0) = **+0,089 V**.
+
+**Memahami hasil.** Sel konsentrasi menghasilkan tegangan hanya dari perbedaan konsentrasi; tidak ada perubahan kimia bersih. Prinsip yang sama bekerja di setiap sel saraf: perbedaan konsentrasi K⁺ di dalam dan di luar membran (sekitar 30 kali) menghasilkan potensial istirahat sekitar −90 mV (dihitung dengan persamaan Nernst untuk *n* = 1 dan suhu tubuh). Elektrode selektif ion, misalnya elektrode fluorida dan elektrode kaca pH, juga mengukur potensial konsentrasi semacam ini.
 :::
 
 ## 9.4 Kestabilan dalam air: jendela kestabilan dan overpotensial
@@ -213,8 +258,26 @@ Di antara kedua garis ini terdapat **jendela kestabilan air**, selebar 1,23 V pa
 
 Termodinamika menyatakan apa yang **mungkin**, tetapi tidak seberapa cepat. Banyak reaksi yang secara termodinamika dapat mengoksidasi atau mereduksi air berjalan sangat lambat, karena pembentukan gas H₂ atau O₂ di permukaan elektrode memerlukan energi aktivasi. Potensial tambahan yang diperlukan agar reaksi berjalan dengan laju yang berarti disebut **overpotensial** (*overvoltage*). Untuk O₂ di kebanyakan elektrode, overpotensial sekitar 0,6 V; untuk H₂ di seng, timbal, dan raksa, sampai 0,7–1 V. Akibatnya jendela kestabilan **kinetik** air jauh lebih lebar daripada 1,23 V.
 
+### Elektrolisis kuantitatif: hukum Faraday
+
+Dalam elektrolisis, setiap mol elektron yang melewati sel membawa muatan *F* = 96 485 C. Karena itu jumlah zat yang dihasilkan di elektrode sebanding dengan muatan total *Q* = *It* (arus × waktu):
+
+$$n_\text{zat} = \frac{It}{zF} \qquad \text{(9.4)}$$
+
+dengan *z* jumlah elektron per satuan zat (2 untuk Cu²⁺ → Cu, 3 untuk Al³⁺ → Al). Hukum ini, dirumuskan Michael Faraday pada 1834, adalah dasar pelapisan logam, pemurnian tembaga secara elektrolisis, dan produksi aluminium (Contoh 9.12).
+
 ::: {.contoh}
-**Contoh 9.4 · Elektrolisis seng dan natrium**
+**Contoh 9.7 · Pemurnian tembaga**
+
+Arus 2,00 A dialirkan selama 1,00 jam melalui sel pemurnian tembaga (anode tembaga kotor, katode tembaga murni, larutan CuSO₄ asam). Berapa gram tembaga murni yang terendapkan bila efisiensi arus 100 %?
+
+**Penyelesaian.** *Q* = 2,00 × 3600 = 7200 C. Mol Cu = 7200/(2 × 96 485) = 0,0373 mol, massa = 0,0373 × 63,55 = **2,37 g**.
+
+**Memahami hasil.** Pemurnian tembaga elektrolitik menghasilkan tembaga 99,99 % untuk kabel listrik. Logam yang lebih mudah teroksidasi daripada tembaga (Fe, Zn, Ni) ikut larut di anode tetapi tetap dalam larutan, karena potensialnya terlalu negatif untuk mengendap di katode. Logam mulia (Ag, Au, Pt) tidak teroksidasi dan jatuh ke dasar sebagai **lumpur anode**, yang menjadi sumber penting perak dan emas. Pemisahan ini sepenuhnya mengikuti deret elektrokimia.
+:::
+
+::: {.contoh}
+**Contoh 9.8 · Elektrolisis seng dan natrium**
 
 (a) Mengapa seng dapat dielektrolisis dari larutan ZnSO₄ dalam air, padahal *E*°(Zn²⁺/Zn) = −0,76 V lebih negatif daripada *E*(H⁺/H₂) pada pH 5 (−0,30 V)? (b) Mengapa natrium tidak dapat dibuat dengan cara yang sama?
 

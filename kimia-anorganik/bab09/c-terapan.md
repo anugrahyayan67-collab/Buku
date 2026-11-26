@@ -20,7 +20,7 @@ Cara membaca diagram Ellingham:
 Butir terakhir adalah kunci metalurgi. Karena garis C/CO turun, pada suhu yang cukup tinggi karbon dapat mereduksi oksida **apa pun** yang garisnya ia potong.
 
 ::: {.contoh}
-**Contoh 9.8 · Pada suhu berapa karbon mereduksi oksida?**
+**Contoh 9.12 · Pada suhu berapa karbon mereduksi oksida?**
 
 Dengan data per mol O₂ (Δ*H*° dalam kJ, Δ*S*° dalam J K⁻¹): 2C + O₂ → 2CO (−221,0; +178,7); 2Fe + O₂ → 2FeO (−544,0; −138,3); 2Zn + O₂ → 2ZnO (−701,0; −201,1); 4/3Al + O₂ → 2/3Al₂O₃ (−1117,1; −209,0); 2Mg + O₂ → 2MgO (−1203,2; −216,8). Hitung suhu ketika garis C/CO memotong setiap garis logam.
 
@@ -28,6 +28,10 @@ Dengan data per mol O₂ (Δ*H*° dalam kJ, Δ*S*° dalam J K⁻¹): 2C + O₂ �
 
 **Memahami hasil.** Di atas sekitar 1000 K, karbon (sebagai kokas) dapat mereduksi oksida besi: dasar tanur tinggi, yang beroperasi pada 1500–2000 K dan menghasilkan lebih dari 1,8 miliar ton besi per tahun. Untuk seng, karbon cukup di atas 1264 K, tetapi seng mendidih pada 1180 K, sehingga ia keluar sebagai uap dan harus diembunkan; banyak seng kini diproduksi dengan elektrolisis (subbab 9.4). Untuk aluminium dan magnesium, suhu yang diperlukan (di atas 2300 K) terlalu tinggi secara teknis dan ekonomis, dan pada suhu itu karbon juga membentuk karbida. Kedua logam ini diproduksi dengan **elektrolisis lelehan**: aluminium dari Al₂O₃ yang dilarutkan dalam kriolit cair (proses Hall–Héroult, 1886), yang memakan sekitar 15 kWh listrik per kilogram. Itulah sebabnya aluminium pernah lebih mahal daripada emas sebelum 1886, dan sebabnya daur ulang aluminium sangat menguntungkan: melelehkan kaleng bekas hanya memerlukan sekitar 5 % energi produksi dari bijih.
 :::
+
+### Logam yang lebih reaktif: reduksi dengan logam lain
+
+Untuk logam yang oksidanya sangat stabil, karbon tidak memadai atau membentuk karbida. Ada dua jalan lain. Pertama, elektrolisis lelehan (aluminium, magnesium, natrium, litium). Kedua, reduksi dengan logam yang garisnya pada diagram Ellingham berada lebih rendah. **Proses termit** memakai aluminium untuk mereduksi Cr₂O₃ dan oksida lain: Δ*G*° per mol O₂ sekitar −1055 kJ untuk Al₂O₃ dan −705 kJ untuk Cr₂O₃, sehingga reaksinya melepaskan sekitar 350 kJ per mol O₂ yang dipindahkan. **Proses Kroll** untuk titanium tidak mereduksi TiO₂ langsung (TiO₂ sangat stabil dan Ti membentuk karbida dan nitrida). TiO₂ diubah dulu menjadi TiCl₄ dengan klorin dan karbon, lalu TiCl₄ direduksi dengan magnesium cair di bawah argon: TiCl₄ + 2Mg → Ti + 2MgCl₂. Kerumitan inilah yang membuat titanium mahal, walaupun ia unsur kesembilan terbanyak di kerak bumi.
 
 ::: {.kuis}
 **Kuis cepat 9.9** Mengapa tembaga dapat diperoleh hanya dengan memanaskan bijihnya bersama arang pada suhu yang relatif rendah, sehingga menjadi salah satu logam pertama yang dikenal manusia? (Lihat garis Cu₂O pada Gambar 9.5.)
@@ -57,13 +61,31 @@ Sel hidup memperoleh energi dengan mengoksidasi makanan. Elektron dari glukosa d
 ![Gambar 9.6 Potensial standar biologis (*E*°', pH 7) beberapa pembawa elektron dalam rantai pernapasan. Elektron mengalir bertahap dari NADH ke O₂.](fig/c_bio.png){width=72%}
 
 ::: {.contoh}
-**Contoh 9.9 · Energi dari NADH**
+**Contoh 9.13 · Energi dari NADH**
 
 Hitung Δ*G*°' untuk NADH + H⁺ + ½O₂ → NAD⁺ + H₂O, dengan *E*°'(NAD⁺/NADH) = −0,320 V dan *E*°'(O₂/H₂O) = +0,816 V. Berapa ATP yang dapat dibuat secara teoretis bila pembentukan satu ATP memerlukan 30,5 kJ mol⁻¹?
 
 **Penyelesaian.** Δ*E*°' = 0,816 − (−0,320) = 1,136 V. Dengan *n* = 2: Δ*G*°' = −2 × 96 485 × 1,136 = **−219 kJ mol⁻¹**. Batas teoretis: 219/30,5 = **7,2 ATP**. Sel sebenarnya menghasilkan sekitar 2,5 ATP per NADH.
 
 **Memahami hasil.** Bila 219 kJ mol⁻¹ dilepas sekaligus, sebagian besar akan terbuang sebagai panas. Rantai pernapasan memecahnya menjadi beberapa langkah kecil dengan selisih potensial 0,1–0,5 V, dan setiap langkah memompa proton melintasi membran; gradien proton itu kemudian dipakai untuk membuat ATP. Efisiensi sekitar 35 % (2,5 dari 7,2) setara dengan mesin terbaik buatan manusia. Pembawa-pembawa elektron itu sebagian besar adalah kompleks logam: sitokrom (besi dalam cincin porfirin), gugus besi–belerang, dan pusat tembaga; ujung terakhirnya, sitokrom c oksidase, mengandung besi dan tembaga yang bersama-sama mereduksi O₂ menjadi air. Sianida dan CO beracun karena mengikat besi di situs ini (subbab 4.3 dan 8.11).
+:::
+
+### Redoks dalam teknologi: baterai dan sel bahan bakar
+
+Baterai adalah sel galvani yang dikemas. Kebutuhan modern menuntut tiga hal: tegangan tinggi (selisih *E*° besar antara katode dan anode), kapasitas besar per massa (banyak elektron per gram bahan elektrode), dan dapat diisi ulang (reaksi elektrode reversibel tanpa merusak struktur).
+
+* **Aki timbal** (1859, masih dipakai di setiap mobil): Pb + PbO₂ + 2H₂SO₄ → 2PbSO₄ + 2H₂O, 2,05 V per sel. Murah dan andal, tetapi berat: energi teoretisnya hanya sekitar 170 Wh per kg reaktan.
+* **Baterai litium-ion** (Hadiah Nobel 2019 untuk Goodenough, Whittingham, dan Yoshino): ion Li⁺ berpindah bolak-balik antara anode grafit (LiC₆) dan katode oksida logam berlapis (LiCoO₂, dengan Li⁺ di antara lapisan CoO₂), tanpa logam litium bebas. Tegangannya sekitar 3,7 V, karena Li⁺/Li berada di dasar deret elektrokimia dan Co(IV)/Co(III) dalam oksida sangat oksidatif. Elektrolitnya harus organik (garam LiPF₆ dalam karbonat organik), karena 3,7 V jauh melebihi jendela kestabilan air (subbab 9.4).
+* **Sel bahan bakar** hidrogen: H₂ + ½O₂ → H₂O, 1,23 V. Reaktan dipasok terus-menerus dari luar, sehingga sel ini tidak "habis". Efisiensi maksimumnya Δ*G*/Δ*H* = 237,1/285,8 = **83 %**, jauh di atas mesin panas yang dibatasi efisiensi Carnot.
+
+::: {.contoh}
+**Contoh 9.14 · Kapasitas elektrode baterai litium**
+
+Kapasitas spesifik teoretis elektrode adalah muatan per massa, dinyatakan dalam mA h g⁻¹: *z F*/(3,6 *M*), dengan *M* massa molar satuan yang menyimpan *z* elektron. Hitung kapasitas (a) grafit, LiC₆ (satu Li per enam C); (b) LiCoO₂ bila semua Li dapat dikeluarkan; (c) LiCoO₂ dalam praktik, ketika hanya setengah Li yang dikeluarkan agar strukturnya tidak rusak.
+
+**Penyelesaian.** (a) 96 485/(3,6 × 6 × 12,011) = **372 mA h g⁻¹**. (b) 96 485/(3,6 × 97,87) = **274 mA h g⁻¹**. (c) Setengahnya, **137 mA h g⁻¹**.
+
+**Memahami hasil.** Katode, bukan anode, yang membatasi kapasitas baterai litium-ion. Menghitung energi: 3,7 V × 137 mA h g⁻¹ ≈ 500 Wh per kg bahan katode; setelah memperhitungkan anode, elektrolit, pemisah, dan kemasan, sel nyata memberi sekitar 200–300 Wh kg⁻¹, kira-kira lima kali aki timbal. Penelitian katode baru (NMC, LiFePO₄, katode kaya nikel) berusaha mengeluarkan lebih banyak Li per satuan rumus tanpa merusak kisi, sedangkan anode silikon (sampai sekitar sepuluh kali kapasitas grafit) bergulat dengan pemuaian volume yang sangat besar ketika menyerap litium.
 :::
 
 ::: {.kuis}

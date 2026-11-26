@@ -39,6 +39,8 @@ Urutkan entalpi kisi NaF, NaCl, MgF₂, dan Na₂O dan periksa dengan Kapustinsk
 Bagaimana jari-jari termokimia ion poliatomik ditentukan? ||| dari entalpi kisi termokimia garam yang diketahui, persamaan Kapustinskii dipecahkan untuk r
 Mengapa persamaan Kapustinskii berguna untuk senyawa yang strukturnya belum diketahui? ||| tidak memerlukan tetapan Madelung; A/ν hampir tetap
 Hitung entalpi kisi CaCl₂ dengan Kapustinskii (Ca²⁺ 100, Cl⁻ 181 pm). Nilai siklus 2258 kJ mol⁻¹. ||| 2252 kJ mol⁻¹
+Urutkan titik leleh NaF, NaCl, MgO, CaO tanpa melihat data, lalu jelaskan dengan persamaan Kapustinskii. ||| NaCl < NaF < CaO < MgO
+Mengapa entalpi peleburan NaCl (28 kJ mol⁻¹) jauh lebih kecil daripada energi kisinya? ||| lelehan masih ionik; hanya keteraturan jarak jauh yang hilang
 
 ## Subbab 6.5: Siklus Born–Haber
 
@@ -50,6 +52,7 @@ Dalam siklus Born–Haber NaCl, langkah mana yang memerlukan energi dan mana yan
 Mengapa ion O²⁻ hanya ada di dalam kisi, tidak sebagai ion gas? ||| penangkapan elektron kedua sangat endoterm (≈ +750); hanya kisi yang menstabilkannya
 Bila Δ~f~*H*°, energi atom, dan entalpi kisi diketahui, besaran apa lagi yang dapat dihitung dengan siklus? ||| afinitas elektron (terutama yang tak terukur), atau Δ_f H senyawa baru
 Mengapa entalpi pembentukan KCl lebih negatif daripada NaCl, padahal entalpi kisinya lebih kecil? ||| sublimasi dan ionisasi K lebih kecil (89 + 419 lawan 108 + 496) mengimbangi energi kisi yang lebih kecil
+@nh4 [P] Hitung Δ~f~*H*°(NH₄⁺, g) dari afinitas proton NH₃ (853,6 kJ mol⁻¹), lalu entalpi kisi NH₄Br (Δ~f~*H*° NH₄Br(s) = −270,8; Br⁻(g) = −219,1 kJ mol⁻¹). Bandingkan dengan KBr (691 kJ mol⁻¹). ||| +636,7; 688 kJ mol⁻¹; mirip KBr
 
 ## Subbab 6.6: Menguji senyawa hipotetis: NeCl, MgCl, dan CaCl
 

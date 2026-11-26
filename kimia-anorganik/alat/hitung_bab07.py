@@ -41,3 +41,15 @@ r = {'Cu': 128, 'Ni': 124, 'Ag': 144, 'Au': 144, 'Zn': 134, 'Fe': 126, 'C': 77, 
 for a, b in [('Cu', 'Ni'), ('Cu', 'Ag'), ('Ag', 'Au'), ('Cu', 'Zn')]: print(a, b, '%.1f %%' % (100 * abs(r[a] - r[b]) / r[a]))
 print('C/Fe', round(77 / 126, 2), 'rongga Oh fcc r/R 0.414 -> r maks', round(0.414 * 129, 1))
 for nm, ea in [('CuZn beta', (1 + 2) / 2), ('Cu5Zn8 gamma', (5 + 16) / 13), ('CuZn3 epsilon', (1 + 6) / 4), ('Cu5Sn', (5 + 4) / 6), ('Cu31Sn8', (31 + 32) / 39), ('Cu3Sn', (3 + 4) / 4)]: print(nm, round(ea, 3))
+
+# === pendalaman (revisi 2) ===
+import math
+L=2.44e-8; sig=5.96e7; print('W-F Cu kappa',L*sig*300,'(terukur 401)')
+me=9.109e-31; e=1.602e-19; n=8.47e28
+tau=sig*me/(n*e*e); vF=math.sqrt(2*7.0*e/me); print('tau',tau,'vF',vF,'lintasan bebas nm',vF*tau*1e9)
+kB=8.617e-5
+r=(350/300)**1.5*math.exp(-1.12/(2*kB)*(1/350-1/300)); print('n_i Si 350/300',r)
+nd=5e22*1e-6; print('Si doped 1 ppm sigma S/cm',nd*1.602e-19*1400,' Si intrinsik 300K ni 1e10 ->',1e10*1.602e-19*(1400+450))
+for nm,Eg in [('GaAs',1.42),('GaP',2.26),('GaN',3.40),('InGaN biru 2.7',2.70),('AlGaInP merah 1.9',1.9)]: print(nm,1239.84/Eg,'nm')
+print('Peierls skip')
+print('jarak tingkat N=6e23 4|β|/N',4/6e23)

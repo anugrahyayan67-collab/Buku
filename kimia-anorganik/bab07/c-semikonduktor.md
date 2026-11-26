@@ -11,13 +11,13 @@ Seberapa lemah? Kita dapat menaksirnya dengan model atom hidrogen (Bab 1), denga
 $$E_\text{d} = 13{,}6\ \text{eV} \times \frac{m^*/m_\text{e}}{\varepsilon_\text{r}^2} \qquad \text{(7.6)}$$
 
 ::: {.contoh}
-**Contoh 7.4 · Atom hidrogen di dalam silikon**
+**Contoh 7.7 · Atom hidrogen di dalam silikon**
 
 Hitung energi ikat elektron donor dan jari-jari orbitnya dalam silikon (*m*\* = 0,26 *m*~e~, ε~r~ = 11,7). Bandingkan energinya dengan *kT* pada 300 K. Jari-jari Bohr hidrogen 0,0529 nm, dan jari-jari orbit donor *a* = *a*₀ ε~r~/(*m*\*/*m*~e~).
 
 **Penyelesaian.** *E*~d~ = 13,6 × 0,26/11,7² = **0,026 eV** (26 meV). Jari-jari: 0,0529 × 11,7/0,26 = **2,4 nm**, sekitar sepuluh jarak Si–Si. Energi termal *kT* = 0,026 eV pada 300 K, sama dengan energi ikat.
 
-**Memahami hasil.** Model sederhana ini memberi 26 meV, sedangkan pengukuran untuk P dalam Si memberi 45 meV; perbedaannya karena elektron yang dekat dengan inti P merasakan lebih dari sekadar muatan titik yang dilemahkan. Namun kesimpulannya jelas: energi ikat donor hanya sebanding dengan *kT*, sehingga pada suhu kamar hampir semua atom donor sudah melepaskan elektronnya ke pita konduksi. Dalam diagram pita, tingkat donor terletak tepat di bawah pita konduksi (Gambar 7.5 kiri). Elektron yang hampir bebas ini mengorbit dalam bola berjari-jari 2,4 nm yang memuat sekitar 3000 atom Si; jadi "atom hidrogen" di dalam silikon jauh lebih besar dan jauh lebih lemah daripada atom hidrogen biasa.
+**Memahami hasil.** Model sederhana ini memberi 26 meV, sedangkan pengukuran untuk P dalam Si memberi 45 meV; perbedaannya karena elektron yang dekat dengan inti P merasakan lebih dari sekadar muatan titik yang dilemahkan. Namun kesimpulannya jelas: energi ikat donor hanya sebanding dengan *kT*, sehingga pada suhu kamar hampir semua atom donor sudah melepaskan elektronnya ke pita konduksi. Dalam diagram pita, tingkat donor terletak tepat di bawah pita konduksi (Gambar 7.6 kiri). Elektron yang hampir bebas ini mengorbit dalam bola berjari-jari 2,4 nm yang memuat sekitar 3000 atom Si; jadi "atom hidrogen" di dalam silikon jauh lebih besar dan jauh lebih lemah daripada atom hidrogen biasa.
 :::
 
 Silikon yang didoping fosfor (atau As, Sb) disebut **tipe n**, karena pembawa muatan utamanya negatif (elektron).
@@ -26,7 +26,7 @@ Silikon yang didoping fosfor (atau As, Sb) disebut **tipe n**, karena pembawa mu
 
 Sebaliknya, ganti Si dengan boron (golongan 13, tiga elektron valensi). Salah satu dari empat ikatan B–Si kekurangan satu elektron. Elektron dari ikatan Si–Si di dekatnya mudah melompat untuk mengisinya, sehingga "kekurangan" itu berpindah ke tempat lain: terbentuk **lubang** yang bebas bergerak di pita valensi. Dalam diagram pita, tingkat akseptor terletak tepat di atas pita valensi (energi ionisasi B dalam Si juga sekitar 45 meV). Silikon seperti ini disebut **tipe p**, karena pembawa utamanya positif (lubang).
 
-![Gambar 7.5 Kiri dan tengah: diagram pita silikon tipe n (tingkat donor P di bawah pita konduksi) dan tipe p (tingkat akseptor B di atas pita valensi). Kanan: jumlah pembawa intrinsik Ge, Si, dan GaAs terhadap suhu, dibandingkan dengan jumlah elektron dari doping 1 ppm fosfor dalam silikon.](fig/c_doping.png){width=98%}
+![Gambar 7.6 Kiri dan tengah: diagram pita silikon tipe n (tingkat donor P di bawah pita konduksi) dan tipe p (tingkat akseptor B di atas pita valensi). Kanan: jumlah pembawa intrinsik Ge, Si, dan GaAs terhadap suhu, dibandingkan dengan jumlah elektron dari doping 1 ppm fosfor dalam silikon.](fig/c_doping.png){width=98%}
 
 ### Seberapa besar pengaruh doping?
 
@@ -37,7 +37,7 @@ $$n\,p = n_\text{i}^2 \qquad \text{(7.7)}$$
 Persamaan ini adalah **hukum aksi massa** untuk "reaksi" pembentukan pasangan elektron–lubang, analog dengan [H⁺][OH⁻] = *K*~w~ dalam air. Menambah elektron dengan donor sekaligus mengurangi lubang, persis seperti menambah asam mengurangi [OH⁻].
 
 ::: {.contoh}
-**Contoh 7.5 · Satu atom per sejuta**
+**Contoh 7.8 · Satu atom per sejuta**
 
 Silikon (5,0 × 10²² atom per cm³, *n*~i~ = 1,0 × 10¹⁰ cm⁻³) didoping dengan 1 ppm fosfor. Hitung jumlah elektron dan lubang, serta perbandingan konduktivitasnya dengan silikon murni (anggap mobilitas tetap: μ~e~ = 1400, μ~h~ = 450 cm² V⁻¹ s⁻¹).
 
@@ -45,7 +45,7 @@ Silikon (5,0 × 10²² atom per cm³, *n*~i~ = 1,0 × 10¹⁰ cm⁻³) didoping 
 
 Konduktivitas: σ = 5,0 × 10¹⁶ × 1,602 × 10⁻¹⁹ × 1400 = **11 S cm⁻¹**, dibandingkan 3 × 10⁻⁶ S cm⁻¹ untuk silikon murni: naik sekitar **4 × 10⁶ kali**.
 
-**Memahami hasil.** Satu atom asing per sejuta atom menaikkan konduktivitas empat juta kali dan membuat lubang hampir lenyap. Di sisi lain, ini juga menunjukkan betapa murninya silikon untuk elektronika harus dibuat sebelum didoping: pengotor yang tidak dikehendaki harus berada di bawah sekitar satu per milyar. Silikon kelas elektronik dimurnikan sampai 99,9999999 % (sembilan angka sembilan), salah satu bahan termurni yang pernah dibuat manusia. Doping juga membuat jumlah pembawa hampir tidak bergantung pada suhu (garis putus-putus pada Gambar 7.5 kanan) sampai pembawa intrinsik menyusulnya pada sekitar 600 K.
+**Memahami hasil.** Satu atom asing per sejuta atom menaikkan konduktivitas empat juta kali dan membuat lubang hampir lenyap. Di sisi lain, ini juga menunjukkan betapa murninya silikon untuk elektronika harus dibuat sebelum didoping: pengotor yang tidak dikehendaki harus berada di bawah sekitar satu per milyar. Silikon kelas elektronik dimurnikan sampai 99,9999999 % (sembilan angka sembilan), salah satu bahan termurni yang pernah dibuat manusia. Doping juga membuat jumlah pembawa hampir tidak bergantung pada suhu (garis putus-putus pada Gambar 7.6 kanan) sampai pembawa intrinsik menyusulnya pada sekitar 600 K.
 :::
 
 ::: {.kuis}
@@ -58,7 +58,7 @@ Hampir semua perangkat semikonduktor dibangun dari satu struktur: **sambungan p�
 
 Ketika kedua daerah bertemu, elektron dari sisi n berdifusi ke sisi p dan bergabung dengan lubang di sana; lubang dari sisi p berdifusi ke sisi n dan bergabung dengan elektron. Di sekitar sambungan terbentuk **daerah deplesi** yang hampir tanpa pembawa, berisi ion donor positif (sisi n) dan ion akseptor negatif (sisi p) yang tidak dapat bergerak. Muatan-muatan ini menimbulkan medan listrik yang menahan difusi lebih lanjut. Dalam diagram pita, pita-pita **melengkung** di sekitar sambungan, sehingga tingkat Fermi sama di kedua sisi, dan terbentuk penghalang energi bagi elektron yang ingin berpindah dari n ke p (sekitar 0,7 eV untuk silikon).
 
-![Gambar 7.6 Diagram pita sambungan p–n. Kiri: tanpa tegangan, pita melengkung dan membentuk penghalang di sambungan. Kanan: tegangan maju (sisi p positif) menurunkan penghalang, sehingga elektron dan lubang mengalir ke sambungan dan bergabung kembali; pada LED, penggabungan ini memancarkan foton.](fig/c_pn.png){width=94%}
+![Gambar 7.7 Diagram pita sambungan p–n. Kiri: tanpa tegangan, pita melengkung dan membentuk penghalang di sambungan. Kanan: tegangan maju (sisi p positif) menurunkan penghalang, sehingga elektron dan lubang mengalir ke sambungan dan bergabung kembali; pada LED, penggabungan ini memancarkan foton.](fig/c_pn.png){width=94%}
 
 ### Dioda
 
@@ -86,7 +86,7 @@ Pemilihan celah pita adalah kompromi. Foton dengan energi di bawah celah tidak d
 
 Persamaan (7.8) juga menjelaskan warna banyak padatan. Sebuah semikonduktor menyerap semua foton yang energinya **lebih besar** daripada celah pitanya dan meneruskan (atau memantulkan) foton yang energinya lebih kecil. Cahaya tampak terentang dari sekitar 1,65 eV (merah, 750 nm) sampai 3,3 eV (ungu, 380 nm).
 
-![Gambar 7.7 Celah pita beberapa padatan dibandingkan dengan rentang energi cahaya tampak. Padatan menyerap semua cahaya dengan energi di kiri garisnya (energi lebih besar daripada celah) dan meneruskan cahaya di kanannya.](fig/c_warna.png){width=94%}
+![Gambar 7.8 Celah pita beberapa padatan dibandingkan dengan rentang energi cahaya tampak. Padatan menyerap semua cahaya dengan energi di kiri garisnya (energi lebih besar daripada celah) dan meneruskan cahaya di kanannya.](fig/c_warna.png){width=94%}
 
 Tabel 7.1 Celah pita dan warna beberapa padatan.
 
@@ -118,7 +118,7 @@ Seri CdS (kuning) – CdSe (merah) – CdTe (hitam) memperlihatkan tren di subba
 
 Pada 1911, Heike Kamerlingh Onnes, orang pertama yang berhasil mencairkan helium, mendinginkan raksa dan mengukur hambatannya. Pada 4,15 K, hambatan itu tiba-tiba lenyap, bukan menjadi kecil, melainkan **nol** dalam batas ketelitian pengukuran. Arus yang dibangkitkan dalam cincin superkonduktor dapat mengalir bertahun-tahun tanpa berkurang. Fenomena ini disebut **superkonduktivitas**, dan suhu di bawahnya terjadi disebut **suhu kritis** *T*~c~.
 
-![Gambar 7.8 Kiri: hambatan logam biasa turun perlahan ketika didinginkan, sedangkan hambatan raksa tiba-tiba menjadi nol pada 4,15 K. Kanan: suhu kritis beberapa superkonduktor menurut tahun penemuannya. Kuprat (jingga) adalah yang pertama melampaui titik didih nitrogen cair (77 K).](fig/c_super.png){width=92%}
+![Gambar 7.9 Kiri: hambatan logam biasa turun perlahan ketika didinginkan, sedangkan hambatan raksa tiba-tiba menjadi nol pada 4,15 K. Kanan: suhu kritis beberapa superkonduktor menurut tahun penemuannya. Kuprat (jingga) adalah yang pertama melampaui titik didih nitrogen cair (77 K).](fig/c_super.png){width=92%}
 
 Superkonduktor mempunyai dua ciri utama:
 

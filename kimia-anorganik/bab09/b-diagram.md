@@ -14,12 +14,12 @@ Setengah reaksi lengkap, beserta H⁺ dan H₂O yang diperlukan, tidak ditulis; 
 
 Bagaimana menghitung *E*° untuk MnO₄⁻/Mn²⁺, yang melompati beberapa tahap? Potensial **tidak dapat dijumlahkan langsung**, karena potensial adalah besaran intensif. Yang dapat dijumlahkan adalah energi Gibbs, Δ*G*° = −*nFE*°. Untuk dua tahap berurutan dengan *n*₁ dan *n*₂ elektron:
 
-$$E^\circ = \frac{n_1E^\circ_1 + n_2E^\circ_2}{n_1 + n_2} \qquad \text{(9.4)}$$
+$$E^\circ = \frac{n_1E^\circ_1 + n_2E^\circ_2}{n_1 + n_2} \qquad \text{(9.5)}$$
 
 Secara umum, potensial gabungan adalah rata-rata potensial tahap-tahapnya, **dibobot dengan jumlah elektron**.
 
 ::: {.contoh}
-**Contoh 9.5 · Potensial gabungan dari diagram Latimer**
+**Contoh 9.9 · Potensial gabungan dari diagram Latimer**
 
 Dari diagram Latimer mangan dan tembaga di atas, hitung *E*° untuk (a) Cu²⁺/Cu; (b) MnO₄⁻/MnO₂; (c) MnO₂/Mn²⁺; (d) MnO₄⁻/Mn²⁺.
 
@@ -83,7 +83,7 @@ Cara membaca diagram Frost:
 4. Spesies yang berada **di bawah** garis yang menghubungkan dua spesies lain akan terbentuk lewat **komproporsionasi** keduanya.
 
 ::: {.contoh}
-**Contoh 9.6 · Menyusun diagram Frost mangan**
+**Contoh 9.10 · Menyusun diagram Frost mangan**
 
 Susun titik-titik diagram Frost mangan pada pH 0 dari diagram Latimer di subbab 9.5, dan tentukan spesies yang terdisproporsionasi.
 
@@ -117,7 +117,7 @@ Ada tiga jenis garis:
 ![Gambar 9.4 Diagram Pourbaix besi untuk konsentrasi spesies terlarut 10⁻⁶ mol L⁻¹, dihitung dari *E*° dan *K*~sp~. Garis putus-putus biru adalah batas kestabilan air. Daerah Fe(OH)₃ yang luas di dalam jendela air menjelaskan mengapa besi berkarat dalam air beroksigen.](fig/b_pourbaix.png){width=80%}
 
 ::: {.contoh}
-**Contoh 9.7 · Membangun diagram Pourbaix besi**
+**Contoh 9.11 · Membangun diagram Pourbaix besi**
 
 Untuk konsentrasi besi terlarut 10⁻⁶ mol L⁻¹, hitung (a) pH ketika Fe(OH)₃ mulai mengendap dari Fe³⁺ (*K*~sp~ = 2,8 × 10⁻³⁹); (b) pH ketika Fe(OH)₂ mulai mengendap dari Fe²⁺ (*K*~sp~ = 4,9 × 10⁻¹⁷); (c) potensial garis Fe²⁺/Fe; (d) persamaan garis Fe(OH)₃/Fe²⁺.
 

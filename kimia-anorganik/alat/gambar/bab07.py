@@ -115,3 +115,20 @@ nm = ['Hg\n1911', 'Nb\n1930', 'Nb₃Sn\n1954', 'Nb₃Ge\n1973', 'YBCO\n1987', 'H
 a2.bar(range(7), Tc, color=[MUDA] * 4 + [JG, JG, MUDA], edgecolor=TUA); a2.axhline(77, color=BIRU, ls='--', lw=1); a2.text(-.4, 80, 'N₂ cair 77 K', color=BIRU, fontsize=8)
 a2.set_xticks(range(7)); a2.set_xticklabels(nm, fontsize=6.8); a2.set_ylabel('$T_c$ (K)'); koma(a2, 'y')
 simpan(f, 'c_super')
+# === pendalaman (revisi 2): distorsi Peierls ===
+k = np.linspace(-np.pi, np.pi, 400)
+f, (a1, a2) = plt.subplots(1, 2, figsize=(7.0, 3.0), sharey=True)
+E0 = 2 * np.cos(k / 1)  # rantai seragam, satuan |β|, sel satuan 1 atom (dipetakan ke 2 atom)
+for s in (1, -1):
+    Eu = s * 2 * np.abs(np.cos(k / 2)); a1.plot(k, Eu, color=TUA, lw=2)
+a1.fill_between(k, -2 * np.abs(np.cos(k / 2)), 0 * k, color=JG, alpha=.5); a1.axhline(0, color=JGT, ls='--', lw=1); a1.text(-2.2, .15, '$E_F$', color=JGT, fontsize=9)
+a1.set_title('rantai seragam: logam', fontsize=9, color=TUA)
+b1, b2 = 1.2, 0.8
+for s in (1, -1):
+    Ed = s * np.sqrt(b1 ** 2 + b2 ** 2 + 2 * b1 * b2 * np.cos(k)); a2.plot(k, Ed, color=TUA, lw=2)
+a2.fill_between(k, -np.sqrt(b1 ** 2 + b2 ** 2 + 2 * b1 * b2 * np.cos(k)), -abs(b1 - b2) + 0 * k, color=JG, alpha=.5)
+a2.annotate('', (np.pi * .97, abs(b1 - b2)), (np.pi * .97, -abs(b1 - b2)), arrowprops=dict(arrowstyle='<->', color=JGT)); a2.text(1.5, -.1, 'celah\n2|β$_1$ − β$_2$|', fontsize=8, color=JGT)
+a2.set_title('ikatan berselang pendek–panjang: celah', fontsize=9, color=TUA)
+for ax in (a1, a2): ax.set_xticks([-np.pi, 0, np.pi]); ax.set_xticklabels(['−π/a', '0', 'π/a']); ax.set_xlabel('bilangan gelombang k')
+a1.set_ylabel('energi (satuan |β|)'); koma(a1, 'y')
+simpan(f, 'b_peierls')

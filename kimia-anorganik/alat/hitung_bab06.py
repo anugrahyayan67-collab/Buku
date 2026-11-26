@@ -84,3 +84,21 @@ for m in ('Mg', 'Ca', 'Sr', 'Ba'):
 for m in ('Mg', 'Ca', 'Sr', 'Ba'):
     dU = kap(2, 2, 2, rS[m] + 140) - kap(2, 2, 2, rS[m] + 178)
     print('selisih U(MO)-U(MCO3) Kapustinskii', m, round(dU))
+
+# === pendalaman (revisi 2) ===
+import math
+def kap(nu,zz,s): return 1.2025e5*nu*zz/s*(1-34.5/s)
+dfNH4=-45.9+1536.2-853.6; L=dfNH4+(-233.1)-(-314.4)
+print('ΔfH NH4+(g)',dfNH4,' entalpi kisi NH4Cl',L)
+lo,hi=200,500
+for _ in range(60):
+    m=(lo+hi)/2
+    if kap(2,1,m)>L: lo=m
+    else: hi=m
+print('jumlah jari-jari',m,' r(NH4+)',m-181)
+r={'Na':102,'Mg':72,'Ca':100,'Sr':118,'Ba':135,'F':133,'Cl':181,'Br':196,'I':220,'O':140}
+mp={'NaF':993,'NaCl':801,'NaBr':747,'NaI':661,'MgO':2852,'CaO':2613,'SrO':2531,'BaO':1923}
+for k,v in mp.items():
+    a,b=(k[:2],k[2:]) if k[:2] in r else (k[:1],k[1:])
+    zz=1 if a=='Na' else 4
+    print(k,'U kap',round(kap(2,zz,r[a]+r[b])),'tl',v)

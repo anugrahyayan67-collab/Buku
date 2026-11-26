@@ -9,6 +9,7 @@ Mengapa logam ccp (Au, Cu, Al) umumnya lebih mudah ditempa daripada logam hcp (Z
 Mengapa titik leleh logam alkali jauh lebih rendah daripada logam transisi? ||| hanya satu elektron valensi s per atom, tanpa pita d berikatan
 Hukum Wiedemann–Franz menyatakan konduktivitas panas sebanding dengan konduktivitas listrik pada logam. Apa artinya secara mikroskopis? ||| panas dan listrik sama-sama dibawa elektron bebas
 Hitung hambatan seutas kawat tembaga sepanjang 1 m dengan penampang 1 mm² (resistivitas 1,68 × 10⁻⁸ Ω m). ||| 0,0168 Ω
+Ramalkan konduktivitas panas aluminium (σ = 3,77 × 10⁷ S m⁻¹) pada 300 K dengan hukum Wiedemann–Franz. Nilai terukur 237 W m⁻¹ K⁻¹. ||| 276 W m⁻¹ K⁻¹ (16 % di atas)
 
 ## Subbab 7.2: Paduan: larutan padat dan senyawa antarlogam
 
@@ -30,6 +31,8 @@ Mengapa lantanida hampir tidak membentuk pita 4f? ||| orbital 4f sangat terpusat
 Mengapa magnesium (3s²) adalah logam, bukan isolator? ||| pita 3s dan 3p bertumpang tindih; keduanya terisi sebagian
 Satu mol natrium membentuk pita 3s. Berapa orbital dan berapa elektron dalam pita itu? Berapa bagian yang terisi? ||| 6,0 × 10²³ orbital, 6,0 × 10²³ elektron; setengah penuh
 Orbital mana yang paling berikatan dan mana yang paling antiikatan dalam pita s rantai panjang? ||| semua bertanda sama (tanpa simpul) paling berikatan; tanda berganti tiap atom paling antiikatan
+Mengapa rantai atom hidrogen yang panjang tidak menjadi logam satu dimensi? ||| distorsi Peierls: berpasangan menjadi H₂, celah di tingkat Fermi
+@peierls [P] Poliasetilena murni bersifat semikonduktor, tetapi menjadi penghantar setelah didoping iodin. Jelaskan dengan distorsi Peierls dan doping. ||| ikatan berselang membuka celah ≈ 1,5 eV; I₂ menarik elektron → lubang di pita π
 
 ## Subbab 7.4: Kerapatan keadaan dan tingkat Fermi
 
@@ -40,6 +43,7 @@ Mengapa kapasitas panas elektron pada logam jauh lebih kecil daripada ramalan fi
 Apa perbedaan HOMO pada molekul dan tingkat Fermi pada logam? ||| keduanya orbital terisi tertinggi; pada padatan tingkat rapat, didefinisikan f = ½
 Mengapa hanya elektron di dekat tingkat Fermi yang dapat menghantarkan listrik? ||| elektron lebih dalam tidak mempunyai orbital kosong di dekatnya
 Kerapatan keadaan elektron bebas sebanding √*E*. Apakah pita nyata juga demikian? Jelaskan. ||| tidak; bentuknya bergantung struktur kristal dan jenis orbital (pita d sempit dan tinggi)
+Hitung τ dan lintasan bebas rata-rata natrium (σ = 2,1 × 10⁷ S m⁻¹, *n* = 2,53 × 10²⁸ m⁻³, *E*~F~ = 3,1 eV). ||| 2,9 × 10⁻¹⁴ s; ≈ 31 nm
 
 ## Subbab 7.5: Konduktor, isolator, dan semikonduktor intrinsik
 
@@ -51,6 +55,7 @@ Urutkan celah pita C (intan), Si, Ge, α-Sn dan jelaskan trennya. ||| 5,5 > 1,12
 Urutkan celah pita deret isoelektronik Ge, GaAs, ZnSe, CuBr dan jelaskan. ||| 0,66 < 1,42 < 2,7 < 3,0; makin ionik makin besar celah
 Mengapa NaCl isolator, padahal natrium logam? ||| pita valensi terpusat pada Cl⁻ penuh, pita konduksi pada Na⁺ kosong; celah ≈ 9 eV
 Mengapa grafit semilogam, sedangkan intan isolator? ||| grafit: pita π dan π* bersentuhan; intan: celah σ–σ* 5,5 eV
+Berapa kali *n*~i~ germanium (*E*~g~ = 0,66 eV) bertambah dari 300 K ke 350 K? Bandingkan dengan silikon (28 kali). ||| ≈ 7,8 kali; celah kecil → kurang peka
 
 ## Subbab 7.6: Semikonduktor tipe n dan tipe p
 
