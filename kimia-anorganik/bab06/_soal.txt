@@ -30,6 +30,9 @@ Mengapa tolakan hanya mengurangi energi kisi sekitar 10–15 %? ||| faktor (1 �
 Apa keunggulan persamaan Born–Mayer dibandingkan Born–Landé? ||| bentuk eksponensial lebih sesuai teori kuantum; ρ hampir tetap (34,5 pm), tidak perlu n per ion
 Hitung entalpi kisi ZnS (sfalerit, *r*₀ = 234,1 pm, *n* = 9) dengan Born–Landé. Nilai siklus 3619 kJ mol⁻¹. Berapa persen selisihnya? ||| 3457 kJ mol⁻¹; 4,5 %
 
+Modulus ruah LiF 67 GPa dan r₀ = 201,4 pm (struktur garam batu). Hitung eksponen Born-nya dengan persamaan (6.5) dan bandingkan dengan Tabel 6.2. ||| n ≈ 5,9; Tabel 6.2: (5 + 7)/2 = 6
+Bila r₀ diukur 1 % terlalu besar, berapa persen kesalahan pada (n − 1) yang dihitung dari kemampatan? Mengapa energi kisi tetap tidak banyak terpengaruh? ||| sekitar 4 % (pangkat empat); faktor (1 − 1/n) hampir tidak berubah
+[P] Tanpa menghitung: mana yang lebih mudah ditekan, MgO atau NaCl? Jelaskan dengan persamaan (6.5). ||| NaCl; MgO bermuatan 2+/2−, jarak lebih pendek, modulus ruah jauh lebih besar (sekitar 160 GPa)
 ## Subbab 6.4: Persamaan Kapustinskii
 
 Hitung entalpi kisi KF dan KBr dengan persamaan Kapustinskii (K⁺ 138, F⁻ 133, Br⁻ 196 pm). ||| 774; 646 kJ mol⁻¹
@@ -42,6 +45,8 @@ Hitung entalpi kisi CaCl₂ dengan Kapustinskii (Ca²⁺ 100, Cl⁻ 181 pm). Nil
 Urutkan titik leleh NaF, NaCl, MgO, CaO tanpa melihat data, lalu jelaskan dengan persamaan Kapustinskii. ||| NaCl < NaF < CaO < MgO
 Mengapa entalpi peleburan NaCl (28 kJ mol⁻¹) jauh lebih kecil daripada energi kisinya? ||| lelehan masih ionik; hanya keteraturan jarak jauh yang hilang
 
+Dengan r(NO₃⁻) = 174 pm dari Contoh 6.5, ramalkan entalpi kisi AgNO₃ (Ag⁺ 115 pm) dan TlNO₃ (Tl⁺ 150 pm). Apakah nilai sebenarnya untuk AgNO₃ diharapkan lebih besar atau lebih kecil daripada ramalan, dan mengapa? ||| sekitar 732 dan 663 kJ mol⁻¹; AgNO₃ sebenarnya lebih besar karena ikatan Ag–O sebagian kovalen (Ag⁺ mudah terpolarisasi dan mempolarisasi)
+Mengapa jari-jari termokimia disebut "efektif"? Apakah 174 pm untuk NO₃⁻ berarti nitrat berbentuk bola berjari-jari 174 pm? ||| tidak; bola bermuatan yang memberi energi kisi sama, bukan ukuran geometris
 ## Subbab 6.5: Siklus Born–Haber
 
 Susun siklus Born–Haber untuk LiF dan hitung entalpi kisinya: Δ~sub~*H*(Li) = 159,4; *I*₁ = 520,2; ½*D*(F–F) = 79,4; Δ~eg~*H*(F) = −328,2; Δ~f~*H*°(LiF) = −616,0 kJ mol⁻¹. ||| 1047 kJ mol⁻¹
@@ -77,6 +82,9 @@ Ramalkan dengan aturan ukuran: mana yang lebih larut, LiF atau LiI; MgSO₄ atau
 Mengapa BaSO₄ aman untuk foto rontgen, sedangkan BaCO₃ beracun? ||| BaSO₄ sangat sukar larut bahkan dalam asam; BaCO₃ larut dalam HCl lambung melepas Ba²⁺
 Mengapa entalpi hidrasi Al³⁺ (−4665 kJ mol⁻¹) jauh lebih besar daripada Na⁺? ||| ∝ z²/r: muatan 3, ion kecil
 
+Hitung Δ~lar~H°, Δ~lar~G°, dan Δ~lar~S° KCl dari data: KCl(s) −436,75 / −409,14; K⁺(aq) −252,38 / −283,27; Cl⁻(aq) −167,16 / −131,23 kJ mol⁻¹ (ΔfH° / ΔfG°). Apakah pelarutannya didorong entalpi atau entropi? ||| +17,2; −5,4 kJ mol⁻¹; +76 J K⁻¹ mol⁻¹; didorong entropi
+[P] Pelarutan MgSO₄ dan AlCl₃ anhidrat mempunyai Δ~lar~S° negatif, sedangkan NH₄NO₃ positif. Jelaskan perbedaan ini dari sudut pandang molekul air di sekitar ion. ||| ion kecil bermuatan tinggi menata banyak air (entropi turun lebih besar dari kenaikan akibat runtuhnya kisi); ion besar bermuatan satu menata sedikit air
+Berapa gram NH₄NO₃ diperlukan untuk mendinginkan 200 g air dari 30 °C ke 10 °C? (Δ~lar~H° = +25,7 kJ mol⁻¹, M = 80,04 g mol⁻¹) ||| sekitar 52 g
 ## Subbab 6.8: Kestabilan termal karbonat dan peroksida
 
 Hitung suhu penguraian CaCO₃ pada *p*(CO₂) = 1 bar dari Δ~r~*H*° = 178,3 kJ mol⁻¹ dan Δ~r~*S*° = 160,7 J K⁻¹ mol⁻¹. ||| 836 °C

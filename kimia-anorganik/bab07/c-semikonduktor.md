@@ -11,7 +11,7 @@ Seberapa lemah? Kita dapat menaksirnya dengan model atom hidrogen (Bab 1), denga
 $$E_\text{d} = 13{,}6\ \text{eV} \times \frac{m^*/m_\text{e}}{\varepsilon_\text{r}^2} \qquad \text{(7.6)}$$
 
 ::: {.contoh}
-**Contoh 7.7 · Atom hidrogen di dalam silikon**
+**Contoh 7.9 · Atom hidrogen di dalam silikon**
 
 Hitung energi ikat elektron donor dan jari-jari orbitnya dalam silikon (*m*\* = 0,26 *m*~e~, ε~r~ = 11,7). Bandingkan energinya dengan *kT* pada 300 K. Jari-jari Bohr hidrogen 0,0529 nm, dan jari-jari orbit donor *a* = *a*₀ ε~r~/(*m*\*/*m*~e~).
 
@@ -37,7 +37,7 @@ $$n\,p = n_\text{i}^2 \qquad \text{(7.7)}$$
 Persamaan ini adalah **hukum aksi massa** untuk "reaksi" pembentukan pasangan elektron–lubang, analog dengan [H⁺][OH⁻] = *K*~w~ dalam air. Menambah elektron dengan donor sekaligus mengurangi lubang, persis seperti menambah asam mengurangi [OH⁻].
 
 ::: {.contoh}
-**Contoh 7.8 · Satu atom per sejuta**
+**Contoh 7.10 · Satu atom per sejuta**
 
 Silikon (5,0 × 10²² atom per cm³, *n*~i~ = 1,0 × 10¹⁰ cm⁻³) didoping dengan 1 ppm fosfor. Hitung jumlah elektron dan lubang, serta perbandingan konduktivitasnya dengan silikon murni (anggap mobilitas tetap: μ~e~ = 1400, μ~h~ = 450 cm² V⁻¹ s⁻¹).
 
@@ -105,7 +105,36 @@ Pigmen-pigmen ini sudah dipakai jauh sebelum teori pita ada. Cinnabar (HgS) adal
 Seri CdS (kuning) – CdSe (merah) – CdTe (hitam) memperlihatkan tren di subbab 7.5: ke bawah golongan, celah mengecil, dan warnanya bergeser dari kuning ke merah ke hitam. Larutan padat CdS~*x*~Se~1−*x*~ mempunyai celah di antaranya, sehingga pembuat pigmen dapat memperoleh setiap warna dari kuning sampai merah marun hanya dengan mengatur perbandingan S dan Se.
 
 ::: {.terapan}
-**Titik kuantum.** Bila kristal CdSe diperkecil sampai beberapa nanometer, elektron dan lubang terkurung dalam ruang yang lebih kecil daripada orbit alaminya (seperti jari-jari donor di subbab 7.6). Akibatnya, seperti partikel dalam kotak, energinya naik dan celah efektif membesar. Kristal CdSe berukuran 2 nm berpendar hijau, 6 nm merah: satu bahan, semua warna, hanya diatur dengan ukuran. Partikel seperti ini disebut **titik kuantum**. Moungi Bawendi, Louis Brus, dan Aleksey Ekimov menerima Hadiah Nobel Kimia 2023 untuk penemuan dan sintesisnya. Titik kuantum kini dipakai dalam layar televisi QLED dan sebagai penanda fluoresens dalam biologi.
+**Titik kuantum.** Bila kristal CdSe diperkecil sampai beberapa nanometer, elektron dan lubang terkurung dalam ruang yang lebih kecil daripada orbit alaminya (seperti jari-jari donor di subbab 7.6). Akibatnya, seperti partikel dalam kotak, energinya naik dan celah efektif membesar. Kristal CdSe berdiameter sekitar 2 nm berpendar biru, sekitar 6 nm merah jingga: satu bahan, semua warna, hanya diatur dengan ukuran. Partikel seperti ini disebut **titik kuantum**. Moungi Bawendi, Louis Brus, dan Aleksey Ekimov menerima Hadiah Nobel Kimia 2023 untuk penemuan dan sintesisnya. Titik kuantum kini dipakai dalam layar televisi QLED dan sebagai penanda fluoresens dalam biologi.
+:::
+
+
+::: {.contoh}
+**Contoh 7.11 · Celah pita titik kuantum CdSe dengan model partikel dalam bola**
+
+Louis Brus (1984) memperkirakan celah efektif titik kuantum berjari-jari *R* sebagai celah pita padatan ditambah energi kurungan elektron dan lubang (partikel dalam bola), dikurangi tarikan Coulomb di antara keduanya:
+
+$$E_\text{g}(R) = E_\text{g} + \frac{h^2}{8R^2}\left(\frac{1}{m_\text{e}^*} + \frac{1}{m_\text{h}^*}\right) - \frac{1{,}786\,e^2}{4\pi\varepsilon_0\varepsilon_\text{r}R} \qquad \text{(7.9)}$$
+
+Untuk CdSe: *E*~g~ = 1,74 eV, massa efektif elektron *m*~e~* = 0,13*m*~e~ dan lubang *m*~h~* = 0,45*m*~e~, tetapan dielektrik ε~r~ = 10,6. Hitung celah dan panjang gelombang serapan pertama untuk kristal berdiameter 2, 4, dan 6 nm. Bandingkan dengan serapan terukur: sekitar 457, 585, dan 626 nm.
+
+**Rencana.** Suku kedua adalah energi keadaan dasar partikel dalam bola, *h*²/(8*mR*²), untuk elektron dan lubang. Suku ketiga adalah tarikan elektron–lubang yang diredam oleh dielektrik kristal. Hitung masing-masing dalam eV, lalu λ = 1240/*E*.
+
+**Penyelesaian.** Untuk *d* = 4 nm (*R* = 2,0 × 10⁻⁹ m):
+
+* kurungan: (6,626 × 10⁻³⁴)²/(8 × (2,0 × 10⁻⁹)² × 9,109 × 10⁻³¹) × (1/0,13 + 1/0,45) = 0,094 × 9,91 = 0,93 eV;
+* tarikan: 1,786 × 1,602 × 10⁻¹⁹/(4π × 8,854 × 10⁻¹² × 10,6 × 2,0 × 10⁻⁹) = 0,12 eV;
+* *E*~g~(*R*) = 1,74 + 0,93 − 0,12 = **2,55 eV**, λ = **486 nm**.
+
+Dengan cara yang sama:
+
+| Diameter | Kurungan (eV) | Tarikan (eV) | *E*~g~(*R*) (eV) | λ hitung | λ terukur |
+|---|---|---|---|---|---|
+| 2 nm | 3,73 | 0,24 | 5,23 | 237 nm | 457 nm |
+| 4 nm | 0,93 | 0,12 | 2,55 | 486 nm | 585 nm |
+| 6 nm | 0,41 | 0,08 | 2,07 | 598 nm | 626 nm |
+
+**Memahami hasil.** Model sesederhana partikel dalam bola menangkap pokok fisikanya: celah membesar dengan 1/*R*², sehingga kristal kecil menyerap dan berpendar pada panjang gelombang lebih pendek. Untuk kristal 6 nm ramalannya meleset hanya 5 %, tetapi untuk 2 nm meleset jauh. Penyebabnya dapat dipahami: model menganggap dinding kotak tak hingga tinggi (padahal elektron sedikit "bocor" ke luar kristal) dan menganggap massa efektif tetap (padahal pita tidak lagi parabolik pada energi setinggi itu). Ketika ukuran kristal mendekati beberapa lapis atom saja, gambaran "padatan kecil" harus diganti dengan gambaran "molekul besar", dan perhitungan orbital molekul diperlukan. Titik kuantum menempati wilayah tepat di antara kedua dunia itu.
 :::
 
 ::: {.kuis}

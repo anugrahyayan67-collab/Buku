@@ -6,11 +6,12 @@
 | Tetapan Madelung | *A* bergantung hanya pada geometri; NaCl 1,74756, CsCl 1,76267, ZnS 1,63806, CaF₂ 2,51939; dijumlahkan dengan kubus netral (Evjen) | 6.2 |
 | Born–Landé | *U* = −*N*~A~*A*\|*z*₊*z*₋\|*e*²/(4πε₀*r*₀) × (1 − 1/*n*); *n* = 5 (He) … 12 (Xe) | 6.3 |
 | Born–Mayer | faktor (1 − ρ/*r*₀), ρ = 34,5 pm | 6.3 |
-| Kapustinskii | *U* = −1,2025 × 10⁵ ν\|*z*₊*z*₋\|/(*r*₊ + *r*₋) × (1 − 34,5/(*r*₊ + *r*₋)); tanpa struktur; *U* ∝ muatan × jumlah ion / jumlah jari-jari; titik leleh naik bersama *U* dalam satu deret (NaI < … < NaF; BaO < … < MgO) | 6.4 |
+| Eksponen Born dari kemampatan | *n* = 1 + 72πε₀*r*₀⁴*K*/(*Az*²*e*²); NaCl 7,8, KCl 8,6 | 6.3 |
+| Kapustinskii | *U* = −1,2025 × 10⁵ ν\|*z*₊*z*₋\|/(*r*₊ + *r*₋) × (1 − 34,5/(*r*₊ + *r*₋)); tanpa struktur; jari-jari termokimia ion poliatomik diturunkan terbalik (NO₃⁻ ≈ 174 pm dari KNO₃); *U* ∝ muatan × jumlah ion / jumlah jari-jari; titik leleh naik bersama *U* dalam satu deret (NaI < … < NaF; BaO < … < MgO) | 6.4 |
 | Born–Haber | Δ~f~*H*° = Δ~sub~*H* + ½*D* + *I* + Δ~eg~*H* − Δ~kisi~*H*; NaCl 788 kJ mol⁻¹; energi kisi adalah gaya pendorong; NH₄Cl 718 ≈ KCl 717 kJ mol⁻¹ (NH₄⁺ seukuran K⁺) | 6.5 |
 | Anion bermuatan tinggi | O → O²⁻ memerlukan ≈ +610 kJ mol⁻¹; O²⁻ hanya ada di kisi | 6.5 |
 | Senyawa hipotetis | MgCl terdisproporsionasi; MgCl₃ +4257 kJ mol⁻¹; NeCl +1108; penalaran Bartlett untuk XePtF₆ | 6.6 |
-| Kelarutan | Δ~lar~*H* = Δ~kisi~*H* + ΣΔ~hid~*H*; selisih kecil dua bilangan besar; ion berbeda ukuran mudah larut | 6.7 |
+| Kelarutan | Δ~lar~*H* = Δ~kisi~*H* + ΣΔ~hid~*H*; selisih kecil dua bilangan besar; ion berbeda ukuran mudah larut; Δ~lar~*G* = Δ~lar~*H* − *T*Δ~lar~*S*: NH₄NO₃ larut endoterm karena didorong entropi, CaCl₂ eksoterm | 6.7 |
 | Kestabilan termal | MCO₃ → MO + CO₂: Mg 302, Ca 836, Sr 1098, Ba 1292 °C; ion besar distabilkan ion besar | 6.8 |
 | Karakter kovalen | selisih Born–Landé dan siklus: halida alkali 3–6 %, halida perak 11–18 % (F < Cl < Br < I) | 6.9 |
 

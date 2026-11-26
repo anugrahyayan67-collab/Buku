@@ -37,6 +37,8 @@ Mengapa [Fe(CN)₆]³⁻ oksidator yang lebih lemah daripada Fe³⁺(aq)? ||| CN
 Hitung potensial istirahat membran (37 °C) bila [K⁺] di dalam sel 30 kali di luar. ||| ≈ −91 mV
 Berapa mV perubahan potensial elektrode kaca bila pH berubah 2 satuan pada 25 °C? ||| 118 mV
 
+E°([Fe(phen)₃]³⁺/[Fe(phen)₃]²⁺) = +1,06 V, sedangkan E°(Fe³⁺/Fe²⁺) = +0,771 V. Bentuk mana yang distabilkan lebih kuat oleh fenantrolina, dan berapa log(β₃(II)/β₃(III))? ||| Fe(II); sekitar 4,9
+[P] Ligan sianida menurunkan E° Co(III)/Co(II) jauh lebih banyak daripada amonia. Apa artinya bagi kestabilan relatif kompleks Co(III) dan Co(II) sianida? Hubungkan dengan medan ligan. ||| CN⁻ medan kuat, EPML Co(III) d⁶ spin rendah sangat besar; Co(II) sianida mudah teroksidasi (bahkan mereduksi air)
 ## Subbab 9.4: Kestabilan dalam air: jendela kestabilan dan overpotensial
 
 Tuliskan persamaan garis atas dan bawah jendela kestabilan air terhadap pH. ||| E = 1,229 − 0,0592 pH; E = −0,0592 pH
@@ -48,6 +50,8 @@ Mengapa larutan Co³⁺ dalam air tidak dapat disimpan lama? ||| E° 1,92 V > 1,
 Mengapa seng dapat diendapkan secara elektrolisis dari larutan asam? ||| overpotensial H₂ pada seng besar (≈ 0,7 V)
 Berapa gram perak terendapkan oleh arus 0,500 A selama 30,0 menit? ||| 1,01 g
 
+Ulangi Contoh 9.8 untuk ruang anode pada pH 1. Berapa selisih potensial termodinamika O₂ dan Cl₂ sekarang? ||| O₂ 1,170 V, Cl₂ 1,317 V; selisih 0,15 V (masih O₂ lebih mudah secara termodinamika)
+[P] Mengapa gas fluorin tidak dapat dibuat dengan elektrolisis larutan NaF dalam air, sedangkan klorin dapat dibuat dari air garam? Bagaimana F₂ dibuat di industri? ||| E°(F₂/F⁻) = 2,87 V, jauh di atas air bahkan setelah overpotensial; dibuat dari KF dalam HF cair (anhidrat)
 ## Subbab 9.5: Diagram Latimer
 
 Dari diagram Latimer oksigen dalam asam, O₂ →(+0,695) H₂O₂ →(+1,776) H₂O, hitung *E*°(O₂/H₂O). ||| (2 × 0,695 + 2 × 1,776)/4 = 1,236 V
@@ -67,6 +71,8 @@ Apakah HClO terdisproporsionasi dalam asam menurut diagram Latimer klorin di ata
 Tuliskan reaksi komproporsionasi antara IO₃⁻ dan I⁻ dalam asam. Untuk apa reaksi ini dipakai? ||| IO₃⁻ + 5I⁻ + 6H⁺ → 3I₂ + 3H₂O; standarisasi tiosulfat (iodometri)
 @cl2basa [P] Jelaskan mengapa Cl₂ terdisproporsionasi dalam basa tetapi tidak dalam asam. Tuliskan reaksi pembuatan pemutih. ||| basa: ClO⁻/Cl₂ 0,42 < Cl₂/Cl⁻ 1,36; asam: HClO/Cl₂ 1,63 > 1,36; Cl₂ + 2OH⁻ → Cl⁻ + ClO⁻ + H₂O
 
+K~sp~ CuBr = 6,27 × 10⁻⁹. Hitung E°(CuBr/Cu) dan E°(Cu²⁺/CuBr). Apakah CuBr stabil terhadap disproporsionasi? ||| +0,036 V dan +0,638 V; stabil (kiri > kanan)
+Jelaskan mengapa penetapan tembaga secara iodometri tidak akan berhasil bila CuI larut seperti CuSO₄. ||| tanpa pengendapan, E°(Cu²⁺/Cu⁺) = 0,153 V < E°(I₂/I⁻) = 0,536 V; Cu²⁺ tidak dapat mengoksidasi I⁻
 ## Subbab 9.7: Diagram Frost
 
 Apa arti sumbu tegak *NE*° dalam diagram Frost? ||| −ΔG°/F pembentukan spesies dari unsur (volt-ekuivalen)
@@ -90,7 +96,7 @@ Apa kegunaan diagram Pourbaix bagi ahli lingkungan? ||| meramalkan bentuk unsur 
 Mengapa garis oksidasi logam pada diagram Ellingham umumnya naik dengan suhu? ||| ΔS° negatif (O₂ gas dikonsumsi)
 Mengapa garis 2C + O₂ → 2CO turun dengan suhu? ||| 1 mol gas → 2 mol gas, ΔS° positif
 @termit [P] Dengan diagram Ellingham, jelaskan reaksi termit 2Al + Fe₂O₃ → Al₂O₃ + 2Fe. Hitung Δ*G*° per mol O₂ yang dipindahkan pada 298 K (Al₂O₃: −1054,8; Fe₂O₃ per mol O₂: −494,9 kJ). ||| garis Al₂O₃ jauh di bawah Fe₂O₃; ΔG° ≈ −560 kJ per mol O₂
-Hitung suhu ketika C/CO memotong garis FeO (Δ*H*°, Δ*S*° di Contoh 9.12). ||| 1019 K
+Hitung suhu ketika C/CO memotong garis FeO (Δ*H*°, Δ*S*° di Contoh 9.15). ||| 1019 K
 Pada suhu berapa Ag₂O terurai menjadi Ag dan O₂ (Δ*H*° = −62,2 kJ, Δ*S*° = −132,8 J K⁻¹ per mol O₂)? ||| 468 K
 Mengapa aluminium diproduksi dengan elektrolisis, bukan reduksi karbon? ||| C/CO memotong Al₂O₃ di atas 2300 K; terlalu tinggi, terbentuk karbida
 Mengapa daur ulang aluminium sangat hemat energi? ||| melelehkan ≈ 5 % energi produksi elektrolisis
@@ -107,3 +113,4 @@ Sebutkan urutan oksidator yang dipakai mikroorganisme setelah O₂ habis. ||| ni
 
 Hitung kapasitas spesifik teoretis LiFePO₄ (*M* = 157,76 g mol⁻¹, satu Li per satuan rumus). ||| 170 mA h g⁻¹
 @sbb [P] Mengapa efisiensi maksimum sel bahan bakar hidrogen (83 %) tidak dibatasi efisiensi Carnot, sedangkan pembangkit listrik termal dibatasi? ||| sel mengubah ΔG langsung menjadi kerja listrik; mesin panas mengubah kalor
+Berapa massa anode aluminium (efisiensi 100 %) yang diperlukan untuk Contoh 9.16 (2,0 A selama setahun)? Mengapa aluminium murni jarang dipakai sebagai anode korban? ||| 5,9 kg; aluminium membentuk lapisan oksida pasif, sehingga dipakai paduan dengan In atau Zn untuk mencegah pasivasi

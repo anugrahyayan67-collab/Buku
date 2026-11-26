@@ -46,7 +46,7 @@ $$E_\text{F} = \frac{\hbar^2}{2m_\text{e}}\left(3\pi^2 n\right)^{2/3} \qquad \te
 dengan *n* jumlah elektron bebas per satuan volume.
 
 ::: {.contoh}
-**Contoh 7.3 · Energi Fermi tembaga dan natrium**
+**Contoh 7.5 · Energi Fermi tembaga dan natrium**
 
 Hitung energi Fermi tembaga (ccp, *a* = 361,5 pm, satu elektron valensi per atom) dan natrium (bcc, *a* = 429,1 pm, satu elektron per atom). Bandingkan dengan energi termal *kT* pada 300 K.
 
@@ -60,7 +60,7 @@ Natrium: 2 atom per sel, *n* = 2,53 × 10²⁸ m⁻³, *E*~F~ = **3,1 eV**. Pada
 :::
 
 ::: {.contoh}
-**Contoh 7.4 · Seberapa jauh elektron bergerak sebelum terhambur?**
+**Contoh 7.6 · Seberapa jauh elektron bergerak sebelum terhambur?**
 
 Dalam model Drude, konduktivitas logam adalah σ = *ne*²τ/*m*~e~, dengan τ waktu rata-rata antara dua hamburan. Untuk tembaga (σ = 5,96 × 10⁷ S m⁻¹, *n* = 8,47 × 10²⁸ m⁻³, *E*~F~ = 7,0 eV), hitung τ dan **lintasan bebas rata-rata** ℓ = *v*~F~τ, dengan *v*~F~ kelajuan elektron di tingkat Fermi.
 
@@ -112,7 +112,7 @@ $$n_\text{i} = \sqrt{N_\text{c}N_\text{v}}\ \exp\!\left(-\frac{E_\text{g}}{2kT}\
 $$\sigma = n e \mu_\text{e} + p e \mu_\text{h} \qquad \text{(7.5)}$$
 
 ::: {.contoh}
-**Contoh 7.5 · Pembawa intrinsik dalam Si, Ge, GaAs, dan intan**
+**Contoh 7.7 · Pembawa intrinsik dalam Si, Ge, GaAs, dan intan**
 
 Hitung *n*~i~ pada 300 K. Data (*E*~g~ dalam eV; *N*~c~, *N*~v~ dalam cm⁻³): Si 1,12, 2,8 × 10¹⁹, 1,04 × 10¹⁹; Ge 0,66, 1,04 × 10¹⁹, 6,0 × 10¹⁸; GaAs 1,42, 4,7 × 10¹⁷, 7,0 × 10¹⁸; intan 5,47, ≈ 10¹⁹, ≈ 10¹⁹. Lalu hitung konduktivitas silikon murni dengan μ~e~ = 1400 dan μ~h~ = 450 cm² V⁻¹ s⁻¹.
 
@@ -124,7 +124,7 @@ Konduktivitas Si murni dengan *n*~i~ = 1 × 10¹⁰ cm⁻³: σ = 10¹⁰ × 1,6
 :::
 
 ::: {.contoh}
-**Contoh 7.6 · Pemanasan kecil, perubahan besar**
+**Contoh 7.8 · Pemanasan kecil, perubahan besar**
 
 Dengan persamaan (7.4), dan dengan memperhitungkan bahwa *N*~c~*N*~v~ sebanding dengan *T*³, hitung berapa kali *n*~i~ silikon (*E*~g~ = 1,12 eV) bertambah bila suhu naik dari 300 K ke 350 K.
 

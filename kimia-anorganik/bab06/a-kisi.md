@@ -180,16 +180,47 @@ dengan ρ = 34,5 pm yang hampir sama untuk semua halida alkali. Persamaan ini ti
 **Kuis cepat 6.3** Hitung energi kisi KCl (*r*₀ = 314,6 pm, *n* = 9) dengan persamaan Born–Landé. Bandingkan dengan NaCl. Faktor apa yang paling menentukan perbedaannya?
 :::
 
+
+### Dari mana eksponen Born? Kemampatan kristal
+
+Tabel 6.2 tampak seperti daftar angka yang dihafal, padahal setiap angkanya diukur. Gagasannya sederhana: bila kristal ditekan, ion-ion didorong saling mendekat dan tolakan naik. Makin "keras" ion (makin besar *n*), makin sulit kristal ditekan. Jadi *n* dapat dibaca dari **modulus ruah** *K* (kebalikan kemampatan κ), yang mudah diukur dengan menekan kristal dan mencatat perubahan volumenya.
+
+Turunannya hanya memerlukan dua langkah kalkulus. Tulis energi per mol sebagai *U*(*r*) = −*a*/*r* + *b*/*r*^*n*^ dengan *a* = *N*~A~*A*|*z*₊*z*₋|*e*²/(4πε₀). Modulus ruah didefinisikan sebagai *K* = *V*(d²*U*/d*V*²) pada kesetimbangan. Untuk struktur garam batu, satu mol pasangan ion menempati volume *V* = 2*N*~A~*r*³, sehingga d*V*/d*r* = 6*N*~A~*r*². Karena d*U*/d*r* = 0 di *r*₀, turunan kedua terhadap *V* hanyalah turunan kedua terhadap *r* dikali (d*r*/d*V*)²:
+
+$$\frac{\mathrm{d}^2U}{\mathrm{d}V^2} = \frac{\mathrm{d}^2U}{\mathrm{d}r^2}\left(\frac{\mathrm{d}r}{\mathrm{d}V}\right)^2 = \frac{a(n-1)}{r_0^3}\cdot\frac{1}{36N_\text{A}^2r_0^4}$$
+
+Suku *a*(*n* − 1)/*r*₀³ diperoleh dengan menurunkan *U*(*r*) dua kali lalu memakai syarat kesetimbangan untuk menghilangkan *b*. Mengalikan dengan *V* = 2*N*~A~*r*₀³ dan menyusun ulang memberi
+
+$$n = 1 + \frac{72\pi\varepsilon_0\,r_0^4\,K}{A\,z^2e^2} \qquad \text{(6.5)}$$
+
+Persamaan (6.5) memperlihatkan sesuatu yang menarik: *n* bergantung pada pangkat empat jarak antarion. Kesalahan 1 % pada *r*₀ menjadi kesalahan 4 % pada (*n* − 1). Karena itulah nilai di Tabel 6.2 dibulatkan, dan karena itu pula energi kisi tidak terlalu peka terhadap *n*: faktor (1 − 1/*n*) hanya berubah dari 0,875 ke 0,889 bila *n* naik dari 8 ke 9.
+
+::: {.contoh}
+**Contoh 6.3 · Eksponen Born NaCl dan KCl dari kemampatannya**
+
+Modulus ruah NaCl adalah 24,0 GPa dan KCl 17,4 GPa; jarak antarion masing-masing 282,0 dan 314,7 pm. Hitung eksponen Born keduanya dan bandingkan dengan Tabel 6.2.
+
+**Rencana.** Masukkan ke persamaan (6.5) dalam satuan SI: *r*₀ dalam meter, *K* dalam pascal, *A* = 1,74756, *z* = 1.
+
+**Penyelesaian.** Untuk NaCl:
+
+$$n - 1 = \frac{72\pi\,(8{,}854\times10^{-12})\,(2{,}820\times10^{-10})^4\,(2{,}40\times10^{10})}{1{,}74756\,(1{,}602\times10^{-19})^2} = 6{,}78$$
+
+sehingga *n* = 7,8. Perhitungan yang sama untuk KCl memberi *n* = 8,6.
+
+**Memahami hasil.** Tabel 6.2 meramalkan 8 untuk NaCl (rata-rata Ne dan Ar) dan 9 untuk KCl (Ar dan Ar). Kesepakatan ini bukan kebetulan: Tabel 6.2 memang disusun dari pengukuran seperti ini. KCl lebih mudah ditekan (*K* lebih kecil) karena ionnya lebih besar dan jarak antarionnya lebih panjang, tetapi awan elektron K⁺ yang berkulit lebih banyak justru lebih "keras" pada jarak dekat, sehingga *n* lebih besar.
+:::
+
 ## 6.4 Persamaan Kapustinskii
 
 Persamaan Born–Landé memerlukan struktur kristal, karena tetapan Madelung bergantung padanya. Bagaimana bila strukturnya belum diketahui, misalnya untuk senyawa yang belum pernah dibuat? Anatoli Kapustinskii (1956) memanfaatkan pengamatan di subbab 6.2: *A*/*ν* hampir sama untuk semua struktur, sekitar 0,87. Dengan mengganti *A* menjadi 0,87*ν*, memakai jumlah jari-jari ion sebagai *r*₀, dan memakai bentuk Born–Mayer untuk tolakan, ia memperoleh:
 
-$$U = -\frac{1{,}2025 \times 10^5\ \nu\,|z_+z_-|}{r_+ + r_-}\left(1 - \frac{34{,}5}{r_+ + r_-}\right)\ \text{kJ mol}^{-1} \qquad \text{(6.5)}$$
+$$U = -\frac{1{,}2025 \times 10^5\ \nu\,|z_+z_-|}{r_+ + r_-}\left(1 - \frac{34{,}5}{r_+ + r_-}\right)\ \text{kJ mol}^{-1} \qquad \text{(6.6)}$$
 
 dengan *r* dalam pikometer dan *ν* jumlah ion dalam satuan rumus (2 untuk NaCl, 3 untuk CaF₂ dan Na₂O, 5 untuk Al₂O₃).
 
 ::: {.contoh}
-**Contoh 6.3 · Persamaan Kapustinskii**
+**Contoh 6.4 · Persamaan Kapustinskii**
 
 Hitung energi kisi NaCl, MgO, dan CaF₂ dengan persamaan Kapustinskii, memakai jari-jari Shannon KB 6: Na⁺ 102, Mg²⁺ 72, Ca²⁺ 100, Cl⁻ 181, O²⁻ 140, F⁻ 133 pm. Bandingkan dengan siklus Born–Haber (787, 3795, 2651 kJ mol⁻¹).
 
@@ -208,16 +239,45 @@ Persamaan Kapustinskii juga menunjukkan dengan jelas apa yang menentukan besarny
 Energi kisi sebanding dengan **hasil kali muatan** ion dan **jumlah ion** dalam satuan rumus, dan berbanding terbalik dengan **jumlah jari-jari** ion. Ion kecil bermuatan tinggi menghasilkan kisi yang paling stabil.
 :::
 
+### Jari-jari termokimia ion poliatomik
+
+Ion seperti NO₃⁻, CO₃²⁻, atau SO₄²⁻ bukan bola, sehingga tidak mempunyai jari-jari dalam arti biasa. Namun persamaan Kapustinskii dapat dibalik: bila entalpi kisi suatu garam diketahui dari siklus Born–Haber dan jari-jari kationnya diketahui, kita dapat mencari jari-jari anion yang membuat persamaan (6.6) tepat. Jari-jari "efektif" ini disebut **jari-jari termokimia**. Ia tidak mengukur ukuran geometris ion, tetapi ukuran bola bermuatan yang **berperilaku energetik** sama dengan ion itu di dalam kisi. Tabel jari-jari termokimia yang paling lengkap disusun oleh H. D. B. Jenkins dan rekan (1999) untuk lebih dari 400 ion.
+
+::: {.contoh}
+**Contoh 6.5 · Jari-jari termokimia ion nitrat**
+
+Entalpi kisi KNO₃ adalah 685 kJ mol⁻¹. (a) Dengan *r*(K⁺) = 138 pm, carilah jari-jari termokimia NO₃⁻. (b) Ramalkan entalpi kisi LiNO₃, NaNO₃, RbNO₃, dan CsNO₃ (*r*₊ = 76, 102, 152, 167 pm) dan bandingkan dengan nilai dari siklus: 848, 755, 658, 648 kJ mol⁻¹.
+
+**Rencana.** Persamaan (6.6) untuk garam 1+/1− (*ν* = 2) hanya mengandung satu bilangan yang tidak diketahui, yaitu jumlah jari-jari *s* = *r*₊ + *r*₋. Selesaikan untuk *s*, lalu kurangkan *r*(K⁺).
+
+**Penyelesaian.** (a) Kita mencari *s* sehingga (2,405 × 10⁵/*s*)(1 − 34,5/*s*) = 685. Persamaan ini kuadratik dalam 1/*s*; penyelesaiannya (atau cukup dicoba-coba) adalah *s* = 312 pm. Jadi *r*(NO₃⁻) = 312 − 138 = **174 pm**.
+
+(b) Dengan *r*(NO₃⁻) = 174 pm:
+
+| Garam | *r*₊ + *r*₋ (pm) | Kapustinskii | Siklus | Selisih |
+|---|---|---|---|---|
+| LiNO₃ | 250 | 828 | 848 | −2,3 % |
+| NaNO₃ | 276 | 762 | 755 | +0,9 % |
+| RbNO₃ | 326 | 659 | 658 | +0,2 % |
+| CsNO₃ | 341 | 633 | 648 | −2,3 % |
+
+**Memahami hasil.** Satu jari-jari yang diturunkan dari satu garam meramalkan empat garam lain dalam 2–3 % (Gambar 6.3). Inilah kekuatan jari-jari termokimia: sekali diturunkan, ia dapat dipakai untuk garam yang belum pernah diukur. Penyimpangan terbesar ada di ujung deret. Li⁺ yang sangat kecil mempolarisasi nitrat (ada sedikit sifat kovalen yang menambah energi kisi), sedangkan Cs⁺ dalam nitratnya mempunyai bilangan koordinasi lebih besar daripada 6, sehingga jari-jari 167 pm terlalu kecil sebagai wakilnya. Nilai yang ditabelkan Jenkins sedikit berbeda dari 174 pm karena dirata-ratakan dari banyak garam, tetapi idenya sama persis.
+:::
+
+![Gambar 6.3 Entalpi kisi nitrat logam alkali. Garis: persamaan Kapustinskii dengan jari-jari termokimia NO₃⁻ yang diturunkan dari KNO₃ saja. Titik: nilai dari siklus Born–Haber. Satu parameter cukup untuk seluruh deret.](fig/a_nitrat.png){width=78%}
+
+Jari-jari termokimia yang sudah dipakai di buku ini sejalan dengan nilai Jenkins: CO₃²⁻ sekitar 178 pm (subbab 6.8), dan ion besar seperti BF₄⁻ atau PtF₆⁻ yang muncul di Bab 10 dan Bab 12 berjari-jari di atas 200 pm. Perhatikan bahwa nitrat (174 pm) dan karbonat (178 pm) hampir sama besar walaupun muatannya berbeda; keduanya planar segitiga dengan tiga oksigen.
+
 ### Energi kisi dan sifat fisis
 
 Energi kisi yang besar berarti ion-ion terikat kuat di tempatnya. Akibatnya terlihat pada sifat fisis yang paling sederhana: titik leleh, kekerasan, dan ketahanan terhadap pelarut.
 
-![Gambar 6.3 Titik leleh terhadap energi kisi Kapustinskii untuk natrium halida (kiri) dan oksida golongan 2 (kanan). Di dalam setiap deret, titik leleh naik bersama energi kisi; oksida bermuatan 2+/2− meleleh jauh lebih tinggi daripada halida 1+/1−.](fig/c_leleh.png){width=88%}
+![Gambar 6.4 Titik leleh terhadap energi kisi Kapustinskii untuk natrium halida (kiri) dan oksida golongan 2 (kanan). Di dalam setiap deret, titik leleh naik bersama energi kisi; oksida bermuatan 2+/2− meleleh jauh lebih tinggi daripada halida 1+/1−.](fig/c_leleh.png){width=88%}
 
-Dalam setiap deret senyawa sejenis, titik leleh naik bersama energi kisi (Gambar 6.3): NaI (661 °C) < NaBr < NaCl < NaF (993 °C), dan BaO (1923 °C) < SrO < CaO < MgO (2852 °C). Lompatan dari halida ke oksida, dari sekitar 800 °C ke lebih dari 2500 °C, mencerminkan faktor muatan empat kali lipat dalam persamaan (6.5). Itulah sebabnya MgO dan CaO dipakai sebagai bata tahan api untuk melapisi tanur baja, dan sebabnya Al₂O₃ (energi kisi lebih dari 15 000 kJ mol⁻¹) begitu keras sehingga dipakai sebagai amplas dan, dalam bentuk kristal tunggalnya, sebagai safir dan rubi.
+Dalam setiap deret senyawa sejenis, titik leleh naik bersama energi kisi (Gambar 6.4): NaI (661 °C) < NaBr < NaCl < NaF (993 °C), dan BaO (1923 °C) < SrO < CaO < MgO (2852 °C). Lompatan dari halida ke oksida, dari sekitar 800 °C ke lebih dari 2500 °C, mencerminkan faktor muatan empat kali lipat dalam persamaan (6.6). Itulah sebabnya MgO dan CaO dipakai sebagai bata tahan api untuk melapisi tanur baja, dan sebabnya Al₂O₃ (energi kisi lebih dari 15 000 kJ mol⁻¹) begitu keras sehingga dipakai sebagai amplas dan, dalam bentuk kristal tunggalnya, sebagai safir dan rubi.
 
 ::: {.awas}
-**Awas: titik leleh bukan ukuran energi kisi.** Pelelehan tidak memisahkan ion menjadi gas; ia hanya merusak keteraturan jarak jauh, sedangkan ion-ion dalam lelehan tetap dikelilingi ion berlawanan. Entalpi peleburan NaCl hanya 28 kJ mol⁻¹, sekitar 4 % energi kisinya. Karena itu korelasi pada Gambar 6.3 hanya berlaku di dalam deret yang strukturnya sama. Untuk senyawa dengan struktur berbeda atau ikatan yang cukup kovalen, titik leleh dapat menyimpang jauh: AlCl₃ yang secara formal "3+/1−" menyublim pada 180 °C, karena padatannya berlapis dan uapnya terdiri atas molekul Al₂Cl₆.
+**Awas: titik leleh bukan ukuran energi kisi.** Pelelehan tidak memisahkan ion menjadi gas; ia hanya merusak keteraturan jarak jauh, sedangkan ion-ion dalam lelehan tetap dikelilingi ion berlawanan. Entalpi peleburan NaCl hanya 28 kJ mol⁻¹, sekitar 4 % energi kisinya. Karena itu korelasi pada Gambar 6.4 hanya berlaku di dalam deret yang strukturnya sama. Untuk senyawa dengan struktur berbeda atau ikatan yang cukup kovalen, titik leleh dapat menyimpang jauh: AlCl₃ yang secara formal "3+/1−" menyublim pada 180 °C, karena padatannya berlapis dan uapnya terdiri atas molekul Al₂Cl₆.
 :::
 
 ::: {.kuis}

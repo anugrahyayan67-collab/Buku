@@ -11,6 +11,9 @@ Hukum Wiedemann–Franz menyatakan konduktivitas panas sebanding dengan kondukti
 Hitung hambatan seutas kawat tembaga sepanjang 1 m dengan penampang 1 mm² (resistivitas 1,68 × 10⁻⁸ Ω m). ||| 0,0168 Ω
 Ramalkan konduktivitas panas aluminium (σ = 3,77 × 10⁷ S m⁻¹) pada 300 K dengan hukum Wiedemann–Franz. Nilai terukur 237 W m⁻¹ K⁻¹. ||| 276 W m⁻¹ K⁻¹ (16 % di atas)
 
+Wolfram berstruktur bcc dengan a = 316,52 pm. Hitung massa jenis dan jari-jari atomnya. ||| 19,25 g cm⁻³ (terukur 19,25); 137,0 pm
+Buktikan bahwa fraksi kemasan bcc adalah π√3/8 dan fcc π/(3√2). Mengapa logam alkali (bcc) mempunyai massa jenis sangat kecil walaupun demikian? ||| bcc 0,680, fcc 0,740; massa atom kecil dan jari-jari besar (elektron valensi tunggal di kulit luar), bukan karena struktur
+[P] Pada 1394 °C besi γ (fcc) kembali menjadi besi δ (bcc). Ramalkan arah perubahan volumenya dan jelaskan dengan bilangan koordinasi. ||| volume naik sedikit (sekitar 1 %): koordinasi turun 12 → 8, kemasan kurang rapat, sebagian diimbangi jari-jari yang mengecil
 ## Subbab 7.2: Paduan: larutan padat dan senyawa antarlogam
 
 Sebutkan empat aturan Hume-Rothery untuk larutan padat substitusi. ||| jari-jari < 15 %, struktur sama, keelektronegatifan mirip, valensi mirip
@@ -22,6 +25,9 @@ Mengapa paduan biasanya lebih keras daripada logam murninya? ||| atom asing meng
 Sebutkan tiga senyawa antarlogam penting dan kegunaannya. ||| Nd₂Fe₁₄B magnet; LaNi₅ penyimpan hidrogen; Nb₃Sn superkonduktor; Ni₃Al turbin
 Mengapa membran paladium dapat memurnikan hidrogen? ||| H larut di rongga oktahedral Pd dan berdifusi; gas lain tidak
 
+Nikel (fcc) mempunyai a = 352,4 pm. Hitung jari-jari rongga oktahedralnya. Apakah atom N (jari-jari kovalen 71 pm) lebih mudah larut dalam Ni atau dalam besi α? ||| 52 pm; lebih mudah dalam Ni (fcc) karena rongga bcc hanya 19–36 pm
+Jelaskan mengapa pendinginan cepat baja menghasilkan martensit yang keras, dengan memakai ukuran rongga besi γ dan besi α. ||| karbon larut di rongga besar fcc; saat berubah ke bcc tidak sempat keluar, terperangkap, kisi terdistorsi tetragonal, dislokasi terhambat
+Berapa volume H₂ (25 °C, 1 bar) yang diserap 10 g serbuk paladium sampai PdH~0,6~? ||| 0,70 L (700 mL)
 ## Subbab 7.3: Dari orbital molekul ke pita
 
 Dengan persamaan Hückel, hitung energi keempat orbital rantai 4 atom (dalam satuan β, relatif terhadap α). ||| ±1,618β dan ±0,618β
@@ -90,6 +96,9 @@ Jelaskan prinsip titik kuantum dengan model partikel dalam kotak. ||| kristal le
 Mengapa pigmen kadmium kini dibatasi penggunaannya? ||| kadmium beracun
 Sebuah padatan putih yang menjadi kuning ketika dipanaskan (seperti ZnO). Jelaskan perubahan celahnya. ||| celah menyempit dengan suhu dan cacat (kehilangan O), tepi serapan bergeser ke cahaya tampak biru
 
+Dengan persamaan (7.9), hitung celah dan panjang gelombang serapan titik kuantum CdSe berdiameter 3 nm. Nilai terukur sekitar 548 nm; apakah model meramalkan terlalu tinggi atau terlalu rendah? ||| 3,24 eV, 383 nm; celah terlalu tinggi (λ terlalu pendek)
+[P] Mengapa suku kurungan dalam persamaan (7.9) sebanding dengan 1/R² sedangkan suku tarikan sebanding dengan 1/R? Ukuran mana yang membuat suku kurungan mendominasi? ||| energi kinetik partikel dalam kotak ∝ 1/L², energi Coulomb ∝ 1/r; pada R kecil 1/R² tumbuh lebih cepat
+Mengapa titik kuantum dari bahan dengan massa efektif elektron kecil (misalnya InAs, m* = 0,023 mₑ) menunjukkan efek ukuran pada kristal yang lebih besar daripada CdSe? ||| energi kurungan ∝ 1/m*; massa kecil → kurungan terasa pada R lebih besar
 ## Subbab 7.9: Superkonduktor dan bahan fungsional
 
 Sebutkan dua ciri utama superkonduktor. ||| hambatan nol; efek Meissner

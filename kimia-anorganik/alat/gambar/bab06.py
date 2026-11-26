@@ -89,3 +89,14 @@ for ax, d, c, t in [(a1, d1, BIRU, 'natrium halida (1+, 1−)'), (a2, d2, JGT, '
     ax.set_xlabel('|U| Kapustinskii (kJ mol$^{-1}$)'); ax.set_title(t, fontsize=8.8, color=TUA); koma(ax)
 a1.set_ylabel('titik leleh (°C)'); a1.set_ylim(620, 1060); a2.set_ylim(1800, 3000)
 simpan(f, 'c_leleh')
+# === pendalaman (revisi 2): nitrat alkali dan jari-jari termokimia ===
+kap = lambda nu, z, s: 1.2025e5 * nu * z / s * (1 - 34.5 / s)
+rN = 174.3
+f, ax = plt.subplots(figsize=(5.8, 3.4))
+rc = np.linspace(60, 185, 200); ax.plot(rc, kap(2, 1, rc + rN), color=BIRU, lw=2, label=f'Kapustinskii, $r$(NO$_3^-$) = 174 pm')
+dat = [('Li', 76, 848), ('Na', 102, 755), ('K', 138, 685), ('Rb', 152, 658), ('Cs', 167, 648)]
+for e, x, y in dat:
+    ax.plot(x, y, 'o', color=JGT if e != 'K' else TUA, ms=7, zorder=3); ax.annotate(e + 'NO$_3$', (x, y), (x + 4, y + 14), fontsize=8.5, color=TUA)
+ax.annotate('dipakai untuk\nmenurunkan $r$', (138, 685), (150, 760), fontsize=8, color=TUA, arrowprops=dict(arrowstyle='->', color=ABU))
+ax.set_xlabel('jari-jari kation (pm)'); ax.set_ylabel('entalpi kisi (kJ mol$^{-1}$)'); ax.set_xlim(55, 195); ax.set_ylim(600, 900); ax.legend(fontsize=8.3, loc='lower left'); koma(ax)
+simpan(f, 'a_nitrat')

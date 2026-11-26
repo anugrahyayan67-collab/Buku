@@ -4,7 +4,7 @@ Ketika garam larut dalam air, dua hal terjadi bersamaan: kisi dibongkar, dan ion
 
 $$\text{MX(s)} \xrightarrow{\ \Delta_\text{kisi}H\ } \text{M}^+(\text{g}) + \text{X}^-(\text{g}) \xrightarrow{\ \Delta_\text{hid}H\ } \text{M}^+(\text{aq}) + \text{X}^-(\text{aq})$$
 
-$$\Delta_\text{lar}H = \Delta_\text{kisi}H + \Delta_\text{hid}H(\text{M}^+) + \Delta_\text{hid}H(\text{X}^-) \qquad \text{(6.7)}$$
+$$\Delta_\text{lar}H = \Delta_\text{kisi}H + \Delta_\text{hid}H(\text{M}^+) + \Delta_\text{hid}H(\text{X}^-) \qquad \text{(6.8)}$$
 
 Entalpi kisi positif (memerlukan energi), entalpi hidrasi negatif (melepaskan energi). Keduanya besar, ratusan sampai ribuan kJ mol⁻¹, dan hampir saling meniadakan.
 
@@ -20,12 +20,12 @@ Tabel 6.3 Entalpi hidrasi ion (kJ mol⁻¹, 298 K).
 
 Entalpi hidrasi makin negatif untuk ion yang **kecil** dan **bermuatan tinggi**, karena medan listrik di permukaannya lebih kuat dan molekul air dapat mendekat lebih rapat. Secara kasar, Δ~hid~*H* sebanding dengan *z*²/*r*.
 
-![Gambar 6.6 Entalpi kisi (jingga, harus dibayar) dan jumlah entalpi hidrasi kedua ion (biru, diperoleh kembali) untuk lima garam. Keduanya berukuran ratusan kJ mol⁻¹, tetapi entalpi pelarutan terukur (angka di atas) hanya beberapa puluh kJ mol⁻¹.](fig/c_larut.png){width=82%}
+![Gambar 6.7 Entalpi kisi (jingga, harus dibayar) dan jumlah entalpi hidrasi kedua ion (biru, diperoleh kembali) untuk lima garam. Keduanya berukuran ratusan kJ mol⁻¹, tetapi entalpi pelarutan terukur (angka di atas) hanya beberapa puluh kJ mol⁻¹.](fig/c_larut.png){width=82%}
 
 ::: {.contoh}
-**Contoh 6.7 · Entalpi pelarutan dari dua bilangan besar**
+**Contoh 6.9 · Entalpi pelarutan dari dua bilangan besar**
 
-Hitung Δ~lar~*H* untuk NaCl, KCl, LiF, CsF, dan AgCl dengan persamaan (6.7). Entalpi kisi (siklus Born–Haber): NaCl 787, KCl 717, LiF 1049, CsF 744, AgCl 918 kJ mol⁻¹. Entalpi hidrasi dari Tabel 6.3 (Ag⁺: −464). Bandingkan dengan nilai terukur: +3,9; +17,2; +4,9; −36,9; +65,5 kJ mol⁻¹.
+Hitung Δ~lar~*H* untuk NaCl, KCl, LiF, CsF, dan AgCl dengan persamaan (6.8). Entalpi kisi (siklus Born–Haber): NaCl 787, KCl 717, LiF 1049, CsF 744, AgCl 918 kJ mol⁻¹. Entalpi hidrasi dari Tabel 6.3 (Ag⁺: −464). Bandingkan dengan nilai terukur: +3,9; +17,2; +4,9; −36,9; +65,5 kJ mol⁻¹.
 
 **Penyelesaian.**
 
@@ -38,6 +38,24 @@ Hitung Δ~lar~*H* untuk NaCl, KCl, LiF, CsF, dan AgCl dengan persamaan (6.7). En
 | AgCl | 918 | −825 | +93 | +65,5 |
 
 **Memahami hasil.** Hasil hitung meleset sampai 20 kJ mol⁻¹, karena Δ~lar~*H* adalah selisih kecil dari dua bilangan yang masing-masing mempunyai ketidakpastian beberapa puluh kJ mol⁻¹. Namun polanya benar: CsF dan garam yang ion-ionnya berbeda ukuran larut secara eksoterm, AgCl sangat endoterm. Pelajaran penting: **entalpi pelarutan tidak dapat diramalkan dengan tepat dari data termokimia**, dan tanda serta besarnya dapat berubah oleh perubahan kecil. NaCl larut walaupun pelarutannya sedikit endoterm, karena kenaikan entropi (ion-ion terlepas dari kisi yang teratur) membuat Δ~lar~*G* negatif. AgCl tidak larut terutama karena entalpi kisinya yang besar, akibat sifat kovalen ikatannya (subbab 6.9).
+:::
+
+### Peran entropi: kantong dingin dan kantong panas
+
+Contoh 6.9 hanya membahas entalpi. Padahal kelarutan ditentukan oleh **energi Gibbs** pelarutan, Δ~lar~*G* = Δ~lar~*H* − *T*Δ~lar~*S*. Dua suku entropi bekerja berlawanan. Ion yang terlepas dari kisi teratur menaikkan entropi; sebaliknya molekul air yang tersusun rapi di sekitar ion (terutama ion kecil bermuatan tinggi) menurunkan entropi. Untuk ion besar bermuatan satu, suku pertama menang dan Δ~lar~*S* positif; untuk ion kecil bermuatan tinggi seperti Mg²⁺ atau Al³⁺, Δ~lar~*S* dapat negatif.
+
+::: {.contoh}
+**Contoh 6.10 · Kantong dingin amonium nitrat dan kantong panas kalsium klorida**
+
+Kantong kompres dingin instan berisi amonium nitrat dan kantong air; kantong panas berisi CaCl₂ anhidrat. Data standar (298 K, kJ mol⁻¹): NH₄NO₃(s) Δ~f~*H*° = −365,56, Δ~f~*G*° = −183,87; NH₄⁺(aq) −132,51 dan −79,31; NO₃⁻(aq) −207,36 dan −111,25; CaCl₂(s) Δ~f~*H*° = −795,8; Ca²⁺(aq) −542,83; Cl⁻(aq) −167,16. (a) Hitung Δ~lar~*H*°, Δ~lar~*G*°, dan Δ~lar~*S*° NH₄NO₃. (b) Berapa penurunan suhu bila 50 g NH₄NO₃ dilarutkan dalam 250 g air? (c) Berapa kenaikan suhu bila 40 g CaCl₂ dilarutkan dalam 200 g air? Anggap kapasitas kalor larutan sama dengan air, 4,18 J g⁻¹ K⁻¹, dan tidak ada kalor yang hilang.
+
+**Penyelesaian.** (a) Δ~lar~*H*° = (−132,51 − 207,36) − (−365,56) = **+25,7 kJ mol⁻¹**; Δ~lar~*G*° = (−79,31 − 111,25) − (−183,87) = **−6,7 kJ mol⁻¹**; Δ~lar~*S*° = (25,7 + 6,7)/298,15 = **+0,109 kJ K⁻¹ mol⁻¹** = +109 J K⁻¹ mol⁻¹.
+
+(b) 50 g NH₄NO₃ = 0,625 mol, menyerap 0,625 × 25,7 = 16,1 kJ. Δ*T* = 16 100/(250 × 4,18) = **12,8 K**: dari 30 °C turun ke sekitar 17 °C.
+
+(c) Δ~lar~*H*° CaCl₂ = (−542,83 − 2 × 167,16) − (−795,8) = −81,3 kJ mol⁻¹. 40 g = 0,360 mol melepaskan 29,3 kJ; Δ*T* = 29 300/(200 × 4,18) = **35 K**.
+
+**Memahami hasil.** Pelarutan NH₄NO₃ menyerap kalor, tetapi tetap berlangsung spontan karena *T*Δ*S* = 32,4 kJ mol⁻¹ lebih besar daripada Δ*H* = 25,7 kJ mol⁻¹. Kedua ionnya besar dan bermuatan satu, sehingga hanya sedikit menata air di sekitarnya: entropi yang diperoleh dari runtuhnya kisi tidak banyak terambil kembali. Pada CaCl₂ keadaannya terbalik. Ion Ca²⁺ yang kecil bermuatan dua menarik air sangat kuat; entalpi hidrasinya yang besar membuat pelarutan sangat eksoterm. Kantong dingin adalah contoh nyata reaksi yang **didorong entropi**, kantong panas contoh reaksi yang **didorong entalpi**.
 :::
 
 ### Aturan ukuran: ion berbeda ukuran lebih mudah larut
@@ -76,7 +94,7 @@ $$\text{CaCO}_3(\text{s}) \rightarrow \text{CaO}(\text{s}) + \text{CO}_2(\text{g
 Karbonat logam golongan 2 lainnya mengalami reaksi yang sama, tetapi pada suhu yang sangat berbeda.
 
 ::: {.contoh}
-**Contoh 6.8 · Suhu penguraian karbonat golongan 2**
+**Contoh 6.11 · Suhu penguraian karbonat golongan 2**
 
 Hitung suhu ketika tekanan kesetimbangan CO₂ di atas MCO₃ mencapai 1 bar, untuk M = Mg, Ca, Sr, Ba. Data (Δ~f~*H*° dalam kJ mol⁻¹, *S*° dalam J K⁻¹ mol⁻¹):
 
@@ -109,7 +127,7 @@ Jawabannya ada pada energi kisi. Ketika MCO₃ terurai, anion besar CO₃²⁻ (
 * Bila kation **kecil** (Mg²⁺, 72 pm), jumlah jari-jari berubah dari 250 menjadi 212 pm, perubahan relatif besar (15 %), dan energi kisi naik banyak.
 * Bila kation **besar** (Ba²⁺, 135 pm), jumlah jari-jari berubah dari 313 menjadi 275 pm, perubahan relatif lebih kecil (12 %), dan kenaikan energi kisi lebih kecil.
 
-![Gambar 6.7 Kiri: suhu penguraian karbonat golongan 2 (hitung, *p*(CO₂) = 1 bar) naik dengan jari-jari kation. Kanan: kenaikan energi kisi ketika karbonat berubah menjadi oksida (persamaan Kapustinskii), makin kecil untuk kation yang lebih besar.](fig/c_karbonat.png){width=90%}
+![Gambar 6.8 Kiri: suhu penguraian karbonat golongan 2 (hitung, *p*(CO₂) = 1 bar) naik dengan jari-jari kation. Kanan: kenaikan energi kisi ketika karbonat berubah menjadi oksida (persamaan Kapustinskii), makin kecil untuk kation yang lebih besar.](fig/c_karbonat.png){width=90%}
 
 Persamaan Kapustinskii memberi kenaikan energi kisi sebesar 482 kJ mol⁻¹ untuk Mg dan hanya 325 kJ mol⁻¹ untuk Ba. Kenaikan energi kisi ini "membantu" penguraian: makin besar, makin mudah karbonat terurai. Pandangan lain yang setara memakai aturan Fajans (subbab 1.12): kation kecil bermuatan tinggi mempolarisasi anion karbonat, menarik kerapatan elektron ke arah salah satu oksigen, dan melemahkan ikatan C–O, sehingga CO₂ lebih mudah lepas.
 
@@ -132,15 +150,15 @@ Prinsip ini menjelaskan banyak pengamatan dalam kimia unsur golongan utama:
 
 Kita sekarang mempunyai dua cara untuk mendapatkan energi kisi: **model ionik** (Born–Landé, Born–Mayer, Kapustinskii), yang menganggap ion sebagai bola bermuatan murni, dan **siklus Born–Haber**, yang tidak membuat anggapan apa pun tentang jenis ikatan karena seluruhnya dari data termokimia. Bila keduanya cocok, senyawa itu memang ionik. Bila tidak cocok, selisihnya mengukur seberapa jauh senyawa itu menyimpang dari model ionik.
 
-![Gambar 6.8 Entalpi kisi dari persamaan Born–Landé (model ionik murni) dan dari siklus Born–Haber. Persentase di atas batang adalah selisih relatif. Halida alkali cocok dalam 3–6 %, sedangkan halida perak menyimpang 11–18 %, makin besar dari F ke I.](fig/b_banding.png){width=86%}
+![Gambar 6.9 Entalpi kisi dari persamaan Born–Landé (model ionik murni) dan dari siklus Born–Haber. Persentase di atas batang adalah selisih relatif. Halida alkali cocok dalam 3–6 %, sedangkan halida perak menyimpang 11–18 %, makin besar dari F ke I.](fig/b_banding.png){width=86%}
 
-Dua pola terlihat pada Gambar 6.8:
+Dua pola terlihat pada Gambar 6.9:
 
 1. **Halida alkali**: model ionik selalu sedikit terlalu kecil, sekitar 3–6 %. Selisih ini sistematis, terutama karena model sederhana mengabaikan gaya dispersi antara ion (yang menambah sekitar 2–5 % energi kisi, terbesar untuk ion besar seperti Cs⁺ dan I⁻). Model yang lebih lengkap, dengan suku dispersi dan energi titik nol, cocok dalam 1–2 %.
 2. **Halida perak**: selisihnya jauh lebih besar dan **naik** dari AgF (11 %) ke AgI (18 %). Ini bukan galat model, melainkan tanda energi tambahan yang tidak dimuat model ionik sama sekali: **ikatan kovalen**.
 
 ::: {.contoh}
-**Contoh 6.9 · Mengukur karakter kovalen perak halida**
+**Contoh 6.12 · Mengukur karakter kovalen perak halida**
 
 Hitung entalpi kisi AgCl dengan persamaan Born–Landé (garam batu, *r*₀ = 277,5 pm, *n* = 9,5) dan bandingkan dengan siklus Born–Haber (918 kJ mol⁻¹). Bandingkan dengan NaCl, yang ukuran kationnya hampir sama (Ag⁺ 115 pm, Na⁺ 102 pm).
 

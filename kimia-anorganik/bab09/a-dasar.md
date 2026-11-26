@@ -234,7 +234,25 @@ Pengaruh kompleksasi juga bekerja sebaliknya: bila bentuk **teroksidasi** dikomp
 :::
 
 ::: {.contoh}
-**Contoh 9.6 · Sel konsentrasi**
+**Contoh 9.6 · Amonia menjinakkan kobalt(III)**
+
+Dalam air, Co³⁺ adalah oksidator yang sangat kuat (*E*° = +1,92 V) dan mengoksidasi air. Namun [Co(NH₃)₆]³⁺ adalah garam yang stabil berbulan-bulan, dengan *E*°([Co(NH₃)₆]³⁺/[Co(NH₃)₆]²⁺) = +0,108 V. (a) Berapa perbandingan tetapan kestabilan keseluruhan β₆ kompleks Co(III) dan Co(II)? (b) Mengapa larutan Co²⁺ dalam amonia berubah warna dari merah muda menjadi jingga kecokelatan bila dibiarkan di udara?
+
+**Rencana.** Bayangkan siklus: reduksi kompleks Co(III) sama dengan (i) melepas enam NH₃ dari Co(III), (ii) mereduksi Co³⁺ menjadi Co²⁺, dan (iii) mengikat enam NH₃ pada Co²⁺. Energi Gibbs dijumlahkan, lalu dibagi −*F*.
+
+**Penyelesaian.** (a) Dari siklus itu:
+
+$$E^\circ_\text{kompleks} = E^\circ_\text{aqua} - 0{,}0592\,\log\frac{\beta_6(\text{III})}{\beta_6(\text{II})}$$
+
+sehingga log(β₆(III)/β₆(II)) = (1,92 − 0,108)/0,0592 = **30,6**. Amonia mengikat Co(III) sekitar 10³⁰ kali lebih kuat daripada Co(II). (Tabel tetapan kestabilan memberi log β₆ sekitar 35 untuk Co(III) dan sekitar 5 untuk Co(II), selisih yang sama.)
+
+(b) Dengan *E*° = +0,108 V, kompleks Co(II) amina sekarang berada **di bawah** garis O₂/H₂O pada pH berapa pun. Oksigen udara (*E* = +0,82 V pada pH 7, +0,59 V pada pH 11) dengan mudah mengoksidasinya menjadi [Co(NH₃)₆]³⁺ yang jingga: inilah cara klasik membuat kompleks Co(III) amina di laboratorium, dengan arang aktif sebagai katalis.
+
+**Memahami hasil.** Ligan yang mengikat bentuk teroksidasi lebih kuat **menurunkan** potensial dan menstabilkan bilangan oksidasi tinggi. Untuk kobalt, penyebabnya adalah energi penstabilan medan ligan (Bab 11): Co³⁺ berkonfigurasi d⁶ spin rendah dengan EPML −2,4Δ~o~ yang sangat besar dalam medan amonia, sedangkan Co²⁺ (d⁷ spin tinggi) memperoleh jauh lebih sedikit. Satu bilangan potensial menyimpan informasi kimia koordinasi yang kaya.
+:::
+
+::: {.contoh}
+**Contoh 9.7 · Sel konsentrasi**
 
 Dua elektrode tembaga dicelupkan ke dalam larutan CuSO₄ 0,0010 mol L⁻¹ dan 1,0 mol L⁻¹, dihubungkan dengan jembatan garam. Elektrode mana yang menjadi katode, dan berapa gaya gerak listriknya pada 25 °C?
 
@@ -258,16 +276,31 @@ Di antara kedua garis ini terdapat **jendela kestabilan air**, selebar 1,23 V pa
 
 Termodinamika menyatakan apa yang **mungkin**, tetapi tidak seberapa cepat. Banyak reaksi yang secara termodinamika dapat mengoksidasi atau mereduksi air berjalan sangat lambat, karena pembentukan gas H₂ atau O₂ di permukaan elektrode memerlukan energi aktivasi. Potensial tambahan yang diperlukan agar reaksi berjalan dengan laju yang berarti disebut **overpotensial** (*overvoltage*). Untuk O₂ di kebanyakan elektrode, overpotensial sekitar 0,6 V; untuk H₂ di seng, timbal, dan raksa, sampai 0,7–1 V. Akibatnya jendela kestabilan **kinetik** air jauh lebih lebar daripada 1,23 V.
 
+::: {.contoh}
+**Contoh 9.8 · Mengapa elektrolisis air garam menghasilkan klorin, bukan oksigen?**
+
+Pada industri klor-alkali, larutan NaCl pekat (sekitar 5 mol L⁻¹) dielektrolisis. Di anode, dua reaksi bersaing: 2Cl⁻ → Cl₂ + 2e⁻ (*E*° = 1,358 V) dan 2H₂O → O₂ + 4H⁺ + 4e⁻ (*E*° = 1,229 V). Ruang anode dijaga pada pH sekitar 3. (a) Hitung potensial kedua pasangan pada kondisi ini (gas 1 bar). (b) Mana yang secara termodinamika lebih mudah terjadi? (c) Mengapa yang terbentuk justru klorin?
+
+**Penyelesaian.** (a) Cl₂/Cl⁻: *E* = 1,358 − (0,0592/2) log(5²) = **1,317 V**. O₂/H₂O: *E* = 1,229 − 0,0592 × 3 = **1,052 V**.
+
+(b) Oksidasi berlangsung lebih dulu pada pasangan dengan potensial **lebih rendah** (paling mudah dioksidasi). Air seharusnya teroksidasi lebih dulu, 0,27 V lebih mudah daripada Cl⁻.
+
+(c) Pembentukan O₂ melibatkan empat elektron dan pemutusan beberapa ikatan O–H; overpotensialnya pada anode industri (titanium berlapis RuO₂ dan IrO₂) sekitar 0,4–0,6 V. Pembentukan Cl₂ hanya melibatkan dua elektron dan dua atom yang bergabung; overpotensialnya hanya beberapa puluh milivolt. Setelah overpotensial dijumlahkan, potensial nyata untuk O₂ menjadi lebih tinggi daripada untuk Cl₂, dan klorin yang terbentuk, dengan sedikit O₂ sebagai pengotor (kurang dari 2 %).
+
+**Memahami hasil.** Seluruh industri klor-alkali, yang menghasilkan sekitar 90 juta ton klorin per tahun untuk PVC, pemutih, dan pengolahan air, bergantung pada kinetika, bukan termodinamika. Bahan anode dipilih justru karena **mempercepat** pembentukan Cl₂ sambil tetap lambat untuk O₂. Ini juga peringatan umum: potensial standar memberi tahu arah yang mungkin, sedangkan yang benar-benar terjadi dapat ditentukan oleh laju.
+:::
+
+
 ### Elektrolisis kuantitatif: hukum Faraday
 
 Dalam elektrolisis, setiap mol elektron yang melewati sel membawa muatan *F* = 96 485 C. Karena itu jumlah zat yang dihasilkan di elektrode sebanding dengan muatan total *Q* = *It* (arus × waktu):
 
 $$n_\text{zat} = \frac{It}{zF} \qquad \text{(9.4)}$$
 
-dengan *z* jumlah elektron per satuan zat (2 untuk Cu²⁺ → Cu, 3 untuk Al³⁺ → Al). Hukum ini, dirumuskan Michael Faraday pada 1834, adalah dasar pelapisan logam, pemurnian tembaga secara elektrolisis, dan produksi aluminium (Contoh 9.12).
+dengan *z* jumlah elektron per satuan zat (2 untuk Cu²⁺ → Cu, 3 untuk Al³⁺ → Al). Hukum ini, dirumuskan Michael Faraday pada 1834, adalah dasar pelapisan logam, pemurnian tembaga secara elektrolisis, dan produksi aluminium (Contoh 9.15).
 
 ::: {.contoh}
-**Contoh 9.7 · Pemurnian tembaga**
+**Contoh 9.9 · Pemurnian tembaga**
 
 Arus 2,00 A dialirkan selama 1,00 jam melalui sel pemurnian tembaga (anode tembaga kotor, katode tembaga murni, larutan CuSO₄ asam). Berapa gram tembaga murni yang terendapkan bila efisiensi arus 100 %?
 
@@ -277,7 +310,7 @@ Arus 2,00 A dialirkan selama 1,00 jam melalui sel pemurnian tembaga (anode temba
 :::
 
 ::: {.contoh}
-**Contoh 9.8 · Elektrolisis seng dan natrium**
+**Contoh 9.10 · Elektrolisis seng dan natrium**
 
 (a) Mengapa seng dapat dielektrolisis dari larutan ZnSO₄ dalam air, padahal *E*°(Zn²⁺/Zn) = −0,76 V lebih negatif daripada *E*(H⁺/H₂) pada pH 5 (−0,30 V)? (b) Mengapa natrium tidak dapat dibuat dengan cara yang sama?
 

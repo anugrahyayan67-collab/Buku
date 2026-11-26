@@ -19,7 +19,7 @@ $$E^\circ = \frac{n_1E^\circ_1 + n_2E^\circ_2}{n_1 + n_2} \qquad \text{(9.5)}$$
 Secara umum, potensial gabungan adalah rata-rata potensial tahap-tahapnya, **dibobot dengan jumlah elektron**.
 
 ::: {.contoh}
-**Contoh 9.9 · Potensial gabungan dari diagram Latimer**
+**Contoh 9.11 · Potensial gabungan dari diagram Latimer**
 
 Dari diagram Latimer mangan dan tembaga di atas, hitung *E*° untuk (a) Cu²⁺/Cu; (b) MnO₄⁻/MnO₂; (c) MnO₂/Mn²⁺; (d) MnO₄⁻/Mn²⁺.
 
@@ -54,6 +54,25 @@ Diagram Latimer memberikan kriteria yang sangat sederhana:
 
 Untuk Cu⁺: potensial kanan 0,521 V > potensial kiri 0,153 V. Reaksi disproporsionasi dapat dipandang sebagai sel: Cu⁺ → Cu (katode, 0,521) dan Cu⁺ → Cu²⁺ (anode, 0,153), dengan *E*° = 0,521 − 0,153 = **+0,368 V**, sehingga *K* = 10^0,368/0,0592^ = **1,7 × 10⁶**. Cu⁺ hampir sepenuhnya terdisproporsionasi dalam air. Tembaga(I) hanya stabil bila distabilkan dalam endapan (CuCl, CuI, Cu₂O) atau kompleks ([Cu(CN)₂]⁻), atau dalam pelarut lain seperti asetonitril.
 
+::: {.contoh}
+**Contoh 9.12 · Ion klorida dan iodida menyelamatkan tembaga(I)**
+
+Hasil kali kelarutan CuCl 1,72 × 10⁻⁷ dan CuI 1,27 × 10⁻¹². (a) Hitung *E*° untuk CuCl + e⁻ → Cu + Cl⁻ dan Cu²⁺ + Cl⁻ + e⁻ → CuCl, lalu periksa apakah CuCl terdisproporsionasi. (b) Lakukan hal yang sama untuk CuI, dan jelaskan mengapa Cu²⁺ dapat ditentukan secara iodometri (Cu²⁺ mengoksidasi I⁻ menjadi I₂, *E*°(I₂/I⁻) = 0,536 V).
+
+**Rencana.** Mengendapkan Cu⁺ sama dengan menurunkan [Cu⁺] menjadi *K*~sp~/[X⁻]. Pada [X⁻] = 1 mol L⁻¹, pasangan yang Cu⁺-nya di **kanan** (bentuk teroksidasi) turun potensialnya sebesar 0,0592 log *K*~sp~, sedangkan pasangan yang Cu⁺-nya di **kiri** naik dengan jumlah yang sama.
+
+**Penyelesaian.** (a) 0,0592 log(1,72 × 10⁻⁷) = −0,400 V.
+
+* CuCl/Cu: *E*° = 0,521 − 0,400 = **+0,121 V**;
+* Cu²⁺/CuCl: *E*° = 0,153 + 0,400 = **+0,553 V**.
+
+Sekarang potensial kiri (0,553) lebih besar daripada potensial kanan (0,121): CuCl **tidak** terdisproporsionasi. Sebaliknya, reaksi komproporsionasi Cu²⁺ + Cu + 2Cl⁻ → 2CuCl mempunyai *E*° = +0,432 V dan *K* = 10^0,432/0,0592^ = **2 × 10⁷**.
+
+(b) 0,0592 log(1,27 × 10⁻¹²) = −0,704 V. CuI/Cu: *E*° = **−0,183 V**; Cu²⁺/CuI: *E*° = **+0,857 V**. Karena 0,857 V jauh di atas 0,536 V, ion Cu²⁺ mengoksidasi I⁻: 2Cu²⁺ + 4I⁻ → 2CuI(s) + I₂, dengan *E*° = +0,32 V.
+
+**Memahami hasil.** Ion Cu²⁺ "biasa" tidak cukup kuat untuk mengoksidasi iodida (0,153 V < 0,536 V). Yang membuatnya mungkin adalah pengendapan CuI yang sangat sukar larut, yang menarik Cu⁺ keluar dari larutan dan menaikkan potensial Cu²⁺/Cu(I) sebesar 0,70 V. Iodin yang terbentuk kemudian dititrasi dengan tiosulfat: inilah penetapan tembaga secara iodometri, cara baku untuk menentukan kadar tembaga dalam kuningan dan bijih. Membuat CuCl di laboratorium juga memakai prinsip yang sama: kepingan tembaga direbus dalam larutan CuCl₂ dengan HCl pekat sampai warnanya hilang.
+:::
+
 Dari diagram Latimer mangan dalam asam, ada dua spesies yang tidak stabil:
 
 * **Mn³⁺**: kanan 1,51 > kiri 0,95. 2Mn³⁺ + 2H₂O → Mn²⁺ + MnO₂ + 4H⁺, *E*° = +0,56 V.
@@ -83,7 +102,7 @@ Cara membaca diagram Frost:
 4. Spesies yang berada **di bawah** garis yang menghubungkan dua spesies lain akan terbentuk lewat **komproporsionasi** keduanya.
 
 ::: {.contoh}
-**Contoh 9.10 · Menyusun diagram Frost mangan**
+**Contoh 9.13 · Menyusun diagram Frost mangan**
 
 Susun titik-titik diagram Frost mangan pada pH 0 dari diagram Latimer di subbab 9.5, dan tentukan spesies yang terdisproporsionasi.
 
@@ -117,7 +136,7 @@ Ada tiga jenis garis:
 ![Gambar 9.4 Diagram Pourbaix besi untuk konsentrasi spesies terlarut 10⁻⁶ mol L⁻¹, dihitung dari *E*° dan *K*~sp~. Garis putus-putus biru adalah batas kestabilan air. Daerah Fe(OH)₃ yang luas di dalam jendela air menjelaskan mengapa besi berkarat dalam air beroksigen.](fig/b_pourbaix.png){width=80%}
 
 ::: {.contoh}
-**Contoh 9.11 · Membangun diagram Pourbaix besi**
+**Contoh 9.14 · Membangun diagram Pourbaix besi**
 
 Untuk konsentrasi besi terlarut 10⁻⁶ mol L⁻¹, hitung (a) pH ketika Fe(OH)₃ mulai mengendap dari Fe³⁺ (*K*~sp~ = 2,8 × 10⁻³⁹); (b) pH ketika Fe(OH)₂ mulai mengendap dari Fe²⁺ (*K*~sp~ = 4,9 × 10⁻¹⁷); (c) potensial garis Fe²⁺/Fe; (d) persamaan garis Fe(OH)₃/Fe²⁺.
 

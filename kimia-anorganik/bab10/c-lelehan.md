@@ -26,7 +26,7 @@ Contoh pertama ditemukan Paul Walden pada 1914: etilamonium nitrat, [EtNH₃][NO
 ::: {.contoh}
 **Contoh 10.9 · Mengapa cairan ionik cair**
 
-Perkirakan energi kisi NaCl dan [BMIM][BF₄] dengan persamaan Kapustinskii (persamaan (6.5), subbab 6.4), dengan jari-jari dalam pm. Pakai *r*(Na⁺) = 102, *r*(Cl⁻) = 181, jari-jari termokimia efektif [BMIM]⁺ sekitar 330 dan BF₄⁻ 232 pm.
+Perkirakan energi kisi NaCl dan [BMIM][BF₄] dengan persamaan Kapustinskii (persamaan (6.6), subbab 6.4), dengan jari-jari dalam pm. Pakai *r*(Na⁺) = 102, *r*(Cl⁻) = 181, jari-jari termokimia efektif [BMIM]⁺ sekitar 330 dan BF₄⁻ 232 pm.
 
 **Penyelesaian.** NaCl: *r*₊ + *r*₋ = 283 pm; |*U*| = 1,2025 × 10⁵ × 2/283 × (1 − 0,122) = **746 kJ mol⁻¹**. [BMIM][BF₄]: *r*₊ + *r*₋ = 562 pm; |*U*| = 1,2025 × 10⁵ × 2/562 × (1 − 0,061) = **402 kJ mol⁻¹**, sekitar 54 % energi kisi NaCl.
 

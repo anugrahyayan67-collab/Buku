@@ -20,7 +20,7 @@ Cara membaca diagram Ellingham:
 Butir terakhir adalah kunci metalurgi. Karena garis C/CO turun, pada suhu yang cukup tinggi karbon dapat mereduksi oksida **apa pun** yang garisnya ia potong.
 
 ::: {.contoh}
-**Contoh 9.12 · Pada suhu berapa karbon mereduksi oksida?**
+**Contoh 9.15 · Pada suhu berapa karbon mereduksi oksida?**
 
 Dengan data per mol O₂ (Δ*H*° dalam kJ, Δ*S*° dalam J K⁻¹): 2C + O₂ → 2CO (−221,0; +178,7); 2Fe + O₂ → 2FeO (−544,0; −138,3); 2Zn + O₂ → 2ZnO (−701,0; −201,1); 4/3Al + O₂ → 2/3Al₂O₃ (−1117,1; −209,0); 2Mg + O₂ → 2MgO (−1203,2; −216,8). Hitung suhu ketika garis C/CO memotong setiap garis logam.
 
@@ -50,6 +50,23 @@ Sekarang teka-teki pembuka dapat dijawab:
 
 Prinsip anode korban dipakai secara besar-besaran: balok magnesium atau seng dipasang pada lambung kapal, pipa bawah tanah, dan pemanas air, dan diganti secara berkala ketika habis. Cara lain adalah **proteksi katodik dengan arus paksa**, yaitu memberi tegangan dari luar agar struktur baja selalu menjadi katode.
 
+::: {.contoh}
+**Contoh 9.16 · Berapa magnesium yang dimakan kapal dalam setahun?**
+
+Lambung sebuah kapal baja dilindungi oleh anode korban. Untuk menjaga baja tetap katodik diperlukan arus rata-rata 2,0 A. (a) Berapa massa magnesium yang habis dalam setahun? (b) Berapa bila dipakai seng? (c) Dalam praktik efisiensi anode magnesium hanya sekitar 50 %, sedangkan seng sekitar 95 %. Bandingkan ulang.
+
+**Penyelesaian.** Muatan dalam setahun: *Q* = 2,0 × 365,25 × 86 400 = 6,31 × 10⁷ C, yaitu 6,31 × 10⁷/96 485 = 654 mol elektron.
+
+(a) Mg → Mg²⁺ + 2e⁻: 327 mol Mg = 327 × 24,305 = **7,9 kg**.
+
+(b) Zn → Zn²⁺ + 2e⁻: 327 mol Zn = 327 × 65,38 = **21,4 kg**.
+
+(c) Dengan efisiensi: Mg 7,9/0,50 = **16 kg**; Zn 21,4/0,95 = **22,5 kg**.
+
+**Memahami hasil.** Per kilogram, magnesium membawa muatan hampir tiga kali seng karena massa molarnya kecil, tetapi sebagian magnesium terbuang karena bereaksi langsung dengan air (potensialnya sangat negatif, −2,37 V) tanpa memberikan elektronnya ke baja. Karena itu magnesium dipilih untuk air tawar dan tanah yang konduktivitasnya rendah, tempat beda potensial besar diperlukan, sedangkan seng dan paduan aluminium dipilih untuk air laut. Perhitungannya tidak lain dari hukum Faraday (persamaan (9.4)) yang dibaca terbalik.
+:::
+
+
 ### Redoks dalam lingkungan
 
 Lingkungan alam adalah jaringan reaksi redoks. Di lapisan atas danau dan tanah yang beroksigen, unsur berada dalam bentuk teroksidasi: nitrat, sulfat, Fe(III), Mn(IV). Di sedimen dan rawa yang anoksik, mikroorganisme memakai oksidator lain secara berurutan setelah O₂ habis, kira-kira menurut urutan potensialnya: nitrat, lalu Mn(IV), Fe(III), sulfat, dan akhirnya CO₂ (menghasilkan metana). Diagram Pourbaix (subbab 9.8) membantu meramalkan bentuk setiap unsur dalam kondisi tersebut, dan dengan itu sifat racun dan mobilitasnya.
@@ -61,7 +78,7 @@ Sel hidup memperoleh energi dengan mengoksidasi makanan. Elektron dari glukosa d
 ![Gambar 9.6 Potensial standar biologis (*E*°', pH 7) beberapa pembawa elektron dalam rantai pernapasan. Elektron mengalir bertahap dari NADH ke O₂.](fig/c_bio.png){width=72%}
 
 ::: {.contoh}
-**Contoh 9.13 · Energi dari NADH**
+**Contoh 9.17 · Energi dari NADH**
 
 Hitung Δ*G*°' untuk NADH + H⁺ + ½O₂ → NAD⁺ + H₂O, dengan *E*°'(NAD⁺/NADH) = −0,320 V dan *E*°'(O₂/H₂O) = +0,816 V. Berapa ATP yang dapat dibuat secara teoretis bila pembentukan satu ATP memerlukan 30,5 kJ mol⁻¹?
 
@@ -79,7 +96,7 @@ Baterai adalah sel galvani yang dikemas. Kebutuhan modern menuntut tiga hal: teg
 * **Sel bahan bakar** hidrogen: H₂ + ½O₂ → H₂O, 1,23 V. Reaktan dipasok terus-menerus dari luar, sehingga sel ini tidak "habis". Efisiensi maksimumnya Δ*G*/Δ*H* = 237,1/285,8 = **83 %**, jauh di atas mesin panas yang dibatasi efisiensi Carnot.
 
 ::: {.contoh}
-**Contoh 9.14 · Kapasitas elektrode baterai litium**
+**Contoh 9.18 · Kapasitas elektrode baterai litium**
 
 Kapasitas spesifik teoretis elektrode adalah muatan per massa, dinyatakan dalam mA h g⁻¹: *z F*/(3,6 *M*), dengan *M* massa molar satuan yang menyimpan *z* elektron. Hitung kapasitas (a) grafit, LiC₆ (satu Li per enam C); (b) LiCoO₂ bila semua Li dapat dikeluarkan; (c) LiCoO₂ dalam praktik, ketika hanya setengah Li yang dikeluarkan agar strukturnya tidak rusak.
 

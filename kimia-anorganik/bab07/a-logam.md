@@ -64,6 +64,23 @@ Hukum Wiedemann–Franz menyatakan κ/σ*T* = *L*, dengan *L* = 2,44 × 10⁻⁸
 
 Sebagian besar logam mengadopsi salah satu dari tiga struktur yang dibahas di Bab 5: ccp (Cu, Ag, Au, Al, Ni, Pt, Pb), hcp (Mg, Zn, Ti, Co, Cd), atau bcc (logam alkali, Fe, Cr, Mo, W, V). Ketiganya berbeda energi hanya sedikit, sehingga struktur yang dipilih bergantung pada detail jumlah elektron d dan s, dan banyak logam berubah struktur dengan suhu atau tekanan. Logam yang paling mudah ditempa (Au, Ag, Cu, Al, Pt) hampir semuanya ccp, karena ccp mempunyai empat arah bidang kemasan rapat yang dapat bergeser, sedangkan hcp hanya satu.
 
+::: {.contoh}
+**Contoh 7.2 · Besi menyusut ketika dipanaskan melewati 912 °C**
+
+Besi α (bcc) berubah menjadi besi γ (fcc) pada 912 °C. Pada suhu itu parameter kisinya 290,4 pm (bcc) dan 364,7 pm (fcc). (a) Hitung fraksi ruang yang terisi bola pada bcc dan fcc. (b) Bila atom besi adalah bola keras yang ukurannya tidak berubah, berapa persen volume akan berkurang pada transisi? (c) Hitung perubahan volume per atom yang sebenarnya dari parameter kisi, dan jari-jari atom dalam kedua struktur.
+
+**Rencana.** Pada bcc, bola bersentuhan sepanjang diagonal ruang (4*r* = √3 *a*, 2 atom per sel); pada fcc sepanjang diagonal muka (4*r* = √2 *a*, 4 atom per sel). Fraksi kemasan = volume bola dalam sel dibagi volume sel.
+
+**Penyelesaian.** (a) bcc: 2 × (4/3)π*r*³/*a*³ dengan *r* = √3*a*/4 memberi π√3/8 = **0,680**. fcc: 4 × (4/3)π*r*³/*a*³ dengan *r* = √2*a*/4 memberi π/(3√2) = **0,740**.
+
+(b) Untuk bola yang sama, volume berbanding terbalik dengan fraksi kemasan: 0,680/0,740 = 0,919, sehingga volume berkurang **8,1 %**.
+
+(c) Volume per atom: bcc 290,4³/2 = 1,2245 × 10⁷ pm³; fcc 364,7³/4 = 1,2127 × 10⁷ pm³. Volume hanya berkurang **1,0 %**. Jari-jari atom: bcc √3 × 290,4/4 = 125,7 pm; fcc √2 × 364,7/4 = 128,9 pm.
+
+**Memahami hasil.** Atom besi bukan bola keras. Ketika jumlah tetangganya naik dari 8 menjadi 12, setiap ikatan menjadi sedikit lebih lemah dan lebih panjang, sehingga jari-jari "membesar" sekitar 2,5 %. Hampir seluruh keuntungan kemasan yang lebih rapat dihabiskan oleh pemanjangan ini. Pengamatan yang sama dirumuskan Goldschmidt sebagai koreksi jari-jari terhadap bilangan koordinasi (sekitar 3 % lebih kecil bila koordinasi turun dari 12 ke 8). Penyusutan 1 % ini nyata dan penting bagi pandai besi dan insinyur: baja yang dipanaskan melewati suhu transisi tiba-tiba menyusut, lalu memuai kembali ketika didinginkan.
+:::
+
+
 ### Titik leleh dan pengisian pita
 
 Kekuatan ikatan logam sangat beragam. Raksa cair pada suhu kamar, sesium meleleh pada 28 °C (di telapak tangan), sedangkan tungsten baru meleleh pada 3422 °C, logam dengan titik leleh tertinggi, yang karena itu dipakai untuk kawat pijar lampu dan elektrode las.
@@ -99,7 +116,20 @@ Contoh klasik adalah Cu–Ni: keduanya ccp, jari-jari 128 dan 124 pm (berbeda 3 
 
 Atom kecil seperti H, B, C, dan N dapat menempati **rongga** di antara atom logam (Bab 5) tanpa menggantikannya. Contoh terpenting adalah **baja**: karbon menempati rongga oktahedral dalam besi γ (ccp) pada suhu tinggi. Jari-jari karbon (77 pm) sebenarnya lebih besar daripada rongga oktahedral besi ccp (sekitar 53 pm), sehingga karbon meregangkan kisi, dan kelarutannya terbatas (paling banyak sekitar 2 % massa). Ketika baja didinginkan cepat, karbon terperangkap dalam kisi besi yang terdistorsi (martensit), sehingga baja menjadi sangat keras; inilah dasar pengerasan baja sejak zaman pandai besi.
 
-Paladium dapat menyerap hidrogen sampai ratusan kali volumenya sendiri, dengan atom H menempati rongga oktahedral kisi ccp paladium. Sifat ini dipakai untuk memurnikan hidrogen: hanya H₂ yang dapat menembus membran paladium.
+Paladium dapat menyerap hidrogen sampai sekitar 900 kali volumenya sendiri (Contoh 7.3), dengan atom H menempati rongga oktahedral kisi ccp paladium. Sifat ini dipakai untuk memurnikan hidrogen: hanya H₂ yang dapat menembus membran paladium.
+
+::: {.contoh}
+**Contoh 7.3 · Mengapa besi γ melarutkan karbon seratus kali lebih banyak daripada besi α?**
+
+(a) Dengan parameter kisi besi γ 364,7 pm dan besi α 286,65 pm, hitung jari-jari rongga oktahedral fcc dan rongga terbesar (tetrahedral) dalam bcc. Bandingkan dengan jari-jari karbon (77 pm). (b) Paladium (ρ = 12,02 g cm⁻³) menyerap hidrogen sampai komposisi PdH~0,7~. Berapa volume gas H₂ (25 °C, 1 bar) yang diserap oleh 1 cm³ paladium?
+
+**Penyelesaian.** (a) Pada fcc, rongga oktahedral terletak di tengah rusuk; jaraknya ke pusat atom tetangga adalah *a*/2. Jari-jari atom *r* = √2*a*/4 = 128,9 pm, sehingga jari-jari rongga = 182,4 − 128,9 = **53 pm** (sesuai rasio 0,414*r*). Pada bcc, *r* = √3 × 286,65/4 = 124,1 pm. Rongga tetrahedral terletak pada jarak √5*a*/4 = 160,2 pm dari atom terdekat, sehingga jari-jarinya **36 pm**; rongga oktahedral bcc tidak simetris dan pada arah yang paling sempit hanya **19 pm**.
+
+(b) 1 cm³ Pd = 12,02/106,42 = 0,1129 mol. PdH~0,7~ mengandung 0,0790 mol H, yaitu 0,0395 mol H₂. Volumenya *V* = *nRT*/*p* = 0,0395 × 8,314 × 298,15/10⁵ = 9,8 × 10⁻⁴ m³ = **0,98 L**, hampir **seribu kali** volume logamnya.
+
+**Memahami hasil.** Karbon (77 pm) terlalu besar untuk semua rongga besi, tetapi jauh lebih "pas" di rongga oktahedral fcc (53 pm) daripada di rongga bcc (19–36 pm). Akibatnya kelarutan maksimum karbon dalam besi γ sekitar 2,1 % massa, sedangkan dalam besi α hanya 0,022 %. Seluruh metalurgi baja bertumpu pada perbedaan ini: baja dipanaskan sampai besi γ untuk melarutkan karbon, lalu didinginkan. Bila didinginkan perlahan, karbon keluar membentuk Fe₃C (sementit); bila didinginkan cepat, karbon terperangkap dalam kisi bcc yang terpaksa memanjang menjadi tetragonal (martensit), dan baja menjadi keras. Pada paladium, atom H (jari-jari kovalen 31–37 pm) cukup kecil untuk masuk ke rongga oktahedral (sekitar 57 pm pada Pd) tanpa merusak kisi; kisi hanya memuai sekitar 3,5 %, sehingga Pd dapat menyerap dan melepas hidrogen berulang-ulang.
+:::
+
 
 ### Senyawa antarlogam
 
@@ -114,7 +144,7 @@ Bila kedua logam berbeda cukup jauh dalam ukuran atau keelektronegatifan, yang t
 Hume-Rothery juga menemukan bahwa pada paduan tembaga, perak, dan emas dengan logam bervalensi lebih tinggi, struktur yang terbentuk ditentukan oleh **konsentrasi elektron** *e*/*a*, yaitu jumlah elektron valensi rata-rata per atom, bukan oleh unsur-unsurnya. Struktur bcc (fasa β) muncul pada *e*/*a* = 3/2, fasa γ yang rumit pada 21/13, dan fasa ε (hcp) pada 7/4. Paduan seperti ini disebut **senyawa elektron**.
 
 ::: {.contoh}
-**Contoh 7.2 · Konsentrasi elektron pada kuningan dan perunggu**
+**Contoh 7.4 · Konsentrasi elektron pada kuningan dan perunggu**
 
 Hitung *e*/*a* untuk CuZn, Cu₅Zn₈, CuZn₃, Cu₅Sn, Cu₃₁Sn₈, dan Cu₃Sn, dengan elektron valensi Cu = 1, Zn = 2, Sn = 4. Kelompokkan menurut fasa Hume-Rothery.
 
