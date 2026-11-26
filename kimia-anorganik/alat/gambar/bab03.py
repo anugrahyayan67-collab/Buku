@@ -73,7 +73,7 @@ ch4(axs[0], t, 'awal'); ch4(axs[1], t @ R4.T, 'putar 90° (C$_4$)'); ch4(axs[2],
 simpan(f, 'a_s4')
 
 # 3. Diagram alir penentuan grup titik
-f, ax = plt.subplots(figsize=(7.4, 6.6)); ax.axis('off'); ax.set_xlim(0, 10); ax.set_ylim(0, 10.6)
+f, ax = plt.subplots(figsize=(7.8, 6.6)); ax.axis('off'); ax.set_xlim(0, 10.8); ax.set_ylim(2.3, 10.6)
 def kotak(x, y, t, c='#edf5fc', ec=BIRU, w=2.8, h=.62):
     ax.add_patch(FancyBboxPatch((x - w / 2, y - h / 2), w, h, boxstyle='round,pad=0.04,rounding_size=0.12', fc=c, ec=ec, lw=1.1))
     ax.text(x, y, t, ha='center', va='center', fontsize=8.6, color=TUA)
@@ -82,10 +82,10 @@ def panah(x1, y1, x2, y2, t=''):
     ax.add_patch(FancyArrowPatch((x1, y1), (x2, y2), arrowstyle='-|>', mutation_scale=10, color=TUA, lw=1))
     if t: ax.text((x1 + x2) / 2 + .08, (y1 + y2) / 2 + .05, t, fontsize=8, color=JGT, fontweight='bold')
 kotak(5, 10.1, 'Molekul linear?', w=2.6)
-panah(6.3, 10.1, 7.7, 10.1, 'ya'); kotak(8.6, 10.1, 'ada i?', w=1.6)
-panah(8.6, 9.8, 8.0, 9.15, 'ya'); hasil(7.8, 8.9, 'D$_{\\infty h}$'); panah(8.8, 9.8, 9.3, 9.15, 'tidak'); hasil(9.3, 8.9, 'C$_{\\infty v}$')
+panah(6.3, 10.1, 8.15, 10.1, 'ya'); kotak(9.0, 10.1, 'ada i?', w=1.6)
+panah(8.7, 9.8, 8.25, 9.27, 'ya'); hasil(8.1, 9.0, 'D$_{\\infty h}$'); panah(9.3, 9.8, 9.75, 9.27, 'tidak'); hasil(9.9, 9.0, 'C$_{\\infty v}$')
 panah(5, 9.8, 5, 9.2, 'tidak'); kotak(5, 8.9, 'Simetri tinggi? (T, O, I)', w=3.4)
-panah(6.7, 8.9, 8.0, 8.05, 'ya'); hasil(8.6, 7.75, 'T$_d$, O$_h$, I$_h$')
+panah(6.7, 8.75, 7.9, 7.95, 'ya'); hasil(8.6, 7.75, 'T$_d$, O$_h$, I$_h$')
 panah(5, 8.6, 5, 7.95, 'tidak'); kotak(5, 7.65, 'Cari sumbu C$_n$ dengan n terbesar', w=3.8)
 panah(3.1, 7.65, 1.25, 7.27); kotak(1.2, 7.0, 'tidak ada C$_n$', '#f4f6f4', ABU, w=1.7, h=.5)
 panah(1.2, 6.75, 1.2, 6.25); kotak(1.2, 6.0, 'ada σ? → C$_s$\nada i? → C$_i$\nlain → C$_1$', '#fdf3e8', JGT, w=1.8, h=.95)

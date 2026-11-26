@@ -38,7 +38,7 @@ def pembuka(n, out):
     s = open(out).read(); P = f'{E}/_kerja/pembuka'
     cap = open(f'{P}/b{n:02d}.txt').read().strip()
     subs = [m for f_ in sorted(glob.glob(f'{R}/bab{n:02d}/[a-y]-*.md')) for m in re.findall(r'^## (\d+\.\d+) (.*)$', open(f_).read(), re.M)]
-    garis = ''.join(f'<li><b>{k}</b>{html.escape(re.sub(r"[$*]", "", t))}</li>' for k, t in subs)
+    garis = ''.join(f'<li><b>{k}</b>{html.escape(re.sub(r"~([^~]*)~", r"\1", re.sub(r"[$*]", "", t)))}</li>' for k, t in subs)
     outline = f'<div class="outline"><div class="oh">Isi bab</div><ul>{garis}</ul></div>'
     bag = f'Bagian {BAG[n][0]} · {BAG[n][1]}'
     def ganti(m):
@@ -83,7 +83,7 @@ if not LEWATI: render(jobs)
 
 # ---------- 2. teks per halaman, letak judul
 def norm(s): return re.sub(r'\s+', '', re.sub(r'-\n', '', s)).lower().replace('\u2019', "'").replace('\u2018', "'").replace('\u02bc', "'")
-def plain(t): return re.sub(r'\$[^$]*\$|\*', '', t).strip()
+def plain(t): return re.sub(r'~([^~]*)~', r'\1', re.sub(r'\$[^$]*\$|\*', '', t)).strip()
 TEKS = {}; NHAL = {}
 for n in BAB + ['lampiran']:
     key = f'bab{n:02d}' if n != 'lampiran' else n

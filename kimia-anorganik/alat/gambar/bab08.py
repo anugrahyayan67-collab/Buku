@@ -18,7 +18,7 @@ def sub(s):
 T = np.linspace(250, 800, 100); dG = -176.2 + T * 0.2851
 f, ax = plt.subplots(figsize=(5.6, 2.9)); ax.plot(T, dG, color=BIRU, lw=2); ax.axhline(0, color=TUA, lw=.8)
 ax.plot([618], [0], 'o', color=JGT); ax.annotate('618 K (345 °C)', (618, 0), (450, 40), fontsize=9, arrowprops=dict(arrowstyle='->', color=ABU))
-ax.text(280, -95, 'NH$_4$Cl terbentuk spontan', fontsize=8.5, color=BIRU); ax.text(640, 25, 'NH$_4$Cl terurai', fontsize=8.5, color=JGT)
+ax.text(430, -88, 'NH$_4$Cl terbentuk spontan', fontsize=8.5, color=BIRU); ax.text(665, -28, 'NH$_4$Cl terurai', fontsize=8.5, color=JGT)
 ax.set_xlabel('suhu (K)'); ax.set_ylabel('Δ$_r$$G$° (kJ mol$^{-1}$)'); koma(ax)
 simpan(f, 'a_dg')
 # 2. aturan Pauling
@@ -31,7 +31,11 @@ p = []
 for o in ok: p.append(o[1] + (cnt[o[1]] - (tot[o[1]] - 1) / 2) * .16); cnt[o[1]] += 1
 p = np.array(p); pk = [o[2] for o in ok]
 ax.scatter(p, pk, color=JGT, zorder=3); ax.plot([-.3, 3.3], [8 + 1.5, 8 - 5 * 3.3], color=BIRU, lw=1.5, label='aturan Pauling: p$K_a$ ≈ 8 − 5$p$')
-for k, ((nm, _, y), x) in enumerate(zip(ok, p)): ax.text(x, y + (.45 if k % 2 else -.95), nm, fontsize=6.3, color=TUA, ha='center')
+OFS = {'HOCl': (-.1, -.3, 'right'), 'B(OH)$_3$': (-.1, .1, 'right'), 'Si(OH)$_4$': (.1, -.6, 'left'), 'HOI': (.1, .2, 'left'), 'HOBr': (.1, -.2, 'left'),
+       'HClO$_2$': (-.1, .2, 'right'), 'H$_3$PO$_4$': (-.05, -1.1, 'right'), 'H$_2$SO$_3$': (.0, -1.25, 'center'), 'HNO$_2$': (-.1, .35, 'right'), 'H$_5$IO$_6$': (.05, .45, 'left'), 'H$_3$AsO$_4$': (.1, -.2, 'left'),
+       'HClO$_3$': (-.1, -.2, 'right'), 'H$_2$SO$_4$': (-.1, -.6, 'right'), 'HNO$_3$': (.1, .1, 'left'), 'HClO$_4$': (-.1, -.1, 'right')}
+for (nm, _, y), x in zip(ok, p):
+    dx, dy, ha = OFS.get(nm, (.1, .2, 'left')); ax.text(x + dx, y + dy, nm, fontsize=6.8, color=TUA, ha=ha, va='center')
 ax.set_xlabel('$p$ = jumlah O yang tidak terikat H'); ax.set_ylabel('p$K_{a1}$ terukur'); ax.set_xticks([0, 1, 2, 3]); ax.legend(fontsize=8.5); koma(ax)
 simpan(f, 'b_pauling')
 # 3. asam aqua

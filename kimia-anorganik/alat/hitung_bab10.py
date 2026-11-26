@@ -10,7 +10,7 @@ print('kT 298 kJ/mol', round(kB * 298.15 * NA / 1000, 2))
 for nm, eps, T in [('air', 78.4, 298.15), ('NH3', 22.4, 240), ('THF', 7.6, 298.15), ('heksana', 1.9, 298.15)]:
     q = e**2 / (8 * np.pi * eps0 * eps * kB * T) * 1e12; print('Bjerrum', nm, round(q), 'pm')
 print('== Born: dG = -(K/2) z^2/r (1 - 1/eps), r = r_Shannon + 85 pm')
-for nm, z, r, ex in [('Li+', 1, 76, -481), ('Na+', 1, 102, -375), ('K+', 1, 138, -304), ('Mg2+', 2, 72, -1838), ('Al3+', 3, 53.5, -4531)]:
+for nm, z, r, ex in [('Li+', 1, 76, -475), ('Na+', 1, 102, -365), ('K+', 1, 138, -295), ('Mg2+', 2, 72, -1830), ('Al3+', 3, 53.5, -4525)]:
     for eps, sv in [(78.4, 'air')]:
         print(nm, sv, round(-K / 2 * z * z / (r + 85) * (1 - 1 / eps)), 'eksp ΔhidG', ex)
 print('Born Na+ dalam NH3 (eps 22.4) vs air', round(-K / 2 / 187 * (1 - 1 / 22.4)), round(-K / 2 / 187 * (1 - 1 / 78.4)))

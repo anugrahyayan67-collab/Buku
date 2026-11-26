@@ -12,7 +12,7 @@ $$\beta_n = K_1 K_2 \cdots K_n = \frac{[\text{ML}_n]}{[\text{M}][\text{L}]^n} \q
 
 Karena nilainya sangat besar, tetapan ini biasanya ditulis sebagai log *K* atau log β. Hubungannya dengan energi Gibbs: Δ*G*° = −2,303*RT* log β = −5,71 log β kJ mol⁻¹ pada 25 °C.
 
-Hampir selalu *K*~1~ > *K*~2~ > *K*~3~ > … . Sebagian penurunan ini bersifat **statistik**: pada langkah pertama ada enam molekul air yang dapat diganti dan hanya satu L yang dapat lepas kembali; pada langkah terakhir hanya satu air tersisa dan enam L dapat lepas. Perhitungan peluang memberi *K*~1~/*K*~2~ = 2,4 dan *K*~2~/*K*~3~ = 1,9 untuk kompleks oktahedral, yaitu penurunan log *K* sekitar 0,25–0,4 setiap langkah. Penurunan yang jauh lebih besar dari ini menandakan perubahan struktur, misalnya distorsi Jahn–Teller pada Cu²⁺ (*K*~5~ dan *K*~6~ untuk NH₃ sangat kecil) atau perubahan geometri dari oktahedral ke tetrahedral.
+Hampir selalu *K*~1~ > *K*~2~ > *K*~3~ > ⋯. Sebagian penurunan ini bersifat **statistik**: pada langkah pertama ada enam molekul air yang dapat diganti dan hanya satu L yang dapat lepas kembali; pada langkah terakhir hanya satu air tersisa dan enam L dapat lepas. Perhitungan peluang memberi *K*~1~/*K*~2~ = 2,4 dan *K*~2~/*K*~3~ = 1,9 untuk kompleks oktahedral, yaitu penurunan log *K* sekitar 0,25–0,4 setiap langkah. Penurunan yang jauh lebih besar dari ini menandakan perubahan struktur, misalnya distorsi Jahn–Teller pada Cu²⁺ (*K*~5~ dan *K*~6~ untuk NH₃ sangat kecil) atau perubahan geometri dari oktahedral ke tetrahedral.
 
 ### Deret Irving–Williams
 
@@ -36,11 +36,11 @@ Kompleks kelat lebih stabil dengan faktor sekitar 10⁴. Fenomena ini, bahwa lig
 ::: {.contoh}
 **Contoh 11.10 · Dari mana efek kelat berasal?**
 
-Data termodinamika pada 25 °C: [Cd(NH₂CH₃)₄]²⁺: Δ*H*° = −57,3 kJ mol⁻¹, Δ*S*° = −67,3 J K⁻¹ mol⁻¹; [Cd(en)₂]²⁺: Δ*H*° = −56,5 kJ mol⁻¹, Δ*S*° = +14,1 J K⁻¹ mol⁻¹. (a) Hitung Δ*G*° keduanya dan periksa log β. (b) Suku mana yang menyebabkan efek kelat? (c) Untuk nikel, log β₆ [Ni(NH₃)₆]²⁺ = 8,61 dan log β₃ [Ni(en)₃]²⁺ = 18,28. Hitung *K* dan Δ*G*° untuk [Ni(NH₃)₆]²⁺ + 3en → [Ni(en)₃]²⁺ + 6NH₃.
+Data termodinamika pada 25 °C (Greenwood dan Earnshaw, 1997): [Cd(NH₂CH₃)₄]²⁺: Δ*H*° = −57,3 kJ mol⁻¹, Δ*S*° = −66,7 J K⁻¹ mol⁻¹; [Cd(en)₂]²⁺: Δ*H*° = −56,5 kJ mol⁻¹, Δ*S*° = +14,1 J K⁻¹ mol⁻¹. (a) Hitung Δ*G*° keduanya dan periksa log β. (b) Suku mana yang menyebabkan efek kelat? (c) Untuk nikel, log β₆ [Ni(NH₃)₆]²⁺ = 8,61 dan log β₃ [Ni(en)₃]²⁺ = 18,28. Hitung *K* dan Δ*G*° untuk [Ni(NH₃)₆]²⁺ + 3en → [Ni(en)₃]²⁺ + 6NH₃.
 
-**Penyelesaian.** (a) Δ*G*° = Δ*H*° − *T*Δ*S*°. Metilamina: −57,3 − 298,15 × (−0,0673) = −57,3 + 20,1 = **−37,2 kJ mol⁻¹**, log β = 37,2/5,71 = **6,52**. Etilenadiamina: −56,5 − 298,15 × 0,0141 = −56,5 − 4,2 = **−60,7 kJ mol⁻¹**, log β = **10,64**. Keduanya cocok dengan nilai terukur.
+**Penyelesaian.** (a) Δ*G*° = Δ*H*° − *T*Δ*S*°. Metilamina: −57,3 − 298,15 × (−0,0667) = −57,3 + 19,9 = **−37,4 kJ mol⁻¹**, log β = 37,4/5,71 = **6,55**. Etilenadiamina: −56,5 − 298,15 × 0,0141 = −56,5 − 4,2 = **−60,7 kJ mol⁻¹**, log β = **10,64**. Keduanya cocok dengan nilai terukur.
 
-(b) Δ*H*° hampir sama (keduanya membentuk empat ikatan Cd–N yang serupa). Perbedaannya hampir seluruhnya pada **entropi**: −*T*Δ*S*° = +20,1 kJ mol⁻¹ untuk metilamina (melawan) dan −4,2 kJ mol⁻¹ untuk en (mendukung). Efek kelat di sini **sepenuhnya efek entropi**.
+(b) Δ*H*° hampir sama (keduanya membentuk empat ikatan Cd–N yang serupa). Perbedaannya hampir seluruhnya pada **entropi**: −*T*Δ*S*° = +19,9 kJ mol⁻¹ untuk metilamina (melawan) dan −4,2 kJ mol⁻¹ untuk en (mendukung). Efek kelat di sini **sepenuhnya efek entropi**.
 
 (c) log *K* = 18,28 − 8,61 = 9,67, ***K* = 4,7 × 10⁹**; Δ*G*° = −5,71 × 9,67 = **−55,2 kJ mol⁻¹**.
 

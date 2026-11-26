@@ -12,7 +12,7 @@ koma = FuncFormatter(lambda v, p: (f'{v:g}').replace('.', ','))
 def simpan(f, nama): f.savefig(f'{D}/{nama}.png', dpi=220, bbox_inches='tight'); plt.close(f); print('ok', nama)
 
 # proyeksi 3D sederhana
-TH, PH = np.deg2rad(28), np.deg2rad(18)
+TH, PH = np.deg2rad(22), np.deg2rad(24)
 def P(v):
     x, y, z = v
     X = x * np.cos(TH) - y * np.sin(TH)
@@ -23,7 +23,7 @@ GEO = {
     2: [(0, 0, 1), (0, 0, -1)],
     3: [(0, 0, 1), (.866, 0, -.5), (-.866, 0, -.5)],
     4: [(0, 0, 1), (.943, 0, -.333), (-.471, .816, -.333), (-.471, -.816, -.333)],
-    5: [(0, 0, 1), (0, 0, -1), (1, 0, 0), (-.5, .866, 0), (-.5, -.866, 0)],
+    5: [(0, 0, 1), (0, 0, -1), (.866, -.5, 0), (0, 1, 0), (-.866, -.5, 0)],
     6: [(0, 0, 1), (0, 0, -1), (1, 0, 0), (-1, 0, 0), (0, 1, 0), (0, -1, 0)],
 }
 def molekul(ax, n, pb=(), cx=0, cy=0, s=1.0, pusat='A'):
@@ -34,7 +34,7 @@ def molekul(ax, n, pb=(), cx=0, cy=0, s=1.0, pusat='A'):
     for d, i, X, Y in sorted(items, reverse=True):
         if i in pb:
             ang = np.degrees(np.arctan2(Y, X))
-            ax.add_patch(Ellipse((cx + .55 * s * X, cy + .55 * s * Y), .75 * s, .42 * s, angle=ang, fc=MUDA, ec=BIRU, lw=1, alpha=.8, zorder=2 if d > 0 else 4))
+            ax.add_patch(Ellipse((cx + .6 * s * X, cy + .6 * s * Y), .7 * s, .38 * s, angle=ang, fc=MUDA, ec=BIRU, lw=1, alpha=.8, zorder=2 if d > 0 else 4))
             for k in (-1, 1):
                 ax.plot(cx + .62 * s * X + k * .07 * s * np.sin(np.radians(ang)), cy + .62 * s * Y - k * .07 * s * np.cos(np.radians(ang)), 'o', ms=2.5, color=TUA, zorder=5)
         else:
@@ -53,12 +53,12 @@ simpan(f, 'a_vsepr')
 # 2. Bentuk dengan pasangan bebas
 f, ax = plt.subplots(figsize=(7.6, 4.4)); ax.axis('off'); ax.set_aspect('equal')
 kasus = [(4, (0,), 'AX₃E\npiramida segitiga\nNH₃'), (4, (0, 3), 'AX₂E₂\nbengkok\nH₂O'), (5, (2,), 'AX₄E\njungkat-jungkit\nSF₄'),
-         (5, (3, 4), 'AX₃E₂\nbentuk T\nClF₃'), (5, (2, 3, 4), 'AX₂E₃\nlinear\nXeF₂'), (6, (1,), 'AX₅E\npiramida alas persegi\nBrF₅'),
+         (5, (3, 4), 'AX₃E₂\nbentuk T\nClF₃'), (5, (2, 3, 4), 'AX₂E₃\nlinear\nXeF₂'), (6, (1,), 'AX₅E\npiramida alas\npersegi, BrF₅'),
          (6, (0, 1), 'AX₄E₂\nsegi empat datar\nXeF₄')]
 for k, (n, pb, lab) in enumerate(kasus):
-    cx, cy = 3 * (k % 4), -3.9 * (k // 4)
+    cx, cy = 3.4 * (k % 4), -4.4 * (k // 4)
     molekul(ax, n, pb, cx=cx, cy=cy, s=1.0); ax.text(cx, cy - 1.5, lab, ha='center', va='top', fontsize=8.6, color=TUA)
-ax.set_xlim(-1.5, 10.5); ax.set_ylim(-7.9, 1.4)
+ax.set_xlim(-1.7, 11.9); ax.set_ylim(-8.5, 1.4)
 simpan(f, 'b_pasbebas')
 
 # 3. Sudut ikatan hidrida golongan 15 dan 16

@@ -69,7 +69,7 @@ Mengapa larutan [Zn(H₂O)₆]²⁺ dan [Sc(H₂O)₆]³⁺ tidak berwarna? ||| 
 ## Subbab 11.8: Spin tinggi, spin rendah, dan energi penstabilan medan kristal
 
 Hitung EPMK [Cr(H₂O)₆]³⁺ dalam kJ mol⁻¹ (Δ~o~ = 17 400 cm⁻¹). ||| −1,2Δ~o~ = −250 kJ mol⁻¹
-Tentukan konfigurasi, *n*, dan μ~so~: [Ti(H₂O)₆]³⁺, [V(H₂O)₆]³⁺, [Cr(H₂O)₆]³⁺, [Ni(H₂O)₆]²⁺. ||| t₂g¹ 1 1,73; t₂g² 2 2,83; t₂g³ 3 3,87; t₂g⁶e~g~² 2 2,83
+Tentukan konfigurasi, *n*, dan μ~so~: [Ti(H₂O)₆]³⁺, [V(H₂O)₆]³⁺, [Cr(H₂O)₆]³⁺, [Ni(H₂O)₆]²⁺. ||| t₂g¹ (1 tak berpasangan, 1,73 μ~B~); t₂g² (2; 2,83 μ~B~); t₂g³ (3; 3,87 μ~B~); t₂g⁶e~g~² (2; 2,83 μ~B~)
 [Fe(H₂O)₆]³⁺ (Δ~o~ = 13 700 cm⁻¹, *P* = 30 000 cm⁻¹): spin tinggi atau rendah? Berapa μ~so~? ||| spin tinggi; 5,92 μ~B~
 @cof6 [P] [CoF₆]³⁻ (Δ~o~ = 13 000 cm⁻¹) dan [Co(NH₃)₆]³⁺ (22 900 cm⁻¹), *P*(Co³⁺) = 21 000 cm⁻¹. Tentukan konfigurasi dan EPMK bersih (termasuk *P*) masing-masing. ||| [CoF₆]³⁻ spin tinggi −0,4Δ~o~ = −62 kJ mol⁻¹; [Co(NH₃)₆]³⁺ spin rendah −2,4Δ~o~ + 2*P* = −155 kJ mol⁻¹ relatif
 Sebuah kompleks Mn(III) oktahedral mempunyai μ = 4,9 μ~B~. Spin tinggi atau rendah? ||| 4 tak berpasangan: spin tinggi d⁴

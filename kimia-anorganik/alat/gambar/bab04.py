@@ -46,8 +46,8 @@ a2.set_xlim(-1.1, 4.6); a2.set_ylim(-2.4, 2.6)
 lev(a2, 0, 0, 'H 1s', 1, kiri=True); lev(a2, 3, 0, 'H 1s', 1)
 lev(a2, 1.5, -1.6, 'σ$_g$ (ikatan)', 2); lev(a2, 1.5, 2, 'σ$_u$* (antiikatan)')
 for xa, xb in [(.25, 1.25), (2.75, 1.75)]: hub(a2, xa, xb, 0, -1.6); hub(a2, xa, xb, 0, 2)
-a2.annotate('', (1.5, -.05), (1.5, -1.5), arrowprops=dict(arrowstyle='<->', color=ABU, lw=.8)); a2.text(1.58, -.8, 'Δ$E_+$', fontsize=8, color=ABU)
-a2.annotate('', (1.5, 1.9), (1.5, .05), arrowprops=dict(arrowstyle='<->', color=ABU, lw=.8)); a2.text(1.58, 1, 'Δ$E_-$ > Δ$E_+$', fontsize=8, color=ABU)
+a2.annotate('', (1.5, -.05), (1.5, -1.5), arrowprops=dict(arrowstyle='<->', color=ABU, lw=.8)); a2.text(1.42, -.8, 'Δ$E_+$', fontsize=8, color=ABU, ha='right')
+a2.annotate('', (1.5, 1.9), (1.5, .05), arrowprops=dict(arrowstyle='<->', color=ABU, lw=.8)); a2.text(1.42, 1, 'Δ$E_-$', fontsize=8, color=ABU, ha='right')
 a2.set_xlim(-1.1, 4.6); a2.set_ylim(-2.4, 2.6); a2.axis('off')
 simpan(f, 'a_lcao')
 
@@ -68,7 +68,7 @@ def diatom(ax, judul, nae, ns, mix):
     for k in Y:
         n = 2 if k in ('pu', 'pg') else 1
         c = HIJ if (mix and k in ('sgp', 'su')) else TUA
-        lev(ax, 2, Y[k], nm[k], isi[k], n=n, w=.45 if n == 2 else .6, c=c)
+        lev(ax, 2, Y[k], '', isi[k], n=n, w=.45 if n == 2 else .6, c=c); ax.text(2, Y[k] + .38, nm[k], ha='center', va='bottom', fontsize=8, color=c)
         src = [(s, s)] if k in ('sg', 'su') else [(p, p)]
         for (ya, yb) in src: hub(ax, .35, 1.6 if n == 1 else 1.45, ya, Y[k]); hub(ax, 3.65, 2.4 if n == 1 else 2.55, yb, Y[k])
     ax.set_title(judul, fontsize=10, color=TUA); ax.set_xlim(-1.1, 5.6); ax.set_ylim(-8.4, 3.6); ax.axis('off')
@@ -90,16 +90,16 @@ simpan(f, 'a_tren')
 # 4. CO heteronuklir dengan energi orbital atom (Gray)
 f, ax = plt.subplots(figsize=(5.6, 4.6))
 Cs, Cp, Os, Op = -19.47, -10.66, -32.36, -15.87
-ax.set_xlim(-1.4, 5.6); ax.set_ylim(-36, 0)
+ax.set_xlim(-1.4, 6.4); ax.set_ylim(-36, 0)
 lev(ax, 0, Cs, 'C 2s', 2, kiri=True); lev(ax, 0, Cp, 'C 2p', 2, n=3, w=.3, gap=.06, kiri=True)
-lev(ax, 4, Os, 'O 2s', 2); lev(ax, 4, Op, 'O 2p', 4, n=3, w=.3, gap=.06)
+lev(ax, 4.8, Os, 'O 2s', 2); lev(ax, 4.8, Op, 'O 2p', 4, n=3, w=.3, gap=.06)
 MO = [('3σ', -34, 2, 1), ('4σ', -21.8, 2, 1), ('1π', -17.3, 4, 2), ('5σ (HOMO)', -14.9, 2, 1), ('2π* (LUMO)', -7.5, 0, 2), ('6σ*', -3, 0, 1)]
 for nm, y, e, n in MO:
     lev(ax, 2, y, nm, e, n=n, w=.45 if n == 2 else .6, c=JGT if 'HOMO' in nm or 'LUMO' in nm else TUA)
-hub(ax, .35, 1.7, Cs, -34); hub(ax, 3.65, 2.3, Os, -34); hub(ax, .35, 1.7, Cs, -21.8); hub(ax, 3.65, 2.3, Op, -21.8)
-hub(ax, .5, 1.55, Cp, -17.3); hub(ax, 3.5, 2.45, Op, -17.3); hub(ax, .35, 1.7, Cp, -14.9); hub(ax, .5, 1.55, Cp, -7.5); hub(ax, 3.5, 2.45, Op, -7.5)
-ax.set_ylabel('energi (eV)'); ax.set_xlim(-1.4, 5.6); ax.set_ylim(-36, 0); kosong(ax); koma(ax)
-ax.text(-1.3, -27.5, 'oksigen lebih rendah:\norbital ikatan condong ke O,\nHOMO dan LUMO condong ke C', ha='left', va='top', fontsize=8.3, color=TUA)
+hub(ax, .35, 1.7, Cs, -34); hub(ax, 4.45, 2.3, Os, -34); hub(ax, .35, 1.7, Cs, -21.8); hub(ax, 4.3, 2.3, Op, -21.8)
+hub(ax, .5, 1.55, Cp, -17.3); hub(ax, 4.3, 2.45, Op, -17.3); hub(ax, .35, 1.7, Cp, -14.9); hub(ax, .5, 1.55, Cp, -7.5); hub(ax, 4.3, 2.45, Op, -7.5)
+ax.set_ylabel('energi (eV)'); ax.set_xlim(-1.4, 6.4); ax.set_ylim(-36, 0); kosong(ax); koma(ax)
+ax.text(2.9, -24.5, 'oksigen lebih rendah:\norbital ikatan condong ke O,\nHOMO dan LUMO condong ke C', ha='left', va='top', fontsize=8.3, color=TUA)
 simpan(f, 'a_co')
 
 # 5. Spektrum fotoelektron batang: N2, CO, H2O (eksperimen) + Koopmans
@@ -176,16 +176,16 @@ simpan(f, 'c_walsh')
 # 10. CO ke logam: donasi σ dan donasi balik π
 f, axs = plt.subplots(1, 2, figsize=(7.4, 2.4))
 for ax, judul in zip(axs, ['donasi σ: 5σ CO → d logam kosong', 'donasi balik π: d logam terisi → 2π* CO']):
-    ax.set_aspect('equal'); ax.axis('off'); ax.set_xlim(-2.4, 3.4); ax.set_ylim(-1.3, 1.3); ax.set_title(judul, fontsize=9.3, color=TUA)
-    ax.add_patch(Circle((-1.6, 0), .18, color='#b0b8c0', ec=TUA)); ax.text(-1.6, -.42, 'M', ha='center', fontsize=9)
+    ax.set_aspect('equal'); ax.axis('off'); ax.set_xlim(-2.4, 3.4); ax.set_ylim(-1.45, 1.3); ax.set_title(judul, fontsize=9.3, color=TUA)
+    ax.add_patch(Circle((-1.6, 0), .18, color='#b0b8c0', ec=TUA)); ax.text(-1.6, -1.22, 'M', ha='center', fontsize=9)
     ax.add_patch(Circle((.4, 0), .14, color='#4a4f57')); ax.add_patch(Circle((1.5, 0), .14, color='#d2553b'))
-    ax.text(.4, -.42, 'C', ha='center', fontsize=9); ax.text(1.5, -.42, 'O', ha='center', fontsize=9)
+    ax.text(.4, -1.22, 'C', ha='center', fontsize=9); ax.text(1.5, -1.22, 'O', ha='center', fontsize=9)
 axs[0].add_patch(Ellipse((-.15, 0), .9, .55, fc=JG, ec=TUA, alpha=.85)); axs[0].add_patch(Ellipse((-1.1, 0), .55, .5, fc=MUDA, ec=TUA, alpha=.6))
 axs[0].annotate('', (-1.0, .45), (-.2, .45), arrowprops=dict(arrowstyle='-|>', color=JGT))
 for s in (1, -1):
     axs[1].add_patch(Ellipse((-1.2, s * .45), .45, .6, angle=45 * s, fc=JG if s > 0 else MUDA, ec=TUA, alpha=.85))
     axs[1].add_patch(Ellipse((-2.0, s * .45), .45, .6, angle=-45 * s, fc=MUDA if s > 0 else JG, ec=TUA, alpha=.85))
-    axs[1].add_patch(Ellipse((.4, s * .45), .38, .62, fc=MUDA if s > 0 else JG, ec=TUA, alpha=.85))
-    axs[1].add_patch(Ellipse((1.5, s * .38), .3, .5, fc=JG if s > 0 else MUDA, ec=TUA, alpha=.85))
+    axs[1].add_patch(Ellipse((.4, s * .45), .38, .62, fc=JG if s > 0 else MUDA, ec=TUA, alpha=.85))
+    axs[1].add_patch(Ellipse((1.5, s * .38), .3, .5, fc=MUDA if s > 0 else JG, ec=TUA, alpha=.85))
 axs[1].annotate('', (.1, .8), (-.9, .8), arrowprops=dict(arrowstyle='-|>', color=JGT))
 simpan(f, 'c_karbonil')

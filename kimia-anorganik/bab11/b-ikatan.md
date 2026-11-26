@@ -91,7 +91,7 @@ Ligan di ujung kiri disebut **ligan medan lemah**, di ujung kanan **ligan medan 
 :::
 
 ::: {.kuis}
-**Kuis cepat 11.7** [Cr(NH₃)₆]³⁺ berwarna kuning dan [Cr(H₂O)₆]³⁺ ungu. Kompleks mana yang menyerap pada panjang gelombang lebih pendek? Hitung λ serapan dari Δ~o~ 21 550 dan 17 400 cm⁻¹.
+**Kuis cepat 11.7** [Cr(NH₃)₆]³⁺ berwarna kuning dan [Cr(H₂O)₆]³⁺ ungu. Kompleks mana yang menyerap pada panjang gelombang lebih pendek? Hitung λ serapan dari Δ~o~ 21 500 dan 17 400 cm⁻¹.
 :::
 
 ## 11.8 Spin tinggi, spin rendah, dan energi penstabilan medan kristal
@@ -139,7 +139,7 @@ dengan μ~B~ magneton Bohr. Untuk *n* = 1, 2, 3, 4, 5: μ~so~ = 1,73; 2,83; 3,87
 ::: {.contoh}
 **Contoh 11.7 · Dua kompleks besi(II)**
 
-Δ~o~ untuk [Fe(H₂O)₆]²⁺ adalah 10 400 cm⁻¹ dan untuk [Fe(CN)₆]⁴⁻ 32 850 cm⁻¹. Energi pemasangan Fe²⁺ sekitar 19 150 cm⁻¹. (a) Tentukan konfigurasi spin masing-masing. (b) Hitung EPMK dan momen magnet spin saja. (c) Ramalkan konfigurasi [Co(NH₃)₆]³⁺ (Δ~o~ = 22 900 cm⁻¹, *P* = 21 000 cm⁻¹).
+Δ~o~ untuk [Fe(H₂O)₆]²⁺ adalah 10 400 cm⁻¹ dan untuk [Fe(CN)₆]⁴⁻ 32 850 cm⁻¹. Energi pemasangan Fe²⁺ sekitar 19 150 cm⁻¹ (buku acuan yang berbeda memberi nilai *P* yang berselisih beberapa ribu cm⁻¹, karena cara memperkirakannya berbeda; kesimpulan tentang spin tidak berubah). (a) Tentukan konfigurasi spin masing-masing. (b) Hitung EPMK dan momen magnet spin saja. (c) Ramalkan konfigurasi [Co(NH₃)₆]³⁺ (Δ~o~ = 22 900 cm⁻¹, *P* = 21 000 cm⁻¹).
 
 **Penyelesaian.** Fe²⁺ adalah d⁶.
 

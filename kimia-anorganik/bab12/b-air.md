@@ -48,7 +48,7 @@ Air adalah satu-satunya zat yang ditemukan secara alami di Bumi dalam ketiga wuj
 
 ### Struktur es
 
-Dalam es biasa (**es Ih**, "h" untuk heksagonal), setiap atom O dikelilingi empat atom O lain secara tetrahedral pada jarak 276 pm. Dua di antaranya terhubung lewat atom H miliknya sendiri, dua lainnya lewat atom H tetangga. Jaringan ini membentuk lapisan-lapisan berlubang heksagonal yang bertumpuk, mirip wurtzit (subbab 5.5) dengan O menempati posisi Zn dan S sekaligus. Kisi tetrahedral seperti ini **terbuka**: bilangan koordinasi hanya 4, jauh dari 12 pada kemasan rapat, sehingga es mempunyai banyak ruang kosong.
+Dalam es biasa (**es Ih**, "h" untuk heksagonal), setiap atom O dikelilingi empat atom O lain secara tetrahedral pada jarak 276 pm. Dua di antaranya terhubung lewat atom H miliknya sendiri, dua lainnya lewat atom H tetangga. Jaringan ini membentuk lapisan-lapisan berlubang heksagonal yang bertumpuk, mirip wurtzit (subbab 5.4) dengan O menempati posisi Zn dan S sekaligus. Kisi tetrahedral seperti ini **terbuka**: bilangan koordinasi hanya 4, jauh dari 12 pada kemasan rapat, sehingga es mempunyai banyak ruang kosong.
 
 ![Gambar 12.5 Satu lapisan es Ih dilihat tegak lurus lapisan. Bola merah: O; bola putih: H. Setiap ikatan O···O memuat tepat satu H, dekat salah satu ujungnya. Ikatan keempat setiap O (keluar bidang gambar) tidak digambar.](fig/c_es.png){width=62%}
 

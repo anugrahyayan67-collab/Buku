@@ -129,6 +129,8 @@ Tabel 8.4 Parameter Drago–Wayland (dalam (kkal mol⁻¹)^1/2^; I₂ dipakai se
 | | | | DMSO | 1,34 | 2,85 |
 | | | | aseton | 0,987 | 2,33 |
 
+Nilai dalam Tabel 8.4 berasal dari himpunan parameter asli Drago dan rekan (acuan I₂: *E*~A~ = *C*~A~ = 1), yang juga dipakai dalam buku Huheey. Drago kemudian memperbarui seluruh himpunan dengan acuan berbeda (model ECW, I₂: *E*~A~ = 0,50 dan *C*~A~ = 2,0). Kedua himpunan memberi entalpi yang hampir sama, tetapi angka dari himpunan yang berbeda **tidak boleh dicampur** dalam satu perhitungan.
+
 ::: {.contoh}
 **Contoh 8.6 · Urutan basa bergantung asamnya**
 

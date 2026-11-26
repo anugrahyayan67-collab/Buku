@@ -86,8 +86,8 @@ for ax, judul, sh in [(a1, 'tanpa tegangan: pita melengkung', 1.0), (a2, 'tegang
     ax.plot(x, 2.0 - s, color=TUA); ax.plot(x, 1.0 - s, color=TUA); ax.fill_between(x, 0.4 - s, 1.0 - s, color=JG, alpha=.6)
     ax.axvline(0, color=ABU, ls=':', lw=1); ax.text(-.75, 2.15, 'p', fontsize=12, fontweight='bold'); ax.text(.65, 2.15 - .6 * sh, 'n', fontsize=12, fontweight='bold')
     ax.set_title(judul, fontsize=9.3, color=TUA); ax.axis('off'); ax.set_ylim(0, 2.5)
-    ax.text(-.95, 1.95, 'pita konduksi', fontsize=7.5); ax.text(-.95, .55, 'pita valensi', fontsize=7.5)
-a2.annotate('', (.35, 1.1 - .27), (.6, 1.5), arrowprops=dict(arrowstyle='-|>', color=BIRU)); a2.text(.15, 1.25, 'e$^-$ + lubang\n→ foton (LED)', fontsize=7.5, color=BIRU)
+    ax.text(-.95, 1.72, 'pita konduksi', fontsize=7.5); ax.text(-.95, .55, 'pita valensi', fontsize=7.5)
+a2.annotate('', (.35, 1.1 - .27), (.42, 1.3), arrowprops=dict(arrowstyle='-|>', color=BIRU)); a2.text(-.25, 1.33, 'e$^-$ + lubang\n→ foton (LED)', fontsize=7.5, color=BIRU)
 simpan(f, 'c_pn')
 # 7. celah pita dan warna
 f, ax = plt.subplots(figsize=(7.2, 2.6))

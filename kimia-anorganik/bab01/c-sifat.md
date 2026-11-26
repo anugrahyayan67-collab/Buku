@@ -58,7 +58,7 @@ $$\chi_\text{AR} = 0{,}744 + \frac{3590 \times 5{,}75}{99^2} = 0{,}744 + 2{,}11 
 **Memahami hasil.** Klorin mempunyai *Z*ₑf **lebih besar** daripada fluorin, tetapi elektron ikatannya berada jauh lebih jauh dari inti (99 lawan 72 pm). Karena gaya berbanding terbalik dengan kuadrat jarak, faktor jarak menang. Inilah sebabnya keelektronegatifan turun ke bawah golongan.
 :::
 
-![Gambar 1.9 Tiga skala keelektronegatifan untuk enam unsur. Skala Pauling (dari energi ikatan), Mulliken (dari *I* + *A*, diskalakan; N dan Si tidak ditampilkan karena afinitas elektronnya sangat kecil atau tidak pasti), dan Allred–Rochow (dari $Z_\text{ef}/r^2$). Ketiganya dibangun dari besaran yang berbeda, tetapi urutannya hampir sama.](fig/c_en.png){width=82%}
+![Gambar 1.9 Tiga skala keelektronegatifan untuk enam unsur. Skala Pauling (dari energi ikatan), Mulliken (dari *I* + *A*, diskalakan dengan $\chi_\text{P} \approx 0{,}187(I + A) + 0{,}17$; untuk N dipakai *A* ≈ −0,07 eV), dan Allred–Rochow (dari $Z_\text{ef}/r^2$). Ketiganya dibangun dari besaran yang berbeda, tetapi urutannya hampir sama.](fig/c_en.png){width=82%}
 
 ### Memakai keelektronegatifan
 

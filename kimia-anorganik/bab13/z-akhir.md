@@ -92,97 +92,115 @@
 
 **14.** Mengapa reaksi kimia tidak mengubah massa secara terukur, padahal *E* = *mc*² juga berlaku?
 
+**15.** Hitung defek massa (dalam u) dan energi ikat per nukleon ⁷Li (7,016 003 u).
+
 ## Subbab 13.3: Peluruhan α, β, γ, dan penangkapan elektron
 
-**15.** Lengkapi: ²²⁶Ra → ? + α; ⁹⁰Sr → ? + β⁻; ²²Na → ? + β⁺; ⁵⁵Fe + *e*⁻ → ?.
+**16.** Lengkapi: ²²⁶Ra → ? + α; ⁹⁰Sr → ? + β⁻; ²²Na → ? + β⁺; ⁵⁵Fe + *e*⁻ → ?.
 
-**16.** Hitung *Q* peluruhan α ²²⁶Ra (226,025 410) menjadi ²²²Rn (222,017 578).
+**17.** Hitung *Q* peluruhan α ²²⁶Ra (226,025 410) menjadi ²²²Rn (222,017 578).
 
-**17.** Hitung *Q* peluruhan β⁻ tritium (³H 3,016 049; ³He 3,016 029 u).
+**18.** Hitung *Q* peluruhan β⁻ tritium (³H 3,016 049; ³He 3,016 029 u).
 
-**18.** Mengapa peluruhan β⁺ memerlukan selisih massa atom lebih dari 1,022 MeV, sedangkan penangkapan elektron tidak?
+**19.** Mengapa peluruhan β⁺ memerlukan selisih massa atom lebih dari 1,022 MeV, sedangkan penangkapan elektron tidak?
 
-**19.** [P] Berapa partikel α dan β⁻ dipancarkan dalam deret dari ²³²Th ke ²⁰⁸Pb? Dan dari ²³⁵U ke ²⁰⁷Pb?
+**20.** [P] Berapa partikel α dan β⁻ dipancarkan dalam deret dari ²³²Th ke ²⁰⁸Pb? Dan dari ²³⁵U ke ²⁰⁷Pb?
 
-**20.** Mengapa spektrum energi elektron beta kontinu, sedangkan partikel alfa dari satu nuklida mempunyai energi tertentu?
+**21.** Mengapa spektrum energi elektron beta kontinu, sedangkan partikel alfa dari satu nuklida mempunyai energi tertentu?
 
-**21.** Ramalkan jenis peluruhan: ²⁴Na, ¹⁵O, ²¹⁰Po, ¹³⁷Cs.
+**22.** Ramalkan jenis peluruhan: ²⁴Na, ¹⁵O, ²¹⁰Po, ¹³⁷Cs.
 
-**22.** Mengapa partikel alfa yang energinya 4,2 MeV dapat keluar dari inti uranium, padahal penghalang Coulomb-nya sekitar 28 MeV?
+**23.** Mengapa partikel alfa yang energinya 4,2 MeV dapat keluar dari inti uranium, padahal penghalang Coulomb-nya sekitar 28 MeV?
 
 ## Subbab 13.4: Kinetika peluruhan dan waktu paruh
 
-**23.** Hitung aktivitas 1,00 mg ¹³¹I (*t*~½~ = 8,02 hari).
+**24.** Hitung aktivitas 1,00 mg ¹³¹I (*t*~½~ = 8,02 hari).
 
-**24.** Berapa persen ¹³¹I tersisa setelah 80 hari?
+**25.** Berapa persen ¹³¹I tersisa setelah 80 hari?
 
-**25.** Hitung aktivitas 1,00 g tritium (*t*~½~ = 12,32 tahun).
+**26.** Hitung aktivitas 1,00 g tritium (*t*~½~ = 12,32 tahun).
 
-**26.** Sampel kayu purba mempunyai aktivitas 0,10 Bq per gram karbon; kayu modern 0,23 Bq per gram. Berapa umurnya?
+**27.** Sampel kayu purba mempunyai aktivitas 0,10 Bq per gram karbon; kayu modern 0,23 Bq per gram. Berapa umurnya?
 
-**27.** [P] Sebuah zirkon mempunyai perbandingan atom ²⁰⁶Pb/²³⁸U = 0,80. Berapa umurnya? Mengapa zirkon cocok untuk penanggalan U–Pb?
+**28.** [P] Sebuah zirkon mempunyai perbandingan atom ²⁰⁶Pb/²³⁸U = 0,80. Berapa umurnya? Mengapa zirkon cocok untuk penanggalan U–Pb?
 
-**28.** Sebuah sampel batuan vulkanik mempunyai ⁴⁰Ar/⁴⁰K = 0,10. Dengan λ total ⁴⁰K = 5,543 × 10⁻¹⁰ per tahun dan 10,72 % peluruhan menghasilkan ⁴⁰Ar, hitung umurnya.
+**29.** Sebuah sampel batuan vulkanik mempunyai ⁴⁰Ar/⁴⁰K = 0,10. Dengan λ total ⁴⁰K = 5,543 × 10⁻¹⁰ per tahun dan 10,72 % peluruhan menghasilkan ⁴⁰Ar, hitung umurnya.
 
-**29.** Mengapa penanggalan radiokarbon tidak dapat dipakai untuk batuan berumur jutaan tahun?
+**30.** Mengapa penanggalan radiokarbon tidak dapat dipakai untuk batuan berumur jutaan tahun?
 
-**30.** Mengapa laju peluruhan hampir tidak dipengaruhi suhu dan bentuk kimia?
+**31.** Mengapa laju peluruhan hampir tidak dipengaruhi suhu dan bentuk kimia?
+
+**32.** Berapa fraksi ⁶⁰Co (*t*~½~ = 5,27 tahun) yang tersisa dari sumber radioterapi setelah 10 tahun?
+
+**33.** Berapa fraksi ⁹⁰Sr (28,8 tahun) yang tersisa 100 tahun setelah kecelakaan reaktor?
+
+**34.** Berapa lama sampai ¹³⁷Cs (30,1 tahun) turun menjadi 1 % dari semula?
 
 ## Subbab 13.5: Reaksi inti, fisi, dan fusi
 
-**31.** Setarakan: ⁶Li(n,α)?; ¹⁴N(n,p)?; ²⁷Al(α,n)?.
+**35.** Setarakan: ⁶Li(n,α)?; ¹⁴N(n,p)?; ²⁷Al(α,n)?.
 
-**32.** Tuliskan pembuatan ²³⁹Pu dari ²³⁸U.
+**36.** Tuliskan pembuatan ²³⁹Pu dari ²³⁸U.
 
-**33.** Lengkapi reaksi fisi ²³⁵U + n → ⁹⁴Sr + ? + 2n.
+**37.** Lengkapi reaksi fisi ²³⁵U + n → ⁹⁴Sr + ? + 2n.
 
-**34.** [P] Jelaskan fungsi moderator dan batang kendali, dan mengapa uranium harus diperkaya untuk reaktor air ringan tetapi tidak untuk reaktor air berat.
+**38.** [P] Jelaskan fungsi moderator dan batang kendali, dan mengapa uranium harus diperkaya untuk reaktor air ringan tetapi tidak untuk reaktor air berat.
 
-**35.** Berapa persen ²³⁵U dalam uranium alam 2 miliar tahun yang lalu (*t*~½~ ²³⁵U = 7,04 × 10⁸, ²³⁸U = 4,468 × 10⁹ tahun; sekarang 0,720 %)?
+**39.** Berapa persen ²³⁵U dalam uranium alam 2 miliar tahun yang lalu (*t*~½~ ²³⁵U = 7,04 × 10⁸, ²³⁸U = 4,468 × 10⁹ tahun; sekarang 0,720 %)?
 
-**36.** Mengapa fusi memerlukan suhu ratusan juta kelvin?
+**40.** Mengapa fusi memerlukan suhu ratusan juta kelvin?
 
-**37.** Mengapa hasil fisi hampir semuanya pemancar β⁻?
+**41.** Mengapa hasil fisi hampir semuanya pemancar β⁻?
+
+**42.** Berapa gram ²³⁵U difisi setiap hari oleh reaktor berdaya termal 1,0 GW, bila setiap fisi melepaskan 200 MeV?
 
 ## Subbab 13.6: Nukleosintesis bintang
 
-**38.** Hitung *Q* untuk 4¹H → ⁴He (massa atom).
+**43.** Hitung *Q* untuk 4¹H → ⁴He (massa atom).
 
-**39.** Mengapa langkah p + p → ²H + *e*⁺ + ν sangat lambat, dan apa akibatnya bagi Matahari?
+**44.** Mengapa langkah p + p → ²H + *e*⁺ + ν sangat lambat, dan apa akibatnya bagi Matahari?
 
-**40.** Jelaskan mengapa ⁸Be tidak dapat menjadi batu loncatan biasa dalam pembakaran helium, dan bagaimana karbon tetap terbentuk.
+**45.** Jelaskan mengapa ⁸Be tidak dapat menjadi batu loncatan biasa dalam pembakaran helium, dan bagaimana karbon tetap terbentuk.
 
-**41.** [P] Mengapa pembakaran di inti bintang berhenti di unsur kelompok besi, dan bagaimana unsur yang lebih berat terbentuk?
+**46.** [P] Mengapa pembakaran di inti bintang berhenti di unsur kelompok besi, dan bagaimana unsur yang lebih berat terbentuk?
 
-**42.** Apa perbedaan proses s dan proses r?
+**47.** Apa perbedaan proses s dan proses r?
 
 ## Subbab 13.7: Radioisotop dalam kedokteran, penanggalan, dan analisis
 
-**43.** Mengapa ⁹⁹ᵐTc ideal untuk diagnosis?
+**48.** Mengapa ⁹⁹ᵐTc ideal untuk diagnosis?
 
-**44.** Berapa aktivitas ⁹⁹ᵐTc yang disiapkan 4 jam sebelum penyuntikan agar aktivitasnya 500 MBq?
+**49.** Berapa aktivitas ⁹⁹ᵐTc yang disiapkan 4 jam sebelum penyuntikan agar aktivitasnya 500 MBq?
 
-**45.** Mengapa dua foton dari anihilasi positron berenergi 511 keV dan berlawanan arah?
+**50.** Mengapa dua foton dari anihilasi positron berenergi 511 keV dan berlawanan arah?
 
-**46.** [P] Jelaskan bagaimana ¹⁸O membuktikan bahwa esterifikasi memutus ikatan C–O asam, bukan alkohol.
+**51.** [P] Jelaskan bagaimana ¹⁸O membuktikan bahwa esterifikasi memutus ikatan C–O asam, bukan alkohol.
 
-**47.** Hitung aktivitas 0,30 μg ²⁴¹Am dalam detektor asap (*t*~½~ = 432 tahun).
+**52.** Hitung aktivitas 0,30 μg ²⁴¹Am dalam detektor asap (*t*~½~ = 432 tahun).
 
-**48.** Mengapa iodin-131 cocok untuk terapi tiroid?
+**53.** Mengapa iodin-131 cocok untuk terapi tiroid?
+
+**54.** Mengapa ²¹⁰Pb cocok untuk menanggali sedimen seratus tahun terakhir, sedangkan ¹⁴C tidak?
+
+**55.** Daya generator ²³⁸Pu (87,7 tahun) Voyager tinggal berapa persen setelah 45 tahun (hanya peluruhan)?
 
 ## Subbab 13.8: Keselamatan radiasi
 
-**49.** Laju dosis 1,0 m dari sumber gama 40 μSv per jam. Berapa pada 4,0 m?
+**56.** Laju dosis 1,0 m dari sumber gama 40 μSv per jam. Berapa pada 4,0 m?
 
-**50.** Berapa dosis ekuivalen (mSv) dari dosis serap 2 mGy partikel alfa? Dan 2 mGy gama?
+**57.** Berapa dosis ekuivalen (mSv) dari dosis serap 2 mGy partikel alfa? Dan 2 mGy gama?
 
-**51.** Mengapa perisai plastik lebih baik daripada timbal untuk radiasi beta?
+**58.** Mengapa perisai plastik lebih baik daripada timbal untuk radiasi beta?
 
-**52.** [P] Jelaskan secara kimia mengapa tablet KI diberikan setelah kecelakaan reaktor, dan mengapa harus diminum sebelum atau segera setelah paparan.
+**59.** [P] Jelaskan secara kimia mengapa tablet KI diberikan setelah kecelakaan reaktor, dan mengapa harus diminum sebelum atau segera setelah paparan.
 
-**53.** Mengapa ⁹⁰Sr lebih berbahaya bagi tubuh daripada ¹³⁷Cs walaupun waktu paruhnya mirip?
+**60.** Mengapa ⁹⁰Sr lebih berbahaya bagi tubuh daripada ¹³⁷Cs walaupun waktu paruhnya mirip?
 
-**54.** Sebutkan tiga sumber utama dosis radiasi alam.
+**61.** Sebutkan tiga sumber utama dosis radiasi alam.
+
+**62.** Aktivitas radon dalam udara rumah 100 Bq m⁻³. Berapa atom ²²²Rn (3,82 hari) per m³?
+
+**63.** Mengapa pekerja radiasi memakai dosimeter, dan apa yang diukurnya?
 
 
 # Jawaban
@@ -190,33 +208,38 @@
 ::: {.panjang}
 | No. | Jawaban | No. | Jawaban |
 |---|---|---|---|
-| 1 | 27,33,60; 43,56,99; 86,136,222; 53,78,131 | 28 | 1,19 miliar tahun |
-| 2 | isobar; isotop; isoton (N = 7) | 29 | setelah ≈ 9 waktu paruh (50 000 th) ¹⁴C terlalu sedikit |
-| 3 | 1,9 fm; 7,4 fm | 30 | proses inti; energi kimia jauh lebih kecil (kecuali sedikit pada EC) |
-| 4 | tolakan Coulomb ∝ *Z*²; neutron menambah gaya kuat tanpa tolakan | 31 | ³H; ¹⁴C; ³⁰P |
-| 5 | nukleon tidak berpasangan; isobar genap–genap lebih stabil | 32 | ²³⁸U + n → ²³⁹U →β⁻ ²³⁹Np →β⁻ ²³⁹Pu |
-| 6 | ajaib ganda (20/20; 82/126); *Z* = 50 ajaib | 33 | ¹⁴⁰Xe |
-| 7 | Tc (43), Pm (61) | 34 | perlambat neutron / serap neutron; H menyerap neutron, D tidak |
-| 8 | 2,22 MeV | 35 | ≈ 3,7 % |
-| 9 | 7,68 MeV; 7,98 MeV | 36 | atasi tolakan Coulomb (dengan bantuan penerowongan) |
-| 10 | 7,57 MeV | 37 | kaya neutron (N/Z inti berat) |
-| 11 | 2,73 × 10⁹ kJ mol⁻¹ | 38 | 26,7 MeV |
-| 12 | Coulomb ≈ −961 MeV, permukaan ≈ −684 MeV | 39 | memerlukan gaya lemah; Matahari stabil miliaran tahun |
-| 13 | keduanya bergerak ke puncak kurva *B*/*A* di sekitar Fe/Ni | 40 | ⁸Be terurai 10⁻¹⁶ s; proses tiga-alfa lewat keadaan Hoyle |
-| 14 | Δ*m*/*m* ≈ 10⁻⁹–10⁻¹⁰ | 41 | puncak *B*/*A*; penangkapan neutron (proses s dan r) |
-| 15 | ²²²Rn; ⁹⁰Y; ²²Ne; ⁵⁵Mn | 42 | laju penangkapan neutron lebih lambat / lebih cepat daripada peluruhan β |
-| 16 | 4,87 MeV | 43 | γ 140 keV, 6 jam, tanpa β, kimia koordinasi serbaguna |
-| 17 | 18,6 keV | 44 | 793 MBq |
-| 18 | positron diciptakan dan satu elektron atom berkurang: 2*m*~e~*c*² | 45 | massa *e*⁺ + *e*⁻ = 2 × 511 keV; kekekalan momentum |
-| 19 | 6α, 4β⁻; 7α, 4β⁻ | 46 | ¹⁸O alkohol ada di ester, bukan di air |
-| 20 | energi dibagi dengan antineutrino | 47 | ≈ 38 kBq |
-| 21 | β⁻; β⁺; α; β⁻ | 48 | tiroid mengumpulkan iodin; β⁻ jarak pendek |
-| 22 | penerowongan kuantum | 49 | 2,5 μSv per jam |
-| 23 | 4,6 × 10¹² Bq | 50 | 40 mSv; 2 mSv |
-| 24 | 0,10 % | 51 | timbal membangkitkan sinar-X (bremsstrahlung) |
-| 25 | 3,6 × 10¹⁴ Bq | 52 | tiroid jenuh I stabil; ¹³¹I tidak diserap; setelah diserap tidak dapat dikeluarkan |
-| 26 | ≈ 6900 tahun | 53 | Sr mengikuti Ca ke tulang, tertahan lama; Cs keluar lebih cepat |
-| 27 | 3,79 miliar tahun; menerima U, menolak Pb ketika mengkristal | 54 | radon, sinar kosmik, ⁴⁰K dalam tubuh / tanah |
+| 1 | 27,33,60; 43,56,99; 86,136,222; 53,78,131 | 33 | 9,0 % |
+| 2 | isobar; isotop; isoton (N = 7) | 34 | ≈ 200 tahun |
+| 3 | 1,9 fm; 7,4 fm | 35 | ³H; ¹⁴C; ³⁰P |
+| 4 | tolakan Coulomb ∝ *Z*²; neutron menambah gaya kuat tanpa tolakan | 36 | ²³⁸U + n → ²³⁹U →β⁻ ²³⁹Np →β⁻ ²³⁹Pu |
+| 5 | nukleon tidak berpasangan; isobar genap–genap lebih stabil | 37 | ¹⁴⁰Xe |
+| 6 | ajaib ganda (20/20; 82/126); *Z* = 50 ajaib | 38 | perlambat neutron / serap neutron; H menyerap neutron, D tidak |
+| 7 | Tc (43), Pm (61) | 39 | ≈ 3,7 % |
+| 8 | 2,22 MeV | 40 | atasi tolakan Coulomb (dengan bantuan penerowongan) |
+| 9 | 7,68 MeV; 7,98 MeV | 41 | kaya neutron (N/Z inti berat) |
+| 10 | 7,57 MeV | 42 | ≈ 1,05 kg |
+| 11 | 2,73 × 10⁹ kJ mol⁻¹ | 43 | 26,7 MeV |
+| 12 | Coulomb ≈ −961 MeV, permukaan ≈ −684 MeV | 44 | memerlukan gaya lemah; Matahari stabil miliaran tahun |
+| 13 | keduanya bergerak ke puncak kurva *B*/*A* di sekitar Fe/Ni | 45 | ⁸Be terurai 10⁻¹⁶ s; proses tiga-alfa lewat keadaan Hoyle |
+| 14 | Δ*m*/*m* ≈ 10⁻⁹–10⁻¹⁰ | 46 | puncak *B*/*A*; penangkapan neutron (proses s dan r) |
+| 15 | 0,045 u; 5,61 MeV | 47 | laju penangkapan neutron lebih lambat / lebih cepat daripada peluruhan β |
+| 16 | ²²²Rn; ⁹⁰Y; ²²Ne; ⁵⁵Mn | 48 | γ 140 keV, 6 jam, tanpa β, kimia koordinasi serbaguna |
+| 17 | 4,87 MeV | 49 | 793 MBq |
+| 18 | 18,6 keV | 50 | massa *e*⁺ + *e*⁻ = 2 × 511 keV; kekekalan momentum |
+| 19 | positron diciptakan dan satu elektron atom berkurang: 2*m*~e~*c*² | 51 | ¹⁸O alkohol ada di ester, bukan di air |
+| 20 | 6α, 4β⁻; 7α, 4β⁻ | 52 | ≈ 38 kBq |
+| 21 | energi dibagi dengan antineutrino | 53 | tiroid mengumpulkan iodin; β⁻ jarak pendek |
+| 22 | β⁻; β⁺; α; β⁻ | 54 | t½ 22,2 th sesuai rentang; ¹⁴C hampir tidak berubah dalam 100 th |
+| 23 | penerowongan kuantum | 55 | 70 % |
+| 24 | 4,6 × 10¹² Bq | 56 | 2,5 μSv per jam |
+| 25 | 0,10 % | 57 | 40 mSv; 2 mSv |
+| 26 | 3,6 × 10¹⁴ Bq | 58 | timbal membangkitkan sinar-X (bremsstrahlung) |
+| 27 | ≈ 6900 tahun | 59 | tiroid jenuh I stabil; ¹³¹I tidak diserap; setelah diserap tidak dapat dikeluarkan |
+| 28 | 3,79 miliar tahun; menerima U, menolak Pb ketika mengkristal | 60 | Sr mengikuti Ca ke tulang, tertahan lama; Cs keluar lebih cepat |
+| 29 | 1,19 miliar tahun | 61 | radon, sinar kosmik, ⁴⁰K dalam tubuh / tanah |
+| 30 | setelah ≈ 9 waktu paruh (50 000 th) ¹⁴C terlalu sedikit | 62 | ≈ 4,8 × 10⁷ atom |
+| 31 | proses inti; energi kimia jauh lebih kecil (kecuali sedikit pada EC) | 63 | dosis akumulatif yang diterima; memastikan di bawah batas |
+| 32 | 27 % |  |  |
 :::
 
 
@@ -230,27 +253,27 @@
 
 *Cara berpikir:* untuk inti ringan, suku permukaan (relatif terhadap volume, ∝ *A*^−1/3^) yang paling merugikan; untuk inti berat, suku Coulomb. Puncak kurva di sekitar besi adalah titik keseimbangan keduanya. Di atas sekitar *Z*²/*A* ≈ 50, tolakan Coulomb akan mengalahkan tegangan permukaan dan inti terbelah dengan sendirinya: batas atas tabel periodik.
 
-**Soal 19.** ²³²Th → ²⁰⁸Pb: Δ*A* = 24, jadi **6 α**. Enam α menurunkan *Z* sebanyak 12, dari 90 ke 78; untuk mencapai 82 diperlukan **4 β⁻**. ²³⁵U → ²⁰⁷Pb: Δ*A* = 28, **7 α** (*Z* turun 14, ke 78), lalu **4 β⁻** ke 82.
+**Soal 20.** ²³²Th → ²⁰⁸Pb: Δ*A* = 24, jadi **6 α**. Enam α menurunkan *Z* sebanyak 12, dari 90 ke 78; untuk mencapai 82 diperlukan **4 β⁻**. ²³⁵U → ²⁰⁷Pb: Δ*A* = 28, **7 α** (*Z* turun 14, ke 78), lalu **4 β⁻** ke 82.
 
 *Cara berpikir:* hitung α dari perubahan nomor massa (hanya α yang mengubah *A*), lalu β⁻ dari selisih *Z*. Setiap deret berakhir pada isotop timbal yang berbeda, sehingga komposisi isotop timbal dalam mineral menunjukkan unsur induk dan umurnya.
 
-**Soal 27.** *t* = ln(1 + 0,80)/λ, dengan λ = 0,6931/4,468 × 10⁹ = 1,551 × 10⁻¹⁰ per tahun: *t* = 0,5878/1,551 × 10⁻¹⁰ = **3,79 miliar tahun**. Zirkon mengkristal dengan U⁴⁺ (jari-jari 100 pm, KB 8) yang menggantikan Zr⁴⁺ (84 pm), tetapi menolak Pb²⁺ (129 pm, muatan berbeda), sehingga semua timbal di dalamnya radiogenik. Kristalnya juga sangat keras dan tahan pelapukan, sehingga sistem U–Pb tertutup selama miliaran tahun.
+**Soal 28.** *t* = ln(1 + 0,80)/λ, dengan λ = 0,6931/4,468 × 10⁹ = 1,551 × 10⁻¹⁰ per tahun: *t* = 0,5878/1,551 × 10⁻¹⁰ = **3,79 miliar tahun**. Zirkon mengkristal dengan U⁴⁺ (jari-jari 100 pm, KB 8) yang menggantikan Zr⁴⁺ (84 pm), tetapi menolak Pb²⁺ (129 pm, muatan berbeda), sehingga semua timbal di dalamnya radiogenik. Kristalnya juga sangat keras dan tahan pelapukan, sehingga sistem U–Pb tertutup selama miliaran tahun.
 
 *Cara berpikir:* jam radiometrik yang baik memerlukan tiga syarat: waktu paruh yang sesuai dengan umur yang diukur, kondisi awal yang diketahui (tidak ada anak pada saat jam mulai), dan sistem tertutup. Kimia kristal (Bab 5) yang menjamin syarat kedua dan ketiga.
 
-**Soal 34.** Moderator memperlambat neutron fisi yang cepat (sekitar 2 MeV) menjadi neutron termal (sekitar 0,025 eV), yang jauh lebih mudah ditangkap ²³⁵U dan menyebabkan fisi. Batang kendali (B, Cd) menyerap neutron untuk mengatur laju reaksi berantai. Hidrogen biasa adalah moderator yang sangat efektif (massanya sama dengan neutron), tetapi juga menyerap neutron (¹H + n → ²H), sehingga dengan air ringan neutron yang tersisa tidak cukup untuk uranium alam (0,72 % ²³⁵U); bahan bakar harus diperkaya. Deuterium hampir tidak menyerap neutron, sehingga reaktor air berat (CANDU) dapat memakai uranium alam.
+**Soal 38.** Moderator memperlambat neutron fisi yang cepat (sekitar 2 MeV) menjadi neutron termal (sekitar 0,025 eV), yang jauh lebih mudah ditangkap ²³⁵U dan menyebabkan fisi. Batang kendali (B, Cd) menyerap neutron untuk mengatur laju reaksi berantai. Hidrogen biasa adalah moderator yang sangat efektif (massanya sama dengan neutron), tetapi juga menyerap neutron (¹H + n → ²H), sehingga dengan air ringan neutron yang tersisa tidak cukup untuk uranium alam (0,72 % ²³⁵U); bahan bakar harus diperkaya. Deuterium hampir tidak menyerap neutron, sehingga reaktor air berat (CANDU) dapat memakai uranium alam.
 
 *Cara berpikir:* desain reaktor adalah persoalan neraca neutron: setiap neutron yang ditangkap moderator, struktur, atau hasil fisi adalah neutron yang hilang bagi reaksi berantai.
 
-**Soal 41.** Fusi melepaskan energi selama hasilnya mempunyai energi ikat per nukleon lebih besar daripada pereaksinya. Di sekitar ⁵⁶Fe dan ⁶²Ni, kurva *B*/*A* mencapai puncak: fusi lebih lanjut **menyerap** energi, sehingga inti bintang tidak dapat lagi menahan dirinya dan runtuh. Unsur yang lebih berat dibuat dengan penangkapan neutron (yang tidak terhalang penghalang Coulomb) diikuti peluruhan β⁻: lambat di bintang raksasa (proses s) dan cepat dalam supernova dan tabrakan bintang neutron (proses r).
+**Soal 46.** Fusi melepaskan energi selama hasilnya mempunyai energi ikat per nukleon lebih besar daripada pereaksinya. Di sekitar ⁵⁶Fe dan ⁶²Ni, kurva *B*/*A* mencapai puncak: fusi lebih lanjut **menyerap** energi, sehingga inti bintang tidak dapat lagi menahan dirinya dan runtuh. Unsur yang lebih berat dibuat dengan penangkapan neutron (yang tidak terhalang penghalang Coulomb) diikuti peluruhan β⁻: lambat di bintang raksasa (proses s) dan cepat dalam supernova dan tabrakan bintang neutron (proses r).
 
 *Cara berpikir:* satu grafik, kurva energi ikat per nukleon, menjelaskan sumber energi Matahari, akhir hidup bintang masif, dan kelimpahan unsur di sekitar kita.
 
-**Soal 46.** Dalam reaksi CH₃COOH + H–¹⁸O–C₂H₅ → CH₃CO–¹⁸O–C₂H₅ + H₂O, atom ¹⁸O dari alkohol ditemukan di dalam ester (diukur dengan spektrometri massa), dan air yang terbentuk tidak mengandung ¹⁸O. Berarti oksigen alkohol tetap terikat pada gugus etil, dan gugus OH yang lepas sebagai air berasal dari asam: ikatan C–OH **asil** yang putus.
+**Soal 51.** Dalam reaksi CH₃COOH + H–¹⁸O–C₂H₅ → CH₃CO–¹⁸O–C₂H₅ + H₂O, atom ¹⁸O dari alkohol ditemukan di dalam ester (diukur dengan spektrometri massa), dan air yang terbentuk tidak mengandung ¹⁸O. Berarti oksigen alkohol tetap terikat pada gugus etil, dan gugus OH yang lepas sebagai air berasal dari asam: ikatan C–OH **asil** yang putus.
 
 *Cara berpikir:* isotop adalah "label" yang tidak mengubah kimia tetapi dapat dilacak. Dengan isotop stabil (¹⁸O, ²H, ¹³C) dan radioaktif (¹⁴C, ³H, ³²P), kimiawan dapat mengikuti atom tertentu melalui reaksi yang rumit, termasuk jalur metabolisme di dalam sel.
 
-**Soal 52.** Tiroid menyerap ion iodida dari darah secara aktif untuk membuat hormon tiroksin, dan tidak membedakan ¹²⁷I yang stabil dari ¹³¹I yang radioaktif. Bila tablet KI diminum, tiroid dijenuhkan dengan iodin stabil dalam jumlah besar, sehingga ¹³¹I yang kemudian terhirup atau tertelan hampir tidak diserap dan dikeluarkan lewat urin. Tablet harus diminum sebelum atau segera setelah paparan; iodin radioaktif yang sudah terikat di tiroid tidak dapat diusir lagi.
+**Soal 59.** Tiroid menyerap ion iodida dari darah secara aktif untuk membuat hormon tiroksin, dan tidak membedakan ¹²⁷I yang stabil dari ¹³¹I yang radioaktif. Bila tablet KI diminum, tiroid dijenuhkan dengan iodin stabil dalam jumlah besar, sehingga ¹³¹I yang kemudian terhirup atau tertelan hampir tidak diserap dan dikeluarkan lewat urin. Tablet harus diminum sebelum atau segera setelah paparan; iodin radioaktif yang sudah terikat di tiroid tidak dapat diusir lagi.
 
 *Cara berpikir:* perlindungan terhadap radioisotop di dalam tubuh sering merupakan persoalan kimia: mencegah penyerapan (KI untuk iodin, biru Prusia untuk cesium) atau mempercepat pengeluaran (kelat seperti DTPA untuk plutonium dan amerisium, prinsip yang sama dengan EDTA di subbab 11.10).
 

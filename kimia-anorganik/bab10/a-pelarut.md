@@ -62,7 +62,7 @@ Persamaan (10.1) memuat tiga pelajaran. Pertama, solvasi sebanding dengan ***z*�
 ::: {.contoh}
 **Contoh 10.1 · Model Born untuk ion-ion dalam air**
 
-Hitung Δ~solv~*G* untuk Li⁺, Na⁺, K⁺, Mg²⁺, dan Al³⁺ dalam air (ε~r~ = 78,4) dengan model Born. Pakai jari-jari efektif *r* = *r*~ion~ + 85 pm, dengan *r*~ion~ (pm) Li⁺ 76, Na⁺ 102, K⁺ 138, Mg²⁺ 72, Al³⁺ 53. Bandingkan dengan nilai eksperimen: −481, −375, −304, −1838, −4531 kJ mol⁻¹.
+Hitung Δ~solv~*G* untuk Li⁺, Na⁺, K⁺, Mg²⁺, dan Al³⁺ dalam air (ε~r~ = 78,4) dengan model Born. Pakai jari-jari efektif *r* = *r*~ion~ + 85 pm, dengan *r*~ion~ (pm) Li⁺ 76, Na⁺ 102, K⁺ 138, Mg²⁺ 72, Al³⁺ 53. Bandingkan dengan nilai eksperimen: −475, −365, −295, −1830, −4525 kJ mol⁻¹ (Marcus, 1991).
 
 **Rencana.** Hitung tetapan *N*~A~*e*²/(8πε₀) = 6,95 × 10⁴ kJ mol⁻¹ pm, lalu kalikan dengan *z*²/*r* dan (1 − 1/78,4).
 
@@ -70,11 +70,11 @@ Hitung Δ~solv~*G* untuk Li⁺, Na⁺, K⁺, Mg²⁺, dan Al³⁺ dalam air (ε~
 
 | Ion | *r* efektif (pm) | Born | Eksperimen |
 |---|---|---|---|
-| Li⁺ | 161 | −426 | −481 |
-| Na⁺ | 187 | −367 | −375 |
-| K⁺ | 223 | −308 | −304 |
-| Mg²⁺ | 157 | −1747 | −1838 |
-| Al³⁺ | 138 | −4457 | −4531 |
+| Li⁺ | 161 | −426 | −475 |
+| Na⁺ | 187 | −367 | −365 |
+| K⁺ | 223 | −308 | −295 |
+| Mg²⁺ | 157 | −1747 | −1830 |
+| Al³⁺ | 138 | −4457 | −4525 |
 
 **Memahami hasil.** Model yang memperlakukan air sebagai cairan kontinu tanpa molekul ternyata memberikan hasil dalam beberapa persen untuk ion besar, dan menangkap kenaikan sangat tajam dengan muatan: Al³⁺ disolvasi dua belas kali lebih kuat daripada Na⁺. Mengapa jari-jarinya perlu ditambah 85 pm? Karena muatan ion tidak "melihat" air sebagai medium kontinu sampai ke permukaannya; ada lapisan molekul air pertama yang terarah penuh (dielektriknya jenuh) dan rongga kecil di antara ion dan pusat muatan molekul air. Penambahan itu adalah koreksi empiris yang dikemukakan Latimer, Pitzer, dan Slansky (1939). Untuk ion kecil seperti Li⁺, model meleset lebih jauh, karena di sini ikatan koordinasi dengan molekul air pertama, yang tidak dikenal model Born, menjadi penting.
 :::

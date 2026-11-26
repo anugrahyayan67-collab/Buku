@@ -44,10 +44,10 @@ print('Fe(CN)6 4- CFSE -2,4Δo kJ',-2.4*32850*0.0119627,' net with 2P',(-2.4*328
 print('Fe(H2O)6 2+ CFSE -0,4Δo kJ',-0.4*10400*0.0119627)
 print('Co(NH3)6 3+ LS -2.4Δo+2P (cm-1)',-2.4*22900+2*21000,' vs HS -0.4Δo',-0.4*22900)
 # Cr(III) deret spektrokimia
-for L,v in [('Cl-',13600),('F-',15200),('H2O',17400),('NH3',21550),('en',21900),('CN-',26600)]: print('Cr',L,v,1e7/v,'nm')
+for L,v in [('Cl-',13600),('F-',15060),('H2O',17400),('NH3',21500),('en',21900),('CN-',26600)]: print('Cr',L,v,1e7/v,'nm')
 # Irving-Williams log K1 en
 # kelat Cd
-for nm,lb,dH,dS in [('[Cd(NH2Me)4]',6.55,-57.3,-67.3),('[Cd(en)2]',10.62,-56.5,14.1)]:
+for nm,lb,dH,dS in [('[Cd(NH2Me)4]',6.55,-57.3,-66.7),('[Cd(en)2]',10.62,-56.5,14.1)]:
     dG=dH-T*dS/1000; print(nm,'dG',dG,'logb dari dG',-dG/F,'(tabel',lb,') -TdS',-T*dS/1000)
 print('Ni: log b6 NH3 8,61 dG',-8.61*F,' log b3 en 18,28 dG',-18.28*F,' selisih',(18.28-8.61)*F,'K',10**(18.28-8.61))
 # CFSE oktahedral vs tetrahedral: preferensi situs oktahedral (OSPE) untuk spinel, Δt=4/9Δo
@@ -70,7 +70,7 @@ print('[Ni(NH3)6]+3en logK',18.28-8.61)
 c=0.0119627
 print('Cr(H2O)6 EPMK kJ',-1.2*17400*c,' 575 nm')
 print('[CoF6]3- HS EPMK kJ',-0.4*13000*c)
-print('[Cr(NH3)6] lam',1e7/21550,'[Co(NH3)6]',1e7/22900)
+print('[Cr(NH3)6] lam',1e7/21500,'[Co(NH3)6]',1e7/22900)
 for n in (1,3): print('mu',n,math.sqrt(n*(n+2)))
 print('OSPE Co2+ d7', -0.8-(-1.2*4/9))
 K=1.8e-10*10**7.21; print('AgCl+2NH3 K',K, 'sqrtK',math.sqrt(K)); s=math.sqrt(K)/(1+2*math.sqrt(K)); print('s di NH3 1 M',s)

@@ -65,13 +65,18 @@ ell = json.load(open(f'{R}/_ellingham.json')); T = np.linspace(300, 2300, 50)
 f, ax = plt.subplots(figsize=(6.6, 4.4))
 warna = {'4Ag+O2→2Ag2O': ABU, '4Cu+O2→2Cu2O': JG, '2Fe+O2→2FeO': JGT, '2Zn+O2→2ZnO': '#7a7a7a', '4/3Al+O2→2/3Al2O3': HIJ, '2Mg+O2→2MgO': BIRU, '2C+O2→2CO': TUA, 'C+O2→CO2': TUA, '2CO+O2→2CO2': TUA}
 import re
+LAB = []
 for nm, (h, s) in ell.items():
     y = h - T * s / 1000; ls = '-' if 'C' not in nm.split('+')[0] or nm.startswith('4Cu') else '--'
     if nm.startswith(('2C+', 'C+', '2CO')): ls = '--'
     ax.plot(T, y, color=warna[nm], ls=ls, lw=1.8); lab = re.sub(r'(\d)(?=[A-Za-z(])', '', nm) if False else nm
-    dy = {'2Fe+O2→2FeO': 18, '2Zn+O2→2ZnO': -18, '2C+O2→2CO': 22, '4/3Al+O2→2/3Al2O3': -18}.get(nm, 0)
-    ax.text(2310, y[-1] + dy, re.sub(r'([A-Za-z\)])(\d+)', r'\1$_{\2}$', nm), fontsize=7, va='center', color=warna[nm])
-ax.axhline(0, color=ABU, lw=.6); ax.set_xlabel('suhu (K)'); ax.set_ylabel('Δ$G$° (kJ per mol O$_2$)'); ax.set_xlim(300, 2900); koma(ax)
+    LAB.append([y[-1], nm])
+LAB.sort()
+for i in range(1, len(LAB)):
+    if LAB[i][0] - LAB[i - 1][0] < 52: LAB[i][0] = LAB[i - 1][0] + 52
+for yl, nm in LAB:
+    ax.text(2330, yl, re.sub(r'([A-Za-z\)])(\d+)', r'\1$_{\2}$', nm), fontsize=7, va='center', color=warna[nm])
+ax.axhline(0, color=ABU, lw=.6); ax.set_xlabel('suhu (K)'); ax.set_ylabel('Δ$G$° (kJ per mol O$_2$)'); ax.set_xlim(300, 3000); koma(ax)
 simpan(f, 'c_ellingham')
 # 6. tangga potensial biologis (pH 7)
 bio = [('NAD$^+$/NADH', -.32), ('FAD/FADH$_2$', -.22), ('ubikuinon/ubikuinol', .045), ('sitokrom c (Fe$^{3+}$/Fe$^{2+}$)', .254), ('O$_2$/H$_2$O', .816)]

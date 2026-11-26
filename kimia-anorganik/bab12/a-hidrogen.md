@@ -170,7 +170,7 @@ Senyawa biner hidrogen dengan unsur lain disebut **hidrida** (walaupun dalam ban
 
 ### Hidrida ionik (salin)
 
-Logam alkali dan logam alkali tanah berat (Ca, Sr, Ba) bereaksi langsung dengan H₂ pada suhu tinggi membentuk padatan putih bertitik leleh tinggi, misalnya LiH, NaH, dan CaH₂. Di dalamnya hidrogen hadir sebagai ion **hidrida H⁻**. LiH dan NaH mempunyai struktur garam batu (subbab 5.5), dan jari-jari H⁻ sekitar 140 pm, hampir sebesar F⁻ (133 pm), walaupun hanya mempunyai dua elektron: inti dengan satu proton tidak dapat menahan dua elektron dengan rapat. Bukti keberadaan H⁻: elektrolisis lelehan LiH melepaskan H₂ di **anode**, tempat anion dioksidasi.
+Logam alkali dan logam alkali tanah berat (Ca, Sr, Ba) bereaksi langsung dengan H₂ pada suhu tinggi membentuk padatan putih bertitik leleh tinggi, misalnya LiH, NaH, dan CaH₂. Di dalamnya hidrogen hadir sebagai ion **hidrida H⁻**. LiH dan NaH mempunyai struktur garam batu (subbab 5.4), dan jari-jari H⁻ sekitar 140 pm, hampir sebesar F⁻ (133 pm), walaupun hanya mempunyai dua elektron: inti dengan satu proton tidak dapat menahan dua elektron dengan rapat. Bukti keberadaan H⁻: elektrolisis lelehan LiH melepaskan H₂ di **anode**, tempat anion dioksidasi.
 
 Ion H⁻ adalah basa dan reduktor yang sangat kuat. Hidrida ionik bereaksi hebat dengan air:
 

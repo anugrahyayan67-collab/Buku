@@ -19,6 +19,7 @@ Nyatakan energi ikat ⁴He (28,3 MeV) dalam kJ mol⁻¹. ||| 2,73 × 10⁹ kJ mo
 @semf2 [P] Dengan rumus massa semiempiris, tunjukkan mengapa suku Coulomb membuat *B*/*A* turun untuk inti berat. Hitung suku Coulomb ²³⁸U dan bandingkan dengan suku permukaannya. ||| Coulomb ≈ −961 MeV, permukaan ≈ −684 MeV
 Mengapa fisi uranium dan fusi hidrogen sama-sama melepaskan energi? ||| keduanya bergerak ke puncak kurva *B*/*A* di sekitar Fe/Ni
 Mengapa reaksi kimia tidak mengubah massa secara terukur, padahal *E* = *mc*² juga berlaku? ||| Δ*m*/*m* ≈ 10⁻⁹–10⁻¹⁰
+Hitung defek massa (dalam u) dan energi ikat per nukleon ⁷Li (7,016 003 u). ||| 0,045 u; 5,61 MeV
 
 ## Subbab 13.3: Peluruhan α, β, γ, dan penangkapan elektron
 
@@ -41,6 +42,9 @@ Sampel kayu purba mempunyai aktivitas 0,10 Bq per gram karbon; kayu modern 0,23 
 Sebuah sampel batuan vulkanik mempunyai ⁴⁰Ar/⁴⁰K = 0,10. Dengan λ total ⁴⁰K = 5,543 × 10⁻¹⁰ per tahun dan 10,72 % peluruhan menghasilkan ⁴⁰Ar, hitung umurnya. ||| 1,19 miliar tahun
 Mengapa penanggalan radiokarbon tidak dapat dipakai untuk batuan berumur jutaan tahun? ||| setelah ≈ 9 waktu paruh (50 000 th) ¹⁴C terlalu sedikit
 Mengapa laju peluruhan hampir tidak dipengaruhi suhu dan bentuk kimia? ||| proses inti; energi kimia jauh lebih kecil (kecuali sedikit pada EC)
+Berapa fraksi ⁶⁰Co (*t*~½~ = 5,27 tahun) yang tersisa dari sumber radioterapi setelah 10 tahun? ||| 27 %
+Berapa fraksi ⁹⁰Sr (28,8 tahun) yang tersisa 100 tahun setelah kecelakaan reaktor? ||| 9,0 %
+Berapa lama sampai ¹³⁷Cs (30,1 tahun) turun menjadi 1 % dari semula? ||| ≈ 200 tahun
 
 ## Subbab 13.5: Reaksi inti, fisi, dan fusi
 
@@ -51,6 +55,7 @@ Lengkapi reaksi fisi ²³⁵U + n → ⁹⁴Sr + ? + 2n. ||| ¹⁴⁰Xe
 Berapa persen ²³⁵U dalam uranium alam 2 miliar tahun yang lalu (*t*~½~ ²³⁵U = 7,04 × 10⁸, ²³⁸U = 4,468 × 10⁹ tahun; sekarang 0,720 %)? ||| ≈ 3,7 %
 Mengapa fusi memerlukan suhu ratusan juta kelvin? ||| atasi tolakan Coulomb (dengan bantuan penerowongan)
 Mengapa hasil fisi hampir semuanya pemancar β⁻? ||| kaya neutron (N/Z inti berat)
+Berapa gram ²³⁵U difisi setiap hari oleh reaktor berdaya termal 1,0 GW, bila setiap fisi melepaskan 200 MeV? ||| ≈ 1,05 kg
 
 ## Subbab 13.6: Nukleosintesis bintang
 
@@ -68,6 +73,8 @@ Mengapa dua foton dari anihilasi positron berenergi 511 keV dan berlawanan arah?
 @ester [P] Jelaskan bagaimana ¹⁸O membuktikan bahwa esterifikasi memutus ikatan C–O asam, bukan alkohol. ||| ¹⁸O alkohol ada di ester, bukan di air
 Hitung aktivitas 0,30 μg ²⁴¹Am dalam detektor asap (*t*~½~ = 432 tahun). ||| ≈ 38 kBq
 Mengapa iodin-131 cocok untuk terapi tiroid? ||| tiroid mengumpulkan iodin; β⁻ jarak pendek
+Mengapa ²¹⁰Pb cocok untuk menanggali sedimen seratus tahun terakhir, sedangkan ¹⁴C tidak? ||| t½ 22,2 th sesuai rentang; ¹⁴C hampir tidak berubah dalam 100 th
+Daya generator ²³⁸Pu (87,7 tahun) Voyager tinggal berapa persen setelah 45 tahun (hanya peluruhan)? ||| 70 %
 
 ## Subbab 13.8: Keselamatan radiasi
 
@@ -77,3 +84,6 @@ Mengapa perisai plastik lebih baik daripada timbal untuk radiasi beta? ||| timba
 @ki [P] Jelaskan secara kimia mengapa tablet KI diberikan setelah kecelakaan reaktor, dan mengapa harus diminum sebelum atau segera setelah paparan. ||| tiroid jenuh I stabil; ¹³¹I tidak diserap; setelah diserap tidak dapat dikeluarkan
 Mengapa ⁹⁰Sr lebih berbahaya bagi tubuh daripada ¹³⁷Cs walaupun waktu paruhnya mirip? ||| Sr mengikuti Ca ke tulang, tertahan lama; Cs keluar lebih cepat
 Sebutkan tiga sumber utama dosis radiasi alam. ||| radon, sinar kosmik, ⁴⁰K dalam tubuh / tanah
+
+Aktivitas radon dalam udara rumah 100 Bq m⁻³. Berapa atom ²²²Rn (3,82 hari) per m³? ||| ≈ 4,8 × 10⁷ atom
+Mengapa pekerja radiasi memakai dosimeter, dan apa yang diukurnya? ||| dosis akumulatif yang diterima; memastikan di bawah batas

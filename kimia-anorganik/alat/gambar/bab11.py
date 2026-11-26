@@ -112,7 +112,7 @@ lam = 1e7 / nu; a1.plot(lam, A_ / A_.max(), color=BIRU)
 for lo, hi, c in [(380, 450, '#7a4fbf'), (450, 495, '#3b6fd6'), (495, 570, '#3fae5a'), (570, 590, '#e6d23a'), (590, 620, '#f0a030'), (620, 750, '#d9433b')]: a1.axvspan(lo, hi, color=c, alpha=.18, lw=0)
 a1.axvline(493, color=TUA, ls='--', lw=.8); a1.text(500, .95, '493 nm\n20 300 cm$^{-1}$', fontsize=7.5)
 a1.set_xlim(350, 800); a1.set_yticks([]); a1.set_xlabel('panjang gelombang (nm)'); a1.set_ylabel('serapan'); a1.set_title('[Ti(H$_2$O)$_6$]$^{3+}$: menyerap hijau, tampak ungu', fontsize=8.8, color=TUA); koma(a1, 'x')
-L = ['Cl$^-$', 'F$^-$', 'H$_2$O', 'NH$_3$', 'en', 'CN$^-$']; v = [13600, 15200, 17400, 21550, 21900, 26600]
+L = ['Cl$^-$', 'F$^-$', 'H$_2$O', 'NH$_3$', 'en', 'CN$^-$']; v = [13600, 15060, 17400, 21500, 21900, 26600]
 a2.barh(range(6), v, color=[JG, JG, BIRU, BIRU, BIRU, JGT], edgecolor=TUA); a2.set_yticks(range(6)); a2.set_yticklabels(L)
 for i, vv in enumerate(v): a2.text(vv + 300, i, f'{vv:,}'.replace(',', ' '), va='center', fontsize=7.5)
 a2.set_xlim(0, 31000); a2.set_xlabel('Δ$_o$ untuk [CrL$_6$] (cm$^{-1}$)'); a2.set_title('deret spektrokimia, Cr(III)', fontsize=8.8, color=TUA)
@@ -133,7 +133,7 @@ f, (a1, a2) = plt.subplots(1, 2, figsize=(7.4, 3.0))
 m_ = ['Mn', 'Fe', 'Co', 'Ni', 'Cu', 'Zn']; lk = [2.73, 4.28, 5.89, 7.51, 10.55, 5.71]
 a1.plot(range(6), lk, 'o-', color=BIRU); a1.set_xticks(range(6)); a1.set_xticklabels([x_ + '$^{2+}$' for x_ in m_]); a1.set_ylabel('log $K_1$ (etilenadiamina)'); koma(a1, 'y')
 a1.set_title('deret Irving–Williams', fontsize=8.8, color=TUA)
-lab = ['[Cd(NH$_2$Me)$_4$]$^{2+}$', '[Cd(en)$_2$]$^{2+}$']; dH = [-57.3, -56.5]; mTS = [20.1, -4.2]; dG = [-37.2, -60.7]
+lab = ['[Cd(NH$_2$Me)$_4$]$^{2+}$', '[Cd(en)$_2$]$^{2+}$']; dH = [-57.3, -56.5]; mTS = [19.9, -4.2]; dG = [-37.4, -60.7]
 x = np.arange(2); a2.bar(x - .25, dH, .25, color=BIRU, label='Δ$H$°'); a2.bar(x, mTS, .25, color=JG, label='−$T$Δ$S$°'); a2.bar(x + .25, dG, .25, color=JGT, label='Δ$G$°')
 a2.axhline(0, color=TUA, lw=.8); a2.set_xticks(x); a2.set_xticklabels(lab, fontsize=8); a2.set_ylabel('kJ mol$^{-1}$'); a2.legend(fontsize=7.5, loc='upper right'); a2.set_ylim(-70, 45); koma(a2, 'y')
 a2.set_title('efek kelat: empat N donor', fontsize=8.8, color=TUA)

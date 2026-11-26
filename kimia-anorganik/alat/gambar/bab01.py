@@ -2,6 +2,7 @@
 # Gambar Bab 1 Kimia Anorganik 1: struktur atom dan sifat periodik. -> bab01/fig/*.png
 import os, numpy as np, matplotlib
 matplotlib.use('Agg'); import matplotlib.pyplot as plt
+from matplotlib.patches import FancyBboxPatch
 from matplotlib.ticker import FuncFormatter
 D = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'bab01', 'fig'); os.makedirs(D, exist_ok=True)
 plt.rcParams.update({'font.family': 'Liberation Sans', 'font.size': 10, 'axes.edgecolor': '#0e2748', 'axes.labelcolor': '#0e2748',
@@ -43,7 +44,7 @@ zie = [n * np.sqrt(IE[i] / 13.606) for i, n in enumerate(nn)]
 f, ax = plt.subplots(figsize=(6.4, 3.4))
 ax.plot(range(1, 19), zsl, 'o-', color=BIRU, lw=1.8, ms=5, label='aturan Slater')
 ax.plot(range(1, 19), zie, 's--', color=JGT, lw=1.4, ms=4.5, label='dari energi ionisasi, $n\\sqrt{I/R}$')
-for i in range(18): ax.text(i + 1, max(zsl[i], zie[i]) + .25, SIM[i], ha='center', fontsize=8, color=TUA)
+for i in range(18): ax.text(i + 1 + (.38 if SIM[i] == 'Na' else 0), max(zsl[i], zie[i]) + (.05 if SIM[i] == 'Na' else .25), SIM[i], ha='center', fontsize=8, color=TUA)
 ax.axvspan(2.5, 10.5, color='#edf5fc', zorder=0); ax.axvspan(10.5, 18.5, color='#fdf3ea', zorder=0)
 ax.set_xlabel('nomor atom Z'); ax.set_ylabel('muatan inti efektif $Z_{ef}$'); ax.legend(frameon=False, loc='upper left')
 ax.yaxis.set_major_formatter(koma); ax.set_xlim(0.5, 18.5); ax.set_ylim(0, 7.6)
@@ -54,8 +55,8 @@ f, ax = plt.subplots(figsize=(5.2, 4.2)); ax.axis('off')
 lab = 'spdf'
 for n in range(1, 8):
     for l in range(0, min(n, 4)):
-        ax.text(l, -n, f'{n}{lab[l]}', ha='center', va='center', fontsize=12, color=TUA, fontweight='bold',
-                bbox=dict(boxstyle='round,pad=.3', fc=['#edf5fc', '#fdf3ea', '#e8f6f0', '#f2effc'][l], ec='none'))
+        ax.add_patch(FancyBboxPatch((l - .28, -n - .22), .56, .44, boxstyle='round,pad=.04', fc=['#edf5fc', '#fdf3ea', '#e8f6f0', '#f2effc'][l], ec='none', zorder=1))
+        ax.text(l, -n, f'{n}{lab[l]}', ha='center', va='center', fontsize=12, color=TUA, fontweight='bold', zorder=3)
 for s in range(1, 9):
     xs, ys = [], []
     for l in range(0, 4):
@@ -63,7 +64,7 @@ for s in range(1, 9):
         if n >= l + 1 and 1 <= n <= 7: xs.append(l); ys.append(-n)
     if len(xs) > 1:
         ax.annotate('', xy=(xs[-1] + .25, ys[-1] + .25), xytext=(xs[0] - .2, ys[0] - .2),
-                    arrowprops=dict(arrowstyle='<-', color=JG, lw=1.4))
+                    arrowprops=dict(arrowstyle='<-', color=JG, lw=1.4, alpha=.75), zorder=2)
 ax.text(1.5, -8.2, 'ikuti panah dari atas ke bawah:\n1s 2s 2p 3s 3p 4s 3d 4p 5s 4d 5p 6s 4f 5d …', ha='center', fontsize=9, color=TUA)
 ax.set_xlim(-0.8, 3.8); ax.set_ylim(-8.8, -0.4)
 simpan(f, 'b_aufbau')
@@ -81,7 +82,7 @@ def isi(per, gols, bl):
     global z
     for g in gols:
         s = ELM[z]; z += 1; pos[s] = (g, per, bl)
-isi(1, [1], 's'); isi(1, [18], 'p')
+isi(1, [1], 's'); isi(1, [18], 's')
 for per in (2, 3): isi(per, [1, 2], 's'); isi(per, range(13, 19), 'p')
 for per in (4, 5): isi(per, [1, 2], 's'); isi(per, range(3, 13), 'd'); isi(per, range(13, 19), 'p')
 for per in (6, 7):
@@ -157,7 +158,7 @@ simpan(f, 'c_ea')
 # 9. Tiga skala keelektronegatifan
 EL = ['C', 'N', 'O', 'F', 'Si', 'Cl']
 pa = [2.55, 3.04, 3.44, 3.98, 1.90, 3.16]
-mu = [2.51, None, 2.99, 4.06, None, 3.27]
+mu = [2.51, 2.87, 2.99, 4.06, 1.95, 3.27]
 ar = [2.50, 3.01, 3.57, 4.10, 1.74, 2.85]
 x = np.arange(len(EL)); w = .26
 f, ax = plt.subplots(figsize=(6.4, 3.2))
