@@ -1,0 +1,99 @@
+## Subbab 11.1: Werner dan lahirnya kimia koordinasi
+
+> Massa molar: Co 58,93; Cr 52,00; Cl 35,45; N 14,01; H 1,008; O 16,00; AgCl 143,32 g mol⁻¹. 2,303*RT* = 5,71 kJ mol⁻¹ pada 25 °C; 1 cm⁻¹ = 0,01196 kJ mol⁻¹. Soal bertanda **[P]** dibahas di akhir bab.
+
+Berapa gram AgCl mengendap dengan segera dari 1,00 g CoCl₃·6NH₃ dan dari 1,00 g CoCl₃·4NH₃ (*M* = 267,48 dan 233,42 g mol⁻¹)? ||| 1,607 g; 0,614 g
+@hidrat [P] CrCl₃·6H₂O (*M* = 266,45 g mol⁻¹) dikenal dalam tiga isomer. Sebanyak 1,00 g isomer hijau tua mengendapkan 0,538 g AgCl dengan segera. Tentukan rumus Werner-nya dan ramalkan massa AgCl dari isomer ungu dan hijau kebiruan. ||| [Cr(H₂O)₄Cl₂]Cl·2H₂O; ungu 1,614 g; hijau kebiruan 1,076 g
+Ramalkan jumlah ion per satuan rumus untuk K₂[PtCl₆], [Pt(NH₃)₄]Cl₂, dan [Pt(NH₃)₂Cl₄]. ||| 3; 3; 0
+Tunjukkan bahwa teori rantai Jørgensen meramalkan CoCl₃·3NH₃ sebagai elektrolit. Mengapa data konduktivitas membantahnya? ||| rantai menyisakan Cl⁻ ujung; terukur nonelektrolit
+Berapa isomer MA₄B₂ yang diramalkan oleh heksagon datar, prisma trigonal, dan oktahedron? ||| 3; 3; 2
+Mengapa pemisahan enantiomer heksol menjadi bukti yang lebih kuat daripada tidak ditemukannya isomer ketiga [Co(NH₃)₄Cl₂]⁺? ||| bukti positif; tanpa karbon sehingga kekiralan berasal dari susunan di sekitar Co
+Jelaskan perbedaan valensi primer dan sekunder Werner dalam istilah modern. ||| bilangan oksidasi; bilangan koordinasi
+
+## Subbab 11.2: Ligan: donor, gigi, dan kelat
+
+Golongkan menurut jumlah gigi: H₂O, en, ox²⁻, dien, EDTA⁴⁻, bipy, CN⁻, terpy. ||| 1, 2, 2, 3, 6, 2, 1, 3
+Sebutkan dua ligan ambidentat dan atom-atom donornya. ||| SCN⁻ (S/N), NO₂⁻ (N/O), CN⁻ (C/N)
+Ramalkan atom donor tiosianat dalam [Hg(SCN)₄]²⁻ dan [Cr(NCS)₆]³⁻ dengan HSAB. ||| Hg–S (lunak–lunak); Cr–N (keras–keras)
+Mengapa cincin kelat beranggota lima paling umum? ||| sudut ikatan hampir tanpa tegangan
+Gambarkan bagaimana EDTA⁴⁻ membungkus ion logam. Berapa cincin kelat terbentuk? ||| oktahedral, 2N + 4O; lima cincin
+Apa ligan makrosiklik dalam hem dan dalam vitamin B₁₂, dan ion logam apa yang diikatnya? ||| porfirin (Fe); korin (Co)
+
+## Subbab 11.3: Tata nama IUPAC
+
+Namai: [Co(NH₃)₄Cl₂]Cl, [Ni(CO)₄], K₃[Co(NO₂)₆]. ||| tetraaminadikloridokobalt(III) klorida; tetrakarbonilnikel(0); kalium heksanitrito-κ*N*-kobaltat(III)
+Namai: [Cr(en)₃]Cl₃, Na₂[Zn(OH)₄], [Pt(NH₃)₄][PtCl₄]. ||| tris(etilenadiamina)kromium(III) klorida; natrium tetrahidroksidozinkat(II); tetraaminaplatina(II) tetrakloridoplatinat(II)
+Tuliskan rumus: diaminaperak(I) klorida; kalium tetrasianidonikelat(II); pentaakuahidroksidobesi(III) ion. ||| [Ag(NH₃)₂]Cl; K₂[Ni(CN)₄]; [Fe(H₂O)₅(OH)]²⁺
+@nama [P] Seorang mahasiswa menamai K₄[Fe(CN)₆] sebagai "kalium heksasianobesi(II)". Sebutkan dua kesalahannya, dan jelaskan mengapa akhiran nama logam penting. ||| ligan "sianido"; anion → "ferat"; kalium heksasianidoferat(II)
+Tentukan bilangan oksidasi logam dalam [Co(NH₃)₅(CO₃)]Cl, K₂[PtCl₆], [Fe(CO)₅], dan [Cr(ox)₃]³⁻. ||| +3; +4; 0; +3
+Mengapa nama "tetraamina" diurutkan di bawah huruf a, bukan t? ||| awalan jumlah diabaikan dalam urutan abjad
+
+## Subbab 11.4: Bilangan koordinasi dan geometri
+
+Tentukan bilangan oksidasi, jumlah elektron d, dan KB: [Fe(CN)₆]³⁻, [Ni(en)₃]²⁺, [AuCl₄]⁻, [Cu(NH₃)₄]²⁺, [Zn(OH)₄]²⁻. ||| Fe(III) d⁵ 6; Ni(II) d⁸ 6; Au(III) d⁸ 4; Cu(II) d⁹ 4; Zn(II) d¹⁰ 4
+Ramalkan geometri: [Ag(CN)₂]⁻, [PdCl₄]²⁻, [ZnCl₄]²⁻, [Co(NH₃)₆]³⁺. ||| linear; bujur sangkar; tetrahedral; oktahedral
+Mengapa KB tinggi (8–9) umum pada lantanida tetapi jarang pada logam 3d? ||| ion besar, ikatan ionik tanpa preferensi arah
+Mengapa ion d¹⁰ seperti Ag⁺ dan Au⁺ sering membentuk kompleks linear? ||| KB rendah; pencampuran s–d mendukung linear
+@kepert [P] Ramalkan geometri [CuCl₅]³⁻ dan [Ni(CN)₅]³⁻ dengan model Kepert, dan jelaskan mengapa [Ni(CN)₅]³⁻ ditemukan dalam dua bentuk dalam satu kristal. ||| bipiramida trigonal; energi BPT dan piramida bujur sangkar hampir sama
+Mengapa kompleks dengan ligan sangat besar seperti P(*t*-Bu)₃ mempunyai KB rendah? ||| halangan ruang
+
+## Subbab 11.5: Isomer: struktural dan stereo
+
+Tuliskan isomer ionisasi dari [Co(NH₃)₅Cl]SO₄ dan cara membedakan keduanya. ||| [Co(NH₃)₅(SO₄)]Cl; uji Ag⁺ dan Ba²⁺
+Tuliskan isomer koordinasi dari [Cu(NH₃)₄][PtCl₄]. ||| [Pt(NH₃)₄][CuCl₄]
+Berapa stereoisomer [Co(en)₃]³⁺? Apakah ada isomer geometri? ||| 2 (Δ, Λ); tidak
+Berapa stereoisomer [Cr(ox)₂(H₂O)₂]⁻? Mana yang kiral? ||| 3: *trans* (akiral), Δ- dan Λ-*cis*
+@ma2b2c2 [P] Hitung semua stereoisomer [Pt(NH₃)₂Cl₂Br₂] oktahedral. ||| 5 isomer geometri, 6 stereoisomer
+Mengapa kompleks tetrahedral MA₂B₂ tidak mempunyai isomer geometri, tetapi MABCD tetrahedral kiral? ||| semua posisi bersebelahan; empat ligan berbeda seperti C kiral
+Mengapa *trans*-platin tidak efektif sebagai obat kanker? ||| tidak dapat mengikat dua guanina bersebelahan dan menekuk DNA
+
+## Subbab 11.6: Teori ikatan valensi untuk kompleks
+
+Tentukan hibridisasi dan jumlah elektron tak berpasangan menurut teori ikatan valensi: [Ni(CN)₄]²⁻ (diamagnetik), [NiCl₄]²⁻ (paramagnetik). ||| dsp², 0; sp³, 2
+Tentukan hibridisasi [Fe(CN)₆]³⁻ (1 elektron tak berpasangan) dan [FeF₆]³⁻ (5). ||| d²sp³; sp³d²
+@vbtcu [P] Jelaskan masalah teori ikatan valensi untuk [Cu(NH₃)₄]²⁺ bujur sangkar. ||| dsp² memaksa 1 elektron ke 4p; seharusnya mudah teroksidasi, kenyataannya tidak
+Sebutkan dua hal yang tidak dapat dijelaskan teori ikatan valensi. ||| warna; ramalan spin tinggi/rendah
+Apa arti istilah kompleks "orbital dalam" dan "orbital luar"? ||| d²sp³ dengan 3d; sp³d² dengan 4d
+
+## Subbab 11.7: Teori medan kristal: pemisahan oktahedral dan tetrahedral
+
+[Cr(H₂O)₆]³⁺ menyerap pada 575 nm. Hitung Δ~o~ dalam cm⁻¹ dan kJ mol⁻¹. ||| 17 400 cm⁻¹; 208 kJ mol⁻¹
+Hitung panjang gelombang serapan [Co(NH₃)₆]³⁺ (Δ~o~ = 22 900 cm⁻¹). Warna apa yang tampak? ||| 437 nm; menyerap biru-ungu → kuning-jingga
+Mengapa orbital e~g~ naik dan t₂g turun dalam medan oktahedral? ||| e~g~ menunjuk ke ligan, t₂g di antaranya
+Mengapa Δ~t~ jauh lebih kecil daripada Δ~o~? ||| 4 ligan, tidak ada yang mengarah tepat ke orbital
+Urutkan menurut Δ~o~: [CrF₆]³⁻, [Cr(CN)₆]³⁻, [Cr(NH₃)₆]³⁺, [Cr(H₂O)₆]³⁺. ||| F⁻ < H₂O < NH₃ < CN⁻
+Mana yang mempunyai Δ~o~ lebih besar: [Fe(H₂O)₆]²⁺ atau [Fe(H₂O)₆]³⁺; [Co(NH₃)₆]³⁺ atau [Rh(NH₃)₆]³⁺? Jelaskan. ||| Fe³⁺ (muatan); Rh³⁺ (4d)
+@co [P] Mengapa CO, molekul netral dengan momen dipol kecil, adalah ligan medan paling kuat? Apa artinya bagi model muatan titik? ||| ikatan balik π ke π* menurunkan t₂g; model muatan titik tidak cukup → teori medan ligan
+Mengapa larutan [Zn(H₂O)₆]²⁺ dan [Sc(H₂O)₆]³⁺ tidak berwarna? ||| d¹⁰ dan d⁰: tidak ada transisi d–d
+
+## Subbab 11.8: Spin tinggi, spin rendah, dan energi penstabilan medan kristal
+
+Hitung EPMK [Cr(H₂O)₆]³⁺ dalam kJ mol⁻¹ (Δ~o~ = 17 400 cm⁻¹). ||| −1,2Δ~o~ = −250 kJ mol⁻¹
+Tentukan konfigurasi, *n*, dan μ~so~: [Ti(H₂O)₆]³⁺, [V(H₂O)₆]³⁺, [Cr(H₂O)₆]³⁺, [Ni(H₂O)₆]²⁺. ||| t₂g¹ (1 tak berpasangan, 1,73 μ~B~); t₂g² (2; 2,83 μ~B~); t₂g³ (3; 3,87 μ~B~); t₂g⁶e~g~² (2; 2,83 μ~B~)
+[Fe(H₂O)₆]³⁺ (Δ~o~ = 13 700 cm⁻¹, *P* = 30 000 cm⁻¹): spin tinggi atau rendah? Berapa μ~so~? ||| spin tinggi; 5,92 μ~B~
+@cof6 [P] [CoF₆]³⁻ (Δ~o~ = 13 000 cm⁻¹) dan [Co(NH₃)₆]³⁺ (22 900 cm⁻¹), *P*(Co³⁺) = 21 000 cm⁻¹. Tentukan konfigurasi dan EPMK bersih (termasuk *P*) masing-masing. ||| [CoF₆]³⁻ spin tinggi −0,4Δ~o~ = −62 kJ mol⁻¹; [Co(NH₃)₆]³⁺ spin rendah −2,4Δ~o~ + 2*P* = −155 kJ mol⁻¹ relatif
+Sebuah kompleks Mn(III) oktahedral mempunyai μ = 4,9 μ~B~. Spin tinggi atau rendah? ||| 4 tak berpasangan: spin tinggi d⁴
+Ion mana yang mengalami distorsi Jahn–Teller kuat: Cr²⁺ (spin tinggi), Ni²⁺, Cu²⁺, Mn²⁺ (spin tinggi)? ||| Cr²⁺ dan Cu²⁺
+@spinel2 [P] Ramalkan apakah CoFe₂O₄ dan ZnFe₂O₄ adalah spinel normal atau terbalik. Ion Co²⁺ d⁷ spin tinggi. ||| CoFe₂O₄ terbalik (EPSO Co²⁺ −0,27Δ~o~); ZnFe₂O₄ normal (semua EPSO nol; Zn²⁺ suka tetrahedral)
+Mengapa kompleks tetrahedral hampir selalu spin tinggi? ||| Δ~t~ ≈ 4/9 Δ~o~ < *P*
+Jelaskan pola "dua punuk" pada entalpi hidrasi M²⁺ deret 3d. ||| EPMK; d⁰, d⁵, d¹⁰ pada garis
+
+## Subbab 11.9: Aturan 18 elektron
+
+Hitung elektron valensi: W(CO)₆, Ru(CO)₅, [Mn(CO)₆]⁺, Fe₂(CO)₉ (satu ikatan Fe–Fe). ||| 18; 18; 18; 18
+Ramalkan rumus karbonil biner netral paling sederhana untuk Mo, Ru, dan Re. ||| Mo(CO)₆; Ru(CO)₅; Re₂(CO)₁₀
+Hitung elektron valensi ruthenosena Ru(η⁵-C₅H₅)₂ dan kobaltosena Co(η⁵-C₅H₅)₂. Mana yang mudah dioksidasi? ||| 18; 19 (mudah dioksidasi menjadi [Co(C₅H₅)₂]⁺)
+@vaska [P] Kompleks Vaska, *trans*-[IrCl(CO)(PPh₃)₂], mengikat H₂ secara reversibel membentuk [IrH₂Cl(CO)(PPh₃)₂]. Hitung elektron valensi sebelum dan sesudah, serta bilangan oksidasi Ir. ||| 16 e⁻, Ir(I) → 18 e⁻, Ir(III)
+Mengapa [Ni(H₂O)₆]²⁺ (20 elektron) stabil walaupun melanggar aturan 18 elektron? ||| ligan medan lemah; e~g~* tidak cukup tinggi
+Mengapa Co(CO)₄ tidak ada sebagai monomer? ||| 17 elektron; berdimer menjadi Co₂(CO)₈
+
+## Subbab 11.10: Kestabilan kompleks dan efek kelat
+
+Hitung Δ*G*° pembentukan [Ag(NH₃)₂]⁺ (log β₂ = 7,21) dan [Cd(en)₂]²⁺ (log β₂ = 10,62). ||| −41,2 dan −60,6 kJ mol⁻¹
+Hitung rasio statistik *K*~1~/*K*~2~ dan *K*~5~/*K*~6~ untuk kompleks oktahedral. ||| 2,4 dan 2,4
+@agcl [P] Hitung kelarutan AgCl (*K*~sp~ = 1,8 × 10⁻¹⁰) dalam NH₃ 1,0 mol L⁻¹ (log β₂ [Ag(NH₃)₂]⁺ = 7,21). Bandingkan dengan dalam air murni. ||| *K* = 2,9 × 10⁻³; *s* ≈ 0,049 mol L⁻¹; 3600 kali
+Urutkan menurut log *K*~1~ dengan en: Co²⁺, Cu²⁺, Mn²⁺, Zn²⁺, Ni²⁺. ||| Mn < Zn < Co < Ni < Cu (Zn sedikit di bawah Co)
+@sadah [P] Sebanyak 50,0 mL air sumur dititrasi dengan EDTA 0,0100 mol L⁻¹ dan memerlukan 12,5 mL. Hitung kesadahan total dalam mol L⁻¹ dan dalam mg CaCO₃ per liter. ||| 2,50 × 10⁻³ mol L⁻¹; 250 mg L⁻¹
+Mengapa keracunan timbal diobati dengan Na₂[Ca(EDTA)], bukan Na₄EDTA? Hitung *K* pertukaran Pb²⁺ dengan [Ca(EDTA)]²⁻ (log *K* 18,0 dan 10,7). ||| mencegah hipokalsemia; *K* ≈ 2 × 10⁷
+Jelaskan efek kelat dengan menghitung perubahan jumlah partikel pada [Ni(NH₃)₆]²⁺ + 3en → [Ni(en)₃]²⁺ + 6NH₃. ||| 4 → 7 partikel; Δ*S* positif
+Beri satu contoh kompleks yang stabil tetapi labil dan satu yang tidak stabil tetapi inert. ||| [Ni(CN)₄]²⁻; [Co(NH₃)₆]³⁺ dalam asam

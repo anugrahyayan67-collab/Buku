@@ -27,6 +27,7 @@ Skrip Fisika Umum memakai jalur `~/fisika-umum`:
 ```bash
 ln -sfn /home/user/buku/fisika-umum ~/fisika-umum
 pip install reportlab pypdf matplotlib 2>/dev/null   # bila belum ada; pandoc dan Playwright sudah terpasang
+apt-get install -y fonts-stix   # STIX Math: kurung matriks MathML merentang (Kimia Anorganik, ka.css)
 ```
 - Bangun satu bab: `cd fisika-umum && ./build.sh babNN "Bab N"`
 - Cetak buku utuh (versi digital, tanpa halaman kosong; gaya sama dengan Kimia Kuantum: edisi2/fu.css, pembuka2.py, sampul.py): `python3 fisika-umum/edisi2/cetak.py` (`--lewati-bab` bila isi bab tidak berubah, `--cetak` untuk versi cetak bolak-balik).

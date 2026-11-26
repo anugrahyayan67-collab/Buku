@@ -1,0 +1,112 @@
+## Subbab 3.1: Unsur dan operasi simetri
+
+> Tabel karakter ada di Lampiran B; sumbangan karakter per atom tetap di Tabel 3.5. Soal bertanda **[P]** dibahas di akhir bab.
+
+Sebutkan semua unsur simetri pada HCN, CH₂O, dan C₂H₄ (etena). ||| HCN: E, C∞, ∞σᵥ; CH₂O: E, C₂, 2σᵥ; C₂H₄: E, 3C₂, i, 3σ
+Berapa operasi yang dihasilkan oleh satu sumbu C₆? Sebutkan semuanya dan tunjukkan mana yang sama dengan C₃ dan C₂. ||| 6: C₆, C₆² = C₃, C₆³ = C₂, C₆⁴ = C₃², C₆⁵, E
+Manakah yang mempunyai pusat inversi: CO₂, SO₂, XeF₄, CH₄, SF₆, [PtCl₄]²⁻, NH₃, benzena? ||| CO₂, XeF₄, SF₆, [PtCl₄]²⁻, benzena
+@s6 [P] Etana dalam konformasi bersilang mempunyai sumbu S₆ sepanjang ikatan C–C. Jelaskan dengan langkah putar dan cermin mengapa S₆ adalah operasi simetri, padahal C₆ dan σₕ bukan. ||| putar 60° menempatkan H atas di posisi H bawah (dilihat dari sumbu), cermin melalui bidang tengah C–C membawanya ke atas
+Tunjukkan bahwa S₂ sama dengan i dan S₁ sama dengan σ. ||| S₂: putar 180° (x,y,z → −x,−y,z) lalu cermin xy (z → −z): hasil (−x,−y,−z) = i; S₁: putar 360° = E, lalu cermin = σ
+Berapa bidang cermin yang dimiliki SF₆? Bedakan σₕ dan σd. ||| 9: 3σₕ (masing-masing memuat 4 F) dan 6σd (memuat 2 F, membagi dua sudut F–S–F)
+Mengapa molekul CH₄ mempunyai S₄ tetapi tidak mempunyai C₄? ||| putaran 90° menukar H atas dengan posisi kosong; cermin sesudahnya memulihkan
+Sebutkan unsur simetri pada BF₃ yang tidak dimiliki NH₃. ||| tiga C₂ tegak lurus C₃, σₕ, S₃
+
+## Subbab 3.2: Grup titik dan diagram alir penentuannya
+
+Tentukan grup titik: SO₃, SO₂, ClF₃, CH₂Cl₂, [PtCl₄]²⁻, benzena, C₆₀. ||| D₃ₕ, C₂ᵥ, C₂ᵥ, C₂ᵥ, D₄ₕ, D₆ₕ, I~h~
+Tentukan grup titik: HCl, CO₂, N₂O (N–N–O), HC≡CH, OCS. ||| C∞ᵥ, D∞ₕ, C∞ᵥ, D∞ₕ, C∞ᵥ
+Tentukan grup titik: CHCl₃, CH₂ClBr, CHFClBr, CCl₄. ||| C₃ᵥ, Cₛ, C₁, T~d~
+Tentukan grup titik: PF₅, SF₆, BrF₅, IF₇ (bipiramida pentagonal), XeF₂. ||| D₃ₕ, O~h~, C₄ᵥ, D₅ₕ, D∞ₕ
+@alena [P] Tentukan grup titik alena, H₂C=C=CH₂. Perhatikan bahwa kedua gugus CH₂ terletak di bidang yang saling tegak lurus. ||| D₂d
+Tentukan grup titik cis- dan trans-N₂F₂ (keduanya datar). ||| cis C₂ᵥ, trans C₂ₕ
+Tentukan grup titik [Co(NH₃)₆]³⁺ (anggap NH₃ sebagai bola), cis-[Co(NH₃)₄Cl₂]⁺, dan trans-[Co(NH₃)₄Cl₂]⁺. ||| O~h~, C₂ᵥ, D₄ₕ
+Tentukan grup titik fac- dan mer-[Co(NH₃)₃Cl₃]. ||| fac C₃ᵥ, mer C₂ᵥ
+@fero [P] Ferosen, Fe(C₅H₅)₂, mempunyai dua cincin datar yang sejajar. Tentukan grup titiknya dalam konformasi tertutup (eclipsed) dan bersilang (staggered). ||| tertutup D₅ₕ, bersilang D₅d
+Tentukan grup titik B(OH)₃ yang datar dengan ketiga H berputar ke arah yang sama, dan etana dalam konformasi tertutup. ||| C₃ₕ; D₃ₕ
+Tentukan grup titik H₂O₂ (sudut dihedral 112°). ||| C₂
+Tentukan grup titik [B₁₂H₁₂]²⁻ dan P₄. ||| I~h~; T~d~
+
+## Subbab 3.3: Akibat langsung simetri: kiralitas dan kepolaran
+
+Manakah yang polar: SO₃, SO₂, ClF₃, CH₂Cl₂, XeF₄, PF₅, BrF₅? ||| SO₂, ClF₃, CH₂Cl₂, BrF₅
+Manakah yang kiral: [Co(NH₃)₆]³⁺, cis-[Co(en)₂Cl₂]⁺, trans-[Co(en)₂Cl₂]⁺, [Co(en)₃]³⁺? ||| cis-[Co(en)₂Cl₂]⁺ (C₂) dan [Co(en)₃]³⁺ (D₃)
+@h2o2 [P] H₂O₂ termasuk grup C₂. Apakah H₂O₂ polar? Apakah kiral? Mengapa H₂O₂ tidak dapat dipisahkan menjadi enansiomer pada suhu kamar? ||| polar (sepanjang C₂), kiral secara bentuk; rotasi O–O cepat mengubah satu enansiomer menjadi yang lain
+Sebuah molekul mempunyai pusat inversi. Apa yang dapat disimpulkan tentang kepolaran dan kiralitasnya? ||| nonpolar dan tidak kiral
+Mengapa molekul dalam grup Dₙ boleh kiral tetapi tidak boleh polar? ||| Dₙ tanpa Sₙ (kiral boleh), tetapi beberapa sumbu C₂ tegak lurus (dipol nol)
+Tunjukkan bahwa molekul dalam grup S₄ tidak kiral walaupun tidak mempunyai bidang cermin maupun pusat inversi. ||| S₄ adalah sumbu putar tak wajar; operasi itu mengubah kanan menjadi kiri
+@nh3inv [P] Amonia termasuk C₃ᵥ dan polar. Bila amonia "dibalik" melalui keadaan datar (seperti payung tertiup angin), apa grup titik keadaan datar itu, dan apa momen dipolnya? ||| D₃ₕ, momen dipol nol
+Apakah alena tersubstitusi ClHC=C=CHCl kiral? Jelaskan dengan grup titiknya. ||| ya; grup C₂, tanpa Sₙ
+
+## Subbab 3.4: Matriks dan representasi
+
+Tuliskan matriks 3 × 3 untuk operasi σ(*xy*) dan *i* dengan basis (*x*, *y*, *z*). Hitung karakter masing-masing. ||| σ(xy) = diag(1, 1, −1), χ = 1; i = diag(−1, −1, −1), χ = −3
+Tuliskan matriks C₄ (putar 90° mengelilingi *z*) dengan basis (*x*, *y*, *z*) dan hitung karakternya. ||| baris (0, −1, 0), (1, 0, 0), (0, 0, 1); χ = 1
+@matriks [P] Buktikan dengan perkalian matriks bahwa C₂σᵥ(*xz*) = σᵥ′(*yz*) dalam C₂ᵥ. ||| diag(−1,−1,1)·diag(1,−1,1) = diag(−1,1,1) = σᵥ′
+Susun tabel perkalian grup C₂ₕ (E, C₂, i, σₕ). Apakah setiap operasi kebalikan dirinya sendiri? ||| C₂i = σₕ, C₂σₕ = i, iσₕ = C₂; ya
+Dalam C₃ᵥ, apa kebalikan operasi C₃? Apa hasil C₃σᵥ? ||| C₃²; salah satu σᵥ yang lain
+Hitung karakter C₃ untuk basis (*x*, *y*, *z*) dengan rumus 1 + 2 cos θ, lalu bandingkan dengan jumlah diagonal matriks C₃ di subbab 3.4. ||| 1 + 2 cos 120° = 0; −½ − ½ + 1 = 0
+Mengapa pasangan (*x*, *y*) dalam C₃ᵥ tidak dapat dipisahkan menjadi dua irep satu dimensi, sedangkan dalam C₂ᵥ dapat? ||| C₃ mencampur x dan y; di C₂ᵥ setiap operasi hanya mengubah tanda
+Sebutkan kelas-kelas operasi dalam T~d~ dan jumlah operasi setiap kelas. ||| E (1), 8C₃, 3C₂, 6S₄, 6σd; total 24
+
+## Subbab 3.5: Tabel karakter
+
+Periksa bahwa Σ *d*²*ᵢ* = *h* untuk C₂ᵥ, D₃ₕ, dan O~h~. ||| 4; 1 + 1 + 4 + 1 + 1 + 4 = 12; 1+1+4+9+9+1+1+4+9+9 = 48
+Periksa ortogonalitas irep A₂ dan E dalam C₃ᵥ, dan irep T₁ dan T₂ dalam T~d~. ||| 2 − 2 + 0 = 0; 9 + 0 + 3 − 6 − 6 = 0
+@lengkap [P] Grup C₄ᵥ mempunyai lima kelas. Empat irepnya berdimensi satu. Tentukan dimensi irep kelima tanpa melihat tabel. Bila diketahui karakternya untuk C₄, σᵥ, dan σd semuanya nol, tentukan karakternya untuk C₂ dengan ortogonalitas terhadap A₁. ||| d = 2 (1 + 1 + 1 + 1 + 4 = 8); χ(C₂) = −2
+Tentukan irep orbital d dalam D₄ₕ. ||| d~z²~ A₁g; d~x²−y²~ B₁g; d~xy~ B₂g; (d~xz~, d~yz~) E~g~
+Tentukan irep orbital p dan d dalam T~d~. ||| p: T₂; d: E (z², x²−y²) dan T₂ (xy, xz, yz)
+Tentukan irep orbital s, p, dan d dalam O~h~. ||| s A₁g; p T₁u; d E~g~ + T₂g
+Dalam D₃ₕ, tentukan irep orbital p~z~ dan pasangan (p~x~, p~y~). ||| A₂″; E′
+Mengapa label g dan u hanya muncul pada grup yang mempunyai pusat inversi? ||| g/u menyatakan perilaku terhadap i
+Apa arti lambang Mulliken B₂g dan E″? ||| B₂g: dimensi 1, antisimetris terhadap Cₙ, indeks 2, simetris terhadap i; E″: dimensi 2, antisimetris terhadap σₕ
+
+## Subbab 3.6: Representasi tereduksi dan rumus reduksi
+
+Uraikan representasi C₂ᵥ dengan karakter (4, 0, 0, 0). ||| A₁ + A₂ + B₁ + B₂
+Uraikan representasi C₃ᵥ dengan karakter (5, 2, 1). ||| 2A₁ + A₂ + E
+Uraikan representasi T~d~ dengan karakter (4, 1, 0, 0, 2). ||| A₁ + T₂
+Uraikan representasi O~h~ dengan karakter (6, 0, 0, 2, 2, 0, 0, 0, 4, 2). ||| A₁g + E~g~ + T₁u
+@so2 [P] Hitung χ(Γ₃N) untuk SO₂ dan uraikan. Bandingkan dengan H₂O. ||| (9, −1, 3, 1); 3A₁ + A₂ + 3B₁ + 2B₂, sama dengan H₂O
+Hitung χ(Γ₃N) untuk CHCl₃ (C₃ᵥ) dan uraikan. ||| (15, 0, 3); 4A₁ + A₂ + 5E
+Hitung χ(Γ₃N) untuk SO₃ (D₃ₕ) dan uraikan. ||| (12, 0, −2, 4, −2, 2); A₁′ + A₂′ + 3E′ + 2A₂″ + E″
+Seorang mahasiswa memperoleh *n*(E) = 5/3 ketika mereduksi sebuah representasi C₃ᵥ. Apa yang hampir pasti salah? ||| karakter Γ salah atau faktor jumlah operasi dalam kelas terlupa
+@d4h [P] Hitung Γ₃N untuk XeF₄ (D₄ₕ) dan tunjukkan bahwa Γ~vib~ = A₁g + B₁g + B₂g + A₂u + B₂u + 2E~u~. ||| χ = (15, 1, −1, −3, −1, −3, −1, 5, 3, 1)
+
+## Subbab 3.7: Getaran molekul: aktif IR dan aktif Raman
+
+Berapa mode getaran yang dimiliki HCN, C₂H₂, C₆H₆, dan [PtCl₄]²⁻? ||| 4; 7; 30; 9
+Untuk SO₂, tentukan Γ~vib~ dan jumlah pita IR dan Raman. ||| 2A₁ + B₁; 3 IR, 3 Raman
+Untuk CHCl₃, tentukan Γ~vib~ dan jumlah pita IR dan Raman. ||| 3A₁ + 3E; 6 IR, 6 Raman (berimpit)
+@bf3 [P] Tentukan Γ~vib~ untuk BF₃ dari Γ₃N dan ramalkan spektrum IR dan Raman. Mode mana yang tidak terlihat di IR? Jelaskan secara fisis. ||| A₁′ + 2E′ + A₂″; IR 3 (2E′ + A₂″), Raman 3 (A₁′ + 2E′); A₁′ (regangan simetris) tidak mengubah dipol
+Untuk SO₃ (D₃ₕ), berapa pita IR dan Raman yang diramalkan? ||| Γ~vib~ = A₁′ + 2E′ + A₂″; 3 IR, 3 Raman
+Untuk XeF₄, berapa pita IR dan Raman? Adakah yang berimpit? ||| 3 IR (A₂u, 2E~u~), 3 Raman (A₁g, B₁g, B₂g), tidak ada yang berimpit; B₂u diam
+Untuk PCl₅ (D₃ₕ), Γ~vib~ = 2A₁′ + 3E′ + 2A₂″ + E″. Berapa pita IR dan Raman? ||| IR 5 (3E′ + 2A₂″); Raman 6 (2A₁′ + 3E′ + E″)
+@isomer [P] Dua senyawa XY₄ masing-masing menunjukkan satu pita regangan X–Y di IR dan dua di Raman. Pada senyawa A, pita IR berimpit dengan salah satu pita Raman; pada senyawa B, tidak ada yang berimpit. Manakah yang tetrahedron dan manakah yang segi empat datar? ||| A tetrahedron (A₁ + T₂; T₂ di IR dan Raman); B segi empat datar (A₁g + B₁g + E~u~, larangan bersama)
+Mengapa N₂ dan O₂ tidak menyerap IR, padahal molekul ini bergetar? ||| satu mode σg⁺ yang tidak mengubah dipol (molekul homonuklir); hanya aktif Raman
+Berapa pita regangan C≡O IR untuk Ni(CO)₄ (T~d~), Fe(CO)₅ (D₃ₕ), dan Mo(CO)₆ (O~h~)? ||| 1 (T₂); 2 (E′ + A₂″); 1 (T₁u)
+@fac [P] Ramalkan jumlah pita regangan C≡O IR untuk fac- dan mer-Mo(CO)₃(PR₃)₃. ||| fac (C₃ᵥ): A₁ + E, 2 pita; mer (C₂ᵥ): 2A₁ + B₁, 3 pita
+Ramalkan jumlah pita IR regangan C≡O untuk cis- dan trans-Mo(CO)₂(PR₃)₄. ||| cis (C₂ᵥ) A₁ + B₁, 2 pita; trans (D₄ₕ) A₁g + A₂u, 1 pita
+Mengapa CO₂ adalah gas rumah kaca, sedangkan N₂ dan O₂ bukan? ||| CO₂ mempunyai mode yang mengubah dipol (2349 dan 667 cm⁻¹); N₂, O₂ tidak
+Spektrum sebuah molekul AB₃ menunjukkan empat pita IR, dan semuanya juga muncul di Raman. Apakah molekul itu datar (D₃ₕ) atau piramida (C₃ᵥ)? ||| piramida C₃ᵥ (2A₁ + 2E, semua IR dan Raman); D₃ₕ hanya 3 IR
+
+## Subbab 3.8: Kombinasi linear teradaptasi simetri dan operator proyeksi
+
+Tentukan simetri SALC σ untuk keempat ligan Cl pada [PtCl₄]²⁻. ||| χ = (4, 0, 0, 2, 0, 0, 0, 4, 2, 0); A₁g + B₁g + E~u~
+Tentukan simetri SALC σ untuk ligan pada kompleks tetrahedron ML₄. ||| (4, 1, 0, 0, 2) → A₁ + T₂
+Tentukan simetri SALC σ untuk ligan pada kompleks oktahedron ML₆. ||| (6, 0, 0, 2, 2, 0, 0, 0, 4, 2) → A₁g + E~g~ + T₁u
+@salc3 [P] Pada BF₃, setiap F menyumbang satu orbital σ yang mengarah ke B. Turunkan simetri SALC-nya, lalu susun SALC a₁′ dan salah satu SALC e′ dengan operator proyeksi (cukup memakai subgrup C₃ᵥ yang memuat E, 2C₃, 3σᵥ). ||| A₁′ + E′; a₁′ = (φ₁ + φ₂ + φ₃)/√3; e′ = (2φ₁ − φ₂ − φ₃)/√6
+Tunjukkan dengan operator proyeksi bahwa orbital 1s hidrogen pada air tidak menghasilkan SALC B₂. ||| B₂ (1, −1, −1, 1): φa − φb − φa + φb = 0
+Periksa bahwa kedua SALC e amonia, (2φ₁ − φ₂ − φ₃)/√6 dan (φ₂ − φ₃)/√2, saling ortogonal dan ternormalisasi (abaikan tumpang tindih). ||| hasil kali titik (0·2 + 1·(−1) + (−1)(−1))/√12 = 0; 4+1+1 = 6, 1+1 = 2
+Untuk orbital p~z~ ketiga atom F pada BF₃ (tegak lurus bidang molekul), tentukan simetri SALC-nya. ||| χ = (3, 0, −1, −3, 0, 1) → A₂″ + E″
+Mengapa SALC a₁ selalu ada pada setiap himpunan ligan yang setara? ||| jumlah semua orbital setara tidak berubah oleh operasi mana pun
+
+## Subbab 3.9: Simetri orbital atom dan orbital yang boleh bergabung
+
+Pada NH₃, tentukan simetri orbital 2s dan 2p nitrogen dan cocokkan dengan SALC hidrogen (A₁ + E). ||| 2s, 2p~z~ a₁; (2p~x~, 2p~y~) e; semua bergabung
+@pes [P] Spektrum fotoelektron metana menunjukkan dua pita valensi, bukan satu. Jelaskan dengan simetri orbital C dan SALC hidrogen. ||| 2s (a₁) + SALC a₁ dan 2p (t₂) + SALC t₂: dua tingkat ikatan, a₁ (1) dan t₂ (3)
+Pada kompleks segi empat datar [PtCl₄]²⁻, orbital d mana yang tidak dapat ikut dalam ikatan σ? ||| d~xy~ (B₂g), d~xz~ dan d~yz~ (E~g~)
+Orbital d mana pada kompleks tetrahedron yang dapat bergabung dengan SALC σ ligan? ||| hanya t₂ (d~xy~, d~xz~, d~yz~); e tidak
+@bf3pi [P] Jelaskan dengan simetri mengapa orbital 2p~z~ boron pada BF₃ dapat membentuk ikatan π dengan atom F, dan mengapa BF₃ tetap merupakan asam Lewis. ||| 2p~z~ (a₂″) cocok dengan SALC π F a₂″; ikatan π lemah, orbital masih berenergi rendah dan sebagian kosong
+Bisakah orbital 2s oksigen pada air bergabung dengan SALC b₁ hidrogen? Mengapa? ||| tidak; irep berbeda (a₁ dan b₁), tumpang tindih nol
+Mengapa diagram orbital molekul SF₆ dapat disusun tanpa memakai orbital d belerang untuk ikatan σ? ||| SALC A₁g + E~g~ + T₁u; s (a₁g) dan p (t₁u) cukup untuk empat dari enam; SALC e~g~ menjadi tak berikatan pada ligan
+Pada molekul linear BeH₂ (D∞ₕ), SALC hidrogen adalah σ~g~⁺ dan σ~u~⁺. Orbital Be mana yang cocok dengan masing-masing? ||| 2s dengan σ~g~⁺; 2p~z~ dengan σ~u~⁺; 2p~x~, 2p~y~ kosong tak berikatan

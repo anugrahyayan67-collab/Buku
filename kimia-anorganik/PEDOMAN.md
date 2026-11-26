@@ -1,0 +1,41 @@
+# Pedoman penulisan *Kimia Anorganik 1: Teori Dasar*
+
+Ikuti `../PANDUAN-BUKU.md`, `../PROMPT-BUKU.md`, dan `../DESAIN-BUKU.md`. Hal khusus buku ini:
+
+## Pembaca
+Mahasiswa semester 2 yang sudah mengikuti Kimia Dasar, Fisika Umum, dan Kimia Kuantum, serta sedang atau sudah mengikuti Termodinamika Kimia. Mekanika kuantum **tidak diturunkan ulang**: hasilnya dipakai dengan rujukan bab dan subbab *Kimia Kuantum* (misalnya "subbab 6.4 *Kimia Kuantum*").
+
+## Gaya
+1. **Data dulu, teori kemudian.** Setiap tren (jari-jari, energi ionisasi, pKa, potensial) dibuka dengan tabel atau grafik data nyata, lalu dijelaskan dengan model. Pembaca harus melihat polanya sebelum diberi penjelasannya.
+2. **Model dan batasnya.** Setiap model sederhana (VSEPR, rasio jari-jari, aturan Pauling, HSAB, 18 elektron) ditunjukkan juga kapan gagal, dan data menjadi hakim terakhir (kotak `.awas`).
+3. **Gambaran tiga dimensi.** Struktur kristal, bentuk molekul, dan operasi simetri digambar dari beberapa sudut.
+4. **Kimia nyata.** Contoh dari mineral, industri (Haber–Bosch, proses kontak, ekstraksi logam), material (semikonduktor, baterai litium, katalis zeolit), lingkungan, dan biologi (hemoglobin, klorofil, sisplatin).
+5. **Kalimat penjelas sebanyak yang diperlukan**, tanpa langkah yang dilompati.
+
+## Notasi
+- Koma desimal. Energi dalam kJ mol⁻¹; energi orbital dan ionisasi juga dalam eV bila berasal dari spektroskopi.
+- Jari-jari ion Shannon (dengan bilangan koordinasi), dalam pm.
+- Bilangan oksidasi dengan angka Romawi: Fe(III), [Fe(CN)₆]³⁻.
+- Grup titik huruf miring dengan subskrip: *C*₂ᵥ, *D*₃ₕ, *T*_d, *O*_h; label simetri huruf kecil untuk orbital (a₁, t₂g), huruf besar untuk keadaan.
+- Potensial standar *E*° dalam V terhadap SHE, pada 298 K.
+
+## Gambar
+matplotlib (dan RDKit bila perlu), palet gambar seri (`CLAUDE.md`). Struktur kristal dan molekul tiga dimensi dengan proyeksi sederhana di matplotlib. Skrip di `alat/gambar/babNN.py`, PNG di `babNN/fig/`.
+
+## Desain
+Gaya Edisi seri (`edisi/`), palet sendiri **tembaga** (kesan logam dan mineral; dipilih penyusun 25-11-2026): tua `#4a2511`, utama `#c2611f`, muda `#f6c79b`; aksen **emas** `#b9801a` / `#e9b949` sama dengan buku lain agar seragam. Biru kobalt `#5b86e5` hanya di ilustrasi sampul (ion Na⁺).py`.
+
+## Urutan kerja
+Bab 1 → 13 berurutan (Bab 3–4 memakai Bab 2; Bab 6 memakai Bab 5; Bab 9 memakai Bab 8). Satu sesi satu bab.
+
+## Standar mutu yang diminta penyusun (25-11-2026)
+"Jadikan bukuku yang terbaik": lengkap tanpa celah, sangat jelas ketika dibaca, banyak kalimat penjelas yang mengarahkan pikiran dan membantu membayangkan. Setiap bab diperiksa dengan daftar ini sebelum dinyatakan ☑:
+
+1. **Kelengkapan.** Cocokkan daftar subbab dengan bab yang sama di Housecroft & Sharpe, Weller dkk., Miessler–Fischer–Tarr, dan Huheey (tabel acuan di `RENCANA.md`), serta materi RPS. Setiap topik yang muncul di sedikitnya dua buku acuan harus ada.
+2. **Kalimat penjelas.** Setiap rumus didahului alasan dan diikuti arti tiap lambang; setiap langkah hitung diberi kalimat "mengapa"; setiap paragraf menjawab satu pertanyaan dan memancing pertanyaan berikutnya. Tidak ada loncatan: baca ulang setiap penurunan dengan pertanyaan "dari mana baris ini?".
+3. **Gambaran sebelum rumus.** Setiap konsep diberi gambaran yang bisa dibayangkan (perumpamaan, gambar, data nyata) sebelum didefinisikan.
+4. **Data dulu, model kemudian, lalu batas model** (kotak *Awas*).
+5. **Contoh beragam** (hitungan, pengurutan, penjelasan data, merancang), masing-masing dengan *Memahami hasil* yang menjelaskan arti, bukan mengulang jawaban.
+6. **Semua angka dihitung dengan Python** (`alat/hitung_babNN.py`, `alat/hitung_soalNN.py`) dan dicek ulang.
+7. **Gambar diperiksa visual** (tidak ada label bertumpuk, glif kotak, teks terpotong).
+8. **Baca ulang satu kali penuh sebagai mahasiswa** sebelum commit: tandai kalimat yang membuat ragu, lalu tambahkan kalimat penjelas.

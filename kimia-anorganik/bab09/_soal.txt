@@ -1,0 +1,116 @@
+## Subbab 9.1: Bilangan oksidasi, setengah reaksi, dan penyetaraan reaksi redoks
+
+> *F* = 96 485 C mol⁻¹; *RT* ln 10/*F* = 0,0592 V pada 25 °C; potensial standar dari Tabel 9.1. Soal bertanda **[P]** dibahas di akhir bab.
+
+Tentukan bilangan oksidasi atom yang dicetak tebal: **Cr** dalam Cr₂O₇²⁻, **Mn** dalam MnO₄²⁻, **S** dalam S₂O₃²⁻ (rata-rata), **O** dalam H₂O₂, **N** dalam NH₂OH. ||| +6; +6; +2; −1; −1
+Setarakan dalam asam: Cu + NO₃⁻ → Cu²⁺ + NO. ||| 3Cu + 2NO₃⁻ + 8H⁺ → 3Cu²⁺ + 2NO + 4H₂O
+Setarakan dalam asam: H₂O₂ + MnO₄⁻ → O₂ + Mn²⁺. ||| 5H₂O₂ + 2MnO₄⁻ + 6H⁺ → 5O₂ + 2Mn²⁺ + 8H₂O
+Setarakan dalam basa: Cr(OH)₄⁻ + H₂O₂ → CrO₄²⁻ + H₂O. ||| 2Cr(OH)₄⁻ + 3H₂O₂ + 2OH⁻ → 2CrO₄²⁻ + 8H₂O
+@tio [P] Setarakan reaksi iodometri: I₂ + S₂O₃²⁻ → I⁻ + S₄O₆²⁻. Mengapa tiosulfat disebut berubah bilangan oksidasinya "setengah"? ||| I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻; S rata-rata +2 → +2,5
+Mengapa H₂O₂ dapat bertindak sebagai oksidator maupun reduktor? ||| O bilangan oksidasi −1, di antara 0 (O₂) dan −2 (H₂O)
+Setarakan dalam asam: MnO₄⁻ + C₂O₄²⁻ → Mn²⁺ + CO₂. ||| 2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O
+Sebanyak 20,00 mL larutan K₂Cr₂O₇ 0,01667 mol L⁻¹ tepat bereaksi dengan Fe²⁺ dalam asam. Tuliskan reaksinya dan hitung mol Fe²⁺. ||| Cr₂O₇²⁻ + 6Fe²⁺ + 14H⁺ → 2Cr³⁺ + 6Fe³⁺ + 7H₂O; 2,000 × 10⁻³ mol
+
+## Subbab 9.2: Sel galvani, potensial elektrode, dan deret elektrokimia
+
+Hitung *E*°~sel~, Δ*G*°, dan *K* untuk Cu + 2Ag⁺ → Cu²⁺ + 2Ag. ||| 0,460 V; −88,7 kJ mol⁻¹; 3,4 × 10¹⁵
+Hitung *E*°~sel~ untuk 2Al + 3Cu²⁺ → 2Al³⁺ + 3Cu dan Δ*G*°. ||| 2,00 V; −1158 kJ mol⁻¹ (n = 6)
+Apakah Cl₂ dapat mengoksidasi Br⁻? Apakah I₂ dapat mengoksidasi Br⁻? ||| ya (E° = +0,27 V); tidak (−0,55 V)
+Apakah Fe³⁺ dapat melarutkan tembaga? Jelaskan pemakaian FeCl₃ untuk mengetsa papan sirkuit. ||| ya, E° = 0,77 − 0,34 = +0,43 V
+Mengapa potensial elektrode hidrogen ditetapkan nol? ||| konvensi; hanya beda potensial yang terukur
+Sebutkan tiga oksidator dan tiga reduktor terkuat dalam Tabel 9.1. ||| F₂, Co³⁺, H₂O₂; Li, Na, Mg
+@aki [P] Aki timbal memakai reaksi Pb + PbO₂ + 2H₂SO₄ → 2PbSO₄ + 2H₂O dengan *E*°~sel~ = 2,05 V. Berapa Δ*G*° per mol Pb dan berapa sel yang dirangkai untuk aki 12 V? ||| −396 kJ mol⁻¹ (n = 2); 6 sel
+Hitung *E*° dan *K* untuk Zn + 2Ag⁺ → Zn²⁺ + 2Ag. ||| 1,562 V; 6 × 10⁵²
+Dengan Δ~f~*G*° Ag⁺(aq) = +77,1 kJ mol⁻¹, hitung *E*°(Ag⁺/Ag). ||| +0,799 V
+Sebuah elektrode diukur −0,450 V terhadap SCE. Berapa potensialnya terhadap SHE? ||| −0,209 V
+
+## Subbab 9.3: Persamaan Nernst: pengaruh konsentrasi, pH, dan kompleksasi
+
+Hitung *E* untuk Fe³⁺/Fe²⁺ bila [Fe³⁺]/[Fe²⁺] = 10. ||| 0,830 V
+Hitung *E*(O₂/H₂O) pada pH 2 dan pH 7. ||| 1,111 V; 0,815 V
+Hitung *E* untuk Cr₂O₇²⁻/Cr³⁺ pada pH 7 (semua spesies lain 1 mol L⁻¹). ||| 0,39 V
+@agx [P] Hitung *E*° untuk AgBr/Ag (*K*~sp~ = 5,0 × 10⁻¹³) dan AgI/Ag (*K*~sp~ = 8,5 × 10⁻¹⁷). Dapatkah logam perak larut dalam HI 1 mol L⁻¹ dengan melepaskan H₂? ||| 0,072 V; −0,151 V; ya untuk HI (E° AgI/Ag < 0)
+Hitung *E*° untuk [Cu(NH₃)₄]²⁺/Cu (β₄ = 1,1 × 10¹³). ||| −0,046 V
+Mengapa emas larut dalam air raja tetapi tidak dalam HNO₃ saja? ||| Cl⁻ membentuk [AuCl₄]⁻, menurunkan E(Au³⁺/Au) sampai terjangkau HNO₃
+Hitung *E*~sel~ Daniell bila [Zn²⁺] = 1,0 dan [Cu²⁺] = 0,010 mol L⁻¹. ||| 1,043 V
+Mengapa [Fe(CN)₆]³⁻ oksidator yang lebih lemah daripada Fe³⁺(aq)? ||| CN⁻ mengikat Fe³⁺ jauh lebih kuat daripada Fe²⁺; E turun ke 0,36 V
+Hitung potensial istirahat membran (37 °C) bila [K⁺] di dalam sel 30 kali di luar. ||| ≈ −91 mV
+Berapa mV perubahan potensial elektrode kaca bila pH berubah 2 satuan pada 25 °C? ||| 118 mV
+
+E°([Fe(phen)₃]³⁺/[Fe(phen)₃]²⁺) = +1,06 V, sedangkan E°(Fe³⁺/Fe²⁺) = +0,771 V. Bentuk mana yang distabilkan lebih kuat oleh fenantrolina, dan berapa log(β₃(II)/β₃(III))? ||| Fe(II); sekitar 4,9
+[P] Ligan sianida menurunkan E° Co(III)/Co(II) jauh lebih banyak daripada amonia. Apa artinya bagi kestabilan relatif kompleks Co(III) dan Co(II) sianida? Hubungkan dengan medan ligan. ||| CN⁻ medan kuat, EPML Co(III) d⁶ spin rendah sangat besar; Co(II) sianida mudah teroksidasi (bahkan mereduksi air)
+## Subbab 9.4: Kestabilan dalam air: jendela kestabilan dan overpotensial
+
+Tuliskan persamaan garis atas dan bawah jendela kestabilan air terhadap pH. ||| E = 1,229 − 0,0592 pH; E = −0,0592 pH
+Apakah Ag⁺, Fe²⁺, Mg, dan F₂ stabil dalam air pada pH 0? Jelaskan. ||| Ag⁺ dan Fe²⁺ stabil; Mg mereduksi air; F₂ mengoksidasi air
+@overpot [P] Pada elektrolisis larutan NaCl pekat, Cl₂ terbentuk di anode, padahal *E*°(Cl₂/Cl⁻) lebih positif daripada *E*°(O₂/H₂O). Jelaskan. ||| overpotensial O₂ sangat besar (≈ 0,6 V); Cl₂ secara kinetik lebih mudah
+Mengapa natrium logam dibuat dari lelehan NaCl, bukan larutan air? ||| Na⁺/Na (−2,71 V) jauh di bawah H⁺/H₂; air tereduksi lebih dulu
+Apa yang dimaksud dengan overpotensial? Mengapa ia penting dalam produksi hidrogen dari air? ||| potensial tambahan untuk laju berarti; elektrokatalis diperlukan untuk mengurangi pemborosan energi
+Mengapa larutan Co³⁺ dalam air tidak dapat disimpan lama? ||| E° 1,92 V > 1,23 V: mengoksidasi air menjadi O₂
+Mengapa seng dapat diendapkan secara elektrolisis dari larutan asam? ||| overpotensial H₂ pada seng besar (≈ 0,7 V)
+Berapa gram perak terendapkan oleh arus 0,500 A selama 30,0 menit? ||| 1,01 g
+
+Ulangi Contoh 9.8 untuk ruang anode pada pH 1. Berapa selisih potensial termodinamika O₂ dan Cl₂ sekarang? ||| O₂ 1,170 V, Cl₂ 1,317 V; selisih 0,15 V (masih O₂ lebih mudah secara termodinamika)
+[P] Mengapa gas fluorin tidak dapat dibuat dengan elektrolisis larutan NaF dalam air, sedangkan klorin dapat dibuat dari air garam? Bagaimana F₂ dibuat di industri? ||| E°(F₂/F⁻) = 2,87 V, jauh di atas air bahkan setelah overpotensial; dibuat dari KF dalam HF cair (anhidrat)
+## Subbab 9.5: Diagram Latimer
+
+Dari diagram Latimer oksigen dalam asam, O₂ →(+0,695) H₂O₂ →(+1,776) H₂O, hitung *E*°(O₂/H₂O). ||| (2 × 0,695 + 2 × 1,776)/4 = 1,236 V
+Dari diagram Latimer besi, hitung *E*°(Fe³⁺/Fe). ||| (0,771 + 2 × (−0,447))/3 = −0,041 V
+@cl [P] Diagram Latimer klorin dalam asam: ClO₄⁻ →(1,20) ClO₃⁻ →(1,18) HClO₂ →(1,65) HClO →(1,63) Cl₂ →(1,36) Cl⁻. Hitung *E*° untuk ClO₃⁻/Cl⁻ (6 elektron). ||| (2 × 1,18 + 2 × 1,65 + 1,63 + 1,36)/6 = 1,44 V
+Mengapa potensial tidak boleh dijumlahkan langsung, tetapi harus dibobot dengan jumlah elektron? ||| E intensif; yang aditif ΔG = −nFE
+Dengan diagram Latimer mangan, hitung *E*° untuk MnO₄²⁻/Mn²⁺. ||| (2 × 2,26 + 0,95 + 1,51)/4 = 1,745 V
+Apa informasi yang tidak ditulis dalam diagram Latimer? ||| H⁺, H₂O, OH⁻ dan jumlah elektron (disimpulkan dari bilangan oksidasi)
+
+## Subbab 9.6: Disproporsionasi dan komproporsionasi
+
+@h2o2 [P] Apakah H₂O₂ terdisproporsionasi dalam asam (O₂ →(0,695) H₂O₂ →(1,776) H₂O)? Hitung *E*° dan *K*. Mengapa larutan H₂O₂ tetap dapat disimpan? ||| ya; E° = 1,081 V, K ≈ 3 × 10³⁶; lambat secara kinetik
+Mengapa Cu⁺ tidak stabil dalam air, tetapi CuCl dan CuI stabil? ||| Cu⁺ terdisproporsionasi (K ≈ 10⁶); endapan menurunkan [Cu⁺]
+Apakah Mn³⁺ stabil dalam asam? Tuliskan reaksinya. ||| tidak; 2Mn³⁺ + 2H₂O → Mn²⁺ + MnO₂ + 4H⁺
+Apa yang terjadi bila larutan manganat hijau diasamkan? ||| 3MnO₄²⁻ + 4H⁺ → 2MnO₄⁻ + MnO₂ + 2H₂O; ungu + endapan cokelat
+Apakah HClO terdisproporsionasi dalam asam menurut diagram Latimer klorin di atas? ||| kanan 1,63 < kiri 1,65, hampir seimbang: sedikit tidak stabil (marginal)
+Tuliskan reaksi komproporsionasi antara IO₃⁻ dan I⁻ dalam asam. Untuk apa reaksi ini dipakai? ||| IO₃⁻ + 5I⁻ + 6H⁺ → 3I₂ + 3H₂O; standarisasi tiosulfat (iodometri)
+@cl2basa [P] Jelaskan mengapa Cl₂ terdisproporsionasi dalam basa tetapi tidak dalam asam. Tuliskan reaksi pembuatan pemutih. ||| basa: ClO⁻/Cl₂ 0,42 < Cl₂/Cl⁻ 1,36; asam: HClO/Cl₂ 1,63 > 1,36; Cl₂ + 2OH⁻ → Cl⁻ + ClO⁻ + H₂O
+
+K~sp~ CuBr = 6,27 × 10⁻⁹. Hitung E°(CuBr/Cu) dan E°(Cu²⁺/CuBr). Apakah CuBr stabil terhadap disproporsionasi? ||| +0,036 V dan +0,638 V; stabil (kiri > kanan)
+Jelaskan mengapa penetapan tembaga secara iodometri tidak akan berhasil bila CuI larut seperti CuSO₄. ||| tanpa pengendapan, E°(Cu²⁺/Cu⁺) = 0,153 V < E°(I₂/I⁻) = 0,536 V; Cu²⁺ tidak dapat mengoksidasi I⁻
+## Subbab 9.7: Diagram Frost
+
+Apa arti sumbu tegak *NE*° dalam diagram Frost? ||| −ΔG°/F pembentukan spesies dari unsur (volt-ekuivalen)
+Bagaimana membaca potensial suatu pasangan dari diagram Frost? ||| kemiringan garis antara kedua titik
+@frost [P] Susun titik diagram Frost tembaga dari Cu²⁺ →(0,153) Cu⁺ →(0,521) Cu. Tunjukkan dari gambarnya bahwa Cu⁺ terdisproporsionasi. ||| Cu (0,0), Cu⁺ (1; 0,521), Cu²⁺ (2; 0,674); Cu⁺ di atas garis Cu–Cu²⁺ (0,337 di N = 1)
+Spesies mangan apa yang paling stabil dalam asam dan dalam basa menurut Gambar 9.3? ||| Mn²⁺; MnO₂
+Mengapa permanganat oksidator yang lebih kuat dalam asam? Jelaskan dengan diagram Frost. ||| garis MnO₂–MnO₄⁻ jauh lebih curam pada pH 0
+Bagaimana diagram Frost menunjukkan bahwa dua spesies akan berkomproporsionasi? ||| spesies di antaranya berada di bawah garis yang menghubungkan keduanya
+
+## Subbab 9.8: Diagram Pourbaix
+
+Bedakan garis mendatar, tegak, dan miring dalam diagram Pourbaix. ||| redoks tanpa H⁺; asam–basa/pengendapan tanpa elektron; redoks dengan H⁺
+Hitung kemiringan garis untuk MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O. ||| −0,0592 × 8/5 = −0,095 V per pH
+@pourbaix [P] Untuk [Fe³⁺] = 10⁻⁶ mol L⁻¹ (*K*~sp~ Fe(OH)₃ = 2,8 × 10⁻³⁹), hitung pH pengendapan Fe(OH)₃. Bagaimana pH ini berubah bila [Fe³⁺] = 10⁻² mol L⁻¹? ||| 3,15; 1,82
+Dengan Gambar 9.4, mengapa besi tidak berkarat dalam air yang sangat basa dan bebas oksigen? ||| pada E rendah dan pH tinggi stabil Fe(OH)₂/Fe; tanpa O₂ tidak ada oksidator
+Mengapa air sumur yang mengandung besi berubah cokelat ketika terkena udara? ||| Fe²⁺ terlarut (anoksik) dioksidasi O₂ menjadi Fe(OH)₃
+Apa kegunaan diagram Pourbaix bagi ahli lingkungan? ||| meramalkan bentuk unsur (As(III)/As(V), Cr(III)/Cr(VI)) dan mobilitasnya
+
+## Subbab 9.9: Diagram Ellingham dan ekstraksi logam
+
+Mengapa garis oksidasi logam pada diagram Ellingham umumnya naik dengan suhu? ||| ΔS° negatif (O₂ gas dikonsumsi)
+Mengapa garis 2C + O₂ → 2CO turun dengan suhu? ||| 1 mol gas → 2 mol gas, ΔS° positif
+@termit [P] Dengan diagram Ellingham, jelaskan reaksi termit 2Al + Fe₂O₃ → Al₂O₃ + 2Fe. Hitung Δ*G*° per mol O₂ yang dipindahkan pada 298 K (Al₂O₃: −1054,8; Fe₂O₃ per mol O₂: −494,9 kJ). ||| garis Al₂O₃ jauh di bawah Fe₂O₃; ΔG° ≈ −560 kJ per mol O₂
+Hitung suhu ketika C/CO memotong garis FeO (Δ*H*°, Δ*S*° di Contoh 9.15). ||| 1019 K
+Pada suhu berapa Ag₂O terurai menjadi Ag dan O₂ (Δ*H*° = −62,2 kJ, Δ*S*° = −132,8 J K⁻¹ per mol O₂)? ||| 468 K
+Mengapa aluminium diproduksi dengan elektrolisis, bukan reduksi karbon? ||| C/CO memotong Al₂O₃ di atas 2300 K; terlalu tinggi, terbentuk karbida
+Mengapa daur ulang aluminium sangat hemat energi? ||| melelehkan ≈ 5 % energi produksi elektrolisis
+Mengapa titanium diproduksi dengan proses Kroll dan tidak dengan reduksi karbon? ||| TiO₂ sangat stabil; Ti membentuk karbida/nitrida; lewat TiCl₄ + Mg
+
+## Subbab 9.10: Redoks di alam: korosi, lingkungan, dan biologi
+
+Tuliskan setengah reaksi anode dan katode pada korosi besi dalam air beroksigen. ||| Fe → Fe²⁺ + 2e⁻; O₂ + 2H₂O + 4e⁻ → 4OH⁻
+@galvanis [P] Jelaskan mengapa besi galvanis tidak berkarat di goresan, sedangkan kaleng timah berkarat lebih cepat. Hitung *E*° untuk pasangan Zn/Fe dan Fe/Sn. ||| Zn anode korban (E°Fe − E°Zn = 0,315 V); Fe anode terhadap Sn (0,31 V)
+Mengapa garam jalan mempercepat korosi mobil? ||| menaikkan konduktivitas air; Cl⁻ merusak lapisan oksida pelindung
+Hitung Δ*G*°' untuk pemindahan dua elektron dari NADH ke FAD (*E*°' −0,32 dan −0,22 V). ||| −19,3 kJ mol⁻¹
+Mengapa rantai pernapasan memindahkan elektron bertahap, bukan sekaligus? ||| energi dilepas dalam paket kecil yang dapat ditangkap (pompa proton → ATP), mengurangi panas terbuang
+Sebutkan urutan oksidator yang dipakai mikroorganisme setelah O₂ habis. ||| nitrat, Mn(IV), Fe(III), sulfat, CO₂
+
+Hitung kapasitas spesifik teoretis LiFePO₄ (*M* = 157,76 g mol⁻¹, satu Li per satuan rumus). ||| 170 mA h g⁻¹
+@sbb [P] Mengapa efisiensi maksimum sel bahan bakar hidrogen (83 %) tidak dibatasi efisiensi Carnot, sedangkan pembangkit listrik termal dibatasi? ||| sel mengubah ΔG langsung menjadi kerja listrik; mesin panas mengubah kalor
+Berapa massa anode aluminium (efisiensi 100 %) yang diperlukan untuk Contoh 9.16 (2,0 A selama setahun)? Mengapa aluminium murni jarang dipakai sebagai anode korban? ||| 5,9 kg; aluminium membentuk lapisan oksida pasif, sehingga dipakai paduan dengan In atau Zn untuk mencegah pasivasi

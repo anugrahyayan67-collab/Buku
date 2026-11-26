@@ -1,0 +1,89 @@
+## Subbab 13.1: Inti: nukleon, isotop, dan pita kestabilan
+
+> 1 u = 931,494 MeV/*c*²; *m*(¹H) = 1,007 825 u; *m*~n~ = 1,008 665 u; 1 tahun = 3,156 × 10⁷ s; *N*~A~ = 6,022 × 10²³ mol⁻¹. Soal bertanda **[P]** dibahas di akhir bab.
+
+Tentukan *Z*, *N*, dan *A*: ⁶⁰Co, ⁹⁹ᵐTc, ²²²Rn, ¹³¹I. ||| 27,33,60; 43,56,99; 86,136,222; 53,78,131
+Golongkan pasangan sebagai isotop, isobar, atau isoton: ¹⁴C dan ¹⁴N; ¹²C dan ¹³C; ¹³C dan ¹⁴N. ||| isobar; isotop; isoton (N = 7)
+Hitung jari-jari inti ⁴He dan ²³⁸U. ||| 1,9 fm; 7,4 fm
+Mengapa inti berat memerlukan *N*/*Z* lebih besar daripada inti ringan? ||| tolakan Coulomb ∝ *Z*²; neutron menambah gaya kuat tanpa tolakan
+Mengapa hanya lima nuklida ganjil–ganjil yang stabil? ||| nukleon tidak berpasangan; isobar genap–genap lebih stabil
+@ajaib [P] Jelaskan mengapa ⁴⁰Ca dan ²⁰⁸Pb luar biasa stabil, dan mengapa timah mempunyai sepuluh isotop stabil. ||| ajaib ganda (20/20; 82/126); *Z* = 50 ajaib
+Sebutkan dua unsur dengan *Z* < 83 yang tidak mempunyai isotop stabil. ||| Tc (43), Pm (61)
+
+## Subbab 13.2: Energi ikat inti dan defek massa
+
+Hitung energi ikat deuteron (*m*(²H) = 2,014 102 u). ||| 2,22 MeV
+Hitung energi ikat per nukleon ¹²C dan ¹⁶O (*m*(¹⁶O) = 15,994 915 u). ||| 7,68 MeV; 7,98 MeV
+Hitung energi ikat per nukleon ²³⁸U (238,050 788 u). ||| 7,57 MeV
+Nyatakan energi ikat ⁴He (28,3 MeV) dalam kJ mol⁻¹. ||| 2,73 × 10⁹ kJ mol⁻¹
+@semf2 [P] Dengan rumus massa semiempiris, tunjukkan mengapa suku Coulomb membuat *B*/*A* turun untuk inti berat. Hitung suku Coulomb ²³⁸U dan bandingkan dengan suku permukaannya. ||| Coulomb ≈ −961 MeV, permukaan ≈ −684 MeV
+Mengapa fisi uranium dan fusi hidrogen sama-sama melepaskan energi? ||| keduanya bergerak ke puncak kurva *B*/*A* di sekitar Fe/Ni
+Mengapa reaksi kimia tidak mengubah massa secara terukur, padahal *E* = *mc*² juga berlaku? ||| Δ*m*/*m* ≈ 10⁻⁹–10⁻¹⁰
+Hitung defek massa (dalam u) dan energi ikat per nukleon ⁷Li (7,016 003 u). ||| 0,045 u; 5,61 MeV
+
+## Subbab 13.3: Peluruhan α, β, γ, dan penangkapan elektron
+
+Lengkapi: ²²⁶Ra → ? + α; ⁹⁰Sr → ? + β⁻; ²²Na → ? + β⁺; ⁵⁵Fe + *e*⁻ → ?. ||| ²²²Rn; ⁹⁰Y; ²²Ne; ⁵⁵Mn
+Hitung *Q* peluruhan α ²²⁶Ra (226,025 410) menjadi ²²²Rn (222,017 578). ||| 4,87 MeV
+Hitung *Q* peluruhan β⁻ tritium (³H 3,016 049; ³He 3,016 029 u). ||| 18,6 keV
+Mengapa peluruhan β⁺ memerlukan selisih massa atom lebih dari 1,022 MeV, sedangkan penangkapan elektron tidak? ||| positron diciptakan dan satu elektron atom berkurang: 2*m*~e~*c*²
+@deret2 [P] Berapa partikel α dan β⁻ dipancarkan dalam deret dari ²³²Th ke ²⁰⁸Pb? Dan dari ²³⁵U ke ²⁰⁷Pb? ||| 6α, 4β⁻; 7α, 4β⁻
+Mengapa spektrum energi elektron beta kontinu, sedangkan partikel alfa dari satu nuklida mempunyai energi tertentu? ||| energi dibagi dengan antineutrino
+Ramalkan jenis peluruhan: ²⁴Na, ¹⁵O, ²¹⁰Po, ¹³⁷Cs. ||| β⁻; β⁺; α; β⁻
+Mengapa partikel alfa yang energinya 4,2 MeV dapat keluar dari inti uranium, padahal penghalang Coulomb-nya sekitar 28 MeV? ||| penerowongan kuantum
+
+## Subbab 13.4: Kinetika peluruhan dan waktu paruh
+
+Hitung aktivitas 1,00 mg ¹³¹I (*t*~½~ = 8,02 hari). ||| 4,6 × 10¹² Bq
+Berapa persen ¹³¹I tersisa setelah 80 hari? ||| 0,10 %
+Hitung aktivitas 1,00 g tritium (*t*~½~ = 12,32 tahun). ||| 3,6 × 10¹⁴ Bq
+Sampel kayu purba mempunyai aktivitas 0,10 Bq per gram karbon; kayu modern 0,23 Bq per gram. Berapa umurnya? ||| ≈ 6900 tahun
+@zirkon [P] Sebuah zirkon mempunyai perbandingan atom ²⁰⁶Pb/²³⁸U = 0,80. Berapa umurnya? Mengapa zirkon cocok untuk penanggalan U–Pb? ||| 3,79 miliar tahun; menerima U, menolak Pb ketika mengkristal
+Sebuah sampel batuan vulkanik mempunyai ⁴⁰Ar/⁴⁰K = 0,10. Dengan λ total ⁴⁰K = 5,543 × 10⁻¹⁰ per tahun dan 10,72 % peluruhan menghasilkan ⁴⁰Ar, hitung umurnya. ||| 1,19 miliar tahun
+Mengapa penanggalan radiokarbon tidak dapat dipakai untuk batuan berumur jutaan tahun? ||| setelah ≈ 9 waktu paruh (50 000 th) ¹⁴C terlalu sedikit
+Mengapa laju peluruhan hampir tidak dipengaruhi suhu dan bentuk kimia? ||| proses inti; energi kimia jauh lebih kecil (kecuali sedikit pada EC)
+Berapa fraksi ⁶⁰Co (*t*~½~ = 5,27 tahun) yang tersisa dari sumber radioterapi setelah 10 tahun? ||| 27 %
+Berapa fraksi ⁹⁰Sr (28,8 tahun) yang tersisa 100 tahun setelah kecelakaan reaktor? ||| 9,0 %
+Berapa lama sampai ¹³⁷Cs (30,1 tahun) turun menjadi 1 % dari semula? ||| ≈ 200 tahun
+
+## Subbab 13.5: Reaksi inti, fisi, dan fusi
+
+Setarakan: ⁶Li(n,α)?; ¹⁴N(n,p)?; ²⁷Al(α,n)?. ||| ³H; ¹⁴C; ³⁰P
+Tuliskan pembuatan ²³⁹Pu dari ²³⁸U. ||| ²³⁸U + n → ²³⁹U →β⁻ ²³⁹Np →β⁻ ²³⁹Pu
+Lengkapi reaksi fisi ²³⁵U + n → ⁹⁴Sr + ? + 2n. ||| ¹⁴⁰Xe
+@reaktor [P] Jelaskan fungsi moderator dan batang kendali, dan mengapa uranium harus diperkaya untuk reaktor air ringan tetapi tidak untuk reaktor air berat. ||| perlambat neutron / serap neutron; H menyerap neutron, D tidak
+Berapa persen ²³⁵U dalam uranium alam 2 miliar tahun yang lalu (*t*~½~ ²³⁵U = 7,04 × 10⁸, ²³⁸U = 4,468 × 10⁹ tahun; sekarang 0,720 %)? ||| ≈ 3,7 %
+Mengapa fusi memerlukan suhu ratusan juta kelvin? ||| atasi tolakan Coulomb (dengan bantuan penerowongan)
+Mengapa hasil fisi hampir semuanya pemancar β⁻? ||| kaya neutron (N/Z inti berat)
+Berapa gram ²³⁵U difisi setiap hari oleh reaktor berdaya termal 1,0 GW, bila setiap fisi melepaskan 200 MeV? ||| ≈ 1,05 kg
+
+## Subbab 13.6: Nukleosintesis bintang
+
+Hitung *Q* untuk 4¹H → ⁴He (massa atom). ||| 26,7 MeV
+Mengapa langkah p + p → ²H + *e*⁺ + ν sangat lambat, dan apa akibatnya bagi Matahari? ||| memerlukan gaya lemah; Matahari stabil miliaran tahun
+Jelaskan mengapa ⁸Be tidak dapat menjadi batu loncatan biasa dalam pembakaran helium, dan bagaimana karbon tetap terbentuk. ||| ⁸Be terurai 10⁻¹⁶ s; proses tiga-alfa lewat keadaan Hoyle
+@besi [P] Mengapa pembakaran di inti bintang berhenti di unsur kelompok besi, dan bagaimana unsur yang lebih berat terbentuk? ||| puncak *B*/*A*; penangkapan neutron (proses s dan r)
+Apa perbedaan proses s dan proses r? ||| laju penangkapan neutron lebih lambat / lebih cepat daripada peluruhan β
+
+## Subbab 13.7: Radioisotop dalam kedokteran, penanggalan, dan analisis
+
+Mengapa ⁹⁹ᵐTc ideal untuk diagnosis? ||| γ 140 keV, 6 jam, tanpa β, kimia koordinasi serbaguna
+Berapa aktivitas ⁹⁹ᵐTc yang disiapkan 4 jam sebelum penyuntikan agar aktivitasnya 500 MBq? ||| 793 MBq
+Mengapa dua foton dari anihilasi positron berenergi 511 keV dan berlawanan arah? ||| massa *e*⁺ + *e*⁻ = 2 × 511 keV; kekekalan momentum
+@ester [P] Jelaskan bagaimana ¹⁸O membuktikan bahwa esterifikasi memutus ikatan C–O asam, bukan alkohol. ||| ¹⁸O alkohol ada di ester, bukan di air
+Hitung aktivitas 0,30 μg ²⁴¹Am dalam detektor asap (*t*~½~ = 432 tahun). ||| ≈ 38 kBq
+Mengapa iodin-131 cocok untuk terapi tiroid? ||| tiroid mengumpulkan iodin; β⁻ jarak pendek
+Mengapa ²¹⁰Pb cocok untuk menanggali sedimen seratus tahun terakhir, sedangkan ¹⁴C tidak? ||| t½ 22,2 th sesuai rentang; ¹⁴C hampir tidak berubah dalam 100 th
+Daya generator ²³⁸Pu (87,7 tahun) Voyager tinggal berapa persen setelah 45 tahun (hanya peluruhan)? ||| 70 %
+
+## Subbab 13.8: Keselamatan radiasi
+
+Laju dosis 1,0 m dari sumber gama 40 μSv per jam. Berapa pada 4,0 m? ||| 2,5 μSv per jam
+Berapa dosis ekuivalen (mSv) dari dosis serap 2 mGy partikel alfa? Dan 2 mGy gama? ||| 40 mSv; 2 mSv
+Mengapa perisai plastik lebih baik daripada timbal untuk radiasi beta? ||| timbal membangkitkan sinar-X (bremsstrahlung)
+@ki [P] Jelaskan secara kimia mengapa tablet KI diberikan setelah kecelakaan reaktor, dan mengapa harus diminum sebelum atau segera setelah paparan. ||| tiroid jenuh I stabil; ¹³¹I tidak diserap; setelah diserap tidak dapat dikeluarkan
+Mengapa ⁹⁰Sr lebih berbahaya bagi tubuh daripada ¹³⁷Cs walaupun waktu paruhnya mirip? ||| Sr mengikuti Ca ke tulang, tertahan lama; Cs keluar lebih cepat
+Sebutkan tiga sumber utama dosis radiasi alam. ||| radon, sinar kosmik, ⁴⁰K dalam tubuh / tanah
+
+Aktivitas radon dalam udara rumah 100 Bq m⁻³. Berapa atom ²²²Rn (3,82 hari) per m³? ||| ≈ 4,8 × 10⁷ atom
+Mengapa pekerja radiasi memakai dosimeter, dan apa yang diukurnya? ||| dosis akumulatif yang diterima; memastikan di bawah batas

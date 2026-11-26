@@ -12,3 +12,4 @@ Edisi Pertama empat buku karya Septian Anugrah Dwi Putra.
 | `Kimia-Organik-1-Edisi-1-cetak.pdf` | Kimia Organik 1: Senyawa Monofungsi, versi cetak bolak-balik A4, 616 halaman |
 
 Versi cetak: setiap bab mulai di halaman kanan; sampul depan dan belakang adalah halaman pertama dan terakhir.
+| `Matematika-SD-Rangkuman.pdf` | Pintar Matematika Dasar: rangkuman untuk anak SD (11 bab, 39 halaman) |

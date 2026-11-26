@@ -17,7 +17,7 @@ Status: ☑ selesai · ◐ rancangan ada · ☐ belum
 | 5 | Matematika untuk Kimia | Matematika Dasar | 1 | sekarang–Desember | ☐ |
 | 6 | Kimia Fisika 1: Termodinamika Kimia | Termodinamika Kimia | 2 | sekarang, bab demi bab | ◐ `termodinamika-kimia/` (Edisi 1.2: 15 bab selesai, tinggal baca ulang dan cetak akhir; PDF di `pdf/`) |
 | 7 | Kimia Organik 1: Senyawa Monofungsi | Senyawa Organik Monofungsi | 2 | sekarang, bab demi bab | ☑ `kimia-organik/` (Bab 1–16 selesai; PDF digital di `pdf/`) |
-| 8 | Kimia Anorganik 1: Teori Dasar | Teori Dasar Anorganik | 2 | Des–Jan | ☐ |
+| 8 | Kimia Anorganik 1: Teori Dasar | Teori Dasar Anorganik | 2 | Des–Jan | ☑ `kimia-anorganik/` (13 bab + 2 lampiran selesai, 426 halaman; tinggal pemeriksaan angka data rujukan oleh penyusun) |
 | 9 | Kimia Analitik 1: Dasar Analisis dan Pemisahan | Dasar-dasar Kimia Analisis; Dasar-dasar Pemisahan Kimia | 2–3 | Des–Jan | ☐ |
 | 10 | Kimia Fisika 2: Kinetika Kimia | Kinetika Kimia | 3 | libur tengah 2027 | ☐ |
 | 11 | Kimia Organik 2: Senyawa Polifungsi | Senyawa Organik Polifungsi | 3 | libur tengah 2027 | ☐ |
@@ -29,6 +29,8 @@ Status: ☑ selesai · ◐ rancangan ada · ☐ belum
 | 17 | Biokimia 2: Metabolisme dan Informasi Genetik | Metabolisme dan Aliran Informasi Genetik | 4 | akhir 2027 | ☐ |
 | 18 | Kimia Komputasi dan AI untuk Kimia | Kimia Komputasi; Penemuan Kimia Berbasis AI | 4, 7 | akhir 2027 | ☐ |
 | 19 | Metodologi Penelitian Kimia | Metodologi Penelitian | 4 | akhir 2027 | ☐ |
+
+Di luar seri kuliah: **Pintar Matematika Dasar** (rangkuman matematika SD kelas 3–6 untuk adik penyusun, 11 bab, ± 40 halaman) ☑ `matematika-sd/`.
 
 Opsional bila sempat: Biologi Umum (sem 1), Kimia Lingkungan dan Analisis Elektrokimia (sem 5), Penentuan Struktur Molekul (pilihan sem 5).
 

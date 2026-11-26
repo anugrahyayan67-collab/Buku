@@ -1,4 +1,4 @@
-# Spesifikasi desain buku seri (gaya terakhir: Kimia Organik 1 dan Kimia Fisika 1)
+# Spesifikasi desain buku seri (berlaku untuk keempat buku: Fisika Umum, Kimia Kuantum, Kimia Fisika 1, Kimia Organik 1; diseragamkan 24-11-2026)
 
 Dokumen ini mencatat **semua ukuran, huruf, warna, dan tata letak** yang dipakai buku seri, diambil dari berkas yang benar-benar dipakai untuk mencetak. Siapa pun (manusia atau AI) yang meneruskan atau membuat buku baru dalam seri ini cukup mengikuti dokumen ini supaya hasilnya serupa.
 
@@ -66,6 +66,8 @@ Kimia Kuantum memakai palet ungu (`#1e1548`, `#4a3ab0`, `#5ce1e6`, emas `#f2c25b
 | Lampiran (`h1.bab`) | "LAMPIRAN" Inter 10 pt tebal 800, jarak huruf 7 px, warna aksen; huruf lampiran 60 pt tebal 900 warna tua; judul di kanannya 17 pt tebal 800 kapital, jarak huruf 1,2 px; garis bawah 0,4 mm warna garis |
 
 ## 5. Kotak
+
+**Sejak 25-11-2026 (permintaan penyusun): semua kotak memakai satu kombinasi warna**: garis kiri warna tua, latar terang (warna muda 60 % dicampur putih), judul warna tua. Tabel di bawah mencatat warna lama sebelum penyeragaman; aturan baru ada di bagian akhir setiap `<palet>.css`.
 
 Semua kotak memakai satu sistem: **bingkai tipis 0,3 mm warna garis, garis aksen kiri 1,6 mm, sudut kanan membulat 2 mm**, padding 3,4 mm (atas) 5,5 mm (kanan) 3 mm (bawah) 5,5 mm (kiri), jarak 4,5 mm atas-bawah. Judul kotak (kata tebal pertama, misalnya **Tujuan belajar**) Inter 9,8 pt tebal 700. Kotak tidak boleh terpotong ke halaman berikut (kecuali kotak contoh yang panjang).
 
@@ -154,7 +156,7 @@ Urutan: sampul depan → halaman judul → halaman keterangan → isi ringkas (s
 - **Halaman keterangan**: Inter 8,6 pt di bagian bawah halaman: judul lengkap, edisi dan tahun, nama penyusun.
 - **Isi ringkas dan daftar isi**: Inter; baris bab 11,2–11,6 pt tebal 800 warna tua dengan kotak nomor bab (latar tua, teks putih, sudut 1,5 mm, lebar paling kecil 9 mm); subbab 9,6 pt menjorok 12 mm, nomor subbab warna aksen; garis titik-titik ke nomor halaman; judul bagian buku 8,5 pt kapital, jarak huruf 2 px. Semua baris bertaut ke halamannya.
 - **Indeks**: dua kolom (jarak 9 mm), Inter 8,6 pt, baris 1,38; huruf pembuka 13 pt putih di kotak warna tua; istilah dipilih dari `edisi/indeks_tambah.txt`.
-- **Sampul depan** (`edisi/sampul.py`, HTML 210 × 297 mm tanpa margin, latar sangat muda): pita warna tua 9 mm di kiri; "EDISI PERTAMA" (kiri, 22 mm) dan nama penyusun (kanan, 18 mm) sebaris 24 mm dari atas, Inter 9 pt tebal 800, jarak huruf 6 px; judul 54 pt tebal 900, baris 0,88, dua baris, baris kedua warna utama, 36 mm dari atas; subjudul 13 pt, lebar 130 mm, 77 mm dari atas, dengan garis aksen 0,6 mm di atasnya; panel gelap (gradasi radial warna tua) dari 98 mm sampai 22 mm dari bawah berisi satu ilustrasi bercahaya yang mewakili buku (Fisika Umum: garis medan listrik; Kimia Kuantum: jaringan heksagon grafena; Kimia Fisika 1: isoterm dan siklus Carnot bercahaya). Catatan: sampul Kimia Organik 1 saat ini masih memakai ilustrasi isoterm dan siklus Carnot yang sama (diwarnai hijau); sebaiknya diganti motif organik, misalnya cincin benzena atau mekanisme bercahaya. Hindari bayangan teks.
+- **Sampul depan** (`edisi/sampul.py`, HTML 210 × 297 mm tanpa margin, latar sangat muda): pita warna tua 9 mm di kiri; "EDISI PERTAMA" (kiri, 22 mm) dan nama penyusun (kanan, 18 mm) sebaris 24 mm dari atas, Inter 9 pt tebal 800, jarak huruf 6 px; judul 54 pt tebal 900, baris 0,88, dua baris, baris kedua warna utama, 36 mm dari atas; subjudul 13 pt, lebar 130 mm, 77 mm dari atas, dengan garis aksen 0,6 mm di atasnya; panel gelap (gradasi radial warna tua) dari 98 mm sampai 22 mm dari bawah berisi satu ilustrasi bercahaya yang mewakili buku (Fisika Umum: garis medan listrik; Kimia Kuantum: jaringan heksagon grafena; Kimia Fisika 1: isoterm dan siklus Carnot bercahaya; Kimia Organik 1: rumus kerangka parasetamol bercahaya dengan panah lengkung Nu⁻ → C=O dan kerangka molekul samar di latar). Catatan: sampul Kimia Organik 1 saat ini masih memakai ilustrasi isoterm dan siklus Carnot yang sama (diwarnai hijau); sebaiknya diganti motif organik, misalnya cincin benzena atau mekanisme bercahaya. Hindari bayangan teks.
 - **Sampul belakang**: judul kapital 18 pt tebal 900 (kata kedua warna utama), tiga paragraf deskripsi Caladea 10,5 pt baris 1,6, daftar bab dua kolom Inter 9,2 pt (nomor warna aksen, baris kedua menjorok 8 mm, garis atas 0,5 mm warna tua), kotak "TENTANG PENYUSUN" di bawah berlatar muda.
 - **Metadata PDF**: judul lengkap dan edisi, nama penyusun, subjek singkat; bookmark per bab dan subbab.
 

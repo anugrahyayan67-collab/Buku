@@ -1,0 +1,430 @@
+afinitas elektron
+aturan Fajans
+aturan Hund
+aturan Slater
+Aufbau
+asas larangan Pauli
+blok d
+blok f
+blok p
+blok s
+deret isoelektronik
+efek pasangan inert
+efek relativistik
+energi ionisasi
+energi pertukaran
+fungsi sebaran radial
+golongan
+hubungan diagonal
+jari-jari ion
+jari-jari kovalen
+jari-jari logam
+jari-jari van der Waals
+keelektronegatifan
+kontraksi lantanida
+kontraksi blok d
+lantanida
+logam transisi
+muatan inti efektif
+nukleosintesis
+penetrasi
+periode
+perisai
+polarisabilitas
+daya mempolarisasi
+proses r
+proses s
+simpul radial
+simpul sudut
+skala Allred–Rochow
+skala Mulliken
+skala Pauling
+tabel periodik
+tetapan perisai
+ion auride
+atom hidrogenik
+struktur Lewis
+muatan formal
+resonansi
+hibrida resonansi
+bilangan oksidasi
+senyawa hipervalen
+kekurangan elektron
+ikatan tiga pusat empat elektron
+VSEPR
+daerah elektron
+pasangan bebas
+bipiramida segitiga
+oktahedron
+tetrahedron
+teori ikatan valensi
+ikatan sigma
+ikatan pi
+hibridisasi
+karakter s
+aturan Bent
+momen dipol
+debye
+energi ikatan
+orde ikatan
+isoelektronik
+analogi isolobal
+gaya dispersi London
+gaya dipol–dipol
+gaya ion–dipol
+ikatan hidrogen
+entalpi hidrasi
+ligan ambidentat
+unsur simetri
+operasi simetri
+sumbu putar
+sumbu utama
+bidang cermin
+pusat inversi
+sumbu putar tak wajar
+grup titik
+orde grup
+diagram alir
+kiralitas
+tabel perkalian
+representasi
+karakter
+representasi tak tereduksi
+representasi tereduksi
+kelas
+tabel karakter
+lambang Mulliken
+irep simetris total
+fungsi basis
+rumus reduksi
+mode normal
+aturan seleksi
+aturan larangan bersama
+cisplatin
+SALC
+operator proyeksi
+orbital gugus ligan
+aturan tumpang tindih
+degenerasi
+orbital molekul
+LCAO
+orbital ikatan
+orbital antiikatan
+orbital tak berikatan
+ikatan δ
+pencampuran s–p
+paramagnetik
+diamagnetik
+superoksida
+peroksida
+spektroskopi fotoelektron
+teorema Koopmans
+struktur getaran
+ikatan tiga pusat dua elektron
+diborana
+diagram Walsh
+HOMO
+LUMO
+orbital perbatasan
+donasi balik π
+kompleks transfer muatan
+kemasan rapat heksagonal
+kemasan rapat kubus
+efisiensi kemasan
+rongga tetrahedral
+rongga oktahedral
+sel satuan
+parameter kisi
+sistem kristal
+kisi Bravais
+struktur prototipe
+struktur garam batu
+struktur sesium klorida
+sfalerit
+wurtzit
+nikel arsenida
+fluorit
+antifluorit
+rutil
+kadmium iodida
+interkalasi
+perovskit
+faktor toleransi
+feroelektrik
+spinel
+spinel terbalik
+ferimagnetik
+aturan rasio jari-jari
+difraksi sinar-X
+hukum Bragg
+indeks Miller
+aturan kepunahan
+cacat Schottky
+cacat Frenkel
+pusat F
+nonstoikiometri
+wustit
+zirkonia stabil itrium
+polimorfisme
+alotropi
+padatan amorf
+transisi kaca
+jaringan acak kontinu
+oksigen tak menjembatani
+intan
+grafit
+fulerena
+grafena
+energi kisi
+entalpi kisi
+tetapan Madelung
+metode Evjen
+persamaan Born–Landé
+eksponen Born
+persamaan Born–Mayer
+persamaan Kapustinskii
+jari-jari termokimia
+siklus Born–Haber
+hukum Hess
+afinitas elektron kedua
+senyawa hipotetis
+disproporsionasi
+entalpi pelarutan
+aturan ukuran kelarutan
+kestabilan termal
+karbonat
+ozonida
+proses Brin
+karakter kovalen
+ikatan logam
+hukum Wiedemann–Franz
+paduan
+larutan padat substitusi
+larutan padat interstisi
+aturan Hume-Rothery
+senyawa antarlogam
+senyawa elektron
+konsentrasi elektron
+baja
+teori pita
+pita valensi
+pita konduksi
+celah pita
+lebar pita
+kerapatan keadaan
+energi Fermi
+tingkat Fermi
+fungsi Fermi–Dirac
+model elektron bebas
+semikonduktor
+semilogam
+isolator
+lubang
+pembawa intrinsik
+doping
+donor
+akseptor
+semikonduktor tipe n
+semikonduktor tipe p
+hukum aksi massa
+sambungan p–n
+daerah deplesi
+dioda
+LED
+sel surya
+celah langsung
+celah tak langsung
+titik kuantum
+superkonduktivitas
+suhu kritis
+efek Meissner
+pasangan Cooper
+YBCO
+oksida konduktor transparan
+energi Gibbs
+tetapan kesetimbangan
+asam Arrhenius
+asam Brønsted–Lowry
+pasangan konjugat
+asam Lux–Flood
+konsep sistem pelarut
+asam Lewis
+basa Lewis
+aduk
+amfiprotik
+asam biner
+asam okso
+aturan Pauling
+asam aqua
+hidrolisis kation
+olasi
+oksida asam
+oksida basa
+oksida amfoter
+pelevelan
+pelarut pembeda
+pasangan Lewis frustrasi
+regangan F
+HSAB
+kekerasan absolut
+litofil
+kalkofil
+parameter Drago–Wayland
+superasam
+fungsi keasaman Hammett
+asam ajaib
+superbasa
+zeolit
+selektivitas bentuk
+aturan Löwenstein
+oksidasi
+reduksi
+oksidator
+reduktor
+setengah reaksi
+penyetaraan redoks
+sel galvani
+sel Daniell
+anode
+katode
+jembatan garam
+tetapan Faraday
+elektrode hidrogen standar
+potensial elektrode standar
+deret elektrokimia
+persamaan Nernst
+jendela kestabilan air
+overpotensial
+diagram Latimer
+komproporsionasi
+diagram Frost
+diagram Pourbaix
+diagram Ellingham
+reaksi termit
+proses Hall–Héroult
+korosi
+anode korban
+proteksi katodik
+rantai pernapasan
+elektrode Ag/AgCl
+air raja
+solvasi
+model Born
+pasangan ion
+jarak Bjerrum
+bilangan donor
+bilangan akseptor
+pelarut protik
+pelarut aprotik
+konsep sistem pelarut
+autoionisasi
+amonia cair
+elektron tersolvasi
+reduksi Birch
+alkalida
+elektrida
+hidrogen fluorida cair
+ion bifluorida
+krioskopi
+ion nitronium
+bromin trifluorida
+dinitrogen tetroksida
+ion nitrosil
+lelehan garam
+campuran eutektik
+cairan ionik
+pelarut eutektik dalam
+fluida superkritis
+titik kritis
+senyawa koordinasi
+teori koordinasi Werner
+bilangan koordinasi
+ligan
+ligan kelat
+ligan ambidentat
+ligan makrosiklik
+isomer geometri
+isomer optik
+isomer ikatan
+isomer ionisasi
+sisplatin
+teori ikatan valensi
+teori medan kristal
+deret spektrokimia
+spin tinggi
+spin rendah
+energi penstabilan medan kristal
+energi pemasangan
+momen magnet spin saja
+distorsi Jahn–Teller
+aturan 18 elektron
+tetapan kestabilan
+deret Irving–Williams
+efek kelat
+efek makrosiklik
+kompleks inert
+kompleks labil
+EDTA
+deuterium
+tritium
+efek isotop
+efek isotop kinetik
+energi titik nol
+orto-hidrogen
+para-hidrogen
+reformasi uap metana
+reaksi geser air–gas
+hidrida ionik
+hidrida kovalen
+hidrida logam
+ikatan dihidrogen
+klatrat hidrat
+hidrat metana
+es Ih
+aturan es
+entropi sisa
+mekanisme Grotthuss
+gas mulia
+argon
+helium
+superfluida
+xenon difluorida
+xenon tetrafluorida
+xenon heksafluorida
+xenon trioksida
+perxenat
+kripton difluorida
+radon
+nuklida
+isotop
+isobar
+isoton
+pita kestabilan
+bilangan ajaib
+defek massa
+energi ikat inti
+rumus massa semiempiris
+peluruhan alfa
+peluruhan beta
+positron
+penangkapan elektron
+sinar gama
+isomer inti
+deret peluruhan
+waktu paruh
+becquerel
+penanggalan radiokarbon
+penanggalan uranium–timbal
+transmutasi
+fisi
+reaksi berantai
+moderator
+fusi
+nukleosintesis
+proses tiga-alfa
+proses r
+teknesium-99m
+tomografi emisi positron
+analisis aktivasi neutron
+gray
+sievert

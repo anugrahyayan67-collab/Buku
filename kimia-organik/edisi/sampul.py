@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Sampul depan & belakang Kimia Organik 1 Edisi 1 + gambar: isoterm bercahaya dan siklus Carnot.
+# Sampul depan & belakang Kimia Organik 1 Edisi 1 + gambar: rumus kerangka parasetamol bercahaya dan panah lengkung mekanisme.
 import os, re, glob, numpy as np, matplotlib
 matplotlib.use('Agg'); import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
@@ -19,27 +19,79 @@ def latar(nama, cx, cy, sk, redup=1.0, w=8.27, h=11.69):
     for rr, al in [(2.2, .35), (3.4, .18)]:
         for k2, a2 in [(6, .05), (2.5, .2), (1, 1)]: ax.plot(cx + rr * np.cos(t), cy + rr * np.sin(t), color='#e9b949', lw=0.8 * k2, alpha=al * a2 * redup)
     ax.set_xlim(0, w); ax.set_ylim(0, h); f.savefig(f'{K}/{nama}', transparent=True); plt.close(f)
-f = plt.figure(figsize=(6.7, 6.2), dpi=220); ax = f.add_axes([0, 0, 1, 1]); ax.axis('off'); ax.set_xlim(0.45, 2.75); ax.set_ylim(0.15, 6.1)
-def neon(x, y, c, lw=1.0, al=1.0):
-    for k, a2 in [(9, .04), (5, .09), (2.4, .25), (1, 1)]: ax.plot(x, y, color=c, lw=lw * k, alpha=a2 * al, solid_capstyle='round')
-kp = 0.95; p = lambda x, T: kp * T / x
-V = np.linspace(0.5, 2.7, 400)
-warna = ['#24603f', '#a8382a', '#c9502f', '#e2733a', '#f4a261', '#f7c27a', '#fbe0a8']
-for i, c in enumerate(warna):
-    T = 1.0 + 0.4 * i; m = p(V, T) < 6.0; neon(V[m], p(V[m], T), c, 0.6, 0.45 + 0.07 * i)
-# siklus Carnot gas monoatomik (gamma = 5/3): dua isoterm emas, dua adiabat putih
-g = 5 / 3; Th, Tc = 2.6, 1.6; VA, VB = 0.62, 1.12
-VC = VB * (Th / Tc) ** (1 / (g - 1)); VD = VA * (Th / Tc) ** (1 / (g - 1))
-x1 = np.linspace(VA, VB, 100); x2 = np.linspace(VB, VC, 100); x3 = np.linspace(VC, VD, 100); x4 = np.linspace(VD, VA, 100)
-ax.fill(np.r_[x1, x2, x3, x4], np.r_[p(x1, Th), p(VB, Th) * (VB / x2) ** g, p(x3, Tc), p(VD, Tc) * (VD / x4) ** g], color='#e9b949', alpha=0.10, lw=0)
-neon(x1, p(x1, Th), '#e9b949', 1.6); neon(x3, p(x3, Tc), '#e9b949', 1.6)
-neon(x2, p(VB, Th) * (VB / x2) ** g, '#fff3d6', 1.4); neon(x4, p(VD, Tc) * (VD / x4) ** g, '#fff3d6', 1.4)
-for (x, y) in [(VA, p(VA, Th)), (VB, p(VB, Th)), (VC, p(VC, Tc)), (VD, p(VD, Tc))]:
-    for k, a2 in [(10, .05), (4, .15), (1, 1)]: ax.scatter(x, y, s=30 * k, color='#e9b949', alpha=a2, lw=0, zorder=5)
+# Ilustrasi panel: rumus kerangka parasetamol bercahaya + panah lengkung (Nu menyerang C=O),
+# dengan kerangka molekul samar di latar (sikloheksana, rantai zig-zag, cincin aromatik).
+import matplotlib.patheffects as pe
+from matplotlib.patches import FancyArrowPatch
+f = plt.figure(figsize=(6.7, 6.2), dpi=220); ax = f.add_axes([0, 0, 1, 1]); ax.axis('off')
+ax.set_xlim(-4.8, 4.8); ax.set_ylim(-4.45, 4.45); ax.set_aspect('equal')
+def neon(x, y, c, lw=1.0, al=1.0, glow='#9fd8a8'):
+    for k, a2, cc in [(9, .05, glow), (5, .10, glow), (2.4, .28, glow), (1, 1, c)]:
+        ax.plot(x, y, color=cc, lw=lw * k, alpha=a2 * al, solid_capstyle='round', solid_joinstyle='round')
+def ikatan(p1, p2, c='#e8f7ee', lw=1.5, al=1.0, pendek=(0, 0)):
+    (x1, y1), (x2, y2) = p1, p2; dx, dy = x2 - x1, y2 - y1; d = np.hypot(dx, dy)
+    a1, a2 = pendek[0] / d, pendek[1] / d
+    neon([x1 + a1 * dx, x2 - a2 * dx], [y1 + a1 * dy, y2 - a2 * dy], c, lw, al)
+def ganda_dalam(p1, p2, pusat, lw=1.3, al=1.0):
+    # garis kedua ikatan rangkap di sisi dalam cincin, sedikit lebih pendek
+    (x1, y1), (x2, y2) = p1, p2; mx, my = (x1 + x2) / 2, (y1 + y2) / 2
+    vx, vy = pusat[0] - mx, pusat[1] - my; n = np.hypot(vx, vy); vx, vy = vx / n * 0.26, vy / n * 0.26
+    t = 0.18; ikatan((x1 + (x2 - x1) * t + vx, y1 + (y2 - y1) * t + vy), (x2 - (x2 - x1) * t + vx, y2 - (y2 - y1) * t + vy), lw=lw, al=al)
+def label(x, y, teks, c='#f6d27a', fs=27):
+    ax.text(x, y, teks, color=c, fontsize=fs, fontweight='bold', family='Liberation Sans', ha='center', va='center', zorder=6,
+            path_effects=[pe.withStroke(linewidth=9, foreground=(0.91, 0.73, 0.29, 0.10)), pe.withStroke(linewidth=4, foreground=(0.91, 0.73, 0.29, 0.25))])
+
+# --- latar: kerangka molekul samar
+def bentuk(titik, cx, cy, sk, rot, tutup=False, al=0.24):
+    t = np.array(titik, float); r = np.deg2rad(rot); R2 = np.array([[np.cos(r), -np.sin(r)], [np.sin(r), np.cos(r)]])
+    t = t @ R2.T * sk + [cx, cy]
+    if tutup: t = np.vstack([t, t[:1]])
+    neon(t[:, 0], t[:, 1], '#9fd8a8', 0.7, al)
+heks = [(np.cos(np.pi / 3 * k), np.sin(np.pi / 3 * k)) for k in range(6)]
+kursi = [(0, 0), (0.87, 0.5), (1.87, 0.35), (2.6, 0.9), (1.73, 0.4), (0.73, 0.55)]
+zig = [(0.87 * k, 0.5 * (k % 2)) for k in range(6)]
+for (cx, cy, sk, rot, jenis) in [(-3.6, 3.3, 0.55, 15, 'h'), (3.5, 3.6, 0.5, 0, 'k'), (-3.9, -3.5, 0.6, 20, 'z'),
+                                 (3.6, -3.3, 0.55, -10, 'h'), (-4.2, 0.6, 0.45, 80, 'z'), (0.6, 3.9, 0.45, -5, 'z'),
+                                 (0.2, -3.9, 0.5, 30, 'k'), (4.2, -1.9, 0.42, 90, 'h')]:
+    if jenis == 'h': bentuk(heks, cx, cy, sk, rot, True)
+    elif jenis == 'k': bentuk(kursi, cx - 0.7, cy, sk, rot, True)
+    else: bentuk(zig, cx - 1.2, cy, sk, rot)
+
+# --- molekul utama: parasetamol, HO-C6H4-NH-C(=O)-CH3, panjang ikatan L
+L = 1.45; ox, oy = -0.8, -1.0
+P = lambda x, y: (ox + L * x, oy + L * y)
+V = [P(np.cos(np.pi / 3 * k), np.sin(np.pi / 3 * k)) for k in range(6)]
+pusat = P(0, 0)
+for k in range(6): ikatan(V[k], V[(k + 1) % 6])
+for k in (0, 2, 4): ganda_dalam(V[k], V[(k + 1) % 6], pusat)
+O1 = P(-2, 0); N = P(2, 0); Ck = P(2.5, 0.866); Ok = P(2.5, 1.866); Me = P(3.5, 0.866)
+ikatan(V[3], O1, pendek=(0, 0.42)); label(O1[0] - 0.25, O1[1], 'HO')
+ikatan(V[0], N, pendek=(0, 0.36)); label(*N, 'N'); label(N[0], N[1] - 0.68, 'H', fs=21)
+ikatan(N, Ck, pendek=(0.36, 0)); ikatan(Ck, Me)
+ikatan(Ck, Ok, pendek=(0, 0.36))
+dx = 0.24
+ikatan((Ck[0] + dx, Ck[1] + 0.14), (Ok[0] + dx, Ok[1]), pendek=(0, 0.4))
+label(*Ok, 'O')
+# pasangan elektron bebas pada O karbonil
+for sx in (-0.17, 0.17):
+    for k2, a2 in [(6, .08), (1, .9)]: ax.scatter(Ok[0] + sx * 1.2, Ok[1] + 0.46, s=9 * k2, color='#f6d27a', alpha=a2, lw=0, zorder=6)
+
+# --- panah lengkung: Nu⁻ menyerang C karbonil, elektron π pindah ke O
+Nu = (Ck[0] + 0.75, Ck[1] + 2.0); label(Nu[0] + 0.3, Nu[1] + 0.15, 'Nu', c='#f4a261', fs=24)
+neon([Nu[0] + 0.8, Nu[0] + 1.04], [Nu[1] + 0.47, Nu[1] + 0.47], '#f4a261', 1.6, glow='#f4a261')  # muatan negatif
+def panah(a, b, rad, c='#f4a261'):
+    for k, a2 in [(5, .07), (2.5, .2), (1, 1)]:
+        ax.add_patch(FancyArrowPatch(a, b, connectionstyle=f'arc3,rad={rad}', arrowstyle='-|>,head_length=6,head_width=3.2',
+                                     mutation_scale=1.6 if k == 1 else 1.6, lw=1.5 * k, color=c, alpha=a2, zorder=7))
+panah((Nu[0] + 0.45, Nu[1] - 0.3), (Ck[0] + 0.16, Ck[1] + 0.14), -0.5)
+panah(((Ck[0] + Ok[0]) / 2 - 0.1, (Ck[1] + Ok[1]) / 2), (Ok[0] - 0.5, Ok[1] + 0.1), -1.0)
+
+# --- butir cahaya
 rng = np.random.default_rng(4)
-for _ in range(40):
-    x, y = rng.uniform(0.5, 2.7), rng.uniform(0.3, 5.9); r = rng.uniform(4, 14)
-    for k, a2 in [(8, .03), (3, .1), (1, .5)]: ax.scatter(x, y, s=r * k, color='#fbe0a8', alpha=a2, lw=0)
+for _ in range(45):
+    x, y = rng.uniform(-4.6, 4.6), rng.uniform(-4.3, 4.3); r = rng.uniform(4, 14)
+    if abs(x - 0.3) < 3.4 and abs(y - 0.3) < 2.8: continue
+    for k, a2 in [(8, .03), (3, .1), (1, .5)]: ax.scatter(x, y, s=r * k, color='#d8f3df', alpha=a2, lw=0)
 f.savefig(f'{K}/sampul-latar.png', transparent=True); plt.close(f)
 daftar = ''.join(f'<li><b>{n}</b>{t}</li>' for n, t in JUDUL)
 open(f'{K}/sampul.html', 'w').write(f'''<!doctype html><html><head><meta charset="utf-8"><style>

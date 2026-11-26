@@ -116,7 +116,7 @@ h2, h3 { break-after: avoid; page-break-after: avoid; }
    Tiga kotak pembuka bab (Pertanyaan pembuka, Tujuan belajar, Prasyarat) bergaya sama persis. */
 div.strategi, div.tujuan, div.mat, div.inti, div.dalam, div.terapan, div.awas {
   background: color-mix(in srgb, var(--muda) 55%, #fff); color: var(--ink); border: .3mm solid var(--garis); border-left: 1.6mm solid var(--tua);
-  border-top-width: .3mm; border-radius: 0 2mm 2mm 0; padding: 3.4mm 5.5mm 3mm 5.5mm; margin: 4.5mm 0; box-shadow: none; text-align: left; }
+  border-top-width: .3mm; border-radius: 0 2mm 2mm 0; padding: 3.4mm 5.5mm 3mm 5.5mm; margin: 4.5mm 0; box-shadow: none; }
 div.strategi > p:first-child > strong:first-child, div.tujuan > p:first-child > strong:first-child,
 div.mat > p:first-child > strong:first-child, div.dalam > p:first-child > strong:first-child,
 div.terapan > p:first-child > strong:first-child, div.awas > p:first-child > strong:first-child {
@@ -127,7 +127,7 @@ div.strategi ol, div.tujuan ol { margin: 1mm 0 0 0; }
 div.strategi li::marker, div.tujuan li::marker { color: var(--biru); font-weight: 700; }
 div.mat:not(div.tujuan + div.mat) { background: #fdf9f0; border-left-color: var(--jingga); }
 div.mat:not(div.tujuan + div.mat) > p:first-child > strong:first-child { color: var(--jingga); }
-div.inti { background: var(--muda); border-left-color: var(--biru); margin: 4mm 0; padding: 3mm 6mm; text-align: left; }
+div.inti { background: var(--muda); border-left-color: var(--biru); margin: 4mm 0; padding: 3mm 6mm; }
 div.inti strong { color: var(--tua); }
 div.dalam { background: #fff; border-left-color: var(--hangat); }
 div.dalam > p:first-child > strong:first-child { color: var(--hangat); }
@@ -140,6 +140,7 @@ div.kuis { border: .3mm solid var(--garis); border-left: 1.6mm solid var(--biru)
 td { border-bottom: .3px solid var(--garis); }
 tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--muda) 60%, #fff); }
 p:has(+ table) { break-after: avoid; page-break-after: avoid; text-indent: 0 !important; }
+table { break-before: avoid; }
 /* Pertanyaan dan Soal akhir bab: dua kolom (turun di kiri, lalu lanjut di kanan) */
 .soal2 { column-count: 2; column-gap: 8mm; column-rule: .3px solid var(--garis); }
 .soal2 > blockquote:first-child { column-span: all; margin-bottom: 3mm; }
@@ -162,3 +163,14 @@ p:has(+ table) { break-after: avoid; page-break-after: avoid; text-indent: 0 !im
 
 /* Pertanyaan dan Soal rata kanan-kiri */
 .soal2, .soal2 p, .soal2 li { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+
+/* ===== Satu kombinasi warna untuk SEMUA kotak (permintaan penyusun, 25-11-2026) =====
+   Garis kiri warna tua, latar terang, judul warna tua; sama di semua buku seri. */
+div.strategi, div.tujuan, div.mat, div.inti, div.dalam, div.terapan, div.awas, div.kuis,
+div.mat:not(div.tujuan + div.mat) {
+  background: color-mix(in srgb, var(--muda) 60%, #fff); border: .3mm solid var(--garis);
+  border-left: 1.6mm solid var(--tua); border-radius: 0 2mm 2mm 0; }
+div.strategi > p:first-child > strong:first-child, div.tujuan > p:first-child > strong:first-child,
+div.mat > p:first-child > strong:first-child, div.mat:not(div.tujuan + div.mat) > p:first-child > strong:first-child,
+div.dalam > p:first-child > strong:first-child, div.terapan > p:first-child > strong:first-child,
+div.awas > p:first-child > strong:first-child, div.inti strong, div.kuis > p:first-child > strong:first-child { color: var(--tua); }

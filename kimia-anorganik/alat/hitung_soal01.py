@@ -1,0 +1,20 @@
+#!/usr/bin/env python3
+from math import sqrt, exp
+R = 13.606
+print('H:He atom', round((74/1.008)/(24/4.003), 1))
+print('Li2+ IE', round(9*R, 1), '; H 3->2 nm', round(1239.84/(R*(1/4-1/9)), 1), '; He+ 2->1 eV', round(4*R*(1-1/4), 1), 'nm', round(1239.84/(4*R*0.75), 1))
+print('Rb 5s Zeff', round(5*sqrt(4.177/R), 2), '; Cs 6s', round(6*sqrt(3.894/R), 2))
+print('Slater O2p', 8-(1.70+5*.35), 'Mg3s', 12-(0.35+8*.85+2), 'Br4p', round(35-(6*.35+18*.85+10), 2), 'Ti3d', 22-(0.35+18), 'Ti4s', round(22-(0.35+10*.85+10), 2), 'Ca4s', 20-(0.35+8*.85+10))
+print('Cu 4s', round(29-(0+18*.85+10), 2), 'Cu 3d', round(29-(9*.35+18), 2))
+print('IE kJ/mol: Ca', [round(x*96.485) for x in (6.113, 11.872, 50.913)], 'ratio', round(50.913/11.872, 2))
+print('Cs-Cl', round((3.894-3.613)*96.485), 'kJ/mol')
+print('HBr Pauling', round(0.102*sqrt(366-sqrt(436*193)), 2), 'Delta', round(366-sqrt(436*193), 1))
+print('HI Pauling', round(0.102*sqrt(298-sqrt(436*151)), 2), 'Delta', round(298-sqrt(436*151), 1))
+print('Mulliken Br', round(0.187*(11.814+3.364)+0.17, 2), 'I', round(0.187*(10.451+3.059)+0.17, 2))
+print('AR O', round(0.744+3590*(8-(1.7+6*.35))/73**2, 2), 'Si', round(0.744+3590*(14-(2+6.8+4*.35))/117**2, 2), 'S r=102', round(0.744+3590*(16-(2+6.8+6*.35))/102**2, 2))
+print('ionik KCl dchi', round(3.16-0.82, 2), '->', round(100*(1-exp(-(3.16-0.82)**2/4))), '%; LiI', round(2.66-0.98, 2), '->', round(100*(1-exp(-(2.66-0.98)**2/4))), '%')
+b = 47/137.036; print('Ag v/c', round(b, 2), 'gamma', round(1/sqrt(1-b*b), 3))
+b = 55/137.036; print('Cs v/c', round(b, 2), 'gamma', round(1/sqrt(1-b*b), 3))
+print('O2 498 lawan 2xO-O', 2*146, '; S=S 425 lawan 2xS-S', 2*266)
+print('z/r^2 x1e4: Fe2+ 78hs', round(1e4*2/78**2, 2), 'Fe3+ 64.5', round(1e4*3/64.5**2, 2), 'Pb2+ 119', round(1e4*2/119**2, 2), 'Sn4+ 69', round(1e4*4/69**2, 2))
+print('kerak Fe atom % 2.2; massa Si/O rasio atom', round(1.004/2.881, 3))

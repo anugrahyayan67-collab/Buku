@@ -1,0 +1,121 @@
+## Subbab 4.1: LCAO dan aturan penggabungan orbital
+
+> Energi orbital atom dari Tabel 4.2; foton He I 21,22 eV, He II 40,81 eV. Soal bertanda **[P]** dibahas di akhir bab.
+
+Berapa orbital molekul yang terbentuk dari orbital valensi dua atom periode 2? Dari orbital valensi CH₄? ||| 8; 8
+Tentukan orde ikatan H₂⁺, H₂, H₂⁻, He₂⁺, dan He₂. ||| ½; 1; ½; ½; 0
+@antiikatan [P] Orbital antiikatan naik lebih tinggi daripada orbital ikatan turun. Jelaskan mengapa He₂ tidak stabil walaupun orde ikatannya "hanya" nol, bukan negatif. ||| karena antiikatan lebih tidak stabil daripada ikatan menstabilkan; energi total naik, sehingga tolakan bersih
+Manakah pasangan orbital yang dapat membentuk ikatan bila sumbu ikatan adalah *z*: (a) s + p~z~, (b) s + p~x~, (c) p~x~ + p~x~, (d) d~xy~ + p~z~, (e) d~xz~ + p~x~? Sebutkan jenis ikatannya. ||| (a) σ; (b) tidak; (c) π; (d) tidak; (e) π
+Mengapa ikatan H–I jauh lebih lemah daripada H–F, walaupun keduanya ikatan tunggal? ||| tumpang tindih 1s H dengan 5p I yang besar dan menyebar kecil; energi juga berjauhan dari 2p F yang lebih cocok
+Sebutkan tiga syarat agar dua orbital atom bergabung secara berarti. ||| simetri sama, energi berdekatan, tumpang tindih besar
+Mengapa orbital ikatan π~u~ bersimetri u, sedangkan orbital ikatan σ~g~ bersimetri g? ||| orbital p bersifat u; penjumlahan dua p menyamping tetap berganti tanda melalui pusat
+@delta [P] Ion [Re₂Cl₈]²⁻ mempunyai ikatan Re–Re rangkap empat. Tentukan konfigurasi elektron d sistem Re–Re dan jelaskan mengapa ion ini tertutup, bukan bersilang. ||| Re(III) d⁴ × 2 = 8: σ²π⁴δ²; ikatan δ memerlukan d~xy~ kedua atom berhadapan, yang hilang pada susunan bersilang
+
+## Subbab 4.2: Diatomik homonuklir periode 2 dan pencampuran s–p
+
+Tuliskan konfigurasi orbital molekul valensi dan orde ikatan Li₂, B₂, C₂, dan N₂. ||| σg²; σg²σu*²πu²: 1; …πu⁴: 2; …πu⁴σg²: 3
+Manakah yang paramagnetik: B₂, C₂, N₂, O₂, F₂? Berapa elektron tak berpasangan masing-masing? ||| B₂ (2), O₂ (2)
+@b2 [P] Tunjukkan bahwa tanpa pencampuran s–p, B₂ diramalkan diamagnetik. Jelaskan bagaimana pencampuran s–p membetulkannya. ||| tanpa: 2 elektron terakhir berpasangan di σg(2p); dengan: σg(2p) di atas πu, dua elektron di dua πu dengan spin sejajar
+Mengapa pencampuran s–p lebih kuat pada B dan C daripada pada O dan F? ||| selisih energi 2s–2p kecil di awal periode (B 5,7 eV, F 27,7 eV)
+Tentukan orde ikatan dan sifat magnet C₂²⁻ dan N₂⁺. ||| 3, diamagnetik; 2,5, paramagnetik (1 elektron)
+Urutkan panjang ikatan O₂⁺, O₂, O₂⁻, O₂²⁻ dan jelaskan. ||| O₂⁺ < O₂ < O₂⁻ < O₂²⁻; elektron ditambahkan ke π*
+Frekuensi regangan O–O (cm⁻¹): O₂⁺ sekitar 1870, O₂ 1556, O₂⁻ sekitar 1145, O₂²⁻ sekitar 770. Jelaskan tren ini dengan orde ikatan. ||| orde 2,5 → 2 → 1,5 → 1; ikatan makin lemah, konstanta gaya kecil
+@f2 [P] F₂ mempunyai orde ikatan 1, tetapi energi ikatannya (159 kJ mol⁻¹) jauh lebih kecil daripada Cl₂ (243 kJ mol⁻¹). Apakah teori orbital molekul sederhana dapat menjelaskannya? Jelaskan apa yang diabaikan. ||| tidak; tolakan pasangan bebas F yang rapat (atom kecil, ikatan pendek), π* penuh sangat antiikatan pada jarak pendek
+Ramalkan apakah Ne₂⁺ ada. Berapa orde ikatannya? ||| ya, orde ½
+Mengapa KO₂ berwarna dan paramagnetik, sedangkan Na₂O₂ diamagnetik? ||| O₂⁻ mempunyai satu elektron tak berpasangan di π*; O₂²⁻ semua berpasangan
+Dari sudut pandang orbital molekul, mengapa N₂ sangat tidak reaktif? ||| orde 3, ikatan sangat kuat; HOMO rendah (15,58 eV) dan LUMO tinggi, celah besar
+
+## Subbab 4.3: Diatomik heteronuklir: CO, NO, HF, dan CN⁻
+
+Berapa elektron valensi CO, NO, CN⁻, NO⁺, dan OH⁻? Mana yang isoelektronik dengan N₂? ||| 10, 11, 10, 10, 8; CO, CN⁻, NO⁺
+@no [P] NO mempunyai energi ionisasi 9,26 eV, jauh lebih rendah daripada N₂ (15,58 eV) dan O₂ (12,07 eV). Jelaskan dengan diagram orbital molekul. Apa yang terjadi pada panjang ikatan ketika NO menjadi NO⁺? ||| elektron dilepas dari 2π* (antiikatan, tinggi); ikatan memendek 115 → 106 pm
+Tentukan orde ikatan dan sifat magnet NO⁻. Dengan molekul mana ia isoelektronik? ||| 2, paramagnetik (2 elektron, seperti O₂); isoelektronik dengan O₂
+Mengapa orbital ikatan HF condong ke F, sedangkan orbital antiikatan condong ke H? ||| orbital ikatan dekat energi F 2p yang lebih rendah; antiikatan dekat H 1s
+@hf [P] Susun diagram orbital molekul HF dengan Tabel 4.2. Orbital F mana yang bergabung dengan H 1s? Mengapa F 2s hampir tidak bergabung, walaupun simetrinya cocok? ||| hanya F 2p~z~ (−18,7 eV, selisih 5 eV); F 2s (−46,4 eV) selisih 33 eV; 2p~x~, 2p~y~ simetri π tak cocok
+Pada LiF gas, orbital Li 2s (−5,5 eV) dan F 2p (−18,7 eV) berselisih 13 eV. Gambarkan diagramnya secara kualitatif dan jelaskan mengapa ikatan ini hampir ionik. ||| orbital ikatan hampir murni F 2p; elektron berpindah ke F
+Mengapa CO terikat pada logam lewat karbon? ||| HOMO 5σ dan LUMO 2π* lebih besar pada C
+Momen dipol CO sangat kecil (0,11 D) dengan ujung negatif pada karbon. Jelaskan mengapa hal ini tidak bertentangan dengan keelektronegatifan. ||| polaritas orbital ikatan (ke O) diimbangi HOMO 5σ yang besar pada C dan menonjol keluar
+Bandingkan HOMO CN⁻ dan CO. Mana yang diramalkan donor σ lebih kuat? ||| CN⁻ (muatan negatif menaikkan energi HOMO)
+Susun diagram orbital molekul OH (radikal hidroksil) secara kualitatif. Di mana elektron tak berpasangannya? ||| mirip HF; 7 elektron valensi; elektron tak berpasangan di orbital π tak berikatan pada O
+Ion BO⁻ dan molekul BF isoelektronik dengan CO. Mana yang diramalkan mempunyai HOMO paling besar pada atom B? ||| BF (selisih elektronegatif terbesar)
+
+## Subbab 4.4: Spektroskopi fotoelektron sebagai bukti
+
+Hitung energi kinetik fotoelektron dari pita pertama H₂O (12,62 eV) dan CO (14,01 eV) dengan sumber He I. ||| 8,60 eV; 7,21 eV
+Mengapa pita 2a₁ air (32,2 eV) tidak tampak dalam spektrum He I, tetapi tampak dengan He II? Berapa energi kinetiknya dengan He II? ||| 21,22 eV < 32,2 eV; 40,81 − 32,2 = 8,61 eV
+Hitung panjang gelombang foton He I dan He II. ||| 58,4 nm; 30,4 nm
+@koopmans [P] Nyatakan teorema Koopmans dan dua alasan mengapa ia tidak selalu benar. Berikan satu contoh kegagalannya. ||| EI ≈ −ε; relaksasi orbital dan korelasi elektron diabaikan; N₂: Hartree–Fock menempatkan πu di atas σg
+Pita PES yang tajam lawan pita yang lebar dengan deret getaran: apa yang diungkapkan masing-masing tentang orbital yang diionkan? ||| tajam: tak berikatan; lebar: ikatan atau antiikatan (geometri ion berubah)
+Pita pertama PES HBr pada 11,7 eV tajam. Orbital apakah itu? ||| pasangan bebas π Br (tak berikatan)
+@getaran [P] Dalam PES N₂, pita 16,93 eV menunjukkan deret getaran dengan jarak sekitar 1900 cm⁻¹. Nyatakan jarak itu dalam kJ mol⁻¹ dan eV, lalu bandingkan dengan frekuensi N₂ netral (2330 cm⁻¹). ||| 22,7 kJ mol⁻¹ = 0,236 eV; turun 430 cm⁻¹: orbital ikatan kuat
+Melepas elektron dari orbital antiikatan menghasilkan ion dengan frekuensi getaran lebih besar atau lebih kecil daripada molekul netral? Berikan contoh. ||| lebih besar; O₂ → O₂⁺ (1556 → sekitar 1870 cm⁻¹)
+Mengapa intensitas pita π dalam PES N₂ sekitar dua kali pita σ? ||| empat elektron π, dua elektron σ
+PES CH₄ menunjukkan dua pita, bukan satu. Apa kesimpulannya tentang gambaran empat ikatan sp³ setara? ||| energi elektron tidak setara: a₁ dan t₂; sp³ hanya benar untuk kerapatan total
+Dalam satu artikel, HOMO air disebut 1b₁, sedangkan buku ini menyebutnya 1b₂. Apakah salah satu keliru? Jelaskan. ||| tidak; berbeda pilihan bidang molekul (yz lawan xz)
+
+## Subbab 4.5: Molekul linear tiga atom: BeH₂ dan CO₂
+
+Untuk BeH₂, tentukan simetri orbital valensi Be dan SALC H, lalu orbital mana yang tak berikatan. ||| Be 2s σg⁺, 2p~z~ σu⁺, 2p~x,y~ πu; SALC σg⁺ + σu⁺; πu tak berikatan (kosong)
+@beh2 [P] Susun diagram orbital molekul BeH₂ dan jelaskan mengapa orde ikatan Be–H rata-rata 1 walaupun tidak ada orbital yang terpusat pada satu ikatan Be–H. ||| dua orbital ikatan (σg, σu) terisi, masing-masing tersebar di tiga atom; dua pasangan untuk dua ikatan
+Mengapa BeH₂ padat berupa polimer? ||| Be kekurangan elektron, dua orbital p kosong; ikatan jembatan 3c-2e
+Berapa elektron valensi CO₂? Isi orbital molekulnya. ||| 16: dua O 2s, σg, σu, 2 πu, 2 πg
+Mengapa SALC π~g~ oksigen pada CO₂ tidak dapat bergabung dengan orbital karbon? ||| C tidak mempunyai orbital valensi πg (hanya d)
+@co2 [P] PES CO₂ menunjukkan pita 1π~g~ (13,78 eV) tajam dan pita 1π~u~ (17,59 eV) dengan deret getaran panjang. Jelaskan perbedaan ini. ||| πg tak berikatan (murni O); πu ikatan tiga pusat
+Ion N₃⁻ dan molekul N₂O isoelektronik dengan CO₂. Ramalkan bentuknya. ||| keduanya linear
+Mengapa CO₂⁺ tetap linear dan simetris? ||| elektron dilepas dari orbital tersebar πg; kedua ikatan tetap setara
+
+## Subbab 4.6: Molekul bengkok dan piramida: H₂O dan NH₃
+
+Untuk air (bidang *xz*), tentukan simetri O 2s, 2p~x~, 2p~y~, 2p~z~ dan SALC H 1s. ||| a₁, b₁, b₂, a₁; SALC a₁ + b₁
+Orbital O mana yang bergabung dengan SALC a₁ hidrogen? Mengapa ada dua? ||| 2s dan 2p~z~ (keduanya a₁)
+@h2o [P] Isi delapan elektron valensi air ke diagram orbital molekul dan cocokkan dengan empat pita PES (12,62; 14,74; 18,51; 32,2 eV). ||| 1b₂ 12,62; 3a₁ 14,74; 1b₁ 18,51; 2a₁ 32,2
+Apakah air mempunyai "dua pasangan bebas setara"? Jawab untuk energi dan untuk kerapatan total. ||| energi: tidak (1b₂, 3a₁); kerapatan total: dapat digambarkan setara
+Untuk NH₃, tentukan simetri orbital N dan SALC H, lalu isi orbitalnya. ||| N 2s a₁, 2p~z~ a₁, (2p~x~, 2p~y~) e; SALC a₁ + e; 2a₁² 1e⁴ 3a₁²
+Mengapa NH₃⁺ hampir datar? ||| elektron dilepas dari 3a₁, orbital yang menyukai bentuk piramida
+H₂S mempunyai pita PES pertama pada 10,5 eV. Orbital apakah itu, dan mengapa lebih rendah daripada H₂O? ||| pasangan bebas 3p S tegak lurus bidang; S kurang elektronegatif, 3p lebih tinggi
+@ph3 [P] Pasangan bebas PH₃ (3a₁) mempunyai karakter s jauh lebih besar daripada NH₃ (Bab 2). Bagaimana hal ini memengaruhi kebasaan Brønsted PH₃? ||| pasangan bebas rendah dan bulat, kurang terarah; PH₃ basa jauh lebih lemah
+
+## Subbab 4.7: Molekul tetrahedral dan oktahedral: CH₄ dan SF₆
+
+Susun diagram orbital molekul CH₄ dan tunjukkan bahwa tidak ada orbital tak berikatan. ||| C 2s (a₁) + SALC a₁; 2p (t₂) + SALC t₂
+Berapa pita PES valensi yang diramalkan untuk SiH₄? ||| dua (a₁ dan t₂)
+@lokal [P] Jelaskan mengapa gambaran ikatan sp³ terlokalisasi dan gambaran orbital molekul terdelokalisasi metana memberi kerapatan elektron yang sama, tetapi hanya yang kedua yang menjelaskan PES. ||| transformasi uniter orbital terisi tidak mengubah fungsi total; energi ionisasi sifat satu elektron
+Untuk SF₆ tanpa orbital d, hitung orbital ikatan, tak berikatan, dan orde ikatan S–F. ||| a₁g + t₁u ikatan (8 e), e~g~ tak berikatan pada F (4 e); orde ⅔
+Mengapa senyawa hipervalen hanya stabil dengan ligan elektronegatif? ||| elektron di orbital tak berikatan berada pada ligan; ligan harus mampu menampung muatan negatif
+Untuk ion [BF₄]⁻, tentukan simetri SALC σ fluorin dan pasangannya pada B. Adakah SALC tanpa pasangan? ||| a₁ + t₂; B 2s (a₁), 2p (t₂); tidak ada
+@ml6 [P] Pada kompleks oktahedron ML₆ logam transisi, orbital d mana yang ikut ikatan σ? Orbital mana yang tetap tak berikatan? Mengapa hal ini penting? ||| e~g~ (d~z²~, d~x²−y²~) ikut; t₂g tak berikatan; selisih t₂g–e~g~* = pemisahan medan ligan (Bab 11)
+Mengapa ikatan S–F dalam SF₆ (156 pm) hampir sama dengan dalam SF₂ (159 pm) walaupun orde ikatannya ⅔? ||| muatan positif besar pada S dan tarikan ionik menambah kekuatan ikatan; orde bukan satu-satunya faktor
+
+## Subbab 4.8: Ikatan tiga pusat: diborana dan XeF₂
+
+Hitung elektron valensi B₂H₆ dan tunjukkan pembagiannya untuk ikatan ujung dan jembatan. ||| 12 = 4 × 2 (B–Hₜ) + 2 × 2 (B–H–B)
+Gambar tiga orbital molekul sistem tiga pusat dan tentukan simpulnya. ||| ikatan (0 simpul), tak berikatan (simpul di tengah), antiikatan (2 simpul)
+@al2me6 [P] Al₂(CH₃)₆ berstruktur mirip diborana dengan dua gugus CH₃ jembatan. Hitung elektron yang tersedia untuk ikatan Al–C dan tunjukkan bahwa jembatannya 3c-2e. ||| Al 2 × 3 + 6 CH₃ × 1 = 12 elektron untuk 8 kontak Al–C: 4 ujung (8 e) + 2 jembatan 3c-2e (4 e)
+Mengapa Al₂Cl₆ tidak memerlukan ikatan 3c-2e? ||| Cl jembatan mempunyai pasangan bebas; ikatan koordinasi 2c-2e; 48 elektron cukup
+Jelaskan ikatan dalam I₃⁻ dengan model 3c-4e. Berapa orde ikatan I–I? ||| 5p~z~ ketiga I; ikatan + tak berikatan terisi; orde ½
+@xef2 [P] Pada XeF₂, di mana muatan negatif berada menurut model 3c-4e? Mengapa XeF₂ ada, sedangkan XeH₂ tidak stabil? ||| pada F (orbital tak berikatan); H tidak cukup elektronegatif untuk menampung muatan
+Ion bifluorida [FHF]⁻ simetris. Orbital H apa yang ikut? Berapa orde ikatan H–F? ||| H 1s dengan SALC σ F 2p; ½
+Mengapa ikatan hipervalen selalu terbentuk berpasangan sepanjang garis lurus? ||| satu orbital p menunjuk ke dua arah berlawanan, membentuk sistem 3c-4e linear
+
+## Subbab 4.9: Diagram Walsh: mengapa H₂O bengkok
+
+Orbital AH₂ mana yang paling distabilkan ketika molekul ditekuk? Jelaskan secara fisis. ||| 3a₁ (p tegak lurus sumbu linear yang mulai bertumpang tindih dengan H)
+@walsh [P] Dengan diagram Walsh, ramalkan apakah BeH₂, BH₂, NH₂, dan H₂O linear atau bengkok, dan urutkan sudutnya. ||| BeH₂ linear; BH₂ 131°; NH₂ 103°; H₂O 104,5°; 5–8 elektron bengkok
+Mengapa CH₂ singlet (102°) jauh lebih bengkok daripada CH₂ triplet (sekitar 134°)? ||| singlet: dua elektron di 3a₁; triplet: satu di 3a₁ dan satu di 1b₂
+Ramalkan bentuk NO₂⁺, NO₂, dan NO₂⁻ dengan aturan AB₂. ||| 16 e linear; 17 bengkok (134°); 18 bengkok (115°)
+Ramalkan bentuk O₃, SO₂, dan ClO₂ (19 elektron). ||| semuanya bengkok
+@bh3 [P] Dengan diagram Walsh AH₃ (orbital pasangan bebas 3a₁ turun ketika molekul menjadi piramida), ramalkan bentuk BH₃, CH₃⁺, CH₃, dan CH₃⁻. ||| BH₃, CH₃⁺ datar (6 e); CH₃ hampir datar (7 e); CH₃⁻ piramida (8 e)
+Perhitungan untuk air memberi sudut optimum 104,4° dan penghalang ke bentuk linear 152 kJ mol⁻¹. Bandingkan dengan energi termal *RT* pada 298 K. ||| RT = 2,48 kJ mol⁻¹; penghalang 61 kali lebih besar, air tetap bengkok
+Mengapa keadaan tereksitasi pertama molekul H₂O lebih mendekati linear? ||| elektron dipindah dari 3a₁ atau 1b₂ ke orbital antiikatan; berkurangnya elektron 3a₁ melemahkan kecenderungan bengkok
+
+## Subbab 4.10: HOMO, LUMO, dan reaktivitas anorganik
+
+Definisikan HOMO dan LUMO. Mengapa interaksi dua orbital terisi tidak membentuk ikatan? ||| orbital terisi tertinggi dan kosong terendah; ikatan dan antiikatan sama-sama terisi, antiikatan naik lebih
+Tentukan HOMO NH₃ dan LUMO BF₃, dan jelaskan pembentukan H₃N–BF₃. ||| 3a₁ (pasangan bebas N); 2p~z~ B (a₂″); donasi pasangan bebas
+@co [P] Jelaskan donasi σ dan donasi balik π antara CO dan logam. Mengapa frekuensi regangan C≡O turun ketika CO terikat? ||| 5σ → d kosong; d terisi → 2π*; elektron masuk orbital antiikatan C–O
+Urutkan frekuensi C≡O: [Mn(CO)₆]⁺, Cr(CO)₆, [V(CO)₆]⁻. ||| 2090 > 2000 > 1860
+Mengapa N₂ ligan yang jauh lebih buruk daripada CO? ||| HOMO lebih rendah dan simetris, LUMO lebih tinggi
+Mengapa larutan iodin dalam etanol berwarna cokelat, sedangkan dalam heksana ungu? ||| kompleks transfer muatan: HOMO O etanol menyumbang ke σ* I₂
+@cn [P] Ion sianida dan karbon monoksida sama-sama beracun karena terikat pada besi. Bandingkan kemampuan donor σ dan akseptor π keduanya. ||| CN⁻ donor σ lebih kuat (muatan negatif menaikkan HOMO), akseptor π lebih lemah (LUMO naik); CO donor lebih lemah, akseptor lebih kuat
+Dalam reaksi H⁻ + BH₃ → BH₄⁻, apa HOMO dan LUMO yang berinteraksi? ||| 1s H⁻ (HOMO) dengan 2p~z~ kosong B (LUMO)
+Mengapa O₂ terikat pada besi hemoglobin dengan sudut Fe–O–O bengkok, sedangkan CO terikat linear? ||| O₂ menerima elektron ke π* setengah terisi dan menjadi mirip superoksida (bengkok seperti spesies 17–18 elektron AB₂); CO memakai 5σ yang linear
